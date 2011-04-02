@@ -1,0 +1,161 @@
+Homeworlds Online (SDG# 9329)
+Variants: "Hard time"
+Started: 2007.9.12, Ended: 2008.2.24
+Participants: dsheldon (S), zoltar (N)
+Winner: zoltar
+
+1) zoltar: Homeworld R1 B3 G3
+
+2) dsheldon: Homeworld B2 G3 Y3
+
+3) zoltar: Build G1 Zoltar
+
+4) dsheldon: Build Y1 Dsheldon
+
+5) zoltar: Trade G1 Y1 Zoltar
+
+6) dsheldon: Discover Y1 Dsheldon B1 Berry
+
+7) zoltar: Build G1 Zoltar
+
+8) dsheldon: Trade Y1 G1 Berry
+
+9) zoltar: Build Y1 Zoltar
+
+10) dsheldon: Build Y1 Dsheldon
+
+11) zoltar: Build Y2 Zoltar
+
+12) dsheldon: Build Y2 Dsheldon
+
+13) zoltar: Discover Y1 Zoltar G2 Greenslime
+
+14) dsheldon: Trade Y2 G2 Dsheldon
+
+15) zoltar: Build Y2 Greenslime
+
+16) dsheldon: Trade Y1 R1 Dsheldon
+
+17) zoltar: Trade Y2 R2 Zoltar
+
+18) dsheldon: Build G1 Berry
+
+19) zoltar: Discover G1 Zoltar Y2 Yabbadabbadoo
+
+20) dsheldon: Trade G1 Y1 Berry
+
+21) zoltar: Move Y2 Greenslime Berry
+
+22) dsheldon: Sacrifice Y1 Berry
+Discover G1 Berry Y2 Shortbus
+
+23) zoltar: Move R2 Zoltar Shortbus
+
+24) dsheldon: Build Y1 Dsheldon
+dsheldon: Hmm, I seem to find myself in a very poor position.
+
+25) zoltar: Build Y3 Greenslime
+
+26) dsheldon: Discover Y1 Dsheldon G1 Hope
+
+27) zoltar: Build Y3 Zoltar
+
+28) dsheldon: Discover Y1 Hope B2 Deep
+
+29) zoltar: Attack G1 Shortbus
+
+30) dsheldon: Build R1 Dsheldon
+
+31) zoltar: Build G1 Zoltar
+
+32) dsheldon: Build R2 Dsheldon
+
+33) zoltar: Sacrifice G3 Zoltar
+Build G2 Zoltar
+Build G3 Shortbus
+Build G3 Yabbadabbadoo
+
+34) dsheldon: Discover R1 Dsheldon B1 Sigh
+
+35) zoltar: Trade G2 B2 Zoltar
+
+36) dsheldon: Move G2 Dsheldon Sigh
+
+37) zoltar: Sacrifice G3 Shortbus
+Build G2 Zoltar
+Build G3 Shortbus
+Build B1 Zoltar
+
+38) dsheldon: Build R2 Sigh
+
+39) zoltar: Build R3 Shortbus
+
+40) dsheldon: Move Y1 Deep Sigh
+
+41) zoltar: Move R3 Shortbus Berry
+
+42) dsheldon: Move R1 Dsheldon Berry
+
+43) zoltar: Sacrifice G3 Shortbus
+Build G3 Shortbus
+Build R3 Shortbus
+Build R3 Berry
+
+44) dsheldon: Move R2 Dsheldon Berry
+Catastrophe Berry R
+
+45) zoltar: Move Y3 Greenslime Sigh
+zoltar: With seven battlestars, the Zoltarian fleet is prepared for zee final assault on zee dsheldon homeworld. Battlestations!
+
+46) dsheldon: Sacrifice Y3 Dsheldon
+Move G2 Sigh Dsheldon
+Move R1 Sigh Shortbus
+Move R2 Sigh Shortbus
+Catastrophe Shortbus R
+dsheldon: The best choice of several bad options...
+zoltar: Yep, and the one that holds out the longest, I think. And my response is the most agressive reply I can find, as well.
+
+47) zoltar: Move G3 Shortbus Sigh
+dsheldon: I'm trying to do this and it's not working:
+
+dsheldon: s y3 dsheldon
+dsheldon: m g2 sigh dsheldon
+dsheldon: m r1 sigh shortbus
+dsheldon: m r2 sigh shortbus
+dsheldon: c shortbus r
+
+dsheldon: It gives the error "the dsheldon system does not exist." I wonder if this is a failure to implement the "temporarily leaving your homeworld" rule.
+zoltar: I think that the rule doesn't work, as your homeworld disappears before the other ship returns to it. I don't think the game will let you temporarily abandon your homeworld without destroying it.
+dsheldon: Well, it is a pretty extreme action. It also means I'm left without large ships and in a poor position to ever get one again. I'm considering just resigning. It's been pretty clear for most of the game that I will be defeated.
+dsheldon: Aaron: I was sure that this had been tested in the past and worked fine. I will need to run some tests. The orderset looks fine though. I'm going to freeze the clock. I have a paper due tomorrow but I hope to have a little time over the weekend to catch up a little bit and will look then. Thanks for your patience.
+dsheldon: That sounds just fab. Thanks for the quick response.
+zoltar: Cool. We can wait and see what happens. In the meantime, if you want to start another game, that's fine with me. You're toast in this one no matter what, I think, but this way Aaron can fix the problem with the program in general.
+dsheldon: Aaron: "Fixed." I'm very sorry for the extreme delay. Please see the forums for additional comments regarding this situation.
+zoltar: Whew Who!
+
+48) dsheldon: Trade G2 B2 Dsheldon
+dsheldon: I have no recollection of what I was doing, so I just pasted my old command in from previous comments. It worked! Yeah!
+
+49) zoltar: Sacrifice G3 Yabbadabbadoo
+Build G2 Yabbadabbadoo
+Build G3 Sigh
+Build Y3 Berry
+
+50) dsheldon: Build B3 Dsheldon
+
+51) zoltar: Sacrifice Y3 Zoltar
+Move B1 Zoltar Shortbus
+Move B1 Shortbus Sigh
+Move B1 Sigh Dsheldon
+Catastrophe Dsheldon B
+dsheldon: Well, here goes my last move...
+
+zoltar: Ok, the game will let me move my blue ship in, but it won't let me blow up the dsheldon homeworld. I suppose this move will do, unless Aaron's fix prevents catastrophes from ever occurring in a homeworld, which would make for an interesting handicap actually...
+dsheldon: Well, I must say that I'm quite glad I didn't resign then because I'm always glad to help find bugs.
+
+dsheldon: Still, I'm starting to feel bad for the rest of the ladder participants.
+dsheldon: Aaron: Can you copy and paste the top part of the error screen please? Sorry for the trouble. I was afraid I would blow something up. Homeworlds is a complex beast.
+zoltar: Sure: let's see, I can undo my move, and then redo it with the catastrophe to get the white screen of death, and I'll paste that in for you.
+zoltar: System error [ajo] ...snipped...
+zoltar: Aaron: Try again please.
+zoltar: Hey, it worked. The binary star system blew up instead of the program this time! Cool. GG. 
