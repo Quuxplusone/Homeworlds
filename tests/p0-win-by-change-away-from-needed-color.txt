@@ -1,0 +1,3 @@
+Player1 (0, g2y1) b2b3-
+Yellow (y2) y2-
+Player2 (1, r3y1) r2r1r1g2g2-y3b1

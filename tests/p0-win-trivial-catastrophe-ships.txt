@@ -1,0 +1,2 @@
+Player1 (0, y3g2) g1-
+Player2 (1, g3b2) r1y1b1-b1b1

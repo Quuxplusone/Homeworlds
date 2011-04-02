@@ -1,0 +1,3 @@
+Player1 (0, b3g1) y2g2-
+MoveToSmallWaypointFirst (b2) y1-
+Player2 (1, r3b2) -y1y1y3

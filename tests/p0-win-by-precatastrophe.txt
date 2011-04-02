@@ -1,0 +1,5 @@
+Player1 (0, b3y1) b1b1b1b2-
+Alpha (y3) -g2g2g2
+Beta (y1) -r2r2r2
+Gamma (y1) -r1r1r1g1g1g1
+Player2 (1, b3) b2b2b3-g3y2y2y2

@@ -1,0 +1,4 @@
+PreCatastropheYellowHere (0, y3g1) g2g2-y1y1y2g3
+Alpha (y2) y2-
+Beta (g2) -g3
+BuildY1G2Here (1, y3g1) y1g1-y3g3

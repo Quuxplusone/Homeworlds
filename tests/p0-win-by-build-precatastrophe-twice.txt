@@ -1,0 +1,4 @@
+Player1 (0, y3g2) g1b1-b3
+PreCatastropheHere (r2) r1b1-r1r3
+PreCatastropheHereToo (r2) b1-r2r3r3
+BuildBlueHere (1, b2) b3g2-r1y1g1

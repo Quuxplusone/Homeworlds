@@ -1,0 +1,4 @@
+Player1 (0, g3y2) g3-
+Blueberry (b3) y1y1g1-
+Timbuktu (g2) -r1g1
+Player2 (1, b2g1) r3-y2
