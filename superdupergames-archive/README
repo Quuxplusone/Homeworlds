@@ -23,7 +23,7 @@ Also "9329.raw-raw" and "10575.raw-raw", a different illegal move
 Also "10634.raw-raw", in which the server allowed moves after the end
 of the game.
 
-As of 2011-04-05, this directory contains all the games from the
-SuperDuperGames archive up to 2009-07-29 inclusive, except for games 
-which were abandoned very early, or were obviously being played by 
-beginners.
+As of 2011-04-06, this directory contains all the games from the
+SuperDuperGames archive up to 2009-12-31 inclusive, except for games 
+which were abandoned very early, or appeared to have ended due to
+an unintentional timeout.
