@@ -104,16 +104,16 @@ struct GameApp : public wxApp
 
     /* Event handlers. */
     void OnMouseEvent(wxMouseEvent &e);
-    void OnNewGame(wxCommandEvent &unused) { new_game(); }
-    void load_game(wxCommandEvent &unused);
-    void undo_move(wxCommandEvent &unused);
-    void redo_move(wxCommandEvent &unused);
+    void OnNewGame(wxCommandEvent &) { new_game(); }
+    void load_game(wxCommandEvent &);
+    void undo_move(wxCommandEvent &);
+    void redo_move(wxCommandEvent &);
     void done_starting_position();
-    void done_move(wxCommandEvent &unused);
-    void clear_move(wxCommandEvent &unused);
-    void ai_move(wxCommandEvent &unused);
-    void clicked_quit(wxCommandEvent &unused) { mainwindow->Close(true); }
-    void about(wxCommandEvent &unused);
+    void done_move(wxCommandEvent &);
+    void clear_move(wxCommandEvent &);
+    void ai_move(wxCommandEvent &);
+    void clicked_quit(wxCommandEvent &) { mainwindow->Close(true); }
+    void about(wxCommandEvent &);
 };
 
 
@@ -215,7 +215,7 @@ void GameApp::new_game()
 }
 
 
-void GameApp::load_game(wxCommandEvent &unused)
+void GameApp::load_game(wxCommandEvent &)
 {
     wxFileDialog fdg(this->mainwindow);
     fdg.SetWindowStyleFlag(wxFD_OPEN | wxFD_FILE_MUST_EXIST);
@@ -414,7 +414,7 @@ static bool reassign_a_name_cleverly(const GameState &st, WholeMove &m,
 }
 
 
-void GameApp::done_move(wxCommandEvent &unused)
+void GameApp::done_move(wxCommandEvent &)
 {
     if (just_started_new_game) {
 	done_starting_position();
@@ -471,7 +471,7 @@ void GameApp::done_move(wxCommandEvent &unused)
     mainwindow->Layout();
 }
 
-void GameApp::clear_move(wxCommandEvent &unused)
+void GameApp::clear_move(wxCommandEvent &)
 {
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
     assert(gp != NULL);
@@ -569,7 +569,7 @@ void GameApp::ai_starting_position()
     }
 }
 
-void GameApp::ai_move(wxCommandEvent &unused)
+void GameApp::ai_move(wxCommandEvent &)
 {
     if (just_started_new_game) {
 	/* We're being asked to set up a homeworld system. */
@@ -592,7 +592,7 @@ void GameApp::ai_move(wxCommandEvent &unused)
     mainwindow->SetStatusText(wmsg);
 }
 
-void GameApp::undo_move(wxCommandEvent &unused)
+void GameApp::undo_move(wxCommandEvent &)
 {
     const bool success = this->history.undo();
     if (success) {
@@ -607,7 +607,7 @@ void GameApp::undo_move(wxCommandEvent &unused)
 }
 
 
-void GameApp::redo_move(wxCommandEvent &unused)
+void GameApp::redo_move(wxCommandEvent &)
 {
     const bool success = this->history.redo();
     if (success) {
@@ -622,7 +622,7 @@ void GameApp::redo_move(wxCommandEvent &unused)
 }
 
 
-void GameApp::about(wxCommandEvent &unused)
+void GameApp::about(wxCommandEvent &)
 {
     mainwindow->SetStatusText(wxT(""));
     wxMessageDialog adg(NULL,

@@ -64,7 +64,7 @@ static void drawsquare(wxPaintDC &dc, int w, int h, Size s, Color c, bool justbo
     dc.DrawPolygon(4, points);
 }
 
-void PieceWidget::OnPaint(wxPaintEvent &unused)
+void PieceWidget::OnPaint(wxPaintEvent &)
 {
     wxPaintDC dc(this);
     wxSize size = this->GetSize();
@@ -153,7 +153,7 @@ void PieceWidget::OnPaint(wxPaintEvent &unused)
     dc.DrawPolygon(3, points);
 }
 
-void PieceWidget::OnSize(wxSizeEvent &unused)
+void PieceWidget::OnSize(wxSizeEvent &)
 {
     this->Refresh();
 }

@@ -56,7 +56,7 @@ void StashWidget::add_piece(Size s, Color c)
     si->n += 1;
 }
 
-void StashItem::OnPaint(wxPaintEvent &unused)
+void StashItem::OnPaint(wxPaintEvent &)
 {
     wxPaintDC dc(this);
     wxSize size = this->GetSize();
@@ -96,7 +96,7 @@ void StashItem::OnPaint(wxPaintEvent &unused)
     }
 }
 
-void StashItem::OnSize(wxSizeEvent &unused)
+void StashItem::OnSize(wxSizeEvent &)
 {
     this->Refresh();
 }
