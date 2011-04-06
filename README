@@ -69,9 +69,10 @@ of game states and actions are fairly verbose and hard to manipulate
 (in terms of CPU cycles). One thing on my roadmap for the near future
 is a multi-threaded game tree search based on OpenMP.
 
-http://superdupergames.org/main.html
 http://boardgamegeek.com/boardgame/14634/homeworlds
 http://www.wunderland.com/WTS/Andy/Games/ILoveHomeworlds.html
+http://superdupergames.org/main.html
+http://creativecommons.org/licenses/BSD/
 
 (This project is not affiliated with either SuperDuperGames.org
 or BoardGameGeek.com.)
