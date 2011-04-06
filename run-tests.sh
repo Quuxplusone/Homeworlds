@@ -1,3 +1,4 @@
+make annotate
 for f in tests/p0-win*; do
   echo $f
   echo -e "ai_move\nai_move\nquit\n" | cat $f - | ./annotate -auto >OUTPUT
