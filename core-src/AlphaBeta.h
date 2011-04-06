@@ -162,7 +162,7 @@ bool AlphaBeta<State,Move,Value>::depth_first(const State &st, int ply,
      * we run AlphaBeta.depth_first() on it from the opponent's point of view,
      * we get back a very positive number.
      */
-    Value highestvalue;
+    Value highestvalue(0);
     int highestidx = -1;
     for (int i=0; i < (int)allmoves.size(); ++i) {
         State newstate = st;

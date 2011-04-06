@@ -635,7 +635,7 @@ static bool move_and_record(int attacker)
             assert(1 <= ply && ply <= 20);
             GameStateAugmented sta(g_History.currentstate(), attacker);
             WholeMove bestmove;
-            GSA::Value bestvalue;
+            GSA::Value bestvalue = 42;  /* initialize just to avoid a warning */
             const bool has_moves =
                 g_RolloutAB.depth_first_alpha_beta(sta, ply, bestmove, bestvalue, -1000, +1000);
             assert(has_moves);
