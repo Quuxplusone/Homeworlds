@@ -1,0 +1,77 @@
+This is a C++ framework for working with the game of Binary Homeworlds,
+a two-player game of strategy and tactics that might aptly be described
+as "space chess".  Homeworlds is normally played with a set of Icehouse
+pieces in four colors, and without a board; the pieces shift on and off
+the table during the game to represent star systems and spaceships.
+The goal of the game is to eliminate all of the ships defending your
+enemy's homeworld: by moving in a larger ship to capture them, by
+sending in fleets of the appropriate colors to catastrophe them, or by
+sending in those fleets to catastrophe the enemy's binary star system
+itself.
+
+This project consists of four main components:
+
+ - Portable C++ code for a command-line-driven game analyzer, "annotate".
+   The analyzer includes a very simple AI (nothing more than an
+   evaluation function and a simple sanity filter to avoid moving
+   directly into check), so it can be used to play games against the
+   computer. The analyzer's depth-first search function can be used to
+   unfold endgame positions from human games, to see when exactly escape
+   became inevitable.  This code is in the core-src/ directory.
+
+ - Portable C++ code (using the wxWidgets library) for a GUI analog
+   to "annotate", named "wxgui". This is a work in progress. Eventually
+   I hope to give it all the functionality of "annotate", plus nice
+   graphics.  This code is in the wxgui-src/ directory.
+
+ - Regression tests for the analyzer. Tests beginning "p0-win" are
+   endgame positions from which there is a winning move; tests beginning
+   "p0-nowin" are endgame positions from which there is no winning move.
+   Some tests hinge upon very obscure points in the rules, such as
+   sacrificing a ship in order to build it later in the same turn,
+   or sacrificing a homeworld's last defender.  These tests are in
+   the tests/ directory.
+
+ - A partial mirror of the SuperDuperGames.org game archive, containing
+   over 700 game transcripts to date. Includes a Perl script to translate
+   the archive games from SDG's format into the format expected by
+   "annotate".  These transcripts are in the superdupergames-archive/
+   directory.
+
+The contents of this repository are licensed by Arthur O'Dwyer under
+the Creative Commons BSD License, with the following two restrictions:
+
+ - The transcripts in the superdupergames-archive/ directory are not
+   mine to copyright. I guess technically their copyright belongs to
+   the players in each individual game. (If you see anything in that
+   directory that you think ought to be removed for privacy reasons,
+   let me know.)
+
+ - If you use any of this source code in writing an AI or "bot" and
+   then use that bot to play games via email or on a server somewhere,
+   your bot must include the string "Bot" in its username. This
+   license condition is pretty much intended to prevent people from
+   "cheating" on SuperDuperGames. (However, I would hope that anyone
+   smart enough to write a decent Homeworlds player wouldn't really
+   do anything dubious with it. And the AI on "annotate" at the moment
+   is much weaker than even a weak human player.)
+
+Do you know how to make the wxWidgets GUI look better? Please submit
+a patch! If you don't want to deal with the GitHub overhead, you can
+send me an email or even try PM'ing me on BoardGameGeek with suggestions.
+
+Do you think you can make a better AI? Again, please submit a patch!
+I know the current AI is very weak. One hurdle is that it's not always
+feasible to look more than one move ahead, unless you can figure out
+how to prune bad moves. Homeworlds has a much higher branching factor
+than either chess or go. Another hurdle is that my internal representations
+of game states and actions are fairly verbose and hard to manipulate
+(in terms of CPU cycles). One thing on my roadmap for the near future
+is a multi-threaded game tree search based on OpenMP.
+
+http://superdupergames.org/main.html
+http://boardgamegeek.com/boardgame/14634/homeworlds
+http://www.wunderland.com/WTS/Andy/Games/ILoveHomeworlds.html
+
+(This project is not affiliated with either SuperDuperGames.org
+or BoardGameGeek.com.)
