@@ -56,17 +56,17 @@ class SingleAction {
     SingleAction(const SingleAction &a): kind(a.kind), where(a.where),
         whither(a.whither), color(a.color), size(a.size),
         newcolor(a.newcolor), newsize(a.newsize) { }
-    SingleAction(const char *text) { const bool rc = scan(text); assert(rc); }
-    SingleAction(const std::string &text) { const bool rc = scan(text.c_str()); assert(rc); }
+    SingleAction(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }
+    SingleAction(const std::string &text) { const bool UNUSED(rc) = scan(text.c_str()); assert(rc); }
     ~SingleAction() { }
     
     /* These constructors are provided for efficiency. If you don't care about efficiency,
      * you should probably just use the constructor SingleAction(const char *) and let it parse
      * out the action for you. */
     /* SingleAction(PASS) */
-    SingleAction(SingleActionKind kind):
+    SingleAction(SingleActionKind UNUSED(k)):
      kind(PASS)
-     { assert(kind == PASS); }
+     { assert(k == PASS); }
     /* SingleAction(SACRIFICE, RED, SMALL, "Sacloc")
      * SingleAction(CAPTURE, RED, SMALL, "Caploc")
      * SingleAction(BUILD, RED, SMALL, "Buildloc") */
@@ -106,9 +106,9 @@ class WholeMove {
 
     std::string toString() const;
     bool scan(const char *text);
-    WholeMove() { const bool rc = scan("pass"); assert(rc); }
-    WholeMove(const char *text) { const bool rc = scan(text); assert(rc); }
-    WholeMove(const std::string &text) { const bool rc = scan(text.c_str()); assert(rc); }
+    WholeMove() { const bool UNUSED(rc) = scan("pass"); assert(rc); }
+    WholeMove(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }
+    WholeMove(const std::string &text) { const bool UNUSED(rc) = scan(text.c_str()); assert(rc); }
     WholeMove(const WholeMove &m): actions(m.actions) { }
     WholeMove(const WholeMove &m, const SingleAction &a): actions(m.actions)
         { *this += a; }

@@ -5,6 +5,14 @@
 #include <assert.h>
 #include <string>
 
+/* Variables that are used only in assertions should use this. */
+#ifdef NDEBUG
+ #define UNUSED(varname) __attribute__((unused)) varname
+#else
+ #define UNUSED(varname) varname
+#endif /* NDEBUG */
+
+
 #define NUMPLAYERS 2
 
 enum Color { RED=0, YELLOW=1, GREEN=2, BLUE=3, UNKNOWN_COLOR=4 };

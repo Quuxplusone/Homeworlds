@@ -20,8 +20,8 @@ Size PieceCollection::smallestSizeOf(Color c) const
     if (pieces[c][SMALL] > 0) return SMALL;
     if (pieces[c][MEDIUM] > 0) return MEDIUM;
     if (pieces[c][LARGE] > 0) return LARGE;
-    /*NOTREACHED*/
     assert(false);
+    /*NOTREACHED*/
 }
 
 bool PieceCollection::contains(const PieceCollection &rhs) const

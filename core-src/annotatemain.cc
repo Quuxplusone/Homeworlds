@@ -169,7 +169,7 @@ class History {
         hvec.resize(hidx+1);
         hvec.push_back(hvec[hidx]);
         ++hidx;
-        const bool success = ApplyMove::Whole(hvec[hidx].st, attacker, move);
+        const bool UNUSED(success) = ApplyMove::Whole(hvec[hidx].st, attacker, move);
         assert(success);
         hvec[hidx].move = move;
     }
@@ -636,7 +636,7 @@ static bool move_and_record(int attacker)
             GameStateAugmented sta(g_History.currentstate(), attacker);
             WholeMove bestmove;
             GSA::Value bestvalue = 42;  /* initialize just to avoid a warning */
-            const bool has_moves =
+            const bool UNUSED(has_moves) =
                 g_RolloutAB.depth_first_alpha_beta(sta, ply, bestmove, bestvalue, -1000, +1000);
             assert(has_moves);
             reassignPlanetNames(bestmove, g_History.currentstate(), NULL);
@@ -685,7 +685,7 @@ static bool move_and_record(int attacker)
             WholeMove bestmove;
             GSA::Value bestvalue;
             GSA::evaluateCount = 0;
-            const bool has_moves = g_TimedSearchAB.breadth_first(sta, INT_MAX, bestmove, bestvalue);
+            const bool UNUSED(has_moves) = g_TimedSearchAB.breadth_first(sta, INT_MAX, bestmove, bestvalue);
             assert(has_moves);
             reassignPlanetNames(bestmove, g_History.currentstate(), NULL);
             assert(ApplyMove::isValidMove(g_History.currentstate(), attacker, bestmove));
@@ -867,7 +867,7 @@ int main(int argc, char **argv)
         char *filename = NULL;
       get_filename:
         printf("Enter a filename to save a transcript to, or <return> to quit: > "); fflush(stdout);
-        char *result = getline_113(&filename);
+        char *UNUSED(result) = getline_113(&filename);
         /* Ignore input errors for the sake of simplicity. TODO FIXME BUG HACK */
         assert(result == filename && result != NULL);
         if (filename[0] != '\0') {

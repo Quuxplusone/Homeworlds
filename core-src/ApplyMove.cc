@@ -207,7 +207,7 @@ bool ApplyMove::isValidMove(const GameState &st, int attacker, const WholeMove &
  */
 void ApplyMove::or_die(GameState &st, int attacker, const WholeMove &move)
 {
-    const bool success = ApplyMove::Whole(st, attacker, move);
+    const bool UNUSED(success) = ApplyMove::Whole(st, attacker, move);
     assert(success);
 }
 
@@ -216,7 +216,7 @@ void ApplyMove::or_die(GameState &st, int attacker, const WholeMove &move)
  */
 void ApplyMove::or_die(GameState &st, int attacker, const SingleAction &action)
 {
-    const bool success = ApplyMove::Single(st, attacker, action);
+    const bool UNUSED(success) = ApplyMove::Single(st, attacker, action);
     assert(success);
 }
 
