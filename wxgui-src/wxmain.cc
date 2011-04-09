@@ -78,7 +78,7 @@ class History {
         hvec.resize(hidx+1);
         hvec.push_back(hvec[hidx]);
         ++hidx;
-        const bool success = ApplyMove::Whole(hvec[hidx].st, attacker, move);
+        const bool UNUSED(success) = ApplyMove::Whole(hvec[hidx].st, attacker, move);
         assert(success);
         hvec[hidx].move = move;
     }
@@ -536,7 +536,7 @@ void GameApp::ai_starting_position()
 	st.stars.push_back(StarSystem("Fry"));
 	StarSystem &hw = st.stars.back();
 	hw.homeworldOf = 0;
-	const bool success = setup_ai(st, hw);
+	const bool UNUSED(success) = setup_ai(st, hw);
 	assert(success);
 	gp->update(st);
 	global_attacker = 1;

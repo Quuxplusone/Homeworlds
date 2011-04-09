@@ -48,6 +48,7 @@ static int getoffset(int w, Size s)
 	case LARGE: return w/8;
 	default: assert(false);
     }
+    /*NOTREACHED*/
 }
 
 static void drawsquare(wxPaintDC &dc, int w, int h, Size s, Color c, bool justbox)
