@@ -1,12 +1,15 @@
 CC = gcc
 CXX = g++
-# The release setup.
-#CFLAGS = -O99 -march=native -ansi -pedantic -W -Wall -Wextra -fomit-frame-pointer -DNDEBUG
-# The profiling setup.
-#CFLAGS = -O99 -march=native -ansi -pedantic -W -Wall -Wextra -pg -DNDEBUG
-# The debug setup.
 INCLUDES = -Icore-src
-CFLAGS = -O2 -W -Wall -Wextra ${INCLUDES}
+CFLAGS = -march=native -W -Wall -Wextra ${INCLUDES}
+
+# The release setup.
+#CFLAGS += -O99 -fomit-frame-pointer -DNDEBUG
+# The profiling setup.
+#CFLAGS += -O99 -pg -DNDEBUG
+# The debug setup.
+CFLAGS += -O2 -g
+
 # Replace this line to use a different evaluation function.
 AIEVAL = core-src/AIStaticEval3.cc
 
