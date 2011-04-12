@@ -101,21 +101,21 @@ class History {
         assert(hvec.size() == 1);
         hvec[0].st = st;
     }
-    void showState(FILE *fp) {
+    void showState(FILE *fp) const {
         assert(hidx >= 0);
         assert(hidx < (int)hvec.size());
         if (g_Verbose)
           fprintf(fp, "The current state is:\n");
         fputs(colorize(hvec[hidx].st.toString()).c_str(), fp);
     }
-    void showStash(FILE *fp) {
+    void showStash(FILE *fp) const {
         assert(hidx >= 0);
         assert(hidx < (int)hvec.size());
         if (g_Verbose)
           fprintf(fp, "The current stash is:\n");
         fprintf(fp, "%s\n", colorize(hvec[hidx].st.stash.toString()).c_str());
     }
-    void review(FILE *fp, bool verbose) {
+    void review(FILE *fp, bool verbose) const {
         assert(hidx >= 0);
         assert(hidx < (int)hvec.size());
         if (verbose && hidx > 0)
@@ -128,6 +128,9 @@ class History {
         }
         if (verbose && hidx > 0)
           showState(fp);
+    }
+    bool can_undo() const {
+        return (hidx != 0);
     }
     bool undo() {
         assert(hidx >= 0);
@@ -782,16 +785,21 @@ static bool move_and_record(int attacker)
 
 int main(int argc, char **argv)
 {
+    g_ReportBlunders = (argc==2 && !strcmp(argv[1], "-blunders"));
+    g_VerifyTranscript = (argc==2 && !strcmp(argv[1], "-verify"));
+    bool auto_setup = (argc==2 && !strcmp(argv[1], "-auto"));
+
+    if (g_ReportBlunders || g_VerifyTranscript)
+      auto_setup = true;
+
     srand((unsigned int)time(NULL));
 
     GameState initialState;
 
-    if (argc == 2 && (!strcmp(argv[1], "-auto") || !strcmp(argv[1], "-blunders") || !strcmp(argv[1], "-verify"))) {
+    if (auto_setup) {
         /* "annotate -auto" means that the input will be in the form of a
          * game transcript, and we should be quiet instead of verbose. */
         g_Verbose = false;
-	g_ReportBlunders = !strcmp(argv[1], "-blunders");
-	g_VerifyTranscript = !strcmp(argv[1], "-verify");
 	std::string firstline = initialState.scan(stdin);
 	firstline += "\n";
 	for (int i = firstline.length(); i > 0; --i) {
@@ -813,16 +821,13 @@ int main(int argc, char **argv)
           do_error("The initial homeworld setup didn't include Player 1's homeworld!");
         g_playerNames[1] = new char[strlen(hw->name.c_str())+1];
         strcpy(g_playerNames[1], hw->name.c_str());
-    } else {
+    } else if (argc == 3) {
         /* "annotate Sam Dave" means that the input will be entered via the
          * keyboard as the game progresses, and we should be verbose
          * (acknowledging valid moves, prompting the user to re-enter invalid
          * moves, et cetera). */
         g_Verbose = true;
-        if (argc != 3) {
-            do_error("Program requires two arguments: the names of the first player\n"
-                     "to set up and the first player to move, respectively.");
-        } else if (!StarSystem::is_valid_name(argv[1])) {
+        if (!StarSystem::is_valid_name(argv[1])) {
             do_error("Sorry, the argument \"%s\" was not a valid name for a star system.", argv[1]);
         } else if (!StarSystem::is_valid_name(argv[2])) {
             do_error("Sorry, the argument \"%s\" was not a valid name for a star system.", argv[2]);
@@ -832,8 +837,6 @@ int main(int argc, char **argv)
         g_playerNames[1] = argv[2];
         initialState.newGame();
 
-        /* The player who sets up first will move second; the player who
-         * sets up second will move first. */
         printf("%s will set up first and move first.\n", g_playerNames[0]);
         setup_human(initialState, 0);
 
@@ -843,6 +846,13 @@ int main(int argc, char **argv)
 
         printf("The state after both players' setup is:\n");
         printf("%s\n", initialState.toString().c_str());
+    } else {
+        do_error("Incorrect command-line arguments.\n"
+                 "The recognized command lines are:\n"
+                 "  annotate Sam Dave    -- verbosely set up a new game between Sam and Dave\n"
+                 "  annotate -auto       -- read a game state, then start up in brief mode\n"
+                 "  annotate -verify     -- same as -auto, but error out on any illegal move\n"
+                 "  annotate -blunders   -- same as -auto, but error out on any bad-looking move");
     }
 
     g_History.setup(initialState);
@@ -856,8 +866,12 @@ int main(int argc, char **argv)
             const GameState &st = g_History.currentstate();
             if (!st.gameIsOver()) {
                 if (findWinningMove(st, attacker, NULL)) {
-                    printf("(%s has put %s in check.)\n", g_playerNames[attacker],
-                        g_playerNames[1-attacker]);
+                    if (g_History.can_undo()) {
+                        printf("(%s has put %s in check.)\n", g_playerNames[attacker],
+                            g_playerNames[1-attacker]);
+                    } else {
+                        printf("(%s is in check.)\n", g_playerNames[1-attacker]);
+                    }
                 }
             }
         }
