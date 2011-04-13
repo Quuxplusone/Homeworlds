@@ -31,7 +31,7 @@
 #define randint0(n) (rand() % (n))
 #define do_crash do_error
 
-static char *g_playerNames[2];
+static std::string g_playerNames[2];
 static bool g_Verbose;
 static bool g_ReportBlunders;
 static bool g_VerifyTranscript;
@@ -123,7 +123,7 @@ class History {
         fprintf(fp, "%s", hvec[0].st.toString().c_str());
         for (int i=1; i <= hidx; ++i) {
             if (verbose)
-              fprintf(fp, "%d. %s: ", i, g_playerNames[1-(i%2)]);
+              fprintf(fp, "%d. %s: ", i, g_playerNames[1-(i%2)].c_str());
             fprintf(fp, "%s\n", hvec[i].move.toString().c_str());
         }
         if (verbose && hidx > 0)
@@ -157,7 +157,7 @@ class History {
         } else {
             ++hidx;
             if (g_Verbose) {
-                printf("%d. %s: %s\n", hidx, g_playerNames[1-(hidx%2)],
+                printf("%d. %s: %s\n", hidx, g_playerNames[1-(hidx%2)].c_str(),
                     hvec[hidx].move.toString().c_str());
                 puts("The move has been redone. The current state is:");
                 puts(hvec[hidx].st.toString().c_str());
@@ -286,10 +286,10 @@ static void setup_ai(GameState &st, StarSystem &hw)
 
 static void setup_human(GameState &st, int attacker)
 {
-    printf("%s, set up your homeworld.\n", g_playerNames[attacker]);
+    printf("%s, set up your homeworld.\n", g_playerNames[attacker].c_str());
 
-    assert(StarSystem::is_valid_name(g_playerNames[attacker]));
-    st.stars.push_back(StarSystem(g_playerNames[attacker]));
+    assert(StarSystem::is_valid_name(g_playerNames[attacker].c_str()));
+    st.stars.push_back(StarSystem(g_playerNames[attacker].c_str()));
     StarSystem &hw = st.stars.back();
     hw.homeworldOf = attacker;
 
@@ -302,7 +302,7 @@ static void setup_human(GameState &st, int attacker)
     assert(result == moveline && result != NULL);
     if (strcmp(moveline, "ai_move") == 0) {
         free(moveline);
-        printf("AI is setting up a homeworld for %s...\n", g_playerNames[attacker]);
+        printf("AI is setting up a homeworld for %s...\n", g_playerNames[attacker].c_str());
         setup_ai(st, hw);
         return;
     }
@@ -512,7 +512,7 @@ static bool move_and_record(int attacker)
   get_move:
     /* Prompt for the human's move, and read in a line. */
     if (g_Verbose) {
-        printf("%s's move? > ", g_playerNames[attacker]); fflush(stdout);
+        printf("%s's move? > ", g_playerNames[attacker].c_str()); fflush(stdout);
     }
     char *result = getline_113(&moveline);
     assert(result == moveline || result == NULL);
@@ -645,16 +645,16 @@ static bool move_and_record(int attacker)
             reassignPlanetNames(bestmove, g_History.currentstate(), NULL);
             if (bestvalue == +1000) {
                 if (g_Verbose)
-                  printf("The position is a sure win for %s.\n", g_playerNames[attacker]);
+                  printf("The position is a sure win for %s.\n", g_playerNames[attacker].c_str());
                 printf("-> %s\n", bestmove.toString().c_str());
             } else if (bestvalue == -1000) {
                 if (g_Verbose)
-                  printf("The position is a sure loss for %s.\n", g_playerNames[attacker]);
+                  printf("The position is a sure loss for %s.\n", g_playerNames[attacker].c_str());
                 puts("-> pass");
             } else {
                 if (g_Verbose) {
                     printf("The position is neither a sure win nor a sure loss for %s.\n",
-                        g_playerNames[attacker]);
+                        g_playerNames[attacker].c_str());
                 }
                 printf("-> %s\n", bestmove.toString().c_str());
             }
@@ -695,20 +695,20 @@ static bool move_and_record(int attacker)
             printf("(evaluated %d leaf positions)\n", GSA::evaluateCount);
             if (bestvalue == +1000) {
                 if (g_Verbose)
-                  printf("The position is a sure win for %s.\n", g_playerNames[attacker]);
+                  printf("The position is a sure win for %s.\n", g_playerNames[attacker].c_str());
                 printf("AI chooses: %s\n", bestmove.toString().c_str());
             } else if (bestvalue == -1000) {
                 if (g_Verbose)
-                  printf("The position is a sure loss for %s.\n", g_playerNames[attacker]);
+                  printf("The position is a sure loss for %s.\n", g_playerNames[attacker].c_str());
                 puts("AI chooses: pass");
             } else {
-                printf("AI for %s chooses: %s\n", g_playerNames[attacker],
+                printf("AI for %s chooses: %s\n", g_playerNames[attacker].c_str(),
                     bestmove.toString().c_str());
             }
             g_History.makemove(bestmove, attacker);
             if (g_History.currentstate().gameIsOver()) {
                 if (g_Verbose) {
-                    printf("%s has won the game!\n", g_playerNames[attacker]);
+                    printf("%s has won the game!\n", g_playerNames[attacker].c_str());
                     puts("(Valid commands at this point include \"review\" and \"help\".)");
                 }
             }
@@ -725,7 +725,7 @@ static bool move_and_record(int attacker)
         if (isAiMove) {
             move = get_ai_move(g_History.currentstate(), attacker);
             if (g_Verbose)
-              printf("AI for %s chooses: %s\n", g_playerNames[attacker], move.toString().c_str());
+              printf("AI for %s chooses: %s\n", g_playerNames[attacker].c_str(), move.toString().c_str());
         } else {
             const bool success = move.scan(moveline);
             if (!success) {
@@ -767,14 +767,14 @@ static bool move_and_record(int attacker)
           puts("Okay.");
         if (g_ReportBlunders && move_was_boneheaded(g_History.currentstate(), move, attacker)) {
             printf("%s blundered into check on this move:\n%s\n",
-                g_playerNames[attacker], move.toString().c_str());
+                g_playerNames[attacker].c_str(), move.toString().c_str());
              printf("The position was:\n");
             printf("%s\n", g_History.currentstate().toString().c_str());
         }
         g_History.makemove(move, attacker);
         if (g_History.currentstate().gameIsOver()) {
             if (g_Verbose) {
-                printf("%s has won the game!\n", g_playerNames[attacker]);
+                printf("%s has won the game!\n", g_playerNames[attacker].c_str());
                 puts("(Valid commands at this point include \"review\" and \"help\".)");
             }
         }
@@ -814,13 +814,11 @@ int main(int argc, char **argv)
 	StarSystem *hw = initialState.homeworldOf(0);
 	if (hw == NULL)
           do_error("The initial homeworld setup didn't include Player 0's homeworld!");
-        g_playerNames[0] = new char[strlen(hw->name.c_str())+1];
-        strcpy(g_playerNames[0], hw->name.c_str());
+        g_playerNames[0] = hw->name;
 	hw = initialState.homeworldOf(1);
 	if (hw == NULL)
           do_error("The initial homeworld setup didn't include Player 1's homeworld!");
-        g_playerNames[1] = new char[strlen(hw->name.c_str())+1];
-        strcpy(g_playerNames[1], hw->name.c_str());
+        g_playerNames[1] = hw->name;
     } else if (argc == 3) {
         /* "annotate Sam Dave" means that the input will be entered via the
          * keyboard as the game progresses, and we should be verbose
@@ -837,10 +835,10 @@ int main(int argc, char **argv)
         g_playerNames[1] = argv[2];
         initialState.newGame();
 
-        printf("%s will set up first and move first.\n", g_playerNames[0]);
+        printf("%s will set up first and move first.\n", g_playerNames[0].c_str());
         setup_human(initialState, 0);
 
-        printf("The state after %s's setup is:\n", g_playerNames[0]);
+        printf("The state after %s's setup is:\n", g_playerNames[0].c_str());
         printf("%s\n", initialState.toString().c_str());
         setup_human(initialState, 1);
 
@@ -867,10 +865,10 @@ int main(int argc, char **argv)
             if (!st.gameIsOver()) {
                 if (findWinningMove(st, attacker, NULL)) {
                     if (g_History.can_undo()) {
-                        printf("(%s has put %s in check.)\n", g_playerNames[attacker],
-                            g_playerNames[1-attacker]);
+                        printf("(%s has put %s in check.)\n", g_playerNames[attacker].c_str(),
+                            g_playerNames[1-attacker].c_str());
                     } else {
-                        printf("(%s is in check.)\n", g_playerNames[1-attacker]);
+                        printf("(%s is in check.)\n", g_playerNames[1-attacker].c_str());
                     }
                 }
             }
