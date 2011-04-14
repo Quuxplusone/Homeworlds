@@ -140,6 +140,9 @@ class GameState {
      * by toString(). Since the representation may span multiple lines, return
      * the first unparseable line as a string (so that we don't lose it). */
     std::string scan(FILE *fp);
+
+    /* Flip the players: make player 0 player 1 and vice versa. */
+    GameState mirror() const;
 };
 
 #endif /* H_STATE */
