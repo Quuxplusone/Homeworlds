@@ -148,6 +148,9 @@ class History {
             return true;
         }
     }
+    bool can_redo() const {
+        return (hidx+1 != (int)hvec.size());
+    }
     bool redo() {
         assert(hidx >= 0);
         assert(hidx < (int)hvec.size());
@@ -902,4 +905,3 @@ int main(int argc, char **argv)
       puts("Goodbye...");
     return 0;
 }
-
