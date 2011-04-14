@@ -23,7 +23,6 @@
 #include "move.h"
 #include "AI.h"
 #include "AllMoves.h"
-#include "AlphaBeta.h"
 #include "ApplyMove.h"
 #include "InferMove.h"
 #include "PlanetNames.h"
@@ -222,25 +221,13 @@ static void do_help()
     puts("  state");
     puts("  stash");
     puts("  review, review <filename>");
-    puts("  rollout <branching-factor-at-ply-0> ...");
     puts("  ai_move");
-    puts("  deepmove <branching-factor> <time-limit-in-seconds>");
     puts("  quit");
     puts("The \"review\" command prints a transcript of the game up to this point,");
     puts("or writes the same transcript to the specified text file.");
     puts("The \"state\" command prints the current state of the game.");
     puts("The \"ai_move\" command instructs the computer to pick a reasonable move for");
     puts("the current player, and then have the current player make that move.");
-    puts("The \"rollout\" command instructs the computer to look for the best possible");
-    puts("move from this position, searching the specified number of ply deep in the");
-    puts("game tree with a maximum of \"branching-factor\" moves considered per ply.");
-    puts("A \"branching-factor\" of 0 does an exhaustive search of all moves per ply.");
-    puts("\"rollout 1 0\" is equivalent to \"ai_move\", except that the move is not");
-    puts("automatically made.");
-    puts("The \"hint\" command is equivalent to \"rollout\", except that it does not");
-    puts("reveal the best move; it searches to the specified depth in the game tree and");
-    puts("reports only whether the current position is a guaranteed win or loss for the");
-    puts("current player.");
     return;
 }
 
@@ -423,91 +410,6 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
 }
 
 
-/* Rollout-related stuff. */
-struct GameStateAugmented : public GameState {
-    typedef int Value;
-
-    int attacker;
-    int turn_number;
-    Value value;
-    
-    static time_t timelimit;
-    static bool have_run_out_of_time;
-    static int branching_factor[20];
-    static int evaluateCount;
-    
-    GameStateAugmented() { }
-    GameStateAugmented(const GameState &st, int a):
-            GameState(st), attacker(a), turn_number(0), value(0) { }
-
-    static Value evaluate(const GameStateAugmented &sta)
-    {
-        ++evaluateCount;
-        return sta.value;
-    }
-    static void applyMove(GameStateAugmented &sta, const WholeMove &move)
-    {
-        ApplyMove::or_die(sta, sta.attacker, move);
-        const StarSystem *hw = sta.homeworldOf(1-sta.attacker);
-        /* The "value" of this position needs to be consistent; if the
-         * position is valued at roughly +X on my turn, it should be valued
-         * at roughly -X on your turn. It shouldn't be valued at +Y just
-         * because we both like this position. Otherwise, the breadth-first
-         * search applied by "deepmove" will go horribly wrong. */
-        if (hw == NULL || hw->ships[1-sta.attacker].empty()) {
-            sta.value = INT_MAX;
-        } else if (sta.turn_number % 2 == 0) {
-            sta.value = 100000 + 10000 * ai_static_evaluation(sta, sta.attacker);
-        } else {
-            sta.value = -sta.value + ai_static_evaluation(sta, sta.attacker);
-        }
-        sta.attacker = (1 - sta.attacker);
-        sta.turn_number += 1;
-    }
-    static void findMoves(const GameStateAugmented &sta, std::vector<WholeMove> &allmoves)
-    {
-	if (sta.gameIsOver()) return;
-	assert(allmoves.empty());
-	get_all_moves_sorted_by_value(sta, sta.attacker, allmoves, false);
-        assert(!allmoves.empty());
-        const int turn_delta = sta.turn_number;
-        const int factor = branching_factor[std::min(turn_delta, 19)];
-        if (factor != 0 && (int)allmoves.size() > factor)
-          allmoves.resize(factor);
-    }
-    static void findMovesTimed(const GameStateAugmented &sta, std::vector<WholeMove> &allmoves)
-    {
-        /* If we have run out of time, then pretend that the search has bottomed out. */
-        if (have_run_out_of_time) return;
-        if (time(NULL) >= timelimit) {
-            printf("Pencils down. (searched to %d ply)\n", sta.turn_number);
-            have_run_out_of_time = true;
-            return;
-        }
-	if (sta.gameIsOver()) return;
-	assert(allmoves.empty());
-	get_all_moves_sorted_by_value(sta, sta.attacker, allmoves, false);
-        assert(!allmoves.empty());
-        if ((int)allmoves.size() > branching_factor[0])
-          allmoves.resize(branching_factor[0]);
-    }
-    static int findAttacker(const GameStateAugmented &sta)
-    {
-        return sta.attacker;
-    }
-};
-time_t GameStateAugmented::timelimit;
-bool GameStateAugmented::have_run_out_of_time;
-int GameStateAugmented::branching_factor[20];
-int GameStateAugmented::evaluateCount;
-
-typedef GameStateAugmented GSA;
-static AlphaBeta<GameStateAugmented, WholeMove, GSA::Value>
-    g_RolloutAB(GSA::evaluate, GSA::applyMove, GSA::findMoves, GSA::findAttacker);
-static AlphaBeta<GameStateAugmented, WholeMove, GSA::Value>
-    g_TimedSearchAB(GSA::evaluate, GSA::applyMove, GSA::findMovesTimed, GSA::findAttacker);
-
-
 static bool move_and_record(int attacker)
 {
     const bool game_is_over = g_History.currentstate().gameIsOver();
@@ -612,111 +514,6 @@ static bool move_and_record(int attacker)
         if (g_VerifyTranscript) do_error("Transcript is incorrect.");
         free(moveline);
         goto get_move;
-    } else if (!strncmp(moveline, "rollout ", 8)) {
-        int ply = 0;
-        char *ptr = moveline + 8;
-        char *endptr;
-        bool success = true;
-        while (success && *ptr != '\0') {
-            while (*ptr == ' ') ++ptr;
-            if (*ptr == '\0')
-              break;
-            if (ply >= 20) {
-                success = false;
-                break;
-            }
-            GSA::branching_factor[ply] = strtol(ptr, &endptr, 10);
-            if (endptr == ptr)
-              success = false;
-            if (GSA::branching_factor[ply] < 0 || GSA::branching_factor[ply] >= 100000)
-              success = false;
-            ptr = endptr;
-            ++ply;
-        }
-        if (!success) {
-            puts("The \"rollout\" command expects between 1 and 20 arguments,");
-            puts("each of which must be a branching factor between 1 and 100000, or 0.");
-            printf("You entered: \"%s\"\n", moveline);
-        } else {
-            assert(1 <= ply && ply <= 20);
-            GameStateAugmented sta(g_History.currentstate(), attacker);
-            WholeMove bestmove;
-            GSA::Value bestvalue = 42;  /* initialize just to avoid a warning */
-            const bool UNUSED(has_moves) =
-                g_RolloutAB.depth_first_alpha_beta(sta, ply, bestmove, bestvalue, -1000, +1000);
-            assert(has_moves);
-            reassignPlanetNames(bestmove, g_History.currentstate(), NULL);
-            if (bestvalue == +1000) {
-                if (g_Verbose)
-                  printf("The position is a sure win for %s.\n", g_playerNames[attacker].c_str());
-                printf("-> %s\n", bestmove.toString().c_str());
-            } else if (bestvalue == -1000) {
-                if (g_Verbose)
-                  printf("The position is a sure loss for %s.\n", g_playerNames[attacker].c_str());
-                puts("-> pass");
-            } else {
-                if (g_Verbose) {
-                    printf("The position is neither a sure win nor a sure loss for %s.\n",
-                        g_playerNames[attacker].c_str());
-                }
-                printf("-> %s\n", bestmove.toString().c_str());
-            }
-        }
-        free(moveline);
-        goto get_move;
-    } else if (!strncmp(moveline, "deepmove ", 9)) {
-        char *ptr = moveline + 9;
-        char *endptr;
-        bool success = true;
-        GSA::branching_factor[0] = strtol(ptr, &endptr, 10);
-        if (endptr == ptr || GSA::branching_factor[0] <= 0 || GSA::branching_factor[0] >= 100000)
-          success = false;
-        ptr = endptr;
-        int seconds = strtol(ptr, &endptr, 10);
-        if (endptr == ptr || seconds <= 0 || seconds > 3600) {
-            success = false;
-        } else {
-            GSA::timelimit = (time(NULL) + seconds);
-            GSA::have_run_out_of_time = false;
-        }
-        if (!success) {
-            puts("The \"deepmove\" command expects two arguments:");
-            puts("a branching factor and a time limit in seconds.");
-            printf("You entered: \"%s\"\n", moveline);
-            free(moveline);
-            goto get_move;
-        } else {
-            free(moveline);
-            GameStateAugmented sta(g_History.currentstate(), attacker);
-            WholeMove bestmove;
-            GSA::Value bestvalue;
-            GSA::evaluateCount = 0;
-            const bool UNUSED(has_moves) = g_TimedSearchAB.breadth_first(sta, INT_MAX, bestmove, bestvalue);
-            assert(has_moves);
-            reassignPlanetNames(bestmove, g_History.currentstate(), NULL);
-            assert(ApplyMove::isValidMove(g_History.currentstate(), attacker, bestmove));
-            printf("(evaluated %d leaf positions)\n", GSA::evaluateCount);
-            if (bestvalue == +1000) {
-                if (g_Verbose)
-                  printf("The position is a sure win for %s.\n", g_playerNames[attacker].c_str());
-                printf("AI chooses: %s\n", bestmove.toString().c_str());
-            } else if (bestvalue == -1000) {
-                if (g_Verbose)
-                  printf("The position is a sure loss for %s.\n", g_playerNames[attacker].c_str());
-                puts("AI chooses: pass");
-            } else {
-                printf("AI for %s chooses: %s\n", g_playerNames[attacker].c_str(),
-                    bestmove.toString().c_str());
-            }
-            g_History.makemove(bestmove, attacker);
-            if (g_History.currentstate().gameIsOver()) {
-                if (g_Verbose) {
-                    printf("%s has won the game!\n", g_playerNames[attacker].c_str());
-                    puts("(Valid commands at this point include \"review\" and \"help\".)");
-                }
-            }
-            return true;
-        }
     } else if (strcmp(moveline, "rate_moves") == 0) {
         free(moveline);
         std::vector<WholeMove> allmoves;
