@@ -1,5 +1,7 @@
 
 #include "state.h"
+#include "move.h"
+#include "ApplyMove.h"
 #include "AI.h"
 
 static int distanceBetween(const PieceCollection &a, const PieceCollection &b)
@@ -308,11 +310,17 @@ static int heuristic_catastrophe_penalty(const GameState &st,
 }
 
 
-/* Return an estimated value of the given position. Return a high value if
- * the attacker is winning, and a low value if he's losing. When considering
- * the stash, note that it is the defender's turn right now. */
-int ai_static_evaluation(const GameState &st, int attacker)
+/* Return an estimated value of the given position after the given move.
+ * Return a high value if the attacker is winning, and a low value if
+ * he's losing. When considering the stash, note that it will be the
+ * defender's turn next. */
+int ai_static_evaluation(const GameState &state_before_move,
+                         const WholeMove &move, int attacker)
 {
+    GameState st_ = state_before_move;
+    ApplyMove::or_die(st_, attacker, move);
+    const GameState &st = st_;
+
     const int defender = 1-attacker;
     const StarSystem *hw[2] = { NULL, NULL };
     bool can_build[2][4] = {};

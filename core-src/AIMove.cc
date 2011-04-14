@@ -78,9 +78,7 @@ void get_all_moves_sorted_by_value(const GameState &st,
     values.resize(n);
     for (int i=0; i < n; ++i) {
         values[i].move = &allmoves[i];
-        GameState newst = st;
-        ApplyMove::or_die(newst, attacker, allmoves[i]);
-        values[i].value = ai_static_evaluation(newst, attacker);
+        values[i].value = ai_static_evaluation(st, allmoves[i], attacker);
     }
     std::sort(values.begin(), values.end());
     /* Now copy the moves into the vector to return. */
