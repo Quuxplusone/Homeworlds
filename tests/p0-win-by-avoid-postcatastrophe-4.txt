@@ -1,0 +1,9 @@
+# Player1 needs to eliminate his red overpopulation while simultaneously
+# preserving the ability to catastrophe blue at Player2. To complicate
+# matters, he actually needs to swap a ship somewhere else in the galaxy
+# in order to free up a non-red ship. The winning move is
+# "sac b3; convert r3 to ...; convert to r2 at Alpha; convert to g2 at Player1; catastrophe".
+Player1 (0, r3) r2r2r3-r1
+Alpha (y2) g2-y2g2b2
+Beta (b2) -y2g2
+Player2 (1, b3) b3-g3g3b2b1b1
