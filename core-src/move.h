@@ -10,13 +10,12 @@
 
 
 enum SingleActionKind {
-    CATASTROPHE, SACRIFICE, PASS, CAPTURE, MOVE, MOVE_CREATE, BUILD, CONVERT
+    CATASTROPHE, SACRIFICE, CAPTURE, MOVE, MOVE_CREATE, BUILD, CONVERT
 };
 
 /* A SingleAction is one of
  *     catastrophe %color at %where
  *     sacrifice %color%size at %where
- *     pass
  *     capture %color%size at %where
  *       [from %defender, but we needn't implement that yet]
  *     move %color%size from %where to %whither
@@ -52,7 +51,7 @@ class SingleAction {
 
     std::string toString() const;
     bool scan(const char *text);
-    SingleAction(): kind(PASS) { }
+    SingleAction() { }
     SingleAction(const SingleAction &a): kind(a.kind), where(a.where),
         whither(a.whither), color(a.color), size(a.size),
         newcolor(a.newcolor), newsize(a.newsize) { }
@@ -63,16 +62,13 @@ class SingleAction {
     /* These constructors are provided for efficiency. If you don't care about efficiency,
      * you should probably just use the constructor SingleAction(const char *) and let it parse
      * out the action for you. */
-    /* SingleAction(PASS) */
-    SingleAction(SingleActionKind UNUSED(k)):
-     kind(PASS)
-     { assert(k == PASS); }
     /* SingleAction(SACRIFICE, RED, SMALL, "Sacloc")
      * SingleAction(CAPTURE, RED, SMALL, "Caploc")
      * SingleAction(BUILD, RED, SMALL, "Buildloc") */
     SingleAction(SingleActionKind k, Color c, Size s, const char *w):
       kind(k), where(w), color(c), size(s)
       { assert(k == SACRIFICE || k == CAPTURE || k == BUILD); }
+    /* SingleAction(CATASTROPHE, RED, "Catloc") */
     SingleAction(SingleActionKind k, Color c, const char *w):
       kind(k), where(w), color(c)
       { assert(k == CATASTROPHE); }
@@ -99,14 +95,14 @@ class WholeMove {
     std::vector<SingleAction> actions;
 
   public:
-    bool isPass() const { return (actions.size() == 1 && actions[0].kind == PASS); }
+    bool isPass() const { return actions.empty(); }
     WholeMove &operator += (const SingleAction &a);
 
     bool is_missing_pieces() const;
 
     std::string toString() const;
     bool scan(const char *text);
-    WholeMove() { const bool UNUSED(rc) = scan("pass"); assert(rc); }
+    WholeMove() { assert(this->isPass()); }
     WholeMove(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }
     WholeMove(const std::string &text) { const bool UNUSED(rc) = scan(text.c_str()); assert(rc); }
     WholeMove(const WholeMove &m): actions(m.actions) { }

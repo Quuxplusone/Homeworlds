@@ -53,7 +53,6 @@ static bool scan_piece(const char *&text, Color &color, Size &size)
 bool SingleAction::sanitycheck() const
 {
     switch (kind) {
-        case PASS: return true;
         case SACRIFICE:
         case CATASTROPHE:
         case CAPTURE:
@@ -102,7 +101,6 @@ bool SingleAction::sanitycheck() const
 bool SingleAction::is_missing_pieces() const
 {
     assert(this->sanitycheck());
-    if (kind == PASS) return false;
     if (color == UNKNOWN_COLOR) return true;
     if (kind != CATASTROPHE && size == UNKNOWN_SIZE) return true;
     if (kind == CONVERT || kind == MOVE_CREATE) {
@@ -232,10 +230,7 @@ static bool scan_for_multimove(const char *text, std::vector<SingleAction> &acti
 
 bool SingleAction::scan(const char *text)
 {
-    if (strcmp(text, "pass") == 0) {
-        this->kind = PASS;
-        return true;
-    } else if (has(text, "catastrophe ") || has(text, "cat ")) {
+    if (has(text, "catastrophe ") || has(text, "cat ")) {
         this->kind = CATASTROPHE;
         if (has(text, "cat ")) text += 4;
         else text += 12;
@@ -421,8 +416,6 @@ std::string SingleAction::toString() const
 {
     assert(this->sanitycheck());
     switch (kind) {
-        case PASS:
-            return "pass";
         case CATASTROPHE:
             return mprintf("catastrophe%s%s%s%s",
                 OPT(" ", color2str(color)), OPT(" at ", where.c_str()));
@@ -466,11 +459,6 @@ bool WholeMove::sanitycheck() const
         if (!actions[i].sanitycheck()) return false;
         ++i;
     }
-    /* A move containing just catastrophes is questionable, but for
-     * the sake of simplicity we'll consider it a "pass". This gives
-     * us the property that any prefix of a legal move is itself
-     * a legal move, which is very desirable when building moves up
-     * from scratch in findAllMoves(). */
     if (i == n) return true;
     
     if (actions[i].kind == SACRIFICE) {
@@ -481,14 +469,12 @@ bool WholeMove::sanitycheck() const
         int last_entitled_action_idx = i + entitled_actions;
         ++i;
         /* All the actions from here up to the final sequence
-         * of catastrophes must be of the proper color.
-         * Explicit "pass" actions after a sacrifice are not allowed. */
+         * of catastrophes must be of the proper color. */
         while (i < n && actions[i].kind != CATASTROPHE) {
             if (!actions[i].sanitycheck()) return false;
             switch (actions[i].kind) {
                 case CATASTROPHE: assert(false); return false;
                 case SACRIFICE: return false;
-                case PASS: return false;
                 case CAPTURE: if (sac_color != UNKNOWN_COLOR && sac_color != RED) return false; break;
                 case MOVE: if (sac_color != UNKNOWN_COLOR && sac_color != YELLOW) return false; break;
                 case MOVE_CREATE: if (sac_color != UNKNOWN_COLOR && sac_color != YELLOW) return false; break;
@@ -501,7 +487,7 @@ bool WholeMove::sanitycheck() const
         /* You can't take more actions than you sacrificed for. */
         if (i > last_entitled_action_idx+1) return false;
     } else {
-        /* A single free action (which may be "pass"). */
+        /* A single free action. */
         if (!actions[i].sanitycheck()) return false;
         ++i;
     }
@@ -526,6 +512,9 @@ bool WholeMove::scan(const char *text)
     if (*text == '\0') {
         /* Safety catch: An empty string does not mean "pass". */
         return false;
+    } else if (!strcmp(text, "pass")) {
+        assert(this->isPass());
+        return true;
     }
     char *buffer = NULL;
     FreeOnReturn<char *> fr(buffer);
@@ -567,12 +556,16 @@ bool WholeMove::scan(const char *text)
 std::string WholeMove::toString() const
 {
     assert(this->sanitycheck());
-    std::string result = "";
-    for (int i=0; i < (int)actions.size(); ++i) {
-        if (i > 0) result += "; ";
-        result += actions[i].toString();
+    if (this->isPass()) {
+        return "pass";
+    } else {
+        std::string result = "";
+        for (int i=0; i < (int)actions.size(); ++i) {
+            if (i > 0) result += "; ";
+            result += actions[i].toString();
+        }
+        return result;
     }
-    return result;
 }
 
 /* We use this operation to build up whole moves piece by piece.
@@ -583,13 +576,7 @@ WholeMove &WholeMove::operator += (const SingleAction &a)
 {
     assert(this->sanitycheck());
     assert(a.sanitycheck());
-    if (actions.back().kind == PASS)
-      actions.back() = a;
-    else
-      actions.push_back(a);
+    actions.push_back(a);
     assert(this->sanitycheck());
     return *this;
 }
-
-
-

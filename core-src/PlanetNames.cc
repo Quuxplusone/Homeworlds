@@ -37,7 +37,7 @@ void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names
         const std::string &old_name = action.whither;
         for (int j=i+1; j < (int)move.actions.size(); ++j) {
             SingleAction &actjon = move.actions[j];
-            if (actjon.kind != PASS && actjon.where == old_name)
+            if (actjon.where == old_name)
               move.actions[j].where = new_name;
             if (actjon.kind == MOVE && actjon.whither == old_name)
               actjon.whither = new_name;

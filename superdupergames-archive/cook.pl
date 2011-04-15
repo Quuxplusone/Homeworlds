@@ -156,8 +156,12 @@ while (<STDIN>) {
             die;
         } else {
             die unless ($currentmove ne "");
-            # Don't append redundant "pass" actions.
-            if ($action ne "pass") {
+            if ($currentmove eq "pass") {
+                # Don't prepend redundant "pass" actions.
+                $currentmove = $action;
+            } elsif ($action eq "pass") {
+                # Don't append redundant "pass" actions.
+            } else {
                 $currentmove .= "; $action";
             }
         }

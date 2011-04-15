@@ -19,7 +19,6 @@
  */
     bool ApplyMove::Single(GameState &st, int attacker, const SingleAction &action)
     {
-        if (action.kind == PASS) return true;
         StarSystem *where = st.systemNamed(action.where.c_str());
         if (where == NULL) return false;
         const Color c = action.color;

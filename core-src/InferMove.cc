@@ -84,7 +84,6 @@ static bool infer_sacrifice(const GameState &st, int attacker, const WholeMove &
         if (move.actions[ax].kind == CATASTROPHE)
           break;
         switch (move.actions[ax].kind) {
-            case PASS: assert(false); break;
             case SACRIFICE: assert(false); break;
             case CAPTURE:
                 if (needed_color != UNKNOWN_COLOR && needed_color != RED) return false;
@@ -314,9 +313,6 @@ bool inferMoveFromState(const GameState &st, int attacker, WholeMove &move)
     for (int i=0; i < (int)move.actions.size(); ++i) {
         SingleAction &action = move.actions[i];
         switch (action.kind) {
-            case PASS:
-                assert(false);
-                break;
             case CATASTROPHE:
                 if (action.where != "" && action.color != UNKNOWN_COLOR)
                   break;
