@@ -120,6 +120,7 @@ class GameState {
     const StarSystem *homeworldOf(int player) const;
     StarSystem *homeworldOf(int player);
     bool containsOverpopulation() const;
+    void performAllCatastrophes();
 
     void removeSystemNamed(const char *name);
     void removeSystem(StarSystem &star);

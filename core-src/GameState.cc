@@ -61,6 +61,23 @@ bool GameState::containsOverpopulation() const
     return false;
 }
 
+void GameState::performAllCatastrophes()
+{
+    for (int i=0; i < (int)stars.size(); ++i) {
+        bool did_one = false;
+        for (Color c = RED; c <= BLUE; ++c) {
+            if (stars[i].canCatastrophe(c)) {
+                stars[i].performCatastrophe(c, stash);
+                did_one = true;
+            }
+        }
+        if (did_one && stars[i].number() == 0) {
+            stars.erase(stars.begin()+i);
+            --i;
+        }
+    }
+}
+
 
 void GameState::removeSystemNamed(const char *name)
 {
