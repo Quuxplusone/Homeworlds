@@ -199,10 +199,18 @@ bool StarSystem::canCatastropheStar() const
 {
     for (Color c = RED; c <= BLUE; ++c) {
         if (star.numberOf(c) == 0) continue;
-        if (!this->canCatastrophe(c))
+        if (!this->containsOverpopulation(c))
           return false;
     }
     return true;
+}
+
+bool StarSystem::containsOverpopulation() const
+{
+    return this->containsOverpopulation(RED) ||
+           this->containsOverpopulation(YELLOW) ||
+           this->containsOverpopulation(GREEN) ||
+           this->containsOverpopulation(BLUE);
 }
 
 /* Remove all pieces of color "c" from this system, and return them to

@@ -53,10 +53,8 @@ StarSystem *GameState::homeworldOf(int player)
 bool GameState::containsOverpopulation() const
 {
     for (int i=0; i < (int)stars.size(); ++i) {
-	if (stars[i].canCatastrophe(RED)) return true;
-	if (stars[i].canCatastrophe(YELLOW)) return true;
-	if (stars[i].canCatastrophe(GREEN)) return true;
-	if (stars[i].canCatastrophe(BLUE)) return true;
+	if (stars[i].containsOverpopulation())
+          return true;
     }
     return false;
 }
@@ -66,7 +64,7 @@ void GameState::performAllCatastrophes()
     for (int i=0; i < (int)stars.size(); ++i) {
         bool did_one = false;
         for (Color c = RED; c <= BLUE; ++c) {
-            if (stars[i].canCatastrophe(c)) {
+            if (stars[i].containsOverpopulation(c)) {
                 stars[i].performCatastrophe(c, stash);
                 did_one = true;
             }

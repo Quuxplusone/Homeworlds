@@ -168,7 +168,7 @@ void findAllMoves(const GameState &st, int attacker,
     for (int i=0; i < (int)st.stars.size(); ++i) {
         const StarSystem &star = st.stars[i];
         for (Color c = RED; c <= BLUE; ++c) {
-            if (star.canCatastrophe(c)) {
+            if (star.containsOverpopulation(c)) {
                 /* You might wonder why we're putting a whole std::string
                  * in each PossCat, instead of a pointer or an "int" index.
                  * The answer is that a star's name is the only reliable
@@ -602,7 +602,7 @@ static void find_postcatastrophes(const WholeMove &m,
     for (int i=0; i < (int)st.stars.size(); ++i) {
         const StarSystem &star = st.stars[i];
         for (Color c = RED; c <= BLUE; ++c) {
-            if (star.canCatastrophe(c))
+            if (star.containsOverpopulation(c))
               posscats.push_back(PossCat(c, star.name));
         }
     }

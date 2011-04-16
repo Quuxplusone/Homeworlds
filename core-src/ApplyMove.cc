@@ -27,7 +27,7 @@
         switch (action.kind) {
             case CATASTROPHE: {
                 if (c == UNKNOWN_COLOR) return false;
-                if (!where->canCatastrophe(c)) return false;
+                if (!where->containsOverpopulation(c)) return false;
                 where->performCatastrophe(c, st.stash);
                 /* If this star has been destroyed, remove its entry. */
                 if (where->star.empty()) {

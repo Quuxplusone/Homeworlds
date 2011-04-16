@@ -86,7 +86,8 @@ class StarSystem {
     int numberOf(Color c) const;
     int number() const { return numberOfShips() + star.number(); }
     bool canCatastropheStar() const;
-    bool canCatastrophe(Color c) const { return (this->numberOf(c) >= 4); }
+    bool containsOverpopulation(Color c) const { return (this->numberOf(c) >= 4); }
+    bool containsOverpopulation() const;
     void performCatastrophe(Color c, PieceCollection &stash);
     bool playerHasAccessTo(int player, Color c) const
     { return (star.numberOf(c) > 0) || (ships[player].numberOf(c) > 0); }
