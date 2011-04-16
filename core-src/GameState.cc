@@ -112,18 +112,11 @@ void GameState::newGame()
     }
 }
 
-
-bool GameState::gameIsOver() const
+bool GameState::hasLost(int who) const
 {
-    const StarSystem *hw0 = homeworldOf(0);
-    const StarSystem *hw1 = homeworldOf(1);
-    if (hw0 == NULL || hw0->ships[0].empty())
-      return true;
-    if (hw1 == NULL || hw1->ships[1].empty())
-      return true;
-    return false;
+    const StarSystem *hw = homeworldOf(who);
+    return (hw == NULL || hw->ships[who].empty());
 }
-
 
 std::string GameState::toString() const
 {

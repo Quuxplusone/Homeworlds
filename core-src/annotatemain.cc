@@ -577,6 +577,17 @@ static bool move_and_record(int attacker)
                 printf("%s has won the game!\n", g_playerNames[attacker].c_str());
                 puts("(Valid commands at this point include \"review\" and \"help\".)");
             }
+        } else if (g_History.currentstate().containsOverpopulation()) {
+            static bool warning_given = false;
+            if (g_Verbose && !warning_given) {
+                printf("%s has left overpopulations on the board.\n", g_playerNames[attacker].c_str());
+                printf("The \"ai_move\" command may not work properly in this situation.\n");
+                printf("Consider using \"undo\" and adding one or more \"catastrophe\" actions\n");
+                printf("to the end of the last move.\n");
+                warning_given = true;
+            } else if (g_Verbose) {
+                printf("(%s has left overpopulations on the board.)\n", g_playerNames[attacker].c_str());
+            }
         }
         return true;
     }

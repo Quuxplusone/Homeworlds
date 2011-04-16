@@ -126,7 +126,8 @@ class GameState {
     void removeSystemNamed(const char *name);
     void removeSystem(StarSystem &star);
     void newGame();
-    bool gameIsOver() const;
+    bool hasLost(int who) const;
+    bool gameIsOver() const { return hasLost(0) || hasLost(1); }
 
     /* Return a human-readable representation of this game state. */
     std::string toString() const;

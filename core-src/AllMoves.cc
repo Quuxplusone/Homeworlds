@@ -636,15 +636,12 @@ static void combine_postcatastrophes(const WholeMove &m,
         WholeMove newm(m, newaction);
         GameState newst = st;
         ApplyMove::or_die(newst, attacker, newaction);
-        if (where->homeworldOf == attacker) {
-            const StarSystem *hw = newst.homeworldOf(attacker);
-            if (hw == NULL || hw->ships[attacker].empty()) {
-                /* A catastrophe that blows up our own homeworld isn't allowed.
-                 * We would recurse on combine_postcatastrophes() here, but the
-                 * defender would insist on this catastrophe anyway, so we might
-                 * as well abandon this whole move at this point. */
-                return;
-            }
+        if (where->homeworldOf == attacker && newst.hasLost(attacker)) {
+            /* A catastrophe that blows up our own homeworld isn't allowed.
+             * We would recurse on combine_postcatastrophes() here, but the
+             * defender would insist on this catastrophe anyway, so we might
+             * as well abandon this whole move at this point. */
+            return;
         }
         combine_postcatastrophes(newm, posscats, pc+1, newst, attacker, all);
         return;
@@ -672,12 +669,9 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
      * not permitted. We explicitly disallow sacrificing the last ship at
      * your homeworld, moving it away, or causing a catastrophe that
      * blows up your homeworld; so the homeworld should still be around. */
-    assert(st.homeworldOf(attacker) != NULL);
-    assert(!st.homeworldOf(attacker)->ships[attacker].empty());
+    assert(!st.hasLost(attacker));
     
-    const int defender = 1-attacker;
-    const StarSystem *dhw = st.homeworldOf(defender);
-    const bool is_win = (dhw == NULL || dhw->ships[defender].empty());
+    const bool is_win = st.hasLost(1-attacker);
 
     if (!is_win && all.win_only) {
 	/* Sorry, we're only looking for winning moves. */

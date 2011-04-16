@@ -179,13 +179,7 @@
             if (!success) return false;
         }
         /* A losing move is not a legal move. */
-        const StarSystem *hw = st.homeworldOf(attacker);
-        if (hw == NULL) {
-            /* See ApplyMove::Single(); it's possible that we catastrophed the
-             * entire homeworld without noticing it. */
-            return false;
-        }
-        if (hw->ships[attacker].empty())
+        if (st.hasLost(attacker))
           return false;
         /* Otherwise, we succeeded in making the whole move. */
         return true;
