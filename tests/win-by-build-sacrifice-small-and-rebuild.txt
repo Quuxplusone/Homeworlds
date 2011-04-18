@@ -3,3 +3,5 @@ Alpha (b2) g1-
 Beta (g3) -r1
 Gamma (g3) -y1g2
 Player2 (1, y3g2) g2-g1
+LEGAL sacrifice g1 at Alpha; build g1 at Player2; catastrophe green
+ILLEGAL sacrifice g1 at Player1; build g1 at Player2; catastrophe green

@@ -1,2 +1,4 @@
 Player1 (0, b1g3) y3-
 Player2 (1, y3b2) r2r2y2y1y1y1-r3
+LEGAL convert y1 to r1; catastrophe red
+LEGAL convert y1 to r1; catastrophe yellow; catastrophe red

@@ -1,3 +1,4 @@
 PreCatastropheMyHomeworld (0, y3r2) y1r1r1-r3
 SacrificeHere (r3) g1-r2
 BuildRedHere (1, r3b2) r1-r2b1b1b1
+LEGAL catastrophe red; sacrifice g1; build r1; catastrophe red

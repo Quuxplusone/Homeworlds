@@ -1,3 +1,4 @@
 Player1 (0, b3g1) b1-
-CatastropheMeFirst (b2) b3b2b1-
+Alpha (b2) b3b2b1-
 Player2 (1, y3b1) b2g1-b3
+LEGAL catastrophe at Alpha; build b1 at Player2; catastrophe blue

@@ -4,3 +4,4 @@ Beta (b1) g1-
 Gamma (b2) r1-
 Delta (b2) g1-
 Player2 (1, b3) b3y3y2g1-r2g2
+LEGAL sacrifice b3; convert to b3; convert to b2; convert to b1 at Player2; catastrophe blue

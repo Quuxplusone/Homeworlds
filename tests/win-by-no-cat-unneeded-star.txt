@@ -1,3 +1,6 @@
 Player1 (0, b3g1) b1-
 SacTheMediumBlue (b2) b3b2b1-
 Player2 (1, y3b1) r2r2-b3
+LEGAL sacrifice b2; convert r2 to b2; convert r2 to b2; catastrophe blue
+LEGAL catastrophe blue
+ILLEGAL capture b3 at Player2

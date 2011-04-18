@@ -640,9 +640,9 @@ static void find_postcatastrophes(const WholeMove &m,
 }
 
 /* The vector "posscats" holds the names of stars where we can cause
- * catastrophes. As explained above, we don't need to consider what happens
- * if we make only some of these catastrophes, because if we don't insist
- * on making them, our opponent will.
+ * catastrophes. As explained above, we normally don't need to consider
+ * what happens if we make only some of these catastrophes, because if
+ * we don't insist on making them, our opponent will.
  *   However, we do need to be careful that if one of these "catastrophe"
  * actions destroys a star system, we don't issue a second "catastrophe"
  * action on the same system.
@@ -654,11 +654,15 @@ static void combine_postcatastrophes(const WholeMove &m,
     if (pc < (int)posscats.size()) {
         const Color color = posscats[pc].color;
         const StarSystem *where = st.systemNamed(posscats[pc].name.c_str());
-        /* If a star has two possible post-catastrophes, then the first
-         * catastrophe could blow up the whole star, giving us NULL here. */
         if (where == NULL) {
+            /* If a star has two possible post-catastrophes, then the
+             * first catastrophe could blow up the whole star. */
             combine_postcatastrophes(m, posscats, pc+1, st, attacker, all);
             return;
+        } else if (!all.prune_worse_moves) {
+            /* Sure, our opponent will insist on making this catastrophe
+             * if we don't, but we *are* still permitted not to make it. */
+            combine_postcatastrophes(m, posscats, pc+1, st, attacker, all);
         }
         SingleAction newaction(CATASTROPHE, color, where->name.c_str());
         WholeMove newm(m, newaction);
@@ -700,6 +704,19 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
     assert(!st.hasLost(attacker));
     
     const bool is_win = st.hasLost(1-attacker);
+
+    if (is_win) {
+        /* Furthermore, we disallow "winning" moves that leave a fatal
+         * overpopulation at your own homeworld.  This is because the
+         * other player would get a chance to trigger that catastrophe
+         * at the end of the "winning" turn, thus resulting in a
+         * delayed destruction of the attacker's homeworld.  Check
+         * for fatal overpopulations now. */
+        GameState newst = st;
+        newst.performAllCatastrophes();
+        if (newst.hasLost(attacker))
+          return;
+    }
 
     if (!is_win && all.win_only) {
 	/* Sorry, we're only looking for winning moves. */

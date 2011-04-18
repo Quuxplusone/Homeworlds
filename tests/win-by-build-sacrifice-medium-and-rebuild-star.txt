@@ -1,5 +1,6 @@
 Player1 (0, y1g3) g1-
+Alpha (g1) g2-
 Beta (g3) -r1
 Gamma (g3) -y1g2
-SacrificeHere (g1) g2-
 Player2 (1, y3b1) g2-g1
+LEGAL sacrifice at Alpha; build g1g2 at Player2; catastrophe green

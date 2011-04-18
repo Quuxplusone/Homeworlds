@@ -417,25 +417,41 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
  * a legal move. */
 static void verify_move(bool legal, const WholeMove &move, int attacker)
 {
-    std::vector<WholeMove> allmoves;
-    findAllMoves(g_History.currentstate(), attacker, allmoves,
-            /*prune_obviously_worse_moves=*/false,
-            /*look_only_for_wins=*/false,
-            /*these_colors_only=*/0xF);
-    GameState targetst = g_History.currentstate();
-    ApplyMove::or_die(targetst, attacker, move);
-    const std::string target = targetst.toComparableString();
-    bool found = false;
-    for (int i=0; i < (int)allmoves.size(); ++i) {
-        GameState newst = g_History.currentstate();
-        ApplyMove::or_die(newst, attacker, allmoves[i]);
-        if (newst.toComparableString() == target) {
-            found = true;
-            break;
+    if (ApplyMove::isValidMove(g_History.currentstate(), attacker, move)) {
+        if (!legal)
+          printf("Failed isValidMove test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
+        std::vector<WholeMove> allmoves;
+        findAllMoves(g_History.currentstate(), attacker, allmoves,
+                /*prune_obviously_worse_moves=*/false,
+                /*look_only_for_wins=*/false,
+                /*these_colors_only=*/0xF);
+        GameState targetst = g_History.currentstate();
+        ApplyMove::or_die(targetst, attacker, move);
+        const std::string target = targetst.toComparableString();
+        bool found = false;
+        for (int i=0; i < (int)allmoves.size(); ++i) {
+            GameState newst = g_History.currentstate();
+            ApplyMove::or_die(newst, attacker, allmoves[i]);
+            if (newst.toComparableString() == target) {
+                found = true;
+                break;
+            }
+        }
+        if (found != legal)
+          printf("Failed findAllMoves test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
+        if (legal && targetst.hasLost(1-attacker)) {
+            /* The given move is supposed to be legal AND winning;
+             * therefore findWinningMove() should return true. */
+            if (!findWinningMove(g_History.currentstate(), attacker, NULL))
+              printf("Failed findWinningMove test: LEGAL %s\n", move.toString().c_str());
+        }
+    } else {
+        if (legal) {
+            printf("Failed isValidMove test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
+            printf("Skipping findAllMoves test\n");
+            printf("Skipping findWinningMove test\n");
         }
     }
-    if (found != legal)
-      printf("Failed: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
 }
 
 

@@ -1,3 +1,4 @@
 Player1 (0, y3g2) g1b1-b3
-PreCatastropheAndSacrificeHere (r2) g2b1-b1b2b2b3
-BuildBlueHere (1, b2) b3-r1y1g1
+Alpha (r2) g2b1-b1b2b2b3
+Player2 (1, b2) b3-r1y1g1
+LEGAL catastrophe blue; sacrifice g2; build b1b1 at Player2; catastrophe

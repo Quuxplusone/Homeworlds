@@ -1,3 +1,5 @@
 Player1 (0, b2g1) r1y1b2-
 Alpha (b1) -r1y1y1b1
 Player2 (1, y3g1) r1b1-y3y2
+ILLEGAL convert r1 to y1 at Player2; catastrophe yellow at Player2
+LEGAL sacrifice; convert y1 to g1 at Player1; convert r1 to y1 at Player2; catastrophe

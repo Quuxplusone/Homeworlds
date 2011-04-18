@@ -1,2 +1,6 @@
 Player1 (0, r3g1) r1r2r3-
 Player2 (1, y2g1) -b3
+LEGAL sacrifice r1
+LEGAL sacrifice r2
+LEGAL sacrifice r3
+LEGAL pass

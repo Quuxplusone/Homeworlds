@@ -1,3 +1,8 @@
 Player1 (0, r2r3) r1r1r1-
 Alpha (r2) y2-
 Player2 (1, g3) b2-y1y1y1y2g1g1g1b1b1b1
+ILLEGAL catastrophe green at Player2
+ILLEGAL catastrophe green; sacrifice r1
+LEGAL catastrophe green; sacrifice y2; move r1r1 to Elsewhere (y1)
+LEGAL catastrophe green; sacrifice y2; move r1r1 to Elsewhere (g1)
+LEGAL catastrophe green; sacrifice y2; move r1r1 to Elsewhere (b1)

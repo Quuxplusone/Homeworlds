@@ -1,5 +1,7 @@
 # The winning tactic here is some combination of sacrificing and
 # converting Player1's medium blues to eliminate that overpopulation,
-# followed by causing a blue catastrophe at Player2.
+# followed by causing a catastrophe at Player2.
 Player1 (0, b3) b2b2b2-
 Player2 (1, g3) -g2g2g2
+LEGAL sacrifice b2; catastrophe
+LEGAL convert to r2; catastrophe

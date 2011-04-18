@@ -1,3 +1,3 @@
-# The winning move here is "sac b2; convert to g1; catastrophe green".
 Player1 (0, b3) b2b2b2-
 Player2 (1, g3) b1-g2g2
+LEGAL sacrifice b2; convert to g1; catastrophe green

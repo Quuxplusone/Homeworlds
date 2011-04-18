@@ -1,3 +1,7 @@
 Player1 (0, g2r3) r1r1r1r2r2-
 Alpha (r2) y2-
 Player2 (1, g3) b2-y1y1y1y2g1g1g1b1b1b1
+ILLEGAL sacrifice y2 at Alpha; move b2 from Player2 to Waypoint (y1); move b2 from Waypoint to Player1; catastrophe green at Player2
+LEGAL catastrophe yellow; sacrifice y2; move b2 to Waypoint (y1); move b2 to Player1; catastrophe green
+LEGAL catastrophe yellow; sacrifice y2; move b2 to Waypoint (y1); move b2 to Player1; catastrophe green; catastrophe red
+LEGAL catastrophe yellow; sacrifice y2; move b2 to Waypoint (y1); move b2 to Player1; catastrophe red

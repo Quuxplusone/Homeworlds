@@ -181,6 +181,13 @@
         /* A losing move is not a legal move. */
         if (st.hasLost(attacker))
           return false;
+        assert(st.homeworldOf(attacker) != NULL);
+        if (st.hasLost(1-attacker) && st.homeworldOf(attacker)->containsOverpopulation()) {
+            GameState newst = st;
+            newst.performAllCatastrophes();
+            if (newst.hasLost(attacker))
+              return false;
+        }
         /* Otherwise, we succeeded in making the whole move. */
         return true;
     }

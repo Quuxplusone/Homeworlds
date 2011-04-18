@@ -5,3 +5,7 @@ Player1 (0, r3) r2r2r3-r1
 Alpha (y2) g2-y2g2b2
 Beta (b2) -r2y2g2
 Player2 (1, b3) b3-g3g3b2b1b1
+ILLEGAL catastrophe red at Player1
+ILLEGAL catastrophe blue at Player2
+LEGAL sacrifice r3; capture g3g3 at Player2
+ILLEGAL sacrifice r3; capture g3g3 at Player2; catastrophe blue at Player2
