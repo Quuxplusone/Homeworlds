@@ -522,7 +522,7 @@ static bool move_and_record(int attacker)
     } else {
         WholeMove move;
         const bool isAiMove = !strcmp(moveline, "ai_move");
-        const bool isWinMove = !strcmp(moveline, "win_move");
+        const bool isWinMove = !strcmp(moveline, "WIN");
         if (isAiMove) {
             move = get_ai_move(g_History.currentstate(), attacker);
             if (g_Verbose)
