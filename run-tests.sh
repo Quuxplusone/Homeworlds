@@ -1,5 +1,5 @@
 make annotate
-for f in tests/p0-win*; do
+for f in tests/win*; do
   echo $f
 
   echo -e "ai_move\nai_move\nquit\n" | cat $f - | ./annotate -auto >OUTPUT
@@ -11,7 +11,7 @@ for f in tests/p0-win*; do
   echo "The game is already over!" | diff --brief - OUTPUT
 done
 
-for f in tests/p0-nowin*; do
+for f in tests/nowin*; do
   echo $f
 
   echo -e "ai_move\nai_move\nquit\n" | cat $f - | ./annotate -auto >OUTPUT
