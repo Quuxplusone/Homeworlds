@@ -410,6 +410,35 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
 }
 
 
+/* The special command "LEGAL build r1" runs findAllMoves()
+ * and verifies that "build r1" indeed appears in the list.
+ * That's how we validate that findAllMoves() could be used
+ * by a GUI program to basically diff any pair of states into
+ * a legal move. */
+static void verify_move(bool legal, const WholeMove &move, int attacker)
+{
+    std::vector<WholeMove> allmoves;
+    findAllMoves(g_History.currentstate(), attacker, allmoves,
+            /*prune_obviously_worse_moves=*/false,
+            /*look_only_for_wins=*/false,
+            /*these_colors_only=*/0xF);
+    GameState targetst = g_History.currentstate();
+    ApplyMove::or_die(targetst, attacker, move);
+    const std::string target = targetst.toComparableString();
+    bool found = false;
+    for (int i=0; i < (int)allmoves.size(); ++i) {
+        GameState newst = g_History.currentstate();
+        ApplyMove::or_die(newst, attacker, allmoves[i]);
+        if (newst.toComparableString() == target) {
+            found = true;
+            break;
+        }
+    }
+    if (found != legal)
+      printf("Failed: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
+}
+
+
 static bool move_and_record(int attacker)
 {
     const bool game_is_over = g_History.currentstate().gameIsOver();
@@ -518,6 +547,33 @@ static bool move_and_record(int attacker)
         free(moveline);
         std::vector<WholeMove> allmoves;
         get_all_moves_sorted_by_value(g_History.currentstate(), attacker, allmoves, true);
+        goto get_move;
+    } else if (!strncmp(moveline, "LEGAL ", 6) ||
+               !strncmp(moveline, "ILLEGAL ", 8) ||
+               !strncmp(moveline, "AMBIG ", 6)) {
+        const bool checkLegal = !strncmp(moveline, "LEGAL ", 6);
+        const bool checkIllegal = !strncmp(moveline, "ILLEGAL ", 8);
+        const bool checkAmbig = !strncmp(moveline, "AMBIG ", 6);
+        const char * const realmoveline = (checkIllegal ? moveline+8 : moveline+6);
+        WholeMove move;
+        const bool success = move.scan(realmoveline);
+        if (!success) {
+            printf("Failed: \"%s\" didn't parse as a move\n", realmoveline);
+            free(moveline);
+            goto get_move;
+        }
+        if (move.is_missing_pieces()) {
+            WholeMove oldmove = move;
+            const bool inferred = inferMoveFromState(g_History.currentstate(), attacker, move);
+            if (checkAmbig == inferred) {
+                printf("Failed: \"%s\" is%s ambiguous.\n",
+                    oldmove.toString().c_str(), checkAmbig ? " not" : "");
+            }
+            if (inferred && !checkAmbig) {
+                verify_move(checkLegal, move, attacker);
+            }
+        }
+        free(moveline);
         goto get_move;
     } else {
         WholeMove move;

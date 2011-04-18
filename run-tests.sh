@@ -22,4 +22,11 @@ for f in tests/nowin*; do
   echo "AI for Player1 found no winning move." | diff --brief - OUTPUT
 done
 
+for f in tests/verify*; do
+  echo $f
+  ./annotate -auto < $f >OUTPUT
+  ## OUTPUT should be empty.
+  diff --brief /dev/null OUTPUT
+done
+
 rm OUTPUT
