@@ -522,10 +522,23 @@ static bool move_and_record(int attacker)
     } else {
         WholeMove move;
         const bool isAiMove = !strcmp(moveline, "ai_move");
+        const bool isWinMove = !strcmp(moveline, "win_move");
         if (isAiMove) {
             move = get_ai_move(g_History.currentstate(), attacker);
             if (g_Verbose)
               printf("AI for %s chooses: %s\n", g_playerNames[attacker].c_str(), move.toString().c_str());
+        } else if (isWinMove) {
+            WholeMove winmove;
+            if (findWinningMove(g_History.currentstate(), attacker, &winmove)) {
+                if (g_Verbose) {
+                    printf("AI for %s found a winning move:\n", g_playerNames[attacker].c_str());
+                    printf("%s\n", move.toString().c_str());
+                }
+                move = winmove;
+            } else {
+                printf("AI for %s found no winning move.\n", g_playerNames[attacker].c_str());
+                goto get_move;
+            }
         } else {
             const bool success = move.scan(moveline);
             if (!success) {

@@ -55,10 +55,12 @@ struct AllT {
     AllMapT map;
     const bool prune_worse_moves;
     const bool win_only;
+    const bool contained_overpopulations;
     bool look_for[4];
     bool found_win;
-    AllT(bool p, bool w, unsigned int mask):
-	prune_worse_moves(p), win_only(w), found_win(false)
+    AllT(bool p, bool w, bool co, unsigned int mask):
+	prune_worse_moves(p), win_only(w),
+        contained_overpopulations(co), found_win(false)
     {
 	for (Color c = RED; c <= BLUE; ++c) {
 	    look_for[c] = ((mask & (1u << (int)c)) != 0);
@@ -69,6 +71,7 @@ struct AllT {
 
 static void combine_precatastrophes(const WholeMove &m, const std::vector<PossCat> &posscats, int pc,
     const GameState &st, int attacker, AllT &all);
+static void combine_normal(const WholeMove &m, const GameState &st, int attacker, AllT &all);
 static void combine_n_actions(const WholeMove &m, Color color, int num_moves,
     const GameState &st, int attacker, AllT &all);
 static void combine_one_action(const WholeMove &m, Color color, int num_more_moves,
@@ -150,7 +153,8 @@ void findAllMoves(const GameState &st, int attacker,
     /* It is the caller's responsibility to clear the vector he passes in. */
     assert(allmoves.empty());
 
-    AllT all(prune_worse_moves, look_only_for_wins, these_colors_only);
+    AllT all(prune_worse_moves, look_only_for_wins,
+             st.containsOverpopulation(), these_colors_only);
     /* As explained above, we want to avoid generating moves that are
      * equivalent to "pass". It's easy to avoid generating "pass", but
      * harder to avoid "sacrifice g1 at Where; build g1 at Where", which
@@ -163,31 +167,39 @@ void findAllMoves(const GameState &st, int attacker,
     try {
 #endif
 
-    /* Top level: Find all the pre-catastrophes we can make. */
-    std::vector<PossCat> posscats;
-    for (int i=0; i < (int)st.stars.size(); ++i) {
-        const StarSystem &star = st.stars[i];
-        for (Color c = RED; c <= BLUE; ++c) {
-            if (star.containsOverpopulation(c)) {
-                /* You might wonder why we're putting a whole std::string
-                 * in each PossCat, instead of a pointer or an "int" index.
-                 * The answer is that a star's name is the only reliable
-                 * identifier once we start applying actions. Applying the
-                 * first "catastrophe" action can cause a star to be removed,
-                 * in which case the remaining stars shift down, invalidating
-                 * pointers and indexes into the "st.stars" vector. Only the
-                 * names are guaranteed to remain the same. */
-                posscats.push_back(PossCat(c, star.name));
+    WholeMove passmove;
+    if (all.contained_overpopulations) {
+        /* Top level: Find all the pre-catastrophes we can make. */
+        std::vector<PossCat> posscats;
+        for (int i=0; i < (int)st.stars.size(); ++i) {
+            const StarSystem &star = st.stars[i];
+            for (Color c = RED; c <= BLUE; ++c) {
+                if (star.containsOverpopulation(c)) {
+                    /* You might wonder why we're putting a whole std::string
+                     * in each PossCat, instead of a pointer or an "int" index.
+                     * The answer is that a star's name is the only reliable
+                     * identifier once we start applying actions. Applying the
+                     * first "catastrophe" action can cause a star to be removed,
+                     * in which case the remaining stars shift down, invalidating
+                     * pointers and indexes into the "st.stars" vector. Only the
+                     * names are guaranteed to remain the same. */
+                    posscats.push_back(PossCat(c, star.name));
+                }
             }
         }
+        /* For every combination of these catastrophes...
+         * combine_precatastrophes() is the top of our recursive descent.
+         * It bottoms out by calling combine_n_actions(), which calls
+         * combine_one_action(), which calls combine_postcatastrophes(),
+         * which finally bottoms out in a call to append_move(). Whee! */
+        combine_precatastrophes(passmove, posscats, 0, st, attacker, all);
+    } else {
+        /* The original state contained no overpopulations, so we
+         * can skip all that precatastrophe stuff. This is the
+         * usual situation... unless our opponent set up an
+         * overpopulation and then just left it there for us. */
+        combine_normal(passmove, st, attacker, all);
     }
-    /* For every combination of these catastrophes...
-     * combine_precatastrophes() is the top of our recursive descent.
-     * It bottoms out by calling combine_n_actions(), which calls
-     * combine_one_action(), which calls combine_postcatastrophes(),
-     * which finally bottoms out in a call to append_move(). Whee! */
-    WholeMove passmove;
-    combine_precatastrophes(passmove, posscats, 0, st, attacker, all);
 
     if (prune_worse_moves && !all.map.empty()) {
 	/* We have found at least one move better than "pass". */
@@ -247,19 +259,22 @@ static void combine_precatastrophes(const WholeMove &m,
         if (where->homeworldOf == attacker && newst.homeworldOf(attacker) == NULL) {
             /* A catastrophe that blows up our own homeworld isn't allowed. */
         } else {
+            assert(newst.homeworldOf(attacker) != NULL);
             /* This catastrophe is allowed. Get all the possible moves if we do
              * catastrophe this color here. */
-            if (where->homeworldOf == defender && newst.homeworldOf(defender) == NULL) {
+            if (all.prune_worse_moves &&
+                where->homeworldOf == defender &&
+                newst.homeworldOf(defender) == NULL &&
+                !newst.homeworldOf(attacker)->containsOverpopulation()) {
                 /* A catastrophe that blows up the defender's homeworld is
-                 * an instant win... unless there's also an overpopulation
-                 * threatening the attacker's homeworld! Rather than skipping
-                 * straight to append_move(), we must combine_postcatastrophes().
-                 */
-                find_postcatastrophes(newm, newst, attacker, all);
-#if !ALLMOVES_USE_EXCEPTIONS
-                /* Bail out early if we've already found a win. */
-                if (all.prune_worse_moves && all.found_win) return;
-#endif
+                 * an instant win... as long as there's no overpopulation
+                 * threatening the attacker's homeworld!  If there *is*
+                 * an overpopulation threatening us, we might need to
+                 * make some non-trivial move (e.g. change color at home,
+                 * or move in another ship) to fix it up. */
+                append_move(all, newm, newst, attacker);
+                assert(all.found_win);
+                return;
             }
             combine_precatastrophes(newm, posscats, pc+1, newst, attacker, all);
 #if !ALLMOVES_USE_EXCEPTIONS
@@ -272,19 +287,30 @@ static void combine_precatastrophes(const WholeMove &m,
         combine_precatastrophes(m, posscats, pc+1, st, attacker, all);
         return;
     }
-    /* Otherwise, we've reached the end of our list of potential pre-catastrophes.
-     * Now look for proper moves --- either moves we can make for free, or
-     * sacrifice moves. We'll start with the free moves. */
+    /* Otherwise, we've reached the end of our list of potential
+     * pre-catastrophes. Now look for proper moves --- either
+     * moves we can make for free, or sacrifice moves. */
+    combine_normal(m, st, attacker, all);
+    return;
+}
+
+static void combine_normal(const WholeMove &m,
+    const GameState &st, const int attacker, AllT &all)
+{
+    const int defender = 1-attacker;
     for (int i=0; i < (int)st.stars.size(); ++i) {
         const StarSystem &where = st.stars[i];
         if (all.win_only) {
             /* If we're just looking for winning moves, we know we don't
              * have to consider captures or builds outside the defender's
-             * homeworld. We don't need to consider moves away from the
-             * defender's homeworld. */
+             * homeworld. We don't need to consider moves or color-changes
+             * outside the defender's homeworld, unless there was an
+             * overpopulation problem at home. */
             if (where.homeworldOf == defender) {
                 if (all.look_for[RED] && where.playerHasAccessTo(attacker, RED))
                   combine_one_action(m, RED, 0, i, st, attacker, all);
+                if (all.contained_overpopulations && all.look_for[YELLOW] && where.playerHasAccessTo(attacker, YELLOW))
+                  combine_one_action(m, YELLOW, 0, i, st, attacker, all);
                 if (all.look_for[GREEN] && where.playerHasAccessTo(attacker, GREEN))
                   combine_one_action(m, GREEN, 0, i, st, attacker, all);
                 if (all.look_for[BLUE] && where.playerHasAccessTo(attacker, BLUE))
@@ -292,6 +318,8 @@ static void combine_precatastrophes(const WholeMove &m,
             } else {
                 if (all.look_for[YELLOW] && where.playerHasAccessTo(attacker, YELLOW))
                   combine_one_action(m, YELLOW, 0, i, st, attacker, all);
+                if (all.contained_overpopulations && all.look_for[BLUE] && where.playerHasAccessTo(attacker, BLUE))
+                  combine_one_action(m, BLUE, 0, i, st, attacker, all);
             }
         } else {
             for (Color c = RED; c <= BLUE; ++c) {
@@ -424,7 +452,7 @@ static void combine_one_yellow_action(const WholeMove &m,
      * action at this system. In other words, for each ship, find all the
      * stars we could move it to --- including newly created stars! */
 
-    if (all.win_only) {
+    if (all.win_only && !all.contained_overpopulations) {
         /* Moving away from the defender's homeworld is pointless. */
         if (where.homeworldOf == defender) return;
     }
@@ -541,7 +569,7 @@ static void combine_one_blue_action(const WholeMove &m,
      * action at this system. In other words, for each ship we have here,
      * try exchanging it with every other ship of its size in the stash. */
 
-    if (all.win_only) {
+    if (all.win_only && !all.contained_overpopulations) {
         /* It does make sense to trade a ship outside the defender's
          * homeworld, if we need that color to trade at the homeworld.
          * However, it doesn't make sense to do that as the *last* action. */
