@@ -578,16 +578,15 @@ static bool move_and_record(int attacker)
             free(moveline);
             goto get_move;
         }
-        if (move.is_missing_pieces()) {
-            WholeMove oldmove = move;
-            const bool inferred = inferMoveFromState(g_History.currentstate(), attacker, move);
-            if (checkAmbig == inferred) {
-                printf("Failed: \"%s\" is%s ambiguous.\n",
-                    oldmove.toString().c_str(), checkAmbig ? " not" : "");
-            }
-            if (inferred && !checkAmbig) {
-                verify_move(checkLegal, move, attacker);
-            }
+        WholeMove oldmove = move;
+        const bool inferred = move.is_missing_pieces() ?
+                inferMoveFromState(g_History.currentstate(), attacker, move) : true;
+        if (checkAmbig == inferred) {
+            printf("Failed: \"%s\" is%s ambiguous.\n",
+                oldmove.toString().c_str(), checkAmbig ? " not" : "");
+        }
+        if (inferred && !checkAmbig) {
+            verify_move(checkLegal, move, attacker);
         }
         free(moveline);
         goto get_move;
