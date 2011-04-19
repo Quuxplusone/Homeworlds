@@ -247,11 +247,13 @@ static void combine_precatastrophes(const WholeMove &m,
         /* Get all the possible moves if we do catastrophe this color here. */
         Color color = posscats[pc].color;
         const StarSystem *where = st.systemNamed(posscats[pc].name.c_str());
-        /* If there was already a catastrophe at this star, and that catastrophe
-         * blew up the entire star, then it won't exist in the GameState anymore.
-         * Therefore, we do have to check for NULL at this point. */
-        if (where == NULL)
-          return;
+        if (where == NULL) {
+            /* There was already a catastrophe at this star; it blew up
+             * the entire star. Keep going, but obviously we can't
+             * perform this catastrophe. */
+            combine_precatastrophes(m, posscats, pc+1, st, attacker, all);
+            return;
+        }
         SingleAction newaction(CATASTROPHE, color, where->name.c_str());
         WholeMove newm(m, newaction);
         GameState newst = st;
@@ -265,7 +267,8 @@ static void combine_precatastrophes(const WholeMove &m,
             if (all.prune_worse_moves &&
                 where->homeworldOf == defender &&
                 newst.homeworldOf(defender) == NULL &&
-                !newst.homeworldOf(attacker)->containsOverpopulation()) {
+                !newst.homeworldOf(attacker)->containsOverpopulation() &&
+                !newst.hasLost(attacker)) {
                 /* A catastrophe that blows up the defender's homeworld is
                  * an instant win... as long as there's no overpopulation
                  * threatening the attacker's homeworld!  If there *is*
@@ -276,7 +279,19 @@ static void combine_precatastrophes(const WholeMove &m,
                 assert(all.found_win);
                 return;
             }
-            combine_precatastrophes(newm, posscats, pc+1, newst, attacker, all);
+            if (where->homeworldOf == attacker && newst.hasLost(attacker)) {
+                /* We just blew up the last ship at our homeworld. This is
+                 * legal, but we'll need to move another ship in. */
+                bool saved_look_for[4];
+                memcpy(saved_look_for, all.look_for, sizeof all.look_for);
+                all.look_for[RED] = false;
+                all.look_for[GREEN] = false;
+                all.look_for[BLUE] = false;
+                combine_precatastrophes(newm, posscats, pc+1, newst, attacker, all);
+                memcpy(all.look_for, saved_look_for, sizeof all.look_for);
+            } else {
+                combine_precatastrophes(newm, posscats, pc+1, newst, attacker, all);
+            }
 #if !ALLMOVES_USE_EXCEPTIONS
             /* Bail out early if we've already found a win. */
             if (all.prune_worse_moves && all.found_win) return;
@@ -472,17 +487,23 @@ static void combine_one_yellow_action(const WholeMove &m,
     }
 
     /* If this is the last action of a yellow sacrifice move,
-     * we need to make sure that we wind up with a ship at our
-     * own homeworld. */
+     * or if we started by blowing up all the friendly ships at
+     * home, we need to make sure that we wind up with a ship
+     * at our own homeworld. */
     assert(st.homeworldOf(attacker) != NULL);
     const bool must_fly_homeward = (num_more_moves == 0 &&
             where.homeworldOf != attacker &&
             st.homeworldOf(attacker)->ships[attacker].empty());
-    /* The last action of a winning move must always be directed against
-     * the defender's homeworld. (If we need to send a ship home to replace
-     * a sacrificed yellow, as above, we can do that on the second-to-last
-     * action without loss of generality.) */
-    const bool must_attack_defender = (num_more_moves == 0 && all.win_only);
+    /* The last action of a winning move must (almost) always be directed
+     * against the defender's homeworld. If we need to send a ship home
+     * to replace a sacrificed yellow, as above, we can do that on the
+     * second-to-last action without loss of generality.
+     *   If we need to evacuate some ships to avoid an existing
+     * overpopulation, then it's permissible to break this rule. */
+    const bool maybe_need_to_evacuate =
+            (all.contained_overpopulations && where.homeworldOf == attacker &&
+             where.containsOverpopulation());
+    const bool must_attack_defender = (num_more_moves == 0 && all.win_only && !maybe_need_to_evacuate);
     if (must_fly_homeward && must_attack_defender)
       return;
 
