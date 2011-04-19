@@ -87,7 +87,7 @@ class SingleAction {
 };
 
 class WholeMove {
-    friend class ApplyMove;
+    friend struct ApplyMove;
     bool sanitycheck() const;
 
   public:
