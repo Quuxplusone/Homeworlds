@@ -564,6 +564,38 @@ static bool move_and_record(int attacker)
         std::vector<WholeMove> allmoves;
         get_all_moves_sorted_by_value(g_History.currentstate(), attacker, allmoves, true);
         goto get_move;
+    } else if (!strncmp(moveline, "KILLER ", 7)) {
+        const char * const realmoveline = (moveline+7);
+        WholeMove killer;
+        const bool success = killer.scan(realmoveline);
+        if (!success) {
+            printf("Failed: \"%s\" didn't parse as a move\n", realmoveline);
+            free(moveline);
+            goto get_move;
+        }
+        free(moveline);
+        /* It's Alice's turn. She's looking for a good move, but
+         * everything she can think of either leaves her in check,
+         * or Bob can checkmate her with <killer>. She wants a list
+         * of all possible moves that don't fall into those categories.
+         */
+        std::vector<WholeMove> allmoves;
+        findAllMoves_usualcase(g_History.currentstate(), attacker, allmoves);
+        for (int i=0; i < (int)allmoves.size(); ++i) {
+            GameState st = g_History.currentstate();
+            ApplyMove::or_die(st, attacker, allmoves[i]);
+            if (findWinningMove(st, 1-attacker, NULL))
+              continue;
+            WholeMove k2 = killer;
+            if (inferMoveFromState(st, 1-attacker, k2) &&
+                    ApplyMove::Whole(st, 1-attacker, k2)) {
+                WholeMove followup = get_ai_move(st, attacker);
+                if (followup.isPass())
+                  continue;
+            }
+            printf("%s\n", allmoves[i].toString().c_str());
+        }
+        goto get_move;
     } else if (!strncmp(moveline, "LEGAL ", 6) ||
                !strncmp(moveline, "ILLEGAL ", 8) ||
                !strncmp(moveline, "AMBIG ", 6)) {
