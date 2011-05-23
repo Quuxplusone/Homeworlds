@@ -15,7 +15,11 @@ class PieceCollection {
     enum { MAXSTRLEN = 24*(NUMPLAYERS+1) };
 
     PieceCollection();
-    bool contains(const PieceCollection &rhs) const;
+
+    bool contains(const PieceCollection &) const;
+    bool operator == (const PieceCollection &) const;
+    bool operator != (const PieceCollection &rhs) const { return !(*this == rhs); }
+
     int empty() const { return !numberOf(RED) && !numberOf(YELLOW) && !numberOf(GREEN) && !numberOf(BLUE); }
     int number() const { return numberOf(SMALL)+numberOf(MEDIUM)+numberOf(LARGE); }
     int numberOf(Color c) const { return pieces[c][SMALL]+pieces[c][MEDIUM]+pieces[c][LARGE]; }

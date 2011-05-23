@@ -35,6 +35,17 @@ bool PieceCollection::contains(const PieceCollection &rhs) const
     return true;
 }
 
+bool PieceCollection::operator == (const PieceCollection &rhs) const
+{
+    for (Color c = RED; c <= BLUE; ++c) {
+        for (Size s = SMALL; s <= LARGE; ++s) {
+            if (this->pieces[c][s] != rhs.pieces[c][s])
+              return false;
+        }
+    }
+    return true;
+}
+
 PieceCollection &PieceCollection::operator -= (const PieceCollection &rhs)
 {
     for (Color c = RED; c <= BLUE; ++c) {
