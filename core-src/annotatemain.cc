@@ -565,13 +565,21 @@ static bool move_and_record(int attacker)
         get_all_moves_sorted_by_value(g_History.currentstate(), attacker, allmoves, true);
         goto get_move;
     } else if (!strncmp(moveline, "KILLER ", 7)) {
-        const char * const realmoveline = (moveline+7);
-        WholeMove killer;
-        const bool success = killer.scan(realmoveline);
-        if (!success) {
-            printf("Failed: \"%s\" didn't parse as a move\n", realmoveline);
-            free(moveline);
-            goto get_move;
+        std::vector<WholeMove> killer;
+        /* The rest of the line consists of moves separated by slashes. */
+        for (char *p = moveline+7; p != NULL; ) {
+            char *end = strchr(p, '/');
+            if (end != NULL)
+              *end = '\0';
+            WholeMove move;
+            const bool success = move.scan(p);
+            if (!success) {
+                printf("Failed: \"%s\" didn't parse as a move\n", p);
+                free(moveline);
+                goto get_move;
+            }
+            killer.push_back(move);
+            p = (end == NULL) ? NULL : end+1;
         }
         free(moveline);
         /* It's Alice's turn. She's looking for a good move, but
@@ -584,16 +592,21 @@ static bool move_and_record(int attacker)
         for (int i=0; i < (int)allmoves.size(); ++i) {
             GameState st = g_History.currentstate();
             ApplyMove::or_die(st, attacker, allmoves[i]);
+            bool is_loss = false;
             if (findWinningMove(st, 1-attacker, NULL))
-              continue;
-            WholeMove k2 = killer;
-            if (inferMoveFromState(st, 1-attacker, k2) &&
-                    ApplyMove::Whole(st, 1-attacker, k2)) {
-                WholeMove followup = get_ai_move(st, attacker);
-                if (followup.isPass())
-                  continue;
+              is_loss = true;
+            for (int j=0; !is_loss && j < (int)killer.size(); ++j) {
+                WholeMove k2 = killer[j];
+                GameState st2 = st;
+                if (inferMoveFromState(st2, 1-attacker, k2) &&
+                        ApplyMove::Whole(st2, 1-attacker, k2)) {
+                    WholeMove followup = get_ai_move(st2, attacker);
+                    if (followup.isPass())
+                      is_loss = true;
+                }
             }
-            printf("%s\n", allmoves[i].toString().c_str());
+            if (!is_loss)
+              printf("%s\n", allmoves[i].toString().c_str());
         }
         goto get_move;
     } else if (!strncmp(moveline, "LEGAL ", 6) ||
