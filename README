@@ -15,18 +15,16 @@ This project consists of four main components:
    The analyzer includes a very simple AI (nothing more than an
    evaluation function and a simple sanity filter to avoid moving
    directly into check), so it can be used to play games against the
-   computer. The analyzer's depth-first search function can be used to
-   unfold endgame positions from human games, to see when exactly escape
-   became inevitable.  This code is in the core-src/ directory.
+   computer. This code is in the core-src/ directory.
 
  - Portable C++ code (using the wxWidgets library) for a GUI analog
    to "annotate", named "wxgui". This is a work in progress. Eventually
    I hope to give it all the functionality of "annotate", plus nice
    graphics.  This code is in the wxgui-src/ directory.
 
- - Regression tests for the analyzer. Tests beginning "p0-win" are
+ - Regression tests for the analyzer. Tests beginning "win-" are
    endgame positions from which there is a winning move; tests beginning
-   "p0-nowin" are endgame positions from which there is no winning move.
+   "nowin-" are endgame positions from which there is no winning move.
    Some tests hinge upon very obscure points in the rules, such as
    sacrificing a ship in order to build it later in the same turn,
    or sacrificing a homeworld's last defender.  These tests are in

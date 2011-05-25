@@ -1,4 +1,5 @@
 
+#include <algorithm>
 #include <assert.h>
 #include "state.h"
 #include "move.h"
@@ -148,9 +149,71 @@ static bool infer_sacrifice(const GameState &st, int attacker, const WholeMove &
 }
 
 
-static bool infer_capture(const GameState &st, int attacker, SingleAction &action, bool saw_sacrifice)
+static bool infer_multicapture(const GameState &st, int attacker, WholeMove &move, SingleAction &action)
 {
     assert(action.kind == CAPTURE);
+    const int defender = 1-attacker;
+    /* Count the ships we're capturing with the equivalent of "capture r1y1g1". */
+    PieceCollection to_capture;
+    for (int j = (&action - &move.actions[0]); j < (int)move.actions.size(); ++j) {
+        SingleAction &actjon = move.actions[j];
+        if (actjon.kind != CAPTURE || actjon.where != "")
+          break;
+        if (actjon.color == UNKNOWN_COLOR || actjon.size == UNKNOWN_SIZE)
+          break;
+        to_capture.insert(actjon.color, actjon.size);
+    }
+    /* Now try to capture any ships matching that set. */
+    PieceCollection captured;
+    int j = (&action - &move.actions[0]);
+    for (int i=0; i < (int)st.stars.size(); ++i) {
+        const StarSystem &here = st.stars[i];
+        /* Since we only try infer_multicapture() when we've already seen a sacrifice,
+         * that means that we don't need to check for hasAccessTo(RED) here. */
+        if (here.ships[attacker].empty()) continue;
+        if (here.ships[defender].empty()) continue;
+        const Size biggest = here.ships[attacker].biggestSize();
+        for (Color c = RED; c <= BLUE; ++c) {
+            for (Size s = SMALL; s <= biggest; ++s) {
+                const int target = to_capture.numberOf(c,s);
+                int num_here = here.ships[defender].numberOf(c,s);
+                if (target != 0 && num_here != 0) {
+                    /* One of our targets is here! */
+                    if (captured.numberOf(c,s) != 0 && (captured.numberOf(c,s) + num_here > target))
+                      return false;  /* Ambiguity! */
+                    num_here = std::min(num_here, target - captured.numberOf(c,s));
+                    captured.insert(c,s,num_here);
+                    for ( ; num_here != 0; --num_here) {
+                        assert(move.actions[j].kind == CAPTURE);
+                        assert(move.actions[j].where == "");
+                        move.actions[j].where = here.name;
+                        move.actions[j].color = c;
+                        move.actions[j].size = s;
+                        ++j;
+                    }
+                }
+            }
+        }
+    }
+    assert(captured.contains(to_capture));
+    if (captured != to_capture)
+      return false;
+    assert(j == (&action - &move.actions[0]) + to_capture.number());
+    return true;
+}
+
+
+static bool infer_capture(const GameState &st, int attacker, WholeMove &move, SingleAction &action, bool saw_sacrifice)
+{
+    assert(action.kind == CAPTURE);
+
+    if (saw_sacrifice && action.where == "" &&
+            action.color != UNKNOWN_COLOR && action.size != UNKNOWN_SIZE) {
+        /* This can handle "capture y2; capture y2" where the two y2 ships
+         * are in two different systems. */
+        return infer_multicapture(st, attacker, move, action);
+    }
+
     const int defender = 1-attacker;
     SingleAction newaction = action;
     bool foundone = false;
@@ -162,21 +225,20 @@ static bool infer_capture(const GameState &st, int attacker, SingleAction &actio
           continue;
         if (here.ships[attacker].empty()) continue;
         if (here.ships[defender].empty()) continue;
+        const Size biggest = here.ships[attacker].biggestSize();
         for (Color c = RED; c <= BLUE; ++c) {
             if (action.color != UNKNOWN_COLOR && c != action.color)
               continue;
-            for (Size s = SMALL; s <= LARGE; ++s) {
+            for (Size s = SMALL; s <= biggest; ++s) {
                 if (action.size != UNKNOWN_SIZE && s != action.size)
                   continue;
                 if (here.ships[defender].numberOf(c,s) == 0)
                   continue;
-                if (here.ships[attacker].biggestSize() >= s) {
-                    if (foundone) return false;
-                    newaction.where = here.name;
-                    newaction.color = c;
-                    newaction.size = s;
-                    foundone = true;
-                }
+                if (foundone) return false;
+                newaction.where = here.name;
+                newaction.color = c;
+                newaction.size = s;
+                foundone = true;
             }
         }
     }
@@ -327,7 +389,7 @@ bool inferMoveFromState(const GameState &st, int attacker, WholeMove &move)
             case CAPTURE:
                 if (action.where != "" && action.color != UNKNOWN_COLOR && action.size != UNKNOWN_SIZE)
                   break;
-                if (!infer_capture(newst, attacker, action, saw_sacrifice)) return false;
+                if (!infer_capture(newst, attacker, move, action, saw_sacrifice)) return false;
                 break;
             case MOVE:
             case MOVE_CREATE:
