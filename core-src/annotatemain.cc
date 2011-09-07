@@ -564,6 +564,14 @@ static bool move_and_record(int attacker)
         std::vector<WholeMove> allmoves;
         get_all_moves_sorted_by_value(g_History.currentstate(), attacker, allmoves, true);
         goto get_move;
+    } else if (strcmp(moveline, "count_moves") == 0) {
+        free(moveline);
+        std::vector<WholeMove> allmoves;
+        findAllMoves(g_History.currentstate(), attacker, allmoves,
+                /*prune=*/false, /*wins=*/false, /*colors=*/0xf);
+        assert(allmoves.size() >= 1);  /* "pass" from a legal position is always legal */
+        printf("%d\n", (int)allmoves.size());
+        goto get_move;
     } else if (!strncmp(moveline, "LEGAL ", 6) ||
                !strncmp(moveline, "ILLEGAL ", 8) ||
                !strncmp(moveline, "AMBIG ", 6)) {
