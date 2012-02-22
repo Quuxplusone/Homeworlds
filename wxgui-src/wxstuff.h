@@ -24,11 +24,10 @@ struct PieceWidget : public wxPanel
 
     PieceWidget(SystemWidget *parent, int id, int whose, Size s, Color c);
     PieceWidget(SystemWidget *parent, int id, Size s, Color c, Size s2, Color c2);
-    void OnSize(wxSizeEvent &event);
-    void OnPaint(wxPaintEvent &event);
-    void OnLeftDclick(wxMouseEvent &event);
-
     void mouseup();
+
+    virtual void OnSize(wxSizeEvent &event);
+    virtual void OnPaint(wxPaintEvent &event);
 };
 
 struct SystemWidget : public wxPanel
@@ -50,7 +49,6 @@ struct StashWidget : public wxWindow
     StashWidget(wxWindow *parent, int id);
     void update(const PieceCollection &pc);
     void add_piece(Size s, Color c);
-
     void mouseup();
 };
 
@@ -63,8 +61,8 @@ struct StashItem : public wxPanel
     StashItem(StashWidget *p, Color c, Size s, int n_);
     void mousedown();
 
-    void OnSize(wxSizeEvent &event);
-    void OnPaint(wxPaintEvent &event);
+    virtual void OnSize(wxSizeEvent &event);
+    virtual void OnPaint(wxPaintEvent &event);
 };
 
 struct GalaxyWidget : public wxWindow

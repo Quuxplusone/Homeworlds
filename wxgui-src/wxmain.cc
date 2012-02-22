@@ -96,7 +96,7 @@ struct GameApp : public wxApp
     /* The "shadow" game state for displaying to the user. */
     std::vector<SystemWidget *> stars;
 
-    void new_game();
+    void new_game_core();
     void ai_starting_position();
 
     /* Magical entry point. */
@@ -104,7 +104,7 @@ struct GameApp : public wxApp
 
     /* Event handlers. */
     void OnMouseEvent(wxMouseEvent &e);
-    void OnNewGame(wxCommandEvent &) { new_game(); }
+    void new_game(wxCommandEvent &) { new_game_core(); }
     void load_game(wxCommandEvent &);
     void undo_move(wxCommandEvent &);
     void redo_move(wxCommandEvent &);
@@ -135,9 +135,9 @@ bool GameApp::OnInit()
     menubar->Append(editmenu, wxT("&Edit"));
       editmenu->Append(wxID_DONE_MOVE, wxT("&Done\tENTER"), wxT("Signals that you're ready to submit the current move"));
       editmenu->Append(wxID_CLEAR_MOVE, wxT("&Reset\tR"), wxT("Reset the board position to the way it was before you started this move"));
-      filemenu->AppendSeparator();
+      editmenu->AppendSeparator();
       editmenu->Append(wxID_AI_MOVE, wxT("&AI Move\tA"), wxT("Let the AI player make a move"));
-      filemenu->AppendSeparator();
+      editmenu->AppendSeparator();
       editmenu->Append(wxID_UNDO, wxT("&Undo Last Move"), wxT("Undoes the last whole move"));
       editmenu->Append(wxID_REDO, wxT("&Redo Move"), wxT("Redoes the last whole move"));
     menubar->Append(helpmenu, wxT("&Help"));
@@ -147,7 +147,7 @@ bool GameApp::OnInit()
     mainwindow->CreateStatusBar();
 
     this->Connect(wxID_EXIT, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::clicked_quit));
-    this->Connect(wxID_NEW, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::OnNewGame));
+    this->Connect(wxID_NEW, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::new_game));
     this->Connect(wxID_OPEN, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::load_game));
     this->Connect(wxID_DONE_MOVE, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::done_move));
     this->Connect(wxID_CLEAR_MOVE, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::clear_move));
@@ -182,7 +182,7 @@ bool GameApp::OnInit()
 
     mainwindow->Show(true);
 
-    new_game();
+    this->new_game_core();
 
     return true;
 }
@@ -197,7 +197,7 @@ static void do_error(const std::string &msg)
 }
 
 
-void GameApp::new_game()
+void GameApp::new_game_core()
 {
     GameState ng;
     ng.newGame();
@@ -252,8 +252,6 @@ void GameApp::load_game(wxCommandEvent &)
 	do_error("The initial homeworld setup didn't include Player 1's homeworld!");
 	return;
     }
-
-    puts("aaa");
     
     History newhistory;
     newhistory.setup(initialState);
@@ -423,9 +421,7 @@ void GameApp::done_move(wxCommandEvent &)
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
     assert(gp != NULL);
     GameState oldstate = this->history.currentstate();
-    printf("old state is:\n%s\n", oldstate.toString().c_str());
     GameState targetstate = gp->to_state();
-    printf("target state is:\n%s\n", targetstate.toString().c_str());
     std::string target = targetstate.toComparableString();
     std::vector<WholeMove> allmoves;
     findAllMoves(oldstate, global_attacker, allmoves,
