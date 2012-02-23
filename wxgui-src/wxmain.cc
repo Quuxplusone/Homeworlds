@@ -91,6 +91,7 @@ struct GameApp : public wxApp
 {
     wxFrame *mainwindow;
     wxPanel *leftpanel;
+    wxPanel *rightpanel;
 
     History history;
     /* The "shadow" game state for displaying to the user. */
@@ -120,7 +121,7 @@ struct GameApp : public wxApp
 /* wxWidgets calls this method on startup. */
 bool GameApp::OnInit()
 {
-    mainwindow = new wxFrame(NULL, wxID_MAINWINDOW, wxT("Homeworlds"), wxDefaultPosition, wxSize(700, 400));
+    mainwindow = new wxFrame(NULL, wxID_MAINWINDOW, wxT("Homeworlds"), wxDefaultPosition, wxDefaultSize);
 
     wxMenuBar *menubar = new wxMenuBar;
     wxMenu *filemenu = new wxMenu;
@@ -161,25 +162,32 @@ bool GameApp::OnInit()
     this->Connect(wxEVT_LEFT_DCLICK, wxMouseEventHandler(GameApp::OnMouseEvent));
     
     this->leftpanel = new wxPanel(mainwindow, wxID_ANY, wxDefaultPosition, wxDefaultSize);
+    this->rightpanel = new wxPanel(mainwindow, wxID_ANY, wxDefaultPosition, wxDefaultSize);
 
     GalaxyWidget *gp = new GalaxyWidget(leftpanel, wxID_GALAXY_MAP);
     gp->attacker_homeworld = new SystemWidget(leftpanel, wxID_ATTACKER_HOMEWORLD_SYSTEM, wxDefaultPosition);
     gp->attacker_homeworld->name = "Fry";
     gp->defender_homeworld = new SystemWidget(leftpanel, wxID_DEFENDER_HOMEWORLD_SYSTEM, wxDefaultPosition);
     gp->defender_homeworld->name = "Bender";
-    gp->stash = new StashWidget(mainwindow, wxID_STASH_AREA);
+    gp->stash = new StashWidget(this->rightpanel, wxID_STASH_AREA);
 
     leftpanel->SetSizer(new wxBoxSizer(wxVERTICAL));
-    leftpanel->GetSizer()->Add(gp->defender_homeworld, 1, wxEXPAND | wxALL, /*border=*/5);
-    leftpanel->GetSizer()->Add(gp, 4, wxEXPAND | wxALL, /*border=*/5);
-    leftpanel->GetSizer()->Add(gp->attacker_homeworld, 1, wxEXPAND | wxALL, /*border=*/5);
+    leftpanel->GetSizer()->Add(gp->defender_homeworld, 0, wxEXPAND | wxALL, /*border=*/5);
+    leftpanel->GetSizer()->Add(gp, 1, wxEXPAND | wxALL, /*border=*/5);
+    leftpanel->GetSizer()->Add(gp->attacker_homeworld, 0, wxEXPAND | wxALL, /*border=*/5);
     leftpanel->GetSizer()->Fit(leftpanel);
+
+    rightpanel->SetSizer(new wxBoxSizer(wxVERTICAL));
+    rightpanel->GetSizer()->Add(gp->stash, 0, wxEXPAND | wxALL, /*border=*/5);
+    // TODO FIXME BUG HACK: Add a textbox "history" widget here.
     
     mainwindow->SetSizer(new wxBoxSizer(wxHORIZONTAL));
-    mainwindow->GetSizer()->Add(leftpanel, 3, wxEXPAND, /*border=*/0);
-    mainwindow->GetSizer()->Add(gp->stash, 1, wxEXPAND | wxALL, /*border=*/5);
+    mainwindow->GetSizer()->Add(leftpanel, 1, wxEXPAND, /*border=*/0);
+    mainwindow->GetSizer()->Add(rightpanel, 0, wxEXPAND, /*border=*/0);
+    
     mainwindow->GetSizer()->Fit(mainwindow);
-
+    mainwindow->Layout();
+    mainwindow->SetMinSize(mainwindow->GetSize());
     mainwindow->Show(true);
 
     this->new_game_core();

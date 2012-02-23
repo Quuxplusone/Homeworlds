@@ -10,9 +10,11 @@ GalaxyWidget::GalaxyWidget(wxWindow *p, int id) :
     defender_homeworld(NULL),
     num_systems(0)
 {
+    this->SetMinSize(wxSize(500,400));
     this->SetBackgroundStyle(wxBG_STYLE_COLOUR);
     this->SetBackgroundColour(wxColour(0,0,0));
     this->SetSizer(new wxBoxSizer(wxVERTICAL));
+    this->Layout();
 }
 
 SystemWidget *GalaxyWidget::nth_system(int i)
@@ -30,7 +32,7 @@ SystemWidget *GalaxyWidget::add_system(const wxPoint &pos, const std::string &na
 {
     SystemWidget *np = new SystemWidget(this, wxID_ANY, pos);
     np->name = name;
-    this->GetSizer()->Add(np, 1, wxEXPAND | wxALL, 5);
+    this->GetSizer()->Add(np, 0, wxEXPAND | wxALL, /*border=*/5);
     ++num_systems;
     return np;
 }
