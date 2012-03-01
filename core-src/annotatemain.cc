@@ -468,8 +468,11 @@ static bool move_and_record(int attacker)
     assert(result == moveline || result == NULL);
     /* Act as if there's an implicit "quit" at the end of the input;
      * otherwise, we'd just go on reading the last command forever. */
-    if (result == NULL)
-      strcpy(moveline, "quit");
+    if (result == NULL) {
+        moveline = (char *)malloc(5);
+        assert(moveline != NULL);
+        strcpy(moveline, "quit");
+    }
     
     if (strcmp(moveline, "help") == 0) {
         free(moveline);
@@ -783,9 +786,9 @@ int main(int argc, char **argv)
       get_filename:
         printf("Enter a filename to save a transcript to, or <return> to quit: > "); fflush(stdout);
         char *UNUSED(result) = getline_113(&filename);
-        /* Ignore input errors for the sake of simplicity. TODO FIXME BUG HACK */
-        assert(result == filename && result != NULL);
-        if (filename[0] != '\0') {
+        assert(result == filename || result == NULL);
+        /* result may be NULL if end-of-file was encountered just now */
+        if (filename != NULL && filename[0] != '\0') {
             FILE *out = fopen(filename, "w");
             if (out == NULL) {
                 printf("File \"%s\" could not be opened for writing.\n", filename);
