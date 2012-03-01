@@ -1,5 +1,7 @@
 
 #include <assert.h>
+#include <string>
+#include <vector>
 #include "move.h"
 #include "state.h"
 #include "PlanetNames.h"
@@ -14,7 +16,7 @@ void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names
 {
     int new_name_index = 0;
     if (names == NULL)
-	names = default_names;
+      names = default_names;
     for (int i=0; i < (int)move.actions.size(); ++i) {
         SingleAction &action = move.actions[i];
         if (action.kind != MOVE_CREATE) continue;
@@ -46,11 +48,12 @@ void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names
     }
 }
 
+
 void assignPlanetNames(GameState &st, const char *names[21])
 {
     int new_name_index = 0;
     if (names == NULL)
-	names = default_names;
+      names = default_names;
     for (int i=0; i < (int)st.stars.size(); ++i) {
         if (st.stars[i].name != "") continue;
         /* We need to pick a new name for this star system. */
@@ -69,6 +72,51 @@ void assignPlanetNames(GameState &st, const char *names[21])
          * must have found one of our 21 system names not being used. */
         assert(new_name != NULL);
         st.stars[i].name = new_name;
+    }
+}
+
+
+void reassignNamesToMove(WholeMove &move, const GameState &st, const GameState &st2)
+{
+    assert(st.toComparableString() == st2.toComparableString());
+    int n = st.stars.size();
+    assert(n == (int)st2.stars.size());
+    std::vector<std::string> mapping(n);  /* what's the name of st.stars[i] in st2? */
+    std::vector<bool> mapped(n);  /* is st2.stars[i] already listed in "mapping"? */
+    for (int i=0; i < n; ++i) {
+        const StarSystem &sys1 = st.stars[i];
+        if (sys1.homeworldOf >= 0) {
+            const StarSystem *sys2 = st2.homeworldOf(sys1.homeworldOf);
+            assert(sys2 != NULL);
+            mapping[i] = sys2->name;
+            mapped[sys2 - &st2.stars[0]] = true;
+        } else {
+            mapping[i] = "-";
+            std::string sys1_str = sys1.toComparableString();
+            for (int j=0; j < n; ++j) {
+                const StarSystem *sys2 = &st2.stars[j];
+                if (mapped[j]) continue;
+                if (sys2->toComparableString() != sys1_str) continue;
+                mapping[i] = sys2->name;
+                mapped[sys2 - &st2.stars[0]] = true;
+                break;
+            }
+            assert(mapping[i] != "-");
+        }
+    }
+    
+    for (int i=0; i < (int)move.actions.size(); ++i) {
+        SingleAction &action = move.actions[i];
+        const StarSystem *sys1 = st.systemNamed(action.where.c_str());
+        assert(sys1 != NULL);
+        action.where = mapping[sys1 - &st.stars[0]];
+        assert(st2.systemNamed(action.where.c_str()) != NULL);
+        if (action.kind == MOVE) {
+            const StarSystem *sys1b = st.systemNamed(action.whither.c_str());
+            assert(sys1b != NULL);
+            action.whither = mapping[sys1b - &st.stars[0]];
+            assert(st2.systemNamed(action.whither.c_str()) != NULL);
+        }
     }
 }
 

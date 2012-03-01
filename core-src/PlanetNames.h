@@ -27,4 +27,10 @@ void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names
  */
 void assignPlanetNames(GameState &st, const char *names[21]);
 
+/* The given move is legal in state "st", and "st" is isomorphic to
+ * "st2", but possibly with different system names. Update "move" in place
+ * so that it is legal relative to state "st2" instead.
+ */
+void reassignNamesToMove(WholeMove &move, const GameState &st, const GameState &st2);
+
 #endif /* H_PLANETNAMES */
