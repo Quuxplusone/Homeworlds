@@ -691,18 +691,33 @@ static bool move_and_record(int attacker)
 
 int main(int argc, char **argv)
 {
-    g_ReportBlunders = (argc==2 && !strcmp(argv[1], "-blunders"));
-    g_VerifyTranscript = (argc==2 && !strcmp(argv[1], "-verify"));
-    bool auto_setup = (argc==2 && !strcmp(argv[1], "-auto"));
+    srand((unsigned int)time(NULL));
 
+    int arg_index;
+    bool auto_setup = false;
+    for (arg_index=1; arg_index < argc; ++arg_index) {
+	if (argv[arg_index][0] != '-') break;
+	if (!strcmp(argv[arg_index], "--")) { ++arg_index; break; }
+	if (!strcmp(argv[arg_index], "-blunders")) {
+	    g_ReportBlunders = true;
+	} else if (!strcmp(argv[arg_index], "-verify")) {
+	    g_VerifyTranscript = true;
+	} else if (!strcmp(argv[arg_index], "-auto")) {
+	    auto_setup = true;
+	} else if (!strcmp(argv[arg_index], "-seed")) {
+	    if (arg_index+1 >= argc || !isdigit(argv[arg_index+1][0]))
+	      do_error("The -seed argument requires an integer parameter!");
+	    ++arg_index;
+	    srand((unsigned int)atoi(argv[arg_index]));
+	}
+    }
+    
     if (g_ReportBlunders || g_VerifyTranscript)
       auto_setup = true;
 
-    srand((unsigned int)time(NULL));
-
     GameState initialState;
 
-    if (auto_setup) {
+    if (auto_setup && arg_index == argc) {
         /* "annotate -auto" means that the input will be in the form of a
          * game transcript, and we should be quiet instead of verbose. */
         g_Verbose = false;
@@ -725,20 +740,20 @@ int main(int argc, char **argv)
 	if (hw == NULL)
           do_error("The initial homeworld setup didn't include Player 1's homeworld!");
         g_playerNames[1] = hw->name;
-    } else if (argc == 3) {
+    } else if (!auto_setup && arg_index+2 == argc) {
         /* "annotate Sam Dave" means that the input will be entered via the
          * keyboard as the game progresses, and we should be verbose
          * (acknowledging valid moves, prompting the user to re-enter invalid
          * moves, et cetera). */
         g_Verbose = true;
-        if (!StarSystem::is_valid_name(argv[1])) {
-            do_error("Sorry, the argument \"%s\" was not a valid name for a star system.", argv[1]);
-        } else if (!StarSystem::is_valid_name(argv[2])) {
-            do_error("Sorry, the argument \"%s\" was not a valid name for a star system.", argv[2]);
+        if (!StarSystem::is_valid_name(argv[arg_index])) {
+            do_error("Sorry, the argument \"%s\" was not a valid name for a star system.", argv[arg_index]);
+        } else if (!StarSystem::is_valid_name(argv[arg_index+1])) {
+            do_error("Sorry, the argument \"%s\" was not a valid name for a star system.", argv[arg_index+1]);
         }
 
-        g_playerNames[0] = argv[1];
-        g_playerNames[1] = argv[2];
+        g_playerNames[0] = argv[arg_index];
+        g_playerNames[1] = argv[arg_index+1];
         initialState.newGame();
 
         printf("%s will set up first and move first.\n", g_playerNames[0].c_str());
