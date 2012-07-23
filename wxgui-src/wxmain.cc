@@ -12,6 +12,12 @@
 #include "getline.h"
 #include "AI.h"
 
+#ifdef __WXMAC__
+#define Size Size_internal
+#include <Carbon/Carbon.h>  /* GetCurrentProcess, TransformProcessType */
+#undef Size
+#endif /* __WXMAC__ */
+
 #include <wx/wx.h>
 #include <wx/menu.h>
 #include <wx/panel.h>
@@ -121,6 +127,12 @@ struct GameApp : public wxApp
 /* wxWidgets calls this method on startup. */
 bool GameApp::OnInit()
 {
+#ifdef __WXMAC__
+    ProcessSerialNumber PSN;
+    GetCurrentProcess(&PSN);
+    TransformProcessType(&PSN,kProcessTransformToForegroundApplication);
+#endif /* __WXMAC__ */
+
     mainwindow = new wxFrame(NULL, wxID_MAINWINDOW, wxT("Homeworlds"), wxDefaultPosition, wxDefaultSize);
 
     wxMenuBar *menubar = new wxMenuBar;

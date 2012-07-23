@@ -1,7 +1,7 @@
 CC = gcc
 CXX = g++
 INCLUDES = -Icore-src
-CFLAGS = -march=native -W -Wall -Wextra ${INCLUDES}
+CFLAGS = -W -Wall -Wextra ${INCLUDES}
 
 # The release setup.
 #CFLAGS += -O99 -fomit-frame-pointer -DNDEBUG
