@@ -12,7 +12,7 @@ actions with uniform spelling, separated by semicolons ";").
 The bash shell script "./cook-everything.sh" produces "*.cooked" from 
 "*.raw" for all "*.raw" in the current directory.  The bash shell script
 "../verify-raws.sh" generates "*.cooked" and runs each of them through
-"../annotate -verify" to check that each transcript represents a legal
+"../annotate --verify" to check that each transcript represents a legal
 game.
 
 Raw files whose contents seem damaged or ambiguous end with ".raw-raw".

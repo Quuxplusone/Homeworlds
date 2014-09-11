@@ -1,12 +1,12 @@
 CC = gcc
 CXX = g++
 INCLUDES = -Icore-src
-CFLAGS = -W -Wall -Wextra ${INCLUDES}
+CFLAGS = -W -Wall -Wextra -march=native ${INCLUDES}
 
 # The release setup.
-#CFLAGS += -O99 -fomit-frame-pointer -DNDEBUG
+#CFLAGS += -O3 -fomit-frame-pointer -DNDEBUG
 # The profiling setup.
-#CFLAGS += -O99 -pg -DNDEBUG
+#CFLAGS += -O3 -pg -DNDEBUG
 # The debug setup.
 CFLAGS += -O2 -g
 
@@ -37,4 +37,4 @@ getline.o: core-src/getline.c core-src/getline.h
 	${CXX} ${CFLAGS} $< `wx-config --cppflags` -c -o $@
 
 clean:
-	rm *.o annotate wxgui
+	rm -f *.o annotate wxgui
