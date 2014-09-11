@@ -698,17 +698,19 @@ int main(int argc, char **argv)
     for (arg_index=1; arg_index < argc; ++arg_index) {
 	if (argv[arg_index][0] != '-') break;
 	if (!strcmp(argv[arg_index], "--")) { ++arg_index; break; }
-	if (!strcmp(argv[arg_index], "-blunders")) {
+	if (!strcmp(argv[arg_index], "--blunders")) {
 	    g_ReportBlunders = true;
-	} else if (!strcmp(argv[arg_index], "-verify")) {
+	} else if (!strcmp(argv[arg_index], "--verify")) {
 	    g_VerifyTranscript = true;
-	} else if (!strcmp(argv[arg_index], "-auto")) {
+	} else if (!strcmp(argv[arg_index], "--auto")) {
 	    auto_setup = true;
-	} else if (!strcmp(argv[arg_index], "-seed")) {
+	} else if (!strcmp(argv[arg_index], "--seed")) {
 	    if (arg_index+1 >= argc || !isdigit(argv[arg_index+1][0]))
-	      do_error("The -seed argument requires an integer parameter!");
+	      do_error("The --seed argument requires an integer parameter!");
 	    ++arg_index;
 	    srand((unsigned int)atoi(argv[arg_index]));
+	} else {
+	    do_error("Unrecognized command-line argument %s", argv[arg_index]);
 	}
     }
     
@@ -718,7 +720,7 @@ int main(int argc, char **argv)
     GameState initialState;
 
     if (auto_setup && arg_index == argc) {
-        /* "annotate -auto" means that the input will be in the form of a
+        /* "annotate --auto" means that the input will be in the form of a
          * game transcript, and we should be quiet instead of verbose. */
         g_Verbose = false;
 	std::string firstline = initialState.scan(stdin);
@@ -768,10 +770,11 @@ int main(int argc, char **argv)
     } else {
         do_error("Incorrect command-line arguments.\n"
                  "The recognized command lines are:\n"
-                 "  annotate Sam Dave    -- verbosely set up a new game between Sam and Dave\n"
-                 "  annotate -auto       -- read a game state, then start up in brief mode\n"
-                 "  annotate -verify     -- same as -auto, but error out on any illegal move\n"
-                 "  annotate -blunders   -- same as -auto, but error out on any bad-looking move");
+                 "  annotate Sam Dave        verbosely set up a new game between Sam and Dave\n"
+                 "  annotate --auto          read a game state, then start up in brief mode\n"
+                 "  annotate --verify        same as --auto, but error out on any illegal move\n"
+                 "  annotate --blunders      same as --auto, but error out on any bad-looking move\n"
+		 "  annotate --seed 42 ...   seed the random number generator");
     }
 
     g_History.setup(initialState);

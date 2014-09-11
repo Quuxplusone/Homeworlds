@@ -35,19 +35,24 @@ struct PossCat {
 
 
 #if ALLMOVES_USE_UNORDERED_MAP
-#include <tr1/unordered_map>
-typedef std::tr1::unordered_map<std::string, WholeMove> AllMapT;
+ #if __cplusplus >= 201103 || _LIBCPP_VERSION >= 1101
+  #include <unordered_map>
+  typedef std::unordered_map<std::string, WholeMove> AllMapT;
+ #else
+  #include <tr1/unordered_map>
+  typedef std::tr1::unordered_map<std::string, WholeMove> AllMapT;
+ #endif
 #elif ALLMOVES_USE_GNU_HASH_MAP
-#include <ext/hash_map>
-/* We must provide a way to hash std::strings, since GNU doesn't. */
-struct stdstringhasher {
-    size_t operator()(const std::string &x) const
-    { return __gnu_cxx::__stl_hash_string(x.c_str()); }
-};
-typedef __gnu_cxx::hash_map<std::string, WholeMove, stdstringhasher> AllMapT;
+ #include <ext/hash_map>
+ /* We must provide a way to hash std::strings, since GNU doesn't. */
+ struct stdstringhasher {
+     size_t operator()(const std::string &x) const
+     { return __gnu_cxx::__stl_hash_string(x.c_str()); }
+ };
+ typedef __gnu_cxx::hash_map<std::string, WholeMove, stdstringhasher> AllMapT;
 #else
-#include <map>
-typedef std::map<std::string, WholeMove> AllMapT;
+ #include <map>
+ typedef std::map<std::string, WholeMove> AllMapT;
 #endif
 
 struct AllT {
