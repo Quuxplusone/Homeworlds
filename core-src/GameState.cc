@@ -206,12 +206,6 @@ std::string GameState::scan(FILE *fp)
     return unparsed_line;
 }
 
-
-static bool stptr_less(const std::string *a, const std::string *b)
-{
-    return (*a < *b);
-}
-
 std::string GameState::toComparableString() const
 {
     std::string result = "";
@@ -228,17 +222,18 @@ std::string GameState::toComparableString() const
      * distribution of the star and ships; name and position don't matter.
      * So use StarSystem::toComparableString() to throw out the name,
      * and sort the results to get rid of position information. */
-     std::vector<std::string *> v;
-     for (int i=0; i < (int)stars.size(); ++i) {
-         if (stars[i].homeworldOf == -1)
-           v.push_back(new std::string(stars[i].toComparableString()));
-     }
-     std::sort(v.begin(), v.end(), stptr_less);
-     for (int i=0; i < (int)v.size(); ++i) {
-        result += *v[i];
-        delete v[i];
-     }
-     return result;
+
+    std::string v[21];
+    size_t vn = 0;
+    for (size_t i=0; i < stars.size(); ++i) {
+        if (stars[i].homeworldOf == -1)
+            v[vn++] = stars[i].toComparableString();
+    }
+    std::sort(v, v + vn);
+    for (size_t i=0; i < vn; ++i) {
+        result += v[i];
+    }
+    return result;
 }
 
 GameState GameState::mirror() const
