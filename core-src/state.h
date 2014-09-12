@@ -57,7 +57,6 @@ class PieceCollection {
             for (int j=0; j < ptr[i]; ++j)
               *buffer++ = 'a'+i;
         }
-        *buffer = '\0';
         return buffer;
     }
     bool scan(const char *text);
@@ -81,6 +80,8 @@ class StarSystem {
     static const char *make_random_name(const GameState *st);
 
   public:
+    enum { MAXSTRLEN = 2 + 24*(NUMPLAYERS+1) };
+
     StarSystem(): homeworldOf(-1) { }
     StarSystem(const char *n): name(n), homeworldOf(-1) { }
     int numberOfShips() const;
@@ -106,6 +107,7 @@ class StarSystem {
     
     std::string toString() const;
     std::string toComparableString() const;
+    char *toComparableString(char buffer[MAXSTRLEN+1]) const;
     bool scan(const char *text);
 };
 

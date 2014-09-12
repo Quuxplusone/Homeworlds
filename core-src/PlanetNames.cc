@@ -92,11 +92,14 @@ void reassignNamesToMove(WholeMove &move, const GameState &st, const GameState &
             mapped[sys2 - &st2.stars[0]] = true;
         } else {
             mapping[i] = "-";
-            std::string sys1_str = sys1.toComparableString();
+            char sys1_str[StarSystem::MAXSTRLEN+1];
+            *sys1.toComparableString(sys1_str) = '\0';
             for (int j=0; j < n; ++j) {
                 const StarSystem *sys2 = &st2.stars[j];
                 if (mapped[j]) continue;
-                if (sys2->toComparableString() != sys1_str) continue;
+                char sys2_str[StarSystem::MAXSTRLEN+1];
+                *sys2->toComparableString(sys1_str) = '\0';
+                if (strcmp(sys2_str, sys1_str) != 0) continue;
                 mapping[i] = sys2->name;
                 mapped[sys2 - &st2.stars[0]] = true;
                 break;

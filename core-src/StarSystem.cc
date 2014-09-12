@@ -149,11 +149,10 @@ bool StarSystem::scan(const char *text)
 /* Return a string describing this star system's pieces in an unambiguous
  * way. It doesn't matter whether this is someone's homeworld, since that's
  * handled in GameState::toComparableString(). */
-std::string StarSystem::toComparableString() const
+char *StarSystem::toComparableString(char buffer[MAXSTRLEN+1]) const
 {
     /* This routine will have to be adjusted if NUMPLAYERS ever increases. */
     assert(NUMPLAYERS == 2);
-    char buffer[3*12 + 2 + 1];
     char *bp = buffer;
     bp = star.toComparableString(bp);
     if (bp == buffer+1) {
@@ -168,8 +167,14 @@ std::string StarSystem::toComparableString() const
     bp = ships[0].toComparableString(bp);
     *bp++ = '-';
     bp = ships[1].toComparableString(bp);
-    std::string result(buffer);
-    return result;
+    return bp;
+}
+
+std::string StarSystem::toComparableString() const
+{
+    char buffer[MAXSTRLEN+1];
+    char *bp = this->toComparableString(buffer);
+    return std::string(buffer, bp);
 }
 
 int StarSystem::numberOfShips() const
@@ -265,4 +270,3 @@ PieceCollection& operator -= (PieceCollection &lhs, const StarSystem &rhs)
       lhs -= rhs.ships[i];
     return lhs;
 }
-
