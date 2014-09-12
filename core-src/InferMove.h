@@ -1,6 +1,4 @@
-
-#ifndef H_INFERMOVE
- #define H_INFERMOVE
+#pragma once
 
 #include "state.h"
 #include "move.h"
@@ -14,6 +12,3 @@
  * false (trashing the input move in the process).
  */
 bool inferMoveFromState(const GameState &st, int attacker, WholeMove &move);
-
-#endif /* H_INFERMOVE */
-

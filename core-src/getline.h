@@ -1,3 +1,4 @@
+#pragma once
 
 /*
    This is the specification of the |getline| library.
@@ -5,10 +6,6 @@
    Last modified 24 January 2006 by Arthur O'Dwyer.
    Public domain.
 */
-
-
-#ifndef H_GETLINE
- #define H_GETLINE
 
 #include <stdio.h>  /* for the |FILE| type */
 
@@ -43,6 +40,3 @@ char *trim_113(char *line);
 #ifdef __cplusplus
 }
 #endif
-
-#endif /* H_GETLINE */
-

@@ -1,11 +1,9 @@
+#pragma once
 
-#ifndef H_WXSTUFF
- #define H_WXSTUFF
-
+#include "state.h"
 #include <string>
 #include <wx/wx.h>
 #include <wx/panel.h>
-#include "state.h"
 
 struct SystemWidget;
 
@@ -102,5 +100,3 @@ enum {
     wxID_CLEAR_MOVE,
     wxID_AI_MOVE,
 };
-
-#endif /* H_WXSTUFF */

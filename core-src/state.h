@@ -1,11 +1,9 @@
+#pragma once
 
-#ifndef H_STATE
- #define H_STATE
-
+#include "global.h"
 #include <stdio.h>
 #include <string>
 #include <vector>
-#include "global.h"
 
 
 class PieceCollection {
@@ -151,6 +149,3 @@ class GameState {
     /* Flip the players: make player 0 player 1 and vice versa. */
     GameState mirror() const;
 };
-
-#endif /* H_STATE */
-

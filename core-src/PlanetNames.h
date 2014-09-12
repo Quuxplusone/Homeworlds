@@ -1,6 +1,4 @@
-
-#ifndef H_PLANETNAMES
- #define H_PLANETNAMES
+#pragma once
 
 #include "state.h"
 #include "move.h"
@@ -32,5 +30,3 @@ void assignPlanetNames(GameState &st, const char *names[21]);
  * so that it is legal relative to state "st2" instead.
  */
 void reassignNamesToMove(WholeMove &move, const GameState &st, const GameState &st2);
-
-#endif /* H_PLANETNAMES */

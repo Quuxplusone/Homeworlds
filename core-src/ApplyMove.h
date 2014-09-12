@@ -1,9 +1,7 @@
+#pragma once
 
-#ifndef H_APPLYMOVE
- #define H_APPLYMOVE
-
-#include "state.h"
 #include "move.h"
+#include "state.h"
 
 /* Note that ApplyMove is a class rather than a namespace so that it can
  * be a "friend" of classes WholeMove and SingleAction. */
@@ -37,7 +35,3 @@ struct ApplyMove {
      */
     static bool isValidMove(const GameState &st, int attacker, const WholeMove &move);
 };
-
-
-
-#endif /* H_APPLYMOVE */
