@@ -1,9 +1,7 @@
+#pragma once
 
-#ifndef H_ALLMOVES
- #define H_ALLMOVES
-
-#include "state.h"
 #include "move.h"
+#include "state.h"
 
 /* Given the game state "st", append all possible moves for player "attacker"
  * to the given vector "allmoves". There are usually going to be a few dozen
@@ -41,5 +39,3 @@ void findAllMoves_usualcase(const GameState &st, int attacker,
  * Does the attacker have a winning move from this position, or not?
  * If "move" is not NULL, then we fill it in with the winning move. */
 bool findWinningMove(const GameState &st, int attacker, WholeMove *move);
-
-#endif /* H_ALLMOVES */

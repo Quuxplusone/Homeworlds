@@ -1,6 +1,4 @@
-
-#ifndef H_GLOBAL
- #define H_GLOBAL
+#pragma once
 
 #include <assert.h>
 #include <string>
@@ -50,5 +48,3 @@ inline const char *color2str(Color c)
 }
 
 extern std::string mprintf(const char *, ...);
-
-#endif /* H_GLOBAL */

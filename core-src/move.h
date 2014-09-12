@@ -1,12 +1,10 @@
+#pragma once
 
-#ifndef H_MOVE
- #define H_MOVE
-
+#include "global.h"
 #include <assert.h>
 #include <stdio.h>
 #include <string>
 #include <vector>
-#include "global.h"
 
 
 enum SingleActionKind {
@@ -109,6 +107,3 @@ class WholeMove {
     WholeMove(const WholeMove &m, const SingleAction &a): actions(m.actions)
         { *this += a; }
 };
-
-#endif /* H_MOVE */
-

@@ -1,12 +1,9 @@
+#pragma once
 
 #include <stddef.h>
 #include <assert.h>
 #include <queue>
 #include <vector>
-
-#ifndef H_ALPHABETA
- #define H_ALPHABETA
-
 
 template<typename State        // a state of the world, not necessarily including whose turn it is
         ,typename Move         // an indication of how to get from one state to another state
@@ -472,6 +469,3 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
     }
     return true;
 }
-
-#endif /* H_ALPHABETA */
-
