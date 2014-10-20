@@ -90,13 +90,9 @@ void GameState::removeSystemNamed(const char *name)
 
 void GameState::removeSystem(StarSystem &star)
 {
-    for (int i=0; i < (int)stars.size(); ++i) {
-        if (&stars[i] == &star) {
-            stars.erase(stars.begin()+i);
-            return;
-        }
-    }
-    assert(false);
+    size_t i = (&star - &stars[0]);
+    assert(i < stars.size());
+    stars.erase(stars.begin()+i);
 }
 
 
