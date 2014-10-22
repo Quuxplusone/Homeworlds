@@ -462,7 +462,7 @@ bool WholeMove::sanitycheck() const
         ++i;
     }
     if (i == n) return true;
-    
+
     if (actions[i].kind == SACRIFICE) {
         if (!actions[i].sanitycheck()) return false;
         Color sac_color = actions[i].color;
@@ -525,14 +525,14 @@ bool WholeMove::scan(const char *text)
         bool success;
         semicolon = strchr(text, ';');
         if (semicolon == NULL) {
-	    success = scan_for_multibuild(text, actions)
-	           || scan_for_multicapture(text, actions)
-	           || scan_for_multimove(text, actions);
-	    if (!success) {
-		actions.push_back(SingleAction());
-		success = actions.back().scan(text);
-		if (!success) return false;
-	    }
+            success = scan_for_multibuild(text, actions)
+                   || scan_for_multicapture(text, actions)
+                   || scan_for_multimove(text, actions);
+            if (!success) {
+                actions.push_back(SingleAction());
+                success = actions.back().scan(text);
+                if (!success) return false;
+            }
             break;
         } else {
             if (semicolon[1] != ' ') return false;
@@ -540,14 +540,14 @@ bool WholeMove::scan(const char *text)
             assert(buffer != NULL);
             memcpy(buffer, text, semicolon - text);
             buffer[semicolon - text] = '\0';
-	    success = scan_for_multibuild(buffer, actions)
-	           || scan_for_multicapture(buffer, actions)
-	           || scan_for_multimove(buffer, actions);
-	    if (!success) {
-		actions.push_back(SingleAction());
-		success = actions.back().scan(buffer);
-		if (!success) return false;
-	    }
+            success = scan_for_multibuild(buffer, actions)
+                   || scan_for_multicapture(buffer, actions)
+                   || scan_for_multimove(buffer, actions);
+            if (!success) {
+                actions.push_back(SingleAction());
+                success = actions.back().scan(buffer);
+                if (!success) return false;
+            }
             text = semicolon+2;
         }
     }

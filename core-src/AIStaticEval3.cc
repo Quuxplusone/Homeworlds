@@ -35,7 +35,7 @@ static int heuristic_catastrophe_penalty_yellow(const GameState &st,
     int num_ships_at[4] = {0,0,0,0};
     int num_ships_ats[4][3] = {{0,0,0},{0,0,0},{0,0,0},{0,0,0}};
     int num_yellow_ships[3] = {0,0,0};
-    
+
     for (int i=0; i < (int)st.stars.size(); ++i) {
         const StarSystem &star = st.stars[i];
         if (&star == &here) continue;
@@ -254,7 +254,7 @@ static int heuristic_catastrophe_penalty(const GameState &st,
     /* Can we catastrophe this color with a sacrifice move? */
     const int num_needed = 4 - num_here;
     assert(1 <= num_needed && num_needed <= 3);
-    if (here.ships[defender].numberOf(c) != 0 && 
+    if (here.ships[defender].numberOf(c) != 0 &&
             st.stash.numberOf(c) + (c==GREEN) >= num_needed) {
         /* If we can find a big enough green to sacrifice, we can do it.
          * Notice that if (c==GREEN), it never pays to sacrifice green at
@@ -306,7 +306,7 @@ static int heuristic_catastrophe_penalty(const GameState &st,
             st, here, defender, c, base_cost, worst_penalty_so_far);
     /* Done! */
     assert(worst_penalty_so_far <= 0);
-    return worst_penalty_so_far; 
+    return worst_penalty_so_far;
 }
 
 
@@ -327,7 +327,7 @@ int ai_static_evaluation(const GameState &state_before_move,
     bool has_factory[2] = {};
     bool has_gun[2] = {};
     int sum = 0;
-    
+
     /* Check for places to safely build green; i.e., places with only one green ship. */
     for (int player=0; player <= 1; ++player) {
         for (int i=0; i < (int)st.stars.size(); ++i) {
@@ -344,7 +344,7 @@ int ai_static_evaluation(const GameState &state_before_move,
     }
     assert(hw[0] != NULL);
     assert(hw[1] != NULL);
-    
+
     /* Check for factories. */
     bool medium_factory_possible = (st.stash.numberOf(GREEN,SMALL) == 0);
     bool large_factory_possible = (medium_factory_possible && st.stash.numberOf(GREEN,MEDIUM) == 0);
@@ -372,7 +372,7 @@ int ai_static_evaluation(const GameState &state_before_move,
             }
         }
     }
-    
+
     /* We can "safely" build a particular color if we have a factory and
      * somewhere safe to put it, or somewhere safe that also contains green.
      */
@@ -391,8 +391,8 @@ int ai_static_evaluation(const GameState &state_before_move,
             }
         }
     }
-    
-    
+
+
     /* Stash economics. For each color...
      *   If only the defender can build it safely, that's a point for him.
      *   If only the attacker can build it, that's a point for him.
@@ -420,7 +420,7 @@ int ai_static_evaluation(const GameState &state_before_move,
             }
         }
     }
-    
+
     /* Points for material advantage... */
     PieceCollection all_ships[2];
     for (int i=0; i < (int)st.stars.size(); ++i) {
@@ -469,7 +469,7 @@ int ai_static_evaluation(const GameState &state_before_move,
         if (home.playerHasAccessTo(player, GREEN)) sum += m*60;
         if (home.playerHasAccessTo(player, BLUE)) sum += m*70;
     }
-    
+
     /* Now look at each star individually. */
     for (int i=0; i < (int)st.stars.size(); ++i) {
         const StarSystem &star = st.stars[i];
@@ -484,7 +484,7 @@ int ai_static_evaluation(const GameState &state_before_move,
             else if (!attacker_advantage && has_gun[defender])
               sum -= (ab == LARGE ? 100 : 50);
         }
-        
+
         /* Positive points for diversity. */
         int diversity[2] = {0,0};
         const int diversity_lookup_table[8] = {0, 10, 10, 30, 50, 110, 150, 220 };
@@ -511,7 +511,7 @@ int ai_static_evaluation(const GameState &state_before_move,
         } else {
             sum -= diversity_lookup_table[diversity[defender]];
         }
-        
+
         /* If there's only one ship here, and no way to build more, then that's
          * a slight penalty. */
         if (star.ships[attacker].number() == 1 &&
@@ -535,7 +535,7 @@ int ai_static_evaluation(const GameState &state_before_move,
             !star.playerHasAccessTo(attacker,YELLOW) &&
             !(in_contention && attacker_advantage))
           sum -= 40;
-          
+
         /* Mild penalty for creating systems in no-man's-land. */
         if (star.ships[attacker].number() != 0 &&
             !star.isAdjacentTo(*hw[0]) && !star.isAdjacentTo(*hw[1]))
@@ -556,7 +556,7 @@ int ai_static_evaluation(const GameState &state_before_move,
                 sum += heuristic_catastrophe_penalty(st, star, attacker, c);
             }
         }
-        
+
         /* Being able to move a big ship into an undefended homeworld is a
          * big plus. */
         if (all_ships[attacker].numberOf(YELLOW) != 0 &&

@@ -17,8 +17,8 @@ void SystemWidget::add_star(PieceWidget *pw)
     assert(this->star == NULL);
     this->star = pw;
     this->GetSizer()->Add(this->star, /*proportion=*/1,
-	    wxSHAPED | wxALIGN_CENTER_VERTICAL | wxALIGN_LEFT,
-	    /*border=*/0);
+            wxSHAPED | wxALIGN_CENTER_VERTICAL | wxALIGN_LEFT,
+            /*border=*/0);
 }
 
 void SystemWidget::add_star(Size s, Color c)
@@ -34,8 +34,8 @@ void SystemWidget::add_star(Size s1, Color c1, Size s2, Color c2)
 void SystemWidget::add_ship(PieceWidget *pw)
 {
     this->GetSizer()->Add(pw, /*proportion=*/1,
-	    wxSHAPED | wxALIGN_CENTER_VERTICAL | wxALIGN_LEFT,
-	    /*border=*/0);
+            wxSHAPED | wxALIGN_CENTER_VERTICAL | wxALIGN_LEFT,
+            /*border=*/0);
 }
 
 void SystemWidget::add_ship(int who, Size s, Color c)
@@ -50,7 +50,7 @@ void SystemWidget::update(const StarSystem *sys)
     hbox->Clear(true);
 
     if (sys == NULL)
-	return;
+        return;
 
     this->name = sys->name;
     Color c1 = UNKNOWN_COLOR;
@@ -58,42 +58,42 @@ void SystemWidget::update(const StarSystem *sys)
     Color c2 = UNKNOWN_COLOR;
     Size s2 = UNKNOWN_SIZE;
     for (Color c = RED; c <= BLUE; ++c) {
-	for (Size s = SMALL; s <= LARGE; ++s) {
-	    int n = sys->star.numberOf(c,s);
-	    if (n == 2) {
-		s1 = s; c1 = c;
-		s2 = s; c2 = c;
-		goto done;
-	    } else if (n == 1) {
-		if (s1 == UNKNOWN_SIZE) {
-		    s1 = s; c1 = c;
-		    continue;
-		} else {
-		    s2 = s; c2 = c;
-		    goto done;
-		}
-	    } else {
-		assert(n == 0);
-	    }
-	}
+        for (Size s = SMALL; s <= LARGE; ++s) {
+            int n = sys->star.numberOf(c,s);
+            if (n == 2) {
+                s1 = s; c1 = c;
+                s2 = s; c2 = c;
+                goto done;
+            } else if (n == 1) {
+                if (s1 == UNKNOWN_SIZE) {
+                    s1 = s; c1 = c;
+                    continue;
+                } else {
+                    s2 = s; c2 = c;
+                    goto done;
+                }
+            } else {
+                assert(n == 0);
+            }
+        }
     }
   done:
     if (s2 == UNKNOWN_SIZE) {
-	this->add_star(s1, c1);
+        this->add_star(s1, c1);
     } else {
-	this->add_star(s1, c1, s2, c2);
+        this->add_star(s1, c1, s2, c2);
     }
 
     /* Now add the ships. */
     for (int who = 0; who <= 1; ++who) {
-	const PieceCollection &pc = sys->ships[who];
-	for (Color c = RED; c <= BLUE; ++c) {
-	    for (Size s = SMALL; s <= LARGE; ++s) {
-		int n = pc.numberOf(c,s);
-		for (int i=0; i < n; ++i)
-		    this->add_ship(who, s, c);
-	    }
-	}
+        const PieceCollection &pc = sys->ships[who];
+        for (Color c = RED; c <= BLUE; ++c) {
+            for (Size s = SMALL; s <= LARGE; ++s) {
+                int n = pc.numberOf(c,s);
+                for (int i=0; i < n; ++i)
+                    this->add_ship(who, s, c);
+            }
+        }
     }
 }
 

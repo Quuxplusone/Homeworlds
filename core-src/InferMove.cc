@@ -9,7 +9,7 @@
 
 static int count_unconstrained_catastrophes(const WholeMove &move, int ax)
 {
-    /* If "move" contains catastrophe actions of the form "cat" --- as 
+    /* If "move" contains catastrophe actions of the form "cat" --- as
      * opposed to "cat red" or "cat at Alpha" or "cat red at Alpha" ---
      * then we can make those catastrophes in arbitrary order and the
      * resulting state will be the same, as long as the number of

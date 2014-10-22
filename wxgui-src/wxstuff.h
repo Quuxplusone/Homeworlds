@@ -55,7 +55,7 @@ struct StashItem : public wxPanel
     const Color piece_color;
     const Size piece_size;
     int n;
-    
+
     StashItem(StashWidget *p, Color c, Size s, int n_);
     void mousedown();
 

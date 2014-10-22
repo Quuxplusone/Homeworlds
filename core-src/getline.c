@@ -117,8 +117,8 @@ static void try_resize(char **p, size_t *cap)
 
 
 /*
-   The |try_exact_fit| function tries to resize the given buffer to 
-   exactly the right size to fit its contents, counting the null 
+   The |try_exact_fit| function tries to resize the given buffer to
+   exactly the right size to fit its contents, counting the null
    terminator. If that fails, we just return the original buffer.
 */
 static char *try_exact_fit(char **p, size_t len)
@@ -137,7 +137,7 @@ static char *try_exact_fit(char **p, size_t len)
    of |getline_notrim|, or any other string, for that matter.
 
    If the parameter is |NULL|, this function will return |NULL|.
-   Otherwise, the zero byte is written and the resulting string is 
+   Otherwise, the zero byte is written and the resulting string is
    returned.
 */
 char *trim_113(char *s)

@@ -39,7 +39,7 @@ class PieceCollection {
         }
         return true;
     }
-    
+
     void clear();
     void insert(Color c, Size s) { pieces[c][s] += 1; }
     void insert(Color c, Size s, int count) { pieces[c][s] += count; }
@@ -48,7 +48,7 @@ class PieceCollection {
     void removeAll(Size s) { pieces[RED][s] = 0; pieces[YELLOW][s] = 0; pieces[GREEN][s] = 0; pieces[BLUE][s] = 0; }
     PieceCollection& operator += (const PieceCollection &);
     PieceCollection& operator -= (const PieceCollection &);
-    
+
     std::string toString() const;
     char *toString(char buffer[MAXSTRLEN+1]) const;
     char *toComparableString(char buffer[MAXSTRLEN+1]) const {
@@ -94,7 +94,7 @@ class StarSystem {
     void performCatastrophe(Color c, PieceCollection &stash);
     bool playerHasAccessTo(int player, Color c) const
     { return (star.numberOf(c) > 0) || (ships[player].numberOf(c) > 0); }
-    
+
     bool isAdjacentTo(const StarSystem &that) const {
         return this->star.isAdjacentTo(that.star);
     }
@@ -104,7 +104,7 @@ class StarSystem {
           pc += ships[i];
         return pc;
     }
-    
+
     std::string toString() const;
     std::string toComparableString() const;
     char *toComparableString(char buffer[MAXSTRLEN+1]) const;

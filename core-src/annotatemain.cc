@@ -44,39 +44,39 @@ static bool g_Colorize;
 static std::string colorize(const std::string &texts)
 {
     if (!g_Colorize)
-	return texts;
+        return texts;
     const char *text = texts.c_str();
     std::string result;
     while (*text != '\0') {
-	if (isalnum(*text)) {
-	    const char *start = text;
-	    while (isalnum(*text)) ++text;
-	    std::string candidate(start, text);
-	    PieceCollection pc;
-	    if (pc.scan(candidate.c_str())) {
-		const char *cp = candidate.c_str();
-		char current_color = 'x';
-		while (*cp != '\0') {
-		    switch (*cp) {
-			case '1': case '2': case '3': break;
-			case 'r': if (current_color != 'r') result += "\33[31m"; current_color = 'r'; break;
-			case 'y': if (current_color != 'y') result += "\33[33m"; current_color = 'y'; break;
-			case 'g': if (current_color != 'g') result += "\33[32m"; current_color = 'g'; break;
-			case 'b': if (current_color != 'b') result += "\33[34m"; current_color = 'b'; break;
-			default: assert(false);
-		    }
-		    result += *cp;
-		    ++cp;
-		}
-		assert(current_color != 'x');
-		result += "\33[0m";
-	    } else {
-		result += candidate;
-	    }
-	} else {
-	    result += *text;
-	    ++text;
-	}
+        if (isalnum(*text)) {
+            const char *start = text;
+            while (isalnum(*text)) ++text;
+            std::string candidate(start, text);
+            PieceCollection pc;
+            if (pc.scan(candidate.c_str())) {
+                const char *cp = candidate.c_str();
+                char current_color = 'x';
+                while (*cp != '\0') {
+                    switch (*cp) {
+                        case '1': case '2': case '3': break;
+                        case 'r': if (current_color != 'r') result += "\33[31m"; current_color = 'r'; break;
+                        case 'y': if (current_color != 'y') result += "\33[33m"; current_color = 'y'; break;
+                        case 'g': if (current_color != 'g') result += "\33[32m"; current_color = 'g'; break;
+                        case 'b': if (current_color != 'b') result += "\33[34m"; current_color = 'b'; break;
+                        default: assert(false);
+                    }
+                    result += *cp;
+                    ++cp;
+                }
+                assert(current_color != 'x');
+                result += "\33[0m";
+            } else {
+                result += candidate;
+            }
+        } else {
+            result += *text;
+            ++text;
+        }
     }
     return result;
 }
@@ -400,7 +400,7 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
             /* No, in fact he'd have won the game! */
             return true;
         }
-	if (!findWinningMove(newst, 1-attacker, NULL)) {
+        if (!findWinningMove(newst, 1-attacker, NULL)) {
             /* No, he wouldn't still be in check. */
             return true;
         }
@@ -473,7 +473,7 @@ static bool move_and_record(int attacker)
         assert(moveline != NULL);
         strcpy(moveline, "quit");
     }
-    
+
     if (strcmp(moveline, "help") == 0) {
         free(moveline);
         do_help();
@@ -496,16 +496,16 @@ static bool move_and_record(int attacker)
         goto get_move;
     } else if (strcmp(moveline, "color") == 0) {
         free(moveline);
-	if (g_Verbose) {
-	    puts("The output will now be colorized.");
-	    puts("To return to monochrome mode, enter \"mono\".");
-	}
+        if (g_Verbose) {
+            puts("The output will now be colorized.");
+            puts("To return to monochrome mode, enter \"mono\".");
+        }
         g_Colorize = true;
         goto get_move;
     } else if (strcmp(moveline, "mono") == 0) {
         free(moveline);
-	if (g_Verbose)
-	    puts("The output will no longer be colorized.");
+        if (g_Verbose)
+            puts("The output will no longer be colorized.");
         g_Colorize = false;
         goto get_move;
     } else if (moveline[0] == '#') {
@@ -696,24 +696,24 @@ int main(int argc, char **argv)
     int arg_index;
     bool auto_setup = false;
     for (arg_index=1; arg_index < argc; ++arg_index) {
-	if (argv[arg_index][0] != '-') break;
-	if (!strcmp(argv[arg_index], "--")) { ++arg_index; break; }
-	if (!strcmp(argv[arg_index], "--blunders")) {
-	    g_ReportBlunders = true;
-	} else if (!strcmp(argv[arg_index], "--verify")) {
-	    g_VerifyTranscript = true;
-	} else if (!strcmp(argv[arg_index], "--auto")) {
-	    auto_setup = true;
-	} else if (!strcmp(argv[arg_index], "--seed")) {
-	    if (arg_index+1 >= argc || !isdigit(argv[arg_index+1][0]))
-	      do_error("The --seed argument requires an integer parameter!");
-	    ++arg_index;
-	    srand((unsigned int)atoi(argv[arg_index]));
-	} else {
-	    do_error("Unrecognized command-line argument %s", argv[arg_index]);
-	}
+        if (argv[arg_index][0] != '-') break;
+        if (!strcmp(argv[arg_index], "--")) { ++arg_index; break; }
+        if (!strcmp(argv[arg_index], "--blunders")) {
+            g_ReportBlunders = true;
+        } else if (!strcmp(argv[arg_index], "--verify")) {
+            g_VerifyTranscript = true;
+        } else if (!strcmp(argv[arg_index], "--auto")) {
+            auto_setup = true;
+        } else if (!strcmp(argv[arg_index], "--seed")) {
+            if (arg_index+1 >= argc || !isdigit(argv[arg_index+1][0]))
+              do_error("The --seed argument requires an integer parameter!");
+            ++arg_index;
+            srand((unsigned int)atoi(argv[arg_index]));
+        } else {
+            do_error("Unrecognized command-line argument %s", argv[arg_index]);
+        }
     }
-    
+
     if (g_ReportBlunders || g_VerifyTranscript)
       auto_setup = true;
 
@@ -723,23 +723,23 @@ int main(int argc, char **argv)
         /* "annotate --auto" means that the input will be in the form of a
          * game transcript, and we should be quiet instead of verbose. */
         g_Verbose = false;
-	std::string firstline = initialState.scan(stdin);
-	firstline += "\n";
-	for (int i = firstline.length(); i > 0; --i) {
-	    int rc = ungetc(firstline[i-1], stdin);
-	    if (rc == EOF) {
-	        do_error("ungetc: %d character%s of input could not be pushed back.\n"
-	            "Try adding a blank line after the homeworld setup lines.", i,
-	            (i>1 ? "s" : ""));
-	    }
-	}
-	assignPlanetNames(initialState, NULL);
-	StarSystem *hw = initialState.homeworldOf(0);
-	if (hw == NULL)
+        std::string firstline = initialState.scan(stdin);
+        firstline += "\n";
+        for (int i = firstline.length(); i > 0; --i) {
+            int rc = ungetc(firstline[i-1], stdin);
+            if (rc == EOF) {
+                do_error("ungetc: %d character%s of input could not be pushed back.\n"
+                    "Try adding a blank line after the homeworld setup lines.", i,
+                    (i>1 ? "s" : ""));
+            }
+        }
+        assignPlanetNames(initialState, NULL);
+        StarSystem *hw = initialState.homeworldOf(0);
+        if (hw == NULL)
           do_error("The initial homeworld setup didn't include Player 0's homeworld!");
         g_playerNames[0] = hw->name;
-	hw = initialState.homeworldOf(1);
-	if (hw == NULL)
+        hw = initialState.homeworldOf(1);
+        if (hw == NULL)
           do_error("The initial homeworld setup didn't include Player 1's homeworld!");
         g_playerNames[1] = hw->name;
     } else if (!auto_setup && arg_index+2 == argc) {
@@ -774,7 +774,7 @@ int main(int argc, char **argv)
                  "  annotate --auto          read a game state, then start up in brief mode\n"
                  "  annotate --verify        same as --auto, but error out on any illegal move\n"
                  "  annotate --blunders      same as --auto, but error out on any bad-looking move\n"
-		 "  annotate --seed 42 ...   seed the random number generator");
+                 "  annotate --seed 42 ...   seed the random number generator");
     }
 
     g_History.setup(initialState);
@@ -798,7 +798,7 @@ int main(int argc, char **argv)
             }
         }
     }
-    
+
     if (g_Verbose) {
         char *filename = NULL;
       get_filename:

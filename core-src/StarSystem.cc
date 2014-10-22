@@ -117,7 +117,7 @@ bool StarSystem::scan(const char *text)
     } else {
         this->homeworldOf = -1;
     }
-    
+
     /* Everything between the current "text" pointer and the following ')'
      * must be the pieces that make up the star itself. */
     paren = strchr(text, ')');
@@ -156,13 +156,13 @@ char *StarSystem::toComparableString(char buffer[MAXSTRLEN+1]) const
     char *bp = buffer;
     bp = star.toComparableString(bp);
     if (bp == buffer+1) {
-	/* The star contained only one piece. */
-	assert('a' <= *buffer && *buffer <= 'l');
+        /* The star contained only one piece. */
+        assert('a' <= *buffer && *buffer <= 'l');
     } else {
-	/* The star contained two pieces; we need an additional mark here
-	 * to distinguish (r1g1)-b1 "ag/-j" from (r1)g1-b1 "ag-j". */
-	assert(bp == buffer+2);
-	*bp++ = '/';
+        /* The star contained two pieces; we need an additional mark here
+         * to distinguish (r1g1)-b1 "ag/-j" from (r1)g1-b1 "ag-j". */
+        assert(bp == buffer+2);
+        *bp++ = '/';
     }
     bp = ships[0].toComparableString(bp);
     *bp++ = '-';

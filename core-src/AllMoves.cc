@@ -64,12 +64,12 @@ struct AllT {
     bool look_for[4];
     bool found_win;
     AllT(bool p, bool w, bool co, unsigned int mask):
-	prune_worse_moves(p), win_only(w),
+        prune_worse_moves(p), win_only(w),
         contained_overpopulations(co), found_win(false)
     {
-	for (Color c = RED; c <= BLUE; ++c) {
-	    look_for[c] = ((mask & (1u << (int)c)) != 0);
-	}
+        for (Color c = RED; c <= BLUE; ++c) {
+            look_for[c] = ((mask & (1u << (int)c)) != 0);
+        }
     }
 };
 
@@ -103,26 +103,26 @@ void findAllMoves_usualcase(const GameState &st, int attacker,
     std::vector<WholeMove> &allmoves)
 {
     const unsigned int all_colors =
-	((1u << RED) | (1u << YELLOW) | (1u << GREEN) | (1u << BLUE));
+        ((1u << RED) | (1u << YELLOW) | (1u << GREEN) | (1u << BLUE));
     findAllMoves(st, attacker, allmoves,
-	    /*prune_obviously_worse_moves=*/true,
-	    /*look_only_for_wins=*/false,
-	    all_colors);
+            /*prune_obviously_worse_moves=*/true,
+            /*look_only_for_wins=*/false,
+            all_colors);
 }
 
 bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
 {
     std::vector<WholeMove> winning_moves;
     const unsigned int all_colors =
-	((1u << RED) | (1u << YELLOW) | (1u << GREEN) | (1u << BLUE));
+        ((1u << RED) | (1u << YELLOW) | (1u << GREEN) | (1u << BLUE));
     findAllMoves(st, attacker, winning_moves,
-	    /*prune_obviously_worse_moves=*/true,
-	    /*look_only_for_wins=*/true,
-	    all_colors);
+            /*prune_obviously_worse_moves=*/true,
+            /*look_only_for_wins=*/true,
+            all_colors);
     if (!winning_moves.empty()) {
-	if (move != NULL)
-	  *move = winning_moves[0];
-	return true;
+        if (move != NULL)
+          *move = winning_moves[0];
+        return true;
     }
     return false;
 }
@@ -207,7 +207,7 @@ void findAllMoves(const GameState &st, int attacker,
     }
 
     if (prune_worse_moves && !all.map.empty()) {
-	/* We have found at least one move better than "pass". */
+        /* We have found at least one move better than "pass". */
     } else {
         /* Just for completeness' sake, let's see if it's legal to make any
          * of the post-catastrophes available to us. If even doing that
@@ -216,12 +216,12 @@ void findAllMoves(const GameState &st, int attacker,
          * state of the game; in fact, we actually expect to do so. */
         all.original_state = "";
         find_postcatastrophes(passmove, st, attacker, all);
-	if (prune_worse_moves && !all.map.empty()) {
-	    /* We have found at least one move better than "pass". */
-	} else if (!look_only_for_wins) {
-	    /* "pass" can't be a winning move. */
+        if (prune_worse_moves && !all.map.empty()) {
+            /* We have found at least one move better than "pass". */
+        } else if (!look_only_for_wins) {
+            /* "pass" can't be a winning move. */
             append_move(all, passmove, st, attacker);
-	}
+        }
     }
 
 #if ALLMOVES_USE_EXCEPTIONS
@@ -343,7 +343,7 @@ static void combine_normal(const WholeMove &m,
             }
         } else {
             for (Color c = RED; c <= BLUE; ++c) {
-		if (!all.look_for[c]) continue;
+                if (!all.look_for[c]) continue;
                 if (!where.playerHasAccessTo(attacker, c)) continue;
                 combine_one_action(m, c, 0, i, st, attacker, all);
             }
@@ -368,7 +368,7 @@ static void combine_normal(const WholeMove &m,
         if (last_friendly_ship && where.ships[defender].empty())
           continue;
         for (Color c = RED; c <= BLUE; ++c) {
-	    if (!all.look_for[c]) continue;
+            if (!all.look_for[c]) continue;
             if (last_friendly_ship && c != YELLOW) continue;
             for (Size s = SMALL; s <= LARGE; ++s) {
                 /* Note that we needn't worry about duplicates; e.g., there's
@@ -436,13 +436,13 @@ static void combine_one_red_action(const WholeMove &m,
     /* Find all the possible ways of performing a single (free) RED
      * action at this system. In other words, find each enemy ship
      * here that we could possibly capture. */
-    
+
     if (all.win_only) {
         /* Capturing away from the homeworld is pointless. */
         if (where.homeworldOf != defender)
           return;
     }
-    
+
     if (where.ships[attacker].empty())
       return;
     const Size maxsize = where.ships[attacker].biggestSize();
@@ -476,7 +476,7 @@ static void combine_one_yellow_action(const WholeMove &m,
         /* Moving away from the defender's homeworld is pointless. */
         if (where.homeworldOf == defender) return;
     }
-    
+
     const int num_friendly_ships_here = where.ships[attacker].number();
     if (num_friendly_ships_here == 0)
       return;
@@ -728,7 +728,7 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
      * your homeworld, moving it away, or causing a catastrophe that
      * blows up your homeworld; so the homeworld should still be around. */
     assert(!st.hasLost(attacker));
-    
+
     const bool is_win = st.hasLost(1-attacker);
 
     if (is_win) {
@@ -745,8 +745,8 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
     }
 
     if (!is_win && all.win_only) {
-	/* Sorry, we're only looking for winning moves. */
-	return;
+        /* Sorry, we're only looking for winning moves. */
+        return;
     } else if (is_win && all.prune_worse_moves) {
         /* If we find a winning move, we can forget all those other
          * worse moves we found before; just report the winning one. */

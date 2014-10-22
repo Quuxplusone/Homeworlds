@@ -13,7 +13,7 @@ class AlphaBeta {
     // Given a State, return an approximation of its Value to the defender.
     // (Its value to the attacker is just the negation of this value.)
     // A State which the defender is happy to defend will have a high Value.
-    // Given a move M between states S1 and S2, one would expect M to be 
+    // Given a move M between states S1 and S2, one would expect M to be
     // chosen if findattacker(S1)!=findattacker(S2) and evaluate(S2) > 0
     // (the usual case), or if findattacker(S1)==findattacker(S2) and
     // (-evaluate(S2)) > 0 --- that is, iff evaluate2(S1,S2) > 0.
@@ -47,7 +47,7 @@ class AlphaBeta {
   public:
     AlphaBeta(Evaluator ev, MoveApplier app, MoveFinder fm, AttackerFinder fa):
             evaluate(ev), applymove(app), findmoves(fm), findattacker(fa) { }
-    
+
     /* Given a State, return the best possible move for the attacker (looking
      * "ply" plies deep).  If the attacker has no legal moves (not even
      * "pass"), then return false; else return true.
@@ -73,7 +73,7 @@ class AlphaBeta {
     bool depth_first_alpha_beta(const State &st, int ply,
                                 Move &bestmove, Value &bestvalue,
                                 Value alpha, Value beta);
-    
+
     /* Given a State, return the best possible move using alpha-beta pruning,
      * as above. However, rather than searching depth-first, we'll search
      * breadth-first. This means that instead of recursively calling
@@ -300,7 +300,7 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
       return false;
 
     std::queue<BFRecord *> Q;
-    
+
     /* The queue starts out with all the moves from this state. */
     std::vector<Move> allmoves;
     this->findmoves(st, allmoves);
@@ -323,7 +323,7 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
         }
     }
     Q.push(top_level_return_record);
-    
+
     /* The queue is now initialized. */
 
     for ( ; !Q.empty(); Q.pop()) {
@@ -375,20 +375,20 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
                 continue;
             }
         }
-        
+
         assert(record->type == RECURSE);
         assert(record->parent != NULL);
         assert(record->parent->type == RETURN);
         /* Namely, this record is a child of its parent, and this record has
          * not yet reported. */
         assert(record->parent->unreported_children > 0);
-        
+
         State newstate = record->st;
         this->applymove(newstate, record->move);
         const int newattacker = this->findattacker(newstate);
 
         /* Now this is basically the same code as depth_first(). */
-            
+
         /* If we're wrapping up already, then we'll just take the value
          * of this position to be its value according to this->evaluate().
          * We'll do the same easy evaluate() route if the attacker has
@@ -412,7 +412,7 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
             delete record;
             continue;
         }
-        
+
         assert(insertednodes < maxnodes);
         /* Otherwise, if we are not yet in the wrapping-up stage, the value
          * of this position is going to be computed by taking the maximum of
@@ -426,7 +426,7 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
              * happy our parent is to defend it. See above. */
             goto easy_evaluate;
         }
-        
+
         /* The new attacker has some possible moves, and we're not yet
          * wrapping things up. So push a RECURSE record for each possible
          * move, and push a RETURN record to defer the final processing on
@@ -442,7 +442,7 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
             }
         }
         Q.push(return_record);
-        
+
         /* We have now successfully suspended the rest of this computation.
          * This record can now be disposed of. */
         delete record;

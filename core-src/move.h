@@ -56,7 +56,7 @@ class SingleAction {
     SingleAction(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }
     SingleAction(const std::string &text) { const bool UNUSED(rc) = scan(text.c_str()); assert(rc); }
     ~SingleAction() { }
-    
+
     /* These constructors are provided for efficiency. If you don't care about efficiency,
      * you should probably just use the constructor SingleAction(const char *) and let it parse
      * out the action for you. */

@@ -23,7 +23,7 @@
         if (where == NULL) return false;
         const Color c = action.color;
         const Size s = action.size;
-            
+
         switch (action.kind) {
             case CATASTROPHE: {
                 if (c == UNKNOWN_COLOR) return false;
@@ -136,7 +136,7 @@
          * is called from findAllMoves() --- so we'll omit it. */
         return true;
     }
-    
+
     bool ApplyMove::Whole(GameState &st, int attacker, const WholeMove &move)
     {
         assert(move.sanitycheck());

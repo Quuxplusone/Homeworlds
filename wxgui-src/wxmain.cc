@@ -41,9 +41,9 @@ class History {
         hvec.push_back(Node());
     }
     void setup(const GameState &st) {
-	hidx = 0;
-	hvec.clear();
-	hvec.push_back(Node());
+        hidx = 0;
+        hvec.clear();
+        hvec.push_back(Node());
         hvec[0].st = st;
     }
     void review(FILE *fp) {
@@ -172,7 +172,7 @@ bool GameApp::OnInit()
     this->Connect(wxEVT_LEFT_UP, wxMouseEventHandler(GameApp::OnMouseEvent));
     this->Connect(wxEVT_LEFT_DOWN, wxMouseEventHandler(GameApp::OnMouseEvent));
     this->Connect(wxEVT_LEFT_DCLICK, wxMouseEventHandler(GameApp::OnMouseEvent));
-    
+
     this->leftpanel = new wxPanel(mainwindow, wxID_ANY, wxDefaultPosition, wxDefaultSize);
     this->rightpanel = new wxPanel(mainwindow, wxID_ANY, wxDefaultPosition, wxDefaultSize);
 
@@ -192,11 +192,11 @@ bool GameApp::OnInit()
     rightpanel->SetSizer(new wxBoxSizer(wxVERTICAL));
     rightpanel->GetSizer()->Add(gp->stash, 0, wxEXPAND | wxALL, /*border=*/5);
     // TODO FIXME BUG HACK: Add a textbox "history" widget here.
-    
+
     mainwindow->SetSizer(new wxBoxSizer(wxHORIZONTAL));
     mainwindow->GetSizer()->Add(leftpanel, 1, wxEXPAND, /*border=*/0);
     mainwindow->GetSizer()->Add(rightpanel, 0, wxEXPAND, /*border=*/0);
-    
+
     mainwindow->GetSizer()->Fit(mainwindow);
     mainwindow->Layout();
     mainwindow->SetMinSize(mainwindow->GetSize());
@@ -247,78 +247,78 @@ void GameApp::load_game(wxCommandEvent &)
     if (!in.IsOpened()) {
         wxMessageDialog mdg(NULL, wxT("File not found"), wxT("Error"), wxOK | wxICON_ERROR);
         mdg.ShowModal();
-	return;
+        return;
     }
     GameState initialState;
     std::string firstline = initialState.scan(in.fp());
     firstline += "\n";
     for (int i = firstline.length(); i > 0; --i) {
-	int rc = ungetc(firstline[i-1], in.fp());
-	if (rc == EOF) {
-	    do_error(mprintf("ungetc: %d character%s of input could not be pushed back.\n"
-	            "Try adding a blank line after the homeworld setup lines.", i,
-	            (i>1 ? "s" : "")));
-	    return;
-	}
+        int rc = ungetc(firstline[i-1], in.fp());
+        if (rc == EOF) {
+            do_error(mprintf("ungetc: %d character%s of input could not be pushed back.\n"
+                    "Try adding a blank line after the homeworld setup lines.", i,
+                    (i>1 ? "s" : "")));
+            return;
+        }
     }
     assignPlanetNames(initialState, NULL);
     StarSystem *hw = initialState.homeworldOf(0);
     if (hw == NULL) {
-	do_error("The initial homeworld setup didn't include Player 0's homeworld!");
-	return;
+        do_error("The initial homeworld setup didn't include Player 0's homeworld!");
+        return;
     }
     hw = initialState.homeworldOf(1);
     if (hw == NULL) {
-	do_error("The initial homeworld setup didn't include Player 1's homeworld!");
-	return;
+        do_error("The initial homeworld setup didn't include Player 1's homeworld!");
+        return;
     }
-    
+
     History newhistory;
     newhistory.setup(initialState);
     /* Now read the history of the new game, move by move. */
     int attacker = 0;
     char *moveline = NULL;
     while (1) {
-	char *result = fgetline_113(&moveline, in.fp());
-	if (result == NULL)
-	    break;
-	assert(result == moveline);
-	if (moveline[0] == '#' || moveline[0] == '\0') {
-	    /* This is a comment; ignore it. */
-	    free(moveline);
-	    continue;
-	} else if (newhistory.currentstate().gameIsOver()) {
-	    do_error("The transcript file contains additional moves after the end of the game!");
-	    free(moveline);
-	    return;
-	}
-	WholeMove move;
-	if (!move.scan(moveline)) {
-	    do_error(mprintf("The transcript file contains errors. The following line didn't parse as a move:\n%s", moveline));
-	    free(moveline);
-	    return;
-	}
-	if (move.is_missing_pieces()) {
-	    WholeMove oldmove = move;
-	    const bool inferred = inferMoveFromState(newhistory.currentstate(), attacker, move);
-	    if (!inferred) {
-		/* We couldn't infer the user's intended move. Just restore the old move,
-		 * with the un-filled-in blanks, and let isValidMove() reject it below. */
-		move = oldmove;
-	    }
-	}
-	free(moveline);
-	/* If we've gotten this far, the file gave us a syntactically
-	 * correct move. Try to apply it; if it's semantically invalid or
-	 * illegal, reject it. */
-	const bool success = ApplyMove::isValidMove(newhistory.currentstate(), attacker, move);
-	if (!success) {
-	    do_error(mprintf("The transcript file contains errors. The following move is not legal:\n%s", move.toString().c_str()));
-	    return;
-	}
-	/* We got a completely valid move. */
-	newhistory.makemove(move, attacker);
-	attacker = (1 - attacker);
+        char *result = fgetline_113(&moveline, in.fp());
+        if (result == NULL)
+            break;
+        assert(result == moveline);
+        if (moveline[0] == '#' || moveline[0] == '\0') {
+            /* This is a comment; ignore it. */
+            free(moveline);
+            continue;
+        } else if (newhistory.currentstate().gameIsOver()) {
+            do_error("The transcript file contains additional moves after the end of the game!");
+            free(moveline);
+            return;
+        }
+        WholeMove move;
+        if (!move.scan(moveline)) {
+            do_error(mprintf("The transcript file contains errors. The following line didn't parse as a move:\n%s", moveline));
+            free(moveline);
+            return;
+        }
+        if (move.is_missing_pieces()) {
+            WholeMove oldmove = move;
+            const bool inferred = inferMoveFromState(newhistory.currentstate(), attacker, move);
+            if (!inferred) {
+                /* We couldn't infer the user's intended move. Just restore the old move,
+                 * with the un-filled-in blanks, and let isValidMove() reject it below. */
+                move = oldmove;
+            }
+        }
+        free(moveline);
+        /* If we've gotten this far, the file gave us a syntactically
+         * correct move. Try to apply it; if it's semantically invalid or
+         * illegal, reject it. */
+        const bool success = ApplyMove::isValidMove(newhistory.currentstate(), attacker, move);
+        if (!success) {
+            do_error(mprintf("The transcript file contains errors. The following move is not legal:\n%s", move.toString().c_str()));
+            return;
+        }
+        /* We got a completely valid move. */
+        newhistory.makemove(move, attacker);
+        attacker = (1 - attacker);
     }
 
     /* We've read the entire file, and apparently it was all valid. That
@@ -351,36 +351,36 @@ void GameApp::done_starting_position()
     assert(it->GetWindow() != NULL);
     assert(((PieceWidget*)it->GetWindow())->whose == global_attacker);
     if (gs->GetItem(2)) {
-	/* Allow the user to set up more interesting positions, but warn
-	 * about them. */
-	wxMessageDialog mdg(NULL,
-		wxT("Your homeworld system should contain only one starting ship."
-			" Do you want to continue with this easier setup anyway?"),
-		wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
-	if (mdg.ShowModal() != wxID_YES)
-	    return;
+        /* Allow the user to set up more interesting positions, but warn
+         * about them. */
+        wxMessageDialog mdg(NULL,
+                wxT("Your homeworld system should contain only one starting ship."
+                        " Do you want to continue with this easier setup anyway?"),
+                wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
+        if (mdg.ShowModal() != wxID_YES)
+            return;
     }
     if (gp->num_systems != 0) {
-	/* Allow the user to set up more interesting positions, but warn
-	 * about them. */
-	wxMessageDialog mdg(NULL,
-		wxT("The starting position should not contain any star systems"
-			" besides the two homeworlds."
-			" Do you want to continue with this setup anyway?"),
-		wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
-	if (mdg.ShowModal() != wxID_YES)
-	    return;
+        /* Allow the user to set up more interesting positions, but warn
+         * about them. */
+        wxMessageDialog mdg(NULL,
+                wxT("The starting position should not contain any star systems"
+                        " besides the two homeworlds."
+                        " Do you want to continue with this setup anyway?"),
+                wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
+        if (mdg.ShowModal() != wxID_YES)
+            return;
     }
-    
+
     if (global_attacker == 0) {
-	global_attacker = 1;
-	mainwindow->SetStatusText(wxT("Player 2 set up."));
+        global_attacker = 1;
+        mainwindow->SetStatusText(wxT("Player 2 set up."));
     } else {
-	GameState st = gp->to_state();
-	this->history.setup(st);
-	global_attacker = 0;
-	just_started_new_game = false;
-	mainwindow->SetStatusText(wxT(""));
+        GameState st = gp->to_state();
+        this->history.setup(st);
+        global_attacker = 0;
+        just_started_new_game = false;
+        mainwindow->SetStatusText(wxT(""));
     }
     mainwindow->Layout();
 }
@@ -388,7 +388,7 @@ void GameApp::done_starting_position()
 /* Helper function for done_move().  Assign names to the new star systems
  * created by m, in order to satisfy "st + m = newst". */
 static bool reassign_a_name_cleverly(const GameState &st, WholeMove &m,
-	const GameState &target)
+        const GameState &target)
 {
     int n = target.stars.size();
     GameState stplusm = st;
@@ -398,31 +398,31 @@ static bool reassign_a_name_cleverly(const GameState &st, WholeMove &m,
      * come from a MOVE_CREATE action in m. We're going to need to rename
      * that system according to whatever its name is in "target". */
     for (int i=0; i < n; ++i) {
-	const StarSystem &ss = stplusm.stars[i];
-	if (target.systemNamed(ss.name.c_str()) != NULL)
-	  continue;
-	/* Find a system in target that looks just like this one,
-	 * and which doesn't appear by name in st. */
-	for (int j=0; j < n; ++j) {
-	    const StarSystem &targetss = target.stars[j];
-	    if (stplusm.systemNamed(targetss.name.c_str()))
-	      continue;
-	    if (targetss.toComparableString() != ss.toComparableString())
-	      continue;
-	    /* Okay, we can map ss.name to targetss.name. */
-	    printf("mapping %s to %s\n", ss.name.c_str(), targetss.name.c_str());
-	    for (int k=0; k < (int)m.actions.size(); ++k) {
-		if (m.actions[k].where == ss.name)
-		  m.actions[k].where = targetss.name;
-		if (m.actions[k].whither == ss.name)
-		  m.actions[k].whither = targetss.name;
-	    }
-	    return true;
-	}
-	/* If we got here, it means that no system identical to ss appeared
-	 * in target, even though ss appeared in stplusm (and stplusm was
-	 * supposed to be identical to target).  That's impossible. */
-	assert(false);
+        const StarSystem &ss = stplusm.stars[i];
+        if (target.systemNamed(ss.name.c_str()) != NULL)
+          continue;
+        /* Find a system in target that looks just like this one,
+         * and which doesn't appear by name in st. */
+        for (int j=0; j < n; ++j) {
+            const StarSystem &targetss = target.stars[j];
+            if (stplusm.systemNamed(targetss.name.c_str()))
+              continue;
+            if (targetss.toComparableString() != ss.toComparableString())
+              continue;
+            /* Okay, we can map ss.name to targetss.name. */
+            printf("mapping %s to %s\n", ss.name.c_str(), targetss.name.c_str());
+            for (int k=0; k < (int)m.actions.size(); ++k) {
+                if (m.actions[k].where == ss.name)
+                  m.actions[k].where = targetss.name;
+                if (m.actions[k].whither == ss.name)
+                  m.actions[k].whither = targetss.name;
+            }
+            return true;
+        }
+        /* If we got here, it means that no system identical to ss appeared
+         * in target, even though ss appeared in stplusm (and stplusm was
+         * supposed to be identical to target).  That's impossible. */
+        assert(false);
     }
     /* If we got all the way through that loop, then stplusm is exactly
      * identical to target, even considering system names --- but it could
@@ -435,8 +435,8 @@ static bool reassign_a_name_cleverly(const GameState &st, WholeMove &m,
 void GameApp::done_move(wxCommandEvent &)
 {
     if (just_started_new_game) {
-	done_starting_position();
-	return;
+        done_starting_position();
+        return;
     }
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
     assert(gp != NULL);
@@ -445,24 +445,24 @@ void GameApp::done_move(wxCommandEvent &)
     std::string target = targetstate.toComparableString();
     std::vector<WholeMove> allmoves;
     findAllMoves(oldstate, global_attacker, allmoves,
-	    /*prune_obviously_worse_moves=*/false,
-	    /*look_only_for_wins=*/false,
-	    /*these_colors_only=*/0xF);
+            /*prune_obviously_worse_moves=*/false,
+            /*look_only_for_wins=*/false,
+            /*these_colors_only=*/0xF);
     WholeMove successful_move;
     for (int i=0; i < (int)allmoves.size(); ++i) {
-	GameState newst = oldstate;
-	WholeMove &m = allmoves[i];
-	ApplyMove::or_die(newst, global_attacker, m);
-	if (newst.toComparableString() == target) {
-	    successful_move = m;
-	    goto success;
-	}
+        GameState newst = oldstate;
+        WholeMove &m = allmoves[i];
+        ApplyMove::or_die(newst, global_attacker, m);
+        if (newst.toComparableString() == target) {
+            successful_move = m;
+            goto success;
+        }
     }
     /* Failure. The new state isn't legally reachable from the old state. */
     return do_error("The current board position isn't legally reachable from"
-	    " the state at the end of your opponent's last turn. Check for"
-	    " unoccupied star systems, or use \"Edit -> Reset\" to restart"
-	    " your current move from the beginning.");
+            " the state at the end of your opponent's last turn. Check for"
+            " unoccupied star systems, or use \"Edit -> Reset\" to restart"
+            " your current move from the beginning.");
   success:
     assert(ApplyMove::isValidMove(this->history.currentstate(), global_attacker, successful_move));
     /* Consider this!
@@ -474,11 +474,11 @@ void GameApp::done_move(wxCommandEvent &)
      * successful_move will wind up with the exact same names that each
      * SystemWidget wound up with. */
     for (int i=0; i < 4; ++i) {
-	if (!reassign_a_name_cleverly(oldstate, successful_move, targetstate))
-	    break;
-	/* After reassigning three names, we should really be finished.
-	 * If we get here a fourth time, assert failure; something is wrong. */
-	assert(i != 3);
+        if (!reassign_a_name_cleverly(oldstate, successful_move, targetstate))
+            break;
+        /* After reassigning three names, we should really be finished.
+         * If we get here a fourth time, assert failure; something is wrong. */
+        assert(i != 3);
     }
     this->history.makemove(successful_move, global_attacker);
     global_attacker = (1 - global_attacker);
@@ -531,8 +531,8 @@ static bool setup_ai(GameState &st, StarSystem &hw)
         if (!st.stash.contains(hw.pieceCollection()))
           continue;
         /* This configuration is okay. */
-	st.stash -= hw.star;
-	st.stash -= hw.ships[attacker];
+        st.stash -= hw.star;
+        st.stash -= hw.ships[attacker];
         return true;
     }
     /* We couldn't find a reasonable set of pieces that was still left in the
@@ -547,57 +547,57 @@ void GameApp::ai_starting_position()
     assert(gp != NULL);
     assert(just_started_new_game);
     if (global_attacker == 0) {
-	GameState st;
-	st.newGame();
-	st.stars.push_back(StarSystem("Fry"));
-	StarSystem &hw = st.stars.back();
-	hw.homeworldOf = 0;
-	const bool UNUSED(success) = setup_ai(st, hw);
-	assert(success);
-	gp->update(st);
-	global_attacker = 1;
-	assert(just_started_new_game);
+        GameState st;
+        st.newGame();
+        st.stars.push_back(StarSystem("Fry"));
+        StarSystem &hw = st.stars.back();
+        hw.homeworldOf = 0;
+        const bool UNUSED(success) = setup_ai(st, hw);
+        assert(success);
+        gp->update(st);
+        global_attacker = 1;
+        assert(just_started_new_game);
     } else {
-	assert(global_attacker == 1);
-	GameState st = gp->to_state();
-	if (st.homeworldOf(0) == NULL || st.homeworldOf(0)->ships[0].empty()) {
-	    do_error("The AI cannot create a homeworld system for Player 1 when Player 0's homeworld system is empty!");
-	    return;
-	}
-	assert(st.homeworldOf(0) != NULL);
-	StarSystem *hw = st.homeworldOf(1);
-	if (hw == NULL) {
-	    st.stars.push_back(StarSystem("Bender"));
-	    hw = &st.stars.back();
-	    hw->homeworldOf = 1;
-	}
-	if (setup_ai(st, *hw)) {
-	    this->history.setup(st);
-	    assert(this->history.current_attacker() == 0);
-	    global_attacker = 0;
-	    gp->update(this->history.currentstate());
-	    just_started_new_game = false;
-	} else {
-	    do_error("The AI cannot create a homeworld system for Player 1"
-		    " due to all the additional pieces on the map. Put some"
-		    " pieces back in the stash and try again.");
-	}
+        assert(global_attacker == 1);
+        GameState st = gp->to_state();
+        if (st.homeworldOf(0) == NULL || st.homeworldOf(0)->ships[0].empty()) {
+            do_error("The AI cannot create a homeworld system for Player 1 when Player 0's homeworld system is empty!");
+            return;
+        }
+        assert(st.homeworldOf(0) != NULL);
+        StarSystem *hw = st.homeworldOf(1);
+        if (hw == NULL) {
+            st.stars.push_back(StarSystem("Bender"));
+            hw = &st.stars.back();
+            hw->homeworldOf = 1;
+        }
+        if (setup_ai(st, *hw)) {
+            this->history.setup(st);
+            assert(this->history.current_attacker() == 0);
+            global_attacker = 0;
+            gp->update(this->history.currentstate());
+            just_started_new_game = false;
+        } else {
+            do_error("The AI cannot create a homeworld system for Player 1"
+                    " due to all the additional pieces on the map. Put some"
+                    " pieces back in the stash and try again.");
+        }
     }
 }
 
 void GameApp::ai_move(wxCommandEvent &)
 {
     if (just_started_new_game) {
-	/* We're being asked to set up a homeworld system. */
-	GameApp::ai_starting_position();
-	return;
+        /* We're being asked to set up a homeworld system. */
+        GameApp::ai_starting_position();
+        return;
     }
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
     assert(gp != NULL);
     GameState st = this->history.currentstate();
     if (st.gameIsOver()) {
-	mainwindow->SetStatusText(wxT("The game is already over!"));
-	return;
+        mainwindow->SetStatusText(wxT("The game is already over!"));
+        return;
     }
     WholeMove bestmove = get_ai_move(st, global_attacker);
     ApplyMove::or_die(st, global_attacker, bestmove);
@@ -612,13 +612,13 @@ void GameApp::undo_move(wxCommandEvent &)
 {
     const bool success = this->history.undo();
     if (success) {
-	GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-	assert(gp != NULL);
-	gp->update(this->history.currentstate());
-	global_attacker = this->history.current_attacker();
-	mainwindow->SetStatusText(wxT(""));
+        GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
+        assert(gp != NULL);
+        gp->update(this->history.currentstate());
+        global_attacker = this->history.current_attacker();
+        mainwindow->SetStatusText(wxT(""));
     } else {
-	mainwindow->SetStatusText(wxT("There are no moves to be undone!"));
+        mainwindow->SetStatusText(wxT("There are no moves to be undone!"));
     }
 }
 
@@ -627,13 +627,13 @@ void GameApp::redo_move(wxCommandEvent &)
 {
     const bool success = this->history.redo();
     if (success) {
-	GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-	assert(gp != NULL);
-	gp->update(this->history.currentstate());
-	global_attacker = this->history.current_attacker();
-	mainwindow->SetStatusText(wxT(""));
+        GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
+        assert(gp != NULL);
+        gp->update(this->history.currentstate());
+        global_attacker = this->history.current_attacker();
+        mainwindow->SetStatusText(wxT(""));
     } else {
-	mainwindow->SetStatusText(wxT("There are no moves to be redone!"));
+        mainwindow->SetStatusText(wxT("There are no moves to be redone!"));
     }
 }
 

@@ -107,7 +107,7 @@ void reassignNamesToMove(WholeMove &move, const GameState &st, const GameState &
             assert(mapping[i] != "-");
         }
     }
-    
+
     for (int i=0; i < (int)move.actions.size(); ++i) {
         SingleAction &action = move.actions[i];
         const StarSystem *sys1 = st.systemNamed(action.where.c_str());

@@ -15,7 +15,7 @@ extern "C" {
 
 /*
    Call as "rc = getline_113(&line);"
-   These two functions trim off the trailing newline (and any other 
+   These two functions trim off the trailing newline (and any other
    trailing whitespace) for you, so if the user types <space>-H-E-L-
    L-O-<space>-<enter>, all you see is <space>-H-E-L-L-O.
 */

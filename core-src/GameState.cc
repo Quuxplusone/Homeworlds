@@ -44,7 +44,7 @@ StarSystem *GameState::homeworldOf(int player)
 bool GameState::containsOverpopulation() const
 {
     for (int i=0; i < (int)stars.size(); ++i) {
-	if (stars[i].containsOverpopulation())
+        if (stars[i].containsOverpopulation())
           return true;
     }
     return false;
@@ -204,8 +204,8 @@ std::string GameState::toComparableString() const
         if (hw != NULL) {
             bp = hw->toComparableString(bp);
         } else {
-	    *bp++ = '!';
-	}
+            *bp++ = '!';
+        }
     }
     /* For non-homeworld stars, the only thing that matters is the piece
      * distribution of the star and ships; name and position don't matter.
@@ -219,7 +219,7 @@ std::string GameState::toComparableString() const
             char buffer[StarSystem::MAXSTRLEN+1];
             char *bp = stars[i].toComparableString(buffer);
             v[vn++].assign(buffer, bp);
-	}
+        }
     }
     std::sort(v, v + vn);
     for (size_t i=0; i < vn; ++i) {
