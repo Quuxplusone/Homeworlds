@@ -193,7 +193,8 @@ static bool scan_for_multimove(const char *text, std::vector<SingleAction> &acti
         text += 6;
         const char *endwhere = text;
         while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
-        where.insert(0, text, endwhere-text);
+        std::string just_the_where(text, endwhere);
+        where = just_the_where;
         if (!StarSystem::is_valid_name(where.c_str())) return false;
         text = endwhere;
     }
@@ -201,8 +202,8 @@ static bool scan_for_multimove(const char *text, std::vector<SingleAction> &acti
     text += 4;
     const char *endwhither = text;
     while (*endwhither != '\0' && *endwhither != ' ') ++endwhither;
-    whither = "";
-    whither.insert(0, text, endwhither-text);
+    std::string just_the_whither(text, endwhither);
+    whither = just_the_whither;
     if (!StarSystem::is_valid_name(whither.c_str())) return false;
     text = endwhither;
     /* The "whither" may be a newly created star system, in which
@@ -312,7 +313,8 @@ bool SingleAction::scan(const char *text)
             text += 6;
             const char *endwhere = text;
             while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
-            this->where.insert(0, text, endwhere-text);
+            std::string just_the_where(text, endwhere);
+            where = just_the_where;
             if (!StarSystem::is_valid_name(this->where.c_str())) return false;
             text = endwhere;
         }
@@ -320,8 +322,8 @@ bool SingleAction::scan(const char *text)
         text += 4;
         const char *endwhither = text;
         while (*endwhither != '\0' && *endwhither != ' ') ++endwhither;
-        this->whither = "";
-        this->whither.insert(0, text, endwhither-text);
+        std::string just_the_whither(text, endwhither);
+        whither = just_the_whither;
         if (!StarSystem::is_valid_name(this->whither.c_str())) return false;
         text = endwhither;
         /* The "whither" may be a newly created star system, in which
@@ -377,8 +379,8 @@ bool SingleAction::scan(const char *text)
             text += 3;
             const char *endwhere = text;
             while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
-            this->where = "";
-            this->where.insert(0, text, endwhere-text);
+            std::string just_the_where(text, endwhere);
+            where = just_the_where;
             if (!StarSystem::is_valid_name(this->where.c_str())) return false;
             text = endwhere;
             if (*text == ' ') ++text;
