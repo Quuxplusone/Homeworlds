@@ -10,11 +10,7 @@
 
 const StarSystem *GameState::systemNamed(const char *name) const
 {
-    for (int i=0; i < (int)stars.size(); ++i) {
-        if (stars[i].name == name)
-          return &stars[i];
-    }
-    return NULL;
+    return const_cast<GameState*>(this)->systemNamed(name);
 }
 
 StarSystem *GameState::systemNamed(const char *name)
@@ -28,12 +24,7 @@ StarSystem *GameState::systemNamed(const char *name)
 
 const StarSystem *GameState::homeworldOf(int player) const
 {
-    assert(0 <= player && player < NUMPLAYERS);
-    for (int i=0; i < (int)stars.size(); ++i) {
-        if (stars[i].homeworldOf == player)
-          return &stars[i];
-    }
-    return NULL;
+    return const_cast<GameState*>(this)->homeworldOf(player);
 }
 
 StarSystem *GameState::homeworldOf(int player)
