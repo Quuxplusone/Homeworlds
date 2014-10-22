@@ -455,239 +455,221 @@ static void verify_move(bool legal, const WholeMove &move, int attacker)
 }
 
 
-static bool move_and_record(int attacker)
+static void make_move_and_report(int attacker, const WholeMove& move)
 {
-    const bool game_is_over = g_History.currentstate().gameIsOver();
-    char *moveline = NULL;
-  get_move:
-    /* Prompt for the human's move, and read in a line. */
-    if (g_Verbose) {
-        printf("%s's move? > ", g_playerNames[attacker].c_str()); fflush(stdout);
-    }
-    char *result = getline_113(&moveline);
-    assert(result == moveline || result == NULL);
-    /* Act as if there's an implicit "quit" at the end of the input;
-     * otherwise, we'd just go on reading the last command forever. */
-    if (result == NULL) {
-        moveline = (char *)malloc(5);
-        assert(moveline != NULL);
-        strcpy(moveline, "quit");
+    if (g_ReportBlunders && move_was_boneheaded(g_History.currentstate(), move, attacker)) {
+        printf("%s blundered into check on this move:\n%s\n",
+            g_playerNames[attacker].c_str(), move.toString().c_str());
+        printf("The position was:\n");
+        printf("%s\n", g_History.currentstate().toString().c_str());
     }
 
-    if (strcmp(moveline, "help") == 0) {
-        free(moveline);
-        do_help();
-        goto get_move;
-    } else if (strcmp(moveline, "quit") == 0) {
-        free(moveline);
-        return false;
-    } else if (strcmp(moveline, "verbose") == 0) {
-        free(moveline);
-        puts("Now operating in verbose mode.");
-        g_Verbose = true;
-        goto get_move;
-    } else if (strcmp(moveline, "brief") == 0) {
-        free(moveline);
+    g_History.makemove(move, attacker);
+
+    bool game_is_over = g_History.currentstate().gameIsOver();
+    if (game_is_over) {
         if (g_Verbose) {
-            puts("Now operating in non-verbose \"brief\" mode.");
-            puts("No transcript will be saved if you \"quit\" while in brief mode!");
+            printf("%s has won the game!\n", g_playerNames[attacker].c_str());
+            puts("(Valid commands at this point include \"review\" and \"help\".)");
         }
-        g_Verbose = false;
-        goto get_move;
-    } else if (strcmp(moveline, "color") == 0) {
-        free(moveline);
-        if (g_Verbose) {
-            puts("The output will now be colorized.");
-            puts("To return to monochrome mode, enter \"mono\".");
-        }
-        g_Colorize = true;
-        goto get_move;
-    } else if (strcmp(moveline, "mono") == 0) {
-        free(moveline);
-        if (g_Verbose)
-            puts("The output will no longer be colorized.");
-        g_Colorize = false;
-        goto get_move;
-    } else if (moveline[0] == '#') {
-        /* This is a comment in a transcript file; ignore it. */
-        free(moveline);
-        goto get_move;
-    } else if (strcmp(moveline, "undo") == 0) {
-        free(moveline);
-        const bool success = g_History.undo();
-        if (success) return true;
-        goto get_move;
-    } else if (strcmp(moveline, "redo") == 0) {
-        free(moveline);
-        const bool success = g_History.redo();
-        if (success) return true;
-        goto get_move;
-    } else if (strcmp(moveline, "review") == 0) {
-        free(moveline);
-        g_History.review(stdout, g_Verbose);
-        goto get_move;
-    } else if (strcmp(moveline, "state") == 0) {
-        free(moveline);
-        g_History.showState(stdout);
-        goto get_move;
-    } else if (strcmp(moveline, "stash") == 0) {
-        free(moveline);
-        g_History.showStash(stdout);
-        goto get_move;
-    } else if (strncmp(moveline, "review ", 7) == 0) {
-        const char *filename = moveline+7;
-        FILE *out = fopen(filename, "w");
-        if (out == NULL) {
-            printf("File \"%s\" could not be opened for writing.\n", filename);
+    }
+
+    if (g_Verbose && !game_is_over && g_History.currentstate().containsOverpopulation()) {
+        static bool warning_given = false;
+        if (!warning_given) {
+            printf("%s has left overpopulations on the board.\n", g_playerNames[attacker].c_str());
+            printf("The \"ai_move\" command may not work properly in this situation.\n");
+            printf("Consider using \"undo\" and adding one or more \"catastrophe\" actions\n");
+            printf("to the end of the last move.\n");
+            warning_given = true;
         } else {
-            g_History.review(out, /*verbose=*/false);
-            fclose(out);
-            if (g_Verbose)
-              printf("A transcript up to this point has been saved to file \"%s\".\n", filename);
+            printf("(%s has left overpopulations on the board.)\n", g_playerNames[attacker].c_str());
         }
-        free(moveline);
-        goto get_move;
-    } else if (game_is_over) {
-        /* Once the game is over you're not allowed to continue making
-         * moves, but you can still use the bookkeeping commands above
-         * this check. */
-        if (g_Verbose) {
-            puts("The game is over; only \"undo\" and \"review\" are allowed\n"
-                   "at this point. You entered:");
-            printf("\"%s\"\n", moveline);
-            puts("Enter the string \"help\" for help with this game's interface.\n");
-        } else {
-            puts("The game is already over!");
-        }
-        if (g_VerifyTranscript) do_error("Transcript is incorrect.");
-        free(moveline);
-        goto get_move;
-    } else if (strcmp(moveline, "rate_moves") == 0) {
-        free(moveline);
-        std::vector<WholeMove> allmoves;
-        get_all_moves_sorted_by_value(g_History.currentstate(), attacker, allmoves, true);
-        goto get_move;
-    } else if (strcmp(moveline, "count_moves") == 0) {
-        free(moveline);
-        std::vector<WholeMove> allmoves;
-        findAllMoves(g_History.currentstate(), attacker, allmoves,
-                /*prune=*/false, /*wins=*/false, /*colors=*/0xf);
-        assert(allmoves.size() >= 1);  /* "pass" from a legal position is always legal */
-        printf("%d\n", (int)allmoves.size());
-        goto get_move;
-    } else if (!strncmp(moveline, "LEGAL ", 6) ||
-               !strncmp(moveline, "ILLEGAL ", 8) ||
-               !strncmp(moveline, "AMBIG ", 6)) {
-        const bool checkLegal = !strncmp(moveline, "LEGAL ", 6);
-        const bool checkIllegal = !strncmp(moveline, "ILLEGAL ", 8);
-        const bool checkAmbig = !strncmp(moveline, "AMBIG ", 6);
-        const char * const realmoveline = (checkIllegal ? moveline+8 : moveline+6);
-        WholeMove move;
-        const bool success = move.scan(realmoveline);
-        if (!success) {
-            printf("Failed: \"%s\" didn't parse as a move\n", realmoveline);
-            free(moveline);
-            goto get_move;
-        }
-        WholeMove oldmove = move;
-        const bool inferred = move.is_missing_pieces() ?
-                inferMoveFromState(g_History.currentstate(), attacker, move) : true;
-        if (checkAmbig == inferred) {
-            printf("Failed: \"%s\" is%s ambiguous.\n",
-                oldmove.toString().c_str(), checkAmbig ? " not" : "");
-        }
-        if (inferred && !checkAmbig) {
-            verify_move(checkLegal, move, attacker);
-        }
-        free(moveline);
-        goto get_move;
-    } else {
-        WholeMove move;
-        const bool isAiMove = !strcmp(moveline, "ai_move");
-        const bool isWinMove = !strcmp(moveline, "WIN");
-        if (isAiMove) {
-            move = get_ai_move(g_History.currentstate(), attacker);
-            if (g_Verbose)
-              printf("AI for %s chooses: %s\n", g_playerNames[attacker].c_str(), move.toString().c_str());
-        } else if (isWinMove) {
-            WholeMove winmove;
-            if (findWinningMove(g_History.currentstate(), attacker, &winmove)) {
-                if (g_Verbose) {
-                    printf("AI for %s found a winning move:\n", g_playerNames[attacker].c_str());
-                    printf("%s\n", move.toString().c_str());
-                }
-                move = winmove;
-            } else {
-                printf("AI for %s found no winning move.\n", g_playerNames[attacker].c_str());
-                goto get_move;
-            }
-        } else {
-            const bool success = move.scan(moveline);
-            if (!success) {
-                puts("The given string did not parse as a move. It was:");
-                printf("\"%s\"\n", moveline);
-                if (g_VerifyTranscript) do_error("Transcript is incorrect.");
-                puts("Enter the string \"help\" for help with this game's interface.");
-                free(moveline);
-                goto get_move;
-            }
-            if (move.is_missing_pieces()) {
-                WholeMove oldmove = move;
-                const bool inferred = inferMoveFromState(g_History.currentstate(), attacker, move);
-                if (!inferred) {
-                    /* We couldn't infer the user's intended move. Just restore the old move,
-                     * with the un-filled-in blanks, and let isValidMove() reject it below. */
-                    move = oldmove;
-                }
-            }
-        }
-        free(moveline);
-        /* If we've gotten this far, the user (or AI) gave us a syntactically
-         * correct move. Try to apply it; if it's semantically invalid or
-         * illegal, reject it. */
-        if (isAiMove) {
-            assert(ApplyMove::isValidMove(g_History.currentstate(), attacker, move));
-        } else {
-            const bool success = ApplyMove::isValidMove(g_History.currentstate(), attacker, move);
-            if (!success) {
-                puts("The move as parsed was invalid, ambiguous, or disallowed by the rules. It was:");
-                printf("\"%s\"\n", move.toString().c_str());
-                if (g_VerifyTranscript) do_error("Transcript is incorrect.");
-                puts("Enter the string \"help\" for help with this game's interface.");
-                goto get_move;
-            }
-        }
-        /* We got a completely valid move. */
-        if (g_Verbose && !isAiMove)
-          puts("Okay.");
-        if (g_ReportBlunders && move_was_boneheaded(g_History.currentstate(), move, attacker)) {
-            printf("%s blundered into check on this move:\n%s\n",
-                g_playerNames[attacker].c_str(), move.toString().c_str());
-             printf("The position was:\n");
-            printf("%s\n", g_History.currentstate().toString().c_str());
-        }
-        g_History.makemove(move, attacker);
-        if (g_History.currentstate().gameIsOver()) {
-            if (g_Verbose) {
-                printf("%s has won the game!\n", g_playerNames[attacker].c_str());
-                puts("(Valid commands at this point include \"review\" and \"help\".)");
-            }
-        } else if (g_History.currentstate().containsOverpopulation()) {
-            static bool warning_given = false;
-            if (g_Verbose && !warning_given) {
-                printf("%s has left overpopulations on the board.\n", g_playerNames[attacker].c_str());
-                printf("The \"ai_move\" command may not work properly in this situation.\n");
-                printf("Consider using \"undo\" and adding one or more \"catastrophe\" actions\n");
-                printf("to the end of the last move.\n");
-                warning_given = true;
-            } else if (g_Verbose) {
-                printf("(%s has left overpopulations on the board.)\n", g_playerNames[attacker].c_str());
-            }
-        }
-        return true;
     }
 }
 
+
+static bool move_and_record(int attacker)
+{
+    const bool game_is_over = g_History.currentstate().gameIsOver();
+    char *moveline_cstr = NULL;
+    std::string moveline;
+
+    while (true) {
+        /* Prompt for the human's move, and read in a line. */
+        if (g_Verbose) {
+            printf("%s's move? > ", g_playerNames[attacker].c_str()); fflush(stdout);
+        }
+        char *result = getline_113(&moveline_cstr);
+        assert(result == moveline_cstr || result == NULL);
+        /* Act as if there's an implicit "quit" at the end of the input;
+         * otherwise, we'd just go on reading the last command forever. */
+        if (result == NULL) {
+            moveline = "quit";
+        } else {
+            moveline = moveline_cstr;
+            free(moveline_cstr);
+        }
+
+        if (moveline == "help") {
+            do_help();
+        } else if (moveline == "quit") {
+            return false;
+        } else if (moveline == "verbose") {
+            puts("Now operating in verbose mode.");
+            g_Verbose = true;
+        } else if (moveline == "brief") {
+            if (g_Verbose) {
+                puts("Now operating in non-verbose \"brief\" mode.");
+                puts("No transcript will be saved if you \"quit\" while in brief mode!");
+            }
+            g_Verbose = false;
+        } else if (moveline == "color") {
+            if (g_Verbose) {
+                puts("The output will now be colorized.");
+                puts("To return to monochrome mode, enter \"mono\".");
+            }
+            g_Colorize = true;
+        } else if (moveline == "mono") {
+            if (g_Verbose) {
+                puts("The output will no longer be colorized.");
+            }
+            g_Colorize = false;
+        } else if (moveline[0] == '#') {
+            /* This is a comment in a transcript file; ignore it. */
+        } else if (moveline == "undo") {
+            const bool success = g_History.undo();
+            if (success) return true;
+        } else if (moveline == "redo") {
+            const bool success = g_History.redo();
+            if (success) return true;
+        } else if (moveline == "review") {
+            g_History.review(stdout, g_Verbose);
+        } else if (moveline == "state") {
+            g_History.showState(stdout);
+        } else if (moveline == "stash") {
+            g_History.showStash(stdout);
+        } else if (strncmp(moveline.c_str(), "review ", 7) == 0) {
+            const char *filename = &moveline[7];
+            FILE *out = fopen(filename, "w");
+            if (out == NULL) {
+                printf("File \"%s\" could not be opened for writing.\n", filename);
+            } else {
+                g_History.review(out, /*verbose=*/false);
+                fclose(out);
+                if (g_Verbose) {
+                    printf("A transcript up to this point has been saved to file \"%s\".\n", filename);
+                }
+            }
+        } else if (game_is_over) {
+            /* Once the game is over you're not allowed to continue making
+             * moves, but you can still use the bookkeeping commands above
+             * this check. */
+            if (g_Verbose) {
+                puts("The game is over; only \"undo\" and \"review\" are allowed\n"
+                       "at this point. You entered:");
+                printf("\"%s\"\n", moveline.c_str());
+                puts("Enter the string \"help\" for help with this game's interface.\n");
+            } else {
+                puts("The game is already over!");
+            }
+            if (g_VerifyTranscript) do_error("Transcript is incorrect.");
+        } else if (moveline == "rate_moves") {
+            std::vector<WholeMove> allmoves;
+            get_all_moves_sorted_by_value(g_History.currentstate(), attacker, allmoves, true);
+        } else if (moveline == "count_moves") {
+            std::vector<WholeMove> allmoves;
+            findAllMoves(g_History.currentstate(), attacker, allmoves,
+                    /*prune=*/false, /*wins=*/false, /*colors=*/0xf);
+            assert(allmoves.size() >= 1);  /* "pass" from a legal position is always legal */
+            printf("%d\n", (int)allmoves.size());
+        } else if (!strncmp(moveline.c_str(), "LEGAL ", 6) ||
+                   !strncmp(moveline.c_str(), "ILLEGAL ", 8) ||
+                   !strncmp(moveline.c_str(), "AMBIG ", 6)) {
+            const bool checkLegal = !strncmp(moveline.c_str(), "LEGAL ", 6);
+            const bool checkIllegal = !strncmp(moveline.c_str(), "ILLEGAL ", 8);
+            const bool checkAmbig = !strncmp(moveline.c_str(), "AMBIG ", 6);
+            const char * const realmoveline = (checkIllegal ? &moveline[8] : &moveline[6]);
+            WholeMove move;
+            const bool success = move.scan(realmoveline);
+            if (!success) {
+                printf("Failed: \"%s\" didn't parse as a move\n", realmoveline);
+            } else {
+                WholeMove oldmove = move;
+                const bool inferred = move.is_missing_pieces() ?
+                    inferMoveFromState(g_History.currentstate(), attacker, move) : true;
+                if (checkAmbig == inferred) {
+                    printf("Failed: \"%s\" is%s ambiguous.\n",
+                        oldmove.toString().c_str(), checkAmbig ? " not" : "");
+                }
+                if (inferred && !checkAmbig) {
+                    verify_move(checkLegal, move, attacker);
+                }
+            }
+        } else {
+            WholeMove move;
+            const bool isAiMove = (moveline == "ai_move");
+            const bool isWinMove = (moveline == "WIN");
+            if (isAiMove) {
+                move = get_ai_move(g_History.currentstate(), attacker);
+                if (g_Verbose) {
+                    printf("AI for %s chooses: %s\n", g_playerNames[attacker].c_str(), move.toString().c_str());
+                }
+                assert(ApplyMove::isValidMove(g_History.currentstate(), attacker, move));
+                make_move_and_report(attacker, move);
+                return true;
+            } else if (isWinMove) {
+                const bool success = findWinningMove(g_History.currentstate(), attacker, &move);
+                if (!success) {
+                    printf("AI for %s found no winning move.\n", g_playerNames[attacker].c_str());
+                } else {
+                    if (g_Verbose) {
+                        printf("AI for %s found a winning move:\n", g_playerNames[attacker].c_str());
+                        printf("%s\n", move.toString().c_str());
+                    }
+                    assert(ApplyMove::isValidMove(g_History.currentstate(), attacker, move));
+                    make_move_and_report(attacker, move);
+                    return true;
+                }
+            } else {
+                const bool success = move.scan(moveline.c_str());
+                if (!success) {
+                    puts("The given string did not parse as a move. It was:");
+                    printf("\"%s\"\n", moveline.c_str());
+                    if (g_VerifyTranscript) do_error("Transcript is incorrect.");
+                    puts("Enter the string \"help\" for help with this game's interface.");
+                } else {
+                    if (move.is_missing_pieces()) {
+                        WholeMove oldmove = move;
+                        const bool inferred = inferMoveFromState(g_History.currentstate(), attacker, move);
+                        if (!inferred) {
+                            /* We couldn't infer the user's intended move. Just restore the old move,
+                             * with the un-filled-in blanks, and let isValidMove() reject it below. */
+                            move = oldmove;
+                        }
+                    }
+                    /* If we've gotten this far, the user (or AI) gave us a syntactically
+                     * correct move. Try to apply it; if it's semantically invalid or
+                     * illegal, reject it. */
+                    const bool success = ApplyMove::isValidMove(g_History.currentstate(), attacker, move);
+                    if (!success) {
+                        puts("The move as parsed was invalid, ambiguous, or disallowed by the rules. It was:");
+                        printf("\"%s\"\n", move.toString().c_str());
+                        if (g_VerifyTranscript) do_error("Transcript is incorrect.");
+                        puts("Enter the string \"help\" for help with this game's interface.");
+                    } else {
+                        /* We got a completely valid move. */
+                        if (g_Verbose) {
+                            puts("Okay.");
+                        }
+                        make_move_and_report(attacker, move);
+                        return true;
+                    }
+                }
+            }
+        }
+    }
+}
 
 int main(int argc, char **argv)
 {
@@ -697,14 +679,15 @@ int main(int argc, char **argv)
     bool auto_setup = false;
     for (arg_index=1; arg_index < argc; ++arg_index) {
         if (argv[arg_index][0] != '-') break;
-        if (!strcmp(argv[arg_index], "--")) { ++arg_index; break; }
-        if (!strcmp(argv[arg_index], "--blunders")) {
+        std::string arg = argv[arg_index];
+        if (arg == "--") { ++arg_index; break; }
+        if (arg == "--blunders") {
             g_ReportBlunders = true;
-        } else if (!strcmp(argv[arg_index], "--verify")) {
+        } else if (arg == "--verify") {
             g_VerifyTranscript = true;
-        } else if (!strcmp(argv[arg_index], "--auto")) {
+        } else if (arg == "--auto") {
             auto_setup = true;
-        } else if (!strcmp(argv[arg_index], "--seed")) {
+        } else if (arg == "--seed") {
             if (arg_index+1 >= argc || !isdigit(argv[arg_index+1][0]))
               do_error("The --seed argument requires an integer parameter!");
             ++arg_index;
