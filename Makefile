@@ -1,8 +1,18 @@
-CC = gcc
-CXX = g++
+UNAME := $(shell uname -s)
+
+ifeq ($(UNAME),Darwin)
+  CC = gcc
+  CXX = g++
+  ifneq (,$(findstring -std=c++11,$(CXXFLAGS)))
+    CXXFLAGS += -stdlib=libc++
+  endif
+else
+  CC = gcc
+  CXX = g++
+endif
+
 INCLUDES = -Icore-src
-CFLAGS = -W -Wall -Wextra -march=native ${INCLUDES}
-CXXFLAGS =
+CFLAGS += -W -Wall -Wextra -march=native ${INCLUDES}
 
 # The release setup.
 #CFLAGS += -O3 -fomit-frame-pointer -DNDEBUG
@@ -10,8 +20,6 @@ CXXFLAGS =
 #CFLAGS += -O3 -pg -DNDEBUG
 # The debug setup.
 CFLAGS += -O2 -g
-# The C++11 setup.
-#CXXFLAGS += -std=c++11 -stdlib=libc++
 
 # Replace this line to use a different evaluation function.
 AIEVAL = core-src/AIStaticEval3.cc
