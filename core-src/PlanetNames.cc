@@ -1,5 +1,6 @@
 
 #include <assert.h>
+#include <string.h>
 #include <string>
 #include <vector>
 #include "move.h"
@@ -122,4 +123,3 @@ void reassignNamesToMove(WholeMove &move, const GameState &st, const GameState &
         }
     }
 }
-
