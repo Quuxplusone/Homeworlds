@@ -51,14 +51,7 @@ class PieceCollection {
 
     std::string toString() const;
     char *toString(char buffer[MAXSTRLEN+1]) const;
-    char *toComparableString(char buffer[MAXSTRLEN+1]) const {
-        const signed char *ptr = &pieces[0][0];
-        for (int i=0; i < 12; ++i) {
-            for (int j=0; j < ptr[i]; ++j)
-              *buffer++ = 'a'+i;
-        }
-        return buffer;
-    }
+    char *toComparableString(char buffer[MAXSTRLEN+1]) const;
     bool scan(const char *text);
 };
 
@@ -151,3 +144,6 @@ class GameState {
     /* Flip the players: make player 0 player 1 and vice versa. */
     GameState mirror() const;
 };
+
+/* Inline definitions for the toComparableString methods. */
+#include "ToComparableString.h"

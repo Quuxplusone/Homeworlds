@@ -146,37 +146,6 @@ bool StarSystem::scan(const char *text)
     return true;
 }
 
-/* Return a string describing this star system's pieces in an unambiguous
- * way. It doesn't matter whether this is someone's homeworld, since that's
- * handled in GameState::toComparableString(). */
-char *StarSystem::toComparableString(char buffer[MAXSTRLEN+1]) const
-{
-    /* This routine will have to be adjusted if NUMPLAYERS ever increases. */
-    assert(NUMPLAYERS == 2);
-    char *bp = buffer;
-    bp = star.toComparableString(bp);
-    if (bp == buffer+1) {
-        /* The star contained only one piece. */
-        assert('a' <= *buffer && *buffer <= 'l');
-    } else {
-        /* The star contained two pieces; we need an additional mark here
-         * to distinguish (r1g1)-b1 "ag/-j" from (r1)g1-b1 "ag-j". */
-        assert(bp == buffer+2);
-        *bp++ = '/';
-    }
-    bp = ships[0].toComparableString(bp);
-    *bp++ = '-';
-    bp = ships[1].toComparableString(bp);
-    return bp;
-}
-
-std::string StarSystem::toComparableString() const
-{
-    char buffer[MAXSTRLEN+1];
-    char *bp = this->toComparableString(buffer);
-    return std::string(buffer, bp);
-}
-
 int StarSystem::numberOfShips() const
 {
     int count = 0;

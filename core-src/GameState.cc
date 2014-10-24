@@ -193,41 +193,6 @@ std::string GameState::scan(FILE *fp)
     return unparsed_line;
 }
 
-std::string GameState::toComparableString() const
-{
-    /* Put the homeworlds first, because they are "special" regardless of
-     * their position in the galaxy or their names. */
-    char homeworlds[NUMPLAYERS*StarSystem::MAXSTRLEN + 1];
-    char *bp = homeworlds;
-    for (int i=0; i < NUMPLAYERS; ++i) {
-        const StarSystem *hw = homeworldOf(i);
-        if (hw != NULL) {
-            bp = hw->toComparableString(bp);
-        } else {
-            *bp++ = '!';
-        }
-    }
-    /* For non-homeworld stars, the only thing that matters is the piece
-     * distribution of the star and ships; name and position don't matter.
-     * So use StarSystem::toComparableString() to throw out the name,
-     * and sort the results to get rid of position information. */
-    std::string result(homeworlds, bp);
-    std::string v[21];
-    size_t vn = 0;
-    for (size_t i=0; i < stars.size(); ++i) {
-        if (stars[i].homeworldOf == -1) {
-            char buffer[StarSystem::MAXSTRLEN+1];
-            char *bp = stars[i].toComparableString(buffer);
-            v[vn++].assign(buffer, bp);
-        }
-    }
-    std::sort(v, v + vn);
-    for (size_t i=0; i < vn; ++i) {
-        result += v[i];
-    }
-    return result;
-}
-
 GameState GameState::mirror() const
 {
     assert(NUMPLAYERS == 2);
