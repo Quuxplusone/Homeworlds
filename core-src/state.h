@@ -51,7 +51,7 @@ class PieceCollection {
 
     std::string toString() const;
     char *toString(char buffer[MAXSTRLEN+1]) const;
-    char *toComparableString(char buffer[MAXSTRLEN+1]) const;
+    char *toComparableString(char buffer[MAXSTRLEN+1], unsigned char mask) const;
     bool scan(const char *text);
 };
 
