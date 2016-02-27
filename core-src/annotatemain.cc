@@ -12,6 +12,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/stat.h>
 #include <string.h>
 #include <time.h>
 #include "getline.h"
@@ -222,6 +223,8 @@ static void do_help()
     puts("  stash");
     puts("  review, review <filename>");
     puts("  ai_move");
+    puts("  color, mono");
+    puts("  rate_moves, count_moves");
     puts("  quit");
     puts("The \"review\" command prints a transcript of the game up to this point,");
     puts("or writes the same transcript to the specified text file.");
@@ -634,8 +637,10 @@ static bool move_and_record(int attacker)
             } else {
                 const bool success = move.scan(moveline.c_str());
                 if (!success) {
-                    puts("The given string did not parse as a move. It was:");
-                    printf("\"%s\"\n", moveline.c_str());
+                    if (strlen(moveline.c_str()) > 0) {
+                        puts("The given string did not parse as a move. It was:");
+                        printf("\"%s\"\n", moveline.c_str());
+                    }
                     if (g_VerifyTranscript) do_error("Transcript is incorrect.");
                     puts("Enter the string \"help\" for help with this game's interface.");
                 } else {
@@ -671,12 +676,14 @@ static bool move_and_record(int attacker)
     }
 }
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
+
     srand((unsigned int)time(NULL));
 
     int arg_index;
     bool auto_setup = false;
+    bool load_setup = false;
+    char *file_name;
     for (arg_index=1; arg_index < argc; ++arg_index) {
         if (argv[arg_index][0] != '-') break;
         std::string arg = argv[arg_index];
@@ -692,6 +699,12 @@ int main(int argc, char **argv)
               do_error("The --seed argument requires an integer parameter!");
             ++arg_index;
             srand((unsigned int)atoi(argv[arg_index]));
+        } else if (arg == "--load") {
+            if (arg_index+1 >= argc)
+              do_error("The -- load argument requires a valid file transcript to read!");
+            ++arg_index;
+            file_name = argv[arg_index];
+            load_setup = true;
         } else {
             do_error("Unrecognized command-line argument %s", argv[arg_index]);
         }
@@ -702,7 +715,34 @@ int main(int argc, char **argv)
 
     GameState initialState;
 
-    if (auto_setup && arg_index == argc) {
+    if (load_setup) {
+        struct stat buf;
+        if (stat(file_name, &buf) != 0) {
+            do_error("The loading file doesn't exist.");
+        }
+        g_Verbose = true;
+        FILE * file = fopen(file_name, "r");
+        std::string firstline = initialState.scan(file);
+        fclose(file);
+        firstline += "\n";
+        for (int i = firstline.length(); i > 0; --i) {
+            int rc = ungetc(firstline[i-1], stdin);
+            if (rc == EOF) {
+                do_error("ungetc: %d character%s of input could not be pushed back.\n"
+                    "Try adding a blank line after the homeworld setup lines.", i,
+                    (i>1 ? "s" : ""));
+            }
+        }
+        assignPlanetNames(initialState, NULL);
+        StarSystem *hw = initialState.homeworldOf(0);
+        if (hw == NULL)
+          do_error("The initial homeworld setup didn't include Player 0's homeworld!");
+        g_playerNames[0] = hw->name;
+        hw = initialState.homeworldOf(1);
+        if (hw == NULL)
+          do_error("The initial homeworld setup didn't include Player 1's homeworld!");
+        g_playerNames[1] = hw->name;
+    } else if (auto_setup && arg_index == argc) {
         /* "annotate --auto" means that the input will be in the form of a
          * game transcript, and we should be quiet instead of verbose. */
         g_Verbose = false;

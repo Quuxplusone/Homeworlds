@@ -103,6 +103,9 @@ struct GameApp : public wxApp
     /* The "shadow" game state for displaying to the user. */
     std::vector<SystemWidget *> stars;
 
+    bool autosave = false;
+    char filename[1024];
+
     void new_game_core();
     void ai_starting_position();
 
@@ -113,6 +116,8 @@ struct GameApp : public wxApp
     void OnMouseEvent(wxMouseEvent &e);
     void new_game(wxCommandEvent &) { new_game_core(); }
     void load_game(wxCommandEvent &);
+    void saveas_game(wxCommandEvent &);
+    void save_game();
     void undo_move(wxCommandEvent &);
     void redo_move(wxCommandEvent &);
     void done_starting_position();
@@ -162,6 +167,8 @@ bool GameApp::OnInit()
     this->Connect(wxID_EXIT, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::clicked_quit));
     this->Connect(wxID_NEW, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::new_game));
     this->Connect(wxID_OPEN, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::load_game));
+    this->Connect(wxID_SAVEAS, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::saveas_game));
+    
     this->Connect(wxID_DONE_MOVE, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::done_move));
     this->Connect(wxID_CLEAR_MOVE, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::clear_move));
     this->Connect(wxID_AI_MOVE, wxEVT_COMMAND_MENU_SELECTED, wxCommandEventHandler(GameApp::ai_move));
@@ -235,8 +242,47 @@ void GameApp::new_game_core()
 }
 
 
-void GameApp::load_game(wxCommandEvent &)
-{
+void GameApp::save_game() {
+    if (this->autosave) {
+        do_error(this->filename);
+        FILE *fp = fopen(this->filename, "w");
+        if (fp) {
+            this->history.review(fp);
+            fclose(fp);
+            do_error("done.");
+        }
+    }
+}
+
+
+void GameApp::saveas_game(wxCommandEvent &) {
+
+    wxFileDialog fdg(this->mainwindow);
+    fdg.SetWindowStyleFlag(wxFD_SAVE);
+    if (fdg.ShowModal() == wxID_CANCEL)
+        return;
+    wxString fullname = fdg.GetPath();
+    wxString basename = fdg.GetFilename();
+    wxFFile out(fullname, wxT("w"));
+    if (!out.IsOpened()) {
+        wxMessageDialog mdg(NULL, wxT("Can't open file for write"), wxT("Error"), wxOK | wxICON_ERROR);
+        mdg.ShowModal();
+        return;
+    }
+    FILE *fp = fopen((const char*)fullname.mb_str(), "w");
+    if (fp) {
+        this->history.review(fp);
+        fclose(fp);
+        this->autosave = true;
+        strncpy(this->filename, (const char*)fullname.mb_str(), 1023);
+    } else {
+        do_error("Doh: couldn't save transcript!");
+    }
+}
+
+
+void GameApp::load_game(wxCommandEvent &) {
+
     wxFileDialog fdg(this->mainwindow);
     fdg.SetWindowStyleFlag(wxFD_OPEN | wxFD_FILE_MUST_EXIST);
     if (fdg.ShowModal() == wxID_CANCEL)
@@ -334,6 +380,7 @@ void GameApp::load_game(wxCommandEvent &)
     mainwindow->SetStatusText(wxT(""));
     mainwindow->Layout();
 }
+
 
 void GameApp::done_starting_position()
 {
@@ -481,6 +528,7 @@ void GameApp::done_move(wxCommandEvent &)
         assert(i != 3);
     }
     this->history.makemove(successful_move, global_attacker);
+    save_game(); 
     global_attacker = (1 - global_attacker);
     wxString wmsg(successful_move.toString().c_str(), wxConvLocal);
     mainwindow->SetStatusText(wmsg);
@@ -602,6 +650,7 @@ void GameApp::ai_move(wxCommandEvent &)
     WholeMove bestmove = get_ai_move(st, global_attacker);
     ApplyMove::or_die(st, global_attacker, bestmove);
     this->history.makemove(bestmove, global_attacker);
+    save_game();
     global_attacker = this->history.current_attacker();
     gp->update(this->history.currentstate());
     wxString wmsg(bestmove.toString().c_str(), wxConvLocal);
@@ -615,6 +664,7 @@ void GameApp::undo_move(wxCommandEvent &)
         GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
         assert(gp != NULL);
         gp->update(this->history.currentstate());
+        save_game();
         global_attacker = this->history.current_attacker();
         mainwindow->SetStatusText(wxT(""));
     } else {
@@ -630,6 +680,7 @@ void GameApp::redo_move(wxCommandEvent &)
         GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
         assert(gp != NULL);
         gp->update(this->history.currentstate());
+        save_game();
         global_attacker = this->history.current_attacker();
         mainwindow->SetStatusText(wxT(""));
     } else {
