@@ -222,6 +222,7 @@ static void do_help()
     puts("  stash");
     puts("  review, review <filename>");
     puts("  ai_move");
+    puts("  count_moves, rate_moves");
     puts("  quit");
     puts("The \"review\" command prints a transcript of the game up to this point,");
     puts("or writes the same transcript to the specified text file.");
