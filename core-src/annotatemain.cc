@@ -512,7 +512,11 @@ static bool move_and_record(int attacker)
             free(moveline_cstr);
         }
 
-        if (moveline == "help") {
+        if (moveline == "") {
+            if (g_Verbose) {
+                puts("Enter the string \"help\" for help with this game's interface.");
+            }
+        } else if (moveline == "help") {
             do_help();
         } else if (moveline == "quit") {
             return false;
