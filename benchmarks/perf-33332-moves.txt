@@ -1,0 +1,11 @@
+Sam (0, y1b3) r1g3-
+Dave (1, r2y1) -g1b3
+Delos (b3) r1-
+Lebling (g2) r1y1b2-
+Kotok (g3) r3-
+Minsky (g2) r2-
+Licklider (g2) r2-
+Frotz (r3) -g1b1
+Shrdlu (r3) -b1
+Fritz (b2) y3g1-
+count_moves
