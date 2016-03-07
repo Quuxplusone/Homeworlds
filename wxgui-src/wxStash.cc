@@ -139,9 +139,17 @@ void StashWidget::mouseup()
                 /* We're dropping just one piece. */
                 this->add_piece(pw->piece_size, pw->piece_color);
                 this->Refresh();
+#ifdef __WXMAC__
+                // temporary patch for OSX
+                pw->Hide();
+#endif
                 sw->GetSizer()->Detach(pw);
+#ifndef __WXMAC__
+                // this causes segfault on OSX
                 pw->Destroy();
+#endif
                 sw->Layout();
+                //std::printf("count: %zu\n", sw->GetSizer()->GetItemCount());
             }
             break;
         }

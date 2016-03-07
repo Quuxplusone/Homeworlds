@@ -1,4 +1,5 @@
 
+
 #include <assert.h>
 #include <stdarg.h>
 #include <string>
@@ -104,7 +105,7 @@ struct GameApp : public wxApp
     std::vector<SystemWidget *> stars;
 
     bool autosave = false;
-    char filename[1024];
+    std::string filename;
 
     void new_game_core();
     void ai_starting_position();
@@ -117,7 +118,7 @@ struct GameApp : public wxApp
     void new_game(wxCommandEvent &) { new_game_core(); }
     void load_game(wxCommandEvent &);
     void saveas_game(wxCommandEvent &);
-    void save_game();
+    void autosave_game();
     void undo_move(wxCommandEvent &);
     void redo_move(wxCommandEvent &);
     void done_starting_position();
@@ -145,22 +146,22 @@ bool GameApp::OnInit()
     wxMenu *editmenu = new wxMenu;
     wxMenu *helpmenu = new wxMenu;
     menubar->Append(filemenu, wxT("&File"));
-      filemenu->Append(wxID_NEW, wxT("&New Game"), wxT("Starts a new game"));
-      filemenu->Append(wxID_OPEN, wxT("&Open Game"), wxT("Opens a saved game"));
-      filemenu->Append(wxID_SAVEAS, wxT("&Save Game"), wxT("Saves a transcript of the current game to a text file"));
-      filemenu->AppendSeparator();
-      filemenu->Append(wxID_EXIT, wxT("&Quit"), wxT("Quits the program"));
+    filemenu->Append(wxID_NEW, wxT("&New Game"), wxT("Starts a new game"));
+    filemenu->Append(wxID_OPEN, wxT("&Open Game"), wxT("Opens a saved game"));
+    filemenu->Append(wxID_SAVEAS, wxT("&Save Game"), wxT("Saves a transcript of the current game to a text file"));
+    filemenu->AppendSeparator();
+    filemenu->Append(wxID_EXIT, wxT("&Quit"), wxT("Quits the program"));
     menubar->Append(editmenu, wxT("&Edit"));
-      editmenu->Append(wxID_DONE_MOVE, wxT("&Done\tENTER"), wxT("Signals that you're ready to submit the current move"));
-      editmenu->Append(wxID_CLEAR_MOVE, wxT("&Reset\tR"), wxT("Reset the board position to the way it was before you started this move"));
-      editmenu->AppendSeparator();
-      editmenu->Append(wxID_AI_MOVE, wxT("&AI Move\tA"), wxT("Let the AI player make a move"));
-      editmenu->AppendSeparator();
-      editmenu->Append(wxID_UNDO, wxT("&Undo Last Move"), wxT("Undoes the last whole move"));
-      editmenu->Append(wxID_REDO, wxT("&Redo Move"), wxT("Redoes the last whole move"));
+    editmenu->Append(wxID_DONE_MOVE, wxT("&Done\tENTER"), wxT("Signals that you're ready to submit the current move"));
+    editmenu->Append(wxID_CLEAR_MOVE, wxT("&Reset\tR"), wxT("Reset the board position to the way it was before you started this move"));
+    editmenu->AppendSeparator();
+    editmenu->Append(wxID_AI_MOVE, wxT("&AI Move\tA"), wxT("Let the AI player make a move"));
+    editmenu->AppendSeparator();
+    editmenu->Append(wxID_UNDO, wxT("&Undo Last Move"), wxT("Undoes the last whole move"));
+    editmenu->Append(wxID_REDO, wxT("&Redo Move"), wxT("Redoes the last whole move"));
     menubar->Append(helpmenu, wxT("&Help"));
-      helpmenu->Append(wxID_ABOUT, wxT("&About..."), wxT("Displays a short copyright message"));
-      helpmenu->Append(wxID_HELP, wxT("&Help\tF1"), wxT("Help about the game and how to play"));
+    helpmenu->Append(wxID_ABOUT, wxT("&About..."), wxT("Displays a short copyright message"));
+    helpmenu->Append(wxID_HELP, wxT("&Help\tF1"), wxT("Help about the game and how to play"));
     mainwindow->SetMenuBar(menubar);
     mainwindow->CreateStatusBar();
 
@@ -242,10 +243,10 @@ void GameApp::new_game_core()
 }
 
 
-void GameApp::save_game() {
+void GameApp::autosave_game() {
     if (this->autosave) {
         do_error(this->filename);
-        FILE *fp = fopen(this->filename, "w");
+        FILE *fp = fopen(this->filename.c_str(), "w");
         if (fp) {
             this->history.review(fp);
             fclose(fp);
@@ -274,7 +275,8 @@ void GameApp::saveas_game(wxCommandEvent &) {
         this->history.review(fp);
         fclose(fp);
         this->autosave = true;
-        strncpy(this->filename, (const char*)fullname.mb_str(), 1023);
+        this->filename = fullname;
+        //strncpy(this->filename, (const char*)fullname.mb_str(), 1023);
     } else {
         do_error("Doh: couldn't save transcript!");
     }
@@ -302,8 +304,8 @@ void GameApp::load_game(wxCommandEvent &) {
         int rc = ungetc(firstline[i-1], in.fp());
         if (rc == EOF) {
             do_error(mprintf("ungetc: %d character%s of input could not be pushed back.\n"
-                    "Try adding a blank line after the homeworld setup lines.", i,
-                    (i>1 ? "s" : "")));
+                             "Try adding a blank line after the homeworld setup lines.", i,
+                             (i>1 ? "s" : "")));
             return;
         }
     }
@@ -390,20 +392,20 @@ void GameApp::done_starting_position()
     SystemWidget *my_homeworld = (global_attacker == 0) ? gp->attacker_homeworld : gp->defender_homeworld;
     assert(my_homeworld != NULL);
     if (my_homeworld->star == NULL)
-      return do_error("You haven't selected a star for your homeworld system!");
+        return do_error("You haven't selected a star for your homeworld system!");
     wxSizer *gs = my_homeworld->GetSizer();
     wxSizerItem *it = gs->GetItem(1);
     if (it == NULL)
-      return do_error("You haven't selected a ship for your homeworld system!");
+        return do_error("You haven't selected a ship for your homeworld system!");
     assert(it->GetWindow() != NULL);
     assert(((PieceWidget*)it->GetWindow())->whose == global_attacker);
     if (gs->GetItem(2)) {
         /* Allow the user to set up more interesting positions, but warn
          * about them. */
         wxMessageDialog mdg(NULL,
-                wxT("Your homeworld system should contain only one starting ship."
-                        " Do you want to continue with this easier setup anyway?"),
-                wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
+                            wxT("Your homeworld system should contain only one starting ship."
+                                " Do you want to continue with this easier setup anyway?"),
+                            wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
         if (mdg.ShowModal() != wxID_YES)
             return;
     }
@@ -411,10 +413,10 @@ void GameApp::done_starting_position()
         /* Allow the user to set up more interesting positions, but warn
          * about them. */
         wxMessageDialog mdg(NULL,
-                wxT("The starting position should not contain any star systems"
-                        " besides the two homeworlds."
-                        " Do you want to continue with this setup anyway?"),
-                wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
+                            wxT("The starting position should not contain any star systems"
+                                " besides the two homeworlds."
+                                " Do you want to continue with this setup anyway?"),
+                            wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
         if (mdg.ShowModal() != wxID_YES)
             return;
     }
@@ -435,7 +437,7 @@ void GameApp::done_starting_position()
 /* Helper function for done_move().  Assign names to the new star systems
  * created by m, in order to satisfy "st + m = newst". */
 static bool reassign_a_name_cleverly(const GameState &st, WholeMove &m,
-        const GameState &target)
+                                     const GameState &target)
 {
     int n = target.stars.size();
     GameState stplusm = st;
@@ -447,22 +449,22 @@ static bool reassign_a_name_cleverly(const GameState &st, WholeMove &m,
     for (int i=0; i < n; ++i) {
         const StarSystem &ss = stplusm.stars[i];
         if (target.systemNamed(ss.name.c_str()) != NULL)
-          continue;
+            continue;
         /* Find a system in target that looks just like this one,
          * and which doesn't appear by name in st. */
         for (int j=0; j < n; ++j) {
             const StarSystem &targetss = target.stars[j];
             if (stplusm.systemNamed(targetss.name.c_str()))
-              continue;
+                continue;
             if (targetss.toComparableString() != ss.toComparableString())
-              continue;
+                continue;
             /* Okay, we can map ss.name to targetss.name. */
             printf("mapping %s to %s\n", ss.name.c_str(), targetss.name.c_str());
             for (int k=0; k < (int)m.actions.size(); ++k) {
                 if (m.actions[k].where == ss.name)
-                  m.actions[k].where = targetss.name;
+                    m.actions[k].where = targetss.name;
                 if (m.actions[k].whither == ss.name)
-                  m.actions[k].whither = targetss.name;
+                    m.actions[k].whither = targetss.name;
             }
             return true;
         }
@@ -492,9 +494,9 @@ void GameApp::done_move(wxCommandEvent &)
     std::string target = targetstate.toComparableString();
     std::vector<WholeMove> allmoves;
     findAllMoves(oldstate, global_attacker, allmoves,
-            /*prune_obviously_worse_moves=*/false,
-            /*look_only_for_wins=*/false,
-            /*these_colors_only=*/0xF);
+                 /*prune_obviously_worse_moves=*/false,
+                 /*look_only_for_wins=*/false,
+                 /*these_colors_only=*/0xF);
     WholeMove successful_move;
     for (int i=0; i < (int)allmoves.size(); ++i) {
         GameState newst = oldstate;
@@ -507,10 +509,10 @@ void GameApp::done_move(wxCommandEvent &)
     }
     /* Failure. The new state isn't legally reachable from the old state. */
     return do_error("The current board position isn't legally reachable from"
-            " the state at the end of your opponent's last turn. Check for"
-            " unoccupied star systems, or use \"Edit -> Reset\" to restart"
-            " your current move from the beginning.");
-  success:
+                    " the state at the end of your opponent's last turn. Check for"
+                    " unoccupied star systems, or use \"Edit -> Reset\" to restart"
+                    " your current move from the beginning.");
+success:
     assert(ApplyMove::isValidMove(this->history.currentstate(), global_attacker, successful_move));
     /* Consider this!
      *   successful_move has star names like "Uuaaaaaa".
@@ -528,7 +530,7 @@ void GameApp::done_move(wxCommandEvent &)
         assert(i != 3);
     }
     this->history.makemove(successful_move, global_attacker);
-    save_game(); 
+    autosave_game();
     global_attacker = (1 - global_attacker);
     wxString wmsg(successful_move.toString().c_str(), wxConvLocal);
     mainwindow->SetStatusText(wmsg);
@@ -568,7 +570,7 @@ static bool setup_ai(GameState &st, StarSystem &hw)
              * This condition disallows (r1y1, g2b3) and (r1y2, g1b2)
              * while still allowing (r1y1, g1b2) and (r1y2, g1b3). */
             if (opponent_hw->star.numberOf(s1) == opponent_hw->star.numberOf(s2))
-              continue;
+                continue;
         }
         /* The initial ship should be big and non-red. If the star doesn't have green
          * already, then the initial ship must be green. Otherwise, the ship must be
@@ -577,7 +579,7 @@ static bool setup_ai(GameState &st, StarSystem &hw)
         hw.ships[attacker].insert(shipc, LARGE);
         /* If this configuration isn't actually possible, rinse and repeat. */
         if (!st.stash.contains(hw.pieceCollection()))
-          continue;
+            continue;
         /* This configuration is okay. */
         st.stash -= hw.star;
         st.stash -= hw.ships[attacker];
@@ -627,8 +629,8 @@ void GameApp::ai_starting_position()
             just_started_new_game = false;
         } else {
             do_error("The AI cannot create a homeworld system for Player 1"
-                    " due to all the additional pieces on the map. Put some"
-                    " pieces back in the stash and try again.");
+                     " due to all the additional pieces on the map. Put some"
+                     " pieces back in the stash and try again.");
         }
     }
 }
@@ -650,7 +652,7 @@ void GameApp::ai_move(wxCommandEvent &)
     WholeMove bestmove = get_ai_move(st, global_attacker);
     ApplyMove::or_die(st, global_attacker, bestmove);
     this->history.makemove(bestmove, global_attacker);
-    save_game();
+    autosave_game();
     global_attacker = this->history.current_attacker();
     gp->update(this->history.currentstate());
     wxString wmsg(bestmove.toString().c_str(), wxConvLocal);
@@ -664,7 +666,7 @@ void GameApp::undo_move(wxCommandEvent &)
         GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
         assert(gp != NULL);
         gp->update(this->history.currentstate());
-        save_game();
+        autosave_game();
         global_attacker = this->history.current_attacker();
         mainwindow->SetStatusText(wxT(""));
     } else {
@@ -680,7 +682,7 @@ void GameApp::redo_move(wxCommandEvent &)
         GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
         assert(gp != NULL);
         gp->update(this->history.currentstate());
-        save_game();
+        autosave_game();
         global_attacker = this->history.current_attacker();
         mainwindow->SetStatusText(wxT(""));
     } else {
@@ -693,9 +695,9 @@ void GameApp::about(wxCommandEvent &)
 {
     mainwindow->SetStatusText(wxT(""));
     wxMessageDialog adg(NULL,
-        wxT("Homeworlds GUI AI\nArthur O'Dwyer\nFreeware\n\nHomeworlds is a chess-like game of strategy and tactics. For more information, see the Help menu."),
-        wxT("About Homeworlds"),
-        wxOK | wxICON_INFORMATION);
+                        wxT("Homeworlds GUI AI\nArthur O'Dwyer\nFreeware\n\nHomeworlds is a chess-like game of strategy and tactics. For more information, see the Help menu."),
+                        wxT("About Homeworlds"),
+                        wxOK | wxICON_INFORMATION);
     adg.ShowModal();
 }
 

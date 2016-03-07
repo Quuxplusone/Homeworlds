@@ -12,7 +12,6 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/stat.h>
 #include <string.h>
 #include <time.h>
 #include "getline.h"
@@ -701,7 +700,7 @@ int main(int argc, char **argv) {
             srand((unsigned int)atoi(argv[arg_index]));
         } else if (arg == "--load") {
             if (arg_index+1 >= argc)
-              do_error("The -- load argument requires a valid file transcript to read!");
+              do_error("The --load argument requires a valid file transcript to read!");
             ++arg_index;
             file_name = argv[arg_index];
             load_setup = true;
@@ -716,21 +715,20 @@ int main(int argc, char **argv) {
     GameState initialState;
 
     if (load_setup) {
-        struct stat buf;
-        if (stat(file_name, &buf) != 0) {
+        g_Verbose = true;
+        FILE * fp = fopen(file_name, "r");
+        if (!fp) {
             do_error("The loading file doesn't exist.");
         }
-        g_Verbose = true;
-        FILE * file = fopen(file_name, "r");
-        std::string firstline = initialState.scan(file);
-        fclose(file);
+        std::string firstline = initialState.scan(fp);
+        fclose(fp);
         firstline += "\n";
-        for (int i = firstline.length(); i > 0; --i) {
+        for (int i = (int)firstline.length(); i > 0; --i) {
             int rc = ungetc(firstline[i-1], stdin);
             if (rc == EOF) {
                 do_error("ungetc: %d character%s of input could not be pushed back.\n"
-                    "Try adding a blank line after the homeworld setup lines.", i,
-                    (i>1 ? "s" : ""));
+                         "Try adding a blank line after the homeworld setup lines.", i,
+                         (i>1 ? "s" : ""));
             }
         }
         assignPlanetNames(initialState, NULL);
@@ -748,12 +746,12 @@ int main(int argc, char **argv) {
         g_Verbose = false;
         std::string firstline = initialState.scan(stdin);
         firstline += "\n";
-        for (int i = firstline.length(); i > 0; --i) {
+        for (int i = (int)firstline.length(); i > 0; --i) {
             int rc = ungetc(firstline[i-1], stdin);
             if (rc == EOF) {
                 do_error("ungetc: %d character%s of input could not be pushed back.\n"
-                    "Try adding a blank line after the homeworld setup lines.", i,
-                    (i>1 ? "s" : ""));
+                         "Try adding a blank line after the homeworld setup lines.", i,
+                         (i>1 ? "s" : ""));
             }
         }
         assignPlanetNames(initialState, NULL);
@@ -794,6 +792,7 @@ int main(int argc, char **argv) {
         do_error("Incorrect command-line arguments.\n"
                  "The recognized command lines are:\n"
                  "  annotate Sam Dave        verbosely set up a new game between Sam and Dave\n"
+                 "  annotate --load filename read a game state, then start up in verbose mode\n"
                  "  annotate --auto          read a game state, then start up in brief mode\n"
                  "  annotate --verify        same as --auto, but error out on any illegal move\n"
                  "  annotate --blunders      same as --auto, but error out on any bad-looking move\n"

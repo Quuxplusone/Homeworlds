@@ -41,11 +41,27 @@ void GalaxyWidget::delete_system(SystemWidget *sw)
 {
     if (sw == this->attacker_homeworld || sw == this->defender_homeworld) {
         sw->star = NULL;
+#ifndef __WXMAC__
+        // this crashes on OSX
         sw->GetSizer()->Clear(true);
         sw->Layout();
+#else
+        // trying this patch while looking for better one
+        for (int i=0; sw->GetSizer()->GetItemCount()>0; i++) {
+            sw->GetSizer()->Detach(i);
+            sw->Layout();
+        }
+        sw->MacDoRedraw(0);
+#endif
     } else {
+#ifdef __WXMAC__
+        sw->Hide();
+#endif
         this->GetSizer()->Detach(sw);
+#ifndef __WXMAC__
+        // idem
         sw->Destroy();
+#endif
         --num_systems;
         this->Layout();
     }
