@@ -18,9 +18,8 @@ static bool catastrophe_possible(SystemWidget *sw, Color c)
     int count = 0;
     wxSizer *gs = sw->GetSizer();
     assert(gs != NULL);
-    for (int i=0; true; ++i) {
+    for (size_t i = 0; i < gs->GetItemCount(); ++i) {
         wxSizerItem *it = gs->GetItem(i);
-        if (it == NULL) break;
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
         assert(pw != NULL);
         if (pw->piece_color == c)
@@ -47,9 +46,8 @@ static void catastrophe(SystemWidget *sw, Color c)
 
     wxSizer *gs = sw->GetSizer();
     assert(gs != NULL);
-    for (int i=0; true; ++i) {
+    for (size_t i = 0; i < gs->GetItemCount(); ++i) {
         wxSizerItem *it = gs->GetItem(i);
-        if (it == NULL) break;
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
         assert(pw != NULL);
         assert(pw->piece_color != UNKNOWN_COLOR);
@@ -136,9 +134,8 @@ static void event_within_system(wxMouseEvent &e, const wxPoint &clickpos, System
 {
     wxSizer *gs = sw->GetSizer();
     assert(gs != NULL);
-    for (int i=0; true; ++i) {
+    for (size_t i = 0; i < gs->GetItemCount(); ++i) {
         wxSizerItem *it = gs->GetItem(i);
-        if (it == NULL) break;
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
         assert(pw != NULL);
         if (!pw->GetScreenRect().Contains(clickpos))
