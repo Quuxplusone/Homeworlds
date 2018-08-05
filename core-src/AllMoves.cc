@@ -125,7 +125,7 @@ bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
     );
     if (!winning_moves.empty()) {
         if (move != nullptr) {
-            *move = winning_moves[0];
+            *move = std::move(winning_moves[0]);
         }
         return true;
     }
@@ -245,8 +245,8 @@ void findAllMoves(const GameState &st, int attacker,
         assert(all.map.size() <= 1);
     }
 
-    for (AllMapT::const_iterator it = all.map.begin(); it != all.map.end(); ++it) {
-        allmoves.push_back(it->second);
+    for (auto&& kv : all.map) {
+        allmoves.push_back(std::move(kv.second));
     }
 }
 
@@ -372,8 +372,7 @@ static void combine_normal(const WholeMove &m,
      * sacrifices. For each ship of ours, find all the possible moves we
      * could make by sacrificing it.
      */
-    for (int i=0; i < (int)st.stars.size(); ++i) {
-        const StarSystem &where = st.stars[i];
+    for (const StarSystem& where : st.stars) {
         /* We can't sacrifice the last friendly ship at our homeworld,
          * unless it's yellow (in which case we'll make sure to move
          * another ship in before the end of the turn). */
@@ -782,7 +781,7 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
          * worse moves we found before; just report the winning one. */
         all.found_win = true;
         all.map.clear();
-        all.map.insert(AllMapT::value_type(std::string(), m));
+        all.map.emplace(std::string(), m);
 #if ALLMOVES_USE_EXCEPTIONS
         throw 42;
 #endif
@@ -791,6 +790,6 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
         if (key == all.original_state) {
             return;
         }
-        all.map.insert(AllMapT::value_type(key, m));
+        all.map.emplace(std::move(key), m);
     }
 }

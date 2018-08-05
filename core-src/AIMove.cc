@@ -73,7 +73,7 @@ void get_all_moves_sorted_by_value(const GameState &st,
     assert(!allmoves.empty());
     const int n = allmoves.size();
     if (n == 1) {
-        retmoves.push_back(allmoves[0]);
+        retmoves.push_back(std::move(allmoves[0]));
         return;
     }
 

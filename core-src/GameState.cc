@@ -187,7 +187,7 @@ std::string GameState::scan(FILE *fp)
             unparsed_line = line;
             break;
         }
-        stars.push_back(star);
+        stars.push_back(std::move(star));
     }
     stash.clear();
     for (Color c = RED; c <= BLUE; ++c) {

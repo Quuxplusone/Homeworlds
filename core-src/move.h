@@ -31,27 +31,14 @@ enum SingleActionKind {
  * values of the missing fields.
  */
 class SingleAction {
-    friend class WholeMove;
-    bool sanitycheck() const;
-
-  public:
-    /* These fields should be treated as read-only. */
-    SingleActionKind kind;
-    std::string where;
-    std::string whither;
-    Color color;
-    Size size;
-    Color newcolor;
-    Size newsize;
-
-  public:
+public:
     bool is_missing_pieces() const;
 
     std::string toString() const;
     bool scan(const char *text);
-    SingleAction() { }
+    SingleAction() = default;
     SingleAction(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }
-    SingleAction(const std::string &text) { const bool UNUSED(rc) = scan(text.c_str()); assert(rc); }
+    SingleAction(const std::string &text) : SingleAction(text.c_str()) {}
 
     /* These constructors are provided for efficiency. If you don't care about efficiency,
      * you should probably just use the constructor SingleAction(const char *) and let it parse
@@ -78,19 +65,39 @@ class SingleAction {
     explicit SingleAction(SingleActionKind k, Color c, Size s, Color nc, const char *w):
       kind(k), where(w), color(c), size(s), newcolor(nc), newsize(s)
       { assert(k == CONVERT); }
+
+private:
+    friend class WholeMove;
+    bool sanitycheck() const;
+
+public:
+    /* These fields should be treated as read-only. */
+    SingleActionKind kind;
+    std::string where;
+    std::string whither;
+    Color color;
+    Size size;
+    Color newcolor;
+    Size newsize;
 };
 
 class WholeMove {
-    friend struct ApplyMove;
-    bool sanitycheck() const;
+public:
+    bool isPass() const {
+        return actions.empty();
+    }
 
-  public:
-    /* These fields should be treated as read-only. */
-    std::vector<SingleAction> actions;
-
-  public:
-    bool isPass() const { return actions.empty(); }
-    WholeMove &operator += (const SingleAction &a);
+    /* We use this operation to build up whole moves piece by piece.
+     * Note that any prefix of a legal move is itself a legal move,
+     * so it's safe to sanity-check both the input and the output of
+     * this operation. */
+    WholeMove &operator += (SingleAction a) {
+        assert(this->sanitycheck());
+        assert(a.sanitycheck());
+        actions.push_back(std::move(a));
+        assert(this->sanitycheck());
+        return *this;
+    }
 
     bool is_missing_pieces() const;
 
@@ -101,4 +108,12 @@ class WholeMove {
     explicit WholeMove(const std::string &text) : WholeMove(text.c_str()) {}
     explicit WholeMove(const WholeMove &m, const SingleAction &a): actions(m.actions)
         { *this += a; }
+
+private:
+    friend struct ApplyMove;
+    bool sanitycheck() const;
+
+public:
+    /* These fields should be treated as read-only. */
+    std::vector<SingleAction> actions;
 };

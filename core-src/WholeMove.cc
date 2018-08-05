@@ -591,16 +591,3 @@ std::string WholeMove::toString() const
         return result;
     }
 }
-
-/* We use this operation to build up whole moves piece by piece.
- * Note that any prefix of a legal move is itself a legal move,
- * so it's safe to sanity-check both the input and the output of
- * this operation. */
-WholeMove &WholeMove::operator += (const SingleAction &a)
-{
-    assert(this->sanitycheck());
-    assert(a.sanitycheck());
-    actions.push_back(a);
-    assert(this->sanitycheck());
-    return *this;
-}
