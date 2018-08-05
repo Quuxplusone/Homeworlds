@@ -104,10 +104,12 @@ void findAllMoves_usualcase(const GameState &st, int attacker,
 {
     const unsigned int all_colors =
         ((1u << RED) | (1u << YELLOW) | (1u << GREEN) | (1u << BLUE));
-    findAllMoves(st, attacker, allmoves,
-            /*prune_obviously_worse_moves=*/true,
-            /*look_only_for_wins=*/false,
-            all_colors);
+    findAllMoves(
+        st, attacker, allmoves,
+        /*prune_obviously_worse_moves=*/true,
+        /*look_only_for_wins=*/false,
+        all_colors
+    );
 }
 
 bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
@@ -115,13 +117,16 @@ bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
     std::vector<WholeMove> winning_moves;
     const unsigned int all_colors =
         ((1u << RED) | (1u << YELLOW) | (1u << GREEN) | (1u << BLUE));
-    findAllMoves(st, attacker, winning_moves,
-            /*prune_obviously_worse_moves=*/true,
-            /*look_only_for_wins=*/true,
-            all_colors);
+    findAllMoves(
+        st, attacker, winning_moves,
+        /*prune_obviously_worse_moves=*/true,
+        /*look_only_for_wins=*/true,
+        all_colors
+    );
     if (!winning_moves.empty()) {
-        if (move != NULL)
-          *move = winning_moves[0];
+        if (move != NULL) {
+            *move = winning_moves[0];
+        }
         return true;
     }
     return false;
@@ -233,10 +238,12 @@ void findAllMoves(const GameState &st, int attacker,
      * Now "all" is a map whose values are WholeMoves leading to unique
      * GameStates from the given state. Extract the values from "all"
      * and append them to "allmoves". */
-    if (!look_only_for_wins)
-      assert(all.map.size() >= 1);
-    if (look_only_for_wins && prune_worse_moves)
-      assert(all.map.size() <= 1);
+    if (!look_only_for_wins) {
+        assert(all.map.size() >= 1);
+    }
+    if (look_only_for_wins && prune_worse_moves) {
+        assert(all.map.size() <= 1);
+    }
 
     for (AllMapT::const_iterator it = all.map.begin(); it != all.map.end(); ++it) {
         allmoves.push_back(it->second);
@@ -327,19 +334,25 @@ static void combine_normal(const WholeMove &m,
              * outside the defender's homeworld, unless there was an
              * overpopulation problem at home. */
             if (where.homeworldOf == defender) {
-                if (all.look_for[RED] && where.playerHasAccessTo(attacker, RED))
-                  combine_one_action(m, RED, 0, i, st, attacker, all);
-                if (all.contained_overpopulations && all.look_for[YELLOW] && where.playerHasAccessTo(attacker, YELLOW))
-                  combine_one_action(m, YELLOW, 0, i, st, attacker, all);
-                if (all.look_for[GREEN] && where.playerHasAccessTo(attacker, GREEN))
-                  combine_one_action(m, GREEN, 0, i, st, attacker, all);
-                if (all.look_for[BLUE] && where.playerHasAccessTo(attacker, BLUE))
-                  combine_one_action(m, BLUE, 0, i, st, attacker, all);
+                if (all.look_for[RED] && where.playerHasAccessTo(attacker, RED)) {
+                    combine_one_action(m, RED, 0, i, st, attacker, all);
+                }
+                if (all.contained_overpopulations && all.look_for[YELLOW] && where.playerHasAccessTo(attacker, YELLOW)) {
+                    combine_one_action(m, YELLOW, 0, i, st, attacker, all);
+                }
+                if (all.look_for[GREEN] && where.playerHasAccessTo(attacker, GREEN)) {
+                    combine_one_action(m, GREEN, 0, i, st, attacker, all);
+                }
+                if (all.look_for[BLUE] && where.playerHasAccessTo(attacker, BLUE)) {
+                    combine_one_action(m, BLUE, 0, i, st, attacker, all);
+                }
             } else {
-                if (all.look_for[YELLOW] && where.playerHasAccessTo(attacker, YELLOW))
-                  combine_one_action(m, YELLOW, 0, i, st, attacker, all);
-                if (all.contained_overpopulations && all.look_for[BLUE] && where.playerHasAccessTo(attacker, BLUE))
-                  combine_one_action(m, BLUE, 0, i, st, attacker, all);
+                if (all.look_for[YELLOW] && where.playerHasAccessTo(attacker, YELLOW)) {
+                    combine_one_action(m, YELLOW, 0, i, st, attacker, all);
+                }
+                if (all.contained_overpopulations && all.look_for[BLUE] && where.playerHasAccessTo(attacker, BLUE)) {
+                    combine_one_action(m, BLUE, 0, i, st, attacker, all);
+                }
             }
         } else {
             for (Color c = RED; c <= BLUE; ++c) {
@@ -350,7 +363,9 @@ static void combine_normal(const WholeMove &m,
         }
 #if !ALLMOVES_USE_EXCEPTIONS
         /* Bail out early if we've already found a win. */
-        if (all.prune_worse_moves && all.found_win) return;
+        if (all.prune_worse_moves && all.found_win) {
+            return;
+        }
 #endif
     }
     /* Now we come to the part where the branching factor really kicks in:
@@ -365,8 +380,9 @@ static void combine_normal(const WholeMove &m,
         const bool last_friendly_ship = (where.homeworldOf == attacker &&
              where.ships[attacker].number() == 1);
         /* We can't sacrifice the very last ship at our own homeworld. */
-        if (last_friendly_ship && where.ships[defender].empty())
-          continue;
+        if (last_friendly_ship && where.ships[defender].empty()) {
+            continue;
+        }
         for (Color c = RED; c <= BLUE; ++c) {
             if (!all.look_for[c]) continue;
             if (last_friendly_ship && c != YELLOW) continue;
@@ -385,7 +401,9 @@ static void combine_normal(const WholeMove &m,
         }
 #if !ALLMOVES_USE_EXCEPTIONS
         /* Bail out early if we've already found a win. */
-        if (all.prune_worse_moves && all.found_win) return;
+        if (all.prune_worse_moves && all.found_win) {
+            return;
+        }
 #endif
     }
     return;
@@ -398,8 +416,9 @@ static void combine_n_actions(const WholeMove &m, Color color, int num_moves,
     /* We could just pass at this point (after sacrificing a ship and
      * taking all but "num_moves" of our available actions). */
     assert(st.homeworldOf(attacker) != NULL);
-    if (color != YELLOW || !st.homeworldOf(attacker)->ships[attacker].empty())
-      finish_combine_one_action(m, color, 0, st, attacker, all);
+    if (color != YELLOW || !st.homeworldOf(attacker)->ships[attacker].empty()) {
+        finish_combine_one_action(m, color, 0, st, attacker, all);
+    }
     /* Or we could take another of our available actions. */
     for (int i=0; i < (int)st.stars.size(); ++i) {
         combine_one_action(m, color, num_moves-1, i, st, attacker, all);
@@ -439,12 +458,14 @@ static void combine_one_red_action(const WholeMove &m,
 
     if (all.win_only) {
         /* Capturing away from the homeworld is pointless. */
-        if (where.homeworldOf != defender)
-          return;
+        if (where.homeworldOf != defender) {
+            return;
+        }
     }
 
-    if (where.ships[attacker].empty())
-      return;
+    if (where.ships[attacker].empty()) {
+        return;
+    }
     const Size maxsize = where.ships[attacker].biggestSize();
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= maxsize; ++s) {
@@ -478,8 +499,9 @@ static void combine_one_yellow_action(const WholeMove &m,
     }
 
     const int num_friendly_ships_here = where.ships[attacker].number();
-    if (num_friendly_ships_here == 0)
-      return;
+    if (num_friendly_ships_here == 0) {
+        return;
+    }
 
     /* But note that we can't move away the last ship from our own homeworld,
      * because as soon as you move the last ship away from a system, the
@@ -509,17 +531,20 @@ static void combine_one_yellow_action(const WholeMove &m,
             (all.contained_overpopulations && where.homeworldOf == attacker &&
              where.containsOverpopulation());
     const bool must_attack_defender = (num_more_moves == 0 && all.win_only && !maybe_need_to_evacuate);
-    if (must_fly_homeward && must_attack_defender)
-      return;
+    if (must_fly_homeward && must_attack_defender) {
+        return;
+    }
 
     /* We could move to another existing star... */
     for (int i=0; i < (int)st.stars.size(); ++i) {
         if (i == staridx) continue;
         const StarSystem &whither = st.stars[i];
-        if (must_fly_homeward && whither.homeworldOf != attacker)
-          continue;
-        if (must_attack_defender && whither.homeworldOf != defender)
-          continue;
+        if (must_fly_homeward && whither.homeworldOf != attacker) {
+            continue;
+        }
+        if (must_attack_defender && whither.homeworldOf != defender) {
+            continue;
+        }
         if (!whither.isAdjacentTo(where)) continue;
         /* Okay, now which ship shall we move there? */
         for (Color c = RED; c <= BLUE; ++c) {
@@ -534,10 +559,12 @@ static void combine_one_yellow_action(const WholeMove &m,
             }
         }
     }
-    if (must_fly_homeward || must_attack_defender)
-      return;
-    if (all.win_only && all.found_win)
-      return;
+    if (must_fly_homeward || must_attack_defender) {
+        return;
+    }
+    if (all.win_only && all.found_win) {
+        return;
+    }
     /* Or we could move to a new star from the stash. */
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
@@ -599,8 +626,9 @@ static void combine_one_blue_action(const WholeMove &m,
         /* It does make sense to trade a ship outside the defender's
          * homeworld, if we need that color to trade at the homeworld.
          * However, it doesn't make sense to do that as the *last* action. */
-        if (num_more_moves == 0 && where.homeworldOf != defender)
-          return;
+        if (num_more_moves == 0 && where.homeworldOf != defender) {
+            return;
+        }
     }
 
     for (Color c = RED; c <= BLUE; ++c) {
@@ -656,8 +684,9 @@ static void find_postcatastrophes(const WholeMove &m,
     for (int i=0; i < (int)st.stars.size(); ++i) {
         const StarSystem &star = st.stars[i];
         for (Color c = RED; c <= BLUE; ++c) {
-            if (star.containsOverpopulation(c))
-              posscats.push_back(PossCat(c, star.name));
+            if (star.containsOverpopulation(c)) {
+                posscats.push_back(PossCat(c, star.name));
+            }
         }
     }
     /* For every combination of these catastrophes... */
@@ -740,8 +769,9 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
          * for fatal overpopulations now. */
         GameState newst = st;
         newst.performAllCatastrophes();
-        if (newst.hasLost(attacker))
-          return;
+        if (newst.hasLost(attacker)) {
+            return;
+        }
     }
 
     if (!is_win && all.win_only) {
@@ -758,8 +788,9 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
 #endif
     } else {
         std::string key = st.toComparableString();
-        if (key == all.original_state)
-          return;
+        if (key == all.original_state) {
+            return;
+        }
         all.map.insert(AllMapT::value_type(key, m));
     }
 }

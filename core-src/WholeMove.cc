@@ -12,7 +12,7 @@
 template <typename T>
 class FreeOnReturn {
     T &ptr;
-  public:
+public:
     FreeOnReturn(T &p): ptr(p) { }
     ~FreeOnReturn() { free(ptr); }
 };
@@ -88,11 +88,13 @@ bool SingleAction::sanitycheck() const
             default: return false;
         }
     }
-    if (where != "" && !StarSystem::is_valid_name(where.c_str()))
-      return false;
+    if (where != "" && !StarSystem::is_valid_name(where.c_str())) {
+        return false;
+    }
     if (kind == MOVE || kind == MOVE_CREATE) {
-        if (whither != "" && !StarSystem::is_valid_name(whither.c_str()))
-          return false;
+        if (whither != "" && !StarSystem::is_valid_name(whither.c_str())) {
+            return false;
+        }
     }
     return true;
 }
@@ -119,8 +121,9 @@ static bool scan_for_multibuild(const char *text, std::vector<SingleAction> &act
     Color c1, c2, c3;
     Size s1, s2, s3;
     const char *where;
-    if (!has(text, "build "))
-      return false;
+    if (!has(text, "build ")) {
+        return false;
+    }
     text += 6;
     const bool got_first = scan_piece(text, c1, s1);
     if (!got_first) return false;
@@ -149,8 +152,9 @@ static bool scan_for_multicapture(const char *text, std::vector<SingleAction> &a
     Color c1, c2, c3;
     Size s1, s2, s3;
     const char *where;
-    if (!has(text, "capture "))
-      return false;
+    if (!has(text, "capture ")) {
+        return false;
+    }
     text += 8;
     const bool got_first = scan_piece(text, c1, s1);
     if (!got_first) return false;
@@ -180,8 +184,9 @@ static bool scan_for_multimove(const char *text, std::vector<SingleAction> &acti
     Size s1, s2, s3;
     std::string where;
     std::string whither;
-    if (!has(text, "move "))
-      return false;
+    if (!has(text, "move ")) {
+        return false;
+    }
     text += 5;
     const bool got_first = scan_piece(text, c1, s1);
     if (!got_first) return false;
@@ -267,8 +272,11 @@ bool SingleAction::scan(const char *text)
         if (has(text, "sac ")) text += 4;
         else text += 10;
         if (scan_piece(text, this->color, this->size)) {
-            if (has(text, " ")) ++text;
-            else if (*text != '\0') return false;
+            if (has(text, " ")) {
+                ++text;
+            } else if (*text != '\0') {
+                return false;
+            }
         }
         if (has(text, "at ")) {
             text += 3;
@@ -342,12 +350,14 @@ bool SingleAction::scan(const char *text)
         this->kind = BUILD;
         text += 6;
         if (scan_piece(text, this->color, this->size)) {
-            if (*text == ' ') ++text;
-            else if (*text == '\0') {
+            if (*text == ' ') {
+                ++text;
+            } else if (*text == '\0') {
                 this->where = "";
                 return true;
+            } else {
+                return false;
             }
-            else return false;
         } else {
             this->color = UNKNOWN_COLOR;
             this->size = UNKNOWN_SIZE;
@@ -371,8 +381,11 @@ bool SingleAction::scan(const char *text)
         this->kind = CONVERT;
         text += ((*text == 's') ? 5 : 8);
         if (scan_piece(text, this->color, this->size)) {
-            if (*text == ' ') ++text;
-            else return false;
+            if (*text == ' ') {
+                ++text;
+            } else {
+                return false;
+            }
         }
         bool got_where_already = false;
         if (has(text, "at ")) {
@@ -383,17 +396,22 @@ bool SingleAction::scan(const char *text)
             where = just_the_where;
             if (!StarSystem::is_valid_name(this->where.c_str())) return false;
             text = endwhere;
-            if (*text == ' ') ++text;
-            else return false;
+            if (*text == ' ') {
+                ++text;
+            } else {
+                return false;
+            }
             got_where_already = true;
         }
         if (!has(text, "to ")) return false;
         text += 3;
         if (!scan_piece(text, this->newcolor, this->newsize)) return false;
-        if (this->size == UNKNOWN_SIZE)
-          this->size = this->newsize;
-        if (this->newsize == UNKNOWN_SIZE)
-          this->newsize = this->size;
+        if (this->size == UNKNOWN_SIZE) {
+            this->size = this->newsize;
+        }
+        if (this->newsize == UNKNOWN_SIZE) {
+            this->newsize = this->size;
+        }
         if (this->newsize != this->size) return false;
         if (got_where_already) {
             assert(!this->where.empty());
@@ -461,7 +479,9 @@ bool WholeMove::sanitycheck() const
         if (!actions[i].sanitycheck()) return false;
         ++i;
     }
-    if (i == n) return true;
+    if (i == n) {
+        return true;
+    }
 
     if (actions[i].kind == SACRIFICE) {
         if (!actions[i].sanitycheck()) return false;
@@ -494,7 +514,9 @@ bool WholeMove::sanitycheck() const
         ++i;
     }
     /* The move may end with a sequence of catastrophes. */
-    while (i < n && actions[i].kind == CATASTROPHE) ++i;
+    while (i < n && actions[i].kind == CATASTROPHE) {
+        ++i;
+    }
     return (i == n);
 }
 

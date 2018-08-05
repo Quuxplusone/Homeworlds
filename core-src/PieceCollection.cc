@@ -28,8 +28,9 @@ bool PieceCollection::contains(const PieceCollection &rhs) const
 {
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
-            if (this->pieces[c][s] < rhs.pieces[c][s])
-              return false;
+            if (this->pieces[c][s] < rhs.pieces[c][s]) {
+                return false;
+            }
         }
     }
     return true;
@@ -39,8 +40,9 @@ bool PieceCollection::operator == (const PieceCollection &rhs) const
 {
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
-            if (this->pieces[c][s] != rhs.pieces[c][s])
-              return false;
+            if (this->pieces[c][s] != rhs.pieces[c][s]) {
+                return false;
+            }
         }
     }
     return true;
@@ -126,4 +128,3 @@ bool PieceCollection::scan(const char *text)
     }
     return true;
 }
-

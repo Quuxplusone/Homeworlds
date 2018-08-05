@@ -9,7 +9,7 @@
 class PieceCollection {
     signed char pieces[4][3];
 
-  public:
+public:
     enum { MAXSTRLEN = 24*(NUMPLAYERS+1) };
 
     PieceCollection();
@@ -34,8 +34,9 @@ class PieceCollection {
     Size biggestSizeOf(Color c) const { return numberOf(c, LARGE)? LARGE: numberOf(c, MEDIUM)? MEDIUM: SMALL; }
     bool isAdjacentTo(const PieceCollection &that) const {
         for (Size s = SMALL; s <= LARGE; ++s) {
-            if (this->numberOf(s) != 0 && that.numberOf(s) != 0)
-              return false;
+            if (this->numberOf(s) != 0 && that.numberOf(s) != 0) {
+                return false;
+            }
         }
         return true;
     }
@@ -58,13 +59,13 @@ class PieceCollection {
 class GameState;
 
 class StarSystem {
-  public:
+public:
     std::string name;
     PieceCollection star;
     PieceCollection ships[NUMPLAYERS];
     int homeworldOf;
 
-  public:
+public:
     /* Each system must have a valid name; a name is valid iff it is composed
      * of valid characters. Valid characters are alphanumeric plus some
      * punctuation, but whitespace is never allowed in system names. */
@@ -72,7 +73,7 @@ class StarSystem {
     static bool is_valid_name_char(char ch);
     static const char *make_random_name(const GameState *st);
 
-  public:
+public:
     enum { MAXSTRLEN = 2 + 24*(NUMPLAYERS+1) };
 
     StarSystem(): homeworldOf(-1) { }
@@ -85,16 +86,18 @@ class StarSystem {
     bool containsOverpopulation(Color c) const { return (this->numberOf(c) >= 4); }
     bool containsOverpopulation() const;
     void performCatastrophe(Color c, PieceCollection &stash);
-    bool playerHasAccessTo(int player, Color c) const
-    { return (star.numberOf(c) > 0) || (ships[player].numberOf(c) > 0); }
+    bool playerHasAccessTo(int player, Color c) const {
+        return (star.numberOf(c) > 0) || (ships[player].numberOf(c) > 0);
+    }
 
     bool isAdjacentTo(const StarSystem &that) const {
         return this->star.isAdjacentTo(that.star);
     }
     PieceCollection pieceCollection() const {
         PieceCollection pc = star;
-        for (int i=0; i < NUMPLAYERS; ++i)
-          pc += ships[i];
+        for (int i=0; i < NUMPLAYERS; ++i) {
+            pc += ships[i];
+        }
         return pc;
     }
 
@@ -108,11 +111,11 @@ PieceCollection& operator += (PieceCollection &, const StarSystem &);
 PieceCollection& operator -= (PieceCollection &, const StarSystem &);
 
 class GameState {
-  public:
+public:
     std::vector<StarSystem> stars;
     PieceCollection stash;
 
-  public:
+public:
     const StarSystem *systemNamed(const char *name) const;
     StarSystem *systemNamed(const char *name);
     const StarSystem *homeworldOf(int player) const;

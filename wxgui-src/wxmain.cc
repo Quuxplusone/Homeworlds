@@ -140,22 +140,22 @@ bool GameApp::OnInit()
     wxMenu *editmenu = new wxMenu;
     wxMenu *helpmenu = new wxMenu;
     menubar->Append(filemenu, wxT("&File"));
-      filemenu->Append(wxID_NEW, wxT("&New Game"), wxT("Starts a new game"));
-      filemenu->Append(wxID_OPEN, wxT("&Open Game"), wxT("Opens a saved game"));
-      filemenu->Append(wxID_SAVEAS, wxT("&Save Game"), wxT("Saves a transcript of the current game to a text file"));
-      filemenu->AppendSeparator();
-      filemenu->Append(wxID_EXIT, wxT("&Quit"), wxT("Quits the program"));
+        filemenu->Append(wxID_NEW, wxT("&New Game"), wxT("Starts a new game"));
+        filemenu->Append(wxID_OPEN, wxT("&Open Game"), wxT("Opens a saved game"));
+        filemenu->Append(wxID_SAVEAS, wxT("&Save Game"), wxT("Saves a transcript of the current game to a text file"));
+        filemenu->AppendSeparator();
+        filemenu->Append(wxID_EXIT, wxT("&Quit"), wxT("Quits the program"));
     menubar->Append(editmenu, wxT("&Edit"));
-      editmenu->Append(wxID_DONE_MOVE, wxT("&Done\tENTER"), wxT("Signals that you're ready to submit the current move"));
-      editmenu->Append(wxID_CLEAR_MOVE, wxT("&Reset\tR"), wxT("Reset the board position to the way it was before you started this move"));
-      editmenu->AppendSeparator();
-      editmenu->Append(wxID_AI_MOVE, wxT("&AI Move\tA"), wxT("Let the AI player make a move"));
-      editmenu->AppendSeparator();
-      editmenu->Append(wxID_UNDO, wxT("&Undo Last Move"), wxT("Undoes the last whole move"));
-      editmenu->Append(wxID_REDO, wxT("&Redo Move"), wxT("Redoes the last whole move"));
+        editmenu->Append(wxID_DONE_MOVE, wxT("&Done\tENTER"), wxT("Signals that you're ready to submit the current move"));
+        editmenu->Append(wxID_CLEAR_MOVE, wxT("&Reset\tR"), wxT("Reset the board position to the way it was before you started this move"));
+        editmenu->AppendSeparator();
+        editmenu->Append(wxID_AI_MOVE, wxT("&AI Move\tA"), wxT("Let the AI player make a move"));
+        editmenu->AppendSeparator();
+        editmenu->Append(wxID_UNDO, wxT("&Undo Last Move"), wxT("Undoes the last whole move"));
+        editmenu->Append(wxID_REDO, wxT("&Redo Move"), wxT("Redoes the last whole move"));
     menubar->Append(helpmenu, wxT("&Help"));
-      helpmenu->Append(wxID_ABOUT, wxT("&About..."), wxT("Displays a short copyright message"));
-      helpmenu->Append(wxID_HELP, wxT("&Help\tF1"), wxT("Help about the game and how to play"));
+        helpmenu->Append(wxID_ABOUT, wxT("&About..."), wxT("Displays a short copyright message"));
+        helpmenu->Append(wxID_HELP, wxT("&Help\tF1"), wxT("Help about the game and how to play"));
     mainwindow->SetMenuBar(menubar);
     mainwindow->CreateStatusBar();
 
@@ -239,8 +239,9 @@ void GameApp::load_game(wxCommandEvent &)
 {
     wxFileDialog fdg(this->mainwindow);
     fdg.SetWindowStyleFlag(wxFD_OPEN | wxFD_FILE_MUST_EXIST);
-    if (fdg.ShowModal() == wxID_CANCEL)
+    if (fdg.ShowModal() == wxID_CANCEL) {
         return;
+    }
     wxString fullname = fdg.GetPath();
     wxString basename = fdg.GetFilename();
     wxFFile in(fullname, wxT("r"));
@@ -280,8 +281,9 @@ void GameApp::load_game(wxCommandEvent &)
     char *moveline = NULL;
     while (1) {
         char *result = fgetline_113(&moveline, in.fp());
-        if (result == NULL)
+        if (result == NULL) {
             break;
+        }
         assert(result == moveline);
         if (moveline[0] == '#' || moveline[0] == '\0') {
             /* This is a comment; ignore it. */
@@ -342,12 +344,14 @@ void GameApp::done_starting_position()
     assert(gp != NULL);
     SystemWidget *my_homeworld = (global_attacker == 0) ? gp->attacker_homeworld : gp->defender_homeworld;
     assert(my_homeworld != NULL);
-    if (my_homeworld->star == NULL)
-      return do_error("You haven't selected a star for your homeworld system!");
+    if (my_homeworld->star == NULL) {
+        return do_error("You haven't selected a star for your homeworld system!");
+    }
     wxSizer *gs = my_homeworld->GetSizer();
     wxSizerItem *it = gs->GetItem(1);
-    if (it == NULL)
-      return do_error("You haven't selected a ship for your homeworld system!");
+    if (it == NULL) {
+        return do_error("You haven't selected a ship for your homeworld system!");
+    }
     assert(it->GetWindow() != NULL);
     assert(((PieceWidget*)it->GetWindow())->whose == global_attacker);
     if (gs->GetItem(2)) {
@@ -357,8 +361,9 @@ void GameApp::done_starting_position()
                 wxT("Your homeworld system should contain only one starting ship."
                         " Do you want to continue with this easier setup anyway?"),
                 wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
-        if (mdg.ShowModal() != wxID_YES)
+        if (mdg.ShowModal() != wxID_YES) {
             return;
+        }
     }
     if (gp->num_systems != 0) {
         /* Allow the user to set up more interesting positions, but warn
@@ -368,8 +373,9 @@ void GameApp::done_starting_position()
                         " besides the two homeworlds."
                         " Do you want to continue with this setup anyway?"),
                 wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
-        if (mdg.ShowModal() != wxID_YES)
+        if (mdg.ShowModal() != wxID_YES) {
             return;
+        }
     }
 
     if (global_attacker == 0) {
@@ -399,23 +405,28 @@ static bool reassign_a_name_cleverly(const GameState &st, WholeMove &m,
      * that system according to whatever its name is in "target". */
     for (int i=0; i < n; ++i) {
         const StarSystem &ss = stplusm.stars[i];
-        if (target.systemNamed(ss.name.c_str()) != NULL)
-          continue;
+        if (target.systemNamed(ss.name.c_str()) != NULL) {
+            continue;
+        }
         /* Find a system in target that looks just like this one,
          * and which doesn't appear by name in st. */
         for (int j=0; j < n; ++j) {
             const StarSystem &targetss = target.stars[j];
-            if (stplusm.systemNamed(targetss.name.c_str()))
-              continue;
-            if (targetss.toComparableString() != ss.toComparableString())
-              continue;
+            if (stplusm.systemNamed(targetss.name.c_str())) {
+                continue;
+            }
+            if (targetss.toComparableString() != ss.toComparableString()) {
+                continue;
+            }
             /* Okay, we can map ss.name to targetss.name. */
             printf("mapping %s to %s\n", ss.name.c_str(), targetss.name.c_str());
             for (int k=0; k < (int)m.actions.size(); ++k) {
-                if (m.actions[k].where == ss.name)
-                  m.actions[k].where = targetss.name;
-                if (m.actions[k].whither == ss.name)
-                  m.actions[k].whither = targetss.name;
+                if (m.actions[k].where == ss.name) {
+                    m.actions[k].where = targetss.name;
+                }
+                if (m.actions[k].whither == ss.name) {
+                    m.actions[k].whither = targetss.name;
+                }
             }
             return true;
         }
@@ -474,8 +485,9 @@ void GameApp::done_move(wxCommandEvent &)
      * successful_move will wind up with the exact same names that each
      * SystemWidget wound up with. */
     for (int i=0; i < 4; ++i) {
-        if (!reassign_a_name_cleverly(oldstate, successful_move, targetstate))
+        if (!reassign_a_name_cleverly(oldstate, successful_move, targetstate)) {
             break;
+        }
         /* After reassigning three names, we should really be finished.
          * If we get here a fourth time, assert failure; something is wrong. */
         assert(i != 3);
@@ -519,8 +531,9 @@ static bool setup_ai(GameState &st, StarSystem &hw)
             /* Make sure the homeworlds are as far apart as possible.
              * This condition disallows (r1y1, g2b3) and (r1y2, g1b2)
              * while still allowing (r1y1, g1b2) and (r1y2, g1b3). */
-            if (opponent_hw->star.numberOf(s1) == opponent_hw->star.numberOf(s2))
-              continue;
+            if (opponent_hw->star.numberOf(s1) == opponent_hw->star.numberOf(s2)) {
+                continue;
+            }
         }
         /* The initial ship should be big and non-red. If the star doesn't have green
          * already, then the initial ship must be green. Otherwise, the ship must be
@@ -528,8 +541,9 @@ static bool setup_ai(GameState &st, StarSystem &hw)
         const Color shipc = (c2 != GREEN) ? GREEN : (c1 == YELLOW) ? BLUE : YELLOW;
         hw.ships[attacker].insert(shipc, LARGE);
         /* If this configuration isn't actually possible, rinse and repeat. */
-        if (!st.stash.contains(hw.pieceCollection()))
-          continue;
+        if (!st.stash.contains(hw.pieceCollection())) {
+            continue;
+        }
         /* This configuration is okay. */
         st.stash -= hw.star;
         st.stash -= hw.ships[attacker];

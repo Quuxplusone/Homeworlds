@@ -16,8 +16,9 @@ static const char *default_names[21] = {
 void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names[21])
 {
     int new_name_index = 0;
-    if (names == NULL)
-      names = default_names;
+    if (names == NULL) {
+        names = default_names;
+    }
     for (int i=0; i < (int)move.actions.size(); ++i) {
         SingleAction &action = move.actions[i];
         if (action.kind != MOVE_CREATE) continue;
@@ -40,10 +41,12 @@ void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names
         const std::string &old_name = action.whither;
         for (int j=i+1; j < (int)move.actions.size(); ++j) {
             SingleAction &actjon = move.actions[j];
-            if (actjon.where == old_name)
-              move.actions[j].where = new_name;
-            if (actjon.kind == MOVE && actjon.whither == old_name)
-              actjon.whither = new_name;
+            if (actjon.where == old_name) {
+                move.actions[j].where = new_name;
+            }
+            if (actjon.kind == MOVE && actjon.whither == old_name) {
+                actjon.whither = new_name;
+            }
         }
         action.whither = new_name;
     }
@@ -53,8 +56,9 @@ void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names
 void assignPlanetNames(GameState &st, const char *names[21])
 {
     int new_name_index = 0;
-    if (names == NULL)
-      names = default_names;
+    if (names == NULL) {
+        names = default_names;
+    }
     for (int i=0; i < (int)st.stars.size(); ++i) {
         if (st.stars[i].name != "") continue;
         /* We need to pick a new name for this star system. */

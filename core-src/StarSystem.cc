@@ -36,8 +36,9 @@ bool StarSystem::is_valid_name_char(char ch)
 bool StarSystem::is_valid_name(const char *name)
 {
     for (int i=0; name[i] != '\0'; ++i) {
-        if (!StarSystem::is_valid_name_char(name[i]))
-          return false;
+        if (!StarSystem::is_valid_name_char(name[i])) {
+            return false;
+        }
     }
     return true;
 }
@@ -45,8 +46,9 @@ bool StarSystem::is_valid_name(const char *name)
 std::string StarSystem::toString() const
 {
     std::string result = name;
-    if (name != "")
-      result += ' ';
+    if (name != "") {
+        result += ' ';
+    }
     result += '(';
     if (homeworldOf >= 0) {
         result += mprintf("%d, ", homeworldOf);
@@ -78,21 +80,23 @@ bool StarSystem::scan(const char *text)
     int textlen = unwhited_text.length();
     int j = 0;
     for (int i=0; i < textlen; ++i) {
-        if (!isspace(text[i]))
-          unwhited_text[j++] = text[i];
+        if (!isspace(text[i])) {
+            unwhited_text[j++] = text[i];
+        }
     }
     unwhited_text.resize(j);
     text = unwhited_text.c_str();
     /* We now have a copy of "text" with all the whitespace removed. */
     name = "";
     star.clear();
-    for (int i=0; i < NUMPLAYERS; ++i)
-      ships[i].clear();
+    for (int i=0; i < NUMPLAYERS; ++i) {
+        ships[i].clear();
+    }
 
     const char *paren = strchr(text, '(');
-    if (paren == NULL)
-      return false;
-    if (paren == text) {
+    if (paren == NULL) {
+        return false;
+    } else if (paren == text) {
         name = "";
     } else {
         /* Get the name of this star system. */
@@ -100,8 +104,9 @@ bool StarSystem::scan(const char *text)
         assert(text[namelength] == '(');
         assert(namelength > 0);
         name.assign(text, namelength);
-        if (!is_valid_name(name.c_str()))
-          return false;
+        if (!is_valid_name(name.c_str())) {
+            return false;
+        }
     }
     /* Look at the character following '('. If it's a digit, we're scanning
      * some player's homeworld. Otherwise, we're scanning a non-homeworld
@@ -123,8 +128,9 @@ bool StarSystem::scan(const char *text)
     paren = strchr(text, ')');
     if (paren == NULL) return false;
     std::string star_pieces(text, paren-text);
-    if (!star.scan(star_pieces.c_str()))
-      return false;
+    if (!star.scan(star_pieces.c_str())) {
+        return false;
+    }
 
     /* After the ')' we get into the pieces representing the players' ships.
      * The ship lists are separated by '-'. */
@@ -137,11 +143,13 @@ bool StarSystem::scan(const char *text)
          * the piecelist is empty, we just skip the call to scan(). */
         if (dash != text) {
             std::string ship_pieces(text, dash-text);
-            if (!ships[i].scan(ship_pieces.c_str()))
-              return false;
+            if (!ships[i].scan(ship_pieces.c_str())) {
+                return false;
+            }
         }
-        if (i != NUMPLAYERS-1)
-          text = dash+1;
+        if (i != NUMPLAYERS-1) {
+            text = dash+1;
+        }
     }
     return true;
 }
@@ -149,23 +157,28 @@ bool StarSystem::scan(const char *text)
 int StarSystem::numberOfShips() const
 {
     int count = 0;
-    for (int i=0; i < NUMPLAYERS; ++i)
-      count += ships[i].number();
+    for (int i=0; i < NUMPLAYERS; ++i) {
+        count += ships[i].number();
+    }
     return count;
 }
 
 bool StarSystem::hasNoShips() const
 {
-    for (int i=0; i < NUMPLAYERS; ++i)
-      if (!ships[i].empty()) return false;
+    for (int i=0; i < NUMPLAYERS; ++i) {
+        if (!ships[i].empty()) {
+            return false;
+        }
+    }
     return true;
 }
 
 int StarSystem::numberOf(Color c) const
 {
     int count = star.numberOf(c);
-    for (int i=0; i < NUMPLAYERS; ++i)
-      count += ships[i].numberOf(c);
+    for (int i=0; i < NUMPLAYERS; ++i) {
+        count += ships[i].numberOf(c);
+    }
     return count;
 }
 
@@ -173,8 +186,9 @@ bool StarSystem::canCatastropheStar() const
 {
     for (Color c = RED; c <= BLUE; ++c) {
         if (star.numberOf(c) == 0) continue;
-        if (!this->containsOverpopulation(c))
-          return false;
+        if (!this->containsOverpopulation(c)) {
+            return false;
+        }
     }
     return true;
 }
@@ -210,12 +224,14 @@ void StarSystem::performCatastrophe(Color c, PieceCollection &stash)
     /* Cull the ships of color "c". */
     for (Size s = SMALL; s <= LARGE; ++s) {
         int count = 0;
-        for (int i=0; i < NUMPLAYERS; ++i)
-          count += ships[i].numberOf(c,s);
+        for (int i=0; i < NUMPLAYERS; ++i) {
+            count += ships[i].numberOf(c,s);
+        }
         stash.insert(c, s, count);
     }
-    for (int i=0; i < NUMPLAYERS; ++i)
-      ships[i].removeAll(c);
+    for (int i=0; i < NUMPLAYERS; ++i) {
+        ships[i].removeAll(c);
+    }
     if (numberOfShips() == 0) {
         /* If the last ship has been destroyed, then destroy the star. */
         stash += star;
@@ -227,15 +243,17 @@ void StarSystem::performCatastrophe(Color c, PieceCollection &stash)
 PieceCollection& operator += (PieceCollection &lhs, const StarSystem &rhs)
 {
     lhs += rhs.star;
-    for (int i=0; i < NUMPLAYERS; ++i)
-      lhs += rhs.ships[i];
+    for (int i=0; i < NUMPLAYERS; ++i) {
+        lhs += rhs.ships[i];
+    }
     return lhs;
 }
 
 PieceCollection& operator -= (PieceCollection &lhs, const StarSystem &rhs)
 {
     lhs -= rhs.star;
-    for (int i=0; i < NUMPLAYERS; ++i)
-      lhs -= rhs.ships[i];
+    for (int i=0; i < NUMPLAYERS; ++i) {
+        lhs -= rhs.ships[i];
+    }
     return lhs;
 }

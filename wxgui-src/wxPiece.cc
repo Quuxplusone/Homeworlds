@@ -54,8 +54,9 @@ static int getoffset(int w, Size s)
 static void drawsquare(wxPaintDC &dc, int w, int h, Size s, Color c, bool justbox)
 {
     setcolor(dc, c);
-    if (justbox)
-      dc.SetPen(wxPen(wxColour(0,0,0)));
+    if (justbox) {
+        dc.SetPen(wxPen(wxColour(0,0,0)));
+    }
     wxPoint points[4];
     int offset = getoffset(w, s);
     points[0] = wxPoint(offset, offset);
@@ -126,7 +127,8 @@ void PieceWidget::OnPaint(wxPaintEvent &)
                 points[1] = wxPoint(3*w/4, 0);
                 points[2] = wxPoint(w/4, 0);
                 break;
-            default: assert(false);
+            default:
+                assert(false);
         }
     } else {
         assert(whose == 0);
@@ -147,7 +149,8 @@ void PieceWidget::OnPaint(wxPaintEvent &)
                 points[1] = wxPoint(3*w/4, h);
                 points[2] = wxPoint(w/4, h);
                 break;
-            default: assert(false);
+            default:
+                assert(false);
         }
     }
     setcolor(dc, this->piece_color);

@@ -39,8 +39,9 @@ class AlphaBeta {
     }
     // Return a high Value if s1's attacker wants to move to s2.
     Value evaluate2(const State &s1, const State &s2) {
-        if (findattacker(s1) != findattacker(s2))
-          return evaluate(s2);
+        if (findattacker(s1) != findattacker(s2)) {
+            return evaluate(s2);
+        }
         return -evaluate(s2);
     }
 
@@ -122,13 +123,14 @@ class AlphaBeta {
                 printf("st=??\n");
             } else {
                 printf("uch=%d, attacker=%d", unreported_children, attacker);
-                if (hasbestvalue)
-                  printf(": bestmove is %c (value=%d)\n", bestmove.letter, bestvalue);
-                else
-                  printf(": has no bestmove yet\n", parent);
+                if (hasbestvalue) {
+                    printf(": bestmove is %c (value=%d)\n", bestmove.letter, bestvalue);
+                } else {
+                    printf(": has no bestmove yet\n", parent);
+                }
             }
         }
-#endif /* 0 */
+#endif /* 1 */
     };
 };
 
@@ -143,16 +145,18 @@ bool AlphaBeta<State,Move,Value>::depth_first(const State &st, int ply,
      * This is exactly correct in the case where the game is actually over
      * (see below), and coincidentally it turns out to be the right thing
      * to do when we hit the ply limit as well. */
-    if (ply == 0)
-      return false;
+    if (ply == 0) {
+        return false;
+    }
     const int attacker = this->findattacker(st);
     std::vector<Move> allmoves;
     this->findmoves(st, allmoves);
     /* If the attacker has no possible moves (not even a move corresponding
      * to "pass", if this game allows players to pass), then the game is
      * over. Return false, meaning "game over", as explained above. */
-    if (allmoves.empty())
-      return false;
+    if (allmoves.empty()) {
+        return false;
+    }
     /* Otherwise, the attacker has some possible moves, and we're going to
      * look more than one ply deep.  The best move in these cases is the move
      * which the attacker is happiest to defend --- i.e., the move where if
@@ -220,16 +224,18 @@ bool AlphaBeta<State,Move,Value>::depth_first_alpha_beta(
      * This is exactly correct in the case where the game is actually over
      * (see below), and coincidentally it turns out to be the right thing
      * to do when we hit the ply limit as well. */
-    if (ply == 0)
-      return false;
+    if (ply == 0) {
+        return false;
+    }
     const int attacker = this->findattacker(st);
     std::vector<Move> allmoves;
     this->findmoves(st, allmoves);
     /* If the attacker has no possible moves (not even a move corresponding
      * to "pass", if this game allows players to pass), then the game is
      * over. Return false, meaning "game over", as explained above. */
-    if (allmoves.empty())
-      return false;
+    if (allmoves.empty()) {
+        return false;
+    }
     /* Otherwise, the attacker has some possible moves, and we're going to
      * look more than one ply deep.  The best move in these cases is the move
      * which the attacker is happiest to defend --- i.e., the move where if
@@ -296,8 +302,9 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
                                                 Move &bestmove, Value &bestvalue)
 {
     assert(maxnodes >= 0);
-    if (maxnodes == 0)
-      return false;
+    if (maxnodes == 0) {
+        return false;
+    }
 
     std::queue<BFRecord *> Q;
 
@@ -305,8 +312,9 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
     std::vector<Move> allmoves;
     this->findmoves(st, allmoves);
     /* If the attacker has no moves, return false. */
-    if (allmoves.empty())
+    if (allmoves.empty()) {
         return false;
+    }
 
     /* Otherwise, initialize the queue by pushing action records for each of
      * the attacker's possible moves. Link them all to "return_record", which
@@ -361,10 +369,11 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
                 assert(record->hasbestvalue);
 
                 Value value_to_parent;
-                if (record->attacker != record->parent->attacker)
-                  value_to_parent = -record->bestvalue;
-                else
-                  value_to_parent = record->bestvalue;
+                if (record->attacker != record->parent->attacker) {
+                    value_to_parent = -record->bestvalue;
+                } else {
+                    value_to_parent = record->bestvalue;
+                }
                 if (!record->parent->hasbestvalue || value_to_parent > record->parent->bestvalue) {
                     record->parent->hasbestvalue = true;
                     record->parent->bestvalue = value_to_parent;
@@ -398,10 +407,11 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
       easy_evaluate:
             Value value_to_me = this->evaluate2(record->st, newstate);
             Value value_to_parent;
-            if (this->findattacker(record->st) != record->parent->attacker)
-              value_to_parent = -value_to_me;
-            else
-              value_to_parent = value_to_me;
+            if (this->findattacker(record->st) != record->parent->attacker) {
+                value_to_parent = -value_to_me;
+            } else {
+                value_to_parent = value_to_me;
+            }
 
             if (!record->parent->hasbestvalue || value_to_parent > record->parent->bestvalue) {
                 record->parent->hasbestvalue = true;

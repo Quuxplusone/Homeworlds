@@ -80,8 +80,9 @@ static int heuristic_catastrophe_penalty_yellow(const GameState &st,
                 assert(medmoved <= num_yellow_ships[MEDIUM]);
                 if (medmoved == num_yellow_ships[MEDIUM]) {
                     sacced = LARGE;
-                    if (bigmoved == num_yellow_ships[LARGE])
-                      goto failed_alpha;
+                    if (bigmoved == num_yellow_ships[LARGE]) {
+                        goto failed_alpha;
+                    }
                 }
             }
             int penalty = base_cost + shipcost[sacced]
@@ -107,8 +108,9 @@ static int heuristic_catastrophe_penalty_yellow(const GameState &st,
             const int bigmoved = bigmoved1 + bigmoved2;
             if (c == YELLOW) {
                 assert(bigmoved <= num_yellow_ships[LARGE]);
-                if (bigmoved == num_yellow_ships[LARGE])
-                  goto failed_beta;
+                if (bigmoved == num_yellow_ships[LARGE]) {
+                    goto failed_beta;
+                }
             }
             int penalty = base_cost + shipcost[LARGE]
                         + shipcost[LARGE]*bigmoved
@@ -131,8 +133,9 @@ static int heuristic_catastrophe_penalty_yellow(const GameState &st,
             sacced = MEDIUM;
             if (num_yellow_ships[MEDIUM] == (c==YELLOW && medmoved ? 1 : 0)) {
                 sacced = LARGE;
-                if (num_yellow_ships[LARGE] == (c==YELLOW && bigmoved ? 1 : 0))
-                  goto failed_gamma;
+                if (num_yellow_ships[LARGE] == (c==YELLOW && bigmoved ? 1 : 0)) {
+                    goto failed_gamma;
+                }
             }
         }
         int penalty = base_cost + shipcost[sacced]
@@ -151,8 +154,9 @@ static int heuristic_catastrophe_penalty_yellow(const GameState &st,
         Size sacced = MEDIUM;
         if (num_yellow_ships[MEDIUM] == (c==YELLOW && medmoved ? 1 : 0)) {
             sacced = LARGE;
-            if (num_yellow_ships[LARGE] == (c==YELLOW && bigmoved ? 1 : 0))
-              goto failed_epsilon;
+            if (num_yellow_ships[LARGE] == (c==YELLOW && bigmoved ? 1 : 0)) {
+                goto failed_epsilon;
+            }
         }
         int penalty = base_cost + shipcost[sacced]
                     + shipcost[LARGE]*bigmoved
@@ -167,8 +171,9 @@ static int heuristic_catastrophe_penalty_yellow(const GameState &st,
         int medmoved = std::min(1-smallmoved, num_ships_ats[3][MEDIUM]);
         int bigmoved = std::min(1-smallmoved-medmoved, num_ships_ats[3][LARGE]);
         assert(smallmoved + medmoved + bigmoved == 1);
-        if (c == YELLOW && num_yellow_ships[LARGE] == num_ships_ats[3][LARGE])
-          goto failed_eta;
+        if (c == YELLOW && num_yellow_ships[LARGE] == num_ships_ats[3][LARGE]) {
+            goto failed_eta;
+        }
         int penalty = base_cost + shipcost[LARGE]
                     + shipcost[LARGE]*bigmoved
                     + shipcost[MEDIUM]*medmoved
@@ -232,22 +237,25 @@ static int heuristic_catastrophe_penalty(const GameState &st,
                 here.playerHasAccessTo(defender, GREEN)) {
             /* The defender can just build a new ship here. */
             const int penalty = base_cost;
-            if (penalty < worst_penalty_so_far)
-              worst_penalty_so_far = penalty;
+            if (penalty < worst_penalty_so_far) {
+                worst_penalty_so_far = penalty;
+            }
         } else {
             for (int i=0; i < (int)st.stars.size(); ++i) {
                 const StarSystem &star = st.stars[i];
                 if (!star.isAdjacentTo(here)) continue;
                 if (!star.playerHasAccessTo(defender, YELLOW)) continue;
                 if (star.ships[defender].numberOf(c) == 0) continue;
-                if (star.homeworldOf == defender && star.ships[defender].number() == 1)
-                  continue;
+                if (star.homeworldOf == defender && star.ships[defender].number() == 1) {
+                    continue;
+                }
                 /* The defender could move a ship from "star" to "here" for free,
                  * thus catastrophing "c" at "here". How much would it hurt him?
                  * He'd lose the ship he moved, plus the base cost. */
                 const int penalty = base_cost + shipcost[star.ships[defender].smallestSizeOf(c)];
-                if (penalty < worst_penalty_so_far)
-                  worst_penalty_so_far = penalty;
+                if (penalty < worst_penalty_so_far) {
+                    worst_penalty_so_far = penalty;
+                }
             }
         }
     }
@@ -267,11 +275,13 @@ static int heuristic_catastrophe_penalty(const GameState &st,
                 const StarSystem &star = st.stars[i];
                 if (&star == &here && c == GREEN) continue;
                 if (star.ships[defender].numberOf(GREEN,s) == 0) continue;
-                if (star.homeworldOf == defender && star.ships[defender].number() == 1)
-                  continue;
+                if (star.homeworldOf == defender && star.ships[defender].number() == 1) {
+                    continue;
+                }
                 const int penalty = base_cost + shipcost[s];
-                if (penalty < worst_penalty_so_far)
-                  worst_penalty_so_far = penalty;
+                if (penalty < worst_penalty_so_far) {
+                    worst_penalty_so_far = penalty;
+                }
                 goto done_green;
             }
         }
@@ -288,13 +298,16 @@ static int heuristic_catastrophe_penalty(const GameState &st,
             for (int i=0; i < (int)st.stars.size(); ++i) {
                 const StarSystem &star = st.stars[i];
                 if (star.ships[defender].numberOf(BLUE,s) == 0) continue;
-                if (star.homeworldOf == defender && star.ships[defender].number() == 1)
-                  continue;
-                if (&star == &here && c == BLUE && here.ships[defender].number() == num_needed)
-                  continue;
+                if (star.homeworldOf == defender && star.ships[defender].number() == 1) {
+                    continue;
+                }
+                if (&star == &here && c == BLUE && here.ships[defender].number() == num_needed) {
+                    continue;
+                }
                 const int penalty = base_cost + shipcost[s];
-                if (penalty < worst_penalty_so_far)
-                  worst_penalty_so_far = penalty;
+                if (penalty < worst_penalty_so_far) {
+                    worst_penalty_so_far = penalty;
+                }
                 goto done_blue;
             }
         }
@@ -303,7 +316,8 @@ static int heuristic_catastrophe_penalty(const GameState &st,
     /* Finally, the case that we're usually worried about: the big yellow
      * sacrifice (a.k.a. the "Bluebird Mistake"). */
     worst_penalty_so_far = heuristic_catastrophe_penalty_yellow(
-            st, here, defender, c, base_cost, worst_penalty_so_far);
+        st, here, defender, c, base_cost, worst_penalty_so_far
+    );
     /* Done! */
     assert(worst_penalty_so_far <= 0);
     return worst_penalty_so_far;
@@ -332,14 +346,17 @@ int ai_static_evaluation(const GameState &state_before_move,
     for (int player=0; player <= 1; ++player) {
         for (int i=0; i < (int)st.stars.size(); ++i) {
             const StarSystem &star = st.stars[i];
-            if (!has_gun[player] && star.ships[player].numberOf(RED) > 0)
-              has_gun[player] = true;
-            if (!can_build[player][GREEN] && !star.star.numberOf(GREEN)) {
-                if (star.ships[player].numberOf(GREEN) == 1)
-                  can_build[player][GREEN] = true;
+            if (!has_gun[player] && star.ships[player].numberOf(RED) > 0) {
+                has_gun[player] = true;
             }
-            if (star.homeworldOf == player)
-              hw[player] = &star;
+            if (!can_build[player][GREEN] && !star.star.numberOf(GREEN)) {
+                if (star.ships[player].numberOf(GREEN) == 1) {
+                    can_build[player][GREEN] = true;
+                }
+            }
+            if (star.homeworldOf == player) {
+                hw[player] = &star;
+            }
         }
     }
     assert(hw[0] != NULL);
@@ -436,19 +453,25 @@ int ai_static_evaluation(const GameState &state_before_move,
     }
     sum += (absolute_value_all_ships[attacker] - absolute_value_all_ships[defender]);
 
-    if (all_ships[attacker].number() > 4 && all_ships[attacker].numberOf(YELLOW) == 0)
-      sum -= 40;
-    if (all_ships[defender].number() > 4 && all_ships[defender].numberOf(YELLOW) == 0)
-      sum += 40;
-    if (all_ships[attacker].number() > 4 && all_ships[attacker].numberOf(GREEN) == 0)
-      sum -= 30;
-    if (all_ships[defender].number() > 4 && all_ships[defender].numberOf(GREEN) == 0)
-      sum += 30;
+    if (all_ships[attacker].number() > 4 && all_ships[attacker].numberOf(YELLOW) == 0) {
+        sum -= 40;
+    }
+    if (all_ships[defender].number() > 4 && all_ships[defender].numberOf(YELLOW) == 0) {
+        sum += 40;
+    }
+    if (all_ships[attacker].number() > 4 && all_ships[attacker].numberOf(GREEN) == 0) {
+        sum -= 30;
+    }
+    if (all_ships[defender].number() > 4 && all_ships[defender].numberOf(GREEN) == 0) {
+        sum += 30;
+    }
 
-    if (has_gun[attacker] && all_ships[attacker].numberOf(LARGE) >= 2)
-      sum += 100;
-    if (has_gun[defender] && all_ships[defender].numberOf(LARGE) >= 2)
-      sum -= 100;
+    if (has_gun[attacker] && all_ships[attacker].numberOf(LARGE) >= 2) {
+        sum += 100;
+    }
+    if (has_gun[defender] && all_ships[defender].numberOf(LARGE) >= 2) {
+        sum -= 100;
+    }
 
     /* Look specifically at the two homeworlds now. */
     for (int player=0; player <= 1; ++player) {
@@ -461,8 +484,9 @@ int ai_static_evaluation(const GameState &state_before_move,
         if (home.ships[player].numberOf(LARGE) == 0) {
             /* Penalty for having no defense at the homeworld. */
             sum -= m*100;
-            if (home.star.numberOf(RED) != 0)
-              sum -= m*30;
+            if (home.star.numberOf(RED) != 0) {
+                sum -= m*30;
+            }
         }
         if (has_gun[1-player] && !home.playerHasAccessTo(player, RED)) sum -= m*30;
         if (home.playerHasAccessTo(player, YELLOW)) sum += m*50;
@@ -479,10 +503,11 @@ int ai_static_evaluation(const GameState &state_before_move,
             const Size ab = star.ships[attacker].biggestSize();
             const Size db = star.ships[defender].biggestSize();
             attacker_advantage = (ab > db);
-            if (attacker_advantage && all_ships[attacker].numberOf(RED) >= 2)
-              sum += 30;
-            else if (!attacker_advantage && has_gun[defender])
-              sum -= (ab == LARGE ? 100 : 50);
+            if (attacker_advantage && all_ships[attacker].numberOf(RED) >= 2) {
+                sum += 30;
+            } else if (!attacker_advantage && has_gun[defender]) {
+                sum -= (ab == LARGE ? 100 : 50);
+            }
         }
 
         /* Positive points for diversity. */
@@ -515,39 +540,46 @@ int ai_static_evaluation(const GameState &state_before_move,
         /* If there's only one ship here, and no way to build more, then that's
          * a slight penalty. */
         if (star.ships[attacker].number() == 1 &&
-                !has_factory[attacker] && !star.playerHasAccessTo(attacker,GREEN))
-          sum -= 20;
+                !has_factory[attacker] && !star.playerHasAccessTo(attacker,GREEN)) {
+            sum -= 20;
+        }
         if (star.ships[defender].number() == 1 &&
-                !has_factory[defender] && !star.playerHasAccessTo(defender,GREEN))
-          sum += 20;
+                !has_factory[defender] && !star.playerHasAccessTo(defender,GREEN)) {
+            sum += 20;
+        }
         /* If this is a blue star, then we'd like to have some ships available
          * to convert. */
         if (star.star.numberOf(BLUE) != 0 && !in_contention &&
-                star.ships[attacker].number() >= 2)
-          sum += 20;
+                star.ships[attacker].number() >= 2) {
+            sum += 20;
+        }
         if (star.star.numberOf(BLUE) != 0 && !in_contention &&
-                star.ships[defender].number() >= 2)
-          sum += 20;
+                star.ships[defender].number() >= 2) {
+            sum += 20;
+        }
 
         /* Penalty for creating systems containing only green and red. */
         if (star.ships[attacker].number() != 0 &&
             !star.playerHasAccessTo(attacker,BLUE) &&
             !star.playerHasAccessTo(attacker,YELLOW) &&
-            !(in_contention && attacker_advantage))
-          sum -= 40;
+            !(in_contention && attacker_advantage)) {
+            sum -= 40;
+        }
 
         /* Mild penalty for creating systems in no-man's-land. */
         if (star.ships[attacker].number() != 0 &&
-            !star.isAdjacentTo(*hw[0]) && !star.isAdjacentTo(*hw[1]))
-          sum -= 10;
+            !star.isAdjacentTo(*hw[0]) && !star.isAdjacentTo(*hw[1])) {
+            sum -= 10;
+        }
 
         /* Mild penalty for creating "green ship, yellow star" systems:
          * systems where all my ships are green and the star is yellow,
          * red, or (extremely unlikely) also green. This may be unavoidable
          * in the early game, or when the stash is low. */
         if (star.ships[attacker].number() == star.ships[attacker].numberOf(GREEN) &&
-            star.star.numberOf(BLUE) == 0)
-          sum -= 10;
+            star.star.numberOf(BLUE) == 0) {
+            sum -= 10;
+        }
 
         /* Negative points for leaving enough of one color in a system that
          * the defender can produce a beneficial catastrophe on his turn. */
@@ -575,4 +607,3 @@ int ai_static_evaluation(const GameState &state_before_move,
 
     return sum;
 }
-

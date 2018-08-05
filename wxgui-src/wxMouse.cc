@@ -22,10 +22,12 @@ static bool catastrophe_possible(SystemWidget *sw, Color c)
         wxSizerItem *it = gs->GetItem(i);
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
         assert(pw != NULL);
-        if (pw->piece_color == c)
+        if (pw->piece_color == c) {
             ++count;
-        if (pw->second_color == c)
+        }
+        if (pw->second_color == c) {
             ++count;
+        }
     }
     return (count >= 4);
 }
@@ -138,8 +140,9 @@ static void event_within_system(wxMouseEvent &e, const wxPoint &clickpos, System
         wxSizerItem *it = gs->GetItem(i);
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
         assert(pw != NULL);
-        if (!pw->GetScreenRect().Contains(clickpos))
+        if (!pw->GetScreenRect().Contains(clickpos)) {
             continue;
+        }
         if (e.LeftDClick()) {
             double_click_piece(pw);
             thing_being_dragged = NULL;
@@ -182,8 +185,9 @@ static void event_within_stash(wxMouseEvent &e, wxPoint &clickpos, StashWidget *
         for (int i=0; i < 12; ++i) {
             StashItem *si = (StashItem *)gs->GetItem(i)->GetWindow();
             assert(si != NULL);
-            if (!si->GetScreenRect().Contains(clickpos))
+            if (!si->GetScreenRect().Contains(clickpos)) {
                 continue;
+            }
             if (e.LeftDown()) {
                 return si->mousedown();
             }
@@ -240,8 +244,9 @@ void GameApp::OnMouseEvent(wxMouseEvent &e)
         GalaxyWidget *gp = (GalaxyWidget *)w;
         for (int i=0; i < gp->num_systems; ++i) {
             SystemWidget *sw = gp->nth_system(i);
-            if (sw->GetScreenRect().Contains(clickpos))
+            if (sw->GetScreenRect().Contains(clickpos)) {
                 return event_within_system(e, clickpos, sw);
+            }
         }
         /* Mouseup was somewhere in empty galactic space. */
         return event_in_galactic_space(e, gp, clickpos);

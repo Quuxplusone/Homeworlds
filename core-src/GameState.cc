@@ -16,8 +16,9 @@ const StarSystem *GameState::systemNamed(const char *name) const
 StarSystem *GameState::systemNamed(const char *name)
 {
     for (int i=0; i < (int)stars.size(); ++i) {
-        if (stars[i].name == name)
-          return &stars[i];
+        if (stars[i].name == name) {
+            return &stars[i];
+        }
     }
     return NULL;
 }
@@ -31,8 +32,9 @@ StarSystem *GameState::homeworldOf(int player)
 {
     assert(0 <= player && player < NUMPLAYERS);
     for (int i=0; i < (int)stars.size(); ++i) {
-        if (stars[i].homeworldOf == player)
-          return &stars[i];
+        if (stars[i].homeworldOf == player) {
+            return &stars[i];
+        }
     }
     return NULL;
 }
@@ -44,8 +46,9 @@ StarSystem *GameState::homeworldOf(int player)
 bool GameState::containsOverpopulation() const
 {
     for (int i=0; i < (int)stars.size(); ++i) {
-        if (stars[i].containsOverpopulation())
-          return true;
+        if (stars[i].containsOverpopulation()) {
+            return true;
+        }
     }
     return false;
 }
@@ -124,8 +127,9 @@ static bool readline(FILE *fp, std::string &line)
         if (k == '\n') {
             return true;
         } else if (k == '#') {
-            while (k != EOF && k != '\n')
-              k = getc(fp);
+            while (k != EOF && k != '\n') {
+                k = getc(fp);
+            }
             return true;
         }
         line += (char)k;
@@ -140,10 +144,12 @@ static bool readline(FILE *fp, std::string &line)
 static void trim(std::string &line)
 {
     int start, end;
-    for (start = 0; start < (int)line.length() && isspace(line[start]); ++start)
-      /* continue */ ;
-    for (end = line.length()-1; end >= 0 && isspace(line[end]); --end)
-      /* continue */ ;
+    for (start = 0; start < (int)line.length() && isspace(line[start]); ++start) {
+        // continue
+    }
+    for (end = line.length()-1; end >= 0 && isspace(line[end]); --end) {
+        // continue
+    }
     line.erase(end+1);
     line.erase(0, start);
 }
@@ -168,11 +174,13 @@ std::string GameState::scan(FILE *fp)
     while (true) {
         std::string line;
         bool gotline = readline(fp, line);
-        if (!gotline)
-          break;
+        if (!gotline) {
+            break;
+        }
         trim(line);
-        if (line.length() == 0)
-          continue;
+        if (line.empty()) {
+            continue;
+        }
         StarSystem star;
         bool parsedline = star.scan(line.c_str());
         if (!parsedline) {
@@ -202,8 +210,9 @@ GameState GameState::mirror() const
         PieceCollection t = star.ships[0];
         star.ships[0] = star.ships[1];
         star.ships[1] = t;
-        if (star.homeworldOf != -1)
-          star.homeworldOf = 1-star.homeworldOf;
+        if (star.homeworldOf != -1) {
+            star.homeworldOf = 1-star.homeworldOf;
+        }
     }
     return ret;
 }

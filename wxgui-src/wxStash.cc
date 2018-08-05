@@ -21,9 +21,11 @@ StashWidget::StashWidget(wxWindow *p, int id) :
     wxGridSizer *gs = new wxGridSizer(/*rows=*/4, /*cols=*/3, /*vgap=*/2, /*hgap=*/0);
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
-            gs->Add(new StashItem(this, c, s, 0),
-                    /*proportion=*/1,
-                    wxSHAPED | wxALIGN_CENTER);
+            gs->Add(
+                new StashItem(this, c, s, 0),
+                /*proportion=*/1,
+                wxSHAPED | wxALIGN_CENTER
+            );
         }
     }
     this->SetSizerAndFit(gs);
@@ -157,4 +159,3 @@ void StashWidget::mouseup()
     }
     thing_being_dragged = NULL;
 }
-

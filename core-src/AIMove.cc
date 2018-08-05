@@ -18,8 +18,9 @@ static bool move_is_stupid_move_into_check(const GameState &st, int attacker, co
     GameState newst = st;
     ApplyMove::or_die(newst, attacker, move);
     /* A winning move is definitely not a stupid move into check. */
-    if (newst.gameIsOver())
-      return false;
+    if (newst.gameIsOver()) {
+        return false;
+    }
     /* At this point, we basically want to find all winning moves for the
      * defender, and return true iff we found a winning move. But searching
      * for moves --- even just the winning ones --- is slow, so we keep
@@ -31,15 +32,17 @@ static bool move_is_stupid_move_into_check(const GameState &st, int attacker, co
     for (int i=0; i < 8; ++i) {
         GameState newst2 = newst;
         if (ApplyMove::Whole(newst2, 1-attacker, killer[i])) {
-            if (newst2.gameIsOver())
-              return true;
+            if (newst2.gameIsOver()) {
+                return true;
+            }
         }
     }
     /* None of the killer moves were useful in this scenario.
      * Search for any winning move. */
     WholeMove winmove;
-    if (!findWinningMove(newst, 1-attacker, &winmove))
-      return false;
+    if (!findWinningMove(newst, 1-attacker, &winmove)) {
+        return false;
+    }
     /* Found a new killer move! */
     killer[killeridx] = winmove;
     killeridx = (killeridx+1) % 8;
@@ -51,8 +54,9 @@ struct val_move_pair {
     WholeMove *move;
     int value;
     /* Sort high values toward the front of the array. */
-    bool operator < (const val_move_pair &rhs) const
-    { return (this->value > rhs.value); }
+    bool operator < (const val_move_pair &rhs) const {
+        return (this->value > rhs.value);
+    }
 };
 
 
@@ -93,8 +97,9 @@ void get_all_moves_sorted_by_value(const GameState &st,
                     values[i].move->toString().c_str());
         }
     }
-    for (int i=0; i < n; ++i)
-      retmoves[i] = *values[i].move;
+    for (int i=0; i < n; ++i) {
+        retmoves[i] = *values[i].move;
+    }
     return;
 }
 
@@ -106,8 +111,9 @@ WholeMove get_ai_move(const GameState &st, int attacker)
     const int n = allmoves.size();
     for (int i=0; i < n; ++i) {
         WholeMove &bestmove = allmoves[i];
-        if (move_is_stupid_move_into_check(st, attacker, bestmove))
-          continue;
+        if (move_is_stupid_move_into_check(st, attacker, bestmove)) {
+            continue;
+        }
         /* This move is okay. */
         reassignPlanetNames(bestmove, st, NULL);
         return bestmove;

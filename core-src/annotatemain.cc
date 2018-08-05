@@ -43,8 +43,9 @@ static bool g_Colorize;
  */
 static std::string colorize(const std::string &texts)
 {
-    if (!g_Colorize)
+    if (!g_Colorize) {
         return texts;
+    }
     const char *text = texts.c_str();
     std::string result;
     while (*text != '\0') {
@@ -103,30 +104,35 @@ class History {
     void showState(FILE *fp) const {
         assert(hidx >= 0);
         assert(hidx < (int)hvec.size());
-        if (g_Verbose)
-          fprintf(fp, "The current state is:\n");
+        if (g_Verbose) {
+            fprintf(fp, "The current state is:\n");
+        }
         fputs(colorize(hvec[hidx].st.toString()).c_str(), fp);
     }
     void showStash(FILE *fp) const {
         assert(hidx >= 0);
         assert(hidx < (int)hvec.size());
-        if (g_Verbose)
-          fprintf(fp, "The current stash is:\n");
+        if (g_Verbose) {
+            fprintf(fp, "The current stash is:\n");
+        }
         fprintf(fp, "%s\n", colorize(hvec[hidx].st.stash.toString()).c_str());
     }
     void review(FILE *fp, bool verbose) const {
         assert(hidx >= 0);
         assert(hidx < (int)hvec.size());
-        if (verbose && hidx > 0)
-          fprintf(fp, "This game has gone on for %d moves.\n", hidx);
+        if (verbose && hidx > 0) {
+            fprintf(fp, "This game has gone on for %d moves.\n", hidx);
+        }
         fprintf(fp, "%s", hvec[0].st.toString().c_str());
         for (int i=1; i <= hidx; ++i) {
-            if (verbose)
-              fprintf(fp, "%d. %s: ", i, g_playerNames[1-(i%2)].c_str());
+            if (verbose) {
+                fprintf(fp, "%d. %s: ", i, g_playerNames[1-(i%2)].c_str());
+            }
             fprintf(fp, "%s\n", hvec[i].move.toString().c_str());
         }
-        if (verbose && hidx > 0)
-          showState(fp);
+        if (verbose && hidx > 0) {
+            showState(fp);
+        }
     }
     bool can_undo() const {
         return (hidx != 0);
@@ -255,8 +261,9 @@ static void setup_ai(GameState &st, StarSystem &hw)
             /* Make sure the homeworlds are as far apart as possible.
              * This condition disallows (r1y1, g2b3) and (r1y2, g1b2)
              * while still allowing (r1y1, g1b2) and (r1y2, g1b3). */
-            if (opponent_hw->star.numberOf(s1) == opponent_hw->star.numberOf(s2))
-              continue;
+            if (opponent_hw->star.numberOf(s1) == opponent_hw->star.numberOf(s2)) {
+                continue;
+            }
         }
         /* The initial ship should be big and non-red. If the star doesn't have green
          * already, then the initial ship must be green. Otherwise, the ship must be
@@ -264,8 +271,9 @@ static void setup_ai(GameState &st, StarSystem &hw)
         const Color shipc = (c2 != GREEN) ? GREEN : (c1 == YELLOW) ? BLUE : YELLOW;
         hw.ships[attacker].insert(shipc, LARGE);
         /* If this configuration isn't actually possible, rinse and repeat. */
-        if (!st.stash.contains(hw.pieceCollection()))
-          continue;
+        if (!st.stash.contains(hw.pieceCollection())) {
+            continue;
+        }
         /* This configuration is okay. */
         break;
     }
@@ -384,11 +392,13 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
     assert(!oldst.gameIsOver());
     GameState newst = oldst;
     ApplyMove::or_die(newst, attacker, m);
-    if (newst.gameIsOver())
-      return false;
+    if (newst.gameIsOver()) {
+        return false;
+    }
 
-    if (!findWinningMove(newst, 1-attacker, NULL))
-      return false;
+    if (!findWinningMove(newst, 1-attacker, NULL)) {
+        return false;
+    }
     /* The attacker did move into check.
      * But maybe he didn't have any choice? */
     std::vector<WholeMove> allmoves;
@@ -419,8 +429,9 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
 static void verify_move(bool legal, const WholeMove &move, int attacker)
 {
     if (ApplyMove::isValidMove(g_History.currentstate(), attacker, move)) {
-        if (!legal)
-          printf("Failed isValidMove test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
+        if (!legal) {
+            printf("Failed isValidMove test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
+        }
         std::vector<WholeMove> allmoves;
         findAllMoves(g_History.currentstate(), attacker, allmoves,
                 /*prune_obviously_worse_moves=*/false,
@@ -438,13 +449,15 @@ static void verify_move(bool legal, const WholeMove &move, int attacker)
                 break;
             }
         }
-        if (found != legal)
-          printf("Failed findAllMoves test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
+        if (found != legal) {
+            printf("Failed findAllMoves test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
+        }
         if (legal && targetst.hasLost(1-attacker)) {
             /* The given move is supposed to be legal AND winning;
              * therefore findWinningMove() should return true. */
-            if (!findWinningMove(g_History.currentstate(), attacker, NULL))
-              printf("Failed findWinningMove test: LEGAL %s\n", move.toString().c_str());
+            if (!findWinningMove(g_History.currentstate(), attacker, NULL)) {
+                printf("Failed findWinningMove test: LEGAL %s\n", move.toString().c_str());
+            }
         }
     } else {
         if (legal) {
@@ -693,8 +706,9 @@ int main(int argc, char **argv)
         } else if (arg == "--auto") {
             auto_setup = true;
         } else if (arg == "--seed") {
-            if (arg_index+1 >= argc || !isdigit(argv[arg_index+1][0]))
-              do_error("The --seed argument requires an integer parameter!");
+            if (arg_index+1 >= argc || !isdigit(argv[arg_index+1][0])) {
+                do_error("The --seed argument requires an integer parameter!");
+            }
             ++arg_index;
             srand((unsigned int)atoi(argv[arg_index]));
         } else {
@@ -702,8 +716,9 @@ int main(int argc, char **argv)
         }
     }
 
-    if (g_ReportBlunders || g_VerifyTranscript)
-      auto_setup = true;
+    if (g_ReportBlunders || g_VerifyTranscript) {
+        auto_setup = true;
+    }
 
     GameState initialState;
 
@@ -723,12 +738,14 @@ int main(int argc, char **argv)
         }
         assignPlanetNames(initialState, NULL);
         StarSystem *hw = initialState.homeworldOf(0);
-        if (hw == NULL)
-          do_error("The initial homeworld setup didn't include Player 0's homeworld!");
+        if (hw == NULL) {
+            do_error("The initial homeworld setup didn't include Player 0's homeworld!");
+        }
         g_playerNames[0] = hw->name;
         hw = initialState.homeworldOf(1);
-        if (hw == NULL)
-          do_error("The initial homeworld setup didn't include Player 1's homeworld!");
+        if (hw == NULL) {
+            do_error("The initial homeworld setup didn't include Player 1's homeworld!");
+        }
         g_playerNames[1] = hw->name;
     } else if (!auto_setup && arg_index+2 == argc) {
         /* "annotate Sam Dave" means that the input will be entered via the
@@ -769,8 +786,9 @@ int main(int argc, char **argv)
 
     for (int attacker = 0; 1; attacker = 1-attacker) {
         const bool keep_going = move_and_record(attacker);
-        if (!keep_going)
-          break;
+        if (!keep_going) {
+            break;
+        }
         if (g_Verbose) {
             /* Did this player's move put the other player "in check"? */
             const GameState &st = g_History.currentstate();
@@ -810,7 +828,8 @@ int main(int argc, char **argv)
             puts("No transcript was saved.");
         }
     }
-    if (g_Verbose)
-      puts("Goodbye...");
+    if (g_Verbose) {
+        puts("Goodbye...");
+    }
     return 0;
 }

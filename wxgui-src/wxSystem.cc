@@ -49,8 +49,9 @@ void SystemWidget::update(const StarSystem *sys)
     this->star = NULL;
     hbox->Clear(true);
 
-    if (sys == NULL)
+    if (sys == NULL) {
         return;
+    }
 
     this->name = sys->name;
     Color c1 = UNKNOWN_COLOR;
@@ -90,10 +91,10 @@ void SystemWidget::update(const StarSystem *sys)
         for (Color c = RED; c <= BLUE; ++c) {
             for (Size s = SMALL; s <= LARGE; ++s) {
                 int n = pc.numberOf(c,s);
-                for (int i=0; i < n; ++i)
+                for (int i=0; i < n; ++i) {
                     this->add_ship(who, s, c);
+                }
             }
         }
     }
 }
-

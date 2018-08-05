@@ -82,10 +82,12 @@ std::string GalaxyWidget::get_new_system_name()
     };
     for (int i = 0; i < 40; ++i) {
         const char *result = names[i];
-        if (attacker_homeworld != NULL && result == attacker_homeworld->name)
+        if (attacker_homeworld != NULL && result == attacker_homeworld->name) {
             continue;
-        if (defender_homeworld != NULL && result == defender_homeworld->name)
+        }
+        if (defender_homeworld != NULL && result == defender_homeworld->name) {
             continue;
+        }
         bool okay = true;
         for (int j=0; j < num_systems; ++j) {
             if (result == nth_system(j)->name) {
@@ -93,8 +95,9 @@ std::string GalaxyWidget::get_new_system_name()
                 break;
             }
         }
-        if (okay)
+        if (okay) {
             return result;
+        }
     }
     /* With 40 names to choose from and only 36 pieces in the game, we should
      * really never run out of names. */
@@ -217,4 +220,3 @@ GameState GalaxyWidget::to_state()
     }
     return st;
 }
-
