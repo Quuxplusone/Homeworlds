@@ -6,8 +6,8 @@
 
 GalaxyWidget::GalaxyWidget(wxWindow *p, int id) :
     wxWindow(p, id, wxDefaultPosition, wxDefaultSize, wxBORDER_SUNKEN),
-    attacker_homeworld(NULL),
-    defender_homeworld(NULL),
+    attacker_homeworld(nullptr),
+    defender_homeworld(nullptr),
     num_systems(0)
 {
     this->SetMinSize(wxSize(500,400));
@@ -21,9 +21,9 @@ SystemWidget *GalaxyWidget::nth_system(int i)
 {
     assert(0 <= i && i < this->num_systems);
     wxSizerItem *it = this->GetSizer()->GetItem(i);
-    assert(it != NULL);
+    assert(it != nullptr);
     SystemWidget *sw = (SystemWidget *)it->GetWindow();
-    assert(sw != NULL);
+    assert(sw != nullptr);
     return sw;
 }
 
@@ -40,7 +40,7 @@ SystemWidget *GalaxyWidget::add_system(const wxPoint &pos, const std::string &na
 void GalaxyWidget::delete_system(SystemWidget *sw)
 {
     if (sw == this->attacker_homeworld || sw == this->defender_homeworld) {
-        sw->star = NULL;
+        sw->star = nullptr;
         sw->GetSizer()->Clear(true);
         sw->Layout();
     } else {
@@ -53,14 +53,14 @@ void GalaxyWidget::delete_system(SystemWidget *sw)
 
 void GalaxyWidget::restash_and_delete_system(SystemWidget *sw)
 {
-    assert(sw != NULL);
-    assert(this->stash != NULL);
+    assert(sw != nullptr);
+    assert(this->stash != nullptr);
     /* First, put all the affected pieces back into the stash. */
     for (int i=0; true; ++i) {
         wxSizerItem *it = sw->GetSizer()->GetItem(i);
-        if (it == NULL) break;
+        if (it == nullptr) break;
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
-        assert(pw != NULL);
+        assert(pw != nullptr);
         this->stash->add_piece(pw->piece_size, pw->piece_color);
         if (pw->second_color != UNKNOWN_COLOR) {
             this->stash->add_piece(pw->second_size, pw->second_color);
@@ -82,10 +82,10 @@ std::string GalaxyWidget::get_new_system_name()
     };
     for (int i = 0; i < 40; ++i) {
         const char *result = names[i];
-        if (attacker_homeworld != NULL && result == attacker_homeworld->name) {
+        if (attacker_homeworld != nullptr && result == attacker_homeworld->name) {
             continue;
         }
-        if (defender_homeworld != NULL && result == defender_homeworld->name) {
+        if (defender_homeworld != nullptr && result == defender_homeworld->name) {
             continue;
         }
         bool okay = true;
@@ -107,9 +107,9 @@ std::string GalaxyWidget::get_new_system_name()
 
 void GalaxyWidget::update(const GameState &st)
 {
-    assert(attacker_homeworld != NULL);
-    assert(defender_homeworld != NULL);
-    assert(stash != NULL);
+    assert(attacker_homeworld != nullptr);
+    assert(defender_homeworld != nullptr);
+    assert(stash != nullptr);
     for (int i=0; i < (int)st.stars.size(); ++i) {
         const StarSystem &star = st.stars[i];
         if (star.homeworldOf == 0) {
@@ -138,17 +138,17 @@ void GalaxyWidget::update(const GameState &st)
     for (int i=0; i < num_systems; ++i) {
         SystemWidget *sw = nth_system(i);
         std::string name = sw->name;
-        if (st.systemNamed(name.c_str()) == NULL) {
+        if (st.systemNamed(name.c_str()) == nullptr) {
             /* Remove the system widget from our galaxy map. */
             this->delete_system(sw);
             --i;
         }
     }
-    if (st.systemNamed(attacker_homeworld->name.c_str()) == NULL) {
-        attacker_homeworld->update(NULL);
+    if (st.systemNamed(attacker_homeworld->name.c_str()) == nullptr) {
+        attacker_homeworld->update(nullptr);
     }
-    if (st.systemNamed(defender_homeworld->name.c_str()) == NULL) {
-        defender_homeworld->update(NULL);
+    if (st.systemNamed(defender_homeworld->name.c_str()) == nullptr) {
+        defender_homeworld->update(nullptr);
     }
     stash->update(st.stash);
 
@@ -162,7 +162,7 @@ void GalaxyWidget::update(const GameState &st)
  * to its GameState representation. */
 static void add_to_state(GameState &st, SystemWidget *sw, int who)
 {
-    assert(sw != NULL);
+    assert(sw != nullptr);
     st.stars.push_back(StarSystem(sw->name.c_str()));
     StarSystem &ss = st.stars.back();
     ss.homeworldOf = who;
@@ -170,10 +170,10 @@ static void add_to_state(GameState &st, SystemWidget *sw, int who)
     bool contains_ships = false;
     for (int j=0; true; ++j) {
         wxSizerItem *si = sw->GetSizer()->GetItem(j);
-        if (si == NULL) break;
+        if (si == nullptr) break;
         assert(si->IsWindow());
         PieceWidget *pw = (PieceWidget *)si->GetWindow();
-        assert(pw != NULL);
+        assert(pw != nullptr);
         if (pw->whose == -1) {
             assert(j == 0);
             assert(pw == sw->star);
@@ -190,10 +190,10 @@ static void add_to_state(GameState &st, SystemWidget *sw, int who)
             contains_ships = true;
         }
     }
-    assert((sw->star == NULL) == ss.star.empty());
+    assert((sw->star == nullptr) == ss.star.empty());
     if (contains_ships) {
-        assert(sw->star != NULL);
-    } else if (sw->star != NULL) {
+        assert(sw->star != nullptr);
+    } else if (sw->star != nullptr) {
         /* This system has a star and nothing else. This is technically
          * forbidden by the rules of the game, but GameState should be
          * able to handle it anyway. */
@@ -208,9 +208,9 @@ static void add_to_state(GameState &st, SystemWidget *sw, int who)
 /* Convert the state represented by this galaxy map back into a GameState. */
 GameState GalaxyWidget::to_state()
 {
-    assert(attacker_homeworld != NULL);
-    assert(defender_homeworld != NULL);
-    assert(stash != NULL);
+    assert(attacker_homeworld != nullptr);
+    assert(defender_homeworld != nullptr);
+    assert(stash != nullptr);
     GameState st;
     st.newGame();
     add_to_state(st, attacker_homeworld, 0);

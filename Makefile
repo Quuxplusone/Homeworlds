@@ -1,18 +1,8 @@
 UNAME := $(shell uname -s)
 
-ifeq ($(UNAME),Darwin)
-  CC = gcc
-  CXX = g++
-  ifneq (,$(findstring -std=c++11,$(CXXFLAGS)))
-    CXXFLAGS += -stdlib=libc++
-  endif
-else
-  CC = gcc
-  CXX = g++
-endif
-
 INCLUDES = -Icore-src
 CFLAGS += -W -Wall -Wextra -march=native ${INCLUDES}
+CXXFLAGS += -std=c++14
 
 # The release setup.
 #CFLAGS += -O3 -fomit-frame-pointer -DNDEBUG

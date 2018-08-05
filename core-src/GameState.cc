@@ -20,7 +20,7 @@ StarSystem *GameState::systemNamed(const char *name)
             return &stars[i];
         }
     }
-    return NULL;
+    return nullptr;
 }
 
 const StarSystem *GameState::homeworldOf(int player) const
@@ -36,7 +36,7 @@ StarSystem *GameState::homeworldOf(int player)
             return &stars[i];
         }
     }
-    return NULL;
+    return nullptr;
 }
 
 /* Returns true if there is an overpopulation of any color anywhere in
@@ -105,7 +105,7 @@ void GameState::newGame()
 bool GameState::hasLost(int who) const
 {
     const StarSystem *hw = homeworldOf(who);
-    return (hw == NULL || hw->ships[who].empty());
+    return (hw == nullptr || hw->ships[who].empty());
 }
 
 std::string GameState::toString() const

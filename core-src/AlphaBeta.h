@@ -321,7 +321,7 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
      * has a parent of NULL --- that's how we'll know when we hit the top of
      * the game tree again. */
     int insertednodes = 0;
-    BFRecord *top_level_return_record = new BFRecord(RETURN, Move(), (int)allmoves.size(), this->findattacker(st), NULL);
+    BFRecord *top_level_return_record = new BFRecord(RETURN, Move(), (int)allmoves.size(), this->findattacker(st), nullptr);
     for (int i=0; i < (int)allmoves.size(); ++i) {
         Q.push(new BFRecord(RECURSE, st, allmoves[i], top_level_return_record));
         insertednodes += 1;
@@ -347,7 +347,7 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
                 continue;
             } else {
                 assert(record->unreported_children == 0);
-                if (record->parent == NULL) {
+                if (record->parent == nullptr) {
                     /* This is the very first record pushed on the queue,
                      * the one that holds this function's actual return
                      * values. Break out of the loop at this point. */
@@ -362,7 +362,7 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
                  * (a move which yields record.state), from the point of view
                  * of the attacker who just made that move. We need to
                  * propagate that bestvalue up to our parent. */
-                assert(record->parent != NULL);
+                assert(record->parent != nullptr);
                 /* Namely, this record is a child of its parent, and this
                  * record has not yet reported. */
                 assert(record->parent->unreported_children > 0);
@@ -386,7 +386,7 @@ bool AlphaBeta<State,Move,Value>::breadth_first(const State &st, int maxnodes,
         }
 
         assert(record->type == RECURSE);
-        assert(record->parent != NULL);
+        assert(record->parent != nullptr);
         assert(record->parent->type == RETURN);
         /* Namely, this record is a child of its parent, and this record has
          * not yet reported. */

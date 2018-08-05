@@ -34,12 +34,12 @@ StashWidget::StashWidget(wxWindow *p, int id) :
 void StashWidget::update(const PieceCollection &pc)
 {
     wxSizer *gs = this->GetSizer();
-    assert(gs != NULL);
+    assert(gs != nullptr);
     int i = 0;
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
             StashItem *si = (StashItem *)gs->GetItem(i++)->GetWindow();
-            assert(si != NULL);
+            assert(si != nullptr);
             si->n = pc.numberOf(c, s);
         }
     }
@@ -48,12 +48,12 @@ void StashWidget::update(const PieceCollection &pc)
 void StashWidget::add_piece(Size s, Color c)
 {
     wxSizer *gs = this->GetSizer();
-    assert(gs != NULL);
+    assert(gs != nullptr);
     int idx = 3*(int)c + (int)s;
     wxSizerItem *it = gs->GetItem(idx);
-    assert(it != NULL);
+    assert(it != nullptr);
     StashItem *si = (StashItem *)it->GetWindow();
-    assert(si != NULL);
+    assert(si != nullptr);
     assert(0 <= si->n && si->n <= 2);
     si->n += 1;
 }
@@ -105,7 +105,7 @@ void StashItem::OnSize(wxSizeEvent &)
 
 void StashItem::mousedown()
 {
-    assert(thing_being_dragged == NULL);
+    assert(thing_being_dragged == nullptr);
     if (n > 0) {
         thing_being_dragged = this;
         type_of_thing_being_dragged = DT_STASHITEM;
@@ -117,20 +117,20 @@ void StashItem::mousedown()
 
 void StashWidget::mouseup()
 {
-    assert(thing_being_dragged != NULL);
+    assert(thing_being_dragged != nullptr);
     switch (type_of_thing_being_dragged) {
         case DT_PIECE: {
             /* We're dropping a PieceWidget into the stash. */
             PieceWidget *pw = (PieceWidget *)thing_being_dragged;
             SystemWidget *sw = (SystemWidget *)pw->GetParent();
-            assert(sw != NULL);
+            assert(sw != nullptr);
             if (pw->whose == -1) {
                 /* We're dropping a whole star system into the stash. */
                 GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-                assert(gp != NULL);
+                assert(gp != nullptr);
                 assert(this == gp->stash);
                 wxSizer *gs = sw->GetSizer();
-                if (gs->GetItem(1) == NULL) {
+                if (gs->GetItem(1) == nullptr) {
                     /* The system contains no ships. It's okay to destroy it. */
                     assert(gs->GetItem((size_t)0)->GetWindow() == sw->star);
                     gp->restash_and_delete_system(sw);
@@ -157,5 +157,5 @@ void StashWidget::mouseup()
         }
         default: assert(false);
     }
-    thing_being_dragged = NULL;
+    thing_being_dragged = nullptr;
 }

@@ -3,7 +3,7 @@
 #include <vector>
 
 DraggableType type_of_thing_being_dragged;
-wxWindow *thing_being_dragged = NULL;
+wxWindow *thing_being_dragged = nullptr;
 int global_attacker = 0;
 bool just_started_new_game = false;
 
@@ -17,11 +17,11 @@ static bool catastrophe_possible(SystemWidget *sw, Color c)
 {
     int count = 0;
     wxSizer *gs = sw->GetSizer();
-    assert(gs != NULL);
+    assert(gs != nullptr);
     for (size_t i = 0; i < gs->GetItemCount(); ++i) {
         wxSizerItem *it = gs->GetItem(i);
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
-        assert(pw != NULL);
+        assert(pw != nullptr);
         if (pw->piece_color == c) {
             ++count;
         }
@@ -35,10 +35,10 @@ static bool catastrophe_possible(SystemWidget *sw, Color c)
 static void catastrophe(SystemWidget *sw, Color c)
 {
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(gp != NULL);
-    assert(gp->stash != NULL);
+    assert(gp != nullptr);
+    assert(gp->stash != nullptr);
 
-    assert(sw->star != NULL);
+    assert(sw->star != nullptr);
     const bool everything_must_go =
         (sw->star->piece_color == c &&
             (sw->star->second_color == c ||
@@ -47,11 +47,11 @@ static void catastrophe(SystemWidget *sw, Color c)
     std::vector<PieceWidget *> things_to_detach;
 
     wxSizer *gs = sw->GetSizer();
-    assert(gs != NULL);
+    assert(gs != nullptr);
     for (size_t i = 0; i < gs->GetItemCount(); ++i) {
         wxSizerItem *it = gs->GetItem(i);
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
-        assert(pw != NULL);
+        assert(pw != nullptr);
         assert(pw->piece_color != UNKNOWN_COLOR);
         if (pw->piece_color == c || pw->second_color == c || everything_must_go) {
             /* We're getting rid of at least part of this piece. */
@@ -73,7 +73,7 @@ static void catastrophe(SystemWidget *sw, Color c)
                 } else {
                     assert(pw->second_color != c && pw->second_color != UNKNOWN_COLOR);
                     /* Just the first piece is being destroyed. */
-                    assert(gp->stash != NULL);
+                    assert(gp->stash != nullptr);
                     gp->stash->add_piece(pw->piece_size, pw->piece_color);
                     pw->piece_color = pw->second_color;
                     pw->piece_size = pw->second_size;
@@ -107,7 +107,7 @@ void double_click_piece(PieceWidget *pw)
 {
     SystemWidget *sw = (SystemWidget *)pw->GetParent();
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(sw != NULL);
+    assert(sw != nullptr);
     if (catastrophe_possible(sw, pw->piece_color)) {
         /* Double-clicking a piece that's part of an overpopulation
          * causes a catastrophe. */
@@ -135,29 +135,29 @@ void double_click_piece(PieceWidget *pw)
 static void event_within_system(wxMouseEvent &e, const wxPoint &clickpos, SystemWidget *sw)
 {
     wxSizer *gs = sw->GetSizer();
-    assert(gs != NULL);
+    assert(gs != nullptr);
     for (size_t i = 0; i < gs->GetItemCount(); ++i) {
         wxSizerItem *it = gs->GetItem(i);
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
-        assert(pw != NULL);
+        assert(pw != nullptr);
         if (!pw->GetScreenRect().Contains(clickpos)) {
             continue;
         }
         if (e.LeftDClick()) {
             double_click_piece(pw);
-            thing_being_dragged = NULL;
-        } else if (e.LeftUp() && thing_being_dragged != NULL) {
+            thing_being_dragged = nullptr;
+        } else if (e.LeftUp() && thing_being_dragged != nullptr) {
             pw->mouseup();
         } else if (e.LeftDown()) {
-            assert(thing_being_dragged == NULL);
+            assert(thing_being_dragged == nullptr);
             type_of_thing_being_dragged = DT_PIECE;
             thing_being_dragged = pw;
         }
         return;
     }
     /* Event was within an empty area of this SystemWidget. */
-    if (e.LeftUp() && thing_being_dragged != NULL) {
-        if (sw->star != NULL) {
+    if (e.LeftUp() && thing_being_dragged != nullptr) {
+        if (sw->star != nullptr) {
             /* Dragging something into this system, to become a new ship. */
             sw->star->mouseup();
         } else {
@@ -169,22 +169,22 @@ static void event_within_system(wxMouseEvent &e, const wxPoint &clickpos, System
                 sw->add_star(si->piece_size, si->piece_color);
                 sw->Layout();
             }
-            thing_being_dragged = NULL;
+            thing_being_dragged = nullptr;
         }
     }
 }
 
 static void event_within_stash(wxMouseEvent &e, wxPoint &clickpos, StashWidget *sw)
 {
-    if (e.LeftUp() && thing_being_dragged != NULL) {
+    if (e.LeftUp() && thing_being_dragged != nullptr) {
         sw->mouseup();
     } else if (e.LeftDown()) {
-        assert(thing_being_dragged == NULL);
+        assert(thing_being_dragged == nullptr);
         wxSizer *gs = sw->GetSizer();
-        assert(gs != NULL);
+        assert(gs != nullptr);
         for (int i=0; i < 12; ++i) {
             StashItem *si = (StashItem *)gs->GetItem(i)->GetWindow();
-            assert(si != NULL);
+            assert(si != nullptr);
             if (!si->GetScreenRect().Contains(clickpos)) {
                 continue;
             }
@@ -193,12 +193,12 @@ static void event_within_stash(wxMouseEvent &e, wxPoint &clickpos, StashWidget *
             }
         }
     }
-    assert(thing_being_dragged == NULL);
+    assert(thing_being_dragged == nullptr);
 }
 
 static void event_in_galactic_space(wxMouseEvent &e, GalaxyWidget *gp, const wxPoint &pos)
 {
-    if (e.LeftUp() && thing_being_dragged != NULL) {
+    if (e.LeftUp() && thing_being_dragged != nullptr) {
         if (type_of_thing_being_dragged == DT_PIECE) {
             PieceWidget *pw = (PieceWidget *)thing_being_dragged;
             if (pw->whose == -1) {
@@ -217,7 +217,7 @@ static void event_in_galactic_space(wxMouseEvent &e, GalaxyWidget *gp, const wxP
             np->add_star(si->piece_size, si->piece_color);
             gp->Layout();
         }
-        thing_being_dragged = NULL;
+        thing_being_dragged = nullptr;
     }
 }
 
@@ -233,13 +233,13 @@ void GameApp::OnMouseEvent(wxMouseEvent &e)
 
     wxPoint clickpos = e.GetPosition();
     wxObject *o = e.GetEventObject();
-    assert(o != NULL);
+    assert(o != nullptr);
     wxPoint frame = ((wxWindow *)o)->GetScreenPosition();
     clickpos += frame;
 
     /* Figure out what child control the user clicked on. */
     wxWindow *w = wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(w != NULL);
+    assert(w != nullptr);
     if (w->GetScreenRect().Contains(clickpos)) {
         GalaxyWidget *gp = (GalaxyWidget *)w;
         for (int i=0; i < gp->num_systems; ++i) {
@@ -252,31 +252,31 @@ void GameApp::OnMouseEvent(wxMouseEvent &e)
         return event_in_galactic_space(e, gp, clickpos);
     }
     w = wxWindow::FindWindowById(wxID_ATTACKER_HOMEWORLD_SYSTEM);
-    assert(w != NULL);
+    assert(w != nullptr);
     if (w->GetScreenRect().Contains(clickpos)) {
         return event_within_system(e, clickpos, (SystemWidget *)w);
     }
     w = wxWindow::FindWindowById(wxID_DEFENDER_HOMEWORLD_SYSTEM);
-    assert(w != NULL);
+    assert(w != nullptr);
     if (w->GetScreenRect().Contains(clickpos)) {
         return event_within_system(e, clickpos, (SystemWidget *)w);
     }
     w = wxWindow::FindWindowById(wxID_STASH_AREA);
-    assert(w != NULL);
+    assert(w != nullptr);
     if (w->GetScreenRect().Contains(clickpos)) {
         return event_within_stash(e, clickpos, (StashWidget *)w);
     }
 
     /* Otherwise the event happened somewhere unimportant. */
-    if (e.LeftUp() && thing_being_dragged != NULL) {
+    if (e.LeftUp() && thing_being_dragged != nullptr) {
         if (type_of_thing_being_dragged == DT_STASHITEM) {
             /* Cancel the dragging of a StashItem by pretending it was simply
              * dragged back into the stash. */
             puts("mouseup nowhere important; canceling dragging of StashItem");
             StashWidget *sw = (StashWidget *)wxWindow::FindWindowById(wxID_STASH_AREA);
-            assert(sw != NULL);
+            assert(sw != nullptr);
             return sw->mouseup();
         }
-        thing_being_dragged = NULL;
+        thing_being_dragged = nullptr;
     }
 }

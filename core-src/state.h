@@ -12,7 +12,7 @@ class PieceCollection {
 public:
     enum { MAXSTRLEN = 24*(NUMPLAYERS+1) };
 
-    PieceCollection();
+    explicit PieceCollection();
 
     bool contains(const PieceCollection &) const;
     bool operator == (const PieceCollection &) const;
@@ -76,8 +76,8 @@ public:
 public:
     enum { MAXSTRLEN = 2 + 24*(NUMPLAYERS+1) };
 
-    StarSystem(): homeworldOf(-1) { }
-    StarSystem(const char *n): name(n), homeworldOf(-1) { }
+    explicit StarSystem(): homeworldOf(-1) { }
+    explicit StarSystem(const char *n): name(n), homeworldOf(-1) { }
     int numberOfShips() const;
     bool hasNoShips() const;
     int numberOf(Color c) const;

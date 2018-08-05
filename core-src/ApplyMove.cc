@@ -20,7 +20,7 @@
 bool ApplyMove::Single(GameState &st, int attacker, const SingleAction &action)
 {
     StarSystem *where = st.systemNamed(action.where.c_str());
-    if (where == NULL) return false;
+    if (where == nullptr) return false;
     const Color c = action.color;
     const Size s = action.size;
 
@@ -35,7 +35,7 @@ bool ApplyMove::Single(GameState &st, int attacker, const SingleAction &action)
                  * pieces already. */
                 assert(where->number() == 0);
                 st.removeSystem(*where);
-                where = NULL;
+                where = nullptr;
             }
             break;
         }
@@ -66,7 +66,7 @@ bool ApplyMove::Single(GameState &st, int attacker, const SingleAction &action)
             if (s == UNKNOWN_SIZE) return false;
             if (where->ships[attacker].numberOf(c,s) == 0) return false;
             StarSystem *dest = st.systemNamed(action.whither.c_str());
-            if (dest == NULL) return false;
+            if (dest == nullptr) return false;
             if (!dest->isAdjacentTo(*where)) return false;
             where->ships[attacker].remove(c,s);
             dest->ships[attacker].insert(c,s);
@@ -78,7 +78,7 @@ bool ApplyMove::Single(GameState &st, int attacker, const SingleAction &action)
             if (s == UNKNOWN_SIZE) return false;
             if (where->ships[attacker].numberOf(c,s) == 0) return false;
             StarSystem *dest = st.systemNamed(action.whither.c_str());
-            if (dest != NULL) return false;
+            if (dest != nullptr) return false;
             /* Create a new star system. */
             if (st.stash.numberOf(action.newcolor, action.newsize) == 0) {
                 return false;
@@ -125,7 +125,7 @@ bool ApplyMove::Single(GameState &st, int attacker, const SingleAction &action)
     }
     /* If an action has left this system with no ships in it,
      * then return the star to the stash. */
-    if (where != NULL && where->hasNoShips()) {
+    if (where != nullptr && where->hasNoShips()) {
         if (where->homeworldOf == attacker) {
             return false;
         }
@@ -143,8 +143,8 @@ bool ApplyMove::Single(GameState &st, int attacker, const SingleAction &action)
 bool ApplyMove::Whole(GameState &st, int attacker, const WholeMove &move)
 {
     assert(move.sanitycheck());
-    assert(st.homeworldOf(attacker) != NULL);
-    assert(st.homeworldOf(1-attacker) != NULL);
+    assert(st.homeworldOf(attacker) != nullptr);
+    assert(st.homeworldOf(1-attacker) != nullptr);
     bool saw_sacrifice = false;
     for (int i=0; i < (int)move.actions.size(); ++i) {
         const SingleAction &action = move.actions[i];
@@ -152,26 +152,26 @@ bool ApplyMove::Whole(GameState &st, int attacker, const WholeMove &move)
             case SACRIFICE: saw_sacrifice = true; break;
             case CAPTURE: {
                 StarSystem *where = st.systemNamed(action.where.c_str());
-                if (where == NULL) return false;
+                if (where == nullptr) return false;
                 if (!saw_sacrifice && !where->playerHasAccessTo(attacker, RED)) return false;
                 break;
             }
             case MOVE:
             case MOVE_CREATE: {
                 StarSystem *where = st.systemNamed(action.where.c_str());
-                if (where == NULL) return false;
+                if (where == nullptr) return false;
                 if (!saw_sacrifice && !where->playerHasAccessTo(attacker, YELLOW)) return false;
                 break;
             }
             case BUILD: {
                 StarSystem *where = st.systemNamed(action.where.c_str());
-                if (where == NULL) return false;
+                if (where == nullptr) return false;
                 if (!saw_sacrifice && !where->playerHasAccessTo(attacker, GREEN)) return false;
                 break;
             }
             case CONVERT: {
                 StarSystem *where = st.systemNamed(action.where.c_str());
-                if (where == NULL) return false;
+                if (where == nullptr) return false;
                 if (!saw_sacrifice && !where->playerHasAccessTo(attacker, BLUE)) return false;
                 break;
             }
@@ -185,7 +185,7 @@ bool ApplyMove::Whole(GameState &st, int attacker, const WholeMove &move)
     if (st.hasLost(attacker)) {
         return false;
     }
-    assert(st.homeworldOf(attacker) != NULL);
+    assert(st.homeworldOf(attacker) != nullptr);
     if (st.hasLost(1-attacker) && st.homeworldOf(attacker)->containsOverpopulation()) {
         GameState newst = st;
         newst.performAllCatastrophes();

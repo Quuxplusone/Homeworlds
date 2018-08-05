@@ -277,7 +277,7 @@ static bool infer_movement_from(const GameState &st, int attacker, SingleAction 
     assert(action.whither != "");
     bool foundone = false;
     const StarSystem *whither = st.systemNamed(action.whither.c_str());
-    if ((whither == NULL) != (action.kind == MOVE_CREATE)) {
+    if ((whither == nullptr) != (action.kind == MOVE_CREATE)) {
         return false;
     }
     for (int i=0; i < (int)st.stars.size(); ++i) {

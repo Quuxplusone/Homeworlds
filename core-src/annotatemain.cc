@@ -257,7 +257,7 @@ static void setup_ai(GameState &st, StarSystem &hw)
         const Size s2 = Size((s1+1+randint0(2)) % 3);
         hw.star.insert(c1, s1);
         hw.star.insert(c2, s2);
-        if (opponent_hw != NULL) {
+        if (opponent_hw != nullptr) {
             /* Make sure the homeworlds are as far apart as possible.
              * This condition disallows (r1y1, g2b3) and (r1y2, g1b2)
              * while still allowing (r1y1, g1b2) and (r1y2, g1b3). */
@@ -292,13 +292,13 @@ static void setup_human(GameState &st, int attacker)
     StarSystem &hw = st.stars.back();
     hw.homeworldOf = attacker;
 
-    char *moveline = NULL;
+    char *moveline = nullptr;
     char *result;
     printf("Enter the initial pieces for your star. For example, \"y3b2\". > "); fflush(stdout);
   get_star_pieces:
     result = getline_113(&moveline);
     /* Ignore input errors for the sake of simplicity. TODO FIXME BUG HACK */
-    assert(result == moveline && result != NULL);
+    assert(result == moveline && result != nullptr);
     if (strcmp(moveline, "ai_move") == 0) {
         free(moveline);
         printf("AI is setting up a homeworld for %s...\n", g_playerNames[attacker].c_str());
@@ -346,7 +346,7 @@ static void setup_human(GameState &st, int attacker)
   get_ship:
     result = getline_113(&moveline);
     /* Ignore input errors for the sake of simplicity. TODO FIXME BUG HACK */
-    assert(result == moveline && result != NULL);
+    assert(result == moveline && result != nullptr);
     success = pc.scan(moveline);
     if (!success) {
         printf("Your input did not appear to be a valid piece collection.\n");
@@ -396,7 +396,7 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
         return false;
     }
 
-    if (!findWinningMove(newst, 1-attacker, NULL)) {
+    if (!findWinningMove(newst, 1-attacker, nullptr)) {
         return false;
     }
     /* The attacker did move into check.
@@ -411,7 +411,7 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
             /* No, in fact he'd have won the game! */
             return true;
         }
-        if (!findWinningMove(newst, 1-attacker, NULL)) {
+        if (!findWinningMove(newst, 1-attacker, nullptr)) {
             /* No, he wouldn't still be in check. */
             return true;
         }
@@ -455,7 +455,7 @@ static void verify_move(bool legal, const WholeMove &move, int attacker)
         if (legal && targetst.hasLost(1-attacker)) {
             /* The given move is supposed to be legal AND winning;
              * therefore findWinningMove() should return true. */
-            if (!findWinningMove(g_History.currentstate(), attacker, NULL)) {
+            if (!findWinningMove(g_History.currentstate(), attacker, nullptr)) {
                 printf("Failed findWinningMove test: LEGAL %s\n", move.toString().c_str());
             }
         }
@@ -506,7 +506,7 @@ static void make_move_and_report(int attacker, const WholeMove& move)
 static bool move_and_record(int attacker)
 {
     const bool game_is_over = g_History.currentstate().gameIsOver();
-    char *moveline_cstr = NULL;
+    char *moveline_cstr = nullptr;
     std::string moveline;
 
     while (true) {
@@ -515,10 +515,10 @@ static bool move_and_record(int attacker)
             printf("%s's move? > ", g_playerNames[attacker].c_str()); fflush(stdout);
         }
         char *result = getline_113(&moveline_cstr);
-        assert(result == moveline_cstr || result == NULL);
+        assert(result == moveline_cstr || result == nullptr);
         /* Act as if there's an implicit "quit" at the end of the input;
          * otherwise, we'd just go on reading the last command forever. */
-        if (result == NULL) {
+        if (result == nullptr) {
             moveline = "quit";
         } else {
             moveline = moveline_cstr;
@@ -570,7 +570,7 @@ static bool move_and_record(int attacker)
         } else if (strncmp(moveline.c_str(), "review ", 7) == 0) {
             const char *filename = &moveline[7];
             FILE *out = fopen(filename, "w");
-            if (out == NULL) {
+            if (out == nullptr) {
                 printf("File \"%s\" could not be opened for writing.\n", filename);
             } else {
                 g_History.review(out, /*verbose=*/false);
@@ -691,7 +691,7 @@ static bool move_and_record(int attacker)
 
 int main(int argc, char **argv)
 {
-    srand((unsigned int)time(NULL));
+    srand((unsigned int)time(nullptr));
 
     int arg_index;
     bool auto_setup = false;
@@ -736,14 +736,14 @@ int main(int argc, char **argv)
                     (i>1 ? "s" : ""));
             }
         }
-        assignPlanetNames(initialState, NULL);
+        assignPlanetNames(initialState, nullptr);
         StarSystem *hw = initialState.homeworldOf(0);
-        if (hw == NULL) {
+        if (hw == nullptr) {
             do_error("The initial homeworld setup didn't include Player 0's homeworld!");
         }
         g_playerNames[0] = hw->name;
         hw = initialState.homeworldOf(1);
-        if (hw == NULL) {
+        if (hw == nullptr) {
             do_error("The initial homeworld setup didn't include Player 1's homeworld!");
         }
         g_playerNames[1] = hw->name;
@@ -793,7 +793,7 @@ int main(int argc, char **argv)
             /* Did this player's move put the other player "in check"? */
             const GameState &st = g_History.currentstate();
             if (!st.gameIsOver()) {
-                if (findWinningMove(st, attacker, NULL)) {
+                if (findWinningMove(st, attacker, nullptr)) {
                     if (g_History.can_undo()) {
                         printf("(%s has put %s in check.)\n", g_playerNames[attacker].c_str(),
                             g_playerNames[1-attacker].c_str());
@@ -806,15 +806,15 @@ int main(int argc, char **argv)
     }
 
     if (g_Verbose) {
-        char *filename = NULL;
+        char *filename = nullptr;
       get_filename:
         printf("Enter a filename to save a transcript to, or <return> to quit: > "); fflush(stdout);
         char *UNUSED(result) = getline_113(&filename);
-        assert(result == filename || result == NULL);
-        /* result may be NULL if end-of-file was encountered just now */
-        if (filename != NULL && filename[0] != '\0') {
+        assert(result == filename || result == nullptr);
+        /* result may be nullptr if end-of-file was encountered just now */
+        if (filename != nullptr && filename[0] != '\0') {
             FILE *out = fopen(filename, "w");
-            if (out == NULL) {
+            if (out == nullptr) {
                 printf("File \"%s\" could not be opened for writing.\n", filename);
                 free(filename);
                 goto get_filename;

@@ -16,7 +16,7 @@ std::string mprintf(const char *fmt, ...)
     va_end(ap);
     if (wanted_space > (int)(sizeof buffer)) {
         char *newbuf = (char *)malloc(wanted_space+1);
-        assert(newbuf != NULL);
+        assert(newbuf != nullptr);
         va_start(ap, fmt);
         int UNUSED(written) = vsnprintf(newbuf, wanted_space+1, fmt, ap);
         va_end(ap);

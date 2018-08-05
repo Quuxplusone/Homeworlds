@@ -9,12 +9,12 @@ SystemWidget::SystemWidget(wxWindow *p, int id, wxPoint pos) :
     this->SetMinSize(wxSize(50,50));
     wxBoxSizer *hbox = new wxBoxSizer(wxHORIZONTAL);
     this->SetSizer(hbox);
-    this->star = NULL;
+    this->star = nullptr;
 }
 
 void SystemWidget::add_star(PieceWidget *pw)
 {
-    assert(this->star == NULL);
+    assert(this->star == nullptr);
     this->star = pw;
     this->GetSizer()->Add(this->star, /*proportion=*/1,
             wxSHAPED | wxALIGN_CENTER_VERTICAL | wxALIGN_LEFT,
@@ -46,10 +46,10 @@ void SystemWidget::add_ship(int who, Size s, Color c)
 void SystemWidget::update(const StarSystem *sys)
 {
     wxSizer *hbox = this->GetSizer();
-    this->star = NULL;
+    this->star = nullptr;
     hbox->Clear(true);
 
-    if (sys == NULL) {
+    if (sys == nullptr) {
         return;
     }
 

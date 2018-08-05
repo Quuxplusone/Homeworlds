@@ -336,7 +336,7 @@ int ai_static_evaluation(const GameState &state_before_move,
     const GameState &st = st_;
 
     const int defender = 1-attacker;
-    const StarSystem *hw[2] = { NULL, NULL };
+    const StarSystem *hw[2] = { nullptr, nullptr };
     bool can_build[2][4] = {};
     bool has_factory[2] = {};
     bool has_gun[2] = {};
@@ -359,8 +359,8 @@ int ai_static_evaluation(const GameState &state_before_move,
             }
         }
     }
-    assert(hw[0] != NULL);
-    assert(hw[1] != NULL);
+    assert(hw[0] != nullptr);
+    assert(hw[1] != nullptr);
 
     /* Check for factories. */
     bool medium_factory_possible = (st.stash.numberOf(GREEN,SMALL) == 0);

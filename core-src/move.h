@@ -59,23 +59,23 @@ class SingleAction {
     /* SingleAction(SACRIFICE, RED, SMALL, "Sacloc")
      * SingleAction(CAPTURE, RED, SMALL, "Caploc")
      * SingleAction(BUILD, RED, SMALL, "Buildloc") */
-    SingleAction(SingleActionKind k, Color c, Size s, const char *w):
+    explicit SingleAction(SingleActionKind k, Color c, Size s, const char *w):
       kind(k), where(w), color(c), size(s)
       { assert(k == SACRIFICE || k == CAPTURE || k == BUILD); }
     /* SingleAction(CATASTROPHE, RED, "Catloc") */
-    SingleAction(SingleActionKind k, Color c, const char *w):
+    explicit SingleAction(SingleActionKind k, Color c, const char *w):
       kind(k), where(w), color(c)
       { assert(k == CATASTROPHE); }
     /* SingleAction(MOVE, RED, SMALL, "Fromloc", "Toloc") */
-    SingleAction(SingleActionKind k, Color c, Size s, const char *w, const char *wr):
+    explicit SingleAction(SingleActionKind k, Color c, Size s, const char *w, const char *wr):
       kind(k), where(w), whither(wr), color(c), size(s)
       { assert(k == MOVE); }
     /* SingleAction(MOVE_CREATE, RED, SMALL, "Fromloc", "Toloc", BLUE, MEDIUM) */
-    SingleAction(SingleActionKind k, Color c, Size s, const char *w, const char *wr, Color nc, Size ns):
+    explicit SingleAction(SingleActionKind k, Color c, Size s, const char *w, const char *wr, Color nc, Size ns):
       kind(k), where(w), whither(wr), color(c), size(s), newcolor(nc), newsize(ns)
       { assert(k == MOVE_CREATE); }
     /* SingleAction(CONVERT, RED, SMALL, BLUE, "Atloc") */
-    SingleAction(SingleActionKind k, Color c, Size s, Color nc, const char *w):
+    explicit SingleAction(SingleActionKind k, Color c, Size s, Color nc, const char *w):
       kind(k), where(w), color(c), size(s), newcolor(nc), newsize(s)
       { assert(k == CONVERT); }
 };
@@ -96,9 +96,9 @@ class WholeMove {
 
     std::string toString() const;
     bool scan(const char *text);
-    WholeMove() { assert(this->isPass()); }
-    WholeMove(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }
-    WholeMove(const std::string &text) { const bool UNUSED(rc) = scan(text.c_str()); assert(rc); }
-    WholeMove(const WholeMove &m, const SingleAction &a): actions(m.actions)
+    explicit WholeMove() { assert(this->isPass()); }
+    explicit WholeMove(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }
+    explicit WholeMove(const std::string &text) : WholeMove(text.c_str()) {}
+    explicit WholeMove(const WholeMove &m, const SingleAction &a): actions(m.actions)
         { *this += a; }
 };

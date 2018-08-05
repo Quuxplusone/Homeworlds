@@ -9,8 +9,9 @@ inline char *PieceCollection::toComparableString(char buffer[MAXSTRLEN+1], unsig
 {
     const signed char *ptr = &pieces[0][0];
     for (int i=0; i < 12; ++i) {
-        for (int j=0; j < ptr[i]; ++j)
-          *buffer++ = 'A' + i + mask;
+        for (int j=0; j < ptr[i]; ++j) {
+            *buffer++ = 'A' + i + mask;
+        }
     }
     return buffer;
 }
@@ -44,7 +45,7 @@ inline std::string GameState::toComparableString() const
     char *bp = homeworlds;
     for (int i=0; i < NUMPLAYERS; ++i) {
         const StarSystem *hw = homeworldOf(i);
-        if (hw != NULL) {
+        if (hw != nullptr) {
             bp = hw->toComparableString(bp);
         } else {
             *bp++ = '!';

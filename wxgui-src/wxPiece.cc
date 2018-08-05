@@ -164,9 +164,9 @@ void PieceWidget::OnSize(wxSizeEvent &)
 
 void PieceWidget::mouseup()
 {
-    assert(thing_being_dragged != NULL);
+    assert(thing_being_dragged != nullptr);
     SystemWidget *sw = (SystemWidget *)this->GetParent();
-    assert(sw != NULL);
+    assert(sw != nullptr);
     if (type_of_thing_being_dragged == DT_STASHITEM) {
         StashItem *si = (StashItem *)thing_being_dragged;
         StashWidget *stash = (StashWidget *)si->GetParent();
@@ -212,5 +212,5 @@ void PieceWidget::mouseup()
         /* Dragging an unfriendly ship to another system is not allowed.
          * Dragging a star to another system is not allowed. */
     }
-    thing_being_dragged = NULL;
+    thing_being_dragged = nullptr;
 }

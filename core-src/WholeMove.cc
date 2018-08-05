@@ -540,13 +540,13 @@ bool WholeMove::scan(const char *text)
         assert(this->isPass());
         return true;
     }
-    char *buffer = NULL;
+    char *buffer = nullptr;
     FreeOnReturn<char *> fr(buffer);
     const char *semicolon;
     while (*text != '\0') {
         bool success;
         semicolon = strchr(text, ';');
-        if (semicolon == NULL) {
+        if (semicolon == nullptr) {
             success = scan_for_multibuild(text, actions)
                    || scan_for_multicapture(text, actions)
                    || scan_for_multimove(text, actions);
@@ -559,7 +559,7 @@ bool WholeMove::scan(const char *text)
         } else {
             if (semicolon[1] != ' ') return false;
             buffer = (char *)realloc(buffer, semicolon - text + 1);
-            assert(buffer != NULL);
+            assert(buffer != nullptr);
             memcpy(buffer, text, semicolon - text);
             buffer[semicolon - text] = '\0';
             success = scan_for_multibuild(buffer, actions)

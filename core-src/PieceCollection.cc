@@ -75,7 +75,7 @@ PieceCollection &PieceCollection::operator += (const PieceCollection &rhs)
  * something onto the end of the string. */
 char *PieceCollection::toString(char *buffer) const
 {
-    assert(buffer != NULL);
+    assert(buffer != nullptr);
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
             for (int i=0; i < this->pieces[c][s]; ++i) {

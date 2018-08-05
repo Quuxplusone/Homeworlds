@@ -90,7 +90,7 @@ void get_all_moves_sorted_by_value(const GameState &st,
     retmoves.resize(n);
     if (rate_moves) {
         const StarSystem *attacker_hw = st.homeworldOf(attacker);
-        assert(attacker_hw != NULL);
+        assert(attacker_hw != nullptr);
         printf("%s has %d possible moves.\n", attacker_hw->name.c_str(), n);
         for (int i=0; i < n && i < 10; ++i) {
             printf("value=%d: %s\n", values[i].value,
@@ -115,7 +115,7 @@ WholeMove get_ai_move(const GameState &st, int attacker)
             continue;
         }
         /* This move is okay. */
-        reassignPlanetNames(bestmove, st, NULL);
+        reassignPlanetNames(bestmove, st, nullptr);
         return bestmove;
     }
     /* All possible moves led into check! */

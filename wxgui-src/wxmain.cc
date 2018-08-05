@@ -133,7 +133,7 @@ bool GameApp::OnInit()
     TransformProcessType(&PSN,kProcessTransformToForegroundApplication);
 #endif /* __WXMAC__ */
 
-    mainwindow = new wxFrame(NULL, wxID_MAINWINDOW, wxT("Homeworlds"), wxDefaultPosition, wxDefaultSize);
+    mainwindow = new wxFrame(nullptr, wxID_MAINWINDOW, wxT("Homeworlds"), wxDefaultPosition, wxDefaultSize);
 
     wxMenuBar *menubar = new wxMenuBar;
     wxMenu *filemenu = new wxMenu;
@@ -212,7 +212,7 @@ bool GameApp::OnInit()
 static void do_error(const std::string &msg)
 {
     wxString wmsg(msg.c_str(), wxConvLocal);
-    wxMessageDialog mdg(NULL, wmsg, wxT("Error"), wxOK | wxICON_ERROR);
+    wxMessageDialog mdg(nullptr, wmsg, wxT("Error"), wxOK | wxICON_ERROR);
     mdg.ShowModal();
 }
 
@@ -223,9 +223,9 @@ void GameApp::new_game_core()
     ng.newGame();
     this->history.setup(ng);
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(gp != NULL);
-    assert(gp->attacker_homeworld != NULL);
-    assert(gp->stash != NULL);
+    assert(gp != nullptr);
+    assert(gp->attacker_homeworld != nullptr);
+    assert(gp->stash != nullptr);
     gp->update(this->history.currentstate());
     global_attacker = this->history.current_attacker();
     mainwindow->SetTitle(wxT("Homeworlds - Untitled Game"));
@@ -246,7 +246,7 @@ void GameApp::load_game(wxCommandEvent &)
     wxString basename = fdg.GetFilename();
     wxFFile in(fullname, wxT("r"));
     if (!in.IsOpened()) {
-        wxMessageDialog mdg(NULL, wxT("File not found"), wxT("Error"), wxOK | wxICON_ERROR);
+        wxMessageDialog mdg(nullptr, wxT("File not found"), wxT("Error"), wxOK | wxICON_ERROR);
         mdg.ShowModal();
         return;
     }
@@ -262,14 +262,14 @@ void GameApp::load_game(wxCommandEvent &)
             return;
         }
     }
-    assignPlanetNames(initialState, NULL);
+    assignPlanetNames(initialState, nullptr);
     StarSystem *hw = initialState.homeworldOf(0);
-    if (hw == NULL) {
+    if (hw == nullptr) {
         do_error("The initial homeworld setup didn't include Player 0's homeworld!");
         return;
     }
     hw = initialState.homeworldOf(1);
-    if (hw == NULL) {
+    if (hw == nullptr) {
         do_error("The initial homeworld setup didn't include Player 1's homeworld!");
         return;
     }
@@ -278,10 +278,10 @@ void GameApp::load_game(wxCommandEvent &)
     newhistory.setup(initialState);
     /* Now read the history of the new game, move by move. */
     int attacker = 0;
-    char *moveline = NULL;
+    char *moveline = nullptr;
     while (1) {
         char *result = fgetline_113(&moveline, in.fp());
-        if (result == NULL) {
+        if (result == nullptr) {
             break;
         }
         assert(result == moveline);
@@ -328,7 +328,7 @@ void GameApp::load_game(wxCommandEvent &)
     this->history = newhistory;
 
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(gp != NULL);
+    assert(gp != nullptr);
     gp->update(this->history.currentstate());
     global_attacker = this->history.current_attacker();
     just_started_new_game = false;
@@ -341,23 +341,23 @@ void GameApp::done_starting_position()
 {
     assert(just_started_new_game);
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(gp != NULL);
+    assert(gp != nullptr);
     SystemWidget *my_homeworld = (global_attacker == 0) ? gp->attacker_homeworld : gp->defender_homeworld;
-    assert(my_homeworld != NULL);
-    if (my_homeworld->star == NULL) {
+    assert(my_homeworld != nullptr);
+    if (my_homeworld->star == nullptr) {
         return do_error("You haven't selected a star for your homeworld system!");
     }
     wxSizer *gs = my_homeworld->GetSizer();
     wxSizerItem *it = gs->GetItem(1);
-    if (it == NULL) {
+    if (it == nullptr) {
         return do_error("You haven't selected a ship for your homeworld system!");
     }
-    assert(it->GetWindow() != NULL);
+    assert(it->GetWindow() != nullptr);
     assert(((PieceWidget*)it->GetWindow())->whose == global_attacker);
     if (gs->GetItem(2)) {
         /* Allow the user to set up more interesting positions, but warn
          * about them. */
-        wxMessageDialog mdg(NULL,
+        wxMessageDialog mdg(nullptr,
                 wxT("Your homeworld system should contain only one starting ship."
                         " Do you want to continue with this easier setup anyway?"),
                 wxT("Error"), wxYES_NO | wxNO_DEFAULT | wxICON_ERROR);
@@ -368,7 +368,7 @@ void GameApp::done_starting_position()
     if (gp->num_systems != 0) {
         /* Allow the user to set up more interesting positions, but warn
          * about them. */
-        wxMessageDialog mdg(NULL,
+        wxMessageDialog mdg(nullptr,
                 wxT("The starting position should not contain any star systems"
                         " besides the two homeworlds."
                         " Do you want to continue with this setup anyway?"),
@@ -405,7 +405,7 @@ static bool reassign_a_name_cleverly(const GameState &st, WholeMove &m,
      * that system according to whatever its name is in "target". */
     for (int i=0; i < n; ++i) {
         const StarSystem &ss = stplusm.stars[i];
-        if (target.systemNamed(ss.name.c_str()) != NULL) {
+        if (target.systemNamed(ss.name.c_str()) != nullptr) {
             continue;
         }
         /* Find a system in target that looks just like this one,
@@ -450,7 +450,7 @@ void GameApp::done_move(wxCommandEvent &)
         return;
     }
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(gp != NULL);
+    assert(gp != nullptr);
     GameState oldstate = this->history.currentstate();
     GameState targetstate = gp->to_state();
     std::string target = targetstate.toComparableString();
@@ -502,7 +502,7 @@ void GameApp::done_move(wxCommandEvent &)
 void GameApp::clear_move(wxCommandEvent &)
 {
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(gp != NULL);
+    assert(gp != nullptr);
     gp->update(this->history.currentstate());
     mainwindow->SetStatusText(wxT(""));
 }
@@ -527,7 +527,7 @@ static bool setup_ai(GameState &st, StarSystem &hw)
         const Size s2 = Size((s1+1+randint0(2)) % 3);
         hw.star.insert(c1, s1);
         hw.star.insert(c2, s2);
-        if (opponent_hw != NULL) {
+        if (opponent_hw != nullptr) {
             /* Make sure the homeworlds are as far apart as possible.
              * This condition disallows (r1y1, g2b3) and (r1y2, g1b2)
              * while still allowing (r1y1, g1b2) and (r1y2, g1b3). */
@@ -558,7 +558,7 @@ static bool setup_ai(GameState &st, StarSystem &hw)
 void GameApp::ai_starting_position()
 {
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(gp != NULL);
+    assert(gp != nullptr);
     assert(just_started_new_game);
     if (global_attacker == 0) {
         GameState st;
@@ -574,13 +574,13 @@ void GameApp::ai_starting_position()
     } else {
         assert(global_attacker == 1);
         GameState st = gp->to_state();
-        if (st.homeworldOf(0) == NULL || st.homeworldOf(0)->ships[0].empty()) {
+        if (st.homeworldOf(0) == nullptr || st.homeworldOf(0)->ships[0].empty()) {
             do_error("The AI cannot create a homeworld system for Player 1 when Player 0's homeworld system is empty!");
             return;
         }
-        assert(st.homeworldOf(0) != NULL);
+        assert(st.homeworldOf(0) != nullptr);
         StarSystem *hw = st.homeworldOf(1);
-        if (hw == NULL) {
+        if (hw == nullptr) {
             st.stars.push_back(StarSystem("Bender"));
             hw = &st.stars.back();
             hw->homeworldOf = 1;
@@ -607,7 +607,7 @@ void GameApp::ai_move(wxCommandEvent &)
         return;
     }
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-    assert(gp != NULL);
+    assert(gp != nullptr);
     GameState st = this->history.currentstate();
     if (st.gameIsOver()) {
         mainwindow->SetStatusText(wxT("The game is already over!"));
@@ -627,7 +627,7 @@ void GameApp::undo_move(wxCommandEvent &)
     const bool success = this->history.undo();
     if (success) {
         GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-        assert(gp != NULL);
+        assert(gp != nullptr);
         gp->update(this->history.currentstate());
         global_attacker = this->history.current_attacker();
         mainwindow->SetStatusText(wxT(""));
@@ -642,7 +642,7 @@ void GameApp::redo_move(wxCommandEvent &)
     const bool success = this->history.redo();
     if (success) {
         GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
-        assert(gp != NULL);
+        assert(gp != nullptr);
         gp->update(this->history.currentstate());
         global_attacker = this->history.current_attacker();
         mainwindow->SetStatusText(wxT(""));
@@ -655,7 +655,7 @@ void GameApp::redo_move(wxCommandEvent &)
 void GameApp::about(wxCommandEvent &)
 {
     mainwindow->SetStatusText(wxT(""));
-    wxMessageDialog adg(NULL,
+    wxMessageDialog adg(nullptr,
         wxT("Homeworlds GUI AI\nArthur O'Dwyer\nFreeware\n\nHomeworlds is a chess-like game of strategy and tactics. For more information, see the Help menu."),
         wxT("About Homeworlds"),
         wxOK | wxICON_INFORMATION);

@@ -22,7 +22,7 @@ const char *StarSystem::make_random_name(const GameState *st)
          * counter and try again. There certainly can't be 65536 stars
          * in the galaxy; there aren't that many pieces in the stash!
          */
-    } while (st != NULL && st->systemNamed(buffer) != NULL);
+    } while (st != nullptr && st->systemNamed(buffer) != nullptr);
     assert(StarSystem::is_valid_name(buffer));
     return buffer;
 }
@@ -94,7 +94,7 @@ bool StarSystem::scan(const char *text)
     }
 
     const char *paren = strchr(text, '(');
-    if (paren == NULL) {
+    if (paren == nullptr) {
         return false;
     } else if (paren == text) {
         name = "";
@@ -126,7 +126,7 @@ bool StarSystem::scan(const char *text)
     /* Everything between the current "text" pointer and the following ')'
      * must be the pieces that make up the star itself. */
     paren = strchr(text, ')');
-    if (paren == NULL) return false;
+    if (paren == nullptr) return false;
     std::string star_pieces(text, paren-text);
     if (!star.scan(star_pieces.c_str())) {
         return false;
@@ -138,7 +138,7 @@ bool StarSystem::scan(const char *text)
     for (int i=0; i < NUMPLAYERS; ++i) {
         const char sentinel = (i == NUMPLAYERS-1) ? '\0' : '-';
         const char *dash = strchr(text, sentinel);
-        if (dash == NULL) return false;
+        if (dash == nullptr) return false;
         /* Note that PieceCollection::scan("") returns false, so if
          * the piecelist is empty, we just skip the call to scan(). */
         if (dash != text) {

@@ -124,7 +124,7 @@ bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
         all_colors
     );
     if (!winning_moves.empty()) {
-        if (move != NULL) {
+        if (move != nullptr) {
             *move = winning_moves[0];
         }
         return true;
@@ -259,7 +259,7 @@ static void combine_precatastrophes(const WholeMove &m,
         /* Get all the possible moves if we do catastrophe this color here. */
         Color color = posscats[pc].color;
         const StarSystem *where = st.systemNamed(posscats[pc].name.c_str());
-        if (where == NULL) {
+        if (where == nullptr) {
             /* There was already a catastrophe at this star; it blew up
              * the entire star. Keep going, but obviously we can't
              * perform this catastrophe. */
@@ -270,15 +270,15 @@ static void combine_precatastrophes(const WholeMove &m,
         WholeMove newm(m, newaction);
         GameState newst = st;
         ApplyMove::or_die(newst, attacker, newaction);
-        if (where->homeworldOf == attacker && newst.homeworldOf(attacker) == NULL) {
+        if (where->homeworldOf == attacker && newst.homeworldOf(attacker) == nullptr) {
             /* A catastrophe that blows up our own homeworld isn't allowed. */
         } else {
-            assert(newst.homeworldOf(attacker) != NULL);
+            assert(newst.homeworldOf(attacker) != nullptr);
             /* This catastrophe is allowed. Get all the possible moves if we do
              * catastrophe this color here. */
             if (all.prune_worse_moves &&
                 where->homeworldOf == defender &&
-                newst.homeworldOf(defender) == NULL &&
+                newst.homeworldOf(defender) == nullptr &&
                 !newst.homeworldOf(attacker)->containsOverpopulation() &&
                 !newst.hasLost(attacker)) {
                 /* A catastrophe that blows up the defender's homeworld is
@@ -394,7 +394,7 @@ static void combine_normal(const WholeMove &m,
                 WholeMove newm(m, newaction);
                 GameState newst = st;
                 ApplyMove::or_die(newst, attacker, newaction);
-                assert(newst.homeworldOf(attacker) != NULL);
+                assert(newst.homeworldOf(attacker) != nullptr);
                 const int num_moves = 1+(int)s;
                 combine_n_actions(newm, c, num_moves, newst, attacker, all);
             }
@@ -415,7 +415,7 @@ static void combine_n_actions(const WholeMove &m, Color color, int num_moves,
     assert(1 <= num_moves && num_moves <= 3);
     /* We could just pass at this point (after sacrificing a ship and
      * taking all but "num_moves" of our available actions). */
-    assert(st.homeworldOf(attacker) != NULL);
+    assert(st.homeworldOf(attacker) != nullptr);
     if (color != YELLOW || !st.homeworldOf(attacker)->ships[attacker].empty()) {
         finish_combine_one_action(m, color, 0, st, attacker, all);
     }
@@ -517,7 +517,7 @@ static void combine_one_yellow_action(const WholeMove &m,
      * or if we started by blowing up all the friendly ships at
      * home, we need to make sure that we wind up with a ship
      * at our own homeworld. */
-    assert(st.homeworldOf(attacker) != NULL);
+    assert(st.homeworldOf(attacker) != nullptr);
     const bool must_fly_homeward = (num_more_moves == 0 &&
             where.homeworldOf != attacker &&
             st.homeworldOf(attacker)->ships[attacker].empty());
@@ -554,7 +554,7 @@ static void combine_one_yellow_action(const WholeMove &m,
                 WholeMove newm(m, newaction);
                 GameState newst = st;
                 ApplyMove::or_die(newst, attacker, newaction);
-                assert(newst.homeworldOf(attacker) != NULL);
+                assert(newst.homeworldOf(attacker) != nullptr);
                 finish_combine_one_action(newm, YELLOW, num_more_moves, newst, attacker, all);
             }
         }
@@ -577,7 +577,7 @@ static void combine_one_yellow_action(const WholeMove &m,
                     WholeMove newm(m, newaction);
                     GameState newst = st;
                     ApplyMove::or_die(newst, attacker, newaction);
-                    assert(newst.homeworldOf(attacker) != NULL);
+                    assert(newst.homeworldOf(attacker) != nullptr);
                     finish_combine_one_action(newm, YELLOW, num_more_moves, newst, attacker, all);
                 }
             }
@@ -709,7 +709,7 @@ static void combine_postcatastrophes(const WholeMove &m,
     if (pc < (int)posscats.size()) {
         const Color color = posscats[pc].color;
         const StarSystem *where = st.systemNamed(posscats[pc].name.c_str());
-        if (where == NULL) {
+        if (where == nullptr) {
             /* If a star has two possible post-catastrophes, then the
              * first catastrophe could blow up the whole star. */
             combine_postcatastrophes(m, posscats, pc+1, st, attacker, all);
