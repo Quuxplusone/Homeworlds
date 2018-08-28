@@ -35,7 +35,7 @@ getline.o: core-src/getline.c core-src/getline.h
 	${CXX} ${CFLAGS} ${CXXFLAGS} $< -c -o $@
 
 %.o: wxgui-src/%.cc wxgui-src/*.h core-src/*.h
-	${CXX} ${CFLAGS} ${CXXFLAGS} $< `wx-config --cppflags` -c -o $@
+	${CXX} ${CFLAGS} ${CXXFLAGS} $< `wx-config --cppflags` -Wno-potentially-evaluated-expression -c -o $@
 
 clean:
 	rm -f *.o annotate wxgui
