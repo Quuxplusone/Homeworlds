@@ -18,11 +18,17 @@ public:
 };
 
 
-static bool has(const char *text, const char *prefix)
+template<class... ConstCharPtr>
+static bool advance_past(const char *&text, ConstCharPtr... prefixes)
 {
-    return (strncmp(text, prefix, strlen(prefix)) == 0);
+    for (const char *prefix : {prefixes...}) {
+        if (strncmp(text, prefix, strlen(prefix)) == 0) {
+            text += strlen(prefix);
+            return true;
+        }
+    }
+    return false;
 }
-
 
 static bool scan_piece(const char *&text, Color &color, Size &size)
 {
@@ -121,10 +127,9 @@ static bool scan_for_multibuild(const char *text, std::vector<SingleAction> &act
     Color c1, c2, c3;
     Size s1, s2, s3;
     const char *where;
-    if (!has(text, "build ")) {
+    if (!advance_past(text, "build ")) {
         return false;
     }
-    text += 6;
     const bool got_first = scan_piece(text, c1, s1);
     if (!got_first) return false;
     const bool got_second = scan_piece(text, c2, s2);
@@ -132,8 +137,7 @@ static bool scan_for_multibuild(const char *text, std::vector<SingleAction> &act
     const bool got_third = scan_piece(text, c3, s3);
     if (*text == '\0') {
         where = "";
-    } else if (has(text, " at ")) {
-        text += 4;
+    } else if (advance_past(text, " at ", " in ")) {
         if (!StarSystem::is_valid_name(text)) return false;
         where = text;
     } else {
@@ -152,10 +156,9 @@ static bool scan_for_multicapture(const char *text, std::vector<SingleAction> &a
     Color c1, c2, c3;
     Size s1, s2, s3;
     const char *where;
-    if (!has(text, "capture ")) {
+    if (!advance_past(text, "capture ")) {
         return false;
     }
-    text += 8;
     const bool got_first = scan_piece(text, c1, s1);
     if (!got_first) return false;
     const bool got_second = scan_piece(text, c2, s2);
@@ -163,8 +166,7 @@ static bool scan_for_multicapture(const char *text, std::vector<SingleAction> &a
     const bool got_third = scan_piece(text, c3, s3);
     if (*text == '\0') {
         where = "";
-    } else if (has(text, " at ")) {
-        text += 4;
+    } else if (advance_past(text, " at ", " in ")) {
         if (!StarSystem::is_valid_name(text)) return false;
         where = text;
     } else {
@@ -184,18 +186,16 @@ static bool scan_for_multimove(const char *text, std::vector<SingleAction> &acti
     Size s1, s2, s3;
     std::string where;
     std::string whither;
-    if (!has(text, "move ")) {
+    if (!advance_past(text, "move ")) {
         return false;
     }
-    text += 5;
     const bool got_first = scan_piece(text, c1, s1);
     if (!got_first) return false;
     const bool got_second = scan_piece(text, c2, s2);
     if (!got_second) return false;
     const bool got_third = scan_piece(text, c3, s3);
     where = "";
-    if (has(text, " from ")) {
-        text += 6;
+    if (advance_past(text, " from ")) {
         const char *endwhere = text;
         while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
         std::string just_the_where(text, endwhere);
@@ -203,8 +203,9 @@ static bool scan_for_multimove(const char *text, std::vector<SingleAction> &acti
         if (!StarSystem::is_valid_name(where.c_str())) return false;
         text = endwhere;
     }
-    if (!has(text, " to ")) return false;
-    text += 4;
+    if (!advance_past(text, " to ")) {
+        return false;
+    }
     const char *endwhither = text;
     while (*endwhither != '\0' && *endwhither != ' ') ++endwhither;
     std::string just_the_whither(text, endwhither);
@@ -219,11 +220,9 @@ static bool scan_for_multimove(const char *text, std::vector<SingleAction> &acti
     } else {
         Color newcolor;
         Size newsize;
-        if (!has(text, " (")) return false;
-        text += 2;
+        if (!advance_past(text, " (")) return false;
         if (!scan_piece(text, newcolor, newsize)) return false;
-        if (!has(text, ")")) return false;
-        text += 1;
+        if (!advance_past(text, ")")) return false;
         if (*text != '\0') return false;
         actions.push_back(SingleAction(MOVE_CREATE, c1, s1, where.c_str(), whither.c_str(), newcolor, newsize));
     }
@@ -236,89 +235,59 @@ static bool scan_for_multimove(const char *text, std::vector<SingleAction> &acti
 
 bool SingleAction::scan(const char *text)
 {
-    if (has(text, "catastrophe ") || has(text, "cat ")) {
-        this->kind = CATASTROPHE;
-        if (has(text, "cat ")) text += 4;
-        else text += 12;
-        if (has(text, "red")) { this->color = RED; text += 3; }
-        else if (has(text, "yellow")) { this->color = YELLOW; text += 6; }
-        else if (has(text, "green")) { this->color = GREEN; text += 5; }
-        else if (has(text, "blue")) { this->color = BLUE; text += 4; }
-        else if (has(text, "r")) { this->color = RED; text += 1; }
-        else if (has(text, "y")) { this->color = YELLOW; text += 1; }
-        else if (has(text, "g")) { this->color = GREEN; text += 1; }
-        else if (has(text, "b")) { this->color = BLUE; text += 1; }
-        else this->color = UNKNOWN_COLOR;
-        if (this->color != UNKNOWN_COLOR && has(text, " at ")) {
-            text += 4;
+    this->color = UNKNOWN_COLOR;
+    this->size = UNKNOWN_SIZE;
+    this->where = ""; /* don't know */
+    this->newcolor = UNKNOWN_COLOR;
+    this->newsize = UNKNOWN_SIZE;
+    this->whither = ""; /* don't know */
+
+    auto get_trailing_where = [&]() {
+        if (advance_past(text, "at ", "in ", "")) {
             if (!StarSystem::is_valid_name(text)) return false;
             this->where = text;
-        } else if (this->color == UNKNOWN_COLOR && has(text, "at ")) {
-            text += 3;
-            if (!StarSystem::is_valid_name(text)) return false;
-            this->where = text;
-        } else {
-            if (*text != '\0') return false;
-            this->where = ""; /* don't know */
+            return true;
         }
-        return true;
-    } else if (!strcmp(text, "catastrophe") || !strcmp(text, "cat")) {
+        return false;
+    };
+
+    if (advance_past(text, "catastrophe", "cat")) {
         this->kind = CATASTROPHE;
-        this->color = UNKNOWN_COLOR;
-        this->where = ""; /* don't know */
-        return true;
-    } else if (has(text, "sacrifice ") || has(text, "sac ")) {
+        if (advance_past(text, " red", " r")) {
+            this->color = RED;
+        } else if (advance_past(text, " yellow", " y")) {
+            this->color = YELLOW;
+        } else if (advance_past(text, " green", " g")) {
+            this->color = GREEN;
+        } else if (advance_past(text, " blue", " b")) {
+            this->color = BLUE;
+        }
+        if (*text == '\0') return true;
+        if (!advance_past(text, " ")) return false;
+        return get_trailing_where();
+    } else if (advance_past(text, "sacrifice", "sac")) {
         this->kind = SACRIFICE;
-        if (has(text, "sac ")) text += 4;
-        else text += 10;
+        if (*text == '\0') return true;
+        if (!advance_past(text, " ")) return false;
         if (scan_piece(text, this->color, this->size)) {
-            if (has(text, " ")) {
-                ++text;
-            } else if (*text != '\0') {
-                return false;
-            }
+            if (*text == '\0') return true;
+            if (!advance_past(text, " ")) return false;
         }
-        if (has(text, "at ")) {
-            text += 3;
-            if (!StarSystem::is_valid_name(text)) return false;
-            this->where = text;
-        } else {
-            if (*text != '\0') return false;
-            this->where = ""; /* don't know */
-        }
-        return true;
-    } else if (!strcmp(text, "sacrifice") || !strcmp(text, "sac")) {
-        this->kind = SACRIFICE;
-        this->color = UNKNOWN_COLOR;
-        this->size = UNKNOWN_SIZE;
-        this->where = ""; /* don't know */
-        return true;
-    } else if (has(text, "capture ")) {
+        return get_trailing_where();
+    } else if (advance_past(text, "capture", "attack")) {
         this->kind = CAPTURE;
-        text += 8;
-        if (!scan_piece(text, this->color, this->size)) return false;
-        if (has(text, " at ")) {
-            text += 4;
-            if (!StarSystem::is_valid_name(text)) return false;
-            this->where = text;
-        } else {
-            if (*text != '\0') return false;
-            this->where = ""; /* don't know */
+        if (*text == '\0') return true;
+        if (!advance_past(text, " ")) return false;
+        if (scan_piece(text, this->color, this->size)) {
+            if (*text == '\0') return true;
+            if (!advance_past(text, " ")) return false;
         }
-        return true;
-    } else if (!strcmp(text, "capture")) {
-        this->kind = CAPTURE;
-        this->color = UNKNOWN_COLOR;
-        this->size = UNKNOWN_SIZE;
-        this->where = ""; /* don't know */
-        return true;
-    } else if (has(text, "move ")) {
+        return get_trailing_where();
+    } else if (advance_past(text, "move ")) {
         this->kind = MOVE;
-        text += 5;
         if (!scan_piece(text, this->color, this->size)) return false;
         this->where = "";
-        if (has(text, " from ")) {
-            text += 6;
+        if (advance_past(text, " from ")) {
             const char *endwhere = text;
             while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
             std::string just_the_where(text, endwhere);
@@ -326,8 +295,7 @@ bool SingleAction::scan(const char *text)
             if (!StarSystem::is_valid_name(this->where.c_str())) return false;
             text = endwhere;
         }
-        if (!has(text, " to ")) return false;
-        text += 4;
+        if (!advance_past(text, " to ")) return false;
         const char *endwhither = text;
         while (*endwhither != '\0' && *endwhither != ' ') ++endwhither;
         std::string just_the_whither(text, endwhither);
@@ -339,92 +307,57 @@ bool SingleAction::scan(const char *text)
          * example, "move y1 from Homeworld to Alpha (r2)". */
         if (*text == '\0') return true;
         this->kind = MOVE_CREATE;
-        if (!has(text, " (")) return false;
-        text += 2;
+        if (!advance_past(text, " (")) return false;
         if (!scan_piece(text, this->newcolor, this->newsize)) return false;
-        if (!has(text, ")")) return false;
-        text += 1;
+        if (!advance_past(text, ")")) return false;
         if (*text != '\0') return false;
         return true;
-    } else if (has(text, "build ")) {
+    } else if (advance_past(text, "build")) {
         this->kind = BUILD;
-        text += 6;
+        if (*text == '\0') return true;
+        if (!advance_past(text, " ")) return false;
         if (scan_piece(text, this->color, this->size)) {
-            if (*text == ' ') {
-                ++text;
-            } else if (*text == '\0') {
-                this->where = "";
-                return true;
-            } else {
-                return false;
-            }
-        } else {
-            this->color = UNKNOWN_COLOR;
-            this->size = UNKNOWN_SIZE;
+            if (*text == '\0') return true;
+            if (!advance_past(text, " ")) return false;
         }
-        if (has(text, "at ")) {
-            text += 3;
-            if (!StarSystem::is_valid_name(text)) return false;
-            this->where = text;
-        } else {
-            if (*text != '\0') return false;
-            this->where = ""; /* don't know */
-        }
-        return true;
-    } else if (!strcmp(text, "build")) {
-        this->kind = BUILD;
-        this->color = UNKNOWN_COLOR;
-        this->size = UNKNOWN_SIZE;
-        this->where = ""; /* don't know */
-        return true;
-    } else if (has(text, "convert ") || has(text, "swap ")) {
+        return get_trailing_where();
+    } else if (advance_past(text, "convert", "trade", "swap")) {
         this->kind = CONVERT;
-        text += ((*text == 's') ? 5 : 8);
+        if (*text == '\0') return true;
+        if (!advance_past(text, " ")) return false;
         if (scan_piece(text, this->color, this->size)) {
-            if (*text == ' ') {
-                ++text;
-            } else {
-                return false;
-            }
+            if (!advance_past(text, " ")) return false;
         }
         bool got_where_already = false;
-        if (has(text, "at ")) {
-            text += 3;
+        if (advance_past(text, "at ", "in ")) {
             const char *endwhere = text;
             while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
             std::string just_the_where(text, endwhere);
-            where = just_the_where;
+            where = std::move(just_the_where);
             if (!StarSystem::is_valid_name(this->where.c_str())) return false;
             text = endwhere;
-            if (*text == ' ') {
-                ++text;
-            } else {
+            if (!advance_past(text, " ")) {
                 return false;
             }
             got_where_already = true;
         }
-        if (!has(text, "to ")) return false;
-        text += 3;
+        if (!advance_past(text, "to ", "for ", "")) return false;
         if (!scan_piece(text, this->newcolor, this->newsize)) return false;
         if (this->size == UNKNOWN_SIZE) {
             this->size = this->newsize;
-        }
-        if (this->newsize == UNKNOWN_SIZE) {
+        } else if (this->newsize == UNKNOWN_SIZE) {
             this->newsize = this->size;
+        } else if (this->newsize != this->size) {
+            return false;
         }
-        if (this->newsize != this->size) return false;
         if (got_where_already) {
             assert(!this->where.empty());
-            if (*text != '\0') return false;
-        } else if (has(text, " at ")) {
-            text += 4;
-            if (!StarSystem::is_valid_name(text)) return false;
-            this->where = text;
-        } else {
-            if (*text != '\0') return false;
-            this->where = ""; /* don't know */
+            return (*text == '\0');
         }
-        return true;
+
+        if (*text == '\0') return true;
+        if (!advance_past(text, " ")) return false;
+        return get_trailing_where();
     } else {
         return false;
     }
