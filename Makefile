@@ -19,7 +19,7 @@ AIOBJS = AllMoves.o AIMove.o AIStaticEval.o PlanetNames.o ${OBJS}
 
 all: annotate train-model wxgui
 
-annotate: annotatemain.o getline.o InferMove.o ${AIOBJS}
+annotate: annotatemain.o getline.o InferMove.o ${AIOBJS} NeuralNetAIMove.o
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
 
 train-model: TrainModel.o getline.o ${OBJS}

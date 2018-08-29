@@ -13,20 +13,29 @@
 struct EvaluatorTrainer {
     // [0]: States we have seen in real games where player 0 ended up winning.
     // [1]: States we have seen in real games where player 1 ended up winning.
-    std::vector<Vector<100>> training_set[2];
+    std::vector<std::vector<double>> training_set[2];
 
-    using NetType = Net<200, 20, 1>;
-    std::unique_ptr<NetType> net;
+    Net net{{200, 100, 50, 1}};
     GameStateEncoder *encoder;
 
-    EvaluatorTrainer(GameStateEncoder *e) {
+    explicit EvaluatorTrainer(GameStateEncoder *e) {
         encoder = e;
-        this->net = std::make_unique<NetType>();
+    }
+
+    static int identifyWinner(const GameState& st) {
+        if (st.hasLost(0)) {
+            if (!st.hasLost(1)) {
+                return 1;
+            }
+        } else if (st.hasLost(1)) {
+            return 0;
+        }
+        return -1;
     }
 
     void maybe_add_history_to_training_set(const History& h) {
-        int winner = h.currentstate().hasLost(0);
-        if (h.currentstate().hasLost(1-winner)) {
+        int winner = identifyWinner(h.currentstate());
+        if (winner != -1) {
             // This game has a clear winner and a clear loser.
             for (int i=0; i < h.hidx; ++i) {
                 const GameState& st = h.hvec[i+1].st;
@@ -44,30 +53,44 @@ struct EvaluatorTrainer {
         std::mt19937 g;
         printf("Training the evaluator on a set of %zu*%zu inputs...\n", winners.size(), losers.size());
 
-        net->set_learning_rate(0.005f);
         const int n = winners.size();
         for (int round = 0; round < 10; ++round) {
             std::shuffle(winners.begin(), winners.end(), g);
             std::shuffle(losers.begin(), losers.end(), g);
             printf("...Round %d\n", round);
             for (int i=0; i < n; ++i) {
-                train_single_position(winners[i].concat(losers[i]), 0.0f);
-                train_single_position(losers[i].concat(winners[i]), 1.0f);
+                train_single_position(vec_concat(winners[i], losers[i]), 0.0f);
+                train_single_position(vec_concat(losers[i], winners[i]), 1.0f);
             }
-            net->scale_learning_rate(0.98f);
+            std::shuffle(winners.begin(), winners.end(), g);
+            std::shuffle(losers.begin(), losers.end(), g);
+            printf("...Testing round %d\n", round);
+            int successes = 0;
+            for (int i=0; i < n; ++i) {
+                successes += test_single_position(vec_concat(winners[i], losers[i]), 0.0f);
+                successes += test_single_position(vec_concat(losers[i], winners[i]), 1.0f);
+            }
+            printf("Success rate is %d/%d (%.2f%% correct)\n", successes, 2*n, 50. * successes / n);
         }
     }
 
-    void train_single_position(const Vector<200>& in, float expected) {
-        Vector<1> out;
-        net->feed_forward(in, out);
-        Vector<1> out_error = (out - expected);
-        Vector<200> in_error;  // unused
-        net->backpropagate_error(in_error, in, out, out_error);
+    void train_single_position(const std::vector<double>& in, double expected) {
+        net.feedForward(in);
+        std::vector<double> out;
+        net.getResults(out);
+        net.backProp(std::vector<double>(1, expected));
+    }
+
+    int test_single_position(const std::vector<double>& in, double expected) {
+        net.feedForward(in);
+        std::vector<double> out;
+        net.getResults(out);
+        net.backProp(std::vector<double>(1, expected));
+        return (out[0] > 0.5) == (expected > 0.5);
     }
 
     void save_to_file(FILE *fp) const {
-        net->layer1.save_to_file(fp);
-        net->layer2.save_to_file(fp);
+        net.saveLayerToFile(0, fp);
+        net.saveLayerToFile(1, fp);
     }
 };

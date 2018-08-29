@@ -5,7 +5,7 @@
 #include <string.h>
 #include "global.h"
 #include "state.h"
-#include "Net.h"
+#include "MillerNet.h"
 
 
 struct State2VecVector {
@@ -20,12 +20,8 @@ struct State2VecVector {
         return memcmp(a.data, b.data, 900) == 0;
     }
 
-    Vector<900> to_vector() const {
-        Vector<900> result;
-        for (int i=0; i < 900; ++i) {
-            result[i] = data[i];
-        }
-        return result;
+    std::vector<double> to_vector() const {
+        return std::vector<double>(data, data+900);
     }
 
     std::string to_string() const {

@@ -103,6 +103,7 @@ void get_all_moves_sorted_by_value(const GameState &st,
     return;
 }
 
+#if 0
 WholeMove get_ai_move(const GameState &st, int attacker)
 {
     assert(!st.gameIsOver());
@@ -121,3 +122,4 @@ WholeMove get_ai_move(const GameState &st, int attacker)
     /* All possible moves led into check! */
     return WholeMove("pass");
 }
+#endif

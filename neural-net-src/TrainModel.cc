@@ -17,7 +17,7 @@
 #include "EvaluatorTrainer.h"
 #include "GameStateEncoder.h"
 #include "History.h"
-#include "Net.h"
+#include "MillerNet.h"
 #include "State2Vec.h"
 
 History g_History;
