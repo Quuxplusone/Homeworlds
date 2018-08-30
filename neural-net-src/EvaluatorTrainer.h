@@ -37,7 +37,11 @@ struct EvaluatorTrainer {
         int winner = identifyWinner(h.currentstate());
         if (winner != -1) {
             // This game has a clear winner and a clear loser.
-            for (int i=0; i < h.hidx; ++i) {
+            // Starting at the beginning of the game (when the position is
+            // basically a tie) won't help us much, so let's arbitrarily
+            // start halfway through the game.
+            int starting_turn = h.hidx / 2;
+            for (int i = starting_turn; i < h.hidx; ++i) {
                 const GameState& st = h.hvec[i+1].st;
                 training_set[winner].push_back(encoder->encode(st));
                 training_set[1-winner].push_back(encoder->encode(st.mirror()));
@@ -54,7 +58,7 @@ struct EvaluatorTrainer {
         printf("Training the evaluator on a set of %zu*%zu inputs...\n", winners.size(), losers.size());
 
         const int n = winners.size();
-        for (int round = 0; round < 10; ++round) {
+        for (int round = 0; round < 100; ++round) {
             std::shuffle(winners.begin(), winners.end(), g);
             std::shuffle(losers.begin(), losers.end(), g);
             printf("...Round %d\n", round);
@@ -76,8 +80,6 @@ struct EvaluatorTrainer {
 
     void train_single_position(const std::vector<double>& in, double expected) {
         net.feedForward(in);
-        std::vector<double> out;
-        net.getResults(out);
         net.backProp(std::vector<double>(1, expected));
     }
 
