@@ -44,7 +44,7 @@ static bool move_is_stupid_move_into_check(const GameState &st, int attacker, co
         return false;
     }
     /* Found a new killer move! */
-    killer[killeridx] = winmove;
+    killer[killeridx] = std::move(winmove);
     killeridx = (killeridx+1) % 8;
     return true;
 }
@@ -98,7 +98,7 @@ void get_all_moves_sorted_by_value(const GameState &st,
         }
     }
     for (int i=0; i < n; ++i) {
-        retmoves[i] = *values[i].move;
+        retmoves[i] = std::move(*values[i].move);
     }
     return;
 }
@@ -116,7 +116,7 @@ WholeMove get_ai_move(const GameState &st, int attacker)
         }
         /* This move is okay. */
         reassignPlanetNames(bestmove, st, nullptr);
-        return bestmove;
+        return std::move(bestmove);
     }
     /* All possible moves led into check! */
     return WholeMove("pass");
