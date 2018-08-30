@@ -120,30 +120,45 @@ void slurp_game(const char *fname)
 int main(int argc, char **argv)
 {
     std::string command = argv[1];
-    if (command == "encoder") {
+    if (command == "encoder-training-set") {
         AutoEncoderStage1 ae;
         for (int i=2; i < argc; ++i) {
             slurp_game(argv[i]);
             ae.add_history_to_training_set(g_History);
+            putchar('.'); fflush(stdout);
         }
+        FILE *fp = fopen("encoder_training_set.txt", "w");
+        ae.save_training_set_to_file(fp);
+        fclose(fp);
+    } else if (command == "encoder-weights") {
+        AutoEncoderStage1 ae;
+        FILE *fp = fopen("encoder_training_set.txt", "r");
+        ae.load_training_set_from_file(fp);
+        fclose(fp);
         ae.train();
         AutoEncoderStage2 ae2(&ae);
         ae2.train();
         AutoEncoderStage3 ae3(&ae2);
         ae3.train();
-        FILE *fp = fopen("encoder_weights.txt", "w");
+        fp = fopen("encoder_weights.txt", "w");
         ae3.save_to_file(fp);
         fclose(fp);
-    } else if (command == "evaluator") {
+    } else if (command == "evaluator-weights") {
         auto encoder = std::make_unique<GameStateEncoder>();
         FILE *fp = fopen("encoder_weights.txt", "r");
         encoder->load_from_file(fp);
         fclose(fp);
 
         EvaluatorTrainer e(encoder.get());
+        int count = 0;
+        int report = 16;
         for (int i=2; i < argc; ++i) {
             slurp_game(argv[i]);
             e.maybe_add_history_to_training_set(g_History);
+            if (++count == report) {
+                report <<= 1;
+                printf("%d...\n", count);
+            }
         }
         e.train();
         fp = fopen("evaluator_weights.txt", "w");

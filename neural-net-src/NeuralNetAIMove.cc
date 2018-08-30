@@ -23,7 +23,7 @@ WholeMove get_ai_move(const GameState &st, int attacker)
     for (WholeMove& move : allmoves) {
         GameState newst = st;
         ApplyMove::or_die(newst, attacker, move);
-        if (evaluator.is_worse_than(state_after_bestmove, newst)) {
+        if (evaluator.is_worse_than(state_after_bestmove, newst, attacker)) {
             bestmove = &move;
             state_after_bestmove = std::move(newst);
         }

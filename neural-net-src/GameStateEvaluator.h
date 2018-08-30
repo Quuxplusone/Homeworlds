@@ -24,12 +24,12 @@ struct GameStateEvaluator {
     void load_from_file(FILE *fp) {
         net.loadLayerFromFile(0, fp);
         net.loadLayerFromFile(1, fp);
+        net.loadLayerFromFile(2, fp);
     }
 
-    bool is_worse_than(const GameState& a, const GameState& b) {
-        net.feedForward(encoder.encode(a, b));
-        std::vector<double> out;
-        net.getResults(out);
+    bool is_worse_than(const GameState& a, const GameState& b, int who_just_moved) {
+        net.feedForward(encoder.encode(a, b, who_just_moved));
+        auto out = net.getResults();
         return (out[0] > 0.5);
     }
 };

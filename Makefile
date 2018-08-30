@@ -22,7 +22,7 @@ all: annotate train-model wxgui
 annotate: annotatemain.o getline.o InferMove.o ${AIOBJS} NeuralNetAIMove.o
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
 
-train-model: TrainModel.o getline.o ${OBJS}
+train-model: TrainModel.o getline.o ${OBJS} AllMoves.o
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
 
 wxgui: wxmain.o wxPiece.o wxSystem.o wxStash.o wxGalaxy.o wxMouse.o getline.o InferMove.o ${AIOBJS}

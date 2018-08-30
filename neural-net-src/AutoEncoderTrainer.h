@@ -9,26 +9,67 @@
 #include "History.h"
 #include "MillerNet.h"
 #include "State2Vec.h"
+#if 1
+#include "AllMoves.h"
+#include "ApplyMove.h"
+#endif
 
 
 struct AutoEncoderStage1 {
     // States we have seen in real games.
     std::set<State2VecVector> training_set;
+    std::vector<State2VecVector> training_set_flat;
 
     Net net{{900, 600, 900}};
 
     explicit AutoEncoderStage1() = default;
 
     void add_history_to_training_set(const History& h) {
+        for (int i=0; i <= h.hidx; ++i) {
+            const GameState& st = h.hvec[i].st;
+            training_set.insert(State2VecVector(st, 0));
+            training_set.insert(State2VecVector(st, 1));
+        }
+#if 1
+        // Also train on hypothetical positions that might be reached
+        // FROM these real positions, since we will be called upon to
+        // evaluate such positions during gameplay.
         for (int i=0; i < h.hidx; ++i) {
-            const GameState& st = h.hvec[i+1].st;
-            training_set.insert(State2VecVector(st));
-            training_set.insert(State2VecVector(st.mirror()));
+            const GameState& st = h.hvec[i].st;
+            int attacker = (i % 2);
+            const unsigned int all_colors_but_yellow =
+                ((1u << RED) | (1u << GREEN) | (1u << BLUE));
+            std::vector<WholeMove> allmoves;
+
+            findAllMoves(st, attacker, allmoves, /*prune_obviously_worse_moves=*/false,
+                /*look_only_for_wins=*/false, all_colors_but_yellow);
+            for (const auto& move : allmoves) {
+                GameState newst = st;
+                ApplyMove::or_die(newst, attacker, move);
+                training_set.insert(State2VecVector(newst, 0));
+                training_set.insert(State2VecVector(newst, 1));
+            }
+        }
+#endif
+    }
+
+    void save_training_set_to_file(FILE *fp) const {
+        fprintf(fp, "%zu\n", training_set.size());
+        for (auto&& vec : training_set) {
+            vec.save_to_file(fp);
+        }
+    }
+
+    void load_training_set_from_file(FILE *fp) {
+        size_t n = 0;
+        fscanf(fp, "%zu", &n);
+        training_set_flat.reserve(n);
+        for (size_t i = 0; i < n; ++i) {
+            training_set_flat.push_back(State2VecVector::from_file(fp));
         }
     }
 
     void train() {
-        std::vector<State2VecVector> training_set_flat(training_set.begin(), training_set.end());
         std::mt19937 g;
         std::shuffle(training_set_flat.begin(), training_set_flat.end(), g);
 
@@ -39,11 +80,10 @@ struct AutoEncoderStage1 {
                 if (++count == 4) {
                     break;
                 }
-                std::vector<double> s1_in = v.to_vector();
+                std::vector<REAL> s1_in = v.to_vector();
                 printf("I1: %s\n", vec_to_string(s1_in).c_str());
-                std::vector<double> s1_out;  // unused
                 this->net.feedForward(s1_in);
-                this->net.getResults(s1_out);
+                std::vector<REAL> s1_out = this->net.getResults();
                 printf("O1: %s\n", vec_to_string(s1_out).c_str());
             }
         }
@@ -53,14 +93,13 @@ struct AutoEncoderStage1 {
         int count = 0;
         int report = 16;
         for (auto&& v : training_set_flat) {
-            std::vector<double> s1_in = v.to_vector();
+            std::vector<REAL> s1_in = v.to_vector();
             net.feedForward(s1_in);
-            std::vector<double> s1_out;
-            net.getResults(s1_out);
             net.backProp(s1_in);
             if (++count == report) {
                 report <<= 1;
                 printf("%d...\n", count);
+                if (count == 8192) break;
             }
         }
 
@@ -72,11 +111,10 @@ struct AutoEncoderStage1 {
                 if (++count == 4) {
                     break;
                 }
-                std::vector<double> s1_in = v.to_vector();
+                std::vector<REAL> s1_in = v.to_vector();
                 printf("I1: %s\n", vec_to_string(s1_in).c_str());
-                std::vector<double> s1_out;  // unused
                 this->net.feedForward(s1_in);
-                this->net.getResults(s1_out);
+                std::vector<REAL> s1_out = this->net.getResults();
                 printf("O1: %s\n", vec_to_string(s1_out).c_str());
             }
         }
@@ -95,21 +133,20 @@ struct AutoEncoderStage2 {
     }
 
     void train() {
-        std::vector<State2VecVector> training_set_flat(stage1->training_set.begin(), stage1->training_set.end());
+        auto& training_set_flat = stage1->training_set_flat;
         std::mt19937 g;
         std::shuffle(training_set_flat.begin(), training_set_flat.end(), g);
         printf("Training on a set of %zu inputs...\n", training_set_flat.size());
         int count = 0;
         int report = 16;
         for (auto&& v : training_set_flat) {
-            std::vector<double> s1_in = v.to_vector();
+            std::vector<REAL> s1_in = v.to_vector();
             net.feedForward(s1_in);
-            std::vector<double> s1_out;
-            net.getResults(s1_out);
             net.backProp(s1_in);
             if (++count == report) {
                 report <<= 1;
                 printf("%d...\n", count);
+                if (count == 8192) break;
             }
         }
 
@@ -120,11 +157,10 @@ struct AutoEncoderStage2 {
                 if (++count == 4) {
                     break;
                 }
-                std::vector<double> s1_in = v.to_vector();
+                std::vector<REAL> s1_in = v.to_vector();
                 printf("I1: %s\n", vec_to_string(s1_in).c_str());
-                std::vector<double> s1_out;  // unused
                 this->net.feedForward(s1_in);
-                this->net.getResults(s1_out);
+                std::vector<REAL> s1_out = this->net.getResults();
                 printf("O1: %s\n", vec_to_string(s1_out).c_str());
             }
         }
@@ -146,21 +182,20 @@ struct AutoEncoderStage3 {
     }
 
     void train() {
-        std::vector<State2VecVector> training_set_flat(stage1->training_set.begin(), stage1->training_set.end());
+        auto& training_set_flat = stage1->training_set_flat;
         std::mt19937 g;
         std::shuffle(training_set_flat.begin(), training_set_flat.end(), g);
         printf("Training on a set of %zu inputs...\n", training_set_flat.size());
         int count = 0;
         int report = 16;
         for (auto&& v : training_set_flat) {
-            std::vector<double> s1_in = v.to_vector();
+            std::vector<REAL> s1_in = v.to_vector();
             net.feedForward(s1_in);
-            std::vector<double> s1_out;
-            net.getResults(s1_out);
             net.backProp(s1_in);
             if (++count == report) {
                 report <<= 1;
                 printf("%d...\n", count);
+                if (count == 8192) break;
             }
         }
 
@@ -171,11 +206,10 @@ struct AutoEncoderStage3 {
                 if (++count == 4) {
                     break;
                 }
-                std::vector<double> s1_in = v.to_vector();
+                std::vector<REAL> s1_in = v.to_vector();
                 printf("I1: %s\n", vec_to_string(s1_in).c_str());
-                std::vector<double> s1_out;  // unused
                 this->net.feedForward(s1_in);
-                this->net.getResults(s1_out);
+                std::vector<REAL> s1_out = this->net.getResults();
                 printf("O1: %s\n", vec_to_string(s1_out).c_str());
             }
         }

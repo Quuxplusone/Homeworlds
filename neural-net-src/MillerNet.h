@@ -10,10 +10,16 @@
 #include <sstream>
 #include <vector>
 
+#if 0
+using REAL = double;
+#else
+using REAL = float;
+#endif
+
 struct Connection
 {
-    double weight = 0;
-    double deltaWeight = 0;
+    REAL weight = 0;
+    REAL deltaWeight = 0;
 };
 
 class Neuron;
@@ -23,10 +29,10 @@ using Layer = std::vector<Neuron>;
 class Neuron {
 public:
     explicit Neuron(unsigned numOutputs, unsigned myIndex);
-    void setOutputVal(double val) { m_outputVal = val; }
-    double getOutputVal(void) const { return m_outputVal; }
+    void setOutputVal(REAL val) { m_outputVal = val; }
+    REAL getOutputVal(void) const { return m_outputVal; }
     void feedForward(const Layer &prevLayer);
-    void calcOutputGradients(double targetVal);
+    void calcOutputGradients(REAL targetVal);
     void calcHiddenGradients(const Layer &nextLayer);
     void updateInputWeights(Layer &prevLayer);
 
@@ -36,28 +42,30 @@ public:
 
     void saveToFile(FILE *fp) const {
         for (auto&& connection : m_outputWeights) {
-            fprintf(fp, " %.3f", connection.weight);
+            fprintf(fp, " %.3f", double(connection.weight));
         }
         fprintf(fp, "\n");
     }
 
     void loadFromFile(FILE *fp) {
         for (auto&& connection : m_outputWeights) {
-            fscanf(fp, "%lf", &connection.weight);
+            double temp;
+            fscanf(fp, "%lf", &temp);
+            connection.weight = temp;
         }
     }
 
 private:
-    static constexpr double eta = 0.015;   // [0.0..1.0] overall net training rate
-    static constexpr double alpha = 0.05; // [0.0..n] multiplier of last weight change (momentum)
-    static double transferFunction(double x);
-    static double transferFunctionDerivative(double x);
-    static double randomWeight(void) { return rand() / double(RAND_MAX) - 0.5; }
-    double sumDOW(const Layer &nextLayer) const;
-    double m_outputVal;
+    static constexpr REAL eta = 0.015;   // [0.0..1.0] overall net training rate
+    static constexpr REAL alpha = 0.05; // [0.0..n] multiplier of last weight change (momentum)
+    static REAL transferFunction(REAL x);
+    static REAL transferFunctionDerivative(REAL x);
+    static REAL randomWeight(void) { return rand() / REAL(RAND_MAX) - 0.5; }
+    REAL sumDOW(const Layer &nextLayer) const;
+    REAL m_outputVal;
     std::vector<Connection> m_outputWeights;
     unsigned m_myIndex;
-    double m_gradient;
+    REAL m_gradient;
 };
 
 inline void Neuron::updateInputWeights(Layer &prevLayer)
@@ -65,11 +73,10 @@ inline void Neuron::updateInputWeights(Layer &prevLayer)
     // The weights to be updated are in the Connection container
     // in the neurons in the preceding layer
 
-    for (unsigned n = 0; n < prevLayer.size(); ++n) {
-        Neuron &neuron = prevLayer[n];
-        double oldDeltaWeight = neuron.m_outputWeights[m_myIndex].deltaWeight;
+    for (Neuron& neuron : prevLayer) {
+        REAL oldDeltaWeight = neuron.m_outputWeights[m_myIndex].deltaWeight;
 
-        double newDeltaWeight =
+        REAL newDeltaWeight =
                 // Individual input, magnified by the gradient and train rate:
                 eta
                 * neuron.getOutputVal()
@@ -83,9 +90,9 @@ inline void Neuron::updateInputWeights(Layer &prevLayer)
     }
 }
 
-inline double Neuron::sumDOW(const Layer &nextLayer) const
+inline REAL Neuron::sumDOW(const Layer &nextLayer) const
 {
-    double sum = 0.0;
+    REAL sum = 0.0;
 
     // Sum our contributions of the errors at the nodes we feed.
 
@@ -98,17 +105,17 @@ inline double Neuron::sumDOW(const Layer &nextLayer) const
 
 inline void Neuron::calcHiddenGradients(const Layer &nextLayer)
 {
-    double dow = sumDOW(nextLayer);
+    REAL dow = sumDOW(nextLayer);
     m_gradient = dow * Neuron::transferFunctionDerivative(m_outputVal);
 }
 
-inline void Neuron::calcOutputGradients(double targetVal)
+inline void Neuron::calcOutputGradients(REAL targetVal)
 {
-    double delta = targetVal - m_outputVal;
+    REAL delta = targetVal - m_outputVal;
     m_gradient = delta * Neuron::transferFunctionDerivative(m_outputVal);
 }
 
-inline double Neuron::transferFunction(double x)
+inline REAL Neuron::transferFunction(REAL x)
 {
 #if 0
     return tanh(x);  // -1 to +1
@@ -117,40 +124,36 @@ inline double Neuron::transferFunction(double x)
 #endif
 }
 
-inline double Neuron::transferFunctionDerivative(double x)
+inline REAL Neuron::transferFunctionDerivative(REAL x)
 {
 #if 0
     // tanh derivative
     return 1.0 - x * x;
 #else
-    double sx = 1.0 / (1.0 + exp(-x));
+    REAL sx = 1.0 / (1.0 + exp(-x));
     return sx * (1.0 - sx);
 #endif
 }
 
 inline void Neuron::feedForward(const Layer &prevLayer)
 {
-    double sum = 0.0;
+    REAL sum = 0.0;
 
     // Sum the previous layer's outputs (which are our inputs)
     // Include the bias node from the previous layer.
 
-    for (unsigned n = 0; n < prevLayer.size(); ++n) {
-        sum += prevLayer[n].getOutputVal() *
-                prevLayer[n].m_outputWeights[m_myIndex].weight;
+    for (const Neuron& neuron : prevLayer) {
+        sum += neuron.getOutputVal() * neuron.m_outputWeights[m_myIndex].weight;
     }
 
     m_outputVal = Neuron::transferFunction(sum);
 }
 
-inline Neuron::Neuron(unsigned numOutputs, unsigned myIndex)
+inline Neuron::Neuron(unsigned numOutputs, unsigned myIndex) : m_outputWeights(numOutputs), m_myIndex(myIndex)
 {
-    for (unsigned c = 0; c < numOutputs; ++c) {
-        m_outputWeights.push_back(Connection());
-        m_outputWeights.back().weight = randomWeight();
+    for (auto&& connection : m_outputWeights) {
+        connection.weight = randomWeight();
     }
-
-    m_myIndex = myIndex;
 }
 
 
@@ -159,9 +162,9 @@ class Net
 {
 public:
     explicit Net(const std::vector<unsigned> &topology);
-    void feedForward(const std::vector<double> &inputVals);
-    void backProp(const std::vector<double> &targetVals);
-    void getResults(std::vector<double> &resultVals) const;
+    void feedForward(const std::vector<REAL> &inputVals);
+    void backProp(const std::vector<REAL> &targetVals);
+    std::vector<REAL> getResults() const;
 
     void copyWeightsFrom(int a, const Net& other, int b) {
         assert(m_layers[a].size() == other.m_layers[b].size());
@@ -172,33 +175,35 @@ public:
 
     void saveLayerToFile(int a, FILE *fp) const {
         const Layer &layer = m_layers[a];
-        for (auto&& neuron : layer) {
+        for (const Neuron& neuron : layer) {
             neuron.saveToFile(fp);
         }
     }
 
     void loadLayerFromFile(int a, FILE *fp) {
         Layer &layer = m_layers[a];
-        for (auto&& neuron : layer) {
+        for (Neuron& neuron : layer) {
             neuron.loadFromFile(fp);
         }
     }
 
 private:
     std::vector<Layer> m_layers; // m_layers[layerNum][neuronNum]
-    double m_error;
+    REAL m_error;
 };
 
-inline void Net::getResults(std::vector<double> &resultVals) const
+inline std::vector<REAL> Net::getResults() const
 {
-    resultVals.clear();
-
-    for (unsigned n = 0; n < m_layers.back().size() - 1; ++n) {
-        resultVals.push_back(m_layers.back()[n].getOutputVal());
+    const Layer& layer = m_layers.back();
+    size_t result_size = layer.size() - 1;
+    std::vector<REAL> resultVals(result_size);
+    for (size_t n = 0; n < result_size; ++n) {
+        resultVals[n] = layer[n].getOutputVal();
     }
+    return resultVals;
 }
 
-inline void Net::backProp(const std::vector<double> &targetVals)
+inline void Net::backProp(const std::vector<REAL> &targetVals)
 {
     // Calculate overall net error (RMS of output neuron errors)
 
@@ -206,7 +211,7 @@ inline void Net::backProp(const std::vector<double> &targetVals)
     m_error = 0.0;
 
     for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
-        double delta = targetVals[n] - outputLayer[n].getOutputVal();
+        REAL delta = targetVals[n] - outputLayer[n].getOutputVal();
         m_error += delta * delta;
     }
     m_error /= outputLayer.size() - 1; // get average error squared
@@ -242,7 +247,7 @@ inline void Net::backProp(const std::vector<double> &targetVals)
     }
 }
 
-inline void Net::feedForward(const std::vector<double> &inputVals)
+inline void Net::feedForward(const std::vector<REAL> &inputVals)
 {
     assert(inputVals.size() == m_layers[0].size() - 1);
 
@@ -279,9 +284,10 @@ inline Net::Net(const std::vector<unsigned> &topology)
 }
 
 
-inline std::string vec_to_string(const std::vector<double>& vec) {
+inline std::string vec_to_string(const std::vector<REAL>& vec)
+{
     std::string result;
-    for (double f : vec) {
+    for (REAL f : vec) {
         if (-0.5 < f && f < 0.5) result += '0';
         else if (f < 0) result += '-';
         else if (f < 1.5) result += '1';
@@ -290,8 +296,11 @@ inline std::string vec_to_string(const std::vector<double>& vec) {
     return result;
 }
 
-inline std::vector<double> vec_concat(std::vector<double> a, const std::vector<double>& b)
+inline std::vector<REAL> vec_concat(const std::vector<REAL>& a, const std::vector<REAL>& b)
 {
-    a.insert(a.end(), b.begin(), b.end());
-    return a;
+    std::vector<REAL> result;
+    result.reserve(a.size() + b.size());
+    result.insert(result.end(), a.begin(), a.end());
+    result.insert(result.end(), b.begin(), b.end());
+    return result;
 }
