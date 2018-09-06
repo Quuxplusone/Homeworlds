@@ -137,7 +137,7 @@ static bool scan_for_multibuild(const char *text, std::vector<SingleAction> &act
     const bool got_third = scan_piece(text, c3, s3);
     if (*text == '\0') {
         where = "";
-    } else if (advance_past(text, " at ", " in ")) {
+    } else if (advance_past(text, " at ", " in ", " ")) {
         if (!StarSystem::is_valid_name(text)) return false;
         where = text;
     } else {
@@ -156,7 +156,7 @@ static bool scan_for_multicapture(const char *text, std::vector<SingleAction> &a
     Color c1, c2, c3;
     Size s1, s2, s3;
     const char *where;
-    if (!advance_past(text, "capture ")) {
+    if (!advance_past(text, "capture ", "attack ")) {
         return false;
     }
     const bool got_first = scan_piece(text, c1, s1);
@@ -166,7 +166,7 @@ static bool scan_for_multicapture(const char *text, std::vector<SingleAction> &a
     const bool got_third = scan_piece(text, c3, s3);
     if (*text == '\0') {
         where = "";
-    } else if (advance_past(text, " at ", " in ")) {
+    } else if (advance_past(text, " at ", " in ", " ")) {
         if (!StarSystem::is_valid_name(text)) return false;
         where = text;
     } else {
