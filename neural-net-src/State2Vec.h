@@ -66,7 +66,8 @@ struct State2VecVector {
 
 private:
     explicit State2VecVector() = default;
-    void serialize(int8_t *first, const PieceCollection& pc, int depth);
+    static void serialize(int8_t *ptr, const StarSystem& ss, int p0);
+    static void serialize(int8_t *first, const PieceCollection& pc, int depth);
 };
 
 inline State2VecVector::State2VecVector(const GameState& st, int who_just_moved) : data{}
@@ -75,36 +76,61 @@ inline State2VecVector::State2VecVector(const GameState& st, int who_just_moved)
     // Represent each set of ships by 36 bits.
     // List the stash first.
     // Then list the two homeworlds.
-    // Then list the other worlds in some arbitrary order.
+    // Then list the other worlds, starting with those next to hw0 and ending with those next to hw1.
     // Support up to 8 other worlds (84 bits each).
     // Normalize it so that the ships and homeworld of "who_just_moved" are listed first.
 
     int p0 = who_just_moved;
     int p1 = 1-who_just_moved;
+    const StarSystem *hw0 = st.homeworldOf(p0);
+    const StarSystem *hw1 = st.homeworldOf(p1);
 
     serialize(data + 0, st.stash, 36);
-    if (const StarSystem *hw0 = st.homeworldOf(p0)) {
+    if (hw0) {
         serialize(data + 36, hw0->star, 24);
         serialize(data + 60, hw0->ships[p0], 36);
         serialize(data + 96, hw0->ships[p1], 36);
     }
-    if (const StarSystem *hw1 = st.homeworldOf(p1)) {
+    if (hw1) {
         serialize(data + 132, hw1->star, 24);
         serialize(data + 156, hw1->ships[p0], 36);
         serialize(data + 192, hw1->ships[p1], 36);
     }
-    int8_t *ptr = data + 228;
-    for (const StarSystem& ss : st.stars) {
-        if (ss.homeworldOf == -1) {
-            serialize(ptr, ss.star, 12);
-            serialize(ptr + 12, ss.ships[p0], 36);
-            serialize(ptr + 48, ss.ships[p1], 36);
-            ptr += 84;
-            if (ptr == data + 900) {
-                break;
+    int8_t *first = data + 228;
+    int8_t *last = data + 900;
+    if (hw0) {
+        for (const StarSystem& ss : st.stars) {
+            bool already_done = (ss.homeworldOf != -1);
+            if ((first != last) && !already_done && ss.isAdjacentTo(*hw0)) {
+                serialize(first, ss, p0);
+                first += 84;
             }
         }
     }
+    if (hw1) {
+        for (const StarSystem& ss : st.stars) {
+            bool already_done = (ss.homeworldOf != -1) || (hw0 && ss.isAdjacentTo(*hw0));
+            if ((first != last) && !already_done && ss.isAdjacentTo(*hw1)) {
+                last -= 84;
+                serialize(last, ss, p0);
+            }
+        }
+    }
+    for (const StarSystem& ss : st.stars) {
+        bool already_done = (ss.homeworldOf != -1) || (hw0 && ss.isAdjacentTo(*hw0)) || (hw1 && ss.isAdjacentTo(*hw1));
+        if ((first != last) && !already_done) {
+            serialize(first, ss, p0);
+            first += 84;
+        }
+    }
+}
+
+inline void State2VecVector::serialize(int8_t *ptr, const StarSystem& ss, int p0)
+{
+    int p1 = 1 - p0;
+    serialize(ptr, ss.star, 12);
+    serialize(ptr + 12, ss.ships[p0], 36);
+    serialize(ptr + 48, ss.ships[p1], 36);
 }
 
 inline void State2VecVector::serialize(int8_t *first, const PieceCollection& pc, int depth)
