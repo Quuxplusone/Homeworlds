@@ -143,7 +143,7 @@ int main(int argc, char **argv)
         fp = fopen("encoder_weights.txt", "w");
         ae3.save_to_file(fp);
         fclose(fp);
-    } else if (command == "evaluator-weights") {
+    } else if (command == "evaluator-training-set") {
         auto encoder = std::make_unique<GameStateEncoder>();
         FILE *fp = fopen("encoder_weights.txt", "r");
         encoder->load_from_file(fp);
@@ -160,6 +160,19 @@ int main(int argc, char **argv)
                 printf("%d...\n", count);
             }
         }
+        fp = fopen("evaluator_training_set.txt", "w");
+        e.save_training_set_to_file(fp);
+        fclose(fp);
+    } else if (command == "evaluator-weights") {
+        auto encoder = std::make_unique<GameStateEncoder>();
+        FILE *fp = fopen("encoder_weights.txt", "r");
+        encoder->load_from_file(fp);
+        fclose(fp);
+
+        EvaluatorTrainer e(encoder.get());
+        fp = fopen("evaluator_training_set.txt", "r");
+        e.load_training_set_from_file(fp);
+        fclose(fp);
         e.train();
         fp = fopen("evaluator_weights.txt", "w");
         e.save_to_file(fp);

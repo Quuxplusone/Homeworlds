@@ -162,7 +162,10 @@ class Net
 {
 public:
     explicit Net(const std::vector<unsigned> &topology);
-    void feedForward(const std::vector<REAL> &inputVals);
+
+    template<class... Inputs>
+    void feedForward(const Inputs&... inputVals);
+
     void backProp(const std::vector<REAL> &targetVals);
     std::vector<REAL> getResults() const;
 
@@ -247,14 +250,22 @@ inline void Net::backProp(const std::vector<REAL> &targetVals)
     }
 }
 
-inline void Net::feedForward(const std::vector<REAL> &inputVals)
+template<class... Inputs>
+inline void Net::feedForward(const Inputs&... inputVals)
 {
-    assert(inputVals.size() == m_layers[0].size() - 1);
-
     // Assign (latch) the input values into the input neurons
-    for (unsigned i = 0; i < inputVals.size(); ++i) {
-        m_layers[0][i].setOutputVal(inputVals[i]);
-    }
+    size_t k = 0;
+    int dummy[] = {
+        [&](const auto& in) {
+            for (auto&& val : in) {
+                m_layers[0][k].setOutputVal(val);
+                ++k;
+            }
+            return 0;
+        }(inputVals)...
+    };
+    (void)dummy;
+    assert(k == m_layers[0].size() - 1);
 
     // forward propagate
     for (unsigned layerNum = 1; layerNum < m_layers.size(); ++layerNum) {
@@ -268,12 +279,14 @@ inline void Net::feedForward(const std::vector<REAL> &inputVals)
 inline Net::Net(const std::vector<unsigned> &topology)
 {
     unsigned numLayers = topology.size();
+    m_layers.reserve(numLayers);
     for (unsigned layerNum = 0; layerNum < numLayers; ++layerNum) {
         m_layers.push_back(Layer());
         unsigned numOutputs = layerNum == topology.size() - 1 ? 0 : topology[layerNum + 1];
 
         // We have a new layer, now fill it with neurons, and
         // add a bias neuron in each layer.
+        m_layers.back().reserve(topology[layerNum] + 1);
         for (unsigned neuronNum = 0; neuronNum <= topology[layerNum]; ++neuronNum) {
             m_layers.back().push_back(Neuron(numOutputs, neuronNum));
         }

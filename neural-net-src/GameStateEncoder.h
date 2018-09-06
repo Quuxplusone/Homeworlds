@@ -17,12 +17,20 @@ struct GameStateEncoder {
         net.loadLayerFromFile(2, fp);
     }
 
-    std::vector<REAL> encode(const GameState& st, int who_just_moved) {
-        net.feedForward(State2VecVector(st, who_just_moved).to_vector());
+    std::vector<REAL> encode(const State2VecVector& vec) {
+        net.feedForward(vec);
         return net.getResults();
     }
 
+    std::vector<REAL> encode(const GameState& st, int who_just_moved) {
+        return this->encode(State2VecVector(st, who_just_moved));
+    }
+
+    std::vector<REAL> encode(const State2VecVector& a, const State2VecVector& b) {
+        return vec_concat(this->encode(a), this->encode(b));
+    }
+
     std::vector<REAL> encode(const GameState& a, const GameState& b, int who_just_moved) {
-        return vec_concat(this->encode(a, who_just_moved), this->encode(b, who_just_moved));
+        return this->encode(State2VecVector(a, who_just_moved), State2VecVector(b, who_just_moved));
     }
 };

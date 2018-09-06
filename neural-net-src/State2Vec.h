@@ -24,6 +24,9 @@ struct State2VecVector {
         return std::vector<REAL>(data, data+900);
     }
 
+    const int8_t *begin() const { return data; }
+    const int8_t *end() const { return data+900; }
+
     std::string to_string() const {
         std::string s;
         const char alphabet[65] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
