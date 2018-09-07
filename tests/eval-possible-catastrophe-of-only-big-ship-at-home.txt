@@ -1,0 +1,11 @@
+Player1 (0, y1b2) g1r2g3-
+Player2 (1, y2b3) -g3y1g2y2
+Delos (b3) -b1b1g2y3g2r1
+g1 (g1) -y2y3
+g3 (g3) -y1y3
+Lebling (b3) r2r2b1r1g1-
+sacrifice g3 at Player1; build r1 at Player1; build r3 at Player1; build g3 at Lebling
+rate_position
+undo
+sacrifice g3 at Player1; build r1 at Player1; build r3 at Player1; build g3 at Player1
+rate_position

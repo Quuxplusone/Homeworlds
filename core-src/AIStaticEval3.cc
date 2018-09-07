@@ -28,9 +28,14 @@ static int heuristic_catastrophe_penalty_yellow(const GameState &st,
                 const StarSystem &here, int attacker, Color c,
                 int base_cost, int worst_penalty_so_far)
 {
-    const int shipcost[3] = { 2, 4, 8 };
     const int num_needed = 4 - here.numberOf(c);
+
+    if (num_needed <= 0) {
+        return std::min(base_cost, worst_penalty_so_far);
+    }
+
     assert(1 <= num_needed && num_needed <= 3);
+    const int shipcost[3] = { 2, 4, 8 };
     /* Figure out which of the above methods might apply. */
     int num_ships_at[4] = {0,0,0,0};
     int num_ships_ats[4][3] = {{0,0,0},{0,0,0},{0,0,0},{0,0,0}};
@@ -200,7 +205,6 @@ static int heuristic_catastrophe_penalty(const GameState &st,
     const int defender = 1-attacker;
     const int num_here = here.numberOf(c);
     if (num_here == 0) return 0;
-    assert(1 <= num_here && num_here <= 3);
     /* Suppose all the pieces of color "c" here just vanished. What would that
      * do to the attacker's heuristic value? Things the defender would lose
      * add to the value; things the attacker would lose subtract from it. */
@@ -225,21 +229,33 @@ static int heuristic_catastrophe_penalty(const GameState &st,
         base_cost -= shipcost[LARGE] * here.ships[attacker].numberOf(c,LARGE);
         /* Add a penalty for catastrophing part of a homeworld. */
         if (here.star.numberOf(c) != 0) {
-            base_cost += 20;
+            base_cost += (here.homeworldOf == defender) ? 20 : -20;
+        }
+        /* Add a penalty for losing one's biggest ship. */
+        if (here.ships[defender].numberOf(c,LARGE) &&
+            here.ships[defender].numberOf(c,LARGE) == here.ships[defender].numberOf(LARGE) &&
+            here.ships[defender].numberOf(c,LARGE) < here.ships[defender].number())
+        {
+            base_cost += 10;
+        }
+        if (here.ships[attacker].numberOf(c,LARGE) &&
+            here.ships[attacker].numberOf(c,LARGE) == here.ships[attacker].numberOf(LARGE) &&
+            here.ships[attacker].numberOf(c,LARGE) < here.ships[attacker].number())
+        {
+            base_cost -= 10;
         }
     }
 
     int worst_penalty_so_far = 0;
     /* Can we catastrophe this color here with a free move? */
-    if (num_here == 3) {
+    if (num_here >= 4) {
+        worst_penalty_so_far = std::min(worst_penalty_so_far, base_cost);
+    } else if (num_here == 3) {
         if (here.ships[defender].numberOf(c) != 0 &&
                 st.stash.numberOf(c) != 0 &&
                 here.playerHasAccessTo(defender, GREEN)) {
             /* The defender can just build a new ship here. */
-            const int penalty = base_cost;
-            if (penalty < worst_penalty_so_far) {
-                worst_penalty_so_far = penalty;
-            }
+            worst_penalty_so_far = std::min(worst_penalty_so_far, base_cost);
         } else {
             for (int i=0; i < (int)st.stars.size(); ++i) {
                 const StarSystem &star = st.stars[i];
@@ -253,88 +269,78 @@ static int heuristic_catastrophe_penalty(const GameState &st,
                  * thus catastrophing "c" at "here". How much would it hurt him?
                  * He'd lose the ship he moved, plus the base cost. */
                 const int penalty = base_cost + shipcost[star.ships[defender].smallestSizeOf(c)];
-                if (penalty < worst_penalty_so_far) {
-                    worst_penalty_so_far = penalty;
-                }
+                worst_penalty_so_far = std::min(worst_penalty_so_far, penalty);
             }
         }
     }
     /* Can we catastrophe this color with a sacrifice move? */
     const int num_needed = 4 - num_here;
-    assert(1 <= num_needed && num_needed <= 3);
-    if (here.ships[defender].numberOf(c) != 0 &&
-            st.stash.numberOf(c) + (c==GREEN) >= num_needed) {
-        /* If we can find a big enough green to sacrifice, we can do it.
-         * Notice that if (c==GREEN), it never pays to sacrifice green at
-         * the site of the catastrophe; there must be at least two of our
-         * green there in order to build green back, plus at least one of
-         * the opponent's green pieces, which means we could just have built
-         * the fourth green for free instead of sacrificing. */
-        for (Size s = (Size)(num_needed-1); s <= LARGE; ++s) {
-            for (int i=0; i < (int)st.stars.size(); ++i) {
-                const StarSystem &star = st.stars[i];
-                if (&star == &here && c == GREEN) continue;
-                if (star.ships[defender].numberOf(GREEN,s) == 0) continue;
-                if (star.homeworldOf == defender && star.ships[defender].number() == 1) {
-                    continue;
+    if (1 <= num_needed && num_needed <= 3) {
+        if (here.ships[defender].numberOf(c) != 0 &&
+                st.stash.numberOf(c) + (c==GREEN) >= num_needed) {
+            /* If we can find a big enough green to sacrifice, we can do it.
+             * Notice that if (c==GREEN), it never pays to sacrifice green at
+             * the site of the catastrophe; there must be at least two of our
+             * green there in order to build green back, plus at least one of
+             * the opponent's green pieces, which means we could just have built
+             * the fourth green for free instead of sacrificing. */
+            for (Size s = (Size)(num_needed-1); s <= LARGE; ++s) {
+                for (int i=0; i < (int)st.stars.size(); ++i) {
+                    const StarSystem &star = st.stars[i];
+                    if (&star == &here && c == GREEN) continue;
+                    if (star.ships[defender].numberOf(GREEN,s) == 0) continue;
+                    if (star.homeworldOf == defender && star.ships[defender].number() == 1) {
+                        continue;
+                    }
+                    const int penalty = base_cost + shipcost[s];
+                    worst_penalty_so_far = std::min(worst_penalty_so_far, penalty);
+                    goto done_green;
                 }
-                const int penalty = base_cost + shipcost[s];
-                if (penalty < worst_penalty_so_far) {
-                    worst_penalty_so_far = penalty;
-                }
-                goto done_green;
             }
+          done_green: ;
         }
-      done_green: ;
-    }
-    if (here.ships[defender].number() - here.ships[defender].numberOf(c) >= num_needed &&
-            st.stash.numberOf(c) + (c==BLUE) >= num_needed) {
-        /* If we can find a big enough blue to sacrifice, we might be able
-         * to do it. We don't bother to check whether the sizes in the stash
-         * actually match up with the sizes of the defender's ships;
-         * TODO FIXME BUG HACK. (Honestly, it's highly unusual for someone to
-         * cause a catastrophe with a blue sacrifice in the first place.) */
-        for (Size s = (Size)(num_needed-1); s <= LARGE; ++s) {
-            for (int i=0; i < (int)st.stars.size(); ++i) {
-                const StarSystem &star = st.stars[i];
-                if (star.ships[defender].numberOf(BLUE,s) == 0) continue;
-                if (star.homeworldOf == defender && star.ships[defender].number() == 1) {
-                    continue;
+        if (here.ships[defender].number() - here.ships[defender].numberOf(c) >= num_needed &&
+                st.stash.numberOf(c) + (c==BLUE) >= num_needed) {
+            /* If we can find a big enough blue to sacrifice, we might be able
+             * to do it. We don't bother to check whether the sizes in the stash
+             * actually match up with the sizes of the defender's ships;
+             * TODO FIXME BUG HACK. (Honestly, it's highly unusual for someone to
+             * cause a catastrophe with a blue sacrifice in the first place.) */
+            for (Size s = (Size)(num_needed-1); s <= LARGE; ++s) {
+                for (int i=0; i < (int)st.stars.size(); ++i) {
+                    const StarSystem &star = st.stars[i];
+                    if (star.ships[defender].numberOf(BLUE,s) == 0) continue;
+                    if (star.homeworldOf == defender && star.ships[defender].number() == 1) {
+                        continue;
+                    }
+                    if (&star == &here && c == BLUE && here.ships[defender].number() == num_needed) {
+                        continue;
+                    }
+                    const int penalty = base_cost + shipcost[s];
+                    worst_penalty_so_far = std::min(worst_penalty_so_far, penalty);
+                    goto done_blue;
                 }
-                if (&star == &here && c == BLUE && here.ships[defender].number() == num_needed) {
-                    continue;
-                }
-                const int penalty = base_cost + shipcost[s];
-                if (penalty < worst_penalty_so_far) {
-                    worst_penalty_so_far = penalty;
-                }
-                goto done_blue;
             }
+          done_blue: ;
         }
-      done_blue: ;
+        /* Finally, the case that we're usually worried about: the big yellow
+         * sacrifice (a.k.a. the "Bluebird Mistake"). */
+        worst_penalty_so_far = heuristic_catastrophe_penalty_yellow(
+            st, here, defender, c, base_cost, worst_penalty_so_far
+        );
     }
-    /* Finally, the case that we're usually worried about: the big yellow
-     * sacrifice (a.k.a. the "Bluebird Mistake"). */
-    worst_penalty_so_far = heuristic_catastrophe_penalty_yellow(
-        st, here, defender, c, base_cost, worst_penalty_so_far
-    );
     /* Done! */
     assert(worst_penalty_so_far <= 0);
     return worst_penalty_so_far;
 }
 
 
-/* Return an estimated value of the given position after the given move.
+/* Return an estimated value of the given (post-move) position.
  * Return a high value if the attacker is winning, and a low value if
  * he's losing. When considering the stash, note that it will be the
  * defender's turn next. */
-int ai_static_evaluation(const GameState &state_before_move,
-                         const WholeMove &move, int attacker)
+int ai_static_evaluation(const GameState &st, int attacker)
 {
-    GameState st_ = state_before_move;
-    ApplyMove::or_die(st_, attacker, move);
-    const GameState &st = st_;
-
     const int defender = 1-attacker;
     const StarSystem *hw[2] = { nullptr, nullptr };
     bool can_build[2][4] = {};
@@ -359,8 +365,12 @@ int ai_static_evaluation(const GameState &state_before_move,
             }
         }
     }
-    assert(hw[0] != nullptr);
-    assert(hw[1] != nullptr);
+
+    if (hw[0] == nullptr) {
+        return -9999;
+    } else if (hw[1] == nullptr) {
+        return +9999;
+    }
 
     /* Check for factories. */
     bool medium_factory_possible = (st.stash.numberOf(GREEN,SMALL) == 0);

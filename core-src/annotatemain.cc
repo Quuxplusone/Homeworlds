@@ -592,9 +592,11 @@ static bool move_and_record(int attacker)
                 puts("The game is already over!");
             }
             if (g_VerifyTranscript) do_error("Transcript is incorrect.");
+        } else if (moveline == "rate_position") {
+            int rating = ai_static_evaluation(g_History.currentstate(), 1-attacker);
+            printf("%d\n", rating);
         } else if (moveline == "rate_moves") {
-            std::vector<WholeMove> allmoves;
-            get_all_moves_sorted_by_value(g_History.currentstate(), attacker, allmoves, true);
+            (void)get_all_moves_sorted_by_value(g_History.currentstate(), attacker, true);
         } else if (moveline == "count_moves") {
             std::vector<WholeMove> allmoves;
             findAllMoves(g_History.currentstate(), attacker, allmoves,

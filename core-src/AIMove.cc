@@ -2,6 +2,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <algorithm>
+#include <functional>
 #include <vector>
 #include "state.h"
 #include "move.h"
@@ -49,68 +50,52 @@ static bool move_is_stupid_move_into_check(const GameState &st, int attacker, co
     return true;
 }
 
-
-struct val_move_pair {
-    WholeMove *move;
-    int value;
-    /* Sort high values toward the front of the array. */
-    bool operator < (const val_move_pair &rhs) const {
-        return (this->value > rhs.value);
-    }
-};
-
-
 /* If "rate_moves" is TRUE, then dump the 10 top-rated moves to stdout
  * so the user can see why we're choosing a particular move.
  */
-void get_all_moves_sorted_by_value(const GameState &st,
-        int attacker, std::vector<WholeMove> &retmoves, bool rate_moves)
+std::vector<WholeMove> get_all_moves_sorted_by_value(const GameState &st,
+        int attacker, bool rate_moves)
 {
-    assert(retmoves.empty());
-
     std::vector<WholeMove> allmoves;
     findAllMoves_usualcase(st, attacker, allmoves);
     assert(!allmoves.empty());
     const int n = allmoves.size();
-    if (n == 1) {
-        retmoves.push_back(std::move(allmoves[0]));
-        return;
-    }
 
     /* Assign each new state a value according to our heuristic. */
-    std::vector<val_move_pair> values(n);
-    values.resize(n);
-    for (int i=0; i < n; ++i) {
-        values[i].move = &allmoves[i];
-        values[i].value = ai_static_evaluation(st, allmoves[i], attacker);
+    std::vector<std::pair<int, WholeMove*>> values;
+    values.reserve(n);
+    for (WholeMove& move : allmoves) {
+        GameState state_after_move = st;
+        ApplyMove::or_die(state_after_move, attacker, move);
+        values.emplace_back(
+            ai_static_evaluation(state_after_move, attacker),
+            &move
+        );
     }
-    std::sort(values.begin(), values.end());
-    /* Now copy the moves into the vector to return. */
-    assert(retmoves.empty());
-    retmoves.resize(n);
+    std::sort(values.begin(), values.end(), std::greater<>());
     if (rate_moves) {
         const StarSystem *attacker_hw = st.homeworldOf(attacker);
         assert(attacker_hw != nullptr);
         printf("%s has %d possible moves.\n", attacker_hw->name.c_str(), n);
         for (int i=0; i < n && i < 10; ++i) {
-            printf("value=%d: %s\n", values[i].value,
-                    values[i].move->toString().c_str());
+            printf("value=%d: %s\n", values[i].first,
+                    values[i].second->toString().c_str());
         }
     }
-    for (int i=0; i < n; ++i) {
-        retmoves[i] = std::move(*values[i].move);
+    /* Now transfer the moves into the vector to return. */
+    std::vector<WholeMove> retmoves;
+    retmoves.reserve(n);
+    for (auto&& elt : values) {
+        retmoves.push_back(std::move(*elt.second));
     }
-    return;
+    return retmoves;
 }
 
 WholeMove get_ai_move(const GameState &st, int attacker)
 {
     assert(!st.gameIsOver());
-    std::vector<WholeMove> allmoves;
-    get_all_moves_sorted_by_value(st, attacker, allmoves, false);
-    const int n = allmoves.size();
-    for (int i=0; i < n; ++i) {
-        WholeMove &bestmove = allmoves[i];
+    std::vector<WholeMove> allmoves = get_all_moves_sorted_by_value(st, attacker, false);
+    for (WholeMove& bestmove : allmoves) {
         if (move_is_stupid_move_into_check(st, attacker, bestmove)) {
             continue;
         }
