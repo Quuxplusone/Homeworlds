@@ -454,11 +454,13 @@ void GameApp::done_move(wxCommandEvent &)
     GameState oldstate = this->history.currentstate();
     GameState targetstate = gp->to_state();
     std::string target = targetstate.toComparableString();
-    std::vector<WholeMove> allmoves;
-    findAllMoves(oldstate, global_attacker, allmoves,
-            /*prune_obviously_worse_moves=*/false,
-            /*look_only_for_wins=*/false,
-            /*these_colors_only=*/0xF);
+    std::vector<WholeMove> allmoves = findAllMoves(
+        oldstate,
+        global_attacker,
+        /*prune_obviously_worse_moves=*/false,
+        /*look_only_for_wins=*/false,
+        /*these_colors_only=*/0xF
+    );
     WholeMove successful_move;
     for (int i=0; i < (int)allmoves.size(); ++i) {
         GameState newst = oldstate;

@@ -57,36 +57,40 @@ std::vector<WholeMove> get_all_moves_sorted_by_value(const GameState &st,
         int attacker, bool rate_moves)
 {
     std::vector<WholeMove> allmoves;
-    findAllMoves_usualcase(st, attacker, allmoves);
-    assert(!allmoves.empty());
-    const int n = allmoves.size();
+    std::vector<std::pair<int, int>> values;
 
-    /* Assign each new state a value according to our heuristic. */
-    std::vector<std::pair<int, WholeMove*>> values;
-    values.reserve(n);
-    for (WholeMove& move : allmoves) {
-        GameState state_after_move = st;
-        ApplyMove::or_die(state_after_move, attacker, move);
-        values.emplace_back(
-            ai_static_evaluation(state_after_move, attacker),
-            &move
-        );
-    }
+    findAllMoves(
+        st, attacker,
+        /*prune_obviously_worse_moves=*/true,
+        /*look_only_for_wins=*/false,
+        0xF,
+        [&](const WholeMove& move, const GameState& state_after_move) {
+            // Assign each new state a value according to our heuristic.
+            allmoves.emplace_back(move);
+            values.emplace_back(
+                ai_static_evaluation(state_after_move, attacker),
+                allmoves.size() - 1
+            );
+            return false;
+        }
+    );
+    const int n = values.size();
+
     std::sort(values.begin(), values.end(), std::greater<>());
     if (rate_moves) {
         const StarSystem *attacker_hw = st.homeworldOf(attacker);
         assert(attacker_hw != nullptr);
         printf("%s has %d possible moves.\n", attacker_hw->name.c_str(), n);
-        for (int i=0; i < n && i < 10; ++i) {
+        for (int i=0; i < n && i < 100; ++i) {
             printf("value=%d: %s\n", values[i].first,
-                    values[i].second->toString().c_str());
+                    allmoves[values[i].second].toString().c_str());
         }
     }
     /* Now transfer the moves into the vector to return. */
     std::vector<WholeMove> retmoves;
     retmoves.reserve(n);
     for (auto&& elt : values) {
-        retmoves.push_back(std::move(*elt.second));
+        retmoves.push_back(std::move(allmoves[elt.second]));
     }
     return retmoves;
 }

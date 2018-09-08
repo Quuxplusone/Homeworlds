@@ -366,9 +366,9 @@ int ai_static_evaluation(const GameState &st, int attacker)
         }
     }
 
-    if (hw[0] == nullptr) {
+    if (hw[attacker] == nullptr || hw[attacker]->ships[attacker].empty()) {
         return -9999;
-    } else if (hw[1] == nullptr) {
+    } else if (hw[defender] == nullptr || hw[defender]->ships[defender].empty()) {
         return +9999;
     }
 

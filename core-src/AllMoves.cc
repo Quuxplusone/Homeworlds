@@ -11,7 +11,7 @@
 /* When append_move() finds a winning move, it throws an exception all the
  * way back to findAllMoves() in order to shortcut the rest of the search.
  * If you don't want to rely on C++ exceptions, set this flag to zero; this
- * will turn on checks of all.found_win at various points in the search, so
+ * will turn on checks of all.done at various points in the search, so
  * that the shortcutting behavior is not entirely lost. This flag does not
  * affect the observable behavior of findAllMoves(); the same list of moves
  * is returned in each case. */
@@ -34,42 +34,51 @@ struct PossCat {
 };
 
 
-#if ALLMOVES_USE_UNORDERED_MAP
- #if __cplusplus >= 201103 || _LIBCPP_VERSION >= 1101
-  #include <unordered_map>
-  typedef std::unordered_map<std::string, WholeMove> AllMapT;
- #else
-  #include <tr1/unordered_map>
-  typedef std::tr1::unordered_map<std::string, WholeMove> AllMapT;
- #endif
-#elif ALLMOVES_USE_GNU_HASH_MAP
- #include <ext/hash_map>
- /* We must provide a way to hash std::strings, since GNU doesn't. */
- struct stdstringhasher {
-     size_t operator()(const std::string &x) const
-     { return __gnu_cxx::__stl_hash_string(x.c_str()); }
- };
- typedef __gnu_cxx::hash_map<std::string, WholeMove, stdstringhasher> AllMapT;
+#if ALLMOVES_USE_UNORDERED_SET
+#include <unordered_set>
+using AllSeenT = std::unordered_set<std::string>;
 #else
- #include <map>
- typedef std::map<std::string, WholeMove> AllMapT;
+#include <set>
+using AllSeenT = std::set<std::string>;
 #endif
 
 struct AllT {
     std::string original_state;
-    AllMapT map;
+    AllSeenT seen;
+    std::function<bool(const WholeMove&, const GameState&)> callback;
     const bool prune_worse_moves;
     const bool win_only;
     const bool contained_overpopulations;
     bool look_for[4];
-    bool found_win;
-    AllT(bool p, bool w, bool co, unsigned int mask):
+    bool done = false;
+
+    explicit AllT(
+        std::function<bool(const WholeMove&, const GameState&)> cb,
+        bool p, bool w, bool co, unsigned int mask
+    ) :
+        callback(std::move(cb)),
         prune_worse_moves(p), win_only(w),
-        contained_overpopulations(co), found_win(false)
+        contained_overpopulations(co)
     {
         for (Color c = RED; c <= BLUE; ++c) {
             look_for[c] = ((mask & (1u << (int)c)) != 0);
         }
+    }
+
+    bool emplace_into_seen(std::string key) {
+        auto pair = seen.equal_range(key);
+        if (pair.first == pair.second) {
+            seen.emplace_hint(pair.first, std::move(key));
+            return true;
+        }
+        return false;
+    }
+
+    void be_done() {
+        done = true;
+#if ALLMOVES_USE_EXCEPTIONS
+        throw 42;
+#endif
     }
 };
 
@@ -99,29 +108,30 @@ static void combine_postcatastrophes(const WholeMove &m,
 static void append_move(AllT &all, const WholeMove &m, const GameState &st, int attacker);
 
 
-void findAllMoves_usualcase(const GameState &st, int attacker,
-    std::vector<WholeMove> &allmoves)
+std::vector<WholeMove> findAllMoves(const GameState &st, int attacker,
+    bool prune_worse_moves,
+    bool look_only_for_wins,
+    unsigned int these_colors_only)
 {
-    const unsigned int all_colors =
-        ((1u << RED) | (1u << YELLOW) | (1u << GREEN) | (1u << BLUE));
+    std::vector<WholeMove> allmoves;
     findAllMoves(
-        st, attacker, allmoves,
-        /*prune_obviously_worse_moves=*/true,
-        /*look_only_for_wins=*/false,
-        all_colors
+        st, attacker,
+        prune_worse_moves, look_only_for_wins, these_colors_only,
+        [&](const WholeMove& m, const GameState&) {
+            allmoves.push_back(m);
+            return false;
+        }
     );
+    return allmoves;
 }
 
 bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
 {
-    std::vector<WholeMove> winning_moves;
-    const unsigned int all_colors =
-        ((1u << RED) | (1u << YELLOW) | (1u << GREEN) | (1u << BLUE));
-    findAllMoves(
-        st, attacker, winning_moves,
+    std::vector<WholeMove> winning_moves = findAllMoves(
+        st, attacker,
         /*prune_obviously_worse_moves=*/true,
         /*look_only_for_wins=*/true,
-        all_colors
+        0xF
     );
     if (!winning_moves.empty()) {
         if (move != nullptr) {
@@ -132,10 +142,10 @@ bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
     return false;
 }
 
-/* The short description: Given the game state "st", append all possible moves
- * for player "attacker" to the "allmoves" vector. We'll find all the possible
+/* The short description: Given the game state "st", report all possible moves
+ * for player "attacker" via the "callback". We'll find all the possible
  * moves by recursive descent. If "win_only" is true, then don't bother
- * recording any move that's not an immediate win for "attacker".
+ * reporting any move that's not an immediate win for "attacker".
  *   Now the real-world caveats: We expect this function to be used for
  * alpha-beta search, not as an actual list of *all* possible moves from a
  * given state. Therefore, if we can rigorously prove that move A is strictly
@@ -148,22 +158,19 @@ bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
  * never leads to a win assuming perfect play by both sides (because if it
  * did, then the defender could simply "pass" in response, leading to a draw;
  * contradiction). So we won't bother to report a possible move of "pass"
- * unless it is the *only* available move (in order to avoid returning an
- * empty "allmoves" vector to the caller).
+ * unless it is the *only* available move.
  */
-void findAllMoves(const GameState &st, int attacker,
-    std::vector<WholeMove> &allmoves,
+bool findAllMoves(const GameState &st, int attacker,
     bool prune_worse_moves,
     bool look_only_for_wins,
-    unsigned int these_colors_only)
+    unsigned int these_colors_only,
+    const std::function<bool(const WholeMove&, const GameState&)>& callback)
 {
     /* Precondition: We assume the game isn't over; if it's over, then the
      * caller shouldn't have called findAllMoves() in the first place. */
     assert(!st.gameIsOver());
-    /* It is the caller's responsibility to clear the vector he passes in. */
-    assert(allmoves.empty());
 
-    AllT all(prune_worse_moves, look_only_for_wins,
+    AllT all(callback, prune_worse_moves, look_only_for_wins,
              st.containsOverpopulation(), these_colors_only);
     /* As explained above, we want to avoid generating moves that are
      * equivalent to "pass". It's easy to avoid generating "pass", but
@@ -211,7 +218,7 @@ void findAllMoves(const GameState &st, int attacker,
         combine_normal(passmove, st, attacker, all);
     }
 
-    if (prune_worse_moves && !all.map.empty()) {
+    if (prune_worse_moves && !all.seen.empty()) {
         /* We have found at least one move better than "pass". */
     } else {
         /* Just for completeness' sake, let's see if it's legal to make any
@@ -221,7 +228,7 @@ void findAllMoves(const GameState &st, int attacker,
          * state of the game; in fact, we actually expect to do so. */
         all.original_state = "";
         find_postcatastrophes(passmove, st, attacker, all);
-        if (prune_worse_moves && !all.map.empty()) {
+        if (prune_worse_moves && !all.seen.empty()) {
             /* We have found at least one move better than "pass". */
         } else if (!look_only_for_wins) {
             /* "pass" can't be a winning move. */
@@ -232,22 +239,7 @@ void findAllMoves(const GameState &st, int attacker,
 #if ALLMOVES_USE_EXCEPTIONS
     } catch (...) { }
 #endif
-
-    /* At this point, the depth-first traversal of the possible-move tree
-     * has bottomed out and come all the way back up.
-     * Now "all" is a map whose values are WholeMoves leading to unique
-     * GameStates from the given state. Extract the values from "all"
-     * and append them to "allmoves". */
-    if (!look_only_for_wins) {
-        assert(all.map.size() >= 1);
-    }
-    if (look_only_for_wins && prune_worse_moves) {
-        assert(all.map.size() <= 1);
-    }
-
-    for (auto&& kv : all.map) {
-        allmoves.push_back(std::move(kv.second));
-    }
+    return all.done;
 }
 
 static void combine_precatastrophes(const WholeMove &m,
@@ -288,7 +280,7 @@ static void combine_precatastrophes(const WholeMove &m,
                  * make some non-trivial move (e.g. change color at home,
                  * or move in another ship) to fix it up. */
                 append_move(all, newm, newst, attacker);
-                assert(all.found_win);
+                assert(all.done);
                 return;
             }
             if (where->homeworldOf == attacker && newst.hasLost(attacker)) {
@@ -305,8 +297,7 @@ static void combine_precatastrophes(const WholeMove &m,
                 combine_precatastrophes(newm, posscats, pc+1, newst, attacker, all);
             }
 #if !ALLMOVES_USE_EXCEPTIONS
-            /* Bail out early if we've already found a win. */
-            if (all.prune_worse_moves && all.found_win) return;
+            if (all.done) return;
 #endif
         }
 
@@ -362,10 +353,7 @@ static void combine_normal(const WholeMove &m,
             }
         }
 #if !ALLMOVES_USE_EXCEPTIONS
-        /* Bail out early if we've already found a win. */
-        if (all.prune_worse_moves && all.found_win) {
-            return;
-        }
+        if (all.done) return;
 #endif
     }
     /* Now we come to the part where the branching factor really kicks in:
@@ -399,10 +387,7 @@ static void combine_normal(const WholeMove &m,
             }
         }
 #if !ALLMOVES_USE_EXCEPTIONS
-        /* Bail out early if we've already found a win. */
-        if (all.prune_worse_moves && all.found_win) {
-            return;
-        }
+        if (all.done) return;
 #endif
     }
     return;
@@ -561,7 +546,7 @@ static void combine_one_yellow_action(const WholeMove &m,
     if (must_fly_homeward || must_attack_defender) {
         return;
     }
-    if (all.win_only && all.found_win) {
+    if (all.done) {
         return;
     }
     /* Or we could move to a new star from the stash. */
@@ -742,14 +727,11 @@ static void combine_postcatastrophes(const WholeMove &m,
 static void append_move(AllT &all, const WholeMove &m, const GameState &st,
     const int attacker)
 {
-#if ALLMOVES_USE_EXCEPTIONS
-    assert(!(all.prune_worse_moves && all.found_win));
-#else
-    /* If we already found at least one winning move, then the caller
-     * doesn't care about less-winning alternative moves. So don't waste
-     * time and CPU cycles messing with the map in that case. */
-    if (all.prune_worse_moves && all.found_win) return;
+#if !ALLMOVES_USE_EXCEPTIONS
+    if (all.done) return;
 #endif
+
+    assert(!all.done);
 
     /* A move that results in the destruction of your own homeworld is
      * not permitted. We explicitly disallow sacrificing the last ship at
@@ -776,20 +758,18 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
     if (!is_win && all.win_only) {
         /* Sorry, we're only looking for winning moves. */
         return;
-    } else if (is_win && all.prune_worse_moves) {
-        /* If we find a winning move, we can forget all those other
-         * worse moves we found before; just report the winning one. */
-        all.found_win = true;
-        all.map.clear();
-        all.map.emplace(std::string(), m);
-#if ALLMOVES_USE_EXCEPTIONS
-        throw 42;
-#endif
     } else {
         std::string key = st.toComparableString();
         if (key == all.original_state) {
             return;
         }
-        all.map.emplace(std::move(key), m);
+        if (all.emplace_into_seen(std::move(key))) {
+            bool done = all.callback(m, st);
+            if (done) {
+                all.be_done();
+            } else if (is_win && all.prune_worse_moves) {
+                all.be_done();
+            }
+        }
     }
 }

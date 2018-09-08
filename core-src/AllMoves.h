@@ -1,5 +1,8 @@
 #pragma once
 
+#include <functional>
+#include <vector>
+
 #include "move.h"
 #include "state.h"
 
@@ -24,16 +27,20 @@
  * moves". This includes sacrifice moves as well as free moves, and includes
  * moves involving catastrophes as well.
  */
-void findAllMoves(const GameState &st, int attacker,
-    std::vector<WholeMove> &allmoves,
+bool findAllMoves(
+    const GameState &st,
+    int attacker,
+    bool prune_obviously_worse_moves,
+    bool look_only_for_wins,
+    unsigned int these_colors_only,
+    const std::function<bool(const WholeMove&, const GameState&)>& callback);
+
+std::vector<WholeMove> findAllMoves(
+    const GameState &st,
+    int attacker,
     bool prune_obviously_worse_moves,
     bool look_only_for_wins,
     unsigned int these_colors_only);
-
-/* Usually, we want prune_obviously_worse_moves=true,
- * look_only_for_wins=false, and these_colors_only=0xF. */
-void findAllMoves_usualcase(const GameState &st, int attacker,
-    std::vector<WholeMove> &allmoves);
 
 /* Sometimes, we just want to know a single bit of information:
  * Does the attacker have a winning move from this position, or not?

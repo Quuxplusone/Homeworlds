@@ -401,23 +401,25 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
     }
     /* The attacker did move into check.
      * But maybe he didn't have any choice? */
-    std::vector<WholeMove> allmoves;
-    findAllMoves_usualcase(oldst, attacker, allmoves);
-    for (int i=0; i < (int)allmoves.size(); ++i) {
-        newst = oldst;
-        ApplyMove::or_die(newst, attacker, allmoves[i]);
-        /* If he'd made this move instead, would he still be in check? */
-        if (newst.gameIsOver()) {
-            /* No, in fact he'd have won the game! */
-            return true;
+    return findAllMoves(
+        oldst,
+        attacker,
+        /*prune_obviously_worse_moves=*/true,
+        /*look_only_for_wins=*/false,
+        0xF,
+        [&](const WholeMove&, const GameState& newst) {
+            /* If he'd made this move instead, would he still be in check? */
+            if (newst.gameIsOver()) {
+                /* No, in fact he'd have won the game! */
+                return true;
+            }
+            if (!findWinningMove(newst, 1-attacker, nullptr)) {
+                /* No, he wouldn't still be in check. */
+                return true;
+            }
+            return false;
         }
-        if (!findWinningMove(newst, 1-attacker, nullptr)) {
-            /* No, he wouldn't still be in check. */
-            return true;
-        }
-    }
-    /* All moves led to check, so he was going to lose either way. */
-    return false;
+    );
 }
 
 
@@ -432,23 +434,19 @@ static void verify_move(bool legal, const WholeMove &move, int attacker)
         if (!legal) {
             printf("Failed isValidMove test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
         }
-        std::vector<WholeMove> allmoves;
-        findAllMoves(g_History.currentstate(), attacker, allmoves,
-                /*prune_obviously_worse_moves=*/false,
-                /*look_only_for_wins=*/false,
-                /*these_colors_only=*/0xF);
         GameState targetst = g_History.currentstate();
         ApplyMove::or_die(targetst, attacker, move);
         const std::string target = targetst.toComparableString();
-        bool found = false;
-        for (int i=0; i < (int)allmoves.size(); ++i) {
-            GameState newst = g_History.currentstate();
-            ApplyMove::or_die(newst, attacker, allmoves[i]);
-            if (newst.toComparableString() == target) {
-                found = true;
-                break;
+        bool found = findAllMoves(
+            g_History.currentstate(),
+            attacker,
+            /*prune_obviously_worse_moves=*/false,
+            /*look_only_for_wins=*/false,
+            /*these_colors_only=*/0xF,
+            [&](const WholeMove&, const GameState& newst) {
+                return (newst.toComparableString() == target);
             }
-        }
+        );
         if (found != legal) {
             printf("Failed findAllMoves test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
         }
@@ -598,9 +596,10 @@ static bool move_and_record(int attacker)
         } else if (moveline == "rate_moves") {
             (void)get_all_moves_sorted_by_value(g_History.currentstate(), attacker, true);
         } else if (moveline == "count_moves") {
-            std::vector<WholeMove> allmoves;
-            findAllMoves(g_History.currentstate(), attacker, allmoves,
-                    /*prune=*/false, /*wins=*/false, /*colors=*/0xf);
+            std::vector<WholeMove> allmoves = findAllMoves(
+                g_History.currentstate(), attacker,
+                /*prune=*/false, /*wins=*/false, /*colors=*/0xf
+            );
             assert(allmoves.size() >= 1);  /* "pass" from a legal position is always legal */
             printf("%d\n", (int)allmoves.size());
         } else if (!strncmp(moveline.c_str(), "LEGAL ", 6) ||
