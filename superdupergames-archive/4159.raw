@@ -32,7 +32,7 @@ Winner: zoltar
 14) zoltar: Discover R1 Zoltar Y2 Yellowstone
 
 15) jerzy: Trade R2 Y2 Jerzy
-jerzy: Where are you from?
+	jerzy: Where are you from?
 
 16) zoltar: Discover Y2 Zoltar G2 Greenbelt
 
@@ -125,10 +125,10 @@ Move R3 Yellowsprings Goldie
 Move R3 Goldie Greenbelt
 
 50) zoltar: Attack G2 Tinyspot
-jerzy: Let's play it out anyway.
+	jerzy: Let's play it out anyway.
 
 51) jerzy: Attack R2 Greenbelt
-zoltar: It's tough when you're up against the green 'factory'.
+	zoltar: It's tough when you're up against the green 'factory'.
 
 52) zoltar: Sacrifice Y2 Tinyspot
 Move R2 Blueberry Greenbelt
@@ -141,16 +141,16 @@ Catastrophe Greenbelt R
 Build G3 Goldie
 Build Y2 Tinyspot
 Build Y2 Zoltar
-zoltar: Yikes! Big red mean alien machine spotted off zee port bow -- evasive action -- run for your lives!
+	zoltar: Yikes! Big red mean alien machine spotted off zee port bow -- evasive action -- run for your lives!
 
 55) jerzy: Build R1 Jerzy
-jerzy: Just learning how to sacrifice -- that's something I haven't got the knack of just yet.
+	jerzy: Just learning how to sacrifice -- that's something I haven't got the knack of just yet.
 
 56) zoltar: Sacrifice Y2 Zoltar
 Move G3 Goldie Jerzy
 Move G2 Tinyspot Jerzy
 Catastrophe Jerzy G
-zoltar: There are lots of tricks that deal with sacrifices -- they are the hardest moves to find and to anticipate, I think.
+	zoltar: There are lots of tricks that deal with sacrifices -- they are the hardest moves to find and to anticipate, I think.
 
 57) jerzy: Move R1 Jerzy Goldie
 
@@ -163,4 +163,4 @@ Move R3 Blueberry Jerzy
 Attack R1 Goldie
 Attack R1 Jerzy
 
-jerzy: yes, let's.. 
+	jerzy: yes, let's..

@@ -1,0 +1,52 @@
+Homeworlds Online (SDG# 23476)
+Variants: "Hard time"
+Started: 2013.3.11, Ended: 2013.3.23
+Participants: SimonDorfman (S), SilentTitan (N)
+Winner: SimonDorfman
+
+1) SilentTitan: Homeworld R2 B3 G3
+
+2) SimonDorfman: Homeworld R1 B2 G3
+
+3) SilentTitan: Build G1 Silenttitan
+	SilentTitan: The Object of the game is to win.  How you win is to either destroy all the planets in the opponants homeworld or all his ships. 
+
+	SilentTitan: 
+	SilentTitan: I should say destroy or control all the ships in the opponants homeworld
+ 
+There is only one way to destroy your opponants planets and ships. (Planets are the squares, ships are the triangles) You may use the catastrophe command as the last command in your turn anytime a system has four of the same color (planets, ships or both) This will remove those pieces from the board and put them back into the bank
+	SilentTitan: the bank is the global reserve stash at the top of the board.  These are the total pieces we have to play with.  It is determined by N+1 of each of the four colors where N is the number of players. 
+ 
+Think of each color as a technology. Red=Attack, Blue=Trade, Green=Build, Yellow=Move. That means that currently in your homeworld you may attack, trade or build. If you build you may only build the color ship you already have in the system. In this case you may only build Green. (this is why trade is useful).  
+	SilentTitan: since neither of us can move the first action will be to build another green ship.  When you build you have to build from smallest to largest avaliabe in the bank for the color you are building.  Since there are G1's in the bank, that is what we'll have to choose. 
+
+4) SimonDorfman: Build G1 Simondorfman
+	SilentTitan: the command I used was "Build g1 silenttitan" the name of your homeworld is your superduper username. we'll be able to name the other systems as we discover them.
+	SilentTitan: in binary homeworlds command mirroring is fairly common for the first few turns
+
+5) SilentTitan: Trade G1 Y1 Silenttitan
+	SilentTitan: Now since neither of us can move. Time to trade out the g1 for a y1
+
+6) SimonDorfman: Trade G1 Y1 Simondorfman
+
+7) SilentTitan: Build G1 Silenttitan
+	SilentTitan: Ok... Now you have the option of building another green or another yellow ship. However, building a yellow ship would use up the last y1 and allow the next player to build a y2.  the big deal about a y2 is the idea of sacrifice.  When you sacrifice you get however many actions there are pips on the piece you sacrificed. So in the case of a y2 you would get two move actions, which you can use together on the same ship or spread it out. 
+	SilentTitan: OR you can move out into the universe and discover a new world.  When you discover you have to discover a world that is not the size of the world you are discovering from.  so my home world has a three-pip and a two-pip that means I can only discover out to a one-pip world.  However, I'll opt for the build 
+
+8) SimonDorfman: Build G1 Simondorfman
+	SilentTitan: Your Homeworld is comprised of a One-Pip and Two-Pip world so you have to discover a Three-Pip world when you do decide to move. 
+
+9) SilentTitan: Discover G1 Silenttitan B1 Sol
+
+10) SimonDorfman: Discover G1 Simondorfman Y3 Willywonka
+	SilentTitan: Green is a great color to go discovering with. because where ever you go you'll be able to build another. So discovering a yellow (move) or Blue(Trade) planet are good because you'd be able to trade or move your new piece quickly.
+
+11) SilentTitan: Build G1 Sol
+
+12) SimonDorfman: Build G2 Willywonka
+	SimonDorfman: what causes systems to be connected? when I try "move g1 willywonka silenttitan" it says "These systems are not connected."
+
+13) SilentTitan: Build G2 Silenttitan
+	SilentTitan: correct... you can only move to a system that does NOT share a same size star.  So from a 3-Pip you can only move to a 1-pip or 2-pip. Which is why WillyWonka is connected to your homeworld. 
+
+14) SimonDorfman: Discover G1 Willywonka B1 Oompaloompa

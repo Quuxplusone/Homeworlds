@@ -9,7 +9,7 @@ Winner: mneme
 2) mneme: Homeworld R2 B1 G3
 
 3) zoltar: Build G1 Zoltar
-mneme: bah. I'd been planning on trying out the "no yellows" opening for a while, but I didn't really want a nigh-identical setup.
+	mneme: bah.  I'd been planning on trying out the "no yellows" opening for a while, but I didn't really want a nigh-identical setup.
 
 4) mneme: Build G1 Mneme
 
@@ -18,17 +18,17 @@ mneme: bah. I'd been planning on trying out the "no yellows" opening for a while
 6) mneme: Trade G1 Y1 Mneme
 
 7) zoltar: Build G1 Zoltar
-zoltar: b g1 zoltar
+	zoltar: b g1 zoltar
 
 8) mneme: Build G1 Mneme
 
 9) zoltar: Trade G1 R1 Zoltar
 
 10) mneme: Build G1 Mneme
-zoltar: I'm not used to the red star setup either, and I don't think I've played a symmetrical red-blue star game before.
+	zoltar: I'm not used to the red star setup either, and I don't think I've played a symmetrical red-blue star game before.
 
 11) zoltar: Build R1 Zoltar
-mneme: Nor have I. Should be interesting, at least.
+	mneme: Nor have I.  Should be interesting, at least.
 
 12) mneme: Discover G1 Mneme R3 Hunter
 
@@ -43,17 +43,17 @@ mneme: Nor have I. Should be interesting, at least.
 17) zoltar: Move R1 Zoltar Greenbelt
 
 18) mneme: Build G2 Harper
-zoltar: I think I'm way behind in this one -- probably in big trouble here.
+	zoltar: I think I'm way behind in this one -- probably in big trouble here.
 
 19) zoltar: Build G2 Zoltar
-mneme: I hope so... :) We'll see
+	mneme: I hope so... :)  We'll see
 
 20) mneme: Sacrifice G3 Mneme
 Build G3 Mneme
 Build G3 Hunter
 Build Y1 Mneme
-zoltar: I just lost a Homeworlds game in 8 moves. That must be a record.
-mneme: wow. To whom?
+	zoltar: I just lost a Homeworlds game in 8 moves.  That must be a record.
+	mneme: wow.  To whom?
 
 
 21) zoltar: Sacrifice G3 Zoltar
@@ -80,8 +80,8 @@ Build R1 Greenbelt
 27) zoltar: Sacrifice Y2 Zoltar
 Move G2 Zoltar Blueberry
 Move Y2 Blueberry Harper
-zoltar: I'm pretty much doomed unless you make a major mistake.
-mneme: true, but that's not that unlikely.
+	zoltar: I'm pretty much doomed unless you make a major mistake.
+	mneme: true, but that's not that unlikely.
 
 28) mneme: Sacrifice G3 Hunter
 Build G3 Hunter
@@ -146,11 +146,10 @@ Move G2 Archer Zoltar
 Move G1 Archer Zoltar
 Catastrophe Zoltar G
 
-SYSTEM: zoltar resigns.
-#49) zoltar: Sacrifice Y3 Desperation
-#Move R1 Yellowstone Greenbelt
-#Move Y1 Zoltar Greenbelt
-#Pass
+49) zoltar: Sacrifice Y3 Desperation
+Move R1 Yellowstone Greenbelt
+Move Y1 Zoltar Greenbelt
+Pass
 
-zoltar: gg -- well done.
-mneme: Cool game (and nice to win one occasionally) -- thanks! 
+	zoltar: gg -- well done.
+	mneme: Cool game (and nice to win one occasionally) -- thanks!

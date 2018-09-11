@@ -6,18 +6,18 @@ Winner: ts52
 1) discord35: Homeworld G2 B1 Y3
 
 2) ts52: Homeworld Y3 B2 G3
-ts52: Have a great game!
+	ts52: Have a great game!
 
 3) discord35: Build Y1 Discord35
 
 4) ts52: Build G1 Ts52
-discord35: Thanks! This should be fun!
+	discord35: Thanks! This should be fun!
 
 5) discord35: Trade Y1 G1 Discord35
 
 6) ts52: Trade G1 Y1 Ts52
 
-7) discord35: Discover G1 Discord35 Y3 Y3x1
+7) discord35: Discover G1 Discord35 Y3 Y3-1
 
 8) ts52: Build G1 Ts52
 
@@ -33,27 +33,27 @@ discord35: Thanks! This should be fun!
 
 14) ts52: Build G1 Berry
 
-15) discord35: Build G2 Y3x1
+15) discord35: Build G2 Y3-1
 
 16) ts52: Trade G1 Y1 Berry
 
-17) discord35: Discover G2 Y3x1 Y2 Y2x1
+17) discord35: Discover G2 Y3-1 Y2 Y2-1
 
 18) ts52: Build G1 Ts52
 
-19) discord35: Move G2 Y2x1 Berry
+19) discord35: Move G2 Y2-1 Berry
 
 20) ts52: Sacrifice G3 Ts52
 Build G2 Berry
 Build G3 Berry
 Build G3 Ts52
 
-21) discord35: Build G3 Y3x1
+21) discord35: Build G3 Y3-1
 Catastrophe Berry G
 
 22) ts52: Move G1 Ts52 Berry
 
-23) discord35: Move G3 Y3x1 Berry
+23) discord35: Move G3 Y3-1 Berry
 
 24) ts52: Build G1 Berry
 
@@ -72,11 +72,11 @@ Build G2 Berry
 Build G2 Berry
 Catastrophe Berry Green
 
-31) discord35: Build G1 Y3x1
+31) discord35: Build G1 Y3-1
 
 32) ts52: Build G1 Ts52
 
-33) discord35: Move G1 Y3x1 Berry
+33) discord35: Move G1 Y3-1 Berry
 
 34) ts52: Trade G1 Y1 Ts52
 
@@ -92,7 +92,7 @@ Catastrophe Berry Green
 
 40) ts52: Move Y2 Ts52 Grape
 
-41) discord35: Discover Y1 Berry Y2 Y2x1
+41) discord35: Discover Y1 Berry Y2 Y2-1
 
 42) ts52: Trade Y2 R2 Grape
 
@@ -100,21 +100,21 @@ Catastrophe Berry Green
 
 44) ts52: Build G1 Ts52
 
-45) discord35: Move Y1 Discord35 Y3x1
+45) discord35: Move Y1 Discord35 Y3-1
 
 46) ts52: Move G1 Ts52 Grape
 
-47) discord35: Discover Y1 Y3x1 R1 R1x1
+47) discord35: Discover Y1 Y3-1 R1 R1-1
 
 48) ts52: Build R2 Ts52
 
-49) discord35: Sacrifice G1 Y3x1
+49) discord35: Sacrifice G1 Y3-1
 Build Y3 Discord35
 
-50) ts52: Move R2 Ts52 R1x1
+50) ts52: Move R2 Ts52 R1-1
 
 51) discord35: Sacrifice Y3 Discord35
-Move Y1 R1x1 Ts52
+Move Y1 R1-1 Ts52
 Move Y2 Berry Ts52
 Move Y2 Berry Ts52
 Catastrophe Ts52 Y
@@ -125,15 +125,15 @@ Catastrophe Ts52 Y
 
 54) ts52: Build R3 Ts52
 
-55) discord35: Move Y1 Y2x1 Berry
+55) discord35: Move Y1 Y2-1 Berry
 
 56) ts52: Build G1 Ts52
 
-57) discord35: Discover Y3 Discord35 G3 G3x1
+57) discord35: Discover Y3 Discord35 G3 G3-1
 
 58) ts52: Discover R2 Grape Y3 Sol
 
-59) discord35: Move Y3 G3x1 Grape
+59) discord35: Move Y3 G3-1 Grape
 
 60) ts52: Move R2 Sol Discord35
 
@@ -169,7 +169,7 @@ Catastrophe Ts52 Y
 
 73) discord35: Trade G2 Y2 Berry
 
-74) ts52: Move G1 Ts52 R1x1
+74) ts52: Move G1 Ts52 R1-1
 
 75) discord35: Build G2 Grape
 
@@ -186,16 +186,16 @@ Catastrophe Ts52 Y
 81) discord35: Attack R2S Grape
 
 82) ts52: Sacrifice G2 Grape
-Build G2 R1x1
+Build G2 R1-1
 Pass
 
 83) discord35: Trade R2 Y2 Grape
 
-84) ts52: Move Y1 Ts52 R1x1
+84) ts52: Move Y1 Ts52 R1-1
 
-85) discord35: Discover R3 Grape Y3 Y3x1
+85) discord35: Discover R3 Grape Y3 Y3-1
 
-86) ts52: Discover R2 R1x1 Y3 Sol
+86) ts52: Discover R2 R1-1 Y3 Sol
 
 87) discord35: Build R1 Discord35
 
@@ -203,21 +203,21 @@ Pass
 
 89) discord35: Trade R3 G3 Discord35
 
-90) ts52: Sacrifice G2 R1x1
+90) ts52: Sacrifice G2 R1-1
 Build Y2 Ts52
-Build Y3 R1x1
+Build Y3 R1-1
 
 91) discord35: Sacrifice G1 Grape
-Build R2 Y3x1
+Build R2 Y3-1
 
 92) ts52: Trade R2 B2 Ts52
 
-93) discord35: Move R2 Y3x1 Grape
+93) discord35: Move R2 Y3-1 Grape
 
-94) ts52: Move B2 Ts52 R1x1
+94) ts52: Move B2 Ts52 R1-1
 
 95) discord35: Sacrifice G3 Discord35
-Build R2 Y3x1
+Build R2 Y3-1
 Build R3 Grape
 Build R3 Discord35
 
@@ -227,38 +227,38 @@ Build R3 Discord35
 
 98) ts52: Discover R2 Sol B2 Blueish
 
-99) discord35: Move R3 Y3x1 Blueish
+99) discord35: Move R3 Y3-1 Blueish
 
-100) ts52: Build B3 R1x1
+100) ts52: Build B3 R1-1
 
 101) discord35: Attack R2S Blueish
 
-102) ts52: Move B3 R1x1 Y3x1
+102) ts52: Move B3 R1-1 Y3-1
 
-103) discord35: Move R2 Y3x1 Discord35
+103) discord35: Move R2 Y3-1 Discord35
 
-104) ts52: Build G2 R1x1
+104) ts52: Build G2 R1-1
 
 105) discord35: Build G2 Berry
 
-106) ts52: Move G1 Ts52 Y3x1
+106) ts52: Move G1 Ts52 Y3-1
 
 107) discord35: Move G1 Berry Sol
 
-108) ts52: Build G3 Y3x1
+108) ts52: Build G3 Y3-1
 
 109) discord35: Sacrifice Y2 Grape
-Move R3 Sol R1x1
-Move R3 Blueish R1x1
+Move R3 Sol R1-1
+Move R3 Blueish R1-1
 
-110) ts52: Attack R3N R1x1
+110) ts52: Attack R3N R1-1
 
 111) discord35: Sacrifice R2 Grape
-Attack R3S R1x1
-Attack Y3S R1x1
+Attack R3S R1-1
+Attack Y3S R1-1
 
-112) ts52: Trade B2 R2 R1x1
-Catastrophe R1x1 Red
+112) ts52: Trade B2 R2 R1-1
+Catastrophe R1-1 Red
 
 113) discord35: Build G1 Berry
 
@@ -267,13 +267,13 @@ Move R1 Ts52 Sol
 Move R1 Sol Discord35
 Catastrophe Discord35 Red
 
-115) discord35: Move Y2 Berry Y3x1
+115) discord35: Move Y2 Berry Y3-1
 
-116) ts52: Move B3 Y3x1 Discord35
+116) ts52: Move B3 Y3-1 Discord35
 
 117) discord35: Sacrifice G2 Berry
-Build Y1 Y3x1
-Build Y2 Y3x1
-Catastrophe Y3x1 Y
+Build Y1 Y3-1
+Build Y2 Y3-1
+Catastrophe Y3-1 Y
 
 118) ts52: Trade B3 R3 Discord35

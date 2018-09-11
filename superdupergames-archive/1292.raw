@@ -69,19 +69,19 @@ Move R2 Temp Twoshort
 Attack R2N Twoshort
 
 29) jeep: Build Y2 Jeep
-jeep: Teach me to make moves while in a meeting... I have no idea why I thought that was a good idea.
+	jeep: Teach me to make moves while in a meeting... I have no idea why I thought that was a good idea.
 
 30) TwoShort: Move Y2 Twoshort Bluestar
 
 31) jeep: Discover Y2 Jeep B3 Moon
-TwoShort: It did make me wonder...
+	TwoShort: It did make me wonder...
 
 32) TwoShort: Build Y3 Bluestar
 
 33) jeep: Trade Y1 R1 Jeep
 
 34) TwoShort: Trade Y3 G3 Bluestar
-jeep: I went from a strong game to a weak one in a turn. *sigh*
+	jeep: I went from a strong game to a weak one in a turn.  *sigh*
 
 35) jeep: Build G2 Jeep
 
@@ -116,5 +116,5 @@ Attack R1N Jeep
 
 46) TwoShort: Trade G3 B3 Bluestar
 
-jeep: Good game. I needed to trade for a R2. I even had it written down, but thought I saw something better.
-SYSTEM: jeep resigns. 
+	jeep: Good game.  I needed to trade for a R2.  I even had it written down, but thought I saw something better.
+	SYSTEM: jeep resigns.

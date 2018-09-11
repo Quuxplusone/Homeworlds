@@ -61,7 +61,7 @@ Move G2 Temp Matrixfrog
 
 27) MatrixFrog: Trade Y1 R1 Matrixfrog
 
-28) Personman: Attack Y2N Gamma
+28) Personman: A Y2N Gamma
 
 29) MatrixFrog: Build R1 Matrixfrog
 
@@ -72,7 +72,7 @@ Move R2 Temp Matrixfrog
 31) MatrixFrog: Attack R2 Matrixfrog
 
 32) Personman: Build B1 Personman
-Personman: oh. I read that rule wrong. oops. now i know.
+	Personman: oh. I read that rule wrong. oops. now i know.
 
 33) MatrixFrog: Attack G2 Matrixfrog
 
@@ -109,17 +109,17 @@ Move Y1 Gamma Personman
 Build R3 Gamma
 Build R3 Gamma
 Build R3 Personman
-Personman: Oh crap. I totally saw your y2 in gamma as a y1 because the name of the system is on top of it... that's bad.
+	Personman: Oh crap. I totally saw your y2 in gamma as a y1 because the name of the system is on top of it... that's bad.
 
 47) MatrixFrog: Move Y2 Gamma Personman
 Catastrophe Personman Y
-MatrixFrog: How is a y2 any worse? I can still do this either way...
+	MatrixFrog: How is a y2 any worse? I can still do this either way...
 
 48) Personman: Trade R2 Y2 Personman
-Personman: i couldn't attack it last turn.
+	Personman: i couldn't attack it last turn. 
 
 49) MatrixFrog: Attack G1 Beta
-MatrixFrog: Aha.
+	MatrixFrog: Aha.
 
 50) Personman: Move G1 Personman Gamma
 
@@ -132,7 +132,7 @@ Move R3 Temp Matrixfrog
 53) MatrixFrog: Attack R3 Matrixfrog
 
 54) Personman: Build R2 Personman
-Personman: I think I've lost. good game!
+	Personman: I think I've lost. good game!
 
 55) MatrixFrog: Trade R3 Y3 Matrixfrog
 

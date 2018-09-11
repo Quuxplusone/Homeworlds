@@ -47,7 +47,7 @@ Attack R1 Blueberry
 21) zoltar: Move Y1 Zoltar Blueberry
 
 22) jerzy: Discover Y1 Jerzy G1 Galathea
-zoltar: m y1 zoltar blueberry
+	zoltar: m y1 zoltar blueberry
 
 23) zoltar: Build G2 Zoltar
 
@@ -79,5 +79,5 @@ Move Y1 Blueberry Jerzy
 Move Y2 Blueberry Jerzy
 Catastrophe Jerzy Y
 
-zoltar: Thanks for the game! Play again?
-jerzy: Nice playing with you too. This was my first time at this game. Let's play again, sure. 
+	zoltar: Thanks for the game!  Play again?
+	jerzy: Nice playing with you too. This was my first time at this game. Let's play again, sure.

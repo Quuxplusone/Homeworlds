@@ -31,14 +31,14 @@ Build G3 Uglyfoot
 12) antihero: Build G3 Antihero
 
 13) Uglyfoot: Trade G2 Y2 Trader
-antihero: I'm sorry that took so long.
+	antihero: I'm sorry that took so long.
 
 14) antihero: Discover G3 Antihero B1 Switch
 
 15) Uglyfoot: Discover G1 Trader R1 Battlestar
-Uglyfoot: Please reconsider your last move (undo). You traded for your 4th yellow ship in your homeworld which will let me cause a catastrophe there. Setting you back while I continue my mad scheming.
-antihero: oh geez. thanks.
-antihero: Why did I want to do that anyways, I wonder?
+	Uglyfoot: Please reconsider your last move (undo).  You traded for your 4th yellow ship in your homeworld which will let me cause a catastrophe there.  Setting you back while I continue my mad scheming.
+	antihero: oh geez. thanks.
+	antihero: Why did I want to do that anyways, I wonder?
 
 16) antihero: Build G2 Switch
 
@@ -77,9 +77,9 @@ Trade G2 Y2 Battlestar
 
 30) antihero: Move G2 Antihero Switch
 
-31) Uglyfoot: Discover G1 Uglyfoot Y2 MovinOut
+31) Uglyfoot: Discover G1 Uglyfoot Y2 Movin'out
 
-32) antihero: Discover G2 Switch Y3 Chillin
+32) antihero: Discover G2 Switch Y3 Chillin'
 
 33) Uglyfoot: Build R1 Uglyfoot
 
@@ -87,22 +87,22 @@ Trade G2 Y2 Battlestar
 
 35) Uglyfoot: Trade R1 B1 Uglyfoot
 
-36) antihero: Move G2 Chillin MovinOut
+36) antihero: Move G2 Chillin' Movin'out
 
-37) Uglyfoot: Build G2 MovinOut
+37) Uglyfoot: Build G2 Movin'out
 
 38) antihero: Build G3 Switch
 
-39) Uglyfoot: Move G1 MovinOut Switch
+39) Uglyfoot: Move G1 Movin'out Switch
 
 40) antihero: Trade G1 B1 Switch
 
 41) Uglyfoot: Sacrifice R1 Uglyfoot
-Attack G2 MovinOut
+Attack G2 Movin'out
 
 42) antihero: Sacrifice Y2 Switch
-Move G3 Switch MovinOut
-Move G3 MovinOut Uglyfoot
+Move G3 Switch Movin'out
+Move G3 Movin'out Uglyfoot
 
 43) Uglyfoot: Trade G3 R3 Uglyfoot
 
@@ -110,4 +110,4 @@ Move G3 MovinOut Uglyfoot
 Attack B1 Uglyfoot
 Attack R3 Uglyfoot
 
-antihero: Thanks for the game. It was pretty even up until that move, I thought. 
+	antihero: Thanks for the game. It was pretty even up until that move, I thought.

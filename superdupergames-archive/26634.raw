@@ -1,0 +1,191 @@
+Homeworlds Online (SDG# 26634)
+Variants: "No undo"
+Started: 2014.12.6, Ended: 2015.1.1
+Participants: Grissom (S), hellajoey (N)
+Winner: hellajoey
+
+1) hellajoey: Homeworld R1 B2 G3
+
+2) Grissom: Homeworld R3 B2 G3
+
+3) hellajoey: Build G1 Hellajoey
+
+4) Grissom: Build G1 Grissom
+
+5) hellajoey: Trade G1 Y1 Hellajoey
+
+6) Grissom: Build G1 Grissom
+	hellajoey: Hey, Larry. I have an Android question: Do you have experience with pinch-to-zoom or panning? I've started working on a Homeworlds player in my spare time. I've implemented both pinch-to-zoom and panning but there are some problems. The biggest issue is I need to be able to pan or zoom out and see parts of the board that started outside of the screen window but anything that starts outside of the screen window gets chopped off once it's moved into the screen window. Does that make sense? I'd really like to be able to accomplish this without having to know how big the game view is going to be since it will be built dynamically.
+ 
+Any ideas? Also, how's eBay and how's life? 
+	Grissom: Hi Joey, eBay is good I'm really enjoying it. I do have some experience with pinch to zoom and panning but it is a bit difficult to make sense of it without seeing the code. Do you have a git project? I would be interested in contributing. Regardless I would recommend looking into an existing library like a pinch to zoom image view and reviewing how they handle drawing the bitmap.
+
+7) hellajoey: Build Y1 Hellajoey
+
+8) Grissom: Trade G1 Y1 Grissom
+
+9) hellajoey: Build Y2 Hellajoey
+
+10) Grissom: Build Y2 Grissom
+
+11) hellajoey: Discover Y1 Hellajoey G3 Grun
+
+12) Grissom: Discover Y1 Grissom G1 Greengob
+
+13) hellajoey: Trade Y1 B1 Hellajoey
+
+14) Grissom: Discover G1 Grissom Y1 Flash
+
+15) hellajoey: Move B1 Hellajoey Grun
+
+16) Grissom: Discover Y1 Greengob B3 Blubot
+
+17) hellajoey: Build G1 Hellajoey
+	hellajoey: Thanks, Larry. I don't think the project is in the place where I want to open it up yet. It's still a little haywire until I figure out how I want the visuals to work. I'll keep you posted though. Once I have a general player working there will still be a lot of work to make it awesome. Glad things are going well at eBay. Miss you guys.
+
+18) Grissom: Discover G1 Flash B3 Blubot2point0
+	Grissom: This may be helpful: https://github.com/sephiroth74/ImageViewZoom
+
+19) hellajoey: Trade G3 R3 Hellajoey
+
+20) Grissom: Build G1 Grissom
+
+21) hellajoey: Build G2 Hellajoey
+
+22) Grissom: Build G2 Blubot2point0
+
+23) hellajoey: Move G2 Hellajoey Grun
+
+24) Grissom: Trade G3 R3 Grissom
+
+25) hellajoey: Move R3 Hellajoey Blubot2point0
+
+26) Grissom: Sacrifice G2 Blubot2point0
+Build G2 Grissom
+Build Y1 Blubot
+
+27) hellajoey: Attack G1 Blubot2point0
+
+28) Grissom: Sacrifice G2 Grissom
+Build Y2 Blubot
+Build Y3 Grissom
+
+29) hellajoey: Sacrifice G2 Grun
+Build Y3 Grun
+Build Y3 Hellajoey
+
+30) Grissom: Sacrifice Y2 Blubot
+Move Y1 Blubot Hellajoey
+Move Y1 Blubot Hellajoey
+Catastrophe Hellajoey Yellow
+
+31) hellajoey: Move Y3 Grun Hellajoey
+
+32) Grissom: Build G2 Grissom
+
+33) hellajoey: Build G2 Blubot2point0
+
+34) Grissom: Discover G1 Grissom Y1 Yo
+
+35) hellajoey: Build Y1 Hellajoey
+
+36) Grissom: Discover Y2 Grissom B1 Hop
+
+37) hellajoey: Move Y1 Hellajoey Blubot2point0
+
+38) Grissom: Build Y2 Grissom
+
+39) hellajoey: Sacrifice G2 Blubot2point0
+Build Y2 Blubot2point0
+Build Y3 Hellajoey
+
+40) Grissom: Build G2 Yo
+
+41) hellajoey: Build G2 Blubot2point0
+
+42) Grissom: Build G3 Grissom
+
+43) hellajoey: Build G3 Hellajoey
+
+44) Grissom: Trade Y2 B2 Grissom
+
+45) hellajoey: Build Y2 Grun
+
+46) Grissom: Move Y2 Hop Grun
+
+47) hellajoey: Build R1 Blubot2point0
+
+48) Grissom: Move R3 Grissom Yo
+
+49) hellajoey: Move Y2 Grun Yo
+
+50) Grissom: Sacrifice R3 Yo
+Attack Y2 Yo
+Attack B1 Grun
+Attack Y1 Grun
+
+51) hellajoey: Discover Y3 Hellajoey B3 Blut
+
+52) Grissom: Sacrifice G3 Grissom
+Build G3 Grissom
+Build B1 Grun
+Build B1 Grun
+
+53) hellajoey: Discover G1 Hellajoey B3 Druid
+
+54) Grissom: Move G2 Yo Druid
+
+55) hellajoey: Move R3 Blubot2point0 Yo
+
+56) Grissom: Sacrifice B2 Grissom
+Trade G2 R2 Druid
+Trade Y1 R1 Grun
+
+57) hellajoey: Attack G1 Yo
+
+58) Grissom: Build R2 Grun
+
+59) hellajoey: Sacrifice Y3 Blut
+Move G1 Blubot2point0 Yo
+Move G1 Yo Grissom
+Move G1 Yo Grissom
+Catastrophe Grissom Green
+
+60) Grissom: Sacrifice Y2 Yo
+Move R2 Druid Hellajoey
+Move R1 Grun Hellajoey
+
+61) hellajoey: Move Y3 Hellajoey Grun
+
+62) Grissom: Sacrifice Y2 Grun
+Discover B1 Grun G1 Skip
+Move R2 Grun Hellajoey
+Catastrophe Hellajoey Red
+
+63) hellajoey: Move Y2 Blubot2point0 Skip
+
+64) Grissom: Build B2 Grun
+
+65) hellajoey: Sacrifice R3 Yo
+Attack B1 Skip
+Attack B2 Grun
+Attack B1 Grun
+
+66) Grissom: Build B3 Grun
+Catastrophe Grun Blue
+
+67) hellajoey: Build Y1 Skip
+
+68) Grissom: Trade Y3 G3 Grissom
+
+69) hellajoey: Move G2 Blubot2point0 Skip
+
+70) Grissom: Build G1 Grissom
+
+71) hellajoey: Sacrifice Y3 Grun
+Move G1 Druid Skip
+Move G1 Skip Grissom
+Move G2 Skip Grissom
+Catastrophe Grissom Green
+	hellajoey: That was probably the coolest game I've been in.
+	Grissom: Just saw this comment, ya it was a fun one.

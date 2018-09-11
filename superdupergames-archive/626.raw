@@ -20,7 +20,7 @@ Winner: zapple
 8) MatrixFrog: Discover Y1 Blueberry G1 Pine
 
 9) zapple: Trade Y1 B1 Zapple
-MatrixFrog: You can talk here too. But we have IM so it's not really necessary.
+	MatrixFrog: You can talk here too. But we have IM so it's not really necessary.
 
 10) MatrixFrog: Build Y1 Pine
 
@@ -49,7 +49,7 @@ MatrixFrog: You can talk here too. But we have IM so it's not really necessary.
 22) MatrixFrog: Move Y2 Blueberry Zapple
 
 23) zapple: Trade Y3 R3 Blueberry
-MatrixFrog: Intruder!
+	MatrixFrog: Intruder!
 
 24) MatrixFrog: Pass
 
@@ -83,7 +83,7 @@ Trade R3 Y3 Blueberry
 38) MatrixFrog: Discover Y3 Matrixfrog R3 Ruby
 
 39) zapple: Build Y2 Zapple
-zapple: attack Y1 matrixfrog
+	zapple: attack Y1 matrixfrog
 
 40) MatrixFrog: Trade B2 R2 Zapple
 

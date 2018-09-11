@@ -1,0 +1,91 @@
+Homeworlds Online (SDG# 817)
+Started: 2005.10.1, Ended: 2005.10.7
+Participants: Jesse (S), dralius (N)
+Winner: Jesse
+
+1) dralius: Homeworld Y1 G1 R1
+	dralius: Hi, new to this game so i may be slow.
+
+
+2) Jesse: Homeworld G1 B1 R1
+	Jesse: Slow is okay.  I recommend, though, that you take a look at the wiki, where I've written some important strategy tips for new players.  The number one thing I'd point out is that you should choose a large ship to start, not a small one.  To be sporting, I'll also take a small ship.
+
+3) dralius: Build R1 Dralius
+	dralius: i am still working out how to write the comands, it seems that i can't construct a shit at this point.
+
+	dralius: it says i must have that type of ship to constuct it and it says there is not sufficiant red to build one either.
+	dralius: if i can't build a ship what can i do?
+
+	Jesse: You can only build a ship of the same color as a ship you already own in the system where you're building it, so it would have to be red.  I don't understand the error about insufficient red; clearly there are red 'mids available.  Are you trying to build a medium or large ship?  You must build the smallest available of that color.
+	Jesse: The command should be: "construct r1 dralius"
+
+4) Jesse: Build R2 Jesse
+	dralius: i think my problem was i assumed it knew what the smallest value was so i didn't need to tell it that is was a 1
+
+	Jesse: Ah, yes.  It appears there are some poor error messages for that kind of malformed command.
+
+5) dralius: Discover R1 Dralius Y3 Occularies
+	Aaron: I apologize.  What is happening is once an error occurs, it shouldn't continue checking for other errors.  Because it's not "short-circuiting," you sometimes get multiple errors that don't really make sense.  This is indeed on my TODO list and I just haven't gotten around to it.  I *will* get to it though.
+	Aaron: I will consider changing the "construct" command as well so that you do not have to enter a size.  I guess I always err on the side of expliciteness so as to minimize surprises and unanticipated results.
+	dralius: here is a question. with the object being to destroy the other player/s. In a two player game is there any point on doing anything other than build ships and attack.
+	dralius: second question: is there any way to block an attack?
+
+
+6) Jesse: Trade R2 Y2 Jesse
+	Jesse: To question one, I would say there's actually a lot of complexity just in those two general areas of production and attack.  Particularly when it comes to production, you want to try to exploit the stash and the game position to outproduce your opponent.  This can include making a run on a particular color to try to limit your opponent's options in some way, such as leaving him unmaneuverable because he doesn't have enough yellow.
+	Jesse: To the second question, in what sense do you mean?  There are various kinds of attacks, and various ways of protecting yourself.  For instance, to protect yourself from catastrophes, limit the number of 'mids of a given color in a system.
+
+7) dralius: Build R2 Dralius
+	Jesse: Now that I have a Y2 ship, I can sacrifice it to hop a ship directly into your home system, so you'll have to watch for that.
+
+8) Jesse: Build R2 Jesse
+	dralius: my second question is literal. If i am in a position to attack you there seems to be nothing you can do to stop it. Am i correct?
+	Jesse: Right.  Of course, when you move into attack position, it will be my turn next, so you'll have to account for whatever I might do (such as being able to attack your ship) before you get to carry out the attack.
+
+9) dralius: Discover R1 Occularies B2 Stomell
+	Jesse: Now, beware of the fact that I can hop one of my red ships into your homeworld, so you can't afford to build a third one there.
+	Jesse: You may find yourself rather limited if you have nothing but red ships; it's generally good to diversify.  To do that, you'll have to find a blue planet sometime.
+	dralius: why?
+
+	dralius: i may be missing something but i don't see the point in having blue. Yello allows me to move - i have that and green to produce i have that.
+ 
+
+
+10) Jesse: Discover R2 Jesse Y3 Stage
+	dralius: ok now i am in a blue system.
+
+	Jesse: Yes, you have yellow and green, but you only have red ships.  First off, that leaves you vulnerable to catastrophes.  A single red catastrophe in your system will wipe you out.  Second, ship sacrifices are a very important part of the game.  Having yellow ships to sacrifice allows you to move multiple ships on one turn, which is an important attack technique.  Large green ships can boost your production by building multipe ships in one turn.  As long as you can rebuild the large green as part of the maneuver, you don't lose anything.
+
+11) dralius: Trade R1 G1 Stomell
+	dralius: sorry still thinking about my move
+
+
+12) Jesse: Build R1 Jesse
+
+13) dralius: Build G2 Stomell
+
+14) Jesse: Build R2 Jesse
+
+15) dralius: Trade G2 Y2 Stomell
+
+16) Jesse: Move R1 Jesse Stage
+
+17) dralius: Move G1 Stomell Dralius
+	Jesse: What would happen if I sacrificed my y2 to move the ships from Stage to your homeworld?
+	dralius: other than you capturing it?
+
+	dralius: nothing i can do about that now.
+
+	dralius: you could distroy my system.
+
+	dralius: construct g2 dralius
+	dralius: can't do that i guess, i don't see the solution
+ 
+
+
+18) Jesse: Build R3 Jesse
+	Jesse: Right.  Now I can't wipe you out with a single blow.  Do you see how I've had you scrambling to protect your homeworld while I build strength, largely due to that little extra bit of flexibility I had with the yellow ship?
+
+	dralius: How can you wipe out all 3 ships
+	dralius: Either way i think its over. Thanks for the game, i guess this it is a bit to oblique for me.
+	SYSTEM: dralius resigns.

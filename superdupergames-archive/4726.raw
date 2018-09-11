@@ -1,0 +1,198 @@
+Homeworlds Online (SDG# 4726)
+Started: 2006.12.7, Ended: 2007.1.11
+Participants: Lexicon (S), DavidF (W), tcerier (N), Uglyfoot (E)
+Winner: Uglyfoot
+
+1) Uglyfoot: Homeworld B3 Y1 G3
+	DavidF: Hello All - I've played Homeworlds a number of times in the materail world, but never in Cyberspace before, so please be frogiving in my awkwardness with some of the movement of pieces. Also, in the material game a key element to the fun is the desgination of players being either "good" or "evil". I'm not seeing anything like that here. Am I missing something?
+ 
+
+	Lexicon: Wow, I didn't even notice this game had started.  Wonder where tcerier is.  Anyway, DavidF, this variant is Last Man Standing, so you have to kill everyone else.  There is also the sinister variant, where you have to kill the player to your left.
+	Lexicon: Anyway, tcerier isn't around anymore, so I'm just going to resign him.
+
+2) Lexicon: Homeworld B2 Y3 G3
+
+3) DavidF: Homeworld G3 B1 Y3
+
+4) Uglyfoot: Build G1 Uglyfoot
+	DavidF: Can someone give me lesson on how to submit orders? I can't seem to find any better reference than what's on this page. I've tried a number of variations but keep getting "nothing left in stash" messages. Here's what i most recently typed: Homeworld (G3, B1, Y3)
+	Lexicon: no parentheses or commas.  every command on a separate line.  so your first command would be
+homeworld g3 b1 y3
+	Lexicon: And actually, you just have to type the first letter of each command, so "h g3 b1 y3" would work.  A lot of stuff about homeworlds here is discussed in its wiki, which is linked at the top of the page.  
+
+5) Lexicon: Build G1 Lexicon
+	DavidF: Thanx
+
+6) DavidF: Build Y1 Davidf
+
+7) Uglyfoot: Discover G1 Uglyfoot B2 Welcomemat
+
+8) Lexicon: Trade G1 R1 Lexicon
+
+9) DavidF: Discover Y1 Davidf G2 Yorn
+
+10) Uglyfoot: Build G1 Uglyfoot
+	DavidF: So how do i create a new systme called Yorn? I've tried different perambulations of  "discover y1 DavidF g1 yorn" and i keep being refused? Help?
+	Lexicon: You can't move to a size 1 system, only a size 2.  So try "d y1 DavidF g1 yorn"
+	Lexicon: ack.  I mean, 'd y1 DavidF g2 yorn"
+	DavidF: I tried that. I geta "these systmes aren't connected message." I'm confused; I'm trying to create a new system.
+	Lexicon: Hm.  if "discover y1 DavidF g2 yorn" doesn't work, I don't know what to tell you.  Your system is definitely connected to a g2, but not a g1.
+
+11) Lexicon: Build G1 Lexicon
+	DavidF: thanx again, Lexicon. i think i'm beginning to understand, although i've never played this way. i've always played with the direct capacity to send a ship and create whatever size system, without taking into consideration the size i'm sending from. an interesting difference in rules. 
+	Lexicon: If the last time you played was with the older version rules, then you have a lot to learn.  I did the same thing; it was quite confusing for a while.
+
+12) DavidF: Build Y1 Davidf
+
+13) Uglyfoot: Trade G1 R1 Uglyfoot
+
+14) Lexicon: Discover G1 Lexicon Y1 Hydrogen
+	DavidF: UglyFoot and Lexicon - i'll be out of town 5-6 days and at house with no computer. There's a chance i can get to mysister's computer but not definite. Might be a slow go as well until i'm back.
+	Uglyfoot: no problem.  I'm on vacation but with ready access to computers.  I'm a member of a really geeky family...   :>
+
+15) DavidF: Trade Y3 R3 Davidf
+	Lexicon: My family's geekiness did not extend all the way to grandma's house. Sorry to be late myself. :)
+
+16) Uglyfoot: Build G1 Uglyfoot
+
+17) Lexicon: Build G1 Lexicon
+
+18) DavidF: Build Y1 Davidf
+
+19) Uglyfoot: Trade G3 Y3 Uglyfoot
+
+20) Lexicon: Trade G1 B1 Lexicon
+
+21) DavidF: Trade Y1 R1 Davidf
+
+22) Uglyfoot: Build Y1 Uglyfoot
+
+23) Lexicon: Move B1 Lexicon Hydrogen
+
+24) DavidF: Build Y2 Davidf
+
+25) Uglyfoot: Move Y1 Uglyfoot Welcomemat
+
+26) Lexicon: Build B1 Hydrogen
+
+27) DavidF: Move R1 Davidf Welcomemat
+
+28) Uglyfoot: Build Y2 Welcomemat
+	Lexicon: DavidF: Unless I'm mistaken, you could have nuked Uglyfoot last round by putting a yellow in his system.  Very sporting of you not to. :)
+
+29) Lexicon: Build G1 Hydrogen
+
+30) DavidF: Move R3 Davidf Welcomemat
+
+31) Uglyfoot: Sacrifice Y2 Welcomemat
+Move G1 Welcomemat Davidf
+Move Y1 Welcomemat Davidf
+
+32) Lexicon: Discover G1 Hydrogen Y2 Helium
+	DavidF: Lexicon, oh yes, i see what you mean. Can't quite take credit for being sporting. Now i'm a bit overextended but it promises to be fun anyway.
+
+33) DavidF: Sacrifice Y2 Davidf
+Move R1 Welcomemat Davidf
+Move R3 Welcomemat Uglyfoot
+	Uglyfoot: ok.  we'll commence with the invasion!
+
+34) Uglyfoot: Attack R3W Uglyfoot
+
+35) Lexicon: Move B1 Hydrogen Helium
+
+36) DavidF: Attack Y1E Davidf
+	DavidF: Lexicon, I probably should have asked for a rules clarification before my last move, but i was needing to get some stuff done around here, work, etc. So, does a little red ship in Uglyfoot's system enable Uglyfoot to attack my R3 with his Y3? If so, that would be a good move on his/her part and not good news for you either. If so, sorry and good luck
+	Lexicon: That is correct.  He will own your R3.  Feel free to undo your move and try something else, as far as I'm concerned.
+	Uglyfoot: DavidF, Please go ahead and undo that.  We can continue from there...
+	DavidF: UglyFoot, that's very generous of you. It would make the game more interesting, particularly for me, but it's a moot point now, it seems. I have lost the 'undo' move function. I tried to call an administrator, to have it reinstated but the operator has timed out. Uglyfoot and lexicon, i suggest we go ahead, and i'll chalk this up as an aflo (another frigging learning opportunity).  
+	DavidF: Okay, I clearly don't know what I'm doing.An administrator e-mailed back, and so I'll send this out, with another Administrator call. 
+	DavidF: Administrator - we are all agreed, Lexicon, Uglyfoot and myself, for me, DavidF, to undo my last move. Could you reinstate my "Undo Last Move" button?
+	DavidF: Thanks for the offer, Uglyfoot. I cannot connect with the administator. If someone else is willing and wanting me to undo my last move, please feel free to contact the Adminsitrator. I'm okay with proceeding. 
+
+37) Uglyfoot: Sacrifice R3 Uglyfoot
+Attack R1W Davidf
+Attack Y1W Davidf
+Attack Y1W Davidf
+
+38) Lexicon: Build G1 Hydrogen
+	DavidF: Do either of you know a better command for attacking the y1 ship in my system. a y1 DavidF doesn't work and i suspect the presence of two y1 ships in the sytem is complicating things.
+	Lexicon: read the little text below the command list.  a y1e davidf
+
+39) Uglyfoot: Build G2 Uglyfoot
+	DavidF: thanx
+
+40) Lexicon: Build G2 Helium
+
+41) Uglyfoot: Move G1 Davidf Helium
+
+42) Lexicon: Move G1 Helium Uglyfoot
+
+43) Uglyfoot: Trade G2 R2 Uglyfoot
+
+44) Lexicon: Build G2 Uglyfoot
+
+45) Uglyfoot: Build G2 Helium
+
+46) Lexicon: Trade G1 B1 Uglyfoot
+
+47) Uglyfoot: Sacrifice R2 Uglyfoot
+Attack G2S Uglyfoot
+Attack G2S Helium
+
+48) Lexicon: Sacrifice G1 Hydrogen
+Build B1 Uglyfoot
+
+49) Uglyfoot: Move G2 Helium Hydrogen
+
+50) Lexicon: Sacrifice G1 Hydrogen
+Build B2 Uglyfoot
+
+51) Uglyfoot: Build Y2 Davidf
+
+52) Lexicon: Trade B1 G1 Uglyfoot
+
+53) Uglyfoot: Attack G1S Uglyfoot
+
+54) Lexicon: Build G1 Lexicon
+
+55) Uglyfoot: Move G1 Helium Hydrogen
+
+56) Lexicon: Sacrifice R1 Lexicon
+Attack R1E Uglyfoot
+
+57) Uglyfoot: Sacrifice R1 Davidf
+Attack R1S Uglyfoot
+
+58) Lexicon: Trade G3 R3 Lexicon
+
+59) Uglyfoot: Trade Y2 R2 Davidf
+
+60) Lexicon: Move B1 Hydrogen Helium
+
+61) Uglyfoot: Sacrifice R2 Davidf
+Attack B1S Helium
+Attack B1S Helium
+
+62) Lexicon: Sacrifice R3 Lexicon
+Attack R1E Uglyfoot
+Attack G2E Uglyfoot
+Attack G1E Uglyfoot
+
+63) Uglyfoot: Move G2 Hydrogen Lexicon
+
+64) Lexicon: Trade B2 Y2 Uglyfoot
+
+65) Uglyfoot: Trade Y3 R3 Uglyfoot
+
+66) Lexicon: Attack G1E Uglyfoot
+
+67) Uglyfoot: Attack R1S Uglyfoot
+
+68) Lexicon: Build G1 Uglyfoot
+Catastrophe Uglyfoot G
+
+69) Uglyfoot: Sacrifice R1 Uglyfoot
+Attack G1S Lexicon
+
+	Lexicon: OK this has gone on too long. :)
+	Uglyfoot: Let me solve that.  Good game.

@@ -1,0 +1,243 @@
+Homeworlds Online (SDG# 610)
+Started: 2005.9.3, Ended: 2005.10.5
+Participants: Aaron (S), CDRodeffer (W), invisiblejon (N), Kermit (E)
+Winner: Aaron
+
+1) invisiblejon: Homeworld G3 Y2 R3
+
+2) Kermit: Homeworld G3 B2 Y2
+
+3) Aaron: Homeworld Y1 B2 G3
+
+4) CDRodeffer: Homeworld R1 Y3 G3
+
+5) invisiblejon: Build R1 Invisiblejon
+
+6) Kermit: Build Y1 Kermit
+	Kermit: construct y1 g3
+ 
+error:   	Can't call method "name" on an undefined value at /home/html/games/lib/Homeworlds/Pos.pm line 281.
+context:  	
+...  	
+277:  	
+278:  	#does the System exist?
+279:  	my $system = $self->getSystem($inSystem);
+280:  	if (! defined $system) {
+281:  	push @$errors, "The ".$system->name()." system does not exist.";
+282:  	last MOVE;
+283:  	}
+284:  	
+285:  	#does the user have access to Green?
+...  	
+code stack:  	/home/html/games/lib/Homeworlds/Pos.pm:281
+/usr/local/lib/perl5/site_perl/5.8.7/Games/Sequential.pm:158
+/home/html/games/HTML/mhtml/play_homeworlds.mhtml:326
+/home/html/games/HTML/main.html:26
+/home/html/games/HTML/autohandler:10
+raw error
+	Kermit: construct Y1 G3E <======that was my corrected command but I got the same error as below.
+
+7) Aaron: Build G1 Aaron
+	Aaron: All fixed.  Thanks, Kermit.
+
+8) CDRodeffer: Build G1 Cdrodeffer
+
+9) invisiblejon: Discover R3 Invisiblejon Y1 Persephone
+
+10) Kermit: Discover Y2 Kermit R1 Spork
+
+11) Aaron: Trade G1 R1 Aaron
+
+12) CDRodeffer: Discover G1 Cdrodeffer B2 Blue_ball_pennsylvania
+
+13) invisiblejon: Build R1 Invisiblejon
+
+14) Kermit: Trade Y1 B1 Kermit
+
+15) Aaron: Build R2 Aaron
+
+16) CDRodeffer: Build G1 Blue_ball_pennsylvania
+
+17) invisiblejon: Build R2 Invisiblejon
+
+18) Kermit: Build B1 Kermit
+
+19) Aaron: Trade R1 Y1 Aaron
+	CDRodeffer: Aaron -- what win condition are we using here? Last person standing? First kill? Kill your left-hand neighbor (not counting resignations)?
+	Aaron: Currently it is still "Last Man Standing."  I just haven't had time to do the "left-hand-neighbour" but I am 99% certain that is the option I will go with (as a Variant most likely).
+
+20) CDRodeffer: Trade G1 Y1 Blue_ball_pennsylvania
+
+21) invisiblejon: Move R3 Persephone Kermit
+
+22) Kermit: Trade B1 Y1 Kermit
+
+23) Aaron: Build R1 Aaron
+
+24) CDRodeffer: Build Y1 Blue_ball_pennsylvania
+
+25) invisiblejon: Attack Y1E Kermit
+
+26) Kermit: Build B1 Kermit
+
+27) Aaron: Build Y2 Aaron
+
+28) CDRodeffer: Trade Y1 B1 Blue_ball_pennsylvania
+
+29) invisiblejon: Move R3 Kermit Spork
+
+30) Kermit: Discover Y2 Spork R3 Chuckles
+
+31) Aaron: Trade Y1 B1 Aaron
+
+32) CDRodeffer: Discover G1 Blue_ball_pennsylvania B1 Dwarf
+
+33) invisiblejon: Move R1 Invisiblejon Dwarf
+
+34) Kermit: Trade B1 Y1 Kermit
+
+35) Aaron: Discover Y2 Aaron G3 Emerald
+
+36) CDRodeffer: Build G1 Cdrodeffer
+
+37) invisiblejon: Attack G1W Dwarf
+
+38) Kermit: Build Y1 Kermit
+
+39) Aaron: Move B1 Aaron Emerald
+
+40) CDRodeffer: Move B1 Blue_ball_pennsylvania Cdrodeffer
+
+41) invisiblejon: Build R2 Dwarf
+
+42) Kermit: Discover Y1 Kermit G1 Sanctuary
+
+43) Aaron: Move R2 Aaron Emerald
+
+44) CDRodeffer: Move G1 Cdrodeffer Blue_ball_pennsylvania
+
+45) invisiblejon: Trade R2 Y2 Dwarf
+
+46) Kermit: Move B1 Kermit Sanctuary
+
+47) Aaron: Move R2 Emerald Blue_ball_pennsylvania
+
+48) CDRodeffer: Sacrifice Y1 Blue_ball_pennsylvania
+Move G1 Blue_ball_pennsylvania Cdrodeffer
+
+49) invisiblejon: Move G1 Dwarf Kermit
+	CDRodeffer: If I were as tedious as a king, I could find it in my heart to bestow it all of your worship. -- Much Ado about Nothing. ACT III Scene 5.
+
+50) Kermit: Build Y1 Kermit
+
+51) Aaron: Build Y2 Emerald
+
+52) CDRodeffer: Build B1 Cdrodeffer
+
+53) invisiblejon: Build Y3 Kermit
+Catastrophe Kermit Yellow
+
+54) Aaron: Move Y2 Emerald Blue_ball_pennsylvania
+	Aaron: rofl!  oops!  Clark has gone and disappeared =)
+	Aaron: Checking that now.
+	Aaron: wb, Clark =)  Sorry about that. I am aware that there is still a blank space where East seat used to be.  That'll take me longer to fix.
+
+55) CDRodeffer: Discover B1 Cdrodeffer G2 Soylent_people
+	CDRodeffer: I must have missed quite a bit of drama.
+
+56) invisiblejon: Move R1 Dwarf Soylent_people
+
+57) Aaron: Sacrifice Y2 Blue_ball_pennsylvania
+Move R2 Blue_ball_pennsylvania Dwarf
+Move R2 Dwarf Kermit
+
+58) CDRodeffer: Build B2 Soylent_people
+
+59) invisiblejon: Sacrifice G1 Kermit
+Build R2 Soylent_people
+
+60) Aaron: Build R2 Kermit
+
+61) CDRodeffer: Construct B2 Cdrodeffer
+
+62) invisiblejon: Attack B2W Soylent_people
+	Kermit: OK from now on I will read the strategy and tips for beginners BEFORE I start the game. ;) (not that it would have made much difference)
+
+63) Aaron: Trade R2 Y2 Kermit
+
+64) CDRodeffer: Trade B1 Y1 Cdrodeffer
+
+65) invisiblejon: Attack B1W Soylent_people
+
+66) Aaron: Move R2 Kermit Sanctuary
+
+67) CDRodeffer: Build Y1 Cdrodeffer
+
+68) invisiblejon: Move Y2 Dwarf Soylent_people
+
+69) Aaron: Sacrifice Y2 Kermit
+Move Y2 Emerald Soylent_people
+Move Y2 Soylent_people Cdrodeffer
+Catastrophe Cdrodeffer Yellow
+
+70) CDRodeffer: Trade G1 Y1 Cdrodeffer
+	Aaron: Oops!  Redudant elimination message =/
+	CDRodeffer: I'm feeling rather picked on.
+
+71) invisiblejon: Move R2 Soylent_people Sanctuary
+
+72) Aaron: Attack R2N Sanctuary
+
+73) CDRodeffer: Build Y1 Cdrodeffer
+
+74) Aaron: Attack Y1E Sanctuary
+
+75) CDRodeffer: Build G1 Cdrodeffer
+	SYSTEM: invisiblejon resigns.
+	CDRodeffer: You know, after having been the target of so many attacks, forcing N to resign on time felt kind of -- good. :-)
+
+76) Aaron: Move R2 Sanctuary Soylent_people
+
+77) CDRodeffer: Construct B1 Cdrodeffer
+
+78) Aaron: Attack Y2N Soylent_people
+
+79) CDRodeffer: Move B2 Cdrodeffer Chuckles
+
+80) Aaron: Trade B1 Y1 Emerald
+
+81) CDRodeffer: Attack Y2E Chuckles
+
+82) Aaron: Attack B2N Soylent_people
+
+83) CDRodeffer: Sacrifice G1 Cdrodeffer
+Build Y2 Chuckles
+
+84) Aaron: Attack B1E Sanctuary
+	Aaron: I am seeing the other problem with protracted, last-man-standing games, namely excessive resources.
+	CDRodeffer: Yeah. That's why they eventually went with reduced stashes for fewer people. In a recent Wunderland News, Andy Looney calls what you refer to as "left man down" Homeworlds "Sinister" Homeworlds.
+
+85) CDRodeffer: Move Y1 Cdrodeffer Invisiblejon
+	Aaron: I much prefer the "Sinister" name and I'm sad I didn't think of it first =)  It's a little late to change so, "left man down" is kind of stuck.
+
+86) Aaron: Attack R1N Soylent_people
+
+87) CDRodeffer: Build Y2 Cdrodeffer
+	CDRodeffer: There's no reason you can't change the name.
+	Aaron: Actually, there is a small technical issue =)  I never took into consideration the possibility of renaming variants.  It's not that it's not possible, I just haven't had time to consider the ramifications and what exactly I would have to change.  It is on my todo list though.
+
+88) Aaron: Move R2 Sanctuary Emerald
+
+89) CDRodeffer: Discover Y2 Cdrodeffer R2 Red_buttons
+
+90) Aaron: Build Y3 Emerald
+
+91) CDRodeffer: Build Y3 Cdrodeffer
+
+92) Aaron: Sacrifice Y3 Emerald
+Move R2 Emerald Cdrodeffer
+Move R1 Soylent_people Cdrodeffer
+Move R2 Soylent_people Cdrodeffer
+Catastrophe Cdrodeffer Red
+
+	Aaron: Well, I *think* this will end the game.  If so, thank you all for the game!  If not, I apologize and await my beating =)

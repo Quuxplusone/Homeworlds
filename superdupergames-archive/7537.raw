@@ -114,7 +114,8 @@ Build G3 Zuleo
 Build Y2 Zuleo
 Build Y2 Zuleo
 
-45) sordros: Build R1 Sordros
+45) sordros:
+Build R1 Sordros
 
 46) TwoShort: Move Y2 Zuleo Greedo
 
@@ -129,7 +130,8 @@ Build Y3 Greedo
 
 50) TwoShort: Trade G3 R3 Zuleo
 
-51) sordros: Build G3 Sordros
+51) sordros:
+Build G3 Sordros
 
 52) TwoShort: Sacrifice Y2 Greedo
 Move Y3 Greedo Sordros
@@ -142,4 +144,4 @@ Attack R1N Sordros
 Attack R1N Sordros
 Attack G3N Sordros
 
-sordros: Thanks for the game! 
+	sordros: Thanks for the game!

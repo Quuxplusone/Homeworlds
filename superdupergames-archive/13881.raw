@@ -5,12 +5,12 @@ Participants: uncledan (S), MangoToque (N)
 Winner: MangoToque
 
 1) MangoToque: Homeworld G2 Y1 B3
-uncledan: homeworld G3 B1 R3
+	uncledan: homeworld G3 B1 R3
 
 2) uncledan: Homeworld G3 B1 R3
 
 3) MangoToque: Build B1 Mangotoque
-MangoToque: done
+	MangoToque: done
 
 
 4) uncledan: Build R1 Uncledan
@@ -62,3 +62,8 @@ Move R3 Bill Uncledan
 24) uncledan: Build Y2 Uncledan
 
 25) MangoToque: Attack Y2 Uncledan
+
+26) uncledan: Build Y2 Uncledan
+
+27) MangoToque: Pass
+Catastrophe Uncledan Y

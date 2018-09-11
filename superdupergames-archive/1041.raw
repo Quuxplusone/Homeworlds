@@ -25,7 +25,7 @@ Build G2 First
 Build G3 Sketchwick
 
 10) jeep: Build Y1 Jeep
-jeep: Heh, I suck. I am constantly skipping steps in my plan.
+	jeep: Heh, I suck.  I am constantly skipping steps in my plan.
 
 11) sketchwick: Discover G2 First B3 Sport
 
@@ -70,7 +70,7 @@ Catastrophe Blood Green
 26) jeep: Build R1 Jeep
 
 27) sketchwick: Move G1 Sport Jeep
-jeep: I have no clue what I'm doing.
+	jeep: I have no clue what I'm doing.
 
 28) jeep: Move G3 Jeep Sport
 
@@ -83,7 +83,7 @@ Catastrophe Sport Green
 30) jeep: Attack G1N Jeep
 
 31) sketchwick: Discover G3 Sketchwick Y2 Drink
-jeep: so many tactics I haven't thought about
+	jeep: so many tactics I haven't thought about
 
 32) jeep: Discover G1 Jeep Y3 Me
 
@@ -130,3 +130,10 @@ Attack Y1 Jeep
 Build B1 Jeep
 
 51) sketchwick: Attack B1 Jeep
+
+52) jeep: Sacrifice G2 Sketchwick
+Build B2 Jeep
+Build B2 Jeep
+
+53) sketchwick: Pass
+Catastrophe Jeep Blue

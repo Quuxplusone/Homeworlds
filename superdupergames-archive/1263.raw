@@ -1,0 +1,147 @@
+Homeworlds Online (SDG# 1263)
+Started: 2005.11.6, Ended: 2005.11.13
+Participants: Laurie_Menke (S), Jesse (N)
+Winner: Jesse
+
+1) Jesse: Homeworld B3 Y1 G3
+
+2) Laurie_Menke: Homeworld G3 B2 Y3
+
+3) Jesse: Build G1 Jesse
+	Laurie_Menke: Hi Jesse.  Just to warn you, I've only played one full game of Homeworlds and I lost horribly.  I hope you'll forgive my newbie blunders.  :o(
+	Jesse: Hi, Laurie.  I see you're playing TwoShort and Andy already.  Excelent choices.  Let's see what I can add to your education...
+
+4) Laurie_Menke: Build Y1 Laurie_menke
+	Laurie_Menke: Any and all education is greatly appreciated.  :o)
+
+5) Jesse: Trade G1 Y1 Jesse
+
+6) Laurie_Menke: Build Y2 Laurie_menke
+	Jesse: If you were to build that second y1 before I got a yellow, it could be very difficult for me to get one later, so I'm grabbing it for myself before it's too late.
+	Laurie_Menke: OK...so why do you want the y1?  I was thinking you just have to work through the 1s to get to the "bigger guns."
+
+7) Jesse: Discover Y1 Jesse G2 Kif
+	Jesse: Because if you took the y1, I wouldn't be able to get a yellow until I had a 2-pointer, by which time you might have used up all the 2-pointers.  I could always trade my g3, but I want to have it for a factory at the first opportunity.
+
+8) Laurie_Menke: Discover Y1 Laurie_menke G1 Creativity
+
+9) Jesse: Build Y2 Kif
+
+10) Laurie_Menke: Build Y2 Creativity
+	Laurie_Menke: OK.  I see what you mean.
+
+11) Jesse: Build G1 Jesse
+
+12) Laurie_Menke: Trade Y3 G3 Laurie_menke
+
+13) Jesse: Discover Y1 Kif B1 Frog
+
+14) Laurie_Menke: Move G3 Laurie_menke Frog
+	Laurie_Menke: So what would you say a good goal would be for me right now in this game?  I'm having trouble understanding what I should be doing to either attack or defend efficiently...
+
+15) Jesse: Move Y1 Frog Laurie_menke
+
+16) Laurie_Menke: Sacrifice Y2 Laurie_menke
+Move G3 Frog Laurie_menke
+Move Y2 Creativity Kif
+	Jesse: At this stage, defense is about avoiding leaving your homeworld vulnerable to either catastrophe or lany larger ships that might arrive.  By moving out your g3, you reduce the diversity of your ships, so that I can move in like this, threatening to sacrifice my g3 to blast you.  If you had any red ships, you would be safe from that, so one thing you can do to defend yourself is obtain a red ship once I've set up on your border.
+	Jesse: Offense here is more about positioning yourself to threaten to do things like this, in such a way that it limits the opponent's ability to develop.  For instance, TwoShort in particular always seems to push a couple of green ships to a yelow star next to me when I want to set up a factory on my homeworld early on.  That prevents me from safely opperating a factory there.  It's a good tactic.
+	Jesse: I'm not usually very aggressive that way in the early game.  I play for defense first, and development second.  I only really start to turn my thoughts to offense when I've got a couple of extra large pieces, preferably more than the opponent.  Otherwise, I try to squeeze the resources to develop just a little more nicely than my opponent.
+	Jesse: In this game, I made some inefficient moves early on that gave you a big positional advantage for nabbing those large yellows.  I moved up to Frog to prevent you from grabbing too many of them.  (It threatens to move in and destroy them if you build two at your homeworld.)  It was aso to spread my own yellows out so that I would be able to build one or more of them myself.  Moving in to your homeworld just now is a tactic to force you to make some defensive plays while I hopefully can squeeze out some yellows.  Right now, I think you either have to change your lone home defender to another color, probably red, or sacrifice a piece to bring your g3 home.
+	Laurie_Menke: Wow...I really appreciate you taking the time to give so much good advice!  I can see now that it was stupid of me to move the g3 out, especially when I had no way of moving once I was there.  
+	Laurie_Menke: And I would have never even thought of the sacrificing your g3 to build yellows and destroy my homeworld.  I need to think more carefully about the sacrifice moves that both I and my opponent can make.
+	Laurie_Menke: Huh...I thought I was doing this right, but I got an error message.  Is this code correct?  sacrifice y2 Laurie_Menke <carriage return> move g3 Frog Laurie_Menke <carriage return> move y2 Creativity Jesse?
+	Laurie_Menke: The error says I can't leave my homeworld undefended by the end of my turn...I didn't think I was...I'm leaving it temporarily, but returning my green in the second command line.  Right?
+	Laurie_Menke: Well, I'll try something else instead...
+
+17) Jesse: Trade Y1 G1 Laurie_menke
+	Jesse: Yes, you should be able to do that.  I believe you've found a bug.  Actually, I've been wondering whether this was implemented properly, but never had an opportunity to test it.
+	Aaron: It *was* implemented properly, but then I had to allow "cashing in on investment" and mis-handled it.  I'll repair the code now.
+	Aaron: Fixed.  Laurie, I undid your last move.  You should now be able to do what you previously wanted.  Let me know if it doesn't work.
+	Laurie_Menke: Thanks, Aaron and Jesse!  You're the best!  And Jesse, please forgive me for being late on my move...I went out of town on an emergency...my Dad was having bypass surgery.  I tried to use my Mom's computer, but it was too slow.  Please forgive me.
+
+18) Laurie_Menke: Trade G3 R3 Laurie_menke
+	Jesse: Yeah, no problem.  I hope your dad is okay.
+
+19) Jesse: Build G2 Laurie_menke
+	Laurie_Menke: He is...thanks.
+
+20) Laurie_Menke: Build R1 Laurie_menke
+	Jesse: Again, we see the value  of diversity at the homeworld.  Having only one color of ships there is all the more dangerous if it's the same color as one of your system markers.  Since you don't have any red to capture my ship, your green star is probably doomed, but you can save your large ship by changing its color.
+	Jesse: Er, yeah, like that.  :)
+
+21) Jesse: Sacrifice G3 Jesse
+Build G2 Laurie_menke
+Build G3 Jesse
+Build G3 Jesse
+Catastrophe Laurie_menke G
+	Laurie_Menke: Hey...I'm starting to catch on a little, I guess!  All thanks to your patience tutelage!  :o)
+
+22) Laurie_Menke: Build Y1 Creativity
+	Laurie_Menke: I meant "patient"...sorry for the typo
+	Jesse: What!?  A type?!  Now I'm rezlly outrages!
+
+23) Jesse: Trade G3 R3 Jesse
+	Laurie_Menke: LOL!  :o)
+
+24) Laurie_Menke: Trade R1 G1 Laurie_menke
+	Jesse: What's really funny, to me, is that those were all real typos.  I didn't even think of leaving them in until later.
+	Jesse: Oh, wow.  That was incautious of me.  Our homeworlds are adjacent to each other now, and you could have flown in your r3.  I really should have let those ships sit without calling the catastrophe until after I protected myself.
+
+25) Jesse: Build R1 Jesse
+	Aaron: Go get 'im, Laurie!  (I'm glad your dad's ok.  My parents are going through the same thing.)
+
+26) Laurie_Menke: Build R1 Laurie_menke
+	Laurie_Menke: Thanks, Aaron...I hope your parents are OK, too.  I'm sorry to hear of their trouble.
+	Laurie_Menke: That really is funny...about the typos.  And sadly, as is obvious, I didn't pick up on that homeworld thing either.  
+	Jesse: Hmm, yeah.  Not so sad for me, though it would have served me right if you'd caught it.
+
+27) Jesse: Move R3 Jesse Laurie_menke
+
+28) Laurie_Menke: Sacrifice R1 Laurie_menke
+Attack R3 Laurie_menke
+
+29) Jesse: Build R1 Jesse
+	Laurie_Menke: Argh!  She's sees what Jesse is doing just a tad too late to save herself....grrr....  If I attack you, you move in with your other red next turn and cause a catastrophe.  If I move one of my reds out, you attack with the ship you've already got in my homeworld.  Hmmm....what to do, what to do....
+	Laurie_Menke: Actually, I couldn't even move a ship out if I tried right now....
+
+30) Laurie_Menke: Build G2 Laurie_menke
+	Laurie_Menke: I think that might have been the right play....
+	Jesse: Ack!  Good catch.  That's another horrible oversight for me this game.  Well, this makes things much harder for me...
+
+31) Jesse: Sacrifice Y2 Kif
+Move R1 Jesse Laurie_menke
+Move R1 Jesse Laurie_menke
+Catastrophe Laurie_menke R
+
+32) Laurie_Menke: Move Y1 Creativity Laurie_menke
+
+33) Jesse: Trade G3 R3 Jesse
+	Jesse: This is tough.  I honestly don't know who to say has the advantage here.
+	Laurie_Menke: This is getting interesting!  It's almost as if we're at the beginning of the game again.
+
+34) Laurie_Menke: Sacrifice G2 Laurie_menke
+Build Y2 Creativity
+Build Y2 Kif
+
+35) Jesse: Move R3 Jesse Laurie_menke
+	Laurie_Menke: Oh...not good...I think you've got me now.  But I'm still going to try a last-ditch effort.
+
+36) Laurie_Menke: Build Y3 Kif
+	Jesse: We're both on the edge.
+
+37) Jesse: Attack Y1 Laurie_menke
+	Jesse: But, I do think I've got you, barely.
+	Laurie_Menke: Yep, you do.  Thanks, Jesse, for another great game, and also for all your comments.  I truly appreciate them.  Hope to play you again soon!
+
+38) Laurie_Menke: Sacrifice Y2 Kif
+Move Y1 Creativity Laurie_menke
+Move Y3 Kif Jesse
+
+39) Jesse: Sacrifice R3 Laurie_menke
+Attack Y1 Laurie_menke
+Attack G1 Laurie_menke
+Pass
+	Laurie_Menke: Oh!  You can only attack one ship at a time?  I thought you would attack both at once and this would be the end.  Well, maybe I still have a VERY SLIM chance, then!
+
+	Jesse: You can only attack one ship per attack action.  Now I can sacrifice the r3 to attack both your ships with my y1.  If you had moved a medium in instead of a small, I wouldn't be able to do that because a small can't take a medium.  I'd have to take your pieces one at a time.  However, that's still okay for me, because it woud take each of us two turns to capture the other's defenders, but I go first.  Anyway, thanks for the game!  You seem to be catching on fast.

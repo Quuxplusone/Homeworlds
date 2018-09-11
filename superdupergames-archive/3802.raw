@@ -1,5 +1,5 @@
 Homeworlds Online (SDG# 3802)
-Started: 2006.7.1, Ended: 2006.7.16
+Started: 2006.7.1, Ended: 2006.7.17
 Participants: zoltar (S), Personman (N)
 Winner: zoltar
 
@@ -8,10 +8,10 @@ Winner: zoltar
 2) zoltar: Homeworld B3 Y1 G3
 
 3) Personman: Build G1 Personman
-zoltar: Greetingz Earthling Personman, from Greenbelt, Milky Way
+	zoltar: Greetingz Earthling Personman, from Greenbelt, Milky Way
 
 4) zoltar: Build G1 Zoltar
-zoltar: b g1 zoltar
+	zoltar: b g1 zoltar
 
 5) Personman: Discover G1 Personman Y1 Athiba
 
@@ -93,7 +93,7 @@ Move Y2 A2ba Personman
 Attack G2 Personman
 Attack G1 Personman
 Attack R1 Personman
-zoltar: The Death Star is now fully functional. Prepare to fire on the Rebel Base. Stand by...
-Personman: good game :)
+	zoltar: The Death Star is now fully functional.  Prepare to fire on the Rebel Base.  Stand by...
+	Personman: good game :)
 
-zoltar: thanks -- the green catastrophe led to an early and decisive attack, and there was no way for you to recover an get a big ship back in your homeworld in time. Play again?
+	zoltar: thanks -- the green catastrophe led to an early and decisive attack, and there was no way for you to recover an get a big ship back in your homeworld in time.  Play again?

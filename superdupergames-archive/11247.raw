@@ -6,10 +6,10 @@ Winner: Danner
 1) MatrixFrog: Homeworld B1 Y2 G3
 
 2) Danner: Homeworld R1 B2 G3
-Danner: homeworld R1 B2 G3
+	Danner: homeworld R1 B2 G3
 
 3) MatrixFrog: Build G1 Matrixfrog
-Danner: oops, I made this mistake for the second time...
+	Danner: oops, I made this mistake for the second time...
 
 4) Danner: Build G1 Danner
 
@@ -82,4 +82,4 @@ Move B1 Earth Matrixfrog
 Move B2 Earth Matrixfrog
 Catastrophe Matrixfrog B
 
-Danner: Thx the game. 
+	Danner: Thx the game.

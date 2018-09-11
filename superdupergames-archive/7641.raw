@@ -42,12 +42,12 @@ Catastrophe Matrixfrog Green
 
 16) MatrixFrog: Sacrifice G1 Grape
 Build Y1 Matrixfrog
-MatrixFrog: Yeah, that was stupid.
+	MatrixFrog: Yeah, that was stupid.
 
 17) MikeYarrum: Build Y2 Yomi
 
 18) MatrixFrog: Build G1 Grape
-MikeYarrum: Well, it did leave you the advantage in ships.
+	MikeYarrum: Well, it did leave you the advantage in ships.
 
 19) MikeYarrum: Build G1 Mikeyarrum
 
@@ -99,7 +99,7 @@ Move Y1 Yomi Mikeyarrum
 Catastrophe Mikeyarrum Green
 
 40) MatrixFrog: Build G1 Matrixfrog
-MikeYarrum: I was wondering when you'd finally hit me with that ship.
+	MikeYarrum: I was wondering when you'd finally hit me with that ship.
 
 41) MikeYarrum: Build G1 Grape
 
@@ -128,8 +128,8 @@ Build Y2 Mikeyarrum
 52) MatrixFrog: Build G1 Matrixfrog
 
 53) MikeYarrum: Attack G1 Matrixfrog
-MatrixFrog: Good game.
-MatrixFrog: Ack. Nevermind.
+	MatrixFrog: Good game.
+	MatrixFrog: Ack. Nevermind.
 
 54) MatrixFrog: Move Y2 Mikeyarrum Matrixfrog
 
@@ -139,4 +139,4 @@ MatrixFrog: Ack. Nevermind.
 
 57) MikeYarrum: Attack G1 Matrixfrog
 
-MikeYarrum: Thanks for the game - I was pretty nervous for awhile. 
+	MikeYarrum: Thanks for the game - I was pretty nervous for awhile.

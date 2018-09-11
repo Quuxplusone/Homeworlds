@@ -6,19 +6,19 @@ Winner: clockwise
 1) clockwise: Homeworld B2 Y1 G3
 
 2) papa_bear: Homeworld Y3 B2 G3
-clockwise: Hello, and good luck.
-papa_bear: You too. Are you fairly new to SDG?
+	clockwise: Hello, and good luck.
+	papa_bear: You too. Are you fairly new to SDG?
 
 3) clockwise: Build G1 Clockwise
 
 4) papa_bear: Build G1 Papa_bear
-clockwise: Relatively yes, I just signed up in January.
-papa_bear: Welcome. What do you think of it?
+	clockwise: Relatively yes, I just signed up in January.
+	papa_bear: Welcome. What do you think of it?
 
 5) clockwise: Trade G1 Y1 Clockwise
 
 6) papa_bear: Trade G1 B1 Papa_bear
-clockwise: I've enjoyed it thusfar, though I haven't done anything other than Homeworlds yet.
+	clockwise: I've enjoyed it thusfar, though I haven't done anything other than Homeworlds yet.
 
 7) clockwise: Build G1 Clockwise
 
@@ -27,36 +27,36 @@ clockwise: I've enjoyed it thusfar, though I haven't done anything other than Ho
 9) clockwise: Trade G1 B1 Clockwise
 
 10) papa_bear: Trade B1 Y1 Papa_bear
-papa_bear: Do you play Homeworlds offline, with physical pieces?
+	papa_bear: Do you play Homeworlds offline, with physical pieces?
 
 11) clockwise: Build Y2 Clockwise
-clockwise: Yes, though not very often. It's hard to convince my friends to start playing when I beat them all the time. Plus my preferred icehous game is really Gnostica.
+	clockwise: Yes, though not very often.  It's hard to convince my friends to start playing when I beat them all the time.  Plus my preferred icehous game is really Gnostica.
 
 12) papa_bear: Build Y2 Papa_bear
-papa_bear: Sounds like you won't have much trouble beating me in Homeworlds, then. But my understanding is that some of the guys here at SDG are very sharp players.
-
-papa_bear: I'm unfamiliar with Gnostica. I'll do a search later and have a look at it. Homeworlds is the only Icehouse game I've ever played, and I've only played it here.
+	papa_bear: Sounds like you won't have much trouble beating me in Homeworlds, then. But my understanding is that some of the guys here at SDG are very sharp players.
+ 
+I'm unfamiliar with Gnostica. I'll do a search later and have a look at it. Homeworlds is the only Icehouse game I've ever played, and I've only played it here.
 
 13) clockwise: Discover Y1 Clockwise G3 Ham
-clockwise: If the forums are to be believed there are a couple people working on an sdg adaption of Gnostica. But we'll see, it's a pretty complicated game.
+	clockwise: If the forums are to be believed there are a couple people working on an sdg adaption of Gnostica.  But we'll see, it's a pretty complicated game.
 
 14) papa_bear: Discover Y1 Papa_bear R1 Shem
-papa_bear: It does look complicated. I have a low threshhold for complexity when first coming to a game. I prefer a game in which I can get my head around the rules in a matter of minutes, and then spend years or decades trying to get my head around actually playing well. Homeworlds and Chase are about the most complicated games I think I've tried out here at SDG.
+	papa_bear: It does look complicated. I have a low threshhold for complexity when first coming to a game. I prefer a game in which I can get my head around the rules in a matter of minutes, and then spend years or decades trying to get my head around actually playing well. Homeworlds and Chase are about the most complicated games I think I've tried out here at SDG.
 
 15) clockwise: Build G1 Clockwise
-clockwise: And aside from it's complexity it also doesn't work particularly well as a two player game, which I think is a second mark against it for being a good candidate for sdg. But it's a good game.
+	clockwise: And aside from it's complexity it also doesn't work particularly well as a two player game, which I think is a second mark against it for being a good candidate for sdg.  But it's a good game.
 
 16) papa_bear: Build G1 Papa_bear
-papa_bear: Is there something about the processing of multiple players' turns which would be more difficult to program than in the cases of other 3+ player games on SDG?
+	papa_bear: Is there something about the processing of multiple players' turns which would be more difficult to program than in the cases of other 3+ player games on SDG?
 
 17) clockwise: Discover G1 Clockwise Y3 Spam
-clockwise: No, not really. I just find that asynchronous play gets more annoying the more people you add, esp with the possibility of dropouts disrupting the game.
-papa_bear: Ah, yes. Dropouts would be a problem. I have yet to play any 3+ player games here, and I'm not really excited about trying it.
+	clockwise: No, not really.  I just find that asynchronous play gets more annoying the more people you add, esp with the possibility of dropouts disrupting the game.
+	papa_bear: Ah, yes. Dropouts would be a problem. I have yet to play any 3+ player games here, and I'm not really excited about trying it.
 
 18) papa_bear: Move G1 Papa_bear Shem
 
 19) clockwise: Build G1 Clockwise
-clockwise: Yes, that rather sums up my thoughts.
+	clockwise: Yes, that rather sums up my thoughts.
 
 20) papa_bear: Build B1 Papa_bear
 
@@ -81,9 +81,9 @@ Move Y3 Viper Papa_bear
 29) clockwise: Sacrifice R1 Clockwise
 Attack R2S Papa_bear
 
-papa_bear: Doh! I always forget about sacrificing red ones. I better think about this for a bit...
-papa_bear: I can't see a way to survive. Thanks for the game!
-clockwise: The two main mistakes you made were not following me into red and letting me build the y3, both of which compounded each other.
-clockwise: Thanks for the game!
-papa_bear: I didn't feel comfortable letting you have the y3, so I should have "gone with my gut" that time. As for not developing red, I didn't realize the problem until it was too late :)
-papa_bear: Oh, thanks for the feedback, by the way. 
+	papa_bear: Doh! I always forget about sacrificing red ones. I better think about this for a bit...
+	papa_bear: I can't see a way to survive. Thanks for the game!
+	clockwise: The two main mistakes you made were not following me into red and letting me build the y3, both of which compounded each other.  
+	clockwise: Thanks for the game!
+	papa_bear: I didn't feel comfortable letting you have the y3, so I should have "gone with my gut" that time. As for not developing red, I didn't realize the problem until it was too late :)
+	papa_bear: Oh, thanks for the feedback, by the way.

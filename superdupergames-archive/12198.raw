@@ -12,10 +12,10 @@ Winner: MadWuher
 4) ts52: Build Y1 Ts52
 
 5) MadWuher: Build G1 Madwuher
-ts52: Have a good game!
-MadWuher: You too
+	ts52: Have a good game!
+	MadWuher: You too
 
-6) ts52: Discover Y1 Ts52 G3 Kermit
+6) ts52: D Y1 Ts52 G3 Kermit
 
 7) MadWuher: Discover G1 Madwuher B1 Edora
 
@@ -57,8 +57,8 @@ Build Y3 Bologna
 25) MadWuher: Move G2 Edora Gonzo
 
 26) ts52: Build G2 Gonzo
-ts52: b g2 gonzo
-ts52: oops, wrong window
+	ts52: b g2 gonzo
+	ts52: oops, wrong window
 
 27) MadWuher: Sacrifice G3 Madwuher
 Build G2 Gonzo
@@ -135,7 +135,7 @@ Build R1 Camelot
 Build R2 Camelot
 Catastrophe Camelot R
 
-54) ts52: Move R3 Edora Camelot
+54) ts52: M R3 Edora Camelot
 
 55) MadWuher: Sacrifice G2 Camelot
 Build G2 Farthington

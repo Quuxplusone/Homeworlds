@@ -6,10 +6,10 @@ Winner: MadWuher
 1) MadWuher: Homeworld B2 Y3 G3
 
 2) nycavri: Homeworld B1 Y2 G3
-nycavri: h b1 y2 g3
+	nycavri: h b1 y2 g3
 
 3) MadWuher: Build G1 Madwuher
-nycavri: Doh!
+	nycavri: Doh!
 
 4) nycavri: Build G1 Nycavri
 
@@ -61,7 +61,7 @@ Build Y1 Hl95
 Build Y2 Hl95
 Build Y3 Nycavri
 
-25) MadWuher: Discover B2 Edora Y3 Bologna
+25) MadWuher: D B2 Edora Y3 Bologna
 
 26) nycavri: Sacrifice Y2 Nycavri
 Move Y1 Hl95 Madwuher
@@ -98,6 +98,6 @@ Attack G1 Nycavri
 Attack R1 Nycavri
 Attack R1 Nycavri
 
-MadWuher: Are you up for another? Maybe an unrated game?
-nycavri: Thanks, but I keep timing out of games atm - apartment hunting. Maybe when I get on top of my current crop . . .
-MadWuher: Good luck with the apartment hunting. 
+	MadWuher: Are you up for another? Maybe an unrated game?
+	nycavri: Thanks, but I keep timing out of games atm - apartment hunting.  Maybe when I get on top of my current crop . . .
+	MadWuher: Good luck with the apartment hunting.

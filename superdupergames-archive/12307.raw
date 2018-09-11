@@ -7,11 +7,11 @@ Winner: TwoShort
 
 2) TwoShort: Homeworld R1 B2 G3
 
-3) MadWuher: Build G1 Madwuher
+3) MadWuher: B G1 Madwuher
 
 4) TwoShort: Build G1 Twoshort
 
-5) MadWuher: Trade G1 Y1 Madwuher
+5) MadWuher: T G1 Y1 Madwuher
 
 6) TwoShort: Trade G1 Y1 Twoshort
 
@@ -105,8 +105,8 @@ Move G2 Edora Madwuher
 Build Y2 Twoshort
 Build Y2 Twoshort
 Build Y3 Bluestar
-TwoShort: Sorry.
-MadWuher: Not a problem.....
+	TwoShort: Sorry.
+	MadWuher: Not a problem.....
 
 39) MadWuher: Discover G2 Madwuher B1 Bologna
 
@@ -131,3 +131,20 @@ Attack Y3N Madwuher
 Attack Y3N Madwuher
 Attack G3N Madwuher
 
+45) MadWuher: Sacrifice G2 Bologna
+Build G1 Madwuher
+Build G2 Madwuher
+	MadWuher: D'oh....... Didn't see that one coming so quickly.
+
+46) TwoShort: Pass
+Catastrophe Madwuher Green
+	MadWuher: Oh well, C'est la vie.
+ 
+Any way I could have gotten out of that mess?
+	MadWuher: How many moves ago did you plan this/see this coming?
+	TwoShort: Well, you shouldn't have let me get ahead on 3 points way back at the beginning.  But you were doing a remarkably good job holding me off after that until right after the red catastrophe.  I think I was expecting you to go after the big yellows at that point, but instead you let me take them.  At that point it was probably over; once I jumped into your systems with the y3s you could have done something desperate to preserve the r2 and live a bit longer, but it would have been ugly.
+  Anyway, thanks for the game!
+
+	MadWuher: Thanks for the game. I'll replay that game again with my pieces and see what I could do better for the next time we play. (After all, I have to beat you at least once, right?)
+	TwoShort: I hadn't seen your "how many moves" question when I wrote that last message, so to answer that: I guess I thought through this sequence when I was considering the move that built the 3 yellow pieces.  But not really as what I expected to happen; rather as "If I do that, he could set up to take the g3, but if he does I can threaten Edora and his r2, and he'll have to sacrifice a yellow and run away with whatever he can, because if he leaves the r2 I can take it and threaten to pounce on his homeworld, or if he uses it I can pounce immediately."  So I guess that's 2 of my moves in advance, but it's not like I considered every other thing you could have done; I tend to just look for what the other guy could do that might make my move not worth it, and see if I can respond to that.
+  In any case, I'm happy to play anytime...

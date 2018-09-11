@@ -22,7 +22,7 @@ Winner: TwoShort
 9) Kermit: Discover Y1 Grendl B1 Medusa
 
 10) TwoShort: Build G1 Twoshort
-TwoShort: construct g1 twoshort
+	TwoShort: construct g1 twoshort
 
 11) Kermit: Trade Y1 R1 Medusa
 
@@ -112,4 +112,4 @@ Build Y3 Bluestar
 Build Y3 Gryffin
 Build G3 Twoshort
 
-SYSTEM: Kermit resigns. 
+	SYSTEM: Kermit resigns.

@@ -1,0 +1,140 @@
+Homeworlds Online (SDG# 638)
+Variants: "Left man down"
+Started: 2005.9.6, Ended: 2005.9.20
+Participants: MatrixFrog (S), rbryan (N), zevzimra (E)
+Winner: rbryan
+
+1) rbryan: Homeworld B2 G1 Y3
+
+2) zevzimra: Homeworld G2 B3 Y3
+
+3) MatrixFrog: Homeworld G1 B3 Y3
+
+4) rbryan: Build Y1 Rbryan
+	MatrixFrog: This is my first time playing a 3-player game. Good luck to you both.
+
+5) zevzimra: Build Y1 Zevzimra
+
+6) MatrixFrog: Build Y1 Matrixfrog
+
+7) rbryan: Trade Y1 G1 Rbryan
+
+8) zevzimra: Trade Y1 R1 Zevzimra
+
+9) MatrixFrog: Build Y1 Matrixfrog
+
+10) rbryan: Discover G1 Rbryan G3 Iceland
+
+11) zevzimra: Build Y1 Zevzimra
+
+12) MatrixFrog: Trade Y3 R3 Matrixfrog
+	zevzimra: Hey, thanks for the encouragement, MaxtrixFrog!  This is literally my first time playing this game!
+
+13) rbryan: Build G1 Iceland
+
+14) zevzimra: Discover R1 Zevzimra Y1 Gateway
+
+15) MatrixFrog: Build R1 Matrixfrog
+
+16) rbryan: Build Y2 Rbryan
+	MatrixFrog: Question: The whole good/evil thing isn't implemented yet, right? So how do we know who we should try to eliminate?
+	MatrixFrog: From the SDG-announce mailing list:
+ 
+I have just implemented a new victory condition for Homeworlds at SDG 
+called "Left Man Down."  The player who elminates the person to his left 
+is the victor.  "Left" is relative.  In a 3-player game, or a 4-player 
+game where West seat has already been defeated, South's left-hand 
+opponent would be North.  I have not yet tested this code in a live 
+game, but my offline tests show it should work.  If you have any 
+weirdness in a live game, please let me know.  If you have an existing 
+3/4-player game running and everybody would like the victory conditions 
+changed, let me know and I will make that happen.
+	MatrixFrog: So, what do you guys think? Do we want to do that?
+	rbryan: I'd say yes, because I think it should make a better game.  This is also my first three player game, so I don't have a particularly strong opinion.
+
+17) zevzimra: Build Y2 Zevzimra
+	zevzimra: Sure, that's fine, let's go for it...  can someone tell Aaron please?
+
+18) MatrixFrog: Discover Y1 Matrixfrog G2 Jeetoo
+	MatrixFrog: Same here, rbryan... I'll send him a private message.
+
+19) rbryan: Build Y2 Rbryan
+	Aaron: Done.  Please let me know if something weird happens with the next elimination.  It is easily undone.
+
+20) zevzimra: Trade Y2 G2 Zevzimra
+
+21) MatrixFrog: Build Y2 Matrixfrog
+
+22) rbryan: Trade Y3 G3 Rbryan
+
+23) zevzimra: Move Y1 Zevzimra Gateway
+
+24) MatrixFrog: Build Y2 Jeetoo
+
+25) rbryan: Sacrifice Y2 Rbryan
+Discover G1 Iceland B2 Romulus
+Discover G1 Iceland B2 Remus
+
+26) zevzimra: Sacrifice G2 Zevzimra
+Build Y2 Zevzimra
+Build Y3 Zevzimra
+	rbryan: Hmm, that ought to confuse them.  I mean, I wouldn't mis-type the size of the piece to discover twice in a row, would I?  Nope, not me.  Sigh.
+	MatrixFrog: I'm confused. What did you mean to do?
+	rbryan: Move to two smalls; hence adjacent to zevzimra, whom I'm meant to be attacking.  It's OK, it just means my master plan will need rethinking...
+
+27) MatrixFrog: Build R1 Matrixfrog
+
+28) rbryan: Sacrifice G3 Rbryan
+Build Y3 Rbryan
+Build G2 Romulus
+Build G2 Remus
+
+29) zevzimra: Trade Y3 G3 Zevzimra
+
+30) MatrixFrog: Sacrifice Y2 Jeetoo
+Discover Y1 Jeetoo R3 X
+Move Y1 X Rbryan
+
+31) rbryan: Trade Y3 R3 Rbryan
+
+32) zevzimra: Move G3 Zevzimra Gateway
+
+33) MatrixFrog: Build Y2 Rbryan
+
+34) rbryan: Sacrifice R3 Rbryan
+Attack Y1S Rbryan
+Attack Y2S Rbryan
+Pass
+
+35) zevzimra: Trade Y3 G3 Zevzimra
+
+36) MatrixFrog: Move R3 Matrixfrog Remus
+
+37) rbryan: Trade Y2 R2 Rbryan
+
+38) zevzimra: Move Y2 Zevzimra Gateway
+
+39) MatrixFrog: Attack G2N Remus
+
+40) rbryan: Sacrifice Y1 Rbryan
+Discover G1 Remus Y1 Runaway
+
+41) zevzimra: Build R1 Gateway
+
+42) MatrixFrog: Build R2 Remus
+
+43) rbryan: Sacrifice G2 Romulus
+Build Y2 Rbryan
+Build Y3 Rbryan
+
+44) zevzimra: Sacrifice Y2 Gateway
+Move R1 Gateway Romulus
+Move G3 Gateway Romulus
+
+45) MatrixFrog: Build Y2 Matrixfrog
+
+46) rbryan: Sacrifice Y3 Rbryan
+Discover G1 Romulus B1 Iwin
+Move G1 Runaway Zevzimra
+Move G1 Iwin Zevzimra
+Catastrophe Zevzimra Green

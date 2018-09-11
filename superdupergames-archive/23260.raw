@@ -1,0 +1,138 @@
+Homeworlds Online (SDG# 23260)
+Variants: "Hard time"
+Started: 2013.1.17, Ended: 2013.2.23
+Participants: Danner (S), Aristos (N)
+Winner: Danner
+
+1) Aristos: Homeworld G2 B3 Y3
+
+2) Danner: Homeworld B1 R2 G3
+
+3) Aristos: Build Y1 Aristos
+
+4) Danner: Build G1 Danner
+
+5) Aristos: Build Y1 Aristos
+
+6) Danner: Trade G1 Y1 Danner
+
+7) Aristos: Discover Y1 Aristos G1 Pretty
+
+8) Danner: Build Y2 Danner
+
+9) Aristos: Build Y2 Pretty
+
+10) Danner: Discover Y1 Danner G3 Sssla
+	Aristos: If you build yellow, I could sacrifice my Y2, move my Y1 into your home system and catastrophe. It would be your turn, and we would be *exactly* where we were on the second move of the game. Another player and I found a mini loop where either player breaking the loop lost the game. I wonder if, under optimal play, a larger "must maintain the loop" scenario exists...?
+	Danner: Sorry for the delay, I'm in the middle of my exam period.
+"Another player and I found a mini loop where either player breaking the loop lost the game." So we were right, cool! :) But it's also a problem, since draws are not implemented here. Do you want to use some kind of anti-loop rule in our games?
+
+11) Aristos: Sacrifice Y1 Pretty
+Discover Y1 Aristos B1 Fancy
+	Aristos: Yes, I'd like such a rule. I've given some thought to this... I think that the player who owns the biggest ship involved in the loop should be the one that gets to "win" the loop. If both players tie for that, then ban the move that would take us back to an earlier game position. 
+	Aristos: "Involved in the loop" means any ship that changes position/color/existence between during the turns from the first state of the loop until back to that state again.
+
+12) Danner: Build G1 Danner
+	Danner: I think it's a little over-complicated. :) It's easier to ban any move that would take us back to an earlier game position.
+I've found a scenario where your rule is ambiguous.
+Pic: http://dan.uw.hu/temp/loops.png
+Explanation:
+First, the game progresses normally: A B C D E.
+Then Red creates a loop. Assuming that Blue wins the loop, Red has to break it somewhere. He chooses C, and moves into position F.
+Now Blue tries to move into position A. There are multiple loops to be considered: ABCFA and ABCDEBCFA.
+It's possible that one of the loops produces a tie (the move is banned) and the other does not (the move is allowed).
+
+13) Aristos: Trade Y1 G1 Fancy
+	Aristos: Ok... I can agree to that rule... no going back to an earlier state. 
+
+14) Danner: Discover G1 Danner Y3 Ursa
+
+15) Aristos: Build G2 Fancy
+	Danner: Ok. :)
+
+16) Danner: Build G2 Danner
+
+17) Aristos: Discover Y2 Pretty G3 Whoaitgotbigger
+
+18) Danner: Sacrifice G3 Danner
+Build Y1 Danner
+Build G1 Ursa
+Build G3 Danner
+
+19) Aristos: Trade G2 R2 Fancy
+
+20) Danner: Trade G2 R2 Danner
+
+21) Aristos: Build Y1 Whoaitgotbigger
+
+22) Danner: Build G2 Danner
+
+23) Aristos: Sacrifice Y2 Whoaitgotbigger
+Move R2 Fancy Sssla
+Discover G1 Fancy B2 Yowza
+
+24) Danner: Sacrifice Y1 Sssla
+Move R2 Danner Ursa
+
+25) Aristos: Build G2 Yowza
+
+26) Danner: Move G1 Ursa Yowza
+
+27) Aristos: Build Y1 Aristos
+
+28) Danner: Trade G1 B1 Yowza
+
+29) Aristos: Sacrifice G2 Yowza
+Build Y2 Whoaitgotbigger
+Build Y2 Aristos
+
+30) Danner: Discover Y1 Danner B3 Meklon
+
+31) Aristos: Sacrifice Y1 Aristos
+Discover G1 Yowza Y3 Woot
+
+32) Danner: Build R1 Ursa
+
+33) Aristos: Discover Y1 Whoaitgotbigger Y1 Ding
+
+34) Danner: Move G2 Danner Woot
+
+35) Aristos: Build R1 Sssla
+
+36) Danner: Build G1 Danner
+
+37) Aristos: Build R1 Sssla
+
+38) Danner: Sacrifice Y2 Danner
+Move R1 Ursa Yowza
+Move R1 Yowza Sssla
+Catastrophe Sssla R
+
+39) Aristos: Build Y2 Whoaitgotbigger
+
+40) Danner: Sacrifice G3 Danner
+Build G2 Ursa
+Build G3 Woot
+Build G3 Danner
+
+41) Aristos: Discover Y1 Ding B2 Bzzt
+
+42) Danner: Sacrifice G3 Danner
+Build G3 Danner
+Build Y1 Meklon
+Build R1 Ursa
+
+43) Aristos: Move G1 Woot Bzzt
+
+44) Danner: Move Y1 Meklon Danner
+
+45) Aristos: Trade Y1 R1 Bzzt
+
+46) Danner: Build Y1 Danner
+
+47) Aristos: Move Y2 Whoaitgotbigger Bzzt
+
+48) Danner: Move G3 Woot Bzzt
+
+	Aristos: I concede. Well played.
+	Danner: Thanks!

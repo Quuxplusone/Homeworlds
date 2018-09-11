@@ -8,8 +8,8 @@ Winner: jeep
 2) ts52: Homeworld R2 B3 G3
 
 3) jeep: Build G1 Jeep
-ts52: Have a good game!
-jeep: You too.
+	ts52: Have a good game!
+	jeep: You too.
 
 4) ts52: Build G1 Ts52
 
@@ -34,7 +34,7 @@ jeep: You too.
 14) ts52: Build G2 Ts52
 
 15) jeep: Trade G1 Y1 Moon
-jeep: BAH! That was supposed to be build in jeep, not Moon... *sigh* sloppy
+	jeep: BAH!  That was supposed to be build in jeep, not Moon... *sigh*  sloppy
 
 16) ts52: Build Y2 Grover
 
@@ -128,7 +128,7 @@ Move R3 Stage Thumb
 Move R1 Grover Ts52
 Move R2 Grover Ts52
 Catastrophe Ts52 Red
-jeep: Thanks for the game.
-ts52: Thanks. Good game.
-jeep: Want to play again?
-ts52: Sure, I'd be happy to play again.
+	jeep: Thanks for the game.
+	ts52: Thanks. Good game. 
+	jeep: Want to play again?
+	ts52: Sure, I'd be happy to play again.

@@ -1,0 +1,178 @@
+Homeworlds Online (SDG# 1547)
+Started: 2005.11.20, Ended: 2005.11.27
+Participants: MarkSteere (S), Laurie_Menke (N)
+Winner: Laurie_Menke
+
+1) Laurie_Menke: Homeworld G2 B3 Y3
+	MarkSteere: Thank you for offering to teach this to me.  I imagine the rules are not all that complicated, but I think I do need someone to walk me through it.
+
+	MarkSteere: ..Can I be the evil one?  I like the idea of wanton destruction more than banding together.
+
+	Laurie_Menke: LOL...actually, I think we're both the evil ones....the version that Aaron has implemented doesn't seem to have that evil/good distinction.  It's just every player for themselves.  :o)
+	Laurie_Menke: Now...the first thing you have to do is make a homeworld.  Your homeworld will have two stars (a binary star system) and one ship protecting it.  Because the size of the stars effects movement later, you want to make sure they are two DIFFERENT sizes, and not exactly the same sizes as my two.  Your ship should always be a 3 to start, because it's strongest.  Color-wise, use green, blue, and yellow between your two stars and one ship.  Diversity is good, and you won't need red until later.
+
+2) MarkSteere: Homeworld B1 G3 Y3
+	Laurie_Menke: So since I've got a 2 and a 3 in my star system, you'll want either a 1 & 2 or 1 & 3.  So you'll type something like this (you can change the colors and numbers):  "homeworld b1 g3 y3"
+	MarkSteere: homeworld b1 g3 y3
+	MarkSteere: homeworlds b1 g3 y3
+	MarkSteere: homeworld b1 g3 y3
+	MarkSteere: homeworld B1 G3 Y3
+	MarkSteere: There's already a problem.  Not good.
+	Laurie_Menke: Oh, I'm sorry...I've made that same mistake myself.  There's actually a different input box for commands.  Your first command was perfect...you just need to put it in the box at the top left of the screen.  Sorry I was so long in responding!  :o(
+
+3) Laurie_Menke: Build Y1 Laurie_menke
+	MarkSteere: oops    :D
+	MarkSteere: Why is my ship located differently from yours?
+
+	Laurie_Menke: The computer just randomly places it somewhere in the square.  The position within the square doesn't matter.  When you move, you will be moving to a different black square.
+	Laurie_Menke: But you can't move yet, because you can't leave your homeworld without a ship.  So the next thing we each need to do is build up some more ships.  You have to have green available to do that (which we both do).  You can only build ships in colors you already have.  Since we both have yellow ships, we'll both be building more yellow ships for now.
+	Laurie_Menke: You can only build the smallest ship available.  Since there are plenty of y1's in the "global stash" (above our playing area), we'll both have to build y1's.
+
+4) MarkSteere: Build Y1 Marksteere
+	MarkSteere: Ok, so build y1 in what?
+
+
+5) Laurie_Menke: Build Y1 Laurie_menke
+	MarkSteere: I figured something out.  Awesome!
+	MarkSteere: ..So the reason I can't use my y3 is because it has to stay near my home base to protect it, right?
+
+	Laurie_Menke: Right.  If you wanted to, you could move your y3 now because your y1 could stay to protect your homeworld.  But it's smart to always keep a 3-sized ship in your homeworld.
+	Laurie_Menke: OK...so now is the first time we have multiple options.  At this point you can:  1) build another yellow ship, 2) move one of your ships to a new location, or 3) trade one of your yellow ships in for a different color.
+	Laurie_Menke: BTW...good job of figuring out the code!  :o)  I told you you'd be flying in no time.  :o)
+	Laurie_Menke: Because I am new to the game myself, I really don't know which is the best of those three options to choose right now.  It seems like in most of the games I've played, people keep building at this point.  But sometimes they start moving ships.
+	Laurie_Menke: So I'll let you make your own decision.  Here's the way you would code each type.  1) build y2 MarkSteere (it's a y2 now because all the y1's are taken)  2) pick a name for a new system...it can be anything.  For this example, let's call it "Cool."  And let's say you want to move your y1 ship.  The code would be:  discover y1 MarkSteere g2 Cool.  You could actually make the new star system a y2 or b2 or r2, but it has to be a 2 because you have a 1 and a 3 in your system, and you can't travel to the same number.
+	Laurie_Menke: 3) trade y3 g3.  Or you could trade in your y1.  You can trade in for any color, but it has to be the same size.
+	Laurie_Menke: So...I have now realized that I have typed waaaayyyy too much and you're probably very confused.  I'm sorry.  Let's simplify...would you rather build, move, or trade for this move?
+
+6) MarkSteere: Discover Y1 Marksteere G2 Cool
+	MarkSteere: Ok, I understand that I can build another ship of the same color as my existing ship.  Or I can trade one of my existing ships for a different ship of the same size but different color.  I'm a little confused on the move though.  What is the significance of the word "discover" here?  I'm going to do the discover thing just to see what happens.
+
+7) Laurie_Menke: Trade Y1 R1 Laurie_menke
+	Laurie_Menke: Good job!  That was the trickiest one, and you did it just great!  :o)  The reason you used "discover" instead of "move" is that you had no star system to move to...there was just blank space between us.  So you "discovered" a new star system in your travels.  Once you have another ship ready for travel, you can simply "move" to that star system if you wish.  But "discovering" new systems also uses up an extra piece (in this case a g2), which sometimes comes in handy if you're trying to keep your opponent from getting that piece.
+	Laurie_Menke: Now...I can't build any more, because that would make 4 yellows in my star system.  If that ever happens, you could use the "catastrophe" command to wipe out all the yellows in my system.  So I need to either "discover" like you did or "trade."  I think I'll trade.
+
+8) MarkSteere: Build Y1 Cool
+	Laurie_Menke: OK, now your current options are:  1) build a y1 in the MarkSteere system, 2) build a y1 in the Cool system, 3) move your Cool ship back to MarkSteere, 4) discover another new system with your y1 ship in the Cool system, or 5) trade your y3 ship for a different color.
+
+9) Laurie_Menke: Discover Y1 Laurie_menke G1 Factory
+
+10) MarkSteere: Discover Y1 Cool G3 Eastpaloalto
+	Laurie_Menke: OK...now one thing we both need to start watching out for is getting too many ships of the same color.  Four of the same color can trigger a catastrophe.  Right now the Cool and Factory star systems are only one move apart and both contain yellow ships.  That's one thing you want to keep an eye out for.
+	Laurie_Menke: You're doing great on your own, though...I'll shut up for a while and just let you play.  If you have questions, ask.  :o)
+
+11) Laurie_Menke: Build Y2 Factory
+	MarkSteere: How do you keep track of which pieces are yours? I tried to move a ship from the Factory system and it wouldn't let me.
+
+	MarkSteere: ..By the way, you're not talking to much.  I'd be lost without your instructions.  This is really an odyssey.  I wonder if magic mushrooms played a part in the design of this game.  That's not intended as an insult.  All of my games were designed under the (strong) influence of California greenbud.  Although I'm sober now for health reasons.  I think there may have been something stronger involved in the inception of Homeworlds.
+	Laurie_Menke: Actually, Andy Looney freely admits that marijuana plays a part in developing his games.  He even has a game out called Stoner Fluxx in which some of the profits go to charities trying to legalize marijuana.  ;o)
+	Laurie_Menke: As for keeping track of pieces, it is sort of hard to see who's who after a while.  Your own ships are always facing away from you.  So in this case, your ships face down, mine face up.
+	Laurie_Menke: BTW...I noticed East Palo Alto...does that mean you live in the Bay Area?  Because I'm in Davis....small world.  :o)
+
+12) MarkSteere: Trade Y3 R3 Marksteere
+
+	MarkSteere: I live in downtown Palo Alto.  This is my first house which I bought a couple of years ago.  It's wierd feuding with the neighbors instead of management.
+
+13) Laurie_Menke: Move Y2 Factory Laurie_menke
+	Laurie_Menke: LOL...well, I'm still renting, so maybe that's a good thing, eh?
+
+14) MarkSteere: Build Y2 Eastpaloalto
+	MarkSteere: Renting isn't so bad.  The worst thing about it is that the owner or management can come into your space.  They (usually) give you notice, but it still sucks.  And then after the inevitable feud, you still have to go to them to get your packages.  Yuck.  I won't miss that at all.
+
+15) Laurie_Menke: Trade Y2 B2 Laurie_menke
+	MarkSteere: .. of course that's apartments.  Renting a house is probably a different animal.
+	MarkSteere: ..Are you near the university?
+	Jesse: Hi, guys.  I was just reading through the discussion here (great introductory explanations, Laurie!), and wanted to mention one thing.  To give credit where it is due, I don't think Andy actually had much input on the design of Homeworlds, though he was instrumental in developing the two-player version, with its reduced stash.  Homeworlds development was captained by John Cooper, with input from his regular game development and playtesting group.  I don't know which, if any of them, smoke (not that it matters).
+	Laurie_Menke: Oh...I didn't know that!  Thanks for the clarification, Jesse.  I hereby apologize to John Cooper.  My bad...  And thanks, also, for the compliment.  :o)  You're the expert at this game, so please add anything that would be helpful or correct me if I make a mistake.  :o)
+	Laurie_Menke: And Mark, I'm in North Davis, about 3 miles from the university, and am renting a co-op apartment.  And I know what you mean about management coming in all the time...it is a pain.
+
+16) MarkSteere: Discover Y2 Eastpaloalto G2 Menlopark
+	MarkSteere: Thank you for the clarification Jesse.  I too had assumed Andy Looney was the original inventor.
+	MarkSteere: Apparently John also invented Icehouse, another game I had thought Andy Looney invented.
+
+17) Laurie_Menke: Move B2 Laurie_menke Factory
+	MarkSteere: I was always afraid management would let my cats out.  It's hard to convey how much I'm attached to my cats and vice versa.  If you and my cats were in a burning building, you might have to fend for yourself.
+	Laurie_Menke: Yep...I have two cats myself, and they are my "kids."  ;o)
+
+18) MarkSteere: Build Y2 Eastpaloalto
+	MarkSteere: I don't know where we're going in this game.  If you see a way to attack me, don't hold back.  I will learn from that.  Or do we have to set up all the pieces before the attack phase begins?
+
+19) Laurie_Menke: Build Y2 Factory
+	Laurie_Menke: Yes, that's my biggest frustration with this game...it's hard to know what the goal is at any particular time.
+
+20) MarkSteere: Build R1 Marksteere
+	Laurie_Menke: The ultimate goal is to destroy or take over the opponent's homeworld.  In my experience, this frequently happens because of "sacrifice" and "catastrophe" actions.  For example, right now I *could* sacrifice my y3 in my homeworld to get three movement turns in a row.  I could then move my two yellows from Factory to EastPaloAlto, making a total of 4 yellows in one place, and then trigger a catastrophe that removed all 4 ships.  I don't want to do that because I would lose three ships in the process, but that's an example of the kind of thing you're trying to set up.
+	Laurie_Menke: Attacking doesn't happen as often as you'd think it would, because it's hard to get your ships and the enemy ships in the same star system.  But it does happen from time to time.
+	Laurie_Menke: My personal goal right now is to try to get more 3-sized ships.  That's why I'm building so much yellow...to get to the 3-sized ones.  Then I can trade the y3's in for 3's of other colors, which gives me good "sacrificing" power.
+	MarkSteere: I think I still need advice on my moves.  Right now I'm just creating more pieces and trading them.  Is it possible to create more star systems, or is there a limit on that?
+
+	MarkSteere: I keep getting errors like these systems are not connected or you don't have access to this technology.
+
+21) Laurie_Menke: Trade Y3 G3 Laurie_menke
+	Laurie_Menke: You can discover an unlimited number of star systems.  However, the star you choose it to be must first be available in the global stash, and second be a different number from the star system you're coming from.  So if you're coming from MarkSteere, it would have to be a 2.  From EastPaloAlto a 1 or a 2, etc.
+	Laurie_Menke: The "these systems are not connected" error message has to do with what I just described...the numbers of the star systems.  The "you don't have access to this technology" error message means you are trying to do something that doesn't match the colors you have.  For example, you couldn't trade one of your yellow ships for a different color in EastPaloAlto because there is no blue--the trading color--available there.
+
+22) MarkSteere: Move Y2 Eastpaloalto Factory
+	Laurie_Menke: As for advice on your moves, let's see...  One option would be to sacrifice your y2 in MenloPark in order to move both your yellow from EastPaloAlto to Factory.  You could then end your turn by creating a catastrophe in Factory that would wipe out all yellow ships there.  I wouldn't recommend it, because you'd lose three ships in the process of knocking out only two of mine.  But it's a thought.  ;o)
+	Laurie_Menke: Another option would be to move your y2 from EastPaloAlto to Factory this turn.  Then next turn you could sacrifice your r3 (a bit of a risky move because it leaves your homeworld vulnurable) in order to attack all three of my ships in Factory.  That's probably what I would do myself.
+	Laurie_Menke: Or you could continue to either build or spread your ships out among more star systems.
+	MarkSteere: When you sacrifice, are the pieces permanently removed, or do they go back into the stockpile?
+
+23) Laurie_Menke: Move Y2 Factory Laurie_menke
+	Laurie_Menke: They go back into the stock pile.
+	Laurie_Menke: OK, now that I look at it, I gave you bad advice (as I've said, I'm still learning this game myself).  Now that you've moved into Factory, I can see that I *could* sacrifice my r1 in Laurie_Menke in order to attack your y2 in Factory and stop you imminent attack on me.  I didn't think of that when I suggested it to you.  :o(  Sorry.  So...I'm not going to do that move...I'm just going to try to save one of my men.
+
+24) MarkSteere: Sacrifice R3 Marksteere Attack Y1 Factory
+Attack B2 Factory
+Pass
+Pass
+	Laurie_Menke: So now, if you would like to attack, you would type:  "sacrifice r3 MarkSteere (carriage return) attack y1 Factory (carriage return) attack b2 Factory (carriage return) pass"  You need the pass at the end because you have three attack moves available but can only use two.
+
+25) Laurie_Menke: Build Y3 Laurie_menke
+	Laurie_Menke: Oops...you only wanted to pass on one of your attacks, not two.  Now my y1 is going to get away.
+	Laurie_Menke: Actually, maybe I'll let it stay for the moment.  I want to build some more 3-sized ships.
+
+26) MarkSteere: Build Y3 Eastpaloalto
+	MarkSteere: I got an error with the one pass.  It said something like you need to pass, so I changed it to two.
+	MarkSteere: ..Please don't hold back on beating me, even if it's at the expense of having given my poor advice.  I'm anxious to see what happens.  I'm starting to get the feeling like we're playing Tonka toys in a sandbox with no goal in sight.
+
+27) Laurie_Menke: Trade Y2 R2 Laurie_menke
+	Laurie_Menke: Huh...that's strange about the error.  And, yes, I know what you mean about feeling like there's no goal.  That's what I meant in our early e-mails about the movement being pretty easy to learn, but knowing what the goal should be is the tough part.  I still haven't learned that myself, so at this point I think we're probably about even in our skill level.  ;o)
+
+28) MarkSteere: Build Y2 Eastpaloalto
+
+29) Laurie_Menke: Move Y1 Factory Eastpaloalto
+Catastrophe Eastpaloalto Y
+	Laurie_Menke: OK, here's what I warned about with getting too many of one color together.  I'm gong to move from Factory to EastPaloAlto and cause a catastrophe, which will wipe out three of your ships and only one of mine...
+
+30) MarkSteere: Build R1 Marksteere
+	Laurie_Menke: Notice that since there were no ships in the EastPaloAlto system any more, the system disappeared, and all the other systems rearranged themselves.  The rearranging doesn't mean anything...it's just a slightly annoying thing that the computer program does for unknown reasons.  ;o)
+	Laurie_Menke: You've still got five ships to my four, but it sort of levelled the playing field a little.  But now I'm thinking I'm going to try to move into your homeworld with a 2 or 3 sized ship, since you've only got a 1 protecting it.
+
+31) Laurie_Menke: Discover Y3 Laurie_menke Y1 Lookout
+
+32) MarkSteere: Trade R1 G1 Marksteere
+	MarkSteere: build g3 laurie_menke
+
+33) Laurie_Menke: Discover Y3 Lookout R2 Hereicome
+
+34) MarkSteere: Build G1 Marksteere
+	MarkSteere: Just when I thought I wasn't confused enough, now I have hyperspatial flux to contend with.
+
+35) Laurie_Menke: Build G3 Laurie_menke
+	Laurie_Menke: LOL!
+
+36) MarkSteere: Build R1 Marksteere
+
+37) Laurie_Menke: Move Y3 Hereicome Marksteere
+
+38) MarkSteere: Trade R1 Y1 Marksteere
+
+39) Laurie_Menke: Sacrifice R1 Laurie_menke
+Attack R1 Marksteere
+
+40) MarkSteere: Move Y1 Marksteere Menlopark
+
+41) Laurie_Menke: Sacrifice R2 Laurie_menke
+Attack G1 Marksteere
+Attack G1 Marksteere
+	Laurie_Menke: Well, I think that about does it, Mark.  Good job on your first game!  :o)

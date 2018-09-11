@@ -6,11 +6,11 @@ Winner: zoltar
 1) tesla: Homeworld B2 G3 Y3
 
 2) zoltar: Homeworld Y3 B1 G3
-zoltar: Before I move, you should undo your move and start with a 3-sized ship, such as a Y3. Why did you build a Y1?
-zoltar: Greetingz, from Greenbelt, Milky Way!
+	zoltar: Before I move, you should undo your move and start with a 3-sized ship, such as a Y3.  Why did you build a Y1?
+	zoltar: Greetingz, from Greenbelt, Milky Way!
 
 3) tesla: Build Y1 Tesla
-tesla: Sorry, I have to play more
+	tesla: Sorry, I have to play more
 
 4) zoltar: Build G1 Zoltar
 
@@ -21,7 +21,7 @@ tesla: Sorry, I have to play more
 7) tesla: Build Y1 Tesla
 
 8) zoltar: Discover G1 Zoltar B2 Blueridge
-zoltar: btw, moving your 3-sized piece away from your homeworld is very dangerous. The reason is that if I move a 3-sized ship into your homeworld, you cannot capture it, even if you have red ships there, unless you have a 3-sized ship in your homeworld defending. So later in the game, having an opponent get a large ship into your homeworld which you cannot capture usually is fatal. In this case, I can't do anything for several moves, but when I get some pieces built and moved out, you will have to waste a move moving your Y3 back, unless you can quickly build another 3-sized ship there before I can threaten to move a big piece in.
+	zoltar: btw, moving your 3-sized piece away from your homeworld is very dangerous. The reason is that if I move a 3-sized ship into your homeworld, you cannot capture it, even if you have red ships there, unless you have a 3-sized ship in your homeworld defending.  So later in the game, having an opponent get a large ship into your homeworld which you cannot capture usually is fatal. In this case, I can't do anything for several moves, but when I get some pieces built and moved out,  you will have to waste a move moving your Y3 back, unless you can quickly build another 3-sized ship there before I can threaten to move a big piece in.
 
 9) tesla: Trade Y1 B1 Tesla
 
@@ -49,5 +49,5 @@ Move R2 Tales Tesla
 
 20) zoltar: Attack Y1 Tesla
 
-tesla: ok, I think we finished the game
-zoltar: I sacrificed my Y2, and that sacrifice gives me two yellow powers, or two moves. If I sacrificed my G3, I could then make three grows at once. That's why I was saying that you had to return your 3-sized ship to your homeworld before I build some ships. Moving your Y3 out was terrible, and every move after that, moving your Y3 (or R3) back would have been the best move.
+	tesla: ok, I think we finished the game
+	zoltar: I sacrificed my Y2, and that sacrifice gives me two yellow powers, or two moves.  If I sacrificed my G3, I could then make three grows at once.  That's why I was saying that you had to return your 3-sized ship to your homeworld before I build some ships.  Moving your Y3 out was terrible, and every move after that, moving your Y3 (or R3) back would have been the best move.

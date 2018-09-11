@@ -48,9 +48,9 @@ Catastrophe Cobalt Yellow
 20) cobalt: Move R1 Hindsight Cobalt
 
 21) TwoShort: Build G2 Cobalt
-Catastrophe Cobalt G
 
-22) cobalt: Move Y1 Hindsight Twoshort
+22) cobalt: Catastrophe Cobalt G
+Move Y1 Hindsight Twoshort
 
 23) TwoShort: Trade G2 R2 Twoshort
 
@@ -66,7 +66,7 @@ Attack G1N Twoshort
 28) cobalt: Move Y1 Thatwasdumbofme Cobalt
 
 29) TwoShort: Build G1 Twoshort
-TwoShort: construct g1 twoshort
+	TwoShort: construct g1 twoshort
 
 
 30) cobalt: Trade R3 G3 Cobalt
@@ -100,4 +100,4 @@ Catastrophe Twoshort G
 
 43) TwoShort: Trade B2 R2 Cobalt
 
-SYSTEM: cobalt resigns. 
+	SYSTEM: cobalt resigns.

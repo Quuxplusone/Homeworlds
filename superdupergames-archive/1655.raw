@@ -46,10 +46,10 @@ Attack Y1 Barony
 
 21) CDRodeffer: Move Y2 Phlegm Barony
 Catastrophe Barony Yellow
-benedict: hmmm. that may not hav been the best move for me to make...
+	benedict: hmmm. that may not hav been the best move for me to make...
 
 22) benedict: Build Y1 Benedict
-CDRodeffer: You're probably right about that. But now we're (almost) back where we started.
+	CDRodeffer: You're probably right about that. But now we're (almost) back where we started.
 
 23) CDRodeffer: Trade Y1 G1 Cdrodeffer
 
@@ -66,18 +66,18 @@ CDRodeffer: You're probably right about that. But now we're (almost) back where 
 29) CDRodeffer: Build B1 Cdrodeffer
 
 30) benedict: Discover G1 Benedict Y1 Carpe_diem
-CDRodeffer: I made a tactical error in my previous turn. Fortunately, you didn't capitalize on it.
-benedict: and you could have destroyed my green technology on your turn, so I'm glad you didn't do that!
+	CDRodeffer: I made a tactical error in my previous turn. Fortunately, you didn't capitalize on it.
+	benedict: and you could have destroyed my green technology on your turn, so I'm glad you didn't do that!
 
 31) CDRodeffer: Build Y2 Cdrodeffer
 
 32) benedict: Discover Y1 Benedict R1 Nosebleed
 
 33) CDRodeffer: Move Y2 Cdrodeffer Marble
-CDRodeffer: I didn't want to immediately destroy your home green technology. That would have given us each direct access to the other's home worlds too quickly.
+	CDRodeffer: I didn't want to immediately destroy your home green technology. That would have given us each direct access to the other's home worlds too quickly.
 
 34) benedict: Build R2 Benedict
-benedict: ah, ok
+	benedict: ah, ok
 
 35) CDRodeffer: Build R2 Cdrodeffer
 
@@ -352,7 +352,7 @@ Move R3 Avalon Wessex
 Move R3 Wessex Cdrodeffer
 
 141) CDRodeffer: Attack R3 Cdrodeffer
-CDRodeffer: Aaaaaaahhh!!!!
+	CDRodeffer: Aaaaaaahhh!!!!
 
 142) benedict: Sacrifice Y3 Benedict
 Move R1 Avalon Wessex

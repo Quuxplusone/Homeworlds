@@ -1,6 +1,6 @@
 Homeworlds Online (SDG# 5849)
 Variants: "Unrated"
-Started: 2007.1.9, Ended: 2007.1.16
+Started: 2007.1.10, Ended: 2007.1.16
 Participants: MatrixFrog (S), papa_bear (N)
 Winner: MatrixFrog
 
@@ -29,8 +29,8 @@ Winner: MatrixFrog
 12) MatrixFrog: Build G1 Candlelight
 
 13) papa_bear: Build G2 Papa_bear
-papa_bear: build g2 papa_bear
-papa_bear: I'm an idiot.
+	papa_bear: build g2 papa_bear
+	papa_bear: I'm an idiot.
 
 
 14) MatrixFrog: Build G2 Matrixfrog
@@ -116,10 +116,10 @@ Move R2 Matrixfrog Candlelight
 Move R1 Candlelight Mahalalel
 Move R2 Candlelight Mahalalel
 Catastrophe Mahalalel R
-MatrixFrog: I'm not sure if this is going to turn out to be a bad idea or not, but I'm going for it.
+	MatrixFrog: I'm not sure if this is going to turn out to be a bad idea or not, but I'm going for it.
 
 47) papa_bear: Build G2 Papa_bear
-papa_bear: Wow. I'd say that the resulting position looks favorable for you. Wow.
+	papa_bear: Wow. I'd say that the resulting position looks favorable for you. Wow.
 
 48) MatrixFrog: Trade G1 B1 Matrixfrog
 
@@ -153,19 +153,19 @@ Attack G1 Grumblecakes
 
 61) papa_bear: Trade B2 G2 Grumblecakes
 Catastrophe Grumblecakes Green
-papa_bear: I don't know what part of the world you're in, but if you hear the faint echoes of a slapping sound, that was me smacking my forehead. I keep forgetting that a sacrificed red ship allows you to attack in systems where you otherwise have no access to red technology.
-
-papa_bear: I am taking the family out for dinner tonight. When I get back, I'll decide whether to resign yet or not :)
-
-papa_bear: And I'll start thinking about what game to challenge you to next...
-MatrixFrog: No! Don't resign. That's deeply unsatisfying for both players. And I may be winning (though I'm not even sure about that) but it's hardly reached the point of being inevitable. I think concepts of "who's winning" and such are very hard to define in this game.
-papa_bear: Ok. I'll hang in there.
-papa_bear: However, I should note that I have a philosophy about resignation. In a truly hopeless position, I consider it rude not to resign. I'll trust your judgment on this matter for now, but I don't play on in positions I recognise as hopeless. Part of good play, in my view, is being able to tell when a game is lost. Sometimes resignation is the strongest move.
-
-papa_bear: This may come from my background in chess, and perhaps other gaming cultures are different. However, I have internalized the concept of timely resignation as an integral part of good sportsmanship, honor, and respect for my opponent. So I reserve the right to resign when I see fit, though I won't do it just yet.
+	papa_bear: I don't know what part of the world you're in, but if you hear the faint echoes of a slapping sound, that was me smacking my forehead. I keep forgetting that a sacrificed red ship allows you to attack in systems where you otherwise have no access to red technology.
+ 
+I am taking the family out for dinner tonight. When I get back, I'll decide whether to resign yet or not :)
+ 
+And I'll start thinking about what game to challenge you to next...
+	MatrixFrog: No! Don't resign. That's deeply unsatisfying for both players. And I may be winning (though I'm not even sure about that) but it's hardly reached the point of being inevitable. I think concepts of "who's winning" and such are very hard to define in this game.
+	papa_bear: Ok. I'll hang in there.
+	papa_bear: However, I should note that I have a philosophy about resignation. In a truly hopeless position, I consider it rude not to resign. I'll trust your judgment on this matter for now, but I don't play on in positions I recognise as hopeless. Part of good play, in my view, is being able to tell when a game is lost. Sometimes resignation is the strongest move.
+ 
+This may come from my background in chess, and perhaps other gaming cultures are different. However, I have internalized the concept of timely resignation as an integral part of good sportsmanship, honor, and respect for my opponent. So I reserve the right to resign when I see fit, though I won't do it just yet.
 
 62) MatrixFrog: Build B2 Beta
-MatrixFrog: That makes sense.
+	MatrixFrog: That makes sense.
 
 63) papa_bear: Build R1 Papa_bear
 
@@ -201,7 +201,7 @@ Catastrophe Papa_bear B
 77) papa_bear: Build Y3 Aleph
 
 78) MatrixFrog: Discover Y2 Gamma Y3 Epsilon
-papa_bear: Well, it still looks pretty grim, but I must concede that it was not as dire as I had thought. Thanks for sparing me the unnecessary resignation.
+	papa_bear: Well, it still looks pretty grim, but I must concede that it was not as dire as I had thought. Thanks for sparing me the unnecessary resignation.
 
 79) papa_bear: Trade Y2 B2 Aleph
 
@@ -213,7 +213,7 @@ Move G1 Papa_bear Beta
 Catastrophe Beta Green
 
 82) MatrixFrog: Trade R3 G3 Matrixfrog
-MatrixFrog: Uh oh.
+	MatrixFrog: Uh oh.
 
 83) papa_bear: Build G1 Papa_bear
 
@@ -238,5 +238,5 @@ Pass
 Pass
 Catastrophe Papa_bear Y
 
-papa_bear: That was pretty cool. Would you like to play another game?
-MatrixFrog: Yeah. I thought you were going to challenge me to something else, right? So go ahead and do that, in addition to another Homeworlds game, or instead of it... whatever you want to do.
+	papa_bear: That was pretty cool. Would you like to play another game?
+	MatrixFrog: Yeah. I thought you were going to challenge me to something else, right? So go ahead and do that, in addition to another Homeworlds game, or instead of it... whatever you want to do.

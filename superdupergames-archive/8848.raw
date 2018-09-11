@@ -9,12 +9,12 @@ Winner: zoltar
 2) Mr_Shine: Homeworld B2 Y3 G3
 
 3) zoltar: Build G1 Zoltar
-zoltar: Greetingz, Earthling.
+	zoltar: Greetingz, Earthling.
 
 4) Mr_Shine: Build G1 Mr_shine
-Mr_Shine: What is this Earth of which you speak? Is it that medium blue planet I conquered and abandoned awhile back?
-
-Mr_Shine: Greetings to you as well.
+	Mr_Shine: What is this Earth of which you speak? Is it that medium blue planet I conquered and abandoned awhile back?
+ 
+Greetings to you as well.
 
 5) zoltar: Trade G1 Y1 Zoltar
 
@@ -54,7 +54,7 @@ Mr_Shine: Greetings to you as well.
 
 23) zoltar: Discover G1 Zoltar B3 Bloohoohoo
 
-24) Mr_Shine: Build G1 Mr_shine
+24) Mr_Shine: B G1 Mr_shine
 
 25) zoltar: Build G2 Zoltar
 
@@ -74,7 +74,7 @@ Build B3 New_eden
 Build G3 Zoltar
 Build Y1 Zoltar
 Build Y2 Zoltar
-zoltar: wow -- looks like I've lost this game already!
+	zoltar: wow -- looks like I've lost this game already!
 
 30) Mr_Shine: Trade B3 Y3 Mr_shine
 
@@ -97,11 +97,11 @@ Catastrophe Sapphire G
 36) Mr_Shine: Build R2 Mr_shine
 
 37) zoltar: Discover R2 Greengiant Y1 Attackoutpost
-Mr_Shine: Looks like victory. Congrats.
+	Mr_Shine: Looks like victory. Congrats.
 
 38) Mr_Shine: Sacrifice R1 Mr_shine
 Pass
-zoltar: Victory? You're as pessimistic as I! More like gone from lost to a close game...
+	zoltar: Victory? You're as pessimistic as I! More like gone from lost to a close game...
 
 39) zoltar: Build Y2 Greengiant
 
@@ -111,4 +111,4 @@ zoltar: Victory? You're as pessimistic as I! More like gone from lost to a close
 
 42) Mr_Shine: Discover B1 Mr_shine B1 Lonelybluestar
 
-Mr_Shine: Well done. There was no way I was going to blunt your attack from there. Cheers for the game. 
+	Mr_Shine: Well done. There was no way I was going to blunt your attack from there. Cheers for the game.

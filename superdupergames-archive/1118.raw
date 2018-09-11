@@ -10,10 +10,10 @@ Winner: Evilaxe
 3) Kermit: Build Y1 Kermit
 
 4) Evilaxe: Build Y1 Evilaxe
-Evilaxe: build y1 evilaxe
+	Evilaxe: build y1 evilaxe
 
 5) Kermit: Trade Y1 G1 Kermit
-Evilaxe: D'oh
+	Evilaxe: D'oh
 
 6) Evilaxe: Trade Y1 R1 Evilaxe
 
@@ -24,8 +24,8 @@ Evilaxe: D'oh
 9) Kermit: Build G1 Fozzie
 
 10) Evilaxe: Trade Y1 G1 Evilaxe
-Evilaxe: trade y1 g1 evilaxe
-Evilaxe: I am a moron
+	Evilaxe: trade y1 g1 evilaxe
+	Evilaxe: I am a moron
 
 11) Kermit: Trade G1 Y1 Fozzie
 
@@ -63,7 +63,7 @@ Attack R1 Coffee
 27) Kermit: Move G1 Squeezel Fozzie
 
 28) Evilaxe: Build B3 Evilaxe
-Evilaxe: b b3 evilaxe
+	Evilaxe: b b3 evilaxe
 
 29) Kermit: Trade Y1 G1 Kermit
 
@@ -84,4 +84,4 @@ Move G1 Coffee Fozzie
 Move G1 Fozzie Kermit
 Catastrophe Kermit G
 
-SYSTEM: Kermit resigns. 
+	SYSTEM: Kermit resigns.

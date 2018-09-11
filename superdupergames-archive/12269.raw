@@ -40,7 +40,7 @@ Build G3 Mathgod
 16) fnord: Trade G2 R2 Fnord
 
 17) MathGod: Discover G2 Yelena B1 Belena
-fnord: Gah, I can't count, can I.
+	fnord: Gah, I can't count, can I.
 
 18) fnord: Build G2 Eris
 
@@ -124,5 +124,5 @@ Attack R1 Fnord
 
 49) MathGod: Attack G1 Fnord
 
-MathGod: Thank you for the game
-fnord: And thank you, too! 
+	MathGod: Thank you for the game
+	fnord: And thank you, too!

@@ -64,8 +64,8 @@ Build R1 Titus
 27) Lexicon: Discover Y3 Lexicon R3 Gladiator
 
 28) unic: Build Y3 Laura
-unic: build y3 Laura
-unic: Oops - typed that into the wrong text box!
+	unic: build y3 Laura
+	unic: Oops - typed that into the wrong text box!
 
 29) Lexicon: Move Y3 Gladiator Titus
 
@@ -146,7 +146,9 @@ Catastrophe Unic Y
 Catastrophe Titus G
 
 56) unic: Trade G1 Y1 Paula
-Lexicon: BOOM! BOOM! You snuck past me this time, but at least I got to make a double supernova! :)
+	Lexicon: BOOM!
+BOOM! 
+You snuck past me this time, but at least I got to make a double supernova! :)
 
 57) Lexicon: Sacrifice Y2 Lexicon
 Move G2 Midas Paula

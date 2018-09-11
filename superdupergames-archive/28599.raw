@@ -1,0 +1,179 @@
+Homeworlds Online (SDG# 28599)
+Variants: "Unrated"
+Started: 2015.11.13, Ended: 2016.1.14
+Participants: kanzenryu (S), fogus (N)
+Winner: kanzenryu
+
+1) fogus: Homeworld B1 Y2 G3
+
+2) kanzenryu: Homeworld Y1 G3 B3
+
+3) fogus: Build G1 Fogus
+	kanzenryu: I'm still loving this game...
+
+4) kanzenryu: Build B1 Kanzenryu
+
+5) fogus: Build G1 Fogus
+
+6) kanzenryu: Build B1 Kanzenryu
+	kanzenryu: After being crushed a number of times and getting into trouble pretty quickly I'm now getting scared just doing the first few moves
+
+7) fogus: Trade G3 B3 Fogus
+
+8) kanzenryu: Trade B1 G1 Kanzenryu
+	fogus: I like the "Blue Rush" strategy.  It's fun to play against. :)
+
+9) fogus: Build G2 Fogus
+
+10) kanzenryu: Build G2 Kanzenryu
+
+11) fogus: Discover G1 Fogus Y3 Fripp
+
+12) kanzenryu: Discover G1 Kanzenryu Y2 Out
+
+13) fogus: Trade G2 Y2 Fogus
+
+14) kanzenryu: Build G2 Out
+
+15) fogus: Build G2 Fogus
+
+16) kanzenryu: Discover G1 Out Y3 Nearly
+
+17) fogus: Build G3 Fripp
+
+18) kanzenryu: Build G3 Nearly
+
+19) fogus: Move G1 Fripp Out
+
+20) kanzenryu: Trade B1 R1 Kanzenryu
+
+21) fogus: Build B1 Fogus
+
+22) kanzenryu: Sacrifice G3 Nearly
+Build G3 Nearly
+Build R1 Kanzenryu
+Build B1 Kanzenryu
+
+23) fogus: Move G1 Out Fripp
+
+24) kanzenryu: Sacrifice G3 Nearly
+Build G3 Nearly
+Build R1 Kanzenryu
+Build B2 Kanzenryu
+	fogus: How's the MCTS player coming along?
+	kanzenryu: I was reading some articles on the MCTS and UCT algorithms. So far I'm confused as to how a position that looks good but allows one very good move for the opponent will be handled. So the short answer is "not started" ;-)
+
+25) fogus: Trade G2 R2 Fogus
+
+26) kanzenryu: Trade B3 Y3 Kanzenryu
+
+27) fogus: Move B1 Fogus Fripp
+
+28) kanzenryu: Sacrifice B1 Kanzenryu
+Trade G3 B3 Nearly
+
+29) fogus: Sacrifice G3 Fripp
+Build G2 Fogus
+Build G3 Fripp
+Build R2 Fogus
+
+30) kanzenryu: Build G3 Nearly
+
+31) fogus: Move R2 Fogus Fripp
+
+32) kanzenryu: Move R1 Kanzenryu Out
+
+33) fogus: Discover R2 Fripp Y1 Eno
+
+34) kanzenryu: Sacrifice G3 Nearly
+Build G3 Nearly
+Build Y1 Kanzenryu
+Build B1 Nearly
+
+35) fogus: Sacrifice G3 Fripp
+Build R2 Fogus
+Build R3 Eno
+Build G3 Fripp
+
+36) kanzenryu: Sacrifice G3 Nearly
+Build G3 Nearly
+Build B2 Nearly
+Build R3 Out
+
+37) fogus: Trade B3 R3 Fogus
+
+38) kanzenryu: Move R1 Out Nearly
+
+39) fogus: Move R2 Fogus Fripp
+	kanzenryu: BTW I sent you a challenge for alien city
+
+40) kanzenryu: Move Y1 Kanzenryu Out
+
+41) fogus: Move B1 Fripp Fogus
+
+42) kanzenryu: Move B1 Nearly Fogus
+
+43) fogus: Move B1 Fogus Fripp
+
+44) kanzenryu: Move B2 Nearly Fogus
+
+45) fogus: Sacrifice G3 Fripp
+Build G3 Fripp
+Build B2 Fripp
+Build B3 Fripp
+
+46) kanzenryu: Sacrifice G2 Kanzenryu
+Build G2 Out
+Build B3 Fogus
+Catastrophe Fogus B
+
+47) fogus: Discover B3 Fripp B2 Zakir
+
+48) kanzenryu: Move Y1 Out Nearly
+	kanzenryu: Congrats on making it to the top of Hacker News with your blog. Awesome stuff. Have you tried out parinfer? I'm using vim-parinfer which is still pretty great.
+
+49) fogus: Move Y2 Fogus Fripp
+	fogus: I have not tried parinfer yet.  People keep telling me about it though. :)
+
+50) kanzenryu: Move R3 Out Nearly
+	kanzenryu: Parinfer seems to have dramatically improved the speed that I can write working Clojure code. But then I started from a position of being pretty crap.
+
+51) fogus: Move R2 Fogus Nearly
+
+52) kanzenryu: Move G3 Nearly Fogus
+	fogus: Whoops. Accidental undo.
+
+53) fogus: Attack G3 Fogus
+
+54) kanzenryu: Move G1 Nearly Fogus
+Catastrophe Fogus G
+
+55) fogus: Move G3 Fripp Fogus
+
+56) kanzenryu: Attack R2 Nearly
+	fogus: Sorry that it's taking me so long to play, but the new year has brought much busy-ness at work.
+
+57) fogus: Move R2 Eno Nearly
+Catastrophe Nearly R
+	kanzenryu: No problem at all. At least your work involves Clojure. I once managed to write a GUI testing framework in Clojure, but a couple of years later it got rewritten in Groovy.
+
+58) kanzenryu: Trade B3 R3 Nearly
+
+59) fogus: Sacrifice Y2 Fripp
+Move R3 Eno Nearly
+Move B3 Zakir Nearly
+
+60) kanzenryu: Discover Y1 Nearly G1 Side
+
+61) fogus: Attack R3 Nearly
+
+62) kanzenryu: Sacrifice G2 Out
+Build Y1 Side
+Build Y2 Side
+
+	kanzenryu: So far my homeworlds AI code really only finds the legal moves for a position (which is quite complex for sacrifices).
+ 
+Maybe you could have a quick look at https://github.com/davidplumpton/homeworldsai and when you stop laughing give me some advice.
+	fogus: ARGGH!!!  I got too greedy!  I knew that I should have traded for that y2.  Great game!
+	kanzenryu: Thanks, that game was pretty epic.
+	fogus: This game is great because very often you're balancing on a knife's edge the whole time.  This game was a good example of that.

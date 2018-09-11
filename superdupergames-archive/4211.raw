@@ -55,7 +55,7 @@ Build G3 Zoltar
 24) zoltar: Trade G1 R1 Zoltar
 
 25) Personman: Trade B1 R1 Personman
-zoltar: Zoltar haz 2 g3s and Personman only haz one! Whew Who!
+	zoltar: Zoltar haz 2 g3s and Personman only haz one! Whew Who!
 
 26) zoltar: Build R2 Blueberry
 
@@ -77,7 +77,7 @@ Build R3 Lemon
 33) Personman: Sacrifice G2 Letterbox
 Build B2 Personman
 Build B3 Letterbox
-zoltar: Red Alert! Red Alert! Red fleet, commence pre-emptive strike on personman fleet! Yippee!
+	zoltar: Red Alert! Red Alert! Red fleet, commence pre-emptive strike on personman fleet! Yippee!
 
 34) zoltar: Trade R3 B3 Zoltar
 
@@ -99,11 +99,11 @@ Attack B2 Start
 42) zoltar: Sacrifice B2 Start
 Trade R3 Y3 Lemon
 Trade R3 Y3 Zoltar
-zoltar: You are putting up a good fight, Personman. Zoltar will have to find something clever and tricky.
-Personman: Why thank you!
+	zoltar: You are putting up a good fight, Personman. Zoltar will have to find something clever and tricky. 
+	Personman: Why thank you!
 
 43) Personman: Trade B2 G2 Personman
-zoltar: Zoltar to minions: Abandon blue fleet; Abandon red fleet; Yellow fleet rulez!
+	zoltar: Zoltar to minions: Abandon blue fleet; Abandon red fleet; Yellow fleet rulez! 
 
 44) zoltar: Sacrifice G3 Zoltar
 Build R1 Lemon
@@ -111,28 +111,47 @@ Build R3 Zoltar
 Build R3 Zoltar
 
 45) Personman: Build Y1 Personman
-zoltar: Knew ore deers: Abandon green fleet; Red fleet rulz!
+	zoltar: Knew ore deers: Abandon green fleet; Red fleet rulz!
 
 46) zoltar: Sacrifice Y1 Zoltar
 Move B3 Start Lemon
 
 47) Personman: Move B3 Letterbox Blueberry
-zoltar: Nope -- better keep 4 big sheeps in homeworld to be extra safe.
+	zoltar: Nope -- better keep 4 big sheeps in homeworld to be extra safe.
 
 48) zoltar: Sacrifice Y3 Lemon
 Move B3 Lemon Personman
 Move R2 Lemon Personman
 Move R1 Lemon Personman
 Catastrophe Personman R
-zoltar: My double-sack has given zee Zoltarian fleet zee advantage once again! With 4 Battleships protecting zee homeworld, nothing can stop Zoltar from galactic dominion!
+	zoltar: My double-sack has given zee Zoltarian fleet zee advantage once again! With 4 Battleships protecting zee homeworld, nothing can stop Zoltar from galactic dominion!
 
 49) Personman: Sacrifice G2 Personman
 Build B2 Blueberry
 Build B2 Blueberry
 Catastrophe Blueberry B
-zoltar: Yikes! Blueberry is under attack! The only defense is a good offense! Awl sheeps storm zee Personman homeworld and blow up awl gunz! Attack!
+	zoltar: Yikes! Blueberry is under attack! The only defense is a good offense! Awl sheeps storm zee Personman homeworld and blow up awl gunz! Attack!
 
 50) zoltar: Sacrifice R3 Zoltar
 Attack G3 Personman
 Attack Y2 Personman
 Attack B1 Personman
+
+51) Personman: Sacrifice G3 Letterbox
+Build Y1 Personman
+Build Y1 Personman
+Build Y2 Personman
+
+52) zoltar: Sacrifice G3 Personman
+Build Y2 Personman
+Build Y3 Personman
+Build B1 Personman
+
+53) Personman: Sacrifice Y1 Personman
+Move B1 Start Personman
+Catastrophe Personman Y
+Catastrophe Personman B
+	Personman: At least this way I get to see five ships of the same color in one system... Good game!
+
+	zoltar: Make that 7! Those two sacks of mine not only got me out of trouble but gave me an unstoppable lead, with command of most of the red and yellow. I only saw them one move at a time, and didn't realize how powerful my position was until after I'm made them. Good game.
+	Personman: Whee!

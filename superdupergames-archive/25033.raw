@@ -1,0 +1,85 @@
+Homeworlds Online (SDG# 25033)
+Variants: "Hard time"
+Started: 2014.1.1, Ended: 2014.2.1
+Participants: Broccoli_Commander (S), Danner (N)
+Winner: Broccoli_Commander
+
+1) Danner: Homeworld B1 R2 G3 Orion
+	Danner: Hi! Have a good game.
+
+2) Broccoli_Commander: Homeworld B2 R3 G3
+	Danner: How shall we resolve cycles?
+
+3) Danner: Build G1 Danner
+	Broccoli_Commander: Hi, thanks have a good game too
+ 
+For cycles I never encountered the problem but I'd suggest the following:
+ 
+If a given situation is encountered twice we are not allowed to create it a third time.
+	Broccoli_Commander: For instance player 1 plays X -> A and thus initiates a cycle like:
+ 
+X->A->B->C->D->A
+ 
+Player 2 is still allowed to play A->B (it might be the very best option; P1 is responsible for this play because he chose to play X->A in the first place) So we could have
+ 
+X->A->B->C->D->A->B->C->D
+ 
+but at this stage P1 must deviate from D->A: he started it so he must end it.
+ 
+X->A->B->C->D->A->B->C->D->Y
+ 
+Whaddya think?
+	Danner: Ok, it seems fine to me.
+
+4) Broccoli_Commander: Build G1 Broccoli_commander
+
+5) Danner: Trade G1 Y1 Danner
+
+6) Broccoli_Commander: Trade G1 B1 Broccoli_commander
+
+7) Danner: Build Y1 Danner
+
+8) Broccoli_Commander: Build G1 Broccoli_commander
+
+9) Danner: Build Y1 Danner
+
+10) Broccoli_Commander: Build B1 Broccoli_commander
+
+11) Danner: Discover Y1 Danner G3 Tirade
+
+12) Broccoli_Commander: Trade G3 Y3 Broccoli_commander
+
+13) Danner: Build Y2 Danner
+
+14) Broccoli_Commander: Discover B1 Broccoli_commander G1 Pea
+
+15) Danner: Trade Y2 B2 Danner
+
+16) Broccoli_Commander: Build B2 Pea
+	Danner: I'm sorry for the delay.
+
+17) Danner: Move B2 Danner Tirade
+
+18) Broccoli_Commander: Trade B2 R2 Pea
+
+19) Danner: Build Y2 Tirade
+
+20) Broccoli_Commander: Build Y2 Broccoli_commander
+
+21) Danner: Trade Y2 R2 Tirade
+
+22) Broccoli_Commander: Build B2 Broccoli_commander
+
+23) Danner: Build B3 Tirade
+
+24) Broccoli_Commander: Build B3 Pea
+
+25) Danner: Discover B2 Tirade G1 Bob
+
+26) Broccoli_Commander: Sacrifice B2 Broccoli_commander
+Trade B3 Y3 Pea
+Trade Y3 G3 Broccoli_commander
+
+	Danner: Darn it. Sorry.
+	Broccoli_Commander: Too bad, the interesting things were just ahead :P
+No worries, though. It happens.

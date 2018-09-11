@@ -26,7 +26,7 @@ Winner: zoltar
 11) Uglyfoot: Build R2 Uglyfoot
 
 12) zoltar: Build R2 Zoltar
-zoltar: b r2 zoltar
+	zoltar: b r2 zoltar
 
 13) Uglyfoot: Build G1 Uglyfoot
 
@@ -94,7 +94,7 @@ Attack Y1 Tree
 Build R3 Uglyfoot
 Build Y3 Greenbelt
 Build G2 Uglyfoot
-zoltar: Red Alert! All handz to battle stay shunz! Lock awl batteries onto alien sheepz and open fire!
+	zoltar: Red Alert!  All handz to battle stay shunz!  Lock awl batteries onto alien sheepz and open fire!
 
 40) zoltar: Sacrifice Y2 Tree
 Move R2 Porch Uglyfoot
@@ -105,18 +105,18 @@ Catastrophe Uglyfoot R
 Move R3 Greenbelt Tree
 Move R3 Tree Uglyfoot
 Move G1 Uglyfoot Porch
-zoltar: zee tree ease mine!!!!! whew who!!!!
+	zoltar: zee tree ease mine!!!!! whew who!!!!
 
 42) zoltar: Sacrifice R1 Zoltar
 Attack G1 Porch
 
 43) Uglyfoot: Build Y2 Greenbelt
-zoltar: Zee Uglyfoot defenz greed haz bean dizzaybulled! Awl sheepz storm zee Uglyfoot homeworld. Attack!
+	zoltar: Zee Uglyfoot defenz greed haz bean dizzaybulled!  Awl sheepz storm zee Uglyfoot homeworld. Attack!
 
 44) zoltar: Sacrifice G2 Zoltar
 Build Y3 Porch
 Build Y3 Zoltar
-Uglyfoot: hit me.
+	Uglyfoot: hit me.
 
 45) Uglyfoot: Build R1 Uglyfoot
 
@@ -129,4 +129,4 @@ Build G2 Porch
 Build G3 Zoltar
 Build G3 Zoltar
 
-Uglyfoot: We could see the roller building steam. 
+	Uglyfoot: We could see the roller building steam.

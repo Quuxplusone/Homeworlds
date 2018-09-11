@@ -68,14 +68,14 @@ Move G3 Lemon Matrixfrog
 27) MatrixFrog: Build Y2 Matrixfrog
 
 28) zoltar: Trade G3 R3 Zoltar
-zoltar: Prepare to be boarded, Earthling!
+	zoltar: Prepare to be boarded, Earthling!
 
 29) MatrixFrog: Build B2 Matrixfrog
 
 30) zoltar: Sacrifice R2 Grape
 Attack Y3 Matrixfrog
 Attack B2 Matrixfrog
-zoltar: "The Death Star is now fully functional."
+	zoltar: "The Death Star is now fully functional."
 
 31) MatrixFrog: Build B2 Matrixfrog
 
@@ -84,6 +84,6 @@ Build G2 Matrixfrog
 Build G2 Matrixfrog
 Catastrophe Matrixfrog B
 Catastrophe Matrixfrog G
-MatrixFrog: I think I lose.
+	MatrixFrog: I think I lose.
 
-zoltar: Yep, without a red ship, there was no defense. Play again? 
+	zoltar: Yep, without a red ship, there was no defense.  Play again?

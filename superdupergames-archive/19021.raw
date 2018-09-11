@@ -1,0 +1,138 @@
+Homeworlds Online (SDG# 19021)
+Started: 2011.2.7, Ended: 2011.3.20
+Participants: lorgar (S), du_mm_yy (W), scratchisthebest (N), Aristos (E)
+Winner: lorgar
+
+1) scratchisthebest: Homeworld B3 Y1 G3
+
+2) Aristos: Homeworld B1 Y2 G3
+
+3) lorgar: Homeworld Y3 B2 G3
+
+4) du_mm_yy: Homeworld B3 Y2 G3
+
+5) scratchisthebest: Build G1 Scratchisthebest
+
+6) Aristos: Build G1 Aristos
+
+7) lorgar: Build G1 Lorgar
+
+8) du_mm_yy: Build G1 Du_mm_yy
+
+9) scratchisthebest: Discover G3 Scratchisthebest B2 Traderjoes
+
+10) Aristos: Trade G1 R1 Aristos
+
+11) lorgar: Trade G1 R1 Lorgar
+
+12) du_mm_yy: Trade G1 R1 Du_mm_yy
+
+13) scratchisthebest: Trade G3 Y3 Traderjoes
+
+14) Aristos: Build R1 Aristos
+
+15) lorgar: Build G1 Lorgar
+
+16) du_mm_yy: Build R1 Du_mm_yy
+
+17) scratchisthebest: Build G1 Scratchisthebest
+
+18) Aristos: Build G1 Aristos
+
+19) lorgar: Build R2 Lorgar
+
+20) du_mm_yy: Build G1 Du_mm_yy
+
+21) scratchisthebest: Trade G1 B1 Scratchisthebest
+
+22) Aristos: Build R2 Aristos
+
+23) lorgar: Build R2 Lorgar
+
+24) lorgar: Discover G1 Lorgar B1 Dummygrave
+
+25) scratchisthebest: Build B1 Scratchisthebest
+
+26) Aristos: Discover R2 Aristos G3 Weaponsdealer
+
+27) lorgar: Trade R2 B2 Lorgar
+
+28) Aristos: Build R2 Weaponsdealer
+
+29) lorgar: Build G1 Dummygrave
+	Aristos: Going to move?
+
+30) Aristos: Trade R1 Y1 Aristos
+
+31) lorgar: Trade G1 Y1 Dummygrave
+
+32) Aristos: Build Y1 Aristos
+
+33) lorgar: Discover Y1 Dummygrave G3 Marina
+	scratchisthebest: oops... I forgot about this game, and then panicked remembering it. Lol
+
+34) Aristos: Move Y1 Aristos Weaponsdealer
+
+35) lorgar: Discover B2 Lorgar G1 Darkistari
+
+36) Aristos: Move R2 Weaponsdealer Dummygrave
+
+37) lorgar: Sacrifice G1 Dummygrave
+Build B1 Darkistari
+
+38) Aristos: Discover G3 Aristos Y3 Novanova
+	Aristos: This is really hard to analyze with so many pieces for only two players!
+
+39) lorgar: Build Y1 Marina
+
+40) Aristos: Move G3 Novanova Traderjoes
+
+41) lorgar: Move Y1 Marina Aristos
+
+42) Aristos: Discover Y1 Aristos B3 Escapehatch
+
+43) lorgar: Sacrifice R1 Lorgar
+Attack R1E Aristos
+
+44) Aristos: Sacrifice R2 Dummygrave
+Attack Y1S Aristos
+Attack R1S Aristos
+
+45) lorgar: Trade B2 Y2 Darkistari
+
+46) Aristos: Sacrifice R1 Aristos
+Attack Y3N Traderjoes
+
+47) lorgar: Build Y2 Marina
+	Aristos: Ok, what's wrong with this move? Every time I type it, I get a message that there is no Y1 ship in the Aristos system.
+ 
+sacrifice r2 dummygrave
+attack y1 Aristos
+attack r1 Aristos
+	Aristos: The exact error message I get is, "The ship Y1 could not be found in the Aristos system."
+	Aristos: I thought maybe canceling the call and redoing it might get an admin's attention.
+
+48) Aristos: Trade Y1 R1 Aristos
+	Aristos: Finally got someone to help explain the problem. I needed to use this command:
+ 
+sacrifice r2 dummygrave
+attack y1s Aristos
+attack r1s Aristos 
+ 
+Apparently that only applies in multiplayer games.
+
+49) lorgar: Move Y2 Marina Aristos
+
+50) Aristos: Sacrifice Y3 Traderjoes
+Move G3 Traderjoes Escapehatch
+Move G3 Escapehatch Aristos
+Discover R2 Weaponsdealer G2 Smugglerscave
+
+51) lorgar: Build Y1 Marina
+
+52) Aristos: Build Y2 Weaponsdealer
+
+53) lorgar: Build Y3 Darkistari
+
+	Aristos: The arc of this game is inevitable. :-) Well played.
+	lorgar: Thx

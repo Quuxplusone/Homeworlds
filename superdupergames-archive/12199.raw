@@ -6,10 +6,10 @@ Winner: ts52
 1) ts52: Homeworld B1 Y2 G3
 
 2) MathGod: Homeworld B1 G3 B3 *
-MathGod: Hi there. Thanks for the game.
+	MathGod: Hi there. Thanks for the game.
 
 3) ts52: Build G1 Ts52
-ts52: Have a good game.
+	ts52: Have a good game.
 
 4) MathGod: Build B1 Mathgod
 
@@ -34,36 +34,36 @@ Build G2 Gonzo
 Build G3 Grover
 Build G3 Ts52
 
-14) MathGod: Discover G2 Mathgod Y2 Yello
+14) MathGod: Discover G2 Mathgod Y2 Yell-o
 
-15) ts52: Trade G2 R2 Gonzo
+15) ts52: T G2 R2 Gonzo
 
 16) MathGod: Trade G2 R2 Mathgod
 
-17) ts52: Build G2 Gonzo
+17) ts52: B G2 Gonzo
 
-18) MathGod: Build G2 Yello
+18) MathGod: Build G2 Yell-o
 
 19) ts52: Sacrifice G3 Grover
-Build G3 Grover
-Build R1 Gonzo
-Build R1 Gonzo
+B G3 Grover
+B R1 Gonzo
+B R1 Gonzo
 
 20) MathGod: Build B2 Mathgod
 
-21) ts52: Trade R1 Y1 Gonzo
+21) ts52: T R1 Y1 Gonzo
 
-22) MathGod: Move B2 Mathgod Yello
+22) MathGod: Move B2 Mathgod Yell-o
 
 23) ts52: Build Y1 Gonzo
 
-24) MathGod: Sacrifice G2 Yello
-Build B2 Yello
+24) MathGod: Sacrifice G2 Yell-o
+Build B2 Yell-o
 Build B2 Mathgod
 
-25) ts52: Discover G1 Ts52 B3 Rosalita
+25) ts52: D G1 Ts52 B3 Rosalita
 
-26) MathGod: Move B2 Yello Rosalita
+26) MathGod: Move B2 Yell-o Rosalita
 
 27) ts52: Move R2 Gonzo Ts52
 
@@ -71,38 +71,38 @@ Build B2 Mathgod
 
 29) ts52: Build R1 Gonzo
 
-30) MathGod: Build B2 Yello
+30) MathGod: Build B2 Yell-o
 
 31) ts52: Move Y1 Gonzo Ts52
 
 32) MathGod: Sacrifice B2 Mathgod
 Trade G2 R2 Rosalita
-Trade B2 G2 Yello
+Trade B2 G2 Yell-o
 
 33) ts52: Sacrifice G3 Grover
 Build G3 Rosalita
 Build R1 Gonzo
 Build R3 Ts52
 
-34) MathGod: Sacrifice G2 Yello
-Build G2 Yello
+34) MathGod: Sacrifice G2 Yell-o
+Build G2 Yell-o
 Build R3 Mathgod
 
 35) ts52: Sacrifice R1 Gonzo
 Attack R2S Rosalita
 
-36) MathGod: Move R3 Mathgod Yello
+36) MathGod: Move R3 Mathgod Yell-o
 
 37) ts52: Sacrifice G3 Rosalita
 Build G3 Grover
 Build R1 Gonzo
 Build R3 Rosalita
 
-38) MathGod: Build B2 Yello
+38) MathGod: Build B2 Yell-o
 
 39) ts52: Discover R1 Gonzo Y2 Zoe
 
-40) MathGod: Discover G2 Yello Y3 Barry
+40) MathGod: Discover G2 Yell-o Y3 Barry
 
 41) ts52: Sacrifice G3 Grover
 Build G3 Grover
@@ -110,67 +110,67 @@ Build Y1 Ts52
 Build Y3 Gonzo
 
 42) MathGod: Sacrifice G2 Barry
-Build G2 Yello
+Build G2 Yell-o
 Build Y3 Mathgod
 
 43) ts52: Discover G2 Gonzo B2 Cookie
 
-44) MathGod: Move B1 Mathgod Yello
+44) MathGod: Move B1 Mathgod Yell-o
 
 45) ts52: Move Y1 Ts52 Rosalita
 
 46) MathGod: Sacrifice Y3 Mathgod
-Move B1 Yello Gonzo
-Move B2 Yello Gonzo
-Move B2 Yello Gonzo
+Move B1 Yell-o Gonzo
+Move B2 Yell-o Gonzo
+Move B2 Yell-o Gonzo
 Catastrophe Gonzo B
 
 47) ts52: Build G1 Ts52
 
-48) MathGod: Discover G2 Yello Y3 Ytoo
-MathGod: Ohh well. Not much else to do.
+48) MathGod: Discover G2 Yell-o Y3 Y-too
+	MathGod: Ohh well. Not much else to do.
 
 49) ts52: Sacrifice G3 Grover
 Build G3 Grover
 Build Y1 Ts52
 Build Y3 Rosalita
 
-50) MathGod: Sacrifice G2 Ytoo
-Build G2 Yello
+50) MathGod: Sacrifice G2 Y-too
+Build G2 Yell-o
 Build Y3 Mathgod
 
 51) ts52: Move Y1 Ts52 Grover
 
-52) MathGod: Discover Y3 Mathgod B2 Bluetoe
+52) MathGod: Discover Y3 Mathgod B2 Blue-toe
 
 53) ts52: Move R2 Rosalita Cookie
 
-54) MathGod: Move G2 Yello Grover
+54) MathGod: Move G2 Yell-o Grover
 
 55) ts52: Move R3 Ts52 Grover
 
 56) MathGod: Sacrifice G2 Grover
-Build G2 Yello
-Build R1 Yello
+Build G2 Yell-o
+Build R1 Yell-o
 
 57) ts52: Move G3 Grover Zoe
 
-58) MathGod: Discover G2 Yello B3 Bello
+58) MathGod: Discover G2 Yell-o B3 Bell-o
 
 59) ts52: Build R1 Zoe
 
-60) MathGod: Move R1 Yello Bello
+60) MathGod: Move R1 Yell-o Bell-o
 
-61) ts52: Move G3 Zoe Bello
+61) ts52: Move G3 Zoe Bell-o
 
-62) MathGod: Sacrifice G2 Bello
-Build G2 Yello
+62) MathGod: Sacrifice G2 Bell-o
+Build G2 Yell-o
 Pass
 
 63) ts52: Sacrifice R1 Zoe
-Attack R1 Bello
+Attack R1 Bell-o
 
-64) MathGod: Discover G2 Yello B1 Blue
+64) MathGod: Discover G2 Yell-o B1 Blue
 
 65) ts52: Build R1 Cookie
 
@@ -180,16 +180,16 @@ Attack R1 Bello
 Move R3 Grover Cookie
 Move R3 Cookie Mathgod
 Move R3 Rosalita Cookie
-MathGod: I have no clue what to do.
+	MathGod: I have no clue what to do.
 
-68) MathGod: Sacrifice R3 Yello
+68) MathGod: Sacrifice R3 Yell-o
 Attack R3 Cookie
 Attack R2 Cookie
 Attack G2 Cookie
-MathGod: Yes, I know this is suicide.
+	MathGod: Yes, I know this is suicide. 
 
 69) ts52: Attack R2 Mathgod
-ts52: It's been an interesting game.
+	ts52: It's been an interesting game.
 
-ts52: Thanks for the game.
-MathGod: Thank you 
+	ts52: Thanks for the game.
+	MathGod: Thank you

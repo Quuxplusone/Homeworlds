@@ -1,0 +1,41 @@
+Homeworlds Online (SDG# 14116)
+Started: 2009.10.9, Ended: 2009.11.4
+Participants: ExKirby (S), TwoShort (N)
+Winner: TwoShort
+
+1) TwoShort: Homeworld R1 B3 G3
+	TwoShort: howdy
+
+2) ExKirby: Homeworld Y3 G1 B3
+	ExKirby: Hey, how do you make a homeworld? I'm new to this, so...
+
+3) TwoShort: Build G1 Twoshort
+	ExKirby: NM, sorted.
+
+4) ExKirby: Build B1 Exkirby
+	TwoShort: Out of curiosity, have you played Homeworlds before? (off-line)
+	ExKirby: No, this would be my first game.
+
+5) TwoShort: Build G1 Twoshort
+
+6) ExKirby: Trade B1 Y1 Exkirby
+
+7) TwoShort: Trade G1 Y1 Twoshort
+	TwoShort: In that case, I'll throw out a few strategy tips... As second player, you usually want a star of the size I didn't use so we're three hops from each other; this way we're two.  Also, most people think the 1-2 homeworld is best; I took the 1-3 homeworld partly to be nice :)
+  Also, you usually want to start with a green ship.
+	ExKirby: OK... do you know how to make a new system?
+
+8) ExKirby: Discover Y1 Exkirby G2 Newstarname
+	TwoShort: You could, for example, move your y1 to a new g2 with:
+discover y1 ExKirby g2 NewStarName
+
+9) TwoShort: Discover Y1 Twoshort B2 Bluestar
+	ExKirby: Thanks.
+
+10) ExKirby: Build B1 Exkirby
+
+11) TwoShort: Build G1 Twoshort
+
+12) ExKirby: Move B1 Exkirby Bluestar
+
+13) TwoShort: Trade G1 Y1 Twoshort

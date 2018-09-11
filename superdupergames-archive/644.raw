@@ -8,21 +8,21 @@ Winner: jesse
 2) jesse: Homeworld B2 Y1 G3
 
 3) rbryan: Build G1 Rbryan
-jesse: Hello.
+	jesse: Hello.
 
 4) jesse: Build G1 Jesse
 
 5) rbryan: Discover G1 Rbryan B1 Neptune
 
 6) jesse: Discover G1 Jesse B3 Bluto
-rbryan: Hello
+	rbryan: Hello
 
 7) rbryan: Build G1 Neptune
 
 8) jesse: Build G2 Jesse
 
 9) rbryan: Build G2 Rbryan
-jesse: So, played much?
+	jesse: So, played much?
 
 10) jesse: Sacrifice G3 Jesse
 Build G2 Bluto
@@ -32,10 +32,10 @@ Build G3 Jesse
 11) rbryan: Trade G2 Y2 Rbryan
 
 12) jesse: Discover G2 Jesse Y3 Curry
-rbryan: No, not at all really; you?
+	rbryan: No, not at all really; you?
 
 13) rbryan: Build G2 Rbryan
-jesse: Yeah, I've played a fair amount.
+	jesse: Yeah, I've played a fair amount.
 
 14) jesse: Trade G1 B1 Bluto
 
@@ -44,7 +44,7 @@ jesse: Yeah, I've played a fair amount.
 16) jesse: Trade B1 Y1 Bluto
 
 17) rbryan: Build B1 Neptune
-jesse: Heh. Actually, this is what I meant to do last time, but I mistyped it. I did come up with some alternate plans, but your move made them considerably less attractive.
+	jesse: Heh. Actually, this is what I meant to do last time, but I mistyped it. I did come up with some alternate plans, but your move made them considerably less attractive.
 
 18) jesse: Sacrifice G3 Jesse
 Build G1 Bluto
@@ -60,14 +60,14 @@ Move Y1 Neptune Bluto
 Move Y1 Bluto Jesse
 
 22) jesse: Build Y2 Bluto
-jesse: Wicked.
-rbryan: It looked like the fun move; but I'm not sure it won't cripple me...
+	jesse: Wicked.
+	rbryan: It looked like the fun move; but I'm not sure it won't cripple me...
 
 23) rbryan: Sacrifice G3 Rbryan
 Build Y2 Jesse
 Build G1 Neptune
 Build G3 Rbryan
-jesse: I'll certainly try to make you pay for it.
+	jesse: I'll certainly try to make you pay for it.
 
 24) jesse: Trade G3 R3 Jesse
 
@@ -80,10 +80,10 @@ Build G3 Curry
 Build G3 Bluto
 Build Y3 Bluto
 Catastrophe Jesse Y
-jesse: No catastrophe?
-rbryan: Nope. I beleive that would have lost me the game...
-jesse: Okay, then. Just bear in mind that I can do it myself if I think it's advantageous for me to do so, and in the meantime it gives me access to that large yellow.
-jesse: Ah, yes, I do see your problem now. Tight spot.
+	jesse: No catastrophe?
+	rbryan: Nope. I beleive that would have lost me the game...
+	jesse: Okay, then. Just bear in mind that I can do it myself if I think it's advantageous for me to do so, and in the meantime it gives me access to that large yellow.
+	jesse: Ah, yes, I do see your problem now. Tight spot.
 
 27) rbryan: Trade G3 R3 Rbryan
 
@@ -118,5 +118,5 @@ Attack R3N Rbryan
 Attack G3N Rbryan
 Attack R1N Rbryan
 
-rbryan: Good game
-SYSTEM: rbryan resigns. 
+	rbryan: Good game
+	SYSTEM: rbryan resigns.

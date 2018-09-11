@@ -1,0 +1,85 @@
+Homeworlds Online (SDG# 29294)
+Variants: "Hard time"
+Started: 2016.3.26, Ended: 2016.4.4
+Participants: Simon (S), Pheonixian (N)
+Winner: Simon
+
+1) Pheonixian: Homeworld Y1 B2 G3
+
+2) Simon: Homeworld R1 B3 G3
+	Simon: Hi, have fun!
+
+3) Pheonixian: Build G1 Pheonixian
+
+4) Simon: Build G1 Simon
+	Pheonixian: Hello, you too! This is my first game so we'll see how it goes but I think in any case I will enjoy it.
+
+5) Pheonixian: Discover G1 Pheonixian B3 Eris
+	Simon: No problem -- fire away with questions about rules or this implementation. This implementation forbids catastrophe in the middle of a the turn, catastrophe can only occur at end of turn.
+
+6) Simon: Trade G1 Y1 Simon
+	Pheonixian: Okay good to know about catastrophes. Is that the standard rule that most people play? Also can one pass a turn or is the pass command only for passing extra sacrifice actions?
+	Simon: Pass is to pass one action. You may pass all actions of your turn. I believe this impl has the end-of-turn-only catastrophe merely due to age. Any-time-during-turn catastrophe is the newer ruleset. I don't know what people play in real life, it's advisable to agree. :-)
+	Simon: Turns without sacrifice have one action, which you may pass.
+
+7) Pheonixian: Build G1 Pheonixian
+
+8) Simon: Build Y1 Simon
+	Pheonixian: Thanks for the information.
+
+9) Pheonixian: Trade G1 B1 Pheonixian
+
+10) Simon: Build Y2 Simon
+
+11) Pheonixian: Build G1 Eris
+
+12) Simon: Trade Y2 B2 Simon
+
+13) Pheonixian: Build G1 Pheonixian
+
+14) Simon: Discover B2 Simon G2 G2
+
+15) Pheonixian: Sacrifice G3 Pheonixian
+Build G2 Pheonixian
+Build G2 Eris
+Build G3 Pheonixian
+
+16) Simon: Build G3 Simon
+
+17) Pheonixian: Trade G2 Y2 Eris
+
+18) Simon: Move Y1 Simon G2
+
+19) Pheonixian: Discover G2 Pheonixian Y3 Sol
+
+20) Simon: Build Y2 G2
+
+21) Pheonixian: Sacrifice G3 Pheonixian
+Build G2 Sol
+Build G3 Pheonixian
+Build B1 Pheonixian
+
+22) Simon: Sacrifice Y2 G2
+Move B2 G2 Eris
+Move B2 Eris Pheonixian
+Catastrophe Pheonixian B
+
+23) Pheonixian: Trade G1 B1 Eris
+
+24) Simon: Build Y2 G2
+
+25) Pheonixian: Sacrifice G3 Pheonixian
+Build G1 Eris
+Build B1 Eris
+Build G3 Pheonixian
+
+26) Simon: Move Y1 G2 Pheonixian
+
+27) Pheonixian: Move B1 Eris Pheonixian
+
+28) Simon: Sacrifice G3 Simon
+Build Y2 Pheonixian
+Build Y3 Pheonixian
+Pass
+Catastrophe Pheonixian Y
+	Simon: It's rare to see no red ships at all. gg, always happy to rematch!

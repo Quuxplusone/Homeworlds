@@ -7,16 +7,16 @@ Winner: mneme
 1) mneme: Homeworld R1 B3 G3
 
 2) MadWuher: Homeworld R2 B1 G3
-MadWuher: Howdy....
+	MadWuher: Howdy....
 
 3) mneme: Build G1 Mneme
-mneme: Heya. Mirror start?
+	mneme: Heya.  Mirror start?
 
 4) MadWuher: Build G1 Madwuher
-MadWuher: Looks like it.....
+	MadWuher: Looks like it.....
 
 5) mneme: Trade G1 Y1 Mneme
-MadWuher: So far that is .....
+	MadWuher: So far that is .....
 
 6) MadWuher: Trade G1 Y1 Madwuher
 
@@ -35,7 +35,7 @@ MadWuher: So far that is .....
 13) mneme: Discover B2 Mneme Y2 Ector
 
 14) MadWuher: Discover B1 Madwuher G3 Edora
-mneme: there's a problem with the "strategy" of repeating every move your opponent makes.
+	mneme: there's a problem with the "strategy" of repeating every move your opponent makes.
 
 15) mneme: Sacrifice G3 Mneme
 Build B2 Ector
@@ -45,7 +45,7 @@ Build Y1 Mneme
 16) MadWuher: Build B3 Edora
 
 17) mneme: Trade B2 G2 Ector
-mneme: *sigh* that was dumb of me. Ah well.
+	mneme: *sigh*  that was dumb of me.  Ah well.
 
 18) MadWuher: Build Y2 Madwuher
 
@@ -198,7 +198,7 @@ Catastrophe Ector B
 69) mneme: Build B1 Artis
 
 70) MadWuher: Trade G2 B2 Madwuher
-mneme: sweet!
+	mneme: sweet!
 
 71) mneme: Move B1 Artis Madwuher
 
@@ -249,13 +249,13 @@ Trade R1 Y1 Bologna
 
 91) mneme: Trade R2 G2 Artis
 
-92) MadWuher: Trade B1 G1 Bologna
+92) MadWuher: T B1 G1 Bologna
 
 93) mneme: Sacrifice G2 Artis
 Build Y1 Mneme
 Build B1 Artis
 
-94) MadWuher: Build Y2 Madwuher
+94) MadWuher: B Y2 Madwuher
 
 95) mneme: Sacrifice Y3 Artis
 Move R1 Artis Madwuher
@@ -271,4 +271,4 @@ Move B1 Artis Madwuher
 Move B2 Edora Madwuher
 Catastrophe Madwuher B
 
-mneme: *nod* I'm not even sure you had a sequence that would avoid inevitable doom once I grew the r2--the big turning point was, I think, when I got ahead on larges, and you didn't find a way to capitalize on my limited growth and smaller number of pieces. Good game!
+	mneme: *nod*  I'm not even sure you had a sequence that would avoid inevitable doom once I grew the r2--the big turning point was, I think, when I got ahead on larges, and you didn't find a way to capitalize on my limited growth and smaller number of pieces.  Good game!

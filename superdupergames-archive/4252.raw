@@ -42,7 +42,7 @@ Winner: zoltar
 19) unic: Build R3 Unic
 
 20) zoltar: Discover R3 Zoltar Y2 Lemon
-unic: ... so, that's all the red pyramids gone for now.
+	unic: ... so, that's all the red pyramids gone for now.
 
 21) unic: Trade R3 Y3 Unic
 
@@ -50,20 +50,20 @@ unic: ... so, that's all the red pyramids gone for now.
 Build R3 Lemon
 Build Y2 Greendale
 Build Y3 Zoltar
-zoltar: Yes, and you managed to get most of them!
+	zoltar: Yes, and you managed to get most of them!
 
 23) unic: Move Y3 Unic Secunda
-zoltar: Another good move, making sure you don't get locked out of the Yellow tech, and threatening to build your R3 back. I can't build the R3 in my homeworld, or else you now sack your Y3 and move an R1 into my homeworld, destroying my R3 as well as my red star. I am forced to sacrifice my G3 here, as there is no other reasonable move.
+	zoltar: Another good move, making sure you don't get locked out of the Yellow tech, and threatening to build your R3 back. I can't build the R3 in my homeworld, or else you now sack your Y3 and move an R1 into my homeworld, destroying my R3 as well as my red star. I am forced to sacrifice my G3 here, as there is no other reasonable move.
 
 24) zoltar: Trade Y1 G1 Zoltar
-zoltar: Now the game is very close, as I've got both yellow and red tech and have as many large ships, with my extra R3 vs your G3. All sorts of things could tip the scale one way or another, and there can be quick attacks and sacrifices or slow development in a game like this. It makes the game quite interesting and allows for different styles of play.
+	zoltar: Now the game is very close, as I've got both yellow and red tech and have as many large ships, with my extra R3 vs your G3.  All sorts of things could tip the scale one way or another, and there can be quick attacks and sacrifices or slow development in a game like this. It makes the game quite interesting and allows for different styles of play.
 
 25) unic: Build Y1 Secunda
-unic: This is where I start feeling a bit lost - the possibilities that arise from sacrificing ships are difficult for me to get an overview of.
-zoltar: Yes, I know the feeling: this is where the top players get the advantage against me. It takes several games to get a feel for complex positions and even see all the various candidate moves, much less choose among them.
+	unic: This is where I start feeling a bit lost - the possibilities that arise from sacrificing ships are difficult for me to get an overview of.
+	zoltar: Yes, I know the feeling: this is where the top players get the advantage against me. It takes several games to get a feel for complex positions and even see all the various candidate moves, much less choose among them.
 
 26) zoltar: Move R3 Lemon Prima
-zoltar: My choices are more limited: I had to get a green ship before I can build anything else.
+	zoltar: My choices are more limited: I had to get a green ship before I can build anything else.
 
 27) unic: Move R2 Prima Greendale
 
@@ -72,9 +72,9 @@ Attack R2 Greendale
 Pass
 
 29) unic: Build G1 Unic
-unic: Run! Their ship is bigger than ours!
-zoltar: You may want to redo that move: I can sacrifice my r2 in zoltar and attack your r2 in greendale.
-unic: No, done is done.
+	unic: Run!  Their ship is bigger than ours!
+	zoltar: You may want to redo that move: I can sacrifice my r2 in zoltar and attack your r2 in greendale. 
+	unic: No, done is done.
 
 30) zoltar: Trade Y3 G3 Zoltar
 
@@ -102,7 +102,7 @@ Catastrophe Greendale R
 
 40) zoltar: Sacrifice B1 Zoltar
 Trade Y2 R2 Greendale
-zoltar: oops -- I typed that in wrongly.
+	zoltar: oops -- I typed that in wrongly.
 
 41) unic: Trade R1 B1 Unic
 
@@ -123,18 +123,18 @@ zoltar: oops -- I typed that in wrongly.
 49) unic: Build B2 Secunda
 
 50) zoltar: Build G2 Lemon
-unic: Seems this game is in a bit of a slow phase currently.
+	unic: Seems this game is in a bit of a slow phase currently.
 
 51) unic: Discover B2 Secunda B2 Prima
-zoltar: Yes, though that can change at any moment.
-zoltar: Yes, though that can change at any moment.
-zoltar: Yes, though that can change at any moment.
+	zoltar: Yes, though that can change at any moment.
+	zoltar: Yes, though that can change at any moment.
+	zoltar: Yes, though that can change at any moment.
 
 52) zoltar: Sacrifice G3 Zoltar
 Build G2 Lemon
 Build G3 Zoltar
 Build Y1 Greendale
-zoltar: hmm, somehow it repeated that 3 times
+	zoltar: hmm, somehow it repeated that 3 times
 
 53) unic: Sacrifice G3 Unic
 Build G3 Unic
@@ -160,49 +160,50 @@ Build G2 Bigred
 Build R2 Greendale
 
 59) unic: Build B3 Secunda
-zoltar: I meant to say g1 there
+	zoltar: I meant to say g1 there
 
 60) zoltar: Move Y1 Greendale Bigred
 
 61) unic: Sacrifice Y1 Unic
 Move B3 Unic Bigred
 
-62) zoltar: Sacrifice Y3 Zoltar
+62) zoltar:
+Sacrifice Y3 Zoltar
 Move Y1 Bigred Unic
 Move G1 Bigred Unic
 Move G2 Bigred Unic
 Catastrophe Unic G
-zoltar: Unfortunately, I couldn't find a way to get into the Blue industry, which has built up your advantage.
+	zoltar: Unfortunately, I couldn't find a way to get into the Blue industry, which has built up your advantage.
 
 63) unic: Sacrifice Y3 Secunda
 Move B3 Bigred Unic
 Move B3 Secunda Greendale
 Discover B1 Secunda G2 Tertia
-unic: I can't really see how to exploit my blue ships for anything useful though. Oh well... perhaps I'll spot something eventually.
+	unic: I can't really see how to exploit my blue ships for anything useful though.  Oh well... perhaps I'll spot something eventually.
 
 64) zoltar: Sacrifice G3 Zoltar
 Build R3 Lemon
 Build Y1 Unic
 Build Y3 Zoltar
-zoltar: Even if you don't, after some fighting and explosions, you'll be able to trade them for ships you can find useful things to do with. That's what I'm afraid of.
-zoltar: Now I have to hope you make some mistakes and give me pieces and opportunities, like you did in the last game!
+	zoltar: Even if you don't, after some fighting and explosions, you'll be able to trade them for ships you can find useful things to do with. That's what I'm afraid of.
+	zoltar: Now I have to hope you make some mistakes and give me pieces and opportunities, like you did in the last game!
 
 65) unic: Sacrifice R3 Prima
 Attack Y2 Greendale
 Attack Y1 Greendale
 Attack Y1 Unic
-zoltar: Well, it's now or never -- I either have to exercise sharp tactics or else slowly get stangled. I've got to think about this for a few minutes.
-zoltar: s y3 zoltar
-zoltar: Move y1 bigred unic
-zoltar: Move g1 bigred unic
-zoltar: Move g2 bigred unic
-zoltar: Catastrophe unic green
+	zoltar: Well, it's now or never -- I either have to exercise sharp tactics or else slowly get stangled. I've got to think about this for a few minutes.
+	zoltar: s y3 zoltar
+m y1 bigred unic
+m g1 bigred unic
+m g2 bigred unic
+c unic g
 
 66) zoltar: Sacrifice R3 Lemon
 Attack Y2 Greendale
 Attack Y1 Greendale
 Attack B1 Unic
-zoltar: It's going to be big finish, one way or the other.
+	zoltar: It's going to be big finish, one way or the other.
 
 67) unic: Sacrifice R2 Secunda
 Attack R2 Greendale
@@ -212,24 +213,24 @@ Attack R2 Greendale
 Attack R2 Greendale
 Attack R2 Greendale
 Attack Y1 Unic
-zoltar: This is a very tough position, and makes for a really interesting game. Since I'm also rather new to the game, I still get lost in the possibilities here. This is one game that, after it's over, I'll replay on a board with Andy Looney when he has the time, so he can show me ideas that we missed. Anyway, this is the best I can come up with tonight.
+	zoltar: This is a very tough position, and makes for a really interesting game. Since I'm also rather new to the game, I still get lost in the possibilities here. This is one game that, after it's over, I'll replay on a board with Andy Looney when he has the time, so he can show me ideas that we missed. Anyway, this is the best I can come up with tonight.
 
 69) unic: Attack B1 Unic
 
 70) zoltar: Sacrifice R2 Greendale
 Attack R1 Unic
 Attack B1 Unic
-zoltar: Hey, the server's back up. I was worried we'd be down the whole weekend. Wow -- 6 sacrifices in a row, and 5 3-pip ships sacked in a row! That's a record for me. The most exciting games I've played have had multiple 3-pip sacrifices at the crucial stage in the endgame.
-unic: I've been compulsively checking the server all day! Finally back up :) It feels you're definitely ahead in this game... I'll have to ponder my options a while.
+	zoltar: Hey, the server's back up. I was worried we'd be down the whole weekend. Wow -- 6 sacrifices in a row, and 5 3-pip ships sacked in a row! That's a record for me. The most exciting games I've played have had multiple 3-pip sacrifices at the crucial stage in the endgame.
+	unic: I've been compulsively checking the server all day!  Finally back up :)  It feels you're definitely ahead in this game... I'll have to ponder my options a while.
 
 71) unic: Sacrifice R1 Unic
 Attack R2 Greendale
-unic: Yet another sacrifice... this game feels like a real rollercoaster currently!
-unic: If you do end up getting any comments from Andy Looney or some other good player, please feel free to share them!
+	unic: Yet another sacrifice... this game feels like a real rollercoaster currently!
+	unic: If you do end up getting any comments from Andy Looney or some other good player, please feel free to share them!
 
 72) zoltar: Sacrifice R1 Unic
 Attack R2 Greendale
-zoltar: That's 8 sacrifices in a row. Well, you have two more red ships and so do I... I finally feel that I'm ahead in the game, too, but I think I was losing up until the wild sacrificing frenzy. In any case, this is one of the most fun homeworlds games I've played, and regardless of how it ends, I'm replaying this for Andy Looney and John Cooper next Thursday on game night. If he has lots of comments on all the sacrifices and interesting options that we missed, I'll write them down and let you know. Btw, I just (yesterday) won a game from TwoShort, which is no small feat, as he is the best active player here, and second only to Andy. I lose most of my games to him. In fact, if you have a set of pyramids, I'd suggest you check out the archives and replay all of TwoShort's and games. You need to view the PGN files ( http://superdupergames.org/pgn.html?id=homeworlds ). That's what I did after my first couple disorienting games (I didn't play as well as you at first), and then I was able to defeat just about everyone but TwoShort and Andy Looney. It's worth it if you like the game and want to play a lot. If you study a bunch of games, and play me some more, I'd then suggest you challenge TwoShort and give him a run for his money. He'll be shocked to have a second new player (besides me) learn the game and be able to deal with all his tricks.
+	zoltar: That's 8 sacrifices in a row.  Well, you have two more red ships and so do I...  I finally feel that I'm ahead in the game, too, but I think I was losing up until the wild sacrificing frenzy.  In any case, this is one of the most fun homeworlds games I've played, and regardless of how it ends, I'm replaying this for Andy Looney and John Cooper  next Thursday on game night. If he has lots of comments on all the sacrifices and interesting options that we missed, I'll write them down and let you know. Btw, I just (yesterday) won a game from TwoShort, which is no small feat, as he is the best active player here, and second only to Andy. I lose most of my games to him. In fact, if you have a set of pyramids, I'd suggest you check out the archives and replay all of TwoShort's and games. You need to view the PGN files ( http://superdupergames.org/pgn.html?id=homeworlds ). That's what I did after my first couple disorienting games (I didn't play as well as you at first), and then I was able to defeat just about everyone but TwoShort and Andy Looney.  It's worth it if you like the game and want to play a lot. If you study a bunch of games, and play me some more, I'd then suggest you challenge TwoShort and give him a run for his money. He'll be shocked to have a second new player (besides me) learn the game and be able to deal with all his tricks.
 
 73) unic: Sacrifice B2 Prima
 Trade B3 R3 Greendale
@@ -250,4 +251,4 @@ Move Y1 Greendale Zoltar
 Move Y1 Zoltar Unic
 Catastrophe Unic Y
 
-zoltar: Sure! Excellent game. 
+	zoltar: Sure! Excellent game.

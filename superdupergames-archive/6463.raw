@@ -13,9 +13,9 @@ Winner: zoltar
 4) zoltar: Build G1 Zoltar
 
 5) Personman: Discover G1 Personman Y2 Y2a
-zoltar: Greetingz Earthling: We meet again, Personman!
-Personman: :) Hi! It has been a while, hasn't it? I wonder if I've learned anything since last time. Probably not!
-zoltar: Well, I was on a losing streak for a while, but all that's about to change, I hope!
+	zoltar: Greetingz Earthling: We meet again, Personman!
+	Personman: :) Hi! It has been a while, hasn't it? I wonder if I've learned anything since last time. Probably not!
+	zoltar: Well, I was on a losing streak for a while, but all that's about to change, I hope! 
 
 6) zoltar: Trade G1 Y1 Zoltar
 
@@ -49,7 +49,7 @@ Build Y3 Blueberry
 19) Personman: Trade G2 B2 Personman
 
 20) zoltar: Trade Y3 G3 Blueberry
-zoltar: Yeah, gotta go for the Yellow superiority.
+	zoltar: Yeah, gotta go for the Yellow superiority.
 
 21) Personman: Move G1 Y2a Blueberry
 
@@ -128,4 +128,4 @@ Attack B3 G2a
 Attack B2 Personman
 Attack R1 Personman
 
-zoltar: gg Earthling! 
+	zoltar: gg Earthling!

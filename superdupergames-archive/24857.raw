@@ -1,0 +1,138 @@
+Homeworlds Online (SDG# 24857)
+Started: 2013.12.27, Ended: 2014.1.12
+Participants: haukec (S), OnePageWars (N)
+Winner: haukec
+
+1) OnePageWars: Homeworld B1 R2 G3
+	OnePageWars: Ah, a brand new game, I see. :) Welcome! gl hf!
+
+2) haukec: Homeworld R1 B2 G3
+
+3) OnePageWars: Build G1 Onepagewars
+
+4) haukec: Build G1 Haukec
+
+5) OnePageWars: Trade G1 B1 Onepagewars
+
+6) haukec: Build G1 Haukec
+
+7) OnePageWars: Build G1 Onepagewars
+
+8) haukec: Trade G1 Y1 Haukec
+
+9) OnePageWars: Trade G1 Y1 Onepagewars
+
+10) haukec: Discover G1 Haukec G3 Somewherelse
+
+11) OnePageWars: Build G1 Onepagewars
+
+12) haukec: Build G1 Haukec
+
+13) OnePageWars: Move G1 Onepagewars Somewherelse
+
+14) haukec: Discover G1 Haukec Y3 Anewworld
+
+15) OnePageWars: Build G2 Onepagewars
+
+16) haukec: Build G2 Haukec
+
+17) OnePageWars: Build B1 Onepagewars
+	haukec: this game is amazingly strategic - about once per turn i realize another error i made before... though first game ever :)
+
+18) haukec: Sacrifice G3 Haukec
+Build G2 Anewworld
+Build G3 Haukec
+Build Y1 Haukec
+	OnePageWars: This is your first game? Welcome to Homeworlds!
+	OnePageWars: And yes, the strategy and tactics of this game abound. I'm still learning new things virtually every game, but I am relatively new to this game.
+
+19) OnePageWars: Move B1 Onepagewars Somewherelse
+
+20) haukec: Build Y2 Haukec
+
+21) OnePageWars: Sacrifice G3 Onepagewars
+Build G3 Onepagewars
+Build B2 Somewherelse
+Build Y2 Onepagewars
+
+22) haukec: Sacrifice Y2 Haukec
+Move G1 Somewherelse Onepagewars
+Move G1 Anewworld Onepagewars
+Catastrophe Onepagewars G
+
+23) OnePageWars: Move Y1 Onepagewars Somewherelse
+
+24) haukec: Move G2 Haukec Somewherelse
+	OnePageWars: Nice one.
+
+25) OnePageWars: Move G1 Somewherelse Onepagewars
+
+26) haukec: Sacrifice G2 Anewworld
+Build G1 Somewherelse
+Build G1 Somewherelse
+Catastrophe Somewherelse G
+	haukec: thank you :) but now i realize why there was this warning in the manual of inclomplete annilation-plans, you walled me in quite effective ;)
+
+27) OnePageWars: Build G1 Onepagewars
+
+28) haukec: Discover Y1 Haukec G3 Nowhere
+
+29) OnePageWars: Discover G1 Onepagewars B3 Serenity_valley
+
+30) haukec: Build Y1 Haukec
+	OnePageWars: Have you seen Firefly?
+
+31) OnePageWars: Build Y2 Onepagewars
+	haukec: Yes! :D Bad omen for me? ;)
+	OnePageWars: Only if you're one of them independents.
+
+32) haukec: Move Y1 Haukec Serenity_valley
+
+33) OnePageWars: Move Y2 Onepagewars Serenity_valley
+
+34) haukec: Sacrifice G3 Haukec
+Build Y2 Serenity_valley
+Build Y3 Nowhere
+Build Y3 Haukec
+	OnePageWars: "They thought they'd march through Serenity Valley, and we choked them with those words. We have done the impossible, and that makes us mighty." - Mal as near as I can remember it.
+
+35) OnePageWars: Build Y3 Onepagewars
+	OnePageWars: Well, since I'm defending Serenity Valley, that would make me the Independents. I guess this is appropriate considering the unfortunate outcome of that fateful battle.
+
+36) haukec: Sacrifice Y2 Serenity_valley
+Move Y1 Nowhere Onepagewars
+Move Y1 Serenity_valley Onepagewars
+Catastrophe Onepagewars Y
+	OnePageWars: Unless of course you plan to cancel project make psychotic psychics and cease war on the Independents rather than wipe so many of them out in Serenity Valley at unthinkable cost of life to both sides.
+
+37) OnePageWars: Build Y1 Serenity_valley
+	haukec: So much for the unthinkable cost of life to both sides ;)
+I think, i will make an android-clone of this game :D
+
+38) haukec: Move Y3 Nowhere Onepagewars
+	OnePageWars: Though high command, having only 2 small ships in their home system, has surrendered, the Independents at Serenity_Valley shall still hold out for some three weeks. (Did I get the timeline correct? It's been a while since I watched the series.)
+	haukec: To be honest, i don't know for sure too, but I will definetively watch the series again sometime soon :)
+
+39) OnePageWars: Build Y1 Serenity_valley
+	OnePageWars: Zoe: They're not coming. Command says it's to hot. They're pulling out. We're to lay down arms.
+
+40) haukec: Move Y1 Haukec Serenity_valley
+Catastrophe Serenity_valley Y
+	OnePageWars: And btw, I looked it up and according to http://wiki.serenitymush.com/wiki/index.php/Battle_of_Serenity_Valley It was only two weeks that they held out after Independent High Command had surrendered.
+
+41) OnePageWars: Sacrifice G1 Serenity_valley
+Build B1 Onepagewars
+
+42) haukec: Attack G1 Onepagewars
+	OnePageWars: The Independent forces at Serenity Valley who refused to surrender have been eliminated or captured.
+
+43) OnePageWars: Pass
+
+44) haukec: Trade Y3 B3 Onepagewars
+Catastrophe Onepagewars B
+	OnePageWars: "We're all just folk now." - Mal
+	haukec: Thank you very much for this challenging and interesting match :)
+	OnePageWars: The same to you. I very much enjoyed both the gameplay and the Firefly quotations with a little role play thrown in at the end.
+	haukec: Half of writing history is hiding the truth. ;)
+	haukec: btw, I started implementing the game in java, having this as an android app would be awesome :)
+	OnePageWars: Yes, it would.

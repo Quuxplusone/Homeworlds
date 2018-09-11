@@ -1,5 +1,5 @@
 Homeworlds Online (SDG# 1097)
-Started: 2005.10.24, Ended: 2005.10.29
+Started: 2005.10.25, Ended: 2005.10.29
 Participants: TwoShort (S), MatrixFrog (N)
 Winner: TwoShort
 
@@ -32,15 +32,15 @@ Build G3 Twoshort
 Discover G1 Matrixfrog R3 Xx
 Move G1 Xx Yolonda
 Discover Y1 Matrixfrog G3 Blanket
-Catastrophe Yolonda Green
 
-12) TwoShort: Build G1 Twoshort
-MatrixFrog: Damn! I hate when that happens. I obviously missed a line...
+12) TwoShort: Catastrophe Yolonda Green
+Build G1 Twoshort
+	MatrixFrog: Damn! I hate when that happens. I obviously missed a line...
 
 13) MatrixFrog: Build G1 Matrixfrog
-TwoShort: Ha! I thought that bug might be there; thanks for the chance to test it :)
-TwoShort: Which is to say, I should not have been able to grow that green; but in this case the bug lets me fix your mistake, and make the move I would have anyway.
-MatrixFrog: Ah, very nice. Thank you.
+	TwoShort: Ha! I thought that bug might be there; thanks for the chance to test it :) 
+	TwoShort: Which is to say, I should not have been able to grow that green; but in this case the bug lets me fix your mistake, and make the move I would have anyway.
+	MatrixFrog: Ah, very nice. Thank you.
 
 14) TwoShort: Discover G2 Twoshort Y2 Yoyo
 
@@ -71,7 +71,7 @@ Attack R1 Matrixfrog
 Attack Y2 Matrixfrog
 
 25) MatrixFrog: Trade Y2 G2 Matrixfrog
-MatrixFrog: Um. Okay then. Good game.
+	MatrixFrog: Um. Okay then. Good game.
 
 26) TwoShort: Attack G2N Matrixfrog
-TwoShort: Good game
+	TwoShort: Good game

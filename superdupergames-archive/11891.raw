@@ -6,8 +6,8 @@ Winner: MadWuher
 1) MrMoto: Homeworld Y3 B2 G3
 
 2) MadWuher: Homeworld R1 B2 G3
-MrMoto: I come in peace.
-MadWuher: "Nanu-nanu" - Welcome.
+	MrMoto: I come in peace.
+	MadWuher: "Nanu-nanu" - Welcome.
 
 3) MrMoto: Build G1 Mrmoto
 
@@ -56,9 +56,9 @@ Build Y2 Madwuher
 
 21) MrMoto: Discover Y1 Denebula R2 Dawn
 
-22) MadWuher: Sacrifice Y2 Madwuher
-Discover G2 Madwuher B3 Edora
-Move Y1 Madwuher Edora
+22) MadWuher: S Y2 Madwuher
+D G2 Madwuher B3 Edora
+M Y1 Madwuher Edora
 
 23) MrMoto: Sacrifice G3 Mrmoto
 Build Y2 Dawn
@@ -80,9 +80,10 @@ Discover G1 Madwuher Y3 Camelot
 27) MrMoto: Sacrifice Y1 Dawn
 Move R3 Fragrance Mrmoto
 
-28) MadWuher: Sacrifice R2 Madwuher
-Attack R3 Mrmoto
-Attack R2 Mrmoto
+28) MadWuher: S R2 Madwuher
+A R3 Mrmoto
+A R2 Mrmoto
 
-MadWuher: thanks for da game. Up to another?
-MrMoto: Ah, zut! I didn't see that coming. Thanks, and sure, let's play again. 
+	MadWuher: thanks for da game. Up to another?
+	MrMoto: Ah, zut! I didn't see that coming.
+Thanks, and sure, let's play again.

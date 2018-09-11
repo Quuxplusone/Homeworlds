@@ -6,7 +6,7 @@ Winner: TwoShort
 1) TwoShort: Homeworld Y1 B2 G3
 
 2) sketchwick: Homeworld B1 R3 G3
-TwoShort: Greetings
+	TwoShort: Greetings
 
 3) TwoShort: Build G1 Twoshort
 
@@ -23,7 +23,7 @@ TwoShort: Greetings
 9) TwoShort: Build G2 Twoshort
 
 10) sketchwick: Discover G1 Sketchwick Y2 Smith
-sketchwick: Oh, hi! I just saw your greeting. :)
+	sketchwick: Oh, hi!  I just saw your greeting.  :)
 
 
 11) TwoShort: Move G1 Yolonda Smith
@@ -104,14 +104,14 @@ Catastrophe Sketchwick Green
 Move Y3 Yet Sketchwick
 Move G3 Notgoingwell Sketchwick
 Pass
-TwoShort: I think I had you back when I gained the upper hand on 3 pointers, but you've held me off for an impressively long time. Now, however, I'm afraid the end is nigh...
+	TwoShort: I think I had you back when I gained the upper hand on 3 pointers, but you've held me off for an impressively long time.  Now, however, I'm afraid the end is nigh...
 
 40) sketchwick: Attack Y3N Sketchwick
 
 41) TwoShort: Sacrifice R2 Twoshort
 Attack G3 Sketchwick
 Attack Y3 Sketchwick
-sketchwick: glad I was impressive in SOME way, I'm very inexperienced...I hadn't thought of the power of moving in two big ships when you have at least an r2
+	sketchwick: glad I was impressive in SOME way, I'm very inexperienced...I hadn't thought of the power of moving in two big ships when you have at least an r2
 
-TwoShort: Well, I hope you'll keep playing; you're obviously good at thinking through the posibilities a couple moves in advance; just need to work on your early game.
-TwoShort: A couple tips: 1) Red is the least useful color. Optimally, I never take red except for a single two point ship the turn after my opponent takes red, or the turn before I'm threatening to use it. 2) The early game is about getting 3 pointers. A significant disadvantage in 3 pointer count is usually insurmountable.
+	TwoShort: Well, I hope you'll keep playing; you're obviously good at thinking through the posibilities a couple moves in advance; just need to work on your early game.
+	TwoShort: A couple tips:  1) Red is the least useful color.  Optimally, I never take red except for a single two point ship the turn after my opponent takes red, or the turn before I'm threatening to use it.  2) The early game is about getting 3 pointers.  A significant disadvantage in 3 pointer count is usually insurmountable.

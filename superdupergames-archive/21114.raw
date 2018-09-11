@@ -1,0 +1,116 @@
+Homeworlds Online (SDG# 21114)
+Started: 2011.11.5, Ended: 2011.11.9
+Participants: disaac (S), Onii77 (N)
+Winner: disaac
+
+1) Onii77: Homeworld G3 B2 Y3
+
+2) disaac: H G3 Y1 B3
+	disaac: h LG SY LB
+	disaac: h g3 y1 B3
+
+3) Onii77: Build Y1 Onii77
+
+4) disaac: Build B1 Disaac
+
+5) Onii77: Build Y1 Onii77
+	disaac: OK. I am starting to get the hang of the commands a bit now.
+
+6) disaac: B B1 Disaac
+
+7) Onii77: Trade Y1 G1 Onii77
+
+8) disaac: Discover B1 Disaac G2 Peace
+	Onii77: Oh lol. I didn't even see the chat before..
+
+9) Onii77: Discover G1 Onii77 B1 Profit
+
+10) disaac: B B2 Peace
+
+11) Onii77: Build G1 Profit
+
+12) disaac: Trade B2 Y2 Peace
+
+13) Onii77: Trade Y1 R1 Onii77
+	Onii77: April and Sam are home. The game is going to slow down. I have chores :)
+	disaac: understood. If you want to drop it that is fine.
+	disaac: I will leave mine up for now, and if you want to resume, you can send a text to my phone.
+
+14) disaac: Trade B3 R3 Disaac
+
+15) Onii77: Trade G1 R1 Profit
+
+16) disaac: Build B2 Peace
+
+17) Onii77: Build Y1 Onii77
+
+18) disaac: Trade B2 R2 Peace
+
+19) Onii77: Move Y1 Onii77 Profit
+
+20) disaac: Move R2 Peace Profit
+
+21) Onii77: Build R1 Profit
+	disaac: I have changed my sdg profile to point to my work email for now so I will get it on the phone.
+
+22) disaac: Attack G1N Profit
+
+23) Onii77: Move R1 Onii77 Profit
+	Onii77: Wow. That's not good...
+
+24) disaac: Pass
+	Onii77: !!! Hmmmm looks like we have been playing incorrectly. It appears that causing a catastrophe takes a turn.
+	disaac: It shouldn't... it is part of your turn though...
+
+25) Onii77: Pass
+Catastrophe Profit Red
+	disaac: I have passed back to you so you can trigger the catastrophe. There is an implementation request about this in the sdg-wiki page to not allow catastrophes to force an explicit pass from the player causing it.
+	Onii77: Next game we'll play the right way. :)
+	disaac: Play 
+On your turn, do one of these three things: perform a single free action in a system that you occupy, sacrifice one of your ships to take a certain number of actions of that ship's color, or take no action at all. After you do one of these three things, you **may** trigger catastrophes for any overpopulations that exist.
+	disaac: I believe that the issue is that when you made your move, you should have included a carriage-return followed by a command to trigger the catastrophe
+	disaac: pass
+catastrophe profit r
+
+26) disaac: Trade Y2 R2 Peace
+	Onii77: Ahh I get it now :)
+
+27) Onii77: Move Y1 Profit Onii77
+
+28) disaac: Build G1 Profit
+
+29) Onii77: Build Y1 Onii77
+
+30) disaac: Build B2 Peace
+
+31) Onii77: Trade Y1 R1 Onii77
+
+32) disaac: Trade R2 Y2 Peace
+
+33) Onii77: Build R1 Onii77
+
+34) disaac: Sacrifice Y2 Peace
+Move G1 Profit Onii77
+Move G1 Profit Onii77
+
+35) Onii77: A G1 Onii77
+
+36) disaac: B G1 Onii77
+C Onii77 G
+
+37) Onii77: S Y3 Onii77
+Move R1 Onii77 Disaac
+Move R1 Onii77 Disaac
+Pass
+
+38) disaac: Sacrifice R3 Disaac
+Attack R1 Disaac
+Attack R1 Disaac
+Pass
+
+39) Onii77: Trade Y1 G1 Onii77
+
+40) disaac: M R1 Disaac Onii77
+	Onii77: This is not going well. :)
+
+	disaac: I don't know... Seems to be going fine for me! :)

@@ -8,7 +8,7 @@ Winner: wmreed
 2) ts52: Homeworld Y3 B2 G3
 
 3) wmreed: Build Y1 Wmreed
-wmreed: Hello!
+	wmreed: Hello!
 
 4) ts52: Build G1 Ts52
 
@@ -19,27 +19,27 @@ wmreed: Hello!
 7) wmreed: Build G1 Wmreed
 
 8) ts52: Discover Y1 Ts52 G1 Robin
-wmreed: Just FYI, I will be out of town Thurs. - Sun. if our game is still going on.
+	wmreed: Just FYI, I will be out of town Thurs. - Sun. if our game is still going on.
 
 9) wmreed: Discover G1 Wmreed B3 Ballard
 
 10) ts52: Build G2 Ts52
-ts52: Ok, no problem. Thanks for the heads up.
+	ts52: Ok, no problem. Thanks for the heads up.
 
-11) wmreed: Build Y1 Wmreed
+11) wmreed: B Y1 Wmreed
 
-12) ts52: Discover G2 Ts52 B1 Grover
+12) ts52: D G2 Ts52 B1 Grover
 
-13) wmreed: Trade G1 R1 Wmreed
+13) wmreed: T G1 R1 Wmreed
 
 14) ts52: Build G1 Grover
 
-15) wmreed: Trade Y3 G3 Wmreed
+15) wmreed: T Y3 G3 Wmreed
 
 16) ts52: Sacrifice Y1 Robin
 Discover G2 Grover G3 Kermit
 
-17) wmreed: Move G3 Wmreed Kermit
+17) wmreed: M G3 Wmreed Kermit
 
 18) ts52: Build G1 Kermit
 Catastrophe Kermit Green
@@ -47,7 +47,7 @@ Catastrophe Kermit Green
 19) wmreed: Build R1 Wmreed
 
 20) ts52: Trade G3 R3 Ts52
-wmreed: Nice play following my stupid move.
+	wmreed: Nice play following my stupid move.
 
 
 21) wmreed: Build Y1 Wmreed
@@ -94,7 +94,7 @@ Build R3 Wmreed
 40) ts52: Discover R3 Ts52 B1 Grover
 
 41) wmreed: Move Y2 Wmreed Ballard
-wmreed: man, that's a lot of red.
+	wmreed: man, that's a lot of red.
 
 
 42) ts52: Build G2 Ts52
@@ -149,5 +149,6 @@ Move G3 Gonzo Ts52
 Move G1 Francis Ts52
 Catastrophe Ts52 Green
 
-wmreed: Thank you for the game.
-ts52: Well played. I somehow missed that you had the green ships in place to do that. Thanks for the game. 
+	wmreed: Thank you for the game.
+	ts52: Well played. I somehow missed that you had the green ships in place to do that.
+Thanks for the game.

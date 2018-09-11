@@ -1,0 +1,80 @@
+Homeworlds Online (SDG# 16654)
+Variants: "Hard time"
+Started: 2010.6.19, Ended: 2010.7.11
+Participants: Jesse (S), daselva (N)
+Winner: Jesse
+
+1) daselva: Homeworld B2 G3 Y3
+
+2) Jesse: Homeworld R1 B3 G3
+
+3) daselva: Build Y1 Daselva
+
+4) Jesse: Build G1 Jesse
+	Jesse: Hello, and have a good game.
+
+5) daselva: Trade Y1 G1 Daselva
+
+6) Jesse: Trade G1 Y1 Jesse
+	daselva: hello,sorry if I do wrong things...I´m a beginner
+
+7) daselva: Build G1 Daselva
+	Jesse: Have you read the tips on the wiki page?
+
+8) Jesse: Build G1 Jesse
+	daselva: yes I did...thank you,but reading is different of playing...you will be my first teacher
+	Jesse: Well, here's a tip: Variety is good.  That yellow star isn't helping your yellow ship do anything.  A green would let you build more ships, which would be the usual choice for a yellow ship.  A blue star would let you change your ship's color, but that would be more efficiently done directly at the homeworld, or it would be done after you'd built some ships at a green system.  A red would provide you some security against small ships coming for you, but would not help you develop.
+ 
+Discovering a same-colored system like that can be useful in situations where you're trying to keep a color to yourself.  If you were using up the last small yellow, for instance, to make it so I couldn't trade a small green for a yellow.  (That wouldn't work here, though, since I've chosen a red-blue home system in part for the flexibility to trade either the large or the small ship for yellow at this point.)
+ 
+Do you want to stick with your move?  It won't cause anything horrible to happen, but may not be developing quite as smoothly as you could.
+
+9) daselva: Trade G1 R1 Daselva
+	daselva: thank you , you are very generous!...are you a lover of homeworlds? what do you think of it? is it a good and « serious» game?
+	Jesse: Yes, absolutely.  As Andy Looney puts it, Homeworlds is the True Space Chess.  I think it's an apt comparison of the depth of strategy involved.  But Homeworlds is a lot more to my taste.
+
+10) Jesse: Trade G1 R1 Jesse
+
+11) daselva: Build R2 Daselva
+
+12) Jesse: Build G1 Jesse
+
+13) daselva: Build R2 Daselva
+	Jesse: Don't forget about the catastrophe rule.  If there are four pieces of the same color in a system at the end of either player's turn, that player may choose for a catastrophe to occur which sends them back to the bank.  In this case, you now have four greens in your home system, including the green star.  You'll lose those ships and half your system with a move like that.
+
+14) Jesse: Discover R1 Jesse G2 Beeble
+	daselva: ok, thank you ,I understood that
+
+15) daselva: Trade R2 Y2 Daselva
+
+16) Jesse: Build R2 Beeble
+	daselva: hello.Can you explain me this?...Are there draws in homeworlds? Take this hypothetical situation:I´ve reached the Homeworld of my opponent with a R3 ship.HIs Homeworld is a R1 G3 and the ships in his Homeworld are Y2 Y2 and B1.So if I attack one of his Y2,I will change it to mine.Then he will attack this Y2 and change it to his.Then I will do the same and my opponent to ...etc ...etc
+
+17) daselva: Discover R2 Daselva Y1 Letsee
+	Jesse: There is no rule for resolving such situations, unfortunately.  With sacrifices making it possible to perform multiple actions, there's usually a way out of a situation like that, though.
+
+18) Jesse: Build Y1 Jesse
+	daselva: thank you
+
+19) daselva: Build Y2 Daselva
+
+20) Jesse: Move Y1 Jesse Beeble
+
+21) daselva: Trade Y2 G2 Daselva
+
+22) Jesse: Build Y2 Beeble
+
+23) daselva: Move G1 Daselva Letsee
+
+24) Jesse: Discover R2 Beeble G1 Bobble
+
+	daselva: hello Jesse, can you help me? ...in the present situation I would to sacrifice the g2 in my HW in order to  build a r2 in my HW and build a r3 in Letsee system butI don´t know how to write these commands
+	daselva: I wanted to say«I would like to»...by the way ,what is «carriage return»?
+	Jesse: Darn.  Too bad about that time limit.  To answer your question, though, you would write:
+ 
+sacrifice g2 daselva
+build r2 daselva
+build r3 letsee
+ 
+You could also shorten the commands.  My habit is to write "sac" for "sacrifice" and just "b" for "build".  A carriage return is the character you get from hitting [return] or [enter] on most keyboards.  Basically, you put each piece of a complex command on its own line.
+	daselva: Hello Jess thank you and forgive me...it was not timee limit,it was just ...awkward.Trying to find what that «carriage return» was,that I ´ve finally reached that was the changing line button,I carelessly pressed Resignation...I hope to play again whith you one day that I will have more experience (I´ve noticed you are a shark).I will never forget you were my first teacher

@@ -43,10 +43,10 @@ Build Y3 Twoshort
 Catastrophe Grogar Yellow
 
 18) Danner: Discover B1 Danner G3 Stargate
-Danner: Wow, you are great!
+	Danner: Wow, you are great!
 
 19) TwoShort: Trade Y3 G3 Twoshort
-TwoShort: Thanks, but you didn't give me much choice :)
+	TwoShort: Thanks, but you didn't give me much choice :)
 
 20) Danner: Build B2 Stargate
 
@@ -78,29 +78,28 @@ Build Y3 Twoshort
 32) Danner: Sacrifice Y2 Danner
 Discover G1 Stargate R2 Mars
 Pass
-Danner: Lol, I have calculated a lot to prevent this event, but I was wrong. I thought it is enough to be able to create one catastrophe, but now I can only destroy lesser ships :D
+	Danner: Lol, I have calculated a lot to prevent this event, but I was wrong. I thought it is enough to be able to create one catastrophe, but now I can only destroy lesser ships :D
 
 33) TwoShort: Discover Y2 Yellonia Y2 Yolonda
-Danner: Now, I have no chance to win :D
-TwoShort: I don't suppose this will make you feel better...
+	Danner: Now, I have no chance to win :D
+	TwoShort: I don't suppose this will make you feel better...
 
 34) Danner: Move Y1 Greenland Yellonia
-Danner: Exactly what? :)
+	Danner: Exactly what? :)
 
 35) TwoShort: Trade B1 R1 Greenland
 
 36) Danner: Build G2 Mars
-TwoShort: Oh, I meant that in response to your noting that you could only destroy lesser ships; my move took away your chance for any catastrophe at all.
-Danner: indeed
+	TwoShort: Oh, I meant that in response to your noting that you could only destroy lesser ships; my move took away your chance for any catastrophe at all.
+	Danner: indeed
 
 37) TwoShort: Sacrifice R1 Greenland
 Attack Y1 Yellonia
 
-SYSTEM: Danner resigns.
-#38) Danner: Sacrifice G3 Danner
-#Build G2 Danner
-#Build G3 Danner
-#Build G3 Danner
-#Catastrophe Danner G
-#Danner: woohoo, you control all the yellow pieces! I have no chance to make any yellow catastrophe, what is more, my ships are stuck :D
-#Danner: Congratulation! :)
+38) Danner: Sacrifice G3 Danner
+Build G2 Danner
+Build G3 Danner
+Build G3 Danner
+Catastrophe Danner G
+	Danner: woohoo, you control all the yellow pieces! I have no chance to make any yellow catastrophe, what is more, my ships are stuck :D
+	Danner: Congratulation! :)

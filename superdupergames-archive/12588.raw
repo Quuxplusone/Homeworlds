@@ -6,8 +6,8 @@ Winner: ts52
 1) ts52: Homeworld B1 Y2 G3
 
 2) agentofchaos: Homeworld Y1 B3 G3
-ts52: Have a good game.
-agentofchaos: Thanks, you too.
+	ts52: Have a good game. 
+	agentofchaos: Thanks, you too. 
 
 3) ts52: Build G1 Ts52
 
@@ -170,7 +170,7 @@ Build B1 Orocore
 
 64) agentofchaos: Move B1 Agentofchaos Kakradoom
 
-65) ts52: Build G1 Ts52
+65) ts52: B G1 Ts52
 
 66) agentofchaos: Build G2 Jophur
 
@@ -221,5 +221,5 @@ Catastrophe Agentofchaos B
 81) ts52: Sacrifice Y3 Orocore
 Move Y1 Orocore Agentofchaos
 Move Y2 Jophur Agentofchaos
-Move Y2 Jophur Agentofchaos
-Catastrophe Agentofchaos Yellow
+M Y2 Jophur Agentofchaos
+C Agentofchaos Yellow

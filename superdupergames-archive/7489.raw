@@ -44,12 +44,12 @@ Build Y3 Greengiant
 
 19) sordros: Move Y1 Picolino Bluemoon
 Catastrophe Bluemoon Yellow
-sordros: Nice move. I'll have to take note of that :-)
+	sordros: Nice move.  I'll have to take note of that :-)
 
 20) zoltar: Build G2 Bluemoon
 
 21) sordros: Trade Y1 R1 Sordros
-zoltar: Thanx, Earthling!
+	zoltar: Thanx, Earthling!
 
 22) zoltar: Trade G2 R2 Zoltar
 
@@ -59,7 +59,7 @@ zoltar: Thanx, Earthling!
 
 25) sordros: Discover G2 Sordros Y3 Mugie
 
-26) zoltar: Build G3 Zoltar
+26) zoltar: B G3 Zoltar
 
 27) sordros: Move G2 Mugie Bluemoon
 Catastrophe Bluemoon Green
@@ -105,3 +105,14 @@ Catastrophe Sordros Y
 44) zoltar: Sacrifice R2 Zoltar
 Attack R1 Sordros
 Attack B2 Sordros
+
+45) sordros: Build B3 Sordros
+
+46) zoltar: Sacrifice Y3 Sordros
+Move B2 Banana Verdega
+Move B2 Verdega Sordros
+Move R1 Sordros Verdega
+Catastrophe Sordros B
+	zoltar: gg. Play again?
+	sordros: GG.
+Play again? Sure! This was my second game, and even though I'm getting all beaten up, I really like it! :-)

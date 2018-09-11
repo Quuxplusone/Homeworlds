@@ -81,8 +81,8 @@ Catastrophe Scottobear B
 34) scottobear: Move Y2 Oz Blooze
 
 35) zoltar: Trade Y3 G3 Zoltar
-zoltar: Whoops! You know better than to grow a third of the same color in your homeworld when I have a ship of the same color!
-scottobear: you're right.. I do! Silly mistake!
+	zoltar: Whoops! You know better than to grow a third of the same color in your homeworld when I have a ship of the same color!
+	scottobear: you're right.. I do! Silly mistake!
 
 36) scottobear: Move R1 Oz Blooze
 
@@ -92,12 +92,12 @@ Build Y2 Greenslime
 Build Y3 Zoltar
 
 38) scottobear: Trade Y2 B2 Blooze
-zoltar: Retreat!!!
+	zoltar: Retreat!!!
 
 39) zoltar: Trade Y3 G3 Zoltar
 
 40) scottobear: Attack Y1 Blooze
-zoltar: Attack!
+	zoltar: Attack!
 
 41) zoltar: Sacrifice R2 Zoltar
 Attack R1 Blooze
@@ -122,4 +122,4 @@ Move Y1 Vim Scottobear
 Move Y1 Vigor Scottobear
 Catastrophe Scottobear Y
 
-zoltar: Gotta watchout for those check-mate in ones, especially if you only have one color of ship in your homeworld. Ready to try again?
+	zoltar: Gotta watchout for those check-mate in ones, especially if you only have one color of ship in your homeworld.  Ready to try again?

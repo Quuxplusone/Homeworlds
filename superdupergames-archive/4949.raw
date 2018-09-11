@@ -6,7 +6,7 @@ Winner: antihero
 1) method7: Homeworld Y1 B2 G3
 
 2) antihero: Homeworld B1 G3 Y3
-method7: Let's mix up my starting set here and see what happens.
+	method7: Let's mix up my starting set here and see what happens.
 
 3) method7: Build G1 Method7
 
@@ -33,7 +33,7 @@ method7: Let's mix up my starting set here and see what happens.
 14) antihero: Trade Y2 B2 Antihero
 
 15) method7: Build B1 Method7
-antihero: punk.
+	antihero: punk.
 
 16) antihero: Build Y2 Antihero
 
@@ -113,4 +113,4 @@ Pass
 Catastrophe Method7 B
 Catastrophe Method7 Y
 
-antihero: good game, method7. 
+	antihero: good game, method7.

@@ -56,21 +56,21 @@ Catastrophe Jeremiah G
 24) cobalt: Trade Y1 R1 Cobalt
 
 25) jeremiah: Build G2 Antihistamine
-jeremiah: construct g2 antihistamine
+	jeremiah: construct g2 antihistamine
 
 26) cobalt: Discover Y1 Framauro G3 Arglebargle
 
 27) jeremiah: Discover G1 Antihistamine Y1 Betablocker
-jeremiah: discover g1 antihistamine y1 betablocker
+	jeremiah: discover g1 antihistamine y1 betablocker
 
 28) cobalt: Trade G2 Y2 Cobalt
-jeremiah: I have to remember that it's the other box. Yeesh. That's twice now
+	jeremiah: I have to remember that it's the other box.  Yeesh.  That's twice now
 
 29) jeremiah: Move Y2 Jeremiah Antihistamine
-jeremiah: move y2 jeremiah antihistamine
+	jeremiah: move y2 jeremiah antihistamine
 
 30) cobalt: Build Y3 Arglebargle
-cobalt: thrice :P
+	cobalt: thrice :P
 
 31) jeremiah: Build Y3 Antihistamine
 
@@ -78,15 +78,15 @@ cobalt: thrice :P
 Move Y1 Arglebargle Jeremiah
 Move Y1 Jeremiah Antihistamine
 Catastrophe Antihistamine Y
-jeremiah: I'm pretty sure I know what your next move is, but maybe you've got something else in mind.
+	jeremiah: I'm pretty sure I know what your next move is, but maybe you've got something else in mind.
 
 33) jeremiah: Build G1 Jeremiah
-cobalt: was that what you had in mind?
-jeremiah: yep
-jeremiah: construct g1 jeremiah
+	cobalt: was that what you had in mind?
+	jeremiah: yep
+	jeremiah: construct g1 jeremiah
 
 34) cobalt: Build Y1 Cobalt
-jeremiah: sigh... did it again. Good thing you can't gain anything by it.
+	jeremiah: sigh... did it again.  Good thing you can't gain anything by it.
 
 35) jeremiah: Build G2 Betablocker
 
@@ -97,7 +97,7 @@ jeremiah: sigh... did it again. Good thing you can't gain anything by it.
 38) cobalt: Sacrifice R1 Cobalt
 Attack R1 Jeremiah
 
-jeremiah: hmmm.... should've built red and forced a catastrope in a turn or two
-jeremiah: and I can't get things done quick enough in your homeworld...
+	jeremiah: hmmm.... should've built red and forced a catastrope in a turn or two
+	jeremiah: and I can't get things done quick enough in your homeworld...  
 
-SYSTEM: jeremiah resigns. 
+	SYSTEM: jeremiah resigns.

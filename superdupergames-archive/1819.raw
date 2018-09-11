@@ -58,7 +58,7 @@ Catastrophe Sketchwick Yellow
 24) jeep: Trade R3 Y3 Jeep
 
 25) sketchwick: Build Y2 Sketchwick
-jeep: *sigh* you win...
+	jeep: *sigh* you win...
 
 26) jeep: Build G2 Jeep
 
@@ -70,5 +70,5 @@ jeep: *sigh* you win...
 Move Y3 Gob Stopper
 Move Y3 Stopper Jeep
 
-jeep: Yeah, I lost this way early, no sense playing it out...
-SYSTEM: jeep resigns. 
+	jeep: Yeah, I lost this way early, no sense playing it out...
+	SYSTEM: jeep resigns.

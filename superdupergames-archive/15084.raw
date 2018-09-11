@@ -1,0 +1,154 @@
+Homeworlds Online (SDG# 15084)
+Variants: "Unrated"
+Started: 2010.1.10, Ended: 2010.1.11
+Participants: melktart (S), logikal (N)
+Winner: logikal
+
+1) logikal: Homeworld B1 R2 G3
+
+2) melktart: Homeworld R1 B3 G3
+
+3) logikal: Build G1 Logikal
+
+4) melktart: Build G1 Melktart
+
+5) logikal: Trade G1 Y1 Logikal
+
+6) melktart: Trade G1 Y1 Melktart
+
+7) logikal: Build G1 Logikal
+
+8) melktart: Build G1 Melktart
+
+9) logikal: Discover G1 Logikal G3 L1
+
+10) melktart: Trade G1 R1 Melktart
+
+11) logikal: Build G1 Logikal
+
+12) melktart: Discover R1 Melktart R2 M2
+
+13) logikal: Build G1 Logikal
+
+14) melktart: Build G2 Melktart
+
+15) logikal: Discover G1 Logikal Y3 L2
+
+16) melktart: Move G2 Melktart M2
+
+17) logikal: Sacrifice G3 Logikal
+Build G2 L2
+Build G2 Logikal
+Build G3 Logikal
+
+18) melktart: Build Y1 Melktart
+
+19) logikal: Discover G1 Logikal Y3 L3
+
+20) melktart: Move Y1 Melktart M2
+
+21) logikal: Sacrifice G3 Logikal
+Build G3 Logikal
+Build Y2 Logikal
+Build Y2 Logikal
+
+22) melktart: Move R1 M2 L3
+
+23) logikal: Trade G2 B2 Logikal
+
+24) melktart: Attack G1 L3
+
+25) logikal: Move G2 L2 Logikal
+
+26) melktart: Build G2 M2
+
+27) logikal: Move Y2 Logikal L1
+
+28) melktart: Build Y2 Melktart
+
+29) logikal: Sacrifice G3 Logikal
+Build Y3 Logikal
+Build G3 Logikal
+Build B1 Logikal
+
+30) melktart: Trade Y1 R1 Melktart
+
+31) logikal: Trade B2 R2 Logikal
+
+32) melktart: Build R3 Melktart
+
+33) logikal: Sacrifice G3 Logikal
+Build G3 Logikal
+Build R3 Logikal
+Build Y1 L1
+
+34) melktart: Move R3 Melktart M2
+
+35) logikal: Sacrifice G1 L2
+Build Y3 L1
+
+36) melktart: Move R3 M2 L1
+
+37) logikal: Move R3 Logikal L1
+
+38) melktart: Attack R3 L1
+
+39) logikal: Sacrifice Y2 L1
+Discover Y3 L1 B2 L4
+Move G1 L1 L4
+
+40) melktart: Attack Y1 L1
+
+41) logikal: Move R2 Logikal L3
+
+42) melktart: Move R3 L1 M2
+
+43) logikal: Attack R1 L3
+
+44) melktart: Move R3 M2 L3
+
+45) logikal: Move R2 L3 L4
+
+46) melktart: Attack R1 L3
+
+47) logikal: Build R3 L4
+
+48) melktart: Move R1 Melktart M2
+
+49) logikal: Build Y2 L4
+
+50) melktart: Move R3 L3 M2
+
+51) logikal: Sacrifice Y2 L4
+Move R2 L4 L3
+Move R2 L3 M2
+Catastrophe M2 Red
+
+52) melktart: Move Y1 L1 Logikal
+Catastrophe Logikal Yellow
+
+53) logikal: Build R1 L4
+
+54) melktart: Build R2 L1
+
+55) logikal: Discover R3 L4 G1 L5
+
+56) melktart: Build G2 Melktart
+
+57) logikal: Sacrifice G3 Logikal
+Build G2 L4
+Build Y1 L4
+Build G3 Logikal
+
+58) melktart: Sacrifice Y2 Melktart
+Move G2 Melktart L4
+Move G3 Melktart L4
+Catastrophe L4 Green
+
+	logikal: This seems to have let melktart make a move that caused her to abandon her system, which shouldn't be legal. neither of us can remember if there was another ship in her home system, but the game shouldn't have let her make that move.
+	logikal: Request that an admin rollback the game to the previous turn (if possible)
+	logikal: after checking the history, the game allowed melktart to abandon her homeworld, which should not be a legal move.
+	logikal: from the rules PDF: "You are never allowed to take an action or trigger a catastrophe that causes you to own no ships in your Homeworld at the end of 
+your turn. You may temporarily abandon your Homeworld during your turn, as long as you own at least one ship in it at the end of 
+your turn. "
+	Aaron: You are correct.  I will examine the code.  Normally such moves are caught.

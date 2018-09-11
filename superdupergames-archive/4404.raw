@@ -40,12 +40,12 @@ Winner: zoltar
 18) zoltar: Trade B2 Y2 Greenbelt
 
 19) maka: Trade B1 Y1 Maka
-zoltar: That is a very dangerous move, leaving your homeworld with out a 3-pip-size piece to defend it.
+	zoltar: That is a very dangerous move, leaving your homeworld with out a 3-pip-size piece to defend it.
 
 20) zoltar: Trade Y1 R1 Zoltar
 
 21) maka: Trade G1 R1 Maka
-maka: I know :)
+	maka: I know :) 
 
 22) zoltar: Build B1 Greenbelt
 
@@ -54,20 +54,20 @@ maka: I know :)
 24) zoltar: Discover Y2 Greenbelt G1 Runforyourlife
 
 25) maka: Move Y3 Greenbelt Runforyourlife
-zoltar: Moving your Y3 which should be defending your homeworld to chase little ships is madness!
-maka: The thing is, I keep thinking up plans that then I realize I cannot actually play, but I guess I've played too few games... :)
+	zoltar: Moving your Y3 which should be defending your homeworld to chase little ships is madness!
+	maka: The thing is, I keep thinking up plans that then I realize I cannot actually play, but I guess I've played too few games... :) 
 
 26) zoltar: Move Y2 Runforyourlife Maka
 
 27) maka: Build R1 Maka
-zoltar: Yes, it takes several games to get the feel of what's going on, but you're never going to get off the ground if you move your defending 3-pip ship out of your homeworld! Now look what trouble I can make for you...
-zoltar: It's as if you marched your King out in the middle of the board the first three or four moves in chess.
-maka: i see :)
+	zoltar: Yes, it takes several games to get the feel of what's going on, but you're never going to get off the ground if you move your defending 3-pip ship out of your homeworld! Now look what trouble I can make for you...
+	zoltar: It's as if you marched your King out in the middle of the board the first three or four moves in chess.
+	maka: i see :)
 
 28) zoltar: Build R2 Zoltar
 
 29) maka: Move Y3 Runforyourlife Maka
-maka: allright :)
+	maka: allright :)
 
 
 30) zoltar: Sacrifice R2 Zoltar
@@ -75,7 +75,7 @@ Attack R1 Maka
 Attack R1 Maka
 
 31) maka: Trade Y3 R3 Maka
-zoltar: And now that I have three ships in your homeworld and you have no red ships, even your Y3 can't save you now...
+	zoltar: And now that I have three ships in your homeworld and you have no red ships, even your Y3 can't save you now...
 
 32) zoltar: Sacrifice G3 Zoltar
 Build R2 Maka
@@ -83,6 +83,6 @@ Build Y1 Maka
 Build Y2 Maka
 Catastrophe Maka Y
 Catastrophe Maka R
-zoltar: And I get to finish off with a bang -- a sacrifice with a double catastrophe for checkmate! Hopefully, you'll never let your defending big ship wander out of your castle again after this...
-
-zoltar: GG. Play again?
+	zoltar: And I get to finish off with a bang -- a sacrifice with a double catastrophe for checkmate! Hopefully, you'll never let your defending big ship wander out of your castle again after this...
+ 
+GG.  Play again?

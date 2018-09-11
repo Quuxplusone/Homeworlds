@@ -102,10 +102,10 @@ Move R1 Buzz Twoshort
 Catastrophe Twoshort Red
 
 40) TwoShort: Trade G3 R3 Bonanza
-face: my gut tells me that move puts me in too weak a position, but let's see.
+	face: my gut tells me that move puts me in too weak a position, but let's see.
 
 41) face: Trade Y2 B2 Face
-TwoShort: I agree with your gut :) But I don't think you had a better option.
+	TwoShort: I agree with your gut :)  But I don't think you had a better option.
 
 42) TwoShort: Sacrifice Y3 Twoshort
 Move R3 Bonanza Plaster
@@ -113,9 +113,19 @@ Move R3 Plaster Face
 Move G3 Plaster Face
 
 43) face: Build G2 Face
-face: very nice.
+	face: very nice.
 
 44) TwoShort: Sacrifice R3 Face
 Attack Y3 Face
 Attack G2 Face
 Attack B2 Face
+
+45) face: Build G3 Face
+
+46) TwoShort: Pass
+Catastrophe Face Green
+	TwoShort: Thanks for the game!
+	face: going out on my terms!
+	face: ha. was going to cause a green catastrophe in face, but it says "You may not cause your own elmination. You must ensure you control at least one ship in your home system at the end of your turn."
+
+	TwoShort: Don't worry, I'll help you out :)

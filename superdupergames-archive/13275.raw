@@ -6,7 +6,7 @@ Winner: zoltar
 1) ts52: Homeworld B1 Y2 G3
 
 2) zoltar: Homeworld R1 B3 G3
-ts52: Have a good game.
+	ts52: Have a good game.
 
 3) ts52: Build G1 Ts52
 
@@ -44,7 +44,7 @@ ts52: Have a good game.
 
 20) zoltar: Move R1 Zoltar Greenbelt
 
-21) ts52: Move R2 Kermit Ts52
+21) ts52: M R2 Kermit Ts52
 
 22) zoltar: Build R2 Greenbelt
 
@@ -56,11 +56,11 @@ Build R3 Kermit
 24) zoltar: Trade R2 Y2 Greenbelt
 
 25) ts52: Trade R3 G3 Ts52
-zoltar: Good Job. I think I'm toast.
+	zoltar: Good Job. I think I'm toast.
 
 26) zoltar: Build R2 Greenbelt
 
-27) ts52: Discover R3 Kermit Y1 Slimey
+27) ts52: D R3 Kermit Y1 Slimey
 
 28) zoltar: Discover R2 Greenbelt Y1 Yellowstone
 
@@ -179,7 +179,7 @@ Build R2 Blueridge
 69) ts52: Attack B1 Blueridge
 
 70) zoltar: Move B3 Yellowstone Robin
-zoltar: My ships are bigger than your ships!
+	zoltar: My ships are bigger than your ships!
 
 71) ts52: Sacrifice Y2 Robin
 Discover R3 Bigbird Y2 Littlebird
@@ -205,6 +205,6 @@ Move B3 Yellowstone Ts52
 Attack G1 Ts52
 Attack Y3 Ts52
 
-zoltar: Good game, though it got rather one-sided after I got the advantage and slowly maneuvered to grab most of the pieces. Play again?
-ts52: Wow. I'm really out of it today. I knew it was all but over a while ago, but I totally missed the fact that you'd moved all those ships into my homeworld. Sigh, just out of it toady. Anyway, well played. Thanks for the game.
-ts52: Sure, I'd be glad to play again. 
+	zoltar: Good game, though it got rather one-sided after I got the advantage and slowly maneuvered to grab most of the pieces.  Play again?
+	ts52: Wow. I'm really out of it today. I knew it was all but over a while ago, but I totally missed the fact that you'd moved all those ships into my homeworld. Sigh, just out of it toady. Anyway, well played. Thanks for the game.
+	ts52: Sure, I'd be glad to play again.

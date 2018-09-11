@@ -57,10 +57,10 @@ Build Y3 Two
 26) MikeYarrum: Build R1 Tomo
 
 27) Lexicon: Trade G2 R2 Two
-Lexicon: To me, the global reserve stash appears to be empty. This seems pretty weird.
-MikeYarrum: Me too.
-MikeYarrum: Aaron: Had a major permissions snafu the other day. I missed this directory. Fixed.
-Lexicon: Ack, those can be tricky. Thanks!
+	Lexicon: To me, the global reserve stash appears to be empty.  This seems pretty weird.
+	MikeYarrum: Me too.
+	Aaron: Had a major permissions snafu the other day.  I missed this directory.  Fixed.
+	Lexicon: Ack,  those can be tricky.  Thanks!
 
 28) MikeYarrum: Discover G2 Tomo R3 Yukari
 
@@ -147,8 +147,8 @@ Trade Y2 G2 Lexicon
 60) MikeYarrum: Build B1 Osaka
 
 61) Lexicon: Build G1 Four
-Lexicon: tenacious game we've got here.
-MikeYarrum: Indeed!
+	Lexicon: tenacious game we've got here.
+	MikeYarrum: Indeed!
 
 62) MikeYarrum: Trade B3 G3 Kagura
 
@@ -185,24 +185,23 @@ Build Y2 Six
 Catastrophe Lexicon Blue
 
 74) MikeYarrum: Trade B3 Y3 Osaka
-Lexicon: blow up time?
-MikeYarrum: I suppose so...
+	Lexicon: blow up time?
+	MikeYarrum: I suppose so...
 
 75) Lexicon: Sacrifice G3 Lexicon
 Build G3 Four
 Build R1 Six
 Build R2 Six
-Lexicon: You forgot a step.
+	Lexicon: You forgot a step.
 
 76) MikeYarrum: Move G3 Kagura Lexicon
-MikeYarrum: Not really. I figured you'd be forced to do it yourself, or I would have attacked your Homeworld ships.
+	MikeYarrum: Not really. I figured you'd be forced to do it yourself, or I would have attacked your Homeworld ships.
 
-SYSTEM: Lexicon resigns.
-#77) Lexicon: Sacrifice Y2 Six
-#Move G1 Six Lexicon
-#Move G2 Six Lexicon
-#Catastrophe Lexicon Green
+77) Lexicon: Sacrifice Y2 Six
+Move G1 Six Lexicon
+Move G2 Six Lexicon
+Catastrophe Lexicon Green
 
-Lexicon: OK, that was satisfying.
-Lexicon: I messed up in the beginning because I meant to attack you from two, but it was the wrong size. And then you kept too much pressure on for me to recover.
-MikeYarrum: Thanks for the game! 
+	Lexicon: OK, that was satisfying.
+	Lexicon: I messed up in the beginning because I meant to attack you from two, but it was the wrong size.  And then you kept too much pressure on for me to recover.
+	MikeYarrum: Thanks for the game!

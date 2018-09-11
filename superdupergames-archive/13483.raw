@@ -62,7 +62,7 @@ Trade G2 R2 Twoshort
 
 26) TwoShort: Discover G1 Twoshort Y3 Yolonda
 
-27) zoltar: Sacrifice G3 Zoltar
+27) zoltar: S G3 Zoltar
 Build Y2 Greendale
 Build Y3 Greenbelt
 Build Y3 Zoltar
@@ -84,6 +84,6 @@ Build Y3 Twoshort
 Build G2 Twoshort
 Build G3 Bonanza
 Build B1 Grogar
-zoltar: yep -- I'm doomed!
+	zoltar: yep -- I'm doomed!
 
-zoltar: Yep, with the factory, the rest of the ships are yours. Good game, as always! 
+	zoltar: Yep, with the factory, the rest of the ships are yours.  Good game, as always!

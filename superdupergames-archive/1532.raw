@@ -1,0 +1,235 @@
+Homeworlds Online (SDG# 1532)
+Variants: "Sinister"
+Started: 2005.11.21, Ended: 2006.1.18
+Participants: Aaron (S), Lexicon (W), Batman (N), porter235 (E)
+Winner: Lexicon
+
+1) Batman: Homeworld G3 B1 Y3
+
+2) porter235: Homeworld B3 G2 R3
+
+3) Aaron: Homeworld Y1 B2 G3
+	Aaron: Hail, all, and good luck!
+
+4) Lexicon: Homeworld B1 G2 Y3
+
+5) Batman: Build Y1 Batman
+
+6) porter235: Build R1 Porter235
+
+7) Aaron: Build G1 Aaron
+
+8) Lexicon: Build Y1 Lexicon
+
+9) Batman: Trade Y1 R1 Batman
+
+10) porter235: Trade R1 Y1 Porter235
+
+11) Aaron: Trade G1 R1 Aaron
+
+12) Lexicon: Trade Y1 R1 Lexicon
+
+13) Batman: Build Y1 Batman
+
+14) porter235: Build Y1 Porter235
+
+15) Aaron: Build G1 Aaron
+
+16) Lexicon: Build R1 Lexicon
+
+17) Batman: Trade Y1 R1 Batman
+
+18) porter235: Build R2 Porter235
+
+19) Aaron: Trade G1 Y1 Aaron
+
+20) Lexicon: Trade R1 G1 Lexicon
+
+21) Batman: Discover R1 Batman Y2 Robin
+
+22) Lexicon: Pass
+	Lexicon: Aaron: If someone is late to a game of Sinister and another player forces his resignation, does his right hand player win or does the right hand player's target shift?  Not that we should hit porter235, I'm just curious about implimentation.
+	Lexicon: Also what happens in Sinister if a player resigns?
+	Jesse: I believe the effect of forcing resignation is equivalent to the player resigning voluntarily, and that this does not give a win for the player to the right.  It's similar to a player being eliminated by anyone other than the player to the right; the right hand player's target shifts.
+	Lexicon: Ah, that makes sense.
+	Aaron: That is correct.
+	Lexicon: Well, porter hasn't played in 2 weeks nor logged in in 9 days.  Anyone know what happened to him?
+	Aaron: No idea.  I think we should go ahead and force his resignation.  It sucks, but it has been 2 weeks.
+	Lexicon: I'm for it.
+	Lexicon: It's kind of rediculous.  3 of my 4 homeworlds games are in timesup.  And the other one I accidentally resigned, it seems.  Hard to get homeworlds love around here.
+	Lexicon: Actually, this had me thinking that good flags on active challenges might be newbies-only and no-newbies (require a certain rating or a certain number of games at game creation time.)
+
+23) Batman: Pass
+	SYSTEM: porter235 resigns.
+	Lexicon: I resigned him.  But now it thinks it's my turn.  I'll pass and then Batman should pass and then it'll be in the right state.
+
+24) Aaron: Build G1 Aaron
+
+25) Lexicon: Build Y1 Lexicon
+	Aaron: I'm really sorry.  The forced resignation code for this particular game has given my tons of trouble.  I'm going to revisit it soon.  Is everything OK now?
+	Aaron: I like the idea of a "minimum number of games played" flag.  I will tackle that.
+
+26) Batman: Build Y2 Batman
+	Lexicon: Aaron: When you update the game code are you updating it for the current games or just for all newly created games?  
+
+27) Aaron: Discover Y1 Aaron G3 Lime
+	Aaron: It depends on the change.  Most changes affect all existing games as well.  I can only think of one or two changes that only applied to newly created games.
+
+28) Lexicon: Discover G1 Lexicon Y3 Cedar
+
+29) Batman: Move Y2 Batman Robin
+
+30) Aaron: Build Y2 Lime
+
+31) Lexicon: Move Y1 Lexicon Cedar
+
+32) Batman: Build Y2 Batman
+
+33) Aaron: Build Y2 Lime
+
+34) Lexicon: Build Y3 Lexicon
+
+35) Batman: Build Y3 Batman
+
+36) Aaron: Sacrifice Y2 Lime
+Move Y2 Lime Lexicon
+Move Y1 Lime Lexicon
+Catastrophe Lexicon Y
+
+37) Lexicon: Move Y1 Cedar Lexicon
+
+38) Batman: Trade Y3 R3 Batman
+	Aaron: Thanks for the game, all!
+
+39) Aaron: Trade G1 Y1 Aaron
+	Aaron: rofl!  sorry =D  I thought I was in a different game.
+	Lexicon: Almost the apocalypse, but not quite.  I saw that coming right as I pressed the submit button.  Oh well.  Perhaps Batman will defend me before you can finish me off. ;)
+
+40) Lexicon: Build Y2 Lexicon
+
+41) Batman: Move R3 Batman Robin
+
+42) Aaron: Build R1 Aaron
+
+43) Lexicon: Build G1 Cedar
+
+44) Batman: Move R3 Robin Cedar
+
+45) Aaron: Discover R1 Aaron G3 Lime
+
+46) Lexicon: Build R2 Lexicon
+
+47) Batman: Attack G1W Cedar
+
+48) Aaron: Move Y1 Aaron Lime
+
+49) Lexicon: Discover G1 Cedar Y2 Mold
+
+50) Batman: Build R2 Cedar
+
+51) Aaron: Build R2 Lime
+
+52) Lexicon: Discover Y1 Lexicon G3 Slime
+
+53) Batman: Move R3 Cedar Aaron
+	Aaron: Yellow mold?  ick...
+
+54) Aaron: Attack R3N Aaron
+
+55) Lexicon: Build Y3 Lexicon
+
+56) Batman: Build G1 Cedar
+
+57) Aaron: Move R3 Aaron Cedar
+
+58) Lexicon: Build Y3 Slime
+	Batman: I guess I understood that rule wrong.
+
+59) Batman: Build R2 Cedar
+
+60) Aaron: Move R3 Cedar Robin
+
+61) Lexicon: Trade R1 B1 Lexicon
+
+62) Batman: Move Y2 Robin Cedar
+
+63) Aaron: Attack R1N Robin
+
+64) Lexicon: Discover Y1 Slime B2 Octopus
+
+65) Batman: Build Y3 Cedar
+
+66) Aaron: Move R3 Robin Slime
+
+67) Lexicon: Sacrifice R2 Lexicon
+Attack R3S Slime
+Pass
+
+68) Batman: Move Y3 Cedar Mold
+
+69) Aaron: Build R1 Aaron
+	Lexicon: Gah, you're attacking me just so I don't annihilate Cedar aren't you Aaron.
+	Lexicon: On another note, I think it'd be better if the moves referenced the player's names instead of their locations.  I can never follow it unless I'm south.  Aaron (S) would be better I think.
+
+70) Lexicon: Build R2 Slime
+
+71) Batman: Move R2 Cedar Mold
+	Aaron: That wasn't too smart of me, now was it?
+
+72) Aaron: Trade R1 G1 Aaron
+
+73) Lexicon: Move G1 Mold Slime
+
+74) Batman: Sacrifice Y2 Batman
+Move G1 Cedar Aaron
+Move G1 Cedar Aaron
+Catastrophe Aaron G
+
+75) Aaron: Trade R1 G1 Aaron
+
+76) Lexicon: Move R3 Slime Aaron
+
+77) Batman: Move R2 Cedar Lexicon
+
+78) Aaron: Build Y2 Lime
+
+79) Lexicon: Sacrifice R2 Slime
+Attack G1S Aaron
+Attack R2N Lexicon
+
+80) Batman: Build R1 Batman
+	Aaron: Thanks for the game, all!
+
+81) Lexicon: Trade R3 G3 Aaron
+	Lexicon: Aaron: I was considering keeping you around, but that probably wouldn't be very amusing to be toyed with like that, so I'll let you perish with honor. ;)
+
+82) Batman: Move R1 Batman Octopus
+	Aaron: Cheers =D
+
+83) Lexicon: Move Y1 Octopus Cedar
+
+84) Batman: Move Y3 Batman Octopus
+
+85) Lexicon: Move G3 Aaron Lime
+
+86) Batman: Move R2 Mold Cedar
+
+87) Lexicon: Move Y2 Lexicon Cedar
+Catastrophe Cedar Yellow
+
+88) Batman: Build R1 Batman
+
+89) Lexicon: Sacrifice Y3 Slime
+Move G3 Lime Octopus
+Move G3 Octopus Batman
+Pass
+	Lexicon: Really?
+
+90) Batman: Trade R1 Y1 Batman
+	Lexicon: That's what I say to that! :)
+
+91) Lexicon: Sacrifice R2 Lexicon
+Attack R1N Batman
+Attack Y1N Batman
+
+	Lexicon: Good game! :)

@@ -8,13 +8,13 @@ Winner: TwoShort
 2) eriinfo: Homeworld B1 Y3 G3
 
 3) TwoShort: Build G1 Twoshort
-TwoShort: howdy...
+	TwoShort: howdy...
 
 
 4) eriinfo: Build G1 Eriinfo
 
 5) TwoShort: Trade G1 Y1 Twoshort
-eriinfo: hello, good luck.
+	eriinfo: hello, good luck.
 
 6) eriinfo: Trade G1 B1 Eriinfo
 
@@ -140,4 +140,4 @@ Move Y1 Cire Eriinfo
 Move Y2 Twoshort Eriinfo
 Move Y1 Twoshort Eriinfo
 Catastrophe Eriinfo Yellow
-TwoShort: Your resistance to being finished off is quite impressive, but now I think I've got you. :)
+	TwoShort: Your resistance to being finished off is quite impressive, but now I think I've got you. :)

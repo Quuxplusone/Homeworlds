@@ -22,17 +22,17 @@ Winner: andylooney
 9) andylooney: Build Y2 Andylooney
 
 10) a_magical_me: Move R1 A_magical_me Grunwald
-a_magical_me: a_magical_me sends greetings to andylooney!
-
-a_magical_me: We are wondering if you'd like to be part of a very special offer. Recently our scientists have developed a brand new form of technology! Our shiny new RED SHIPS are the perfect addition to any military force! Scans of your homeworld indicate that you have not yet discovered this amazing technology. If you are interested, contact us at Intergalactic Telephone Number 555-666-1962'
-
-a_magical_me: Sincerely,
-a_magical_me: The Official Sales Force of a_magical_me
+	a_magical_me: a_magical_me sends greetings to andylooney!
+ 
+We are wondering if you'd like to be part of a very special offer. Recently our scientists have developed a brand new form of technology! Our shiny new RED SHIPS are the perfect addition to any military force! Scans of your homeworld indicate that you have not yet discovered this amazing technology. If you are interested, contact us at Intergalactic Telephone Number 555-666-1962'
+ 
+Sincerely,
+The Official Sales Force of a_magical_me
 
 11) andylooney: Build Y2 Grunwald
 
 12) a_magical_me: Attack Y1 Grunwald
-andylooney: No thanks, we have our own weapon systems under development. We expect to them to be online soon enough. In the meantime, we've been busy with ship-building.
+	andylooney: No thanks, we have our own weapon systems under development. We expect to them to be online soon enough. In the meantime, we've been busy with ship-building.
 
 13) andylooney: Trade Y2 R2 Andylooney
 
@@ -45,28 +45,28 @@ andylooney: No thanks, we have our own weapon systems under development. We expe
 17) andylooney: Build R1 Andylooney
 
 18) a_magical_me: Build R2 A_magical_me
-a_magical_me: It has come to our attention that you have been building red ships on your homeworld. Currently, red technology is protected under the Intergalactic Patent Law (patent #4,936,585). Unless you cease and desist, we will be forced to take action as outlined by Intergalactic Central Enforcement article 42 subsection 10000.
+	a_magical_me: It has come to our attention that you have been building red ships on your homeworld. Currently, red technology is protected under the Intergalactic Patent Law (patent #4,936,585). Unless you cease and desist, we will be forced to take action as outlined by Intergalactic Central Enforcement article 42 subsection 10000.
 
 19) andylooney: Sacrifice Y2 Grunwald
 Move R1 Andylooney Grunwald
 Move R1 Grunwald A_magical_me
 Catastrophe A_magical_me Red
-andylooney: How's this for an action?
+	andylooney: How's this for an action?
 
 20) a_magical_me: Build Y1 A_magical_me
-a_magical_me: nice
+	a_magical_me: nice
 
 21) andylooney: Move R2 Andylooney Grunwald
-a_magical_me: I'm not sure if I can recover from that.
+	a_magical_me: I'm not sure if I can recover from that.
 
 22) a_magical_me: Build Y2 A_magical_me
 
 23) andylooney: Attack Y1S Grunwald
-a_magical_me: Of course, you realize, this means war.
-andylooney: well, if it's a fight you want...
+	a_magical_me: Of course, you realize, this means war.
+	andylooney: well, if it's a fight you want...
 
 24) a_magical_me: Trade Y2 R2 A_magical_me
-a_magical_me: Uh-oh
+	a_magical_me: Uh-oh
 
 25) andylooney: Build Y2 Grunwald
 
@@ -92,7 +92,7 @@ Catastrophe Grunwald Yellow
 35) andylooney: Build G2 Howell
 
 36) a_magical_me: Discover R1 Sanctuary G3 Foothold
-a_magical_me: I'm toast.
+	a_magical_me: I'm toast.
 
 37) andylooney: Discover G2 Howell Y2 Plugh
 
@@ -109,5 +109,5 @@ a_magical_me: I'm toast.
 43) andylooney: Sacrifice R2 Grunwald
 Attack B2S A_magical_me
 Attack Y1S A_magical_me
-a_magical_me: X_X Checkmate. At least I'm better at Martian Chess than I am at Homeworlds.
-andylooney: Indeed. Anyway, thanks for the game!
+	a_magical_me: X_X Checkmate. At least I'm better at Martian Chess than I am at Homeworlds.
+	andylooney: Indeed. Anyway, thanks for the game!

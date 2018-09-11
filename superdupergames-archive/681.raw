@@ -6,14 +6,14 @@ Winner: TwoShort
 1) TwoShort: Homeworld B3 Y1 G3
 
 2) Tuxhedoh: Homeworld R1 Y3 G3
-TwoShort: Hello
+	TwoShort: Hello
 
 3) TwoShort: Build G1 Twoshort
-Tuxhedoh: Stink
-Tuxhedoh: I messed up. oh well. we can play it out.
+	Tuxhedoh: Stink
+I messed up. oh well. we can play it out.
 
 4) Tuxhedoh: Build G1 Tuxhedoh
-TwoShort: Having no starting blue will certainly be a challenge. If you'd rather quit and start over, that's fine too.
+	TwoShort: Having no starting blue will certainly be a challenge.  If you'd rather quit and start over, that's fine too.
 
 5) TwoShort: Build G1 Twoshort
 
@@ -53,7 +53,7 @@ Catastrophe Bob Blue
 22) Tuxhedoh: Build G1 Tuxhedoh
 
 23) TwoShort: Build G2 Twoshort
-TwoShort: create g2 twoshort
+	TwoShort: create g2 twoshort
 
 
 24) Tuxhedoh: Build G2 Tuxhedoh

@@ -7,12 +7,12 @@ Winner: jeep
 1) jeep: Homeworld R1 B2 G3
 
 2) fnord: Homeworld Y3 B1 G3
-jeep: Have a good game!
+	jeep: Have a good game!
 
 3) jeep: Build G1 Jeep
 
 4) fnord: Build G1 Fnord
-fnord: Thanks, hope you do too!
+	fnord: Thanks, hope you do too!
 
 5) jeep: Trade G1 Y1 Jeep
 
@@ -48,4 +48,4 @@ Move G2 Temp Discordia
 Move G2 Discordia Fnord
 Catastrophe Fnord Green
 
-jeep: Thanks for the game. 
+	jeep: Thanks for the game.

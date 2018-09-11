@@ -1,0 +1,311 @@
+Homeworlds Online (SDG# 1184)
+Variants: "Sinister"
+Started: 2005.10.30, Ended: 2006.9.4
+Participants: andylooney (S), TwoShort (W), JunkMan (N), MightyJack (E)
+Winner: andylooney
+
+1) JunkMan: Homeworld G1 B2 Y3
+
+2) MightyJack: Homeworld G3 Y2 B3
+
+3) andylooney: Homeworld B1 G2 Y3
+
+4) TwoShort: Homeworld B3 Y2 G3
+
+5) JunkMan: Build Y1 Junkman
+
+6) MightyJack: Build B1 Mightyjack
+
+7) andylooney: Build Y1 Andylooney
+
+8) TwoShort: Build G1 Twoshort
+
+9) JunkMan: Trade Y1 G1 Junkman
+
+10) MightyJack: Trade B1 G1 Mightyjack
+
+11) andylooney: Trade Y1 G1 Andylooney
+
+12) TwoShort: Build G2 Twoshort
+	TwoShort: construct g2 twoshort
+
+13) JunkMan: Build Y1 Junkman
+
+14) MightyJack: Build B1 Mightyjack
+
+15) andylooney: Build G2 Andylooney
+
+16) TwoShort: Trade G2 Y2 Twoshort
+
+17) JunkMan: Trade Y1 R1 Junkman
+
+18) MightyJack: Trade B1 R1 Mightyjack
+
+19) andylooney: Trade G1 R1 Andylooney
+
+20) TwoShort: Trade Y2 R2 Twoshort
+
+21) JunkMan: Discover G1 Junkman Y3 Andromeda
+
+22) MightyJack: Discover G1 Mightyjack Y1 Wolf359
+
+23) andylooney: Discover G2 Andylooney Y3 Clampett
+
+24) TwoShort: Discover G1 Twoshort Y1 Yak
+
+25) JunkMan: Build R1 Junkman
+
+26) MightyJack: Build B1 Mightyjack
+
+27) andylooney: Build Y1 Andylooney
+
+28) TwoShort: Build G1 Twoshort
+
+29) JunkMan: Build G2 Andromeda
+
+30) MightyJack: Build G2 Wolf359
+
+31) andylooney: Discover Y1 Andylooney G3 Garden
+
+32) TwoShort: Sacrifice G3 Twoshort
+Build G2 Twoshort
+Build G3 Twoshort
+Build G3 Yak
+
+33) JunkMan: Sacrifice G1 Andromeda
+Build Y1 Junkman
+
+34) MightyJack: Sacrifice B1 Mightyjack
+Trade G2 R2 Wolf359
+
+35) andylooney: Build G1 Clampett
+
+36) TwoShort: Discover G2 Twoshort B1 Bluestar
+
+37) JunkMan: Move R1 Junkman Andromeda
+
+38) MightyJack: Build G2 Wolf359
+
+39) andylooney: Trade Y3 G3 Andylooney
+	MightyJack: Does anyone here have a problem with me taking back my last move and making a different one before Andy takes his next turn?
+	andylooney: it's ok with me...
+
+40) TwoShort: Move G3 Yak Clampett
+	MightyJack: Thanks Andy, thanks Aaron!
+
+41) JunkMan: Discover G2 Andromeda Y1 Helloworld
+
+42) MightyJack: Move G1 Wolf359 Clampett
+Catastrophe Clampett Green
+
+43) andylooney: Build Y2 Garden
+
+44) TwoShort: Build G1 Bluestar
+
+45) JunkMan: Trade Y3 G3 Junkman
+
+46) MightyJack: Build B1 Mightyjack
+
+47) andylooney: Build G1 Andylooney
+
+48) TwoShort: Trade G2 Y2 Bluestar
+	MightyJack: Sorry for the delay, guys... was in the hospital for a week with pancreatitis.  Better now.
+	andylooney: Again, sorry you were ill, and we're glad your ok!
+
+
+49) JunkMan: Build G2 Helloworld
+
+50) MightyJack: Build G2 Wolf359
+
+51) andylooney: Sacrifice Y1 Garden
+Discover G1 Andylooney Y3 Lovey
+
+52) TwoShort: Discover G1 Yak Y3 Yolonda
+
+53) JunkMan: Build R1 Junkman
+
+54) MightyJack: Build R2 Wolf359
+
+55) andylooney: Build R2 Andylooney
+
+56) TwoShort: Move G1 Yolonda Junkman
+
+57) JunkMan: Trade R1 B1 Junkman
+
+58) MightyJack: Move G2 Wolf359 Lovey
+
+59) andylooney: Discover G1 Lovey Y1 Different
+
+60) TwoShort: Sacrifice G1 Bluestar
+Build G1 Junkman
+Catastrophe Junkman Green
+	MightyJack: Okay, this is the second time that I've made a stupid move that I want to retract.  Since this is the second time, I'll understand completely if y'all won't allow Aaron to do an undo on my behalf, but I do see a far better move for me if it's okay with you to take back my mistake.
+	andylooney: It's fine with me. In fact, I think there ought to be an Undo button so you can always take back a move if you see immediately that it was a mistake (which you sometimes don't see until after the move is implemented.) I've actually already lost one game here because I didn't see that I was vulnerable until just after clicking Submit Orders.
+	Aaron: Undo complete.  I will get the Undo functionality implemented asap.  Have fun!
+	MightyJack: Thanks Andy, thanks Aaron... looking forward to that Undo button!
+
+61) JunkMan: Discover B1 Junkman Y1 Alpha
+
+62) MightyJack: Move R2 Wolf359 Junkman
+
+63) andylooney: Trade G3 Y3 Andylooney
+
+64) TwoShort: Build R1 Twoshort
+
+65) JunkMan: Trade R1 G1 Junkman
+
+66) MightyJack: Attack Y1N Junkman
+
+67) andylooney: Trade R1 B1 Andylooney
+
+68) TwoShort: Move G1 Twoshort Bluestar
+	TwoShort: Hey all- Just a warning that I'll be travelling for the next couple weeks, and may or may not manage to make moves with any promptness.
+
+69) JunkMan: Move G2 Helloworld Junkman
+	andylooney: no problem... Happy Holidays to all!
+
+70) MightyJack: Attack G2N Junkman
+
+71) andylooney: Build B2 Andylooney
+
+72) TwoShort: Sacrifice Y2 Bluestar
+Move G3 Twoshort Wolf359
+Move G3 Wolf359 Junkman
+
+73) JunkMan: Move B1 Alpha Mightyjack
+
+74) MightyJack: Trade Y1 G1 Junkman
+Catastrophe Junkman Green
+
+75) andylooney: Discover B1 Andylooney Y3 Thurston
+	JunkMan: Well, I'm dead.
+
+76) TwoShort: Build G1 Bluestar
+
+77) MightyJack: Trade B1 R1 Mightyjack
+	MightyJack: Yup.  'Fraid so.
+	TwoShort: I'm confused.  Shouldn't I have just won?  Alternatively, assuming I misunderstood the end condition shouldn't it be Andy's turn?
+	andylooney: TwoShort was not the player who eliminated the player to TwoShort's left. Thus, the game continues. TwoShort's new enemy MightyJack. But it does seem like it should be my turn next...
+	MightyJack: I'm guessing that eliminating one of the players screwed up the computer's idea of whose turn came next...
+	Aaron: *sighs* no matter what I do it screws up.  OK.  I am going to sit down and tackle this problem right now until it's fixed.  This is most annoying and I apologize.  I am resetting the current player now and tearing apart the code.
+
+78) andylooney: Move R2 Andylooney Andromeda
+
+79) TwoShort: Trade G1 Y1 Bluestar
+
+80) MightyJack: Move G2 Lovey Helloworld
+	MightyJack: Sorry for the delay folks... not sure why, but I've been unable to connect to SuperDuperGames from just before New Year's until just now.  Looks like Aaron fixed that problem.
+
+81) andylooney: Attack R1N Andromeda
+
+82) TwoShort: Move G1 Bluestar Twoshort
+
+83) MightyJack: Sacrifice R1 Mightyjack
+Attack G2N Helloworld
+
+84) andylooney: Move R1 Andromeda Different
+
+85) TwoShort: Build G1 Twoshort
+
+86) MightyJack: Move R2 Wolf359 Thurston
+
+87) andylooney: Build R1 Different
+
+88) TwoShort: Move G1 Twoshort Bluestar
+
+89) MightyJack: Move R2 Thurston Wolf359
+
+90) andylooney: Move R2 Andromeda Bluestar
+
+91) TwoShort: Move G1 Bluestar Thurston
+
+92) MightyJack: Move G2 Helloworld Thurston
+
+93) andylooney: Attack Y1W Bluestar
+
+94) TwoShort: Build G1 Twoshort
+
+95) MightyJack: Move G2 Thurston Different
+
+96) andylooney: Sacrifice Y2 Garden
+Move R1 Different Twoshort
+Move R1 Different Twoshort
+Catastrophe Twoshort Red
+
+97) TwoShort: Trade G1 R1 Twoshort
+
+98) MightyJack: Move R2 Wolf359 Twoshort
+
+99) andylooney: Discover B1 Thurston G1 Gumby
+
+100) TwoShort: Build G1 Twoshort
+
+101) MightyJack: Sacrifice R2 Junkman
+Attack G1S Different
+Attack R1W Twoshort
+
+102) andylooney: Build B1 Gumby
+
+103) TwoShort: Build G2 Twoshort
+
+104) MightyJack: Build G3 Wolf359
+
+105) andylooney: Move R2 Bluestar Thurston
+
+106) TwoShort: Trade G1 R1 Twoshort
+
+107) MightyJack: Sacrifice R1 Twoshort
+Attack G2W Twoshort
+
+108) andylooney: Attack G1W Thurston
+
+109) TwoShort: Build G1 Twoshort
+
+110) MightyJack: Build G3 Helloworld
+
+111) andylooney: Build G3 Thurston
+
+112) TwoShort: Trade G1 Y1 Twoshort
+
+113) MightyJack: Move R2 Twoshort Gumby
+
+114) andylooney: Build Y2 Andylooney
+
+115) TwoShort: Build Y2 Twoshort
+
+116) MightyJack: Trade B3 R3 Mightyjack
+
+117) andylooney: Move Y1 Bluestar Twoshort
+Catastrophe Twoshort Yellow
+
+118) TwoShort: Build R1 Twoshort
+
+119) MightyJack: Attack B1S Gumby
+	andylooney: Greetings! I'm very sorry to have been so slow in taking this turn! It's been a tough choice and I've been too busy to focus...
+
+120) andylooney: Move B2 Andylooney Thurston
+
+121) TwoShort: Trade R1 Y1 Twoshort
+
+122) MightyJack: Attack B1S Gumby
+
+123) andylooney: Build B1 Thurston
+
+124) TwoShort: Discover R1 Twoshort G1 Bigcomeback
+
+125) MightyJack: Sacrifice R2 Gumby
+Attack Y1W Twoshort
+Attack G1W Twoshort
+
+126) andylooney: Discover Y2 Andylooney G3 Jolly
+
+127) MightyJack: Attack B1N Mightyjack
+
+128) andylooney: Sacrifice G3 Thurston
+Build G3 Thurston
+Build Y1 Jolly
+Build Y2 Andylooney
+
+129) andylooney: Sacrifice Y2 Andylooney
+Move B1 Thurston Helloworld
+Move B1 Helloworld Twoshort

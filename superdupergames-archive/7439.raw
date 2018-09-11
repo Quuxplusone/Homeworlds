@@ -90,7 +90,7 @@ Catastrophe Canary G
 Build R1 Crow
 Build R3 Mneme
 Build R3 Parrot
-mneme: nice
+	mneme: nice
 
 42) zoltar: Build R3 Greenhills
 
@@ -156,6 +156,6 @@ Move R2 Parrot Mneme
 Catastrophe Mneme R
 
 67) mneme: Build Y2 Canary
-mneme: I'm clearly doomed, of course. But playing this out isn't necessarily a bad learning experience
+	mneme: I'm clearly doomed, of course.  But playing this out isn't necessarily a bad learning experience
 
 68) zoltar: Move R3 Canary Mneme

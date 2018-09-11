@@ -59,15 +59,15 @@ Winner: clockwise
 27) Uglyfoot: Discover G1 Uglyfoot B2 Exchange
 
 28) clockwise: Build Y2 Clockwise
-clockwise: Are you having the same problem as me, where the global reserve stash isn't showing up?
+	clockwise: Are you having the same problem as me, where the global reserve stash isn't showing up?
 
 29) Uglyfoot: Build G1 Exchange
-Uglyfoot: Yes, I was.
+	Uglyfoot: Yes, I was.
 
 30) clockwise: Attack B2N Clockwise
 
 31) Uglyfoot: Move Y3 Forward Exchange
-clockwise: Hmm, yes it seems to have fixed itself.
+	clockwise: Hmm, yes it seems to have fixed itself.
 
 32) clockwise: Move B1 Godzilla Assembly
 
@@ -103,10 +103,10 @@ Move G1 Uglyfoot Assembly
 Move G2 Uglyfoot Assembly
 Move G3 Firebase Assembly
 Catastrophe Assembly G
-clockwise: The green strategy was, I believe, the correct one to pursue this game, but you only started pushing it once it was too late.
+	clockwise: The green strategy was, I believe, the correct one to pursue this game, but you only started pushing it once it was too late.
 
 42) clockwise: Build B1 Clockwise
-Uglyfoot: That clears the board...
+	Uglyfoot: That clears the board...
 
 43) Uglyfoot: Build G1 Uglyfoot
 
@@ -128,6 +128,8 @@ Move B2 Clockwise Uglyfoot
 Move B1 Mechagodzilla Uglyfoot
 Move B1 Mechagodzilla Uglyfoot
 Catastrophe Uglyfoot Blue
-Uglyfoot: So I survived a couple extra turns....
-clockwise: Pretty much
-clockwise: Overall I'd say you played much better than our first game back in April. Thanks for the game.
+	Uglyfoot: So I survived a couple extra turns....
+	clockwise: Pretty much
+	clockwise: Overall I'd say you played much better than our first game back in April.  
+ 
+Thanks for the game.

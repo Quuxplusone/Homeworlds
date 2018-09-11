@@ -4,7 +4,7 @@ Participants: rootbeer (S), andylooney (N)
 Winner: andylooney
 
 1) andylooney: Homeworld B1 G2 Y3
-rootbeer: Welcome to SDG! I hope I can provide a worthy opponent, but please let me know if I make any major mistakes, because I'm still learning the strategy of Homeworlds.
+	rootbeer: Welcome to SDG! I hope I can provide a worthy opponent, but please let me know if I make any major mistakes, because I'm still learning the strategy of Homeworlds.
 
 2) rootbeer: Homeworld G3 B2 Y3
 
@@ -25,9 +25,9 @@ rootbeer: Welcome to SDG! I hope I can provide a worthy opponent, but please let
 10) rootbeer: Build B2 Rootbeer
 
 11) andylooney: Build B2 Andylooney
-rootbeer: Have you checked out Praetor yet? It's pretty fun.
+	rootbeer: Have you checked out Praetor yet? It's pretty fun.
 
-rootbeer: Praetorian, I mean
+	rootbeer: Praetorian, I mean
 
 
 12) rootbeer: Trade B2 G2 Rootbeer
@@ -62,24 +62,24 @@ rootbeer: Praetorian, I mean
 
 27) andylooney: Sacrifice G1 Clampett
 Construct Y3 Bigblue
-andylooney: I'm having a problem here. I should be able to do this:
-andylooney: Sacrifice g1 clampett
-andylooney: construct y3 bigblue
-andylooney: This is a maneuver we call "cashing in an investment." But it's not working! I'm getting this message: "There are insufficient Y3 pieces in the stash." This is true at the start of the turn, but the sacrifice action puts the y3 into the stash, thus allowing my construct action. I think the computer needs to have this fine point explained to it. I need help before I can take my turn!
-rootbeer: I think you're right. Aaron?
+	andylooney: I'm having a problem here. I should be able to do this:
+Sacrifice g1 clampett
+construct y3 bigblue
+This is a maneuver we call "cashing in an investment." But it's not working! I'm getting this message: "There are insufficient Y3 pieces in the stash." This is true at the start of the turn, but the sacrifice action puts the y3 into the stash, thus allowing my construct action. I think the computer needs to have this fine point explained to it. I need help before I can take my turn!
+	rootbeer: I think you're right. Aaron?
 
-rootbeer: Aaron: If you "sacrifice G1 clampett" then there is no Y being put into the stash, just the G. I don't see where the yellow piece could come from.
-rootbeer: It's the yellow sun of Clampett, when it's returned to the interstellar flux.
+	Aaron: If you "sacrifice G1 clampett" then there is no Y being put into the stash, just the G.  I don't see where the yellow piece could come from.
+	rootbeer: It's the yellow sun of Clampett, when it's returned to the interstellar flux.
 
-rootbeer: Aaron: Ahh! I see now. You are correct. This is a bug. I *think* it's an easy fix. I'm very distracted at this moment, but I will try to get to it tonight. Sorry!
-rootbeer: Aaron: OK, I think it works now. Give it a shot.
+	Aaron: Ahh!  I see now.  You are correct.  This is a bug.  I *think* it's an easy fix.  I'm very distracted at this moment, but I will try to get to it tonight.  Sorry!
+	Aaron: OK, I think it works now.  Give it a shot.
 
 28) rootbeer: Sacrifice Y2 Rootbeer
 Move Y1 Emerald Bigblue
 Move Y2 Emerald Bigblue
 Catastrophe Bigblue Y
-andylooney: Yay! He fixed it! Thanks Aaron!
-rootbeer: MatrixFrog: I still say it would be fun to visit the hyperspatial flux. Although I suppose by visiting any star in it, you've automatically pulled it out of the flux. It's like wishing to speak in a silent room.
+	andylooney: Yay! He fixed it! Thanks Aaron!
+	MatrixFrog: I still say it would be fun to visit the hyperspatial flux. Although I suppose by visiting any star in it, you've automatically pulled it out of the flux. It's like wishing to speak in a silent room.
 
 29) andylooney: Discover G2 Andylooney Y3 Clampett2
 
@@ -101,7 +101,7 @@ Catastrophe Rootbeer Blue
 36) rootbeer: Move Y3 Rootbeer Andylooney
 
 37) andylooney: Trade Y3 R3 Andylooney
-rootbeer: "I come in peace." Why doesn't anybody believe me?
+	rootbeer: "I come in peace." Why doesn't anybody believe me?
 
 
 38) rootbeer: Move Y3 Andylooney Garden
@@ -118,6 +118,6 @@ Pass
 42) rootbeer: Move Y1 Garden Andylooney
 
 43) andylooney: Attack G2S Rootbeer
-rootbeer: There's no hope for me now.
-rootbeer: Maybe sometime you'll play me at Praetorian or BT&T. Cheers!
-andylooney: Thanks for the game!!!
+	rootbeer: There's no hope for me now.
+	rootbeer: Maybe sometime you'll play me at Praetorian or BT&T. Cheers!
+	andylooney: Thanks for the game!!!

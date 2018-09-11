@@ -6,10 +6,10 @@ Winner: clockwise
 1) clockwise: Homeworld B1 Y2 G3
 
 2) zoltar: Homeworld R1 B3 G3
-clockwise: Hello, I anticipate being soundly beaten, but will try to put up a valiant struggle.
+	clockwise: Hello, I anticipate being soundly beaten, but will try to put up a valiant struggle.  
 
 3) clockwise: Build G1 Clockwise
-zoltar: Good luck, then!
+	zoltar: Good luck, then!
 
 4) zoltar: Build G1 Zoltar
 
@@ -28,7 +28,7 @@ zoltar: Good luck, then!
 11) clockwise: Build B2 Clockwise
 
 12) zoltar: Build Y1 Greenbelt
-clockwise: Hmm, I just saw a bad wrinkle in plan A, enacting plan B, possibly just as foolhardy.
+	clockwise: Hmm, I just saw a bad wrinkle in plan A, enacting plan B, possibly just as foolhardy.
 
 13) clockwise: Discover B2 Clockwise Y3 Umbrella
 
@@ -41,7 +41,7 @@ clockwise: Hmm, I just saw a bad wrinkle in plan A, enacting plan B, possibly ju
 17) clockwise: Trade B2 Y2 Smurftopia
 
 18) zoltar: Trade Y2 B2 Zoltar
-clockwise: I'm not sure if this is a good idea or not, but I seem to have painted myself into a bit of a corner... we'll see how it turns out.
+	clockwise: I'm not sure if this is a good idea or not, but I seem to have painted myself into a bit of a corner... we'll see how it turns out.
 
 19) clockwise: Build B2 Smurftopia
 
@@ -49,17 +49,17 @@ clockwise: I'm not sure if this is a good idea or not, but I seem to have painte
 Build Y2 Blueridge
 Build Y3 Greenbelt
 Build Y3 Zoltar
-clockwise: Sorry for the undo, need to think about this a bit longer
+	clockwise: Sorry for the undo, need to think about this a bit longer
 
 21) clockwise: Discover B2 Smurftopia G2 Earth
 
 22) zoltar: Move B2 Zoltar Greenbelt
-zoltar: No problem.
+	zoltar: No problem.  
 
 23) clockwise: Build B3 Earth
 
 24) zoltar: Trade Y1 R1 Greenbelt
-zoltar: Now I need to think longer!
+	zoltar: Now I need to think longer!
 
 25) clockwise: Sacrifice B2 Umbrella
 Trade B3 Y3 Earth
@@ -68,8 +68,8 @@ Trade B1 R1 Clockwise
 26) zoltar: Trade Y1 G1 Zoltar
 
 27) clockwise: Build R2 Clockwise
-clockwise:
-clockwise: I need to think about this position, but probably won't have time to sit down with it until Wed evening.
+	clockwise: 
+	clockwise: I need to think about this position, but probably won't have time to sit down with it until Wed evening.
 
 28) zoltar: Build R2 Greenbelt
 
@@ -91,5 +91,5 @@ Trade Y3 G3 Zoltar
 Discover Y1 Smurftopia G2 Flight
 Move B1 Smurftopia Flight
 
-zoltar: Yeah, it's hopeless. gg.
-clockwise: Thanks for the game! 
+	zoltar: Yeah, it's hopeless. gg.
+	clockwise: Thanks for the game!

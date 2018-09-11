@@ -62,7 +62,7 @@ Move G2 Jesse Honeybee
 Discover G2 Honeybee Y3 Wonderwhy
 
 24) TwoShort: Trade G1 R1 Twoshort
-TwoShort: Well that looks grim.
+	TwoShort: Well that looks grim.
 
 25) Jesse: Attack G2 Jesse
 
@@ -75,7 +75,7 @@ TwoShort: Well that looks grim.
 29) Jesse: Move R2 Jesse Yonderboy
 
 30) TwoShort: Move Y3 Bluonia Yonderboy
-TwoShort: OK, I've stalled long enough to win my other game and hit 1900. Woo-hoo! The way things are going here, I think I should bask in the glory quickly :)
+	TwoShort: OK, I've stalled long enough to win my other game and hit 1900.  Woo-hoo!  The way things are going here, I think I should bask in the glory quickly :)
 
 31) Jesse: Move R2 Yonderboy Apogee
 
@@ -172,6 +172,6 @@ Move B1 Apogee Twoshort
 Discover G1 Jesse B2 Frisbee
 Catastrophe Twoshort B
 
-Jesse: I almost fell into your tricky trap.
-TwoShort: Shucks :) Not that I really expected to get away with it, but it seemed like it was worth a try. Anyway, now you have me for sure.
-TwoShort: Great game, thanks! 
+	Jesse: I almost fell into your tricky trap.
+	TwoShort: Shucks :)  Not that I really expected to get away with it, but it seemed like it was worth a try.  Anyway, now you have me for sure.  
+   Great game, thanks!

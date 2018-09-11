@@ -6,10 +6,10 @@ Winner: TwoShort
 1) TwoShort: Homeworld R1 B3 G3
 
 2) MrMoto: Homeworld R2 G1 B3
-TwoShort: Howdy
+	TwoShort: Howdy
 
 3) TwoShort: Build G1 Twoshort
-MrMoto: Hello! This is my first game of Homeworlds.
+	MrMoto: Hello! This is my first game of Homeworlds.
 
 4) MrMoto: Build B1 Mrmoto
 
@@ -48,7 +48,7 @@ Build G3 Twoshort
 
 20) MrMoto: Sacrifice Y1 Plasmulon
 Move B1 Mrmoto Plasmulon
-TwoShort: oops, sorry
+	TwoShort: oops, sorry
 
 21) TwoShort: Sacrifice G3 Bluonia
 Build G2 Bluonia
@@ -56,7 +56,7 @@ Build G3 Bluonia
 Build Y1 Bluonia
 
 22) MrMoto: Build Y2 Plasmulon
-MrMoto: No problem.
+	MrMoto: No problem.
 
 23) TwoShort: Discover Y1 Bluonia B3 Blitz
 
@@ -68,25 +68,25 @@ Build Y3 Blitz
 Build Y3 Twoshort
 
 26) MrMoto: Trade Y3 R3 Plasmulon
-TwoShort: So I feel a little guilty - normally for someones first game, I'd be giving them a fair amount of pointers and advice, but that takes more attention than I've had during this game, so I've just been systematically destroying you :)
-TwoShort: Anyway, tip number 1: try starting with a green ship, it's usually best.
-TwoShort: Tip number 2: watch out for catastrophes. I could move my y2 from Bluonia into Plasmulon, and cause a catastrophe that would cost me little and leave you crippled.
-TwoShort: Typically, that's exactly what I'd do, but in this case, I think I see an even faster route to victory...
+	TwoShort: So I feel a little guilty - normally for someones first game, I'd be giving them a fair amount of pointers and advice, but that takes more attention than I've had during this game, so I've just been systematically destroying you :)
+  Anyway, tip number 1: try starting with a green ship, it's usually best.  
+ Tip number 2: watch out for catastrophes.  I could move my y2 from Bluonia into Plasmulon, and cause a catastrophe that would cost me little and leave you crippled.
+  Typically, that's exactly what I'd do, but in this case, I think I see an even faster route to victory...
 
 27) TwoShort: Trade G2 R2 Bluonia
-MrMoto: Don't worry about it -- I see that I have a lot to learn! Your strategy of sacrificing green ships to build up your fleet makes a lot of sense.
-
-MrMoto: As for catastrophes, I was concentrating on just not building four like-coloured ships in one system. Clearly I must start to consider your moves -- I thought there would be more build-up before I would have to do so.
-
-MrMoto: And finally I am honoured to lose against the second-best player in the world! :)
+	MrMoto: Don't worry about it -- I see that I have a lot to learn! Your strategy of sacrificing green ships to build up your fleet makes a lot of sense.
+ 
+As for catastrophes, I was concentrating on just not building four like-coloured ships in one system. Clearly I must start to consider your moves -- I thought there would be more build-up before I would have to do so.
+ 
+And finally I am honoured to lose against the second-best player in the world! :)
 
 28) MrMoto: Trade Y2 G2 Plasmulon
-MrMoto: Oh dear. I thought I would blow up the whole system, but I've just lost a bunch of ships. Hm ...
+	MrMoto: Oh dear. I thought I would blow up the whole system, but I've just lost a bunch of ships. Hm ...
 
 29) TwoShort: Sacrifice Y2 Bluonia
 Move G1 Bluonia Plasmulon
 Move G1 Grognar Plasmulon
 Catastrophe Plasmulon Green
 
-MrMoto: Pla- Plasmulon!
-MrMoto: Thanks for the game. 
+	MrMoto: Pla- Plasmulon!
+	MrMoto: Thanks for the game.

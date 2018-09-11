@@ -7,10 +7,10 @@ Winner: wyons
 1) wyons: Homeworld R3 B2 G3
 
 2) sordros: Homeworld B1 Y2 G3
-wyons: Hi there! Enjoy the game.
+	wyons: Hi there! Enjoy the game.
 
 3) wyons: Build G1 Wyons
-sordros: Hi there, have a good game!
+	sordros: Hi there, have a good game!
 
 4) sordros: Build G1 Sordros
 
@@ -30,7 +30,7 @@ sordros: Hi there, have a good game!
 
 12) sordros: Trade G1 Y1 Sordros
 
-13) wyons: Discover G2 Wyons B1 SaFire
+13) wyons: Discover G2 Wyons B1 Sa-fire
 
 14) sordros: Build G1 Sordros
 
@@ -57,12 +57,12 @@ sordros: Hi there, have a good game!
 25) wyons: Sacrifice G3 Wyons
 Build G1 Wyons
 Build G3 Wyons
-Build G3 SaFire
+Build G3 Sa-fire
 
 26) sordros: Discover G1 Sordros Y3 Amarella
 
 27) wyons: Sacrifice Y1 Wyons
-Move G3 SaFire Flavega
+Move G3 Sa-fire Flavega
 
 28) sordros: Sacrifice G2 Flavega
 Build G2 Amarella
@@ -70,25 +70,25 @@ Build Y1 Sordros
 
 29) wyons: Sacrifice G3 Wyons
 Build Y1 Wyons
-Build G3 SaFire
+Build G3 Sa-fire
 Build Y3 Wyons
 
 30) sordros: Sacrifice G2 Amarella
 Build G2 Sordros
 Build B2 Sordros
 
-31) wyons: Sacrifice G2 SaFire
+31) wyons: Sacrifice G2 Sa-fire
 Build G2 Flavega
 Build B3 Wyons
 
 32) sordros: Move B2 Sordros Amarella
 
 33) wyons: Sacrifice Y3 Wyons
-Move Y1 Wyons SaFire
-Move Y1 SaFire Flavega
+Move Y1 Wyons Sa-fire
+Move Y1 Sa-fire Flavega
 Move Y1 Flavega Sordros
 Catastrophe Sordros Yellow
 
 34) sordros: Trade G2 Y2 Sordros
 
-sordros: Thanks for the game. 
+	sordros: Thanks for the game.

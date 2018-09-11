@@ -7,10 +7,10 @@ Winner: Jesse
 1) Jesse: Homeworld B3 R1 G3
 
 2) zoltar: Homeworld B3 Y2 G3
-Jesse: Hey, Zoltar. Have a good game.
+	Jesse: Hey, Zoltar.  Have a good game.
 
 3) Jesse: Build G1 Jesse
-zoltar: You as well!
+	zoltar: You as well!
 
 4) zoltar: Build G1 Zoltar
 
@@ -35,7 +35,7 @@ zoltar: You as well!
 14) zoltar: Discover Y2 Zoltar G1 Greenpea
 
 15) Jesse: Discover Y1 Jesse B2 Leibniz
-Jesse: Ack. Think "Jesse", type "Goedel". :P
+	Jesse: Ack.  Think "Jesse", type "Goedel".  :P
 
 16) zoltar: Build G2 Zoltar
 
@@ -58,12 +58,12 @@ Catastrophe Greenpea Y
 22) zoltar: Sacrifice G2 Zoltar
 Build R1 Zoltar
 Build R2 Zoltar
-zoltar: I think I'm lost already. This is like playing TwoShort!
+	zoltar: I think I'm lost already. This is like playing TwoShort!
 
 23) Jesse: Move G1 Jesse Leibniz
 
 24) zoltar: Discover R2 Zoltar Y1 Yellowjacket
-Jesse: TwoShort's stomping me, in our current game, too. He's a fearsome opponent. Though I used to be the #1 around here before he came along, I can't say I mind the comparison. :D It's good to have some others rated in the same neighborhood, such as yourself, too.
+	Jesse: TwoShort's stomping me, in our current game, too.  He's a fearsome opponent.  Though I used to be the #1 around here before he came along, I can't say I mind the comparison.  :D  It's good to have some others rated in the same neighborhood, such as yourself, too.
 
 25) Jesse: Trade Y3 R3 Leibniz
 
@@ -120,12 +120,11 @@ Build R3 Zoltar
 Build G2 Jesse
 Build G3 Blueberry
 
-SYSTEM: zoltar resigns.
-#48) zoltar: Sacrifice Y3 Greenpea
-#Move R2 Bluejay Leibniz
-#Move R3 Zoltar Blueberry
-#Move G3 Zoltar Blueberry
+48) zoltar: Sacrifice Y3 Greenpea
+Move R2 Bluejay Leibniz
+Move R3 Zoltar Blueberry
+Move G3 Zoltar Blueberry
 
-zoltar: I can't find anything to do and think my position is lost, but I'll wait and come back to it again.
-zoltar: Yup, I'm toast in this one as well. gg.
-Jesse: Interesting. SDG allows you to commit suicide, which is technically illegal. (Not that it matters.) Good game. 
+	zoltar: I can't find anything to do and think my position is lost, but I'll wait and come back to it again.
+	zoltar: Yup, I'm toast in this one as well.  gg.
+	Jesse: Interesting.  SDG allows you to commit suicide, which is technically illegal.  (Not that it matters.)  Good game.

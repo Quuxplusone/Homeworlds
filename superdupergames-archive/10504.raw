@@ -9,10 +9,10 @@ Winner: TwoShort
 2) TwoShort: Homeworld R1 B3 G3
 
 3) Horowits: Build R1 Horowits
-TwoShort: Greetings
+	TwoShort: Greetings
 
 4) TwoShort: Build G1 Twoshort
-Horowits: ahoy
+	Horowits: ahoy
 
 5) Horowits: Trade R1 G1 Horowits
 
@@ -71,7 +71,7 @@ Build G3 Twoshort
 27) Horowits: Build R1 Horowits
 
 28) TwoShort: Trade G2 R2 Bluestar
-Horowits: Happy Extra-Day-In-Febuary-Every-Four-Years.
+	Horowits: Happy Extra-Day-In-Febuary-Every-Four-Years.
 
 29) Horowits: Trade R1 Y1 Horowits
 

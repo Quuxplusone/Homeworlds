@@ -1,9 +1,9 @@
 Homeworlds Online (SDG# 7437)
-Started: 2007.4.15, Ended: 2007.4.23
+Started: 2007.4.15, Ended: 2007.4.24
 Participants: ts52 (S), zoltar (N)
 Winner: zoltar
 
-1) zoltar: Homeworld Y1 B3 G3
+1) zoltar: H Y1 B3 G3
 
 2) ts52: Homeworld B1 Y2 G3
 
@@ -12,13 +12,13 @@ Winner: zoltar
 4) ts52: Build G1 Ts52
 
 5) zoltar: Trade G1 Y1 Zoltar
-ts52: Have a good game!
+	ts52: Have a good game!
 
 
 6) ts52: Trade G1 Y1 Ts52
 
 7) zoltar: Build Y2 Zoltar
-zoltar: Greetingz Earthling!
+	zoltar: Greetingz Earthling!
 
 8) ts52: Discover Y1 Ts52 G3 Kermit
 
@@ -27,10 +27,10 @@ zoltar: Greetingz Earthling!
 10) ts52: Build G1 Ts52
 
 11) zoltar: Build R1 Zoltar
-zoltar: Red Alert! Prepare for Battle!
+	zoltar: Red Alert!  Prepare for Battle!
 
 12) ts52: Trade G1 R1 Ts52
-zoltar: b r1 zoltar
+	zoltar: b r1 zoltar
 
 13) zoltar: Discover R1 Zoltar G2 Greenbelt
 
@@ -122,13 +122,16 @@ Move Y3 Daffodil Ts52
 Move R3 Kermit Ts52
 
 48) ts52: Build R1 Ts52
-zoltar: All ships: storm zee ts52 Homeworld! Attack!
-ts52: Ouch!
-ts52: Well, this wont last long. Thanks for the game.
+	zoltar: All ships: storm zee ts52 Homeworld!  Attack!
+	ts52: Ouch!
+	ts52: Well, this wont last long. Thanks for the game.
 
 49) zoltar: Sacrifice R3 Zoltar
 Attack G1 Ts52
 Attack R1 Ts52
 Attack R2 Ts52
+	zoltar: s y2 greenbelt
+m y3 daffodil ts52
+m r3 kermit ts52
 
-ts52: Sure. 
+	ts52: Sure.

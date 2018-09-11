@@ -7,7 +7,7 @@ Winner: jeep
 1) eriinfo: Homeworld Y3 B1 G3
 
 2) jeep: Homeworld Y1 B2 G3
-jeep: Hello. Good luck.
+	jeep: Hello.  Good luck.
 
 3) eriinfo: Build G1 Eriinfo
 
@@ -24,7 +24,7 @@ jeep: Hello. Good luck.
 9) eriinfo: Discover B2 Eriinfo G2 Wise
 
 10) jeep: Trade B2 Y2 Jeep
-eriinfo: Sorry I did not see your message earlier, as this is my first time playing online. Good luck to you as well.
+	eriinfo: Sorry I did not see your message earlier, as this is my first time playing online. Good luck to you as well.
 
 11) eriinfo: Build G1 Eriinfo
 
@@ -78,7 +78,7 @@ Build B3 Cowardly
 Build R1 Jeep
 
 35) eriinfo: Build R2 Eriinfo
-eriinfo: No problem. Get better.
+	eriinfo: No problem. Get better.
 
 36) jeep: Trade B3 R3 Tin
 
@@ -196,7 +196,7 @@ Pass
 80) jeep: Move G3 Cowardly Cire
 
 81) eriinfo: Move Y2 Cire Cowardly
-jeep: Sorry, thought one thing, typed another.
+	jeep: Sorry, thought one thing, typed another.
 
 82) jeep: Sacrifice R3 Jeep
 Attack Y2N Cowardly
@@ -210,4 +210,4 @@ Build G3 Jeep
 Build R2 Tin
 Build R3 Wise
 
-jeep: Thanks for the game. 
+	jeep: Thanks for the game.

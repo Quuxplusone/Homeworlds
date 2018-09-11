@@ -1,0 +1,289 @@
+Homeworlds Online (SDG# 33405)
+Variants: "Unrated"
+Started: 2017.11.6, Ended: 2017.11.9
+Participants: Babamots (S), smokeytroll42 (N)
+Winner: Babamots
+
+1) smokeytroll42: Homeworld B1 R2 G3
+	smokeytroll42: Hello! New player here. Looking for any words of wisdom! Thanks!
+	Babamots: Sure! Have you played before at all? Do you need any help understanding how to tell your moves to the website?
+
+2) Babamots: Homeworld G3 Y2 B3
+	smokeytroll42: I think I have the commands basically down, but Ill ask if I have any questions. This is my first game, but Ive read a bit on strategy.
+
+3) smokeytroll42: Build G1 Smokeytroll42
+	smokeytroll42: Any rationale for certain moves or basic advice would be appreciated. But dont feel like you need to go easy on me.
+	Babamots: My plan is to play my best, but I will answer questions, give suggestions, and warn you when you should block me from doing something tricky.
+	Babamots: (For now, your only sensible move is to build, and you can count on my next move being a build as well)
+	smokeytroll42: Excellent, much appreciated! 
+	smokeytroll42: So for building, am I only restricted to green ships? Or can I expand my system?
+	Babamots: You can only build ships with colors that you already have. Since your only ship is green, you can only build green ships.
+	Babamots: If you build a g1 now and trade it for a y1 on your next turn, then you will be able to build green ships and yellow ships in your home system.
+	smokeytroll42: So you get the actions of your systems colors, just not for building ships?
+
+4) Babamots: Build B1 Babamots
+
+5) smokeytroll42: Build G1 Smokeytroll42
+	Babamots: Yes, so my green system marker lets me build things, but I have to build blue ships because, so far, I only have blue ships.
+
+6) Babamots: Trade B1 G1 Babamots
+	smokeytroll42: So how do I build bigger ships?
+	Babamots: When you pick a color of ship to build, you have to use the smallest piece available. You get to build bigger ships when the little ones are used up.
+
+7) smokeytroll42: Trade G1 Y1 Smokeytroll42
+	Babamots: And right now, you shouldn't build a 4th green, because then I can make it a catastrophe (any time four pieces of the same color are in the same system, they can all be destroyed by any player who gives the catastrophe command).
+
+8) Babamots: Build B1 Babamots
+	Babamots: One thing to watch for in the next few moves is getting "frozen out" of a color. If you build the last two y1 before I trade for a y1, it will be harder for me to get any yellow at all (since I'll have to wait and trade for a y2 after I get a medium of another color). You will be frozen out of blue if you don't get a b1 before I build the last two b1. Getting frozen out of yellow is probably worse than getting frozen out of blue, though.
+	Babamots: I traded for a g1 earlier to make sure you couldn't freeze me out of green, which would have been pretty bad.
+
+9) smokeytroll42: Build Y1 Smokeytroll42
+	smokeytroll42: So being frozen out of yellow would basically trap someone?
+
+10) Babamots: Trade B1 Y1 Babamots
+	Babamots: Yes, getting frozen out of yellow makes it hard to move. I can always move from home since I have a yellow star, but if I can't get a yellow ship, I wouldn't be able to move away from my new system (unless I chose a yellow star there too...).
+
+11) smokeytroll42: Build Y2 Smokeytroll42
+	smokeytroll42: How does movement work? Do I select whats in a new system?
+	Babamots: Yes, you get to pick the marker piece ("star") for new systems. If you want to want to "discover" a new system right now, you'll have to choose a large marker because large is the only size missing from your home markers. If you wanted to use your g1 to discover a system with a b3 marker, the command is "discover g1 smokeytroll42 b3 NewSystemName".
+	smokeytroll42: Is that an advisable strategy, or is continuing to build the fleet higher priority at this point in the game?
+	Babamots: Rather than moving out right now, you should probably either build a y2 (since they just became available) or trade one of your y1s for a b1 (which will prevent me from getting a medium piece for a while). I think you're better off building y2. Then, if I build y2, you will have the first opportunity to build y3 (though you would need use a yellow to discover a new system first, because building another yellow right away makes a catastrophe).
+
+12) Babamots: Build Y2 Babamots
+
+13) smokeytroll42: Discover Y2 Smokeytroll42 B3 Galileo
+
+14) Babamots: Discover Y1 Babamots B1 Betazed
+	Babamots: I'm going to try to prevent you form safely building yellows by moving a yellow ship toward you. If you build a y3 in your home system, I will be able to sacrifice y2 to move the y1 twice, reach your home, and call catastrophe on your new y3.
+	Babamots: You can safely build y3 in Galileo, but you will need to sacrifice a green ship to do it.
+
+15) smokeytroll42: Build Y3 Smokeytroll42
+
+16) Babamots: Sacrifice Y2 Babamots
+Move Y1 Betazed Galileo
+Move Y1 Galileo Smokeytroll42
+Catastrophe Smokeytroll42 Y
+
+17) smokeytroll42: Trade G1 Y1 Smokeytroll42
+	Babamots: You come out ahead from all that.
+	smokeytroll42: catastrophes can be caused if the opponent puts a ship in there as well? Walk me through what happened there.
+	Babamots: Here's the position before my move:
+http://www.superdupergames.org/?page=archive_play&gid=33405&idx=14
+ 
+You had three yellow ships and I moved in a fourth yellow ship. Because there were four yellow ships, I could call catastrophe and destroy all four of them.
+	smokeytroll42: Okay
+	smokeytroll42: I missed that one messaged where you warned me about building the Y3
+
+18) Babamots: Build B1 Babamots
+
+19) smokeytroll42: Build G1 Smokeytroll42
+
+20) Babamots: Build B1 Babamots
+
+21) smokeytroll42: Trade Y2 B2 Galileo
+
+22) Babamots: Trade B1 Y1 Babamots
+
+23) smokeytroll42: Trade B2 Y2 Galileo
+
+24) Babamots: Discover B1 Babamots B1 Iconia
+
+25) smokeytroll42: Move G1 Smokeytroll42 Galileo
+
+26) Babamots: Build B2 Babamots
+
+27) smokeytroll42: Build G1 Galileo
+
+28) Babamots: Build B2 Babamots
+
+29) smokeytroll42: Trade Y2 R2 Galileo
+
+30) Babamots: Trade B2 R2 Babamots
+
+31) smokeytroll42: Build G2 Smokeytroll42
+	Babamots: As soon as my opponent gets a red ship, I always get one too, whether I can see an immediate threat or not. In this case, I'm not going to be able to prevent from from taking my b1 on Iconia (if you're willing to sacrifice your y1 to get your r2 there).
+	smokeytroll42: My thought was to sacrifice the R2 to take the B1 and another in your home system. Is that how that works?
+	Babamots: Yes, you can sacrifice an r2 to attack twice, but you do have to have a ship in the system where you want to attack. Your ship in that system must be at least as large as the ship you want to attack. You don't any ships in systems where my ships are, so you can't attack just yet.
+	Babamots: The thing I would work on right now, if I were you, is building the g2 ships (since medium is the largest ship available to build in any color).
+
+32) Babamots: Build G2 Babamots
+
+33) smokeytroll42: Build G2 Smokeytroll42
+
+34) Babamots: Discover G1 Babamots Y1 Bajor
+
+35) smokeytroll42: Trade G2 Y2 Smokeytroll42
+
+36) Babamots: Move B2 Babamots Bajor
+
+37) smokeytroll42: Move Y1 Smokeytroll42 Galileo
+
+38) Babamots: Build B2 Bajor
+
+39) smokeytroll42: Discover G2 Smokeytroll42 B3 Newton
+	Babamots: Right now, we're both avoiding building the last g2 so that the other person doesn't get the g3. I suggest trying to split up your green ships a bit so that you can get the g2 and g3 at the same time with a "factory" move:
+sacrifice g3 smokeytroll42
+build g2 (wherever)
+build g3 (wherever)
+build g3 (wherever)
+	Babamots: Of course, I can try to stop you from getting the last g3 by either returning my g2 to the stash (running me very low on green ships) or by discovering a g3 system.
+ 
+You also might want to try to stop me from getting a b3 (for example, by discovering a b3 system).
+	Babamots: You could even do that factory move now and put the g2 in Galileo and both g3s in your home system. I could do the green catastrophe in Galileo, but the g3 would be safe in your home. 
+
+40) Babamots: Discover B2 Bajor G3 Cardassia
+
+41) smokeytroll42: Move R2 Galileo Iconia
+	smokeytroll42: Any chance you could type out an example sarafice command for me?
+
+42) Babamots: Build G2 Bajor
+	Babamots: You have to put each action of a sacrifice move on a new line.
+ 
+Here's a green sacrifice (large ship, three actions). You can build different colors in different systems in the same sacrifice.
+ 
+sacrifice g3 smokeytroll42
+build g2 Newton
+build g3 Galileo
+build y2 smokeytroll42
+ 
+Here's a yellow sacrifice (medium ship, two actions). You can move the same ship repeatedly or move multiple ships.
+ 
+sacrifice y2 smokeytroll42
+move r2 Iconia Babamots
+discover g1 Galileo b2 Kepler
+ 
+You don't have to use all of the actions when you sacrifice a ship. If you sacrifice your red ship now, there would be no attack actions that you could take, but you could sacrifice it if you wanted to for some reason. You would have to state that you wanted to pass instead of taking those actions.
+ 
+sacrifice r2 Iconia
+pass
+pass
+ 
+What I expect you want to do on your next turn is capture my b1 in Iconia. For that, you need to specify the current owner of the ship (by putting a "s" after the ship type, since I am the south player).
+ 
+attack b1s Iconia
+
+43) smokeytroll42: Attack B1S Iconia
+	smokeytroll42: Thanks! That is helpful.
+
+44) Babamots: Move B2 Bajor Galileo
+
+45) smokeytroll42: Sacrifice Y2 Smokeytroll42
+Move G1 Galileo Iconia
+Move G1 Galileo Iconia
+
+46) Babamots: Build Y2 Babamots
+	Babamots: I am planning to my sacrifice r2 to take two of your small ships in Galileo. There are two usual responses to an invasion like this
+1) sacrifice y2 in your home to move two little ships out of Galileo
+2) Sacrifice y1 in Galileo to move one g1 out of Galileo (you lose the y1 for no reason other than to keep me from getting it). I think this second option is your best move.
+	Babamots: Trouble is, you move so quickly that my advice comes after your move :-). I need to post advice before I move I guess. I'll give you a few minutes in case you want to undo (I can just take that y2 from you by sacrificing my r2).
+
+47) smokeytroll42: Trade G2 Y2 Newton
+	Babamots: I passed and undid it to send you an "It's your move" notice to give you more chance to undo your move if you like.
+	smokeytroll42: Oh, I was thinking that ships of same size were safe, which I guess wouldnt make sense because you could never capture a three then.
+
+48) Babamots: Sacrifice R2 Babamots
+Attack Y1N Galileo
+Pass
+
+49) smokeytroll42: Sacrifice G1 Iconia
+Build Y3 Newton
+
+50) Babamots: Sacrifice G2 Babamots
+Build Y3 Galileo
+Build Y3 Galileo
+	Babamots: I haven't decided what to do about it yet, but right now, you are threatening to destroy either of my home system stars. Unless I prevent it, by sacrificing your new y2, you could destroy my green marker by
+ 
+sacrifice y2 Newton
+move g1 Iconia Babamots
+move g1 Iconia Babamots
+catastrophe Babamots g
+ 
+You could destroy my yellow marker by
+ 
+sacrifice y2 Newton
+move y1 Galileo Iconia
+move y1 Iconia Babamots
+catastrophe Babamots y
+ 
+But I'm deciding how to prevent both of these moves.
+	Babamots: Those aren't necessarily great moves since you lose more ships than I do, but it's always awkward to only have half a home.
+	smokeytroll42: Yes lol. That one I actually planned. Thats why I saved the two G1s with the Y2 sacrifice as opposed to the Y1 sacrifice.
+	Babamots: I've decided that I don't really mind if you do the green catastrophe, but I want to prevent the yellow one and open up my chances for building y3.
+
+51) smokeytroll42: Sacrifice Y3 Newton
+Move Y2 Newton Iconia
+Move Y2 Iconia Babamots
+Catastrophe Babamots Y
+Move R2 Iconia Cardassia
+	Babamots: If you do the green catastrophe, I think I'll be able to lock you out of yellow technology pretty quickly, so I don't mind.
+	Babamots: Specifically, after your move
+ 
+sacrifice y2 Newton 
+move g1 Iconia Babamots 
+move g1 Iconia Babamots 
+catastrophe Babamots g
+ 
+my plan is
+ 
+sacrifice g2 Bajor
+build y2 Galileo
+build y3 Galileo
+ 
+at which point, your only way to get a yellow ship is to trade your g3 at home. But then you can't build at home nor move any ships (because sacrificing the only ship in your home leavs your home empty and you would lose).
+	Babamots: You might be better off by moving your r2 someplace to threaten to attack more of my ships (I did just lose my only red after all).
+	smokeytroll42: Lots to think about in this game. I like it!
+	Babamots: I think your best move right now is to get another yellow ship:
+ 
+sacrifice g1 Iconia
+build y3 Newton
+	smokeytroll42: I think I need to sacrifice the Y2 either way to do anything useful.
+	smokeytroll42: i think youre right. The catastrophe would be satisfying, but maybe not the best long term move.
+
+52) Babamots: Sacrifice G2 Bajor
+Build B2 Babamots
+Build B3 Cardassia
+
+53) smokeytroll42: Build G1 Smokeytroll42
+	smokeytroll42: Can you chain events with a sacrifice ie Sacrafice Y3 Newton, move Y2 Newton Iconia, move Y2 Iconia Babamots?
+	Babamots: Yes, that's a legitimate move except that you only used two move actions there, so you have one more available. If that's the type of move you want, you might consider
+ 
+sacrifice y3 Newton
+move y2 Newton Iconia
+move y2 Iconia Babamots
+catastrophe Babamots y
+move r2 Iconia Cardassia
+ 
+If you don't want to use that third action, you will have to pass, like this
+ 
+sacrifice y3 Newton
+move y2 Newton Iconia
+move y2 Iconia Babamots
+catastrophe Babamots y
+pass
+
+54) Babamots: Trade Y1 R1 Galileo
+
+55) smokeytroll42: Trade G1 R1 Smokeytroll42
+
+56) Babamots: Sacrifice R1 Galileo
+Attack R2N Cardassia
+
+	Babamots: Looks like we could get caught in a cycle :-).
+	Babamots: Oh no wait, somehow I thought you had taken my b2 in Galileo at some point. Nevermind. No cycle.
+	Babamots: I mean my b2 in Cardassia. I'm trying to do several things at once, and so I haven't been looking at the game extra carefully or giving advice. Sorry about that.
+	Babamots: I'm not sure you can win now. My next move will probably be
+ 
+sacrifice y3 Galileo
+move y3 Galileo smokeytroll42
+move b3 Cardassia smokeytroll42
+move b3 Babamots smokeytroll42
+ 
+assuming you then attack my y3, for example, my next move can be
+ 
+sacrifice r2 Cardassia
+attack g3n smokeytroll42
+attack y3n smokeytroll42
+ 
+and then it's pretty much over.
+	smokeytroll42: Im willing to call it.
+	smokeytroll42: Good game and thanks for all the advice! Id love lay again if youre down!

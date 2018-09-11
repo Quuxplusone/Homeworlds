@@ -6,10 +6,10 @@ Winner: Werebear
 1) Werebear: Homeworld G3 Y1 B3
 
 2) Uglyfoot: Homeworld Y3 B2 G3
-Werebear: Greetings! Thanks for accepting my challenge. I see that you do not always open Banker, so I will not, either. If you'd like to, that's cool, but that's of course up to you. Game on, Cap'n Uglyfoot!
+	Werebear: Greetings! Thanks for accepting my challenge. I see that you do not always open Banker, so I will not, either. If you'd like to, that's cool, but that's of course up to you. Game on, Cap'n Uglyfoot!
 
 3) Werebear: Build B1 Werebear
-Uglyfoot: greetings. open banker?
+	Uglyfoot: greetings.  open banker?
 
 4) Uglyfoot: Build G1 Uglyfoot
 
@@ -24,7 +24,7 @@ Uglyfoot: greetings. open banker?
 9) Werebear: Build G2 Juang
 
 10) Uglyfoot: Build G2 Basestar
-Werebear: Oy, the joys of a red system... argh.
+	Werebear: Oy, the joys of a red system... argh.
 
 11) Werebear: Sacrifice G1 Juang
 Build B1 Werebear
@@ -73,7 +73,7 @@ Build G2 Basestar
 Build G2 Uglyfoot
 
 31) Werebear: Build G3 Juang
-Werebear: Oops... sorry! Silly me...
+	Werebear: Oops... sorry! Silly me...
 
 32) Uglyfoot: Sacrifice Y2 Basestar
 Move B1 Forward Werebear
@@ -83,7 +83,7 @@ Catastrophe Werebear B
 33) Werebear: Build G3 Juang
 
 34) Uglyfoot: Build R1 Forward
-Werebear: Touche'...
+	Werebear: Touche'...
 
 35) Werebear: Move B3 Juang Werebear
 
@@ -125,7 +125,8 @@ Build R3 Matahari
 
 50) Uglyfoot: Build G2 Outback
 
-51) Werebear: Build G3 Juang
+51) Werebear:
+Build G3 Juang
 
 52) Uglyfoot: Move Y2 Basestar Forward
 
@@ -162,4 +163,4 @@ Catastrophe Werebear R
 Attack R2S Uglyfoot
 Attack G1S Uglyfoot
 
-Werebear: Thank you very much for playing! 
+	Werebear: Thank you very much for playing!

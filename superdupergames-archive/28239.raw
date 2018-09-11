@@ -1,0 +1,83 @@
+Homeworlds Online (SDG# 28239)
+Variants: "Unrated"
+Started: 2015.9.29, Ended: 2015.10.20
+Participants: kanzenryu (S), fogus (N)
+Winner: fogus
+
+1) fogus: Homeworld B1 Y2 G3
+
+2) kanzenryu: Homeworld B1 G3 Y3
+
+3) fogus: Build G1 Fogus
+	kanzenryu: This is my first game, so don't expect much! BTW, are you the famous Clojure guy?
+
+4) kanzenryu: Build Y1 Kanzenryu
+	fogus: I hesitate to say famous, but yes, I do stuff with Clojure.  Don't worry about this being your first game.  We can talk through it if you'd like.
+
+5) fogus: Trade G1 Y1 Fogus
+	kanzenryu: I bought The Joy of Clojure a while back. So I'm the reason you're rich now ;-)
+	fogus: Thanks (I say from my yacht)
+
+6) kanzenryu: Trade Y1 G1 Kanzenryu
+
+7) fogus: Build G1 Fogus
+	kanzenryu: Really quite stoked to finally be playing a game of Homeworlds
+
+8) kanzenryu: Build Y1 Kanzenryu
+
+9) fogus: Discover G1 Fogus Y3 Foo
+
+10) kanzenryu: Discover Y1 Kanzenryu G2 Bar
+
+11) fogus: Discover G1 Foo Y2 Baz
+
+12) kanzenryu: Build Y1 Bar
+
+13) fogus: Build G1 Fogus
+
+14) kanzenryu: Build Y2 Kanzenryu
+
+15) fogus: Build G2 Baz
+	fogus: You might want to rethink that move.  I've one move away from your home world and can move in and declare a catastrophe.  that'll leave you in bad shape.  Feel free to undo if you'd like.
+
+16) kanzenryu: Trade Y2 R2 Kanzenryu
+	kanzenryu: Okay, thanks. I had carefully checked that there would not be a catastrophe before the move, but not after the move :-(
+	kanzenryu: Playing around with rendering the position... http://imgur.com/OmNUlyU
+	kanzenryu: Playing around with rendering the position... http://imgur.com/OmNUlyU
+
+17) fogus: Trade G1 R1 Fogus
+	fogus: Very cool.  What did you use to render them?
+
+18) kanzenryu: Discover Y1 Bar G3 Staging
+	kanzenryu: Rendered with povray. I had to hunt around on the net to find the files specifying the pyramids, and then change the colouring to make them less annoyingly transparent. I still don't have the lighting right.
+	kanzenryu: And in the actual game... Red Alert!
+
+19) fogus: Discover Y1 Fogus B3 Prod
+	fogus: trade g1 r1 fogus
+
+20) kanzenryu: Build R1 Kanzenryu
+
+21) fogus: Discover Y1 Prod G2 Boink
+	kanzenryu: Are you still there?
+
+22) kanzenryu: Move Y3 Kanzenryu Baz
+
+23) fogus: Discover G2 Baz Y3 Frob
+
+24) kanzenryu: Trade R2 Y2 Kanzenryu
+
+25) fogus: Build Y3 Boink
+
+26) kanzenryu: Build R1 Kanzenryu
+
+27) fogus: Move Y3 Boink Kanzenryu
+
+28) kanzenryu: Move Y3 Baz Kanzenryu
+
+29) fogus: Sacrifice R1 Fogus
+Attack Y3 Kanzenryu
+
+	kanzenryu: Pretty much time to resign. I keep overlooking the power of the sacrifice! Thanks for the game; I really enjoyed it.
+	fogus: It takes a few games to really get a hang of the possibilities at any moment.  I'm happy to play again if you want, or to try out your MCTS player one day.  :)
+	kanzenryu: I confess I'd love another game.
+	kanzenryu: I've set up a challenge.

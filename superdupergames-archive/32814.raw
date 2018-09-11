@@ -1,0 +1,145 @@
+Homeworlds Online (SDG# 32814)
+Variants: "Unrated"
+Started: 2017.7.25, Ended: 2017.8.21
+Participants: ts52 (S), shoejitsu (N)
+Winner: ts52
+
+1) shoejitsu: Homeworld B3 Y2 G3
+
+2) ts52: Homeworld Y3 B2 G3
+	ts52: Welcome! Feel free to ask questions here, and let me know how much advice you'd like me to give. Unfortunately there is no notification for comments, so if you want to ask a question, do so, then make and undo a move so I'll get an email about it. :) Have a great game!
+
+3) shoejitsu: Build G1 Shoejitsu
+	shoejitsu: thanks for the help! I was trying to find this in the rule book but i dont think it's ever touched upon. What's the general purpose of the colors that make up the homeworld if they don't count as stars? This has messed me up so many times, since i assume that they count as stars and therefore i can build.
+
+4) ts52: Build G1 Ts52
+	ts52: They do count as stars. You can use the powers of all the colors in your homeworld, but only one per turn. So currently either of us can build (as you just did) or trade or move/discover.
+
+5) shoejitsu: Build G1 Shoejitsu
+	shoejitsu: weird... i must have mistyped my command when i tried to build in one of my other games. I had a b3 g2 homeworld with a y3 ship and it would not let me build a g1 on the second turn
+	ts52: Ah, that doesn't quite work. You can use the power of a green star (homeworld or not) to build in that system, but you can only build the smallest available ship it a color that matches a ship you control in that system. So in your case you could only build the smallest available yellow ship.
+	shoejitsu: ohhhh... got it. very important detail i missed XD
+
+6) ts52: Build G2 Ts52
+
+7) shoejitsu: Discover G1 Shoejitsu B1 Titan
+	ts52: Very important detail, but a fairly common one. We should have a FAQ or Common Mistakes or something like that.
+
+8) ts52: Trade G1 B1 Ts52
+	Draw5PlayAll: Why do you both have a fortress (2-3)?
+	shoejitsu: dunno, i made mine first :P
+	ts52: Oh, whoops. I totally screwed up and stuck us in a tiny universe. My bad. 
+
+9) shoejitsu: Trade G1 Y1 Shoejitsu
+	shoejitsu: yeah, i guess that alright since ive never played a tiny universe
+
+10) ts52: Discover G2 Ts52 B1 Grover
+	shoejitsu: starting to understand how you can force the economy to allow you to build bigger pieces like you did. was unsure how you were able to build that g2 until i went back in the logs and counted the stash haha
+	ts52: Good. Sorry about the tiny universe. But you'll soon see why it's generally considered a bad idea.
+
+11) shoejitsu: Build G1 Titan
+	shoejitsu: oh yeah ive already started to see it haha
+
+12) ts52: Build B2 Ts52
+
+13) shoejitsu: Trade G1 Y1 Titan
+
+14) ts52: Discover B2 Ts52 G1 Kermit
+
+15) shoejitsu: Build G1 Titan
+	shoejitsu: So is it a general rule of thumb to alway discover a new star system with a blue and a green peice in it? Its kind of seeming like yellow and red should be saved for building and trading transactions... and that makes buying smartly pretty challenging haha
+
+16) ts52: Build G2 Ts52
+	Draw5PlayAll: Placing a green at a blue system or a blue at a green system lets you quickly expand and gather all of the technologies. I used to attempt to do both but in my recent games I can usually only fit one of those in (I tend to lose the green or blue economy).
+
+17) shoejitsu: Discover G1 Titan B2 Gaea
+	ts52: Generally speaking green and blue are pretty important in the opening, growth and discovery part of the game. Yellow and Red are more important in the mid and end game.
+
+18) ts52: Build B3 Kermit
+
+19) shoejitsu: Build Y1 Titan
+	shoejitsu: well i just realized i have no blue ships :D
+
+20) ts52: Trade B3 Y3 Kermit
+	ts52: Yeah, I've frozen you out of the blue economy, for now at least.
+
+21) shoejitsu: Trade Y1 R1 Titan
+
+22) ts52: Build B3 Kermit
+
+23) shoejitsu: Move R1 Titan Ts52
+	ts52: I'm breaking a pretty standard homeworlds adage here, that is 'when your enemy get's a gun, you get a gun'. But I think I can afford to wait.
+
+24) ts52: Trade G2 R2 Ts52
+
+25) shoejitsu: Attack B1 Ts52
+	shoejitsu: Yeah i was surprised you didnt draw right away but clearly you have an upper hand to assist you 
+
+26) ts52: Sacrifice R2 Ts52
+Attack R1 Ts52
+Attack B1 Ts52
+
+27) shoejitsu: Build G2 Shoejitsu
+	shoejitsu: oy
+
+28) ts52: Build B3 Kermit
+	shoejitsu: i may or may not have had a sudden realization involving the construct functionality...
+	Draw5PlayAll: Care to share it?
+
+29) shoejitsu: Trade G2 R2 Shoejitsu
+
+30) ts52: Trade B3 Y3 Kermit
+	shoejitsu: Only that delaying building due to worrying about the enemy's ability to build larger pieces will only effect me negatively at this point in the game. It seems like I just need any pieces right now, regardless of whether or not the enemy controls a majority of the stronger ones
+
+31) shoejitsu: Build G2 Titan
+	ts52: Indeed. Although it can be important to limit your opponents ability to get larger ships in play, you always have to way that against what it costs you to do so.
+
+32) ts52: Build B3 Kermit
+
+33) shoejitsu: Move Y1 Shoejitsu Titan
+	shoejitsu: how do you list multiple moves, like after a sacrifice? Im not sure what a carriage return is...
+
+34) ts52: Trade B3 R3 Kermit
+	Draw5PlayAll: Just press return. It will look like this:
+sacrifice Y3 Altair
+move B1 Altair Electra
+move B2 Altair Electra
+move B1 Caster Electra
+catastrophe Electra blue
+	shoejitsu: thank you. I just realized what i was trying to do was not possible, thats why it was telling me i have no more moves... this game is looking pretty over at this point
+	shoejitsu: confused why i cant do this:
+ 
+sacrifice g2 titan
+move y1 shoejitsu kermit
+build y1 kermit
+catastrophe kermit yellow
+ 
+i thought if i could use the stars power even if i dont control the system? its telling me i have no more actions but it seems right to me?
+
+35) shoejitsu: Move Y1 Titan Gaea
+	shoejitsu: ah shoot now i cant undo my move again.... ughhh
+
+	shoejitsu: now i know only one undo per turn i suppose
+	ts52: When you sacrifice, you can only use the power of the sacrificed ship. So sacrificing a green means you can only build. It lets you sacrifice a large or medium piece to get 3 or 2 actions, but they all have to be the action of the piece sacrificed. Hopefully that makes sense.
+
+36) ts52: Build B3 Kermit
+	shoejitsu: that makes total sense, thanks
+	shoejitsu: couldnt you have move all you blue ships in to my homeworld by sacrificing a y3 and calling catastrophe then?
+
+37) shoejitsu: Move Y1 Titan Gaea
+	ts52: Yes, I could have. But I'm going for a slightly longer play.
+
+38) ts52: Sacrifice Y3 Kermit
+Move B3 Kermit Shoejitsu
+Move Y3 Kermit Shoejitsu
+Move B3 Kermit Shoejitsu
+
+39) shoejitsu: Trade G3 R3 Shoejitsu
+
+40) ts52: Sacrifice R3 Kermit
+Attack R3 Shoejitsu
+Attack R2 Shoejitsu
+Pass
+
+	ts52: Thanks for the game! I look forward to the next one.
+	shoejitsu: good game, thanks for the help

@@ -8,15 +8,15 @@ Winner: andylooney
 2) andylooney: Homeworld G1 B2 Y3
 
 3) mneme: Build G1 Mneme
-mneme: I don't understand. how do I build a new ship in my home system? b G1 B2Y3 doesn't work. :(
+	mneme: I don't understand.  how do I build a new ship in my home system?  b G1 B2Y3 doesn't work. :(
 
-andylooney: you need to give it your system's name, not its description. Try "Construct G1 mneme"
+	andylooney: you need to give it your system's name, not its description. Try "Construct G1 mneme"
 
 4) andylooney: Build Y1 Andylooney
-mneme: Ah! Ok, it just wasn't clear to me, without more examples, that the system name was the thing outside the parenthes! The fact that the system name doesn't appear in the order reports doesn't help, of course.
+	mneme: Ah!  Ok, it just wasn't clear to me, without more examples, that the system name was the thing outside the parenthes!  The fact that the system name doesn't appear in the order reports doesn't help, of course.
 
 
-5) mneme: Build G1 Mneme
+5) mneme: B G1 Mneme
 
 6) andylooney: Discover Y1 Andylooney G3 Garden
 
@@ -27,7 +27,7 @@ mneme: Ah! Ok, it just wasn't clear to me, without more examples, that the syste
 9) mneme: Build G2 Fleur
 
 10) andylooney: Build Y1 Garden
-mneme: Ok, that's pretty clever -- using your discoveries to deny my builds. (yeah, if it's not obvious, the is the first time I've played BH).
+	mneme: Ok, that's pretty clever -- using your discoveries to deny my builds.  (yeah, if it's not obvious, the is the first time I've played BH).
 
 
 11) mneme: Sacrifice G3 Mneme
@@ -39,18 +39,18 @@ Build G3 Mneme
 Catastrophe Fleur Green
 
 13) mneme: Build G1 Mneme
-andylooney: sorry about that... but 4 greens in one system is just too many...
-mneme: Yes. I'd intended to create the fourth ship as the third in mneme, but typoed.
-
-mneme: Should I resign and start over?
+	andylooney: sorry about that... but 4 greens in one system is just too many...
+	mneme: Yes.  I'd intended to create the fourth ship as the third in mneme, but typoed.
+ 
+Should I resign and start over?
 
 14) andylooney: Trade Y2 G2 Andylooney
-andylooney: Oh, I wouldn't do that. You're far from dead! Let's play on!
+	andylooney: Oh, I wouldn't do that. You're far from dead! Let's play on!
 
 15) mneme: Discover G1 Mneme B1 Fleuret
 
 16) andylooney: Discover G2 Andylooney Y3 Howell
-mneme: If you say so -- with you finally producing green ships, I've got serious issues, since most of my moves will risk a catastrophe soon
+	mneme: If you say so -- with you finally producing green ships, I've got serious issues, since most of my moves will risk a catastrophe soon
 
 17) mneme: Build G2 Fleuret
 
@@ -59,7 +59,7 @@ mneme: If you say so -- with you finally producing green ships, I've got serious
 19) mneme: Trade G2 Y2 Fleuret
 
 20) andylooney: Build Y2 Garden
-mneme: There's an undo feature? Oh, holy hell. I mean, I couldn't remember whether cataclism was 4 or 5, but I'd have definately undone m7 if I'd realized that.
+	mneme: There's an undo feature?  Oh, holy hell.  I mean, I couldn't remember whether cataclism was 4 or 5, but I'd have definately undone m7 if I'd realized that.
 
 
 21) mneme: Build Y2 Fleuret
@@ -86,4 +86,4 @@ Move G2 Howell Berry
 Move G2 Berry Mneme
 Move G2 Berry Mneme
 Catastrophe Mneme Green
-andylooney: Thanks for playing! Better luck on your next game!
+	andylooney: Thanks for playing! Better luck on your next game!
