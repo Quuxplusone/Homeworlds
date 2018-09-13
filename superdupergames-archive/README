@@ -3,27 +3,29 @@ The files in this directory are raw dumps from the e-mail archive pages at
 SuperDuperGames: http://superdupergames.org/main.html?page=listoldgames
 
 All files ending in ".raw" can be converted to my "standard" format for 
-game transcripts by running them through the Perl script "./cook.pl". 
-This strips out the header added to each game by SuperDuperGames, 
-replaces comments by "# skipped a comment by johndoe" comment 
-indicators, and converts each move to standard move format (single 
-actions with uniform spelling, separated by semicolons ";").
+game transcripts by running them through the Python script "./cook.py". 
+This strips out the header added to each game by SuperDuperGames,
+eliminates comments, and converts each move to standard move format
+(single actions with uniform spelling, separated by semicolons ";").
 
-The bash shell script "./cook-everything.sh" produces "*.cooked" from 
-"*.raw" for all "*.raw" in the current directory.  The bash shell script
-"../verify-raws.sh" generates "*.cooked" and runs each of them through
-"../annotate --verify" to check that each transcript represents a legal
-game.
+To convert everything in this directory, for example, you should run
 
-Raw files whose contents seem damaged or ambiguous end with ".raw-raw".
-This includes "710.raw-raw", in which the server allowed an illegal
-move (a bug that was subsequently fixed).
-Also "9329.raw-raw" and "10575.raw-raw", a different illegal move
-(which I don't know whether it was eventually fixed).
-Also "10634.raw-raw", in which the server allowed moves after the end
-of the game.
+    ./cook.py *.raw
 
-As of 2011-04-06, this directory contains all the games from the
-SuperDuperGames archive up to 2009-12-31 inclusive, except for games 
-which were abandoned very early, or appeared to have ended due to
-an unintentional timeout.
+This will produce two kinds of output files:
+
+    $GAMENUMBER.cooked
+
+These files can be run through "../annotate --verify" cleanly.
+The "cook.py" script may have made some minor adjustments to them;
+for example, eliminating a final "suicide" move at the end of the
+game, or repositioning catastrophes to occur in the end-of-turn
+position. "cook.py" will explain when it does something like this.
+
+    $GAMENUMBER.cooked-but-invalid
+
+These files are not cleanly accepted by "../annotate --verify",
+usually because they exploit SDG's different game logic regarding
+catastrophes. The exact reason for rejecting these games is
+explained either by "cook.py" or by the commit message for
+"cook.py".
