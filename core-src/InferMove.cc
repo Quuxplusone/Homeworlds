@@ -476,7 +476,7 @@ bool inferMoveFromState(const GameState &st, int attacker, WholeMove &move)
         /* Now we have either filled in the missing pieces of "action",
          * or bailed out by returning false. */
         assert(!action.is_missing_pieces());
-        if (!ApplyMove::Single(newst, attacker, action)) {
+        if (ApplyMove::Single(newst, attacker, action) != ApplyMove::Result::SUCCESS) {
             return false;
         }
     }

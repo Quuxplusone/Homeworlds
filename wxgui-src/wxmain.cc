@@ -84,8 +84,8 @@ class History {
         hvec.resize(hidx+1);
         hvec.push_back(hvec[hidx]);
         ++hidx;
-        const bool UNUSED(success) = ApplyMove::Whole(hvec[hidx].st, attacker, move);
-        assert(success);
+        auto UNUSED(result) = ApplyMove::Whole(hvec[hidx].st, attacker, move);
+        assert(result == ApplyMove::Result::SUCCESS);
         hvec[hidx].move = move;
     }
     const GameState &currentstate() const {

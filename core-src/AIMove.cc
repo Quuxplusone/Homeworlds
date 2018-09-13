@@ -32,7 +32,7 @@ static bool move_is_stupid_move_into_check(const GameState &st, int attacker, co
     static int killeridx = 0;
     for (int i=0; i < 8; ++i) {
         GameState newst2 = newst;
-        if (ApplyMove::Whole(newst2, 1-attacker, killer[i])) {
+        if (ApplyMove::Whole(newst2, 1-attacker, killer[i]) == ApplyMove::Result::SUCCESS) {
             if (newst2.gameIsOver()) {
                 return true;
             }

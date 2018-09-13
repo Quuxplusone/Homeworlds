@@ -17,6 +17,26 @@ public:
     ~FreeOnReturn() { free(ptr); }
 };
 
+bool SingleAction::getAssociatedColor(Color *color) const {
+    switch (kind) {
+        case SACRIFICE:
+        case CATASTROPHE:
+            return false;
+        case CAPTURE:
+            *color = RED;
+            return true;
+        case MOVE:
+        case MOVE_CREATE:
+            *color = YELLOW;
+            return true;
+        case BUILD:
+            *color = GREEN;
+            return true;
+        case CONVERT:
+            *color = BLUE;
+            return true;
+    }
+}
 
 template<class... ConstCharPtr>
 static bool advance_past(const char *&text, ConstCharPtr... prefixes)

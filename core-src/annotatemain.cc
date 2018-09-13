@@ -180,8 +180,8 @@ class History {
         hvec.resize(hidx+1);
         hvec.push_back(hvec[hidx]);
         ++hidx;
-        const bool UNUSED(success) = ApplyMove::Whole(hvec[hidx].st, attacker, move);
-        assert(success);
+        auto UNUSED(result) = ApplyMove::Whole(hvec[hidx].st, attacker, move);
+        assert(result == ApplyMove::Result::SUCCESS);
         hvec[hidx].move = move;
     }
     const GameState &currentstate() const {
@@ -589,7 +589,11 @@ static bool move_and_record(int attacker)
             } else {
                 puts("The game is already over!");
             }
-            if (g_VerifyTranscript) do_error("Transcript is incorrect.");
+            if (g_VerifyTranscript) {
+                puts("The state prior to this move was:");
+                g_History.showState(stdout);
+                do_error("Transcript is incorrect.");
+            }
         } else if (moveline == "rate_position") {
             int rating = ai_static_evaluation(g_History.currentstate(), 1-attacker);
             printf("%d\n", rating);
@@ -655,7 +659,11 @@ static bool move_and_record(int attacker)
                 if (!success) {
                     puts("The given string did not parse as a move. It was:");
                     printf("\"%s\"\n", moveline.c_str());
-                    if (g_VerifyTranscript) do_error("Transcript is incorrect.");
+                    if (g_VerifyTranscript) {
+                        puts("The state prior to this move was:");
+                        g_History.showState(stdout);
+                        do_error("Transcript is incorrect.");
+                    }
                     puts("Enter the string \"help\" for help with this game's interface.");
                 } else {
                     if (move.is_missing_pieces()) {
@@ -670,19 +678,43 @@ static bool move_and_record(int attacker)
                     /* If we've gotten this far, the user (or AI) gave us a syntactically
                      * correct move. Try to apply it; if it's semantically invalid or
                      * illegal, reject it. */
-                    const bool success = ApplyMove::isValidMove(g_History.currentstate(), attacker, move);
-                    if (!success) {
-                        puts("The move as parsed was invalid, ambiguous, or disallowed by the rules. It was:");
-                        printf("\"%s\"\n", move.toString().c_str());
-                        if (g_VerifyTranscript) do_error("Transcript is incorrect.");
-                        puts("Enter the string \"help\" for help with this game's interface.");
-                    } else {
+                    GameState newst = g_History.currentstate();
+                    auto result = ApplyMove::Whole(newst, attacker, move);
+                    /* newst is unused after this point */
+                    if (result == ApplyMove::Result::SUCCESS) {
                         /* We got a completely valid move. */
                         if (g_Verbose) {
                             puts("Okay.");
                         }
                         make_move_and_report(attacker, move);
                         return true;
+                    } else {
+                        switch (result) {
+                            case ApplyMove::Result::SUICIDE:
+                                puts("The move as parsed was disallowed by the rule against self-destruction. The move was:");
+                                break;
+                            case ApplyMove::Result::UNKNOWN_NAME:
+                                puts("The move as parsed referred to a nonexistent star system. The move was:");
+                                break;
+                            case ApplyMove::Result::DUPLICATE_NAME:
+                                puts("The move as parsed tried to create a new star system with the same name as an existing one. The move was:");
+                                break;
+                            case ApplyMove::Result::AMBIGUOUS:
+                                puts("The move as parsed was incomplete or ambiguous. The move was:");
+                                break;
+                            case ApplyMove::Result::IMPOSSIBLE:
+                                puts("The move as parsed was disallowed by the rules. The move was:");
+                                break;
+                            default:
+                                assert(false);
+                        }
+                        printf("\"%s\"\n", move.toString().c_str());
+                        if (g_VerifyTranscript) {
+                            puts("The state prior to this move was:");
+                            g_History.showState(stdout);
+                            do_error("Transcript is incorrect.");
+                        }
+                        puts("Enter the string \"help\" for help with this game's interface.");
                     }
                 }
             }

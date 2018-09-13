@@ -33,6 +33,7 @@ enum SingleActionKind {
 class SingleAction {
 public:
     bool is_missing_pieces() const;
+    bool getAssociatedColor(Color *color) const;
 
     std::string toString() const;
     bool scan(const char *text);
