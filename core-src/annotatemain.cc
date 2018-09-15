@@ -184,8 +184,12 @@ class History {
         assert(result == ApplyMove::Result::SUCCESS);
         hvec[hidx].move = move;
     }
-    const GameState &currentstate() const {
+    const GameState &currentState() const {
         return hvec[hidx].st;
+    }
+    const GameState &previousState() const {
+        assert(hidx != 0);
+        return hvec[hidx - 1].st;
     }
 };
 
@@ -387,15 +391,11 @@ static void setup_human(GameState &st, int attacker)
 
 /* Returns true if "attacker" had a non-losing move, but
  * chose to move into check instead. */
-static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int attacker)
+static bool was_boneheaded_move(const GameState& oldst, int attacker, const WholeMove&, const GameState& newst)
 {
-    assert(!oldst.gameIsOver());
-    GameState newst = oldst;
-    ApplyMove::or_die(newst, attacker, m);
     if (newst.gameIsOver()) {
         return false;
     }
-
     if (!findWinningMove(newst, 1-attacker, nullptr)) {
         return false;
     }
@@ -422,6 +422,72 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
     );
 }
 
+#if 0
+static bool was_bluebird_move(const GameState& oldst, int attacker, const WholeMove& m, const GameState&)
+{
+    const StarSystem *defender_hw = oldst.homeworldOf(1-attacker);
+    assert(defender_hw != nullptr);
+    if (!(
+          m.actions.size() == 5 &&
+          m.actions[0].kind == SACRIFICE &&
+          (m.actions[1].kind == MOVE || m.actions[1].kind == MOVE_CREATE) &&
+          (m.actions[2].kind == MOVE || m.actions[2].kind == MOVE_CREATE) &&
+          (m.actions[3].kind == MOVE || m.actions[3].kind == MOVE_CREATE) &&
+          m.actions[4].kind == CATASTROPHE
+    )) return false;
+    Color catcolor = m.actions[4].color;
+    if (m.actions[4].where != defender_hw->name) return false;
+    if (defender_hw->pieceCollection().numberOf(catcolor) != 2) return false;
+    if (m.actions[1].color != catcolor || m.actions[2].color != catcolor || m.actions[3].color != catcolor) return false;
+    if (!(
+        (m.actions[1].whither == defender_hw->name && m.actions[2].whither == m.actions[3].where && m.actions[3].whither == defender_hw->name) ||
+        (m.actions[2].whither == defender_hw->name && m.actions[1].whither == m.actions[3].where && m.actions[3].whither == defender_hw->name) ||
+        (m.actions[3].whither == defender_hw->name && m.actions[1].whither == m.actions[2].where && m.actions[2].whither == defender_hw->name)
+    )) return false;
+    return true;
+}
+
+static bool was_yellowbird_move(const GameState& oldst, int attacker, const WholeMove& m, const GameState& newst)
+{
+    const StarSystem *attacker_hw = oldst.homeworldOf(attacker);
+    assert(attacker_hw != nullptr);
+    if (!(
+          m.actions.size() == 4 &&
+          m.actions[0].kind == SACRIFICE && m.actions[0].where == attacker_hw->name &&
+          m.actions[1].kind == BUILD &&
+          m.actions[2].kind == BUILD &&
+          m.actions[3].kind == BUILD
+    )) return false;
+    if (attacker_hw->ships[attacker].numberOf(GREEN) != 1) return false;
+    if (attacker_hw->ships[attacker].numberOf(LARGE) != 1) return false;
+    if (oldst.stash.numberOf(RED) && oldst.stash.smallestSizeOf(RED) == LARGE) return false;
+    if (oldst.stash.numberOf(YELLOW) && oldst.stash.smallestSizeOf(YELLOW) == LARGE) return false;
+    if (oldst.stash.numberOf(GREEN) && oldst.stash.smallestSizeOf(GREEN) == LARGE) return false;
+    if (oldst.stash.numberOf(BLUE) && oldst.stash.smallestSizeOf(BLUE) == LARGE) return false;
+
+    const StarSystem *newhw = newst.homeworldOf(attacker);
+    assert(newhw != nullptr);
+    if (newhw->ships[attacker].numberOf(LARGE) == 0) return false;
+
+    bool can_build_large = findAllMoves(
+        newst,
+        1-attacker,
+        /*prune_obviously_worse_moves=*/false,
+        /*look_only_for_wins=*/false,
+        (1u << GREEN),
+        [&](const WholeMove& move, const GameState&) {
+            for (const auto& action : move.actions) {
+                if (action.kind == BUILD && action.size == LARGE) {
+                    return true;
+                }
+            }
+            return false;
+        }
+    );
+    if (can_build_large) return false;
+    return true;
+}
+#endif
 
 /* The special command "LEGAL build r1" runs findAllMoves()
  * and verifies that "build r1" indeed appears in the list.
@@ -430,15 +496,15 @@ static bool move_was_boneheaded(const GameState &oldst, const WholeMove &m, int 
  * a legal move. */
 static void verify_move(bool legal, const WholeMove &move, int attacker)
 {
-    if (ApplyMove::isValidMove(g_History.currentstate(), attacker, move)) {
+    if (ApplyMove::isValidMove(g_History.currentState(), attacker, move)) {
         if (!legal) {
             printf("Failed isValidMove test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
         }
-        GameState targetst = g_History.currentstate();
+        GameState targetst = g_History.currentState();
         ApplyMove::or_die(targetst, attacker, move);
         const std::string target = targetst.toComparableString();
         bool found = findAllMoves(
-            g_History.currentstate(),
+            g_History.currentState(),
             attacker,
             /*prune_obviously_worse_moves=*/false,
             /*look_only_for_wins=*/false,
@@ -453,7 +519,7 @@ static void verify_move(bool legal, const WholeMove &move, int attacker)
         if (legal && targetst.hasLost(1-attacker)) {
             /* The given move is supposed to be legal AND winning;
              * therefore findWinningMove() should return true. */
-            if (!findWinningMove(g_History.currentstate(), attacker, nullptr)) {
+            if (!findWinningMove(g_History.currentState(), attacker, nullptr)) {
                 printf("Failed findWinningMove test: LEGAL %s\n", move.toString().c_str());
             }
         }
@@ -469,16 +535,46 @@ static void verify_move(bool legal, const WholeMove &move, int attacker)
 
 static void make_move_and_report(int attacker, const WholeMove& move)
 {
-    if (g_ReportBlunders && move_was_boneheaded(g_History.currentstate(), move, attacker)) {
-        printf("%s blundered into check on this move:\n%s\n",
-            g_playerNames[attacker].c_str(), move.toString().c_str());
-        printf("The position was:\n");
-        printf("%s\n", g_History.currentstate().toString().c_str());
+    g_History.makemove(move, attacker);
+    const GameState& oldst = g_History.previousState();
+    const GameState& newst = g_History.currentState();
+    bool game_is_over = newst.gameIsOver();
+
+    if (g_ReportBlunders) {
+        if (was_boneheaded_move(oldst, attacker, move, newst)) {
+            printf("%s blundered into check on this move:\n%s\n",
+                g_playerNames[attacker].c_str(), move.toString().c_str());
+            printf("The position was:\n");
+            printf("%s\n", newst.toString().c_str());
+        }
+#if 0
+        if (was_bluebird_move(oldst, attacker, move, newst)) {
+            if (game_is_over) {
+                printf("BLUEBIRD WIN!  ");
+                int aships = 0;
+                int dships = 0;
+                for (const auto& ss : oldst.stars) {
+                    aships += ss.ships[attacker].number();
+                    dships += ss.ships[1-attacker].number();
+                }
+                printf("winner had %d %c %d ships\n", aships, "<=>"[(aships < dships ? -1 : aships > dships) + 1], dships);
+            } else {
+                printf("BLUEBIRD MOVE!\n");
+            }
+        }
+        if (was_yellowbird_move(oldst, attacker, move, newst)) {
+            printf("YELLOWBIRD MOVE!  ");
+            const StarSystem *hw = newst.homeworldOf(attacker);
+            assert(hw != nullptr);
+            if (hw->ships[attacker].numberOf(RED, LARGE) >= 1) printf(" red");
+            if (hw->ships[attacker].numberOf(YELLOW, LARGE) >= 1) printf(" yellow");
+            if (hw->ships[attacker].numberOf(GREEN, LARGE) >= 1) printf(" green");
+            if (hw->ships[attacker].numberOf(BLUE, LARGE) >= 1) printf(" blue");
+            printf("\n");
+        }
+#endif
     }
 
-    g_History.makemove(move, attacker);
-
-    bool game_is_over = g_History.currentstate().gameIsOver();
     if (game_is_over) {
         if (g_Verbose) {
             printf("%s has won the game!\n", g_playerNames[attacker].c_str());
@@ -486,7 +582,7 @@ static void make_move_and_report(int attacker, const WholeMove& move)
         }
     }
 
-    if (g_Verbose && !game_is_over && g_History.currentstate().containsOverpopulation()) {
+    if (g_Verbose && !game_is_over && newst.containsOverpopulation()) {
         static bool warning_given = false;
         if (!warning_given) {
             printf("%s has left overpopulations on the board.\n", g_playerNames[attacker].c_str());
@@ -503,7 +599,7 @@ static void make_move_and_report(int attacker, const WholeMove& move)
 
 static bool move_and_record(int attacker)
 {
-    const bool game_is_over = g_History.currentstate().gameIsOver();
+    const bool game_is_over = g_History.currentState().gameIsOver();
     char *moveline_cstr = nullptr;
     std::string moveline;
 
@@ -595,13 +691,13 @@ static bool move_and_record(int attacker)
                 do_error("Transcript is incorrect.");
             }
         } else if (moveline == "rate_position") {
-            int rating = ai_static_evaluation(g_History.currentstate(), 1-attacker);
+            int rating = ai_static_evaluation(g_History.currentState(), 1-attacker);
             printf("%d\n", rating);
         } else if (moveline == "rate_moves") {
-            (void)get_all_moves_sorted_by_value(g_History.currentstate(), attacker, true);
+            (void)get_all_moves_sorted_by_value(g_History.currentState(), attacker, true);
         } else if (moveline == "count_moves") {
             std::vector<WholeMove> allmoves = findAllMoves(
-                g_History.currentstate(), attacker,
+                g_History.currentState(), attacker,
                 /*prune=*/false, /*wins=*/false, /*colors=*/0xf
             );
             assert(allmoves.size() >= 1);  /* "pass" from a legal position is always legal */
@@ -620,7 +716,7 @@ static bool move_and_record(int attacker)
             } else {
                 WholeMove oldmove = move;
                 const bool inferred = move.is_missing_pieces() ?
-                    inferMoveFromState(g_History.currentstate(), attacker, move) : true;
+                    inferMoveFromState(g_History.currentState(), attacker, move) : true;
                 if (checkAmbig == inferred) {
                     printf("Failed: \"%s\" is%s ambiguous.\n",
                         oldmove.toString().c_str(), checkAmbig ? " not" : "");
@@ -634,15 +730,15 @@ static bool move_and_record(int attacker)
             const bool isAiMove = (moveline == "ai_move");
             const bool isWinMove = (moveline == "WIN");
             if (isAiMove) {
-                move = get_ai_move(g_History.currentstate(), attacker);
+                move = get_ai_move(g_History.currentState(), attacker);
                 if (g_Verbose) {
                     printf("AI for %s chooses: %s\n", g_playerNames[attacker].c_str(), move.toString().c_str());
                 }
-                assert(ApplyMove::isValidMove(g_History.currentstate(), attacker, move));
+                assert(ApplyMove::isValidMove(g_History.currentState(), attacker, move));
                 make_move_and_report(attacker, move);
                 return true;
             } else if (isWinMove) {
-                const bool success = findWinningMove(g_History.currentstate(), attacker, &move);
+                const bool success = findWinningMove(g_History.currentState(), attacker, &move);
                 if (!success) {
                     printf("AI for %s found no winning move.\n", g_playerNames[attacker].c_str());
                 } else {
@@ -650,7 +746,7 @@ static bool move_and_record(int attacker)
                         printf("AI for %s found a winning move:\n", g_playerNames[attacker].c_str());
                         printf("%s\n", move.toString().c_str());
                     }
-                    assert(ApplyMove::isValidMove(g_History.currentstate(), attacker, move));
+                    assert(ApplyMove::isValidMove(g_History.currentState(), attacker, move));
                     make_move_and_report(attacker, move);
                     return true;
                 }
@@ -668,7 +764,7 @@ static bool move_and_record(int attacker)
                 } else {
                     if (move.is_missing_pieces()) {
                         WholeMove oldmove = move;
-                        const bool inferred = inferMoveFromState(g_History.currentstate(), attacker, move);
+                        const bool inferred = inferMoveFromState(g_History.currentState(), attacker, move);
                         if (!inferred) {
                             /* We couldn't infer the user's intended move. Just restore the old move,
                              * with the un-filled-in blanks, and let isValidMove() reject it below. */
@@ -678,7 +774,7 @@ static bool move_and_record(int attacker)
                     /* If we've gotten this far, the user (or AI) gave us a syntactically
                      * correct move. Try to apply it; if it's semantically invalid or
                      * illegal, reject it. */
-                    GameState newst = g_History.currentstate();
+                    GameState newst = g_History.currentState();
                     auto result = ApplyMove::Whole(newst, attacker, move);
                     /* newst is unused after this point */
                     if (result == ApplyMove::Result::SUCCESS) {
@@ -824,7 +920,7 @@ int main(int argc, char **argv)
         }
         if (g_Verbose) {
             /* Did this player's move put the other player "in check"? */
-            const GameState &st = g_History.currentstate();
+            const GameState &st = g_History.currentState();
             if (!st.gameIsOver()) {
                 if (findWinningMove(st, attacker, nullptr)) {
                     if (g_History.can_undo()) {

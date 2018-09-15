@@ -88,7 +88,7 @@ class History {
         assert(result == ApplyMove::Result::SUCCESS);
         hvec[hidx].move = move;
     }
-    const GameState &currentstate() const {
+    const GameState &currentState() const {
         return hvec[hidx].st;
     }
 };
@@ -226,7 +226,7 @@ void GameApp::new_game_core()
     assert(gp != nullptr);
     assert(gp->attacker_homeworld != nullptr);
     assert(gp->stash != nullptr);
-    gp->update(this->history.currentstate());
+    gp->update(this->history.currentState());
     global_attacker = this->history.current_attacker();
     mainwindow->SetTitle(wxT("Homeworlds - Untitled Game"));
     mainwindow->SetStatusText(wxT("Player 1 set up."));
@@ -289,7 +289,7 @@ void GameApp::load_game(wxCommandEvent &)
             /* This is a comment; ignore it. */
             free(moveline);
             continue;
-        } else if (newhistory.currentstate().gameIsOver()) {
+        } else if (newhistory.currentState().gameIsOver()) {
             do_error("The transcript file contains additional moves after the end of the game!");
             free(moveline);
             return;
@@ -302,7 +302,7 @@ void GameApp::load_game(wxCommandEvent &)
         }
         if (move.is_missing_pieces()) {
             WholeMove oldmove = move;
-            const bool inferred = inferMoveFromState(newhistory.currentstate(), attacker, move);
+            const bool inferred = inferMoveFromState(newhistory.currentState(), attacker, move);
             if (!inferred) {
                 /* We couldn't infer the user's intended move. Just restore the old move,
                  * with the un-filled-in blanks, and let isValidMove() reject it below. */
@@ -313,7 +313,7 @@ void GameApp::load_game(wxCommandEvent &)
         /* If we've gotten this far, the file gave us a syntactically
          * correct move. Try to apply it; if it's semantically invalid or
          * illegal, reject it. */
-        const bool success = ApplyMove::isValidMove(newhistory.currentstate(), attacker, move);
+        const bool success = ApplyMove::isValidMove(newhistory.currentState(), attacker, move);
         if (!success) {
             do_error(mprintf("The transcript file contains errors. The following move is not legal:\n%s", move.toString().c_str()));
             return;
@@ -329,7 +329,7 @@ void GameApp::load_game(wxCommandEvent &)
 
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
     assert(gp != nullptr);
-    gp->update(this->history.currentstate());
+    gp->update(this->history.currentState());
     global_attacker = this->history.current_attacker();
     just_started_new_game = false;
     mainwindow->SetTitle(wxT("Homeworlds - ") + basename);
@@ -451,7 +451,7 @@ void GameApp::done_move(wxCommandEvent &)
     }
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
     assert(gp != nullptr);
-    GameState oldstate = this->history.currentstate();
+    GameState oldstate = this->history.currentState();
     GameState targetstate = gp->to_state();
     std::string target = targetstate.toComparableString();
     std::vector<WholeMove> allmoves = findAllMoves(
@@ -477,7 +477,7 @@ void GameApp::done_move(wxCommandEvent &)
             " unoccupied star systems, or use \"Edit -> Reset\" to restart"
             " your current move from the beginning.");
   success:
-    assert(ApplyMove::isValidMove(this->history.currentstate(), global_attacker, successful_move));
+    assert(ApplyMove::isValidMove(this->history.currentState(), global_attacker, successful_move));
     /* Consider this!
      *   successful_move has star names like "Uuaaaaaa".
      *   The actual SystemWidgets have names like "Alpha".
@@ -505,7 +505,7 @@ void GameApp::clear_move(wxCommandEvent &)
 {
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
     assert(gp != nullptr);
-    gp->update(this->history.currentstate());
+    gp->update(this->history.currentState());
     mainwindow->SetStatusText(wxT(""));
 }
 
@@ -591,7 +591,7 @@ void GameApp::ai_starting_position()
             this->history.setup(st);
             assert(this->history.current_attacker() == 0);
             global_attacker = 0;
-            gp->update(this->history.currentstate());
+            gp->update(this->history.currentState());
             just_started_new_game = false;
         } else {
             do_error("The AI cannot create a homeworld system for Player 1"
@@ -610,7 +610,7 @@ void GameApp::ai_move(wxCommandEvent &)
     }
     GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
     assert(gp != nullptr);
-    GameState st = this->history.currentstate();
+    GameState st = this->history.currentState();
     if (st.gameIsOver()) {
         mainwindow->SetStatusText(wxT("The game is already over!"));
         return;
@@ -619,7 +619,7 @@ void GameApp::ai_move(wxCommandEvent &)
     ApplyMove::or_die(st, global_attacker, bestmove);
     this->history.makemove(bestmove, global_attacker);
     global_attacker = this->history.current_attacker();
-    gp->update(this->history.currentstate());
+    gp->update(this->history.currentState());
     wxString wmsg(bestmove.toString().c_str(), wxConvLocal);
     mainwindow->SetStatusText(wmsg);
 }
@@ -630,7 +630,7 @@ void GameApp::undo_move(wxCommandEvent &)
     if (success) {
         GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
         assert(gp != nullptr);
-        gp->update(this->history.currentstate());
+        gp->update(this->history.currentState());
         global_attacker = this->history.current_attacker();
         mainwindow->SetStatusText(wxT(""));
     } else {
@@ -645,7 +645,7 @@ void GameApp::redo_move(wxCommandEvent &)
     if (success) {
         GalaxyWidget *gp = (GalaxyWidget *)wxWindow::FindWindowById(wxID_GALAXY_MAP);
         assert(gp != nullptr);
-        gp->update(this->history.currentstate());
+        gp->update(this->history.currentState());
         global_attacker = this->history.current_attacker();
         mainwindow->SetStatusText(wxT(""));
     } else {
