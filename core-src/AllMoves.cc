@@ -19,12 +19,15 @@
  #define ALLMOVES_USE_EXCEPTIONS 1
 #endif
 
-/* GNU's hash_map<> container is much faster than std::map<> for our purposes.
- * This flag does not affect the observable behavior of findAllMoves(), but
- * it will speed up the map operations.
- */
-#if !defined(ALLMOVES_USE_UNORDERED_MAP) && !defined(ALLMOVES_USE_GNU_HASH_MAP)
- #define ALLMOVES_USE_UNORDERED_MAP 1
+#if ALLMOVES_USE_FLATSET
+#include "flat_set.h"
+using AllSeenT = stdext::flat_set<std::string>;
+#elif ALLMOVES_USE_SET
+#include <set>
+using AllSeenT = std::set<std::string>;
+#else
+#include <unordered_set>
+using AllSeenT = std::unordered_set<std::string>;
 #endif
 
 struct PossCat {
@@ -32,15 +35,6 @@ struct PossCat {
     std::string name;
     PossCat(Color c, const std::string &n): color(c), name(n) { }
 };
-
-
-#if ALLMOVES_USE_UNORDERED_SET
-#include <unordered_set>
-using AllSeenT = std::unordered_set<std::string>;
-#else
-#include <set>
-using AllSeenT = std::set<std::string>;
-#endif
 
 struct AllT {
     std::string original_state;
