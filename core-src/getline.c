@@ -2,11 +2,12 @@
 /*
    This is the implementation of the |getline| library.
 
-   Last modified 24 January 2006 by Arthur O'Dwyer.
+   Last modified 22 February 2019 by Arthur O'Dwyer.
    Public domain.
 */
 
 #include <ctype.h>
+#include <errno.h>
 #include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -45,7 +46,9 @@ char *fgetline_notrim(char **p, FILE *stream)
             /* |try_resize| failed */
             return NULL;
         }
-        rc = fgets(*p+len, cap-len, stream);
+        do {
+            rc = fgets(*p+len, cap-len, stream);
+        } while (rc == NULL && errno == EINTR);
         if (rc == NULL) {
             /*
                EOF or input error. In either case, once |NULL| has
