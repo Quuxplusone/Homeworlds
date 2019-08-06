@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript">
+    var ws_scheme = (window.location.protocol == "https:") ? "wss://" : "ws://";
+    var ws = new WebSocket(ws_scheme + location.host + "/websocket");
+    var lowest_temp = 999;
+    ws.onmessage = function(e) {
+        var j = JSON.parse(e.data);
+        console.log(j);
+        if (j.answer) {
+            if (j.temp < lowest_temp) {
+                document.getElementById("answer").value = j.answer;
+                lowest_temp = j.temp;
+            }
+        } else if (j.message) {
+            var thinking = document.getElementById("thinking");
+            var node = document.createElement("p");
+            node.appendChild(document.createTextNode(j.message));
+            thinking.appendChild(node);
+            thinking.scrollTop = thinking.scrollHeight;
+        } else if (j.finished) {
+            document.getElementById("run").disabled = false;
+        }
+    };
+    var submit_analogy = function() {
+        var a = document.getElementById("initial").value;
+        var b = document.getElementById("modified").value;
+        var c = document.getElementById("target").value;
+        document.getElementById("run").disabled = true;
+        lowest_temp = 999;
+        ws.send(JSON.stringify({'a': a, 'b': b, 'c': c}));
+    }
+  </script>
+</head>
+<body>
+
+<h2>Copycat</h2>
+<p>This is a copy of the "Copycat" program originally developed in LISP by the Fluid Analogies Research Group
+(Douglas Hofstadter and Melanie Mitchell), later ported to Java by Scott Boland, and finally
+ported to Python by J Alan Brogan and Arthur O'Dwyer. Its source code is
+<a href="https://github.com/Quuxplusone/co.py.cat">available on GitHub.</a></p>
+
+<form>
+<input type="text" id="initial" placeholder="abc"> is to
+<input type="text" id="modified" placeholder="abd"> as
+<input type="text" id="target" placeholder="hgf"> is to
+<input type="text" id="answer" readonly> <br>
+<input type="button" id="run" value="Run" onclick="submit_analogy()">
+</form>
+
+<div id="thinking" style="position:absolute;width:99%;bottom:0;top:50%;overflow-y:auto;">
+</div>
+
+</body>
+</html>
