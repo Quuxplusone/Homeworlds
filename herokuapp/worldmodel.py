@@ -64,7 +64,7 @@ def extractGameNumberFromEmail(fields):
     game_number_1 = m.group(1) if m else None
     m = re.match("It is now your turn to move in Homeworlds game #(\d+)[.].*", fields['TextBody'])
     game_number_2 = m.group(1) if m else None
-    logging.warning('Extracted game number {} from subject and {} from body', game_number_1, game_number_2)
+    logging.warning('Extracted game number %r from subject and %r from body', game_number_1, game_number_2)
     assert game_number_1 == game_number_2
     return int(game_number_1)
 
@@ -118,9 +118,9 @@ def fetchSecretCodeFromSDG(session, game_number):
     rx = '<input type="hidden" name="code" value="(.*)" />'
     for match in re.finditer(rx, r.text):
         if secret_code is not None:
-            logging.error('Found multiple "hidden code" elements on page for game {}!', game_number)
-            logging.error('First code: {}', secret_code)
-            logging.error('Second code: {}', match.group(1))
+            logging.error('Found multiple "hidden code" elements on page for game %r!', game_number)
+            logging.error('First code: %r', secret_code)
+            logging.error('Second code: %r', match.group(1))
         secret_code = match.group(1)
     return secret_code
 
@@ -154,7 +154,7 @@ def fetchRawGameHistoryFromSDG(session, game_number):
         },
     )
     if r.status_code != 200:
-        logging.error('Got status code {} from archive_play for game {}', r.status_code, game_number)
+        logging.error('Got status code %r from archive_play for game %r', r.status_code, game_number)
         logging.error(r.text)
 
     pagetext = r.text
@@ -191,19 +191,19 @@ def goMakeMovesAtSDG(game_number):
     session = goLogInAtSDG()
     logging.warning('OK, logged in at SDG')
     secret_code = fetchSecretCodeFromSDG(session, game_number)
-    logging.warning('OK, got secret code {}', secret_code)
+    logging.warning('OK, got secret code %r', secret_code)
     raw_history = fetchRawGameHistoryFromSDG(session, game_number)
-    logging.warning('OK, got raw history {}', raw_history)
+    logging.warning('OK, got raw history %r', raw_history)
     cooked_history = cookGameHistory(raw_history)
     text_of_move = computeBestMoveFromHistory(cooked_history)
-    logging.warning('OK, got best move {}', text_of_move)
+    logging.warning('OK, got best move %r', text_of_move)
     submitMoveToSDG(session, game_number, secret_code, text_of_move)
 
 
 def dealWithPost(post_body):
     fields = json.loads(post_body)
-    logging.warning('Got post_body {}', post_body)
-    logging.warning('Got fields {}', fields)
+    logging.warning('Got post_body %r', post_body)
+    logging.warning('Got fields %r', fields)
     if looksLikeNewGame(fields):
         logging.warning('Looks like a new game.')
         goStartNewGamesAtSDG()
