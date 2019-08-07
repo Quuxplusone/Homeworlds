@@ -4,67 +4,30 @@ import os
 import re
 import requests
 
-from . import backend
 from bs4 import BeautifulSoup
-
-
-def createTables():
-    backend.create_table_with_oids('posts', 'body TEXT')
-
-
-def dropTables():
-    with backend.cursor() as c:
-        c.execute('DROP TABLE posts')
-
-
-def receivePost(post_body, retry=True):
-    try:
-        with backend.cursor() as c:
-            c.execute('INSERT INTO posts VALUES (?)', (post_body,))
-    except Exception:
-        logging.exception('failed to insert post_body')
-        if retry:
-            logging.exception('proceeding to create table...')
-            createTables()
-            receivePost(post_body, retry=False)
-
-
-def getPosts(retry=True):
-    try:
-        result = []
-        with backend.cursor() as c:
-            for row in c.execute('SELECT body FROM posts'):
-                result.append(row[0])
-        return result
-    except Exception:
-        logging.exception('failed to insert post_body')
-        if retry:
-            logging.exception('proceeding to create table...')
-            createTables()
-            return getPosts(retry=False)
 
 
 def looksLikeNewGame(fields):
     return (
-        fields['From'] == 'admin@superdupergames.org' and
-        fields['Subject'] == '[SDG] You have been challenged!'
+        fields.get('From', '') == 'admin@superdupergames.org' and
+        fields.get('Subject', '') == '[SDG] You have been challenged!'
     )
 
 
 def looksLikePlayerMove(fields):
     return (
-        fields['From'] == 'admin@superdupergames.org' and
-        fields['Subject'].startswith('[SDG] Homeworlds game #') and
-        fields['TextBody'].startswith('It is now your turn to move')
+        fields.get('From', '') == 'admin@superdupergames.org' and
+        fields.get('Subject', '').startswith('[SDG] Homeworlds game #') and
+        fields.get('TextBody', '').startswith('It is now your turn to move')
     )
 
 
 def extractGameNumberFromEmail(fields):
-    m = re.match("[SDG] Homeworlds game #(\d+) - It's your turn!", fields['Subject'])
+    m = re.match(".SDG. Homeworlds game #(\d+) - It's your turn!", fields['Subject'])
     game_number_1 = m.group(1) if m else None
     m = re.match("It is now your turn to move in Homeworlds game #(\d+)[.].*", fields['TextBody'])
     game_number_2 = m.group(1) if m else None
-    logging.warning('Extracted game number %r from subject and %r from body', game_number_1, game_number_2)
+    logging.info('Extracted game number %r from subject and %r from body', game_number_1, game_number_2)
     assert game_number_1 == game_number_2
     return int(game_number_1)
 
@@ -74,12 +37,13 @@ def goLogInAtSDG():
     r = session.post(
         'http://superdupergames.org/auth.html',
         data={
+            'mode': 'auth',
             'username': os.environ['SUPERDUPERGAMES_USERNAME'],
             'password': os.environ['SUPERDUPERGAMES_PASSWORD'],
         },
     )
     if r.status_code == 200:
-        logging.warning('Successfully logged into SDG.')
+        logging.info('Successfully logged into SDG.')
     else:
         logging.error('Failed to log into SDG: response status code %d.' % r.status_code)
         logging.error(r.text)
@@ -97,10 +61,10 @@ def goStartNewGamesAtSDG():
     for match in re.finditer(rx, r.text):
         url = match.group(1)
         # Click the link, thus accepting the challenge.
-        logging.warning('Attempting to start game %s' % url)
+        logging.info('Attempting to start game %s' % url)
         r = session.get('http://superdupergames.org' + url)
         if r.status_code == 200:
-            logging.warning('Got status code 200 OK; game %s is presumed to be started now!' % url)
+            logging.info('Got status code 200 OK; game %s is presumed to be started now!' % url)
         else:
             logging.error('Got status code %d; game %s is presumed NOT to be started. Oops.' % r.status_code)
             logging.error(r.text)
@@ -109,11 +73,12 @@ def goStartNewGamesAtSDG():
 def fetchSecretCodeFromSDG(session, game_number):
     r = session.get(
         'http://superdupergames.org/main.html',
-        params = {
+        params={
             'page': 'play_homeworlds',
             'num': str(game_number),
         }
     )
+    logging.warning(r.text)
     secret_code = None
     rx = '<input type="hidden" name="code" value="(.*)" />'
     for match in re.finditer(rx, r.text):
@@ -138,10 +103,11 @@ def submitMoveToSDG(session, game_number, secret_code, text_of_move):
             'moves': text_of_move,
         },
     )
-    if r.status_code == 200:
-        logging.warning('Got status code 200 OK; game %s is presumed to be moved-in now!' % url)
+    if r.status_code == 200 and ('div class="quip"' not in r.text):
+        logging.info('Got status code 200 OK; game %r is presumed to be moved-in now!', game_number)
+        logging.info(r.text)
     else:
-        logging.error('Got status code %d; game %s is presumed NOT to be moved-in. Oops.' % r.status_code)
+        logging.error('Got status code %r; game %r is presumed NOT to be moved-in. Oops.', r.status_code, game_number)
         logging.error(r.text)
 
 
@@ -177,17 +143,17 @@ def fetchRawGameHistoryFromSDG(session, game_number):
 
 
 def cookGameHistory(raw_history):
-    ## TODO FIXME BUG HACK
+    # TODO FIXME BUG HACK
     return raw_history
 
 
 def computeBestMoveFromHistory(cooked_history):
-    ## TODO FIXME BUG HACK
+    # TODO FIXME BUG HACK
     text_of_move = 'foo; bar; baz'
     return '\n'.join(text_of_move.split('; '))
 
 
-def goMakeMovesAtSDG(game_number):
+def goMakeMoveAtSDG(game_number):
     session = goLogInAtSDG()
     logging.warning('OK, logged in at SDG')
     secret_code = fetchSecretCodeFromSDG(session, game_number)
@@ -202,14 +168,13 @@ def goMakeMovesAtSDG(game_number):
 
 def dealWithPost(post_body):
     fields = json.loads(post_body)
-    logging.warning('Got post_body %r', post_body)
-    logging.warning('Got fields %r', fields)
+    logging.info('Got fields %r', fields)
     if looksLikeNewGame(fields):
-        logging.warning('Looks like a new game.')
+        logging.info('Looks like a new game.')
         goStartNewGamesAtSDG()
     elif looksLikePlayerMove(fields):
-        logging.warning('Looks like a player move.')
-        goMakeMoveAtSDG(extractGameNumberFromEmail(fields))
+        logging.info('Looks like a player move.')
+        game_number = extractGameNumberFromEmail(fields)
+        goMakeMoveAtSDG(game_number)
     else:
-        logging.warning('Looks like nothing.')
-        pass
+        logging.error('Looks like nothing! Fields are %r', fields)

@@ -6,23 +6,47 @@ import logging
 import os
 import requests
 
-from . import backend
+from . import sqlbackend
 from . import worldmodel
 
 app = Bottle()
 bottle.TEMPLATE_PATH.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), 'views'))
 
 
+def receivePost(post_body):
+    try:
+        sqlbackend.create_table_with_oids('posts', 'body TEXT')
+    except:
+        pass
+    try:
+        with sqlbackend.cursor() as c:
+            c.execute('INSERT INTO posts VALUES (?)', (post_body,))
+    except Exception:
+        logging.exception('failed to INSERT post_body into the posts table')
+        logging.error('post_body was: %r', post_body)
+        raise
+
+
+def getPosts():
+    try:
+        sqlbackend.create_table_with_oids('posts', 'body TEXT')
+    except:
+        pass
+    try:
+        result = []
+        with sqlbackend.cursor() as c:
+            for row in c.execute('SELECT body FROM posts'):
+                result.append(row[0])
+        return result
+    except Exception:
+        logging.exception('failed to SELECT from the posts table')
+        raise
+
+
 @app.get('/robots.txt')
 def robots_txt():
     bottle.response.content_type = 'text/plain'
     return 'User-agent: *\nDisallow: /\n'
-
-
-@app.get('/')
-@app.get('/index.html')
-def home():
-    return bottle.static_file('index.html', root='./herokuapp/static', mimetype='text/html')
 
 
 @app.post('/receive-mail')
@@ -32,19 +56,35 @@ def receive_mail():
     try:
         post_body = bottle.request.body.read().decode('utf-8')
         logging.warning('Received POST: %s' % post_body)
-        worldmodel.receivePost(post_body)
+        receivePost(post_body)
         worldmodel.dealWithPost(post_body)
         return bottle.HTTPResponse(status=200, body='Received')
-    except:
-        return bottle.HTTPResponse(status=500, body='Some exception was thrown, I dunno')
+    except Exception as e:
+        logging.exception('Got some exception in /receive-mail')
+        return bottle.HTTPResponse(status=500, body=str(e))
 
 
+@app.get('/')
+@app.get('/index.html')
 @app.get('/display-mail')
 def display_mail():
     return bottle.template('display-mail.tpl', {
-        'posts_received': worldmodel.getPosts(),
+        'posts_received': getPosts(),
         'inbound_address': os.environ['POSTMARK_INBOUND_EMAIL_ADDRESS'],
     })
+
+
+@app.get('/reset-database')
+def reset_database():
+    with sqlbackend.cursor() as c:
+        c.execute('DROP TABLE posts')
+    return bottle.HTTPResponse(status=200, body='OK, reset')
+
+
+def helpfulPythonCommand():
+    """
+r = requests.post('http://speardane-homeworlds-bot.herokuapp.com/receive-mail', data={"Subject": "[SDG] Homeworlds game #35406 - It's your turn!", "TextBody": "It is now your turn to move in Homeworlds game #35406.  You have", "From": "admin@superdupergames.org"})
+    """
 
 
 def myReceiveHookUrl():
@@ -88,6 +128,6 @@ def configure_postmark():
 
 
 if __name__ == '__main__':
-    backend.init()
+    sqlbackend.init()
     configure_postmark()
     app.run(host='0.0.0.0', port=os.environ['PORT'])

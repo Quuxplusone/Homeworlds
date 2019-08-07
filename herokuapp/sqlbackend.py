@@ -51,7 +51,10 @@ class PostgresBackend:
         with self.cursor() as c:
             c.execute('CREATE TABLE %s (%s) WITH OIDS' % (name, columns))
 
+
 _db = None
+
+
 def init():
     global _db
     if 'DATABASE_URL' in os.environ:
