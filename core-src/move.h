@@ -36,6 +36,7 @@ public:
     bool getAssociatedColor(Color *color) const;
 
     std::string toString() const;
+    std::string toSDGString() const;
     bool scan(const char *text);
     SingleAction() = default;
     SingleAction(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }
@@ -103,6 +104,7 @@ public:
     bool is_missing_pieces() const;
 
     std::string toString() const;
+    std::string toSDGString() const;
     bool scan(const char *text);
     explicit WholeMove() { assert(this->isPass()); }
     explicit WholeMove(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }

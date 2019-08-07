@@ -397,7 +397,7 @@ std::string SingleAction::toString() const
                 OPT(" ", piece2str(color, size)), OPT(" at ", where.c_str()));
         case CAPTURE:
             return mprintf("capture%s%s%s%s",
-                 OPT(" ", piece2str(color, size)), OPT(" at ", where.c_str()));
+                OPT(" ", piece2str(color, size)), OPT(" at ", where.c_str()));
         case MOVE:
             return mprintf("move%s%s%s%s to %s",
                 OPT(" ", piece2str(color, size)), OPT(" from ", where.c_str()), whither.c_str());
@@ -418,7 +418,37 @@ std::string SingleAction::toString() const
     /*NOTREACHED*/
 }
 
-
+std::string SingleAction::toSDGString() const
+{
+    assert(this->sanitycheck());
+    switch (kind) {
+        case CATASTROPHE:
+            return mprintf("catastrophe %s %s",
+                where.c_str(), color2str(color));
+        case SACRIFICE:
+            return mprintf("sacrifice %s %s",
+                piece2str(color, size), where.c_str());
+        case CAPTURE:
+            return mprintf("attack %s %s",
+                piece2str(color, size), where.c_str());
+        case MOVE:
+            return mprintf("move %s %s %s",
+                piece2str(color, size), where.c_str(), whither.c_str());
+        case MOVE_CREATE:
+            return mprintf("discover %s %s %s %s",
+                piece2str(color, size), where.c_str(),
+                piece2str(newcolor, newsize), whither.c_str());
+        case BUILD:
+            return mprintf("build %s %s",
+                piece2str(color, size), where.c_str());
+        case CONVERT:
+            return mprintf("trade %s %s %s",
+                piece2str(color, size), piece2str(newcolor, size), where.c_str());
+        default:
+            assert(false);
+    }
+    /*NOTREACHED*/
+}
 
 /* A WholeMove is valid only if it consists of a possibly empty
  * sequence of catastrophes, followed by an optional single sacrifice,
@@ -540,6 +570,21 @@ std::string WholeMove::toString() const
         for (int i=0; i < (int)actions.size(); ++i) {
             if (i > 0) result += "; ";
             result += actions[i].toString();
+        }
+        return result;
+    }
+}
+
+std::string WholeMove::toSDGString() const
+{
+    assert(this->sanitycheck());
+    if (this->isPass()) {
+        return "pass";
+    } else {
+        std::string result = "";
+        for (int i=0; i < (int)actions.size(); ++i) {
+            if (i > 0) result += "; ";
+            result += actions[i].toSDGString();
         }
         return result;
     }

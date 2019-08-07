@@ -34,6 +34,20 @@ static std::string g_playerNames[2];
 static bool g_Verbose;
 static bool g_ReportBlunders;
 static bool g_VerifyTranscript;
+static bool g_SDGFormat;
+
+static std::string convertToString(const GameState& st) {
+    return st.toString();
+}
+
+static std::string convertToString(const PieceCollection& pc) {
+    return pc.toString();
+}
+
+static std::string convertToString(const WholeMove& move) {
+    if (g_SDGFormat) return move.toSDGString();
+    return move.toString();
+}
 
 class History {
     struct Node {
@@ -59,7 +73,7 @@ class History {
         if (g_Verbose) {
             fprintf(fp, "The current state is:\n");
         }
-        fputs(hvec[hidx].st.toString().c_str(), fp);
+        fputs(convertToString(hvec[hidx].st).c_str(), fp);
     }
     void showStash(FILE *fp) const {
         assert(hidx >= 0);
@@ -67,7 +81,7 @@ class History {
         if (g_Verbose) {
             fprintf(fp, "The current stash is:\n");
         }
-        fprintf(fp, "%s\n", hvec[hidx].st.stash.toString().c_str());
+        fprintf(fp, "%s\n", convertToString(hvec[hidx].st.stash).c_str());
     }
     void review(FILE *fp, bool verbose) const {
         assert(hidx >= 0);
@@ -75,12 +89,12 @@ class History {
         if (verbose && hidx > 0) {
             fprintf(fp, "This game has gone on for %d moves.\n", hidx);
         }
-        fprintf(fp, "%s", hvec[0].st.toString().c_str());
+        fprintf(fp, "%s", convertToString(hvec[0].st).c_str());
         for (int i=1; i <= hidx; ++i) {
             if (verbose) {
                 fprintf(fp, "%d. %s: ", i, g_playerNames[1-(i%2)].c_str());
             }
-            fprintf(fp, "%s\n", hvec[i].move.toString().c_str());
+            fprintf(fp, "%s\n", convertToString(hvec[i].move).c_str());
         }
         if (verbose && hidx > 0) {
             showState(fp);
@@ -100,7 +114,7 @@ class History {
             if (g_Verbose) {
                 puts("The last move has been undone.");
                 puts("The current state is:");
-                puts(hvec[hidx].st.toString().c_str());
+                puts(convertToString(hvec[hidx].st).c_str());
             }
             return true;
         }
@@ -118,9 +132,9 @@ class History {
             ++hidx;
             if (g_Verbose) {
                 printf("%d. %s: %s\n", hidx, g_playerNames[1-(hidx%2)].c_str(),
-                    hvec[hidx].move.toString().c_str());
+                    convertToString(hvec[hidx].move).c_str());
                 puts("The move has been redone. The current state is:");
-                puts(hvec[hidx].st.toString().c_str());
+                puts(convertToString(hvec[hidx].st).c_str());
             }
             return true;
         }
@@ -289,7 +303,7 @@ static void setup_human(GameState &st, int attacker)
          * three pieces of each denomination. */
         puts("Your star must consist of pieces available in the stash.");
         puts("(Remember, your opponent built first.) The stash contains:");
-        printf("%s\n", st.stash.toString().c_str());
+        printf("%s\n", convertToString(st.stash).c_str());
         printf("Please re-enter the initial pieces for your star. > "); fflush(stdout);
         free(moveline);
         goto get_star_pieces;
@@ -329,7 +343,7 @@ static void setup_human(GameState &st, int attacker)
          * three pieces of each denomination. */
         printf("You must pick a ship from the pieces available in the stash.\n");
         printf("(Remember, your opponent built first.) The stash contains:\n");
-        printf("%s\n", st.stash.toString().c_str());
+        printf("%s\n", convertToString(st.stash).c_str());
         printf("Please re-enter your starting ship. > "); fflush(stdout);
         free(moveline);
         goto get_ship;
@@ -495,9 +509,9 @@ static void make_move_and_report(int attacker, const WholeMove& move)
     if (g_ReportBlunders) {
         if (was_boneheaded_move(oldst, attacker, move, newst)) {
             printf("%s blundered into check on this move:\n%s\n",
-                g_playerNames[attacker].c_str(), move.toString().c_str());
+                g_playerNames[attacker].c_str(), convertToString(move).c_str());
             printf("The position was:\n");
-            printf("%s\n", newst.toString().c_str());
+            printf("%s\n", convertToString(newst).c_str());
         }
 #if 0
         if (was_bluebird_move(oldst, attacker, move, newst)) {
@@ -673,7 +687,7 @@ static bool move_and_record(int attacker)
             if (isAiMove) {
                 move = get_ai_move(g_History.currentState(), attacker);
                 if (g_Verbose) {
-                    printf("AI for %s chooses: %s\n", g_playerNames[attacker].c_str(), move.toString().c_str());
+                    printf("AI for %s chooses: %s\n", g_playerNames[attacker].c_str(), convertToString(move).c_str());
                 }
                 assert(ApplyMove::isValidMove(g_History.currentState(), attacker, move));
                 make_move_and_report(attacker, move);
@@ -685,7 +699,7 @@ static bool move_and_record(int attacker)
                 } else {
                     if (g_Verbose) {
                         printf("AI for %s found a winning move:\n", g_playerNames[attacker].c_str());
-                        printf("%s\n", move.toString().c_str());
+                        printf("%s\n", convertToString(move).c_str());
                     }
                     assert(ApplyMove::isValidMove(g_History.currentState(), attacker, move));
                     make_move_and_report(attacker, move);
@@ -771,6 +785,8 @@ int main(int argc, char **argv)
         if (arg == "--") { ++arg_index; break; }
         if (arg == "--blunders") {
             g_ReportBlunders = true;
+        } else if (arg == "--sdg") {
+            g_SDGFormat = true;
         } else if (arg == "--verify") {
             g_VerifyTranscript = true;
         } else if (arg == "--auto") {
@@ -837,11 +853,11 @@ int main(int argc, char **argv)
         setup_human(initialState, 0);
 
         printf("The state after %s's setup is:\n", g_playerNames[0].c_str());
-        printf("%s\n", initialState.toString().c_str());
+        printf("%s\n", convertToString(initialState).c_str());
         setup_human(initialState, 1);
 
         printf("The state after both players' setup is:\n");
-        printf("%s\n", initialState.toString().c_str());
+        printf("%s\n", convertToString(initialState).c_str());
     } else {
         do_error("Incorrect command-line arguments.\n"
                  "The recognized command lines are:\n"
