@@ -3,7 +3,11 @@
 import re
 import sys
 import subprocess
-from StringIO import StringIO
+
+try:
+    HORRIBLE_UNICODE = '' + b'\xc3\xa3\xc2\x81\xc2\xb1\xc3\xa3\xc2\x81\xc2\xb1'  # python2
+except TypeError:
+    HORRIBLE_UNICODE = '\xe3\x81\xb1\xe3\x81\xb1'  # python3
 
 def parse_participants(line):
     m = re.match(r'Participants: ([A-Za-z0-9_-]+) \(S\), ([A-Za-z0-9_-]+) \(N\)$', line)
@@ -44,7 +48,7 @@ def shipof(s):
     return s.lower()
 
 def whereof(s):
-    if s == '\xc3\xa3\xc2\x81\xc2\xb1\xc3\xa3\xc2\x81\xc2\xb1':
+    if s == HORRIBLE_UNICODE:
         return 'HorribleUnicode'
     else:
         x = re.sub(r'[^a-zA-Z0-9_]', '', s)
@@ -101,8 +105,7 @@ def expand_regex(rx):
     rx = rx.replace('SHIP', r'([rygb][123])[0-9.!$*bikn`]*')
     # Game 746 (/)
     # Game 756 (horrible Unicode)
-    horrible = '\xc3\xa3\xc2\x81\xc2\xb1\xc3\xa3\xc2\x81\xc2\xb1'
-    rx = rx.replace('WHERE', r"([a-z0-9_/'-]+|" + horrible + ")")
+    rx = rx.replace('WHERE', r"([a-z0-9_/'-]+|" + HORRIBLE_UNICODE + ")")
     rx = rx.replace('COLOR', r'(red|yellow|green|blue|r|y|g|b)')
     # Game 16589 (Buil)
     rx = rx.replace('BUILD', r'(?:b|buil|build|con|construct)')
@@ -128,15 +131,15 @@ move_regexes = {
         r'^s(?:ac(?:rifice)?)? SHIP WHERE$': lambda _1, _2, a, b: 'sacrifice %s at %s' % (shipof(a), whereof(b)),
         r'^c(?:at(?:astrophe)?)? WHERE COLOR$': lambda _1, _2, a, b: 'catastrophe %s at %s' % (colorof(b), whereof(a)),
         r'^p(?:ass)?$': lambda _1, _2: 'pass',
-    }.iteritems()
+    }.items()
 }
 
 def maybe_report_bogus_text(gamenumber, m, action_text):
     if False:
         bogus = m.groups()[-1]
-        print "Game %d: Ignored some bogus text at the end of this otherwise valid action:" % (gamenumber)
-        print '  %s' % action_text
-        print '  %s' % (' ' * (len(action_text) - len(bogus)) + '~' * len(bogus))
+        print ("Game %d: Ignored some bogus text at the end of this otherwise valid action:" % (gamenumber))
+        print ('  %s' % action_text)
+        print ('  %s' % (' ' * (len(action_text) - len(bogus)) + '~' * len(bogus)))
 
 def cook_moves(gamenumber, participants, lines):
     turn_number = 0
@@ -149,14 +152,14 @@ def cook_moves(gamenumber, participants, lines):
         if m is not None:
             inside_comment = False
             if int(m.group(1)) != turn_number + 1:
-                print "Surprising: turn indicator says %d but I thought it should be turn %d!" % (int(m.group(1)), turn_number + 1)
+                print ("Surprising: turn indicator says %d but I thought it should be turn %d!" % (int(m.group(1)), turn_number + 1))
                 raise RuntimeError("surprise during parsing of the raw file")
             cookedactions.append([])
             turn_number = int(m.group(1))
             attacker = (turn_number + turn_offset) % 2
             attacker_name = m.group(2)
             if whereof(attacker_name) != whereof(participants[attacker]):
-                print "Surprising: %s moved but I thought it was %s's turn!" % (attacker_name, participants[attacker])
+                print ("Surprising: %s moved but I thought it was %s's turn!" % (attacker_name, participants[attacker]))
                 raise RuntimeError("surprise during parsing of the raw file")
             action_text = m.group(3).strip()
 
@@ -185,7 +188,7 @@ def cook_moves(gamenumber, participants, lines):
             action_text = action_text[:-1].strip()
 
         m = re.match(r'(\d+)[)] ([A-Za-z0-9_-]+): (.*)$', line)
-        for rx, then in move_regexes.iteritems():
+        for rx, then in move_regexes.items():
             m = re.match(rx, action_text, re.IGNORECASE)
             if m is not None:
                 cookedactions[-1].append(
@@ -193,7 +196,7 @@ def cook_moves(gamenumber, participants, lines):
                 )
                 break
         else:
-            for rx, then in move_regexes.iteritems():
+            for rx, then in move_regexes.items():
                 m = re.match(rx[:-1] + ' (.*)', action_text, re.IGNORECASE)
                 if m is not None:
                     maybe_report_bogus_text(gamenumber, m, action_text)
@@ -202,7 +205,10 @@ def cook_moves(gamenumber, participants, lines):
                     )
                     break
             else:
-                print "Unrecognized move: %s" % action_text
+                print ("Unrecognized move: %s" % action_text)
+                for rx, then in move_regexes.items():
+                    m = re.match(rx[:-1] + ' (.*)', action_text, re.IGNORECASE)
+                    print('%r = re.match(%r, %r, re.IGNORECASE)' % (m, rx[:-1] + ' (.*)', action_text))
                 raise RuntimeError("surprise during parsing of the raw file")
 
     cookedlines = [wholemoveof(actions) for actions in cookedactions]
@@ -217,8 +223,9 @@ def verify_cooked_transcript(cookedlines):
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )
-    out = p.communicate(input='\n'.join(cookedlines))
-    return p.wait() != 0, out
+    out = p.communicate(input='\n'.join(cookedlines).encode('utf-8'))
+    decoded_out = (out[0].decode('utf-8'), out[1].decode('utf-8'))
+    return p.wait() != 0, decoded_out
 
 def attempt_common_fixups(cookedlines, keys, tried_repositioning_moves=False):
     failed, out = verify_cooked_transcript(cookedlines)
@@ -284,7 +291,7 @@ def cook_raw_file(infile_name, ignored_games):
         # Try to categorize this game at least a little bit.
         failed, out = verify_cooked_transcript(cookedlines)
         assert failed
-        print 'Game %d: annotate --verify complained:' % gamenumber
+        print ('Game %d: annotate --verify complained:' % gamenumber)
 
         failure_patterns = [
             (
@@ -301,14 +308,14 @@ def cook_raw_file(infile_name, ignored_games):
         for rx, description, key in failure_patterns:
             m = re.match(rx + r'\n"(.*)"\n', out[0])
             if m:
-                print '  %s "%s"' % (description, m.group(1))
+                print ('  %s "%s"' % (description, m.group(1)))
                 keys.add(key)
                 break
         else:
-            print out[0]
+            print (out[0])
             keys.add('failed-to-verify')
         if out[1]:
-            print out[1]
+            print (out[1])
 
     for key in keys:
         ignored_games.setdefault(key, []).append(gamenumber)
@@ -318,19 +325,19 @@ def cook_raw_file(infile_name, ignored_games):
 
     with open(outfile_name, 'w') as f:
         for line in cookedlines:
-            print >>f, line
+            f.write(line + '\n')
 
 if __name__ == '__main__':
     ignored_games = {}
     for name in sys.argv[1:]:
         cook_raw_file(name, ignored_games)
-    for reason, gamenumbers in sorted(ignored_games.iteritems()):
+    for reason, gamenumbers in sorted(ignored_games.items()):
         games_as_string = ' '.join(str(n) for n in sorted(gamenumbers))
         if reason == '*suicidal':
-            print "Removed a suicidal final move from these games: %s" % games_as_string
+            print ("Removed a suicidal final move from these games: %s" % games_as_string)
         elif reason == '*repositioned-catastrophes':
-            print "Repositioned mid-turn catastrophe actions in these games: %s" % games_as_string
+            print ("Repositioned mid-turn catastrophe actions in these games: %s" % games_as_string)
         elif reason == '*repositioned-moves':
-            print "Repositioned otherwise-suicidal move actions in these games: %s" % games_as_string
+            print ("Repositioned otherwise-suicidal move actions in these games: %s" % games_as_string)
         else:
-            print "Ignored these %s games: %s" % (reason, games_as_string)
+            print ("Ignored these %s games: %s" % (reason, games_as_string))
