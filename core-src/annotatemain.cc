@@ -34,54 +34,6 @@ static std::string g_playerNames[2];
 static bool g_Verbose;
 static bool g_ReportBlunders;
 static bool g_VerifyTranscript;
-static bool g_Colorize;
-
-
-/* A string consists of alphanumeric words separated by punctuation and
- * whitespace. If a word looks like a valid PieceCollection (according to
- * PieceCollection::scan()), then colorize it accordingly.
- */
-static std::string colorize(const std::string &texts)
-{
-    if (!g_Colorize) {
-        return texts;
-    }
-    const char *text = texts.c_str();
-    std::string result;
-    while (*text != '\0') {
-        if (isalnum(*text)) {
-            const char *start = text;
-            while (isalnum(*text)) ++text;
-            std::string candidate(start, text);
-            PieceCollection pc;
-            if (pc.scan(candidate.c_str())) {
-                const char *cp = candidate.c_str();
-                char current_color = 'x';
-                while (*cp != '\0') {
-                    switch (*cp) {
-                        case '1': case '2': case '3': break;
-                        case 'r': if (current_color != 'r') result += "\33[31m"; current_color = 'r'; break;
-                        case 'y': if (current_color != 'y') result += "\33[33m"; current_color = 'y'; break;
-                        case 'g': if (current_color != 'g') result += "\33[32m"; current_color = 'g'; break;
-                        case 'b': if (current_color != 'b') result += "\33[34m"; current_color = 'b'; break;
-                        default: assert(false);
-                    }
-                    result += *cp;
-                    ++cp;
-                }
-                assert(current_color != 'x');
-                result += "\33[0m";
-            } else {
-                result += candidate;
-            }
-        } else {
-            result += *text;
-            ++text;
-        }
-    }
-    return result;
-}
-
 
 class History {
     struct Node {
@@ -107,7 +59,7 @@ class History {
         if (g_Verbose) {
             fprintf(fp, "The current state is:\n");
         }
-        fputs(colorize(hvec[hidx].st.toString()).c_str(), fp);
+        fputs(hvec[hidx].st.toString().c_str(), fp);
     }
     void showStash(FILE *fp) const {
         assert(hidx >= 0);
@@ -115,7 +67,7 @@ class History {
         if (g_Verbose) {
             fprintf(fp, "The current stash is:\n");
         }
-        fprintf(fp, "%s\n", colorize(hvec[hidx].st.stash.toString()).c_str());
+        fprintf(fp, "%s\n", hvec[hidx].st.stash.toString().c_str());
     }
     void review(FILE *fp, bool verbose) const {
         assert(hidx >= 0);
@@ -636,17 +588,6 @@ static bool move_and_record(int attacker)
                 puts("No transcript will be saved if you \"quit\" while in brief mode!");
             }
             g_Verbose = false;
-        } else if (moveline == "color") {
-            if (g_Verbose) {
-                puts("The output will now be colorized.");
-                puts("To return to monochrome mode, enter \"mono\".");
-            }
-            g_Colorize = true;
-        } else if (moveline == "mono") {
-            if (g_Verbose) {
-                puts("The output will no longer be colorized.");
-            }
-            g_Colorize = false;
         } else if (moveline[0] == '#') {
             /* This is a comment in a transcript file; ignore it. */
         } else if (moveline == "undo") {
