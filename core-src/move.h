@@ -102,6 +102,7 @@ public:
     }
 
     bool is_missing_pieces() const;
+    int unusedSacrificeActions() const;
 
     std::string toString() const;
     std::string toSDGString() const;

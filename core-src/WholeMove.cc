@@ -512,6 +512,28 @@ bool WholeMove::is_missing_pieces() const
     return false;
 }
 
+int WholeMove::unusedSacrificeActions() const
+{
+    int entitled_actions = 0;
+    int used_actions = 0;
+    for (int i=0; i < (int)actions.size(); ++i) {
+        switch (actions[i].kind) {
+            case CATASTROPHE: break;
+            case SACRIFICE: {
+                Size sac_size = actions[i].size;
+                entitled_actions = (sac_size == UNKNOWN_SIZE) ? 3 : (1+(int)actions[i].size);
+                break;
+            }
+            case CAPTURE: case MOVE: case MOVE_CREATE:
+            case BUILD: case CONVERT: {
+                used_actions += 1;
+                break;
+            }
+            default: assert(false); break;
+        }
+    }
+    return (entitled_actions == 0) ? 0 : (entitled_actions - used_actions);
+}
 
 bool WholeMove::scan(const char *text)
 {
@@ -585,6 +607,9 @@ std::string WholeMove::toSDGString() const
         for (int i=0; i < (int)actions.size(); ++i) {
             if (i > 0) result += "; ";
             result += actions[i].toSDGString();
+        }
+        for (int i=0; i < this->unusedSacrificeActions(); ++i) {
+            result += "; pass";
         }
         return result;
     }
