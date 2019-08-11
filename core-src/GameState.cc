@@ -201,6 +201,35 @@ std::string GameState::scan(FILE *fp)
     return unparsed_line;
 }
 
+bool GameState::scan(const char *text)
+{
+    stars.clear();
+    while (*text != '\0') {
+        const char *next = text;
+        while (*next != '\0' && *next != '\n') ++next;
+        std::string line(text, next);
+        trim(line);
+        if (!line.empty()) {
+            StarSystem star;
+            if (!star.scan(line.c_str())) {
+                return false;
+            }
+            stars.push_back(std::move(star));
+        }
+        text = next + (*next == '\n');
+    }
+    stash.clear();
+    for (Color c = RED; c <= BLUE; ++c) {
+        for (Size s = SMALL; s <= LARGE; ++s) {
+            stash.insert(c, s, NUMPLAYERS+1);
+        }
+    }
+    for (int i=0; i < (int)stars.size(); ++i) {
+        stash -= stars[i];
+    }
+    return true;
+}
+
 GameState GameState::mirror() const
 {
     assert(NUMPLAYERS == 2);

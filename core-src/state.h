@@ -144,6 +144,12 @@ public:
      * the first unparseable line as a string (so that we don't lose it). */
     std::string scan(FILE *fp);
 
+    /* Scan a human-readable representation of this game state, as produced
+     * by toString(). Return `true` if scanning succeeded and `false` if it
+     * failed. Having extra text left at the end of the input counts as failure.
+     */
+    bool scan(const char *text);
+
     /* Flip the players: make player 0 player 1 and vice versa. */
     GameState mirror() const;
 };
