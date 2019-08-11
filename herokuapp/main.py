@@ -2,6 +2,7 @@
 
 import bottle
 from bottle import Bottle
+import libannotate
 import logging
 import os
 import requests
@@ -64,8 +65,34 @@ def receive_mail():
         return bottle.HTTPResponse(status=500, body=str(e))
 
 
+@app.post('/ai-move')
+def ai_move():
+    try:
+        state_as_string = bottle.request.forms['state']
+        attacker = int(bottle.request.forms['attacker'])
+        st = libannotate.GameState(state_as_string)
+        m = st.getBestMove(attacker)
+        return bottle.template('ai-move-output.tpl', {
+            'state_received': st.toString(),
+            'attacker_received': attacker,
+            'best_move': m.toSDGString(),
+        })
+    except Exception as e:
+        logging.exception('Got some exception in /ai-move')
+        return bottle.template('ai-move-errorpage.tpl', {
+            'state_received': bottle.request.forms.get('state'),
+            'attacker_received': bottle.request.forms.get('attacker'),
+            'error_text': str(e),
+        })
+
+
 @app.get('/')
+@app.get('/ai-move')
 @app.get('/index.html')
+def ai_move_get():
+    return bottle.template('ai-move-input.tpl', {})
+
+
 @app.get('/display-mail')
 def display_mail():
     return bottle.template('display-mail.tpl', {
