@@ -11,8 +11,8 @@ Internal server error: <pre>{{error_text}}</pre>
 </p>
 
 <p>
-Received game number as string:
-<pre>{{game_number_received}}</pre>
+Received game id as string:
+<pre>{{game_id_received}}</pre>
 </p>
 
 </body>

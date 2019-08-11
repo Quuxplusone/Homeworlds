@@ -12,8 +12,8 @@ Retrieved history from SDG:
 </p>
 
 <p>
-Received game number:
-<pre>{{game_number_received}}</pre>
+Received game id:
+<pre>{{game_id_received}}</pre>
 </p>
 
 </body>

@@ -7,6 +7,7 @@ import logging
 import os
 import requests
 
+from . import sdgbackend
 from . import sqlbackend
 from . import worldmodel
 
@@ -78,11 +79,12 @@ def ai_move_post():
         state_as_string = bottle.request.forms['state']
         attacker = int(bottle.request.forms['attacker'])
         st = libannotate.GameState(state_as_string)
-        m = st.getBestMove(attacker)
+        text_of_move = st.getBestMove(attacker).toSDGString()
+        text_of_move = '\n'.join(text_of_move.split('; '))
         return bottle.template('ai-move-output.tpl', {
             'state_received': st.toString(),
             'attacker_received': attacker,
-            'best_move': m.toSDGString(),
+            'best_move': text_of_move,
         })
     except Exception as e:
         logging.exception('Got some exception in /ai-move')
@@ -101,16 +103,16 @@ def get_history_get():
 @app.post('/get-history')
 def get_history_post():
     try:
-        game_number = int(bottle.request.forms['game_number'])
-        session = worldmodel.goLogInAtSDG()
-        raw_history = worldmodel.fetchRawGameHistoryFromSDG(session, game_number)
+        game_id = int(bottle.request.forms['game_id'])
+        sdg = sdgbackend.SDG()
+        raw_history = sdg.fetch_history(game_id)
         return bottle.template('get-history-output.tpl', {
-            'game_number_received': game_number,
+            'game_id_received': game_id,
             'raw_history': raw_history,
         })
     except Exception as e:
         return bottle.template('get-history-errorpage.tpl', {
-            'game_number_received': bottle.request.forms.get('game_number'),
+            'game_id_received': bottle.request.forms.get('game_id'),
             'error_text': str(e),
         })
 
