@@ -65,8 +65,15 @@ def receive_mail():
         return bottle.HTTPResponse(status=500, body=str(e))
 
 
+@app.get('/')
+@app.get('/ai-move')
+@app.get('/index.html')
+def ai_move_get():
+    return bottle.template('ai-move-input.tpl', {})
+
+
 @app.post('/ai-move')
-def ai_move():
+def ai_move_post():
     try:
         state_as_string = bottle.request.forms['state']
         attacker = int(bottle.request.forms['attacker'])
@@ -86,11 +93,26 @@ def ai_move():
         })
 
 
-@app.get('/')
-@app.get('/ai-move')
-@app.get('/index.html')
-def ai_move_get():
-    return bottle.template('ai-move-input.tpl', {})
+@app.get('/get-history')
+def get_history_get():
+    return bottle.template('get-history-input.tpl', {})
+
+
+@app.post('/get-history')
+def get_history_post():
+    try:
+        game_number = int(bottle.request.forms['game_number'])
+        session = worldmodel.goLogInAtSDG()
+        raw_history = worldmodel.fetchRawGameHistoryFromSDG(session, game_number)
+        return bottle.template('get-history-output.tpl', {
+            'game_number_received': game_number,
+            'raw_history': raw_history,
+        })
+    except Exception as e:
+        return bottle.template('get-history-errorpage.tpl', {
+            'game_number_received': bottle.request.forms.get('game_number'),
+            'error_text': str(e),
+        })
 
 
 @app.get('/display-mail')

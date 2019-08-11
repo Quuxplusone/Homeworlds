@@ -1,5 +1,6 @@
 import json
 import logging
+import libannotate
 import os
 import re
 import requests
@@ -147,9 +148,11 @@ def cookGameHistory(raw_history):
     return raw_history
 
 
-def computeBestMoveFromHistory(cooked_history):
+def computeBestMoveFromHistory(raw_history):
     # TODO FIXME BUG HACK
-    text_of_move = 'foo; bar; baz'
+    attacker = len(raw_history) % 2
+    st = libannotate.stateFromSDGHistory(raw_history)
+    text_of_move = st.getBestMove(attacker).toSDGString()
     return '\n'.join(text_of_move.split('; '))
 
 
@@ -160,8 +163,7 @@ def goMakeMoveAtSDG(game_number):
     logging.warning('OK, got secret code %r', secret_code)
     raw_history = fetchRawGameHistoryFromSDG(session, game_number)
     logging.warning('OK, got raw history %r', raw_history)
-    cooked_history = cookGameHistory(raw_history)
-    text_of_move = computeBestMoveFromHistory(cooked_history)
+    text_of_move = computeBestMoveFromHistory(raw_history)
     logging.warning('OK, got best move %r', text_of_move)
     submitMoveToSDG(session, game_number, secret_code, text_of_move)
 
