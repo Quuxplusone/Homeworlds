@@ -3,8 +3,9 @@
 #include <stdarg.h>
 #include <string>
 #include <vector>
-#include "state.h"
 #include "move.h"
+#include "mprintf.h"
+#include "state.h"
 #include "AllMoves.h"
 #include "ApplyMove.h"
 #include "InferMove.h"

@@ -1,10 +1,9 @@
-
 #include <assert.h>
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
-#include "global.h"
+#include "mprintf.h"
 
 std::string mprintf(const char *fmt, ...)
 {
@@ -18,9 +17,10 @@ std::string mprintf(const char *fmt, ...)
         char *newbuf = (char *)malloc(wanted_space+1);
         assert(newbuf != nullptr);
         va_start(ap, fmt);
-        int UNUSED(written) = vsnprintf(newbuf, wanted_space+1, fmt, ap);
-        va_end(ap);
+        int written = vsnprintf(newbuf, wanted_space+1, fmt, ap);
         assert(written == wanted_space);
+        (void)written;
+        va_end(ap);
         result = newbuf;
         free(newbuf);
     } else {

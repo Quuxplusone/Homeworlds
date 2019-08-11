@@ -6,8 +6,9 @@
 #include <string.h>
 #include <string>
 #include <vector>
-#include "state.h"
 #include "move.h"
+#include "mprintf.h"
+#include "state.h"
 
 template <typename T>
 class FreeOnReturn {

@@ -1,7 +1,6 @@
 #pragma once
 
 #include <assert.h>
-#include <string>
 
 /* Variables that are used only in assertions should use this. */
 #ifdef NDEBUG
@@ -46,5 +45,3 @@ inline const char *color2str(Color c)
     assert(false);
     return "";
 }
-
-extern std::string mprintf(const char *, ...);
