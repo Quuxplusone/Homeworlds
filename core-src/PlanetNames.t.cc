@@ -15,6 +15,23 @@ TEST(PlanetNames, assignPlanetNamesToEmpty) {
     EXPECT_EQ(st.toString(), "");
 }
 
+TEST(PlanetNames, assignPlanetNamesToSetup) {
+    GameState st = from(R"(
+        (0, r3g1) b3-
+    )");
+    assignPlanetNames(&st);
+    EXPECT_EQ(st.toString(), "Delos (0, r3g1) b3-\n");
+}
+
+TEST(PlanetNames, assignPlanetNamesToSetupWithCustomList) {
+    GameState st = from(R"(
+        (0, r3g1) b3-
+    )");
+    const char *halyul[3] = { "Hal", "Yul", nullptr };
+    assignPlanetNames(&st, halyul);
+    EXPECT_EQ(st.toString(), "Hal (0, r3g1) b3-\n");
+}
+
 TEST(PlanetNames, assignPlanetNamesToAll) {
     GameState st = from(R"(
         (0, r3g1) b3-
@@ -76,6 +93,35 @@ TEST(PlanetNames, reassignPlanetNames) {
     WholeMove m("move y2 from Sam to Dummy (b2)");
     reassignPlanetNames(&m, st);
     EXPECT_EQ(m.toString(), "move y2 from Sam to Delos (b2)");
+}
+
+TEST(PlanetNames, reassignPlanetNamesWithHomeworldMove) {
+    GameState st = from(R"(
+        Sam (0, r3g1) b3y2-
+    )");
+    WholeMove m("homeworld y2 g1 b3 Dave");
+    reassignPlanetNames(&m, st);
+    EXPECT_EQ(m.toString(), "homeworld y2 g1 b3 Delos");
+}
+
+TEST(PlanetNames, reassignPlanetNamesWithHwAndCustomList) {
+    GameState st = from(R"(
+        Sam (0, r3g1) b3y2-
+    )");
+    WholeMove m("homeworld y2 g1 b3 Dave");
+    const char *halyul[3] = { "Hal", "Yul", nullptr };
+    reassignPlanetNames(&m, st, halyul);
+    EXPECT_EQ(m.toString(), "homeworld y2 g1 b3 Hal");
+}
+
+TEST(PlanetNames, reassignPlanetNamesWithHwAndCustomListAndExternalConflict) {
+    GameState st = from(R"(
+        Hal (0, r3g1) b3y2-
+    )");
+    WholeMove m("homeworld y2 g1 b3 Dave");
+    const char *halyul[3] = { "Hal", "Yul", nullptr };
+    reassignPlanetNames(&m, st, halyul);
+    EXPECT_EQ(m.toString(), "homeworld y2 g1 b3 Yul");
 }
 
 TEST(PlanetNames, reassignPlanetNamesWithExternalConflict) {

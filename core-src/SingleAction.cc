@@ -12,6 +12,7 @@
 
 bool SingleAction::getAssociatedColor(Color *color) const {
     switch (kind) {
+        case HOMEWORLD:
         case SACRIFICE:
         case CATASTROPHE:
             return false;
@@ -34,7 +35,7 @@ bool SingleAction::getAssociatedColor(Color *color) const {
 template<class... ConstCharPtr>
 static bool advance_past(const char *&text, ConstCharPtr... prefixes)
 {
-    for (const char *prefix : {prefixes...}) {
+    for (const char *prefix : std::initializer_list<const char*>{prefixes...}) {
         if (strncmp(text, prefix, strlen(prefix)) == 0) {
             text += strlen(prefix);
             return true;
@@ -72,30 +73,35 @@ static bool scan_piece(const char *&text, Piece *piece)
 bool SingleAction::sanitycheck() const
 {
     switch (kind) {
+        case HOMEWORLD:
+            if (!whither.empty()) return false;
+            break;
         case SACRIFICE:
-            if (!newpiece.empty() || !whither.empty()) return false;
+            if (!newpiece.empty() || !piece3.empty() || !whither.empty()) return false;
             break;
         case CATASTROPHE:
-            if (piece.size != UNKNOWN_SIZE || !newpiece.empty() || !whither.empty()) return false;
+            if (piece.size != UNKNOWN_SIZE || !newpiece.empty() || !piece3.empty() || !whither.empty()) return false;
             break;
         case CAPTURE:
-            if (!newpiece.empty() || !whither.empty()) return false;
+            if (!newpiece.empty() || !piece3.empty() || !whither.empty()) return false;
             break;
         case MOVE:
-            if (!newpiece.empty()) return false;
+            if (!newpiece.empty() || !piece3.empty()) return false;
             break;
         case MOVE_CREATE:
+            if (!piece3.empty()) return false;
             break;
         case BUILD:
-            if (!newpiece.empty() || !whither.empty()) return false;
+            if (!newpiece.empty() || !piece3.empty() || !whither.empty()) return false;
             break;
         case CONVERT:
-            if (newpiece.size != piece.size || !whither.empty()) return false;
+            if (newpiece.size != piece.size || !piece3.empty() || !whither.empty()) return false;
             break;
         default: return false;
     }
     if (!piece.sanitycheck()) return false;
     if (!newpiece.sanitycheck()) return false;
+    if (!piece3.sanitycheck()) return false;
     if (!where.empty()) {
         if (!StarSystem::isValidName(where.c_str())) return false;
     }
@@ -109,6 +115,24 @@ bool SingleAction::isMissingPieces() const
 {
     assert(this->sanitycheck());
     switch (kind) {
+        case HOMEWORLD: return (piece.isMissingPieces() || newpiece.isMissingPieces() || piece3.isMissingPieces() || where.empty());
+        case CATASTROPHE: return (piece.color == UNKNOWN_COLOR || where.empty());
+        case SACRIFICE: return (piece.isMissingPieces() || where.empty());
+        case CAPTURE: return (piece.isMissingPieces() || where.empty());
+        case MOVE: return (piece.isMissingPieces() || where.empty() || whither.empty());
+        case MOVE_CREATE: return (piece.isMissingPieces() || newpiece.isMissingPieces() || where.empty() || whither.empty());
+        case BUILD: return (piece.isMissingPieces() || where.empty());
+        case CONVERT: return (piece.isMissingPieces() || newpiece.isMissingPieces() || where.empty());
+    }
+    assert(false);
+    return true;
+}
+
+bool SingleAction::isMissingPiecesNeededForSDGString() const
+{
+    assert(this->sanitycheck());
+    switch (kind) {
+        case HOMEWORLD: return (piece.isMissingPieces() || newpiece.isMissingPieces() || piece3.isMissingPieces());
         case CATASTROPHE: return (piece.color == UNKNOWN_COLOR || where.empty());
         case SACRIFICE: return (piece.isMissingPieces() || where.empty());
         case CAPTURE: return (piece.isMissingPieces() || where.empty());
@@ -137,7 +161,17 @@ bool SingleAction::scan(const char *text)
         return false;
     };
 
-    if (advance_past(text, "catastrophe", "cat")) {
+    if (advance_past(text, "homeworld ")) {
+        this->kind = HOMEWORLD;
+        if (!scan_piece(text, &this->piece)) return false;
+        if (!advance_past(text, " ")) return false;
+        if (!scan_piece(text, &this->newpiece)) return false;
+        if (!advance_past(text, " ")) return false;
+        if (!scan_piece(text, &this->piece3)) return false;
+        if (*text == '\0') return true;
+        if (!advance_past(text, " ")) return false;
+        return get_trailing_where("");
+    } else if (advance_past(text, "catastrophe", "cat")) {
         this->kind = CATASTROPHE;
         // Unfortunately, because of SDG syntax, we must
         // handle all of the following:
@@ -459,6 +493,10 @@ std::string SingleAction::toString() const
 {
     assert(this->sanitycheck());
     switch (kind) {
+        case HOMEWORLD:
+            return mprintf("homeworld %s %s %s%s%s",
+                piece.toString(), newpiece.toString(), piece3.toString(),
+                OPT(" ", where.c_str()));
         case CATASTROPHE:
             return mprintf("catastrophe%s%s%s%s",
                 OPT(" ", color2str(piece.color)), OPT(" at ", where.c_str()));
@@ -491,7 +529,11 @@ std::string SingleAction::toString() const
 std::string SingleAction::toSDGString() const
 {
     assert(this->sanitycheck());
+    assert(!this->isMissingPiecesNeededForSDGString());
     switch (kind) {
+        case HOMEWORLD:
+            return mprintf("homeworld %s %s %s",
+                piece.toString(), newpiece.toString(), piece3.toString());
         case CATASTROPHE:
             return mprintf("catastrophe %s %s",
                 where.c_str(), color2str(piece.color));

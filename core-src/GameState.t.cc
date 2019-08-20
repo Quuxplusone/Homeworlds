@@ -13,6 +13,9 @@ TEST(GameState, newGame) {
     st.newGame();
     EXPECT_EQ(st.stash.toString(), "r1r1r1r2r2r2r3r3r3y1y1y1y2y2y2y3y3y3g1g1g1g2g2g2g3g3g3b1b1b1b2b2b2b3b3b3");
     EXPECT_TRUE(st.stars.empty());
+    EXPECT_TRUE(st.mightBeSettingUpHomeworldFor(0));
+    EXPECT_TRUE(st.mightBeSettingUpHomeworldFor(1));
+    EXPECT_TRUE(st.gameIsOver());
 }
 
 TEST(GameState, scan) {
@@ -28,10 +31,14 @@ TEST(GameState, scan) {
     EXPECT_EQ(st.systemNamed("Eric"), nullptr);
     EXPECT_EQ(st.homeworldOf(0), st.systemNamed("Sam"));
     EXPECT_EQ(st.homeworldOf(1), st.systemNamed("Dave"));
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(0));
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(1));
     EXPECT_FALSE(st.gameIsOver());
     EXPECT_FALSE(st.hasLost(0));
     EXPECT_FALSE(st.hasLost(1));
     EXPECT_EQ(st.stash.toString(), "r1r2r2r2r3r3r3y1y1y2y2y2y3y3g1g1g2g2g3g3g3b1b1b1b2b3b3b3");
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(0));
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(1));
 }
 
 TEST(GameState, homeworldOfMissingPlayer) {
@@ -44,9 +51,13 @@ TEST(GameState, homeworldOfMissingPlayer) {
     EXPECT_NE(st.systemNamed("Sam"), nullptr);
     EXPECT_EQ(st.homeworldOf(0), st.systemNamed("Sam"));
     EXPECT_EQ(st.homeworldOf(1), nullptr);
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(0));
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(1));
     EXPECT_TRUE(st.gameIsOver());
     EXPECT_FALSE(st.hasLost(0));
     EXPECT_TRUE(st.hasLost(1));
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(0));
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(1));
 
     EXPECT_TRUE(st.scan(R"(
         Sam (1, g1) -y1b2
@@ -55,7 +66,11 @@ TEST(GameState, homeworldOfMissingPlayer) {
     EXPECT_NE(st.systemNamed("Sam"), nullptr);
     EXPECT_EQ(st.homeworldOf(0), nullptr);
     EXPECT_EQ(st.homeworldOf(1), st.systemNamed("Sam"));
+    EXPECT_TRUE(st.mightBeSettingUpHomeworldFor(0));
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(1));
     EXPECT_TRUE(st.gameIsOver());
     EXPECT_TRUE(st.hasLost(0));
     EXPECT_FALSE(st.hasLost(1));
+    EXPECT_TRUE(st.mightBeSettingUpHomeworldFor(0));
+    EXPECT_FALSE(st.mightBeSettingUpHomeworldFor(1));
 }

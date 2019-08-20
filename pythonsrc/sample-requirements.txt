@@ -1,1 +1,1 @@
--e git+git://github.com/Quuxplusone/Homeworlds.git@master#egg=libannotate
+-e git+git://github.com/Quuxplusone/Homeworlds.git@wip-homeworld-action#egg=libannotate

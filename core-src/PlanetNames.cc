@@ -14,6 +14,25 @@ static const char *default_names[21] = {
     "Weizenbaum", "Knuth", "Gibson", "Stuyvesant", "Prufrock", "Marlow", "Daisy"
 };
 
+static auto get_new_name_lambda(const char *names[21])
+{
+    return [names, i=0](const GameState& st) mutable -> const char * {
+        for ( ; i < 21; ++i) {
+            const char *new_name = names[i];
+            assert(new_name != nullptr);
+            assert(StarSystem::isValidName(new_name));
+            if (st.systemNamed(new_name) == nullptr) {
+                ++i;
+                return new_name;
+            }
+        }
+        /* Since there can be only 18 systems at one time, and only 3 new
+         * systems can be created in one complete move, it follows that we
+         * must have found one of our 21 system names not being used. */
+        assert(false);
+    };
+}
+
 void reassignPlanetNames(WholeMove *move, const GameState& st)
 {
     reassignPlanetNames(move, st, default_names);
@@ -23,26 +42,19 @@ void reassignPlanetNames(WholeMove *move, const GameState& st, const char *names
 {
     assert(move != nullptr);
     assert(names != nullptr);
-    int new_name_index = 0;
+
+    auto get_new_name = get_new_name_lambda(names);
+
     for (int i=0; i < (int)move->actions.size(); ++i) {
         SingleAction& action = move->actions[i];
-        if (action.kind == MOVE_CREATE) {
+        if (action.kind == HOMEWORLD) {
+            assert(action.where != "");
+            /* We need to pick a new name for this star system. */
+            action.where = get_new_name(st);
+        } else if (action.kind == MOVE_CREATE) {
             assert(action.whither != "");
             /* We need to pick a new name for this star system. */
-            const char *new_name = nullptr;
-            for ( ; new_name_index < 21; ++new_name_index) {
-                assert(names[new_name_index] != nullptr);
-                assert(StarSystem::isValidName(names[new_name_index]));
-                if (st.systemNamed(names[new_name_index]) == nullptr) {
-                    new_name = names[new_name_index];
-                    ++new_name_index;
-                    break;
-                }
-            }
-            /* Since there can be only 18 systems at one time, and only 3 new
-             * systems can be created in one complete move, it follows that we
-             * must have found one of our 21 system names not being used. */
-            assert(new_name != nullptr);
+            const char *new_name = get_new_name(st);
             const std::string& old_name = action.whither;
             for (int j=i+1; j < (int)move->actions.size(); ++j) {
                 SingleAction& actjon = move->actions[j];
@@ -67,25 +79,13 @@ void assignPlanetNames(GameState *st, const char *names[21])
 {
     assert(st != nullptr);
     assert(names != nullptr);
-    int new_name_index = 0;
+
+    auto get_new_name = get_new_name_lambda(names);
+
     for (StarSystem& star : st->stars) {
         if (star.name == "") {
             /* We need to pick a new name for this star system. */
-            const char *new_name = nullptr;
-            for ( ; new_name_index < 21; ++new_name_index) {
-                assert(names[new_name_index] != nullptr);
-                assert(StarSystem::isValidName(names[new_name_index]));
-                if (st->systemNamed(names[new_name_index]) == nullptr) {
-                    new_name = names[new_name_index];
-                    ++new_name_index;
-                    break;
-                }
-            }
-            /* Since there can be only 18 systems at one time, and only 3 new
-             * systems can be created in one complete move, it follows that we
-             * must have found one of our 21 system names not being used. */
-            assert(new_name != nullptr);
-            star.name = new_name;
+            star.name = get_new_name(*st);
         }
     }
 }

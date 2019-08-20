@@ -102,6 +102,14 @@ void GameState::newGame()
     }
 }
 
+bool GameState::mightBeSettingUpHomeworldFor(int who) const
+{
+    static_assert(NUMPLAYERS == 2, "");
+    if (stars.size() == 0) return true;
+    if (stars.size() == 1 && stars[0].homeworldOf == 1-who) return true;
+    return false;
+}
+
 bool GameState::hasLost(int who) const
 {
     const StarSystem *hw = homeworldOf(who);

@@ -27,6 +27,12 @@ void turn_applymove_result_into_python_exception(ApplyMove::Result r)
         case ApplyMove::Result::IMPOSSIBLE:
             PyErr_SetString(PyExc_ValueError, "The move as parsed was disallowed by the rules.");
             break;
+        case ApplyMove::Result::NOT_DURING_SETUP:
+            PyErr_SetString(PyExc_ValueError, "The move as parsed is not permitted during the setup phase.");
+            break;
+        case ApplyMove::Result::ONLY_DURING_SETUP:
+            PyErr_SetString(PyExc_ValueError, "The move as parsed is not permitted outside of the setup phase.");
+            break;
         default:
             PyErr_SetString(PyExc_RuntimeError, "unexpected ApplyMove::Result value");
             break;
@@ -122,6 +128,10 @@ struct GameStatePyObject {
             }
             if (!(attacker == 0 || attacker == 1)) {
                 PyErr_SetString(PyExc_ValueError, "attacker must be 0 or 1");
+                return nullptr;
+            }
+            if (self->obj_->gameIsOver() && !self->obj_->mightBeSettingUpHomeworldFor(attacker)) {
+                PyErr_SetString(PyExc_ValueError, "the game appears to be over");
                 return nullptr;
             }
             WholeMove m = get_ai_move(*self->obj_, attacker);

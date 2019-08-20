@@ -82,6 +82,7 @@ public:
     void removeSystemNamed(const char *name);
     void removeSystem(StarSystem &star);
     void newGame();
+    bool mightBeSettingUpHomeworldFor(int who) const;
     bool hasLost(int who) const;
     bool gameIsOver() const { return hasLost(0) || hasLost(1); }
 

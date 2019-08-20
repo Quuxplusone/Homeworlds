@@ -324,3 +324,29 @@ TEST(WholeMove, scanIncompleteCatastrophe) {
     EXPECT_INCOMPLETE_MOVE(m.scan("cat")); EXPECT_EQ(m.toString(), "catastrophe");
     EXPECT_INCOMPLETE_MOVE(m.scan("catastrophe at Alpha")); EXPECT_EQ(m.toString(), "catastrophe at Alpha");
 }
+
+TEST(WholeMove, scanHomeworld) {
+    WholeMove m;
+    EXPECT_COMPLETE_MOVE(m.scan("homeworld g1 b2 y3 Sam"));
+    EXPECT_EQ(m.toString(), "homeworld g1 b2 y3 Sam");
+    EXPECT_EQ(m.toSDGString(), "homeworld g1 b2 y3");
+}
+
+TEST(WholeMove, scanIncompleteHomeworld) {
+    WholeMove m;
+    EXPECT_INCOMPLETE_MOVE(m.scan("homeworld g1 b2 y3"));
+    EXPECT_EQ(m.toString(), "homeworld g1 b2 y3");
+}
+
+TEST(WholeMove, scanInvalidHomeworld) {
+    WholeMove m;
+    EXPECT_FALSE(m.scan("homeworld Alpha g1 b2 y3"));
+    EXPECT_FALSE(m.scan("homeworld"));
+    EXPECT_FALSE(m.scan("homeworld g1 b2"));
+    EXPECT_FALSE(m.scan("homeworld g1 b2 Alpha"));
+    EXPECT_FALSE(m.scan("homeworld r1 y2 g3 b2 Alpha"));
+    EXPECT_FALSE(m.scan("homeworld g1 b2 y3 Alpha; catastrophe green at Alpha"));
+    EXPECT_FALSE(m.scan("catastrophe green at Alpha; homeworld g1 b2 y3 Alpha"));
+    EXPECT_FALSE(m.scan("homeworld g1 b2 y3 Sam; pass"));
+    EXPECT_FALSE(m.scan("homeworld g1 b2 y3 Sam; build y1"));
+}

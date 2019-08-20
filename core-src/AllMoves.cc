@@ -100,6 +100,55 @@ static void combine_postcatastrophes(const WholeMove &m,
     const std::vector<PossCat> &posscats, int pc, const GameState &st,
     int attacker, AllT &all);
 static void append_move(AllT &all, const WholeMove &m, const GameState &st, int attacker);
+static std::string make_random_name(const GameState& st);
+
+
+static bool findAllHomeworldSetups_impl(const GameState& oldst, int attacker,
+    bool (*callback)(void*, const WholeMove&, const GameState&),
+    void *callback_cookie)
+{
+    assert(oldst.homeworldOf(attacker) == nullptr);
+    std::string homeworldName = make_random_name(oldst);
+    static const Piece all_pieces[] = {
+        Piece(RED, SMALL), Piece(RED, MEDIUM), Piece(RED, LARGE),
+        Piece(YELLOW, SMALL), Piece(YELLOW, MEDIUM), Piece(YELLOW, LARGE),
+        Piece(GREEN, SMALL), Piece(GREEN, MEDIUM), Piece(GREEN, LARGE),
+        Piece(BLUE, SMALL), Piece(BLUE, MEDIUM), Piece(BLUE, LARGE),
+    };
+    GameState st = oldst;
+    st.stars.emplace_back(homeworldName.c_str());
+    StarSystem& hw = st.stars.back();
+    hw.homeworldOf = attacker;
+    for (int i = 0; i < 12; ++i) {
+        Piece p1 = all_pieces[i];
+        if (!st.stash.contains(p1)) continue;
+        st.stash.remove(p1);
+        hw.star.insert(p1);
+        for (int j = i; j < 12; ++j) {
+            Piece p2 = all_pieces[j];
+            if (!st.stash.contains(p2)) continue;
+            st.stash.remove(p2);
+            hw.star.insert(p2);
+            for (Piece p3 : all_pieces) {
+                if (!st.stash.contains(p3)) continue;
+                st.stash.remove(p3);
+                hw.ships[attacker].insert(p3);
+                WholeMove move;
+                move += SingleAction(HOMEWORLD, p1, p2, p3, homeworldName.c_str());
+                if (callback(callback_cookie, move, st)) {
+                    return true;
+                }
+                st.stash.insert(p3);
+                hw.ships[attacker].remove(p3);
+            }
+            st.stash.insert(p2);
+            hw.star.remove(p2);
+        }
+        st.stash.insert(p1);
+        hw.star.remove(p1);
+    }
+    return false;
+}
 
 /* The short description: Given the game state "st", report all possible moves
  * for player "attacker" via the "callback". We'll find all the possible
@@ -126,6 +175,17 @@ bool findAllMoves_impl(const GameState &st, int attacker,
     bool (*callback)(void*, const WholeMove&, const GameState&),
     void *callback_cookie)
 {
+    if (st.homeworldOf(attacker) == nullptr) {
+        // We must be in the homeworld-setup phase.
+        if (!st.mightBeSettingUpHomeworldFor(attacker)) {
+            return false;  // This situation indicates user error!
+        }
+        if (look_only_for_wins) {
+            return false;
+        }
+        return findAllHomeworldSetups_impl(st, attacker, callback, callback_cookie);
+    }
+
     /* Precondition: We assume the game isn't over; if it's over, then the
      * caller shouldn't have called findAllMoves() in the first place. */
     assert(!st.gameIsOver());

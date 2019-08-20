@@ -19,12 +19,30 @@
 ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAction &action)
 {
     StarSystem *where = st.systemNamed(action.where.c_str());
-    if (where == nullptr) return Result::UNKNOWN_NAME;
     const Color c = action.piece.color;
     const Size s = action.piece.size;
 
     switch (action.kind) {
+        case HOMEWORLD: {
+            if (action.isMissingPieces()) return Result::AMBIGUOUS;
+            if (where != nullptr) return Result::DUPLICATE_NAME;
+            /* Create a new star system. */
+            st.stars.push_back(StarSystem(action.where.c_str()));
+            where = &st.stars.back();
+            where->homeworldOf = attacker;
+            if (!st.stash.contains(action.piece)) return Result::IMPOSSIBLE;
+            st.stash.remove(action.piece);
+            where->star.insert(action.piece);
+            if (!st.stash.contains(action.newpiece)) return Result::IMPOSSIBLE;
+            st.stash.remove(action.newpiece);
+            where->star.insert(action.newpiece);
+            if (!st.stash.contains(action.piece3)) return Result::IMPOSSIBLE;
+            st.stash.remove(action.piece3);
+            where->ships[attacker].insert(action.piece3);
+            break;
+        }
         case CATASTROPHE: {
+            if (where == nullptr) return Result::UNKNOWN_NAME;
             if (c == UNKNOWN_COLOR) return Result::AMBIGUOUS;
             if (!where->containsOverpopulation(c)) return Result::IMPOSSIBLE;
             where->performCatastrophe(c, st.stash);
@@ -39,6 +57,7 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
             break;
         }
         case SACRIFICE: {
+            if (where == nullptr) return Result::UNKNOWN_NAME;
             if (c == UNKNOWN_COLOR) return Result::AMBIGUOUS;
             if (s == UNKNOWN_SIZE) return Result::AMBIGUOUS;
             if (where->ships[attacker].numberOf(c,s) == 0) return Result::IMPOSSIBLE;
@@ -48,6 +67,7 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
         }
         case CAPTURE: {
             /* Assume the player has access to RED here, or has sacrificed. */
+            if (where == nullptr) return Result::UNKNOWN_NAME;
             if (c == UNKNOWN_COLOR) return Result::AMBIGUOUS;
             if (s == UNKNOWN_SIZE) return Result::AMBIGUOUS;
             if (where->ships[attacker].numberAtLeast(s) == 0) return Result::IMPOSSIBLE;
@@ -59,6 +79,7 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
         }
         case MOVE: {
             /* Assume the player has access to YELLOW here, or has sacrificed. */
+            if (where == nullptr) return Result::UNKNOWN_NAME;
             if (c == UNKNOWN_COLOR) return Result::AMBIGUOUS;
             if (s == UNKNOWN_SIZE) return Result::AMBIGUOUS;
             if (where->ships[attacker].numberOf(c,s) == 0) return Result::IMPOSSIBLE;
@@ -71,6 +92,7 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
         }
         case MOVE_CREATE: {
             /* Assume the player has access to YELLOW here, or has sacrificed. */
+            if (where == nullptr) return Result::UNKNOWN_NAME;
             if (c == UNKNOWN_COLOR) return Result::AMBIGUOUS;
             if (s == UNKNOWN_SIZE) return Result::AMBIGUOUS;
             if (where->ships[attacker].numberOf(c,s) == 0) return Result::IMPOSSIBLE;
@@ -81,11 +103,10 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
             /* Unfortunately, push_back() invalidates pointers into the vector,
              * so we have to save and recalculate "where". */
             const int wherei = (where - &st.stars[0]);
-            st.stars.push_back(StarSystem());
+            st.stars.push_back(StarSystem(action.whither.c_str()));
             where = &st.stars[wherei];
             /* All right, now continue. */
             dest = &st.stars.back();
-            dest->name = action.whither;
             st.stash.remove(action.newpiece);
             dest->star.insert(action.newpiece);
             if (!dest->isAdjacentTo(*where)) return Result::IMPOSSIBLE;
@@ -95,6 +116,7 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
         }
         case BUILD: {
             /* Assume the player has access to GREEN here, or has sacrificed. */
+            if (where == nullptr) return Result::UNKNOWN_NAME;
             if (c == UNKNOWN_COLOR) return Result::AMBIGUOUS;
             if (s == UNKNOWN_SIZE) return Result::AMBIGUOUS;
             if (st.stash.numberOf(c,s) == 0) return Result::IMPOSSIBLE;
@@ -106,6 +128,7 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
         }
         case CONVERT: {
             /* Assume the player has access to BLUE here, or has sacrificed. */
+            if (where == nullptr) return Result::UNKNOWN_NAME;
             if (c == UNKNOWN_COLOR) return Result::AMBIGUOUS;
             if (s == UNKNOWN_SIZE) return Result::AMBIGUOUS;
             if (st.stash.numberOf(action.newpiece) == 0) return Result::IMPOSSIBLE;
@@ -136,8 +159,12 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
 ApplyMove::Result ApplyMove::Whole(GameState &st, int attacker, const WholeMove &move)
 {
     assert(move.sanitycheck());
-    assert(st.homeworldOf(attacker) != nullptr);
-    assert(st.homeworldOf(1-attacker) != nullptr);
+    if (move.isHomeworld()) {
+        if (!st.mightBeSettingUpHomeworldFor(attacker)) return Result::ONLY_DURING_SETUP;
+    } else {
+        if (st.homeworldOf(attacker) == nullptr) return Result::NOT_DURING_SETUP;
+        if (st.homeworldOf(1-attacker) == nullptr) return Result::NOT_DURING_SETUP;
+    }
     bool saw_sacrifice = false;
     for (int i=0; i < (int)move.actions.size(); ++i) {
         const SingleAction &action = move.actions[i];

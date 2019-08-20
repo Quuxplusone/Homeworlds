@@ -10,9 +10,8 @@
 
 class WholeMove {
 public:
-    bool isPass() const {
-        return actions.empty();
-    }
+    bool isPass() const { return actions.empty(); }
+    bool isHomeworld() const { return actions.size() == 1 && actions[0].kind == HOMEWORLD; }
 
     /* We use this operation to build up whole moves piece by piece.
      * Note that any prefix of a legal move is itself a legal move,
@@ -27,6 +26,7 @@ public:
     }
 
     bool isMissingPieces() const;
+    bool isMissingPiecesNeededForSDGString() const;
     int unusedSacrificeActions() const;
 
     std::string toString() const;

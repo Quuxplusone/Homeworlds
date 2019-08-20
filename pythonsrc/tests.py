@@ -48,6 +48,18 @@ class TestWholeMove(unittest.TestCase):
         self.assertEqual(m.toSDGString(), 'pass')
         self.assertEqual(repr(m), "libannotate.WholeMove('pass')")
 
+    def test_homeworld(self):
+        m = L.WholeMove('homeworld y3 b2 g3 Hal')
+        self.assertEqual(m.toString(), 'homeworld y3 b2 g3 Hal')
+        self.assertEqual(m.toSDGString(), 'homeworld y3 b2 g3')
+        self.assertEqual(repr(m), "libannotate.WholeMove('homeworld y3 b2 g3 Hal')")
+
+    def test_homeworld_without_name(self):
+        m = L.WholeMove('homeworld y3 b2 g3')
+        self.assertEqual(m.toString(), 'homeworld y3 b2 g3')
+        self.assertEqual(m.toSDGString(), 'homeworld y3 b2 g3')
+        self.assertEqual(repr(m), "libannotate.WholeMove('homeworld y3 b2 g3')")
+
     def test_catastrophe(self):
         m = L.WholeMove('move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(str(m), 'move y1 from Alpha to Beta; catastrophe yellow at Beta')
@@ -157,6 +169,23 @@ class TestGameState(unittest.TestCase):
         with self.assertRaises(ValueError) as e:
             s.apply(0, L.WholeMove('build y1 at Foo'))
         self.assertEqual(str(e.exception), "The move as parsed was disallowed by the rules.")
+        with self.assertRaises(ValueError) as e:
+            s.apply(0, L.WholeMove('homeworld b1 y2 g3 Sam'))
+        self.assertEqual(str(e.exception), "The move as parsed is not permitted outside of the setup phase.")
+
+        s = L.GameState('Foo (0,b3r1) g3-\n')
+        with self.assertRaises(ValueError) as e:
+            s.apply(0, L.WholeMove('homeworld b1 y2 g3 Sam'))
+        self.assertEqual(str(e.exception), "The move as parsed is not permitted outside of the setup phase.")
+        with self.assertRaises(ValueError) as e:
+            s.apply(1, L.WholeMove('homeworld b1 y2 g3 Foo'))
+        self.assertEqual(str(e.exception), "The move as parsed tried to create a new star system with the same name as an existing one.")
+        with self.assertRaises(ValueError) as e:
+            s.apply(0, L.WholeMove('build g1 at Foo'))
+        self.assertEqual(str(e.exception), "The move as parsed is not permitted during the setup phase.")
+        with self.assertRaises(ValueError) as e:
+            s.apply(1, L.WholeMove('build g1 at Foo'))
+        self.assertEqual(str(e.exception), "The move as parsed is not permitted during the setup phase.")
 
     def test_nonmutating_apply_exceptions(self):
         s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -r1y2')
@@ -190,11 +219,67 @@ class TestGameState(unittest.TestCase):
             Timbuktu (g2) -r1g1
             Player2 (1, y2b1) r3-y2y1
         """)
+        self.assertEqual(s.gameIsOver(), False)
         m = s.getBestMove(0)
         self.assertEqual(m.toString(), 'move y1 from Blueberry to Player2; catastrophe yellow at Player2')
         with self.assertRaises(ValueError) as e:
             s.getBestMove(2)
         self.assertEqual(str(e.exception), "attacker must be 0 or 1")
+
+    def test_getBestMove_from_end_state_1(self):
+        s = L.GameState("""
+            Player1 (0, g3y2) g3-
+            Blueberry (b3) y1y1g1-
+            Player2 (1, y2b1) r3-
+        """)
+        self.assertEqual(s.gameIsOver(), True)
+        with self.assertRaises(ValueError) as e:
+            s.getBestMove(0)
+        self.assertEqual(str(e.exception), "the game appears to be over")
+        with self.assertRaises(ValueError) as e:
+            s.getBestMove(1)
+        self.assertEqual(str(e.exception), "the game appears to be over")
+
+    def test_getBestMove_from_end_state_2(self):
+        s = L.GameState("""
+            Player1 (0, g3y2) g3-
+            Blueberry (b3) y1y1g1-
+        """)
+        self.assertEqual(s.gameIsOver(), True)
+        with self.assertRaises(ValueError) as e:
+            s.getBestMove(0)
+        self.assertEqual(str(e.exception), "the game appears to be over")
+        with self.assertRaises(ValueError) as e:
+            s.getBestMove(1)
+        self.assertEqual(str(e.exception), "the game appears to be over")
+
+    def test_getBestMove_from_setup_state_1(self):
+        s = L.GameState("""
+        """)
+        self.assertEqual(s.gameIsOver(), True)
+        ## TODO: how do we produce a reasonable opening move?
+        m = s.getBestMove(0)
+        self.assertEqual(m.toString(), 'homeworld b3 b3 b3 Hal')
+        s.apply(0, m)
+        self.assertEqual(s.toString(), 'Hal (0, b3b3) b3-\n')
+        m = s.getBestMove(1)
+        self.assertEqual(m.toString(), 'homeworld g2 b2 y3 Yul')
+        s.apply(1, m)
+        self.assertEqual(s.toString(), 'Hal (0, b3b3) b3-\nYul (1, g2b2) -y3\n')
+
+    def test_getBestMove_from_setup_state_2(self):
+        s = L.GameState("""
+        """)
+        self.assertEqual(s.gameIsOver(), True)
+        ## TODO: how do we produce a reasonable opening move?
+        m = s.getBestMove(1)
+        self.assertEqual(m.toString(), 'homeworld b3 b3 b3 Hal')
+        s.apply(1, m)
+        self.assertEqual(s.toString(), 'Hal (1, b3b3) -b3\n')
+        m = s.getBestMove(0)
+        self.assertEqual(m.toString(), 'homeworld g2 b2 y3 Yul')
+        s.apply(0, m)
+        self.assertEqual(s.toString(), 'Hal (1, b3b3) -b3\nYul (0, g2b2) y3-\n')
 
     def test_gameIsOver(self):
         s = L.GameState("""

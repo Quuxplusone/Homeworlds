@@ -97,16 +97,23 @@ std::vector<WholeMove> get_all_moves_sorted_by_value(const GameState &st,
 
 WholeMove get_ai_move(const GameState &st, int attacker)
 {
-    assert(!st.gameIsOver());
+    static const char *homeworld_names[2] = {
+        "Hal", "Yul",  // this should be all we need
+    };
     std::vector<WholeMove> allmoves = get_all_moves_sorted_by_value(st, attacker, false);
-    for (WholeMove& bestmove : allmoves) {
-        if (move_is_stupid_move_into_check(st, attacker, bestmove)) {
-            continue;
-        }
-        /* This move is okay. */
-        reassignPlanetNames(&bestmove, st);
+    if (st.mightBeSettingUpHomeworldFor(attacker)) {
+        assert(!allmoves.empty());
+        WholeMove& bestmove = allmoves[0];
+        reassignPlanetNames(&bestmove, st, homeworld_names);
         return std::move(bestmove);
+    } else {
+        for (WholeMove& bestmove : allmoves) {
+            if (!move_is_stupid_move_into_check(st, attacker, bestmove)) {
+                reassignPlanetNames(&bestmove, st);
+                return std::move(bestmove);
+            }
+        }
+        /* All possible moves led into check! */
+        return WholeMove("pass");
     }
-    /* All possible moves led into check! */
-    return WholeMove("pass");
 }

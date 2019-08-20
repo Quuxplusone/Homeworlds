@@ -15,6 +15,8 @@ struct ApplyMove {
         AMBIGUOUS,
         IMPOSSIBLE,
         SUICIDE,
+        NOT_DURING_SETUP,
+        ONLY_DURING_SETUP,
     };
 
     /* If the given "action" is legal to perform from this state, perform it

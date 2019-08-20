@@ -62,6 +62,9 @@ class History {
     History(): hidx(0) {
         hvec.push_back(Node());
     }
+    bool game_has_just_ended() const {
+        return (hidx > 0) && hvec[hidx].st.gameIsOver() && !hvec[hidx-1].st.gameIsOver();
+    }
     void setup(const GameState &st) {
         assert(hidx == 0);
         assert(hvec.size() == 1);
@@ -462,6 +465,12 @@ static void make_move_and_report(int attacker, const WholeMove& move)
     const GameState& newst = g_History.currentState();
     bool game_is_over = newst.gameIsOver();
 
+    if (move.isHomeworld()) {
+        const StarSystem *hw = newst.homeworldOf(attacker);
+        assert(hw != nullptr);
+        g_playerNames[attacker] = hw->name;
+    }
+
     if (g_ReportBlunders) {
         if (was_boneheaded_move(oldst, attacker, move, newst)) {
             printf("%s blundered into check on this move:\n%s\n",
@@ -521,7 +530,7 @@ static void make_move_and_report(int attacker, const WholeMove& move)
 
 static bool move_and_record(int attacker)
 {
-    const bool game_is_over = g_History.currentState().gameIsOver();
+    const bool game_is_over = g_History.game_has_just_ended();
     char *moveline_cstr = nullptr;
     std::string moveline;
 
@@ -672,6 +681,12 @@ static bool move_and_record(int attacker)
                             case ApplyMove::Result::IMPOSSIBLE:
                                 puts("The move as parsed was disallowed by the rules. The move was:");
                                 break;
+                            case ApplyMove::Result::NOT_DURING_SETUP:
+                                puts("The move as parsed was not permitted during the setup phase of the game. The move was:");
+                                break;
+                            case ApplyMove::Result::ONLY_DURING_SETUP:
+                                puts("The move as parsed was not permitted outside of the setup phase of the game. The move was:");
+                                break;
                             default:
                                 assert(false);
                         }
@@ -726,9 +741,14 @@ int main(int argc, char **argv)
 
     if (auto_setup && arg_index == argc) {
         /* "annotate --auto" means that the input will be in the form of a
-         * game transcript, and we should be quiet instead of verbose. */
+         * game transcript, and we should be quiet instead of verbose.
+         * The transcript might begin with a game state, or it might begin
+         * with "homeworld" moves. */
         g_Verbose = false;
         std::string firstline = initialState.scan(stdin);
+
+        WholeMove firstmove;
+        bool firstline_is_homeworld_move = (firstmove.scan(firstline.c_str()) && firstmove.isHomeworld());
         firstline += "\n";
         for (int i = firstline.length(); i > 0; --i) {
             int rc = ungetc(firstline[i-1], stdin);
@@ -739,16 +759,22 @@ int main(int argc, char **argv)
             }
         }
         assignPlanetNames(&initialState);
-        StarSystem *hw = initialState.homeworldOf(0);
-        if (hw == nullptr) {
-            do_error("The initial homeworld setup didn't include Player 0's homeworld!");
+        if (firstline_is_homeworld_move) {
+            // g_playerNames will be initialized during the game.
+            g_playerNames[0] = "Player 0";
+            g_playerNames[1] = "Player 1";
+        } else {
+            StarSystem *hw = initialState.homeworldOf(0);
+            if (hw == nullptr) {
+                do_error("The initial homeworld setup didn't include Player 0's homeworld!");
+            }
+            g_playerNames[0] = hw->name;
+            hw = initialState.homeworldOf(1);
+            if (hw == nullptr) {
+                do_error("The initial homeworld setup didn't include Player 1's homeworld!");
+            }
+            g_playerNames[1] = hw->name;
         }
-        g_playerNames[0] = hw->name;
-        hw = initialState.homeworldOf(1);
-        if (hw == nullptr) {
-            do_error("The initial homeworld setup didn't include Player 1's homeworld!");
-        }
-        g_playerNames[1] = hw->name;
     } else if (!auto_setup && arg_index+2 == argc) {
         /* "annotate Sam Dave" means that the input will be entered via the
          * keyboard as the game progresses, and we should be verbose

@@ -8,20 +8,21 @@
 #include <vector>
 
 enum SingleActionKind {
-    CATASTROPHE, SACRIFICE, CAPTURE, MOVE, MOVE_CREATE, BUILD, CONVERT
+    HOMEWORLD, CATASTROPHE, SACRIFICE, CAPTURE, MOVE, MOVE_CREATE, BUILD, CONVERT
 };
 
 /* A SingleAction is one of
+ *     homeworld %piece %newpiece %piece3
  *     catastrophe %color at %where
- *     sacrifice %color%size at %where
- *     capture %color%size at %where
+ *     sacrifice %piece at %where
+ *     capture %piece at %where
  *       [from %defender, but we needn't implement that yet]
- *     move %color%size from %where to %whither
+ *     move %piece from %where to %whither
  *       [this is the MOVE kind]
- *     move %color%size from %where to %whither (%newcolor%newsize)
+ *     move %piece from %where to %whither (%newpiece)
  *       [this is the MOVE_CREATE kind]
- *     build %color%size at %where
- *     convert %color%size to %newcolor%size at %where
+ *     build %piece at %where
+ *     convert %piece to %newpiece at %where
  * Various SingleActions can be combined into one WholeMove
  * using the + and += operators.
  *   Note that any field of a SingleAction (except for the "kind")
@@ -33,6 +34,7 @@ enum SingleActionKind {
 class SingleAction {
 public:
     bool isMissingPieces() const;
+    bool isMissingPiecesNeededForSDGString() const;
     bool getAssociatedColor(Color *color) const;
 
     std::string toString() const;
@@ -45,6 +47,11 @@ public:
     /* These constructors are provided for efficiency. If you don't care about efficiency,
      * you should probably just use the constructor SingleAction(const char *) and let it parse
      * out the action for you. */
+
+    // SingleAction(HOMEWORLD, p1, p2, ship, "Homeworldname")
+    explicit SingleAction(SingleActionKind k, Piece p1, Piece p2, Piece ship, const char *w) :
+      kind(k), where(w), piece(p1), newpiece(p2), piece3(ship)
+      { assert(k == HOMEWORLD); }
 
     // SingleAction(SACRIFICE, r1, "Sacloc")
     // SingleAction(CAPTURE, r1, "Caploc")
@@ -91,4 +98,5 @@ public:
     std::string whither;
     Piece piece;
     Piece newpiece;
+    Piece piece3;
 };

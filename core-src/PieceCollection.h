@@ -43,6 +43,7 @@ public:
 
     explicit PieceCollection();
 
+    bool contains(Piece p) const { return pieces[p.color][p.size] != 0; }
     bool contains(const PieceCollection &) const;
     bool operator == (const PieceCollection &) const;
     bool operator != (const PieceCollection &rhs) const { return !(*this == rhs); }

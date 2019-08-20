@@ -421,6 +421,8 @@ bool inferMoveFromState(GameState newst, int attacker, WholeMove *move)
         assert(action.sanitycheck());
         if (action.isMissingPieces()) {
             switch (action.kind) {
+                case HOMEWORLD:
+                    return false;
                 case CATASTROPHE:
                     if (!infer_catastrophe(newst, *move, action)) return false;
                     break;

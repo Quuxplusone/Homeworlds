@@ -47,6 +47,7 @@ bool WholeMove::sanitycheck() const
         while (i < n && actions[i].kind != CATASTROPHE) {
             if (!actions[i].sanitycheck()) return false;
             switch (actions[i].kind) {
+                case HOMEWORLD: return false;
                 case CATASTROPHE: assert(false); return false;
                 case SACRIFICE: return false;
                 case CAPTURE: if (sac_color != UNKNOWN_COLOR && sac_color != RED) return false; break;
@@ -63,6 +64,7 @@ bool WholeMove::sanitycheck() const
     } else {
         /* A single free action. */
         if (!actions[i].sanitycheck()) return false;
+        if (actions[i].kind == HOMEWORLD && n != 1) return false;
         ++i;
     }
     /* The move may end with a sequence of catastrophes. */
@@ -72,11 +74,18 @@ bool WholeMove::sanitycheck() const
     return (i == n);
 }
 
-
 bool WholeMove::isMissingPieces() const
 {
     for (const auto& action : actions) {
         if (action.isMissingPieces()) return true;
+    }
+    return false;
+}
+
+bool WholeMove::isMissingPiecesNeededForSDGString() const
+{
+    for (const auto& action : actions) {
+        if (action.isMissingPiecesNeededForSDGString()) return true;
     }
     return false;
 }
@@ -87,6 +96,7 @@ int WholeMove::unusedSacrificeActions() const
     int used_actions = 0;
     for (int i=0; i < (int)actions.size(); ++i) {
         switch (actions[i].kind) {
+            case HOMEWORLD: break;
             case CATASTROPHE: break;
             case SACRIFICE: {
                 Size sac_size = actions[i].piece.size;

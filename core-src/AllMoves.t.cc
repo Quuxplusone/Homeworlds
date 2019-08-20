@@ -5,11 +5,11 @@
 #include "WholeMove.h"
 #include <gtest/gtest.h>
 
-static bool can_reach(const GameState& oldst, bool only_wins, const GameState& targetst)
+static bool can_reach(const GameState& oldst, int attacker, bool only_wins, const GameState& targetst)
 {
     std::string target = targetst.toComparableString();
     return findAllMoves(
-        oldst, 0,
+        oldst, attacker,
         false, only_wins, 0xF,
         [&](const WholeMove&, const GameState& newst) {
             return (newst.toComparableString() == target);
@@ -26,7 +26,7 @@ static bool can_reach(const GameState& oldst, bool only_wins, const GameState& t
         EXPECT_EQ(ApplyMove::Whole(newst, 0, m), ApplyMove::Result::SUCCESS); \
         EXPECT_TRUE(newst.gameIsOver()); \
         EXPECT_TRUE(newst.hasLost(1)); \
-        EXPECT_TRUE(can_reach(st, true, newst)); \
+        EXPECT_TRUE(can_reach(st, 0, true, newst)); \
     } while (0)
 
 #define EXPECT_WINNING_BUT_OVERCOMPLICATED_MOVE(text) do { \
@@ -38,27 +38,33 @@ static bool can_reach(const GameState& oldst, bool only_wins, const GameState& t
         EXPECT_EQ(ApplyMove::Whole(newst, 0, m), ApplyMove::Result::SUCCESS); \
         EXPECT_TRUE(newst.gameIsOver()); \
         EXPECT_TRUE(newst.hasLost(1)); \
-        EXPECT_TRUE(can_reach(st, false, newst)); \
+        EXPECT_TRUE(can_reach(st, 0, false, newst)); \
     } while (0)
 
-#define EXPECT_LEGAL_MOVE(text) do { \
+#define EXPECT_LEGAL_MOVE_IMPL(attacker, text) do { \
         WholeMove m; \
         GameState newst = st; \
         EXPECT_TRUE(m.scan(text)); \
         EXPECT_TRUE(m.sanitycheck()); \
-        EXPECT_TRUE(inferMoveFromState(newst, 0, &m)); \
-        EXPECT_EQ(ApplyMove::Whole(newst, 0, m), ApplyMove::Result::SUCCESS); \
-        EXPECT_FALSE(newst.gameIsOver()); \
-        EXPECT_TRUE(can_reach(st, false, newst)); \
+        EXPECT_TRUE(inferMoveFromState(newst, attacker, &m)); \
+        EXPECT_EQ(ApplyMove::Whole(newst, attacker, m), ApplyMove::Result::SUCCESS); \
+        EXPECT_TRUE(st.gameIsOver() || !newst.gameIsOver()); \
+        EXPECT_TRUE(can_reach(st, attacker, false, newst)); \
     } while (0)
 
-#define EXPECT_ILLEGAL_MOVE(text) do { \
+#define EXPECT_LEGAL_MOVE(text) EXPECT_LEGAL_MOVE_IMPL(0, text)
+#define EXPECT_LEGAL_MOVE1(text) EXPECT_LEGAL_MOVE_IMPL(1, text)
+
+#define EXPECT_ILLEGAL_MOVE_IMPL(attacker, text) do { \
         WholeMove m; \
         EXPECT_TRUE(m.scan(text)); \
         EXPECT_TRUE(m.sanitycheck()); \
-        EXPECT_TRUE(inferMoveFromState(st, 0, &m)); \
-        EXPECT_FALSE(ApplyMove::isValidMove(st, 0, m)); \
+        EXPECT_TRUE(inferMoveFromState(st, attacker, &m)); \
+        EXPECT_FALSE(ApplyMove::isValidMove(st, attacker, m)); \
     } while (0)
+
+#define EXPECT_ILLEGAL_MOVE(text) EXPECT_ILLEGAL_MOVE_IMPL(0, text)
+#define EXPECT_ILLEGAL_MOVE1(text) EXPECT_ILLEGAL_MOVE_IMPL(1, text)
 
 #define EXPECT_AMBIGUOUS_MOVE(text) do { \
         WholeMove m; \
@@ -72,6 +78,84 @@ static GameState from(const char *text)
     GameState st;
     EXPECT_TRUE(st.scan(text));
     return st;
+}
+
+TEST(AllMoves, make_first_homeworld) {
+    GameState st;
+    st.newGame();
+    EXPECT_FALSE(findWinningMove(st, 0, nullptr));
+    EXPECT_LEGAL_MOVE("homeworld r1 y1 b1 Player1");
+    EXPECT_LEGAL_MOVE("homeworld g3 b2 y3 Player1");
+    int count = 0;
+    findAllMoves(st, 0, false, false, 0xF, [&](const WholeMove&, const GameState&) { ++count; return false; });
+    EXPECT_EQ(count, 12 * ((12*11)/2 + 12));
+}
+
+TEST(AllMoves, make_second_homeworld) {
+    GameState st = from(R"(
+        Player1 (0, r3g1) b3-
+    )");
+
+    EXPECT_FALSE(findWinningMove(st, 1, nullptr));
+    EXPECT_LEGAL_MOVE1("homeworld r2 y2 b2 Player2");
+    EXPECT_LEGAL_MOVE1("homeworld g3 b2 y3 Player2");
+    EXPECT_LEGAL_MOVE1("homeworld r3 g1 b3 Player2");
+    int count = 0;
+    findAllMoves(st, 1, false, false, 0xF, [&](const WholeMove&, const GameState&) { ++count; return false; });
+    EXPECT_EQ(count, 12 * ((12*11)/2 + 12) - 3);
+}
+
+TEST(AllMoves, make_second_homeworld_with_player_one) {
+    GameState st = from(R"(
+        Player2 (1, r3g1) b3-
+    )");
+    EXPECT_FALSE(findWinningMove(st, 0, nullptr));
+    EXPECT_LEGAL_MOVE("homeworld r2 y2 b2 Player1");
+    EXPECT_LEGAL_MOVE("homeworld g3 b2 y3 Player1");
+    EXPECT_LEGAL_MOVE("homeworld r3 g1 b3 Player1");
+    int count = 0;
+    findAllMoves(st, 0, false, false, 0xF, [&](const WholeMove&, const GameState&) { ++count; return false; });
+    EXPECT_EQ(count, 12 * ((12*11)/2 + 12) - 3);
+}
+
+TEST(AllMoves, make_second_homeworld_only_from_available_pieces) {
+    GameState st = from(R"(
+        Player2 (1, b1b1) b1-
+    )");
+    EXPECT_FALSE(findWinningMove(st, 0, nullptr));
+    EXPECT_LEGAL_MOVE("homeworld r1 y1 b2 Player1");
+    EXPECT_ILLEGAL_MOVE("homeworld r1 y1 b2 Player2");  // repeated name
+    EXPECT_ILLEGAL_MOVE("homeworld r2 y1 b1 Player1");  // no b1 available
+    EXPECT_ILLEGAL_MOVE("homeworld r2 b1 y1 Player1");  // no b1 available
+    EXPECT_ILLEGAL_MOVE("homeworld b1 b2 g1 Player1");  // no b1 available
+    int count = 0;
+    findAllMoves(st, 0, false, false, 0xF, [&](const WholeMove&, const GameState&) { ++count; return false; });
+    EXPECT_EQ(count, 11 * ((11*10)/2 + 11));
+}
+
+TEST(AllMoves, homeworld_outside_of_setup_phase) {
+    GameState st = from(R"(
+        Player1 (0, r3g1) r3-
+        Player2 (1, y2g1) -b3
+    )");
+    EXPECT_ILLEGAL_MOVE("homeworld r3 g1 r3 Player1");
+    EXPECT_ILLEGAL_MOVE("homeworld r3 g1 r3 Player3");
+}
+
+TEST(AllMoves, player0_non_homeworld_during_setup_phase) {
+    GameState st = from(R"(
+        Player1 (0, r3g1) r3-
+    )");
+    EXPECT_ILLEGAL_MOVE("build r1 at Player1");
+    EXPECT_ILLEGAL_MOVE("pass");
+}
+
+TEST(AllMoves, player1_non_homeworld_during_setup_phase) {
+    GameState st = from(R"(
+        Player1 (0, r3g1) r3-
+    )");
+    EXPECT_ILLEGAL_MOVE1("build r1 at Player1");
+    EXPECT_ILLEGAL_MOVE1("pass");
 }
 
 TEST(AllMoves, nowin_and_cant_avoid_catastrophe) {
