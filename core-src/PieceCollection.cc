@@ -24,7 +24,7 @@ Size PieceCollection::smallestSizeOf(Color c) const
     /*NOTREACHED*/
 }
 
-bool PieceCollection::contains(const PieceCollection &rhs) const
+bool PieceCollection::contains(const PieceCollection& rhs) const
 {
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
@@ -36,7 +36,7 @@ bool PieceCollection::contains(const PieceCollection &rhs) const
     return true;
 }
 
-bool PieceCollection::operator == (const PieceCollection &rhs) const
+bool PieceCollection::operator==(const PieceCollection& rhs) const
 {
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
@@ -48,7 +48,7 @@ bool PieceCollection::operator == (const PieceCollection &rhs) const
     return true;
 }
 
-PieceCollection &PieceCollection::operator -= (const PieceCollection &rhs)
+void PieceCollection::operator-=(const PieceCollection& rhs)
 {
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
@@ -56,17 +56,15 @@ PieceCollection &PieceCollection::operator -= (const PieceCollection &rhs)
             this->pieces[c][s] -= rhs.pieces[c][s];
         }
     }
-    return *this;
 }
 
-PieceCollection &PieceCollection::operator += (const PieceCollection &rhs)
+void PieceCollection::operator+=(const PieceCollection& rhs)
 {
     for (Color c = RED; c <= BLUE; ++c) {
         for (Size s = SMALL; s <= LARGE; ++s) {
             this->pieces[c][s] += rhs.pieces[c][s];
         }
     }
-    return *this;
 }
 
 /* This function takes a char buffer, stores the representation of this

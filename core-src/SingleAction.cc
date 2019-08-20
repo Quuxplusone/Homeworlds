@@ -400,23 +400,23 @@ std::string SingleAction::toString() const
                 OPT(" ", color2str(color)), OPT(" at ", where.c_str()));
         case SACRIFICE:
             return mprintf("sacrifice%s%s%s%s",
-                OPT(" ", piece2str(color, size)), OPT(" at ", where.c_str()));
+                OPT(" ", Piece(color, size).toString()), OPT(" at ", where.c_str()));
         case CAPTURE:
             return mprintf("capture%s%s%s%s",
-                OPT(" ", piece2str(color, size)), OPT(" at ", where.c_str()));
+                OPT(" ", Piece(color, size).toString()), OPT(" at ", where.c_str()));
         case MOVE:
             return mprintf("move%s%s%s%s to %s",
-                OPT(" ", piece2str(color, size)), OPT(" from ", where.c_str()), whither.c_str());
+                OPT(" ", Piece(color, size).toString()), OPT(" from ", where.c_str()), whither.c_str());
         case MOVE_CREATE:
             return mprintf("move%s%s%s%s to %s (%s)",
-                OPT(" ", piece2str(color, size)), OPT(" from ", where.c_str()), whither.c_str(),
-                piece2str(newcolor, newsize));
+                OPT(" ", Piece(color, size).toString()), OPT(" from ", where.c_str()), whither.c_str(),
+                Piece(newcolor, newsize).toString());
         case BUILD:
             return mprintf("build%s%s%s%s",
-                OPT(" ", piece2str(color, size)), OPT(" at ", where.c_str()));
+                OPT(" ", Piece(color, size).toString()), OPT(" at ", where.c_str()));
         case CONVERT:
             return mprintf("convert%s%s to %s%s%s",
-                OPT(" ", piece2str(color, size)), piece2str(newcolor, size),
+                OPT(" ", Piece(color, size).toString()), Piece(newcolor, size).toString(),
                 OPT(" at ", where.c_str()));
         default:
             assert(false);
@@ -433,23 +433,23 @@ std::string SingleAction::toSDGString() const
                 where.c_str(), color2str(color));
         case SACRIFICE:
             return mprintf("sacrifice %s %s",
-                piece2str(color, size), where.c_str());
+                Piece(color, size).toString(), where.c_str());
         case CAPTURE:
             return mprintf("attack %s %s",
-                piece2str(color, size), where.c_str());
+                Piece(color, size).toString(), where.c_str());
         case MOVE:
             return mprintf("move %s %s %s",
-                piece2str(color, size), where.c_str(), whither.c_str());
+                Piece(color, size).toString(), where.c_str(), whither.c_str());
         case MOVE_CREATE:
             return mprintf("discover %s %s %s %s",
-                piece2str(color, size), where.c_str(),
-                piece2str(newcolor, newsize), whither.c_str());
+                Piece(color, size).toString(), where.c_str(),
+                Piece(newcolor, newsize).toString(), whither.c_str());
         case BUILD:
             return mprintf("build %s %s",
-                piece2str(color, size), where.c_str());
+                Piece(color, size).toString(), where.c_str());
         case CONVERT:
             return mprintf("trade %s %s %s",
-                piece2str(color, size), piece2str(newcolor, size), where.c_str());
+                Piece(color, size).toString(), Piece(newcolor, size).toString(), where.c_str());
         default:
             assert(false);
     }
