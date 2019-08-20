@@ -20,8 +20,8 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
 {
     StarSystem *where = st.systemNamed(action.where.c_str());
     if (where == nullptr) return Result::UNKNOWN_NAME;
-    const Color c = action.color;
-    const Size s = action.size;
+    const Color c = action.piece.color;
+    const Size s = action.piece.size;
 
     switch (action.kind) {
         case CATASTROPHE: {
@@ -77,7 +77,7 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
             StarSystem *dest = st.systemNamed(action.whither.c_str());
             if (dest != nullptr) return Result::DUPLICATE_NAME;
             /* Create a new star system. */
-            if (st.stash.numberOf(action.newcolor, action.newsize) == 0) return Result::IMPOSSIBLE;
+            if (st.stash.numberOf(action.newpiece) == 0) return Result::IMPOSSIBLE;
             /* Unfortunately, push_back() invalidates pointers into the vector,
              * so we have to save and recalculate "where". */
             const int wherei = (where - &st.stars[0]);
@@ -86,8 +86,8 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
             /* All right, now continue. */
             dest = &st.stars.back();
             dest->name = action.whither;
-            st.stash.remove(action.newcolor, action.newsize);
-            dest->star.insert(action.newcolor, action.newsize);
+            st.stash.remove(action.newpiece);
+            dest->star.insert(action.newpiece);
             if (!dest->isAdjacentTo(*where)) return Result::IMPOSSIBLE;
             where->ships[attacker].remove(c,s);
             dest->ships[attacker].insert(c,s);
@@ -108,12 +108,12 @@ ApplyMove::Result ApplyMove::Single(GameState &st, int attacker, const SingleAct
             /* Assume the player has access to BLUE here, or has sacrificed. */
             if (c == UNKNOWN_COLOR) return Result::AMBIGUOUS;
             if (s == UNKNOWN_SIZE) return Result::AMBIGUOUS;
-            if (st.stash.numberOf(action.newcolor,s) == 0) return Result::IMPOSSIBLE;
+            if (st.stash.numberOf(action.newpiece) == 0) return Result::IMPOSSIBLE;
             if (where->ships[attacker].numberOf(c,s) == 0) return Result::IMPOSSIBLE;
             where->ships[attacker].remove(c,s);
             st.stash.insert(c,s);
-            st.stash.remove(action.newcolor,s);
-            where->ships[attacker].insert(action.newcolor,s);
+            st.stash.remove(action.newpiece);
+            where->ships[attacker].insert(action.newpiece);
             break;
         }
         default: assert(false);

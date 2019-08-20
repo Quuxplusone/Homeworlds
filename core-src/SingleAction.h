@@ -1,5 +1,6 @@
 #pragma once
 
+#include "PieceCollection.h"
 #include "global.h"
 #include <assert.h>
 #include <stdio.h>
@@ -44,31 +45,37 @@ public:
     /* These constructors are provided for efficiency. If you don't care about efficiency,
      * you should probably just use the constructor SingleAction(const char *) and let it parse
      * out the action for you. */
-    /* SingleAction(SACRIFICE, RED, SMALL, "Sacloc")
-     * SingleAction(CAPTURE, RED, SMALL, "Caploc")
-     * SingleAction(BUILD, RED, SMALL, "Buildloc") */
-    explicit SingleAction(SingleActionKind k, Color c, Size s, const char *w):
-      kind(k), where(w), color(c), size(s)
+
+    // SingleAction(SACRIFICE, r1, "Sacloc")
+    // SingleAction(CAPTURE, r1, "Caploc")
+    // SingleAction(BUILD, r1, "Buildloc")
+    explicit SingleAction(SingleActionKind k, Piece p, const char *w) :
+      kind(k), where(w), piece(p)
       { assert(k == SACRIFICE || k == CAPTURE || k == BUILD); }
-    /* SingleAction(CATASTROPHE, RED, "Catloc") */
-    explicit SingleAction(SingleActionKind k, Color c, const char *w):
-      kind(k), where(w), color(c)
+
+    // SingleAction(CATASTROPHE, RED, "Catloc")
+    explicit SingleAction(SingleActionKind k, Color c, const char *w) :
+      kind(k), where(w), piece(c, UNKNOWN_SIZE)
       { assert(k == CATASTROPHE); }
-    /* SingleAction(MOVE, RED, SMALL, "Fromloc", "Toloc") */
-    explicit SingleAction(SingleActionKind k, Color c, Size s, const char *w, const char *wr):
-      kind(k), where(w), whither(wr), color(c), size(s)
+
+    // SingleAction(MOVE, r1, "Fromloc", "Toloc")
+    explicit SingleAction(SingleActionKind k, Piece p, const char *w, const char *wr) :
+      kind(k), where(w), whither(wr), piece(p)
       { assert(k == MOVE); }
-    /* SingleAction(MOVE_CREATE, RED, SMALL, "Fromloc", "Toloc", BLUE, MEDIUM) */
-    explicit SingleAction(SingleActionKind k, Color c, Size s, const char *w, const char *wr, Color nc, Size ns):
-      kind(k), where(w), whither(wr), color(c), size(s), newcolor(nc), newsize(ns)
+
+    // SingleAction(MOVE_CREATE, r1, "Fromloc", "Toloc", b2)
+    explicit SingleAction(SingleActionKind k, Piece p, const char *w, const char *wr, Piece np):
+      kind(k), where(w), whither(wr), piece(p), newpiece(np)
       { assert(k == MOVE_CREATE); }
-    /* SingleAction(MOVE_CREATE, RED, SMALL, "Fromloc", string("Toloc"), BLUE, MEDIUM) */
-    explicit SingleAction(SingleActionKind k, Color c, Size s, const char *w, std::string wr, Color nc, Size ns):
-      kind(k), where(w), whither(std::move(wr)), color(c), size(s), newcolor(nc), newsize(ns)
+
+    // SingleAction(MOVE_CREATE, r1, "Fromloc", string("Toloc"), b2)
+    explicit SingleAction(SingleActionKind k, Piece p, const char *w, std::string wr, Piece np):
+      kind(k), where(w), whither(std::move(wr)), piece(p), newpiece(np)
       { assert(k == MOVE_CREATE); }
-    /* SingleAction(CONVERT, RED, SMALL, BLUE, "Atloc") */
-    explicit SingleAction(SingleActionKind k, Color c, Size s, Color nc, const char *w):
-      kind(k), where(w), color(c), size(s), newcolor(nc), newsize(s)
+
+    // SingleAction(CONVERT, r1, b1, "Atloc")
+    explicit SingleAction(SingleActionKind k, Piece p, Piece np, const char *w) :
+      kind(k), where(w), piece(p), newpiece(np)
       { assert(k == CONVERT); }
 
     bool sanitycheck() const;
@@ -82,8 +89,6 @@ public:
     SingleActionKind kind;
     std::string where;
     std::string whither;
-    Color color;
-    Size size;
-    Color newcolor;
-    Size newsize;
+    Piece piece;
+    Piece newpiece;
 };

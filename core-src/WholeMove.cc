@@ -37,9 +37,9 @@ bool WholeMove::sanitycheck() const
 
     if (actions[i].kind == SACRIFICE) {
         if (!actions[i].sanitycheck()) return false;
-        Color sac_color = actions[i].color;
-        Size sac_size = actions[i].size;
-        int entitled_actions = (sac_size == UNKNOWN_SIZE) ? 3 : (1+(int)actions[i].size);
+        Color sac_color = actions[i].piece.color;
+        Size sac_size = actions[i].piece.size;
+        int entitled_actions = (sac_size == UNKNOWN_SIZE) ? 3 : (1+(int)sac_size);
         int last_entitled_action_idx = i + entitled_actions;
         ++i;
         /* All the actions from here up to the final sequence
@@ -89,8 +89,8 @@ int WholeMove::unusedSacrificeActions() const
         switch (actions[i].kind) {
             case CATASTROPHE: break;
             case SACRIFICE: {
-                Size sac_size = actions[i].size;
-                entitled_actions = (sac_size == UNKNOWN_SIZE) ? 3 : (1+(int)actions[i].size);
+                Size sac_size = actions[i].piece.size;
+                entitled_actions = (sac_size == UNKNOWN_SIZE) ? 3 : (1+(int)sac_size);
                 break;
             }
             case CAPTURE: case MOVE: case MOVE_CREATE:

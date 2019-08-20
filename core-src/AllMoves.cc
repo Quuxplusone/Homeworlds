@@ -337,7 +337,7 @@ static void combine_normal(const WholeMove &m,
                 /* Note that we needn't worry about duplicates; e.g., there's
                  * only one sacrifice to consider at "Alpha (y1) r2r2r2 -". */
                 if (where.ships[attacker].numberOf(c,s) == 0) continue;
-                SingleAction newaction(SACRIFICE, c,s, where.name.c_str());
+                SingleAction newaction(SACRIFICE, Piece(c, s), where.name.c_str());
                 WholeMove newm(m, newaction);
                 GameState newst = st;
                 ApplyMove::or_die(newst, attacker, newaction);
@@ -417,7 +417,7 @@ static void combine_one_red_action(const WholeMove &m,
             /* Note that a CAPTURE move has a "defender" in addition to the
              * "attacker", but in the two-player game the defender is just
              * "the other guy". */
-            SingleAction newaction(CAPTURE, c,s, where.name.c_str());
+            SingleAction newaction(CAPTURE, Piece(c, s), where.name.c_str());
             WholeMove newm(m, newaction);
             GameState newst = st;
             ApplyMove::or_die(newst, attacker, newaction);
@@ -517,7 +517,7 @@ static void combine_one_yellow_action(const WholeMove &m,
         for (Color c = RED; c <= BLUE; ++c) {
             for (Size s = SMALL; s <= LARGE; ++s) {
                 if (where.ships[attacker].numberOf(c,s) == 0) continue;
-                SingleAction newaction(MOVE, c,s, where.name.c_str(), whither.name.c_str());
+                SingleAction newaction(MOVE, Piece(c, s), where.name.c_str(), whither.name.c_str());
                 WholeMove newm(m, newaction);
                 GameState newst = st;
                 ApplyMove::or_die(newst, attacker, newaction);
@@ -540,7 +540,7 @@ static void combine_one_yellow_action(const WholeMove &m,
                 if (where.star.numberOf(ns) != 0) continue;
                 for (Color nc = RED; nc <= BLUE; ++nc) {
                     if (st.stash.numberOf(nc,ns) == 0) continue;
-                    SingleAction newaction(MOVE_CREATE, c, s, where.name.c_str(), make_random_name(st), nc, ns);
+                    SingleAction newaction(MOVE_CREATE, Piece(c, s), where.name.c_str(), make_random_name(st), Piece(nc, ns));
                     WholeMove newm(m, newaction);
                     GameState newst = st;
                     ApplyMove::or_die(newst, attacker, newaction);
@@ -571,7 +571,7 @@ static void combine_one_green_action(const WholeMove &m,
         if (where.ships[attacker].numberOf(c) == 0) continue;
         if (st.stash.numberOf(c) == 0) continue;
         const Size s = st.stash.smallestSizeOf(c);
-        SingleAction newaction(BUILD, c,s, where.name.c_str());
+        SingleAction newaction(BUILD, Piece(c, s), where.name.c_str());
         WholeMove newm(m, newaction);
         GameState newst = st;
         ApplyMove::or_die(newst, attacker, newaction);
@@ -604,7 +604,7 @@ static void combine_one_blue_action(const WholeMove &m,
             for (Color nc = RED; nc <= BLUE; ++nc) {
                 if (nc == c) continue;
                 if (st.stash.numberOf(nc,s) == 0) continue;
-                SingleAction newaction(CONVERT, c,s, nc, where.name.c_str());
+                SingleAction newaction(CONVERT, Piece(c, s), Piece(nc, s), where.name.c_str());
                 WholeMove newm(m, newaction);
                 GameState newst = st;
                 ApplyMove::or_die(newst, attacker, newaction);

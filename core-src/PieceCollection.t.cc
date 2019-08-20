@@ -26,6 +26,22 @@ TEST(Piece, toString) {
     EXPECT_STREQ(Piece(UNKNOWN_COLOR, UNKNOWN_SIZE).toString(), "");
 }
 
+TEST(Piece, isMissingPieces) {
+    EXPECT_FALSE(Piece(RED, SMALL).isMissingPieces());
+    EXPECT_FALSE(Piece(YELLOW, MEDIUM).isMissingPieces());
+    EXPECT_TRUE(Piece(YELLOW, UNKNOWN_SIZE).isMissingPieces());
+    EXPECT_TRUE(Piece(UNKNOWN_COLOR, MEDIUM).isMissingPieces());
+    EXPECT_TRUE(Piece(UNKNOWN_COLOR, UNKNOWN_SIZE).isMissingPieces());
+}
+
+TEST(Piece, isEmpty) {
+    EXPECT_FALSE(Piece(RED, SMALL).empty());
+    EXPECT_FALSE(Piece(YELLOW, MEDIUM).empty());
+    EXPECT_FALSE(Piece(YELLOW, UNKNOWN_SIZE).empty());
+    EXPECT_FALSE(Piece(UNKNOWN_COLOR, MEDIUM).empty());
+    EXPECT_TRUE(Piece(UNKNOWN_COLOR, UNKNOWN_SIZE).empty());
+}
+
 TEST(PieceCollection, defaultCtor) {
     PieceCollection pc;
     EXPECT_TRUE(pc.empty());

@@ -7,6 +7,7 @@ struct Piece {
     Color color : 4;
     Size size : 4;
 
+    explicit Piece() : color(UNKNOWN_COLOR), size(UNKNOWN_SIZE) {}
     explicit Piece(Color c, Size s) : color(c), size(s) {}
 
     const char *toString() const {
@@ -18,6 +19,19 @@ struct Piece {
             { "1",  "2",  "3",  "" }
         };
         return tab[color][size];
+    }
+
+    bool sanitycheck() const {
+        return (color == RED || color == YELLOW || color == GREEN || color == BLUE || color == UNKNOWN_COLOR) &&
+               (size == SMALL || size == MEDIUM || size == LARGE || size == UNKNOWN_SIZE);
+    }
+
+    bool empty() const {
+        return (color == UNKNOWN_COLOR && size == UNKNOWN_SIZE);
+    }
+
+    bool isMissingPieces() const {
+        return (color == UNKNOWN_COLOR || size == UNKNOWN_SIZE);
     }
 };
 
@@ -39,6 +53,7 @@ public:
     int numberOf(Size s) const { return pieces[RED][s]+pieces[YELLOW][s]
                                        +pieces[GREEN][s]+pieces[BLUE][s]; }
     int numberOf(Color c, Size s) const { return pieces[c][s]; }
+    int numberOf(Piece p) const { return pieces[p.color][p.size]; }
     int numberAtLeast(Size s) const {
         if (s == SMALL) return number();
         else if (s == MEDIUM) return numberOf(MEDIUM) + numberOf(LARGE);
@@ -57,8 +72,10 @@ public:
     }
 
     void clear();
+    void insert(Piece p) { pieces[p.color][p.size] += 1; }
     void insert(Color c, Size s) { pieces[c][s] += 1; }
     void insert(Color c, Size s, int count) { pieces[c][s] += count; }
+    void remove(Piece p) { pieces[p.color][p.size] -= 1; }
     void remove(Color c, Size s) { pieces[c][s] -= 1; }
     void removeAll(Color c) { pieces[c][SMALL] = 0; pieces[c][MEDIUM] = 0; pieces[c][LARGE] = 0; }
     void removeAll(Size s) { pieces[RED][s] = 0; pieces[YELLOW][s] = 0; pieces[GREEN][s] = 0; pieces[BLUE][s] = 0; }

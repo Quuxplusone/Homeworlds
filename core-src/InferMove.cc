@@ -23,7 +23,7 @@ static int count_unconstrained_catastrophes(const WholeMove &move, int ax)
         if (action.kind != CATASTROPHE) {
             break;
         }
-        if (action.where != "" || action.color != UNKNOWN_COLOR) {
+        if (action.where != "" || action.piece.color != UNKNOWN_COLOR) {
             return 0;
         }
         count += 1;
@@ -48,7 +48,7 @@ static bool infer_catastrophe(const GameState &st, const WholeMove &move, Single
             continue;
         }
         for (Color c = RED; c <= BLUE; ++c) {
-            if (action.color != UNKNOWN_COLOR && c != action.color) {
+            if (action.piece.color != UNKNOWN_COLOR && c != action.piece.color) {
                 continue;
             }
             if (here.numberOf(c) >= 4) {
@@ -59,7 +59,7 @@ static bool infer_catastrophe(const GameState &st, const WholeMove &move, Single
                     }
                 } else {
                     newaction.where = here.name;
-                    newaction.color = c;
+                    newaction.piece.color = c;
                 }
                 found += 1;
             }
@@ -114,13 +114,13 @@ static bool infer_sacrifice(const GameState &st, int attacker, const WholeMove &
     }
     assert(0 <= num_actions && num_actions <= 3);
     Size min_needed_size = (num_actions == 3 ? LARGE : (num_actions == 2 ? MEDIUM : SMALL));
-    if (action.size != UNKNOWN_SIZE && action.size < min_needed_size) {
+    if (action.piece.size != UNKNOWN_SIZE && action.piece.size < min_needed_size) {
         return false;
     }
     if (needed_color != UNKNOWN_COLOR) {
-        if (action.color == UNKNOWN_COLOR) {
-            action.color = needed_color;
-        } else if (action.color != needed_color) {
+        if (action.piece.color == UNKNOWN_COLOR) {
+            action.piece.color = needed_color;
+        } else if (action.piece.color != needed_color) {
             return false;
         }
     }
@@ -133,7 +133,7 @@ static bool infer_sacrifice(const GameState &st, int attacker, const WholeMove &
         }
         if (here.ships[attacker].empty()) continue;
         for (Color c = RED; c <= BLUE; ++c) {
-            if (action.color != UNKNOWN_COLOR && c != action.color) {
+            if (action.piece.color != UNKNOWN_COLOR && c != action.piece.color) {
                 continue;
             }
             /* Can't sacrifice the last ship at your own homeworld. */
@@ -141,14 +141,14 @@ static bool infer_sacrifice(const GameState &st, int attacker, const WholeMove &
                 continue;
             }
             for (Size s = min_needed_size; s <= LARGE; ++s) {
-                if (action.size != UNKNOWN_SIZE && s != action.size) {
+                if (action.piece.size != UNKNOWN_SIZE && s != action.piece.size) {
                     continue;
                 }
                 if (here.ships[attacker].numberOf(c,s) != 0) {
                     if (foundone) return false;
                     newaction.where = here.name;
-                    newaction.color = c;
-                    newaction.size = s;
+                    newaction.piece.color = c;
+                    newaction.piece.size = s;
                     foundone = true;
                 }
             }
@@ -170,10 +170,10 @@ static bool infer_multicapture(const GameState &st, int attacker, WholeMove *mov
         if (actjon.kind != CAPTURE || actjon.where != "") {
             break;
         }
-        if (actjon.color == UNKNOWN_COLOR || actjon.size == UNKNOWN_SIZE) {
+        if (actjon.piece.color == UNKNOWN_COLOR || actjon.piece.size == UNKNOWN_SIZE) {
             break;
         }
-        to_capture.insert(actjon.color, actjon.size);
+        to_capture.insert(actjon.piece);
     }
     /* Now try to capture any ships matching that set. */
     PieceCollection captured;
@@ -199,8 +199,7 @@ static bool infer_multicapture(const GameState &st, int attacker, WholeMove *mov
                         assert(move->actions[j].kind == CAPTURE);
                         assert(move->actions[j].where.empty());
                         move->actions[j].where = here.name;
-                        move->actions[j].color = c;
-                        move->actions[j].size = s;
+                        move->actions[j].piece = Piece(c, s);
                         ++j;
                     }
                 }
@@ -221,7 +220,7 @@ static bool infer_capture(const GameState &st, int attacker, WholeMove *move, Si
     assert(action.kind == CAPTURE);
 
     if (saw_sacrifice && action.where == "" &&
-            action.color != UNKNOWN_COLOR && action.size != UNKNOWN_SIZE) {
+            action.piece.color != UNKNOWN_COLOR && action.piece.size != UNKNOWN_SIZE) {
         /* This can handle "capture y2; capture y2" where the two y2 ships
          * are in two different systems. */
         return infer_multicapture(st, attacker, move, action);
@@ -241,11 +240,11 @@ static bool infer_capture(const GameState &st, int attacker, WholeMove *move, Si
         if (here.ships[defender].empty()) continue;
         const Size biggest = here.ships[attacker].biggestSize();
         for (Color c = RED; c <= BLUE; ++c) {
-            if (action.color != UNKNOWN_COLOR && c != action.color) {
+            if (action.piece.color != UNKNOWN_COLOR && c != action.piece.color) {
                 continue;
             }
             for (Size s = SMALL; s <= biggest; ++s) {
-                if (action.size != UNKNOWN_SIZE && s != action.size) {
+                if (action.piece.size != UNKNOWN_SIZE && s != action.piece.size) {
                     continue;
                 }
                 if (here.ships[defender].numberOf(c,s) == 0) {
@@ -253,8 +252,8 @@ static bool infer_capture(const GameState &st, int attacker, WholeMove *move, Si
                 }
                 if (foundone) return false;
                 newaction.where = here.name;
-                newaction.color = c;
-                newaction.size = s;
+                newaction.piece.color = c;
+                newaction.piece.size = s;
                 foundone = true;
             }
         }
@@ -274,15 +273,14 @@ static bool infer_movement(const GameState &st, int attacker, SingleAction &acti
      * because g2 is the only ship able to reach Home by the end of the turn to prevent
      * a loss.
      */
-    if (action.whither.empty() || action.color == UNKNOWN_COLOR || action.size == UNKNOWN_SIZE) {
+    if (action.whither.empty() || action.piece.color == UNKNOWN_COLOR || action.piece.size == UNKNOWN_SIZE) {
         return false;
     }
     if (action.kind == MOVE_CREATE) {
-        if (action.newcolor == UNKNOWN_COLOR || action.newsize == UNKNOWN_SIZE) {
+        if (action.newpiece.color == UNKNOWN_COLOR || action.newpiece.size == UNKNOWN_SIZE) {
             return false;
         }
     }
-
     bool foundone = false;
     const StarSystem *whither = st.systemNamed(action.whither.c_str());
     if ((whither == nullptr) != (action.kind == MOVE_CREATE)) {
@@ -296,14 +294,14 @@ static bool infer_movement(const GameState &st, int attacker, SingleAction &acti
             continue;
         }
         /* The inferred "where" must be adjacent to the given "whither". */
-        if (action.kind == MOVE_CREATE && here.star.numberOf(action.newsize) != 0) {
+        if (action.kind == MOVE_CREATE && here.star.numberOf(action.newpiece.size) != 0) {
             continue;
         }
         if (action.kind == MOVE && !here.isAdjacentTo(*whither)) {
             continue;
         }
         /* A ship of the appropriate type must exist here. */
-        if (here.ships[attacker].numberOf(action.color, action.size) != 0) {
+        if (here.ships[attacker].numberOf(action.piece.color, action.piece.size) != 0) {
             if (foundone) return false;
             action.where = here.name;
             foundone = true;
@@ -319,14 +317,14 @@ static bool infer_build(const GameState &st, int attacker, SingleAction &action,
     SingleAction newaction = action;
     bool foundone = false;
     for (Color c = RED; c <= BLUE; ++c) {
-        if (action.color != UNKNOWN_COLOR && c != action.color) {
+        if (action.piece.color != UNKNOWN_COLOR && c != action.piece.color) {
             continue;
         }
         if (st.stash.numberOf(c) == 0) {
             continue;
         }
         const Size s = st.stash.smallestSizeOf(c);
-        if (action.size != UNKNOWN_SIZE && s != action.size) {
+        if (action.piece.size != UNKNOWN_SIZE && s != action.piece.size) {
             continue;
         }
         // Can we build this color anywhere?
@@ -338,8 +336,8 @@ static bool infer_build(const GameState &st, int attacker, SingleAction &action,
             if (here.ships[attacker].numberOf(c) != 0) {
                 if (foundone) return false;
                 newaction.where = here.name;
-                newaction.color = c;
-                newaction.size = s;
+                newaction.piece.color = c;
+                newaction.piece.size = s;
                 foundone = true;
             }
         }
@@ -365,14 +363,14 @@ static bool infer_convert(const GameState &st, int attacker, SingleAction &actio
             continue;
         }
         for (Color c = RED; c <= BLUE; ++c) {
-            if (action.color != UNKNOWN_COLOR && c != action.color) {
+            if (action.piece.color != UNKNOWN_COLOR && c != action.piece.color) {
                 continue;
             }
-            if (action.newcolor != UNKNOWN_COLOR && c == action.newcolor) {
+            if (action.newpiece.color != UNKNOWN_COLOR && c == action.newpiece.color) {
                 continue;
             }
             for (Size s = SMALL; s <= LARGE; ++s) {
-                if (action.size != UNKNOWN_SIZE && s != action.size) {
+                if (action.piece.size != UNKNOWN_SIZE && s != action.piece.size) {
                     continue;
                 }
                 if (here.ships[attacker].numberOf(c,s) == 0) {
@@ -380,17 +378,17 @@ static bool infer_convert(const GameState &st, int attacker, SingleAction &actio
                 }
                 /* What color might we turn this ship? */
                 for (Color nc = RED; nc <= BLUE; ++nc) {
-                    if (action.newcolor != UNKNOWN_COLOR && nc != action.newcolor) {
+                    if (action.newpiece.color != UNKNOWN_COLOR && nc != action.newpiece.color) {
                         continue;
                     }
                     if (nc == c) continue;
                     if (st.stash.numberOf(nc,s) != 0) {
                         if (foundone) return false;
                         newaction.where = here.name;
-                        newaction.color = c;
-                        newaction.size = s;
-                        newaction.newcolor = nc;
-                        newaction.newsize = s;
+                        newaction.piece.color = c;
+                        newaction.piece.size = s;
+                        newaction.newpiece.color = nc;
+                        newaction.newpiece.size = s;
                         foundone = true;
                     }
                 }
@@ -420,6 +418,7 @@ bool inferMoveFromState(GameState newst, int attacker, WholeMove *move)
         if (action.kind == SACRIFICE) {
             saw_sacrifice = true;
         }
+        assert(action.sanitycheck());
         if (action.isMissingPieces()) {
             switch (action.kind) {
                 case CATASTROPHE:
@@ -446,6 +445,7 @@ bool inferMoveFromState(GameState newst, int attacker, WholeMove *move)
         /* Now we have either filled in the missing pieces of "action",
          * or bailed out by returning false. */
         assert(!action.isMissingPieces());
+        assert(action.sanitycheck());
         if (ApplyMove::Single(newst, attacker, action) != ApplyMove::Result::SUCCESS) {
             return false;
         }
