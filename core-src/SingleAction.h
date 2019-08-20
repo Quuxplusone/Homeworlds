@@ -6,7 +6,6 @@
 #include <string>
 #include <vector>
 
-
 enum SingleActionKind {
     CATASTROPHE, SACRIFICE, CAPTURE, MOVE, MOVE_CREATE, BUILD, CONVERT
 };
@@ -68,9 +67,11 @@ public:
       kind(k), where(w), color(c), size(s), newcolor(nc), newsize(s)
       { assert(k == CONVERT); }
 
-private:
-    friend class WholeMove;
     bool sanitycheck() const;
+
+    static bool scan_for_multicapture(const char *text, std::vector<SingleAction>& actions);
+    static bool scan_for_multimove(const char *text, std::vector<SingleAction>& actions);
+    static bool scan_for_multibuild(const char *text, std::vector<SingleAction>& actions);
 
 public:
     /* These fields should be treated as read-only. */
@@ -81,43 +82,4 @@ public:
     Size size;
     Color newcolor;
     Size newsize;
-};
-
-class WholeMove {
-public:
-    bool isPass() const {
-        return actions.empty();
-    }
-
-    /* We use this operation to build up whole moves piece by piece.
-     * Note that any prefix of a legal move is itself a legal move,
-     * so it's safe to sanity-check both the input and the output of
-     * this operation. */
-    WholeMove &operator += (SingleAction a) {
-        assert(this->sanitycheck());
-        assert(a.sanitycheck());
-        actions.push_back(std::move(a));
-        assert(this->sanitycheck());
-        return *this;
-    }
-
-    bool is_missing_pieces() const;
-    int unusedSacrificeActions() const;
-
-    std::string toString() const;
-    std::string toSDGString() const;
-    bool scan(const char *text);
-    explicit WholeMove() { assert(this->isPass()); }
-    explicit WholeMove(const char *text) { const bool UNUSED(rc) = scan(text); assert(rc); }
-    explicit WholeMove(const std::string &text) : WholeMove(text.c_str()) {}
-    explicit WholeMove(const WholeMove &m, const SingleAction &a): actions(m.actions)
-        { *this += a; }
-
-private:
-    friend struct ApplyMove;
-    bool sanitycheck() const;
-
-public:
-    /* These fields should be treated as read-only. */
-    std::vector<SingleAction> actions;
 };

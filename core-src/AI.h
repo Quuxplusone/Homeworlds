@@ -1,7 +1,7 @@
 #pragma once
 
 #include "state.h"
-#include "move.h"
+#include "WholeMove.h"
 #include <vector>
 
 /* Given a state, return a high value if the state looks good

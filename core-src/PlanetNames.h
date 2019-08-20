@@ -1,7 +1,7 @@
 #pragma once
 
 #include "state.h"
-#include "move.h"
+#include "WholeMove.h"
 
 /* The given move may contain SingleActions of kind MOVE_CREATE, where
  * the names given to the new systems are nonsense names. For each new

@@ -3,15 +3,15 @@
 #include <stdarg.h>
 #include <string>
 #include <vector>
-#include "move.h"
-#include "mprintf.h"
-#include "state.h"
+#include "AI.h"
 #include "AllMoves.h"
 #include "ApplyMove.h"
 #include "InferMove.h"
 #include "PlanetNames.h"
+#include "WholeMove.h"
 #include "getline.h"
-#include "AI.h"
+#include "mprintf.h"
+#include "state.h"
 
 #ifdef __WXMAC__
 #define Size Size_internal

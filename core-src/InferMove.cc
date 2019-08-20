@@ -2,10 +2,10 @@
 #include <algorithm>
 #include <assert.h>
 #include "state.h"
-#include "move.h"
-#include "InferMove.h"
 #include "ApplyMove.h"
-
+#include "InferMove.h"
+#include "SingleAction.h"
+#include "WholeMove.h"
 
 static int count_unconstrained_catastrophes(const WholeMove &move, int ax)
 {

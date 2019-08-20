@@ -3,7 +3,7 @@
 #include <functional>
 #include <vector>
 
-#include "move.h"
+#include "WholeMove.h"
 #include "state.h"
 
 /* Given the game state "st", append all possible moves for player "attacker"

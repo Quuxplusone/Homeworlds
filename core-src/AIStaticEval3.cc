@@ -1,8 +1,8 @@
 
 #include "state.h"
-#include "move.h"
-#include "ApplyMove.h"
 #include "AI.h"
+#include "ApplyMove.h"
+#include "WholeMove.h"
 
 static int distanceBetween(const PieceCollection &a, const PieceCollection &b)
 {

@@ -2,9 +2,8 @@
 #include <assert.h>
 #include <string>
 #include "state.h"
-#include "move.h"
 #include "ApplyMove.h"
-
+#include "WholeMove.h"
 
 /* Perform the given "move", updating "st" to reflect the new game state.
  * If "move" is valid, then return success (and update "st" accordingly).

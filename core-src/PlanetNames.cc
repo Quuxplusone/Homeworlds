@@ -3,9 +3,10 @@
 #include <string.h>
 #include <string>
 #include <vector>
-#include "move.h"
 #include "state.h"
 #include "PlanetNames.h"
+#include "SingleAction.h"
+#include "WholeMove.h"
 
 static const char *default_names[21] = {
     "Delos", "Lebling", "Kotok", "Minsky", "Licklider", "Fritz", "Frotz",

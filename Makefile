@@ -14,7 +14,7 @@ CFLAGS += -O2 -g
 # Replace this line to use a different evaluation function.
 AIEVAL = core-src/AIStaticEval3.cc
 
-OBJS = mprintf.o PieceCollection.o StarSystem.o GameState.o WholeMove.o ApplyMove.o
+OBJS = mprintf.o PieceCollection.o StarSystem.o GameState.o SingleAction.o WholeMove.o ApplyMove.o
 AIOBJS = AllMoves.o AIMove.o AIStaticEval.o PlanetNames.o ${OBJS}
 
 all: annotate wxgui

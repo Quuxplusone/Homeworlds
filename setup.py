@@ -26,6 +26,7 @@ setup(
                 'core-src/InferMove.cc',
                 'core-src/PieceCollection.cc',
                 'core-src/PlanetNames.cc',
+                'core-src/SingleAction.cc',
                 'core-src/StarSystem.cc',
                 'core-src/WholeMove.cc',
                 'core-src/mprintf.cc',

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "state.h"
-#include "move.h"
+#include "WholeMove.h"
 
 /* Given a move with missing pieces (e.g., "build g1" instead of
  * "build g1 at Earth"), infer the missing pieces from the state of

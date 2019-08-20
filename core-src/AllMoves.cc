@@ -4,9 +4,9 @@
 #include <string>
 #include <vector>
 #include "state.h"
-#include "move.h"
-#include "ApplyMove.h"
 #include "AllMoves.h"
+#include "ApplyMove.h"
+#include "WholeMove.h"
 
 /* When append_move() finds a winning move, it throws an exception all the
  * way back to findAllMoves() in order to shortcut the rest of the search.

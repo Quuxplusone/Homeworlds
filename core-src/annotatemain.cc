@@ -20,12 +20,12 @@
 #include <vector>
 #include <list>
 #include "state.h"
-#include "move.h"
 #include "AI.h"
 #include "AllMoves.h"
 #include "ApplyMove.h"
 #include "InferMove.h"
 #include "PlanetNames.h"
+#include "WholeMove.h"
 
 #define randint0(n) (rand() % (n))
 #define do_crash do_error

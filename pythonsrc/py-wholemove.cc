@@ -1,6 +1,6 @@
 #include <Python.h>
 #include <string>
-#include "core-src/move.h"
+#include "core-src/WholeMove.h"
 #include "pythonsrc/glue.h"
 
 namespace {

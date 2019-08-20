@@ -5,11 +5,11 @@
 #include <functional>
 #include <vector>
 #include "state.h"
-#include "move.h"
 #include "AI.h"
-#include "PlanetNames.h"
-#include "ApplyMove.h"
 #include "AllMoves.h"
+#include "ApplyMove.h"
+#include "PlanetNames.h"
+#include "WholeMove.h"
 
 /* Return true if this move would put the current attacker in check, thus
  * causing him to lose the game on the very next turn. The AI should never

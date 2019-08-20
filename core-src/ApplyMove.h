@@ -1,6 +1,7 @@
 #pragma once
 
-#include "move.h"
+#include "SingleAction.h"
+#include "WholeMove.h"
 #include "state.h"
 
 /* Note that ApplyMove is a class rather than a namespace so that it can

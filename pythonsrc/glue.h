@@ -3,7 +3,7 @@
 #include <Python.h>
 #include <exception>
 #include <utility>
-#include "core-src/move.h"
+#include "core-src/WholeMove.h"
 #include "core-src/state.h"
 
 class UniquePyObjectPtr {

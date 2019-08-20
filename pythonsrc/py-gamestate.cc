@@ -1,10 +1,10 @@
 #include <Python.h>
 #include <string>
-#include "core-src/move.h"
 #include "core-src/state.h"
 #include "core-src/AI.h"
 #include "core-src/ApplyMove.h"
 #include "core-src/InferMove.h"
+#include "core-src/WholeMove.h"
 #include "pythonsrc/glue.h"
 
 namespace {
