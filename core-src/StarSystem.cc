@@ -7,37 +7,13 @@
 #include "mprintf.h"
 #include "state.h"
 
-
-const char *StarSystem::make_random_name(const GameState *st)
-{
-    static char buffer[7] = "UuXXXX";
-    static unsigned int counter = 0;
-    do {
-        buffer[2] = 'a' + (counter & 0xF);
-        buffer[3] = 'a' + ((counter >> 4) & 0xF);
-        buffer[4] = 'a' + ((counter >> 8) & 0xF);
-        buffer[5] = 'a' + ((counter >> 12) & 0xF);
-        assert(buffer[6] == '\0');
-        ++counter;
-        /* If there's already a star with this name, just increment the
-         * counter and try again. There certainly can't be 65536 stars
-         * in the galaxy; there aren't that many pieces in the stash!
-         */
-    } while (st != nullptr && st->systemNamed(buffer) != nullptr);
-    assert(StarSystem::is_valid_name(buffer));
-    return buffer;
-}
-
-
-bool StarSystem::is_valid_name_char(char ch)
-{
-    return isalnum(ch) || ch == '_' || ch == '\'' || ch == '/';
-}
-
 bool StarSystem::is_valid_name(const char *name)
 {
+    auto is_valid_name_char = [](char ch) {
+        return isalnum(ch) || ch == '_' || ch == '\'' || ch == '/';
+    };
     for (int i=0; name[i] != '\0'; ++i) {
-        if (!StarSystem::is_valid_name_char(name[i])) {
+        if (!is_valid_name_char(name[i])) {
             return false;
         }
     }

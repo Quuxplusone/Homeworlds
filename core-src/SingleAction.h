@@ -62,6 +62,10 @@ public:
     explicit SingleAction(SingleActionKind k, Color c, Size s, const char *w, const char *wr, Color nc, Size ns):
       kind(k), where(w), whither(wr), color(c), size(s), newcolor(nc), newsize(ns)
       { assert(k == MOVE_CREATE); }
+    /* SingleAction(MOVE_CREATE, RED, SMALL, "Fromloc", string("Toloc"), BLUE, MEDIUM) */
+    explicit SingleAction(SingleActionKind k, Color c, Size s, const char *w, std::string wr, Color nc, Size ns):
+      kind(k), where(w), whither(std::move(wr)), color(c), size(s), newcolor(nc), newsize(ns)
+      { assert(k == MOVE_CREATE); }
     /* SingleAction(CONVERT, RED, SMALL, BLUE, "Atloc") */
     explicit SingleAction(SingleActionKind k, Color c, Size s, Color nc, const char *w):
       kind(k), where(w), color(c), size(s), newcolor(nc), newsize(s)

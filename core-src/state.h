@@ -6,8 +6,6 @@
 #include <string>
 #include <vector>
 
-class GameState;
-
 class StarSystem {
 public:
     std::string name;
@@ -20,8 +18,6 @@ public:
      * of valid characters. Valid characters are alphanumeric plus some
      * punctuation, but whitespace is never allowed in system names. */
     static bool is_valid_name(const char *name);
-    static bool is_valid_name_char(char ch);
-    static const char *make_random_name(const GameState *st);
 
 public:
     enum { MAXSTRLEN = 2 + 24*(NUMPLAYERS+1) };

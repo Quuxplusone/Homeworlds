@@ -1,6 +1,7 @@
 
 #include <assert.h>
 #include <string.h>
+#include <atomic>
 #include <string>
 #include <vector>
 #include "state.h"
@@ -460,6 +461,26 @@ static void combine_one_red_action(const WholeMove &m,
     }
 }
 
+static std::string make_random_name(const GameState& st)
+{
+    char buffer[7] = "UuXXXX";
+    static std::atomic<unsigned int> atomic_counter{0};
+    unsigned int counter = atomic_counter.fetch_add(1, std::memory_order_relaxed);
+    do {
+        buffer[2] = 'a' + (counter & 0xF);
+        buffer[3] = 'a' + ((counter >> 4) & 0xF);
+        buffer[4] = 'a' + ((counter >> 8) & 0xF);
+        buffer[5] = 'a' + ((counter >> 12) & 0xF);
+        assert(buffer[6] == '\0');
+        ++counter;
+        /* If there's already a star with this name, just increment the
+         * counter and try again. There certainly can't be 65536 stars
+         * in the galaxy; there aren't that many pieces in the stash!
+         */
+    } while (st.systemNamed(buffer) != nullptr);
+    assert(StarSystem::is_valid_name(buffer));
+    return buffer;
+}
 
 static void combine_one_yellow_action(const WholeMove &m,
     const int num_more_moves, const int staridx, const GameState &st,
@@ -551,7 +572,7 @@ static void combine_one_yellow_action(const WholeMove &m,
                 if (where.star.numberOf(ns) != 0) continue;
                 for (Color nc = RED; nc <= BLUE; ++nc) {
                     if (st.stash.numberOf(nc,ns) == 0) continue;
-                    SingleAction newaction(MOVE_CREATE, c,s, where.name.c_str(), StarSystem::make_random_name(&st), nc,ns);
+                    SingleAction newaction(MOVE_CREATE, c, s, where.name.c_str(), make_random_name(st), nc, ns);
                     WholeMove newm(m, newaction);
                     GameState newst = st;
                     ApplyMove::or_die(newst, attacker, newaction);
