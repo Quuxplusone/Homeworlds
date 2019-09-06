@@ -232,7 +232,7 @@ bool GameState::scan(const char *text)
 
 GameState GameState::mirror() const
 {
-    assert(NUMPLAYERS == 2);
+    static_assert(NUMPLAYERS == 2, "");
     GameState ret = *this;
     for (int i=0; i < (int)ret.stars.size(); ++i) {
         StarSystem star = ret.stars[i];

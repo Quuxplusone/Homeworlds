@@ -32,10 +32,12 @@ std::string StarSystem::toString() const
     }
     result += star.toString();
     result += ") ";
-    result += ships[0].toString();
-    for (int i=1; i < NUMPLAYERS; ++i) {
-        result += '-';
-        result += ships[i].toString();
+    bool first = true;
+    for (const auto& fleet : ships) {
+        if (!std::exchange(first, false)) {
+            result += '-';
+        }
+        result += fleet.toString();
     }
     return result;
 }
@@ -66,8 +68,8 @@ bool StarSystem::scan(const char *text)
     /* We now have a copy of "text" with all the whitespace removed. */
     name = "";
     star.clear();
-    for (int i=0; i < NUMPLAYERS; ++i) {
-        ships[i].clear();
+    for (auto& fleet : ships) {
+        fleet.clear();
     }
 
     const char *paren = strchr(text, '(');
@@ -90,7 +92,7 @@ bool StarSystem::scan(const char *text)
      * (and this character had better be one of 'r', 'y', 'g', 'b'). */
     text = paren+1;
     if (isdigit(*text)) {
-        assert(NUMPLAYERS <= 9);
+        static_assert(2 <= NUMPLAYERS && NUMPLAYERS <= 9, "");
         this->homeworldOf = (*text - '0');
         if (this->homeworldOf >= NUMPLAYERS) return false;
         ++text;
@@ -134,16 +136,16 @@ bool StarSystem::scan(const char *text)
 int StarSystem::numberOfShips() const
 {
     int count = 0;
-    for (int i=0; i < NUMPLAYERS; ++i) {
-        count += ships[i].number();
+    for (const auto& fleet : ships) {
+        count += fleet.number();
     }
     return count;
 }
 
 bool StarSystem::hasNoShips() const
 {
-    for (int i=0; i < NUMPLAYERS; ++i) {
-        if (!ships[i].empty()) {
+    for (const auto& fleet : ships) {
+        if (!fleet.empty()) {
             return false;
         }
     }
@@ -153,8 +155,8 @@ bool StarSystem::hasNoShips() const
 int StarSystem::numberOf(Color c) const
 {
     int count = star.numberOf(c);
-    for (int i=0; i < NUMPLAYERS; ++i) {
-        count += ships[i].numberOf(c);
+    for (const auto& fleet : ships) {
+        count += fleet.numberOf(c);
     }
     return count;
 }
@@ -192,27 +194,30 @@ void StarSystem::performCatastrophe(Color c, PieceCollection &stash)
     star.removeAll(c);
     if (star.number() == 0) {
         /* If the star has been destroyed, then destroy all the ships here. */
-        for (int i=0; i < NUMPLAYERS; ++i) {
-            stash += ships[i];
-            ships[i].clear();
+        for (auto& fleet : ships) {
+            stash += fleet;
+            fleet.clear();
         }
         return;
     }
+
     /* Cull the ships of color "c". */
-    for (Size s = SMALL; s <= LARGE; ++s) {
-        int count = 0;
-        for (int i=0; i < NUMPLAYERS; ++i) {
-            count += ships[i].numberOf(c,s);
-        }
-        stash.insert(c, s, count);
+    int count1 = 0;
+    int count2 = 0;
+    int count3 = 0;
+    for (auto& fleet : ships) {
+        count1 += fleet.numberOf(c, SMALL);
+        count2 += fleet.numberOf(c, MEDIUM);
+        count3 += fleet.numberOf(c, LARGE);
+        fleet.removeAll(c);
     }
-    for (int i=0; i < NUMPLAYERS; ++i) {
-        ships[i].removeAll(c);
-    }
+    stash.insert(c, SMALL, count1);
+    stash.insert(c, MEDIUM, count2);
+    stash.insert(c, LARGE, count3);
+
     if (numberOfShips() == 0) {
         /* If the last ship has been destroyed, then destroy the star. */
         stash += star;
         star.clear();
     }
-    return;
 }

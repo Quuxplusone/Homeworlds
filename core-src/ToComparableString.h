@@ -22,7 +22,7 @@ inline char *PieceCollection::toComparableString(char buffer[MAXSTRLEN+1], unsig
 inline char *StarSystem::toComparableString(char buffer[MAXSTRLEN+1]) const
 {
     /* This routine will have to be adjusted if NUMPLAYERS ever increases. */
-    assert(NUMPLAYERS == 2);
+    static_assert(NUMPLAYERS == 2, "");
     char *bp = buffer;
     bp = star.toComparableString(bp, /*mask=*/0x00);
     bp = ships[0].toComparableString(bp, /*mask=*/0x10);

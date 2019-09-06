@@ -9,8 +9,7 @@
  #define UNUSED(varname) varname
 #endif /* NDEBUG */
 
-
-#define NUMPLAYERS 2
+constexpr int NUMPLAYERS = 2;
 
 enum Color { RED=0, YELLOW=1, GREEN=2, BLUE=3, UNKNOWN_COLOR=4 };
 enum Size { SMALL=0, MEDIUM=1, LARGE=2, UNKNOWN_SIZE=3 };

@@ -41,8 +41,8 @@ public:
     }
     PieceCollection pieceCollection() const {
         PieceCollection pc = star;
-        for (int i=0; i < NUMPLAYERS; ++i) {
-            pc += ships[i];
+        for (const auto& fleet : ships) {
+            pc += fleet;
         }
         return pc;
     }
