@@ -106,9 +106,6 @@ public:
      * failed. Having extra text left at the end of the input counts as failure.
      */
     bool scan(const char *text);
-
-    /* Flip the players: make player 0 player 1 and vice versa. */
-    GameState mirror() const;
 };
 
 /* Inline definitions for the toComparableString methods. */

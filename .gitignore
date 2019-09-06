@@ -1,4 +1,5 @@
 *.o
 annotate
+test-core
 wxgui
 /build/

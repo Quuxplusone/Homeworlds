@@ -229,19 +229,3 @@ bool GameState::scan(const char *text)
     }
     return true;
 }
-
-GameState GameState::mirror() const
-{
-    static_assert(NUMPLAYERS == 2, "");
-    GameState ret = *this;
-    for (int i=0; i < (int)ret.stars.size(); ++i) {
-        StarSystem star = ret.stars[i];
-        PieceCollection t = star.ships[0];
-        star.ships[0] = star.ships[1];
-        star.ships[1] = t;
-        if (star.homeworldOf != -1) {
-            star.homeworldOf = 1-star.homeworldOf;
-        }
-    }
-    return ret;
-}
