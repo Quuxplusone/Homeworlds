@@ -478,7 +478,7 @@ static std::string make_random_name(const GameState& st)
          * in the galaxy; there aren't that many pieces in the stash!
          */
     } while (st.systemNamed(buffer) != nullptr);
-    assert(StarSystem::is_valid_name(buffer));
+    assert(StarSystem::isValidName(buffer));
     return buffer;
 }
 

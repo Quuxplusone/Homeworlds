@@ -15,9 +15,8 @@ public:
 
 public:
     /* Each system must have a valid name; a name is valid iff it is composed
-     * of valid characters. Valid characters are alphanumeric plus some
-     * punctuation, but whitespace is never allowed in system names. */
-    static bool is_valid_name(const char *name);
+     * of valid identifier characters (A-Za-z0-9 and underscore). */
+    static bool isValidName(const char *name);
 
 public:
     enum { MAXSTRLEN = 2 + 24*(NUMPLAYERS+1) };

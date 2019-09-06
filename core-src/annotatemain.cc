@@ -257,7 +257,7 @@ static void setup_human(GameState &st, int attacker)
 {
     printf("%s, set up your homeworld.\n", g_playerNames[attacker].c_str());
 
-    assert(StarSystem::is_valid_name(g_playerNames[attacker].c_str()));
+    assert(StarSystem::isValidName(g_playerNames[attacker].c_str()));
     st.stars.push_back(StarSystem(g_playerNames[attacker].c_str()));
     StarSystem &hw = st.stars.back();
     hw.homeworldOf = attacker;
@@ -839,9 +839,9 @@ int main(int argc, char **argv)
          * (acknowledging valid moves, prompting the user to re-enter invalid
          * moves, et cetera). */
         g_Verbose = true;
-        if (!StarSystem::is_valid_name(argv[arg_index])) {
+        if (!StarSystem::isValidName(argv[arg_index])) {
             do_error("Sorry, the argument \"%s\" was not a valid name for a star system.", argv[arg_index]);
-        } else if (!StarSystem::is_valid_name(argv[arg_index+1])) {
+        } else if (!StarSystem::isValidName(argv[arg_index+1])) {
             do_error("Sorry, the argument \"%s\" was not a valid name for a star system.", argv[arg_index+1]);
         }
 

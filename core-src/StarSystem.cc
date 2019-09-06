@@ -7,10 +7,10 @@
 #include "mprintf.h"
 #include "state.h"
 
-bool StarSystem::is_valid_name(const char *name)
+bool StarSystem::isValidName(const char *name)
 {
     auto is_valid_name_char = [](char ch) {
-        return isalnum(ch) || ch == '_' || ch == '\'' || ch == '/';
+        return isalnum(ch) || ch == '_';
     };
     for (int i=0; name[i] != '\0'; ++i) {
         if (!is_valid_name_char(name[i])) {
@@ -83,7 +83,7 @@ bool StarSystem::scan(const char *text)
         assert(text[namelength] == '(');
         assert(namelength > 0);
         name.assign(text, namelength);
-        if (!is_valid_name(name.c_str())) {
+        if (!isValidName(name.c_str())) {
             return false;
         }
     }

@@ -28,7 +28,7 @@ void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names
         const char *new_name = nullptr;
         for ( ; new_name_index < 21; ++new_name_index) {
             assert(names[new_name_index] != nullptr);
-            assert(StarSystem::is_valid_name(names[new_name_index]));
+            assert(StarSystem::isValidName(names[new_name_index]));
             if (st.systemNamed(names[new_name_index]) == nullptr) {
                 new_name = names[new_name_index];
                 ++new_name_index;
@@ -66,7 +66,7 @@ void assignPlanetNames(GameState &st, const char *names[21])
         const char *new_name = nullptr;
         for ( ; new_name_index < 21; ++new_name_index) {
             assert(names[new_name_index] != nullptr);
-            assert(StarSystem::is_valid_name(names[new_name_index]));
+            assert(StarSystem::isValidName(names[new_name_index]));
             if (st.systemNamed(names[new_name_index]) == nullptr) {
                 new_name = names[new_name_index];
                 ++new_name_index;

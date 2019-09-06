@@ -107,11 +107,11 @@ bool SingleAction::sanitycheck() const
             default: return false;
         }
     }
-    if (where != "" && !StarSystem::is_valid_name(where.c_str())) {
+    if (where != "" && !StarSystem::isValidName(where.c_str())) {
         return false;
     }
     if (kind == MOVE || kind == MOVE_CREATE) {
-        if (whither != "" && !StarSystem::is_valid_name(whither.c_str())) {
+        if (whither != "" && !StarSystem::isValidName(whither.c_str())) {
             return false;
         }
     }
@@ -145,7 +145,7 @@ bool SingleAction::scan(const char *text)
 
     auto get_trailing_where = [&]() {
         if (advance_past(text, "at ", "in ", "")) {
-            if (!StarSystem::is_valid_name(text)) return false;
+            if (!StarSystem::isValidName(text)) return false;
             this->where = text;
             return true;
         }
@@ -192,14 +192,14 @@ bool SingleAction::scan(const char *text)
             const char *endwhere = text;
             while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
             where = std::string(text, endwhere);
-            if (!StarSystem::is_valid_name(this->where.c_str())) return false;
+            if (!StarSystem::isValidName(this->where.c_str())) return false;
             text = endwhere;
         }
         if (!advance_past(text, " to ")) return false;
         const char *endwhither = text;
         while (*endwhither != '\0' && *endwhither != ' ') ++endwhither;
         whither = std::string(text, endwhither);
-        if (!StarSystem::is_valid_name(this->whither.c_str())) return false;
+        if (!StarSystem::isValidName(this->whither.c_str())) return false;
         text = endwhither;
         /* The "whither" may be a newly created star system, in which
          * case it will be followed by a piece in parentheses; for
@@ -218,7 +218,7 @@ bool SingleAction::scan(const char *text)
         const char *endwhere = text;
         while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
         where = std::string(text, endwhere);
-        if (!StarSystem::is_valid_name(this->where.c_str())) return false;
+        if (!StarSystem::isValidName(this->where.c_str())) return false;
         text = endwhere;
         if (!advance_past(text, " ")) return false;
         if (!scan_piece(text, this->newcolor, this->newsize)) return false;
@@ -226,7 +226,7 @@ bool SingleAction::scan(const char *text)
         const char *endwhither = text;
         while (*endwhither != '\0' && *endwhither != ' ') ++endwhither;
         whither = std::string(text, endwhither);
-        if (!StarSystem::is_valid_name(this->whither.c_str())) return false;
+        if (!StarSystem::isValidName(this->whither.c_str())) return false;
         text = endwhither;
         if (*text != '\0') return false;
         return true;
@@ -251,7 +251,7 @@ bool SingleAction::scan(const char *text)
             const char *endwhere = text;
             while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
             where = std::string(text, endwhere);
-            if (!StarSystem::is_valid_name(this->where.c_str())) return false;
+            if (!StarSystem::isValidName(this->where.c_str())) return false;
             text = endwhere;
             if (!advance_past(text, " ")) {
                 return false;
@@ -296,7 +296,7 @@ bool SingleAction::scan_for_multibuild(const char *text, std::vector<SingleActio
     if (*text == '\0') {
         where = "";
     } else if (advance_past(text, " at ", " in ", " ")) {
-        if (!StarSystem::is_valid_name(text)) return false;
+        if (!StarSystem::isValidName(text)) return false;
         where = text;
     } else {
         return false;
@@ -325,7 +325,7 @@ bool SingleAction::scan_for_multicapture(const char *text, std::vector<SingleAct
     if (*text == '\0') {
         where = "";
     } else if (advance_past(text, " at ", " in ", " ")) {
-        if (!StarSystem::is_valid_name(text)) return false;
+        if (!StarSystem::isValidName(text)) return false;
         where = text;
     } else {
         return false;
@@ -357,7 +357,7 @@ bool SingleAction::scan_for_multimove(const char *text, std::vector<SingleAction
         const char *endwhere = text;
         while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
         where = std::string(text, endwhere);
-        if (!StarSystem::is_valid_name(where.c_str())) return false;
+        if (!StarSystem::isValidName(where.c_str())) return false;
         text = endwhere;
     }
     if (!advance_past(text, " to ")) {
@@ -366,7 +366,7 @@ bool SingleAction::scan_for_multimove(const char *text, std::vector<SingleAction
     const char *endwhither = text;
     while (*endwhither != '\0' && *endwhither != ' ') ++endwhither;
     whither = std::string(text, endwhither);
-    if (!StarSystem::is_valid_name(whither.c_str())) return false;
+    if (!StarSystem::isValidName(whither.c_str())) return false;
     text = endwhither;
     /* The "whither" may be a newly created star system, in which
      * case it will be followed by a piece in parentheses; for

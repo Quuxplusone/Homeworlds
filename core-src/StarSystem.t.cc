@@ -2,6 +2,15 @@
 #include "state.h"
 #include <gtest/gtest.h>
 
+TEST(StarSystem, isValidName) {
+    EXPECT_TRUE(StarSystem::isValidName("Foobar"));
+    EXPECT_TRUE(StarSystem::isValidName("Foobar_Baz"));
+    EXPECT_TRUE(StarSystem::isValidName("Red0123456789"));
+    EXPECT_FALSE(StarSystem::isValidName("Foobar Baz"));
+    EXPECT_FALSE(StarSystem::isValidName("O'Leary"));
+    EXPECT_FALSE(StarSystem::isValidName("Red/Black"));
+}
+
 TEST(StarSystem, ctor) {
     StarSystem ss("Foobar");
     EXPECT_EQ(ss.name, "Foobar");
@@ -71,4 +80,40 @@ TEST(StarSystem, isAdjacentTo) {
     EXPECT_FALSE(s12.isAdjacentTo(s1));
     EXPECT_FALSE(s12.isAdjacentTo(s2));
     EXPECT_TRUE(s12.isAdjacentTo(s3));
+}
+
+TEST(StarSystem, scan) {
+    StarSystem ss;
+    EXPECT_FALSE(ss.scan(""));  // empty input
+
+    EXPECT_TRUE(ss.scan("Foobar (r1) r1-r1"));
+    EXPECT_EQ(ss.toString(), "Foobar (r1) r1-r1");
+
+    EXPECT_TRUE(ss.scan("Foobar(r1)r1-r1"));  // omit space
+    EXPECT_EQ(ss.toString(), "Foobar (r1) r1-r1");
+
+    EXPECT_TRUE(ss.scan("Foobar (1, r1) r1-r1"));
+    EXPECT_EQ(ss.toString(), "Foobar (1, r1) r1-r1");
+
+    EXPECT_TRUE(ss.scan("Foobar(1,r1)r1-r1"));  // omit space
+    EXPECT_EQ(ss.toString(), "Foobar (1, r1) r1-r1");
+
+    EXPECT_FALSE(ss.scan("Foobar-Baz (r1) r1-r1"));  // name contains hyphen
+
+    EXPECT_TRUE(ss.scan("Foobar Baz (r1) r1-r1"));  // we actually strip all whitespace,
+    EXPECT_EQ(ss.toString(), "FoobarBaz (r1) r1-r1");  // so this works(!)
+
+    EXPECT_FALSE(ss.scan("(r1) y1-g1-b1"));  // too many fleets
+    EXPECT_FALSE(ss.scan("(r1) r1n1-g1"));  // unparseable fleet
+    EXPECT_FALSE(ss.scan("(r1) r1-g1g7"));  // unparseable fleet
+}
+
+TEST(StarSystem, scanReplacesEvenEmptyComponents) {
+    StarSystem ss;
+    EXPECT_TRUE(ss.scan("Foo (r1) r2-r3"));
+    EXPECT_EQ(ss.toString(), "Foo (r1) r2-r3");
+    EXPECT_TRUE(ss.scan("Bar (g2) -g3"));
+    EXPECT_EQ(ss.toString(), "Bar (g2) -g3");
+    EXPECT_TRUE(ss.scan("(b2) b3-"));
+    EXPECT_EQ(ss.toString(), "(b2) b3-");
 }
