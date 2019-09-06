@@ -216,21 +216,3 @@ void StarSystem::performCatastrophe(Color c, PieceCollection &stash)
     }
     return;
 }
-
-PieceCollection& operator += (PieceCollection &lhs, const StarSystem &rhs)
-{
-    lhs += rhs.star;
-    for (int i=0; i < NUMPLAYERS; ++i) {
-        lhs += rhs.ships[i];
-    }
-    return lhs;
-}
-
-PieceCollection& operator -= (PieceCollection &lhs, const StarSystem &rhs)
-{
-    lhs -= rhs.star;
-    for (int i=0; i < NUMPLAYERS; ++i) {
-        lhs -= rhs.ships[i];
-    }
-    return lhs;
-}
