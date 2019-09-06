@@ -118,13 +118,9 @@ bool StarSystem::scan(const char *text)
         const char sentinel = (i == NUMPLAYERS-1) ? '\0' : '-';
         const char *dash = strchr(text, sentinel);
         if (dash == nullptr) return false;
-        /* Note that PieceCollection::scan("") returns false, so if
-         * the piecelist is empty, we just skip the call to scan(). */
-        if (dash != text) {
-            std::string ship_pieces(text, dash-text);
-            if (!ships[i].scan(ship_pieces.c_str())) {
-                return false;
-            }
+        std::string ship_pieces(text, dash-text);
+        if (!ships[i].scan(ship_pieces.c_str())) {
+            return false;
         }
         if (i != NUMPLAYERS-1) {
             text = dash+1;

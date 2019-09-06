@@ -98,13 +98,6 @@ std::string PieceCollection::toString() const
 bool PieceCollection::scan(const char *text)
 {
     this->clear();
-    /* An empty string is not a piece collection; an empty collection
-     * is denoted by "-". */
-    if (text[0] == '\0') {
-        return false;
-    } else if (text[0] == '-' && text[1] == '\0') {
-        return true;
-    }
     for (int i=0; text[i] != '\0'; ++i) {
         Color c;
         Size s;

@@ -87,5 +87,6 @@ TEST(PieceCollection, toString) {
 
 TEST(PieceCollection, scanEmpty) {
     PieceCollection empty;
-    EXPECT_FALSE(empty.scan(""));  // TODO
+    EXPECT_TRUE(empty.scan(""));
+    EXPECT_TRUE(empty.empty());
 }
