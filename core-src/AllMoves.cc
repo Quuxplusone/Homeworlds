@@ -20,10 +20,7 @@
  #define ALLMOVES_USE_EXCEPTIONS 1
 #endif
 
-#if ALLMOVES_USE_FLATSET
-#include "flat_set.h"
-using AllSeenT = stdext::flat_set<std::string>;
-#elif ALLMOVES_USE_SET
+#if ALLMOVES_USE_SET
 #include <set>
 using AllSeenT = std::set<std::string>;
 #else
@@ -40,18 +37,20 @@ struct PossCat {
 struct AllT {
     std::string original_state;
     AllSeenT seen;
-    std::function<bool(const WholeMove&, const GameState&)> callback;
-    const bool prune_worse_moves;
-    const bool win_only;
-    const bool contained_overpopulations;
+    bool (*callback)(void*, const WholeMove&, const GameState&);
+    void *callback_cookie;
+    bool prune_worse_moves;
+    bool win_only;
+    bool contained_overpopulations;
     bool look_for[4];
     bool done = false;
 
     explicit AllT(
-        std::function<bool(const WholeMove&, const GameState&)> cb,
+        bool (*cb)(void*, const WholeMove&, const GameState&), void *cookie,
         bool p, bool w, bool co, unsigned int mask
     ) :
-        callback(std::move(cb)),
+        callback(cb),
+        callback_cookie(cookie),
         prune_worse_moves(p), win_only(w),
         contained_overpopulations(co)
     {
@@ -102,41 +101,6 @@ static void combine_postcatastrophes(const WholeMove &m,
     int attacker, AllT &all);
 static void append_move(AllT &all, const WholeMove &m, const GameState &st, int attacker);
 
-
-std::vector<WholeMove> findAllMoves(const GameState &st, int attacker,
-    bool prune_worse_moves,
-    bool look_only_for_wins,
-    unsigned int these_colors_only)
-{
-    std::vector<WholeMove> allmoves;
-    findAllMoves(
-        st, attacker,
-        prune_worse_moves, look_only_for_wins, these_colors_only,
-        [&](const WholeMove& m, const GameState&) {
-            allmoves.push_back(m);
-            return false;
-        }
-    );
-    return allmoves;
-}
-
-bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
-{
-    std::vector<WholeMove> winning_moves = findAllMoves(
-        st, attacker,
-        /*prune_obviously_worse_moves=*/true,
-        /*look_only_for_wins=*/true,
-        0xF
-    );
-    if (!winning_moves.empty()) {
-        if (move != nullptr) {
-            *move = std::move(winning_moves[0]);
-        }
-        return true;
-    }
-    return false;
-}
-
 /* The short description: Given the game state "st", report all possible moves
  * for player "attacker" via the "callback". We'll find all the possible
  * moves by recursive descent. If "win_only" is true, then don't bother
@@ -155,17 +119,18 @@ bool findWinningMove(const GameState &st, int attacker, WholeMove *move)
  * contradiction). So we won't bother to report a possible move of "pass"
  * unless it is the *only* available move.
  */
-bool findAllMoves(const GameState &st, int attacker,
+bool findAllMoves_impl(const GameState &st, int attacker,
     bool prune_worse_moves,
     bool look_only_for_wins,
     unsigned int these_colors_only,
-    const std::function<bool(const WholeMove&, const GameState&)>& callback)
+    bool (*callback)(void*, const WholeMove&, const GameState&),
+    void *callback_cookie)
 {
     /* Precondition: We assume the game isn't over; if it's over, then the
      * caller shouldn't have called findAllMoves() in the first place. */
     assert(!st.gameIsOver());
 
-    AllT all(callback, prune_worse_moves, look_only_for_wins,
+    AllT all(callback, callback_cookie, prune_worse_moves, look_only_for_wins,
              st.containsOverpopulation(), these_colors_only);
     /* As explained above, we want to avoid generating moves that are
      * equivalent to "pass". It's easy to avoid generating "pass", but
@@ -779,7 +744,7 @@ static void append_move(AllT &all, const WholeMove &m, const GameState &st,
             return;
         }
         if (all.emplace_into_seen(std::move(key))) {
-            bool done = all.callback(m, st);
+            bool done = all.callback(all.callback_cookie, m, st);
             if (done) {
                 all.be_done();
             } else if (is_win && all.prune_worse_moves) {
