@@ -1,5 +1,0 @@
-# Player1 needs to eliminate his red overpopulation while simultaneously
-# preserving the ability to catastrophe blue at Player2.
-Player1 (0, r3) r2r2r2r3-
-Player2 (1, b3) b1b2-b2b2
-LEGAL sacrifice b2; convert r2 to y2; convert r2 to y2; catastrophe

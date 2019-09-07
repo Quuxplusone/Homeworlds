@@ -1,5 +1,0 @@
-Player1 (0, g3b1) g1g1g1-b1b1
-Alpha (b2) y3y1y1-
-Beta (b2) -r1r1r1
-Player2 (1, r2b3) -y2y1y2
-LEGAL catastrophe; sacrifice y3; move y1 to Player1; move y1 to Waypoint (g1); move y1 to Player2; catastrophe yellow

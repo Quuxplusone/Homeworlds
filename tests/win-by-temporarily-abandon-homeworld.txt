@@ -1,5 +1,0 @@
-Player1 (0, g3y1) y2-r1
-Alpha (b2) g1-
-Beta (b1) g1-
-Player2 (1, g3y2) -g3g1
-LEGAL sacrifice y2; move g1 to Player1; move g1 to Player2; catastrophe

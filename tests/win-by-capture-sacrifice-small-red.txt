@@ -1,5 +1,0 @@
-Player1 (0, g3y2) g3r1-
-Blueberry (b3) y1y1g1-
-Timbuktu (g2) -r1g1
-Player2 (1, b2g1) g2-y2
-LEGAL sacrifice r1; capture

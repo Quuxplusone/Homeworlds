@@ -42,12 +42,9 @@ This command-line utility brings together all of the above library code.
 You can use it to play a game against the computer, by alternately entering
 your own moves and the special command `ai_move`.
 
-All testing of the core library is currently done via shell scripts and text files in `tests/`.
-Text files beginning `win-` are endgame positions from which there is a winning move;
-text files beginning `nowin-` are endgame positions from which there is no winning move.
-Some tests hinge upon very obscure points in the rules, such as sacrificing a ship
-in order to build it later in the same turn, or sacrificing a homeworld's last defender.
-To run the `annotate` tests, run `./run-tests.sh`.
+To run the C++ unit tests, first install GTest
+(instructions are [here](https://stackoverflow.com/a/46611467/1424877))
+and then run `make test`.
 
 
 ### `wxgui`, a graphical game interface

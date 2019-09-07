@@ -1,5 +1,0 @@
-Player1 (0, y3g2) y1-
-Player2 (1, r3b2) r1-r1b1b1b1
-LEGAL capture r1; catastrophe blue
-LEGAL capture r1
-LEGAL capture b1

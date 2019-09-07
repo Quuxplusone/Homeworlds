@@ -1,4 +1,0 @@
-Player1 (0, y3g2) y1-
-CantCatastropheHere (r2) r1r1g1-r3
-Redworld (r3) -r2
-Player2 (1, r3b2) r1-r2b1b1b1

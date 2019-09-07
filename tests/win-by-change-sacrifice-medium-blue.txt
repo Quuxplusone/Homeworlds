@@ -1,7 +1,0 @@
-Player1 (0, g3y2) r1-
-Earth (g2) -r1
-Fire (g2) -y1
-Air (g1) -r1
-Water (g1) -b1
-Player2 (1, b1g3) b2b2g2g3-r3r2
-LEGAL sacrifice b2; convert g2 to b2; convert g3 to b3; catastrophe

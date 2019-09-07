@@ -1,3 +1,0 @@
-Player1 (0, b3g1) y2g2r1r1r1g1b1-
-CantCreateSmallWaypoint (b2) y1g1b1b1-
-Player2 (1, r3b2) -y1y1y3

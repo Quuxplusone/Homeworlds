@@ -1,3 +1,0 @@
-Player1 (0, b2g1) r1y1g1b2-
-Alpha (b1) -r1y1y1b1
-Player2 (1, y3g1) r1b1-y3y2

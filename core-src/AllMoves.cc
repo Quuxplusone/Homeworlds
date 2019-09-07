@@ -477,24 +477,27 @@ static void combine_one_yellow_action(const WholeMove &m,
         if (where.ships[defender].empty()) return;
     }
 
-    /* If this is the last action of a yellow sacrifice move,
-     * or if we started by blowing up all the friendly ships at
-     * home, we need to make sure that we wind up with a ship
-     * at our own homeworld. */
-    assert(st.homeworldOf(attacker) != nullptr);
-    const bool must_fly_homeward = (num_more_moves == 0 &&
-            where.homeworldOf != attacker &&
-            st.homeworldOf(attacker)->ships[attacker].empty());
-    /* The last action of a winning move must (almost) always be directed
-     * against the defender's homeworld. If we need to send a ship home
-     * to replace a sacrificed yellow, as above, we can do that on the
-     * second-to-last action without loss of generality.
-     *   If we need to evacuate some ships to avoid an existing
-     * overpopulation, then it's permissible to break this rule. */
-    const bool maybe_need_to_evacuate =
-            (all.contained_overpopulations && where.homeworldOf == attacker &&
-             where.containsOverpopulation());
-    const bool must_attack_defender = (num_more_moves == 0 && all.win_only && !maybe_need_to_evacuate);
+    // If this is the last action of a yellow sacrifice move,
+    // or if we started by blowing up all the friendly ships at
+    // home, we need to make sure that we wind up with a ship
+    // at our own homeworld.
+
+    const StarSystem *ahw = st.homeworldOf(attacker);
+    assert(ahw != nullptr);
+
+    // The last action of a winning move must (almost) always be directed
+    // against the defender's homeworld. If we need to send a ship home
+    // to replace a sacrificed yellow, as above, we can do that on the
+    // second-to-last action without loss of generality.
+    //   If we need to evacuate some ships to avoid an existing
+    // overpopulation, then it's permissible to break this rule.
+    //   If we need to reinforce our homeworld to avoid catastropheing
+    // the last ship, then it's permissible to break this rule.
+
+    bool must_fly_homeward = (num_more_moves == 0 && ahw->ships[attacker].empty());
+    bool might_flee_or_reinforce = (all.contained_overpopulations && ahw->containsOverpopulation());
+    bool must_attack_defender = (num_more_moves == 0 && all.win_only && !might_flee_or_reinforce);
+
     if (must_fly_homeward && must_attack_defender) {
         return;
     }

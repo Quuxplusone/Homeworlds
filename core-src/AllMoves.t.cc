@@ -5,6 +5,18 @@
 #include "WholeMove.h"
 #include <gtest/gtest.h>
 
+static bool can_reach(const GameState& oldst, bool only_wins, const GameState& targetst)
+{
+    std::string target = targetst.toComparableString();
+    return findAllMoves(
+        oldst, 0,
+        false, only_wins, 0xF,
+        [&](const WholeMove&, const GameState& newst) {
+            return (newst.toComparableString() == target);
+        }
+    );
+}
+
 #define EXPECT_WINNING_MOVE(text) do { \
         WholeMove m; \
         GameState newst = st; \
@@ -13,6 +25,18 @@
         EXPECT_EQ(ApplyMove::Whole(newst, 0, m), ApplyMove::Result::SUCCESS); \
         EXPECT_TRUE(newst.gameIsOver()); \
         EXPECT_TRUE(newst.hasLost(1)); \
+        EXPECT_TRUE(can_reach(st, true, newst)); \
+    } while (0)
+
+#define EXPECT_WINNING_BUT_OVERCOMPLICATED_MOVE(text) do { \
+        WholeMove m; \
+        GameState newst = st; \
+        EXPECT_TRUE(m.scan(text)); \
+        EXPECT_TRUE(inferMoveFromState(newst, 0, &m)); \
+        EXPECT_EQ(ApplyMove::Whole(newst, 0, m), ApplyMove::Result::SUCCESS); \
+        EXPECT_TRUE(newst.gameIsOver()); \
+        EXPECT_TRUE(newst.hasLost(1)); \
+        EXPECT_TRUE(can_reach(st, false, newst)); \
     } while (0)
 
 #define EXPECT_LEGAL_MOVE(text) do { \
@@ -22,6 +46,7 @@
         EXPECT_TRUE(inferMoveFromState(newst, 0, &m)); \
         EXPECT_EQ(ApplyMove::Whole(newst, 0, m), ApplyMove::Result::SUCCESS); \
         EXPECT_FALSE(newst.gameIsOver()); \
+        EXPECT_TRUE(can_reach(st, false, newst)); \
     } while (0)
 
 #define EXPECT_ILLEGAL_MOVE(text) do { \
@@ -653,12 +678,14 @@ TEST(AllMoves, win_by_precatastrophe_sacrifice_and_postcatastrophe) {
     GameState st = from(R"(
         Player1 (0, g2r3) r1r1r1r2r2-
         Alpha (r2) y2-
-        Player2 (1, g3) b2-y1y1y1y2g1g1g1b1b1b1
+        Beta (g2) -b1b1b1
+        Player2 (1, g3) g2-y1y1y1y2g1g1g1
     )");
     EXPECT_ILLEGAL_MOVE("sacrifice y2 at Alpha; move b2 from Player2 to Waypoint (y1); move b2 from Waypoint to Player1; catastrophe green at Player2");
-    EXPECT_WINNING_MOVE("catastrophe yellow; sacrifice y2; move b2 to Waypoint (y1); move b2 to Player1; catastrophe green");
-    EXPECT_WINNING_MOVE("catastrophe yellow; sacrifice y2; move b2 to Waypoint (y1); move b2 to Player1; catastrophe green; catastrophe red");
-    EXPECT_LEGAL_MOVE("catastrophe yellow; sacrifice y2; move b2 to Waypoint (y1); move b2 to Player1; catastrophe red");
+    EXPECT_ILLEGAL_MOVE("catastrophe green");
+    EXPECT_WINNING_MOVE("catastrophe yellow; sacrifice y2; move g2 to Waypoint (y1); move g2 to Player1; catastrophe green");
+    EXPECT_WINNING_MOVE("catastrophe yellow; sacrifice y2; move g2 to Waypoint (y1); move g2 to Player1; catastrophe green; catastrophe red");
+    EXPECT_LEGAL_MOVE("catastrophe yellow; sacrifice y2; move g2 to Waypoint (y1); move g2 to Player1; catastrophe red");
     EXPECT_TRUE(findWinningMove(st, 0, nullptr));
 }
 

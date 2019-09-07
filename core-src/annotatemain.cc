@@ -455,50 +455,6 @@ static bool was_yellowbird_move(const GameState& oldst, int attacker, const Whol
 }
 #endif
 
-/* The special command "LEGAL build r1" runs findAllMoves()
- * and verifies that "build r1" indeed appears in the list.
- * That's how we validate that findAllMoves() could be used
- * by a GUI program to basically diff any pair of states into
- * a legal move. */
-static void verify_move(bool legal, const WholeMove &move, int attacker)
-{
-    if (ApplyMove::isValidMove(g_History.currentState(), attacker, move)) {
-        if (!legal) {
-            printf("Failed isValidMove test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
-        }
-        GameState targetst = g_History.currentState();
-        ApplyMove::or_die(targetst, attacker, move);
-        const std::string target = targetst.toComparableString();
-        bool found = findAllMoves(
-            g_History.currentState(),
-            attacker,
-            /*prune_obviously_worse_moves=*/false,
-            /*look_only_for_wins=*/false,
-            /*these_colors_only=*/0xF,
-            [&](const WholeMove&, const GameState& newst) {
-                return (newst.toComparableString() == target);
-            }
-        );
-        if (found != legal) {
-            printf("Failed findAllMoves test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
-        }
-        if (legal && targetst.hasLost(1-attacker)) {
-            /* The given move is supposed to be legal AND winning;
-             * therefore findWinningMove() should return true. */
-            if (!findWinningMove(g_History.currentState(), attacker, nullptr)) {
-                printf("Failed findWinningMove test: LEGAL %s\n", move.toString().c_str());
-            }
-        }
-    } else {
-        if (legal) {
-            printf("Failed isValidMove test: %sLEGAL %s\n", (legal ? "" : "IL"), move.toString().c_str());
-            printf("Skipping findAllMoves test\n");
-            printf("Skipping findWinningMove test\n");
-        }
-    }
-}
-
-
 static void make_move_and_report(int attacker, const WholeMove& move)
 {
     g_History.makemove(move, attacker);
@@ -657,33 +613,9 @@ static bool move_and_record(int attacker)
             );
             assert(allmoves.size() >= 1);  /* "pass" from a legal position is always legal */
             printf("%d\n", (int)allmoves.size());
-        } else if (!strncmp(moveline.c_str(), "LEGAL ", 6) ||
-                   !strncmp(moveline.c_str(), "ILLEGAL ", 8) ||
-                   !strncmp(moveline.c_str(), "AMBIG ", 6)) {
-            const bool checkLegal = !strncmp(moveline.c_str(), "LEGAL ", 6);
-            const bool checkIllegal = !strncmp(moveline.c_str(), "ILLEGAL ", 8);
-            const bool checkAmbig = !strncmp(moveline.c_str(), "AMBIG ", 6);
-            const char * const realmoveline = (checkIllegal ? &moveline[8] : &moveline[6]);
-            WholeMove move;
-            const bool success = move.scan(realmoveline);
-            if (!success) {
-                printf("Failed: \"%s\" didn't parse as a move\n", realmoveline);
-            } else {
-                WholeMove oldmove = move;
-                bool inferred = move.isMissingPieces() ?
-                    inferMoveFromState(g_History.currentState(), attacker, &move) : true;
-                if (checkAmbig == inferred) {
-                    printf("Failed: \"%s\" is%s ambiguous.\n",
-                        oldmove.toString().c_str(), checkAmbig ? " not" : "");
-                }
-                if (inferred && !checkAmbig) {
-                    verify_move(checkLegal, move, attacker);
-                }
-            }
         } else {
             WholeMove move;
             const bool isAiMove = (moveline == "ai_move");
-            const bool isWinMove = (moveline == "WIN");
             if (isAiMove) {
                 move = get_ai_move(g_History.currentState(), attacker);
                 if (g_Verbose) {
@@ -692,19 +624,6 @@ static bool move_and_record(int attacker)
                 assert(ApplyMove::isValidMove(g_History.currentState(), attacker, move));
                 make_move_and_report(attacker, move);
                 return true;
-            } else if (isWinMove) {
-                const bool success = findWinningMove(g_History.currentState(), attacker, &move);
-                if (!success) {
-                    printf("AI for %s found no winning move.\n", g_playerNames[attacker].c_str());
-                } else {
-                    if (g_Verbose) {
-                        printf("AI for %s found a winning move:\n", g_playerNames[attacker].c_str());
-                        printf("%s\n", convertToString(move).c_str());
-                    }
-                    assert(ApplyMove::isValidMove(g_History.currentState(), attacker, move));
-                    make_move_and_report(attacker, move);
-                    return true;
-                }
             } else {
                 const bool success = move.scan(moveline.c_str());
                 if (!success) {
