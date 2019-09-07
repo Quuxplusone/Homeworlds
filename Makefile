@@ -25,7 +25,7 @@ test: test-core
 annotate: annotatemain.o getline.o InferMove.o ${AIOBJS}
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
 
-test-core: PieceCollection.t.o StarSystem.t.o GameState.t.o WholeMove.t.o ${OBJS}
+test-core: PieceCollection.t.o StarSystem.t.o GameState.t.o WholeMove.t.o AllMoves.t.o ${OBJS} AllMoves.o InferMove.o ApplyMove.o
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -lgtest -lgtest_main -o $@
 
 wxgui: wxmain.o wxPiece.o wxSystem.o wxStash.o wxGalaxy.o wxMouse.o getline.o InferMove.o ${AIOBJS}
