@@ -26,7 +26,7 @@ public:
         return *this;
     }
 
-    bool is_missing_pieces() const;
+    bool isMissingPieces() const;
     int unusedSacrificeActions() const;
 
     std::string toString() const;

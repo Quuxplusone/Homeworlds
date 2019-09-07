@@ -43,8 +43,7 @@ static bool infer_catastrophe(const GameState &st, const WholeMove &move, Single
     const bool order_matters = (numcats == 0);
     SingleAction newaction = action;
     int found = 0;
-    for (int i=0; i < (int)st.stars.size(); ++i) {
-        const StarSystem &here = st.stars[i];
+    for (const StarSystem& here : st.stars) {
         if (action.where != "" && here.name != action.where) {
             continue;
         }
@@ -128,8 +127,7 @@ static bool infer_sacrifice(const GameState &st, int attacker, const WholeMove &
 
     SingleAction newaction = action;
     bool foundone = false;
-    for (int i=0; i < (int)st.stars.size(); ++i) {
-        const StarSystem &here = st.stars[i];
+    for (const StarSystem& here : st.stars) {
         if (action.where != "" && here.name != action.where) {
             continue;
         }
@@ -161,14 +159,14 @@ static bool infer_sacrifice(const GameState &st, int attacker, const WholeMove &
 }
 
 
-static bool infer_multicapture(const GameState &st, int attacker, WholeMove &move, SingleAction &action)
+static bool infer_multicapture(const GameState &st, int attacker, WholeMove *move, SingleAction &action)
 {
     assert(action.kind == CAPTURE);
     const int defender = 1-attacker;
     /* Count the ships we're capturing with the equivalent of "capture r1y1g1". */
     PieceCollection to_capture;
-    for (int j = (&action - &move.actions[0]); j < (int)move.actions.size(); ++j) {
-        SingleAction &actjon = move.actions[j];
+    for (int j = (&action - &move->actions[0]); j < (int)move->actions.size(); ++j) {
+        SingleAction &actjon = move->actions[j];
         if (actjon.kind != CAPTURE || actjon.where != "") {
             break;
         }
@@ -179,9 +177,8 @@ static bool infer_multicapture(const GameState &st, int attacker, WholeMove &mov
     }
     /* Now try to capture any ships matching that set. */
     PieceCollection captured;
-    int j = (&action - &move.actions[0]);
-    for (int i=0; i < (int)st.stars.size(); ++i) {
-        const StarSystem &here = st.stars[i];
+    int j = (&action - &move->actions[0]);
+    for (const StarSystem& here : st.stars) {
         /* Since we only try infer_multicapture() when we've already seen a sacrifice,
          * that means that we don't need to check for hasAccessTo(RED) here. */
         if (here.ships[attacker].empty()) continue;
@@ -199,11 +196,11 @@ static bool infer_multicapture(const GameState &st, int attacker, WholeMove &mov
                     num_here = std::min(num_here, target - captured.numberOf(c,s));
                     captured.insert(c,s,num_here);
                     for ( ; num_here != 0; --num_here) {
-                        assert(move.actions[j].kind == CAPTURE);
-                        assert(move.actions[j].where == "");
-                        move.actions[j].where = here.name;
-                        move.actions[j].color = c;
-                        move.actions[j].size = s;
+                        assert(move->actions[j].kind == CAPTURE);
+                        assert(move->actions[j].where.empty());
+                        move->actions[j].where = here.name;
+                        move->actions[j].color = c;
+                        move->actions[j].size = s;
                         ++j;
                     }
                 }
@@ -214,12 +211,12 @@ static bool infer_multicapture(const GameState &st, int attacker, WholeMove &mov
     if (captured != to_capture) {
         return false;
     }
-    assert(j == (&action - &move.actions[0]) + to_capture.number());
+    assert(j == (&action - &move->actions[0]) + to_capture.number());
     return true;
 }
 
 
-static bool infer_capture(const GameState &st, int attacker, WholeMove &move, SingleAction &action, bool saw_sacrifice)
+static bool infer_capture(const GameState &st, int attacker, WholeMove *move, SingleAction &action, bool saw_sacrifice)
 {
     assert(action.kind == CAPTURE);
 
@@ -233,8 +230,7 @@ static bool infer_capture(const GameState &st, int attacker, WholeMove &move, Si
     const int defender = 1-attacker;
     SingleAction newaction = action;
     bool foundone = false;
-    for (int i=0; i < (int)st.stars.size(); ++i) {
-        const StarSystem &here = st.stars[i];
+    for (const StarSystem& here : st.stars) {
         if (action.where != "" && here.name != action.where) {
             continue;
         }
@@ -268,20 +264,31 @@ static bool infer_capture(const GameState &st, int attacker, WholeMove &move, Si
 }
 
 
-static bool infer_movement_from(const GameState &st, int attacker, SingleAction &action, bool saw_sacrifice)
+static bool infer_movement(const GameState &st, int attacker, SingleAction &action, bool saw_sacrifice)
 {
-    assert(action.kind == MOVE || action.kind == MOVE_CREATE);
-    assert(action.color != UNKNOWN_COLOR);
-    assert(action.size != UNKNOWN_SIZE);
-    assert(action.where == "");
-    assert(action.whither != "");
+    /* We currently can't infer that e.g. in the situation
+     * Home (0,g3b2) y1-r1
+     * Alpha (b1) g2-
+     * Beta (b2) r2-
+     * "sacrifice; move" must mean "sacrifice y1 at Home; move g2 from Alpha to Home"
+     * because g2 is the only ship able to reach Home by the end of the turn to prevent
+     * a loss.
+     */
+    if (action.whither.empty() || action.color == UNKNOWN_COLOR || action.size == UNKNOWN_SIZE) {
+        return false;
+    }
+    if (action.kind == MOVE_CREATE) {
+        if (action.newcolor == UNKNOWN_COLOR || action.newsize == UNKNOWN_SIZE) {
+            return false;
+        }
+    }
+
     bool foundone = false;
     const StarSystem *whither = st.systemNamed(action.whither.c_str());
     if ((whither == nullptr) != (action.kind == MOVE_CREATE)) {
         return false;
     }
-    for (int i=0; i < (int)st.stars.size(); ++i) {
-        const StarSystem &here = st.stars[i];
+    for (const StarSystem& here : st.stars) {
         if (here.homeworldOf == attacker && here.ships[attacker].number() == 1) {
             continue;
         }
@@ -322,9 +329,8 @@ static bool infer_build(const GameState &st, int attacker, SingleAction &action,
         if (action.size != UNKNOWN_SIZE && s != action.size) {
             continue;
         }
-        /* Can we build this color anywhere? */
-        for (int i=0; i < (int)st.stars.size(); ++i) {
-            const StarSystem &here = st.stars[i];
+        // Can we build this color anywhere?
+        for (const StarSystem& here : st.stars) {
             if (action.where != "" && here.name != action.where) continue;
             if (!saw_sacrifice && !here.playerHasAccessTo(attacker, GREEN)) {
                 continue;
@@ -348,8 +354,7 @@ static bool infer_convert(const GameState &st, int attacker, SingleAction &actio
     assert(action.kind == CONVERT);
     SingleAction newaction = action;
     bool foundone = false;
-    for (int i=0; i < (int)st.stars.size(); ++i) {
-        const StarSystem &here = st.stars[i];
+    for (const StarSystem& here : st.stars) {
         if (action.where != "" && here.name != action.where) {
             continue;
         }
@@ -405,77 +410,42 @@ static bool infer_convert(const GameState &st, int attacker, SingleAction &actio
  * If the move matches multiple non-equivalent possibilities, return
  * false (trashing the input move in the process).
  */
-bool inferMoveFromState(const GameState &st, int attacker, WholeMove &move)
+bool inferMoveFromState(GameState newst, int attacker, WholeMove *move)
 {
-    if (!move.is_missing_pieces()) {
+    if (!move->isMissingPieces()) {
         return true;
     }
-    GameState newst = st;
     bool saw_sacrifice = false;
-    for (int i=0; i < (int)move.actions.size(); ++i) {
-        SingleAction &action = move.actions[i];
-        switch (action.kind) {
-            case CATASTROPHE:
-                if (action.where != "" && action.color != UNKNOWN_COLOR) {
-                     break;
-                }
-                if (!infer_catastrophe(newst, move, action)) return false;
-                break;
-            case SACRIFICE:
-                saw_sacrifice = true;
-                if (action.where != "" && action.color != UNKNOWN_COLOR && action.size != UNKNOWN_SIZE) {
+    for (SingleAction& action : move->actions) {
+        if (action.kind == SACRIFICE) {
+            saw_sacrifice = true;
+        }
+        if (action.isMissingPieces()) {
+            switch (action.kind) {
+                case CATASTROPHE:
+                    if (!infer_catastrophe(newst, *move, action)) return false;
                     break;
-                }
-                if (!infer_sacrifice(newst, attacker, move, action)) return false;
-                break;
-            case CAPTURE:
-                if (action.where != "" && action.color != UNKNOWN_COLOR && action.size != UNKNOWN_SIZE) {
+                case SACRIFICE:
+                    if (!infer_sacrifice(newst, attacker, *move, action)) return false;
                     break;
-                }
-                if (!infer_capture(newst, attacker, move, action, saw_sacrifice)) return false;
-                break;
-            case MOVE:
-            case MOVE_CREATE:
-                /* We currently can't infer that e.g. in the situation
-                 * Home (0,g3b2) y1-r1
-                 * Alpha (b1) g2-
-                 * Beta (b2) r2-
-                 * "sacrifice; move" must mean "sacrifice y1 at Home; move g2 from Alpha to Home"
-                 * because g2 is the only ship able to reach Home by the end of the turn to prevent
-                 * a loss.
-                 */
-                if (action.whither == "") return false;
-                if (action.kind == MOVE_CREATE) {
-                    if (action.newcolor == UNKNOWN_COLOR || action.newsize == UNKNOWN_SIZE) {
-                        return false;
-                    }
-                }
-                if (action.color == UNKNOWN_COLOR || action.size == UNKNOWN_SIZE) {
-                    return false;
-                }
-                if (action.where != "") {
+                case CAPTURE:
+                    if (!infer_capture(newst, attacker, move, action, saw_sacrifice)) return false;
                     break;
-                }
-                if (!infer_movement_from(newst, attacker, action, saw_sacrifice)) return false;
-                break;
-            case BUILD:
-                if (action.where != "" && action.color != UNKNOWN_COLOR && action.size != UNKNOWN_SIZE) {
+                case MOVE:
+                case MOVE_CREATE:
+                    if (!infer_movement(newst, attacker, action, saw_sacrifice)) return false;
                     break;
-                }
-                if (!infer_build(newst, attacker, action, saw_sacrifice)) return false;
-                break;
-            case CONVERT:
-                assert(action.newsize == action.size);
-                if (action.where != "" && action.color != UNKNOWN_COLOR && action.size != UNKNOWN_SIZE
-                                       && action.newcolor != UNKNOWN_COLOR) {
+                case BUILD:
+                    if (!infer_build(newst, attacker, action, saw_sacrifice)) return false;
                     break;
-                }
-                if (!infer_convert(newst, attacker, action, saw_sacrifice)) return false;
-                break;
+                case CONVERT:
+                    if (!infer_convert(newst, attacker, action, saw_sacrifice)) return false;
+                    break;
+            }
         }
         /* Now we have either filled in the missing pieces of "action",
          * or bailed out by returning false. */
-        assert(!action.is_missing_pieces());
+        assert(!action.isMissingPieces());
         if (ApplyMove::Single(newst, attacker, action) != ApplyMove::Result::SUCCESS) {
             return false;
         }

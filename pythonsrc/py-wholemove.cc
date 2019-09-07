@@ -57,7 +57,7 @@ struct WholeMovePyObject {
             if (!PyArg_ParseTuple(args, "")) {
                 return nullptr;
             }
-            if (self->obj_->is_missing_pieces()) {
+            if (self->obj_->isMissingPieces()) {
                 PyErr_SetString(PyExc_ValueError, "move with missing information cannot be stringified into SDG format");
                 return nullptr;
             }

@@ -670,8 +670,8 @@ static bool move_and_record(int attacker)
                 printf("Failed: \"%s\" didn't parse as a move\n", realmoveline);
             } else {
                 WholeMove oldmove = move;
-                const bool inferred = move.is_missing_pieces() ?
-                    inferMoveFromState(g_History.currentState(), attacker, move) : true;
+                bool inferred = move.isMissingPieces() ?
+                    inferMoveFromState(g_History.currentState(), attacker, &move) : true;
                 if (checkAmbig == inferred) {
                     printf("Failed: \"%s\" is%s ambiguous.\n",
                         oldmove.toString().c_str(), checkAmbig ? " not" : "");
@@ -717,9 +717,9 @@ static bool move_and_record(int attacker)
                     }
                     puts("Enter the string \"help\" for help with this game's interface.");
                 } else {
-                    if (move.is_missing_pieces()) {
+                    if (move.isMissingPieces()) {
                         WholeMove oldmove = move;
-                        const bool inferred = inferMoveFromState(g_History.currentState(), attacker, move);
+                        bool inferred = inferMoveFromState(g_History.currentState(), attacker, &move);
                         if (!inferred) {
                             /* We couldn't infer the user's intended move. Just restore the old move,
                              * with the un-filled-in blanks, and let isValidMove() reject it below. */

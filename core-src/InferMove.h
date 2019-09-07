@@ -11,4 +11,4 @@
  * If the move matches multiple non-equivalent possibilities, return
  * false (trashing the input move in the process).
  */
-bool inferMoveFromState(const GameState &st, int attacker, WholeMove &move);
+bool inferMoveFromState(GameState st, int attacker, WholeMove *move);

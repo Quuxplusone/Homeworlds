@@ -118,18 +118,18 @@ bool SingleAction::sanitycheck() const
     return true;
 }
 
-bool SingleAction::is_missing_pieces() const
+bool SingleAction::isMissingPieces() const
 {
     assert(this->sanitycheck());
-    if (color == UNKNOWN_COLOR) return true;
-    if (kind != CATASTROPHE && size == UNKNOWN_SIZE) return true;
-    if (kind == CONVERT || kind == MOVE_CREATE) {
-        if (newcolor == UNKNOWN_COLOR) return true;
-    }
-    if (kind == MOVE_CREATE && newsize == UNKNOWN_SIZE) return true;
-    if (where == "") return true;
-    if (kind == MOVE || kind == MOVE_CREATE) {
-        if (whither == "") return true;
+    switch (kind) {
+        case SACRIFICE: return (color == UNKNOWN_COLOR || size == UNKNOWN_SIZE || where.empty());
+        case CATASTROPHE: return (color == UNKNOWN_COLOR || where.empty());
+        case CAPTURE: return (color == UNKNOWN_COLOR || size == UNKNOWN_SIZE || where.empty());
+        case MOVE: return (color == UNKNOWN_COLOR || size == UNKNOWN_SIZE || where.empty() || whither.empty());
+        case MOVE_CREATE: return (color == UNKNOWN_COLOR || size == UNKNOWN_SIZE || newcolor == UNKNOWN_COLOR || newsize == UNKNOWN_SIZE || where.empty() || whither.empty());
+        case BUILD: return (color == UNKNOWN_COLOR || size == UNKNOWN_SIZE || where.empty());
+        case CONVERT: return (color == UNKNOWN_COLOR || size == UNKNOWN_SIZE || newcolor == UNKNOWN_COLOR || newsize == UNKNOWN_SIZE || where.empty());
+        default: assert(false); break;
     }
     return false;
 }

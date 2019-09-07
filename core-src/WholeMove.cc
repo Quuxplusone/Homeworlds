@@ -73,10 +73,10 @@ bool WholeMove::sanitycheck() const
 }
 
 
-bool WholeMove::is_missing_pieces() const
+bool WholeMove::isMissingPieces() const
 {
-    for (int i=0; i < (int)actions.size(); ++i) {
-        if (actions[i].is_missing_pieces()) return true;
+    for (const auto& action : actions) {
+        if (action.isMissingPieces()) return true;
     }
     return false;
 }

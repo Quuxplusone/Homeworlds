@@ -301,9 +301,9 @@ void GameApp::load_game(wxCommandEvent &)
             free(moveline);
             return;
         }
-        if (move.is_missing_pieces()) {
+        if (move.isMissingPieces()) {
             WholeMove oldmove = move;
-            const bool inferred = inferMoveFromState(newhistory.currentState(), attacker, move);
+            const bool inferred = inferMoveFromState(newhistory.currentState(), attacker, &move);
             if (!inferred) {
                 /* We couldn't infer the user's intended move. Just restore the old move,
                  * with the un-filled-in blanks, and let isValidMove() reject it below. */

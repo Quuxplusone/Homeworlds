@@ -160,9 +160,9 @@ struct GameStatePyObject {
             }
             GameState& st = *self->obj_;
             WholeMove move = *unwrap_WholeMove_instance(move_);
-            if (move.is_missing_pieces()) {
+            if (move.isMissingPieces()) {
                 WholeMove newmove = move;
-                if (inferMoveFromState(st, attacker, newmove)) {
+                if (inferMoveFromState(st, attacker, &newmove)) {
                     move = std::move(newmove);
                 }
             }
@@ -193,9 +193,9 @@ struct GameStatePyObject {
             }
             GameState st = *self->obj_;
             WholeMove move = *unwrap_WholeMove_instance(move_);
-            if (move.is_missing_pieces()) {
+            if (move.isMissingPieces()) {
                 WholeMove newmove = move;
-                if (inferMoveFromState(st, attacker, newmove)) {
+                if (inferMoveFromState(st, attacker, &newmove)) {
                     move = std::move(newmove);
                 }
             }
