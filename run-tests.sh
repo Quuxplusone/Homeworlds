@@ -22,13 +22,4 @@ for f in tests/nowin*; do
   echo "AI for Player1 found no winning move." | diff --brief - OUTPUT
 done
 
-for f in tests/eval*; do
-  echo $f
-
-  cat $f | ./annotate --auto >OUTPUT
-  if [ "$(head -1 OUTPUT)" -ge "$(head -2 OUTPUT | tail -1)" ]; then
-    echo "The evaluator wrongly rated these two positions relative to each other."
-  fi
-done
-
 rm OUTPUT

@@ -19,7 +19,7 @@ setup(
                 'pythonsrc/py-wholemove.cc',
                 'pythonsrc/py-gamestate.cc',
                 'core-src/AIMove.cc',
-                'core-src/AIStaticEval3.cc',
+                'core-src/AIStaticEval.cc',
                 'core-src/AllMoves.cc',
                 'core-src/ApplyMove.cc',
                 'core-src/GameState.cc',
