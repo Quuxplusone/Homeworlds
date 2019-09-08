@@ -32,7 +32,7 @@ TEST(AIStaticEval, checkmate_opponent) {
     )");
     GameState bad = apply(st, "sacrifice b2 at Urania; convert b3 to g3 at Player2; convert b3 to y3 at Player1");
     GameState good = apply(st, "sacrifice r3 at Player2; capture r1 at Player2; capture g1 at Player2; capture b1 at Player2");
-    XFAIL_GT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
+    EXPECT_GT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
 }
 
 TEST(AIStaticEval, keep_opponent_in_check) {
@@ -97,5 +97,5 @@ TEST(AIStaticEval, threatened_capture_at_home) {
     )");
     GameState bad = apply(st, "sacrifice y3 at Betazed; move y1 from Betazed to Player2; move y2 from Betazed to Player2; move g3 from Betazed to Lebling; catastrophe yellow at Player2");
     GameState good = apply(st, "sacrifice y3 at Betazed; move y1 from Betazed to Player2; move y2 from Betazed to Player2; move g3 from Betazed to Player2; catastrophe yellow at Player2");
-    XFAIL_GT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
+    EXPECT_GT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
 }

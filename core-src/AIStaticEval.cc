@@ -518,6 +518,12 @@ int ai_static_evaluation(const GameState &st, int attacker)
             } else if (!attacker_advantage && has_gun[defender]) {
                 sum -= (ab == LARGE ? 100 : 50);
             }
+
+            if ((star.homeworldOf == defender) && attacker_advantage) {
+                sum += (star.ships[defender].number() == 1) ? 100 : 40;
+            } else if ((star.homeworldOf == attacker) && !attacker_advantage) {
+                sum -= (star.ships[attacker].number() == 1) ? 100 : 40;
+            }
         }
 
         /* Positive points for diversity. */
