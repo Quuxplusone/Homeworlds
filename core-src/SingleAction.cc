@@ -143,8 +143,8 @@ bool SingleAction::scan(const char *text)
     this->newsize = UNKNOWN_SIZE;
     this->whither = ""; /* don't know */
 
-    auto get_trailing_where = [&]() {
-        if (advance_past(text, "at ", "in ", "")) {
+    auto get_trailing_where = [&](auto... prepositions) {
+        if (advance_past(text, prepositions...)) {
             if (!StarSystem::isValidName(text)) return false;
             this->where = text;
             return true;
@@ -154,18 +154,58 @@ bool SingleAction::scan(const char *text)
 
     if (advance_past(text, "catastrophe", "cat")) {
         this->kind = CATASTROPHE;
-        if (advance_past(text, " red", " r")) {
-            this->color = RED;
-        } else if (advance_past(text, " yellow", " y")) {
-            this->color = YELLOW;
-        } else if (advance_past(text, " green", " g")) {
-            this->color = GREEN;
-        } else if (advance_past(text, " blue", " b")) {
-            this->color = BLUE;
+        // Unfortunately, because of SDG syntax, we must
+        // handle all of the following:
+        // "catastrophe red at Blue"
+        // "catastrophe Red blue"
+        // "catastrophe at Red"
+        // "catastrophe red"
+        // "catastrophe"
+        auto get_word = [](const char **text) {
+            const char *endwhere = *text;
+            while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
+            return std::string(std::exchange(*text, endwhere), endwhere);
+        };
+
+        auto scan_color = [](const std::string& word, Color *color) {
+            if (word == "red" || word == "r") {
+                *color = RED;
+            } else if (word == "yellow" || word == "y") {
+                *color = YELLOW;
+            } else if (word == "green" || word == "g") {
+                *color = GREEN;
+            } else if (word == "blue" || word == "b") {
+                *color = BLUE;
+            } else {
+                return false;
+            }
+            return true;
+        };
+
+        if (*text == '\0') {
+            return true;
+        } else if (advance_past(text, " at ")) {
+            return get_trailing_where("");
+        } else if (advance_past(text, " ")) {
+            // "catastrophe red [at Blue]"
+            // or "catastrophe Blue red"
+            std::string word1 = get_word(&text);
+            if (*text == '\0') {
+                return scan_color(word1, &this->color);
+            }
+            ++text;
+            std::string word2 = get_word(&text);
+            if (word2 == "at") {
+                if (*text == '\0') return false;
+                if (!scan_color(word1, &this->color)) return false;
+                return get_trailing_where(" ");
+            } else if (*text == '\0') {
+                this->where = std::move(word1);
+                if (!StarSystem::isValidName(this->where.c_str())) return false;
+                return scan_color(word2, &this->color);
+            }
         }
-        if (*text == '\0') return true;
-        if (!advance_past(text, " ")) return false;
-        return get_trailing_where();
+        return false;
     } else if (advance_past(text, "sacrifice", "sac")) {
         this->kind = SACRIFICE;
         if (*text == '\0') return true;
@@ -174,7 +214,7 @@ bool SingleAction::scan(const char *text)
             if (*text == '\0') return true;
             if (!advance_past(text, " ")) return false;
         }
-        return get_trailing_where();
+        return get_trailing_where("at ", "");
     } else if (advance_past(text, "capture", "attack")) {
         this->kind = CAPTURE;
         if (*text == '\0') return true;
@@ -183,7 +223,7 @@ bool SingleAction::scan(const char *text)
             if (*text == '\0') return true;
             if (!advance_past(text, " ")) return false;
         }
-        return get_trailing_where();
+        return get_trailing_where("at ", "");
     } else if (advance_past(text, "move ")) {
         this->kind = MOVE;
         if (!scan_piece(text, this->color, this->size)) return false;
@@ -238,7 +278,7 @@ bool SingleAction::scan(const char *text)
             if (*text == '\0') return true;
             if (!advance_past(text, " ")) return false;
         }
-        return get_trailing_where();
+        return get_trailing_where("at ", "");
     } else if (advance_past(text, "convert", "trade", "swap")) {
         this->kind = CONVERT;
         if (*text == '\0') return true;
@@ -274,7 +314,7 @@ bool SingleAction::scan(const char *text)
 
         if (*text == '\0') return true;
         if (!advance_past(text, " ")) return false;
-        return get_trailing_where();
+        return get_trailing_where("at ", "");
     } else {
         return false;
     }

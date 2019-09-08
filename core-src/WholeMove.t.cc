@@ -242,9 +242,19 @@ TEST(WholeMove, scanCatastrophe) {
     EXPECT_COMPLETE_MOVE(m.scan("catastrophe y at Alpha"));
     EXPECT_EQ(m.toString(), "catastrophe yellow at Alpha");
     EXPECT_EQ(m.toSDGString(), "catastrophe Alpha yellow");
+    EXPECT_COMPLETE_MOVE(m.scan("catastrophe Alpha red"));
+    EXPECT_EQ(m.toString(), "catastrophe red at Alpha");
+    EXPECT_EQ(m.toSDGString(), "catastrophe Alpha red");
+    EXPECT_COMPLETE_MOVE(m.scan("cat Alpha red"));
+    EXPECT_EQ(m.toString(), "catastrophe red at Alpha");
+    EXPECT_EQ(m.toSDGString(), "catastrophe Alpha red");
+    EXPECT_COMPLETE_MOVE(m.scan("cat Alpha r"));
+    EXPECT_EQ(m.toString(), "catastrophe red at Alpha");
+    EXPECT_EQ(m.toSDGString(), "catastrophe Alpha red");
     EXPECT_FALSE(m.scan("catastrophe 2 at Alpha"));
     EXPECT_FALSE(m.scan("catastrophe g2 at Alpha"));
-    EXPECT_FALSE(m.scan("catastrophe Alpha red"));  // TODO
+    EXPECT_FALSE(m.scan("catastrophe Alpha"));
+    EXPECT_FALSE(m.scan("catastrophe Alpha at red"));
 }
 
 TEST(WholeMove, scanPreCatastrophe) {
@@ -269,5 +279,4 @@ TEST(WholeMove, scanIncompleteCatastrophe) {
     EXPECT_INCOMPLETE_MOVE(m.scan("catastrophe")); EXPECT_EQ(m.toString(), "catastrophe");
     EXPECT_INCOMPLETE_MOVE(m.scan("cat")); EXPECT_EQ(m.toString(), "catastrophe");
     EXPECT_INCOMPLETE_MOVE(m.scan("catastrophe at Alpha")); EXPECT_EQ(m.toString(), "catastrophe at Alpha");
-    EXPECT_INCOMPLETE_MOVE(m.scan("cat Alpha")); EXPECT_EQ(m.toString(), "catastrophe at Alpha");
 }
