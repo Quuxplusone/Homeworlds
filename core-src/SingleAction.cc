@@ -226,29 +226,48 @@ bool SingleAction::scan(const char *text)
         return get_trailing_where("at ", "");
     } else if (advance_past(text, "move ")) {
         this->kind = MOVE;
+        // Because of SDG syntax, we must
+        // handle all of the following:
+        // "move r1 from A to B (y1)"
+        // "move r1 from A to B"
+        // "move r1 to B (y1)"
+        // "move r1 to B"
+        // "move r1 A B"
+        bool saw_non_sdg_syntax = false;
         if (!scan_piece(text, this->color, this->size)) return false;
         this->where = "";
-        if (advance_past(text, " from ")) {
+        if (!advance_past(text, " ")) return false;
+        if (advance_past(text, "from ")) {
+            saw_non_sdg_syntax = true;
             const char *endwhere = text;
             while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
             where = std::string(text, endwhere);
             if (!StarSystem::isValidName(this->where.c_str())) return false;
             text = endwhere;
+            if (!advance_past(text, " to ")) return false;
+        } else if (advance_past(text, "to ")) {
+            saw_non_sdg_syntax = true;
+        } else {
+            const char *endwhere = text;
+            while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
+            where = std::string(text, endwhere);
+            if (!StarSystem::isValidName(this->where.c_str())) return false;
+            text = endwhere;
+            if (!advance_past(text, " ")) return false;
         }
-        if (!advance_past(text, " to ")) return false;
         const char *endwhither = text;
         while (*endwhither != '\0' && *endwhither != ' ') ++endwhither;
         whither = std::string(text, endwhither);
         if (!StarSystem::isValidName(this->whither.c_str())) return false;
         text = endwhither;
-        /* The "whither" may be a newly created star system, in which
-         * case it will be followed by a piece in parentheses; for
-         * example, "move y1 from Homeworld to Alpha (r2)". */
-        if (*text == '\0') return true;
-        this->kind = MOVE_CREATE;
-        if (!advance_past(text, " (")) return false;
-        if (!scan_piece(text, this->newcolor, this->newsize)) return false;
-        if (!advance_past(text, ")")) return false;
+        if (saw_non_sdg_syntax && advance_past(text, " (")) {
+            // The "whither" may be a newly created star system, in which
+            // case it will be followed by a piece in parentheses; for
+            // example, "move y1 from Homeworld to Alpha (r2)". */
+            this->kind = MOVE_CREATE;
+            if (!scan_piece(text, this->newcolor, this->newsize)) return false;
+            if (!advance_past(text, ")")) return false;
+        }
         if (*text != '\0') return false;
         return true;
     } else if (advance_past(text, "discover ")) {
@@ -380,8 +399,9 @@ bool SingleAction::scan_for_multicapture(const char *text, std::vector<SingleAct
 
 bool SingleAction::scan_for_multimove(const char *text, std::vector<SingleAction> &actions)
 {
-    Color c1, c2, c3;
-    Size s1, s2, s3;
+    bool saw_discover = false;
+    Color c1, c2, c3, newcolor;
+    Size s1, s2, s3, newsize;
     std::string where;
     std::string whither;
     if (!advance_past(text, "move ")) {
@@ -393,38 +413,60 @@ bool SingleAction::scan_for_multimove(const char *text, std::vector<SingleAction
     if (!got_second) return false;
     const bool got_third = scan_piece(text, c3, s3);
     where = "";
-    if (advance_past(text, " from ")) {
+    // Because of SDG syntax, we must
+    // handle all of the following:
+    // "move r1 from A to B (y1)"
+    // "move r1 from A to B"
+    // "move r1 to B (y1)"
+    // "move r1 to B"
+    // "move r1 A B"
+    bool saw_non_sdg_syntax = false;
+    if (!advance_past(text, " ")) return false;
+    if (advance_past(text, "from ")) {
+        saw_non_sdg_syntax = true;
         const char *endwhere = text;
         while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
         where = std::string(text, endwhere);
         if (!StarSystem::isValidName(where.c_str())) return false;
         text = endwhere;
-    }
-    if (!advance_past(text, " to ")) {
-        return false;
+        if (!advance_past(text, " to ")) return false;
+    } else if (advance_past(text, "to ")) {
+        saw_non_sdg_syntax = true;
+    } else {
+        const char *endwhere = text;
+        while (*endwhere != '\0' && *endwhere != ' ') ++endwhere;
+        where = std::string(text, endwhere);
+        if (!StarSystem::isValidName(where.c_str())) return false;
+        text = endwhere;
+        if (!advance_past(text, " ")) return false;
     }
     const char *endwhither = text;
     while (*endwhither != '\0' && *endwhither != ' ') ++endwhither;
     whither = std::string(text, endwhither);
     if (!StarSystem::isValidName(whither.c_str())) return false;
     text = endwhither;
-    /* The "whither" may be a newly created star system, in which
-     * case it will be followed by a piece in parentheses; for
-     * example, "move y1 from Homeworld to Alpha (r2)". */
-    if (*text == '\0') {
-        actions.push_back(SingleAction(MOVE, c1, s1, where.c_str(), whither.c_str()));
-    } else {
-        Color newcolor;
-        Size newsize;
-        if (!advance_past(text, " (")) return false;
+    if (saw_non_sdg_syntax && advance_past(text, " (")) {
+        // The "whither" may be a newly created star system, in which
+        // case it will be followed by a piece in parentheses; for
+        // example, "move y1 from Homeworld to Alpha (r2)". */
+        saw_discover = true;
         if (!scan_piece(text, newcolor, newsize)) return false;
         if (!advance_past(text, ")")) return false;
-        if (*text != '\0') return false;
-        actions.push_back(SingleAction(MOVE_CREATE, c1, s1, where.c_str(), whither.c_str(), newcolor, newsize));
     }
-    actions.push_back(SingleAction(MOVE, c2, s2, where.c_str(), whither.c_str()));
-    if (got_third) {
-        actions.push_back(SingleAction(MOVE, c3, s3, where.c_str(), whither.c_str()));
+    if (*text != '\0') return false;
+
+    if (saw_discover) {
+        actions.push_back(SingleAction(MOVE_CREATE, c1, s1, where.c_str(), whither.c_str(), newcolor, newsize));
+        actions.push_back(SingleAction(MOVE, c2, s2, where.c_str(), whither.c_str()));
+        if (got_third) {
+            actions.push_back(SingleAction(MOVE, c3, s3, where.c_str(), whither.c_str()));
+        }
+    } else {
+        actions.push_back(SingleAction(MOVE, c1, s1, where.c_str(), whither.c_str()));
+        actions.push_back(SingleAction(MOVE, c2, s2, where.c_str(), whither.c_str()));
+        if (got_third) {
+            actions.push_back(SingleAction(MOVE, c3, s3, where.c_str(), whither.c_str()));
+        }
     }
     return true;
 }

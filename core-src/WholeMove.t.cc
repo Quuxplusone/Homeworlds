@@ -50,18 +50,16 @@ TEST(WholeMove, scanMove) {
     EXPECT_COMPLETE_MOVE(m.scan("move g1 from Alpha to Beta"));
     EXPECT_EQ(m.toString(), "move g1 from Alpha to Beta");
     EXPECT_EQ(m.toSDGString(), "move g1 Alpha Beta");
-    EXPECT_FALSE(m.scan("move g1 Alpha Beta"));  // TODO
+    EXPECT_COMPLETE_MOVE(m.scan("move g1 Alpha Beta"));
+    EXPECT_EQ(m.toString(), "move g1 from Alpha to Beta");
+    EXPECT_EQ(m.toSDGString(), "move g1 Alpha Beta");
 }
 
 TEST(WholeMove, scanIncompleteMove) {
     WholeMove m;
     EXPECT_INCOMPLETE_MOVE(m.scan("move g1 to Beta")); EXPECT_EQ(m.toString(), "move g1 to Beta");
-    EXPECT_FALSE(m.scan("move g1 from Alpha"));
     EXPECT_FALSE(m.scan("move from Alpha to Beta"));
-    EXPECT_FALSE(m.scan("move from Alpha"));
     EXPECT_FALSE(m.scan("move to Beta"));
-    EXPECT_FALSE(m.scan("move g1"));
-    EXPECT_FALSE(m.scan("move"));
 }
 
 TEST(WholeMove, scanMultiMove) {
@@ -70,6 +68,33 @@ TEST(WholeMove, scanMultiMove) {
     EXPECT_EQ(m.toString(), "sacrifice y2 at X; move r1 from Alpha to Beta; move r2 from Alpha to Beta");
     EXPECT_INCOMPLETE_MOVE(m.scan("sac y2 at X; move r1r2 to Beta"));
     EXPECT_EQ(m.toString(), "sacrifice y2 at X; move r1 to Beta; move r2 to Beta");
+    EXPECT_COMPLETE_MOVE(m.scan("sac y2 X; move r1r2 Alpha Beta"));
+    EXPECT_EQ(m.toString(), "sacrifice y2 at X; move r1 from Alpha to Beta; move r2 from Alpha to Beta");
+}
+
+TEST(WholeMove, scanUnsupportedMove) {
+    // We consider these variations to be ungrammatical
+    // enough that it's not worth trying to puzzle them out.
+    // They should all be rejected by the scanner.
+    WholeMove m;
+    EXPECT_FALSE(m.scan("move g1 from Alpha"));
+    EXPECT_FALSE(m.scan("move from Alpha"));
+    EXPECT_FALSE(m.scan("move g1"));
+    EXPECT_FALSE(m.scan("move g1 from Alpha Beta"));
+    EXPECT_FALSE(m.scan("move g1 to Alpha Beta"));
+    EXPECT_FALSE(m.scan("move g1 to Alpha from Beta"));
+    EXPECT_FALSE(m.scan("move g1 Alpha to Beta"));
+    EXPECT_FALSE(m.scan("move g1 Beta"));
+    EXPECT_FALSE(m.scan("move g1 Alpha Beta (y1)"));
+    EXPECT_FALSE(m.scan("move"));
+    EXPECT_FALSE(m.scan("move g1b1 from Alpha"));
+    EXPECT_FALSE(m.scan("move g1b1"));
+    EXPECT_FALSE(m.scan("move g1b1 from Alpha Beta"));
+    EXPECT_FALSE(m.scan("move g1b1 to Alpha Beta"));
+    EXPECT_FALSE(m.scan("move g1b1 to Alpha from Beta"));
+    EXPECT_FALSE(m.scan("move g1b1 Alpha to Beta"));
+    EXPECT_FALSE(m.scan("move g1b1 Beta"));
+    EXPECT_FALSE(m.scan("move g1b1 Alpha Beta (y1)"));
 }
 
 TEST(WholeMove, scanDiscover) {
@@ -80,6 +105,7 @@ TEST(WholeMove, scanDiscover) {
     EXPECT_COMPLETE_MOVE(m.scan("discover g1 Alpha b1 Beta"));
     EXPECT_EQ(m.toString(), "move g1 from Alpha to Beta (b1)");
     EXPECT_EQ(m.toSDGString(), "discover g1 Alpha b1 Beta");
+    EXPECT_FALSE(m.scan("move g1 Alpha Beta (b1)"));  // unsupported
     EXPECT_FALSE(m.scan("move g1 from Alpha to Beta (r1b1)"));  // too many pieces in star
 }
 
@@ -102,6 +128,7 @@ TEST(WholeMove, scanMultiDiscover) {
     WholeMove m;
     EXPECT_COMPLETE_MOVE(m.scan("sac y2 at X; move r1r2 from Y to Z (b1)"));
     EXPECT_EQ(m.toString(), "sacrifice y2 at X; move r1 from Y to Z (b1); move r2 from Y to Z");
+    EXPECT_FALSE(m.scan("sac y2 at X; move r1r2 Y Z (b1)"));
     EXPECT_INCOMPLETE_MOVE(m.scan("sac y2 at X; move r1r2 to Beta (b1)"));
     EXPECT_EQ(m.toString(), "sacrifice y2 at X; move r1 to Beta (b1); move r2 to Beta");
 }
