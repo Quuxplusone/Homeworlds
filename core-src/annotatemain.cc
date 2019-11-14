@@ -738,7 +738,7 @@ int main(int argc, char **argv)
                     (i>1 ? "s" : ""));
             }
         }
-        assignPlanetNames(initialState, nullptr);
+        assignPlanetNames(&initialState);
         StarSystem *hw = initialState.homeworldOf(0);
         if (hw == nullptr) {
             do_error("The initial homeworld setup didn't include Player 0's homeworld!");

@@ -18,15 +18,17 @@
  * This function does not need to be called in programs that just
  * look one move ahead and then quit.
  */
-void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names[21]);
+void reassignPlanetNames(WholeMove *move, const GameState& st);
+void reassignPlanetNames(WholeMove *move, const GameState& st, const char *names[21]);
 
 /* The given state may contain stars with no name. Assign a unique
  * name to each unnamed star system.
  */
-void assignPlanetNames(GameState &st, const char *names[21]);
+void assignPlanetNames(GameState *st);
+void assignPlanetNames(GameState *st, const char *names[21]);
 
 /* The given move is legal in state "st", and "st" is isomorphic to
  * "st2", but possibly with different system names. Update "move" in place
  * so that it is legal relative to state "st2" instead.
  */
-void reassignNamesToMove(WholeMove &move, const GameState &st, const GameState &st2);
+void reassignNamesToMove(WholeMove *move, const GameState& st, const GameState& st2);

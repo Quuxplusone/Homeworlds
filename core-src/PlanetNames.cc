@@ -14,83 +14,92 @@ static const char *default_names[21] = {
     "Weizenbaum", "Knuth", "Gibson", "Stuyvesant", "Prufrock", "Marlow", "Daisy"
 };
 
-void reassignPlanetNames(WholeMove &move, const GameState &st, const char *names[21])
+void reassignPlanetNames(WholeMove *move, const GameState& st)
 {
+    reassignPlanetNames(move, st, default_names);
+}
+
+void reassignPlanetNames(WholeMove *move, const GameState& st, const char *names[21])
+{
+    assert(move != nullptr);
+    assert(names != nullptr);
     int new_name_index = 0;
-    if (names == nullptr) {
-        names = default_names;
-    }
-    for (int i=0; i < (int)move.actions.size(); ++i) {
-        SingleAction &action = move.actions[i];
-        if (action.kind != MOVE_CREATE) continue;
-        assert(action.whither != "");
-        /* We need to pick a new name for this star system. */
-        const char *new_name = nullptr;
-        for ( ; new_name_index < 21; ++new_name_index) {
-            assert(names[new_name_index] != nullptr);
-            assert(StarSystem::isValidName(names[new_name_index]));
-            if (st.systemNamed(names[new_name_index]) == nullptr) {
-                new_name = names[new_name_index];
-                ++new_name_index;
-                break;
+    for (int i=0; i < (int)move->actions.size(); ++i) {
+        SingleAction& action = move->actions[i];
+        if (action.kind == MOVE_CREATE) {
+            assert(action.whither != "");
+            /* We need to pick a new name for this star system. */
+            const char *new_name = nullptr;
+            for ( ; new_name_index < 21; ++new_name_index) {
+                assert(names[new_name_index] != nullptr);
+                assert(StarSystem::isValidName(names[new_name_index]));
+                if (st.systemNamed(names[new_name_index]) == nullptr) {
+                    new_name = names[new_name_index];
+                    ++new_name_index;
+                    break;
+                }
             }
+            /* Since there can be only 18 systems at one time, and only 3 new
+             * systems can be created in one complete move, it follows that we
+             * must have found one of our 21 system names not being used. */
+            assert(new_name != nullptr);
+            const std::string& old_name = action.whither;
+            for (int j=i+1; j < (int)move->actions.size(); ++j) {
+                SingleAction& actjon = move->actions[j];
+                if (actjon.where == old_name) {
+                    actjon.where = new_name;
+                }
+                if (actjon.kind == MOVE && actjon.whither == old_name) {
+                    actjon.whither = new_name;
+                }
+            }
+            action.whither = new_name;
         }
-        /* Since there can be only 18 systems at one time, and only 3 new
-         * systems can be created in one complete move, it follows that we
-         * must have found one of our 21 system names not being used. */
-        assert(new_name != nullptr);
-        const std::string &old_name = action.whither;
-        for (int j=i+1; j < (int)move.actions.size(); ++j) {
-            SingleAction &actjon = move.actions[j];
-            if (actjon.where == old_name) {
-                move.actions[j].where = new_name;
-            }
-            if (actjon.kind == MOVE && actjon.whither == old_name) {
-                actjon.whither = new_name;
-            }
-        }
-        action.whither = new_name;
     }
 }
 
-
-void assignPlanetNames(GameState &st, const char *names[21])
+void assignPlanetNames(GameState *st)
 {
+    assignPlanetNames(st, default_names);
+}
+
+void assignPlanetNames(GameState *st, const char *names[21])
+{
+    assert(st != nullptr);
+    assert(names != nullptr);
     int new_name_index = 0;
-    if (names == nullptr) {
-        names = default_names;
-    }
-    for (int i=0; i < (int)st.stars.size(); ++i) {
-        if (st.stars[i].name != "") continue;
-        /* We need to pick a new name for this star system. */
-        const char *new_name = nullptr;
-        for ( ; new_name_index < 21; ++new_name_index) {
-            assert(names[new_name_index] != nullptr);
-            assert(StarSystem::isValidName(names[new_name_index]));
-            if (st.systemNamed(names[new_name_index]) == nullptr) {
-                new_name = names[new_name_index];
-                ++new_name_index;
-                break;
+    for (StarSystem& star : st->stars) {
+        if (star.name == "") {
+            /* We need to pick a new name for this star system. */
+            const char *new_name = nullptr;
+            for ( ; new_name_index < 21; ++new_name_index) {
+                assert(names[new_name_index] != nullptr);
+                assert(StarSystem::isValidName(names[new_name_index]));
+                if (st->systemNamed(names[new_name_index]) == nullptr) {
+                    new_name = names[new_name_index];
+                    ++new_name_index;
+                    break;
+                }
             }
+            /* Since there can be only 18 systems at one time, and only 3 new
+             * systems can be created in one complete move, it follows that we
+             * must have found one of our 21 system names not being used. */
+            assert(new_name != nullptr);
+            star.name = new_name;
         }
-        /* Since there can be only 18 systems at one time, and only 3 new
-         * systems can be created in one complete move, it follows that we
-         * must have found one of our 21 system names not being used. */
-        assert(new_name != nullptr);
-        st.stars[i].name = new_name;
     }
 }
 
-
-void reassignNamesToMove(WholeMove &move, const GameState &st, const GameState &st2)
+void reassignNamesToMove(WholeMove *move, const GameState& st, const GameState& st2)
 {
+    assert(move != nullptr);
     assert(st.toComparableString() == st2.toComparableString());
     int n = st.stars.size();
     assert(n == (int)st2.stars.size());
     std::vector<std::string> mapping(n);  /* what's the name of st.stars[i] in st2? */
     std::vector<bool> mapped(n);  /* is st2.stars[i] already listed in "mapping"? */
     for (int i=0; i < n; ++i) {
-        const StarSystem &sys1 = st.stars[i];
+        const StarSystem& sys1 = st.stars[i];
         if (sys1.homeworldOf >= 0) {
             const StarSystem *sys2 = st2.homeworldOf(sys1.homeworldOf);
             assert(sys2 != nullptr);
@@ -114,8 +123,7 @@ void reassignNamesToMove(WholeMove &move, const GameState &st, const GameState &
         }
     }
 
-    for (int i=0; i < (int)move.actions.size(); ++i) {
-        SingleAction &action = move.actions[i];
+    for (SingleAction& action : move->actions) {
         const StarSystem *sys1 = st.systemNamed(action.where.c_str());
         assert(sys1 != nullptr);
         action.where = mapping[sys1 - &st.stars[0]];

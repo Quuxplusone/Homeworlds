@@ -104,7 +104,7 @@ WholeMove get_ai_move(const GameState &st, int attacker)
             continue;
         }
         /* This move is okay. */
-        reassignPlanetNames(bestmove, st, nullptr);
+        reassignPlanetNames(&bestmove, st);
         return std::move(bestmove);
     }
     /* All possible moves led into check! */
