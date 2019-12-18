@@ -636,21 +636,18 @@ static bool move_and_record(int attacker)
                     }
                     puts("Enter the string \"help\" for help with this game's interface.");
                 } else {
-                    if (move.isMissingPieces()) {
-                        WholeMove oldmove = move;
-                        bool inferred = inferMoveFromState(g_History.currentState(), attacker, &move);
-                        if (!inferred) {
-                            /* We couldn't infer the user's intended move. Just restore the old move,
-                             * with the un-filled-in blanks, and let isValidMove() reject it below. */
-                            move = oldmove;
+                    auto result = [&]() {
+                        if (move.isMissingPieces()) {
+                            WholeMove oldmove = move;
+                            bool inferred = inferMoveFromState(g_History.currentState(), attacker, &move);
+                            if (!inferred) {
+                                move = oldmove;
+                                return ApplyMove::Result::AMBIGUOUS;
+                            }
                         }
-                    }
-                    /* If we've gotten this far, the user (or AI) gave us a syntactically
-                     * correct move. Try to apply it; if it's semantically invalid or
-                     * illegal, reject it. */
-                    GameState newst = g_History.currentState();
-                    auto result = ApplyMove::Whole(newst, attacker, move);
-                    /* newst is unused after this point */
+                        GameState newst = g_History.currentState();
+                        return ApplyMove::Whole(newst, attacker, move);
+                    }();
                     if (result == ApplyMove::Result::SUCCESS) {
                         /* We got a completely valid move. */
                         if (g_Verbose) {
