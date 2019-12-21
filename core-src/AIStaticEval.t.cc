@@ -99,3 +99,15 @@ TEST(AIStaticEval, threatened_capture_at_home) {
     GameState good = apply(st, "sacrifice y3 at Betazed; move y1 from Betazed to Player2; move y2 from Betazed to Player2; move g3 from Betazed to Player2; catastrophe yellow at Player2");
     EXPECT_GT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
 }
+
+TEST(AIStaticEval, capture_to_win) {
+    GameState st = from(R"(
+        Player1 (0, r1b2) g1g3b1-
+        Player2 (1, y3b2) r3-r2g1g2
+        Delos (b1) r1-
+        Kotok (b3) -y1g1
+    )");
+    GameState bad = apply(st, "trade g1 y1 Player1");
+    GameState good = apply(st, "attack r2 Player2");
+    XFAIL_GT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
+}
