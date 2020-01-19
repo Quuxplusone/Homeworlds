@@ -6,6 +6,7 @@ import libannotate
 import logging
 import os
 import requests
+import threading
 
 from . import sdgbackend
 from . import sqlbackend
@@ -13,6 +14,12 @@ from . import worldmodel
 
 app = Bottle()
 bottle.TEMPLATE_PATH.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), 'views'))
+
+
+def do_asynchronously(task):
+    t = threading.Thread(target=task, args=())
+    t.daemon = True
+    t.start()
 
 
 def receivePost(post_body):
@@ -70,8 +77,35 @@ def receive_mail():
 @app.get('/ai-move')
 @app.get('/index.html')
 def ai_move_get():
-    return bottle.template('ai-move-input.tpl', {})
+    sdg = sdgbackend.SDG()
+    pending_challenges = sdg.fetch_all_pending_challenges()
+    return bottle.template('ai-move-input.tpl', {
+        'pending_challenges': pending_challenges,
+    })
 
+@app.get('/accept-challenge/<game_id>/<join_url:path>')
+def accept_challenge_get(game_id, join_url):
+    sdg = sdgbackend.SDG()
+    challenge = {
+        'game_id': game_id,
+        'join_url': join_url,
+    }
+    do_asynchronously(
+        lambda: sdg.accept_pending_challenge(challenge)
+    )
+    return bottle.redirect('/')
+
+@app.get('/reject-challenge/<game_id>/<leave_url:path>')
+def reject_challenge_get(game_id, leave_url):
+    sdg = sdgbackend.SDG()
+    challenge = {
+        'game_id': game_id,
+        'leave_url': leave_url,
+    }
+    do_asynchronously(
+        lambda: sdg.reject_pending_challenge(challenge)
+    )
+    return bottle.redirect('/')
 
 @app.post('/ai-move')
 def ai_move_post():

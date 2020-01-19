@@ -31,15 +31,29 @@ class SDG:
             'http://superdupergames.org'
         )
         r.raise_for_status()
-        rx = r'<a href="([^"]*)">Accept Challenge</a><br />[[:space:]]*<a href="([^"]*)">Decline Challenge</a>'
+        rx = r'\s*'.join([
+            r'<td class="info">',
+            r'Homeworlds',
+            r'</td>',
+            r'<td class="info">',
+            r'<a href="/main.html[?]username=([^"]*)">[^<]*</a><br />',
+            r'</td>',
+            r'<td class="info">',
+            r'<a href="[^"]*">View Details</a><br />',
+            r'<a href="([^"]*)">Accept Challenge</a><br />',
+            r'<a href="([^"]*)">Decline Challenge</a>',
+            r'</td>',
+        ])
         results = []
         for match in re.finditer(rx, r.text):
-            join_url = match.group(1)
-            leave_url = match.group(2)
+            opponent = match.group(1)
+            join_url = match.group(2)
+            leave_url = match.group(3)
             m = re.search('gameid=(\d+)$', join_url) or re.search('gameid=(\d+)$', leave_url)
             game_id = m.group(1) if m else None
             results.append({
-                'id': game_id,
+                'game_id': game_id,
+                'opponent': opponent,
                 'join_url': ('http://superdupergames.org' if join_url.startswith('/') else '') + join_url,
                 'leave_url': ('http://superdupergames.org' if leave_url.startswith('/') else '') + leave_url,
             })
@@ -49,15 +63,30 @@ class SDG:
         # Click the link, thus accepting the challenge.
         join_url = challenge['join_url']
         game_id = challenge['game_id']
-        logging.info('Attempting to start game %s at %s' % (game_id, join_url))
+        logging.error('Attempting to start game %s at %s' % (game_id, join_url))
         r = self.session_.get(join_url)
         r.raise_for_status()
         if r.status_code == 200:
-            logging.info('Got status code 200 OK; game %s is presumed to be started now!' % game_id)
+            logging.error('Got response text:\n' + r.text)
+            logging.error('Got status code 200 OK; game %s is presumed to be started now!' % game_id)
             return
-        logging.error('Got status code %d while trying to start game %s. Oops.' % (game_id, r.status_code))
+        logging.error('Got status code %d while trying to start game %s. Oops.' % (r.status_code, game_id))
         logging.error(r.text)
         raise RuntimeError('Failed to start game: response status code %d.' % r.status_code)
+
+    def reject_pending_challenge(self, challenge):
+        # Click the link, thus rejecting the challenge.
+        leave_url = challenge['leave_url']
+        game_id = challenge['game_id']
+        logging.info('Attempting to reject challenge %s at %s' % (game_id, leave_url))
+        r = self.session_.get(leave_url)
+        r.raise_for_status()
+        if r.status_code == 200:
+            logging.info('Got status code 200 OK; game %s is presumed to be rejected now!' % game_id)
+            return
+        logging.error('Got status code %d while trying to reject game %s. Oops.' % (r.status_code, game_id))
+        logging.error(r.text)
+        raise RuntimeError('Failed to reject game: response status code %d.' % r.status_code)
 
     def fetch_hidden_code(self, game_id):
         r = self.session_.get(
