@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 class SDG:
 
     def __init__(self):
+        self.homepage_ = ""
         self.session_ = requests.Session()
         r = self.session_.post(
             'http://superdupergames.org/auth.html',
@@ -19,18 +20,58 @@ class SDG:
             },
         )
         r.raise_for_status()
-        if r.status_code == 200:
-            logging.info('Successfully logged into SDG.')
-            return None
-        logging.error('Failed to log into SDG: response status code %d.' % r.status_code)
-        logging.error(r.text)
-        raise RuntimeError('Failed to log into SDG: response status code %d.' % r.status_code)
+        if r.status_code != 200:
+            logging.error('Failed to log into SDG: response status code %d.' % r.status_code)
+            logging.error(r.text)
+            raise RuntimeError('Failed to log into SDG: response status code %d.' % r.status_code)
+        logging.info('Successfully logged into SDG.')
+        self.update_homepage()
 
-    def fetch_all_pending_challenges(self):
+    def update_homepage(self):
         r = self.session_.get(
             'http://superdupergames.org'
         )
         r.raise_for_status()
+        self.homepage_ = r.text
+        logging.error('Got page text:\n%s\n', self.homepage_)
+
+    def fetch_all_pending_moves(self):
+        rx = r'\s*'.join([
+            r'<th class="info" colspan="3">Your Turn</th>',
+            r'(.*)',
+            r'<th class="info" colspan="3">'
+        ])
+        section = re.search(rx, self.homepage_, re.DOTALL)
+        if section is None:
+            logging.error('Got no match for rx in fetch_all_pending_moves')
+            return []
+        logging.error('Got this match for rx in fetch_all_pending_moves:\n%s\n', section.group(0))
+        logging.error('Which means group(1) is:\n%s\n', section.group(1))
+        rx = r'\s*'.join([
+            r'<td class="info">',
+            r'<a href="/main.html[?]page=play_homeworlds&num=([^"]*)">Homeworlds [^<]*</a>',
+            r'</td>',
+            r'<td class="info">',
+            r'<a href="/main.html[?]username=([^"]*)">[^<]*</a><br />',
+            r'</td>',
+            r'<td class="info">',
+            r'(\S*)',
+            r'</td>',
+        ])
+        results = []
+        for match in re.finditer(rx, section.group(1)):
+            logging.error('Got this match for re.finditer:\n%s\n', match.group(0))
+            game_id = match.group(1)
+            opponent = match.group(2)
+            time_left = match.group(3)
+            results.append({
+                'game_id': game_id,
+                'opponent': opponent,
+                'time_left': time_left,
+            })
+        return results
+
+    def fetch_all_pending_challenges(self):
         rx = r'\s*'.join([
             r'<td class="info">',
             r'Homeworlds',
@@ -45,7 +86,7 @@ class SDG:
             r'</td>',
         ])
         results = []
-        for match in re.finditer(rx, r.text):
+        for match in re.finditer(rx, self.homepage_):
             opponent = match.group(1)
             join_url = match.group(2)
             leave_url = match.group(3)

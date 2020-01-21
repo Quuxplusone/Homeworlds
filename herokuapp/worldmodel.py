@@ -33,6 +33,7 @@ def extractGameNumberFromEmail(fields):
 
 def convertRawHistoryToGameState(raw_history):
     # TODO FIXME BUG HACK
+    logging.error("\n\n%s\n\n", raw_history)
     attacker = len(raw_history) % 2
     st = libannotate.GameState(raw_history)
     return st, attacker
@@ -44,7 +45,7 @@ def dealWithPost(post_body):
     if looksLikeNewGame(fields):
         logging.info('Looks like a new game.')
         sdg = sdgbackend.SDG()
-        for challenge in sdg.fetch_pending_challenges():
+        for challenge in sdg.fetch_all_pending_challenges():
             sdg.accept_pending_challenge(challenge)
     elif looksLikePlayerMove(fields):
         logging.info('Looks like a player move.')

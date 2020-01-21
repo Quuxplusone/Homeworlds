@@ -74,14 +74,16 @@ def receive_mail():
 
 
 @app.get('/')
-@app.get('/ai-move')
 @app.get('/index.html')
-def ai_move_get():
+def index_get():
     sdg = sdgbackend.SDG()
     pending_challenges = sdg.fetch_all_pending_challenges()
+    pending_moves = sdg.fetch_all_pending_moves()
     return bottle.template('ai-move-input.tpl', {
         'pending_challenges': pending_challenges,
+        'pending_moves': pending_moves,
     })
+
 
 @app.get('/accept-challenge/<game_id>/<join_url:path>')
 def accept_challenge_get(game_id, join_url):
@@ -95,6 +97,7 @@ def accept_challenge_get(game_id, join_url):
     )
     return bottle.redirect('/')
 
+
 @app.get('/reject-challenge/<game_id>/<leave_url:path>')
 def reject_challenge_get(game_id, leave_url):
     sdg = sdgbackend.SDG()
@@ -106,6 +109,26 @@ def reject_challenge_get(game_id, leave_url):
         lambda: sdg.reject_pending_challenge(challenge)
     )
     return bottle.redirect('/')
+
+
+@app.get('/ai-make-move/<game_id>')
+def ai_make_move_get(game_id):
+    try:
+        sdg = sdgbackend.SDG()
+        raw_history = sdg.fetch_history(game_id)
+        st, attacker = worldmodel.convertRawHistoryToGameState(raw_history)
+        chosen_move = st.getBestMove(attacker)
+        return bottle.template('ai-make-move.tpl', {
+            'game_id_received': game_id,
+            'raw_history': raw_history,
+            'chosen_move': '\n'.join(chosen_move.toSDGString().split('; ')),
+        })
+    except Exception as e:
+        return bottle.template('get-history-errorpage.tpl', {
+            'game_id_received': game_id,
+            'error_text': str(e),
+        })
+
 
 @app.post('/ai-move')
 def ai_move_post():
@@ -129,15 +152,9 @@ def ai_move_post():
         })
 
 
-@app.get('/get-history')
-def get_history_get():
-    return bottle.template('get-history-input.tpl', {})
-
-
-@app.post('/get-history')
-def get_history_post():
+@app.get('/get-history/<game_id>')
+def get_history_get(game_id):
     try:
-        game_id = int(bottle.request.forms['game_id'])
         sdg = sdgbackend.SDG()
         raw_history = sdg.fetch_history(game_id)
         return bottle.template('get-history-output.tpl', {
