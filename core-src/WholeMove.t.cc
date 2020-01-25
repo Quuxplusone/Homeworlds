@@ -2,8 +2,8 @@
 #include "WholeMove.h"
 #include <gtest/gtest.h>
 
-#define EXPECT_COMPLETE_MOVE(x) EXPECT_TRUE(x); EXPECT_FALSE(m.isMissingPieces())
-#define EXPECT_INCOMPLETE_MOVE(x) EXPECT_TRUE(x); EXPECT_TRUE(m.isMissingPieces())
+#define EXPECT_COMPLETE_MOVE(x) EXPECT_TRUE(x); EXPECT_FALSE(m.isMissingPieces()); EXPECT_TRUE(m.sanitycheck())
+#define EXPECT_INCOMPLETE_MOVE(x) EXPECT_TRUE(x); EXPECT_TRUE(m.isMissingPieces()); EXPECT_TRUE(m.sanitycheck())
 
 TEST(WholeMove, ctor) {
     WholeMove m;
@@ -148,6 +148,7 @@ TEST(WholeMove, scanIncompleteBuild) {
     EXPECT_INCOMPLETE_MOVE(m.scan("build at Alpha")); EXPECT_EQ(m.toString(), "build at Alpha");
     EXPECT_INCOMPLETE_MOVE(m.scan("build Alpha")); EXPECT_EQ(m.toString(), "build at Alpha");
     EXPECT_INCOMPLETE_MOVE(m.scan("build g1")); EXPECT_EQ(m.toString(), "build g1");
+    EXPECT_INCOMPLETE_MOVE(m.scan("build g")); EXPECT_EQ(m.toString(), "build g");
     EXPECT_INCOMPLETE_MOVE(m.scan("build 3")); EXPECT_EQ(m.toString(), "build 3");
 }
 
@@ -188,6 +189,16 @@ TEST(WholeMove, scanImpossibleTrade) {
     EXPECT_FALSE(m.scan("convert 1 to 2 at Alpha"));
     EXPECT_FALSE(m.scan("convert b2 to g1 at Alpha"));
     EXPECT_FALSE(m.scan("convert 2 to 1 at Alpha"));
+    EXPECT_FALSE(m.scan("convert green to blue at Alpha"));
+}
+
+TEST(WholeMove, scanRejectsColorNames) {
+    WholeMove m;
+    EXPECT_FALSE(m.scan("sac red at Alpha"));
+    EXPECT_FALSE(m.scan("capture yellow at Alpha"));
+    EXPECT_FALSE(m.scan("move green from Alpha to Beta"));
+    EXPECT_FALSE(m.scan("convert green to b1 at Alpha"));
+    EXPECT_FALSE(m.scan("convert g1 to blue at Alpha"));
 }
 
 TEST(WholeMove, scanIncompleteTrade) {
@@ -201,7 +212,13 @@ TEST(WholeMove, scanIncompleteTrade) {
     EXPECT_INCOMPLETE_MOVE(m.scan("convert to b1")); EXPECT_EQ(m.toString(), "convert 1 to b1");
     EXPECT_INCOMPLETE_MOVE(m.scan("trade for b1")); EXPECT_EQ(m.toString(), "convert 1 to b1");
     EXPECT_INCOMPLETE_MOVE(m.scan("convert 1 to b1")); EXPECT_EQ(m.toString(), "convert 1 to b1");
-    EXPECT_FALSE(m.scan("convert b1 at Alpha"));
+    EXPECT_INCOMPLETE_MOVE(m.scan("convert g to b at Alpha"));
+    EXPECT_COMPLETE_MOVE(m.scan("convert g to b1 at Alpha"));
+    EXPECT_COMPLETE_MOVE(m.scan("convert g1 to b at Alpha"));
+    EXPECT_FALSE(m.scan("convert g1 at Alpha"));
+    EXPECT_FALSE(m.scan("convert g at Alpha"));
+    EXPECT_INCOMPLETE_MOVE(m.scan("convert to b at Alpha"));
+    EXPECT_FALSE(m.scan("convert at Alpha"));
     EXPECT_FALSE(m.scan("trade b1 at Alpha"));
     EXPECT_FALSE(m.scan("trade b1 Alpha"));
 }

@@ -21,6 +21,7 @@ static bool can_reach(const GameState& oldst, bool only_wins, const GameState& t
         WholeMove m; \
         GameState newst = st; \
         EXPECT_TRUE(m.scan(text)); \
+        EXPECT_TRUE(m.sanitycheck()); \
         EXPECT_TRUE(inferMoveFromState(newst, 0, &m)); \
         EXPECT_EQ(ApplyMove::Whole(newst, 0, m), ApplyMove::Result::SUCCESS); \
         EXPECT_TRUE(newst.gameIsOver()); \
@@ -32,6 +33,7 @@ static bool can_reach(const GameState& oldst, bool only_wins, const GameState& t
         WholeMove m; \
         GameState newst = st; \
         EXPECT_TRUE(m.scan(text)); \
+        EXPECT_TRUE(m.sanitycheck()); \
         EXPECT_TRUE(inferMoveFromState(newst, 0, &m)); \
         EXPECT_EQ(ApplyMove::Whole(newst, 0, m), ApplyMove::Result::SUCCESS); \
         EXPECT_TRUE(newst.gameIsOver()); \
@@ -43,6 +45,7 @@ static bool can_reach(const GameState& oldst, bool only_wins, const GameState& t
         WholeMove m; \
         GameState newst = st; \
         EXPECT_TRUE(m.scan(text)); \
+        EXPECT_TRUE(m.sanitycheck()); \
         EXPECT_TRUE(inferMoveFromState(newst, 0, &m)); \
         EXPECT_EQ(ApplyMove::Whole(newst, 0, m), ApplyMove::Result::SUCCESS); \
         EXPECT_FALSE(newst.gameIsOver()); \
@@ -52,6 +55,7 @@ static bool can_reach(const GameState& oldst, bool only_wins, const GameState& t
 #define EXPECT_ILLEGAL_MOVE(text) do { \
         WholeMove m; \
         EXPECT_TRUE(m.scan(text)); \
+        EXPECT_TRUE(m.sanitycheck()); \
         EXPECT_TRUE(inferMoveFromState(st, 0, &m)); \
         EXPECT_FALSE(ApplyMove::isValidMove(st, 0, m)); \
     } while (0)
@@ -59,6 +63,7 @@ static bool can_reach(const GameState& oldst, bool only_wins, const GameState& t
 #define EXPECT_AMBIGUOUS_MOVE(text) do { \
         WholeMove m; \
         EXPECT_TRUE(m.scan(text)); \
+        EXPECT_TRUE(m.sanitycheck()); \
         EXPECT_FALSE(inferMoveFromState(st, 0, &m)); \
     } while (0)
 
