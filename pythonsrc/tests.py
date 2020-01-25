@@ -11,6 +11,17 @@ class TestLibannotate(unittest.TestCase):
             L.nonexistent_method()
         self.assertEqual(str(e.exception), "module 'libannotate' has no attribute 'nonexistent_method'")
 
+    def test_newGame(self):
+        self.assertEqual(L.newGame.__doc__, 'Return a GameState object representing a brand-new game.')
+        with self.assertRaises(TypeError) as e:
+            L.newGame('xyzzy')
+        self.assertEqual(str(e.exception), "newGame() takes no arguments (1 given)")
+        s = L.newGame()
+        self.assertIsInstance(s, L.GameState)
+        self.assertEqual(str(s), '')
+        self.assertEqual(repr(s), "libannotate.GameState('')")
+        self.assertEqual(s.gameIsOver(), True)
+
 
 class TestWholeMove(unittest.TestCase):
 
@@ -32,18 +43,21 @@ class TestWholeMove(unittest.TestCase):
 
     def test_trivial(self):
         m = L.WholeMove('pass')
+        self.assertEqual(str(m), 'pass')
         self.assertEqual(m.toString(), 'pass')
         self.assertEqual(m.toSDGString(), 'pass')
         self.assertEqual(repr(m), "libannotate.WholeMove('pass')")
 
     def test_catastrophe(self):
         m = L.WholeMove('move y1 from Alpha to Beta; catastrophe yellow at Beta')
+        self.assertEqual(str(m), 'move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(m.toString(), 'move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(m.toSDGString(), 'move y1 Alpha Beta; catastrophe Beta yellow')
         self.assertEqual(repr(m), "libannotate.WholeMove('move y1 from Alpha to Beta; catastrophe yellow at Beta')")
 
     def test_unused_sacrifice_actions(self):
         m = L.WholeMove('sac y3 at Alpha; move y1 from Alpha to Beta; catastrophe yellow at Beta')
+        self.assertEqual(str(m), 'sacrifice y3 at Alpha; move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(m.toString(), 'sacrifice y3 at Alpha; move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(m.toSDGString(), 'sacrifice y3 Alpha; move y1 Alpha Beta; catastrophe Beta yellow; pass; pass')
         self.assertEqual(repr(m), "libannotate.WholeMove('sacrifice y3 at Alpha; move y1 from Alpha to Beta; catastrophe yellow at Beta')")
@@ -66,6 +80,12 @@ class TestGameState(unittest.TestCase):
 
     def test_metadata(self):
         self.assertEqual(L.GameState.__doc__, 'A game state.')
+        self.assertEqual(L.GameState.apply.__doc__, 'modify this GameState in place by applying a move')
+        self.assertEqual(L.GameState.copyApply.__doc__, 'return the new GameState after applying a move')
+        self.assertEqual(L.GameState.gameIsOver.__doc__, 'return True if the game is over')
+        self.assertEqual(L.GameState.getBestMove.__doc__, 'get the best move for the given player')
+        self.assertEqual(L.GameState.toString.__doc__, 'convert to string')
+        self.assertEqual(L.GameState.__deepcopy__.__doc__, 'make a deep copy')
 
     def test_lack_of_default_constructor(self):
         with self.assertRaises(TypeError) as e:
@@ -82,9 +102,13 @@ class TestGameState(unittest.TestCase):
 
     def test_trivial(self):
         s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -r1y2')
+        self.assertEqual(str(s), 'Foo (0, r1b3) g3-\nBar (1, y2b3) -r1y2\n')
         self.assertEqual(s.toString(), 'Foo (0, r1b3) g3-\nBar (1, y2b3) -r1y2\n')
+        self.assertEqual(repr(s), "libannotate.GameState('Foo (0, r1b3) g3-\\nBar (1, y2b3) -r1y2\\n')")
         s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -r1y2\n')
+        self.assertEqual(str(s), 'Foo (0, r1b3) g3-\nBar (1, y2b3) -r1y2\n')
         self.assertEqual(s.toString(), 'Foo (0, r1b3) g3-\nBar (1, y2b3) -r1y2\n')
+        self.assertEqual(repr(s), "libannotate.GameState('Foo (0, r1b3) g3-\\nBar (1, y2b3) -r1y2\\n')")
 
     def test_mutating_apply(self):
         s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -r1y2')

@@ -1,10 +1,19 @@
 #include <Python.h>
 #include "pythonsrc/glue.h"
 
+static PyObject *
+newGame(PyObject *self, PyObject *args)
+{
+    GameState st;
+    st.newGame();
+    return wrap_GameState_instance(std::move(st));
+}
+
 PyMODINIT_FUNC PyInit_libannotate()
 {
     // https://docs.python.org/3/extending/extending.html#the-module-s-method-table-and-initialization-function
     static constexpr PyMethodDef methods[] = {
+        {"newGame", newGame, METH_NOARGS, "Return a GameState object representing a brand-new game."},
         {nullptr, nullptr, 0, nullptr},
     };
 
