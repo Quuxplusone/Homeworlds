@@ -140,6 +140,24 @@ class TestGameState(unittest.TestCase):
             s.apply(2, L.WholeMove('pass'))
         self.assertEqual(str(e.exception), "attacker must be 0 or 1")
 
+    def test_in_universe_exceptions(self):
+        s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -g1y2')
+        with self.assertRaises(ValueError) as e:
+            s.apply(0, L.WholeMove('sac g3 at Foo'))
+        self.assertEqual(str(e.exception), "The move as parsed was disallowed by the rule against self-destruction.")
+        with self.assertRaises(ValueError) as e:
+            s.apply(0, L.WholeMove('build y1 at Nonexistent'))
+        self.assertEqual(str(e.exception), "The move as parsed referred to a nonexistent star system.")
+        with self.assertRaises(ValueError) as e:
+            s.apply(1, L.WholeMove('move g1 from Bar to Foo (b1)'))
+        self.assertEqual(str(e.exception), "The move as parsed tried to create a new star system with the same name as an existing one.")
+        with self.assertRaises(ValueError) as e:
+            s.apply(1, L.WholeMove('build at Bar'))
+        self.assertEqual(str(e.exception), "The move as parsed was incomplete or ambiguous.")
+        with self.assertRaises(ValueError) as e:
+            s.apply(0, L.WholeMove('build y1 at Foo'))
+        self.assertEqual(str(e.exception), "The move as parsed was disallowed by the rules.")
+
     def test_nonmutating_apply_exceptions(self):
         s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -r1y2')
         with self.assertRaises(TypeError) as e:
@@ -174,6 +192,9 @@ class TestGameState(unittest.TestCase):
         """)
         m = s.getBestMove(0)
         self.assertEqual(m.toString(), 'move y1 from Blueberry to Player2; catastrophe yellow at Player2')
+        with self.assertRaises(ValueError) as e:
+            s.getBestMove(2)
+        self.assertEqual(str(e.exception), "attacker must be 0 or 1")
 
     def test_gameIsOver(self):
         s = L.GameState("""
