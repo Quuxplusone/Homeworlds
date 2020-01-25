@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import libannotate
 import re
 import sys
 import subprocess
@@ -93,12 +94,7 @@ def reposition_moves(m):
     return '; '.join(actions)
 
 def setup_homeworld(who, name, a, b, c, _ = None):
-    if (who == 0):
-        return '%s (0, %s%s) %s-' % (whereof(name), shipof(a), shipof(b), shipof(c))
-    elif (who == 1):
-        return '%s (1, %s%s) -%s' % (whereof(name), shipof(a), shipof(b), shipof(c))
-    else:
-        assert False
+    return 'homeworld %s %s %s %s' % (shipof(a), shipof(b), shipof(c), whereof(name))
 
 def expand_regex(rx):
     # Games 21986 (1), 23891 (k), 29902 (in), 27768 (`), 31476 (!), 33526 (b), 31476 (all digits, $, !), 31476 (.), 31557 (*)
@@ -217,15 +213,16 @@ def cook_moves(gamenumber, participants, lines):
     return cookedlines
 
 def verify_cooked_transcript(cookedlines):
-    p = subprocess.Popen(
-        ['../annotate', '--verify'],
-        stdin=subprocess.PIPE,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-    )
-    out = p.communicate(input='\n'.join(cookedlines).encode('utf-8'))
-    decoded_out = (out[0].decode('utf-8'), out[1].decode('utf-8'))
-    return p.wait() != 0, decoded_out
+    st = libannotate.newGame()
+    attacker = 0
+    for line in cookedlines:
+        try:
+            m = libannotate.WholeMove(line)
+            st.apply(attacker, m)
+            attacker = (1 - attacker)
+        except ValueError as ex:
+            return True, [str(ex), line]
+    return False, ''
 
 def attempt_common_fixups(cookedlines, keys, tried_repositioning_moves=False):
     failed, out = verify_cooked_transcript(cookedlines)
@@ -236,15 +233,14 @@ def attempt_common_fixups(cookedlines, keys, tried_repositioning_moves=False):
     # can be salvaged by just repositioning the mid-turn catastrophes to the end of the turn.
     # On the other hand, "sac y2; move r1 to Foo; catastrophe red at Foo; move r2 to Foo"
     # cannot be salvaged if the loss of that r2 would invalidate a later move.
-    m = re.match(r'The given string did not parse as a move. It was:\n"(.*)"\n', out[0])
-    if m is not None and 'catastrophe' in m.group(1):
+    if out[0] == 'text did not parse as a move' and 'catastrophe' in out[1]:
         problematic_rx = r'catastrophe ([rygb])[a-z]+ at WHERE; .*move \1[123] from WHERE to \2'
-        if re.search(expand_regex(problematic_rx), m.group(1), flags=re.IGNORECASE):
+        if re.search(expand_regex(problematic_rx), out[1], flags=re.IGNORECASE):
             return True, cookedlines, set(['midturn-catastrophe-then-move'])
         problematic_rx = r'catastrophe ([rygb])[a-z]+ at WHERE; .*build \1[123]'
-        if re.search(expand_regex(problematic_rx), m.group(1), flags=re.IGNORECASE):
+        if re.search(expand_regex(problematic_rx), out[1], flags=re.IGNORECASE):
             return True, cookedlines, set(['midturn-catastrophe-then-build'])
-        cookedlines2 = [(reposition_catastrophes(move) if move == m.group(1) else move) for move in cookedlines]
+        cookedlines2 = [(reposition_catastrophes(move) if move == out[1] else move) for move in cookedlines]
         if any(m1 != m2 for m1, m2 in zip(cookedlines, cookedlines2)):
             return attempt_common_fixups(cookedlines2, keys | set(['*repositioned-catastrophes']))
 
@@ -252,16 +248,14 @@ def attempt_common_fixups(cookedlines, keys, tried_repositioning_moves=False):
     # end that way, in a "knocking over your king" kind of way. If we see such a
     # move, it should be the last move of the game, and removing it should yield
     # a valid transcript.
-    m = re.match(r'The move as parsed was disallowed by the rule against self-destruction. The move was:\n"(.*)"\n', out[0])
-    if m is not None and m.group(1) == cookedlines[-1]:
+    if out[0] == 'The move as parsed was disallowed by the rule against self-destruction.' and out[1] == cookedlines[-1]:
         return attempt_common_fixups(cookedlines[:-1], keys | set(['*suicidal']))
 
     # Sometimes a move like "sac y2; move r1 from Home to Foo; move b1 from Foo to Home"
     # can be salvaged by just inverting the order of the moves. (Game 29784.)
     if not tried_repositioning_moves:
-        m = re.match(r'The move as parsed was disallowed by the rule against self-destruction. The move was:\n"(.*)"\n', out[0])
-        if m is not None and re.match(r'.*; move.*; move.*', m.group(1)):
-            cookedlines2 = [(reposition_moves(move) if move == m.group(1) else move) for move in cookedlines]
+        if out[0] == 'The move as parsed was disallowed by the rule against self-destruction.' and re.match(r'.*; move.*; move.*', out[1]):
+            cookedlines2 = [(reposition_moves(move) if move == out[1] else move) for move in cookedlines]
             return attempt_common_fixups(cookedlines2, keys | set(['*repositioned-moves']), tried_repositioning_moves=True)
 
     return True, cookedlines, set()
@@ -295,20 +289,19 @@ def cook_raw_file(infile_name, ignored_games):
 
         failure_patterns = [
             (
-                r'The given string did not parse as a move. It was:',
+                r'The given string did not parse as a move.',
                 'unparseable move',
                 'unparseable',
             ),
             (
-                r'The move as parsed referred to a nonexistent star system. The move was:',
+                r'The move as parsed referred to a nonexistent star system.',
                 'unknown star name',
                 'invalid',
             )
         ]
         for rx, description, key in failure_patterns:
-            m = re.match(rx + r'\n"(.*)"\n', out[0])
-            if m:
-                print ('  %s "%s"' % (description, m.group(1)))
+            if out[0] == rx:
+                print ('  %s "%s"' % (description, out[1]))
                 keys.add(key)
                 break
         else:
@@ -324,7 +317,15 @@ def cook_raw_file(infile_name, ignored_games):
         outfile_name = infile_name.replace('.raw', '.cooked-but-invalid')
 
     with open(outfile_name, 'w') as f:
+        first = True
         for line in cookedlines:
+            m = re.match(r'homeworld (.*) (.*) (.*) (.*)', line)
+            if m:
+                if first:
+                    line = '%s (0, %s%s) %s-' % (m.group(4), m.group(1), m.group(2), m.group(3))
+                    first = False
+                else:
+                    line = '%s (1, %s%s) -%s' % (m.group(4), m.group(1), m.group(2), m.group(3))
             f.write(line + '\n')
 
 if __name__ == '__main__':
