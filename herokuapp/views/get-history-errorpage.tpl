@@ -11,8 +11,22 @@ Internal server error: <pre>{{error_text}}</pre>
 </p>
 
 <p>
-Received game id as string:
-<pre>{{game_id_received}}</pre>
+Received game id:
+<pre>{{game_id}}</pre>
+</p>
+
+<p>
+Retrieved history from SDG:
+<pre>{{raw_history}}</pre>
+</p>
+
+<p>
+Computed current attacker: <pre>{{attacker}}</pre>
+</p>
+
+<p>
+Computed current state:
+<pre>{{state}}</pre>
 </p>
 
 </body>

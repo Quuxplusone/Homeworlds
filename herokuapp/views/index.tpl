@@ -23,6 +23,8 @@
     </li>
     % end
 </ul>
+% else:
+<b>Nothing currently requires your attention.</b>
 % end
 
 <form action="/ai-move" method="post">

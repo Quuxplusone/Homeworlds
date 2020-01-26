@@ -79,7 +79,7 @@ def index_get():
     sdg = sdgbackend.SDG()
     pending_challenges = sdg.fetch_all_pending_challenges()
     pending_moves = sdg.fetch_all_pending_moves()
-    return bottle.template('ai-move-input.tpl', {
+    return bottle.template('index.tpl', {
         'pending_challenges': pending_challenges,
         'pending_moves': pending_moves,
     })
@@ -113,21 +113,42 @@ def reject_challenge_get(game_id, leave_url):
 
 @app.get('/ai-make-move/<game_id>')
 def ai_make_move_get(game_id):
+    raw_history = None
+    st, attacker = None, None
+    chosen_move, chosen_move_as_text = None, None
     try:
         sdg = sdgbackend.SDG()
         raw_history = sdg.fetch_history(game_id)
         st, attacker = worldmodel.convertRawHistoryToGameState(raw_history)
         chosen_move = st.getBestMove(attacker)
+        chosen_move_as_text = chosen_move.toSDGString()
+        chosen_move_as_text = '\n'.join(chosen_move_as_text.split('; '))
         return bottle.template('ai-make-move.tpl', {
-            'game_id_received': game_id,
+            'chosen_move': chosen_move_as_text,
+            'game_id': game_id,
             'raw_history': raw_history,
-            'chosen_move': '\n'.join(chosen_move.toSDGString().split('; ')),
+            'attacker': attacker,
+            'state': st,
         })
     except Exception as e:
         return bottle.template('get-history-errorpage.tpl', {
+            'chosen_move_as_text': chosen_move_as_text,
+            'chosen_move': chosen_move,
             'game_id_received': game_id,
-            'error_text': str(e),
+            'error_text': repr(e),
+            'game_id': game_id,
+            'raw_history': raw_history,
+            'attacker': attacker,
+            'state': st,
         })
+
+
+@app.post('/submit-move/<game_id>')
+def submit_move_post(game_id):
+    text_of_move = bottle.request.forms['chosen-move']
+    sdg = sdgbackend.SDG()
+    sdg.submit_move(game_id, text_of_move)
+    return bottle.redirect('/')
 
 
 @app.post('/ai-move')
@@ -148,22 +169,6 @@ def ai_move_post():
         return bottle.template('ai-move-errorpage.tpl', {
             'state_received': bottle.request.forms.get('state'),
             'attacker_received': bottle.request.forms.get('attacker'),
-            'error_text': str(e),
-        })
-
-
-@app.get('/get-history/<game_id>')
-def get_history_get(game_id):
-    try:
-        sdg = sdgbackend.SDG()
-        raw_history = sdg.fetch_history(game_id)
-        return bottle.template('get-history-output.tpl', {
-            'game_id_received': game_id,
-            'raw_history': raw_history,
-        })
-    except Exception as e:
-        return bottle.template('get-history-errorpage.tpl', {
-            'game_id_received': bottle.request.forms.get('game_id'),
             'error_text': str(e),
         })
 

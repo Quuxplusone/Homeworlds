@@ -2,4 +2,4 @@ beautifulsoup4>=4.8.0
 bottle>=0.12.13
 psycopg2>=2.6.2
 requests>=2.16.3
--e git+git://github.com/Quuxplusone/Homeworlds.git@master#egg=libannotate
+-e git+git://github.com/Quuxplusone/Homeworlds.git@heroku#egg=libannotate
