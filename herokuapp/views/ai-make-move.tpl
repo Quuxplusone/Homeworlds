@@ -13,6 +13,9 @@ Best move: <pre>{{chosen_move}}</pre>
 <form action="/submit-move/{{game_id}}" method="post">
 <textarea name="chosen-move" cols="50" rows="7">{{chosen_move}}</textarea>
 <input type="submit" value="OK, submit this move to SDG"><br>
+% if maybe_resign:
+<input type="submit" value="Resign instead" formaction="/submit-resignation/{{game_id}}"><br>
+% end
 </form>
 
 

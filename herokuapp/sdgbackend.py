@@ -181,6 +181,36 @@ class SDG:
             logging.error('Got status code %r; game %r is presumed NOT to be moved-in. Oops.', r.status_code, game_id)
             logging.error(r.text)
 
+    def submit_comment(self, game_id, text_of_comment):
+        r = self.session_.post(
+            'http://superdupergames.org/main.html',
+            params={
+                'page': 'play_homeworlds',
+            },
+            data={
+                'mode': 'chat',
+                'num': str(game_id),
+                'chat_text': text_of_comment,
+            },
+        )
+        logging.error(r.text)
+        r.raise_for_status()
+
+    def submit_resignation(self, game_id):
+        r = self.session_.post(
+            'http://superdupergames.org/main.html',
+            params={
+                'page': 'play_homeworlds',
+            },
+            data={
+                'mode': 'resign',
+                'num': str(game_id),
+                'confirmed': 'ON',
+            },
+        )
+        logging.error(r.text)
+        r.raise_for_status()
+
     def fetch_history(self, game_id):
         r = self.session_.get(
             'http://superdupergames.org/main.html',
@@ -192,7 +222,8 @@ class SDG:
         r.raise_for_status()
         if r.status_code != 200:
             logging.error('Got status code %r from archive_play for game %r', r.status_code, game_id)
-            logging.error(r.text)
+
+        logging.error(r.text)
 
         pagetext = r.text
         try:
@@ -201,10 +232,10 @@ class SDG:
             gametext_as_html = pagetext[first:last]
         except ValueError:
             if "Can't call method &quot;draw&quot; on an undefined value" in pagetext:
-                raise RuntimeError('Game %d was invalid (never started)' % game_id)
+                raise RuntimeError('Game %s was invalid (never started)' % game_id)
             else:
                 logging.error(pagetext)
-                raise RuntimeError('Game %d was invalid for an unknown reason' % game_id)
+                raise RuntimeError('Game %s was invalid for an unknown reason' % game_id)
 
         soup = BeautifulSoup(gametext_as_html, features="html.parser")
         for br in soup.find_all("br"):

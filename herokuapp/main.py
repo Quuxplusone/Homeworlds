@@ -85,8 +85,9 @@ def index_get():
     })
 
 
-@app.get('/accept-challenge/<game_id>/<join_url:path>')
-def accept_challenge_get(game_id, join_url):
+@app.post('/accept-challenge/<game_id>')
+def accept_challenge_post(game_id):
+    join_url = bottle.request.forms['join_url']
     sdg = sdgbackend.SDG()
     challenge = {
         'game_id': game_id,
@@ -98,8 +99,9 @@ def accept_challenge_get(game_id, join_url):
     return bottle.redirect('/')
 
 
-@app.get('/reject-challenge/<game_id>/<leave_url:path>')
-def reject_challenge_get(game_id, leave_url):
+@app.post('/reject-challenge/<game_id>')
+def reject_challenge_post(game_id):
+    leave_url = bottle.request.forms['leave_url']
     sdg = sdgbackend.SDG()
     challenge = {
         'game_id': game_id,
@@ -129,6 +131,7 @@ def ai_make_move_get(game_id):
             'raw_history': raw_history,
             'attacker': attacker,
             'state': st,
+            'maybe_resign': (chosen_move_as_text == 'pass'),
         })
     except Exception as e:
         return bottle.template('get-history-errorpage.tpl', {
@@ -148,6 +151,13 @@ def submit_move_post(game_id):
     text_of_move = bottle.request.forms['chosen-move']
     sdg = sdgbackend.SDG()
     sdg.submit_move(game_id, text_of_move)
+    return bottle.redirect('/')
+
+
+@app.post('/submit-resignation/<game_id>')
+def submit_resignation_post(game_id):
+    sdg = sdgbackend.SDG()
+    sdg.submit_resignation(game_id)
     return bottle.redirect('/')
 
 

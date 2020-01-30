@@ -11,9 +11,14 @@
 <ul>
     % for c in pending_challenges:
     <li>
-        Challenged by <b>{{c['opponent']}}</b> —
-        <a href="/accept-challenge/{{c['game_id']}}/{{c['join_url']}}">Accept</a> —
-        <a href="/reject-challenge/{{c['game_id']}}/{{c['leave_url']}}">Reject</a>
+        <form method="post">
+            <input type="hidden" name="game_id" value="{{c['game_id']}}"/>
+            <input type="hidden" name="join_url" value="{{c['join_url']}}"/>
+            <input type="hidden" name="leave_url" value="{{c['leave_url']}}"/>
+            Challenged by <b>{{c['opponent']}}</b> —
+            <a href="#" onclick="this.parentNode.action='/accept-challenge/{{c['game_id']}}'; this.parentNode.submit();">Accept</a> —
+            <a href="#" onclick="this.parentNode.action='/reject-challenge/{{c['game_id']}}'; this.parentNode.submit();">Reject</a>
+        </form>
     </li>
     % end
     % for c in pending_moves:
