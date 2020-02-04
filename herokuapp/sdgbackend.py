@@ -36,15 +36,30 @@ class SDG:
         logging.error('Got page text:\n%s\n', self.homepage_)
 
     def fetch_all_pending_moves(self):
+        results = []
         rx = r'\s*'.join([
             r'<th class="info" colspan="3">Your Turn</th>',
             r'(.*)',
             r'<th class="info" colspan="3">'
         ])
         section = re.search(rx, self.homepage_, re.DOTALL)
-        if section is None:
-            logging.error('Got no match for rx in fetch_all_pending_moves')
-            return []
+        if section is not None:
+            results += self.extract_pending_move_links(section)
+
+        ## Unfortunately, "New Chat Messages" can hide "Your Turn" notifications.
+        ##
+        rx = r'\s*'.join([
+            r'<th class="info" colspan="3">New Chat Messages</th>',
+            r'(.*)',
+            r'<th class="info" colspan="3">'
+        ])
+        section = re.search(rx, self.homepage_, re.DOTALL)
+        if section is not None:
+            results += self.extract_pending_move_links(section)
+
+        return results
+
+    def extract_pending_move_links(self, section):
         logging.error('Got this match for rx in fetch_all_pending_moves:\n%s\n', section.group(0))
         logging.error('Which means group(1) is:\n%s\n', section.group(1))
         rx = r'\s*'.join([
@@ -52,7 +67,9 @@ class SDG:
             r'<a href="/main.html[?]page=play_homeworlds&num=([^"]*)">Homeworlds [^<]*</a>',
             r'</td>',
             r'<td class="info">',
+            ## "New Chat Messages" shows both participants' names. "Your Move" shows only the opponent's name.
             r'<a href="/main.html[?]username=([^"]*)">[^<]*</a><br />',
+            r'(<a href="/main.html[?]username=([^"]*)">[^<]*</a><br />)?',
             r'</td>',
             r'<td class="info">',
             r'(\S*)',
@@ -62,11 +79,13 @@ class SDG:
         for match in re.finditer(rx, section.group(1)):
             logging.error('Got this match for re.finditer:\n%s\n', match.group(0))
             game_id = match.group(1)
-            opponent = match.group(2)
-            time_left = match.group(3)
+            opponent1 = match.group(2)
+            opponent2 = match.group(4)
+            real_opponent = opponent1 if (opponent1 != os.environ['SUPERDUPERGAMES_USERNAME']) else opponent2
+            time_left = match.group(5)
             results.append({
                 'game_id': game_id,
-                'opponent': opponent,
+                'opponent': real_opponent,
                 'time_left': time_left,
             })
         return results
