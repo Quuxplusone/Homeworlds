@@ -6,6 +6,7 @@
 
 // GTest doesn't support XFAILing tests, so let's just do this for now.
 #define XFAIL_GT(a, b) EXPECT_LE(a, b)
+#define XFAIL_LT(a, b) EXPECT_GE(a, b)
 
 static GameState from(const char *text)
 {
@@ -19,6 +20,14 @@ static GameState apply(GameState st, const char *mtext)
     WholeMove m;
     EXPECT_TRUE(m.scan(mtext));
     EXPECT_EQ(ApplyMove::Whole(st, 0, m), ApplyMove::Result::SUCCESS);
+    return st;
+}
+
+static GameState apply1(GameState st, const char *mtext)
+{
+    WholeMove m;
+    EXPECT_TRUE(m.scan(mtext));
+    EXPECT_EQ(ApplyMove::Whole(st, 1, m), ApplyMove::Result::SUCCESS);
     return st;
 }
 
@@ -110,4 +119,25 @@ TEST(AIStaticEval, capture_to_win) {
     GameState bad = apply(st, "trade g1 y1 Player1");
     GameState good = apply(st, "attack r2 Player2");
     XFAIL_GT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
+}
+
+TEST(AIStaticEval, fumbled_setup) {
+    GameState good = from(R"(
+        Player1 (0, y1b2) g3-
+        Player2 (1, r1b2) -g3
+    )");
+    GameState bad = from(R"(
+        Player1 (0, y1b2) g3-
+        Player2 (1, y1b2) -g3
+    )");
+    XFAIL_GT(ai_static_evaluation(good, 1), ai_static_evaluation(bad, 1));
+    good = apply(good, "build g1 Player1");
+    bad = apply(bad, "build g1 Player1");
+    XFAIL_LT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
+    good = apply1(good, "build g1 Player2");
+    bad = apply1(bad, "build g1 Player2");
+    XFAIL_GT(ai_static_evaluation(good, 1), ai_static_evaluation(bad, 1));
+    good = apply(good, "trade g1 y1 Player1");
+    bad = apply(bad, "trade g1 y1 Player1");
+    XFAIL_LT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
 }
