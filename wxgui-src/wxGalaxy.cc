@@ -56,9 +56,9 @@ void GalaxyWidget::restash_and_delete_system(SystemWidget *sw)
     assert(sw != nullptr);
     assert(this->stash != nullptr);
     /* First, put all the affected pieces back into the stash. */
-    for (int i=0; true; ++i) {
+    for (size_t i=0; i < sw->GetSizer()->GetItemCount(); ++i) {
         wxSizerItem *it = sw->GetSizer()->GetItem(i);
-        if (it == nullptr) break;
+        assert(it != nullptr);
         PieceWidget *pw = (PieceWidget *)it->GetWindow();
         assert(pw != nullptr);
         this->stash->add_piece(pw->piece_size, pw->piece_color);
@@ -168,9 +168,9 @@ static void add_to_state(GameState &st, SystemWidget *sw, int who)
     ss.homeworldOf = who;
     /* Now add the ships. */
     bool contains_ships = false;
-    for (int j=0; true; ++j) {
+    for (size_t j=0; j < sw->GetSizer()->GetItemCount(); ++j) {
         wxSizerItem *si = sw->GetSizer()->GetItem(j);
-        if (si == nullptr) break;
+        assert(si != nullptr);
         assert(si->IsWindow());
         PieceWidget *pw = (PieceWidget *)si->GetWindow();
         assert(pw != nullptr);

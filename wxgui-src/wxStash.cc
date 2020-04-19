@@ -130,7 +130,7 @@ void StashWidget::mouseup()
                 assert(gp != nullptr);
                 assert(this == gp->stash);
                 wxSizer *gs = sw->GetSizer();
-                if (gs->GetItem(1) == nullptr) {
+                if (gs->GetItemCount() == 1) {
                     /* The system contains no ships. It's okay to destroy it. */
                     assert(gs->GetItem((size_t)0)->GetWindow() == sw->star);
                     gp->restash_and_delete_system(sw);

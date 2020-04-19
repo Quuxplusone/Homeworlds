@@ -182,6 +182,7 @@ static void event_within_stash(wxMouseEvent &e, wxPoint &clickpos, StashWidget *
         assert(thing_being_dragged == nullptr);
         wxSizer *gs = sw->GetSizer();
         assert(gs != nullptr);
+        assert(gs->GetItemCount() == 12);
         for (int i=0; i < 12; ++i) {
             StashItem *si = (StashItem *)gs->GetItem(i)->GetWindow();
             assert(si != nullptr);

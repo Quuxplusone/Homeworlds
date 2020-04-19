@@ -349,13 +349,13 @@ void GameApp::done_starting_position()
         return do_error("You haven't selected a star for your homeworld system!");
     }
     wxSizer *gs = my_homeworld->GetSizer();
-    wxSizerItem *it = gs->GetItem(1);
-    if (it == nullptr) {
+    if (gs->GetItemCount() < 2) {
         return do_error("You haven't selected a ship for your homeworld system!");
     }
+    wxSizerItem *it = gs->GetItem(1);
     assert(it->GetWindow() != nullptr);
     assert(((PieceWidget*)it->GetWindow())->whose == global_attacker);
-    if (gs->GetItem(2)) {
+    if (gs->GetItemCount() >= 3) {
         /* Allow the user to set up more interesting positions, but warn
          * about them. */
         wxMessageDialog mdg(nullptr,
