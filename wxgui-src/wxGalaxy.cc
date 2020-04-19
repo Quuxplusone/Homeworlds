@@ -44,6 +44,7 @@ void GalaxyWidget::delete_system(SystemWidget *sw)
         sw->GetSizer()->Clear(true);
         sw->Layout();
     } else {
+        assert(sw->GetParent() == this);
         this->GetSizer()->Detach(sw);
         sw->Destroy();
         --num_systems;
