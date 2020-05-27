@@ -14,6 +14,8 @@ public:
         return actions.empty();
     }
 
+    const std::vector<SingleAction>& getActions() const { return actions; }
+
     /* We use this operation to build up whole moves piece by piece.
      * Note that any prefix of a legal move is itself a legal move,
      * so it's safe to sanity-check both the input and the output of
