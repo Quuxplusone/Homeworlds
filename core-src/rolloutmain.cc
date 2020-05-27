@@ -7,20 +7,41 @@
 #include "AllMoves.h"
 #include "WholeMove.h"
 
+WholeMove defenders_best_response_or_pass(const GameState& st, bool deep);
+
 bool defender_is_in_check(const GameState& st)
 {
     return findWinningMove(st, 0, nullptr);
 }
 
-WholeMove defenders_best_response_or_pass(const GameState& st)
+bool attacker_can_still_checkmate(const GameState& st)
+{
+    return findAllMoves(
+        st, 0, false, false, 0xF,
+        [&](const WholeMove&, const GameState& newst) {
+            if (defender_is_in_check(newst)) {
+                WholeMove response = defenders_best_response_or_pass(newst, false);
+                return response.isPass();
+            }
+            return false;
+        }
+    );
+}
+
+WholeMove defenders_best_response_or_pass(const GameState& st, bool deep)
 {
     WholeMove response("pass");
     findAllMoves(
         st, 1, false, false, 0xF,
-        [&response](const WholeMove& m, const GameState& newst) {
+        [&response, deep](const WholeMove& m, const GameState& newst) {
             if (!defender_is_in_check(newst)) {
-                response = m;
-                return true;
+                // The defender has successfully staved off checkmate.
+                if (deep && attacker_can_still_checkmate(newst)) {
+                    // Never mind, we've still got a checkmate in 2.
+                } else {
+                    response = m;
+                    return true;
+                }
             }
             return false;
         }
@@ -40,6 +61,7 @@ Color associatedColor(const WholeMove& m)
 int main(int argc, char **argv)
 {
     bool verbose = (argc >= 2 && argv[1] == std::string("--verbose"));
+    bool deep = (argc >= 2 && argv[1] == std::string("--deep"));
 
     GameState st;
     st.scan(stdin);
@@ -55,7 +77,7 @@ int main(int argc, char **argv)
         st, 0, false, false, 0xF,
         [&](const WholeMove& m, const GameState& newst) {
             if (defender_is_in_check(newst)) {
-                WholeMove response = defenders_best_response_or_pass(newst);
+                WholeMove response = defenders_best_response_or_pass(newst, deep);
                 if (response.isPass()) {
                     moves_creating_checkmate.push_back(m);
                 } else {
@@ -65,7 +87,7 @@ int main(int argc, char **argv)
             return false;
         }
     );
-    printf("%zu moves lead to checkmate\n", moves_creating_checkmate.size());
+    printf("%zu moves lead to checkmate%s\n", moves_creating_checkmate.size(), deep ? " in two" : "");
     for (const auto& m : moves_creating_checkmate) {
         printf("+ %s\n", m.toString().c_str());
     }
