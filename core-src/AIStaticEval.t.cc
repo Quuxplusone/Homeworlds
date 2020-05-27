@@ -44,6 +44,23 @@ TEST(AIStaticEval, checkmate_opponent) {
     EXPECT_GT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
 }
 
+TEST(AIStaticEval, checkmate_opponent2) {
+    GameState st = from(R"(
+        Lee (0, y1b2) y1y2b1-
+        DS1 (b2) r3y1y3y3b1-
+        DS2 (y2) y2y3b1b3-
+        DS3 (g2) -g1
+        DS4 (r2) -r2g3
+        DS5 (g2) -g1
+        DS6 (r3) -r1g3
+        DS7 (r2) -r1g3
+        Ray (1, r1) -r3
+    )");
+    GameState bad = apply(st, "sac b3 DS2; trade y2 g2 Lee; trade y1 g1 DS1; trade y2 b2 DS2");
+    GameState good = apply(st, "sac y3 at DS1; move y3 from DS1 to Ray; move y3b3 from DS2 to Ray");
+    XFAIL_GT(ai_static_evaluation(good, 0), ai_static_evaluation(bad, 0));
+}
+
 TEST(AIStaticEval, keep_opponent_in_check) {
     GameState st = from(R"(
         Player1 (0, r2g3) b1b3-
