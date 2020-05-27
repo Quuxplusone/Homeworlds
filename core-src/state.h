@@ -50,20 +50,6 @@ public:
     std::string toComparableString() const;
     char *toComparableString(char buffer[MAXSTRLEN+1]) const;
     bool scan(const char *text);
-
-    friend void operator+=(PieceCollection& pc, const StarSystem& ss) {
-        pc += ss.star;
-        for (const auto& ships : ss.ships) {
-            pc += ships;
-        }
-    }
-
-    friend void operator-=(PieceCollection& pc, const StarSystem& ss) {
-        pc -= ss.star;
-        for (const auto& ships : ss.ships) {
-            pc -= ships;
-        }
-    }
 };
 
 class GameState {

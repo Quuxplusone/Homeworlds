@@ -100,6 +100,11 @@ class TestGameState(unittest.TestCase):
             L.GameState('Foo (b1) r3-y1\nxyzzy\n')
         self.assertEqual(str(e.exception), "text did not parse as a game state")
 
+    def test_impossible(self):
+        with self.assertRaises(ValueError) as e:
+            L.GameState('Foo (0, b1) b1b1-\nBar (1, r3) -b1\n')
+        self.assertEqual(str(e.exception), "text did not parse as a game state")
+
     def test_trivial(self):
         s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -r1y2')
         self.assertEqual(str(s), 'Foo (0, r1b3) g3-\nBar (1, y2b3) -r1y2\n')

@@ -169,8 +169,14 @@ static void trim(std::string &line)
  */
 std::string GameState::scan(FILE *fp)
 {
-    std::string unparsed_line = "";
     stars.clear();
+    stash.clear();
+    for (Color c = RED; c <= BLUE; ++c) {
+        for (Size s = SMALL; s <= LARGE; ++s) {
+            stash.insert(c, s, NUMPLAYERS+1);
+        }
+    }
+    std::string unparsed_line = "";
     while (true) {
         std::string line;
         bool gotline = readline(fp, line);
@@ -183,20 +189,13 @@ std::string GameState::scan(FILE *fp)
         }
         StarSystem star;
         bool parsedline = star.scan(line.c_str());
-        if (!parsedline) {
+        if (parsedline && stash.contains(star.pieceCollection())) {
+            stash -= star.pieceCollection();
+            stars.push_back(std::move(star));
+        } else {
             unparsed_line = line;
             break;
         }
-        stars.push_back(std::move(star));
-    }
-    stash.clear();
-    for (Color c = RED; c <= BLUE; ++c) {
-        for (Size s = SMALL; s <= LARGE; ++s) {
-            stash.insert(c, s, NUMPLAYERS+1);
-        }
-    }
-    for (int i=0; i < (int)stars.size(); ++i) {
-        stash -= stars[i];
     }
     return unparsed_line;
 }
@@ -204,6 +203,12 @@ std::string GameState::scan(FILE *fp)
 bool GameState::scan(const char *text)
 {
     stars.clear();
+    stash.clear();
+    for (Color c = RED; c <= BLUE; ++c) {
+        for (Size s = SMALL; s <= LARGE; ++s) {
+            stash.insert(c, s, NUMPLAYERS+1);
+        }
+    }
     while (*text != '\0') {
         const char *next = text;
         while (*next != '\0' && *next != '\n') ++next;
@@ -211,21 +216,14 @@ bool GameState::scan(const char *text)
         trim(line);
         if (!line.empty()) {
             StarSystem star;
-            if (!star.scan(line.c_str())) {
+            if (star.scan(line.c_str()) && stash.contains(star.pieceCollection())) {
+                stash -= star.pieceCollection();
+                stars.push_back(std::move(star));
+            } else {
                 return false;
             }
-            stars.push_back(std::move(star));
         }
         text = next + (*next == '\n');
-    }
-    stash.clear();
-    for (Color c = RED; c <= BLUE; ++c) {
-        for (Size s = SMALL; s <= LARGE; ++s) {
-            stash.insert(c, s, NUMPLAYERS+1);
-        }
-    }
-    for (int i=0; i < (int)stars.size(); ++i) {
-        stash -= stars[i];
     }
     return true;
 }
