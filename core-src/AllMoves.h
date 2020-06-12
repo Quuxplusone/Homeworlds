@@ -5,11 +5,14 @@
 #include "WholeMove.h"
 #include "state.h"
 
-// Given the game state "st", append all possible moves for player "attacker"
-// to the given vector "allmoves". There are usually going to be a few dozen
-// to a few hundred moves, but it might be 500,000 for really complicated
-// game states.
-//   If the flag "prune_worse_moves" if true, then we simplify
+// Given the game state "st", where it is player "attacker"'s turn to move,
+// call the given "callback" with each possible successor state (and one
+// possible move that leads to that state). There are usually going to be
+// a few dozen to a few hundred such states, but it might be 500,000
+// for really complicated positions.
+//   The callback's signature should be bool(const WholeMove&, const GameState&).
+// Our search will short-circuit as soon as the callback returns "true".
+//   If the flag "prune_worse_moves" is true, then we simplify
 // matters by cutting short our search as soon as a winning move is found
 // (if one is found). However, we do guarantee that we'll always report the
 // best move; we'll never try to estimate a move's "goodness" based on a

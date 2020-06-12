@@ -3,6 +3,7 @@
 #include <string.h>
 #include <atomic>
 #include <string>
+#include <unordered_set>
 #include <vector>
 #include "state.h"
 #include "AllMoves.h"
@@ -20,18 +21,14 @@
  #define ALLMOVES_USE_EXCEPTIONS 1
 #endif
 
-#if ALLMOVES_USE_SET
-#include <set>
-using AllSeenT = std::set<std::string>;
-#else
-#include <unordered_set>
+namespace {
+
 using AllSeenT = std::unordered_set<std::string>;
-#endif
 
 struct PossCat {
     Color color;
     std::string name;
-    PossCat(Color c, const std::string &n): color(c), name(n) { }
+    explicit PossCat(Color c, const std::string &n): color(c), name(n) { }
 };
 
 struct AllT {
@@ -76,6 +73,7 @@ struct AllT {
     }
 };
 
+} // anonymous namespace
 
 static void combine_precatastrophes(const WholeMove &m, const std::vector<PossCat> &posscats, int pc,
     const GameState &st, int attacker, AllT &all);
