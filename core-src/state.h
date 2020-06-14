@@ -38,6 +38,10 @@ public:
     bool isAdjacentTo(const StarSystem &that) const {
         return this->star.isAdjacentTo(that.star);
     }
+    bool isAdjacentTo(Piece that) const {
+        return (this->star.numberOf(that.size) == 0);
+    }
+
     PieceCollection pieceCollection() const {
         PieceCollection pc = star;
         for (const auto& fleet : ships) {

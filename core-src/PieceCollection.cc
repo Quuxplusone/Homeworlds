@@ -24,6 +24,19 @@ Size PieceCollection::smallestSizeOf(Color c) const
     /*NOTREACHED*/
 }
 
+Piece PieceCollection::onlyPiece() const
+{
+    for (Color c = RED; c <= BLUE; ++c) {
+        for (Size s = SMALL; s <= LARGE; ++s) {
+            if (this->pieces[c][s] != 0) {
+                return Piece(c, s);
+            }
+        }
+    }
+    assert(false);
+    /*NOTREACHED*/
+}
+
 bool PieceCollection::contains(const PieceCollection& rhs) const
 {
     for (Color c = RED; c <= BLUE; ++c) {

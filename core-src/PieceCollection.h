@@ -1,14 +1,15 @@
 #pragma once
 
 #include "global.h"
+#include <initializer_list>
 #include <string>
 
 struct Piece {
     Color color : 4;
     Size size : 4;
 
-    explicit Piece() : color(UNKNOWN_COLOR), size(UNKNOWN_SIZE) {}
-    explicit Piece(Color c, Size s) : color(c), size(s) {}
+    constexpr explicit Piece() : color(UNKNOWN_COLOR), size(UNKNOWN_SIZE) {}
+    constexpr explicit Piece(Color c, Size s) : color(c), size(s) {}
 
     const char *toString() const {
         static const char tab[5][4][3] = {
@@ -33,6 +34,16 @@ struct Piece {
     bool isMissingPieces() const {
         return (color == UNKNOWN_COLOR || size == UNKNOWN_SIZE);
     }
+
+    static auto possibilities() -> const Piece(&)[12] {
+        static const Piece a[12] = {
+            Piece(RED, SMALL), Piece(RED, MEDIUM), Piece(RED, LARGE),
+            Piece(YELLOW, SMALL), Piece(YELLOW, MEDIUM), Piece(YELLOW, LARGE),
+            Piece(GREEN, SMALL), Piece(GREEN, MEDIUM), Piece(GREEN, LARGE),
+            Piece(BLUE, SMALL), Piece(BLUE, MEDIUM), Piece(BLUE, LARGE),
+        };
+        return a;
+    }
 };
 
 class PieceCollection {
@@ -43,9 +54,11 @@ public:
 
     explicit PieceCollection();
 
+    Piece onlyPiece() const;
+    bool contains(Piece p) const { return pieces[p.color][p.size] != 0; }
     bool contains(const PieceCollection &) const;
-    bool operator == (const PieceCollection &) const;
-    bool operator != (const PieceCollection &rhs) const { return !(*this == rhs); }
+    bool operator==(const PieceCollection &) const;
+    bool operator!=(const PieceCollection &rhs) const { return !(*this == rhs); }
 
     int empty() const { return !numberOf(RED) && !numberOf(YELLOW) && !numberOf(GREEN) && !numberOf(BLUE); }
     int number() const { return numberOf(SMALL)+numberOf(MEDIUM)+numberOf(LARGE); }
