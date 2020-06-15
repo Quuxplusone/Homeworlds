@@ -34,7 +34,11 @@ WholeMove defenders_best_response_or_pass(const GameState& st, bool deep)
     findAllMoves(
         st, 1, false, false, 0xF,
         [&response, deep](const WholeMove& m, const GameState& newst) {
-            if (!defender_is_in_check(newst)) {
+            if (newst.gameIsOver()) {
+                // The defender has won!
+                response = m;
+                return true;
+            } else if (!defender_is_in_check(newst)) {
                 // The defender has successfully staved off checkmate.
                 if (deep && attacker_can_still_checkmate(newst)) {
                     // Never mind, we've still got a checkmate in 2.
@@ -98,6 +102,17 @@ int main(int argc, char **argv)
             printf("  - %s\n", mr.second.toString().c_str());
         }
     } else {
+        bool found[4] {};
+        for (auto&& mr : moves_creating_check) {
+            int cr = (mr.first.toString().find("capture r") != size_t(-1));
+            int cy = (mr.first.toString().find("capture y") != size_t(-1));
+            int cg = (mr.first.toString().find("capture g") != size_t(-1));
+            int cb = (mr.first.toString().find("capture b") != size_t(-1));
+            if (cr + cy + cg + cb == 1) {
+                found[cr*0 + cy*1 + cg*2 + cb*3] = true;
+            }
+        }
+        printf("Found: %c%c%c%c\n", found[0] ? 'R':' ', found[1]?'Y':' ', found[2]?'G':' ', found[3]?'B':' ');
         for (Color c : {RED, YELLOW, GREEN, BLUE, UNKNOWN_COLOR}) {
             auto yes = [c](const auto& mr) {
                 return associatedColor(mr.first) == c;
