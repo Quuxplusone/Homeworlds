@@ -35,6 +35,16 @@ struct Piece {
         return (color == UNKNOWN_COLOR || size == UNKNOWN_SIZE);
     }
 
+    int sacrificeActions() const {
+        switch (size) {
+            case SMALL: return 1;
+            case MEDIUM: return 2;
+            case LARGE: return 3;
+            default: assert(false);
+        }
+        return 0;
+    }
+
     static auto possibilities() -> const Piece(&)[12] {
         static const Piece a[12] = {
             Piece(RED, SMALL), Piece(RED, MEDIUM), Piece(RED, LARGE),
