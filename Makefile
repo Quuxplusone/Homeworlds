@@ -26,6 +26,9 @@ annotate: annotatemain.o getline.o InferMove.o Retrograde.o ${AIOBJS}
 rollout: rolloutmain.o AllMoves.o ${OBJS}
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
 
+retrollout: retrolloutmain.o AllMoves.o Retrograde.o ${OBJS}
+	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
+
 test-core: ${TESTOBJS} InferMove.o Retrograde.o ${AIOBJS}
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -lgtest -lgtest_main -o $@
 
