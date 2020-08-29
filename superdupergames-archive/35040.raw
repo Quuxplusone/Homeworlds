@@ -1,0 +1,174 @@
+Homeworlds Online (SDG# 35040)
+Variants: "Hard time"
+Started: 2019.2.28, Ended: 2019.3.4
+Participants: speardane (S), wil (N)
+Winner: wil
+
+1) wil: H Y2 B1 G3
+
+2) speardane: Homeworld Y3 B2 G3
+
+3) wil: B G1 Wil
+
+4) speardane: Build G1 Speardane
+
+5) wil: T G1 B1 Wil
+	speardane: For the tournament. Good luck!
+
+6) speardane: Trade G3 R3 Speardane
+	Draw5PlayAll: Oh... I did not know the tourney was still going on, nor that the spear Dane account was operational.
+	speardane: @Draw5PlayAll: The two things are related. :) wil has three games left to play, and this is one of them.
+
+7) wil: B B1 Wil
+
+8) speardane: Build G1 Speardane
+
+9) wil: D B1 Wil G3 G3
+
+10) speardane: Discover G1 Speardane Y1 Delos
+
+11) wil: B B2 Wil
+
+12) speardane: Build G1 Delos
+
+13) wil: D B2 Wil Y3 Y3
+	Draw5PlayAll: Are you (spear) going to respond to the other challenges?
+	wil: Arent people.allowed to reject.challenges?
+
+14) speardane: Discover G1 Delos B3 Lebling
+
+15) wil: S G3 Wil
+B B2 Y3
+B B3 G3
+B B3 Wil
+	speardane: If I ever figure out how to make speardane run autonomously, I'll make it respond to challenges. As long as I'm running it manually, nah. If you have a C++ compiler you can download and play against it offline: https://github.com/Quuxplusone/Homeworlds
+	wil: Speardane is an ai?
+
+16) speardane: Build G2 Lebling
+
+17) wil: T B3 Y3 G3
+
+18) speardane: Trade G2 Y2 Lebling
+	wil: If I am playing an ai, does it learn from play
+
+19) wil: B B3 G3
+	speardane: Tournament contestant "speardane" is an AI (written and operated by ajo). It doesn't "evolve" or "learn" from play; it's more of an expert system consisting of a bag of heuristics.
+
+20) speardane: Build G2 Lebling
+
+21) wil: T B3 R3 G3
+
+22) speardane: Discover G1 Delos B3 Kotok
+
+23) wil: T B3 G3 Wil
+
+24) speardane: Sacrifice G2 Lebling
+Build G2 Speardane
+Build G2 Kotok
+	wil: Ajo, have you learned anything from speardane?
+
+25) wil: B B3 G3
+	speardane: Not really. Speardane's heuristics reflect my biases when writing it, so I'm probably the person least likely to learn something new by playing against it.
+	wil: I meant by watching its actions with others
+
+26) speardane: Trade G1 Y1 Kotok
+
+27) wil: T B3 G3 G3
+
+28) speardane: Discover G2 Speardane Y1 Delos
+
+29) wil: B B3 G3
+
+30) speardane: Build G1 Delos
+
+31) wil: D G3 G3 Y1 Y1
+
+32) speardane: Sacrifice G2 Delos
+Build Y2 Kotok
+Build G2 Kotok
+
+33) wil: B G2 Y1
+
+34) speardane: Trade G2 R2 Kotok
+	wil: Cut and paste my action, c&p computer response?
+	wil: What is the methodology you go thru?
+
+35) wil: B R1 G3
+	speardane: That's right. Minor reformatting, e.g. the AI will output literally "convert g2 to r2 at Kotok" and then I input that into SDG as "trade g2 r2 Kotok", but yep, the human is in the loop purely as a data-entry specialist. :)
+
+36) speardane: Build G2 Delos
+
+37) wil: M R3 G3 Delos
+
+38) speardane: Sacrifice Y2 Kotok
+Discover G1 Delos Y2 Minsky
+Move G2 Delos Minsky
+
+39) wil: M R3 Delos Minsky
+
+40) speardane: Sacrifice Y2 Lebling
+Move G1 Minsky Y1
+Move G2 Minsky Y1
+Catastrophe Y1 Green
+
+41) wil: T B3 R3 G3
+
+42) speardane: Build Y1 Kotok
+
+43) wil: B B3 G3
+
+44) speardane: Discover Y1 Kotok G2 Delos
+
+45) wil: T B3 G3 G3
+
+46) speardane: Discover Y1 Delos B3 Licklider
+
+47) wil: D G3 G3 Y1 Y1
+
+48) speardane: Build Y2 Kotok
+
+49) wil: M R1 G3 Y1
+
+50) speardane: Discover Y2 Kotok G2 Delos
+
+51) wil: B R1 G3
+
+52) speardane: Move Y2 Delos Lebling
+
+53) wil: D R3 G3 G1 G1
+
+54) speardane: Build G2 Kotok
+
+55) wil: B R1 G1
+
+56) speardane: Sacrifice G2 Kotok
+Build G2 Lebling
+Build R2 Kotok
+
+57) wil: M R1 Y1 Speardane
+
+58) speardane: Sacrifice G2 Lebling
+Build G2 Speardane
+Build G2 Kotok
+
+59) wil: A G1 Speardane
+
+60) speardane: Sacrifice G2 Kotok
+Build G2 Lebling
+Build R2 Kotok
+
+61) wil: S Y3 G3
+M R1 G1 Speardane
+M R3 G1 Speardane
+M G3 Y1 Speardane
+C Speardane R
+
+62) speardane: Pass
+
+63) wil: B G1 Speardane
+C Speardane G
+	speardane: Good game!
+	wil: Did the computer pass, or you call it quits?
+	wil: Must be tough to watch and not modify moves
+	speardane: The AI says "pass" when it's checkmated: there's no move better than "pass" if they all lead to defeat.
+	wil: Interesting, kudos on writing and playing!!

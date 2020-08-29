@@ -1,0 +1,216 @@
+Homeworlds Online (SDG# 35560)
+Variants: "Unrated"
+Started: 2019.9.25, Ended: 2019.9.30
+Participants: Babamots (S), Dther (N)
+Winner: Babamots
+
+1) Dther: Homeworld R2 B3 G3
+	Babamots: Hi! Looks like this is your first game on SDG. Have you ever played Homeworlds before? Let me know if you need help understanding the site commands.
+	Dther: Hey there. Really want to learn this game, but I'm still trying to introduce pyramids in general to my board game group. Hope I don't embarrass myself too much :T
+	Babamots: It's very late for me right now, but I'll look for your reply in the morning.
+	Babamots: Sounds good! Have you read the rules?
+
+2) Babamots: Homeworld B3 R1 G3
+	Dther: I have, I think I get the basics. Thanks for starting a game for beginners like me :)
+	Babamots: Maybe I'll stay up a tiny bit more. It's hard to resist this game. Normally, you can expect to wait a few hours or days for your opponent to make a move on SDG.
+
+3) Dther: Build G1 Dther
+	Babamots: I'm always surprised by how quickly new players show up when I offer a training game. It's good to know the community is growing.
+
+4) Babamots: Build G1 Babamots
+
+5) Dther: Trade G1 Y1 Dther
+	Dther: That's good to hear. There isn't exactly a vibrant community here in Australia, but I love the concept of Looney Pyramids so much. I've had some success in introducing Zendo so far.
+
+6) Babamots: Trade G1 Y1 Babamots
+	Babamots: Sometimes I like a blue/yellow system instead of blue/red. Yellow is slightly safer from sudden catastrophes since the yellow ship being sacrificed can't be moved in.
+ 
+A red star is safer from multi-move catastrophes for tricky reasons I'm too sleepy to explain.
+
+7) Dther: Build G1 Dther
+
+8) Babamots: Build G1 Babamots
+	Dther: Hmm, is it because, when combined with the general good practice to always have a large at your homeworld, the red star allows for attack actions in between the opponent's moves?
+	Babamots: I'm in the eastern US. Seems like I met another Australian player on SDG, but I can't remember who.
+ 
+Games between people in the same time zone often go faster since they don't always have to wait for the other player to finish sleeping. I'd better make this my last move for the night. There's work in the morning.
+	Dther: That's probably a good idea, see you then!
+	Babamots: Yes, about the red. In particular, you can sacrifice the red ship you captured on the previous turn to prevent catastrophic buildup. To make a red catastrophe, your opponent can't just move ships one at a time for that reason. Even very good players forget that sometimes.
+
+9) Dther: Trade G1 R1 Dther
+
+10) Babamots: Trade G1 R1 Babamots
+
+11) Dther: Build R2 Dther
+
+12) Babamots: Build R2 Babamots
+
+13) Dther: Discover R2 Dther G1 Styx
+
+14) Babamots: Trade R1 B1 Babamots
+
+15) Dther: Trade R1 B1 Dther
+
+16) Babamots: Build R1 Babamots
+
+17) Dther: Move B1 Dther Styx
+
+18) Babamots: Discover R2 Babamots G2 Betazed
+
+19) Dther: Build G1 Dther
+
+20) Babamots: Move B1 Babamots Betazed
+
+21) Dther: Build Y1 Dther
+
+22) Babamots: Build Y2 Babamots
+
+23) Dther: Build Y2 Dther
+
+24) Babamots: Build Y2 Babamots
+
+25) Dther: Move Y1 Dther Styx
+	Dther: Has anyone ever written an AI for Homeworlds? I'm a computer science student, and part of what interests me about Homeworlds is how it strikes the middle ground of computational complexity between Chess and Go.
+
+26) Babamots: Move Y2 Babamots Betazed
+
+27) Dther: Build Y3 Styx
+	Draw5PlayAll: www.github.com/Quuxplusone (user "ajo" here) wrote a pretty weak one.
+	Babamots: Yes, the SDG account "speardane" is for an AI maintained by the player whose SDG account is "ajo." It has been known to beat people.
+ 
+I also wrote a bot, but it has pretty big problems.
+ 
+Homeworlds can actually have a game tree that branches faster than go. For example, in a position where a player has quite a few ships and a large yellow ship, they can have thousands of possible moves (because of sacrifices). But of course, they lose their y3 if they take one of those moves, so the game tree won't branch that much on every move.
+ 
+I don't play much chess, but I think it might be easier to tell who is ahead at a glance in Homeworlds. So I think state evaluation heuristics might be very efficient for HW compared to chess.
+
+28) Babamots: Build Y3 Betazed
+	Babamots: When both players have lots of yellow is when the game is really exciting. Seems like the first person to make a tiny mistake always loses.
+
+29) Dther: Trade G1 B1 Dther
+	Dther: That would make sense. Would it be right to think that it's because Yellow sacrifices create more possible branching paths than any other kind of sacrifice?
+	Babamots: Yeah, each move action could move any ship to any connected system or discover a new system. Lots of possibilities.
+ 
+Blue sacrifices also create lots of possibilities.
+
+30) Babamots: Discover Y2 Babamots G2 Orion
+
+31) Dther: Trade Y1 R1 Styx
+
+32) Babamots: Sacrifice G3 Babamots
+Build Y1 Orion
+Build Y3 Babamots
+Build R3 Betazed
+	Dther: What kind of things should I be thinking of in terms of a long term plan? Right now all I'm thinking of is avoiding catastrophes and trying to get resources for the late game.
+	Babamots: I'm trying to spread out my yellows so that I can safely build that last y3 before you can. Let mw know if you want suggestions on how to block me.
+	Babamots: You're doing pretty well. You haven't given me a chance to catastrophe, you haven't opened up larger sizes for me unless you would be able to get ships that size as well.
+	Babamots: I made a mistake on my last move. I should have moved out my small ship instead. That way I was threatening to destroy your y3 and y1 with a y2 sacrifice.
+
+33) Dther: Sacrifice Y2 Dther
+Move R2 Styx Betazed
+Move R1 Styx Betazed
+Catastrophe Betazed R
+
+34) Babamots: Move Y2 Orion Styx
+	Babamots: Well, that time you opened up larges of a color that you aren't prepared to build. Discovering a y3 system was probably your best way to block my build.
+	Dther: In hindsight, would discovering a Y3 star have been a better way to block?
+
+35) Dther: Trade B1 R1 Styx
+
+36) Babamots: Sacrifice R1 Babamots
+Attack R1 Styx
+	Babamots: This las move of mine wasn't great. I wanted to flaunt the fact that you can't attack my y2 because you don't have a red. It also prevents you from building the available y2 because I could just cause a catastrophe.
+ 
+However, it isn't really a threat. You can ignore it or get a red so you can attack it unless I retreat.
+
+37) Dther: Move Y3 Styx Dther
+
+38) Babamots: Build B1 Betazed
+
+39) Dther: Trade Y3 R3 Dther
+
+40) Babamots: Build R1 Styx
+	Babamots: Do you have a naming convention in mind for your systems? I use Star Trek planets.
+
+41) Dther: Discover R3 Dther G1 Smolensk
+	Dther: Not really, except for some Greco-Roman nouns and maybe a few nouns from early modern literature which I happen to like the sound of.
+	Dther: I realise that sounds a lot more pretentious than I intended, I'm basically just naming things based on what I think I might use them for later but obfuscating that a little.
+	Babamots: Not pretentious. "Styx" made me guess you were planning on either 80's bands or mythical locations.
+ 
+I think it's mneme that uses Greek muses.
+rouguejedi uses Star Wars worlds.
+I can't remember who uses Muppets.
+Several people just use the piece type: "b3" etc. Unimaginative, don't you think? :-P
+
+42) Babamots: Build R2 Styx
+	Babamots: With a second red on your doorstep, I'm in position to catastrophe your red star. You'll want to either move your r3 out (the best option I suppose) or trade for another color (blue obviously isn't safe, and with yellow I could still catastrophe your ship).
+
+43) Dther: Sacrifice Y1 Dther
+Move R3 Smolensk Betazed
+	Dther: Only slightly embarrassed to admit that I spent more time thinking of a name than on my actual move. In trying to think of a name that could be poetically linked to retreating, I found myself on a Wikipedia page on a Russian city that multiple invaders passed and later retreated through. Maybe thinking of star names will finally give me an excuse to read more...
+
+44) Babamots: Sacrifice R1 Styx
+Attack R3 Betazed
+
+45) Dther: Build B2 Dther
+	Babamots: https://github.com/jpeterbaker/SDGchange/blob/master/sdgPageChange.js
+ 
+Here's something I use to help me navigate on SDG. There are two ways to view games: "play pages" and "archive pages." Archive pages let you look at all past game states (play pages don't).
+ 
+You can put those few lines of Javascript into a browser bookmark and then click it to open the other page for the game.
+ 
+Can you use it to see the archive page for this game?
+	Babamots: You may have forgotten about red sacrifices. I can sacrifice an r1 in Styx to capture your r3.
+ 
+However, I can also win in two moves if I just ignore your r3. I think it would be more instructive for you to see that happen.
+	Babamots: Oops, nope, I forgot which sizes systems are. I won't win in 2 moves. Dur.
+	Babamots: If Betazed were a small system, I could do a blue catastrophe at your home now and do a red one on my next turn.
+
+46) Babamots: Sacrifice Y2 Betazed
+Move B1 Betazed Styx
+Move B1 Styx Dther
+Catastrophe Dther B
+
+47) Dther: Build G1 Dther
+	Dther: agh. Looks like I'm just as bad at recovering from blunders here as I am with Chess. Thanks for the tips, I *did* forget about red sacrifices.
+I've added your page change script to my bookmarks, but what browser do you use? It does open up the archive page, but on Firefox i'm finding it moves the original page to a mostly blank page that just says "false". Might test it with my other browser when I have time.
+	Babamots: I'm using Chrome. Maybe you need to take out the "return false" line?
+
+48) Babamots: Sacrifice Y3 Betazed
+Move R3 Betazed Styx
+Move R3 Styx Dther
+Move R2 Styx Dther
+
+49) Dther: Attack R3 Dther
+	Dther: Ah yeah, works just fine now. It's been too long since I've messed with Javascript.
+
+50) Babamots: Move R1 Styx Dther
+Catastrophe Dther R
+
+	Dther: Well, darn. Good game.
+	Babamots: Hopefully it was at least a little instructive. In other teaching games, I've had a tendency to do nothing but call out mistakes, which seems patronizing. I tried to avoid that this time, but possibly at the loss of educational opportunities.
+ 
+I mentioned my own bad moves as we went along, but I think I should use the archive view to make a list of your weaker moves with explanations. How does that sound?
+	Babamots: I went ahead and typed up my suggestions/analysis. Enjoy! :-)
+ 
+Your homeworld is OK, but I think the "banker" is strongest. That means a medium and a small piece for stars. That setup allows you the best control of the large pieces (since you use them as stars when you move out of your home system).
+ 
+One your 8th move, you trade r1 for b1. I think you should have pressed your advantage in the red economy.The main reason is that the r1 was your only red ship in your home system. After your move, there are fewer systems in which you have red ships, so your hurt your ability to produce reds. If you ever want a red ship at your home again, you will have to trade for it or move one there, which will set you back a move. That's why I avoid trading or moving the last ship of a color from a system, especially in the early game.
+ 
+On your 9th move, you move b1 to Styx. I dislike this for the same reason as your 8th move: it was your only blue ship in Dther. Later, on your 15th move, you trade a g1 for b1 in Dther. If you had built a b1 on your 9th move, you would have saved yourself a g1. (The disadvantage of what I'm suggesting is that you would have allowed me to build a b2 earlier.
+ 
+On your 16th move, you traded y1 for r1. I'd say this is where things got away from you. You were trying to block me from building y3 (a good idea), but made it easy for me to build r3. I picked up the y3 with a green sacrifice anyway, but at the expense of my g3. I think you should have discovered a y3 system instead, probably with your r2 or y1 in Styx.
+ 
+I think your 17th move is the best one that was available to you. Maybe you even made your 16th move with the plan that, if I built r3, you would trigger the catastrophe. But your 16th and 17th moves together are still poor (17 just makes up some of the lost ground). If you look at the difference between the positions after my 15th move and your 17th move, I lost one r2 ship while you lost an r2 and a y2 (I also gained a y1 and my g3 becomes y3). It may look good that I lost an r3, but it would have been much better if I never got to build it.
+ 
+Another effect of your 17th move is that you no longer have any red, which is why I was able to boldly move my y2 under your y3's nose.
+ 
+Also, remember on your 8th move when you traded away the only red ship in Dther? If you had kept it, you would still have a red ship at this moment.
+ 
+On your 18th move, you traded b1 for r1. You see now that I could just take it from you with a red sacrifice. If you had traded your y3 for r3 instead, you would have taken my y2 unless I simply retreated. Trading your b1 for r1 in Dther would have had a similar effect.
+ 
+We already talked about your 22nd move. Red sacrifices are extremely important. "A red anywhere is a red everywhere."
+ 
+Of course it's over at this point, but your 23rd move sped up the game by making it even easier to cause a blue catastrophe.
+	Dther: Thanks for the analysis! I always learn a lot from these kinds of after-game analyses. I think on my 8th and 9th move most of my thoughts were on if I should continue trying to build up and have a nice diversity of ships at my homeworld or start moving things out, so that answers that question. Thanks for the game! It's good to know that Homeworlds had the kind of tactical depth I was looking for :)
+	Babamots: Oh yes, and since this was just a training exercise, the crews of your ships haven't actually been killed. Tell their families to expect them home in 1-3 standard cycles. :-P

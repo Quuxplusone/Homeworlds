@@ -1,0 +1,67 @@
+Homeworlds Online (SDG# 36190)
+Variants: "Unrated"
+Started: 2020.3.21, Ended: 2020.3.21
+Participants: Cuc2 (S), Cuc (N)
+Winner: Cuc2
+
+1) Cuc: Homeworld B1 G1 Y3 *
+
+2) Cuc2: Homeworld G3 B3 Y3 *
+
+3) Cuc: Build Y1 Cuc
+
+4) Cuc2: Pass
+
+5) Cuc: Build Y1 Cuc
+
+6) Cuc2: Build Y1 Cuc2
+	Cuc2: I tried this:
+[m y3 Cuc2 Cuc
+c Cuc y]
+This ended in an error message: "Illegal modulus zero at /home/html/games/lib/Homeworlds/Pos.pm line 886, <GEN0> line 2093."
+I'm now going to try it again, but with a ship left in my Homeworld.
+Cuc is going to try the same but leaving one ship in his Homeworld. I need to pass a couple of times :-( haha.
+
+7) Cuc: Build Y2 Cuc
+
+8) Cuc2: Build Y2 Cuc2
+
+9) Cuc: Pass
+
+10) Cuc2: Build Y2 Cuc2
+
+11) Cuc: Trade Y3 B3 Cuc
+	Cuc2: I tried:
+[b y2 Cuc2
+c Cuc y
+c Cuc2 y]
+This led to the same error.
+We're going to try to simultaneously eliminate the stars now, leaving at least one ship in our Homeworlds. It'll take a couple of moves and trades.
+
+12) Cuc2: Trade Y3 B3 Cuc2
+
+13) Cuc: Build Y3 Cuc
+
+14) Cuc2: Build Y3 Cuc2
+
+15) Cuc: Sacrifice B3 Cuc
+Trade Y3 B3 Cuc
+Trade Y2 B2 Cuc
+Trade Y1 B1 Cuc
+
+16) Cuc2: Sacrifice B3 Cuc2
+Trade Y2 B2 Cuc2
+Trade Y2 B2 Cuc2
+Trade Y1 B1 Cuc2
+
+17) Cuc: Move Y1 Cuc Cuc2
+
+18) Cuc2: Move Y3 Cuc2 Cuc
+Catastrophe Cuc B
+
+	Cuc2: I tried 
+[m y3 Cuc2 Cuc
+c Cuc b
+c Cuc2 b]
+and I got this message (not an error): "You may not cause your own elmination. You must ensure you control at least one ship in your home system at the end of your turn."
+This means that SE (Simultaneous Elimination) is not allowed. But we've seen that Suicide is allowed, although you will lose. (Not totally consistent.) This reminder corresponds to the original 2002 rules!

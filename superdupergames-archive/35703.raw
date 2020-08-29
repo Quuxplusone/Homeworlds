@@ -1,0 +1,112 @@
+Homeworlds Online (SDG# 35703)
+Started: 2019.11.10, Ended: 2019.11.15
+Participants: Babamots (S), Cuc (N)
+Winner: Babamots
+
+1) Cuc: Homeworld B1 G2 Y3
+
+2) Babamots: Homeworld G3 B1 B3 *
+	Cuc: Thx!
+	Cuc: Would you be OK with me including your strategy in a document I want to share? Of course, I'll attribute it to you and mention your website. My updated version of the standalone is http://tinyurl.com/BC-Homeworlds-V1-2
+	Cuc: Would you be OK with me including your strategy in a document I want to share? Of course, I'll attribute it to you and mention your website. My updated version of the standalone is http://tinyurl.com/BC-Homeworlds-V1-2
+	Cuc: Hm, it allowed me to submit the same message twice while updating the page after the first submit.
+	Babamots: Sure, you can include my thoughts in your notes. I'll start reading them later, but they look interesting.
+
+3) Cuc: B Y1 Cuc
+
+4) Babamots: Build B1 Babamots
+	Cuc: Thx. When done I'll send you an update.
+	Babamots: So I'm trying that sneaky early blue freeze again. You can join the blue economy by trading your large yellow for blue. Not doing that last game was a big part of why you fell behind.
+
+5) Cuc: Build Y1 Cuc
+
+6) Babamots: Trade B3 Y3 Babamots
+	Cuc: Thx for the heads up. Now, I wonder if I had done H G1 B2 if that matters compared to H B1 G2? In any case, it's about the timing. As long as there is a B3 in the bank, I guess that I'll always be able to get a B3. Also, I am going to do it a bit different with my Yellow ships. I did not do last game what I've been doing in other games. In any case, I'm confident I can do better this time, but if it's enough to win remains to be seen. 
+
+7) Cuc: Discover Y1 Cuc G3 G3a
+
+8) Babamots: Build B2 Babamots
+
+9) Cuc: Trade Y3 B3 Cuc
+
+10) Babamots: Trade B2 R2 Babamots
+
+11) Cuc: Build Y1 Cuc
+	Babamots: I've been reading your notes on Homeworlds. The "Red Hulk" part of the strategy section seems wrong, or else I have misunderstood it. In order to defend a home invasion consisting of a single r3 ship, all that a player needs is a large ship at home and a red ship anywhere (not necessarily in their home system). Sacrificing that red will let them capture the r3, invasion over.
+ 
+If you meant to say that the "Red Hulk" maneuver requires that your opponent has no red ships *anywhere*, then I agree. That's one reason that it's usually essential to get a red ship immediately if your opponent has one.
+
+12) Babamots: Build Y2 Babamots
+
+13) Cuc: Build Y2 Cuc
+	Cuc: I saw you are playing a version of Zendo. Do you have the rules for this version? What tool you use to construct (draw) the koans? I think the rule is: a graph such that each vertex is blue, has an even number of lines and there is at least one vertex with 4 lines.
+The last excludes the hexagon or a square.
+	Cuc: It's game 35538
+
+14) Babamots: Discover Y2 Babamots G2 Bajor
+	Babamots: In graph-Zendo, only the graph structure itself matters, not the colors or the layout used to draw it.
+ 
+I'm using networkx in Python to draw my graphs. Some of the others are using a collection of graph images that analogkid put together.
+	Cuc: I did not write what I actually think the rule was. Here is another go: a KHTBN if every vertex is blue, each vertex has an even number of lines,  and there is at least one vertex with 4 lines.
+The last excludes the hexagon or a square.
+	Cuc: Do you have a link to networkx, so I can play the game too? If I start the game, do I have an option to use different tools? Can you play the game without installing any tools? (You said that there is a library from analogkid. How to access it?)
+
+15) Cuc: Discover Y2 Cuc B3 B3a
+
+16) Babamots: Build B2 Babamots
+	Cuc: I made a mistake. I thought you couldn't sacrifice your Y3, but you've got too many other ships in your HW. I am not used to not see all the board at the same time I am committing to a move. So, you can move your Y2 over to my HW if you want. It will call an Extinction (Catastrophe). At least, we will see some fireworks, haha.
+	Cuc: I should've created my Y2 in G3A.
+By the way, the naming convention I have decided upon can include <color><size><player direction><sequence letter>. So, my G3A should've been G3NA, so you can also see who created the system. It's not relevant for the game, but it's relevant for fluid play, so you don't get confused.
+In any case, if you decide to move your Y2, I will survive, and we both loose all our Yellow in our HW's.
+	Cuc: See you tomorrow (Wednesday). In fact, it's already tomorrow here, too. (And that is one of those times where "tomorrow" can actually be used to refer to the *present* . . . mind blowing, isn't it?)
+
+17) Cuc: Build Y2 G3a
+
+18) Babamots: Build Y3 Babamots
+
+19) Cuc: Build Y3 G3a
+
+20) Babamots: Trade Y3 G3 Babamots
+
+21) Cuc: Discover Y3 G3a B2 B2a
+
+22) Babamots: Sacrifice Y3 Babamots
+Move G3 Babamots Bajor
+Move G3 Bajor B3a
+Move G3 B3a Cuc
+
+23) Cuc: Trade B3 R3 Cuc
+
+24) Babamots: Sacrifice R2 Babamots
+Attack R3 Cuc
+Attack Y1 Cuc
+
+25) Cuc: S Y3 B2a
+M Y2 G3a Cuc
+M Y1 G3a Cuc
+M Y2 B3a Cuc
+
+26) Babamots: Catastrophe Cuc Y
+Pass
+
+	Cuc: It shows that somehow you used minimal equipment and I'm powerless to defend. All for one, one for all.
+	Cuc: You could conquer 3 ships, then trade your g3 for a r3 and conquer 3 more. With 2 ships in my HW you're quite powerful.
+	Cuc: Count me in for another game . . .
+-
+I neglected to defend my HW, so when you moved over I was done. I'm going to look back and see when I should've gotten red in my HW.
+	Babamots: One thing is that the defensive red doesn't even need to be in your homeworld (which is one of the things I was saying about your "Red Hulk" maneuver). My red ship let me invade your home even though my red didn't go to your home. The same technique works for defense. You just need a red *somewhere* as a defensive weapon *everywhere*.
+ 
+I got a red ship on my 5th move:
+ 
+http://www.superdupergames.org/?page=archive_play&gid=35703&idx=9
+ 
+You could have traded yellow for red on your 6th or 7th move, but I agree with your decision to invest in yellow ships during those moves. Trading for red during your 6th move would have required trading away your only yellow at home, which is bad. On your 7th move, you built your first medium ship, which helped you to keep up with my growth rate. I didn't have an immediate way to force an encounter that was favorable for me, so these 6th and 7th moves were safe for you.
+ 
+I think the best time to get red would have been on your 8th move. Trading any of your home yellows for red would have reduced your yellow concentration (setting you up to safely build yellow again) and created a defensive weapon.
+	Cuc: Yes, I remember that I considered what next to do. It seems in this game and the previous that I was trying to do too much towards a goal, but did not do what was necessary to defend my Homeworld.
+Thx for the analysis. I'm learning from it.
+-
+The Red Hulk is only working because it's like 2 in 1; it's large and it's red. In the way you are describing it, it always requires the sacrifice of a Red ship; and you can only sacrifice it once. Most times that may be sufficient, but only when it's the right timing.
+	Babamots: What I mean about the "Red Hulk" thing is that the other guy only needs a single red to defend against it. When you get the r3, he has one turn in which to trade for a red anywhere. That shuts down the Red Hulk invasion.
+ 
+I did the opposite by using a red sacrifice as part of my attack plan rather than to defend.

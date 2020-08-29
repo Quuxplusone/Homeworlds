@@ -1,0 +1,64 @@
+Homeworlds Online (SDG# 36162)
+Started: 2020.3.15, Ended: 2020.3.15
+Participants: Babamots (S), Pib (N)
+Winner: Babamots
+
+1) Pib: Homeworld G1 B1 Y3 *
+	Babamots: Some players have suggested that, when abandoning your homeworld, it should make a difference whether your enemy has any ships in your homeworld.
+ 
+Some say that you shouldn't be allowed to temporarily abandon your homeworld unless your enemy has ships there (SDG allows it either way).
+ 
+I've also been asked whether an enemy presence in your home makes a difference to whether you may abandon it while simultaneously eliminating your opponent. I am quite certain that SDG does not allow simultaneous elimination under any circumstances, but we'll try it out.
+
+2) Babamots: Homeworld B3 G3 Y3 *
+
+3) Pib: Build Y1 Pib
+
+4) Babamots: Build Y1 Babamots
+
+5) Pib: Move Y1 Pib Babamots
+
+6) Babamots: Build Y1 Babamots
+
+7) Pib: Pass
+
+8) Babamots: Move Y1 Babamots Pib
+
+9) Pib: Pass
+	Pib: At this point, I attempted the move
+ 
+move y3 Pib Babamots
+catastrophe Babamots y
+ 
+I was directed back to game page with the added error message
+ 
+"You may not cause your own elmination. You must ensure you control at least one ship in your home system at the end of your turn." [sic]
+
+10) Babamots: Move Y1 Babamots Pib
+
+11) Pib: Move Y1 Babamots Pib
+
+12) Babamots: Build Y2 Babamots
+
+13) Pib: Pass
+
+14) Babamots: Trade Y2 R2 Babamots
+
+15) Pib: Pass
+
+16) Babamots: Move R2 Babamots Pib
+
+17) Pib: Pass
+	Pib: At this point, I attempted the move
+ 
+pass
+catastrophe Pib y
+ 
+I was directed back to the game page with the same error message as before.
+
+18) Babamots: Move R2 Pib Babamots
+
+19) Pib: Pass
+Catastrophe Pib Y
+	Babamots: But Pib was able to commit suicide by catastrophe when I had no ships at their home. So, it seems that SDG will let you commit suicide, but ONLY when your opponent does NOT have any ships at your home.
+	Pib: Having this as a rated game was an accident. Sorry!

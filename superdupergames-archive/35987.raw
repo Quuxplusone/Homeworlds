@@ -1,0 +1,51 @@
+Homeworlds Online (SDG# 35987)
+Variants: "Unrated"
+Started: 2020.2.12, Ended: 2020.2.12
+Participants: Babamots (S), Pib (N)
+Winner: Babamots
+
+1) Pib: Homeworld G2 B1 Y3
+
+2) Babamots: Homeworld B3 G3 Y3 *
+
+3) Pib: Build Y1 Pib
+
+4) Babamots: Build Y1 Babamots
+
+5) Pib: Pass
+
+6) Babamots: Build Y1 Babamots
+	Babamots: If anyone is watching, we are testing out how SDG treats certain rules, like whether you can abandon your homeworld via catastrophe.
+
+7) Pib: Pass
+
+8) Babamots: Move Y1 Babamots Pib
+	Babamots: At this point in the game, I attempted the following move:
+ 
+sacrifice y3 Babamots
+move y1 Babamots Pib
+move y1 Babamots Pib
+pass
+catastrophe Pib y
+ 
+I was directed to an page reporting a divide by zero error.
+
+9) Pib: Pass
+
+10) Babamots: Discover Y1 Pib R3 Kronos
+
+11) Pib: Move Y1 Pib Babamots
+
+12) Babamots: Pass
+
+13) Pib: Move Y3 Pib Babamots
+	Pib: At this point I tried the move:
+ 
+move y3 Pib Babamots
+catastrophe Babamots y
+ 
+I was directed to a page with an error message including:
+ 
+Illegal modulus zero at /home/html/games/lib/Homeworlds/Pos.pm line 886
+	Babamots: Modulus zero, that's what I meant before.
+	Pib: Apparently, SDG will not prevent you from simply moving your last ship out of your home system.

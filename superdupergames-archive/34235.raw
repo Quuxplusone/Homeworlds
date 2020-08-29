@@ -1,0 +1,100 @@
+Homeworlds Online (SDG# 34235)
+Variants: "Unrated"
+Started: 2018.6.18, Ended: 2020.1.1
+Participants: bhorner (S), alnith (N)
+Winner: bhorner
+
+1) alnith: Homeworld B2 R1 G3
+	bhorner: Looks like I'm going first.  The commands are listed at the top.  You can abbreviate, and I usually abbreviate maximally.  For example these are equivalent:
+verbose:
+  homeworld r2 b1 g3
+abbreviated:
+  h r2 b1 g3
+
+2) bhorner: Homeworld R3 B1 G3
+	bhorner: Well, actually, it looks like you're going first.  :)
+	alnith: I have taken the first move!
+
+3) alnith: Build G1 Alnith
+
+4) bhorner: Build G1 Bhorner
+
+5) alnith: Trade G1 Y1 Alnith
+	bhorner: I have taken the second move!  :)
+
+6) bhorner: Trade G1 Y1 Bhorner
+
+7) alnith: Build G1 Alnith
+	bhorner: The history here is good for going back to find where you messed up too.  Plus having more time to think about your move is nice.  :)
+
+8) bhorner: Build G1 Bhorner
+	alnith: Do they keep the logs after the game ends? It might make for some nice training data.
+	bhorner: Yes, forever, I've downloaded all the games.  I used it to test my rules evaluator when I was trying to make an AI.  :)
+
+9) alnith: Trade G1 R1 Alnith
+	bhorner: The last game we played that started like this got very messy!
+
+10) bhorner: T G1 R1 Bhorner
+
+11) alnith: Build G1 Alnith
+	Draw5PlayAll: How many people are making AIs for this game?!
+And how many people are actually getting anywhere?
+	bhorner: I know of several attempts, not aware of any getting anywhere.  The branching factor grows too fast for standard tree searching techniques (like for chess).
+
+12) bhorner: Build R2 Bhorner
+	Draw5PlayAll: More manageable if you do it by individual actions rather than turns, but still very high.
+	bhorner: I don't know what that means.  :)
+
+13) alnith: Build R2 Alnith
+
+14) bhorner: Discover R2 Bhorner G2 Boogar
+
+15) alnith: Discover R2 Alnith G3 Qonos
+
+16) bhorner: Build G1 Bhorner
+
+17) alnith: Trade R1 B1 Alnith
+	bhorner: sorry that took so long!
+
+18) bhorner: T G1 B1 Bhorner
+
+19) alnith: Move B1 Alnith Qonos
+
+20) bhorner: Build B2 Bhorner
+	alnith: No worries! I'm totally in the proverbial glass house w.r.t. this
+	Draw5PlayAll: I detect a Trekkie
+
+21) alnith: Build B2 Qonos
+
+22) bhorner: Discover B1 Bhorner Y2 Sun
+
+23) alnith: Trade B1 Y1 Qonos
+
+24) bhorner: B Y2 Bhorner
+
+25) alnith: Move R2 Qonos Sun
+
+26) bhorner: D B1 Sun Y3 Nova
+
+27) alnith: Move G1 Alnith Qonos
+
+28) bhorner: D Y1 Bhorner G2 Tree
+
+29) alnith: Build Y2 Qonos
+
+30) bhorner: S G3 Bhorner
+B Y3 Bhorner
+B Y3 Tree
+B R1 Boogar
+
+31) alnith: Move G1 Qonos Sun
+
+32) bhorner: Move Y2 Bhorner Boogar
+
+33) alnith: Move B2 Qonos Sun
+
+34) bhorner: Trade B1 G1 Nova
+
+35) alnith: Move R2 Sun Bhorner
+
+36) bhorner: Attack R2 Bhorner

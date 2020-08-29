@@ -1,0 +1,195 @@
+Homeworlds Online (SDG# 35405)
+Started: 2019.8.1, Ended: 2019.9.26
+Participants: Draw5PlayAll (S), ajo (N)
+Winner: ajo
+
+1) ajo: Homeworld B3 R2 G3
+
+2) Draw5PlayAll: Homeworld B2 Y1 G3
+
+3) ajo: Build G1 Ajo
+	Draw5PlayAll: ThisIsForTheTournament
+	ajo: Yep! Good luck.
+
+4) Draw5PlayAll: Build G1 Draw5playall
+
+5) ajo: Trade G1 Y1 Ajo
+
+6) Draw5PlayAll: Trade G1 Y1 Draw5playall
+
+7) ajo: Build Y2 Ajo
+
+8) Draw5PlayAll: Build Y2 Draw5playall
+
+9) ajo: Discover Y1 Ajo B1 Alpha
+
+10) Draw5PlayAll: Discover Y2 Draw5playall G3 Greed
+
+11) ajo: Sacrifice G3 Ajo
+Build Y2 Ajo
+Build Y3 Ajo
+Build Y3 Alpha
+
+12) Draw5PlayAll: Build Y3 Greed
+
+13) ajo: Trade Y2 G2 Ajo
+
+14) Draw5PlayAll: Trade Y1 R1 Draw5playall
+
+15) ajo: Trade Y3 G3 Alpha
+
+16) Draw5PlayAll: Build R1 Draw5playall
+
+17) ajo: Trade Y2 R2 Ajo
+
+18) Draw5PlayAll: Trade R1 B1 Draw5playall
+
+19) ajo: Build Y1 Alpha
+
+20) Draw5PlayAll: Discover Y2 Greed B2 Diversity
+
+21) ajo: Trade Y1 R1 Alpha
+
+22) Draw5PlayAll: Move B1 Draw5playall Greed
+
+23) ajo: Build G1 Alpha
+
+24) Draw5PlayAll: Build G1 Draw5playall
+
+25) ajo: Discover R2 Ajo Y1 Beta
+
+26) Draw5PlayAll: Build B1 Greed
+
+27) ajo: Build Y2 Alpha
+
+28) Draw5PlayAll: Build B2 Greed
+
+29) ajo: Discover Y2 Alpha B3 Gamma
+
+30) Draw5PlayAll: Discover B1 Greed G2 Growth
+
+31) ajo: Sacrifice G3 Alpha
+Build R1 Beta
+Build Y2 Gamma
+Build Y3 Alpha
+
+32) Draw5PlayAll: Build B3 Growth
+
+33) ajo: Move R2 Beta Gamma
+
+34) Draw5PlayAll: Trade B3 R3 Growth
+
+35) ajo: Discover Y1 Alpha B3 Delta
+
+36) Draw5PlayAll: Sacrifice G3 Draw5playall
+Build R2 Growth
+Build R3 Draw5playall
+Build G1 Draw5playall
+
+37) ajo: Build R3 Alpha
+	Draw5PlayAll: It never fails.
+
+38) Draw5PlayAll: Move G1 Draw5playall Greed
+
+39) ajo: Move R3 Alpha Diversity
+
+40) Draw5PlayAll: Move Y2 Diversity Delta
+
+41) ajo: Build G2 Alpha
+
+42) Draw5PlayAll: Move G1 Greed Beta
+
+43) ajo: Attack G1 Beta
+
+44) Draw5PlayAll: Build G3 Draw5playall
+
+45) ajo: Build G3 Beta
+	Draw5PlayAll: I hate these closed positions
+
+46) Draw5PlayAll: Move R3 Draw5playall Gamma
+
+47) ajo: Sacrifice Y2 Gamma
+Move R2 Gamma Growth
+Move R1 Alpha Growth
+Catastrophe Growth Red
+
+48) Draw5PlayAll: Attack Y2 Gamma
+
+49) ajo: Build Y2 Alpha
+
+50) Draw5PlayAll: Trade B1 R1 Greed
+
+51) ajo: Sacrifice Y1 Delta
+Move Y2 Alpha Growth
+	Draw5PlayAll: How exactly do you run your AI? Do you just put the position into the computer, ask for ai_move, and then manually convert it into SDG notation? Or something else?
+
+52) Draw5PlayAll: Sacrifice G3 Draw5playall
+Build Y1 Gamma
+Build B1 Greed
+Build G3 Draw5playall
+	ajo: Essentially yes. As of a month-ish ago, you can run it with `--sdg` to get the output automatically in SDG notation. I'm haphazardly working on something that could slurp the game transcript from SDG, reconstruct the position, and then submit its move automatically. But for now it's still mostly manual.
+
+53) ajo: Move G3 Beta Delta
+
+54) Draw5PlayAll: Sacrifice G3 Draw5playall
+Build R2 Gamma
+Build R2 Greed
+Build R3 Draw5playall
+	Draw5PlayAll: Hmmm...
+ 
+Attack: /A fight broke out in the ([]) system! (\w+)'s (\w\d) ship was overtaken by (\w+)./
+Construct: /(\w+) created an? (\w\d) ship in the ([]) system./
+Trade: /(\w+) traded their old (\w\d) ship for a shiny new (\w\d) ship in the ([]) system./
+Move: /(\w+) moved their (\w\d) ship from ([]) to ([])./
+Discover: /(\w+)'s ship (\w\d) ventured forth from ([]) and discovered a new (\w\d) system! It has been named ([])./
+Sacrifice: /(\w+)'s ship (\w\d) was sacrificed in the ([]) system./
+ 
+Inside the []'s you need to know all the valid characters for system names.
+	Draw5PlayAll: [A-Za-z0-9_-'] to be exact.
+
+55) ajo: Build G3 Beta
+
+56) Draw5PlayAll: Sacrifice Y2 Delta
+Move B1 Growth Delta
+Move B1 Delta Diversity
+
+57) ajo: Sacrifice G2 Alpha
+Build G2 Delta
+Build Y2 Alpha
+
+58) Draw5PlayAll: Sacrifice Y3 Greed
+Move B1 Diversity Alpha
+Move B2 Greed Alpha
+Move B1 Greed Alpha
+Catastrophe Alpha Blue
+
+59) ajo: Trade G2 B2 Delta
+	Draw5PlayAll: Probably made everything worse for me, but I needed more stuff.
+
+60) Draw5PlayAll: Trade R1 B1 Draw5playall
+
+61) ajo: Sacrifice G3 Beta
+Build G1 Ajo
+Build G2 Delta
+Build G3 Beta
+
+62) Draw5PlayAll: Build R1 Draw5playall
+
+63) ajo: Sacrifice G3 Delta
+Build G3 Delta
+Build Y2 Ajo
+Build Y3 Growth
+
+64) Draw5PlayAll: Move Y2 Gamma Draw5playall
+	ajo: Yeah, I think you made it worse. :)
+
+65) ajo: Sacrifice B2 Delta
+Trade R3 Y3 Diversity
+Trade G1 B1 Beta
+
+66) Draw5PlayAll: Trade R1 G1 Draw5playall
+
+67) ajo: Move Y3 Diversity Greed
+
+	Draw5PlayAll: Like always, I stand no chance.
+	ajo: Good game!
