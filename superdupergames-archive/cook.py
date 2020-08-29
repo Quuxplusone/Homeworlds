@@ -47,6 +47,10 @@ def colorof(c):
 def shipof(s):
     return s.lower()
 
+def optionalshipof(s):
+    # Games 36791, 36795, 36800: one player starts with a handicap
+    return '' if s == '-' else shipof(s)
+
 def whereof(s):
     if s == HORRIBLE_UNICODE:
         return 'HorribleUnicode'
@@ -94,13 +98,14 @@ def reposition_moves(m):
 
 def setup_homeworld(who, name, a, b, c, _ = None):
     if (who == 0):
-        return '%s (0, %s%s) %s-' % (whereof(name), shipof(a), shipof(b), shipof(c))
+        return '%s (0, %s%s) %s-' % (whereof(name), shipof(a), optionalshipof(b), shipof(c))
     elif (who == 1):
-        return '%s (1, %s%s) -%s' % (whereof(name), shipof(a), shipof(b), shipof(c))
+        return '%s (1, %s%s) -%s' % (whereof(name), shipof(a), optionalshipof(b), shipof(c))
     else:
         assert False
 
 def expand_regex(rx):
+    rx = rx.replace('OPTIONALSHIP', r'([rygb][123]|-)[0-9.!$*bikn`]*')
     # Games 21986 (1), 23891 (k), 29902 (in), 27768 (`), 31476 (!), 33526 (b), 31476 (all digits, $, !), 31476 (.), 31557 (*)
     rx = rx.replace('SHIP', r'([rygb][123])[0-9.!$*bikn`]*')
     # Game 746 (/)
@@ -117,8 +122,8 @@ def expand_regex(rx):
 
 move_regexes = {
     expand_regex(rx): then for rx, then in {
-        r'^HOMEWORLD SHIP SHIP SHIP$': setup_homeworld,
-        r'^HOMEWORLD SHIP SHIP SHIP WHERE$': setup_homeworld,
+        r'^HOMEWORLD SHIP OPTIONALSHIP SHIP$': setup_homeworld,
+        r'^HOMEWORLD SHIP OPTIONALSHIP SHIP WHERE$': setup_homeworld,
         r'^a(?:ttack)? SHIP[ns]? WHERE$': lambda _1, _2, a, b: 'capture %s at %s' % (shipof(a), whereof(b)),
         r'^a(?:ttack)? SHIP WHERE (?:n(?:orth)?|s(?:outh)?)$': lambda _1, _2, a, b: 'capture %s at %s' % (shipof(a), whereof(b)),
         r'^a(?:ttack)? SHIP WHERE [(][ns][)]$': lambda _1, _2, a, b: 'capture %s at %s' % (shipof(a), whereof(b)),
