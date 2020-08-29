@@ -1,0 +1,8 @@
+Trydnt (0, b2y1) g3-
+Mneme (1, g3b3) -y3
+build g1 at Trydnt
+build y1 at Mneme
+convert g1 to y1 at Trydnt
+convert y3 to r3 at Mneme
+move y1 from Trydnt to G3 (g3)
+move r3 from Mneme to Trydnt

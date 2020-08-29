@@ -1,0 +1,25 @@
+Ajo (0, r2b3) g3-
+Mandrel (1, b1r2) -g3
+build g1 at Ajo
+build g1 at Mandrel
+convert g1 to b1 at Ajo
+convert g1 to b1 at Mandrel
+build b2 at Ajo
+build b2 at Mandrel
+convert b2 to y2 at Ajo
+convert b2 to y2 at Mandrel
+build b2 at Ajo
+build b2 at Mandrel
+move b2 from Ajo to Alpha (y1)
+convert b1 to r1 at Mandrel
+build g1 at Ajo
+build g1 at Mandrel
+build y1 at Ajo
+move b2 from Mandrel to Endings (g3)
+convert y2 to r2 at Ajo
+build r1 at Mandrel
+move r2 from Ajo to Alpha
+move r1 from Mandrel to Endings
+move g1 from Ajo to Alpha
+build r1 at Mandrel
+build r3 at Alpha

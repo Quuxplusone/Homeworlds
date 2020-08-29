@@ -1,0 +1,54 @@
+Twoshort (0, r1b2) g3-
+Zoltar (1, b3y2) -g3
+build g1 at Twoshort
+build g1 at Zoltar
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Zoltar
+build g1 at Twoshort
+build g1 at Zoltar
+move g1 from Twoshort to Yoyo (y3)
+move g1 from Zoltar to Bozo (b1)
+build y1 at Twoshort
+build y2 at Zoltar
+move y1 from Twoshort to Yodel (g3)
+move y2 from Zoltar to Pea (g1)
+sacrifice g3 at Twoshort; build y2 at Twoshort; build y3 at Yodel; build y3 at Twoshort
+build g2 at Zoltar
+convert y2 to r2 at Twoshort
+move y1 from Zoltar to Bozo
+move y3 from Yodel to Bozo
+convert g2 to r2 at Zoltar
+build y2 at Yodel
+build g2 at Zoltar
+sacrifice g1 at Yoyo; build y3 at Twoshort
+sacrifice y2 at Pea; move y1 from Bozo to Yodel; move y1 from Yodel to Twoshort; catastrophe yellow at Twoshort
+convert y3 to r3 at Bozo
+sacrifice g1 at Bozo; build r1 at Zoltar
+move y1 from Yodel to Bozo
+convert g2 to y2 at Zoltar
+convert r3 to g3 at Bozo
+build g1 at Zoltar
+sacrifice g3 at Bozo; build y1 at Bozo; build y1 at Yodel; build y3 at Yodel
+move y2 from Zoltar to Eggs (g1)
+sacrifice y2 at Yodel; move y3 from Yodel to Twoshort; move y1 from Yodel to Ham (g1)
+build g2 at Zoltar
+build y2 at Ham
+move g2 from Zoltar to Bozo
+sacrifice y2 at Ham; move y1 from Bozo to Zoltar; move y1 from Bozo to Zoltar
+sacrifice g3 at Zoltar; build g2 at Bozo; build g2 at Zoltar; build g3 at Zoltar
+move y1 from Ham to Zoltar
+move g1 from Zoltar to Ham (g1)
+convert y3 to g3 at Twoshort
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Bozo; build y2 at Eggs
+convert r2 to b2 at Twoshort; catastrophe yellow at Zoltar
+move y2 from Eggs to Samiam (b3)
+build b1 at Twoshort
+sacrifice g3 at Bozo; build g3 at Bozo; build r1 at Zoltar; build y1 at Samiam
+convert b2 to y2 at Twoshort
+convert r2 to b2 at Zoltar
+move b1 from Twoshort to Futility (y3)
+sacrifice g3 at Bozo; build g3 at Bozo; build r2 at Zoltar; build y1 at Eggs
+build y1 at Twoshort
+sacrifice y2 at Eggs; move y2 from Samiam to Twoshort; move y1 from Samiam to Twoshort; catastrophe yellow at Twoshort
+move b1 from Futility to Twoshort
+sacrifice g3 at Bozo; build g3 at Bozo; build y1 at Eggs; build y1 at Eggs

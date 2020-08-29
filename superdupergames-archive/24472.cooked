@@ -1,0 +1,44 @@
+Aristos (0, g3b2) y3-
+Silenttitan (1, b1r2) -g3
+build y1 at Aristos
+build g1 at Silenttitan
+convert y1 to g1 at Aristos
+convert g1 to y1 at Silenttitan
+move g1 from Aristos to Spark (y1)
+build g1 at Silenttitan
+build g1 at Spark
+move g1 from Silenttitan to Sol (y3)
+move g1 from Spark to Sol
+build g2 at Silenttitan
+build g2 at Spark
+move g2 from Silenttitan to Soul (g3)
+build y1 at Aristos
+build y2 at Silenttitan
+build g2 at Sol
+sacrifice g2 at Soul; build g2 at Sol; build g3 at Silenttitan; catastrophe green at Sol
+build y2 at Aristos
+convert g3 to r3 at Silenttitan
+convert y3 to r3 at Aristos
+move y1 from Silenttitan to Tic (g3)
+build g1 at Spark
+sacrifice g3 at Silenttitan; build y2 at Tic; build y3 at Silenttitan; build y3 at Silenttitan
+move y1 from Aristos to Pong (g1)
+move y3 from Silenttitan to Sol (y3)
+move g1 from Spark to Pop (b3)
+convert y2 to g2 at Silenttitan
+build y2 at Pong
+sacrifice y1 at Tic; move y3 from Sol to Tac (r1)
+build r1 at Aristos
+sacrifice g2 at Silenttitan; build y1 at Tac; build y3 at Silenttitan
+build g2 at Pop
+move r3 from Silenttitan to Pop
+sacrifice y2 at Pong; move g2 from Pop to Spark; move g2 from Spark to Tic
+sacrifice y2 at Tic; move r3 from Pop to Spark; move y1 from Tac to Toe (b2)
+build g2 at Tic
+capture g2 at Spark
+sacrifice g2 at Tic; build g2 at Spark; build g3 at Pop
+sacrifice g2 at Spark; build r1 at Spark; build y2 at Tac
+convert r1 to b1 at Aristos
+capture g2 at Spark
+build y2 at Pong
+move y3 from Silenttitan to Pop

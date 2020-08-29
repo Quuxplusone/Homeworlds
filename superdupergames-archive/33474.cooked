@@ -1,0 +1,23 @@
+Wil (0, b2y1) g3-
+Felix (1, b2r3) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to b1 at Wil
+convert g1 to y1 at Felix
+build b1 at Wil
+build y1 at Felix
+move b1 from Wil to Y3 (y3)
+build y2 at Felix
+sacrifice g3 at Wil; build b1 at Y3; build b2 at Y3; build b3 at Wil
+move y1 from Felix to Out (g1)
+move b2 from Y3 to Out
+sacrifice g3 at Felix; build y2 at Out; build y2 at Out; build y3 at Felix
+build b3 at Out
+convert y3 to g3 at Felix
+convert b3 to y3 at Out; catastrophe yellow at Out
+convert y2 to r2 at Felix
+convert b3 to g3 at Wil
+move r2 from Felix to Out
+sacrifice g3 at Wil; build b3 at Out; build b3 at Y3; build b3 at Wil
+move g3 from Felix to Out
+sacrifice b3 at Y3; convert b3 to g3 at Out; convert b2 to g2 at Out; convert b3 to g3 at Wil; catastrophe green at Out

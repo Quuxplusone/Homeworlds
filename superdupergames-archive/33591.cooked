@@ -1,0 +1,22 @@
+Schmoopy (0, b3y1) g3-
+Smokeytroll42 (1, b2r1) -g3
+build g1 at Schmoopy
+build g1 at Smokeytroll42
+convert g1 to y1 at Schmoopy
+convert g3 to y3 at Smokeytroll42
+build g1 at Schmoopy
+build g1 at Smokeytroll42
+build g2 at Schmoopy
+build g2 at Smokeytroll42
+move g2 from Schmoopy to Ding (b2)
+move g1 from Smokeytroll42 to Yaviniv (g3)
+move y1 from Schmoopy to Ding
+move g1 from Smokeytroll42 to Hoth (g3)
+build g2 at Ding
+build y1 at Smokeytroll42
+build y2 at Ding
+move y1 from Smokeytroll42 to Yaviniv
+move y2 from Ding to Dong (b3)
+build y2 at Smokeytroll42
+sacrifice g3 at Schmoopy; build g3 at Schmoopy; build y2 at Ding; build y3 at Dong
+build y3 at Yaviniv

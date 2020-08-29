@@ -1,0 +1,68 @@
+Agentofchaos (0, b1y2) g3-
+Zeder (1, r2g3) -b3
+build g1 at Agentofchaos
+build b1 at Zeder
+build g1 at Agentofchaos
+build b1 at Zeder
+move g1 from Agentofchaos to Xunzi (y3)
+convert b3 to g3 at Zeder
+convert g1 to y1 at Agentofchaos
+build b2 at Zeder
+build g1 at Agentofchaos
+convert b2 to y2 at Zeder
+convert g3 to b3 at Agentofchaos
+move b1 from Zeder to Flip (g1)
+build g2 at Xunzi
+build g2 at Zeder
+build g2 at Agentofchaos
+move g2 from Zeder to Flip
+convert g2 to y2 at Agentofchaos
+build b2 at Flip
+convert y1 to r1 at Agentofchaos
+build b2 at Flip
+move g1 from Xunzi to Flip
+convert g2 to r2 at Flip
+sacrifice g2 at Xunzi; build g2 at Flip; build g2 at Flip; catastrophe green at Flip
+build g1 at Zeder
+move g1 from Agentofchaos to Solvol (y3)
+convert g1 to y1 at Zeder
+convert b3 to g3 at Agentofchaos
+move y2 from Zeder to Cribbage (g1)
+build g1 at Agentofchaos
+move b1 from Zeder to Cribbage
+build g2 at Solvol
+convert y2 to g2 at Cribbage
+sacrifice g3 at Agentofchaos; build g2 at Agentofchaos; build g3 at Agentofchaos; build y1 at Agentofchaos
+build y1 at Zeder
+convert y1 to b1 at Agentofchaos
+build b2 at Cribbage
+sacrifice g3 at Agentofchaos; build b2 at Agentofchaos; build r1 at Agentofchaos; build g3 at Agentofchaos
+convert b2 to y2 at Cribbage
+sacrifice y2 at Agentofchaos; move g2 from Agentofchaos to Abysshome (y3); move b2 from Agentofchaos to Abysshome
+build b2 at Cribbage
+convert b2 to y2 at Abysshome
+sacrifice g2 at Cribbage; build y1 at Zeder; build y3 at Cribbage
+build g2 at Abysshome
+move b2 from Cribbage to Mahjong (r3)
+move b1 from Agentofchaos to Solvol
+build b2 at Cribbage
+move g2 from Abysshome to Gloam (r1)
+convert y3 to r3 at Cribbage
+move y2 from Abysshome to Gloam
+build y3 at Cribbage
+move g1 from Solvol to Gloam
+move r3 from Cribbage to Solvol
+sacrifice y2 at Gloam; move g1 from Gloam to Zeder; move g2 from Gloam to Zeder
+sacrifice b1 at Cribbage; convert g3 to r3 at Zeder
+sacrifice g2 at Solvol; build g2 at Zeder; build g3 at Abysshome; catastrophe green at Zeder
+build y2 at Cribbage
+sacrifice b1 at Solvol; convert g2 to b2 at Abysshome
+build b1 at Cribbage
+move r1 from Agentofchaos to Abysshome
+convert b2 to g2 at Cribbage
+build r1 at Abysshome
+sacrifice b2 at Mahjong; convert r3 to g3 at Zeder; convert y3 to r3 at Cribbage
+move r1 from Agentofchaos to Heartchasm (y3)
+sacrifice y2 at Cribbage; move g3 from Zeder to Solvol; move g3 from Solvol to Agentofchaos
+sacrifice r1 at Abysshome; capture g3 at Agentofchaos
+sacrifice y2 at Cribbage; move g2 from Cribbage to Solvol; move g2 from Solvol to Agentofchaos; catastrophe green at Agentofchaos

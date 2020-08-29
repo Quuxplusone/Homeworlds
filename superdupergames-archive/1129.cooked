@@ -1,0 +1,74 @@
+Jeep (0, g1b2) y3-
+Sketchwick (1, b3y1) -g3
+build y1 at Jeep
+build g1 at Sketchwick
+convert y1 to g1 at Jeep
+convert g1 to r1 at Sketchwick
+build g1 at Jeep
+build g2 at Sketchwick
+move g1 from Jeep to Submarine (y3)
+move r1 from Sketchwick to Sandwich (y2)
+build g2 at Jeep
+move r1 from Sandwich to Submarine
+move g1 from Submarine to Sandwich (y2)
+convert g2 to r2 at Sketchwick
+convert g2 to r2 at Jeep
+move r1 from Submarine to Sandwich
+sacrifice g1 at Sandwich; build y1 at Jeep
+build r1 at Sketchwick
+move r2 from Jeep to Spread (b3)
+move g3 from Sketchwick to Sandwich
+build y1 at Jeep
+move g3 from Sandwich to Spread
+sacrifice y1 at Jeep; move r2 from Spread to Sandwich
+move r1 from Sandwich to Spread
+convert y1 to r1 at Jeep
+convert r1 to g1 at Sketchwick
+build g2 at Jeep
+build g2 at Spread
+convert g2 to y2 at Jeep
+convert g2 to y2 at Spread
+move y2 from Jeep to Eagle (g3)
+build g2 at Spread
+build y1 at Eagle
+build g2 at Sketchwick
+move y2 from Eagle to Jeep
+move g2 from Sketchwick to Rock (r2)
+move g1 from Jeep to Solid (g3)
+build g2 at Rock
+move r2 from Sandwich to Eagle
+sacrifice g3 at Spread; build g3 at Spread; build r1 at Sketchwick; build r3 at Spread
+build r3 at Eagle
+convert r1 to b1 at Sketchwick
+move r3 from Eagle to Rock
+move r1 from Spread to Rock
+sacrifice r2 at Eagle; capture g2 at Rock; capture g2 at Rock
+move r3 from Spread to Rock; catastrophe red at Rock
+convert y2 to g2 at Jeep
+sacrifice g3 at Spread; build g2 at Spread; build g3 at Sketchwick; build r1 at Sketchwick
+move g2 from Jeep to Gold (y3)
+move r2 from Sketchwick to Dancer (y2)
+build y1 at Jeep
+move r2 from Dancer to Solid
+sacrifice g1 at Solid; build g1 at Gold
+build y2 at Spread
+convert y1 to b1 at Jeep
+sacrifice g3 at Sketchwick; build g3 at Sketchwick; build y1 at Spread; build r1 at Solid
+sacrifice g2 at Gold; build y2 at Jeep; build y3 at Eagle
+move y2 from Spread to Jeep
+convert y2 to r2 at Jeep
+sacrifice r2 at Solid; capture r1 at Jeep; capture r2 at Jeep
+sacrifice b1 at Jeep; convert y3 to r3 at Eagle
+sacrifice y2 at Jeep; move r2 from Jeep to Spread; move r1 from Jeep to Nugget (b3)
+build g2 at Gold
+build r2 at Solid
+build y2 at Jeep
+sacrifice g3 at Sketchwick; build r2 at Sketchwick; build r3 at Nugget; build r3 at Spread
+sacrifice y2 at Jeep; move r3 from Eagle to Temp (y2); move r3 from Temp to Sketchwick
+move r3 from Spread to Jeep
+sacrifice r3 at Sketchwick; capture r3 at Jeep
+sacrifice g2 at Spread; build g2 at Sketchwick; build g3 at Spread
+move g2 from Gold to Meats (y2)
+convert r3 to y3 at Nugget
+sacrifice y3 at Jeep; move g1 from Gold to Meats; move g1 from Meats to Spread; move g2 from Meats to Spread; catastrophe green at Spread
+sacrifice y3 at Nugget; move r1 from Nugget to Jeep; move r1 from Solid to Jeep; move r2 from Solid to Jeep; catastrophe red at Jeep

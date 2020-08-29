@@ -1,0 +1,25 @@
+Layana (0, b2) g3-
+Abraxas (1, r3b2) -g3
+build g1 at Layana
+build g1 at Abraxas
+convert g1 to y1 at Layana
+convert g1 to y1 at Abraxas
+build g1 at Layana
+build g1 at Abraxas
+convert g1 to b1 at Layana
+build g1 at Abraxas
+build b1 at Layana
+convert g1 to r1 at Abraxas
+build g1 at Layana
+move r1 from Abraxas to Uria (r1)
+convert b1 to r1 at Layana
+convert g1 to b1 at Abraxas
+build g1 at Layana
+build g1 at Abraxas
+build r2 at Layana
+build g2 at Abraxas
+convert r2 to y2 at Layana
+convert g2 to y2 at Abraxas
+move b1 from Layana to Yinsh (g3)
+build g2 at Abraxas
+sacrifice y2 at Layana; move g1 from Layana to Uria; move g1 from Uria to Abraxas; catastrophe green at Abraxas

@@ -1,0 +1,74 @@
+Felix (0, y1b3) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Felix
+build g1 at Draw5Playall
+convert g1 to y1 at Felix
+convert g1 to y1 at Draw5Playall
+build y2 at Felix
+build y2 at Draw5Playall
+move y1 from Felix to Conk (g2)
+move y1 from Draw5Playall to Goodidea (g2)
+build g1 at Felix
+build g1 at Draw5Playall
+convert g1 to r1 at Felix
+convert g1 to r1 at Draw5Playall
+build r2 at Felix
+build y2 at Draw5Playall
+build y3 at Conk
+build y3 at Goodidea
+move y2 from Felix to Plink (g2)
+convert y2 to b2 at Draw5Playall
+convert r1 to b1 at Felix
+move b2 from Draw5Playall to Goodidea
+move b1 from Felix to Conk
+build b1 at Goodidea
+build r1 at Felix
+move r1 from Draw5Playall to Goodidea
+move r1 from Felix to Conk
+build r2 at Goodidea
+build r2 at Conk
+move r2 from Goodidea to Seed (g1)
+build r3 at Felix
+build r3 at Goodidea
+move r2 from Felix to Plink
+build r3 at Seed
+build b1 at Conk
+move b1 from Goodidea to Seed
+move b1 from Conk to Injection (g1)
+build b2 at Seed
+build b2 at Injection
+build b3 at Goodidea
+move r2 from Conk to Draw5Playall
+move r3 from Goodidea to Injection
+sacrifice y3 at Conk; move r2 from Plink to Draw5Playall; move b2 from Injection to Conk; move b1 from Injection to Plink
+sacrifice y2 at Draw5Playall; move r3 from Seed to Plink; move r3 from Injection to Conk
+sacrifice y2 at Plink; move b2 from Conk to Draw5Playall; move r1 from Conk to Draw5Playall; catastrophe red at Draw5Playall
+sacrifice r2 at Seed; capture b1 at Conk; capture b1 at Plink
+move y1 from Conk to Outpost (g1)
+sacrifice r1 at Goodidea; capture b2 at Draw5Playall
+build y2 at Outpost
+move y3 from Goodidea to Seed
+move y1 from Outpost to Grinch (g3)
+build g1 at Draw5Playall
+move y1 from Grinch to Seed
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build r1 at Conk; build r1 at Plink
+build g3 at Felix
+sacrifice r1 at Conk; capture y1 at Seed
+build y2 at Outpost
+sacrifice g3 at Draw5Playall; build r1 at Conk; build y2 at Goodidea; build g3 at Draw5Playall
+move y2 from Outpost to Inpost (r2)
+sacrifice y1 at Goodidea; move y1 from Seed to Plink
+sacrifice g3 at Felix; build y1 at Inpost; build y3 at Inpost; build y3 at Outpost
+sacrifice y2 at Goodidea; move y1 from Plink to Seed; move y1 from Seed to Inpost; catastrophe yellow at Inpost
+build g3 at Felix
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y1 at Seed; build y1 at Seed
+move y2 from Outpost to Uppit (r2)
+convert y1 to r1 at Seed
+build y1 at Outpost
+move y1 from Seed to Goodidea
+move y1 from Outpost to Stalfort (r2)
+move r1 from Seed to Holding (y3)
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Outpost; build y2 at Stalfort
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build r2 at Holding
+move r3 from Felix to Stalfort
+sacrifice y3 at Seed; move r1 from Holding to Stalfort; move r2 from Holding to Stalfort; move r3 from Conk to Felix; catastrophe red at Stalfort

@@ -1,0 +1,14 @@
+Slyfordtrabbit (0, g2y1) b3-
+Snow (1, g3y2) -b3
+build b1 at Slyfordtrabbit
+build b1 at Snow
+convert b1 to g1 at Slyfordtrabbit
+move b1 from Snow to Tf (g1)
+build b1 at Slyfordtrabbit
+convert b1 to y1 at Tf
+convert b1 to y1 at Slyfordtrabbit
+build b1 at Snow
+build y2 at Slyfordtrabbit
+convert b1 to r1 at Snow
+move y1 from Slyfordtrabbit to Flotsam (g3)
+move r1 from Snow to Tf

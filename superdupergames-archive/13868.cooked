@@ -1,0 +1,37 @@
+Werebear (0, b3y2) g3-
+Agentofchaos (1, b3r1) -g3
+build g1 at Werebear
+build g1 at Agentofchaos
+move g1 from Werebear to Pergi (y1)
+convert g1 to y1 at Agentofchaos
+build g1 at Werebear
+build g1 at Agentofchaos
+move g1 from Pergi to Mengubah (b3)
+build g2 at Agentofchaos
+sacrifice g3 at Werebear; build g2 at Mengubah; build g2 at Mengubah; build g3 at Werebear
+sacrifice g3 at Agentofchaos; build y1 at Agentofchaos; build y1 at Agentofchaos; build g3 at Agentofchaos
+build g3 at Werebear
+move g2 from Agentofchaos to Dhamballa (y2)
+move g3 from Werebear to Alkimia (b1)
+convert y1 to b1 at Agentofchaos
+convert g2 to y2 at Mengubah
+build b1 at Agentofchaos
+build g2 at Alkimia
+move b1 from Agentofchaos to Dhamballa
+sacrifice g3 at Alkimia; build g3 at Alkimia; build y1 at Mengubah; build y3 at Mengubah
+sacrifice g3 at Agentofchaos; build g3 at Agentofchaos; build b2 at Dhamballa; build b2 at Dhamballa
+move y2 from Mengubah to Berbeda (b2)
+move b1 from Dhamballa to Mengubah
+sacrifice g3 at Alkimia; build g3 at Alkimia; build y3 at Mengubah; build y3 at Berbeda
+move b2 from Dhamballa to Mengubah
+sacrifice y3 at Mengubah; move g2 from Mengubah to Pintu (r2); move y3 from Mengubah to Dhamballa; move y1 from Mengubah to Pintu
+sacrifice y1 at Agentofchaos; move b1 from Mengubah to Alkimia
+sacrifice y3 at Berbeda; move g1 from Mengubah to Pintu; move g1 from Pintu to Agentofchaos; move g2 from Pintu to Agentofchaos; catastrophe green at Agentofchaos
+convert b2 to g2 at Mengubah
+sacrifice y2 at Berbeda; move g3 from Alkimia to Berbeda (b2); move y3 from Dhamballa to Agentofchaos
+sacrifice g2 at Mengubah; build y1 at Agentofchaos; build y2 at Agentofchaos
+convert y3 to r3 at Agentofchaos
+convert y1 to g1 at Agentofchaos
+capture g1 at Agentofchaos
+convert y1 to g1 at Agentofchaos
+convert g3 to r3 at Berbeda

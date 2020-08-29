@@ -1,0 +1,54 @@
+Scottobear (0, y3b2) g3-
+Madwuher (1, g1b3) -y3
+build g1 at Scottobear
+build y1 at Madwuher
+convert g1 to b1 at Scottobear
+convert y1 to g1 at Madwuher
+build b1 at Scottobear
+build y1 at Madwuher
+move b1 from Scottobear to Eye (g1)
+build g2 at Madwuher
+build g2 at Scottobear
+move g2 from Madwuher to Dagger (y2)
+build b1 at Eye
+build y1 at Madwuher
+build b2 at Eye
+convert y3 to b3 at Madwuher
+convert b2 to g2 at Eye
+build b2 at Madwuher
+convert g2 to r2 at Eye
+convert y1 to r1 at Madwuher
+convert g3 to y3 at Scottobear
+move b3 from Madwuher to Dagger
+convert b1 to y1 at Eye
+build g2 at Dagger
+move r2 from Eye to Dagger
+sacrifice r1 at Madwuher; capture r2 at Dagger
+build g3 at Scottobear
+convert g2 to r2 at Dagger
+convert g3 to r3 at Scottobear
+build g2 at Madwuher
+build g3 at Scottobear
+build g3 at Dagger
+move r3 from Scottobear to Eye
+convert g2 to y2 at Madwuher
+build r1 at Eye
+sacrifice y2 at Madwuher; move g3 from Dagger to Madwuher; move g1 from Madwuher to Dagger
+convert g3 to r3 at Scottobear
+move g1 from Dagger to Axe (y1)
+build y2 at Eye
+build g2 at Axe
+move r3 from Scottobear to Axe
+sacrifice g3 at Madwuher; build y2 at Madwuher; build y3 at Madwuher; build g3 at Dagger
+capture g2 at Axe
+sacrifice g3 at Dagger; build g3 at Dagger; build g3 at Axe; build g3 at Axe
+build b1 at Scottobear; catastrophe green at Axe
+sacrifice y2 at Madwuher; move b3 from Dagger to Boomtime (r1); move b3 from Boomtime to Scottobear; catastrophe blue at Scottobear
+move r3 from Axe to Scottobear
+move y1 from Madwuher to Axe (g2)
+move r3 from Eye to Scottobear
+sacrifice g2 at Dagger; build y1 at Axe; build y2 at Madwuher
+move r3 from Scottobear to Dagger
+sacrifice r2 at Dagger; capture r3 at Dagger
+build b1 at Eye
+sacrifice y2 at Madwuher; move y1 from Axe to Scottobear; move y1 from Axe to Scottobear; catastrophe yellow at Scottobear

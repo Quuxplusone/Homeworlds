@@ -1,0 +1,15 @@
+Preacher (0, b2y1) g3-
+Gamebrain42 (1, y3g1) -b3
+build g1 at Preacher
+build b1 at Gamebrain42
+build g1 at Preacher
+move b1 from Gamebrain42 to Alderaan (g2)
+convert g3 to r3 at Preacher
+build b1 at Alderaan
+build g2 at Preacher
+build b1 at Gamebrain42
+convert g2 to b2 at Preacher
+build b2 at Alderaan
+build b3 at Preacher
+convert b1 to y1 at Alderaan
+convert b3 to y3 at Preacher

@@ -1,0 +1,88 @@
+Ts52 (0, y3b2) g3-
+Simon (1, b3r1) -g3
+build g1 at Ts52
+build g1 at Simon
+convert g1 to b1 at Ts52
+convert g1 to y1 at Simon
+build b1 at Ts52
+build g1 at Simon
+move b1 from Ts52 to Robin (g1)
+move g1 from Simon to Sea (b2)
+build b1 at Robin
+build g1 at Sea
+build b2 at Ts52
+build g2 at Simon
+build b3 at Robin
+sacrifice g3 at Simon; build g2 at Simon; build g2 at Simon; build g3 at Sea
+build g3 at Ts52
+convert g3 to y3 at Sea
+convert b3 to y3 at Robin
+sacrifice g2 at Simon; build g2 at Sea; build g3 at Simon
+sacrifice g3 at Ts52; build g3 at Ts52; build b3 at Robin; build y1 at Robin
+convert g2 to r2 at Simon
+move b3 from Robin to Oscar (g2)
+move g1 from Sea to Snatch (b3)
+move g3 from Ts52 to Elmo (r1)
+sacrifice g3 at Simon; build g3 at Simon; build y1 at Simon; build y2 at Sea
+convert b2 to r2 at Ts52
+sacrifice y2 at Sea; move g2 from Simon to Melon (y2); move r2 from Simon to Melon
+move y1 from Robin to Oscar
+sacrifice g2 at Sea; build g2 at Simon; build y2 at Sea
+build y2 at Oscar
+convert y2 to b2 at Sea
+build y2 at Robin
+convert y1 to r1 at Simon
+convert b3 to r3 at Oscar
+sacrifice g3 at Simon; build g3 at Simon; build r2 at Melon; build r3 at Melon
+sacrifice g3 at Ts52; build g3 at Elmo; build b3 at Robin; build r3 at Ts52
+move b2 from Sea to Robin; catastrophe blue at Robin
+move y2 from Oscar to Elmo
+move r2 from Melon to Snatch
+move g3 from Elmo to Snatch
+sacrifice y1 at Simon; move r2 from Snatch to Sea
+sacrifice g3 at Snatch; build g3 at Elmo; build y1 at Elmo; build y1 at Oscar
+convert g1 to b1 at Sea
+move g3 from Elmo to Gonzo (b2)
+move b1 from Sea to Nan (g1)
+move b1 from Ts52 to Robin
+sacrifice g3 at Simon; build g3 at Simon; build b1 at Nan; build b3 at Nan
+move g3 from Elmo to Gonzo
+move r3 from Melon to Elmo
+sacrifice y3 at Robin; move g3 from Gonzo to Simon; move g3 from Gonzo to Simon; move r2 from Ts52 to Robin; catastrophe green at Simon
+move y3 from Sea to Simon
+build y3 at Robin
+capture y2 at Elmo
+move y3 from Robin to Melon
+move r2 from Melon to Nan
+move r2 from Robin to Melon
+sacrifice r2 at Sea; capture r2 at Melon; capture y1 at Elmo
+build r2 at Oscar
+move r2 from Melon to Nan
+convert r3 to g3 at Ts52
+move g2 from Melon to Elmo
+move r3 from Oscar to Robin
+build g2 at Elmo
+move y2 from Robin to Grover (b2)
+convert b3 to g3 at Nan
+sacrifice y1 at Oscar; move r3 from Robin to Ts52
+convert b1 to y1 at Nan
+build r3 at Oscar
+sacrifice g2 at Elmo; build g2 at Snatch; build g3 at Snatch
+move y3 from Melon to Robin
+sacrifice g3 at Snatch; build g3 at Snatch; build y2 at Nan; build b1 at Nan
+sacrifice y2 at Grover; move r2 from Oscar to Elmo; move r3 from Oscar to Elmo; catastrophe red at Elmo
+convert g2 to y2 at Snatch
+build y1 at Robin
+build y2 at Snatch
+build b2 at Robin
+move y2 from Snatch to Robin
+convert y3 to r3 at Robin
+move y2 from Robin to Ts52
+capture y2 at Ts52
+sacrifice y2 at Snatch; move y1 from Nan to Ts52; move y2 from Nan to Ts52; catastrophe yellow at Ts52
+move b1 from Robin to Oscar
+convert g3 to y3 at Nan
+build b2 at Robin
+convert y3 to b3 at Simon
+build g2 at Ts52
+sacrifice y3 at Nan; move b1 from Nan to Ts52; move b1 from Nan to Ts52; move b3 from Simon to Ts52; catastrophe blue at Ts52

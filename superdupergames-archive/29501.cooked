@@ -1,0 +1,72 @@
+Felix (0, r1b2) g3-
+Ts52 (1, b2y3) -g3
+build g1 at Felix
+build g1 at Ts52
+convert g1 to y1 at Felix
+convert g1 to b1 at Ts52
+build y1 at Felix
+move b1 from Ts52 to Kermit (g1)
+build y1 at Felix
+build b1 at Kermit
+move y1 from Felix to Gorm (g3)
+build g1 at Ts52
+build y2 at Felix
+move g1 from Ts52 to Gonzo (b1)
+build y2 at Gorm
+build b2 at Kermit
+move y1 from Felix to Fritz (b3)
+convert b2 to y2 at Kermit
+build y3 at Felix
+build y3 at Kermit
+sacrifice y2 at Felix; move y1 from Gorm to Kermit; move y1 from Fritz to Kermit; catastrophe yellow at Kermit
+build b2 at Kermit
+convert y3 to b3 at Felix
+convert b2 to y2 at Kermit
+move b3 from Felix to Gorm
+build y1 at Kermit
+build b2 at Gorm
+move b1 from Kermit to Oscar (g2)
+move b2 from Gorm to Issol (g1)
+build b3 at Kermit
+build b3 at Issol
+convert b3 to r3 at Kermit
+convert b2 to r2 at Issol
+build g2 at Ts52
+build g2 at Felix
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Kermit; build b3 at Oscar
+move b3 from Gorm to Opus (y1)
+move y2 from Kermit to Oscar
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Felix; build y3 at Gorm
+sacrifice g3 at Ts52; build g3 at Ts52; build y3 at Oscar; build r1 at Kermit
+move b3 from Opus to Gorm
+move y3 from Oscar to Elmo (r3)
+sacrifice y2 at Felix; move y3 from Gorm to Kermit; move b3 from Gorm to Kermit
+move r3 from Kermit to Gorm
+convert b3 to r3 at Kermit
+build b3 at Oscar
+sacrifice y2 at Gorm; move b3 from Issol to Oscar; catastrophe blue at Oscar
+move b2 from Kermit to Oscar
+sacrifice r2 at Issol; capture r1 at Kermit; capture b1 at Kermit
+move y1 from Kermit to Gorm
+move r3 from Kermit to Oscar
+sacrifice y2 at Oscar; move b2 from Oscar to Gorm; move g1 from Gonzo to Elmo
+convert r1 to g1 at Kermit
+convert g2 to r2 at Ts52
+move g1 from Kermit to Opus (b3)
+build g2 at Ts52
+sacrifice g3 at Felix; build g3 at Felix; build b1 at Kermit; build y1 at Kermit
+sacrifice g3 at Ts52; build y2 at Elmo; build y2 at Gorm; build g3 at Ts52
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Felix; build r1 at Oscar
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Gorm; build r2 at Ts52
+move b1 from Kermit to Chuckle (b3)
+sacrifice y2 at Gorm; move r2 from Ts52 to Kermit; move r2 from Kermit to Opus
+sacrifice g3 at Felix; build g3 at Felix; build b1 at Chuckle; build b3 at Kermit
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Gorm; build r2 at Opus
+sacrifice y1 at Kermit; move b1 from Chuckle to Esper (y1)
+capture g1 at Opus
+move b1 from Kermit to Ts52
+sacrifice y2 at Elmo; move r1 from Gorm to Oscar; move r2 from Opus to Oscar; catastrophe red at Oscar
+build y2 at Kermit
+sacrifice y2 at Gorm; move r3 from Gorm to Felix; move y3 from Elmo to Felix
+sacrifice y3 at Kermit; move b3 from Kermit to Ts52; move b1 from Esper to Ts52; move y2 from Kermit to Ts52; catastrophe blue at Ts52
+sacrifice r3 at Felix; capture g3 at Felix; capture g2 at Felix; capture y2 at Felix

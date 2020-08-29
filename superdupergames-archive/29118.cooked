@@ -1,0 +1,62 @@
+Simon (0, r1b3) g3-
+Endo (1, b1y2) -g3
+build g1 at Simon
+build g1 at Endo
+convert g1 to y1 at Simon
+convert g1 to y1 at Endo
+build g1 at Simon
+build g1 at Endo
+move g1 from Simon to B2 (b2)
+convert g1 to b1 at Endo
+build g1 at B2
+build b1 at Endo
+build g1 at Simon
+move b1 from Endo to Sheaf (y3)
+build g2 at B2
+sacrifice g3 at Endo; build b2 at Sheaf; build b2 at Sheaf; build b3 at Endo
+convert g2 to r2 at B2
+convert b3 to g3 at Endo
+sacrifice y1 at Simon; move r2 from B2 to Sheaf
+build b3 at Endo
+build g2 at B2
+convert b3 to r3 at Endo
+convert g2 to y2 at B2
+build b3 at Endo
+move g1 from B2 to B3 (b3)
+build r1 at Endo
+capture b2 at Sheaf
+sacrifice r3 at Endo; capture b2 at Sheaf; capture r2 at Sheaf
+build g2 at B3
+move r2 from Sheaf to B2
+build g2 at B2
+capture g2 at B2
+sacrifice g3 at Simon; build g2 at B3; build g3 at Simon; build g3 at B2
+capture y2 at B2
+convert g1 to r1 at B2
+capture r1 at B2
+convert g2 to r2 at B3
+sacrifice g3 at Endo; build g1 at B2; build g2 at B2; build r2 at B2; catastrophe green at B2
+build r3 at B3
+sacrifice y2 at B2; move r1 from B2 to B3; move r2 from B2 to B3; catastrophe red at B3
+convert g2 to r2 at B3
+convert b3 to g3 at Endo
+convert g3 to b3 at Simon
+build r1 at Endo
+build g1 at B3
+build g2 at Endo
+build g2 at Simon
+move g2 from Endo to Stalk (g3)
+convert g2 to y2 at Simon
+build g2 at Endo
+build g2 at Simon
+sacrifice g3 at Endo; build g3 at Endo; build g3 at Stalk; build y1 at Endo
+build y1 at Simon
+sacrifice y1 at Endo; move g3 from Stalk to B2
+build r2 at B3
+sacrifice g3 at Endo; build r3 at Endo; build r3 at B2; build r3 at B2
+build g3 at Simon
+sacrifice g2 at Stalk; build g2 at B2; build g3 at Endo
+move g2 from Simon to Y2 (y2)
+sacrifice b2 at Sheaf; convert r3 to y3 at Endo; convert r3 to y3 at B2
+move b3 from Simon to Y2
+sacrifice y3 at Endo; move g2 from B2 to Simon; move g3 from B2 to Simon; move y3 from B2 to Simon; catastrophe green at Simon

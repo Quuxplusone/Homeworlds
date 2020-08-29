@@ -1,0 +1,38 @@
+Molnar (0, y3b1) g3-
+Joe (1, b1g2) -y3
+build g1 at Molnar
+build y1 at Joe
+convert g1 to r1 at Molnar
+build y1 at Joe
+build g1 at Molnar
+convert y1 to g1 at Joe
+move g1 from Molnar to Xxx (y2)
+build g1 at Joe
+build g2 at Molnar
+convert g1 to b1 at Joe
+move r1 from Molnar to Xxx
+move g1 from Joe to Bob (y3)
+move g2 from Molnar to Xxx
+convert y3 to r3 at Joe
+move g1 from Xxx to Molnar
+build r1 at Joe
+convert g3 to b3 at Molnar
+move b1 from Joe to Bob
+build b2 at Molnar
+build y1 at Joe
+move b3 from Molnar to Xxx
+build b2 at Bob
+convert b2 to r2 at Molnar
+convert b2 to r2 at Bob
+build b2 at Xxx
+move r1 from Joe to Bob
+convert b3 to r3 at Xxx
+build r1 at Joe
+build b2 at Xxx
+build g1 at Bob
+convert b2 to y2 at Xxx
+move r3 from Joe to Bob
+move r1 from Xxx to Bob; catastrophe red at Bob
+move g1 from Bob to Joe
+move r3 from Xxx to Bob
+build g2 at Joe

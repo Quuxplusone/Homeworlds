@@ -1,0 +1,44 @@
+Stormcrow (0, r3b2) g3-
+Babamots (1, y2b1) -g3
+build g1 at Stormcrow
+build g1 at Babamots
+convert g1 to y1 at Stormcrow
+convert g1 to y1 at Babamots
+build g1 at Stormcrow
+build g1 at Babamots
+move g1 from Stormcrow to Zork (y1)
+build y2 at Babamots
+build y2 at Stormcrow
+move y1 from Babamots to Risa (g3)
+build g1 at Zork
+sacrifice g3 at Babamots; build y3 at Babamots; build y3 at Risa; build g2 at Babamots
+move g1 from Zork to Xyzzy (y3)
+convert y3 to r3 at Babamots
+convert y1 to r1 at Stormcrow
+move r3 from Babamots to Xyzzy
+move g1 from Xyzzy to Babamots
+sacrifice g2 at Babamots; build y1 at Risa; build y3 at Babamots
+build g2 at Stormcrow
+convert y2 to r2 at Babamots
+build y2 at Stormcrow
+move y1 from Risa to Bolarus (b1)
+build g2 at Zork
+capture g1 at Babamots
+convert g2 to b2 at Stormcrow
+convert g1 to b1 at Babamots
+move r1 from Stormcrow to Polaris (g1)
+move r3 from Xyzzy to Zork
+sacrifice g2 at Zork; build r1 at Polaris; build g2 at Stormcrow
+capture g1 at Zork
+move g2 from Stormcrow to Bolarus
+sacrifice g1 at Babamots; build y3 at Bolarus
+sacrifice r1 at Polaris; capture y1 at Bolarus
+sacrifice r2 at Babamots; capture y1 at Bolarus; capture g2 at Bolarus
+build r1 at Polaris
+convert y3 to r3 at Bolarus
+move y2 from Stormcrow to Polaris
+build y3 at Bolarus
+move b2 from Stormcrow to Polaris
+sacrifice y3 at Risa; move y3 from Bolarus to Stormcrow; move r3 from Bolarus to Stormcrow
+capture r3 at Stormcrow
+sacrifice r3 at Zork; capture r3 at Stormcrow; capture g3 at Stormcrow; capture y2 at Stormcrow

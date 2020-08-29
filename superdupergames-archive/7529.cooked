@@ -1,0 +1,27 @@
+Twoshort (0, r1b2) g3-
+Mikeyarrum (1, y1b3) -g3
+build g1 at Twoshort
+build g1 at Mikeyarrum
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Mikeyarrum
+build y2 at Twoshort
+build y2 at Mikeyarrum
+move y1 from Twoshort to Grogar (g3)
+move y1 from Mikeyarrum to Kaorin (y2)
+build y3 at Grogar
+build g1 at Mikeyarrum
+build y3 at Twoshort
+move y2 from Mikeyarrum to Yomi (g2)
+move y2 from Twoshort to Niroak (y3)
+convert g1 to r1 at Mikeyarrum
+build g1 at Twoshort
+build g1 at Mikeyarrum
+move g1 from Twoshort to Niroak
+convert g1 to b1 at Mikeyarrum
+move y2 from Niroak to Bluonia (b2)
+build g1 at Mikeyarrum
+sacrifice g1 at Niroak; build y3 at Bluonia
+move g1 from Mikeyarrum to Chihiro (b2)
+convert y2 to r2 at Bluonia
+build y2 at Yomi
+convert y3 to r3 at Bluonia

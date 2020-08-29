@@ -1,0 +1,33 @@
+Wil (0, b2r1) g3-
+Trydnt (1, b3y2) -g3
+build g1 at Wil
+build g1 at Trydnt
+convert g1 to r1 at Wil
+convert g1 to r1 at Trydnt
+build r2 at Wil
+build r2 at Trydnt
+convert r1 to y1 at Wil
+move r2 from Trydnt to G1 (g1)
+build y1 at Wil
+build r1 at Trydnt
+build y1 at Wil
+convert r1 to b1 at Trydnt
+move y1 from Wil to Our (g3)
+move b1 from Trydnt to G1
+sacrifice g3 at Wil; build y2 at Our; build y2 at Our; build y3 at Wil
+build b1 at G1
+move y1 from Our to Fathers (g1)
+build g1 at Trydnt
+build y3 at Fathers
+build g2 at Trydnt
+build y3 at Our
+move g1 from Trydnt to Fathers
+move y3 from Our to G1
+sacrifice g3 at Trydnt; build g2 at Fathers; build g2 at Fathers; build g3 at Trydnt; catastrophe green at Fathers
+build y1 at G1
+convert r2 to g2 at G1
+build y3 at Our
+build g1 at G1
+move y1 from G1 to Continent (g3)
+build g1 at G1; catastrophe green at G1
+build y3 at Continent

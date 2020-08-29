@@ -1,0 +1,28 @@
+Bloodrumpus (0, b2r1) g3-
+Silenttitan (1, r3b2) -g3
+build g1 at Bloodrumpus
+build g1 at Silenttitan
+convert g1 to y1 at Bloodrumpus
+convert g1 to y1 at Silenttitan
+build g1 at Bloodrumpus
+build g1 at Silenttitan
+convert y1 to b1 at Bloodrumpus
+build y1 at Silenttitan
+build b1 at Bloodrumpus
+move g1 from Silenttitan to Sol (y1)
+convert g3 to y3 at Bloodrumpus
+build g1 at Sol
+build g2 at Bloodrumpus
+move g1 from Sol to Sole (y3)
+move b1 from Bloodrumpus to Regulus (g3)
+build g2 at Silenttitan
+build b1 at Regulus
+build g2 at Sole
+build b2 at Regulus
+convert g3 to b3 at Silenttitan
+convert g1 to r1 at Bloodrumpus
+move b3 from Silenttitan to Slick (g1)
+sacrifice y3 at Bloodrumpus; move b1 from Regulus to Slick; move b1 from Regulus to Slick; move b2 from Regulus to Slick; catastrophe blue at Slick
+move y1 from Silenttitan to Sloop (b1)
+convert g2 to y2 at Bloodrumpus
+sacrifice g2 at Sole; build y2 at Silenttitan; build y2 at Sloop

@@ -1,0 +1,35 @@
+Wil (0, b2r1) g3-
+Onepagewars (1, b1r2) -g3
+build g1 at Wil
+build g1 at Onepagewars
+convert g1 to y1 at Wil
+convert g1 to y1 at Onepagewars
+build g1 at Wil
+build g1 at Onepagewars
+convert g1 to r1 at Wil
+convert g1 to b1 at Onepagewars
+build g1 at Wil
+build g1 at Onepagewars
+build r1 at Wil
+build b1 at Onepagewars
+move r1 from Wil to G3 (g3)
+move b1 from Onepagewars to Ilikesdg (r3)
+build r2 at Wil
+build b2 at Onepagewars
+move r2 from Wil to Ilikesdg
+build y1 at Onepagewars
+capture b1 at Ilikesdg
+convert b2 to r2 at Onepagewars
+sacrifice g3 at Wil; build r3 at Wil; build r3 at G3; build y2 at Wil
+build y2 at Onepagewars
+sacrifice y2 at Wil; move r1 from G3 to Onepagewars; move r2 from Ilikesdg to Onepagewars; catastrophe red at Onepagewars
+convert y2 to r2 at Onepagewars
+convert r3 to g3 at Wil
+build y2 at Onepagewars
+build y2 at Wil
+build r1 at Onepagewars
+move y2 from Wil to Ilikesdg
+move y1 from Onepagewars to Ireallylikesdg (g2)
+sacrifice g3 at Wil; build y2 at Ilikesdg; build y3 at Wil; build b2 at Ilikesdg
+build y3 at Ireallylikesdg
+sacrifice y2 at Ilikesdg; move b1 from Ilikesdg to Onepagewars; move b2 from Ilikesdg to Onepagewars; catastrophe blue at Onepagewars

@@ -1,0 +1,93 @@
+Dlwillson (0, b3r2) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Dlwillson
+build g1 at Draw5Playall
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Draw5Playall
+build g1 at Dlwillson
+build g1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+convert g1 to r1 at Draw5Playall
+build r2 at Dlwillson
+build r2 at Draw5Playall
+move r1 from Dlwillson to Sea (b1)
+move r1 from Draw5Playall to G2 (g2)
+sacrifice g3 at Dlwillson; build r3 at Sea; build r3 at Sea; build r3 at Dlwillson
+sacrifice y1 at Draw5Playall; move r1 from G2 to Sea; catastrophe red at Sea
+convert r3 to g3 at Dlwillson
+build g1 at Draw5Playall
+build y1 at Dlwillson
+convert g1 to y1 at Draw5Playall
+build y2 at Dlwillson
+build y2 at Draw5Playall
+move y1 from Dlwillson to Sea (b1)
+move y1 from Draw5Playall to G2 (g2)
+move y1 from Dlwillson to Field (g1)
+move r2 from Draw5Playall to G2
+move r2 from Dlwillson to Field
+build r1 at G2
+move r2 from Field to Solar (y3)
+sacrifice g3 at Draw5Playall; build y2 at G2; build y3 at Draw5Playall
+build y3 at Field
+move r1 from G2 to Sea
+move y1 from Sea to Forest (g2)
+convert y2 to g2 at Draw5Playall
+move r2 from Solar to Sea
+build r1 at G2
+capture r1 at Sea
+move r1 from G2 to B1 (b1)
+build y2 at Forest
+build r3 at G2
+sacrifice y2 at Forest; move r1 from Sea to G2; move r2 from Sea to G2; catastrophe red at G2
+move y1 from G2 to G1 (g1)
+sacrifice y3 at Field; move y1 from Field to Forest; move y1 from Forest to Draw5Playall; move y1 from Forest to Draw5Playall
+capture y1 at Draw5Playall
+sacrifice g3 at Dlwillson; build y2 at Draw5Playall; build y3 at Dlwillson; catastrophe yellow at Draw5Playall
+build y1 at G1
+convert y2 to g2 at Dlwillson
+build g1 at Draw5Playall
+build g1 at Dlwillson
+convert g1 to y1 at Draw5Playall
+move y3 from Dlwillson to B1
+build y2 at G2
+convert g2 to y2 at Dlwillson
+build y3 at Draw5Playall
+build y3 at Dlwillson
+convert y1 to r1 at Draw5Playall
+convert y3 to g3 at Dlwillson
+move y1 from G1 to B2 (b2)
+convert y3 to r3 at B1
+sacrifice g2 at Draw5Playall; build r2 at B1; build r2 at B1; catastrophe red at B1
+build g1 at Dlwillson
+convert y3 to g3 at Draw5Playall
+move g1 from Dlwillson to Sea (b1)
+move y2 from G2 to Draw5Playall
+build g2 at Sea
+sacrifice g3 at Draw5Playall; build y1 at G1; build y3 at Draw5Playall; build y3 at B2
+build y3 at Dlwillson
+sacrifice y2 at Draw5Playall; move y1 from G1 to Dlwillson; move y1 from G1 to Dlwillson; catastrophe yellow at Dlwillson
+sacrifice g3 at Dlwillson; build g1 at Sea; build g2 at Dlwillson; build g3 at Dlwillson
+convert y3 to g3 at Draw5Playall
+convert g2 to y2 at Dlwillson
+build y1 at G2
+convert g2 to y2 at Sea
+move y1 from G2 to Draw5Playall
+move g1 from Sea to Sky (b2)
+move y1 from B2 to G3 (g3)
+sacrifice g3 at Dlwillson; build g2 at Sea; build g2 at Sky; build g3 at Dlwillson
+sacrifice g3 at Draw5Playall; build y1 at B2; build y3 at G3; build y3 at Draw5Playall
+build g3 at Sky
+move y3 from G3 to Sky
+convert g2 to b2 at Sky
+sacrifice r1 at Draw5Playall; capture b2 at Sky
+convert g3 to r3 at Sky
+sacrifice y2 at G2; move y3 from Sky to Sea; move b2 from Sky to G3B (g3)
+build y2 at Dlwillson
+convert y3 to r3 at Sea
+sacrifice y2 at Dlwillson; move g2 from Sea to Solar (y3); move y2 from Sea to Forest (g2)
+build y2 at G3
+sacrifice g2 at Solar; build y3 at Dlwillson; build g2 at Sky
+build b1 at G3B
+move y2 from Dlwillson to Mars (r1)
+move y3 from B2 to G3B
+sacrifice y3 at Dlwillson; move y2 from Mars to Forest; move y2 from Forest to Draw5Playall; move y2 from Forest to Draw5Playall; catastrophe yellow at Draw5Playall

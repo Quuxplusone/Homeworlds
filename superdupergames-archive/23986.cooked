@@ -1,0 +1,28 @@
+Magicjohn (0, y1b2) g3-
+Zoltar (1, r3b2) -g3
+build g1 at Magicjohn
+build g1 at Zoltar
+convert g1 to y1 at Magicjohn
+convert g1 to y1 at Zoltar
+build y2 at Magicjohn
+build y2 at Zoltar
+move y2 from Magicjohn to Herbert (g3)
+move y1 from Zoltar to Greenpea (g1)
+build g1 at Magicjohn
+build g1 at Zoltar
+convert y1 to r1 at Magicjohn
+convert g1 to r1 at Zoltar
+convert g1 to b1 at Magicjohn
+build y1 at Zoltar
+move y2 from Herbert to Greenpea
+move y1 from Zoltar to Greenpea
+build y2 at Greenpea; catastrophe yellow at Greenpea
+build y1 at Zoltar
+build g1 at Magicjohn
+convert y1 to b1 at Zoltar
+build g1 at Magicjohn
+move b1 from Zoltar to Greenpea (g1)
+move g1 from Magicjohn to Bruton (y3)
+build g2 at Zoltar
+convert g3 to y3 at Magicjohn
+move g2 from Zoltar to Blueberry (b1)

@@ -1,0 +1,14 @@
+Nycavri (0, y3g2) b3-
+Trydnt (1, b2y1) -g3
+build b1 at Nycavri
+build g1 at Trydnt
+convert b1 to g1 at Nycavri
+convert g1 to y1 at Trydnt
+build g1 at Nycavri
+build y1 at Trydnt
+convert g1 to r1 at Nycavri
+build g1 at Trydnt
+build b1 at Nycavri
+move y1 from Trydnt to G3 (g3)
+convert b3 to y3 at Nycavri
+build y2 at G3

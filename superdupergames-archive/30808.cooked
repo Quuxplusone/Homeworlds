@@ -1,0 +1,14 @@
+Randrews (0, y3g1) b3-
+Agentofchaos (1, b2r1) -g3
+build b1 at Randrews
+build g1 at Agentofchaos
+build b1 at Randrews
+convert g1 to b1 at Agentofchaos
+move b1 from Randrews to Blah (g2)
+build b2 at Agentofchaos
+build b2 at Blah
+convert b2 to y2 at Agentofchaos
+convert b1 to g1 at Blah
+move b1 from Agentofchaos to Kakrafoon (g3)
+build b1 at Randrews
+sacrifice y2 at Agentofchaos; move b1 from Kakrafoon to Blah; move b1 from Blah to Randrews; catastrophe blue at Randrews

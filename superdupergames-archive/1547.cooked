@@ -1,0 +1,41 @@
+Laurie_Menke (0, g2b3) y3-
+Marksteere (1, b1g3) -y3
+build y1 at Laurie_Menke
+build y1 at Marksteere
+build y1 at Laurie_Menke
+move y1 from Marksteere to Cool (g2)
+convert y1 to r1 at Laurie_Menke
+build y1 at Cool
+move y1 from Laurie_Menke to Factory (g1)
+move y1 from Cool to Eastpaloalto (g3)
+build y2 at Factory
+convert y3 to r3 at Marksteere
+move y2 from Factory to Laurie_Menke
+build y2 at Eastpaloalto
+convert y2 to b2 at Laurie_Menke
+move y2 from Eastpaloalto to Menlopark (g2)
+move b2 from Laurie_Menke to Factory
+build y2 at Eastpaloalto
+build y2 at Factory
+build r1 at Marksteere
+convert y3 to g3 at Laurie_Menke
+move y2 from Eastpaloalto to Factory
+move y2 from Factory to Laurie_Menke
+sacrifice r3 at Marksteere; capture b2 at Factory
+build y3 at Laurie_Menke
+build y3 at Eastpaloalto
+convert y2 to r2 at Laurie_Menke
+build y2 at Eastpaloalto
+move y1 from Factory to Eastpaloalto; catastrophe yellow at Eastpaloalto
+build r1 at Marksteere
+move y3 from Laurie_Menke to Lookout (y1)
+convert r1 to g1 at Marksteere
+move y3 from Lookout to Hereicome (r2)
+build g1 at Marksteere
+build g3 at Laurie_Menke
+build r1 at Marksteere
+move y3 from Hereicome to Marksteere
+convert r1 to y1 at Marksteere
+sacrifice r1 at Laurie_Menke; capture r1 at Marksteere
+move y1 from Marksteere to Menlopark
+sacrifice r2 at Laurie_Menke; capture g1 at Marksteere; capture g1 at Marksteere

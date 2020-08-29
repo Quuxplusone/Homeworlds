@@ -1,0 +1,17 @@
+Dlwillson (0, r3b1) g3-
+Owlman (1, b1y2) -g3
+build g1 at Dlwillson
+build g1 at Owlman
+convert g1 to b1 at Dlwillson
+move g1 from Owlman to Hoth (b3)
+build b2 at Dlwillson
+build g1 at Hoth
+convert b2 to y2 at Dlwillson
+convert g1 to y1 at Hoth
+build b2 at Dlwillson
+build y1 at Hoth
+move b1 from Dlwillson to Field (g2)
+convert y1 to r1 at Hoth
+build b2 at Field
+move r1 from Hoth to Field
+convert b2 to r2 at Field

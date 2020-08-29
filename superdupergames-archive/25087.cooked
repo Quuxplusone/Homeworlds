@@ -1,0 +1,29 @@
+Ausmuh (0, b3y1) g3-
+Marmalade (1, g2y1) -b3
+build g1 at Ausmuh
+build b1 at Marmalade
+convert g1 to y1 at Ausmuh
+build b1 at Marmalade
+build y2 at Ausmuh
+move b1 from Marmalade to Groob (g3)
+move y2 from Ausmuh to Gwar (g2)
+build b1 at Marmalade
+build y2 at Gwar
+build b2 at Groob
+move y2 from Gwar to Bflat (b3)
+convert b2 to y2 at Groob
+sacrifice g3 at Ausmuh; build y3 at Ausmuh; build y3 at Gwar; build y3 at Bflat
+build b2 at Groob
+move y3 from Gwar to Grass (g3)
+build b2 at Groob
+convert y3 to r3 at Ausmuh
+convert b2 to r2 at Groob
+build y3 at Grass
+move r2 from Groob to Gwar
+move y2 from Gwar to Bflat
+build r1 at Gwar
+convert y2 to g2 at Bflat
+convert b3 to g3 at Marmalade
+build g1 at Bflat
+build y2 at Groob
+sacrifice y3 at Grass; move g2 from Bflat to Marmalade; move g1 from Bflat to Marmalade; move y3 from Grass to Marmalade; catastrophe green at Marmalade

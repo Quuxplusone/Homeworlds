@@ -1,0 +1,62 @@
+Grico (0, y3g1) b3-
+Tvgide (1, g2b1) -y3
+build b1 at Grico
+build y1 at Tvgide
+convert b1 to y1 at Grico
+move y1 from Tvgide to T1 (b3)
+build b1 at Grico
+build y1 at Tvgide
+build y2 at Grico
+convert y1 to r1 at Tvgide
+convert b1 to r1 at Grico
+convert y1 to g1 at T1
+move y1 from Grico to G1 (g2)
+build r1 at Tvgide
+build r2 at Grico
+move r1 from Tvgide to T1
+move r2 from Grico to G1
+build r2 at T1
+build b1 at Grico
+convert r2 to y2 at T1
+convert b1 to g1 at Grico
+build r2 at Tvgide
+move g1 from Grico to G1
+move r2 from Tvgide to T2 (g3)
+build g2 at G1
+move g1 from T1 to G1; catastrophe green at G1
+build r2 at Grico
+convert r1 to g1 at T1
+build b1 at Grico
+build y1 at T1
+convert b1 to g1 at Grico
+move y2 from T1 to T3 (r2)
+move g1 from Grico to G1 (g2)
+build y1 at Tvgide
+build y1 at Grico
+sacrifice y2 at T3; move y1 from T1 to G1; move y1 from G1 to Grico; catastrophe yellow at Grico
+build b1 at Grico
+move y1 from Tvgide to T2
+convert b1 to y1 at Grico
+move r2 from T2 to G1
+build y1 at Grico
+capture g1 at G1
+build r1 at Grico
+build g2 at T1
+move r2 from Grico to G2 (b3)
+convert g2 to y2 at T1
+move y1 from Grico to G2
+build y2 at T1
+build y2 at Grico
+build y3 at T2
+move y1 from Grico to G2
+convert y2 to g2 at T1
+sacrifice y2 at Grico; move r2 from G2 to Grico; move r2 from Grico to T1
+sacrifice r1 at Tvgide; capture r2 at T1
+build r1 at Grico
+build y2 at Tvgide
+build r2 at Grico
+build r3 at G1; catastrophe red at Grico
+move y1 from G2 to Tvgide
+sacrifice y2 at Tvgide; move r3 from G1 to Grico
+move y1 from G2 to Grico
+sacrifice r2 at G1; capture b3 at Grico; capture y1 at Grico

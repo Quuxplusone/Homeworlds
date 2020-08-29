@@ -1,0 +1,22 @@
+Kermit (0, g1b2) y3-
+Antihero (1, b1g3) -y3
+build y1 at Kermit
+build y1 at Antihero
+move y1 from Kermit to Slinky (b3)
+move y1 from Antihero to Builder (g2)
+convert y1 to g1 at Slinky
+build y1 at Antihero
+build g1 at Slinky
+build y1 at Builder
+build g2 at Slinky
+build y2 at Antihero
+build y2 at Kermit
+convert y2 to g2 at Antihero
+convert g2 to r2 at Slinky
+convert y1 to r1 at Antihero
+move y2 from Kermit to Slinky
+move y1 from Builder to Biggreen (g3)
+move g1 from Slinky to Builder
+move y1 from Biggreen to Kermit
+build r1 at Slinky
+sacrifice g2 at Antihero; build y1 at Kermit; build y2 at Kermit; catastrophe yellow at Kermit

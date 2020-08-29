@@ -1,0 +1,18 @@
+Grosseteste (0, y1b2) g3-
+Wil (1, y3b1) -g3
+build g1 at Grosseteste
+build g1 at Wil
+move g1 from Grosseteste to Lucy (b3)
+convert g1 to b1 at Wil
+build g1 at Grosseteste
+build b1 at Wil
+convert g1 to y1 at Grosseteste
+move b1 from Wil to G2 (g2)
+build g1 at Grosseteste
+sacrifice g3 at Wil; build b2 at G2; build b2 at Wil; build b3 at G2
+convert g3 to b3 at Grosseteste
+sacrifice b2 at G2; convert b3 to r3 at G2; convert b2 to y2 at Wil
+convert y1 to r1 at Grosseteste
+build b2 at G2
+build r1 at Grosseteste
+build b2 at G2

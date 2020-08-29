@@ -1,0 +1,41 @@
+Bhorner (0, r2b1) g3-
+Eliscinsky (1, r1b2) -g3
+build g1 at Bhorner
+build g1 at Eliscinsky
+convert g1 to y1 at Bhorner
+convert g1 to y1 at Eliscinsky
+build g1 at Bhorner
+build g1 at Eliscinsky
+convert g1 to b1 at Bhorner
+convert g1 to r1 at Eliscinsky
+build b1 at Bhorner
+build g1 at Eliscinsky
+build g1 at Bhorner
+build r1 at Eliscinsky
+move b1 from Bhorner to War (r3)
+move r1 from Eliscinsky to Frodo (y3)
+move g1 from Bhorner to War
+move r1 from Frodo to Bhorner
+capture r1 at Bhorner
+build r2 at Eliscinsky
+sacrifice g3 at Bhorner; build b2 at War; build b2 at War; build b3 at Bhorner
+move r1 from Eliscinsky to Frodo (y3)
+move b1 from Bhorner to Xmas (g3)
+move g1 from Eliscinsky to Frodo
+build b3 at Xmas
+build r2 at Frodo
+move r1 from Bhorner to Xmas
+build r3 at Frodo
+build r3 at Xmas
+move r3 from Frodo to Bhorner
+capture r3 at Bhorner
+build g1 at Eliscinsky
+convert b2 to y2 at War
+move r2 from Eliscinsky to Frodo
+sacrifice y2 at War; move r1 from Xmas to Bhorner; move r1 from Bhorner to Frodo; catastrophe red at Frodo
+sacrifice g3 at Eliscinsky; build g2 at Frodo; build g2 at Frodo; build g2 at Eliscinsky
+sacrifice y1 at Bhorner; move r3 from Xmas to Eliscinsky
+build g3 at Eliscinsky
+sacrifice r3 at Bhorner; capture g3 at Eliscinsky; capture g2 at Eliscinsky; capture g1 at Eliscinsky
+build g3 at Frodo
+sacrifice b3 at Xmas; convert g3 to y3 at Eliscinsky; convert g2 to y2 at Eliscinsky; convert g1 to y1 at Eliscinsky; catastrophe green at Frodo; catastrophe yellow at Eliscinsky

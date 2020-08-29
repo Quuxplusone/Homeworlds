@@ -1,0 +1,55 @@
+Madwuher (0, r1b2) g3-
+Alexcobo (1, g3b2) -y3
+build g1 at Madwuher
+build y1 at Alexcobo
+convert g1 to y1 at Madwuher
+move y1 from Alexcobo to Grow (g1)
+build g1 at Madwuher
+build y1 at Alexcobo
+build y2 at Madwuher
+build y2 at Grow
+move y1 from Madwuher to Edora (g3)
+convert y1 to r1 at Alexcobo
+build g1 at Madwuher
+build r1 at Alexcobo
+move g1 from Madwuher to Camelot (y3)
+build r2 at Alexcobo
+build g2 at Camelot
+move y2 from Grow to Camelot
+sacrifice g3 at Madwuher; build g2 at Madwuher; build g2 at Camelot; build g3 at Madwuher
+sacrifice r2 at Alexcobo; capture g2 at Camelot; capture g2 at Camelot
+sacrifice g1 at Madwuher; build g1 at Camelot; catastrophe green at Camelot
+convert r1 to g1 at Alexcobo
+convert g2 to r2 at Madwuher
+build g1 at Alexcobo
+build g2 at Madwuher
+convert g1 to b1 at Alexcobo
+move g2 from Madwuher to Bologna (y3)
+move b1 from Alexcobo to Grow
+build g1 at Madwuher
+build b1 at Grow
+sacrifice g3 at Madwuher; build g2 at Madwuher; build g2 at Madwuher; build g3 at Bologna
+move b1 from Grow to Camelot
+move g3 from Bologna to Grow
+sacrifice y1 at Grow; move b1 from Grow to Camelot
+move g2 from Madwuher to Edora
+build r1 at Alexcobo
+move r2 from Madwuher to Edora
+convert y2 to r2 at Camelot
+sacrifice y1 at Edora; move g3 from Grow to Camelot
+move r2 from Camelot to Grow (g1)
+move g3 from Camelot to Grow
+build y1 at Alexcobo
+sacrifice r2 at Edora; capture r2 at Grow
+move r1 from Alexcobo to Waypoint (y1)
+move g2 from Madwuher to Endor (b3)
+build r2 at Alexcobo
+sacrifice g2 at Edora; build g2 at Endor; build g3 at Madwuher
+move g1 from Alexcobo to Waypoint
+move g2 from Bologna to Waypoint
+move g1 from Waypoint to Camelot
+sacrifice r2 at Grow; capture r1 at Waypoint
+move y3 from Alexcobo to Waypoint
+sacrifice y2 at Madwuher; move g3 from Grow to Alexcobo; move r1 from Waypoint to Endor
+sacrifice r2 at Alexcobo; capture g2 at Waypoint
+convert g3 to r3 at Madwuher

@@ -1,0 +1,19 @@
+Goulo (0, r3g2) b3-
+Aristos (1, b3y1) -g3
+build b1 at Goulo
+build g1 at Aristos
+build b1 at Goulo
+convert g1 to b1 at Aristos
+convert b1 to y1 at Goulo
+build g1 at Aristos
+build y1 at Goulo
+convert g3 to y3 at Aristos
+move y1 from Goulo to Verdeto (g1)
+build y2 at Aristos
+build y2 at Verdeto
+convert y3 to r3 at Aristos
+build y2 at Verdeto
+move y2 from Aristos to Leaf (g2)
+build y3 at Goulo
+build y3 at Leaf
+sacrifice y2 at Verdeto; move y1 from Verdeto to Leaf; move y2 from Verdeto to Leaf; catastrophe yellow at Leaf

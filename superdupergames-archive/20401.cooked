@@ -1,0 +1,13 @@
+Sirruthvenmurgatroyd (0, y1b2) g3-
+Sageinquisitor (1, g3b2) -y3
+build g1 at Sirruthvenmurgatroyd
+build y1 at Sageinquisitor
+move g1 from Sirruthvenmurgatroyd to Sol (y3)
+convert y1 to r1 at Sageinquisitor
+build g1 at Sirruthvenmurgatroyd
+build r1 at Sageinquisitor
+build g1 at Sol
+move r1 from Sageinquisitor to Darthto (y1)
+move g1 from Sol to Yellow (y1)
+move r1 from Sageinquisitor to Yellow
+move g1 from Yellow to Sageinquisitor

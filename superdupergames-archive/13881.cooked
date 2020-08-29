@@ -1,0 +1,27 @@
+Mangotoque (0, g2y1) b3-
+Uncledan (1, g3b1) -r3
+build b1 at Mangotoque
+build r1 at Uncledan
+move b1 from Mangotoque to Bob (g3)
+convert r1 to y1 at Uncledan
+build b1 at Bob
+build r1 at Uncledan
+build b2 at Mangotoque
+move r1 from Uncledan to Jim (b2)
+move b2 from Mangotoque to Ken (g3)
+sacrifice y1 at Uncledan; move r1 from Jim to Ken
+build b2 at Ken
+build r1 at Uncledan
+build b2 at Mangotoque
+convert r1 to y1 at Uncledan
+build b3 at Bob
+move r3 from Uncledan to Jim (y2)
+sacrifice b3 at Mangotoque; convert b2 to y2 at Ken; convert b3 to r3 at Bob; convert b1 to r1 at Bob
+move r3 from Jim to Jack (y3)
+sacrifice y2 at Ken; move r3 from Bob to Bill (y2); move r3 from Bill to Uncledan
+build y1 at Uncledan
+capture y1 at Uncledan
+build y2 at Uncledan
+capture y2 at Uncledan
+build y2 at Uncledan
+catastrophe yellow at Uncledan

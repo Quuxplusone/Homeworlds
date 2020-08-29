@@ -1,0 +1,53 @@
+Sketchwick (0, b1y3) g3-
+Jeep (1, g1b2) -y3
+build g1 at Sketchwick
+build y1 at Jeep
+move g1 from Sketchwick to First (y2)
+convert y1 to g1 at Jeep
+build g2 at Sketchwick
+move g1 from Jeep to Blood (g3)
+sacrifice g3 at Sketchwick; build g2 at First; build g2 at First; build g3 at Sketchwick
+build y1 at Jeep
+move g2 from First to Sport (b3)
+convert y3 to g3 at Jeep
+convert g2 to y2 at Sport
+build y1 at Jeep
+sacrifice g3 at Sketchwick; build g2 at Sketchwick; build g3 at Sketchwick; build y1 at Sport
+move y1 from Jeep to Blood
+convert y2 to r2 at Sport
+build y2 at Jeep
+move g2 from Sketchwick to Bra (y2)
+build y3 at Blood
+sacrifice g3 at Sketchwick; build g3 at Sketchwick; build y3 at Sport; build r1 at Sport
+convert y1 to r1 at Jeep
+sacrifice y3 at Sport; move g2 from Bra to Sport; move g2 from First to Blood; move g1 from First to Blood; catastrophe green at Blood
+build y1 at Jeep
+build g1 at Sport
+build r1 at Jeep
+move g1 from Sport to Jeep
+move g3 from Jeep to Sport
+sacrifice g3 at Sketchwick; build g1 at Sport; build g2 at Sport; build g3 at Sketchwick; catastrophe green at Sport
+capture g1 at Jeep
+move g3 from Sketchwick to Drink (y2)
+move g1 from Jeep to Me (y3)
+move g3 from Drink to Sport
+convert y1 to g1 at Jeep
+move g3 from Sport to Jeep
+build g2 at Jeep; catastrophe green at Jeep
+convert r2 to g2 at Sport
+move g1 from Me to Jeep
+build r2 at Sport
+build y1 at Jeep
+build g1 at Sketchwick
+convert r1 to b1 at Jeep
+convert g2 to y2 at Sketchwick
+convert y2 to g2 at Jeep
+build g1 at Sport
+move g1 from Jeep to Fan (y3)
+sacrifice y2 at Sketchwick; move g2 from Sport to Jeep; move g1 from Sport to Jeep
+move g2 from Jeep to Sketchwick
+sacrifice r2 at Sport; capture r1 at Jeep; capture y1 at Jeep
+sacrifice g1 at Fan; build b1 at Jeep
+capture b1 at Jeep
+sacrifice g2 at Sketchwick; build b2 at Jeep; build b2 at Jeep
+catastrophe blue at Jeep

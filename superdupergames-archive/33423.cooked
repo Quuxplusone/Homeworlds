@@ -1,0 +1,23 @@
+Babamots (0, y1b3) g3-
+Smokeytroll42 (1, b2g1) -y3
+build g1 at Babamots
+build y1 at Smokeytroll42
+build g1 at Babamots
+build y1 at Smokeytroll42
+move g1 from Babamots to Sauria (b2)
+move y1 from Smokeytroll42 to Leo (b3)
+build g2 at Sauria
+build y2 at Smokeytroll42
+sacrifice g3 at Babamots; build g2 at Babamots; build g2 at Sauria; build g3 at Babamots
+move y2 from Smokeytroll42 to Leo
+convert g2 to y2 at Sauria
+convert y2 to g2 at Leo
+convert g2 to r2 at Babamots
+convert g2 to r2 at Leo
+sacrifice g3 at Babamots; build g2 at Babamots; build g2 at Sauria; build g3 at Babamots
+build y2 at Smokeytroll42
+move g2 from Sauria to Risa (b3)
+convert y3 to g3 at Smokeytroll42
+sacrifice g3 at Babamots; build g3 at Babamots; build g3 at Risa; build r1 at Babamots
+build y2 at Smokeytroll42
+convert g3 to y3 at Risa

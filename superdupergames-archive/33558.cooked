@@ -1,0 +1,54 @@
+Inattentive (0, g3b2) y3-
+Schmoopy (1, g2b1) -r3
+build y1 at Inattentive
+build r1 at Schmoopy
+convert y1 to r1 at Inattentive
+convert r1 to y1 at Schmoopy
+build y1 at Inattentive
+build r1 at Schmoopy
+convert y1 to b1 at Inattentive
+build y1 at Schmoopy
+move b1 from Inattentive to Potatoe (g1)
+convert y1 to g1 at Schmoopy
+build y1 at Inattentive
+move g1 from Schmoopy to Shabby (b3)
+move y1 from Inattentive to Potatoe
+move r1 from Schmoopy to Shabby
+move r1 from Inattentive to Potatoe
+move r3 from Schmoopy to Shabby
+build y1 at Inattentive
+build y2 at Schmoopy
+build y2 at Potatoe
+move y1 from Schmoopy to Shabby
+convert y1 to r1 at Potatoe
+move r3 from Shabby to Potatoe
+convert y2 to r2 at Potatoe; catastrophe red at Potatoe
+build y1 at Shabby
+move y1 from Inattentive to Potatoe
+build y2 at Schmoopy
+build b1 at Potatoe
+build g1 at Shabby
+build b2 at Potatoe
+build g2 at Shabby
+convert b2 to r2 at Potatoe
+move g1 from Shabby to Haribo (r1)
+build b2 at Potatoe
+build g2 at Haribo
+convert y3 to g3 at Inattentive
+build g3 at Haribo
+move r2 from Potatoe to Inattentive
+sacrifice y2 at Schmoopy; move g2 from Haribo to Inattentive; move g1 from Haribo to Inattentive; catastrophe green at Inattentive
+convert b2 to g2 at Potatoe
+sacrifice g2 at Shabby; build r1 at Shabby; build r2 at Shabby
+move g2 from Potatoe to Inattentive
+sacrifice y1 at Shabby; move g3 from Haribo to Inattentive
+sacrifice y1 at Potatoe; move r2 from Inattentive to Shabby; catastrophe red at Shabby
+convert g1 to r1 at Shabby
+build g1 at Inattentive
+move r1 from Shabby to Inattentive
+convert b1 to y1 at Potatoe
+capture g2 at Inattentive
+move y1 from Potatoe to Inattentive
+capture g1 at Inattentive
+convert y1 to g1 at Inattentive
+capture g1 at Inattentive

@@ -1,0 +1,21 @@
+Foksieloy (0, b1r2) g3-
+Onepagewars (1, b1r3) -g3
+build g1 at Foksieloy
+build g1 at Onepagewars
+convert g1 to y1 at Foksieloy
+convert g1 to y1 at Onepagewars
+build g1 at Foksieloy
+build g1 at Onepagewars
+convert g1 to b1 at Foksieloy
+build g1 at Onepagewars
+build b2 at Foksieloy
+convert g3 to b3 at Onepagewars
+convert b2 to r2 at Foksieloy
+convert g1 to r1 at Onepagewars
+build b2 at Foksieloy
+build b2 at Onepagewars
+build g1 at Foksieloy
+build r1 at Onepagewars
+convert g3 to y3 at Foksieloy
+move r1 from Onepagewars to Dota2 (g2)
+sacrifice y3 at Foksieloy; move b1 from Foksieloy to Leagueoflegends (g3); move b1 from Leagueoflegends to Dota2; move b1 from Dota2 to Onepagewars; catastrophe blue at Onepagewars

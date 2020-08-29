@@ -1,0 +1,8 @@
+Personman (0, b2y3) g3-
+Antihero (1, b1y2) -g3
+build g1 at Personman
+build g1 at Antihero
+convert g1 to y1 at Personman
+build g1 at Antihero
+build g1 at Personman
+convert g1 to y1 at Antihero

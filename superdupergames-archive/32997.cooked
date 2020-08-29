@@ -1,0 +1,40 @@
+Shoejitsu (0, g3y2) b3-
+Felix (1, r1b3) -g3
+build b1 at Shoejitsu
+build g1 at Felix
+build b1 at Shoejitsu
+convert g1 to b1 at Felix
+convert b1 to g1 at Shoejitsu
+build g1 at Felix
+move g1 from Shoejitsu to Prime (b1)
+convert g1 to y1 at Felix
+build b2 at Shoejitsu
+build b2 at Felix
+move b1 from Shoejitsu to Prime
+move b1 from Felix to Out (g2)
+build g1 at Prime
+sacrifice g3 at Felix; build b2 at Out; build b3 at Felix; build y1 at Felix
+convert g1 to y1 at Prime
+convert b2 to y2 at Out
+move b1 from Prime to Dot (y2)
+convert b2 to g2 at Felix
+build g1 at Prime
+sacrifice y2 at Out; move b1 from Out to Prime; move b1 from Prime to Shoejitsu
+convert b3 to r3 at Shoejitsu
+build b2 at Shoejitsu
+convert b2 to g2 at Shoejitsu
+convert b1 to g1 at Shoejitsu
+capture g1 at Shoejitsu
+convert b2 to g2 at Shoejitsu; catastrophe green at Shoejitsu
+move g1 from Prime to Dot
+move y1 from Felix to Out (g2)
+build y2 at Prime
+sacrifice g2 at Felix; build y3 at Felix; build y3 at Out
+convert g1 to b1 at Dot
+move y1 from Felix to Shoejitsu
+sacrifice y2 at Prime; move b1 from Dot to Felix; move b1 from Dot to Felix; catastrophe blue at Felix
+move y1 from Out to In (r1)
+build y2 at Prime
+build y2 at Out
+capture y1 at Shoejitsu
+sacrifice y3 at Out; move y2 from Out to In; move y1 from In to Shoejitsu; move y2 from In to Shoejitsu; catastrophe yellow at Shoejitsu

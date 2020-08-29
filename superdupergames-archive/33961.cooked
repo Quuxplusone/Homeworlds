@@ -1,0 +1,55 @@
+Twinsen (0, r2b1) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Twinsen
+build g1 at Ts52
+build g1 at Twinsen
+build g2 at Ts52
+convert g3 to y3 at Twinsen
+move g2 from Ts52 to Grover (b1)
+build g2 at Twinsen
+build g2 at Grover
+move g1 from Twinsen to Jelly (y3)
+convert g2 to y2 at Grover
+move g2 from Twinsen to Azul (b3)
+build y1 at Grover
+build g2 at Azul
+convert g3 to r3 at Ts52
+build g3 at Twinsen
+build g3 at Ts52
+sacrifice g3 at Twinsen; build g3 at Twinsen; build g3 at Jelly; build y1 at Twinsen
+build r1 at Ts52
+convert g2 to y2 at Azul
+move r3 from Ts52 to Grover
+move g3 from Jelly to Amarillo (y1)
+move r3 from Grover to Azul
+sacrifice y2 at Azul; move g2 from Azul to Phobos (b1); move y1 from Twinsen to Marte (r3)
+sacrifice g3 at Ts52; build g2 at Grover; build r1 at Azul; build g3 at Ts52
+sacrifice g3 at Twinsen; build y2 at Twinsen; build y2 at Marte; build g3 at Twinsen
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Azul; build r2 at Ts52
+convert g2 to r2 at Phobos
+sacrifice y2 at Grover; move g2 from Grover to Jelly; move g2 from Grover to Elmo (r3)
+sacrifice y2 at Twinsen; move g1 from Jelly to Phobos; move r2 from Phobos to Azul; catastrophe red at Azul
+sacrifice g3 at Ts52; build g2 at Elmo; build g3 at Ts52; build y2 at Grover
+sacrifice y2 at Marte; move g1 from Phobos to Elmo; move g1 from Twinsen to Elmo; catastrophe green at Elmo
+convert y1 to b1 at Grover
+build y1 at Twinsen
+move b1 from Grover to Jelly
+convert g3 to r3 at Twinsen
+move r2 from Ts52 to Grover
+move r3 from Twinsen to Jelly
+move b1 from Jelly to Kermit (g1)
+capture g2 at Jelly
+build b2 at Kermit
+move r3 from Jelly to Grover
+move y2 from Grover to Marte
+move y1 from Marte to Cloverfield (g1)
+convert b2 to y2 at Kermit
+build y2 at Cloverfield
+build b2 at Kermit
+capture r2 at Grover
+build b2 at Kermit
+sacrifice y2 at Cloverfield; move g3 from Amarillo to Ts52; move r3 from Grover to Ts52
+capture r3 at Ts52
+sacrifice r2 at Grover; capture r3 at Ts52; capture g3 at Ts52
+build r1 at Ts52
+sacrifice r3 at Ts52; capture r1 at Ts52; capture r1 at Ts52; capture g1 at Ts52

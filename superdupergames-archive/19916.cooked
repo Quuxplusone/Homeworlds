@@ -1,0 +1,54 @@
+Adambadura (0, g3b2) y3-
+Twoshort (1, r1b2) -g3
+build y1 at Adambadura
+build g1 at Twoshort
+convert y1 to g1 at Adambadura
+convert g1 to y1 at Twoshort
+build y1 at Adambadura
+build g1 at Twoshort
+convert y1 to r1 at Adambadura
+move g1 from Twoshort to Yolonda (y3)
+build r1 at Adambadura
+build g1 at Yolonda
+build g2 at Adambadura
+build g2 at Twoshort
+move g1 from Adambadura to Ontheway (y1)
+move g1 from Yolonda to Yoyodyne (y1)
+build g2 at Ontheway
+sacrifice g3 at Twoshort; build g3 at Yolonda; build g3 at Twoshort; build y2 at Twoshort
+move r1 from Adambadura to Ontheway
+convert g2 to r2 at Twoshort
+build r2 at Adambadura
+sacrifice g3 at Yolonda; build g2 at Yoyodyne; build g3 at Yolonda; build y2 at Twoshort
+sacrifice g2 at Adambadura; build y2 at Adambadura; build y3 at Adambadura
+sacrifice y2 at Twoshort; move y1 from Twoshort to Bluonia (b3); move g1 from Yolonda to Bluestar (b1)
+move y3 from Adambadura to Ontheway
+sacrifice g3 at Yolonda; build y2 at Twoshort; build y3 at Bluonia; build g2 at Bluestar
+move y3 from Ontheway to Siege (g3)
+convert g2 to b2 at Bluestar
+build r2 at Ontheway
+build b1 at Bluestar
+move r1 from Ontheway to Siege
+convert y1 to b1 at Bluonia
+build r3 at Siege
+sacrifice y3 at Bluonia; move g1 from Bluestar to Adambadura; move g1 from Yoyodyne to Adambadura; move g2 from Yoyodyne to Adambadura
+sacrifice y3 at Adambadura; move r1 from Siege to Twoshort; move r3 from Siege to Twoshort; move y3 from Siege to Twoshort; catastrophe red at Twoshort; catastrophe green at Adambadura
+build y1 at Twoshort; catastrophe yellow at Twoshort
+sacrifice y2 at Adambadura; move r2 from Ontheway to Twoshort; move g2 from Ontheway to Twoshort
+convert b2 to r2 at Bluestar
+convert r2 to g2 at Twoshort
+convert g3 to y3 at Twoshort
+build g1 at Twoshort
+sacrifice r2 at Bluestar; capture g2 at Twoshort; capture g2 at Twoshort
+build g1 at Twoshort; catastrophe green at Twoshort
+convert y3 to g3 at Twoshort
+move g1 from Ontheway to Twoshort
+convert g3 to r3 at Twoshort
+build g1 at Twoshort
+capture g1 at Twoshort
+build g1 at Twoshort
+sacrifice g1 at Twoshort; build b2 at Bluestar
+build g1 at Twoshort
+capture g1 at Twoshort
+build g2 at Twoshort; catastrophe green at Twoshort
+convert b2 to g2 at Bluestar

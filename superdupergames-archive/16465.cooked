@@ -1,0 +1,36 @@
+Bhorner (0, g2b1) y3-
+Twoshort (1, b1g3) -b3
+build y1 at Bhorner
+build b1 at Twoshort
+build y1 at Bhorner
+convert b3 to y3 at Twoshort
+convert y1 to g1 at Bhorner
+build b2 at Twoshort
+build y1 at Bhorner
+move b1 from Twoshort to Grogar (g2)
+move g1 from Bhorner to Stumpy (b3)
+build b2 at Grogar
+move y1 from Bhorner to Stumpy
+build b2 at Twoshort
+move y1 from Stumpy to Toolate (g2)
+build b3 at Grogar
+build y1 at Toolate
+sacrifice b2 at Grogar; convert b2 to r2 at Twoshort; convert b3 to g3 at Grogar
+convert y1 to r1 at Bhorner
+sacrifice g3 at Grogar; build b2 at Grogar; build b2 at Twoshort; build b3 at Grogar
+build g1 at Stumpy
+convert b2 to y2 at Grogar
+sacrifice y1 at Toolate; move g1 from Stumpy to Toolate
+move b3 from Grogar to Gonzo (g3)
+convert y3 to g3 at Bhorner
+build b2 at Grogar
+build y1 at Toolate
+build b3 at Gonzo
+sacrifice y1 at Toolate; move g1 from Stumpy to Bhorner
+sacrifice y2 at Grogar; move b3 from Gonzo to Bhorner; move b3 from Gonzo to Bhorner
+convert g3 to b3 at Bhorner; catastrophe blue at Bhorner
+move b2 from Twoshort to Bhorner
+build r1 at Bhorner
+sacrifice r2 at Twoshort; capture r1 at Bhorner; capture r1 at Bhorner
+move g1 from Toolate to Twoshort
+capture g1 at Bhorner

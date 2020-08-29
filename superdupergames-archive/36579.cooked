@@ -1,0 +1,45 @@
+Draw5Playall (0, b3r1) g3-
+Capi3101 (1, b1g3) -y3
+build g1 at Draw5Playall
+build y1 at Capi3101
+build g1 at Draw5Playall
+build y1 at Capi3101
+convert g1 to y1 at Draw5Playall
+convert y3 to g3 at Capi3101
+build y2 at Draw5Playall
+build y2 at Capi3101
+move y2 from Draw5Playall to Dreams (g2)
+convert y2 to r2 at Capi3101
+convert g1 to r1 at Draw5Playall
+move y1 from Capi3101 to Qof (g2)
+build y2 at Draw5Playall
+move r2 from Capi3101 to Qof
+move y1 from Draw5Playall to Jackpot (b2)
+build r1 at Qof
+move r1 from Draw5Playall to Dreams
+build g1 at Capi3101
+build r2 at Dreams
+move r1 from Qof to Capi3101
+move r1 from Dreams to Money (g1)
+convert g1 to b1 at Capi3101
+build g1 at Draw5Playall
+build b1 at Capi3101
+move g1 from Draw5Playall to Jackpot
+move b1 from Capi3101 to Tsade (g2)
+build g1 at Jackpot
+convert g3 to b3 at Capi3101
+build g3 at Draw5Playall
+build b2 at Tsade
+convert g3 to r3 at Draw5Playall
+move r2 from Qof to Pe (y3)
+build g3 at Jackpot
+move b1 from Capi3101 to Ayin (b2)
+sacrifice g3 at Jackpot; build y2 at Dreams; build y3 at Jackpot; build y3 at Draw5Playall
+build b3 at Tsade
+build g3 at Draw5Playall
+build r2 at Capi3101
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build r3 at Money; build r3 at Dreams
+move r1 from Capi3101 to Tsade
+move g3 from Draw5Playall to Ayin
+move y1 from Capi3101 to Tsade
+sacrifice y3 at Draw5Playall; move g3 from Ayin to Capi3101; move y3 from Jackpot to Capi3101; move r3 from Dreams to Capi3101

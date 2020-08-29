@@ -1,0 +1,36 @@
+Skykingt13 (0, b2r1) g3-
+Madwuher (1, r2b3) -g3
+build g1 at Skykingt13
+build g1 at Madwuher
+convert g1 to y1 at Skykingt13
+convert g1 to y1 at Madwuher
+build g1 at Skykingt13
+build g1 at Madwuher
+move g1 from Skykingt13 to Space (y3)
+move g1 from Madwuher to Bologna (b1)
+build g1 at Skykingt13
+build g2 at Madwuher
+build y1 at Skykingt13
+build y2 at Madwuher
+move y1 from Skykingt13 to Space
+build g2 at Bologna
+move y1 from Space to Sky (r1)
+move y2 from Madwuher to Sky
+sacrifice g1 at Skykingt13; build y2 at Sky
+capture y2 at Sky
+sacrifice g3 at Skykingt13; build y2 at Sky; build y3 at Skykingt13; build y3 at Skykingt13; catastrophe yellow at Sky
+convert g2 to y2 at Bologna
+convert y3 to g3 at Skykingt13
+build y1 at Bologna
+move y1 from Skykingt13 to Sky (b3)
+move g1 from Bologna to Edora (y3)
+move g1 from Space to Bologna
+convert y1 to r1 at Bologna
+convert y1 to r1 at Sky
+capture g1 at Bologna
+build y1 at Skykingt13
+build r2 at Bologna
+move y1 from Skykingt13 to Sky
+build g1 at Edora
+move g3 from Skykingt13 to Sky
+move r2 from Bologna to Edora

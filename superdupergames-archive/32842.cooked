@@ -1,0 +1,49 @@
+Felix (0, b2r3) g3-
+Velgarath2 (1, y3g1) -b3
+build g1 at Felix
+build b1 at Velgarath2
+convert g1 to y1 at Felix
+build b1 at Velgarath2
+build y1 at Felix
+convert b1 to y1 at Velgarath2
+build y2 at Felix
+build y2 at Velgarath2
+move y1 from Felix to Point (b1)
+convert y1 to r1 at Velgarath2
+move y1 from Felix to C3X (y1)
+move y2 from Velgarath2 to Eden (g2)
+sacrifice g3 at Felix; build y2 at C3X; build y3 at Felix; build y3 at Point
+move y2 from Eden to C3X; catastrophe yellow at C3X
+convert y3 to g3 at Felix
+convert b3 to g3 at Velgarath2
+convert y3 to g3 at Point
+build b1 at Velgarath2
+build y1 at Felix
+move b1 from Velgarath2 to Somewhere (g2)
+move y1 from Felix to Tinop (y1)
+sacrifice g3 at Velgarath2; build b2 at Somewhere; build b2 at Somewhere; build b3 at Velgarath2
+build y2 at Felix
+build b3 at Velgarath2
+sacrifice g3 at Felix; build y2 at Tinop; build y3 at Point; build y3 at Felix
+convert b3 to g3 at Velgarath2
+convert y3 to r3 at Point
+convert b3 to y3 at Velgarath2
+move r3 from Point to Somewhere
+build b3 at Velgarath2
+capture b2 at Somewhere
+sacrifice g3 at Velgarath2; build b3 at Velgarath2; build b3 at Somewhere; build r1 at Velgarath2; catastrophe blue at Somewhere
+convert y3 to g3 at Felix
+move y3 from Velgarath2 to Greenland (g2)
+build y3 at Point
+convert b3 to g3 at Velgarath2
+move y3 from Point to Somewhere
+move r1 from Velgarath2 to Greenland
+convert y2 to r2 at Felix
+build y2 at Greenland
+move g3 from Point to Ocean (b2)
+move y2 from Greenland to Tinop; catastrophe yellow at Tinop
+sacrifice y2 at Felix; move g3 from Ocean to Velgarath2; move y3 from Somewhere to Velgarath2
+capture y3 at Velgarath2
+sacrifice r3 at Somewhere; capture b3 at Velgarath2; capture y3 at Velgarath2; capture g3 at Velgarath2
+move y3 from Greenland to Velgarath2
+sacrifice g3 at Velgarath2; build g1 at Velgarath2; build g1 at Velgarath2; build y1 at Velgarath2; catastrophe yellow at Velgarath2; catastrophe green at Velgarath2

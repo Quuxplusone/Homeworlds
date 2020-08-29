@@ -1,0 +1,61 @@
+Dlwillson (0, b3y1) g3-
+Lurch (1, y1b2) -g3
+build g1 at Dlwillson
+build g1 at Lurch
+convert g1 to r1 at Dlwillson
+convert g1 to r1 at Lurch
+build g1 at Dlwillson
+build g1 at Lurch
+convert g1 to b1 at Dlwillson
+convert g1 to y1 at Lurch
+build g1 at Dlwillson
+build y2 at Lurch
+convert g3 to y3 at Dlwillson
+move y2 from Lurch to Alpha (g3)
+build y2 at Dlwillson
+convert y1 to b1 at Lurch
+move y2 from Dlwillson to Fungus (g2)
+move b1 from Lurch to Alpha
+build g1 at Dlwillson
+build b1 at Alpha
+move b1 from Dlwillson to Fungus
+move b1 from Alpha to Beta (g2)
+move g1 from Dlwillson to Phosphor (b2)
+build b2 at Beta
+build b3 at Fungus
+build b3 at Alpha
+convert b3 to g3 at Fungus
+build b3 at Beta
+sacrifice y2 at Fungus; move b1 from Fungus to Alpha; move b1 from Alpha to Beta; catastrophe blue at Beta
+build b1 at Alpha
+build g1 at Fungus
+build g2 at Lurch
+sacrifice g3 at Fungus; build g2 at Phosphor; build g3 at Dlwillson; build y1 at Dlwillson
+move b3 from Alpha to Beta (y2)
+sacrifice y1 at Dlwillson; move g1 from Fungus to Fluor (b3)
+move g2 from Lurch to Gamma (y3)
+sacrifice g3 at Dlwillson; build g2 at Fluor; build g3 at Dlwillson; build y1 at Dlwillson
+move g2 from Gamma to Beta
+move y3 from Dlwillson to Phosphor
+move b1 from Alpha to Beta
+convert g1 to b1 at Phosphor
+build b2 at Alpha
+move b1 from Phosphor to Lumen (y3)
+convert b3 to r3 at Beta
+convert g1 to r1 at Fluor
+build b3 at Beta
+build r2 at Fluor
+convert b3 to y3 at Beta
+sacrifice g1 at Dlwillson; build b3 at Lumen
+convert y3 to r3 at Beta
+build g1 at Dlwillson
+build r2 at Lurch
+convert b1 to g1 at Lumen
+sacrifice y2 at Alpha; move r3 from Beta to Dlwillson; move r3 from Beta to Dlwillson
+sacrifice g3 at Dlwillson; build r2 at Dlwillson; build g1 at Fluor; build g3 at Dlwillson; catastrophe red at Dlwillson
+build b1 at Beta
+convert y1 to r1 at Dlwillson
+convert b1 to y1 at Alpha
+sacrifice y3 at Phosphor; move r1 from Fluor to Lurch; move r2 from Fluor to Lurch; move b3 from Lumen to Lurch; catastrophe red at Lurch
+move b2 from Alpha to Beta
+sacrifice r1 at Dlwillson; capture g3 at Lurch

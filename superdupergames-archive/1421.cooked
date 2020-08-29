@@ -1,0 +1,38 @@
+Sketchwick (0, y1b2) g3-
+Jeep (1, y2b1) -g3
+build g1 at Sketchwick
+build g1 at Jeep
+move g1 from Sketchwick to Injface (y3)
+move g1 from Jeep to Insface (y3)
+build g1 at Sketchwick
+build g2 at Jeep
+build g2 at Injface
+move g1 from Insface to Sketchwick
+convert g3 to r3 at Sketchwick
+move g1 from Sketchwick to Injface
+move r3 from Sketchwick to Injface
+convert g2 to r2 at Jeep
+capture g1 at Injface
+build g2 at Jeep
+move g2 from Injface to Jeep
+convert g3 to r3 at Jeep
+sacrifice g2 at Jeep; build g2 at Sketchwick; build g2 at Sketchwick
+build g3 at Jeep
+convert g2 to b2 at Sketchwick
+move g2 from Jeep to Insface (y3)
+convert g1 to r1 at Sketchwick
+build g1 at Jeep
+build r1 at Injface
+move g1 from Jeep to Moon (b3)
+sacrifice g1 at Injface; build b1 at Sketchwick
+build g1 at Jeep
+move b2 from Sketchwick to Moon
+move r3 from Jeep to Moon
+move r3 from Injface to Sketchwick
+capture b2 at Moon
+move b1 from Sketchwick to Moon
+capture b1 at Moon
+convert r1 to b1 at Sketchwick
+convert b2 to y2 at Moon
+move g2 from Sketchwick to Fuckme (g3)
+sacrifice g3 at Jeep; build g2 at Moon; build g3 at Insface; build g3 at Jeep

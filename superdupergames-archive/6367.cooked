@@ -1,0 +1,41 @@
+Zoltar (0, b3y1) g3-
+Nycavri (1, y3g2) -r3
+build g1 at Zoltar
+build r1 at Nycavri
+build g1 at Zoltar
+move r1 from Nycavri to Downtown (b1)
+convert g1 to r1 at Zoltar
+convert r1 to g1 at Downtown
+convert g1 to y1 at Zoltar
+build g1 at Downtown
+build y1 at Zoltar
+convert g1 to b1 at Downtown
+move y1 from Zoltar to Greenbelt (g2)
+build g1 at Downtown
+build y2 at Zoltar
+convert g1 to b1 at Downtown
+convert y2 to b2 at Zoltar
+build r1 at Nycavri
+build b2 at Zoltar
+convert b1 to r1 at Downtown
+move b2 from Zoltar to Greenbelt
+build r2 at Downtown
+sacrifice g3 at Zoltar; build y2 at Zoltar; build y2 at Greenbelt; build y2 at Greenbelt
+build r2 at Nycavri
+move y2 from Greenbelt to Greendale (g3)
+move r2 from Nycavri to Sunset (g1)
+convert b2 to g2 at Zoltar
+build r2 at Sunset
+sacrifice g2 at Zoltar; build r3 at Zoltar; build r3 at Zoltar
+convert r2 to g2 at Downtown
+convert r3 to g3 at Zoltar
+sacrifice b1 at Downtown; convert r3 to y3 at Nycavri
+move r3 from Zoltar to Greenbelt
+build y3 at Nycavri
+sacrifice y2 at Zoltar; move y1 from Greenbelt to Downtown; move y1 from Downtown to Nycavri; catastrophe yellow at Nycavri
+convert g1 to y1 at Downtown
+sacrifice g3 at Zoltar; build r2 at Zoltar; build r3 at Zoltar; build r3 at Greenbelt
+move y1 from Downtown to Ues (g3)
+move r2 from Zoltar to Nycavri
+move y1 from Ues to Sunset
+capture r1 at Nycavri

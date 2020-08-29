@@ -1,0 +1,28 @@
+Lorgar (0, y1b2) g3-
+Silenttitan (1, y3b2) -g3
+build g1 at Lorgar
+build g1 at Silenttitan
+move g1 from Lorgar to Thorp (r3)
+move g1 from Silenttitan to Shaka (b1)
+build g1 at Lorgar
+build g2 at Silenttitan
+convert g1 to y1 at Lorgar
+convert g2 to y2 at Silenttitan
+move y1 from Lorgar to Thorp
+move y2 from Silenttitan to Shaka
+move g1 from Thorp to Shaka
+convert g1 to r1 at Shaka
+build g1 at Lorgar
+capture g1 at Shaka
+convert g1 to r1 at Lorgar
+build g1 at Silenttitan
+move g3 from Lorgar to Thorp
+build g1 at Shaka
+build y1 at Thorp
+build y2 at Shaka
+move y1 from Thorp to Clusterf (b1)
+sacrifice y2 at Shaka; move y2 from Shaka to Thorp; move y2 from Thorp to Lorgar
+move g3 from Thorp to Lorgar
+sacrifice r1 at Shaka; capture r1 at Lorgar
+convert g3 to r3 at Lorgar
+sacrifice g3 at Silenttitan; build r1 at Lorgar; build r1 at Lorgar; catastrophe red at Lorgar

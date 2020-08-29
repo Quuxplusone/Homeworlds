@@ -1,0 +1,59 @@
+Natestraight (0, b3g2) r3-
+Preacher (1, y2g1) -b3
+build r1 at Natestraight
+build b1 at Preacher
+convert r1 to y1 at Natestraight
+convert b1 to r1 at Preacher
+move y1 from Natestraight to Blue (b1)
+build r1 at Preacher
+convert y1 to g1 at Blue
+convert r1 to y1 at Preacher
+build r1 at Natestraight
+build b1 at Preacher
+convert r1 to y1 at Natestraight
+convert b1 to g1 at Preacher
+build g2 at Blue
+move g1 from Preacher to Sol (b3)
+convert g2 to r2 at Blue
+convert g1 to y1 at Sol
+build y2 at Natestraight
+build b1 at Preacher
+move y2 from Natestraight to Blue
+build r1 at Preacher
+build y2 at Natestraight
+move y1 from Preacher to Mars (g3)
+build y3 at Blue
+build y3 at Mars
+move y2 from Blue to Sol
+move y1 from Mars to Preacher
+build y3 at Blue
+move r1 from Preacher to Mars
+move r2 from Blue to Sol
+sacrifice y3 at Mars; move y1 from Sol to Blue; move y1 from Preacher to Sol; move y1 from Sol to Blue; catastrophe yellow at Blue
+convert y2 to g2 at Sol
+convert b1 to y1 at Preacher
+move y1 from Natestraight to Blue
+build b1 at Preacher
+build r1 at Sol
+build r2 at Preacher
+convert r2 to y2 at Sol
+build r2 at Mars
+build g1 at Sol
+move y1 from Preacher to Mars
+convert g2 to b2 at Sol
+move r1 from Mars to Blue
+sacrifice y1 at Blue; move g1 from Blue to Sol
+build r2 at Mars
+build r3 at Sol
+convert b3 to y3 at Preacher
+sacrifice y2 at Sol; move r1 from Sol to Preacher; move r3 from Sol to Preacher; catastrophe red at Preacher
+move r2 from Mars to Blue
+convert b2 to r2 at Sol
+build y1 at Mars
+build g2 at Sol
+convert r2 to g2 at Blue
+convert g2 to y2 at Sol
+build g2 at Blue
+build y1 at Sol
+convert g2 to r2 at Blue
+sacrifice y2 at Natestraight; move y1 from Sol to Preacher; move y2 from Sol to Preacher; catastrophe yellow at Preacher

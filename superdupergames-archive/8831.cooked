@@ -1,0 +1,7 @@
+Freemonty (0, y2g1) r3-
+Mikeyarrum (1, g3y1) -b3
+build r1 at Freemonty
+build b1 at Mikeyarrum
+move r1 from Freemonty to Sevensevenseven (b3)
+convert b1 to r1 at Mikeyarrum
+convert r1 to b1 at Sevensevenseven

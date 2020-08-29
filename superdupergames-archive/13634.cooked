@@ -1,0 +1,57 @@
+Face (0, r3b2) g3-
+Mrstickman (1, g1y2) -b3
+build g1 at Face
+build b1 at Mrstickman
+convert g3 to y3 at Face
+build b1 at Mrstickman
+build y1 at Face
+convert b1 to g1 at Mrstickman
+build g2 at Face
+move g1 from Mrstickman to Lorem (y3)
+convert g2 to r2 at Face
+build g2 at Lorem
+move r2 from Face to Jabulani (y1)
+build g2 at Lorem
+move r2 from Jabulani to Lorem
+move g2 from Lorem to Mrstickman
+capture g2 at Lorem
+move g1 from Lorem to Ipsum (y2)
+convert y1 to b1 at Face
+convert b3 to r3 at Mrstickman
+move b1 from Face to Algebra (y1)
+move g1 from Ipsum to Dolor (y3)
+move b1 from Algebra to Lorem
+build r1 at Mrstickman
+build g2 at Face
+build g3 at Dolor
+build g3 at Lorem
+build g3 at Dolor
+move g1 from Face to Saveseats (y1)
+move g3 from Dolor to Sit (b1)
+convert g3 to r3 at Lorem
+sacrifice g3 at Dolor; build g3 at Dolor; build g3 at Sit; build b2 at Mrstickman
+build b2 at Lorem
+convert g2 to y2 at Mrstickman
+build g2 at Saveseats
+move r1 from Mrstickman to Dolor
+move b2 from Lorem to Saveseats
+build r1 at Dolor
+build b3 at Saveseats
+move r1 from Dolor to Sit
+build b3 at Lorem
+move b1 from Mrstickman to Dolor
+convert b2 to y2 at Saveseats
+sacrifice g3 at Sit; build g3 at Sit; build b2 at Dolor; build b3 at Mrstickman
+build y1 at Saveseats
+convert b1 to y1 at Dolor
+move y1 from Saveseats to Lorem
+sacrifice g3 at Sit; build g3 at Sit; build r1 at Sit; build b1 at Dolor
+move g1 from Saveseats to Lorem
+sacrifice y2 at Mrstickman; move r1 from Sit to Lorem; move r1 from Sit to Lorem; catastrophe red at Lorem
+sacrifice y2 at Saveseats; move g1 from Lorem to Sit; move g2 from Lorem to Sit; catastrophe green at Sit
+move b2 from Dolor to Amet (g1)
+convert b3 to g3 at Lorem
+move g1 from Dolor to Adipiscing (b1)
+build b3 at Lorem
+move r3 from Mrstickman to Lorem
+sacrifice y3 at Face; move b1 from Lorem to Mrstickman; move b3 from Lorem to Mrstickman; move g3 from Lorem to Goodgame (y2); catastrophe blue at Mrstickman

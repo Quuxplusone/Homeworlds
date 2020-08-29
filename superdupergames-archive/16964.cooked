@@ -1,0 +1,53 @@
+Twoshort (0, r1b2) g3-
+Dlwillson (1, b3y2) -g3
+build g1 at Twoshort
+build g1 at Dlwillson
+convert g1 to y1 at Twoshort
+convert g1 to r1 at Dlwillson
+build y1 at Twoshort
+build r1 at Dlwillson
+build y1 at Twoshort
+move r1 from Dlwillson to Duct_Tape (b1)
+move y1 from Twoshort to Grogar (g3)
+build g1 at Dlwillson
+build y2 at Twoshort
+sacrifice g3 at Dlwillson; build r2 at Duct_Tape; build r2 at Duct_Tape; build r2 at Dlwillson
+build y2 at Grogar
+build r3 at Dlwillson
+build y3 at Grogar
+move r3 from Dlwillson to Wd40 (b1)
+sacrifice y3 at Grogar; move y1 from Twoshort to Flip (y3); move y1 from Twoshort to Flap (y3); move y2 from Twoshort to Yelly (y3)
+build r3 at Dlwillson
+build g1 at Twoshort
+convert r2 to g2 at Duct_Tape
+convert g1 to b1 at Twoshort
+convert r2 to b2 at Dlwillson
+build b2 at Twoshort
+build b3 at Dlwillson
+move y2 from Grogar to Twoshort
+move b3 from Dlwillson to Pliers (g1)
+move b2 from Twoshort to Bluestar (b3)
+move b2 from Dlwillson to Bfh (g1)
+move b1 from Twoshort to Groundhog (g3)
+build g2 at Dlwillson
+build g2 at Twoshort
+build r2 at Dlwillson
+move g2 from Twoshort to Flip
+move r2 from Dlwillson to Pliers
+move y1 from Flip to Twoshort
+build r2 at Dlwillson
+sacrifice g2 at Flip; build y3 at Grogar; build g2 at Twoshort
+build r3 at Duct_Tape
+move g2 from Twoshort to Yelly
+sacrifice b2 at Bfh; convert r1 to g1 at Duct_Tape; convert r2 to b2 at Dlwillson
+move y2 from Yelly to Roger (r1)
+build r2 at Dlwillson
+sacrifice g2 at Yelly; build y3 at Roger; build g2 at Twoshort
+pass
+move y2 from Roger to Bluestar
+pass
+move b2 from Bluestar to Roger
+pass
+sacrifice y3 at Roger; move b1 from Groundhog to Roger; move b1 from Roger to Dlwillson; move b2 from Roger to Dlwillson; catastrophe blue at Dlwillson
+convert b3 to y3 at Pliers
+sacrifice y3 at Grogar; move y1 from Grogar to Dlwillson; move y1 from Flap to Dlwillson; move y2 from Bluestar to Dlwillson; catastrophe yellow at Dlwillson

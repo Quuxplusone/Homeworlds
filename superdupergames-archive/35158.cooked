@@ -1,0 +1,34 @@
+Trydnt (0, g3b2) y3-
+Dlwillson (1, b3r1) -g3
+build y1 at Trydnt
+build g1 at Dlwillson
+build y1 at Trydnt
+convert g1 to y1 at Dlwillson
+convert y1 to r1 at Trydnt
+build g1 at Dlwillson
+build r1 at Trydnt
+build y1 at Dlwillson
+build y2 at Trydnt
+build y2 at Dlwillson
+move y1 from Trydnt to G1 (g1)
+move y1 from Dlwillson to Field (g2)
+move r1 from Trydnt to G1
+move y1 from Dlwillson to Sea (b2)
+move r1 from G1 to Field
+move y1 from Field to Forest (g1)
+move y1 from G1 to Sea
+move y1 from Sea to Sky (b1)
+move y2 from Trydnt to Forest
+sacrifice g3 at Dlwillson; build y2 at Forest; build y3 at Sky; build y3 at Dlwillson
+build r2 at Field
+sacrifice y2 at Dlwillson; move y1 from Forest to Trydnt; move y2 from Forest to Trydnt
+convert y3 to r3 at Trydnt
+sacrifice y1 at Trydnt; move y2 from Trydnt to Alsosky (b1)
+build r2 at Trydnt
+convert y3 to r3 at Sky
+convert r3 to y3 at Trydnt
+build g1 at Dlwillson
+move r2 from Trydnt to Alsosky
+move y2 from Alsosky to Sea
+move y1 from Sea to G3 (g3)
+build g2 at Dlwillson

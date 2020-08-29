@@ -1,0 +1,34 @@
+Magicjohn (0, y2b1) g3-
+Aristos (1, b3g2) -y3
+build g1 at Magicjohn
+build y1 at Aristos
+move g1 from Magicjohn to Firstbase (b3)
+build y1 at Aristos
+build g1 at Magicjohn
+move y1 from Aristos to Breakout (y1)
+build g1 at Firstbase
+build y2 at Aristos
+convert g1 to r1 at Magicjohn
+sacrifice y1 at Aristos; move y2 from Aristos to Illium (y1)
+build g1 at Magicjohn
+build y2 at Aristos
+sacrifice g3 at Magicjohn; build g2 at Firstbase; build g2 at Magicjohn; build g3 at Magicjohn
+build y3 at Aristos
+convert g3 to y3 at Magicjohn
+convert y2 to r2 at Aristos
+convert g2 to y2 at Firstbase
+move y2 from Illium to Planum (g3)
+move y3 from Magicjohn to Planum
+build y1 at Planum
+sacrifice r1 at Magicjohn; capture y2 at Planum
+move y1 from Breakout to Planum; catastrophe yellow at Planum
+move g1 from Firstbase to Secondbase (y2)
+build r1 at Aristos
+build g2 at Secondbase
+sacrifice y3 at Aristos; move y3 from Aristos to Warpath (r1); move y3 from Warpath to Warpath2 (r3); move y3 from Warpath2 to Magicjohn
+move y2 from Firstbase to Magicjohn
+sacrifice r2 at Aristos; capture g2 at Magicjohn; capture y2 at Magicjohn
+convert g1 to b1 at Magicjohn
+convert y2 to r2 at Magicjohn
+sacrifice g1 at Secondbase; build b1 at Magicjohn
+sacrifice r2 at Magicjohn; capture b1 at Magicjohn; capture b1 at Magicjohn

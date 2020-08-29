@@ -1,0 +1,34 @@
+Magicjohn (0, r1b2) g3-
+Wil (1, r3b2) -g3
+build g1 at Magicjohn
+build g1 at Wil
+convert g1 to y1 at Magicjohn
+convert g1 to y1 at Wil
+build g1 at Magicjohn
+build g1 at Wil
+convert g1 to b1 at Magicjohn
+convert g1 to b1 at Wil
+build g1 at Magicjohn
+build g1 at Wil
+move y1 from Magicjohn to Abra (g3)
+convert g1 to r1 at Wil
+build g1 at Magicjohn
+build r1 at Wil
+convert g3 to r3 at Magicjohn
+move r1 from Wil to G1 (g1)
+build r2 at Magicjohn
+build g2 at Wil
+build g2 at Magicjohn
+move g2 from Wil to B1 (b1)
+convert r2 to y2 at Magicjohn
+build g2 at Wil
+move g2 from Magicjohn to Abra
+sacrifice g3 at Wil; build g3 at Wil; build g3 at B1; build b2 at Wil
+build b3 at Magicjohn
+move b2 from Wil to G1
+move b1 from Magicjohn to Abra
+sacrifice g3 at Wil; build g3 at Wil; build r2 at G1; build r2 at G1
+build b3 at Abra
+build b3 at G1
+move g2 from Abra to Kadabra (y1)
+sacrifice b2 at G1; convert r2 to y2 at G1; convert g2 to y2 at B1

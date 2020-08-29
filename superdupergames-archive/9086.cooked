@@ -1,0 +1,38 @@
+Mikeyarrum (0, g3y1) b3-
+Mneme (1, r1b2) -g3
+build b1 at Mikeyarrum
+build g1 at Mneme
+build b1 at Mikeyarrum
+convert g1 to b1 at Mneme
+move b1 from Mikeyarrum to Chihiro (g2)
+build b2 at Mneme
+build b2 at Chihiro
+convert b2 to y2 at Mneme
+convert b2 to y2 at Chihiro
+move b1 from Mneme to Pine (g3)
+convert b1 to r1 at Chihiro
+build g1 at Mneme
+move r1 from Chihiro to Pine
+build g1 at Mneme
+capture b1 at Pine
+build y1 at Mneme
+convert b1 to g1 at Pine
+convert g1 to r1 at Mneme
+build r2 at Pine
+move y2 from Mneme to Disaster (r3)
+build b1 at Mikeyarrum
+convert g1 to b1 at Mneme
+convert b1 to y1 at Mikeyarrum
+move r1 from Mneme to Sign (y3)
+move y1 from Mikeyarrum to Chihiro
+build y2 at Mneme
+move y1 from Chihiro to Pine
+convert y2 to g2 at Mneme
+move r1 from Pine to Chihiro
+move g2 from Mneme to Sign
+build r2 at Chihiro
+move b1 from Mneme to Beauty (y3)
+move r2 from Chihiro to Beauty
+sacrifice g2 at Sign; build y2 at Disaster; build y3 at Mneme
+capture b1 at Beauty
+convert y1 to b1 at Mneme

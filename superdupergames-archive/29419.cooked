@@ -1,0 +1,37 @@
+Ts52 (0, y3b2) g3-
+Felix (1, b3y1) -g3
+build g1 at Ts52
+build g1 at Felix
+convert g1 to y1 at Ts52
+convert g1 to y1 at Felix
+build y2 at Ts52
+build y2 at Felix
+move y1 from Ts52 to Kermit (g1)
+move y1 from Felix to Sirius (g2)
+build g1 at Ts52
+build g1 at Felix
+build g2 at Ts52
+build g2 at Felix
+move g2 from Ts52 to Gonzo (b1)
+convert g1 to b1 at Felix
+sacrifice g3 at Ts52; build g1 at Ts52; build g3 at Ts52; build g3 at Gonzo
+move g2 from Felix to Brinstar (b2)
+convert g1 to r1 at Ts52
+build g1 at Felix
+sacrifice y2 at Ts52; move g3 from Gonzo to Brinstar; move g3 from Brinstar to Felix
+convert g2 to r2 at Brinstar
+sacrifice g3 at Ts52; build g2 at Felix; build g3 at Ts52; build y2 at Kermit; catastrophe green at Felix
+convert y2 to g2 at Felix
+move y1 from Kermit to Sirius
+move y1 from Sirius to Alpha (b1)
+build y2 at Sirius
+build b2 at Felix
+sacrifice g2 at Gonzo; build y2 at Sirius; build y3 at Kermit
+move y1 from Alpha to Beta (g2)
+sacrifice y2 at Sirius; move y3 from Kermit to Brinstar; move y3 from Brinstar to Felix
+build g1 at Felix
+convert y3 to r3 at Felix
+build g3 at Felix
+capture g3 at Felix
+build g3 at Felix; catastrophe green at Felix
+convert r3 to b3 at Felix; catastrophe blue at Felix

@@ -1,0 +1,30 @@
+Joe_Hill (0, b2y1) g3-
+Ratpfink (1, r3b2) -g3
+build g1 at Joe_Hill
+build g1 at Ratpfink
+build g1 at Joe_Hill
+build g2 at Ratpfink
+convert g1 to b1 at Joe_Hill
+convert g1 to b1 at Ratpfink
+build b1 at Joe_Hill
+build b2 at Ratpfink
+convert b1 to y1 at Joe_Hill
+convert b2 to y2 at Ratpfink
+build y1 at Joe_Hill
+build y2 at Ratpfink
+move y1 from Joe_Hill to Fat (r3)
+move y2 from Ratpfink to Eat (g1)
+move g1 from Joe_Hill to Fat
+build y2 at Eat
+build y3 at Joe_Hill
+sacrifice y2 at Eat; move y2 from Eat to Fat; move y2 from Fat to Joe_Hill; catastrophe yellow at Joe_Hill
+build g1 at Joe_Hill
+convert g3 to r3 at Ratpfink
+convert g1 to y1 at Joe_Hill
+move r3 from Ratpfink to Deathstar (y1)
+build b1 at Joe_Hill
+move r3 from Deathstar to Joe_Hill
+move b1 from Joe_Hill to Bad (y1)
+capture g3 at Joe_Hill
+move b1 from Joe_Hill to Bad
+capture y1 at Joe_Hill

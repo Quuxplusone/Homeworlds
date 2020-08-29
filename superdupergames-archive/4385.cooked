@@ -1,0 +1,62 @@
+Mjbuyck (0, y1g2) b3-
+Zoltar (1, r3b2) -g3
+build b1 at Mjbuyck
+build g1 at Zoltar
+move b1 from Mjbuyck to Lamp (g3)
+convert g1 to y1 at Zoltar
+build b1 at Mjbuyck
+build y1 at Zoltar
+build b1 at Mjbuyck
+build y2 at Zoltar
+move b1 from Mjbuyck to Baxter (b3)
+convert y2 to b2 at Zoltar
+move b1 from Mjbuyck to Panda (b3)
+build b2 at Zoltar
+convert b3 to g3 at Mjbuyck
+move b2 from Zoltar to Greendale (g1)
+build b3 at Lamp
+build y2 at Zoltar
+build g1 at Mjbuyck
+move y1 from Zoltar to Greendale
+move g1 from Mjbuyck to Panda
+build y2 at Greendale
+convert b3 to y3 at Lamp
+build b3 at Greendale
+move b1 from Lamp to Mjbuyck
+convert y1 to r1 at Greendale
+build y1 at Lamp
+move b3 from Greendale to Lamp
+build g1 at Mjbuyck
+sacrifice r1 at Greendale; capture y3 at Lamp
+move y1 from Lamp to Mjbuyck
+build g2 at Zoltar
+convert g1 to r1 at Mjbuyck
+build y2 at Lamp
+move y1 from Mjbuyck to Panda
+sacrifice g2 at Zoltar; build y3 at Greendale; build y3 at Lamp
+build r1 at Mjbuyck
+move y3 from Greendale to Panda
+move y1 from Panda to Greendale
+convert y2 to r2 at Lamp
+build y2 at Greendale
+sacrifice r2 at Lamp; capture y2 at Greendale; capture y1 at Greendale
+move r1 from Mjbuyck to Baxter
+convert y3 to r3 at Lamp
+convert b1 to g1 at Baxter
+build g2 at Zoltar
+build g2 at Baxter
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Panda; build b1 at Greendale
+build r1 at Mjbuyck
+convert y3 to r3 at Panda
+convert g3 to y3 at Mjbuyck
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Zoltar; build r2 at Panda
+move r1 from Mjbuyck to Baxter
+sacrifice r2 at Panda; capture g1 at Panda; capture b1 at Panda
+build r2 at Mjbuyck
+sacrifice g3 at Zoltar; build g3 at Panda; build r2 at Panda; build r2 at Lamp
+pass
+sacrifice y3 at Panda; move y1 from Zoltar to Greendale; move y1 from Greendale to Panda; move y1 from Greendale to Panda
+move r1 from Mjbuyck to Baxter
+sacrifice y3 at Lamp; move y1 from Panda to Mjbuyck; move y1 from Panda to Mjbuyck; move r3 from Panda to Mjbuyck; catastrophe yellow at Mjbuyck
+pass
+sacrifice r2 at Lamp; capture r2 at Mjbuyck; capture b1 at Mjbuyck

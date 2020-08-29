@@ -1,0 +1,34 @@
+Mathematician42 (0, b1r2) g3-
+Trydnt (1, b1g3) -b3
+build g1 at Mathematician42
+build b1 at Trydnt
+build g1 at Mathematician42
+convert b3 to y3 at Trydnt
+convert g1 to y1 at Mathematician42
+build b2 at Trydnt
+build g1 at Mathematician42
+move b2 from Trydnt to G2 (g2)
+convert g1 to r1 at Mathematician42
+build b2 at G2
+build g1 at Mathematician42
+build b2 at Trydnt
+move r1 from Mathematician42 to G3 (g3)
+build b3 at G2
+move g1 from Mathematician42 to G3
+convert b3 to y3 at G2
+build y1 at Mathematician42
+build b3 at G2
+build y1 at Mathematician42
+convert b2 to r2 at G2
+move y1 from Mathematician42 to G3
+build b2 at G2
+build y2 at Mathematician42
+build y2 at G2
+build g1 at Mathematician42
+move b3 from G2 to Y3 (y3)
+move g1 from Mathematician42 to Y3
+build r1 at G2
+move r1 from G3 to Mathematician42
+move r2 from G2 to Y3
+move y1 from G3 to G2
+sacrifice y3 at G2; move r1 from G2 to Y3; move r1 from Y3 to Mathematician42; move r2 from Y3 to Mathematician42; catastrophe red at Mathematician42

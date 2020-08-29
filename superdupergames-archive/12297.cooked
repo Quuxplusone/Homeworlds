@@ -1,0 +1,36 @@
+Mschlat (0, y3b1) g3-
+Madwuher (1, r1b2) -g3
+build g1 at Mschlat
+build g1 at Madwuher
+convert g1 to y1 at Mschlat
+convert g1 to y1 at Madwuher
+move y1 from Mschlat to Oneaway1 (g2)
+build g1 at Madwuher
+build g1 at Mschlat
+convert g1 to b1 at Madwuher
+build g1 at Mschlat
+build b1 at Madwuher
+move g1 from Mschlat to Oneaway1
+move b1 from Madwuher to Edora (g3)
+convert g1 to r1 at Mschlat
+build b2 at Edora
+build r1 at Mschlat
+build b2 at Madwuher
+build r2 at Mschlat
+move b2 from Madwuher to Camelot (y3)
+move r2 from Mschlat to Oneaway1
+sacrifice g3 at Madwuher; build b3 at Madwuher; build b3 at Camelot; build b3 at Edora
+sacrifice g3 at Mschlat; build r2 at Mschlat; build r2 at Oneaway1; build r3 at Oneaway1
+sacrifice b2 at Edora; convert b3 to r3 at Camelot; convert b3 to g3 at Madwuher
+move r2 from Oneaway1 to Edora
+sacrifice g3 at Madwuher; build b2 at Camelot; build b3 at Edora; build b3 at Madwuher
+build r3 at Edora
+sacrifice r3 at Camelot; capture r3 at Edora; capture r2 at Edora
+move r3 from Oneaway1 to Camelot
+sacrifice b2 at Camelot; convert b3 to g3 at Madwuher; convert b3 to y3 at Edora
+move r1 from Mschlat to Oneaway2 (g2)
+sacrifice y3 at Edora; move b3 from Edora to Oneaway2; move b3 from Oneaway2 to Mschlat; move b2 from Camelot to Bologna (y2)
+build r3 at Oneaway2
+sacrifice g3 at Madwuher; build b2 at Edora; build b3 at Madwuher; build b3 at Bologna
+move r3 from Camelot to Oneaway1
+sacrifice r2 at Edora; capture r2 at Mschlat; capture r1 at Mschlat

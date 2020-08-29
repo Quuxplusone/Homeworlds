@@ -1,0 +1,61 @@
+Zackstack (0, r1b3) g3-
+Rootbier (1, r2b3) -g3
+build g1 at Zackstack
+build g1 at Rootbier
+convert g1 to y1 at Zackstack
+convert g1 to y1 at Rootbier
+build g1 at Zackstack
+build g1 at Rootbier
+move g1 from Zackstack to Globe (b2)
+move g1 from Rootbier to Aubergine (b1)
+build g1 at Zackstack
+build g2 at Rootbier
+move y1 from Zackstack to Globe
+move g2 from Rootbier to Uva (b1)
+convert g1 to b1 at Zackstack
+build g1 at Rootbier
+build y1 at Globe
+sacrifice g3 at Rootbier; build g2 at Uva; build g2 at Aubergine; build g3 at Rootbier
+build g3 at Globe
+sacrifice g3 at Rootbier; build g3 at Rootbier; build y2 at Rootbier; build y2 at Rootbier
+move y1 from Globe to Crumb (r1)
+convert y1 to r1 at Rootbier
+sacrifice g3 at Globe; build g3 at Globe; build b2 at Zackstack; build y1 at Crumb
+move y2 from Rootbier to Aubergine
+convert b2 to r2 at Zackstack
+sacrifice g3 at Rootbier; build y2 at Aubergine; build y3 at Rootbier; build r2 at Rootbier
+sacrifice g3 at Globe; build g3 at Globe; build y3 at Globe; build g3 at Zackstack
+sacrifice y2 at Rootbier; move g1 from Aubergine to Globe; move y2 from Aubergine to Globe
+sacrifice y3 at Globe; move g3 from Globe to Crumb; move g1 from Globe to Crumb; move y1 from Globe to Zackstack
+sacrifice y2 at Aubergine; move g1 from Globe to Zackstack; move g2 from Uva to Globe
+convert g3 to y3 at Zackstack
+sacrifice g1 at Rootbier; build g1 at Zackstack
+sacrifice y3 at Zackstack; move r2 from Zackstack to Globe; move r2 from Globe to Aubergine; move r2 from Aubergine to Rootbier; catastrophe red at Rootbier
+sacrifice g2 at Aubergine; build g2 at Zackstack; build g3 at Uva; catastrophe green at Zackstack
+move y1 from Crumb to Rootbier
+move g2 from Globe to Rootbier
+sacrifice g3 at Crumb; build y2 at Rootbier; build y2 at Rootbier; build y3 at Zackstack; catastrophe yellow at Rootbier
+build g1 at Rootbier
+build g1 at Crumb
+convert g1 to y1 at Rootbier
+build y2 at Crumb
+sacrifice g2 at Uva; build y2 at Globe; build y3 at Rootbier
+convert y3 to g3 at Zackstack
+move y1 from Rootbier to Greengrape (g2)
+move b1 from Zackstack to Verde (g2)
+move g2 from Rootbier to Verde
+build b1 at Verde
+sacrifice g3 at Uva; build g1 at Verde; build g3 at Verde; build y3 at Rootbier; catastrophe green at Verde
+build y3 at Zackstack
+sacrifice y2 at Globe; move y2 from Globe to Zackstack; move y1 from Greengrape to Zackstack; catastrophe yellow at Zackstack
+build g1 at Zackstack
+convert y3 to g3 at Rootbier
+convert g1 to y1 at Zackstack
+build y1 at Rootbier
+build y2 at Zackstack
+move y1 from Rootbier to Huh (g2)
+convert y1 to b1 at Zackstack
+build y1 at Rootbier
+move b1 from Zackstack to Sunspot (y2)
+build y3 at Huh
+move b1 from Sunspot to Rootbier

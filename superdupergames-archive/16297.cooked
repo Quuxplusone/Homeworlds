@@ -1,0 +1,43 @@
+Rootbier (0, b3r1) g3-
+Teo (1, b1g2) -y3
+build g1 at Rootbier
+build y1 at Teo
+convert g1 to y1 at Rootbier
+convert y1 to g1 at Teo
+build y1 at Rootbier
+build g1 at Teo
+convert y1 to r1 at Rootbier
+convert g1 to b1 at Teo
+build r1 at Rootbier
+build g1 at Teo
+move r1 from Rootbier to Springless (b2)
+convert y3 to r3 at Teo
+build y1 at Rootbier
+build r2 at Teo
+build y1 at Rootbier
+convert r2 to y2 at Teo
+move y1 from Rootbier to Special (g2)
+build y2 at Teo
+sacrifice g3 at Rootbier; build y2 at Special; build y3 at Rootbier; build r2 at Springless
+build r2 at Teo
+move y1 from Rootbier to Optimal (g2)
+move y2 from Teo to Sun (r3)
+build y3 at Optimal
+build y3 at Teo
+convert y3 to g3 at Rootbier
+move g1 from Teo to Sun
+move y1 from Special to Noteworthy (b3)
+move y3 from Teo to Sun
+convert y1 to g1 at Noteworthy
+build g3 at Sun
+build g3 at Noteworthy
+move y3 from Sun to Springless
+sacrifice g3 at Noteworthy; build g3 at Noteworthy; build y1 at Special; build y3 at Rootbier
+move g1 from Sun to Springless
+sacrifice y2 at Special; move g1 from Noteworthy to Teo; move g3 from Noteworthy to Teo; catastrophe green at Teo
+convert b1 to g1 at Teo
+convert y3 to b3 at Rootbier
+convert r2 to b2 at Teo
+build y2 at Special
+build y3 at Teo
+sacrifice b3 at Rootbier; convert y2 to b2 at Special; convert y1 to b1 at Special; convert y1 to b1 at Optimal

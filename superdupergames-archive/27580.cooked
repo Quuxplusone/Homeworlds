@@ -1,0 +1,53 @@
+Hellajoey (0, y1b2) g3-
+Grissom (1, b2r1) -g3
+build g1 at Hellajoey
+build g1 at Grissom
+move g1 from Hellajoey to Blu3 (b3)
+convert g1 to y1 at Grissom
+build g1 at Hellajoey
+build y1 at Grissom
+move g1 from Hellajoey to Y3Llow (y3)
+move y1 from Grissom to Gr33N (g3)
+build g1 at Hellajoey
+build y2 at Grissom
+build g2 at Y3Llow
+move y2 from Grissom to Eulb (b3)
+sacrifice g3 at Hellajoey; build g2 at Blu3; build g2 at Blu3; build g3 at Hellajoey
+sacrifice g3 at Grissom; build y2 at Eulb; build y2 at Gr33N; build y3 at Grissom
+build g3 at Y3Llow
+build y3 at Gr33N
+convert g1 to r1 at Hellajoey
+convert y1 to g1 at Grissom
+move g2 from Y3Llow to B1Ue (b1)
+build y1 at Grissom
+sacrifice g2 at Blu3; build r1 at Hellajoey; build g2 at Hellajoey
+convert y3 to r3 at Grissom
+move r1 from Hellajoey to Olyeller (y3)
+sacrifice y2 at Eulb; move r3 from Grissom to Y3Llow; move y3 from Gr33N to Grissom
+sacrifice r1 at Hellajoey; capture r3 at Y3Llow
+build y2 at Gr33N
+sacrifice g3 at Hellajoey; build r1 at Olyeller; build r2 at Y3Llow; build g3 at Hellajoey
+move y1 from Gr33N to Hellajoey
+move g2 from Hellajoey to Gr33N
+sacrifice y2 at Eulb; move y2 from Gr33N to Hellajoey; move y2 from Gr33N to Hellajoey; catastrophe yellow at Hellajoey
+move r2 from Y3Llow to Hellajoey
+convert y1 to b1 at Grissom
+convert r2 to y2 at Hellajoey
+build y1 at Grissom
+sacrifice g3 at Y3Llow; build g3 at Y3Llow; build y1 at Hellajoey; build y1 at Hellajoey
+move y1 from Grissom to Eulb (b3)
+move y2 from Hellajoey to Eulb
+move y1 from Eulb to Eu1B (b1)
+sacrifice g3 at Y3Llow; build g3 at Y3Llow; build r2 at Y3Llow; build r2 at Olyeller
+build y2 at Grissom
+sacrifice g3 at Y3Llow; build g3 at Y3Llow; build y2 at Eulb; build r2 at Y3Llow
+move y2 from Grissom to R3D (r3)
+sacrifice y2 at Eulb; move r1 from Olyeller to Grissom; move r1 from Olyeller to Grissom
+build b2 at Grissom
+sacrifice g3 at Y3Llow; build g3 at Y3Llow; build r3 at Grissom; build y2 at Eulb; catastrophe red at Grissom
+convert b1 to r1 at Grissom
+convert y1 to b1 at Hellajoey
+sacrifice y2 at R3D; move r1 from Grissom to Y3Llow; move b2 from Grissom to Ye11Ow (y1); catastrophe red at Y3Llow
+move g3 from Y3Llow to Grissom
+move b2 from Ye11Ow to Hellajoey
+sacrifice r2 at Olyeller; capture y3 at Grissom; capture g1 at Grissom

@@ -1,0 +1,69 @@
+Twoshort (0, r1b3) g3-
+Danner (1, b1r2) -g3
+build g1 at Twoshort
+build g1 at Danner
+convert g1 to b1 at Twoshort
+convert g1 to b1 at Danner
+build b2 at Twoshort
+build b2 at Danner
+convert b2 to y2 at Twoshort
+convert b2 to y2 at Danner
+build b2 at Twoshort
+build b2 at Danner
+convert b2 to r2 at Twoshort
+convert b2 to r2 at Danner
+move b1 from Twoshort to Grogar (g2)
+move b1 from Danner to Ragorg (g3)
+build b2 at Grogar
+build b2 at Ragorg
+convert b1 to r1 at Grogar
+convert b1 to r1 at Ragorg
+build r3 at Grogar
+build r3 at Ragorg
+move r2 from Twoshort to Greenland (g2)
+convert r1 to y1 at Ragorg
+convert r3 to y3 at Grogar
+build b1 at Ragorg
+move r1 from Grogar to Yolonda (y3)
+build y1 at Danner
+build y1 at Grogar
+move r2 from Danner to Yolonda
+move y3 from Grogar to Yolonda
+move y1 from Danner to Yolonda
+sacrifice g3 at Twoshort; build y2 at Grogar; build y3 at Twoshort; build b1 at Grogar
+capture r1 at Yolonda
+sacrifice b2 at Grogar; convert y2 to g2 at Twoshort; convert y3 to g3 at Yolonda
+move r3 from Ragorg to Grogar
+sacrifice r2 at Greenland; capture r2 at Yolonda; capture r1 at Yolonda
+sacrifice g3 at Danner; build y2 at Yolonda; build y3 at Yolonda; build r1 at Grogar; catastrophe yellow at Yolonda
+move y2 from Grogar to Greenland (g3)
+capture y1 at Grogar
+build g1 at Twoshort
+move r3 from Grogar to Greenland
+build y1 at Greenland
+convert y2 to g2 at Danner
+sacrifice g2 at Twoshort; build y2 at Greenland; build b2 at Grogar
+move y1 from Grogar to Greenland; catastrophe yellow at Greenland
+convert b2 to r2 at Grogar
+build r1 at Grogar
+build b2 at Grogar
+build r2 at Greenland
+sacrifice r2 at Grogar; capture r1 at Grogar; capture r1 at Grogar
+sacrifice b1 at Ragorg; convert r3 to y3 at Greenland
+convert b2 to y2 at Grogar
+build r2 at Greenland
+move r1 from Grogar to Gondor (g3)
+sacrifice b2 at Ragorg; convert r2 to b2 at Greenland
+build r2 at Grogar
+build r3 at Greenland
+build r3 at Gondor
+move y3 from Greenland to Danner
+sacrifice y2 at Grogar; move r2 from Grogar to Greenland; move r1 from Grogar to Greenland; catastrophe red at Greenland
+build g1 at Danner
+build y1 at Twoshort
+convert g2 to r2 at Danner
+move y1 from Twoshort to Grogar
+move r2 from Danner to Ragorg
+build y1 at Twoshort
+build y2 at Danner
+build y2 at Grogar

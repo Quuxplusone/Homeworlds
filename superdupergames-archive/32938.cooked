@@ -1,0 +1,29 @@
+Orangeblood (0, y1b2) g3-
+Mobynostromo (1, b1g2) -y3
+build g1 at Orangeblood
+build y1 at Mobynostromo
+convert g1 to b1 at Orangeblood
+convert y1 to g1 at Mobynostromo
+build g1 at Orangeblood
+build y1 at Mobynostromo
+move g1 from Orangeblood to Pollux (b3)
+convert y1 to b1 at Mobynostromo
+build b2 at Orangeblood
+build b2 at Mobynostromo
+convert b2 to y2 at Orangeblood
+move g1 from Mobynostromo to Azo (y3)
+sacrifice y2 at Orangeblood; move b1 from Orangeblood to Azo; move b1 from Azo to Mobynostromo; catastrophe blue at Mobynostromo
+build y1 at Mobynostromo
+convert g1 to y1 at Pollux
+move y1 from Mobynostromo to Pollux
+build g1 at Orangeblood
+build y2 at Mobynostromo
+convert g1 to r1 at Orangeblood
+convert y1 to r1 at Pollux
+sacrifice r1 at Orangeblood; capture r1 at Pollux
+move y2 from Mobynostromo to Pollux
+build g1 at Orangeblood
+convert y2 to b2 at Pollux
+move y1 from Pollux to Mobynostromo
+build y1 at Mobynostromo
+build y2 at Mobynostromo; catastrophe yellow at Mobynostromo

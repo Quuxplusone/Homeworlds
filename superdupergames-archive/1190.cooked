@@ -1,0 +1,31 @@
+Twoshort (0, y1b2) g3-
+Laurie_Menke (1, y3b2) -g3
+build g1 at Twoshort
+build g1 at Laurie_Menke
+build g1 at Twoshort
+build g2 at Laurie_Menke
+move g1 from Twoshort to Yolonda (y3)
+move g1 from Laurie_Menke to Luella (y1)
+move g1 from Yolonda to Troublemaker (y1)
+move g2 from Laurie_Menke to Cornflower (b1)
+build g2 at Troublemaker
+move g1 from Luella to Oceania (b3)
+move g2 from Troublemaker to Oceania
+convert g1 to y1 at Oceania
+build g1 at Oceania
+convert g2 to y2 at Cornflower
+build g2 at Troublemaker
+move y2 from Cornflower to Oceania
+sacrifice g3 at Twoshort; build g2 at Oceania; build g3 at Troublemaker; build g3 at Twoshort
+convert g3 to r3 at Laurie_Menke
+convert g2 to r2 at Oceania
+move y2 from Oceania to Troublemaker
+sacrifice r2 at Oceania; capture y1 at Oceania; capture y2 at Troublemaker
+convert r3 to g3 at Laurie_Menke
+convert g1 to r1 at Oceania
+convert g3 to r3 at Laurie_Menke
+sacrifice g3 at Twoshort; build g1 at Oceania; build g2 at Oceania; build g3 at Twoshort
+convert r3 to g3 at Laurie_Menke
+move g3 from Troublemaker to Laurie_Menke
+convert g3 to r3 at Laurie_Menke
+sacrifice r1 at Oceania; capture r3 at Laurie_Menke

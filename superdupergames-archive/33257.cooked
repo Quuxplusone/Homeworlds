@@ -1,0 +1,7 @@
+Dlwillson (0, b3y1) g3-
+Vezeon (1, b3r2) -g3
+build g1 at Dlwillson
+build g1 at Vezeon
+convert g1 to r1 at Dlwillson
+build g1 at Vezeon
+build r1 at Dlwillson

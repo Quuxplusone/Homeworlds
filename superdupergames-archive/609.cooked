@@ -1,0 +1,11 @@
+Aaron (0, y1b2) g3-
+Misuba (1, g3y2) -b2
+build g1 at Aaron
+build b1 at Misuba
+convert g1 to b1 at Aaron
+convert b2 to g2 at Misuba
+build g1 at Aaron
+build g1 at Misuba
+move g3 from Aaron to Lemons (y3)
+move g2 from Misuba to Giantpanda (b1)
+convert b1 to y1 at Aaron

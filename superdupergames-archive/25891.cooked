@@ -1,0 +1,57 @@
+Wil (0, r2b1) g3-
+Ts52 (1, y1b3) -g3
+build g1 at Wil
+build g1 at Ts52
+convert g1 to b1 at Wil
+convert g1 to b1 at Ts52
+build b2 at Wil
+move b1 from Ts52 to Oscar (g2)
+convert b1 to y1 at Wil
+build g1 at Ts52
+build y1 at Wil
+build g1 at Ts52
+build y2 at Wil
+move g1 from Ts52 to Gonzo (b2)
+convert y2 to r2 at Wil
+convert g3 to y3 at Ts52
+convert y1 to r1 at Wil
+build b1 at Oscar
+move r2 from Wil to Y3 (y3)
+convert b1 to r1 at Oscar
+move r2 from Y3 to Oscar
+build r1 at Oscar
+capture b1 at Oscar
+capture b1 at Oscar
+capture b1 at Oscar
+build r2 at Oscar; catastrophe red at Oscar
+build b1 at Wil
+build g1 at Ts52
+build b2 at Oscar
+convert g1 to r1 at Ts52
+build b3 at Oscar
+build y1 at Ts52
+convert b3 to y3 at Oscar
+move y1 from Ts52 to Gonzo
+build b3 at Oscar
+build y2 at Gonzo
+convert b3 to r3 at Oscar
+convert y2 to r2 at Gonzo
+build b3 at Oscar
+build y2 at Gonzo
+convert b3 to y3 at Oscar
+move y2 from Gonzo to Kermit (g3)
+build y2 at Wil
+build y2 at Gonzo
+build b3 at Oscar
+convert y2 to r2 at Gonzo
+sacrifice y2 at Wil; move b3 from Oscar to Kermit; move b3 from Kermit to Gonzo
+sacrifice y2 at Kermit; move r2 from Gonzo to Kermit (g3); move r2 from Gonzo to Kermit
+build b3 at Oscar
+build y2 at Gonzo
+sacrifice y3 at Oscar; move y3 from Oscar to Ts52; move b3 from Oscar to Ts52; move b3 from Gonzo to Ts52
+sacrifice r2 at Kermit; capture y3 at Ts52; capture b3 at Ts52
+sacrifice r3 at Oscar; capture y3 at Ts52; capture y3 at Ts52; capture b3 at Ts52
+convert r1 to g1 at Ts52
+sacrifice y1 at Wil; move b1 from Oscar to Ts52; catastrophe blue at Ts52
+build r1 at Kermit
+sacrifice g3 at Wil; build y1 at Ts52; build b1 at Oscar; build b3 at Oscar; catastrophe yellow at Ts52

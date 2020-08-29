@@ -1,0 +1,32 @@
+Steele (0, b2g1) y3-
+Ladybugsfly (1, y3b1) -g3
+build y1 at Steele
+build g1 at Ladybugsfly
+convert y1 to g1 at Steele
+build g2 at Ladybugsfly
+build g2 at Steele
+convert g1 to r1 at Ladybugsfly
+build y1 at Steele
+move g2 from Ladybugsfly to Ravenclaw (b2)
+move g2 from Steele to Alpha (y3)
+build g1 at Ladybugsfly
+move g2 from Alpha to Beta (y2)
+move g1 from Ladybugsfly to Mystic (y2)
+build g2 at Beta
+sacrifice g3 at Ladybugsfly; build g3 at Mystic; build g3 at Mystic; build g3 at Ravenclaw
+convert y1 to r1 at Steele
+move g3 from Mystic to Ladybugsfly
+build y1 at Steele
+sacrifice g2 at Ravenclaw; build r1 at Ladybugsfly; build r2 at Ladybugsfly
+build g2 at Steele
+move g1 from Mystic to Squirtle (y3)
+move g1 from Steele to Squirtle
+sacrifice r1 at Ladybugsfly; capture g1 at Squirtle
+move g2 from Steele to Squirtle
+move g1 from Squirtle to Steele
+capture g1 at Steele
+move g1 from Squirtle to Steele
+move g1 from Steele to Squirtle
+sacrifice r2 at Ladybugsfly; capture r1 at Steele; capture y1 at Steele
+convert y3 to r3 at Steele
+sacrifice g3 at Ravenclaw; build r1 at Steele; build r2 at Steele; catastrophe red at Steele

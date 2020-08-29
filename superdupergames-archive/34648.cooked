@@ -1,0 +1,55 @@
+Trydnt (0, y3b2) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Trydnt
+build g1 at Ts52
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Ts52
+build y2 at Trydnt
+build y2 at Ts52
+move y1 from Trydnt to G1 (g1)
+move y1 from Ts52 to Kermit (g3)
+build g1 at Trydnt
+build g1 at Ts52
+build g2 at Trydnt
+build g2 at Ts52
+convert g1 to r1 at Trydnt
+convert g2 to r2 at Ts52
+move y2 from Trydnt to G11 (g1)
+build r1 at Ts52
+build g2 at Trydnt
+move g1 from Ts52 to Gonzo (b3)
+move g2 from Trydnt to B1 (b1)
+move y2 from Ts52 to Gonzo
+sacrifice g3 at Trydnt; build g2 at B1; build g3 at Trydnt; build r1 at Trydnt
+move r1 from Ts52 to Gonzo
+move r1 from Trydnt to G11
+build r2 at Gonzo
+sacrifice g3 at Trydnt; build g3 at Trydnt; build r2 at Trydnt; build r3 at G11
+build r3 at Ts52
+move r3 from G11 to Kermit
+move g3 from Ts52 to Elmo (r3)
+capture y1 at Kermit
+move r2 from Gonzo to G1
+move y1 from G1 to B3 (b3)
+sacrifice g3 at Elmo; build r3 at Gonzo; build g3 at Gonzo
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y2 at Kermit; build y3 at G11
+convert r2 to b2 at Ts52
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y3 at B3; build r2 at Kermit
+move r3 from Gonzo to B1
+sacrifice y2 at G11; move g2 from B1 to Gonzo; move g2 from B1 to Gonzo; catastrophe green at Gonzo
+convert b2 to g2 at Ts52
+build y2 at G11
+build g1 at Ts52
+convert r1 to b1 at Trydnt
+move g2 from Ts52 to Gonzo
+move y3 from G11 to Gonzo
+move y2 from Gonzo to B1
+sacrifice r2 at Kermit; capture g2 at Gonzo; capture r1 at Gonzo
+build g2 at Ts52
+sacrifice g3 at Trydnt; build g3 at Trydnt; build g3 at Gonzo; build r1 at Gonzo
+sacrifice g2 at Ts52; build g2 at Ts52; build r2 at B1
+sacrifice b1 at Trydnt; convert r3 to b3 at Kermit
+build r3 at G1
+sacrifice y3 at B3; move r1 from Gonzo to Ts52; move r1 from Gonzo to Ts52; move g3 from Gonzo to Ts52
+sacrifice r3 at G1; capture g3 at Ts52; capture r1 at Ts52; capture r1 at Ts52
+sacrifice y3 at Gonzo; move g2 from Gonzo to Ts52; move r1 from G11 to B3; move r1 from B3 to Ts52; catastrophe green at Ts52; catastrophe red at Ts52

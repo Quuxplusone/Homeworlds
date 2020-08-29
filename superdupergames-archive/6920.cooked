@@ -1,0 +1,21 @@
+Laurie_Menke (0, b1y3) g3-
+Hedge_O_Matic (1, y3b1) -g3
+build g1 at Laurie_Menke
+build g1 at Hedge_O_Matic
+convert g1 to b1 at Laurie_Menke
+build g1 at Hedge_O_Matic
+build b2 at Laurie_Menke
+convert g1 to y1 at Hedge_O_Matic
+move b1 from Laurie_Menke to Luella (y2)
+move g1 from Hedge_O_Matic to Penrose (r2)
+build g1 at Laurie_Menke
+build g1 at Penrose
+move g1 from Laurie_Menke to Luella
+build g2 at Hedge_O_Matic
+move g1 from Luella to Hedge_O_Matic
+convert g2 to r2 at Hedge_O_Matic
+move g1 from Hedge_O_Matic to Luella
+move r2 from Hedge_O_Matic to Luella
+move g1 from Luella to Hedge_O_Matic
+move y1 from Hedge_O_Matic to Phi (g2)
+sacrifice g3 at Laurie_Menke; build g2 at Hedge_O_Matic; build g2 at Hedge_O_Matic; build g3 at Hedge_O_Matic; catastrophe green at Hedge_O_Matic

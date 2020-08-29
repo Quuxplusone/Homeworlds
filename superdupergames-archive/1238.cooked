@@ -1,0 +1,29 @@
+Twoshort (0, y1b2) g3-
+Lambda (1, g3b2) -y3
+build g1 at Twoshort
+build y1 at Lambda
+build g1 at Twoshort
+build y1 at Lambda
+move g1 from Twoshort to Bluestar (b3)
+move y1 from Lambda to Arcturus (b1)
+build g1 at Twoshort
+build y2 at Lambda
+move g1 from Twoshort to Yellonia (y3)
+move y2 from Lambda to Arcturus
+build g2 at Bluestar
+convert y2 to g2 at Arcturus
+convert g2 to y2 at Bluestar
+build g2 at Arcturus
+sacrifice g3 at Twoshort; build g2 at Yellonia; build g3 at Bluestar; build g3 at Twoshort
+move g2 from Arcturus to Sol (y3)
+convert g3 to r3 at Twoshort
+build g3 at Sol
+sacrifice y2 at Bluestar; move g3 from Bluestar to Arcturus; move g3 from Arcturus to Lambda
+sacrifice y3 at Lambda; move g2 from Arcturus to Lambda; move g2 from Sol to Arcturus; move g2 from Arcturus to Lambda; catastrophe green at Lambda
+move g2 from Yellonia to Lambda
+move g3 from Sol to Lambda
+build g2 at Yellonia
+convert y1 to r1 at Lambda
+sacrifice g2 at Yellonia; build g2 at Lambda; build g2 at Lambda; catastrophe green at Lambda
+move y1 from Arcturus to Lambda
+build g2 at Yellonia

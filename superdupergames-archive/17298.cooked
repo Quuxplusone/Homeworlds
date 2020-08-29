@@ -1,0 +1,28 @@
+Uglyfoot (0, b3y1) g3-
+Dlwillson (1, b3r2) -g3
+build g1 at Uglyfoot
+build g1 at Dlwillson
+convert g1 to y1 at Uglyfoot
+convert g1 to y1 at Dlwillson
+build y2 at Uglyfoot
+build y2 at Dlwillson
+move y1 from Uglyfoot to Dogstar (b2)
+move y1 from Dlwillson to Catworld (r1)
+build g1 at Uglyfoot
+build g1 at Dlwillson
+move g1 from Uglyfoot to Dogstar
+move g1 from Dlwillson to Catworld
+convert y2 to r2 at Uglyfoot
+build y2 at Catworld
+build g1 at Uglyfoot
+build g2 at Dlwillson
+build y2 at Dogstar
+build y3 at Dlwillson
+move g1 from Dogstar to Gerbilcomet (b1)
+move y3 from Dlwillson to Gerbilcomet
+build g2 at Gerbilcomet
+sacrifice g2 at Dlwillson; build y3 at Gerbilcomet; build y3 at Dlwillson
+sacrifice y2 at Dogstar; move g1 from Gerbilcomet to Dlwillson; move g2 from Gerbilcomet to Dlwillson
+convert g3 to r3 at Dlwillson
+sacrifice g3 at Uglyfoot; build g2 at Dlwillson; build g2 at Dlwillson; build g3 at Uglyfoot
+build g3 at Catworld; catastrophe green at Dlwillson

@@ -1,0 +1,29 @@
+Subhan64 (0, g2b1) y3-
+Websteria (1, g3b2) -y3
+build y1 at Subhan64
+build y1 at Websteria
+convert y3 to g3 at Subhan64
+convert y3 to r3 at Websteria
+build g1 at Subhan64
+build r1 at Websteria
+convert g1 to r1 at Subhan64
+move y1 from Websteria to Grid (y1)
+build y2 at Subhan64
+move y1 from Grid to Websteria
+build g1 at Subhan64
+convert r3 to y3 at Websteria
+move y1 from Subhan64 to Kermit (g3)
+move y1 from Websteria to Grid (g1)
+move g1 from Subhan64 to Pacman (y3)
+build y1 at Grid
+build y2 at Kermit
+build y2 at Websteria
+build y3 at Subhan64
+convert y3 to r3 at Websteria
+move g3 from Subhan64 to Big_Bird (y3)
+move r3 from Websteria to Grid
+move y1 from Kermit to Smurfette (b1)
+move r3 from Grid to Kermit
+move y2 from Kermit to Grid
+build r1 at Kermit
+build r2 at Subhan64

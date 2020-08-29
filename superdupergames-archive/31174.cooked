@@ -1,0 +1,52 @@
+Mobynostromo (0, b1g2) y3-
+Felix (1, b2r3) -g3
+build y1 at Mobynostromo
+build g1 at Felix
+build y1 at Mobynostromo
+convert g1 to y1 at Felix
+move y1 from Mobynostromo to Alpha (g3)
+build y2 at Felix
+build y2 at Alpha
+move y2 from Felix to Out (g1)
+convert y1 to b1 at Mobynostromo
+build g1 at Felix
+move b1 from Mobynostromo to Alpha
+convert g1 to b1 at Felix
+convert y2 to r2 at Alpha
+build b2 at Felix
+move r2 from Alpha to In (g1)
+convert b2 to r2 at Felix
+build b2 at Alpha
+move b1 from Felix to Out
+convert b2 to r2 at Alpha
+build b2 at Out
+build b2 at Alpha
+move b2 from Out to Ridge (g3)
+build b3 at Alpha
+move b1 from Out to Alpha; catastrophe blue at Alpha
+move r2 from Alpha to Out
+sacrifice r2 at Felix; capture r2 at Out
+build y1 at Alpha
+build y2 at Out
+build y2 at Mobynostromo
+build y3 at Felix
+convert y2 to b2 at Mobynostromo
+build b1 at Ridge
+move b2 from Mobynostromo to Alpha
+move y2 from Out to Ridge
+build b1 at Alpha
+move b1 from Ridge to Out
+move b2 from Alpha to In
+build b3 at Ridge
+build b3 at In
+build b3 at Out
+move y1 from Alpha to In
+build g1 at Felix
+build y2 at Alpha
+build y3 at Out
+convert y2 to r2 at Alpha
+build y2 at Ridge
+build r1 at Alpha
+move y2 from Out to Rim (r3)
+convert b3 to r3 at In
+sacrifice y3 at Felix; move y2 from Rim to Mobynostromo; move y2 from Ridge to Mobynostromo; move y2 from Ridge to Mobynostromo; catastrophe yellow at Mobynostromo

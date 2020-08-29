@@ -1,0 +1,19 @@
+Ts52 (0, b1y2) g3-
+Zoltar (1, b1g3) -b3
+build g1 at Ts52
+build b1 at Zoltar
+build g1 at Ts52
+convert b3 to y3 at Zoltar
+move g1 from Ts52 to Sol (y3)
+build b2 at Zoltar
+build g1 at Sol
+convert b2 to g2 at Zoltar
+move g1 from Ts52 to Wikket (y3)
+move g2 from Zoltar to Yabbadabbadoo (y2)
+build g2 at Ts52
+convert y3 to g3 at Zoltar
+move g1 from Sol to Krikket (y2)
+build g2 at Yabbadabbadoo
+move g1 from Krikket to Zoltar
+move g2 from Yabbadabbadoo to Wikket
+sacrifice g1 at Wikket; build g1 at Zoltar; catastrophe green at Zoltar

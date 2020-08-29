@@ -1,0 +1,54 @@
+Maka (0, b3g2) y3-
+Rkalajian (1, b2g3) -y3
+build y1 at Maka
+build y1 at Rkalajian
+convert y1 to g1 at Maka
+convert y1 to g1 at Rkalajian
+move g1 from Maka to Reddwarf (r1)
+move g1 from Rkalajian to Fei (b1)
+build g1 at Reddwarf
+build g2 at Fei
+build y1 at Maka
+convert g1 to y1 at Fei
+build g1 at Reddwarf
+move y1 from Fei to Elly (g3)
+sacrifice y3 at Maka; move g1 from Reddwarf to Rkalajian; move g1 from Reddwarf to Rkalajian; move g1 from Reddwarf to Rkalajian; catastrophe green at Rkalajian
+build g1 at Fei
+build y1 at Maka
+build y2 at Elly
+build y2 at Maka
+convert y3 to g3 at Rkalajian
+convert y1 to g1 at Maka
+build g1 at Rkalajian
+move y1 from Maka to Fei
+convert g2 to r2 at Fei
+move y1 from Fei to Elly
+build g2 at Fei
+move y1 from Elly to Rkalajian
+convert g3 to r3 at Rkalajian
+move y1 from Rkalajian to Bool (b1)
+build g2 at Fei
+move g1 from Maka to Fei; catastrophe green at Fei
+move y1 from Elly to Fei
+build y1 at Maka
+build g1 at Rkalajian
+convert y2 to g2 at Maka
+convert r2 to g2 at Fei
+move g2 from Maka to Bool
+build y2 at Fei
+sacrifice g2 at Bool; build y2 at Bool; build y3 at Maka
+convert y2 to r2 at Fei
+convert y2 to g2 at Bool
+build y2 at Fei
+build y2 at Bool
+build y3 at Elly
+convert y3 to b3 at Maka
+build g1 at Fei
+sacrifice y2 at Bool; move g2 from Bool to Yay (g3); move y1 from Bool to Yay
+build g3 at Fei
+sacrifice g2 at Yay; build y2 at Yay; build y3 at Maka
+sacrifice y3 at Elly; move r2 from Fei to Maka; move g3 from Fei to Maka; move y2 from Fei to Maka
+sacrifice b3 at Maka; convert y1 to r1 at Yay; convert y3 to r3 at Maka; convert y1 to r1 at Maka
+capture r3 at Maka
+build r1 at Maka
+sacrifice r3 at Rkalajian; capture r1 at Maka; capture r1 at Maka

@@ -1,0 +1,44 @@
+Dlwillson (0, y3b1) g3-
+Endo (1, y1b2) -g3
+build g1 at Dlwillson
+build g1 at Endo
+convert g1 to y1 at Dlwillson
+convert g1 to b1 at Endo
+build y1 at Dlwillson
+build b1 at Endo
+move y1 from Dlwillson to Forest (g2)
+move b1 from Endo to Foundation (y3)
+build y2 at Dlwillson
+sacrifice g3 at Endo; build b2 at Endo; build b2 at Foundation; build b3 at Foundation
+move y1 from Dlwillson to Stream (g2)
+move b1 from Endo to Comprehension (y3)
+build y2 at Dlwillson
+convert b3 to g3 at Foundation
+build g1 at Dlwillson
+sacrifice g3 at Foundation; build b3 at Endo; build b3 at Foundation; build b3 at Comprehension
+build y2 at Forest
+convert b3 to g3 at Comprehension
+move y2 from Forest to Sky (b3)
+convert b3 to r3 at Endo
+convert g3 to b3 at Dlwillson
+convert b1 to g1 at Foundation
+convert y2 to r2 at Dlwillson
+convert b2 to y2 at Endo
+move g1 from Dlwillson to Sea (b2)
+build g1 at Comprehension
+convert y2 to g2 at Dlwillson
+sacrifice g3 at Comprehension; build g3 at Foundation; build g3 at Foundation; build g3 at Comprehension
+sacrifice y2 at Sky; move g1 from Sea to Foundation; move y1 from Stream to Comprehension; catastrophe green at Foundation
+sacrifice g3 at Comprehension; build b1 at Comprehension; build b2 at Comprehension; build b3 at Foundation
+sacrifice g2 at Dlwillson; build r1 at Dlwillson; build y2 at Comprehension
+convert b2 to y2 at Comprehension; catastrophe yellow at Comprehension
+move r2 from Dlwillson to Sky (b2)
+move b3 from Foundation to Collection (y2)
+convert b3 to g3 at Dlwillson
+convert b3 to g3 at Foundation
+build y1 at Forest
+build b1 at Foundation
+convert r1 to b1 at Dlwillson
+sacrifice g3 at Foundation; build r1 at Endo; build b3 at Foundation; build b3 at Collection
+move y1 from Forest to Foundation
+move b3 from Foundation to Sky

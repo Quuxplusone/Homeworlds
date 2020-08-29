@@ -1,0 +1,64 @@
+Mcowper (0, r1b2) g3-
+Wil (1, y3b1) -g3
+build g1 at Mcowper
+build g1 at Wil
+convert g1 to y1 at Mcowper
+convert g1 to b1 at Wil
+build y1 at Mcowper
+build b1 at Wil
+build g1 at Mcowper
+move b1 from Wil to Y2 (y2)
+move g1 from Mcowper to Alef (b3)
+build b2 at Wil
+build g1 at Mcowper
+move b2 from Wil to Whytoo (y2)
+build y1 at Mcowper
+build b2 at Wil
+move y1 from Mcowper to Bet (g3)
+move b2 from Whytoo to Y3 (y3)
+build y2 at Bet
+convert b2 to y2 at Y3
+build y3 at Bet
+move b2 from Wil to G2 (g2)
+move y3 from Bet to Gimel (b2)
+build b3 at G2
+convert y3 to b3 at Gimel
+move b1 from Y2 to Why3 (y3)
+build y2 at Bet
+convert b3 to r3 at G2
+sacrifice y2 at Bet; move y1 from Mcowper to Y3; move y1 from Mcowper to Y3; catastrophe yellow at Y3
+build b3 at G2
+move y1 from Bet to Gimel
+convert b3 to y3 at G2
+move b3 from Gimel to Bet
+move r3 from G2 to Bet
+sacrifice y2 at Bet; move b3 from Bet to Dalet (g2); move g1 from Alef to Gimel
+build b3 at G2
+build b3 at Dalet
+convert b3 to r3 at G2
+sacrifice g3 at Mcowper; build g1 at Gimel; build g2 at Gimel; build g3 at Mcowper
+build b3 at G2
+convert g2 to y2 at Gimel
+convert b3 to r3 at G2
+sacrifice y2 at Gimel; move b3 from Dalet to Wil; move b3 from Dalet to Wil; catastrophe blue at Wil
+move r3 from G2 to Wil
+move g1 from Gimel to Alef (y1)
+build g2 at Wil
+convert g1 to b1 at Mcowper
+move y3 from G2 to Bet
+build y1 at Gimel
+move r3 from Bet to Gimel
+move y1 from Gimel to Alef
+capture y1 at Gimel
+move y1 from Alef to Bet
+capture g1 at Gimel
+build y2 at Bet
+sacrifice r3 at G2; capture y2 at Bet; capture y1 at Bet
+build g1 at Alef
+build y2 at Gimel
+move g1 from Alef to Wil
+sacrifice g2 at Wil; build b1 at G2; build b3 at Why3
+sacrifice b1 at Mcowper; convert g1 to b1 at Alef
+sacrifice y3 at Bet; move b3 from Why3 to Mcowper; move r3 from Gimel to Why3; move r3 from Why3 to Mcowper
+capture r3 at Mcowper
+sacrifice r3 at Wil; capture g1 at Wil; capture r3 at Mcowper; capture g3 at Mcowper

@@ -1,0 +1,65 @@
+Felix (0, r1b3) g3-
+Alexhouston (1, g3r2) -b3
+build g1 at Felix
+build b1 at Alexhouston
+convert g1 to y1 at Felix
+convert b1 to y1 at Alexhouston
+build g1 at Felix
+move y1 from Alexhouston to Star (g1)
+convert g1 to b1 at Felix
+build b1 at Alexhouston
+build g1 at Felix
+build y1 at Star
+convert g1 to r1 at Felix
+move y1 from Star to Alexhouston
+build y2 at Felix
+build y2 at Alexhouston
+move y1 from Felix to Rykas (g2)
+move b1 from Alexhouston to Star
+build y2 at Felix
+build y3 at Star
+build y3 at Rykas
+move y3 from Star to World (b2)
+move y1 from Rykas to Star
+move y1 from Alexhouston to Flash (g1)
+build y3 at Rykas
+move b1 from Star to World
+move b1 from Felix to World
+move y1 from Star to Rykas
+move y3 from Rykas to Flash
+convert y2 to r2 at Alexhouston
+convert y2 to b2 at Felix
+build y2 at Flash
+move b2 from Felix to World; catastrophe blue at World
+move y1 from Flash to Alexhouston
+move r1 from Felix to Rykas
+move y1 from Rykas to Star
+build g1 at Felix
+convert r2 to g2 at Alexhouston
+move g1 from Felix to Roam (b2)
+convert y1 to b1 at Alexhouston
+build g2 at Roam
+convert g2 to y2 at Alexhouston
+build g2 at Felix
+convert b3 to g3 at Alexhouston
+sacrifice g3 at Felix; build g3 at Felix; build y1 at Rykas; build y3 at Felix
+build b1 at Alexhouston
+build r1 at Rykas
+sacrifice y2 at Alexhouston; move y1 from Star to Rykas; move y2 from Flash to Rykas; catastrophe yellow at Rykas
+convert g2 to y2 at Roam
+convert b1 to y1 at Alexhouston
+build g2 at Roam
+build b1 at Alexhouston
+move g1 from Roam to Edge (b1)
+convert g3 to b3 at Alexhouston
+build g3 at Edge
+move b1 from Alexhouston to Star
+sacrifice r1 at Rykas; capture b1 at Star
+move b1 from Alexhouston to Run (r1)
+build b2 at Star
+build y1 at Alexhouston
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Flash; build y3 at Roam
+move y1 from Alexhouston to Run
+build r2 at Rykas
+build b2 at Alexhouston
+sacrifice y3 at Roam; move b1 from Star to Alexhouston; move b2 from Star to Alexhouston; move g3 from Edge to Alexhouston; catastrophe blue at Alexhouston

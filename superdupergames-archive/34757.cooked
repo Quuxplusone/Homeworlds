@@ -1,0 +1,61 @@
+Trydnt (0, y3b2) g3-
+Laurie_Menke (1, b1y3) -g3
+build g1 at Trydnt
+build g1 at Laurie_Menke
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Laurie_Menke
+build b2 at Trydnt
+build g1 at Laurie_Menke
+move b2 from Trydnt to G1 (g1)
+build b2 at Laurie_Menke
+build b3 at G1
+convert b2 to y2 at Laurie_Menke
+convert b3 to y3 at G1
+convert g1 to r1 at Laurie_Menke
+build b2 at G1
+move b1 from Laurie_Menke to Green (g2)
+convert b2 to r2 at G1
+build r1 at Laurie_Menke
+move r2 from G1 to Green
+sacrifice b1 at Green; convert r1 to b1 at Laurie_Menke
+build y1 at G1
+build r1 at Laurie_Menke
+build y1 at G1
+move y2 from Laurie_Menke to Seeya (g2)
+move y1 from G1 to Green
+move b1 from Laurie_Menke to Seeya
+build g1 at Trydnt
+build g1 at Laurie_Menke
+build g2 at Trydnt
+move g1 from Laurie_Menke to Seeya
+sacrifice g2 at Trydnt; build y1 at Green; build y2 at Green
+sacrifice y2 at Seeya; move g1 from Seeya to G1; move g1 from G1 to Trydnt
+sacrifice g1 at Trydnt; build r1 at Green
+build b2 at Seeya
+build b3 at G1
+convert b2 to y2 at Seeya
+sacrifice r1 at Green; capture g1 at Trydnt
+build y2 at Seeya
+sacrifice y2 at Green; move b3 from G1 to G2 (g2); move y1 from G1 to G2
+move y2 from Seeya to G1
+build y2 at G2
+sacrifice r1 at Laurie_Menke; capture b2 at G1
+sacrifice r2 at Green; capture y2 at G1; capture b2 at G1
+build r1 at Laurie_Menke
+convert y2 to r2 at G1
+move b1 from Seeya to Hi (g1)
+sacrifice g3 at Trydnt; build g3 at Trydnt; build g3 at Trydnt; build y2 at G1
+move y2 from Seeya to Hi
+move g3 from Trydnt to Hi
+sacrifice y2 at Hi; move b1 from Hi to Trydnt; move r1 from Laurie_Menke to Green
+sacrifice r2 at G1; capture b1 at Trydnt; capture r1 at Green
+build g2 at Laurie_Menke
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y2 at Green; build b2 at G2
+build r1 at Laurie_Menke
+sacrifice g3 at Trydnt; build g3 at Trydnt; build b3 at G2; build b3 at G1
+build r2 at Laurie_Menke
+sacrifice y2 at G2; move y1 from Green to Laurie_Menke; move y1 from Green to Laurie_Menke
+sacrifice r2 at Laurie_Menke; capture y1 at Laurie_Menke; capture y1 at Laurie_Menke
+move y2 from Green to Laurie_Menke; catastrophe yellow at Laurie_Menke
+build r2 at Laurie_Menke
+sacrifice y3 at G1; move b1 from Trydnt to Laurie_Menke; move b1 from Trydnt to Laurie_Menke; move b2 from G2 to Laurie_Menke; catastrophe blue at Laurie_Menke

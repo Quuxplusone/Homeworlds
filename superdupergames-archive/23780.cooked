@@ -1,0 +1,65 @@
+Remneb (0, r1b2) g3-
+Adambadura (1, g3b2) -y3
+build g1 at Remneb
+build y1 at Adambadura
+convert g1 to y1 at Remneb
+convert y1 to r1 at Adambadura
+build g1 at Remneb
+build r1 at Adambadura
+build y1 at Remneb
+build r2 at Adambadura
+build g1 at Remneb
+move r1 from Adambadura to Shipyard (g1)
+build g2 at Remneb
+build r2 at Shipyard
+convert g2 to r2 at Remneb
+build r3 at Adambadura
+move g1 from Remneb to Zeta (y3)
+move r3 from Adambadura to Onmyway (y1)
+move r2 from Remneb to Jordan (b3)
+move r3 from Onmyway to Jordan
+sacrifice y1 at Remneb; move r2 from Jordan to Remneb
+build r3 at Adambadura
+build r3 at Remneb
+sacrifice y3 at Adambadura; move r1 from Shipyard to Jordan; move r1 from Jordan to Remneb; move r3 from Jordan to Shipyard; catastrophe red at Remneb
+convert g1 to r1 at Remneb
+convert r1 to y1 at Adambadura
+build r1 at Remneb
+build y1 at Adambadura
+build y2 at Remneb
+move y1 from Adambadura to Shipyard
+move r1 from Remneb to Shipyard
+move r3 from Shipyard to Zeta
+capture y1 at Shipyard
+capture r1 at Shipyard
+sacrifice y2 at Remneb; move y1 from Shipyard to Aldan (y2); move g1 from Zeta to Aldan
+build y2 at Adambadura
+move y1 from Aldan to Robar (g1)
+move y1 from Adambadura to Shipyard
+sacrifice g3 at Remneb; build y2 at Robar; build y3 at Remneb; build g2 at Aldan
+build y3 at Shipyard
+build g2 at Aldan
+sacrifice y2 at Adambadura; move y3 from Shipyard to Remneb; move y1 from Shipyard to Remneb; catastrophe yellow at Remneb
+sacrifice y2 at Robar; move g1 from Aldan to Zeta; move g1 from Zeta to Remneb
+convert r2 to y2 at Adambadura
+build g2 at Remneb
+convert r3 to g3 at Adambadura
+sacrifice g2 at Remneb; build g2 at Aldan; build g3 at Remneb
+build y1 at Adambadura
+move g2 from Aldan to Robar
+move y1 from Adambadura to Shipyard
+convert g3 to y3 at Remneb
+move r3 from Zeta to Aldan
+build g3 at Remneb
+capture g2 at Aldan
+sacrifice y3 at Remneb; move g2 from Aldan to Robar; move g2 from Robar to Adambadura; move g2 from Robar to Adambadura; catastrophe green at Adambadura
+convert y2 to g2 at Adambadura
+sacrifice g3 at Remneb; build g2 at Remneb; build g3 at Remneb; build y1 at Robar
+build g3 at Aldan
+convert g2 to y2 at Remneb
+sacrifice g3 at Aldan; build g2 at Aldan; build g3 at Adambadura; build y2 at Shipyard
+move g1 from Remneb to Robar
+move y2 from Shipyard to Drydocks (g3)
+build y3 at Remneb
+build y3 at Shipyard
+sacrifice y3 at Remneb; move g1 from Robar to Adambadura; move g3 from Remneb to Shipyard; move g3 from Shipyard to Adambadura; catastrophe green at Adambadura

@@ -1,0 +1,30 @@
+Dlwillson (0, b3r1) g3-
+Wil (1, r2b1) -g3
+build g1 at Dlwillson
+build g1 at Wil
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Wil
+build g1 at Dlwillson
+build g1 at Wil
+convert g1 to b1 at Dlwillson
+convert g1 to b1 at Wil
+build b2 at Dlwillson
+build b2 at Wil
+move b1 from Dlwillson to Forest (g2)
+move b2 from Wil to Camp (y3)
+convert b2 to y2 at Dlwillson
+build g1 at Wil
+build b2 at Forest
+move b1 from Wil to Fortcourage (g3)
+convert b2 to r2 at Forest
+build b2 at Fortcourage
+sacrifice y1 at Dlwillson; move r2 from Forest to Fortcourage
+sacrifice y1 at Wil; move b2 from Fortcourage to Wakeup (y2)
+capture b1 at Fortcourage
+convert b2 to r2 at Wakeup
+build b2 at Forest
+build g1 at Wil
+convert b2 to g2 at Forest
+convert g1 to y1 at Wil
+build b2 at Forest
+move g1 from Wil to Camp

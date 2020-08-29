@@ -1,0 +1,41 @@
+Trydnt (0, y3b2) g3-
+Goulo (1, r3b1) -g3
+build g1 at Trydnt
+build g1 at Goulo
+convert g1 to b1 at Trydnt
+convert g1 to y1 at Goulo
+build b1 at Trydnt
+build y1 at Goulo
+move b1 from Trydnt to G1 (g1)
+convert y1 to g1 at Goulo
+build b2 at G1
+convert g3 to b3 at Goulo
+convert b2 to y2 at G1
+build y1 at Goulo
+build b2 at G1
+convert y1 to r1 at Goulo
+convert b2 to r2 at G1
+build y1 at Goulo
+build b2 at G1
+move y1 from Goulo to Verdo (g2)
+build r1 at G1
+build g1 at Goulo
+move b2 from G1 to Verdo
+move y1 from Verdo to Flavo (y1)
+build g2 at Trydnt
+move g1 from Goulo to Flavumo (y2)
+sacrifice g2 at Trydnt; build b2 at Verdo; build b3 at G1
+convert b3 to g3 at Goulo
+build b3 at Verdo
+sacrifice g3 at Goulo; build y2 at Flavo; build y3 at Goulo; build y3 at Goulo
+convert b3 to r3 at Verdo
+build g2 at Goulo
+build b3 at Verdo
+move y1 from Goulo to Verdumo (g2)
+build g3 at Trydnt
+build g3 at Flavumo
+sacrifice g3 at Trydnt; build g3 at Trydnt; build b3 at G1; build r1 at Verdo
+move g1 from Flavumo to Flavo
+move g3 from Trydnt to Flavo
+sacrifice y3 at Goulo; move g1 from Flavo to Trydnt; move g3 from Flavumo to Flavo; move g3 from Flavo to Trydnt
+sacrifice r2 at G1; capture g3 at Trydnt; capture g1 at Trydnt

@@ -1,0 +1,49 @@
+Endo (0, y1b2) g3-
+Ausmuh (1, g3y2) -b3
+build g1 at Endo
+build b1 at Ausmuh
+build g1 at Endo
+convert b1 to y1 at Ausmuh
+move g1 from Endo to Abelian (y3)
+move y1 from Ausmuh to Mw1 (g1)
+build g2 at Abelian
+move y1 from Mw1 to Mw3 (g3)
+move g1 from Abelian to Solvable (g1)
+build y1 at Mw3
+sacrifice g3 at Endo; build g2 at Endo; build g2 at Abelian; build g3 at Endo
+build y2 at Mw3
+convert g3 to r3 at Endo
+sacrifice y2 at Mw3; move y1 from Mw3 to Endo; move y1 from Endo to Mj3 (g3)
+move g2 from Endo to Mj3
+build y2 at Mw3
+sacrifice g2 at Abelian; build g2 at Endo; build r1 at Endo
+move y1 from Mj3 to Md1 (y2)
+move r3 from Endo to Mw3
+sacrifice y1 at Mw3; move y2 from Mw3 to Sm1 (y1)
+sacrifice g2 at Mj3; build g2 at Abelian; build g3 at Endo
+build b1 at Ausmuh
+convert g3 to y3 at Endo
+move y2 from Sm1 to Mj3 (g3)
+move g2 from Endo to Mj3
+build y1 at Mj3
+sacrifice r3 at Mw3; capture y1 at Mj3; capture y2 at Mj3
+move y1 from Md1 to Mw3 (g3)
+sacrifice y2 at Mj3; move y1 from Mj3 to Endo; move y1 from Endo to Mw3
+convert b3 to r3 at Ausmuh
+sacrifice r1 at Endo; capture y1 at Mw3
+build b1 at Ausmuh
+sacrifice g2 at Mj3; build g2 at Endo; build g3 at Endo
+build b1 at Ausmuh
+sacrifice g3 at Endo; build g3 at Endo; build y2 at Endo; build y2 at Mw3
+move b1 from Ausmuh to Solvable
+move y3 from Endo to Nilpotent (b3)
+convert b1 to r1 at Solvable
+sacrifice g1 at Solvable; build y3 at Nilpotent
+move b1 from Ausmuh to Solvable
+move g2 from Abelian to Solvable
+convert b1 to g1 at Solvable
+sacrifice y3 at Nilpotent; move g2 from Abelian to Solvable; move g2 from Solvable to Ausmuh; move g2 from Solvable to Ausmuh
+build r1 at Ausmuh
+sacrifice g3 at Endo; build g3 at Ausmuh; build y3 at Nilpotent; build y3 at Nilpotent; catastrophe green at Ausmuh
+build g2 at Solvable
+sacrifice y3 at Nilpotent; move y1 from Mw3 to Ausmuh; move y1 from Mw3 to Ausmuh; move y2 from Mw3 to Ausmuh; catastrophe yellow at Ausmuh

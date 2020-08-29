@@ -1,0 +1,57 @@
+Eliscinsky (0, r1b2) g3-
+Speardane (1, y3b2) -g3
+build g1 at Eliscinsky
+build g1 at Speardane
+convert g1 to y1 at Eliscinsky
+convert g3 to r3 at Speardane
+build g1 at Eliscinsky
+build g1 at Speardane
+build g2 at Eliscinsky
+move g1 from Speardane to Delos (b1)
+move g1 from Eliscinsky to Earth (b3)
+build g2 at Delos
+build y1 at Eliscinsky
+convert g1 to y1 at Delos
+convert y1 to r1 at Eliscinsky
+build g1 at Delos
+sacrifice g3 at Eliscinsky; build g2 at Eliscinsky; build g3 at Eliscinsky; build g3 at Earth
+sacrifice g2 at Delos; build g2 at Speardane; build g3 at Delos
+convert g2 to y2 at Eliscinsky
+convert g3 to r3 at Delos
+convert g1 to r1 at Earth
+move g2 from Speardane to Lebling (y1)
+convert y1 to b1 at Eliscinsky
+build g1 at Lebling
+sacrifice g3 at Eliscinsky; build g2 at Earth; build g3 at Eliscinsky; build g3 at Eliscinsky
+sacrifice g2 at Lebling; build r2 at Delos; build r2 at Delos
+sacrifice y2 at Eliscinsky; move r1 from Earth to Delos; move g3 from Earth to Delos; catastrophe red at Delos
+sacrifice y1 at Delos; move g1 from Delos to Kotok (b3)
+convert g3 to y3 at Eliscinsky
+build g2 at Kotok
+sacrifice g2 at Eliscinsky; build g2 at Delos; build g3 at Earth
+convert g2 to y2 at Kotok
+convert g2 to r2 at Delos
+build g2 at Kotok
+sacrifice g3 at Earth; build r1 at Delos; build g2 at Delos; build g3 at Earth
+convert g2 to r2 at Kotok
+move r1 from Eliscinsky to Kotok
+sacrifice g1 at Lebling; build r2 at Kotok
+sacrifice g2 at Earth; build r3 at Delos; build r3 at Kotok; catastrophe red at Kotok
+build y1 at Kotok
+sacrifice y3 at Eliscinsky; move r1 from Delos to Speardane; move r2 from Delos to Speardane; move r3 from Delos to Speardane; catastrophe red at Speardane
+convert y2 to r2 at Kotok
+convert g3 to r3 at Delos
+build r1 at Kotok
+sacrifice g3 at Earth; build g1 at Eliscinsky; build g2 at Delos; build r1 at Delos
+build g2 at Speardane
+convert g2 to y2 at Delos
+convert g2 to r2 at Speardane
+sacrifice y2 at Delos; move g2 from Delos to Speardane; move r3 from Delos to Speardane
+capture g2 at Speardane
+capture r2 at Speardane
+sacrifice r2 at Kotok; capture r2 at Speardane
+capture r2 at Speardane
+sacrifice r1 at Kotok; capture r2 at Speardane
+capture r2 at Speardane
+pass
+sacrifice r2 at Speardane; capture g2 at Speardane; capture g1 at Speardane

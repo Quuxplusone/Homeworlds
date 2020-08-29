@@ -1,0 +1,132 @@
+Dodobirb (0, b1r2) g3-
+Speardane (1, g3b1) -y3
+build g1 at Dodobirb
+build y1 at Speardane
+build g1 at Dodobirb
+convert y3 to r3 at Speardane
+convert g1 to b1 at Dodobirb
+build y1 at Speardane
+convert g1 to y1 at Dodobirb
+move y1 from Speardane to Delos (g2)
+build y2 at Dodobirb
+build y2 at Delos
+move y1 from Dodobirb to Greeny (g3)
+move y2 from Delos to Greeny
+build b2 at Dodobirb
+build y2 at Delos
+build y3 at Dodobirb
+build y3 at Speardane
+move y2 from Dodobirb to Sun (y3)
+move y3 from Speardane to Lebling (g2)
+move b2 from Dodobirb to Greeny
+sacrifice y2 at Delos; move y2 from Greeny to Lebling; move y3 from Lebling to Greeny
+sacrifice y1 at Greeny; move b2 from Greeny to Medgreen (g2)
+move y3 from Greeny to Medgreen
+move y3 from Dodobirb to Greeny2 (g3)
+build r1 at Speardane
+convert b2 to r2 at Medgreen
+sacrifice r1 at Speardane; capture r2 at Medgreen
+convert b1 to r1 at Dodobirb
+build y1 at Medgreen
+build y2 at Greeny2
+sacrifice y2 at Lebling; move y1 from Delos to Greeny2; move y1 from Medgreen to Greeny2; catastrophe yellow at Greeny2
+build g1 at Dodobirb
+build y1 at Medgreen
+convert g1 to b1 at Dodobirb
+move y3 from Medgreen to Delos (g3)
+build b2 at Dodobirb
+build y1 at Delos
+convert b2 to y2 at Dodobirb
+move y3 from Delos to Lebling (g2)
+build b2 at Dodobirb
+build y2 at Lebling
+build y3 at Dodobirb
+sacrifice y3 at Lebling; move y1 from Delos to Dodobirb; move y2 from Lebling to Sun; move y2 from Sun to Dodobirb; catastrophe yellow at Dodobirb
+convert b2 to y2 at Dodobirb
+build y1 at Medgreen
+move y2 from Sun to Forward (g2)
+build y2 at Medgreen
+build y3 at Forward
+build y3 at Speardane
+build y3 at Dodobirb
+convert y3 to b3 at Speardane
+move y2 from Forward to Sun (y3)
+sacrifice y2 at Medgreen; move b3 from Speardane to Medgreen; move y1 from Medgreen to Delos (g3)
+build y2 at Forward
+build r1 at Medgreen
+move y3 from Dodobirb to Delos
+move y1 from Delos to Lebling (g2)
+build g1 at Dodobirb
+convert r1 to g1 at Medgreen
+sacrifice g3 at Dodobirb; build g1 at Dodobirb; build g3 at Dodobirb; build b2 at Dodobirb
+move g1 from Medgreen to Kotok (b3)
+move g1 from Dodobirb to Sun
+move y1 from Lebling to Kotok
+move y2 from Dodobirb to Kotok
+move b3 from Medgreen to Kotok
+sacrifice y2 at Kotok; move b1 from Dodobirb to Kotok; move b2 from Dodobirb to Kotok; catastrophe blue at Kotok
+build y1 at Medgreen
+build y2 at Delos
+move y1 from Medgreen to Lebling (b3)
+move y3 from Delos to Attack (g2)
+convert y1 to g1 at Lebling
+convert g3 to r3 at Dodobirb
+build g3 at Lebling
+convert g1 to b1 at Dodobirb
+convert g1 to y1 at Lebling
+sacrifice y2 at Sun; move b1 from Dodobirb to Sun; move b1 from Sun to Attack
+build y2 at Lebling
+convert r1 to g1 at Dodobirb
+convert y2 to r2 at Lebling
+convert y3 to r3 at Attack
+build y2 at Lebling
+sacrifice y2 at Delos; move r3 from Attack to Speardane; move y3 from Forward to Speardane
+sacrifice r2 at Medgreen; capture r3 at Speardane; capture y3 at Speardane
+build y2 at Forward
+sacrifice y2 at Lebling; move y3 from Speardane to Forward; move r3 from Speardane to Attack
+build y2 at Forward; catastrophe yellow at Forward
+capture b1 at Attack
+build g1 at Dodobirb
+build y2 at Lebling
+build g2 at Dodobirb
+build g3 at Lebling
+convert g2 to y2 at Dodobirb
+sacrifice g3 at Lebling; build y2 at Medgreen; build y3 at Speardane; build y3 at Medgreen
+sacrifice g1 at Sun; build y3 at Dodobirb
+sacrifice y3 at Medgreen; move y1 from Medgreen to Lebling; move y1 from Lebling to Dodobirb; move y1 from Lebling to Dodobirb; catastrophe yellow at Dodobirb
+convert r3 to y3 at Dodobirb
+move y3 from Speardane to Attack
+build y1 at Dodobirb
+build y1 at Attack
+convert y1 to g1 at Dodobirb
+move y3 from Attack to Delos (g3)
+move g1 from Dodobirb to Bluey (b3)
+build g2 at Lebling
+convert g1 to y1 at Bluey
+sacrifice g2 at Lebling; build y2 at Delos; build y3 at Attack
+move g1 from Dodobirb to Bluey
+move y3 from Attack to Bluey
+sacrifice y1 at Bluey; move g1 from Bluey to Dodobirb
+move y3 from Delos to Kotok (g1)
+build g2 at Dodobirb
+move y2 from Delos to Minsky (b2)
+convert g1 to r1 at Dodobirb
+move y2 from Minsky to Delos (g1)
+build g3 at Dodobirb
+move g3 from Lebling to Dodobirb; catastrophe green at Dodobirb
+convert r1 to g1 at Dodobirb
+convert y3 to g3 at Bluey
+convert y3 to g3 at Dodobirb
+build y1 at Delos
+convert g1 to r1 at Dodobirb
+move y2 from Delos to Bluey
+build g1 at Dodobirb
+build y3 at Delos
+pass
+build y3 at Delos
+pass
+sacrifice y3 at Delos; move r2 from Lebling to Dodobirb; move r3 from Attack to Lebling; move r3 from Lebling to Dodobirb; catastrophe red at Dodobirb
+pass
+move y3 from Delos to Lebling
+pass
+convert y3 to r3 at Lebling

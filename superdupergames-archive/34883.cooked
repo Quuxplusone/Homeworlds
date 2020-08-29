@@ -1,0 +1,43 @@
+Ajo (0, b2r3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Ajo
+build g1 at Ts52
+convert g1 to y1 at Ajo
+convert g1 to y1 at Ts52
+build y2 at Ajo
+build y2 at Ts52
+move y1 from Ajo to Alpha (b1)
+move y2 from Ts52 to Gonzo (b3)
+build g1 at Ajo
+build g1 at Ts52
+sacrifice g3 at Ajo; build y2 at Alpha; build y3 at Ajo; build y3 at Ajo
+sacrifice g1 at Ts52; build y3 at Gonzo
+sacrifice y3 at Ajo; move y2 from Ajo to Alpha; move y1 from Alpha to Gonzo; move y2 from Alpha to Gonzo; catastrophe yellow at Gonzo
+build g1 at Ts52
+build g1 at Ajo
+move g1 from Ts52 to Gonzo (b3)
+convert g1 to b1 at Ajo
+build g1 at Ts52
+build g2 at Ajo
+build g2 at Gonzo
+move g1 from Ajo to Alpha
+convert g2 to b2 at Gonzo
+build g2 at Alpha
+convert b2 to y2 at Gonzo
+build y1 at Alpha
+convert g1 to r1 at Ts52
+convert g2 to r2 at Alpha
+build r1 at Ts52
+move y1 from Alpha to Beta (b3)
+move r1 from Ts52 to Gonzo
+sacrifice g2 at Ajo; build y2 at Beta; build y3 at Ajo
+build y3 at Gonzo
+convert y3 to g3 at Ajo
+move y1 from Ts52 to Bigbird (y3)
+convert y1 to b1 at Beta
+move y3 from Gonzo to Alpha
+sacrifice g3 at Ajo; build b2 at Ajo; build b3 at Beta; build y1 at Beta
+sacrifice r1 at Gonzo; capture r2 at Alpha
+convert b3 to g3 at Beta
+capture y2 at Alpha
+sacrifice g1 at Alpha; build b3 at Beta

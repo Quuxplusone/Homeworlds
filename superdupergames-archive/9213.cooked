@@ -1,0 +1,14 @@
+Spacehobo (0, g1y2) b3-
+Geoperry (1, b1y3) -g3
+build b1 at Spacehobo
+build g1 at Geoperry
+move b1 from Spacehobo to Cockfosters (y3)
+move g1 from Geoperry to Clever (r2)
+build b1 at Spacehobo
+build g1 at Clever
+move b1 from Spacehobo to Cockfosters
+build g2 at Clever
+build b2 at Spacehobo
+build g2 at Clever
+convert b3 to g3 at Spacehobo
+build g2 at Geoperry

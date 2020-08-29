@@ -1,0 +1,9 @@
+Agentofchaos (0, r1b2) g3-
+Lurch (1, b1y3) -g3
+build g1 at Agentofchaos
+build g1 at Lurch
+convert g1 to y1 at Agentofchaos
+convert g1 to y1 at Lurch
+build g1 at Agentofchaos
+build g1 at Lurch
+convert y1 to r1 at Agentofchaos

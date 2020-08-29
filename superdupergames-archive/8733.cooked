@@ -1,0 +1,49 @@
+Dsheldon (0, g1b2) y3-
+Nycavri (1, y2b3) -g3
+build y1 at Dsheldon
+build g1 at Nycavri
+convert y3 to g3 at Dsheldon
+convert g1 to y1 at Nycavri
+build g1 at Dsheldon
+build g1 at Nycavri
+move g1 from Dsheldon to Ocean (b3)
+move g1 from Nycavri to Fr (y1)
+build g2 at Dsheldon
+build y2 at Nycavri
+sacrifice g3 at Dsheldon; build g2 at Ocean; build y2 at Dsheldon; build y3 at Dsheldon
+move y2 from Nycavri to Hl (r1)
+convert y2 to r2 at Dsheldon
+build g2 at Fr
+move y1 from Dsheldon to Ocean
+convert y1 to b1 at Nycavri
+move g1 from Ocean to Pond (b1)
+sacrifice g1 at Fr; build y1 at Hl
+sacrifice g2 at Ocean; build y2 at Dsheldon; build y3 at Ocean
+build g1 at Nycavri
+convert y3 to g3 at Ocean
+convert g1 to r1 at Nycavri
+build y3 at Ocean
+move g2 from Fr to Iw (y3)
+move g3 from Ocean to Hl
+sacrifice y2 at Hl; move y1 from Hl to Tl (g3); move r1 from Nycavri to Pond
+move y3 from Ocean to Pond
+convert b1 to y1 at Nycavri
+sacrifice g1 at Pond; build y2 at Ocean
+build g1 at Iw
+move g2 from Dsheldon to Tl
+sacrifice y1 at Tl; move r1 from Pond to Nycavri
+move y1 from Ocean to Eden (g1)
+move y1 from Nycavri to Eden
+move y3 from Pond to Iw
+build y1 at Eden
+sacrifice r2 at Dsheldon; capture g2 at Iw; capture y1 at Eden
+build g2 at Iw
+convert y3 to r3 at Dsheldon
+build y3 at Eden; catastrophe yellow at Eden
+build g1 at Iw; catastrophe green at Iw
+build g1 at Nycavri
+sacrifice y3 at Iw; move g2 from Tl to Hl; move g2 from Hl to Nycavri; move g3 from Hl to Nycavri; catastrophe green at Nycavri
+convert r1 to g1 at Nycavri
+move y2 from Ocean to Reaper (r1)
+build g1 at Nycavri
+move y2 from Reaper to Nycavri

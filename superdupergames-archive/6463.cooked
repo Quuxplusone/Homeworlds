@@ -1,0 +1,48 @@
+Personman (0, b3y1) g3-
+Zoltar (1, r3b2) -g3
+build g1 at Personman
+build g1 at Zoltar
+move g1 from Personman to Y2A (y2)
+convert g1 to y1 at Zoltar
+build g1 at Personman
+build y1 at Zoltar
+build g1 at Y2A
+move y1 from Zoltar to Blueberry (b1)
+build g2 at Personman
+build g2 at Zoltar
+convert g2 to y2 at Personman
+build y2 at Zoltar
+build g2 at Personman
+sacrifice g3 at Zoltar; build y3 at Zoltar; build y3 at Blueberry; build y3 at Blueberry
+convert g1 to r1 at Personman
+convert y3 to r3 at Zoltar
+convert g2 to b2 at Personman
+convert y3 to g3 at Blueberry
+move g1 from Y2A to Blueberry
+sacrifice g3 at Blueberry; build y3 at Blueberry; build y3 at Zoltar; build r1 at Zoltar
+build g1 at Blueberry
+move y3 from Blueberry to Y2A
+sacrifice y2 at Personman; move r1 from Personman to Y2B (y2); move g1 from Y2A to B1A (b1)
+move r3 from Zoltar to B1A
+convert g1 to r1 at Blueberry
+convert y3 to g3 at Zoltar
+capture y1 at Blueberry
+sacrifice g2 at Zoltar; build r2 at B1A; build y3 at Blueberry
+sacrifice g1 at B1A; build r2 at Y2B
+sacrifice r3 at B1A; capture r1 at Blueberry; capture g1 at Blueberry; capture y1 at Blueberry
+build g1 at Personman
+sacrifice g3 at Zoltar; build r2 at Zoltar; build r3 at B1A; build r3 at Blueberry
+move r1 from Y2B to Personman
+move r3 from Blueberry to Y2B
+move r2 from Y2B to G1A (g1)
+move y1 from Zoltar to B1A
+build b1 at Personman
+move r1 from Zoltar to Blueberry
+move b1 from Personman to G2A (g2)
+move r3 from B1A to G2A
+build b2 at G2A
+move y3 from Blueberry to Zoltar
+build g2 at Personman
+sacrifice y3 at Blueberry; move g1 from Blueberry to Y2A; move g1 from Y2A to Personman; move y3 from Y2A to Personman; catastrophe green at Personman
+build b3 at G2A
+sacrifice r3 at Y2B; capture b3 at G2A; capture b2 at Personman; capture r1 at Personman

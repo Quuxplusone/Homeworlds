@@ -1,0 +1,58 @@
+Sompm (0, g3y2) b3-
+Wil (1, b3y1) -g3
+build b1 at Sompm
+build g1 at Wil
+build b1 at Sompm
+convert g1 to y1 at Wil
+move b1 from Sompm to G1 (g1)
+build y1 at Wil
+build b1 at G1
+move y1 from Wil to G2 (g2)
+build b2 at Sompm
+build y2 at Wil
+convert b2 to y2 at Sompm
+build y3 at G2
+sacrifice y2 at Sompm; move b1 from G1 to G2; move b1 from G1 to Y3 (y3)
+convert y1 to r1 at Wil
+sacrifice b1 at G2; convert b1 to y1 at Sompm
+build y2 at G2
+build b1 at Sompm
+build y3 at Wil
+move b1 from Sompm to G1 (g1)
+convert y2 to b2 at Wil
+build b1 at G1
+build b2 at Wil
+build b2 at G1
+move y2 from G2 to B3 (b3)
+convert b2 to y2 at G1
+move b2 from Wil to G2
+convert b1 to g1 at G1
+build r1 at Wil
+convert y1 to r1 at Sompm
+move y3 from G2 to G1
+build g1 at G1
+build g2 at Wil
+move y2 from G1 to G2A (g2)
+move b2 from G2 to G3 (g3)
+build b1 at G1
+sacrifice g3 at Wil; build g3 at Wil; build y1 at B3; build b2 at G3
+build r2 at Sompm
+move r1 from Wil to G2
+move r1 from Sompm to G1
+sacrifice g3 at Wil; build g3 at Wil; build r2 at Wil; build r2 at G2
+sacrifice y2 at G2A; move b1 from G1 to Y2 (y2); move b1 from G1 to Y2
+sacrifice g3 at Wil; build g2 at Wil; build g3 at Wil; build r3 at G2
+move b1 from Y2 to Wil
+move y1 from B3 to G1
+move b1 from Y2 to Wil; catastrophe blue at Wil
+sacrifice r2 at G2; capture r1 at G1; capture g1 at G1
+build b1 at Sompm
+sacrifice g3 at Wil; build g3 at Wil; build y2 at G1; build r2 at G1
+build r3 at Sompm
+sacrifice y2 at G1; move r1 from G1 to Sompm; move r1 from Wil to Sompm; catastrophe red at Sompm
+convert b3 to r3 at Sompm
+sacrifice y3 at Wil; move r3 from G2 to G1; move r3 from G1 to Sompm; move y3 from G1 to Sompm
+capture r3 at Sompm
+sacrifice r2 at G1; capture r3 at Sompm; capture r3 at Sompm
+build b1 at Sompm
+sacrifice r2 at Wil; capture b1 at Sompm; capture b1 at Sompm

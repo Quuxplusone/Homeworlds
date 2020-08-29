@@ -1,0 +1,31 @@
+Mikeyarrum (0, b3r2) g3-
+Weevilgenius (1, g2b1) -y3
+build g1 at Mikeyarrum
+build y1 at Weevilgenius
+convert g1 to y1 at Mikeyarrum
+convert y1 to g1 at Weevilgenius
+build g1 at Mikeyarrum
+move g1 from Weevilgenius to Andromeda (b3)
+build y1 at Mikeyarrum
+build g1 at Andromeda
+build g2 at Mikeyarrum
+convert g1 to r1 at Andromeda
+convert g1 to r1 at Mikeyarrum
+build g1 at Andromeda
+move g2 from Mikeyarrum to Ena (b1)
+build y1 at Weevilgenius
+move y1 from Mikeyarrum to Ena
+build y2 at Weevilgenius
+build y2 at Ena
+convert y2 to r2 at Weevilgenius
+build y2 at Mikeyarrum
+build y2 at Weevilgenius
+sacrifice y2 at Mikeyarrum; move y1 from Ena to Andromeda; move y1 from Andromeda to Weevilgenius; catastrophe yellow at Weevilgenius
+convert g1 to y1 at Andromeda
+build g1 at Mikeyarrum
+build r1 at Andromeda
+move r1 from Mikeyarrum to Ena
+build r2 at Weevilgenius
+build r3 at Ena
+build r3 at Weevilgenius
+sacrifice y2 at Ena; move r1 from Ena to Andromeda; move r1 from Andromeda to Weevilgenius; catastrophe red at Weevilgenius

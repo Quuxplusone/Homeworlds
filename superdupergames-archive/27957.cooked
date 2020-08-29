@@ -1,0 +1,28 @@
+Professor_Rabbit (0, b2g3) y3-
+Wil (1, b2y1) -g3
+build y1 at Professor_Rabbit
+build g1 at Wil
+convert y1 to r1 at Professor_Rabbit
+convert g1 to r1 at Wil
+build y1 at Professor_Rabbit
+build r1 at Wil
+build r2 at Professor_Rabbit
+build r2 at Wil
+move r2 from Professor_Rabbit to Alpha (g1)
+convert r1 to y1 at Wil
+build y2 at Professor_Rabbit
+build y2 at Wil
+move y3 from Professor_Rabbit to Alpha
+move y1 from Wil to G3 (g3)
+build y2 at Alpha
+build y3 at G3
+build y3 at Professor_Rabbit
+sacrifice y2 at Wil; move y1 from G3 to Alpha; move y1 from Alpha to Professor_Rabbit; catastrophe yellow at Professor_Rabbit
+build r1 at Professor_Rabbit
+move r2 from Wil to G3
+convert r1 to b1 at Professor_Rabbit
+move y3 from G3 to R1 (r1)
+build b1 at Professor_Rabbit
+move y3 from R1 to Professor_Rabbit
+move y3 from Alpha to Professor_Rabbit
+sacrifice r1 at Wil; capture y3 at Professor_Rabbit

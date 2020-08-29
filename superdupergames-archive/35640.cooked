@@ -1,0 +1,12 @@
+Rho0 (0, y1b2) g3-
+Trydnt (1, b3y2) -g3
+build g1 at Rho0
+build g1 at Trydnt
+move g1 from Rho0 to Alpha (y3)
+convert g1 to y1 at Trydnt
+build g1 at Alpha
+build y1 at Trydnt
+build g1 at Alpha
+move y1 from Trydnt to B1 (b1)
+build g2 at Rho0
+sacrifice g3 at Trydnt; build y2 at B1; build y2 at B1; build y3 at Trydnt

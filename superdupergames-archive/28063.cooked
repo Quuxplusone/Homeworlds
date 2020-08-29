@@ -1,0 +1,53 @@
+Endo (0, b1y3) g3-
+Ajo (1, r2b3) -g3
+build g1 at Endo
+build g1 at Ajo
+convert g1 to b1 at Endo
+build g1 at Ajo
+build b1 at Endo
+convert g1 to y1 at Ajo
+move b1 from Endo to Image (g2)
+move g1 from Ajo to Alpha (y1)
+build b2 at Endo
+build g1 at Ajo
+move b1 from Endo to Quotient (b2)
+build g1 at Alpha
+sacrifice g3 at Endo; build b2 at Image; build b3 at Endo; build b3 at Quotient
+move g1 from Ajo to Delos (y1)
+convert b3 to g3 at Endo
+move g1 from Alpha to Lebling (b3)
+convert b3 to g3 at Quotient
+build g2 at Lebling
+sacrifice g3 at Quotient; build g2 at Endo; build g3 at Endo; build b3 at Quotient
+build y2 at Ajo
+convert g2 to r2 at Endo
+convert g2 to y2 at Lebling
+convert b3 to y3 at Quotient
+build y2 at Ajo
+sacrifice g3 at Endo; build r1 at Endo; build b3 at Quotient; build y3 at Quotient
+build g2 at Ajo
+convert b3 to g3 at Quotient
+move g1 from Alpha to Kotok (b3)
+move y3 from Quotient to Kotok
+sacrifice g3 at Ajo; build g2 at Delos; build g3 at Ajo; build y1 at Lebling
+sacrifice b2 at Endo; convert b1 to r1 at Image; convert b1 to r1 at Quotient
+convert y2 to r2 at Lebling
+sacrifice g3 at Quotient; build g3 at Endo; build r3 at Image; build r3 at Quotient
+sacrifice g1 at Kotok; build r3 at Lebling
+sacrifice y3 at Kotok; move r3 from Image to Sub (y3); move r1 from Image to Lebling; move r1 from Quotient to Lebling; catastrophe red at Lebling
+convert y2 to b2 at Ajo
+move r3 from Quotient to Delos
+sacrifice g2 at Delos; build y2 at Lebling; build y2 at Lebling
+capture g1 at Delos
+move y1 from Lebling to Kotok (r2)
+sacrifice g3 at Endo; build g1 at Endo; build g2 at Endo; build g3 at Delos
+sacrifice y2 at Lebling; move g1 from Lebling to Delos; move g2 from Ajo to Delos; catastrophe green at Delos
+sacrifice g3 at Endo; build r1 at Delos; build r1 at Delos; build r3 at Sub
+move y1 from Kotok to Endo
+sacrifice g2 at Endo; build y2 at Quotient; build r2 at Sub
+build g1 at Ajo
+sacrifice y3 at Quotient; move r3 from Delos to Ajo; move r3 from Sub to Delos; move r3 from Delos to Ajo
+sacrifice g1 at Ajo; build y3 at Endo
+sacrifice r3 at Ajo; capture g3 at Ajo; capture b2 at Ajo; capture y2 at Ajo
+pass
+capture y1 at Ajo

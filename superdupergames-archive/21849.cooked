@@ -1,0 +1,53 @@
+Ts52 (0, b1y2) g3-
+Lorgar (1, y1b2) -g3
+build g1 at Ts52
+build g1 at Lorgar
+convert g1 to y1 at Ts52
+convert g1 to b1 at Lorgar
+build g1 at Ts52
+move b1 from Lorgar to Leng (g3)
+convert g1 to r1 at Ts52
+build b1 at Leng
+move r1 from Ts52 to Leng
+build b2 at Leng
+capture b1 at Leng
+convert b2 to r2 at Leng
+build r1 at Leng
+sacrifice r2 at Leng; capture r1 at Leng; capture r1 at Leng
+build b2 at Leng
+build b2 at Leng; catastrophe blue at Leng
+convert y1 to r1 at Ts52
+build g1 at Lorgar
+build r2 at Ts52
+move g1 from Lorgar to Mnar (b3)
+move r2 from Ts52 to Mnar
+build g1 at Lorgar
+capture g1 at Mnar
+convert g1 to b1 at Lorgar
+build r2 at Mnar
+build g1 at Lorgar
+convert r2 to y2 at Mnar
+build r2 at Leng
+move r1 from Ts52 to Leng; catastrophe red at Leng
+convert b1 to r1 at Lorgar
+build g1 at Mnar
+build r1 at Lorgar
+sacrifice y2 at Mnar; move g1 from Mnar to Lorgar; move g1 from Mnar to Lorgar; catastrophe green at Lorgar
+convert r1 to g1 at Lorgar
+build g1 at Ts52
+build r1 at Lorgar
+move g1 from Ts52 to Mnar
+build g1 at Lorgar
+convert g1 to y1 at Mnar
+convert g1 to b1 at Lorgar
+build g1 at Ts52
+build g1 at Lorgar
+move g1 from Ts52 to Mnar
+move b1 from Lorgar to More (g3)
+build g2 at Mnar
+build b1 at More
+move g2 from Mnar to Lorgar
+convert b1 to y1 at More
+sacrifice r2 at Mnar; capture r1 at Lorgar; capture r1 at Lorgar
+pass
+build g2 at Lorgar; catastrophe green at Lorgar

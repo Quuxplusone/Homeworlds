@@ -1,0 +1,45 @@
+Wil (0, r2b1) g3-
+Remneb (1, b3r1) -g3
+build g1 at Wil
+build g1 at Remneb
+convert g1 to y1 at Wil
+convert g1 to y1 at Remneb
+build g1 at Wil
+build g1 at Remneb
+convert g1 to r1 at Wil
+convert g1 to r1 at Remneb
+build r2 at Wil
+build r2 at Remneb
+move r1 from Wil to B3 (b3)
+move r1 from Remneb to Op (y2)
+build r3 at Wil
+move r1 from Op to Rem (y3)
+convert r2 to y2 at Wil
+build g1 at Remneb
+move r3 from Wil to Rem
+move r1 from Rem to Orb (y2)
+build g1 at Wil
+move r2 from Remneb to Pod (y2)
+move y2 from Wil to B3
+move r1 from Orb to Juno (y3)
+move g1 from Wil to B3
+move g1 from Remneb to Seth (y2)
+sacrifice g3 at Wil; build y1 at B3; build y3 at Wil; build r2 at Rem
+sacrifice g1 at Seth; build r3 at Juno
+build r3 at B3
+build y2 at Remneb
+convert r3 to g3 at B3
+build g1 at Remneb
+build r3 at B3
+move g1 from Remneb to Pod
+move g3 from B3 to Pod
+move r2 from Pod to Rem
+move r2 from Rem to Pod
+sacrifice y2 at Remneb; move r2 from Rem to Log (g2); move g1 from Pod to Juno
+move r3 from Rem to Log
+sacrifice y1 at Remneb; move r2 from Log to Top (y3)
+build g1 at Pod
+build g2 at Juno
+sacrifice y2 at B3; move g1 from Pod to Remneb; move g3 from Pod to Remneb
+sacrifice r2 at Top; capture g3 at Remneb; capture g1 at Remneb
+sacrifice y3 at Wil; move r3 from Log to Remneb; move g1 from B3 to Pod; move g1 from Pod to Remneb; catastrophe green at Remneb

@@ -1,0 +1,22 @@
+Weishaupt (0, g3b1) r3-
+Dlwillson (1, y2b3) -g3
+build r1 at Weishaupt
+build g1 at Dlwillson
+convert r1 to y1 at Weishaupt
+convert g1 to r1 at Dlwillson
+build r1 at Weishaupt
+build r1 at Dlwillson
+convert r1 to g1 at Weishaupt
+build g1 at Dlwillson
+build y1 at Weishaupt
+convert r1 to b1 at Dlwillson
+build r1 at Weishaupt
+build b1 at Dlwillson
+build y1 at Weishaupt
+move b1 from Dlwillson to Field (g1)
+build g2 at Weishaupt
+build b2 at Dlwillson
+move y1 from Weishaupt to Fatso (y2)
+move b2 from Dlwillson to Sunset (r1)
+build y2 at Weishaupt
+sacrifice g3 at Dlwillson; build b2 at Field; build b2 at Sunset; build b3 at Sunset

@@ -1,0 +1,43 @@
+Zoltar (0, y2b1) g3-
+Twoshort (1, b1g3) -b3
+build g1 at Zoltar
+build b1 at Twoshort
+build g1 at Zoltar
+convert b3 to y3 at Twoshort
+move g1 from Zoltar to Yucca (y3)
+build b2 at Twoshort
+move g1 from Zoltar to Birch (b3)
+move b2 from Twoshort to Yew (y2)
+build g1 at Zoltar
+convert b2 to r2 at Yew
+build g2 at Zoltar
+move r2 from Yew to Yucca
+sacrifice g3 at Zoltar; build g2 at Yucca; build g2 at Yucca; build g3 at Zoltar
+move r2 from Yucca to Zoltar
+convert g3 to r3 at Zoltar
+move r2 from Zoltar to Birch
+sacrifice g2 at Yucca; build g2 at Birch; build g3 at Birch
+build b2 at Twoshort
+sacrifice g3 at Birch; build g3 at Birch; build g3 at Yucca; build r1 at Zoltar
+move b2 from Twoshort to Yoyo (y2)
+sacrifice r1 at Zoltar; capture r2 at Birch
+build b2 at Twoshort
+convert g3 to y3 at Birch
+convert b2 to r2 at Twoshort
+sacrifice g3 at Yucca; build g3 at Birch; build g3 at Yucca; build y1 at Birch
+build b2 at Twoshort
+sacrifice g3 at Yucca; build g3 at Yucca; build r1 at Zoltar; build r1 at Birch
+move b2 from Twoshort to Oyoy (b2)
+move g3 from Birch to Yoyo
+build b3 at Twoshort
+move y3 from Birch to Oyoy
+sacrifice y3 at Twoshort; move b2 from Oyoy to Birch; move b2 from Yoyo to Birch; move b1 from Twoshort to Desperation (y2)
+move r2 from Birch to Desperation
+build b3 at Twoshort
+sacrifice r3 at Zoltar; capture b2 at Birch; capture b2 at Birch; capture b1 at Desperation
+convert b3 to y3 at Twoshort
+sacrifice g3 at Yucca; build g3 at Zoltar; build y1 at Birch; build y1 at Oyoy
+build b3 at Twoshort
+move b1 from Desperation to Twoshort; catastrophe blue at Twoshort
+build r1 at Twoshort
+sacrifice y3 at Oyoy; move g1 from Zoltar to Twoshort; move g2 from Zoltar to Twoshort; move g3 from Zoltar to Twoshort; catastrophe green at Twoshort

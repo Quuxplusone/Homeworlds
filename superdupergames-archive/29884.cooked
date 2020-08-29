@@ -1,0 +1,46 @@
+Simon (0, b1y2) g3-
+Endo (1, y1b3) -g3
+build g1 at Simon
+build g1 at Endo
+convert g1 to b1 at Simon
+convert g1 to y1 at Endo
+build b1 at Simon
+build y1 at Endo
+move b1 from Simon to G3 (g3)
+move y1 from Endo to Measure (y2)
+build b2 at Simon
+build y2 at Endo
+move b2 from Simon to Y3 (y3)
+move y1 from Endo to Topology (g2)
+build b2 at G3
+build y3 at Endo
+sacrifice g3 at Simon; build b2 at Y3; build b3 at Y3; build b3 at Simon
+convert y3 to r3 at Endo
+convert b3 to r3 at Y3
+sacrifice g3 at Endo; build y3 at Measure; build y3 at Topology; build r1 at Endo
+build b3 at G3
+convert r3 to g3 at Endo
+convert b3 to g3 at Simon
+move y3 from Topology to Matroid (b3)
+build g1 at Simon
+build r1 at Endo
+convert b2 to r2 at G3
+move r1 from Endo to Measure
+build b2 at G3
+build r1 at Endo
+move g1 from Simon to Y3
+build g1 at Endo
+build g1 at Simon
+move r1 from Endo to Manifold (r2)
+build g2 at Y3
+sacrifice g3 at Endo; build r2 at Endo; build r3 at Endo; build r3 at Measure
+move g2 from Y3 to Manifold
+move y1 from Measure to Filter (g3)
+build g2 at Y3
+move y3 from Measure to Filter
+capture r1 at Manifold
+move y3 from Filter to Manifold
+move g2 from Y3 to Topology
+sacrifice r2 at Endo; capture g2 at Manifold; capture r1 at Manifold
+sacrifice r2 at G3; capture y1 at Topology
+move y3 from Matroid to Simon

@@ -1,0 +1,25 @@
+Wil (0, b2y3) g3-
+Kato830 (1, g3b1) -y3
+build g1 at Wil
+build y1 at Kato830
+convert g1 to b1 at Wil
+move y1 from Kato830 to Pangea (g2)
+build b1 at Wil
+build y1 at Kato830
+move b1 from Wil to G1 (g1)
+convert y1 to g1 at Kato830
+build b2 at Wil
+convert y3 to b3 at Kato830
+convert b2 to y2 at Wil
+build b2 at Kato830
+sacrifice y2 at Wil; move b1 from G1 to Pangea; move b1 from Pangea to Kato830; catastrophe blue at Kato830
+build y1 at Pangea
+move b1 from Wil to Y1 (y1)
+move y1 from Pangea to Kato830
+build g1 at Wil
+build y2 at Kato830
+move g1 from Wil to Y1
+build y2 at Pangea
+build g1 at Wil
+move g1 from Kato830 to Pangea
+build g2 at Y1

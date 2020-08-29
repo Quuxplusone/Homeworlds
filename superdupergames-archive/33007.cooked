@@ -1,0 +1,17 @@
+Vezeon (0, r1b3) g3-
+Felix (1, r2b3) -g3
+build g1 at Vezeon
+build g1 at Felix
+convert g1 to y1 at Vezeon
+convert g1 to y1 at Felix
+move y1 from Vezeon to Train (g2)
+build g1 at Felix
+build g1 at Vezeon
+move g1 from Felix to Out (b1)
+move y1 from Train to Out
+convert g1 to r1 at Out
+move y1 from Out to Eye (g2)
+build g1 at Felix
+convert g1 to b1 at Vezeon
+move g1 from Felix to Out
+build g1 at Vezeon

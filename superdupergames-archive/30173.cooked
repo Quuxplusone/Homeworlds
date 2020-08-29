@@ -1,0 +1,11 @@
+Simon (0, r1b2) g3-
+Benjeski (1, r3g1) -b3
+build g1 at Simon
+build b1 at Benjeski
+build g1 at Simon
+convert b1 to y1 at Benjeski
+convert g3 to y3 at Simon
+move y1 from Benjeski to Sigma (g2)
+move g1 from Simon to B3 (b3)
+build y1 at Sigma
+build g2 at B3

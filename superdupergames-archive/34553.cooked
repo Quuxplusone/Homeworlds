@@ -1,0 +1,58 @@
+Ajo (0, y3b2) g3-
+Felix (1, r1b2) -g3
+build g1 at Ajo
+build g1 at Felix
+convert g1 to y1 at Ajo
+convert g1 to y1 at Felix
+build g1 at Ajo
+build g1 at Felix
+move g1 from Ajo to Alpha (b1)
+convert g1 to b1 at Felix
+build g1 at Alpha
+build b1 at Felix
+convert g1 to y1 at Alpha
+move b1 from Felix to Rim (g3)
+build g1 at Ajo
+sacrifice g3 at Felix; build b2 at Rim; build b3 at Rim; build b3 at Felix
+build y2 at Alpha
+convert b3 to g3 at Felix
+move y1 from Alpha to Beta (b3)
+build b3 at Felix
+sacrifice g3 at Ajo; build y2 at Alpha; build y2 at Beta; build y3 at Ajo
+convert b3 to y3 at Rim
+convert y1 to r1 at Ajo
+build b3 at Rim
+build r1 at Ajo
+convert b3 to r3 at Rim
+move y2 from Alpha to Gamma (b3)
+build y1 at Rim
+build g1 at Alpha
+build r2 at Rim
+sacrifice y2 at Gamma; move g1 from Alpha to Rim; move g1 from Alpha to Rim
+sacrifice y3 at Rim; move r3 from Rim to Alpha; move b1 from Rim to Alpha; move b2 from Rim to Booger (g2)
+sacrifice y2 at Alpha; move g1 from Rim to Booger; move g1 from Booger to Beta
+build g2 at Felix
+build g2 at Ajo
+sacrifice g2 at Felix; build b3 at Alpha; build r2 at Alpha
+sacrifice y1 at Beta; move r1 from Ajo to Gamma (y1)
+convert b3 to g3 at Alpha
+sacrifice g1 at Rim; build r2 at Gamma
+build b3 at Booger
+sacrifice g2 at Ajo; build r3 at Gamma; build r3 at Ajo
+move r2 from Rim to Gamma; catastrophe red at Gamma
+move r3 from Ajo to Gamma (g1)
+convert b3 to y3 at Booger
+build g2 at Ajo
+build b3 at Booger
+build g2 at Beta
+sacrifice g3 at Felix; build g3 at Alpha; build y1 at Rim; build y2 at Booger
+build y2 at Beta
+move y1 from Rim to Alpha
+sacrifice y2 at Beta; move r3 from Gamma to Beta; move g1 from Beta to Alpha
+move y1 from Alpha to Ajo
+convert y3 to r3 at Ajo
+sacrifice g3 at Alpha; build y2 at Ajo; build y3 at Ajo
+catastrophe yellow at Ajo; build r1 at Beta
+sacrifice y3 at Booger; move b1 from Alpha to Ajo; move b3 from Booger to Alpha; move b3 from Alpha to Ajo
+pass
+sacrifice y2 at Booger; move b2 from Booger to Beta; move b2 from Beta to Ajo; catastrophe blue at Ajo

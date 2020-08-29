@@ -1,0 +1,19 @@
+Gui_Jim (0, b3g2) y3-
+Velgarath (1, b1g2) -y3
+build y1 at Gui_Jim
+build y1 at Velgarath
+move y1 from Gui_Jim to Kaito (g1)
+move y1 from Velgarath to Trantor (b3)
+build y1 at Kaito
+build y2 at Velgarath
+build y2 at Gui_Jim
+move y2 from Velgarath to Trantor
+move y1 from Kaito to Krypton (b3)
+convert y2 to r2 at Trantor
+build y2 at Kaito
+move r2 from Trantor to Kaito
+sacrifice y2 at Gui_Jim; move y2 from Kaito to Krypton; move y1 from Kaito to Trantor
+move y1 from Trantor to Kaito
+build y2 at Gui_Jim
+build y2 at Kaito
+sacrifice y3 at Gui_Jim; move y1 from Trantor to Velgarath; move y1 from Krypton to Velgarath; move y2 from Krypton to Velgarath; catastrophe yellow at Velgarath

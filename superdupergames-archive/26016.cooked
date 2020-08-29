@@ -1,0 +1,15 @@
+Anonfunc (0, b1r3) g3-
+Wil (1, b3y2) -g3
+build g1 at Anonfunc
+build g1 at Wil
+convert g1 to b1 at Anonfunc
+convert g1 to b1 at Wil
+build b2 at Anonfunc
+build b2 at Wil
+convert b2 to y2 at Anonfunc
+move b2 from Wil to Y1 (y1)
+move y2 from Anonfunc to Green (g2)
+build b2 at Wil
+build y1 at Green
+sacrifice g3 at Wil; build b2 at Y1; build b3 at Y1; build b3 at Wil
+move y1 from Green to Anonfunc; catastrophe blue at Wil

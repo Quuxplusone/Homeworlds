@@ -1,0 +1,40 @@
+Wil (0, b2y1) g3-
+Felix (1, y3b2) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to b1 at Wil
+convert g1 to b1 at Felix
+build g1 at Wil
+build b1 at Felix
+build b2 at Wil
+move b1 from Felix to Linter (g1)
+move b1 from Wil to Y3 (y3)
+build b3 at Linter
+sacrifice g3 at Wil; build b3 at Wil; build g1 at Wil; build b3 at Y3
+convert b3 to y3 at Linter
+convert b2 to y2 at Wil
+build g2 at Felix
+build g2 at Wil
+convert g2 to r2 at Felix
+convert b1 to r1 at Y3
+build g2 at Felix
+move g1 from Wil to B3 (b3)
+move g2 from Felix to Splinter (b1)
+move g2 from Wil to Y3
+build g2 at Felix
+build g3 at Y3
+sacrifice g3 at Felix; build g3 at Felix; build g3 at Splinter; build b2 at Linter
+sacrifice g3 at Y3; build g3 at Y3; build r1 at Y3; build r1 at Y3
+sacrifice g3 at Felix; build g3 at Felix; build y1 at Linter; build y1 at Linter
+move r1 from Y3 to Y2 (y2)
+move b2 from Linter to B3
+sacrifice g1 at B3; build r2 at Y2
+sacrifice y3 at Linter; move b1 from Linter to B3; move b1 from B3 to Wil; move b2 from B3 to Wil; catastrophe blue at Wil
+sacrifice y2 at Wil; move g3 from Y3 to Wil; move b3 from Y3 to Linter
+convert g3 to y3 at Felix
+move r1 from Y3 to Wil
+sacrifice y1 at Linter; move y1 from Linter to Binter (b2)
+sacrifice b3 at Linter; convert g2 to b2 at Y3; convert r1 to y1 at Y2; convert r2 to y2 at Y2
+convert g2 to y2 at Splinter
+move y1 from Y2 to G1 (g1)
+sacrifice y2 at Splinter; move y1 from Binter to Wil; move y3 from Felix to Wil

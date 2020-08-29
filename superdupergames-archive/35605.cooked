@@ -1,0 +1,104 @@
+Nycavri (0, b1y2) g3-
+Dodobirb (1, r1b3) -g3
+build g1 at Nycavri
+build g1 at Dodobirb
+convert g1 to y1 at Nycavri
+build g1 at Dodobirb
+move y1 from Nycavri to Deacon (g3)
+convert g1 to y1 at Dodobirb
+build g1 at Nycavri
+move y1 from Dodobirb to Green (g2)
+convert g1 to r1 at Nycavri
+convert g1 to r1 at Dodobirb
+build g1 at Nycavri
+build g1 at Dodobirb
+move y1 from Deacon to May (g2)
+convert g1 to y1 at Dodobirb
+build y2 at May
+build y2 at Green
+build r2 at Nycavri
+move r1 from Dodobirb to Green
+move r1 from Nycavri to Mercury (y3)
+build r2 at Green
+move r1 from Mercury to May
+move r2 from Green to Greeny (g3)
+build r2 at May
+build r3 at Green
+build r3 at Nycavri
+build y3 at Dodobirb
+convert r3 to y3 at Nycavri
+move y3 from Dodobirb to Construction (g2)
+move y3 from Nycavri to Taylor (y3)
+move r1 from Green to Greeny
+convert g1 to b1 at Nycavri
+convert y1 to b1 at Dodobirb
+move b1 from Nycavri to Taylor
+build g1 at Dodobirb
+build g1 at Nycavri
+convert g1 to y1 at Dodobirb
+convert y3 to b3 at Taylor
+build y3 at Construction
+convert b1 to g1 at Taylor
+build g1 at Dodobirb
+sacrifice y2 at May; move b3 from Taylor to May; move b3 from May to Greeny
+sacrifice y2 at Green; move r2 from Greeny to May; move r1 from Greeny to May; catastrophe red at May
+sacrifice g3 at Nycavri; build g3 at Nycavri; build b1 at Greeny; build y2 at May
+move r3 from Green to Taylor
+move g1 from Taylor to Edney (y2)
+move y3 from Construction to Reddy (r3)
+sacrifice y1 at May; move b1 from Greeny to Edney
+move b1 from Dodobirb to Green
+build b2 at Edney
+convert b1 to r1 at Green
+sacrifice y2 at May; move b1 from Edney to Dodobirb; move b2 from Edney to Dodobirb
+sacrifice r3 at Taylor; capture b2 at Dodobirb; capture b1 at Dodobirb
+sacrifice g3 at Nycavri; build g2 at Edney; build g3 at Nycavri; build b1 at Greeny
+move b2 from Dodobirb to Green
+convert b3 to y3 at Greeny
+move b2 from Green to R3 (r3)
+sacrifice y3 at Greeny; move b1 from Greeny to Edney; move g1 from Edney to Dodobirb; move g2 from Edney to Dodobirb; catastrophe green at Dodobirb
+move y3 from Construction to Dodobirb
+move g1 from Nycavri to Rami (y3)
+convert y1 to g1 at Dodobirb
+sacrifice g1 at Rami; build b2 at Edney
+move b1 from Dodobirb to Green
+convert b1 to g1 at Edney
+move y3 from Reddy to Edney
+move b2 from Edney to Rami (g1)
+move y3 from Edney to Rami
+convert b2 to y2 at Rami
+build g2 at Dodobirb
+build g2 at Nycavri
+move g2 from Dodobirb to Edney
+move g2 from Nycavri to Rogers (y3)
+build r1 at Green
+build r2 at Nycavri
+move y3 from Rami to Rogers
+build g3 at Nycavri
+build g3 at Dodobirb
+sacrifice g3 at Nycavri; build g3 at Edney; build y1 at Rami; build y1 at Rami
+sacrifice g3 at Dodobirb; build g3 at Dodobirb; build b1 at R3; build b2 at R3
+move r2 from Nycavri to Stickells (b3)
+sacrifice y3 at Rogers; move b2 from R3 to Nycavri; move b2 from R3 to Nycavri; move b1 from R3 to Nycavri; catastrophe blue at Nycavri
+sacrifice g3 at Edney; build g3 at Nycavri; build r2 at Stickells
+build r3 at Green
+sacrifice y2 at Rami; move g1 from Edney to Dodobirb; move g3 from Nycavri to Dodobirb; catastrophe green at Dodobirb
+convert y3 to g3 at Dodobirb
+move g2 from Rogers to Lambert (y2)
+build y3 at Green
+sacrifice y1 at Rami; move r2 from Stickells to Green; catastrophe red at Green
+build g1 at Dodobirb
+build r1 at Nycavri
+convert g3 to y3 at Dodobirb
+move g2 from Lambert to Dodobirb
+capture g2 at Dodobirb
+convert r2 to y2 at Stickells
+move y1 from Green to Greeeny (g3)
+build r1 at Nycavri
+convert g2 to r2 at Dodobirb
+sacrifice y2 at Stickells; move r1 from Nycavri to Dodobirb; move r1 from Nycavri to Dodobirb; catastrophe red at Dodobirb
+convert g1 to r1 at Dodobirb
+build g1 at Nycavri
+build y1 at Greeeny
+move y1 from Rami to Greeeny
+sacrifice y3 at Green; move y3 from Dodobirb to Nycavri; move y1 from Greeeny to Nycavri; move y1 from Greeeny to Nycavri; catastrophe yellow at Nycavri

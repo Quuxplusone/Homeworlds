@@ -1,0 +1,46 @@
+Ajo (0, g3y1) b3-
+Felix (1, b3y2) -g3
+build b1 at Ajo
+build g1 at Felix
+move b1 from Ajo to Alpha (b2)
+convert g1 to b1 at Felix
+convert b1 to g1 at Alpha
+build g1 at Felix
+build b1 at Ajo
+move g1 from Felix to Out (b1)
+build b2 at Ajo
+build b2 at Felix
+convert b2 to r2 at Ajo
+convert b1 to y1 at Felix
+move r2 from Ajo to Alpha
+build y1 at Felix
+build r1 at Alpha
+move y1 from Felix to Out
+convert r2 to y2 at Alpha
+convert y1 to r1 at Felix
+convert b3 to y3 at Ajo
+build g1 at Felix
+build g2 at Alpha
+build g2 at Out
+convert g2 to r2 at Alpha
+move g2 from Out to Jelwick (b2)
+move r2 from Alpha to Out
+move g3 from Felix to Out
+convert r2 to g2 at Out
+sacrifice g3 at Out; build g2 at Out; build g3 at Felix; build g3 at Jelwick
+sacrifice g2 at Out; build b1 at Ajo; build b3 at Ajo
+move b2 from Felix to Arthos (y1)
+sacrifice b1 at Ajo; convert b3 to r3 at Ajo
+build y2 at Out
+build y3 at Alpha
+move y2 from Out to Jelwick
+move y3 from Alpha to Out
+sacrifice g2 at Out; build y3 at Jelwick; build r1 at Felix
+move y3 from Ajo to Alpha
+sacrifice y2 at Jelwick; move g3 from Jelwick to Ajo; move y3 from Jelwick to Ajo
+capture y3 at Ajo
+sacrifice r1 at Felix; capture r3 at Ajo
+sacrifice r1 at Alpha; capture r3 at Ajo
+sacrifice r1 at Felix; capture r3 at Ajo
+sacrifice y3 at Alpha; move g1 from Alpha to Out; move g1 from Out to Felix; move y2 from Alpha to Ajo
+sacrifice r3 at Ajo; capture y2 at Ajo; capture y3 at Ajo; capture b1 at Ajo

@@ -1,0 +1,75 @@
+Mneme (0, r1b2) g3-
+Bhorner (1, r3b1) -g3
+build g1 at Mneme
+build g1 at Bhorner
+convert g1 to b1 at Mneme
+convert g1 to b1 at Bhorner
+build b2 at Mneme
+build g1 at Bhorner
+convert b2 to y2 at Mneme
+build b2 at Bhorner
+build b2 at Mneme
+convert b1 to y1 at Bhorner
+move b1 from Mneme to Calliope (g3)
+move b2 from Bhorner to Melpomene (g2)
+build g1 at Mneme
+build y1 at Bhorner
+build y1 at Mneme
+build y2 at Bhorner
+move y2 from Mneme to Calliope
+move y2 from Bhorner to Melpomene
+move g1 from Mneme to River (y3)
+move y1 from Bhorner to Exhaust (g2)
+build g1 at Mneme
+sacrifice g3 at Bhorner; build y2 at Melpomene; build y3 at Bhorner; build y3 at Exhaust
+sacrifice g3 at Mneme; build g2 at Mneme; build g3 at Mneme; build g3 at River
+convert y1 to r1 at Bhorner
+convert g2 to r2 at Mneme
+build g2 at Bhorner
+sacrifice g3 at Mneme; build g3 at Mneme; build y1 at Calliope; build r1 at Mneme
+sacrifice g1 at Bhorner; build r2 at Bhorner
+move r1 from Mneme to Calliope
+move r2 from Bhorner to Exhaust
+move g3 from River to Melpomene
+sacrifice y2 at Melpomene; move y2 from Melpomene to Calliope; move b2 from Melpomene to River
+capture y2 at Calliope
+move y1 from Exhaust to Calliope; catastrophe yellow at Calliope
+sacrifice g3 at Mneme; build g1 at Melpomene; build g3 at River; build y1 at Mneme
+move g2 from Bhorner to Melpomene; catastrophe green at Melpomene
+sacrifice r1 at Calliope; capture b2 at River
+move r2 from Exhaust to Calliope
+sacrifice g3 at River; build b1 at River; build b3 at Mneme; build b3 at Calliope
+move y3 from Exhaust to River
+sacrifice b2 at Mneme; convert b2 to y2 at River; convert b1 to y1 at River; catastrophe yellow at River
+convert y3 to g3 at Bhorner
+sacrifice r2 at Mneme; capture r2 at Calliope
+convert r1 to y1 at Bhorner
+move y1 from Mneme to Calliope
+build y2 at Bhorner
+build y2 at Calliope
+move y2 from Bhorner to Doh (g2)
+convert b3 to g3 at Calliope
+build y2 at Doh
+convert y1 to r1 at Calliope
+move y2 from Doh to Blurb (b3)
+move r2 from Calliope to Doh
+sacrifice g3 at Bhorner; build y1 at Blurb; build y3 at Bhorner; build y3 at Doh
+sacrifice g3 at Calliope; build y3 at Mneme; build r1 at Doh; build r2 at Doh
+sacrifice y2 at Doh; move y1 from Blurb to Mneme; move y2 from Blurb to Mneme; catastrophe yellow at Mneme
+build r2 at Calliope
+convert y1 to g1 at Bhorner
+build r3 at Calliope
+build y1 at Bhorner
+build b1 at Calliope
+move y1 from Bhorner to Nored (g2)
+convert r3 to y3 at Calliope
+build y1 at Nored
+build r3 at Calliope
+build y1 at Doh
+sacrifice y3 at Calliope; move r1 from Doh to Bhorner; move r2 from Doh to Bhorner; move r2 from Doh to Bhorner; catastrophe red at Bhorner
+convert y3 to r3 at Bhorner
+build b2 at Calliope
+move y1 from Nored to Fluid (b3)
+move b2 from Calliope to Bhorner
+sacrifice y3 at Doh; move r3 from Bhorner to Calliope; move r3 from Calliope to Mneme; move y1 from Nored to Bhorner
+sacrifice y2 at Calliope; move b1 from Calliope to Bhorner; move b1 from Calliope to Bhorner; catastrophe blue at Bhorner

@@ -1,0 +1,50 @@
+Lorgar (0, y1b2) g3-
+Silenttitan (1, b2r3) -g3
+build g1 at Lorgar
+build g1 at Silenttitan
+build g1 at Lorgar
+build g2 at Silenttitan
+convert g1 to b1 at Lorgar
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Lorgar
+build y2 at Silenttitan
+build y2 at Lorgar
+move y1 from Silenttitan to Xi (r1)
+move y2 from Lorgar to Mu (g3)
+sacrifice g3 at Silenttitan; build y2 at Xi; build y3 at Silenttitan; build y3 at Silenttitan
+build y3 at Mu
+sacrifice y2 at Silenttitan; move y1 from Xi to Mu; move y2 from Xi to Mu; catastrophe yellow at Mu
+build g1 at Lorgar
+move y3 from Silenttitan to Alpha (b1)
+build b1 at Lorgar
+build y1 at Silenttitan
+move b1 from Lorgar to Armadillo (g3)
+move y3 from Alpha to Beta (b3)
+build b1 at Lorgar
+sacrifice g2 at Silenttitan; build y2 at Beta; build y2 at Silenttitan
+convert b1 to r1 at Lorgar
+convert y2 to r2 at Beta
+build b1 at Armadillo
+convert y2 to g2 at Silenttitan
+build b2 at Lorgar
+sacrifice g2 at Silenttitan; build y2 at Beta; build y2 at Silenttitan
+convert b2 to r2 at Lorgar
+convert y2 to b2 at Beta
+move y1 from Lorgar to Armadillo
+move b2 from Beta to Omega (g2)
+convert b1 to r1 at Armadillo
+convert y1 to b1 at Silenttitan
+build b3 at Armadillo
+build b3 at Omega
+move b1 from Armadillo to Proko (g1)
+convert b2 to r2 at Omega
+build b2 at Proko
+move y3 from Beta to Proko
+sacrifice b2 at Proko; convert r1 to y1 at Lorgar
+convert y3 to g3 at Silenttitan
+build y2 at Armadillo
+sacrifice g3 at Silenttitan; build y2 at Proko; build y3 at Silenttitan; build b2 at Omega
+sacrifice y2 at Armadillo; move b3 from Armadillo to Omega; move b1 from Proko to Omega; catastrophe blue at Omega
+move y3 from Proko to Armadillo
+build r1 at Lorgar
+sacrifice r2 at Beta; capture y1 at Armadillo; capture r1 at Armadillo

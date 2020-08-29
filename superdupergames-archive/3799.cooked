@@ -1,0 +1,26 @@
+Cerulean (0, y3b1) g3-
+Zoltar (1, b2y1) -g3
+build g1 at Cerulean
+build g1 at Zoltar
+move g1 from Cerulean to Bitou (b2)
+move g1 from Zoltar to Boysenberry (b3)
+convert g1 to y1 at Bitou
+build g1 at Zoltar
+build g1 at Cerulean
+build g2 at Boysenberry
+build g2 at Cerulean
+sacrifice g3 at Zoltar; build g2 at Boysenberry; build g3 at Zoltar; build g3 at Zoltar
+move g1 from Cerulean to Bitou
+convert g2 to y2 at Boysenberry
+move g1 from Bitou to Wythrii (y3)
+convert g1 to r1 at Zoltar
+convert g2 to y2 at Cerulean
+build r1 at Zoltar
+build g1 at Wythrii
+convert g3 to y3 at Zoltar
+build g2 at Cerulean
+move g2 from Boysenberry to Bitou
+move y1 from Bitou to Wythrii
+build g2 at Zoltar
+sacrifice y2 at Cerulean; move g1 from Wythrii to Zoltar; move y1 from Wythrii to Zoltar
+sacrifice y3 at Zoltar; move g1 from Boysenberry to Bitou; move g1 from Bitou to Cerulean; move g2 from Bitou to Cerulean; catastrophe green at Cerulean

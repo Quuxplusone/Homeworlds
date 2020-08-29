@@ -1,0 +1,56 @@
+Goblin981 (0, g3b2) r3-
+Dlwillson (1, b3y1) -g3
+build r1 at Goblin981
+build g1 at Dlwillson
+build r1 at Goblin981
+convert g1 to r1 at Dlwillson
+convert r1 to g1 at Goblin981
+build g1 at Dlwillson
+build r1 at Goblin981
+build r2 at Dlwillson
+convert r1 to y1 at Goblin981
+convert g1 to b1 at Dlwillson
+move g1 from Goblin981 to Yellow (y1)
+build b1 at Dlwillson
+move g1 from Yellow to Kry (r3)
+move b1 from Dlwillson to Turkey (g2)
+build y1 at Goblin981
+move b1 from Dlwillson to Chicken (y2)
+build y2 at Goblin981
+build g1 at Dlwillson
+move y1 from Goblin981 to Sick (g1)
+move b1 from Chicken to Partridge (r1)
+build r2 at Goblin981
+convert g3 to y3 at Dlwillson
+convert r2 to b2 at Goblin981
+build g2 at Dlwillson
+move b2 from Goblin981 to Sick
+move y3 from Dlwillson to Turkey
+build y2 at Sick
+build y2 at Turkey
+build g2 at Kry
+move y2 from Turkey to Partridge
+convert y2 to r2 at Sick
+move r2 from Dlwillson to Turkey
+move r2 from Sick to Yell (y2)
+sacrifice g2 at Dlwillson; build y3 at Partridge; build y3 at Turkey
+move b2 from Sick to Yell
+build g2 at Dlwillson
+move y1 from Sick to Yell
+sacrifice g2 at Dlwillson; build r2 at Turkey; build r3 at Dlwillson
+move r1 from Goblin981 to Blu (b1)
+convert y3 to g3 at Partridge
+sacrifice g1 at Kry; build b2 at Yell
+sacrifice g3 at Partridge; build b3 at Partridge; build y3 at Partridge; build b3 at Turkey
+sacrifice g2 at Kry; build r3 at Goblin981
+sacrifice y3 at Turkey; move y2 from Partridge to Goblin981; move b1 from Partridge to Goblin981; move r2 from Turkey to Partridge
+capture y2 at Goblin981
+sacrifice y3 at Turkey; move r2 from Turkey to Partridge; move r2 from Partridge to Goblin981; move r2 from Partridge to Goblin981; catastrophe red at Goblin981
+sacrifice y1 at Goblin981; move r1 from Blu to Yell
+build b1 at Goblin981
+convert y2 to r2 at Goblin981
+move y3 from Partridge to Goblin981
+sacrifice r2 at Yell; capture b1 at Goblin981; capture b1 at Goblin981
+sacrifice r3 at Dlwillson; capture b1 at Goblin981; capture y2 at Goblin981; capture r2 at Goblin981
+pass
+sacrifice y3 at Goblin981; move b3 from Turkey to Partridge; move b3 from Partridge to Goblin981; move b3 from Partridge to Goblin981; catastrophe blue at Goblin981

@@ -1,0 +1,67 @@
+Schmoopy (0, r3b1) g3-
+Inattentive (1, y2b3) -g3
+build g1 at Schmoopy
+build g1 at Inattentive
+convert g1 to b1 at Schmoopy
+convert g1 to r1 at Inattentive
+build b1 at Schmoopy
+build g1 at Inattentive
+build g1 at Schmoopy
+convert g1 to y1 at Inattentive
+convert g1 to y1 at Schmoopy
+build r1 at Inattentive
+move b1 from Schmoopy to Stelaris (r2)
+build g1 at Inattentive
+build g1 at Schmoopy
+move g3 from Inattentive to Poo (r1)
+move g3 from Schmoopy to Stelaris
+build r2 at Inattentive
+build b2 at Stelaris
+convert r2 to b2 at Inattentive
+convert b2 to r2 at Stelaris
+build r2 at Inattentive
+build r3 at Stelaris
+move r1 from Inattentive to Poo
+sacrifice y1 at Schmoopy; move r3 from Stelaris to Pee (y1)
+sacrifice y1 at Inattentive; move g3 from Poo to Inattentive
+convert b1 to y1 at Schmoopy
+convert r2 to y2 at Inattentive
+build y1 at Schmoopy
+build r2 at Inattentive
+move y1 from Schmoopy to Stelaris
+move r1 from Inattentive to Poo
+move r2 from Stelaris to Pee
+build r3 at Inattentive
+build y2 at Schmoopy
+move r2 from Inattentive to Pee
+build y3 at Schmoopy
+sacrifice y2 at Inattentive; move r1 from Poo to Stelaris; move r1 from Stelaris to Pee; catastrophe red at Pee
+move y2 from Schmoopy to Neat (g2)
+convert g1 to y1 at Inattentive
+sacrifice g3 at Stelaris; build y2 at Stelaris; build y3 at Neat; build y3 at Stelaris
+move y1 from Inattentive to Poo
+move y3 from Stelaris to Poo
+move y1 from Poo to Comegetmejerry (g2)
+capture r1 at Poo
+build r1 at Inattentive
+build g1 at Schmoopy
+move r1 from Inattentive to Poo
+move r1 from Poo to Neat
+build r2 at Inattentive
+capture r1 at Poo
+move y1 from Comegetmejerry to Suckitbitch (g1)
+build g2 at Schmoopy
+move r3 from Inattentive to Suckitbitch
+move y2 from Stelaris to Poo
+build g2 at Inattentive
+move g1 from Schmoopy to Neat
+move r3 from Suckitbitch to Stelaris
+move b1 from Stelaris to Schmoopy
+capture y1 at Stelaris
+build g3 at Schmoopy
+build g3 at Inattentive
+sacrifice y2 at Neat; move g1 from Neat to Poo; move g1 from Poo to Inattentive; catastrophe green at Inattentive
+build y2 at Suckitbitch
+move y3 from Poo to Inattentive
+convert r2 to g2 at Inattentive
+convert g3 to r3 at Schmoopy

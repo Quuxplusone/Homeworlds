@@ -1,0 +1,25 @@
+Mirror33 (0, b3r1) g3-
+Bootleby (1, y1b2) -g3
+build g1 at Mirror33
+build g1 at Bootleby
+convert g1 to b1 at Mirror33
+move g1 from Bootleby to Euro (b3)
+build g1 at Mirror33
+convert g1 to r1 at Euro
+build g1 at Mirror33
+build g1 at Bootleby
+convert g1 to y1 at Mirror33
+build g1 at Bootleby
+build g2 at Mirror33
+move g1 from Bootleby to Euro
+move g2 from Mirror33 to Everly (b2)
+build g2 at Euro
+sacrifice g3 at Mirror33; build g2 at Everly; build g3 at Everly; build g3 at Mirror33
+convert g1 to y1 at Euro
+convert g2 to y2 at Everly
+move g2 from Euro to Everly
+convert g3 to r3 at Everly
+sacrifice g3 at Bootleby; build g1 at Everly; build g2 at Everly; build g3 at Bootleby; catastrophe green at Everly
+sacrifice y2 at Everly; move r3 from Everly to Euro; move r3 from Euro to Bootleby
+build g1 at Bootleby
+capture g3 at Bootleby

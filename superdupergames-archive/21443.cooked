@@ -1,0 +1,29 @@
+Pjackson (0, b1y2) g3-
+Salmoneus (1, y3g2) -b3
+build g1 at Pjackson
+build b1 at Salmoneus
+build g1 at Pjackson
+convert b1 to g1 at Salmoneus
+move g1 from Pjackson to Sagan (y3)
+build b1 at Salmoneus
+build g2 at Sagan
+build b1 at Salmoneus
+convert g3 to b3 at Pjackson
+convert b3 to r3 at Salmoneus
+build b2 at Pjackson
+convert b1 to y1 at Salmoneus
+convert b3 to y3 at Pjackson
+move r3 from Salmoneus to Spacepope (y1)
+move g2 from Sagan to Icarus (y1)
+move g1 from Salmoneus to Planetstarbucks (b1)
+sacrifice g2 at Icarus; build g2 at Pjackson; build b2 at Pjackson
+move r3 from Spacepope to Sagan
+convert b2 to r2 at Pjackson
+capture g1 at Sagan
+move g2 from Pjackson to Copernicus (b3)
+convert g1 to y1 at Planetstarbucks
+sacrifice b2 at Pjackson; convert y3 to r3 at Pjackson; convert r2 to y2 at Pjackson
+move y1 from Planetstarbucks to Arrakis (g2)
+sacrifice y2 at Pjackson; move g2 from Copernicus to Wormhole (y1); move g2 from Wormhole to Salmoneus
+build r1 at Sagan
+sacrifice r3 at Pjackson; capture y1 at Salmoneus; capture b1 at Salmoneus

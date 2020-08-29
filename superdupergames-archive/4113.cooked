@@ -1,0 +1,41 @@
+Zoltar (0, r3b2) g3-
+Tuxhedoh (1, b1g3) -y3
+build g1 at Zoltar
+build y1 at Tuxhedoh
+convert g1 to y1 at Zoltar
+convert y1 to g1 at Tuxhedoh
+build g1 at Zoltar
+build y1 at Tuxhedoh
+convert g1 to r1 at Zoltar
+convert y1 to r1 at Tuxhedoh
+build g1 at Zoltar
+build y1 at Tuxhedoh
+convert g1 to b1 at Zoltar
+build g1 at Tuxhedoh
+build g1 at Zoltar
+move g1 from Tuxhedoh to Barney (r2)
+move g1 from Zoltar to Yellowstone (y1)
+build g2 at Tuxhedoh
+build g2 at Zoltar
+move y1 from Tuxhedoh to Barney
+sacrifice g3 at Zoltar; build g2 at Zoltar; build g3 at Zoltar; build g3 at Yellowstone
+move g1 from Barney to Yellowstone
+sacrifice r1 at Zoltar; capture g1 at Yellowstone
+build y2 at Tuxhedoh
+move g3 from Yellowstone to Barney
+move y1 from Barney to Yellowstone
+sacrifice g2 at Zoltar; build y2 at Zoltar; build g2 at Barney
+build r1 at Tuxhedoh
+convert g2 to r2 at Zoltar
+build y2 at Tuxhedoh
+move y1 from Zoltar to Blueridge (b1)
+convert y2 to b2 at Tuxhedoh
+sacrifice g3 at Barney; build y2 at Blueridge; build y3 at Blueridge; build y3 at Zoltar
+convert b2 to r2 at Tuxhedoh
+sacrifice y3 at Blueridge; move r2 from Zoltar to Blueridge; move r2 from Blueridge to Barney; move r2 from Barney to Tuxhedoh; catastrophe red at Tuxhedoh
+move g1 from Tuxhedoh to Leroy (b2)
+move y1 from Blueridge to Bluemountains (b2)
+move y2 from Tuxhedoh to Leroy
+sacrifice g1 at Yellowstone; build y3 at Bluemountains
+build g1 at Leroy
+build b3 at Zoltar

@@ -1,0 +1,50 @@
+Dlwillson (0, b3y1) g3-
+Wil (1, g2y1) -y3
+build g1 at Dlwillson
+build y1 at Wil
+convert g3 to y3 at Dlwillson
+move y1 from Wil to G3 (g3)
+build y2 at Dlwillson
+build y2 at G3
+move y2 from Dlwillson to Field (g2)
+move y1 from G3 to Field
+build g1 at Dlwillson
+build y2 at Field
+build y3 at Field; catastrophe yellow at Field
+build y1 at G3
+build g1 at Dlwillson
+build y2 at Wil
+move g1 from Dlwillson to Sea (b2)
+move y2 from Wil to B3 (b3)
+build g2 at Sea
+build y2 at Wil
+move g1 from Dlwillson to Forest (g2)
+move y3 from Wil to B3
+build g3 at Sea
+convert y3 to g3 at B3
+convert g2 to r2 at Sea
+move g3 from B3 to Wil
+sacrifice y3 at Dlwillson; move g3 from Sea to B3; move g3 from B3 to Wil; move g1 from Forest to Golden (y3)
+build g2 at Wil; catastrophe green at Wil
+build g2 at Dlwillson
+build y3 at G3
+build g2 at Sea
+sacrifice y2 at G3; move y3 from G3 to Sea; move y3 from Sea to Dlwillson
+convert g1 to r1 at Dlwillson
+convert y2 to r2 at B3
+sacrifice g2 at Sea; build g1 at Dlwillson; build r1 at Dlwillson
+build y2 at G3
+convert g2 to y2 at Dlwillson
+build y3 at G3
+build g2 at Golden
+move y3 from G3 to Sea
+move g2 from Golden to Wil
+sacrifice r2 at B3; capture g2 at Wil; capture r2 at Sea
+build g2 at Dlwillson
+sacrifice r2 at Sea; capture y2 at Dlwillson; capture g2 at Dlwillson
+build g2 at Sea
+convert y2 to r2 at Dlwillson
+build g3 at Golden
+sacrifice r2 at Dlwillson; capture r1 at Dlwillson; capture r1 at Dlwillson
+convert g2 to r2 at Sea
+capture g1 at Dlwillson

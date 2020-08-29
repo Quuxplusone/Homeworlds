@@ -1,0 +1,53 @@
+Zoltar (0, b2y1) g3-
+Uglyfoot (1, y3b1) -g3
+build g1 at Zoltar
+build g1 at Uglyfoot
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Uglyfoot
+build y2 at Zoltar
+build y2 at Uglyfoot
+convert y1 to r1 at Zoltar
+build g1 at Uglyfoot
+build g1 at Zoltar
+move y2 from Uglyfoot to Hera (g2)
+convert g1 to b1 at Zoltar
+convert g1 to r1 at Uglyfoot
+build g1 at Zoltar
+build g1 at Uglyfoot
+move y2 from Zoltar to Rhea (g3)
+move y1 from Uglyfoot to Hermes (b2)
+move g1 from Zoltar to Artemis (b3)
+move g1 from Uglyfoot to Hermes
+move b1 from Zoltar to Rhea
+build g1 at Uglyfoot
+build g2 at Zoltar
+sacrifice g3 at Uglyfoot; build g2 at Hermes; build g3 at Uglyfoot; build y1 at Hera
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b1 at Rhea; build b2 at Rhea
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build y2 at Hera; build y3 at Hermes
+move b2 from Rhea to Hephaestus (r2)
+move y2 from Hera to Apollo (b3)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Rhea; build b3 at Rhea
+sacrifice y2 at Apollo; move y1 from Hermes to Rhea; move y1 from Hera to Rhea; catastrophe yellow at Rhea
+convert b3 to y3 at Rhea
+move y3 from Hermes to Zeus (b3)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y1 at Rhea; build b3 at Hephaestus
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build y1 at Hera; build y2 at Zeus
+convert b2 to y2 at Hephaestus
+sacrifice y2 at Zeus; move y1 from Hera to Rhea; move y2 from Hera to Rhea; catastrophe yellow at Rhea
+sacrifice g3 at Zoltar; build g2 at Artemis; build g3 at Zoltar; build b2 at Hephaestus
+convert g2 to r2 at Hermes
+convert b3 to r3 at Hephaestus
+sacrifice g3 at Uglyfoot; build g2 at Hermes; build g3 at Uglyfoot; build r1 at Uglyfoot
+sacrifice g3 at Zoltar; build b3 at Rhea; build y1 at Hephaestus; build g3 at Zoltar
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build r2 at Hermes; build y1 at Zeus
+convert b3 to r3 at Rhea
+move r1 from Uglyfoot to Hephaestus
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b3 at Rhea; build r3 at Rhea
+move r1 from Uglyfoot to Hephaestus; catastrophe red at Hephaestus
+convert b3 to y3 at Rhea
+convert r2 to b2 at Hermes
+move r3 from Rhea to Hermes
+convert g1 to r1 at Hermes
+sacrifice r3 at Rhea; capture g2 at Hermes; capture r2 at Hermes; capture r1 at Hermes
+convert b2 to r2 at Hermes; catastrophe red at Hermes
+sacrifice y3 at Rhea; move g2 from Artemis to Hermes; move g2 from Hermes to Uglyfoot; move g2 from Hermes to Uglyfoot; catastrophe green at Uglyfoot

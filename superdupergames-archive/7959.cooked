@@ -1,0 +1,43 @@
+Twoshort (0, r1b3) g3-
+Zoltar (1, b1y2) -g3
+build g1 at Twoshort
+build g1 at Zoltar
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Zoltar
+build g1 at Twoshort
+build g1 at Zoltar
+build y1 at Twoshort
+move y1 from Zoltar to Greenbelt (g3)
+build y2 at Twoshort
+build y2 at Greenbelt
+move y1 from Twoshort to Grogar (g2)
+move y2 from Greenbelt to Greenhills (g2)
+convert y2 to r2 at Twoshort
+convert g1 to r1 at Zoltar
+move g1 from Twoshort to Bluestar (b2)
+build g1 at Zoltar
+build g1 at Twoshort
+convert g1 to b1 at Zoltar
+convert g1 to b1 at Twoshort
+build b2 at Zoltar
+move b1 from Twoshort to Grogar
+move b2 from Zoltar to Greenbelt
+build g1 at Twoshort
+build g1 at Zoltar
+build b2 at Grogar
+build b3 at Greenbelt
+move b1 from Grogar to Yoyodyne (y3)
+convert b2 to r2 at Greenbelt
+sacrifice g3 at Twoshort; build y2 at Grogar; build b2 at Yoyodyne; build y3 at Twoshort
+build b3 at Greenbelt
+sacrifice y2 at Grogar; move b1 from Yoyodyne to Zoltar; move b2 from Yoyodyne to Zoltar; catastrophe blue at Zoltar
+convert b3 to y3 at Greenbelt
+build g2 at Twoshort
+sacrifice y3 at Greenbelt; move y1 from Greenbelt to Greenhills; move y1 from Greenhills to Twoshort; move y2 from Greenhills to Twoshort; catastrophe yellow at Twoshort
+build g2 at Bluestar
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Zoltar; build r1 at Greenbelt
+sacrifice y1 at Grogar; move g1 from Twoshort to Zoltar; catastrophe green at Zoltar
+convert r2 to y2 at Greenbelt
+convert g2 to y2 at Bluestar
+sacrifice y2 at Greenbelt; move b3 from Greenbelt to Bluestar; move b3 from Bluestar to Twoshort
+sacrifice y2 at Bluestar; move r2 from Twoshort to Zoltar; move g1 from Bluestar to Twoshort

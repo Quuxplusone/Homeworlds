@@ -1,0 +1,30 @@
+Tendrecube (0, g3b2) y3-
+Twoshort (1, b2y1) -g3
+build y1 at Tendrecube
+build g1 at Twoshort
+convert y1 to b1 at Tendrecube
+build g1 at Twoshort
+move b1 from Tendrecube to Alias (y1)
+move g1 from Twoshort to Jed (y3)
+build y1 at Tendrecube
+build g1 at Twoshort
+convert y3 to r3 at Tendrecube
+move g1 from Twoshort to Jethro (y3)
+build y2 at Tendrecube
+build g2 at Twoshort
+build y2 at Tendrecube
+move g2 from Twoshort to Bluestar (b3)
+sacrifice y2 at Tendrecube; move r3 from Tendrecube to Alias; move r3 from Alias to Bluestar
+convert g1 to r1 at Twoshort
+capture g2 at Bluestar
+build g1 at Twoshort
+sacrifice y1 at Tendrecube; move r3 from Bluestar to Twoshort
+capture r3 at Twoshort
+build g2 at Bluestar
+move g1 from Jed to Stepstone (y1)
+build y2 at Tendrecube
+sacrifice g3 at Twoshort; build g2 at Jethro; build g3 at Stepstone; build g3 at Twoshort
+convert y2 to r2 at Tendrecube
+move g3 from Stepstone to Tendrecube
+sacrifice y2 at Tendrecube; move g2 from Bluestar to Twoshort; move g2 from Bluestar to Twoshort; catastrophe green at Twoshort
+sacrifice r1 at Twoshort; capture r2 at Tendrecube

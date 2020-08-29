@@ -1,0 +1,7 @@
+Babamots (0, b2y1) g3-
+Grosseteste (1, b1y3) -g3
+build g1 at Babamots
+build g1 at Grosseteste
+convert g1 to b1 at Babamots
+convert g1 to b1 at Grosseteste
+build b2 at Babamots

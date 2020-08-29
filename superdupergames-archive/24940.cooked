@@ -1,0 +1,23 @@
+Wil (0, b2r1) g3-
+Onepagewars (1, b1r3) -g3
+build g1 at Wil
+build g1 at Onepagewars
+convert g1 to y1 at Wil
+convert g1 to y1 at Onepagewars
+build g1 at Wil
+build g1 at Onepagewars
+move g1 from Wil to Y3 (y3)
+move g1 from Onepagewars to Wormhole (b2)
+build y1 at Wil
+build y2 at Onepagewars
+move y1 from Wil to B3 (b3)
+build y2 at Onepagewars
+sacrifice g3 at Wil; build y2 at Wil; build y3 at Wil; build y3 at B3
+move y1 from Onepagewars to Wormhole
+convert y1 to g1 at Wil
+build g2 at Wormhole
+build g2 at Y3
+convert g1 to r1 at Wormhole
+convert y2 to r2 at Wil
+build r1 at Wormhole
+move g1 from Y3 to Y2 (y2)

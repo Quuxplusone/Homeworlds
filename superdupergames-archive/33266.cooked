@@ -1,0 +1,39 @@
+Babamots (0, b2y1) g3-
+Ajo (1, r2b3) -g3
+build g1 at Babamots
+build g1 at Ajo
+move g1 from Babamots to Betazed (b3)
+convert g1 to y1 at Ajo
+build g1 at Babamots
+build y1 at Ajo
+build g1 at Betazed
+build g2 at Ajo
+sacrifice g3 at Babamots; build g2 at Babamots; build g2 at Betazed; build g3 at Babamots
+sacrifice g3 at Ajo; build g3 at Ajo; build g3 at Ajo; build y2 at Ajo
+convert g2 to y2 at Betazed
+move g3 from Ajo to Alpha (b1)
+move g2 from Babamots to Ferenginar (y3)
+convert y1 to r1 at Ajo
+convert g1 to r1 at Betazed
+build g1 at Alpha
+sacrifice g3 at Babamots; build g2 at Betazed; build y1 at Betazed; build g3 at Babamots
+move y1 from Ajo to Alpha
+move y2 from Betazed to Iconia (b2)
+sacrifice g3 at Ajo; build g3 at Ajo; build y2 at Ajo; build y3 at Alpha
+sacrifice g2 at Ferenginar; build y3 at Betazed; build y3 at Iconia
+convert y3 to r3 at Alpha
+convert y2 to g2 at Iconia
+sacrifice y2 at Ajo; move g3 from Alpha to Betazed; move g3 from Betazed to Babamots
+sacrifice y3 at Iconia; move g1 from Betazed to Babamots; move y3 from Betazed to Babamots; move g2 from Iconia to Pakled (y3); catastrophe green at Babamots
+move r3 from Alpha to Betazed
+sacrifice g2 at Betazed; build r1 at Betazed; build r2 at Betazed; catastrophe red at Betazed
+build y2 at Alpha
+build g1 at Pakled
+move y2 from Alpha to Betazed
+sacrifice y1 at Betazed; move g1 from Pakled to Babamots
+build y1 at Alpha
+build g1 at Pakled
+build y2 at Ajo
+build g2 at Babamots
+sacrifice g3 at Ajo; build g3 at Ajo; build g3 at Alpha; build y3 at Betazed
+convert y3 to r3 at Babamots

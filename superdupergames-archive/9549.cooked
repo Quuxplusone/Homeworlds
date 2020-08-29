@@ -1,0 +1,57 @@
+Twoshort (0, b3r1) g3-
+Stoneaxe (1, y3b2) -g3
+build g1 at Twoshort
+build g1 at Stoneaxe
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Stoneaxe
+build g1 at Twoshort
+build g1 at Stoneaxe
+convert g1 to b1 at Twoshort
+build g1 at Stoneaxe
+build g1 at Twoshort
+convert g1 to r1 at Stoneaxe
+build g1 at Twoshort
+convert g1 to b1 at Stoneaxe
+move g1 from Twoshort to Yellonia (y2)
+move y1 from Stoneaxe to Grax (g1)
+build g2 at Yellonia
+build r1 at Stoneaxe
+move b1 from Twoshort to Grogar (g2)
+build r2 at Stoneaxe
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Twoshort; build g3 at Yellonia
+move r2 from Stoneaxe to Grax
+convert g2 to r2 at Twoshort
+sacrifice g3 at Stoneaxe; build r2 at Grax; build r3 at Stoneaxe; build r3 at Grax
+move r2 from Twoshort to Yellonia
+move r2 from Grax to Rez (r3)
+move g2 from Yellonia to Bluzon (b1)
+move r3 from Stoneaxe to Bluzon
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Twoshort; build g3 at Yellonia
+capture g2 at Bluzon
+move g3 from Yellonia to Yolonda (y1)
+move r3 from Grax to Stoneaxe
+sacrifice g3 at Twoshort; build g3 at Twoshort; build b2 at Grogar; build y2 at Twoshort
+move y1 from Grax to Rez
+sacrifice y2 at Twoshort; move r2 from Yellonia to Grax; move r2 from Grax to Stoneaxe; catastrophe red at Stoneaxe
+move y1 from Rez to Bluzon
+convert b2 to r2 at Grogar
+move r3 from Bluzon to Stoneaxe
+sacrifice g3 at Twoshort; build y2 at Twoshort; build b2 at Grogar; build g3 at Twoshort
+move g2 from Bluzon to Stoneaxe
+move y1 from Twoshort to Grogar
+sacrifice g2 at Stoneaxe; build y2 at Bluzon; build y3 at Bluzon
+move y1 from Grogar to Bluzon; catastrophe yellow at Bluzon
+move b1 from Stoneaxe to Grax
+move g3 from Yellonia to Grax
+build b1 at Grax
+sacrifice r2 at Grogar; capture r2 at Grax; capture b1 at Grax
+build b2 at Grax
+sacrifice r2 at Grax; capture b2 at Grax; capture b1 at Grax
+pass
+sacrifice g3 at Twoshort; build b3 at Grogar; build g2 at Yellonia; build g3 at Twoshort
+sacrifice r2 at Rez
+convert b3 to r3 at Grogar
+pass
+sacrifice y2 at Twoshort; move g3 from Grax to Stoneaxe; move g3 from Yolonda to Stoneaxe
+capture g3 at Stoneaxe
+sacrifice r3 at Grogar; capture g3 at Stoneaxe; capture r3 at Stoneaxe

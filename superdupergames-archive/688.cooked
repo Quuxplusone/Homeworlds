@@ -1,0 +1,21 @@
+Matrixfrog (0, y1g3) b3-
+Zapple (1, y1g2) -b3
+build b1 at Matrixfrog
+build b1 at Zapple
+convert b1 to y1 at Matrixfrog
+move b1 from Zapple to Asdf (y3)
+build y2 at Matrixfrog
+convert b1 to g1 at Asdf
+build b1 at Matrixfrog
+build b1 at Zapple
+convert y1 to g1 at Matrixfrog
+convert b1 to r1 at Zapple
+build b1 at Matrixfrog
+build b1 at Zapple
+convert b1 to r1 at Matrixfrog
+move b1 from Zapple to Asdf
+build r1 at Matrixfrog
+build b1 at Asdf
+build y1 at Matrixfrog
+build r2 at Zapple
+move y2 from Matrixfrog to Crunch (g2)

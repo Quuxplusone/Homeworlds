@@ -1,0 +1,23 @@
+Sordros (0, y1b2) g3-
+Nupanick (1, g3b2) -y3
+build g1 at Sordros
+build y1 at Nupanick
+convert g1 to b1 at Sordros
+convert y1 to r1 at Nupanick
+build b1 at Sordros
+build y1 at Nupanick
+convert b1 to r1 at Sordros
+move y1 from Nupanick to Damogran (b1)
+build g1 at Sordros
+build y1 at Nupanick
+move g1 from Sordros to Amarego (y3)
+convert y1 to g1 at Nupanick
+build b1 at Sordros
+move g1 from Nupanick to Damogran
+move b1 from Sordros to Amarego
+build y1 at Nupanick
+sacrifice g3 at Sordros; build b2 at Amarego; build b3 at Amarego; build b3 at Sordros
+build y2 at Damogran
+sacrifice b2 at Amarego; convert b3 to g3 at Sordros; convert b3 to y3 at Amarego
+convert y2 to b2 at Damogran
+build b3 at Amarego

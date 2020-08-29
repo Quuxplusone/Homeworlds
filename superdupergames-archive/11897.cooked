@@ -1,0 +1,28 @@
+Mrmoto (0, g3y1) b3-
+Jesse (1, b2r1) -g3
+build b1 at Mrmoto
+build g1 at Jesse
+convert b3 to g3 at Mrmoto
+convert g1 to y1 at Jesse
+build g1 at Mrmoto
+build y1 at Jesse
+move g1 from Mrmoto to Woolly (r2)
+build g1 at Jesse
+build g1 at Woolly
+build y2 at Jesse
+build g2 at Mrmoto
+move y2 from Jesse to Chompy (b3)
+move g2 from Mrmoto to Dandelion (y2)
+move y1 from Jesse to Bitey (b3)
+build g2 at Mrmoto
+sacrifice g3 at Jesse; build g2 at Jesse; build g3 at Jesse; build y2 at Jesse
+convert g3 to y3 at Mrmoto
+move g2 from Jesse to Nibbly (b3)
+build g3 at Dandelion
+sacrifice g3 at Jesse; build g3 at Jesse; build y3 at Chompy; build y3 at Jesse
+build b1 at Mrmoto
+convert y2 to r2 at Chompy
+move y3 from Mrmoto to Potato (b2)
+sacrifice y2 at Jesse; move y3 from Chompy to Potato; move y3 from Potato to Mrmoto
+sacrifice b1 at Mrmoto; convert g3 to r3 at Dandelion
+sacrifice r2 at Chompy; capture g2 at Mrmoto; capture b1 at Mrmoto

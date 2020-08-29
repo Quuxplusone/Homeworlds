@@ -1,0 +1,33 @@
+Jesse (0, y3b2) g3-
+Subhan64 (1, y1b2) -g3
+build g1 at Jesse
+build g1 at Subhan64
+convert g1 to y1 at Jesse
+build g1 at Subhan64
+build g1 at Jesse
+move g1 from Subhan64 to Bigbird (y3)
+move g1 from Jesse to Lemon (y1)
+build g2 at Subhan64
+build g2 at Jesse
+convert g2 to y2 at Subhan64
+build y2 at Jesse
+move g1 from Subhan64 to Bananarama (y3)
+move y1 from Jesse to Berry (b1)
+build y2 at Subhan64
+sacrifice y2 at Jesse; move y1 from Berry to Bananarama; move y1 from Bananarama to Subhan64; catastrophe yellow at Subhan64
+build g2 at Subhan64
+sacrifice g3 at Jesse; build g2 at Lemon; build g3 at Jesse; build g3 at Jesse
+convert g2 to y2 at Subhan64
+convert g3 to r3 at Jesse
+sacrifice g3 at Subhan64; build g2 at Bigbird; build g3 at Bananarama; build g3 at Bigbird
+move g1 from Lemon to Bigbird; catastrophe green at Bigbird
+sacrifice g1 at Bananarama; build y1 at Subhan64
+move g2 from Jesse to Berry2 (b1)
+build g1 at Bananarama
+build g1 at Berry2
+sacrifice y2 at Subhan64; move g3 from Bananarama to Subhan64; move y1 from Subhan64 to Bananarama
+convert g1 to y1 at Berry2
+build g1 at Subhan64
+build y2 at Berry2
+build y2 at Bananarama
+sacrifice y2 at Berry2; move g2 from Berry2 to Subhan64; move g2 from Lemon to Subhan64; catastrophe green at Subhan64

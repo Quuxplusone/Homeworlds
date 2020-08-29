@@ -1,0 +1,31 @@
+Trydnt (0, b2y1) g3-
+Jerome (1, r3b1) -g3
+build g1 at Trydnt
+build g1 at Jerome
+convert g1 to b1 at Trydnt
+build g1 at Jerome
+build b1 at Trydnt
+convert g1 to y1 at Jerome
+move b1 from Trydnt to G3 (g3)
+build y1 at Jerome
+build b2 at G3
+build y2 at Jerome
+convert b2 to y2 at G3
+move y1 from Jerome to G2 (g2)
+sacrifice g3 at Trydnt; build b2 at G3; build b2 at G3; build b3 at Trydnt
+sacrifice g3 at Jerome; build y2 at G2; build y3 at Jerome; build g1 at Jerome
+build y3 at G3
+convert y3 to g3 at Jerome
+move y2 from G3 to Gee2 (g2)
+move y1 from G2 to Gg3 (g3)
+build y3 at Gee2
+build y3 at G2
+move b2 from G3 to Gee2
+convert g1 to r1 at Jerome
+convert b2 to r2 at G3
+move r1 from Jerome to G2
+build b2 at Gee2
+sacrifice y2 at G2; move y1 from Jerome to Gee2; move y2 from Jerome to Gee2; catastrophe yellow at Gee2
+build b3 at G3
+build g1 at Jerome
+build b3 at Gee2

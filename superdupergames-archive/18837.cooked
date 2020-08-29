@@ -1,0 +1,52 @@
+Dlwillson (0, b3y1) g3-
+Goulo (1, b1g2) -y3
+build g1 at Dlwillson
+build y1 at Goulo
+convert g1 to y1 at Dlwillson
+move y1 from Goulo to Smeraldego (g3)
+build y2 at Dlwillson
+build y2 at Goulo
+move y1 from Dlwillson to Leaf (g2)
+convert y3 to g3 at Goulo
+build g1 at Dlwillson
+build g1 at Goulo
+convert g3 to r3 at Dlwillson
+convert g1 to r1 at Goulo
+build g1 at Dlwillson
+build r1 at Goulo
+move g1 from Dlwillson to Cat (b2)
+move r1 from Goulo to Smeraldego
+build g1 at Cat
+build y2 at Goulo
+build y3 at Leaf
+build y3 at Smeraldego
+move y2 from Dlwillson to Snake (g2)
+move y3 from Smeraldego to Cat
+build y3 at Snake
+build r1 at Smeraldego
+build g3 at Dlwillson
+move r1 from Smeraldego to Cat
+sacrifice y2 at Snake; move r3 from Dlwillson to Snake; move r3 from Snake to Smeraldego
+sacrifice y1 at Smeraldego; move r1 from Smeraldego to Cat
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build r2 at Smeraldego; build y1 at Snake
+capture g1 at Cat
+sacrifice y3 at Snake; move y1 from Snake to Smeraldego; move y1 from Leaf to Juniper (b3); move r2 from Smeraldego to Leaf
+capture g1 at Cat
+move g1 from Dlwillson to Grape (b2)
+build g2 at Cat
+move r2 from Leaf to Dlwillson
+move g2 from Cat to Dlwillson
+capture g2 at Dlwillson
+sacrifice y2 at Goulo; move g1 from Cat to Dlwillson; move g1 from Cat to Dlwillson; catastrophe green at Dlwillson
+move y3 from Leaf to Dlwillson
+convert r1 to g1 at Cat
+convert y3 to g3 at Dlwillson
+build y2 at Cat
+build g1 at Dlwillson
+build g2 at Cat
+sacrifice g3 at Dlwillson; build g2 at Grape; build y2 at Juniper; build g3 at Dlwillson
+sacrifice y2 at Cat; move g1 from Cat to Dlwillson; move g2 from Cat to Dlwillson; catastrophe green at Dlwillson
+sacrifice y2 at Juniper; move r3 from Smeraldego to Cat; move r3 from Cat to Dlwillson
+build g1 at Goulo
+convert r3 to g3 at Dlwillson
+move g1 from Goulo to Juniper

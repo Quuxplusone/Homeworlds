@@ -1,0 +1,21 @@
+Zoltar (0, b3y1) g3-
+Eugman (1, b1y2) -g3
+build g1 at Zoltar
+build g1 at Eugman
+convert g1 to y1 at Zoltar
+convert g1 to b1 at Eugman
+build y1 at Zoltar
+build g1 at Eugman
+move y1 from Zoltar to Spinach (g2)
+build b1 at Eugman
+build y2 at Spinach
+convert g3 to y3 at Eugman
+move y1 from Spinach to Kale (g3)
+move b1 from Eugman to Kale
+sacrifice g3 at Zoltar; build y2 at Kale; build y3 at Spinach; build y3 at Zoltar
+move y3 from Eugman to Owie (r3)
+convert y3 to r3 at Zoltar
+build b2 at Kale
+sacrifice y2 at Kale; move y3 from Spinach to Kale; move y3 from Kale to Eugman
+pass
+sacrifice r3 at Zoltar; capture g1 at Eugman; capture b1 at Eugman; capture b1 at Kale

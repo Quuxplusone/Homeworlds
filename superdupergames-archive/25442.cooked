@@ -1,0 +1,46 @@
+Ausmuh (0, b3y2) g3-
+Silenttitan (1, r1b2) -g3
+build g1 at Ausmuh
+build g1 at Silenttitan
+convert g1 to r1 at Ausmuh
+convert g1 to y1 at Silenttitan
+build r1 at Ausmuh
+build g1 at Silenttitan
+build r2 at Ausmuh
+build y1 at Silenttitan
+convert r2 to y2 at Ausmuh
+move y1 from Silenttitan to Sol (g3)
+build r2 at Ausmuh
+sacrifice g3 at Silenttitan; build y1 at Sol; build y2 at Silenttitan; build y3 at Silenttitan
+sacrifice y2 at Ausmuh; move r2 from Ausmuh to Temp (g1); move r2 from Temp to Sol
+sacrifice y2 at Silenttitan; move y1 from Sol to Soul (b1); move y1 from Sol to Sole (g1)
+move r1 from Ausmuh to Soul
+move y1 from Soul to Tic (r3)
+build r2 at Ausmuh
+convert y3 to r3 at Silenttitan
+convert r2 to y2 at Ausmuh
+build y2 at Silenttitan
+build y3 at Ausmuh
+move y1 from Sole to Ausmuh; catastrophe yellow at Ausmuh
+sacrifice g3 at Ausmuh; build r2 at Soul; build r2 at Sol; build r3 at Ausmuh
+convert r3 to b3 at Silenttitan
+build r3 at Sol
+build b1 at Silenttitan
+convert r2 to y2 at Soul
+convert y2 to r2 at Silenttitan
+sacrifice y2 at Soul; move r2 from Sol to Silenttitan; move r2 from Sol to Silenttitan; catastrophe red at Silenttitan
+convert b1 to r1 at Silenttitan
+convert r3 to g3 at Ausmuh
+build b1 at Silenttitan
+convert r1 to y1 at Ausmuh
+build y2 at Silenttitan
+convert r1 to b1 at Soul
+move b1 from Silenttitan to Sole (g1)
+sacrifice y1 at Ausmuh; move b1 from Soul to Sol
+build y1 at Silenttitan
+build b1 at Sol
+move y1 from Silenttitan to Sole
+convert r3 to y3 at Sol
+sacrifice y2 at Silenttitan; move b3 from Silenttitan to Ausmuh; move b1 from Sole to Ausmuh
+sacrifice y3 at Sol; move b1 from Sol to Silenttitan; move b1 from Sol to Silenttitan
+sacrifice g1 at Silenttitan; build b2 at Ausmuh; catastrophe blue at Ausmuh

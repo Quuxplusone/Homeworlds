@@ -1,0 +1,17 @@
+Draw5Playall (0, b3r1) g3-
+Mi_Spero (1, r1b3) -g3
+build g1 at Draw5Playall
+build g1 at Mi_Spero
+convert g1 to r1 at Draw5Playall
+build g1 at Mi_Spero
+build r2 at Draw5Playall
+convert g1 to y1 at Mi_Spero
+convert r2 to y2 at Draw5Playall
+build y1 at Mi_Spero
+build r2 at Draw5Playall
+convert g1 to b1 at Mi_Spero
+convert r2 to b2 at Draw5Playall
+build g1 at Mi_Spero
+move b2 from Draw5Playall to G2 (g2)
+move b1 from Mi_Spero to Fanri (g2)
+build r2 at Draw5Playall

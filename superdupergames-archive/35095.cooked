@@ -1,0 +1,57 @@
+Ajo (0, b3y2) g3-
+Deanthebean (1, g1b2) -y3
+build g1 at Ajo
+build y1 at Deanthebean
+build g1 at Ajo
+build y1 at Deanthebean
+move g1 from Ajo to Alpha (b1)
+move y1 from Deanthebean to Beta (g3)
+build g2 at Alpha
+convert y3 to g3 at Deanthebean
+convert g1 to r1 at Alpha
+build y1 at Beta
+build g1 at Alpha
+build g2 at Deanthebean
+convert g2 to y2 at Alpha
+convert g2 to r2 at Deanthebean
+build g2 at Ajo
+move g3 from Deanthebean to Gamma (y3)
+sacrifice g3 at Ajo; build g2 at Alpha; build g2 at Alpha; build g3 at Ajo
+build y2 at Beta
+convert g2 to r2 at Ajo
+build g2 at Gamma
+sacrifice g1 at Alpha; build y3 at Alpha
+build y3 at Deanthebean
+move y2 from Alpha to Beta; catastrophe yellow at Beta
+build r1 at Deanthebean
+move g2 from Alpha to Beta (b3)
+move r2 from Deanthebean to Delta (g3)
+sacrifice g3 at Ajo; build g1 at Beta; build g3 at Ajo; build y1 at Alpha
+convert y1 to b1 at Deanthebean
+convert g1 to y1 at Beta
+build r1 at Delta
+sacrifice g3 at Ajo; build g1 at Beta; build y1 at Beta; build g3 at Ajo
+sacrifice g3 at Gamma; build g3 at Gamma; build y2 at Deanthebean; build b1 at Deanthebean
+sacrifice y3 at Alpha; move y1 from Beta to Deanthebean; move y1 from Beta to Deanthebean; move g1 from Beta to Deanthebean; catastrophe yellow at Deanthebean
+capture g1 at Deanthebean
+sacrifice g3 at Ajo; build g3 at Ajo; build r2 at Ajo; build r3 at Alpha
+convert b1 to y1 at Deanthebean
+sacrifice y1 at Alpha; move g2 from Beta to Deanthebean
+sacrifice g3 at Gamma; build r3 at Deanthebean; build r3 at Delta; build g3 at Gamma
+sacrifice g1 at Ajo; build g1 at Deanthebean; catastrophe green at Deanthebean
+move b1 from Deanthebean to Delta
+convert r2 to y2 at Ajo
+convert r1 to y1 at Delta
+build y1 at Ajo
+build y2 at Delta
+move y2 from Ajo to Alpha
+move y1 from Delta to Epsilon (g1)
+build y3 at Alpha
+build y3 at Epsilon
+move y3 from Alpha to Beta (b3)
+move y3 from Epsilon to Ajo
+capture y3 at Ajo
+move y1 from Epsilon to Ajo; catastrophe yellow at Ajo
+convert r3 to b3 at Alpha
+build b1 at Delta
+sacrifice y3 at Beta; move r1 from Alpha to Deanthebean; move r2 from Ajo to Deanthebean; move b3 from Alpha to Deanthebean; catastrophe red at Deanthebean

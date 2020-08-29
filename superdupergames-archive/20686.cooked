@@ -1,0 +1,39 @@
+Bloodrumpus (0, b2r3) g3-
+Kingsamj (1, r3b2) -g3
+build g1 at Bloodrumpus
+build g1 at Kingsamj
+convert g1 to y1 at Bloodrumpus
+build g1 at Kingsamj
+build y1 at Bloodrumpus
+convert g3 to y3 at Kingsamj
+convert y1 to b1 at Bloodrumpus
+build y1 at Kingsamj
+build b1 at Bloodrumpus
+convert g1 to b1 at Kingsamj
+move b1 from Bloodrumpus to Vulcan (g1)
+move b1 from Kingsamj to Vulcan
+build b2 at Vulcan
+convert b1 to r1 at Vulcan
+convert b2 to r2 at Vulcan
+sacrifice y1 at Kingsamj; move r1 from Vulcan to Solara (g3)
+move b1 from Bloodrumpus to Praxis (g1)
+build g2 at Kingsamj
+build g2 at Bloodrumpus
+build y1 at Kingsamj
+move g2 from Bloodrumpus to Zanzibar (y1)
+move g2 from Kingsamj to Sienna (r1)
+convert y1 to b1 at Bloodrumpus
+sacrifice g2 at Sienna; build g2 at Kingsamj; build r1 at Solara
+sacrifice g3 at Bloodrumpus; build b2 at Bloodrumpus; build b3 at Vulcan; build b3 at Praxis
+move g1 from Kingsamj to Tundra (y1)
+convert b3 to g3 at Vulcan
+move y1 from Kingsamj to Tundra
+convert b2 to y2 at Bloodrumpus
+build y2 at Kingsamj
+sacrifice y2 at Bloodrumpus; move b3 from Praxis to Kingsamj; move g3 from Vulcan to Kingsamj
+capture g3 at Kingsamj
+sacrifice r2 at Vulcan; capture y3 at Kingsamj; capture g3 at Kingsamj
+build g2 at Tundra
+capture g2 at Kingsamj
+move g2 from Tundra to Bloodrumpus
+capture y2 at Kingsamj

@@ -1,0 +1,36 @@
+Eliscinsky (0, r1b2) g3-
+Draw5Playall (1, b3r2) -g3
+build g1 at Eliscinsky
+build g1 at Draw5Playall
+convert g1 to y1 at Eliscinsky
+convert g1 to y1 at Draw5Playall
+build g1 at Eliscinsky
+build g1 at Draw5Playall
+convert g1 to r1 at Eliscinsky
+convert g1 to r1 at Draw5Playall
+build g1 at Eliscinsky
+build r2 at Draw5Playall
+convert g1 to b1 at Eliscinsky
+move r2 from Draw5Playall to Epa (g1)
+move r1 from Eliscinsky to Doe (g3)
+build g1 at Draw5Playall
+build b1 at Eliscinsky
+convert g1 to b1 at Draw5Playall
+build r2 at Doe
+build r3 at Epa
+move b1 from Eliscinsky to Doe
+move b1 from Draw5Playall to Epa
+sacrifice y1 at Eliscinsky; move r2 from Doe to Dot (y1)
+build r3 at Epa
+convert b1 to y1 at Eliscinsky
+build y2 at Draw5Playall
+build r3 at Doe
+convert r3 to y3 at Epa
+convert r3 to y3 at Doe
+convert r2 to b2 at Epa
+sacrifice y3 at Doe; move r1 from Doe to Dot; move r1 from Dot to Draw5Playall; move r2 from Dot to Draw5Playall; catastrophe red at Draw5Playall
+move y3 from Epa to Doe
+convert b1 to y1 at Doe
+sacrifice y2 at Draw5Playall; move g3 from Draw5Playall to Eliscinsky; move y3 from Doe to Eliscinsky
+move y1 from Doe to Eliscinsky
+sacrifice r3 at Epa; capture g3 at Eliscinsky; capture y1 at Eliscinsky; capture y1 at Eliscinsky

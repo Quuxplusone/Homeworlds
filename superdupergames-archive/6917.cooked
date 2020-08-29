@@ -1,0 +1,21 @@
+Bigby (0, b1g2) y3-
+Uglyfoot (1, b3y1) -g3
+build y1 at Bigby
+build g1 at Uglyfoot
+convert y1 to g1 at Bigby
+convert g1 to y1 at Uglyfoot
+build g1 at Bigby
+move y1 from Uglyfoot to Leo (b2)
+build y1 at Bigby
+build g1 at Uglyfoot
+build y2 at Bigby
+move g1 from Uglyfoot to Leo
+move y2 from Bigby to Fallback (r3)
+build g2 at Uglyfoot
+move g1 from Bigby to Fallback
+build y2 at Leo
+move g1 from Fallback to Roget (b2)
+move y2 from Leo to Geo (g3)
+build g2 at Roget
+build g3 at Leo
+sacrifice y2 at Fallback; move g1 from Roget to Uglyfoot; move g2 from Roget to Uglyfoot; catastrophe green at Uglyfoot

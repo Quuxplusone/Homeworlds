@@ -1,0 +1,64 @@
+Capi3101 (0, b1y3) g3-
+Babamots (1, b3r1) -g3
+build g1 at Capi3101
+build g1 at Babamots
+convert g1 to b1 at Capi3101
+convert g1 to b1 at Babamots
+build b2 at Capi3101
+build b2 at Babamots
+move b2 from Capi3101 to Aleph (y2)
+convert b1 to y1 at Babamots
+build g1 at Capi3101
+build y1 at Babamots
+convert b1 to y1 at Capi3101
+build y2 at Babamots
+move y1 from Capi3101 to Bet (g2)
+move y1 from Babamots to Risa (g2)
+move b2 from Aleph to Gimel (y3)
+move y1 from Babamots to Bolarus (b2)
+build y2 at Bet
+build y2 at Babamots
+move y1 from Bet to Dalet (y3)
+build g1 at Babamots
+convert g1 to b1 at Capi3101
+move b2 from Babamots to Risa
+build g1 at Capi3101
+convert g1 to r1 at Babamots
+convert g1 to r1 at Capi3101
+move r1 from Babamots to Risa
+build r2 at Capi3101
+build r2 at Risa
+move r2 from Capi3101 to Bet
+move r2 from Risa to Dalet
+sacrifice y1 at Dalet; move b1 from Capi3101 to Bet
+build y1 at Risa
+move r2 from Bet to Hey (b3)
+build g1 at Babamots
+build g1 at Capi3101
+sacrifice g3 at Babamots; build r2 at Dalet; build r3 at Dalet; build r3 at Risa
+sacrifice g3 at Capi3101; build b1 at Gimel; build b3 at Bet; build r3 at Capi3101
+move r3 from Risa to Babamots
+move r1 from Capi3101 to Bet
+sacrifice b2 at Risa; convert r2 to b2 at Dalet; convert r3 to g3 at Dalet
+build r2 at Bet
+build r3 at Risa
+move r1 from Bet to Babamots
+convert r3 to g3 at Babamots
+build r3 at Bet
+capture r1 at Babamots
+move r2 from Bet to Babamots
+sacrifice r1 at Babamots; capture r2 at Babamots
+build r1 at Bet
+move r2 from Babamots to Orion (g2)
+move b1 from Bet to Babamots
+capture b1 at Babamots
+move b3 from Bet to Babamots
+capture b3 at Babamots
+sacrifice y2 at Bet; move b1 from Gimel to Bet; move b1 from Bet to Babamots; catastrophe blue at Babamots
+move r3 from Risa to Capi3101
+capture r3 at Capi3101
+sacrifice y2 at Babamots; move r1 from Risa to Capi3101; move r2 from Orion to Capi3101; catastrophe red at Capi3101
+sacrifice b2 at Gimel; convert r2 to y2 at Hey; convert r3 to y3 at Bet
+sacrifice y2 at Babamots; move g3 from Dalet to Bolarus; move g3 from Bolarus to Capi3101
+move y3 from Bet to Capi3101
+sacrifice r2 at Dalet; capture g1 at Capi3101; capture y3 at Capi3101

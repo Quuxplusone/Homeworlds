@@ -1,0 +1,16 @@
+Bartholow (0, b1g3) r3-
+Junkman (1, g1b2) -y3
+build r1 at Bartholow
+build y1 at Junkman
+convert r1 to y1 at Bartholow
+build y1 at Junkman
+move y1 from Bartholow to Nonemoreblack (r2)
+convert y1 to r1 at Junkman
+move y1 from Nonemoreblack to Propagandhi (g1)
+convert y1 to g1 at Junkman
+build y1 at Propagandhi
+build g2 at Junkman
+build r1 at Bartholow
+convert g1 to b1 at Junkman
+build r1 at Bartholow
+sacrifice y3 at Junkman; move r1 from Junkman to Lampshade (b3); move r1 from Lampshade to Pluto (b2); move r1 from Pluto to Bartholow; catastrophe red at Bartholow

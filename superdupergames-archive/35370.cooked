@@ -1,0 +1,32 @@
+Dougforte (0, g1y2) b3-
+Silenttitan (1, b3r2) -g3
+build b1 at Dougforte
+build g1 at Silenttitan
+convert b1 to g1 at Dougforte
+convert g1 to y1 at Silenttitan
+build b1 at Dougforte
+build y1 at Silenttitan
+build g1 at Dougforte
+move y1 from Silenttitan to Sol (y1)
+move g1 from Dougforte to Sirius (y3)
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Silenttitan; build y3 at Silenttitan
+move b3 from Dougforte to Sirius
+convert y3 to r3 at Silenttitan
+move b3 from Sirius to Dougforte
+convert y2 to g2 at Silenttitan
+convert b3 to y3 at Dougforte
+sacrifice g2 at Silenttitan; build y2 at Silenttitan; build y3 at Silenttitan
+convert g1 to r1 at Dougforte
+convert y3 to g3 at Silenttitan
+build b1 at Dougforte
+build y3 at Silenttitan
+build r1 at Dougforte
+move y2 from Sol to Soul (g3)
+move r1 from Dougforte to Sirius
+sacrifice y3 at Silenttitan; move y1 from Sol to Soul; move y1 from Soul to Dougforte; move y2 from Soul to Dougforte; catastrophe yellow at Dougforte
+convert b1 to y1 at Dougforte
+move g3 from Silenttitan to Dougforte
+build b1 at Dougforte
+build g1 at Dougforte
+capture g1 at Dougforte
+build g2 at Dougforte; catastrophe green at Dougforte

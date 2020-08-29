@@ -1,0 +1,40 @@
+Sketchwick (0, b1y2) g3-
+Jeep (1, y1b3) -g3
+build g1 at Sketchwick
+build g1 at Jeep
+move g1 from Sketchwick to Grape (b3)
+move g1 from Jeep to Ape (b2)
+convert g1 to y1 at Grape
+build g1 at Jeep
+build g1 at Sketchwick
+build g2 at Ape
+sacrifice g1 at Sketchwick; build y1 at Grape
+convert g2 to y2 at Ape
+build g1 at Sketchwick
+convert g1 to r1 at Jeep
+move y1 from Grape to Rape (r2)
+build g1 at Jeep
+sacrifice g3 at Sketchwick; build g2 at Sketchwick; build y2 at Rape; build y3 at Grape
+sacrifice g3 at Jeep; build g2 at Jeep; build g2 at Ape; build y3 at Ape
+sacrifice y3 at Grape; move y1 from Rape to Grape; move y1 from Grape to Ape; move y1 from Grape to Ape; catastrophe yellow at Ape
+convert g2 to y2 at Jeep
+convert g1 to r1 at Sketchwick
+convert g1 to y1 at Ape
+build g1 at Sketchwick
+build g1 at Ape
+move g1 from Sketchwick to Nape (b3)
+sacrifice g2 at Ape; build y1 at Jeep; build y3 at Ape
+build g2 at Sketchwick
+build y3 at Ape
+sacrifice g2 at Sketchwick; build g2 at Sketchwick; build y3 at Rape
+sacrifice y3 at Ape; move y1 from Jeep to Rape; move y1 from Ape to Nape; move y1 from Nape to Rape; catastrophe yellow at Rape
+convert g2 to y2 at Sketchwick
+build g2 at Jeep
+build g2 at Nape
+convert g2 to r2 at Jeep
+convert g1 to b1 at Nape
+build y1 at Ape
+convert b1 to y1 at Nape
+move y1 from Ape to Tape (g3)
+move y2 from Sketchwick to Tape
+sacrifice y2 at Jeep; move y3 from Ape to Nape; move y3 from Nape to Sketchwick

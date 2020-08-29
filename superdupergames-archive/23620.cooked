@@ -1,0 +1,9 @@
+Silenttitan (0, r1b2) g3-
+Sou (1, b2y1) -g3
+build g1 at Silenttitan
+build g1 at Sou
+convert g1 to y1 at Silenttitan
+convert g1 to r1 at Sou
+build y1 at Silenttitan
+build r1 at Sou
+move y1 from Silenttitan to Sol (g3)

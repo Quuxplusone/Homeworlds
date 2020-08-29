@@ -1,0 +1,40 @@
+Mathochist (0, b1g2) y3-
+Trydnt (1, g3r2) -b3
+build y1 at Mathochist
+build b1 at Trydnt
+convert y1 to g1 at Mathochist
+build b1 at Trydnt
+build g1 at Mathochist
+convert b3 to y3 at Trydnt
+move g1 from Mathochist to Nomoon (y3)
+build b2 at Trydnt
+build y1 at Mathochist
+move b2 from Trydnt to Y1 (y1)
+build g1 at Nomoon
+convert b2 to g2 at Y1
+move g1 from Nomoon to Superstar (y1)
+build y2 at Trydnt
+build y2 at Mathochist
+sacrifice y3 at Trydnt; move y2 from Trydnt to Y1; move y2 from Y1 to Nomoon; move y2 from Nomoon to Mathochist; catastrophe yellow at Mathochist
+build g2 at Superstar
+build g3 at Y1
+build g3 at Mathochist
+build b2 at Trydnt
+convert g1 to y1 at Mathochist
+convert b2 to y2 at Trydnt
+build y2 at Mathochist
+move g2 from Y1 to Y3 (y3)
+convert y1 to r1 at Mathochist
+build g1 at Y3
+sacrifice g3 at Mathochist; build r1 at Mathochist; build y1 at Mathochist; build g3 at Nomoon
+sacrifice g2 at Y3; build y2 at Trydnt; build y3 at Trydnt
+convert y2 to b2 at Mathochist
+build g2 at Y1
+sacrifice g3 at Nomoon; build g3 at Nomoon; build y2 at Mathochist; build r1 at Mathochist
+convert y2 to r2 at Trydnt
+build y2 at Mathochist
+sacrifice y2 at Trydnt; move g3 from Y1 to Nomoon; move g3 from Nomoon to Mathochist
+sacrifice y2 at Mathochist; move g1 from Superstar to Trydnt; move g2 from Superstar to Trydnt
+sacrifice r2 at Trydnt; capture b2 at Mathochist; capture y2 at Mathochist
+sacrifice g1 at Nomoon; build g1 at Trydnt; catastrophe green at Trydnt
+sacrifice b2 at Mathochist; convert y2 to r2 at Mathochist; convert g3 to r3 at Mathochist; catastrophe red at Mathochist

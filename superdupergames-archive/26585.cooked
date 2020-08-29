@@ -1,0 +1,30 @@
+Rizzotto (0, b3g2) r3-
+Detectiveazul (1, g1b1) -r3
+build r1 at Rizzotto
+build r1 at Detectiveazul
+convert r1 to y1 at Rizzotto
+convert r1 to y1 at Detectiveazul
+build r1 at Rizzotto
+build r1 at Detectiveazul
+convert r1 to g1 at Rizzotto
+convert r1 to g1 at Detectiveazul
+build r1 at Rizzotto
+build r1 at Detectiveazul
+build y1 at Rizzotto
+build y2 at Detectiveazul
+build g2 at Rizzotto
+move g1 from Detectiveazul to Rizzotto; catastrophe green at Rizzotto
+convert y1 to g1 at Rizzotto
+convert y1 to b1 at Detectiveazul
+build y1 at Rizzotto
+build y1 at Detectiveazul
+move r1 from Rizzotto to Explotido (b2)
+convert y1 to g1 at Detectiveazul
+move g1 from Rizzotto to Explotido
+build y1 at Detectiveazul
+build g2 at Explotido
+move r3 from Detectiveazul to Explotido
+move r3 from Rizzotto to Detectiveazul
+move y1 from Detectiveazul to Rizzotto
+capture y2 at Detectiveazul
+sacrifice r3 at Explotido; capture y1 at Rizzotto; capture y1 at Rizzotto

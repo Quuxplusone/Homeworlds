@@ -1,0 +1,41 @@
+Remneb (0, b1r2) g3-
+Dsabremaster (1, y1g3) -b3
+build g1 at Remneb
+build b1 at Dsabremaster
+convert g1 to y1 at Remneb
+convert b1 to y1 at Dsabremaster
+build y2 at Remneb
+build b1 at Dsabremaster
+convert y1 to b1 at Remneb
+convert b1 to g1 at Dsabremaster
+build g1 at Remneb
+move g1 from Dsabremaster to Union (b2)
+move b1 from Remneb to Thor (y3)
+build b1 at Dsabremaster
+build y1 at Remneb
+build y2 at Dsabremaster
+move y1 from Remneb to Thor
+move y1 from Dsabremaster to Union
+move b1 from Thor to Union
+build g1 at Union
+move y1 from Thor to Union
+move g1 from Union to Felix (y3)
+convert b1 to r1 at Union
+convert y2 to r2 at Dsabremaster
+capture y1 at Union
+sacrifice r2 at Dsabremaster; capture r1 at Union; capture y1 at Union
+move y1 from Union to Drako (g3)
+build g2 at Felix
+build y2 at Drako
+build y2 at Union
+build y3 at Remneb
+move y1 from Union to Khalla (b3)
+move y3 from Remneb to Altar (y3)
+move g1 from Felix to Opal (b1)
+move g1 from Remneb to Altar
+build g2 at Opal
+move y3 from Altar to Union
+move r1 from Union to Altar
+convert y3 to r3 at Union
+sacrifice y2 at Union; move g1 from Union to Khalla; move g2 from Opal to Altar
+sacrifice y1 at Drako; move r3 from Union to Altar

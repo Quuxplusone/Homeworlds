@@ -1,0 +1,13 @@
+Twoshort (0, r1b3) g3-
+Rawg (1, g3b2) -y3
+build g1 at Twoshort
+build y1 at Rawg
+convert g1 to y1 at Twoshort
+convert y1 to b1 at Rawg
+build g1 at Twoshort
+build y1 at Rawg
+build g1 at Twoshort
+move b1 from Rawg to Smalls (g1)
+move g1 from Twoshort to Bluonia (b2)
+sacrifice y1 at Rawg; move b1 from Smalls to Med (g2)
+build g1 at Bluonia

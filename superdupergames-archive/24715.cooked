@@ -1,0 +1,60 @@
+Wil (0, r2b1) g3-
+Broccoli_Commander (1, y2b3) -g3
+build g1 at Wil
+build g1 at Broccoli_Commander
+convert g1 to r1 at Wil
+move g1 from Broccoli_Commander to Blueberry (b1)
+build g1 at Wil
+build g1 at Broccoli_Commander
+convert g1 to y1 at Wil
+convert g1 to b1 at Broccoli_Commander
+build r1 at Wil
+build b2 at Broccoli_Commander
+move r1 from Wil to G3 (g3)
+move b2 from Broccoli_Commander to Pea (g1)
+build r1 at Wil
+build b2 at Pea
+build r2 at G3
+convert b2 to r2 at Pea
+build r3 at G3
+build r3 at Pea
+build y1 at Wil
+convert r3 to y3 at Pea
+sacrifice y1 at Wil; move r2 from G3 to G1 (g1)
+build r3 at Pea
+build r3 at G1
+build g2 at Broccoli_Commander
+build g2 at Wil
+sacrifice g3 at Broccoli_Commander; build b2 at Pea; build b2 at Pea; build b3 at Broccoli_Commander
+convert g3 to b3 at Wil
+convert b2 to y2 at Pea
+move r1 from Wil to Y3 (y3)
+convert b3 to g3 at Broccoli_Commander
+convert b3 to g3 at Wil
+sacrifice g3 at Broccoli_Commander; build g2 at Blueberry; build g3 at Broccoli_Commander; build b2 at Broccoli_Commander
+build y1 at Wil
+move b1 from Broccoli_Commander to Blueberry
+move y1 from Wil to G3
+sacrifice g3 at Broccoli_Commander; build g3 at Broccoli_Commander; build b3 at Pea; build b3 at Blueberry
+build y1 at G3
+convert b3 to y3 at Blueberry
+build y2 at G3
+move y2 from Pea to G3; catastrophe yellow at G3
+build y1 at Wil
+move r2 from Pea to Y3
+move y1 from Wil to G3
+capture r1 at Y3
+sacrifice g3 at Wil; build g3 at Wil; build y1 at G3; build y2 at Wil
+sacrifice g3 at Broccoli_Commander; build g3 at Broccoli_Commander; build y2 at Blueberry; build b3 at Blueberry
+sacrifice y2 at Wil; move y1 from G3 to Blueberry; move y1 from G3 to Blueberry; catastrophe yellow at Blueberry
+convert b3 to y3 at Blueberry
+build y1 at Wil
+sacrifice g3 at Broccoli_Commander; build g3 at Broccoli_Commander; build b3 at Blueberry; build y1 at Pea
+move y1 from Wil to G3
+move b3 from Pea to Y3
+sacrifice g3 at Wil; build g3 at Wil; build y2 at Wil; build y2 at G3
+sacrifice y3 at Pea; move b2 from Pea to Y3; move r1 from Y3 to Wil; move r2 from Y3 to Wil; catastrophe red at Wil
+sacrifice y2 at G3; move r3 from G3 to Pea; move r1 from G3 to Pea
+sacrifice y3 at Blueberry; move b2 from Pea to Y3; move b2 from Y3 to Wil; move b2 from Y3 to Wil
+build r1 at Pea; catastrophe red at Pea
+move b3 from Y3 to Wil; catastrophe blue at Wil

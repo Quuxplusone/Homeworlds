@@ -1,0 +1,24 @@
+Zeder (0, y1b2) g3-
+Dragon76N (1, b3y1) -g3
+build g1 at Zeder
+build g1 at Dragon76N
+convert g1 to r1 at Zeder
+convert g1 to y1 at Dragon76N
+build g1 at Zeder
+build y2 at Dragon76N
+convert g3 to y3 at Zeder
+move y2 from Dragon76N to Gretwo (g2)
+build y2 at Zeder
+build y2 at Gretwo
+move y2 from Zeder to Azhanti (g3)
+convert y1 to r1 at Dragon76N
+build g1 at Zeder
+build g1 at Dragon76N
+build g2 at Zeder
+move y2 from Gretwo to Bluthr (b3)
+move g1 from Zeder to Floop (b3)
+move g1 from Dragon76N to Blutwo (b2)
+move y2 from Azhanti to Blutwo
+build g2 at Dragon76N
+sacrifice r1 at Zeder; capture g1 at Blutwo
+sacrifice g3 at Dragon76N; build y1 at Bluthr; build y3 at Gretwo; build g3 at Dragon76N

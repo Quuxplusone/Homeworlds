@@ -1,0 +1,101 @@
+Agentofchaos (0, r1b2) g3-
+Remneb (1, r2b3) -g3
+build g1 at Agentofchaos
+build g1 at Remneb
+convert g1 to y1 at Agentofchaos
+convert g1 to y1 at Remneb
+move y1 from Agentofchaos to Frenfur (g3)
+build g1 at Remneb
+build g1 at Agentofchaos
+move g1 from Remneb to Thor (y1)
+build y2 at Frenfur
+build y2 at Remneb
+convert g1 to r1 at Agentofchaos
+move y1 from Remneb to Thor
+build g1 at Agentofchaos
+build g1 at Remneb
+convert g1 to b1 at Agentofchaos
+move y1 from Thor to Frenfur
+sacrifice r1 at Agentofchaos; capture y1 at Frenfur
+build y2 at Remneb
+move y1 from Frenfur to Swyvern (g1)
+move y2 from Remneb to Thor
+build y3 at Swyvern
+build y3 at Remneb
+sacrifice b1 at Agentofchaos; convert y3 to r3 at Swyvern
+convert y3 to r3 at Remneb
+build y3 at Swyvern
+build y3 at Remneb
+build r1 at Swyvern
+sacrifice y2 at Remneb; move r3 from Remneb to Thor; move r3 from Thor to Frenfur
+move y2 from Frenfur to Agentofchaos
+capture y1 at Frenfur
+build g2 at Agentofchaos
+build g2 at Thor
+convert g2 to r2 at Agentofchaos
+move g2 from Thor to Frenfur
+move r2 from Agentofchaos to Artek (y3)
+sacrifice g2 at Frenfur; build r1 at Frenfur; build y2 at Frenfur
+sacrifice y3 at Swyvern; move r1 from Swyvern to Remneb; move r2 from Artek to Swyvern; move r2 from Swyvern to Remneb
+capture r2 at Remneb
+move r3 from Swyvern to Remneb; catastrophe red at Remneb
+move r3 from Frenfur to Swyvern
+move y1 from Swyvern to Farrago (b3)
+convert g1 to r1 at Remneb
+build y3 at Agentofchaos
+build y3 at Remneb
+convert y2 to r2 at Agentofchaos
+move y2 from Frenfur to Swyvern
+build g1 at Agentofchaos
+build y2 at Swyvern
+convert g1 to b1 at Agentofchaos
+sacrifice g3 at Remneb; build r2 at Frenfur; build r2 at Swyvern; build g1 at Thor
+move y3 from Agentofchaos to Frenfur
+sacrifice y2 at Swyvern; move r1 from Frenfur to Agentofchaos; move r2 from Frenfur to Agentofchaos; catastrophe red at Agentofchaos
+convert b1 to r1 at Agentofchaos
+build y2 at Swyvern
+move y1 from Farrago to Agentofchaos
+move y1 from Frenfur to Draconis (r2)
+build r1 at Agentofchaos
+move y3 from Remneb to Draconis
+convert r1 to b1 at Agentofchaos
+move y3 from Draconis to Frenfur
+move y3 from Frenfur to Draconis
+move y1 from Draconis to Frenfur
+build b1 at Agentofchaos
+move y2 from Thor to Nuke (b3)
+move b1 from Agentofchaos to Dredworld (r1)
+move y3 from Frenfur to Draconis
+capture y3 at Draconis
+sacrifice y2 at Swyvern; move y1 from Frenfur to Draconis; move y2 from Nuke to Draconis; catastrophe yellow at Draconis
+convert b1 to y1 at Dredworld
+move g1 from Thor to Remneb
+build g2 at Agentofchaos
+build g2 at Remneb
+build y2 at Agentofchaos
+convert g1 to b1 at Remneb
+build r2 at Agentofchaos
+move r3 from Swyvern to Dagan (b3)
+sacrifice g2 at Agentofchaos; build y2 at Dredworld; build y3 at Dredworld
+build y3 at Swyvern
+sacrifice b1 at Agentofchaos; convert y2 to g2 at Dredworld
+move g1 from Thor to Dagan
+convert y2 to b2 at Agentofchaos
+convert g1 to b1 at Dagan
+move b2 from Agentofchaos to Dredworld
+move y2 from Swyvern to Dagan
+build b1 at Dredworld
+move b1 from Remneb to Deneb (y1)
+build y2 at Agentofchaos
+sacrifice y2 at Dagan; move b1 from Dagan to Deneb; move r3 from Dagan to Deneb
+build b2 at Dredworld
+sacrifice y3 at Swyvern; move b1 from Deneb to Agentofchaos; move b1 from Agentofchaos to Dredworld; move r2 from Swyvern to Remneb; catastrophe blue at Dredworld
+convert y2 to b2 at Agentofchaos
+convert g2 to b2 at Remneb
+move b2 from Agentofchaos to Dredworld
+move b2 from Remneb to Deneb
+build b1 at Dredworld
+move r1 from Remneb to Orion (b1)
+build b3 at Dredworld
+sacrifice y3 at Remneb; move b1 from Deneb to Agentofchaos; move b1 from Agentofchaos to Dredworld; move r3 from Deneb to Remneb; catastrophe blue at Dredworld
+sacrifice y3 at Dredworld; move r2 from Agentofchaos to Remneb; move r1 from Agentofchaos to Remneb; catastrophe red at Remneb

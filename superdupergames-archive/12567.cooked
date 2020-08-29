@@ -1,0 +1,44 @@
+Trollkin (0, g1b2) y3-
+Zoltar (1, b1r3) -g3
+build y1 at Trollkin
+build g1 at Zoltar
+build y1 at Trollkin
+convert g1 to y1 at Zoltar
+convert y1 to b1 at Trollkin
+build g1 at Zoltar
+move b1 from Trollkin to Ensiferum (g3)
+convert g1 to b1 at Zoltar
+build b2 at Ensiferum
+build g1 at Zoltar
+convert b2 to g2 at Ensiferum
+build b2 at Zoltar
+build g1 at Ensiferum
+convert b1 to r1 at Zoltar
+convert g2 to b2 at Ensiferum
+move g1 from Zoltar to Korpiklaani (y2)
+convert b2 to y2 at Ensiferum
+build g2 at Korpiklaani
+convert y1 to r1 at Trollkin
+build g2 at Zoltar
+build y1 at Trollkin
+move g1 from Korpiklaani to Ensiferum
+convert g1 to r1 at Ensiferum
+build g1 at Ensiferum
+capture g1 at Ensiferum
+sacrifice g3 at Zoltar; build g2 at Ensiferum; build g3 at Korpiklaani; build g3 at Zoltar; catastrophe green at Ensiferum
+convert y3 to r3 at Trollkin
+move b2 from Zoltar to Korpiklaani
+move r1 from Trollkin to Tranquillity (y3)
+move g3 from Korpiklaani to Tranquillity
+convert y1 to g1 at Trollkin
+sacrifice r1 at Zoltar; capture r1 at Tranquillity
+build r1 at Trollkin
+sacrifice g3 at Zoltar; build g1 at Tranquillity; build g2 at Korpiklaani; build g3 at Zoltar
+build g3 at Trollkin
+move g1 from Tranquillity to Trollkin; catastrophe green at Trollkin
+convert r1 to y1 at Trollkin
+move b2 from Korpiklaani to Greenpeace (g1)
+convert y1 to g1 at Trollkin
+sacrifice g3 at Zoltar; build g1 at Tranquillity; build g3 at Korpiklaani; build g3 at Zoltar
+build r1 at Trollkin
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b1 at Greenpeace; build b1 at Greenpeace

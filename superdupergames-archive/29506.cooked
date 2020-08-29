@@ -1,0 +1,40 @@
+Felix (0, b3y1) g3-
+Mneme (1, b1g2) -y3
+build g1 at Felix
+build y1 at Mneme
+convert g1 to y1 at Felix
+convert y1 to b1 at Mneme
+build y1 at Felix
+build b1 at Mneme
+move y1 from Felix to Ramp (g2)
+build y2 at Mneme
+build y2 at Felix
+move y2 from Mneme to Sparta (g3)
+convert y2 to b2 at Felix
+move b1 from Mneme to Sparta
+build y2 at Felix
+build y2 at Mneme
+convert y1 to r1 at Felix
+convert y2 to r2 at Mneme
+move b2 from Felix to Ramp
+move b1 from Mneme to Macc (g3)
+build g1 at Felix
+build b2 at Macc
+build g1 at Felix
+build y1 at Sparta
+move g1 from Felix to Stake (b2)
+build b3 at Sparta
+build b3 at Ramp
+sacrifice y2 at Sparta; move b1 from Sparta to Ramp; move b1 from Macc to Ramp; catastrophe blue at Ramp
+sacrifice g3 at Felix; build g1 at Stake; build g2 at Stake; build g3 at Felix
+build r1 at Mneme
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Felix; build r1 at Felix
+sacrifice y3 at Mneme; move y1 from Sparta to Ramp; move y1 from Ramp to Felix; move b3 from Sparta to Mneme; catastrophe yellow at Felix
+sacrifice g3 at Felix; build g3 at Felix; build g3 at Felix; build y1 at Ramp
+build b1 at Mneme
+convert r1 to b1 at Felix
+convert b3 to y3 at Mneme
+sacrifice b1 at Felix; convert g3 to y3 at Felix
+build b1 at Mneme
+convert g2 to b2 at Stake
+sacrifice y3 at Mneme; move b1 from Mneme to Felix; move b1 from Mneme to Felix; move b2 from Macc to Checkmate (y2)

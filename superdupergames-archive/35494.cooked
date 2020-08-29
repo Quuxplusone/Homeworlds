@@ -1,0 +1,48 @@
+Draw5Playall (0, b3r1) g3-
+Felix (1, g2b3) -r3
+build g1 at Draw5Playall
+build r1 at Felix
+convert g1 to y1 at Draw5Playall
+build r1 at Felix
+build y1 at Draw5Playall
+convert r3 to y3 at Felix
+move y1 from Draw5Playall to Build (g2)
+build r2 at Felix
+build y1 at Draw5Playall
+build y2 at Felix
+move y1 from Draw5Playall to Construct (g2)
+convert r2 to b2 at Felix
+build y2 at Build
+build r2 at Felix
+sacrifice g3 at Draw5Playall; build y2 at Build; build y3 at Construct; build y3 at Draw5Playall
+sacrifice y2 at Felix; move r2 from Felix to Out (g1); move r2 from Out to Build
+sacrifice y2 at Build; move y2 from Build to Trade (b3); move y1 from Build to Trade
+build y2 at Felix
+convert y2 to r2 at Trade
+build r2 at Build
+move r2 from Trade to Construct
+sacrifice b2 at Felix; convert r2 to b2 at Build; convert r1 to g1 at Felix
+convert y3 to g3 at Draw5Playall
+build b1 at Build
+build g1 at Draw5Playall
+build b1 at Build
+convert y1 to b1 at Trade
+convert b2 to y2 at Build
+sacrifice b1 at Trade; convert y1 to b1 at Construct
+build b2 at Build
+sacrifice y3 at Construct; move b1 from Construct to Draw5Playall; move b1 from Draw5Playall to Build; move g1 from Draw5Playall to Trade (b2); catastrophe blue at Build
+convert g1 to b1 at Felix
+build y1 at Draw5Playall
+sacrifice b1 at Felix; convert y2 to b2 at Build
+convert y1 to b1 at Draw5Playall
+build b1 at Build
+move b1 from Draw5Playall to Construct
+convert b2 to y2 at Build
+build y1 at Draw5Playall
+build b1 at Build
+build b2 at Construct
+build b2 at Build
+convert b2 to y2 at Construct
+move b1 from Build to Draw5Playall
+build r1 at Construct
+build r2 at Build

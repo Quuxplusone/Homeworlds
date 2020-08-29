@@ -1,0 +1,46 @@
+Silenttitan (0, b1y2) g3-
+Dlwillson (1, r3g1) -b3
+build g1 at Silenttitan
+build b1 at Dlwillson
+move g1 from Silenttitan to Really (b3)
+build b1 at Dlwillson
+build g1 at Silenttitan
+convert b3 to y3 at Dlwillson
+sacrifice g3 at Silenttitan; build g2 at Really; build g2 at Really; build g2 at Silenttitan
+build b2 at Dlwillson
+build g3 at Silenttitan
+move b2 from Dlwillson to Illusion (b2)
+convert g3 to y3 at Silenttitan
+move b1 from Dlwillson to Mystery (b2)
+build g3 at Silenttitan
+build b3 at Dlwillson
+sacrifice y3 at Silenttitan; move g2 from Really to Crazy (y2); move g2 from Really to Isdaveyhelpingu (y2); move g2 from Silenttitan to Uhhunsure (b3)
+convert b3 to r3 at Dlwillson
+convert g1 to r1 at Silenttitan
+build b3 at Dlwillson
+build g1 at Silenttitan
+sacrifice y3 at Dlwillson; move b1 from Mystery to Insanity (g3); move b2 from Illusion to Dementia (g3); move r3 from Dlwillson to Crazy
+move g2 from Crazy to Dementia
+build b2 at Dementia
+convert g2 to b2 at Uhhunsure
+sacrifice b2 at Dementia; convert b1 to y1 at Dlwillson; convert b1 to y1 at Insanity
+sacrifice g2 at Dementia; build g2 at Isdaveyhelpingu; build r1 at Silenttitan
+build y1 at Insanity
+sacrifice g3 at Silenttitan; build g2 at Isdaveyhelpingu; build g3 at Silenttitan; build r1 at Silenttitan
+build y3 at Dlwillson
+move g2 from Isdaveyhelpingu to Dlwillson
+capture g2 at Dlwillson
+move g2 from Isdaveyhelpingu to Dlwillson
+sacrifice g2 at Dlwillson; build y3 at Dlwillson; build y3 at Insanity
+sacrifice g2 at Isdaveyhelpingu; build g2 at Dlwillson; build g2 at Dlwillson; catastrophe green at Dlwillson
+convert y3 to r3 at Dlwillson
+move r1 from Silenttitan to Dlwillson
+sacrifice r3 at Dlwillson; capture r1 at Dlwillson
+convert b2 to y2 at Uhhunsure
+sacrifice b2 at Dementia; convert r1 to g1 at Dlwillson; convert y1 to r1 at Insanity
+build g2 at Really
+build g2 at Dlwillson
+sacrifice g2 at Really; build y1 at Uhhunsure; build g2 at Really
+sacrifice y3 at Insanity; move g1 from Dlwillson to Silenttitan; move g2 from Dlwillson to Silenttitan; move y3 from Dlwillson to Silenttitan; catastrophe green at Silenttitan
+sacrifice y2 at Uhhunsure; move y1 from Uhhunsure to Silenttitan; move g1 from Really to Silenttitan
+sacrifice r3 at Crazy; capture g1 at Silenttitan; capture r1 at Silenttitan; capture r1 at Silenttitan

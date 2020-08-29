@@ -1,0 +1,65 @@
+Mandrel (0, b3r1) g3-
+Daselva (1, b1r2) -g3
+build g1 at Mandrel
+build g1 at Daselva
+convert g1 to r1 at Mandrel
+convert g1 to y1 at Daselva
+build g1 at Mandrel
+build g1 at Daselva
+convert g1 to y1 at Mandrel
+convert g3 to r3 at Daselva
+build g1 at Mandrel
+build y1 at Daselva
+build y2 at Mandrel
+build y2 at Daselva
+build y2 at Mandrel
+move y2 from Daselva to S1 (g3)
+convert y1 to b1 at Mandrel
+convert r3 to g3 at Daselva
+move b1 from Mandrel to Drape (g2)
+convert y1 to b1 at Daselva
+build b2 at Drape
+move b1 from Daselva to S1
+convert b1 to r1 at Drape
+build y1 at S1
+move y2 from Mandrel to Drape
+convert y2 to r2 at S1
+build y1 at Mandrel
+build y2 at S1
+build y3 at Drape
+build y3 at Daselva
+move y2 from Drape to Bunk (b3)
+build y3 at S1
+sacrifice y2 at Bunk; move y1 from Mandrel to Drape; move y1 from Drape to S1; catastrophe yellow at S1
+move y3 from Daselva to S1
+build y1 at Drape
+move r2 from S1 to S2 (g2)
+move y1 from Drape to Cone (b3)
+sacrifice y1 at Daselva; move r2 from S2 to Cone
+convert y3 to r3 at Drape
+capture y1 at Cone
+sacrifice y2 at Mandrel; move b2 from Drape to Cone; move r3 from Drape to Cone
+move r2 from Cone to Drape
+convert b2 to y2 at Cone
+capture r1 at Drape
+capture y1 at Cone
+convert g3 to y3 at Daselva
+convert r1 to y1 at Mandrel
+build y1 at S1
+build y2 at Mandrel
+convert y1 to r1 at S1
+convert y1 to g1 at Cone
+move y3 from S1 to Drape
+build g2 at Cone
+build y1 at Drape
+move y2 from Mandrel to Neglect (b2)
+sacrifice y1 at Drape; move r1 from S1 to S2 (y2)
+convert g2 to b2 at Cone
+sacrifice y3 at Drape; move r1 from S2 to Mandrel; move r1 from Drape to Mandrel; move r2 from Drape to Mandrel; catastrophe red at Mandrel
+convert y2 to r2 at Neglect
+build g2 at Daselva
+move g1 from Mandrel to Third (b2)
+sacrifice g2 at Daselva; build b1 at S1; build g2 at Daselva
+sacrifice y2 at Cone; move r3 from Cone to Daselva; move g3 from Mandrel to Daselva
+capture r3 at Daselva
+sacrifice r2 at Neglect; capture r3 at Daselva; capture y3 at Daselva

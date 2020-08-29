@@ -1,0 +1,35 @@
+Calavera (0, b2y3) g3-
+Ts52 (1, g1b2) -y3
+build g1 at Calavera
+build y1 at Ts52
+build g1 at Calavera
+move y1 from Ts52 to Kermit (g3)
+move g1 from Calavera to Question (b1)
+build y1 at Kermit
+build g2 at Question
+convert y3 to g3 at Ts52
+convert g2 to y2 at Question
+move y1 from Kermit to Ts52
+build g2 at Question
+build y1 at Kermit
+build y2 at Question
+move y1 from Kermit to Blueberry (b1)
+sacrifice g3 at Calavera; build g2 at Question; build g2 at Calavera; build g3 at Calavera
+sacrifice g3 at Ts52; build y2 at Kermit; build y3 at Ts52; build y3 at Blueberry
+sacrifice y2 at Question; move g2 from Question to Kermit; move g2 from Kermit to Ts52
+convert y3 to r3 at Ts52
+sacrifice g2 at Question; build g2 at Ts52; build g3 at Ts52; catastrophe green at Ts52
+convert y3 to g3 at Blueberry
+convert g1 to r1 at Calavera
+build g1 at Blueberry
+convert g2 to b2 at Calavera
+move g1 from Blueberry to Ts52
+move b2 from Calavera to Exclamation (g1)
+build g2 at Blueberry
+build b1 at Exclamation
+sacrifice g3 at Blueberry; build g2 at Ts52; build g2 at Blueberry; build g3 at Blueberry
+build b3 at Exclamation
+sacrifice g3 at Blueberry; build g3 at Blueberry; build y2 at Ts52; build y3 at Blueberry
+sacrifice y2 at Question; move b3 from Exclamation to Ts52; move b1 from Exclamation to Ts52
+capture b3 at Ts52
+sacrifice g1 at Question; build b1 at Ts52; catastrophe blue at Ts52

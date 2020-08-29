@@ -1,0 +1,19 @@
+Wil (0, y3b1) g3-
+Subatomicaura (1, r2b1) -g3
+build g1 at Wil
+build g1 at Subatomicaura
+convert g1 to b1 at Wil
+convert g1 to y1 at Subatomicaura
+build b2 at Wil
+build y1 at Subatomicaura
+move b2 from Wil to Y2 (y2)
+build g1 at Subatomicaura
+sacrifice g3 at Wil; build b2 at Y2; build b2 at Y2; build b3 at Wil
+build g1 at Subatomicaura
+move b2 from Y2 to G3 (g3)
+move g1 from Subatomicaura to G3
+build b3 at G3
+build y1 at Subatomicaura
+sacrifice b2 at Y2; convert b3 to g3 at Wil; convert b3 to r3 at G3
+move y1 from Subatomicaura to B3 (b3)
+capture g1 at G3

@@ -1,0 +1,60 @@
+Tuxhedoh (0, g3y1) b1-
+Mcrim001 (1, g3y1) -b1
+build b1 at Tuxhedoh
+build b2 at Mcrim001
+convert b1 to y1 at Tuxhedoh
+build b1 at Mcrim001
+move y1 from Tuxhedoh to Down (g2)
+convert b2 to y2 at Mcrim001
+build b2 at Tuxhedoh
+convert b1 to r1 at Mcrim001
+convert b1 to r1 at Tuxhedoh
+move r1 from Mcrim001 to Down
+build b1 at Tuxhedoh
+convert y2 to r2 at Mcrim001
+convert b2 to y2 at Tuxhedoh
+move r2 from Mcrim001 to Down
+convert y2 to r2 at Tuxhedoh
+capture y1 at Down
+move b1 from Tuxhedoh to Escape (r2)
+build b1 at Mcrim001
+move r1 from Tuxhedoh to Escape
+build b2 at Mcrim001
+build r1 at Tuxhedoh
+build r3 at Down
+move r1 from Tuxhedoh to Down; catastrophe red at Down
+convert b2 to r2 at Mcrim001
+build r1 at Tuxhedoh
+build y2 at Down
+sacrifice b1 at Escape; convert r1 to b1 at Tuxhedoh
+move b1 from Mcrim001 to Down
+build b2 at Tuxhedoh
+build r1 at Mcrim001
+move b2 from Tuxhedoh to Down
+move r2 from Mcrim001 to Down
+build b2 at Tuxhedoh
+capture b2 at Down
+convert b2 to y2 at Tuxhedoh
+build b2 at Mcrim001
+move y2 from Tuxhedoh to Escape
+move y1 from Down to Mcrim001
+convert r2 to g2 at Tuxhedoh
+build y2 at Down
+build g1 at Tuxhedoh
+build y3 at Mcrim001
+sacrifice g2 at Tuxhedoh; build y3 at Escape; build y3 at Escape
+move y1 from Mcrim001 to Escape
+move y3 from Escape to Tuxhedoh
+move y2 from Down to Mcrim001
+move y3 from Tuxhedoh to Mefi (g2)
+move y2 from Mcrim001 to Escape; catastrophe yellow at Escape
+move y3 from Mefi to Tuxhedoh
+convert y3 to r3 at Mcrim001
+convert y3 to g3 at Tuxhedoh
+build r1 at Mcrim001
+convert g1 to y1 at Tuxhedoh
+move r3 from Mcrim001 to Down
+build y2 at Tuxhedoh
+move r3 from Down to Tuxhedoh
+move y1 from Tuxhedoh to Escape
+capture g3 at Tuxhedoh

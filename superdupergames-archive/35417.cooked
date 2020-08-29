@@ -1,0 +1,53 @@
+Laurie_Menke (0, y3b1) g3-
+Nycavri (1, b3y2) -g3
+build g1 at Laurie_Menke
+build g1 at Nycavri
+convert g1 to r1 at Laurie_Menke
+convert g1 to y1 at Nycavri
+build g1 at Laurie_Menke
+build g1 at Nycavri
+build r1 at Laurie_Menke
+convert g1 to r1 at Nycavri
+build r2 at Laurie_Menke
+build r2 at Nycavri
+convert r2 to y2 at Laurie_Menke
+build g1 at Nycavri
+build r2 at Laurie_Menke
+build y1 at Nycavri
+convert r1 to b1 at Laurie_Menke
+move y1 from Nycavri to Deacon (g1)
+build g2 at Laurie_Menke
+move y1 from Deacon to May (g2)
+move r2 from Laurie_Menke to May
+move y1 from May to Mercury (g3)
+move g2 from Laurie_Menke to May
+build y1 at Mercury
+sacrifice g3 at Laurie_Menke; build g1 at Laurie_Menke; build g2 at May; build g3 at Laurie_Menke
+build y2 at Mercury
+sacrifice b1 at Laurie_Menke; convert g2 to b2 at May
+move y1 from Mercury to Taylor (b2)
+convert g1 to b1 at Laurie_Menke
+move y1 from Mercury to Taylor
+move y2 from Laurie_Menke to Taylor
+build y3 at Mercury
+build r1 at May
+move y1 from Taylor to Laurie_Menke
+build r2 at Laurie_Menke
+move y1 from Taylor to Laurie_Menke
+sacrifice g1 at Laurie_Menke; build y3 at Taylor
+sacrifice y3 at Mercury; move y1 from Nycavri to Edney (b1); move y1 from Edney to Taylor; move y1 from Taylor to Laurie_Menke; catastrophe yellow at Laurie_Menke
+sacrifice y2 at Taylor; move r1 from Laurie_Menke to Nycavri; move r2 from Laurie_Menke to Nycavri; catastrophe red at Nycavri
+convert g1 to r1 at Nycavri
+sacrifice g2 at May; build g1 at Laurie_Menke; build y1 at Taylor
+build g1 at Nycavri
+convert b2 to y2 at May
+convert g1 to b1 at Nycavri
+move y3 from Taylor to Laurie_Menke
+build b2 at Nycavri
+move b1 from Laurie_Menke to Nycavri; catastrophe blue at Nycavri
+build y1 at Mercury
+move y2 from May to Mercury
+build g1 at Nycavri
+sacrifice r2 at May; capture y2 at Mercury; capture y1 at Mercury
+move g1 from Nycavri to Laurie_Menke
+sacrifice y3 at Laurie_Menke; move y2 from Mercury to Nycavri; move y2 from Mercury to Nycavri; move y1 from Mercury to Nycavri; catastrophe yellow at Nycavri

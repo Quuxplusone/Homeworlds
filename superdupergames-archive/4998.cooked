@@ -1,0 +1,30 @@
+Manny (0, y1b3) g3-
+Antihero (1, y1b2) -g3
+build g1 at Manny
+build g1 at Antihero
+move g1 from Manny to Flux (b2)
+move g1 from Antihero to Sun (y3)
+build g1 at Manny
+build g2 at Antihero
+convert g1 to r1 at Manny
+convert g2 to r2 at Antihero
+build r1 at Manny
+build r1 at Antihero
+convert r1 to y1 at Manny
+convert r2 to y2 at Antihero
+move y1 from Manny to Flux
+build y2 at Antihero
+build y2 at Flux
+move y2 from Antihero to Ice (g3)
+move y2 from Flux to Whirlpool (b3)
+build y3 at Ice
+build y3 at Flux
+move y2 from Ice to Forest (g2)
+move g1 from Flux to Whirlpool
+build g1 at Antihero
+build g2 at Whirlpool
+convert g1 to b1 at Antihero
+convert g1 to r1 at Whirlpool
+sacrifice g1 at Sun; build y3 at Forest
+build r2 at Whirlpool
+move y3 from Forest to Whirlpool

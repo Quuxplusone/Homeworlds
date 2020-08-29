@@ -1,0 +1,46 @@
+Rootbier (0, g3b1) b3-
+Zackstack (1, r1b2) -g3
+build b1 at Rootbier
+build g1 at Zackstack
+convert b1 to y1 at Rootbier
+build g1 at Zackstack
+build b1 at Rootbier
+convert g1 to b1 at Zackstack
+move b1 from Rootbier to Bagatelle (y2)
+build b2 at Zackstack
+build b2 at Rootbier
+convert b2 to y2 at Zackstack
+move b1 from Bagatelle to Pistachio (g3)
+move b1 from Zackstack to Lemon (y3)
+convert b2 to r2 at Rootbier
+build g1 at Zackstack
+build b2 at Pistachio
+move g1 from Zackstack to Lemon
+convert b2 to y2 at Pistachio
+build b2 at Lemon
+build b2 at Pistachio
+convert b1 to r1 at Lemon
+sacrifice y2 at Pistachio; move b1 from Pistachio to Zackstack; move b2 from Pistachio to Zackstack
+capture b2 at Zackstack
+convert y1 to g1 at Rootbier
+capture b1 at Zackstack
+build r1 at Rootbier
+convert b2 to y2 at Zackstack
+convert r1 to y1 at Rootbier
+build g2 at Lemon
+move g1 from Rootbier to Banksy (y2)
+move g2 from Lemon to Grape (b2)
+build g2 at Banksy
+sacrifice g3 at Zackstack; build g2 at Grape; build g3 at Lemon; build g3 at Zackstack
+move g1 from Banksy to Lemon
+move g1 from Lemon to Cherry (r2)
+build r1 at Rootbier
+capture g1 at Lemon
+move b3 from Rootbier to Grape
+sacrifice y2 at Zackstack; move g2 from Grape to Rootbier; move g2 from Grape to Rootbier
+build r2 at Rootbier
+sacrifice y2 at Zackstack; move r1 from Lemon to Cherry; move r1 from Cherry to Rootbier; catastrophe red at Rootbier
+convert b3 to y3 at Grape
+convert g2 to r2 at Rootbier
+move y3 from Grape to Rootbier
+sacrifice b2 at Lemon; convert g2 to y2 at Rootbier; convert r2 to y2 at Rootbier; catastrophe yellow at Rootbier

@@ -1,0 +1,61 @@
+Ajo (0, b3y2) g3-
+Agentofchaos (1, b1r2) -g3
+build g1 at Ajo
+build g1 at Agentofchaos
+move g1 from Ajo to Alpha (b1)
+convert g1 to y1 at Agentofchaos
+build g1 at Alpha
+build y1 at Agentofchaos
+convert g1 to y1 at Alpha
+build y2 at Agentofchaos
+build y2 at Alpha
+move y2 from Agentofchaos to Pazuza (g3)
+convert y2 to r2 at Alpha
+convert y1 to r1 at Agentofchaos
+build g1 at Ajo
+convert y1 to b1 at Agentofchaos
+build r1 at Alpha
+build b2 at Agentofchaos
+convert r2 to y2 at Alpha
+convert b1 to y1 at Agentofchaos
+build r1 at Alpha
+move r1 from Agentofchaos to Pazuza
+move y1 from Alpha to Beta (b3)
+build r2 at Pazuza
+move r1 from Alpha to Ajo
+build b1 at Agentofchaos
+build r2 at Ajo
+move b2 from Agentofchaos to Pazuza
+build r3 at Alpha
+build y1 at Agentofchaos
+sacrifice g1 at Ajo; build y3 at Beta
+build y3 at Pazuza
+build y3 at Alpha
+build g1 at Agentofchaos
+move r3 from Alpha to Beta
+sacrifice y2 at Pazuza; move y1 from Agentofchaos to Beta; move y1 from Agentofchaos to Beta; catastrophe yellow at Beta
+build r3 at Alpha
+build y1 at Pazuza
+move r3 from Alpha to Beta
+build r3 at Pazuza
+move r1 from Alpha to Pazuza; catastrophe red at Pazuza
+convert b2 to r2 at Pazuza
+build g1 at Ajo
+build b2 at Agentofchaos
+build g2 at Alpha
+convert g1 to y1 at Agentofchaos
+convert g2 to b2 at Alpha
+move b2 from Agentofchaos to Pazuza
+move b2 from Alpha to Midland (g2)
+build g1 at Agentofchaos
+move r1 from Ajo to Alpha
+build r1 at Pazuza
+convert r3 to y3 at Beta
+build b2 at Pazuza
+build b3 at Midland
+move b1 from Agentofchaos to Mortzone (r3)
+move g1 from Alpha to Beta
+convert b2 to g2 at Pazuza
+sacrifice g3 at Ajo; build g2 at Beta; build g3 at Ajo; build r1 at Ajo
+sacrifice g3 at Agentofchaos; build b2 at Mortzone; build y1 at Agentofchaos; build g3 at Agentofchaos
+sacrifice y3 at Alpha; move y3 from Beta to Agentofchaos; move g1 from Beta to Agentofchaos; move g2 from Beta to Agentofchaos; catastrophe green at Agentofchaos

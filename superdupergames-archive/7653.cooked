@@ -1,0 +1,67 @@
+Mikeyarrum (0, b1y2) g3-
+Nycavri (1, y2b3) -g3
+build g1 at Mikeyarrum
+build g1 at Nycavri
+convert g1 to y1 at Mikeyarrum
+build g1 at Nycavri
+build y1 at Mikeyarrum
+convert g3 to y3 at Nycavri
+convert y1 to b1 at Mikeyarrum
+move g1 from Nycavri to Taylor (y1)
+build b1 at Mikeyarrum
+build g1 at Taylor
+build g2 at Mikeyarrum
+build g2 at Nycavri
+move b1 from Mikeyarrum to Yomi (g3)
+convert g2 to b2 at Nycavri
+build b2 at Yomi
+move g1 from Taylor to Mercury (y3)
+build b2 at Yomi
+build b3 at Nycavri
+move b1 from Mikeyarrum to Kagura (g3)
+move b2 from Nycavri to Taylor
+sacrifice y1 at Mikeyarrum; move b2 from Yomi to Tomo (y1)
+convert b3 to r3 at Nycavri
+sacrifice g2 at Mikeyarrum; build b3 at Tomo; build b3 at Kagura
+move g1 from Mercury to Mikeyarrum
+sacrifice b2 at Yomi; convert b3 to y3 at Kagura; convert b3 to r3 at Tomo
+build g2 at Mikeyarrum
+convert g3 to r3 at Mikeyarrum
+sacrifice b2 at Taylor; convert g1 to r1 at Mikeyarrum; convert g2 to r2 at Mikeyarrum
+convert r3 to g3 at Mikeyarrum
+convert r1 to g1 at Mikeyarrum
+build b2 at Yomi
+convert r2 to b2 at Mikeyarrum
+move b1 from Kagura to Taylor
+build g2 at Mikeyarrum
+convert g3 to r3 at Mikeyarrum
+build b3 at Mikeyarrum
+sacrifice r3 at Tomo; capture b3 at Mikeyarrum; capture g2 at Mikeyarrum; capture b2 at Mikeyarrum
+build g2 at Taylor
+convert b3 to y3 at Mikeyarrum
+build g2 at Mikeyarrum
+move g2 from Mikeyarrum to Nyamo (b3)
+build g3 at Nycavri
+capture g2 at Mikeyarrum
+sacrifice g3 at Nycavri; build g3 at Nycavri; build r1 at Nycavri; build r1 at Nycavri
+convert b1 to r1 at Taylor
+convert g1 to b1 at Mikeyarrum
+move b2 from Mikeyarrum to Kagura
+move g3 from Nycavri to Tomo
+move r1 from Taylor to Nycavri; catastrophe red at Nycavri
+build g1 at Nycavri
+build b3 at Kagura
+convert g1 to r1 at Nycavri
+convert b3 to r3 at Kagura
+sacrifice r1 at Nycavri; capture b2 at Tomo
+build b3 at Kagura
+convert b1 to y1 at Mikeyarrum
+capture y1 at Mikeyarrum
+sacrifice b2 at Tomo; convert g2 to y2 at Taylor; convert g1 to b1 at Taylor
+move r3 from Kagura to Tomo
+move y2 from Taylor to Edney (r3)
+capture g3 at Tomo
+move y2 from Edney to Mikeyarrum; catastrophe yellow at Mikeyarrum
+move g3 from Tomo to Nycavri
+convert g1 to r1 at Nycavri
+sacrifice r3 at Tomo; capture y3 at Nycavri; capture r1 at Nycavri

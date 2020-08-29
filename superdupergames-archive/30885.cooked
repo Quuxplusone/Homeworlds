@@ -1,0 +1,49 @@
+Draw5Playall (0, r1b3) g3-
+Amuzet (1, y1g2) -b3
+build g1 at Draw5Playall
+build b1 at Amuzet
+build g1 at Draw5Playall
+move b1 from Amuzet to Berilium (b3)
+convert g1 to y1 at Draw5Playall
+build b1 at Amuzet
+convert g1 to b1 at Draw5Playall
+convert b3 to r3 at Amuzet
+build b2 at Draw5Playall
+build b2 at Amuzet
+move b2 from Draw5Playall to G2 (g2)
+convert b1 to g1 at Berilium
+build b1 at G2
+build g1 at Berilium
+convert b2 to y2 at G2
+convert g1 to y1 at Berilium
+build y2 at G2
+build b2 at Amuzet
+build b2 at Draw5Playall
+move b2 from Amuzet to Berilium
+build b3 at G2
+move b2 from Berilium to Breilium (g1)
+move b2 from Draw5Playall to G2_ (g2)
+build g1 at Berilium
+build g3 at Draw5Playall
+build g3 at Berilium
+convert y2 to r2 at G2
+sacrifice g1 at Berilium; build y2 at Berilium
+sacrifice g3 at Draw5Playall; build y2 at G2; build y3 at Draw5Playall; build r1 at G2
+sacrifice y2 at Berilium; move g3 from Berilium to Hola (r2); move y1 from Berilium to Hola
+move y3 from Draw5Playall to G2_
+sacrifice g3 at Hola; build g1 at Berilium; build g3 at Berilium; build y2 at Hola
+build g3 at Draw5Playall
+sacrifice b2 at Amuzet; convert b2 to r2 at Breilium; convert g1 to r1 at Berilium
+sacrifice g3 at Draw5Playall; build y3 at Draw5Playall; build y3 at G2_; build r3 at G2
+sacrifice y2 at Hola; move g3 from Berilium to G2_; move r1 from Berilium to G2; catastrophe red at G2
+sacrifice y2 at G2; move y3 from G2_ to Berilium; move y3 from G2_ to R3 (r3)
+sacrifice g3 at G2_; build y2 at Hola; build b2 at Amuzet; build r1 at Breilium
+convert b1 to r1 at G2
+convert b1 to g1 at Amuzet
+build g3 at Draw5Playall
+build g3 at Berilium
+sacrifice r1 at G2; capture g3 at Berilium
+sacrifice y2 at Hola; move r2 from Breilium to G2; move y1 from Hola to Breilium
+move y2 from G2 to Berilium
+convert g1 to b1 at Berilium
+convert y2 to r2 at Berilium

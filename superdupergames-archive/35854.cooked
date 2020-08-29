@@ -1,0 +1,22 @@
+Languidude (0, b1y2) g3-
+Babamots (1, g3b1) -b3
+build g1 at Languidude
+build b1 at Babamots
+convert g3 to b3 at Languidude
+convert b3 to y3 at Babamots
+build b2 at Languidude
+build b2 at Babamots
+move b2 from Languidude to Adama (g3)
+convert b1 to g1 at Babamots
+convert b2 to y2 at Adama
+build b1 at Babamots
+build b2 at Languidude
+sacrifice y3 at Babamots; move b1 from Babamots to Iconia (y2); move b1 from Iconia to Adama; move b1 from Adama to Languidude; catastrophe blue at Languidude
+build y1 at Adama
+convert g1 to y1 at Babamots
+move y2 from Adama to Brill (b1)
+move b2 from Babamots to Languidude
+move y1 from Adama to Languidude
+convert b2 to r2 at Languidude
+convert y2 to r2 at Brill
+capture g1 at Languidude

@@ -1,0 +1,45 @@
+Felix (0, b2r3) g3-
+Dragon76N (1, g2b1) -y3
+build g1 at Felix
+build y1 at Dragon76N
+convert g1 to y1 at Felix
+convert y1 to g1 at Dragon76N
+build g1 at Felix
+build y1 at Dragon76N
+convert g1 to b1 at Felix
+build g1 at Dragon76N
+build g1 at Felix
+convert g1 to b1 at Dragon76N
+move b1 from Felix to Grinch (g1)
+build g2 at Dragon76N
+build b2 at Grinch
+move g1 from Dragon76N to Redthr (r3)
+convert b2 to y2 at Grinch
+build b2 at Dragon76N
+build b2 at Grinch
+convert b1 to r1 at Dragon76N
+convert b2 to r2 at Grinch
+build g2 at Redthr
+move g1 from Felix to Ridge (b1)
+move b2 from Dragon76N to Grethr (g3)
+build g3 at Ridge
+move y1 from Dragon76N to Redthr
+sacrifice g3 at Ridge; build g3 at Ridge; build y1 at Grinch; build r1 at Grinch
+build y2 at Redthr
+sacrifice y1 at Grinch; move g3 from Ridge to Grethr
+move g2 from Redthr to Ridge
+sacrifice r1 at Grinch; capture b2 at Grethr
+sacrifice g2 at Dragon76N; build g2 at Redthr; build r1 at Dragon76N
+sacrifice g3 at Grethr; build g3 at Felix; build b2 at Grinch; build b3 at Grethr
+sacrifice r1 at Dragon76N; capture g1 at Ridge
+convert g3 to y3 at Felix
+build g3 at Redthr
+build b3 at Grethr
+move g3 from Redthr to Redone (r1)
+build b3 at Grinch
+move g1 from Redthr to Redone
+sacrifice y2 at Grinch; move b3 from Grethr to Dragon76N; move b3 from Grethr to Dragon76N
+sacrifice g3 at Redone; build g3 at Redthr; build r1 at Dragon76N; build r2 at Dragon76N
+sacrifice r2 at Grinch; capture y3 at Dragon76N; capture r2 at Dragon76N
+sacrifice y2 at Redthr; move g1 from Ridge to Felix; move g2 from Ridge to Felix
+sacrifice r2 at Dragon76N; capture r1 at Dragon76N; capture r1 at Dragon76N

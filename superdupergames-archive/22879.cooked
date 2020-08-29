@@ -1,0 +1,36 @@
+Lcnh (0, y3b1) g3-
+Mandrel (1, r3b2) -g3
+build g1 at Lcnh
+build g1 at Mandrel
+move g1 from Lcnh to Robo (y2)
+convert g1 to y1 at Mandrel
+build g1 at Lcnh
+build y1 at Mandrel
+convert g1 to r1 at Lcnh
+build g1 at Mandrel
+build r1 at Lcnh
+move g1 from Mandrel to Wkb (y1)
+move g1 from Robo to Lens (r3)
+build y2 at Mandrel
+build r1 at Lcnh
+move y2 from Mandrel to Sir (g1)
+convert r1 to b1 at Lcnh
+build y2 at Sir
+build g2 at Lcnh
+build g2 at Wkb
+move g2 from Lcnh to Klid (y2)
+build y3 at Sir
+build g2 at Klid
+build y3 at Mandrel
+build g3 at Lens
+convert y1 to r1 at Mandrel
+convert r1 to y1 at Lcnh
+move y2 from Sir to Compression (b2)
+move b1 from Lcnh to Klid
+move y1 from Mandrel to Conformal (b1)
+move y1 from Lcnh to Model (r2)
+sacrifice y3 at Sir; move y2 from Sir to Compression; move y2 from Compression to Lcnh; move y2 from Compression to Lcnh
+sacrifice g3 at Lens; build y3 at Model; build g1 at Klid; build g3 at Lens
+sacrifice r1 at Mandrel; capture r1 at Lcnh
+convert g3 to r3 at Lcnh
+sacrifice g2 at Wkb; build r1 at Lcnh; build r1 at Lcnh; catastrophe red at Lcnh

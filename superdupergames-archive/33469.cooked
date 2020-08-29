@@ -1,0 +1,17 @@
+Trydnt (0, b2r1) g3-
+Mobynostromo (1, b1g2) -y3
+build g1 at Trydnt
+build y1 at Mobynostromo
+build g1 at Trydnt
+build y1 at Mobynostromo
+convert g1 to y1 at Trydnt
+move y1 from Mobynostromo to Bigbird (y3)
+build g1 at Trydnt
+build y2 at Mobynostromo
+convert g1 to b1 at Trydnt
+move y2 from Mobynostromo to Ibm (b3)
+build y2 at Trydnt
+convert y2 to g2 at Ibm
+move y1 from Trydnt to G3 (g3)
+convert y1 to b1 at Mobynostromo
+move b1 from Trydnt to G3

@@ -1,0 +1,32 @@
+Shoejitsu (0, b2y1) g3-
+Ts52 (1, b1y3) -g3
+build g1 at Shoejitsu
+build g1 at Ts52
+convert g1 to b1 at Shoejitsu
+convert g1 to b1 at Ts52
+build b2 at Shoejitsu
+move b1 from Ts52 to Kermit (g2)
+build g1 at Shoejitsu
+build g1 at Ts52
+move g1 from Shoejitsu to Howdy (b3)
+build b2 at Kermit
+convert b2 to y2 at Shoejitsu
+convert b2 to y2 at Kermit
+build y1 at Shoejitsu
+build y1 at Kermit
+move y1 from Shoejitsu to Howdy
+build b2 at Kermit
+build y2 at Howdy
+move y2 from Kermit to Robin (g3)
+build y3 at Shoejitsu
+build y3 at Kermit
+convert y2 to b2 at Howdy
+move b1 from Kermit to Robin
+convert b1 to r1 at Shoejitsu
+convert y1 to r1 at Kermit
+move y3 from Shoejitsu to Howdy
+build b1 at Kermit
+convert b2 to g2 at Howdy
+build b2 at Robin
+convert g2 to y2 at Howdy
+build b3 at Robin

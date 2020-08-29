@@ -1,0 +1,24 @@
+Aghmarck (0, y1b2) g3-
+Endo (1, y1b3) -g3
+build g1 at Aghmarck
+build g1 at Endo
+convert g1 to y1 at Aghmarck
+convert g3 to y3 at Endo
+build y2 at Aghmarck
+build y2 at Endo
+convert y2 to g2 at Aghmarck
+move y2 from Endo to Subtle (g2)
+build y2 at Aghmarck
+build y2 at Subtle
+move y2 from Aghmarck to Verdega (g3)
+build y3 at Endo
+build y3 at Verdega
+convert y3 to r3 at Endo
+convert y1 to r1 at Aghmarck
+build r1 at Endo
+move y3 from Verdega to Verda (g2)
+move y2 from Subtle to Verdega
+build y1 at Verdega
+build y3 at Subtle
+build g1 at Aghmarck
+sacrifice y3 at Endo; move g1 from Endo to Verda; move g1 from Verda to Verdega; move g1 from Verdega to Aghmarck; catastrophe green at Aghmarck

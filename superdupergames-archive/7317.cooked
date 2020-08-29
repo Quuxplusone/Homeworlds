@@ -1,0 +1,37 @@
+Twoshort (0, r1b2) g3-
+Lambda (1, g3b2) -y3
+build g1 at Twoshort
+build y1 at Lambda
+build g1 at Twoshort
+build y1 at Lambda
+convert g1 to y1 at Twoshort
+convert y1 to g1 at Lambda
+move g1 from Twoshort to Yolonda (y3)
+move g1 from Lambda to Rigel (b1)
+build y1 at Twoshort
+build y2 at Lambda
+move y1 from Twoshort to Grogar (g3)
+move y1 from Lambda to Deneb (g1)
+build y2 at Grogar
+build g2 at Rigel
+move y1 from Grogar to Deneb
+convert y2 to r2 at Lambda
+sacrifice g3 at Twoshort; build y2 at Deneb; build y2 at Grogar; build y3 at Twoshort
+build r1 at Lambda
+move y2 from Grogar to Jeans (b1)
+sacrifice r1 at Lambda; capture y1 at Deneb
+convert y2 to r2 at Jeans
+move y1 from Deneb to Antares (g3)
+sacrifice r2 at Jeans; capture y1 at Deneb
+build y2 at Antares
+convert y1 to r1 at Twoshort
+move y1 from Antares to Rigel
+build g2 at Yolonda
+move g1 from Rigel to Arcturus (b3)
+move g1 from Yolonda to Blewstar (b1)
+convert y1 to b1 at Rigel
+build g2 at Blewstar
+build y1 at Antares
+sacrifice g2 at Yolonda; build y1 at Twoshort; build y3 at Grogar
+build b2 at Rigel
+sacrifice y2 at Grogar; move g2 from Blewstar to Lambda; move g1 from Blewstar to Lambda

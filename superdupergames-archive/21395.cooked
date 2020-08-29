@@ -1,0 +1,111 @@
+Magicjohn (0, b2r1) g3-
+Shmil1 (1, g3b1) -r3
+build g1 at Magicjohn
+build r1 at Shmil1
+build g1 at Magicjohn
+build r1 at Shmil1
+convert g1 to y1 at Magicjohn
+convert r1 to y1 at Shmil1
+build g1 at Magicjohn
+build r1 at Shmil1
+build y1 at Magicjohn
+build y2 at Shmil1
+build y2 at Magicjohn
+move y1 from Shmil1 to Greeny (g2)
+convert y2 to r2 at Magicjohn
+build y2 at Greeny
+move g1 from Magicjohn to Outlander (y3)
+convert y2 to g2 at Shmil1
+move y1 from Magicjohn to Outlander
+move y2 from Greeny to Outlander
+build r2 at Magicjohn
+sacrifice r1 at Shmil1; capture g1 at Outlander
+move g3 from Magicjohn to Outlander
+build y2 at Outlander; catastrophe yellow at Outlander
+move r2 from Magicjohn to Majordisaster (y3)
+build g1 at Shmil1
+build g1 at Magicjohn
+convert g2 to y2 at Shmil1
+build g2 at Magicjohn
+convert r1 to b1 at Shmil1
+move g1 from Magicjohn to Majordisaster
+build b1 at Shmil1
+build g2 at Majordisaster
+build g3 at Shmil1
+build g3 at Magicjohn
+sacrifice g3 at Shmil1; build g3 at Shmil1; build r1 at Shmil1; build y1 at Shmil1
+build y2 at Magicjohn
+move g1 from Shmil1 to Greeny
+move g2 from Magicjohn to Majorproblem (y3)
+sacrifice g3 at Shmil1; build g3 at Greeny; build y2 at Greeny; build y3 at Shmil1
+move g2 from Majorproblem to Greeny; catastrophe green at Greeny
+sacrifice y2 at Shmil1; move y3 from Shmil1 to Neco (r2); move y3 from Neco to Majordisaster
+move g2 from Majordisaster to Majorproblem (b2)
+sacrifice r1 at Shmil1; capture r2 at Majordisaster
+convert g2 to r2 at Majorproblem
+capture g1 at Majordisaster
+move g1 from Magicjohn to Majorminor (y3)
+build r1 at Majordisaster
+move r2 from Magicjohn to Majorminor
+move b1 from Shmil1 to Modry (y2)
+sacrifice g1 at Majorminor; build r1 at Majorproblem
+build g1 at Majordisaster
+convert r2 to y2 at Majorproblem
+build g1 at Majordisaster
+sacrifice y2 at Magicjohn; move y1 from Magicjohn to Majordisaster; move y2 from Majorproblem to Majordisaster; catastrophe yellow at Majordisaster
+convert b1 to g1 at Modry
+move r2 from Majorminor to Modry
+move g1 from Modry to Zluta (y3)
+move r2 from Modry to Zluta
+move g1 from Zluta to Ruda (r1)
+move r2 from Zluta to Ruda
+sacrifice y1 at Shmil1; move g1 from Ruda to Zluta (y3)
+build g1 at Magicjohn
+build g1 at Zluta
+convert g1 to y1 at Magicjohn
+build g1 at Zluta
+build y1 at Magicjohn
+move g1 from Zluta to Magicjohn
+capture g1 at Magicjohn
+move g1 from Zluta to Magicjohn
+convert g3 to b3 at Magicjohn
+build g2 at Magicjohn
+sacrifice r1 at Majorproblem; capture g2 at Magicjohn
+build g2 at Magicjohn; catastrophe green at Magicjohn
+convert y1 to g1 at Magicjohn
+build g1 at Zluta
+move g1 from Magicjohn to Zluta
+move g1 from Zluta to Magicjohn
+capture g1 at Magicjohn
+build r1 at Shmil1
+move g1 from Zluta to Majorkey (y2)
+move g1 from Zluta to Majorkey
+build g2 at Majorkey
+build g2 at Majorkey
+sacrifice r2 at Ruda; capture g1 at Majorkey; capture g2 at Majorkey
+convert r1 to y1 at Shmil1; catastrophe green at Majorkey
+build g1 at Magicjohn
+build r1 at Shmil1
+move g1 from Magicjohn to Secondchance (y3)
+move b1 from Shmil1 to Zelena (g2)
+build g1 at Magicjohn
+sacrifice y1 at Shmil1; move b1 from Zelena to Secondchance
+build g2 at Secondchance
+sacrifice r1 at Shmil1; capture g1 at Secondchance
+convert g1 to r1 at Magicjohn
+build b1 at Secondchance
+sacrifice r1 at Magicjohn; capture g1 at Secondchance
+move b1 from Secondchance to Magicjohn
+convert b3 to y3 at Magicjohn
+capture g1 at Magicjohn
+capture g1 at Magicjohn
+move b1 from Secondchance to Magicjohn
+capture b1 at Magicjohn
+capture g1 at Magicjohn
+capture g1 at Magicjohn
+capture g1 at Magicjohn
+capture g1 at Magicjohn
+capture g1 at Magicjohn
+capture g1 at Magicjohn
+capture g1 at Magicjohn
+move b1 from Magicjohn to Secondchance

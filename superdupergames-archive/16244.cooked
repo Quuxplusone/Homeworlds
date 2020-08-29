@@ -1,0 +1,35 @@
+Mandrel (0, r1b2) g3-
+Zoltar (1, r3b1) -g3
+build g1 at Mandrel
+build g1 at Zoltar
+convert g1 to y1 at Mandrel
+convert g1 to y1 at Zoltar
+build g1 at Mandrel
+build g1 at Zoltar
+convert g1 to r1 at Mandrel
+convert g1 to r1 at Zoltar
+build r2 at Mandrel
+build r2 at Zoltar
+build g1 at Mandrel
+convert r1 to b1 at Zoltar
+move g1 from Mandrel to Grim (y3)
+move r2 from Zoltar to Greenbelt (g2)
+build g1 at Mandrel
+sacrifice y1 at Zoltar; move r2 from Greenbelt to Grim
+convert r2 to y2 at Mandrel
+capture g1 at Grim
+convert g1 to b1 at Mandrel
+build b2 at Zoltar
+build r1 at Mandrel
+convert b2 to y2 at Zoltar
+move r1 from Mandrel to Sleep (g3)
+build r2 at Grim
+build r2 at Sleep
+sacrifice y2 at Zoltar; move r2 from Grim to Mandrel; move r2 from Grim to Mandrel; catastrophe red at Mandrel
+sacrifice y1 at Mandrel; move r2 from Sleep to Disappointment (b2)
+build g1 at Zoltar
+convert r2 to b2 at Disappointment
+sacrifice b1 at Zoltar; convert g1 to b1 at Grim
+build g1 at Mandrel
+sacrifice g1 at Zoltar; build b3 at Grim
+sacrifice y2 at Mandrel; move g3 from Mandrel to Zoltar; move g1 from Mandrel to Zoltar

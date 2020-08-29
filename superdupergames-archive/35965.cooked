@@ -1,0 +1,41 @@
+Zweiterlinde (0, r1b2) g3-
+Huddyrx (1, b3g1) -r3
+build g1 at Zweiterlinde
+build r1 at Huddyrx
+convert g1 to y1 at Zweiterlinde
+convert r1 to y1 at Huddyrx
+build g1 at Zweiterlinde
+build r1 at Huddyrx
+move g1 from Zweiterlinde to Gaia (g3)
+convert r1 to g1 at Huddyrx
+build g2 at Zweiterlinde
+build g2 at Huddyrx
+move g2 from Zweiterlinde to Terra (g3)
+move g2 from Huddyrx to Cosmos (r2)
+build g2 at Zweiterlinde
+build r1 at Huddyrx
+sacrifice g3 at Zweiterlinde; build g3 at Zweiterlinde; build y1 at Zweiterlinde; build y2 at Zweiterlinde
+build y2 at Huddyrx
+convert y1 to b1 at Zweiterlinde
+convert r1 to b1 at Huddyrx
+move y2 from Zweiterlinde to Terra
+move b1 from Huddyrx to Cosmos
+move b1 from Zweiterlinde to Terra
+move y1 from Huddyrx to Cosmos
+sacrifice g3 at Zweiterlinde; build g3 at Zweiterlinde; build y1 at Terra; build b1 at Terra
+build y2 at Cosmos
+convert y1 to r1 at Terra
+build b2 at Cosmos
+move b1 from Terra to Cosmos
+move b2 from Cosmos to Galaga (y3)
+sacrifice g3 at Zweiterlinde; build g3 at Zweiterlinde; build b2 at Terra; build b3 at Cosmos
+build b3 at Cosmos; catastrophe blue at Cosmos
+sacrifice g3 at Zweiterlinde; build g3 at Zweiterlinde; build y1 at Terra; build y3 at Zweiterlinde
+build y3 at Huddyrx
+move b1 from Terra to Proxima (r2)
+move g2 from Cosmos to Galaga
+sacrifice y3 at Zweiterlinde; move b2 from Terra to Proxima; move b2 from Proxima to Huddyrx; move b1 from Proxima to Huddyrx
+capture b2 at Huddyrx
+build b1 at Huddyrx; catastrophe blue at Huddyrx
+build b1 at Galaga
+sacrifice y2 at Terra; move g2 from Terra to Huddyrx; move g1 from Gaia to Huddyrx; catastrophe green at Huddyrx

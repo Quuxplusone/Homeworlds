@@ -1,0 +1,25 @@
+Madwuher (0, r1b2) g3-
+Mouce (1, y1b3) -g3
+build g1 at Madwuher
+build g1 at Mouce
+convert g1 to y1 at Madwuher
+move g1 from Mouce to Rathome (b2)
+build g1 at Madwuher
+build g1 at Mouce
+build g2 at Madwuher
+sacrifice g3 at Mouce; build g2 at Rathome; build g2 at Mouce; build g3 at Mouce
+move g2 from Madwuher to Edora (g3)
+convert g1 to y1 at Rathome
+build y2 at Madwuher
+move g2 from Mouce to Scamper (b2)
+move g1 from Madwuher to Camelot (b3)
+sacrifice g3 at Mouce; build g1 at Scamper; build y2 at Rathome; build g3 at Mouce
+sacrifice g2 at Edora; build g2 at Madwuher; build g3 at Camelot
+move y2 from Rathome to Scritch (b3)
+move y1 from Madwuher to Camelot
+sacrifice g3 at Mouce; build g3 at Mouce; build y2 at Rathome; build y3 at Scritch
+sacrifice g3 at Madwuher; build g3 at Madwuher; build y3 at Madwuher; build y3 at Camelot
+sacrifice y2 at Rathome; move g2 from Scamper to Scritch; move g1 from Scamper to Scritch
+move g3 from Camelot to Edora (y2)
+convert y3 to r3 at Scritch
+sacrifice y3 at Madwuher; move g1 from Camelot to Edora; move g1 from Edora to Mouce; move g3 from Edora to Mouce; catastrophe green at Mouce

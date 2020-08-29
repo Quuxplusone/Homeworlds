@@ -1,0 +1,41 @@
+Mneme (0, r1b2) g3-
+Remneb (1, b3r2) -g3
+build g1 at Mneme
+build g1 at Remneb
+convert g1 to r1 at Mneme
+convert g1 to r1 at Remneb
+build r2 at Mneme
+build g1 at Remneb
+convert r2 to y2 at Mneme
+convert g1 to y1 at Remneb
+build r2 at Mneme
+move r1 from Remneb to Lod (y1)
+move r2 from Mneme to Alpha (y3)
+build g1 at Remneb
+build g1 at Mneme
+sacrifice g1 at Remneb; build r2 at Lod
+build r3 at Mneme
+move r1 from Lod to Thor (y3)
+convert r1 to b1 at Mneme
+build g1 at Remneb
+move r3 from Mneme to Beta (b3)
+move g1 from Remneb to Rob (y1)
+build y2 at Mneme
+build y2 at Remneb
+build y3 at Mneme
+move y1 from Remneb to Rem (g1)
+move y2 from Mneme to Beta
+build g2 at Remneb
+move g3 from Mneme to Thor
+move r1 from Thor to Dove (b1)
+build g2 at Thor
+move g2 from Remneb to Rob
+sacrifice g3 at Thor; build g2 at Mneme; build g3 at Mneme; build g3 at Thor
+sacrifice y2 at Remneb; move g1 from Rob to Beta; move g1 from Beta to Mneme; catastrophe green at Mneme
+move g3 from Thor to Dove
+build y2 at Rem
+sacrifice r2 at Alpha; capture r1 at Dove
+move y2 from Rem to Remneb
+convert y2 to g2 at Mneme
+build g1 at Remneb
+sacrifice g2 at Mneme; build y2 at Mneme; build y3 at Beta

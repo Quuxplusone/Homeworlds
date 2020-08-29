@@ -1,0 +1,35 @@
+Sordros (0, y1b2) g3-
+Scottobear (1, r3b2) -g3
+build g1 at Sordros
+build g1 at Scottobear
+convert g1 to y1 at Sordros
+convert g1 to y1 at Scottobear
+build y2 at Sordros
+build y2 at Scottobear
+convert y1 to b1 at Sordros
+build g1 at Scottobear
+build b1 at Sordros
+move g1 from Scottobear to Chimp (b1)
+move b1 from Sordros to Amarego (y3)
+build g1 at Chimp
+sacrifice g3 at Sordros; build b2 at Amarego; build b3 at Amarego; build b3 at Sordros
+move y1 from Scottobear to Chimp
+move b3 from Amarego to Rugxeto (r1)
+build g1 at Scottobear
+sacrifice b2 at Amarego; convert b3 to g3 at Rugxeto; convert b3 to g3 at Sordros
+convert g1 to r1 at Scottobear
+sacrifice g3 at Sordros; build b2 at Amarego; build b3 at Amarego; build b3 at Sordros
+build r1 at Scottobear
+move b3 from Amarego to Rugxeto
+move r1 from Scottobear to Chimp
+build b3 at Rugxeto
+build r2 at Chimp
+convert b2 to r2 at Amarego
+convert r2 to b2 at Chimp
+sacrifice y2 at Sordros; move b3 from Rugxeto to Scottobear; move g3 from Rugxeto to Scottobear
+capture g3 at Scottobear
+sacrifice r2 at Amarego; capture g3 at Scottobear; capture g3 at Scottobear
+build r2 at Chimp
+convert b3 to r3 at Sordros
+build b3 at Chimp
+sacrifice r3 at Sordros; capture y2 at Scottobear; capture r1 at Scottobear

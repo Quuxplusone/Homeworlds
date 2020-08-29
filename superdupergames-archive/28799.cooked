@@ -1,0 +1,59 @@
+Ts52 (0, y3b1) g3-
+Felix (1, g3y2) -b3
+build g1 at Ts52
+build b1 at Felix
+convert g1 to b1 at Ts52
+build b2 at Felix
+build b2 at Ts52
+move b2 from Felix to Pickle (g1)
+move b2 from Ts52 to Robin (g2)
+build b2 at Pickle
+build b3 at Robin
+build b3 at Pickle
+convert b3 to y3 at Robin
+convert b2 to y2 at Pickle
+build g1 at Ts52
+convert b3 to r3 at Felix
+convert b1 to r1 at Ts52
+convert b3 to g3 at Pickle
+move g1 from Ts52 to Gonzo (b2)
+build r1 at Felix
+build y1 at Robin
+build y1 at Pickle
+build g1 at Ts52
+build b1 at Felix
+build b3 at Robin
+build b3 at Pickle
+move b3 from Robin to Bigbird (y1)
+move b1 from Felix to Bigbird
+convert b3 to r3 at Bigbird
+build b3 at Felix
+build b3 at Robin
+sacrifice y2 at Pickle; move b1 from Bigbird to Robin; move b2 from Pickle to Robin; catastrophe blue at Robin
+sacrifice g3 at Ts52; build g2 at Gonzo; build g2 at Gonzo; build g3 at Ts52
+move g3 from Pickle to Ice (b2)
+convert g2 to y2 at Gonzo
+build g2 at Ice
+move y3 from Robin to Elmo (r1)
+convert b3 to y3 at Felix
+convert g3 to r3 at Ts52
+sacrifice g3 at Ice; build b1 at Felix; build y2 at Pickle; build g3 at Ice
+build g3 at Gonzo
+sacrifice g3 at Ice; build g3 at Ice; build b2 at Felix; build b3 at Pickle
+convert g3 to b3 at Gonzo
+move b3 from Pickle to Robin
+build g3 at Gonzo
+sacrifice r1 at Felix; capture y1 at Robin
+move b3 from Gonzo to Bigbird
+move y1 from Pickle to Robin
+sacrifice g3 at Gonzo; build g3 at Gonzo; build r1 at Bigbird; build r2 at Bigbird
+move y1 from Robin to Ts52
+capture y1 at Ts52
+sacrifice y3 at Felix; move y2 from Pickle to Robin; move y2 from Robin to Ts52; move y1 from Robin to Ts52; catastrophe yellow at Ts52
+sacrifice y3 at Elmo; move r1 from Bigbird to Felix; move r2 from Bigbird to Felix; move r3 from Bigbird to Felix; catastrophe red at Felix
+convert b1 to r1 at Felix
+sacrifice y2 at Gonzo; move g3 from Gonzo to Bigbird; move g3 from Bigbird to Felix
+sacrifice g3 at Ice; build g3 at Ice; build r1 at Felix; build r2 at Felix
+sacrifice r3 at Ts52; capture r1 at Felix; capture r1 at Felix; capture r2 at Felix
+convert b2 to r2 at Felix; catastrophe red at Felix
+sacrifice r1 at Ts52; capture b1 at Felix

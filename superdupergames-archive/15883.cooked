@@ -1,0 +1,19 @@
+Twoshort (0, r1b3) g3-
+Llasram (1, r1b2) -g3
+build g1 at Twoshort
+build g1 at Llasram
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Llasram
+build g1 at Twoshort
+build g1 at Llasram
+move g1 from Twoshort to Bluonia (b2)
+move g1 from Llasram to Starb3A (b3)
+build g1 at Twoshort
+build g2 at Llasram
+build y1 at Twoshort
+build y2 at Llasram
+build y2 at Twoshort
+convert y1 to b1 at Llasram
+build g2 at Bluonia
+sacrifice g3 at Llasram; build g2 at Llasram; build g3 at Starb3A; build g3 at Llasram
+sacrifice y2 at Twoshort; move g1 from Bluonia to Starb3A; move g1 from Starb3A to Llasram; catastrophe green at Llasram

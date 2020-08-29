@@ -1,0 +1,37 @@
+Bigby (0, g1b2) y3-
+Ldd23 (1, b3y2) -g3
+build y1 at Bigby
+build g1 at Ldd23
+convert y1 to g1 at Bigby
+move g1 from Ldd23 to Balas (b1)
+build g2 at Bigby
+build g2 at Ldd23
+move g2 from Bigby to Webster (y3)
+convert g2 to r2 at Ldd23
+build g2 at Webster
+build g2 at Balas
+build g3 at Bigby
+build g3 at Ldd23
+convert g1 to b1 at Bigby
+convert g3 to r3 at Ldd23
+move b1 from Bigby to Webster
+convert g1 to y1 at Balas
+convert g2 to r2 at Webster
+move r3 from Ldd23 to Balas
+build g1 at Webster
+build r1 at Balas
+move g2 from Webster to Roget (y1)
+move r3 from Balas to Webster
+sacrifice g2 at Roget; build r1 at Webster; build r1 at Webster; catastrophe red at Webster
+build y1 at Balas
+build b1 at Webster
+build r1 at Ldd23
+convert b1 to r1 at Webster
+convert r2 to b2 at Ldd23
+build b1 at Webster
+move b2 from Ldd23 to Balas
+sacrifice y3 at Bigby; move b1 from Webster to Balas; move b1 from Webster to Balas; catastrophe blue at Balas
+convert r1 to b1 at Ldd23
+build g1 at Bigby
+build g2 at Ldd23
+convert g3 to y3 at Bigby

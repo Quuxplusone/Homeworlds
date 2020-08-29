@@ -1,0 +1,12 @@
+Goblin981 (0, b2y3) g3-
+Sirruthvenmurgatroyd (1, y1b2) -g3
+build g1 at Goblin981
+build g1 at Sirruthvenmurgatroyd
+move g1 from Goblin981 to Yw (y1)
+move g1 from Sirruthvenmurgatroyd to Sol (y3)
+pass
+build g1 at Sirruthvenmurgatroyd
+build g2 at Goblin981
+sacrifice g3 at Sirruthvenmurgatroyd; build g2 at Sol; build g2 at Sirruthvenmurgatroyd; build g3 at Sirruthvenmurgatroyd
+build g3 at Yw
+convert g2 to y2 at Sirruthvenmurgatroyd

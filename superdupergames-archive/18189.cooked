@@ -1,0 +1,7 @@
+Goblin981 (0, g1y2) b3-
+Dethdukk (1, g1b3) -g3
+build b1 at Goblin981
+build g1 at Dethdukk
+build b1 at Goblin981
+convert g3 to y3 at Dethdukk
+convert b1 to y1 at Goblin981

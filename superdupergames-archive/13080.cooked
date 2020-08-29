@@ -1,0 +1,83 @@
+Madwuher (0, y1b3) g3-
+Efwin (1, g3b2) -y3
+build g1 at Madwuher
+build y1 at Efwin
+build g1 at Madwuher
+build y1 at Efwin
+move g1 from Madwuher to Edora (b2)
+convert y1 to b1 at Efwin
+convert g1 to y1 at Edora
+build y2 at Efwin
+move g1 from Madwuher to Edora
+move b1 from Efwin to Enoneergtod (g1)
+build y2 at Edora
+move y1 from Efwin to Enoneergtod
+build g1 at Madwuher
+build y2 at Enoneergtod
+move y1 from Edora to Bologna (b1)
+convert y2 to g2 at Enoneergtod
+build g2 at Edora
+build y2 at Enoneergtod
+sacrifice g2 at Edora; build y3 at Edora; build y3 at Bologna
+convert y2 to g2 at Efwin
+convert g1 to r1 at Madwuher
+move g2 from Enoneergtod to Owtwolleytod (y2)
+build g1 at Madwuher
+build g2 at Owtwolleytod
+build g3 at Edora
+convert y1 to r1 at Enoneergtod
+convert g3 to r3 at Edora
+move b1 from Enoneergtod to Owtwolleytod
+build g3 at Edora
+convert g2 to r2 at Owtwolleytod
+move g3 from Edora to Camelot (y1)
+build g2 at Owtwolleytod
+move g1 from Madwuher to Edora
+build r1 at Enoneergtod
+build r2 at Madwuher
+build r2 at Owtwolleytod
+move r2 from Madwuher to Dualla (b2)
+move g2 from Owtwolleytod to Eerhtdertod (r3)
+sacrifice g1 at Edora; build r3 at Dualla
+sacrifice y2 at Enoneergtod; move r1 from Enoneergtod to Dualla; move r1 from Enoneergtod to Dualla; catastrophe red at Dualla
+build y2 at Edora
+move r2 from Owtwolleytod to Enoneergtod (g1)
+move y3 from Edora to Enoneergtod
+build r1 at Owtwolleytod
+sacrifice r1 at Madwuher; capture r2 at Enoneergtod
+build g1 at Owtwolleytod
+move r3 from Edora to Madwuher
+build b1 at Owtwolleytod
+move y3 from Bologna to Owtwolleytod
+move r2 from Owtwolleytod to Bologna
+sacrifice y1 at Bologna; move g1 from Edora to Darfur (y1)
+move b1 from Owtwolleytod to Bologna
+sacrifice r2 at Enoneergtod; capture r1 at Owtwolleytod; capture g2 at Owtwolleytod
+sacrifice g2 at Eerhtdertod; build b2 at Owtwolleytod; build b3 at Bologna
+build g2 at Camelot
+convert b3 to r3 at Bologna
+capture b2 at Owtwolleytod
+move g1 from Owtwolleytod to Bologna
+capture b1 at Owtwolleytod
+convert g2 to r2 at Efwin
+build g2 at Owtwolleytod
+build r1 at Efwin
+move b1 from Owtwolleytod to Camelot
+move r2 from Efwin to Darfur
+sacrifice g3 at Madwuher; build g3 at Darfur; build b3 at Camelot; build b3 at Owtwolleytod
+capture g1 at Darfur
+sacrifice r1 at Owtwolleytod; capture r2 at Darfur
+move g1 from Darfur to Eerhtdertodii (r3)
+move g2 from Owtwolleytod to Madwuher
+build r1 at Efwin
+sacrifice g3 at Camelot; build g3 at Camelot; build r1 at Darfur; build r2 at Madwuher
+move r1 from Efwin to Camelot
+sacrifice r1 at Darfur; capture r1 at Camelot
+build r1 at Efwin
+move b2 from Owtwolleytod to Darfur
+move r1 from Efwin to Enoneergtod
+sacrifice y3 at Owtwolleytod; move b1 from Camelot to Efwin; move b3 from Camelot to Efwin; move b2 from Darfur to Efwin; catastrophe blue at Efwin
+sacrifice y3 at Efwin; move g1 from Eerhtdertodii to Camelot; move g1 from Bologna to Edora; move g1 from Edora to Camelot; catastrophe green at Camelot
+move g3 from Darfur to Efwin
+build r3 at Efwin
+sacrifice g2 at Madwuher; build g1 at Efwin; build g1 at Efwin; catastrophe green at Efwin

@@ -1,0 +1,8 @@
+Iddqd (0, b3y2) g3-
+Trydnt (1, b2y1) -g3
+build g1 at Iddqd
+build g1 at Trydnt
+convert g1 to y1 at Iddqd
+convert g1 to y1 at Trydnt
+build y2 at Iddqd
+build y2 at Trydnt

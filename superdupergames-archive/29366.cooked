@@ -1,0 +1,43 @@
+Felix (0, b3y2) g3-
+Pheonixian (1, b1g2) -y3
+build g1 at Felix
+build y1 at Pheonixian
+convert g1 to b1 at Felix
+convert y1 to g1 at Pheonixian
+build b1 at Felix
+build g1 at Pheonixian
+move b1 from Felix to Ramp (g1)
+move g1 from Pheonixian to Ice (b3)
+build b2 at Ramp
+build g2 at Ice
+convert b2 to y2 at Ramp
+convert g2 to b2 at Ice
+build b2 at Ramp
+build g2 at Pheonixian
+convert b2 to r2 at Ramp
+convert b2 to r2 at Ice
+build b2 at Ramp
+convert g2 to b2 at Pheonixian
+build g2 at Felix
+move b2 from Pheonixian to Kale (g3)
+move b2 from Ramp to Scale (g3)
+build g2 at Ice
+sacrifice g3 at Felix; build g3 at Felix; build b2 at Ramp; build b3 at Scale
+build y1 at Pheonixian
+sacrifice g3 at Felix; build g3 at Felix; build y1 at Ramp; build r1 at Ramp
+move y1 from Pheonixian to Warship (r3)
+convert b3 to y3 at Scale
+build b3 at Kale
+move r2 from Ramp to Scale
+convert g1 to r1 at Pheonixian
+move y2 from Ramp to Warship
+move y1 from Warship to Venus (g1)
+build y1 at Scale
+sacrifice g2 at Ice; build y2 at Pheonixian; build y3 at Venus
+sacrifice y3 at Scale; move y1 from Scale to Pheonixian; move y2 from Warship to Pheonixian; move b2 from Scale to Pheonixian; catastrophe yellow at Pheonixian
+sacrifice y3 at Venus; move r2 from Ice to Pheonixian; move b3 from Kale to Pheonixian; move g1 from Ice to Pheonixian
+sacrifice r2 at Scale; capture r1 at Pheonixian; capture r2 at Pheonixian
+convert b3 to r3 at Pheonixian
+build r1 at Pheonixian; catastrophe red at Pheonixian
+convert b2 to r2 at Kale
+sacrifice r1 at Ramp; capture g1 at Pheonixian

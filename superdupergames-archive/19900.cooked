@@ -1,0 +1,52 @@
+Ajo (0, r1b3) g3-
+Danner (1, g2b1) -r3
+build g1 at Ajo
+build r1 at Danner
+build g1 at Ajo
+build r1 at Danner
+convert g3 to y3 at Ajo
+convert r3 to g3 at Danner
+build g1 at Ajo
+build r2 at Danner
+move g1 from Ajo to Alpha (b2)
+convert r2 to y2 at Danner
+build g2 at Alpha
+move r1 from Danner to Artemus (y3)
+convert g2 to r2 at Alpha
+build r2 at Danner
+build g2 at Alpha
+move r2 from Danner to Trickster (g3)
+convert g2 to y2 at Alpha
+sacrifice g3 at Danner; build r2 at Trickster; build r3 at Artemus; build r3 at Danner
+build r3 at Alpha
+sacrifice y2 at Danner; move r1 from Artemus to Alpha; move r2 from Trickster to Alpha; catastrophe red at Alpha
+build g2 at Alpha
+move r3 from Artemus to Alpha
+sacrifice y2 at Alpha; move g1 from Alpha to Beta (b3); move g2 from Alpha to Beta
+convert r3 to y3 at Alpha
+convert g1 to b1 at Beta
+build r1 at Trickster
+build g1 at Ajo
+build r2 at Danner
+move g1 from Ajo to Gamma (b2)
+sacrifice y3 at Alpha; move r2 from Trickster to Gamma; move r2 from Danner to Beta; move r1 from Danner to Garrett (g3)
+sacrifice g1 at Gamma; build b1 at Beta
+capture g2 at Beta
+build y1 at Ajo
+sacrifice r2 at Gamma; capture b1 at Beta; capture b1 at Beta
+build y1 at Ajo
+build r2 at Beta
+move y1 from Ajo to Yech (b2)
+build r2 at Garrett
+sacrifice g1 at Ajo; build y1 at Yech
+build r3 at Beta
+build y2 at Ajo
+convert r3 to y3 at Beta
+convert y3 to g3 at Ajo
+build r3 at Danner
+build y2 at Ajo
+convert r3 to y3 at Danner
+convert y2 to b2 at Ajo
+move b1 from Beta to Yech
+build y2 at Ajo
+sacrifice y3 at Beta; move b1 from Beta to Yech; move b1 from Yech to Ajo; move b1 from Yech to Ajo; catastrophe blue at Ajo

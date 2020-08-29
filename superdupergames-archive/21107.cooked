@@ -1,0 +1,38 @@
+Subhan64 (0, b1y2) g3-
+Agentofchaos (1, r1b2) -g3
+build g1 at Subhan64
+build g1 at Agentofchaos
+move g1 from Subhan64 to Kermit (g3)
+convert g1 to y1 at Agentofchaos
+build g1 at Subhan64
+build y1 at Agentofchaos
+move g1 from Subhan64 to Bigbird (y3)
+convert y1 to r1 at Agentofchaos
+build g1 at Subhan64
+build g2 at Agentofchaos
+sacrifice g3 at Subhan64; build g2 at Subhan64; build g2 at Bigbird; build g3 at Subhan64
+move g2 from Agentofchaos to Bigbird
+move g2 from Subhan64 to Banana (y3)
+move r1 from Agentofchaos to Kermit
+convert g1 to r1 at Subhan64
+sacrifice r1 at Kermit; capture g2 at Bigbird
+build g1 at Bigbird; catastrophe green at Bigbird
+build g1 at Agentofchaos
+build g1 at Subhan64
+convert g1 to r1 at Agentofchaos
+sacrifice g2 at Banana; build r2 at Subhan64; build r2 at Subhan64
+build r2 at Agentofchaos
+move r2 from Subhan64 to Kermit
+move r2 from Agentofchaos to Dreamward (y3)
+build r3 at Kermit
+build g1 at Agentofchaos
+convert g3 to y3 at Subhan64
+convert r1 to b1 at Agentofchaos
+move y3 from Subhan64 to Kermit
+sacrifice g1 at Agentofchaos; build r1 at Dreamward
+move r1 from Subhan64 to Kermit
+build g1 at Agentofchaos
+sacrifice y3 at Kermit; move r3 from Kermit to Agentofchaos; move r2 from Kermit to Agentofchaos; move r1 from Kermit to Agentofchaos; catastrophe red at Agentofchaos
+build g2 at Agentofchaos
+build g2 at Subhan64
+convert g3 to r3 at Agentofchaos

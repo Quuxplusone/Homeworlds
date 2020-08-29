@@ -1,0 +1,41 @@
+Zoltar (0, r1b3) g3-
+Dayleh (1, b1g2) -y3
+build g1 at Zoltar
+build y1 at Dayleh
+convert g1 to y1 at Zoltar
+convert y1 to r1 at Dayleh
+build g1 at Zoltar
+build y1 at Dayleh
+build y1 at Zoltar
+build y2 at Dayleh
+build y2 at Zoltar
+move y2 from Dayleh to Tammy (g3)
+move y1 from Zoltar to Greenbelt (g2)
+convert y1 to g1 at Dayleh
+convert y2 to r2 at Zoltar
+build y1 at Dayleh
+build y2 at Zoltar
+convert y3 to g3 at Dayleh
+move y2 from Zoltar to Blueridge (b2)
+sacrifice y1 at Dayleh; move g1 from Dayleh to Callie (y3)
+build y1 at Greenbelt
+build g1 at Callie
+sacrifice g3 at Zoltar; build y2 at Greenbelt; build y3 at Blueridge; build y3 at Zoltar
+move y2 from Tammy to Greenbelt; catastrophe yellow at Greenbelt
+build g2 at Zoltar
+move g1 from Callie to Erin (b1)
+convert y3 to g3 at Blueridge
+build r1 at Dayleh
+build r2 at Zoltar
+convert g1 to y1 at Erin
+move y1 from Zoltar to Bluemoon (b2)
+move y1 from Erin to Kadon (g3)
+move r2 from Zoltar to Bluemoon
+convert r1 to y1 at Dayleh
+move r2 from Bluemoon to Callie
+move g1 from Callie to Tammy (y2)
+sacrifice g2 at Zoltar; build y2 at Blueridge; build y3 at Bluemoon
+build g1 at Tammy
+move r2 from Zoltar to Tammy
+build g2 at Tammy
+capture g2 at Tammy

@@ -1,0 +1,19 @@
+Zoltar (0, r1b3) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Zoltar
+build g1 at Ts52
+convert g1 to y1 at Zoltar
+build g1 at Ts52
+build y1 at Zoltar
+convert g1 to y1 at Ts52
+build y2 at Zoltar
+move g1 from Ts52 to Sol (y3)
+move y1 from Zoltar to Greenarrow (g2)
+move y1 from Ts52 to Kermit (g3)
+move y2 from Zoltar to Greenlantern (g2)
+build g1 at Ts52
+sacrifice g3 at Zoltar; build y2 at Greenlantern; build y3 at Greenarrow; build y3 at Zoltar
+sacrifice g3 at Ts52; build g1 at Sol; build g2 at Ts52; build g3 at Ts52
+convert y3 to g3 at Zoltar
+build y3 at Kermit
+sacrifice y3 at Greenarrow; move g3 from Zoltar to Greenlantern; move g3 from Greenlantern to Sol; move g3 from Sol to Ts52; catastrophe green at Ts52

@@ -1,0 +1,17 @@
+Jeep (0, r1b2) g3-
+Fnord (1, y3b1) -g3
+build g1 at Jeep
+build g1 at Fnord
+convert g1 to y1 at Jeep
+move g1 from Fnord to Discordia (b2)
+build y1 at Jeep
+build g1 at Fnord
+build y1 at Jeep
+build g1 at Fnord
+move y1 from Jeep to Thumb (g3)
+build g2 at Discordia
+build g2 at Jeep
+convert g2 to y2 at Discordia
+sacrifice g3 at Jeep; build y2 at Thumb; build y2 at Thumb; build y3 at Jeep
+move y2 from Discordia to Thumb; catastrophe yellow at Thumb
+sacrifice y3 at Jeep; move g2 from Jeep to Temp (y3); move g2 from Temp to Discordia; move g2 from Discordia to Fnord; catastrophe green at Fnord

@@ -1,0 +1,35 @@
+Draw5Playall (0, r1b3) g3-
+Ts52 (1, y2b3) -g3
+build g1 at Draw5Playall
+build g1 at Ts52
+convert g1 to y1 at Draw5Playall
+build g1 at Ts52
+build y1 at Draw5Playall
+move g1 from Ts52 to Gonzo (b1)
+convert y1 to b1 at Draw5Playall
+build g1 at Gonzo
+move b1 from Draw5Playall to G2 (g2)
+build g2 at Gonzo
+build g2 at Draw5Playall
+convert g2 to y2 at Gonzo
+build b1 at G2
+sacrifice g3 at Ts52; build g2 at Ts52; build g3 at Ts52; build g3 at Gonzo
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y1 at Draw5Playall; build b2 at G2
+convert g3 to r3 at Gonzo
+move g2 from Draw5Playall to B2 (b2)
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Gonzo; build r1 at Gonzo
+convert b2 to y2 at G2
+convert g3 to r3 at Ts52
+build g3 at Draw5Playall
+move r3 from Gonzo to B2
+sacrifice g2 at B2; build y1 at Draw5Playall; build y3 at G2
+sacrifice g3 at Gonzo; build g2 at Ts52; build g3 at Gonzo; build y3 at Gonzo
+sacrifice y2 at G2; move g3 from Draw5Playall to G2; move g3 from G2 to Gonzo; catastrophe green at Gonzo
+move g2 from Ts52 to Gonzo
+build b2 at G2
+move y2 from Gonzo to B2
+move y1 from Draw5Playall to B2_ (b2)
+sacrifice g2 at Ts52; build y2 at Gonzo; build y3 at B2
+move y1 from Draw5Playall to B2_
+sacrifice y2 at Gonzo; move r3 from B2 to Draw5Playall; move y3 from B2 to Draw5Playall
+move g3 from Draw5Playall to G2

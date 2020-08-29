@@ -1,0 +1,74 @@
+Foksieloy (0, y3b1) g3-
+Wil (1, y3b2) -g3
+build g1 at Foksieloy
+build g1 at Wil
+move g1 from Foksieloy to Tibbers (b2)
+convert g1 to b1 at Wil
+convert g1 to b1 at Tibbers
+build b2 at Wil
+build g1 at Foksieloy
+move b1 from Wil to Y1 (y1)
+move g1 from Foksieloy to Tibbers
+build b3 at Wil
+build g1 at Foksieloy
+convert b2 to r2 at Wil
+convert g1 to r1 at Foksieloy
+build b2 at Wil
+build g1 at Tibbers
+sacrifice g3 at Wil; build b3 at Y1; build b3 at Y1; build r1 at Wil
+convert g1 to y1 at Tibbers
+convert b3 to r3 at Y1
+move b1 from Tibbers to Annie (g1)
+convert b1 to g1 at Y1
+sacrifice y1 at Tibbers; move b1 from Annie to Wil; catastrophe blue at Wil
+move r3 from Y1 to Tibbers
+sacrifice g1 at Tibbers; build r1 at Foksieloy
+build b1 at Y1
+build r2 at Foksieloy
+build b1 at Y1
+convert r2 to y2 at Foksieloy
+move b3 from Y1 to Wil
+move r1 from Foksieloy to Fiora (g2)
+build b2 at Y1
+build r2 at Foksieloy
+convert r1 to g1 at Wil
+convert r2 to b2 at Foksieloy
+move b2 from Y1 to Y2 (y2)
+move b2 from Foksieloy to Fiora
+convert b1 to y1 at Y1
+build r1 at Fiora
+convert r3 to y3 at Tibbers
+build b1 at Fiora
+build b3 at Y1
+convert b1 to y1 at Fiora
+convert b3 to g3 at Y1
+build y2 at Fiora
+sacrifice g3 at Y1; build b1 at Wil; build b3 at Y2; build b3 at Y1
+move y2 from Fiora to Wil
+capture y2 at Wil
+move y2 from Foksieloy to Fiora
+build r2 at Wil
+move y2 from Fiora to Wil
+move y2 from Wil to G2 (g2)
+sacrifice y2 at Wil; move r1 from Fiora to Wil; move r1 from Fiora to Wil; catastrophe red at Wil
+build y2 at G2
+convert g3 to r3 at Foksieloy
+convert b3 to r3 at Wil
+build b3 at Fiora
+convert b3 to g3 at Y2
+convert b3 to r3 at Fiora
+sacrifice g3 at Y2; build b3 at Y2; build b3 at Wil; build r1 at Wil
+build r1 at Fiora
+build g1 at Y1
+move r1 from Fiora to Wil
+move r3 from Wil to Y2
+build r2 at Fiora
+sacrifice g1 at Y1; build r2 at Y2
+convert r1 to g1 at Foksieloy
+capture r1 at Wil
+build g2 at Foksieloy
+sacrifice y2 at G2; move r1 from Wil to Fiora; move r1 from Wil to Fiora; catastrophe red at Fiora
+build y2 at Fiora
+sacrifice y2 at G2; move y3 from Tibbers to Foksieloy; move b3 from Y2 to Foksieloy
+capture y3 at Foksieloy
+sacrifice r3 at Y2; capture y3 at Foksieloy; capture r3 at Foksieloy; capture g2 at Foksieloy

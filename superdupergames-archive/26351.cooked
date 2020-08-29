@@ -1,0 +1,57 @@
+Hellajoey (0, b1g2) r3-
+Jaredl (1, g3b1) -r3
+build r1 at Hellajoey
+build r1 at Jaredl
+convert r1 to y1 at Hellajoey
+convert r1 to y1 at Jaredl
+build r1 at Hellajoey
+build r1 at Jaredl
+convert r1 to g1 at Hellajoey
+convert r1 to b1 at Jaredl
+convert r3 to b3 at Hellajoey
+build b2 at Jaredl
+build b2 at Hellajoey
+move b2 from Jaredl to Green2 (g2)
+move b2 from Hellajoey to Bluton (b3)
+move b1 from Jaredl to Green2
+build b2 at Hellajoey
+convert b2 to y2 at Green2
+convert b3 to r3 at Hellajoey
+build r1 at Jaredl
+build g1 at Hellajoey
+move r1 from Jaredl to Green2
+move g1 from Hellajoey to Redrock (r3)
+move y2 from Green2 to Redrock
+build r1 at Hellajoey
+capture g1 at Redrock
+move r3 from Hellajoey to Redrock
+move y2 from Redrock to Green2
+capture g1 at Redrock
+move r3 from Jaredl to Green2
+convert b2 to y2 at Bluton
+move r3 from Green2 to Jaredl
+move y2 from Bluton to Grunonia (g1)
+move b1 from Green2 to Green3 (g3)
+build g2 at Hellajoey
+build r1 at Green2
+move g2 from Hellajoey to Blubox (b3)
+sacrifice y2 at Green2; move r1 from Green2 to Redrock; move r1 from Green2 to Redrock; catastrophe red at Redrock
+build g1 at Hellajoey
+convert r3 to g3 at Jaredl
+build g2 at Blubox
+build b2 at Green3
+convert g2 to b2 at Blubox
+convert b2 to y2 at Green3
+move g1 from Hellajoey to Green3
+move b1 from Green3 to Green22 (g2)
+move y2 from Grunonia to Green22
+build b2 at Green22
+move b2 from Hellajoey to Green3
+move y2 from Green3 to Red1 (r1)
+build b3 at Green3
+sacrifice y2 at Red1; move b1 from Green22 to Green3; move b2 from Green22 to Green3; catastrophe blue at Green3
+build g1 at Blubox
+build y1 at Jaredl
+build y2 at Green22
+convert y1 to r1 at Jaredl
+sacrifice y2 at Green22; move g2 from Blubox to Blubon (b2); move g1 from Blubox to Blubon

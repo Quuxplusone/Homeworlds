@@ -1,0 +1,55 @@
+Twoshort (0, r1b3) g3-
+Mathochist (1, r1b2) -g3
+build g1 at Twoshort
+build g1 at Mathochist
+convert g1 to y1 at Twoshort
+convert g1 to r1 at Mathochist
+build y1 at Twoshort
+build r2 at Mathochist
+build y1 at Twoshort
+convert r2 to y2 at Mathochist
+move y1 from Twoshort to Bluonia (b2)
+build y2 at Mathochist
+build y2 at Twoshort
+move y2 from Mathochist to Greonia (g3)
+sacrifice y1 at Twoshort; move y1 from Twoshort to Bluestar (b2)
+build g1 at Mathochist
+build g1 at Twoshort
+sacrifice g3 at Mathochist; build y1 at Greonia; build y3 at Mathochist; build r2 at Mathochist
+build y3 at Twoshort
+move g1 from Mathochist to Yellowstar (y3)
+move y1 from Bluonia to Greonia
+move y1 from Greonia to Bluestar
+sacrifice y3 at Twoshort; move y1 from Bluestar to Greonia; move y1 from Greonia to Mathochist; move y1 from Greonia to Mathochist; catastrophe yellow at Mathochist
+build g1 at Yellowstar
+move g3 from Twoshort to Blitz (b2)
+move g1 from Yellowstar to Mathochist
+build g2 at Twoshort
+build g2 at Mathochist
+sacrifice g2 at Twoshort; build g2 at Blitz; build y1 at Twoshort
+sacrifice y2 at Greonia; move g2 from Mathochist to Fritz (g3); move r1 from Mathochist to Glitz (g3)
+convert g2 to r2 at Blitz
+build g2 at Mathochist
+sacrifice y1 at Twoshort; move r2 from Blitz to Yellowstar
+move g1 from Yellowstar to Bluestar
+build y1 at Twoshort
+build g2 at Mathochist
+sacrifice g3 at Blitz; build g3 at Twoshort; build r2 at Yellowstar; build y1 at Twoshort
+move y1 from Bluestar to Twoshort; catastrophe yellow at Twoshort
+move r2 from Yellowstar to Bluestar
+sacrifice g1 at Bluestar; build r3 at Glitz
+sacrifice g3 at Twoshort; build g1 at Twoshort; build g3 at Twoshort; build r3 at Yellowstar
+convert g2 to y2 at Mathochist
+sacrifice g1 at Twoshort; build r3 at Bluestar
+sacrifice y2 at Mathochist; move r3 from Glitz to Mathochist; move r2 from Mathochist to Zit (y3)
+move r3 from Yellowstar to Mathochist
+capture r3 at Mathochist
+move r2 from Yellowstar to Mathochist; catastrophe red at Mathochist
+convert g2 to y2 at Mathochist
+convert r2 to y2 at Bluestar
+move r2 from Zit to Mathochist
+sacrifice y2 at Bluestar; move g3 from Twoshort to Mathochist; move r3 from Bluestar to Yonder (y1)
+sacrifice g2 at Fritz; build g1 at Mathochist; build g2 at Mathochist; catastrophe green at Mathochist
+move r3 from Yonder to Mathochist
+move r2 from Mathochist to Twoshort
+capture y2 at Mathochist

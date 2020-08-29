@@ -1,0 +1,56 @@
+Shmil1 (0, r1g2) b3-
+Trydnt (1, b3y2) -g3
+build b1 at Shmil1
+build g1 at Trydnt
+build b1 at Shmil1
+build g1 at Trydnt
+convert b1 to y1 at Shmil1
+convert g1 to r1 at Trydnt
+move b1 from Shmil1 to Greenbaker (g3)
+build r1 at Trydnt
+convert b1 to y1 at Greenbaker
+build r2 at Trydnt
+build y1 at Greenbaker
+convert r2 to y2 at Trydnt
+build b1 at Shmil1
+sacrifice y2 at Trydnt; move r1 from Trydnt to B1 (b1); move r1 from B1 to Greenbaker
+build y2 at Greenbaker
+build r2 at Greenbaker
+sacrifice y2 at Greenbaker; move y1 from Greenbaker to Zell (g1); move y1 from Greenbaker to Zell
+move r1 from Trydnt to Zell
+build y2 at Zell
+build r2 at Zell
+sacrifice y2 at Zell; move y1 from Zell to Trydnt; move y1 from Zell to Trydnt
+sacrifice r2 at Greenbaker; capture y1 at Trydnt; capture y1 at Trydnt
+build y2 at Shmil1
+move y1 from Trydnt to Zell
+move y1 from Shmil1 to Rudy (r3)
+convert g1 to b1 at Trydnt
+move b1 from Shmil1 to Zrzek (r3)
+build r2 at Greenbaker
+build y2 at Shmil1
+build y3 at Zell
+move y1 from Rudy to Pekar (g1)
+move y3 from Zell to Greenbaker
+build y3 at Pekar
+sacrifice y1 at Trydnt; move b1 from Trydnt to Zell
+move y2 from Shmil1 to Zrzek
+build r2 at Greenbaker
+sacrifice y2 at Zrzek; move y3 from Pekar to Trydnt; move y1 from Pekar to Trydnt
+sacrifice r2 at Greenbaker; capture y3 at Trydnt; capture y1 at Trydnt
+sacrifice y2 at Shmil1; move b1 from Zrzek to Zell; move b1 from Zell to Trydnt
+sacrifice r1 at Greenbaker; capture b1 at Trydnt
+build b1 at Shmil1
+move b1 from Zell to Greenbaker
+convert b1 to y1 at Shmil1
+build b1 at Greenbaker
+build y2 at Shmil1
+sacrifice g3 at Trydnt; build y2 at Greenbaker; build b2 at Greenbaker; build b2 at Trydnt
+move y1 from Shmil1 to Zlut (y3)
+move y1 from Trydnt to R1 (r1)
+build b2 at Shmil1
+sacrifice y2 at Greenbaker; move b1 from Greenbaker to Shmil1; move b1 from Greenbaker to Shmil1; catastrophe blue at Shmil1
+build y2 at Shmil1
+move y3 from Greenbaker to Shmil1
+move y1 from Zlut to Zelee (g1)
+build y3 at Shmil1; catastrophe yellow at Shmil1

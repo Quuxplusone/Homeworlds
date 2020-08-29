@@ -1,0 +1,41 @@
+Wil (0, b3y2) g3-
+Crothlisberger (1, b2y1) -g3
+build g1 at Wil
+build g1 at Crothlisberger
+convert g1 to y1 at Wil
+build g1 at Crothlisberger
+build y1 at Wil
+convert g3 to y3 at Crothlisberger
+move y1 from Wil to G1 (g1)
+build y2 at Crothlisberger
+build y2 at Wil
+sacrifice y3 at Crothlisberger; move y2 from Crothlisberger to Hoth (b3); move y2 from Hoth to G1; move y2 from G1 to Wil; catastrophe yellow at Wil
+build y1 at G1
+build g2 at Crothlisberger
+move y1 from G1 to Wil
+convert g1 to r1 at Crothlisberger
+build y2 at Wil
+convert g2 to y2 at Crothlisberger
+convert y1 to r1 at Wil
+build g1 at Crothlisberger
+build g2 at Wil
+build r1 at Crothlisberger
+build y1 at G1
+move g1 from Crothlisberger to Wil
+convert g2 to r2 at Wil
+build g2 at Wil
+sacrifice g3 at Wil; build y2 at Wil; build y3 at G1; build y3 at Wil
+move y2 from Crothlisberger to Wil; catastrophe yellow at Wil
+capture g2 at Wil
+build g2 at Wil
+capture g2 at Wil
+build g2 at Wil
+move y3 from G1 to Wil; catastrophe green at Wil
+build g1 at Crothlisberger
+move y3 from Wil to Crothlisberger
+build g2 at Crothlisberger
+sacrifice r2 at Wil; capture r1 at Crothlisberger; capture r1 at Crothlisberger
+move g2 from Crothlisberger to Wil
+capture g1 at Crothlisberger
+convert g2 to r2 at Wil
+capture g1 at Crothlisberger

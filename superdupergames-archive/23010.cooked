@@ -1,0 +1,71 @@
+Ts52 (0, y1b2) g3-
+Agentofchaos (1, b1r3) -g3
+build g1 at Ts52
+build g1 at Agentofchaos
+move g1 from Ts52 to Grover (b3)
+convert g1 to y1 at Agentofchaos
+build g1 at Ts52
+build y1 at Agentofchaos
+build g1 at Grover
+build g2 at Agentofchaos
+build g2 at Grover
+build y2 at Agentofchaos
+convert g2 to y2 at Grover
+move y2 from Agentofchaos to Hadepoch (b2)
+build g2 at Grover
+sacrifice g2 at Agentofchaos; build y2 at Agentofchaos; build y3 at Hadepoch
+build y3 at Grover
+convert y2 to r2 at Hadepoch
+convert g2 to r2 at Grover
+build g2 at Agentofchaos
+move g1 from Grover to Gonzo (b2)
+move g2 from Agentofchaos to Hadepoch
+move y2 from Grover to Gonzo
+move y1 from Agentofchaos to Hadepoch
+build g2 at Gonzo
+convert y1 to b1 at Hadepoch
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build g3 at Grover
+sacrifice y2 at Agentofchaos; move g2 from Hadepoch to Grover; move g2 from Grover to Gonzo; catastrophe green at Gonzo
+move g1 from Grover to Gonzo
+build g1 at Agentofchaos
+build g2 at Gonzo
+move g1 from Agentofchaos to Hadepoch
+convert g2 to r2 at Gonzo
+build g2 at Agentofchaos
+build g2 at Gonzo
+move g2 from Agentofchaos to Rockworm (y2)
+build r1 at Gonzo
+move g2 from Rockworm to Demondim (y3)
+convert g1 to r1 at Ts52
+build g1 at Demondim
+move r2 from Grover to Zoe (y2)
+move g1 from Hadepoch to Vitriol (r3)
+move r1 from Gonzo to Agentofchaos
+capture r1 at Agentofchaos
+sacrifice y2 at Gonzo; move r2 from Gonzo to Agentofchaos; move r2 from Zoe to Agentofchaos; catastrophe red at Agentofchaos
+build g2 at Vitriol
+build y1 at Grover
+sacrifice g2 at Demondim; build y2 at Hadepoch; build g2 at Demondim
+sacrifice y3 at Grover; move g1 from Gonzo to Demondim; move g2 from Gonzo to Demondim; catastrophe green at Demondim
+build g1 at Agentofchaos
+build g1 at Grover
+move g1 from Agentofchaos to Camtime (y3)
+build y2 at Grover
+build g2 at Camtime
+move y2 from Grover to Kermit (g2)
+sacrifice g2 at Vitriol; build r1 at Hadepoch; build g2 at Vitriol
+sacrifice g3 at Grover; build g3 at Grover; build y2 at Kermit; build y3 at Grover
+sacrifice y3 at Hadepoch; move g2 from Vitriol to Ts52; move g1 from Vitriol to Ts52; move g1 from Camtime to Ts52; catastrophe green at Ts52
+move g3 from Grover to Ts52
+sacrifice g2 at Camtime; build y3 at Hadepoch; build g1 at Agentofchaos
+build g1 at Grover
+build y3 at Agentofchaos
+sacrifice y3 at Grover; move y2 from Kermit to Agentofchaos; move g1 from Grover to Agentofchaos; move g1 from Grover to Agentofchaos; catastrophe green at Agentofchaos
+convert y3 to r3 at Agentofchaos
+build y3 at Kermit
+capture y2 at Agentofchaos
+move y3 from Kermit to Gonzo (b3)
+convert y2 to g2 at Agentofchaos
+convert y3 to g3 at Gonzo
+move y2 from Hadepoch to Grover
+build g1 at Gonzo

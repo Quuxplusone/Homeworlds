@@ -1,0 +1,74 @@
+Rootbier (0, b1y3) g3-
+Uglyfoot (1, y3b2) -g3
+build g1 at Rootbier
+build g1 at Uglyfoot
+convert g1 to r1 at Rootbier
+build g1 at Uglyfoot
+build r1 at Rootbier
+convert g1 to y1 at Uglyfoot
+move r1 from Rootbier to Ruination (b2)
+move y1 from Uglyfoot to Moat (r1)
+build r2 at Rootbier
+build g1 at Uglyfoot
+build r2 at Rootbier
+move g1 from Uglyfoot to Moat
+move r2 from Rootbier to Ruination
+build g1 at Moat
+convert r1 to y1 at Ruination
+build g2 at Moat
+convert r2 to g2 at Ruination
+move g2 from Moat to Hub (y2)
+move g2 from Ruination to Falter (y1)
+sacrifice g3 at Uglyfoot; build g2 at Moat; build g3 at Uglyfoot; build g3 at Hub
+convert r2 to y2 at Rootbier
+convert g1 to b1 at Uglyfoot
+sacrifice g3 at Rootbier; build y2 at Ruination; build y3 at Rootbier; build r1 at Rootbier
+move g1 from Moat to Uglyfoot
+move y3 from Rootbier to Hub
+move g3 from Hub to Rootbier
+move y3 from Hub to Rootbier
+move y1 from Moat to Hub
+convert y3 to g3 at Rootbier
+convert g3 to y3 at Rootbier
+convert y2 to b2 at Rootbier
+move y3 from Rootbier to Ruination
+sacrifice g2 at Falter; build r2 at Rootbier; build y1 at Ruination; catastrophe yellow at Ruination
+move b1 from Uglyfoot to Moat
+move r2 from Rootbier to Hub
+sacrifice g3 at Uglyfoot; build g1 at Hub; build g2 at Hub; build g3 at Uglyfoot
+capture g2 at Hub
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build y1 at Hub; build y1 at Hub; catastrophe yellow at Hub
+move b2 from Rootbier to Flax (g2)
+convert g2 to y2 at Moat
+move r1 from Rootbier to Bell (b2)
+build g1 at Moat
+build g2 at Rootbier
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Uglyfoot; build g3 at Moat
+convert b2 to y2 at Flax
+convert g2 to r2 at Uglyfoot
+sacrifice y2 at Flax; move g2 from Rootbier to Snap (g2); move g2 from Snap to Moat; catastrophe green at Moat
+move g1 from Uglyfoot to Moat
+sacrifice g3 at Rootbier; build r2 at Rootbier; build r2 at Bell; build r3 at Rootbier
+move r2 from Uglyfoot to Moat
+convert r3 to g3 at Rootbier
+build r3 at Moat
+convert r2 to y2 at Bell
+move r3 from Moat to Bell
+sacrifice y2 at Bell; move r1 from Bell to Offramp (y1); move r1 from Rootbier to Opine (b2)
+build g1 at Uglyfoot
+sacrifice g3 at Rootbier; build r2 at Offramp; build r3 at Opine; build r3 at Rootbier
+move r2 from Moat to Bell
+convert r2 to g2 at Rootbier
+move g1 from Moat to Bell
+convert r3 to g3 at Opine
+convert r3 to b3 at Bell
+convert r3 to y3 at Rootbier
+build r2 at Bell
+sacrifice y3 at Rootbier; move g3 from Opine to Moat; move r1 from Opine to Rootbier; move r2 from Offramp to Bell
+sacrifice y2 at Moat; move b3 from Bell to Rootbier; move r2 from Bell to Fort (y1)
+sacrifice g3 at Moat; build r3 at Rootbier; build r3 at Rootbier; build g1 at Rootbier
+sacrifice r2 at Bell; capture r3 at Rootbier; capture r3 at Rootbier
+build g2 at Rootbier
+sacrifice r3 at Rootbier; capture r1 at Rootbier; capture g2 at Rootbier; capture g2 at Rootbier
+build g2 at Rootbier
+build g3 at Bell; catastrophe green at Rootbier

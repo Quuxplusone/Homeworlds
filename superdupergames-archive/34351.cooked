@@ -1,0 +1,76 @@
+Ryzorrin (0, g1b2) r3-
+Trydnt (1, b3y2) -g3
+build r1 at Ryzorrin
+build g1 at Trydnt
+convert r1 to y1 at Ryzorrin
+build g1 at Trydnt
+build y1 at Ryzorrin
+move g1 from Trydnt to B1 (b1)
+build y1 at Ryzorrin
+build g2 at B1
+move y1 from Ryzorrin to Metropolis (g3)
+convert g2 to y2 at B1
+convert y1 to b1 at Ryzorrin
+build g2 at B1
+move b1 from Ryzorrin to Gotham (g3)
+sacrifice g3 at Trydnt; build g2 at Trydnt; build g2 at B1; build g3 at Trydnt
+build b1 at Gotham
+convert g2 to b2 at B1
+build y1 at Metropolis
+convert g2 to r2 at B1
+build y2 at Ryzorrin
+move b2 from B1 to Metropolis
+build y3 at Ryzorrin
+sacrifice r2 at B1; capture y1 at Metropolis; capture y1 at Metropolis
+convert y3 to b3 at Ryzorrin
+sacrifice g2 at Trydnt; build b2 at Metropolis; build y3 at B1
+move b3 from Ryzorrin to Metropolis
+build b3 at Metropolis; catastrophe blue at Metropolis
+move y2 from Ryzorrin to Gotham
+convert y2 to r2 at B1
+build y2 at Gotham
+build y3 at B1
+sacrifice y2 at Gotham; move b1 from Gotham to Keystone (r1); move b1 from Gotham to Keystone
+build g2 at Trydnt
+move y2 from Gotham to Keystone
+move y1 from Metropolis to R1 (r1)
+move b1 from Keystone to Trydnt
+sacrifice g2 at Trydnt; build y2 at R1; build y3 at Metropolis
+move y2 from Keystone to Trydnt
+sacrifice r2 at B1; capture y2 at Trydnt; capture b1 at Trydnt
+build r1 at Ryzorrin
+move y2 from Trydnt to Keystone
+build r2 at Ryzorrin
+build g2 at B1
+convert r2 to g2 at Ryzorrin
+capture b1 at Keystone
+move g2 from Ryzorrin to Metropolis
+convert g2 to r2 at B1
+convert r3 to g3 at Ryzorrin
+build r2 at B1
+build r2 at Ryzorrin
+sacrifice r2 at B1; capture g2 at Metropolis
+move r1 from Ryzorrin to Metropolis
+sacrifice g3 at Trydnt; build g2 at B1; build g2 at B1; build g3 at Trydnt
+capture y1 at Metropolis
+sacrifice r2 at B1; capture r1 at Metropolis; capture y1 at Metropolis
+build r2 at Ryzorrin
+convert g2 to r2 at B1
+move r2 from Ryzorrin to Blank (b3)
+sacrifice g2 at Metropolis; build r3 at B1; build r3 at Metropolis
+build r3 at Ryzorrin
+move y3 from B1 to Blank
+move r3 from Ryzorrin to Tacos (b3)
+move b1 from Keystone to Metropolis
+move r2 from Ryzorrin to Tacos
+sacrifice g2 at B1; build b2 at Metropolis; build b2 at Metropolis
+convert r2 to g2 at Tacos
+sacrifice r2 at B1; capture r2 at Blank
+build r2 at Tacos
+build g2 at B1
+sacrifice y1 at Ryzorrin; move r3 from Tacos to Keystone
+move y2 from Keystone to Blank
+build r2 at Tacos
+move g1 from B1 to Blank
+build g2 at Tacos
+sacrifice g2 at B1; build g2 at Blank; build y1 at B1

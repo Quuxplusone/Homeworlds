@@ -1,0 +1,82 @@
+Wil (0, y3b1) g3-
+Ts52 (1, b2y3) -g3
+build g1 at Wil
+build g1 at Ts52
+convert g1 to b1 at Wil
+convert g1 to b1 at Ts52
+build b2 at Wil
+move b1 from Ts52 to Kermit (g1)
+convert b1 to r1 at Wil
+build b1 at Kermit
+build r1 at Wil
+convert b1 to r1 at Kermit
+build r2 at Wil
+build r2 at Kermit
+move r2 from Wil to G2 (g2)
+build g1 at Ts52
+convert r1 to y1 at Wil
+convert r2 to y2 at Kermit
+build y1 at Wil
+build b1 at Kermit
+move b2 from Wil to G2
+move b1 from Kermit to Oscar (g2)
+move y1 from Wil to G2
+convert g1 to r1 at Ts52
+build r2 at G2
+build g1 at Ts52
+convert r2 to y2 at G2
+build r2 at Kermit
+move y2 from G2 to G1 (g1)
+move r2 from Kermit to Oscar
+build y1 at G2
+sacrifice g3 at Ts52; build r2 at Kermit; build r3 at Ts52; build r3 at Oscar
+build r3 at G2
+sacrifice y2 at Kermit; move r1 from Kermit to G2; move r2 from Kermit to G2; catastrophe red at G2
+sacrifice g3 at Wil; build y2 at G2; build y2 at G1; build y3 at Wil
+build g2 at Ts52
+move y2 from G2 to G3 (g3)
+build g3 at Ts52
+move y2 from G1 to B3 (b3)
+move g3 from Ts52 to Elmo (r1)
+move r1 from Wil to G2
+sacrifice g2 at Ts52; build g2 at Elmo; build g3 at Ts52
+build r2 at G2
+sacrifice g3 at Ts52; build b2 at Oscar; build b3 at Oscar; build b3 at Kermit
+sacrifice y2 at B3; move r1 from G2 to G1; move r1 from G1 to Ts52
+convert r3 to g3 at Ts52
+build r2 at G2
+convert b2 to y2 at Oscar
+move y1 from Wil to B2 (b2)
+capture r1 at Ts52
+move r2 from G2 to G1
+move r3 from Oscar to G3
+move y2 from G3 to B2
+sacrifice g3 at Ts52; build g3 at Ts52; build r3 at Oscar; build r3 at G3
+move y1 from G2 to B3 (b3)
+move r3 from Oscar to G1
+sacrifice y2 at G1; move r2 from G1 to Y3 (y2); move r2 from G2 to B3
+move y2 from Oscar to G3
+pass
+move r3 from G3 to G2
+sacrifice y1 at G2; move b2 from G2 to Y1 (y1)
+sacrifice g3 at Elmo; build g3 at Ts52
+pass
+move g3 from Ts52 to Y1
+sacrifice y2 at B2; move b2 from Y1 to Y2 (y2)
+sacrifice g3 at Y1; build g3 at Elmo; build y1 at G3
+pass
+move y1 from G3 to Kermit
+pass
+move y1 from Kermit to Oscar
+move r2 from B3 to Y3
+move b3 from Oscar to Wil
+sacrifice r2 at Y3; capture b3 at Wil
+build r2 at G3
+pass
+sacrifice y2 at G3; move b3 from Kermit to Oscar; move b3 from Oscar to Wil
+move b2 from Y2 to Wil; catastrophe blue at Wil
+build y2 at Oscar
+pass
+sacrifice y1 at Oscar; move g3 from Elmo to Wil
+sacrifice r2 at Y3; capture g3 at Wil
+sacrifice y2 at Oscar; move r3 from G1 to Wil; move r3 from G2 to Wil

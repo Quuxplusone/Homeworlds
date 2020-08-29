@@ -1,0 +1,39 @@
+Sketchwick (0, b1y2) g3-
+Jeep (1, y1b3) -g3
+build g1 at Sketchwick
+build g1 at Jeep
+move g1 from Sketchwick to J33P (b3)
+move g1 from Jeep to Sk37Chw1Ck (b2)
+convert g1 to y1 at J33P
+build g1 at Jeep
+build g1 at Sketchwick
+build g2 at Sk37Chw1Ck
+sacrifice g1 at Sketchwick; build y1 at J33P
+convert g2 to y2 at Sk37Chw1Ck
+build g1 at Sketchwick
+build y2 at Sk37Chw1Ck
+move y1 from J33P to Notleet (b2)
+sacrifice y2 at Sk37Chw1Ck; move y2 from Sk37Chw1Ck to Run (y3); move g1 from Sk37Chw1Ck to Savit (y3)
+sacrifice g3 at Sketchwick; build y2 at J33P; build y3 at Notleet; build g2 at Sketchwick
+build g2 at Savit
+convert g2 to r2 at Sketchwick
+convert g1 to r1 at Jeep
+move y3 from Notleet to Savit
+build r1 at Jeep
+convert y2 to r2 at J33P
+sacrifice y2 at Run; move g2 from Savit to Notleet; move g1 from Savit to Notleet
+move y3 from Savit to Notleet
+sacrifice g2 at Notleet; build g1 at Notleet; build g2 at Jeep
+sacrifice r2 at J33P; capture g1 at Notleet; capture g1 at Notleet
+move g2 from Jeep to Blue23 (b2)
+build y2 at Notleet
+convert g2 to y2 at Blue23
+sacrifice g1 at Notleet; build y3 at J33P
+move y2 from Blue23 to Goblin (y3)
+convert y2 to r2 at Notleet
+move r1 from Jeep to Jeepisdumb (b2)
+build g1 at Notleet
+sacrifice g3 at Jeep; build r1 at Jeepisdumb; build r2 at Jeepisdumb; build r3 at Jeep
+build r3 at Notleet
+convert r2 to g2 at Jeepisdumb
+sacrifice y3 at J33P; move r3 from Notleet to Jeep; move r2 from Notleet to Jeep; catastrophe red at Jeep

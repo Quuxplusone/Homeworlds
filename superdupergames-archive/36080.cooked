@@ -1,0 +1,48 @@
+Dodobirb (0, b1y2) g3-
+Bhorner (1, b2r1) -g3
+build g1 at Dodobirb
+build g1 at Bhorner
+convert g1 to b1 at Dodobirb
+convert g1 to b1 at Bhorner
+build b2 at Dodobirb
+build b2 at Bhorner
+move b2 from Dodobirb to Greeny (g3)
+convert b1 to y1 at Bhorner
+build g1 at Dodobirb
+build y1 at Bhorner
+convert g1 to y1 at Dodobirb
+build y2 at Bhorner
+convert b2 to y2 at Greeny
+move y1 from Bhorner to Greeny
+convert y1 to r1 at Dodobirb
+build y1 at Greeny
+build r1 at Dodobirb
+move y1 from Greeny to Bush (g2)
+move r1 from Dodobirb to Greeny
+sacrifice g3 at Bhorner; build y3 at Greeny; build y3 at Bhorner; build y3 at Bush
+move r1 from Greeny to Dodobirb
+convert y2 to r2 at Bhorner
+build y2 at Greeny; catastrophe yellow at Greeny
+convert y3 to g3 at Bhorner
+build r2 at Dodobirb
+build g1 at Bhorner
+convert r1 to y1 at Dodobirb
+move y1 from Bush to Lava (r3)
+move y1 from Dodobirb to Bigbush (g3)
+move g1 from Bhorner to Lava2 (r3)
+build y2 at Bigbush
+sacrifice g3 at Bhorner; build y2 at Bush; build y3 at Lava; build y3 at Bhorner
+build g1 at Dodobirb
+convert y3 to g3 at Bhorner
+move y1 from Bigbush to Medgren (g2)
+build y3 at Bhorner
+move b1 from Dodobirb to Bigbush
+sacrifice b2 at Bhorner; convert y1 to r1 at Lava; convert y2 to r2 at Bush
+move r2 from Dodobirb to Bigbush
+build r3 at Bush
+build b1 at Bigbush
+sacrifice y3 at Bush; move g3 from Bhorner to Lava2; move g1 from Lava2 to Dodobirb; move g3 from Lava2 to Dodobirb; catastrophe green at Dodobirb
+build r3 at Bigbush
+move y3 from Lava to Dodobirb
+pass
+sacrifice r1 at Lava; capture r1 at Dodobirb

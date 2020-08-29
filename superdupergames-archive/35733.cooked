@@ -1,0 +1,37 @@
+Simon (0, g3r1) b3-
+Eliscinsky (1, r1b2) -g3
+build b1 at Simon
+build g1 at Eliscinsky
+convert b1 to r1 at Simon
+convert g1 to y1 at Eliscinsky
+build r2 at Simon
+build y1 at Eliscinsky
+convert r2 to y2 at Simon
+move y1 from Eliscinsky to Orion (g3)
+build r2 at Simon
+build y1 at Orion
+build y2 at Simon
+build y2 at Eliscinsky
+move y2 from Simon to G2 (g2)
+convert y2 to r2 at Eliscinsky
+move r2 from Simon to G2
+move r2 from Eliscinsky to Orion
+build y2 at Simon
+build y3 at Eliscinsky
+build y3 at G2
+convert y3 to r3 at Eliscinsky
+move y3 from G2 to B3 (b3)
+build y3 at Eliscinsky
+build y3 at G2
+sacrifice y3 at Eliscinsky; move y1 from Orion to G2; move y1 from G2 to Simon; move y1 from Orion to G2
+move y3 from G2 to Orion
+move y1 from G2 to Simon; catastrophe yellow at Simon
+sacrifice r1 at Simon; capture r2 at Orion
+move r3 from Eliscinsky to B3
+sacrifice r2 at G2; capture r3 at B3
+build g1 at Eliscinsky
+sacrifice y2 at G2; move y3 from B3 to Eliscinsky; move r3 from B3 to Eliscinsky
+capture r3 at Eliscinsky
+sacrifice r2 at Orion; capture r3 at Eliscinsky; capture g3 at Eliscinsky
+move g1 from Eliscinsky to Redgiant (r3)
+capture y1 at Eliscinsky

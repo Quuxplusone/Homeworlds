@@ -1,0 +1,60 @@
+Benedict (0, g3b2) y3-
+Cdrodeffer (1, y1b2) -g3
+build y1 at Benedict
+build g1 at Cdrodeffer
+move y1 from Benedict to Pons (g1)
+convert g1 to r1 at Cdrodeffer
+build y1 at Benedict
+build g1 at Cdrodeffer
+convert y1 to r1 at Benedict
+convert g1 to b1 at Cdrodeffer
+build r1 at Benedict
+build g1 at Cdrodeffer
+move r1 from Benedict to Pons
+build r2 at Cdrodeffer
+build r2 at Pons
+convert r2 to y2 at Cdrodeffer
+build r2 at Benedict
+build b1 at Cdrodeffer
+convert r1 to b1 at Benedict
+move b1 from Cdrodeffer to Eden (g3)
+move r2 from Pons to Eden
+build b2 at Eden
+capture b2 at Eden
+build b3 at Eden
+build b3 at Eden; catastrophe blue at Eden
+move g1 from Cdrodeffer to Ohio_State (r3)
+move b1 from Benedict to Pons
+build g1 at Cdrodeffer
+move r1 from Pons to Ohio_State
+build g2 at Ohio_State
+move y1 from Pons to Eden
+capture r1 at Ohio_State
+move r2 from Eden to Pons
+sacrifice g3 at Cdrodeffer; build g2 at Cdrodeffer; build g2 at Ohio_State; build g3 at Cdrodeffer
+move y1 from Eden to Pons
+sacrifice y2 at Cdrodeffer; move b1 from Cdrodeffer to Jealousy (g3); move g2 from Cdrodeffer to Jealousy
+build r1 at Pons
+sacrifice g3 at Cdrodeffer; build g3 at Cdrodeffer; build b1 at Jealousy; build r2 at Cdrodeffer
+move r2 from Pons to Jealousy
+sacrifice r1 at Cdrodeffer; capture r2 at Jealousy
+build b2 at Pons
+sacrifice g3 at Cdrodeffer; build g3 at Cdrodeffer; build r1 at Cdrodeffer; build r3 at Jealousy
+build r3 at Pons
+convert g2 to y2 at Jealousy
+convert b2 to g2 at Pons
+sacrifice y2 at Jealousy; move g1 from Ohio_State to Pons; move g2 from Ohio_State to Pons; catastrophe green at Pons
+build r1 at Benedict
+sacrifice b1 at Jealousy; convert r1 to y1 at Ohio_State
+convert r2 to g2 at Benedict
+build g1 at Ohio_State
+build g1 at Benedict
+sacrifice g3 at Cdrodeffer; build g2 at Ohio_State; build g3 at Cdrodeffer; build y1 at Ohio_State
+build y2 at Benedict
+move g1 from Ohio_State to Caution (y2)
+sacrifice y2 at Benedict; move g1 from Benedict to Orion (r1); move g2 from Benedict to Orion
+sacrifice g3 at Cdrodeffer; build g3 at Cdrodeffer; build y2 at Ohio_State; build b1 at Jealousy
+sacrifice y3 at Benedict; move g1 from Orion to Ohio_State; move g2 from Orion to Ohio_State; catastrophe green at Ohio_State
+sacrifice y2 at Ohio_State; move r3 from Jealousy to Brief_Stopover (g1); move r3 from Brief_Stopover to Benedict
+build r1 at Benedict
+sacrifice r2 at Jealousy; capture r1 at Benedict; capture r1 at Benedict

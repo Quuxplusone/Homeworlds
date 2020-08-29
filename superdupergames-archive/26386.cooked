@@ -1,0 +1,23 @@
+Dsabremaster (0, g3b2) y3-
+Fogus (1, b1y2) -g3
+build y1 at Dsabremaster
+build g1 at Fogus
+move y1 from Dsabremaster to Venture (b1)
+build g1 at Fogus
+convert y1 to g1 at Venture
+convert g1 to r1 at Fogus
+build y1 at Dsabremaster
+move r1 from Fogus to Plug (y3)
+build y1 at Dsabremaster
+move r1 from Plug to Venture
+sacrifice y1 at Dsabremaster; move g1 from Venture to Azure (b3)
+convert g1 to y1 at Fogus
+build y1 at Dsabremaster
+move y1 from Fogus to Azure
+build g1 at Azure
+move y1 from Azure to Venture
+convert y1 to r1 at Dsabremaster
+move r1 from Venture to Flipper (y3)
+move y1 from Dsabremaster to Hermes (y1)
+move r1 from Flipper to Fogus
+build y2 at Dsabremaster

@@ -1,0 +1,45 @@
+Twoshort (0, y1b2) g3-
+Dsheldon (1, b3r2) -g3
+build g1 at Twoshort
+build g1 at Dsheldon
+move g1 from Twoshort to Yoyo (y3)
+convert g1 to y1 at Dsheldon
+build g1 at Twoshort
+build g1 at Dsheldon
+build g2 at Twoshort
+move g1 from Dsheldon to Buttercup (y1)
+move g2 from Twoshort to Bluestar (b3)
+build g2 at Dsheldon
+sacrifice g3 at Twoshort; build g2 at Yoyo; build g3 at Bluestar; build g3 at Twoshort
+build y2 at Dsheldon
+convert g2 to y2 at Bluestar
+build g2 at Buttercup
+convert g1 to r1 at Twoshort
+move y2 from Dsheldon to Capillary (b1)
+move g1 from Yoyo to Buttercup
+convert g2 to b2 at Dsheldon
+sacrifice g3 at Bluestar; build g1 at Buttercup; build g2 at Yoyo; build g3 at Twoshort; catastrophe green at Buttercup
+build g1 at Dsheldon
+move g2 from Yoyo to Capillary
+convert y2 to r2 at Capillary
+sacrifice r1 at Twoshort; capture r2 at Capillary
+move g1 from Dsheldon to Vinyard (g1)
+sacrifice g3 at Twoshort; build g1 at Yoyo; build g2 at Capillary; build g3 at Twoshort
+build y1 at Dsheldon
+sacrifice g3 at Twoshort; build y2 at Bluestar; build r1 at Capillary; build g3 at Twoshort
+move y1 from Dsheldon to Vinyard
+move y2 from Bluestar to Vinyard
+sacrifice g3 at Dsheldon; build y2 at Vinyard; build y3 at Dsheldon; build g3 at Vinyard
+sacrifice y2 at Vinyard; move g1 from Yoyo to Vinyard; move y2 from Bluestar to Capillary; catastrophe green at Vinyard
+convert y3 to g3 at Dsheldon
+build r1 at Capillary
+move b2 from Dsheldon to Escape (g1)
+sacrifice y2 at Capillary; move r1 from Capillary to Dsheldon; move r1 from Capillary to Dsheldon
+build b1 at Escape
+sacrifice g2 at Yoyo; build r1 at Dsheldon; build r2 at Capillary; catastrophe red at Dsheldon
+convert b2 to y2 at Escape
+move g3 from Twoshort to Dsheldon
+move y2 from Escape to Dsheldon
+sacrifice r2 at Capillary; capture g3 at Dsheldon; capture y2 at Dsheldon
+build b1 at Escape
+sacrifice r2 at Capillary; capture y1 at Dsheldon

@@ -1,0 +1,42 @@
+Dlwillson (0, b3y1) g3-
+Mneme (1, b1r2) -g3
+build g1 at Dlwillson
+build g1 at Mneme
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Mneme
+build y2 at Dlwillson
+build y2 at Mneme
+convert y1 to b1 at Dlwillson
+convert y2 to b2 at Mneme
+build g1 at Dlwillson
+build y1 at Mneme
+build y2 at Dlwillson
+move y1 from Mneme to Hunter (b3)
+move y2 from Dlwillson to Bears (g2)
+move b2 from Mneme to Waystation (y3)
+move y2 from Dlwillson to Tigers (b2)
+build g1 at Mneme
+move g1 from Dlwillson to Tigers
+convert g1 to b1 at Mneme
+build g1 at Dlwillson
+build g1 at Mneme
+convert b1 to r1 at Dlwillson
+convert g1 to r1 at Mneme
+move g1 from Tigers to Hunter
+sacrifice g3 at Mneme; build b1 at Waystation; build b2 at Waystation; build b3 at Mneme
+sacrifice r1 at Dlwillson; capture y1 at Hunter
+convert b3 to g3 at Mneme
+sacrifice g3 at Dlwillson; build y2 at Hunter; build y3 at Bears; build y3 at Tigers
+build b3 at Mneme
+convert y1 to r1 at Hunter
+move g3 from Mneme to Hunter
+move r1 from Hunter to Bears
+sacrifice r1 at Mneme; capture y2 at Hunter
+move y3 from Tigers to Hunter
+move g3 from Hunter to Tigers
+move y3 from Hunter to Tigers
+sacrifice y2 at Hunter; move g3 from Tigers to Hunter; move g3 from Hunter to Refuge (r2)
+move y2 from Bears to Waystation
+sacrifice b2 at Waystation; convert b1 to r1 at Waystation; convert b3 to r3 at Mneme
+sacrifice r1 at Bears; capture r1 at Waystation
+sacrifice y1 at Mneme; move g3 from Refuge to Dlwillson

@@ -1,0 +1,15 @@
+Zoltar (0, b2y1) g3-
+Keith (1, g3y3) -r3
+build g1 at Zoltar
+build r1 at Keith
+convert g1 to r1 at Zoltar
+move r1 from Keith to Berry (b1)
+build g1 at Zoltar
+convert r1 to g1 at Berry
+build r1 at Zoltar
+build g1 at Berry
+build g2 at Zoltar
+convert g1 to y1 at Berry
+convert g2 to y2 at Zoltar
+move g1 from Berry to Atlast (y3)
+build g1 at Zoltar

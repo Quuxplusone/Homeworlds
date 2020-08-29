@@ -1,0 +1,62 @@
+Personman (0, y1b3) g3-
+Zoltar (1, y2b1) -g3
+build g1 at Personman
+build g1 at Zoltar
+convert g1 to y1 at Personman
+convert g1 to y1 at Zoltar
+build y2 at Personman
+build y2 at Zoltar
+build g1 at Personman
+move y1 from Zoltar to Greenbelt (g3)
+move y1 from Personman to Basin (g2)
+build y3 at Greenbelt
+build y3 at Basin
+move y1 from Greenbelt to Basin
+move y1 from Basin to Greenbelt
+convert y2 to r2 at Zoltar
+convert g1 to r1 at Personman
+build r1 at Zoltar
+build r1 at Personman
+build y2 at Basin
+sacrifice r1 at Personman; capture y2 at Basin
+build y3 at Basin; catastrophe yellow at Basin
+build y1 at Greenbelt
+sacrifice r2 at Zoltar; capture y1 at Greenbelt; capture y1 at Greenbelt
+move y2 from Personman to Mayenne (g2)
+move y3 from Greenbelt to Mayenne
+build y2 at Mayenne
+build y3 at Greenbelt
+sacrifice y2 at Mayenne; move y2 from Mayenne to Greenbelt; catastrophe yellow at Greenbelt
+build y1 at Mayenne
+build g1 at Personman
+build y1 at Mayenne
+build r1 at Personman
+build r2 at Zoltar
+build r2 at Personman
+move y1 from Mayenne to Greenbelt (g3)
+convert r2 to y2 at Personman
+build y2 at Greenbelt
+move y2 from Personman to Cairhien (g2)
+build y3 at Mayenne
+build y3 at Cairhien
+sacrifice y3 at Mayenne; move y1 from Mayenne to Greenbelt; move y1 from Greenbelt to Cairhien; move y1 from Greenbelt to Cairhien; catastrophe yellow at Cairhien
+build r2 at Personman
+move r2 from Zoltar to Greenbelt
+convert r2 to y2 at Personman
+build r2 at Zoltar
+build r2 at Personman
+build r3 at Greenbelt
+convert r2 to b2 at Personman
+convert r1 to y1 at Zoltar
+move b2 from Personman to Cp (g2)
+sacrifice g3 at Zoltar; build y1 at Mayenne; build y3 at Greenbelt; build y3 at Zoltar
+move y2 from Personman to Cp
+move r3 from Greenbelt to Cp
+move y2 from Cp to Trask (g3)
+move y3 from Zoltar to Trask
+move y2 from Trask to Caemlyn (b2)
+capture b2 at Cp
+build g1 at Personman
+build b1 at Cp
+build g1 at Personman
+sacrifice y3 at Greenbelt; move r2 from Greenbelt to Cp; move r2 from Cp to Personman; move r3 from Cp to Personman; catastrophe green at Personman; catastrophe red at Personman

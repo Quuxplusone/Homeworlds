@@ -1,0 +1,44 @@
+Erik2Point0 (0, b1g2) r3-
+Scotward (1, r3b2) -g3
+build r1 at Erik2Point0
+build g1 at Scotward
+build r1 at Erik2Point0
+build g1 at Scotward
+convert r1 to g1 at Erik2Point0
+convert g1 to b1 at Scotward
+convert r1 to y1 at Erik2Point0
+convert g1 to y1 at Scotward
+build r1 at Erik2Point0
+build b1 at Scotward
+convert r3 to b3 at Erik2Point0
+move b1 from Scotward to Ares (g1)
+build b2 at Erik2Point0
+sacrifice g3 at Scotward; build b2 at Ares; build b3 at Ares; build b3 at Scotward
+convert b3 to y3 at Erik2Point0
+sacrifice b2 at Ares; convert b3 to r3 at Ares; convert b3 to g3 at Scotward
+build b2 at Erik2Point0
+build b3 at Ares
+move b2 from Erik2Point0 to Washington (g3)
+convert b1 to y1 at Ares
+build y2 at Erik2Point0
+move r3 from Ares to Washington
+move y1 from Erik2Point0 to Adams (g3)
+capture b2 at Washington
+build y2 at Adams
+move b3 from Ares to Adams
+build r1 at Erik2Point0
+convert b3 to r3 at Adams
+sacrifice y1 at Adams; move y2 from Adams to Ares
+move y1 from Ares to Adams
+move y2 from Ares to Jefferson (b3)
+build y1 at Adams
+convert y2 to g2 at Jefferson
+move y1 from Adams to Erik2Point0
+convert y2 to g2 at Erik2Point0
+build y2 at Erik2Point0
+convert y3 to b3 at Erik2Point0
+convert y1 to b1 at Erik2Point0; catastrophe blue at Erik2Point0
+capture y2 at Erik2Point0
+move r3 from Adams to Erik2Point0
+build r1 at Erik2Point0; catastrophe red at Erik2Point0
+sacrifice y1 at Scotward; move r3 from Washington to Erik2Point0

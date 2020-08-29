@@ -1,0 +1,44 @@
+Remneb (0, b3r2) g3-
+Ausmuh (1, g3b1) -b3
+build g1 at Remneb
+build b1 at Ausmuh
+build g1 at Remneb
+convert b3 to y3 at Ausmuh
+convert g1 to b1 at Remneb
+build b2 at Ausmuh
+convert g1 to y1 at Remneb
+move b1 from Ausmuh to Gwar (g2)
+move b1 from Remneb to Trek (y1)
+build b2 at Gwar
+build g1 at Remneb
+convert b2 to y2 at Gwar
+sacrifice g1 at Remneb; build b2 at Trek
+build b2 at Gwar
+convert b2 to r2 at Trek
+convert b2 to r2 at Gwar
+build g1 at Remneb
+build b2 at Gwar
+build g1 at Remneb
+move b2 from Gwar to Slayer (g1)
+move g1 from Remneb to Trek
+convert y3 to g3 at Ausmuh
+sacrifice g3 at Remneb; build g2 at Trek; build g2 at Trek; build g3 at Remneb
+sacrifice g3 at Ausmuh; build b2 at Gwar; build b3 at Slayer; build b3 at Ausmuh
+convert g2 to y2 at Trek
+sacrifice b2 at Gwar; convert b3 to g3 at Slayer; convert b3 to y3 at Ausmuh
+build b2 at Trek
+build b3 at Slayer
+move g2 from Trek to Moon (y2)
+sacrifice g3 at Slayer; build y1 at Ausmuh; build b3 at Gwar; build y3 at Gwar
+sacrifice g3 at Remneb; build g2 at Moon; build g3 at Moon; build y3 at Remneb
+build r1 at Gwar
+build g3 at Remneb
+sacrifice y2 at Gwar; move b3 from Gwar to Trek; move r1 from Gwar to Trek
+sacrifice y2 at Trek; move r2 from Trek to Moon; move b2 from Trek to Moon
+sacrifice r2 at Gwar; capture b1 at Trek; capture g1 at Trek
+sacrifice y3 at Remneb; move g2 from Moon to Ausmuh; move g2 from Moon to Ausmuh; move g3 from Moon to Ausmuh; catastrophe green at Ausmuh
+sacrifice b2 at Slayer; convert b3 to r3 at Slayer; convert b2 to r2 at Ausmuh
+build y2 at Remneb
+sacrifice y3 at Gwar; move r2 from Ausmuh to Remneb; move r3 from Slayer to Remneb; move r1 from Trek to Remneb; catastrophe red at Remneb
+move g3 from Remneb to Ausmuh
+sacrifice y3 at Ausmuh; move b3 from Trek to Remneb; move b1 from Trek to Remneb; move b1 from Gwar to Remneb; catastrophe blue at Remneb

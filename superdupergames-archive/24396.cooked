@@ -1,0 +1,14 @@
+Broccoli_Commander (0, r1b2) g3-
+Wil (1, r3b2) -g3
+build g1 at Broccoli_Commander
+build g1 at Wil
+convert g1 to y1 at Broccoli_Commander
+build g1 at Wil
+build g1 at Broccoli_Commander
+convert g1 to y1 at Wil
+move g1 from Broccoli_Commander to Blueberry (b3)
+build y1 at Wil
+build y2 at Broccoli_Commander
+build y2 at Wil
+move y2 from Broccoli_Commander to Blueberry
+convert y1 to r1 at Wil

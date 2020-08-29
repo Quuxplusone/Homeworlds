@@ -1,0 +1,33 @@
+Foksieloy (0, r1b3) g3-
+Onepagewars (1, r2b1) -g3
+build g1 at Foksieloy
+build g1 at Onepagewars
+convert g1 to y1 at Foksieloy
+convert g1 to y1 at Onepagewars
+build g1 at Foksieloy
+build g1 at Onepagewars
+convert g1 to b1 at Foksieloy
+convert g1 to b1 at Onepagewars
+build g1 at Foksieloy
+build b2 at Onepagewars
+convert g3 to y3 at Foksieloy
+move b2 from Onepagewars to Hydrogen (g3)
+build g1 at Foksieloy
+build b2 at Hydrogen
+move b1 from Foksieloy to Tibbers (g2)
+convert b2 to y2 at Hydrogen
+build b2 at Tibbers
+build b2 at Hydrogen
+sacrifice y1 at Foksieloy; move b1 from Tibbers to Valor (g3)
+convert b2 to r2 at Hydrogen
+build b2 at Valor
+build b3 at Hydrogen
+build b3 at Tibbers
+convert b3 to r3 at Hydrogen
+convert b3 to r3 at Tibbers
+build b3 at Hydrogen
+build b3 at Tibbers
+build y1 at Hydrogen
+convert b2 to y2 at Tibbers
+convert y1 to g1 at Hydrogen
+sacrifice y2 at Tibbers; move b2 from Valor to Onepagewars; move b1 from Valor to Onepagewars; catastrophe blue at Onepagewars

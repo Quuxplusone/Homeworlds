@@ -1,0 +1,39 @@
+Dlwillson (0, b3y1) g3-
+Wil (1, r2b1) -g3
+build g1 at Dlwillson
+build g1 at Wil
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Wil
+build y2 at Dlwillson
+build y2 at Wil
+move y1 from Dlwillson to Field (g2)
+move y1 from Wil to Fortcourage (g3)
+convert y2 to r2 at Dlwillson
+build y2 at Fortcourage
+build y2 at Field
+build y3 at Wil
+move y1 from Field to Golden (y3)
+convert y2 to r2 at Wil
+move y1 from Golden to Forest (g2)
+move r2 from Wil to Fortcourage
+build g1 at Dlwillson
+move y2 from Fortcourage to Dryden (b2)
+build y2 at Forest
+build y3 at Fortcourage
+build y3 at Field
+build g1 at Wil
+move y3 from Field to Sky (b3)
+move r2 from Fortcourage to Forest
+sacrifice r2 at Dlwillson; capture r2 at Forest
+convert y2 to g2 at Dryden
+convert g1 to r1 at Dlwillson
+sacrifice g3 at Wil; build g1 at Dryden; build g1 at Dryden; build g3 at Wil
+move y2 from Forest to Sky
+sacrifice y3 at Fortcourage; move g2 from Dryden to Dlwillson; move g1 from Dryden to Dlwillson; move g1 from Dryden to Dlwillson; catastrophe green at Dlwillson
+convert y3 to g3 at Sky
+convert g3 to r3 at Wil
+sacrifice g3 at Sky; build y2 at Forest; build y3 at Field; build y3 at Sky
+sacrifice y3 at Wil; move r3 from Wil to Fortcourage; move r3 from Fortcourage to Field; move r3 from Field to Dlwillson
+sacrifice y2 at Forest; move y3 from Field to Dlwillson; move y3 from Sky to Wil
+capture y3 at Dlwillson
+capture g1 at Wil

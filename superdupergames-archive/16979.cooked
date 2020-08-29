@@ -1,0 +1,44 @@
+Shmil1 (0, r3b1) g3-
+Dlwillson (1, g3y2) -b3
+build g1 at Shmil1
+build b1 at Dlwillson
+build g1 at Shmil1
+build b1 at Dlwillson
+convert g1 to y1 at Shmil1
+move b1 from Dlwillson to Nearquat (g1)
+move g1 from Shmil1 to Zluta (y2)
+convert b3 to g3 at Dlwillson
+move g1 from Zluta to Nearquat
+sacrifice g3 at Dlwillson; build b2 at Nearquat; build b2 at Nearquat; build b2 at Dlwillson
+build g1 at Nearquat
+build b3 at Dlwillson
+convert g3 to b3 at Shmil1
+convert b2 to r2 at Nearquat
+build g2 at Nearquat; catastrophe green at Nearquat
+move b1 from Dlwillson to Plan_B (g1)
+convert y1 to g1 at Shmil1
+move b2 from Dlwillson to Expansion (g1)
+build g2 at Shmil1
+build b1 at Dlwillson
+build b2 at Shmil1
+build b2 at Expansion
+build g2 at Shmil1
+build b3 at Plan_B
+convert b2 to y2 at Shmil1
+convert b3 to y3 at Plan_B
+move b3 from Shmil1 to Slunce (y2)
+convert b3 to r3 at Dlwillson
+move b3 from Slunce to Expansion
+sacrifice y3 at Plan_B; move r3 from Dlwillson to Expansion; move r3 from Expansion to Tempo (b2); move r3 from Tempo to Shmil1
+sacrifice b3 at Expansion; convert g1 to r1 at Shmil1; convert g2 to r2 at Shmil1; convert g2 to b2 at Shmil1; catastrophe red at Shmil1
+build b3 at Dlwillson
+move b2 from Shmil1 to Dlwillson
+sacrifice b1 at Dlwillson; convert b2 to r2 at Expansion
+build b1 at Dlwillson
+sacrifice r2 at Expansion; capture b2 at Dlwillson; capture b1 at Dlwillson
+convert y2 to g2 at Shmil1
+convert b2 to r2 at Dlwillson
+build g1 at Shmil1
+move b3 from Dlwillson to Shmil1
+convert g2 to y2 at Shmil1
+sacrifice r2 at Dlwillson; capture y2 at Shmil1; capture g1 at Shmil1

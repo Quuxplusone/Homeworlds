@@ -1,0 +1,23 @@
+Silenttitan (0, r1b2) g3-
+Dethdukk (1, b2r3) -g3
+build g1 at Silenttitan
+build g1 at Dethdukk
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Dethdukk
+build g1 at Silenttitan
+build g1 at Dethdukk
+move g1 from Silenttitan to Crazy (y3)
+convert g1 to r1 at Dethdukk
+build g1 at Silenttitan
+build r1 at Dethdukk
+build g1 at Crazy
+build g2 at Dethdukk
+move g1 from Crazy to Mispelled (b2)
+move g2 from Dethdukk to Leaps (y1)
+build g2 at Crazy
+move r1 from Dethdukk to Leaps
+sacrifice g3 at Silenttitan; build g2 at Mispelled; build g3 at Silenttitan; build g3 at Silenttitan
+build r2 at Leaps
+convert g2 to y2 at Mispelled
+move r2 from Leaps to Mispelled
+sacrifice y2 at Mispelled; move g1 from Mispelled to Danger (r3); move g3 from Silenttitan to Group (b3)

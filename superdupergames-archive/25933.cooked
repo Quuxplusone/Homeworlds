@@ -1,0 +1,40 @@
+Moman1 (0, r2b1) g3-
+Timetech (1, r1g2) -b3
+build g1 at Moman1
+build b1 at Timetech
+build g1 at Moman1
+convert b1 to y1 at Timetech
+convert g1 to r1 at Moman1
+build b1 at Timetech
+build g1 at Moman1
+convert b1 to r1 at Timetech
+build r2 at Moman1
+move r1 from Timetech to W2 (r3)
+build r2 at Moman1
+build b1 at Timetech; catastrophe red at Moman1
+convert g1 to y1 at Moman1
+build b1 at Timetech
+convert g1 to r1 at Moman1
+convert b3 to r3 at Timetech
+build r2 at Moman1
+build r2 at Timetech
+build y1 at Moman1
+move r2 from Timetech to W3 (r3)
+build r2 at Moman1
+build y2 at Timetech
+move y1 from Moman1 to E1 (b2)
+sacrifice y2 at Timetech; move r1 from W2 to E1; move r2 from W3 to E1
+build r3 at Moman1
+capture y1 at E1; catastrophe red at Moman1
+build y2 at Moman1
+move r2 from E1 to Moman1
+build y2 at Moman1
+sacrifice r3 at Timetech; capture y2 at Moman1; capture y2 at Moman1; capture y1 at Moman1
+convert g3 to r3 at Moman1
+sacrifice y2 at Moman1; move r2 from Moman1 to E1; move y2 from Moman1 to E1
+capture y1 at Moman1
+build y2 at Timetech
+move r3 from Moman1 to E1
+sacrifice y2 at E1; move r2 from E1 to Moman1; move r1 from E1 to Moman1
+capture y1 at E1
+capture y1 at Moman1

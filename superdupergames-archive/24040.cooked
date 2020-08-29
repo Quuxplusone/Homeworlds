@@ -1,0 +1,60 @@
+Erik2Point0 (0, g3b1) r3-
+Scotward (1, r1b2) -g3
+build r1 at Erik2Point0
+build g1 at Scotward
+convert r1 to y1 at Erik2Point0
+build g1 at Scotward
+build y1 at Erik2Point0
+convert g1 to y1 at Scotward
+build y2 at Erik2Point0
+build y2 at Scotward
+convert y1 to g1 at Erik2Point0
+move y2 from Scotward to Spica (b3)
+move y2 from Erik2Point0 to Degoba (r2)
+build y1 at Scotward
+build y2 at Erik2Point0
+move y1 from Scotward to Cygnus (b3)
+convert y2 to g2 at Erik2Point0
+sacrifice g3 at Scotward; build y2 at Cygnus; build y3 at Spica; build y3 at Scotward
+build y3 at Erik2Point0
+move y3 from Spica to Degoba
+sacrifice y2 at Degoba; move g2 from Erik2Point0 to Degoba; move g2 from Degoba to Spica
+convert y2 to r2 at Spica
+sacrifice g2 at Spica; build r1 at Erik2Point0
+sacrifice y1 at Scotward; move r2 from Spica to Degoba
+move y3 from Erik2Point0 to Hoth (b2)
+convert y2 to r2 at Cygnus
+move r1 from Erik2Point0 to Hoth
+move r2 from Cygnus to Dune (g2)
+move g1 from Erik2Point0 to Hoth
+build r1 at Dune
+build r3 at Hoth
+build r3 at Dune
+move r3 from Hoth to Cygnus
+sacrifice y3 at Degoba; move r2 from Degoba to Erik2Point0; move r1 from Dune to Erik2Point0; move r2 from Dune to Erik2Point0; catastrophe red at Erik2Point0
+sacrifice y3 at Hoth; move r1 from Hoth to Cygnus; move r3 from Cygnus to Hoth; move r3 from Hoth to Erik2Point0
+move y1 from Cygnus to Dune
+convert r1 to y1 at Cygnus
+build y2 at Dune
+build y2 at Erik2Point0
+move r3 from Dune to Cygnus
+move y1 from Cygnus to Dune
+build y2 at Scotward
+build y3 at Dune; catastrophe yellow at Dune
+move y2 from Scotward to Cygnus
+build y1 at Erik2Point0
+move r3 from Cygnus to Hoth
+sacrifice y1 at Erik2Point0; move g1 from Hoth to Alderan (b1)
+build g1 at Scotward
+build g2 at Alderan
+move g1 from Scotward to Cygnus
+convert g1 to y1 at Alderan
+move y2 from Cygnus to Hoth
+move g2 from Alderan to Tatooine (y2)
+convert r3 to g3 at Hoth
+move r3 from Erik2Point0 to Hoth
+move y2 from Hoth to Erik2Point0
+sacrifice y1 at Erik2Point0; move g2 from Tatooine to Erik2Point0
+sacrifice y2 at Erik2Point0; move g3 from Hoth to Erik2Point0
+move g2 from Erik2Point0 to Hoth
+convert g3 to r3 at Erik2Point0

@@ -1,0 +1,63 @@
+Wil (0, y2b1) g3-
+Draw5Playall (1, b1g3) -b3
+build g1 at Wil
+build b1 at Draw5Playall
+build g1 at Wil
+convert b3 to y3 at Draw5Playall
+move g1 from Wil to B3 (b3)
+build b2 at Draw5Playall
+build g1 at B3
+move b2 from Draw5Playall to Build (g2)
+build g2 at B3
+build b2 at Build
+convert g2 to b2 at B3
+build y1 at Draw5Playall
+build g2 at Wil
+build b3 at Build
+move g1 from Wil to Y3 (y3)
+build b3 at Draw5Playall
+sacrifice g3 at Wil; build g2 at Y3; build g3 at B3; build g3 at Wil
+convert b3 to r3 at Build
+sacrifice b2 at B3; convert g2 to r2 at Y3; convert g3 to y3 at B3
+move b3 from Draw5Playall to Construct (g2)
+sacrifice g3 at Wil; build g3 at Wil; build g3 at Y3; build r1 at Y3
+build b2 at Construct
+build y1 at B3
+build b3 at Build
+move r2 from Y3 to Y2 (y2)
+build r1 at Build
+sacrifice g3 at Wil; build r1 at Y2; build r2 at Y2; build g3 at Wil
+convert b3 to r3 at Construct
+sacrifice y3 at B3; move g1 from B3 to Build; move g1 from B3 to Build; move g1 from Y3 to Build; catastrophe green at Build
+build b2 at Construct
+convert g2 to b2 at Wil
+build b3 at Construct
+build b3 at Wil
+sacrifice y3 at Draw5Playall; move b2 from Construct to B3; move b2 from B3 to Wil; move b3 from Construct to Draw5Playall; catastrophe blue at Wil
+build g1 at Wil
+build r1 at Construct
+build g1 at Y3
+convert b1 to g1 at Draw5Playall
+build r2 at Y3
+build y1 at Draw5Playall
+move r1 from Y3 to G2 (g2)
+convert b3 to r3 at Draw5Playall
+sacrifice g3 at Wil; build g2 at Y3; build g3 at Wil; build r3 at G2
+move y1 from Draw5Playall to Construct
+sacrifice y1 at B3; move r3 from G2 to B3 (b3)
+build y1 at Draw5Playall
+convert r3 to y3 at B3
+build y2 at Construct
+sacrifice g3 at Wil; build g3 at Wil; build r3 at G2; build y3 at B3
+sacrifice y2 at Construct; move g1 from Draw5Playall to Wil; move g1 from Wil to Y3; catastrophe green at Y3
+move r1 from Y2 to Draw5Playall
+convert r3 to b3 at Draw5Playall
+capture y1 at Draw5Playall
+sacrifice r1 at Construct; capture r1 at Draw5Playall
+sacrifice r2 at Y3; capture y1 at Draw5Playall; capture r1 at Draw5Playall
+build b1 at Construct
+convert y1 to b1 at Draw5Playall
+convert b3 to g3 at Draw5Playall
+convert r1 to g1 at Draw5Playall
+move r3 from Construct to Draw5Playall
+sacrifice g3 at Wil; build g1 at Draw5Playall; build b2 at Draw5Playall; build b2 at Draw5Playall; catastrophe blue at Draw5Playall; catastrophe green at Draw5Playall

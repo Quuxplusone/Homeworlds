@@ -1,0 +1,13 @@
+Horowits (0, g3y2) b3-
+Jonaskoelker (1, r1b2) -g3
+build b1 at Horowits
+build g1 at Jonaskoelker
+build b1 at Horowits
+convert g1 to b1 at Jonaskoelker
+move b1 from Horowits to Rawg (g1)
+build b2 at Jonaskoelker
+build b2 at Horowits
+convert b2 to y2 at Jonaskoelker
+move b2 from Horowits to Megadeth (g1)
+move b1 from Jonaskoelker to Large_Green (g3)
+move b1 from Horowits to Rawg

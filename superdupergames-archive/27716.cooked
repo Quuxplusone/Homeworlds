@@ -1,0 +1,28 @@
+Endo (0, b1y1) g3-
+Katscyl (1, b3r1) -g3
+build g1 at Endo
+build g1 at Katscyl
+move g1 from Endo to Mono (b2)
+convert g1 to y1 at Katscyl
+build g1 at Mono
+build y1 at Katscyl
+convert g1 to r1 at Mono
+build y2 at Katscyl
+build r1 at Mono
+move y2 from Katscyl to Serenity (b2)
+build r2 at Mono
+build g1 at Katscyl
+convert r2 to y2 at Mono
+move g1 from Katscyl to Serenity
+build r2 at Mono
+build y2 at Serenity
+build y3 at Mono
+sacrifice y2 at Serenity; move y1 from Katscyl to Mono; move y1 from Katscyl to Mono; catastrophe yellow at Mono
+convert r2 to y2 at Mono
+build y1 at Serenity
+build r2 at Mono
+convert y2 to r2 at Serenity
+convert r1 to b1 at Mono
+build g1 at Serenity
+build g2 at Mono
+build g2 at Katscyl

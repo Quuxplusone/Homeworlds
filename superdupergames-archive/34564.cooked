@@ -1,0 +1,76 @@
+Eliscinsky (0, r1b2) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Eliscinsky
+build g1 at Ts52
+convert g1 to y1 at Eliscinsky
+convert g1 to b1 at Ts52
+build g1 at Eliscinsky
+build g1 at Ts52
+convert g1 to b1 at Eliscinsky
+convert g1 to y1 at Ts52
+build g1 at Eliscinsky
+build g1 at Ts52
+convert g1 to r1 at Eliscinsky
+convert g1 to r1 at Ts52
+build g1 at Eliscinsky
+build r2 at Ts52
+build r2 at Eliscinsky
+move b1 from Ts52 to Robin (g1)
+move r2 from Eliscinsky to Earth (g3)
+move r2 from Ts52 to Robin
+move g1 from Eliscinsky to Earth
+move y1 from Ts52 to Robin
+move b1 from Eliscinsky to Earth
+build b1 at Robin
+build b2 at Earth
+sacrifice g3 at Ts52; build r2 at Ts52; build r3 at Ts52; build r3 at Robin
+convert b2 to y2 at Earth
+convert r2 to g2 at Ts52
+build y1 at Earth
+move r3 from Robin to Earth
+build r2 at Earth
+sacrifice r2 at Robin; capture y2 at Earth; capture r2 at Earth
+build r2 at Earth; catastrophe red at Earth
+sacrifice b1 at Robin; convert y2 to r2 at Earth
+build g1 at Earth
+capture y1 at Earth
+build g2 at Earth; catastrophe green at Earth
+build r2 at Ts52
+build g1 at Eliscinsky
+build b1 at Robin
+convert g1 to b1 at Eliscinsky
+convert r2 to y2 at Ts52
+build g1 at Eliscinsky
+build b2 at Robin
+build r2 at Eliscinsky
+convert b2 to r2 at Robin
+move r2 from Eliscinsky to Andor (g3)
+move b1 from Robin to Bigbird (y3)
+move b1 from Eliscinsky to Andor
+build r2 at Robin
+build r3 at Andor
+build r3 at Ts52
+sacrifice y1 at Eliscinsky; move r3 from Andor to Robin
+move r1 from Ts52 to Robin; catastrophe red at Robin
+convert g1 to y1 at Eliscinsky
+move r3 from Ts52 to Robin
+build b2 at Andor
+sacrifice g2 at Ts52; build b3 at Bigbird; build b3 at Robin
+convert b2 to y2 at Andor
+convert y2 to g2 at Ts52
+move r2 from Andor to Pea (g1)
+move r3 from Robin to Andor
+move b1 from Andor to Robin
+capture y2 at Andor
+sacrifice r2 at Pea; capture b1 at Robin; capture y1 at Robin
+convert b3 to r3 at Robin
+convert b1 to r1 at Robin
+capture r1 at Robin
+move b1 from Robin to Bigbird
+capture y1 at Robin
+move b1 from Bigbird to Orion (g1)
+build r2 at Andor
+build b1 at Orion
+move r3 from Andor to Orion
+sacrifice y1 at Eliscinsky; move b1 from Orion to Ts52
+capture b1 at Ts52

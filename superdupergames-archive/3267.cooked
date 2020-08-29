@@ -1,0 +1,17 @@
+Jeep (0, y2b1) g3-
+Lambda (1, b3g1) -y3
+build g1 at Jeep
+build y1 at Lambda
+build g1 at Jeep
+convert y1 to b1 at Lambda
+move g1 from Jeep to Moon (b3)
+build b1 at Lambda
+build g2 at Jeep
+move b1 from Lambda to Rigel (g2)
+sacrifice g3 at Jeep; build g2 at Moon; build g3 at Moon; build g3 at Jeep
+build b2 at Rigel
+move g2 from Jeep to Submarine (y3)
+build y1 at Lambda
+convert g3 to y3 at Moon
+build b2 at Rigel
+sacrifice g3 at Jeep; build g3 at Jeep; build g3 at Submarine; build g3 at Moon

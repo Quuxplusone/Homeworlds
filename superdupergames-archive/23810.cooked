@@ -1,0 +1,11 @@
+Wil (0, r2b1) g3-
+Daselva (1, r1b2) -g3
+build g1 at Wil
+build g1 at Daselva
+convert g3 to y3 at Wil
+convert g3 to r3 at Daselva
+build y1 at Wil
+build r1 at Daselva
+build y1 at Wil
+convert r3 to y3 at Daselva
+build g1 at Wil

@@ -1,0 +1,29 @@
+Trydnt (0, b2y1) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Trydnt
+build g1 at Draw5Playall
+convert g1 to r1 at Trydnt
+convert g1 to r1 at Draw5Playall
+build r2 at Trydnt
+build r2 at Draw5Playall
+build r2 at Trydnt
+convert r1 to y1 at Draw5Playall
+convert r2 to y2 at Trydnt
+build g1 at Draw5Playall
+move y2 from Trydnt to G3 (g3)
+convert g1 to b1 at Draw5Playall
+convert r1 to b1 at Trydnt
+move r2 from Draw5Playall to Ohgreat (g2)
+move b1 from Trydnt to G3
+build r1 at Ohgreat
+build r1 at Trydnt
+move b1 from Draw5Playall to Ohgreat
+move r2 from Trydnt to G3
+convert r1 to y1 at Ohgreat
+build y2 at G3
+build y2 at Draw5Playall
+move y2 from G3 to G2 (g2)
+move y1 from Draw5Playall to Huh (b2)
+build y3 at G3
+sacrifice g3 at Draw5Playall; build y3 at Draw5Playall; build y3 at Ohgreat; build b1 at Ohgreat
+sacrifice y3 at G3; move y2 from G3 to G2; move y2 from G2 to Draw5Playall; move y2 from G2 to Draw5Playall; catastrophe yellow at Draw5Playall

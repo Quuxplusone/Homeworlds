@@ -1,0 +1,21 @@
+Trydnt (0, b3r2) g3-
+Thorolf (1, b2y1) -g3
+build g1 at Trydnt
+build g1 at Thorolf
+convert g1 to y1 at Trydnt
+convert g3 to r3 at Thorolf
+build y1 at Trydnt
+build g1 at Thorolf
+build y2 at Trydnt
+move g1 from Thorolf to Sigma (y3)
+move y1 from Trydnt to R1 (r1)
+move g1 from Thorolf to Sigma
+build y2 at Trydnt
+move g1 from Sigma to Kappa (b1)
+move y2 from Trydnt to Kappa
+build g1 at Kappa
+convert y2 to r2 at Kappa
+build g2 at Kappa
+capture g2 at Kappa
+convert g1 to r1 at Kappa
+capture r1 at Kappa

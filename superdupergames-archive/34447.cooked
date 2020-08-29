@@ -1,0 +1,63 @@
+Goulo (0, r1b2) g3-
+Deanthebean (1, b3y1) -g3
+build g1 at Goulo
+build g1 at Deanthebean
+convert g3 to y3 at Goulo
+convert g1 to r1 at Deanthebean
+build g1 at Goulo
+build r1 at Deanthebean
+convert y3 to r3 at Goulo
+build r2 at Deanthebean
+build r2 at Goulo
+convert r1 to y1 at Deanthebean
+convert g1 to y1 at Goulo
+build y2 at Deanthebean
+build y2 at Goulo
+move y1 from Deanthebean to Xi (g2)
+move y1 from Goulo to Smeraldego (g3)
+move r2 from Deanthebean to Pen (g2)
+move r2 from Goulo to Smeraldego
+move y2 from Deanthebean to Pen
+move r2 from Smeraldego to Xi
+move r2 from Pen to Smeraldego
+move y1 from Smeraldego to Smeraldo (g2)
+build g1 at Deanthebean
+capture y1 at Xi
+move r1 from Deanthebean to Smeraldo
+convert r3 to g3 at Goulo
+capture y1 at Smeraldo
+sacrifice g3 at Goulo; build y2 at Xi; build y3 at Xi; build y3 at Goulo
+build y3 at Pen
+move y1 from Xi to Deanthebean
+sacrifice r1 at Smeraldo; capture y1 at Deanthebean
+sacrifice y2 at Goulo; move y2 from Xi to Deanthebean; move y3 from Xi to Deanthebean; catastrophe yellow at Deanthebean
+convert g1 to r1 at Deanthebean
+build y1 at Goulo
+build r1 at Deanthebean
+build g1 at Goulo
+convert r1 to b1 at Deanthebean
+convert g1 to b1 at Goulo
+build g1 at Deanthebean
+move b1 from Goulo to Flavego (y3)
+convert g1 to y1 at Deanthebean
+convert y1 to b1 at Goulo
+move b1 from Deanthebean to Pen
+build g1 at Goulo
+build b2 at Pen
+move b1 from Flavego to Flavo (y2)
+move b2 from Pen to Smeraldego
+move b1 from Goulo to Flavego (y3)
+sacrifice g3 at Deanthebean; build b2 at Smeraldego; build b3 at Pen; build r1 at Smeraldego
+sacrifice g1 at Goulo; build b3 at Flavo
+sacrifice y2 at Pen; move b2 from Smeraldego to Flavo; move b2 from Smeraldego to Flavo; catastrophe blue at Flavo
+build g1 at Goulo
+convert b3 to g3 at Pen
+move b1 from Flavego to Flavo (y2)
+build g1 at Pen
+convert g1 to b1 at Goulo
+move b1 from Pen to Smeraldego
+build g1 at Goulo
+sacrifice g3 at Pen; build g3 at Pen; build b2 at Smeraldego; build r2 at Smeraldego
+sacrifice y3 at Goulo; move r2 from Xi to Smeraldego; move b1 from Flavo to Deanthebean; move b1 from Goulo to Deanthebean; catastrophe red at Smeraldego
+capture b1 at Deanthebean
+sacrifice g1 at Goulo; build b2 at Deanthebean; catastrophe blue at Deanthebean

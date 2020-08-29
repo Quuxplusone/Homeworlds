@@ -1,0 +1,26 @@
+Fnord (0, y1b2) g3-
+Uglyfoot (1, b3y2) -g3
+build g1 at Fnord
+build g1 at Uglyfoot
+move g1 from Fnord to Eris (y3)
+convert g1 to y1 at Uglyfoot
+build g1 at Fnord
+move y1 from Uglyfoot to Fort (r1)
+convert g1 to b1 at Fnord
+build g1 at Uglyfoot
+move b1 from Fnord to Eris
+move g1 from Uglyfoot to Fort
+build b1 at Eris
+build g1 at Uglyfoot
+build g2 at Fnord
+build g2 at Fort
+convert g2 to y2 at Fnord
+move g2 from Fort to Dogstar (b3)
+convert b1 to y1 at Eris
+build g2 at Fort
+build g2 at Eris
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Dogstar; build y2 at Fort
+convert y2 to r2 at Fnord
+move y2 from Fort to Dogstar
+build r1 at Fnord
+sacrifice g3 at Dogstar; build g3 at Dogstar; build y2 at Dogstar; build y3 at Fort

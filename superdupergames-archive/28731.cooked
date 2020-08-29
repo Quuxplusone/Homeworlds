@@ -1,0 +1,43 @@
+Ts52 (0, y3b1) g3-
+Kanzenryu (1, y1b2) -g3
+build g1 at Ts52
+build g1 at Kanzenryu
+move g1 from Ts52 to Grover (b2)
+move g1 from Kanzenryu to Out (b3)
+build g1 at Ts52
+convert g1 to y1 at Out
+convert g1 to y1 at Grover
+build g1 at Kanzenryu
+move g1 from Ts52 to Grover
+move g1 from Kanzenryu to Out
+build y2 at Grover
+build y2 at Out
+convert y2 to r2 at Grover
+convert y1 to r1 at Out
+build r1 at Grover
+build g1 at Kanzenryu
+build g2 at Ts52
+build g2 at Out
+convert g2 to y2 at Ts52
+move g1 from Out to Peep (y2)
+build g2 at Ts52
+sacrifice g3 at Kanzenryu; build g2 at Out; build g3 at Kanzenryu; build g3 at Peep
+move g2 from Ts52 to Gonzo (b2)
+build r1 at Out
+move y2 from Ts52 to Gonzo
+convert g1 to b1 at Kanzenryu
+convert r1 to b1 at Grover
+move g1 from Peep to Ts52
+convert g3 to r3 at Ts52
+build g1 at Kanzenryu
+build g3 at Grover
+move b1 from Kanzenryu to Moon (y3)
+sacrifice g3 at Grover; build g3 at Grover; build y1 at Grover; build y3 at Gonzo
+move b1 from Moon to Peep
+move b1 from Grover to Bigbird (y3)
+sacrifice g3 at Kanzenryu; build g3 at Kanzenryu; build b3 at Peep; build r1 at Out
+sacrifice g3 at Grover; build g3 at Grover; build b3 at Bigbird; build r2 at Grover
+move r1 from Out to Peep
+move g1 from Grover to Bigbird
+sacrifice g3 at Kanzenryu; build g3 at Kanzenryu; build r2 at Out; build r3 at Peep
+sacrifice y3 at Gonzo; move g2 from Gonzo to Bigbird; move g2 from Bigbird to Kanzenryu; move g1 from Bigbird to Kanzenryu; catastrophe green at Kanzenryu

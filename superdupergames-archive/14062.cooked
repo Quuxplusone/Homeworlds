@@ -1,0 +1,33 @@
+Twoshort (0, r1b3) g3-
+Jimtarnung (1, b1g2) -y3
+build g1 at Twoshort
+build y1 at Jimtarnung
+convert g1 to y1 at Twoshort
+convert y1 to g1 at Jimtarnung
+build g1 at Twoshort
+build y1 at Jimtarnung
+move g1 from Twoshort to Bluonia (b2)
+convert y1 to r1 at Jimtarnung
+build g1 at Twoshort
+build y1 at Jimtarnung
+build g2 at Bluonia
+convert y3 to g3 at Jimtarnung
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Bluonia; build g3 at Twoshort
+build y1 at Jimtarnung
+convert g3 to y3 at Bluonia
+move g1 from Jimtarnung to Yello (y3)
+convert g2 to r2 at Bluonia
+build y2 at Jimtarnung
+move g2 from Twoshort to Blitzen (b2)
+convert y1 to b1 at Jimtarnung
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g3 at Blitzen; build g3 at Twoshort
+move b1 from Jimtarnung to Yello
+move g2 from Bluonia to Boomtime (b3)
+sacrifice g3 at Jimtarnung; build g3 at Yello; build b1 at Yello; build b2 at Yello
+sacrifice y3 at Bluonia; move g3 from Blitzen to Boomtime; move g3 from Boomtime to Jimtarnung
+move b2 from Yello to Jimtarnung
+sacrifice r2 at Bluonia; capture b2 at Jimtarnung; capture y2 at Jimtarnung
+move g3 from Yello to Jimtarnung
+sacrifice g2 at Blitzen; build g2 at Jimtarnung; build b2 at Jimtarnung; catastrophe green at Jimtarnung
+build g2 at Yello
+sacrifice g1 at Bluonia; build b2 at Jimtarnung; catastrophe blue at Jimtarnung

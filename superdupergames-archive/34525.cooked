@@ -1,0 +1,78 @@
+Mneme (0, r1b2) g3-
+Draw5Playall (1, b3r2) -g3
+build g1 at Mneme
+build g1 at Draw5Playall
+convert g1 to y1 at Mneme
+convert g1 to y1 at Draw5Playall
+build g1 at Mneme
+build g1 at Draw5Playall
+convert g1 to r1 at Mneme
+convert g1 to r1 at Draw5Playall
+build r2 at Mneme
+build r2 at Draw5Playall
+move r2 from Mneme to Melpomene (g3)
+convert r2 to b2 at Draw5Playall
+build g1 at Mneme
+build g1 at Draw5Playall
+move g1 from Mneme to Euterpe (r3)
+move b2 from Draw5Playall to Fine (g1)
+sacrifice g3 at Mneme; build r2 at Melpomene; build r3 at Melpomene; build r3 at Mneme
+build b1 at Fine
+convert r3 to g3 at Mneme
+build r3 at Draw5Playall
+build g2 at Mneme
+move r3 from Draw5Playall to Fine
+sacrifice g1 at Euterpe; build r3 at Mneme
+convert b2 to y2 at Fine
+convert r1 to b1 at Mneme
+sacrifice y2 at Fine; move r1 from Draw5Playall to Fine; move r1 from Fine to Melpomene; catastrophe red at Melpomene
+build r1 at Mneme
+move g1 from Draw5Playall to Notariffs (b1)
+move r3 from Mneme to Urania (y3)
+build b2 at Fine
+move r3 from Urania to Notariffs
+sacrifice g1 at Notariffs; build r1 at Fine
+sacrifice g2 at Mneme; build r2 at Mneme; build r2 at Notariffs
+convert b2 to y2 at Fine
+convert r2 to y2 at Mneme
+build b2 at Fine
+move y1 from Mneme to Melpomene (b3)
+build g1 at Draw5Playall
+convert r2 to g2 at Notariffs
+move r1 from Fine to Port (y3)
+move r1 from Mneme to Melpomene
+move b2 from Fine to Melpomene
+move y1 from Melpomene to Notariffs
+build b2 at Fine
+build g1 at Mneme
+move b1 from Fine to Trop (y3)
+sacrifice g3 at Mneme; build g2 at Mneme; build g2 at Notariffs; build g3 at Mneme
+sacrifice g1 at Draw5Playall; build b3 at Trop
+move b1 from Mneme to Thalia (y3)
+sacrifice r1 at Port; capture r1 at Melpomene
+sacrifice g3 at Mneme; build g1 at Notariffs; build g3 at Mneme; build y1 at Notariffs
+convert b3 to g3 at Trop
+sacrifice g3 at Mneme; build y2 at Notariffs; build y3 at Mneme; build b3 at Thalia
+build g3 at Trop
+sacrifice y2 at Notariffs; move g1 from Mneme to Trop; move g1 from Notariffs to Trop; catastrophe green at Trop
+build y2 at Draw5Playall
+build g1 at Notariffs
+build r1 at Fine
+move g2 from Notariffs to Draw5Playall
+convert g3 to r3 at Draw5Playall
+sacrifice g2 at Draw5Playall; build r2 at Notariffs; build g1 at Notariffs
+convert y2 to g2 at Draw5Playall
+build g3 at Mneme
+build g3 at Draw5Playall
+move y3 from Mneme to Melpomene
+sacrifice b2 at Melpomene; convert g2 to b2 at Draw5Playall
+move r3 from Notariffs to Draw5Playall
+sacrifice r3 at Draw5Playall; capture r3 at Draw5Playall
+build g2 at Notariffs
+build g3 at Draw5Playall; catastrophe green at Notariffs
+sacrifice g2 at Mneme; build r2 at Notariffs; build y2 at Mneme
+move r3 from Draw5Playall to Notariffs
+sacrifice y2 at Mneme; move r2 from Notariffs to Draw5Playall; move r2 from Notariffs to Draw5Playall
+sacrifice r1 at Melpomene; capture r2 at Draw5Playall
+sacrifice g3 at Mneme; build r1 at Draw5Playall; build r3 at Draw5Playall; build y2 at Mneme; catastrophe red at Draw5Playall
+sacrifice y2 at Fine; move g3 from Draw5Playall to Mneme; move b2 from Draw5Playall to Fine

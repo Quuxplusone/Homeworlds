@@ -1,0 +1,45 @@
+Mikeyarrum (0, b3y1) g3-
+Sordros (1, y1b2) -g3
+build g1 at Mikeyarrum
+build g1 at Sordros
+convert g1 to y1 at Mikeyarrum
+move g1 from Sordros to Flavega (y3)
+build y2 at Mikeyarrum
+build g1 at Sordros
+move y2 from Mikeyarrum to Yomi (g2)
+convert g1 to b1 at Sordros
+build y2 at Yomi
+build g1 at Sordros
+build y2 at Yomi
+build g1 at Flavega
+build g2 at Mikeyarrum
+move g1 from Sordros to Bigy (y3)
+move y2 from Yomi to Tomo (g3)
+build g2 at Sordros
+build y3 at Tomo
+build b1 at Sordros
+convert g2 to r2 at Mikeyarrum
+convert b1 to r1 at Sordros
+build g2 at Mikeyarrum
+build r1 at Sordros
+sacrifice g3 at Mikeyarrum; build g3 at Mikeyarrum; build r1 at Mikeyarrum; build r2 at Mikeyarrum
+sacrifice g3 at Sordros; build g3 at Sordros; build r2 at Sordros; build b1 at Sordros
+move r2 from Mikeyarrum to Yomi
+move r1 from Sordros to Zuleo (b3)
+sacrifice g3 at Mikeyarrum; build g3 at Mikeyarrum; build r3 at Yomi; build r3 at Yomi
+build r3 at Sordros
+sacrifice y2 at Yomi; move r2 from Yomi to Tomo; move r2 from Tomo to Sordros; catastrophe red at Sordros
+convert g2 to y2 at Sordros
+move r3 from Yomi to Flavega
+sacrifice g1 at Bigy; build y3 at Sordros
+move y2 from Tomo to Sordros; catastrophe yellow at Sordros
+convert b1 to r1 at Sordros
+build r2 at Yomi
+build g1 at Sordros
+build g2 at Mikeyarrum
+sacrifice g3 at Sordros; build g3 at Sordros; build r2 at Sordros; build r3 at Zuleo
+sacrifice r2 at Yomi; capture g1 at Flavega; capture g1 at Flavega
+convert r1 to y1 at Sordros
+sacrifice y2 at Yomi; move g2 from Mikeyarrum to Sordros; move g2 from Mikeyarrum to Sordros; catastrophe green at Sordros
+convert b1 to g1 at Sordros
+move r3 from Flavega to Sordros

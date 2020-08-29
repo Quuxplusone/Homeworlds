@@ -1,0 +1,81 @@
+Dlwillson (0, y3b1) g3-
+Dethdukk (1, r1b2) -g3
+build g1 at Dlwillson
+build g1 at Dethdukk
+move g1 from Dlwillson to Jimmy (y2)
+convert g1 to y1 at Dethdukk
+build g1 at Dlwillson
+build y1 at Dethdukk
+convert g1 to y1 at Dlwillson
+build y2 at Dethdukk
+move y1 from Dlwillson to Bobby (b2)
+move y1 from Dethdukk to Smallstep (b3)
+build g1 at Dlwillson
+build g1 at Dethdukk
+sacrifice g3 at Dlwillson; build g2 at Dlwillson; build g2 at Jimmy; build y2 at Bobby
+move g1 from Dethdukk to Giantleap (r3)
+move y2 from Bobby to Giantleap
+sacrifice g1 at Giantleap; build y3 at Smallstep
+sacrifice g2 at Jimmy; build y3 at Bobby; build g1 at Jimmy
+build g2 at Dethdukk
+convert g2 to r2 at Dlwillson
+convert y2 to r2 at Dethdukk
+move y3 from Bobby to Dlwillson
+move g2 from Dethdukk to Smallstep
+sacrifice g1 at Jimmy; build y2 at Giantleap
+build g1 at Dethdukk
+build g2 at Jimmy
+build g2 at Smallstep
+sacrifice g2 at Jimmy; build g2 at Dlwillson; build g3 at Dlwillson
+sacrifice y3 at Smallstep; move g2 from Smallstep to Bobby; move g2 from Bobby to Dlwillson; move g2 from Smallstep to Jimmy; catastrophe green at Dlwillson
+sacrifice g1 at Jimmy; build y3 at Bobby
+build g1 at Dethdukk
+convert y1 to g1 at Bobby
+move g1 from Dethdukk to Smallstep
+convert y3 to g3 at Dlwillson
+build y1 at Smallstep
+build y3 at Bobby
+convert y1 to r1 at Smallstep
+sacrifice y2 at Giantleap; move y3 from Bobby to Smallstep; move g1 from Bobby to Dlwillson
+move r1 from Smallstep to Jimmy
+build r1 at Dlwillson
+build y1 at Smallstep
+sacrifice y3 at Smallstep; move r1 from Dlwillson to Jimmy; move r1 from Jimmy to Smallstep; move r1 from Smallstep to Dethdukk
+sacrifice r2 at Dethdukk; capture r1 at Dethdukk
+convert y3 to g3 at Bobby
+sacrifice g3 at Dethdukk; build g2 at Smallstep; build g2 at Smallstep; build g3 at Dethdukk
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build y2 at Giantleap; build r2 at Dlwillson
+sacrifice g3 at Dethdukk; build g3 at Dethdukk; build y3 at Dethdukk; build y3 at Smallstep
+move y2 from Giantleap to Bobby
+sacrifice g3 at Dethdukk; build g3 at Dethdukk; build r2 at Jimmy; build r3 at Dethdukk
+move y2 from Bobby to Smallstep; catastrophe yellow at Smallstep
+sacrifice g3 at Dethdukk; build g3 at Jimmy
+sacrifice y2 at Giantleap; move r2 from Dlwillson to Gambit (y2); move g1 from Dlwillson to Gambit
+move r1 from Dethdukk to Smallstep
+sacrifice g3 at Bobby; build g3 at Gambit; build r3 at Gambit; build r3 at Dlwillson
+convert r3 to y3 at Dethdukk
+convert r2 to y2 at Dlwillson
+move y3 from Dethdukk to Smallstep
+move g1 from Gambit to Smallstep; catastrophe green at Smallstep
+build g1 at Dethdukk
+build g1 at Dlwillson
+move g1 from Dethdukk to Smallstep
+move r3 from Gambit to Potato (b3)
+sacrifice g3 at Jimmy; build g2 at Dethdukk; build g2 at Smallstep; build g3 at Jimmy
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build r2 at Potato; build r3 at Gambit
+sacrifice g3 at Jimmy; build g3 at Jimmy; build y1 at Smallstep; build y1 at Smallstep
+move y2 from Dlwillson to Carrot (b2)
+move y1 from Smallstep to Finaljump (b2)
+move r2 from Gambit to Rutabaga (b3)
+move y1 from Smallstep to Finaljump
+move g3 from Dlwillson to Finaljump
+move y1 from Finaljump to Dlwillson
+sacrifice r2 at Potato; capture y1 at Finaljump; capture y1 at Dlwillson
+sacrifice y3 at Smallstep; move r1 from Smallstep to Jimmy; move r1 from Jimmy to Dlwillson; move r1 from Jimmy to Dlwillson
+sacrifice g3 at Gambit; build g3 at Dlwillson; build y3 at Carrot; build r2 at Rutabaga
+sacrifice y3 at Dethdukk; move g2 from Jimmy to Dlwillson; move g1 from Smallstep to Jimmy; move g1 from Jimmy to Dlwillson; catastrophe green at Dlwillson
+sacrifice y2 at Carrot; move r3 from Gambit to Potato; move r3 from Potato to Dethdukk
+sacrifice g2 at Smallstep; build y2 at Dethdukk; build y2 at Dethdukk
+sacrifice r2 at Rutabaga; capture g1 at Dethdukk; capture g2 at Dethdukk
+sacrifice y2 at Dethdukk; move r2 from Jimmy to Dlwillson; move g3 from Jimmy to Dlwillson; catastrophe red at Dlwillson
+sacrifice r3 at Potato; capture y1 at Dethdukk; capture y2 at Dethdukk

@@ -1,0 +1,52 @@
+Coryke (0, b1r2) g3-
+Wil (1, b3y1) -g3
+build g1 at Coryke
+build g1 at Wil
+convert g1 to y1 at Coryke
+convert g1 to r1 at Wil
+build y1 at Coryke
+build r1 at Wil
+convert y1 to r1 at Coryke
+convert r1 to b1 at Wil
+move r1 from Coryke to Alef (g3)
+build b1 at Wil
+build y1 at Coryke
+move b1 from Wil to Y2 (y2)
+build y2 at Coryke
+build b2 at Wil
+move y1 from Coryke to Alef
+move b1 from Y2 to Y3 (y3)
+convert y2 to r2 at Coryke
+move b1 from Wil to G2 (g2)
+move r1 from Alef to G2
+convert b1 to r1 at G2
+capture r1 at G2
+build b1 at Wil
+move r2 from Coryke to Alef
+move b2 from Wil to Gtoo (g2)
+move r2 from Alef to Gtoo
+convert b2 to r2 at Gtoo
+capture r2 at Gtoo
+build r3 at Wil
+build y2 at Coryke
+move r3 from Wil to Gee2 (g2)
+convert y1 to g1 at Coryke
+build r3 at Wil
+move g1 from Coryke to Alef
+build r3 at Gee2
+build g1 at Coryke
+build g1 at Wil
+sacrifice g3 at Coryke; build g3 at Coryke; build y1 at Coryke; build y2 at Coryke
+convert r3 to y3 at Wil
+move y2 from Coryke to Alef
+sacrifice g3 at Wil; build g3 at Wil; build r3 at Wil; build b2 at Y3
+sacrifice g3 at Coryke; build g3 at Coryke; build y2 at Alef; build y3 at Coryke
+move y3 from Wil to Gee2
+move y2 from Alef to G2
+move r3 from Gee2 to Alef
+sacrifice y2 at Coryke; move y2 from Alef to Gtoo; move y1 from Alef to Gtoo
+sacrifice g3 at Wil; build g3 at Wil; build y2 at Gee2; build b2 at Y3
+sacrifice y3 at Coryke; move y2 from G2 to Wil; move y2 from Gtoo to Wil; move y1 from Gtoo to Wil; catastrophe yellow at Wil
+sacrifice y3 at Gee2; move g1 from Wil to Coryke; move g3 from Wil to Coryke; move r3 from Wil to Coryke; catastrophe green at Coryke
+pass
+capture y1 at Coryke

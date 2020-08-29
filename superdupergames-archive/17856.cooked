@@ -1,0 +1,57 @@
+Remneb (0, b1r2) g3-
+Silenttitan (1, b2r3) -g3
+build g1 at Remneb
+build g1 at Silenttitan
+convert g1 to y1 at Remneb
+convert g1 to y1 at Silenttitan
+build g1 at Remneb
+build g1 at Silenttitan
+move y1 from Remneb to Draconis (g3)
+convert g1 to b1 at Silenttitan
+build y1 at Draconis
+build y2 at Silenttitan
+move y1 from Draconis to Klon (y2)
+move y1 from Silenttitan to Bluestar (b1)
+move y1 from Klon to Ragnarok (b3)
+build b2 at Silenttitan
+build y2 at Draconis
+move b1 from Silenttitan to Greenstar (g1)
+move y2 from Draconis to Remneb
+sacrifice g3 at Silenttitan; build b2 at Greenstar; build b3 at Greenstar; build b3 at Silenttitan
+convert g3 to r3 at Remneb
+sacrifice b2 at Greenstar; convert b3 to r3 at Greenstar; convert b3 to g3 at Silenttitan
+move y1 from Ragnarok to Remneb
+sacrifice g3 at Silenttitan; build b2 at Greenstar; build b3 at Greenstar; build b3 at Silenttitan
+build y2 at Remneb
+sacrifice y2 at Silenttitan; move y1 from Bluestar to Draconis; move y1 from Draconis to Remneb; catastrophe yellow at Remneb
+move y1 from Draconis to Remneb
+sacrifice b2 at Greenstar; convert b3 to y3 at Greenstar; convert b3 to g3 at Silenttitan
+build y1 at Remneb
+build b1 at Greenstar
+build g1 at Remneb
+move b1 from Greenstar to Redstar (r2)
+build g2 at Remneb
+build b2 at Greenstar
+convert g1 to r1 at Remneb
+sacrifice g3 at Silenttitan; build b3 at Greenstar; build b3 at Redstar; build b3 at Silenttitan
+move y1 from Remneb to Rooky (g3)
+sacrifice b2 at Greenstar; convert b3 to g3 at Silenttitan; convert b3 to g3 at Redstar
+move r1 from Remneb to Alderan (y3)
+sacrifice g3 at Redstar; build b2 at Redstar; build b3 at Redstar; build b3 at Silenttitan
+build y1 at Remneb
+convert b3 to y3 at Silenttitan
+move y1 from Remneb to Remagen (b3)
+sacrifice y3 at Silenttitan; move b3 from Redstar to Alderan; move b2 from Redstar to Remagen; move b3 from Greenstar to Rooky
+move g1 from Remneb to Omaha (y3)
+sacrifice r3 at Greenstar; capture r1 at Alderan; capture y1 at Remagen; capture y1 at Rooky
+build y2 at Remneb
+sacrifice g3 at Silenttitan; build y2 at Rooky; build y2 at Remagen; build r1 at Alderan
+sacrifice y2 at Remneb; move r3 from Remneb to Omaha; move r3 from Omaha to Greenstar
+sacrifice y3 at Greenstar; move b3 from Alderan to Remneb; move b3 from Rooky to Remneb; move b2 from Remagen to Remneb; catastrophe blue at Remneb
+sacrifice y1 at Remneb; move r3 from Greenstar to Silenttitan
+sacrifice y2 at Remagen; move y2 from Rooky to Remneb; move b1 from Greenstar to Silenttitan
+capture y2 at Remneb
+convert b1 to r1 at Silenttitan
+capture b2 at Silenttitan
+move r1 from Alderan to Remneb
+convert b2 to r2 at Silenttitan; catastrophe red at Silenttitan

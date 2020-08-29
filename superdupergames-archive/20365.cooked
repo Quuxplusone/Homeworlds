@@ -1,0 +1,93 @@
+Kingsamj (0, r3b2) g3-
+Bloodrumpus (1, g1b2) -y3
+build g1 at Kingsamj
+build y1 at Bloodrumpus
+convert g1 to y1 at Kingsamj
+move y1 from Bloodrumpus to Rigel (g3)
+move y1 from Kingsamj to Firescorn (g1)
+build y1 at Bloodrumpus
+build y2 at Firescorn
+build y2 at Rigel
+move y1 from Firescorn to Kingsamj
+convert y1 to b1 at Bloodrumpus
+build y1 at Kingsamj
+build y2 at Bloodrumpus
+convert y1 to r1 at Kingsamj
+convert y3 to g3 at Bloodrumpus
+move r1 from Kingsamj to Firescorn
+sacrifice g3 at Bloodrumpus; build y1 at Rigel; build y3 at Bloodrumpus; build y3 at Bloodrumpus
+move y2 from Firescorn to Rigel; catastrophe yellow at Rigel
+convert y3 to g3 at Bloodrumpus
+build y1 at Kingsamj
+move y2 from Bloodrumpus to Vega (g3)
+build r1 at Firescorn
+move b1 from Bloodrumpus to Vega
+move y1 from Kingsamj to Firescorn
+convert y2 to r2 at Vega
+convert y1 to b1 at Kingsamj
+build y1 at Bloodrumpus
+build y1 at Firescorn
+move y1 from Bloodrumpus to Vega
+move y1 from Firescorn to Kingsamj
+move g3 from Bloodrumpus to Sirius (y3)
+build y2 at Firescorn
+move g3 from Sirius to Firescorn
+build y2 at Kingsamj
+sacrifice r2 at Vega; capture y2 at Firescorn; capture r1 at Firescorn
+pass
+pass
+build g1 at Kingsamj
+sacrifice g3 at Firescorn; build y2 at Vega; build y3 at Bloodrumpus; build y3 at Bloodrumpus
+build g2 at Kingsamj
+convert y3 to g3 at Bloodrumpus
+move y1 from Firescorn to Vega
+build y3 at Firescorn
+move g2 from Kingsamj to Firescorn
+sacrifice y2 at Firescorn; move y3 from Firescorn to Draconis (b3); move r1 from Firescorn to Vega
+move y2 from Kingsamj to Firescorn
+sacrifice y2 at Vega; move y3 from Bloodrumpus to Vega; move y3 from Vega to Cygnus (r1)
+build r2 at Firescorn
+move y3 from Draconis to Cygnus
+build y2 at Firescorn
+convert g3 to r3 at Bloodrumpus
+convert g3 to r3 at Kingsamj
+build y2 at Bloodrumpus
+sacrifice y2 at Firescorn; move y1 from Vega to Cygnus; move y1 from Kingsamj to Cygnus; catastrophe yellow at Cygnus
+convert y2 to g2 at Bloodrumpus
+build g2 at Kingsamj
+move g2 from Bloodrumpus to Crux (b3)
+move r2 from Firescorn to Crux
+build g3 at Crux
+build g3 at Kingsamj
+sacrifice r1 at Vega; capture r2 at Crux
+convert g3 to y3 at Kingsamj
+convert g2 to y2 at Crux
+move r3 from Kingsamj to Firescorn
+build r1 at Bloodrumpus
+move r1 from Firescorn to Vega
+move r3 from Bloodrumpus to Crux
+capture y1 at Vega
+sacrifice y2 at Crux; move r3 from Crux to Firescorn; move g3 from Crux to Firescorn
+move r3 from Firescorn to Crux
+sacrifice b1 at Vega; convert g3 to b3 at Firescorn
+move y2 from Firescorn to Crux
+sacrifice r2 at Crux; capture g2 at Firescorn
+sacrifice y2 at Crux; move g2 from Kingsamj to Firescorn; move g1 from Kingsamj to Firescorn; catastrophe green at Firescorn
+build y1 at Bloodrumpus
+convert y3 to g3 at Kingsamj
+convert y1 to b1 at Bloodrumpus
+convert b1 to y1 at Kingsamj
+build y1 at Bloodrumpus
+build y2 at Vega
+move y1 from Bloodrumpus to Algol (g3)
+build y2 at Kingsamj
+build y2 at Bloodrumpus
+sacrifice y2 at Kingsamj; move y1 from Vega to Bloodrumpus; move y2 from Vega to Bloodrumpus; catastrophe yellow at Bloodrumpus
+build r1 at Bloodrumpus
+build r2 at Vega
+build b1 at Bloodrumpus
+sacrifice y1 at Kingsamj; move r2 from Vega to Bloodrumpus
+move y1 from Algol to Bootes (g2)
+sacrifice r3 at Crux; capture r1 at Bloodrumpus; capture r1 at Bloodrumpus; capture b1 at Bloodrumpus
+build b1 at Bloodrumpus
+build g1 at Kingsamj; catastrophe blue at Bloodrumpus

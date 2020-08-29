@@ -1,0 +1,14 @@
+Jeffw (0, y1g3) b3-
+Nycavri (1, y2b1) -g3
+build b1 at Jeffw
+build g1 at Nycavri
+convert b1 to y1 at Jeffw
+build g1 at Nycavri
+build y1 at Jeffw
+move g1 from Nycavri to Mvb (y3)
+build y2 at Jeffw
+move g1 from Mvb to Mvg (y2); catastrophe yellow at Jeffw
+build b1 at Jeffw
+move g1 from Mvg to Jeffw
+convert b3 to r3 at Jeffw
+sacrifice g3 at Nycavri; build g1 at Jeffw; build g2 at Jeffw; build g2 at Jeffw; catastrophe green at Jeffw

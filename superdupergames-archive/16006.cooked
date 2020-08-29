@@ -1,0 +1,12 @@
+Zackstack (0, b1r2) g3-
+Dlwillson (1, y3b2) -g3
+build g1 at Zackstack
+build g1 at Dlwillson
+convert g1 to y1 at Zackstack
+convert g1 to b1 at Dlwillson
+build y1 at Zackstack
+build b1 at Dlwillson
+build y1 at Zackstack
+move b1 from Dlwillson to Frog (g1)
+move y1 from Zackstack to Toad (g3)
+build g1 at Dlwillson

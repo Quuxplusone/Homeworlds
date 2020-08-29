@@ -1,0 +1,11 @@
+Zoltar (0, y3b1) g3-
+Andylooney (1, r2b3) -g3
+build g1 at Zoltar
+build g1 at Andylooney
+convert g1 to y1 at Zoltar
+convert g3 to y3 at Andylooney
+build g1 at Zoltar
+build y1 at Andylooney
+move y1 from Zoltar to Greenbelt (g2)
+move y1 from Andylooney to Collegepark (g1)
+convert g1 to r1 at Zoltar

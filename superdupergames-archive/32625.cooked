@@ -1,0 +1,39 @@
+Wil (0, b2r1) g3-
+Felix (1, y2b3) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to r1 at Wil
+convert g1 to r1 at Felix
+build r2 at Wil
+build r2 at Felix
+convert r1 to y1 at Wil
+convert r2 to y2 at Felix
+build y1 at Wil
+build g1 at Felix
+move y1 from Wil to G3 (g3)
+convert g1 to b1 at Felix
+build y1 at G3
+move y2 from Felix to Piece (g1)
+sacrifice g3 at Wil; build y2 at G3; build y3 at Wil; build y3 at Wil
+build y3 at Piece
+sacrifice y2 at G3; move y1 from G3 to Piece; move y1 from G3 to Piece; catastrophe yellow at Piece
+build b1 at Felix
+convert y3 to g3 at Wil
+move b1 from Felix to Preston (g1)
+build y1 at Wil
+build b1 at Preston
+move y3 from Wil to G3 (g3)
+convert b1 to y1 at Preston
+move y1 from Wil to B3 (b3)
+build b1 at Preston
+sacrifice g3 at Wil; build y2 at G3; build y2 at B3; build y3 at Wil
+move b1 from Preston to Brink (y3)
+move y2 from G3 to Preston
+sacrifice g3 at Felix; build b2 at Brink; build b2 at Brink; build b3 at Felix
+sacrifice r2 at Wil; capture y1 at Preston; capture b1 at Preston
+sacrifice b1 at Brink; convert b3 to g3 at Felix
+convert y3 to g3 at Wil
+convert b2 to g2 at Brink
+build y3 at Preston
+move b2 from Brink to Preston
+convert y3 to r3 at Preston

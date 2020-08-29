@@ -1,0 +1,66 @@
+Wil (0, y3b2) g3-
+Felix (1, r1b3) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to r1 at Wil
+convert g1 to r1 at Felix
+build r2 at Wil
+build r2 at Felix
+build r2 at Wil
+convert r1 to y1 at Felix
+move r2 from Wil to Y1 (y1)
+build y1 at Felix
+move r2 from Y1 to Y2 (y2)
+move g3 from Felix to Y2
+move r2 from Y2 to Y3 (y3)
+build g1 at Y2
+convert r2 to y2 at Wil
+move g3 from Y2 to Felix
+move r2 from Y3 to Y2
+move g1 from Y2 to Felix
+build r1 at Wil
+move y1 from Felix to B2 (b2)
+move r1 from Wil to G1 (g1)
+move r2 from Felix to B2B (b2)
+build g1 at Wil
+move g1 from Felix to B2B
+build g2 at Wil
+build g2 at Felix
+build y1 at Wil
+sacrifice g3 at Felix; build g2 at Felix; build g3 at Felix; build g3 at B2B
+sacrifice g3 at Wil; build g3 at Wil; build r2 at G1; build r3 at Y2
+sacrifice g3 at Felix; build y2 at Felix; build y3 at B2; build y3 at Felix
+move y1 from Wil to G1
+sacrifice y2 at Felix; move g1 from B2B to G1; move g1 from G1 to Wil
+sacrifice g2 at Wil; build r3 at Wil; build r3 at G1
+sacrifice g2 at Felix; build g2 at Wil; build g2 at B2B; catastrophe green at Wil
+convert r1 to g1 at Wil
+convert g2 to y2 at B2B
+build g1 at Wil
+build r1 at B2B
+move r3 from Y2 to B1 (b1)
+move r1 from B2B to G1; catastrophe red at G1
+build r1 at Wil
+move r2 from B2B to G1
+move y1 from G1 to G2 (g2)
+build g2 at B2B
+move y1 from G2 to G3 (g3)
+sacrifice g3 at B2B; build g2 at Felix; build g3 at Felix; build g3 at B2B
+move g1 from Wil to B1
+sacrifice g2 at Felix; build r1 at G1
+build g2 at Wil
+move y1 from B2 to G1
+sacrifice g2 at Wil; build r2 at B1; build r3 at Y2
+convert g3 to b3 at B2B
+move r2 from Y2 to G1
+sacrifice r1 at G1; capture r2 at G1
+convert r3 to b3 at Wil
+move b3 from B2B to G1
+build g2 at Wil
+sacrifice g3 at Felix; build b1 at G1; build g3 at B2B; build g3 at Felix
+move b3 from Wil to B1
+move b3 from G1 to Wil
+convert g1 to b1 at Wil
+sacrifice r2 at G1; capture y2 at Wil; capture g2 at Wil
+sacrifice y1 at G3; move b3 from B1 to Wil; catastrophe blue at Wil
+sacrifice r2 at G1; capture r1 at Wil

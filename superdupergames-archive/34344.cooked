@@ -1,0 +1,41 @@
+Babamots (0, b2r1) g3-
+Dodobirb (1, b1r3) -g3
+build g1 at Babamots
+build g1 at Dodobirb
+convert g1 to b1 at Babamots
+convert g1 to b1 at Dodobirb
+build b2 at Babamots
+build b2 at Dodobirb
+convert b2 to y2 at Babamots
+convert b2 to y2 at Dodobirb
+build b2 at Babamots
+build b2 at Dodobirb
+move b1 from Babamots to Ferenginar (g3)
+move b2 from Dodobirb to Twopip (g2)
+build b3 at Ferenginar
+build b3 at Twopip
+convert b3 to y3 at Ferenginar
+convert b3 to y3 at Twopip
+build b3 at Ferenginar
+build b3 at Twopip
+move b1 from Ferenginar to Risa (g2)
+move b1 from Dodobirb to Echo (g2)
+build b3 at Risa
+convert b3 to y3 at Twopip
+convert b3 to r3 at Risa
+convert b1 to r1 at Echo
+build b1 at Ferenginar
+build b3 at Twopip
+build b3 at Risa
+move b3 from Twopip to Threepip (r3)
+convert b2 to r2 at Babamots
+move y3 from Twopip to Dodobirb
+move b3 from Ferenginar to Echo
+sacrifice y3 at Twopip; move b2 from Twopip to Dodobirb; move b2 from Dodobirb to Risa; move b3 from Threepip to Risa; catastrophe blue at Risa
+move y3 from Ferenginar to Xindi (g2)
+build g1 at Dodobirb
+sacrifice y2 at Babamots; move y3 from Xindi to Dodobirb; move b3 from Echo to Dodobirb
+capture y3 at Dodobirb
+sacrifice r3 at Risa; capture y3 at Dodobirb; capture y3 at Dodobirb; capture g3 at Dodobirb
+pass
+sacrifice r2 at Babamots; capture y2 at Dodobirb; capture g1 at Dodobirb

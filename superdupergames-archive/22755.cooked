@@ -1,0 +1,21 @@
+Ts52 (0, y3b2) g3-
+Weishaupt (1, g1b2) -y3
+build g1 at Ts52
+build y1 at Weishaupt
+move g1 from Ts52 to Gonzo (b1)
+move y1 from Weishaupt to Horchata (b3)
+build g1 at Ts52
+convert y3 to g3 at Weishaupt
+build g2 at Gonzo
+build g2 at Weishaupt
+convert g2 to y2 at Gonzo
+build g2 at Weishaupt
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build g3 at Ts52
+convert g3 to y3 at Weishaupt
+sacrifice y2 at Gonzo; move g1 from Gonzo to Horchata; move g1 from Horchata to Weishaupt; catastrophe green at Weishaupt
+convert y1 to g1 at Horchata
+convert g3 to r3 at Ts52
+convert g1 to y1 at Horchata
+move r3 from Ts52 to Zoe (y1)
+convert y3 to g3 at Weishaupt
+move r3 from Zoe to Weishaupt

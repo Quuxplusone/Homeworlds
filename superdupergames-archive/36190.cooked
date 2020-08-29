@@ -1,0 +1,17 @@
+Cuc (0, b1g1) y3-
+Cuc2 (1, g3b3) -y3
+build y1 at Cuc
+pass
+build y1 at Cuc
+build y1 at Cuc2
+build y2 at Cuc
+build y2 at Cuc2
+pass
+build y2 at Cuc2
+convert y3 to b3 at Cuc
+convert y3 to b3 at Cuc2
+build y3 at Cuc
+build y3 at Cuc2
+sacrifice b3 at Cuc; convert y3 to b3 at Cuc; convert y2 to b2 at Cuc; convert y1 to b1 at Cuc
+sacrifice b3 at Cuc2; convert y2 to b2 at Cuc2; convert y2 to b2 at Cuc2; convert y1 to b1 at Cuc2
+move y1 from Cuc to Cuc2

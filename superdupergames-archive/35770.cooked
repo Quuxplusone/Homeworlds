@@ -1,0 +1,87 @@
+Cuc (0, g2b1) y3-
+Cuc2 (1, g3b3) -r3
+build y1 at Cuc
+build r1 at Cuc2
+convert y1 to r1 at Cuc
+convert r1 to y1 at Cuc2
+build r1 at Cuc
+build y1 at Cuc2
+move r1 from Cuc to G3A (g3)
+move y1 from Cuc2 to G2B (g2)
+build r1 at G3A
+build y1 at G2B
+build y2 at Cuc
+build r2 at Cuc2
+move y2 from Cuc to G3A
+build y2 at G2B
+build r2 at Cuc
+sacrifice y2 at G2B; move r3 from Cuc2 to G2B; move r3 from G2B to G3A
+move r1 from Cuc to G3A; catastrophe red at G3A
+build y2 at G2B
+build r1 at Cuc
+build r1 at Cuc2
+convert r1 to g1 at Cuc
+move y1 from G2B to G3A
+move r2 from Cuc to G3A
+build y2 at G2B
+move y2 from G3A to G2B; catastrophe yellow at G2B
+move r2 from Cuc2 to Cuc
+build r1 at G3A
+build r1 at Cuc2
+build g1 at Cuc
+capture g1 at Cuc
+sacrifice r1 at G3A; capture r2 at Cuc
+build y1 at G3A
+capture g1 at Cuc
+build y2 at G3A
+capture y2 at G3A
+build y2 at Cuc2
+move r2 from G3A to G2C (g2)
+move y1 from Cuc2 to G2C
+capture y1 at G2C
+convert r1 to g1 at Cuc2
+sacrifice y2 at G3A; move g1 from Cuc to Cuc2; move g1 from Cuc to Cuc2; catastrophe green at Cuc2
+build y2 at G3A
+move r2 from G2C to G3A
+move y2 from G3A to G2C
+capture y1 at G3A
+build y2 at G3A
+capture y2 at G3A
+build y3 at G2C
+pass
+move y3 from G2C to Cuc2
+move y2 from G3A to G1D (g1)
+build y3 at G3A
+build r1 at Cuc
+convert y3 to r3 at Cuc2
+sacrifice y2 at G1D; move r1 from Cuc to Cuc2; move r2 from Cuc to Cuc2; catastrophe red at Cuc2
+move y1 from G3A to Cuc
+convert y3 to r3 at Cuc
+move y2 from G2C to G3E (g3)
+capture y1 at Cuc
+build y2 at G3E
+build y3 at G2C
+move y3 from G3A to B2F (b2)
+move y1 from G3A to G2G (g2)
+convert y2 to r2 at Cuc2
+build y2 at G2G
+move y3 from B2F to Cuc2
+move y1 from Cuc to G3A
+convert y3 to r3 at Cuc2
+move r2 from G3A to G1H (g1)
+move y2 from G3E to G2C
+move y3 from G2C to G1H
+build y3 at G3E
+build r1 at Cuc
+move y2 from G2C to Cuc2
+build r1 at G1H
+move y2 from G3E to G1H
+sacrifice y2 at G2G; move r1 from G1H to Cuc2; move r2 from G1H to Cuc2; catastrophe red at Cuc2
+convert y2 to r2 at Cuc2
+move y1 from G3A to Cuc
+build y2 at G3E
+move r3 from Cuc to Cuc2
+move y2 from G1H to Cuc2
+capture r2 at Cuc2
+sacrifice y2 at G3E; move y3 from G3E to G1H; move y3 from G1H to Cuc2
+sacrifice r2 at Cuc2; capture y2 at Cuc2; capture y3 at Cuc2

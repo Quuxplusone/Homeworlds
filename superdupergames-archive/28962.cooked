@@ -1,0 +1,30 @@
+Felix (0, y3b2) g3-
+Endo (1, y1b3) -g3
+build g1 at Felix
+build g1 at Endo
+move g1 from Felix to Ice (b1)
+convert g1 to b1 at Endo
+build g1 at Felix
+build b1 at Endo
+convert g1 to y1 at Felix
+move b1 from Endo to Wellorder (g2)
+build y1 at Felix
+build b2 at Endo
+move y1 from Felix to Grass (g1)
+move b2 from Endo to Basis (b2)
+build y2 at Grass
+build b3 at Wellorder
+move y1 from Grass to Molnak (b3)
+convert b3 to y3 at Wellorder
+sacrifice g3 at Felix; build y2 at Molnak; build y2 at Grass; build y3 at Felix
+build b3 at Wellorder
+convert y1 to g1 at Felix
+convert b3 to r3 at Wellorder
+convert g1 to r1 at Ice
+build b3 at Wellorder
+convert y3 to g3 at Felix
+build r1 at Wellorder
+move g1 from Felix to Ice
+move r3 from Wellorder to Grass
+build g1 at Ice
+sacrifice y3 at Wellorder; move b3 from Wellorder to Ice; move b3 from Ice to Felix; move r3 from Grass to Felix

@@ -1,0 +1,31 @@
+Andylooney (0, b1g2) y3-
+Cobalt (1, y1b3) -g3
+build y1 at Andylooney
+build g1 at Cobalt
+convert y1 to g1 at Andylooney
+convert g1 to r1 at Cobalt
+build y1 at Andylooney
+build g1 at Cobalt
+convert y1 to r1 at Andylooney
+convert g1 to b1 at Cobalt
+build y1 at Andylooney
+build g1 at Cobalt
+move g1 from Andylooney to Clampett (y3)
+move g1 from Cobalt to Doxsee (b2)
+build y1 at Andylooney
+build g1 at Doxsee
+build g2 at Clampett
+convert g3 to y3 at Cobalt
+move y1 from Andylooney to Garden (g3)
+convert y3 to g3 at Cobalt
+build y2 at Garden
+build g2 at Cobalt
+move g1 from Clampett to Plugh (y2)
+convert g2 to r2 at Cobalt
+move y1 from Garden to Bomber (b2)
+move r2 from Cobalt to Bomber
+move y1 from Bomber to Paradise (g3)
+convert r2 to y2 at Bomber
+sacrifice g2 at Clampett; build y3 at Garden; build y3 at Paradise
+move y2 from Bomber to Xiii (r3)
+build g2 at Plugh

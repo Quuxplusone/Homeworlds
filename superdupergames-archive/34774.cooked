@@ -1,0 +1,38 @@
+Phi_618 (0, b2y1) g3-
+Trydnt (1, b2y3) -g3
+build g1 at Phi_618
+build g1 at Trydnt
+convert g1 to y1 at Phi_618
+convert g1 to y1 at Trydnt
+build y2 at Phi_618
+build y2 at Trydnt
+convert y2 to r2 at Phi_618
+move y1 from Trydnt to G1 (g1)
+build y2 at Phi_618
+sacrifice y2 at Trydnt; move y1 from G1 to G3 (g3); move y1 from G3 to Phi_618; catastrophe yellow at Phi_618
+build r1 at Phi_618
+build g1 at Trydnt
+build r1 at Phi_618
+convert g1 to r1 at Trydnt
+convert r1 to y1 at Phi_618
+build g1 at Trydnt
+build y1 at Phi_618
+convert g1 to y1 at Trydnt
+move y1 from Phi_618 to Aether (g1)
+move y1 from Trydnt to G1 (g1)
+build y2 at Aether
+build y2 at G1
+move y2 from Aether to Belle (g3)
+move y1 from G1 to B3 (b3)
+sacrifice g3 at Phi_618; build y2 at Aether; build y3 at Belle; build y3 at Phi_618
+build g1 at Trydnt
+convert y1 to b1 at Phi_618
+convert g1 to b1 at Trydnt
+move b1 from Phi_618 to Aether
+move b1 from Trydnt to Y1 (y1)
+convert r2 to g2 at Phi_618
+build g1 at Trydnt
+build g2 at Phi_618
+sacrifice g1 at Trydnt; build b1 at Y1
+build b2 at Aether
+sacrifice y2 at G1; move b1 from Y1 to Phi_618; move b1 from Y1 to Phi_618

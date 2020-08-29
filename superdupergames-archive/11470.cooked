@@ -1,0 +1,40 @@
+Matrixfrog (0, b2g1) y3-
+Madwuher (1, g1b3) -g3
+build y1 at Matrixfrog
+build g1 at Madwuher
+move y1 from Matrixfrog to Apple (g3)
+convert g3 to y3 at Madwuher
+build y1 at Matrixfrog
+build g2 at Madwuher
+move y1 from Apple to Pear (g2)
+move g2 from Madwuher to Edora (b2)
+build y1 at Pear
+build g2 at Edora
+build y2 at Matrixfrog
+build g3 at Edora
+sacrifice y2 at Matrixfrog; move y1 from Pear to Madwuher; move y1 from Pear to Madwuher
+convert y3 to r3 at Madwuher
+move y1 from Madwuher to Edora
+capture y1 at Madwuher
+build y2 at Matrixfrog
+convert g2 to r2 at Edora
+move y1 from Edora to Efora (g3)
+convert g2 to y2 at Edora
+convert y2 to r2 at Matrixfrog
+build g2 at Edora
+convert y1 to b1 at Matrixfrog
+sacrifice g3 at Edora; build g2 at Edora; build g2 at Madwuher; build g3 at Edora
+move y1 from Efora to Pandora (b2)
+move g2 from Edora to Bologna (b3)
+build y1 at Matrixfrog
+sacrifice g3 at Edora; build g3 at Bologna; build g3 at Edora; build g3 at Bologna
+build y2 at Matrixfrog
+convert g3 to y3 at Bologna
+move y1 from Matrixfrog to Scarcity (g3)
+sacrifice g3 at Bologna; build g3 at Bologna; build y2 at Edora; build y3 at Madwuher
+build r1 at Matrixfrog
+sacrifice g3 at Edora; build g3 at Bologna; build r1 at Edora; build r1 at Madwuher
+move y2 from Matrixfrog to Scarcity
+sacrifice y3 at Madwuher; move g3 from Bologna to Matrixfrog; move g3 from Bologna to Matrixfrog; move y3 from Bologna to Matrixfrog
+capture y3 at Matrixfrog
+sacrifice r3 at Madwuher; capture y3 at Matrixfrog; capture y3 at Matrixfrog; capture r2 at Matrixfrog

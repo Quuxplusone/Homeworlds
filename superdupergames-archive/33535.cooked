@@ -1,0 +1,59 @@
+Babamots (0, g3b2) y3-
+Smokeytroll42 (1, b2r1) -g3
+build y1 at Babamots
+build g1 at Smokeytroll42
+build y1 at Babamots
+build g1 at Smokeytroll42
+move y1 from Babamots to Iconia (y1)
+convert g3 to y3 at Smokeytroll42
+build y2 at Babamots
+move g1 from Smokeytroll42 to Corrino (g3)
+convert y2 to g2 at Babamots
+build g1 at Smokeytroll42
+move g2 from Babamots to Ferenginar (b1)
+move g1 from Smokeytroll42 to Ix (y3)
+build y2 at Babamots
+build g2 at Ix
+convert y1 to r1 at Babamots
+convert g1 to r1 at Smokeytroll42
+build r2 at Babamots
+build g1 at Ix
+move y2 from Babamots to Ferenginar
+move g1 from Ix to Smokeytroll42
+build r2 at Babamots
+build r2 at Smokeytroll42
+move r2 from Babamots to Ferenginar
+move r2 from Smokeytroll42 to Corrino
+sacrifice g2 at Ferenginar; build r3 at Ferenginar; build r3 at Babamots
+build r3 at Corrino
+move r3 from Ferenginar to Ix
+move g2 from Ix to Iconia
+capture g1 at Ix
+sacrifice r1 at Smokeytroll42; capture y1 at Iconia
+build g2 at Ix
+build y1 at Iconia
+sacrifice g2 at Ix; build y2 at Ferenginar; build y2 at Babamots
+move y1 from Iconia to Corrino
+move r3 from Babamots to Iconia
+move r3 from Corrino to Ferenginar
+sacrifice y2 at Ferenginar; move y2 from Ferenginar to Ix; move r2 from Ferenginar to Kronos (g3)
+sacrifice y1 at Iconia; move r3 from Ferenginar to Kronos
+sacrifice r2 at Kronos; capture g2 at Iconia
+move g1 from Corrino to Caladan (y2)
+move g2 from Iconia to Wadi (b3)
+build y1 at Smokeytroll42
+build g2 at Wadi
+build g2 at Caladan
+move y2 from Babamots to Remus (r1)
+build r2 at Corrino
+move r3 from Iconia to Corrino
+sacrifice y1 at Corrino; move r2 from Corrino to Caladan
+capture r2 at Corrino
+move y1 from Smokeytroll42 to Kronos
+move r3 from Ix to Caladan
+move r2 from Caladan to Kronos
+sacrifice r2 at Corrino; capture g2 at Caladan; capture g1 at Caladan
+build y1 at Kronos
+sacrifice g2 at Wadi; build g2 at Caladan; build r2 at Corrino
+sacrifice y1 at Kronos; move r3 from Kronos to Remus
+move y2 from Remus to Corrino

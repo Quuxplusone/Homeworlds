@@ -1,0 +1,35 @@
+Silenttitan (0, r1b2) g3-
+Agentofchaos (1, r2b3) -g3
+build g1 at Silenttitan
+build g1 at Agentofchaos
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Agentofchaos
+build g1 at Silenttitan
+build g1 at Agentofchaos
+convert g1 to r1 at Silenttitan
+convert g1 to r1 at Agentofchaos
+build r2 at Silenttitan
+build r2 at Agentofchaos
+move r2 from Silenttitan to Sol (b3)
+move r2 from Agentofchaos to Freedonia (y1)
+sacrifice g3 at Silenttitan; build r3 at Silenttitan; build r3 at Sol; build y2 at Silenttitan
+build y2 at Agentofchaos
+convert r3 to g3 at Silenttitan
+convert y1 to g1 at Agentofchaos
+sacrifice y1 at Silenttitan; move r3 from Sol to Freedonia
+move r2 from Freedonia to Ajeroth (y3)
+sacrifice g3 at Silenttitan; build r3 at Sol; build r3 at Freedonia; build y1 at Silenttitan
+move r1 from Agentofchaos to Freedonia
+move r3 from Freedonia to Ajeroth
+sacrifice y2 at Agentofchaos; move r2 from Ajeroth to Silenttitan; move r1 from Freedonia to Dredloth (y3)
+capture r2 at Silenttitan
+move r1 from Dredloth to Silenttitan; catastrophe red at Silenttitan
+convert r3 to g3 at Sol
+convert g1 to y1 at Agentofchaos
+convert r2 to y2 at Sol
+build y2 at Agentofchaos
+build y3 at Sol
+build g1 at Agentofchaos
+sacrifice y3 at Sol; move g3 from Sol to Freedonia; move g3 from Freedonia to Agentofchaos; move r3 from Freedonia to Agentofchaos
+capture r3 at Agentofchaos
+sacrifice r3 at Ajeroth; capture g3 at Agentofchaos; capture r3 at Agentofchaos; capture g1 at Agentofchaos

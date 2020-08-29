@@ -1,0 +1,128 @@
+Goulo (0, g3b2) y3-
+Aristos (1, g1b2) -y3
+build y1 at Goulo
+build y1 at Aristos
+convert y1 to g1 at Goulo
+convert y1 to g1 at Aristos
+build g2 at Goulo
+move g1 from Aristos to Freedom (y3)
+move g2 from Goulo to Citroneto (y1)
+build y1 at Aristos
+convert g1 to r1 at Goulo
+convert y1 to r1 at Aristos
+build y1 at Goulo
+build g1 at Freedom
+build g2 at Citroneto
+move g1 from Freedom to Change (b1)
+move g2 from Citroneto to Freedom
+build g2 at Change
+build g3 at Citroneto
+build g3 at Freedom
+sacrifice g2 at Citroneto; build g2 at Freedom; build r1 at Goulo; catastrophe green at Freedom
+build r2 at Aristos
+move r1 from Goulo to Citroneto
+move r2 from Aristos to Transport (y3)
+build r2 at Citroneto
+build y1 at Aristos
+convert y1 to b1 at Goulo
+move y1 from Aristos to Multiplier (g3)
+move r2 from Citroneto to Multiplier
+move y1 from Multiplier to Change
+sacrifice g3 at Citroneto; build r2 at Goulo; build r3 at Multiplier; build r3 at Citroneto
+sacrifice g1 at Change; build r3 at Transport
+sacrifice y3 at Goulo; move r1 from Goulo to Citroneto; move r1 from Citroneto to Transport; move r1 from Citroneto to Transport; catastrophe red at Transport
+build g1 at Change
+convert r2 to y2 at Goulo
+convert g1 to b1 at Change
+move r3 from Citroneto to Goulo
+build r1 at Aristos
+build y1 at Goulo
+build g1 at Change
+move y1 from Goulo to Rubeneto (r1)
+move r1 from Aristos to Multiplier
+sacrifice y1 at Rubeneto; move r3 from Multiplier to Change
+sacrifice g2 at Change; build b2 at Change; build r1 at Multiplier
+sacrifice y2 at Goulo; move b1 from Goulo to Change; move r3 from Change to Citronego (y3); catastrophe blue at Change
+build y1 at Aristos
+build r2 at Goulo
+build r2 at Aristos
+convert r2 to g2 at Goulo
+build y1 at Aristos
+build g1 at Goulo
+sacrifice y1 at Aristos; move r1 from Multiplier to Escape (y1)
+convert g2 to y2 at Goulo
+build r2 at Multiplier
+build r3 at Goulo
+capture r2 at Multiplier
+sacrifice y2 at Goulo; move r3 from Goulo to Escape; move r3 from Escape to Multiplier; catastrophe red at Multiplier
+build y1 at Aristos
+convert r3 to y3 at Goulo
+move y1 from Aristos to Spawn (g3)
+build y2 at Goulo
+build y2 at Spawn
+move y2 from Goulo to Smeraldeto (g1)
+move y2 from Spawn to Smeraldeto
+move y2 from Smeraldeto to Spawn
+build y2 at Smeraldeto
+build g2 at Goulo
+move y2 from Smeraldeto to Goulo
+sacrifice r3 at Citronego; capture y1 at Spawn; capture y2 at Goulo
+build y3 at Smeraldeto
+convert y2 to r2 at Goulo
+move y1 from Aristos to Morph (b3)
+move y1 from Spawn to Safireto (b1)
+build y2 at Aristos
+move g1 from Goulo to Safireto
+sacrifice y2 at Smeraldeto; move y2 from Aristos to Spawn; move y2 from Spawn to Safireto
+build y2 at Spawn
+sacrifice r2 at Aristos; capture g1 at Safireto; capture y1 at Safireto
+move g2 from Goulo to Escape
+build g2 at Safireto
+build r1 at Goulo
+build r2 at Aristos
+sacrifice r1 at Goulo; capture r1 at Escape
+move y1 from Morph to Shift (b1)
+build r1 at Goulo
+move y3 from Smeraldeto to Spawn
+sacrifice y2 at Spawn; move y2 from Spawn to Rubeno (r2); move r1 from Goulo to Mirteleto (b1)
+convert y1 to g1 at Shift
+sacrifice g2 at Escape; build r3 at Goulo; build r3 at Mirteleto
+build g2 at Shift
+move r3 from Goulo to Safireto
+sacrifice y2 at Safireto; move g2 from Safireto to Goulo; move g1 from Safireto to Goulo
+capture g2 at Goulo
+build g2 at Goulo; catastrophe green at Goulo
+capture y1 at Safireto
+convert g2 to b2 at Shift
+convert r3 to b3 at Safireto
+build b3 at Shift
+sacrifice y2 at Rubeno; move b3 from Safireto to Goulo; move b3 from Goulo to Shift; catastrophe blue at Shift
+build r2 at Aristos
+move r1 from Escape to Smeraldego (g3)
+move r2 from Aristos to Smeraldego
+build r3 at Smeraldego
+build r3 at Smeraldego; catastrophe red at Smeraldego
+move y1 from Safireto to Smeraldego (g3)
+move r2 from Aristos to Smeraldego
+move y1 from Smeraldego to Mirteleto
+build y1 at Spawn
+convert r1 to g1 at Mirteleto
+move y1 from Spawn to Metasticize (b1)
+move r3 from Mirteleto to Smeraldego
+build r1 at Smeraldego
+sacrifice y1 at Mirteleto; move r3 from Smeraldego to Mirteleto
+convert y1 to g1 at Metasticize
+build g2 at Mirteleto
+build g2 at Metasticize
+convert g1 to y1 at Mirteleto
+convert g1 to b1 at Metasticize
+build g1 at Mirteleto
+build b2 at Metasticize
+convert g2 to y2 at Mirteleto
+build y1 at Aristos
+move y1 from Mirteleto to Jadego (g3)
+sacrifice y1 at Aristos; move b2 from Metasticize to Blood (r3)
+move r3 from Mirteleto to Blood
+sacrifice b2 at Blood; convert r2 to b2 at Smeraldego; convert y3 to b3 at Spawn
+build y1 at Mirteleto
+sacrifice y3 at Aristos; move b1 from Metasticize to Goulo; move b2 from Smeraldego to Goulo; move b3 from Spawn to Goulo; catastrophe blue at Goulo

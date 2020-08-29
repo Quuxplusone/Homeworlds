@@ -1,0 +1,23 @@
+Bhorner (0, r2b1) g3-
+Agentofchaos (1, b3r2) -g3
+build g1 at Bhorner
+build g1 at Agentofchaos
+convert g1 to b1 at Bhorner
+convert g1 to b1 at Agentofchaos
+build b2 at Bhorner
+build b2 at Agentofchaos
+convert b2 to y2 at Bhorner
+convert b2 to y2 at Agentofchaos
+build b2 at Bhorner
+build b2 at Agentofchaos
+move b1 from Bhorner to Xmas (g3)
+move b2 from Agentofchaos to Wopolsa (g1)
+convert b2 to r2 at Bhorner
+convert b1 to r1 at Agentofchaos
+build g1 at Bhorner
+build b1 at Wopolsa
+build b2 at Xmas
+convert b2 to y2 at Wopolsa
+convert b1 to y1 at Xmas
+build r1 at Agentofchaos
+build y1 at Xmas

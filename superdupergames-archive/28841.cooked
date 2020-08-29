@@ -1,0 +1,25 @@
+Kanzenryu (0, b1y3) g3-
+Felix (1, g3b1) -b3
+build g1 at Kanzenryu
+build b1 at Felix
+move g1 from Kanzenryu to Mid (y2)
+convert b1 to y1 at Felix
+build g1 at Mid
+build b1 at Felix
+build g1 at Kanzenryu
+convert b3 to g3 at Felix
+build g2 at Mid
+convert g3 to r3 at Felix
+convert g1 to r1 at Kanzenryu
+move r3 from Felix to Mid
+move g2 from Mid to Felix
+build b2 at Felix
+convert g2 to b2 at Felix; catastrophe blue at Felix
+capture g1 at Mid
+move g1 from Mid to Felix
+sacrifice r3 at Mid; capture g1 at Felix
+build r1 at Kanzenryu
+build y1 at Felix
+move g3 from Kanzenryu to Mid
+build g1 at Felix
+move g3 from Mid to Felix; catastrophe green at Felix

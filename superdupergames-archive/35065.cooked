@@ -1,0 +1,37 @@
+The_Unicyclone (0, g3b2) y3-
+Themadhunter249 (1, g3b2) -r3
+build y1 at The_Unicyclone
+build r1 at Themadhunter249
+convert y3 to r3 at The_Unicyclone
+convert r1 to y1 at Themadhunter249
+build r1 at The_Unicyclone
+move y1 from Themadhunter249 to Battleplanet (r1)
+build y1 at The_Unicyclone
+convert r3 to y3 at Themadhunter249
+convert y1 to b1 at The_Unicyclone
+build y1 at Themadhunter249
+move b1 from The_Unicyclone to Stuffmart (g1)
+build y2 at Themadhunter249
+build y2 at The_Unicyclone
+convert y3 to r3 at Themadhunter249
+convert y2 to b2 at The_Unicyclone
+convert y2 to r2 at Themadhunter249
+build y2 at The_Unicyclone
+move r2 from Themadhunter249 to Stuffmart
+sacrifice y1 at The_Unicyclone; move b1 from Stuffmart to The_Unicyclone
+build y1 at Themadhunter249
+build y2 at The_Unicyclone
+convert y1 to b1 at Themadhunter249
+move b2 from The_Unicyclone to Battleplanet
+move y1 from Battleplanet to Themadhunter249
+move y2 from The_Unicyclone to Battleplanet
+move b1 from Themadhunter249 to Stuffmart
+convert b1 to g1 at The_Unicyclone
+convert y1 to b1 at Themadhunter249
+build y1 at The_Unicyclone
+convert b1 to y1 at Stuffmart
+sacrifice g1 at The_Unicyclone; build y2 at Battleplanet
+build y3 at Themadhunter249
+sacrifice y2 at The_Unicyclone; move y2 from Battleplanet to Themadhunter249; move y2 from Battleplanet to Themadhunter249; catastrophe yellow at Themadhunter249
+convert b1 to y1 at Themadhunter249
+build y2 at The_Unicyclone

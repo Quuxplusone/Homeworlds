@@ -1,0 +1,20 @@
+Tesla (0, b2g3) y3-
+Zoltar (1, y3b1) -g3
+build y1 at Tesla
+build g1 at Zoltar
+move y3 from Tesla to Tales (g1)
+build g1 at Zoltar
+build y1 at Tesla
+move g1 from Zoltar to Blueridge (b2)
+convert y1 to b1 at Tesla
+build g2 at Blueridge
+move b1 from Tesla to Tales
+convert g2 to y2 at Blueridge
+build y1 at Tales
+build g2 at Blueridge
+convert y3 to r3 at Tales
+convert g2 to r2 at Blueridge
+move r3 from Tales to Blueridge
+sacrifice y2 at Blueridge; move r2 from Blueridge to Tales; move r2 from Tales to Tesla
+move y1 from Tales to Blueridge
+capture y1 at Tesla

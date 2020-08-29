@@ -1,0 +1,83 @@
+Silenttitan (0, r1b2) g3-
+Wil (1, y3b2) -g3
+build g1 at Silenttitan
+build g1 at Wil
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Wil
+build g1 at Silenttitan
+build g1 at Wil
+build y1 at Silenttitan
+build y2 at Wil
+build y2 at Silenttitan
+move y1 from Wil to Fortcourage (g1)
+move y1 from Silenttitan to Sol (g3)
+build g2 at Wil
+move y1 from Silenttitan to Sole (b3)
+convert g1 to r1 at Wil
+sacrifice g3 at Silenttitan; build y2 at Sol; build y3 at Sole; build y3 at Silenttitan
+build r1 at Wil
+convert y2 to b2 at Silenttitan
+build y2 at Fortcourage
+convert y3 to g3 at Sole
+move y1 from Fortcourage to Dryden (y3)
+move y1 from Sol to Fortcourage
+sacrifice r1 at Wil; capture y1 at Fortcourage
+sacrifice b2 at Silenttitan; convert g3 to r3 at Sole; convert y3 to g3 at Silenttitan
+convert y2 to b2 at Wil
+build y2 at Sol
+sacrifice y2 at Fortcourage; move g2 from Wil to Fortcourage; move g2 from Fortcourage to Ynot (y3)
+move y2 from Sol to Silenttitan
+build y2 at Fortcourage
+move g1 from Silenttitan to Sole
+build g1 at Wil
+build g2 at Silenttitan
+sacrifice g3 at Wil; build g2 at Ynot; build g3 at Wil; build b1 at Wil
+convert g2 to r2 at Silenttitan
+move b2 from Wil to Fortcourage
+move r3 from Sole to Fortcourage
+sacrifice b2 at Fortcourage; convert y1 to r1 at Fortcourage; convert y2 to r2 at Fortcourage
+sacrifice y2 at Sol; move r3 from Fortcourage to Ynot; move r2 from Silenttitan to Sole
+move g2 from Ynot to Bedrock (y2)
+capture g2 at Ynot
+sacrifice g3 at Wil; build g2 at Bedrock; build g3 at Bedrock; build g3 at Wil
+move g1 from Sole to Bedrock; catastrophe green at Bedrock
+build b1 at Wil
+build g1 at Silenttitan
+move g1 from Wil to Phooey (y1)
+build g2 at Silenttitan
+move g1 from Phooey to Dryden
+move g2 from Silenttitan to Sole
+build g2 at Wil
+convert g2 to b2 at Sole
+move b1 from Wil to Fortcourage
+sacrifice g3 at Silenttitan; build g2 at Ynot; build g3 at Ynot; build g3 at Silenttitan
+convert r2 to y2 at Fortcourage
+move g3 from Ynot to Tic (y1)
+build y2 at Fortcourage
+sacrifice y1 at Sole; move g2 from Ynot to Tac (y1)
+sacrifice g3 at Wil; build g3 at Wil; build b1 at Fortcourage; build r2 at Fortcourage
+move r3 from Ynot to Tic
+move g2 from Wil to Fortcourage
+sacrifice y2 at Silenttitan; move g1 from Silenttitan to Ynot; move g2 from Ynot to Fortcourage
+sacrifice y2 at Fortcourage; move g2 from Fortcourage to Dryden; move g1 from Dryden to Silenttitan
+sacrifice r3 at Tic; capture y2 at Fortcourage; capture r2 at Fortcourage; capture r1 at Fortcourage
+build b3 at Fortcourage
+sacrifice y2 at Fortcourage; move b2 from Sole to Fortcourage; move g3 from Tic to Dryden; catastrophe blue at Fortcourage
+move g2 from Dryden to Silenttitan
+sacrifice r2 at Sole; capture g1 at Silenttitan; capture g2 at Silenttitan
+build r2 at Wil
+convert g2 to b2 at Silenttitan
+build g2 at Wil
+sacrifice r1 at Fortcourage; capture y1 at Dryden
+move r2 from Wil to Phoeey (b1)
+sacrifice b2 at Silenttitan; convert g1 to y1 at Silenttitan; convert g2 to y2 at Fortcourage
+move g2 from Wil to Phoeey
+build y2 at Silenttitan
+convert r2 to y2 at Phoeey
+sacrifice g1 at Ynot; build y3 at Fortcourage
+build g1 at Wil
+move g3 from Dryden to Toe (b1)
+convert g3 to r3 at Wil
+sacrifice y2 at Silenttitan; move y3 from Fortcourage to Wil; move g3 from Toe to Wil
+capture g3 at Wil
+sacrifice r2 at Fortcourage; capture r3 at Wil; capture g3 at Wil

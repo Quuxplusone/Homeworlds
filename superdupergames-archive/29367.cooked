@@ -1,0 +1,50 @@
+Felix (0, y3b2) g3-
+Ts52 (1, b1y3) -g3
+build g1 at Felix
+build g1 at Ts52
+convert g1 to b1 at Felix
+convert g1 to b1 at Ts52
+build b2 at Felix
+move b1 from Ts52 to Kermit (g2)
+move b2 from Felix to Range (g1)
+build g1 at Ts52
+sacrifice g3 at Felix; build b2 at Range; build b3 at Range; build b3 at Felix
+build b3 at Kermit
+convert b3 to y3 at Range
+convert b1 to y1 at Kermit
+convert b3 to g3 at Felix
+build y1 at Kermit
+move b2 from Range to Settlement (y2)
+convert y1 to r1 at Kermit
+sacrifice g3 at Felix; build b1 at Settlement; build b3 at Range; build b3 at Felix
+move b3 from Kermit to Bigbird (y1)
+sacrifice b3 at Range; convert b1 to g1 at Settlement; convert b2 to g2 at Range; convert b3 to g3 at Felix
+move g1 from Ts52 to Zoe (y2)
+sacrifice g2 at Range; build g2 at Settlement; build g2 at Settlement
+convert g3 to r3 at Ts52
+build g3 at Felix
+sacrifice g1 at Zoe; build r1 at Ts52
+convert g2 to r2 at Settlement
+convert r1 to g1 at Ts52
+sacrifice y3 at Range; move r2 from Settlement to Ts52; move g2 from Settlement to Ts52; move g1 from Settlement to Ts52
+capture r2 at Ts52
+convert g2 to r2 at Ts52
+sacrifice r2 at Ts52; capture r2 at Ts52; capture g1 at Ts52
+convert g3 to r3 at Felix
+sacrifice g1 at Ts52; build b1 at Bigbird
+build g1 at Felix
+convert b1 to g1 at Bigbird
+move g1 from Felix to Stead (b1)
+build b2 at Bigbird
+build g2 at Felix
+convert b3 to g3 at Bigbird
+sacrifice g3 at Felix; build g2 at Stead; build g3 at Stead; build g3 at Felix
+build b3 at Bigbird
+sacrifice g3 at Felix; build g3 at Felix; build b3 at Settlement; build r1 at Felix
+convert b3 to y3 at Bigbird
+sacrifice b2 at Settlement; convert g2 to y2 at Stead; convert g2 to y2 at Felix
+build b2 at Bigbird
+sacrifice g3 at Stead; build y1 at Felix; build g2 at Stead; build b3 at Settlement
+sacrifice y3 at Bigbird; move y1 from Kermit to Bigbird; move y1 from Bigbird to Felix; move b2 from Bigbird to Felix; catastrophe yellow at Felix
+sacrifice y2 at Stead; move r3 from Felix to Ts52; move b1 from Felix to Ts52
+sacrifice g3 at Bigbird; build g2 at Bigbird; build g3 at Ts52; build b3 at Felix

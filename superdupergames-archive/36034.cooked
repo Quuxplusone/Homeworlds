@@ -1,0 +1,21 @@
+Trydnt (0, b2y1) g3-
+Satyagrahaha (1, r3b1) -g3
+build g1 at Trydnt
+build g1 at Satyagrahaha
+convert g1 to b1 at Trydnt
+build g1 at Satyagrahaha
+build b1 at Trydnt
+convert g1 to y1 at Satyagrahaha
+move b1 from Trydnt to G3 (g3)
+build g1 at Satyagrahaha
+build b2 at G3
+move g1 from Satyagrahaha to R2 (r2)
+convert b2 to y2 at G3
+convert g3 to r3 at Satyagrahaha
+build b2 at G3
+build r1 at Satyagrahaha
+move b2 from G3 to R2
+move r1 from Satyagrahaha to R2
+capture r1 at R2
+build r1 at Satyagrahaha
+sacrifice y2 at G3; move r1 from R2 to Satyagrahaha; move b2 from R2 to Satyagrahaha; catastrophe red at Satyagrahaha

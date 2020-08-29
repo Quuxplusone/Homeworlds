@@ -1,0 +1,55 @@
+Adambadura (0, b3g2) r3-
+Goulo (1, g1b2) -y3
+build r1 at Adambadura
+build y1 at Goulo
+convert r1 to y1 at Adambadura
+convert y3 to r3 at Goulo
+build r1 at Adambadura
+build r1 at Goulo
+convert r1 to b1 at Adambadura
+build r1 at Goulo
+build b1 at Adambadura
+convert r1 to g1 at Goulo
+build r1 at Adambadura
+move r3 from Goulo to Zarkcity (g3)
+pass
+build y1 at Goulo
+build y2 at Adambadura
+build y2 at Goulo
+convert y2 to g2 at Adambadura
+move y1 from Goulo to Zarkcity
+build y2 at Adambadura
+build r1 at Goulo
+build r2 at Adambadura
+build r2 at Zarkcity
+move r2 from Adambadura to Throughtheages (g1)
+move r3 from Zarkcity to Throughtheages
+move r1 from Adambadura to Throughtheages
+capture r2 at Throughtheages
+build r2 at Throughtheages; catastrophe red at Throughtheages
+convert y1 to b1 at Goulo
+move b1 from Adambadura to Newbetterworld (y1)
+build b2 at Goulo
+build g1 at Adambadura
+build g2 at Goulo
+move g1 from Adambadura to Newbetterworld
+move g2 from Goulo to Tzaar (r3)
+sacrifice g2 at Adambadura; build g2 at Newbetterworld; build g3 at Newbetterworld
+sacrifice y1 at Zarkcity; move g2 from Tzaar to Newbetterworld; catastrophe green at Newbetterworld
+convert y1 to g1 at Adambadura
+build y1 at Goulo
+build g2 at Adambadura
+move b1 from Goulo to Dvonn (y3)
+move g2 from Adambadura to Newbetterworld
+move y1 from Goulo to Zarkcity
+build b2 at Newbetterworld
+move b2 from Goulo to Zarkcity
+convert b2 to y2 at Newbetterworld
+build r1 at Zarkcity
+build g2 at Newbetterworld
+build b2 at Zarkcity
+move g2 from Newbetterworld to Dvonn
+move b2 from Zarkcity to Goulo
+sacrifice g2 at Newbetterworld; build g2 at Dvonn; build g3 at Adambadura
+build r2 at Goulo
+sacrifice y2 at Newbetterworld; move g2 from Dvonn to Goulo; move g2 from Dvonn to Goulo; catastrophe green at Goulo

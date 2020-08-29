@@ -1,0 +1,20 @@
+Schmoopy (0, b3r1) g3-
+Inattentive (1, y3b1) -g3
+build g1 at Schmoopy
+build g1 at Inattentive
+convert g1 to r1 at Schmoopy
+convert g1 to r1 at Inattentive
+build r2 at Schmoopy
+build r2 at Inattentive
+convert r1 to y1 at Schmoopy
+move r2 from Inattentive to Poop (y2)
+build g1 at Schmoopy
+build g1 at Inattentive
+move g3 from Schmoopy to Poop
+move g3 from Inattentive to Poop
+sacrifice r2 at Schmoopy; capture r2 at Poop; capture g3 at Poop
+build g1 at Inattentive
+move g3 from Poop to Inattentive
+build g2 at Inattentive; catastrophe green at Inattentive
+move r2 from Poop to Inattentive
+convert r1 to g1 at Inattentive

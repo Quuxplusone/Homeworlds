@@ -1,0 +1,83 @@
+Babamots (0, b2r1) g3-
+Dlwillson (1, y2b3) -g3
+build g1 at Babamots
+build g1 at Dlwillson
+convert g1 to y1 at Babamots
+convert g1 to r1 at Dlwillson
+build y1 at Babamots
+build r1 at Dlwillson
+build y1 at Babamots
+build r2 at Dlwillson
+move y1 from Babamots to Orion (g3)
+convert r2 to y2 at Dlwillson
+sacrifice g3 at Babamots; build y2 at Orion; build y3 at Orion; build y3 at Babamots
+move y2 from Dlwillson to Field (g1)
+move y1 from Orion to Field
+move r1 from Dlwillson to Field
+build y3 at Field
+build g1 at Dlwillson
+move y1 from Field to Bolarus (b3)
+sacrifice g3 at Dlwillson; build r2 at Field; build r2 at Field; build r2 at Dlwillson
+convert y3 to r3 at Babamots
+build r3 at Dlwillson
+sacrifice r3 at Babamots; capture y2 at Field; capture r2 at Field; capture r2 at Field
+build r3 at Field; catastrophe red at Field
+build y3 at Orion
+move r2 from Dlwillson to Field
+move y2 from Field to Bolarus
+build r1 at Field
+convert y2 to g2 at Bolarus
+build r2 at Dlwillson
+build y2 at Bolarus
+move r2 from Dlwillson to Sea (b1)
+build g1 at Bolarus
+build r2 at Dlwillson
+convert g2 to b2 at Bolarus
+build r3 at Field
+move y3 from Field to Andoria (b3)
+move r1 from Dlwillson to Sea
+build b1 at Bolarus
+build r3 at Dlwillson
+move b2 from Bolarus to Romulus (g2)
+convert r3 to g3 at Dlwillson
+move y1 from Babamots to Nausicaa (r3)
+convert g1 to b1 at Dlwillson
+build b2 at Romulus
+build g1 at Dlwillson
+move y2 from Bolarus to Romulus
+move g1 from Dlwillson to Sea
+move b1 from Bolarus to Cardassia (g2)
+move b1 from Dlwillson to Field
+build g2 at Bolarus
+build g3 at Sea
+move g1 from Bolarus to Cardassia
+pass
+move y1 from Bolarus to Cardassia
+pass
+sacrifice g2 at Bolarus; build g2 at Cardassia; build b3 at Cardassia
+pass
+move b2 from Romulus to Nausicaa
+pass
+move y1 from Nausicaa to Romulus
+pass
+sacrifice b2 at Nausicaa; convert g2 to b2 at Cardassia; convert b3 to r3 at Cardassia
+sacrifice g3 at Sea; build g2 at Dlwillson; build b3 at Field; build g3 at Sea
+move y2 from Romulus to Andoria
+sacrifice r1 at Field
+build r1 at Cardassia
+pass
+move y3 from Orion to Romulus
+pass
+move y3 from Andoria to Cardassia
+pass
+move y1 from Cardassia to Andoria
+pass
+sacrifice y1 at Romulus; move r3 from Cardassia to Iconia (y1)
+pass
+move b1 from Cardassia to Iconia
+pass
+move b2 from Cardassia to Iconia
+pass
+move b2 from Romulus to Iconia
+pass
+sacrifice y3 at Orion; move b2 from Iconia to Dlwillson; move b2 from Iconia to Dlwillson; move b1 from Iconia to Dlwillson; catastrophe blue at Dlwillson

@@ -1,0 +1,31 @@
+Silenttitan (0, b3r2) g3-
+Goulo (1, r1b2) -g3
+build g1 at Silenttitan
+build g1 at Goulo
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Goulo
+build g1 at Silenttitan
+build g1 at Goulo
+move g1 from Silenttitan to Sol (b1)
+move g1 from Goulo to Citroneto (y3)
+move y1 from Silenttitan to Sol
+move g1 from Citroneto to Topazeto (y1)
+move g1 from Sol to Sole (y3)
+build y2 at Goulo
+build g1 at Silenttitan
+build g2 at Topazeto
+convert g3 to r3 at Silenttitan
+build y2 at Goulo
+build g2 at Sole
+convert y1 to r1 at Goulo
+move g2 from Sole to Cook (b1)
+convert y2 to b2 at Goulo
+build g2 at Sole
+sacrifice g1 at Topazeto; build b1 at Goulo
+convert g2 to y2 at Cook
+move b2 from Goulo to Sole
+sacrifice y2 at Cook; move g2 from Sole to Goulo; move g1 from Sole to Goulo
+convert g3 to y3 at Goulo
+sacrifice r3 at Silenttitan; capture b1 at Goulo; capture r1 at Goulo; capture y2 at Goulo
+move g2 from Topazeto to Silenttitan
+sacrifice g2 at Goulo; build y1 at Goulo; build y1 at Goulo; catastrophe yellow at Goulo

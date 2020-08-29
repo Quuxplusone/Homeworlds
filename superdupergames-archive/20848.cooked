@@ -1,0 +1,49 @@
+Silenttitan (0, r2b1) g3-
+Lorgar (1, b1y3) -g3
+build g1 at Silenttitan
+build g1 at Lorgar
+convert g1 to b1 at Silenttitan
+move g1 from Lorgar to Peyotl (b2)
+build b2 at Silenttitan
+build g1 at Lorgar
+convert b2 to y2 at Silenttitan
+build g1 at Lorgar
+build g2 at Silenttitan
+build g2 at Peyotl
+build g2 at Silenttitan
+convert g2 to b2 at Peyotl
+move g2 from Silenttitan to Sol (b3)
+convert g1 to r1 at Lorgar
+build b2 at Silenttitan
+build g1 at Peyotl
+sacrifice g3 at Silenttitan; build g2 at Sol; build g3 at Sol; build g3 at Silenttitan
+convert g1 to y1 at Peyotl
+convert g2 to y2 at Sol
+move g1 from Peyotl to Sol
+convert g3 to r3 at Sol
+move b2 from Peyotl to Los (g3)
+move b2 from Silenttitan to Soul (y3)
+sacrifice g1 at Sol; build b3 at Los
+move b1 from Silenttitan to Taos (y3)
+convert b2 to r2 at Los
+sacrifice g2 at Sol; build b2 at Taos; build b3 at Soul
+build r1 at Los
+sacrifice y2 at Silenttitan; move b2 from Soul to Alpha (y2); move b2 from Taos to Beta (y2)
+convert r1 to y1 at Los
+sacrifice b3 at Soul; convert r3 to y3 at Sol; convert b2 to g2 at Alpha; convert b2 to g2 at Beta
+convert g3 to r3 at Lorgar
+sacrifice g3 at Silenttitan; build g1 at Alpha; build g1 at Beta; build g3 at Silenttitan
+move b3 from Los to Beta
+sacrifice g2 at Beta; build g2 at Beta; build g3 at Silenttitan
+sacrifice r2 at Los; capture g2 at Beta; capture g1 at Beta
+convert g3 to r3 at Silenttitan
+move g2 from Beta to Los
+sacrifice g2 at Alpha; build b2 at Taos; build b2 at Taos
+move g1 from Beta to Son (b3)
+sacrifice b2 at Taos; convert y2 to r2 at Sol; convert g2 to y2 at Silenttitan
+convert r3 to g3 at Lorgar
+build g2 at Alpha
+sacrifice g1 at Lorgar; build g1 at Son
+sacrifice y2 at Silenttitan; move g2 from Alpha to Lorgar; move g1 from Alpha to Lorgar
+build g2 at Son
+sacrifice g3 at Silenttitan; build y1 at Sol; build r1 at Silenttitan; build g3 at Lorgar; catastrophe green at Lorgar

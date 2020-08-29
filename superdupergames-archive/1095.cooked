@@ -1,0 +1,7 @@
+Twoshort (0, g1b2) y3-
+Matrixfrog (1, g2b3) -y3
+build y1 at Twoshort
+build y1 at Matrixfrog
+build y1 at Twoshort
+build y2 at Matrixfrog
+sacrifice y3 at Twoshort; move y1 from Twoshort to Hello (r3); move y1 from Hello to Goodbye (r1); move y1 from Goodbye to Matrixfrog; catastrophe yellow at Matrixfrog

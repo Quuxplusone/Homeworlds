@@ -1,0 +1,67 @@
+Simon (0, b3r1) g3-
+Endo (1, b1r2) -g3
+build g1 at Simon
+build g1 at Endo
+convert g1 to y1 at Simon
+convert g1 to y1 at Endo
+build g1 at Simon
+build g1 at Endo
+convert g1 to b1 at Simon
+convert g1 to b1 at Endo
+build b2 at Simon
+build b2 at Endo
+move b2 from Simon to G2 (g2)
+move b1 from Endo to Homotopy (g3)
+build g1 at Simon
+build y1 at Endo
+build y2 at Simon
+move y1 from Endo to Homotopy
+move y1 from Simon to G2
+build y2 at Homotopy
+build y2 at Simon
+convert y2 to r2 at Homotopy
+convert y2 to r2 at Simon
+build y2 at Homotopy
+move r2 from Simon to G2
+move y2 from Homotopy to Fibration (g2)
+move b1 from Simon to G2A (g2)
+build r1 at Homotopy
+build b2 at G2A
+move r1 from Homotopy to Fibration
+build b3 at G2
+build b3 at Homotopy
+sacrifice y2 at Simon; move b1 from G2A to Homotopy; move b2 from G2A to Homotopy; catastrophe blue at Homotopy
+sacrifice g3 at Endo; build y2 at Homotopy; build y2 at Fibration; build y3 at Endo
+move b3 from G2 to Homotopy
+build y3 at Fibration
+sacrifice r2 at G2; capture r2 at Homotopy; capture y2 at Homotopy
+build y3 at Homotopy
+capture y3 at Homotopy
+move y2 from Fibration to Homotopy; catastrophe yellow at Homotopy
+build b1 at G2
+build r1 at Fibration
+build r2 at Homotopy
+move r1 from Fibration to Path (g3)
+convert r2 to y2 at Homotopy
+build r2 at Fibration
+build r3 at Homotopy
+build r3 at Path
+move r3 from Homotopy to G2
+sacrifice b2 at Endo; convert r2 to b2 at Fibration; convert r3 to b3 at Path
+build r2 at Homotopy
+build r3 at Path
+build r3 at G2
+convert r3 to y3 at Path
+convert b2 to y2 at G2
+convert y1 to g1 at Endo
+move r3 from G2 to R3 (r3)
+sacrifice y3 at Path; move r1 from Path to Fibration; move r1 from Fibration to R3; move r1 from Fibration to R3; catastrophe red at R3
+build r1 at Homotopy
+convert y3 to r3 at Fibration
+move r1 from Homotopy to Endo
+build b1 at Path
+build b2 at Homotopy
+build b2 at Fibration
+sacrifice y2 at G2; move r2 from Homotopy to Endo; move b2 from Homotopy to Endo
+sacrifice y2 at Fibration; move b1 from Path to G2; move b3 from Path to G2
+capture b3 at G2

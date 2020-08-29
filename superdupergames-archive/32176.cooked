@@ -1,0 +1,8 @@
+Subhan64 (0, b1y2) g3-
+Magicjohn (1, y2b1) -g3
+build g1 at Subhan64
+build g1 at Magicjohn
+convert g1 to b1 at Subhan64
+convert g1 to y1 at Magicjohn
+build g1 at Subhan64
+build g1 at Magicjohn

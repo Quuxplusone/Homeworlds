@@ -1,0 +1,69 @@
+Wil (0, b2r1) g3-
+Ajo (1, b2y3) -g3
+build g1 at Wil
+build g1 at Ajo
+convert g1 to y1 at Wil
+move g1 from Ajo to Alpha (b1)
+build y1 at Wil
+build g1 at Ajo
+build y1 at Wil
+build g1 at Ajo
+move y1 from Wil to Y3 (y3)
+build g2 at Alpha
+move y1 from Wil to G3 (g3)
+convert g2 to y2 at Alpha
+sacrifice g3 at Wil; build y2 at G3; build y2 at Wil; build y3 at Wil
+convert g3 to r3 at Ajo
+convert y2 to g2 at Wil
+build g2 at Ajo
+build y2 at Wil
+move y2 from Alpha to Beta (g3)
+convert y1 to r1 at Wil
+sacrifice g2 at Ajo; build g2 at Alpha; build y1 at Beta
+convert y3 to g3 at Wil
+convert g2 to r2 at Alpha
+build y3 at Wil
+move y1 from Beta to Wil
+convert y3 to b3 at Wil
+build y3 at Beta
+capture y1 at Wil
+move y3 from Beta to Alpha
+move g2 from Wil to Y3
+build g2 at Alpha
+build g2 at Wil
+move g1 from Alpha to Beta
+move y1 from Y3 to B1 (b1)
+build r1 at Alpha
+sacrifice g2 at Y3; build b1 at Wil; build y3 at B1
+build r2 at Ajo
+move r1 from Wil to G3
+move r1 from Alpha to Beta
+convert b3 to r3 at Wil
+build r2 at Beta
+build r3 at G3
+sacrifice y2 at Beta; move r1 from Beta to Wil; move r2 from Beta to Wil; catastrophe red at Wil
+build b2 at Wil
+build g2 at Alpha
+sacrifice y2 at Wil; move b2 from Wil to G3; move r1 from G3 to B1
+sacrifice y3 at Alpha; move g2 from Alpha to Wil; move g1 from Beta to Wil; move r2 from Alpha to Wil; catastrophe green at Wil
+move y3 from B1 to Wil
+capture b1 at Wil
+sacrifice r3 at G3; capture b1 at Wil; capture r2 at Wil
+move r2 from Ajo to B1
+sacrifice y1 at B1; move r1 from B1 to G3
+sacrifice g2 at Alpha; build r1 at B1; build r1 at Ajo
+build b1 at G3
+convert r2 to g2 at B1
+build b3 at G3
+build r2 at B1
+move b3 from G3 to B1
+sacrifice g2 at B1; build r2 at B1; build r3 at B1; catastrophe red at B1
+build b3 at G3
+move r1 from Ajo to Gamma (r1)
+move b3 from G3 to Gamma
+build r2 at Ajo
+build b3 at G3
+convert r2 to y2 at Ajo
+sacrifice y2 at G3; move b3 from Gamma to Ajo; move b3 from B1 to Ajo
+convert g1 to b1 at Ajo; catastrophe blue at Ajo
+sacrifice y3 at Wil; move y1 from Wil to Ajo; move y1 from G3 to Wil; move y1 from Wil to Ajo; catastrophe yellow at Ajo

@@ -1,0 +1,47 @@
+Mikeyarrum (0, r3b2) g3-
+Scottobear (1, g3b2) -r3
+build g1 at Mikeyarrum
+build r1 at Scottobear
+convert g1 to y1 at Mikeyarrum
+convert r1 to y1 at Scottobear
+build g1 at Mikeyarrum
+build r1 at Scottobear
+convert g1 to r1 at Mikeyarrum
+convert r1 to b1 at Scottobear
+build g1 at Mikeyarrum
+build b1 at Scottobear
+move y1 from Mikeyarrum to Chiyo (g1)
+convert r3 to g3 at Scottobear
+build r1 at Mikeyarrum
+move b1 from Scottobear to Chiyo
+sacrifice r1 at Mikeyarrum; capture b1 at Chiyo
+build g1 at Scottobear
+build g2 at Mikeyarrum
+move y1 from Scottobear to Chiyo
+sacrifice r1 at Mikeyarrum; capture y1 at Chiyo
+convert g1 to r1 at Scottobear
+build y1 at Chiyo
+convert g3 to y3 at Scottobear
+convert y1 to r1 at Chiyo
+convert y3 to r3 at Scottobear
+convert g2 to y2 at Mikeyarrum
+convert b1 to y1 at Scottobear
+build r1 at Chiyo
+move r1 from Scottobear to Chiyo
+capture r1 at Chiyo
+build y2 at Scottobear
+sacrifice y2 at Mikeyarrum; move r1 from Chiyo to Scottobear; move r1 from Chiyo to Scottobear
+capture r1 at Scottobear
+build r2 at Scottobear
+capture r2 at Scottobear
+move y1 from Chiyo to Sakaki (g2); catastrophe red at Scottobear
+move y1 from Scottobear to Chiyo
+capture y1 at Chiyo
+build y2 at Scottobear
+build y2 at Sakaki
+convert y2 to r2 at Scottobear
+build r1 at Chiyo
+move r2 from Scottobear to Chiyo
+sacrifice y2 at Sakaki; move y1 from Chiyo to Scottobear; move y1 from Chiyo to Scottobear
+capture r1 at Chiyo
+build y2 at Scottobear; catastrophe yellow at Scottobear

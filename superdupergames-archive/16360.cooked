@@ -1,0 +1,24 @@
+Goulo (0, g1b2) y3-
+Zackstack (1, b1r3) -g3
+build y1 at Goulo
+build g1 at Zackstack
+convert y1 to g1 at Goulo
+build g2 at Zackstack
+build g2 at Goulo
+convert g2 to y2 at Zackstack
+convert g1 to r1 at Goulo
+move g1 from Zackstack to Berry (b2)
+move g2 from Goulo to Anna (b3)
+build g1 at Zackstack
+build g2 at Anna
+sacrifice g3 at Zackstack; build g2 at Berry; build g3 at Zackstack; build g3 at Berry
+build y1 at Goulo
+convert g3 to y3 at Berry
+convert g2 to y2 at Anna
+move g2 from Berry to Lemon (y3)
+convert y3 to g3 at Goulo
+sacrifice g3 at Zackstack; build g2 at Lemon; build g3 at Zackstack; build g3 at Berry
+move g3 from Goulo to Anna
+sacrifice y2 at Zackstack; move g3 from Berry to Anna; move g3 from Anna to Goulo
+move g3 from Anna to Goulo
+sacrifice g1 at Berry; build g1 at Goulo; catastrophe green at Goulo

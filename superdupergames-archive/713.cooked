@@ -1,0 +1,11 @@
+Pigasuspig (0, b2g1) r3-
+Rootbeer (1, b2g2) -y3
+build r1 at Pigasuspig
+build y1 at Rootbeer
+convert r1 to y1 at Pigasuspig
+move y1 from Rootbeer to Route66 (g3)
+move y1 from Pigasuspig to Kissinger (r3)
+build y1 at Rootbeer
+move y1 from Kissinger to Rootbeer
+build y2 at Rootbeer
+build r1 at Pigasuspig; catastrophe yellow at Rootbeer

@@ -1,0 +1,62 @@
+Dodobirb (0, b2r1) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Dodobirb
+build g1 at Ts52
+convert g1 to y1 at Dodobirb
+convert g1 to r1 at Ts52
+convert y1 to r1 at Dodobirb
+build r2 at Ts52
+build r2 at Dodobirb
+convert r2 to b2 at Ts52
+convert r1 to y1 at Dodobirb
+build g1 at Ts52
+build y1 at Dodobirb
+build b1 at Ts52
+convert y1 to b1 at Dodobirb
+move b2 from Ts52 to Kermit (g1)
+move b1 from Dodobirb to Greeny (g3)
+convert b1 to y1 at Ts52
+move r2 from Dodobirb to Greeny
+build b1 at Kermit
+build b1 at Greeny
+convert b2 to y2 at Kermit
+convert b1 to y1 at Greeny
+build y2 at Kermit
+build y2 at Dodobirb
+convert y2 to r2 at Kermit
+build g1 at Dodobirb
+move g1 from Ts52 to Gonzo (b1)
+move g1 from Dodobirb to Bluey (b3)
+build g2 at Ts52
+build g2 at Dodobirb
+move y1 from Ts52 to Gonzo
+move y1 from Dodobirb to Bluey
+build r1 at Ts52
+build y2 at Bluey
+sacrifice g2 at Ts52; build y3 at Gonzo; build y3 at Kermit
+sacrifice y2 at Bluey; move y1 from Bluey to Kermit; move y1 from Greeny to Kermit; catastrophe yellow at Kermit
+build g2 at Gonzo
+build g2 at Bluey
+move y3 from Gonzo to Greeny
+build y1 at Dodobirb
+sacrifice r1 at Ts52; capture r2 at Greeny
+convert g1 to r1 at Bluey
+capture b1 at Greeny
+build g1 at Bluey
+sacrifice g2 at Gonzo; build b2 at Greeny; build b3 at Kermit
+build y1 at Dodobirb
+build b3 at Greeny
+move y1 from Dodobirb to Bluey
+convert b3 to y3 at Kermit
+build y2 at Bluey
+build b3 at Kermit
+build g2 at Bluey
+move g1 from Gonzo to Bluey; catastrophe green at Bluey
+move g2 from Dodobirb to Bluey
+convert b3 to r3 at Greeny
+build g1 at Dodobirb
+build b3 at Greeny
+build r2 at Bluey
+sacrifice y3 at Greeny; move b1 from Greeny to Dodobirb; move b2 from Greeny to Dodobirb; move b3 from Greeny to Dodobirb; catastrophe blue at Dodobirb
+pass
+sacrifice y3 at Kermit; move r3 from Greeny to Dodobirb; move r2 from Greeny to Dodobirb; move r1 from Ts52 to Dodobirb; catastrophe red at Dodobirb

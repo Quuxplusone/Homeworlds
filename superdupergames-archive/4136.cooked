@@ -1,0 +1,33 @@
+Zoltar (0, b3y2) g3-
+Jerzy (1, g3y2) -b3
+build g1 at Zoltar
+build b1 at Jerzy
+convert g1 to r1 at Zoltar
+convert b1 to r1 at Jerzy
+build g1 at Zoltar
+build b1 at Jerzy
+convert g1 to y1 at Zoltar
+convert b1 to g1 at Jerzy
+build g1 at Zoltar
+build b1 at Jerzy
+convert g1 to b1 at Zoltar
+convert b1 to y1 at Jerzy
+build g1 at Zoltar
+build g1 at Jerzy
+move g1 from Zoltar to Blueberry (b1)
+move r1 from Jerzy to Blueberry
+sacrifice r1 at Zoltar; capture r1 at Blueberry
+convert g1 to r1 at Jerzy
+move y1 from Zoltar to Blueberry
+move y1 from Jerzy to Galathea (g1)
+build g2 at Zoltar
+build g2 at Jerzy
+move g1 from Blueberry to Jerzy; catastrophe green at Jerzy
+build y1 at Galathea
+sacrifice g2 at Zoltar; build y2 at Blueberry; build y3 at Blueberry
+move y1 from Galathea to Xugaton (g3)
+move y3 from Blueberry to Xugaton
+build y3 at Galathea
+sacrifice r1 at Blueberry; capture y1 at Xugaton
+move y3 from Galathea to Zoltar
+sacrifice y3 at Xugaton; move y1 from Xugaton to Jerzy; move y1 from Blueberry to Jerzy; move y2 from Blueberry to Jerzy; catastrophe yellow at Jerzy

@@ -1,0 +1,21 @@
+Zoltar (0, b3y1) g3-
+Josh (1, r2b3) -g3
+build g1 at Zoltar
+build g1 at Josh
+convert g1 to y1 at Zoltar
+convert g3 to y3 at Josh
+build g1 at Zoltar
+build g1 at Josh
+convert g1 to r1 at Zoltar
+convert g1 to r1 at Josh
+build g1 at Zoltar
+build y1 at Josh
+build y2 at Zoltar
+build y2 at Josh
+move y1 from Zoltar to Greenbelt (g2)
+move y2 from Josh to First (g1)
+move y2 from Zoltar to Greenhills (g2)
+build g2 at Josh
+build y2 at Greenhills
+build y3 at First
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r1 at Zoltar; build y3 at Greenbelt

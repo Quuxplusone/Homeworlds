@@ -1,0 +1,14 @@
+Sompm (0, b1g3) y3-
+Silenttitan (1, r1b2) -g3
+build y1 at Sompm
+build g1 at Silenttitan
+build y1 at Sompm
+convert g1 to y1 at Silenttitan
+move y1 from Sompm to Specifically (g2)
+build y2 at Silenttitan
+build y2 at Specifically
+move y1 from Silenttitan to Discover (g3)
+move y2 from Specifically to Potatoes (b3)
+build g1 at Silenttitan
+build y2 at Specifically
+sacrifice g3 at Silenttitan; build y3 at Discover; build y3 at Silenttitan; build g1 at Silenttitan

@@ -1,0 +1,63 @@
+Thejackdiaz (0, b2y1) g3-
+Guntz1092 (1, r3b2) -g3
+build g1 at Thejackdiaz
+build g1 at Guntz1092
+convert g1 to r1 at Thejackdiaz
+build g1 at Guntz1092
+build g1 at Thejackdiaz
+convert g1 to y1 at Guntz1092
+move g1 from Thejackdiaz to Alpha (y3)
+move g1 from Guntz1092 to Zonde (y1)
+build g1 at Alpha
+build g2 at Zonde
+move g1 from Alpha to Thejackdiaz
+build y2 at Guntz1092
+convert g1 to b1 at Thejackdiaz
+build y2 at Guntz1092
+build b1 at Thejackdiaz
+move y2 from Guntz1092 to Foie (r1)
+move b1 from Thejackdiaz to Alpha
+convert y2 to r2 at Guntz1092
+build b1 at Alpha
+build y2 at Guntz1092
+move b1 from Alpha to Beta (g1)
+move g2 from Zonde to Alpha
+sacrifice g3 at Thejackdiaz; build b2 at Beta; build b3 at Alpha; build b3 at Thejackdiaz
+sacrifice r2 at Guntz1092; capture g1 at Alpha; capture b1 at Alpha
+convert b3 to g3 at Thejackdiaz
+move b1 from Alpha to Beta
+convert b2 to r2 at Beta
+convert b1 to r1 at Beta
+capture r1 at Beta
+convert y2 to r2 at Guntz1092
+sacrifice r1 at Beta; capture g2 at Alpha
+sacrifice g3 at Guntz1092; build g2 at Alpha; build g2 at Zonde; build y2 at Foie
+build g3 at Thejackdiaz
+sacrifice y2 at Foie; move g1 from Alpha to Thejackdiaz; move g2 from Alpha to Thejackdiaz; catastrophe green at Thejackdiaz
+move b3 from Alpha to Thejackdiaz
+move g2 from Zonde to Guntz1092
+convert b3 to g3 at Thejackdiaz
+build g1 at Zonde
+build b1 at Thejackdiaz
+build g2 at Guntz1092
+build g3 at Thejackdiaz
+build g3 at Guntz1092
+move b1 from Thejackdiaz to Alpha
+convert g2 to b2 at Guntz1092
+sacrifice g3 at Thejackdiaz; build b3 at Thejackdiaz; build b3 at Alpha; build b3 at Beta
+move b2 from Guntz1092 to Zonde
+convert b1 to r1 at Thejackdiaz
+build b1 at Zonde
+move r1 from Thejackdiaz to Alpha
+sacrifice g2 at Guntz1092; build y2 at Foie; build g2 at Guntz1092
+sacrifice g3 at Thejackdiaz; build r2 at Thejackdiaz; build r3 at Alpha; build r3 at Beta
+sacrifice y2 at Foie; move b1 from Zonde to Alpha; move b1 from Alpha to Thejackdiaz
+convert b3 to y3 at Thejackdiaz
+move r2 from Guntz1092 to Zonde
+move r3 from Alpha to Zonde
+move y2 from Foie to Alpha
+sacrifice r2 at Beta; capture r2 at Zonde; capture y2 at Alpha
+move y1 from Guntz1092 to Zonde
+sacrifice y2 at Alpha; move r3 from Beta to Guntz1092; move b3 from Beta to Guntz1092
+sacrifice g3 at Guntz1092; build y2 at Zonde; build y2 at Zonde; build b3 at Thejackdiaz; catastrophe yellow at Zonde
+capture g2 at Guntz1092

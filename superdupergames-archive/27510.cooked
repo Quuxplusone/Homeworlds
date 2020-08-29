@@ -1,0 +1,11 @@
+Wil (0, b3y1) g3-
+Silenttitan (1, b1r2) -g3
+build g1 at Wil
+build g1 at Silenttitan
+convert g1 to b1 at Wil
+build g1 at Silenttitan
+move b1 from Wil to G2 (g2)
+convert g1 to y1 at Silenttitan
+build b1 at G2
+build y1 at Silenttitan
+build b2 at G2

@@ -1,0 +1,45 @@
+Mathochist (0, r1b2) g3-
+Agentofchaos (1, b3r2) -g3
+build g1 at Mathochist
+build g1 at Agentofchaos
+convert g1 to y1 at Mathochist
+build g1 at Agentofchaos
+build y1 at Mathochist
+convert g1 to y1 at Agentofchaos
+convert y1 to r1 at Mathochist
+convert g1 to r1 at Agentofchaos
+build g1 at Mathochist
+build g1 at Agentofchaos
+build r2 at Mathochist
+build r2 at Agentofchaos
+move r2 from Mathochist to Lgs (g3)
+move r2 from Agentofchaos to Entanglement (g1)
+build r3 at Lgs
+build r3 at Entanglement
+build r3 at Mathochist
+build g2 at Agentofchaos
+move g1 from Mathochist to Lgs
+convert g2 to y2 at Agentofchaos
+convert r3 to y3 at Mathochist
+move y1 from Agentofchaos to Entanglement
+move r1 from Mathochist to Lys (y3)
+convert r1 to b1 at Agentofchaos
+build g2 at Mathochist
+build b1 at Agentofchaos
+convert g2 to b2 at Mathochist
+move b1 from Agentofchaos to Entanglement
+build g2 at Mathochist
+move g1 from Agentofchaos to Entanglement
+move g2 from Mathochist to Lys
+build g2 at Agentofchaos
+build g2 at Mathochist
+build y1 at Agentofchaos
+move y1 from Mathochist to Lgs
+build y2 at Entanglement
+sacrifice y3 at Mathochist; move g1 from Lgs to Entanglement; move g2 from Lys to Entanglement; move g2 from Mathochist to Lys; catastrophe green at Entanglement
+build y1 at Agentofchaos
+build y2 at Lgs
+move y1 from Agentofchaos to Despero (g1)
+move r2 from Lgs to Despero
+move y1 from Despero to Hades (r3)
+sacrifice y1 at Lgs; move b2 from Mathochist to Hades

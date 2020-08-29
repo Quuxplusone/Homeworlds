@@ -1,0 +1,35 @@
+Zoltar (0, b2g1) y3-
+Twoshort (1, r1b3) -g3
+build y1 at Zoltar
+build g1 at Twoshort
+build y1 at Zoltar
+build g1 at Twoshort
+move y1 from Zoltar to Greenbelt (g3)
+convert g1 to y1 at Twoshort
+build y2 at Greenbelt
+build g1 at Twoshort
+build y2 at Greenbelt
+build y2 at Twoshort
+move y2 from Greenbelt to Greenhills (g2)
+sacrifice y2 at Twoshort; move y1 from Twoshort to Greenland (g2); move g1 from Twoshort to Bluestar (b2)
+convert y3 to g3 at Zoltar
+sacrifice g3 at Twoshort; build g2 at Bluestar; build y2 at Greenland; build g3 at Twoshort
+build y3 at Greenhills
+move y1 from Greenland to Bluonia (b3)
+build y3 at Zoltar
+sacrifice g2 at Bluestar; build y3 at Bluonia; build g2 at Bluestar
+convert y1 to r1 at Zoltar
+sacrifice y3 at Bluonia; move y1 from Bluonia to Greenhills; move y2 from Greenland to Greenbelt; move y2 from Greenbelt to Greenhills; catastrophe yellow at Greenhills
+build g2 at Zoltar
+convert g2 to y2 at Bluestar
+move g2 from Zoltar to Investment (y3)
+build g2 at Bluestar
+build g2 at Investment
+convert g2 to r2 at Bluestar
+move g2 from Investment to Blueberry (b2)
+convert g1 to y1 at Twoshort
+move y1 from Greenbelt to Blueberry
+move g1 from Bluestar to Cash (y3)
+sacrifice g3 at Zoltar; build g1 at Investment; build g2 at Investment; build g3 at Blueberry
+sacrifice g1 at Cash; build r1 at Bluestar
+sacrifice g3 at Blueberry; build g1 at Blueberry; build g3 at Blueberry; build r2 at Zoltar

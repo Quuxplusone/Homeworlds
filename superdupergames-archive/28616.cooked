@@ -1,0 +1,31 @@
+Endo (0, y1b3) g3-
+Kanzenryu (1, b1g2) -y3
+build g1 at Endo
+build y1 at Kanzenryu
+move g1 from Endo to Adjoint (b2)
+convert y3 to g3 at Kanzenryu
+build g1 at Adjoint
+build y1 at Kanzenryu
+build g1 at Endo
+move y1 from Kanzenryu to Out (g3)
+sacrifice g3 at Endo; build g2 at Endo; build g2 at Adjoint; build g3 at Endo
+build y2 at Out
+move g1 from Endo to Monoidal (b2)
+build y2 at Out
+convert g2 to y2 at Adjoint
+move y2 from Out to Peep (b2)
+sacrifice g3 at Endo; build g2 at Monoidal; build g3 at Endo; build y3 at Adjoint
+move y1 from Out to Peep
+move y2 from Adjoint to Enriched (b3)
+build y3 at Out
+sacrifice g2 at Endo; build g2 at Endo; build y3 at Enriched
+convert y2 to r2 at Peep
+convert y3 to r3 at Enriched
+build y2 at Kanzenryu
+sacrifice g3 at Endo; build g3 at Endo; build y3 at Adjoint; build r1 at Enriched
+move y3 from Out to Peep
+move g1 from Adjoint to Enriched
+convert y1 to r1 at Kanzenryu
+sacrifice y3 at Adjoint; move g1 from Adjoint to Enriched; move g1 from Enriched to Kanzenryu; move g1 from Enriched to Kanzenryu; catastrophe green at Kanzenryu
+move y3 from Peep to Kanzenryu
+move y3 from Adjoint to Kanzenryu

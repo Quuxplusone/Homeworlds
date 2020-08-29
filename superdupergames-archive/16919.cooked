@@ -1,0 +1,34 @@
+Rootbier (0, b1y2) g3-
+Zackstack (1, r1b3) -g3
+build g1 at Rootbier
+build g1 at Zackstack
+convert g1 to b1 at Rootbier
+convert g1 to b1 at Zackstack
+build b2 at Rootbier
+build b2 at Zackstack
+move b2 from Rootbier to Tango (g3)
+convert b2 to y2 at Zackstack
+move b1 from Rootbier to Quasi (y3)
+move b1 from Zackstack to Cash (g2)
+build b2 at Tango
+build y1 at Zackstack
+build g1 at Rootbier
+move y1 from Zackstack to Cash
+convert b2 to y2 at Tango
+build b2 at Cash
+build b2 at Tango
+convert b2 to r2 at Cash
+move b2 from Tango to Gabriel (g2)
+move r2 from Cash to Tango
+move y2 from Tango to Gabriel
+capture b2 at Tango
+move b1 from Quasi to Raymond (g1)
+build r1 at Tango
+convert b2 to r2 at Gabriel
+convert r1 to g1 at Tango
+build y1 at Gabriel
+build g2 at Zackstack
+sacrifice g3 at Rootbier; build g3 at Rootbier; build r1 at Gabriel; build b2 at Raymond
+sacrifice g3 at Zackstack; build g3 at Zackstack; build b2 at Tango; build b3 at Cash
+sacrifice y2 at Gabriel; move b1 from Raymond to Cash; move b2 from Raymond to Cash; catastrophe blue at Cash
+sacrifice g3 at Zackstack; build g1 at Zackstack; build g3 at Zackstack; build r1 at Tango

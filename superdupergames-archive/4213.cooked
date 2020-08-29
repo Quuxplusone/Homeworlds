@@ -1,0 +1,42 @@
+Unic (0, g1b2) y3-
+Zoltar (1, b3y2) -g3
+build y1 at Unic
+build g1 at Zoltar
+move y1 from Unic to Stella (g3)
+build g1 at Zoltar
+build y1 at Unic
+move g1 from Zoltar to Harcourt (b1)
+build y1 at Stella
+build g2 at Harcourt
+convert y3 to g3 at Unic
+sacrifice g3 at Zoltar; build g2 at Harcourt; build g2 at Zoltar; build g3 at Zoltar
+build y2 at Unic
+convert g2 to y2 at Harcourt
+build y3 at Unic
+convert g3 to y3 at Zoltar
+sacrifice y2 at Unic; move y1 from Unic to Stella; move y1 from Stella to Harcourt
+convert y3 to r3 at Zoltar
+build y2 at Unic
+convert g2 to r2 at Harcourt
+build y3 at Unic
+capture y1 at Harcourt
+sacrifice y2 at Unic; move y1 from Stella to Harcourt; move y1 from Stella to Harcourt; catastrophe yellow at Harcourt
+build g2 at Harcourt
+convert y3 to g3 at Unic
+convert g2 to y2 at Harcourt
+move g3 from Unic to Astra (b3)
+build g2 at Harcourt
+build y1 at Unic
+move g1 from Zoltar to Lemon (y1)
+move y3 from Unic to Prima (g3)
+build g2 at Lemon
+sacrifice g3 at Unic; build g3 at Astra; build y1 at Prima; build y2 at Unic
+sacrifice y2 at Harcourt; move g1 from Harcourt to Astra; move g1 from Lemon to Astra; catastrophe green at Astra
+build y2 at Unic
+move g2 from Lemon to Banana (y3)
+move y1 from Unic to Secunda (y3)
+build r1 at Zoltar
+build y1 at Unic
+move g2 from Banana to Unic
+convert y1 to r1 at Unic
+sacrifice r3 at Zoltar; capture r1 at Unic; capture y2 at Unic; capture y2 at Unic

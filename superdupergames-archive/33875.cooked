@@ -1,0 +1,24 @@
+Trydnt (0, b2y1) g3-
+Draw5Playall (1, y1g2) -y3
+build g1 at Trydnt
+build y1 at Draw5Playall
+build g1 at Trydnt
+move y1 from Draw5Playall to Growth (g3)
+move g1 from Trydnt to Y3 (y3)
+build y2 at Draw5Playall
+build g1 at Trydnt
+move y2 from Draw5Playall to Needblue (b3)
+sacrifice g3 at Trydnt; build g2 at Y3; build g2 at Y3; build g3 at Trydnt
+build y2 at Growth
+move g1 from Trydnt to B3 (b3)
+convert y2 to r2 at Needblue
+build g3 at B3
+build y2 at Draw5Playall
+convert g3 to y3 at B3
+sacrifice y2 at Growth; move y3 from Draw5Playall to Needblue; move y3 from Needblue to Trydnt
+sacrifice g2 at Y3; build g2 at Trydnt; build g3 at B3
+sacrifice r2 at Needblue; capture g2 at Trydnt; capture g3 at Trydnt
+sacrifice g3 at B3; build g3 at B3; build y2 at B3; build y2 at B3
+move y3 from Trydnt to B3; catastrophe yellow at B3
+convert g1 to r1 at Trydnt
+convert g3 to r3 at Trydnt

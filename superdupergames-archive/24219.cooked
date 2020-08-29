@@ -1,0 +1,45 @@
+Shmil1 (0, r1b2) g3-
+Broccoli_Commander (1, r2b3) -g3
+build g1 at Shmil1
+build g1 at Broccoli_Commander
+convert g1 to y1 at Shmil1
+convert g1 to y1 at Broccoli_Commander
+build g1 at Shmil1
+build g1 at Broccoli_Commander
+convert g1 to r1 at Shmil1
+move g1 from Broccoli_Commander to Blueberry (b1)
+build g1 at Shmil1
+build g1 at Broccoli_Commander
+build g2 at Shmil1
+sacrifice g3 at Broccoli_Commander; build g2 at Blueberry; build g2 at Blueberry; build g3 at Broccoli_Commander
+move g1 from Shmil1 to Slunce (y3)
+build g3 at Broccoli_Commander
+move g1 from Slunce to Blueberry; catastrophe green at Blueberry
+move g3 from Broccoli_Commander to Blueberry (b1)
+move r1 from Shmil1 to Slunce2 (y3)
+build g1 at Blueberry
+sacrifice g2 at Shmil1; build r1 at Slunce2; build g1 at Shmil1
+convert g3 to r3 at Blueberry
+move r1 from Slunce2 to Obloha1 (b1)
+build g2 at Blueberry
+move r1 from Slunce2 to Obloha1
+convert g2 to y2 at Blueberry
+sacrifice g1 at Shmil1; build r2 at Obloha1
+build r2 at Blueberry
+convert r1 to y1 at Obloha1
+move r2 from Blueberry to Cauliflower (y3)
+convert r1 to g1 at Obloha1
+build g2 at Blueberry
+build g2 at Obloha1
+move g2 from Blueberry to Cauliflower
+sacrifice g2 at Obloha1; build g2 at Obloha1; build y2 at Obloha1
+sacrifice g3 at Broccoli_Commander; build g2 at Blueberry; build g3 at Cauliflower; build g3 at Broccoli_Commander
+sacrifice y2 at Obloha1; move g1 from Obloha1 to Broccoli_Commander; move g2 from Obloha1 to Broccoli_Commander; catastrophe green at Broccoli_Commander
+sacrifice g2 at Blueberry; build y2 at Broccoli_Commander; build r1 at Blueberry
+build y2 at Shmil1
+move r3 from Blueberry to Broccoli_Commander
+build y3 at Shmil1
+sacrifice y2 at Broccoli_Commander; move y2 from Blueberry to Cauliflower; move y2 from Cauliflower to Shmil1; catastrophe yellow at Shmil1
+build g1 at Shmil1
+move g3 from Cauliflower to Shmil1
+capture g3 at Shmil1

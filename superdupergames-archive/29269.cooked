@@ -1,0 +1,26 @@
+Wil (0, y3b1) g3-
+Felix (1, b3y2) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to b1 at Wil
+convert g1 to b1 at Felix
+build b2 at Wil
+build b2 at Felix
+convert b1 to r1 at Wil
+move b1 from Felix to Spawn (y1)
+move b2 from Wil to Y2 (y2)
+build b1 at Felix
+build r1 at Wil
+move b2 from Felix to Nascent (g1)
+build g1 at Wil
+sacrifice g3 at Felix; build b2 at Nascent; build b3 at Spawn; build b3 at Felix
+build g1 at Wil
+sacrifice b2 at Nascent; convert b1 to r1 at Spawn; convert b3 to g3 at Felix
+build r2 at Wil
+sacrifice g3 at Felix; build b1 at Nascent; build b2 at Spawn; build b3 at Felix
+convert r2 to y2 at Wil
+sacrifice b2 at Nascent; convert b3 to g3 at Felix; convert b3 to y3 at Spawn
+move b2 from Y2 to Nascent
+build g2 at Felix
+move g1 from Wil to Y2 (y2)
+sacrifice g3 at Felix; build b2 at Spawn; build b3 at Spawn; build b3 at Nascent

@@ -1,0 +1,36 @@
+Deanthebean (0, b1r2) g3-
+Felix (1, y1b3) -g3
+build g1 at Deanthebean
+build g1 at Felix
+convert g1 to y1 at Deanthebean
+convert g1 to y1 at Felix
+build y2 at Deanthebean
+build y2 at Felix
+build y2 at Deanthebean
+move y1 from Felix to Out (g2)
+move y1 from Deanthebean to In (g3)
+build y3 at Out
+build y3 at In
+move y1 from Out to In
+convert y2 to b2 at Deanthebean
+build y2 at In; catastrophe yellow at In
+build g1 at Deanthebean
+build g1 at Felix
+build y1 at Deanthebean
+convert g1 to b1 at Felix
+convert g1 to r1 at Deanthebean
+build b1 at Felix
+build b2 at Deanthebean
+sacrifice y3 at Out; move b1 from Felix to Move1 (y2); move b1 from Move1 to Move2 (y3); move b1 from Move2 to Deanthebean; catastrophe blue at Deanthebean
+move y1 from Deanthebean to Felix
+convert y2 to r2 at Felix
+build g1 at Deanthebean
+capture y1 at Felix
+build y1 at Deanthebean
+build r1 at Felix
+move y1 from Deanthebean to Commerce (b1)
+move y1 from Felix to G2 (g2)
+move g1 from Deanthebean to Commerce
+build y2 at G2
+build y2 at Commerce
+sacrifice y2 at G2; move r1 from Felix to Deanthebean; move r2 from Felix to Deanthebean; catastrophe red at Deanthebean

@@ -1,0 +1,64 @@
+Mathochist (0, r1b2) g3-
+Wmreed (1, b3g1) -y3
+build g1 at Mathochist
+build y1 at Wmreed
+convert g1 to y1 at Mathochist
+move y1 from Wmreed to Alice (g2)
+build g1 at Mathochist
+build y1 at Wmreed
+build y2 at Mathochist
+convert y1 to r1 at Wmreed
+build g1 at Mathochist
+build y1 at Wmreed
+move g1 from Mathochist to Hatter (b3)
+build y2 at Alice
+move y1 from Mathochist to Cheshire (g3)
+convert y1 to b1 at Wmreed
+sacrifice g3 at Mathochist; build g2 at Hatter; build g2 at Mathochist; build g3 at Mathochist
+convert y3 to g3 at Wmreed
+sacrifice g3 at Mathochist; build g3 at Mathochist; build y1 at Mathochist; build y2 at Cheshire
+move y1 from Alice to Wmreed
+move g1 from Mathochist to Tweedledee (y3)
+build b1 at Wmreed
+convert y1 to b1 at Mathochist
+move b1 from Wmreed to Alice
+sacrifice g3 at Mathochist; build y1 at Mathochist; build y3 at Mathochist; build g3 at Mathochist
+build r1 at Wmreed
+convert y2 to r2 at Mathochist
+move r1 from Wmreed to Alice
+move r2 from Mathochist to Tweedledee
+build r2 at Alice
+convert g2 to r2 at Hatter
+convert r2 to g2 at Alice
+sacrifice y2 at Cheshire; move g1 from Hatter to Alice; move g1 from Tweedledee to Alice; catastrophe green at Alice
+build y2 at Wmreed
+build y2 at Cheshire
+move y2 from Wmreed to Mock (b2)
+move g2 from Mathochist to Tweedledee
+convert y2 to g2 at Mock
+build g1 at Tweedledee
+build r1 at Wmreed
+move r2 from Tweedledee to Mock
+sacrifice r1 at Wmreed; capture r2 at Mock
+move g1 from Tweedledee to Tweedledum (y2)
+convert g3 to r3 at Wmreed
+build g1 at Mathochist
+build y2 at Wmreed
+sacrifice g3 at Mathochist; build y3 at Mathochist; build g2 at Tweedledum; build g3 at Mathochist
+build g3 at Mock
+move y3 from Mathochist to Hatter
+sacrifice y1 at Wmreed; move g3 from Mock to Cheshire
+sacrifice g3 at Mathochist; build r1 at Hatter; build y1 at Hatter; build g3 at Mathochist
+sacrifice r1 at Wmreed; capture y2 at Cheshire
+sacrifice y3 at Mathochist; move g1 from Mathochist to Cheshire; move g1 from Tweedledum to Cheshire; move r1 from Hatter to Tweedledum; catastrophe green at Cheshire
+build y1 at Wmreed
+build g1 at Mathochist
+convert y1 to g1 at Wmreed
+sacrifice g3 at Mathochist; build g3 at Mathochist; build g3 at Tweedledee; build g3 at Tweedledum
+build y1 at Wmreed
+sacrifice g3 at Mathochist; build y2 at Mathochist; build y3 at Mathochist; build g3 at Mathochist
+move g1 from Wmreed to Mock
+sacrifice g3 at Mathochist; build g3 at Mathochist; build b1 at Mathochist; build r1 at Hatter
+move y1 from Wmreed to Mock
+move y2 from Mathochist to Cheshire (r3)
+sacrifice g2 at Mock; build r2 at Wmreed; build r3 at Mock

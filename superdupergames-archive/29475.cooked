@@ -1,0 +1,56 @@
+Salmonax (0, g1y2) b3-
+Felix (1, r3b2) -g3
+build b1 at Salmonax
+build g1 at Felix
+convert b1 to g1 at Salmonax
+convert g1 to y1 at Felix
+build g1 at Salmonax
+build g2 at Felix
+move g1 from Salmonax to Bees (b3)
+build g2 at Felix
+build g2 at Salmonax
+move g2 from Felix to Echo (b1)
+build g3 at Bees
+build g3 at Echo
+convert g2 to r2 at Salmonax
+convert g3 to y3 at Echo
+convert g1 to y1 at Bees
+convert g2 to r2 at Felix
+build g1 at Bees
+build g2 at Felix
+move g1 from Bees to Wyeone (y1)
+sacrifice g3 at Felix; build g2 at Echo; build g3 at Echo; build g3 at Felix
+move g3 from Bees to Echo; catastrophe green at Echo
+move g2 from Felix to Echo
+build g2 at Wyeone
+build y2 at Echo
+sacrifice g1 at Wyeone; build y2 at Bees
+move y2 from Echo to Pillow (g3)
+move g2 from Wyeone to Bees
+sacrifice g3 at Felix; build y1 at Echo; build y3 at Pillow; build y3 at Felix
+move y2 from Bees to Echo
+convert y1 to b1 at Echo
+build y1 at Bees
+convert y1 to g1 at Felix
+move y1 from Bees to Echo
+move y3 from Echo to Crux (g3)
+convert y2 to r2 at Echo
+sacrifice r2 at Felix; capture r2 at Echo; capture y1 at Echo
+build g2 at Bees
+build g3 at Echo
+convert g2 to y2 at Bees
+sacrifice g3 at Echo; build g2 at Felix; build g3 at Echo; build y1 at Echo
+build b1 at Salmonax
+move b1 from Echo to Pillow
+convert g2 to r2 at Bees
+build b2 at Pillow
+convert b1 to r1 at Salmonax
+move g2 from Echo to Slipstream (b3)
+move r2 from Salmonax to Slipstream
+build g2 at Echo
+capture g2 at Slipstream
+move g3 from Echo to Bees
+build r1 at Salmonax
+sacrifice r2 at Echo; capture r2 at Bees; capture y2 at Bees
+move y1 from Bees to Stars (b1)
+sacrifice y3 at Pillow; move g3 from Bees to Salmonax; move g2 from Echo to Bees; move g2 from Bees to Salmonax; catastrophe green at Salmonax

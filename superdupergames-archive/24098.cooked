@@ -1,0 +1,53 @@
+Broccoli_Commander (0, b1y2) g3-
+Wil (1, r3b1) -g3
+build g1 at Broccoli_Commander
+build g1 at Wil
+move g1 from Broccoli_Commander to Blueberry (b3)
+convert g1 to r1 at Wil
+build g1 at Blueberry
+build r1 at Wil
+convert g1 to r1 at Blueberry
+convert r1 to y1 at Wil
+build g1 at Blueberry
+build y1 at Wil
+convert g1 to y1 at Blueberry
+move y1 from Wil to G2 (g2)
+build y2 at Blueberry
+build y2 at G2
+move y1 from Blueberry to Lettuce (g2)
+build y3 at Wil
+build y3 at Blueberry
+move y1 from G2 to Blueberry
+build y3 at Lettuce
+move y2 from G2 to Blueberry; catastrophe yellow at Blueberry
+build g1 at Broccoli_Commander
+move y3 from Wil to G2 (g2)
+move y3 from Lettuce to Blueberry
+move r1 from Wil to G2
+build g1 at Blueberry
+build g2 at Wil
+sacrifice g3 at Broccoli_Commander; build g3 at Broccoli_Commander; build g3 at Blueberry; build r1 at Blueberry
+sacrifice g3 at Wil; build g3 at Wil; build y1 at G2; build y2 at Wil
+sacrifice g3 at Broccoli_Commander; build g3 at Broccoli_Commander; build y2 at Blueberry; build y3 at Lettuce
+move g2 from Wil to B2 (b2)
+sacrifice y3 at Blueberry; move r1 from Blueberry to Lettuce; move g1 from Broccoli_Commander to Muffin (b3); move g1 from Blueberry to Lettuce
+convert y1 to b1 at Wil
+sacrifice g3 at Blueberry; build g3 at Blueberry; build r2 at Blueberry; build r2 at Lettuce
+build b2 at Wil
+sacrifice g3 at Blueberry; build g3 at Blueberry; build y1 at Lettuce; build y3 at Blueberry
+move y2 from Wil to Lettuce; catastrophe yellow at Lettuce
+convert r2 to b2 at Blueberry
+convert b2 to y2 at Wil
+move y3 from Blueberry to Lettuce
+move b1 from Wil to G2
+sacrifice g3 at Blueberry; build g3 at Blueberry; build r2 at Blueberry; build y1 at Blueberry
+build b2 at G2
+move b2 from Blueberry to Lettuce
+move y1 from G2 to B3 (b3)
+sacrifice g3 at Blueberry; build g3 at Blueberry; build y1 at Blueberry; build y3 at Lettuce
+build r2 at G2
+sacrifice y2 at Blueberry; move r1 from Blueberry to G2; move r2 from Blueberry to G2; catastrophe red at G2
+build y2 at G2
+sacrifice y3 at Lettuce; move y3 from Lettuce to Wil; move g3 from Blueberry to Lettuce; move g3 from Lettuce to Wil
+move g3 from Wil to G2
+capture y2 at Wil

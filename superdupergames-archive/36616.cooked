@@ -1,0 +1,65 @@
+Goulo (0, b3r2) g3-
+Wil (1, y2b1) -g3
+build g1 at Goulo
+build g1 at Wil
+convert g1 to y1 at Goulo
+convert g1 to b1 at Wil
+build g1 at Goulo
+build b1 at Wil
+build g1 at Goulo
+move b1 from Wil to Y3 (y3)
+convert g1 to r1 at Goulo
+build b2 at Wil
+build g1 at Goulo
+move b2 from Wil to G3 (g3)
+move g1 from Goulo to Flaveto (y1)
+build b2 at G3
+build y1 at Goulo
+sacrifice g3 at Wil; build b2 at Y3; build b3 at G3; build b3 at Wil
+move y1 from Goulo to Verdeto (g1)
+convert b3 to y3 at G3
+move y1 from Verdeto to Verdego (g3)
+build b3 at G3
+sacrifice g3 at Goulo; build y2 at Verdego; build y2 at Verdego; build y3 at Goulo
+convert b3 to g3 at Wil
+move y1 from Verdego to Wil
+convert b2 to r2 at G3
+move y2 from Verdego to Wil
+move b1 from Wil to Y3
+move y2 from Verdego to Wil; catastrophe yellow at Wil
+move b3 from G3 to Flaveto
+move g1 from Flaveto to Flavo (y2)
+build b2 at G3
+build g1 at Goulo
+convert g3 to b3 at Wil
+build g2 at Flavo
+convert b2 to g2 at Y3
+move y1 from Goulo to Rubeneto (r1)
+build b2 at Y3
+move g1 from Goulo to Rubeneto
+move b2 from G3 to Rubeneto
+build g2 at Goulo
+capture g1 at Rubeneto
+capture g1 at Rubeneto
+build g3 at Y3
+build g3 at Rubeneto
+build r1 at G3
+capture b2 at Rubeneto
+move r1 from G3 to Flaveto
+move b2 from Rubeneto to Y3; catastrophe blue at Y3
+sacrifice g3 at Y3; build b1 at Flaveto; build b1 at G3; build g3 at Y3
+move r1 from Goulo to Citroneto (y1)
+sacrifice g3 at Y3; build g3 at Y3; build b2 at Flaveto; build b2 at G3
+sacrifice g3 at Rubeneto; build g3 at Rubeneto; build y2 at Rubeneto; build y2 at Goulo
+move g2 from Y3 to Citroneto
+move r1 from Citroneto to Flavo
+convert b3 to r3 at Flaveto
+move y1 from Rubeneto to Bluego (b3)
+move r3 from Flaveto to Bluego
+move y1 from Bluego to Rubeneto
+move b2 from G3 to Wil
+move g2 from Flavo to G3
+sacrifice y3 at G3; move b3 from Wil to Goulo; move g3 from Y3 to Wil; move g3 from Wil to Goulo
+sacrifice y2 at Rubeneto; move g3 from Rubeneto to G3; move g3 from G3 to Wil
+sacrifice r3 at Bluego; capture y3 at Goulo; capture g2 at Goulo; capture y2 at Goulo
+sacrifice r1 at Flavo; capture b2 at Wil

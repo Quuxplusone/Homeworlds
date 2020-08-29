@@ -1,0 +1,68 @@
+Magicjohn (0, b1y2) g3-
+Ts52 (1, y2b3) -g3
+build g1 at Magicjohn
+build g1 at Ts52
+convert g1 to b1 at Magicjohn
+convert g1 to b1 at Ts52
+build b2 at Magicjohn
+move b1 from Ts52 to Oscar (g1)
+move b2 from Magicjohn to Elysian (y3)
+build b2 at Oscar
+sacrifice g3 at Magicjohn; build b2 at Elysian; build b3 at Magicjohn; build b3 at Elysian
+convert b2 to y2 at Oscar
+sacrifice b2 at Elysian; convert b3 to g3 at Elysian; convert b3 to g3 at Magicjohn
+build b2 at Oscar
+convert b2 to r2 at Elysian
+convert b2 to r2 at Oscar
+move g3 from Elysian to Oscar
+move r2 from Oscar to Bigbird (y3)
+sacrifice r2 at Elysian; capture y2 at Oscar; capture b1 at Oscar
+build g1 at Ts52
+convert b1 to r1 at Oscar
+move g1 from Ts52 to Zoe (y1)
+build b1 at Magicjohn
+move g1 from Zoe to Grover (b2)
+move b1 from Magicjohn to Missp (b3)
+build g1 at Grover
+move b1 from Magicjohn to Kermit (y3)
+build g2 at Ts52
+build g2 at Magicjohn
+convert g1 to y1 at Grover
+sacrifice g3 at Oscar; build b2 at Kermit; build b2 at Missp; build b3 at Kermit
+build g1 at Grover
+move g2 from Magicjohn to Kermit
+move g1 from Grover to Bigbird
+convert b3 to g3 at Kermit
+move y1 from Grover to Gonzo (b3)
+build g2 at Magicjohn
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Gonzo; build r1 at Bigbird
+convert b1 to y1 at Missp
+convert g3 to y3 at Ts52
+move g2 from Magicjohn to Missp
+build g3 at Ts52
+move g2 from Kermit to Animal (b1)
+move g3 from Ts52 to Oscar
+move y2 from Oscar to Fozzie (r2)
+sacrifice r1 at Bigbird; capture r1 at Oscar
+convert b2 to r2 at Kermit
+move y1 from Gonzo to Oscar
+move b2 from Missp to Rowlf (r1)
+sacrifice g3 at Oscar; build g3 at Bigbird; build r1 at Bigbird; build r3 at Oscar
+build r3 at Kermit
+move g3 from Bigbird to Rowlf
+move r3 from Kermit to Animal
+capture b2 at Rowlf
+build b2 at Kermit
+move r3 from Oscar to Missp
+move y1 from Missp to Animal
+build r3 at Oscar
+move y2 from Fozzie to Animal
+capture g2 at Missp
+move y1 from Animal to Ts52
+sacrifice r1 at Bigbird; capture y1 at Ts52
+move y2 from Animal to Ts52; catastrophe yellow at Ts52
+move r3 from Oscar to Ts52
+convert b2 to y2 at Kermit
+convert g3 to y3 at Rowlf
+build g3 at Animal
+sacrifice y3 at Rowlf; move g1 from Bigbird to Magicjohn; move g2 from Missp to Magicjohn; move g2 from Ts52 to Magicjohn; catastrophe green at Magicjohn

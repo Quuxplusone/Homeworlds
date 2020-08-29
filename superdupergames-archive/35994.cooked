@@ -1,0 +1,24 @@
+Dodobirb (0, b1y2) g3-
+Draw5Playall (1, b1g3) -b3
+build g1 at Dodobirb
+build b1 at Draw5Playall
+build g1 at Dodobirb
+convert b3 to y3 at Draw5Playall
+convert g3 to b3 at Dodobirb
+build b2 at Draw5Playall
+build b2 at Dodobirb
+sacrifice y3 at Draw5Playall; move b1 from Draw5Playall to Temp (y2); move b1 from Temp to Orary (y3); move b1 from Orary to Dodobirb; catastrophe blue at Dodobirb
+build g1 at Dodobirb
+build b1 at Draw5Playall
+move g1 from Dodobirb to Newhome (b1)
+convert b2 to r2 at Draw5Playall
+build g2 at Newhome
+build b2 at Draw5Playall
+convert g2 to y2 at Newhome
+convert b2 to y2 at Draw5Playall
+move y2 from Newhome to Dodobirb
+move r2 from Draw5Playall to Dodobirb
+pass
+capture y2 at Dodobirb
+pass
+sacrifice r2 at Dodobirb; capture g1 at Dodobirb; capture g1 at Dodobirb

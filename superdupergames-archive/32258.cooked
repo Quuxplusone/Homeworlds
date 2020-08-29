@@ -1,0 +1,34 @@
+Panglott (0, b3y1) g3-
+Felix (1, b2y3) -g3
+build g1 at Panglott
+build g1 at Felix
+move g1 from Panglott to Tallahassee (b2)
+convert g1 to y1 at Felix
+build g1 at Tallahassee
+build y1 at Felix
+build g1 at Panglott
+move y1 from Felix to Out (b1)
+build g2 at Tallahassee
+build g2 at Felix
+convert g1 to r1 at Panglott
+build y2 at Felix
+convert g2 to y2 at Tallahassee
+move y1 from Felix to Gumdrop (b1)
+move g1 from Tallahassee to Gumdrop
+sacrifice g3 at Felix; build y2 at Gumdrop; build y3 at Out; build y3 at Felix
+move y2 from Tallahassee to Cairo (g1)
+convert y2 to r2 at Felix
+build g2 at Panglott
+convert y2 to r2 at Gumdrop
+sacrifice g3 at Panglott; build g2 at Tallahassee; build g3 at Gumdrop; build g3 at Panglott
+build g3 at Felix
+convert g3 to r3 at Gumdrop
+sacrifice g2 at Felix; build r1 at Gumdrop; build r1 at Gumdrop; catastrophe red at Gumdrop
+sacrifice g3 at Panglott; build y2 at Cairo; build g2 at Tallahassee; build g3 at Panglott
+build g3 at Felix
+convert g2 to y2 at Tallahassee
+build r1 at Felix
+sacrifice y2 at Tallahassee; move y2 from Cairo to Felix; move y2 from Cairo to Felix; catastrophe yellow at Felix
+sacrifice y3 at Out; move g3 from Felix to Panglott; move g3 from Felix to Panglott; move r2 from Felix to Panglott; catastrophe green at Panglott
+convert g2 to y2 at Tallahassee
+capture r1 at Panglott

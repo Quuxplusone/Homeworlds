@@ -1,0 +1,77 @@
+Zoltar (0, r1b3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Zoltar
+build g1 at Ts52
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Ts52
+build y2 at Zoltar
+build y2 at Ts52
+build y2 at Zoltar
+move y2 from Ts52 to Kermit (g3)
+convert y1 to r1 at Zoltar
+convert y1 to r1 at Ts52
+move r1 from Zoltar to Proxima (g2)
+build r2 at Ts52
+move y2 from Zoltar to Proxima
+move r2 from Ts52 to Kermit
+build r2 at Proxima
+build g1 at Ts52
+move r2 from Proxima to Greenpea (g1)
+move g1 from Ts52 to Grover (b3)
+build y1 at Zoltar
+build g1 at Grover
+build g2 at Zoltar
+build g2 at Ts52
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Greenpea; build r3 at Proxima
+sacrifice g3 at Ts52; build g3 at Ts52; build r3 at Ts52; build r3 at Kermit
+sacrifice y2 at Zoltar; move r1 from Proxima to Kermit; move r2 from Greenpea to Kermit; catastrophe red at Kermit
+convert g1 to r1 at Grover
+build r2 at Proxima
+move r1 from Ts52 to Kermit
+move r2 from Proxima to Grover
+sacrifice g3 at Ts52; build r2 at Ts52; build r3 at Grover; build g1 at Grover
+sacrifice y2 at Proxima; move g2 from Zoltar to Orion (b2); move r2 from Greenpea to Grover; catastrophe red at Grover
+move r2 from Ts52 to Grover
+build y1 at Zoltar
+build r1 at Grover
+move y1 from Zoltar to Proxima
+build y2 at Kermit
+sacrifice g2 at Orion; build y2 at Zoltar; build y3 at Proxima
+move y2 from Kermit to Robin (g2)
+sacrifice y1 at Zoltar; move y3 from Proxima to Grover
+sacrifice y2 at Robin; move r1 from Grover to Proxima; move r2 from Grover to Proxima
+sacrifice y1 at Proxima; move r3 from Proxima to Grover
+sacrifice g1 at Grover; build g1 at Ts52
+capture g1 at Grover
+build y1 at Kermit
+build g1 at Zoltar
+move g2 from Ts52 to Oscar (g3)
+sacrifice g3 at Zoltar; build g2 at Grover; build g3 at Zoltar; build y1 at Grover
+move y1 from Kermit to Proxima
+move y3 from Grover to Blueberry (b1)
+build y2 at Proxima
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Grover; build y3 at Zoltar
+build r2 at Ts52
+convert y1 to b1 at Grover
+convert r2 to b2 at Ts52
+convert y3 to b3 at Zoltar
+sacrifice b2 at Ts52; convert r2 to b2 at Proxima; convert y1 to b1 at Proxima
+sacrifice y2 at Zoltar; move b3 from Zoltar to Bloohoohoo (b2); move b1 from Grover to Oldyeller (y1)
+build r2 at Proxima
+convert b3 to r3 at Bloohoohoo
+build y1 at Proxima
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Grover; build y3 at Blueberry
+sacrifice y2 at Kermit; move y1 from Proxima to Blueberry; move y2 from Proxima to Blueberry; catastrophe yellow at Blueberry
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Bloohoohoo; build r2 at Grover
+convert b2 to y2 at Proxima
+move r3 from Grover to Proxima
+build y1 at Proxima
+sacrifice r3 at Bloohoohoo; capture y2 at Proxima; capture r2 at Proxima; capture r1 at Proxima
+build r3 at Ts52
+sacrifice y3 at Grover; move r2 from Grover to Ts52; move r1 from Proxima to Grover; move r1 from Grover to Ts52; catastrophe red at Ts52
+sacrifice y1 at Proxima; move r1 from Kermit to Ts52
+move g2 from Grover to Ts52
+build g3 at Ts52
+sacrifice y2 at Proxima; move y2 from Grover to Ts52; move g1 from Grover to Ts52; catastrophe green at Ts52
+sacrifice g2 at Oscar; build r1 at Ts52; build r2 at Ts52
+sacrifice r3 at Proxima; capture r2 at Ts52; capture r1 at Ts52; capture r1 at Ts52

@@ -1,0 +1,48 @@
+Ts52 (0, y1b2) g3-
+Felix (1, b1y3) -g3
+build g1 at Ts52
+build g1 at Felix
+convert g1 to b1 at Ts52
+convert g1 to b1 at Felix
+build b2 at Ts52
+build b2 at Felix
+move b2 from Ts52 to Kermit (g3)
+convert b2 to y2 at Felix
+build g1 at Ts52
+move b1 from Felix to Grass (g2)
+convert g1 to y1 at Ts52
+build g1 at Felix
+build g1 at Ts52
+build y1 at Felix
+move y1 from Ts52 to Kermit
+convert y2 to r2 at Felix
+convert g1 to r1 at Ts52
+build y2 at Felix
+build g1 at Ts52
+move y2 from Felix to Grass
+build y2 at Kermit
+build y2 at Grass
+move y2 from Kermit to Oscar (g2)
+move y2 from Grass to Ocean (b3)
+build y3 at Kermit
+sacrifice g1 at Felix; build y3 at Ocean
+build g1 at Ts52
+build g1 at Felix
+move g1 from Ts52 to Gonzo (b3)
+convert y2 to g2 at Ocean
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Oscar; build r1 at Ts52
+sacrifice g1 at Felix; build g1 at Ocean
+move r1 from Ts52 to Gonzo
+move y2 from Grass to Gonzo
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Gonzo; build r2 at Gonzo
+sacrifice y3 at Ocean; move g1 from Ocean to Ts52; move g2 from Ocean to Ts52; move y2 from Gonzo to Ts52; catastrophe green at Ts52
+sacrifice y2 at Oscar; move r2 from Gonzo to Ts52; move g1 from Gonzo to Ts52
+sacrifice r2 at Felix; capture r2 at Ts52; capture b1 at Ts52
+sacrifice y2 at Oscar; move r1 from Gonzo to Ts52; move r1 from Gonzo to Ts52; catastrophe red at Ts52
+convert y1 to r1 at Felix
+build g1 at Ts52
+build g1 at Felix
+convert y3 to r3 at Kermit
+sacrifice g3 at Felix; build b2 at Ts52; build b3 at Ts52; build y1 at Ts52; catastrophe blue at Ts52
+move r3 from Kermit to Ts52
+sacrifice g1 at Felix; build y2 at Ts52; catastrophe yellow at Ts52

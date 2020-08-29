@@ -1,0 +1,28 @@
+Cordgrote (0, b3r1) g3-
+Zingor (1, y1b2) -g3
+build g1 at Cordgrote
+build g1 at Zingor
+convert g1 to y1 at Cordgrote
+build g1 at Zingor
+build y1 at Cordgrote
+convert g1 to r1 at Zingor
+build y2 at Cordgrote
+build r1 at Zingor
+move y1 from Cordgrote to Genevive (g2)
+build g1 at Zingor
+convert y1 to g1 at Cordgrote
+convert g1 to y1 at Zingor
+build y2 at Genevive
+build y2 at Zingor
+move y1 from Genevive to Yarrow (y3)
+move y1 from Zingor to Guava (g3)
+build y3 at Genevive
+build y3 at Guava
+build g1 at Cordgrote
+move y1 from Guava to Genevive
+convert y2 to r2 at Cordgrote
+build y2 at Guava
+convert g1 to b1 at Cordgrote
+convert g1 to b1 at Zingor
+move y2 from Genevive to Cordgrote
+build g1 at Zingor

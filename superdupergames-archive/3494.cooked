@@ -1,0 +1,17 @@
+Jeep (0, y2b3) g3-
+Danner (1, y1b2) -g3
+build g1 at Jeep
+build g1 at Danner
+convert g1 to y1 at Jeep
+convert g1 to y1 at Danner
+build y2 at Jeep
+build g1 at Danner
+move y2 from Jeep to Moon (b1)
+move y1 from Danner to Earth (g3)
+build g1 at Jeep
+convert g1 to r1 at Danner
+move g1 from Jeep to Moon
+build g1 at Danner
+build g1 at Jeep
+move g1 from Danner to Earth
+move y1 from Jeep to Stars (b1)

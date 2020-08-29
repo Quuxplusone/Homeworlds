@@ -1,0 +1,63 @@
+Jesse (0, b3r1) g3-
+Twoshort (1, b1y2) -g3
+build g1 at Jesse
+build g1 at Twoshort
+build g1 at Jesse
+build g2 at Twoshort
+convert g1 to y1 at Jesse
+move g2 from Twoshort to Yolonda (y3)
+build y1 at Jesse
+build g1 at Twoshort
+move g1 from Jesse to Honeybee (b2)
+move g1 from Twoshort to Bluonia (b3)
+move y1 from Jesse to Honeybee
+move g2 from Yolonda to Greenland (g2)
+move y1 from Honeybee to Apogee (g3)
+build g2 at Bluonia
+build y1 at Jesse
+convert g2 to y2 at Bluonia
+build g2 at Jesse
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y2 at Bluonia; build y3 at Bluonia
+sacrifice g3 at Jesse; build g3 at Jesse; build y3 at Apogee; build y3 at Apogee
+sacrifice y2 at Bluonia; move g2 from Greenland to Jesse; move g1 from Bluonia to Yonderboy (y2)
+sacrifice y3 at Apogee; move y1 from Jesse to Honeybee; move g2 from Jesse to Honeybee; move g2 from Honeybee to Wonderwhy (y3)
+convert g1 to r1 at Twoshort
+capture g2 at Jesse
+build g1 at Yonderboy
+convert g2 to r2 at Jesse
+move y2 from Bluonia to Gordon (g2)
+move r2 from Jesse to Yonderboy
+move y3 from Bluonia to Yonderboy
+move r2 from Yonderboy to Apogee
+build r1 at Twoshort
+sacrifice g2 at Wonderwhy; build y3 at Jesse; build r2 at Apogee
+build g2 at Twoshort
+sacrifice y3 at Apogee; move r2 from Apogee to Honeybee; move y1 from Jesse to Yonderboy; move y1 from Apogee to Yonderboy; catastrophe yellow at Yonderboy
+move r1 from Twoshort to Bluestar (b3)
+build g1 at Jesse
+move g2 from Twoshort to Bluestar
+build g1 at Honeybee
+build g2 at Twoshort
+sacrifice g3 at Jesse; build g3 at Jesse; build y1 at Jesse; build y1 at Honeybee
+move g2 from Twoshort to Yolonda (y3)
+move y1 from Honeybee to Apogee
+sacrifice g2 at Bluestar; build r2 at Twoshort; build r3 at Bluestar
+sacrifice g3 at Jesse; build g2 at Honeybee; build g3 at Jesse; build r3 at Honeybee
+convert r3 to y3 at Bluestar
+sacrifice g3 at Jesse; build g3 at Jesse; build y2 at Apogee; build r3 at Apogee
+sacrifice g2 at Yolonda; build r3 at Bluestar; build y3 at Gordon
+move y3 from Jesse to Perigee (g2)
+sacrifice y2 at Gordon; move r1 from Twoshort to Apogee; move r2 from Twoshort to Apogee; catastrophe red at Apogee
+build y2 at Honeybee
+move r3 from Bluestar to Twoshort
+move r2 from Honeybee to Apogee
+build r1 at Twoshort
+build r2 at Apogee
+convert r1 to b1 at Twoshort
+convert g1 to b1 at Honeybee
+build g1 at Twoshort
+move r2 from Apogee to Perigee
+build r1 at Twoshort
+sacrifice g3 at Jesse; build r2 at Perigee; build r3 at Apogee; build g3 at Jesse
+build b2 at Twoshort
+sacrifice y3 at Perigee; move b1 from Honeybee to Apogee; move b1 from Apogee to Twoshort; move g1 from Jesse to Frisbee (b2); catastrophe blue at Twoshort

@@ -1,0 +1,57 @@
+Felix (0, r2b3) g3-
+Agentofchaos (1, r1b2) -g3
+build g1 at Felix
+build g1 at Agentofchaos
+convert g1 to y1 at Felix
+build g1 at Agentofchaos
+build y1 at Felix
+convert g1 to y1 at Agentofchaos
+build y2 at Felix
+build y2 at Agentofchaos
+convert y1 to b1 at Felix
+build g1 at Agentofchaos
+move b1 from Felix to Rim (g1)
+move g1 from Agentofchaos to Doombridge (r3)
+build g2 at Felix
+sacrifice g3 at Agentofchaos; build g2 at Doombridge; build g2 at Agentofchaos; build g3 at Agentofchaos
+move g2 from Felix to Opus (b1)
+convert g2 to r2 at Agentofchaos
+build g2 at Felix
+move y1 from Agentofchaos to Doombridge
+build g3 at Opus
+sacrifice g3 at Agentofchaos; build y1 at Doombridge; build r1 at Agentofchaos; build g3 at Agentofchaos
+move y2 from Felix to Opus
+move r2 from Agentofchaos to Yuggoth (y3)
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Opus; build y3 at Felix
+sacrifice g3 at Agentofchaos; build y3 at Agentofchaos; build r1 at Yuggoth; build g3 at Agentofchaos
+convert g3 to r3 at Opus
+move g1 from Doombridge to Rim
+sacrifice g3 at Felix; build g3 at Felix; build g3 at Opus; build r2 at Opus
+sacrifice r1 at Yuggoth; capture b1 at Rim
+move r3 from Opus to Doombridge
+sacrifice y1 at Doombridge; move g2 from Doombridge to Agarzon (y1)
+capture y1 at Doombridge
+move r1 from Agentofchaos to Doombridge
+capture r1 at Doombridge
+sacrifice y2 at Agentofchaos; move r2 from Yuggoth to Rim; move r2 from Rim to Doombridge; catastrophe red at Doombridge
+move g2 from Opus to Edge (y3)
+convert b1 to y1 at Rim
+build y2 at Opus
+convert g1 to r1 at Agentofchaos
+sacrifice g3 at Felix; build g1 at Opus; build g3 at Felix; build r1 at Opus
+move g2 from Agarzon to Ghost (b2)
+move g2 from Felix to Rim
+move g1 from Rim to Lycan (b2)
+sacrifice r1 at Opus; capture y1 at Rim
+build y1 at Agentofchaos
+move y2 from Opus to Lycan
+sacrifice g1 at Lycan; build g1 at Ghost
+convert g1 to b1 at Opus
+build g1 at Agentofchaos
+sacrifice g2 at Rim; build g2 at Felix; build b1 at Opus
+move y1 from Agentofchaos to Shade (b3)
+move b1 from Opus to Edge
+move r1 from Agentofchaos to Shade
+build b3 at Edge
+move r1 from Shade to Ghost
+sacrifice y3 at Felix; move b3 from Edge to Agentofchaos; move g3 from Opus to Edge; move g3 from Edge to Agentofchaos

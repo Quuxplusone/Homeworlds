@@ -1,0 +1,45 @@
+Danner (0, b1r2) g3-
+Aristos (1, g3b2) -y3
+build g1 at Danner
+build y1 at Aristos
+build g1 at Danner
+move y1 from Aristos to Blip (y1)
+convert g1 to y1 at Danner
+build y2 at Aristos
+build y2 at Danner
+move y1 from Blip to Behemoth (g3)
+move y1 from Danner to Ocean (b3)
+build y1 at Behemoth
+sacrifice g3 at Danner; build y2 at Ocean; build y3 at Ocean; build y3 at Danner
+sacrifice y2 at Aristos; move y1 from Behemoth to Tiny (r1); move y1 from Tiny to Ocean; catastrophe yellow at Ocean
+build g1 at Danner
+build y1 at Behemoth
+move g1 from Danner to Sun (y3)
+move y1 from Behemoth to Danner
+convert y3 to g3 at Danner
+capture g1 at Danner
+capture g1 at Danner
+build y1 at Behemoth
+capture y1 at Danner
+build y2 at Aristos
+move y1 from Danner to Ocean (b3)
+convert y2 to r2 at Aristos
+build y2 at Danner
+build r1 at Aristos
+convert y2 to r2 at Danner
+build y2 at Aristos
+build y2 at Danner
+sacrifice y2 at Aristos; move r1 from Aristos to Pass (g1); move r1 from Pass to Sol (y3)
+move r2 from Danner to Sol
+build y2 at Aristos
+capture r1 at Sol
+build r1 at Aristos
+sacrifice g1 at Sun; build y3 at Ocean
+move r2 from Aristos to Dim (g1)
+move y3 from Ocean to Dim
+build r1 at Dim
+sacrifice r2 at Sol; capture r2 at Dim; capture r1 at Dim
+build r2 at Aristos
+sacrifice y2 at Danner; move r1 from Dim to Aristos; move r2 from Dim to Aristos; catastrophe red at Aristos
+convert y2 to r2 at Aristos
+build y2 at Dim

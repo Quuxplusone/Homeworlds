@@ -1,0 +1,34 @@
+Jbj77 (0, b1y2) g3-
+Jeep (1, b1g3) -b3
+build g1 at Jbj77
+build b1 at Jeep
+move g1 from Jbj77 to Alpha (y3)
+convert b3 to y3 at Jeep
+build g1 at Jbj77
+build b2 at Jeep
+build g1 at Jbj77
+convert b2 to g2 at Jeep
+convert g1 to y1 at Jbj77
+build b2 at Jeep
+build g1 at Alpha
+convert b2 to r2 at Jeep
+convert g1 to r1 at Jbj77
+build b2 at Jeep
+build g1 at Alpha
+move b2 from Jeep to Wanderer (y2)
+build g2 at Jbj77
+build g2 at Jeep
+move g1 from Alpha to Beta (y2)
+move b2 from Wanderer to Gamma (g3)
+move g1 from Beta to Jeep; catastrophe green at Jeep
+convert b1 to g1 at Jeep
+convert g2 to b2 at Jbj77
+build g2 at Jeep
+build g2 at Jbj77
+build y1 at Jeep
+move g1 from Alpha to Delta (y2)
+move y1 from Jeep to Gamma
+sacrifice g3 at Jbj77; build g2 at Alpha; build g3 at Delta; build g3 at Jbj77
+build y1 at Gamma
+sacrifice b2 at Jbj77; convert g2 to y2 at Alpha; convert g3 to y3 at Delta
+move g1 from Jeep to Stage (b3)

@@ -1,0 +1,49 @@
+Felix (0, r1b2) g3-
+Wil (1, y3b1) -g3
+build g1 at Felix
+build g1 at Wil
+convert g1 to b1 at Felix
+convert g1 to b1 at Wil
+build b2 at Felix
+build b2 at Wil
+convert b2 to y2 at Felix
+convert b1 to r1 at Wil
+build y1 at Felix
+build r1 at Wil
+build y1 at Felix
+build r2 at Wil
+convert y2 to r2 at Felix
+move r1 from Wil to B2 (b2)
+move y1 from Felix to Rim (b3)
+move r2 from Wil to Y2 (y2)
+build g1 at Felix
+move r2 from Y2 to Rim
+move g3 from Felix to Rim
+sacrifice g3 at Wil; build r2 at Wil; build r3 at Wil; build r3 at B2
+build r3 at Felix
+convert r2 to y2 at Wil
+sacrifice r2 at Felix; capture r2 at Rim
+convert r1 to g1 at Wil
+build y1 at Rim
+convert r3 to g3 at B2
+build y2 at Felix
+move y2 from Wil to B2
+move y1 from Rim to Range (g2)
+build r1 at Wil
+sacrifice g3 at Rim; build y2 at Range; build y3 at Rim; build y3 at Felix
+build r2 at B2
+move b1 from Felix to Rhino (g3)
+move r2 from B2 to Rhino
+move y3 from Felix to Rhino
+move b2 from Wil to G2 (g2)
+sacrifice r2 at Rim; capture r2 at Rhino
+build r2 at B2
+build b1 at Rhino
+move r2 from B2 to B3 (b3)
+build b3 at Rhino
+build g1 at B2
+sacrifice y2 at Felix; move b1 from Rhino to Range; move y1 from Rim to Ricket (y2)
+sacrifice g3 at B2; build g2 at Wil; build g3 at Wil; build g3 at B2
+sacrifice y3 at Rhino; move y1 from Range to Wil; move y2 from Range to Wil; move y1 from Ricket to Wil
+sacrifice g3 at Wil; build g3 at Wil; build y2 at B2; build y3 at B2; catastrophe yellow at Wil
+sacrifice y3 at Rim; move b1 from Range to Wil; move b1 from Rhino to Wil; move b3 from Rhino to Wil; catastrophe blue at Wil

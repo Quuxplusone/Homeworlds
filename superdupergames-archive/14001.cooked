@@ -1,0 +1,21 @@
+Zxcv411 (0, b1r2) g3-
+Jonaskoelker (1, b2r3) -g3
+build g1 at Zxcv411
+build g1 at Jonaskoelker
+convert g1 to y1 at Zxcv411
+convert g1 to y1 at Jonaskoelker
+build g1 at Zxcv411
+build g1 at Jonaskoelker
+convert g3 to y3 at Zxcv411
+convert g1 to b1 at Jonaskoelker
+build g1 at Zxcv411
+build b1 at Jonaskoelker
+convert g1 to r1 at Zxcv411
+move b1 from Jonaskoelker to Small_Green (g1)
+build r1 at Zxcv411
+build b2 at Small_Green
+move r1 from Zxcv411 to Starbug (g3)
+build b2 at Jonaskoelker
+move y1 from Zxcv411 to Starbug
+build b3 at Small_Green
+build r1 at Starbug

@@ -1,0 +1,51 @@
+Silenttitan (0, b2y1) g3-
+Rootbier (1, b1y3) -g3
+build g1 at Silenttitan
+build g1 at Rootbier
+convert g1 to b1 at Silenttitan
+convert g1 to y1 at Rootbier
+move b1 from Silenttitan to All (g3)
+build y1 at Rootbier
+build b1 at All
+move y1 from Rootbier to Pesto (g2)
+build b2 at All
+build y2 at Rootbier
+convert b2 to y2 at All
+convert y1 to r1 at Rootbier
+build b2 at All
+convert y2 to b2 at Rootbier
+sacrifice y2 at All; move b1 from All to Ball (y2); move b2 from All to Silenttitan
+move r1 from Rootbier to Ball
+sacrifice g3 at Silenttitan; build b3 at Ball; build b3 at All; build b3 at Silenttitan
+move b2 from Rootbier to Pesto
+sacrifice b3 at All; convert b3 to r3 at Ball; convert b3 to g3 at Silenttitan; convert b1 to r1 at All
+build g1 at Rootbier
+capture r1 at Ball
+convert g3 to r3 at Rootbier
+sacrifice g3 at Silenttitan; build b1 at Ball; build b3 at Ball; build b3 at Silenttitan
+build b3 at Pesto
+sacrifice b2 at Silenttitan; convert b3 to y3 at Ball; convert b1 to r1 at Ball
+build g1 at Rootbier
+move r1 from Ball to Rootbier
+sacrifice b2 at Pesto; convert r3 to b3 at Rootbier; convert b3 to r3 at Pesto
+convert r1 to b1 at Rootbier
+convert b3 to r3 at Rootbier
+convert y3 to g3 at Ball
+capture b1 at Rootbier
+build b2 at Ball
+move b1 from Rootbier to Pesto
+convert b2 to y2 at Ball
+build b2 at Pesto
+sacrifice g3 at Ball; build b2 at Ball; build b3 at Ball; build b3 at Silenttitan
+convert r3 to g3 at Pesto
+sacrifice b2 at Ball; convert b3 to r3 at Silenttitan; convert b3 to y3 at Silenttitan
+move b1 from Pesto to Flaco (g3)
+sacrifice y2 at Ball; move r3 from Silenttitan to All; move r3 from All to Pesto
+sacrifice g3 at Pesto; build b2 at Pesto; build b3 at Flaco; build r1 at Rootbier
+convert b3 to y3 at Ball
+move r1 from Rootbier to Pesto
+sacrifice y3 at Ball; move r3 from Pesto to Rootbier; move r3 from Ball to Rootbier; move b1 from Ball to Rootbier
+build r2 at Rootbier; catastrophe red at Rootbier
+sacrifice r1 at All; capture g1 at Rootbier
+move b2 from Pesto to Rootbier
+build b3 at Rootbier; catastrophe blue at Rootbier

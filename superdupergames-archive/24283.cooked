@@ -1,0 +1,55 @@
+Marmalade (0, g1y2) b3-
+Wil (1, b3r2) -g3
+build b1 at Marmalade
+build g1 at Wil
+build b1 at Marmalade
+convert g1 to y1 at Wil
+move b1 from Marmalade to Ain (g3)
+convert y1 to g1 at Wil
+build b1 at Ain
+convert g1 to y1 at Wil
+build b2 at Ain
+build g1 at Wil
+build b2 at Marmalade
+convert g3 to b3 at Wil
+convert b2 to y2 at Ain
+build g1 at Wil
+move b1 from Ain to Kleeia (y1)
+move g1 from Wil to Y1 (y1)
+build b2 at Ain
+build y2 at Wil
+build y3 at Ain
+convert b3 to g3 at Wil
+convert y2 to r2 at Ain
+build g2 at Wil
+convert b2 to g2 at Ain
+convert g2 to r2 at Wil
+move g2 from Ain to Kleeia
+build g2 at Y1
+move y3 from Ain to Y1
+move g2 from Y1 to Y3 (y3)
+sacrifice g2 at Kleeia; build b2 at Ain; build b2 at Kleeia
+move g1 from Y1 to Y3A (y3)
+convert b2 to y2 at Ain
+build g2 at Y3A
+sacrifice b2 at Marmalade; convert y3 to g3 at Y1; convert b3 to y3 at Marmalade
+move y1 from Wil to R1 (r1)
+convert b2 to g2 at Kleeia
+move r2 from Wil to R1
+build r1 at Ain
+move g1 from Y3A to R1
+build b2 at Marmalade
+sacrifice g2 at Y3A; build y3 at R1; build g2 at R1
+sacrifice g3 at Y1; build g3 at Kleeia; build b2 at Kleeia; build b2 at Ain
+move y3 from R1 to Ain
+move b2 from Ain to Mooose (y1)
+sacrifice r2 at R1; capture y2 at Ain; capture b1 at Ain
+sacrifice g3 at Kleeia; build g3 at Kleeia; build b3 at Mooose; build b3 at Kleeia
+convert g1 to r1 at Wil
+sacrifice y3 at Marmalade; move b3 from Kleeia to Wil; move b3 from Mooose to Wil; move g3 from Kleeia to Wil
+sacrifice g2 at Y3; build y3 at Wil; build r2 at Wil
+sacrifice r2 at Ain; capture g3 at Wil; capture y3 at Wil
+move y3 from Ain to Marmalade
+capture r2 at Wil
+sacrifice r1 at Wil; capture b2 at Marmalade
+capture y2 at Wil

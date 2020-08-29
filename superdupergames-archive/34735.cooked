@@ -1,0 +1,63 @@
+Felix (0, g1y2) r3-
+Dlwillson (1, y3g2) -r3
+build r1 at Felix
+build r1 at Dlwillson
+move r1 from Felix to Out (b3)
+move r1 from Dlwillson to Sea (b1)
+convert r1 to g1 at Out
+convert r1 to g1 at Sea
+build g2 at Out
+build g2 at Sea
+build g3 at Out
+build g3 at Sea
+convert g3 to y3 at Out
+convert g3 to y3 at Sea
+move g1 from Out to Sea
+convert g1 to r1 at Sea
+build g1 at Sea
+move g2 from Sea to Sky (b3)
+build g3 at Out
+build g3 at Sky
+move g3 from Out to Forth (b1)
+convert g2 to r2 at Sky
+sacrifice g3 at Forth; build g2 at Sea; build g3 at Out; build g3 at Out
+sacrifice g3 at Sky; build r1 at Sky; build r1 at Sky; build r2 at Dlwillson
+move g3 from Out to Felix
+capture g2 at Sea
+sacrifice g2 at Out; build g2 at Sea; build g3 at Out; catastrophe green at Sea
+convert r2 to g2 at Sky
+convert g3 to r3 at Out
+convert r1 to b1 at Sky
+move g3 from Felix to Sky
+sacrifice g2 at Sky; build r1 at Sky; build r2 at Sky
+sacrifice r3 at Out; capture r1 at Sky; capture r1 at Sky; capture r2 at Sky
+move r1 from Sea to Sky; catastrophe red at Sky
+build g1 at Out
+move y3 from Sea to Sky
+sacrifice g3 at Sky; build g1 at Out; build r1 at Felix; build y1 at Out
+sacrifice b1 at Sky; convert r3 to b3 at Dlwillson
+convert g1 to b1 at Out
+build r1 at Dlwillson
+move b1 from Out to Felix
+build b1 at Dlwillson
+build g1 at Out
+move r1 from Dlwillson to Sol (y1)
+move g3 from Out to Sol
+move r1 from Sol to Sky
+build g2 at Sol
+build r1 at Dlwillson
+sacrifice g3 at Sol; build g2 at Sol; build g3 at Sol; build g3 at Out
+convert r1 to y1 at Dlwillson
+move g3 from Out to Bluey (b1)
+convert y3 to g3 at Sky
+sacrifice g3 at Sol; build g3 at Bluey; build y2 at Out; build b2 at Felix
+move y1 from Dlwillson to Mars (r1)
+move y1 from Out to Bluey
+build r2 at Dlwillson
+sacrifice g3 at Bluey; build g3 at Bluey; build y2 at Bluey; build y3 at Bluey
+build r2 at Dlwillson
+move y2 from Out to Mars
+move b1 from Dlwillson to Bluey
+sacrifice r1 at Felix; capture b1 at Bluey
+move r2 from Dlwillson to Sol
+sacrifice y3 at Out; move g2 from Sol to Dlwillson; move g2 from Sol to Dlwillson; move g3 from Bluey to Dlwillson

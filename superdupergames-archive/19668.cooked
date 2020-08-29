@@ -1,0 +1,41 @@
+Ts52 (0, y2b3) g3-
+Lorgar (1, b1y3) -g3
+build g1 at Ts52
+build g1 at Lorgar
+move g1 from Ts52 to Grover (b1)
+convert g1 to r1 at Lorgar
+build g1 at Ts52
+build g1 at Lorgar
+build g2 at Grover
+build g2 at Lorgar
+convert g2 to y2 at Grover
+move g2 from Lorgar to Maloha (b2)
+build g2 at Grover
+convert g3 to y3 at Lorgar
+convert g2 to r2 at Grover
+convert y3 to g3 at Lorgar
+build g2 at Grover
+move r1 from Lorgar to Maloha
+sacrifice g3 at Ts52; build g2 at Ts52; build g3 at Ts52; build g3 at Grover
+convert g3 to y3 at Lorgar
+convert g3 to r3 at Ts52
+build g3 at Maloha
+sacrifice y2 at Grover; move g1 from Grover to Maloha; move g2 from Grover to Maloha; catastrophe green at Maloha
+convert y3 to g3 at Lorgar
+build r1 at Grover
+move g1 from Lorgar to Maloha
+convert r1 to y1 at Grover
+build g1 at Lorgar
+move r2 from Grover to Maloha
+sacrifice g3 at Lorgar; build g2 at Maloha; build g2 at Maloha; build g3 at Lorgar
+capture r1 at Maloha
+build g3 at Lorgar
+capture g2 at Maloha
+move g1 from Lorgar to Maloha; catastrophe green at Maloha
+convert r2 to y2 at Maloha
+convert g3 to r3 at Lorgar
+build g1 at Grover
+move r3 from Lorgar to Maloha
+sacrifice g2 at Ts52; build r1 at Maloha; build r1 at Maloha; catastrophe red at Maloha
+build g1 at Lorgar
+sacrifice y2 at Maloha; move g3 from Grover to Bird (y2); move g3 from Bird to Lorgar

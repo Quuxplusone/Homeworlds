@@ -1,0 +1,26 @@
+Mikeyarrum (0, r3b2) g3-
+Inundator (1, b1g2) -y3
+build g1 at Mikeyarrum
+build y1 at Inundator
+build g1 at Mikeyarrum
+build y1 at Inundator
+convert g1 to y1 at Mikeyarrum
+convert y1 to r1 at Inundator
+build g1 at Mikeyarrum
+build r1 at Inundator
+move g1 from Mikeyarrum to Ena (b1)
+move r1 from Inundator to Galahad (y3)
+convert g1 to r1 at Mikeyarrum
+build r2 at Inundator
+build g1 at Ena
+move r2 from Inundator to Galahad
+move r1 from Mikeyarrum to Ena
+move r2 from Galahad to Ena
+build r2 at Ena
+capture r2 at Ena
+build r2 at Ena; catastrophe red at Ena
+move r1 from Galahad to Ena
+build g1 at Mikeyarrum
+capture g1 at Ena
+sacrifice g3 at Mikeyarrum; build g2 at Ena; build g2 at Mikeyarrum; build g3 at Mikeyarrum
+sacrifice y1 at Inundator; move g1 from Ena to Mikeyarrum; catastrophe green at Mikeyarrum

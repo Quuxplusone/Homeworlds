@@ -1,0 +1,41 @@
+Ts52 (0, y1b2) g3-
+Shmil1 (1, b2g1) -r3
+build g1 at Ts52
+build r1 at Shmil1
+build g1 at Ts52
+build r1 at Shmil1
+move g1 from Ts52 to Bigbird (y3)
+convert r1 to y1 at Shmil1
+convert g1 to r1 at Ts52
+build y1 at Shmil1
+build g1 at Ts52
+move r1 from Shmil1 to Bigbird
+sacrifice r1 at Ts52; capture r1 at Bigbird
+build y2 at Shmil1
+build g2 at Bigbird
+convert y2 to r2 at Shmil1
+sacrifice g3 at Ts52; build g2 at Bigbird; build g2 at Ts52; build g3 at Ts52
+move y1 from Shmil1 to Zelena (g3)
+move g2 from Ts52 to Zoe (y3)
+build y2 at Zelena
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Ts52; build r1 at Bigbird
+convert r2 to b2 at Shmil1
+convert g3 to y3 at Ts52
+move y1 from Zelena to Ts52
+move y3 from Ts52 to Grover (b3)
+move y2 from Zelena to Ts52
+sacrifice r1 at Bigbird; capture y2 at Ts52
+build r1 at Shmil1
+convert y2 to r2 at Ts52
+sacrifice r1 at Shmil1; capture g1 at Ts52
+capture g1 at Ts52
+move y1 from Ts52 to Nono (g3)
+build g3 at Ts52
+build y2 at Nono
+convert g3 to r3 at Ts52
+convert r3 to g3 at Shmil1
+move r3 from Ts52 to Nono
+build y2 at Nono
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Grover; build r1 at Ts52
+sacrifice b2 at Shmil1; convert y2 to r2 at Nono; convert y2 to r2 at Nono
+sacrifice y3 at Grover; move g1 from Bigbird to Shmil1; move g2 from Bigbird to Shmil1; move r3 from Nono to Shmil1; catastrophe green at Shmil1

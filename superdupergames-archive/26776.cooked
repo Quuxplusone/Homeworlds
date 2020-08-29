@@ -1,0 +1,47 @@
+Sarthobi (0, b1y2) g3-
+Wil (1, b3y1) -g3
+build g1 at Sarthobi
+build g1 at Wil
+convert g1 to b1 at Sarthobi
+convert g1 to y1 at Wil
+build b1 at Sarthobi
+build y1 at Wil
+move b1 from Sarthobi to G3 (g3)
+move y1 from Wil to G2 (g2)
+build b2 at G3
+sacrifice g3 at Wil; build y2 at G2; build y2 at Wil; build y3 at G2
+build b2 at Sarthobi
+move y3 from G2 to B3 (b3)
+move b1 from Sarthobi to Y3 (y3)
+convert y3 to b3 at B3
+build g1 at Sarthobi
+build y3 at G2
+convert g3 to y3 at Sarthobi
+convert y1 to g1 at Wil
+convert b1 to y1 at G3
+build g1 at Wil
+build g2 at Sarthobi
+convert g1 to r1 at Wil
+move y1 from G3 to G2; catastrophe yellow at G2
+convert b3 to g3 at B3
+build b1 at G3
+build y1 at Wil
+build b2 at G3
+move y1 from Wil to G2 (g2)
+convert b2 to y2 at G3
+move y1 from G2 to Y3
+convert g1 to r1 at Sarthobi
+sacrifice r1 at Wil; capture b1 at Y3
+build y1 at G3
+build g1 at Wil
+move b2 from G3 to G2 (g2)
+convert g1 to r1 at Wil
+build b2 at G2
+move y1 from Y3 to Gee2 (g2)
+build g1 at Sarthobi
+sacrifice g3 at B3; build b3 at Y3; build y3 at Gee2; build r1 at Wil
+sacrifice y2 at G3; move b2 from G2 to Wil; move b2 from G2 to Wil
+move b1 from Y3 to Sarthobi
+sacrifice g2 at Sarthobi; build b3 at Wil; build y2 at G3; catastrophe blue at Wil
+sacrifice y3 at Gee2; move y1 from Gee2 to Y3; move b3 from Y3 to Sarthobi; move y1 from Y3 to Sarthobi; catastrophe blue at Sarthobi
+sacrifice y3 at Sarthobi; move y2 from G3 to Wil; move y1 from G3 to Wil; catastrophe yellow at Wil

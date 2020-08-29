@@ -1,0 +1,40 @@
+Onii77 (0, g3b2) y3-
+Disaac (1, g3y1) -b3
+build y1 at Onii77
+build b1 at Disaac
+build y1 at Onii77
+build b1 at Disaac
+convert y1 to g1 at Onii77
+move b1 from Disaac to Peace (g2)
+move g1 from Onii77 to Profit (b1)
+build b2 at Peace
+build g1 at Profit
+convert b2 to y2 at Peace
+convert y1 to r1 at Onii77
+convert b3 to r3 at Disaac
+convert g1 to r1 at Profit
+build b2 at Peace
+build y1 at Onii77
+convert b2 to r2 at Peace
+move y1 from Onii77 to Profit
+move r2 from Peace to Profit
+build r1 at Profit
+capture g1 at Profit
+move r1 from Onii77 to Profit
+pass
+catastrophe red at Profit
+convert y2 to r2 at Peace
+move y1 from Profit to Onii77
+build g1 at Profit
+build y1 at Onii77
+build b2 at Peace
+convert y1 to r1 at Onii77
+convert r2 to y2 at Peace
+build r1 at Onii77
+sacrifice y2 at Peace; move g1 from Profit to Onii77; move g1 from Profit to Onii77
+capture g1 at Onii77
+build g1 at Onii77; catastrophe green at Onii77
+sacrifice y3 at Onii77; move r1 from Onii77 to Disaac; move r1 from Onii77 to Disaac
+sacrifice r3 at Disaac; capture r1 at Disaac; capture r1 at Disaac
+convert y1 to g1 at Onii77
+move r1 from Disaac to Onii77

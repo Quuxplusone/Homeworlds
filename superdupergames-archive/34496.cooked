@@ -1,0 +1,38 @@
+Trydnt (0, b2y1) g3-
+Dodobirb (1, b1r3) -g3
+build g1 at Trydnt
+build g1 at Dodobirb
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Dodobirb
+build b2 at Trydnt
+build b2 at Dodobirb
+move b1 from Trydnt to G3 (g3)
+convert b1 to y1 at Dodobirb
+convert b1 to y1 at G3
+move b2 from Dodobirb to Grass (g2)
+build y2 at G3
+build y2 at Dodobirb
+move b2 from Trydnt to G3
+move y2 from Dodobirb to Grass
+move y2 from G3 to G2 (g2)
+build y2 at Grass
+build y3 at G3
+build y3 at Dodobirb
+build y3 at G2
+build b1 at Grass
+convert y3 to r3 at G3
+convert y3 to r3 at Dodobirb
+build y3 at G3
+build y3 at Dodobirb
+move r3 from G3 to Grass
+sacrifice y2 at Grass; move y2 from Grass to Bigblue (b3); move b2 from Grass to Bigblue
+capture b1 at Grass
+convert b2 to g2 at Bigblue
+build r1 at Grass
+move r3 from Dodobirb to Halfblue (b2)
+build g1 at Trydnt
+build g1 at Bigblue
+convert g1 to r1 at Trydnt
+build g1 at Bigblue
+move y3 from G2 to Bigblue
+sacrifice y3 at Dodobirb; move g2 from Bigblue to Trydnt; move g1 from Bigblue to Trydnt; move g1 from Bigblue to Trydnt; catastrophe green at Trydnt

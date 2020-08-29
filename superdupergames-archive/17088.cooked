@@ -1,0 +1,43 @@
+Adambadura (0, b1g2) r3-
+Rootbier (1, y1b3) -g3
+build r1 at Adambadura
+build g1 at Rootbier
+convert r1 to y1 at Adambadura
+convert g1 to y1 at Rootbier
+build y2 at Adambadura
+build y2 at Rootbier
+move y2 from Adambadura to Shipyard (g3)
+move y1 from Rootbier to Drydock (g2)
+build y2 at Adambadura
+build y3 at Drydock
+build y3 at Shipyard
+build g1 at Rootbier
+sacrifice y2 at Adambadura; move y3 from Shipyard to Drydock; move y3 from Drydock to Rootbier
+build y2 at Rootbier; catastrophe yellow at Rootbier
+build r1 at Adambadura
+convert g1 to r1 at Rootbier
+move r1 from Adambadura to Shipyard
+build g1 at Rootbier
+build y1 at Shipyard
+move y1 from Drydock to Rootbier
+move y1 from Shipyard to Drydock
+move y3 from Drydock to Flunk (g3)
+build r1 at Shipyard
+build y2 at Flunk
+build y2 at Drydock
+build r2 at Rootbier
+build y3 at Adambadura
+sacrifice y3 at Flunk; move y2 from Flunk to Adambadura; move y1 from Rootbier to Adambadura; move g1 from Rootbier to Baoon (b2)
+move r1 from Shipyard to Drydock; catastrophe yellow at Adambadura
+convert r1 to y1 at Rootbier
+build y1 at Shipyard
+build y2 at Rootbier
+move y1 from Shipyard to Adambadura
+move y1 from Rootbier to Pip (g1)
+build y3 at Adambadura
+build y3 at Pip
+build y3 at Shipyard
+sacrifice y2 at Rootbier; move y3 from Pip to Rootbier; move g1 from Baoon to Palome (b3)
+move r1 from Shipyard to Pip
+sacrifice g3 at Rootbier; build g1 at Palome; build g2 at Palome; build y2 at Pip
+capture y1 at Pip

@@ -1,0 +1,67 @@
+Simon (0, r2b1) g3-
+Aristos (1, y3g2) -b3
+build g1 at Simon
+build b1 at Aristos
+convert g1 to b1 at Simon
+convert b1 to g1 at Aristos
+build g1 at Simon
+move g1 from Aristos to Plum (b1)
+build b2 at Simon
+build b2 at Aristos
+convert b2 to y2 at Simon
+build b2 at Aristos
+move b1 from Simon to G3 (g3)
+convert b2 to r2 at Aristos
+build b2 at G3
+convert b2 to y2 at Aristos
+convert b2 to y2 at G3
+build g1 at Plum
+move g1 from Simon to B3 (b3)
+build g2 at Plum
+build g2 at Simon
+sacrifice y2 at Aristos; move g2 from Plum to Pear (g3); move g1 from Plum to Banana (y3)
+sacrifice g3 at Simon; build g3 at Simon; build b2 at G3; build b2 at G3
+sacrifice g2 at Pear; build g2 at Banana; build g3 at Plum
+convert b2 to r2 at G3
+sacrifice g3 at Plum; build g3 at Plum; build r1 at Aristos; build b2 at Aristos
+move b2 from G3 to R1 (r1)
+convert b2 to y2 at Aristos
+sacrifice g3 at Simon; build g3 at Simon; build r1 at G3; build r3 at G3
+sacrifice y2 at Aristos; move r1 from Aristos to Plum; move r1 from Plum to G3; catastrophe red at G3
+sacrifice g3 at Simon; build g3 at Simon; build b2 at R1; build b2 at R1
+convert g1 to y1 at Plum
+sacrifice g3 at Simon; build g1 at B3; build g3 at Simon; build b3 at G3
+move g3 from Plum to G3
+sacrifice y2 at G3; move b3 from G3 to R1B (r1); move g1 from B3 to R1B
+sacrifice y1 at Plum; move g3 from G3 to R1
+sacrifice g2 at Simon; build g2 at R1B; build b1 at G3
+capture b2 at R1
+sacrifice g1 at B3; build b3 at R1B
+build g1 at R1
+convert b3 to y3 at R1B
+capture b2 at R1
+build b3 at R1B
+convert b2 to r2 at R1
+sacrifice b2 at R1; convert b3 to r3 at R1B; convert b1 to y1 at G3
+convert b2 to y2 at R1
+move r3 from R1B to Banana
+move r2 from R1 to G3
+capture g2 at Banana
+sacrifice g3 at R1; build g3 at R1; build r1 at G3; build r3 at Aristos
+sacrifice g2 at Banana; build g2 at Simon; build r3 at Banana
+sacrifice r2 at Aristos; capture y1 at G3; capture b1 at G3
+capture g1 at Banana
+sacrifice g3 at R1; build g3 at R1; build b1 at G3; build b2 at G3
+sacrifice g3 at Simon; build g3 at Simon; build y1 at R1B; build b2 at R1B
+move b1 from G3 to Simon
+sacrifice g3 at Simon; build g3 at Simon; build r2 at Banana; build b2 at R1B
+move b1 from G3 to Simon
+move r3 from Banana to Y1 (y1)
+move b2 from G3 to Simon; catastrophe blue at Simon
+build y2 at Simon
+move g1 from R1 to Simon
+sacrifice g2 at Simon; build g2 at Banana
+move r1 from G3 to Simon
+capture r1 at Simon
+move y2 from R1 to Aristos
+move r1 from Simon to R1

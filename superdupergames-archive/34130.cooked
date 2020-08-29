@@ -1,0 +1,38 @@
+Chivenger (0, y2b1) g3-
+Ladybugsfly (1, g3y2) -b3
+build g1 at Chivenger
+build b1 at Ladybugsfly
+convert g1 to y1 at Chivenger
+move b1 from Ladybugsfly to Kaylee (g1)
+build y1 at Chivenger
+build b1 at Kaylee
+build g1 at Chivenger
+build b2 at Kaylee
+move y1 from Chivenger to Simon (y3)
+convert b2 to y2 at Kaylee
+build g1 at Chivenger
+build b2 at Kaylee
+move g1 from Chivenger to Simon
+convert b2 to g2 at Kaylee
+move g1 from Chivenger to Jayne (b3)
+move b1 from Kaylee to Inara (g3)
+build g2 at Jayne
+build b2 at Inara
+convert g2 to b2 at Jayne
+sacrifice y2 at Kaylee; move b1 from Inara to Chivenger; move b2 from Inara to Chivenger
+build g2 at Chivenger
+sacrifice g2 at Kaylee; build b2 at Chivenger; build b3 at Kaylee; catastrophe blue at Chivenger
+sacrifice g2 at Chivenger; build g2 at Jayne; build g2 at Simon
+convert b3 to y3 at Kaylee
+move y1 from Simon to Book (y1)
+build y2 at Kaylee
+move y1 from Chivenger to Jayne
+move y3 from Kaylee to Chivenger
+convert g2 to r2 at Jayne
+build y3 at Kaylee
+sacrifice r2 at Jayne; capture y3 at Chivenger
+move y3 from Kaylee to Chivenger
+sacrifice y3 at Chivenger; move g1 from Jayne to Book; move g2 from Simon to Book; move g1 from Simon to Book
+sacrifice b1 at Kaylee; convert y3 to r3 at Chivenger
+move g2 from Book to Chivenger
+capture g3 at Chivenger

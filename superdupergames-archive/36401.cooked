@@ -1,0 +1,64 @@
+Eliscinsky (0, r1b2) g3-
+Capi3101 (1, b1g3) -y3
+build g1 at Eliscinsky
+build y1 at Capi3101
+convert g1 to y1 at Eliscinsky
+convert y1 to b1 at Capi3101
+convert y1 to b1 at Eliscinsky
+build b2 at Capi3101
+build b2 at Eliscinsky
+move b2 from Capi3101 to Tav (g2)
+convert b1 to y1 at Eliscinsky
+build y1 at Capi3101
+build g1 at Eliscinsky
+move b1 from Capi3101 to Tav
+move b2 from Eliscinsky to Earth (g3)
+convert b1 to y1 at Tav
+build y2 at Eliscinsky
+build y2 at Tav
+convert b2 to r2 at Earth
+convert y1 to r1 at Tav
+move g1 from Eliscinsky to Earth
+build b1 at Tav
+build g1 at Earth
+move b2 from Tav to Shin (r3)
+sacrifice y2 at Eliscinsky; move g1 from Earth to Tav; move g1 from Earth to Tav
+move y2 from Tav to Shin
+sacrifice r2 at Earth; capture r1 at Tav; capture b1 at Tav
+convert y1 to g1 at Capi3101
+convert g1 to y1 at Tav
+sacrifice g1 at Capi3101; build b1 at Shin
+build b2 at Tav
+convert b2 to g2 at Shin
+convert b2 to y2 at Tav
+build b2 at Shin
+build b2 at Tav
+convert b1 to r1 at Shin
+sacrifice y2 at Tav; move y1 from Tav to Capi3101; move b1 from Tav to Capi3101
+sacrifice r1 at Shin; capture b1 at Capi3101
+sacrifice r1 at Tav; capture b1 at Capi3101
+convert y3 to r3 at Capi3101
+build b1 at Capi3101
+build b3 at Shin
+convert b1 to r1 at Capi3101
+capture r1 at Capi3101
+convert g1 to r1 at Tav
+capture b1 at Capi3101
+move y1 from Capi3101 to Tav
+convert r3 to y3 at Capi3101
+build g1 at Eliscinsky
+move b3 from Shin to Tav
+build b1 at Tav
+convert b3 to g3 at Tav
+build r2 at Tav
+build g1 at Tav
+build r2 at Tav
+sacrifice g3 at Tav; build g1 at Tav; build g2 at Tav; build g3 at Shin; catastrophe green at Tav
+convert g1 to b1 at Eliscinsky
+sacrifice g3 at Shin; build b2 at Capi3101; build b3 at Shin; build r1 at Capi3101
+move b1 from Eliscinsky to Watermelon (g3)
+build b3 at Shin
+build b3 at Watermelon
+sacrifice b2 at Capi3101; convert b2 to r2 at Shin; convert b3 to y3 at Shin
+convert b3 to y3 at Watermelon
+sacrifice y2 at Shin; move y3 from Shin to Eliscinsky; move b3 from Shin to Eliscinsky

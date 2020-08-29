@@ -1,0 +1,73 @@
+Nycavri (0, b1y2) g3-
+Mikeyarrum (1, b3r2) -g3
+build g1 at Nycavri
+build g1 at Mikeyarrum
+build g1 at Nycavri
+build g2 at Mikeyarrum
+move g1 from Nycavri to Fr (y3)
+convert g1 to y1 at Mikeyarrum
+build g1 at Nycavri
+move g2 from Mikeyarrum to Boynamo (b1)
+move g1 from Nycavri to Hl (y3)
+build g2 at Mikeyarrum
+sacrifice g3 at Nycavri; build g2 at Fr; build g3 at Hl; build g3 at Nycavri
+build y1 at Mikeyarrum
+move g3 from Hl to Iw (y1)
+build y2 at Mikeyarrum
+move g1 from Hl to Iw
+convert y1 to r1 at Mikeyarrum
+convert g1 to b1 at Nycavri
+move r1 from Mikeyarrum to Boynamo
+convert b1 to r1 at Nycavri
+move y2 from Mikeyarrum to Boynamo
+build g1 at Nycavri
+build y1 at Mikeyarrum
+convert g1 to b1 at Nycavri
+build y2 at Boynamo
+sacrifice b1 at Nycavri; convert g3 to y3 at Iw
+move y2 from Boynamo to Perapera (g3)
+build g1 at Iw
+build y3 at Perapera
+sacrifice y3 at Iw; move g1 from Iw to Mikeyarrum; move g1 from Iw to Mikeyarrum; catastrophe green at Mikeyarrum
+build y1 at Boynamo
+build g1 at Nycavri
+build y3 at Perapera
+convert g1 to b1 at Nycavri
+build g1 at Boynamo
+build b2 at Nycavri
+convert g2 to b2 at Boynamo
+move b1 from Nycavri to Fr
+convert b2 to r2 at Boynamo
+convert g1 to r1 at Fr
+move r2 from Boynamo to Chihiro (g3)
+build r2 at Fr
+build r3 at Chihiro
+build r3 at Nycavri
+build r3 at Boynamo
+move r2 from Fr to Boynamo
+sacrifice y2 at Perapera; move r3 from Boynamo to Fr; move r3 from Fr to Nycavri
+capture r3 at Nycavri
+capture r2 at Boynamo
+move r3 from Nycavri to Perapera
+sacrifice r1 at Boynamo; capture r3 at Perapera
+convert g2 to y2 at Fr
+sacrifice y3 at Perapera; move r3 from Chihiro to Boynamo; move r3 from Boynamo to Fr; move y2 from Boynamo to Mikeyarrum
+move y2 from Fr to Iw (r1)
+convert y2 to g2 at Mikeyarrum
+sacrifice g3 at Nycavri; build y2 at Iw; build y3 at Iw; build b2 at Nycavri
+move y1 from Mikeyarrum to Iw; catastrophe yellow at Iw
+convert b2 to g2 at Nycavri
+capture b1 at Fr
+move b2 from Nycavri to Tl (y3)
+build g1 at Boynamo
+build g1 at Nycavri
+sacrifice g1 at Boynamo; build b2 at Fr
+move b2 from Tl to Bk (y1)
+move r3 from Fr to Bk
+capture b1 at Fr
+capture b2 at Bk
+sacrifice g1 at Nycavri; build b2 at Fr
+move b2 from Fr to Kimura (g2)
+move b2 from Fr to Ad (y2)
+build b3 at Kimura
+sacrifice g2 at Nycavri; build b3 at Ad; build r1 at Fr

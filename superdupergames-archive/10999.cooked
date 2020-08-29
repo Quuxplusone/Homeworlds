@@ -1,0 +1,44 @@
+Matrixfrog (0, g2b1) y3-
+Danner (1, r1b2) -g3
+build y1 at Matrixfrog
+build g1 at Danner
+build y1 at Matrixfrog
+convert g1 to y1 at Danner
+move y1 from Matrixfrog to Bop (g3)
+build y2 at Danner
+build y2 at Bop
+move y1 from Danner to Bop
+convert y1 to r1 at Matrixfrog
+sacrifice g3 at Danner; build y1 at Bop; build y2 at Danner; build y3 at Danner; catastrophe yellow at Bop
+build y1 at Matrixfrog
+convert y3 to g3 at Danner
+build r1 at Matrixfrog
+convert y2 to r2 at Danner
+move r1 from Matrixfrog to Bip (y3)
+move r2 from Danner to Bip
+build r2 at Matrixfrog
+capture r1 at Bip
+convert r2 to g2 at Matrixfrog
+build g1 at Danner
+move g2 from Matrixfrog to Bap (y3)
+move r2 from Bip to Bup (y2)
+build g1 at Bap
+sacrifice g3 at Danner; build r2 at Bup; build r2 at Bup; build r3 at Bip
+build r3 at Matrixfrog
+move r3 from Bip to Matrixfrog
+sacrifice r1 at Matrixfrog; capture r3 at Matrixfrog
+move r1 from Bip to Matrixfrog
+convert r3 to y3 at Matrixfrog
+convert r1 to y1 at Matrixfrog; catastrophe yellow at Matrixfrog
+convert r3 to y3 at Matrixfrog
+move r2 from Bup to Bap
+build y1 at Matrixfrog
+sacrifice r2 at Bup; capture g1 at Bap; capture g2 at Bap
+build y1 at Matrixfrog
+move r2 from Bap to Matrixfrog
+convert y1 to g1 at Matrixfrog
+capture g1 at Matrixfrog
+convert y1 to r1 at Matrixfrog
+capture r1 at Matrixfrog
+build y1 at Matrixfrog
+capture y1 at Matrixfrog

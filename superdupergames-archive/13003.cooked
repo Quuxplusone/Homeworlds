@@ -1,0 +1,78 @@
+Orl (0, r2b1) g3-
+Pedrop (1, b3r1) -g3
+build g1 at Orl
+build g1 at Pedrop
+convert g1 to r1 at Orl
+convert g1 to y1 at Pedrop
+build g1 at Orl
+build y1 at Pedrop
+convert g1 to y1 at Orl
+move y1 from Pedrop to Ziemia (g2)
+build g1 at Orl
+build g1 at Pedrop
+move g1 from Orl to Nova (y3)
+build y2 at Pedrop
+build y2 at Orl
+build y2 at Pedrop
+move y1 from Orl to Nova
+convert y1 to r1 at Pedrop
+build g1 at Orl
+move g1 from Pedrop to Niebo (b2)
+convert g1 to b1 at Orl
+move y2 from Pedrop to Niebo
+move r1 from Orl to Nova
+move r1 from Pedrop to Niebo
+build r2 at Nova
+build y1 at Niebo
+build y3 at Nova
+move y1 from Niebo to Nova; catastrophe yellow at Nova
+build y1 at Orl
+build r1 at Niebo
+convert y2 to r2 at Orl
+convert r1 to b1 at Niebo
+move r2 from Orl to Nova2 (y3)
+build b2 at Niebo
+build b2 at Orl
+move b2 from Niebo to Ogien (g3)
+move b2 from Orl to Ogien
+build b3 at Ogien
+build b3 at Ogien; catastrophe blue at Ogien
+build r1 at Niebo
+build b2 at Orl
+move r1 from Niebo to Ogien (g3)
+move b1 from Orl to Nova2
+move b1 from Niebo to Ogien
+build g1 at Orl
+build y1 at Ziemia
+move r2 from Nova2 to Ziemia
+sacrifice g3 at Pedrop; build y2 at Niebo; build y3 at Pedrop; build y3 at Ziemia
+move g1 from Orl to Nova2
+sacrifice r1 at Niebo; capture r2 at Ziemia
+move b1 from Nova2 to Li (g2)
+build g1 at Niebo
+sacrifice g1 at Nova2; build y3 at Orl
+move y3 from Ziemia to Ogien
+move b2 from Orl to Esab (g3)
+move g1 from Niebo to Pedrop
+build b2 at Esab
+build b3 at Ogien
+build b3 at Li
+move b3 from Ogien to Ziemia
+sacrifice y3 at Orl; move b3 from Li to Pedrop; move b2 from Esab to Li; move b2 from Li to Pedrop
+build y3 at Pedrop
+capture y3 at Pedrop
+sacrifice r2 at Ziemia; capture y3 at Pedrop; capture b3 at Pedrop
+move y1 from Orl to Esab
+move b3 from Pedrop to Ziemia
+move b2 from Esab to Li
+capture b2 at Pedrop
+move y1 from Esab to Li
+move y3 from Pedrop to Li
+move b2 from Li to G1 (g1)
+build r1 at Ogien
+move y1 from Li to G1
+build r2 at Ogien
+convert b2 to r2 at G1
+sacrifice y3 at Li; move r2 from Ogien to Orl; move r1 from Ogien to Orl; move r1 from Ogien to Orl; catastrophe red at Orl
+move r2 from G1 to Niebo
+sacrifice y3 at Pedrop; move b1 from Ogien to Orl; move b3 from Ziemia to Orl; move b3 from Ziemia to Orl; catastrophe blue at Orl

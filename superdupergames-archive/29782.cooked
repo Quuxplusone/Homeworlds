@@ -1,0 +1,51 @@
+Felix (0, b3r2) g3-
+Haymire (1, r3b1) -g3
+build g1 at Felix
+build g1 at Haymire
+convert g1 to y1 at Felix
+convert g1 to y1 at Haymire
+build g1 at Felix
+build g1 at Haymire
+convert g1 to b1 at Felix
+move g1 from Haymire to Mt (y2)
+build b1 at Felix
+build g1 at Haymire
+move b1 from Felix to Orchid (g1)
+build g2 at Haymire
+build b2 at Orchid
+convert g2 to b2 at Haymire
+build g2 at Felix
+sacrifice g3 at Haymire; build g2 at Mt; build g2 at Mt; build g3 at Haymire
+build g3 at Felix
+convert g3 to y3 at Haymire
+convert g2 to r2 at Felix
+move g2 from Mt to Orchid
+move r2 from Felix to Orchid
+sacrifice y3 at Haymire; move g2 from Orchid to Felix; move g2 from Mt to Orchid; move g2 from Orchid to Felix; catastrophe green at Felix
+convert b2 to y2 at Orchid
+build g2 at Haymire
+move r2 from Orchid to Mt
+convert g2 to r2 at Haymire
+capture g1 at Mt
+build g2 at Haymire
+build b2 at Orchid
+move g1 from Haymire to Cheese (y2)
+move b2 from Orchid to Mt
+build g2 at Cheese
+build b2 at Mt
+sacrifice g2 at Cheese; build y1 at Haymire; build y3 at Haymire
+build y3 at Orchid
+sacrifice y3 at Haymire; move y1 from Haymire to Mt; move y1 from Haymire to Mt; move g1 from Cheese to Orchid
+sacrifice y2 at Orchid; move y3 from Orchid to Mt; move y3 from Mt to Haymire
+sacrifice g1 at Orchid; build y2 at Mt; catastrophe yellow at Mt
+build b2 at Orchid
+build g1 at Haymire
+convert b2 to r2 at Orchid
+convert g1 to y1 at Haymire
+build b2 at Orchid
+move r2 from Haymire to Moonhead (y2)
+sacrifice r2 at Orchid; capture g2 at Haymire; capture b2 at Haymire
+move r2 from Moonhead to Haymire
+capture r2 at Haymire
+convert y1 to g1 at Haymire
+capture g1 at Haymire

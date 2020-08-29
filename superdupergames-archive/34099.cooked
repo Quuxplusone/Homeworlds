@@ -1,0 +1,46 @@
+Wil (0, b2y1) g3-
+Babamots (1, b3g1) -y3
+build g1 at Wil
+build y1 at Babamots
+build g1 at Wil
+build y1 at Babamots
+move g1 from Wil to Y3 (y3)
+move y1 from Babamots to Betazed (b2)
+build g2 at Wil
+build y2 at Babamots
+move g1 from Wil to B3 (b3)
+convert y2 to g2 at Babamots
+sacrifice g3 at Wil; build g2 at Y3; build g3 at B3; build g3 at Wil
+build g3 at Babamots
+convert g3 to y3 at Wil
+sacrifice g2 at Babamots; build y2 at Betazed; build y2 at Betazed
+sacrifice g3 at B3; build g2 at Y3; build g3 at B3; build g3 at Wil
+build y2 at Babamots
+convert g1 to r1 at B3
+convert y2 to r2 at Babamots
+move g2 from Y3 to Y2 (y2)
+move g3 from Babamots to Betazed
+sacrifice g3 at Wil; build g1 at B3; build r1 at B3; build g3 at Wil
+build r1 at Babamots
+move y3 from Wil to B3
+build r2 at Babamots
+move r1 from B3 to Y2
+convert r1 to b1 at Babamots
+sacrifice g3 at B3; build g3 at Y2; build r1 at Y2; build r2 at B3
+move r2 from Babamots to Betazed
+move r2 from B3 to B2 (b2)
+build r3 at Betazed
+sacrifice g3 at Wil; build g3 at Wil; build r3 at B3; build r3 at B2
+move r3 from Betazed to Y3
+convert r3 to b3 at B3
+sacrifice r2 at Betazed; capture g2 at Y3; capture g1 at Y3
+convert g2 to r2 at Wil
+build r3 at Babamots
+sacrifice g3 at Y2; build g2 at Y2; build g3 at B3
+sacrifice y2 at Betazed; move r2 from Babamots to Betazed; move y3 from Babamots to Y2
+sacrifice g2 at Y2; build g2 at Wil; build y2 at B3
+sacrifice y3 at Y2; move r3 from Y3 to Wil; move g2 from Y3 to Wil; move g1 from Y3 to Wil; catastrophe green at Wil
+sacrifice y3 at B3; move g1 from B3 to Wil; move b3 from B3 to Wil; move r1 from B3 to Wil
+sacrifice r3 at Babamots; capture b3 at Wil; capture r2 at Wil; capture g1 at Wil
+sacrifice y2 at B3; move r3 from B2 to Babamots; move g3 from B3 to B2
+capture r1 at Wil

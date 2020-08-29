@@ -1,0 +1,33 @@
+Sompm (0, g2b3) y3-
+Crothlisberger (1, b1y2) -g3
+build y1 at Sompm
+build g1 at Crothlisberger
+convert y1 to b1 at Sompm
+move g1 from Crothlisberger to Hoth (b3)
+move b1 from Sompm to Mirrodin (y1)
+build g1 at Hoth
+convert b1 to g1 at Mirrodin
+convert g1 to y1 at Hoth
+move g1 from Mirrodin to Galifrey (g3)
+build y1 at Hoth
+build y1 at Sompm
+build y2 at Hoth
+build g1 at Galifrey
+move y1 from Hoth to Crothlisberger
+sacrifice y1 at Sompm; move g1 from Galifrey to Crothlisberger
+convert g3 to r3 at Crothlisberger
+move g1 from Crothlisberger to Vulcan (y3)
+convert r3 to g3 at Crothlisberger
+build g2 at Vulcan
+build y1 at Hoth
+move g2 from Vulcan to Fodra (b1)
+move y1 from Hoth to Fodra
+build y2 at Sompm
+build y3 at Hoth
+convert y3 to r3 at Sompm
+convert y2 to r2 at Hoth
+build g2 at Vulcan
+build g3 at Hoth
+move g1 from Vulcan to Crothlisberger
+convert g3 to r3 at Crothlisberger
+build g3 at Fodra

@@ -1,0 +1,29 @@
+Ts52 (0, y3b1) g3-
+Actilson (1, b2y1) -g3
+build g1 at Ts52
+build g1 at Actilson
+convert g1 to b1 at Ts52
+convert g1 to b1 at Actilson
+build b2 at Ts52
+build g1 at Actilson
+build g1 at Ts52
+build b2 at Actilson
+move b1 from Ts52 to Kermit (g2)
+move b2 from Actilson to Death (r3)
+convert b2 to y2 at Ts52
+build b2 at Actilson
+build b3 at Kermit
+move b1 from Actilson to Death
+build b3 at Kermit
+build b3 at Actilson
+convert b3 to y3 at Kermit
+move b3 from Actilson to Death
+build b3 at Kermit
+convert b1 to g1 at Death
+convert b3 to r3 at Kermit
+build g2 at Death
+sacrifice y2 at Ts52; move r3 from Kermit to Death; move r3 from Death to Actilson
+convert b2 to r2 at Actilson
+capture r2 at Actilson
+convert b3 to r3 at Death
+sacrifice r2 at Actilson; capture g3 at Actilson; capture g1 at Actilson

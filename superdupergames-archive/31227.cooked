@@ -1,0 +1,41 @@
+Ausmuh (0, b3y1) g3-
+Alexhouston (1, r3b2) -g3
+build g1 at Ausmuh
+build g1 at Alexhouston
+convert g1 to b1 at Ausmuh
+convert g1 to b1 at Alexhouston
+build g1 at Ausmuh
+convert b1 to y1 at Alexhouston
+move b1 from Ausmuh to Gwar (g2)
+build g1 at Alexhouston
+convert b1 to y1 at Gwar
+build y2 at Alexhouston
+build y2 at Gwar
+move y1 from Alexhouston to Outpost (b1)
+move y2 from Gwar to Outpost
+move y1 from Outpost to Gwar
+convert y2 to g2 at Outpost
+build y2 at Gwar
+build y2 at Gwar; catastrophe yellow at Gwar
+build y1 at Alexhouston
+build g1 at Outpost
+build g2 at Alexhouston
+convert g2 to y2 at Outpost
+convert g2 to b2 at Alexhouston
+build g2 at Outpost
+move g1 from Alexhouston to Outpost
+convert g2 to r2 at Outpost
+convert g1 to y1 at Outpost
+capture y1 at Outpost
+build b1 at Alexhouston
+move y2 from Outpost to Blucifer (b3)
+convert g3 to r3 at Alexhouston
+build r1 at Outpost
+convert r3 to g3 at Alexhouston
+sacrifice y2 at Blucifer; move r2 from Outpost to Alexhouston; move r1 from Outpost to Alexhouston
+capture r2 at Alexhouston
+sacrifice g1 at Outpost; build r1 at Alexhouston; catastrophe red at Alexhouston
+move y1 from Alexhouston to Outpost
+move g1 from Ausmuh to Alexhouston
+build y2 at Alexhouston
+convert g1 to b1 at Alexhouston; catastrophe blue at Alexhouston

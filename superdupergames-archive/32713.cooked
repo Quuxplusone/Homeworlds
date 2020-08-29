@@ -1,0 +1,29 @@
+Dlwillson (0, r2b2) g3-
+Felix (1, y2b3) -g3
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Felix
+build y1 at Dlwillson
+build y2 at Felix
+move y1 from Dlwillson to Sea (b1)
+move y1 from Felix to Out (g1)
+build g1 at Dlwillson
+build g1 at Felix
+move g1 from Dlwillson to Solar (y3)
+move g1 from Felix to Oat (b1)
+build g2 at Dlwillson
+build g2 at Felix
+build g2 at Solar
+sacrifice g3 at Felix; build g3 at Felix; build g3 at Oat; build y2 at Out
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build y3 at Sea; build y3 at Dlwillson
+sacrifice y2 at Felix; move g1 from Oat to Dlwillson; move g3 from Oat to Dlwillson
+move y1 from Dlwillson to Sky (b1); catastrophe green at Dlwillson
+move y1 from Out to Aegis (b3)
+move g1 from Solar to Dlwillson
+move y1 from Aegis to Dlwillson
+capture y1 at Dlwillson
+build y2 at Out
+convert y1 to g1 at Sea
+move y2 from Out to Dlwillson
+sacrifice y3 at Sea; move g2 from Solar to Sea; move g2 from Sea to Felix; move g1 from Sea to Felix; catastrophe green at Felix

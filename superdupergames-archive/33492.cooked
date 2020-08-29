@@ -1,0 +1,10 @@
+Ottia (0, g3b2) y3-
+Wil (1, y2b1) -g3
+build y1 at Ottia
+build g1 at Wil
+build y1 at Ottia
+build g1 at Wil
+convert y1 to g1 at Ottia
+convert g1 to b1 at Wil
+build g1 at Ottia
+build b1 at Wil

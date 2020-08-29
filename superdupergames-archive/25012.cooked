@@ -1,0 +1,40 @@
+Fogus (0, r1b2) g3-
+Foksieloy (1, g1b3) -y3
+build g1 at Fogus
+build y1 at Foksieloy
+convert g1 to y1 at Fogus
+convert y1 to g1 at Foksieloy
+build g1 at Fogus
+build g2 at Foksieloy
+convert g1 to b1 at Fogus
+convert g2 to r2 at Foksieloy
+move y1 from Fogus to Abalone (r3)
+build r1 at Foksieloy
+build g1 at Fogus
+build g2 at Foksieloy
+convert b1 to y1 at Fogus
+convert g2 to b2 at Foksieloy
+move g1 from Fogus to Abalone
+build g2 at Foksieloy
+build g2 at Abalone
+convert g2 to b2 at Foksieloy
+build g2 at Fogus
+move b2 from Foksieloy to Nurgle (y2)
+convert y1 to r1 at Fogus
+build y1 at Foksieloy
+build r2 at Fogus
+sacrifice y3 at Foksieloy; move r1 from Foksieloy to Nurgle; move r1 from Nurgle to Abalone; move r1 from Abalone to Fogus; catastrophe red at Fogus
+convert g2 to y2 at Fogus
+sacrifice b2 at Nurgle; convert b2 to g2 at Foksieloy; convert g1 to b1 at Foksieloy
+build g1 at Fogus
+build y1 at Foksieloy
+convert g1 to b1 at Fogus
+move y1 from Foksieloy to Ramsesii (g2)
+build y2 at Abalone
+build y2 at Ramsesii
+move b1 from Fogus to Abalone
+build y3 at Foksieloy
+sacrifice y2 at Fogus; move y1 from Abalone to Ramsesii; move y2 from Abalone to Ramsesii; catastrophe yellow at Ramsesii
+move y3 from Foksieloy to Fogus
+convert g1 to y1 at Abalone
+sacrifice r2 at Foksieloy; capture g3 at Fogus

@@ -1,0 +1,84 @@
+Dlwillson (0, b3y1) g3-
+Draw5Playall (1, b2r1) -g3
+build g1 at Dlwillson
+build g1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+convert g1 to r1 at Draw5Playall
+build r2 at Dlwillson
+build r2 at Draw5Playall
+move r1 from Dlwillson to Gambit (r2)
+convert r2 to y2 at Draw5Playall
+sacrifice g3 at Dlwillson; build r2 at Gambit; build r3 at Dlwillson; build r3 at Dlwillson
+move r1 from Draw5Playall to G3 (g3)
+convert r2 to y2 at Dlwillson
+build y1 at Draw5Playall
+sacrifice y2 at Dlwillson; move r2 from Gambit to G3; move r1 from Gambit to Field (g3)
+convert y2 to b2 at Draw5Playall
+capture r1 at G3
+move b2 from Draw5Playall to Field
+move r3 from Dlwillson to Sol (y2)
+build g1 at Draw5Playall
+move r3 from Sol to Field
+sacrifice y1 at Draw5Playall; move b2 from Field to G1 (g1)
+sacrifice r1 at G3
+build b1 at G1
+sacrifice r2 at G3
+convert b1 to y1 at G1
+convert r3 to g3 at Dlwillson
+convert g1 to y1 at Draw5Playall
+build g1 at Dlwillson
+build y2 at G1
+convert g1 to b1 at Dlwillson
+move y1 from G1 to Y2 (y2)
+sacrifice b1 at Dlwillson; convert r3 to b3 at Field
+sacrifice g3 at Draw5Playall; build y2 at G1; build y3 at Draw5Playall; build y3 at G1
+build b1 at Field
+convert y2 to r2 at G1
+convert b3 to y3 at Field
+convert y3 to b3 at Draw5Playall
+build b1 at Field
+convert b3 to g3 at Draw5Playall
+move b1 from Field to Y2
+move y1 from Y2 to B3 (b3)
+build g1 at Dlwillson
+build g1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+move g1 from Draw5Playall to B3
+move b1 from Y2 to Golden (y3)
+build y2 at Draw5Playall
+build y2 at Field
+build r2 at G1
+build r2 at Field
+move r2 from G1 to Golden
+move b1 from Golden to Forest (g2)
+build r3 at G1
+move r2 from Field to Forest
+move r3 from G1 to B3
+build r3 at Forest
+build r3 at G1
+sacrifice y2 at Field; move r1 from Field to G1; move r2 from Forest to G1; catastrophe red at G1
+build y2 at B3
+build b1 at Field
+build g1 at Draw5Playall
+move b1 from Field to Draw5Playall
+sacrifice g3 at Draw5Playall; build g2 at B3; build g2 at B3; build g3 at Draw5Playall
+build b2 at Field
+sacrifice g3 at Draw5Playall; build b3 at G1; build g3 at Draw5Playall; build r1 at Golden
+convert b2 to r2 at Field
+sacrifice g3 at Draw5Playall; build r2 at Golden; build r3 at B3; build g3 at Draw5Playall
+build b2 at Field
+capture b1 at Draw5Playall
+move b2 from Field to Draw5Playall
+move b1 from Draw5Playall to Golden
+move b1 from Field to Draw5Playall
+capture b2 at Draw5Playall
+sacrifice y3 at Field; move b1 from Forest to Field; move b1 from Field to Draw5Playall; move r3 from Forest to Solar (y3); catastrophe blue at Draw5Playall
+move b3 from G1 to G2 (g2)
+move r3 from Solar to G2
+sacrifice r1 at Golden; capture r3 at G2
+build r1 at Dlwillson
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y3 at G1; build b1 at G2
+convert r1 to b1 at Dlwillson
+sacrifice y3 at G1; move b1 from G2 to Dlwillson; move b3 from G2 to Dlwillson; move y1 from Draw5Playall to G2; catastrophe blue at Dlwillson
+build r1 at Dlwillson
+sacrifice y3 at G1; move y2 from B3 to Dlwillson; move y1 from B3 to Dlwillson; move y1 from G2 to Dlwillson; catastrophe yellow at Dlwillson

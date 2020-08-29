@@ -1,0 +1,60 @@
+Magicjohn (0, y1b2) g3-
+Foksieloy (1, b1g3) -y3
+build g1 at Magicjohn
+build y1 at Foksieloy
+build g1 at Magicjohn
+convert y1 to g1 at Foksieloy
+move g1 from Magicjohn to Pine (y3)
+build g2 at Foksieloy
+convert g3 to y3 at Magicjohn
+convert g2 to b2 at Foksieloy
+build g2 at Magicjohn
+move g1 from Foksieloy to Tibbers (b2)
+convert g1 to r1 at Magicjohn
+build y1 at Foksieloy
+move r1 from Magicjohn to Pine
+convert y1 to r1 at Foksieloy
+build y1 at Magicjohn
+build y1 at Foksieloy
+convert y1 to b1 at Magicjohn
+move y1 from Foksieloy to Tibbers
+move b1 from Magicjohn to Pine
+move b2 from Foksieloy to Annie (g2)
+move g2 from Magicjohn to Pine
+build g1 at Tibbers
+move g1 from Pine to Magicjohn
+move g1 from Tibbers to Lulu (b1)
+build b3 at Pine
+build b3 at Annie
+convert b3 to r3 at Pine
+convert b3 to r3 at Annie
+build b3 at Pine
+build b3 at Annie
+move r3 from Pine to Tibbers
+convert b3 to r3 at Annie
+sacrifice y3 at Magicjohn; move r3 from Tibbers to Pine; move r3 from Pine to Annie; move r1 from Pine to Annie; catastrophe red at Annie
+build b3 at Annie
+convert b3 to r3 at Pine
+convert b3 to r3 at Annie
+move r3 from Pine to Magicjohn
+build b3 at Annie
+build b3 at Pine
+convert b3 to y3 at Annie
+build g2 at Pine
+build g3 at Tibbers
+sacrifice g2 at Pine; build g2 at Pine; build g3 at Magicjohn
+sacrifice g3 at Tibbers; build g3 at Tibbers; build b3 at Annie; build r1 at Annie
+convert b1 to y1 at Pine
+sacrifice g3 at Tibbers; build g3 at Tibbers; build y2 at Annie; build y2 at Tibbers
+move y1 from Pine to Elm (r1)
+sacrifice y3 at Annie; move y1 from Tibbers to Pine; move y2 from Tibbers to Pine; move y2 from Annie to Pine; catastrophe yellow at Pine
+build r2 at Magicjohn
+sacrifice b2 at Annie; convert r1 to y1 at Annie; convert g1 to b1 at Tibbers
+sacrifice g1 at Magicjohn; build y2 at Elm
+build y2 at Annie
+move y2 from Elm to Mulberry (g2)
+move y2 from Annie to Shen (b3)
+convert r3 to b3 at Magicjohn
+convert y2 to g2 at Shen
+build y2 at Mulberry
+build g1 at Tibbers

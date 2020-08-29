@@ -1,0 +1,26 @@
+Danner (0, b1r2) g3-
+Broccoli_Commander (1, b2r3) -g3
+build g1 at Danner
+build g1 at Broccoli_Commander
+convert g1 to y1 at Danner
+convert g1 to b1 at Broccoli_Commander
+build y1 at Danner
+build g1 at Broccoli_Commander
+build y1 at Danner
+build b1 at Broccoli_Commander
+move y1 from Danner to Tirade (g3)
+convert g3 to y3 at Broccoli_Commander
+build y2 at Danner
+move b1 from Broccoli_Commander to Pea (g1)
+convert y2 to b2 at Danner
+build b2 at Pea
+move b2 from Danner to Tirade
+convert b2 to r2 at Pea
+build y2 at Tirade
+build y2 at Broccoli_Commander
+convert y2 to r2 at Tirade
+build b2 at Broccoli_Commander
+build b3 at Tirade
+build b3 at Pea
+move b2 from Tirade to Bob (g1)
+sacrifice b2 at Broccoli_Commander; convert b3 to y3 at Pea; convert y3 to g3 at Broccoli_Commander

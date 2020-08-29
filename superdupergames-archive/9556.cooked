@@ -1,0 +1,37 @@
+Wyons (0, r3b2) g3-
+Charlemagne (1, b2y1) -g3
+build g1 at Wyons
+build g1 at Charlemagne
+convert g1 to y1 at Wyons
+convert g1 to y1 at Charlemagne
+build y2 at Wyons
+build y2 at Charlemagne
+build y2 at Wyons
+move y2 from Charlemagne to Blogspot (g3)
+convert y1 to r1 at Wyons
+sacrifice g3 at Charlemagne; build y1 at Blogspot; build y3 at Blogspot; build y3 at Charlemagne
+sacrifice y2 at Wyons; move y2 from Wyons to Ephemeral (r1); move y2 from Ephemeral to Blogspot; catastrophe yellow at Blogspot
+convert y3 to g3 at Charlemagne
+convert r1 to y1 at Wyons
+build y2 at Charlemagne
+build y2 at Wyons
+move y2 from Charlemagne to Puttyx (g3)
+move y2 from Wyons to Emmarald (g1)
+move y1 from Charlemagne to Grundon (r3)
+build y2 at Emmarald
+build y3 at Puttyx
+build y3 at Wyons
+move y2 from Puttyx to Emmarald
+convert y1 to r1 at Wyons
+build g1 at Charlemagne
+build g1 at Wyons
+move g1 from Charlemagne to Grundon
+move y2 from Emmarald to Grundon
+build g2 at Charlemagne
+capture g1 at Grundon
+convert g2 to r2 at Charlemagne
+sacrifice r1 at Wyons; capture y2 at Emmarald
+build g2 at Charlemagne
+build g2 at Grundon
+build r1 at Charlemagne
+sacrifice y2 at Emmarald; move g2 from Grundon to Charlemagne; move g1 from Grundon to Charlemagne; catastrophe green at Charlemagne

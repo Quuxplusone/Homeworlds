@@ -1,0 +1,60 @@
+Felix (0, r2b3) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Felix
+build g1 at Ts52
+convert g1 to b1 at Felix
+convert g1 to b1 at Ts52
+build b2 at Felix
+build b2 at Ts52
+convert b2 to y2 at Felix
+move b2 from Ts52 to Kermit (g3)
+build b2 at Felix
+build g1 at Ts52
+move b2 from Felix to Still (g1)
+convert b1 to y1 at Ts52
+build g1 at Felix
+build g2 at Ts52
+build g2 at Felix
+move g2 from Ts52 to Gonzo (b3)
+convert g1 to r1 at Felix
+convert g1 to r1 at Ts52
+move g2 from Felix to Estate (b1)
+build g1 at Ts52
+build g1 at Estate
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build y1 at Ts52
+convert g2 to y2 at Estate
+move y1 from Ts52 to Kermit
+build g2 at Felix
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Kermit; build b3 at Kermit
+sacrifice y2 at Estate; move b2 from Still to Kermit; move g1 from Estate to Fulcrum (y3)
+sacrifice b2 at Kermit; convert b3 to r3 at Kermit; convert g2 to y2 at Gonzo
+sacrifice g2 at Felix; build b1 at Kermit; build b2 at Kermit; catastrophe blue at Kermit
+sacrifice g3 at Ts52; build y1 at Kermit; build y3 at Ts52; build y3 at Gonzo
+sacrifice g1 at Fulcrum; build y3 at Felix
+convert y3 to g3 at Ts52
+move y2 from Felix to Prescience (g1)
+move r3 from Kermit to Prescience
+move y2 from Prescience to Kermit
+build y3 at Gonzo
+move y2 from Kermit to Sink (b1)
+convert y2 to r2 at Gonzo
+build y2 at Felix
+move y3 from Gonzo to Prescience
+move y2 from Felix to Onus (g1)
+convert r2 to b2 at Gonzo
+build g2 at Felix
+move b2 from Gonzo to Prescience
+move b1 from Felix to Onus
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build b2 at Prescience
+move r1 from Felix to Onus
+convert g2 to r2 at Gonzo
+build b2 at Onus
+move b2 from Prescience to Kermit
+convert b1 to r1 at Onus
+sacrifice g2 at Gonzo; build b1 at Kermit; build b3 at Prescience
+move g2 from Felix to Sink
+sacrifice y3 at Gonzo; move b3 from Prescience to Felix; move y3 from Prescience to Felix; move y1 from Ts52 to Gonzo
+sacrifice g2 at Sink; build y3 at Felix; build g2 at Felix
+sacrifice r3 at Prescience; capture y3 at Felix; capture y3 at Felix; capture g3 at Felix
+move y2 from Sink to Felix; catastrophe yellow at Felix
+capture g2 at Felix

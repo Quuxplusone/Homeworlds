@@ -1,0 +1,40 @@
+Wil (0, y2r1) g3-
+Ts52 (1, y2b3) -g3
+build g1 at Wil
+build g1 at Ts52
+move g1 from Wil to B3 (b3)
+move g1 from Ts52 to Gonzo (b1)
+build g1 at B3
+build g2 at Gonzo
+build g2 at Wil
+convert g2 to y2 at Gonzo
+convert g1 to r1 at B3
+build y1 at Gonzo
+build r1 at B3
+convert y2 to r2 at Gonzo
+build r2 at B3
+move r2 from Gonzo to B3; catastrophe red at B3
+move g2 from Wil to Bee3 (b3)
+build y1 at Gonzo
+build g1 at Wil
+build g2 at Gonzo
+sacrifice g3 at Wil; build g2 at B3; build g3 at Bee3; build g3 at Wil
+sacrifice g2 at Gonzo; build g2 at Ts52; build y1 at Gonzo
+convert g2 to y2 at B3
+move y1 from Gonzo to Kermit (g2)
+sacrifice y2 at B3; move g1 from B3 to Gonzo; move g1 from Gonzo to Ts52
+convert g2 to r2 at Ts52
+sacrifice g2 at Bee3; build g2 at Ts52; build g2 at Ts52; catastrophe green at Ts52
+build y2 at Kermit
+build g1 at Bee3
+build y3 at Gonzo
+convert g3 to y3 at Bee3
+build y3 at Kermit
+move y3 from Bee3 to Gonzo; catastrophe yellow at Gonzo
+build g2 at Gonzo
+build g2 at Bee3
+build g3 at Gonzo
+convert g1 to r1 at Bee3
+sacrifice y2 at Kermit; move g3 from Gonzo to Bigbird (y3); move g1 from Gonzo to Bigbird
+build r1 at Bee3
+sacrifice y3 at Kermit; move g1 from Bigbird to Wil; move g3 from Bigbird to Wil; catastrophe green at Wil

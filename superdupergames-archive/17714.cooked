@@ -1,0 +1,43 @@
+Silenttitan (0, b3r2) g3-
+Fnord (1, y2b1) -g3
+build g1 at Silenttitan
+build g1 at Fnord
+convert g1 to y1 at Silenttitan
+move g1 from Fnord to Eris (g3)
+build g1 at Silenttitan
+build g1 at Fnord
+convert g3 to y3 at Silenttitan
+convert g1 to b1 at Fnord
+move y1 from Silenttitan to Onestar (y1)
+build b1 at Fnord
+build y1 at Silenttitan
+move b1 from Fnord to Eris
+build y2 at Silenttitan
+build b2 at Eris
+sacrifice g1 at Silenttitan; build y2 at Onestar
+convert b2 to r2 at Eris
+move y2 from Onestar to Twostar (g2)
+build b2 at Fnord
+convert y3 to g3 at Silenttitan
+convert b2 to g2 at Fnord
+sacrifice g3 at Silenttitan; build y3 at Twostar; build y3 at Onestar; build y3 at Silenttitan
+build g1 at Eris
+move y2 from Twostar to Tristar (r3)
+move g3 from Fnord to Tristar
+move y2 from Tristar to Ragestar (r2)
+build g1 at Tristar
+convert y3 to r3 at Silenttitan
+sacrifice g3 at Tristar; build g2 at Tristar; build g3 at Tristar; build g3 at Fnord
+build y3 at Twostar
+build b2 at Fnord
+move y3 from Twostar to Eris
+build b2 at Eris
+move y3 from Onestar to Volcanoshore (r3)
+move b1 from Fnord to Discordia (b3)
+move y3 from Eris to Fnord
+build b2 at Fnord
+convert y3 to b3 at Fnord; catastrophe blue at Fnord
+move g2 from Fnord to Sink (y3)
+sacrifice y3 at Twostar; move y3 from Volcanoshore to Fnord; move y1 from Onestar to Eris; move y1 from Eris to Fnord
+convert b1 to y1 at Eris
+sacrifice r3 at Silenttitan; capture g3 at Fnord

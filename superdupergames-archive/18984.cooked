@@ -1,0 +1,35 @@
+Jesse (0, b3r1) g3-
+Aristos (1, b1g2) -y3
+build g1 at Jesse
+build y1 at Aristos
+convert g1 to y1 at Jesse
+move y1 from Aristos to Ipsofacto (b3)
+build g1 at Jesse
+convert y1 to g1 at Ipsofacto
+move g1 from Jesse to Grover (b2)
+build y1 at Aristos
+build g1 at Jesse
+build g2 at Ipsofacto
+sacrifice g3 at Jesse; build g2 at Grover; build g3 at Jesse; build y1 at Jesse
+build y2 at Aristos
+convert g2 to r2 at Grover
+move y1 from Aristos to Ipsofacto
+move y1 from Jesse to Grover
+convert g1 to r1 at Ipsofacto
+build y2 at Grover
+convert y2 to g2 at Aristos
+move y2 from Grover to Oscar (g3)
+build y2 at Ipsofacto
+build y2 at Oscar
+build y3 at Aristos
+build y3 at Grover
+move y3 from Aristos to Quidproquo (g3)
+sacrifice g3 at Jesse; build g1 at Grover; build g3 at Jesse; build r1 at Grover
+build r2 at Ipsofacto
+move y3 from Grover to Ipsofacto
+sacrifice y2 at Ipsofacto; move r1 from Ipsofacto to Grover; move r2 from Ipsofacto to Grover; catastrophe red at Grover
+build y2 at Grover
+convert y1 to r1 at Ipsofacto
+convert y2 to r2 at Grover
+build r1 at Ipsofacto
+sacrifice r2 at Grover; capture r1 at Ipsofacto; capture r1 at Ipsofacto

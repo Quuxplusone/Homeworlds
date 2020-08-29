@@ -1,0 +1,19 @@
+Twoshort (0, r1b1) g3-
+Lorgar (1, b3y1) -g3
+build g1 at Twoshort
+build g1 at Lorgar
+convert g1 to y1 at Twoshort
+move g1 from Lorgar to Monty (y2)
+build y1 at Twoshort
+build g1 at Lorgar
+build y2 at Twoshort
+convert g3 to y3 at Lorgar
+move y1 from Twoshort to Grogar (g2)
+sacrifice g1 at Monty; build y2 at Lorgar
+move y1 from Grogar to Lorgar; catastrophe yellow at Lorgar
+build g1 at Lorgar
+move g3 from Twoshort to Lorgar
+convert g1 to y1 at Lorgar
+convert g3 to r3 at Lorgar
+move y1 from Lorgar to Eroute (g1)
+capture g1 at Lorgar

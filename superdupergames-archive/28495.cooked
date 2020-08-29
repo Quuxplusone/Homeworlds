@@ -1,0 +1,40 @@
+Simon (0, r3b1) g3-
+Twoshort (1, b1g2) -b3
+build g1 at Simon
+build b1 at Twoshort
+build g1 at Simon
+convert b3 to y3 at Twoshort
+convert g3 to y3 at Simon
+build b2 at Twoshort
+move g1 from Simon to B2 (b2)
+move b2 from Twoshort to Grogar (g3)
+build g1 at B2
+build b2 at Twoshort
+build g2 at B2
+build b3 at Grogar
+convert g2 to y2 at B2
+move b2 from Twoshort to Greenland (g3)
+build g2 at B2
+build b3 at Twoshort
+move g1 from B2 to Grogar
+build b3 at Greenland
+build g2 at B2
+move b1 from Twoshort to Gondor (g3)
+convert g2 to r2 at B2
+convert b2 to r2 at Greenland
+sacrifice g2 at B2; build g2 at Grogar; build g2 at Grogar; catastrophe green at Grogar
+build b2 at Gondor
+build g1 at Simon
+build b2 at Greenland
+build g2 at Simon
+build b3 at Twoshort
+build g2 at B2
+sacrifice b2 at Gondor; convert b3 to y3 at Greenland; convert b3 to g3 at Twoshort
+convert g2 to b2 at Simon
+sacrifice g3 at Twoshort; build b3 at Gondor; build b3 at Greenland; build r1 at Greenland
+build g2 at B2
+move b3 from Greenland to B2
+build g3 at Simon
+sacrifice r2 at Greenland; capture r2 at B2; capture y2 at B2
+move g3 from Simon to R2 (r2)
+sacrifice y3 at Twoshort; move y3 from Greenland to B2; move y3 from B2 to Simon; move b3 from B2 to Simon

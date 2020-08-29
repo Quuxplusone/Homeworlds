@@ -1,0 +1,31 @@
+Zackstack (0, r1b2) g3-
+Rootbier (1, r1b3) -g3
+build g1 at Zackstack
+build g1 at Rootbier
+convert g1 to r1 at Zackstack
+build g1 at Rootbier
+build r2 at Zackstack
+convert g1 to y1 at Rootbier
+convert r2 to y2 at Zackstack
+convert g1 to b1 at Rootbier
+build r2 at Zackstack
+move b1 from Rootbier to Falls (y2)
+move r2 from Zackstack to Saphire (b3)
+build y1 at Rootbier
+sacrifice g3 at Zackstack; build r2 at Saphire; build r2 at Saphire; build r3 at Zackstack
+move y1 from Rootbier to Otter (y2)
+convert r3 to g3 at Zackstack
+move b1 from Falls to Bell (r3)
+move y2 from Zackstack to Bell
+sacrifice b1 at Bell; convert y1 to g1 at Otter
+build r3 at Zackstack
+build y1 at Rootbier
+convert r2 to y2 at Saphire
+convert y1 to b1 at Rootbier
+move r2 from Saphire to Otter
+move g1 from Otter to Olive (b1)
+convert r3 to y3 at Zackstack
+convert g1 to y1 at Olive
+sacrifice g3 at Zackstack; build r2 at Zackstack; build r3 at Otter; build r3 at Otter
+sacrifice g3 at Rootbier; build y1 at Olive; build y3 at Rootbier; build b1 at Rootbier
+sacrifice y2 at Saphire; move r3 from Otter to Rootbier; move r3 from Otter to Rootbier

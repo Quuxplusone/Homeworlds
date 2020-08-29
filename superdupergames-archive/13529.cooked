@@ -1,0 +1,99 @@
+Jeep (0, r1b2) g3-
+Ts52 (1, y2b3) -g3
+build g1 at Jeep
+build g1 at Ts52
+convert g1 to y1 at Jeep
+convert g1 to r1 at Ts52
+build g1 at Jeep
+build g1 at Ts52
+build y1 at Jeep
+move g1 from Ts52 to Grover (b1)
+move y1 from Jeep to Thumb (g3)
+build r1 at Ts52
+build y1 at Thumb
+build r2 at Ts52
+build y2 at Jeep
+move r2 from Ts52 to Grover
+build y2 at Thumb
+build r2 at Ts52
+build y3 at Jeep
+build r2 at Grover
+sacrifice y3 at Jeep; move g1 from Jeep to Temp (y3); move y1 from Jeep to Movement (y3); move y2 from Jeep to Lock (y3)
+build g1 at Ts52
+build g2 at Jeep
+move r2 from Ts52 to Cookiemonster (b1)
+sacrifice g1 at Temp; build y3 at Movement
+move g1 from Ts52 to Cookiemonster
+sacrifice y3 at Movement; move g2 from Jeep to Temp (y3); move y1 from Thumb to Cache (b2); move y2 from Thumb to Cache2 (b2)
+move r1 from Ts52 to Gonzo (b1)
+build g1 at Jeep
+build g2 at Ts52
+sacrifice g2 at Temp; build y3 at Cache; build g2 at Jeep
+sacrifice g3 at Ts52; build g2 at Cookiemonster; build g3 at Ts52; build r3 at Ts52
+convert g3 to b3 at Jeep
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Grover; build r3 at Cookiemonster
+move y3 from Cache to Lock
+sacrifice g2 at Ts52; build g2 at Ts52; build r3 at Gonzo
+build b3 at Jeep
+move g2 from Ts52 to Gonzo
+move y3 from Lock to Jeep
+pass
+move g2 from Jeep to Thumb
+pass
+move y1 from Thumb to Jeep
+pass
+move b3 from Jeep to Movement
+pass
+move b3 from Jeep to Movement
+pass
+move y1 from Jeep to Thumb
+pass
+move g2 from Thumb to Cache2
+pass
+move y2 from Cache2 to Thumb
+pass
+sacrifice g2 at Cache2; build g2 at Jeep; build b2 at Movement
+pass
+move b3 from Movement to Jeep
+pass
+move g2 from Jeep to Thumb
+pass
+move g2 from Thumb to Cache
+pass
+move y1 from Cache to Movement
+pass
+sacrifice g2 at Cache; build g2 at Jeep; build b2 at Movement
+pass
+move y1 from Thumb to Jeep
+pass
+move g2 from Jeep to Thumb
+pass
+move y2 from Thumb to Jeep
+pass
+sacrifice g2 at Thumb; build g2 at Jeep; build g3 at Jeep
+pass
+move g1 from Jeep to Lock
+pass
+move g3 from Jeep to Lock
+pass
+move b3 from Jeep to Lock
+pass
+move b2 from Movement to Grover
+capture b2 at Grover
+sacrifice y3 at Jeep; move g2 from Jeep to Cache (y3); move b2 from Movement to Grover; move b3 from Movement to Grover; catastrophe blue at Grover
+build g1 at Ts52
+sacrifice g3 at Lock; build g3 at Lock; build g3 at Lock; build b1 at Lock
+convert r3 to b3 at Ts52
+move g3 from Lock to Slow (b2)
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Ts52; build r2 at Ts52
+sacrifice g2 at Cache; build g2 at Lock; build y3 at Jeep
+build r3 at Gonzo
+build b2 at Lock
+sacrifice g1 at Cookiemonster
+build g1 at Slow
+sacrifice r1 at Gonzo
+move b3 from Lock to Slayer (r1)
+sacrifice r1 at Ts52
+move g3 from Lock to Slayer2 (r1)
+pass
+move b1 from Lock to Slayer2

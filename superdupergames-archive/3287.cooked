@@ -1,0 +1,65 @@
+Jesse (0, r1b2) g3-
+Twoshort (1, y3b2) -g3
+build g1 at Jesse
+build g1 at Twoshort
+convert g1 to y1 at Jesse
+convert g1 to y1 at Twoshort
+build g1 at Jesse
+build g1 at Twoshort
+build y1 at Jesse
+build y2 at Twoshort
+build y2 at Jesse
+move y1 from Twoshort to Bluestar (b1)
+move y1 from Jesse to Purple (g3)
+move y2 from Twoshort to Grogar (g1)
+move y1 from Jesse to Cranberry (b3)
+convert y1 to r1 at Bluestar
+build y1 at Purple
+build g2 at Twoshort
+sacrifice g3 at Jesse; build y2 at Jesse; build y3 at Jesse; build y3 at Cranberry
+move g2 from Twoshort to Rover (r1)
+convert y2 to r2 at Jesse
+build y2 at Grogar
+move r2 from Jesse to Purple
+build g2 at Rover
+convert y3 to g3 at Cranberry
+sacrifice y2 at Grogar; move g2 from Rover to Yolonda (y3); move r1 from Bluestar to Twoshort
+build g2 at Cranberry
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y2 at Grogar; build r2 at Twoshort
+sacrifice g3 at Cranberry; build g3 at Jesse; build r2 at Purple
+move r1 from Twoshort to Grogar
+move r2 from Purple to Chewtoy (b1)
+sacrifice g3 at Twoshort; build g3 at Twoshort; build r3 at Twoshort; build r3 at Grogar
+build r3 at Purple
+sacrifice y2 at Grogar; move r3 from Grogar to Cranberry; move y2 from Grogar to Kick (b3)
+sacrifice y1 at Cranberry; move g2 from Cranberry to Squidger (y2)
+move r2 from Twoshort to Sweet (y1)
+move g3 from Jesse to Yolonda
+sacrifice g2 at Rover; build r1 at Cranberry; build g2 at Yolonda
+sacrifice r2 at Purple; capture g2 at Yolonda; capture g2 at Yolonda
+sacrifice y2 at Kick; move g1 from Twoshort to Maybeabadidea (b1); move g1 from Maybeabadidea to Yolonda; catastrophe green at Yolonda
+move g2 from Squidger to Squop (y3)
+move r2 from Sweet to Bluestar (b3)
+build r2 at Purple
+convert r2 to y2 at Bluestar
+move r2 from Purple to Grogar
+convert r3 to g3 at Cranberry
+sacrifice g2 at Squop; build r2 at Grogar; build r3 at Chewtoy
+convert r1 to y1 at Cranberry
+capture r1 at Grogar
+sacrifice g3 at Cranberry; build y2 at Bluestar; build y3 at Cranberry; build g1 at Twoshort
+move y2 from Jesse to Bluestar
+sacrifice y2 at Bluestar; move y2 from Bluestar to Retrograde (g2); move y3 from Cranberry to Grogar
+build g2 at Jesse
+build r1 at Twoshort
+convert r3 to g3 at Chewtoy
+move r1 from Twoshort to Grogar; catastrophe red at Grogar
+sacrifice g2 at Jesse; build g2 at Chewtoy; build y2 at Bluestar
+move g1 from Twoshort to Bluto (b1)
+sacrifice g3 at Chewtoy; build g2 at Jesse; build g3 at Chewtoy; build r1 at Chewtoy
+convert y1 to r1 at Cranberry
+sacrifice g3 at Chewtoy; build g3 at Chewtoy; build y1 at Jesse; build r2 at Purple
+move y2 from Retrograde to Cranberry
+move r2 from Purple to Bluto
+sacrifice g1 at Bluto; build r2 at Cranberry
+sacrifice g3 at Chewtoy; build g1 at Chewtoy; build g2 at Chewtoy; build r3 at Bluto

@@ -1,0 +1,45 @@
+Twoshort (0, r1b3) g3-
+Mathgod (1, y1b2) -g3
+build g1 at Twoshort
+build g1 at Mathgod
+convert g1 to y1 at Twoshort
+build g1 at Mathgod
+build y1 at Twoshort
+move g1 from Mathgod to Yelonia (y3)
+build y2 at Twoshort
+convert g3 to y3 at Mathgod
+move y1 from Twoshort to Grogar (g2)
+convert g1 to r1 at Mathgod
+sacrifice g3 at Twoshort; build y2 at Grogar; build y2 at Grogar; build y3 at Twoshort
+build g1 at Yelonia
+convert y2 to r2 at Twoshort
+move g1 from Yelonia to Mathgod
+move y2 from Grogar to Yelonia
+move g1 from Yelonia to Yello (y2)
+move r2 from Twoshort to Yello
+build g1 at Yello
+convert y3 to g3 at Twoshort
+build g2 at Mathgod
+capture g1 at Yello
+sacrifice g2 at Mathgod; build g2 at Yello; build g2 at Mathgod
+capture g2 at Yello
+sacrifice g2 at Mathgod; build g2 at Yello; build g3 at Mathgod; catastrophe green at Yello
+build y3 at Twoshort
+move y3 from Mathgod to Bellyflop (b3)
+build g1 at Twoshort
+move g1 from Mathgod to Bellyflop
+convert g1 to b1 at Twoshort
+build g1 at Bellyflop
+move b1 from Twoshort to Grogar
+move g1 from Bellyflop to Gumboot (b2)
+move b1 from Grogar to Deathstar (g3)
+build g1 at Mathgod
+build b1 at Deathstar
+sacrifice g3 at Mathgod; build g2 at Bellyflop; build g2 at Gumboot; build g3 at Mathgod
+move y2 from Grogar to Blitzen (b3)
+build r1 at Mathgod
+sacrifice y2 at Yelonia; move b1 from Deathstar to Mathgod; move b1 from Deathstar to Mathgod
+build g3 at Gumboot
+sacrifice g3 at Twoshort; build b1 at Mathgod; build y2 at Blitzen; build y3 at Blitzen; catastrophe blue at Mathgod
+sacrifice y3 at Bellyflop; move g1 from Bellyflop to Grogar; move g2 from Bellyflop to Grogar; move g1 from Mathgod to Grogar; catastrophe green at Grogar
+sacrifice y3 at Twoshort; move y3 from Blitzen to Mathgod; move y2 from Blitzen to Mathgod; move y2 from Blitzen to Mathgod; catastrophe yellow at Mathgod

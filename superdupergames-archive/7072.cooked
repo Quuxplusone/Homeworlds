@@ -1,0 +1,39 @@
+Clockwise (0, r1b2) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Clockwise
+build g1 at Ts52
+convert g1 to y1 at Clockwise
+move g1 from Ts52 to Gonzo (b3)
+build y1 at Clockwise
+build g1 at Gonzo
+build y2 at Clockwise
+convert g1 to r1 at Gonzo
+convert y2 to r2 at Clockwise
+build g1 at Gonzo
+build y2 at Clockwise
+build g1 at Ts52
+move y2 from Clockwise to Gonzo
+build g2 at Gonzo
+sacrifice r2 at Clockwise; capture g2 at Gonzo; capture r1 at Gonzo
+convert g1 to r1 at Ts52
+convert g2 to r2 at Gonzo
+build r2 at Ts52
+sacrifice r2 at Gonzo; capture g1 at Gonzo; capture g1 at Gonzo
+convert r2 to y2 at Ts52
+build y2 at Gonzo
+move y2 from Ts52 to Oscar (g3)
+build y3 at Gonzo
+build y3 at Oscar
+sacrifice y2 at Gonzo; move y1 from Clockwise to Oscar; move y1 from Clockwise to Oscar; catastrophe yellow at Oscar
+build r2 at Ts52
+build g1 at Clockwise
+move r2 from Ts52 to Grover (b3)
+build g2 at Gonzo
+convert g3 to r3 at Ts52
+build r2 at Gonzo
+move r1 from Ts52 to Bigbird (y3)
+build r2 at Gonzo
+convert r3 to y3 at Ts52
+move y3 from Gonzo to Ts52
+sacrifice r1 at Bigbird; capture y3 at Ts52
+move y2 from Gonzo to Ts52; catastrophe yellow at Ts52

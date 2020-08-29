@@ -1,0 +1,77 @@
+Efwin (0, g1b2) y3-
+Zackstack (1, b3r2) -g3
+build y1 at Efwin
+build g1 at Zackstack
+build y1 at Efwin
+convert g1 to y1 at Zackstack
+move y1 from Efwin to Neergeerht (g3)
+build y2 at Zackstack
+build y2 at Efwin
+move y1 from Zackstack to Faargurt (g1)
+convert y2 to r2 at Efwin
+build y2 at Faargurt
+build y2 at Neergeerht
+build g1 at Zackstack
+build r1 at Efwin
+move y2 from Faargurt to Biggbloo (b3)
+move y2 from Neergeerht to Neergwot (g2)
+sacrifice g3 at Zackstack; build y3 at Zackstack; build y3 at Biggbloo; build g2 at Zackstack
+convert r2 to g2 at Efwin
+move g1 from Zackstack to Lilbloo (b1)
+move g2 from Efwin to Dereerht (r3)
+build g3 at Lilbloo
+convert y1 to b1 at Efwin
+build g3 at Zackstack
+build y1 at Neergeerht
+move y2 from Zackstack to Lilbloo
+move y1 from Neergeerht to Eulbeno (b1)
+move g3 from Lilbloo to Dereerht
+sacrifice g2 at Dereerht; build b2 at Efwin; build r1 at Efwin
+convert g2 to b2 at Zackstack
+move b2 from Efwin to Neergeerht
+move g1 from Lilbloo to Largbloo (b3)
+move b2 from Neergeerht to Eulbeno
+move b2 from Zackstack to Faargurt
+move r1 from Efwin to Neergeerht
+sacrifice g1 at Largbloo; build b3 at Faargurt
+build r1 at Efwin
+move b2 from Faargurt to Dereerht
+build r2 at Neergeerht
+convert y2 to r2 at Biggbloo
+build y2 at Neergwot
+move y2 from Lilbloo to Dereerht
+move r2 from Neergeerht to Neergwot
+build b1 at Dereerht
+sacrifice y2 at Neergwot; move b1 from Efwin to Dereerht; move b2 from Eulbeno to Dereerht; catastrophe blue at Dereerht
+build y2 at Dereerht
+build r3 at Neergeerht
+sacrifice y3 at Zackstack; move y3 from Biggbloo to Efwin; move y2 from Dereerht to Efwin; move y2 from Dereerht to Efwin; catastrophe yellow at Efwin
+sacrifice y2 at Neergwot; move r3 from Neergeerht to Efwin; move r1 from Efwin to Wolleyeerht (y3)
+sacrifice g3 at Dereerht; build g1 at Zackstack; build r3 at Biggbloo; build y2 at Faargurt
+convert r3 to y3 at Efwin
+move b3 from Faargurt to Neergeerht
+build y2 at Efwin
+sacrifice r2 at Biggbloo; capture y1 at Neergeerht; capture r1 at Neergeerht
+convert y2 to g2 at Efwin
+build y2 at Neergeerht
+build r2 at Neergwot
+convert y2 to g2 at Neergeerht
+build y2 at Efwin
+sacrifice g3 at Zackstack; build g3 at Zackstack; build r3 at Biggbloo; build b1 at Neergeerht
+sacrifice y2 at Efwin; move r2 from Neergwot to Biggbloo; move r1 from Efwin to Biggbloo; catastrophe red at Biggbloo
+sacrifice g3 at Zackstack; build g3 at Zackstack; build y2 at Neergeerht; build r1 at Neergeerht
+build r2 at Neergwot
+sacrifice g3 at Zackstack; build g3 at Zackstack; build g3 at Zackstack; build y2 at Faargurt
+move g2 from Efwin to Wolleyeerhtii (y3)
+convert g3 to b3 at Zackstack
+sacrifice g2 at Wolleyeerhtii; build y3 at Eulbeno; build r3 at Wolleyeerht
+sacrifice y2 at Faargurt; move b3 from Zackstack to Faargurt; move b3 from Faargurt to Yohgeert (g3)
+move r3 from Wolleyeerht to Faargurt
+sacrifice y2 at Faargurt; move y1 from Faargurt to Yohgeert; move b1 from Neergeerht to Efwin
+move y1 from Eulbeno to Neergwot
+sacrifice g2 at Neergeerht; build b1 at Efwin; build b2 at Efwin; catastrophe blue at Efwin
+move r2 from Neergwot to Efwin
+convert y2 to g2 at Neergeerht
+build r3 at Efwin
+move r1 from Neergeerht to Efwin
+sacrifice y3 at Efwin; move y3 from Eulbeno to Zackstack; move r3 from Efwin to Zackstack; move y1 from Neergwot to Efwin

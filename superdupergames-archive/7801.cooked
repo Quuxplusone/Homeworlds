@@ -1,0 +1,44 @@
+Mikeyarrum (0, b3r2) g3-
+Mneme (1, r1b2) -g3
+build g1 at Mikeyarrum
+build g1 at Mneme
+convert g3 to y3 at Mikeyarrum
+convert g3 to y3 at Mneme
+build y1 at Mikeyarrum
+build y1 at Mneme
+convert y1 to b1 at Mikeyarrum
+build y1 at Mneme
+build b1 at Mikeyarrum
+convert y1 to b1 at Mneme
+move b1 from Mikeyarrum to Tomo (y1)
+build b2 at Mneme
+convert b1 to r1 at Mikeyarrum
+convert b2 to r2 at Mneme
+build g1 at Mikeyarrum
+build g2 at Mneme
+build g2 at Mikeyarrum
+move g2 from Mneme to Greenacre (g3)
+move g2 from Mikeyarrum to Tomo
+move r2 from Mneme to Yule (g3)
+build b1 at Tomo
+move b1 from Mneme to Emerald (g3)
+build g2 at Tomo
+sacrifice g2 at Greenacre; build g2 at Mneme; build g3 at Mneme
+move g2 from Tomo to Yomi (y3)
+move g2 from Mneme to Emerald
+move b1 from Tomo to Yomi
+sacrifice g3 at Mneme; build g3 at Mneme; build r1 at Yule; build b2 at Emerald
+move g1 from Mikeyarrum to Chiyo (y1)
+move y1 from Mneme to Emerald
+build y2 at Mikeyarrum
+move g2 from Emerald to Chiyo
+build b2 at Tomo
+move g3 from Mneme to Yomi
+sacrifice y3 at Mikeyarrum; move b1 from Tomo to Yomi; move b1 from Yomi to Mneme; move b1 from Yomi to Mneme
+move b1 from Emerald to Mneme; catastrophe blue at Mneme
+move r1 from Mikeyarrum to Tomo
+sacrifice g3 at Yomi; build g3 at Mneme; build y2 at Mneme; build b1 at Emerald
+sacrifice b2 at Tomo; convert g2 to r2 at Tomo; convert g2 to y2 at Yomi
+move g3 from Mneme to Mikeyarrum
+sacrifice y2 at Yomi; move r1 from Tomo to Yule; move r2 from Tomo to Yule; catastrophe red at Yule
+capture y2 at Mikeyarrum

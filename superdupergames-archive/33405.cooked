@@ -1,0 +1,56 @@
+Smokeytroll42 (0, b1r2) g3-
+Babamots (1, g3y2) -b3
+build g1 at Smokeytroll42
+build b1 at Babamots
+build g1 at Smokeytroll42
+convert b1 to g1 at Babamots
+convert g1 to y1 at Smokeytroll42
+build b1 at Babamots
+build y1 at Smokeytroll42
+convert b1 to y1 at Babamots
+build y2 at Smokeytroll42
+build y2 at Babamots
+move y2 from Smokeytroll42 to Galileo (b3)
+move y1 from Babamots to Betazed (b1)
+build y3 at Smokeytroll42
+sacrifice y2 at Babamots; move y1 from Betazed to Galileo; move y1 from Galileo to Smokeytroll42; catastrophe yellow at Smokeytroll42
+convert g1 to y1 at Smokeytroll42
+build b1 at Babamots
+build g1 at Smokeytroll42
+build b1 at Babamots
+convert y2 to b2 at Galileo
+convert b1 to y1 at Babamots
+convert b2 to y2 at Galileo
+move b1 from Babamots to Iconia (b1)
+move g1 from Smokeytroll42 to Galileo
+build b2 at Babamots
+build g1 at Galileo
+build b2 at Babamots
+convert y2 to r2 at Galileo
+convert b2 to r2 at Babamots
+build g2 at Smokeytroll42
+build g2 at Babamots
+build g2 at Smokeytroll42
+move g1 from Babamots to Bajor (y1)
+convert g2 to y2 at Smokeytroll42
+move b2 from Babamots to Bajor
+move y1 from Smokeytroll42 to Galileo
+build b2 at Bajor
+move g2 from Smokeytroll42 to Newton (b3)
+move b2 from Bajor to Cardassia (g3)
+move r2 from Galileo to Iconia
+build g2 at Bajor
+capture b1 at Iconia
+move b2 from Bajor to Galileo
+sacrifice y2 at Smokeytroll42; move g1 from Galileo to Iconia; move g1 from Galileo to Iconia
+build y2 at Babamots
+convert g2 to y2 at Newton
+sacrifice r2 at Babamots; capture y1 at Galileo
+sacrifice g1 at Iconia; build y3 at Newton
+sacrifice g2 at Babamots; build y3 at Galileo; build y3 at Galileo
+sacrifice y3 at Newton; move y2 from Newton to Iconia; move y2 from Iconia to Babamots; move r2 from Iconia to Cardassia; catastrophe yellow at Babamots
+sacrifice g2 at Bajor; build b2 at Babamots; build b3 at Cardassia
+build g1 at Smokeytroll42
+convert y1 to r1 at Galileo
+convert g1 to r1 at Smokeytroll42
+sacrifice r1 at Galileo; capture r2 at Cardassia

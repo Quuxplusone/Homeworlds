@@ -1,0 +1,26 @@
+Lorgar (0, r1b3) g3-
+Dlwillson (1, g3b2) -y3
+build g1 at Lorgar
+build y1 at Dlwillson
+convert g1 to y1 at Lorgar
+build y1 at Dlwillson
+build g1 at Lorgar
+move y1 from Dlwillson to Dust (b1)
+build y2 at Lorgar
+build y2 at Dlwillson
+move y1 from Lorgar to Knuckleduster (r2)
+move y1 from Dlwillson to Ashes (b1)
+move y2 from Lorgar to Sunisburning (r2)
+convert y3 to r3 at Dlwillson
+move y1 from Knuckleduster to Borabora (r1)
+build r1 at Dlwillson
+sacrifice y2 at Sunisburning; move g3 from Lorgar to Amadeo (b2); move g3 from Amadeo to Borabora
+build y2 at Dlwillson
+build y2 at Borabora
+move y2 from Dlwillson to Smoke (b1)
+move y1 from Borabora to Mnemosine (b2)
+convert r3 to g3 at Dlwillson
+build y3 at Borabora
+sacrifice g3 at Dlwillson; build y3 at Dust; build y3 at Ashes; build r2 at Dlwillson
+move y2 from Borabora to Mnemosine
+sacrifice y2 at Dlwillson; move y3 from Dust to Mnemosine; move y3 from Mnemosine to Lorgar

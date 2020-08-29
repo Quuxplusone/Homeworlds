@@ -1,0 +1,83 @@
+Simon (0, r1b3) g3-
+Draw5Playall (1, b1r2) -g3
+build g1 at Simon
+build g1 at Draw5Playall
+convert g1 to y1 at Simon
+convert g1 to y1 at Draw5Playall
+build g1 at Simon
+build g1 at Draw5Playall
+convert g1 to r1 at Simon
+convert g1 to r1 at Draw5Playall
+build r2 at Simon
+build r2 at Draw5Playall
+move r1 from Simon to G2 (g2)
+move r1 from Draw5Playall to Rocket (g3)
+build r3 at Simon
+sacrifice g3 at Draw5Playall; build r3 at Draw5Playall; build r3 at Rocket; build y1 at Draw5Playall
+build y2 at Simon
+convert r2 to g2 at Draw5Playall
+move r3 from Simon to B2 (b2)
+move y1 from Draw5Playall to Rocket
+move y1 from Simon to B2
+build y2 at Draw5Playall
+sacrifice g3 at Simon; build y2 at B2; build y3 at Simon; build r2 at B2
+build y3 at Rocket
+convert y3 to g3 at Simon
+move y1 from Rocket to Dreams (g2)
+build y3 at Simon
+build y3 at Dreams
+sacrifice y2 at Simon; move r1 from G2 to Rocket; move r2 from B2 to Rocket; catastrophe red at Rocket
+convert y2 to b2 at Draw5Playall
+convert y2 to g2 at B2
+build y2 at Rocket
+build y2 at B2
+sacrifice b2 at Draw5Playall; convert y2 to b2 at Rocket; convert y1 to r1 at Dreams
+convert y1 to b1 at B2
+build b1 at Rocket
+move b1 from B2 to G3 (g3)
+convert b1 to r1 at Rocket
+move r2 from Simon to Y2 (y2)
+sacrifice g2 at Draw5Playall; build r2 at Rocket; build r3 at Dreams
+move r3 from B2 to G3
+move y3 from Dreams to Nolimits (b3)
+build y1 at B2
+move y3 from Nolimits to Draw5Playall
+move y1 from B2 to G3
+convert y1 to g1 at Draw5Playall
+build g1 at Simon
+move r3 from Draw5Playall to Jackpot (b3)
+build b1 at G3
+build y1 at Rocket
+move g3 from Simon to Y2
+move y1 from Rocket to Dreams
+move b1 from G3 to Y2
+sacrifice y1 at Dreams; move r3 from Jackpot to B2
+move y2 from B2 to B3 (b3)
+build y1 at Rocket
+sacrifice g2 at B2; build y1 at G3; build y2 at Simon
+build g1 at Draw5Playall
+sacrifice g3 at Y2; build g2 at Simon; build b2 at G3; build b3 at Y2
+move g1 from Draw5Playall to B3
+move g1 from Simon to Y2
+move y1 from Rocket to B2
+move b3 from Y2 to B3
+sacrifice g1 at B3
+move r2 from Y2 to B3
+move r3 from B2 to Peace (g1)
+move y2 from Simon to B2
+move y1 from B2 to Peace
+move g1 from Y2 to B3
+move r3 from Peace to Y2
+move y1 from G3 to Draw5Playall
+convert y3 to g3 at Draw5Playall
+build g2 at B3
+sacrifice g1 at Draw5Playall; build y3 at Rocket
+build g1 at B3
+move y3 from Rocket to Draw5Playall
+sacrifice y2 at B2; move g1 from B3 to Draw5Playall; move g1 from B3 to Draw5Playall
+move b2 from Rocket to Draw5Playall
+build y2 at Draw5Playall
+sacrifice y3 at Rocket; move r3 from Dreams to Rocket; move r3 from Rocket to Draw5Playall; move r3 from Y2 to Handlimit3 (y3)
+sacrifice y3 at Simon; move b3 from B3 to Draw5Playall; move r2 from B3 to Draw5Playall; move r3 from G3 to Draw5Playall; catastrophe red at Draw5Playall
+build y3 at Draw5Playall; catastrophe yellow at Draw5Playall
+sacrifice g2 at B3; build g2 at Draw5Playall; build b2 at Draw5Playall; catastrophe green at Draw5Playall; catastrophe blue at Draw5Playall

@@ -1,0 +1,21 @@
+Zoltar (0, b2y1) g3-
+Josh (1, r1b2) -g3
+build g1 at Zoltar
+build g1 at Josh
+convert g1 to y1 at Zoltar
+convert g3 to y3 at Josh
+move y1 from Zoltar to Greenbelt (g3)
+build g1 at Josh
+build g1 at Zoltar
+move g1 from Josh to Jinx (y3)
+convert g1 to r1 at Zoltar
+build g1 at Josh
+build g2 at Zoltar
+build g2 at Jinx
+move g2 from Zoltar to Jinx
+build g2 at Jinx; catastrophe green at Jinx
+build r1 at Zoltar
+convert g1 to b1 at Josh
+build r2 at Zoltar
+build g1 at Josh
+convert r2 to b2 at Zoltar

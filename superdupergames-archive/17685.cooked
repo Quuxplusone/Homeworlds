@@ -1,0 +1,29 @@
+Shmil1 (0, g1b2) r3-
+Goblin981 (1, b2g3) -r3
+build r1 at Shmil1
+build r1 at Goblin981
+convert r1 to y1 at Shmil1
+convert r1 to y1 at Goblin981
+build r1 at Shmil1
+build y1 at Goblin981
+build y2 at Shmil1
+move y1 from Goblin981 to Protarvi (b1)
+build y2 at Shmil1
+build y2 at Goblin981
+move y2 from Shmil1 to Zelena (g3)
+build y3 at Goblin981
+sacrifice y2 at Shmil1; move y2 from Zelena to Protarvi; move y2 from Protarvi to Goblin981; catastrophe yellow at Goblin981
+build r1 at Goblin981
+move r1 from Shmil1 to Zluta (y3)
+convert r3 to g3 at Goblin981
+move r1 from Zluta to Protarvi
+convert r1 to y1 at Goblin981
+capture y1 at Protarvi
+move g3 from Goblin981 to Protarvi
+move r1 from Protarvi to Goblin981
+build y2 at Goblin981
+capture y1 at Goblin981
+convert y2 to r2 at Goblin981
+build r1 at Goblin981
+capture r1 at Goblin981
+build r1 at Goblin981; catastrophe red at Goblin981

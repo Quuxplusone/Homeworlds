@@ -1,0 +1,39 @@
+Mneme (0, r3b2) g3-
+Nycavri (1, y1b2) -g3
+build g1 at Mneme
+build g1 at Nycavri
+convert g1 to y1 at Mneme
+build g1 at Nycavri
+build y1 at Mneme
+move g1 from Nycavri to Mvb (y3)
+build y2 at Mneme
+convert g1 to b1 at Nycavri
+move y1 from Mneme to Jolly (g1)
+build g1 at Nycavri
+build g2 at Mneme
+build g2 at Nycavri
+move y1 from Jolly to Harpo (b2)
+convert g2 to y2 at Nycavri
+sacrifice g3 at Mneme; build y2 at Harpo; build y3 at Harpo; build y3 at Mneme
+move y2 from Nycavri to Mvg (g3)
+convert y2 to g2 at Harpo
+convert g1 to r1 at Nycavri
+convert y3 to r3 at Harpo
+build r1 at Nycavri
+move y2 from Mneme to Danger (r1)
+build r2 at Nycavri
+build r2 at Harpo
+move r2 from Nycavri to Mvb
+move y2 from Danger to River (b3)
+build g1 at Nycavri
+move r3 from Harpo to Mvg
+move y2 from Mvg to Iw (b1)
+sacrifice g2 at Harpo; build y2 at River; build y3 at Harpo
+build g1 at Mvb
+move y3 from Harpo to Mvb
+move r2 from Mvb to Iw
+sacrifice r2 at Harpo; capture g1 at Mvb; capture g1 at Mvb
+move b1 from Nycavri to Jw (g3)
+sacrifice y3 at Mneme; move g1 from Mvb to Nycavri; move g1 from Mvb to Nycavri; move y3 from Mvb to Nycavri; catastrophe green at Nycavri
+move y2 from Iw to Mneme
+sacrifice r3 at Mvg; capture r1 at Nycavri; capture r1 at Nycavri; capture y2 at Mneme

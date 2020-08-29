@@ -1,0 +1,71 @@
+Wyons (0, y1b2) g3-
+Nmccoy (1, y3b1) -g3
+build g1 at Wyons
+build g1 at Nmccoy
+convert g1 to y1 at Wyons
+move g1 from Nmccoy to Wartortle (b2)
+build g1 at Wyons
+convert g1 to r1 at Wartortle
+build g1 at Wyons
+build g1 at Nmccoy
+convert g1 to r1 at Wyons
+move g1 from Nmccoy to Wartortle
+convert g1 to b1 at Wyons
+build g1 at Nmccoy
+move y1 from Wyons to Headington (g3)
+convert g1 to y1 at Wartortle
+build y2 at Headington
+move g1 from Nmccoy to Wartortle
+move y1 from Headington to Wyons
+build y2 at Wartortle
+build y2 at Headington
+move y2 from Wartortle to Nmccoy
+move y2 from Headington to Oxford (g1)
+build y3 at Wartortle
+build y3 at Headington
+build g1 at Wartortle
+build g2 at Wyons
+build g2 at Nmccoy
+move g2 from Wyons to Oxfordshire (b3)
+convert g2 to r2 at Nmccoy
+move b1 from Wyons to Headington
+build g2 at Nmccoy
+build g2 at Wyons
+convert g1 to b1 at Wartortle
+sacrifice g3 at Wyons; build g1 at Oxfordshire; build b2 at Headington; build g3 at Wyons
+move y3 from Wartortle to Oxfordshire
+move y3 from Headington to Wartortle
+move r1 from Wartortle to Oxfordshire
+convert g2 to r2 at Wyons
+capture g2 at Oxfordshire
+sacrifice r2 at Wyons; capture g1 at Wartortle; capture b1 at Wartortle
+move g2 from Oxfordshire to Wartortle
+build b3 at Wartortle
+sacrifice r1 at Oxfordshire; capture b1 at Wartortle
+convert b3 to r3 at Wartortle
+sacrifice g2 at Wartortle; build b3 at Wartortle; build b3 at Wartortle; catastrophe blue at Wartortle
+build r1 at Wyons
+move g2 from Nmccoy to Charmeleon (r2)
+convert r1 to b1 at Wyons
+build g1 at Charmeleon
+build g2 at Wyons
+build g2 at Nmccoy
+sacrifice g3 at Wyons; build g3 at Wyons; build y1 at Oxford; build y3 at Headington
+build r1 at Nmccoy
+sacrifice g3 at Wyons; build b2 at Wyons; build b3 at Headington; build g3 at Wyons
+sacrifice y2 at Nmccoy; move g1 from Charmeleon to Headington; move g2 from Charmeleon to Headington
+sacrifice y2 at Headington; move b3 from Headington to Oxford; move g2 from Wyons to England (r3)
+sacrifice g2 at Nmccoy; build g2 at Nmccoy; build y2 at Oxfordshire
+sacrifice g2 at England; build b3 at Oxford; build y2 at Headington
+build g2 at Headington; catastrophe green at Headington
+sacrifice y2 at Oxford; move y1 from Oxford to Oxfordshire; move y1 from Wyons to Oxfordshire; catastrophe yellow at Oxfordshire
+move g2 from Nmccoy to Prinplup (b2)
+convert b3 to y3 at Oxford
+convert r1 to y1 at Nmccoy
+build b1 at Oxford
+convert g3 to b3 at Nmccoy
+build y1 at Oxford
+move y1 from Nmccoy to Ivysaur (g2)
+convert b3 to r3 at Oxford
+build g1 at Prinplup
+build b3 at Oxford

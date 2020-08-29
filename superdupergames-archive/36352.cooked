@@ -1,0 +1,15 @@
+Trydnt (0, b2y1) g3-
+Layana (1, g2y1) -b3
+build g1 at Trydnt
+build b1 at Layana
+convert g1 to y1 at Trydnt
+build b1 at Layana
+build y2 at Trydnt
+move b1 from Layana to Orion (g3)
+move y1 from Trydnt to G3 (g3)
+build b1 at Orion
+sacrifice g3 at Trydnt; build y2 at G3; build y2 at G3; build y3 at Trydnt
+build b2 at Orion
+convert y3 to g3 at Trydnt
+convert b3 to r3 at Layana
+build y3 at Trydnt

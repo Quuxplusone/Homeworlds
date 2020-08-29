@@ -1,0 +1,36 @@
+Lorgar (0, b1y3) g3-
+Silenttitan (1, r2b3) -g3
+build g1 at Lorgar
+build g1 at Silenttitan
+move g1 from Lorgar to Mirumoto (b2)
+convert g1 to b1 at Silenttitan
+build g1 at Mirumoto
+build b1 at Silenttitan
+convert g1 to r1 at Mirumoto
+convert b1 to y1 at Silenttitan
+build g1 at Lorgar
+move b1 from Silenttitan to Scorch (y1)
+build g1 at Mirumoto
+build g2 at Silenttitan
+convert g1 to y1 at Mirumoto
+move b1 from Scorch to Wide (y2)
+convert g1 to r1 at Lorgar
+sacrifice g2 at Silenttitan; build b1 at Wide; build b2 at Wide
+build r1 at Lorgar
+convert b2 to r2 at Wide
+build r2 at Mirumoto
+convert b1 to g1 at Wide
+convert r1 to g1 at Lorgar
+build g2 at Silenttitan
+move g1 from Mirumoto to Katsumoto (b1)
+convert g2 to y2 at Silenttitan
+convert r2 to g2 at Mirumoto
+build g2 at Wide
+sacrifice g3 at Lorgar; build g2 at Mirumoto; build g3 at Katsumoto; build g3 at Lorgar
+sacrifice y2 at Silenttitan; move b1 from Wide to Lorgar; move g1 from Wide to Lorgar
+convert g1 to r1 at Lorgar
+sacrifice r2 at Wide; capture r1 at Lorgar; capture r1 at Lorgar
+build g1 at Mirumoto
+sacrifice g2 at Wide; build g2 at Lorgar; build b2 at Lorgar
+pass
+sacrifice g3 at Silenttitan; build b2 at Lorgar; build b3 at Lorgar; build g3 at Lorgar; catastrophe blue at Lorgar; catastrophe green at Lorgar

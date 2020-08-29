@@ -1,0 +1,46 @@
+Broccoli_Commander (0, r1b2) g3-
+Silenttitan (1, b1r3) -g3
+build g1 at Broccoli_Commander
+build g1 at Silenttitan
+convert g1 to y1 at Broccoli_Commander
+convert g1 to y1 at Silenttitan
+build g1 at Broccoli_Commander
+build g1 at Silenttitan
+move g1 from Broccoli_Commander to Blueberry (b3)
+convert g1 to b1 at Silenttitan
+build g1 at Broccoli_Commander
+build b1 at Silenttitan
+convert g3 to b3 at Broccoli_Commander
+move b1 from Silenttitan to Sol (b2)
+build g1 at Broccoli_Commander
+sacrifice g3 at Silenttitan; build b2 at Sol; build y1 at Silenttitan; build y2 at Silenttitan
+build g2 at Broccoli_Commander
+convert b2 to g2 at Sol
+sacrifice g2 at Broccoli_Commander; build g2 at Blueberry; build y2 at Broccoli_Commander
+build g2 at Sol
+move g1 from Broccoli_Commander to Cauliflower (y3)
+sacrifice g2 at Sol; build b2 at Sol; build b3 at Silenttitan
+move y1 from Broccoli_Commander to Blueberry
+convert b3 to g3 at Silenttitan
+sacrifice g2 at Blueberry; build y2 at Broccoli_Commander; build y3 at Blueberry
+move y1 from Silenttitan to Soul (g2)
+move y3 from Blueberry to Sol
+sacrifice g2 at Sol; build y3 at Soul; build b3 at Silenttitan
+convert b3 to g3 at Broccoli_Commander
+convert b3 to r3 at Silenttitan
+convert y2 to r2 at Broccoli_Commander
+build b3 at Silenttitan
+move r2 from Broccoli_Commander to Blueberry
+move y3 from Soul to Blueberry
+build y2 at Blueberry
+sacrifice r3 at Silenttitan; capture y2 at Blueberry; capture y1 at Blueberry; capture r2 at Blueberry
+move y2 from Broccoli_Commander to Blueberry; catastrophe yellow at Blueberry
+capture g1 at Blueberry
+move y3 from Sol to Blueberry
+build g2 at Blueberry
+convert g3 to r3 at Broccoli_Commander
+sacrifice b3 at Silenttitan; convert g2 to y2 at Blueberry; convert g1 to y1 at Blueberry; convert r2 to y2 at Blueberry; catastrophe yellow at Blueberry
+build r1 at Broccoli_Commander
+sacrifice y1 at Silenttitan; move b1 from Sol to Sole (r3)
+convert r1 to y1 at Broccoli_Commander
+sacrifice g3 at Silenttitan; build b3 at Silenttitan; build b3 at Sol; build b3 at Sole

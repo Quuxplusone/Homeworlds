@@ -1,0 +1,32 @@
+Agentofchaos (0, r1b2) g3-
+Subhan64 (1, y3b1) -g3
+build g1 at Agentofchaos
+build g1 at Subhan64
+convert g1 to y1 at Agentofchaos
+build g1 at Subhan64
+move y1 from Agentofchaos to Klingsor (g3)
+move g1 from Subhan64 to Ohohoh (g2)
+build y1 at Klingsor
+build g1 at Subhan64
+build g2 at Agentofchaos
+convert g1 to y1 at Subhan64
+build y2 at Klingsor
+move y1 from Subhan64 to Hohoho (g2)
+move y2 from Klingsor to Agentofchaos
+sacrifice g3 at Subhan64; build g1 at Subhan64; build g3 at Subhan64; build y2 at Hohoho
+build y2 at Agentofchaos
+move y1 from Hohoho to Klingsor
+move y1 from Klingsor to Ohohoh
+sacrifice g3 at Subhan64; build g3 at Subhan64; build y3 at Hohoho; build y3 at Klingsor
+move y1 from Ohohoh to Klingsor; catastrophe yellow at Klingsor
+sacrifice g3 at Subhan64; build g3 at Subhan64; build g3 at Ohohoh; build y1 at Hohoho
+convert y2 to r2 at Agentofchaos
+convert g1 to b1 at Subhan64
+build r1 at Agentofchaos
+sacrifice b1 at Subhan64; convert y2 to r2 at Hohoho
+convert r1 to b1 at Agentofchaos
+build r1 at Hohoho
+build y1 at Agentofchaos
+move r2 from Hohoho to Hehehe (y3)
+move y2 from Agentofchaos to Deathstar (b3)
+sacrifice y3 at Hohoho; move r1 from Hohoho to Hehehe; move r1 from Hehehe to Agentofchaos; move r2 from Hehehe to Agentofchaos; catastrophe red at Agentofchaos

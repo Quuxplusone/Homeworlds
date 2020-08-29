@@ -1,0 +1,25 @@
+Salmoneus (0, b3r1) g3-
+Pjackson (1, b2g2) -r3
+build g1 at Salmoneus
+build r1 at Pjackson
+convert g1 to y1 at Salmoneus
+convert r1 to y1 at Pjackson
+build g1 at Salmoneus
+build r1 at Pjackson
+move g1 from Salmoneus to Rossak (y2)
+convert r1 to g1 at Pjackson
+build g1 at Salmoneus
+build r1 at Pjackson
+build g2 at Rossak
+convert r1 to b1 at Pjackson
+move g1 from Rossak to Kepler (y3)
+move g1 from Pjackson to Omicron_Persei8 (y1)
+sacrifice g3 at Salmoneus; build g2 at Salmoneus; build g3 at Salmoneus; build g3 at Rossak
+build g3 at Omicron_Persei8
+convert g2 to y2 at Salmoneus
+build y2 at Pjackson
+sacrifice y2 at Salmoneus; move g1 from Salmoneus to Pjackson; move g1 from Kepler to Pjackson
+sacrifice r3 at Pjackson; capture g1 at Pjackson; capture g1 at Pjackson
+convert g3 to r3 at Salmoneus
+convert g1 to r1 at Pjackson
+move g3 from Rossak to Salmoneus

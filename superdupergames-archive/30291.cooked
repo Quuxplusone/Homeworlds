@@ -1,0 +1,40 @@
+Simon (0, r1b3) g3-
+Felix (1, b1r2) -g3
+build g1 at Simon
+build g1 at Felix
+convert g1 to r1 at Simon
+convert g1 to b1 at Felix
+build r1 at Simon
+build b1 at Felix
+build g1 at Simon
+build g1 at Felix
+convert g1 to y1 at Simon
+convert g1 to y1 at Felix
+move r1 from Simon to R2 (r2)
+move b1 from Felix to Carnagie (r3)
+build r2 at Simon
+build g1 at Felix
+move r1 from Simon to G2 (g2)
+move g1 from Felix to Keepaway (r3)
+build r3 at G2
+build b2 at Felix
+convert r2 to b2 at Simon
+convert b2 to r2 at Felix
+move b2 from Simon to G2
+sacrifice g1 at Keepaway; build r3 at Felix
+convert r3 to y3 at G2
+move r2 from Felix to Pax (r3)
+build b2 at G2
+build g1 at Felix
+convert b2 to y2 at G2
+move g3 from Felix to Carnagie
+build b2 at G2
+build b2 at Carnagie
+move b2 from G2 to G3 (g3)
+convert b2 to y2 at Carnagie
+build b2 at G3
+build b3 at Carnagie
+sacrifice y2 at G2; move b2 from G3 to Felix; move b2 from G3 to Felix; catastrophe blue at Felix
+move b3 from Carnagie to Felix
+move y3 from G2 to Pax
+sacrifice y2 at Carnagie; move r3 from Felix to Simon; move b3 from Felix to Simon

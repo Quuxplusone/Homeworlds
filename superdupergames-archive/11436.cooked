@@ -1,0 +1,44 @@
+Analogkid (0, b2r1) g3-
+Jesse (1, b1y3) -g3
+build g1 at Analogkid
+build g1 at Jesse
+convert g3 to y3 at Analogkid
+convert g1 to b1 at Jesse
+build g1 at Analogkid
+build b1 at Jesse
+move g1 from Analogkid to Aldebaran (b3)
+move b1 from Jesse to Pollux (g2)
+convert y3 to b3 at Analogkid
+build b2 at Pollux
+build b2 at Analogkid
+build b3 at Pollux
+convert g1 to y1 at Analogkid
+convert b3 to y3 at Pollux
+move b2 from Analogkid to Aldebaran
+build b3 at Pollux
+build g1 at Aldebaran
+convert b3 to y3 at Pollux
+move y1 from Analogkid to Aldebaran
+move b2 from Pollux to Markab (g3)
+convert b3 to g3 at Analogkid
+build b3 at Pollux
+move b2 from Aldebaran to Altair (g2)
+build b3 at Markab
+move y1 from Aldebaran to Pollux
+convert y3 to r3 at Pollux
+build y1 at Pollux
+move y3 from Pollux to Markab
+move y1 from Pollux to Markab
+convert b2 to r2 at Markab
+move y1 from Pollux to Markab
+move y3 from Markab to Altair
+build b2 at Altair
+sacrifice r3 at Pollux; capture b2 at Altair; capture b2 at Altair; capture y1 at Markab
+move y1 from Markab to Analogkid
+sacrifice y3 at Altair; move b3 from Pollux to Markab; move b3 from Markab to Analogkid; move b3 from Markab to Analogkid
+capture b3 at Analogkid
+sacrifice r2 at Markab; capture g3 at Analogkid; capture b3 at Analogkid
+sacrifice g1 at Aldebaran; build y1 at Analogkid
+convert b3 to r3 at Analogkid
+convert y1 to g1 at Analogkid
+sacrifice r3 at Analogkid; capture g1 at Analogkid; capture y1 at Analogkid

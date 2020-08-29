@@ -1,0 +1,83 @@
+Silenttitan (0, r3b2) g3-
+Zoltar (1, r1b3) -g3
+build g1 at Silenttitan
+build g1 at Zoltar
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Zoltar
+build g1 at Silenttitan
+build g1 at Zoltar
+convert g1 to r1 at Silenttitan
+convert g1 to r1 at Zoltar
+build r2 at Silenttitan
+build r2 at Zoltar
+move r2 from Silenttitan to Antimirror (b1)
+convert r1 to b1 at Zoltar
+build g1 at Silenttitan
+build b1 at Zoltar
+move r1 from Silenttitan to Trialrun (r1)
+move r2 from Zoltar to Greenbelt (g2)
+build g1 at Silenttitan
+move b1 from Zoltar to Greenbelt
+sacrifice g3 at Silenttitan; build r2 at Antimirror; build r3 at Antimirror; build r3 at Trialrun
+sacrifice y1 at Zoltar; move r2 from Greenbelt to Antimirror; catastrophe red at Antimirror
+sacrifice y1 at Silenttitan; move r3 from Trialrun to Greenbelt
+sacrifice b1 at Greenbelt; convert b1 to y1 at Zoltar
+convert g1 to b1 at Silenttitan
+build y1 at Zoltar
+build r2 at Greenbelt
+build y1 at Zoltar
+sacrifice b1 at Silenttitan; convert r2 to b2 at Greenbelt
+move y1 from Zoltar to Greendale (g2)
+build r2 at Greenbelt
+build y2 at Greendale
+convert r2 to y2 at Greenbelt
+move y1 from Zoltar to Blueridge (b2)
+sacrifice y2 at Greenbelt; move r3 from Greenbelt to Trialrun; move r3 from Trialrun to Silenttitan
+build y2 at Greendale
+convert r3 to y3 at Silenttitan
+sacrifice g3 at Zoltar; build y2 at Blueridge; build y3 at Blueridge; build y3 at Zoltar
+build g1 at Silenttitan
+convert y1 to g1 at Blueridge
+build b1 at Greenbelt
+convert y3 to r3 at Blueridge
+convert b1 to y1 at Greenbelt
+build y3 at Blueridge
+build b1 at Greenbelt
+sacrifice y2 at Greendale; move r3 from Blueridge to Trialrun; move r3 from Trialrun to Greenbelt
+move g1 from Silenttitan to Trialrun
+build r2 at Greenbelt
+convert b2 to g2 at Greenbelt
+sacrifice r2 at Greenbelt; capture g2 at Greenbelt; capture y1 at Greenbelt
+build y2 at Silenttitan
+move g2 from Greenbelt to Trialrun
+build g3 at Trialrun
+build g3 at Trialrun; catastrophe green at Trialrun
+build g1 at Silenttitan
+convert y3 to g3 at Zoltar
+move g1 from Silenttitan to Trialrun
+convert y3 to g3 at Blueridge
+build r2 at Trialrun
+sacrifice g3 at Blueridge; build y3 at Blueridge; build y3 at Greenbelt; build r2 at Greenbelt
+build g2 at Silenttitan
+move r2 from Greenbelt to Trialrun; catastrophe red at Trialrun
+convert y2 to r2 at Silenttitan
+build g1 at Zoltar
+build y2 at Silenttitan
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Zoltar; build g3 at Blueridge
+build r1 at Silenttitan
+convert y3 to r3 at Blueridge
+move y2 from Silenttitan to Farside (r1)
+sacrifice g3 at Blueridge; build g3 at Blueridge; build y3 at Zoltar; build r2 at Blueridge
+convert r1 to b1 at Silenttitan
+capture b1 at Greenbelt
+pass
+move r3 from Blueridge to Farside
+move y2 from Farside to Nearside (r2)
+move g3 from Zoltar to Nearside
+move y2 from Nearside to Sideside (b3)
+move g3 from Blueridge to Sideside
+move y2 from Sideside to Charmed (b2)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b1 at Greenbelt; build b3 at Greenbelt
+build r1 at Silenttitan
+sacrifice y3 at Zoltar; move b3 from Greenbelt to Farside; move b3 from Farside to Silenttitan; move r3 from Farside to Silenttitan; catastrophe red at Silenttitan
+sacrifice y3 at Silenttitan; move y2 from Charmed to Zoltar; move g2 from Silenttitan to Zoltar; move g1 from Silenttitan to Zoltar; catastrophe green at Zoltar

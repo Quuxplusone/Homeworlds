@@ -1,0 +1,65 @@
+Trydnt (0, b2y1) g3-
+Babamots (1, b3r1) -g3
+build g1 at Trydnt
+build g1 at Babamots
+convert g1 to r1 at Trydnt
+convert g1 to y1 at Babamots
+build r1 at Trydnt
+build y1 at Babamots
+build r2 at Trydnt
+build y2 at Babamots
+convert r2 to y2 at Trydnt
+move y1 from Babamots to Bolarus (b2)
+move y2 from Trydnt to G3 (g3)
+sacrifice g3 at Babamots; build y2 at Bolarus; build y3 at Bolarus; build y3 at Babamots
+move y2 from G3 to Bolarus; catastrophe yellow at Bolarus
+convert y3 to g3 at Babamots
+build r2 at Trydnt
+build y1 at Babamots
+move r2 from Trydnt to Y3 (y3)
+move y1 from Babamots to Risa (g2)
+build r2 at Trydnt
+convert y2 to r2 at Babamots
+convert r2 to y2 at Trydnt
+build y2 at Risa
+move r1 from Trydnt to Why3 (y3)
+build y2 at Babamots
+move y2 from Trydnt to Because3 (y3)
+move r2 from Babamots to Risa
+build g1 at Trydnt
+build g1 at Babamots
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Babamots
+build g1 at Trydnt
+move b1 from Babamots to Risa
+move b1 from Trydnt to Y3
+build b1 at Risa
+sacrifice g1 at Trydnt; build b2 at Y3
+move b1 from Risa to Betazed (g3)
+convert b1 to g1 at Y3
+move y1 from Babamots to Bolarus (b2)
+build g1 at Trydnt
+sacrifice g3 at Babamots; build b1 at Betazed; build b3 at Betazed; build b3 at Risa
+sacrifice g3 at Trydnt; build r2 at Why3; build r3 at Y3; build r3 at Trydnt
+sacrifice y2 at Risa; move b3 from Betazed to Risa; move b3 from Risa to Babamots
+move r2 from Why3 to Bolarus
+move y1 from Bolarus to Romulus (r3)
+move r2 from Y3 to Y2 (y2)
+move r2 from Risa to Why3
+convert r3 to g3 at Trydnt
+move b1 from Risa to Cardassia (r3)
+move r1 from Why3 to G2 (g2)
+sacrifice b1 at Cardassia; convert b3 to r3 at Risa
+sacrifice g3 at Trydnt; build g1 at Y3; build g2 at Y3; build g3 at Trydnt
+move r3 from Risa to Because3
+sacrifice y2 at Because3; move g2 from Y3 to Risa; move r2 from Y2 to G3 (g3)
+move r3 from Because3 to Risa
+move g1 from Y3 to Risa
+sacrifice y1 at Risa; move r3 from Risa to Betazed
+convert r2 to y2 at Bolarus
+convert r3 to y3 at Betazed
+sacrifice g3 at Trydnt; build g3 at Trydnt; build r2 at Trydnt; build r3 at G2
+move r2 from Why3 to Iconia (y2)
+sacrifice b2 at Y3; convert r3 to y3 at G2; convert r1 to b1 at G2
+build y1 at Betazed
+sacrifice y3 at G2; move g1 from Risa to Betazed; move g2 from Risa to Betazed; move g1 from Trydnt to Betazed; catastrophe green at Betazed

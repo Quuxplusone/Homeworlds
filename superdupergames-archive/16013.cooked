@@ -1,0 +1,35 @@
+Twoshort (0, r1b3) g3-
+Sordros (1, b1y2) -g3
+build g1 at Twoshort
+build g1 at Sordros
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Sordros
+build g1 at Twoshort
+build g1 at Sordros
+convert g1 to b1 at Twoshort
+convert g1 to r1 at Sordros
+build b1 at Twoshort
+build r1 at Sordros
+move b1 from Twoshort to Grogar (g2)
+build r2 at Sordros
+build b2 at Grogar
+convert r2 to b2 at Sordros
+convert b2 to y2 at Grogar
+build r2 at Sordros
+sacrifice g3 at Twoshort; build b2 at Grogar; build b2 at Grogar; build b3 at Twoshort
+move r2 from Sordros to Bluega (b3)
+sacrifice b2 at Grogar; convert b2 to r2 at Grogar; convert b3 to g3 at Twoshort
+build g1 at Sordros
+sacrifice g3 at Twoshort; build b2 at Grogar; build b2 at Grogar; build b3 at Twoshort
+build g1 at Sordros
+sacrifice b2 at Grogar; convert b2 to y2 at Grogar; convert b3 to g3 at Twoshort
+build b2 at Sordros
+sacrifice g3 at Twoshort; build y1 at Grogar; build y3 at Twoshort; build b2 at Grogar
+sacrifice g3 at Sordros; build r2 at Bluega; build r3 at Bluega; build r3 at Sordros
+sacrifice y2 at Grogar; move b1 from Grogar to Bluega; move b1 from Bluega to Sordros; catastrophe blue at Sordros
+sacrifice y1 at Sordros; move r3 from Bluega to Grogar
+move y2 from Grogar to Greenland (g3)
+capture b2 at Grogar
+sacrifice y3 at Twoshort; move y2 from Greenland to Sordros; move y1 from Twoshort to Sordros; move y1 from Grogar to Deathstar (b3)
+sacrifice r2 at Bluega; capture y1 at Sordros; capture y2 at Sordros
+move y1 from Deathstar to Sordros; catastrophe yellow at Sordros

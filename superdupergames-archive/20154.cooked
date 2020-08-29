@@ -1,0 +1,105 @@
+Ts52 (0, y1b2) g3-
+Lorgar (1, b1y3) -g3
+build g1 at Ts52
+build g1 at Lorgar
+convert g1 to b1 at Ts52
+convert g1 to y1 at Lorgar
+move b1 from Ts52 to Kermit (g3)
+move y1 from Lorgar to Frog (g2)
+build b1 at Kermit
+build g1 at Lorgar
+build b2 at Kermit
+build y1 at Frog
+convert b2 to y2 at Kermit
+move y1 from Frog to The (b3)
+build b2 at Kermit
+build y2 at Frog
+move b2 from Kermit to Robin (g2)
+convert y1 to g1 at The
+build b2 at Kermit
+build g1 at The
+build b3 at Robin
+sacrifice y2 at Frog; move g1 from The to Ts52; move g1 from The to Ts52
+convert g3 to r3 at Ts52
+sacrifice g3 at Lorgar; build g2 at Ts52; build g3 at Lorgar; build g3 at Lorgar
+capture g2 at Ts52
+convert g1 to y1 at Ts52
+capture y1 at Ts52
+move g1 from Ts52 to Eht (b3)
+build b3 at Robin
+convert g3 to r3 at Lorgar
+convert b2 to r2 at Kermit
+sacrifice y1 at Frog; move g1 from Eht to Robin
+sacrifice r2 at Kermit; capture g1 at Robin
+move g1 from Lorgar to Robin
+sacrifice y2 at Kermit; move b3 from Robin to Oscar (g3); move b3 from Robin to Kermit
+build g1 at Lorgar
+convert g1 to r1 at Robin
+sacrifice g3 at Lorgar; build g1 at Robin; build g2 at Robin; build g3 at Lorgar; catastrophe green at Robin
+build b2 at Oscar
+move g1 from Lorgar to Alawit (b2)
+build b3 at Oscar
+build g1 at Alawit
+convert b3 to y3 at Oscar
+convert g1 to y1 at Alawit
+convert b3 to y3 at Kermit
+build g1 at Lorgar
+convert b3 to r3 at Oscar
+move g1 from Alawit to Star (b3)
+build b3 at Kermit
+move y1 from Alawit to Shine (b3)
+move r3 from Oscar to Bigbird (y2)
+build g1 at Star
+move r3 from Bigbird to Star
+build g2 at Star
+capture g2 at Star
+sacrifice g3 at Lorgar; build g2 at Star; build g3 at Lorgar; build y2 at Shine
+sacrifice y1 at Ts52; move g2 from Star to Grover (b2)
+convert y1 to r1 at Shine
+capture g2 at Star
+sacrifice g3 at Lorgar; build g3 at Lorgar; build r1 at Shine; build r1 at Shine
+build r2 at Star
+sacrifice g3 at Lorgar; build g3 at Lorgar; build y1 at Shine; build r2 at Lorgar
+convert g2 to y2 at Star
+move r3 from Lorgar to Grover
+capture g1 at Star
+capture g2 at Grover
+build g2 at Ts52
+sacrifice g1 at Star; build g1 at Grover
+move r2 from Star to Bigbird (y2)
+move r1 from Shine to Rar (y1)
+move b3 from Kermit to Bigbird
+move r1 from Shine to Rar
+move b3 from Bigbird to Shine
+sacrifice y2 at Shine; move r1 from Rar to Lore (y2); move y1 from Shine to Grover
+move b1 from Kermit to Bigbird
+build r2 at Grover
+move b2 from Oscar to Lore
+move r1 from Lore to Oscar
+sacrifice r2 at Bigbird; capture r1 at Oscar; capture r1 at Shine
+sacrifice g3 at Lorgar; build g3 at Lorgar; build r2 at Rar
+sacrifice y2 at Star; move r1 from Shine to Grover; move r1 from Oscar to Grover; catastrophe red at Grover
+sacrifice g3 at Lorgar; build y2 at Grover; build g3 at Lorgar; build r1 at Rar
+move y3 from Kermit to Grover
+sacrifice y2 at Grover; move r1 from Rar to Star; move r1 from Rar to Star
+sacrifice r3 at Star; capture r1 at Star; capture r1 at Star; capture g2 at Grover
+move g1 from Grover to Kermit
+sacrifice r1 at Star; capture y1 at Grover
+move r2 from Rar to Bigbird
+move y3 from Grover to Star
+capture b1 at Bigbird
+build y1 at Grover
+convert r2 to y2 at Bigbird
+convert g2 to r2 at Grover
+build g2 at Kermit
+move y1 from Grover to Shine
+sacrifice y2 at Bigbird; move g2 from Kermit to Ts52; move g1 from Kermit to Ts52; catastrophe green at Ts52
+build y2 at Star
+move g1 from Lorgar to Bigbird
+move y2 from Star to Bigbird
+build g1 at Lorgar
+move y1 from Shine to Grover
+build r1 at Lorgar
+sacrifice y3 at Oscar; move y1 from Grover to Lorgar; move y1 from Grover to Lorgar; move y2 from Bigbird to Lorgar; catastrophe yellow at Lorgar
+convert r1 to y1 at Lorgar
+sacrifice y3 at Star; move b1 from Kermit to Lorgar; move b2 from Lore to Lorgar; move b3 from Shine to Lorgar; catastrophe blue at Lorgar

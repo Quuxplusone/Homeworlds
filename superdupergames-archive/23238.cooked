@@ -1,0 +1,58 @@
+Ts52 (0, y1b2) g3-
+Broccoli_Commander (1, b1y3) -g3
+build g1 at Ts52
+build g1 at Broccoli_Commander
+move g1 from Ts52 to Grover (b3)
+move g1 from Broccoli_Commander to Blueberry (b2)
+build g1 at Grover
+build g2 at Blueberry
+build g2 at Ts52
+convert g1 to y1 at Blueberry
+convert g2 to y2 at Ts52
+build g1 at Blueberry
+build g2 at Ts52
+convert g2 to r2 at Blueberry
+convert g1 to r1 at Grover
+move r2 from Blueberry to Grover
+sacrifice g2 at Ts52; build r1 at Grover; build r1 at Grover; catastrophe red at Grover
+build y1 at Blueberry
+build y2 at Ts52
+build y2 at Blueberry
+move y2 from Ts52 to Grover
+convert y1 to r1 at Blueberry
+convert y2 to r2 at Grover
+move y1 from Blueberry to Broccoli_Commander
+move y2 from Ts52 to Grover
+build y1 at Blueberry
+build y2 at Grover
+move y2 from Blueberry to Lettuce (g3)
+move y2 from Grover to Kermit (g2)
+build y3 at Blueberry
+build y3 at Grover
+build r1 at Blueberry
+move r2 from Grover to Kermit
+build g1 at Broccoli_Commander
+build g2 at Ts52
+build g2 at Blueberry
+build r1 at Kermit
+move r1 from Blueberry to Lettuce
+convert g3 to r3 at Ts52
+move g2 from Blueberry to Prairie (g3)
+build r2 at Ts52
+sacrifice g3 at Broccoli_Commander; build g3 at Broccoli_Commander; build r2 at Blueberry; build r3 at Lettuce
+move r2 from Ts52 to Grover
+convert r2 to b2 at Blueberry
+move y3 from Grover to Elmo (r2)
+build r3 at Blueberry
+move y3 from Elmo to Broccoli_Commander
+sacrifice r1 at Lettuce; capture y3 at Broccoli_Commander
+move y2 from Kermit to Broccoli_Commander; catastrophe yellow at Broccoli_Commander
+move y3 from Blueberry to Grover
+sacrifice y2 at Grover; move g1 from Grover to Broccoli_Commander; move g2 from Ts52 to Zoe (y3)
+sacrifice y2 at Lettuce; move g1 from Broccoli_Commander to Cauliflower (y3); move r1 from Blueberry to Broccoli_Commander
+sacrifice r1 at Kermit; capture r1 at Broccoli_Commander
+sacrifice r3 at Blueberry; capture r2 at Grover; capture g1 at Broccoli_Commander; capture r1 at Broccoli_Commander
+move g2 from Zoe to Ts52
+sacrifice g3 at Broccoli_Commander; build g3 at Broccoli_Commander; build y1 at Grover; build y2 at Grover
+build r1 at Ts52
+sacrifice y3 at Grover; move r2 from Grover to Ts52; move r1 from Broccoli_Commander to Grover; move r1 from Grover to Ts52; catastrophe red at Ts52

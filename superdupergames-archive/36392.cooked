@@ -1,0 +1,33 @@
+Amoscai (0, b1y2) g3-
+Babamots (1, g3b1) -b3
+build g1 at Amoscai
+build b1 at Babamots
+build g1 at Amoscai
+convert b3 to y3 at Babamots
+move g1 from Amoscai to B3 (b3)
+build b2 at Babamots
+build g1 at B3
+move b1 from Babamots to Bolarus (b2)
+build g2 at Amoscai
+build b2 at Babamots
+convert g3 to b3 at Amoscai
+move b2 from Babamots to Iconia (y2)
+convert g2 to y2 at Amoscai
+build b3 at Babamots
+build g2 at B3
+move b2 from Iconia to Risa (g3)
+build g2 at Amoscai
+sacrifice y3 at Babamots; move b1 from Bolarus to Risa; move b1 from Risa to Amoscai; move b2 from Risa to Amoscai; catastrophe blue at Amoscai
+move g1 from Amoscai to Babamots
+convert b2 to y2 at Babamots
+build g2 at Babamots
+convert b3 to r3 at Babamots
+sacrifice g2 at B3; build g2 at Babamots; build g3 at Amoscai; catastrophe green at Babamots
+move y2 from Babamots to Pakled (g3)
+convert g1 to b1 at B3
+build y1 at Pakled
+build b1 at B3
+move y1 from Pakled to Betazed (g1)
+sacrifice y2 at Amoscai; move b1 from B3 to Babamots; move b1 from B3 to Babamots
+pass
+sacrifice g1 at B3; build b2 at Babamots; catastrophe blue at Babamots

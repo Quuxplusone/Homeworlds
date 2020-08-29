@@ -1,0 +1,64 @@
+Mitotic (0, y3g2) b3-
+Galateangemmate (1, r1b2) -g3
+build b1 at Mitotic
+build g1 at Galateangemmate
+convert b1 to y1 at Mitotic
+build g1 at Galateangemmate
+build b1 at Mitotic
+convert g1 to b1 at Galateangemmate
+convert b1 to g1 at Mitotic
+convert g1 to y1 at Galateangemmate
+move g1 from Mitotic to Friendship (r1)
+build g1 at Galateangemmate
+build b1 at Mitotic
+convert b1 to r1 at Galateangemmate
+convert b1 to g1 at Mitotic
+build g2 at Galateangemmate
+build g2 at Mitotic
+convert g2 to b2 at Galateangemmate
+convert g2 to r2 at Mitotic
+move b2 from Galateangemmate to Laughter (g3)
+move y1 from Mitotic to Friendship
+build g2 at Galateangemmate
+build g2 at Friendship
+convert g1 to b1 at Galateangemmate
+build b1 at Mitotic
+move g2 from Galateangemmate to Moscow (y3)
+move b1 from Mitotic to Friendship
+move r1 from Galateangemmate to Laughter
+build r2 at Mitotic
+convert b2 to y2 at Laughter
+move r2 from Mitotic to Friendship
+build g1 at Moscow
+move r2 from Friendship to Moscow
+sacrifice r1 at Laughter; capture r2 at Moscow
+convert g1 to r1 at Mitotic
+build g1 at Galateangemmate
+move r1 from Mitotic to Friendship
+sacrifice g3 at Galateangemmate; build g3 at Galateangemmate; build g3 at Galateangemmate; build y1 at Laughter
+move r1 from Friendship to Laughter
+move g1 from Galateangemmate to Fun (b3)
+capture y1 at Laughter
+sacrifice g3 at Galateangemmate; build g3 at Fun; build r2 at Moscow; build r3 at Moscow
+move r1 from Laughter to Friendship
+move r2 from Moscow to Friendship
+move r1 from Friendship to Moscow
+sacrifice r3 at Moscow; capture g2 at Friendship; capture g1 at Friendship; capture y1 at Friendship
+build b1 at Mitotic
+sacrifice g3 at Fun; build g3 at Fun; build b2 at Galateangemmate; build y2 at Galateangemmate
+build r3 at Mitotic
+convert g3 to y3 at Fun
+convert r2 to y2 at Mitotic
+build g3 at Fun
+capture g1 at Moscow
+move y1 from Galateangemmate to Laughter
+build r2 at Moscow
+sacrifice r2 at Moscow; capture r2 at Moscow; capture g1 at Moscow
+capture g1 at Moscow
+move b1 from Galateangemmate to Laughter
+build r2 at Moscow
+sacrifice r2 at Moscow; capture r2 at Moscow; capture r1 at Moscow
+move g1 from Moscow to Friendship
+move y1 from Laughter to Friendship
+build r2 at Mitotic
+sacrifice y2 at Laughter; move y1 from Friendship to Mitotic; move y1 from Friendship to Mitotic; catastrophe yellow at Mitotic

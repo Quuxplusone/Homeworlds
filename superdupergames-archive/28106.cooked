@@ -1,0 +1,29 @@
+Wil (0, b3y1) g3-
+Mathieuzebest (1, g1b2) -y3
+build g1 at Wil
+build y1 at Mathieuzebest
+convert g1 to y1 at Wil
+convert y1 to g1 at Mathieuzebest
+move y1 from Wil to B2 (b2)
+move g1 from Mathieuzebest to B1 (b3)
+build g1 at Wil
+build g2 at B1
+convert g1 to r1 at Wil
+convert g1 to y1 at B1
+build r1 at Wil
+build y2 at B1
+move r1 from Wil to G2 (g2)
+move y2 from B1 to B2
+build r1 at G2
+build y2 at B1
+move y1 from B2 to G3 (g3)
+build y2 at Mathieuzebest
+build y3 at G3
+convert y2 to r2 at B2
+move y3 from G3 to Mathieuzebest
+convert y2 to r2 at Mathieuzebest
+sacrifice r1 at G2; capture y3 at Mathieuzebest
+build r1 at Mathieuzebest
+sacrifice r1 at G2; capture r2 at Mathieuzebest
+move y1 from B1 to Mathieuzebest
+sacrifice r2 at Mathieuzebest; capture r1 at Mathieuzebest; capture y1 at Mathieuzebest

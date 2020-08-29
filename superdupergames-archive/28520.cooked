@@ -1,0 +1,37 @@
+Endo (0, b1y2) g3-
+Fogus (1, y3b1) -g3
+build g1 at Endo
+build g1 at Fogus
+convert g1 to b1 at Endo
+convert g1 to y1 at Fogus
+build b2 at Endo
+build g1 at Fogus
+move b1 from Endo to Separable (g3)
+build g1 at Fogus
+build b2 at Endo
+convert g1 to r1 at Fogus
+move b2 from Endo to Regular (y3)
+move r1 from Fogus to Flib (y2)
+sacrifice g3 at Endo; build b2 at Separable; build b3 at Endo; build b3 at Regular
+build g1 at Fogus
+build b3 at Separable
+build y1 at Fogus
+convert b3 to g3 at Regular
+move g1 from Fogus to Flib
+build b3 at Regular
+build r1 at Flib
+convert b3 to r3 at Separable
+convert y1 to r1 at Fogus
+move b3 from Regular to Flib
+sacrifice g1 at Flib; build r2 at Fogus
+sacrifice r3 at Separable; capture r1 at Flib; capture r1 at Flib
+move r2 from Fogus to Frogger (y2)
+build b3 at Separable
+build r2 at Fogus
+convert b3 to r3 at Separable
+build y1 at Fogus
+build b3 at Separable
+move r1 from Fogus to Flipper (g2)
+convert b3 to r3 at Endo
+convert r2 to g2 at Fogus
+convert b3 to y3 at Separable

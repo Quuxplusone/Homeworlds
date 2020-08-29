@@ -1,0 +1,43 @@
+Zoltar (0, b2y1) g3-
+Uglyfoot (1, g3b1) -y3
+build g1 at Zoltar
+build y1 at Uglyfoot
+build g1 at Zoltar
+build y1 at Uglyfoot
+move g1 from Zoltar to Blueberry (b3)
+move y1 from Uglyfoot to Altair (b2)
+build g1 at Zoltar
+build y2 at Uglyfoot
+build g2 at Blueberry
+move y2 from Uglyfoot to Altair
+convert g2 to y2 at Blueberry
+convert y2 to g2 at Altair
+convert g1 to r1 at Zoltar
+build y2 at Altair
+build y2 at Blueberry
+convert y1 to r1 at Uglyfoot
+move y2 from Blueberry to Boysenberry (b2)
+move y2 from Altair to Sinclair (g3)
+convert g1 to b1 at Zoltar
+build g1 at Altair
+build g1 at Zoltar
+move g2 from Altair to Eradani (r3)
+build g2 at Blueberry
+build g2 at Eradani
+move g1 from Zoltar to Proxima_Iii (y3)
+sacrifice g2 at Eradani; build y1 at Altair; build y3 at Sinclair
+sacrifice g1 at Proxima_Iii; build y3 at Boysenberry
+build g1 at Altair
+convert g1 to b1 at Blueberry
+move y1 from Altair to Eradani
+build b3 at Blueberry
+convert y3 to b3 at Uglyfoot
+build y3 at Blueberry
+move y1 from Eradani to Boysenberry
+sacrifice y2 at Blueberry; move y3 from Boysenberry to Eradani; move b3 from Blueberry to Altair
+sacrifice g2 at Eradani; build y2 at Boysenberry; build g1 at Altair
+sacrifice y3 at Eradani; move b1 from Blueberry to Altair; move b1 from Altair to Uglyfoot; move b3 from Altair to Uglyfoot; catastrophe blue at Uglyfoot
+sacrifice y2 at Sinclair; move y3 from Sinclair to Altair; move y3 from Altair to Uglyfoot
+sacrifice y3 at Blueberry; move g2 from Blueberry to Boysenberry; move g2 from Boysenberry to Uglyfoot; move g3 from Zoltar to Uglyfoot
+capture g3 at Uglyfoot
+build g2 at Uglyfoot; catastrophe green at Uglyfoot

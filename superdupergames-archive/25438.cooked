@@ -1,0 +1,17 @@
+Grosseteste (0, b2y1) g3-
+Fnord (1, b2g1) -y3
+build g1 at Grosseteste
+build y1 at Fnord
+build g1 at Grosseteste
+build y1 at Fnord
+move g1 from Grosseteste to Luce (y3)
+move y1 from Fnord to Eris (b3)
+move g1 from Luce to Fnord
+convert y3 to r3 at Fnord
+build g2 at Fnord
+capture g2 at Fnord
+build g2 at Fnord; catastrophe green at Fnord
+convert y1 to g1 at Fnord
+convert g1 to y1 at Grosseteste
+build r1 at Fnord
+convert y1 to r1 at Grosseteste

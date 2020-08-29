@@ -1,0 +1,16 @@
+Subhan64 (0, b3y2) g3-
+Aristos (1, g2y1) -b3
+build g1 at Subhan64
+build b1 at Aristos
+build g1 at Subhan64
+convert b1 to g1 at Aristos
+convert g1 to y1 at Subhan64
+move g1 from Aristos to Submarine (y3)
+move g1 from Subhan64 to Kermit (y1)
+build b1 at Aristos
+build g1 at Kermit
+build g2 at Submarine
+build y2 at Subhan64
+move g1 from Submarine to Kermit
+move g1 from Kermit to Submarine
+convert b1 to r1 at Aristos

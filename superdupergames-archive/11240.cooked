@@ -1,0 +1,6 @@
+Kreiger (0, b3y2) g3-
+Danner (1, r1b2) -g3
+build g1 at Kreiger
+build g1 at Danner
+move g1 from Kreiger to Mycon (y1)
+convert g1 to y1 at Danner

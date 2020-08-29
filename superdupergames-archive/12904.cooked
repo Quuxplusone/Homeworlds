@@ -1,0 +1,41 @@
+Jesse (0, r1b3) g3-
+Pedrop (1, b2y1) -g3
+build g1 at Jesse
+build g1 at Pedrop
+convert g1 to y1 at Jesse
+convert g1 to y1 at Pedrop
+build y2 at Jesse
+move y1 from Pedrop to Newhope (g3)
+convert y1 to r1 at Jesse
+build g1 at Pedrop
+build r1 at Jesse
+convert g1 to y1 at Pedrop
+move r1 from Jesse to Pripyat (g2)
+build y2 at Pedrop
+move r1 from Jesse to Kyzyl (g2)
+convert y2 to r2 at Pedrop
+build y2 at Jesse
+build r2 at Pedrop
+move y2 from Jesse to Pripyat
+move r2 from Pedrop to Newhope
+build g1 at Jesse
+build g1 at Pedrop
+convert g1 to b1 at Jesse
+convert g1 to b1 at Pedrop
+move b1 from Jesse to Suzdal (g2)
+build g1 at Pedrop
+build g1 at Jesse
+build g1 at Pedrop
+build b1 at Suzdal
+move y1 from Pedrop to Ziemia (b3)
+sacrifice g3 at Jesse; build g3 at Jesse; build y2 at Jesse; build y3 at Pripyat
+sacrifice g3 at Pedrop; build g3 at Pedrop; build y3 at Ziemia; build y3 at Newhope
+sacrifice b1 at Suzdal; convert y3 to b3 at Pripyat
+sacrifice g3 at Pedrop; build g3 at Pedrop; build r2 at Newhope; build r3 at Pedrop
+sacrifice g3 at Jesse; build g3 at Jesse; build y3 at Pripyat; build r3 at Kyzyl
+move g1 from Pedrop to Ziemia
+sacrifice g3 at Jesse; build g3 at Jesse; build r3 at Pripyat; build b1 at Pripyat
+move y3 from Ziemia to Suzdal
+move r3 from Pripyat to Ziemia
+sacrifice y1 at Ziemia; move r2 from Newhope to Suzdal
+sacrifice y2 at Jesse; move b1 from Suzdal to Ziemia; move y2 from Pripyat to Ziemia

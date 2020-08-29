@@ -1,0 +1,39 @@
+Zoltar (0, b3r2) g3-
+Silenttitan (1, y3g1) -b3
+build g1 at Zoltar
+build b1 at Silenttitan
+build g1 at Zoltar
+move b1 from Silenttitan to Wondertoe (g2)
+convert g3 to y3 at Zoltar
+build b1 at Wondertoe
+build g2 at Zoltar
+build b1 at Silenttitan
+move g1 from Zoltar to Yellowstone (y1)
+build b2 at Silenttitan
+convert g2 to b2 at Zoltar
+convert b2 to y2 at Silenttitan
+move b2 from Zoltar to Yellowstone
+move b1 from Silenttitan to Mymy (g2)
+build g2 at Yellowstone
+sacrifice y2 at Silenttitan; move b1 from Wondertoe to Riff (y1); move b1 from Wondertoe to Raff (y1)
+move g2 from Yellowstone to Blueridge (b2)
+convert b3 to r3 at Silenttitan
+build g2 at Blueridge
+build r1 at Silenttitan
+build g3 at Zoltar
+build b2 at Mymy
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Yellowstone; build b3 at Yellowstone
+convert b2 to y2 at Mymy
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Blueridge; build y2 at Zoltar
+build y2 at Mymy
+sacrifice b3 at Yellowstone; convert g3 to y3 at Blueridge; convert g2 to r2 at Blueridge; convert g3 to r3 at Yellowstone
+sacrifice b1 at Mymy; convert r3 to b3 at Silenttitan
+sacrifice g3 at Zoltar; build g2 at Blueridge; build g3 at Yellowstone; build g3 at Zoltar
+build b1 at Silenttitan
+sacrifice y3 at Zoltar; move g3 from Yellowstone to Blueridge; move g3 from Blueridge to Silenttitan; move y3 from Blueridge to Silenttitan
+capture g3 at Silenttitan
+sacrifice r2 at Blueridge; capture b3 at Silenttitan; capture g3 at Silenttitan
+sacrifice y2 at Mymy; move b1 from Riff to Zoltar; move b1 from Raff to Zoltar
+sacrifice r3 at Yellowstone; capture b1 at Zoltar; capture b1 at Zoltar; capture r1 at Silenttitan
+move y2 from Mymy to Silenttitan
+sacrifice g3 at Zoltar; build g2 at Silenttitan; build g3 at Silenttitan; build y1 at Silenttitan; catastrophe yellow at Silenttitan; catastrophe green at Silenttitan

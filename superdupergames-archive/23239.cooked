@@ -1,0 +1,38 @@
+Dungeon (0, g3y2) b3-
+Adwm86 (1, b2y1) -g3
+build b1 at Dungeon
+build g1 at Adwm86
+move b3 from Dungeon to Magewar (y1)
+move g3 from Adwm86 to Agricola (y3)
+build b1 at Dungeon
+build g1 at Adwm86
+convert b1 to g1 at Dungeon
+build g2 at Adwm86
+build g2 at Dungeon
+move g1 from Adwm86 to Agricola
+move g2 from Dungeon to Magewar
+convert g2 to r2 at Adwm86
+build g2 at Magewar
+build g2 at Adwm86
+build g3 at Dungeon
+move g3 from Agricola to Twilight (b2)
+move g2 from Magewar to Bang (y3)
+convert g2 to y2 at Adwm86
+move g2 from Magewar to Dyinglights (y3)
+move r2 from Adwm86 to Dyinglights
+move g2 from Dyinglights to Adwm86
+convert y2 to r2 at Adwm86
+build g2 at Bang
+capture g2 at Adwm86
+move b3 from Magewar to Bang
+move g1 from Agricola to Mtg (y1)
+convert b3 to r3 at Bang
+move g1 from Mtg to Dungeon; catastrophe green at Dungeon
+move r3 from Bang to Adwm86
+move r2 from Dyinglights to Dungeon
+sacrifice g2 at Bang; build b1 at Dungeon; build b1 at Dungeon
+capture b1 at Dungeon
+capture r2 at Adwm86
+capture b1 at Dungeon
+sacrifice g2 at Bang; build b2 at Dungeon; build b3 at Dungeon
+move r2 from Dungeon to Mtg (y3); catastrophe blue at Dungeon

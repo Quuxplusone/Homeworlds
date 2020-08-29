@@ -1,0 +1,30 @@
+Ajo (0, y3b2) g3-
+Baxy (1, g3y1) -b3
+build g1 at Ajo
+build b1 at Baxy
+move g1 from Ajo to Alpha (b1)
+move b1 from Baxy to Gwar (y2)
+build g1 at Ajo
+build b1 at Baxy
+build g1 at Alpha
+convert b3 to g3 at Baxy
+convert g1 to y1 at Alpha
+sacrifice g3 at Baxy; build b2 at Gwar; build b2 at Gwar; build b3 at Baxy
+sacrifice g3 at Ajo; build g1 at Alpha; build g2 at Alpha; build g2 at Ajo
+convert b3 to g3 at Baxy
+convert g1 to r1 at Alpha
+move b1 from Gwar to Tool (y1)
+move g2 from Alpha to Gwar
+sacrifice g3 at Baxy; build b3 at Baxy; build b3 at Tool; build b3 at Gwar
+build y2 at Alpha
+sacrifice b2 at Gwar; convert b1 to r1 at Tool; convert b3 to g3 at Baxy
+sacrifice y2 at Alpha; move g2 from Gwar to Baxy; move g1 from Alpha to Gamma (y2)
+sacrifice g3 at Baxy; build b1 at Gwar; build b2 at Tool; build b3 at Baxy
+sacrifice r1 at Alpha; capture b1 at Baxy
+move b3 from Tool to Ajo
+convert y1 to r1 at Alpha
+sacrifice r1 at Tool; capture g2 at Ajo
+move b1 from Baxy to Gwar; catastrophe blue at Gwar
+convert b3 to r3 at Ajo
+pass
+capture g1 at Ajo

@@ -1,0 +1,72 @@
+Aristos (0, b3r2) g3-
+Goulo (1, r2b1) -g3
+build g1 at Aristos
+build g1 at Goulo
+convert g3 to y3 at Aristos
+convert g3 to y3 at Goulo
+build y1 at Aristos
+build y1 at Goulo
+convert y3 to b3 at Aristos
+convert y1 to r1 at Goulo
+build b1 at Aristos
+build y1 at Goulo
+move b1 from Aristos to Plum (b1)
+convert y3 to b3 at Goulo
+convert b1 to g1 at Plum
+build g2 at Goulo
+build g2 at Plum
+move g2 from Goulo to Parnaso (y3)
+convert g1 to y1 at Plum
+build y2 at Goulo
+build y2 at Plum
+move y1 from Goulo to Parnaso
+move y1 from Plum to Pear (g3)
+sacrifice g2 at Parnaso; build y2 at Parnaso; build y3 at Goulo
+build y3 at Aristos
+move y2 from Parnaso to Plum
+convert y1 to r1 at Aristos
+move y2 from Plum to Pear
+build y1 at Pear
+sacrifice r1 at Goulo; capture y1 at Pear
+move y2 from Plum to Pear; catastrophe yellow at Pear
+build y1 at Goulo
+build y1 at Aristos
+convert y1 to r1 at Goulo
+move y1 from Aristos to Plum
+build b1 at Goulo
+sacrifice g2 at Plum; build y1 at Plum; build y2 at Aristos
+move b1 from Goulo to Parnaso
+move y1 from Plum to Parnaso
+move b1 from Parnaso to Hesse (y2)
+sacrifice r1 at Aristos; capture y1 at Parnaso
+move y2 from Goulo to Kalevala (g3)
+build g1 at Aristos
+build g2 at Goulo
+move g1 from Aristos to Plum
+move g2 from Goulo to Parnaso
+move y3 from Aristos to Plum
+sacrifice r1 at Goulo; capture y1 at Parnaso
+move y1 from Plum to Parnaso; catastrophe yellow at Parnaso
+build g2 at Goulo
+build g2 at Plum
+sacrifice g1 at Goulo; build b2 at Hesse
+convert y2 to r2 at Aristos
+move b1 from Hesse to Parnaseto (y1)
+convert b3 to g3 at Aristos
+convert b2 to g2 at Hesse
+move g2 from Plum to Hesse
+move g2 from Hesse to Flaveto (y1)
+sacrifice g3 at Aristos; build g1 at Hesse; build g3 at Plum; build g3 at Aristos
+sacrifice g2 at Flaveto; build b2 at Parnaseto; build b2 at Parnaseto
+convert g3 to b3 at Plum
+build y1 at Goulo
+move b3 from Plum to Kalevala
+sacrifice y2 at Kalevala; move b1 from Parnaseto to Aristos; move b2 from Parnaseto to Aristos
+sacrifice g3 at Aristos; build g2 at Plum; build g3 at Aristos; build b2 at Kalevala
+capture r2 at Aristos
+capture r2 at Aristos
+pass
+pass
+pass
+pass
+pass

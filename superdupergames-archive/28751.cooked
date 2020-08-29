@@ -1,0 +1,38 @@
+Felix (0, b3r2) g3-
+Tamiel (1, y3b1) -g3
+build g1 at Felix
+build g1 at Tamiel
+convert g1 to y1 at Felix
+build g1 at Tamiel
+build g1 at Felix
+move g1 from Tamiel to Gliesse1 (b2)
+move g1 from Felix to Gate (b1)
+build g2 at Gliesse1
+build g2 at Gate
+convert g2 to y2 at Gliesse1
+build g2 at Felix
+sacrifice g3 at Tamiel; build g2 at Tamiel; build g3 at Tamiel; build g3 at Gliesse1
+convert g2 to y2 at Gate
+convert g2 to r2 at Tamiel
+convert g2 to r2 at Felix
+move g1 from Gliesse1 to Gate
+build g2 at Felix
+build g2 at Gliesse1
+move g1 from Gate to Door (b2)
+move r2 from Tamiel to Door
+build g2 at Door
+capture g2 at Door
+sacrifice g3 at Felix; build g3 at Door; build y1 at Gate; build y1 at Felix
+capture g1 at Door
+sacrifice r2 at Felix; capture r2 at Door; capture g2 at Door
+sacrifice y2 at Gliesse1; move g1 from Gate to Door; move g3 from Gliesse1 to Gate; catastrophe green at Door
+convert y1 to b1 at Gate
+convert g2 to r2 at Gliesse1
+build g1 at Felix
+convert g1 to r1 at Tamiel
+move g1 from Felix to Gate
+sacrifice r2 at Gliesse1; capture y2 at Gate; capture b1 at Gate
+sacrifice g2 at Felix; build g1 at Gate; build g1 at Gate; catastrophe green at Gate
+move y2 from Gate to Felix
+sacrifice y1 at Felix
+sacrifice g3 at Tamiel; build y1 at Felix; build y1 at Felix; build y2 at Felix; catastrophe yellow at Felix

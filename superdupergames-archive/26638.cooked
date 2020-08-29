@@ -1,0 +1,68 @@
+Wil (0, b1y2) g3-
+Dlwillson (1, b3r2) -g3
+build g1 at Wil
+build g1 at Dlwillson
+convert g1 to b1 at Wil
+convert g1 to b1 at Dlwillson
+build b2 at Wil
+build b2 at Dlwillson
+move b2 from Wil to G3 (g3)
+convert b1 to y1 at Dlwillson
+build g1 at Wil
+build y1 at Dlwillson
+convert g1 to r1 at Wil
+build y1 at Dlwillson
+build b1 at G3
+move y1 from Dlwillson to Field (g1)
+convert b2 to y2 at G3
+move y1 from Dlwillson to Sea (g1)
+move b1 from Wil to Y3 (y3)
+sacrifice g3 at Dlwillson; build y2 at Field; build y3 at Sea; build y3 at Dlwillson
+build b2 at G3
+convert y1 to r1 at Dlwillson
+move b2 from G3 to Y1 (y1)
+move b2 from Dlwillson to Field
+convert b1 to g1 at Y3
+move y3 from Sea to Sky (b3)
+sacrifice g1 at Y3; build y3 at G3
+sacrifice y2 at Field; move y1 from Field to G3; move y1 from Sea to G3; catastrophe yellow at G3
+build r1 at Wil
+convert y3 to g3 at Dlwillson
+build r2 at Wil
+build r2 at Dlwillson
+move r1 from Wil to G3
+convert r2 to y2 at Dlwillson
+convert r2 to y2 at Wil
+move r1 from Dlwillson to Field
+build r2 at G3
+build b1 at Field
+convert r1 to y1 at G3
+convert b1 to y1 at Field
+build y3 at G3
+build y3 at Field
+move y2 from Wil to B3 (b3)
+convert y3 to r3 at Field
+move y1 from G3 to Field
+build y3 at Dlwillson
+build b1 at G3
+build b2 at Field
+build g1 at Wil
+capture y1 at Field
+move b1 from G3 to R1 (r1)
+move b2 from Field to B3
+move y2 from B3 to R1
+convert b2 to g2 at B3
+build r2 at G3
+move r1 from Field to B3
+build r3 at Wil
+build r3 at B3
+build b2 at G3
+convert y2 to g2 at Dlwillson
+build y2 at G3
+build g1 at B3
+move b1 from G3 to R1
+sacrifice y3 at Dlwillson; move g2 from B3 to Wil; move g1 from B3 to Wil; move r3 from B3 to Wil; catastrophe green at Wil
+sacrifice y2 at R1; move r2 from G3 to Wil; move y3 from G3 to Wil; catastrophe red at Wil
+move y1 from Field to B3
+build y2 at G3
+sacrifice y3 at Sky; move y1 from B3 to Wil; move y1 from Field to B3; move y1 from B3 to Wil; catastrophe yellow at Wil

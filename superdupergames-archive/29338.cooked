@@ -1,0 +1,27 @@
+Felix (0, b3y2) g3-
+Ugoggino (1, y3b2) -g3
+build g1 at Felix
+build g1 at Ugoggino
+convert g1 to b1 at Felix
+convert g1 to y1 at Ugoggino
+build b1 at Felix
+build y1 at Ugoggino
+move b1 from Felix to Rim (g1)
+move y1 from Ugoggino to Vega (g1)
+build b1 at Rim
+build g1 at Ugoggino
+build b2 at Felix
+build g2 at Ugoggino
+move b2 from Felix to Spark (y1)
+convert g2 to b2 at Ugoggino
+build g2 at Felix
+move b2 from Ugoggino to Vega
+sacrifice g3 at Felix; build b3 at Spark; build b3 at Rim; build g2 at Felix
+sacrifice g3 at Ugoggino; build y2 at Vega; build y2 at Vega; build y3 at Ugoggino
+convert b3 to y3 at Rim
+sacrifice y3 at Ugoggino; move y1 from Vega to Felix; move y2 from Vega to Felix; move y2 from Vega to Felix; catastrophe yellow at Felix
+convert b3 to r3 at Spark
+build b3 at Vega
+move b2 from Spark to Ugoggino
+sacrifice y1 at Ugoggino; move b3 from Vega to Felix
+sacrifice r3 at Spark; capture g1 at Ugoggino

@@ -1,0 +1,32 @@
+Salmonax (0, g1r3) b3-
+Nycavri (1, y1b2) -g3
+build b1 at Salmonax
+build g1 at Nycavri
+convert b1 to g1 at Salmonax
+build g2 at Nycavri
+build g2 at Salmonax
+convert g2 to y2 at Nycavri
+convert g2 to y2 at Salmonax
+build y1 at Nycavri
+build g2 at Salmonax
+convert y1 to b1 at Nycavri
+move g1 from Salmonax to Oats (b2)
+convert g1 to r1 at Nycavri
+build y1 at Salmonax
+build b1 at Nycavri
+build g1 at Oats
+build g2 at Nycavri
+build g2 at Oats
+sacrifice y2 at Nycavri; move g2 from Nycavri to Deacon (y3); move g2 from Deacon to May (y2)
+convert g1 to r1 at Oats
+convert b1 to g1 at Nycavri
+build g3 at Oats
+sacrifice g3 at Nycavri; build g3 at Nycavri; build g3 at May; build b1 at Nycavri
+move y1 from Salmonax to Oats
+sacrifice b1 at Nycavri; convert g2 to y2 at May
+move g2 from Oats to Pebble (y3)
+move g1 from Nycavri to Mercury (y3)
+sacrifice g2 at Salmonax; build y1 at Salmonax; build y3 at Oats
+build g2 at May
+convert g3 to r3 at Oats
+move g2 from May to Salmonax

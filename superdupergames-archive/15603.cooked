@@ -1,0 +1,24 @@
+Shmil1 (0, b2y1) g3-
+Zackstack (1, y1g3) -b3
+build g1 at Shmil1
+build b1 at Zackstack
+build g1 at Shmil1
+move b1 from Zackstack to Bluemoon (b2)
+move g1 from Shmil1 to Modry (b3)
+convert b1 to g1 at Bluemoon
+build g2 at Modry
+build b1 at Zackstack
+convert g2 to y2 at Modry
+build g2 at Bluemoon
+build g2 at Modry
+convert g2 to y2 at Bluemoon
+move g2 from Modry to Bluemoon
+convert b1 to r1 at Zackstack
+convert g2 to r2 at Bluemoon
+sacrifice r1 at Zackstack; capture r2 at Bluemoon
+sacrifice y2 at Modry; move g1 from Modry to Bluemoon; move g1 from Bluemoon to Zackstack
+build b1 at Zackstack
+sacrifice g3 at Shmil1; build g2 at Zackstack; build g2 at Zackstack; build g2 at Zackstack; catastrophe green at Zackstack
+sacrifice y2 at Bluemoon; move g1 from Bluemoon to Passingthrough (y3); move g1 from Passingthrough to Shmil1
+convert g1 to r1 at Shmil1
+sacrifice r2 at Bluemoon; capture r1 at Shmil1

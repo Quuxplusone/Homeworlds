@@ -1,0 +1,12 @@
+Godofpie (0, y3b1) g3-
+Aqurk (1, g1y3) -b3
+build g1 at Godofpie
+build b1 at Aqurk
+convert g1 to r1 at Godofpie
+convert b1 to g1 at Aqurk
+move g3 from Godofpie to Nap (r2)
+build b1 at Aqurk
+convert r1 to g1 at Godofpie
+convert b3 to r3 at Aqurk
+build g2 at Godofpie
+move r3 from Aqurk to Caprica (y2)

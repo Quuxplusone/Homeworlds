@@ -1,0 +1,37 @@
+Broccoli_Commander (0, r1b2) g3-
+Twoshort (1, b1r3) -g3
+build g1 at Broccoli_Commander
+build g1 at Twoshort
+convert g1 to b1 at Broccoli_Commander
+convert g1 to y1 at Twoshort
+build g1 at Broccoli_Commander
+build g1 at Twoshort
+convert g1 to y1 at Broccoli_Commander
+build g1 at Twoshort
+build b1 at Broccoli_Commander
+move g1 from Twoshort to Yolonda (y2)
+move b1 from Broccoli_Commander to Cauliflower (y3)
+build g1 at Twoshort
+sacrifice g3 at Broccoli_Commander; build b2 at Cauliflower; build b2 at Cauliflower; build b3 at Broccoli_Commander
+move g1 from Twoshort to Grogar (g2)
+sacrifice b2 at Cauliflower; convert b2 to r2 at Cauliflower; convert b3 to g3 at Broccoli_Commander
+build g2 at Twoshort
+move b1 from Broccoli_Commander to Lettuce (g3)
+convert g2 to r2 at Twoshort
+build g2 at Broccoli_Commander
+move g1 from Yolonda to Yoyodyne (y3)
+build b2 at Lettuce
+sacrifice y1 at Twoshort; move g1 from Grogar to Lettuce
+move r2 from Cauliflower to Pea (g2)
+convert r2 to y2 at Twoshort
+move g2 from Broccoli_Commander to Cauliflower
+sacrifice g3 at Twoshort; build g2 at Lettuce; build y1 at Twoshort; build g3 at Twoshort
+build b2 at Cauliflower
+sacrifice g1 at Twoshort; build g1 at Lettuce; catastrophe green at Lettuce
+build b1 at Cauliflower
+build g1 at Twoshort
+build r1 at Pea
+build g1 at Yoyodyne
+convert b2 to y2 at Cauliflower
+move y1 from Twoshort to Borbor (b2)
+move g2 from Cauliflower to Borbor

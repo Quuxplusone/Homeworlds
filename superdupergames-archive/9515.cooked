@@ -1,0 +1,37 @@
+Zoltar (0, b3r1) g3-
+Scottobear (1, r2b3) -g3
+build g1 at Zoltar
+build g1 at Scottobear
+convert g1 to y1 at Zoltar
+convert g3 to y3 at Scottobear
+build g1 at Zoltar
+build y1 at Scottobear
+move g1 from Zoltar to Blueberry (b2)
+build g1 at Scottobear
+build g2 at Blueberry
+move g1 from Scottobear to Thor (b1)
+convert g1 to r1 at Blueberry
+convert g1 to r1 at Thor
+build r2 at Blueberry
+build g1 at Scottobear
+convert r2 to y2 at Blueberry
+move g1 from Scottobear to Thor
+move y2 from Blueberry to Thor
+build r2 at Thor
+sacrifice r1 at Blueberry; capture r2 at Thor
+convert y3 to r3 at Scottobear
+sacrifice r2 at Thor; capture r1 at Thor; capture g1 at Thor
+move r3 from Scottobear to Thor
+sacrifice g2 at Blueberry; build r1 at Thor; build r2 at Thor; catastrophe red at Thor
+build y1 at Scottobear
+build y2 at Thor
+move y1 from Scottobear to Thor
+move y2 from Thor to Scottobear
+build y2 at Scottobear
+sacrifice g3 at Zoltar; build y3 at Zoltar; build y3 at Zoltar; build y3 at Scottobear; catastrophe yellow at Scottobear
+build g1 at Scottobear
+move y2 from Thor to Scottobear
+move y1 from Thor to Loki (g2)
+convert y3 to r3 at Zoltar
+build g2 at Scottobear
+sacrifice y3 at Zoltar; move y2 from Scottobear to Thor; move g1 from Thor to Scottobear; move y2 from Thor to Loki; catastrophe green at Scottobear

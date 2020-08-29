@@ -1,0 +1,21 @@
+Jesse (0, b2y1) g3-
+Subhan64 (1, y2b2) -r2
+pass
+convert r2 to g2 at Subhan64
+build g1 at Jesse
+build g1 at Subhan64
+convert g1 to r1 at Jesse
+move g1 from Subhan64 to Abraxis (r1)
+build r1 at Jesse
+build g1 at Subhan64
+build r2 at Jesse
+convert g2 to r2 at Subhan64
+convert r1 to g1 at Jesse
+build g2 at Abraxis
+move g3 from Jesse to Danger (y3)
+build g2 at Subhan64
+build g2 at Danger
+move r2 from Subhan64 to Danger
+move g2 from Danger to Subhan64
+convert g1 to y1 at Subhan64
+sacrifice r2 at Jesse; capture g2 at Subhan64; capture y1 at Subhan64

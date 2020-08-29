@@ -1,0 +1,23 @@
+Trydnt (0, b2r1) g3-
+Agentofchaos (1, r2b3) -g3
+build g1 at Trydnt
+build g1 at Agentofchaos
+convert g1 to r1 at Trydnt
+convert g1 to r1 at Agentofchaos
+build r2 at Trydnt
+build r2 at Agentofchaos
+convert r1 to y1 at Trydnt
+convert r1 to y1 at Agentofchaos
+build r1 at Trydnt
+build g1 at Agentofchaos
+build g1 at Trydnt
+convert g1 to b1 at Agentofchaos
+convert g1 to b1 at Trydnt
+build g1 at Agentofchaos
+build g1 at Trydnt
+move y1 from Agentofchaos to Wowbolism (r1)
+move r2 from Trydnt to G3 (g3)
+build r3 at Agentofchaos
+sacrifice g3 at Trydnt; build r3 at Trydnt; build r3 at G3; build y1 at Trydnt
+sacrifice g1 at Agentofchaos; build y2 at Wowbolism
+move y1 from Trydnt to G3

@@ -1,0 +1,66 @@
+Ts52 (0, y1b2) g3-
+Dlwillson (1, r3b2) -g3
+build g1 at Ts52
+build g1 at Dlwillson
+convert g1 to y1 at Ts52
+convert g1 to y1 at Dlwillson
+build y2 at Ts52
+build y2 at Dlwillson
+move y1 from Ts52 to Kermit (g3)
+move y1 from Dlwillson to Field (g1)
+build g1 at Ts52
+build g1 at Dlwillson
+convert g1 to b1 at Ts52
+convert g1 to b1 at Dlwillson
+build g1 at Ts52
+build g1 at Dlwillson
+build g2 at Ts52
+build y2 at Dlwillson
+build y3 at Kermit
+move y2 from Dlwillson to Sea (b1)
+move b1 from Ts52 to Kermit
+build y3 at Field
+move g1 from Ts52 to Gonzo (b3)
+sacrifice y2 at Dlwillson; move g1 from Dlwillson to Sea; move b1 from Dlwillson to Field
+convert g2 to r2 at Ts52
+convert y1 to r1 at Field
+build g2 at Ts52
+build y1 at Field
+move g2 from Ts52 to Bigbird (y3)
+move y1 from Field to Dlwillson
+move y2 from Ts52 to Gonzo
+build y2 at Sea
+sacrifice g2 at Bigbird; build g2 at Ts52; build y3 at Gonzo
+build g2 at Sea
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build r1 at Ts52
+move g2 from Sea to Sky (b3)
+move g2 from Ts52 to Grover (b3)
+convert y2 to r2 at Sea
+move y3 from Kermit to Sea
+sacrifice y2 at Sea; move r2 from Sea to Kermit; move g1 from Sea to Sky
+sacrifice y1 at Kermit; move b1 from Kermit to Bigbird (y1)
+convert g1 to r1 at Sky
+build g1 at Ts52
+sacrifice g2 at Sky; build r2 at Kermit; build r3 at Sky
+convert y3 to r3 at Gonzo
+move y3 from Field to Grover
+move r3 from Gonzo to Field
+sacrifice b1 at Field; convert r3 to y3 at Sky
+move r2 from Ts52 to Gonzo
+sacrifice r1 at Field; capture g2 at Grover
+sacrifice g2 at Gonzo; build r1 at Field; build r3 at Gonzo
+build g2 at Grover
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build b1 at Bigbird
+sacrifice y3 at Sky; move g2 from Grover to Ts52; move g2 from Grover to Ts52; move y3 from Grover to Ts52; catastrophe green at Ts52
+sacrifice y3 at Sea; move y2 from Gonzo to Ts52; move r2 from Gonzo to Ts52; move g2 from Gonzo to Ts52
+sacrifice r2 at Kermit; capture r2 at Ts52; capture g2 at Ts52
+sacrifice r3 at Gonzo; capture g2 at Ts52; capture r2 at Ts52
+sacrifice g3 at Dlwillson; build r2 at Kermit; build r3 at Sky; build y2 at Dlwillson
+build y2 at Ts52; catastrophe yellow at Ts52
+convert r3 to y3 at Sky
+convert r2 to y2 at Ts52
+move y3 from Sky to Ts52
+sacrifice y2 at Ts52; move r3 from Field to Dlwillson; move b1 from Bigbird to Ts52
+sacrifice r2 at Kermit; capture g2 at Ts52; capture r1 at Ts52
+capture y2 at Dlwillson
+capture b1 at Ts52

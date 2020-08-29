@@ -1,0 +1,12 @@
+Onepagewars (0, r2b1) g3-
+Wil (1, y3g2) -b3
+build g1 at Onepagewars
+build b1 at Wil
+build g1 at Onepagewars
+build b1 at Wil
+convert g1 to y1 at Onepagewars
+move b1 from Wil to G1 (g1)
+move g1 from Onepagewars to Shogiisfun (b3)
+build b2 at G1
+build y1 at Onepagewars
+build b2 at Wil

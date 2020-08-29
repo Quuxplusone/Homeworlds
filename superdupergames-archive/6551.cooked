@@ -1,0 +1,52 @@
+Nycavri (0, b1y2) g3-
+Zoltar (1, g3b1) -b3
+build g1 at Nycavri
+build b1 at Zoltar
+build g1 at Nycavri
+convert b3 to y3 at Zoltar
+convert g1 to y1 at Nycavri
+build b2 at Zoltar
+build y1 at Nycavri
+move b2 from Zoltar to Greendale (g2)
+build g1 at Nycavri
+build b2 at Greendale
+move y1 from Nycavri to Hl (b3)
+build b2 at Zoltar
+move g1 from Nycavri to Hl
+build b3 at Greendale
+build y1 at Hl
+convert b3 to y3 at Greendale
+move y1 from Nycavri to Tl (b3)
+build b3 at Greendale
+build g1 at Nycavri
+sacrifice b2 at Zoltar; convert b2 to r2 at Greendale; convert b3 to g3 at Greendale
+convert g1 to r1 at Nycavri
+sacrifice g3 at Greendale; build y2 at Zoltar; build y2 at Zoltar; build y3 at Greendale
+move y1 from Hl to Bh (b2)
+move y2 from Zoltar to Bh
+move y1 from Bh to Zoltar
+move y2 from Zoltar to Blueberry (b2)
+move y1 from Tl to Bh
+build b3 at Zoltar
+convert g3 to b3 at Nycavri
+convert b3 to r3 at Zoltar
+move y1 from Bh to Zoltar
+sacrifice r2 at Greendale; capture y1 at Zoltar; capture y1 at Zoltar
+move y1 from Hl to Bh
+move y3 from Zoltar to Blueberry
+sacrifice g1 at Hl; build r1 at Nycavri
+build b3 at Greendale
+build r1 at Nycavri
+convert b3 to g3 at Greendale
+move r1 from Nycavri to Sw (b3)
+sacrifice g3 at Greendale; build b3 at Greendale; build r2 at Zoltar; build r2 at Zoltar
+move y1 from Bh to Sw
+move y2 from Blueberry to Sw
+build g1 at Nycavri
+sacrifice r2 at Zoltar; capture y1 at Sw; capture r1 at Sw
+build r2 at Nycavri
+sacrifice y3 at Greendale; move r1 from Sw to Nycavri; move y3 from Blueberry to Sw; move y3 from Sw to Nycavri; catastrophe red at Nycavri
+build g1 at Nycavri
+sacrifice r3 at Zoltar; capture g1 at Nycavri; capture g1 at Nycavri; capture g1 at Nycavri
+pass
+sacrifice r2 at Zoltar; capture b3 at Nycavri

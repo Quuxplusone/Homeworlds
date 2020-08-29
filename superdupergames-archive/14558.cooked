@@ -1,0 +1,71 @@
+Face (0, r3b2) g3-
+Zackstack (1, b1r2) -g3
+build g1 at Face
+build g1 at Zackstack
+convert g3 to y3 at Face
+convert g1 to y1 at Zackstack
+build y1 at Face
+build g1 at Zackstack
+convert y1 to r1 at Face
+move g1 from Zackstack to Bigboy (b3)
+move r1 from Face to Blitz (y1)
+build g1 at Zackstack
+build g2 at Face
+build g2 at Bigboy
+move g2 from Face to Blitz
+convert g1 to y1 at Bigboy
+build y2 at Face
+build y2 at Bigboy
+convert y2 to b2 at Face
+convert y1 to r1 at Bigboy
+move b2 from Face to Blitz
+move y2 from Bigboy to Pea (g1)
+build b1 at Blitz
+build r1 at Bigboy
+move b1 from Blitz to Smash (y3)
+convert r1 to b1 at Bigboy
+build y1 at Face
+sacrifice g3 at Zackstack; build g2 at Bigboy; build g3 at Zackstack; build y2 at Pea
+move y1 from Face to Plaster (r1)
+convert g2 to y2 at Bigboy
+build y3 at Face
+sacrifice y2 at Bigboy; move y2 from Pea to Face; move y2 from Pea to Face; catastrophe yellow at Face
+sacrifice g2 at Blitz; build b2 at Smash; build b3 at Blitz
+build y2 at Zackstack
+move b3 from Blitz to Face
+build r2 at Bigboy
+convert b3 to y3 at Face
+sacrifice y2 at Zackstack; move r2 from Bigboy to Blitz; move g2 from Bigboy to Blitz
+capture r2 at Blitz
+move g2 from Blitz to Bigboy
+build g1 at Face
+build r2 at Bigboy
+move g1 from Face to Blitz
+convert r2 to y2 at Bigboy
+build b3 at Blitz
+build y2 at Zackstack
+convert b3 to g3 at Blitz
+move y2 from Bigboy to Plaster
+move y1 from Plaster to Tank (g3)
+sacrifice y2 at Zackstack; move b1 from Bigboy to Plaster; move g2 from Bigboy to Plaster
+build y2 at Tank
+build b3 at Plaster
+build b3 at Blitz
+move y1 from Zackstack to Tank
+move y2 from Tank to Waste (g2)
+sacrifice g3 at Zackstack; build g2 at Plaster; build y2 at Plaster; build g3 at Zackstack
+build y3 at Waste
+sacrifice r1 at Bigboy; capture y1 at Tank
+move y2 from Waste to Buzz (b3)
+convert b1 to r1 at Plaster
+move g1 from Blitz to Buzz
+move y1 from Tank to Zackstack
+move r2 from Blitz to Tank
+move y1 from Tank to Speck (b1)
+sacrifice g3 at Blitz; build g3 at Buzz; build r2 at Tank; build r3 at Blitz
+sacrifice y2 at Plaster; move g2 from Plaster to Buzz; move g1 from Zackstack to Buzz; catastrophe green at Buzz
+move b1 from Smash to Zackstack
+build y2 at Plaster
+sacrifice y3 at Waste; move b2 from Blitz to Smash; move b2 from Smash to Zackstack; move b2 from Smash to Zackstack; catastrophe blue at Zackstack
+move b3 from Plaster to Tank
+sacrifice y3 at Face; move r2 from Tank to Zackstack; move r2 from Tank to Zackstack; move r1 from Blitz to Zackstack; catastrophe red at Zackstack

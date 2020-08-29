@@ -1,0 +1,53 @@
+Twoshort (0, r1b2) g3-
+Zoltar (1, y3b2) -g3
+build g1 at Twoshort
+build g1 at Zoltar
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Zoltar
+build g1 at Twoshort
+build g1 at Zoltar
+move g1 from Twoshort to Yolonda (y3)
+move g1 from Zoltar to Boar (b1)
+build y1 at Twoshort
+build y2 at Zoltar
+move y1 from Twoshort to Grogar (g3)
+move y2 from Zoltar to Boar
+sacrifice g3 at Twoshort; build y2 at Grogar; build y2 at Twoshort; build y3 at Twoshort
+convert y1 to r1 at Zoltar
+convert y2 to r2 at Twoshort
+build g1 at Zoltar
+convert y3 to g3 at Twoshort
+build g2 at Boar
+build g2 at Twoshort
+convert g2 to r2 at Boar
+build g2 at Yolonda
+sacrifice g3 at Zoltar; build g2 at Boar; build g3 at Zoltar; build r1 at Boar
+move g1 from Yolonda to Different (y1)
+move g2 from Boar to Yippiekiyay (y3)
+sacrifice g2 at Yolonda; build g2 at Different; build y2 at Twoshort
+sacrifice g3 at Zoltar; build g3 at Boar; build r2 at Boar; build r3 at Zoltar
+build y3 at Twoshort
+move r2 from Boar to Yippiekiyay
+move y3 from Twoshort to Yippiekiyay
+move r2 from Yippiekiyay to Twoshort
+sacrifice r2 at Twoshort; capture r2 at Twoshort; capture g2 at Yippiekiyay
+sacrifice g3 at Boar; build g3 at Boar; build r2 at Boar; build r3 at Zoltar
+move r2 from Twoshort to Grogar
+move r3 from Zoltar to Different
+sacrifice g2 at Different; build g2 at Yippiekiyay; build r3 at Grogar
+capture g1 at Different
+move r2 from Grogar to Boar; catastrophe red at Boar
+sacrifice g3 at Boar; build g3 at Different; build r1 at Different; build r2 at Different
+build r2 at Grogar
+move r1 from Different to Grogar
+move r3 from Grogar to Boar
+sacrifice y2 at Boar; move r1 from Zoltar to Different; move r2 from Different to Grogar
+sacrifice r2 at Grogar; capture r2 at Grogar; capture r1 at Grogar
+move g3 from Different to Grogar
+sacrifice y2 at Grogar; move r2 from Grogar to Different; move r1 from Grogar to Different; catastrophe red at Different
+sacrifice g1 at Boar; build g1 at Different
+sacrifice y2 at Twoshort; move y3 from Yippiekiyay to Boar; move g2 from Yippiekiyay to Boar
+move g1 from Different to Same (b3)
+sacrifice g3 at Twoshort; build g3 at Boar; build y2 at Twoshort; build y2 at Boar
+convert g1 to b1 at Zoltar
+sacrifice y2 at Boar; move g3 from Boar to Zoltar; move y3 from Boar to Zoltar

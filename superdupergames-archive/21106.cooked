@@ -1,0 +1,29 @@
+Agentofchaos (0, b1r2) g3-
+Disaac (1, y3g2) -b3
+build g1 at Agentofchaos
+build b1 at Disaac
+convert g1 to b1 at Agentofchaos
+build b2 at Disaac
+build b2 at Agentofchaos
+move b2 from Disaac to Sol (y1)
+convert b2 to y2 at Agentofchaos
+move b2 from Sol to Risa (g3)
+build b2 at Agentofchaos
+move b1 from Disaac to Endor (g1)
+convert b2 to r2 at Agentofchaos
+build b2 at Endor
+move y2 from Agentofchaos to Risa
+convert b2 to r2 at Endor
+move y2 from Risa to Zurvanoid (g1)
+build b2 at Endor
+build g1 at Agentofchaos
+convert b2 to y2 at Endor
+build g2 at Agentofchaos
+move b1 from Endor to Pandora (g3)
+convert b1 to y1 at Agentofchaos
+build b1 at Risa
+move r2 from Agentofchaos to Pandora
+sacrifice b1 at Pandora; convert b2 to g2 at Risa
+move g2 from Agentofchaos to Risa
+sacrifice g2 at Risa; build b1 at Disaac; build r1 at Endor
+sacrifice g3 at Agentofchaos; build g2 at Agentofchaos; build g3 at Agentofchaos; build r1 at Pandora

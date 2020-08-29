@@ -1,0 +1,84 @@
+Zackstack (0, r1b2) g3-
+Ts52 (1, y2b3) -g3
+build g1 at Zackstack
+build g1 at Ts52
+convert g1 to y1 at Zackstack
+move g1 from Ts52 to Gonzo (b1)
+build g1 at Zackstack
+build g1 at Gonzo
+move g1 from Zackstack to Grover (b3)
+build g2 at Ts52
+build y1 at Zackstack
+convert g2 to y2 at Ts52
+build g2 at Grover
+build g2 at Ts52
+convert g1 to r1 at Grover
+convert g2 to r2 at Ts52
+build g1 at Zackstack
+build g2 at Ts52
+move y1 from Zackstack to Grover
+move y2 from Ts52 to Gonzo
+sacrifice g3 at Zackstack; build g2 at Zackstack; build g3 at Grover; build g3 at Zackstack
+sacrifice y2 at Gonzo; move g1 from Gonzo to Grover; move g1 from Grover to Zackstack; catastrophe green at Zackstack
+move g2 from Grover to Gonzo
+convert g3 to y3 at Ts52
+move g3 from Grover to Zackstack
+build g1 at Ts52
+convert g2 to r2 at Gonzo
+move g2 from Ts52 to Blueberry (b1)
+capture g1 at Gonzo
+build y1 at Ts52
+move y1 from Grover to Gonzo
+convert y3 to g3 at Ts52
+build y2 at Zackstack
+move y1 from Ts52 to Blueberry
+build g1 at Zackstack
+move r2 from Ts52 to Blueberry
+move y2 from Zackstack to Grover
+move g2 from Blueberry to Bigbird (y3)
+sacrifice g3 at Zackstack; build y2 at Grover; build y3 at Zackstack; build y3 at Gonzo
+move g1 from Ts52 to Blueberry
+move y2 from Grover to Elmo (r1)
+sacrifice g2 at Bigbird; build y3 at Blueberry; build g2 at Ts52
+move y2 from Grover to Herry (b1)
+build g2 at Blueberry
+build g2 at Zackstack
+move g2 from Blueberry to Grape (b3)
+build g3 at Gonzo
+sacrifice g2 at Ts52; build g2 at Grape; build g3 at Blueberry
+sacrifice y3 at Gonzo; move g1 from Gonzo to Ts52; move g3 from Gonzo to Ts52; move r2 from Gonzo to Ts52
+sacrifice r2 at Blueberry; capture g3 at Ts52; capture r2 at Ts52
+sacrifice g2 at Zackstack; build g2 at Ts52; build y3 at Elmo; catastrophe green at Ts52
+move g3 from Blueberry to Ts52
+convert y2 to g2 at Herry
+move y1 from Blueberry to Grape
+build g1 at Herry
+build g3 at Blueberry
+build g3 at Zackstack
+sacrifice g3 at Blueberry; build g3 at Blueberry; build y2 at Blueberry; build r2 at Ts52
+convert g2 to r2 at Herry
+move r2 from Ts52 to Gonzo
+sacrifice g3 at Zackstack; build g2 at Herry; build g3 at Zackstack; build r3 at Herry
+capture y1 at Gonzo
+sacrifice y3 at Elmo; move g1 from Herry to Ts52; move r3 from Herry to Ts52; move g2 from Herry to Ts52
+sacrifice r2 at Ts52; capture r3 at Ts52; capture g2 at Ts52
+sacrifice g1 at Zackstack; build g1 at Ts52; catastrophe green at Ts52
+move g3 from Blueberry to Ts52
+move y1 from Zackstack to Grover
+sacrifice g2 at Grape; build r2 at Ts52; build r3 at Gonzo
+convert r1 to g1 at Grover
+move r3 from Ts52 to Herry
+sacrifice y1 at Grover; move r2 from Herry to Grover
+move r3 from Gonzo to Grover
+sacrifice g1 at Grover; build y1 at Elmo
+capture r2 at Grover
+move y1 from Elmo to Kermit (g3)
+build y3 at Grape
+move y1 from Kermit to Beetle (b2)
+move y1 from Grape to Herry
+convert y1 to g1 at Beetle
+sacrifice g2 at Grape; build r1 at Herry; build r3 at Grover
+move y2 from Elmo to Beetle
+sacrifice y2 at Blueberry; move r3 from Grover to Zackstack; move r3 from Grover to Zackstack
+capture r3 at Zackstack
+sacrifice r3 at Herry; capture r3 at Zackstack; capture g3 at Zackstack; capture y3 at Zackstack

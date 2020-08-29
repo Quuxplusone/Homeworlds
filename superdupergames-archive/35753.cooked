@@ -1,0 +1,38 @@
+Dther (0, b1y2) g3-
+Trydnt (1, r3g2) -b3
+build g1 at Dther
+build b1 at Trydnt
+build g1 at Dther
+build b1 at Trydnt
+move g1 from Dther to Hydrangea (b3)
+convert b3 to y3 at Trydnt
+build g1 at Hydrangea
+build b2 at Trydnt
+sacrifice g3 at Dther; build g2 at Hydrangea; build g2 at Dther; build g3 at Dther
+move b1 from Trydnt to Y1 (y1)
+convert g2 to b2 at Dther
+move b2 from Trydnt to Why1 (y1)
+move b2 from Dther to Sunflower (y3)
+convert y3 to g3 at Trydnt
+convert g1 to y1 at Hydrangea
+sacrifice g3 at Trydnt; build b2 at Y1; build b3 at Why1; build b3 at Trydnt
+move g1 from Hydrangea to Dandelion (y2)
+convert b2 to r2 at Why1
+convert g1 to r1 at Dther
+convert b3 to y3 at Trydnt
+sacrifice g2 at Hydrangea; build y2 at Hydrangea; build y3 at Hydrangea
+move b2 from Y1 to G3 (g3)
+move y3 from Hydrangea to Rose (r2)
+convert b3 to g3 at Why1
+build g1 at Dandelion
+build r1 at Why1
+convert y2 to g2 at Hydrangea
+build y2 at Trydnt
+sacrifice g2 at Hydrangea; build g1 at Dther; build g2 at Dther
+build g2 at Why1
+sacrifice y3 at Rose; move g1 from Dandelion to Why1; move g1 from Dandelion to Why1; move g2 from Dther to Marigold (y3); catastrophe green at Why1
+convert b1 to g1 at Y1
+sacrifice g2 at Marigold; build y2 at Hydrangea; build y3 at Hydrangea
+move y2 from Trydnt to G1 (g1)
+convert y2 to g2 at Hydrangea
+build b1 at G3

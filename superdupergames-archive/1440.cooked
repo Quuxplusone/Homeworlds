@@ -1,0 +1,57 @@
+Matrixfrog (0, y2b1) g3-
+Personman (1, y3g2) -b3
+build g1 at Matrixfrog
+build b1 at Personman
+build g1 at Matrixfrog
+convert b1 to g1 at Personman
+move g1 from Matrixfrog to Alpha (y3)
+build g2 at Personman
+move g1 from Alpha to Beta (y1)
+move g1 from Personman to Beta
+move g1 from Beta to Personman
+convert g2 to r2 at Personman
+build g2 at Personman
+sacrifice r2 at Personman; capture g1 at Personman; capture g2 at Personman
+convert g1 to y1 at Matrixfrog
+convert g2 to y2 at Personman
+build y1 at Matrixfrog
+build y2 at Personman
+move y1 from Matrixfrog to Epsilon (y3)
+convert y2 to r2 at Personman
+move y1 from Epsilon to Gamma (g1)
+build g2 at Beta
+build y2 at Gamma
+sacrifice y2 at Personman; move g2 from Beta to Temp (r3); move g2 from Temp to Matrixfrog
+build y2 at Matrixfrog
+move r2 from Personman to Gamma
+convert y1 to r1 at Matrixfrog
+capture y2 at Gamma
+build r1 at Matrixfrog
+sacrifice y2 at Gamma; move r2 from Gamma to Temp (r3); move r2 from Temp to Matrixfrog
+capture r2 at Matrixfrog
+build b1 at Personman
+capture g2 at Matrixfrog
+build g2 at Beta
+move r2 from Matrixfrog to Theta (y3)
+build b1 at Personman
+move r2 from Theta to Beta
+build g3 at Beta
+build g3 at Matrixfrog
+convert b1 to r1 at Personman
+sacrifice g3 at Matrixfrog; build y1 at Gamma; build y2 at Gamma; build r2 at Beta
+build r2 at Personman
+capture g2 at Beta
+move r1 from Personman to Gamma
+sacrifice y2 at Matrixfrog; move y1 from Gamma to Personman; move y1 from Gamma to Personman
+sacrifice g3 at Beta; build r3 at Gamma; build r3 at Gamma; build r3 at Personman
+move y2 from Gamma to Personman; catastrophe yellow at Personman
+convert r2 to y2 at Personman
+capture g1 at Beta
+move g1 from Personman to Gamma
+build g3 at Beta
+sacrifice y2 at Personman; move r3 from Gamma to Temp (g3); move r3 from Temp to Matrixfrog
+capture r3 at Matrixfrog
+build r2 at Personman
+convert r3 to y3 at Matrixfrog
+build r3 at Gamma
+sacrifice y3 at Matrixfrog; move g1 from Beta to Personman; move g3 from Beta to Personman; move g2 from Beta to Personman; catastrophe green at Personman

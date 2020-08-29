@@ -1,0 +1,41 @@
+Trydnt (0, b2y1) g3-
+Dougforte (1, g3b1) -g3
+build g1 at Trydnt
+build g1 at Dougforte
+build g1 at Trydnt
+convert g1 to y1 at Dougforte
+convert g1 to y1 at Trydnt
+build y2 at Dougforte
+build y2 at Trydnt
+move y1 from Dougforte to Tasman (g2)
+convert y1 to b1 at Trydnt
+build g1 at Dougforte
+move g1 from Trydnt to B3 (b3)
+move g1 from Dougforte to Tasman
+build g1 at B3
+move g1 from Tasman to B3
+convert g1 to r1 at B3
+build y1 at Tasman
+move y2 from Trydnt to B3
+move y1 from Tasman to Coral (y3)
+move b1 from Trydnt to Y3 (y3)
+build g1 at B3
+convert g1 to r1 at B3
+sacrifice g3 at Dougforte; build y2 at Dougforte; build y3 at Tasman; build g1 at B3
+move r1 from B3 to Trydnt
+convert y2 to b2 at Dougforte
+build r1 at Trydnt
+convert b2 to r2 at Dougforte
+build r2 at Trydnt
+build y2 at Dougforte
+move r1 from Trydnt to Coral
+convert y2 to g2 at Dougforte
+capture y1 at Coral
+build y2 at Dougforte
+move r1 from Trydnt to G3 (g3)
+move r2 from Dougforte to Tasman
+sacrifice g3 at Trydnt; build r2 at Coral; build r3 at B3; build r3 at Trydnt
+build r3 at Tasman
+sacrifice y2 at B3; move r3 from B3 to Tasman; move r3 from Tasman to Dougforte
+move y1 from Tasman to Y3
+sacrifice r3 at Trydnt; capture y2 at Dougforte; capture y2 at Dougforte; capture g2 at Dougforte

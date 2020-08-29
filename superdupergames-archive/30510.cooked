@@ -1,0 +1,21 @@
+Ladybugsfly (0, b3y2) g3-
+Lordrefa (1, b2g1) -y3
+build g1 at Ladybugsfly
+build y1 at Lordrefa
+build g1 at Ladybugsfly
+move y1 from Lordrefa to Poop (b3)
+move g1 from Ladybugsfly to Unicorn (y1)
+build y1 at Lordrefa
+build g2 at Unicorn
+build y2 at Lordrefa
+move g2 from Unicorn to Centaur (b3)
+move y1 from Poop to Devilhorns (y2)
+sacrifice g3 at Ladybugsfly; build g2 at Unicorn; build g2 at Centaur; build g3 at Ladybugsfly
+move y1 from Devilhorns to Newname (g3)
+convert g2 to y2 at Centaur
+move y3 from Lordrefa to Centaur
+build y3 at Centaur
+convert y3 to r3 at Centaur
+move y3 from Centaur to Lordrefa
+capture y2 at Centaur
+build y3 at Lordrefa; catastrophe yellow at Lordrefa

@@ -1,0 +1,54 @@
+Sirruthvenmurgatroyd (0, b3y2) g3-
+Thejackdiaz (1, r1b2) -g3
+build g1 at Sirruthvenmurgatroyd
+build g1 at Thejackdiaz
+move g1 from Sirruthvenmurgatroyd to Sol (y1)
+convert g1 to y1 at Thejackdiaz
+build g1 at Sirruthvenmurgatroyd
+build y1 at Thejackdiaz
+build g1 at Sol
+build g2 at Thejackdiaz
+move g1 from Sol to Calufrax (y3)
+move g2 from Thejackdiaz to Epicurus (g3)
+sacrifice g3 at Sirruthvenmurgatroyd; build g2 at Sol; build g2 at Calufrax; build g3 at Sirruthvenmurgatroyd
+move y1 from Thejackdiaz to Clarence (b3)
+convert g1 to r1 at Sirruthvenmurgatroyd
+sacrifice g2 at Epicurus; build y2 at Clarence; build y2 at Thejackdiaz
+move g2 from Sol to Clarence
+build y3 at Thejackdiaz
+sacrifice r1 at Sirruthvenmurgatroyd; capture y2 at Clarence
+convert y3 to r3 at Thejackdiaz
+build g1 at Sirruthvenmurgatroyd
+convert y2 to r2 at Thejackdiaz
+sacrifice g3 at Sirruthvenmurgatroyd; build g2 at Sol; build g3 at Sirruthvenmurgatroyd; build g3 at Clarence
+move r2 from Thejackdiaz to Clarence
+sacrifice y2 at Clarence; move g2 from Clarence to Thejackdiaz; move g3 from Clarence to Thejackdiaz
+capture g3 at Thejackdiaz
+capture y1 at Thejackdiaz
+convert g3 to y3 at Thejackdiaz
+move g1 from Calufrax to Thejackdiaz
+move g3 from Thejackdiaz to Clarence
+sacrifice g2 at Sol; build y2 at Thejackdiaz; build y2 at Thejackdiaz; catastrophe yellow at Thejackdiaz
+capture g2 at Thejackdiaz
+build g2 at Thejackdiaz
+convert r3 to y3 at Thejackdiaz
+convert g2 to y2 at Thejackdiaz
+capture y2 at Thejackdiaz
+sacrifice g3 at Sirruthvenmurgatroyd; build g2 at Sol; build g3 at Calufrax; build g3 at Sirruthvenmurgatroyd
+build y1 at Clarence
+convert g3 to r3 at Sirruthvenmurgatroyd
+build g3 at Clarence
+convert g1 to r1 at Thejackdiaz
+capture r1 at Thejackdiaz
+build g1 at Sirruthvenmurgatroyd
+move g3 from Clarence to Molly (b1)
+convert g1 to b1 at Sirruthvenmurgatroyd
+sacrifice g2 at Thejackdiaz; build y2 at Thejackdiaz; build y3 at Clarence
+build r1 at Sirruthvenmurgatroyd
+convert g3 to r3 at Molly
+sacrifice b1 at Sirruthvenmurgatroyd; convert g3 to r3 at Calufrax
+sacrifice y3 at Clarence; move r2 from Clarence to Molly; move r2 from Molly to Sirruthvenmurgatroyd; move r3 from Molly to Sirruthvenmurgatroyd; catastrophe red at Sirruthvenmurgatroyd
+build r1 at Calufrax
+sacrifice y2 at Thejackdiaz; move g3 from Clarence to Sol; move g3 from Sol to Sirruthvenmurgatroyd
+move r3 from Calufrax to Thejackdiaz
+sacrifice r1 at Thejackdiaz; capture g1 at Sirruthvenmurgatroyd

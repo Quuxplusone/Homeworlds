@@ -1,0 +1,14 @@
+Subhan64 (0, y1b2) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Subhan64
+build g1 at Dlwillson
+move g1 from Subhan64 to Bigbird (y3)
+convert g1 to y1 at Dlwillson
+build g1 at Subhan64
+build y1 at Dlwillson
+convert g3 to y3 at Subhan64
+build y2 at Dlwillson
+build y2 at Subhan64
+move y1 from Dlwillson to Sky (b2)
+move g1 from Subhan64 to Omicronpersei8 (y3)
+sacrifice y2 at Dlwillson; move y1 from Sky to Bigbird; move y1 from Bigbird to Subhan64; catastrophe yellow at Subhan64

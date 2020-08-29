@@ -1,0 +1,50 @@
+Magicjohn (0, g1b2) r3-
+Rootbier (1, b3y1) -g3
+build r1 at Magicjohn
+build g1 at Rootbier
+convert r1 to y1 at Magicjohn
+convert g1 to y1 at Rootbier
+build y2 at Magicjohn
+build y2 at Rootbier
+move y1 from Magicjohn to Patches (r3)
+move y1 from Rootbier to Pickle (g2)
+build r1 at Magicjohn
+move y2 from Rootbier to Aubergine (b2)
+move r1 from Magicjohn to Patches
+build g1 at Rootbier
+build y2 at Magicjohn
+build y3 at Pickle
+build y3 at Magicjohn
+sacrifice y2 at Aubergine; move y1 from Pickle to Patches; move y1 from Patches to Magicjohn; catastrophe yellow at Magicjohn
+build r1 at Magicjohn
+convert g1 to r1 at Rootbier
+convert r1 to y1 at Magicjohn
+move y3 from Pickle to Patches
+build y2 at Magicjohn
+capture y1 at Patches
+convert y1 to g1 at Magicjohn
+move y1 from Patches to Pickle (g2)
+build y1 at Magicjohn
+build g1 at Rootbier
+move y1 from Magicjohn to Terra (b3)
+build g2 at Rootbier
+build y2 at Magicjohn
+move g2 from Rootbier to Olive (b2)
+move y2 from Magicjohn to Terra
+sacrifice g3 at Rootbier; build g2 at Rootbier; build g3 at Rootbier; build g3 at Olive
+build g3 at Magicjohn
+sacrifice y3 at Patches; move g2 from Olive to Patches; move g2 from Patches to Magicjohn; move g3 from Olive to Bakeware (b3); catastrophe green at Magicjohn
+convert y2 to g2 at Magicjohn
+convert g2 to y2 at Rootbier
+move y1 from Terra to Pickle
+move y2 from Rootbier to Porcelain (b2)
+build g1 at Magicjohn
+convert g1 to b1 at Rootbier
+move y2 from Terra to Magicjohn
+move y1 from Pickle to Bakeware
+build y2 at Magicjohn
+sacrifice g3 at Bakeware; build y3 at Bakeware; build y3 at Porcelain; build b1 at Rootbier
+sacrifice y2 at Magicjohn; move y2 from Magicjohn to Rootbier; move y1 from Pickle to Rootbier
+sacrifice y2 at Porcelain; move b1 from Rootbier to Magicjohn; move b1 from Rootbier to Magicjohn
+sacrifice g1 at Magicjohn; build y2 at Rootbier; catastrophe yellow at Rootbier
+sacrifice g3 at Rootbier; build b1 at Magicjohn; build b2 at Magicjohn; build b3 at Magicjohn; catastrophe blue at Magicjohn

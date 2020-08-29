@@ -1,0 +1,52 @@
+Wil (0, b2y1) g3-
+Felix (1, b3r3) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to r1 at Wil
+convert g1 to y1 at Felix
+build r1 at Wil
+build y1 at Felix
+build r1 at Wil
+build y2 at Felix
+move r1 from Wil to G3 (g3)
+move y1 from Felix to Surplus (b1)
+build r2 at Wil
+sacrifice g3 at Felix; build y2 at Surplus; build y2 at Surplus; build y3 at Felix
+move r2 from Wil to Y3 (y3)
+convert y3 to g3 at Felix
+build r2 at Wil
+build y3 at Felix
+move r2 from Wil to B3 (b3)
+convert y3 to r3 at Felix
+move r1 from Wil to Felix
+move r3 from Felix to Surplus
+build r2 at G3
+move y1 from Felix to Opix (g2)
+build r3 at Wil
+build y3 at Felix
+convert r3 to y3 at Wil
+sacrifice y1 at Surplus; move y3 from Felix to Wil
+capture y3 at Wil
+move y2 from Felix to Wil; catastrophe yellow at Wil
+build r3 at Wil
+convert y2 to g2 at Surplus
+convert r2 to y2 at B3
+build r2 at Surplus
+sacrifice y2 at B3; move r1 from G3 to Surplus; move r1 from Wil to Surplus; catastrophe red at Surplus
+capture r1 at Felix
+build g1 at Wil
+build g1 at Felix
+convert g1 to y1 at Wil
+convert g1 to b1 at Felix
+move r3 from Wil to Surplus
+move y2 from Surplus to Felix
+capture g2 at Surplus
+build b1 at Felix
+build g1 at Wil
+move b1 from Felix to Ribald (g1)
+move r2 from Y3 to Ribald
+build b2 at Felix
+convert g2 to y2 at Surplus
+sacrifice y1 at Opix; move b1 from Ribald to Wil
+sacrifice y2 at Surplus; move g3 from Wil to Felix; move r3 from Surplus to Felix
+sacrifice y2 at Felix; move b1 from Felix to Wil; move b2 from Felix to Wil; catastrophe blue at Wil

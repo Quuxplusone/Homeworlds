@@ -1,0 +1,77 @@
+Aristos (0, b3g2) y3-
+Magicjohn (1, y3b2) -g3
+build y1 at Aristos
+build g1 at Magicjohn
+convert y1 to g1 at Aristos
+convert g1 to y1 at Magicjohn
+move g1 from Aristos to Spark (y1)
+convert y1 to r1 at Magicjohn
+move g1 from Spark to Shine (r2)
+build g1 at Magicjohn
+build y1 at Aristos
+convert g1 to y1 at Magicjohn
+convert y1 to r1 at Aristos
+build y1 at Magicjohn
+build r1 at Aristos
+build r2 at Magicjohn
+move r1 from Aristos to Flicker (y1)
+move r2 from Magicjohn to Flicker
+build y2 at Aristos
+convert y1 to b1 at Magicjohn
+move y3 from Aristos to Flicker
+move y1 from Magicjohn to Flicker
+capture y1 at Flicker
+sacrifice b1 at Magicjohn; convert r2 to y2 at Flicker; catastrophe yellow at Flicker
+build g1 at Shine
+build g1 at Magicjohn
+build g2 at Shine
+move g1 from Magicjohn to Depot (y1)
+sacrifice g1 at Shine; build y1 at Aristos
+build g1 at Depot
+move y2 from Aristos to Depot
+move g1 from Depot to Shine
+sacrifice r1 at Aristos; capture g1 at Depot
+build g2 at Shine; catastrophe green at Shine
+build g1 at Depot
+build r1 at Magicjohn
+build y1 at Depot
+move r1 from Magicjohn to Misanthropy (b1)
+build y2 at Aristos
+build r1 at Magicjohn
+move y1 from Depot to Outpost (y2)
+move r1 from Magicjohn to Depot
+build y3 at Aristos
+capture g1 at Depot
+convert y2 to r2 at Aristos
+build g1 at Depot
+sacrifice r2 at Aristos; capture r1 at Depot; capture g1 at Depot
+sacrifice r1 at Misanthropy; capture r1 at Depot
+sacrifice g1 at Depot; build y2 at Outpost
+capture g1 at Depot
+build y3 at Aristos
+move g1 from Depot to Aristos
+convert y3 to r3 at Aristos
+build g1 at Aristos
+sacrifice r3 at Aristos; capture g1 at Aristos; capture g1 at Aristos; capture r1 at Depot
+move g1 from Depot to Aristos; catastrophe green at Aristos
+convert y3 to g3 at Aristos
+build g1 at Magicjohn
+sacrifice g3 at Aristos; build y3 at Aristos; build y3 at Depot; build r1 at Depot
+build r2 at Magicjohn
+convert y3 to g3 at Aristos
+convert r2 to b2 at Magicjohn
+build y3 at Aristos
+build r2 at Magicjohn
+build g1 at Aristos
+convert r2 to b2 at Magicjohn
+move g1 from Aristos to Depot
+build r2 at Magicjohn
+build g1 at Aristos
+move r1 from Magicjohn to Depot
+sacrifice r1 at Depot; capture r1 at Depot
+build r1 at Magicjohn
+convert g1 to b1 at Aristos
+move r1 from Magicjohn to Depot
+sacrifice y2 at Depot; move b1 from Aristos to Depot; move b1 from Depot to Magicjohn; catastrophe blue at Magicjohn
+move g1 from Magicjohn to Outpost
+sacrifice y3 at Aristos; move y2 from Outpost to Magicjohn; move y1 from Outpost to Magicjohn; move y3 from Depot to Magicjohn; catastrophe yellow at Magicjohn

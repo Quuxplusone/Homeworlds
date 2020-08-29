@@ -1,0 +1,17 @@
+Jeep (0, b2y3) g3-
+Danner (1, y1g1) -r3
+build g1 at Jeep
+build r1 at Danner
+convert g1 to r1 at Jeep
+move r1 from Danner to Tradecenter (b3)
+build g1 at Jeep
+convert r1 to g1 at Tradecenter
+build g2 at Jeep
+build g2 at Tradecenter
+sacrifice g2 at Jeep; build r1 at Jeep; build r1 at Jeep
+convert g1 to y1 at Tradecenter
+move r1 from Jeep to Danner
+capture r1 at Danner
+move r1 from Jeep to Danner
+move r1 from Danner to Tradecenter
+sacrifice g3 at Jeep; build r2 at Danner; build r2 at Danner; build r2 at Jeep; catastrophe red at Danner

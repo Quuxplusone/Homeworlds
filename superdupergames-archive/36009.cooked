@@ -1,0 +1,26 @@
+Laurie_Menke (0, y1b3) g3-
+Looneykristin (1, y3b2) -g3
+build g1 at Laurie_Menke
+build g1 at Looneykristin
+convert g1 to r1 at Laurie_Menke
+convert g1 to r1 at Looneykristin
+build g1 at Laurie_Menke
+build g1 at Looneykristin
+move g1 from Laurie_Menke to Yellow (y2)
+move g1 from Looneykristin to Marksworld (y1)
+move g1 from Yellow to Marksworld
+sacrifice r1 at Looneykristin; capture g1 at Marksworld
+build g1 at Laurie_Menke
+build g2 at Marksworld
+move g1 from Laurie_Menke to Sunshine (y2)
+build g2 at Looneykristin
+move g1 from Sunshine to Marksworld; catastrophe green at Marksworld
+build g1 at Looneykristin
+build r1 at Laurie_Menke
+convert g1 to r1 at Looneykristin
+move r1 from Laurie_Menke to Lemon (y2)
+move r1 from Looneykristin to Whoareyou (y1)
+move r1 from Lemon to Whoareyou
+capture r1 at Whoareyou
+build r2 at Laurie_Menke
+move g2 from Looneykristin to Whoareyou

@@ -1,0 +1,22 @@
+Dther (0, b1y2) g3-
+Trydnt (1, g3b1) -b3
+build g1 at Dther
+build b1 at Trydnt
+move g1 from Dther to One (b3)
+convert b3 to y3 at Trydnt
+build g1 at Dther
+build b2 at Trydnt
+build g1 at One
+move b2 from Trydnt to Y2 (y2)
+move g1 from Dther to Two (b3)
+build b2 at Trydnt
+build g2 at Dther
+move b2 from Y2 to G3 (g3)
+convert g2 to b2 at Dther
+build b3 at G3
+build g2 at Dther
+convert b2 to y2 at G3
+sacrifice g3 at Dther; build g2 at Two; build g2 at One; build g3 at Dther
+build y1 at G3
+convert g2 to y2 at One
+convert y2 to g2 at G3

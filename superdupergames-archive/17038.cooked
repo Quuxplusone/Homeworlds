@@ -1,0 +1,22 @@
+Dlwillson (0, b3y1) g3-
+Rootbier (1, b1y2) -g3
+build g1 at Dlwillson
+build g1 at Rootbier
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Rootbier
+build y2 at Dlwillson
+build y2 at Rootbier
+move y1 from Dlwillson to Ebay (b2)
+move y1 from Rootbier to Obol (g3)
+move y1 from Ebay to Obol
+build g1 at Rootbier
+move y1 from Obol to Rootbier
+build y3 at Obol
+convert y2 to g2 at Dlwillson
+sacrifice y2 at Rootbier; move y1 from Obol to Ench (b2); move y3 from Obol to Ench
+sacrifice g2 at Dlwillson; build y2 at Rootbier; build g1 at Dlwillson
+convert g1 to r1 at Rootbier
+sacrifice g1 at Dlwillson; build y2 at Rootbier; catastrophe yellow at Rootbier
+move y3 from Ench to Dlwillson
+convert g3 to r3 at Dlwillson
+sacrifice r1 at Rootbier; capture r3 at Dlwillson

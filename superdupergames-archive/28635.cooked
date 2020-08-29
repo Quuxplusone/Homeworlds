@@ -1,0 +1,31 @@
+Wil (0, y3b1) g3-
+Felix (1, r3y2) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to b1 at Wil
+move g1 from Felix to Lasthope (b1)
+build b2 at Wil
+build g1 at Lasthope
+move b2 from Wil to Y2 (y2)
+build g1 at Felix
+sacrifice g3 at Wil; build b2 at Y2; build b2 at Y2; build b3 at Wil
+build g2 at Lasthope
+convert b3 to g3 at Wil
+convert g1 to y1 at Lasthope
+build b3 at Wil
+build y1 at Lasthope
+convert b3 to r3 at Wil
+convert g1 to r1 at Lasthope
+build b3 at Wil
+move y1 from Lasthope to Newhope (g2)
+move b2 from Y2 to G1 (g1)
+build y1 at Newhope
+sacrifice g3 at Wil; build b3 at G1; build b3 at G1; build r1 at Wil
+build y2 at Newhope
+move r3 from Wil to Newhope
+sacrifice g2 at Lasthope; build y3 at Lasthope; build y3 at Lasthope
+capture y2 at Newhope
+move y3 from Lasthope to Y2
+sacrifice y2 at Newhope; move b3 from G1 to Felix; move b3 from G1 to Felix
+sacrifice y3 at Lasthope; move y1 from Newhope to Wil; move y1 from Newhope to Wil; move y3 from Y2 to Wil; catastrophe yellow at Wil
+sacrifice r3 at Newhope; capture g3 at Felix; capture g1 at Felix

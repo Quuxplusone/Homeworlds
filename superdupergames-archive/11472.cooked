@@ -1,0 +1,25 @@
+Madwuher (0, r1b2) g3-
+Random56 (1, r1b2) -g3
+build g1 at Madwuher
+build g1 at Random56
+convert g1 to r1 at Madwuher
+convert g1 to y1 at Random56
+build r2 at Madwuher
+build g1 at Random56
+build g1 at Madwuher
+move g1 from Random56 to Alma (b3)
+convert r2 to y2 at Madwuher
+sacrifice g3 at Random56; build g1 at Alma; build g2 at Alma; build y1 at Random56
+build r2 at Madwuher
+convert g2 to y2 at Alma
+sacrifice y2 at Madwuher; move g3 from Madwuher to Alma; move g3 from Alma to Random56
+move g1 from Alma to Random56
+capture g1 at Random56
+capture g1 at Random56
+sacrifice r2 at Madwuher; capture g1 at Random56; capture y1 at Random56
+capture g1 at Random56
+build r2 at Madwuher
+build y1 at Random56
+build y2 at Random56; catastrophe yellow at Random56
+move y2 from Alma to Random56
+sacrifice r2 at Madwuher; capture y2 at Random56; capture g1 at Random56

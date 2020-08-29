@@ -1,0 +1,52 @@
+Bhorner (0, b2r1) g3-
+Babamots (1, y3b1) -g3
+build g1 at Bhorner
+build g1 at Babamots
+convert g1 to y1 at Bhorner
+move g1 from Babamots to Bajor (b2)
+build g1 at Bhorner
+build g1 at Babamots
+build g2 at Bhorner
+sacrifice g3 at Babamots; build g2 at Bajor; build g2 at Bajor; build g3 at Babamots
+move g2 from Bhorner to Xmas (g3)
+convert g2 to y2 at Bajor
+move g1 from Bhorner to Grover (b3)
+convert g1 to r1 at Bajor
+convert g1 to r1 at Grover
+move g2 from Bajor to Grover
+build y1 at Bhorner
+sacrifice r1 at Bajor; capture r1 at Grover
+build g1 at Bhorner
+sacrifice g3 at Babamots; build g1 at Grover; build g2 at Babamots; build g3 at Babamots
+move g1 from Bhorner to Berry (b3)
+convert g1 to y1 at Grover
+move y1 from Bhorner to Big_Bird (y3)
+sacrifice g2 at Babamots; build g1 at Grover; build y2 at Grover
+convert g1 to r1 at Berry
+build r2 at Grover
+build y2 at Bhorner
+sacrifice g1 at Grover; build y3 at Bajor
+build g1 at Bhorner
+move y3 from Bajor to Xmas
+sacrifice g3 at Bhorner; build g1 at Xmas; build g2 at Xmas; build g3 at Bhorner; catastrophe green at Xmas
+sacrifice g1 at Babamots; build y3 at Bajor
+move y1 from Bhorner to Berry
+move y2 from Bajor to Berry
+move r1 from Berry to Go (g2)
+sacrifice r1 at Grover; capture y1 at Berry
+move g1 from Bhorner to Blue (b3)
+convert y2 to g2 at Berry
+build g1 at Blue
+build y2 at Berry
+move y1 from Big_Bird to Pebble (b2)
+sacrifice g2 at Berry; build g1 at Babamots; build y3 at Bajor
+move y1 from Pebble to Blue
+move y3 from Bajor to Blue
+move g1 from Blue to Go
+sacrifice r2 at Grover; capture y1 at Blue; capture g1 at Blue
+sacrifice y2 at Bhorner; move g1 from Go to Babamots; move r1 from Go to Babamots
+move y3 from Bajor to Babamots
+build r1 at Babamots
+sacrifice g3 at Babamots; build g2 at Babamots; build g2 at Babamots; build g3 at Grover; catastrophe green at Babamots
+convert r1 to g1 at Babamots
+sacrifice y3 at Blue; move g1 from Blue to Bhorner; move g2 from Grover to Bhorner; move g3 from Grover to Bhorner; catastrophe green at Bhorner

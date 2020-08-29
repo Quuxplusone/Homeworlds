@@ -1,0 +1,27 @@
+Broccoli_Commander (0, r1b2) g3-
+Ts52 (1, b1y3) -g3
+build g1 at Broccoli_Commander
+build g1 at Ts52
+convert g1 to y1 at Broccoli_Commander
+move g1 from Ts52 to Gonzo (b2)
+build g1 at Broccoli_Commander
+build g1 at Ts52
+convert g1 to b1 at Broccoli_Commander
+convert g1 to y1 at Ts52
+build b1 at Broccoli_Commander
+build g1 at Ts52
+move b1 from Broccoli_Commander to Lettuce (g3)
+move y1 from Ts52 to Gonzo
+sacrifice g3 at Broccoli_Commander; build b2 at Lettuce; build b3 at Lettuce; build b3 at Broccoli_Commander
+move g1 from Gonzo to Grover (b3)
+sacrifice b2 at Lettuce; convert b3 to g3 at Broccoli_Commander; convert b3 to y3 at Lettuce
+move g1 from Ts52 to Gonzo
+sacrifice g3 at Broccoli_Commander; build b2 at Lettuce; build b3 at Lettuce; build b3 at Broccoli_Commander
+build g1 at Ts52
+convert b3 to r3 at Lettuce
+convert g1 to r1 at Ts52
+move r3 from Lettuce to Gonzo
+sacrifice y1 at Gonzo; move g1 from Gonzo to Grover
+build b3 at Lettuce
+convert g1 to y1 at Grover
+convert b3 to r3 at Broccoli_Commander

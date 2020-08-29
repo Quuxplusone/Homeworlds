@@ -1,0 +1,29 @@
+Andylooney (0, b1g2) y3-
+Zevzimra (1, g2b3) -y3
+build y1 at Andylooney
+build y1 at Zevzimra
+convert y1 to g1 at Andylooney
+move y1 from Zevzimra to Wolfsong (g1)
+move g1 from Andylooney to Clampett (y3)
+build y1 at Zevzimra
+build g1 at Clampett
+build y1 at Wolfsong
+move g1 from Clampett to Cobalt (b1)
+convert y1 to b1 at Zevzimra
+build g2 at Cobalt
+move b1 from Zevzimra to Wolfsong
+build g3 at Clampett
+build b2 at Wolfsong
+sacrifice g3 at Clampett; build g3 at Clampett; build g3 at Clampett; build g3 at Cobalt
+build b2 at Wolfsong
+convert g3 to r3 at Cobalt
+build y1 at Zevzimra
+convert g2 to y2 at Cobalt
+convert b2 to r2 at Wolfsong
+sacrifice g3 at Clampett; build g2 at Clampett; build g3 at Cobalt; build g3 at Cobalt
+build b2 at Wolfsong
+move g3 from Clampett to Wolfsong
+move r2 from Wolfsong to Clampett
+sacrifice r3 at Cobalt; capture r2 at Clampett; capture b2 at Wolfsong; capture b2 at Wolfsong
+convert y1 to r1 at Zevzimra
+convert b2 to r2 at Wolfsong

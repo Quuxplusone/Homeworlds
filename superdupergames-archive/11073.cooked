@@ -1,0 +1,16 @@
+Fuguru (0, g1b3) y3-
+Neoprofin (1, b3g2) -r3
+build y1 at Fuguru
+build r1 at Neoprofin
+build y1 at Fuguru
+convert r1 to y1 at Neoprofin
+move y1 from Fuguru to Tattooine (y2)
+build y2 at Neoprofin
+move y1 from Fuguru to Dantooine (y2)
+move y2 from Neoprofin to Dagobah (g1)
+build y3 at Fuguru
+build y3 at Dagobah
+move y1 from Tattooine to Endor (g1)
+move y2 from Dagobah to Coruscant (b2)
+build y2 at Fuguru
+move y2 from Coruscant to Fuguru; catastrophe yellow at Fuguru

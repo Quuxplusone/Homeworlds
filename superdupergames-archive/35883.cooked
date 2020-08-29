@@ -1,0 +1,50 @@
+Speardane (0, b2y3) g3-
+Laurie_Menke (1, b1r2) -g3
+build g1 at Speardane
+build g1 at Laurie_Menke
+convert g3 to r3 at Speardane
+convert g1 to y1 at Laurie_Menke
+build g1 at Speardane
+build y1 at Laurie_Menke
+move g1 from Speardane to Delos (b1)
+convert y1 to r1 at Laurie_Menke
+build g1 at Delos
+build g2 at Laurie_Menke
+convert g1 to y1 at Delos
+move r1 from Laurie_Menke to Yellow (y3)
+build g1 at Delos
+move r1 from Yellow to Delos
+build g2 at Delos
+capture g1 at Delos
+convert g1 to r1 at Delos
+capture r1 at Delos
+build r1 at Speardane
+capture y1 at Delos
+sacrifice r3 at Speardane; capture r1 at Delos; capture y1 at Delos; capture g1 at Delos
+capture r1 at Delos
+convert g2 to r2 at Delos
+sacrifice g2 at Laurie_Menke; build y1 at Laurie_Menke; build r2 at Delos; catastrophe red at Delos
+build g1 at Delos
+build g2 at Laurie_Menke
+build g2 at Delos
+build y2 at Laurie_Menke
+convert g2 to r2 at Delos
+move y2 from Laurie_Menke to Blue (b3)
+convert g1 to b1 at Delos
+build y2 at Laurie_Menke
+move b1 from Delos to Lebling (g3)
+convert y2 to r2 at Laurie_Menke
+build r1 at Delos
+move r2 from Laurie_Menke to Lebling
+sacrifice b1 at Lebling; convert r1 to b1 at Delos
+sacrifice y1 at Laurie_Menke; move r2 from Lebling to Yellow (y1)
+move b1 from Delos to Lebling (g3)
+move r2 from Yellow to Speardane
+build r1 at Delos
+capture r1 at Speardane
+sacrifice r1 at Delos; capture r1 at Speardane
+capture r1 at Speardane
+sacrifice r2 at Delos; capture r1 at Speardane
+capture r1 at Speardane
+pass
+capture g1 at Speardane

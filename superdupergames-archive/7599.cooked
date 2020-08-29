@@ -1,0 +1,28 @@
+Kanegreyfeather (0, g3y2) b3-
+Mikeyarrum (1, r1g2) -b3
+build b1 at Kanegreyfeather
+build b1 at Mikeyarrum
+convert b1 to r1 at Kanegreyfeather
+convert b1 to y1 at Mikeyarrum
+build b1 at Kanegreyfeather
+build b1 at Mikeyarrum
+convert b1 to g1 at Kanegreyfeather
+build y1 at Mikeyarrum
+build g1 at Kanegreyfeather
+convert b1 to g1 at Mikeyarrum
+move g1 from Kanegreyfeather to Thenewworld (b1)
+build g2 at Mikeyarrum
+build g2 at Thenewworld
+move g1 from Mikeyarrum to Sakaki (y3)
+convert g2 to y2 at Thenewworld
+build b1 at Mikeyarrum
+build y1 at Thenewworld
+build g2 at Sakaki
+build g3 at Thenewworld
+sacrifice b1 at Mikeyarrum; convert g2 to y2 at Sakaki
+build g2 at Kanegreyfeather
+build g3 at Sakaki
+move y1 from Thenewworld to Kanegreyfeather
+sacrifice y2 at Sakaki; move g1 from Sakaki to Thenewworld; move g1 from Thenewworld to Kanegreyfeather; catastrophe green at Kanegreyfeather
+build y2 at Thenewworld
+move y1 from Mikeyarrum to Yomi (g3)

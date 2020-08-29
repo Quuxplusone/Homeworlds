@@ -1,0 +1,32 @@
+Zackstack (0, r1b3) g3-
+Dlwillson (1, y3b2) -g3
+build g1 at Zackstack
+build g1 at Dlwillson
+convert g1 to y1 at Zackstack
+convert g1 to r1 at Dlwillson
+build y1 at Zackstack
+build r1 at Dlwillson
+build y1 at Zackstack
+build r2 at Dlwillson
+move y1 from Zackstack to Apple (g2)
+move r2 from Dlwillson to Ibm (b1)
+build y2 at Apple
+move r1 from Dlwillson to Novell (b1)
+build y2 at Apple
+build r2 at Dlwillson
+build y2 at Zackstack
+build g1 at Dlwillson
+move y2 from Apple to Linux (g1)
+sacrifice g3 at Dlwillson; build r2 at Novell; build r3 at Novell; build r3 at Ibm
+convert g3 to r3 at Zackstack
+convert r3 to y3 at Novell
+build y3 at Linux
+build r3 at Dlwillson
+convert y1 to g1 at Zackstack
+convert r3 to g3 at Dlwillson
+move y1 from Apple to Macos (b1)
+convert r3 to g3 at Ibm
+sacrifice y2 at Apple; move y3 from Linux to Dlwillson; move y2 from Linux to Dlwillson
+sacrifice r2 at Novell; capture y3 at Dlwillson; capture y2 at Dlwillson
+move y1 from Macos to Dlwillson; catastrophe yellow at Dlwillson
+sacrifice y3 at Novell; move r2 from Dlwillson to Zackstack; move r1 from Dlwillson to Zackstack; move g3 from Dlwillson to Zackstack; catastrophe red at Zackstack

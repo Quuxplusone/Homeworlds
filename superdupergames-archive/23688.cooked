@@ -1,0 +1,38 @@
+Wil (0, r1b2) g3-
+Silenttitan (1, r2b3) -g3
+build g1 at Wil
+build g1 at Silenttitan
+convert g1 to r1 at Wil
+convert g1 to y1 at Silenttitan
+build g1 at Wil
+build y1 at Silenttitan
+build g1 at Wil
+build y1 at Silenttitan
+convert g3 to y3 at Wil
+move y1 from Silenttitan to Sol (g1)
+build y2 at Wil
+move y1 from Silenttitan to Soul (b1)
+build g2 at Wil
+build y2 at Sol
+move g1 from Wil to Fortcourage (y3)
+build g2 at Silenttitan
+build g2 at Wil
+sacrifice g3 at Silenttitan; build y2 at Soul; build y3 at Silenttitan; build g3 at Silenttitan
+convert g1 to b1 at Wil
+convert y2 to r2 at Soul
+build g1 at Wil
+move g2 from Silenttitan to Soul
+build g3 at Fortcourage
+build g3 at Soul
+build b1 at Wil
+convert g2 to b2 at Soul
+move g2 from Wil to Tortuga (r3)
+sacrifice y2 at Sol; move b2 from Soul to Tortuga; move b2 from Tortuga to Wil; catastrophe blue at Wil
+move y2 from Wil to Tortuga
+build g2 at Silenttitan
+sacrifice g3 at Fortcourage; build g3 at Fortcourage; build y2 at Wil; build y2 at Tortuga
+convert y1 to r1 at Silenttitan
+sacrifice y2 at Tortuga; move g1 from Wil to Silenttitan; move g2 from Wil to Silenttitan; catastrophe green at Silenttitan
+move g3 from Soul to Silenttitan
+build g1 at Tortuga
+sacrifice y3 at Silenttitan; move r2 from Soul to Silenttitan; move r2 from Silenttitan to Wil; move r1 from Silenttitan to Wil; catastrophe red at Wil

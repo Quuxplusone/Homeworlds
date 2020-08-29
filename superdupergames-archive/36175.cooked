@@ -1,0 +1,52 @@
+Nicknack (0, b3y2) g3-
+Dlwillson (1, r1b3) -g3
+build g1 at Nicknack
+build g1 at Dlwillson
+convert g1 to b1 at Nicknack
+convert g1 to y1 at Dlwillson
+build g1 at Nicknack
+build y1 at Dlwillson
+convert g1 to y1 at Nicknack
+convert y1 to b1 at Dlwillson
+move y1 from Nicknack to Beta (g1)
+build g1 at Dlwillson
+build g1 at Nicknack
+convert g1 to r1 at Dlwillson
+convert g1 to r1 at Nicknack
+build g1 at Dlwillson
+build r2 at Nicknack
+build r2 at Dlwillson
+move r2 from Nicknack to Beta
+convert r1 to y1 at Dlwillson
+build y2 at Beta
+move y1 from Dlwillson to Field (g2)
+move y1 from Beta to Field
+move r2 from Dlwillson to Field
+build y2 at Beta
+build y3 at Dlwillson
+move y2 from Beta to Gamma (g2)
+move y1 from Field to Sky (b1)
+build y3 at Beta
+sacrifice g1 at Dlwillson; build y3 at Sky
+move y2 from Beta to Delta (b2)
+capture y1 at Field
+move b1 from Nicknack to Beta
+convert y1 to g1 at Sky
+build y1 at Gamma
+build g1 at Dlwillson
+sacrifice y2 at Gamma; move y1 from Gamma to Dlwillson; move y2 from Delta to Dlwillson; catastrophe yellow at Dlwillson
+sacrifice g3 at Dlwillson; build g2 at Sky; build g2 at Sky; build g3 at Dlwillson
+build b2 at Beta
+convert g2 to r2 at Sky
+move b1 from Beta to Gamma (g3)
+sacrifice g3 at Dlwillson; build y1 at Sky; build g2 at Sky; build g3 at Dlwillson
+convert g3 to b3 at Nicknack
+sacrifice g2 at Sky; build g2 at Dlwillson; build g3 at Sky
+build b2 at Beta
+convert g3 to y3 at Sky
+convert b3 to g3 at Nicknack
+move g2 from Sky to Nicknack
+capture g2 at Nicknack
+sacrifice y3 at Sky; move g3 from Dlwillson to Field; move g3 from Field to Sky; move g3 from Sky to Nicknack
+sacrifice g3 at Nicknack; build g3 at Nicknack; build r1 at Nicknack; build r3 at Nicknack
+sacrifice y3 at Sky; move g1 from Sky to Nicknack; move r2 from Sky to Nicknack; move y1 from Sky to Nicknack; catastrophe green at Nicknack; catastrophe red at Nicknack

@@ -1,0 +1,51 @@
+Agentofchaos (0, r1b2) g3-
+Uglyfoot (1, b3y2) -g3
+build g1 at Agentofchaos
+build g1 at Uglyfoot
+convert g1 to y1 at Agentofchaos
+build g1 at Uglyfoot
+build y1 at Agentofchaos
+convert g1 to y1 at Uglyfoot
+build y2 at Agentofchaos
+build y2 at Uglyfoot
+convert y1 to r1 at Agentofchaos
+move y2 from Uglyfoot to Out (r1)
+move y2 from Agentofchaos to Zither (b3)
+move g1 from Uglyfoot to Out
+build r2 at Agentofchaos
+build y1 at Out
+build y3 at Agentofchaos
+move y1 from Uglyfoot to Ward (b1)
+move y3 from Agentofchaos to Leanda (g3)
+sacrifice g1 at Out; build y3 at Ward
+build y3 at Agentofchaos
+build g1 at Uglyfoot
+build g1 at Agentofchaos
+move g1 from Uglyfoot to Out
+move y3 from Leanda to Ward
+move y3 from Ward to Bound (r3)
+sacrifice r1 at Agentofchaos; capture y1 at Ward
+build g1 at Uglyfoot
+move g1 from Agentofchaos to Zither
+move g1 from Uglyfoot to Out
+build g2 at Agentofchaos
+build g2 at Uglyfoot
+build g2 at Zither
+convert g2 to r2 at Uglyfoot
+move g3 from Agentofchaos to Zurvan (r3)
+move g1 from Out to Bound
+move y1 from Agentofchaos to Zurvan
+build r1 at Uglyfoot
+move g1 from Zither to Ward
+sacrifice y2 at Out; move y3 from Bound to Agentofchaos; move y3 from Agentofchaos to Zither
+sacrifice y2 at Zither; move g3 from Zurvan to Out; move g2 from Zither to Ward
+build g2 at Bound
+build g3 at Agentofchaos
+build y2 at Out
+sacrifice g2 at Ward; build y2 at Zurvan; build g2 at Ward
+sacrifice y2 at Out; move g1 from Bound to Agentofchaos; move g2 from Bound to Agentofchaos; catastrophe green at Agentofchaos
+capture y1 at Out
+build g1 at Uglyfoot
+sacrifice y2 at Zurvan; move g1 from Ward to Uglyfoot; move g2 from Ward to Uglyfoot; catastrophe green at Uglyfoot
+convert y3 to g3 at Zither
+move y3 from Ward to Uglyfoot

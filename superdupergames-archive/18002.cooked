@@ -1,0 +1,25 @@
+Ts52 (0, b3y1) g3-
+Remneb (1, y2b1) -g3
+build g1 at Ts52
+build g1 at Remneb
+convert g1 to y1 at Ts52
+convert g1 to y1 at Remneb
+build y2 at Ts52
+build g1 at Remneb
+move y1 from Ts52 to Oscar (g2)
+move y1 from Remneb to Emmy (g3)
+build g1 at Ts52
+build y2 at Emmy
+build y3 at Oscar
+move y2 from Emmy to Oscar
+move y1 from Oscar to Grover (b3)
+build y3 at Emmy
+sacrifice g1 at Ts52; build y3 at Grover
+move y3 from Emmy to Bunkerhill (b2)
+convert y1 to r1 at Grover
+sacrifice y3 at Bunkerhill; move y1 from Emmy to Oscar; move y2 from Oscar to Ts52; move y1 from Oscar to Ts52; catastrophe yellow at Ts52
+move y3 from Grover to Remneb
+convert g1 to r1 at Remneb
+sacrifice r1 at Grover; capture r1 at Remneb
+build g1 at Remneb
+capture g3 at Remneb

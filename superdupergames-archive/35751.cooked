@@ -1,0 +1,14 @@
+Capi3101 (0, y1b3) g3-
+Trydnt (1, g2b1) -y3
+build g1 at Capi3101
+build y1 at Trydnt
+build g1 at Capi3101
+build y1 at Trydnt
+convert g1 to b1 at Capi3101
+move y1 from Trydnt to G3 (g3)
+convert g3 to y3 at Capi3101
+build y2 at G3
+move y3 from Capi3101 to Dumb_Move (g2)
+build y2 at Trydnt
+move y3 from Dumb_Move to Capi3101
+sacrifice y2 at G3; move y1 from Trydnt to G33 (g3); move y2 from Trydnt to G333 (g3)

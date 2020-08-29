@@ -1,0 +1,28 @@
+Pheonixian (0, y1b2) g3-
+Simon (1, r1b3) -g3
+build g1 at Pheonixian
+build g1 at Simon
+move g1 from Pheonixian to Eris (b3)
+convert g1 to y1 at Simon
+build g1 at Pheonixian
+build y1 at Simon
+convert g1 to b1 at Pheonixian
+build y2 at Simon
+build g1 at Eris
+convert y2 to b2 at Simon
+build g1 at Pheonixian
+move b2 from Simon to G2 (g2)
+sacrifice g3 at Pheonixian; build g2 at Pheonixian; build g2 at Eris; build g3 at Pheonixian
+build g3 at Simon
+convert g2 to y2 at Eris
+move y1 from Simon to G2
+move g2 from Pheonixian to Sol (y3)
+build y2 at G2
+sacrifice g3 at Pheonixian; build g2 at Sol; build g3 at Pheonixian; build b1 at Pheonixian
+sacrifice y2 at G2; move b2 from G2 to Eris; move b2 from Eris to Pheonixian; catastrophe blue at Pheonixian
+convert g1 to b1 at Eris
+build y2 at G2
+sacrifice g3 at Pheonixian; build g1 at Eris; build b1 at Eris; build g3 at Pheonixian
+move y1 from G2 to Pheonixian
+move b1 from Eris to Pheonixian
+sacrifice g3 at Simon; build y2 at Pheonixian; build y3 at Pheonixian; catastrophe yellow at Pheonixian

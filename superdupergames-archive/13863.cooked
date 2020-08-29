@@ -1,0 +1,66 @@
+Umfpt (0, y2b1) g3-
+Pottytroll (1, g3b1) -y3
+build g1 at Umfpt
+build y1 at Pottytroll
+build g1 at Umfpt
+build y1 at Pottytroll
+move g1 from Umfpt to Tola (b3)
+move y1 from Pottytroll to Spud (r2)
+build g1 at Tola
+convert y3 to g3 at Pottytroll
+convert g1 to y1 at Tola
+build y2 at Pottytroll
+build y2 at Tola
+build y3 at Pottytroll
+sacrifice y2 at Tola; move y1 from Tola to Spud; move y1 from Spud to Pottytroll; catastrophe yellow at Pottytroll
+build g1 at Pottytroll
+build g2 at Tola
+convert g3 to y3 at Pottytroll
+convert g2 to y2 at Tola
+build g2 at Pottytroll
+sacrifice y2 at Tola; move g1 from Tola to Spud; move g1 from Spud to Pottytroll; catastrophe green at Pottytroll
+convert y3 to g3 at Pottytroll
+move g1 from Umfpt to Tola (y3)
+build g1 at Pottytroll
+build g1 at Umfpt
+convert g1 to y1 at Pottytroll
+move g1 from Tola to Pottytroll
+convert y1 to r1 at Pottytroll
+convert g1 to y1 at Umfpt
+capture g1 at Pottytroll
+move y1 from Umfpt to Tola (b3)
+move y1 from Spud to Pottytroll
+build g1 at Umfpt
+move r1 from Pottytroll to Tola
+move y1 from Tola to Pottytroll
+convert g1 to r1 at Pottytroll
+move g1 from Umfpt to Ohnoes (b3)
+capture y1 at Pottytroll
+build g1 at Ohnoes
+move y1 from Pottytroll to Tola
+convert g3 to r3 at Umfpt
+build g1 at Pottytroll
+build g2 at Ohnoes
+move g1 from Pottytroll to Ohnoes; catastrophe green at Ohnoes
+convert r3 to g3 at Umfpt
+build g1 at Pottytroll
+build g1 at Umfpt
+move g1 from Pottytroll to Tola
+convert g1 to r1 at Umfpt
+build r2 at Tola
+build g1 at Umfpt
+convert r1 to y1 at Tola
+convert g1 to b1 at Umfpt
+build y2 at Tola
+build b2 at Umfpt
+convert y2 to b2 at Tola
+move b1 from Umfpt to Ohnoes (y3)
+build y2 at Pottytroll
+build b2 at Umfpt
+move b2 from Tola to Umfpt; catastrophe blue at Umfpt
+build g1 at Umfpt
+build y2 at Tola
+move b1 from Ohnoes to Umfpt
+move y2 from Tola to Umfpt
+capture y2 at Umfpt
+sacrifice y2 at Pottytroll; move y1 from Tola to Umfpt; move y1 from Tola to Umfpt; catastrophe yellow at Umfpt

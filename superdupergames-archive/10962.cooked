@@ -1,0 +1,35 @@
+Ts52 (0, b1y2) g3-
+Horowits (1, b3g2) -y3
+build g1 at Ts52
+build y1 at Horowits
+convert g1 to b1 at Ts52
+convert y1 to g1 at Horowits
+build b1 at Ts52
+build y1 at Horowits
+build g1 at Ts52
+move y1 from Horowits to Doom (r1)
+move b1 from Ts52 to Elmo (r3)
+convert g1 to r1 at Horowits
+convert g1 to r1 at Ts52
+build r2 at Horowits
+build r2 at Ts52
+convert r2 to g2 at Horowits
+build g1 at Ts52
+move g2 from Horowits to Doom
+sacrifice g1 at Ts52; build b2 at Elmo
+build r2 at Horowits
+build g1 at Ts52
+build y1 at Doom
+move g1 from Ts52 to Elmo
+move y1 from Doom to Tinygreen (g3)
+build b2 at Elmo
+convert r1 to g1 at Horowits
+convert b2 to y2 at Elmo
+convert r2 to b2 at Horowits
+build g1 at Ts52
+convert y3 to g3 at Horowits
+sacrifice y2 at Elmo; move g1 from Elmo to Doom; move g1 from Doom to Horowits; catastrophe green at Horowits
+move g2 from Doom to Horowits
+move b1 from Ts52 to Horowits
+convert b2 to r2 at Horowits
+sacrifice g3 at Ts52; build b2 at Horowits; build b2 at Horowits; build b3 at Horowits; catastrophe blue at Horowits

@@ -1,0 +1,12 @@
+Dethdukk (0, b2r1) g3-
+Dlwillson (1, b1y3) -g3
+build g1 at Dethdukk
+build g1 at Dlwillson
+convert g1 to r1 at Dethdukk
+convert g1 to r1 at Dlwillson
+build r2 at Dethdukk
+build r2 at Dlwillson
+convert r1 to y1 at Dethdukk
+convert r1 to b1 at Dlwillson
+build r1 at Dethdukk
+build b1 at Dlwillson

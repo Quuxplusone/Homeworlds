@@ -1,0 +1,37 @@
+Dlwillson (0, r3b2) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Dlwillson
+build g1 at Draw5Playall
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Draw5Playall
+build g1 at Dlwillson
+build g1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+convert g1 to r1 at Draw5Playall
+build r2 at Dlwillson
+build r2 at Draw5Playall
+move r2 from Dlwillson to Sol (y1)
+build y2 at Draw5Playall
+build r2 at Dlwillson
+convert r2 to b2 at Draw5Playall
+build y2 at Dlwillson
+move b2 from Draw5Playall to The (g2)
+move r2 from Dlwillson to Sea (b1)
+build b1 at The
+sacrifice g3 at Dlwillson; build r2 at Sea; build r3 at Sol; build r3 at Dlwillson
+move y1 from Draw5Playall to Better (g2)
+sacrifice y2 at Dlwillson; move r2 from Sol to Better; move r3 from Sol to The
+sacrifice y1 at Better; move b2 from The to Distant (g3)
+capture b1 at The
+build y1 at Draw5Playall
+convert r3 to g3 at Dlwillson
+move y1 from Draw5Playall to Only (g2)
+build r3 at The
+build y1 at Only
+convert r3 to y3 at The
+move r1 from Draw5Playall to Only
+build r3 at Better
+move y1 from Only to Next (g1)
+build y2 at Dlwillson
+sacrifice g3 at Draw5Playall; build y2 at Next; build y3 at Only; build y3 at Draw5Playall
+sacrifice y2 at Dlwillson; move y3 from The to Draw5Playall; move r3 from The to Draw5Playall

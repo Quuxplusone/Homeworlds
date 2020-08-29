@@ -1,0 +1,89 @@
+Madwuher (0, b2r3) g3-
+Agentofchaos (1, y1b2) -g3
+build g1 at Madwuher
+build g1 at Agentofchaos
+convert g1 to y1 at Madwuher
+build g1 at Agentofchaos
+build y1 at Madwuher
+move g1 from Agentofchaos to Tchad (b3)
+move y1 from Madwuher to Edora (b1)
+build g1 at Tchad
+build g2 at Madwuher
+convert g1 to r1 at Agentofchaos
+convert g2 to r2 at Madwuher
+build g1 at Agentofchaos
+build g2 at Madwuher
+sacrifice g3 at Agentofchaos; build g2 at Agentofchaos; build g2 at Tchad; build g3 at Agentofchaos
+build g3 at Madwuher
+convert g2 to y2 at Tchad
+move g3 from Madwuher to Edora
+sacrifice g2 at Agentofchaos; build y2 at Tchad; build r1 at Agentofchaos
+build y2 at Edora
+convert y2 to r2 at Tchad
+move r2 from Madwuher to Edora
+build y2 at Tchad
+move y2 from Edora to Bologna (b3)
+move y2 from Tchad to Quasmer (g2)
+sacrifice g3 at Madwuher; build y3 at Edora; build y3 at Madwuher; build y3 at Bologna
+build r1 at Tchad
+build g2 at Edora
+move r1 from Tchad to Quasmer
+build g3 at Madwuher
+convert r1 to b1 at Agentofchaos
+move y3 from Edora to Tchad
+sacrifice y2 at Tchad; move g1 from Tchad to Edora; move g1 from Tchad to Edora; catastrophe green at Edora
+sacrifice g2 at Madwuher; build g1 at Madwuher; build y2 at Edora
+move r1 from Quasmer to Gloam (g3)
+move g1 from Madwuher to Edora
+convert r2 to g2 at Tchad
+build g1 at Madwuher
+convert g2 to b2 at Tchad
+sacrifice r2 at Edora; capture b2 at Tchad
+move b1 from Agentofchaos to Gloam
+convert b2 to r2 at Tchad
+build b1 at Gloam
+sacrifice y3 at Madwuher; move g1 from Edora to Camelot (y3); move y2 from Edora to Gloam; move y1 from Edora to Tchad
+build b1 at Gloam
+sacrifice g1 at Camelot; build y3 at Madwuher
+build r1 at Agentofchaos
+sacrifice g1 at Madwuher; build r2 at Tchad
+move y2 from Quasmer to Seti (b3)
+sacrifice r2 at Tchad; capture r1 at Gloam; capture b1 at Gloam
+build b2 at Gloam; catastrophe blue at Gloam
+build r2 at Gloam
+move r1 from Agentofchaos to Seti
+move r2 from Gloam to Edora (b2)
+sacrifice g1 at Agentofchaos; build r2 at Seti
+build r3 at Gloam
+build r3 at Agentofchaos
+build g1 at Madwuher
+convert r1 to b1 at Agentofchaos
+convert g1 to b1 at Madwuher
+build g1 at Agentofchaos
+build g1 at Madwuher
+move b1 from Agentofchaos to Seti
+move y3 from Madwuher to Camelot (b1)
+move r2 from Seti to Tenebrus (g2)
+move y3 from Camelot to Seti
+move y2 from Seti to Tenebrus
+sacrifice r2 at Edora; capture r1 at Seti; capture b1 at Seti
+build r1 at Tenebrus
+convert r1 to g1 at Seti
+move r1 from Tenebrus to Gloam
+sacrifice r1 at Gloam; capture r1 at Gloam
+build r1 at Tenebrus
+move r1 from Gloam to Edora (g2)
+build r1 at Agentofchaos
+sacrifice g3 at Madwuher; build g2 at Seti; build g3 at Madwuher; build r2 at Edora
+move r1 from Tenebrus to Kobold (b1)
+build b2 at Seti
+move r2 from Tenebrus to Kobold
+move y3 from Tchad to Kobold
+sacrifice y2 at Tenebrus; move r2 from Kobold to Edora; move r1 from Kobold to Edora; catastrophe red at Edora
+sacrifice g2 at Seti; build g2 at Seti; build y2 at Madwuher
+move r3 from Agentofchaos to Tchad
+sacrifice y1 at Tchad; move r2 from Tchad to Monopoly (y1)
+move g1 from Agentofchaos to Tchad
+move g1 from Seti to Monopoly
+build g2 at Agentofchaos
+sacrifice y3 at Kobold; move g2 from Seti to Agentofchaos; move g1 from Monopoly to Seti; move g1 from Seti to Agentofchaos; catastrophe green at Agentofchaos

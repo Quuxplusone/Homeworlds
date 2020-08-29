@@ -1,0 +1,15 @@
+Dlwillson (0, r3b1) g3-
+Smokeytroll42 (1, g3y2) -b3
+build g1 at Dlwillson
+build b1 at Smokeytroll42
+convert g1 to b1 at Dlwillson
+build b2 at Smokeytroll42
+build b2 at Dlwillson
+move b2 from Smokeytroll42 to Peace (y1)
+convert b2 to y2 at Dlwillson
+convert b2 to g2 at Peace
+move b1 from Dlwillson to Forest (g2)
+build g1 at Peace
+build b2 at Forest
+move b1 from Smokeytroll42 to Peace
+convert b1 to y1 at Forest

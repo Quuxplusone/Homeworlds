@@ -1,0 +1,23 @@
+Felix (0, b2y3) g3-
+Dlwillson (1, y3b1) -g3
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to b1 at Felix
+convert g1 to b1 at Dlwillson
+build b2 at Felix
+build b2 at Dlwillson
+move b2 from Felix to Out (g1)
+move b2 from Dlwillson to Sol (y2)
+build b3 at Out
+sacrifice g3 at Dlwillson; build b3 at Sol; build b3 at Dlwillson
+convert b3 to y3 at Out
+convert b1 to r1 at Dlwillson
+convert b1 to r1 at Felix
+convert b3 to g3 at Dlwillson
+build b1 at Out
+move b2 from Sol to Forest (g1)
+move b2 from Out to Rim (g2)
+build g1 at Dlwillson
+build g2 at Felix
+convert b3 to g3 at Sol
+sacrifice g2 at Felix; build b1 at Out; build b3 at Rim

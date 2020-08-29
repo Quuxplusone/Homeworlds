@@ -1,0 +1,39 @@
+Tendrecube (0, g3y2) b3-
+Gigaclon (1, g1y3) -b3
+build b1 at Tendrecube
+build b1 at Gigaclon
+convert b1 to g1 at Tendrecube
+convert b1 to g1 at Gigaclon
+build g2 at Tendrecube
+move g1 from Gigaclon to Kagami (b2)
+convert g1 to y1 at Tendrecube
+build g1 at Kagami
+move y1 from Tendrecube to Atomium (r1)
+convert g1 to b1 at Kagami
+sacrifice g2 at Tendrecube; build y1 at Atomium; build y1 at Atomium
+build b1 at Gigaclon
+build b1 at Tendrecube
+build b2 at Kagami
+move y1 from Atomium to Elfstar (g2)
+convert b2 to y2 at Kagami
+convert b3 to g3 at Tendrecube
+build y2 at Kagami
+sacrifice g3 at Tendrecube; build y3 at Elfstar; build y3 at Elfstar; build b2 at Tendrecube
+move y2 from Kagami to Xuxa (g1)
+move y1 from Atomium to Paradise (g2)
+move y2 from Xuxa to Elfstar; catastrophe yellow at Elfstar
+build y1 at Paradise
+sacrifice y2 at Kagami; move g1 from Kagami to Oasis (r1); move b1 from Kagami to Gigaclon
+build y2 at Paradise
+move b1 from Gigaclon to Xuxa (y2)
+move y1 from Atomium to Elfstar (g2)
+move b1 from Xuxa to Oasis
+move y1 from Paradise to Gigaclon
+build b2 at Oasis
+sacrifice y2 at Paradise; move y1 from Elfstar to Gigaclon; move y1 from Paradise to Gigaclon; catastrophe yellow at Gigaclon
+convert b1 to g1 at Gigaclon
+convert b2 to g2 at Tendrecube
+convert b2 to r2 at Oasis
+move g2 from Tendrecube to Gigaclon
+convert g1 to b1 at Gigaclon
+build g1 at Gigaclon

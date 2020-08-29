@@ -1,0 +1,30 @@
+Gundam_Blade (0, g3b2) y3-
+Antihero (1, b1g2) -y3
+build y1 at Gundam_Blade
+build y1 at Antihero
+convert y1 to r1 at Gundam_Blade
+convert y1 to g1 at Antihero
+build y1 at Gundam_Blade
+build y1 at Antihero
+convert y1 to g1 at Gundam_Blade
+move g1 from Antihero to Sol (y3)
+move g1 from Gundam_Blade to Jdogg (b1)
+convert y1 to r1 at Antihero
+build g1 at Jdogg
+build g2 at Sol
+convert g1 to y1 at Jdogg
+move g1 from Sol to Switch (b1)
+build y1 at Jdogg
+build g1 at Switch
+build r1 at Gundam_Blade
+build r2 at Antihero
+build r2 at Gundam_Blade
+move r2 from Antihero to Sol
+move r2 from Gundam_Blade to Jdogg
+move r2 from Sol to Sink (y2)
+build r2 at Jdogg
+build r3 at Antihero
+build r3 at Gundam_Blade
+sacrifice g1 at Switch; build r3 at Sink
+move r3 from Gundam_Blade to Switch
+sacrifice g1 at Switch; build g1 at Sol

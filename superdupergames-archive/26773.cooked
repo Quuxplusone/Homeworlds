@@ -1,0 +1,41 @@
+Wil (0, b3y1) g3-
+Agentofchaos (1, b3r2) -g3
+build g1 at Wil
+build g1 at Agentofchaos
+convert g1 to y1 at Wil
+convert g1 to y1 at Agentofchaos
+move y1 from Wil to G2 (g2)
+move y1 from Agentofchaos to Hartax (g1)
+build g1 at Wil
+build y2 at Hartax
+build y2 at G2
+build g1 at Agentofchaos
+convert g1 to r1 at Wil
+convert g1 to r1 at Agentofchaos
+move y1 from G2 to B1 (b1)
+build g1 at Agentofchaos
+build y2 at G2
+move y1 from Hartax to Agentofchaos
+sacrifice g3 at Wil; build y3 at B1; build y3 at B1; build y3 at G2
+convert g1 to b1 at Agentofchaos
+convert y1 to b1 at B1
+build y1 at Hartax
+move y3 from G2 to Wil
+build g1 at Agentofchaos
+move b1 from B1 to G2
+build g1 at Agentofchaos
+build b2 at G2
+move r1 from Agentofchaos to Hartax
+convert y2 to r2 at G2
+build y2 at Agentofchaos
+convert b2 to g2 at G2
+convert g1 to r1 at Agentofchaos
+convert y3 to g3 at Wil
+move b1 from Agentofchaos to Hartax
+build y3 at G2
+sacrifice y2 at Agentofchaos; move y1 from Hartax to G2; move y2 from Hartax to G2; catastrophe yellow at G2
+build g1 at Wil
+build b2 at Hartax
+sacrifice g3 at Wil; build g2 at Wil; build g3 at Wil; build g3 at G2
+build r2 at Hartax
+sacrifice g3 at Wil; build g3 at Wil; build r3 at Wil; build r3 at G2

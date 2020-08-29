@@ -1,0 +1,49 @@
+Zoltar (0, y1b3) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Zoltar
+build g1 at Ts52
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Ts52
+build y2 at Zoltar
+move y1 from Ts52 to Kermit (g3)
+convert y1 to r1 at Zoltar
+build g1 at Ts52
+build r1 at Zoltar
+convert g1 to r1 at Ts52
+move r1 from Zoltar to Greenbelt (g2)
+build r2 at Ts52
+build r2 at Zoltar
+move r2 from Ts52 to Kermit
+move y2 from Zoltar to Greenbelt
+build g1 at Ts52
+move r1 from Zoltar to Greenhills (g2)
+build g1 at Ts52
+build g1 at Zoltar
+move g1 from Ts52 to Bigbird (y3)
+build g2 at Zoltar
+move g1 from Bigbird to Sol (y2)
+move g2 from Zoltar to Sol
+move g1 from Sol to Kermit
+sacrifice g3 at Zoltar; build r2 at Greenhills; build r3 at Greenbelt; build r3 at Zoltar
+build r3 at Ts52
+build g3 at Zoltar
+move r3 from Ts52 to Lemon (y3)
+convert g3 to y3 at Zoltar
+move r3 from Lemon to Sol
+sacrifice g2 at Sol; build g2 at Zoltar; build g3 at Zoltar
+move g1 from Kermit to Sol
+move g1 from Zoltar to Greenbelt
+move g1 from Sol to Daffodil (y3)
+move r3 from Greenbelt to Kermit
+move y1 from Kermit to Sol
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y1 at Greenbelt; build y3 at Greenbelt
+move y1 from Sol to Gonzo (b3)
+move y3 from Greenbelt to Daffodil
+move r3 from Sol to Gonzo
+sacrifice r2 at Greenhills; capture g1 at Daffodil; capture r2 at Kermit
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Ts52; build y2 at Gonzo
+sacrifice y3 at Zoltar; move g1 from Greenbelt to Daffodil; move g1 from Daffodil to Ts52; move g1 from Daffodil to Ts52; catastrophe green at Ts52
+convert r1 to g1 at Ts52
+sacrifice y2 at Greenbelt; move y3 from Daffodil to Ts52; move r3 from Kermit to Ts52
+build r1 at Ts52
+sacrifice r3 at Zoltar; capture g1 at Ts52; capture r1 at Ts52; capture r2 at Ts52

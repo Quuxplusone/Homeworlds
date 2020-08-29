@@ -1,0 +1,31 @@
+Silenttitan (0, r1b2) g3-
+Broccoli_Commander (1, b1g3) -y3
+build g1 at Silenttitan
+build y1 at Broccoli_Commander
+convert g1 to y1 at Silenttitan
+convert y3 to g3 at Broccoli_Commander
+build g1 at Silenttitan
+build g1 at Broccoli_Commander
+convert g1 to b1 at Silenttitan
+move g1 from Broccoli_Commander to Blueberry (b2)
+build b1 at Silenttitan
+build g1 at Blueberry
+move b1 from Silenttitan to Sol (y3)
+convert g1 to r1 at Blueberry
+sacrifice g3 at Silenttitan; build b2 at Sol; build b3 at Sol; build b3 at Silenttitan
+build g1 at Broccoli_Commander
+convert b3 to g3 at Silenttitan
+build y1 at Broccoli_Commander
+build b3 at Silenttitan
+build y2 at Broccoli_Commander
+sacrifice b2 at Sol; convert b3 to r3 at Sol; convert b3 to y3 at Silenttitan
+move y2 from Broccoli_Commander to Blueberry
+move r3 from Sol to Blueberry
+sacrifice y2 at Blueberry; move r1 from Blueberry to Broccoli_Commander; move g1 from Blueberry to Sol
+sacrifice g3 at Silenttitan; build b2 at Sol; build b3 at Sol; build b3 at Silenttitan
+build y2 at Broccoli_Commander
+sacrifice b2 at Sol; convert b3 to y3 at Silenttitan; convert b3 to r3 at Sol
+sacrifice g1 at Sol; build r1 at Broccoli_Commander
+convert y1 to g1 at Silenttitan
+move r1 from Broccoli_Commander to Lettuce (g2)
+sacrifice y3 at Silenttitan; move g1 from Silenttitan to Sol; move g1 from Sol to Blueberry; move g1 from Blueberry to Broccoli_Commander; catastrophe green at Broccoli_Commander

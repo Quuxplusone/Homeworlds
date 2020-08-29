@@ -1,0 +1,71 @@
+Jesse (0, b1y2) g3-
+Twoshort (1, b1g3) -b3
+build g1 at Jesse
+build b1 at Twoshort
+convert g3 to b3 at Jesse
+convert b3 to y3 at Twoshort
+build b2 at Jesse
+build b2 at Twoshort
+move b2 from Jesse to Gruber (g3)
+move b2 from Twoshort to Ed (g2)
+build g1 at Jesse
+build y1 at Twoshort
+convert g1 to y1 at Jesse
+move y1 from Twoshort to Ed
+move y1 from Jesse to Gruber
+convert b2 to r2 at Ed
+build b2 at Gruber
+move r2 from Ed to Gruber
+convert g1 to r1 at Jesse
+capture b2 at Gruber
+sacrifice r1 at Jesse; capture r2 at Gruber
+build b2 at Gruber
+sacrifice r2 at Gruber; capture b2 at Gruber; capture b2 at Gruber
+build b3 at Twoshort
+move b2 from Gruber to Munch (g2)
+convert b3 to r3 at Twoshort
+convert b2 to r2 at Gruber
+move r3 from Twoshort to Munch
+build b2 at Munch
+capture b2 at Munch
+build b3 at Gruber
+capture b2 at Munch
+convert b3 to g3 at Jesse
+build b3 at Twoshort
+move b2 from Gruber to Bjorn (g2)
+sacrifice b2 at Munch; convert b2 to y2 at Munch; convert b3 to r3 at Twoshort
+build y1 at Gruber
+move r3 from Twoshort to Bjorn
+build g1 at Jesse
+build y2 at Ed
+move y1 from Gruber to Leroy (g1)
+build y3 at Munch
+sacrifice g3 at Jesse; build g1 at Jesse; build g3 at Jesse; build y3 at Leroy
+sacrifice y2 at Munch; move y2 from Ed to Leroy; move y1 from Ed to Leroy; catastrophe yellow at Leroy
+move g1 from Jesse to Harvey (b3)
+move r3 from Munch to Harvey
+sacrifice g1 at Harvey; build b2 at Gruber
+capture b2 at Bjorn
+convert b2 to r2 at Gruber
+build b2 at Bjorn
+move r2 from Gruber to Jesse
+convert b2 to y2 at Bjorn
+build b2 at Gruber
+sacrifice y3 at Munch; move b1 from Twoshort to Bjorn; move b1 from Bjorn to Gruber; move b2 from Bjorn to Gruber; catastrophe blue at Gruber
+build r1 at Gruber
+build y1 at Twoshort
+build y1 at Gruber
+build y2 at Twoshort
+move y1 from Gruber to Sam (g2)
+convert y2 to g2 at Twoshort
+move r1 from Gruber to Johnny (g1)
+convert r3 to y3 at Harvey
+move r2 from Jesse to Rrrrr (y3)
+build y2 at Bjorn
+convert g1 to b1 at Jesse
+move r3 from Bjorn to Gruber
+build r1 at Gruber
+sacrifice y1 at Twoshort; move r3 from Gruber to Sam
+move y1 from Sam to Johnny
+build r1 at Sam
+build y1 at Johnny

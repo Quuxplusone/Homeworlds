@@ -1,0 +1,46 @@
+Face (0, r3b2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Face
+build g1 at Twoshort
+convert g3 to y3 at Face
+convert g1 to y1 at Twoshort
+build y1 at Face
+build g1 at Twoshort
+convert y1 to r1 at Face
+build y1 at Twoshort
+move r1 from Face to Plaster (y1)
+build y2 at Twoshort
+build y2 at Face
+move y1 from Twoshort to Grogar (g2)
+move y2 from Face to Plaster
+build g1 at Twoshort
+build g2 at Face
+move g1 from Twoshort to Bonanza (b2)
+move g2 from Face to Plaster
+convert y2 to r2 at Twoshort
+build y2 at Face
+build y2 at Grogar
+move y2 from Face to Trash (b1)
+sacrifice g3 at Twoshort; build g2 at Bonanza; build g3 at Twoshort; build y3 at Twoshort
+build y3 at Face
+sacrifice g3 at Twoshort; build g3 at Bonanza; build g3 at Twoshort; build g3 at Twoshort
+sacrifice y2 at Trash; move g2 from Plaster to Grogar; move g2 from Grogar to Twoshort; catastrophe green at Twoshort
+sacrifice y2 at Grogar; move g3 from Bonanza to Plaster; move g1 from Bonanza to Twoshort
+sacrifice y2 at Plaster; move r1 from Plaster to Buzz (g2); move y3 from Face to Tank (r1)
+move y1 from Grogar to Gonzo (g3)
+build y2 at Face
+build g1 at Plaster
+build r2 at Buzz
+move r2 from Twoshort to Yolonda (y2)
+build r2 at Buzz
+sacrifice g3 at Plaster; build g2 at Twoshort; build g3 at Bonanza; build g3 at Plaster
+move y3 from Tank to Yolonda
+move r2 from Yolonda to Plaster
+sacrifice y3 at Yolonda; move r2 from Buzz to Twoshort; move r2 from Buzz to Twoshort; move r1 from Buzz to Twoshort; catastrophe red at Twoshort
+convert g3 to r3 at Bonanza
+convert y2 to b2 at Face
+sacrifice y3 at Twoshort; move r3 from Bonanza to Plaster; move r3 from Plaster to Face; move g3 from Plaster to Face
+build g2 at Face
+sacrifice r3 at Face; capture y3 at Face; capture g2 at Face; capture b2 at Face
+build g3 at Face
+catastrophe green at Face

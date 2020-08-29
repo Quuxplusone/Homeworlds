@@ -1,0 +1,35 @@
+Zoltar (0, r1b3) g3-
+Dayleh (1, b1r2) -g3
+build g1 at Zoltar
+build g1 at Dayleh
+convert g1 to y1 at Zoltar
+build g1 at Dayleh
+build y1 at Zoltar
+convert g1 to y1 at Dayleh
+convert y1 to r1 at Zoltar
+build g1 at Dayleh
+build r1 at Zoltar
+move g1 from Dayleh to George (y3)
+move r1 from Zoltar to Gertrude (g2)
+build g1 at George
+sacrifice y1 at Zoltar; move r1 from Gertrude to George
+build g2 at George
+capture g1 at George
+move g2 from George to B2 (b2)
+sacrifice g3 at Zoltar; build r2 at George; build r2 at George; build r3 at Zoltar
+convert g1 to b1 at Dayleh
+move r2 from George to B2
+build y1 at Dayleh
+capture g2 at B2
+move y1 from Dayleh to R3 (r3)
+build r3 at B2
+move g1 from George to Y1 (y1)
+convert r3 to y3 at B2
+build y2 at Dayleh
+convert r3 to y3 at Zoltar
+build b1 at Dayleh
+build r3 at B2
+move b1 from Dayleh to R3
+build r3 at George
+sacrifice g3 at Dayleh; build b2 at R3; build b2 at R3; build b3 at Dayleh
+move r3 from B2 to R3

@@ -1,0 +1,40 @@
+Adambadura (0, g3b2) y3-
+Broccoli_Commander (1, r1b2) -g3
+build y1 at Adambadura
+build g1 at Broccoli_Commander
+convert y1 to r1 at Adambadura
+convert g1 to y1 at Broccoli_Commander
+build r1 at Adambadura
+build g1 at Broccoli_Commander
+build r2 at Adambadura
+build g1 at Broccoli_Commander
+convert r1 to g1 at Adambadura
+move g1 from Broccoli_Commander to Blueberry (b3)
+build g2 at Adambadura
+sacrifice g3 at Broccoli_Commander; build g2 at Blueberry; build g2 at Blueberry; build g3 at Broccoli_Commander
+convert g1 to y1 at Adambadura
+convert g2 to r2 at Blueberry
+move r2 from Adambadura to Changeroom (b1)
+build g1 at Broccoli_Commander
+build r1 at Adambadura
+move g1 from Broccoli_Commander to Muffin (b3)
+convert y3 to g3 at Adambadura
+sacrifice g3 at Broccoli_Commander; build g2 at Muffin; build y1 at Broccoli_Commander; build y2 at Broccoli_Commander
+sacrifice g2 at Adambadura; build r2 at Adambadura; build r3 at Changeroom
+build r3 at Blueberry
+build y2 at Adambadura
+sacrifice y1 at Broccoli_Commander; move r3 from Blueberry to Broccoli_Commander
+convert r1 to b1 at Adambadura
+build g2 at Broccoli_Commander
+convert r3 to g3 at Changeroom
+sacrifice y2 at Broccoli_Commander; move g2 from Blueberry to Changeroom; move g1 from Blueberry to Changeroom
+convert g3 to r3 at Changeroom
+build g3 at Muffin
+capture g2 at Changeroom
+sacrifice g2 at Muffin; build r1 at Blueberry; build r3 at Blueberry
+build g2 at Adambadura
+sacrifice y1 at Broccoli_Commander; move g1 from Changeroom to Adambadura; catastrophe green at Adambadura
+move r1 from Adambadura to Blueberry; catastrophe red at Blueberry
+convert g1 to y1 at Broccoli_Commander
+move y1 from Adambadura to Changeroom
+sacrifice y1 at Broccoli_Commander; move g3 from Muffin to Adambadura

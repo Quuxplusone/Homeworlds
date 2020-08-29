@@ -1,0 +1,29 @@
+Felix (0, b3r1) g3-
+Kalimantan (1, y3b2) -g3
+build g1 at Felix
+build g1 at Kalimantan
+convert g1 to y1 at Felix
+convert g1 to r1 at Kalimantan
+build y1 at Felix
+move r1 from Kalimantan to Redplanet (r1)
+build y1 at Felix
+build g1 at Kalimantan
+move y1 from Felix to Rim (g2)
+build g1 at Kalimantan
+build y2 at Rim
+move g1 from Kalimantan to Redplanet
+build y2 at Felix
+convert g3 to y3 at Kalimantan
+move y1 from Rim to Arkos (g1)
+move y3 from Kalimantan to Arkos
+convert y2 to r2 at Felix
+build r2 at Redplanet
+build y2 at Rim
+sacrifice r1 at Redplanet; capture y1 at Arkos
+build g2 at Felix
+build g2 at Redplanet
+sacrifice y2 at Rim; move y2 from Rim to Arkos; move y2 from Arkos to Kalimantan
+sacrifice g2 at Redplanet; build g2 at Kalimantan; build g2 at Kalimantan
+sacrifice r2 at Felix; capture g2 at Kalimantan; capture g2 at Kalimantan
+move y3 from Arkos to Kalimantan
+sacrifice g2 at Felix; build y2 at Kalimantan; build g2 at Kalimantan; catastrophe yellow at Kalimantan; catastrophe green at Kalimantan

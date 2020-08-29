@@ -1,0 +1,44 @@
+Randrews (0, g1b2) y3-
+Mrstickman (1, b2y3) -g3
+build y1 at Randrews
+build g1 at Mrstickman
+move y1 from Randrews to Greenie (g3)
+build g1 at Mrstickman
+build y1 at Randrews
+move g1 from Mrstickman to Lorem (b1)
+convert y1 to b1 at Randrews
+build g2 at Mrstickman
+build y1 at Randrews
+move g1 from Mrstickman to Ipsum (y1)
+move b1 from Randrews to Greenie
+sacrifice g3 at Mrstickman; build g2 at Ipsum; build g2 at Lorem; build g3 at Mrstickman
+move y1 from Randrews to Nope (g3)
+convert g3 to r3 at Mrstickman
+build y2 at Greenie
+build g3 at Mrstickman
+build y2 at Greenie
+convert g3 to r3 at Mrstickman
+convert y3 to g3 at Randrews
+move g2 from Ipsum to Greenie
+convert y2 to r2 at Greenie
+sacrifice r3 at Mrstickman; capture r2 at Greenie; capture y2 at Greenie; capture y1 at Greenie
+build b1 at Greenie
+move g2 from Greenie to Randrews
+convert g3 to r3 at Randrews
+sacrifice g2 at Lorem; build g2 at Randrews; build g3 at Randrews; catastrophe green at Randrews
+build b2 at Greenie
+capture b2 at Greenie
+build b3 at Greenie; catastrophe blue at Greenie
+build g1 at Lorem
+build y2 at Nope
+build g2 at Ipsum
+sacrifice y1 at Nope; move y2 from Nope to Randrews
+build g2 at Lorem
+move r3 from Randrews to Ipsum
+move r2 from Greenie to Randrews
+move r3 from Ipsum to Randrews
+sacrifice g2 at Lorem; build r1 at Randrews; build r1 at Randrews; catastrophe red at Randrews
+convert y2 to g2 at Randrews
+move g2 from Ipsum to Randrews
+convert g2 to r2 at Randrews
+sacrifice r3 at Mrstickman; capture r2 at Randrews

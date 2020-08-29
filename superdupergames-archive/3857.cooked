@@ -1,0 +1,13 @@
+Zoltar (0, b3y2) g3-
+Gort (1, g3y1) -r3
+build g1 at Zoltar
+build r1 at Gort
+build g1 at Zoltar
+move r1 from Gort to Yoohoo (y2)
+convert g1 to r1 at Zoltar
+move r1 from Yoohoo to Yippee (y1)
+convert g1 to y1 at Zoltar
+move r1 from Yippee to Boohoo (b3)
+build y1 at Zoltar
+build r1 at Gort
+build r2 at Zoltar

@@ -1,0 +1,8 @@
+Rootbier (0, b1r3) g3-
+Jonaskoelker (1, b2r1) -g3
+build g1 at Rootbier
+build g1 at Jonaskoelker
+convert g1 to b1 at Rootbier
+convert g1 to b1 at Jonaskoelker
+sacrifice g3 at Rootbier; build b2 at Rootbier; build b2 at Rootbier; build b3 at Rootbier
+build b3 at Jonaskoelker; catastrophe blue at Rootbier

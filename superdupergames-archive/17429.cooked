@@ -1,0 +1,54 @@
+Bhorner (0, b2y1) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Bhorner
+build g1 at Twoshort
+convert g1 to y1 at Bhorner
+convert g1 to y1 at Twoshort
+move y1 from Bhorner to Stab (g3)
+build y2 at Twoshort
+build y2 at Stab
+build y2 at Twoshort
+move y2 from Stab to Rush (g2)
+convert y2 to g2 at Twoshort
+build y2 at Rush
+move y1 from Twoshort to Bluestar (b2)
+build g1 at Bhorner
+sacrifice g2 at Twoshort; build y3 at Twoshort; build y3 at Bluestar
+build y3 at Stab
+convert y2 to r2 at Twoshort
+move y3 from Stab to Bhorner
+build y2 at Twoshort
+convert y3 to r3 at Bhorner
+move y3 from Bluestar to Stab
+move g1 from Bhorner to Patience (y3)
+build g1 at Twoshort
+move y2 from Rush to Crazy (b1)
+sacrifice y2 at Twoshort; move g3 from Twoshort to Bluestar; move g3 from Bluestar to Patience
+build r1 at Bhorner
+build r1 at Twoshort
+build y2 at Stab
+sacrifice r1 at Twoshort; capture g1 at Patience
+move y2 from Crazy to Bluestar
+move y3 from Stab to Grogar (g2)
+move r1 from Bhorner to Stab
+sacrifice g3 at Patience; build g1 at Twoshort; build g2 at Twoshort; build g3 at Patience
+sacrifice y2 at Stab; move y2 from Bluestar to Twoshort; move y2 from Rush to Twoshort
+sacrifice r2 at Twoshort; capture y2 at Twoshort; capture y2 at Twoshort
+build y2 at Stab
+convert y2 to r2 at Twoshort
+move y1 from Stab to Bluestar
+sacrifice g3 at Patience; build g2 at Patience; build g3 at Patience; build y2 at Bluestar
+build r1 at Stab
+sacrifice y2 at Twoshort; move g2 from Patience to Bhorner; move g1 from Patience to Bhorner
+sacrifice r1 at Stab; capture y1 at Bluestar
+sacrifice g3 at Patience; build g3 at Bhorner; build y2 at Twoshort; build y3 at Grogar
+capture g3 at Bhorner
+move y3 from Grogar to Bonzai (b3); catastrophe green at Bhorner
+build r1 at Stab
+sacrifice y3 at Twoshort; move y3 from Grogar to Bonzai; move y3 from Bonzai to Bhorner; move y3 from Bonzai to Bhorner
+move y2 from Stab to Bhorner; catastrophe yellow at Bhorner
+sacrifice r2 at Twoshort; capture y1 at Bluestar; capture y1 at Bluestar
+convert r3 to g3 at Bhorner
+convert g1 to b1 at Twoshort
+build g1 at Bhorner
+sacrifice y2 at Bluestar; move g1 from Twoshort to Bhorner; move g2 from Twoshort to Bhorner; catastrophe green at Bhorner

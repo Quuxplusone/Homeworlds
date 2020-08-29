@@ -1,0 +1,19 @@
+Dlwillson (0, b3y1) g3-
+Kermit (1, g1b2) -y3
+build g1 at Dlwillson
+build y1 at Kermit
+convert g1 to y1 at Dlwillson
+build y2 at Kermit
+build y2 at Dlwillson
+move y2 from Kermit to Backwater (b3)
+move y1 from Dlwillson to Carrot (g2)
+convert y2 to g2 at Backwater
+build y2 at Dlwillson
+build g1 at Backwater
+move y2 from Dlwillson to Camelot (y2)
+move y1 from Kermit to Backwater
+sacrifice g3 at Dlwillson; build y3 at Dlwillson; build y3 at Carrot
+move y1 from Backwater to Camelot
+convert y3 to r3 at Dlwillson
+build y3 at Kermit
+sacrifice y2 at Camelot; move y3 from Carrot to Backwater; move y3 from Backwater to Kermit

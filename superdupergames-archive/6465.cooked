@@ -1,0 +1,39 @@
+Uglyfoot (0, b1y3) g3-
+Nycavri (1, g2y1) -b3
+build g1 at Uglyfoot
+build b1 at Nycavri
+move g1 from Uglyfoot to Thestrip (b2)
+build b1 at Nycavri
+build g1 at Uglyfoot
+convert b1 to g1 at Nycavri
+build g2 at Thestrip
+build g2 at Nycavri
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Thestrip
+convert b3 to y3 at Nycavri
+convert g3 to y3 at Uglyfoot
+move g1 from Nycavri to Mv (b3)
+convert g2 to r2 at Thestrip
+convert g1 to y1 at Mv
+convert g1 to y1 at Thestrip
+sacrifice g2 at Nycavri; build y2 at Mv; build b1 at Nycavri
+move g3 from Thestrip to Mv
+convert y3 to r3 at Nycavri
+sacrifice r2 at Thestrip; capture y2 at Mv; capture y1 at Mv
+build b2 at Nycavri
+convert y1 to r1 at Mv
+convert b2 to r2 at Nycavri
+build r1 at Mv
+move r2 from Nycavri to Iw (y3)
+build r1 at Mv
+convert r3 to g3 at Nycavri
+move r1 from Mv to Nycavri
+move r2 from Iw to Nycavri
+build r2 at Nycavri
+capture r2 at Nycavri
+build r2 at Nycavri; catastrophe red at Nycavri
+convert b1 to r1 at Nycavri
+build g1 at Mv
+build b1 at Nycavri
+sacrifice y3 at Uglyfoot; move g1 from Mv to Nycavri; move g3 from Mv to Nycavri; move y2 from Mv to Nycavri; catastrophe green at Nycavri
+convert b1 to g1 at Nycavri
+sacrifice g3 at Uglyfoot; build y1 at Nycavri; build y2 at Nycavri; build g1 at Uglyfoot; catastrophe yellow at Nycavri

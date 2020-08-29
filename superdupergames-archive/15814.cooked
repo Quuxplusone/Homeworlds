@@ -1,0 +1,34 @@
+Moves (0, b1y2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Moves
+build g1 at Twoshort
+move g1 from Moves to Kuat (g3)
+convert g1 to y1 at Twoshort
+build g1 at Moves
+build g1 at Twoshort
+build g2 at Moves
+build g2 at Twoshort
+move g2 from Moves to Gunray (b3)
+move g2 from Twoshort to Bluonia (b2)
+convert g1 to y1 at Moves
+sacrifice g3 at Twoshort; build g1 at Twoshort; build g2 at Bluonia; build g3 at Twoshort
+move y1 from Moves to Kessel (y3)
+sacrifice g3 at Twoshort; build y1 at Twoshort; build y2 at Twoshort; build g3 at Twoshort
+sacrifice g2 at Gunray; build g2 at Moves; build y2 at Kessel
+sacrifice y2 at Twoshort; move y1 from Twoshort to Temporary (r2); move y1 from Temporary to Kessel; catastrophe yellow at Kessel
+convert g2 to y2 at Moves
+move g1 from Twoshort to Grendel (g2)
+build y1 at Moves
+convert g2 to y2 at Bluonia
+build g2 at Moves
+sacrifice g3 at Twoshort; build y1 at Bluonia; build y3 at Twoshort; build g3 at Twoshort
+move y1 from Moves to Aimless (y3)
+sacrifice y1 at Twoshort; move g1 from Grendel to Yolonda (y3)
+convert g2 to r2 at Moves
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g2 at Bluonia; build g3 at Twoshort
+move y2 from Moves to Kuat
+convert g2 to r2 at Bluonia
+move g1 from Kuat to Moves
+sacrifice y2 at Bluonia; move g2 from Yolonda to Moves; move g1 from Yolonda to Moves; catastrophe green at Moves
+convert r2 to g2 at Moves
+sacrifice y3 at Twoshort; move g3 from Twoshort to Goodgame (b2); move g3 from Goodgame to Thanks (b3); move g3 from Thanks to Moves

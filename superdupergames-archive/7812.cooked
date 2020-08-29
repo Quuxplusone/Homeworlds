@@ -1,0 +1,20 @@
+Marcus (0, b3y2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Marcus
+build g1 at Twoshort
+move g1 from Marcus to Procyon (b1)
+convert g1 to y1 at Twoshort
+build g1 at Procyon
+build y1 at Twoshort
+convert g1 to y1 at Procyon
+build g1 at Twoshort
+build g1 at Procyon
+move y1 from Twoshort to Grogar (g2)
+build y2 at Procyon
+build y2 at Grogar
+convert y2 to r2 at Procyon
+move y2 from Grogar to Bluonia (b1)
+build g2 at Marcus
+sacrifice g3 at Twoshort; build y2 at Grogar; build y3 at Bluonia; build y3 at Twoshort
+sacrifice g3 at Marcus; build g2 at Marcus; build g3 at Marcus; build g3 at Procyon
+sacrifice y3 at Twoshort; move g1 from Twoshort to Grogar; move g1 from Grogar to Procyon; move g1 from Procyon to Marcus; catastrophe green at Marcus

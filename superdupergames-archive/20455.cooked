@@ -1,0 +1,35 @@
+Zoltar (0, r1b2) g3-
+Adambadura (1, g1b2) -y3
+build g1 at Zoltar
+build y1 at Adambadura
+build g1 at Zoltar
+build y1 at Adambadura
+convert g3 to y3 at Zoltar
+move y1 from Adambadura to Shipyard (g3)
+build g2 at Zoltar
+build y1 at Adambadura
+convert g2 to r2 at Zoltar
+build y2 at Shipyard
+move r2 from Zoltar to Shipyard
+sacrifice y1 at Shipyard; move y2 from Shipyard to Runaways (g2)
+build g2 at Zoltar
+convert y1 to r1 at Adambadura
+convert g2 to y2 at Zoltar
+build r1 at Adambadura
+move y2 from Zoltar to Shipyard
+move r1 from Adambadura to Highway (y3)
+build r2 at Shipyard
+build r2 at Adambadura
+move r2 from Shipyard to Greenland (g2)
+convert r1 to b1 at Adambadura
+build g2 at Zoltar
+convert y3 to g3 at Adambadura
+move g2 from Zoltar to Redgiant (r3)
+move b1 from Adambadura to Drydocks (g3)
+move g1 from Zoltar to Mellowyellow (y3)
+sacrifice g3 at Adambadura; build r1 at Highway; build r3 at Highway; build r3 at Adambadura
+sacrifice g2 at Redgiant; build g2 at Mellowyellow; build g3 at Zoltar
+sacrifice y2 at Runaways; move r1 from Highway to Zoltar; move r1 from Highway to Zoltar
+sacrifice g3 at Zoltar; build g2 at Mellowyellow; build r3 at Shipyard; build g3 at Zoltar
+move r3 from Highway to Zoltar
+sacrifice y3 at Zoltar; move r2 from Shipyard to Adambadura; move r3 from Shipyard to Adambadura; move g2 from Mellowyellow to Adambadura; catastrophe red at Zoltar; catastrophe red at Adambadura

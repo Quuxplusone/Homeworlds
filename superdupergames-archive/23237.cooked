@@ -1,0 +1,36 @@
+Dlwillson (0, b1r3) g3-
+Broccoli_Commander (1, b1y2) -g3
+build g1 at Dlwillson
+build g1 at Broccoli_Commander
+convert g1 to y1 at Dlwillson
+build g1 at Broccoli_Commander
+build g1 at Dlwillson
+move g1 from Broccoli_Commander to Blueberry (b3)
+convert g1 to b1 at Dlwillson
+build g1 at Broccoli_Commander
+build g2 at Dlwillson
+move g1 from Broccoli_Commander to Mushroom (b3)
+build b2 at Dlwillson
+build g2 at Blueberry
+convert b2 to r2 at Dlwillson
+sacrifice g3 at Broccoli_Commander; build g2 at Broccoli_Commander; build g3 at Broccoli_Commander; build g3 at Blueberry
+convert g3 to y3 at Dlwillson
+move g2 from Broccoli_Commander to Lettuce (g3)
+move r2 from Dlwillson to Sun (y2)
+convert g2 to r2 at Blueberry
+move r2 from Sun to Mushroom
+sacrifice g1 at Mushroom; build r1 at Blueberry
+sacrifice g2 at Dlwillson; build b2 at Dlwillson; build r1 at Mushroom
+sacrifice g3 at Broccoli_Commander; build g1 at Broccoli_Commander; build g2 at Broccoli_Commander; build g2 at Blueberry
+convert y3 to g3 at Dlwillson
+convert r1 to y1 at Blueberry
+move b2 from Dlwillson to Sun (y2)
+sacrifice g3 at Blueberry; build g3 at Blueberry; build r1 at Blueberry; build r1 at Blueberry
+convert r2 to y2 at Mushroom
+sacrifice g3 at Blueberry; build g3 at Blueberry; build y1 at Blueberry; build y3 at Blueberry
+sacrifice g3 at Dlwillson; build y3 at Dlwillson; build b2 at Sun; build y3 at Mushroom
+sacrifice g2 at Broccoli_Commander; build g2 at Lettuce; build g3 at Broccoli_Commander
+move b2 from Sun to Blueberry
+sacrifice y3 at Blueberry; move g3 from Blueberry to Blueberry_Rip (b2); move y1 from Blueberry to Blueberry_Rip; move r1 from Blueberry to Blueberry_Rip
+sacrifice y3 at Mushroom; move b2 from Blueberry to Broccoli_Commander; move b2 from Sun to Blueberry; move b2 from Blueberry to Broccoli_Commander
+sacrifice r2 at Blueberry; capture b2 at Broccoli_Commander; capture b2 at Broccoli_Commander

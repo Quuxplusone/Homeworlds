@@ -1,0 +1,38 @@
+Slothbear (0, b2y1) g3-
+Kensho (1, g1b2) -y3
+build g1 at Slothbear
+build y1 at Kensho
+move g1 from Slothbear to Katastrofo (g3)
+convert y1 to g1 at Kensho
+build g2 at Slothbear
+move g1 from Kensho to Katastrofo
+convert g2 to y2 at Slothbear
+build y1 at Kensho
+build g2 at Slothbear
+build y1 at Kensho
+convert y2 to b2 at Slothbear
+convert y1 to r1 at Kensho
+move b2 from Slothbear to Katastrofo
+move r1 from Kensho to Katastrofo
+move g3 from Slothbear to Katastrofo
+move y1 from Kensho to Katastrofo
+build b1 at Katastrofo
+build r1 at Katastrofo
+convert b2 to y2 at Katastrofo
+build y1 at Katastrofo
+build y2 at Katastrofo
+build y2 at Kensho
+build y3 at Katastrofo
+convert y2 to b2 at Kensho
+convert y2 to r2 at Katastrofo
+move b2 from Kensho to Katastrofo
+build g2 at Slothbear
+build y2 at Kensho
+move g2 from Slothbear to Katastrofo
+move y2 from Kensho to Katastrofo
+build g2 at Slothbear
+build y2 at Kensho
+sacrifice y2 at Katastrofo
+convert y2 to r2 at Kensho
+convert g2 to y2 at Slothbear
+pass

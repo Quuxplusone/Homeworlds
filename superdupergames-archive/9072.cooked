@@ -1,0 +1,21 @@
+Zoltar (0, r1b3) g3-
+Mikeyarrum (1, g1b2) -y3
+build g1 at Zoltar
+build y1 at Mikeyarrum
+build g1 at Zoltar
+build y1 at Mikeyarrum
+convert g3 to y3 at Zoltar
+move y1 from Mikeyarrum to Asagi (b3)
+build g2 at Zoltar
+build y1 at Mikeyarrum
+build y2 at Zoltar
+move y1 from Mikeyarrum to Fuuka (g3)
+move y2 from Zoltar to Plorrgh (b2)
+build y2 at Fuuka
+sacrifice g2 at Zoltar; build y2 at Zoltar; build y3 at Plorrgh
+convert y1 to r1 at Mikeyarrum
+convert y2 to r2 at Plorrgh
+move y2 from Fuuka to Ena (b2)
+move g1 from Zoltar to Plorrgh
+convert y2 to g2 at Ena
+build g2 at Plorrgh

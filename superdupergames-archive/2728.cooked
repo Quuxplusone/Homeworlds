@@ -1,0 +1,91 @@
+Twoshort (0, y1b2) g3-
+Jeep (1, g3b1) -y3
+build g1 at Twoshort
+build y1 at Jeep
+build g1 at Twoshort
+convert y3 to g3 at Jeep
+move g1 from Twoshort to Yolonda (y3)
+move y1 from Jeep to Thumb (g2)
+convert g1 to b1 at Twoshort
+build g1 at Jeep
+build b1 at Twoshort
+convert g1 to y1 at Jeep
+build g1 at Twoshort
+sacrifice g3 at Jeep; build y2 at Jeep; build y2 at Thumb; build y2 at Thumb
+move b1 from Twoshort to Grogar (g3)
+build y3 at Jeep
+sacrifice g3 at Twoshort; build b2 at Grogar; build b2 at Grogar; build b3 at Twoshort
+convert y3 to b3 at Jeep
+convert b3 to y3 at Twoshort
+build y3 at Jeep
+move b1 from Twoshort to Yolonda
+move b3 from Jeep to Bellina (g2)
+build b3 at Yolonda
+build b3 at Bellina
+sacrifice y3 at Twoshort; move b2 from Grogar to Bellina; move b1 from Grogar to Bellina; move b3 from Yolonda to Twoshort; catastrophe blue at Bellina
+move y2 from Jeep to Bellina (b2)
+convert b3 to y3 at Twoshort
+convert y3 to b3 at Jeep
+build b1 at Grogar
+build y3 at Jeep
+build b3 at Yolonda
+convert y3 to r3 at Jeep
+build b3 at Grogar
+build y3 at Jeep
+convert b2 to r2 at Grogar
+move b3 from Jeep to Thumb
+convert b3 to g3 at Grogar
+convert y3 to b3 at Jeep
+build g1 at Grogar
+build y3 at Jeep
+sacrifice g3 at Grogar; build g2 at Grogar; build g2 at Yolonda; build g3 at Twoshort
+convert y3 to r3 at Jeep
+move y3 from Twoshort to Grogar
+build y3 at Jeep
+convert b3 to r3 at Yolonda
+move y2 from Thumb to Stage (b3)
+sacrifice g3 at Twoshort; build r1 at Grogar; build r1 at Yolonda; build g3 at Twoshort
+move r3 from Jeep to Thumb
+move r2 from Grogar to Bellina
+move y2 from Bellina to Stage
+move r1 from Yolonda to Twoshort
+move y1 from Thumb to Stage
+sacrifice g3 at Twoshort; build b2 at Grogar; build r1 at Twoshort; build g3 at Twoshort
+build r2 at Jeep
+move y3 from Grogar to Bellina
+move b3 from Thumb to Stage
+move y3 from Bellina to Stage; catastrophe yellow at Stage
+convert b3 to y3 at Stage
+sacrifice b2 at Grogar; convert r2 to y2 at Bellina; convert g2 to y2 at Grogar
+move r3 from Thumb to Stage2 (b3)
+sacrifice g3 at Twoshort; build y1 at Grogar; build g2 at Grogar; build g3 at Twoshort
+move b3 from Jeep to Thumb
+sacrifice g3 at Twoshort; build g3 at Twoshort; build b2 at Yolonda; build r2 at Yolonda
+move b3 from Thumb to Grogar
+sacrifice y2 at Grogar; move b1 from Grogar to Thumb; move r3 from Yolonda to Thumb
+sacrifice y2 at Thumb; move b3 from Grogar to Bellina; move b3 from Bellina to Yolonda
+sacrifice b1 at Thumb; convert g1 to b1 at Yolonda; catastrophe blue at Yolonda
+convert y1 to g1 at Jeep
+move g1 from Grogar to Yak (y2)
+move g1 from Jeep to Mover (y2)
+sacrifice g3 at Twoshort; build g3 at Twoshort; build r2 at Thumb; build y1 at Bellina
+convert r2 to b2 at Jeep
+convert r1 to b1 at Twoshort
+build r1 at Jeep
+move b1 from Twoshort to Grogar
+move r1 from Jeep to Mover
+sacrifice g3 at Twoshort; build g3 at Twoshort; build b1 at Grogar; build r2 at Grogar
+move b2 from Jeep to Mover
+sacrifice y2 at Bellina; move r2 from Yolonda to Mover; move b1 from Grogar to Mover
+capture r2 at Mover
+sacrifice g3 at Twoshort; build y2 at Grogar; build b3 at Mover; build g3 at Twoshort
+sacrifice y3 at Stage; move g1 from Mover to Saver (y3); move b2 from Mover to Stage2; move r2 from Mover to Sigh (b3)
+sacrifice g2 at Yolonda; build g2 at Yak; build y3 at Bellina
+sacrifice g1 at Saver; build y3 at Jeep
+sacrifice y2 at Grogar; move g1 from Yak to Jeep; move g2 from Yak to Jeep
+sacrifice r2 at Sigh; capture g2 at Jeep; capture g1 at Jeep
+sacrifice y3 at Bellina; move g2 from Grogar to Bellina; move g2 from Bellina to Jeep; move y1 from Bellina to Jeep; catastrophe green at Jeep
+sacrifice b2 at Stage2; convert y3 to g3 at Jeep; convert r3 to y3 at Stage2
+convert g3 to y3 at Twoshort
+capture y1 at Jeep
+sacrifice y3 at Twoshort; move b3 from Mover to Jeep; move b1 from Mover to Jeep; move b1 from Grogar to Jeep; catastrophe blue at Jeep

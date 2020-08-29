@@ -1,0 +1,24 @@
+Caru (0, y1b2) g3-
+Sirruthvenmurgatroyd (1, y3b2) -g3
+build g1 at Caru
+build g1 at Sirruthvenmurgatroyd
+move g1 from Caru to Alpha (r3)
+move g1 from Sirruthvenmurgatroyd to Sol (y1)
+build g1 at Caru
+build g2 at Sirruthvenmurgatroyd
+sacrifice g3 at Caru; build g2 at Alpha; build g2 at Caru; build g3 at Caru
+build g3 at Sirruthvenmurgatroyd
+convert g2 to y2 at Caru
+convert g3 to y3 at Sirruthvenmurgatroyd
+move g1 from Caru to Beta (y3)
+build g2 at Sol
+build g3 at Caru
+convert g2 to r2 at Sirruthvenmurgatroyd
+build g2 at Beta
+move g3 from Sirruthvenmurgatroyd to Gamma (y1)
+build y2 at Caru
+sacrifice g2 at Sol; build y2 at Sirruthvenmurgatroyd; build g2 at Sol
+convert y2 to b2 at Caru
+move g3 from Gamma to Delta (b3)
+move y2 from Caru to Alpha
+sacrifice g2 at Sol; build g2 at Sol; build r1 at Sirruthvenmurgatroyd

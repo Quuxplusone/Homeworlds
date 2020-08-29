@@ -1,0 +1,51 @@
+Jeep (0, r1b2) g3-
+Ts52 (1, r2b3) -g3
+build g1 at Jeep
+build g1 at Ts52
+convert g1 to y1 at Jeep
+convert g1 to y1 at Ts52
+build g1 at Jeep
+build g1 at Ts52
+move g1 from Jeep to Moon (b3)
+move g1 from Ts52 to Grover (b1)
+move y1 from Jeep to Thumb (g3)
+move y1 from Ts52 to Grover
+build g1 at Moon
+build g2 at Ts52
+convert g1 to y1 at Moon
+build y2 at Grover
+build y2 at Moon
+move y1 from Grover to Ts52
+build g1 at Jeep
+build g2 at Grover
+convert g1 to r1 at Jeep
+convert g1 to r1 at Grover
+build g1 at Jeep
+build r2 at Grover
+move y1 from Moon to Jeep
+move r2 from Grover to Bigbird (y3)
+sacrifice g3 at Jeep; build y2 at Thumb; build y3 at Moon; build y3 at Jeep
+move r1 from Grover to Kermit (g3)
+move y3 from Moon to Grover
+move y2 from Grover to Kermit
+sacrifice r1 at Jeep; capture g2 at Grover
+move g2 from Ts52 to Gonzo (b1)
+build g1 at Grover
+build g2 at Gonzo
+move g1 from Moon to Stage (b1)
+convert g3 to r3 at Ts52
+build g3 at Stage
+move y2 from Kermit to Gonzo
+convert g2 to r2 at Grover
+sacrifice g2 at Gonzo; build r1 at Kermit; build r3 at Bigbird
+sacrifice g3 at Stage; build g2 at Grover; build g2 at Stage; build g3 at Jeep
+move r3 from Bigbird to Stage
+sacrifice g2 at Stage; build r3 at Grover; build g2 at Grover
+sacrifice y2 at Gonzo; move r1 from Kermit to Grover; move r1 from Kermit to Grover; catastrophe red at Grover
+convert g2 to r2 at Grover
+build g2 at Gonzo
+sacrifice g3 at Jeep; build g3 at Jeep; build g3 at Grover; build y2 at Grover
+capture g1 at Stage
+build r1 at Grover
+sacrifice y1 at Ts52; move r3 from Stage to Thumb
+sacrifice y2 at Thumb; move r1 from Grover to Ts52; move r2 from Grover to Ts52; catastrophe red at Ts52

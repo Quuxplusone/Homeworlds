@@ -1,0 +1,25 @@
+Jesse (0, r1b3) g3-
+Smilingra (1, g1b2) -y3
+build g1 at Jesse
+build y1 at Smilingra
+build g1 at Jesse
+move y1 from Smilingra to Alpha (g3)
+convert g3 to y3 at Jesse
+convert y3 to g3 at Smilingra
+move g1 from Jesse to Broog (b2)
+build y1 at Alpha
+build g2 at Broog
+move y1 from Alpha to Smilingra
+convert g2 to y2 at Broog
+move g3 from Smilingra to Gamma (r3)
+build g2 at Broog
+build y1 at Smilingra
+build y2 at Jesse
+build y2 at Alpha
+build y3 at Broog
+move y1 from Smilingra to Gamma
+convert g2 to r2 at Broog
+build y3 at Smilingra
+sacrifice y2 at Jesse; move y3 from Broog to Alpha; move y3 from Alpha to Smilingra
+convert y3 to r3 at Smilingra
+sacrifice r2 at Broog; capture r3 at Smilingra; capture y1 at Smilingra

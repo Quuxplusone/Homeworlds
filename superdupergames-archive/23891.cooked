@@ -1,0 +1,8 @@
+Goblin981 (0, g3b1) r3-
+Dlwillson (1, b3y1) -g3
+build r1 at Goblin981
+build g1 at Dlwillson
+convert r1 to y1 at Goblin981
+convert g1 to y1 at Dlwillson
+build y2 at Goblin981
+convert y1 to r1 at Dlwillson

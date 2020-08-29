@@ -1,0 +1,33 @@
+Lowtiergrgl (0, g1y1) r3-
+Doctorfedora (1, r2b1) -g3
+build r1 at Lowtiergrgl
+build g1 at Doctorfedora
+build r1 at Lowtiergrgl
+convert g1 to y1 at Doctorfedora
+move r1 from Lowtiergrgl to Pooptown (b3)
+move y1 from Doctorfedora to Sloam (g3)
+move r3 from Lowtiergrgl to Pooptown
+build y1 at Sloam
+build r1 at Lowtiergrgl
+build y2 at Sloam
+build r2 at Lowtiergrgl
+move y1 from Sloam to Funkdunker (b2)
+move r1 from Lowtiergrgl to Sloam
+move y1 from Sloam to Funkdunker
+build r2 at Sloam
+move y2 from Sloam to Funkdunker
+build r3 at Lowtiergrgl
+convert y1 to g1 at Funkdunker
+build r3 at Sloam
+build y1 at Funkdunker
+convert r3 to y3 at Pooptown
+build g1 at Doctorfedora
+sacrifice y3 at Pooptown; move r3 from Sloam to Doctorfedora; move r3 from Lowtiergrgl to Pooptown; move r3 from Pooptown to Doctorfedora
+convert g3 to r3 at Doctorfedora; catastrophe red at Doctorfedora
+move r2 from Lowtiergrgl to Pooptown
+build g2 at Doctorfedora
+convert r2 to y2 at Pooptown
+convert y2 to r2 at Funkdunker
+sacrifice y2 at Pooptown; move r2 from Sloam to Doctorfedora; move r1 from Sloam to Doctorfedora
+build g2 at Doctorfedora
+convert r2 to g2 at Doctorfedora; catastrophe green at Doctorfedora

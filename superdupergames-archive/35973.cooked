@@ -1,0 +1,38 @@
+Disaac (0, b3y1) g3-
+Trydnt (1, y2b1) -g3
+build g1 at Disaac
+build g1 at Trydnt
+convert g1 to b1 at Disaac
+convert g1 to y1 at Trydnt
+build g1 at Disaac
+build y1 at Trydnt
+build b1 at Disaac
+move y1 from Trydnt to G3 (g3)
+move b1 from Disaac to Face (g2)
+sacrifice g3 at Trydnt; build y2 at G3; build y2 at G3; build y3 at Trydnt
+build b2 at Face
+convert y3 to g3 at Trydnt
+build b2 at Disaac
+build y3 at Trydnt
+move b2 from Disaac to Cloud (g2)
+move y3 from Trydnt to B3 (b3)
+sacrifice g3 at Disaac; build b2 at Cloud; build b3 at Disaac; build g1 at Disaac
+build y3 at Trydnt
+convert b3 to y3 at Disaac
+move y3 from Trydnt to Be3 (b3)
+move g1 from Disaac to Face
+convert y3 to g3 at B3
+build y3 at Disaac
+sacrifice y2 at G3; move y1 from G3 to Face; move y1 from Face to Disaac; catastrophe yellow at Disaac
+convert g1 to y1 at Face
+build g1 at Trydnt
+convert b2 to y2 at Cloud
+convert g1 to r1 at Trydnt
+convert b2 to r2 at Face
+sacrifice y2 at G3; move y3 from Be3 to Cloud; move y3 from Cloud to Disaac
+sacrifice y2 at Cloud; move b1 from Disaac to Trydnt; move y1 from Face to Disaac
+capture b1 at Trydnt
+build b2 at Face
+convert g3 to r3 at B3
+build y1 at Disaac
+sacrifice r3 at B3; capture y1 at Disaac; capture y1 at Disaac; capture g1 at Disaac

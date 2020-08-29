@@ -1,0 +1,40 @@
+Mneme (0, r1b2) g3-
+Twoshort (1, b1r3) -g3
+build g1 at Mneme
+build g1 at Twoshort
+convert g1 to b1 at Mneme
+convert g1 to b1 at Twoshort
+build b2 at Mneme
+build b2 at Twoshort
+convert b2 to y2 at Mneme
+convert b1 to y1 at Twoshort
+build b1 at Mneme
+build b2 at Twoshort
+move b1 from Mneme to Happiness (g3)
+convert b2 to r2 at Twoshort
+sacrifice g3 at Mneme; build b2 at Happiness; build b3 at Happiness; build b3 at Mneme
+move b2 from Twoshort to Yolonda (y2)
+convert b3 to r3 at Happiness
+build y1 at Twoshort
+convert b3 to g3 at Mneme
+move y1 from Twoshort to Grogar (g2)
+convert b2 to y2 at Happiness
+build g1 at Twoshort
+move b1 from Mneme to Sunbright (y3)
+sacrifice g3 at Twoshort; build y1 at Twoshort; build y3 at Twoshort; build y3 at Grogar
+sacrifice y2 at Mneme; move y2 from Happiness to Grogar; move y2 from Grogar to Twoshort; catastrophe yellow at Twoshort
+move y3 from Grogar to Twoshort
+build g1 at Mneme
+build y1 at Twoshort
+convert g3 to y3 at Mneme
+build y1 at Grogar
+build y2 at Mneme
+convert y3 to g3 at Twoshort
+move y2 from Mneme to Happiness
+move y1 from Grogar to Greenland (g3)
+build r1 at Happiness
+move g1 from Twoshort to Greenonia (g2)
+move r3 from Happiness to Yolonda
+move b2 from Yolonda to Sunbright
+move r3 from Yolonda to Twoshort
+sacrifice r2 at Twoshort; capture r3 at Twoshort; capture b1 at Sunbright

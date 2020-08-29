@@ -1,0 +1,32 @@
+Goblin981 (0, b1y2) g3-
+Sirruthvenmurgatroyd (1, g3b2) -y3
+build g1 at Goblin981
+build y1 at Sirruthvenmurgatroyd
+build g1 at Goblin981
+convert y1 to g1 at Sirruthvenmurgatroyd
+move g1 from Goblin981 to Alpha (y3)
+build g2 at Sirruthvenmurgatroyd
+move g1 from Goblin981 to Beta (y3)
+move g1 from Sirruthvenmurgatroyd to Gamma (y1)
+build g2 at Goblin981
+build g2 at Gamma
+convert g2 to r2 at Goblin981
+move g2 from Gamma to Beta
+build g2 at Goblin981
+build g3 at Gamma
+convert g2 to r2 at Goblin981
+move g1 from Gamma to Delta (b3)
+move r2 from Goblin981 to Beta
+build g2 at Delta
+capture g2 at Beta
+build y1 at Sirruthvenmurgatroyd
+move g1 from Beta to Epsilon (y1)
+build y2 at Sirruthvenmurgatroyd
+build r1 at Goblin981
+move y1 from Sirruthvenmurgatroyd to Gamma
+convert r1 to b1 at Goblin981
+build y2 at Sirruthvenmurgatroyd
+move r2 from Beta to Gamma
+convert y2 to r2 at Sirruthvenmurgatroyd
+capture y1 at Gamma
+sacrifice r2 at Sirruthvenmurgatroyd; capture r2 at Gamma; capture y1 at Gamma

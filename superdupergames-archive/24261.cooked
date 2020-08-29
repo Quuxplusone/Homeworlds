@@ -1,0 +1,23 @@
+Broccoli_Commander (0, r1b2) g3-
+Mandrel (1, b3r2) -g3
+build g1 at Broccoli_Commander
+build g1 at Mandrel
+convert g1 to y1 at Broccoli_Commander
+convert g1 to y1 at Mandrel
+build g1 at Broccoli_Commander
+build g1 at Mandrel
+move g1 from Broccoli_Commander to Blueberry (b3)
+move g1 from Mandrel to Sale (b1)
+build g1 at Blueberry
+build g2 at Sale
+build g2 at Broccoli_Commander
+convert g1 to r1 at Sale
+build g1 at Blueberry
+build r1 at Sale
+sacrifice g3 at Broccoli_Commander; build g2 at Blueberry; build g3 at Broccoli_Commander; build g3 at Broccoli_Commander
+build r2 at Sale; catastrophe green at Blueberry
+convert g3 to r3 at Broccoli_Commander
+convert r2 to y2 at Sale
+move r3 from Broccoli_Commander to Cauliflower (y3)
+build r2 at Sale
+move g2 from Broccoli_Commander to Tomatoe (r3)

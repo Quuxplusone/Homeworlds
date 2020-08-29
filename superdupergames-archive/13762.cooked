@@ -1,0 +1,35 @@
+Twoshort (0, r1b3) g3-
+Mindloss (1, b1g2) -y3
+build g1 at Twoshort
+build y1 at Mindloss
+build g1 at Twoshort
+move y1 from Mindloss to Lorenzo (g3)
+convert g1 to y1 at Twoshort
+build y1 at Mindloss
+build y2 at Twoshort
+build y2 at Lorenzo
+move y1 from Twoshort to Grogar (g2)
+convert y1 to r1 at Mindloss
+build y1 at Grogar
+build y2 at Mindloss
+build y3 at Twoshort
+build y3 at Lorenzo
+move y1 from Grogar to Lorenzo; catastrophe yellow at Lorenzo
+move y2 from Mindloss to Sophia (b3)
+move y3 from Twoshort to Gonzo (g2)
+build y1 at Mindloss
+build g1 at Twoshort
+convert y1 to g1 at Mindloss
+move g1 from Twoshort to Bomber (b2)
+build g3 at Mindloss
+sacrifice y2 at Twoshort; move g1 from Bomber to Boomtime (b3); move g1 from Boomtime to Mindloss; catastrophe green at Mindloss
+move y2 from Sophia to Grogar
+move y1 from Grogar to Twoshort
+convert r1 to g1 at Mindloss
+convert g1 to b1 at Twoshort
+build g1 at Mindloss
+move b1 from Twoshort to Gonzo
+convert g1 to r1 at Mindloss
+sacrifice g3 at Twoshort; build b1 at Gonzo; build b2 at Gonzo
+move r1 from Mindloss to Gonzo
+sacrifice y3 at Gonzo; move b1 from Gonzo to Mindloss; move b1 from Gonzo to Mindloss; move b2 from Gonzo to Mindloss; catastrophe blue at Mindloss

@@ -1,0 +1,38 @@
+Ajo (0, r3b2) g3-
+Teeteetee (1, b1y2) -g3
+build g1 at Ajo
+build g1 at Teeteetee
+convert g3 to y3 at Ajo
+convert g1 to b1 at Teeteetee
+build g1 at Ajo
+build b1 at Teeteetee
+move g1 from Ajo to Alpha (y1)
+move b1 from Teeteetee to Paris (g3)
+build g1 at Ajo
+build b2 at Teeteetee
+build g2 at Alpha
+build g2 at Teeteetee
+move g2 from Alpha to Beta (b3)
+build b2 at Paris
+build g2 at Beta
+sacrifice g3 at Teeteetee; build g3 at Teeteetee; build g3 at Teeteetee; build b3 at Paris
+convert g2 to y2 at Beta
+move g3 from Teeteetee to Beta
+move y2 from Beta to Teeteetee
+convert b3 to r3 at Paris
+sacrifice g2 at Beta; build y1 at Teeteetee; build y1 at Teeteetee; catastrophe yellow at Teeteetee
+convert g3 to y3 at Teeteetee
+build g2 at Alpha
+move b1 from Teeteetee to Berlin (y3)
+move g2 from Alpha to Gamma (b3)
+sacrifice g2 at Teeteetee; build g2 at Beta; build b3 at Teeteetee
+build g2 at Gamma
+convert b3 to g3 at Teeteetee
+build y1 at Ajo
+sacrifice g3 at Beta; build g3 at Beta; build b3 at Teeteetee; build r1 at Paris
+move y1 from Ajo to Alpha
+sacrifice y3 at Teeteetee; move b3 from Teeteetee to Ajo; move g3 from Beta to Teeteetee; move g3 from Teeteetee to Ajo
+build y1 at Ajo
+sacrifice r3 at Paris; capture y3 at Ajo; capture y1 at Ajo; capture g1 at Ajo
+pass
+capture g1 at Ajo

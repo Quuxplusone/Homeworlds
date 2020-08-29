@@ -1,0 +1,25 @@
+Keith (0, y3b3) g3-
+Sordros (1, y1b3) -g3
+build g1 at Keith
+build g1 at Sordros
+convert g1 to r1 at Keith
+convert g1 to r1 at Sordros
+build g1 at Keith
+build g1 at Sordros
+convert g1 to y1 at Keith
+convert g1 to b1 at Sordros
+build y1 at Keith
+build g1 at Sordros
+move y1 from Keith to Midworld (g2)
+build g1 at Sordros
+build y2 at Midworld
+move g1 from Sordros to Eco2 (g2)
+build g1 at Keith
+move g1 from Sordros to Sol2 (y2)
+move g1 from Keith to Born (y2)
+move g1 from Sol2 to Sol3 (g3)
+build g2 at Keith
+build b1 at Sordros
+sacrifice g3 at Keith; build g3 at Keith; build y2 at Midworld; build y3 at Keith
+sacrifice g1 at Eco2; build g1 at Sordros
+sacrifice y3 at Keith; move g1 from Born to Sordros; move g2 from Keith to Midworld; move g2 from Midworld to Sordros; catastrophe green at Sordros

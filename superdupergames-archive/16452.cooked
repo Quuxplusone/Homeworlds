@@ -1,0 +1,13 @@
+Rootbier (0, y1b2) g3-
+Dethdukk (1, r3b2) -g3
+build g1 at Rootbier
+build g1 at Dethdukk
+convert g1 to y1 at Rootbier
+convert g1 to y1 at Dethdukk
+build y2 at Rootbier
+build y2 at Dethdukk
+convert y1 to r1 at Rootbier
+build g1 at Dethdukk
+build g1 at Rootbier
+move g1 from Dethdukk to Green (g1)
+convert g1 to b1 at Rootbier

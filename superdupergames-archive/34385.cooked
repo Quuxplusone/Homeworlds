@@ -1,0 +1,45 @@
+Draw5Playall (0, b3r1) g3-
+Speardane (1, g1b2) -y3
+build g1 at Draw5Playall
+build y1 at Speardane
+build g1 at Draw5Playall
+convert y3 to r3 at Speardane
+convert g3 to y3 at Draw5Playall
+build y1 at Speardane
+build g2 at Draw5Playall
+move y1 from Speardane to Delos (g3)
+move g2 from Draw5Playall to Notariffs (b2)
+build y1 at Speardane
+build g2 at Notariffs
+move y1 from Speardane to Lebling (g3)
+build g2 at Draw5Playall
+build r1 at Speardane
+build g3 at Notariffs
+move r1 from Speardane to Delos
+convert g2 to r2 at Notariffs
+build y2 at Speardane
+build g2 at Notariffs
+build y2 at Speardane
+convert g3 to y3 at Notariffs
+build y2 at Delos
+build y3 at Draw5Playall
+move y1 from Speardane to Kotok (g3)
+move g2 from Notariffs to Kotok
+move y1 from Kotok to Minsky (b2)
+sacrifice g2 at Kotok; build g2 at Notariffs; build g3 at Notariffs
+move y1 from Delos to Minsky
+move g2 from Notariffs to Nowalls (b3)
+sacrifice y2 at Speardane; move y1 from Minsky to Draw5Playall; move y1 from Minsky to Draw5Playall; catastrophe yellow at Draw5Playall
+build y1 at Notariffs
+build y1 at Delos
+move y3 from Notariffs to Draw5Playall
+move y1 from Delos to Kotok (b2)
+move g2 from Notariffs to Lebling
+move y1 from Lebling to Kotok
+sacrifice g2 at Lebling; build g2 at Notariffs; build g3 at Nowalls
+convert y1 to r1 at Kotok
+sacrifice y3 at Draw5Playall; move g3 from Nowalls to Speardane; move g3 from Notariffs to Delos; move g3 from Delos to Speardane
+capture g3 at Speardane
+sacrifice r2 at Notariffs; capture g3 at Speardane; capture r3 at Speardane
+pass
+capture y2 at Speardane

@@ -1,0 +1,43 @@
+Felix (0, y3b2) g3-
+Wil (1, r3b1) -g3
+build g1 at Felix
+build g1 at Wil
+convert g1 to b1 at Felix
+convert g1 to b1 at Wil
+build b2 at Felix
+build b2 at Wil
+move b2 from Felix to Grass (g1)
+convert b1 to y1 at Wil
+sacrifice g3 at Felix; build b1 at Grass; build b3 at Grass; build b3 at Felix
+build b3 at Wil
+sacrifice b2 at Grass; convert b3 to y3 at Grass; convert b3 to g3 at Felix
+move b2 from Wil to G2 (g2)
+build g1 at Felix
+move b3 from Wil to Gee2 (g2)
+convert b1 to r1 at Felix
+convert b3 to y3 at Gee2
+move g1 from Felix to Ice (b1)
+build g1 at Wil
+build g2 at Felix
+move y3 from Gee2 to G3 (g3)
+sacrifice g3 at Felix; build g2 at Ice; build g3 at Felix; build y1 at Grass
+sacrifice g3 at Wil; build g3 at Wil; build y1 at G3; build y2 at Wil
+move y1 from Grass to G3
+move y3 from G3 to Ice
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Grass; build y2 at G3
+convert y2 to r2 at Wil
+sacrifice g2 at Ice; build b2 at Grass; build r1 at Felix
+build b3 at G2
+move b2 from Grass to Plain (g2)
+convert b2 to y2 at G2
+sacrifice g3 at Felix; build b2 at Grass; build b3 at Plain; build g3 at Felix
+build b3 at G2
+sacrifice y2 at G3; move b1 from Grass to G2; move b2 from Grass to G2; catastrophe blue at G2
+move y1 from G3 to Grass
+sacrifice y1 at G3; move y3 from Grass to G2
+move y1 from Grass to G2
+sacrifice b3 at Plain; convert y3 to r3 at G2; convert b2 to r2 at Plain; convert r1 to b1 at Felix
+move y2 from G2 to R2 (r1)
+sacrifice y2 at Grass; move r3 from G2 to Wil; move r2 from Plain to Wil; catastrophe red at Wil
+sacrifice y2 at R2; move g3 from Wil to Felix; move g1 from Wil to Felix; catastrophe green at Felix
+move r1 from Felix to Wil

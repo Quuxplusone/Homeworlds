@@ -1,0 +1,47 @@
+Silenttitan (0, r2b3) g3-
+Ajo (1, y2b1) -g3
+build g1 at Silenttitan
+build g1 at Ajo
+convert g1 to y1 at Silenttitan
+convert g1 to b1 at Ajo
+build y1 at Silenttitan
+build b1 at Ajo
+move y1 from Silenttitan to Sol (y1)
+move b1 from Ajo to Alpha (g3)
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Silenttitan; build y3 at Silenttitan
+build b2 at Alpha
+move y1 from Sol to Mer (g3)
+move b1 from Ajo to Hah (y3)
+build y3 at Mer
+build b2 at Alpha
+convert y3 to b3 at Silenttitan
+convert b2 to r2 at Alpha
+move y3 from Mer to Ven (b2)
+build g1 at Ajo
+build y3 at Mer
+move g1 from Ajo to Hah
+convert y3 to r3 at Ven
+build g1 at Ajo
+build y3 at Mer
+convert g1 to r1 at Ajo
+move y3 from Mer to Ven
+build r1 at Ajo
+move r3 from Ven to Alpha
+build r1 at Alpha
+sacrifice y2 at Silenttitan; move r3 from Alpha to Ven; move y3 from Ven to Alpha
+build b2 at Hah
+sacrifice r3 at Ven; capture r2 at Alpha; capture b2 at Alpha; capture r1 at Alpha
+convert b2 to y2 at Hah
+capture b1 at Alpha
+build b2 at Hah
+sacrifice y3 at Mer; move r2 from Alpha to Ajo; move r1 from Alpha to Ajo; move b1 from Alpha to Ajo; catastrophe red at Ajo
+move b2 from Hah to Sol
+sacrifice y2 at Sol; move b2 from Alpha to Ajo; move y1 from Mer to Ajo
+sacrifice b2 at Sol; convert y2 to r2 at Hah; convert b1 to g1 at Hah
+convert y1 to b1 at Ajo; catastrophe blue at Ajo
+move g1 from Hah to Beta (b1)
+move y1 from Silenttitan to Sol (g1)
+build g2 at Beta
+build y1 at Alpha
+move r2 from Hah to Sol
+move y1 from Sol to Sole (g3)

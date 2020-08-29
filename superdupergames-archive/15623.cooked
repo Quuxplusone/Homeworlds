@@ -1,0 +1,74 @@
+Zoltar (0, b3r1) g3-
+Mathochist (1, r1b2) -g3
+build g1 at Zoltar
+build g1 at Mathochist
+convert g1 to y1 at Zoltar
+convert g1 to r1 at Mathochist
+build y1 at Zoltar
+build r2 at Mathochist
+build y1 at Zoltar
+convert r2 to y2 at Mathochist
+move y1 from Zoltar to Greenbelt (g2)
+build y2 at Mathochist
+build y2 at Zoltar
+move y2 from Mathochist to Redhat (r3)
+convert y2 to r2 at Zoltar
+build g1 at Mathochist
+move y1 from Zoltar to Bluemoon (b2)
+sacrifice g3 at Mathochist; build y2 at Mathochist; build y3 at Mathochist; build y3 at Redhat
+build y3 at Greenbelt
+move y2 from Mathochist to Greensun (g3)
+move r2 from Zoltar to Greenbelt
+move y2 from Redhat to Bluemoon
+build r2 at Greenbelt
+convert y2 to r2 at Bluemoon
+sacrifice y1 at Bluemoon; move r2 from Greenbelt to Greendale (g3)
+move r1 from Mathochist to Greensun
+build r3 at Greendale
+build r3 at Greensun
+build g1 at Zoltar
+build g1 at Mathochist
+convert g1 to b1 at Zoltar
+convert y2 to b2 at Mathochist
+move b1 from Zoltar to Greenbelt
+move g1 from Mathochist to Redhat
+move y1 from Greenbelt to Greentree (g1)
+move r1 from Greensun to Bluemoon
+build g2 at Zoltar
+build g2 at Redhat
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y1 at Zoltar; build y2 at Greentree
+move r3 from Greensun to Greentree
+sacrifice y1 at Greentree; move y2 from Greentree to Greendale
+move g1 from Redhat to Bluemoon
+move g2 from Zoltar to Yellojello (y2)
+build y1 at Greensun
+build b1 at Greenbelt
+move y3 from Redhat to Bluemoon
+move b1 from Greenbelt to Greendale
+move b2 from Mathochist to Greensun
+move y3 from Greenbelt to Redhat
+sacrifice g2 at Redhat; build g2 at Bluemoon; build b1 at Greensun
+build b3 at Greenbelt
+build b3 at Greensun
+sacrifice y1 at Zoltar; move b1 from Greenbelt to Greensun; catastrophe blue at Greensun
+build y1 at Bluemoon
+sacrifice g2 at Yellojello; build y2 at Greendale; build b1 at Greendale
+build g2 at Mathochist
+build b1 at Greendale
+sacrifice y3 at Bluemoon; move g1 from Bluemoon to Greendale; move g2 from Bluemoon to Greendale; move g1 from Mathochist to Greendale; catastrophe green at Greendale
+convert b3 to y3 at Greenbelt
+build y2 at Mathochist
+build y2 at Zoltar
+build g1 at Mathochist
+convert y1 to b1 at Zoltar
+convert r2 to g2 at Bluemoon
+move y3 from Redhat to Bluemoon
+move g2 from Bluemoon to Greenmoon (g3)
+move y3 from Greenbelt to Greenmoon
+sacrifice g2 at Greenmoon; build y1 at Bluemoon; build r2 at Greentree
+move y3 from Bluemoon to Bluedeath (b3)
+convert r1 to b1 at Bluemoon
+move b1 from Zoltar to Greenbelt
+move y1 from Bluemoon to Greentree
+build b1 at Greenbelt
+move r3 from Greentree to Greenbelt

@@ -1,0 +1,35 @@
+Felix (0, y2b3) g3-
+Ben10 (1, y3b1) -g3
+build g1 at Felix
+build g1 at Ben10
+convert g1 to b1 at Felix
+build g1 at Ben10
+build b1 at Felix
+convert g3 to b3 at Ben10
+build g1 at Felix
+build g2 at Ben10
+move b1 from Felix to Station (y1)
+move g1 from Ben10 to Bampton (b2)
+move g1 from Felix to Station
+move g2 from Ben10 to Bampton
+build g2 at Station
+convert g1 to y1 at Bampton
+convert g2 to y2 at Station
+build b2 at Ben10
+build g1 at Felix
+build g2 at Bampton
+build g2 at Station
+move b2 from Ben10 to Bampton
+build g3 at Felix
+build g3 at Ben10
+sacrifice g3 at Felix; build g3 at Felix; build b2 at Felix; build b3 at Station
+move b2 from Bampton to Oddington (y1)
+convert b2 to r2 at Felix
+convert b2 to r2 at Oddington
+move g2 from Station to Pulse (b2)
+sacrifice g3 at Ben10; build g3 at Ben10; build r1 at Oddington; build y2 at Bampton
+move g3 from Felix to Battleship (r1)
+sacrifice y2 at Bampton; move g3 from Ben10 to Pulse; move r1 from Oddington to Pulse
+sacrifice g2 at Pulse; build g2 at Station; build b2 at Felix
+sacrifice g3 at Pulse; build g3 at Ben10; build r1 at Pulse; build y2 at Bampton
+move y2 from Station to Pulse

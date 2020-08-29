@@ -1,0 +1,89 @@
+Jesse (0, g3b2) y3-
+Sketchwick (1, b1r2) -g3
+build y1 at Jesse
+build g1 at Sketchwick
+convert y1 to g1 at Jesse
+convert g1 to y1 at Sketchwick
+build y1 at Jesse
+build g1 at Sketchwick
+convert y1 to b1 at Jesse
+move g1 from Sketchwick to Ox (b3)
+move g1 from Jesse to Gateway (b1)
+build g1 at Sketchwick
+build g2 at Gateway
+sacrifice g3 at Sketchwick; build g2 at Ox; build g2 at Ox; build g3 at Sketchwick
+build b2 at Jesse
+convert g3 to y3 at Sketchwick
+convert g1 to y1 at Gateway
+convert g2 to b2 at Ox
+convert b2 to r2 at Jesse
+convert g2 to r2 at Ox
+build g1 at Gateway
+build g2 at Ox
+move g1 from Gateway to Oort (y3)
+convert g1 to y1 at Ox
+build y2 at Jesse
+build y2 at Ox
+move y2 from Jesse to Peggys (g1)
+move b2 from Ox to Gateway
+move g2 from Gateway to Core (y2)
+build g2 at Ox
+build g3 at Core
+build g3 at Sketchwick
+sacrifice g1 at Oort; build y3 at Peggys
+sacrifice y3 at Sketchwick; move y2 from Ox to Peggys; move y1 from Ox to Peggys; move g2 from Ox to Core; catastrophe yellow at Peggys
+sacrifice b1 at Jesse; convert g3 to b3 at Core
+build r1 at Ox
+build r1 at Jesse
+move g2 from Core to Gateway
+move y1 from Gateway to Neptune (g3)
+convert g2 to y2 at Ox
+build g1 at Core
+move r2 from Ox to Cart (y1)
+move g2 from Core to Foodfactory (y3)
+sacrifice g2 at Gateway; build r1 at Cart; build r3 at Ox
+move r1 from Jesse to Chon (g1)
+sacrifice g3 at Sketchwick; build g2 at Sketchwick; build y2 at Ox; build y3 at Sketchwick
+sacrifice g2 at Foodfactory; build y3 at Neptune; build r3 at Chon
+move r1 from Ox to Chon
+build r3 at Jesse
+sacrifice y2 at Ox; move r1 from Cart to Jesse; move r2 from Cart to Jesse; catastrophe red at Jesse
+sacrifice r1 at Chon; capture r1 at Chon
+convert b2 to y2 at Gateway
+build g2 at Core
+sacrifice g2 at Sketchwick; build g2 at Sketchwick; build y1 at Gateway
+sacrifice y3 at Neptune; move r3 from Chon to Jesse; move y3 from Jesse to Chon; move g2 from Core to Wheel (y3)
+move g2 from Sketchwick to Neptune
+sacrifice g2 at Wheel; build g2 at Core; build y3 at Neptune
+build g2 at Neptune
+sacrifice y3 at Neptune; move g2 from Core to Wheel (y3); move y1 from Neptune to Kugelblitz (b1); move g1 from Core to Neptune; catastrophe green at Neptune
+build g1 at Sketchwick
+build g2 at Wheel
+sacrifice y2 at Ox; move g1 from Sketchwick to Wheel; move g1 from Sketchwick to Wheel; catastrophe green at Wheel
+build y2 at Chon
+convert y3 to g3 at Sketchwick
+move b3 from Core to Wheel (y3)
+build g1 at Sketchwick
+convert y1 to g1 at Kugelblitz
+sacrifice y1 at Gateway; move r3 from Ox to Kugelblitz
+sacrifice g1 at Kugelblitz; build b2 at Wheel
+move y2 from Gateway to Momma (g3)
+convert b2 to g2 at Wheel
+move g1 from Sketchwick to Wheel
+sacrifice r1 at Chon; capture g1 at Wheel
+sacrifice y1 at Sketchwick; move r3 from Kugelblitz to Wheel
+sacrifice y2 at Chon; move y3 from Chon to Jesse; move g1 from Wheel to Sketchwick
+sacrifice y2 at Momma; move r3 from Wheel to Sketchwick; move g3 from Sketchwick to Sigh (y3)
+sacrifice g1 at Sketchwick; build g1 at Wheel
+build g1 at Sigh
+build b1 at Wheel
+move g3 from Sigh to Sketchwick
+build y1 at Jesse
+build g1 at Sketchwick
+sacrifice y3 at Jesse; move g2 from Wheel to Sketchwick; move g1 from Wheel to Sketchwick; catastrophe green at Sketchwick
+move g1 from Sigh to Sketchwick
+convert b3 to g3 at Wheel
+build r1 at Sketchwick
+build r1 at Jesse
+convert r1 to y1 at Sketchwick
+move r1 from Jesse to Lever (g1)

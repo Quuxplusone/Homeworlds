@@ -1,0 +1,50 @@
+Morganfitzp (0, b1r2) g3-
+Zoltar (1, b1g3) -b3
+build g1 at Morganfitzp
+build b1 at Zoltar
+convert g3 to b3 at Morganfitzp
+convert b3 to y3 at Zoltar
+build b2 at Morganfitzp
+build b2 at Zoltar
+convert b3 to y3 at Morganfitzp
+convert b2 to r2 at Zoltar
+move b2 from Morganfitzp to Ganesh (g3)
+move b1 from Zoltar to Greenbelt (g2)
+build b2 at Ganesh
+build b2 at Greenbelt
+convert b2 to y2 at Ganesh
+convert b2 to y2 at Greenbelt
+build b2 at Ganesh
+build b2 at Greenbelt
+convert b2 to r2 at Ganesh
+move b2 from Greenbelt to Greenhills (g3)
+move b2 from Ganesh to Lakshmi (g2)
+build b2 at Greenhills
+build b3 at Lakshmi
+build b3 at Greenbelt
+convert b2 to g2 at Lakshmi
+convert b3 to r3 at Greenbelt
+build y1 at Ganesh
+convert b2 to y2 at Greenhills
+move y1 from Ganesh to Lakshmi
+build b2 at Greenhills
+build g1 at Morganfitzp
+build b2 at Greenhills
+build b3 at Lakshmi
+sacrifice y2 at Greenbelt; move b2 from Greenhills to Lakshmi; move b2 from Greenhills to Lakshmi; catastrophe blue at Lakshmi
+build g1 at Lakshmi
+build b2 at Greenbelt
+move g1 from Morganfitzp to Vishnu (b3)
+build b2 at Greenhills
+build y1 at Lakshmi
+build b3 at Greenbelt
+sacrifice y1 at Lakshmi; move g1 from Vishnu to Shiva (y2)
+sacrifice y2 at Greenhills; move b2 from Greenhills to Shiva; move b3 from Greenbelt to Ganesh
+sacrifice y2 at Ganesh; move g1 from Shiva to Zoltar; move g1 from Lakshmi to Zoltar
+sacrifice r2 at Zoltar; capture g1 at Zoltar; capture r2 at Ganesh
+sacrifice g1 at Morganfitzp; build g1 at Zoltar; catastrophe green at Zoltar
+convert b3 to g3 at Ganesh
+build g1 at Lakshmi
+sacrifice g3 at Ganesh; build b3 at Greenbelt; build b3 at Greenhills; build b3 at Shiva
+sacrifice g2 at Lakshmi; build y1 at Morganfitzp; build y1 at Lakshmi
+sacrifice b3 at Greenhills; convert y3 to r3 at Zoltar; convert b3 to y3 at Greenbelt; convert b3 to g3 at Shiva

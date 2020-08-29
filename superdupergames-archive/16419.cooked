@@ -1,0 +1,25 @@
+Bhorner (0, g2b1) y3-
+Mathochist (1, b1y3) -g3
+build y1 at Bhorner
+build g1 at Mathochist
+build y1 at Bhorner
+convert g1 to b1 at Mathochist
+move y1 from Bhorner to S1 (g3)
+build b2 at Mathochist
+build y1 at S1
+move b1 from Mathochist to Oscar (g2)
+convert y3 to g3 at Bhorner
+sacrifice g3 at Mathochist; build b2 at Oscar; build b2 at Oscar; build b3 at Mathochist
+build y2 at Bhorner
+convert b3 to g3 at Mathochist
+move y1 from S1 to Namey (g2)
+build b3 at Mathochist
+move y1 from Bhorner to S1
+convert b2 to y2 at Oscar
+sacrifice g3 at Bhorner; build y2 at S1; build y3 at Bhorner; build y3 at Namey
+sacrifice b2 at Oscar; convert b3 to g3 at Mathochist; convert b2 to r2 at Mathochist
+convert y2 to r2 at Bhorner
+move g3 from Mathochist to Ernie (y2)
+move y1 from S1 to Other (b2)
+move y2 from Oscar to S1
+move y2 from S1 to Other

@@ -1,0 +1,44 @@
+Shmil1 (0, r1g1) b3-
+Aristos (1, y1b2) -g3
+build b1 at Shmil1
+build g1 at Aristos
+build b1 at Shmil1
+move g1 from Aristos to Casualdisregard (y3)
+convert b1 to y1 at Shmil1
+build g1 at Casualdisregard
+move b1 from Shmil1 to Casualdisregard
+move g1 from Casualdisregard to Socialunrest (b2)
+build y1 at Shmil1
+build g2 at Casualdisregard
+convert b1 to r1 at Casualdisregard
+convert g1 to r1 at Socialunrest
+capture g1 at Casualdisregard
+sacrifice r1 at Socialunrest; capture r1 at Casualdisregard
+move g1 from Casualdisregard to Aristos
+build r1 at Casualdisregard
+build g1 at Aristos
+convert g3 to r3 at Aristos
+build g2 at Aristos
+capture g2 at Aristos
+build g2 at Aristos
+capture g2 at Aristos
+build g3 at Aristos
+sacrifice g2 at Aristos; build g2 at Casualdisregard; build g3 at Casualdisregard; catastrophe green at Aristos
+build y2 at Shmil1
+move g2 from Casualdisregard to Vileslander (b2)
+convert y2 to r2 at Shmil1
+convert g2 to y2 at Vileslander
+move r2 from Shmil1 to Vileslander
+sacrifice r1 at Casualdisregard; capture r2 at Vileslander
+move y1 from Shmil1 to Joooj (g3)
+build g1 at Casualdisregard
+build y2 at Joooj
+sacrifice y2 at Vileslander; move r2 from Vileslander to Shmil1; move r1 from Casualdisregard to Shmil1
+capture r2 at Shmil1
+build r1 at Shmil1; catastrophe red at Shmil1
+convert y1 to r1 at Shmil1
+move g1 from Casualdisregard to Shmil1
+capture g1 at Shmil1
+move g2 from Casualdisregard to Shmil1
+convert g1 to y1 at Shmil1
+sacrifice g3 at Casualdisregard; build g1 at Shmil1; build g1 at Shmil1; build r1 at Aristos; catastrophe green at Shmil1

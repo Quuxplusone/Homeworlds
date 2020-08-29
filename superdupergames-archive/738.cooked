@@ -1,0 +1,32 @@
+Cdrodeffer (0, b1y2) g3-
+Jesse (1, b3y1) -g3
+build g1 at Cdrodeffer
+build g1 at Jesse
+convert g1 to r1 at Cdrodeffer
+convert g1 to r1 at Jesse
+build g1 at Cdrodeffer
+build g1 at Jesse
+convert g1 to y1 at Cdrodeffer
+move g1 from Jesse to Tick (b2)
+build g1 at Cdrodeffer
+build g1 at Jesse
+convert g1 to b1 at Cdrodeffer
+move g1 from Jesse to Tocquila (b2)
+move y1 from Cdrodeffer to Beetlejuice (r3)
+build g1 at Jesse
+build g2 at Cdrodeffer
+build g2 at Tocquila
+move g2 from Cdrodeffer to Beetlejuice
+convert g2 to y2 at Tocquila
+build g2 at Cdrodeffer
+sacrifice g3 at Jesse; build g2 at Tocquila; build g3 at Jesse; build g3 at Tick
+sacrifice g3 at Cdrodeffer; build g3 at Cdrodeffer; build b1 at Cdrodeffer; build y1 at Beetlejuice
+sacrifice g3 at Jesse; build y2 at Tocquila; build r1 at Jesse; build g3 at Jesse
+move y1 from Beetlejuice to Cdrodeffer
+sacrifice y2 at Tocquila; move g3 from Tick to Beetlejuice; move r1 from Jesse to Tocquila
+sacrifice g3 at Cdrodeffer; build g3 at Cdrodeffer; build y2 at Beetlejuice; build y3 at Beetlejuice
+capture y3 at Beetlejuice
+build y3 at Beetlejuice; catastrophe yellow at Beetlejuice
+sacrifice g3 at Jesse; build r2 at Jesse; build y1 at Tocquila; build g3 at Jesse
+sacrifice g3 at Cdrodeffer; build g3 at Cdrodeffer; build r2 at Cdrodeffer; build y2 at Cdrodeffer
+sacrifice y2 at Tocquila; move y1 from Tocquila to Beetlejuice; move y1 from Beetlejuice to Cdrodeffer; catastrophe yellow at Cdrodeffer

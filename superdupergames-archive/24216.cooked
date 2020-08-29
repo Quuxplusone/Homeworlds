@@ -1,0 +1,40 @@
+Erik2Point0 (0, g2b1) r3-
+Scotward (1, b3r1) -g3
+build r1 at Erik2Point0
+build g1 at Scotward
+convert r1 to y1 at Erik2Point0
+build g1 at Scotward
+build r1 at Erik2Point0
+convert g1 to y1 at Scotward
+convert r1 to g1 at Erik2Point0
+convert g1 to b1 at Scotward
+build g1 at Erik2Point0
+build b1 at Scotward
+build r1 at Erik2Point0
+build g1 at Scotward
+move g1 from Erik2Point0 to Biggreen (g3)
+move b1 from Scotward to Alpha (g2)
+build y1 at Erik2Point0
+build b2 at Alpha
+move y1 from Erik2Point0 to Alsobiggreen (g3)
+build y2 at Scotward
+build g2 at Erik2Point0
+move y2 from Scotward to Beta (b2)
+move g2 from Erik2Point0 to Alsobiggreen
+sacrifice g3 at Scotward; build b2 at Alpha; build b3 at Scotward; build g3 at Scotward
+move y1 from Alsobiggreen to Erik2Point0
+move b3 from Scotward to Beta
+sacrifice g2 at Alsobiggreen; build g2 at Biggreen; build g3 at Erik2Point0
+sacrifice g3 at Scotward; build y2 at Beta; build b3 at Beta; build g3 at Scotward
+sacrifice y1 at Erik2Point0; move g1 from Biggreen to Medyellow (y2)
+sacrifice b3 at Beta; convert b3 to y3 at Beta; convert y2 to r2 at Beta; convert b2 to r2 at Alpha
+move g1 from Erik2Point0 to Bigblue (b3)
+move y3 from Beta to Bigblue
+move r3 from Erik2Point0 to Bigblue
+sacrifice r2 at Alpha; capture r3 at Bigblue; capture g1 at Bigblue
+build y1 at Erik2Point0
+sacrifice y2 at Beta; move y3 from Bigblue to Erik2Point0; move r3 from Bigblue to Erik2Point0
+capture r3 at Erik2Point0
+sacrifice r2 at Beta; capture r3 at Erik2Point0; capture g3 at Erik2Point0
+sacrifice g2 at Biggreen; build r1 at Erik2Point0; build r2 at Erik2Point0; catastrophe red at Erik2Point0
+sacrifice g3 at Erik2Point0; build y2 at Erik2Point0; catastrophe yellow at Erik2Point0

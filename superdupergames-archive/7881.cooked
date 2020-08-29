@@ -1,0 +1,42 @@
+Ts52 (0, y1b2) g3-
+Zoltar (1, b3r1) -g3
+build g1 at Ts52
+build g1 at Zoltar
+convert g1 to r1 at Ts52
+convert g1 to y1 at Zoltar
+build g1 at Ts52
+build y1 at Zoltar
+build r1 at Ts52
+build y2 at Zoltar
+build r2 at Ts52
+move y1 from Zoltar to Greendale (g2)
+convert r2 to y2 at Ts52
+move y1 from Zoltar to Greenhills (g2)
+move y2 from Ts52 to Kermit (g3)
+build g1 at Zoltar
+move g1 from Ts52 to Sol (y3)
+sacrifice g3 at Zoltar; build y2 at Greendale; build y3 at Greenhills; build y3 at Zoltar
+build g1 at Ts52
+convert y3 to r3 at Zoltar
+sacrifice g3 at Ts52; build g2 at Sol; build g3 at Ts52; build g3 at Sol
+sacrifice y2 at Greendale; move g1 from Zoltar to Greendale; move g1 from Greendale to Sol; catastrophe green at Sol
+move r1 from Ts52 to Crikket (g3)
+move y3 from Greenhills to Crikket
+build g1 at Ts52
+build y2 at Crikket
+move g1 from Ts52 to Wikket (y3)
+build y3 at Greendale
+sacrifice g3 at Ts52; build g1 at Wikket; build g2 at Wikket; build g3 at Ts52
+move y3 from Greendale to Wikket
+sacrifice y2 at Kermit; move g2 from Wikket to Lemon (y2); move g1 from Wikket to Berry (b2)
+move y3 from Crikket to Lemon
+build g3 at Berry
+sacrifice r3 at Zoltar; capture g2 at Lemon; capture g1 at Wikket; capture r1 at Crikket
+build r2 at Ts52
+build r2 at Crikket
+move r2 from Ts52 to Grape (b3)
+sacrifice g2 at Lemon; build r2 at Crikket; build g2 at Wikket
+sacrifice g3 at Ts52; build g3 at Ts52; build r3 at Grape
+sacrifice y3 at Lemon; move g1 from Wikket to Ts52; move g2 from Wikket to Ts52; move r2 from Crikket to Ts52; catastrophe green at Ts52
+sacrifice g1 at Berry; build r3 at Ts52
+sacrifice y3 at Wikket; move y2 from Crikket to Ts52; move r2 from Crikket to Ts52; move r1 from Crikket to Ts52; catastrophe red at Ts52

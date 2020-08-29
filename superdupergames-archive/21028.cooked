@@ -1,0 +1,33 @@
+Silenttitan (0, b1r2) g3-
+Jsb (1, y1b3) -g3
+build g1 at Silenttitan
+build g1 at Jsb
+convert g1 to y1 at Silenttitan
+move g1 from Jsb to Larch (y2)
+build y1 at Silenttitan
+build g1 at Larch
+build y2 at Silenttitan
+move g1 from Larch to Pine (b3)
+convert y2 to r2 at Silenttitan
+build g1 at Jsb
+move y1 from Silenttitan to Pine
+convert g1 to r1 at Pine
+sacrifice g3 at Silenttitan; build y2 at Pine; build y2 at Silenttitan; build y3 at Silenttitan
+capture y1 at Pine
+sacrifice r2 at Silenttitan; capture y1 at Pine; capture r1 at Pine
+convert g1 to r1 at Jsb
+move y1 from Silenttitan to Sol (g3)
+build g1 at Larch
+build y3 at Sol
+move g1 from Larch to Oak (b3)
+build y3 at Sol
+move g1 from Larch to Oak
+convert y2 to g2 at Silenttitan
+convert g1 to r1 at Oak
+move y3 from Sol to Alpha (y2)
+build r2 at Jsb
+move y3 from Sol to Beta (y2)
+move r2 from Jsb to Beta
+sacrifice r1 at Pine; capture r2 at Beta
+build g1 at Jsb
+sacrifice y2 at Pine; move y3 from Alpha to Jsb; move y3 from Beta to Jsb

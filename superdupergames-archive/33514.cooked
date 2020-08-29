@@ -1,0 +1,12 @@
+Schmoopy (0, b3r1) g3-
+Inattentive (1, y2b1) -g3
+build g1 at Schmoopy
+build g1 at Inattentive
+convert g1 to y1 at Schmoopy
+convert g1 to r1 at Inattentive
+build y1 at Schmoopy
+build g1 at Inattentive
+build y1 at Schmoopy
+convert g1 to b1 at Inattentive
+build y2 at Schmoopy
+build r1 at Inattentive; catastrophe yellow at Schmoopy

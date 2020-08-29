@@ -1,0 +1,31 @@
+Ottia (0, b2g3) r3-
+Wil (1, y3b1) -g3
+build r1 at Ottia
+build g1 at Wil
+convert r1 to y1 at Ottia
+convert g1 to b1 at Wil
+move y1 from Ottia to Ashikawa (g1)
+build b1 at Wil
+build r1 at Ottia
+move b1 from Wil to R2 (r2)
+convert r1 to y1 at Ottia
+build b2 at Wil
+build y1 at Ottia
+move b2 from Wil to G2 (g2)
+build y2 at Ashikawa
+sacrifice g3 at Wil; build b2 at G2; build b3 at R2; build b3 at Wil
+convert r3 to b3 at Ottia
+convert b3 to y3 at R2
+convert y1 to r1 at Ottia
+build b3 at G2
+build r1 at Ottia
+sacrifice b2 at G2; convert b3 to r3 at G2; convert b3 to g3 at Wil
+move y2 from Ashikawa to Ojima (b2)
+build b3 at G2
+build y1 at Ashikawa
+convert b3 to y3 at G2
+build y2 at Ottia
+move r3 from G2 to Ashikawa
+move y1 from Ashikawa to G2
+capture y1 at Ashikawa
+move y2 from Ottia to Ashikawa

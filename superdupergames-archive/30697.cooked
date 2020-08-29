@@ -1,0 +1,48 @@
+Joe_Hill (0, g2y1) b3-
+Ratpfink (1, g3b2) -y3
+build b1 at Joe_Hill
+build y1 at Ratpfink
+build b1 at Joe_Hill
+build y1 at Ratpfink
+convert b1 to g1 at Joe_Hill
+build y2 at Ratpfink
+build g1 at Joe_Hill
+convert y2 to b2 at Ratpfink
+move g1 from Joe_Hill to Bat (y3)
+move y1 from Ratpfink to Rolo (b1)
+build g1 at Joe_Hill
+move y3 from Ratpfink to Rolo
+build g2 at Bat
+convert y3 to r3 at Rolo
+convert b3 to r3 at Joe_Hill
+move r3 from Rolo to Bat
+move g2 from Bat to Rolo
+capture g1 at Bat
+convert g1 to r1 at Joe_Hill
+build y2 at Ratpfink
+convert g2 to r2 at Rolo
+convert b2 to r2 at Ratpfink
+capture y1 at Rolo
+move r3 from Bat to Rolo
+move r2 from Rolo to Bat
+move g1 from Bat to Rolo
+move g1 from Joe_Hill to Bat
+capture y1 at Rolo
+move r3 from Joe_Hill to Bat
+build r1 at Rolo
+build g1 at Bat
+build y2 at Rolo
+move g1 from Bat to Joe_Hill
+build g2 at Rolo
+build b1 at Joe_Hill
+build y2 at Ratpfink
+move b1 from Joe_Hill to Bat
+sacrifice y2 at Ratpfink; move g2 from Rolo to Bat; move g2 from Bat to Joe_Hill
+build b2 at Joe_Hill
+build g2 at Joe_Hill; catastrophe green at Joe_Hill
+convert b2 to g2 at Joe_Hill
+sacrifice y2 at Rolo; move r3 from Rolo to Bat; move r3 from Bat to Joe_Hill
+move r2 from Bat to Joe_Hill
+capture g2 at Joe_Hill
+move r3 from Bat to Joe_Hill; catastrophe red at Joe_Hill
+sacrifice y2 at Ratpfink; move r1 from Rolo to Bat; move r1 from Bat to Joe_Hill

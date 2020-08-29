@@ -1,0 +1,44 @@
+Mobynostromo (0, y2b3) g3-
+Capi3101 (1, r3b1) -g3
+build g1 at Mobynostromo
+build g1 at Capi3101
+convert g1 to y1 at Mobynostromo
+build g1 at Capi3101
+build y1 at Mobynostromo
+convert g1 to y1 at Capi3101
+move y1 from Mobynostromo to Moss (g1)
+convert g1 to b1 at Capi3101
+build y2 at Moss
+sacrifice g3 at Capi3101; build y2 at Capi3101; build y3 at Capi3101; build b1 at Capi3101
+build g1 at Mobynostromo
+sacrifice y2 at Capi3101; move y1 from Capi3101 to Ena (g2); move b1 from Capi3101 to Ena
+convert g3 to b3 at Mobynostromo
+convert y3 to g3 at Capi3101
+build b2 at Mobynostromo
+move b1 from Ena to Duo (g1)
+move b2 from Mobynostromo to Moss
+build b2 at Capi3101
+build g2 at Mobynostromo
+convert b2 to y2 at Capi3101
+convert y1 to r1 at Moss
+sacrifice g3 at Capi3101; build y1 at Ena; build y3 at Capi3101; build y3 at Capi3101
+move r1 from Moss to Ena
+convert y3 to r3 at Capi3101
+capture y1 at Ena
+move r3 from Capi3101 to Ena
+convert g1 to r1 at Mobynostromo
+capture r1 at Ena
+move y1 from Ena to Gaia (g3)
+build y3 at Ena
+build y3 at Moss
+move y3 from Ena to Duo
+build b2 at Moss
+move r1 from Ena to Duo
+move b2 from Moss to Gaia
+build b2 at Duo
+build b3 at Moss
+sacrifice y2 at Capi3101; move b2 from Duo to Mobynostromo; move b1 from Duo to Mobynostromo; catastrophe blue at Mobynostromo
+move b3 from Moss to Mobynostromo
+build y2 at Ena
+convert b2 to r2 at Moss
+sacrifice y2 at Ena; move y3 from Capi3101 to Mobynostromo; move y3 from Duo to Mobynostromo; catastrophe yellow at Mobynostromo

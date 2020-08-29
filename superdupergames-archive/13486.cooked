@@ -1,0 +1,11 @@
+Ts52 (0, y1b2) g3-
+Deudanann (1, r1b2) -g3
+build g1 at Ts52
+build g1 at Deudanann
+convert g1 to b1 at Ts52
+convert g1 to y1 at Deudanann
+move b1 from Ts52 to Kermit (g3)
+move y1 from Deudanann to Yipyip (r3)
+build g1 at Ts52
+build g1 at Deudanann
+build b1 at Kermit

@@ -1,0 +1,44 @@
+Eliscinsky (0, b3y2) g3-
+Babamots (1, b3r1) -g3
+build g1 at Eliscinsky
+build g1 at Babamots
+convert g1 to r1 at Eliscinsky
+convert g1 to r1 at Babamots
+build g1 at Eliscinsky
+build r2 at Babamots
+build r2 at Eliscinsky
+convert r1 to y1 at Babamots
+build g1 at Eliscinsky
+build y1 at Babamots
+convert g1 to y1 at Eliscinsky
+move y1 from Babamots to Iconia (y2)
+build y2 at Eliscinsky
+build y3 at Babamots
+convert y1 to b1 at Eliscinsky
+move y1 from Babamots to Bolarus (b2)
+sacrifice y2 at Eliscinsky; move r1 from Eliscinsky to Grass (g1); move b1 from Eliscinsky to Weed (g1)
+build y1 at Babamots
+build g2 at Eliscinsky
+sacrifice g3 at Babamots; build y2 at Babamots; build y3 at Iconia; build y3 at Bolarus
+move g2 from Eliscinsky to Blueberry (b1)
+convert y3 to g3 at Bolarus
+sacrifice g3 at Eliscinsky; build r1 at Grass; build r2 at Grass; build r3 at Eliscinsky
+build y3 at Bolarus
+build g2 at Blueberry
+move y3 from Iconia to Grass
+build g2 at Blueberry
+move g3 from Bolarus to Blueberry; catastrophe green at Blueberry
+convert r3 to g3 at Eliscinsky
+sacrifice r2 at Babamots; capture r2 at Grass; capture r1 at Grass
+build r2 at Grass; catastrophe red at Grass
+convert y3 to r3 at Bolarus
+build g2 at Eliscinsky
+build y3 at Grass
+move g2 from Eliscinsky to Weed
+convert y3 to g3 at Babamots
+convert g2 to r2 at Weed
+build y3 at Babamots
+build b1 at Weed
+move y3 from Grass to Bolarus
+build r1 at Weed
+move y3 from Bolarus to Weed

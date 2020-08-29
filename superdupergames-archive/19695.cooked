@@ -1,0 +1,27 @@
+Drsquidopolis (0, g3b2) r3-
+Blizzy (1, b3g2) -g2
+build r1 at Drsquidopolis
+build g1 at Blizzy
+convert r1 to y1 at Drsquidopolis
+convert g2 to y2 at Blizzy
+move y1 from Drsquidopolis to Demon (r1)
+move y2 from Blizzy to Demon
+build r1 at Drsquidopolis
+build g1 at Blizzy
+build r1 at Drsquidopolis
+build g1 at Blizzy
+move y1 from Demon to Blizzy
+convert g1 to b1 at Blizzy
+build r2 at Drsquidopolis
+pass
+convert r2 to y2 at Drsquidopolis
+pass
+move y2 from Drsquidopolis to Demon
+move y2 from Demon to Blizzy
+move y2 from Demon to Blizzy
+convert g1 to r1 at Blizzy
+move y1 from Blizzy to Grass (g1)
+move y2 from Blizzy to Wezen (y1)
+convert y2 to r2 at Blizzy
+move y2 from Wezen to Betelgeuse (r3)
+sacrifice r3 at Drsquidopolis; capture r1 at Blizzy; capture g1 at Blizzy; capture b1 at Blizzy

@@ -1,0 +1,31 @@
+Matrixfrog (0, g2y1) b3-
+Apollotiger (1, g1b2) -y3
+build b1 at Matrixfrog
+build y1 at Apollotiger
+build b1 at Matrixfrog
+move y3 from Apollotiger to Quercorium (g3)
+convert b1 to g1 at Matrixfrog
+build y1 at Apollotiger
+build b1 at Matrixfrog
+convert y1 to r1 at Apollotiger
+build g1 at Matrixfrog
+convert r1 to b1 at Apollotiger
+convert b1 to y1 at Matrixfrog
+build y2 at Apollotiger
+move b1 from Matrixfrog to Alpha (y3)
+convert y2 to g2 at Apollotiger
+convert g1 to r1 at Matrixfrog
+move b1 from Apollotiger to Alpha
+move b1 from Alpha to Apollotiger
+move b1 from Alpha to Matrixfrog
+capture b1 at Matrixfrog
+move g2 from Apollotiger to Quercorium
+build b1 at Apollotiger
+convert y1 to r1 at Apollotiger
+build b2 at Apollotiger
+capture b1 at Apollotiger
+sacrifice r1 at Matrixfrog; capture r1 at Apollotiger
+move y3 from Quercorium to Apollotiger
+build b2 at Apollotiger
+move b1 from Apollotiger to Quercorium
+build b3 at Apollotiger

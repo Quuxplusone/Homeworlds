@@ -1,0 +1,30 @@
+Silenttitan (0, r1b2) g3-
+Jerome (1, r3b1) -g3
+build g1 at Silenttitan
+build g1 at Jerome
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Jerome
+build g1 at Silenttitan
+build g1 at Jerome
+convert g1 to b1 at Silenttitan
+convert g1 to b1 at Jerome
+build b2 at Silenttitan
+build b2 at Jerome
+move b1 from Silenttitan to Sol (g3)
+move b1 from Jerome to Alpha (g2)
+sacrifice g3 at Silenttitan; build b3 at Silenttitan; build b3 at Sol; build b3 at Sol
+sacrifice y1 at Jerome; move b1 from Alpha to Sol; catastrophe blue at Sol
+convert b2 to g2 at Silenttitan
+build b1 at Jerome
+build b1 at Silenttitan
+convert b1 to y1 at Jerome
+move b1 from Silenttitan to Soul (g3)
+build y1 at Jerome
+build b1 at Silenttitan
+move y1 from Jerome to Alpha (g2)
+convert b3 to g3 at Silenttitan
+build y2 at Jerome
+move b1 from Silenttitan to Sole (y3)
+move y1 from Jerome to Vega (g2)
+build g1 at Silenttitan
+build y2 at Jerome

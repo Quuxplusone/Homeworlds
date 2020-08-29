@@ -1,0 +1,56 @@
+Trydnt (0, b2y1) g3-
+Simon (1, r1g3) -b3
+build g1 at Trydnt
+build b1 at Simon
+build g1 at Trydnt
+build b1 at Simon
+move g1 from Trydnt to B3 (b3)
+convert b1 to y1 at Simon
+build g1 at B3
+build y1 at Simon
+build g2 at B3
+build y2 at Simon
+convert g2 to y2 at B3
+move y1 from Simon to G2 (g2)
+build g2 at Trydnt
+move y1 from Simon to B2 (b2)
+move g2 from Trydnt to Y3 (y3)
+move b1 from Simon to G2
+sacrifice g3 at Trydnt; build g2 at Trydnt; build g3 at Trydnt; build g3 at B3
+build y2 at G2
+build y3 at B3
+build y3 at Simon
+move y3 from B3 to R2 (r2)
+move y3 from Simon to B2
+convert g3 to r3 at B3
+convert y3 to g3 at B2
+sacrifice g2 at Trydnt; build g2 at Trydnt; build y3 at R2
+pass
+move g2 from Trydnt to Y3
+convert y1 to r1 at G2
+move g2 from Y3 to R2
+move g3 from B2 to Y3
+sacrifice g1 at B3; build g1 at Y3
+build y1 at Simon
+move y3 from R2 to Be3 (b3)
+build r1 at G2
+move y3 from Be3 to G2
+sacrifice b1 at G2; convert g3 to r3 at Y3
+sacrifice r3 at B3; capture y2 at G2; capture r1 at G2; capture r1 at G2
+capture g2 at Y3
+build g3 at B3
+capture g1 at Y3
+convert g3 to r3 at Trydnt
+move y1 from B2 to G3 (g3)
+move r1 from G2 to G3
+move y1 from G3 to B2B (b2)
+build r2 at G2
+build b1 at Simon
+move r1 from G2 to B3
+build r2 at Y3
+sacrifice g3 at B3; build g3 at B3; build r3 at B3
+build b1 at Simon
+move r3 from B3 to B2B
+move y1 from B2B to B1 (b1)
+sacrifice y3 at R2; move g3 from B3 to R2; move g3 from R2 to Simon; move g2 from R2 to Simon
+sacrifice r2 at Y3; capture g2 at Simon; capture g3 at Simon

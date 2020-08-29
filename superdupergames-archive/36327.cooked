@@ -1,0 +1,67 @@
+Goulo (0, r3b1) g3-
+Nycavri (1, y3b2) -g3
+build g1 at Goulo
+build g1 at Nycavri
+convert g1 to y1 at Goulo
+move g1 from Nycavri to Deacon (y1)
+build g1 at Goulo
+move g1 from Deacon to May (y2)
+convert g1 to r1 at Goulo
+build g1 at Nycavri
+build r1 at Goulo
+convert g1 to r1 at Nycavri
+convert r1 to b1 at Goulo
+build g1 at Nycavri
+build y1 at Goulo
+move g1 from Nycavri to Deacon (y1)
+move y1 from Goulo to Flavo (y2)
+move g1 from Deacon to May
+build g1 at Goulo
+build g2 at Nycavri
+move g1 from Goulo to Flavo
+move g2 from Nycavri to Mercury (y1)
+sacrifice g3 at Goulo; build y2 at Goulo; build y3 at Goulo; build y3 at Flavo
+build g2 at May
+sacrifice y2 at Goulo; move g1 from Flavo to Goulo; move g1 from Goulo to May; catastrophe green at May
+build g1 at Nycavri
+convert y1 to g1 at Goulo
+move g2 from Mercury to Taylor (y2)
+build y1 at Goulo
+build g1 at Taylor
+build g2 at Goulo
+convert g1 to y1 at Nycavri
+build y2 at Goulo
+move g1 from Taylor to Goulo
+capture g1 at Goulo
+move g2 from Taylor to Goulo; catastrophe green at Goulo
+move y1 from Flavo to Verdo (g1)
+move y1 from Nycavri to Deacon (g1)
+build y2 at Verdo
+move y1 from Deacon to May (b2)
+move y1 from Goulo to Rubeno (r2)
+build g1 at Nycavri
+convert b1 to g1 at Goulo
+build r1 at Nycavri
+build r2 at Goulo
+sacrifice y1 at May; move g1 from Nycavri to Mercury (y1)
+build g2 at Goulo
+build g2 at Nycavri
+move g1 from Goulo to Rubeno
+move g2 from Nycavri to Mercury
+convert r1 to b1 at Goulo
+convert r1 to b1 at Nycavri
+build r1 at Goulo
+move b1 from Nycavri to Mercury
+move y3 from Flavo to Mercury
+move g2 from Mercury to Taylor (y2)
+sacrifice r2 at Goulo; capture g1 at Mercury; capture b1 at Mercury
+build r1 at Nycavri
+build r2 at Goulo
+build g2 at Taylor
+build g3 at Rubeno
+build r2 at Nycavri
+sacrifice y3 at Mercury; move r1 from Goulo to Rubeno; move r1 from Rubeno to Mercury; move r1 from Mercury to Nycavri; catastrophe red at Nycavri
+build g3 at Nycavri
+sacrifice y2 at Verdo; move g3 from Rubeno to Mercury; move g3 from Mercury to Nycavri
+convert g3 to r3 at Nycavri
+sacrifice r2 at Goulo; capture g3 at Nycavri; capture r3 at Nycavri

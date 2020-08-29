@@ -1,0 +1,46 @@
+Melktart (0, r1b2) g3-
+Logikal (1, b3r1) -g3
+build g1 at Melktart
+build g1 at Logikal
+convert g3 to y3 at Melktart
+convert g1 to y1 at Logikal
+build g1 at Melktart
+build g1 at Logikal
+move g1 from Melktart to M1 (r3)
+move g1 from Logikal to L1 (b2)
+build g2 at M1
+build g2 at L1
+build g2 at Melktart
+convert g1 to r1 at L1
+convert g1 to b1 at Melktart
+build g1 at L1
+move b1 from Melktart to M1
+convert g1 to y1 at L1
+convert g1 to y1 at M1
+build y2 at L1
+build y2 at M1
+build r2 at L1
+convert y2 to r2 at M1
+build g1 at Logikal
+build g1 at M1
+move g1 from Logikal to L2 (b2)
+move g1 from M1 to M2 (y2)
+sacrifice y2 at L1; move r2 from L1 to M1; move r2 from M1 to M2
+move r2 from M1 to L2
+sacrifice g3 at Logikal; build g1 at L1; build g3 at L2; build y2 at Logikal
+capture g1 at L2
+convert g3 to r3 at L2
+build g3 at M2
+sacrifice g2 at L1; build r2 at L2; build r3 at M2
+move g3 from M2 to M1
+convert y2 to g2 at Logikal
+move g3 from M1 to Dtms (y2)
+capture r2 at L2
+build b1 at M1
+move r3 from M2 to M1
+sacrifice g2 at M1; build g2 at Dtms; build b1 at M1
+build g3 at Logikal
+sacrifice y3 at Melktart; move b1 from M1 to L2; move b1 from M1 to L2; move b1 from M1 to L2; catastrophe blue at L2
+sacrifice y1 at L1; move r3 from M1 to Melktart
+build g1 at Melktart
+sacrifice r2 at M2; capture g2 at Melktart; capture g1 at Melktart

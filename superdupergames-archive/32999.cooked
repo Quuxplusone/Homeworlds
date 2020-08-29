@@ -1,0 +1,16 @@
+Fogus (0, y1b2) g3-
+Babamots (1, b3r1) -g3
+build g1 at Fogus
+build g1 at Babamots
+convert g3 to r3 at Fogus
+convert g1 to y1 at Babamots
+build g1 at Fogus
+build y1 at Babamots
+convert r3 to y3 at Fogus
+move y1 from Babamots to Romulus (g2)
+build y2 at Fogus
+build y2 at Romulus
+move y2 from Fogus to Piquet (g3)
+move y1 from Romulus to Iconia (b3)
+convert g1 to b1 at Fogus
+sacrifice g3 at Babamots; build y2 at Romulus; build y3 at Babamots; build y3 at Iconia

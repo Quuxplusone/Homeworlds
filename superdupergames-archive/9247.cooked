@@ -1,0 +1,40 @@
+Sunnan (0, y2b1) g3-
+Ts52 (1, b3y1) -g3
+build g1 at Sunnan
+build g1 at Ts52
+move g1 from Sunnan to Alice (b3)
+convert g1 to y1 at Ts52
+build g1 at Sunnan
+build y1 at Ts52
+convert g3 to y3 at Sunnan
+move y1 from Ts52 to Kermit (g2)
+build y2 at Sunnan
+move y1 from Ts52 to Oscar (g2)
+move y2 from Sunnan to Ruth (b3)
+build y2 at Kermit
+sacrifice g1 at Sunnan; build y3 at Ruth
+build y3 at Oscar
+convert y3 to g3 at Ruth
+move y1 from Kermit to Frogstar (g3)
+convert y3 to r3 at Sunnan
+build y3 at Frogstar
+convert g1 to r1 at Alice
+build y3 at Kermit
+sacrifice y2 at Ruth; move g3 from Ruth to Kermit; move g3 from Kermit to Ts52
+sacrifice y2 at Kermit; move y3 from Kermit to Ts52; move y3 from Oscar to Ts52
+sacrifice r1 at Alice; capture g3 at Ts52
+convert y3 to r3 at Ts52
+sacrifice g3 at Ts52; build g1 at Ts52; build g1 at Ts52; build r1 at Sunnan
+sacrifice r3 at Ts52; capture g3 at Ts52; capture g1 at Ts52; capture g1 at Ts52
+move r1 from Sunnan to Frogstar
+convert g1 to r1 at Ts52
+capture y1 at Frogstar
+sacrifice r1 at Ts52; capture r1 at Frogstar
+move y1 from Frogstar to Manhattan (r2)
+build y2 at Oscar
+convert r3 to g3 at Sunnan
+move y3 from Frogstar to Sunnan
+build g1 at Sunnan
+sacrifice r1 at Frogstar; capture g3 at Sunnan
+build g1 at Sunnan
+build g2 at Sunnan; catastrophe green at Sunnan

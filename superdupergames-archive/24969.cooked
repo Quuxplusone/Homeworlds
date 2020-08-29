@@ -1,0 +1,33 @@
+Wil (0, r1b2) g3-
+Laurie_Menke (1, b3y1) -g3
+build g1 at Wil
+build g1 at Laurie_Menke
+convert g1 to y1 at Wil
+build g1 at Laurie_Menke
+build y1 at Wil
+move g1 from Laurie_Menke to Yeller (y2)
+build y2 at Wil
+convert g1 to b1 at Laurie_Menke
+move y2 from Wil to B3 (b3)
+build b1 at Laurie_Menke
+build y2 at Wil
+convert b1 to r1 at Laurie_Menke
+convert y2 to r2 at Wil
+build b1 at Laurie_Menke
+build y2 at Wil
+convert g3 to y3 at Laurie_Menke
+move y2 from Wil to G3 (g3)
+convert b1 to g1 at Laurie_Menke
+sacrifice g3 at Wil; build y3 at B3; build y3 at G3; build r1 at Wil
+sacrifice y3 at Laurie_Menke; move r1 from Laurie_Menke to Yeller; move r1 from Yeller to B3; move r1 from B3 to Wil; catastrophe red at Wil
+sacrifice y2 at B3; move y3 from G3 to Yeller; move y3 from Yeller to Laurie_Menke
+build b1 at Laurie_Menke
+convert y3 to r3 at B3
+build g1 at Laurie_Menke
+sacrifice r3 at B3; capture g1 at Laurie_Menke; capture g1 at Laurie_Menke; capture b1 at Laurie_Menke
+move g1 from Yeller to Laurie_Menke
+build g2 at Laurie_Menke; catastrophe green at Laurie_Menke
+convert b1 to g1 at Laurie_Menke
+convert y3 to r3 at Laurie_Menke
+build g1 at Laurie_Menke
+sacrifice r3 at Laurie_Menke; capture g1 at Laurie_Menke; capture g1 at Laurie_Menke

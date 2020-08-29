@@ -1,0 +1,48 @@
+W00T (0, r3b1) g3-
+Draw5Playall (1, b1g2) -b3
+build g1 at W00T
+build b1 at Draw5Playall
+convert g1 to y1 at W00T
+convert b3 to y3 at Draw5Playall
+build y1 at W00T
+build b2 at Draw5Playall
+move y1 from W00T to Boop (g2)
+move b2 from Draw5Playall to G3 (g3)
+build y1 at Boop
+build b2 at G3
+move y1 from Boop to O_O (b3)
+build b2 at Draw5Playall
+move y1 from Boop to Blue (b3)
+build b3 at G3
+build y2 at W00T
+convert b3 to y3 at G3
+sacrifice y2 at W00T; move y1 from W00T to Temp (g2); move y1 from Temp to Yoink (b3)
+build y2 at G3
+build g1 at W00T
+build y2 at Draw5Playall
+convert y1 to g1 at Yoink
+convert y2 to g2 at Draw5Playall
+build g1 at Yoink
+convert b2 to r2 at G3
+convert g1 to y1 at Yoink
+build r1 at G3
+build y2 at Yoink
+build b2 at G3
+sacrifice g1 at W00T; build y2 at Blue
+move y3 from Draw5Playall to O_O
+build g1 at Yoink
+sacrifice y2 at G3; move g2 from Draw5Playall to Blue; move y3 from G3 to Draw5Playall
+sacrifice y2 at Blue; move y1 from Blue to Draw5Playall; move y1 from O_O to Draw5Playall
+convert y3 to r3 at Draw5Playall
+convert y1 to g1 at Draw5Playall
+sacrifice g2 at Blue; build b3 at G3; build y1 at O_O
+sacrifice y2 at Yoink; move g1 from Yoink to Draw5Playall; move g1 from Yoink to Draw5Playall; catastrophe green at Draw5Playall
+capture y1 at Draw5Playall
+build g1 at W00T
+convert y1 to g1 at Draw5Playall
+convert g1 to y1 at W00T
+sacrifice y1 at O_O; move b3 from G3 to G2 (g2)
+build y1 at W00T
+sacrifice y3 at O_O; move r3 from Draw5Playall to G2; move r3 from G2 to W00T; move b3 from G2 to W00T
+convert g3 to b3 at W00T
+sacrifice r3 at W00T; capture b3 at W00T; capture y1 at W00T; capture y1 at W00T

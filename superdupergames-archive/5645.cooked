@@ -1,0 +1,68 @@
+Uglyfoot (0, y3b1) g3-
+Keith (1, y1b2) -g3
+build g1 at Uglyfoot
+build g1 at Keith
+convert g1 to r1 at Uglyfoot
+convert g1 to y1 at Keith
+build g1 at Uglyfoot
+build y1 at Keith
+move g1 from Uglyfoot to Themall (b2)
+move y1 from Keith to Behemoth (g3)
+build g1 at Uglyfoot
+build y2 at Behemoth
+build g1 at Themall
+build g2 at Keith
+sacrifice g3 at Uglyfoot; build g2 at Themall; build g2 at Uglyfoot; build g3 at Uglyfoot
+move g2 from Keith to Behemoth
+convert g2 to y2 at Uglyfoot
+move g2 from Behemoth to Themall; catastrophe green at Themall
+move y2 from Uglyfoot to Work (g2)
+convert y1 to r1 at Keith
+move g1 from Uglyfoot to Work
+build g1 at Keith
+build g1 at Uglyfoot
+convert g1 to b1 at Keith
+move g1 from Work to Commerce (b3)
+move b1 from Keith to Behemoth
+build g1 at Commerce
+build g2 at Keith
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Uglyfoot; build y1 at Work
+sacrifice g3 at Keith; build g3 at Keith; build b1 at Behemoth; build b2 at Behemoth
+sacrifice y2 at Work; move g1 from Commerce to Keith; move g1 from Commerce to Keith; catastrophe green at Keith
+convert b1 to g1 at Behemoth
+build y2 at Work
+sacrifice y2 at Behemoth; move g1 from Behemoth to Work; move g1 from Work to Uglyfoot; catastrophe green at Uglyfoot
+move y2 from Work to Uglyfoot
+build y2 at Behemoth
+convert y2 to g2 at Uglyfoot
+move y2 from Behemoth to Keith
+build y2 at Work
+convert y2 to g2 at Keith
+move y2 from Work to Moving (y3)
+move b2 from Behemoth to Work
+build y2 at Work
+convert b2 to y2 at Work
+move y2 from Work to Behemoth
+build y3 at Work
+move y2 from Moving to Work; catastrophe yellow at Work
+build b1 at Behemoth
+build r1 at Uglyfoot
+build y1 at Behemoth
+sacrifice r1 at Uglyfoot; capture b1 at Behemoth
+build b2 at Behemoth
+build b2 at Behemoth; catastrophe blue at Behemoth
+move y1 from Behemoth to Midworld (g2)
+build g1 at Uglyfoot
+build y2 at Behemoth
+sacrifice r1 at Uglyfoot; capture y2 at Behemoth
+build y2 at Behemoth; catastrophe yellow at Behemoth
+convert g1 to y1 at Uglyfoot
+build y2 at Midworld
+build g1 at Uglyfoot
+move y2 from Midworld to Uglyfoot
+convert y1 to r1 at Uglyfoot
+sacrifice r1 at Keith; capture r1 at Uglyfoot
+convert g2 to r2 at Uglyfoot
+capture r2 at Uglyfoot
+build g1 at Uglyfoot
+sacrifice r2 at Uglyfoot; capture g1 at Uglyfoot; capture g1 at Uglyfoot

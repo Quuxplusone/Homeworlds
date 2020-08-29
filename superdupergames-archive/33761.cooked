@@ -1,0 +1,52 @@
+Mobynostromo (0, b1g2) y3-
+Wil (1, y3b2) -g3
+build y1 at Mobynostromo
+build g1 at Wil
+build y1 at Mobynostromo
+build g1 at Wil
+convert y1 to g1 at Mobynostromo
+convert g1 to b1 at Wil
+build y1 at Mobynostromo
+convert g1 to y1 at Wil
+move y1 from Mobynostromo to Ggg (g3)
+build y2 at Wil
+build y2 at Mobynostromo
+move y1 from Wil to B1 (b1)
+convert y1 to g1 at Mobynostromo
+build b2 at Wil
+convert y2 to b2 at Mobynostromo
+move b1 from Wil to Years (g1)
+move b2 from Mobynostromo to Ggg
+build b3 at Years
+build b3 at Ggg
+convert b1 to r1 at Years
+move b2 from Ggg to Bb (g2)
+build r1 at Years
+build b1 at Bb
+build b3 at Years
+build y1 at Ggg
+convert b3 to y3 at Years
+convert y1 to r1 at Ggg
+build b3 at Years
+build y1 at Mobynostromo
+build g2 at Wil
+build y2 at Ggg
+sacrifice y2 at Wil; move g2 from Wil to B1; move b3 from Years to G3 (g3)
+convert y3 to r3 at Mobynostromo
+build y2 at Years
+move g1 from Mobynostromo to Auburn (y3)
+move r1 from Years to G3
+build y2 at Mobynostromo
+sacrifice g2 at B1; build g2 at Wil; build r2 at G3
+move y1 from Ggg to Bb
+build r2 at Years
+move b2 from Bb to B1
+move r1 from Years to R3 (r3)
+move b1 from Bb to B1
+sacrifice g3 at Wil; build g3 at Wil; build r2 at R3; build r3 at Years
+sacrifice y2 at Mobynostromo; move b2 from B1 to Wil; move b1 from B1 to Wil; catastrophe blue at Wil
+sacrifice y3 at Years; move r3 from Years to G3; move b3 from G3 to Mobynostromo; move r3 from G3 to Mobynostromo
+move g1 from Auburn to Mobynostromo
+sacrifice r3 at Mobynostromo; capture r3 at Mobynostromo; capture g1 at Mobynostromo; capture g1 at Mobynostromo
+sacrifice y2 at Ggg; move r1 from Ggg to Bb; move r1 from Bb to R3; catastrophe red at R3
+capture y1 at Mobynostromo

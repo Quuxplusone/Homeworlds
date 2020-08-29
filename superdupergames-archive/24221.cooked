@@ -1,0 +1,88 @@
+Wil (0, y2b1) g3-
+Marmalade (1, r1b3) -g3
+build g1 at Wil
+build g1 at Marmalade
+move g1 from Wil to Y3 (y3)
+convert g1 to y1 at Marmalade
+build g1 at Wil
+build y1 at Marmalade
+convert g1 to y1 at Wil
+build y2 at Marmalade
+move y1 from Wil to G3 (g3)
+move y2 from Marmalade to Sinistra (g2)
+build y2 at G3
+build y3 at Sinistra
+move y1 from G3 to G2 (g2)
+convert y1 to r1 at Marmalade
+convert g3 to r3 at Wil
+build g1 at Marmalade
+build g1 at Y3
+build r1 at Marmalade
+move g1 from Y3 to Wil
+move y2 from Sinistra to G3
+move y2 from G3 to G2
+move y2 from G3 to G2
+sacrifice y2 at G2; move y1 from G2 to G3 (g3); move y1 from G3 to G2A (g2)
+move r1 from Marmalade to Sinistra
+build g3 at Wil
+sacrifice g3 at Marmalade; build g3 at Marmalade; build g3 at Marmalade; build r2 at Sinistra
+sacrifice g3 at Wil; build g3 at Wil; build r2 at Wil; build y1 at G2A
+sacrifice g3 at Marmalade; build g3 at Marmalade; build y2 at Sinistra; build y3 at G2
+move y1 from G2A to B3 (b3)
+move r2 from Sinistra to Y3
+move r3 from Wil to Y3
+sacrifice g3 at Marmalade; build g3 at Marmalade; build r2 at Y3; build r3 at Y3; catastrophe red at Y3
+sacrifice g1 at Y3; build y3 at G2A
+sacrifice y3 at G2; move y2 from G2 to B3; move y2 from B3 to G2A; move y1 from Marmalade to G2A; catastrophe yellow at G2A
+build r2 at Wil
+build r2 at Sinistra
+move g1 from Wil to Y3 (y3)
+sacrifice g3 at Marmalade; build r3 at Marmalade; build r3 at Sinistra; build y1 at Sinistra
+move y1 from B3 to Sinistra; catastrophe yellow at Sinistra
+convert g1 to b1 at Marmalade
+move r2 from Wil to Y3
+sacrifice b1 at Marmalade; convert r2 to y2 at Sinistra
+build g1 at Wil
+convert r1 to y1 at Marmalade
+build r1 at Wil
+move r3 from Sinistra to Y3
+build r2 at Y3
+capture g1 at Y3
+move r2 from Wil to Y3; catastrophe red at Y3
+build g1 at Y3
+move g1 from Wil to Pftt (y3)
+sacrifice y2 at Sinistra; move g1 from Y3 to Wil; move g1 from Y3 to Wil
+convert g3 to r3 at Wil
+build g2 at Marmalade
+capture g1 at Wil
+sacrifice g3 at Marmalade; build g2 at Wil; build g3 at Marmalade; build g3 at Marmalade
+convert g1 to b1 at Wil
+convert g3 to y3 at Marmalade
+capture g2 at Wil
+sacrifice g2 at Marmalade; build g1 at Wil; build g2 at Wil; catastrophe green at Wil
+convert r3 to g3 at Wil
+move y3 from Marmalade to Sinistra
+build r2 at Wil
+build r2 at Marmalade
+build g1 at Wil
+move r3 from Marmalade to Sinistra
+convert r2 to y2 at Wil
+move r3 from Sinistra to Pftt
+move g1 from Pftt to Y2 (y2)
+move r2 from Marmalade to Y2
+move g1 from Y2 to Y3 (y3)
+build g1 at Marmalade
+move g1 from Wil to B3 (b3)
+move g1 from Marmalade to Sinistra
+build g2 at Wil
+move g1 from Sinistra to Pftt
+sacrifice g3 at Wil; build g2 at Y3; build g3 at Wil; build g3 at B3
+build r2 at Pftt
+move r1 from Wil to B3
+move r2 from Pftt to Y2
+sacrifice g3 at Wil; build g3 at Wil; build y1 at Wil; build r2 at B3
+build r3 at Pftt
+sacrifice y1 at Wil; move g3 from B3 to Y2
+sacrifice y3 at Sinistra; move r2 from Y2 to B3; move r2 from Y2 to B3; move r3 from Pftt to Wil; catastrophe red at B3
+sacrifice y2 at Wil; move g3 from Wil to B3; move g2 from Wil to Escape2Freedom (y3)
+capture b1 at Wil

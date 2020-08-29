@@ -1,0 +1,29 @@
+Fogus (0, b1y2) g3-
+Kanzenryu (1, b1g3) -y3
+build g1 at Fogus
+build y1 at Kanzenryu
+convert g1 to y1 at Fogus
+convert y1 to g1 at Kanzenryu
+build g1 at Fogus
+build y1 at Kanzenryu
+move g1 from Fogus to Foo (y3)
+move y1 from Kanzenryu to Bar (g2)
+move g1 from Foo to Baz (y2)
+build y1 at Bar
+build g1 at Fogus
+build y2 at Kanzenryu
+build g2 at Baz
+convert y2 to r2 at Kanzenryu
+convert g1 to r1 at Fogus
+move y1 from Bar to Staging (g3)
+move y1 from Fogus to Prod (b3)
+build r1 at Kanzenryu
+move y1 from Prod to Boink (g2)
+move y3 from Kanzenryu to Baz
+move g2 from Baz to Frob (y3)
+convert r2 to y2 at Kanzenryu
+build y3 at Boink
+build r1 at Kanzenryu
+move y3 from Boink to Kanzenryu
+move y3 from Baz to Kanzenryu
+sacrifice r1 at Fogus; capture y3 at Kanzenryu

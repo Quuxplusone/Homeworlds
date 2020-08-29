@@ -1,0 +1,50 @@
+Dther (0, r2b3) g3-
+Babamots (1, b3r1) -g3
+build g1 at Dther
+build g1 at Babamots
+convert g1 to y1 at Dther
+convert g1 to y1 at Babamots
+build g1 at Dther
+build g1 at Babamots
+convert g1 to r1 at Dther
+convert g1 to r1 at Babamots
+build r2 at Dther
+build r2 at Babamots
+move r2 from Dther to Styx (g1)
+convert r1 to b1 at Babamots
+convert r1 to b1 at Dther
+build r1 at Babamots
+move b1 from Dther to Styx
+move r2 from Babamots to Betazed (g2)
+build g1 at Dther
+move b1 from Babamots to Betazed
+build y1 at Dther
+build y2 at Babamots
+build y2 at Dther
+build y2 at Babamots
+move y1 from Dther to Styx
+move y2 from Babamots to Betazed
+build y3 at Styx
+build y3 at Betazed
+convert g1 to b1 at Dther
+move y2 from Babamots to Orion (g2)
+convert y1 to r1 at Styx
+sacrifice g3 at Babamots; build y1 at Orion; build y3 at Babamots; build r3 at Betazed
+sacrifice y2 at Dther; move r2 from Styx to Betazed; move r1 from Styx to Betazed; catastrophe red at Betazed
+move y2 from Orion to Styx
+convert b1 to r1 at Styx
+sacrifice r1 at Babamots; capture r1 at Styx
+move y3 from Styx to Dther
+build b1 at Betazed
+convert y3 to r3 at Dther
+build r1 at Styx
+move r3 from Dther to Smolensk (g1)
+build r2 at Styx
+sacrifice y1 at Dther; move r3 from Smolensk to Betazed
+sacrifice r1 at Styx; capture r3 at Betazed
+build b2 at Dther
+sacrifice y2 at Betazed; move b1 from Betazed to Styx; move b1 from Styx to Dther; catastrophe blue at Dther
+build g1 at Dther
+sacrifice y3 at Betazed; move r3 from Betazed to Styx; move r3 from Styx to Dther; move r2 from Styx to Dther
+capture r3 at Dther
+move r1 from Styx to Dther; catastrophe red at Dther

@@ -1,0 +1,46 @@
+Wil (0, b2r1) g3-
+Broccoli_Commander (1, b1r2) -g3
+build g1 at Wil
+build g1 at Broccoli_Commander
+convert g1 to y1 at Wil
+convert g1 to y1 at Broccoli_Commander
+build g1 at Wil
+build g1 at Broccoli_Commander
+build y1 at Wil
+move g1 from Broccoli_Commander to Blueberry (b3)
+build y2 at Wil
+convert g1 to r1 at Blueberry
+convert y1 to r1 at Wil
+build g1 at Broccoli_Commander
+move y2 from Wil to Blueberry
+build g1 at Broccoli_Commander
+sacrifice r1 at Wil; capture r1 at Blueberry
+move g1 from Broccoli_Commander to Muffin (b3)
+move g1 from Wil to Blueberry
+build g2 at Muffin
+build g2 at Wil
+convert g2 to r2 at Muffin
+build g2 at Blueberry
+sacrifice g3 at Broccoli_Commander; build g2 at Muffin; build g3 at Broccoli_Commander; build y1 at Broccoli_Commander
+sacrifice y2 at Blueberry; move g1 from Blueberry to Broccoli_Commander; move g2 from Blueberry to Broccoli_Commander; catastrophe green at Broccoli_Commander
+move y1 from Broccoli_Commander to Muffin
+build y2 at Wil
+sacrifice g2 at Muffin; build y2 at Muffin; build y2 at Broccoli_Commander
+move y2 from Wil to Blueberry
+convert y2 to g2 at Broccoli_Commander
+sacrifice g3 at Wil; build y2 at Blueberry; build y3 at Wil; build r1 at Blueberry
+build y3 at Broccoli_Commander
+convert y3 to r3 at Wil
+move y1 from Broccoli_Commander to Topping (b3)
+build y3 at Wil
+sacrifice g2 at Broccoli_Commander; build y3 at Topping; build r2 at Muffin
+move y1 from Wil to G3 (g3)
+move r2 from Muffin to Broccoli_Commander
+sacrifice y2 at Blueberry; move r1 from Blueberry to Broccoli_Commander; move r1 from Blueberry to Broccoli_Commander; catastrophe red at Broccoli_Commander
+build y2 at Muffin
+move y3 from Wil to G3
+build r1 at Muffin
+convert r3 to g3 at Wil
+build g1 at Muffin
+sacrifice y1 at G3; move g2 from Wil to Muffin
+capture g2 at Muffin

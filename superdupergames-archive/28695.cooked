@@ -1,0 +1,61 @@
+Simon (0, r1b3) g3-
+Felix (1, b3g2) -y3
+build g1 at Simon
+build y1 at Felix
+convert g1 to y1 at Simon
+convert y1 to g1 at Felix
+build g1 at Simon
+move g1 from Felix to Fw1 (b1)
+convert g1 to b1 at Simon
+build g1 at Fw1
+move b1 from Simon to G2 (g2)
+convert g1 to b1 at Fw1
+build b2 at G2
+build b2 at Fw1
+sacrifice y1 at Simon; move b1 from G2 to Fw1; catastrophe blue at Fw1
+build y1 at Felix
+build g1 at Simon
+convert y1 to g1 at Felix
+build b1 at G2
+build g1 at Felix
+convert b2 to y2 at G2
+move g1 from Felix to Rappa (b1)
+build y1 at G2
+build g2 at Rappa
+sacrifice y1 at G2; move g1 from Simon to B2 (b2)
+convert g2 to y2 at Rappa
+build g2 at Simon
+build g3 at Rappa
+convert g2 to y2 at Simon
+convert g1 to b1 at Felix
+build b2 at G2
+move b1 from Felix to Ghost (g1)
+build g2 at Simon
+convert g3 to r3 at Rappa
+move b2 from G2 to Ghost
+move r3 from Rappa to G2
+sacrifice g3 at Simon; build g3 at Simon; build g3 at B2; build b2 at Ghost
+capture b1 at G2
+convert b2 to r2 at Ghost
+build g3 at Rappa
+convert g3 to y3 at B2
+capture y2 at G2
+sacrifice g3 at Simon; build g3 at Simon; build g3 at B2; build b2 at Ghost
+sacrifice g3 at Rappa; build g3 at Rappa; build b3 at G2; build r1 at G2
+convert g3 to y3 at B2
+sacrifice g3 at Rappa; build g3 at Rappa; build y1 at Felix; build y1 at G2
+sacrifice g3 at Simon; build g3 at Simon; build g3 at B2; build y1 at Simon
+move b1 from G2 to Ghost; catastrophe blue at Ghost
+convert g3 to r3 at B2
+sacrifice g3 at Rappa; build g3 at Rappa; build b1 at G2; build b1 at G2
+sacrifice g3 at Simon; build g3 at Simon; build g3 at B2; build r1 at Ghost
+sacrifice y2 at G2; move r1 from G2 to Rappa; move r1 from Rappa to Felix
+move y3 from B2 to Ghost
+sacrifice g3 at Rappa; build g3 at Rappa; build y2 at G2; build r2 at Felix
+build r2 at B2
+sacrifice y2 at G2; move b1 from G2 to Simon; move b1 from G2 to Simon
+sacrifice g1 at B2; build y2 at Ghost
+sacrifice g3 at Rappa; build b2 at G2; build b2 at Simon; build r3 at G2; catastrophe blue at Simon
+sacrifice y3 at B2; move y3 from Ghost to Felix; move r1 from Ghost to Felix; move r2 from Ghost to Felix; catastrophe red at Felix
+sacrifice r3 at G2; capture y3 at Felix
+move y2 from Ghost to Felix; catastrophe yellow at Felix

@@ -1,0 +1,47 @@
+Subhan64 (0, y3b1) g3-
+Aristos (1, b3g2) -y3
+build g1 at Subhan64
+build y1 at Aristos
+convert g1 to y1 at Subhan64
+convert y1 to g1 at Aristos
+build g1 at Subhan64
+build y1 at Aristos
+move y1 from Subhan64 to Ix (y2)
+build y1 at Aristos
+sacrifice g1 at Subhan64; build y2 at Ix
+move y1 from Aristos to Ohmigosh (g1)
+move y1 from Ix to Ohmigosh
+convert y1 to r1 at Aristos
+build g1 at Subhan64
+build g2 at Aristos
+move g1 from Subhan64 to Ix
+convert g1 to r1 at Aristos
+build g1 at Subhan64
+sacrifice r1 at Aristos; capture y1 at Ohmigosh
+sacrifice g3 at Subhan64; build g2 at Subhan64; build g3 at Subhan64; build g3 at Ix
+move y1 from Ohmigosh to Ix
+convert g3 to y3 at Subhan64
+sacrifice g2 at Aristos; build y1 at Ix; build y2 at Ohmigosh; catastrophe yellow at Ix
+move g1 from Subhan64 to Xi (g2)
+build y1 at Ohmigosh
+build g1 at Subhan64
+move y2 from Ohmigosh to Xi
+build g3 at Xi
+build y1 at Xi
+move y3 from Subhan64 to Oooo (y2)
+build y2 at Xi
+sacrifice g3 at Xi; build g3 at Xi; build g3 at Xi; build g3 at Subhan64; catastrophe green at Xi
+convert y3 to g3 at Aristos
+convert g1 to b1 at Subhan64
+build r1 at Aristos
+sacrifice b1 at Subhan64; convert y3 to r3 at Oooo
+convert r1 to y1 at Aristos
+move r3 from Oooo to Ohmigosh
+sacrifice y1 at Ohmigosh; move y1 from Ohmigosh to Holysmokes (g2)
+convert g2 to y2 at Subhan64
+build g1 at Aristos
+build g1 at Subhan64
+build y1 at Holysmokes
+move g1 from Subhan64 to Holysmokes
+build y2 at Holysmokes
+sacrifice y2 at Subhan64; move g1 from Holysmokes to Ohmigosh; move g1 from Ohmigosh to Aristos; catastrophe green at Aristos

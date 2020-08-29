@@ -1,0 +1,11 @@
+Ts52 (0, y2b1) g3-
+Aristos (1, g3b2) -y3
+build g1 at Ts52
+build y1 at Aristos
+move g1 from Ts52 to Grover (b3)
+convert y1 to r1 at Aristos
+build g1 at Ts52
+build y1 at Aristos
+build g1 at Grover
+convert y3 to g3 at Aristos
+build g2 at Grover

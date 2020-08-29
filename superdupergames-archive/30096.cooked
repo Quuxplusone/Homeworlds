@@ -1,0 +1,50 @@
+Kalimantan (0, y3b2) g3-
+Draw5Playall (1, b1r3) -g3
+build g1 at Kalimantan
+build g1 at Draw5Playall
+move g1 from Kalimantan to Fleeting (y1)
+convert g1 to y1 at Draw5Playall
+move g1 from Fleeting to Dagoba (b2)
+build g1 at Draw5Playall
+build g1 at Dagoba
+convert g1 to b1 at Draw5Playall
+convert g1 to r1 at Dagoba
+move b1 from Draw5Playall to Draw3Play2 (g2)
+build r1 at Dagoba
+build y1 at Draw5Playall
+build r1 at Dagoba
+move y1 from Draw5Playall to Draw3Play2
+build g1 at Dagoba
+build b1 at Draw3Play2
+convert g1 to y1 at Dagoba
+build y2 at Draw3Play2
+build y2 at Dagoba
+convert y2 to r2 at Draw3Play2
+sacrifice y2 at Dagoba; move r1 from Dagoba to Draw5Playall; move r1 from Dagoba to Draw5Playall
+build b2 at Draw3Play2
+build r2 at Dagoba
+move b2 from Draw3Play2 to Keeper (g1)
+build y2 at Dagoba
+build b3 at Keeper
+sacrifice g1 at Dagoba; build g1 at Kalimantan
+build b3 at Keeper
+move r1 from Dagoba to Draw5Playall; catastrophe red at Draw5Playall
+build b3 at Draw3Play2
+move y1 from Dagoba to Draw5Playall
+move r2 from Draw3Play2 to Draw5Playall
+move y1 from Draw5Playall to Draw3Play2
+convert y1 to r1 at Draw3Play2
+sacrifice r2 at Dagoba; capture r1 at Draw3Play2; capture b1 at Draw3Play2
+sacrifice r2 at Draw5Playall; capture r1 at Draw3Play2; capture b1 at Draw3Play2
+move y1 from Draw3Play2 to Draw5Playall
+convert y1 to r1 at Draw5Playall
+move y1 from Draw5Playall to Dagoba
+build r1 at Draw5Playall
+convert y2 to g2 at Dagoba
+build r2 at Draw3Play2
+sacrifice g3 at Kalimantan; build g1 at Dagoba; build g2 at Dagoba; build g3 at Kalimantan
+convert r1 to y1 at Draw5Playall
+convert g2 to y2 at Dagoba
+move g3 from Draw5Playall to Kalimantan
+sacrifice y2 at Dagoba; move y1 from Dagoba to Draw5Playall; move y1 from Draw5Playall to Kalimantan
+sacrifice r2 at Draw3Play2; capture g1 at Kalimantan; capture g3 at Kalimantan

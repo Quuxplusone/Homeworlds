@@ -1,0 +1,45 @@
+Ladybugsfly (0, y3g2) b3-
+Lordrefa (1, b3g1) -y3
+build b1 at Ladybugsfly
+build y1 at Lordrefa
+build b1 at Ladybugsfly
+build y1 at Lordrefa
+move b1 from Ladybugsfly to Peterpan (g1)
+move y1 from Lordrefa to Mrsmee (g2)
+convert b1 to y1 at Peterpan
+build y2 at Mrsmee
+build y2 at Peterpan
+convert y1 to b1 at Lordrefa
+move b1 from Ladybugsfly to Hook (g1)
+build y1 at Lordrefa
+sacrifice y1 at Peterpan; move b1 from Hook to Lostboys (g2)
+move b1 from Lordrefa to Mrsmee
+build b1 at Lostboys
+build b2 at Mrsmee
+build b2 at Ladybugsfly
+move b1 from Mrsmee to Peterpan
+convert b2 to r2 at Ladybugsfly
+convert b1 to r1 at Peterpan
+sacrifice y2 at Peterpan; move b1 from Lostboys to Lordrefa; move b1 from Lostboys to Lordrefa
+build r1 at Peterpan
+build b1 at Ladybugsfly
+sacrifice r1 at Peterpan; capture b1 at Lordrefa
+build b2 at Lordrefa; catastrophe blue at Lordrefa
+convert y2 to b2 at Mrsmee
+move b1 from Ladybugsfly to Hook (y1)
+move b2 from Mrsmee to Lordrefa
+convert b1 to g1 at Hook
+move b2 from Mrsmee to Hook
+build g2 at Hook
+build r1 at Peterpan
+move g2 from Hook to Wendy (y2)
+move y3 from Lordrefa to Wendy
+sacrifice g2 at Wendy; build g2 at Hook; build b1 at Ladybugsfly
+sacrifice y3 at Wendy; move b2 from Hook to Ladybugsfly; move b2 from Lordrefa to Ladybugsfly; move r1 from Peterpan to Mrsmee; catastrophe blue at Ladybugsfly
+build g3 at Hook
+build y2 at Lordrefa
+move g3 from Hook to Tigerlily (y3)
+build y2 at Mrsmee
+move g3 from Tigerlily to Lordrefa
+build y2 at Mrsmee
+sacrifice g2 at Hook; build g2 at Lordrefa; build g3 at Lordrefa; catastrophe green at Lordrefa

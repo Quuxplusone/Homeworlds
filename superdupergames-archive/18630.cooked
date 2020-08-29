@@ -1,0 +1,87 @@
+Goulo (0, b3g2) y3-
+Adambadura (1, g1b3) -y3
+build y1 at Goulo
+build y1 at Adambadura
+convert y1 to r1 at Goulo
+build y1 at Adambadura
+build r1 at Goulo
+convert y3 to r3 at Adambadura
+convert r1 to g1 at Goulo
+move y1 from Adambadura to Shipyard (g2)
+build r1 at Goulo
+build r1 at Adambadura
+build r2 at Goulo
+build r2 at Adambadura
+sacrifice y3 at Goulo; move r1 from Goulo to Mirteleto (b1); move r1 from Mirteleto to Shipyard; move r1 from Shipyard to Adambadura; catastrophe red at Adambadura
+build y1 at Adambadura
+convert r2 to y2 at Goulo
+build y2 at Shipyard
+build r1 at Goulo
+convert y1 to r1 at Adambadura
+build r2 at Goulo
+build r2 at Adambadura
+move r2 from Goulo to Smeraldeto (g1)
+move r1 from Adambadura to Shipyard
+build g2 at Goulo
+build r2 at Shipyard
+build r3 at Smeraldeto
+build r3 at Adambadura
+build y1 at Goulo
+convert r3 to g3 at Adambadura
+move g1 from Goulo to Smeraldeto
+build r3 at Adambadura
+build r3 at Goulo
+sacrifice y2 at Shipyard; move r1 from Shipyard to Smeraldeto; move r1 from Smeraldeto to Goulo; catastrophe red at Goulo
+build g3 at Goulo
+move g3 from Adambadura to Highway (y2)
+move g2 from Goulo to Rubeneto (r1)
+move g3 from Highway to Rubeneto
+build g3 at Rubeneto
+capture g3 at Rubeneto
+sacrifice g1 at Smeraldeto; build g1 at Rubeneto; catastrophe green at Rubeneto
+convert y1 to g1 at Adambadura
+move y1 from Goulo to Smeraldeto
+build g2 at Adambadura
+build g3 at Goulo
+convert g2 to y2 at Adambadura
+convert g3 to y3 at Goulo
+build r1 at Shipyard
+move r3 from Smeraldeto to Citrono (y2)
+move g1 from Adambadura to Mutators (b2)
+move r3 from Citrono to Adambadura
+sacrifice r2 at Adambadura; capture r3 at Adambadura
+build r1 at Smeraldeto
+move r3 from Adambadura to Mutators
+move g3 from Goulo to Smeraldeto
+build g2 at Mutators
+move g3 from Smeraldeto to Citrono (y2)
+build g3 at Mutators
+build g3 at Citrono
+convert g3 to y3 at Mutators
+move r1 from Smeraldeto to Goulo
+convert g1 to b1 at Mutators
+build r1 at Smeraldeto
+move b1 from Mutators to Lastbase (g1)
+move y2 from Goulo to Lastbase
+move r3 from Mutators to Lastbase
+move y2 from Lastbase to Citrono
+build g3 at Mutators
+sacrifice g3 at Citrono; build g3 at Citrono; build y1 at Goulo; build y3 at Smeraldeto
+move r1 from Shipyard to Tiny (b1)
+move r1 from Smeraldeto to Citrono
+sacrifice g3 at Mutators; build g3 at Mutators; build r2 at Lastbase; build r3 at Tiny
+move y1 from Smeraldeto to Mirtelo (b2)
+sacrifice g3 at Mutators; build g3 at Mutators; build b1 at Lastbase; build b2 at Lastbase
+move y3 from Smeraldeto to Shipyard
+move y1 from Shipyard to Lastbase
+sacrifice r2 at Smeraldeto; capture r2 at Shipyard
+sacrifice y3 at Mutators; move r2 from Lastbase to Mirtelo; move r1 from Tiny to Mutators; move b1 from Lastbase to Goulo
+move y1 from Mirtelo to Smeraldeto (g1)
+sacrifice g3 at Mutators; build g3 at Mutators; build r2 at Mirtelo; build y3 at Adambadura
+move y3 from Shipyard to Adambadura
+capture y3 at Adambadura
+move y2 from Citrono to Adambadura; catastrophe yellow at Adambadura
+sacrifice g3 at Mutators; build g3 at Mutators; build b3 at Lastbase; build y2 at Lastbase
+capture b1 at Goulo
+sacrifice y2 at Lastbase; move b1 from Lastbase to Goulo; move b2 from Lastbase to Goulo; catastrophe blue at Goulo
+sacrifice y3 at Goulo; move r1 from Citrono to Adambadura; move r2 from Shipyard to Adambadura; move r1 from Goulo to Adambadura; catastrophe red at Adambadura

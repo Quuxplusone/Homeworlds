@@ -1,0 +1,43 @@
+Ajo (0, g3b2) y3-
+Felix (1, r1b3) -g3
+build y1 at Ajo
+build g1 at Felix
+convert y1 to g1 at Ajo
+convert g1 to y1 at Felix
+build g1 at Ajo
+build g1 at Felix
+move g1 from Ajo to Alpha (b1)
+build g2 at Felix
+build g2 at Alpha
+move g2 from Felix to Oats (b2)
+convert g1 to y1 at Alpha
+convert g1 to b1 at Felix
+build g1 at Alpha
+build b1 at Felix
+convert g2 to b2 at Alpha
+move b1 from Felix to Oats
+move b2 from Alpha to Beta (g2)
+convert b1 to y1 at Oats
+build y2 at Alpha
+build y2 at Oats
+move y1 from Alpha to Beta
+move y1 from Oats to Ingress (g1)
+build b1 at Beta
+sacrifice g3 at Felix; build y2 at Ingress; build y3 at Oats; build y3 at Felix
+convert b2 to r2 at Beta
+convert y3 to r3 at Oats
+build y3 at Beta
+convert y3 to g3 at Felix
+build y3 at Alpha
+move g2 from Oats to Alpha
+build b2 at Beta
+build g2 at Alpha
+sacrifice y3 at Beta; move g1 from Ajo to Alpha; move b1 from Beta to Felix; move b2 from Beta to Felix; catastrophe green at Alpha; catastrophe blue at Felix
+build y3 at Felix
+convert y3 to r3 at Ajo
+move y1 from Felix to Beta
+convert y2 to g2 at Alpha
+build g1 at Felix
+sacrifice g2 at Alpha; build r1 at Beta; build r1 at Ajo
+sacrifice y2 at Oats; move r3 from Oats to Alpha; move r3 from Alpha to Ajo
+sacrifice y3 at Alpha; move r1 from Beta to Felix; move r2 from Beta to Felix; move r1 from Ajo to Felix; catastrophe red at Felix

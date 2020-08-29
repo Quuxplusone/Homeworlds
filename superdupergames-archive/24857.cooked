@@ -1,0 +1,44 @@
+Onepagewars (0, b1r2) g3-
+Haukec (1, r1b2) -g3
+build g1 at Onepagewars
+build g1 at Haukec
+convert g1 to b1 at Onepagewars
+build g1 at Haukec
+build g1 at Onepagewars
+convert g1 to y1 at Haukec
+convert g1 to y1 at Onepagewars
+move g1 from Haukec to Somewherelse (g3)
+build g1 at Onepagewars
+build g1 at Haukec
+move g1 from Onepagewars to Somewherelse
+move g1 from Haukec to Anewworld (y3)
+build g2 at Onepagewars
+build g2 at Haukec
+build b1 at Onepagewars
+sacrifice g3 at Haukec; build g2 at Anewworld; build g3 at Haukec; build y1 at Haukec
+move b1 from Onepagewars to Somewherelse
+build y2 at Haukec
+sacrifice g3 at Onepagewars; build g3 at Onepagewars; build b2 at Somewherelse; build y2 at Onepagewars
+sacrifice y2 at Haukec; move g1 from Somewherelse to Onepagewars; move g1 from Anewworld to Onepagewars; catastrophe green at Onepagewars
+move y1 from Onepagewars to Somewherelse
+move g2 from Haukec to Somewherelse
+move g1 from Somewherelse to Onepagewars
+sacrifice g2 at Anewworld; build g1 at Somewherelse; build g1 at Somewherelse; catastrophe green at Somewherelse
+build g1 at Onepagewars
+move y1 from Haukec to Nowhere (g3)
+move g1 from Onepagewars to Serenity_Valley (b3)
+build y1 at Haukec
+build y2 at Onepagewars
+move y1 from Haukec to Serenity_Valley
+move y2 from Onepagewars to Serenity_Valley
+sacrifice g3 at Haukec; build y2 at Serenity_Valley; build y3 at Nowhere; build y3 at Haukec
+build y3 at Onepagewars
+sacrifice y2 at Serenity_Valley; move y1 from Nowhere to Onepagewars; move y1 from Serenity_Valley to Onepagewars; catastrophe yellow at Onepagewars
+build y1 at Serenity_Valley
+move y3 from Nowhere to Onepagewars
+build y1 at Serenity_Valley
+move y1 from Haukec to Serenity_Valley; catastrophe yellow at Serenity_Valley
+sacrifice g1 at Serenity_Valley; build b1 at Onepagewars
+capture g1 at Onepagewars
+pass
+convert y3 to b3 at Onepagewars; catastrophe blue at Onepagewars

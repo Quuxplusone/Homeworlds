@@ -1,0 +1,83 @@
+Rizzotto (0, r3g1) b3-
+Detectiveazul (1, g3b1) -y3
+build b1 at Rizzotto
+build y1 at Detectiveazul
+convert b1 to y1 at Rizzotto
+convert y1 to b1 at Detectiveazul
+build b1 at Rizzotto
+build b2 at Detectiveazul
+convert b1 to r1 at Rizzotto
+convert b1 to g1 at Detectiveazul
+build y1 at Rizzotto
+build b1 at Detectiveazul
+build r1 at Rizzotto
+convert b1 to r1 at Detectiveazul
+convert r1 to g1 at Rizzotto
+build g2 at Detectiveazul
+move g1 from Rizzotto to Dasdingo (b2)
+move g2 from Detectiveazul to Dasdingo
+build g2 at Dasdingo
+build g2 at Dasdingo; catastrophe green at Dasdingo
+build b1 at Rizzotto
+build g1 at Detectiveazul
+build y1 at Rizzotto
+build y2 at Detectiveazul
+move y1 from Rizzotto to Gilipolless (g2)
+move g1 from Detectiveazul to Mulatillas (y2)
+build y2 at Gilipolless
+build g2 at Mulatillas
+sacrifice b1 at Rizzotto; convert y2 to g2 at Gilipolless
+sacrifice b2 at Detectiveazul; convert g1 to r1 at Mulatillas; convert g2 to r2 at Mulatillas
+move r1 from Rizzotto to Gilipolless
+move y3 from Detectiveazul to Gilipolless
+sacrifice g2 at Gilipolless; build y2 at Gilipolless; build y3 at Gilipolless; catastrophe yellow at Gilipolless
+build g1 at Detectiveazul
+build r2 at Gilipolless
+convert g1 to b1 at Detectiveazul
+move y1 from Rizzotto to Gilipolless
+build r2 at Detectiveazul
+move r1 from Gilipolless to Rizzotto
+sacrifice y2 at Detectiveazul; move r1 from Mulatillas to Rizzotto; move r2 from Mulatillas to Rizzotto; catastrophe red at Rizzotto
+build r1 at Gilipolless
+build g1 at Detectiveazul
+build b1 at Rizzotto
+convert r2 to y2 at Detectiveazul
+convert b3 to r3 at Rizzotto
+build b2 at Detectiveazul
+build b2 at Rizzotto
+convert b2 to r2 at Detectiveazul
+move r1 from Gilipolless to Rizzotto
+build b2 at Detectiveazul
+convert b2 to y2 at Rizzotto
+convert b2 to y2 at Detectiveazul
+build b2 at Rizzotto
+sacrifice y2 at Detectiveazul; move r1 from Detectiveazul to Gilipolless; move r1 from Gilipolless to Rizzotto
+convert r1 to y1 at Rizzotto
+build r1 at Rizzotto
+move r3 from Rizzotto to Help (y3)
+sacrifice r2 at Detectiveazul; capture y1 at Rizzotto; capture b1 at Rizzotto
+sacrifice r2 at Gilipolless; capture y1 at Rizzotto; capture b1 at Rizzotto
+capture y1 at Rizzotto
+build b2 at Rizzotto
+build y2 at Rizzotto; catastrophe yellow at Rizzotto
+convert b1 to r1 at Rizzotto
+sacrifice y2 at Detectiveazul; move b1 from Detectiveazul to Gilipolless; move b1 from Gilipolless to Rizzotto
+convert b2 to y2 at Rizzotto
+capture r1 at Rizzotto
+convert y2 to r2 at Rizzotto; catastrophe red at Rizzotto
+build b1 at Rizzotto
+convert b2 to r2 at Rizzotto
+build b2 at Rizzotto
+capture b2 at Rizzotto
+convert b1 to r1 at Rizzotto
+move y1 from Gilipolless to Detectiveazul
+sacrifice r1 at Rizzotto; capture y1 at Detectiveazul
+capture b1 at Rizzotto
+build y1 at Detectiveazul
+convert b2 to y2 at Rizzotto
+build y1 at Detectiveazul
+sacrifice y2 at Rizzotto; move r3 from Help to Salto (g2); move r3 from Salto to Detectiveazul
+convert y1 to r1 at Detectiveazul
+capture r1 at Detectiveazul
+convert g1 to r1 at Detectiveazul
+sacrifice r3 at Detectiveazul; capture r1 at Detectiveazul; capture g1 at Detectiveazul; capture y1 at Detectiveazul

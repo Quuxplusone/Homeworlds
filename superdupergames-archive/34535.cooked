@@ -1,0 +1,85 @@
+Ts52 (0, y1b2) g3-
+Trydnt (1, b3r2) -g3
+build g1 at Ts52
+build g1 at Trydnt
+convert g1 to y1 at Ts52
+convert g1 to y1 at Trydnt
+build y2 at Ts52
+build y2 at Trydnt
+build g1 at Ts52
+build y2 at Trydnt
+move y1 from Ts52 to Bigbird (g3)
+sacrifice y2 at Trydnt; move y1 from Trydnt to G1 (g1); move y2 from Trydnt to Gee1 (g1)
+build g2 at Ts52
+build g2 at Trydnt
+move g2 from Ts52 to Gonzo (b3)
+sacrifice g2 at Trydnt; build y2 at G1; build y3 at Gee1
+build y3 at Bigbird
+move y1 from G1 to B3 (b3)
+convert y2 to r2 at Ts52
+build g2 at Trydnt
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build r1 at Ts52
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y2 at G1; build y3 at G1
+move r2 from Ts52 to B3
+sacrifice y2 at Gee1; move y2 from G1 to Bigbird; move y2 from G1 to Bigbird; catastrophe yellow at Bigbird
+convert g2 to y2 at Gonzo
+sacrifice y1 at B3; move g2 from Trydnt to Y1 (y1)
+build r1 at Ts52
+move g2 from Y1 to Y3 (y3)
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Gonzo; build g3 at Ts52
+sacrifice y3 at G1; move g2 from Y3 to Gee1; move g2 from Gee1 to Gonzo; move y3 from Gee1 to B3; catastrophe green at Gonzo
+sacrifice g3 at Ts52; build r1 at B3; build r2 at B3; build r3 at Ts52
+build g1 at Trydnt
+convert r3 to g3 at Ts52
+convert g3 to r3 at Trydnt
+move r1 from Ts52 to Gonzo
+convert y3 to r3 at B3; catastrophe red at B3
+move g1 from Ts52 to Gonzo
+build g1 at Trydnt
+build g2 at Ts52
+convert g1 to y1 at Trydnt
+build r1 at Gonzo
+build y1 at Trydnt
+build y2 at Gonzo
+move y1 from Trydnt to G1 (g1)
+move y2 from Gonzo to Grover (b1)
+build g2 at Trydnt
+move r1 from Gonzo to Grover
+sacrifice g2 at Trydnt; build y2 at G1; build y3 at Trydnt
+build y3 at Gonzo
+sacrifice y1 at Trydnt; move r3 from Trydnt to G1
+build g2 at Gonzo
+build r2 at G1
+sacrifice g3 at Ts52; build r2 at Gonzo; build r3 at Grover; build r3 at Ts52
+move y2 from G1 to G3 (g3)
+convert r3 to y3 at Ts52
+move y1 from G1 to R3 (r3)
+sacrifice g2 at Gonzo; build g2 at Gonzo; build y1 at Grover
+move y2 from G3 to G1
+convert r3 to b3 at Grover
+move r2 from G1 to G3 (g3)
+sacrifice g2 at Gonzo; build g2 at Gonzo; build r3 at Grover
+move r3 from G1 to Gee3 (g3)
+move y3 from Gonzo to G1
+move y2 from G1 to Gee3
+move b3 from Grover to G3
+sacrifice y1 at R3; move r2 from G3 to G2 (g2)
+build g3 at Ts52
+build r3 at G2
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Gonzo; build b1 at G3
+move y2 from Gee3 to G2
+move y2 from Grover to G3
+move r3 from G2 to Gonzo
+move r1 from Grover to Gonzo; catastrophe red at Gonzo
+sacrifice y2 at G2; move r3 from Gee3 to G2; move r3 from G2 to Gonzo
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Ts52; build y2 at G1
+sacrifice r2 at G2; capture g2 at Gonzo; capture y2 at Gonzo
+move g3 from Ts52 to Elmo (r3)
+capture y1 at Gonzo
+sacrifice g3 at Ts52; build g2 at Elmo; build g3 at Ts52; build b1 at G3
+capture g1 at Gonzo
+move g2 from Ts52 to G3
+build r1 at Gonzo
+move y3 from Ts52 to Elmo
+move r1 from Gonzo to R1 (r1)
+sacrifice g3 at Elmo; build g3 at Elmo; build r2 at Grover; build r2 at Ts52

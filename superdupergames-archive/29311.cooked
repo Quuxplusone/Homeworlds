@@ -1,0 +1,36 @@
+Zmehaffey (0, b2y1) g3-
+Felix (1, b1y3) -g3
+build g1 at Zmehaffey
+build g1 at Felix
+convert g3 to r3 at Zmehaffey
+convert g1 to b1 at Felix
+build g1 at Zmehaffey
+build b1 at Felix
+move g1 from Zmehaffey to Hornet (y3)
+move b1 from Felix to Turtle (g2)
+build r1 at Zmehaffey
+build b2 at Turtle
+build g1 at Hornet
+build b2 at Felix
+build g2 at Zmehaffey
+build b3 at Turtle
+convert r3 to b3 at Zmehaffey
+convert b2 to y2 at Turtle
+build g2 at Hornet
+build g3 at Felix
+build g3 at Zmehaffey
+move b1 from Turtle to Rage (r3)
+move g3 from Zmehaffey to Rage
+sacrifice g3 at Felix; build g3 at Felix; build b2 at Rage; build b3 at Turtle
+capture b2 at Rage
+convert b3 to r3 at Turtle
+sacrifice g3 at Rage; build g3 at Zmehaffey; build b3 at Zmehaffey; build r1 at Zmehaffey
+sacrifice y2 at Turtle; move b1 from Rage to Zmehaffey; move r3 from Turtle to Hornet; catastrophe blue at Zmehaffey
+move g2 from Hornet to Killer (y2)
+convert b2 to y2 at Felix
+move g1 from Zmehaffey to Rage
+capture g1 at Hornet
+sacrifice g3 at Zmehaffey; build g3 at Zmehaffey; build b1 at Rage; build r1 at Zmehaffey
+sacrifice y2 at Felix; move r3 from Hornet to Zmehaffey; move g1 from Hornet to Zmehaffey; catastrophe red at Zmehaffey
+move g2 from Zmehaffey to Rage
+sacrifice g3 at Felix; build g3 at Zmehaffey; build b2 at Turtle

@@ -1,0 +1,42 @@
+Simon (0, g3r1) b3-
+Draw5Playall (1, b3r2) -g3
+build b1 at Simon
+build g1 at Draw5Playall
+build b1 at Simon
+build g1 at Draw5Playall
+convert b3 to y3 at Simon
+convert g1 to b1 at Draw5Playall
+build b2 at Simon
+build b2 at Draw5Playall
+move b2 from Simon to G2 (g2)
+convert b2 to y2 at Draw5Playall
+build b2 at G2
+move b1 from Draw5Playall to Build (g1)
+convert b2 to y2 at G2
+build b2 at Build
+build b2 at G2
+convert b2 to r2 at Build
+convert b2 to r2 at G2
+build b2 at Build
+build r1 at G2
+convert b1 to y1 at Build
+move r2 from G2 to Y1 (y1)
+build y1 at Build
+build y2 at G2
+build y3 at Draw5Playall
+build y3 at Simon
+move g1 from Draw5Playall to Attack (r1)
+convert y3 to g3 at Simon
+build r3 at Build
+sacrifice g3 at Simon; build y3 at Simon; build r3 at Y1; build r3 at G2
+move r2 from Build to Trade (b2)
+build b1 at G2
+build b3 at Build
+sacrifice y2 at G2; move r3 from Y1 to Draw5Playall; move b1 from Simon to G2A (g2)
+capture r3 at Draw5Playall
+sacrifice y3 at Simon; move r2 from Y1 to Draw5Playall; move r1 from G2 to Attack; move r1 from Attack to Draw5Playall; catastrophe red at Draw5Playall
+sacrifice y2 at Draw5Playall; move b2 from Build to G2; move b3 from Build to G2; catastrophe blue at G2
+build b1 at G2A
+move r3 from Build to G2A
+sacrifice y2 at G2; move b1 from G2A to Draw5Playall; move b1 from G2A to Draw5Playall
+sacrifice y3 at Draw5Playall; move r3 from G2A to Simon; move r2 from Trade to Simon; move y1 from Build to Draw5Playall

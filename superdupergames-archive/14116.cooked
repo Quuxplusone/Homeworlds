@@ -1,0 +1,13 @@
+Twoshort (0, r1b3) g3-
+Exkirby (1, y3g1) -b3
+build g1 at Twoshort
+build b1 at Exkirby
+build g1 at Twoshort
+convert b1 to y1 at Exkirby
+convert g1 to y1 at Twoshort
+move y1 from Exkirby to Newstarname (g2)
+move y1 from Twoshort to Bluestar (b2)
+build b1 at Exkirby
+build g1 at Twoshort
+move b1 from Exkirby to Bluestar
+convert g1 to y1 at Twoshort

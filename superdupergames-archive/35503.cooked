@@ -1,0 +1,42 @@
+Laurie_Menke (0, b1y2) g3-
+Draw5Playall (1, b1g3) -b3
+build g1 at Laurie_Menke
+build b1 at Draw5Playall
+convert g1 to y1 at Laurie_Menke
+convert b3 to y3 at Draw5Playall
+build y1 at Laurie_Menke
+build b2 at Draw5Playall
+convert y1 to r1 at Laurie_Menke
+move b2 from Draw5Playall to Build (g2)
+build r1 at Laurie_Menke
+build b2 at Build
+build g1 at Laurie_Menke
+build b2 at Draw5Playall
+move g1 from Laurie_Menke to Blue (b3)
+build b3 at Build
+build y1 at Laurie_Menke
+convert b3 to r3 at Build
+move y1 from Laurie_Menke to Navy (b3)
+build b3 at Build
+build g1 at Laurie_Menke
+convert b2 to y2 at Build
+move r1 from Laurie_Menke to Yellow (y3)
+build b2 at Build
+move y1 from Navy to Lemon (y2)
+convert b2 to r2 at Build
+move g1 from Laurie_Menke to Mustard (y3)
+move r2 from Build to Mustard
+move g1 from Mustard to Lemon
+move r2 from Mustard to Lemon
+build g1 at Laurie_Menke
+capture g1 at Lemon
+build g2 at Laurie_Menke
+sacrifice y2 at Build; move g1 from Lemon to Blue; move g1 from Blue to Laurie_Menke; catastrophe green at Laurie_Menke
+sacrifice y1 at Lemon; move g1 from Blue to Laurie_Menke
+move r2 from Lemon to Yellow
+build r1 at Laurie_Menke
+capture r1 at Yellow
+move r1 from Laurie_Menke to Green (g3)
+move r2 from Yellow to Laurie_Menke
+build r2 at Green
+sacrifice r3 at Build; capture y1 at Laurie_Menke; capture r1 at Laurie_Menke; capture g1 at Laurie_Menke

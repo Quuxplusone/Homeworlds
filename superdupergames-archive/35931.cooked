@@ -1,0 +1,78 @@
+Mantheron (0, b1r3) g3-
+Tkvaran (1, r3g2) -b3
+build g1 at Mantheron
+build b1 at Tkvaran
+convert g1 to y1 at Mantheron
+build b1 at Tkvaran
+build y1 at Mantheron
+convert b1 to y1 at Tkvaran
+build y2 at Mantheron
+build y2 at Tkvaran
+build g1 at Mantheron
+move y2 from Tkvaran to Oprah (g1)
+convert y1 to r1 at Mantheron
+move b1 from Tkvaran to Oprah
+move y2 from Mantheron to Picard (g2)
+build y1 at Oprah
+move r1 from Mantheron to Picard
+convert y2 to r2 at Oprah
+build y2 at Picard
+build y2 at Oprah
+build y3 at Mantheron
+move y2 from Oprah to Picard
+move y2 from Picard to Data (b3)
+build y3 at Oprah
+capture y2 at Picard
+build y3 at Tkvaran
+build r1 at Picard
+move y3 from Oprah to Picard
+move r1 from Picard to Data
+move y3 from Picard to Data
+move g3 from Mantheron to Picard
+sacrifice r2 at Oprah; capture r1 at Data; capture y2 at Data
+build g1 at Mantheron
+move y2 from Data to Ellen (r2)
+build g2 at Picard
+move y1 from Oprah to Ellen
+build g3 at Mantheron
+sacrifice y3 at Tkvaran; move y2 from Ellen to Mantheron; move y1 from Ellen to Mantheron; move b1 from Oprah to Sallyjessie (r2); catastrophe yellow at Mantheron
+convert g1 to b1 at Mantheron
+build b2 at Tkvaran
+build b2 at Mantheron
+sacrifice y1 at Tkvaran; move b1 from Sallyjessie to Mantheron; catastrophe blue at Mantheron
+move g3 from Picard to Worf (r1)
+convert b2 to y2 at Tkvaran
+build r2 at Picard
+move y2 from Tkvaran to Montel (b1)
+move y2 from Picard to Riker (b1)
+move r1 from Data to Rickilake (g1)
+move r2 from Picard to Rickilake
+build b1 at Tkvaran
+capture r1 at Rickilake
+convert y2 to r2 at Montel
+build r2 at Picard
+build b2 at Tkvaran
+move r2 from Picard to Riker
+convert b1 to g1 at Tkvaran
+build r3 at Picard
+convert b2 to y2 at Tkvaran
+build g3 at Worf
+move g1 from Tkvaran to Montel
+sacrifice g3 at Worf; build g3 at Worf; build y1 at Riker; build y1 at Picard
+build b1 at Tkvaran
+move r3 from Picard to Montel
+sacrifice y2 at Tkvaran; move g1 from Montel to Mantheron; move r2 from Montel to Mantheron
+sacrifice r2 at Rickilake; capture r2 at Mantheron; capture g1 at Mantheron
+convert b3 to y3 at Tkvaran
+move y1 from Picard to Mantheron
+build b2 at Tkvaran
+move r1 from Picard to Riker
+move b2 from Tkvaran to Rickilake
+sacrifice y2 at Riker; move r1 from Rickilake to Tkvaran; move r1 from Riker to Tkvaran
+convert b2 to r2 at Rickilake
+move r2 from Riker to Tkvaran; catastrophe red at Tkvaran
+build r1 at Rickilake
+move r2 from Mantheron to Picard
+convert b1 to r1 at Tkvaran
+move g1 from Mantheron to Tkvaran
+sacrifice y3 at Data; move r1 from Rickilake to Mantheron; move r2 from Rickilake to Mantheron; move r1 from Tkvaran to Mantheron; catastrophe red at Mantheron

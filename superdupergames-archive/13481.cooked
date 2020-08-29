@@ -1,0 +1,41 @@
+Madwuher (0, r1b2) g3-
+Mzmzmz (1, g3y1) -b3
+build g1 at Madwuher
+build b1 at Mzmzmz
+convert g1 to y1 at Madwuher
+move b1 from Mzmzmz to Carpet (g2)
+build y1 at Madwuher
+build b1 at Carpet
+move y1 from Madwuher to Edora (g3)
+convert b1 to r1 at Carpet
+build y2 at Edora
+build b1 at Mzmzmz
+move y1 from Edora to Bologna (g2)
+build b1 at Carpet
+build y2 at Bologna
+build b2 at Carpet
+build y2 at Madwuher
+build b2 at Mzmzmz
+sacrifice g3 at Madwuher; build y3 at Edora; build y3 at Madwuher; build y3 at Bologna
+convert b2 to g2 at Carpet
+convert y3 to g3 at Madwuher
+build b2 at Carpet
+build y3 at Madwuher
+convert b3 to r3 at Mzmzmz
+convert y3 to r3 at Madwuher
+build b3 at Mzmzmz
+build y3 at Madwuher
+convert b1 to g1 at Carpet
+build g1 at Madwuher
+move b3 from Mzmzmz to Carpet
+move g1 from Madwuher to Camelot (r3)
+move b2 from Mzmzmz to Bologna
+sacrifice y1 at Bologna; move y2 from Bologna to Abydos (y1)
+build b1 at Bologna
+build r1 at Madwuher
+build b3 at Bologna
+sacrifice r3 at Madwuher; capture b3 at Bologna; capture b2 at Bologna; capture b1 at Bologna
+move b1 from Mzmzmz to Bologna; catastrophe blue at Bologna
+build g1 at Madwuher
+build r2 at Mzmzmz
+build r2 at Madwuher

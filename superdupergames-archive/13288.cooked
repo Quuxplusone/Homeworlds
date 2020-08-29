@@ -1,0 +1,17 @@
+Agentofchaos (0, r1b2) g3-
+Heavytanhat (1, g1b3) -y3
+build g1 at Agentofchaos
+build y1 at Heavytanhat
+convert g1 to y1 at Agentofchaos
+move y1 from Heavytanhat to Halver (g2)
+build g1 at Agentofchaos
+build y1 at Halver
+build y2 at Agentofchaos
+build y2 at Heavytanhat
+move y2 from Agentofchaos to Axolotl (g3)
+convert y2 to g2 at Heavytanhat
+build y2 at Axolotl
+convert y3 to g3 at Heavytanhat
+build y2 at Agentofchaos
+move y1 from Halver to Heavytanhat
+build y3 at Agentofchaos

@@ -1,0 +1,21 @@
+Ausmuh (0, g3y1) b3-
+Bhorner (1, y2b1) -g3
+build b1 at Ausmuh
+build g1 at Bhorner
+move b1 from Ausmuh to Gwar (g2)
+convert g1 to y1 at Bhorner
+build b1 at Ausmuh
+build y1 at Bhorner
+build b2 at Gwar
+move y1 from Bhorner to Plant (g3)
+convert b2 to y2 at Gwar
+build g1 at Bhorner
+build b2 at Gwar
+sacrifice g3 at Bhorner; build y2 at Plant; build y3 at Plant; build y3 at Bhorner
+build y3 at Gwar
+sacrifice y1 at Bhorner; move y1 from Plant to Gwar
+convert y3 to r3 at Gwar
+convert g1 to r1 at Bhorner
+capture y1 at Gwar
+move y3 from Plant to Smallplant (g2)
+convert b3 to g3 at Ausmuh

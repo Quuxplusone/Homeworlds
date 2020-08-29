@@ -1,0 +1,62 @@
+Nycavri (0, b1y2) g3-
+Agentofchaos (1, y3b2) -g3
+build g1 at Nycavri
+build g1 at Agentofchaos
+convert g1 to y1 at Nycavri
+build g1 at Agentofchaos
+move y1 from Nycavri to Mvb (g3)
+move g1 from Agentofchaos to Icarus (y1)
+build y1 at Mvb
+build g1 at Icarus
+build g2 at Nycavri
+build g2 at Icarus
+sacrifice g3 at Nycavri; build g2 at Nycavri; build g3 at Nycavri; build y2 at Mvb
+move g1 from Icarus to Mvb
+convert g2 to r2 at Nycavri
+build g2 at Agentofchaos
+sacrifice y2 at Mvb; move y1 from Mvb to Icarus; move y1 from Icarus to Agentofchaos
+convert g1 to r1 at Agentofchaos
+sacrifice g2 at Nycavri; build y2 at Agentofchaos; build y2 at Agentofchaos; catastrophe yellow at Agentofchaos
+convert g3 to r3 at Agentofchaos
+build r1 at Nycavri
+convert r1 to y1 at Agentofchaos
+convert r1 to g1 at Nycavri
+build y2 at Agentofchaos
+build y2 at Mvb
+move y1 from Agentofchaos to Hades (g3)
+build y3 at Mvb
+move y2 from Agentofchaos to Mvb; catastrophe yellow at Mvb
+build r1 at Nycavri
+move y1 from Hades to Io (g2)
+move r2 from Nycavri to Mvb
+build g3 at Mvb
+convert g1 to y1 at Nycavri
+sacrifice g3 at Mvb; build g1 at Agentofchaos; build y2 at Io; build g3 at Mvb
+move y1 from Nycavri to Mvb
+move g1 from Icarus to Agon (y2)
+build y3 at Mvb
+move y1 from Io to Icarus
+build r1 at Nycavri
+sacrifice r3 at Agentofchaos; capture y3 at Mvb; capture y1 at Mvb; capture r2 at Mvb
+move r1 from Nycavri to Mvg (y3)
+move r2 from Mvb to Agentofchaos
+build r1 at Nycavri
+sacrifice g3 at Mvb; build y3 at Io; build r2 at Agentofchaos; build g3 at Agon
+convert r1 to b1 at Nycavri
+move y1 from Mvb to Agentofchaos
+build b1 at Nycavri
+convert g2 to b2 at Agentofchaos
+move b1 from Nycavri to Mvg
+move r2 from Agentofchaos to Mvg
+move b1 from Mvg to Agentofchaos
+capture b1 at Agentofchaos
+move r1 from Mvg to Agentofchaos
+capture r1 at Agentofchaos
+build r1 at Nycavri
+sacrifice g3 at Agon; build g2 at Agon; build g3 at Agentofchaos; build r2 at Mvg
+convert g3 to b3 at Nycavri
+sacrifice y2 at Io; move b1 from Agentofchaos to Mvb; move b1 from Mvb to Nycavri; catastrophe blue at Nycavri
+move r1 from Nycavri to Icarus
+move r2 from Mvg to Nycavri
+move r1 from Icarus to Agentofchaos
+capture r1 at Nycavri

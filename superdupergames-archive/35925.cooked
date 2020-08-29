@@ -1,0 +1,61 @@
+Ajo (0, y3b2) g3-
+Dodobirb (1, b1y3) -g3
+build g1 at Ajo
+build g1 at Dodobirb
+move g1 from Ajo to Alpha (b1)
+move g1 from Dodobirb to Blueyish (b2)
+build g1 at Ajo
+convert g1 to b1 at Blueyish
+build g1 at Ajo
+build g2 at Dodobirb
+build g2 at Alpha
+sacrifice g2 at Dodobirb; build g2 at Dodobirb; build b2 at Blueyish
+convert g2 to y2 at Alpha
+convert g2 to y2 at Dodobirb
+build g2 at Alpha
+build g2 at Dodobirb
+convert g1 to r1 at Ajo
+convert g2 to r2 at Dodobirb
+build r1 at Ajo
+build r1 at Dodobirb
+build r2 at Ajo
+build y1 at Dodobirb
+build y1 at Alpha
+move y2 from Dodobirb to Greenyish (g2)
+move r2 from Ajo to Beta (g1)
+move r2 from Dodobirb to Greenyish
+sacrifice g3 at Ajo; build g2 at Ajo; build g3 at Ajo; build g3 at Alpha
+move y1 from Dodobirb to Blueyish
+move g3 from Alpha to Greenyish
+sacrifice y2 at Greenyish; move r2 from Greenyish to Dodobirb; move b2 from Blueyish to Dodobirb
+move g2 from Alpha to Blueyish
+sacrifice g3 at Dodobirb; build b3 at Dodobirb; build b3 at Blueyish; build b3 at Blueyish; catastrophe blue at Blueyish
+sacrifice g3 at Ajo; build g2 at Greenyish; build g3 at Ajo; build g3 at Alpha
+move b2 from Dodobirb to Yellow (y2)
+move g3 from Alpha to Yellow
+move b2 from Yellow to Miniyellow (y1)
+move y1 from Alpha to Greenyish
+move r1 from Dodobirb to Minisun (y2)
+sacrifice g3 at Ajo; build g3 at Ajo; build y1 at Greenyish; build y3 at Alpha
+pass
+move y2 from Alpha to Minisun
+move r1 from Minisun to Miniyellow
+convert y3 to b3 at Alpha
+move r1 from Miniyellow to Sun (y3)
+move g3 from Yellow to Miniyellow
+move b2 from Miniyellow to Sun
+move g3 from Miniyellow to Sun
+move b2 from Sun to Runaway (y2)
+sacrifice r1 at Ajo; capture r1 at Sun
+pass
+sacrifice g3 at Ajo; build y1 at Greenyish; build r1 at Sun; build g3 at Ajo
+pass
+move y1 from Greenyish to Dodobirb
+capture y1 at Dodobirb
+sacrifice y2 at Minisun; move y1 from Greenyish to Dodobirb; move y1 from Greenyish to Dodobirb; catastrophe yellow at Dodobirb
+convert b2 to y2 at Runaway
+sacrifice b3 at Alpha; convert g3 to y3 at Greenyish; convert g2 to b2 at Greenyish; convert r1 to b1 at Sun
+convert b3 to g3 at Dodobirb
+sacrifice g2 at Ajo; build b2 at Greenyish; build b3 at Sun
+pass
+sacrifice y3 at Greenyish; move b2 from Greenyish to Dodobirb; move b2 from Greenyish to Dodobirb; move b1 from Sun to Dodobirb; catastrophe blue at Dodobirb

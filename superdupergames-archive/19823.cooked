@@ -1,0 +1,29 @@
+Ts52 (0, y2b3) g3-
+Dragmio (1, g3b2) -y3
+build g1 at Ts52
+build y1 at Dragmio
+convert g1 to r1 at Ts52
+convert y3 to r3 at Dragmio
+build r1 at Ts52
+build y1 at Dragmio
+build g1 at Ts52
+move y1 from Dragmio to Dragmio2 (g1)
+move r1 from Ts52 to Robin (g1)
+build r1 at Dragmio
+build r2 at Ts52
+move r3 from Dragmio to Robin
+move r2 from Ts52 to Dragmio2
+capture r1 at Robin
+capture y1 at Dragmio2
+build r2 at Dragmio
+build r2 at Ts52
+build r3 at Dragmio
+move r2 from Dragmio2 to Dragmio; catastrophe red at Dragmio
+build y1 at Dragmio
+build y2 at Dragmio2
+sacrifice y1 at Dragmio; move r3 from Robin to Dragmio
+build g2 at Ts52
+move r3 from Dragmio to Dragmio2
+move y2 from Dragmio2 to Dragmio
+capture y1 at Dragmio2
+sacrifice r1 at Ts52; capture y1 at Dragmio

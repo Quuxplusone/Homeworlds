@@ -1,0 +1,69 @@
+Mneme (0, b3r2) g3-
+Draw5Playall (1, b2r1) -g3
+build g1 at Mneme
+build g1 at Draw5Playall
+convert g1 to y1 at Mneme
+convert g1 to y1 at Draw5Playall
+build g1 at Mneme
+build g1 at Draw5Playall
+convert g1 to r1 at Mneme
+convert g1 to r1 at Draw5Playall
+build r2 at Mneme
+build r2 at Draw5Playall
+move r1 from Mneme to Melpomene (b1)
+convert r2 to y2 at Draw5Playall
+build y1 at Mneme
+move r1 from Draw5Playall to Economic (g3)
+move y1 from Mneme to Melpomene
+move y2 from Draw5Playall to Economic
+build g1 at Mneme
+build y2 at Economic
+move y1 from Melpomene to Clio (b3)
+move y2 from Economic to Melpomene
+move g3 from Mneme to Melpomene
+move y2 from Melpomene to Clio
+sacrifice g3 at Melpomene; build y2 at Clio; build y3 at Clio; build y3 at Mneme; catastrophe yellow at Clio
+build g1 at Draw5Playall
+move r2 from Mneme to Erato (g1)
+build y1 at Economic
+move y1 from Mneme to Erato
+move g1 from Draw5Playall to Strange (b3)
+build g2 at Mneme
+build g2 at Draw5Playall
+move g2 from Mneme to Melpomene
+sacrifice g3 at Draw5Playall; build g2 at Draw5Playall; build g3 at Draw5Playall; build g3 at Strange
+build y2 at Mneme
+move g2 from Draw5Playall to Escape (y3)
+build r2 at Erato
+build r3 at Economic
+build r3 at Melpomene
+move r1 from Economic to Trial (b1)
+build r3 at Erato
+sacrifice y2 at Economic; move r1 from Trial to Escape; move r1 from Escape to Erato; catastrophe red at Erato
+move y2 from Mneme to Melpomene
+convert g2 to b2 at Draw5Playall
+build g2 at Mneme
+move b2 from Draw5Playall to Economic
+move g2 from Melpomene to Terpsichore (y3)
+build y2 at Economic
+sacrifice g2 at Terpsichore; build y2 at Melpomene; build y3 at Erato
+sacrifice g2 at Escape; build g2 at Draw5Playall; build y3 at Draw5Playall
+convert y2 to g2 at Melpomene
+build b1 at Economic
+convert g2 to b2 at Mneme
+move y1 from Draw5Playall to Strange
+move y1 from Erato to Urania (r3)
+build y2 at Strange
+move b2 from Mneme to Erato
+build r1 at Economic
+build b1 at Erato
+move b1 from Economic to Fort (g2)
+convert b2 to r2 at Erato
+sacrifice g3 at Draw5Playall; build b2 at Economic; build b3 at Fort; build g3 at Draw5Playall
+build r2 at Erato
+move r1 from Economic to Fort
+move r3 from Melpomene to Urania
+move y1 from Economic to Fort
+pass
+pass
+pass

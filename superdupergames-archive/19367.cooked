@@ -1,0 +1,98 @@
+Gidaio (0, b3y2) g3-
+Remneb (1, r1b2) -g3
+build g1 at Gidaio
+build g1 at Remneb
+move g1 from Gidaio to Pluto (b1)
+convert g1 to y1 at Remneb
+build g1 at Gidaio
+build y1 at Remneb
+build g1 at Pluto
+build g2 at Remneb
+sacrifice g3 at Gidaio; build g2 at Pluto; build g2 at Gidaio; build g3 at Gidaio
+build g3 at Remneb
+convert g2 to y2 at Pluto
+move g3 from Remneb to Pulsar (y3)
+convert g1 to r1 at Gidaio
+convert g2 to r2 at Remneb
+move g1 from Pluto to That1Planet (b2)
+move r2 from Remneb to Pulsar
+build y1 at Pluto
+move y1 from Remneb to Turbo (y3)
+build g1 at That1Planet
+build y2 at Remneb
+move g1 from Pluto to Nocanhas (y3)
+move r2 from Pulsar to That1Planet
+sacrifice g1 at That1Planet; build g1 at Nocanhas
+capture g1 at That1Planet
+move y1 from Pluto to Neptune (b3)
+build g2 at Pulsar
+sacrifice y2 at Pluto; move g1 from Nocanhas to That1Planet; move g1 from That1Planet to Neptune
+build g2 at That1Planet
+convert y1 to b1 at Neptune
+convert g2 to y2 at That1Planet
+build g2 at Neptune
+move r2 from That1Planet to Bunker (y1)
+sacrifice g3 at Gidaio; build g3 at Gidaio; build b1 at Neptune; build r1 at Gidaio
+sacrifice g2 at Pulsar; build r2 at Bunker; build g2 at That1Planet
+convert g2 to r2 at Neptune
+move g3 from Remneb to Neptune
+build g2 at Nocanhas
+sacrifice r2 at Bunker; capture r2 at Neptune; capture g1 at Neptune
+sacrifice g1 at Nocanhas; build b1 at Neptune; catastrophe blue at Neptune
+convert y1 to g1 at Remneb
+move g2 from Nocanhas to Charron (b1)
+build g1 at Pulsar
+build g3 at Charron
+sacrifice g3 at Pulsar; build g3 at Remneb; build y1 at That1Planet; build y3 at That1Planet
+convert g2 to r2 at Charron
+build g2 at Pulsar
+move r1 from Gidaio to Glaxoniv (b1)
+move y3 from That1Planet to Bunker
+sacrifice g3 at Gidaio; build g3 at Gidaio; build r2 at Glaxoniv; build r3 at Charron
+sacrifice g1 at Remneb; build r3 at Bunker
+build r3 at Charron
+sacrifice y2 at That1Planet; move r2 from Bunker to Pulsar; move r2 from Pulsar to Charron; catastrophe red at Charron
+convert g2 to y2 at Gidaio
+convert g2 to r2 at That1Planet
+build g1 at Gidaio
+build g2 at Remneb
+convert g3 to r3 at Charron
+sacrifice g2 at Remneb; build r2 at That1Planet; build r3 at Bunker
+convert r2 to g2 at Glaxoniv
+move r3 from Bunker to Turbo
+sacrifice g3 at Gidaio; build g2 at Glaxoniv; build g3 at Gidaio; build r2 at Charron
+move y1 from Turbo to That1Planet
+build g3 at Glaxoniv
+move g1 from Pulsar to Glaxoniv; catastrophe green at Glaxoniv
+convert r1 to g1 at Glaxoniv
+move r2 from That1Planet to Pulsar
+sacrifice g3 at Gidaio; build g2 at Glaxoniv; build g2 at Glaxoniv; build g3 at Gidaio
+move g1 from That1Planet to Glaxoniv; catastrophe green at Glaxoniv
+move g1 from Gidaio to Rageandanger (r1)
+sacrifice y2 at Remneb; move r2 from Pulsar to Charron; move r2 from That1Planet to Charron; catastrophe red at Charron
+build r2 at Gidaio
+move y1 from That1Planet to Aliens (g1)
+move r2 from Gidaio to Aliens
+sacrifice y3 at Bunker; move y1 from Aliens to Gidaio; move y1 from That1Planet to Bunker; move y1 from Bunker to Gidaio; catastrophe yellow at Gidaio
+build r2 at Gidaio
+move g2 from Pulsar to Bunker
+convert r1 to y1 at Gidaio
+move r3 from Turbo to Remneb
+build y1 at Gidaio
+convert r3 to y3 at Remneb
+move y1 from Gidaio to Rageandanger
+build y2 at Remneb
+build y2 at Rageandanger
+move r3 from Bunker to Roma (y2)
+move y1 from Rageandanger to Green (b2)
+convert y2 to b2 at Remneb
+build g1 at Rageandanger
+build b1 at Remneb
+sacrifice g1 at Rageandanger; build y2 at Green
+build y3 at Remneb
+move y1 from Green to Blue (b3)
+move r3 from Roma to Blue
+sacrifice y2 at Green; move r2 from Aliens to Blue; move r2 from Blue to Bunker
+move y3 from Remneb to Blue
+capture g2 at Bunker
+capture y1 at Blue

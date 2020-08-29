@@ -1,0 +1,7 @@
+Wil (0, b3y1) g3-
+Belenar (1, r2b1) -g3
+build g1 at Wil
+build g1 at Belenar
+convert g1 to b1 at Wil
+convert g1 to y1 at Belenar
+build b1 at Wil

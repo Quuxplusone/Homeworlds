@@ -1,0 +1,23 @@
+Dlwillson (0, b3y1) g3-
+Wil (1, y2b1) -g3
+build g1 at Dlwillson
+build g1 at Wil
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Wil
+build y2 at Dlwillson
+build y2 at Wil
+move y1 from Dlwillson to Field (g2)
+move y1 from Wil to G3 (g3)
+build y3 at Field
+build y3 at G3
+move y1 from Field to Sky (b3)
+move y3 from G3 to Field
+convert y1 to r1 at Sky
+move y3 from Field to Sky
+move y3 from Field to Sky
+move y3 from Sky to G2 (g2)
+build g1 at Dlwillson
+build g1 at Wil
+move g1 from Dlwillson to Sea (b2)
+convert y2 to g2 at Wil
+sacrifice y3 at Sky; move g3 from Dlwillson to Sea; move g3 from Sea to Sky; move g3 from Sky to Wil; catastrophe green at Wil

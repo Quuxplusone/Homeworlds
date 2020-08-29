@@ -1,0 +1,24 @@
+Cobalt (0, y1b2) g3-
+Ts52 (1, y1b3) -g3
+build g1 at Cobalt
+build g1 at Ts52
+convert g1 to y1 at Cobalt
+build g1 at Ts52
+build y2 at Cobalt
+move g1 from Ts52 to Neptune (b2)
+convert y2 to b2 at Cobalt
+convert g3 to y3 at Ts52
+build y2 at Cobalt
+build y2 at Ts52
+move y1 from Cobalt to Winston (g3)
+move y2 from Ts52 to Neptune
+build g1 at Cobalt
+build g2 at Ts52
+sacrifice y2 at Cobalt; move y1 from Winston to Neptune; move y1 from Neptune to Ts52
+convert y3 to r3 at Ts52
+sacrifice g3 at Cobalt; build y2 at Ts52; build y2 at Ts52; build g2 at Cobalt
+sacrifice g2 at Ts52; build y3 at Neptune; build y3 at Neptune; catastrophe yellow at Ts52
+convert g2 to y2 at Cobalt
+sacrifice y2 at Neptune; move r3 from Ts52 to Cobalt; move y3 from Neptune to Ts52
+build g2 at Cobalt
+capture y2 at Cobalt

@@ -1,0 +1,26 @@
+Mikeyarrum (0, y1b2) g3-
+Zoltar (1, b1g3) -y3
+build g1 at Mikeyarrum
+build y1 at Zoltar
+build g1 at Mikeyarrum
+build y1 at Zoltar
+move g1 from Mikeyarrum to Sakaki (y3)
+move y1 from Zoltar to Greenbelt (g2)
+convert g1 to b1 at Mikeyarrum
+build y2 at Zoltar
+build b1 at Mikeyarrum
+move y1 from Zoltar to Greendale (g2)
+move b1 from Mikeyarrum to Yomi (g3)
+build y2 at Greendale
+build b2 at Yomi
+build y2 at Zoltar
+move b1 from Mikeyarrum to Kagura (y3)
+convert y3 to r3 at Zoltar
+convert g3 to r3 at Mikeyarrum
+build y3 at Zoltar
+convert b2 to g2 at Yomi
+convert y3 to g3 at Zoltar
+sacrifice g2 at Yomi; build b2 at Kagura; build b2 at Yomi
+build y3 at Greendale
+build b3 at Yomi
+move y3 from Greendale to Yomi

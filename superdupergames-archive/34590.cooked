@@ -1,0 +1,60 @@
+Dodobirb (0, r1b3) g3-
+Eliscinsky (1, y1b2) -g3
+build g1 at Dodobirb
+build g1 at Eliscinsky
+convert g1 to y1 at Dodobirb
+convert g1 to r1 at Eliscinsky
+build y1 at Dodobirb
+build r1 at Eliscinsky
+move y1 from Dodobirb to Grass (g2)
+build r2 at Eliscinsky
+build y2 at Grass
+move r2 from Eliscinsky to Sol (y3)
+convert g3 to r3 at Dodobirb
+move r2 from Sol to Grass
+move r3 from Dodobirb to Grass
+build r2 at Grass
+move r3 from Grass to Dodobirb
+capture y2 at Grass
+convert r3 to g3 at Dodobirb
+capture y1 at Grass
+build g1 at Dodobirb
+build r2 at Grass
+build y2 at Dodobirb
+build r3 at Eliscinsky
+move y2 from Dodobirb to Grass
+sacrifice y2 at Grass; move r2 from Grass to Dodobirb; move r2 from Grass to Dodobirb
+capture r2 at Dodobirb
+move r2 from Grass to Dodobirb; catastrophe red at Dodobirb
+convert g1 to r1 at Dodobirb
+move r1 from Eliscinsky to Dodobirb
+capture r1 at Dodobirb
+move r3 from Eliscinsky to Earth (g3)
+sacrifice r1 at Dodobirb; capture y1 at Grass
+build g1 at Eliscinsky
+build g1 at Dodobirb
+convert g1 to b1 at Eliscinsky
+move y1 from Grass to Dodobirb
+build g1 at Eliscinsky
+build y2 at Grass
+build r1 at Eliscinsky
+convert g1 to b1 at Dodobirb
+build r2 at Earth
+sacrifice b1 at Dodobirb; convert y2 to r2 at Grass
+sacrifice b1 at Eliscinsky; convert r2 to y2 at Earth
+move r2 from Grass to Yellow (y3)
+move r3 from Earth to Grass
+move y2 from Grass to Dodobirb
+build r2 at Grass
+move y2 from Dodobirb to Eliscinsky
+capture y2 at Eliscinsky
+move y1 from Dodobirb to Eliscinsky
+convert y2 to b2 at Eliscinsky
+build g1 at Dodobirb
+sacrifice b2 at Eliscinsky; convert r2 to b2 at Grass; convert r3 to y3 at Grass
+build y2 at Dodobirb
+build b1 at Grass
+move g1 from Dodobirb to Bluey (b2)
+build b1 at Grass
+build g1 at Dodobirb
+sacrifice y3 at Grass; move b2 from Grass to Dodobirb; move b1 from Grass to Dodobirb; move b1 from Grass to Dodobirb; catastrophe blue at Dodobirb

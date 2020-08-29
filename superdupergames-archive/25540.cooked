@@ -1,0 +1,14 @@
+Grosseteste (0, y2b1) g3-
+Silenttitan (1, r2b3) -g3
+build g1 at Grosseteste
+build g1 at Silenttitan
+build g1 at Grosseteste
+build g2 at Silenttitan
+move g1 from Grosseteste to Luce (g3)
+convert g2 to y2 at Silenttitan
+build g2 at Grosseteste
+convert g1 to b1 at Silenttitan
+convert g1 to b1 at Grosseteste
+build b2 at Silenttitan
+build b2 at Grosseteste
+move b1 from Silenttitan to Sol (g1)

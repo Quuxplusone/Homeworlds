@@ -1,0 +1,62 @@
+Mikeyarrum (0, y1b2) g3-
+Zoltar (1, r1b3) -g3
+build g1 at Mikeyarrum
+build g1 at Zoltar
+convert g1 to y1 at Mikeyarrum
+convert g3 to y3 at Zoltar
+build g1 at Mikeyarrum
+build g1 at Zoltar
+build g2 at Mikeyarrum
+sacrifice y3 at Zoltar; move g1 from Zoltar to Wormhole1 (y2); move g1 from Wormhole1 to Wormhole2 (y3); move g1 from Wormhole2 to Mikeyarrum; catastrophe green at Mikeyarrum
+convert y1 to g1 at Mikeyarrum
+build g1 at Zoltar
+build g2 at Mikeyarrum
+build g2 at Zoltar
+build g2 at Mikeyarrum
+convert g1 to y1 at Zoltar
+convert g2 to y2 at Mikeyarrum
+convert g1 to r1 at Zoltar
+build g1 at Mikeyarrum
+build r1 at Zoltar
+convert g2 to r2 at Mikeyarrum
+convert r1 to b1 at Zoltar
+convert g1 to b1 at Mikeyarrum
+build g1 at Zoltar
+move r2 from Mikeyarrum to Yomi (g3)
+move r1 from Zoltar to Yummy (g2)
+build g1 at Mikeyarrum
+move g1 from Zoltar to Bluemoon (b2)
+move g1 from Mikeyarrum to Sakaki (y3)
+build g2 at Bluemoon
+build g3 at Sakaki
+sacrifice g2 at Bluemoon; build g2 at Bluemoon; build g3 at Zoltar
+build y1 at Mikeyarrum
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Zoltar; build y2 at Zoltar
+move y1 from Mikeyarrum to Yomi
+sacrifice y1 at Zoltar; move y2 from Zoltar to Bluemoon
+build b1 at Mikeyarrum
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y1 at Bluemoon; build y3 at Zoltar
+move b1 from Mikeyarrum to Yomi
+sacrifice y2 at Zoltar; move g1 from Bluemoon to Sakaki; move g2 from Bluemoon to Sakaki; catastrophe green at Sakaki
+build g1 at Mikeyarrum
+move y1 from Bluemoon to Yippee (g3)
+convert y2 to r2 at Mikeyarrum
+build y2 at Yippee
+move r2 from Yomi to Chihiro (g2)
+sacrifice g3 at Zoltar; build y2 at Zoltar; build y3 at Bluemoon; build y3 at Yippee
+build b2 at Yomi
+move b1 from Zoltar to Yummy
+move b1 from Yomi to Chihiro
+sacrifice y2 at Bluemoon; move y3 from Bluemoon to Yomi; move y3 from Yippee to Chihiro
+convert b2 to y2 at Yomi
+sacrifice r1 at Yummy; capture r2 at Chihiro
+build b2 at Chihiro
+capture b2 at Chihiro
+build b2 at Chihiro
+sacrifice r2 at Chihiro; capture y1 at Yomi; capture y2 at Yomi
+convert b2 to r2 at Chihiro
+move b2 from Chihiro to Yomi
+build r1 at Mikeyarrum
+sacrifice y3 at Zoltar; move b1 from Yummy to Yomi; move b1 from Yomi to Mikeyarrum; move b2 from Yomi to Mikeyarrum; catastrophe blue at Mikeyarrum
+build b1 at Chihiro
+sacrifice y3 at Yomi; move y1 from Yomi to Mikeyarrum; move y2 from Yomi to Mikeyarrum; move y1 from Yippee to Mikeyarrum; catastrophe yellow at Mikeyarrum

@@ -1,0 +1,42 @@
+Ts52 (0, y1b2) g3-
+Agentofchaos (1, r3b2) -g3
+build g1 at Ts52
+build g1 at Agentofchaos
+move g1 from Ts52 to Gonzo (b3)
+convert g1 to y1 at Agentofchaos
+build g1 at Ts52
+build y1 at Agentofchaos
+convert g1 to r1 at Ts52
+build y2 at Agentofchaos
+build g1 at Ts52
+move y2 from Agentofchaos to Woodhaven (b1)
+build g1 at Gonzo
+build g2 at Agentofchaos
+build g2 at Gonzo
+sacrifice g2 at Agentofchaos; build y2 at Woodhaven; build y2 at Agentofchaos
+build g2 at Ts52
+build g2 at Agentofchaos
+convert g3 to y3 at Ts52
+sacrifice g3 at Agentofchaos; build y3 at Woodhaven; build g3 at Agentofchaos; build g3 at Agentofchaos
+move g2 from Ts52 to Bigbird (y3)
+convert g2 to r2 at Agentofchaos
+build r1 at Ts52
+move y3 from Woodhaven to Gonzo
+convert r1 to b1 at Ts52
+move r2 from Agentofchaos to Woodhaven
+convert y3 to g3 at Ts52
+sacrifice g3 at Agentofchaos; build y3 at Woodhaven; build g2 at Agentofchaos; build g3 at Agentofchaos
+move b1 from Ts52 to Bigbird
+sacrifice g3 at Agentofchaos; build r1 at Woodhaven; build r1 at Woodhaven; build g3 at Agentofchaos
+build r2 at Ts52
+sacrifice r2 at Woodhaven; capture g2 at Gonzo; capture g1 at Gonzo
+move r1 from Ts52 to Bigbird
+sacrifice y2 at Woodhaven; move g2 from Gonzo to Ts52; move g1 from Gonzo to Ts52; catastrophe green at Ts52
+sacrifice g2 at Bigbird; build r2 at Ts52; build r2 at Bigbird
+sacrifice r1 at Woodhaven; capture g1 at Gonzo
+convert r2 to g2 at Ts52
+convert g3 to r3 at Agentofchaos
+move r2 from Bigbird to Grover (b1)
+move y3 from Gonzo to Ts52
+build g1 at Ts52
+sacrifice r3 at Agentofchaos; capture g2 at Ts52; capture g1 at Ts52; capture r2 at Ts52

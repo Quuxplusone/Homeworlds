@@ -1,0 +1,25 @@
+Silenttitan (0, b3r2) g3-
+Sompm (1, g2b1) -y3
+build g1 at Silenttitan
+build y1 at Sompm
+convert g1 to y1 at Silenttitan
+build y1 at Sompm
+build y2 at Silenttitan
+move y1 from Sompm to Caboose (g3)
+move y1 from Silenttitan to D_Rgw (b1)
+build y2 at Caboose
+build g1 at Silenttitan
+build y2 at Sompm
+sacrifice g3 at Silenttitan; build y3 at D_Rgw; build y3 at Silenttitan; build g1 at Silenttitan
+convert y2 to b2 at Sompm
+convert y3 to r3 at D_Rgw
+convert y1 to r1 at Sompm
+move r3 from D_Rgw to Caboose
+sacrifice y2 at Caboose; move y1 from Caboose to D_Rgw; move b2 from Sompm to Progress (y3)
+convert y1 to r1 at D_Rgw
+sacrifice y1 at D_Rgw; move b2 from Progress to Congress (g1)
+move y2 from Silenttitan to Congress
+build r1 at Sompm
+sacrifice r1 at D_Rgw; capture b2 at Congress
+build r1 at Sompm
+build b1 at Congress

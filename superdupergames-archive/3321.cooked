@@ -1,0 +1,28 @@
+Danner (0, b2g1) r3-
+Andylooney (1, b3r2) -g3
+build r1 at Danner
+build g1 at Andylooney
+convert r1 to y1 at Danner
+convert g3 to y3 at Andylooney
+build y1 at Danner
+build g1 at Andylooney
+build r1 at Danner
+build g2 at Andylooney
+convert y1 to b1 at Danner
+move g2 from Andylooney to Different (y1)
+convert r3 to g3 at Danner
+build g2 at Different
+move y1 from Danner to Deepspace (g3)
+move g2 from Different to Jolly (g3)
+build y1 at Deepspace
+build g2 at Different
+build y2 at Deepspace
+build y2 at Andylooney
+build b1 at Danner
+convert g1 to b1 at Andylooney
+sacrifice b1 at Danner; convert g3 to y3 at Danner
+build g1 at Andylooney
+build r1 at Danner
+build g3 at Different
+build y2 at Danner
+move g3 from Different to Howell (y3)

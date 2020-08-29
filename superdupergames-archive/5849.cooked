@@ -1,0 +1,90 @@
+Papa_Bear (0, y1b2) g3-
+Matrixfrog (1, y1b3) -g3
+build g1 at Papa_Bear
+build g1 at Matrixfrog
+convert g1 to y1 at Papa_Bear
+build g1 at Matrixfrog
+build g1 at Papa_Bear
+move g1 from Matrixfrog to Candlelight (y2)
+convert g1 to b1 at Papa_Bear
+convert g1 to b1 at Matrixfrog
+build g1 at Papa_Bear
+build g1 at Candlelight
+build g2 at Papa_Bear
+build g2 at Matrixfrog
+move g2 from Papa_Bear to Mahalalel (r3)
+convert g3 to y3 at Matrixfrog
+build y2 at Papa_Bear
+build b1 at Matrixfrog
+build b2 at Papa_Bear
+build g2 at Matrixfrog
+move b2 from Papa_Bear to Mahalalel
+sacrifice b1 at Matrixfrog; convert g1 to b1 at Candlelight
+move y1 from Papa_Bear to Mahalalel
+build b2 at Candlelight
+build g1 at Mahalalel
+build g3 at Candlelight
+build b3 at Mahalalel
+move b2 from Candlelight to Grumblecakes (y3)
+convert b1 to r1 at Papa_Bear
+move g1 from Candlelight to Grumblecakes
+sacrifice g3 at Papa_Bear; build g3 at Papa_Bear; build r1 at Papa_Bear; build y2 at Mahalalel
+sacrifice g3 at Candlelight; build b1 at Grumblecakes; build b3 at Grumblecakes; build g3 at Grumblecakes
+sacrifice y2 at Mahalalel; move b2 from Mahalalel to Candlelight; move b2 from Candlelight to Grumblecakes; catastrophe blue at Grumblecakes
+convert b1 to r1 at Candlelight
+move g1 from Papa_Bear to Mahalalel
+convert g2 to r2 at Matrixfrog
+convert g1 to b1 at Mahalalel
+convert b1 to g1 at Matrixfrog
+sacrifice g2 at Mahalalel; build y2 at Papa_Bear; build y3 at Mahalalel
+move y3 from Matrixfrog to Flame (r2)
+sacrifice y2 at Papa_Bear; move g3 from Papa_Bear to Mahalalel; move b3 from Mahalalel to Papa_Bear
+build r2 at Matrixfrog
+move g1 from Mahalalel to Papa_Bear
+build r3 at Matrixfrog
+move r1 from Papa_Bear to Mahalalel
+sacrifice y3 at Flame; move r2 from Matrixfrog to Candlelight; move r1 from Candlelight to Mahalalel; move r2 from Candlelight to Mahalalel; catastrophe red at Mahalalel
+build g2 at Papa_Bear
+convert g1 to b1 at Matrixfrog
+move g1 from Papa_Bear to Grumblecakes
+move g3 from Grumblecakes to Alpha (y2)
+convert b3 to g3 at Papa_Bear
+build b1 at Matrixfrog
+sacrifice g2 at Papa_Bear; build g1 at Grumblecakes; build g2 at Papa_Bear
+move g3 from Alpha to Beta (y3)
+convert g2 to b2 at Papa_Bear
+move b1 from Matrixfrog to Gamma (y2)
+build b1 at Papa_Bear
+move b1 from Gamma to Beta
+move b2 from Papa_Bear to Grumblecakes
+sacrifice r2 at Matrixfrog; capture g1 at Grumblecakes; capture g1 at Grumblecakes
+convert b2 to g2 at Grumblecakes; catastrophe green at Grumblecakes
+build b2 at Beta
+build r1 at Papa_Bear
+move b1 from Beta to Papa_Bear
+move b1 from Papa_Bear to Aleph (r3)
+sacrifice g2 at Matrixfrog; build b2 at Papa_Bear; build b3 at Papa_Bear; catastrophe blue at Papa_Bear
+build g1 at Papa_Bear
+convert b2 to y2 at Beta
+move g1 from Papa_Bear to Aleph
+move y2 from Beta to Gamma (g2)
+move y2 from Papa_Bear to Aleph
+build y1 at Gamma
+build y2 at Aleph
+move y1 from Gamma to Delta (r3)
+move y2 from Aleph to Gamma
+build g1 at Beta
+build y3 at Aleph
+move y2 from Gamma to Epsilon (y3)
+convert y2 to b2 at Aleph
+build g1 at Beta
+sacrifice y2 at Gamma; move g1 from Aleph to Papa_Bear; move g1 from Papa_Bear to Beta; catastrophe green at Beta
+convert r3 to g3 at Matrixfrog
+build g1 at Papa_Bear
+build g1 at Matrixfrog
+move b1 from Aleph to Papa_Bear
+sacrifice g1 at Matrixfrog; build y2 at Delta
+build b1 at Papa_Bear
+sacrifice y2 at Epsilon; move y2 from Delta to Papa_Bear; move y1 from Delta to Papa_Bear
+capture y2 at Papa_Bear
+sacrifice g3 at Matrixfrog; build y2 at Papa_Bear; catastrophe yellow at Papa_Bear

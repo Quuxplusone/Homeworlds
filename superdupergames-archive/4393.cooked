@@ -1,0 +1,61 @@
+Keith (0, b1y2) g3-
+Aaron (1, b2y3) -g3
+build g1 at Keith
+build g1 at Aaron
+convert g1 to b1 at Keith
+convert g1 to r1 at Aaron
+move b1 from Keith to Zesst (g3)
+move r1 from Aaron to Limes (g1)
+build g1 at Keith
+build r1 at Limes
+convert g1 to r1 at Keith
+build g1 at Aaron
+build r2 at Keith
+convert g1 to y1 at Aaron
+move r1 from Keith to Zesst
+move y1 from Aaron to Limes
+build r2 at Zesst
+build g1 at Aaron
+build b1 at Zesst
+move g1 from Aaron to Bananas (y1)
+sacrifice g3 at Keith; build r2 at Zesst; build r3 at Keith; build r3 at Keith
+move r1 from Limes to Zesst; catastrophe red at Zesst
+convert r3 to g3 at Keith
+build r1 at Limes
+convert r2 to y2 at Keith
+build g1 at Bananas
+build g2 at Keith
+build g2 at Aaron
+sacrifice g3 at Keith; build g2 at Keith; build g3 at Keith; build b2 at Zesst
+move g1 from Bananas to Lemons (y3)
+move g2 from Keith to Mellow (y3)
+move g1 from Bananas to Lemons
+move g2 from Keith to Lemons
+convert g2 to b2 at Aaron
+sacrifice y2 at Keith; move b2 from Zesst to Limes; move b1 from Zesst to Brick (y1)
+build g2 at Aaron
+sacrifice r3 at Keith; capture r1 at Limes; capture r1 at Limes; capture g1 at Lemons
+convert b2 to r2 at Aaron
+capture y1 at Limes
+move g2 from Aaron to Brick
+move g1 from Lemons to Eye (r1)
+build r2 at Aaron
+sacrifice r1 at Limes; capture g1 at Lemons
+move r2 from Aaron to Brick
+move g1 from Lemons to Keith
+capture b1 at Brick
+sacrifice g3 at Keith; build g3 at Keith; build y1 at Limes; build y2 at Limes
+move r2 from Brick to Zesst
+sacrifice g3 at Keith; build g3 at Keith; build b2 at Limes; build b3 at Zesst
+build b3 at Brick
+sacrifice r1 at Limes; capture r2 at Zesst
+move b3 from Brick to Lemons
+move y1 from Limes to Aaron
+capture y1 at Aaron
+move y1 from Limes to Aaron
+sacrifice y1 at Aaron
+sacrifice g2 at Lemons; build y1 at Aaron; build y2 at Aaron; catastrophe yellow at Aaron
+build g2 at Aaron
+move b2 from Limes to Aaron
+capture b2 at Aaron
+sacrifice y2 at Limes; move b2 from Limes to Aaron; move b1 from Zesst to Aaron; catastrophe blue at Aaron

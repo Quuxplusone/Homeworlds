@@ -1,0 +1,26 @@
+Umfpt (0, b2y1) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Umfpt
+build g1 at Twoshort
+move g1 from Umfpt to Tola (y3)
+convert g1 to y1 at Twoshort
+build g1 at Umfpt
+build y1 at Twoshort
+convert g1 to b1 at Umfpt
+build y2 at Twoshort
+build g1 at Tola
+move y1 from Twoshort to Bluonia (b2)
+move g1 from Tola to Bluonia
+move y1 from Twoshort to Yelly (y2)
+build g1 at Bluonia
+build g2 at Twoshort
+build g2 at Tola
+sacrifice g3 at Twoshort; build y2 at Bluonia; build y3 at Bluonia; build y3 at Twoshort
+convert g1 to r1 at Bluonia
+convert y2 to r2 at Bluonia
+move b1 from Umfpt to Tola
+capture r1 at Bluonia
+move g2 from Tola to Yelly
+sacrifice y2 at Twoshort; move y3 from Bluonia to Tola; move y3 from Tola to Umfpt
+build g1 at Umfpt
+sacrifice r2 at Bluonia; capture g3 at Umfpt; capture g1 at Umfpt

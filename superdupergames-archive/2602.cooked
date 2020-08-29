@@ -1,0 +1,20 @@
+Andylooney (0, b1g2) y3-
+Sketchwick (1, y3b1) -g3
+build y1 at Andylooney
+build g1 at Sketchwick
+convert y1 to g1 at Andylooney
+convert g1 to r1 at Sketchwick
+build g1 at Andylooney
+build r1 at Sketchwick
+convert g1 to r1 at Andylooney
+build r2 at Sketchwick
+build r2 at Andylooney
+move r1 from Sketchwick to Berry (b2)
+move g1 from Andylooney to Clampett (y3)
+build g1 at Sketchwick
+move r1 from Andylooney to Garden (g3)
+convert r1 to g1 at Berry
+build g2 at Clampett
+sacrifice g3 at Sketchwick; build g2 at Sketchwick; build g3 at Sketchwick; build g3 at Berry
+move g1 from Clampett to Plugh (y2)
+move g2 from Sketchwick to Plugh

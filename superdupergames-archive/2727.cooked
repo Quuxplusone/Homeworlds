@@ -1,0 +1,28 @@
+Feidoi (0, y1b3) g3-
+Jlabrozzi (1, y2g3) -b3
+build g1 at Feidoi
+build b1 at Jlabrozzi
+move g1 from Feidoi to Shimina (y2)
+convert b1 to y1 at Jlabrozzi
+build g1 at Feidoi
+build b1 at Jlabrozzi
+convert g1 to y1 at Feidoi
+convert b1 to r1 at Jlabrozzi
+build y2 at Feidoi
+build y3 at Jlabrozzi
+move y2 from Feidoi to Shimina
+move y1 from Jlabrozzi to Stankonia (r1)
+move y2 from Shimina to Stankonia
+build b1 at Jlabrozzi
+capture y1 at Stankonia
+build r1 at Jlabrozzi
+build y3 at Feidoi
+move y3 from Jlabrozzi to Stankonia
+sacrifice y3 at Feidoi; move y1 from Feidoi to Shimina; move y2 from Stankonia to Jlabrozzi; move y1 from Stankonia to Jlabrozzi
+capture y2 at Jlabrozzi
+sacrifice g1 at Shimina; build y3 at Jlabrozzi
+sacrifice y2 at Jlabrozzi; move y3 from Stankonia to Shimina; move y3 from Shimina to Feidoi
+sacrifice y3 at Jlabrozzi; move y1 from Jlabrozzi to Fu (r1); move y1 from Fu to Shimina; move y1 from Shimina to Feidoi
+sacrifice r1 at Jlabrozzi; capture g3 at Feidoi
+move y1 from Shimina to Feidoi
+sacrifice g3 at Feidoi; build y2 at Feidoi; build y2 at Feidoi; build y3 at Feidoi; catastrophe yellow at Feidoi

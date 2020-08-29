@@ -1,0 +1,50 @@
+Zoltar (0, r1b3) g3-
+Wyons (1, r2b1) -g3
+build g1 at Zoltar
+build g1 at Wyons
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Wyons
+build g1 at Zoltar
+build g1 at Wyons
+convert g1 to b1 at Zoltar
+convert g1 to b1 at Wyons
+build b2 at Zoltar
+build b2 at Wyons
+convert b2 to r2 at Zoltar
+convert b1 to r1 at Wyons
+build g1 at Zoltar
+build g1 at Wyons
+move g1 from Zoltar to Blueridge (b2)
+move g1 from Wyons to Armadillo (y3)
+move b1 from Zoltar to Greenbelt (g2)
+move b2 from Wyons to Armadillo
+move r2 from Zoltar to Blueridge
+move r1 from Wyons to Armadillo
+build g1 at Zoltar
+build y1 at Wyons
+build y2 at Zoltar
+build y2 at Wyons
+move y1 from Zoltar to Blueridge
+move y1 from Wyons to Zebra (g3)
+build g2 at Blueridge
+convert y1 to r1 at Wyons
+move g2 from Blueridge to Yellowsun (y3)
+build g2 at Wyons
+move g1 from Blueridge to Yellowjacket (y3)
+move b2 from Armadillo to Greenbelt
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b1 at Greenbelt; build b2 at Greenbelt; catastrophe blue at Greenbelt
+sacrifice g3 at Wyons; build y1 at Wyons; build g2 at Armadillo; build g3 at Wyons
+build y2 at Zoltar
+convert y1 to b1 at Wyons
+sacrifice y2 at Zoltar; move g1 from Yellowjacket to Wyons; move g2 from Yellowsun to Wyons; catastrophe green at Wyons
+move g1 from Armadillo to Wyons
+move r2 from Blueridge to Yellowstone (y3)
+build b1 at Wyons
+move g1 from Zoltar to Blueridge
+move b1 from Wyons to Armadillo
+move g1 from Blueridge to Mellowyellow (y3)
+build b2 at Armadillo
+build y1 at Zoltar
+build b2 at Armadillo
+build y2 at Zoltar
+build b3 at Wyons

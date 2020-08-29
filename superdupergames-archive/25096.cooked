@@ -1,0 +1,25 @@
+Teeteetee (0, b1r2) g3-
+Mandrel (1, r3b2) -g3
+build g1 at Teeteetee
+build g1 at Mandrel
+convert g1 to y1 at Teeteetee
+convert g1 to y1 at Mandrel
+build g1 at Teeteetee
+build g1 at Mandrel
+move g1 from Teeteetee to Barbican (y3)
+move g1 from Mandrel to District (r1)
+build y1 at Teeteetee
+build y2 at Mandrel
+move y1 from Teeteetee to Temple (g3)
+move y1 from Mandrel to District
+build y2 at Temple
+build y2 at District
+build y3 at Teeteetee
+build y3 at Mandrel
+move y1 from Temple to Victoria (b1)
+move y2 from Mandrel to Victoria
+sacrifice g1 at Barbican; build y3 at Temple
+move y1 from District to Temple
+move y3 from Temple to District
+build g1 at Mandrel
+convert y1 to b1 at Teeteetee

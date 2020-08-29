@@ -1,0 +1,23 @@
+Felix (0, b1y2) g3-
+Wil (1, g3b1) -b3
+build g1 at Felix
+build b1 at Wil
+build g1 at Felix
+convert b3 to y3 at Wil
+move g1 from Felix to Mach7 (b3)
+build b2 at Wil
+build g1 at Mach7
+move b2 from Wil to G2 (g2)
+build g2 at Mach7
+convert b2 to g2 at G2
+convert g2 to y2 at Mach7
+build b2 at Wil
+move g1 from Mach7 to Mach5 (b2)
+move b1 from Wil to Gtoo (g2)
+sacrifice g3 at Felix; build g3 at Felix; build g3 at Mach5; build y1 at Mach7
+build b2 at Wil
+convert g3 to b3 at Mach5
+build g3 at G2
+sacrifice y2 at Mach7; move b3 from Mach5 to Wil; move g1 from Mach5 to Wil; catastrophe blue at Wil
+sacrifice b1 at Gtoo; convert g2 to b2 at G2
+sacrifice g3 at Felix; build g2 at Wil; build g2 at Wil; build g3 at Felix; catastrophe green at Wil

@@ -1,0 +1,27 @@
+Ts52 (0, b1y3) g3-
+Subhan64 (1, b2y1) -g3
+build g1 at Ts52
+build g1 at Subhan64
+convert g1 to b1 at Ts52
+build g1 at Subhan64
+build b1 at Ts52
+convert g1 to y1 at Subhan64
+move b1 from Ts52 to Kermit (g2)
+move g1 from Subhan64 to Scooter (g3)
+build b2 at Kermit
+build g1 at Subhan64
+build b2 at Ts52
+convert g1 to y1 at Subhan64
+build b3 at Kermit
+move y1 from Subhan64 to Scooter
+convert b3 to y3 at Kermit
+build y2 at Scooter
+build b3 at Kermit
+build y2 at Subhan64
+convert b3 to r3 at Kermit
+convert g3 to b3 at Subhan64
+move b2 from Kermit to Oscar (g3)
+move b3 from Subhan64 to Scooter
+sacrifice y3 at Kermit; move r3 from Kermit to Oscar; move r3 from Oscar to Subhan64; move b2 from Oscar to Subhan64
+sacrifice y2 at Scooter; move b3 from Scooter to Kermit; move b3 from Kermit to Ts52; catastrophe blue at Ts52
+sacrifice r3 at Subhan64; capture y2 at Subhan64; capture y1 at Subhan64

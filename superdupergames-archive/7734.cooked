@@ -1,0 +1,34 @@
+Mikeyarrum (0, b3r2) g3-
+Zoltar (1, b1y3) -g3
+build g1 at Mikeyarrum
+build g1 at Zoltar
+convert g3 to y3 at Mikeyarrum
+convert g1 to r1 at Zoltar
+build y1 at Mikeyarrum
+build g1 at Zoltar
+build y1 at Mikeyarrum
+convert g1 to y1 at Zoltar
+move y1 from Mikeyarrum to Osaka (g1)
+move y1 from Zoltar to Greendale (g2)
+build y2 at Osaka
+build y2 at Greendale
+convert y1 to r1 at Mikeyarrum
+move y1 from Greendale to Greenbelt (g1)
+build g2 at Mikeyarrum
+build y1 at Greenbelt
+convert g1 to b1 at Mikeyarrum
+build y2 at Greenbelt
+move y1 from Osaka to Chiyo (g2)
+build y3 at Greendale
+move g2 from Mikeyarrum to Tomo (b1)
+sacrifice y3 at Greendale; move y1 from Greenbelt to Mikeyarrum; move y1 from Greenbelt to Mikeyarrum; move y2 from Greenbelt to Mikeyarrum; catastrophe yellow at Mikeyarrum
+build y1 at Osaka
+build y1 at Greendale
+build y2 at Chiyo
+move y2 from Greendale to Greenbelt (g1)
+move y1 from Chiyo to Tomo
+build y3 at Greenbelt
+build y3 at Tomo
+move y3 from Greenbelt to Mikeyarrum
+sacrifice y3 at Tomo; move y1 from Tomo to Mikeyarrum; move y1 from Osaka to Mikeyarrum; move y2 from Osaka to Mikeyarrum; catastrophe yellow at Mikeyarrum
+move y2 from Greenbelt to Mikeyarrum

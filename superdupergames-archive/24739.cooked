@@ -1,0 +1,34 @@
+Sirruthvenmurgatroyd (0, b1y2) g3-
+Teeteetee (1, y1b3) -g3
+build g1 at Sirruthvenmurgatroyd
+build g1 at Teeteetee
+move g1 from Sirruthvenmurgatroyd to Sol (y3)
+convert g1 to y1 at Teeteetee
+build g1 at Sirruthvenmurgatroyd
+build y1 at Teeteetee
+convert g3 to y3 at Sirruthvenmurgatroyd
+move y1 from Teeteetee to Stepney (g2)
+build y2 at Sirruthvenmurgatroyd
+build y2 at Stepney
+move y2 from Sirruthvenmurgatroyd to Aleph (y3)
+convert y1 to r1 at Teeteetee
+move y2 from Aleph to Beth (g2)
+build r1 at Teeteetee
+build g1 at Sol
+move y2 from Stepney to Sol
+build g2 at Sirruthvenmurgatroyd
+build g3 at Teeteetee
+build g3 at Sirruthvenmurgatroyd
+sacrifice g3 at Teeteetee; build g3 at Teeteetee; build y1 at Sol; build y3 at Stepney
+move y2 from Beth to Sol; catastrophe yellow at Sol
+move g3 from Teeteetee to Aldgate (y2)
+move g3 from Sirruthvenmurgatroyd to Gimel (y3)
+move y3 from Stepney to Gimel
+move g3 from Gimel to Dalet (r2)
+move y3 from Gimel to Sirruthvenmurgatroyd
+build y1 at Sirruthvenmurgatroyd; catastrophe yellow at Sirruthvenmurgatroyd
+move g3 from Aldgate to Sirruthvenmurgatroyd
+convert g1 to y1 at Sirruthvenmurgatroyd
+sacrifice r1 at Teeteetee; capture y1 at Sirruthvenmurgatroyd
+build g1 at Sirruthvenmurgatroyd
+build g1 at Sirruthvenmurgatroyd; catastrophe green at Sirruthvenmurgatroyd

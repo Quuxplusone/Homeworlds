@@ -1,0 +1,13 @@
+Tesla (0, r3g2) y3-
+Zoltar (1, y2b1) -g3
+build y1 at Tesla
+build g1 at Zoltar
+build y1 at Tesla
+convert g1 to y1 at Zoltar
+move y1 from Tesla to Tales (b1)
+move y1 from Zoltar to Greenbelt (g3)
+convert y1 to g1 at Tales
+build g1 at Zoltar
+convert g1 to b1 at Tales
+build g1 at Zoltar
+move y1 from Tesla to Tales

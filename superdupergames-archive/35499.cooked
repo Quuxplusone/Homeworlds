@@ -1,0 +1,41 @@
+Simon (0, g3r1) b3-
+Ajo (1, b1y3) -g3
+build b1 at Simon
+build g1 at Ajo
+build b1 at Simon
+convert g1 to r1 at Ajo
+convert b3 to y3 at Simon
+build r1 at Ajo
+build b2 at Simon
+build r2 at Ajo
+convert b2 to r2 at Simon
+convert r2 to b2 at Ajo
+move b1 from Simon to G2 (g2)
+move b2 from Ajo to G2
+build b2 at G2
+build r2 at Ajo
+build b2 at Simon
+move r2 from Ajo to Alpha (y2)
+build b3 at Simon
+build b3 at G2; catastrophe blue at G2
+move b3 from Simon to Alpha
+move r2 from Alpha to Beta (y3)
+convert b2 to g2 at Simon
+build g1 at Ajo
+move g2 from Simon to Alpha
+move g1 from Ajo to Gamma (y2)
+move r2 from Simon to Gamma
+build r2 at Ajo
+capture g1 at Gamma
+convert r2 to b2 at Ajo
+build b1 at Alpha
+move b2 from Ajo to Delta (y2)
+build b2 at Alpha
+convert b2 to g2 at Delta
+convert b2 to r2 at Alpha
+sacrifice g2 at Delta; build r3 at Beta
+build g1 at Alpha
+move r2 from Beta to Green (g2)
+sacrifice g2 at Alpha; build r3 at Alpha; build r3 at Gamma
+build g1 at Ajo
+sacrifice y3 at Simon; move g1 from Alpha to Ajo; move g1 from Gamma to Ajo; move r3 from Alpha to Ajo; catastrophe green at Ajo

@@ -1,0 +1,33 @@
+Twoshort (0, b1r2) g3-
+Zoltar (1, b3y3) -g3
+build g1 at Twoshort
+build g1 at Zoltar
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Zoltar
+build g1 at Twoshort
+build g1 at Zoltar
+move g1 from Twoshort to Zoltar
+convert g3 to r3 at Zoltar
+build g1 at Zoltar
+capture g1 at Zoltar
+convert g1 to y1 at Zoltar
+sacrifice y1 at Zoltar; move g1 from Zoltar to Yuck (y2)
+build y1 at Twoshort
+capture y1 at Zoltar
+move y1 from Twoshort to Zoltar
+move y1 from Zoltar to Grok (g2)
+sacrifice g3 at Twoshort; build y2 at Zoltar; build y2 at Zoltar; build y3 at Twoshort; catastrophe yellow at Zoltar
+build y1 at Grok
+convert y1 to g1 at Twoshort
+build g2 at Yuck
+build g2 at Twoshort
+build g3 at Zoltar
+convert g1 to b1 at Twoshort
+move y1 from Grok to Blah (b3)
+build b1 at Twoshort
+sacrifice g2 at Yuck; build y1 at Blah; build y2 at Grok
+move b1 from Twoshort to Stash (y3)
+sacrifice g3 at Zoltar; build y2 at Blah; build y3 at Grok; build g1 at Zoltar
+build b2 at Twoshort
+convert y2 to b2 at Blah
+sacrifice y3 at Twoshort; move b1 from Twoshort to Zoltar; move b2 from Twoshort to Zoltar; move b1 from Stash to Checkmate (y2)

@@ -1,0 +1,25 @@
+Wil (0, b3y1) g3-
+Glutnix (1, g3b2) -y3
+build g1 at Wil
+build y1 at Glutnix
+convert g1 to y1 at Wil
+move y3 from Glutnix to Virginmary (r1)
+build y2 at Wil
+build y2 at Glutnix
+move y1 from Wil to G2 (g2)
+convert y2 to g2 at Glutnix
+build y2 at G2
+build g1 at Glutnix
+convert y2 to r2 at Wil
+move g1 from Glutnix to Virginmary
+move y2 from G2 to G1 (g1)
+move y3 from Virginmary to Glutnix
+build y2 at G2
+move y1 from Glutnix to Oldfashioned (g1)
+sacrifice g3 at Wil; build y2 at G1; build y3 at G1; build y3 at G2
+move y1 from Oldfashioned to G2; catastrophe yellow at G2
+sacrifice y2 at G1; move y2 from G1 to G2 (g2); move y2 from G2 to Wil
+build g1 at Glutnix
+move y3 from G1 to Glutnix
+convert g2 to r2 at Glutnix
+sacrifice r2 at Wil; capture r2 at Glutnix; capture y3 at Glutnix

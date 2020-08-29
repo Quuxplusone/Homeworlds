@@ -1,0 +1,81 @@
+Goulo (0, r3b2) g3-
+Trydnt (1, b2r1) -g3
+build g1 at Goulo
+build g1 at Trydnt
+convert g1 to y1 at Goulo
+convert g1 to r1 at Trydnt
+build y1 at Goulo
+build r1 at Trydnt
+build g1 at Goulo
+build g1 at Trydnt
+move g1 from Goulo to Flaveto (y1)
+convert g3 to y3 at Trydnt
+move y1 from Goulo to Verdeto (g1)
+build y2 at Trydnt
+build y2 at Goulo
+move r1 from Trydnt to Y3 (y3)
+convert y2 to r2 at Goulo
+build r2 at Trydnt
+move r2 from Goulo to Verdeto
+move y2 from Trydnt to G3 (g3)
+build y2 at Verdeto
+move r2 from Trydnt to Y33 (y3)
+build y2 at Goulo
+build g2 at Trydnt
+build g2 at Goulo
+sacrifice g2 at Trydnt; build r2 at Y3; build r3 at Y33
+build r3 at Verdeto
+sacrifice y2 at G3; move r1 from Y3 to Verdeto; move r2 from Y33 to Verdeto; catastrophe red at Verdeto
+build y2 at Goulo
+move r3 from Y33 to Verdeto
+sacrifice y1 at Verdeto; move y2 from Verdeto to Flavego (y3)
+build y1 at Trydnt
+convert g2 to r2 at Goulo
+move y1 from Trydnt to G3 (g3)
+move r2 from Goulo to Flaveto
+move r2 from Y3 to Flaveto
+sacrifice g1 at Flaveto; build y3 at Flavego
+move y1 from G3 to Verdeto
+sacrifice y2 at Flavego; move r2 from Flaveto to Flavego; move y2 from Goulo to Verdeto2 (g1)
+build y2 at Verdeto
+move y3 from Flavego to Flaveto
+move r3 from Verdeto to Flavego
+sacrifice r2 at Flavego; capture r2 at Flaveto
+move r3 from Flavego to Verdeto
+build y3 at Verdeto2
+move y1 from Verdeto to G3 (g3)
+build g2 at Goulo
+build g2 at Trydnt
+convert g2 to b2 at Goulo
+convert g1 to b1 at Trydnt
+move b2 from Goulo to Verdeto2
+move b1 from Trydnt to G3
+move y2 from Verdeto2 to G3
+move r3 from Verdeto to G3
+move y2 from G3 to Rugho (r2)
+build b1 at G3
+move y3 from Flaveto to Verdego (g3)
+move b1 from G3 to G1 (g1)
+build g2 at Goulo
+build g2 at Trydnt
+move g2 from Goulo to Flaveto
+sacrifice g2 at Trydnt; build b1 at G3; build b3 at G1
+build b3 at Verdeto2
+move b1 from G3 to Verdeto
+move y2 from Rugho to Bluego (b3)
+convert b3 to r3 at G1
+convert b2 to r2 at Verdeto2
+build g2 at Trydnt
+move r2 from Flaveto to Verdego
+sacrifice g2 at Trydnt; build b2 at G1; build b3 at Verdeto
+build r1 at Verdego
+sacrifice y2 at Verdeto; move b3 from Verdeto to Goulo; move b1 from Verdeto to Goulo
+capture b3 at Goulo
+sacrifice y1 at G3; move b1 from G1 to Goulo; catastrophe blue at Goulo
+sacrifice y3 at Verdeto2; move y1 from Goulo to Trydnt; move y2 from Bluego to Trydnt; move y2 from Goulo to Trydnt; catastrophe yellow at Trydnt
+convert r1 to y1 at Trydnt
+move y3 from Verdego to Trydnt
+build y1 at Trydnt
+capture g2 at Trydnt
+sacrifice y1 at Trydnt; move r3 from G1 to Goulo
+capture y1 at Trydnt

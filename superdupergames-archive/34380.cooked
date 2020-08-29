@@ -1,0 +1,19 @@
+Felix (0, b2r3) g3-
+Tetsuhari (1, y3g2) -b3
+build g1 at Felix
+build b1 at Tetsuhari
+convert g1 to b1 at Felix
+move b1 from Tetsuhari to Greenone (g1)
+build g1 at Felix
+build b1 at Greenone
+build b2 at Felix
+convert b1 to y1 at Greenone
+convert b2 to y2 at Felix
+build y1 at Greenone
+move b1 from Felix to Conk (g1)
+convert y1 to r1 at Greenone
+build g2 at Felix
+build r1 at Greenone
+move g1 from Felix to Plink (b1)
+build b2 at Greenone
+sacrifice g3 at Felix; build g2 at Plink; build g3 at Plink; build g3 at Felix

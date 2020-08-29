@@ -1,0 +1,37 @@
+Agentofchaos (0, b2r1) g3-
+Dethdukk (1, r1b3) -g3
+build g1 at Agentofchaos
+build g1 at Dethdukk
+convert g1 to y1 at Agentofchaos
+convert g1 to y1 at Dethdukk
+build g1 at Agentofchaos
+build g1 at Dethdukk
+convert g1 to r1 at Agentofchaos
+convert g1 to b1 at Dethdukk
+build r2 at Agentofchaos
+build b1 at Dethdukk
+convert r2 to y2 at Agentofchaos
+move b1 from Dethdukk to Twin (g2)
+build r2 at Agentofchaos
+build b1 at Dethdukk
+convert r2 to g2 at Agentofchaos
+move b1 from Dethdukk to Bind (r2)
+build r2 at Agentofchaos
+sacrifice g3 at Dethdukk; build b2 at Twin; build b2 at Bind; build b3 at Dethdukk
+move y2 from Agentofchaos to Sinistrex (b3)
+convert b3 to g3 at Dethdukk
+convert g3 to b3 at Agentofchaos
+convert b2 to r2 at Twin
+move r1 from Agentofchaos to Sinistrex
+build r3 at Twin
+build r3 at Agentofchaos
+convert b2 to y2 at Bind
+move r3 from Agentofchaos to Sinistrex
+build b2 at Dethdukk
+build y1 at Agentofchaos
+convert b2 to y2 at Dethdukk
+build g1 at Agentofchaos
+move y1 from Dethdukk to Twin
+move g1 from Agentofchaos to Sinistrex
+sacrifice g3 at Dethdukk; build y3 at Dethdukk; build y3 at Bind; build y3 at Twin
+build g1 at Agentofchaos

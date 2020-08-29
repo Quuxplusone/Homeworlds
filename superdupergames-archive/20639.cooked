@@ -1,0 +1,20 @@
+Caru (0, y1b2) g3-
+Silenttitan (1, r3b2) -g3
+build g1 at Caru
+build g1 at Silenttitan
+convert g1 to y1 at Caru
+convert g3 to y3 at Silenttitan
+build g1 at Caru
+build y1 at Silenttitan
+move y1 from Caru to Alpha (g3)
+build y2 at Silenttitan
+build y2 at Alpha
+move y1 from Silenttitan to Sun (g1)
+move y1 from Alpha to Mizar (g2)
+move y2 from Silenttitan to Sink (b1)
+move g1 from Caru to Betelgeuse (y3)
+build g2 at Silenttitan
+build g2 at Caru
+sacrifice g2 at Silenttitan; build y2 at Silenttitan; build y3 at Sink
+sacrifice g3 at Caru; build g2 at Betelgeuse; build g3 at Caru; build g3 at Caru
+sacrifice y3 at Silenttitan; move g1 from Silenttitan to Sun; move g1 from Sun to Alpha; move g1 from Alpha to Caru; catastrophe green at Caru

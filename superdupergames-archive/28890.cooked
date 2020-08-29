@@ -1,0 +1,24 @@
+Felix (0, b3y1) g3-
+Ts52 (1, b2y3) -g3
+build g1 at Felix
+build g1 at Ts52
+convert g1 to y1 at Felix
+convert g1 to y1 at Ts52
+build y2 at Felix
+build y2 at Ts52
+move y2 from Felix to Grass (g2)
+move y2 from Ts52 to Robin (g1)
+move y1 from Felix to Ice (b2)
+build g1 at Ts52
+build y2 at Grass
+build y3 at Robin
+move y2 from Grass to Robin
+move y3 from Robin to Grover (b2)
+build y3 at Grass
+convert y1 to r1 at Ts52
+move y3 from Grass to Robin
+build y1 at Robin; catastrophe yellow at Robin
+build g1 at Felix
+move y3 from Grover to Felix
+sacrifice g3 at Felix; build g1 at Felix; build y1 at Grass; build y2 at Ice
+convert y3 to r3 at Felix

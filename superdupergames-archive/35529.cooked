@@ -1,0 +1,55 @@
+Bhorner (0, b1r2) g3-
+Felix (1, b1g3) -b3
+build g1 at Bhorner
+build b1 at Felix
+convert g3 to b3 at Bhorner
+convert b3 to y3 at Felix
+build b2 at Bhorner
+build b2 at Felix
+convert b2 to y2 at Bhorner
+move b1 from Felix to Folstaf (g2)
+build b2 at Bhorner
+build b2 at Folstaf
+move b2 from Bhorner to Tree (g3)
+convert b2 to y2 at Folstaf
+build g1 at Bhorner
+build y1 at Folstaf
+move g1 from Bhorner to Ocean (b3)
+build y1 at Felix
+convert b3 to g3 at Bhorner
+convert y1 to r1 at Folstaf
+convert g1 to r1 at Bhorner
+build r1 at Folstaf
+build g1 at Bhorner
+move r1 from Folstaf to Felix
+build g1 at Ocean
+build r2 at Folstaf
+sacrifice g3 at Bhorner; build g2 at Ocean; build g2 at Bhorner; build g3 at Bhorner
+build b2 at Folstaf
+sacrifice g3 at Bhorner; build b3 at Tree; build y1 at Bhorner; build g3 at Bhorner
+move b1 from Folstaf to Tree
+convert b2 to r2 at Tree
+build b2 at Folstaf
+move r1 from Bhorner to Sky (b3)
+move r2 from Folstaf to Sky
+sacrifice g3 at Bhorner; build g3 at Bhorner; build r3 at Sky; build r3 at Tree
+move r1 from Folstaf to Sky; catastrophe red at Sky
+capture b1 at Tree
+move b2 from Folstaf to Sun (y3)
+sacrifice y1 at Bhorner; move r3 from Tree to Folstaf
+sacrifice y2 at Folstaf; move b2 from Folstaf to Brim (y3); move b2 from Felix to Star (y2)
+sacrifice g3 at Bhorner; build g3 at Bhorner; build y1 at Bhorner; build r1 at Folstaf
+build r1 at Felix
+sacrifice g3 at Bhorner; build g3 at Bhorner; build r2 at Tree; build r3 at Tree
+move r1 from Felix to Star
+move y1 from Bhorner to Tree
+move r1 from Star to Tree; catastrophe red at Tree
+sacrifice g3 at Bhorner; build g3 at Bhorner; build y1 at Bhorner; build y2 at Tree
+build r1 at Felix
+sacrifice y2 at Bhorner; move y2 from Tree to Fire (r2); move r1 from Folstaf to Volcano (r3)
+move r1 from Felix to Star
+sacrifice g3 at Bhorner; build g3 at Bhorner; build r2 at Volcano; build r3 at Folstaf
+move y1 from Felix to Star
+move b3 from Tree to Star
+sacrifice y1 at Star; move r1 from Star to Volcano; catastrophe red at Volcano
+sacrifice y2 at Fire; move r3 from Folstaf to Felix; move b3 from Star to Felix

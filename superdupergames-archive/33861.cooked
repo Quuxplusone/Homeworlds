@@ -1,0 +1,57 @@
+Rosbi (0, g3b2) y3-
+Trydnt (1, b2y2) -g3
+build y1 at Rosbi
+build g1 at Trydnt
+convert y1 to g1 at Rosbi
+convert g1 to r1 at Trydnt
+build y1 at Rosbi
+build g1 at Trydnt
+move y1 from Rosbi to R1 (r1)
+build r1 at Trydnt
+build y1 at Rosbi
+build r2 at Trydnt
+convert y3 to r3 at Rosbi
+convert r2 to y2 at Trydnt
+build y1 at Rosbi
+move y2 from Trydnt to G3 (g3)
+build r2 at Rosbi
+convert r1 to b1 at Trydnt
+move g1 from Rosbi to R1
+build b1 at Trydnt
+convert y1 to b1 at Rosbi
+build r1 at Trydnt
+move b1 from Rosbi to R1
+move b1 from Trydnt to G3
+move r2 from Rosbi to G1 (g1)
+move y2 from G3 to R1
+sacrifice y1 at R1; move b1 from R1 to G2 (g2)
+capture g1 at R1
+build y1 at Rosbi
+sacrifice g3 at Trydnt; build g2 at R1; build g2 at R1; build g3 at Trydnt
+build r2 at G1
+move g2 from R1 to G3
+sacrifice y1 at Rosbi; move r2 from G1 to G2
+build y1 at R1
+build r2 at G2
+move r1 from Trydnt to G3
+build r3 at G1
+sacrifice g3 at Trydnt; build g3 at Trydnt; build r3 at G3
+convert r2 to y2 at G2
+build r2 at Trydnt
+sacrifice y2 at G2; move r2 from G2 to G3; move r2 from G1 to G3; catastrophe red at G3
+convert g2 to y2 at G3
+build b2 at G2
+move b1 from Trydnt to R1
+convert b2 to g2 at G2
+sacrifice g3 at Trydnt; build g3 at Trydnt; build b2 at R1; build b3 at G3
+build b3 at G2
+sacrifice y2 at R1; move g1 from R1 to G2; move g2 from R1 to G2; catastrophe green at G2
+build y1 at Rosbi
+convert b2 to g2 at R1
+move y1 from Rosbi to G1
+build b1 at R1
+move r3 from Rosbi to R1
+sacrifice y2 at G3; move g2 from R1 to Rosbi; move b1 from R1 to Rosbi
+move r3 from G1 to Rosbi
+sacrifice g2 at Rosbi; build b2 at Rosbi; build b3 at Rosbi
+sacrifice y1 at G1; move r3 from R1 to Trydnt

@@ -1,0 +1,45 @@
+Lorgar (0, b1y2) g3-
+Ts52 (1, y2b3) -g3
+build g1 at Lorgar
+build g1 at Ts52
+convert g1 to b1 at Lorgar
+build g1 at Ts52
+move b1 from Lorgar to Ragrol (g3)
+convert g1 to y1 at Ts52
+build g1 at Lorgar
+move g1 from Ts52 to Zoe (y1)
+build b1 at Ragrol
+build y1 at Ts52
+build b2 at Ragrol
+move y1 from Ts52 to Zoe
+convert b2 to y2 at Ragrol
+build y3 at Ts52
+build y3 at Ragrol
+convert y3 to r3 at Ts52
+sacrifice y2 at Ragrol; move b1 from Ragrol to Oz (g1); move g1 from Lorgar to Mnar (y3)
+move r3 from Ts52 to Oz
+build g2 at Lorgar
+capture b1 at Oz
+sacrifice g3 at Lorgar; build g2 at Mnar; build g2 at Mnar; build g3 at Lorgar
+move g1 from Zoe to Mnar; catastrophe green at Mnar
+convert g2 to r2 at Lorgar
+build b2 at Oz
+build g1 at Lorgar
+move y1 from Ts52 to Oz
+build b2 at Ragrol
+convert b2 to g2 at Oz
+move g1 from Lorgar to York (y3)
+build b2 at Oz
+build g1 at Lorgar
+move g2 from Oz to Bigbird (y3)
+convert b2 to g2 at Ragrol
+convert b2 to r2 at Oz
+move g2 from Ragrol to Moldau (r1)
+move r2 from Oz to York
+sacrifice g1 at York; build g1 at Moldau
+build y2 at Oz
+build r1 at Lorgar
+move y2 from Oz to Gonzo (b3)
+build b2 at Ragrol
+sacrifice g2 at Bigbird; build y3 at Gonzo; build g2 at Ts52
+sacrifice y3 at Ragrol; move g2 from Moldau to Ts52; move g1 from Moldau to Ts52; move b2 from Ragrol to Zoe; catastrophe green at Ts52

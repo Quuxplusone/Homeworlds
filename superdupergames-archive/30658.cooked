@@ -1,0 +1,25 @@
+Ts52 (0, b1y3) g3-
+Galateangemmate (1, b3y2) -g3
+build g1 at Ts52
+build g1 at Galateangemmate
+convert g1 to b1 at Ts52
+convert g1 to y1 at Galateangemmate
+build b1 at Ts52
+build g1 at Galateangemmate
+move b1 from Ts52 to Kermit (g2)
+convert g3 to b3 at Galateangemmate
+build b2 at Kermit
+build b2 at Galateangemmate
+convert b2 to y2 at Kermit
+move b2 from Galateangemmate to Greenmachine (g1)
+sacrifice g3 at Ts52; build b2 at Kermit; build b2 at Kermit; build b3 at Ts52
+sacrifice y1 at Galateangemmate; move b2 from Greenmachine to Kermit; catastrophe blue at Kermit
+convert b3 to g3 at Ts52
+build b1 at Galateangemmate
+build b2 at Ts52
+move b1 from Galateangemmate to Morning (g1)
+move b2 from Ts52 to Kermit
+build b2 at Morning
+build b2 at Kermit
+convert b2 to y2 at Morning
+move b1 from Ts52 to Robin (g2)

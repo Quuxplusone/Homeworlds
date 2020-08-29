@@ -1,0 +1,75 @@
+Wil (0, b2r1) g3-
+Twinsen (1, r3b1) -g3
+build g1 at Wil
+build g1 at Twinsen
+convert g1 to b1 at Wil
+build g1 at Twinsen
+build b1 at Wil
+convert g1 to y1 at Twinsen
+build g1 at Wil
+move g1 from Twinsen to Sol (y2)
+convert g1 to y1 at Wil
+build g1 at Twinsen
+move b1 from Wil to Y3 (y3)
+convert g1 to r1 at Twinsen
+build b2 at Wil
+build g1 at Twinsen
+move b2 from Wil to Why3 (y3)
+move r1 from Twinsen to Yfull (y2)
+sacrifice g3 at Wil; build b2 at Y3; build b3 at Why3; build b3 at Wil
+convert g3 to b3 at Twinsen
+convert b3 to y3 at Why3
+move r1 from Yfull to Twinsen
+convert b3 to g3 at Wil
+move g1 from Sol to Twinsen
+build b3 at Wil
+pass
+convert b3 to g3 at Wil
+move r1 from Twinsen to Y2 (y2)
+sacrifice g3 at Wil; build b3 at Y3; build b3 at Why3
+move r1 from Y2 to Y3
+sacrifice b2 at Y3; convert b3 to r3 at Y3; convert b3 to g3 at Why3
+capture b1 at Y3
+capture r1 at Y3
+move b1 from Y3 to Greeny (g2)
+sacrifice g3 at Why3; build b2 at Why3; build b3 at Why3; build b3 at Wil
+sacrifice y1 at Twinsen; move b1 from Greeny to Why3; catastrophe blue at Why3
+move b3 from Wil to Y3
+convert g1 to y1 at Twinsen
+build g1 at Wil
+build g1 at Twinsen
+move g1 from Wil to Y3
+move g1 from Twinsen to Io (y2)
+move r3 from Y3 to Io
+move g1 from Io to Jelly (y1)
+build y2 at Wil
+build g2 at Jelly
+build g2 at Wil
+build y2 at Twinsen
+move g2 from Wil to G3 (g3)
+convert b3 to g3 at Twinsen
+build g2 at Wil
+sacrifice y2 at Twinsen; move g1 from Jelly to G3; move g2 from Jelly to G3; catastrophe green at G3
+build r1 at Y3
+build y1 at Twinsen
+build r2 at Y3
+move y1 from Twinsen to Greeny (g2)
+move r2 from Y3 to Greeny
+move y1 from Greeny to Why3
+sacrifice b1 at Wil; convert y3 to g3 at Why3
+sacrifice g3 at Twinsen; build g1 at Twinsen; build y2 at Twinsen; build y3 at Twinsen
+sacrifice g3 at Wil; build g2 at Why3; build g3 at Y3; build g3 at Wil
+sacrifice y2 at Twinsen; move y1 from Twinsen to Oblivion (y2); move g1 from Twinsen to Oblivion
+move r1 from Y3 to Oblivion
+sacrifice y1 at Oblivion; move g1 from Oblivion to Why3
+sacrifice r2 at Greeny; capture y1 at Why3; capture g1 at Why3
+build g2 at Twinsen
+move r1 from Y3 to Io
+build y1 at Twinsen
+move b3 from Y3 to Oblivion
+move y1 from Twinsen to Bluedy (b2)
+move g3 from Why3 to Bluedy
+move y1 from Bluedy to Ready (r3)
+sacrifice y2 at Wil; move g3 from Bluedy to Twinsen; move b3 from Oblivion to Twinsen
+sacrifice y3 at Twinsen; move g2 from Twinsen to Good_Game (y2); move y1 from Ready to Good_Game
+capture g1 at Twinsen

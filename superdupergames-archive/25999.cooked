@@ -1,0 +1,24 @@
+Mandrel (0, r1b2) g3-
+Grosseteste (1, b1y3) -g3
+build g1 at Mandrel
+build g1 at Grosseteste
+convert g1 to r1 at Mandrel
+convert g1 to r1 at Grosseteste
+build r2 at Mandrel
+build r2 at Grosseteste
+convert r1 to b1 at Mandrel
+build g1 at Grosseteste
+build g1 at Mandrel
+move g1 from Grosseteste to Hexaemeron (r2)
+convert g1 to y1 at Mandrel
+build g1 at Grosseteste
+move b1 from Mandrel to Corn (g3)
+move r1 from Grosseteste to Colore (g2)
+build b1 at Corn
+build g1 at Hexaemeron
+build b2 at Corn
+build g2 at Grosseteste
+build g2 at Mandrel
+convert g2 to b2 at Grosseteste
+convert b1 to y1 at Corn
+sacrifice g3 at Grosseteste; build r1 at Colore; build r3 at Grosseteste; build r3 at Grosseteste

@@ -1,0 +1,73 @@
+Twoshort (0, r1b3) g3-
+Mneme (1, g1r2) -b3
+build g1 at Twoshort
+build b1 at Mneme
+build g1 at Twoshort
+build b1 at Mneme
+convert g1 to y1 at Twoshort
+convert b3 to y3 at Mneme
+build g1 at Twoshort
+build b1 at Mneme
+move g1 from Twoshort to Bluonia (b2)
+move b1 from Mneme to Hastor (g3)
+build g2 at Twoshort
+build b2 at Hastor
+move g1 from Twoshort to Greensville (g2)
+move b1 from Mneme to Chiles (g3)
+sacrifice g3 at Twoshort; build g2 at Bluonia; build y1 at Twoshort; build g3 at Twoshort
+build b2 at Chiles
+convert g2 to r2 at Bluonia
+convert b2 to r2 at Hastor
+convert g2 to b2 at Twoshort
+build b3 at Mneme
+build g2 at Twoshort
+build b3 at Hastor
+move b2 from Twoshort to Yellonia (y2)
+convert b2 to y2 at Chiles
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g3 at Twoshort; build r1 at Bluonia
+convert b3 to y3 at Hastor
+move y1 from Twoshort to Bluonia
+build b2 at Chiles
+sacrifice g3 at Twoshort; build b3 at Yellonia; build y1 at Bluonia; build g3 at Twoshort
+sacrifice y2 at Chiles; move b1 from Chiles to Yellonia; move b1 from Hastor to Yellonia; catastrophe blue at Yellonia
+sacrifice g3 at Twoshort; build y2 at Twoshort; build y2 at Twoshort; build g3 at Twoshort
+move b3 from Mneme to Yenta (y3)
+move r1 from Bluonia to Bluestar (b3)
+move b3 from Yenta to Bluonia
+sacrifice y1 at Bluonia; move r2 from Bluonia to Yolonda (y3)
+sacrifice r2 at Hastor; capture g2 at Bluonia; capture g1 at Bluonia
+sacrifice g2 at Twoshort; build g2 at Greensville; build r1 at Bluestar
+convert b3 to r3 at Bluonia
+sacrifice y2 at Twoshort; move r1 from Bluestar to Mneme; move r1 from Bluestar to Mneme
+capture y1 at Bluonia
+sacrifice g2 at Greensville; build g2 at Greensville; build r2 at Mneme; catastrophe red at Mneme
+build y1 at Bluonia
+sacrifice y2 at Twoshort; move g1 from Greensville to Mneme; move g3 from Twoshort to Skinofmyteeth (y2)
+sacrifice y3 at Mneme; move r3 from Bluonia to Mneme; move g2 from Bluonia to Twoshort; move b1 from Mneme to Greensville
+move g3 from Skinofmyteeth to Twoshort
+capture g1 at Mneme
+capture g2 at Twoshort
+sacrifice y3 at Hastor; move g1 from Mneme to Bluonia; move g1 from Bluonia to Twoshort; move g1 from Bluonia to Twoshort; catastrophe green at Twoshort
+sacrifice g2 at Greensville; build y2 at Twoshort; build r1 at Yolonda
+convert b2 to y2 at Chiles
+convert y2 to g2 at Twoshort
+build y2 at Chiles
+build y2 at Twoshort
+move y2 from Chiles to Greensville
+sacrifice y2 at Twoshort; move y1 from Twoshort to Grogar (g2); move r2 from Yolonda to Greensville
+sacrifice y2 at Chiles; move y2 from Greensville to Mneme; move b1 from Greensville to Mneme
+build y2 at Grogar
+build y2 at Mneme
+sacrifice y1 at Grogar; move r2 from Greensville to Twoshort
+convert y2 to r2 at Mneme
+build g1 at Twoshort
+convert r3 to y3 at Mneme
+move y2 from Grogar to Twoshort
+convert y1 to g1 at Bluonia
+move g2 from Twoshort to Yak (y2)
+build g2 at Bluonia
+build g2 at Yak
+convert g1 to y1 at Bluonia
+sacrifice y2 at Twoshort; move g1 from Twoshort to Yak; move g1 from Yak to Mneme
+capture g1 at Mneme
+move g2 from Yak to Mneme

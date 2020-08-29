@@ -1,0 +1,27 @@
+Aghmarck (0, y1b3) g3-
+Takvorian (1, b1y2) -g3
+build g1 at Aghmarck
+build g1 at Takvorian
+convert g1 to b1 at Aghmarck
+convert g1 to b1 at Takvorian
+build b2 at Aghmarck
+build b2 at Takvorian
+convert b1 to y1 at Aghmarck
+convert b2 to y2 at Takvorian
+build g1 at Aghmarck
+build g1 at Takvorian
+move g1 from Aghmarck to B2 (b2)
+move b1 from Takvorian to Britz (g3)
+build g1 at Aghmarck
+build g2 at Takvorian
+sacrifice g3 at Aghmarck; build g2 at Aghmarck; build g2 at B2; build g3 at Aghmarck
+convert g1 to r1 at Takvorian
+convert g1 to r1 at Aghmarck
+move y2 from Takvorian to Britz
+convert g2 to y2 at B2
+convert g2 to b2 at Takvorian
+build g1 at B2
+build b1 at Britz
+move b2 from Aghmarck to G2 (g2)
+convert b1 to r1 at Britz
+build r2 at Aghmarck

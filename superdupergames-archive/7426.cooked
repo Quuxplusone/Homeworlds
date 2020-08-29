@@ -1,0 +1,69 @@
+Twoshort (0, r1b2) g3-
+Mneme (1, y1b3) -g3
+build g1 at Twoshort
+build g1 at Mneme
+convert g1 to y1 at Twoshort
+build g1 at Mneme
+build y1 at Twoshort
+move g1 from Mneme to Aramis (b2)
+move y1 from Twoshort to Grogar (g3)
+build g1 at Mneme
+build y2 at Twoshort
+build g2 at Aramis
+move y2 from Twoshort to Bluonia (b3)
+convert g2 to y2 at Aramis
+sacrifice g3 at Twoshort; build y2 at Grogar; build y3 at Bluonia; build y3 at Twoshort
+build y3 at Aramis
+convert y3 to g3 at Twoshort
+move g1 from Mneme to Portho (b2)
+build y3 at Twoshort
+move y2 from Aramis to Dartanian (b3)
+build g2 at Twoshort
+sacrifice g3 at Mneme; build g2 at Aramis; build g2 at Portho; build g3 at Mneme
+convert y3 to r3 at Bluonia
+convert g3 to r3 at Mneme
+move r3 from Bluonia to Portho
+build y3 at Aramis
+sacrifice y2 at Bluonia; move y2 from Grogar to Aramis; move y1 from Grogar to Aramis; catastrophe yellow at Aramis
+build g3 at Mneme
+capture g2 at Portho
+sacrifice g2 at Aramis; build g2 at Portho; build g3 at Portho; catastrophe green at Portho
+move y1 from Twoshort to Planchet (g3)
+build r1 at Mneme
+build y1 at Planchet
+move r3 from Mneme to Aramis
+move y1 from Planchet to Cyrano (y2)
+convert r3 to y3 at Aramis
+sacrifice g2 at Twoshort; build y2 at Twoshort; build y3 at Planchet
+build r1 at Mneme
+build g1 at Twoshort
+build g2 at Aramis
+sacrifice y2 at Twoshort; move g3 from Twoshort to Dartanian; move r3 from Portho to Dartanian
+move y2 from Dartanian to Portho (g2)
+build r2 at Dartanian
+move r1 from Mneme to Aramis
+sacrifice y3 at Planchet; move g3 from Dartanian to Aramis; move r3 from Dartanian to Aramis; move g3 from Aramis to Mneme
+capture g3 at Mneme
+sacrifice r2 at Dartanian; capture y3 at Aramis; capture g2 at Aramis
+sacrifice g3 at Mneme; build r2 at Aramis; build r2 at Aramis; build r2 at Mneme; catastrophe red at Aramis
+convert g2 to r2 at Aramis
+move g1 from Mneme to Athos (b2)
+build g2 at Twoshort
+convert g1 to b1 at Aramis
+sacrifice g2 at Twoshort; build y2 at Twoshort; build y3 at Planchet
+build g1 at Mneme
+capture b1 at Aramis
+move r1 from Mneme to Dewinter (g2)
+convert y3 to g3 at Aramis
+sacrifice g3 at Mneme; build g2 at Athos; build g3 at Mneme; build y3 at Portho
+sacrifice y3 at Planchet; move y1 from Cyrano to Planchet; move y1 from Planchet to Portho; move y1 from Planchet to Portho; catastrophe yellow at Portho
+convert g2 to y2 at Athos
+build g2 at Aramis
+sacrifice g3 at Mneme; build g2 at Athos; build g3 at Athos; build g3 at Mneme
+sacrifice y2 at Twoshort; move g2 from Aramis to Mneme; move g2 from Mneme to Athos; catastrophe green at Athos
+build r1 at Dewinter
+build g1 at Aramis
+sacrifice g3 at Mneme; build r2 at Dewinter; build r3 at Mneme; build y1 at Athos
+build r3 at Aramis
+convert r3 to g3 at Mneme
+sacrifice y3 at Twoshort; move g3 from Aramis to Mneme; move g1 from Aramis to Mneme; move r3 from Aramis to Mneme; catastrophe green at Mneme

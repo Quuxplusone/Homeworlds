@@ -1,0 +1,33 @@
+Babamots (0, r2b3) g3-
+Felix (1, y1b3) -g3
+build g1 at Babamots
+build g1 at Felix
+convert g1 to y1 at Babamots
+convert g1 to y1 at Felix
+build y2 at Babamots
+build y2 at Felix
+build y2 at Babamots
+move y1 from Felix to Out (g2)
+move y2 from Babamots to Risa (g1)
+build y3 at Out
+build y3 at Risa
+convert y2 to r2 at Felix
+convert y2 to r2 at Babamots
+move y1 from Out to Clorox (g1)
+build y2 at Babamots
+build y2 at Out
+convert y1 to b1 at Babamots
+build r1 at Felix
+move r2 from Babamots to Risa
+convert r2 to b2 at Felix
+build r1 at Risa
+move b2 from Felix to Out
+move r1 from Risa to Bajor (g2)
+build b1 at Out
+move y2 from Babamots to Clorox
+convert y3 to r3 at Out
+build g1 at Babamots
+build g2 at Felix
+sacrifice g3 at Babamots; build g3 at Babamots; build g3 at Babamots; build r1 at Risa
+sacrifice g3 at Felix; build g3 at Felix; build y1 at Clorox; build y3 at Out
+convert g3 to y3 at Babamots

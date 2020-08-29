@@ -1,0 +1,19 @@
+Sordros (0, b1y2) g3-
+Stoneaxe (1, y1b3) -g3
+build g1 at Sordros
+build g1 at Stoneaxe
+move g1 from Sordros to Itani (y3)
+convert g1 to b1 at Stoneaxe
+build g1 at Sordros
+build b1 at Stoneaxe
+convert g1 to y1 at Sordros
+move b1 from Stoneaxe to Opter (g2)
+build y1 at Sordros
+build b2 at Opter
+move y1 from Sordros to Uit (b3)
+convert b2 to y2 at Opter
+build g1 at Sordros
+build b2 at Stoneaxe
+build y2 at Sordros
+build y3 at Opter
+move g1 from Sordros to Uit

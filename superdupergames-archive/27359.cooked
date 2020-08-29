@@ -1,0 +1,15 @@
+Wil (0, b3y2) g3-
+Silenttitan (1, g1r3) -b3
+build g1 at Wil
+build b1 at Silenttitan
+build g1 at Wil
+convert b1 to y1 at Silenttitan
+move g1 from Wil to B1 (b1)
+build b1 at Silenttitan
+build g2 at Wil
+convert b3 to g3 at Silenttitan
+convert g2 to y2 at Wil
+move g3 from Silenttitan to Sol (y2)
+build g2 at B1
+sacrifice g3 at Sol; build b1 at Silenttitan; build b2 at Silenttitan; build y1 at Silenttitan
+build g2 at Wil

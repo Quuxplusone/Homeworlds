@@ -1,0 +1,85 @@
+Trydnt (0, b2y1) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Trydnt
+build g1 at Dlwillson
+convert g1 to r1 at Trydnt
+convert g1 to y1 at Dlwillson
+build r1 at Trydnt
+build y1 at Dlwillson
+build r2 at Trydnt
+build y2 at Dlwillson
+convert r2 to y2 at Trydnt
+move y1 from Dlwillson to Mars (r2)
+move y2 from Trydnt to G3 (g3)
+move y1 from Dlwillson to Geetoo (g2)
+move y2 from G3 to Geetoo
+sacrifice g3 at Dlwillson; build y2 at Geetoo; build y3 at Mars; build y3 at Dlwillson
+move r1 from Trydnt to Y3 (y3)
+convert y2 to g2 at Dlwillson
+build r2 at Trydnt
+build y2 at Dlwillson
+move r2 from Trydnt to B3 (b3)
+move y3 from Mars to Sky (b3)
+move y2 from Geetoo to G3 (g3)
+move y1 from Geetoo to Sky
+build g1 at Trydnt
+convert y1 to g1 at Sky
+sacrifice g3 at Trydnt; build r2 at Y3; build r3 at B3; build r3 at Trydnt
+convert y3 to r3 at Sky
+convert r3 to y3 at B3
+build r3 at Sky
+convert r3 to g3 at Trydnt
+convert r3 to g3 at Sky
+sacrifice g3 at Trydnt; build r3 at Trydnt; build r3 at B3; build y1 at B3
+move y1 from Mars to Forest (g3)
+move r3 from B3 to Geetoo
+sacrifice y2 at Geetoo; move r3 from Sky to Geetoo; move r3 from Geetoo to G3
+move y2 from G3 to Geetoo
+sacrifice g3 at Sky; build g1 at Dlwillson; build g2 at Dlwillson; build g3 at Sky
+build y2 at Geetoo
+sacrifice y2 at Dlwillson; move g2 from Dlwillson to Sol (y2); move g2 from Dlwillson to Mars (r2)
+move r2 from Y3 to Sol
+sacrifice g2 at Mars; build r2 at G3; build g2 at Sol
+move r2 from Sol to Forest
+move y1 from Forest to Sea (b2)
+move r2 from B3 to Sea
+move y1 from Sea to G3
+sacrifice y2 at Geetoo; move r1 from Trydnt to G3; move r2 from Sea to G3; catastrophe red at G3
+convert g1 to r1 at Sky
+build g1 at Trydnt
+sacrifice g2 at Sol; build g2 at Sky; build r2 at Sky
+build y2 at Geetoo
+convert r1 to b1 at Sky
+sacrifice y2 at Geetoo; move g1 from Trydnt to Sky; move g1 from Trydnt to Sky; catastrophe green at Sky
+build y2 at G3
+move r3 from Geetoo to G3
+move y2 from G3 to Sea (b2)
+capture y1 at G3
+sacrifice g2 at Sol; build r1 at Sky; build y2 at Sea
+convert r3 to g3 at Trydnt
+move y2 from Sea to Sky
+build g1 at Trydnt
+convert r2 to g2 at Sky
+move r3 from G3 to Sea
+build g1 at Sky
+convert g1 to b1 at Trydnt
+move y2 from Sea to G3
+move y1 from G3 to Sea
+build r2 at Sky
+convert y1 to b1 at B3
+sacrifice b1 at Sky; convert y2 to b2 at G3
+move r3 from Sea to G3
+move g1 from Sky to Trydnt
+sacrifice r2 at Forest; capture b2 at G3; capture g1 at Trydnt
+build g1 at Sky
+move g1 from Trydnt to B3
+move g1 from Sky to Trydnt
+sacrifice r1 at Y3; capture g1 at Trydnt
+build g2 at Sky
+build g3 at B3
+move g2 from Sky to Trydnt
+move g1 from Trydnt to Y3 (y3)
+move y2 from Sky to Trydnt
+sacrifice r3 at G3; capture g2 at Trydnt; capture y2 at Trydnt
+build r1 at Sky
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y1 at Geetoo; build y2 at Sea

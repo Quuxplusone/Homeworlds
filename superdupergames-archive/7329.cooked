@@ -1,0 +1,12 @@
+Magni (0, b2y3) g3-
+Mikeyarrum (1, y1b2) -g3
+build g1 at Magni
+build g1 at Mikeyarrum
+build g1 at Magni
+build g2 at Mikeyarrum
+convert g1 to r1 at Magni
+convert g1 to r1 at Mikeyarrum
+move g1 from Magni to Shangrala (y1)
+build g1 at Mikeyarrum
+build g1 at Shangrala
+move g1 from Mikeyarrum to Sakaki (y3)

@@ -1,0 +1,64 @@
+Lorgar (0, b2y3) g3-
+Jesse (1, b3r1) -g3
+build g1 at Lorgar
+build g1 at Jesse
+move g1 from Lorgar to Mordenkey (b1)
+convert g1 to y1 at Jesse
+build g1 at Mordenkey
+build y1 at Jesse
+convert g1 to y1 at Mordenkey
+convert y1 to r1 at Jesse
+build g1 at Lorgar
+build r1 at Jesse
+build g1 at Mordenkey
+build g2 at Jesse
+build g2 at Lorgar
+move r1 from Jesse to Grover (b2)
+convert g2 to r2 at Lorgar
+move g2 from Jesse to Grover
+move g1 from Mordenkey to Amandos (b2)
+build r2 at Grover
+build g2 at Amandos
+convert r2 to y2 at Grover
+convert g2 to r2 at Amandos
+move r1 from Jesse to Bert (y2)
+build y1 at Mordenkey
+build y2 at Grover
+sacrifice y1 at Mordenkey; move y1 from Mordenkey to Amandos
+move y2 from Grover to Mordenkey
+build g2 at Amandos
+sacrifice r1 at Grover; capture g1 at Mordenkey
+move g2 from Amandos to Lannaman (g3)
+build g2 at Jesse
+convert g1 to r1 at Lorgar
+sacrifice g3 at Jesse; build g1 at Mordenkey; build y1 at Mordenkey; build g3 at Jesse
+sacrifice g2 at Lannaman; build g2 at Lorgar; build g3 at Amandos
+sacrifice g3 at Jesse; build g3 at Jesse; build y3 at Jesse; build y3 at Grover
+convert g3 to b3 at Lorgar
+sacrifice g3 at Jesse; build g3 at Jesse; build g3 at Grover; build r2 at Bert
+sacrifice g3 at Amandos; build g3 at Amandos; build r3 at Amandos
+move r1 from Bert to Mordenkey
+move r3 from Amandos to Mordenkey
+sacrifice g3 at Jesse; build g3 at Jesse; build r3 at Mordenkey; build r3 at Bert
+move r1 from Lorgar to Mordenkey; catastrophe red at Mordenkey
+sacrifice y3 at Grover; move g1 from Mordenkey to Amandos; move g1 from Mordenkey to Amandos; move y3 from Jesse to Amandos; catastrophe green at Amandos
+sacrifice y1 at Amandos; move r2 from Amandos to Istari (g1)
+sacrifice g2 at Grover; build y1 at Grover; build y3 at Mordenkey
+convert b3 to g3 at Lorgar
+move y3 from Amandos to Istari
+build r1 at Lorgar
+build g1 at Grover
+convert r1 to b1 at Lorgar
+convert g1 to b1 at Grover
+move b1 from Lorgar to Croft (g1)
+sacrifice g3 at Jesse; build g1 at Grover; build g2 at Jesse; build g3 at Grover
+sacrifice g3 at Lorgar; build g3 at Lorgar; build b2 at Croft; build b3 at Croft
+sacrifice y3 at Mordenkey; move g1 from Grover to Mordenkey; move g3 from Grover to Bigbird (y3); move b1 from Grover to Croft; catastrophe blue at Croft
+build r1 at Istari
+sacrifice r2 at Bert; capture r1 at Istari; capture r2 at Istari
+move g2 from Lorgar to Tor (b1)
+sacrifice g3 at Bigbird; build g1 at Mordenkey; build g3 at Mordenkey; build y3 at Mordenkey
+move g3 from Lorgar to Mordenkey; catastrophe green at Mordenkey
+move y3 from Mordenkey to Lorgar
+build g1 at Tor
+sacrifice r1 at Istari; capture r2 at Lorgar

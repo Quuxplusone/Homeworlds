@@ -1,0 +1,17 @@
+Trydnt (0, b2y1) g3-
+Pould_ (1, y3b1) -g3
+build g1 at Trydnt
+build g1 at Pould_
+convert g1 to b1 at Trydnt
+move g1 from Pould_ to Omega (b2)
+build b1 at Trydnt
+build g1 at Omega
+move b1 from Trydnt to G3 (g3)
+build g1 at Omega
+build b2 at Trydnt
+convert g1 to y1 at Omega
+build b3 at G3
+convert g3 to b3 at Pould_
+convert b3 to y3 at G3
+move y1 from Omega to Sigma (g1)
+build b3 at G3

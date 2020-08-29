@@ -1,0 +1,60 @@
+Goulo (0, g3b2) y3-
+Twoshort (1, r1b3) -g3
+build y1 at Goulo
+build g1 at Twoshort
+convert y1 to g1 at Goulo
+convert g1 to y1 at Twoshort
+build y1 at Goulo
+build g1 at Twoshort
+convert y1 to r1 at Goulo
+build g1 at Twoshort
+build g2 at Goulo
+move g1 from Twoshort to Bluestar (b2)
+move g2 from Goulo to Rubeneto (r1)
+build g2 at Bluestar
+sacrifice g1 at Goulo; build y1 at Goulo
+convert g2 to r2 at Bluestar
+build r2 at Goulo
+build y1 at Twoshort
+build y2 at Goulo
+move y1 from Twoshort to Bluestar
+move y2 from Goulo to Rubeneto
+build y2 at Twoshort
+move r2 from Goulo to Safireto (b1)
+build g1 at Bluestar
+build g2 at Rubeneto
+move g1 from Bluestar to Yolonda (y3)
+move y1 from Goulo to Safireto
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Yolonda; build g3 at Twoshort
+sacrifice g2 at Rubeneto; build y2 at Goulo; build y3 at Safireto
+move g2 from Bluestar to Bluonia (b1)
+build g2 at Rubeneto
+move g1 from Yolonda to Bluestar
+move y3 from Safireto to Bluestar
+sacrifice y2 at Twoshort; move r2 from Bluestar to Bluto (b3); move y1 from Bluestar to Blutacular (b1)
+sacrifice r2 at Safireto; capture g1 at Bluestar; capture g1 at Bluestar
+convert g3 to r3 at Twoshort
+build y2 at Bluestar
+sacrifice g3 at Yolonda; build g3 at Bluonia; build g3 at Twoshort; build y3 at Blutacular
+sacrifice y2 at Bluestar; move g1 from Bluestar to Bluonia; move g1 from Bluestar to Bluonia; catastrophe green at Bluonia
+move y3 from Blutacular to Goulo
+capture y3 at Goulo
+move y1 from Blutacular to Goulo; catastrophe yellow at Goulo
+build r2 at Goulo
+convert r3 to y3 at Twoshort
+build g1 at Rubeneto
+move g1 from Twoshort to Yolonda (y2)
+move g2 from Rubeneto to Yolonda
+move g1 from Yolonda to Yoyo (y3)
+convert r2 to y2 at Goulo
+build g1 at Twoshort
+build y1 at Goulo
+move y1 from Twoshort to D2 (r2)
+move g2 from Rubeneto to D2
+sacrifice g1 at Yoyo; build y3 at Twoshort
+capture y1 at D2
+convert g3 to b3 at Twoshort
+move y3 from Bluestar to Bluto
+sacrifice y3 at Twoshort; move b3 from Twoshort to D2; move b3 from D2 to Rubeneto; move b3 from Rubeneto to Goulo
+sacrifice r1 at Goulo; capture r2 at Bluto
+convert y3 to r3 at Twoshort

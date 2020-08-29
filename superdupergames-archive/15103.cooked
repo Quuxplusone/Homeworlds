@@ -1,0 +1,38 @@
+Maxl (0, b2y1) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Maxl
+build g1 at Twoshort
+move g1 from Maxl to Jaune (y3)
+convert g1 to y1 at Twoshort
+build g1 at Maxl
+build y1 at Twoshort
+build g1 at Jaune
+build g2 at Twoshort
+convert g1 to r1 at Maxl
+build g1 at Twoshort
+build g2 at Maxl
+move g1 from Twoshort to Yolonda (y2)
+move g2 from Maxl to Vertino (g3)
+build y2 at Twoshort
+build g2 at Maxl
+move y1 from Twoshort to Bluestar (b2)
+move g1 from Jaune to Yolonda
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y2 at Bluestar; build y3 at Bluestar
+sacrifice g2 at Vertino; build g2 at Yolonda; build g3 at Jaune
+convert y2 to r2 at Bluestar
+convert g2 to y2 at Maxl
+sacrifice g3 at Twoshort; build g2 at Yolonda; build y3 at Bluestar; build g3 at Twoshort; catastrophe green at Yolonda
+move g3 from Jaune to Maxl
+convert y3 to b3 at Bluestar
+build g1 at Jaune
+move b3 from Bluestar to Jaune
+move g1 from Jaune to Plus (b1)
+sacrifice g2 at Twoshort; build y2 at Bluestar; build y3 at Twoshort
+build g1 at Plus
+sacrifice y3 at Twoshort; move y3 from Bluestar to Jaune; move y3 from Jaune to Maxl; move b3 from Jaune to Maxl
+capture b3 at Maxl
+sacrifice r2 at Bluestar; capture r1 at Maxl; capture b3 at Maxl
+convert y2 to r2 at Maxl
+capture r2 at Maxl
+convert g1 to r1 at Plus
+sacrifice r2 at Maxl; capture g3 at Maxl; capture g3 at Maxl

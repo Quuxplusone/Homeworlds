@@ -1,0 +1,50 @@
+Rootbier (0, b1y2) g3-
+Ajo (1, g3y1) -b3
+build g1 at Rootbier
+build b1 at Ajo
+convert g1 to r1 at Rootbier
+move b1 from Ajo to Alpha (g2)
+build g1 at Rootbier
+build b1 at Ajo
+build g1 at Rootbier
+build b2 at Alpha
+move g1 from Rootbier to Plague (b3)
+convert b2 to r2 at Alpha
+build g1 at Plague
+build b2 at Alpha
+convert g1 to y1 at Plague
+convert b2 to y2 at Alpha
+move g1 from Rootbier to Oxix (b3)
+build b2 at Alpha
+move g1 from Plague to Habl (b2)
+build b2 at Ajo
+build g1 at Rootbier
+move b2 from Ajo to Habl
+sacrifice g3 at Rootbier; build g2 at Habl; build g2 at Oxix; build g3 at Rootbier
+sacrifice r2 at Alpha; capture g2 at Habl; capture g1 at Habl
+sacrifice g3 at Rootbier; build r1 at Rootbier; build y1 at Plague; build g3 at Rootbier
+convert g2 to y2 at Habl
+sacrifice y1 at Plague; move g2 from Oxix to Habl
+convert b3 to r3 at Ajo
+move r1 from Rootbier to Occupyb3 (b3)
+build r1 at Ajo
+sacrifice g3 at Rootbier; build g2 at Oxix; build g3 at Rootbier; build r2 at Occupyb3
+sacrifice r1 at Ajo; capture g2 at Habl
+convert r1 to y1 at Occupyb3
+sacrifice g2 at Habl; build y3 at Habl; build y3 at Alpha
+sacrifice g2 at Oxix; build y3 at Occupyb3; build g2 at Oxix
+move y2 from Habl to Occupyb3
+sacrifice y3 at Occupyb3; move g1 from Oxix to Alpha; move g2 from Oxix to Alpha; move g1 from Rootbier to Commit (y3)
+build b3 at Ajo
+build g2 at Alpha; catastrophe green at Alpha
+sacrifice r3 at Ajo; capture r2 at Occupyb3; capture y1 at Occupyb3
+build g1 at Rootbier
+build y2 at Habl
+move y1 from Plague to Runh (g2)
+build g2 at Habl
+sacrifice g3 at Rootbier; build g2 at Commit; build g3 at Rootbier; build y3 at Runh
+sacrifice y2 at Habl; move y2 from Occupyb3 to Rootbier; move y1 from Occupyb3 to Rootbier
+sacrifice g3 at Rootbier; build y2 at Runh; build r1 at Rootbier; build g3 at Rootbier
+sacrifice r2 at Occupyb3; capture r1 at Rootbier; capture r1 at Rootbier
+move g2 from Commit to Pole (b2)
+sacrifice b2 at Habl; convert g1 to r1 at Habl; convert r1 to g1 at Rootbier

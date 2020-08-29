@@ -1,0 +1,11 @@
+Mneme (0, r1b2) g3-
+Fogus (1, y3b2) -g3
+build g1 at Mneme
+build g1 at Fogus
+convert g1 to b1 at Mneme
+convert g1 to b1 at Fogus
+build g1 at Mneme
+build g1 at Fogus
+convert g1 to y1 at Mneme
+convert g1 to y1 at Fogus
+build g1 at Mneme

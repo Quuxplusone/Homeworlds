@@ -1,0 +1,36 @@
+Zoltar (0, y1b2) g3-
+Jesse (1, r3b1) -g3
+build g1 at Zoltar
+build g1 at Jesse
+convert g1 to y1 at Zoltar
+convert g3 to y3 at Jesse
+build g1 at Zoltar
+build g1 at Jesse
+convert g1 to r1 at Zoltar
+convert g1 to r1 at Jesse
+build g1 at Zoltar
+build g1 at Jesse
+convert g1 to b1 at Zoltar
+convert g1 to b1 at Jesse
+move b1 from Zoltar to Greenbelt (g3)
+build y1 at Jesse
+build b2 at Greenbelt
+move b1 from Jesse to Cloud (g2)
+convert b2 to y2 at Greenbelt
+build b2 at Cloud
+build y2 at Greenbelt
+convert b2 to y2 at Cloud
+convert y2 to r2 at Greenbelt
+move y1 from Jesse to Armchair (g2)
+move y1 from Zoltar to Greenhills (g3)
+build y2 at Cloud
+build y3 at Greenbelt
+build y3 at Armchair
+move y2 from Greenbelt to Cloud
+sacrifice y2 at Cloud; move y2 from Cloud to Electrodynamics (r3); move b1 from Cloud to Electrodynamics
+build y2 at Greenbelt
+move y1 from Armchair to Lamppost (b3)
+build b2 at Greenbelt
+move b1 from Electrodynamics to Armchair
+move b1 from Greenbelt to Cloud
+move r1 from Jesse to Armchair

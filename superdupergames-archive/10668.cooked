@@ -1,0 +1,35 @@
+Stoneaxe (0, b3y2) g3-
+Alexcobo (1, g3b2) -y3
+build g1 at Stoneaxe
+build y1 at Alexcobo
+convert g1 to r1 at Stoneaxe
+convert y1 to r1 at Alexcobo
+build g1 at Stoneaxe
+build y1 at Alexcobo
+build g1 at Stoneaxe
+convert y1 to g1 at Alexcobo
+move g1 from Stoneaxe to Copper (y1)
+move r1 from Alexcobo to Highway (y1)
+build g2 at Copper
+convert g1 to r1 at Alexcobo
+build r2 at Stoneaxe
+build y1 at Alexcobo
+move g2 from Copper to Bluesband (b2)
+move r1 from Alexcobo to Highway
+build g1 at Stoneaxe
+build y2 at Alexcobo
+convert r2 to y2 at Stoneaxe
+convert y2 to b2 at Alexcobo
+sacrifice g3 at Stoneaxe; build g2 at Copper; build g2 at Bluesband; build g3 at Stoneaxe
+build y2 at Alexcobo
+sacrifice g3 at Stoneaxe; build g3 at Bluesband; build g3 at Stoneaxe; build r2 at Stoneaxe
+convert y3 to r3 at Alexcobo
+move y2 from Stoneaxe to Bonham (b1)
+move r3 from Alexcobo to Copper
+sacrifice y2 at Bonham; move g3 from Bluesband to Highway; move g3 from Highway to Alexcobo
+capture g2 at Copper
+sacrifice r2 at Stoneaxe; capture b2 at Alexcobo; capture y2 at Alexcobo
+move g2 from Copper to Stoneaxe; catastrophe green at Stoneaxe
+sacrifice g1 at Copper; build r2 at Stoneaxe
+build y2 at Alexcobo
+sacrifice r2 at Stoneaxe; capture y2 at Alexcobo; capture y1 at Alexcobo

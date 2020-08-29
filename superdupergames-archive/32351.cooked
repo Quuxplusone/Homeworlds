@@ -1,0 +1,30 @@
+Ausmuh (0, g3r1) b3-
+Felix (1, r2b2) -g3
+build b1 at Ausmuh
+build g1 at Felix
+build b1 at Ausmuh
+convert g1 to b1 at Felix
+convert b1 to y1 at Ausmuh
+build g1 at Felix
+convert b1 to g1 at Ausmuh
+convert g1 to y1 at Felix
+move g1 from Ausmuh to Zog (b2)
+build g1 at Felix
+build b1 at Ausmuh
+convert g1 to r1 at Felix
+build g1 at Zog
+build r1 at Felix
+convert g1 to y1 at Zog
+build y2 at Felix
+build y2 at Zog
+sacrifice y2 at Felix; move r1 from Felix to Ausmuh; move r1 from Felix to Ausmuh
+capture r1 at Ausmuh
+build r2 at Ausmuh; catastrophe red at Ausmuh
+convert b1 to r1 at Ausmuh
+build y2 at Felix
+move y2 from Zog to Alt (g1)
+build g1 at Felix
+build g2 at Zog
+sacrifice y2 at Felix; move g3 from Felix to Ausmuh; move g1 from Felix to Ausmuh
+capture g3 at Ausmuh
+build g2 at Ausmuh; catastrophe green at Ausmuh

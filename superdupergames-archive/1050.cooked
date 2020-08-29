@@ -1,0 +1,29 @@
+Twoshort (0, y1b2) g3-
+Tendrecube (1, g3b1) -y3
+build g1 at Twoshort
+build y1 at Tendrecube
+build g1 at Twoshort
+convert y1 to b1 at Tendrecube
+move g1 from Twoshort to Jed (y3)
+move b1 from Tendrecube to Alias (g2)
+move g1 from Twoshort to Bluestar (b3)
+build b1 at Alias
+build g1 at Twoshort
+build b2 at Alias
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g2 at Jed; build g3 at Twoshort
+convert b2 to r2 at Alias
+convert g2 to r2 at Bluestar
+build b2 at Alias
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Jed; build g3 at Twoshort
+build r1 at Alias
+move g3 from Jed to Alias
+convert y3 to r3 at Tendrecube
+sacrifice r2 at Bluestar; capture r2 at Alias; capture b2 at Alias
+build r1 at Tendrecube
+convert b2 to y2 at Alias
+convert r1 to y1 at Tendrecube
+move g2 from Jed to Yoyo (y2)
+move r3 from Tendrecube to Alias
+sacrifice y2 at Alias; move g3 from Alias to Tendrecube; move r2 from Alias to Tendrecube
+build y1 at Tendrecube
+sacrifice r2 at Tendrecube; capture y1 at Tendrecube; capture y1 at Tendrecube

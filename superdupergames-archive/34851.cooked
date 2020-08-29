@@ -1,0 +1,48 @@
+Dragon76N (0, b1y2) g3-
+Trydnt (1, g2b1) -b3
+build g1 at Dragon76N
+build b1 at Trydnt
+convert g1 to y1 at Dragon76N
+convert b3 to y3 at Trydnt
+build g1 at Dragon76N
+build b2 at Trydnt
+convert g3 to b3 at Dragon76N
+move b2 from Trydnt to Y3 (y3)
+build g1 at Dragon76N
+build b2 at Trydnt
+convert g1 to r1 at Dragon76N
+convert b1 to r1 at Trydnt
+build g1 at Dragon76N
+build y1 at Trydnt
+move g1 from Dragon76N to Yelthr (y3)
+move b2 from Trydnt to Yelthr
+convert b3 to g3 at Dragon76N
+sacrifice r1 at Trydnt; capture g1 at Yelthr
+convert g1 to b1 at Dragon76N
+build b2 at Yelthr
+move b1 from Dragon76N to Grethr (g3)
+convert b2 to r2 at Yelthr
+build b2 at Grethr
+build b3 at Yelthr
+build b3 at Grethr
+build b3 at Yelthr
+convert b1 to r1 at Grethr
+sacrifice b2 at Y3; convert b3 to y3 at Yelthr; convert b3 to g3 at Yelthr
+convert b2 to y2 at Grethr
+move y3 from Yelthr to G2 (g2)
+move r1 from Grethr to Trydnt
+sacrifice r2 at Yelthr; capture r1 at Trydnt
+build y1 at Grethr
+build y2 at G2
+convert y1 to r1 at Grethr
+build r2 at Trydnt
+build r2 at Grethr
+move y2 from G2 to B3 (b3)
+move r1 from Grethr to Trydnt
+sacrifice r1 at Trydnt; capture r1 at Trydnt
+build y1 at Grethr
+sacrifice y3 at G2; move y2 from B3 to Dragon76N; move y1 from Trydnt to Grethr; move y1 from Grethr to Dragon76N; catastrophe yellow at Dragon76N
+convert b3 to y3 at Grethr
+sacrifice g3 at Yelthr; build b1 at Yelthr; build b2 at Yelthr; build g1 at Yelthr
+sacrifice y3 at Grethr; move y2 from Grethr to Trydnt; move y1 from Grethr to Trydnt; move g3 from Dragon76N to Yelthr
+sacrifice y3 at Trydnt; move b1 from Yelthr to Dragon76N; move b2 from Yelthr to Dragon76N; move b2 from Yelthr to Dragon76N; catastrophe blue at Dragon76N

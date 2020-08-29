@@ -1,0 +1,19 @@
+Ts52 (0, y3b1) g3-
+Alexhouston (1, r3b2) -g3
+build g1 at Ts52
+build g1 at Alexhouston
+convert g1 to b1 at Ts52
+build g1 at Alexhouston
+build b1 at Ts52
+convert g1 to y1 at Alexhouston
+build g1 at Ts52
+build y1 at Alexhouston
+move b1 from Ts52 to Kermit (g2)
+move y1 from Alexhouston to Boop (r1)
+build b2 at Kermit
+move g1 from Alexhouston to Boop
+build b2 at Ts52
+build y1 at Boop
+build b3 at Kermit
+move y1 from Boop to Kermit
+convert b3 to r3 at Kermit

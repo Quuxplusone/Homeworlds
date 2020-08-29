@@ -1,0 +1,52 @@
+Adambadura (0, g3b1) r3-
+Twoshort (1, b1g2) -b3
+build r1 at Adambadura
+build b1 at Twoshort
+convert r3 to b3 at Adambadura
+convert b3 to y3 at Twoshort
+build b2 at Adambadura
+build b2 at Twoshort
+convert b3 to y3 at Adambadura
+convert b2 to g2 at Twoshort
+move b2 from Adambadura to Drydocks (g2)
+build b2 at Twoshort
+build b2 at Drydocks
+move b1 from Twoshort to Yolonda (y3)
+convert b2 to y2 at Drydocks
+move g2 from Twoshort to Yolonda
+build r1 at Adambadura
+convert b2 to r2 at Twoshort
+move r1 from Adambadura to Drydocks
+build b2 at Yolonda
+build b2 at Drydocks
+move b2 from Yolonda to Yelly (y2)
+convert b2 to y2 at Drydocks
+build g1 at Yolonda
+build r1 at Adambadura
+move g1 from Yolonda to Yelly
+build r2 at Adambadura
+build g1 at Yelly
+move r2 from Adambadura to Yelly
+sacrifice r2 at Twoshort; capture r2 at Yelly
+move y2 from Drydocks to Shipyard (g3)
+build g1 at Yolonda
+move y2 from Drydocks to Watchtower (g3)
+sacrifice g2 at Yolonda; build b2 at Yelly; build b3 at Yolonda
+build b3 at Drydocks
+move b3 from Yolonda to Twoshort
+convert b2 to g2 at Drydocks
+sacrifice y3 at Twoshort; move g1 from Yelly to Yolonda; move g1 from Yolonda to Drydocks; move g1 from Yolonda to Drydocks; catastrophe green at Drydocks
+move r1 from Adambadura to Betterplace (g2)
+build b2 at Twoshort
+build r1 at Adambadura
+build b3 at Yelly
+build r2 at Betterplace
+sacrifice g1 at Yelly; build b3 at Yolonda
+build y1 at Adambadura
+sacrifice b2 at Yelly; convert b2 to g2 at Yelly; convert b3 to y3 at Twoshort
+move y1 from Adambadura to Betterplace
+build g1 at Yelly
+convert r1 to g1 at Adambadura
+move g1 from Yelly to Adambadura
+move g1 from Adambadura to Betterplace
+sacrifice g2 at Yelly; build g1 at Adambadura; build g2 at Adambadura; catastrophe green at Adambadura

@@ -1,0 +1,46 @@
+Kanzenryu (0, y2b3) g3-
+Felix (1, y3b1) -g3
+build g1 at Kanzenryu
+build g1 at Felix
+convert g1 to b1 at Kanzenryu
+convert g1 to b1 at Felix
+build g1 at Kanzenryu
+move b1 from Felix to Grass (g2)
+move b1 from Kanzenryu to Out (g1)
+build b2 at Grass
+build b2 at Out
+convert b1 to r1 at Grass
+convert b2 to r2 at Out
+build r1 at Grass
+convert g1 to y1 at Kanzenryu
+convert r1 to y1 at Grass
+build g1 at Kanzenryu
+build g1 at Felix
+move g1 from Kanzenryu to Beep (b1)
+move b2 from Grass to Beep
+build b2 at Out
+sacrifice r1 at Grass; capture g1 at Beep
+build g2 at Kanzenryu
+sacrifice g3 at Felix; build g2 at Felix; build g3 at Felix; build g3 at Beep
+sacrifice g3 at Kanzenryu; build g3 at Kanzenryu; build r1 at Out; build r1 at Out
+convert g1 to r1 at Felix
+move y1 from Kanzenryu to Out
+convert g2 to y2 at Felix
+move r2 from Out to Grass
+move y1 from Grass to Beep
+build r2 at Out
+build g1 at Felix
+convert g2 to r2 at Kanzenryu
+build r3 at Felix
+sacrifice g3 at Kanzenryu; build r3 at Kanzenryu; build r3 at Grass; build y1 at Out
+build g2 at Beep
+sacrifice b2 at Out; convert r3 to g3 at Kanzenryu; convert r3 to y3 at Grass
+sacrifice g2 at Beep; build y2 at Felix; build y3 at Beep
+build r3 at Kanzenryu
+convert g3 to r3 at Beep
+build g2 at Kanzenryu
+move b2 from Beep to Ichor (g2)
+move y3 from Grass to Felix; catastrophe yellow at Felix
+sacrifice y3 at Beep; move r3 from Beep to Kanzenryu; move r1 from Felix to Kanzenryu; move g1 from Beep to Kanzenryu; catastrophe red at Kanzenryu
+sacrifice r1 at Out; capture g1 at Kanzenryu
+sacrifice y1 at Beep; move g1 from Felix to Kanzenryu; catastrophe green at Kanzenryu

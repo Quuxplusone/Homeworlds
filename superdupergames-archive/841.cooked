@@ -1,0 +1,43 @@
+Andylooney (0, b1g2) y3-
+Rootbeer (1, g3b2) -y3
+build y1 at Andylooney
+build y1 at Rootbeer
+convert y1 to g1 at Andylooney
+build y1 at Rootbeer
+build g1 at Andylooney
+convert y1 to b1 at Rootbeer
+convert g1 to b1 at Andylooney
+build b2 at Rootbeer
+build b2 at Andylooney
+convert b2 to g2 at Rootbeer
+move g1 from Andylooney to Clampett (y3)
+build b2 at Rootbeer
+move b2 from Andylooney to Garden (g3)
+move b2 from Rootbeer to Emerald (g1)
+convert b1 to y1 at Andylooney
+move y1 from Rootbeer to Emerald
+move y1 from Andylooney to Bigblue (b3)
+build y1 at Emerald
+build y2 at Andylooney
+build y2 at Rootbeer
+convert y2 to g2 at Andylooney
+build y2 at Emerald
+build y2 at Andylooney
+move y1 from Emerald to Sniffle (g3)
+sacrifice g1 at Clampett; build y3 at Bigblue
+sacrifice y2 at Rootbeer; move y1 from Emerald to Bigblue; move y2 from Emerald to Bigblue; catastrophe yellow at Bigblue
+move g2 from Andylooney to Clampett2 (y3)
+build y1 at Sniffle
+move y2 from Andylooney to Garden
+build b1 at Emerald
+build b3 at Garden
+build b3 at Rootbeer
+sacrifice y2 at Garden; move b2 from Garden to Emerald; move b2 from Emerald to Rootbeer; catastrophe blue at Rootbeer
+move y3 from Rootbeer to Andylooney
+convert y3 to r3 at Andylooney
+move y3 from Andylooney to Garden
+convert b3 to y3 at Garden
+build y1 at Garden
+sacrifice y3 at Garden; move g2 from Clampett2 to Andylooney; move r3 from Andylooney to Rootbeer
+move y1 from Garden to Andylooney
+capture g2 at Rootbeer

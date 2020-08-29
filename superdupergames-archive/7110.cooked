@@ -1,0 +1,27 @@
+Twoshort (0, y1b2) g3-
+Mikeyarrum (1, b3g2) -y3
+build g1 at Twoshort
+build y1 at Mikeyarrum
+build g1 at Twoshort
+build y1 at Mikeyarrum
+move g1 from Twoshort to Yellonia (y3)
+move y1 from Mikeyarrum to Bluey (b1)
+build g1 at Twoshort
+build y2 at Mikeyarrum
+move g1 from Twoshort to Bluonia (b3)
+move y1 from Mikeyarrum to Bluey
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g2 at Twoshort; build g3 at Twoshort
+build y2 at Mikeyarrum
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Bluonia; build g3 at Yellonia
+move y1 from Bluey to Bluonia
+convert g3 to r3 at Bluonia
+move y2 from Mikeyarrum to Bluey
+capture y1 at Bluonia
+convert y2 to r2 at Bluey
+move g2 from Twoshort to Yonderboy (y3)
+convert y3 to g3 at Mikeyarrum
+convert g3 to y3 at Twoshort
+move r2 from Bluey to Yonderboy
+sacrifice g3 at Yellonia; build y2 at Bluonia; build g3 at Twoshort; build g3 at Yonderboy
+capture g2 at Yonderboy
+sacrifice r3 at Bluonia; capture r2 at Yonderboy; capture g2 at Yonderboy

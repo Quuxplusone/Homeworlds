@@ -1,0 +1,83 @@
+Simon (0, b2r1) g3-
+Felix (1, y3b2) -g3
+build g1 at Simon
+build g1 at Felix
+convert g1 to b1 at Simon
+convert g1 to r1 at Felix
+build g1 at Simon
+build r1 at Felix
+convert g3 to r3 at Simon
+convert r1 to b1 at Felix
+build r1 at Simon
+build r2 at Felix
+convert r3 to y3 at Simon
+convert r2 to y2 at Felix
+move b1 from Simon to G3 (g3)
+move b1 from Felix to Rim (g1)
+build r2 at Simon
+build r2 at Felix
+move r2 from Simon to G3
+move r2 from Felix to Spawn (y1)
+build y1 at Simon
+sacrifice g3 at Felix; build r2 at Felix; build r3 at Felix; build r3 at Spawn
+build r3 at G3
+convert r3 to g3 at Felix
+convert r2 to y2 at G3
+move r2 from Felix to Rim
+build y1 at G3
+move y2 from Felix to Rim
+move r1 from Simon to B3 (b3)
+build g1 at Felix
+build g2 at Simon
+move r2 from Spawn to B3
+sacrifice g2 at Simon; build r2 at G3; build r3 at B3
+build y2 at Rim
+move y1 from G3 to G2 (g2)
+move y2 from Rim to Stow (y3)
+sacrifice r1 at B3; capture r2 at B3
+build r1 at Rim
+build g2 at Simon
+sacrifice y2 at Stow; move r1 from Rim to G3; move r2 from Rim to G3; catastrophe red at G3
+sacrifice g2 at Simon; build y2 at G2; build y3 at G3
+move r3 from Spawn to G2
+sacrifice y1 at G2; move y2 from G2 to B3
+build y1 at Rim
+build g2 at Simon
+move g1 from Felix to Cassa (b1)
+move g2 from Simon to B3
+move y2 from Rim to Slit (g3)
+build y1 at B3
+build g2 at Felix
+move r2 from B3 to Rim
+move y1 from Rim to Slit
+capture b1 at Rim
+move y1 from Slit to Simon
+move y1 from Simon to R3 (r3)
+move y1 from Simon to Slat (b3)
+build b2 at G3
+sacrifice y1 at Slat; move r3 from G2 to Rim
+build r1 at Rim
+capture b1 at Rim
+build r2 at Rim; catastrophe red at Rim
+sacrifice g3 at Felix; build g2 at Cassa; build g3 at Felix; build b3 at Rim
+build y1 at Simon
+move y2 from Slit to Rim
+build g3 at B3
+move b3 from Rim to R3
+move y1 from R3 to R1 (r1)
+sacrifice g3 at Felix; build g3 at Felix; build r2 at Felix; build b3 at Rim
+build r2 at B3
+move r2 from Felix to Rim
+move g3 from B3 to R1
+sacrifice g3 at Felix; build g3 at Felix; build r2 at Felix; build r3 at Rim
+move g2 from B3 to R1
+move r3 from Rim to B3
+sacrifice r2 at B3; capture r3 at B3
+build r2 at Rim
+move r3 from B3 to Cassa
+move b1 from Rim to R3
+move y3 from G3 to Cassa
+move b3 from Rim to G3
+sacrifice y3 at Simon; move y3 from Cassa to Felix; move g3 from R1 to Felix; move g2 from R1 to Felix; catastrophe green at Felix
+sacrifice y2 at Rim; move r2 from Rim to Felix; move r2 from Rim to Felix
+catastrophe red at Felix

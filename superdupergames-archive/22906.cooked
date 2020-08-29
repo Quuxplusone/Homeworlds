@@ -1,0 +1,19 @@
+Silenttitan (0, b1r2) g3-
+Aristos (1, g3y1) -b3
+build g1 at Silenttitan
+build b1 at Aristos
+convert g1 to y1 at Silenttitan
+build b1 at Aristos
+build y1 at Silenttitan
+move b1 from Aristos to Armstrong (g2)
+move y1 from Silenttitan to Sol (g3)
+build b2 at Armstrong
+sacrifice g3 at Silenttitan; build y2 at Silenttitan; build y2 at Silenttitan; build y2 at Sol
+convert b2 to r2 at Armstrong
+build y3 at Sol
+build b2 at Armstrong
+move y2 from Silenttitan to Soul (r3)
+build b2 at Aristos
+move y3 from Sol to Silenttitan
+move b1 from Aristos to Aldrin (g2)
+convert y3 to g3 at Silenttitan

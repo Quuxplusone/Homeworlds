@@ -1,0 +1,32 @@
+Daarck (0, g1y2) b3-
+Mandrel (1, r1b3) -g3
+build b1 at Daarck
+build g1 at Mandrel
+convert b1 to y1 at Daarck
+convert g1 to y1 at Mandrel
+build b1 at Daarck
+build g1 at Mandrel
+build b1 at Daarck
+convert g1 to b1 at Mandrel
+move b1 from Daarck to Marco (g3)
+build b2 at Mandrel
+convert b3 to g3 at Daarck
+convert b1 to r1 at Mandrel
+build g1 at Daarck
+build g1 at Mandrel
+move g1 from Daarck to Marco
+build g2 at Mandrel
+build g2 at Marco
+move g2 from Mandrel to Loom (y2)
+convert g2 to r2 at Marco
+build g2 at Loom
+build g2 at Daarck
+move b2 from Mandrel to Loom
+move y1 from Daarck to Marco
+convert g2 to y2 at Loom
+move r2 from Marco to Loom
+sacrifice y2 at Loom; move g2 from Loom to Marco; move g2 from Marco to Daarck; catastrophe green at Daarck
+capture b2 at Loom
+move y1 from Mandrel to Daarck
+move g1 from Marco to Loom
+sacrifice g3 at Mandrel; build y1 at Daarck; build y2 at Daarck; build y3 at Daarck; catastrophe yellow at Daarck

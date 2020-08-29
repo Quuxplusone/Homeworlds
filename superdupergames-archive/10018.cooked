@@ -1,0 +1,42 @@
+Mistermorn (0, g2b1) y3-
+Teraphim (1, y3b2) -g3
+build y1 at Mistermorn
+build g1 at Teraphim
+convert y1 to r1 at Mistermorn
+convert g1 to r1 at Teraphim
+build r1 at Mistermorn
+build r2 at Teraphim
+move r1 from Mistermorn to Twinkie (y3)
+build g1 at Teraphim
+build y1 at Mistermorn
+move g1 from Teraphim to Ol (y1)
+convert y1 to g1 at Mistermorn
+build r2 at Teraphim
+build r2 at Mistermorn
+move r2 from Teraphim to Ol
+move r1 from Twinkie to Angelfood (g1)
+build r3 at Ol
+convert r2 to y2 at Mistermorn
+move r2 from Teraphim to Angelfood
+build r2 at Angelfood
+build r3 at Angelfood; catastrophe red at Angelfood
+convert g1 to b1 at Mistermorn
+build r1 at Teraphim
+build r2 at Mistermorn
+convert r1 to b1 at Teraphim
+sacrifice y2 at Mistermorn; move r2 from Mistermorn to Twinkie (y3); move r2 from Twinkie to Angelfood (g1)
+convert b1 to y1 at Teraphim
+build b1 at Mistermorn
+build y1 at Teraphim
+build y2 at Mistermorn
+move r2 from Ol to Lo (b3)
+sacrifice y2 at Mistermorn; move b1 from Mistermorn to Lo; move b1 from Lo to Angelfood
+move y1 from Teraphim to Ol
+build b2 at Angelfood
+build y2 at Ol
+build b2 at Angelfood
+sacrifice y2 at Ol; move r3 from Ol to Lo; move r3 from Lo to Angelfood
+sacrifice y3 at Mistermorn; move b1 from Angelfood to Teraphim; move b2 from Angelfood to Teraphim; move b2 from Angelfood to Teraphim; catastrophe blue at Teraphim
+sacrifice y1 at Ol; move r2 from Lo to Mistermorn
+build r1 at Mistermorn
+sacrifice r3 at Angelfood; capture r1 at Mistermorn; capture r1 at Mistermorn; capture b1 at Mistermorn

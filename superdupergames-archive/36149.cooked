@@ -1,0 +1,42 @@
+Sarperen (0, b2r1) g3-
+Capi3101 (1, g1b3) -y3
+build g1 at Sarperen
+build y1 at Capi3101
+convert g1 to y1 at Sarperen
+convert y1 to b1 at Capi3101
+build g1 at Sarperen
+build b1 at Capi3101
+move g1 from Sarperen to Potato (y3)
+build y1 at Capi3101
+build y1 at Sarperen
+build y2 at Capi3101
+move y1 from Sarperen to Tomato (g3)
+move y2 from Capi3101 to Aleph (g2)
+build y2 at Sarperen
+convert y3 to g3 at Capi3101
+convert y2 to r2 at Sarperen
+convert b1 to r1 at Capi3101
+build g1 at Sarperen
+build y2 at Aleph
+sacrifice g3 at Sarperen; build g2 at Potato; build g2 at Sarperen; build g3 at Sarperen
+move y2 from Aleph to Bet (b3)
+convert g2 to y2 at Sarperen
+sacrifice g3 at Capi3101; build y3 at Capi3101; build y3 at Aleph; build b1 at Capi3101
+move g1 from Potato to Carrot (b2)
+move b1 from Capi3101 to Aleph
+move y1 from Sarperen to Rhubarb (r3)
+move y2 from Aleph to Rhubarb
+sacrifice g2 at Potato; build y3 at Rhubarb; build g2 at Carrot
+sacrifice y2 at Bet; move y1 from Capi3101 to Aleph; move y1 from Aleph to Rhubarb; catastrophe yellow at Rhubarb
+sacrifice g3 at Sarperen; build g2 at Sarperen; build g3 at Sarperen; build g3 at Carrot
+move y3 from Aleph to Tomato
+sacrifice y2 at Sarperen; move y1 from Tomato to Carrot; move g2 from Carrot to Spinach (b3)
+build y1 at Tomato
+convert g2 to y2 at Sarperen
+build b1 at Aleph
+sacrifice g3 at Sarperen; build g2 at Spinach; build g3 at Sarperen; build y1 at Carrot
+move y1 from Tomato to Aleph
+convert g2 to b2 at Spinach
+build y2 at Aleph
+build g2 at Carrot
+move b1 from Aleph to Tomato

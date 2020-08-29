@@ -1,0 +1,19 @@
+Jeep (0, y2b1) g3-
+Sketchwick (1, b2g1) -r3
+build g1 at Jeep
+build r1 at Sketchwick
+build g1 at Jeep
+convert r1 to y1 at Sketchwick
+convert g1 to r1 at Jeep
+move r3 from Sketchwick to Sproutdeath (g3)
+build r1 at Jeep
+build y1 at Sketchwick
+convert r1 to y1 at Jeep
+move y1 from Sketchwick to Sproutdeath
+move y1 from Jeep to Sproutgo (g3)
+build r1 at Sproutdeath
+build y2 at Sproutgo
+move r3 from Sproutdeath to Jeep
+capture r3 at Jeep
+build y2 at Sketchwick
+sacrifice y2 at Sproutgo; move r3 from Jeep to Sproutgo; move r3 from Sproutgo to Sketchwick

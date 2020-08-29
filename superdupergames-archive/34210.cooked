@@ -1,0 +1,57 @@
+Babamots (0, b3r2) g3-
+Dodobirb (1, b1y2) -g3
+build g1 at Babamots
+build g1 at Dodobirb
+convert g1 to y1 at Babamots
+convert g1 to y1 at Dodobirb
+build g1 at Babamots
+build g1 at Dodobirb
+convert g1 to b1 at Babamots
+convert g1 to b1 at Dodobirb
+build b2 at Babamots
+build b2 at Dodobirb
+convert b2 to y2 at Babamots
+move b2 from Dodobirb to Yellow (y3)
+move y1 from Babamots to Iconia (y1)
+move b1 from Dodobirb to Sun (y3)
+build b2 at Babamots
+build g1 at Dodobirb
+move b2 from Babamots to Risa (g1)
+move g1 from Dodobirb to Yellow
+build y2 at Babamots
+move y1 from Dodobirb to Echo (y3)
+build b2 at Babamots
+build b3 at Yellow
+build b3 at Risa
+build g1 at Dodobirb
+convert b3 to r3 at Risa
+convert b3 to r3 at Yellow
+convert b1 to r1 at Babamots
+build r1 at Yellow
+build g2 at Babamots
+build g2 at Dodobirb
+move g2 from Babamots to Iconia
+convert g2 to r2 at Dodobirb
+move g2 from Iconia to Sun
+move b1 from Sun to Dodobirb
+sacrifice g2 at Sun; build g2 at Babamots; build y3 at Babamots
+build g2 at Yellow
+move y2 from Babamots to Risa
+move g1 from Dodobirb to Deepblue (b3)
+move b2 from Babamots to Iconia
+move r1 from Yellow to Reddwarf (r1)
+move r3 from Risa to Deepblue
+move r3 from Yellow to Risa
+sacrifice y2 at Risa; move b2 from Risa to Echo; move b2 from Echo to Dodobirb
+move b1 from Dodobirb to Yellow
+sacrifice g3 at Babamots; build b1 at Dodobirb; build b3 at Dodobirb; build y2 at Babamots; catastrophe blue at Dodobirb
+sacrifice g1 at Deepblue; build g1 at Dodobirb
+move y2 from Babamots to Reddwarf
+sacrifice g2 at Yellow; build r2 at Reddwarf; build r3 at Reddwarf; catastrophe red at Reddwarf
+build y2 at Babamots
+convert b2 to r2 at Yellow
+move y2 from Babamots to Bolius (b1)
+sacrifice g3 at Dodobirb; build r1 at Risa; build r1 at Yellow; build r3 at Dodobirb
+sacrifice y3 at Babamots; move y2 from Babamots to Bolius; move y2 from Bolius to Dodobirb; move y1 from Iconia to Dodobirb
+sacrifice y1 at Echo; move r3 from Risa to Babamots
+move y2 from Bolius to Dodobirb; catastrophe yellow at Dodobirb

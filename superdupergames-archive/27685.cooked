@@ -1,0 +1,33 @@
+Endo (0, b1y2) g3-
+Ts52 (1, b2y3) -g3
+build g1 at Endo
+build g1 at Ts52
+convert g1 to r1 at Endo
+convert g1 to b1 at Ts52
+build r1 at Endo
+move b1 from Ts52 to Robin (g1)
+build r1 at Endo
+build b1 at Robin
+move r1 from Endo to Union (b3)
+build b2 at Robin
+sacrifice g3 at Endo; build r2 at Endo; build r2 at Union; build r2 at Union
+convert b2 to y2 at Robin
+move r1 from Endo to Powerset (g3)
+move b1 from Robin to Kermit (g3)
+move r2 from Endo to Kermit
+build g1 at Ts52
+capture b1 at Kermit
+build b2 at Robin
+build r3 at Kermit
+build g1 at Ts52
+convert b1 to y1 at Kermit
+build b1 at Robin
+build r3 at Powerset
+move b2 from Robin to Bigbird (y3)
+build r3 at Kermit
+move g1 from Ts52 to Zoe (y1)
+move r3 from Kermit to Zoe
+build g2 at Zoe
+move r3 from Zoe to Ts52
+move b2 from Bigbird to Endo
+sacrifice r2 at Union; capture g3 at Ts52; capture g1 at Ts52

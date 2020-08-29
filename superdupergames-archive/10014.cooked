@@ -1,0 +1,24 @@
+Mistermorn (0, g2y1) b3-
+Teraphim (1, g3b2) -y3
+build b1 at Mistermorn
+build y1 at Teraphim
+move b1 from Mistermorn to Mars (r3)
+build y1 at Teraphim
+convert b1 to g1 at Mars
+move y1 from Teraphim to February (g1)
+build b1 at Mistermorn
+build y2 at February
+build b1 at Mistermorn
+convert y1 to r1 at Teraphim
+convert b1 to y1 at Mistermorn
+build y2 at Teraphim
+move y1 from Mistermorn to Mars
+sacrifice y2 at Teraphim; move y3 from Teraphim to February; move y3 from February to Mars
+build y2 at Mars
+sacrifice y2 at February; move y1 from February to Teraphim; move y3 from Mars to Mistermorn
+build b1 at Mistermorn
+sacrifice r1 at Teraphim; capture b3 at Mistermorn
+sacrifice y2 at Mars; move b1 from Mistermorn to Mars; move b1 from Mars to Bundtcake (g1)
+convert b3 to r3 at Mistermorn
+build b1 at Mistermorn
+sacrifice r3 at Mistermorn; capture b1 at Mistermorn; capture b1 at Mistermorn

@@ -1,0 +1,53 @@
+Draw5Playall (0, b3r1) g3-
+Dlwillson (1, r2b1) -g3
+build g1 at Draw5Playall
+build g1 at Dlwillson
+convert g1 to y1 at Draw5Playall
+convert g1 to y1 at Dlwillson
+build g1 at Draw5Playall
+build g1 at Dlwillson
+convert g1 to r1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+build r2 at Draw5Playall
+build r2 at Dlwillson
+move r2 from Draw5Playall to Rocket (g2)
+convert r1 to b1 at Dlwillson
+convert r1 to b1 at Draw5Playall
+build g1 at Dlwillson
+build g1 at Draw5Playall
+build r1 at Dlwillson
+convert g1 to r1 at Draw5Playall
+convert r2 to y2 at Dlwillson
+build b2 at Draw5Playall
+move y1 from Dlwillson to Sea (b3)
+move b2 from Draw5Playall to Rocket
+build b2 at Dlwillson
+move b1 from Draw5Playall to Dreams (g2)
+convert b2 to y2 at Dlwillson
+build b2 at Dreams
+move y2 from Dlwillson to Alsosea (b3)
+convert b2 to r2 at Dreams
+sacrifice g3 at Dlwillson; build y1 at Dlwillson; build y2 at Sea; build y3 at Alsosea
+sacrifice g3 at Draw5Playall; build y3 at Draw5Playall; build r3 at Dreams; build r3 at Rocket
+build y3 at Dlwillson
+move y1 from Draw5Playall to Dreams
+convert y3 to g3 at Dlwillson
+build y3 at Dreams
+convert y3 to r3 at Alsosea
+move r3 from Dreams to Sea
+move y2 from Sea to Sky (b2)
+capture y1 at Sea
+sacrifice g1 at Dlwillson; build y3 at Sky
+move y1 from Dreams to Sea
+build g1 at Dlwillson
+convert y1 to g1 at Sea
+move g1 from Dlwillson to Alsosea
+build g1 at Sea
+convert y3 to g3 at Sky
+build b2 at Dreams
+sacrifice y2 at Dlwillson; move r1 from Dlwillson to Sea; move r1 from Sea to Sky
+move r2 from Dreams to Sea
+build g2 at Alsosea
+move r3 from Sea to Dlwillson
+capture r3 at Dlwillson
+sacrifice y3 at Dreams; move r2 from Sea to Dlwillson; move r2 from Rocket to Sea; move r2 from Sea to Dlwillson; catastrophe red at Dlwillson

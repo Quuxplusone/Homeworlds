@@ -1,0 +1,139 @@
+Zoltar (0, r1b3) g3-
+Danner (1, b1y2) -g3
+build g1 at Zoltar
+build g1 at Danner
+convert g1 to y1 at Zoltar
+convert g1 to r1 at Danner
+build y1 at Zoltar
+build r1 at Danner
+build y1 at Zoltar
+build r2 at Danner
+move y1 from Zoltar to Greenbelt (g2)
+convert r2 to y2 at Danner
+sacrifice g3 at Zoltar; build y2 at Greenbelt; build y3 at Greenbelt; build y3 at Zoltar
+move y2 from Danner to Garrett (g3)
+sacrifice y1 at Zoltar; move y1 from Greenbelt to Greendale (g1)
+build g1 at Danner
+convert y3 to g3 at Zoltar
+move g1 from Danner to Zombie (y3)
+move y2 from Greenbelt to Bluebeard (b3)
+build g1 at Danner
+build g2 at Zoltar
+move g1 from Danner to Artemus (y3)
+convert y2 to r2 at Bluebeard
+build g2 at Danner
+sacrifice g2 at Zoltar; build g2 at Zoltar; build r2 at Bluebeard
+move r1 from Danner to Artemus
+move y3 from Greenbelt to Artemus
+move g1 from Artemus to Yellowbelt (y2)
+move g2 from Zoltar to Yellowbelt
+move g1 from Yellowbelt to Freeway (y1)
+move g2 from Yellowbelt to Zombie
+sacrifice g3 at Danner; build g2 at Zombie; build g3 at Danner; build y2 at Garrett
+sacrifice r2 at Bluebeard; capture r1 at Artemus; capture g2 at Zombie
+move g1 from Freeway to Zombie; catastrophe green at Zombie
+sacrifice g3 at Zoltar; build y1 at Greendale; build y3 at Zoltar; build r2 at Bluebeard
+move y2 from Garrett to Greendale
+convert r2 to g2 at Bluebeard
+build r2 at Danner
+move y1 from Zoltar to Redriver (r2)
+sacrifice r1 at Danner; capture y1 at Greendale
+move y1 from Redriver to Greendale; catastrophe yellow at Greendale
+build r1 at Danner
+sacrifice g2 at Bluebeard; build r2 at Bluebeard; build r3 at Artemus
+move r2 from Danner to Garrett
+convert r2 to g2 at Bluebeard
+build y1 at Garrett
+build g1 at Bluebeard
+sacrifice g2 at Danner; build r2 at Danner; build r3 at Garrett
+build r3 at Bluebeard
+sacrifice y2 at Garrett; move r1 from Danner to Bluebeard; move r2 from Danner to Bluebeard; catastrophe red at Bluebeard
+build g1 at Bluebeard
+move r3 from Garrett to Danner
+convert g2 to y2 at Bluebeard
+build y1 at Garrett
+sacrifice g1 at Bluebeard; build y1 at Zoltar
+move y1 from Garrett to Gamall (y2)
+move r3 from Artemus to Gamall
+move y1 from Gamall to Orland (r3)
+build g1 at Bluebeard
+build r1 at Garrett
+sacrifice g1 at Bluebeard; build r2 at Artemus
+build g1 at Danner
+convert y1 to g1 at Zoltar
+build y1 at Garrett
+build g2 at Bluebeard
+move g1 from Danner to Caduca (b3)
+build g2 at Bluebeard
+move y1 from Garrett to Builder (b2)
+sacrifice g2 at Bluebeard; build g2 at Bluebeard; build r2 at Artemus
+move r2 from Garrett to Builder
+sacrifice y3 at Artemus; move r1 from Artemus to Danner; move r2 from Artemus to Danner; move r2 from Artemus to Danner; catastrophe red at Danner
+move r1 from Garrett to Danner
+sacrifice g2 at Bluebeard; build y3 at Bluebeard; build y3 at Zoltar
+build g2 at Caduca
+build g2 at Bluebeard
+convert g1 to r1 at Caduca
+move g1 from Bluebeard to Danner
+sacrifice g3 at Danner; build r2 at Builder; build r2 at Builder; build r3 at Danner
+convert g2 to b2 at Bluebeard
+move r2 from Builder to Bluebeard
+move y3 from Zoltar to Builder
+sacrifice r2 at Builder; capture b2 at Bluebeard; capture y2 at Bluebeard
+sacrifice r3 at Gamall; capture r2 at Bluebeard; capture y2 at Bluebeard; capture b2 at Bluebeard
+sacrifice r2 at Builder; capture g1 at Danner
+build y2 at Zoltar
+move y1 from Garrett to Builder
+move y3 from Builder to Caduca
+move y1 from Builder to Zoltar
+move y2 from Zoltar to Builder
+capture g1 at Zoltar
+build r2 at Bluebeard
+move r1 from Danner to Garrett (g3)
+sacrifice r2 at Bluebeard; capture y1 at Builder; capture r1 at Caduca
+sacrifice g2 at Caduca; build g1 at Zoltar; build g2 at Zoltar
+capture g2 at Zoltar
+convert g1 to b1 at Zoltar
+sacrifice g2 at Zoltar; build r2 at Bluebeard; build b1 at Bluebeard
+build r2 at Garrett
+build r3 at Bluebeard
+convert r3 to g3 at Danner
+convert r2 to g2 at Bluebeard
+sacrifice g1 at Danner; build b2 at Zoltar
+build g1 at Bluebeard
+sacrifice y1 at Orland; move r2 from Garrett to Danner
+capture b2 at Zoltar
+build y1 at Zoltar
+move y2 from Builder to Garrett
+build g1 at Zoltar
+sacrifice r3 at Bluebeard; capture r1 at Garrett; capture g1 at Zoltar; capture g1 at Zoltar
+capture g1 at Zoltar
+sacrifice g2 at Bluebeard; build r2 at Garrett; build r3 at Caduca
+move b1 from Zoltar to Karras (g2)
+move b2 from Bluebeard to Karras
+capture g1 at Zoltar
+sacrifice g2 at Bluebeard; build r3 at Bluebeard; build r3 at Garrett
+build g2 at Zoltar
+capture g2 at Zoltar
+move g1 from Zoltar to Builder
+sacrifice r3 at Garrett; capture g1 at Zoltar; capture y1 at Zoltar; capture y1 at Zoltar
+build g2 at Builder
+sacrifice g2 at Zoltar; build g2 at Bluebeard; build g3 at Zoltar
+pass
+build r3 at Garrett
+pass
+move r3 from Garrett to Builder
+pass
+sacrifice r3 at Bluebeard; capture b1 at Karras; capture g2 at Builder; capture g1 at Builder
+pass
+sacrifice g2 at Builder; build g2 at Bluebeard; build r3 at Bluebeard
+pass
+move r2 from Bluebeard to Danner
+sacrifice r2 at Danner; capture r2 at Danner
+sacrifice y3 at Zoltar; move y1 from Zoltar to Karras; move b2 from Karras to Caduca; move b1 from Karras to Caduca
+pass
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Caduca; build r2 at Bluebeard
+pass
+sacrifice y3 at Caduca; move r1 from Caduca to Danner; move r1 from Garrett to Danner; move r2 from Bluebeard to Danner; catastrophe red at Danner
+pass
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Garrett; build r1 at Caduca

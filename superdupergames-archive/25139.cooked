@@ -1,0 +1,48 @@
+Aristos (0, g3b2) y3-
+Zoltar (1, b1y2) -g3
+build y1 at Aristos
+build g1 at Zoltar
+move y1 from Aristos to Glow (g1)
+move g1 from Zoltar to Bluecheese (b3)
+build y1 at Aristos
+build g1 at Zoltar
+build y1 at Glow
+build g2 at Bluecheese
+build y2 at Glow
+convert g2 to y2 at Bluecheese
+build y3 at Aristos
+build y3 at Bluecheese
+sacrifice y2 at Glow; move y1 from Glow to Bluecheese; move y1 from Glow to Bluecheese; catastrophe yellow at Bluecheese
+build g1 at Bluecheese
+convert y3 to g3 at Aristos
+build g2 at Bluecheese
+move g3 from Aristos to Spark (y1)
+convert g2 to y2 at Bluecheese
+convert y1 to r1 at Aristos
+build g2 at Bluecheese
+build r1 at Aristos
+convert g1 to r1 at Zoltar
+move r1 from Aristos to Spark
+move g2 from Bluecheese to Blueberry (b1)
+build r2 at Spark
+build r2 at Zoltar
+build y1 at Aristos
+build g1 at Zoltar
+move g3 from Spark to Blaze (b3)
+sacrifice g3 at Zoltar; build g2 at Blueberry; build g2 at Blueberry; build g3 at Zoltar
+move r1 from Spark to Blaze
+move r2 from Zoltar to Bluecheese
+sacrifice g3 at Blaze; build r2 at Aristos; build r3 at Blaze; build r3 at Spark
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Bluecheese; build r3 at Bluecheese
+move r3 from Spark to Shine (y2)
+move r3 from Bluecheese to Blueberry
+move r2 from Spark to Shine
+convert g3 to y3 at Bluecheese
+convert r3 to g3 at Blaze
+build r3 at Blueberry
+move y1 from Aristos to Flicker (b1)
+convert r3 to y3 at Blueberry
+build r3 at Blaze
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y1 at Blueberry; build y1 at Blueberry
+move y1 from Flicker to Blaze
+move y3 from Blueberry to Aristos

@@ -1,0 +1,63 @@
+Ts52 (0, y1b3) g3-
+Rosbi (1, b3r2) -g3
+build g1 at Ts52
+build g1 at Rosbi
+move g1 from Ts52 to Bigbird (y2)
+convert g1 to y1 at Rosbi
+build g1 at Ts52
+build g1 at Rosbi
+build g2 at Bigbird
+convert g1 to r1 at Rosbi
+convert g1 to r1 at Ts52
+move r1 from Rosbi to Smallworm (y1)
+build g1 at Ts52
+build y2 at Rosbi
+convert g1 to b1 at Ts52
+move y1 from Rosbi to Smallworm
+move b1 from Ts52 to Bigbird
+build g1 at Rosbi
+convert g2 to r2 at Bigbird
+move y2 from Rosbi to Smallworm
+build b1 at Bigbird
+move y1 from Smallworm to Blackcat (g2)
+build b1 at Bigbird
+sacrifice g3 at Rosbi; build y2 at Blackcat; build y3 at Smallworm; build y3 at Blackcat
+move b1 from Bigbird to Telly (y3)
+move y3 from Smallworm to Rosbi
+build b2 at Bigbird
+build g1 at Rosbi
+build g2 at Ts52
+move g1 from Rosbi to Smallworm
+sacrifice g2 at Ts52; build g2 at Ts52; build b2 at Telly
+build g2 at Rosbi
+build g3 at Bigbird
+build g3 at Smallworm
+move b2 from Bigbird to Elmo (r1)
+convert g2 to b2 at Rosbi
+sacrifice g2 at Ts52; build g2 at Ts52; build b3 at Elmo
+build r2 at Smallworm
+build r3 at Bigbird
+move r1 from Smallworm to Rosbi
+build r3 at Ts52
+build r3 at Rosbi
+move g3 from Bigbird to Telly
+sacrifice y3 at Rosbi; move y1 from Blackcat to Ts52; move y2 from Blackcat to Ts52; move y3 from Blackcat to Ts52; catastrophe yellow at Ts52
+convert b2 to y2 at Elmo
+convert r1 to y1 at Rosbi
+sacrifice y2 at Elmo; move g1 from Bigbird to Smallworm; move g2 from Ts52 to Smallworm; catastrophe green at Smallworm
+build y1 at Rosbi
+move r3 from Bigbird to Smallworm
+move y1 from Rosbi to Smallworm
+build g1 at Telly
+build g1 at Rosbi
+capture r2 at Smallworm
+move y1 from Rosbi to Smallworm; catastrophe yellow at Smallworm
+move g1 from Telly to Elmo
+convert g1 to y1 at Rosbi
+build b2 at Elmo
+build y1 at Rosbi
+convert b2 to y2 at Elmo
+move y1 from Rosbi to Pinewood (g1)
+build g2 at Ts52
+build g2 at Rosbi
+sacrifice g3 at Ts52; build g2 at Elmo; build g3 at Ts52; build g3 at Telly

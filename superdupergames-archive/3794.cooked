@@ -1,0 +1,31 @@
+Zoltar (0, y2b1) g3-
+Jesse (1, r1b3) -g3
+build g1 at Zoltar
+build g1 at Jesse
+move g1 from Zoltar to Banana (y3)
+convert g3 to y3 at Jesse
+build g1 at Zoltar
+build g2 at Jesse
+build g2 at Banana
+move g2 from Jesse to Republic (b2)
+move g2 from Banana to Grape (b2)
+build g2 at Republic
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Banana; build g3 at Grape
+convert g2 to y2 at Republic
+convert g2 to y2 at Grape
+build g2 at Republic
+sacrifice g3 at Zoltar; build g2 at Grape; build y1 at Grape; build g3 at Zoltar
+move g2 from Republic to Johny (y3)
+convert g1 to r1 at Zoltar
+convert g2 to r2 at Republic
+move g3 from Banana to Republic
+sacrifice g2 at Johny; build r1 at Republic; build y1 at Jesse
+build r2 at Zoltar
+sacrifice y2 at Republic; move r2 from Republic to Banana; move r1 from Republic to Platos (g1)
+move y2 from Grape to Platos
+capture g1 at Banana
+sacrifice r1 at Zoltar; capture r1 at Platos
+build g2 at Banana
+sacrifice g3 at Grape; build g2 at Republic; build g3 at Grape; build y1 at Grape
+build r1 at Banana
+sacrifice g3 at Republic; build g3 at Republic; build y2 at Platos; build y3 at Platos

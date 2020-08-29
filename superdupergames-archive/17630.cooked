@@ -1,0 +1,46 @@
+Adambadura (0, b1g3) r3-
+Dlwillson (1, b2y1) -g3
+build r1 at Adambadura
+build g1 at Dlwillson
+convert r1 to g1 at Adambadura
+convert g1 to r1 at Dlwillson
+build g1 at Adambadura
+build g1 at Dlwillson
+convert g1 to y1 at Adambadura
+convert g1 to y1 at Dlwillson
+build y2 at Adambadura
+build y2 at Dlwillson
+move y1 from Adambadura to Shipyard (g2)
+move y1 from Dlwillson to Awk (g3)
+build g1 at Adambadura
+move y2 from Dlwillson to Sed (b3)
+move g1 from Adambadura to Outpost (r2)
+build r1 at Dlwillson
+build y2 at Adambadura
+build y3 at Awk
+build y3 at Shipyard
+move y3 from Awk to Outpost
+sacrifice y1 at Shipyard; move g1 from Outpost to Changer (b3)
+move r1 from Dlwillson to Changer
+sacrifice g1 at Changer; build g1 at Adambadura
+build r1 at Dlwillson
+build r2 at Adambadura
+move r1 from Dlwillson to Awk
+move r2 from Adambadura to Shipyard
+build g1 at Dlwillson
+sacrifice g1 at Adambadura; build r2 at Adambadura
+sacrifice g3 at Dlwillson; build y1 at Outpost; build y3 at Awk; build r3 at Dlwillson
+build r3 at Shipyard
+convert r3 to g3 at Dlwillson
+move y3 from Shipyard to Watchtower (r3)
+move g1 from Dlwillson to Sed
+move y2 from Adambadura to Shipyard
+sacrifice y2 at Sed; move r1 from Changer to Shipyard; move r1 from Awk to Shipyard; catastrophe red at Shipyard
+build y2 at Adambadura
+build g1 at Dlwillson
+build g2 at Adambadura
+sacrifice y3 at Outpost; move g1 from Dlwillson to Grep (y3); move g1 from Sed to Outpost; move g1 from Outpost to Adambadura; catastrophe green at Adambadura
+move r3 from Adambadura to Watchtower
+sacrifice g1 at Grep; build y3 at Outpost
+sacrifice y2 at Adambadura; move y3 from Watchtower to Dlwillson; move r3 from Watchtower to Dlwillson
+capture r3 at Dlwillson

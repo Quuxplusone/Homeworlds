@@ -1,0 +1,28 @@
+Sordros (0, b1y2) g3-
+Ts52 (1, y1b3) -g3
+build g1 at Sordros
+build g1 at Ts52
+move g1 from Sordros to Amarega (y3)
+convert g1 to b1 at Ts52
+build g1 at Sordros
+build b1 at Ts52
+convert g1 to y1 at Sordros
+move b1 from Ts52 to Oscar (g2)
+build g1 at Sordros
+build b2 at Oscar
+build y1 at Sordros
+convert b2 to y2 at Oscar
+convert y1 to r1 at Sordros
+convert b1 to r1 at Ts52
+convert g1 to b1 at Sordros
+build b2 at Oscar
+build b2 at Sordros
+move b2 from Oscar to Amarega
+move b2 from Sordros to Duamarega (g3)
+convert b2 to r2 at Amarega
+move g1 from Amarega to Blua (b2)
+build g1 at Ts52
+sacrifice g3 at Sordros; build b2 at Duamarega; build b3 at Sordros; build b3 at Duamarega
+sacrifice y2 at Oscar; move b1 from Oscar to Amarega; move b1 from Amarega to Sordros; catastrophe blue at Sordros
+sacrifice b2 at Duamarega; convert b3 to r3 at Duamarega; convert b2 to y2 at Duamarega
+move r2 from Amarega to Sordros

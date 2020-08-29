@@ -1,0 +1,35 @@
+Sketchwick (0, b2r1) g3-
+Jeep (1, b1g2) -y3
+build g1 at Sketchwick
+build y1 at Jeep
+convert g1 to y1 at Sketchwick
+convert y1 to g1 at Jeep
+build g1 at Sketchwick
+build y1 at Jeep
+move g1 from Sketchwick to Sun (y3)
+move g1 from Jeep to Beam (y3)
+build g1 at Sun
+build g2 at Beam
+build g2 at Sketchwick
+move g1 from Beam to Sketchwick
+convert g3 to r3 at Sketchwick
+build g3 at Sketchwick
+capture g3 at Sketchwick
+build g3 at Sketchwick; catastrophe green at Sketchwick
+move r3 from Sketchwick to Beam
+move g2 from Beam to Sketchwick
+move r3 from Beam to Sketchwick
+sacrifice g2 at Sketchwick; build y1 at Jeep
+move g1 from Sun to Sketchwick
+convert y1 to r1 at Jeep
+build g1 at Sketchwick
+convert y3 to g3 at Jeep
+build g2 at Sun
+move r1 from Jeep to Sun
+move g1 from Sun to Jeep
+convert g3 to r3 at Jeep
+sacrifice g2 at Sun; build g2 at Jeep; build g2 at Jeep; catastrophe green at Jeep
+convert y1 to g1 at Jeep
+move r3 from Sketchwick to Sun
+move r1 from Sun to Sketchwick
+capture r1 at Sketchwick

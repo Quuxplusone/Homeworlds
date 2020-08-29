@@ -1,0 +1,47 @@
+Jesse (0, b3r1) g3-
+Daselva (1, b1r2) -g3
+build g1 at Jesse
+build g1 at Daselva
+convert g1 to y1 at Jesse
+convert g1 to y1 at Daselva
+build g1 at Jesse
+build g1 at Daselva
+convert g1 to b1 at Jesse
+build g1 at Daselva
+build g1 at Jesse
+convert g1 to r1 at Daselva
+convert g1 to r1 at Jesse
+move r1 from Daselva to S1 (g3)
+move r1 from Jesse to Goober (g2)
+convert g1 to b1 at Daselva
+move b1 from Jesse to Goober
+sacrifice b1 at Daselva; convert r1 to y1 at S1
+build y2 at Jesse
+build y2 at S1
+move y1 from Jesse to Goober
+move y1 from S1 to Daselva
+build r1 at Goober
+build g1 at Daselva
+build r2 at Goober
+move y1 from Daselva to S2 (b3)
+move r2 from Goober to S1
+move y2 from S1 to Goober
+build r2 at Goober
+sacrifice g3 at Daselva; build y2 at S2; build y3 at Goober; build y3 at Daselva
+build y3 at Goober; catastrophe yellow at Goober
+convert y2 to g2 at S2
+convert r2 to y2 at Goober
+build g1 at S2
+build r2 at S1
+convert g1 to b1 at S2
+build r3 at Goober
+move b1 from S2 to S3 (g2)
+move r3 from Goober to S2
+sacrifice g2 at S2; build b2 at S3; build b2 at S3
+build r3 at S1
+move y1 from S2 to S3
+sacrifice y2 at Goober; move r3 from S1 to Daselva; move r3 from S2 to Daselva
+capture r3 at Daselva
+sacrifice r2 at S1; capture r3 at Daselva; capture y3 at Daselva
+move b2 from S3 to Jesse
+sacrifice r3 at Daselva; capture b2 at Jesse; capture y1 at Daselva; capture g1 at Daselva

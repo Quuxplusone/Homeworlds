@@ -1,0 +1,25 @@
+Zackstack (0, g1y2) r3-
+Joe (1, r1y3) -g3
+build r1 at Zackstack
+build g1 at Joe
+build r1 at Zackstack
+build g1 at Joe
+move r1 from Zackstack to Bigblue (b3)
+move g3 from Joe to Mb (b2)
+build r2 at Zackstack
+build g2 at Joe
+move r2 from Zackstack to Bigblue
+move g1 from Joe to Mb
+convert r2 to g2 at Bigblue
+convert g3 to r3 at Mb
+build r2 at Bigblue
+build g2 at Mb
+build g3 at Bigblue
+build r2 at Mb
+convert r2 to y2 at Bigblue
+convert g1 to y1 at Mb
+move g3 from Bigblue to Oldyeller (y2)
+move r2 from Mb to Joe
+move g3 from Oldyeller to Joe
+move r3 from Mb to Bigblue
+sacrifice r3 at Zackstack; capture g1 at Joe; capture g2 at Joe; capture r2 at Joe

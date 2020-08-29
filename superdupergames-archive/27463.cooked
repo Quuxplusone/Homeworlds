@@ -1,0 +1,15 @@
+Goulo (0, g1r2) b3-
+Grosseteste (1, y3b1) -g3
+build b1 at Goulo
+build g1 at Grosseteste
+build b1 at Goulo
+build g1 at Grosseteste
+convert b3 to y3 at Goulo
+move g1 from Grosseteste to Chuck (b2)
+move b1 from Goulo to Smeraldego (g3)
+build g2 at Grosseteste
+build b2 at Smeraldego
+convert g2 to y2 at Grosseteste
+build b2 at Smeraldego
+convert g3 to b3 at Grosseteste
+build b3 at Goulo

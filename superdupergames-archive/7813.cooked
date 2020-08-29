@@ -1,0 +1,27 @@
+Zoltar (0, r3b2) g3-
+Mikeyarrum (1, b1y2) -g3
+build g1 at Zoltar
+build g1 at Mikeyarrum
+convert g1 to y1 at Zoltar
+build g1 at Mikeyarrum
+build g1 at Zoltar
+move g1 from Mikeyarrum to Sakaki (y3)
+move g1 from Zoltar to Yeltar (y1)
+build g2 at Sakaki
+build g2 at Yeltar
+move g2 from Sakaki to Tomo (b1)
+sacrifice g2 at Yeltar; build y1 at Zoltar; build y2 at Zoltar
+convert g2 to y2 at Tomo
+convert y1 to r1 at Zoltar
+build g2 at Sakaki
+move y2 from Zoltar to Tomo
+convert g1 to r1 at Mikeyarrum
+sacrifice r1 at Zoltar; capture y2 at Tomo
+build r1 at Mikeyarrum
+convert y2 to r2 at Tomo
+convert r1 to b1 at Mikeyarrum
+build y1 at Zoltar
+build b2 at Mikeyarrum
+sacrifice g3 at Zoltar; build y2 at Tomo; build y3 at Tomo; build y3 at Zoltar
+move b2 from Mikeyarrum to Sakaki
+move y3 from Tomo to Sakaki

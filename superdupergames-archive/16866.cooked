@@ -1,0 +1,38 @@
+Rootbier (0, b1y2) g3-
+Jesse (1, y1b3) -g3
+build g1 at Rootbier
+build g1 at Jesse
+convert g1 to y1 at Rootbier
+convert g1 to y1 at Jesse
+build y2 at Rootbier
+build y2 at Jesse
+move y1 from Rootbier to Skade (g3)
+move y2 from Jesse to Hippo (g2)
+build y3 at Rootbier
+build y3 at Hippo
+convert y2 to r2 at Rootbier
+convert y1 to r1 at Jesse
+move y3 from Rootbier to Plane (b3)
+move y3 from Hippo to Croc (b3)
+build r1 at Rootbier
+build r1 at Jesse
+move r2 from Rootbier to Skade
+move r1 from Jesse to Hippo
+build r2 at Rootbier
+build r2 at Jesse
+move y3 from Plane to Hippo
+sacrifice y2 at Hippo; move r1 from Hippo to Croc; move r2 from Jesse to Antel (g2)
+build r3 at Skade
+build r3 at Antel
+build r3 at Skade
+build g1 at Jesse
+move r3 from Skade to Hippo
+convert g1 to b1 at Jesse
+sacrifice y3 at Hippo; move r2 from Skade to Antel; move r1 from Rootbier to Skade; move r1 from Skade to Antel; catastrophe red at Antel
+build g1 at Jesse
+build g1 at Rootbier
+move g1 from Jesse to Phan (y2)
+move g1 from Rootbier to Balm (b3)
+move g1 from Phan to Croc
+move r3 from Skade to Reflux (b2)
+build g1 at Jesse

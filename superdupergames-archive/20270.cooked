@@ -1,0 +1,44 @@
+Subhan64 (0, b1g2) y3-
+Goulo (1, r2b3) -g3
+build y1 at Subhan64
+build g1 at Goulo
+convert y1 to g1 at Subhan64
+convert g1 to y1 at Goulo
+build g1 at Subhan64
+build y1 at Goulo
+move g1 from Subhan64 to Aha (g3)
+convert y1 to r1 at Goulo
+build g1 at Subhan64
+build g2 at Goulo
+move g1 from Subhan64 to Hehe (g3)
+build g2 at Goulo
+sacrifice y3 at Subhan64; move g1 from Aha to Touche (r1); move g1 from Hehe to Touche; move g1 from Touche to Goulo; catastrophe green at Goulo
+convert r1 to g1 at Goulo
+build g2 at Touche
+build g2 at Goulo
+build g3 at Subhan64
+build g3 at Goulo
+convert g1 to y1 at Subhan64
+convert g1 to r1 at Goulo
+build g1 at Subhan64
+move g2 from Goulo to Rubeneto (r1)
+convert g1 to b1 at Subhan64
+build r2 at Goulo
+sacrifice b1 at Subhan64; convert g2 to r2 at Touche
+move r2 from Goulo to Touche
+capture r2 at Touche
+move r1 from Goulo to Touche; catastrophe red at Touche
+build g1 at Subhan64
+build g1 at Rubeneto
+move g3 from Subhan64 to Gisforgreen (g3)
+sacrifice g2 at Rubeneto; build y1 at Goulo; build y2 at Goulo
+build y2 at Subhan64
+move y1 from Goulo to Rubeneto
+sacrifice y1 at Subhan64; move g3 from Gisforgreen to Rubeneto
+sacrifice y1 at Rubeneto; move g1 from Rubeneto to Citronego (y3)
+convert g1 to y1 at Subhan64
+build g1 at Goulo
+move y1 from Subhan64 to Citronego
+move g1 from Citronego to Subhan64
+convert y2 to r2 at Subhan64
+build g1 at Subhan64

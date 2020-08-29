@@ -1,0 +1,45 @@
+Otts (0, y3b1) g3-
+Laurie_Menke (1, y1b2) -g3
+build g1 at Otts
+build g1 at Laurie_Menke
+move g1 from Otts to Old_Yeller (y2)
+convert g1 to b1 at Laurie_Menke
+build g1 at Otts
+build g1 at Laurie_Menke
+build g2 at Old_Yeller
+move g1 from Laurie_Menke to Fuel (y3)
+convert g1 to b1 at Otts
+build b2 at Laurie_Menke
+build b2 at Otts
+move b1 from Laurie_Menke to Useemup (y3)
+move b2 from Otts to Old_Yeller
+build b3 at Laurie_Menke
+move g2 from Old_Yeller to Greendica (g3)
+convert b2 to y2 at Laurie_Menke
+move b2 from Old_Yeller to Useemup
+move b1 from Useemup to Closer (y2)
+build g1 at Old_Yeller
+sacrifice g1 at Fuel; build b2 at Closer
+move b1 from Otts to Old_Yeller
+build y1 at Laurie_Menke
+build b3 at Old_Yeller
+sacrifice y2 at Laurie_Menke; move b1 from Closer to Otts; move b2 from Closer to Otts
+convert b3 to y3 at Old_Yeller
+move b3 from Laurie_Menke to Useemup
+move b2 from Useemup to Laurie_Menke
+convert y1 to r1 at Laurie_Menke
+sacrifice g2 at Greendica; build b3 at Laurie_Menke; build b3 at Laurie_Menke; catastrophe blue at Laurie_Menke
+move b3 from Useemup to Almostthere (y2)
+convert g1 to r1 at Old_Yeller
+move b3 from Almostthere to Otts; catastrophe blue at Otts
+build y1 at Old_Yeller
+build r1 at Laurie_Menke
+move y1 from Old_Yeller to Otts
+move r1 from Laurie_Menke to Phonebooth (b2)
+build y1 at Old_Yeller
+move r1 from Laurie_Menke to Otts
+sacrifice r1 at Old_Yeller; capture r1 at Otts
+build g1 at Laurie_Menke
+build y2 at Otts
+build g1 at Laurie_Menke
+move g1 from Old_Yeller to Laurie_Menke; catastrophe green at Laurie_Menke

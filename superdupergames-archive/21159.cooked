@@ -1,0 +1,21 @@
+Ts52 (0, y1b2) g3-
+Subhan64 (1, b3y1) -g3
+build g1 at Ts52
+build g1 at Subhan64
+convert g1 to y1 at Ts52
+convert g3 to y3 at Subhan64
+move y1 from Ts52 to Kermit (g3)
+build y2 at Subhan64
+build y2 at Kermit
+convert y2 to g2 at Subhan64
+build g1 at Ts52
+move g2 from Subhan64 to Bigbird (y2)
+move y1 from Kermit to Walter (g2)
+build g1 at Bigbird
+build y2 at Walter
+convert y3 to r3 at Subhan64
+convert g1 to r1 at Ts52
+move r3 from Subhan64 to Walter
+sacrifice y2 at Kermit; move y1 from Walter to Subhan64; move y2 from Walter to Subhan64
+sacrifice g2 at Bigbird; build g1 at Subhan64; build g2 at Bigbird
+convert y2 to r2 at Subhan64

@@ -1,0 +1,21 @@
+Twoshort (0, r1b3) g3-
+Dreskyn (1, r3b2) -g3
+build g1 at Twoshort
+build g1 at Dreskyn
+convert g1 to y1 at Twoshort
+build g1 at Dreskyn
+build y1 at Twoshort
+convert g1 to y1 at Dreskyn
+build y2 at Twoshort
+build y2 at Dreskyn
+move y1 from Twoshort to Grogar (g2)
+move g1 from Dreskyn to Alpha (b1)
+build g1 at Twoshort
+sacrifice y2 at Dreskyn; move y1 from Dreskyn to Alpha; move y1 from Alpha to Gamma (y3)
+move y1 from Twoshort to Bluestar (b2)
+build g1 at Alpha
+build y2 at Grogar
+build g2 at Dreskyn
+sacrifice g3 at Twoshort; build y2 at Twoshort; build y3 at Twoshort; build y3 at Bluestar
+build g2 at Dreskyn
+sacrifice y3 at Twoshort; move g1 from Twoshort to Bluestar; move g1 from Bluestar to Alpha; move g1 from Alpha to Dreskyn; catastrophe green at Dreskyn

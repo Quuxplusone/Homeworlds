@@ -1,0 +1,36 @@
+Aaron (0, y1b2) g3-
+Twoshort (1, g2b3) -y3
+build g1 at Aaron
+build y1 at Twoshort
+convert g1 to y1 at Aaron
+build y2 at Twoshort
+build y2 at Aaron
+move y1 from Twoshort to Sprout (g1)
+move y1 from Aaron to Bean (g3)
+convert y2 to g2 at Twoshort
+build y2 at Bean
+sacrifice g2 at Twoshort; build y2 at Sprout; build y3 at Twoshort
+sacrifice y2 at Aaron; move y2 from Bean to Sprout; move y1 from Bean to Sprout; catastrophe yellow at Sprout
+move y3 from Twoshort to Bluestar (b1)
+build g1 at Aaron
+convert y3 to g3 at Bluestar
+convert g1 to r1 at Aaron
+build g1 at Bluestar
+build r1 at Aaron
+build y1 at Twoshort
+convert r1 to y1 at Aaron
+build y2 at Twoshort
+build y2 at Aaron
+sacrifice y3 at Twoshort; move y1 from Twoshort to Bluestar; move y1 from Bluestar to Deathstar (r3); move y1 from Deathstar to Aaron; catastrophe yellow at Aaron
+build r1 at Aaron
+build y1 at Twoshort
+convert r1 to y1 at Aaron
+move y1 from Twoshort to Sprout (g1)
+move r1 from Aaron to Sprout
+move y1 from Sprout to Twoshort
+sacrifice y1 at Aaron; move r1 from Sprout to Twoshort
+convert y2 to r2 at Twoshort
+capture y1 at Twoshort
+capture r1 at Twoshort
+move y1 from Twoshort to Limes (g1)
+convert g1 to y1 at Bluestar

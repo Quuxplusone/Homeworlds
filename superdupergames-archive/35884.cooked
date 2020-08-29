@@ -1,0 +1,33 @@
+Trydnt (0, b2y1) g3-
+Laurie_Menke (1, y1b3) -g3
+build g1 at Trydnt
+build g1 at Laurie_Menke
+convert g1 to y1 at Trydnt
+convert g3 to y3 at Laurie_Menke
+build y2 at Trydnt
+build y2 at Laurie_Menke
+move y1 from Trydnt to G3 (g3)
+convert y2 to r2 at Laurie_Menke
+build y2 at G3
+build g1 at Laurie_Menke
+build y2 at Trydnt
+move g1 from Laurie_Menke to Blue (b2)
+build y3 at G3
+convert y3 to g3 at Laurie_Menke
+move y2 from G3 to G1 (g1)
+build g2 at Laurie_Menke
+build g2 at Trydnt
+convert g3 to y3 at Laurie_Menke
+build y3 at G1
+build g2 at Blue
+convert g2 to r2 at Trydnt
+build r1 at Laurie_Menke
+build r1 at Trydnt
+convert r1 to b1 at Laurie_Menke
+convert r1 to b1 at Trydnt
+build b1 at Laurie_Menke
+sacrifice y3 at G1; move b1 from Trydnt to G3; move b1 from G3 to Blue; move b1 from Blue to Laurie_Menke; catastrophe blue at Laurie_Menke
+sacrifice y3 at Laurie_Menke; move g2 from Blue to Hi (y3); move g1 from Blue to Hi; move g1 from Hi to Trydnt
+sacrifice y2 at Trydnt; move y2 from Trydnt to G3; move y1 from G3 to Laurie_Menke
+sacrifice g2 at Laurie_Menke; build g2 at Trydnt; build g2 at Trydnt; catastrophe green at Trydnt
+sacrifice y2 at G1; move y3 from G3 to Laurie_Menke; move y2 from G3 to Laurie_Menke; catastrophe yellow at Laurie_Menke

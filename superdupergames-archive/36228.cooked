@@ -1,0 +1,36 @@
+Amoscai (0, b1y2) g3-
+Wil (1, b3y1) -g3
+build g1 at Amoscai
+build g1 at Wil
+move g1 from Amoscai to Dub (y3)
+convert g1 to y1 at Wil
+build g1 at Dub
+build y1 at Wil
+build g1 at Amoscai
+move y1 from Wil to B2 (b2)
+build g2 at Amoscai
+sacrifice g3 at Wil; build y2 at B2; build y2 at B2; build y3 at Wil
+convert g3 to y3 at Amoscai
+move y2 from B2 to Dub
+move y3 from Amoscai to Dub
+move y1 from B2 to Dub; catastrophe yellow at Dub
+convert g2 to y2 at Amoscai
+move y2 from B2 to G3 (g3)
+build g1 at Amoscai
+build y1 at G3
+build g1 at Amoscai
+move y1 from Wil to G2 (g2)
+move y2 from Amoscai to Great (g3)
+build y3 at G3
+build y3 at Great
+move y3 from G3 to Amoscai
+convert g1 to r1 at Amoscai
+convert y3 to g3 at Wil
+build r1 at Amoscai
+convert g3 to r3 at Wil
+move y3 from Great to Super (r2)
+build y3 at G2
+build r1 at Amoscai
+move y3 from G2 to Wil
+move r1 from Amoscai to G3
+sacrifice r3 at Wil; capture r1 at G3; capture r1 at Amoscai; capture r1 at Amoscai

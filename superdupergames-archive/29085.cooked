@@ -1,0 +1,36 @@
+Ts52 (0, y1b2) g3-
+Felix (1, b1y3) -g3
+build g1 at Ts52
+build g1 at Felix
+move g1 from Ts52 to Gonzo (b3)
+convert g1 to b1 at Felix
+build g1 at Ts52
+build b1 at Felix
+convert g1 to y1 at Ts52
+convert b1 to y1 at Felix
+build y2 at Ts52
+build y2 at Felix
+move y2 from Ts52 to Gonzo
+move y2 from Felix to Ichor (g2)
+build g1 at Ts52
+build g1 at Felix
+build g2 at Gonzo
+move g1 from Felix to Ichor
+convert g2 to r2 at Gonzo
+convert y1 to r1 at Felix
+build g2 at Gonzo
+build g2 at Felix
+move g2 from Gonzo to Bigbird (y2)
+sacrifice g2 at Felix; build g2 at Ichor; build g3 at Felix
+move g1 from Gonzo to Ichor; catastrophe green at Ichor
+move g3 from Felix to Bigbird
+build g1 at Bigbird
+move g3 from Bigbird to Gonzo
+move r2 from Gonzo to Bigbird
+sacrifice r1 at Felix; capture y2 at Gonzo
+move g2 from Bigbird to Grover (b3)
+build g1 at Gonzo
+sacrifice g3 at Ts52; build g2 at Bigbird; build g2 at Grover; build g3 at Ts52
+sacrifice g3 at Gonzo; build g3 at Gonzo; build y1 at Gonzo; build b1 at Felix
+move y1 from Ts52 to Grover
+sacrifice y2 at Gonzo; move g3 from Gonzo to Ts52; move g1 from Gonzo to Ts52; catastrophe green at Ts52

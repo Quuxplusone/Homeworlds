@@ -1,0 +1,39 @@
+Schmoopy (0, r3b2) g3-
+Smokeytroll42 (1, g1b2) -y3
+build g1 at Schmoopy
+build y1 at Smokeytroll42
+build g1 at Schmoopy
+build y1 at Smokeytroll42
+convert g3 to y3 at Schmoopy
+convert y3 to g3 at Smokeytroll42
+move g1 from Schmoopy to Patrick (b1)
+build g2 at Smokeytroll42
+sacrifice y3 at Schmoopy; move g1 from Patrick to Fingerscrossed (r3); move g1 from Fingerscrossed to Smokeytroll42; catastrophe green at Smokeytroll42
+convert y1 to g1 at Smokeytroll42
+build g1 at Schmoopy
+build g2 at Smokeytroll42
+convert g1 to y1 at Schmoopy
+move g2 from Smokeytroll42 to Dune (b1)
+build y1 at Schmoopy
+build y2 at Smokeytroll42
+move y1 from Schmoopy to Zaphod (r1)
+convert g2 to r2 at Dune
+build y2 at Schmoopy
+build g1 at Smokeytroll42
+convert y1 to b1 at Schmoopy
+move g1 from Smokeytroll42 to Dune
+build g2 at Schmoopy
+build g2 at Smokeytroll42
+build b1 at Schmoopy
+convert r2 to b2 at Dune
+move b1 from Schmoopy to Zaphod
+sacrifice y1 at Smokeytroll42; move b2 from Dune to Coral (g3)
+move g1 from Schmoopy to Zaphod
+build b3 at Coral
+build b3 at Zaphod
+build y1 at Smokeytroll42
+convert b1 to r1 at Schmoopy
+convert b3 to r3 at Coral
+move b3 from Zaphod to Smokeytroll42
+sacrifice y2 at Smokeytroll42; move r3 from Coral to Dune; move r3 from Dune to Schmoopy
+sacrifice g2 at Schmoopy; build b1 at Smokeytroll42; build b3 at Smokeytroll42; catastrophe blue at Smokeytroll42

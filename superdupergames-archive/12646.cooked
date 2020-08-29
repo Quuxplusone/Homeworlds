@@ -1,0 +1,50 @@
+Madwuher (0, r1b2) g3-
+Keith (1, b1y2) -g3
+build g1 at Madwuher
+build g1 at Keith
+convert g1 to y1 at Madwuher
+convert g1 to y1 at Keith
+build g1 at Madwuher
+build g1 at Keith
+convert g1 to b1 at Madwuher
+convert g1 to r1 at Keith
+build b1 at Madwuher
+move y1 from Keith to Midori (g3)
+move b1 from Madwuher to Edora (y3)
+move r1 from Keith to Edora
+move b1 from Edora to Bologna (r2)
+build y1 at Midori
+build b2 at Madwuher
+move y1 from Midori to Chisai (g1)
+convert b2 to r2 at Madwuher
+build y2 at Midori
+build b2 at Madwuher
+move y2 from Midori to Bologna
+sacrifice b1 at Bologna; convert b2 to y2 at Madwuher
+build y3 at Midori
+move r2 from Madwuher to Edora
+move r1 from Edora to Keith
+build b1 at Madwuher
+build y3 at Chisai
+move b1 from Madwuher to Camelot (b3)
+build r1 at Keith
+build g1 at Madwuher
+move r1 from Keith to Midori
+sacrifice g1 at Madwuher; build r2 at Edora
+build r3 at Midori
+build b2 at Madwuher
+build r3 at Keith
+move r2 from Edora to Pi (g1)
+move r3 from Keith to Edora
+build r3 at Pi
+move r3 from Midori to Pi
+sacrifice r2 at Edora; capture r3 at Pi
+move r1 from Midori to Pi; catastrophe red at Pi
+convert b1 to r1 at Camelot
+move y3 from Chisai to Camelot
+move b2 from Madwuher to Blarney (b3)
+convert y3 to r3 at Camelot
+sacrifice y1 at Madwuher; move r1 from Camelot to Chisai
+sacrifice y2 at Bologna; move y3 from Midori to Madwuher; move r3 from Camelot to Madwuher
+sacrifice g3 at Madwuher; build b1 at Blarney; build b2 at Blarney; build b3 at Madwuher
+sacrifice r3 at Madwuher; capture y2 at Madwuher; capture b3 at Madwuher; capture b1 at Madwuher

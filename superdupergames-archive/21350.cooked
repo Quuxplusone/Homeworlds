@@ -1,0 +1,47 @@
+Subhan64 (0, g1b2) y3-
+Quozl (1, g2b3) -y3
+build y1 at Subhan64
+build y1 at Quozl
+move y1 from Subhan64 to Kermit (g3)
+move y1 from Quozl to Fozzie (r1)
+convert y3 to g3 at Subhan64
+move y1 from Fozzie to Kermit
+build g1 at Subhan64
+convert y3 to g3 at Quozl
+convert g1 to r1 at Subhan64
+build g1 at Quozl
+sacrifice r1 at Subhan64; capture y1 at Kermit
+convert g3 to r3 at Quozl
+build g1 at Subhan64
+convert r3 to y3 at Quozl
+move y1 from Kermit to Subhan64
+build g2 at Quozl
+move g1 from Subhan64 to Kermit
+convert g2 to r2 at Quozl
+build g2 at Kermit
+build r1 at Quozl
+convert g3 to y3 at Subhan64
+convert g1 to r1 at Quozl
+move g1 from Kermit to Bigbird (y1)
+move r2 from Quozl to Bigbird
+move g1 from Bigbird to Kermit
+build y2 at Quozl
+build y2 at Kermit
+convert y2 to r2 at Quozl
+move g2 from Kermit to Subhan64
+move r2 from Quozl to Bigbird
+convert y1 to r1 at Subhan64
+move r2 from Bigbird to Kermit
+sacrifice r1 at Subhan64; capture r2 at Kermit
+build y1 at Quozl
+move g1 from Kermit to Elmo (r1)
+convert y3 to r3 at Quozl
+sacrifice y2 at Kermit; move r2 from Kermit to Bigbird; move r2 from Bigbird to Quozl; catastrophe red at Quozl
+move r2 from Bigbird to Kermit
+sacrifice y1 at Kermit; move g1 from Elmo to Quozl
+convert y1 to r1 at Quozl
+sacrifice g2 at Subhan64; build g1 at Quozl; build g2 at Quozl; catastrophe green at Quozl
+build r1 at Kermit
+convert y3 to r3 at Subhan64
+convert r1 to y1 at Quozl
+build r1 at Subhan64

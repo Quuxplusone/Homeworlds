@@ -1,0 +1,11 @@
+Keith (0, b1y3) g3-
+Mikeyarrum (1, r3b2) -g3
+build g1 at Keith
+build g1 at Mikeyarrum
+convert g1 to b1 at Keith
+convert g1 to y1 at Mikeyarrum
+build g1 at Keith
+build y1 at Mikeyarrum
+convert g1 to y1 at Keith
+move y1 from Mikeyarrum to Yotsuba (g1)
+build y2 at Keith

@@ -1,0 +1,50 @@
+Simon (0, b2r1) g3-
+Kanzenryu (1, y1b3) -g3
+build g1 at Simon
+build g1 at Kanzenryu
+convert g1 to y1 at Simon
+convert g1 to y1 at Kanzenryu
+build y2 at Simon
+build g1 at Kanzenryu
+move y1 from Simon to B3 (b3)
+move g1 from Kanzenryu to Foo (b2)
+build y2 at Simon
+build g1 at Foo
+move y2 from Simon to G3 (g3)
+move y1 from Kanzenryu to Foo
+sacrifice g3 at Simon; build y2 at B3; build y3 at Simon; build y3 at B3
+move y1 from Foo to B3; catastrophe yellow at B3
+convert y3 to g3 at Simon
+convert g1 to y1 at Foo
+build g1 at Simon
+move y1 from Foo to G3
+convert g1 to r1 at Simon
+build g1 at Kanzenryu
+move r1 from Simon to G3
+move y1 from G3 to Ouch (g1)
+build g2 at Simon
+build g2 at Foo
+sacrifice g3 at Simon; build g2 at Simon; build g3 at Simon; build y1 at G3
+convert g2 to r2 at Foo
+move y2 from G3 to R2 (r2)
+sacrifice g3 at Kanzenryu; build y2 at Ouch; build g2 at Foo; build g3 at Kanzenryu
+sacrifice g3 at Simon; build y3 at Simon; build y3 at G3; build y3 at R2
+convert g1 to r1 at Kanzenryu
+move y3 from G3 to Foo
+sacrifice y2 at Ouch; move r2 from Foo to G3; move g2 from Foo to G3
+sacrifice r1 at G3; capture g1 at Foo
+capture y1 at G3
+sacrifice g2 at Simon; build g1 at Simon; build g2 at Foo
+build y2 at G3
+sacrifice y2 at R2; move g1 from Simon to G3; move g1 from Foo to G3; catastrophe green at G3
+build g1 at Kanzenryu
+build g1 at Foo
+move g1 from Kanzenryu to Somewhere (b2)
+build g2 at Simon
+build g3 at Somewhere
+build g3 at Foo
+convert g3 to r3 at Kanzenryu
+convert g2 to r2 at Foo
+convert g1 to y1 at Somewhere
+sacrifice g2 at Simon; build r1 at Foo; build y2 at Foo
+build y2 at Somewhere

@@ -1,0 +1,43 @@
+Babamots (0, r3g2) b3-
+Roguejedi234 (1, r1b2) -g3
+build b1 at Babamots
+build g1 at Roguejedi234
+convert b1 to y1 at Babamots
+build g1 at Roguejedi234
+build b1 at Babamots
+convert g1 to y1 at Roguejedi234
+convert b1 to g1 at Babamots
+move g1 from Roguejedi234 to Cherry (b3)
+move g1 from Babamots to Bolarus (b1)
+convert g1 to r1 at Cherry
+build b1 at Babamots
+sacrifice y1 at Roguejedi234; move r1 from Cherry to Bolarus
+sacrifice y1 at Babamots; move g1 from Bolarus to Ferenginar (b2)
+build g1 at Roguejedi234
+build b1 at Babamots
+convert g1 to y1 at Roguejedi234
+convert g1 to r1 at Ferenginar
+build g1 at Roguejedi234
+convert b3 to y3 at Babamots
+sacrifice g1 at Roguejedi234; build r2 at Bolarus
+build b2 at Babamots
+convert r2 to g2 at Bolarus
+move b2 from Babamots to Risa (g1)
+build g1 at Bolarus
+build b3 at Babamots
+build r2 at Bolarus
+build b3 at Risa
+build g1 at Roguejedi234
+convert b3 to g3 at Risa
+convert r2 to y2 at Bolarus
+move b3 from Babamots to Bolarus
+sacrifice y2 at Bolarus; move g2 from Bolarus to Babamots; move g1 from Bolarus to Babamots
+convert b3 to r3 at Bolarus
+build g2 at Babamots; catastrophe green at Babamots
+capture r1 at Bolarus
+move g1 from Roguejedi234 to Wintermute (b3)
+sacrifice g3 at Risa; build b3 at Babamots; build b3 at Risa; build y1 at Babamots
+build g1 at Wintermute
+sacrifice y3 at Babamots; move b3 from Babamots to Roguejedi234; move b3 from Risa to Babamots; move b3 from Babamots to Roguejedi234
+capture b3 at Roguejedi234
+sacrifice r3 at Bolarus; capture b3 at Roguejedi234; capture g3 at Roguejedi234; capture y1 at Roguejedi234

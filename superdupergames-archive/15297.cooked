@@ -1,0 +1,56 @@
+Makertron (0, r3b1) g3-
+Mattworden (1, g3r1) -y3
+build g1 at Makertron
+build y1 at Mattworden
+convert g1 to y1 at Makertron
+move y1 from Mattworden to Butterball (b2)
+build g1 at Makertron
+convert y1 to g1 at Butterball
+move g1 from Makertron to Ballbutter (b2)
+build y1 at Mattworden
+build y1 at Makertron
+move y1 from Mattworden to Butterball
+move y1 from Makertron to Ballbutter
+convert y1 to r1 at Butterball
+build y1 at Ballbutter
+build y2 at Mattworden
+convert y1 to r1 at Ballbutter
+move y2 from Mattworden to Butterball
+build g1 at Makertron
+convert y2 to r2 at Butterball
+build r2 at Ballbutter
+build g2 at Butterball
+sacrifice g3 at Makertron; build g2 at Ballbutter; build g2 at Ballbutter; build g3 at Makertron
+build g3 at Butterball
+move g1 from Makertron to Butterball
+capture g1 at Butterball
+build r2 at Ballbutter; catastrophe green at Butterball
+convert r1 to g1 at Butterball
+build g1 at Makertron
+build y1 at Mattworden
+move g2 from Ballbutter to Makertron
+move y1 from Mattworden to Butterball
+move r2 from Ballbutter to Makertron
+build g2 at Butterball
+convert g2 to y2 at Makertron
+sacrifice g2 at Butterball; build r1 at Butterball; build r3 at Butterball
+build r3 at Makertron
+move r1 from Butterball to Makertron; catastrophe red at Makertron
+move r1 from Ballbutter to Makertron
+build y2 at Butterball
+build y2 at Ballbutter
+move r2 from Butterball to Mattworden
+convert y1 to r1 at Makertron
+build g2 at Butterball
+convert g1 to b1 at Makertron
+build r2 at Butterball
+build r3 at Ballbutter
+convert g1 to b1 at Butterball
+convert r1 to g1 at Makertron
+move b1 from Butterball to Mattworden
+move g1 from Makertron to Sol (r3)
+convert g2 to b2 at Butterball
+sacrifice y2 at Ballbutter; move r3 from Ballbutter to Mattworden; move r2 from Ballbutter to Mattworden; catastrophe red at Mattworden
+build b3 at Mattworden
+build b3 at Makertron
+move b2 from Butterball to Makertron; catastrophe blue at Makertron

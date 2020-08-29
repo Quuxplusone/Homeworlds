@@ -1,0 +1,31 @@
+Manny (0, y1b2) g3-
+Personman (1, y2b3) -g3
+build g1 at Manny
+build g1 at Personman
+convert g1 to y1 at Manny
+convert g1 to b1 at Personman
+build g1 at Manny
+build g1 at Personman
+move g1 from Manny to Flux (b3)
+move g1 from Personman to Fluxx (b1)
+build y1 at Manny
+build b1 at Personman
+move y1 from Manny to Flux
+move b1 from Personman to Fluxx
+sacrifice g3 at Manny; build y2 at Flux; build y2 at Flux; build y3 at Manny
+build b2 at Fluxx
+convert y3 to g3 at Manny
+build b2 at Personman
+move y1 from Flux to Growth (g1)
+convert b1 to r1 at Personman
+sacrifice g3 at Manny; build y3 at Manny; build y3 at Growth; build y3 at Growth
+move b2 from Personman to Growth
+move y1 from Growth to Whirlpool (b3)
+build b1 at Growth
+convert y3 to r3 at Manny
+convert g3 to y3 at Personman
+sacrifice y2 at Flux; move y3 from Growth to Personman; move y3 from Growth to Personman; catastrophe yellow at Personman
+build g2 at Fluxx
+move r3 from Manny to Personman
+sacrifice g2 at Fluxx; build r1 at Personman; build g2 at Fluxx
+sacrifice g1 at Flux; build r1 at Personman; catastrophe red at Personman

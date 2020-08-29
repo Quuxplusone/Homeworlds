@@ -1,0 +1,34 @@
+Detectiveazul (0, g3b1) y3-
+Gungho (1, y2g1) -b3
+build y1 at Detectiveazul
+build b1 at Gungho
+build y1 at Detectiveazul
+build b1 at Gungho
+move y1 from Detectiveazul to Coladelparo (g2)
+convert b1 to y1 at Gungho
+build y2 at Coladelparo
+move y1 from Gungho to Ggg (g3)
+convert y1 to r1 at Detectiveazul
+convert b1 to r1 at Gungho
+build y1 at Detectiveazul
+build b1 at Gungho
+move y2 from Coladelparo to Ggg
+move y1 from Ggg to Bl (b1)
+build y2 at Ggg
+build b2 at Gungho
+build y3 at Coladelparo
+move b2 from Gungho to Ggg2 (g3)
+build y3 at Detectiveazul
+build b2 at Ggg2
+move y1 from Coladelparo to Morenasabrosona (r3)
+build b2 at Gungho
+sacrifice y3 at Coladelparo; move y1 from Morenasabrosona to Gungho; move y2 from Ggg to Gungho; move y2 from Ggg to Gungho; catastrophe yellow at Gungho
+build b3 at Ggg2
+convert y3 to b3 at Detectiveazul
+convert b2 to y2 at Gungho
+move b3 from Detectiveazul to Nopasaras (y2)
+sacrifice b2 at Ggg2; convert b3 to g3 at Gungho; convert b3 to y3 at Ggg2
+convert y1 to g1 at Detectiveazul
+build b2 at Ggg2
+move g1 from Detectiveazul to Allevoy (r2)
+move b2 from Ggg2 to Gwar (g2)

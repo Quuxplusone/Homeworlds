@@ -1,0 +1,82 @@
+Foksieloy (0, r3b1) g3-
+Draw5Playall (1, r1b2) -g3
+build g1 at Foksieloy
+build g1 at Draw5Playall
+convert g1 to b1 at Foksieloy
+convert g1 to y1 at Draw5Playall
+build b1 at Foksieloy
+build g1 at Draw5Playall
+convert b1 to y1 at Foksieloy
+move g1 from Draw5Playall to Action (b3)
+move b1 from Foksieloy to Tibbers (g2)
+build g1 at Action
+build b1 at Tibbers
+convert g1 to r1 at Action
+build b2 at Tibbers
+build g1 at Draw5Playall
+convert b2 to r2 at Tibbers
+build y1 at Draw5Playall
+build y2 at Foksieloy
+build y2 at Draw5Playall
+build b2 at Tibbers
+move y2 from Draw5Playall to Action
+convert b2 to g2 at Tibbers
+build g1 at Action
+move y2 from Foksieloy to Tibbers
+sacrifice y2 at Action; move g1 from Action to Tibbers; move g1 from Action to Tibbers; catastrophe green at Tibbers
+build y2 at Foksieloy
+build y2 at Draw5Playall
+move y2 from Foksieloy to Annie (g2)
+move y2 from Draw5Playall to Action
+build g1 at Foksieloy
+move g1 from Draw5Playall to Action
+convert g1 to b1 at Foksieloy
+build g1 at Draw5Playall
+move b1 from Foksieloy to Annie
+build g1 at Action
+build g2 at Foksieloy
+sacrifice g3 at Draw5Playall; build g2 at Draw5Playall; build g3 at Draw5Playall; build r1 at Action
+sacrifice g3 at Foksieloy; build g3 at Foksieloy; build y2 at Annie; build y3 at Foksieloy
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y3 at Action; build r2 at Action
+sacrifice y3 at Foksieloy; move g2 from Foksieloy to Annie; move g2 from Annie to Tibbers (y3); move g2 from Tibbers to Draw5Playall; catastrophe green at Draw5Playall
+move r2 from Action to Draw5Playall
+convert y2 to b2 at Annie
+convert y3 to g3 at Action
+build y2 at Foksieloy
+build y3 at Action
+move b2 from Annie to Tibbers (y3)
+move g3 from Action to Draw5Playall
+move b1 from Annie to Gnar (g3)
+build r2 at Action
+build b1 at Gnar
+move r2 from Draw5Playall to Gnar
+sacrifice y2 at Foksieloy; move b1 from Gnar to Draw5Playall; move b1 from Gnar to Draw5Playall
+build r2 at Gnar
+move b2 from Tibbers to Draw5Playall; catastrophe blue at Draw5Playall
+build r3 at Gnar
+build y2 at Annie
+move g1 from Action to Icetraders (b2)
+build y3 at Foksieloy
+move y1 from Draw5Playall to Qonos (r3)
+move y2 from Annie to Teemo (b3)
+build y3 at Draw5Playall
+convert y1 to b1 at Foksieloy
+convert y2 to b2 at Action
+move b1 from Foksieloy to Annie
+move b2 from Action to Hyperspace (y1)
+build y2 at Annie
+move y1 from Draw5Playall to Icetraders
+build b1 at Annie
+move r2 from Action to Annie
+sacrifice y2 at Annie; move b1 from Annie to Action; move b1 from Annie to Action
+move y3 from Action to Icetraders
+sacrifice y2 at Annie; move y2 from Teemo to Valor (g2); move b1 from Action to Valor
+move b2 from Hyperspace to Gnar
+build b2 at Valor
+sacrifice y1 at Icetraders; move b2 from Gnar to Annie
+move b2 from Valor to Qonos
+build b3 at Annie
+build g1 at Foksieloy
+sacrifice y3 at Icetraders; move b3 from Annie to Foksieloy; move r3 from Gnar to Annie; move r3 from Annie to Foksieloy
+capture r3 at Foksieloy
+sacrifice r2 at Annie; capture r3 at Foksieloy; capture g3 at Foksieloy

@@ -1,0 +1,22 @@
+Mikeyarrum (0, r3b2) g3-
+Wyons (1, g1b2) -y3
+build g1 at Mikeyarrum
+build y1 at Wyons
+convert g1 to y1 at Mikeyarrum
+move y1 from Wyons to Spinach (g3)
+build g1 at Mikeyarrum
+build y1 at Wyons
+build y2 at Mikeyarrum
+build y2 at Spinach
+convert y1 to r1 at Mikeyarrum
+convert y1 to r1 at Wyons
+move g1 from Mikeyarrum to Ena (b1)
+build y1 at Wyons
+build g1 at Mikeyarrum
+convert y1 to b1 at Wyons
+build g2 at Ena
+move b1 from Wyons to Spinach
+convert g2 to r2 at Ena
+convert y2 to g2 at Spinach
+build g2 at Ena
+build y1 at Wyons

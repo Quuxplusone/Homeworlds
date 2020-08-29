@@ -1,0 +1,61 @@
+Wil (0, r2b1) g3-
+Pgadey (1, b3g2) -y3
+build g1 at Wil
+build y1 at Pgadey
+build g1 at Wil
+convert y1 to g1 at Pgadey
+convert g1 to y1 at Wil
+move g1 from Pgadey to Avocado (y1)
+convert g1 to b1 at Wil
+build y1 at Pgadey
+build b1 at Wil
+convert y1 to r1 at Pgadey
+build g1 at Wil
+build r1 at Pgadey
+convert b1 to r1 at Wil
+convert r1 to g1 at Pgadey
+build g2 at Wil
+move g1 from Avocado to Pomegranate (b3)
+move g2 from Wil to Fortcourage (y3)
+build y1 at Pgadey
+sacrifice g3 at Wil; build g2 at Fortcourage; build g3 at Fortcourage; build g3 at Wil
+move g1 from Pgadey to Banana (y1)
+move g2 from Fortcourage to Bedrock (b1)
+sacrifice y3 at Pgadey; move g1 from Banana to Pomegranate; move g1 from Pomegranate to Wil; move g1 from Pomegranate to Wil; catastrophe green at Wil
+sacrifice y1 at Wil; move g2 from Bedrock to Pgadey
+build y1 at Pgadey
+convert g2 to r2 at Pgadey
+convert y1 to b1 at Pgadey
+capture b1 at Pgadey
+build r1 at Pgadey
+capture y1 at Pgadey
+capture b1 at Pgadey
+build r2 at Pgadey; catastrophe red at Pgadey
+build b2 at Pgadey
+build g1 at Fortcourage
+convert b2 to r2 at Pgadey
+move g3 from Fortcourage to Wil
+capture y1 at Pgadey
+build g1 at Wil
+build y1 at Pgadey
+build b2 at Wil
+convert y1 to g1 at Pgadey
+convert b2 to y2 at Wil
+move b1 from Pgadey to Asparagus (y1)
+move b1 from Wil to G3 (g3)
+build g2 at Pgadey
+sacrifice g3 at Wil; build g3 at Wil; build g3 at Wil; build y1 at Wil
+move g2 from Pgadey to Asparagus
+move g3 from Wil to Y3 (y3)
+build y2 at Pgadey
+move y2 from Wil to G3
+sacrifice y2 at Pgadey; move g2 from Asparagus to Fortcourage; move b1 from Asparagus to Fortcourage
+sacrifice r1 at Wil; capture g2 at Fortcourage
+move g1 from Pgadey to Artichoke (y1)
+sacrifice g3 at Wil; build g3 at Wil; build b2 at G3; build b2 at G3
+move g1 from Artichoke to Fortcourage; catastrophe green at Fortcourage
+convert b2 to r2 at G3
+move b1 from Fortcourage to Papaya (y1)
+sacrifice y2 at G3; move g3 from Y3 to Papaya; move g3 from Papaya to Pgadey
+move b1 from Papaya to Pgadey
+sacrifice r2 at G3; capture r2 at Pgadey; capture y1 at Pgadey

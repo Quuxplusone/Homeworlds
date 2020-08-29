@@ -1,0 +1,118 @@
+Discord35 (0, g2b1) y3-
+Ts52 (1, y3b2) -g3
+build y1 at Discord35
+build g1 at Ts52
+convert y1 to g1 at Discord35
+convert g1 to y1 at Ts52
+move g1 from Discord35 to Y31 (y3)
+build g1 at Ts52
+build y1 at Discord35
+move g1 from Ts52 to Berry (b1)
+convert y1 to r1 at Discord35
+convert y1 to r1 at Ts52
+build y1 at Discord35
+build g1 at Berry
+build g2 at Y31
+convert g1 to y1 at Berry
+move g2 from Y31 to Y21 (y2)
+build g1 at Ts52
+move g2 from Y21 to Berry
+sacrifice g3 at Ts52; build g2 at Berry; build g3 at Berry; build g3 at Ts52
+build g3 at Y31; catastrophe green at Berry
+move g1 from Ts52 to Berry
+move g3 from Y31 to Berry
+build g1 at Berry
+convert g3 to r3 at Berry
+build g2 at Ts52
+capture y1 at Berry
+move g2 from Ts52 to Grape (b1)
+capture g1 at Berry
+sacrifice g2 at Grape; build g2 at Berry; build g2 at Berry; catastrophe green at Berry
+build g1 at Y31
+build g1 at Ts52
+move g1 from Y31 to Berry
+convert g1 to y1 at Ts52
+build y2 at Berry
+move y1 from Ts52 to Grape (b1)
+move y2 from Berry to Ts52
+capture y2 at Ts52
+build y2 at Berry
+move y2 from Ts52 to Grape
+move y1 from Berry to Y21 (y2)
+convert y2 to r2 at Grape
+build y2 at Berry
+build g1 at Ts52
+move y1 from Discord35 to Y31
+move g1 from Ts52 to Grape
+move y1 from Y31 to R11 (r1)
+build r2 at Ts52
+sacrifice g1 at Y31; build y3 at Discord35
+move r2 from Ts52 to R11
+sacrifice y3 at Discord35; move y1 from R11 to Ts52; move y2 from Berry to Ts52; move y2 from Berry to Ts52; catastrophe yellow at Ts52
+build r2 at Grape
+build r3 at Discord35
+build r3 at Ts52
+move y1 from Y21 to Berry
+build g1 at Ts52
+move y3 from Discord35 to G31 (g3)
+move r2 from Grape to Sol (y3)
+move y3 from G31 to Grape
+move r2 from Sol to Discord35
+capture r2 at Discord35
+move r2 from Grape to Sol (y3)
+sacrifice r2 at Discord35; capture y1 at Grape; capture g1 at Grape
+convert r3 to y3 at Ts52
+convert r1 to y1 at Discord35
+move g3 from Ts52 to Sol
+build y2 at Berry
+build r1 at Ts52
+sacrifice y3 at Grape; move y1 from Grape to Ts52; move y1 from Berry to Ts52; move y2 from Berry to Ts52; catastrophe yellow at Ts52
+move g3 from Sol to Ts52
+build g2 at Berry
+convert r1 to y1 at Ts52
+convert g2 to y2 at Berry
+move g1 from Ts52 to R11
+build g2 at Grape
+build y1 at Ts52
+move r3 from Berry to Sol
+move r2 from Sol to Grape
+move r3 from Sol to Grape
+capture g2 at Grape
+capture r2 at Grape
+sacrifice g2 at Grape; build g2 at R11
+convert r2 to y2 at Grape
+move y1 from Ts52 to R11
+move r3 from Grape to Y31 (y3)
+move r2 from R11 to Sol (y3)
+build r1 at Discord35
+build r2 at Ts52
+convert r3 to g3 at Discord35
+sacrifice g2 at R11; build y2 at Ts52; build y3 at R11
+sacrifice g1 at Grape; build r2 at Y31
+convert r2 to b2 at Ts52
+move r2 from Y31 to Grape
+move b2 from Ts52 to R11
+sacrifice g3 at Discord35; build r2 at Y31; build r3 at Grape; build r3 at Discord35
+build g1 at Ts52
+move r3 from Grape to Sol
+move r2 from Sol to Blueish (b2)
+move r3 from Y31 to Blueish
+build b3 at R11
+capture r2 at Blueish
+move b3 from R11 to Y31
+move r2 from Y31 to Discord35
+build g2 at R11
+build g2 at Berry
+move g1 from Ts52 to Y31
+move g1 from Berry to Sol
+build g3 at Y31
+sacrifice y2 at Grape; move r3 from Sol to R11; move r3 from Blueish to R11
+capture r3 at R11
+sacrifice r2 at Grape; capture r3 at R11; capture y3 at R11
+convert b2 to r2 at R11; catastrophe red at R11
+build g1 at Berry
+sacrifice y2 at Ts52; move r1 from Ts52 to Sol; move r1 from Sol to Discord35; catastrophe red at Discord35
+move y2 from Berry to Y31
+move b3 from Y31 to Discord35
+sacrifice g2 at Berry; build y1 at Y31; build y2 at Y31; catastrophe yellow at Y31
+convert b3 to r3 at Discord35

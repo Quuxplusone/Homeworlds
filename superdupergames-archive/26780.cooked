@@ -1,0 +1,46 @@
+Dlwillson (0, y3b1) g3-
+Teeteetee (1, y1b2) -g3
+build g1 at Dlwillson
+build g1 at Teeteetee
+convert g1 to b1 at Dlwillson
+convert g1 to b1 at Teeteetee
+build b2 at Dlwillson
+build b2 at Teeteetee
+move b2 from Dlwillson to Field (g2)
+convert b2 to y2 at Teeteetee
+build b2 at Field
+build b3 at Teeteetee
+build b3 at Dlwillson
+move b1 from Teeteetee to Pear (g3)
+convert b1 to r1 at Dlwillson
+sacrifice g3 at Teeteetee; build y1 at Teeteetee; build b1 at Teeteetee; build b3 at Pear
+convert b2 to y2 at Field
+convert b1 to r1 at Teeteetee
+move b2 from Field to Pear
+sacrifice b1 at Pear; convert b3 to r3 at Pear
+sacrifice y2 at Field; move b2 from Pear to Sunny (y2); move b3 from Dlwillson to Field (g2)
+move y2 from Teeteetee to Pear
+build b1 at Field
+build y1 at Pear
+convert b3 to y3 at Field
+build y2 at Pear
+move b2 from Sunny to Golden (y3)
+convert b3 to g3 at Teeteetee
+build y2 at Field
+sacrifice y2 at Pear; move y2 from Pear to Field; move y1 from Pear to Field; catastrophe yellow at Field
+build g1 at Dlwillson
+build y1 at Teeteetee
+convert g1 to b1 at Dlwillson
+sacrifice y1 at Teeteetee; move r3 from Pear to Field
+convert b1 to g1 at Field
+capture g1 at Field
+build g1 at Dlwillson
+build y1 at Teeteetee
+convert b2 to g2 at Golden
+build g1 at Teeteetee
+move g1 from Dlwillson to Field
+sacrifice y1 at Teeteetee; move r3 from Field to Golden
+move g2 from Golden to Sunny (y2)
+sacrifice g3 at Teeteetee; build g2 at Field; build g3 at Teeteetee; build g3 at Teeteetee; catastrophe green at Field
+build g1 at Dlwillson
+build y1 at Teeteetee

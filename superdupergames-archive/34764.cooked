@@ -1,0 +1,49 @@
+Felix (0, r1b2) g3-
+Wil (1, b3y2) -g3
+build g1 at Felix
+build g1 at Wil
+convert g1 to y1 at Felix
+convert g1 to r1 at Wil
+build y1 at Felix
+build r1 at Wil
+build y1 at Felix
+build r2 at Wil
+move y1 from Felix to Bluey (b3)
+move r1 from Wil to B1 (b1)
+sacrifice g3 at Felix; build y2 at Bluey; build y2 at Bluey; build y3 at Felix
+sacrifice g3 at Wil; build r2 at B1; build r2 at B1; build r3 at Wil
+move y1 from Bluey to Greeny (g2)
+convert r3 to y3 at Wil
+build y3 at Greeny
+convert r2 to g2 at B1
+convert y2 to r2 at Bluey
+convert r2 to y2 at B1
+sacrifice y1 at Felix; move y3 from Greeny to B1
+sacrifice g2 at B1; build r2 at B1; build r3 at Wil
+sacrifice r2 at Bluey; capture r2 at B1; capture y2 at B1
+convert r3 to g3 at Wil
+capture r1 at B1
+move y3 from Wil to G1 (g1)
+build y1 at Greeny
+move r1 from Wil to G1
+convert r1 to g1 at B1
+move r1 from G1 to Greeny
+sacrifice r2 at B1; capture r1 at Greeny
+build r1 at Wil
+build r2 at Greeny
+move r1 from Wil to G1
+move r2 from Greeny to B1
+build g1 at Wil
+build g2 at B1
+move g1 from Wil to Be1 (b1)
+convert g1 to b1 at B1
+build g1 at Wil
+build g2 at B1
+build g3 at Be1
+move g2 from B1 to Bluey
+convert g3 to r3 at Be1
+build g3 at B1
+build g3 at Be1
+sacrifice y3 at Felix; move g2 from B1 to Wil; move g3 from B1 to Wil; move y3 from B1 to Wil; catastrophe green at Wil
+sacrifice g3 at Be1; build r2 at Wil; build r3 at Be1; build r3 at G1
+sacrifice r2 at B1; capture r2 at Wil; capture r2 at Wil

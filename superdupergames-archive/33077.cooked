@@ -1,0 +1,17 @@
+Dragon76N (0, b3y1) g3-
+Redsang (1, r1y2) -g3
+build g1 at Dragon76N
+build g1 at Redsang
+convert g1 to y1 at Dragon76N
+build g1 at Redsang
+build y1 at Dragon76N
+move g1 from Redsang to Tom (b3)
+move y1 from Dragon76N to Gretwo (g2)
+convert g1 to r1 at Tom
+build y2 at Gretwo
+build g1 at Redsang
+move y2 from Gretwo to Tom
+move g1 from Redsang to Tom
+convert y2 to r2 at Tom
+convert g1 to b1 at Tom
+capture r1 at Tom

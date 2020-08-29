@@ -1,0 +1,37 @@
+Zoltar (0, b3y1) g3-
+Tesla (1, g3b2) -y3
+build g1 at Zoltar
+build y1 at Tesla
+convert g3 to y3 at Zoltar
+convert y1 to g1 at Tesla
+build y1 at Zoltar
+build y1 at Tesla
+convert y1 to r1 at Zoltar
+move y1 from Tesla to Salte (g1)
+build g2 at Zoltar
+build g2 at Tesla
+move g2 from Zoltar to Bananas (y2)
+convert g2 to b2 at Tesla
+build g2 at Bananas
+move b2 from Tesla to Salte
+move g2 from Bananas to Salte
+move g1 from Tesla to Salte
+build g2 at Salte; catastrophe green at Salte
+build y1 at Tesla
+build g1 at Bananas
+build y1 at Tesla
+build y2 at Zoltar
+move y1 from Tesla to Telas (g1)
+move y2 from Zoltar to Limes (g2)
+convert y3 to g3 at Tesla
+build g2 at Bananas
+build g3 at Tesla
+sacrifice y2 at Limes; move g1 from Bananas to Telas; move g1 from Telas to Tesla; catastrophe green at Tesla
+build y2 at Telas
+move g2 from Bananas to Telas
+move y2 from Telas to Tesla
+move y3 from Zoltar to Tesla
+convert y1 to g1 at Tesla
+sacrifice r1 at Zoltar; capture y2 at Tesla
+build g2 at Tesla
+sacrifice y3 at Tesla; move g2 from Bananas to Telas; move g2 from Telas to Tesla; move g2 from Telas to Tesla; catastrophe green at Tesla

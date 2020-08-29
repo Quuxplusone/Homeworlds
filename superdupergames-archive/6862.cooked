@@ -1,0 +1,35 @@
+Uglyfoot (0, b3r1) g3-
+Antihero (1, b1y2) -g3
+build g1 at Uglyfoot
+build g1 at Antihero
+convert g1 to y1 at Uglyfoot
+convert g1 to y1 at Antihero
+build g1 at Uglyfoot
+build g1 at Antihero
+convert g1 to r1 at Uglyfoot
+convert g1 to r1 at Antihero
+move r1 from Uglyfoot to Aleph (g2)
+build g1 at Antihero
+build r2 at Aleph
+build r2 at Antihero
+build g1 at Uglyfoot
+move g1 from Antihero to Gamma (y3)
+build y1 at Uglyfoot
+build y2 at Antihero
+move y1 from Uglyfoot to Aleph
+move y2 from Antihero to Biggreen (g3)
+move r2 from Aleph to Gamma
+move g1 from Gamma to Switch (b2)
+build r2 at Aleph
+build g1 at Switch
+move g1 from Uglyfoot to Switch
+build g2 at Antihero
+sacrifice r2 at Aleph; capture g1 at Switch; capture g1 at Switch
+build g2 at Antihero
+build y2 at Aleph
+sacrifice g2 at Antihero; build y3 at Biggreen
+build y3 at Uglyfoot
+move g2 from Antihero to Delta (b3)
+move y2 from Aleph to Biggreen
+sacrifice y2 at Biggreen; move r2 from Antihero to Delta; move r2 from Delta to Switch
+sacrifice y3 at Uglyfoot; move g1 from Switch to Gamma; move g1 from Switch to Delta; move g1 from Switch to Biggreen

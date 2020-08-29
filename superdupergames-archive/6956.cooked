@@ -1,0 +1,25 @@
+Twoshort (0, r1b2) g3-
+Werebear (1, g2y1) -b3
+build g1 at Twoshort
+build b1 at Werebear
+convert g1 to y1 at Twoshort
+move b1 from Werebear to Harvest (g3)
+build g1 at Twoshort
+build b1 at Harvest
+build y1 at Twoshort
+build b1 at Werebear
+move y1 from Twoshort to Borbor (b3)
+build b2 at Werebear
+build y2 at Twoshort
+build b2 at Harvest
+move y1 from Twoshort to Grogar (g3)
+convert b2 to y2 at Harvest
+sacrifice g3 at Twoshort; build y2 at Grogar; build y3 at Borbor; build y3 at Twoshort
+move b2 from Werebear to Charity (g3)
+move y1 from Grogar to Werebear
+build y3 at Harvest
+sacrifice y2 at Twoshort; move y2 from Grogar to Werebear; move y1 from Borbor to Werebear; catastrophe yellow at Werebear
+convert b3 to g3 at Werebear
+build g1 at Twoshort
+sacrifice g3 at Werebear; build b2 at Charity; build b3 at Harvest; build b3 at Werebear
+build g1 at Twoshort

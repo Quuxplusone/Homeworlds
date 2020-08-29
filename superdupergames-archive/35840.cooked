@@ -1,0 +1,59 @@
+Simon (0, r1b3) g3-
+Bhorner (1, r2b1) -g3
+build g1 at Simon
+build g1 at Bhorner
+convert g1 to y1 at Simon
+convert g1 to y1 at Bhorner
+build g1 at Simon
+build g1 at Bhorner
+convert g1 to r1 at Simon
+convert g1 to r1 at Bhorner
+build r2 at Simon
+build r2 at Bhorner
+move r1 from Simon to B2 (b2)
+move r1 from Bhorner to Sun (y3)
+build r3 at Simon
+build r3 at Bhorner
+convert r3 to g3 at Simon
+convert r2 to y2 at Bhorner
+move g3 from Simon to B2
+sacrifice g3 at Bhorner; build r2 at Sun; build r3 at Sun; build r3 at Bhorner
+build g1 at B2
+move r1 from Sun to Star (y2)
+convert g3 to y3 at B2
+move r3 from Bhorner to Sun2 (y3)
+build g1 at B2
+move r3 from Sun to Star2 (y2)
+move r2 from Simon to B2
+convert y1 to g1 at Bhorner
+convert g1 to b1 at B2
+move r2 from Sun to Star
+build y1 at B2
+move r3 from Sun2 to Puddle (b2)
+sacrifice g3 at Simon; build y1 at Simon; build y3 at Simon; build y3 at B2
+convert r3 to g3 at Bhorner
+build r3 at B2
+sacrifice y2 at Bhorner; move r1 from Star to Tmp (g3); move r1 from Tmp to B2; catastrophe red at B2
+move y1 from Simon to Y2 (y2)
+convert g1 to r1 at Bhorner
+build g1 at B2
+sacrifice g3 at Bhorner; build r1 at Star2; build r2 at Puddle; build r3 at Bhorner
+build b1 at B2
+convert r2 to g2 at Puddle
+move b1 from B2 to B3 (b3)
+convert r3 to g3 at Bhorner
+move y3 from B2 to R3 (r3)
+build r2 at Puddle
+move g1 from B2 to R3
+move r1 from Star2 to Ocean (b3)
+build b2 at B2
+pass
+build g1 at R3
+pass
+build g2 at R3
+pass
+move g1 from R3 to Bhorner
+capture g1 at Bhorner
+sacrifice y3 at B2; move g1 from R3 to Bhorner; move g2 from R3 to Bhorner; move y3 from R3 to Bhorner; catastrophe green at Bhorner
+build r3 at Puddle
+capture r1 at Bhorner

@@ -1,0 +1,10 @@
+Ysdkrichard (0, g3b2) r3-
+Wil (1, y3b1) -g3
+build r1 at Ysdkrichard
+build g1 at Wil
+convert r1 to y1 at Ysdkrichard
+convert g1 to b1 at Wil
+build r1 at Ysdkrichard
+build b1 at Wil
+convert r1 to g1 at Ysdkrichard
+move b1 from Wil to G2 (g2)

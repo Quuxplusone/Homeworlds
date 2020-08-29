@@ -1,0 +1,37 @@
+Uglyfoot (0, b3y2) g3-
+Adambadura (1, g3b2) -r3
+build g1 at Uglyfoot
+build r1 at Adambadura
+convert g1 to r1 at Uglyfoot
+convert r1 to y1 at Adambadura
+build g1 at Uglyfoot
+build y1 at Adambadura
+move g1 from Uglyfoot to Tart (b1)
+build r1 at Adambadura
+build g1 at Uglyfoot
+move r1 from Adambadura to Tart
+sacrifice r1 at Uglyfoot; capture r1 at Tart
+build r1 at Adambadura
+convert g1 to y1 at Uglyfoot
+convert y1 to g1 at Adambadura
+build g1 at Tart
+build y1 at Adambadura
+build y2 at Uglyfoot
+move g1 from Adambadura to Outpost (r1)
+move y2 from Uglyfoot to Outpost
+build g2 at Outpost
+capture g2 at Outpost
+sacrifice y1 at Adambadura; move g1 from Outpost to Lastresort (y3)
+build g2 at Uglyfoot
+move r1 from Adambadura to Ontheway (y1)
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Uglyfoot; build g3 at Outpost
+build r2 at Adambadura
+sacrifice y1 at Uglyfoot; move g1 from Tart to Adambadura
+move g1 from Lastresort to Ontheway
+sacrifice g2 at Uglyfoot; build g2 at Adambadura; build r2 at Tart
+build r2 at Ontheway
+sacrifice y2 at Outpost; move r1 from Tart to Adambadura; move r2 from Tart to Adambadura; catastrophe red at Adambadura
+build y1 at Adambadura
+convert g3 to r3 at Uglyfoot
+build g3 at Ontheway
+sacrifice r3 at Uglyfoot; capture y1 at Adambadura; capture y1 at Adambadura

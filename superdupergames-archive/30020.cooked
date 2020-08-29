@@ -1,0 +1,44 @@
+Felix (0, r1b3) g3-
+Haymire (1, y3b2) -g3
+build g1 at Felix
+build g1 at Haymire
+convert g1 to y1 at Felix
+convert g1 to y1 at Haymire
+build g1 at Felix
+build g1 at Haymire
+convert g1 to b1 at Felix
+convert g1 to b1 at Haymire
+build g1 at Felix
+build g1 at Haymire
+move g1 from Felix to Rim (b2)
+convert g1 to r1 at Haymire
+build g1 at Felix
+build g1 at Haymire
+build g2 at Rim
+move g1 from Haymire to Fret (y1)
+convert g2 to y2 at Rim
+build y2 at Haymire
+build g2 at Rim
+build g2 at Haymire
+move g2 from Rim to Epic (b1)
+move g2 from Haymire to Scar (r1)
+sacrifice g3 at Felix; build g2 at Rim; build g3 at Felix; build g3 at Epic
+sacrifice y2 at Haymire; move b1 from Haymire to Fret; move y1 from Haymire to Scar
+build y2 at Rim
+move b1 from Fret to Rim
+sacrifice y2 at Rim; move y2 from Rim to Epic; move g2 from Rim to Fret
+build r2 at Haymire
+convert g2 to r2 at Epic
+convert r2 to b2 at Haymire
+build r2 at Epic
+sacrifice g3 at Haymire; build b3 at Haymire; build g2 at Fret; build g3 at Scar
+sacrifice r2 at Epic; capture b1 at Rim; capture g2 at Fret
+convert b2 to y2 at Haymire
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Felix; build y3 at Epic
+sacrifice g3 at Scar; build g3 at Scar; build y3 at Scar; build r2 at Haymire
+sacrifice g3 at Felix; build g3 at Felix; build b2 at Felix; build b3 at Rim
+sacrifice y3 at Scar; move b3 from Haymire to Fret; move b3 from Fret to Rim; move b3 from Rim to Felix; catastrophe blue at Felix
+move g3 from Epic to Haymire
+sacrifice g3 at Scar; build g3 at Scar; build y3 at Scar; build r2 at Haymire
+convert b3 to r3 at Rim
+sacrifice y3 at Scar; move r1 from Haymire to Felix; move r2 from Haymire to Felix; move r2 from Haymire to Felix; catastrophe red at Felix

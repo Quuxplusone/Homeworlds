@@ -1,0 +1,35 @@
+Remneb (0, r1b2) g3-
+Fnord (1, y1b3) -g3
+build g1 at Remneb
+build g1 at Fnord
+convert g1 to y1 at Remneb
+move g1 from Fnord to Eris (b2)
+build g1 at Remneb
+build g1 at Eris
+convert g1 to r1 at Remneb
+convert g1 to r1 at Eris
+move r1 from Remneb to Sirius (y3)
+build g1 at Fnord
+build y1 at Remneb
+build r2 at Eris
+build y2 at Remneb
+convert r2 to y2 at Eris
+move y2 from Remneb to Sirius
+build r2 at Eris
+build g1 at Remneb
+build g2 at Fnord
+move g1 from Remneb to Sirius
+convert g2 to r2 at Fnord
+build g2 at Remneb
+move g1 from Fnord to Discord (y2)
+build y3 at Remneb
+build y3 at Eris
+sacrifice y3 at Remneb; move y2 from Sirius to Discord; move g1 from Sirius to Discord; move r1 from Sirius to Discord
+move g1 from Discord to Chao (b3)
+build g2 at Discord
+build g2 at Chao
+sacrifice y2 at Discord; move g1 from Discord to Chao; move g2 from Discord to Chao; catastrophe green at Chao
+sacrifice y2 at Eris; move r2 from Eris to Fnord; move r2 from Fnord to Discord
+move r1 from Discord to Zarkon (y3)
+build y2 at Eris
+move y1 from Remneb to Altar (g3)

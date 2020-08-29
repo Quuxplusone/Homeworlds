@@ -1,0 +1,10 @@
+Cakepan (0, g3b1) y3-
+Teraphim (1, y2g2) -r3
+build y1 at Cakepan
+build r1 at Teraphim
+build y1 at Cakepan
+move r3 from Teraphim to Cakepan
+move y3 from Cakepan to Teraphim
+capture y1 at Cakepan
+build y1 at Cakepan
+sacrifice r3 at Cakepan; capture y1 at Cakepan; capture y1 at Cakepan

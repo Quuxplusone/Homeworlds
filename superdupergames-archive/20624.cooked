@@ -1,0 +1,38 @@
+Subhan64 (0, b1r2) g3-
+Adambadura (1, g3b1) -y3
+build g1 at Subhan64
+build y1 at Adambadura
+convert g1 to y1 at Subhan64
+convert y1 to r1 at Adambadura
+build y1 at Subhan64
+build y1 at Adambadura
+build y2 at Subhan64
+build y2 at Adambadura
+move y1 from Subhan64 to Bigbird (y3)
+move y2 from Adambadura to Shipyard (g2)
+build g1 at Subhan64
+build y2 at Shipyard
+move y1 from Subhan64 to Tweety (y3)
+build r1 at Adambadura
+move y1 from Bigbird to Kermit (g2)
+move y2 from Shipyard to Highway (y3)
+build g1 at Subhan64
+convert r1 to g1 at Adambadura
+move g1 from Subhan64 to Tweety
+build r1 at Adambadura
+move y1 from Tweety to Kermit
+move r1 from Adambadura to Kermit
+sacrifice g1 at Tweety; build y3 at Subhan64
+capture y1 at Kermit
+move y1 from Kermit to Highway
+build r1 at Kermit
+convert y2 to r2 at Subhan64
+build y2 at Kermit
+move y1 from Highway to Moss (g2)
+move r1 from Kermit to Highway
+move g1 from Subhan64 to Blueberry (b3)
+build r2 at Kermit
+move y3 from Subhan64 to Highway
+sacrifice y3 at Adambadura; move r1 from Highway to Subhan64; move r1 from Kermit to Highway; move r1 from Highway to Subhan64; catastrophe red at Subhan64
+move y3 from Highway to Moss
+build y3 at Adambadura

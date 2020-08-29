@@ -1,0 +1,31 @@
+Zweiterlinde (0, b1y2) g3-
+Amoscai (1, y1b2) -g3
+build g1 at Zweiterlinde
+build g1 at Amoscai
+move g1 from Zweiterlinde to Agnus (b3)
+convert g1 to r1 at Amoscai
+convert g1 to r1 at Agnus
+build g1 at Amoscai
+build g1 at Zweiterlinde
+build r1 at Amoscai
+move g1 from Zweiterlinde to Agnus
+build r2 at Amoscai
+build r2 at Agnus
+move r2 from Amoscai to Agnus
+build g1 at Agnus
+capture g1 at Agnus
+sacrifice r1 at Agnus; capture r2 at Agnus
+build g2 at Agnus
+capture g2 at Agnus
+build g2 at Agnus; catastrophe green at Agnus
+convert r2 to g2 at Agnus
+move r1 from Amoscai to Agnus
+capture r1 at Agnus
+build r1 at Amoscai
+convert r2 to y2 at Agnus
+convert r1 to y1 at Amoscai
+build g1 at Agnus
+move g1 from Amoscai to Agnus
+capture g1 at Agnus
+convert g3 to b3 at Amoscai
+build g1 at Zweiterlinde

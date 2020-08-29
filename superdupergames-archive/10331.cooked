@@ -1,0 +1,53 @@
+Jesse (0, b3r1) g3-
+Smilingra (1, b1y2) -g3
+build g1 at Jesse
+build g1 at Smilingra
+convert g1 to y1 at Jesse
+move g1 from Smilingra to Alpha (b3)
+build g1 at Jesse
+build g1 at Alpha
+build g2 at Jesse
+convert g1 to y1 at Alpha
+move g2 from Jesse to Transience (y2)
+build g1 at Alpha
+build g2 at Transience
+build g2 at Smilingra
+move g2 from Transience to Directionality (b3)
+move g2 from Smilingra to Beta (g3)
+convert g1 to r1 at Jesse
+convert g1 to r1 at Alpha
+move r1 from Jesse to Transience
+move r1 from Alpha to Smilingra
+build g1 at Directionality
+build r2 at Smilingra
+build r2 at Transience
+move r2 from Smilingra to Alpha
+move r2 from Transience to Directionality
+build g1 at Smilingra
+convert g2 to y2 at Directionality
+build g2 at Alpha
+sacrifice g3 at Jesse; build y1 at Directionality; build y3 at Jesse; build y3 at Jesse
+sacrifice g3 at Smilingra; build g3 at Smilingra; build y3 at Alpha; build g3 at Beta
+sacrifice y2 at Directionality; move g2 from Transience to Beta; move y1 from Jesse to Discernment (b2); catastrophe green at Beta
+move g2 from Alpha to Gamma (b2)
+convert y3 to g3 at Jesse
+build g2 at Gamma
+build g2 at Jesse
+build g3 at Alpha
+sacrifice g3 at Jesse; build g3 at Jesse; build y2 at Discernment; build y3 at Directionality
+sacrifice g3 at Alpha; build g3 at Alpha; build r2 at Smilingra; build r3 at Alpha
+sacrifice g3 at Jesse; build g3 at Jesse; build r3 at Directionality; build r3 at Transience
+move r3 from Alpha to Discernment
+sacrifice y2 at Discernment; move y1 from Discernment to Vastness (b1); move r3 from Directionality to Gamma
+sacrifice y3 at Alpha; move g2 from Gamma to Jesse; move g2 from Gamma to Jesse; move g1 from Alpha to Discernment; catastrophe green at Jesse
+build g2 at Directionality
+build g2 at Alpha
+sacrifice g2 at Directionality; build y2 at Jesse; build y3 at Vastness
+move r2 from Smilingra to Zeta (g3)
+build g2 at Directionality
+move r2 from Alpha to Transience
+move r3 from Transience to Zeta
+capture r1 at Transience
+sacrifice y3 at Vastness; move g1 from Directionality to Smilingra; move g2 from Directionality to Smilingra; move y3 from Directionality to Smilingra; catastrophe green at Smilingra
+move g3 from Alpha to Smilingra
+sacrifice r3 at Gamma; capture r2 at Zeta; capture r1 at Smilingra; capture g3 at Smilingra

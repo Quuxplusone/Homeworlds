@@ -1,0 +1,101 @@
+Rosbi (0, b2r1) g3-
+Wil (1, b3y2) -g3
+build g1 at Rosbi
+build g1 at Wil
+convert g1 to y1 at Rosbi
+convert g1 to r1 at Wil
+build y1 at Rosbi
+build r1 at Wil
+build g1 at Rosbi
+move r1 from Wil to B1 (b1)
+move y1 from Rosbi to R3 (r3)
+build r2 at Wil
+build y1 at Rosbi
+convert r2 to y2 at Wil
+move y1 from Rosbi to B3 (b3)
+move y2 from Wil to G1 (g1)
+sacrifice g3 at Rosbi; build y2 at R3; build y3 at Rosbi; build y3 at B3
+build y3 at G1
+convert y3 to g3 at Rosbi
+move y2 from G1 to Y3 (y3)
+convert g1 to b1 at Rosbi
+build r2 at Wil
+convert y3 to r3 at B3
+build y3 at G1
+build b1 at Rosbi
+convert r2 to b2 at Wil
+move b1 from Rosbi to G3 (g3)
+move b2 from Wil to G1
+move r3 from B3 to G1_ (g1)
+build r2 at Wil
+build r2 at G1_
+sacrifice y3 at G1; move r1 from B1 to Wil; move r1 from Wil to G1_; move r1 from Wil to G1_; catastrophe red at G1_
+build y3 at Rosbi
+build r1 at Wil
+convert b1 to r1 at G3
+move r2 from Wil to G1
+build g1 at Rosbi
+build r2 at G1
+build r2 at G3
+build r3 at Wil
+sacrifice y1 at B3; move r1 from G3 to B1 (b1)
+convert r2 to g2 at G1
+move b1 from Rosbi to G3
+move y3 from G1 to G3
+sacrifice y2 at R3; move r2 from G3 to B1; move b1 from G3 to B1
+move r3 from Wil to Be1 (b1)
+move y3 from Rosbi to R3
+build b2 at G1
+sacrifice y1 at R3; move b1 from B1 to G2 (g2)
+build b3 at G1
+build b3 at G2
+convert b2 to y2 at G1
+build y1 at Rosbi
+build r2 at Wil
+move y1 from Rosbi to R3_ (r3)
+convert r2 to b2 at Wil
+move g1 from Rosbi to R3
+move g2 from G1 to G3
+build y1 at R3
+sacrifice g2 at G3; build g1 at Wil; build r2 at Be1
+build g2 at R3
+move b2 from G1 to G3
+move g1 from R3 to B1
+move r2 from G1 to R3_
+move y1 from R3_ to B1
+move b3 from G1 to R3
+capture b3 at R3
+move g1 from Wil to Be1
+build g2 at Rosbi
+move y2 from G1 to R3
+capture y2 at R3
+build g1 at Be1
+move y3 from R3 to G2
+move r1 from Wil to B1
+capture r1 at B1
+move y3 from G3 to B1
+sacrifice y2 at R3; move r2 from B1 to G2; move r1 from B1 to G2
+sacrifice r2 at Be1; capture y1 at B1; capture r1 at B1
+build y2 at R3
+build r2 at Be1
+sacrifice g1 at B1; build g1 at R3
+move y1 from B1 to G3
+sacrifice y1 at R3; move r2 from G2 to Y1 (y1)
+move y1 from G3 to Be1
+move b3 from G2 to Y1
+move r2 from Be1 to Wil
+sacrifice y3 at G2; move b1 from G2 to Y1; move b1 from Y1 to Wil; move b3 from Y1 to Wil; catastrophe blue at Wil
+build y3 at Be1
+move g1 from R3 to Y1
+move r3 from Be1 to G3
+move b3 from R3 to Y1
+build b1 at G3
+move b3 from Y1 to R3_
+sacrifice y3 at B1; move r2 from R3_ to Rosbi; move r3 from G3 to Rosbi; move r1 from B1 to Y3
+sacrifice r1 at G2; capture r3 at Rosbi
+sacrifice g1 at Be1; build r1 at Rosbi; catastrophe red at Rosbi
+build y3 at Rosbi
+convert y1 to b1 at Be1
+sacrifice y3 at Rosbi; move g3 from Rosbi to G3; move g2 from Rosbi to G3; move g1 from Y1 to G3; catastrophe green at G3
+move y3 from Be1 to Rosbi
+sacrifice y2 at R3; move g2 from R3 to Rosbi; move b3 from R3_ to Rosbi

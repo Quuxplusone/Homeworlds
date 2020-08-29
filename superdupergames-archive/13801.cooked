@@ -1,0 +1,43 @@
+Zackstack (0, r1b3) g3-
+Zxcv411 (1, r3b2) -g3
+build g1 at Zackstack
+build g1 at Zxcv411
+convert g1 to y1 at Zackstack
+build g1 at Zxcv411
+move y1 from Zackstack to Emerald (g2)
+convert g1 to y1 at Zxcv411
+build g1 at Zackstack
+move g1 from Zxcv411 to Richard (b1)
+convert g1 to b1 at Zackstack
+build g1 at Richard
+build b1 at Zackstack
+convert g1 to r1 at Richard
+build g1 at Zackstack
+build r1 at Richard
+convert b1 to y1 at Zackstack
+build r2 at Richard
+move b1 from Zackstack to Emerald
+build y2 at Zxcv411
+build y2 at Emerald
+convert r2 to y2 at Richard
+convert y2 to r2 at Emerald
+move r1 from Richard to Dave (b2)
+build y2 at Emerald
+move y2 from Richard to Mark (r2)
+move b1 from Emerald to Lime (g1)
+move y1 from Zxcv411 to Richard
+move y1 from Emerald to Lime
+move g1 from Richard to Mark
+sacrifice g3 at Zackstack; build y3 at Zackstack; build y3 at Lime; build y3 at Emerald
+build g2 at Mark
+move r2 from Emerald to Lime
+build g2 at Zxcv411
+build g3 at Zackstack
+move g2 from Mark to Richard
+sacrifice g3 at Zackstack; build g3 at Zackstack; build b1 at Lime; build b2 at Lime
+build g3 at Zxcv411
+sacrifice y3 at Emerald; move g1 from Zackstack to Dave; move g1 from Dave to Lime; move g1 from Lime to Zxcv411; catastrophe green at Zxcv411
+build g1 at Mark
+move y3 from Lime to Zxcv411
+sacrifice g2 at Richard; build r2 at Richard; build r3 at Richard
+capture y2 at Zxcv411

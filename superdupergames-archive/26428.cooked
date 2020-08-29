@@ -1,0 +1,71 @@
+Hellajoey (0, b1y2) g3-
+Grissom (1, g3b1) -y3
+build g1 at Hellajoey
+build y1 at Grissom
+build g1 at Hellajoey
+move y1 from Grissom to Moria (g2)
+move g1 from Hellajoey to Blubot (b3)
+build y1 at Moria
+convert g1 to y1 at Hellajoey
+build y2 at Grissom
+move y1 from Hellajoey to Blubot
+move y2 from Grissom to Rohan (b2)
+build y2 at Blubot
+build y3 at Grissom
+move y2 from Blubot to Grunland (g2)
+convert y3 to r3 at Grissom
+build y3 at Grunland
+build y3 at Grissom
+sacrifice y3 at Grunland; move y1 from Blubot to Grunland; move y1 from Grunland to Grissom; move y2 from Grunland to Grissom; catastrophe yellow at Grissom
+convert y2 to g2 at Rohan
+build g1 at Hellajoey
+build r1 at Grissom
+build g1 at Blubot
+move y1 from Moria to Grissom
+sacrifice g3 at Hellajoey; build g2 at Blubot; build g3 at Hellajoey; build g3 at Hellajoey
+move y1 from Grissom to Rohan
+convert g1 to y1 at Blubot
+convert r3 to y3 at Grissom
+move g3 from Hellajoey to Ruddin (b3)
+build y2 at Grissom
+convert g1 to b1 at Blubot
+sacrifice g2 at Rohan; build y2 at Rohan; build y3 at Moria
+build y3 at Blubot
+sacrifice y2 at Grissom; move y1 from Rohan to Blubot; move y1 from Moria to Blubot; catastrophe yellow at Blubot
+build g1 at Ruddin
+convert y2 to g2 at Rohan
+sacrifice g3 at Hellajoey; build g1 at Blubot; build g3 at Hellajoey; build b2 at Blubot
+move y3 from Moria to Thebluegate (b3)
+convert b2 to y2 at Blubot
+build y1 at Grissom
+move b1 from Blubot to Gruner (g2)
+move y1 from Grissom to Rohan
+sacrifice g3 at Hellajoey; build g3 at Hellajoey; build b2 at Gruner; build b2 at Gruner
+convert y3 to r3 at Grissom
+convert g1 to r1 at Hellajoey
+move g2 from Rohan to Thebluegate
+sacrifice g3 at Ruddin; build g1 at Hellajoey; build g3 at Ruddin; build y1 at Blubot
+move y1 from Rohan to Thebluegate
+move y1 from Blubot to Gruner
+move y3 from Thebluegate to Gruner
+sacrifice g3 at Hellajoey; build g3 at Hellajoey; build y1 at Gruner; build y2 at Gruner; catastrophe yellow at Gruner
+build y1 at Thebluegate
+build y1 at Blubot
+convert r3 to y3 at Grissom
+move y1 from Blubot to Gruner
+convert y1 to r1 at Thebluegate
+move b1 from Gruner to Grissom
+sacrifice g2 at Thebluegate; build y1 at Thebluegate; build y2 at Grissom
+move b2 from Gruner to Grissom
+build r2 at Grissom
+move g1 from Blubot to Gruner
+move y2 from Grissom to Gondor (g2)
+move g2 from Blubot to Blub (b2)
+build y3 at Grissom
+sacrifice g3 at Ruddin; build g3 at Blub; build r2 at Hellajoey
+build y3 at Gondor
+move b2 from Gruner to Grissom; catastrophe blue at Grissom
+sacrifice y3 at Gondor; move y1 from Thebluegate to Hellajoey; move y1 from Thebluegate to Hellajoey; move y3 from Grissom to Hellajoey; catastrophe yellow at Hellajoey
+move g1 from Gruner to Grissom
+sacrifice y2 at Gondor; move r1 from Thebluegate to Hellajoey; move r1 from Grissom to Hellajoey; catastrophe red at Hellajoey
+sacrifice y2 at Blubot; move g2 from Blub to Grissom; move g3 from Blub to Grissom; catastrophe green at Grissom

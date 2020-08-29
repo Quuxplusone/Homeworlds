@@ -1,0 +1,43 @@
+Mneme (0, r1b2) g3-
+Draw5Playall (1, b3r2) -g3
+build g1 at Mneme
+build g1 at Draw5Playall
+convert g1 to r1 at Mneme
+convert g1 to r1 at Draw5Playall
+build r2 at Mneme
+build r2 at Draw5Playall
+convert r2 to y2 at Mneme
+convert r2 to y2 at Draw5Playall
+build r2 at Mneme
+build r2 at Draw5Playall
+move r2 from Mneme to Time (g3)
+move r1 from Draw5Playall to Space (g1)
+build r3 at Time
+build r3 at Space
+build y1 at Mneme
+move r2 from Draw5Playall to Energy (g1)
+sacrifice y1 at Mneme; move r3 from Time to Energy
+build y1 at Draw5Playall
+capture r2 at Energy
+move y2 from Draw5Playall to Matter (b1)
+build r3 at Time
+build y1 at Draw5Playall
+convert r1 to b1 at Mneme
+convert y1 to b1 at Draw5Playall
+move b1 from Mneme to Time
+move b1 from Draw5Playall to Space
+convert r3 to y3 at Time
+convert r3 to y3 at Space
+build b2 at Time
+build b2 at Space
+move y3 from Time to Matter
+convert y3 to r3 at Space
+build r1 at Time
+move y2 from Matter to Gravity (g2)
+convert b2 to y2 at Time
+move y1 from Draw5Playall to Space
+sacrifice y2 at Mneme; move r2 from Time to Space; move r1 from Time to Space; catastrophe red at Space
+move b1 from Space to Gravity
+sacrifice y2 at Time; move r3 from Energy to Draw5Playall; move y3 from Matter to Draw5Playall
+sacrifice y2 at Gravity; move b2 from Space to Weak (b2); move y1 from Space to Strong (r3)
+capture g3 at Draw5Playall

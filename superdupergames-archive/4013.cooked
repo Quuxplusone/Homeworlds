@@ -1,0 +1,74 @@
+Personman (0, y3b1) g3-
+Zoltar (1, y1b2) -g3
+build g1 at Personman
+build g1 at Zoltar
+move g1 from Personman to Rasque (y2)
+convert g1 to r1 at Zoltar
+build g1 at Personman
+build r1 at Zoltar
+convert g1 to b1 at Personman
+convert r1 to y1 at Zoltar
+build g1 at Personman
+build y1 at Zoltar
+build b1 at Personman
+move y1 from Zoltar to Greenbelt (g3)
+move b1 from Personman to Rasque
+build y2 at Greenbelt
+build b2 at Personman
+build y2 at Greenbelt
+convert b2 to r2 at Personman
+move y2 from Greenbelt to Rasque
+move b1 from Rasque to Celric (y3)
+build y3 at Zoltar
+build b2 at Personman
+convert y3 to b3 at Zoltar
+move g1 from Rasque to Celric
+move b3 from Zoltar to Greenbelt
+build b2 at Celric
+sacrifice g3 at Zoltar; build y3 at Zoltar; build b3 at Greenbelt; build b3 at Greenbelt
+move b2 from Personman to Pazodrite (g2)
+move b3 from Greenbelt to Pazodrite
+move b1 from Personman to Rasque
+sacrifice r1 at Zoltar; capture b2 at Pazodrite
+move b1 from Rasque to Celric
+convert b3 to r3 at Pazodrite
+move b1 from Celric to Zoltar
+sacrifice y1 at Zoltar; move b2 from Pazodrite to Celric
+sacrifice g1 at Celric; build b3 at Zoltar
+sacrifice r3 at Pazodrite; capture b3 at Zoltar; capture b2 at Celric; capture b1 at Celric
+move b1 from Zoltar to Celric; catastrophe blue at Celric
+convert b3 to r3 at Greenbelt
+move g1 from Personman to Shroumb (b2)
+build b1 at Greenbelt
+build g1 at Shroumb
+build y1 at Greenbelt
+convert g1 to r1 at Shroumb
+convert b3 to g3 at Zoltar
+build g1 at Shroumb
+build y3 at Zoltar
+build g1 at Personman
+build g2 at Zoltar
+build g2 at Shroumb
+sacrifice g3 at Zoltar; build g2 at Zoltar; build g3 at Zoltar; build r1 at Greenbelt
+build r1 at Personman
+move r1 from Greenbelt to Rasque
+move r2 from Personman to Lova (b2)
+move b3 from Greenbelt to Rasque
+build r2 at Personman
+sacrifice g3 at Zoltar; build r2 at Greenbelt; build r3 at Greenbelt; build r3 at Rasque
+move r2 from Personman to Rasque
+sacrifice r1 at Rasque; capture r2 at Rasque
+build r1 at Personman
+build g3 at Zoltar
+move r1 from Personman to Rasque
+sacrifice r2 at Rasque; capture r1 at Rasque
+build r2 at Personman
+sacrifice g3 at Zoltar; build b1 at Rasque; build b3 at Rasque; build b3 at Greenbelt
+build g3 at Personman
+sacrifice y3 at Zoltar; move g2 from Zoltar to Greenbelt; move g2 from Greenbelt to Rasque; move g2 from Rasque to Personman; catastrophe green at Personman
+convert r2 to g2 at Personman
+sacrifice y2 at Greenbelt; move b3 from Rasque to Personman; move r3 from Rasque to Personman
+sacrifice g2 at Shroumb; build g1 at Personman; build g2 at Personman
+convert b3 to g3 at Personman; catastrophe green at Personman
+convert r1 to g1 at Personman
+capture g1 at Personman

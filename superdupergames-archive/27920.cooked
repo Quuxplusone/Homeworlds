@@ -1,0 +1,51 @@
+Wil (0, b3y1) g3-
+Mcowper (1, r2b1) -g3
+build g1 at Wil
+build g1 at Mcowper
+convert g1 to b1 at Wil
+convert g1 to b1 at Mcowper
+convert b1 to y1 at Wil
+build g1 at Mcowper
+build y1 at Wil
+convert g3 to y3 at Mcowper
+move y1 from Wil to G2 (g2)
+build y2 at Mcowper
+build y2 at Wil
+build g1 at Mcowper
+convert y1 to r1 at Wil
+move g1 from Mcowper to Asimov (y3)
+build r1 at Wil
+convert y3 to g3 at Mcowper
+move r1 from Wil to G2
+convert g1 to r1 at Mcowper
+build r2 at G2
+build g1 at Mcowper
+move r2 from G2 to Asimov
+move g1 from Asimov to Bradbury (b2)
+sacrifice g3 at Wil; build r2 at Asimov; build r3 at Wil; build r3 at Wil
+move r1 from Mcowper to Clarke (b3)
+convert r3 to y3 at Wil
+build y1 at Mcowper
+move y3 from Wil to Gee2 (g2)
+move y1 from Mcowper to Delaney (b3)
+build r3 at G2
+sacrifice g3 at Mcowper; build r3 at Clarke; build y2 at Delaney; build y3 at Mcowper
+convert r3 to g3 at Wil
+convert y3 to g3 at Mcowper
+build y3 at G2
+sacrifice g3 at Mcowper; build g1 at Bradbury; build g2 at Bradbury; build g3 at Mcowper
+build r3 at Wil
+convert g1 to b1 at Bradbury
+move r3 from Wil to Bradbury
+sacrifice g2 at Bradbury; build b2 at Bradbury; build b2 at Bradbury; catastrophe blue at Bradbury
+build r3 at Wil
+build g1 at Mcowper
+sacrifice y3 at Gee2; move r1 from Wil to G2; move r1 from G2 to Clarke; move r1 from G2 to Clarke; catastrophe red at Clarke
+build y3 at Mcowper
+build r1 at G2
+move g1 from Mcowper to Ellison (b3)
+move y3 from G2 to Ellison
+sacrifice y2 at Mcowper; move g1 from Ellison to Flint (y2); move g1 from Mcowper to Delaney
+move r3 from G2 to Delaney
+convert g3 to r3 at Mcowper
+sacrifice y3 at Ellison; move r3 from Wil to Flint; move r2 from Asimov to Mcowper; move r2 from Asimov to Mcowper; catastrophe red at Mcowper

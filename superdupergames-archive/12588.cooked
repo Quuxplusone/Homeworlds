@@ -1,0 +1,81 @@
+Ts52 (0, b1y2) g3-
+Agentofchaos (1, y1b3) -g3
+build g1 at Ts52
+build g1 at Agentofchaos
+convert g1 to y1 at Ts52
+build g1 at Agentofchaos
+build g1 at Ts52
+move g1 from Agentofchaos to Jophur (b2)
+build g2 at Ts52
+sacrifice g3 at Agentofchaos; build g2 at Agentofchaos; build g2 at Jophur; build g3 at Agentofchaos
+move g2 from Ts52 to Kermit (g3)
+convert g2 to y2 at Jophur
+move g1 from Ts52 to Bigbird (y3)
+sacrifice g3 at Agentofchaos; build g2 at Jophur; build y1 at Jophur; build g3 at Agentofchaos
+sacrifice g2 at Kermit; build g2 at Bigbird; build g3 at Ts52
+move y1 from Jophur to Agentofchaos
+move y1 from Ts52 to Grover (b3)
+sacrifice g3 at Agentofchaos; build y2 at Jophur; build y3 at Agentofchaos; build g3 at Agentofchaos
+sacrifice g2 at Bigbird; build g2 at Bigbird; build y3 at Grover
+move y1 from Agentofchaos to Orocore (r2)
+convert y1 to r1 at Grover
+convert g1 to r1 at Jophur
+move g1 from Bigbird to Zoe (y1)
+convert g1 to r1 at Agentofchaos
+sacrifice g1 at Zoe; build y1 at Grover
+build r2 at Jophur
+move y3 from Grover to Orocore
+move y1 from Orocore to Abaddon (g1)
+build g1 at Bigbird
+sacrifice g3 at Agentofchaos; build g1 at Jophur; build r2 at Agentofchaos; build g3 at Agentofchaos
+sacrifice g2 at Bigbird; build g2 at Bigbird; build r3 at Grover
+sacrifice y2 at Jophur; move r1 from Jophur to Grover; move r2 from Jophur to Grover; catastrophe red at Grover
+sacrifice g2 at Bigbird; build g2 at Bigbird; build y2 at Grover
+convert r1 to b1 at Agentofchaos
+convert y1 to r1 at Grover
+convert g2 to r2 at Jophur
+move g1 from Bigbird to Orocore
+move g2 from Agentofchaos to Jophur
+build y1 at Orocore
+move y3 from Agentofchaos to Kakradoom (g2)
+sacrifice g2 at Bigbird; build y3 at Grover; build g2 at Orocore
+move y2 from Jophur to Icefall (b3)
+move g1 from Orocore to Grover
+build r1 at Jophur
+move g3 from Ts52 to Elmo (r3)
+move y1 from Abaddon to Jophur
+build g1 at Ts52
+sacrifice g2 at Jophur; build b1 at Agentofchaos; build g2 at Agentofchaos
+convert y2 to b2 at Grover
+move b1 from Agentofchaos to Kakradoom
+move b2 from Grover to Orocore
+sacrifice g3 at Agentofchaos; build y2 at Icefall; build b2 at Kakradoom; build g3 at Agentofchaos
+sacrifice y3 at Orocore; move g1 from Grover to Orocore; move g1 from Orocore to Agentofchaos; move g2 from Orocore to Agentofchaos; catastrophe green at Agentofchaos
+build y3 at Jophur
+build g1 at Elmo
+convert y3 to g3 at Jophur
+sacrifice g1 at Elmo; build y3 at Orocore
+move g3 from Jophur to Agentofchaos
+build g1 at Elmo
+move y1 from Jophur to Threndor (r3)
+convert g3 to r3 at Ts52
+convert b1 to r1 at Kakradoom
+sacrifice g1 at Elmo; build b1 at Orocore
+move b1 from Agentofchaos to Kakradoom
+build g1 at Ts52
+build g2 at Jophur
+move g1 from Ts52 to Grover
+move b1 from Kakradoom to Ghede (g3)
+sacrifice g3 at Elmo; build r3 at Ts52; build g2 at Grover; build g3 at Ts52
+sacrifice y3 at Kakradoom; move y2 from Icefall to Ts52; move y2 from Icefall to Ts52; move y1 from Threndor to Ts52; catastrophe yellow at Ts52
+move y3 from Grover to Jophur
+build r3 at Kakradoom
+sacrifice g2 at Grover; build g2 at Grover; build b3 at Orocore
+convert r2 to y2 at Jophur
+sacrifice r3 at Ts52; capture y2 at Jophur; capture r1 at Jophur; capture g2 at Jophur
+build r2 at Agentofchaos
+sacrifice y3 at Jophur; move b1 from Orocore to Agentofchaos; move b2 from Orocore to Agentofchaos; move b3 from Orocore to Agentofchaos; catastrophe blue at Agentofchaos
+convert r1 to y1 at Kakradoom
+build y2 at Jophur
+build b1 at Ghede
+sacrifice y3 at Orocore; move y1 from Orocore to Agentofchaos; move y2 from Jophur to Agentofchaos; move y2 from Jophur to Agentofchaos; catastrophe yellow at Agentofchaos

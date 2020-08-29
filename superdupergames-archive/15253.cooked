@@ -1,0 +1,73 @@
+Zoltar (0, r3b2) g3-
+Zackstack (1, b1r2) -g3
+build g1 at Zoltar
+build g1 at Zackstack
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Zackstack
+build g1 at Zoltar
+build g1 at Zackstack
+convert g1 to b1 at Zoltar
+move g1 from Zackstack to Bluemoon (b3)
+move b1 from Zoltar to Greenpea (g1)
+build g1 at Bluemoon
+build g2 at Zoltar
+build g2 at Zackstack
+sacrifice g2 at Zoltar; build b1 at Greenpea; build b2 at Greenpea
+convert g1 to r1 at Bluemoon
+convert b2 to y2 at Greenpea
+build r1 at Bluemoon
+build b2 at Greenpea
+convert g2 to b2 at Zackstack
+move b2 from Greenpea to Greengiant (g3)
+move b2 from Zackstack to Greengiant
+build b3 at Greenpea
+sacrifice r1 at Bluemoon; capture b2 at Greengiant
+sacrifice y2 at Greenpea; move b1 from Greenpea to Greengiant; move b1 from Greenpea to Greengiant; catastrophe blue at Greengiant
+convert g1 to y1 at Bluemoon
+build y2 at Zoltar
+build y2 at Zackstack
+move y1 from Zoltar to Greenpea
+build g1 at Zackstack
+build b1 at Greenpea
+move g1 from Zackstack to Bluemoon
+build b1 at Greenpea
+convert y2 to b2 at Zackstack
+convert b1 to r1 at Greenpea
+move r1 from Bluemoon to Greenpip (g1)
+build g2 at Zoltar
+move y1 from Bluemoon to Greenpip
+move g2 from Zoltar to Greenpip
+build g2 at Zackstack
+convert b3 to g3 at Greenpea
+sacrifice g3 at Zackstack; build g2 at Bluemoon; build y2 at Greenpip; build g3 at Zackstack
+sacrifice g3 at Greenpea; build g3 at Zoltar; build y2 at Zoltar; build y3 at Greenpea
+capture g2 at Greenpip
+move y3 from Greenpea to Bluemoon
+sacrifice y1 at Greenpip; move g2 from Bluemoon to Yellowdot (y1)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Bluemoon; build y3 at Greenpea
+sacrifice y2 at Greenpip; move g2 from Greenpip to Zoltar; move g2 from Yellowdot to Zoltar; catastrophe green at Zoltar
+sacrifice r1 at Greenpea; capture g1 at Bluemoon
+build y1 at Zackstack
+convert y3 to g3 at Bluemoon
+move g2 from Zackstack to Sunburst (y3)
+convert g1 to r1 at Bluemoon
+move y1 from Zackstack to Muchoverde (g3)
+move y3 from Greenpea to Sunburst
+move g2 from Sunburst to Bluedot (b1)
+build y2 at Greenpea
+move y1 from Muchoverde to Greenpip
+move y2 from Zoltar to Greenpip
+move y1 from Greenpip to Sunburst
+move y3 from Sunburst to Bluedot
+build g1 at Zackstack
+sacrifice r1 at Bluemoon; capture g2 at Bluedot
+move g1 from Zackstack to Freefall (b3)
+build g2 at Bluemoon
+build r1 at Greenpip
+sacrifice g3 at Bluemoon; build g2 at Bluemoon; build g3 at Bluemoon; build g3 at Bluedot
+move b2 from Zackstack to Sunburst
+move g3 from Bluemoon to Zackstack
+capture g3 at Zackstack
+sacrifice y3 at Bluedot; move g2 from Bluemoon to Zackstack; move g2 from Bluemoon to Zackstack; move y3 from Bluemoon to Zackstack; catastrophe green at Zackstack
+move y1 from Sunburst to Zackstack
+sacrifice g3 at Bluedot; build y3 at Zackstack; catastrophe yellow at Zackstack

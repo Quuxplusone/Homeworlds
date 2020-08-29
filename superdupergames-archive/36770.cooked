@@ -1,0 +1,50 @@
+Layana (0, y3b2) g3-
+Babamots (1, b2r3) -g3
+build g1 at Layana
+build g1 at Babamots
+convert g1 to y1 at Layana
+convert g1 to y1 at Babamots
+move y1 from Layana to Andoria (g1)
+build y1 at Babamots
+build y2 at Andoria
+build y2 at Babamots
+move y1 from Andoria to Babamots; catastrophe yellow at Babamots
+build g1 at Babamots
+build g1 at Layana
+convert g1 to y1 at Babamots
+convert g1 to b1 at Layana
+build y1 at Babamots
+move b1 from Layana to Andoria
+move y1 from Babamots to Orion (g1)
+build b1 at Andoria
+build y1 at Babamots
+build b1 at Andoria
+move y1 from Babamots to Ferenginar (g1)
+move b1 from Andoria to Babamots
+capture b1 at Babamots
+sacrifice y2 at Andoria; move b1 from Andoria to Babamots; move b1 from Andoria to Babamots; catastrophe blue at Babamots
+build y2 at Babamots
+build g1 at Layana
+sacrifice g3 at Babamots; build y2 at Ferenginar; build y2 at Orion; build y3 at Babamots
+build g2 at Layana
+move y2 from Orion to Bolarus (b2)
+move g2 from Layana to Qonos (b1)
+build y3 at Orion
+build g2 at Layana
+move y3 from Orion to Betazed (b3)
+convert g2 to r2 at Layana
+convert y3 to g3 at Betazed
+move r2 from Layana to Ferenginar
+sacrifice y2 at Ferenginar; move y1 from Ferenginar to Iconia (y2); move y2 from Bolarus to Aldea (y3)
+convert g1 to b1 at Layana
+move y1 from Orion to Betazed
+build g1 at Layana
+build g1 at Betazed
+build g2 at Qonos
+convert g1 to b1 at Betazed
+sacrifice g2 at Qonos; build g1 at Qonos; build r1 at Ferenginar
+build b2 at Betazed
+convert g2 to b2 at Qonos
+build g2 at Betazed
+build g2 at Qonos
+move g3 from Betazed to Romulus (r1)

@@ -1,0 +1,146 @@
+Laurie_Menke (0, y3b2) g3-
+Remneb (1, r1b2) -g3
+build g1 at Laurie_Menke
+build g1 at Remneb
+convert g1 to y1 at Laurie_Menke
+convert g1 to y1 at Remneb
+build g1 at Laurie_Menke
+build g1 at Remneb
+move g1 from Laurie_Menke to Sweetpea (g1)
+convert g1 to b1 at Remneb
+move y1 from Laurie_Menke to Little (b1)
+move b1 from Remneb to Ram (y3)
+build g1 at Laurie_Menke
+build g2 at Remneb
+sacrifice g3 at Laurie_Menke; build g2 at Laurie_Menke; build g2 at Sweetpea; build g3 at Laurie_Menke
+move g2 from Remneb to Ram
+sacrifice g1 at Sweetpea
+build g1 at Ram
+move y1 from Little to Bigdipper (g3)
+move g1 from Ram to Gumrak (y1)
+sacrifice g1 at Laurie_Menke; build y2 at Bigdipper
+build y2 at Remneb
+move y2 from Bigdipper to Sweetpea
+move y2 from Remneb to Ram
+move g2 from Laurie_Menke to Littledipper (g1)
+convert y2 to r2 at Ram
+move y1 from Bigdipper to Remneb
+capture y1 at Remneb
+build g3 at Laurie_Menke
+move r2 from Ram to Sweetpea
+move g2 from Sweetpea to Sun (y3)
+capture y2 at Sweetpea
+convert g3 to r3 at Laurie_Menke
+build g3 at Remneb
+build r1 at Laurie_Menke
+convert g3 to r3 at Remneb
+build g3 at Laurie_Menke
+move r3 from Remneb to Ram
+move r1 from Laurie_Menke to Littledipper
+move g2 from Ram to Gumrak
+build r1 at Laurie_Menke
+move r3 from Ram to Gumrak
+build r2 at Littledipper
+sacrifice g2 at Gumrak; build r2 at Gumrak; build r3 at Sweetpea
+convert r1 to b1 at Laurie_Menke
+build y2 at Sweetpea
+sacrifice b1 at Laurie_Menke; convert g2 to y2 at Sun
+build g2 at Gumrak
+move g3 from Laurie_Menke to Northstar (b1)
+move r3 from Sweetpea to Ram
+build g2 at Northstar
+move r3 from Ram to Northstar
+sacrifice y2 at Sun; move g3 from Northstar to Ram; move g2 from Northstar to Ram
+move r3 from Gumrak to Ram
+sacrifice r2 at Littledipper; capture r3 at Ram; capture b1 at Ram
+sacrifice y2 at Sweetpea; move g1 from Gumrak to Ram; move g2 from Gumrak to Ram; catastrophe green at Ram
+build g1 at Laurie_Menke
+move y1 from Remneb to Frisco (g3)
+build g2 at Laurie_Menke
+build g2 at Remneb
+convert g2 to y2 at Laurie_Menke
+sacrifice g2 at Remneb; build y2 at Sweetpea; build y3 at Frisco
+move y2 from Laurie_Menke to Littledipper
+build g2 at Remneb
+build g2 at Littledipper
+sacrifice g2 at Remneb; build r1 at Northstar; build r2 at Gumrak
+move r3 from Laurie_Menke to Gumrak
+build g2 at Remneb
+capture r2 at Gumrak
+sacrifice y2 at Sweetpea; move r1 from Northstar to Frisco; move r1 from Frisco to Gumrak; catastrophe red at Gumrak
+move g2 from Littledipper to Ram
+move r2 from Sweetpea to Frisco
+move g2 from Littledipper to Ram
+move g2 from Remneb to Frisco
+sacrifice y2 at Littledipper; move g2 from Ram to Remneb; move g2 from Ram to Remneb
+capture g2 at Remneb
+sacrifice g1 at Laurie_Menke; build g1 at Remneb; catastrophe green at Remneb
+move y3 from Frisco to Remneb
+build g1 at Laurie_Menke
+move g2 from Frisco to Remneb
+move g1 from Laurie_Menke to Orion (y1)
+build y2 at Frisco
+build g2 at Laurie_Menke
+build y2 at Sweetpea
+sacrifice g3 at Laurie_Menke; build g2 at Orion; build g3 at Laurie_Menke; build g3 at Orion
+sacrifice y2 at Sweetpea; move g2 from Remneb to Ram; move g2 from Ram to Orion; catastrophe green at Orion
+move b1 from Ram to Bigdipper (g2)
+build y1 at Sweetpea
+move g2 from Laurie_Menke to Littledipper
+sacrifice y1 at Frisco; move r3 from Northstar to Bigdipper
+sacrifice b1 at Bigdipper; convert g2 to y2 at Littledipper
+sacrifice y1 at Sweetpea; move r3 from Bigdipper to Littledipper
+move y2 from Littledipper to Laurie_Menke
+capture r1 at Littledipper
+sacrifice y2 at Laurie_Menke; move r3 from Ram to Sweetpea; move r3 from Sweetpea to Frisco
+sacrifice y2 at Sweetpea; move r2 from Frisco to Remneb; move y2 from Frisco to Littledipper
+build g1 at Laurie_Menke
+move r2 from Remneb to Narva (y3)
+convert g1 to y1 at Laurie_Menke
+build y1 at Littledipper
+move y1 from Laurie_Menke to Green (g1)
+sacrifice y1 at Littledipper; move r3 from Littledipper to Narva
+move y1 from Green to Frisco
+move r3 from Narva to Littledipper
+build y1 at Frisco
+build y2 at Littledipper
+build g1 at Laurie_Menke
+convert y1 to g1 at Remneb
+convert g1 to y1 at Laurie_Menke
+build y2 at Remneb
+build g1 at Laurie_Menke
+sacrifice y2 at Remneb; move y2 from Littledipper to Laurie_Menke; move y2 from Littledipper to Laurie_Menke; catastrophe yellow at Laurie_Menke
+move r3 from Frisco to Laurie_Menke
+build g2 at Remneb
+convert g1 to y1 at Laurie_Menke
+build y2 at Remneb
+build y2 at Laurie_Menke
+move y2 from Remneb to Narva
+build y2 at Frisco
+sacrifice y2 at Narva; move r2 from Narva to Littledipper; move r2 from Littledipper to Frisco
+sacrifice g3 at Laurie_Menke; build y2 at Frisco; build y3 at Laurie_Menke; build r1 at Laurie_Menke
+build y3 at Remneb; catastrophe yellow at Frisco
+move r3 from Laurie_Menke to Frisco
+sacrifice g2 at Remneb; build r2 at Frisco; build r2 at Frisco; catastrophe red at Frisco
+convert y2 to g2 at Laurie_Menke
+convert y3 to b3 at Remneb
+move y1 from Laurie_Menke to Big (g3)
+build y1 at Remneb
+build y1 at Big
+move y1 from Remneb to Nadir (y3)
+build y2 at Big
+move y1 from Nadir to Littledipper
+move y1 from Big to Remneb
+capture y1 at Remneb
+move y1 from Big to Remneb
+move y3 from Remneb to Big
+convert y1 to b1 at Remneb
+capture b1 at Remneb
+build y1 at Laurie_Menke
+sacrifice b3 at Remneb; convert y1 to b1 at Littledipper; convert r1 to b1 at Littledipper; convert r3 to b3 at Littledipper
+sacrifice g2 at Laurie_Menke; build y1 at Big; build y2 at Big; catastrophe yellow at Big
+convert b3 to y3 at Littledipper
+convert y1 to g1 at Laurie_Menke
+move b1 from Remneb to Bugs (y3)
+move y3 from Laurie_Menke to Littledipper
+sacrifice y3 at Littledipper; move b1 from Bugs to Laurie_Menke; move b1 from Littledipper to Laurie_Menke; move b1 from Littledipper to Laurie_Menke; catastrophe blue at Laurie_Menke

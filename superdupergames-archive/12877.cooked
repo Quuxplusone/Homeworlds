@@ -1,0 +1,11 @@
+Madwuher (0, b2r1) g3-
+Acirruscloud (1, b3g1) -y3
+build g1 at Madwuher
+build y1 at Acirruscloud
+build g1 at Madwuher
+move y1 from Acirruscloud to Onett (b2)
+convert g3 to y3 at Madwuher
+build y1 at Acirruscloud
+build g2 at Madwuher
+convert y3 to g3 at Acirruscloud
+move g2 from Madwuher to Edora (b3)

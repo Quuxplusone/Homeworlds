@@ -1,0 +1,40 @@
+Dragon76N (0, y1b3) g3-
+Mneme (1, b1g3) -y3
+build g1 at Dragon76N
+build y1 at Mneme
+convert g1 to y1 at Dragon76N
+build y2 at Mneme
+build g1 at Dragon76N
+move y1 from Mneme to Caliope (b2)
+convert g1 to r1 at Dragon76N
+convert y2 to r2 at Mneme
+move y1 from Dragon76N to Caliope
+move r2 from Mneme to Caliope
+move y1 from Caliope to Bluone (b1)
+build y2 at Mneme
+convert y1 to g1 at Bluone
+build y1 at Mneme
+build g1 at Bluone
+convert y3 to g3 at Mneme
+convert g1 to b1 at Bluone
+move r2 from Caliope to Bluone
+sacrifice b1 at Bluone; convert g1 to r1 at Bluone
+capture r1 at Bluone
+build g1 at Dragon76N
+sacrifice g3 at Mneme; build y2 at Caliope; build y2 at Caliope; build y3 at Mneme
+move g1 from Dragon76N to Redtwo (r2)
+convert y3 to g3 at Mneme
+build g1 at Dragon76N
+move y2 from Caliope to Bluone
+build g1 at Redtwo
+sacrifice g3 at Mneme; build y3 at Mneme; build y3 at Bluone; build y3 at Caliope
+move g1 from Dragon76N to Reddup (r2)
+convert y3 to g3 at Caliope
+build g2 at Dragon76N
+build y3 at Caliope
+sacrifice g3 at Dragon76N; build g2 at Reddup; build g2 at Redtwo; build g3 at Dragon76N
+sacrifice y2 at Bluone; move y3 from Caliope to Dragon76N; move g3 from Caliope to Dragon76N
+sacrifice g3 at Dragon76N; build g3 at Dragon76N; build r1 at Dragon76N; build r3 at Dragon76N
+sacrifice r2 at Bluone; capture r3 at Dragon76N; capture g3 at Dragon76N
+sacrifice g2 at Redtwo; build r2 at Dragon76N; build g2 at Dragon76N; catastrophe red at Dragon76N
+catastrophe green at Dragon76N; convert y3 to g3 at Mneme

@@ -1,0 +1,30 @@
+Endo (0, y1b2) g3-
+Wil (1, y3b1) -g3
+build g1 at Endo
+build g1 at Wil
+convert g1 to y1 at Endo
+convert g1 to b1 at Wil
+build y1 at Endo
+build b1 at Wil
+move y1 from Endo to Epi (b3)
+move b1 from Wil to G2 (g2)
+build y2 at Endo
+sacrifice g3 at Wil; build b2 at Wil; build b2 at G2; build b3 at G2
+move y2 from Endo to Iso (b3)
+convert b3 to y3 at G2
+move y1 from Endo to Auto (b3)
+convert b2 to y2 at G2
+build g1 at Endo
+build b2 at G2
+convert g1 to r1 at Endo
+convert y2 to r2 at G2
+sacrifice g3 at Endo; build y2 at Epi; build y2 at Auto; build y3 at Iso
+sacrifice y3 at G2; move r2 from G2 to Auto; move b2 from G2 to Auto; move b2 from Auto to Endo
+sacrifice y2 at Auto; move y3 from Iso to Endo; move y1 from Auto to Mono (g2)
+sacrifice r2 at Auto; capture r1 at Endo
+build y2 at Mono
+convert b2 to g2 at Wil
+build y3 at Mono
+sacrifice g2 at Wil; build b2 at Wil; build b3 at Endo
+convert y3 to r3 at Endo
+capture r3 at Endo

@@ -1,0 +1,73 @@
+Twoshort (0, r1b2) g3-
+Uglyfoot (1, b3y1) -g3
+build g1 at Twoshort
+build g1 at Uglyfoot
+convert g1 to y1 at Twoshort
+move g1 from Uglyfoot to Bflat (b2)
+build g1 at Twoshort
+build g1 at Uglyfoot
+build g2 at Twoshort
+build g2 at Bflat
+convert g2 to y2 at Twoshort
+convert g2 to y2 at Bflat
+move y1 from Twoshort to Grogar (g3)
+build g2 at Bflat
+move g1 from Twoshort to Yolonda (y3)
+convert g1 to r1 at Uglyfoot
+build g1 at Twoshort
+build g2 at Uglyfoot
+sacrifice g3 at Twoshort; build g2 at Yolonda; build y1 at Grogar; build g3 at Twoshort
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build y2 at Bflat; build r1 at Uglyfoot
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y3 at Twoshort; build y3 at Grogar
+move y2 from Bflat to Grogar; catastrophe yellow at Grogar
+convert y2 to r2 at Twoshort
+convert g2 to r2 at Bflat
+move g1 from Yolonda to Yellonia (y2)
+move r2 from Bflat to Gminor (y3)
+sacrifice g3 at Twoshort; build g2 at Yellonia; build g3 at Yolonda; build g3 at Twoshort
+move r1 from Uglyfoot to Yellonia
+sacrifice y3 at Twoshort; move g2 from Yellonia to Uglyfoot; move g1 from Yellonia to Uglyfoot; move g3 from Yolonda to Yellonia; catastrophe green at Uglyfoot
+move g1 from Bflat to Uglyfoot
+move g3 from Yellonia to Uglyfoot
+build g1 at Uglyfoot
+sacrifice g3 at Twoshort; build g2 at Uglyfoot; build g2 at Yolonda; build g3 at Twoshort
+build r2 at Uglyfoot; catastrophe green at Uglyfoot
+convert g1 to y1 at Twoshort
+convert r2 to g2 at Uglyfoot
+move r2 from Twoshort to Yak (y3)
+build r2 at Uglyfoot
+sacrifice g2 at Yolonda; build r3 at Yak; build y1 at Twoshort
+build r3 at Uglyfoot
+move y1 from Twoshort to Rosie (r3)
+convert r3 to g3 at Uglyfoot
+sacrifice g2 at Yolonda; build y2 at Twoshort; build y3 at Rosie
+sacrifice g2 at Uglyfoot; build r3 at Gminor; build g1 at Uglyfoot
+move r3 from Yak to Bflat
+move y2 from Bflat to Gminor
+convert y2 to g2 at Twoshort
+convert r2 to b2 at Uglyfoot
+build y2 at Twoshort
+sacrifice b2 at Uglyfoot; convert r2 to g2 at Gminor; convert r3 to b3 at Gminor
+move y1 from Rosie to Gloria (g2)
+build g1 at Gminor
+sacrifice y2 at Twoshort; move y1 from Twoshort to Gminor; move y1 from Gloria to Gminor; catastrophe yellow at Gminor
+move g1 from Uglyfoot to Yellonia
+move r2 from Yak to Yellonia
+build r2 at Yellonia
+sacrifice g2 at Twoshort; build r2 at Yellonia; build r3 at Bflat; catastrophe red at Yellonia
+build r1 at Uglyfoot
+convert r3 to g3 at Bflat
+move r1 from Uglyfoot to Yellonia
+build r2 at Bflat
+build r2 at Yellonia
+move y3 from Rosie to Yellonia
+build r2 at Uglyfoot
+sacrifice r3 at Bflat; capture r2 at Yellonia; capture r1 at Yellonia; capture g1 at Yellonia
+convert r2 to y2 at Uglyfoot
+build g1 at Twoshort
+build r2 at Uglyfoot
+sacrifice y3 at Yellonia; move r1 from Yellonia to Uglyfoot; move r2 from Bflat to Uglyfoot; move g3 from Bflat to Uglyfoot; catastrophe red at Uglyfoot
+build g1 at Uglyfoot
+sacrifice r2 at Yellonia; capture g3 at Uglyfoot; capture y2 at Uglyfoot
+build g2 at Uglyfoot
+catastrophe green at Uglyfoot

@@ -1,0 +1,30 @@
+Deanthebean (0, b1y2) g3-
+Draw5Playall (1, b1g3) -b3
+build g1 at Deanthebean
+build b1 at Draw5Playall
+build g1 at Deanthebean
+convert b3 to y3 at Draw5Playall
+convert g1 to r1 at Deanthebean
+build b2 at Draw5Playall
+build r1 at Deanthebean
+move b2 from Draw5Playall to Growth (g2)
+build r1 at Deanthebean
+build b2 at Growth
+move r1 from Deanthebean to Commerce (b3)
+build b2 at Draw5Playall
+build r2 at Deanthebean
+build b3 at Growth
+convert r1 to y1 at Deanthebean
+convert b3 to r3 at Growth
+build y1 at Deanthebean
+build b3 at Growth
+move y1 from Deanthebean to Desperation (b3)
+convert b3 to y3 at Growth
+convert g3 to b3 at Deanthebean
+build y1 at Growth
+build g1 at Deanthebean
+build y2 at Draw5Playall
+move y1 from Deanthebean to Hope (g3)
+move b2 from Growth to Hope
+move b3 from Deanthebean to Hope
+sacrifice y2 at Draw5Playall; move y3 from Growth to Commerce; move y3 from Commerce to Deanthebean

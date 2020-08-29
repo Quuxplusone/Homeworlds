@@ -1,0 +1,39 @@
+Silenttitan (0, r1b2) g3-
+Alihv (1, b1g3) -y3
+build g1 at Silenttitan
+build y1 at Alihv
+convert g1 to y1 at Silenttitan
+move y1 from Alihv to Los (b2)
+build g1 at Silenttitan
+build y1 at Alihv
+build y2 at Silenttitan
+build y2 at Alihv
+move y1 from Silenttitan to Sol (g3)
+move y2 from Alihv to Laos (g2)
+move g1 from Silenttitan to Soul (y3)
+convert y1 to g1 at Los
+build g1 at Silenttitan
+build g2 at Los
+sacrifice g3 at Silenttitan; build y1 at Sol; build y2 at Silenttitan; build y3 at Silenttitan
+sacrifice y3 at Alihv; move y2 from Laos to Sol; move y2 from Sol to Silenttitan; move g2 from Los to Laws (y3); catastrophe yellow at Silenttitan
+build g2 at Silenttitan
+build y2 at Alihv
+convert g2 to y2 at Silenttitan
+move y1 from Alihv to Los
+build g2 at Silenttitan
+build y2 at Los
+build y3 at Silenttitan
+sacrifice g2 at Laws; build y3 at Alihv; build g2 at Los
+sacrifice y3 at Silenttitan; move y1 from Sol to Los; move y1 from Los to Alihv; move y1 from Sol to Sky (b2)
+sacrifice y2 at Alihv; move g2 from Los to Less (y3); move y1 from Los to Soul
+build y2 at Alihv
+convert y3 to g3 at Alihv
+convert y1 to b1 at Alihv
+convert g1 to r1 at Los
+sacrifice y2 at Alihv; move g1 from Soul to Sky; move g1 from Sky to Alihv
+convert g3 to r3 at Alihv
+sacrifice g2 at Silenttitan; build g1 at Alihv; build b1 at Alihv
+capture g1 at Alihv
+build b3 at Alihv; catastrophe blue at Alihv
+sacrifice g1 at Alihv; build r1 at Alihv
+build g1 at Alihv

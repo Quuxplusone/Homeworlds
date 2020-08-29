@@ -1,0 +1,26 @@
+Ladybugsfly (0, y2b1) g3-
+Steele (1, g3b2) -y3
+build g1 at Ladybugsfly
+build y1 at Steele
+move g1 from Ladybugsfly to Snorlax (y3)
+move y1 from Steele to Alpha (g1)
+build g1 at Ladybugsfly
+build y1 at Steele
+move g1 from Ladybugsfly to Lapras (y3)
+convert y1 to b1 at Steele
+build g2 at Ladybugsfly
+move b1 from Steele to Beta (y1)
+sacrifice g3 at Ladybugsfly; build g2 at Lapras; build g2 at Snorlax; build g3 at Ladybugsfly
+build y1 at Steele
+convert g2 to y2 at Ladybugsfly
+build y2 at Alpha
+move g1 from Snorlax to Squirtle (b1)
+convert y1 to r1 at Steele
+convert g1 to r1 at Squirtle
+convert b1 to g1 at Beta
+move g1 from Lapras to Eevee (y1)
+build g2 at Beta
+build g3 at Ladybugsfly
+move g2 from Beta to Gamma (b3)
+move y2 from Ladybugsfly to Drowzee (b3)
+sacrifice y3 at Steele; move g1 from Beta to Gamma; move g1 from Gamma to Ladybugsfly; move g2 from Gamma to Ladybugsfly; catastrophe green at Ladybugsfly

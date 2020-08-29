@@ -1,0 +1,12 @@
+Fnord (0, b2y1) g3-
+Mathgod (1, r1b3) -g3
+build g1 at Fnord
+build g1 at Mathgod
+move g1 from Fnord to Discordia (b3)
+convert g1 to y1 at Mathgod
+build g1 at Discordia
+build y1 at Mathgod
+convert g1 to b1 at Discordia
+build y2 at Mathgod
+build g1 at Fnord
+move y2 from Mathgod to Midway (r2)

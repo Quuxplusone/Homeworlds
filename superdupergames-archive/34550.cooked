@@ -1,0 +1,32 @@
+Ts52 (0, b1r2) g3-
+Trydnt (1, g3y3) -b3
+build g1 at Ts52
+build b1 at Trydnt
+convert g1 to y1 at Ts52
+build b1 at Trydnt
+build y1 at Ts52
+move b1 from Trydnt to G1 (g1)
+build y1 at Ts52
+build b2 at G1
+move y1 from Ts52 to Kermit (g3)
+convert b2 to y2 at G1
+build y2 at Ts52
+build b2 at Trydnt
+convert y2 to b2 at Ts52
+convert b2 to r2 at Trydnt
+convert y1 to r1 at Ts52
+build b2 at G1
+move b2 from Ts52 to Kermit
+build r1 at Trydnt
+build g1 at Ts52
+sacrifice y2 at G1; move r1 from Trydnt to Ts52; move r2 from Trydnt to Ts52; catastrophe red at Ts52
+move b2 from Kermit to G1
+convert b2 to r2 at G1
+convert g3 to r3 at Ts52
+capture b2 at G1
+build y1 at Kermit
+convert b2 to y2 at G1
+build y2 at Ts52
+build b2 at Trydnt
+convert y2 to b2 at Ts52
+sacrifice y2 at G1; move b1 from Trydnt to Ts52; move b2 from Trydnt to Ts52; catastrophe blue at Ts52

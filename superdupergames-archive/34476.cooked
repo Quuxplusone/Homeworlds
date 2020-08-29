@@ -1,0 +1,41 @@
+Dlwillson (0, y2b3) g3-
+Speardane (1, y1b2) -g3
+build g1 at Dlwillson
+build g1 at Speardane
+convert g1 to y1 at Dlwillson
+convert g3 to r3 at Speardane
+build y1 at Dlwillson
+build g1 at Speardane
+move y1 from Dlwillson to Sea (b1)
+move g1 from Speardane to Delos (b3)
+build g1 at Dlwillson
+build g2 at Delos
+sacrifice g3 at Dlwillson; build y2 at Sea; build y2 at Sea; build y3 at Dlwillson
+convert g1 to r1 at Delos
+convert y3 to r3 at Dlwillson
+build r1 at Delos
+build y3 at Dlwillson
+sacrifice r1 at Delos
+move y3 from Dlwillson to Field (g1)
+build g2 at Speardane
+build y3 at Field
+move g1 from Speardane to Lebling (y3)
+move y3 from Field to Delos
+build g2 at Delos
+sacrifice r3 at Dlwillson; capture g2 at Delos; capture g2 at Delos; capture r1 at Delos
+build g3 at Speardane
+sacrifice y2 at Sea; move g2 from Delos to Speardane; move g2 from Delos to Speardane; catastrophe green at Speardane
+move g1 from Lebling to Speardane
+move y3 from Field to Delos
+build r1 at Speardane
+convert y3 to g3 at Delos
+convert r3 to y3 at Speardane
+sacrifice y2 at Sea; move y3 from Delos to Speardane; move y1 from Sea to Delos
+capture y3 at Speardane
+move y1 from Delos to Speardane; catastrophe yellow at Speardane
+convert r1 to y1 at Speardane
+sacrifice y1 at Dlwillson; move g3 from Delos to Speardane
+convert y1 to r1 at Speardane
+sacrifice r1 at Delos; capture r1 at Speardane
+pass
+capture g1 at Speardane

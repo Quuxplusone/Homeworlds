@@ -1,0 +1,30 @@
+Aristos (0, g3b2) y3-
+Deanthebean (1, b2g3) -y3
+build y1 at Aristos
+build y1 at Deanthebean
+move y1 from Aristos to Spark (y1)
+convert y1 to r1 at Deanthebean
+move y1 from Spark to Leaf (g2)
+build r1 at Deanthebean
+build y1 at Aristos
+build r1 at Deanthebean
+convert y3 to r3 at Aristos
+move r1 from Deanthebean to Branch (g1)
+build r2 at Aristos
+build r2 at Branch
+convert r3 to g3 at Aristos
+convert r1 to b1 at Deanthebean
+build g1 at Aristos
+convert r1 to g1 at Deanthebean
+move g1 from Aristos to Plum (b1)
+move g1 from Deanthebean to Yellow (y1)
+build y2 at Leaf
+build g2 at Yellow
+convert g3 to y3 at Aristos
+build y2 at Deanthebean
+build y2 at Leaf
+move y2 from Deanthebean to Branch
+move y2 from Leaf to Plum
+build y3 at Branch
+move y2 from Leaf to Branch
+move y2 from Branch to Aristos

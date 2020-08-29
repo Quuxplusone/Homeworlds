@@ -1,0 +1,31 @@
+Twoshort (0, r1b2) g3-
+Danner (1, y1b2) -g3
+build g1 at Twoshort
+build g1 at Danner
+convert g1 to y1 at Twoshort
+build g1 at Danner
+build y1 at Twoshort
+convert g1 to r1 at Danner
+build y2 at Twoshort
+build r1 at Danner
+build g1 at Twoshort
+build r2 at Danner
+move y1 from Twoshort to Grogar (g3)
+move r1 from Danner to Grogar
+convert y2 to r2 at Twoshort
+capture y1 at Grogar
+move r2 from Twoshort to Grogar
+move g3 from Danner to Grogar
+sacrifice y1 at Twoshort; move r2 from Grogar to Glork (g1)
+sacrifice g3 at Grogar; build r2 at Grogar; build r3 at Grogar; build r3 at Danner
+build g2 at Twoshort
+move r3 from Grogar to Glork
+convert g2 to y2 at Twoshort
+capture r2 at Glork
+build g2 at Twoshort
+build r3 at Grogar
+move g1 from Twoshort to Yolonda (y3)
+convert r3 to g3 at Danner
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g2 at Twoshort; build g3 at Twoshort
+sacrifice g3 at Danner; build g3 at Danner; build y1 at Grogar; build y2 at Grogar
+sacrifice y2 at Twoshort; move g2 from Yolonda to Danner; move g1 from Yolonda to Danner; catastrophe green at Danner

@@ -1,0 +1,20 @@
+Salmonax (0, y1b3) g3-
+Bhorner (1, r2b1) -g3
+build g1 at Salmonax
+build g1 at Bhorner
+move g1 from Salmonax to Bluetwoth (b2)
+convert g1 to b1 at Bhorner
+build g1 at Salmonax
+build b1 at Bhorner
+convert g1 to y1 at Salmonax
+convert b1 to y1 at Bhorner
+build y2 at Salmonax
+build y2 at Bhorner
+move y1 from Salmonax to Bluetwoth
+move y2 from Bhorner to Xmas (g3)
+move y2 from Salmonax to Bluetwoth
+build b1 at Bhorner
+build g1 at Salmonax
+move b1 from Bhorner to Xmas
+convert y1 to r1 at Bluetwoth
+convert b1 to r1 at Xmas

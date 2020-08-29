@@ -1,0 +1,21 @@
+Jesse (0, r1b2) g3-
+Zoltar (1, b1y3) -g3
+build g1 at Jesse
+build g1 at Zoltar
+convert g1 to y1 at Jesse
+convert g1 to y1 at Zoltar
+build g1 at Jesse
+build g1 at Zoltar
+convert g1 to b1 at Jesse
+convert g1 to b1 at Zoltar
+move b1 from Jesse to Gout (g3)
+build b2 at Zoltar
+build b2 at Gout
+convert b2 to r2 at Zoltar
+convert b2 to r2 at Gout
+build b2 at Zoltar
+build b2 at Gout
+move b1 from Zoltar to Greenbelt (g2)
+convert b2 to y2 at Gout
+move b2 from Zoltar to Yellowstone (y2)
+build y1 at Gout

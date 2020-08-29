@@ -1,0 +1,37 @@
+Jeep (0, b3r2) g3-
+Grosseteste (1, y3b1) -g3
+build g1 at Jeep
+build g1 at Grosseteste
+convert g1 to y1 at Jeep
+convert g1 to b1 at Grosseteste
+build y1 at Jeep
+build b1 at Grosseteste
+build y1 at Jeep
+move b1 from Grosseteste to Charlie (g2)
+move y1 from Jeep to Brown (g1)
+build b2 at Grosseteste
+build y2 at Brown
+convert b1 to r1 at Grosseteste
+move y2 from Brown to Snoopy (b3)
+build b1 at Charlie
+build g1 at Jeep
+build b2 at Charlie
+build y2 at Brown
+convert b2 to y2 at Charlie
+sacrifice g3 at Jeep; build y3 at Jeep; build y3 at Snoopy; build g1 at Jeep
+move y2 from Charlie to Brown
+move y1 from Jeep to Brown; catastrophe yellow at Brown
+build b2 at Charlie
+convert y3 to b3 at Snoopy
+sacrifice b2 at Grosseteste; convert b1 to y1 at Charlie; convert b2 to y2 at Charlie
+move g1 from Jeep to Bravo (y1)
+move y1 from Charlie to Rerun (g3)
+move g1 from Bravo to First (y3)
+build b1 at Charlie
+build g1 at First
+sacrifice y2 at Charlie; move b1 from Charlie to Snoopy; move b1 from Charlie to Snoopy; catastrophe blue at Snoopy
+move g1 from First to Prequel (b2)
+build g2 at Grosseteste
+build g2 at Prequel
+convert g2 to y2 at Grosseteste
+convert g2 to y2 at Prequel

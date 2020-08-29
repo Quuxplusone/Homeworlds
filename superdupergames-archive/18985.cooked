@@ -1,0 +1,23 @@
+Ajo (0, y3b1) g3-
+Gidaio (1, g2b3) -y3
+build g1 at Ajo
+build y1 at Gidaio
+build g1 at Ajo
+build y1 at Gidaio
+move g1 from Ajo to Alpha (b2)
+move y1 from Gidaio to Beta (g1)
+sacrifice g3 at Ajo; build g2 at Alpha; build g2 at Ajo; build g3 at Ajo
+build y1 at Beta
+convert g2 to y2 at Alpha
+convert y1 to r1 at Gidaio
+sacrifice g3 at Ajo; build g2 at Alpha; build g3 at Alpha; build g3 at Ajo
+build y1 at Gidaio
+convert g3 to r3 at Alpha
+build y2 at Gidaio
+sacrifice g3 at Ajo; build g3 at Ajo; build y2 at Alpha; build g3 at Alpha
+sacrifice y2 at Gidaio; move y1 from Beta to Alpha; move y1 from Beta to Alpha; catastrophe yellow at Alpha
+convert g3 to y3 at Alpha
+move y1 from Gidaio to Delta (b1)
+move g2 from Alpha to Delta
+build y1 at Gidaio
+sacrifice g3 at Ajo; build g1 at Alpha; build g3 at Delta; build g3 at Delta

@@ -1,0 +1,45 @@
+Teeteetee (0, r1b2) g3-
+Ts52 (1, b3y1) -g3
+build g1 at Teeteetee
+build g1 at Ts52
+convert g1 to y1 at Teeteetee
+move g1 from Ts52 to Gonzo (b2)
+build y1 at Teeteetee
+build g1 at Ts52
+build y2 at Teeteetee
+build g1 at Gonzo
+build g2 at Teeteetee
+build g2 at Ts52
+move y1 from Teeteetee to Feynman (g3)
+convert g2 to y2 at Ts52
+sacrifice g3 at Teeteetee; build y2 at Feynman; build y3 at Feynman; build y3 at Teeteetee
+move y2 from Ts52 to Gonzo
+move y3 from Feynman to Gonzo
+convert g1 to r1 at Gonzo
+convert y3 to r3 at Teeteetee
+sacrifice y2 at Gonzo; move g1 from Gonzo to Bigbird (y3); move r1 from Gonzo to Bigbird
+sacrifice g2 at Teeteetee; build y2 at Gonzo; build y3 at Teeteetee
+build g1 at Bigbird
+convert y3 to g3 at Gonzo
+build r1 at Bigbird
+move y2 from Teeteetee to Bigbird
+move r1 from Bigbird to Teeteetee
+sacrifice r3 at Teeteetee; capture r1 at Teeteetee; capture r1 at Bigbird; capture g1 at Bigbird
+convert g3 to r3 at Ts52
+build y3 at Gonzo
+build r2 at Ts52
+convert y3 to r3 at Gonzo
+sacrifice r2 at Ts52; capture r1 at Bigbird; capture g1 at Bigbird
+sacrifice r3 at Gonzo; capture r1 at Bigbird; capture g1 at Bigbird; capture g1 at Bigbird
+build r2 at Ts52
+build y3 at Feynman
+build g2 at Ts52
+convert y3 to g3 at Teeteetee
+move r2 from Ts52 to Grover (b2)
+move y3 from Feynman to Grover
+convert r2 to g2 at Grover
+sacrifice y2 at Gonzo; move g3 from Gonzo to Ts52; move y3 from Grover to Ts52
+capture g3 at Ts52
+sacrifice r1 at Teeteetee; capture r3 at Ts52
+convert g2 to r2 at Ts52
+sacrifice r3 at Ts52; capture g3 at Ts52; capture r2 at Ts52; capture g1 at Ts52

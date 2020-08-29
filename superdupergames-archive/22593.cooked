@@ -1,0 +1,35 @@
+Danner (0, b1r2) g3-
+Ajo (1, g3y2) -b3
+build g1 at Danner
+build b1 at Ajo
+convert g3 to b3 at Danner
+move b1 from Ajo to Alpha (b1)
+build b2 at Danner
+build b2 at Ajo
+convert b3 to y3 at Danner
+convert b2 to y2 at Ajo
+move b2 from Danner to Beta (g3)
+build b2 at Ajo
+build b2 at Beta
+build b3 at Ajo
+sacrifice y3 at Danner; move b2 from Beta to Alpha; move b2 from Alpha to Ajo; catastrophe blue at Ajo
+convert b1 to g1 at Alpha
+build b1 at Beta
+build g1 at Alpha
+build g2 at Danner
+build g2 at Alpha
+build g2 at Danner
+convert g1 to y1 at Alpha
+convert g2 to y2 at Danner
+convert g2 to r2 at Alpha
+convert b2 to r2 at Beta
+build r1 at Alpha
+build y1 at Danner
+convert r2 to b2 at Alpha
+move y1 from Danner to Beta
+build r1 at Alpha
+sacrifice g2 at Danner; build y1 at Danner; build y3 at Beta
+move b2 from Alpha to Ajo
+build y3 at Danner
+sacrifice y2 at Ajo; move y1 from Alpha to Beta; move y1 from Beta to Danner; catastrophe yellow at Danner
+move y3 from Beta to Alpha

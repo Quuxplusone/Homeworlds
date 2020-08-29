@@ -1,0 +1,25 @@
+Ahoodedfigure (0, g3b3) r3-
+Peio (1, y3g3) -r3
+build r1 at Ahoodedfigure
+build r1 at Peio
+convert r1 to y1 at Ahoodedfigure
+move r3 from Peio to Whrdahellrwee2 (b2)
+build y1 at Ahoodedfigure
+build r1 at Peio
+convert y1 to b1 at Ahoodedfigure
+move r1 from Peio to Whrdahellrwee2
+build y1 at Ahoodedfigure
+convert r1 to g1 at Whrdahellrwee2
+move y1 from Ahoodedfigure to Lappland (b2)
+build r1 at Peio
+build b1 at Ahoodedfigure
+build r1 at Whrdahellrwee2
+convert b1 to g1 at Ahoodedfigure
+move r1 from Peio to Whrdahellrwee2
+move g1 from Ahoodedfigure to Lappland
+convert r1 to y1 at Whrdahellrwee2
+build y2 at Lappland
+build r1 at Peio
+move y2 from Lappland to Peio
+build r2 at Peio
+sacrifice r3 at Ahoodedfigure; capture r1 at Peio; capture r1 at Peio; capture r2 at Peio

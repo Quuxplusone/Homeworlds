@@ -1,0 +1,32 @@
+Jeep (0, b1y2) g3-
+Wil (1, b3y1) -g3
+build g1 at Jeep
+build g1 at Wil
+convert g1 to b1 at Jeep
+convert g1 to b1 at Wil
+build b2 at Jeep
+build b2 at Wil
+move b1 from Jeep to Grower (g3)
+move b1 from Wil to Y2 (y2)
+sacrifice g3 at Jeep; build b2 at Grower; build b3 at Jeep; build b3 at Grower
+move b1 from Y2 to Grower; catastrophe blue at Grower
+convert b3 to g3 at Jeep
+build b1 at Wil
+build b1 at Jeep
+convert b1 to y1 at Wil
+convert b2 to y2 at Jeep
+build g1 at Wil
+build g1 at Jeep
+convert g1 to r1 at Wil
+convert g1 to r1 at Jeep
+build g1 at Wil
+build g1 at Jeep
+move g1 from Wil to B2 (b2)
+move g1 from Jeep to Changer (b3)
+build g1 at B2
+build g2 at Jeep
+build g2 at Wil
+sacrifice g3 at Jeep; build g2 at Changer; build g3 at Changer; build g3 at Jeep
+sacrifice y1 at Wil; move g1 from B2 to Changer; catastrophe green at Changer
+build y1 at Jeep
+convert g2 to y2 at Wil

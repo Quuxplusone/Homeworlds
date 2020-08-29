@@ -1,0 +1,66 @@
+Wil (0, r2b1) g3-
+Ts52 (1, r1b3) -g3
+build g1 at Wil
+build g1 at Ts52
+convert g1 to b1 at Wil
+convert g1 to y1 at Ts52
+build g1 at Wil
+build g1 at Ts52
+convert g1 to r1 at Wil
+move g1 from Ts52 to Gonzo (b2)
+build g1 at Wil
+build y1 at Ts52
+build b1 at Wil
+build y1 at Ts52
+convert g3 to y3 at Wil
+move y1 from Ts52 to Gonzo
+build y2 at Wil
+build y2 at Gonzo
+move y2 from Wil to Fortcourage (g3)
+convert y2 to b2 at Gonzo
+move b1 from Wil to Fortcourage
+move b2 from Gonzo to Oscar (g3)
+move b1 from Fortcourage to Tortuga (g2)
+build y2 at Gonzo
+build g1 at Wil
+build g2 at Ts52
+build g2 at Wil
+sacrifice y2 at Gonzo; move g1 from Gonzo to Oscar; move g1 from Oscar to Wil; catastrophe green at Wil
+build y2 at Fortcourage
+move g2 from Ts52 to Gonzo
+build b2 at Tortuga
+build b3 at Oscar
+sacrifice y2 at Fortcourage; move b1 from Tortuga to Oscar; move b2 from Tortuga to Oscar; catastrophe blue at Oscar
+build y2 at Gonzo
+convert r1 to g1 at Wil
+convert y2 to r2 at Gonzo
+build y2 at Fortcourage
+move r2 from Gonzo to Fortcourage
+move y2 from Fortcourage to Bedrock (g2)
+capture y2 at Fortcourage
+build g1 at Wil
+build r1 at Fortcourage
+move g1 from Wil to Tortuga (y3)
+sacrifice g2 at Gonzo; build y2 at Fortcourage; build y3 at Gonzo
+build b1 at Wil
+build r1 at Fortcourage
+move b1 from Wil to Dryden (g3)
+move r2 from Fortcourage to Gonzo
+build b2 at Dryden
+convert r2 to g2 at Gonzo
+build b2 at Dryden
+move y3 from Gonzo to Dryden
+move b1 from Wil to Dryden; catastrophe blue at Dryden
+build r2 at Fortcourage
+build g1 at Wil
+build g2 at Ts52
+move g1 from Wil to Lastditch (b3)
+move r2 from Fortcourage to Bedrock
+move y2 from Bedrock to Lastditch
+sacrifice g2 at Ts52; build r2 at Fortcourage; build r3 at Bedrock
+build g2 at Wil
+sacrifice y3 at Dryden; move r1 from Fortcourage to Wil; move r1 from Fortcourage to Wil; move r2 from Fortcourage to Wil; catastrophe red at Wil
+build y3 at Lastditch
+sacrifice y1 at Gonzo; move r3 from Bedrock to Wil
+build g3 at Lastditch
+sacrifice r2 at Bedrock; capture y3 at Wil; capture g2 at Wil

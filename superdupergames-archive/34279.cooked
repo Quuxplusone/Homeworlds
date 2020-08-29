@@ -1,0 +1,54 @@
+Smokeytroll42 (0, b2r3) g3-
+Wil (1, b3y1) -g3
+build g1 at Smokeytroll42
+build g1 at Wil
+convert g1 to y1 at Smokeytroll42
+convert g1 to y1 at Wil
+build g1 at Smokeytroll42
+build y2 at Wil
+move g1 from Smokeytroll42 to Mars (b1)
+convert y1 to b1 at Wil
+build g1 at Mars
+build b1 at Wil
+convert g1 to r1 at Mars
+move b1 from Wil to Y2 (y2)
+build g1 at Smokeytroll42
+sacrifice g3 at Wil; build b2 at Y2; build b2 at Y2; build b3 at Wil
+convert g3 to b3 at Smokeytroll42
+sacrifice b2 at Y2; convert b2 to y2 at Y2; convert b3 to g3 at Wil
+convert r1 to y1 at Mars
+sacrifice g3 at Wil; build y3 at Wil; build y3 at Y2; build b2 at Wil
+build y3 at Mars
+sacrifice y2 at Wil; move y3 from Y2 to G3 (g3); move b1 from Wil to G2 (g2)
+build y2 at Smokeytroll42
+convert b2 to g2 at Wil
+convert y1 to r1 at Mars
+sacrifice g2 at Wil; build b2 at G2; build b2 at Y2
+move r1 from Mars to G2
+convert b2 to r2 at G2
+build y1 at Mars
+convert y3 to g3 at Wil
+move y1 from Mars to Mercury (g2)
+build y3 at G3
+sacrifice y3 at Mars; move y1 from Smokeytroll42 to Mars; move y1 from Mars to G3; move y1 from Mercury to G3; catastrophe yellow at G3
+build b2 at G2
+capture b1 at G2
+sacrifice r2 at G2; capture r1 at G2; capture b1 at G2
+build g1 at Mars
+build b3 at G2
+build g2 at Smokeytroll42
+build g2 at Wil
+build g3 at Smokeytroll42
+convert g2 to r2 at Wil
+sacrifice y2 at Smokeytroll42; move b3 from Smokeytroll42 to Mars; move b3 from Mars to G2; catastrophe blue at G2
+move b2 from Y2 to Mars
+convert g2 to y2 at Smokeytroll42
+build r1 at Wil
+sacrifice g3 at Smokeytroll42; build g2 at Smokeytroll42; build g2 at Smokeytroll42; build g3 at Mars
+build g3 at Wil
+convert g1 to r1 at Smokeytroll42
+sacrifice g3 at Wil; build b1 at Mars; build b2 at Mars; build b3 at Y2; catastrophe blue at Mars
+move g2 from Smokeytroll42 to Jupiter (b1)
+sacrifice y2 at Y2; move b3 from Y2 to Y1 (y1); move r1 from G2 to Y1
+build g1 at Jupiter
+move b3 from Y1 to Smokeytroll42

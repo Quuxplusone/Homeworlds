@@ -1,0 +1,23 @@
+Ladybugsfly (0, y3g2) b3-
+Steele (1, b2y1) -g3
+build b1 at Ladybugsfly
+build g1 at Steele
+convert b1 to g1 at Ladybugsfly
+build g1 at Steele
+build g2 at Ladybugsfly
+move g1 from Steele to Alpha (y3)
+convert g1 to r1 at Ladybugsfly
+sacrifice g3 at Steele; build g1 at Alpha; build g2 at Alpha; build g3 at Steele
+build g3 at Ladybugsfly
+build g3 at Steele
+convert g3 to y3 at Ladybugsfly
+move g1 from Steele to Beta (g3)
+sacrifice y3 at Ladybugsfly; move b3 from Ladybugsfly to Good (r1); move b3 from Good to Morning (r3); move b3 from Morning to Steele
+move g1 from Alpha to Gamma (y1)
+sacrifice g2 at Ladybugsfly; build r1 at Ladybugsfly; build r1 at Ladybugsfly
+move g1 from Gamma to Omega (b3)
+sacrifice r1 at Ladybugsfly; capture g3 at Steele
+move g2 from Alpha to Steele
+convert g3 to r3 at Steele
+pass
+sacrifice r3 at Steele; capture g3 at Steele; capture g2 at Steele

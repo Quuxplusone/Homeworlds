@@ -1,0 +1,46 @@
+Ts52 (0, b1y2) g3-
+Wyons (1, g3y1) -b3
+build g1 at Ts52
+build b1 at Wyons
+move g1 from Ts52 to Grover (b3)
+build b1 at Wyons
+build g1 at Ts52
+move b1 from Wyons to Bluemeanies (b2)
+build g1 at Ts52
+build b2 at Wyons
+build g2 at Grover
+move b1 from Wyons to Trueblue (b2)
+move g1 from Ts52 to Cookie_Monster (b3)
+convert b3 to g3 at Wyons
+sacrifice g3 at Ts52; build g2 at Cookie_Monster; build g2 at Cookie_Monster; build g3 at Ts52
+build b3 at Wyons
+convert g2 to y2 at Cookie_Monster
+move g3 from Wyons to Grassgreener (y2)
+sacrifice g3 at Ts52; build g2 at Ts52; build g3 at Ts52; build y1 at Cookie_Monster
+move g3 from Grassgreener to Xanthrophyl (y3)
+move g2 from Ts52 to Bigbird (y3)
+convert b3 to r3 at Wyons
+convert g2 to r2 at Cookie_Monster
+build b3 at Wyons
+sacrifice g3 at Ts52; build g2 at Bigbird; build g3 at Ts52; build y1 at Cookie_Monster
+convert b3 to y3 at Wyons
+move y2 from Cookie_Monster to Elmo (r2)
+move r3 from Wyons to Orange (y2)
+move r2 from Cookie_Monster to Trueblue
+build b3 at Wyons
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Trueblue; build r1 at Trueblue
+move r3 from Orange to Bigbird
+sacrifice y2 at Elmo; move g2 from Bigbird to Bluemeanies; move g2 from Bigbird to Bluemeanies
+convert b3 to r3 at Wyons
+capture b1 at Trueblue
+build b3 at Wyons
+build y2 at Cookie_Monster
+move y3 from Wyons to Bluemeanies
+sacrifice y2 at Cookie_Monster; move y1 from Cookie_Monster to Bluemeanies; move y1 from Cookie_Monster to Bluemeanies
+sacrifice y3 at Bluemeanies; move b2 from Wyons to Trueblue; move b1 from Bluemeanies to Bigbird; move b1 from Bigbird to Trueblue; catastrophe blue at Trueblue
+convert y1 to r1 at Bluemeanies
+move g3 from Xanthrophyl to Ts52
+sacrifice r1 at Bluemeanies; capture g3 at Ts52
+move r3 from Bigbird to Ts52
+convert g3 to r3 at Ts52
+sacrifice r3 at Wyons; capture r3 at Ts52; capture g3 at Ts52; capture g1 at Ts52

@@ -1,0 +1,58 @@
+Babamots (0, b3y1) g3-
+Eliscinsky (1, y2b1) -g3
+build g1 at Babamots
+build g1 at Eliscinsky
+convert g1 to y1 at Babamots
+convert g1 to y1 at Eliscinsky
+build y2 at Babamots
+build y2 at Eliscinsky
+convert y1 to r1 at Babamots
+convert y1 to r1 at Eliscinsky
+build g1 at Babamots
+build g1 at Eliscinsky
+convert g1 to b1 at Babamots
+convert g1 to b1 at Eliscinsky
+build b2 at Babamots
+build b2 at Eliscinsky
+build g1 at Babamots
+build g1 at Eliscinsky
+move y2 from Babamots to Orion (g2)
+move b2 from Eliscinsky to Eden (g3)
+move b1 from Babamots to Orion
+move y2 from Eliscinsky to Eden
+move b2 from Babamots to Cardassia (r2)
+convert b1 to y1 at Eliscinsky
+move g1 from Babamots to Cardassia
+build r1 at Eliscinsky
+build r2 at Babamots
+convert b2 to r2 at Eden
+move r1 from Babamots to Orion
+convert r1 to b1 at Eliscinsky
+build b2 at Orion
+move b1 from Eliscinsky to Eden
+move b2 from Orion to Bajor (y3)
+move g1 from Eliscinsky to Eden
+sacrifice g3 at Babamots; build b2 at Cardassia; build b3 at Bajor; build b3 at Orion
+build r1 at Eden
+build r3 at Orion
+build r3 at Eliscinsky
+move b3 from Orion to Eden
+sacrifice y2 at Eden; move r1 from Eden to Orion; move r2 from Eden to Orion; catastrophe red at Orion
+convert b3 to r3 at Eden
+build g1 at Eden
+build b3 at Orion
+build g2 at Eden; catastrophe green at Eden
+build y1 at Orion
+move y1 from Eliscinsky to Sol (y3)
+build b1 at Orion
+convert g3 to y3 at Eliscinsky
+convert b3 to g3 at Bajor
+sacrifice y3 at Eliscinsky; move r3 from Eliscinsky to Sol; move r3 from Sol to Orion; move r3 from Orion to Babamots
+sacrifice y2 at Orion; move b3 from Orion to Babamots; move g1 from Cardassia to Babamots
+capture r2 at Babamots
+sacrifice g3 at Bajor; build b3 at Babamots; build g1 at Babamots; build g1 at Babamots
+sacrifice r2 at Babamots; capture b3 at Babamots; capture b3 at Babamots
+sacrifice b1 at Orion; convert g1 to b1 at Babamots; catastrophe blue at Babamots
+capture g1 at Babamots
+pass
+capture g1 at Babamots

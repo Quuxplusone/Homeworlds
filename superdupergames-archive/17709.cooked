@@ -1,0 +1,38 @@
+Goblin981 (0, r1g2) b3-
+Twoshort (1, b1r3) -g3
+build b1 at Goblin981
+build g1 at Twoshort
+build b1 at Goblin981
+convert g1 to y1 at Twoshort
+convert b1 to y1 at Goblin981
+build g1 at Twoshort
+move b1 from Goblin981 to Egg (g3)
+build g1 at Twoshort
+convert b1 to g1 at Egg
+move g1 from Twoshort to Bluestar (b2)
+build y1 at Goblin981
+build g2 at Bluestar
+move y1 from Goblin981 to Blutak (b3)
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Twoshort; build g3 at Twoshort
+move y1 from Blutak to Dark (y2)
+convert g2 to y2 at Bluestar
+build y2 at Goblin981
+sacrifice g3 at Twoshort; build y3 at Twoshort; build y3 at Bluestar; build y3 at Bluestar
+sacrifice y2 at Goblin981; move y1 from Goblin981 to Egg; move y1 from Egg to Bluestar; catastrophe yellow at Bluestar
+move y3 from Twoshort to Bluestar
+build g2 at Egg
+move g2 from Bluestar to Bonanza (b3)
+move y1 from Dark to Egg
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Bonanza; build y1 at Bluestar
+build y2 at Egg
+convert g2 to r2 at Bonanza
+move g2 from Egg to Sheep (y2)
+sacrifice g3 at Twoshort; build y2 at Twoshort; build g2 at Bluestar; build g3 at Bonanza
+sacrifice g2 at Sheep; build b1 at Goblin981; build b1 at Goblin981
+convert g3 to b3 at Bonanza
+convert b3 to y3 at Goblin981
+sacrifice y2 at Twoshort; move g3 from Bonanza to Goblin981; move b3 from Bonanza to Goblin981
+capture g3 at Goblin981
+sacrifice r2 at Bonanza; capture g3 at Goblin981; capture y3 at Goblin981
+build y2 at Egg
+build b2 at Goblin981; catastrophe blue at Goblin981

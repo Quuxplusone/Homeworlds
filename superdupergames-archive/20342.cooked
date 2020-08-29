@@ -1,0 +1,64 @@
+Ajo (0, y2b1) g3-
+Danner (1, b1g2) -b3
+build g1 at Ajo
+build b1 at Danner
+convert g3 to b3 at Ajo
+convert b1 to y1 at Danner
+build g1 at Ajo
+build y1 at Danner
+move g1 from Ajo to Alpha (b3)
+move y1 from Danner to Beta (g3)
+build g1 at Ajo
+build b1 at Danner
+build b2 at Ajo
+move b1 from Danner to Beta
+move b2 from Ajo to Alpha
+build b2 at Danner
+convert b2 to y2 at Alpha
+build b2 at Beta
+build g2 at Alpha
+build b2 at Beta
+move g1 from Alpha to Danner
+convert b2 to r2 at Danner
+sacrifice g2 at Alpha; build g2 at Danner; build g2 at Danner; catastrophe green at Danner
+move b2 from Beta to Gamma (g2)
+convert b3 to r3 at Ajo
+build b2 at Gamma
+move g1 from Ajo to Alpha
+build b3 at Beta
+build g1 at Alpha
+convert b3 to y3 at Beta
+build g2 at Ajo
+build b3 at Gamma
+move g1 from Alpha to Delta (g2)
+sacrifice y3 at Beta; move b3 from Gamma to Epsilon (g3); move b2 from Gamma to Zeta (g3); move b2 from Gamma to Eta (y3)
+build g2 at Alpha
+convert b3 to y3 at Epsilon
+move g2 from Ajo to Epsilon
+build b3 at Zeta
+build y1 at Alpha
+build y2 at Epsilon
+sacrifice y2 at Alpha; move g1 from Delta to Epsilon; move g1 from Ajo to Epsilon; catastrophe green at Epsilon
+convert b3 to y3 at Zeta
+move g2 from Alpha to Ajo
+build b3 at Zeta
+build g1 at Ajo
+convert b3 to r3 at Zeta
+build y2 at Alpha
+build y2 at Zeta
+move g1 from Ajo to Theta (y3)
+move r2 from Danner to Theta
+build g1 at Ajo
+capture g1 at Theta
+build g2 at Alpha
+move r3 from Zeta to Danner
+move g1 from Ajo to Gamma (b3)
+move y1 from Danner to Gamma
+convert g2 to r2 at Alpha
+sacrifice r2 at Theta; capture g1 at Gamma
+build g2 at Alpha
+sacrifice g1 at Theta; build y3 at Beta
+sacrifice y2 at Alpha; move g1 from Alpha to Danner; move g1 from Danner to Beta
+sacrifice y3 at Beta; move y1 from Beta to Ajo; move b1 from Beta to Ajo; move b2 from Beta to Ajo
+sacrifice r2 at Alpha; capture b2 at Ajo; capture b1 at Ajo
+sacrifice y3 at Zeta; move b2 from Zeta to Ajo; move y2 from Zeta to Ajo; move y1 from Gamma to Ajo; catastrophe yellow at Ajo; catastrophe blue at Ajo

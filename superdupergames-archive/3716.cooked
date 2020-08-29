@@ -1,0 +1,101 @@
+Zoltar (0, y1b2) g3-
+Fnord (1, y3b2) -g3
+build g1 at Zoltar
+build g1 at Fnord
+convert g1 to y1 at Zoltar
+build g1 at Fnord
+build y1 at Zoltar
+move g1 from Fnord to Eris (g1)
+build g2 at Zoltar
+build g2 at Fnord
+move y1 from Zoltar to Nix (g3)
+convert g2 to y2 at Fnord
+build g2 at Zoltar
+sacrifice y2 at Fnord; move g1 from Eris to Nix; move g1 from Nix to Zoltar; catastrophe green at Zoltar
+build y2 at Nix
+convert g1 to r1 at Fnord
+build y2 at Nix
+build g1 at Fnord
+move y2 from Nix to Hydra (y2)
+convert g3 to y3 at Fnord
+build y3 at Nix
+sacrifice y3 at Fnord; move r1 from Fnord to Discordia (b1); move r1 from Discordia to Nix; move r1 from Nix to Zoltar
+move y3 from Nix to Zoltar
+build g1 at Fnord
+convert y3 to r3 at Zoltar
+move r1 from Zoltar to Route (g3)
+build y3 at Nix
+convert g1 to r1 at Fnord
+move y3 from Nix to Zoltar
+build g1 at Fnord
+convert y3 to g3 at Zoltar
+build r1 at Route
+build y3 at Zoltar
+build r2 at Route
+move r3 from Zoltar to Route; catastrophe red at Route
+build r1 at Fnord
+convert y3 to r3 at Zoltar
+move g1 from Fnord to Kallisti (g1)
+build g2 at Zoltar
+build g2 at Fnord
+build y3 at Zoltar
+move g1 from Fnord to Sink (b1)
+convert y3 to r3 at Zoltar
+move r1 from Fnord to Sink
+build y3 at Zoltar
+build g2 at Sink
+build g3 at Zoltar
+build r1 at Fnord
+sacrifice y3 at Zoltar; move r3 from Zoltar to Nix; move r3 from Nix to Sink; move r3 from Zoltar to Nix
+sacrifice g2 at Sink; build r2 at Sink; build r2 at Sink; catastrophe red at Sink
+convert g2 to b2 at Zoltar
+build g2 at Sink
+sacrifice g3 at Zoltar; build g2 at Zoltar; build g3 at Zoltar; build y3 at Nix
+move r1 from Fnord to Kallisti
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Hydra; build b1 at Zoltar
+build r1 at Fnord
+sacrifice y3 at Hydra; move b2 from Zoltar to Nix; move g2 from Zoltar to Nix; move g2 from Nix to Hydra
+build r2 at Kallisti
+sacrifice g3 at Zoltar; build g3 at Hydra; build y3 at Hydra; build r2 at Nix
+sacrifice g2 at Fnord; build r2 at Fnord; build r3 at Fnord
+sacrifice g3 at Hydra; build g2 at Zoltar; build r3 at Nix; build b1 at Nix
+move r2 from Fnord to Sink
+sacrifice g3 at Zoltar; build g3 at Hydra; build g3 at Hydra; build b3 at Nix
+move r1 from Fnord to Sink
+sacrifice b3 at Nix; convert g3 to b3 at Hydra; convert r3 to g3 at Nix; convert g3 to r3 at Hydra
+build g3 at Sink
+sacrifice g3 at Nix; build g3 at Hydra; build b3 at Hydra; build b3 at Hydra
+pass
+move y3 from Hydra to Kallisti
+sacrifice g3 at Sink; build g3 at Kallisti
+sacrifice r2 at Nix; capture g3 at Kallisti; capture g1 at Kallisti
+build r2 at Sink
+sacrifice r3 at Hydra; capture r2 at Kallisti; capture r1 at Kallisti
+pass
+sacrifice g3 at Kallisti; build g3 at Zoltar; build r3 at Nix
+pass
+move r1 from Kallisti to Hydra
+pass
+move g1 from Kallisti to Nix
+pass
+move r3 from Nix to Hydra
+sacrifice g1 at Sink
+build g1 at Zoltar
+pass
+move r1 from Hydra to Sink; catastrophe red at Sink
+pass
+move r3 from Hydra to Sink
+pass
+capture g2 at Sink
+pass
+sacrifice g3 at Zoltar; build g3 at Sink; build r1 at Kallisti; build r1 at Sink
+pass
+sacrifice g3 at Hydra; build g3 at Sink; build r2 at Nix; build r2 at Nix
+pass
+move y3 from Nix to Sink
+pass
+move r1 from Kallisti to Fnord
+move r1 from Fnord to Sink
+move r1 from Sink to Fnord
+capture r1 at Fnord
+move r2 from Kallisti to Fnord; catastrophe red at Fnord

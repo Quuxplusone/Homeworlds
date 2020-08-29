@@ -1,0 +1,13 @@
+Mikeyarrum (0, b2y1) g3-
+Dadrk (1, r3g1) -b3
+build g1 at Mikeyarrum
+build b1 at Dadrk
+convert g1 to y1 at Mikeyarrum
+build b1 at Dadrk
+build y1 at Mikeyarrum
+convert b1 to g1 at Dadrk
+move y1 from Mikeyarrum to Sakaki (g3)
+build g1 at Dadrk
+build y2 at Sakaki
+build g2 at Dadrk
+build g2 at Mikeyarrum; catastrophe green at Dadrk

@@ -1,0 +1,106 @@
+Speardane (0, b3y2) g3-
+Draw5Playall (1, b2r1) -g3
+build g1 at Speardane
+build g1 at Draw5Playall
+convert g3 to r3 at Speardane
+convert g1 to r1 at Draw5Playall
+build g1 at Speardane
+build g1 at Draw5Playall
+move g1 from Speardane to Delos (b1)
+convert g1 to y1 at Draw5Playall
+build g1 at Delos
+build g2 at Draw5Playall
+convert g1 to y1 at Delos
+move g2 from Draw5Playall to Water (b3)
+build g1 at Delos
+build g2 at Draw5Playall
+convert g1 to r1 at Delos
+move r1 from Draw5Playall to Water
+build g1 at Delos
+build r2 at Water
+build r2 at Delos
+convert r2 to y2 at Water
+build r2 at Delos
+move r1 from Water to Delos; catastrophe red at Delos
+convert g1 to r1 at Delos
+convert g2 to r2 at Draw5Playall
+build g1 at Delos
+build g2 at Draw5Playall
+move g1 from Delos to Lebling (b3)
+move r2 from Draw5Playall to Earth (g3)
+build g2 at Lebling
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build g3 at Water; build y1 at Draw5Playall
+convert g2 to y2 at Lebling
+convert y1 to b1 at Draw5Playall
+build y1 at Lebling
+sacrifice g3 at Water; build y3 at Draw5Playall; build y3 at Water; build r1 at Earth
+build y3 at Delos
+move y3 from Draw5Playall to Earth
+convert y2 to r2 at Lebling
+build y2 at Draw5Playall
+build r2 at Lebling
+move r2 from Earth to Something (b2)
+build r3 at Delos
+sacrifice g2 at Draw5Playall; build g2 at Draw5Playall; build r3 at Something
+build g2 at Lebling
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build g3 at Water; build b1 at Draw5Playall
+sacrifice y3 at Delos; move r3 from Delos to Kotok (y3); move g1 from Lebling to Draw5Playall; move g2 from Lebling to Draw5Playall; catastrophe green at Draw5Playall
+move g3 from Water to Draw5Playall
+convert r2 to g2 at Lebling
+build g1 at Draw5Playall
+build g2 at Lebling
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build g3 at Water; build r2 at Earth
+move g2 from Lebling to Minsky (b2)
+move y3 from Water to Something
+move y1 from Lebling to Minsky
+move r3 from Something to Lebling
+sacrifice g2 at Lebling; build g2 at Minsky
+capture r2 at Lebling
+move g2 from Minsky to Kotok
+move y1 from Draw5Playall to Lebling
+move r3 from Kotok to Minsky
+move r2 from Lebling to Delos
+sacrifice g2 at Kotok; build y3 at Delos; build g2 at Minsky
+capture y1 at Delos
+capture r2 at Delos
+move y1 from Delos to Lebling
+sacrifice g2 at Minsky; build g2 at Speardane
+move b1 from Draw5Playall to Earth
+sacrifice g2 at Speardane; build g2 at Minsky
+move r2 from Earth to Something
+sacrifice g2 at Minsky; build g2 at Speardane
+move g2 from Water to Something
+sacrifice g2 at Speardane; build g2 at Minsky
+move y2 from Water to Draw5Playall
+sacrifice g2 at Minsky; build g2 at Speardane
+sacrifice g3 at Water; build g3 at Something; build b3 at Earth
+sacrifice g2 at Speardane; build g2 at Minsky
+move b3 from Earth to Something
+sacrifice g2 at Minsky; build g2 at Speardane
+move b1 from Draw5Playall to Earth
+sacrifice g2 at Speardane; build g2 at Minsky
+sacrifice y1 at Lebling; move b3 from Something to Delos
+capture b3 at Delos
+sacrifice y2 at Draw5Playall; move b1 from Earth to Delos; move b1 from Earth to Delos; catastrophe blue at Delos
+move g2 from Minsky to Delos (b3)
+move g3 from Something to Delos
+sacrifice g2 at Delos; build g1 at Minsky; build g2 at Speardane
+sacrifice g3 at Draw5Playall; build r1 at Earth; build r2 at Lebling; build g3 at Draw5Playall
+move g2 from Minsky to Kotok (b1)
+convert g1 to b1 at Draw5Playall
+move g2 from Speardane to Licklider (b1)
+move r2 from Something to Licklider
+move r3 from Minsky to Licklider
+sacrifice y1 at Lebling; move r2 from Licklider to Minsky
+move y1 from Minsky to Kotok
+capture g1 at Minsky
+convert r3 to y3 at Licklider
+sacrifice g3 at Delos; build y1 at Something; build r3 at Minsky; build b3 at Draw5Playall
+build g1 at Licklider
+build g3 at Minsky
+move g2 from Licklider to Delos (y2)
+sacrifice y2 at Draw5Playall; move r3 from Minsky to Kotok; move g3 from Minsky to Node (y1)
+sacrifice y1 at Kotok; move g2 from Kotok to Fritz (y2)
+sacrifice y3 at Earth; move r3 from Kotok to Speardane; move g3 from Node to Speardane; move b3 from Draw5Playall to Earth
+pass
+sacrifice r2 at Lebling; capture r3 at Speardane; capture g1 at Speardane

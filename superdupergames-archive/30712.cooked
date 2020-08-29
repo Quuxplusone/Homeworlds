@@ -1,0 +1,42 @@
+Joe_Hill (0, b2y1) g3-
+Agentofchaos (1, r1b3) -g3
+build g1 at Joe_Hill
+build g1 at Agentofchaos
+convert g1 to y1 at Joe_Hill
+convert g1 to y1 at Agentofchaos
+build g1 at Joe_Hill
+build y2 at Agentofchaos
+build y2 at Joe_Hill
+build y2 at Agentofchaos
+move y2 from Joe_Hill to Flat (g3)
+convert y1 to g1 at Agentofchaos
+convert g1 to b1 at Joe_Hill
+move y2 from Agentofchaos to Omegahedron (g2)
+build g1 at Joe_Hill
+build y1 at Agentofchaos
+build y3 at Flat
+build y3 at Omegahedron
+move b1 from Joe_Hill to Flat
+convert g1 to b1 at Agentofchaos
+convert y3 to r3 at Flat
+sacrifice b1 at Agentofchaos; convert y3 to r3 at Omegahedron
+build y3 at Flat
+build y3 at Omegahedron
+move y3 from Flat to Stat (b2)
+move y3 from Omegahedron to Satrap (r3)
+move r3 from Flat to Stat
+build y3 at Omegahedron
+move y2 from Flat to Stat
+move y2 from Omegahedron to Flat
+move g1 from Joe_Hill to Flat
+move r3 from Omegahedron to Flat
+build g1 at Joe_Hill
+capture g1 at Flat
+convert g1 to r1 at Joe_Hill
+capture b1 at Flat
+build g1 at Joe_Hill
+sacrifice y2 at Agentofchaos; move y2 from Flat to Joe_Hill; move y3 from Satrap to Joe_Hill; catastrophe yellow at Joe_Hill
+convert g3 to r3 at Joe_Hill
+build b1 at Flat
+build g1 at Joe_Hill
+convert g1 to b1 at Flat

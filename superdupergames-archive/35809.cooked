@@ -1,0 +1,60 @@
+Draw5Playall (0, b3r1) g3-
+Trydnt (1, y3b2) -g3
+build g1 at Draw5Playall
+build g1 at Trydnt
+convert g1 to r1 at Draw5Playall
+convert g1 to r1 at Trydnt
+build r2 at Draw5Playall
+build r2 at Trydnt
+convert r2 to y2 at Draw5Playall
+convert r2 to y2 at Trydnt
+build r2 at Draw5Playall
+build r2 at Trydnt
+convert r2 to b2 at Draw5Playall
+convert r1 to b1 at Trydnt
+move b2 from Draw5Playall to Construct (g2)
+move b1 from Trydnt to G1 (g1)
+build b1 at Construct
+move y2 from Trydnt to G1
+move r1 from Draw5Playall to Construct
+build b1 at G1
+build y1 at Draw5Playall
+build g1 at Trydnt
+move y2 from Draw5Playall to Construct
+build y1 at G1
+move b2 from Construct to Build (g1)
+move b1 from G1 to G2 (g2)
+build y1 at Construct
+build b2 at G1
+build b3 at Construct
+build b3 at G2
+convert b3 to r3 at Construct
+convert b2 to r2 at G1
+build g2 at Draw5Playall
+build g3 at Trydnt
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build b2 at Construct; build b3 at Build
+convert b3 to y3 at G2
+sacrifice b2 at Construct; convert b3 to y3 at Build
+sacrifice g3 at Trydnt; build y2 at G2; build r1 at G1; build g3 at Trydnt
+sacrifice y3 at Build; move g2 from Draw5Playall to G2; move g2 from G2 to Build; move g2 from Build to Trydnt; catastrophe green at Trydnt
+sacrifice y2 at G2; move r1 from G1 to Construct; move r2 from G1 to Construct; catastrophe red at Construct
+convert y1 to r1 at Construct
+convert y2 to g2 at G1
+build g1 at Draw5Playall
+move g2 from G1 to Trydnt
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build g3 at Draw5Playall; build b2 at Build
+build g3 at Trydnt
+sacrifice g1 at Draw5Playall; build b3 at Construct
+build b3 at G1
+convert b2 to y2 at Build
+convert b3 to y3 at G1
+convert g3 to r3 at Draw5Playall
+sacrifice g2 at Trydnt; build b2 at G1; build b3 at G2
+sacrifice y2 at Construct; move r3 from Draw5Playall to Construct; move r3 from Construct to Build
+convert b1 to r1 at G1
+convert b1 to y1 at Construct
+build r2 at Trydnt
+build b1 at Build
+move b3 from G2 to Draw5Playall
+capture b3 at Draw5Playall
+sacrifice y3 at G2; move b2 from G1 to G2; move b1 from G2 to Draw5Playall; move b2 from G2 to Draw5Playall; catastrophe blue at Draw5Playall

@@ -1,0 +1,12 @@
+Greedyalgorithm (0, y1b2) g3-
+Eugman (1, b3g2) -y3
+build g1 at Greedyalgorithm
+build y1 at Eugman
+build g1 at Greedyalgorithm
+move y1 from Eugman to Newireland (g1)
+move g1 from Greedyalgorithm to Motieprime (y3)
+build y1 at Eugman
+sacrifice g3 at Greedyalgorithm; build g2 at Motieprime; build g2 at Greedyalgorithm; build g3 at Greedyalgorithm
+convert y3 to g3 at Eugman
+convert g2 to y2 at Greedyalgorithm
+build y2 at Newireland

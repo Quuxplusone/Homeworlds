@@ -1,0 +1,44 @@
+Magicjohn (0, y1b2) g3-
+Babamots (1, b3r1) -g3
+build g1 at Magicjohn
+build g1 at Babamots
+move g1 from Magicjohn to Shelob (b3)
+convert g1 to y1 at Babamots
+build g1 at Shelob
+build y1 at Babamots
+convert g1 to b1 at Shelob
+pass
+build g1 at Magicjohn
+build y2 at Babamots
+move g3 from Magicjohn to Gandalf (y3)
+move y1 from Babamots to Bolius (b2)
+convert g1 to r1 at Magicjohn
+sacrifice g3 at Babamots; build y2 at Bolius; build y2 at Bolius; build y3 at Babamots
+build g1 at Gandalf
+convert y3 to g3 at Babamots
+move g3 from Gandalf to Magicjohn
+build y3 at Babamots
+build g1 at Shelob
+build g2 at Babamots
+build g2 at Magicjohn
+move y2 from Bolius to Risa (g3)
+build g2 at Gandalf
+build y3 at Risa
+build r1 at Magicjohn
+convert y2 to r2 at Bolius
+sacrifice b1 at Shelob; convert g2 to y2 at Gandalf
+sacrifice g2 at Babamots; build g2 at Babamots; build r2 at Bolius
+build g2 at Gandalf
+move r2 from Bolius to Shelob
+move r1 from Magicjohn to Gandalf
+capture g1 at Shelob
+sacrifice g3 at Magicjohn; build r2 at Gandalf; build r3 at Magicjohn; build g3 at Magicjohn
+sacrifice g3 at Babamots; build r3 at Bolius; build r3 at Shelob; build g3 at Babamots
+move y2 from Gandalf to Elron (b2)
+capture g1 at Shelob
+move y2 from Elron to Babamots; catastrophe yellow at Babamots
+sacrifice y2 at Risa; move g1 from Shelob to Magicjohn; move g1 from Shelob to Magicjohn; catastrophe green at Magicjohn
+convert r1 to g1 at Magicjohn
+convert r2 to g2 at Bolius
+move g1 from Magicjohn to Golum (g3)
+move r3 from Bolius to Golum

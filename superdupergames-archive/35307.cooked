@@ -1,0 +1,26 @@
+Bhorner (0, b1r2) g3-
+Wil (1, g3b1) -b3
+build g1 at Bhorner
+build b1 at Wil
+convert g1 to y1 at Bhorner
+convert b3 to y3 at Wil
+build y1 at Bhorner
+build b2 at Wil
+move y1 from Bhorner to Tree (g3)
+move b1 from Wil to B2 (b2)
+build g1 at Bhorner
+build b2 at Wil
+move y1 from Bhorner to Snowman (b3)
+move b2 from Wil to G2 (g2)
+move y1 from Tree to B2
+build b3 at Wil
+convert g3 to b3 at Bhorner
+convert b1 to r1 at B2
+move y1 from B2 to Tree (g3)
+convert b3 to g3 at Wil
+sacrifice y1 at Tree; move g1 from Bhorner to Manofsnow (b3)
+build b1 at G2
+build g1 at Manofsnow
+convert b2 to y2 at G2
+sacrifice g1 at Manofsnow; build b2 at Bhorner
+sacrifice y2 at G2; move b1 from G2 to Manofsnow; move b1 from Manofsnow to Bhorner; catastrophe blue at Bhorner

@@ -1,0 +1,40 @@
+Stormcrow (0, r1b2) g3-
+Dlwillson (1, b1r3) -g3
+build g1 at Stormcrow
+build g1 at Dlwillson
+convert g1 to y1 at Stormcrow
+convert g1 to y1 at Dlwillson
+build g1 at Stormcrow
+build g1 at Dlwillson
+move g1 from Stormcrow to Zork (y3)
+convert g1 to b1 at Dlwillson
+build g1 at Zork
+build b1 at Dlwillson
+build g1 at Stormcrow
+build g2 at Dlwillson
+build g2 at Zork
+move b1 from Dlwillson to Sol (y2)
+move g1 from Zork to Sol
+sacrifice g2 at Dlwillson; build b2 at Sol; build b2 at Sol
+build g2 at Sol
+move b2 from Sol to Forest (g3)
+build g2 at Zork
+build b3 at Dlwillson
+move g2 from Sol to Xyzzy (b3)
+build b3 at Forest
+convert g2 to r2 at Xyzzy
+sacrifice b2 at Forest; convert b2 to r2 at Sol; convert b3 to r3 at Dlwillson
+sacrifice g1 at Sol; build r1 at Xyzzy
+sacrifice g3 at Dlwillson; build b2 at Dlwillson; build b2 at Forest; build b3 at Forest
+build y1 at Stormcrow
+convert b3 to y3 at Forest
+move y1 from Stormcrow to Omega (g3)
+build b3 at Forest
+build y2 at Omega
+convert b2 to g2 at Dlwillson
+move g2 from Zork to Alpha (b2)
+sacrifice g2 at Dlwillson; build y2 at Forest; build y3 at Dlwillson
+sacrifice g2 at Zork; build g1 at Zork; build g2 at Alpha
+sacrifice y3 at Dlwillson; move b3 from Forest to Stormcrow; move b3 from Forest to Stormcrow; move y3 from Forest to Stormcrow
+sacrifice r2 at Xyzzy; capture y3 at Stormcrow; capture b3 at Stormcrow
+sacrifice r3 at Dlwillson; capture y3 at Stormcrow; capture b3 at Stormcrow; capture g3 at Stormcrow

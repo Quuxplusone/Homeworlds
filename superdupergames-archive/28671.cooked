@@ -1,0 +1,36 @@
+Kanzenryu (0, y1b3) g3-
+Uglyfoot (1, b2y3) -g3
+build g1 at Kanzenryu
+build g1 at Uglyfoot
+convert g1 to y1 at Kanzenryu
+move g1 from Uglyfoot to Bluette (b1)
+build g1 at Kanzenryu
+build g1 at Uglyfoot
+move g1 from Kanzenryu to Out (y2)
+build g2 at Bluette
+build g2 at Out
+convert g2 to y2 at Bluette
+move g2 from Out to Peep (y1)
+convert g1 to r1 at Uglyfoot
+convert y1 to r1 at Kanzenryu
+build y1 at Bluette
+build r1 at Kanzenryu
+build y2 at Bluette
+build r2 at Kanzenryu
+move y2 from Bluette to Kaboom (r2)
+move r1 from Kanzenryu to Out
+build y3 at Bluette
+build g1 at Peep
+convert y3 to r3 at Bluette
+move g1 from Out to Peep2 (b1)
+build g2 at Bluette
+build g2 at Peep2
+move r3 from Bluette to Uglyfoot
+build g3 at Kanzenryu
+build y3 at Bluette
+convert g3 to y3 at Kanzenryu
+sacrifice y3 at Bluette; move y1 from Bluette to Kaboom; move y1 from Kaboom to Kanzenryu; move y2 from Kaboom to Kanzenryu; catastrophe yellow at Kanzenryu
+build g3 at Kanzenryu
+move r1 from Uglyfoot to Bluette
+convert g1 to y1 at Peep2
+sacrifice y2 at Bluette; move g1 from Bluette to Kanzenryu; move g2 from Bluette to Kanzenryu; catastrophe green at Kanzenryu

@@ -1,0 +1,25 @@
+Agentofchaos (0, r3b2) g3-
+Shmil1 (1, b3g3) -y3
+build g1 at Agentofchaos
+build y1 at Shmil1
+build g1 at Agentofchaos
+convert y3 to r3 at Shmil1
+convert g1 to y1 at Agentofchaos
+build r1 at Shmil1
+build g1 at Agentofchaos
+convert r1 to g1 at Shmil1
+convert g1 to r1 at Agentofchaos
+build r1 at Shmil1
+move r1 from Agentofchaos to Terrorworld (y1)
+build y2 at Shmil1
+build y2 at Agentofchaos
+move r3 from Shmil1 to Terrorworld
+move r1 from Terrorworld to Agentofchaos
+move r3 from Terrorworld to Agentofchaos
+capture r3 at Agentofchaos
+sacrifice y2 at Shmil1; move r1 from Shmil1 to Giborum (g1); move r1 from Giborum to Agentofchaos; catastrophe red at Agentofchaos
+move g3 from Agentofchaos to Shmil1
+convert g1 to r1 at Shmil1
+convert y2 to r2 at Agentofchaos
+convert r1 to b1 at Shmil1
+sacrifice r2 at Agentofchaos; capture b1 at Shmil1; capture y1 at Shmil1

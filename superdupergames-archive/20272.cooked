@@ -1,0 +1,23 @@
+Jesse (0, r1b3) g3-
+Lorgar (1, b3y2) -g3
+build g1 at Jesse
+build g1 at Lorgar
+convert g1 to y1 at Jesse
+convert g1 to r1 at Lorgar
+build y1 at Jesse
+build g1 at Lorgar
+build y1 at Jesse
+move g1 from Lorgar to M0 (b1)
+build g1 at Jesse
+build g1 at Lorgar
+move g1 from Jesse to Grover (b2)
+build g2 at M0
+build g2 at Grover
+sacrifice g3 at Lorgar; build g2 at M0; build g3 at Lorgar; build g3 at Lorgar
+convert g2 to r2 at Grover
+convert g2 to y2 at M0
+move y1 from Jesse to Grover
+convert g2 to r2 at M0
+move y1 from Jesse to Cookie (b2)
+move g3 from Lorgar to M0
+sacrifice g3 at Jesse; build y2 at Cookie; build y3 at Grover; build y3 at Jesse

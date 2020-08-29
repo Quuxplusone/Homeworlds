@@ -1,0 +1,36 @@
+Deanthebean (0, y1b2) g3-
+Babamots (1, b3r1) -g3
+build g1 at Deanthebean
+build g1 at Babamots
+convert g1 to r1 at Deanthebean
+convert g1 to y1 at Babamots
+build r1 at Deanthebean
+build y1 at Babamots
+build r2 at Deanthebean
+build y2 at Babamots
+convert r2 to y2 at Deanthebean
+move y1 from Babamots to Bajor (g2)
+build r2 at Deanthebean
+sacrifice g3 at Babamots; build y2 at Bajor; build y3 at Bajor; build y3 at Babamots
+move y2 from Deanthebean to A1 (g3)
+move y2 from Bajor to Iconia (y3)
+convert r1 to b1 at Deanthebean
+convert y1 to b1 at Babamots
+build y1 at A1
+convert y2 to g2 at Babamots
+convert r2 to y2 at Deanthebean
+build b1 at Babamots
+build r1 at Deanthebean
+build g1 at Babamots
+build r2 at Deanthebean
+convert g2 to r2 at Babamots
+convert r2 to g2 at Deanthebean
+move b1 from Babamots to Bajor
+build r2 at Deanthebean
+build b2 at Bajor
+move b1 from Deanthebean to A1
+move b2 from Bajor to Zakdorn (g3)
+move r1 from Deanthebean to A1
+sacrifice y3 at Bajor; move y1 from Bajor to A1; move y1 from A1 to Deanthebean; move y2 from Iconia to Deanthebean; catastrophe yellow at Deanthebean
+build r2 at A1
+move b1 from Babamots to Deanthebean

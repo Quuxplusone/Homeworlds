@@ -1,0 +1,41 @@
+Felix (0, r1y1) g3-
+Wil (1, g3y1) -y3
+build g1 at Felix
+build y1 at Wil
+move g1 from Felix to Zimmer (b2)
+move y1 from Wil to Zimmer
+convert g1 to r1 at Zimmer
+move y1 from Zimmer to G3 (g3)
+build g1 at Felix
+build y2 at G3
+move g1 from Felix to Zimmer
+move y2 from G3 to Zimmer
+build r1 at Zimmer
+convert y2 to r2 at Zimmer
+build r2 at Zimmer; catastrophe red at Zimmer
+build y2 at Wil
+build g1 at Zimmer
+build y2 at G3
+build g1 at Felix
+move y2 from Wil to Zimmer
+move g1 from Felix to Duluth (b2)
+convert y2 to r2 at Zimmer
+build g2 at Duluth
+capture g1 at Zimmer
+build g2 at Felix
+capture g1 at Zimmer
+move g2 from Felix to Alazar (b2)
+move y1 from G3 to Zimmer
+convert g2 to y2 at Duluth
+build y2 at G3
+build y3 at Duluth
+build y3 at Zimmer
+build g2 at Alazar
+convert y3 to b3 at Zimmer
+move y2 from Duluth to Wil
+sacrifice y2 at G3; move b3 from Zimmer to Wil; move y3 from Wil to Alazar
+sacrifice g2 at Alazar; build y2 at Wil; build y3 at Wil; catastrophe yellow at Wil
+convert g1 to b1 at Zimmer
+sacrifice g2 at Alazar; build g1 at Duluth; build g2 at Felix
+build g2 at Zimmer
+sacrifice y3 at Duluth; move g1 from Duluth to Wil; move g1 from Duluth to Wil; move g2 from Felix to Wil; catastrophe green at Wil

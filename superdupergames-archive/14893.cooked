@@ -1,0 +1,86 @@
+Face (0, r3b2) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Face
+build g1 at Ts52
+convert g3 to y3 at Face
+convert g1 to y1 at Ts52
+build g1 at Face
+move y1 from Ts52 to Grover (g3)
+convert g1 to r1 at Face
+build g1 at Ts52
+move r1 from Face to Smash (y1)
+build y2 at Grover
+build y2 at Face
+convert g1 to b1 at Ts52
+build g1 at Face
+move b1 from Ts52 to Grover
+convert y2 to r2 at Face
+convert y2 to r2 at Grover
+build y2 at Face
+build y2 at Grover
+move r2 from Face to Smash
+build r1 at Grover
+move g1 from Face to Smash
+build b1 at Grover
+convert y2 to b2 at Face
+move r1 from Grover to Ts52
+build y2 at Face
+build r1 at Grover
+move b2 from Face to Smash
+move r2 from Grover to Kermit (g2)
+move y2 from Face to Smash
+move y1 from Grover to Kermit
+move y2 from Smash to Waste (r3)
+move b1 from Grover to Kermit
+build g1 at Smash
+build g2 at Ts52
+move g1 from Smash to Waste
+move g2 from Ts52 to Elmo (r3)
+move r1 from Smash to Plaster (g3)
+build g2 at Ts52
+build r2 at Plaster
+move g2 from Ts52 to Bigbird (y3)
+build b1 at Smash
+sacrifice g2 at Elmo; build g2 at Ts52; build r3 at Grover
+move g1 from Smash to Plaster
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Grover; build y3 at Kermit
+sacrifice y2 at Waste; move g1 from Waste to Ts52; move g1 from Plaster to Ts52; catastrophe green at Ts52
+sacrifice y2 at Grover; move y3 from Kermit to Grover; move y3 from Grover to Ts52
+move b1 from Smash to Plaster
+build r3 at Kermit
+build b3 at Plaster
+convert y3 to g3 at Ts52
+convert b3 to y3 at Plaster
+move r3 from Grover to Smash
+move r2 from Smash to Waste (y2)
+capture b2 at Smash
+build y2 at Plaster
+move r1 from Grover to Robin (g1)
+build b3 at Plaster
+sacrifice y2 at Grover; move b1 from Kermit to Plaster; move b2 from Smash to Plaster; catastrophe blue at Plaster
+build g1 at Face
+build g2 at Ts52
+convert g1 to b1 at Face
+sacrifice g3 at Ts52; build g1 at Bigbird; build g3 at Ts52; build y2 at Kermit
+move b1 from Face to Tank (b1)
+move y2 from Kermit to Grover
+move r2 from Plaster to Robin
+move g1 from Bigbird to Smash
+capture r1 at Robin
+sacrifice g2 at Bigbird; build g2 at Smash; build y3 at Grover
+move y2 from Plaster to Tank
+move r3 from Kermit to Tank
+move y3 from Plaster to Kermit
+capture y2 at Tank
+sacrifice r2 at Robin; capture y1 at Kermit; capture r2 at Kermit
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Ts52; build b2 at Grover
+move y1 from Kermit to Plaster
+capture b1 at Tank
+move r2 from Kermit to Trash (b3)
+sacrifice g3 at Ts52; build g3 at Ts52; build b3 at Grover; build b3 at Tank
+move y1 from Plaster to Robin
+move r2 from Ts52 to Plaster
+move r1 from Robin to Plaster
+move g2 from Smash to Grover
+sacrifice y3 at Kermit; move r1 from Plaster to Ts52; move r1 from Plaster to Ts52; move r2 from Trash to Ts52
+sacrifice g3 at Ts52; build g2 at Smash; build g3 at Ts52; build y3 at Tank; catastrophe red at Ts52

@@ -1,0 +1,23 @@
+Xmiyux (0, y2b1) g3-
+Canisfirebrand (1, b2y1) -g3
+build g1 at Xmiyux
+build g1 at Canisfirebrand
+convert g1 to y1 at Xmiyux
+move g1 from Canisfirebrand to Inverness (y3)
+build g1 at Xmiyux
+build g1 at Canisfirebrand
+move y1 from Xmiyux to Miranda (g3)
+build g2 at Canisfirebrand
+move g1 from Xmiyux to Serenityvalley (b3)
+move g1 from Canisfirebrand to Erebus (r3)
+build g2 at Xmiyux
+build g2 at Erebus
+build y1 at Miranda
+convert g2 to b2 at Canisfirebrand
+sacrifice g3 at Xmiyux; build g2 at Serenityvalley; build g3 at Xmiyux; build y2 at Miranda
+move b2 from Canisfirebrand to Erebus
+move y1 from Miranda to Akers (y2)
+move g1 from Inverness to Canisfirebrand
+sacrifice g3 at Xmiyux; build g3 at Xmiyux; build y3 at Miranda; build y3 at Akers
+sacrifice g3 at Canisfirebrand; build g3 at Canisfirebrand; build b1 at Erebus; build b1 at Erebus
+sacrifice y2 at Miranda; move g1 from Serenityvalley to Canisfirebrand; move g2 from Serenityvalley to Canisfirebrand; catastrophe green at Canisfirebrand

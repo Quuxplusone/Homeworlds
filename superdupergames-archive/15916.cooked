@@ -1,0 +1,34 @@
+Shmil1 (0, y1b3) g3-
+Rootbier (1, b2r2) -g3
+build g1 at Shmil1
+build g1 at Rootbier
+convert g1 to r1 at Shmil1
+convert g1 to y1 at Rootbier
+build g1 at Shmil1
+build g1 at Rootbier
+convert g1 to b1 at Shmil1
+convert g1 to r1 at Rootbier
+build r1 at Shmil1
+move r1 from Rootbier to Bagatelle (g3)
+build r2 at Shmil1
+build y1 at Rootbier
+convert r2 to y2 at Shmil1
+move y1 from Rootbier to Bagatelle
+build r2 at Shmil1
+sacrifice g3 at Rootbier; build y2 at Bagatelle; build y2 at Bagatelle; build y3 at Rootbier
+sacrifice y2 at Shmil1; move r1 from Shmil1 to Rootbier; move r1 from Shmil1 to Rootbier
+build r2 at Bagatelle
+sacrifice g3 at Shmil1; build r3 at Shmil1; build b1 at Shmil1; build r3 at Rootbier; catastrophe red at Rootbier
+convert y3 to r3 at Rootbier
+convert r2 to g2 at Shmil1
+convert y1 to g1 at Rootbier
+move b1 from Shmil1 to Rootbier
+capture b1 at Rootbier
+build b1 at Shmil1
+sacrifice y1 at Bagatelle; move b1 from Rootbier to Shmil1; catastrophe blue at Shmil1
+move g2 from Shmil1 to Obloha (b3)
+sacrifice y2 at Bagatelle; move y2 from Bagatelle to Rootbier; move y2 from Rootbier to Obloha
+build g1 at Obloha
+sacrifice r2 at Bagatelle; capture g1 at Obloha; capture g2 at Obloha
+pass
+build y1 at Obloha

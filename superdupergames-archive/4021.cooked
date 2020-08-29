@@ -1,0 +1,48 @@
+Uglyfoot (0, b3y2) g3-
+Zoltar (1, r1b2) -g3
+build g1 at Uglyfoot
+build g1 at Zoltar
+move g1 from Uglyfoot to Porch (b1)
+convert g1 to y1 at Zoltar
+build g1 at Uglyfoot
+build y1 at Zoltar
+convert g1 to r1 at Uglyfoot
+convert y1 to r1 at Zoltar
+build r2 at Uglyfoot
+build r2 at Zoltar
+build g1 at Uglyfoot
+build y1 at Zoltar
+convert g1 to y1 at Uglyfoot
+build y2 at Zoltar
+build r2 at Uglyfoot
+move r2 from Zoltar to Greenbelt (g3)
+move r2 from Uglyfoot to Tree (g1)
+build r3 at Greenbelt
+build r3 at Tree
+build r3 at Zoltar
+build y2 at Uglyfoot
+move r3 from Zoltar to Yellowstone (y3)
+move y2 from Uglyfoot to Porch
+sacrifice y2 at Zoltar; move y1 from Zoltar to Greenbelt; move r3 from Greenbelt to Porch
+sacrifice y1 at Uglyfoot; move r3 from Tree to Greenbelt
+sacrifice r2 at Greenbelt; capture y2 at Porch; capture g1 at Porch
+capture y1 at Greenbelt
+build r2 at Porch
+build g1 at Uglyfoot
+build g2 at Zoltar
+convert r2 to y2 at Uglyfoot
+sacrifice g2 at Zoltar; build g2 at Zoltar; build r2 at Yellowstone
+move y2 from Uglyfoot to Tree
+move r3 from Yellowstone to Tree
+build y1 at Tree
+sacrifice r3 at Porch; capture r2 at Tree; capture y2 at Tree; capture y1 at Tree
+sacrifice g3 at Uglyfoot; build r3 at Uglyfoot; build y3 at Greenbelt; build g2 at Uglyfoot
+sacrifice y2 at Tree; move r2 from Porch to Uglyfoot; move r2 from Tree to Uglyfoot; catastrophe red at Uglyfoot
+sacrifice y3 at Greenbelt; move r3 from Greenbelt to Tree; move r3 from Tree to Uglyfoot; move g1 from Uglyfoot to Porch
+sacrifice r1 at Zoltar; capture g1 at Porch
+build y2 at Greenbelt
+sacrifice g2 at Zoltar; build y3 at Porch; build y3 at Zoltar
+build r1 at Uglyfoot
+build g2 at Zoltar
+move r1 from Uglyfoot to Rightout (b1)
+sacrifice g3 at Zoltar; build g2 at Porch; build g3 at Zoltar; build g3 at Zoltar

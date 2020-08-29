@@ -1,0 +1,22 @@
+Virx61 (0, g3b2) y3-
+Nupanick (1, y1b3) -g3
+build y1 at Virx61
+build g1 at Nupanick
+move y1 from Virx61 to Tina (g1)
+convert g1 to r1 at Nupanick
+convert y3 to g3 at Virx61
+build g1 at Nupanick
+build y1 at Tina
+move g1 from Nupanick to Atlantis (b2)
+build g1 at Virx61
+build g2 at Atlantis
+sacrifice y1 at Tina; move g1 from Virx61 to Tina
+convert g2 to y2 at Atlantis
+move g1 from Tina to Aries (r3)
+build g2 at Atlantis
+move y1 from Tina to Daniel (b2)
+move g2 from Atlantis to Zena (r1)
+convert y1 to g1 at Daniel
+move g1 from Atlantis to Zena
+build g2 at Daniel
+sacrifice y2 at Atlantis; move g1 from Zena to Virx61; move g2 from Zena to Virx61; catastrophe green at Virx61

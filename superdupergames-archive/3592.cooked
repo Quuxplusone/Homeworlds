@@ -1,0 +1,14 @@
+Zoltar (0, y3b1) g3-
+Twoshort (1, b1r2) -g3
+build g1 at Zoltar
+build g1 at Twoshort
+build g1 at Zoltar
+build g2 at Twoshort
+move g1 from Zoltar to Z1 (b2)
+convert g2 to y2 at Twoshort
+build g2 at Zoltar
+move g1 from Twoshort to Yolonda (y3)
+convert g2 to r2 at Zoltar
+build g2 at Twoshort
+build g2 at Zoltar
+sacrifice y2 at Twoshort; move g1 from Yolonda to Z1; move g1 from Z1 to Zoltar; catastrophe green at Zoltar

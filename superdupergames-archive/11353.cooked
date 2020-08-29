@@ -1,0 +1,25 @@
+Madwuher (0, r1b3) g3-
+W00T (1, g3b2) -y3
+build g1 at Madwuher
+build y1 at W00T
+convert g1 to y1 at Madwuher
+move y1 from W00T to O_O (b1)
+build g1 at Madwuher
+convert y1 to g1 at O_O
+move g1 from Madwuher to Edora (b2)
+build y1 at W00T
+build g1 at Madwuher
+build g2 at O_O
+build g2 at Edora
+convert g1 to y1 at O_O
+convert g2 to y2 at Edora
+move g2 from O_O to Reactor (g3)
+build y2 at Edora
+convert y1 to r1 at W00T
+convert y2 to r2 at Edora
+build r1 at W00T
+build r2 at Edora
+move r1 from W00T to O_O
+move r2 from Edora to Bologna (g1)
+sacrifice g2 at Reactor; build y1 at W00T; build y2 at O_O
+sacrifice g3 at Madwuher; build y2 at Edora; build g2 at Edora; build g2 at Madwuher

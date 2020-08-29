@@ -1,0 +1,43 @@
+Twoshort (0, r1b3) g3-
+Dayleh (1, b1g2) -y3
+build g1 at Twoshort
+build y1 at Dayleh
+convert g1 to y1 at Twoshort
+convert y1 to r1 at Dayleh
+build g1 at Twoshort
+build r1 at Dayleh
+build g1 at Twoshort
+build r2 at Dayleh
+move g1 from Twoshort to Bluonia (b2)
+move r1 from Dayleh to Tammy (g3)
+build g1 at Twoshort
+convert r2 to g2 at Dayleh
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g3 at Bluonia; build g3 at Twoshort
+sacrifice g2 at Dayleh; build r2 at Dayleh; build r2 at Tammy
+convert g2 to r2 at Bluonia
+build r3 at Dayleh
+sacrifice g3 at Bluonia; build r3 at Bluonia; build r3 at Bluonia; build g2 at Bluonia
+sacrifice y3 at Dayleh; move r1 from Tammy to Bluonia; move r1 from Bluonia to Temp (y3); move r1 from Temp to Bluonia; catastrophe red at Bluonia
+move g1 from Twoshort to Yolonda (y2)
+convert r3 to g3 at Dayleh
+sacrifice g3 at Twoshort; build g2 at Bluonia; build y1 at Twoshort; build g3 at Twoshort
+convert r2 to y2 at Dayleh
+convert g2 to r2 at Bluonia
+build g2 at Dayleh
+convert g2 to y2 at Bluonia
+sacrifice g2 at Dayleh; build y1 at Dayleh; build y3 at Dayleh
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g2 at Yolonda; build g3 at Twoshort
+move y2 from Dayleh to Callie (y3)
+sacrifice g3 at Twoshort; build y3 at Bluonia; build r1 at Bluonia; build g3 at Twoshort
+build r2 at Dayleh
+move y3 from Bluonia to Tammy
+sacrifice y2 at Callie; move y3 from Dayleh to Temp (r3); move y3 from Temp to Bluonia
+sacrifice g3 at Twoshort; build y2 at Bluonia; build y3 at Bluonia; build g3 at Twoshort; catastrophe yellow at Bluonia
+build y2 at Dayleh
+sacrifice r1 at Bluonia; capture r2 at Tammy
+move r1 from Dayleh to Kadon (y3)
+convert g1 to b1 at Bluonia
+convert y1 to b1 at Dayleh
+sacrifice g3 at Twoshort; build g1 at Bluonia; build g3 at Twoshort; build y1 at Tammy
+move r2 from Dayleh to Callie (y3)
+convert g2 to y2 at Bluonia

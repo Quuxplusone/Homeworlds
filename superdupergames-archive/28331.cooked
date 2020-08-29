@@ -1,0 +1,17 @@
+Endo (0, b1y3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Endo
+build g1 at Ts52
+convert g1 to b1 at Endo
+convert g1 to b1 at Ts52
+build b2 at Endo
+move b1 from Ts52 to Kermit (g3)
+move b1 from Endo to Pspace (g2)
+build g1 at Ts52
+build g1 at Endo
+convert g1 to y1 at Ts52
+convert g1 to y1 at Endo
+build y2 at Ts52
+build y2 at Endo
+move y2 from Ts52 to Grover (b3)
+move y1 from Endo to Bqp (g2)

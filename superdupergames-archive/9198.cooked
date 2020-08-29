@@ -1,0 +1,18 @@
+Spacehobo (0, b1y2) g3-
+Zoltar (1, b1g3) -b3
+build g1 at Spacehobo
+build b1 at Zoltar
+build g1 at Spacehobo
+convert b3 to y3 at Zoltar
+move g1 from Spacehobo to Cockfosters (y3)
+build b2 at Zoltar
+build g1 at Cockfosters
+convert b2 to g2 at Zoltar
+convert g1 to y1 at Spacehobo
+build b2 at Zoltar
+build g1 at Spacehobo
+move g2 from Zoltar to Yabbadabbadoo (y2)
+convert g1 to r1 at Spacehobo
+convert b2 to r2 at Zoltar
+move g1 from Cockfosters to Upminster (g1)
+build b2 at Zoltar

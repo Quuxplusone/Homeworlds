@@ -1,0 +1,12 @@
+Mobynostromo (0, b1g2) y3-
+Trydnt (1, y3g1) -b3
+build y1 at Mobynostromo
+build b1 at Trydnt
+build y1 at Mobynostromo
+build b1 at Trydnt
+move y1 from Mobynostromo to Jollygreen (g3)
+move b1 from Trydnt to Y2 (y2)
+build y1 at Jollygreen
+build b2 at Trydnt
+build y2 at Mobynostromo
+move b2 from Trydnt to Y2

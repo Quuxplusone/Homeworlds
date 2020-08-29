@@ -1,0 +1,26 @@
+Lorgar (0, g3y2) b3-
+Daselva (1, r2b1) -g3
+build b1 at Lorgar
+build g1 at Daselva
+build b1 at Lorgar
+build g1 at Daselva
+move b1 from Lorgar to Tc2 (g1)
+convert g1 to y1 at Daselva
+build b2 at Tc2
+convert g3 to r3 at Daselva
+convert b2 to r2 at Tc2
+build g1 at Daselva
+build b2 at Tc2
+build g2 at Daselva
+convert b2 to g2 at Tc2
+move g1 from Daselva to S1 (y3)
+build b2 at Tc2
+build g2 at S1
+convert b2 to y2 at Tc2
+move r3 from Daselva to S1
+move b3 from Lorgar to Tc2
+move r3 from S1 to S2 (y1)
+sacrifice y2 at Tc2; move b3 from Tc2 to S1; move b3 from S1 to Daselva
+move r3 from S2 to Lorgar
+sacrifice r2 at Tc2; capture g2 at Daselva; capture g1 at Daselva
+capture b1 at Lorgar

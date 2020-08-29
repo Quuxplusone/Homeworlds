@@ -1,0 +1,23 @@
+Silenttitan (0, r1b2) g3-
+Gnomekin (1, y1b2) -g3
+build g1 at Silenttitan
+build g1 at Gnomekin
+convert g1 to y1 at Silenttitan
+move g1 from Gnomekin to Halfax (y3)
+build y1 at Silenttitan
+build g1 at Gnomekin
+build y2 at Silenttitan
+convert g1 to b1 at Gnomekin
+move y1 from Silenttitan to Sol (g3)
+move b1 from Gnomekin to Detroit (r3)
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Sol; build y3 at Silenttitan
+build g1 at Gnomekin
+move y1 from Silenttitan to Soul (g3)
+convert g1 to r1 at Gnomekin
+build y3 at Soul
+move r1 from Gnomekin to Detroit
+convert y3 to r3 at Silenttitan
+build g1 at Halfax
+build y3 at Soul
+move g1 from Halfax to Silenttitan
+capture g1 at Silenttitan

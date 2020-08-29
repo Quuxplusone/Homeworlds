@@ -1,0 +1,28 @@
+Laurie_Menke (0, g3b1) y3-
+Draw5Playall (1, b1g3) -b3
+build y1 at Laurie_Menke
+build b1 at Draw5Playall
+convert y1 to r1 at Laurie_Menke
+convert b3 to y3 at Draw5Playall
+build y1 at Laurie_Menke
+build b2 at Draw5Playall
+move y1 from Laurie_Menke to Green (g2)
+move b2 from Draw5Playall to Denial (g2)
+build y1 at Laurie_Menke
+build b2 at Draw5Playall
+build r1 at Laurie_Menke
+convert b2 to r2 at Draw5Playall
+build y1 at Green
+build b2 at Denial
+build y2 at Green
+build b2 at Draw5Playall
+build y2 at Laurie_Menke
+build b3 at Denial
+sacrifice y2 at Green; move y1 from Green to Draw5Playall; move y1 from Green to Draw5Playall
+convert b3 to y3 at Denial
+convert y1 to g1 at Laurie_Menke
+build b3 at Denial
+move g1 from Laurie_Menke to Yellow (y2)
+convert b3 to r3 at Denial
+build g1 at Yellow
+sacrifice r2 at Draw5Playall; capture y1 at Draw5Playall; capture y1 at Draw5Playall

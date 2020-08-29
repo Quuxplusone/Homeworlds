@@ -1,0 +1,47 @@
+Babamots (0, b3g1) y3-
+Eliscinsky (1, r1b2) -g3
+build y1 at Babamots
+build g1 at Eliscinsky
+convert y1 to g1 at Babamots
+build g2 at Eliscinsky
+build g2 at Babamots
+convert g2 to y2 at Eliscinsky
+move g1 from Babamots to Bajor (b2)
+move g1 from Eliscinsky to Trill (b3)
+move g2 from Babamots to Cardassia (b2)
+build g2 at Trill
+build y1 at Babamots
+convert g1 to y1 at Trill
+move y1 from Babamots to Cardassia
+build g1 at Eliscinsky
+build y1 at Cardassia
+build y2 at Eliscinsky
+convert y1 to r1 at Cardassia
+build g2 at Trill
+build g3 at Bajor
+sacrifice y2 at Eliscinsky; move g2 from Trill to Bajor; move g2 from Trill to Bajor; catastrophe green at Bajor
+build r1 at Cardassia
+convert y2 to r2 at Eliscinsky
+build y1 at Cardassia
+move y1 from Trill to Eliscinsky
+build y2 at Cardassia
+build y2 at Eliscinsky
+move y2 from Cardassia to Iconia (y3)
+move r2 from Eliscinsky to Trill (y3)
+build y2 at Babamots
+move g1 from Eliscinsky to Trill
+build g1 at Cardassia
+build g2 at Eliscinsky
+move g1 from Cardassia to Iconia
+build g2 at Trill
+build g3 at Cardassia
+build r2 at Trill
+build g3 at Iconia
+move r2 from Trill to Betazed (b2)
+sacrifice y3 at Babamots; move g1 from Iconia to Eliscinsky; move g2 from Cardassia to Iconia; move g2 from Iconia to Eliscinsky; catastrophe green at Eliscinsky
+convert y2 to r2 at Eliscinsky
+move g3 from Iconia to Eliscinsky
+move r2 from Trill to Cardassia
+capture r2 at Eliscinsky
+sacrifice g2 at Trill; build y2 at Eliscinsky; build r3 at Cardassia; catastrophe red at Cardassia
+sacrifice r2 at Eliscinsky; capture y1 at Eliscinsky; capture y2 at Eliscinsky

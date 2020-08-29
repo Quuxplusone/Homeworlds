@@ -1,0 +1,40 @@
+Personman (0, b3y1) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Personman
+build g1 at Ts52
+convert g1 to y1 at Personman
+convert g1 to y1 at Ts52
+build y2 at Personman
+build y2 at Ts52
+convert y2 to b2 at Personman
+convert y2 to b2 at Ts52
+build y2 at Personman
+build y2 at Ts52
+move y2 from Personman to G2 (g2)
+move y1 from Ts52 to Kermit (g1)
+build g1 at Personman
+move b2 from Ts52 to Kermit
+convert g1 to r1 at Personman
+convert y2 to r2 at Ts52
+build y2 at Personman
+build y2 at Kermit
+build y3 at G2
+sacrifice y2 at Kermit; move y1 from Kermit to G2; move y1 from G2 to Personman; catastrophe yellow at Personman
+build g1 at Personman
+build b1 at Kermit
+move y3 from G2 to Kermit
+build g1 at Ts52
+build r1 at Personman
+move g1 from Ts52 to Bigbird (y1)
+sacrifice r1 at Personman; capture b2 at Kermit
+build b1 at Kermit
+convert b2 to r2 at Kermit
+build b1 at Kermit
+build b2 at Personman
+convert b1 to y1 at Kermit
+capture y1 at Kermit
+build b1 at Kermit
+capture b1 at Kermit
+sacrifice b1 at Kermit; convert g1 to b1 at Bigbird
+capture b1 at Kermit
+move b1 from Bigbird to Personman; catastrophe blue at Personman

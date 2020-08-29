@@ -1,0 +1,9 @@
+Gungho (0, g2y2) b3-
+Wil (1, y3g1) -r3
+build b1 at Gungho
+build r1 at Wil
+convert b1 to r1 at Gungho
+move r1 from Wil to B2 (b2)
+build r1 at Gungho
+build r2 at Wil
+move r1 from Gungho to Wil

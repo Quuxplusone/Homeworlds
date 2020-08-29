@@ -1,0 +1,17 @@
+Madwuher (0, r2b3) g3-
+Nilesenator (1, g3b1) -r3
+build g1 at Madwuher
+build r1 at Nilesenator
+convert g1 to y1 at Madwuher
+convert r1 to y1 at Nilesenator
+build g1 at Madwuher
+build r1 at Nilesenator
+build g1 at Madwuher
+convert r1 to g1 at Nilesenator
+move g1 from Madwuher to Bologna (b1)
+build y1 at Nilesenator
+build y2 at Madwuher
+build r1 at Nilesenator
+build g2 at Bologna
+move r1 from Nilesenator to Emptyspace (g2)
+sacrifice g3 at Madwuher; build g2 at Madwuher; build g3 at Madwuher; build g3 at Bologna

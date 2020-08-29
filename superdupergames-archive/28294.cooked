@@ -1,0 +1,31 @@
+Simon (0, b3r1) g3-
+Kanzenryu (1, g1b2) -y3
+pass
+build y1 at Kanzenryu
+build g1 at Simon
+build y1 at Kanzenryu
+convert g1 to y1 at Simon
+move y1 from Kanzenryu to Glorp (g3)
+build y2 at Simon
+convert y1 to g1 at Kanzenryu
+move y2 from Simon to B2 (b2)
+convert y3 to r3 at Kanzenryu
+build g1 at Simon
+build g2 at Kanzenryu
+build g2 at Simon
+build r1 at Kanzenryu
+move g2 from Simon to B2
+convert g1 to y1 at Kanzenryu
+sacrifice g3 at Simon; build g1 at B2; build g2 at B2; build g3 at Simon
+build y2 at Glorp
+convert g2 to r2 at B2
+sacrifice y2 at Glorp; move r3 from Kanzenryu to Glorp; move r3 from Glorp to B2
+sacrifice g2 at B2; build r1 at B2; build r2 at B2; catastrophe red at B2
+build y2 at Glorp
+build g2 at B2
+move y2 from Glorp to Staging (g2)
+sacrifice g3 at Simon; build g3 at Simon; build y2 at Simon; build y3 at B2
+build y3 at Staging
+convert y2 to r2 at B2
+build g3 at Kanzenryu
+sacrifice y2 at Simon; move g1 from B2 to Glorp; move g1 from Glorp to Kanzenryu; catastrophe green at Kanzenryu

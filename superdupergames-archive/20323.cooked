@@ -1,0 +1,47 @@
+Dragmio (0, g3b1) r3-
+Lorgar (1, g2y1) -b3
+build r1 at Dragmio
+build b1 at Lorgar
+convert r1 to y1 at Dragmio
+move b1 from Lorgar to Lormec (g3)
+build y1 at Dragmio
+build b1 at Lorgar
+build y2 at Dragmio
+build b2 at Lormec
+move y1 from Dragmio to Aspect (b2)
+convert b2 to y2 at Lormec
+move y2 from Dragmio to Aspect
+build b2 at Lormec
+convert y2 to g2 at Aspect
+convert b1 to g1 at Lorgar
+build y2 at Aspect
+move g1 from Lorgar to M0 (y3)
+sacrifice g2 at Aspect; build y2 at Dragmio; build y3 at Dragmio
+build y3 at Lormec
+sacrifice y2 at Dragmio; move y1 from Aspect to Lormec; move y2 from Aspect to Lormec; catastrophe yellow at Lormec
+convert b1 to r1 at Lormec
+convert y1 to r1 at Dragmio
+build b1 at Lormec
+move r3 from Dragmio to Emperor (y2)
+build b1 at Lormec
+move r3 from Emperor to M0
+move g1 from M0 to Mar (b2)
+move r3 from M0 to Mar
+convert b1 to y1 at Lormec
+capture g1 at Mar
+build r1 at Lormec
+build y1 at Dragmio
+convert b2 to y2 at Lormec
+move y1 from Dragmio to Mar
+build b1 at Lormec
+build r2 at Dragmio
+move b1 from Lormec to Mordekaizone (g2)
+build y2 at Dragmio
+build b2 at Lormec
+move r2 from Dragmio to Mordekaizone
+sacrifice b1 at Mordekaizone; convert y1 to b1 at Lormec
+move r1 from Dragmio to Mordekaizone
+move b2 from Lormec to Mhoried (g2)
+move r3 from Mar to Yolta (y3)
+build b2 at Mhoried
+sacrifice y3 at Dragmio; move r2 from Mordekaizone to Lormec; move r1 from Mordekaizone to Lormec; move r3 from Yolta to Lorgar; catastrophe red at Lormec

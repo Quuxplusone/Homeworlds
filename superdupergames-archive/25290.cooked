@@ -1,0 +1,12 @@
+Grosseteste (0, y2b1) g3-
+Ausmuh (1, b3r1) -g3
+build g1 at Grosseteste
+build g1 at Ausmuh
+convert g1 to b1 at Grosseteste
+convert g1 to y1 at Ausmuh
+build b1 at Grosseteste
+build g1 at Ausmuh
+move b1 from Grosseteste to Lineis (g3)
+convert g3 to b3 at Ausmuh
+build b2 at Lineis
+build b2 at Ausmuh

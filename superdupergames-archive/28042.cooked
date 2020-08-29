@@ -1,0 +1,32 @@
+Panglott (0, g3b1) y3-
+Wil (1, b3y2) -g3
+convert y3 to g3 at Panglott
+build g1 at Wil
+build g1 at Panglott
+convert g1 to b1 at Wil
+convert g1 to y1 at Panglott
+build b1 at Wil
+build y1 at Panglott
+move b1 from Wil to G1 (g1)
+move y1 from Panglott to Helium (g2)
+sacrifice g3 at Wil; build b2 at G1; build b2 at G1; build b2 at Wil
+build g1 at Panglott
+convert b2 to g2 at Wil
+convert g1 to r1 at Panglott
+convert b2 to y2 at G1
+build r1 at Panglott
+build b2 at G1
+move r1 from Panglott to Helium
+convert b2 to r2 at G1
+build g1 at Panglott
+move b2 from G1 to Helium
+move g3 from Panglott to Helium
+sacrifice y2 at G1; move b2 from Helium to Panglott; move b1 from G1 to Geetoo (g2)
+build r1 at Panglott
+sacrifice r2 at G1; capture r1 at Panglott; capture r1 at Panglott
+build r2 at Helium
+capture y1 at Panglott
+move r1 from Helium to Panglott
+capture g1 at Panglott
+sacrifice r2 at Helium; capture r1 at Panglott; capture r1 at Panglott
+convert b2 to r2 at Panglott; catastrophe red at Panglott

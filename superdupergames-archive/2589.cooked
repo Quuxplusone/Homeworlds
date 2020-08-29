@@ -1,0 +1,71 @@
+Jesse (0, y2b1) g3-
+Twoshort (1, b1g3) -b3
+build g1 at Jesse
+build b1 at Twoshort
+build g1 at Jesse
+convert b3 to y3 at Twoshort
+move g1 from Jesse to Ham (b3)
+build b2 at Twoshort
+move g1 from Jesse to Bacon (b3)
+move b2 from Twoshort to Yoyodyne (y2)
+build g1 at Jesse
+build b2 at Twoshort
+build g2 at Ham
+convert b2 to r2 at Twoshort
+convert g2 to r2 at Ham
+convert y3 to g3 at Twoshort
+move g1 from Jesse to Pork (b3)
+build g2 at Twoshort
+build g2 at Jesse
+sacrifice g2 at Twoshort; build g2 at Twoshort; build b2 at Yoyodyne
+convert g2 to b2 at Jesse
+convert g2 to y2 at Twoshort
+move b2 from Jesse to Chitlins (y3)
+sacrifice y2 at Twoshort; move b2 from Yoyodyne to Bacon; move b2 from Yoyodyne to Pork
+build g2 at Jesse
+convert b2 to r2 at Pork
+convert g2 to y2 at Jesse
+sacrifice r2 at Twoshort; capture g1 at Bacon; capture g1 at Pork
+build g2 at Ham
+convert b2 to y2 at Bacon
+move y2 from Jesse to Ham
+build g2 at Bacon
+move g1 from Ham to Saussage (b2)
+move g1 from Bacon to Jesse
+convert g3 to r3 at Jesse
+sacrifice y2 at Bacon; move r2 from Pork to Saussage; move g2 from Bacon to Hashbrowns (y2)
+sacrifice g2 at Ham; build b2 at Chitlins; build b3 at Chitlins
+capture g1 at Saussage
+capture g1 at Jesse
+convert b1 to y1 at Twoshort
+convert b3 to g3 at Chitlins
+convert g1 to y1 at Pork
+move g1 from Jesse to Trotters (y3)
+sacrifice g3 at Twoshort; build y1 at Pork; build y3 at Twoshort; build r1 at Saussage
+sacrifice g1 at Trotters; build y3 at Ham
+sacrifice y1 at Pork; move r1 from Saussage to Eggsand (g3)
+move y3 from Ham to Saussage
+sacrifice y1 at Twoshort; move r2 from Saussage to Samiam (b3)
+move y3 from Saussage to Samiam
+sacrifice g2 at Hashbrowns; build y1 at Twoshort; build r1 at Eggsand
+sacrifice r2 at Ham; capture r2 at Samiam
+build r1 at Eggsand
+move g3 from Chitlins to Jesse
+build g1 at Saussage
+convert b2 to g2 at Chitlins
+convert g1 to b1 at Saussage
+build g1 at Chitlins
+build g1 at Saussage
+sacrifice g2 at Chitlins; build g2 at Jesse; build r2 at Samiam
+convert g1 to y1 at Saussage
+sacrifice g2 at Jesse; build r2 at Samiam; build y2 at Samiam
+sacrifice y1 at Pork; move r1 from Eggsand to Saussage
+build r3 at Jesse
+build r3 at Saussage
+sacrifice y2 at Samiam; move r2 from Samiam to Saussage; move r2 from Samiam to Saussage; catastrophe red at Saussage
+move g1 from Saussage to Syrup (b3)
+move r3 from Jesse to Syrup
+move y1 from Saussage to Eggsand
+capture g1 at Syrup
+convert y1 to r1 at Twoshort
+build r2 at Syrup

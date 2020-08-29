@@ -1,0 +1,27 @@
+Salmonax (0, y1b2) g3-
+Sompm (1, g3b2) -y3
+build g1 at Salmonax
+build y1 at Sompm
+convert g1 to y1 at Salmonax
+build y2 at Sompm
+convert y1 to r1 at Salmonax
+move y2 from Sompm to Ted (b1)
+build r1 at Salmonax
+convert y2 to g2 at Ted
+build g1 at Salmonax
+build g1 at Ted
+convert r1 to y1 at Salmonax
+build y2 at Sompm
+convert g3 to y3 at Salmonax
+move y2 from Sompm to Hdmi (b1)
+move y1 from Salmonax to Submarines (g3)
+move y1 from Sompm to Lox (g1)
+move y1 from Submarines to Lox
+build g2 at Ted
+move y1 from Lox to Sompm
+build y2 at Lox
+build y2 at Sompm
+sacrifice g2 at Ted; build y3 at Hdmi; build g2 at Ted
+build g2 at Salmonax
+convert y2 to r2 at Hdmi
+build y2 at Sompm; catastrophe yellow at Sompm

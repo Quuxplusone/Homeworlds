@@ -1,0 +1,71 @@
+Draw5Playall (0, r1b3) g3-
+Magicjohn (1, y2b3) -g3
+build g1 at Draw5Playall
+build g1 at Magicjohn
+convert g1 to y1 at Draw5Playall
+build g1 at Magicjohn
+build y1 at Draw5Playall
+move g1 from Magicjohn to Antagonist (r1)
+convert y1 to b1 at Draw5Playall
+move g1 from Magicjohn to Empire (y1)
+build y1 at Draw5Playall
+build g1 at Magicjohn
+build g2 at Draw5Playall
+build g2 at Empire
+sacrifice g3 at Draw5Playall; build g2 at Draw5Playall; build g3 at Draw5Playall; build y2 at Draw5Playall
+build g3 at Antagonist
+move y2 from Draw5Playall to B2 (b2)
+convert g3 to y3 at Magicjohn
+convert g2 to r2 at Draw5Playall
+sacrifice g3 at Antagonist; build g2 at Antagonist; build g3 at Magicjohn; build g3 at Magicjohn
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y2 at Draw5Playall; build y3 at B2
+move g3 from Magicjohn to Colony3 (b1)
+convert y3 to r3 at B2
+convert g1 to r1 at Magicjohn
+move g2 from Draw5Playall to B2
+build r2 at Magicjohn
+build y3 at B2
+move g1 from Empire to Colony4 (y3)
+build g1 at Draw5Playall
+move r1 from Magicjohn to Empire
+move y3 from B2 to Antagonist
+sacrifice g3 at Magicjohn; build g3 at Empire; build r2 at Magicjohn; build r3 at Empire
+capture g2 at Antagonist
+move r3 from Empire to Colony5 (b2)
+build r3 at B2
+move r2 from Magicjohn to Empire
+move y1 from Draw5Playall to B2
+move r1 from Empire to B2
+move r3 from B2 to B1 (b1)
+convert r2 to b2 at Magicjohn
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build b3 at Draw5Playall; build r2 at B1
+capture y1 at B2
+capture r1 at B2
+move y1 from B2 to Colony3
+move y2 from Draw5Playall to B2
+move g3 from Colony3 to Magicjohn
+move y2 from B2 to B1
+move y3 from Magicjohn to Colony3
+capture g1 at Antagonist
+move y1 from Colony3 to Colony5
+sacrifice y2 at B2; move b3 from Draw5Playall to Y2 (y2); move r2 from Draw5Playall to Y2
+sacrifice g1 at Colony4; build y3 at Colony5
+sacrifice b1 at Draw5Playall; convert g1 to b1 at Antagonist
+move b2 from Magicjohn to Empire
+sacrifice g3 at Draw5Playall; build g1 at Antagonist; build g1 at B2; build g3 at Draw5Playall
+move r2 from Empire to Magicjohn
+sacrifice y2 at B1; move g1 from B2 to Empire; move g2 from B2 to Empire; catastrophe green at Empire
+move y3 from Colony5 to Colony6 (g3)
+build y2 at Antagonist
+move y1 from Colony5 to Antagonist
+sacrifice y2 at Antagonist; move g1 from Draw5Playall to B2; move g1 from B2 to B1
+build y2 at Colony6
+build g1 at B1
+move y1 from Antagonist to Colony5
+build g2 at B1
+pass
+move g1 from Antagonist to Magicjohn
+capture g1 at Magicjohn
+sacrifice y3 at Antagonist; move g1 from B1 to Magicjohn; move g1 from B1 to Magicjohn; move r3 from B1 to Magicjohn; catastrophe green at Magicjohn
+sacrifice y3 at Colony6; move y3 from Colony3 to Magicjohn; move r3 from Colony5 to Empire; move r3 from Empire to Magicjohn
+sacrifice r3 at B2; capture r3 at Magicjohn; capture y3 at Magicjohn; capture r2 at Magicjohn

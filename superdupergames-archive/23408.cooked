@@ -1,0 +1,43 @@
+Bugggg (0, y1b2) g3-
+Yougurt87 (1, b1y2) -g3
+build g1 at Bugggg
+build g1 at Yougurt87
+convert g1 to r1 at Bugggg
+convert g1 to r1 at Yougurt87
+build g1 at Bugggg
+build g1 at Yougurt87
+move g1 from Bugggg to Spray (y3)
+move r1 from Yougurt87 to Spray
+sacrifice r1 at Bugggg; capture r1 at Spray
+convert g1 to r1 at Yougurt87
+build g1 at Spray
+build g1 at Yougurt87
+build g2 at Bugggg
+build r1 at Yougurt87
+convert g2 to y2 at Bugggg
+move g3 from Yougurt87 to Spray
+build g2 at Bugggg
+build g2 at Yougurt87
+sacrifice y2 at Bugggg; move g1 from Spray to Yougurt87; move g1 from Spray to Yougurt87; catastrophe green at Yougurt87
+move r1 from Yougurt87 to Darlin (g3)
+move g2 from Bugggg to Darlin
+build r2 at Darlin
+sacrifice r1 at Spray; capture r2 at Darlin
+build g1 at Spray
+capture r1 at Darlin
+move g3 from Spray to Yougurt87
+build g1 at Bugggg
+build g1 at Yougurt87
+convert g1 to b1 at Bugggg
+move g3 from Yougurt87 to Darlin
+build g1 at Darlin; catastrophe green at Darlin
+move r1 from Yougurt87 to Spray
+build g1 at Bugggg
+build r1 at Spray
+convert g1 to r1 at Bugggg
+build g1 at Yougurt87
+build g2 at Bugggg
+build g2 at Yougurt87
+convert g2 to y2 at Bugggg
+build r2 at Spray
+sacrifice y2 at Bugggg; move g3 from Bugggg to Spray; move g3 from Spray to Yougurt87; catastrophe green at Yougurt87

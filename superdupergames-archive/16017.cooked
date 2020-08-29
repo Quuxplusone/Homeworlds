@@ -1,0 +1,29 @@
+Dlwillson (0, r3y1) g3-
+Silenttitan (1, y3b2) -g3
+build g1 at Dlwillson
+build g1 at Silenttitan
+move g1 from Dlwillson to Fungo (b2)
+move g1 from Silenttitan to Escort (y1)
+convert g1 to y1 at Fungo
+move g1 from Escort to Vanbytheriver (y3)
+build g1 at Dlwillson
+build g1 at Silenttitan
+move g1 from Dlwillson to Fungo
+build g2 at Silenttitan
+build g2 at Dlwillson
+convert g1 to r1 at Silenttitan
+build y1 at Fungo
+convert g2 to y2 at Silenttitan
+build y2 at Fungo
+move g1 from Vanbytheriver to Fungo
+convert y2 to r2 at Fungo
+move y2 from Silenttitan to Fin (g1)
+capture g1 at Fungo
+build y2 at Fin
+move y1 from Fungo to Dingo (b1)
+move y2 from Fin to Done (b2)
+sacrifice g2 at Dlwillson; build y2 at Fungo; build y3 at Dingo
+convert y2 to g2 at Done
+build g2 at Dlwillson
+build g2 at Done
+convert y1 to b1 at Fungo

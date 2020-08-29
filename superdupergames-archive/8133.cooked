@@ -1,0 +1,38 @@
+Mikeyarrum (0, b1y2) g3-
+Uglyfoot (1, b1g3) -y3
+build g1 at Mikeyarrum
+build y1 at Uglyfoot
+convert g1 to y1 at Mikeyarrum
+move y1 from Uglyfoot to Egg (g2)
+build g1 at Mikeyarrum
+build y1 at Uglyfoot
+build y2 at Mikeyarrum
+build y2 at Egg
+move y1 from Mikeyarrum to Yomi (g3)
+move y1 from Egg to Evo (b3)
+build y3 at Yomi
+build y3 at Egg
+convert g1 to b1 at Mikeyarrum
+convert y1 to r1 at Uglyfoot
+build b2 at Mikeyarrum
+move y2 from Egg to Evo
+move b2 from Mikeyarrum to Yomi
+convert y1 to g1 at Evo
+build b2 at Yomi
+build y1 at Evo
+move b2 from Yomi to Tomo (g2)
+build y1 at Uglyfoot
+convert b2 to r2 at Tomo
+convert y2 to b2 at Evo
+move y1 from Yomi to Tomo
+build y2 at Egg
+build g1 at Mikeyarrum
+move y2 from Egg to Evo
+build b2 at Yomi
+sacrifice y3 at Egg; move b2 from Evo to Egg (g2); move y1 from Evo to Mikeyarrum; move y2 from Evo to Mikeyarrum; catastrophe yellow at Mikeyarrum
+move r2 from Tomo to Evo
+build g1 at Evo
+move b2 from Yomi to Tomo
+build b3 at Egg
+build b3 at Tomo
+sacrifice y3 at Uglyfoot; move b2 from Egg to Mikeyarrum; move b3 from Egg to Mikeyarrum; move g1 from Evo to Vlp (y1); catastrophe blue at Mikeyarrum

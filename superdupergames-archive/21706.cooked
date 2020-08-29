@@ -1,0 +1,37 @@
+Jesse (0, y1b3) g3-
+Sordros (1, r1b2) -g3
+build g1 at Jesse
+build g1 at Sordros
+move g1 from Jesse to Nile (b2)
+convert g1 to y1 at Sordros
+build g1 at Jesse
+build y1 at Sordros
+build g1 at Nile
+move y1 from Sordros to Koora (g3)
+build g2 at Nile
+build g2 at Sordros
+convert g2 to y2 at Nile
+build y2 at Sordros
+build y2 at Nile
+build y3 at Koora
+move y2 from Nile to Moon (b3)
+convert y1 to b1 at Sordros
+move g1 from Nile to Lagoon (b3)
+move g2 from Sordros to Violeta (r3)
+sacrifice g3 at Jesse; build g2 at Lagoon; build g2 at Nile; build g3 at Jesse
+move y3 from Koora to Zul (b2)
+sacrifice g3 at Jesse; build g3 at Jesse; build y1 at Moon; build y3 at Nile
+build y3 at Koora
+convert y2 to r2 at Nile
+build y2 at Sordros
+convert y1 to r1 at Moon
+convert y2 to r2 at Sordros
+sacrifice g3 at Jesse; build g3 at Jesse; build r1 at Nile; build y1 at Moon
+build y2 at Koora
+move r1 from Nile to Jesse
+build b1 at Sordros
+sacrifice g3 at Jesse; build g3 at Jesse; build r2 at Jesse; build r3 at Moon
+move b1 from Sordros to Rubi (r3)
+sacrifice y2 at Moon; move r1 from Moon to Sordros; move r3 from Moon to Sordros; catastrophe red at Sordros
+convert b1 to r1 at Sordros
+sacrifice g3 at Jesse; build g3 at Jesse; build y2 at Moon; build r1 at Nile

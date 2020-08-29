@@ -1,0 +1,41 @@
+Dlwillson (0, b3y1) g3-
+Trydnt (1, b2r3) -g3
+build g1 at Dlwillson
+build g1 at Trydnt
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Trydnt
+build y2 at Dlwillson
+build y2 at Trydnt
+convert y1 to r1 at Dlwillson
+build g1 at Trydnt
+build r1 at Dlwillson
+convert g1 to r1 at Trydnt
+build r2 at Dlwillson
+build r2 at Trydnt
+move r1 from Dlwillson to Field (g2)
+move r2 from Trydnt to G1 (g1)
+move r2 from Dlwillson to Sea (b2)
+move y1 from Trydnt to G1
+build g1 at Dlwillson
+build y1 at G1
+move y2 from Dlwillson to Field
+move y1 from G1 to G2 (g2)
+sacrifice g3 at Dlwillson; build r2 at Sea; build r3 at Field; build r3 at Dlwillson
+sacrifice g3 at Trydnt; build y2 at G2; build y3 at G1; build y3 at Trydnt
+build y3 at Field
+convert y3 to g3 at Trydnt
+sacrifice y2 at Field; move r3 from Field to Sky (b1); move r2 from Sea to Sky
+move r1 from Trydnt to G1
+convert r2 to g2 at Sky
+move r1 from G1 to R2 (r2)
+build g1 at Sky
+sacrifice y3 at G1; move r1 from R2 to Dlwillson; move r2 from G1 to G2; move r2 from G2 to Dlwillson; catastrophe red at Dlwillson
+build g3 at Dlwillson
+move y1 from G1 to B2 (b2)
+convert r3 to y3 at Sky
+convert y1 to g1 at B2
+sacrifice g3 at Dlwillson; build y1 at Sky; build g3 at Sky; build g3 at Dlwillson
+sacrifice y1 at G2; move g1 from B2 to Sky; catastrophe green at Sky
+convert y1 to g1 at Sky
+build y1 at Trydnt
+sacrifice g3 at Dlwillson; build g1 at Sky; build g2 at Sky; build g3 at Dlwillson

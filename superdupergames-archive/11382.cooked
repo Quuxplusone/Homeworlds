@@ -1,0 +1,21 @@
+Danner (0, r1b2) g3-
+Jesse (1, b1r3) -g3
+build g1 at Danner
+build g1 at Jesse
+convert g1 to y1 at Danner
+convert g1 to y1 at Jesse
+build g1 at Danner
+build g1 at Jesse
+convert g1 to r1 at Danner
+convert g1 to r1 at Jesse
+build r2 at Danner
+build r2 at Jesse
+move r1 from Danner to Sun (y3)
+move r2 from Jesse to One (g2)
+sacrifice g3 at Danner; build r2 at Sun; build r3 at Sun; build r3 at Danner
+build y1 at Jesse
+move r3 from Sun to One
+sacrifice y1 at Jesse; move r2 from One to Two (g3)
+convert r2 to g2 at Danner
+build r2 at Two
+sacrifice y1 at Danner; move r3 from One to Two

@@ -1,0 +1,69 @@
+Nicknack (0, r2b1) g3-
+Wil (1, b3y1) -g3
+build g1 at Nicknack
+build g1 at Wil
+convert g1 to y1 at Nicknack
+convert g1 to y1 at Wil
+build y2 at Nicknack
+build y2 at Wil
+build g1 at Nicknack
+move y1 from Wil to G2 (g2)
+move g1 from Nicknack to Beta (y3)
+sacrifice g3 at Wil; build y2 at G2; build y3 at G2; build y3 at Wil
+sacrifice y2 at Nicknack; move y1 from Nicknack to Beta; move y1 from Beta to G2; catastrophe yellow at G2
+convert y2 to g2 at Wil
+build g1 at Nicknack
+build y1 at Wil
+convert g1 to y1 at Nicknack
+move y1 from Wil to G2 (g2)
+build g1 at Nicknack
+build y2 at G2
+move g1 from Nicknack to Gamma (y3)
+move y2 from G2 to Beta
+build g1 at Nicknack
+build y2 at Wil
+build y2 at Nicknack
+convert y2 to r2 at Wil
+move g1 from Beta to Delta (y2)
+convert y3 to g3 at Wil
+sacrifice g3 at Nicknack; build g2 at Delta; build g3 at Gamma; build g3 at Nicknack
+sacrifice g2 at Wil; build y3 at G2; build r1 at Wil
+convert y1 to r1 at Nicknack
+convert r1 to b1 at Wil
+move g1 from Gamma to Epsilon (b2)
+build b1 at Wil
+build g2 at Epsilon
+move b1 from Wil to G2
+build y1 at Nicknack
+build b2 at Wil
+move y2 from Nicknack to Zeta (b3)
+build b2 at G2
+sacrifice g3 at Gamma; build y3 at Zeta; build g3 at Nicknack; build r1 at Nicknack
+build b3 at G2
+sacrifice y2 at Zeta; move y3 from Zeta to Epsilon; move g3 from Nicknack to Beta
+move y2 from Beta to Y2 (y2)
+sacrifice g3 at Beta; build g3 at Nicknack; build y3 at Nicknack
+convert b3 to r3 at G2
+move r1 from Nicknack to Beta (b3)
+build b3 at G2
+sacrifice y3 at Nicknack; move g1 from Delta to Wil; move g1 from Epsilon to Wil; move g2 from Epsilon to Wil; catastrophe green at Wil
+sacrifice y2 at Y2; move b1 from Wil to Gee2 (g2); move b3 from G2 to Wil
+sacrifice g3 at Nicknack; build y2 at Epsilon; build y2 at Epsilon; build y3 at Nicknack
+convert b3 to g3 at Wil
+convert g3 to b3 at Nicknack
+build g1 at Wil
+sacrifice y2 at Epsilon; move y3 from Epsilon to Beta; move y3 from Beta to Gee2
+sacrifice y1 at G2; move b1 from Gee2 to G3 (g3)
+move b3 from Nicknack to Gamma (r3)
+convert b2 to y2 at G2
+sacrifice g2 at Delta; build y1 at Gee2; build y2 at Epsilon
+move y2 from G2 to Beta
+sacrifice g1 at Nicknack; build b2 at Gamma
+build r1 at G2
+sacrifice y1 at Nicknack; move b2 from Gamma to Gee2
+move r3 from G2 to Beta
+convert r1 to g1 at Nicknack
+capture r1 at Beta
+sacrifice y3 at Gee2; move b3 from Gamma to Gee2; move b3 from Gee2 to Wil; move b2 from Gee2 to Wil; catastrophe blue at Wil
+move r3 from Beta to Nicknack
+sacrifice y3 at Nicknack; move y1 from Gee2 to Wil; move y2 from Epsilon to Wil; move y2 from Epsilon to Wil; catastrophe yellow at Wil

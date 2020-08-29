@@ -1,0 +1,47 @@
+Zoltar (0, b1y2) g3-
+Keith (1, b3y1) -g3
+build g1 at Zoltar
+build g1 at Keith
+convert g1 to y1 at Zoltar
+convert g1 to b1 at Keith
+build y1 at Zoltar
+move b1 from Keith to Midworld (g2)
+move y1 from Zoltar to Nix (g3)
+build g1 at Keith
+build y2 at Nix
+convert g1 to b1 at Keith
+build y2 at Zoltar
+build b2 at Midworld
+build y3 at Nix
+convert b1 to r1 at Keith
+convert y2 to r2 at Zoltar
+convert b2 to y2 at Midworld
+move y3 from Nix to Midworld
+build b1 at Midworld
+sacrifice r2 at Zoltar; capture y2 at Midworld; capture b1 at Midworld
+build b2 at Midworld
+build b2 at Midworld; catastrophe blue at Midworld
+build g1 at Keith
+build y3 at Zoltar
+build r1 at Keith
+convert y3 to r3 at Zoltar
+move g1 from Keith to Bell (b2)
+build y3 at Zoltar
+build g1 at Keith
+convert y3 to r3 at Zoltar
+move g1 from Keith to Bird (b2)
+build y3 at Zoltar
+build g1 at Keith
+build g2 at Zoltar
+convert g3 to y3 at Keith
+sacrifice y3 at Zoltar; move y1 from Nix to Midworld; move y1 from Midworld to Keith; move y2 from Midworld to Keith; catastrophe yellow at Keith
+build g2 at Keith
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Zoltar; build y1 at Midworld
+convert r1 to y1 at Keith
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Nix; build y3 at Nix
+move g1 from Keith to Zoltar; catastrophe green at Zoltar
+move r3 from Zoltar to Keith
+sacrifice g2 at Keith; build r1 at Keith; build r1 at Keith; catastrophe red at Keith
+sacrifice y3 at Nix; move y1 from Midworld to Keith; move y3 from Midworld to Keith; move r3 from Zoltar to Keith
+convert y1 to r1 at Keith
+capture r1 at Keith

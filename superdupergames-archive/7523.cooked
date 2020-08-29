@@ -1,0 +1,19 @@
+Twoshort (0, r1b2) g3-
+Zoltar (1, b2y2) -g3
+build g1 at Twoshort
+build g1 at Zoltar
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Zoltar
+build g1 at Twoshort
+build g1 at Zoltar
+move g1 from Twoshort to Bluonia (b3)
+convert g1 to r1 at Zoltar
+convert g1 to y1 at Bluonia
+move y1 from Zoltar to Bluonia
+build y2 at Twoshort
+sacrifice r1 at Zoltar; capture y1 at Bluonia
+convert y2 to r2 at Twoshort
+move y1 from Bluonia to Greenpea (g1)
+build y2 at Twoshort
+build y2 at Greenpea
+sacrifice y2 at Twoshort; move g3 from Twoshort to Bluonia; move g3 from Bluonia to Zoltar

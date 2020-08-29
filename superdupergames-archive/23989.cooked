@@ -1,0 +1,37 @@
+Wil (0, y2b1) g3-
+Ts52 (1, b2y3) -g3
+build g1 at Wil
+build g1 at Ts52
+convert g1 to b1 at Wil
+convert g1 to b1 at Ts52
+build b2 at Wil
+move b1 from Ts52 to Robin (g1)
+convert b1 to y1 at Wil
+build g1 at Ts52
+move b2 from Wil to Foist (g3)
+build b1 at Robin
+build b2 at Foist
+convert b1 to y1 at Robin
+build g1 at Wil
+build b1 at Robin
+build g2 at Wil
+move b1 from Robin to Kermit (g2)
+move g2 from Wil to Ynot (y3)
+build b3 at Robin
+convert b2 to r2 at Foist
+convert b3 to r3 at Robin
+sacrifice g3 at Wil; build g2 at Ynot; build g3 at Wil; build r1 at Foist
+move r3 from Robin to Ynot
+move g2 from Ynot to Lastditch (y1)
+capture g2 at Ynot
+sacrifice g3 at Wil; build y2 at Wil; build g3 at Wil; build r1 at Foist
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Robin; build y3 at Robin
+sacrifice y2 at Wil; move y1 from Wil to Ynot; move y1 from Ynot to Robin; catastrophe yellow at Robin
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Kermit; build b3 at Robin
+convert b2 to y2 at Foist
+convert b3 to y3 at Robin
+move g1 from Wil to Foist
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Robin; build b3 at Kermit
+move g1 from Foist to Imintrouble (r1)
+move b2 from Robin to Ynot
+sacrifice y2 at Foist; move g1 from Imintrouble to Ts52; move g2 from Lastditch to Ts52; catastrophe green at Ts52

@@ -1,0 +1,50 @@
+Amoscai (0, y1b2) g3-
+Zweiterlinde (1, b1y3) -g3
+build g1 at Amoscai
+build g1 at Zweiterlinde
+move g1 from Amoscai to Taylor (b3)
+move g1 from Zweiterlinde to Swift (b2)
+build g1 at Taylor
+build g2 at Zweiterlinde
+build g2 at Amoscai
+sacrifice g3 at Zweiterlinde; build g2 at Swift; build g3 at Swift; build g3 at Zweiterlinde
+convert g1 to y1 at Taylor
+convert g1 to y1 at Swift
+build y2 at Taylor
+convert g3 to r3 at Swift
+convert g2 to r2 at Amoscai
+move r3 from Swift to Taylor
+sacrifice y2 at Taylor; move y1 from Taylor to Swift; move g1 from Taylor to Swift
+convert g2 to r2 at Swift
+move g1 from Swift to Zweiterlinde
+convert g2 to r2 at Zweiterlinde
+build g1 at Zweiterlinde
+sacrifice r2 at Zweiterlinde; capture g1 at Zweiterlinde; capture g1 at Zweiterlinde
+move y1 from Swift to Zweiterlinde
+convert g1 to r1 at Zweiterlinde
+build g1 at Amoscai
+move g1 from Zweiterlinde to Swift
+move g1 from Amoscai to John (y3)
+build y2 at Swift
+build g1 at John
+capture y1 at Zweiterlinde
+build g2 at Amoscai
+build g2 at Zweiterlinde
+move g1 from John to Swift
+capture g1 at Swift
+build g2 at John
+sacrifice g3 at Zweiterlinde; build g3 at Zweiterlinde; build g3 at Zweiterlinde; build r1 at Taylor
+convert g2 to y2 at Amoscai
+move g3 from Zweiterlinde to Lennon (b2)
+build g2 at Amoscai
+move g1 from Swift to Taylor
+build r1 at Amoscai
+move y1 from Swift to Taylor
+move r2 from Amoscai to Taylor
+capture r2 at Taylor
+build r2 at Amoscai
+sacrifice g3 at Lennon; build g3 at Taylor; build r3 at Swift; build r3 at Zweiterlinde
+move r1 from Amoscai to Taylor; catastrophe red at Taylor
+sacrifice g3 at Taylor; build g3 at Taylor; build y2 at Swift; build y3 at Taylor
+convert g2 to b2 at Amoscai
+sacrifice y2 at Swift; move y3 from Taylor to Amoscai; move y1 from Taylor to Amoscai; catastrophe yellow at Amoscai

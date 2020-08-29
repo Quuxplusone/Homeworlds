@@ -1,0 +1,65 @@
+Wil (0, r2b1) g3-
+Remneb (1, b2r1) -g3
+build g1 at Wil
+build g1 at Remneb
+convert g1 to b1 at Wil
+convert g1 to y1 at Remneb
+build b1 at Wil
+build g1 at Remneb
+build g1 at Wil
+move g1 from Remneb to Altar (y3)
+convert g1 to y1 at Wil
+build g1 at Remneb
+move b1 from Wil to G3 (g3)
+convert g1 to r1 at Remneb
+build b2 at G3
+move r1 from Remneb to G3
+convert b2 to r2 at G3
+build y1 at Remneb
+build y2 at Wil
+move y1 from Remneb to Altar
+move y2 from Wil to Altar
+sacrifice g3 at Remneb; build y2 at Remneb; build y2 at Altar; build y3 at Remneb; catastrophe yellow at Altar
+sacrifice g3 at Wil; build b2 at G3; build b2 at G3; build b3 at Wil
+convert y1 to g1 at Remneb
+sacrifice b2 at G3; convert b2 to y2 at G3; convert b3 to g3 at Wil
+move y2 from Remneb to Noah (g3)
+sacrifice g3 at Wil; build b2 at G3; build b2 at G3; build b3 at Wil
+build g1 at Remneb
+sacrifice b2 at G3; convert b3 to g3 at Wil; convert b2 to y2 at G3
+build y1 at Remneb
+build b2 at Wil
+capture b1 at G3
+capture r1 at G3
+sacrifice y1 at Remneb; move b1 from G3 to Wil; catastrophe blue at Wil
+build g1 at Wil
+build y1 at Remneb
+move y2 from G3 to B2 (b2)
+move g1 from Remneb to Rob (y3)
+build y1 at Wil
+build g2 at Remneb
+build y3 at G3
+move y1 from Remneb to Oban (r3)
+convert y2 to b2 at B2
+build g2 at Rob
+sacrifice b2 at B2; convert g1 to b1 at Wil; convert y2 to b2 at G3
+convert g1 to r1 at Remneb
+build y2 at G3
+move r1 from Remneb to Rob
+move r1 from G3 to G2 (g2)
+build r2 at Rob
+build r3 at G2
+move r2 from Rob to Aldo (y2)
+build r3 at G3
+build g1 at Remneb
+sacrifice y1 at Wil; move r3 from G2 to Rob
+sacrifice y2 at Noah; move g2 from Rob to Aldo; move g1 from Rob to Aldo
+move r3 from Rob to Aldo
+sacrifice g2 at Aldo; build y1 at Oban; build y2 at Remneb
+capture r2 at Aldo
+move g1 from Aldo to G3
+sacrifice y2 at G3; move y3 from G3 to Remneb; move r3 from G3 to Remneb
+capture r3 at Remneb
+sacrifice r3 at Aldo; capture r3 at Remneb; capture y3 at Remneb; capture g2 at Remneb
+move y1 from Oban to Remneb; catastrophe yellow at Remneb
+sacrifice r2 at Aldo; capture g1 at G3; capture g1 at Remneb

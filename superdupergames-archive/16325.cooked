@@ -1,0 +1,42 @@
+Rootbier (0, y1b2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Rootbier
+build g1 at Twoshort
+convert g1 to r1 at Rootbier
+convert g1 to y1 at Twoshort
+build r1 at Rootbier
+build y1 at Twoshort
+build r2 at Rootbier
+build y2 at Twoshort
+convert r2 to y2 at Rootbier
+move y1 from Twoshort to Grogar (g2)
+build r2 at Rootbier
+convert y2 to r2 at Twoshort
+move r2 from Rootbier to Popsicle (g3)
+build y2 at Twoshort
+move r1 from Rootbier to Aubergine (b3)
+sacrifice g3 at Twoshort; build y2 at Grogar; build y3 at Grogar; build y3 at Twoshort
+sacrifice g3 at Rootbier; build r2 at Popsicle; build r3 at Aubergine; build r3 at Rootbier
+move y3 from Grogar to Popsicle
+sacrifice y2 at Rootbier; move r2 from Popsicle to Maniac (y2); move r2 from Popsicle to Maniac
+build y3 at Grogar
+convert r1 to g1 at Aubergine
+move y3 from Popsicle to Maniac
+move r2 from Maniac to Pollen (g1)
+convert y2 to g2 at Twoshort
+move r2 from Maniac to Aubergine
+build y2 at Twoshort
+convert r3 to g3 at Rootbier
+build g1 at Twoshort
+build g2 at Rootbier
+build g3 at Twoshort
+sacrifice g3 at Rootbier; build g3 at Rootbier; build g3 at Aubergine; build r1 at Pollen
+convert g1 to b1 at Twoshort
+convert g2 to b2 at Rootbier
+move b1 from Twoshort to Grogar
+move b2 from Rootbier to Thpppbt (b3)
+sacrifice g3 at Twoshort; build b1 at Grogar; build b1 at Grogar; build g1 at Twoshort
+sacrifice g3 at Aubergine; build g2 at Rootbier; build r3 at Rootbier; build g3 at Aubergine
+sacrifice y3 at Twoshort; move b1 from Grogar to Yonder (y3); move b1 from Grogar to Yonder; move b1 from Grogar to Yonder
+sacrifice b2 at Thpppbt; convert r3 to b3 at Aubergine; convert r2 to b2 at Pollen
+sacrifice y3 at Grogar; move b1 from Yonder to Rootbier; move b1 from Yonder to Rootbier; move b1 from Yonder to Rootbier; catastrophe blue at Rootbier

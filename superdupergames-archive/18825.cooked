@@ -1,0 +1,52 @@
+Adambadura (0, b3g1) y3-
+Twoshort (1, r1b2) -g3
+build y1 at Adambadura
+build g1 at Twoshort
+convert y1 to g1 at Adambadura
+build g2 at Twoshort
+build g2 at Adambadura
+convert g2 to y2 at Twoshort
+convert g1 to r1 at Adambadura
+move g1 from Twoshort to Bluonia (b3)
+move g2 from Adambadura to Alphacentauri (y2)
+build g1 at Twoshort
+build r1 at Adambadura
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g2 at Twoshort; build g3 at Twoshort
+build g3 at Alphacentauri
+sacrifice y2 at Twoshort; move g1 from Bluonia to Alphacentauri; move g2 from Bluonia to Alphacentauri; catastrophe green at Alphacentauri
+convert r1 to g1 at Adambadura
+convert g2 to y2 at Twoshort
+build g2 at Adambadura
+build g2 at Twoshort
+sacrifice y3 at Adambadura; move g1 from Adambadura to Ontheway (y2); move g1 from Ontheway to Stillontheway (y3); move g1 from Stillontheway to Twoshort; catastrophe green at Twoshort
+convert y2 to g2 at Twoshort
+build r1 at Adambadura
+build g1 at Twoshort
+build r2 at Adambadura
+convert g2 to r2 at Twoshort
+convert r1 to y1 at Adambadura
+build g1 at Twoshort
+build g2 at Adambadura
+build g2 at Twoshort
+move g2 from Adambadura to Newworld (y2)
+convert g1 to y1 at Twoshort
+move r1 from Adambadura to Newworld
+move r2 from Twoshort to Grogar (g3)
+build g1 at Newworld
+build g3 at Twoshort
+build g3 at Adambadura
+move g2 from Twoshort to Yolonda (y3)
+move g2 from Adambadura to Mutators (b2)
+sacrifice g3 at Twoshort; build y1 at Twoshort; build y2 at Twoshort; build g3 at Twoshort
+sacrifice g3 at Adambadura; build g3 at Mutators; build y2 at Adambadura; build y3 at Adambadura
+move y1 from Twoshort to Bluonia (b3)
+sacrifice y1 at Adambadura; move g2 from Mutators to Bluonia
+sacrifice g3 at Twoshort; build y1 at Twoshort; build y3 at Bluonia; build g3 at Twoshort
+move r1 from Newworld to Bluonia
+sacrifice r2 at Grogar; capture g2 at Bluonia; capture r1 at Bluonia
+sacrifice g2 at Newworld; build g2 at Mutators; build g3 at Newworld
+sacrifice g2 at Yolonda; build g2 at Bluonia; build y3 at Bluonia
+move y2 from Adambadura to Mutators
+move y3 from Bluonia to Mutators
+sacrifice r2 at Adambadura; capture y3 at Mutators
+sacrifice y2 at Twoshort; move y3 from Bluonia to Mutators; move y3 from Mutators to Adambadura

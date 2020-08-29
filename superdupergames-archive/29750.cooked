@@ -1,0 +1,55 @@
+Felix (0, b1y2) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Felix
+build g1 at Ts52
+convert g1 to b1 at Felix
+convert g1 to b1 at Ts52
+build b2 at Felix
+move b1 from Ts52 to Kermit (g1)
+move b2 from Felix to Raid (g3)
+build g1 at Ts52
+build g1 at Felix
+build g2 at Ts52
+move g1 from Felix to Maraud (b3)
+convert g2 to y2 at Ts52
+build g2 at Felix
+move y2 from Ts52 to Kermit
+sacrifice g3 at Felix; build g2 at Felix; build g2 at Maraud; build g3 at Felix
+move g1 from Ts52 to Bigbird (y1)
+move g2 from Felix to Pillage (b3)
+move g1 from Bigbird to Grover (b3)
+convert g1 to y1 at Maraud
+build g1 at Ts52
+sacrifice g3 at Felix; build g3 at Felix; build b2 at Raid; build y1 at Maraud
+sacrifice g1 at Grover; build b3 at Kermit
+convert b2 to r2 at Raid
+convert g1 to r1 at Ts52
+build b2 at Raid
+build r1 at Ts52
+convert b2 to y2 at Raid
+move r1 from Ts52 to Kermit
+sacrifice g3 at Felix; build g1 at Maraud; build g1 at Pillage; build g3 at Felix
+convert b3 to r3 at Kermit
+move y1 from Maraud to Felix
+move r3 from Kermit to Maraud
+sacrifice y2 at Raid; move g2 from Maraud to Kermit; move g2 from Pillage to Kermit
+capture y1 at Maraud
+sacrifice g1 at Maraud; build g1 at Kermit; catastrophe green at Kermit
+build g1 at Ts52
+sacrifice g3 at Felix; build b1 at Raid; build b2 at Raid; build b3 at Felix
+move g1 from Ts52 to Bigbird (y1)
+convert b3 to g3 at Felix
+move g1 from Bigbird to Maraud
+build b3 at Felix
+build r1 at Maraud
+convert b2 to y2 at Raid
+move r3 from Maraud to Zoe (y2)
+move b3 from Felix to Raid
+move r3 from Zoe to Pillage
+sacrifice g1 at Pillage; build b2 at Felix
+build g1 at Ts52
+convert b3 to y3 at Raid
+move g1 from Ts52 to Zoe (y1)
+build b3 at Raid
+build g1 at Ts52
+convert b3 to y3 at Raid

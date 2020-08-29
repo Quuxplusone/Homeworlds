@@ -1,0 +1,25 @@
+Silenttitan (0, r1b2) g3-
+Lorgar (1, b1y3) -g3
+build g1 at Silenttitan
+build g1 at Lorgar
+convert g1 to y1 at Silenttitan
+build g1 at Lorgar
+build y1 at Silenttitan
+convert g1 to b1 at Lorgar
+build y1 at Silenttitan
+build b1 at Lorgar
+move y1 from Silenttitan to Sol (b3)
+move b1 from Lorgar to Mnar (g2)
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Sol; build y2 at Silenttitan
+build b2 at Mnar
+move y2 from Sol to Soul (g2)
+move g1 from Lorgar to Soul
+build y3 at Soul
+sacrifice g3 at Lorgar; build g1 at Soul; build g1 at Soul; build b2 at Mnar; catastrophe green at Soul
+sacrifice y2 at Silenttitan; move y2 from Sol to Mnar; move y2 from Mnar to Lorgar
+convert b2 to g2 at Mnar
+convert y2 to b2 at Lorgar
+sacrifice b2 at Mnar; convert b1 to r1 at Lorgar; convert g2 to y2 at Mnar
+convert b2 to r2 at Lorgar
+pass
+capture r1 at Lorgar

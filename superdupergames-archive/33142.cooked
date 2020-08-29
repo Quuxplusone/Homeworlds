@@ -1,0 +1,29 @@
+Mneme (0, r1b2) g3-
+Eliscinsky (1, r2b3) -g3
+build g1 at Mneme
+build g1 at Eliscinsky
+convert g1 to r1 at Mneme
+convert g1 to y1 at Eliscinsky
+build r1 at Mneme
+build y1 at Eliscinsky
+build g1 at Mneme
+move y1 from Eliscinsky to Alpha (b1)
+convert g3 to y3 at Mneme
+build g1 at Eliscinsky
+move r1 from Mneme to Calliope (g3)
+build g1 at Eliscinsky
+build g2 at Mneme
+convert g1 to b1 at Eliscinsky
+build r2 at Calliope
+build g1 at Eliscinsky
+sacrifice y3 at Mneme; move g1 from Mneme to Calliope; move g1 from Calliope to Alpha; move g1 from Alpha to Eliscinsky; catastrophe green at Eliscinsky
+convert y1 to g1 at Eliscinsky
+build r2 at Mneme
+build g1 at Eliscinsky
+build r3 at Calliope
+convert g1 to y1 at Eliscinsky
+convert r2 to y2 at Mneme
+build g1 at Eliscinsky
+sacrifice y2 at Mneme; move r2 from Calliope to Melpomene (g1); move r2 from Melpomene to Eliscinsky
+move g1 from Eliscinsky to Alpha
+sacrifice r3 at Calliope; capture y1 at Eliscinsky; capture g1 at Eliscinsky; capture b1 at Eliscinsky

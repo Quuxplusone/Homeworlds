@@ -1,0 +1,55 @@
+Wil (0, y3b2) g3-
+Jeep (1, b3y1) -g3
+build g1 at Wil
+build g1 at Jeep
+convert g1 to r1 at Wil
+convert g1 to r1 at Jeep
+build g1 at Wil
+build g1 at Jeep
+convert g1 to y1 at Wil
+convert g1 to y1 at Jeep
+build y2 at Wil
+build y2 at Jeep
+move y1 from Wil to G1 (g1)
+move y1 from Jeep to G2 (g2)
+move y2 from Wil to B1 (b1)
+build g1 at Jeep
+build g1 at Wil
+build g2 at Jeep
+sacrifice g3 at Wil; build g2 at Wil; build g3 at Wil; build y2 at B1
+sacrifice g3 at Jeep; build g3 at Jeep; build y3 at G2; build r1 at Jeep
+move g2 from Wil to B1
+move g2 from Jeep to B2 (b2)
+sacrifice g3 at Wil; build g3 at B1; build g3 at Wil; build y3 at G1
+move y1 from G2 to B12 (b1)
+convert g3 to r3 at B1
+build g3 at B2
+sacrifice g3 at Wil; build r2 at Wil; build r2 at B1; build g3 at Wil
+convert g2 to r2 at B2
+convert r1 to b1 at Wil
+sacrifice g3 at Jeep; build g2 at B2; build g3 at Jeep; build r1 at B2
+sacrifice g3 at Wil; build g3 at Wil; build r3 at Wil; build b2 at Wil
+convert g3 to b3 at B2
+sacrifice y2 at B1; move r3 from Wil to G1; move b2 from Wil to G1
+sacrifice y2 at Jeep; move r2 from B2 to B1; move r1 from B2 to B1; catastrophe red at B1
+sacrifice g3 at Wil; build g3 at Wil; build g3 at B1; build y2 at B1
+sacrifice g3 at Jeep; build g3 at Jeep; build y2 at B12
+sacrifice g3 at Wil; build g3 at Wil; build r1 at Wil; build b3 at G1
+move r1 from Jeep to B2
+move r2 from Wil to B1
+move y1 from B12 to B2
+sacrifice y2 at B1; move b3 from G1 to G2; move y3 from G1 to G2
+convert b3 to r3 at B2
+sacrifice r1 at Wil; capture y3 at G2
+sacrifice g3 at Jeep; build g3 at Jeep; build y2 at B2; build r1 at Jeep
+sacrifice g3 at Wil; build b3 at G2; build r2 at B1; build g3 at Wil
+move y1 from B2 to B12
+convert b3 to r3 at G2
+convert y2 to r2 at B12
+sacrifice y2 at B1; move r2 from B1 to B2; move r2 from B1 to B2; catastrophe red at B2
+move y1 from B12 to Wil
+sacrifice y3 at G2; move y3 from G2 to Jeep; move r3 from G2 to Jeep; move b3 from G2 to Jeep
+sacrifice g3 at Jeep; build g2 at Jeep; build y2 at Wil; build y2 at Wil; catastrophe yellow at Wil
+sacrifice r3 at Jeep; capture g2 at Jeep; capture r1 at Jeep; capture r1 at Jeep
+sacrifice y2 at B2; move g2 from B2 to B1; move g2 from B1 to Wil
+capture g1 at Jeep

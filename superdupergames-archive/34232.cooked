@@ -1,0 +1,15 @@
+Wil (0, b3y1) g3-
+Iddqd (1, b3g2) -y3
+build g1 at Wil
+build y1 at Iddqd
+convert g1 to y1 at Wil
+convert y1 to g1 at Iddqd
+build g1 at Wil
+move g1 from Iddqd to Outpost (b1)
+convert g1 to b1 at Wil
+build g1 at Outpost
+build b1 at Wil
+convert g1 to y1 at Outpost
+build y2 at Wil
+build y2 at Iddqd
+move y1 from Wil to G2 (g2)

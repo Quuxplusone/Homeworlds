@@ -1,0 +1,71 @@
+Babamots (0, y2b1) g3-
+Felix (1, b1g3) -b3
+build g1 at Babamots
+build b1 at Felix
+build g1 at Babamots
+convert b3 to y3 at Felix
+move g1 from Babamots to Vulcan (b3)
+build b2 at Felix
+build g1 at Babamots
+convert b2 to g2 at Felix
+move g1 from Babamots to Romulus (b3)
+build b2 at Felix
+build g2 at Vulcan
+move g2 from Felix to Gronk (y2)
+sacrifice g3 at Babamots; build g2 at Vulcan; build g3 at Romulus; build g3 at Babamots
+move g2 from Gronk to Vulcan; catastrophe green at Vulcan
+build g1 at Babamots
+move b2 from Felix to Blink (g2)
+move g1 from Babamots to Kurl (b3)
+build b2 at Blink
+sacrifice g3 at Babamots; build g2 at Kurl; build g2 at Kurl; build g3 at Babamots
+build b2 at Felix
+move g1 from Babamots to Kesprytt (b3)
+build y1 at Felix
+convert g1 to y1 at Kurl
+convert b2 to y2 at Blink
+sacrifice g3 at Romulus; build g1 at Babamots; build y1 at Kurl; build g3 at Romulus
+build b2 at Blink
+move y1 from Kurl to Blink
+convert b2 to r2 at Blink
+convert g2 to r2 at Kurl
+capture y1 at Blink
+sacrifice g3 at Romulus; build g2 at Kesprytt; build y2 at Kurl; build g3 at Romulus
+move y1 from Blink to Kurl
+capture y1 at Kurl
+build y3 at Blink
+sacrifice y2 at Kurl; move y1 from Kurl to Blink; move y1 from Kurl to Blink; catastrophe yellow at Blink
+build b2 at Blink
+convert g1 to y1 at Romulus
+move y1 from Felix to Blink
+move g3 from Romulus to Blink
+move r2 from Blink to Romulus
+sacrifice g3 at Babamots; build r1 at Kurl; build g1 at Kurl; build g3 at Babamots
+capture y1 at Romulus
+sacrifice r2 at Kurl; capture b2 at Blink; capture b2 at Blink
+build y1 at Felix
+convert b2 to y2 at Blink
+move b2 from Felix to Remnant (b2)
+sacrifice g3 at Babamots; build r1 at Kurl; build r1 at Kurl; build g3 at Babamots
+move y1 from Felix to Savant (y2)
+build y3 at Blink
+build y3 at Blink; catastrophe yellow at Blink
+sacrifice g1 at Kesprytt; build g1 at Kurl
+build y1 at Felix
+sacrifice g2 at Kesprytt; build b3 at Blink; build g2 at Blink
+build y2 at Felix
+convert b3 to y3 at Blink
+move y1 from Felix to Remnant
+sacrifice g3 at Babamots; build y3 at Blink; build b3 at Blink; build g3 at Babamots
+move y2 from Felix to Blink
+convert y3 to r3 at Blink
+build y3 at Felix
+sacrifice y3 at Blink; move r3 from Blink to Felix; move g3 from Blink to Felix; move b3 from Blink to Felix
+sacrifice r2 at Romulus; capture b3 at Felix; capture g3 at Felix
+capture g3 at Felix
+build y3 at Felix
+capture y3 at Felix
+convert b2 to r2 at Remnant
+sacrifice r3 at Felix; capture y3 at Felix; capture y3 at Felix; capture b3 at Felix
+build b2 at Felix
+catastrophe blue at Felix

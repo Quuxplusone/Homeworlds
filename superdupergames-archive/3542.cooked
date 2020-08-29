@@ -1,0 +1,18 @@
+Andylooney (0, b2r1) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Andylooney
+build g1 at Twoshort
+convert g3 to y3 at Andylooney
+convert g1 to y1 at Twoshort
+build g1 at Andylooney
+build y1 at Twoshort
+move g1 from Andylooney to Money (y3)
+move y1 from Twoshort to Garden (g2)
+build g1 at Andylooney
+build g2 at Twoshort
+move g1 from Andylooney to Gold (y3)
+move g2 from Twoshort to Yoyo (y2)
+build y1 at Andylooney
+build y2 at Twoshort
+move y1 from Andylooney to Paradise (g3)
+convert y1 to r1 at Twoshort

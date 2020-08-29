@@ -1,0 +1,40 @@
+Twoshort (0, y2b1) g3-
+Jesse (1, b3y1) -g3
+build g1 at Twoshort
+build g1 at Jesse
+move g1 from Twoshort to Yak (y3)
+move g1 from Jesse to Ork (b2)
+build g1 at Twoshort
+build g2 at Ork
+build g2 at Yak
+convert g1 to y1 at Ork
+move g1 from Yak to Bluestar (b2)
+build y1 at Ork
+build g1 at Bluestar
+build g2 at Jesse
+build g3 at Yak
+move y1 from Ork to Jesse
+move g2 from Yak to Yolonda (y2)
+sacrifice g3 at Jesse; build g3 at Ork; build y2 at Ork; build y3 at Jesse
+convert g3 to r3 at Twoshort
+convert y3 to r3 at Jesse
+sacrifice g3 at Yak; build g3 at Twoshort; build r1 at Twoshort; build g3 at Yolonda
+sacrifice g3 at Ork; build g3 at Ork; build y3 at Ork; build r1 at Jesse
+move g3 from Yolonda to Brother (b3)
+sacrifice y2 at Ork; move y3 from Ork to Mustard (y3); move g3 from Ork to Snow (y3)
+convert g1 to b1 at Bluestar
+build y2 at Ork
+sacrifice g3 at Twoshort; build g1 at Bluestar; build b1 at Bluestar; build g3 at Twoshort
+sacrifice g3 at Snow; build g3 at Ork; build y3 at Ork; build r1 at Jesse
+sacrifice b1 at Bluestar; convert g2 to b2 at Yolonda
+sacrifice y2 at Ork; move y3 from Ork to Babe (b3); move r3 from Jesse to Yolonda
+move b2 from Yolonda to Brother
+sacrifice g3 at Ork; build g2 at Jesse; build g3 at Ork; build y2 at Babe
+convert g1 to b1 at Twoshort
+move y2 from Babe to Bluestar
+sacrifice b2 at Brother; convert r1 to g1 at Twoshort
+convert g2 to b2 at Jesse
+sacrifice b1 at Bluestar; convert g1 to b1 at Twoshort
+sacrifice g3 at Ork; build g1 at Jesse; build g2 at Ork; build g3 at Ork
+sacrifice g3 at Brother; build g3 at Twoshort; build b3 at Twoshort; build r1 at Twoshort; catastrophe blue at Twoshort
+move y1 from Ork to Babe

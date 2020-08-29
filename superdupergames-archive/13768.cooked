@@ -1,0 +1,11 @@
+Mneme (0, b1r3) g3-
+Wyons (1, r2b1) -g3
+build g1 at Mneme
+build g1 at Wyons
+convert g1 to b1 at Mneme
+convert g1 to y1 at Wyons
+build b2 at Mneme
+build y1 at Wyons
+convert b2 to y2 at Mneme
+build g1 at Wyons
+build b2 at Mneme

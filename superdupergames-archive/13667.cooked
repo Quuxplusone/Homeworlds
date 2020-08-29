@@ -1,0 +1,68 @@
+Agentofchaos (0, b3r2) g3-
+Zoltar (1, r1b3) -g3
+build g1 at Agentofchaos
+build g1 at Zoltar
+convert g1 to y1 at Agentofchaos
+convert g1 to y1 at Zoltar
+build g1 at Agentofchaos
+build g1 at Zoltar
+convert g1 to r1 at Agentofchaos
+convert g1 to r1 at Zoltar
+build g1 at Agentofchaos
+build r2 at Zoltar
+build y1 at Agentofchaos
+build y2 at Zoltar
+build y2 at Agentofchaos
+move y1 from Zoltar to Greenbelt (g2)
+convert y1 to b1 at Agentofchaos
+convert r1 to b1 at Zoltar
+move y2 from Agentofchaos to Drogue (g1)
+move r2 from Zoltar to Greenbelt
+move r1 from Agentofchaos to Drogue
+move b1 from Zoltar to Greenbelt
+move g1 from Agentofchaos to Drogue
+build b1 at Greenbelt
+build g1 at Agentofchaos
+move b1 from Greenbelt to Greengiant (g3)
+build g2 at Agentofchaos
+build g2 at Zoltar
+move b1 from Agentofchaos to Drogue
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b2 at Greenbelt; build b2 at Greengiant
+sacrifice g3 at Agentofchaos; build b2 at Drogue; build y1 at Agentofchaos; build g3 at Agentofchaos
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Greenbelt; build y3 at Zoltar
+sacrifice g3 at Agentofchaos; build y3 at Drogue; build r1 at Drogue; build g3 at Agentofchaos
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Greenbelt; build b3 at Greenbelt
+move y2 from Drogue to Greenbelt; catastrophe yellow at Greenbelt
+sacrifice b2 at Greenbelt; convert b3 to y3 at Greenbelt; convert b2 to r2 at Greengiant
+move r1 from Drogue to Gathlok (y2)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r3 at Greenbelt; build r3 at Greengiant
+sacrifice g1 at Agentofchaos; build r3 at Gathlok
+build b2 at Greengiant
+move r1 from Drogue to Flame (y2)
+sacrifice y3 at Zoltar; move r2 from Greenbelt to Greengiant; move r2 from Greengiant to Gathlok; move r2 from Greengiant to Gathlok; catastrophe red at Gathlok
+convert b2 to y2 at Drogue
+sacrifice g2 at Zoltar; build y1 at Greenbelt; build y3 at Zoltar
+move r1 from Flame to Zoltar
+capture r1 at Zoltar
+build y2 at Agentofchaos
+sacrifice y2 at Zoltar; move y1 from Greenbelt to Greengiant; move r3 from Greenbelt to Drogue
+sacrifice y2 at Drogue; move y3 from Drogue to Karnak (g2); move b1 from Drogue to Agentofchaos
+capture g1 at Drogue
+convert y1 to r1 at Agentofchaos
+move b1 from Greengiant to Drogue
+move r1 from Agentofchaos to Grump (y1)
+build b2 at Drogue
+build y2 at Karnak
+build y2 at Greengiant
+move r1 from Grump to Karnak
+build g1 at Zoltar
+build r2 at Karnak
+move r1 from Zoltar to Greenbelt
+move b1 from Agentofchaos to Ghast (y1)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b2 at Greengiant; build b3 at Greenbelt
+move b1 from Ghast to Karnak
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Drogue; build r3 at Greenbelt
+move g2 from Agentofchaos to Kakradoom (y1)
+sacrifice y2 at Greengiant; move r3 from Greenbelt to Kakradoom; move b3 from Greenbelt to Kakradoom
+build y2 at Agentofchaos
+sacrifice y3 at Greenbelt; move r2 from Drogue to Agentofchaos; move r3 from Drogue to Agentofchaos; move r3 from Kakradoom to Agentofchaos; catastrophe red at Agentofchaos

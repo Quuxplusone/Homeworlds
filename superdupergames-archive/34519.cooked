@@ -1,0 +1,28 @@
+Minoan (0, g1b2) y3-
+Babamots (1, b3g1) -g3
+build y1 at Minoan
+build g1 at Babamots
+build y1 at Minoan
+convert g3 to y3 at Babamots
+convert y3 to g3 at Minoan
+build g2 at Babamots
+move y1 from Minoan to Ceti_Alpha_V (g3)
+move g2 from Babamots to Risa (g2)
+build y1 at Minoan
+build y2 at Babamots
+build y2 at Ceti_Alpha_V
+build g2 at Risa
+move g3 from Minoan to Cardassia (b3)
+build g3 at Babamots
+convert y1 to b1 at Minoan
+move y2 from Babamots to Risa
+build y1 at Minoan
+sacrifice g3 at Babamots; build y2 at Babamots; build y3 at Risa; build g3 at Babamots
+move y1 from Minoan to Cardassia
+convert y2 to r2 at Babamots
+convert y1 to r1 at Minoan
+sacrifice y2 at Risa; move y3 from Risa to Cardassia; move y3 from Cardassia to Minoan
+build r1 at Minoan
+sacrifice r2 at Babamots; capture r1 at Minoan; capture r1 at Minoan
+build b1 at Minoan
+convert r1 to b1 at Minoan; catastrophe blue at Minoan

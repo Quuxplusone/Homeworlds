@@ -1,0 +1,49 @@
+Danner (0, y1b2) g3-
+Sztyuni (1, b2g3) -r3
+build g1 at Danner
+build r1 at Sztyuni
+convert g1 to r1 at Danner
+convert r1 to y1 at Sztyuni
+build g1 at Danner
+build y1 at Sztyuni
+build r1 at Danner
+build y2 at Sztyuni
+move g1 from Danner to Wormhole (y3)
+move y1 from Sztyuni to Joskabacsi (g1)
+build g1 at Wormhole
+move r3 from Sztyuni to Joskabacsi
+move g1 from Wormhole to Market (b1)
+build y2 at Sztyuni
+build g2 at Market
+convert y2 to r2 at Sztyuni
+convert g2 to y2 at Market
+move r3 from Joskabacsi to Wormhole
+move g1 from Wormhole to Danner
+convert y2 to g2 at Sztyuni
+build y2 at Market
+move g2 from Sztyuni to Joskabacsi
+move y2 from Market to Earth (g3)
+move g2 from Joskabacsi to Wormhole
+sacrifice g3 at Danner; build y2 at Market; build y3 at Market; build y3 at Earth
+move g2 from Wormhole to Danner
+move y2 from Earth to Danner
+move r3 from Wormhole to Danner
+build r1 at Danner; catastrophe red at Danner
+build y3 at Joskabacsi
+convert y2 to r2 at Danner
+move y3 from Joskabacsi to Sztyuni
+build y2 at Earth
+move y1 from Sztyuni to Market; catastrophe yellow at Market
+capture g2 at Danner
+build y1 at Joskabacsi
+move y3 from Earth to Market
+build y2 at Sztyuni
+sacrifice g2 at Danner; build y2 at Earth; build y3 at Market
+convert y3 to r3 at Sztyuni
+move y2 from Earth to Mars (r1)
+move r3 from Sztyuni to Market
+sacrifice r2 at Danner; capture r3 at Market
+build y3 at Sztyuni
+sacrifice y2 at Earth; move y2 from Mars to Sztyuni; move y3 from Market to Sztyuni
+convert y3 to r3 at Sztyuni
+sacrifice r3 at Market; capture r2 at Sztyuni; capture r3 at Sztyuni; capture y2 at Sztyuni

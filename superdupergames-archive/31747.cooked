@@ -1,0 +1,19 @@
+Laurie_Menke (0, y1b3) g3-
+Draw5Playall (1, b2r1) -g3
+build g1 at Laurie_Menke
+build g1 at Draw5Playall
+convert g1 to r1 at Laurie_Menke
+convert g1 to r1 at Draw5Playall
+build r2 at Laurie_Menke
+build r2 at Draw5Playall
+convert g3 to y3 at Laurie_Menke
+convert r2 to y2 at Draw5Playall
+move r2 from Laurie_Menke to Green (g2)
+build r2 at Draw5Playall
+sacrifice y3 at Laurie_Menke; move r2 from Green to Temporary (y3); move r2 from Temporary to Draw5Playall; catastrophe red at Draw5Playall
+move y2 from Draw5Playall to Laurie_Menke
+convert r1 to g1 at Laurie_Menke
+convert y2 to r2 at Laurie_Menke
+build g1 at Laurie_Menke
+capture g1 at Laurie_Menke
+build g1 at Laurie_Menke

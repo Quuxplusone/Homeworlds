@@ -1,0 +1,65 @@
+Dlwillson (0, y3b1) g3-
+Goulo (1, r3b2) -g3
+build g1 at Dlwillson
+build g1 at Goulo
+convert g1 to b1 at Dlwillson
+convert g1 to b1 at Goulo
+build b2 at Dlwillson
+build b2 at Goulo
+move b1 from Dlwillson to Field (g2)
+convert b1 to y1 at Goulo
+build g1 at Dlwillson
+build g1 at Goulo
+convert g1 to y1 at Dlwillson
+convert g1 to r1 at Goulo
+build g1 at Dlwillson
+build g1 at Goulo
+sacrifice g3 at Dlwillson; build b1 at Field; build b3 at Field; build b3 at Dlwillson
+build b3 at Goulo
+convert b1 to r1 at Field
+move b3 from Goulo to Flaveto (y1)
+build y2 at Dlwillson
+build y2 at Goulo
+convert b2 to r2 at Dlwillson
+move y1 from Goulo to Verdeto (g1)
+move y1 from Dlwillson to Field
+move y1 from Verdeto to Verdo (g2)
+move y2 from Dlwillson to Verdo
+move y1 from Verdo to Blueto (b1)
+convert b3 to y3 at Field
+move b3 from Flaveto to Verdo
+move y2 from Verdo to Blueto
+move y1 from Blueto to Verdo
+build b2 at Field
+build b3 at Verdo
+sacrifice b2 at Field; convert b3 to g3 at Dlwillson; convert y2 to g2 at Blueto
+move g1 from Goulo to Flaveto (y1)
+sacrifice g3 at Dlwillson; build g1 at Blueto; build g3 at Blueto; build g3 at Dlwillson
+sacrifice y2 at Goulo; move g1 from Flaveto to Verdo; move g1 from Verdo to Blueto; catastrophe green at Blueto
+build b1 at Field
+convert b2 to y2 at Goulo
+move b1 from Field to Forest (g1)
+move b3 from Verdo to Forest
+build b2 at Field
+build y1 at Verdo
+sacrifice y3 at Field; move b1 from Forest to Goulo; move b1 from Field to Forest; move b1 from Forest to Goulo
+capture b1 at Goulo
+sacrifice g1 at Dlwillson; build b2 at Goulo; catastrophe blue at Goulo
+sacrifice y1 at Verdo; move b3 from Forest to Field
+move r1 from Field to Mars (r1)
+sacrifice r1 at Goulo; capture y1 at Field
+convert b2 to y2 at Field
+convert b3 to r3 at Field
+move y2 from Field to Alsomars (r1)
+move y2 from Goulo to Mars
+build r2 at Dlwillson
+capture r1 at Mars
+move r2 from Dlwillson to Sol (y2)
+build r2 at Field
+build r3 at Dlwillson
+move r3 from Field to Dlwillson
+sacrifice r2 at Dlwillson; capture r3 at Dlwillson
+build r2 at Field
+move r3 from Dlwillson to Sea (b2)
+build b1 at Verdo
+move r3 from Dlwillson to Alsosea (b2)

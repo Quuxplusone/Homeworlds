@@ -1,0 +1,91 @@
+Felix (0, y1b3) g3-
+Velgarath2 (1, g3b2) -y3
+build g1 at Felix
+build y1 at Velgarath2
+convert g1 to y1 at Felix
+build y2 at Velgarath2
+build y2 at Felix
+move y1 from Velgarath2 to Alpha (g1)
+move y2 from Felix to Opus (g2)
+convert y2 to b2 at Velgarath2
+build y2 at Felix
+build y2 at Velgarath2
+convert y2 to b2 at Felix
+build y2 at Alpha
+build y3 at Opus
+sacrifice y2 at Velgarath2; move y1 from Alpha to Opus; move y2 from Alpha to Opus; catastrophe yellow at Opus
+build g1 at Felix
+build b1 at Velgarath2
+build g1 at Felix
+build y1 at Velgarath2
+move g1 from Felix to Out (y2)
+build y2 at Velgarath2
+build g1 at Out
+convert y2 to g2 at Velgarath2
+move b2 from Felix to Out
+move b2 from Velgarath2 to Bravo (r1)
+convert g1 to r1 at Felix
+build y2 at Velgarath2
+build b1 at Out
+move y2 from Velgarath2 to Charly (r1)
+convert b2 to r2 at Out
+move g2 from Velgarath2 to Bravo
+build r2 at Felix
+build y2 at Velgarath2
+move y1 from Felix to Opus (g2)
+move y2 from Velgarath2 to Bravo
+build y3 at Opus
+build y3 at Bravo
+move g1 from Out to Rumple (b1)
+convert y3 to r3 at Velgarath2
+move g1 from Out to Bank (y3)
+build b2 at Bravo
+move y1 from Opus to Rumple
+move b1 from Velgarath2 to Charly
+build g1 at Felix
+sacrifice b2 at Bravo; convert y3 to r3 at Bravo; convert y2 to g2 at Charly
+build g3 at Rumple
+move r3 from Bravo to Out
+sacrifice g3 at Rumple; build g3 at Rumple; build r2 at Out; build r3 at Out; catastrophe red at Out
+build r2 at Velgarath2
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Opus; build y3 at Rumple
+sacrifice g2 at Bravo; build b2 at Charly; build b3 at Bravo
+sacrifice g3 at Felix; build g2 at Bank; build g3 at Felix; build b3 at Out
+sacrifice y2 at Bravo; move b1 from Charly to Out; move b2 from Bravo to Out; catastrophe blue at Out
+convert g1 to b1 at Rumple
+build y2 at Velgarath2
+build g1 at Rumple
+move y2 from Velgarath2 to Bravo
+move b1 from Rumple to Bank
+build y2 at Velgarath2
+move g1 from Bank to Ragg (b1)
+convert b3 to r3 at Bravo
+convert r2 to b2 at Felix
+move r3 from Bravo to Bank
+sacrifice g3 at Felix; build g3 at Felix; build b3 at Bank; build b3 at Bank
+sacrifice r2 at Velgarath2; capture b3 at Bank; capture b3 at Bank
+sacrifice g1 at Ragg; build b1 at Bank; catastrophe blue at Bank
+capture g2 at Bank
+convert g1 to b1 at Rumple
+build r2 at Bank
+move b2 from Felix to Opus
+move y1 from Velgarath2 to Charly
+build r2 at Felix
+move y2 from Bravo to Opus
+move y3 from Opus to Charly
+sacrifice r2 at Bank; capture y2 at Opus; capture b2 at Opus
+capture g2 at Charly
+sacrifice y2 at Velgarath2; move y2 from Opus to Rumple; move y2 from Opus to Rumple; catastrophe yellow at Rumple
+sacrifice r2 at Felix; capture y1 at Charly; capture b2 at Charly
+build r1 at Bank
+sacrifice g3 at Felix; build g1 at Charly; build g1 at Rumple; build g3 at Felix
+build r2 at Bank
+build b1 at Charly
+move r2 from Bank to Rumple
+sacrifice r1 at Felix; capture r2 at Rumple
+build b3 at Opus
+convert g3 to y3 at Rumple
+build g3 at Bank
+sacrifice y3 at Rumple; move b2 from Charly to Velgarath2; move b1 from Charly to Velgarath2; move b1 from Rumple to Velgarath2; catastrophe blue at Velgarath2
+sacrifice b2 at Opus; convert b3 to y3 at Opus; convert g2 to y2 at Bank
+sacrifice y3 at Charly; move g1 from Charly to Velgarath2; move g2 from Charly to Velgarath2; move g1 from Rumple to Velgarath2; catastrophe green at Velgarath2

@@ -1,0 +1,15 @@
+Trydnt (0, b2y1) g3-
+Akuden (1, b1g3) -y3
+build g1 at Trydnt
+build y1 at Akuden
+convert g1 to y1 at Trydnt
+build y2 at Akuden
+build y2 at Trydnt
+convert y2 to g2 at Akuden
+move y1 from Trydnt to G3 (g3)
+move g2 from Akuden to Looney (b2)
+build y2 at G3
+build g1 at Looney
+build y2 at Trydnt
+build y3 at Akuden
+sacrifice y2 at Trydnt; move y1 from G3 to Looney; move y1 from Looney to Akuden; catastrophe yellow at Akuden

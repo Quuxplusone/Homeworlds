@@ -1,0 +1,76 @@
+Dodobirb (0, b1r3) g3-
+Speardane (1, r2b3) -g3
+build g1 at Dodobirb
+build g1 at Speardane
+convert g1 to y1 at Dodobirb
+convert g3 to y3 at Speardane
+build y1 at Dodobirb
+build g1 at Speardane
+move y1 from Dodobirb to Goat (g2)
+move g1 from Speardane to Delos (b1)
+convert y1 to b1 at Dodobirb
+build y1 at Speardane
+build y1 at Goat
+move y1 from Speardane to Delos
+move y1 from Goat to Farm (g1)
+build g2 at Delos
+build g2 at Dodobirb
+sacrifice g2 at Delos; build g2 at Speardane; build g3 at Speardane
+sacrifice g3 at Dodobirb; build g3 at Dodobirb; build y2 at Farm; build y2 at Goat
+sacrifice g3 at Speardane; build y2 at Delos; build y3 at Delos; build g3 at Speardane
+move y1 from Goat to Delos; catastrophe yellow at Delos
+convert g3 to r3 at Speardane
+convert g3 to r3 at Dodobirb
+move r3 from Speardane to Farm
+build g3 at Dodobirb
+capture y2 at Farm
+convert g3 to y3 at Dodobirb
+sacrifice g2 at Speardane; build g2 at Delos; build r1 at Farm
+move r3 from Dodobirb to Goat
+convert g1 to y1 at Delos
+build b2 at Dodobirb
+build y1 at Delos
+convert b2 to r2 at Dodobirb
+convert y1 to r1 at Delos
+move b1 from Dodobirb to Goat
+build y1 at Speardane
+build b2 at Goat
+build y2 at Delos
+build y3 at Dodobirb
+move y1 from Speardane to Lebling (g1)
+move b1 from Goat to Middle (g3)
+build g3 at Speardane
+build g3 at Dodobirb
+move y2 from Delos to Middle
+build b2 at Middle
+sacrifice r1 at Farm; capture b2 at Middle
+sacrifice g2 at Dodobirb; build b2 at Middle; build b3 at Middle; catastrophe blue at Middle
+sacrifice g3 at Speardane; build r1 at Delos; build g2 at Speardane; build g3 at Delos
+build b1 at Goat
+sacrifice g3 at Delos; build r1 at Farm; build r2 at Delos; build g3 at Speardane
+build b2 at Goat
+convert g2 to b2 at Speardane
+move b2 from Goat to Dodobirb
+sacrifice b2 at Speardane; convert r3 to b3 at Farm; convert y2 to b2 at Middle
+build r3 at Goat
+sacrifice g3 at Speardane; build g2 at Speardane; build g3 at Speardane; build b3 at Middle
+build y2 at Goat
+sacrifice y2 at Farm; move r1 from Delos to Goat; move r1 from Delos to Goat; catastrophe red at Goat
+move r2 from Dodobirb to Goat
+sacrifice y1 at Lebling; move b3 from Middle to Goat
+sacrifice y2 at Goat; move y2 from Goat to Newgoat (g1); move r2 from Goat to Newgoat
+move g3 from Speardane to Newgoat
+move y3 from Dodobirb to Moveout (y2)
+sacrifice r2 at Delos; capture r2 at Newgoat; capture y2 at Newgoat
+convert b2 to r2 at Dodobirb
+capture y1 at Farm
+move y3 from Moveout to Delos
+sacrifice g3 at Newgoat; build y1 at Delos; build y2 at Delos; build g3 at Delos; catastrophe yellow at Delos
+build y1 at Dodobirb
+sacrifice g3 at Delos; build g3 at Delos; build y1 at Speardane; build y2 at Newgoat
+build b2 at Goat; catastrophe blue at Goat
+sacrifice y2 at Newgoat; move y1 from Speardane to Lebling (b1); move g1 from Speardane to Lebling
+convert r2 to b2 at Dodobirb
+sacrifice g3 at Delos; build g2 at Delos; build y2 at Speardane; build g3 at Lebling
+move y3 from Dodobirb to Red (r2)
+sacrifice g3 at Lebling; build y2 at Farm; build g3 at Speardane; build y3 at Lebling

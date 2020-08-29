@@ -1,0 +1,70 @@
+Goulo (0, r3b2) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Goulo
+build g1 at Draw5Playall
+convert g1 to y1 at Goulo
+convert g1 to y1 at Draw5Playall
+build g1 at Goulo
+build g1 at Draw5Playall
+convert g1 to b1 at Goulo
+convert g1 to b1 at Draw5Playall
+build g1 at Goulo
+build g1 at Draw5Playall
+convert g1 to r1 at Goulo
+convert g1 to r1 at Draw5Playall
+build r2 at Goulo
+build r2 at Draw5Playall
+convert r1 to g1 at Goulo
+move r2 from Draw5Playall to Build (g2)
+move r2 from Goulo to Verdeto (g1)
+move b1 from Draw5Playall to Build
+move b1 from Goulo to Verdeto
+move r1 from Draw5Playall to Construct (g2)
+build y1 at Goulo
+build y2 at Draw5Playall
+move y1 from Goulo to Verdeto
+move y2 from Draw5Playall to Construct
+build y2 at Verdeto
+build g1 at Draw5Playall
+sacrifice g3 at Goulo; build g2 at Goulo; build g3 at Goulo; build r1 at Verdeto
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build g3 at Draw5Playall; build b1 at Build
+sacrifice g3 at Goulo; build g3 at Goulo; build y2 at Goulo; build y3 at Goulo
+sacrifice g3 at Draw5Playall; build y3 at Construct; build y3 at Draw5Playall; build r2 at Construct
+sacrifice y2 at Goulo; move y3 from Goulo to Verdeto; move y3 from Verdeto to Build
+sacrifice y2 at Construct; move r2 from Build to Create (g3); move b1 from Build to Create
+build y2 at Build
+sacrifice y3 at Draw5Playall; move g1 from Draw5Playall to Build; move g1 from Build to Verdeto; move g1 from Verdeto to Goulo; catastrophe green at Goulo
+sacrifice y2 at Verdeto; move y3 from Build to Verdeto; move y3 from Verdeto to Goulo
+build r3 at Create
+convert y1 to g1 at Goulo
+convert r2 to y2 at Create
+move r1 from Verdeto to Build
+build g1 at Draw5Playall
+capture b1 at Build
+sacrifice g3 at Draw5Playall; build y1 at Construct; build y2 at Create; build y3 at Draw5Playall
+build b2 at Build
+move y3 from Construct to Verdeto
+move r2 from Verdeto to Verdo (g2)
+build g3 at Draw5Playall
+build g3 at Goulo
+move y3 from Draw5Playall to Build
+sacrifice y2 at Build; move b1 from Build to Draw5Playall; move b2 from Build to Draw5Playall
+sacrifice r1 at Construct; capture r1 at Build
+sacrifice g1 at Goulo; build b2 at Draw5Playall; catastrophe blue at Draw5Playall
+move y3 from Verdeto to Verdo
+build g1 at Goulo
+move g1 from Draw5Playall to Goulo
+capture g1 at Goulo
+sacrifice r1 at Build; capture r2 at Verdo
+move b1 from Verdeto to Flavo (y2)
+move r2 from Verdo to Verdeto
+move y1 from Verdeto to Bluo (b2)
+build b1 at Create
+convert b1 to r1 at Flavo
+move b1 from Create to Verdeto
+convert g1 to r1 at Goulo
+sacrifice y3 at Verdo; move y3 from Build to Draw5Playall; move y3 from Draw5Playall to Goulo; move g3 from Draw5Playall to Goulo
+sacrifice g3 at Goulo; build y3 at Goulo; build r2 at Goulo; build r3 at Flavo
+sacrifice r3 at Create; capture y3 at Goulo; capture y3 at Goulo; capture r2 at Goulo
+move r3 from Flavo to Draw5Playall
+sacrifice r2 at Construct; capture r1 at Goulo; capture g1 at Goulo

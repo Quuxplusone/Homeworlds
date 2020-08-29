@@ -1,0 +1,8 @@
+Jgabin1 (0, g2b1) y3-
+Madwuher (1, r2b3) -g3
+build y1 at Jgabin1
+build g1 at Madwuher
+move y1 from Jgabin1 to Bob (g3)
+convert g1 to y1 at Madwuher
+convert y3 to g3 at Jgabin1
+build g1 at Madwuher

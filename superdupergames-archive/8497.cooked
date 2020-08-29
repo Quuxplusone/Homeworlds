@@ -1,0 +1,23 @@
+Zoltar (0, r1b3) g3-
+Clockwise (1, y2b1) -g3
+build g1 at Zoltar
+build g1 at Clockwise
+convert g1 to y1 at Zoltar
+convert g1 to r1 at Clockwise
+build y1 at Zoltar
+build r1 at Clockwise
+build y1 at Zoltar
+build r2 at Clockwise
+move y1 from Zoltar to Gabbagabbahey (g2)
+convert r2 to y2 at Clockwise
+move y1 from Zoltar to Bloohoohoo (b2)
+move y2 from Clockwise to Peppercorn (g3)
+sacrifice g3 at Zoltar; build y2 at Bloohoohoo; build y3 at Gabbagabbahey; build y3 at Zoltar
+move y2 from Peppercorn to Gabbagabbahey
+convert y2 to g2 at Bloohoohoo
+build y2 at Gabbagabbahey; catastrophe yellow at Gabbagabbahey
+build y1 at Bloohoohoo
+build r2 at Clockwise
+build y2 at Bloohoohoo
+move r2 from Clockwise to Hyperion (y3)
+convert y2 to r2 at Bloohoohoo

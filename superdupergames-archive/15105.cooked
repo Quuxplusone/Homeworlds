@@ -1,0 +1,47 @@
+Zoltar (0, r1b3) g3-
+Mandrel (1, b2y1) -g3
+build g1 at Zoltar
+build g1 at Mandrel
+convert g1 to y1 at Zoltar
+convert g1 to r1 at Mandrel
+build y1 at Zoltar
+build r1 at Mandrel
+build y2 at Zoltar
+build r2 at Mandrel
+convert y2 to r2 at Zoltar
+convert r2 to y2 at Mandrel
+build y2 at Zoltar
+build r2 at Mandrel
+move y1 from Zoltar to Greenbelt (g2)
+move r2 from Mandrel to Light (g3)
+sacrifice g3 at Zoltar; build y2 at Greenbelt; build y3 at Greenbelt; build y3 at Zoltar
+move y2 from Mandrel to Light
+sacrifice y1 at Zoltar; move y3 from Greenbelt to Light
+move y2 from Light to Mandrel
+sacrifice r2 at Zoltar; capture r2 at Light
+build g1 at Mandrel
+convert y3 to g3 at Zoltar
+move g1 from Mandrel to Darkness (y3)
+sacrifice g3 at Zoltar; build y1 at Light; build r2 at Light; build y3 at Zoltar
+move y2 from Mandrel to Grey (b3)
+convert y2 to g2 at Zoltar
+move r1 from Mandrel to Grey
+sacrifice y2 at Greenbelt; move y3 from Light to Greenbelt; move y3 from Greenbelt to Grey
+sacrifice g1 at Darkness; build r2 at Grey
+sacrifice r2 at Light; capture r2 at Grey; capture y2 at Grey
+build r2 at Mandrel
+sacrifice g2 at Zoltar; build r3 at Light; build r3 at Grey
+move r1 from Mandrel to Grey; catastrophe red at Grey
+build y2 at Light
+build g1 at Mandrel
+convert y3 to g3 at Grey
+convert g3 to y3 at Mandrel
+sacrifice y2 at Grey; move y2 from Light to Mandrel; move y1 from Light to Mandrel; catastrophe yellow at Mandrel
+build g1 at Mandrel
+convert g3 to y3 at Grey
+build g1 at Mandrel
+move y3 from Grey to Mandrel
+convert g1 to b1 at Mandrel
+sacrifice r3 at Light; capture r2 at Mandrel; capture g1 at Mandrel; capture g1 at Mandrel
+convert b1 to g1 at Mandrel
+convert r2 to g2 at Mandrel; catastrophe green at Mandrel

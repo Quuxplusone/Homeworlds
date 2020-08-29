@@ -1,0 +1,9 @@
+Trydnt (0, b2r1) g3-
+Mobynostromo (1, b1g2) -y3
+build g1 at Trydnt
+build y1 at Mobynostromo
+convert g1 to y1 at Trydnt
+build y1 at Mobynostromo
+build y2 at Trydnt
+move y1 from Mobynostromo to Emerald (g3)
+move y1 from Trydnt to G3 (g3)

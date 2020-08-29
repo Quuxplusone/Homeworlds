@@ -1,0 +1,46 @@
+Wil (0, y2b1) g3-
+Ajo (1, y1b2) -g3
+build g1 at Wil
+build g1 at Ajo
+convert g1 to y1 at Wil
+convert g1 to b1 at Ajo
+build y1 at Wil
+build b1 at Ajo
+move y1 from Wil to B3 (b3)
+move b1 from Ajo to Alpha (g3)
+sacrifice g3 at Wil; build y2 at B3; build y2 at B3; build y3 at Wil
+sacrifice g3 at Ajo; build b2 at Alpha; build b2 at Alpha; build b3 at Ajo
+move y1 from Wil to Alpha
+convert b2 to r2 at Alpha
+build y3 at Alpha
+capture y1 at Alpha
+build y3 at Alpha
+convert b3 to g3 at Ajo
+move y3 from Alpha to Ajo
+move y1 from Alpha to Wil
+convert y3 to r3 at Wil
+move y1 from Wil to B3; catastrophe yellow at B3
+move y3 from Ajo to G3 (g3)
+convert b2 to y2 at Alpha
+build y1 at G3
+build y1 at Alpha
+move y3 from Alpha to G2 (g2)
+move y2 from Alpha to Beta (b2)
+move y1 from G3 to Wil
+sacrifice g3 at Ajo; build b2 at Alpha; build b3 at Alpha; build b3 at Ajo
+convert y1 to g1 at Wil
+convert b3 to g3 at Ajo
+build r1 at Wil
+build b3 at Ajo
+move r1 from Wil to G3
+convert b3 to r3 at Ajo
+build r1 at G3
+build b3 at Ajo
+build g1 at Wil
+move b2 from Alpha to Beta
+move g1 from Wil to Y3 (y3)
+build b3 at Alpha
+build y1 at G3
+sacrifice y2 at Beta; move b3 from Alpha to Wil; move b3 from Alpha to Wil
+move r3 from Wil to Y3
+sacrifice r2 at Alpha; capture g1 at Wil

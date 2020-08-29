@@ -1,0 +1,19 @@
+Rootbier (0, y1b2) g3-
+Makertron (1, y1b2) -g3
+build g1 at Rootbier
+build g1 at Makertron
+convert g1 to y1 at Rootbier
+convert g1 to r1 at Makertron
+build y2 at Rootbier
+build g1 at Makertron
+move y2 from Rootbier to Palpate (b3)
+move g1 from Makertron to Homeworld (b3)
+sacrifice g3 at Rootbier; build y2 at Palpate; build y2 at Palpate; build y3 at Rootbier
+convert g3 to y3 at Makertron
+sacrifice y2 at Palpate; move y2 from Palpate to Makertron; move y2 from Palpate to Makertron; catastrophe yellow at Makertron
+convert r1 to g1 at Makertron
+convert y3 to g3 at Rootbier
+build g1 at Makertron
+build y1 at Rootbier
+build g2 at Makertron
+move y1 from Rootbier to Bolus (b3)

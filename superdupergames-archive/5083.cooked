@@ -1,0 +1,29 @@
+Personman (0, b2y3) g3-
+Lexicon (1, g1b3) -y3
+build g1 at Personman
+build y1 at Lexicon
+build g1 at Personman
+build y1 at Lexicon
+move g1 from Personman to Y1A (y1)
+move y1 from Lexicon to Madcow (g2)
+sacrifice g3 at Personman; build g2 at Y1A; build g2 at Y1A; build g3 at Personman
+convert y3 to g3 at Lexicon
+build g3 at Personman
+build y2 at Madcow
+move g2 from Y1A to Y2A (y2)
+build y2 at Madcow
+move g2 from Y2A to Lexicon
+convert g3 to r3 at Lexicon
+build g3 at Lexicon
+build y2 at Lexicon
+convert g3 to r3 at Personman
+capture g3 at Lexicon
+build g3 at Lexicon; catastrophe green at Lexicon
+move y2 from Madcow to Birdflu (g1)
+sacrifice g3 at Personman; build g2 at Personman; build g3 at Personman; build r1 at Personman
+build y3 at Birdflu
+move g3 from Personman to Birdflu
+sacrifice y2 at Lexicon; move y3 from Birdflu to Personman; move y2 from Birdflu to Personman
+capture y3 at Personman
+sacrifice y2 at Madcow; move y1 from Madcow to Birdflu; move y1 from Birdflu to Personman; catastrophe yellow at Personman
+convert g2 to y2 at Personman

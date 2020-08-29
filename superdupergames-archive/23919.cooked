@@ -1,0 +1,48 @@
+Wil (0, y2b1) g3-
+Subhan64 (1, y3b1) -g3
+build g1 at Wil
+build g1 at Subhan64
+move g1 from Wil to D1 (y3)
+convert g1 to y1 at Subhan64
+build g1 at Wil
+build y1 at Subhan64
+convert g1 to y1 at Wil
+convert y1 to g1 at Subhan64
+build g1 at Wil
+convert g1 to r1 at Subhan64
+convert g1 to r1 at Wil
+build g1 at Subhan64
+build g1 at Wil
+move g1 from Subhan64 to Big_Bird (y2)
+move g1 from Wil to Ynot (y3)
+build g2 at Big_Bird
+build g2 at Wil
+move g2 from Big_Bird to Lrrr (g3)
+sacrifice g3 at Wil; build g2 at Ynot; build g3 at Wil; build r1 at Wil
+sacrifice g2 at Lrrr; build g2 at Big_Bird; build g3 at Subhan64
+sacrifice g3 at Wil; build g3 at Wil; build r2 at Wil; build y1 at Wil
+sacrifice g3 at Subhan64; build g3 at Subhan64; build y2 at Subhan64; build r2 at Subhan64
+move r2 from Wil to D1
+move r2 from Subhan64 to Big_Bird
+move r1 from Wil to Ynot
+convert y1 to b1 at Subhan64
+sacrifice g3 at Wil; build g3 at Wil; build r2 at Ynot; build r3 at D1
+sacrifice g3 at Subhan64; build g3 at Subhan64; build r3 at Subhan64; build r3 at Big_Bird
+move r3 from D1 to Ohwell (b2)
+sacrifice b1 at Subhan64; convert g1 to y1 at Big_Bird
+build g1 at D1
+sacrifice y2 at Subhan64; move y1 from Big_Bird to D1; move y1 from D1 to Wil; catastrophe yellow at Wil
+convert r1 to y1 at Wil
+move r3 from Big_Bird to D1
+move g1 from D1 to Ohwell
+convert g3 to b3 at Subhan64
+build r1 at D1
+sacrifice b3 at Subhan64; convert r3 to b3 at D1; convert r2 to b2 at Big_Bird; convert g2 to b2 at Big_Bird
+move r2 from D1 to Big_Bird
+sacrifice r1 at Subhan64; capture r2 at Big_Bird
+sacrifice g3 at Wil; build g2 at Ohwell; build g3 at Ynot; build g3 at Wil
+convert r2 to y2 at Big_Bird
+sacrifice y1 at Wil; move r3 from Ohwell to D1
+sacrifice y2 at Big_Bird; move b3 from D1 to Wil; move b2 from Big_Bird to Wil
+convert g3 to b3 at Wil
+move b2 from Big_Bird to Wil; catastrophe blue at Wil

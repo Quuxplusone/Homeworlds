@@ -1,0 +1,76 @@
+Twoshort (0, b1r2) g3-
+Jeep (1, b1r2) -g3
+pass
+build g1 at Jeep
+build g1 at Twoshort
+convert g1 to b1 at Jeep
+convert g1 to y1 at Twoshort
+build b2 at Jeep
+build y1 at Twoshort
+convert b2 to y2 at Jeep
+move y1 from Twoshort to Grogar (g3)
+build b2 at Jeep
+build y1 at Grogar
+build y2 at Jeep
+build y2 at Twoshort
+move y2 from Jeep to Moon (b3)
+convert y2 to b2 at Twoshort
+move b2 from Jeep to Grogar
+move b2 from Twoshort to Yolonda (y3)
+sacrifice g3 at Jeep; build y2 at Moon; build y3 at Jeep; build b2 at Grogar
+build y3 at Twoshort
+sacrifice y2 at Jeep; move y2 from Moon to Twoshort; move y2 from Moon to Twoshort; catastrophe yellow at Twoshort
+build g1 at Twoshort
+convert b2 to r2 at Grogar
+convert g1 to y1 at Twoshort
+capture y1 at Grogar
+build y2 at Grogar
+capture y2 at Grogar
+sacrifice g3 at Twoshort; build y2 at Twoshort; build y2 at Grogar; build y3 at Twoshort; catastrophe yellow at Grogar
+build b2 at Grogar
+convert y3 to g3 at Twoshort
+build b3 at Grogar
+sacrifice y2 at Twoshort; move b2 from Yolonda to Twoshort; move b2 from Twoshort to Grogar; catastrophe blue at Grogar
+convert y3 to g3 at Jeep
+build g1 at Twoshort
+build b2 at Jeep
+build y1 at Twoshort
+convert b2 to y2 at Jeep
+move y1 from Twoshort to Bluestar (b3)
+build b2 at Jeep
+build y1 at Twoshort
+move b2 from Jeep to Submarine (y3)
+build y2 at Twoshort
+build b2 at Jeep
+move y1 from Twoshort to Bonbon (b3)
+build y2 at Jeep
+convert y2 to b2 at Twoshort
+move b2 from Jeep to Grogar
+sacrifice g3 at Twoshort; build y2 at Bluestar; build y3 at Bonbon; build y3 at Twoshort
+move y2 from Jeep to Bluestar
+convert y1 to r1 at Bonbon
+sacrifice r2 at Grogar; capture y2 at Bluestar; capture y1 at Bluestar
+move y1 from Twoshort to Bluestar; catastrophe yellow at Bluestar
+build b3 at Grogar
+move b2 from Twoshort to Guessso (g3)
+build b3 at Grogar
+build g1 at Twoshort
+convert b2 to r2 at Grogar
+build b2 at Guessso
+convert b3 to r3 at Grogar
+convert y3 to r3 at Bonbon
+build b3 at Grogar
+build g1 at Twoshort
+convert b3 to y3 at Grogar
+move g1 from Twoshort to Grogar
+build g2 at Jeep
+convert b2 to y2 at Guessso
+sacrifice y2 at Jeep; move r3 from Grogar to Movers (y2); move y3 from Grogar to Shakers (g2)
+build b2 at Guessso
+build b3 at Grogar
+sacrifice g1 at Grogar; build r1 at Bonbon
+move r3 from Movers to Bonbon; catastrophe red at Bonbon
+sacrifice y2 at Guessso; move b2 from Guessso to Jeep; move b2 from Guessso to Jeep; catastrophe blue at Jeep
+sacrifice g2 at Jeep; build b1 at Submarine; build b1 at Submarine
+convert g1 to r1 at Twoshort
+sacrifice y3 at Shakers; move b3 from Grogar to Twoshort; move b3 from Grogar to Twoshort; move b2 from Submarine to Jeep

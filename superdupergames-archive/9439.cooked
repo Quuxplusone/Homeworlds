@@ -1,0 +1,41 @@
+Ts52 (0, y1b2) g3-
+Nmccoy (1, b3y1) -g3
+build g1 at Ts52
+build g1 at Nmccoy
+convert g1 to y1 at Ts52
+convert g3 to y3 at Nmccoy
+move y1 from Ts52 to Kermit (g3)
+build y2 at Nmccoy
+build y2 at Kermit
+move y2 from Nmccoy to Bayleef (g2)
+move y1 from Kermit to Oscar (g2)
+build g1 at Nmccoy
+build y2 at Oscar
+convert y3 to g3 at Nmccoy
+build y3 at Kermit
+build y3 at Bayleef
+build g1 at Ts52
+sacrifice y2 at Bayleef; move y3 from Bayleef to Raichu (y3); move g3 from Nmccoy to Pikachu (y2)
+move y2 from Oscar to Nmccoy
+sacrifice y3 at Raichu; move g3 from Pikachu to Nmccoy; move g1 from Nmccoy to Grovyle (g2); move g1 from Nmccoy to Ivysaur (g2)
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Nmccoy; build y3 at Nmccoy; catastrophe yellow at Nmccoy
+sacrifice g1 at Grovyle; build g1 at Nmccoy
+build g2 at Ts52
+convert g3 to y3 at Nmccoy
+move g2 from Ts52 to Bigbird (y3)
+build g3 at Nmccoy
+convert g1 to r1 at Ts52
+sacrifice y3 at Nmccoy; move g1 from Ivysaur to Bigbird; move g1 from Bigbird to Ts52; move g1 from Nmccoy to Ts52
+convert g3 to b3 at Ts52
+build g1 at Nmccoy
+capture g1 at Ts52
+convert g3 to r3 at Nmccoy
+capture g1 at Ts52
+build g2 at Nmccoy
+build g3 at Bigbird
+convert g2 to y2 at Nmccoy
+build b1 at Ts52
+build g2 at Nmccoy
+sacrifice y2 at Kermit; move b3 from Ts52 to Nmccoy; move b1 from Ts52 to Nmccoy
+sacrifice y2 at Nmccoy; move g2 from Nmccoy to Ts52; move g1 from Nmccoy to Ts52; catastrophe green at Ts52
+sacrifice g3 at Bigbird; build b1 at Nmccoy; build b1 at Nmccoy; build b2 at Nmccoy; catastrophe blue at Nmccoy

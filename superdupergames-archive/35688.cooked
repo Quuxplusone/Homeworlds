@@ -1,0 +1,38 @@
+Cuc (0, b1g2) y3-
+Babamots (1, g3b1) -b3
+build y1 at Cuc
+build b1 at Babamots
+build y1 at Cuc
+convert b3 to y3 at Babamots
+convert y1 to g1 at Cuc
+build b2 at Babamots
+move g1 from Cuc to B3A (b3)
+move b1 from Babamots to Orion (g2)
+build g1 at B3A
+build b2 at Babamots
+build g1 at B3A
+convert b2 to g2 at Babamots
+convert g1 to y1 at B3A
+move g2 from Babamots to Bajor (b2)
+build y1 at B3A
+build y2 at Babamots
+move y1 from Cuc to G3A (g3)
+build b2 at Orion
+build y2 at G3A
+build b3 at Orion
+build y2 at Cuc
+convert b3 to y3 at Orion
+move g1 from B3A to R2A (r2)
+build b3 at Orion
+convert y3 to b3 at Cuc
+convert b3 to r3 at Orion
+convert b3 to r3 at Cuc
+build y3 at Orion
+build r1 at Cuc
+build b3 at Orion
+sacrifice y2 at Cuc; move r1 from Cuc to G3B (g3); move g1 from R2A to G3B
+move y3 from Orion to G3B
+build r1 at Cuc
+sacrifice y3 at Orion; move b3 from Orion to G3B; move b3 from G3B to Cuc; move y3 from G3B to Cuc
+capture y3 at Cuc
+sacrifice r3 at Orion; capture r3 at Cuc; capture y3 at Cuc; capture r1 at Cuc

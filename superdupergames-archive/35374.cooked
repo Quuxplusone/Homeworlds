@@ -1,0 +1,44 @@
+Rho0 (0, r1b2) g3-
+Wil (1, y3b1) -g3
+build g1 at Rho0
+build g1 at Wil
+build g1 at Rho0
+build g2 at Wil
+convert g1 to y1 at Rho0
+convert g1 to r1 at Wil
+convert g1 to b1 at Rho0
+build r1 at Wil
+build b1 at Rho0
+convert g2 to b2 at Wil
+build y1 at Rho0
+move b2 from Wil to G2 (g2)
+move b1 from Rho0 to Beta (y3)
+move r1 from Wil to G2
+build b2 at Rho0
+build b3 at G2
+sacrifice g3 at Rho0; build b3 at Beta; build b3 at Beta; build y1 at Rho0
+convert b2 to y2 at G2
+sacrifice b1 at Rho0; convert b3 to g3 at Beta
+build b1 at G2
+move g3 from Beta to Rho0
+convert b3 to y3 at G2
+move y1 from Rho0 to Gamma (g3)
+move y2 from G2 to Gamma
+convert b3 to r3 at Beta
+build r2 at G2
+build g1 at Rho0
+move r2 from G2 to Gamma
+move y1 from Gamma to Delta (r2)
+build y2 at G2
+sacrifice g1 at Rho0; build y2 at Delta
+sacrifice g3 at Wil; build r2 at G2; build r3 at Gamma; build r3 at Wil
+sacrifice y1 at Delta; move y2 from Delta to Epsilon (b3)
+convert r3 to g3 at Wil
+convert b2 to g2 at Rho0
+move r2 from Gamma to Y1 (y1)
+build g1 at Rho0
+build r2 at Gamma
+move y1 from Rho0 to Alpha (r3)
+move r1 from G2 to Beta
+sacrifice y2 at Epsilon; move r3 from Beta to Phi (y2); move b1 from Beta to Phi
+build b2 at G2

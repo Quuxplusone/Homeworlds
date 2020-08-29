@@ -1,0 +1,20 @@
+Gungho (0, g3y1) b3-
+Agentofchaos (1, b1r2) -g3
+build b1 at Gungho
+build g1 at Agentofchaos
+build b1 at Gungho
+build g1 at Agentofchaos
+move b1 from Gungho to Mold (g2)
+convert g1 to y1 at Agentofchaos
+build b2 at Mold
+build y1 at Agentofchaos
+convert b2 to y2 at Mold
+build y2 at Agentofchaos
+build b2 at Mold
+convert y2 to b2 at Agentofchaos
+move b2 from Mold to Taffy (y3)
+move y1 from Agentofchaos to Holdgar (g3)
+build b2 at Mold
+move b2 from Agentofchaos to Holdgar
+build b3 at Gungho
+build b3 at Holdgar

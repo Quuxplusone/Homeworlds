@@ -1,0 +1,43 @@
+Visible (0, g2y1) b3-
+Scottobear (1, b3g2) -y3
+build b1 at Visible
+build y1 at Scottobear
+move b1 from Visible to Invisible (y3)
+convert y1 to r1 at Scottobear
+build b1 at Visible
+move r1 from Scottobear to Shiny (g1)
+convert b1 to r1 at Invisible
+build r1 at Shiny
+move r1 from Invisible to Devisible (y1)
+build y1 at Scottobear
+convert b3 to g3 at Visible
+build y2 at Scottobear
+move r1 from Devisible to Scottobear
+convert y2 to r2 at Scottobear
+capture y1 at Scottobear
+capture r1 at Scottobear
+move y1 from Scottobear to Revisible (g1)
+move r2 from Scottobear to Revisible
+move y1 from Revisible to Unvisible (b2)
+convert r1 to y1 at Scottobear
+convert y1 to g1 at Unvisible
+move y1 from Scottobear to Shiny
+sacrifice g3 at Visible; build g2 at Unvisible; build g3 at Unvisible; build b1 at Visible
+build y1 at Scottobear
+convert g2 to y2 at Unvisible
+convert y1 to r1 at Scottobear
+convert g3 to r3 at Unvisible
+move r1 from Shiny to Unvisible
+capture r1 at Unvisible
+move r1 from Shiny to Bright (g3)
+move r3 from Unvisible to Revisible
+build r2 at Bright
+capture r2 at Revisible
+move y1 from Shiny to Bright
+sacrifice y2 at Unvisible; move r2 from Revisible to Bright; move r1 from Unvisible to Bright; catastrophe red at Bright
+move r1 from Scottobear to Dark (b1)
+convert b1 to y1 at Visible
+build y2 at Bright
+sacrifice y1 at Visible; move r3 from Revisible to Scottobear
+convert y3 to r3 at Scottobear
+capture r3 at Scottobear

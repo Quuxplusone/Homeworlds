@@ -1,0 +1,43 @@
+Ts52 (0, y1b2) g3-
+Broccoli_Commander (1, b1g3) -y3
+build g1 at Ts52
+build y1 at Broccoli_Commander
+move g1 from Ts52 to Grover (b3)
+convert y1 to g1 at Broccoli_Commander
+build g1 at Grover
+build g2 at Broccoli_Commander
+build g2 at Grover
+move g2 from Broccoli_Commander to Cauliflower (y2)
+convert g2 to y2 at Grover
+build g2 at Cauliflower
+build g2 at Ts52
+move g2 from Cauliflower to Space_Lettuce (g3)
+convert g2 to r2 at Ts52
+convert g1 to r1 at Broccoli_Commander
+build y1 at Grover
+build y1 at Broccoli_Commander
+move y1 from Grover to Kermit (g2)
+build r1 at Broccoli_Commander
+build y2 at Kermit
+move y1 from Broccoli_Commander to Kermit
+build y3 at Grover
+build g1 at Cauliflower
+convert y3 to r3 at Grover
+move g2 from Cauliflower to Blueberry (b3)
+build y3 at Grover
+sacrifice g2 at Space_Lettuce; build g2 at Cauliflower; build g3 at Blueberry
+move r3 from Grover to Cauliflower
+move g2 from Cauliflower to Carrot (y3)
+capture g1 at Cauliflower
+convert y3 to b3 at Broccoli_Commander
+convert y3 to r3 at Grover
+convert g3 to y3 at Blueberry
+build g3 at Cauliflower
+build y3 at Kermit; catastrophe yellow at Kermit
+build r1 at Cauliflower
+sacrifice g2 at Carrot; build g2 at Blueberry; build y1 at Blueberry
+convert g1 to b1 at Grover
+convert b3 to y3 at Broccoli_Commander
+build r2 at Grover
+build y1 at Broccoli_Commander
+build y2 at Grover

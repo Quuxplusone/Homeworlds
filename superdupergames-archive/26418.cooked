@@ -1,0 +1,85 @@
+Wil (0, b3g2) y3-
+Dsabremaster (1, b1y2) -g3
+build y1 at Wil
+build g1 at Dsabremaster
+build y1 at Wil
+build g1 at Dsabremaster
+move y1 from Wil to B1 (b1)
+move g1 from Dsabremaster to Depot (y3)
+convert y1 to r1 at Wil
+convert g1 to r1 at Dsabremaster
+build y1 at Wil
+build g1 at Dsabremaster
+convert y1 to g1 at Wil
+convert g1 to y1 at Dsabremaster
+move g1 from Wil to B1
+convert y1 to b1 at Dsabremaster
+build r1 at Wil
+build r2 at Dsabremaster
+build r2 at Wil
+move b1 from Dsabremaster to Depot
+move r2 from Wil to B1
+build b2 at Depot
+move r1 from Wil to B1
+build b2 at Depot
+convert r2 to b2 at B1
+move b2 from Depot to Dais (r2)
+build y1 at B1
+convert r2 to y2 at Dsabremaster
+move b2 from B1 to G3 (g3)
+move b1 from Depot to Knoll (g1)
+build b3 at G3
+build b3 at Knoll
+build r2 at B1
+build g2 at Dsabremaster
+convert r2 to y2 at B1
+build r2 at Dsabremaster
+convert b3 to g3 at G3
+sacrifice g3 at Dsabremaster; build g2 at Depot; build b3 at Depot; build g3 at Dsabremaster
+sacrifice y1 at B1; move g3 from G3 to B1
+convert b1 to y1 at Knoll
+sacrifice g3 at B1; build r2 at B1; build r3 at Wil; build g3 at B1
+sacrifice b2 at Dais; convert b3 to r3 at Depot; convert b3 to y3 at Knoll
+sacrifice g3 at B1; build g3 at B1; build r2 at Wil; build r3 at B1
+sacrifice y2 at Dsabremaster; move r1 from Dsabremaster to Depot; move r1 from Depot to B1; catastrophe red at B1
+move r2 from Wil to B1
+sacrifice g3 at Dsabremaster; build g3 at Dsabremaster; build r1 at Dsabremaster; build b1 at Depot
+sacrifice g3 at B1; build g3 at B1; build b2 at G3; build b3 at G3
+move b1 from Depot to Knoll
+move y1 from B1 to B3 (b3)
+move b1 from Knoll to G3; catastrophe blue at G3
+sacrifice g3 at B1; build g3 at B1; build y1 at B1; build y2 at B3
+move b2 from Depot to Knoll
+sacrifice y2 at B1; move y1 from B3 to Knoll; move y2 from B3 to Knoll; catastrophe yellow at Knoll
+sacrifice g3 at Dsabremaster; build g3 at Dsabremaster; build b1 at Knoll; build b2 at Knoll
+convert r2 to b2 at B1
+convert b2 to y2 at Knoll
+move r3 from Wil to Knoll
+sacrifice b2 at Knoll; convert b1 to r1 at Knoll; convert y2 to r2 at Knoll
+sacrifice g3 at B1; build g3 at B1; build r2 at Knoll; build r3 at Wil; catastrophe red at Knoll
+move g1 from Depot to Ryloth (y1)
+move b2 from B1 to G3 (g3)
+convert r1 to y1 at Dsabremaster
+move r3 from Wil to Ryloth
+sacrifice g3 at Dsabremaster; build g1 at Ryloth; build g3 at Dsabremaster; build r1 at Dsabremaster
+capture g1 at Ryloth
+move y1 from Dsabremaster to Echo (r3)
+sacrifice g3 at B1; build g3 at B1; build b1 at G3; build b2 at G3
+move g1 from Ryloth to Midway (b2)
+sacrifice g3 at B1; build g3 at B1; build y2 at B1; build r1 at Ryloth
+sacrifice g3 at Dsabremaster; build g3 at Dsabremaster; build r2 at Depot; build y2 at Echo
+sacrifice g3 at B1; build g3 at B1; build y3 at Wil; build r2 at Wil
+sacrifice y1 at Echo; move r3 from Depot to Pit (y1)
+sacrifice y2 at B1; move g3 from B1 to Depot; move b2 from G3 to Ryloth
+move r2 from Depot to B1
+sacrifice y1 at B1; move g1 from B1 to G3
+sacrifice g3 at Dsabremaster; build g3 at Dsabremaster; build y1 at Echo; build y2 at Echo
+sacrifice r1 at Wil; capture g2 at Depot
+move y1 from Echo to B1
+sacrifice y3 at Wil; move g1 from G3 to Dsabremaster; move r1 from Ryloth to G3; move g2 from Depot to Dsabremaster; catastrophe green at Dsabremaster
+sacrifice y2 at Echo; move y2 from Echo to Dsabremaster; move r3 from Pit to Wil
+capture r3 at Wil
+sacrifice g1 at Midway; build r1 at B1
+sacrifice y3 at Wil; move g3 from Depot to Dsabremaster; move r2 from Wil to B1; move r1 from G3 to B1; catastrophe red at B1
+move y1 from B1 to Wil
+sacrifice r3 at Ryloth; capture r2 at Dsabremaster; capture r1 at Dsabremaster; capture y2 at Dsabremaster

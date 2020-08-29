@@ -1,0 +1,17 @@
+Danielaurence (0, b2y1) g3-
+Silenttitan (1, b3r1) -g3
+build g1 at Danielaurence
+build g1 at Silenttitan
+move g1 from Danielaurence to Boris (b3)
+convert g1 to y1 at Silenttitan
+build g1 at Boris
+build y1 at Silenttitan
+build g1 at Danielaurence
+move y1 from Silenttitan to Sol (g2)
+build g2 at Boris
+sacrifice g3 at Silenttitan; build y2 at Silenttitan; build y2 at Silenttitan; build y2 at Sol
+convert g3 to y3 at Danielaurence
+build y3 at Sol
+convert g1 to r1 at Boris
+move y2 from Silenttitan to Soul (b2)
+move y3 from Danielaurence to Boris

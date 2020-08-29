@@ -1,0 +1,28 @@
+Mrmoto (0, g3y2) b3-
+Twoshort (1, b1r2) -g3
+build b1 at Mrmoto
+build g1 at Twoshort
+convert b3 to g3 at Mrmoto
+convert g1 to y1 at Twoshort
+build g1 at Mrmoto
+build g1 at Twoshort
+build b1 at Mrmoto
+move g1 from Twoshort to Yolonda (y3)
+move b1 from Mrmoto to Delivery (g1)
+build g2 at Twoshort
+sacrifice g3 at Mrmoto; build b2 at Mrmoto; build b2 at Mrmoto; build b2 at Delivery
+build g2 at Yolonda
+build b3 at Delivery
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Yolonda; build g3 at Twoshort
+sacrifice b2 at Mrmoto; convert b2 to y2 at Delivery; convert b3 to r3 at Delivery
+convert g2 to r2 at Twoshort
+build g2 at Mrmoto
+move g1 from Yolonda to Yak (y1)
+convert g1 to r1 at Mrmoto
+sacrifice g3 at Twoshort; build g1 at Yak; build g3 at Twoshort; build y1 at Twoshort
+move r3 from Delivery to Yolonda
+sacrifice r2 at Twoshort; capture r3 at Yolonda
+convert b2 to y2 at Mrmoto
+sacrifice y1 at Twoshort; move g1 from Yak to Mrmoto
+move g2 from Mrmoto to Yak
+sacrifice g3 at Yolonda; build g3 at Mrmoto; build y1 at Twoshort; build r1 at Yolonda

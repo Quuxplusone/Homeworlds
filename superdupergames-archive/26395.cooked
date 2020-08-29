@@ -1,0 +1,21 @@
+Hellajoey (0, b1y2) g3-
+Jimbojimbojimbojimbo (1, g3r2) -y3
+build g1 at Hellajoey
+build y1 at Jimbojimbojimbojimbo
+convert g1 to b1 at Hellajoey
+move y1 from Jimbojimbojimbojimbo to Kashif (g1)
+build b1 at Hellajoey
+build y1 at Kashif
+convert b1 to y1 at Hellajoey
+move y1 from Kashif to Bongo_Solo (b3)
+build g1 at Hellajoey
+build y2 at Jimbojimbojimbojimbo
+move y1 from Hellajoey to Gruner (g3)
+build y2 at Kashif
+build y3 at Gruner
+build y3 at Kashif
+move y1 from Gruner to Kashif; catastrophe yellow at Kashif
+convert y1 to g1 at Bongo_Solo
+convert g1 to r1 at Hellajoey
+build g1 at Bongo_Solo
+move r1 from Hellajoey to Bongo_Solo

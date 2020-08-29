@@ -1,0 +1,23 @@
+Ts52 (0, y1b2) g3-
+Xeger (1, y2b1) -g3
+build g1 at Ts52
+build g1 at Xeger
+move g1 from Ts52 to Grover (b3)
+move g1 from Xeger to Countrywide (y3)
+convert g1 to r1 at Grover
+build g1 at Xeger
+build g1 at Ts52
+build g2 at Xeger
+move g1 from Ts52 to Countrywide
+move g2 from Xeger to Grover
+move g1 from Countrywide to Xeger
+convert g1 to r1 at Xeger
+sacrifice r1 at Grover; capture r1 at Xeger
+move g1 from Countrywide to Ts52
+convert g3 to r3 at Ts52
+convert g2 to r2 at Grover
+build g1 at Xeger
+convert g3 to r3 at Xeger
+build r1 at Xeger
+capture r1 at Xeger
+build r1 at Xeger; catastrophe red at Xeger

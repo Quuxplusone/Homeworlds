@@ -1,0 +1,39 @@
+Twoshort (0, r1b3) g3-
+Maxl (1, b3y2) -g3
+build g1 at Twoshort
+build g1 at Maxl
+convert g1 to y1 at Twoshort
+build g1 at Maxl
+build y1 at Twoshort
+convert g1 to y1 at Maxl
+build y2 at Twoshort
+build g1 at Maxl
+move y1 from Twoshort to Grogar (g2)
+convert g1 to r1 at Maxl
+build g1 at Twoshort
+move y1 from Maxl to Abc (b1)
+build g1 at Twoshort
+move r1 from Maxl to Abc
+move g1 from Twoshort to Bonanza (b2)
+move r1 from Abc to Grogar
+move y1 from Grogar to Blitzen (b1)
+move y1 from Abc to Maxl
+build g2 at Bonanza
+convert g1 to r1 at Maxl
+move y1 from Twoshort to Gonzo (g2)
+build r2 at Grogar
+sacrifice g3 at Twoshort; build g1 at Twoshort; build g3 at Twoshort; build g3 at Bonanza
+build r2 at Grogar
+convert g2 to r2 at Bonanza
+build y2 at Maxl
+move y1 from Blitzen to Maxl; catastrophe yellow at Maxl
+convert r1 to y1 at Maxl
+sacrifice g3 at Bonanza; build r1 at Bonanza; build y1 at Twoshort; build y2 at Gonzo
+build y2 at Maxl
+sacrifice g3 at Twoshort; build g2 at Bonanza; build g3 at Twoshort; build y3 at Twoshort
+move y1 from Maxl to Zeus (b1)
+sacrifice y3 at Twoshort; move r1 from Bonanza to Maxl; move r1 from Maxl to Grogar; move g2 from Bonanza to Maxl; catastrophe red at Grogar
+move y1 from Zeus to Maxl
+convert g2 to b2 at Maxl
+convert y2 to r2 at Maxl
+sacrifice g3 at Twoshort; build b1 at Maxl; build b1 at Maxl; catastrophe blue at Maxl

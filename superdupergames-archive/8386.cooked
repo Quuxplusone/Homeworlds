@@ -1,0 +1,68 @@
+Mikeyarrum (0, r3b2) g3-
+Discord35 (1, g1b2) -y3
+build g1 at Mikeyarrum
+build y1 at Discord35
+convert g1 to y1 at Mikeyarrum
+convert y1 to g1 at Discord35
+build y1 at Mikeyarrum
+move g1 from Discord35 to Dakota (g3)
+move y1 from Mikeyarrum to Osaka (b1)
+build y1 at Discord35
+build y2 at Mikeyarrum
+move y1 from Discord35 to Dakota
+build y2 at Mikeyarrum
+build y2 at Dakota
+convert y1 to g1 at Osaka
+sacrifice y2 at Dakota; move y1 from Dakota to Osaka; move y1 from Osaka to Mikeyarrum; catastrophe yellow at Mikeyarrum
+build g2 at Osaka
+build y1 at Discord35
+build g2 at Mikeyarrum
+move y1 from Discord35 to Dakota
+convert g2 to y2 at Osaka
+build g2 at Dakota
+move g1 from Osaka to Dakota; catastrophe green at Dakota
+build y1 at Discord35
+build g1 at Mikeyarrum
+convert y1 to r1 at Discord35
+convert g1 to y1 at Mikeyarrum
+build y1 at Discord35
+build g1 at Mikeyarrum
+move y1 from Discord35 to Dakota (b3)
+convert g1 to b1 at Mikeyarrum
+convert y1 to g1 at Dakota
+build y1 at Mikeyarrum
+build r1 at Discord35
+convert g2 to r2 at Mikeyarrum
+build g1 at Dakota
+build g2 at Mikeyarrum
+convert g1 to y1 at Dakota
+convert g2 to y2 at Mikeyarrum
+build y2 at Dakota
+sacrifice y2 at Mikeyarrum; move y1 from Mikeyarrum to Osaka; move y2 from Osaka to Sakaki (g3)
+convert y2 to g2 at Dakota
+build y2 at Sakaki
+sacrifice g2 at Dakota; build y2 at Discord35; build y3 at Dakota
+build y3 at Mikeyarrum
+move y1 from Dakota to Carolina (g2)
+move r2 from Mikeyarrum to Osaka
+move r1 from Discord35 to Dakota
+move y3 from Mikeyarrum to Osaka
+build r1 at Dakota
+sacrifice b1 at Mikeyarrum; convert y2 to g2 at Sakaki
+build y2 at Dakota
+move g2 from Sakaki to Osaka
+move r1 from Dakota to Carolina
+build r2 at Osaka
+build r2 at Carolina
+move r2 from Osaka to Sakaki
+build r3 at Discord35
+build r3 at Osaka
+sacrifice y2 at Dakota; move r1 from Dakota to Osaka; move r1 from Carolina to Osaka; catastrophe red at Osaka
+build r1 at Sakaki
+build y2 at Dakota
+sacrifice y2 at Sakaki; move r1 from Sakaki to Discord35; move r2 from Sakaki to Discord35; catastrophe red at Discord35
+sacrifice y2 at Discord35; move y1 from Carolina to Osaka; move y2 from Dakota to Osaka; catastrophe yellow at Osaka
+build y1 at Mikeyarrum
+move y3 from Dakota to Osaka
+move y1 from Mikeyarrum to Osaka
+sacrifice r2 at Carolina; capture g2 at Osaka; capture y1 at Osaka

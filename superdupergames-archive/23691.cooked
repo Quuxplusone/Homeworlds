@@ -1,0 +1,45 @@
+Wil (0, r3b1) g3-
+Netskaven (1, g2b3) -y3
+build g1 at Wil
+build y1 at Netskaven
+build g1 at Wil
+convert y1 to r1 at Netskaven
+convert g1 to r1 at Wil
+build y1 at Netskaven
+build g1 at Wil
+convert y1 to b1 at Netskaven
+convert g1 to b1 at Wil
+build y1 at Netskaven
+convert g1 to y1 at Wil
+convert y1 to g1 at Netskaven
+build g1 at Wil
+move g1 from Netskaven to Neworld (y1)
+build b2 at Wil
+move r1 from Netskaven to Neworld
+move g1 from Wil to Forttortuga (b2)
+move r1 from Neworld to Forttortuga
+move b2 from Wil to Forttortuga
+capture g1 at Forttortuga
+sacrifice r1 at Wil; capture r1 at Forttortuga
+build y1 at Netskaven
+capture g1 at Forttortuga
+build b2 at Netskaven
+build y2 at Wil
+convert b2 to r2 at Netskaven
+build r1 at Forttortuga
+build y2 at Netskaven
+convert b2 to r2 at Forttortuga
+convert y2 to r2 at Netskaven
+move y1 from Wil to Forttortuga
+move b1 from Netskaven to Neworld
+move r2 from Forttortuga to Neworld
+move g1 from Neworld to Otherlimit (y2)
+capture b1 at Neworld
+convert r2 to b2 at Netskaven
+build y2 at Forttortuga
+build y3 at Netskaven
+build y3 at Wil
+move r2 from Netskaven to Spc1889 (g1)
+sacrifice y2 at Wil; move y1 from Forttortuga to Neworld; move y1 from Neworld to Netskaven; catastrophe yellow at Netskaven
+build b2 at Netskaven
+move b1 from Neworld to Netskaven; catastrophe blue at Netskaven

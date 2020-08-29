@@ -1,0 +1,46 @@
+Dodobirb (0, b1r2) g3-
+Draw5Playall (1, b1g2) -b3
+build g1 at Dodobirb
+build b1 at Draw5Playall
+convert g1 to y1 at Dodobirb
+convert b3 to y3 at Draw5Playall
+build y1 at Dodobirb
+build b2 at Draw5Playall
+build y1 at Dodobirb
+build y2 at Draw5Playall
+move y1 from Dodobirb to Biggreen (g3)
+move b2 from Draw5Playall to Biggreen
+build y2 at Biggreen
+convert y2 to r2 at Draw5Playall
+convert y1 to r1 at Dodobirb
+sacrifice r2 at Draw5Playall; capture y2 at Biggreen; capture y1 at Biggreen
+build y1 at Dodobirb
+build b2 at Biggreen
+move y1 from Dodobirb to Threepip (g3)
+build b2 at Draw5Playall
+sacrifice g3 at Dodobirb; build y2 at Threepip; build y2 at Threepip; build y3 at Dodobirb
+sacrifice y2 at Biggreen; move y1 from Biggreen to Draw5Playall; move y1 from Draw5Playall to Threepip; catastrophe yellow at Threepip
+move y1 from Dodobirb to Earth (g3)
+build b3 at Biggreen
+build y1 at Earth
+convert b3 to r3 at Biggreen
+build y1 at Earth
+build b3 at Biggreen
+move y1 from Earth to Dodobirb
+build y2 at Draw5Playall
+convert y1 to g1 at Dodobirb
+convert b3 to y3 at Biggreen
+build g1 at Dodobirb
+build b3 at Biggreen
+build g1 at Dodobirb
+move b3 from Biggreen to Expand (g2)
+move g1 from Dodobirb to Bluesky (b3)
+build b3 at Biggreen
+build g2 at Bluesky
+sacrifice y3 at Biggreen; move b3 from Biggreen to Dodobirb; move b3 from Expand to Earth; move b3 from Earth to Dodobirb
+capture b3 at Dodobirb
+sacrifice r3 at Biggreen; capture b3 at Dodobirb; capture y3 at Dodobirb; capture r1 at Dodobirb
+pass
+convert b3 to g3 at Dodobirb
+pass
+build g2 at Dodobirb; catastrophe green at Dodobirb

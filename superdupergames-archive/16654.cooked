@@ -1,0 +1,24 @@
+Daselva (0, b2g3) y3-
+Jesse (1, r1b3) -g3
+build y1 at Daselva
+build g1 at Jesse
+convert y1 to g1 at Daselva
+convert g1 to y1 at Jesse
+build g1 at Daselva
+build g1 at Jesse
+convert g1 to r1 at Daselva
+convert g1 to r1 at Jesse
+build r2 at Daselva
+build g1 at Jesse
+build r2 at Daselva
+move r1 from Jesse to Beeble (g2)
+convert r2 to y2 at Daselva
+build r2 at Beeble
+move r2 from Daselva to Letsee (y1)
+build y1 at Jesse
+build y2 at Daselva
+move y1 from Jesse to Beeble
+convert y2 to g2 at Daselva
+build y2 at Beeble
+move g1 from Daselva to Letsee
+move r2 from Beeble to Bobble (g1)

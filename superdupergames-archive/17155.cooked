@@ -1,0 +1,12 @@
+Rootbier (0, b1y2) g3-
+Tank_7 (1, g3b1) -y3
+build g1 at Rootbier
+build y1 at Tank_7
+convert g1 to b1 at Rootbier
+move y1 from Tank_7 to Mycon (b2)
+build b2 at Rootbier
+build y1 at Tank_7
+move b2 from Rootbier to Seint (g3)
+build y1 at Tank_7
+sacrifice g3 at Rootbier; build b2 at Seint; build b3 at Seint; build b3 at Rootbier
+move y1 from Tank_7 to Kentares (g2)

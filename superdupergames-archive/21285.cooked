@@ -1,0 +1,71 @@
+Magicjohn (0, b2r1) g3-
+Ringebri (1, g3b1) -y3
+build g1 at Magicjohn
+build y1 at Ringebri
+build g1 at Magicjohn
+convert y1 to r1 at Ringebri
+convert g1 to y1 at Magicjohn
+build y1 at Ringebri
+move g1 from Magicjohn to Overachiever (y3)
+move y1 from Ringebri to Underdog (b2)
+build g1 at Overachiever
+build y1 at Ringebri
+move g1 from Overachiever to Overandout (y2)
+build y2 at Ringebri
+build y2 at Magicjohn
+move y2 from Ringebri to Undercat (g2)
+move g1 from Overandout to Overandover (y3)
+build y2 at Undercat
+build g1 at Overandover
+convert y1 to b1 at Ringebri
+sacrifice g3 at Magicjohn; build g2 at Overachiever; build g2 at Overachiever; build g3 at Overandover
+move y2 from Undercat to Undercover (g3)
+move g3 from Overandover to Magicjohn
+build r1 at Ringebri
+move g2 from Overachiever to Overthelimit (r2)
+build y1 at Undercat
+convert y1 to b1 at Magicjohn
+move b1 from Ringebri to Underdog
+move b1 from Magicjohn to Overachiever
+build y1 at Ringebri
+move g1 from Overandover to Overthelimit
+move r1 from Ringebri to Underdog
+build b2 at Overachiever
+build r2 at Ringebri
+move b1 from Overachiever to Overthelimit
+move b1 from Underdog to Undercover
+build b3 at Overachiever
+build b3 at Undercover
+build b3 at Overthelimit
+sacrifice y2 at Undercat; move b1 from Undercover to Overthelimit; move b3 from Undercover to Overthelimit; catastrophe blue at Overthelimit
+build y2 at Magicjohn
+convert r1 to b1 at Ringebri
+sacrifice y2 at Magicjohn; move g1 from Overthelimit to Ringebri; move g2 from Overthelimit to Ringebri
+capture g2 at Ringebri
+sacrifice g1 at Overandover; build g1 at Ringebri; catastrophe green at Ringebri
+move b1 from Ringebri to Undercover
+move b2 from Overachiever to Overandout (y2)
+convert y1 to g1 at Ringebri
+build b1 at Overachiever
+move r2 from Ringebri to Overandout
+convert b3 to r3 at Overachiever
+capture b2 at Overandout
+build b3 at Overachiever
+build b3 at Undercover
+build r1 at Overachiever
+move b1 from Undercover to Undercat
+move r1 from Overachiever to Undercat
+sacrifice y2 at Undercover; move b2 from Overandout to Overachiever; move b1 from Undercat to Overachiever; catastrophe blue at Overachiever
+build r2 at Undercat
+build y1 at Ringebri
+capture y1 at Undercat
+build b1 at Undercover
+move r1 from Undercat to Overabundant (y3)
+move y1 from Ringebri to Underway (g3)
+sacrifice g2 at Overachiever; build r2 at Overabundant; build r3 at Undercat
+build b1 at Undercover
+build y2 at Undercat
+sacrifice y3 at Ringebri; move b1 from Undercover to Magicjohn; move b1 from Undercover to Magicjohn; move b3 from Undercover to Magicjohn; catastrophe blue at Magicjohn
+sacrifice y2 at Magicjohn; move r3 from Overachiever to Ringebri; move r2 from Overabundant to Ringebri
+move y1 from Underdog to Ringebri
+sacrifice r2 at Undercat; capture y1 at Ringebri; capture g1 at Ringebri

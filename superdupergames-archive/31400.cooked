@@ -1,0 +1,26 @@
+Ddrowan (0, g3y1) b3-
+Draw5Playall (1, b2r1) -g3
+build b1 at Ddrowan
+build g1 at Draw5Playall
+move b1 from Ddrowan to Hercules (g2)
+convert g1 to y1 at Draw5Playall
+build b1 at Hercules
+build g1 at Draw5Playall
+convert b1 to y1 at Hercules
+convert g1 to b1 at Draw5Playall
+convert b1 to r1 at Hercules
+build y2 at Draw5Playall
+build y2 at Hercules
+convert y2 to b2 at Draw5Playall
+build r1 at Hercules
+build y2 at Draw5Playall
+move r1 from Hercules to Cerillion (y3)
+convert b2 to r2 at Draw5Playall
+convert b3 to g3 at Ddrowan
+move r2 from Draw5Playall to Cerillion
+move y1 from Hercules to Redemption (b1)
+capture r1 at Cerillion
+convert y1 to b1 at Redemption
+sacrifice b1 at Draw5Playall; convert r2 to b2 at Cerillion
+build r2 at Hercules
+build g1 at Draw5Playall

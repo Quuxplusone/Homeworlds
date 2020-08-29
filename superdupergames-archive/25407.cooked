@@ -1,0 +1,29 @@
+Marmalade (0, y2g1) b3-
+Qwertyu63 (1, y3g1) -b3
+build b1 at Marmalade
+build b1 at Qwertyu63
+move b1 from Marmalade to Foom (g3)
+convert b1 to y1 at Qwertyu63
+build b1 at Foom
+move y1 from Qwertyu63 to Asdf (r2)
+convert b1 to y1 at Foom
+build b1 at Qwertyu63
+build b1 at Marmalade
+move b1 from Qwertyu63 to Asdf
+build b2 at Foom
+build b2 at Qwertyu63
+move b2 from Foom to Asdf
+move y1 from Asdf to Qwertyu63
+capture b1 at Asdf
+convert b2 to r2 at Qwertyu63
+convert b2 to r2 at Asdf
+build b2 at Qwertyu63
+build b2 at Foom
+move y1 from Qwertyu63 to Zxc (g2)
+build b2 at Foom
+build y1 at Zxc
+build b3 at Marmalade
+build y2 at Zxc
+move y1 from Foom to Zxc; catastrophe yellow at Zxc
+convert b2 to y2 at Qwertyu63
+convert b3 to y3 at Marmalade

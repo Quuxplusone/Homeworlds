@@ -1,0 +1,37 @@
+Andylooney (0, b1g2) y3-
+Jimbo (1, b2g1) -r3
+build y1 at Andylooney
+build r1 at Jimbo
+convert y1 to g1 at Andylooney
+build r1 at Jimbo
+build y1 at Andylooney
+convert r1 to y1 at Jimbo
+convert y1 to r1 at Andylooney
+build y1 at Jimbo
+build g1 at Andylooney
+convert r3 to g3 at Jimbo
+move g1 from Andylooney to Clampett (y3)
+convert y1 to b1 at Jimbo
+convert g1 to b1 at Andylooney
+build y1 at Jimbo
+build b2 at Andylooney
+build b2 at Jimbo
+convert b2 to g2 at Andylooney
+move b2 from Jimbo to Kwva (y3)
+move g2 from Andylooney to Bigbluefrog (b3)
+move y1 from Jimbo to Kwva
+move b1 from Andylooney to Garden (g3)
+move b1 from Jimbo to Hyphy (g3)
+build y1 at Andylooney
+build y2 at Jimbo
+move y1 from Andylooney to Garden
+sacrifice g3 at Jimbo; build b2 at Hyphy; build b3 at Hyphy; build b3 at Kwva
+sacrifice g2 at Bigbluefrog; build b3 at Garden; build y2 at Garden
+sacrifice y2 at Jimbo; move b2 from Hyphy to Jimbo; move b2 from Jimbo to Garden
+sacrifice y2 at Garden; move b3 from Garden to Jimbo; move y1 from Garden to Greendome (g2)
+sacrifice b2 at Garden; convert b2 to y2 at Kwva; convert y1 to r1 at Kwva
+build r2 at Andylooney
+sacrifice y2 at Kwva; move b3 from Hyphy to Jimbo; move b1 from Hyphy to Jimbo; catastrophe blue at Jimbo
+move r2 from Andylooney to Clampett
+move b3 from Kwva to Jimbo
+build r2 at Andylooney

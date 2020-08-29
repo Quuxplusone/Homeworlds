@@ -1,0 +1,35 @@
+Silenttitan (0, r1b2) g3-
+Lorgar (1, r2b3) -g3
+build g1 at Silenttitan
+build g1 at Lorgar
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Lorgar
+build g1 at Silenttitan
+build g1 at Lorgar
+convert g1 to r1 at Silenttitan
+build g1 at Lorgar
+build r1 at Silenttitan
+move g1 from Lorgar to Leng (b1)
+move r1 from Silenttitan to Sol (g3)
+build g1 at Lorgar
+build r2 at Silenttitan
+build g2 at Leng
+move r2 from Silenttitan to Soul (y3)
+sacrifice y1 at Lorgar; move g2 from Leng to Mnar (b3)
+sacrifice g3 at Silenttitan; build r2 at Sol; build r3 at Soul; build r3 at Silenttitan
+sacrifice g1 at Lorgar; build g1 at Mnar
+move r3 from Silenttitan to Mnar
+build g2 at Mnar
+sacrifice r3 at Soul; capture g2 at Mnar; capture g2 at Mnar; capture g1 at Mnar
+convert g1 to y1 at Leng
+convert g2 to y2 at Mnar
+convert y1 to g1 at Leng
+convert r3 to y3 at Mnar
+convert g1 to y1 at Lorgar
+move r2 from Soul to Sole (y1)
+build g1 at Leng
+sacrifice g2 at Mnar; build r3 at Sole; build r3 at Sole
+sacrifice y1 at Lorgar; move g1 from Leng to Mhor (b3)
+sacrifice y2 at Mnar; move r3 from Sole to Lorgar; move r3 from Sole to Lorgar
+pass
+capture g3 at Lorgar

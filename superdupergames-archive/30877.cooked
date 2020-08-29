@@ -1,0 +1,24 @@
+Magicjohn (0, g1b2) b3-
+Aristos (1, b3y2) -g3
+build b1 at Magicjohn
+build g1 at Aristos
+convert b1 to y1 at Magicjohn
+move g1 from Aristos to Leaf (b1)
+build y1 at Magicjohn
+build g1 at Aristos
+move y1 from Magicjohn to Awakening (r3)
+build g2 at Leaf
+build y1 at Magicjohn
+convert g2 to y2 at Leaf
+move y1 from Awakening to Rebirth (g2)
+sacrifice g3 at Aristos; build g2 at Leaf; build g2 at Leaf; build g3 at Aristos
+move y1 from Rebirth to Leaf
+convert g2 to r2 at Leaf
+build y2 at Magicjohn
+capture y1 at Leaf
+convert y2 to r2 at Magicjohn
+sacrifice g3 at Aristos; build g2 at Aristos; build g2 at Leaf; build g3 at Aristos
+convert b3 to g3 at Magicjohn
+move g2 from Leaf to Knock (y3)
+move y1 from Magicjohn to No (r3)
+sacrifice g3 at Aristos; build g3 at Aristos; build g3 at Knock; build r1 at Leaf

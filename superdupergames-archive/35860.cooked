@@ -1,0 +1,34 @@
+Speardane (0, b2y3) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Speardane
+build g1 at Ts52
+convert g3 to r3 at Speardane
+convert g3 to r3 at Ts52
+build r1 at Speardane
+build r1 at Ts52
+convert r3 to b3 at Speardane
+convert r1 to b1 at Ts52
+build r1 at Speardane
+move b1 from Ts52 to Kermit (g3)
+convert b3 to y3 at Speardane
+build b1 at Kermit
+convert y3 to b3 at Speardane
+build b2 at Kermit
+convert r1 to y1 at Speardane
+convert b2 to y2 at Kermit
+move y1 from Speardane to Delos (g1)
+build g2 at Ts52
+build y1 at Delos
+build g2 at Ts52
+move y1 from Delos to Lebling (g2)
+move g2 from Ts52 to Gonzo (b3)
+build g3 at Speardane
+build g3 at Gonzo
+move b3 from Speardane to Delos
+convert g3 to y3 at Gonzo
+sacrifice g3 at Speardane; build g3 at Speardane; build g3 at Speardane; build y1 at Lebling
+sacrifice y2 at Kermit; move g2 from Gonzo to Delos; move g2 from Delos to Speardane; catastrophe green at Speardane
+convert r1 to g1 at Speardane
+move y3 from Gonzo to Delos
+sacrifice y1 at Delos; move b3 from Delos to Speardane
+move y3 from Delos to Speardane

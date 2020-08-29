@@ -1,0 +1,37 @@
+Matrixfrog (0, g3b2) y3-
+Pigasuspig (1, g2b1) -y3
+build y1 at Matrixfrog
+build y1 at Pigasuspig
+move y1 from Matrixfrog to Dinky (g1)
+convert y1 to g1 at Pigasuspig
+build y1 at Matrixfrog
+build g1 at Pigasuspig
+move y1 from Dinky to Slinky (g3)
+convert g1 to r1 at Pigasuspig
+build y1 at Slinky
+build y2 at Pigasuspig
+convert y1 to g1 at Matrixfrog
+convert y2 to b2 at Pigasuspig
+build g1 at Matrixfrog
+move r1 from Pigasuspig to Slinky
+move y1 from Slinky to Pigasuspig
+capture y1 at Slinky
+build y1 at Pigasuspig
+convert y3 to r3 at Pigasuspig
+convert y1 to b1 at Pigasuspig
+capture b1 at Pigasuspig
+convert y1 to b1 at Pigasuspig; catastrophe blue at Pigasuspig
+build y1 at Slinky
+convert g1 to r1 at Matrixfrog
+move y1 from Slinky to Pigasuspig
+build g1 at Matrixfrog
+move g1 from Pigasuspig to Barnard (y1)
+move g1 from Matrixfrog to Barnard
+move g1 from Barnard to Ocean (b3)
+build y2 at Matrixfrog
+build g2 at Ocean
+build g2 at Barnard
+convert g1 to b1 at Ocean
+build g1 at Barnard
+build g3 at Ocean
+sacrifice y3 at Matrixfrog; move g1 from Barnard to Pigasuspig; move g1 from Barnard to Pigasuspig; move g2 from Barnard to Pigasuspig; catastrophe green at Pigasuspig

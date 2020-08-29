@@ -1,0 +1,27 @@
+Fuguru (0, b3y2) g3-
+Neoprofin (1, g2b1) -y3
+build g1 at Fuguru
+build y1 at Neoprofin
+move g1 from Fuguru to Centauri (b1)
+convert y3 to r3 at Neoprofin
+build g1 at Centauri
+move r3 from Neoprofin to Minbar (r3)
+convert g1 to y1 at Centauri
+build y1 at Neoprofin
+move g1 from Centauri to Narn (b2)
+move y1 from Neoprofin to Minbar
+build g1 at Narn
+move r3 from Minbar to Centauri
+move y1 from Centauri to Narn
+move y1 from Minbar to Centauri
+convert g3 to r3 at Fuguru
+build y2 at Neoprofin
+build y2 at Narn
+convert y1 to g1 at Centauri
+convert y2 to r2 at Narn
+build g2 at Centauri
+move r2 from Narn to Minbar (y3)
+move y1 from Neoprofin to Vorlonworld (r3)
+move r2 from Minbar to Neoprofin
+convert g1 to y1 at Centauri
+capture y2 at Neoprofin

@@ -1,0 +1,60 @@
+Hg80 (0, b3r1) g3-
+Trydnt (1, y3b2) -g3
+build g1 at Hg80
+build g1 at Trydnt
+convert g1 to y1 at Hg80
+convert g1 to r1 at Trydnt
+build g1 at Hg80
+build r1 at Trydnt
+move g1 from Hg80 to Alchem (b2)
+build r2 at Trydnt
+build g1 at Alchem
+move r2 from Trydnt to Y1 (y1)
+build g1 at Hg80
+move r2 from Y1 to Alchem
+sacrifice g1 at Alchem; build y1 at Hg80
+capture g1 at Alchem
+move y1 from Hg80 to Idunno (g2)
+build r2 at Alchem
+convert g3 to r3 at Hg80
+convert r2 to y2 at Alchem
+build y1 at Idunno
+build y2 at Alchem
+build y2 at Hg80
+move y2 from Alchem to G3 (g3)
+convert y1 to b1 at Hg80
+move r2 from Alchem to Gee3 (g3)
+move y1 from Idunno to G3
+build r2 at Gee3
+build y1 at Idunno
+sacrifice y2 at G3; move r2 from Gee3 to G2 (g2); move r2 from Gee3 to Idunno
+build y2 at Idunno
+capture y2 at Idunno
+build y3 at Hg80
+sacrifice y2 at Idunno; move r2 from Idunno to Hg80; move r2 from G2 to Hg80; catastrophe red at Hg80
+convert y3 to r3 at Hg80
+convert r1 to b1 at Trydnt
+build g1 at Hg80
+build g2 at Alchem
+move b1 from Hg80 to Idunno
+move g2 from Alchem to Y3 (y3)
+build b1 at Idunno
+move b1 from Trydnt to R1 (r1)
+build y2 at Hg80
+build y3 at Alchem
+sacrifice y2 at Hg80; move y2 from Hg80 to Alchem; move y1 from G3 to Alchem; catastrophe yellow at Alchem
+sacrifice g1 at Alchem; build b2 at R1
+convert g1 to y1 at Hg80
+convert b2 to y2 at R1
+convert y1 to r1 at Idunno
+sacrifice g2 at Y3; build b2 at R1; build r2 at Trydnt
+build r2 at Idunno
+move b2 from R1 to G2 (g2)
+build r2 at Hg80
+sacrifice g3 at Trydnt; build r3 at Trydnt; build b2 at R1; build b3 at G2
+move r1 from Idunno to Kamik (y1)
+move r2 from Trydnt to Kamik
+build r3 at Idunno
+capture r1 at Kamik
+move r3 from Idunno to Kamik
+move b1 from R1 to Hg80

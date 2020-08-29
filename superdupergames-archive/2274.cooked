@@ -1,0 +1,9 @@
+Jeep (0, y1b2) g3-
+Sketchwick (1, b2y1) -g3
+build g1 at Jeep
+build g1 at Sketchwick
+convert g1 to y1 at Jeep
+convert g3 to y3 at Sketchwick
+build y2 at Jeep
+move y3 from Sketchwick to Sigh (g3)
+sacrifice y2 at Jeep; move g3 from Jeep to Sigh; move g3 from Sigh to Sketchwick

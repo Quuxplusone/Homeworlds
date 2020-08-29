@@ -1,0 +1,61 @@
+Trydnt (0, b2y3) g3-
+Dragon76N (1, y1b2) -g3
+build g1 at Trydnt
+build g1 at Dragon76N
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Dragon76N
+build y2 at Trydnt
+build y2 at Dragon76N
+build g1 at Trydnt
+convert y1 to b1 at Dragon76N
+move y1 from Trydnt to G1 (g1)
+build g1 at Dragon76N
+build y1 at G1
+move g1 from Dragon76N to Bluthr (b3)
+build y2 at Trydnt
+move y2 from Dragon76N to Bluthr
+sacrifice y1 at G1; move y2 from Trydnt to R1 (r1)
+build g2 at Bluthr
+convert g1 to r1 at Trydnt
+convert g2 to r2 at Bluthr
+sacrifice g3 at Trydnt; build y1 at R1; build y3 at G1; build y3 at Trydnt
+build g1 at Dragon76N
+move y3 from G1 to Bluthr
+move r2 from Bluthr to G1
+move y1 from G1 to G3 (g3)
+move y2 from Bluthr to G1
+sacrifice y2 at Trydnt; move y3 from Bluthr to G1; move y1 from R1 to B3 (b3)
+move r2 from G1 to G3
+sacrifice y1 at G3; move y3 from G1 to G3
+sacrifice y2 at G1; move r2 from G3 to R1; move r2 from R1 to B3
+move y1 from B3 to G2 (g2)
+build g1 at Bluthr
+convert y3 to g3 at Trydnt
+convert g1 to r1 at Dragon76N
+build r2 at Trydnt
+convert g1 to y1 at Bluthr
+move y2 from R1 to Bluthr
+sacrifice y1 at Bluthr; move g1 from Bluthr to Yelone (y1)
+build y2 at G2
+move g1 from Yelone to B3
+build y1 at G2
+build g1 at Dragon76N
+build y2 at G3
+build r1 at B3
+build y3 at G3
+convert r1 to b1 at B3
+sacrifice y2 at G3; move y3 from G3 to G2; move y3 from G2 to B3
+sacrifice b1 at B3; convert r2 to b2 at B3
+sacrifice r2 at Trydnt; capture b2 at B3; capture g1 at B3
+move g1 from Dragon76N to Redthr (r3)
+build y2 at G3
+move b1 from Dragon76N to Redthr
+build b1 at B3
+build g1 at Dragon76N
+build g2 at B3
+sacrifice g3 at Dragon76N; build g2 at Redthr; build g3 at Dragon76N; build b1 at Redthr
+move b2 from B3 to G2
+convert b1 to r1 at Redthr
+sacrifice y3 at G3; move g1 from B3 to Dragon76N; move g2 from B3 to Dragon76N; move y3 from B3 to Dragon76N; catastrophe green at Dragon76N
+sacrifice g2 at Redthr; build r2 at Dragon76N; build r2 at Dragon76N
+convert y3 to r3 at Dragon76N; catastrophe red at Dragon76N

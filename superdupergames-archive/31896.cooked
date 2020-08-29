@@ -1,0 +1,17 @@
+Draw5Playall (0, b3r1) g3-
+Agentofchaos (1, b1r2) -g3
+build g1 at Draw5Playall
+build g1 at Agentofchaos
+convert g1 to y1 at Draw5Playall
+convert g1 to y1 at Agentofchaos
+build g1 at Draw5Playall
+build g1 at Agentofchaos
+move g1 from Draw5Playall to B2 (b2)
+move y1 from Agentofchaos to Dreadzone (g3)
+build g1 at Draw5Playall
+build g2 at Agentofchaos
+sacrifice g3 at Draw5Playall; build g2 at B2; build g2 at B2; build g3 at Draw5Playall
+sacrifice g3 at Agentofchaos; build g3 at Agentofchaos; build y1 at Dreadzone; build y2 at Dreadzone
+convert g2 to y2 at B2
+move y1 from Dreadzone to Agentofchaos
+sacrifice y2 at B2; move g1 from B2 to Dreadzone; move g1 from Dreadzone to Agentofchaos; catastrophe green at Agentofchaos

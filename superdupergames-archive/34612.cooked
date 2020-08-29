@@ -1,0 +1,54 @@
+Dodobirb (0, b1r2) g3-
+Babamots (1, b3r1) -g3
+build g1 at Dodobirb
+build g1 at Babamots
+convert g1 to y1 at Dodobirb
+build g1 at Babamots
+build g1 at Dodobirb
+convert g1 to y1 at Babamots
+convert g1 to b1 at Dodobirb
+convert g1 to r1 at Babamots
+convert b1 to r1 at Dodobirb
+build r2 at Babamots
+build r2 at Dodobirb
+move r2 from Babamots to Iconia (y2)
+move r2 from Dodobirb to Sun (y3)
+build r3 at Babamots
+build r3 at Dodobirb
+move r3 from Babamots to Bolarus (y2)
+move r3 from Dodobirb to Sun
+build r3 at Babamots
+move r2 from Sun to Dodobirb
+convert r3 to y3 at Babamots
+move r1 from Dodobirb to Keepaway (r3)
+move y3 from Babamots to Iconia
+build g1 at Dodobirb
+build y1 at Babamots
+convert g1 to b1 at Dodobirb
+move y3 from Iconia to Keepaway
+build g1 at Dodobirb
+build g1 at Babamots
+move g1 from Dodobirb to Sun
+sacrifice g3 at Babamots; build y2 at Keepaway; build y3 at Babamots; build g1 at Babamots
+build g2 at Dodobirb
+move g1 from Babamots to Bolarus
+build g2 at Sun
+move r3 from Bolarus to Mizar (b3)
+move b1 from Dodobirb to Sun
+capture r1 at Keepaway
+move g2 from Sun to Bluey (b2)
+convert y1 to b1 at Babamots
+sacrifice g3 at Dodobirb; build g2 at Sun; build g3 at Dodobirb; build g3 at Bluey
+build g3 at Bolarus
+build y1 at Dodobirb
+move b1 from Babamots to Bolarus
+build b2 at Sun
+build b2 at Bolarus
+move y1 from Dodobirb to Oceania (b3)
+move g1 from Bolarus to Keepaway
+move r2 from Dodobirb to Oceania
+move g3 from Bolarus to Oceania
+move r2 from Oceania to Bluey
+sacrifice y3 at Keepaway; move g1 from Keepaway to Dodobirb; move r3 from Mizar to Dodobirb; move g3 from Oceania to Dodobirb; catastrophe green at Dodobirb
+convert g3 to y3 at Bluey
+capture y1 at Dodobirb

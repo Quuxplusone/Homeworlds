@@ -1,0 +1,37 @@
+Ts52 (0, y1b2) g3-
+Krooze (1, b3y1) -g3
+build g1 at Ts52
+build g1 at Krooze
+convert g1 to y1 at Ts52
+build g1 at Krooze
+build y2 at Ts52
+convert g1 to r1 at Krooze
+convert y2 to r2 at Ts52
+convert g1 to b1 at Krooze
+build y2 at Ts52
+build b1 at Krooze
+convert y2 to b2 at Ts52
+move b1 from Krooze to Colle (b2)
+move b2 from Ts52 to Kermit (g3)
+sacrifice g3 at Krooze; build b1 at Colle; build b3 at Krooze; build r1 at Krooze
+build b3 at Kermit
+convert b1 to r1 at Colle
+move y1 from Ts52 to Kermit
+convert b3 to g3 at Krooze
+build y2 at Kermit
+convert b1 to g1 at Colle
+move y2 from Kermit to Colle
+build r2 at Colle
+sacrifice r2 at Ts52; capture r2 at Colle; capture r1 at Colle
+move r1 from Krooze to Colle
+sacrifice r2 at Colle; capture r1 at Colle; capture g1 at Colle
+build r2 at Krooze
+build y2 at Kermit
+convert r2 to y2 at Krooze
+build y3 at Colle
+sacrifice y2 at Krooze; move r1 from Krooze to Colle; move r1 from Colle to Kermit
+sacrifice r1 at Colle; capture r1 at Kermit
+build g1 at Krooze
+move y3 from Colle to Krooze
+convert g1 to r1 at Krooze
+sacrifice r1 at Kermit; capture r1 at Krooze

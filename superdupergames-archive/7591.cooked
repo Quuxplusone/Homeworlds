@@ -1,0 +1,31 @@
+Lackerhill (0, g1b3) r3-
+Forscyvus (1, g3y2) -b3
+build r1 at Lackerhill
+build b1 at Forscyvus
+convert r1 to y1 at Lackerhill
+convert b1 to y1 at Forscyvus
+build r1 at Lackerhill
+move y1 from Forscyvus to Omgflotzorz (b1)
+convert r1 to b1 at Lackerhill
+build b1 at Forscyvus
+build b2 at Lackerhill
+convert b1 to g1 at Forscyvus
+move b2 from Lackerhill to Foxtrot (y2)
+move g1 from Forscyvus to Omgflotzorz
+build b1 at Lackerhill
+build b2 at Forscyvus
+convert b1 to g1 at Lackerhill
+convert b2 to y2 at Forscyvus
+move g1 from Lackerhill to Foxtrot
+move y2 from Forscyvus to Omgflotzorz
+build b1 at Foxtrot
+convert y2 to g2 at Omgflotzorz
+build b2 at Lackerhill
+move g2 from Omgflotzorz to Dontkillme (y3)
+sacrifice b2 at Lackerhill; convert b1 to y1 at Lackerhill; convert b2 to y2 at Foxtrot
+build g2 at Omgflotzorz
+build y3 at Lackerhill
+build y3 at Omgflotzorz
+sacrifice y3 at Lackerhill; move r3 from Lackerhill to Foxtrot; move r3 from Foxtrot to Omgflotzorz; move r3 from Omgflotzorz to Forscyvus
+sacrifice g2 at Omgflotzorz; build b1 at Forscyvus; build y3 at Omgflotzorz
+capture b3 at Forscyvus

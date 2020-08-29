@@ -1,0 +1,35 @@
+Goblin981 (0, y1b2) g3-
+Alexcobo (1, g3b2) -y3
+build g1 at Goblin981
+build y1 at Alexcobo
+move g1 from Goblin981 to Alpha (y3)
+build y1 at Alexcobo
+build g1 at Goblin981
+convert y1 to g1 at Alexcobo
+move g1 from Goblin981 to Beta (y3)
+build g2 at Alexcobo
+build g2 at Goblin981
+convert g1 to r1 at Alexcobo
+convert g2 to r2 at Goblin981
+move g2 from Alexcobo to Yellowone (y1)
+build r1 at Goblin981
+build y2 at Alexcobo
+build g1 at Alpha
+build g2 at Yellowone
+move g1 from Alpha to Gamma (r1)
+build r2 at Alexcobo
+build g2 at Gamma
+convert y3 to g3 at Alexcobo
+convert r1 to b1 at Goblin981
+build y2 at Alexcobo
+move b1 from Goblin981 to Delta (y3)
+move g3 from Alexcobo to Gamma
+move b1 from Delta to Gamma
+sacrifice y1 at Alexcobo; move g3 from Gamma to Beta
+move g1 from Beta to Delta (y1)
+move y2 from Alexcobo to Blueone (b1)
+convert g2 to y2 at Gamma
+build y3 at Alexcobo
+build g2 at Delta
+move g3 from Beta to Gamma
+sacrifice y2 at Gamma; move g1 from Gamma to Beta (b2); move g1 from Beta to Epsilon (b1)

@@ -1,0 +1,61 @@
+Adwm86 (0, b2y1) g3-
+Dungeon (1, y3b2) -g3
+build g1 at Adwm86
+build g1 at Dungeon
+move g1 from Adwm86 to Dagoba (y3)
+move g1 from Dungeon to Kashyyyk (b1)
+build g1 at Dagoba
+build g2 at Kashyyyk
+build g2 at Dagoba
+build g2 at Kashyyyk
+build g3 at Adwm86
+convert g2 to y2 at Kashyyyk
+convert g3 to r3 at Adwm86
+move g1 from Kashyyyk to Dungeon
+move g2 from Dagoba to Hoth (y1)
+sacrifice g3 at Dungeon; build g2 at Kashyyyk; build g3 at Kashyyyk; build g3 at Dungeon
+move r3 from Adwm86 to Dagoba
+convert g3 to y3 at Kashyyyk
+move r3 from Dagoba to Kashyyyk
+convert g3 to r3 at Dungeon
+capture y3 at Kashyyyk
+sacrifice y2 at Kashyyyk; move g2 from Kashyyyk to Dagoba; move g2 from Dagoba to Adwm86
+convert g3 to r3 at Adwm86
+sacrifice g2 at Kashyyyk; build g2 at Adwm86; build g3 at Adwm86
+sacrifice r3 at Kashyyyk; capture g2 at Adwm86; capture g3 at Adwm86; capture g2 at Adwm86
+convert r3 to g3 at Dungeon
+move g3 from Adwm86 to Endor (b3)
+move g1 from Dungeon to Naboo (y1)
+sacrifice y3 at Kashyyyk; move g1 from Dagoba to Hoth; move g1 from Dagoba to Hoth; move g2 from Hoth to Dungeon
+sacrifice g1 at Naboo; build g1 at Dungeon
+move g1 from Hoth to Dungeon
+convert g3 to r3 at Dungeon
+move g1 from Hoth to Dungeon; catastrophe green at Dungeon
+convert r3 to g3 at Dungeon
+build g1 at Endor
+build g1 at Dungeon
+convert g3 to y3 at Endor
+convert g3 to r3 at Dungeon
+move g2 from Adwm86 to Endor
+move g1 from Dungeon to Kessel (g1)
+convert g2 to y2 at Endor
+build g2 at Kessel
+move y3 from Endor to Mustafar (y2)
+convert r3 to g3 at Dungeon
+move y3 from Mustafar to Kessel
+build g2 at Dungeon
+convert g2 to y2 at Adwm86
+convert g2 to b2 at Dungeon
+build y1 at Endor
+move b2 from Dungeon to Kessel
+convert r3 to b3 at Adwm86
+build b1 at Kessel
+build g2 at Endor
+convert g1 to y1 at Kessel
+sacrifice y2 at Endor; move g1 from Endor to Kessel; move g2 from Endor to Kessel
+sacrifice g2 at Kessel; build y2 at Kessel; build y2 at Kessel
+move y1 from Endor to Kessel
+convert b1 to r1 at Kessel
+sacrifice y3 at Kessel; move g1 from Kessel to Dungeon; move g2 from Kessel to Dungeon; move y1 from Kessel to Dungeon
+sacrifice b2 at Kessel; convert y2 to g2 at Kessel; convert y1 to g1 at Kessel
+build g2 at Dungeon; catastrophe green at Dungeon

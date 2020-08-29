@@ -1,0 +1,47 @@
+Wil (0, y3r1) g3-
+Simon (1, r2b1) -g3
+build g1 at Wil
+build g1 at Simon
+move g1 from Wil to B2 (b2)
+convert g1 to y1 at Simon
+build g1 at B2
+build y1 at Simon
+convert g1 to y1 at B2
+move y1 from Simon to G3 (g3)
+build y2 at B2
+build y2 at Simon
+convert y1 to r1 at B2
+convert y2 to r2 at Simon
+build r1 at B2
+move r2 from Simon to G3
+convert r1 to b1 at B2
+build y1 at Simon
+build b1 at B2
+build y2 at G3
+move b1 from B2 to Y3 (y3)
+move y1 from Simon to B3 (b3)
+move g1 from B2 to Why3 (y3)
+build y2 at Simon
+move b1 from B2 to Wil
+convert y2 to r2 at Simon
+build b2 at Wil
+move r2 from Simon to Y3
+sacrifice g3 at Wil; build b2 at Y3; build b3 at Y3; build b3 at Wil
+sacrifice r2 at G3; capture b2 at Y3; capture b1 at Y3
+convert b3 to g3 at Wil
+move r2 from Y3 to Geetoo (g2)
+convert b3 to r3 at Y3
+move b2 from Y3 to Simon
+capture b1 at Y3
+build g1 at Simon
+build b3 at Wil
+move b2 from Simon to Why3
+convert b2 to g2 at Wil
+build r1 at Geetoo
+sacrifice g3 at Wil; build r2 at B2; build r3 at B2; build r3 at Y3
+build y2 at Simon
+move r3 from B2 to Why3
+move b2 from Why3 to Geetoo
+move r3 from Why3 to Geetoo
+build b2 at Geetoo
+sacrifice r3 at Y3; capture r2 at Geetoo; capture r1 at Geetoo; capture b2 at Geetoo

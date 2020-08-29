@@ -1,0 +1,33 @@
+Wil (0, b2y1) g3-
+Mneme (1, r1g3) -b3
+build g1 at Wil
+build b1 at Mneme
+convert g1 to r1 at Wil
+convert b1 to y1 at Mneme
+build r1 at Wil
+build y1 at Mneme
+build r2 at Wil
+build y2 at Mneme
+move r1 from Wil to G3 (g3)
+move y1 from Mneme to Polyhymnia (g2)
+move r2 from Wil to Y3 (y3)
+build y2 at Polyhymnia
+move r2 from Y3 to Polyhymnia
+sacrifice y1 at Polyhymnia; move y2 from Polyhymnia to Erato (g1)
+sacrifice g3 at Wil; build r2 at Polyhymnia; build r2 at G3; build r3 at Wil
+build b1 at Mneme
+convert r3 to y3 at Wil
+convert b3 to g3 at Mneme
+build r3 at Polyhymnia
+build y1 at Erato
+build r3 at G3
+build y2 at Erato
+move y3 from Wil to G3
+build y3 at Mneme
+move r3 from G3 to Erato
+sacrifice y2 at Erato; move y1 from Erato to Euterpe (b3); move y2 from Erato to Calliope (b3)
+build r3 at G3
+sacrifice y2 at Mneme; move y2 from Calliope to Wil; move y1 from Euterpe to Wil
+sacrifice y3 at G3; move r3 from Erato to Polyhymnia; move r3 from Polyhymnia to Mneme; move r3 from Polyhymnia to Mneme
+capture r3 at Mneme
+sacrifice r3 at G3; capture r3 at Mneme; capture g3 at Mneme; capture y3 at Mneme

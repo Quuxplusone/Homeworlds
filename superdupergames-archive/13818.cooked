@@ -1,0 +1,61 @@
+Wmreed (0, g2b1) y3-
+Ts52 (1, y3b2) -g3
+build y1 at Wmreed
+build g1 at Ts52
+convert y1 to g1 at Wmreed
+convert g1 to y1 at Ts52
+build g1 at Wmreed
+move y1 from Ts52 to Robin (g1)
+move g1 from Wmreed to Ballard (b3)
+build g2 at Ts52
+build y1 at Wmreed
+move g2 from Ts52 to Grover (b1)
+convert g1 to r1 at Wmreed
+build g1 at Grover
+convert y3 to g3 at Wmreed
+sacrifice y1 at Robin; move g2 from Grover to Kermit (g3)
+move g3 from Wmreed to Kermit
+build g1 at Kermit; catastrophe green at Kermit
+build r1 at Wmreed
+convert g3 to r3 at Ts52
+build y1 at Wmreed
+sacrifice g1 at Grover; build r1 at Ts52
+build r2 at Wmreed
+convert r1 to g1 at Ts52
+move r1 from Wmreed to Ballard
+build g1 at Ts52
+build g2 at Ballard
+move g1 from Ts52 to Gonzo (b1)
+move y1 from Wmreed to Logan (g3)
+build r1 at Ts52
+move r1 from Wmreed to Logan
+move r1 from Ts52 to Gonzo
+build y1 at Logan
+build r2 at Gonzo
+sacrifice g2 at Ballard; build r2 at Logan; build r3 at Wmreed
+build r3 at Ts52
+build y2 at Wmreed
+convert r2 to y2 at Gonzo
+move r2 from Wmreed to Jessica (y3)
+move r3 from Ts52 to Grover (b1)
+move y2 from Wmreed to Ballard
+build g2 at Ts52
+build y2 at Wmreed
+move g1 from Gonzo to Bigbird (y3)
+sacrifice y1 at Logan; move r2 from Logan to Francis (y1)
+sacrifice g2 at Ts52; build g2 at Ts52; build r2 at Gonzo
+convert r3 to g3 at Wmreed
+move g2 from Ts52 to Gonzo
+move r1 from Ballard to Wmreed
+move g2 from Gonzo to Bigbird
+sacrifice g3 at Wmreed; build r3 at Wmreed; build g2 at Ballard; build g3 at Ballard
+build g3 at Ts52
+move g3 from Ballard to Gonzo
+move r2 from Gonzo to Ballard
+sacrifice r2 at Jessica; capture r2 at Ballard; capture y2 at Gonzo
+convert r3 to y3 at Grover
+sacrifice r1 at Logan; capture r1 at Gonzo
+move r3 from Ts52 to Grover
+move g1 from Ballard to Francis
+move r3 from Grover to Logan
+sacrifice y2 at Gonzo; move g3 from Gonzo to Ts52; move g1 from Francis to Ts52; catastrophe green at Ts52

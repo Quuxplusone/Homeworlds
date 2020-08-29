@@ -1,0 +1,39 @@
+Twoshort (0, r1b3) g3-
+Dethdukk (1, b2y1) -g3
+build g1 at Twoshort
+build g1 at Dethdukk
+convert g1 to y1 at Twoshort
+build g1 at Dethdukk
+build y1 at Twoshort
+move g1 from Dethdukk to Lauch (b3)
+build y2 at Twoshort
+build g1 at Lauch
+move y1 from Twoshort to Grogar (g2)
+sacrifice g3 at Dethdukk; build g2 at Lauch; build g2 at Dethdukk; build g3 at Dethdukk
+build g3 at Twoshort
+convert g2 to y2 at Lauch
+move g3 from Twoshort to Bluebird (b2)
+convert g2 to r2 at Dethdukk
+build g2 at Twoshort
+build y2 at Lauch
+sacrifice g3 at Twoshort; build g2 at Bluebird; build g3 at Twoshort; build y3 at Grogar
+sacrifice y2 at Lauch; move g1 from Lauch to Bluebird; move g1 from Lauch to Bluebird; catastrophe green at Bluebird
+move y1 from Twoshort to Blitz (b2)
+move y2 from Lauch to Grogar
+move y3 from Grogar to Bonanza (b3)
+move g1 from Dethdukk to Colony (b3)
+sacrifice g3 at Twoshort; build y2 at Bonanza; build y3 at Twoshort; build y3 at Blitz
+build g1 at Dethdukk
+convert y3 to g3 at Bonanza
+move g1 from Dethdukk to Standing (y3)
+build g1 at Twoshort
+build g2 at Standing
+convert g2 to r2 at Twoshort
+move y2 from Grogar to Colony
+move y3 from Blitz to Colony
+sacrifice y2 at Colony; move g1 from Colony to Point (y2); move r2 from Dethdukk to Bonanza
+sacrifice r2 at Twoshort; capture r2 at Bonanza
+build g2 at Dethdukk
+move g3 from Bonanza to Dethdukk
+convert g2 to r2 at Dethdukk
+sacrifice r2 at Bonanza; capture g3 at Dethdukk; capture r2 at Dethdukk

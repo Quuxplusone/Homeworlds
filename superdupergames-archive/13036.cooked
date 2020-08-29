@@ -1,0 +1,15 @@
+Madwuher (0, r1b3) g3-
+A_Magical_Me (1, g3b2) -y3
+build g1 at Madwuher
+build y1 at A_Magical_Me
+convert g1 to y1 at Madwuher
+convert y1 to b1 at A_Magical_Me
+build g1 at Madwuher
+build b1 at A_Magical_Me
+build g1 at Madwuher
+move b1 from A_Magical_Me to Goo (g1)
+move g1 from Madwuher to Edora (y2)
+build b1 at Goo
+build g2 at Edora
+build b2 at Goo
+sacrifice g3 at Madwuher; build g2 at Madwuher; build g2 at Edora; build g3 at Madwuher

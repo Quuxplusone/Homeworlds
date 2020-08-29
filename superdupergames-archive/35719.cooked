@@ -1,0 +1,31 @@
+Babamots (0, b3r1) g3-
+Laurie_Menke (1, y2b1) -g3
+build g1 at Babamots
+build g1 at Laurie_Menke
+convert g1 to y1 at Babamots
+convert g1 to r1 at Laurie_Menke
+build y1 at Babamots
+build g1 at Laurie_Menke
+build y1 at Babamots
+build r1 at Laurie_Menke
+move y1 from Babamots to Risa (g2)
+build r2 at Laurie_Menke
+sacrifice g3 at Babamots; build y2 at Risa; build y2 at Risa; build y3 at Babamots
+move r2 from Laurie_Menke to Yellow (y3)
+move y2 from Risa to Bolarus (b3)
+move r2 from Yellow to Risa
+sacrifice y1 at Risa; move y2 from Risa to Orion (g3)
+convert r1 to b1 at Laurie_Menke
+convert y1 to r1 at Babamots
+convert g1 to y1 at Laurie_Menke
+convert y3 to g3 at Babamots
+build r2 at Risa
+sacrifice g3 at Babamots; build y1 at Babamots; build y3 at Bolarus; build y3 at Babamots
+sacrifice y1 at Laurie_Menke; move r2 from Risa to Yellow (y3)
+build y1 at Orion
+sacrifice g3 at Laurie_Menke; build r2 at Yellow; build r3 at Laurie_Menke; build r3 at Risa
+convert y3 to r3 at Bolarus
+sacrifice b1 at Laurie_Menke; convert r3 to y3 at Risa
+sacrifice y1 at Babamots; move r1 from Babamots to Bajor (g2)
+move y3 from Risa to Orion
+sacrifice y3 at Babamots; move r1 from Bajor to Bolarus; move r1 from Bolarus to Laurie_Menke; move r3 from Bolarus to Laurie_Menke; catastrophe red at Laurie_Menke

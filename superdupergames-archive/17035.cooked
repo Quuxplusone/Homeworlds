@@ -1,0 +1,46 @@
+Rootbier (0, b1y2) g3-
+Bhorner (1, g2b1) -b3
+build g1 at Rootbier
+build b1 at Bhorner
+convert g3 to b3 at Rootbier
+convert b3 to y3 at Bhorner
+build b2 at Rootbier
+move b1 from Bhorner to Other (g3)
+move b2 from Rootbier to Slate (y3)
+convert y3 to r3 at Bhorner
+build b2 at Rootbier
+build b2 at Other
+convert b3 to g3 at Rootbier
+convert b2 to y2 at Other
+move b2 from Rootbier to Sprout (y3)
+build r1 at Bhorner
+convert g1 to r1 at Rootbier
+convert r1 to y1 at Bhorner
+build g1 at Rootbier
+build r1 at Bhorner
+sacrifice g3 at Rootbier; build b2 at Slate; build b3 at Sprout; build g1 at Rootbier
+build b3 at Other
+move b3 from Sprout to Rootbier
+move r1 from Bhorner to Tricky (b3)
+convert b3 to g3 at Rootbier
+move b1 from Other to Jen (y2)
+sacrifice g1 at Rootbier; build b3 at Sprout
+convert r1 to g1 at Tricky
+move g1 from Rootbier to Sprout
+sacrifice g1 at Tricky; build b3 at Other
+convert b2 to r2 at Sprout
+convert b1 to g1 at Jen
+move r2 from Sprout to Jen
+move g1 from Jen to Jenny (y3)
+move r2 from Jen to Other
+move y2 from Other to Runaway (g2)
+move b2 from Slate to Runaway
+move y2 from Runaway to Runtoward (g3)
+convert b3 to r3 at Sprout
+convert b3 to r3 at Other
+build r1 at Other
+sacrifice y1 at Bhorner; move r3 from Other to Runaway
+sacrifice b2 at Runaway; convert r2 to y2 at Other; convert r1 to g1 at Rootbier
+build g2 at Jenny
+sacrifice g3 at Rootbier; build g3 at Rootbier; build r1 at Other; build r1 at Sprout
+sacrifice y2 at Runtoward; move g2 from Jenny to Rootbier; move g1 from Jenny to Rootbier; catastrophe green at Rootbier

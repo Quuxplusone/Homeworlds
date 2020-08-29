@@ -1,0 +1,55 @@
+Ts52 (0, y3b1) g3-
+Felix (1, b3y2) -g3
+build g1 at Ts52
+build g1 at Felix
+convert g1 to b1 at Ts52
+convert g1 to b1 at Felix
+build b2 at Ts52
+build b2 at Felix
+build g1 at Ts52
+move b2 from Felix to Braxus (y1)
+move b1 from Ts52 to Bigbird (y2)
+build g1 at Felix
+convert b2 to y2 at Ts52
+convert g1 to y1 at Felix
+move y2 from Ts52 to Kermit (g2)
+build g1 at Felix
+move g1 from Ts52 to Bigbird
+move g1 from Felix to Braxus
+build b2 at Bigbird
+build b2 at Braxus
+build y1 at Kermit
+move b2 from Braxus to Omen (g2)
+build y3 at Kermit
+build b3 at Omen
+convert b2 to r2 at Bigbird
+convert b2 to r2 at Omen
+build r1 at Bigbird
+move y1 from Felix to Brink (g1)
+move y3 from Kermit to Brink
+convert b3 to y3 at Omen
+sacrifice r1 at Bigbird; capture y1 at Brink
+build r1 at Omen
+build b2 at Bigbird
+move b2 from Braxus to Kermit
+move y2 from Kermit to Braxus
+sacrifice r1 at Omen; capture y1 at Kermit
+build r1 at Bigbird
+move g1 from Braxus to Kermit
+move b1 from Bigbird to Brink
+move g1 from Kermit to Ts52
+sacrifice r1 at Bigbird; capture g1 at Ts52
+move b2 from Kermit to Ts52
+sacrifice g3 at Ts52; build g2 at Bigbird; build g3 at Ts52; build g3 at Bigbird
+build r1 at Omen
+build r1 at Bigbird
+move b2 from Ts52 to Omen
+move r2 from Bigbird to Brink
+move y1 from Kermit to Ts52
+convert g3 to r3 at Ts52
+sacrifice y3 at Omen; move r2 from Omen to Ts52; move r1 from Omen to Ts52; move b2 from Omen to Ts52
+sacrifice r2 at Brink; capture r2 at Ts52; capture b2 at Ts52
+capture g1 at Ts52
+sacrifice r2 at Ts52; capture r1 at Ts52; capture g1 at Ts52
+sacrifice g3 at Felix; build y3 at Ts52; build b2 at Felix; build b3 at Felix
+capture y3 at Ts52; catastrophe blue at Felix

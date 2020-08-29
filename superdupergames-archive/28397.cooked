@@ -1,0 +1,45 @@
+Simon (0, r3b1) g3-
+Kanzenryu (1, b1y2) -g3
+build g1 at Simon
+build g1 at Kanzenryu
+convert g1 to b1 at Simon
+convert g1 to y1 at Kanzenryu
+build b2 at Simon
+build g1 at Kanzenryu
+convert b2 to y2 at Simon
+convert g1 to r1 at Kanzenryu
+move b1 from Simon to G2 (g2)
+move y1 from Kanzenryu to Foothold (g3)
+build b2 at G2
+build g1 at Kanzenryu
+convert b2 to y2 at G2
+build y1 at Foothold
+build b2 at G2
+build r1 at Kanzenryu
+convert b2 to r2 at G2
+move y1 from Foothold to Staging (g2)
+build b2 at G2
+build y1 at Staging
+build y3 at G2
+build y3 at Foothold
+build y3 at Simon
+convert g3 to b3 at Kanzenryu
+convert y3 to r3 at Simon
+move r1 from Kanzenryu to Foothold
+move r3 from Simon to Staging
+sacrifice y1 at Staging; move y1 from Staging to Other (g3)
+build g1 at Simon
+move y3 from Foothold to Brink (r2)
+move b2 from G2 to Foothold
+move y3 from Brink to Foothold
+sacrifice y3 at G2; move b2 from Foothold to Kanzenryu; move b1 from G2 to Foothold; move b1 from Foothold to Kanzenryu; catastrophe blue at Kanzenryu
+move y3 from Foothold to Kanzenryu
+build y1 at Simon
+build y3 at Foothold
+build y3 at G2
+move y1 from Foothold to Hopeful (r2)
+move y2 from Simon to R2 (r2)
+build g1 at Kanzenryu
+sacrifice y2 at G2; move y2 from R2 to Foothold; move y2 from Foothold to Kanzenryu
+move y3 from Kanzenryu to Yikes (r3)
+sacrifice r3 at Staging; capture r1 at Kanzenryu; capture g1 at Kanzenryu; capture g1 at Kanzenryu

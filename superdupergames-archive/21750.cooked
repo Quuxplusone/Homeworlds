@@ -1,0 +1,10 @@
+Igneel (0, g2b1) y3-
+Silenttitan (1, r3b2) -g3
+build y1 at Igneel
+build g1 at Silenttitan
+convert y1 to r1 at Igneel
+convert g1 to y1 at Silenttitan
+build y1 at Igneel
+build g1 at Silenttitan
+convert y1 to b1 at Igneel
+build y1 at Silenttitan

@@ -1,0 +1,67 @@
+Dlwillson (0, b3y1) g3-
+Felix (1, b1y2) -g3
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to b1 at Dlwillson
+convert g1 to b1 at Felix
+build b2 at Dlwillson
+build b2 at Felix
+convert b2 to y2 at Dlwillson
+convert b2 to y2 at Felix
+build b2 at Dlwillson
+build b2 at Felix
+convert b2 to r2 at Dlwillson
+convert b2 to r2 at Felix
+build b2 at Dlwillson
+build b2 at Felix
+move b1 from Dlwillson to Field (g2)
+move b2 from Felix to Dagobah (g3)
+move b2 from Dlwillson to Forest (g2)
+move b1 from Felix to Tattooine (y3)
+build y1 at Dlwillson
+build y1 at Felix
+move y1 from Dlwillson to Field
+move y1 from Felix to Dagobah
+build y3 at Field
+build y3 at Dagobah
+convert y3 to r3 at Field
+convert y1 to r1 at Dagobah
+build b2 at Field
+build b3 at Dagobah
+build b3 at Forest
+sacrifice y2 at Felix; move b1 from Tattooine to Forest; move b2 from Dagobah to Forest; catastrophe blue at Forest
+move b2 from Field to Sol (y3)
+build g1 at Felix
+move y2 from Dlwillson to Sky (b2)
+move g1 from Felix to Jade (b3)
+build g1 at Dlwillson
+build g1 at Felix
+build r1 at Dlwillson
+sacrifice g3 at Felix; build g2 at Felix; build g2 at Jade; build g3 at Felix
+move r3 from Field to Jade
+sacrifice g2 at Jade; build y1 at Dagobah; build b1 at Dagobah
+capture g1 at Jade
+move g2 from Felix to Escape (y3)
+sacrifice g3 at Dlwillson; build g2 at Jade; build g3 at Dlwillson; build y2 at Sky
+convert g1 to r1 at Felix
+sacrifice g3 at Dlwillson; build g1 at Jade; build g3 at Dlwillson; build b2 at Sol
+move y3 from Dagobah to Field
+move y2 from Sky to Escape
+sacrifice r2 at Felix; capture y2 at Escape; capture y1 at Field
+sacrifice y2 at Sky; move b2 from Sol to Felix; move b2 from Sol to Felix
+sacrifice g2 at Escape; build y2 at Field; build y3 at Dagobah
+sacrifice r1 at Dlwillson; capture r1 at Felix
+convert b3 to r3 at Dagobah
+sacrifice g3 at Dlwillson; build g2 at Dlwillson; build g3 at Dlwillson; build b2 at Felix
+sacrifice r1 at Dagobah; capture b1 at Field
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build r1 at Felix; build b3 at Felix
+move y3 from Field to Dlwillson; catastrophe blue at Felix
+capture y3 at Dlwillson
+sacrifice y2 at Escape; move y2 from Field to Dlwillson; move y1 from Field to Dlwillson; catastrophe yellow at Dlwillson
+convert g3 to y3 at Dlwillson
+move y3 from Dagobah to Felix
+convert g2 to y2 at Jade
+build b1 at Field
+move y3 from Dlwillson to Felix
+sacrifice y3 at Felix; move b1 from Field to Dlwillson; move b1 from Field to Dlwillson; move b1 from Dagobah to Soclose (y2)
+sacrifice g2 at Dlwillson; build y1 at Felix; build y1 at Felix; catastrophe yellow at Felix

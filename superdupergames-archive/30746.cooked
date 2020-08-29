@@ -1,0 +1,58 @@
+Grosseteste (0, y1b2) g3-
+Draw5Playall (1, b1r3) -g3
+build g1 at Grosseteste
+build g1 at Draw5Playall
+move g1 from Grosseteste to Charlie (y3)
+convert g1 to y1 at Draw5Playall
+build g1 at Grosseteste
+build y1 at Draw5Playall
+convert g1 to b1 at Grosseteste
+convert y1 to b1 at Draw5Playall
+build b2 at Grosseteste
+move b1 from Draw5Playall to G2 (g2)
+convert b2 to y2 at Grosseteste
+build b2 at G2
+build g1 at Grosseteste
+build g1 at Draw5Playall
+build g2 at Charlie
+move g1 from Draw5Playall to B2 (b2)
+build b3 at Grosseteste
+build g2 at Draw5Playall
+build g3 at Grosseteste
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y1 at Draw5Playall; build y2 at Draw5Playall
+sacrifice y2 at Grosseteste; move g3 from Grosseteste to Lucy (y3); move b3 from Grosseteste to Schroeder (y3)
+build b3 at G2
+move b3 from Schroeder to G2; catastrophe blue at G2
+build g2 at B2
+build b1 at Grosseteste
+move y1 from Draw5Playall to B2
+sacrifice b1 at Grosseteste; convert g2 to y2 at Charlie
+sacrifice g2 at Draw5Playall; build y2 at Draw5Playall; build y3 at B2
+move y2 from Charlie to Rerun (r2)
+convert y2 to b2 at Draw5Playall
+move b1 from Grosseteste to Charlie
+move b2 from Draw5Playall to G2 (g2)
+convert g1 to b1 at Grosseteste
+build b3 at G2
+build b3 at Charlie
+build y2 at B2
+move b1 from Charlie to Rerun
+move y2 from B2 to B3 (b3)
+build g1 at Charlie
+convert g1 to r1 at B2
+convert g1 to r1 at Charlie
+move y1 from Draw5Playall to G2
+sacrifice g3 at Lucy; build g1 at Charlie; build g1 at Grosseteste; build y3 at Rerun
+move g2 from B2 to B3
+convert g1 to r1 at Grosseteste
+build g1 at Draw5Playall
+move g1 from Charlie to Rerun
+sacrifice g1 at Draw5Playall; build r2 at B2
+build g1 at Grosseteste
+move b2 from G2 to G3 (g3)
+move b1 from Grosseteste to Lucy (r3)
+move y1 from G2 to G3
+sacrifice g3 at Grosseteste; build g2 at Rerun; build g3 at Grosseteste; build r2 at Charlie
+move y1 from B2 to R3 (r3)
+sacrifice y3 at Rerun; move y2 from Rerun to Draw5Playall; move g2 from Rerun to Draw5Playall; move g1 from Rerun to Draw5Playall
+sacrifice y2 at Draw5Playall; move b3 from G2 to Draw5Playall; move y1 from R3 to Grosseteste

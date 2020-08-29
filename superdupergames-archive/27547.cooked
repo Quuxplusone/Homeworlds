@@ -1,0 +1,32 @@
+Jrandom (0, g2b3) y3-
+Wil (1, y3b1) -g3
+build y1 at Jrandom
+build g1 at Wil
+move y1 from Jrandom to Fungus (y1)
+move g1 from Wil to B2 (b2)
+build y1 at Jrandom
+build g1 at Wil
+move y3 from Jrandom to Horsehair (b1)
+build g1 at Wil
+convert y3 to g3 at Horsehair
+convert g1 to r1 at Wil
+build y2 at Jrandom
+build g1 at Wil
+convert y2 to r2 at Jrandom
+build g2 at B2
+build g2 at Horsehair
+convert g2 to y2 at B2
+build y2 at Jrandom
+build y2 at B2
+move y2 from Jrandom to Horsehair
+move y2 from B2 to G3 (g3)
+move g3 from Horsehair to Jrandom
+sacrifice g3 at Wil; build g2 at B2; build y3 at B2; build y3 at G3
+build g3 at Jrandom
+sacrifice y3 at B2; move g1 from B2 to Horsehair; move g1 from Horsehair to Jrandom; move y3 from G3 to Horsehair; catastrophe green at Jrandom
+build y3 at Horsehair
+move y3 from Horsehair to Jrandom
+move y3 from Horsehair to B2
+sacrifice r1 at Wil; capture r2 at Jrandom
+move g2 from Horsehair to Jrandom
+sacrifice r2 at Jrandom; capture g2 at Jrandom; capture y1 at Jrandom

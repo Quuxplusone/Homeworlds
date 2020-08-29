@@ -1,0 +1,23 @@
+Teeteetee (0, y1b2) g3-
+Wil (1, b3y2) -g3
+build g1 at Teeteetee
+build g1 at Wil
+convert g1 to y1 at Teeteetee
+convert g1 to y1 at Wil
+build y2 at Teeteetee
+build y2 at Wil
+move y1 from Teeteetee to Leviathan (g3)
+move y1 from Wil to G1 (g1)
+build y3 at Leviathan
+build y3 at G1
+move y3 from Leviathan to G1
+move y3 from G1 to Leviathan
+build y3 at Leviathan
+move y3 from Leviathan to Teeteetee
+convert y2 to r2 at Teeteetee
+move y3 from Teeteetee to R3 (r3)
+move y3 from G1 to Wil
+move y1 from G1 to Wil; catastrophe yellow at Wil
+build r1 at Teeteetee
+build g1 at Wil
+move g3 from Teeteetee to Wil

@@ -1,0 +1,50 @@
+Aaron (0, y1b2) g3-
+Matrixfrog (1, g3y2) -r3
+build g1 at Aaron
+build r1 at Matrixfrog
+convert g1 to r1 at Aaron
+move r1 from Matrixfrog to B1 (b1)
+build r1 at Aaron
+convert r1 to y1 at B1
+convert r1 to y1 at Aaron
+build r1 at Matrixfrog
+build r1 at Aaron
+move y1 from B1 to Matrixfrog
+convert r1 to b1 at Aaron
+build y2 at Matrixfrog
+build y2 at Aaron
+move y2 from Matrixfrog to Mercury (r1)
+move y2 from Aaron to Cobalt (b3)
+build y3 at Matrixfrog
+build y3 at Aaron
+move y2 from Mercury to Forest (g3)
+convert y3 to r3 at Aaron
+move y2 from Forest to Droplet (b1)
+move y2 from Cobalt to Droplet
+move y3 from Matrixfrog to Droplet
+move r1 from Aaron to Emerald (g3)
+convert y3 to r3 at Droplet
+move y2 from Droplet to Emerald
+build y3 at Matrixfrog
+build y3 at Emerald
+build r1 at Matrixfrog
+sacrifice y2 at Emerald; move y3 from Emerald to Droplet; move y3 from Droplet to Matrixfrog; catastrophe yellow at Matrixfrog
+sacrifice r1 at Matrixfrog
+build y1 at Aaron
+move y2 from Droplet to Matrixfrog
+move y1 from Aaron to Emerald
+build y2 at Matrixfrog
+build y2 at Emerald
+convert r3 to y3 at Droplet
+convert y1 to r1 at Aaron
+move y3 from Droplet to Emerald
+sacrifice y2 at Emerald; move r3 from Aaron to Matrixfrog; move r1 from Aaron to Matrixfrog; catastrophe red at Matrixfrog
+move y3 from Emerald to Blue (b2)
+build r1 at Emerald
+convert y3 to r3 at Blue
+convert g3 to r3 at Aaron
+build y1 at Matrixfrog
+build y2 at Emerald
+move y1 from Matrixfrog to Aaron
+move r3 from Aaron to Matrixfrog
+sacrifice r3 at Blue; capture b1 at Aaron

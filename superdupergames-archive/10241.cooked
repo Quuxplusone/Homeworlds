@@ -1,0 +1,35 @@
+Random56 (0, g3b2) r3-
+Airbender (1, g3b1) -r3
+build r1 at Random56
+build r1 at Airbender
+convert r1 to y1 at Random56
+build r1 at Airbender
+move r3 from Random56 to Otown (g1)
+convert r1 to y1 at Airbender
+build y1 at Random56
+build y2 at Airbender
+build y2 at Random56
+convert y2 to r2 at Airbender
+move y1 from Random56 to Otown
+build y2 at Airbender
+sacrifice y2 at Random56; move r3 from Otown to Monkey (y2); move r3 from Monkey to Airbender; catastrophe red at Airbender
+convert y2 to r2 at Airbender
+build y2 at Random56
+build y2 at Airbender
+convert y2 to r2 at Random56
+move r2 from Airbender to Zombiezone (y2)
+build r1 at Random56
+move r2 from Zombiezone to Otown
+build y2 at Random56
+capture y1 at Otown
+move y1 from Random56 to Omacron (g1)
+convert y2 to r2 at Airbender
+build y2 at Omacron
+build r1 at Airbender
+convert y2 to g2 at Random56
+build r1 at Otown
+sacrifice y1 at Omacron; move r1 from Random56 to Omacron
+move r1 from Otown to Fafsa (y2)
+build r3 at Omacron
+build r3 at Otown
+build r3 at Random56

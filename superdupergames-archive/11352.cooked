@@ -1,0 +1,57 @@
+Surfball1028 (0, g3b2) y3-
+Bang (1, g1y2) -b3
+build y1 at Surfball1028
+build b1 at Bang
+build y1 at Surfball1028
+convert b1 to y1 at Bang
+move y1 from Surfball1028 to Playalinda (b1)
+build y2 at Bang
+convert y1 to g1 at Playalinda
+convert y1 to g1 at Bang
+build g2 at Playalinda
+build g2 at Bang
+convert g2 to r2 at Playalinda
+convert g1 to r1 at Bang
+build y1 at Surfball1028
+move g2 from Bang to Boom (b3)
+move y1 from Surfball1028 to Playalinda
+build r1 at Bang
+build y1 at Playalinda
+move r1 from Bang to Bing (y3)
+convert y1 to b1 at Surfball1028
+move y2 from Bang to Bump (g3)
+build g1 at Playalinda
+build g2 at Boom
+move g1 from Playalinda to Boom
+convert g2 to r2 at Boom
+build g2 at Playalinda
+capture g1 at Boom
+move g1 from Playalinda to Cocobeach (y3)
+sacrifice y2 at Bump; move g1 from Boom to Playalinda; move g1 from Playalinda to Surfball1028
+convert b1 to r1 at Surfball1028
+sacrifice r1 at Bing; capture r1 at Surfball1028
+build r1 at Playalinda
+build g2 at Boom
+sacrifice r2 at Playalinda; capture r1 at Surfball1028; capture g1 at Surfball1028
+convert g2 to y2 at Boom
+build g2 at Cocobeach
+build g3 at Boom
+build g3 at Playalinda
+build r2 at Bang
+convert y1 to b1 at Playalinda
+move b3 from Bang to Cocobeach
+move g2 from Cocobeach to Jfkspacecenter (b1)
+sacrifice r1 at Bang; capture g1 at Cocobeach
+convert g2 to y2 at Jfkspacecenter
+move b3 from Cocobeach to Bang
+move g1 from Surfball1028 to Jfkspacecenter
+move r2 from Boom to Base (y1)
+build g2 at Jfkspacecenter
+convert g3 to r3 at Boom
+convert g2 to b2 at Jfkspacecenter
+move r3 from Boom to Jfkspacecenter
+sacrifice y2 at Jfkspacecenter; move b2 from Jfkspacecenter to Surfball1028; move g1 from Jfkspacecenter to Cocobeach
+build r1 at Bang
+sacrifice g2 at Playalinda; build r2 at Surfball1028; build r3 at Playalinda
+sacrifice y2 at Boom; move r3 from Jfkspacecenter to Cocobeach; move r1 from Bang to Cocobeach
+move r3 from Playalinda to Boom

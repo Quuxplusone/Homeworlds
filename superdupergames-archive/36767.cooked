@@ -1,0 +1,22 @@
+Layana (0, b2y1) g3-
+Babamots (1, b3r1) -g3
+build g1 at Layana
+build g1 at Babamots
+convert g1 to y1 at Layana
+convert g1 to y1 at Babamots
+build y2 at Layana
+build y2 at Babamots
+build g1 at Layana
+move y1 from Babamots to Aldea (y2)
+move y1 from Layana to Fintlewoodlewix (g3)
+build y3 at Babamots
+convert g1 to r1 at Layana
+convert y2 to r2 at Babamots
+build g1 at Layana
+move y1 from Aldea to Bajor (g1)
+convert g1 to b1 at Layana
+build y2 at Bajor
+build b1 at Layana
+move y2 from Bajor to Bolarus (b3)
+move g3 from Layana to Bolarus
+sacrifice g3 at Babamots; build y2 at Bolarus; build y3 at Bajor; build y3 at Babamots

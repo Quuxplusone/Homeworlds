@@ -1,0 +1,74 @@
+Ts52 (0, y1b2) g3-
+Zoltar (1, y3b1) -g3
+build g1 at Ts52
+build g1 at Zoltar
+convert g1 to b1 at Ts52
+convert g1 to b1 at Zoltar
+move b1 from Ts52 to Kermit (g3)
+build b2 at Zoltar
+build b2 at Kermit
+convert b2 to r2 at Zoltar
+convert b1 to r1 at Kermit
+build r1 at Zoltar
+build g1 at Ts52
+convert r1 to y1 at Zoltar
+build b1 at Kermit
+move b1 from Zoltar to Greendale (g2)
+convert b2 to g2 at Kermit
+build b2 at Greendale
+convert g1 to y1 at Ts52
+convert b2 to y2 at Greendale
+build y2 at Ts52
+build y2 at Greendale
+move y1 from Ts52 to Kermit
+convert y1 to g1 at Zoltar
+build g1 at Ts52
+build b2 at Greendale
+move g1 from Ts52 to Zoe (y3)
+move b2 from Greendale to Zoe
+build g1 at Ts52
+build r1 at Zoltar
+move y2 from Ts52 to Gonzo (b3)
+convert y2 to r2 at Greendale
+move g1 from Zoe to Bert (y2)
+move r2 from Zoltar to Bert
+sacrifice g3 at Ts52; build g2 at Bert; build g3 at Ts52; build r1 at Kermit
+sacrifice r2 at Greendale; capture g1 at Bert; capture g2 at Bert
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Kermit; build y3 at Gonzo
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b2 at Zoe; build b3 at Greendale
+build b3 at Kermit
+sacrifice y2 at Greendale; move g1 from Bert to Kermit; move g2 from Bert to Kermit; catastrophe green at Kermit
+convert g1 to r1 at Ts52
+convert b2 to g2 at Zoe
+build g1 at Ts52
+build g1 at Zoe
+move g1 from Ts52 to Gonzo
+move g1 from Zoe to Yellowstone (y1)
+convert y3 to r3 at Gonzo
+sacrifice g3 at Zoltar; build g2 at Zoe; build g3 at Yellowstone; build g3 at Zoltar
+move r3 from Gonzo to Bert
+sacrifice g3 at Yellowstone; build g3 at Yellowstone; build r1 at Bert; build r2 at Bert; catastrophe red at Bert
+build y1 at Gonzo
+convert b3 to y3 at Greendale
+convert y1 to r1 at Gonzo
+sacrifice g3 at Yellowstone; build g3 at Yellowstone; build b1 at Zoe; build b2 at Greendale
+build r2 at Ts52
+sacrifice g3 at Yellowstone; build g3 at Yellowstone; build b3 at Greendale; build b3 at Zoe
+build r2 at Gonzo
+sacrifice b2 at Zoe; convert b3 to r3 at Zoe; convert b3 to r3 at Greendale
+build y1 at Gonzo
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Zoe; build r3 at Zoltar
+move r1 from Gonzo to Sol (y2)
+sacrifice g3 at Yellowstone; build g3 at Yellowstone; build y2 at Greendale; build b2 at Zoe
+move r2 from Gonzo to Sol
+sacrifice y2 at Greendale; move r1 from Zoltar to Sol; move r2 from Zoe to Sol; catastrophe red at Sol
+move r1 from Ts52 to Gonzo
+sacrifice g3 at Yellowstone; build g3 at Yellowstone; build b3 at Greendale; build b3 at Zoe
+build r1 at Ts52
+move b3 from Greendale to Gonzo
+move y2 from Gonzo to Deetoo (r2)
+sacrifice g3 at Yellowstone; build g3 at Yellowstone; build r1 at Greendale; build r2 at Zoltar
+build y2 at Gonzo
+sacrifice r3 at Zoltar; capture y2 at Gonzo; capture y1 at Gonzo; capture r1 at Gonzo
+sacrifice g1 at Gonzo; build y2 at Deetoo
+sacrifice g3 at Yellowstone; build g1 at Zoe; build g3 at Yellowstone; build r3 at Gonzo

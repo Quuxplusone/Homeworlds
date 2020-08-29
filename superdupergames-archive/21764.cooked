@@ -1,0 +1,35 @@
+Twoshort (0, r1b3) g3-
+Lorgar (1, b1y2) -g3
+build g1 at Twoshort
+build g1 at Lorgar
+convert g1 to y1 at Twoshort
+build g1 at Lorgar
+build g1 at Twoshort
+move g1 from Lorgar to Mnar (b3)
+build g2 at Twoshort
+sacrifice g3 at Lorgar; build g2 at Mnar; build g2 at Lorgar; build g3 at Mnar
+move g1 from Twoshort to Yolonda (y2)
+convert g2 to r2 at Mnar
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Twoshort; build g3 at Yolonda
+sacrifice g3 at Mnar; build g3 at Lorgar; build r1 at Mnar; build r1 at Mnar
+convert g2 to r2 at Twoshort
+convert r2 to y2 at Mnar
+convert g3 to y3 at Twoshort
+move g2 from Lorgar to Mhor (g3)
+sacrifice y3 at Twoshort; move g1 from Yolonda to Yack (y3); move g3 from Yolonda to Yack; move g3 from Yack to Lorgar
+sacrifice y2 at Mnar; move r1 from Mnar to Lorgar; move g1 from Mnar to Lorgar; catastrophe green at Lorgar
+build g1 at Yack
+convert r1 to y1 at Mnar
+move g1 from Yack to Bluonia (b2)
+sacrifice y1 at Mnar; move g2 from Mhor to Lorgar
+build g1 at Twoshort
+build r1 at Lorgar
+build g2 at Yack
+build g3 at Lorgar
+move g2 from Yack to Lorgar
+move g2 from Lorgar to Mo (g3)
+sacrifice r2 at Twoshort; capture r1 at Lorgar; capture r1 at Lorgar
+build g3 at Mo
+sacrifice g1 at Bluonia; build g1 at Lorgar
+pass
+sacrifice g1 at Yack; build g1 at Lorgar; catastrophe green at Lorgar

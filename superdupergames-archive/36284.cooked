@@ -1,0 +1,32 @@
+Thecolorbrown (0, r1b2) g3-
+Babamots (1, r3b1) -g3
+build g1 at Thecolorbrown
+build g1 at Babamots
+convert g1 to y1 at Thecolorbrown
+convert g1 to y1 at Babamots
+build g1 at Thecolorbrown
+build g1 at Babamots
+convert g1 to b1 at Thecolorbrown
+convert g1 to r1 at Babamots
+move b1 from Thecolorbrown to Greenguy (g3)
+build r1 at Babamots
+build b1 at Greenguy
+move r1 from Babamots to Romulus (r2)
+build b2 at Greenguy
+build r2 at Babamots
+convert b2 to r2 at Greenguy
+convert r2 to y2 at Babamots
+build b2 at Greenguy
+move r1 from Babamots to Iconia (y2)
+convert b2 to y2 at Greenguy
+sacrifice g3 at Babamots; build r2 at Iconia; build r3 at Iconia; build r3 at Romulus
+build b2 at Greenguy
+sacrifice y2 at Babamots; move r3 from Romulus to Babamots; move r3 from Iconia to Greenguy
+sacrifice g3 at Thecolorbrown; build y1 at Greenguy; build y2 at Greenguy; build y3 at Thecolorbrown
+sacrifice r2 at Iconia; capture r2 at Greenguy; capture y2 at Greenguy
+convert y3 to b3 at Thecolorbrown
+sacrifice r3 at Greenguy; capture b2 at Greenguy; capture y2 at Greenguy; capture b1 at Greenguy
+sacrifice b3 at Thecolorbrown; convert b1 to g1 at Greenguy; convert y1 to g1 at Greenguy; convert y1 to g1 at Thecolorbrown
+sacrifice y2 at Greenguy; move r2 from Greenguy to Thecolorbrown; move y2 from Greenguy to Thecolorbrown
+build g2 at Greenguy; catastrophe green at Greenguy
+capture g1 at Thecolorbrown

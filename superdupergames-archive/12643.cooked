@@ -1,0 +1,79 @@
+Nycavri (0, y3b2) g3-
+Laurie_Menke (1, b1y3) -g3
+build g1 at Nycavri
+build g1 at Laurie_Menke
+move g1 from Nycavri to Mvb (y1)
+move g1 from Laurie_Menke to Blue (b2)
+build g1 at Mvb
+build g2 at Blue
+build g2 at Nycavri
+convert g1 to y1 at Blue
+move g1 from Mvb to Mvg (y2)
+move g2 from Blue to Laurie_Menke
+move g1 from Mvg to Laurie_Menke
+convert g3 to r3 at Laurie_Menke
+sacrifice g2 at Nycavri; build g1 at Laurie_Menke; build g2 at Laurie_Menke; catastrophe green at Laurie_Menke
+move y1 from Blue to Mvb
+convert g3 to r3 at Nycavri
+move y1 from Mvb to Green (g3)
+build g1 at Mvb
+build y1 at Green
+move g1 from Mvb to Iw (y2)
+move y1 from Green to Blue (b1)
+sacrifice g1 at Mvb; build r1 at Nycavri
+build y1 at Green
+convert r3 to g3 at Nycavri
+build y2 at Green
+build g1 at Nycavri
+move y1 from Green to Blue
+build g1 at Iw
+build y2 at Green
+build g2 at Nycavri
+move y2 from Green to Blue
+convert g2 to r2 at Nycavri
+build y3 at Green
+move g1 from Iw to Laurie_Menke
+capture g1 at Laurie_Menke
+move g1 from Iw to Laurie_Menke
+capture g1 at Laurie_Menke
+move r2 from Nycavri to Jw (b1)
+move y1 from Blue to Yellow (y2)
+sacrifice g1 at Nycavri; build r1 at Jw
+move y2 from Green to Blue
+build r1 at Nycavri
+sacrifice y3 at Green; move y2 from Blue to Nycavri; move y2 from Blue to Nycavri; move y1 from Blue to Nycavri; catastrophe yellow at Nycavri
+convert r2 to y2 at Jw
+build r2 at Laurie_Menke
+build r2 at Nycavri
+move r2 from Laurie_Menke to Nycavri; catastrophe red at Nycavri
+convert y2 to g2 at Jw
+move r3 from Laurie_Menke to Nycavri
+sacrifice r1 at Jw; capture r3 at Nycavri
+convert g1 to r1 at Laurie_Menke
+sacrifice g2 at Jw; build r1 at Nycavri; build g1 at Nycavri
+build y1 at Green
+convert r3 to y3 at Nycavri
+move y1 from Green to Alsogreen (g2)
+build y2 at Nycavri
+build y2 at Alsogreen
+move y2 from Nycavri to Laurie_Menke
+build r1 at Laurie_Menke
+move y3 from Nycavri to Laurie_Menke
+move y1 from Alsogreen to Laurie_Menke; catastrophe yellow at Laurie_Menke
+convert g3 to y3 at Nycavri
+sacrifice y2 at Alsogreen; move y1 from Green to Laurie_Menke; move y1 from Yellow to Laurie_Menke
+build r2 at Nycavri
+build r2 at Laurie_Menke
+move r1 from Nycavri to Laurie_Menke; catastrophe red at Laurie_Menke
+convert y1 to r1 at Laurie_Menke
+move r2 from Nycavri to Laurie_Menke
+build r1 at Laurie_Menke
+build y1 at Nycavri
+build r1 at Laurie_Menke
+capture g1 at Laurie_Menke; catastrophe red at Laurie_Menke
+convert y1 to g1 at Laurie_Menke
+convert g1 to r1 at Laurie_Menke
+build g1 at Laurie_Menke
+capture g1 at Laurie_Menke
+build g2 at Laurie_Menke
+build g2 at Laurie_Menke; catastrophe green at Laurie_Menke

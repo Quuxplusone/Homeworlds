@@ -1,0 +1,78 @@
+Mneme (0, b2r1) g3-
+Adambadura (1, g3b2) -r3
+build g1 at Mneme
+build r1 at Adambadura
+build g1 at Mneme
+convert r1 to y1 at Adambadura
+convert g3 to y3 at Mneme
+build r1 at Adambadura
+build g1 at Mneme
+build r1 at Adambadura
+move g1 from Mneme to Butterfly (b3)
+move r1 from Adambadura to Outpost (y1)
+build g2 at Butterfly
+build r2 at Adambadura
+convert g2 to r2 at Butterfly
+move r2 from Adambadura to Outpost
+build g2 at Mneme
+convert r1 to b1 at Adambadura
+convert g2 to r2 at Mneme
+build b1 at Adambadura
+build g2 at Butterfly
+move b1 from Adambadura to Outpost
+move g1 from Mneme to Spacer (r3)
+move r2 from Outpost to Spacer
+move r2 from Mneme to Friendship (b3)
+capture g1 at Spacer
+sacrifice g2 at Butterfly; build r1 at Friendship; build r3 at Butterfly
+build g2 at Spacer
+convert r2 to g2 at Friendship
+sacrifice g2 at Spacer; build r2 at Outpost; build g2 at Spacer
+move g1 from Mneme to Hunter (g3)
+build y1 at Adambadura
+convert r2 to y2 at Butterfly
+build r2 at Adambadura
+build g2 at Butterfly
+move r1 from Outpost to Nomore (g3)
+move g2 from Butterfly to Mneme
+move y1 from Adambadura to Outpost
+move g2 from Mneme to Nomore
+sacrifice g2 at Spacer; build g2 at Spacer; build b1 at Outpost
+sacrifice y2 at Butterfly; move g1 from Hunter to Outpost; move g1 from Outpost to Icicle (b3)
+build g3 at Spacer
+sacrifice g2 at Friendship; build g2 at Butterfly; build y2 at Mneme
+sacrifice g3 at Spacer; build g3 at Spacer; build b2 at Outpost; build y2 at Outpost
+sacrifice y2 at Mneme; move g1 from Butterfly to Outpost; move g1 from Outpost to Spacer; catastrophe green at Spacer
+move y2 from Outpost to Icicle
+sacrifice g1 at Icicle; build g1 at Butterfly
+convert b1 to g1 at Outpost
+convert g2 to y2 at Butterfly
+move y1 from Outpost to Spacer
+build g1 at Butterfly
+sacrifice b2 at Outpost; convert r3 to y3 at Adambadura; convert r2 to y2 at Spacer
+convert y3 to g3 at Mneme
+build g2 at Outpost
+build y3 at Butterfly
+sacrifice g2 at Outpost; build y3 at Icicle; build g2 at Outpost
+sacrifice g2 at Nomore; build r2 at Butterfly; build r3 at Friendship
+move g2 from Outpost to Spacer
+move r3 from Butterfly to Outpost
+sacrifice y2 at Spacer; move g1 from Outpost to Icicle; move r2 from Outpost to Icicle
+sacrifice y2 at Butterfly; move r3 from Friendship to Outpost; move r3 from Outpost to Spacer
+sacrifice g2 at Spacer; build g2 at Icicle; build g2 at Icicle
+sacrifice y3 at Butterfly; move g1 from Butterfly to Outpost; move g1 from Outpost to Icicle; move g1 from Butterfly to Outpost; catastrophe green at Icicle
+sacrifice y1 at Spacer; move b1 from Outpost to Icicle
+build g1 at Mneme
+build y1 at Adambadura
+convert r1 to b1 at Friendship
+build r1 at Adambadura
+convert g3 to y3 at Mneme
+convert y3 to g3 at Icicle
+build y2 at Mneme
+build y2 at Icicle
+move y2 from Mneme to Butterfly
+build y3 at Icicle
+move y2 from Butterfly to Seaweed (g1)
+sacrifice y1 at Adambadura; move y3 from Icicle to Mneme
+capture y3 at Mneme
+sacrifice y3 at Adambadura; move y2 from Icicle to Mneme; move y2 from Icicle to Mneme; move g3 from Icicle to Mneme; catastrophe yellow at Mneme

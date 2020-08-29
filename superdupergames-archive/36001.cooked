@@ -1,0 +1,35 @@
+Babamots (0, y3g1) b3-
+Capi3101 (1, b1g2) -y3
+build b1 at Babamots
+build y1 at Capi3101
+build b1 at Babamots
+move y1 from Capi3101 to Aleph (g3)
+move b1 from Babamots to Orion (g2)
+build y1 at Capi3101
+build b2 at Orion
+build y1 at Aleph
+build b2 at Orion
+build y2 at Aleph
+build b2 at Babamots
+move y1 from Capi3101 to Bet (b3)
+move b2 from Babamots to Risa (g2)
+build y2 at Capi3101
+build b3 at Risa
+convert y3 to g3 at Capi3101
+convert b3 to y3 at Risa
+sacrifice g3 at Capi3101; build y2 at Bet; build y3 at Capi3101
+build b3 at Risa
+move y1 from Aleph to Gimel (r2)
+move b2 from Risa to Romulus (r3)
+move y1 from Aleph to Gimel
+convert b3 to r3 at Risa
+convert y1 to r1 at Bet
+build b3 at Babamots
+build y1 at Aleph
+move b3 from Babamots to Gimel
+sacrifice y1 at Gimel; move y1 from Gimel to Babamots
+convert b3 to r3 at Babamots
+build y1 at Babamots
+move r3 from Risa to Aleph
+sacrifice y2 at Aleph; move y1 from Aleph to Risa; move y1 from Risa to Babamots; catastrophe yellow at Babamots
+sacrifice y3 at Risa; move b3 from Gimel to Aleph; move b3 from Aleph to Capi3101; move r3 from Aleph to Capi3101

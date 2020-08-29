@@ -1,0 +1,41 @@
+Zoltar (0, r3b2) g3-
+Shmil1 (1, g1b2) -y3
+build g1 at Zoltar
+build y1 at Shmil1
+convert g1 to y1 at Zoltar
+convert y1 to b1 at Shmil1
+build y1 at Zoltar
+build b1 at Shmil1
+convert y1 to b1 at Zoltar
+move b1 from Shmil1 to Zluty (y3)
+move b1 from Zoltar to Greenpea (g1)
+move b1 from Zluty to Greenpea
+convert b1 to r1 at Greenpea
+build y1 at Shmil1
+capture b1 at Greenpea
+convert y1 to r1 at Shmil1
+build y1 at Zoltar
+build b1 at Shmil1
+build b2 at Greenpea
+move b1 from Shmil1 to Zelenysvet (g3)
+convert b2 to y2 at Greenpea
+build b2 at Zelenysvet
+build b3 at Greenpea
+convert b1 to y1 at Zelenysvet
+move y1 from Zoltar to Greenbean (g1)
+build y2 at Zelenysvet
+sacrifice g3 at Zoltar; build y2 at Greenpea; build y3 at Greenbean; build y3 at Zoltar
+move y1 from Zelenysvet to Greenbean
+sacrifice b3 at Greenpea; convert y2 to g2 at Greenpea; convert y3 to g3 at Greenbean; convert y3 to g3 at Zoltar
+build y2 at Zelenysvet
+sacrifice g2 at Greenpea; build y3 at Greenpea; build y3 at Zoltar
+convert y2 to r2 at Zelenysvet
+convert y2 to r2 at Greenpea
+build y2 at Greenbean
+move y3 from Greenpea to Zelenysvet
+move b2 from Zelenysvet to Rudy (r1)
+sacrifice r2 at Greenpea; capture r2 at Zelenysvet; capture y2 at Zelenysvet
+sacrifice r1 at Shmil1; capture y1 at Greenbean
+sacrifice y2 at Zelenysvet; move y1 from Zoltar to Greenbean; move y3 from Zelenysvet to Shmil1; catastrophe yellow at Greenbean
+convert y3 to r3 at Shmil1
+sacrifice r2 at Zelenysvet; capture b1 at Shmil1; capture r3 at Shmil1

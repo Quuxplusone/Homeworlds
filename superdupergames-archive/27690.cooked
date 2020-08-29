@@ -1,0 +1,82 @@
+Dragon76N (0, b2g1) y3-
+Wil (1, y3b1) -g3
+build y1 at Dragon76N
+build g1 at Wil
+move y1 from Dragon76N to Grethr (g3)
+build g1 at Wil
+build y1 at Dragon76N
+convert g1 to y1 at Wil
+build y2 at Dragon76N
+move y1 from Wil to G2 (g2)
+move y2 from Dragon76N to Bluthr (b3)
+build y2 at G2
+convert y1 to r1 at Dragon76N
+convert g1 to r1 at Wil
+convert y2 to r2 at Bluthr
+build g1 at Wil
+build y1 at Grethr
+move y2 from G2 to Grethr
+sacrifice y1 at Grethr; move r2 from Bluthr to G2
+move y1 from G2 to G3 (g3)
+build y1 at Grethr
+build y2 at G3
+sacrifice y1 at Grethr; move r2 from G2 to G3
+sacrifice r1 at Wil; capture r2 at G3
+build r1 at Dragon76N
+build r1 at G3
+convert r1 to b1 at Dragon76N
+convert g1 to b1 at Wil
+build b2 at Dragon76N
+move b1 from Wil to Y2 (y2)
+convert b2 to r2 at Dragon76N
+build g1 at Wil
+convert r1 to g1 at Dragon76N
+move g1 from Wil to Y2
+build r1 at Dragon76N
+build b2 at Y2
+move y1 from Grethr to Y2
+sacrifice r1 at G3; capture y1 at Y2
+move b1 from Dragon76N to Grethr
+build r1 at G3
+move r2 from Dragon76N to Yelthr (y3)
+sacrifice r1 at G3; capture b1 at Grethr
+build r1 at Dragon76N
+build g2 at Wil
+move g1 from Dragon76N to Yelthr
+convert g2 to r2 at Wil
+build g2 at Yelthr
+build g2 at Wil
+move g1 from Yelthr to Y2
+sacrifice g3 at Wil; build g2 at Y2; build y1 at Grethr; build g3 at Wil
+move g2 from Yelthr to Y2; catastrophe green at Y2
+sacrifice g2 at Wil; build g1 at Wil; build g1 at Wil
+move r1 from Dragon76N to Yelthr
+build b2 at Grethr
+move r2 from Yelthr to Dragon76N
+build b3 at Grethr
+convert r2 to g2 at Dragon76N
+sacrifice g1 at Wil; build b3 at Y2
+build g1 at Dragon76N
+convert b3 to r3 at Grethr
+sacrifice g2 at Dragon76N; build r1 at Yelthr; build g2 at Dragon76N
+build b3 at Grethr
+sacrifice g2 at Dragon76N; build r2 at Yelthr; build g2 at Dragon76N
+build r3 at G3
+build r3 at Dragon76N
+move g1 from Wil to G2 (g2)
+move r2 from Yelthr to Y2
+sacrifice y2 at G3; move g1 from G2 to G3; move g1 from G3 to Dragon76N; catastrophe green at Dragon76N
+capture b2 at Y2
+sacrifice y2 at Grethr; move r2 from Wil to Dragon76N; move r2 from G3 to Dragon76N; catastrophe red at Dragon76N
+move b2 from Y2 to Grethr; catastrophe blue at Grethr
+build r1 at Grethr
+move r2 from Y2 to Greone (g1)
+build r2 at Grethr
+move r1 from Yelthr to Dragon76N
+move b3 from Y2 to Greone
+move r1 from Yelthr to Y2
+sacrifice b3 at Greone; convert r3 to b3 at G3; convert r3 to y3 at Grethr; convert y1 to b1 at Grethr
+capture y1 at Y2
+build b2 at G3
+capture b1 at Y2
+sacrifice y3 at Grethr; move b1 from Grethr to Dragon76N; move b2 from G3 to Dragon76N; move b3 from G3 to Dragon76N; catastrophe blue at Dragon76N

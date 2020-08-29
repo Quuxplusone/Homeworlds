@@ -1,0 +1,64 @@
+Gemmer (0, b3g2) y3-
+Tkvaran (1, g2b1) -r3
+build y1 at Gemmer
+build r1 at Tkvaran
+move y1 from Gemmer to Perry (b1)
+convert r1 to y1 at Tkvaran
+convert y1 to g1 at Perry
+convert y1 to b1 at Tkvaran
+build y1 at Gemmer
+build b2 at Tkvaran
+convert y1 to r1 at Gemmer
+convert b2 to y2 at Tkvaran
+build r1 at Gemmer
+move y2 from Tkvaran to Rickilake (g3)
+move r1 from Gemmer to Perry
+build y1 at Rickilake
+build y1 at Gemmer
+move y2 from Rickilake to Montel (g1)
+convert y1 to g1 at Gemmer
+build b2 at Tkvaran
+build g2 at Perry
+convert b2 to y2 at Tkvaran
+sacrifice g2 at Perry; build g2 at Perry; build g3 at Gemmer
+move b1 from Tkvaran to Rickilake
+build g3 at Perry
+sacrifice y2 at Montel; move b1 from Rickilake to Sallyjessie (r1); move y1 from Rickilake to Sallyjessie
+sacrifice g3 at Perry; build r2 at Perry; build y1 at Gemmer; build r2 at Gemmer
+convert b1 to g1 at Sallyjessie
+move g3 from Gemmer to Sallyjessie
+move g1 from Sallyjessie to Oprah (b3)
+capture y1 at Sallyjessie
+build g3 at Oprah
+convert g2 to y2 at Perry
+convert g3 to r3 at Oprah
+move r2 from Perry to Dent (y3)
+build g2 at Oprah
+sacrifice g3 at Sallyjessie; build g3 at Gemmer; build g3 at Perry; build r2 at Dent
+build y1 at Tkvaran
+sacrifice g3 at Perry; build g3 at Perry; build r3 at Dent; build y2 at Sallyjessie
+sacrifice y2 at Tkvaran; move g1 from Oprah to Perry; move g1 from Perry to Gemmer; catastrophe green at Gemmer
+move r2 from Dent to Hampton (g2)
+build g1 at Oprah
+move r1 from Perry to Singletary (g3)
+build y2 at Tkvaran
+sacrifice g3 at Perry; build y3 at Perry; build g1 at Perry; build g3 at Perry
+convert y1 to b1 at Tkvaran
+sacrifice y3 at Perry; move r2 from Dent to Tkvaran; move r1 from Gemmer to Tkvaran; move r1 from Singletary to Tkvaran; catastrophe red at Tkvaran
+sacrifice y2 at Tkvaran; move r3 from Oprah to Tkvaran; move g2 from Oprah to Tkvaran
+move g1 from Perry to Gemmer
+build b2 at Tkvaran
+convert y2 to b2 at Perry
+convert b1 to y1 at Tkvaran
+sacrifice y1 at Gemmer; move b2 from Perry to Dent
+build g3 at Oprah
+build g3 at Gemmer
+convert g3 to y3 at Oprah
+sacrifice y2 at Sallyjessie; move g1 from Gemmer to Tkvaran; move g3 from Gemmer to Tkvaran; catastrophe green at Tkvaran
+move b2 from Tkvaran to Donahue (g2)
+convert r3 to b3 at Dent
+build b1 at Donahue
+move b3 from Dent to Donahue
+sacrifice y3 at Oprah; move b1 from Donahue to Gemmer; move b2 from Donahue to Gemmer
+capture b2 at Gemmer
+sacrifice g1 at Oprah; build b2 at Gemmer; catastrophe blue at Gemmer

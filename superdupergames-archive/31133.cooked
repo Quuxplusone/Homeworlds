@@ -1,0 +1,57 @@
+Ts52 (0, b1y3) g3-
+Felix (1, r2b3) -g3
+build g1 at Ts52
+build g1 at Felix
+convert g1 to b1 at Ts52
+convert g1 to b1 at Felix
+build b2 at Ts52
+build b2 at Felix
+build g1 at Ts52
+convert b2 to y2 at Felix
+move b2 from Ts52 to Kermit (g2)
+build b2 at Felix
+build b2 at Kermit
+move b2 from Felix to Opus (g1)
+convert b2 to y2 at Kermit
+build y1 at Felix
+build y1 at Kermit
+build g1 at Felix
+convert y2 to r2 at Kermit
+convert g1 to r1 at Felix
+build r1 at Kermit
+move y2 from Felix to Opus
+move b1 from Ts52 to Bigbird (y2)
+move r1 from Felix to Opus
+move g1 from Ts52 to Bigbird
+build r1 at Opus
+move r2 from Kermit to Zoe (y1)
+sacrifice g3 at Felix; build y2 at Felix; build y3 at Opus; build y3 at Felix
+build g1 at Ts52
+convert y3 to g3 at Felix
+build y3 at Kermit
+build g2 at Felix
+sacrifice g3 at Ts52; build g2 at Bigbird; build g3 at Ts52; build r2 at Zoe
+sacrifice y2 at Felix; move r1 from Opus to Rim (y2); move b1 from Felix to Opus
+sacrifice g3 at Ts52; build g3 at Ts52; build r3 at Kermit; build g3 at Bigbird
+sacrifice g3 at Felix; build g3 at Felix; build r3 at Opus; build r3 at Rim
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Kermit; build b3 at Bigbird
+move b2 from Opus to Rim
+move g3 from Bigbird to Zoe
+sacrifice g2 at Felix; build b3 at Rim
+build g2 at Zoe
+move b3 from Rim to Ts52
+sacrifice r1 at Kermit; capture b3 at Ts52
+sacrifice y3 at Opus; move b1 from Opus to Rim; move b1 from Rim to Ts52; move b2 from Rim to Ts52; catastrophe blue at Ts52
+move b2 from Kermit to Ts52
+build y3 at Opus
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Kermit; build b1 at Kermit
+sacrifice y2 at Opus; move r3 from Rim to Rom (b1); move r1 from Rim to Rom
+sacrifice y1 at Kermit; move r3 from Kermit to Scooter (y1)
+build y2 at Opus
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Kermit; build b2 at Kermit
+sacrifice y3 at Opus; move y2 from Opus to Kermit; move y1 from Felix to Opus; move y1 from Opus to Kermit; catastrophe yellow at Kermit
+convert b2 to y2 at Kermit
+convert r3 to b3 at Rom
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Kermit; build y2 at Kermit
+convert b3 to y3 at Rom
+sacrifice g3 at Zoe; build g3 at Zoe; build r3 at Kermit; build b2 at Bigbird

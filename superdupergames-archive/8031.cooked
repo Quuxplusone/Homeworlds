@@ -1,0 +1,76 @@
+Papa_Bear (0, y3b2) g3-
+Ts52 (1, y2b1) -g3
+build g1 at Papa_Bear
+build g1 at Ts52
+convert g1 to b1 at Papa_Bear
+convert g1 to b1 at Ts52
+build b2 at Papa_Bear
+build g1 at Ts52
+build g1 at Papa_Bear
+convert g1 to y1 at Ts52
+convert b1 to y1 at Papa_Bear
+build g1 at Ts52
+convert g1 to r1 at Papa_Bear
+convert g1 to r1 at Ts52
+build g1 at Papa_Bear
+build g1 at Ts52
+move g1 from Papa_Bear to Aleph (r1)
+build r2 at Ts52
+build r2 at Papa_Bear
+move r2 from Ts52 to Kermit (g3)
+move r2 from Papa_Bear to Aleph
+move y1 from Ts52 to Kermit
+move b2 from Papa_Bear to Aleph
+sacrifice g3 at Ts52; build r2 at Ts52; build r3 at Kermit; build r3 at Ts52
+convert b2 to y2 at Aleph
+move r2 from Ts52 to Wikket (g3)
+build r3 at Papa_Bear
+build b1 at Ts52
+move r2 from Aleph to Papa_Bear
+move b1 from Ts52 to Kermit
+convert r2 to b2 at Papa_Bear
+move r3 from Kermit to Aleph
+move r3 from Papa_Bear to Bet (g1)
+capture y2 at Aleph
+sacrifice g1 at Aleph; build r2 at Papa_Bear
+build y1 at Kermit
+move y1 from Papa_Bear to Bet
+build g1 at Ts52
+move r3 from Bet to Kermit
+move r2 from Kermit to Bet
+move y1 from Bet to Kermit
+move y1 from Kermit to Bet
+capture b1 at Kermit
+move y1 from Kermit to Bet
+build g2 at Papa_Bear
+sacrifice y2 at Aleph; move r3 from Aleph to Kermit; move r3 from Kermit to Bet
+convert r2 to y2 at Papa_Bear
+build g2 at Ts52
+build g2 at Papa_Bear
+convert g2 to y2 at Ts52
+move y2 from Papa_Bear to Gimmel (r1)
+move y2 from Ts52 to Wikket
+build y3 at Kermit
+build y3 at Wikket
+move g2 from Papa_Bear to Gimmel
+move y3 from Wikket to Gimmel
+sacrifice y2 at Gimmel; move g2 from Gimmel to Dalet (r2); move y3 from Kermit to Dalet
+move b1 from Ts52 to Wikket
+build g2 at Dalet
+build y2 at Wikket
+move g2 from Dalet to Kermit
+move y2 from Wikket to Gimmel
+pass
+sacrifice y3 at Gimmel; move y1 from Bet to Papa_Bear; move y1 from Bet to Papa_Bear; move y2 from Gimmel to Papa_Bear; catastrophe yellow at Papa_Bear
+build y1 at Kermit
+build b2 at Wikket
+convert b2 to y2 at Papa_Bear
+move g1 from Ts52 to Sol (y3)
+build r1 at Kermit
+move b2 from Wikket to Bet
+sacrifice g3 at Papa_Bear; build g3 at Papa_Bear; build y1 at Dalet; build y3 at Papa_Bear
+build b2 at Wikket
+move b1 from Kermit to Dalet
+sacrifice b1 at Wikket; convert g1 to b1 at Sol
+build g1 at Dalet
+sacrifice y2 at Wikket; move b2 from Bet to Papa_Bear; move b2 from Wikket to Papa_Bear

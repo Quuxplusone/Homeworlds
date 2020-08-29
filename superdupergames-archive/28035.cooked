@@ -1,0 +1,22 @@
+Wil (0, r3y1) g3-
+Sompm (1, b3g1) -y3
+build g1 at Wil
+build y1 at Sompm
+move g1 from Wil to B2 (b2)
+move y1 from Sompm to B2
+convert g1 to r1 at B2
+move y1 from B2 to Y1 (y1)
+build g1 at Wil
+build y2 at Sompm
+build g1 at Wil
+convert y2 to g2 at Sompm
+move g1 from Wil to B2
+move g2 from Sompm to Y2 (y2)
+build g2 at B2
+build y2 at Sompm
+convert g2 to y2 at B2
+convert y2 to r2 at Sompm
+build g2 at B2
+build g2 at Y2
+build g3 at B2
+sacrifice y3 at Sompm; move g2 from Y2 to Wil; move g2 from Y2 to Wil; catastrophe green at Wil

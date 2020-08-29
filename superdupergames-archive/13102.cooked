@@ -1,0 +1,36 @@
+Orl (0, b2y1) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Orl
+build g1 at Twoshort
+move g1 from Orl to Nova (b3)
+convert g1 to y1 at Twoshort
+build g1 at Nova
+build y1 at Twoshort
+build g1 at Nova
+move y1 from Twoshort to Grogar (g2)
+build g2 at Orl
+build y2 at Grogar
+convert g2 to y2 at Orl
+build g2 at Twoshort
+convert g1 to r1 at Nova
+move y2 from Grogar to Bluestar (b3)
+move y2 from Orl to Nova
+sacrifice g3 at Twoshort; build y2 at Grogar; build y3 at Twoshort; build y3 at Bluestar
+build y3 at Nova
+sacrifice y2 at Bluestar; move y1 from Grogar to Nova; move y2 from Grogar to Nova; catastrophe yellow at Nova
+convert g1 to y1 at Nova
+build y2 at Twoshort
+build y2 at Nova
+move y1 from Twoshort to Bonanza (b2)
+build g1 at Nova
+sacrifice g2 at Twoshort; build y2 at Bluestar; build y3 at Bonanza
+convert g1 to b1 at Nova
+convert y2 to r2 at Bluestar
+build g1 at Orl
+convert y3 to g3 at Bonanza
+move y1 from Nova to Orl
+sacrifice y3 at Twoshort; move g3 from Bonanza to Bluestar; move g3 from Bluestar to Orl; move y3 from Bluestar to Orl
+move r1 from Nova to Orl
+sacrifice r2 at Bluestar; capture g3 at Orl; capture r1 at Orl
+move g1 from Nova to Orl; catastrophe green at Orl
+capture y1 at Orl

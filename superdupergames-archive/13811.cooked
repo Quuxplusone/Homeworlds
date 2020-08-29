@@ -1,0 +1,31 @@
+Zxcv411 (0, b2r1) g3-
+Ts52 (1, y2b3) -g3
+build g1 at Zxcv411
+build g1 at Ts52
+convert g1 to y1 at Zxcv411
+convert g1 to y1 at Ts52
+build y1 at Zxcv411
+move y1 from Ts52 to Robin (g1)
+build y2 at Zxcv411
+build y2 at Robin
+sacrifice y1 at Zxcv411; move y2 from Zxcv411 to Reddwarf (r3)
+build g1 at Ts52
+build y1 at Zxcv411
+move y1 from Robin to Kermit (g3)
+move y1 from Zxcv411 to Starbug (y3)
+build y3 at Kermit
+build y3 at Zxcv411
+convert g1 to b1 at Ts52
+convert y1 to g1 at Zxcv411
+move b1 from Ts52 to Robin
+move g1 from Zxcv411 to Starbug
+build b1 at Robin
+build g1 at Starbug
+build g2 at Ts52
+build g2 at Zxcv411
+move b1 from Robin to Kermit
+move g2 from Zxcv411 to Reddwarf
+move b1 from Robin to Oscar (g2)
+move g1 from Starbug to Rimmer (b1)
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Kermit; build b2 at Oscar
+sacrifice y3 at Zxcv411; move g1 from Starbug to Rimmer; move g1 from Rimmer to Ts52; move g1 from Rimmer to Ts52; catastrophe green at Ts52

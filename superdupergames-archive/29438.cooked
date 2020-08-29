@@ -1,0 +1,33 @@
+Ajo (0, g3y1) b3-
+Felix (1, r3b2) -g3
+build b1 at Ajo
+build g1 at Felix
+convert b1 to g1 at Ajo
+convert g1 to y1 at Felix
+build g1 at Ajo
+build y1 at Felix
+move g1 from Ajo to Alpha (b2)
+build y2 at Felix
+build g1 at Ajo
+build g2 at Felix
+build g2 at Alpha
+move g2 from Felix to Rogue (b1)
+convert g1 to r1 at Ajo
+move y1 from Felix to Rogue
+convert g2 to y2 at Alpha
+convert y1 to r1 at Felix
+build b1 at Ajo
+build g1 at Rogue
+build g2 at Alpha
+move g2 from Rogue to Rebel (b2)
+move g1 from Alpha to Beta (y1)
+build g2 at Felix
+build g3 at Beta
+sacrifice g3 at Felix; build y2 at Felix; build y3 at Rogue; build g3 at Felix
+sacrifice g3 at Beta; build g3 at Beta; build y3 at Alpha; build r1 at Ajo
+sacrifice y1 at Rogue; move g2 from Rebel to Ajo
+capture g2 at Ajo
+sacrifice y2 at Felix; move g1 from Rogue to Alpha; move g1 from Alpha to Ajo; catastrophe green at Ajo
+sacrifice y3 at Alpha; move r1 from Ajo to Felix; move r1 from Ajo to Felix; move b1 from Ajo to Felix; catastrophe red at Felix
+pass
+sacrifice g2 at Alpha; build b1 at Felix; build b2 at Felix; catastrophe blue at Felix

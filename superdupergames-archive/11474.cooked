@@ -1,0 +1,40 @@
+Hasse (0, b1g3) y3-
+Madwuher (1, r1b2) -g3
+build y1 at Hasse
+build g1 at Madwuher
+move y3 from Hasse to Qwerty (g2)
+convert g1 to y1 at Madwuher
+build y1 at Hasse
+build y2 at Madwuher
+convert y1 to r1 at Hasse
+build g1 at Madwuher
+build r1 at Hasse
+move y2 from Madwuher to Edora (b3)
+move r1 from Hasse to Qwerty
+move g1 from Madwuher to Edora
+move y3 from Qwerty to Edora
+move y2 from Edora to Bologna (b2)
+build y1 at Hasse
+build y2 at Madwuher
+move y1 from Hasse to Qwerty
+build y2 at Madwuher
+move y3 from Edora to Madwuher; catastrophe yellow at Madwuher
+build g1 at Madwuher
+build y1 at Qwerty
+build g1 at Edora
+move y1 from Qwerty to Edora
+build g2 at Madwuher
+move r1 from Qwerty to Edora
+sacrifice g3 at Madwuher; build g2 at Edora; build g3 at Madwuher; build y2 at Bologna
+capture g1 at Edora
+sacrifice g2 at Madwuher; build g2 at Edora; build g3 at Madwuher; catastrophe green at Edora
+build y2 at Qwerty
+move y2 from Bologna to Hasse
+build r2 at Hasse
+sacrifice g3 at Madwuher; build y3 at Bologna; build y3 at Hasse; build y3 at Hasse; catastrophe yellow at Hasse
+move y2 from Qwerty to Edora
+convert y2 to r2 at Bologna
+convert y2 to g2 at Edora
+move y3 from Bologna to Hasse
+convert r1 to y1 at Hasse
+sacrifice r2 at Bologna; capture r2 at Hasse; capture y1 at Hasse

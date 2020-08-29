@@ -1,0 +1,38 @@
+Subhan64 (0, y3b1) g3-
+Silenttitan (1, r1b2) -g3
+build g1 at Subhan64
+build g1 at Silenttitan
+move g1 from Subhan64 to Smurfcity (b2)
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Smurfcity
+build g1 at Silenttitan
+build g1 at Subhan64
+move g1 from Silenttitan to Sol (b3)
+convert g1 to r1 at Subhan64
+convert g1 to y1 at Sol
+move y1 from Smurfcity to Sol
+build y2 at Silenttitan
+convert y1 to g1 at Sol
+move y1 from Sol to Sole (y1)
+move r1 from Subhan64 to Bigbird (y2)
+move y1 from Silenttitan to Soul (g3)
+build g1 at Subhan64
+build y2 at Silenttitan
+move r1 from Bigbird to Sole
+move y1 from Sole to Tic (g2)
+move g1 from Subhan64 to Tic
+move y1 from Tic to Tac (b1)
+move r1 from Sole to Soul
+move y1 from Soul to Toe (y1)
+build g1 at Subhan64
+build g2 at Silenttitan
+sacrifice g3 at Subhan64; build g2 at Sol; build g3 at Subhan64; build r1 at Soul
+sacrifice g3 at Silenttitan; build y2 at Toe; build y3 at Tac; build g3 at Silenttitan
+convert g3 to y3 at Subhan64
+convert g2 to r2 at Silenttitan
+sacrifice y3 at Subhan64; move r1 from Soul to Silenttitan; move r1 from Soul to Silenttitan; move g1 from Tic to Subhan64; catastrophe red at Silenttitan
+convert g3 to r3 at Silenttitan
+convert g1 to r1 at Subhan64
+move y2 from Silenttitan to Subhan64
+sacrifice g2 at Sol; build r1 at Subhan64; build r1 at Subhan64
+sacrifice r3 at Silenttitan; capture r1 at Subhan64; capture r1 at Subhan64; capture r1 at Subhan64

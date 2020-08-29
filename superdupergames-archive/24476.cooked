@@ -1,0 +1,20 @@
+Magicjohn (0, b1y2) g3-
+Goulo (1, r3b1) -g3
+build g1 at Magicjohn
+build g1 at Goulo
+convert g1 to y1 at Magicjohn
+convert g1 to y1 at Goulo
+build g1 at Magicjohn
+build g1 at Goulo
+convert g1 to r1 at Magicjohn
+build g1 at Goulo
+convert r1 to b1 at Magicjohn
+convert g3 to b3 at Goulo
+build b2 at Magicjohn
+build b2 at Goulo
+move b2 from Magicjohn to Shelob (r3)
+convert b2 to y2 at Goulo
+build b2 at Magicjohn
+move y1 from Goulo to Smeraldego (g2)
+move b1 from Magicjohn to Gimli (y3)
+move y1 from Smeraldego to Safirego (b3)

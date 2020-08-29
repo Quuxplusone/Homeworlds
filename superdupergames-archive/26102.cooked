@@ -1,0 +1,29 @@
+Ts52 (0, y2b3) g3-
+Anonfunc (1, y1b2) -g3
+build g1 at Ts52
+build g1 at Anonfunc
+move g1 from Ts52 to Gonzo (b1)
+move g1 from Anonfunc to Blue (b3)
+build g1 at Ts52
+build g2 at Anonfunc
+convert g1 to y1 at Gonzo
+convert g1 to y1 at Blue
+move g1 from Ts52 to Gonzo
+sacrifice g2 at Anonfunc; build y2 at Blue; build g1 at Anonfunc
+build y2 at Gonzo
+convert y2 to g2 at Blue
+build g1 at Ts52
+move g1 from Anonfunc to Green (g3)
+convert y2 to r2 at Gonzo
+build g2 at Anonfunc
+move r2 from Gonzo to Green
+sacrifice g2 at Blue; build g2 at Green; build g2 at Green; catastrophe green at Green
+build y2 at Gonzo
+convert g2 to r2 at Anonfunc
+convert y2 to r2 at Gonzo
+build g1 at Anonfunc
+build y2 at Gonzo
+move g1 from Anonfunc to Blue
+move r2 from Gonzo to Blue
+build g2 at Anonfunc
+capture y1 at Blue

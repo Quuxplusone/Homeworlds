@@ -1,0 +1,23 @@
+Dlwillson (0, b3y1) g3-
+Lurch (1, y2b1) -g3
+build g1 at Dlwillson
+build g1 at Lurch
+convert g1 to b1 at Dlwillson
+move g1 from Lurch to Alphacentauri (y3)
+build b1 at Dlwillson
+build g1 at Lurch
+move b1 from Dlwillson to Brooder (b2)
+convert g1 to r1 at Lurch
+build b2 at Dlwillson
+move r1 from Lurch to Beta (b3)
+move b2 from Dlwillson to Skulker (b2)
+convert r1 to g1 at Beta
+build b3 at Dlwillson
+build g1 at Beta
+sacrifice b2 at Skulker; convert g3 to y3 at Dlwillson; convert b3 to r3 at Dlwillson
+convert g1 to y1 at Beta
+sacrifice y3 at Dlwillson; move r3 from Dlwillson to Brooder; move r3 from Brooder to Beta; move r3 from Beta to Lurch
+build g1 at Lurch
+capture g3 at Lurch
+move y1 from Beta to Lurch
+sacrifice r3 at Lurch; capture y1 at Lurch; capture g1 at Lurch

@@ -1,0 +1,30 @@
+Zeder (0, y2b3) g3-
+Trydnt (1, b2r1) -g3
+build g1 at Zeder
+build g1 at Trydnt
+convert g1 to b1 at Zeder
+convert g1 to b1 at Trydnt
+build g1 at Zeder
+build g1 at Trydnt
+convert g1 to y1 at Zeder
+convert g1 to y1 at Trydnt
+build g1 at Zeder
+build y1 at Trydnt
+build y2 at Zeder
+build y2 at Trydnt
+move y2 from Zeder to Cribbage (g1)
+convert y1 to r1 at Trydnt
+move y2 from Cribbage to Gin (g3)
+move y2 from Trydnt to Gin
+move y2 from Gin to Cribbage (g1)
+build r1 at Trydnt
+convert g3 to r3 at Zeder
+move r1 from Trydnt to Gin
+build r2 at Zeder
+move b1 from Trydnt to Gin
+convert r3 to g3 at Zeder
+build r2 at Gin
+move r2 from Zeder to Cribbage
+move r2 from Gin to B1 (b1)
+move b1 from Zeder to Cribbage
+build b2 at Gin

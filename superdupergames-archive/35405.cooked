@@ -1,0 +1,67 @@
+Ajo (0, b3r2) g3-
+Draw5Playall (1, b2y1) -g3
+build g1 at Ajo
+build g1 at Draw5Playall
+convert g1 to y1 at Ajo
+convert g1 to y1 at Draw5Playall
+build y2 at Ajo
+build y2 at Draw5Playall
+move y1 from Ajo to Alpha (b1)
+move y2 from Draw5Playall to Greed (g3)
+sacrifice g3 at Ajo; build y2 at Ajo; build y3 at Ajo; build y3 at Alpha
+build y3 at Greed
+convert y2 to g2 at Ajo
+convert y1 to r1 at Draw5Playall
+convert y3 to g3 at Alpha
+build r1 at Draw5Playall
+convert y2 to r2 at Ajo
+convert r1 to b1 at Draw5Playall
+build y1 at Alpha
+move y2 from Greed to Diversity (b2)
+convert y1 to r1 at Alpha
+move b1 from Draw5Playall to Greed
+build g1 at Alpha
+build g1 at Draw5Playall
+move r2 from Ajo to Beta (y1)
+build b1 at Greed
+build y2 at Alpha
+build b2 at Greed
+move y2 from Alpha to Gamma (b3)
+move b1 from Greed to Growth (g2)
+sacrifice g3 at Alpha; build r1 at Beta; build y2 at Gamma; build y3 at Alpha
+build b3 at Growth
+move r2 from Beta to Gamma
+convert b3 to r3 at Growth
+move y1 from Alpha to Delta (b3)
+sacrifice g3 at Draw5Playall; build r2 at Growth; build r3 at Draw5Playall; build g1 at Draw5Playall
+build r3 at Alpha
+move g1 from Draw5Playall to Greed
+move r3 from Alpha to Diversity
+move y2 from Diversity to Delta
+build g2 at Alpha
+move g1 from Greed to Beta
+capture g1 at Beta
+build g3 at Draw5Playall
+build g3 at Beta
+move r3 from Draw5Playall to Gamma
+sacrifice y2 at Gamma; move r2 from Gamma to Growth; move r1 from Alpha to Growth; catastrophe red at Growth
+capture y2 at Gamma
+build y2 at Alpha
+convert b1 to r1 at Greed
+sacrifice y1 at Delta; move y2 from Alpha to Growth
+sacrifice g3 at Draw5Playall; build y1 at Gamma; build b1 at Greed; build g3 at Draw5Playall
+move g3 from Beta to Delta
+sacrifice g3 at Draw5Playall; build r2 at Gamma; build r2 at Greed; build r3 at Draw5Playall
+build g3 at Beta
+sacrifice y2 at Delta; move b1 from Growth to Delta; move b1 from Delta to Diversity
+sacrifice g2 at Alpha; build g2 at Delta; build y2 at Alpha
+sacrifice y3 at Greed; move b1 from Diversity to Alpha; move b2 from Greed to Alpha; move b1 from Greed to Alpha; catastrophe blue at Alpha
+convert g2 to b2 at Delta
+convert r1 to b1 at Draw5Playall
+sacrifice g3 at Beta; build g1 at Ajo; build g2 at Delta; build g3 at Beta
+build r1 at Draw5Playall
+sacrifice g3 at Delta; build g3 at Delta; build y2 at Ajo; build y3 at Growth
+move y2 from Gamma to Draw5Playall
+sacrifice b2 at Delta; convert r3 to y3 at Diversity; convert g1 to b1 at Beta
+convert r1 to g1 at Draw5Playall
+move y3 from Diversity to Greed

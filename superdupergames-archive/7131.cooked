@@ -1,0 +1,33 @@
+Mneme (0, b2g1) y3-
+Mikeyarrum (1, b3y1) -g3
+build y1 at Mneme
+build g1 at Mikeyarrum
+move y1 from Mneme to Fir (g3)
+move g1 from Mikeyarrum to Thor (y2)
+build y1 at Fir
+build g1 at Thor
+build y2 at Mneme
+build g2 at Mikeyarrum
+convert y2 to g2 at Mneme
+convert g2 to y2 at Mikeyarrum
+move g2 from Mneme to Pine (b3)
+build y2 at Mikeyarrum
+build y3 at Mneme
+move y2 from Mikeyarrum to Loki (g2)
+build y3 at Fir
+move y2 from Loki to Fir; catastrophe yellow at Fir
+build g2 at Pine
+build g2 at Mikeyarrum
+convert g2 to y2 at Pine
+move g1 from Thor to Frigg (y3)
+convert y3 to r3 at Mneme
+build g2 at Frigg
+build g3 at Pine
+build g3 at Thor
+sacrifice y2 at Pine; move r3 from Mneme to Frigg; move r3 from Frigg to Thor
+move g3 from Thor to Frigg
+move r3 from Thor to Mikeyarrum
+build y1 at Mikeyarrum
+capture g3 at Mikeyarrum
+sacrifice y2 at Mikeyarrum; move g1 from Frigg to Mneme; move g2 from Frigg to Mneme
+sacrifice r3 at Mikeyarrum; capture g2 at Mikeyarrum; capture y1 at Mikeyarrum; capture g2 at Mneme

@@ -1,0 +1,26 @@
+Agentofchaos (0, b1y2) g3-
+Madwuher (1, r2b3) -g3
+build g1 at Agentofchaos
+build g1 at Madwuher
+move g1 from Agentofchaos to Elysia (y3)
+convert g1 to y1 at Madwuher
+build g1 at Elysia
+build y1 at Madwuher
+build g1 at Agentofchaos
+build g2 at Madwuher
+move g1 from Elysia to Hades (b2)
+move g2 from Madwuher to Edora (y1)
+sacrifice g3 at Agentofchaos; build g2 at Hades; build g2 at Elysia; build g3 at Agentofchaos
+build g3 at Edora
+convert g2 to y2 at Hades
+build g2 at Madwuher
+sacrifice g3 at Agentofchaos; build g3 at Agentofchaos; build y2 at Hades; build y3 at Hades
+move y1 from Madwuher to Bologna (b1)
+convert y3 to r3 at Hades
+sacrifice g3 at Madwuher; build g3 at Madwuher; build y3 at Madwuher; build y3 at Bologna
+move r3 from Hades to Edora
+sacrifice y3 at Madwuher; move g3 from Edora to Hades; move g2 from Edora to Hades; move g2 from Hades to Bologna
+move g1 from Elysia to Edora
+sacrifice g3 at Madwuher; build g3 at Madwuher; build y3 at Madwuher
+move r3 from Edora to Madwuher
+capture r3 at Madwuher

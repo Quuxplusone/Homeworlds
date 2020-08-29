@@ -1,0 +1,40 @@
+Dodobirb (0, b1r2) g3-
+Simon (1, g3b1) -b3
+build g1 at Dodobirb
+build b1 at Simon
+build g1 at Dodobirb
+convert b3 to y3 at Simon
+convert g1 to y1 at Dodobirb
+build b2 at Simon
+build y1 at Dodobirb
+convert b2 to r2 at Simon
+convert g3 to b3 at Dodobirb
+build b2 at Simon
+move y1 from Dodobirb to Greeny (g3)
+move b2 from Simon to G2 (g2)
+build y1 at Dodobirb
+build y2 at Simon
+build y2 at Dodobirb
+move y2 from Simon to G2
+convert y2 to r2 at Dodobirb
+build b2 at G2
+build y2 at Greeny
+build y2 at Simon
+move y1 from Greeny to Grassy (g2)
+build y3 at G2
+build y3 at Grassy
+build r1 at Simon
+build g1 at Dodobirb
+build r1 at Simon
+build g1 at Dodobirb
+move b2 from G2 to G3 (g3)
+move g1 from Dodobirb to Bluey (b3)
+move r1 from Simon to G2
+move r2 from Dodobirb to Bluey
+move r1 from G2 to G3
+convert b3 to r3 at Dodobirb
+build r1 at G3
+move y3 from Grassy to G3
+sacrifice y3 at G2; move r1 from G3 to Dodobirb; move r1 from G3 to Dodobirb; move b2 from G3 to Dodobirb; catastrophe red at Dodobirb
+move y1 from Dodobirb to Bluey
+sacrifice y3 at Simon; move b1 from Simon to G2; move b1 from G2 to Dodobirb; move b2 from G2 to Dodobirb; catastrophe blue at Dodobirb

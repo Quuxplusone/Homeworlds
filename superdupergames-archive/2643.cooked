@@ -1,0 +1,50 @@
+Jeep (0, y1b3) g3-
+Twoshort (1, b1y2) -g3
+build g1 at Jeep
+build g1 at Twoshort
+move g1 from Jeep to Man (b2)
+move g1 from Twoshort to Yolonda (y3)
+build g1 at Man
+build g2 at Twoshort
+convert g1 to y1 at Man
+convert g2 to y2 at Twoshort
+build g1 at Jeep
+build g2 at Twoshort
+convert g3 to y3 at Jeep
+build g2 at Yolonda
+build g2 at Jeep
+move g2 from Yolonda to Man
+sacrifice g2 at Jeep; build g2 at Man; build g3 at Jeep
+sacrifice g2 at Twoshort; build g2 at Man; build g3 at Twoshort; catastrophe green at Man
+sacrifice g3 at Jeep; build y1 at Man; build y2 at Jeep; build y3 at Man
+move y2 from Twoshort to Bluestar (b3)
+move y3 from Man to Yolonda
+build g1 at Yolonda
+build g2 at Jeep
+move g1 from Yolonda to Boy (b2)
+move g2 from Jeep to Man
+move y2 from Bluestar to Boy
+move y2 from Jeep to Yolanda (b2)
+build g2 at Boy
+build g2 at Man
+convert g2 to r2 at Boy
+convert g2 to r2 at Man
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g2 at Yolonda; build g3 at Boy
+build g3 at Jeep
+move g2 from Yolonda to Yolanda
+move y3 from Yolonda to Twoshort
+sacrifice r2 at Boy; capture y3 at Twoshort; capture y2 at Yolanda
+sacrifice y3 at Jeep; move g2 from Man to Woman (y3); move r2 from Man to Jeep; move g1 from Jeep to Man
+convert g2 to r2 at Yolanda
+move y1 from Man to Stage (b3)
+move g2 from Yolonda to Man
+sacrifice g2 at Woman; build g2 at Man; build y3 at Stage
+sacrifice g1 at Yolonda; build y3 at Yolanda
+move g1 from Man to Stage
+sacrifice y3 at Yolanda; move y2 from Yolanda to Stage; move y2 from Boy to Stage; move r2 from Yolanda to Stage; catastrophe yellow at Stage
+sacrifice g2 at Man; build g1 at Stage; build g2 at Stage
+sacrifice g3 at Boy; build g2 at Man; build g3 at Boy; build y1 at Twoshort
+sacrifice g2 at Stage; build y2 at Man; build y2 at Man
+sacrifice y3 at Twoshort; move g1 from Boy to Jeep; move g2 from Man to Jeep; move g2 from Man to Jeep; catastrophe green at Jeep
+move y2 from Man to Jeep
+sacrifice y1 at Twoshort; move g3 from Boy to Jeep

@@ -1,0 +1,73 @@
+Wil (0, b2r1) g3-
+Silversliver (1, b2g1) -r3
+build g1 at Wil
+build r1 at Silversliver
+convert g1 to r1 at Wil
+convert r1 to y1 at Silversliver
+build g1 at Wil
+build y1 at Silversliver
+convert g1 to y1 at Wil
+move y1 from Silversliver to Sys1 (y3)
+build y2 at Wil
+move r3 from Silversliver to Sys1
+move y2 from Wil to G3 (g3)
+build y2 at Silversliver
+build y2 at G3
+convert y1 to r1 at Silversliver
+move r1 from Wil to G3
+build r2 at Silversliver
+build y1 at Wil
+convert r1 to g1 at Silversliver
+sacrifice y2 at G3; move y1 from Wil to Sys1; move y1 from Wil to Sys1; catastrophe yellow at Sys1
+move g1 from Silversliver to Sys2 (r3)
+build g1 at Wil
+build y1 at Silversliver
+convert g1 to y1 at Wil
+convert y1 to g1 at Silversliver
+build g2 at Wil
+build g2 at Sys2
+move g2 from Wil to Y3 (y3)
+sacrifice g2 at Sys2; build g2 at Sys2; build g2 at Sys2
+build g3 at Y3
+sacrifice y2 at Silversliver; move g2 from Sys2 to Wil; move g2 from Sys2 to Wil
+capture g2 at Wil
+sacrifice g1 at Sys2; build g1 at Wil; catastrophe green at Wil
+build g1 at Y3
+convert g1 to y1 at Silversliver
+move g3 from Y3 to Wil
+build r1 at Silversliver
+build r2 at G3
+move r1 from Silversliver to Sys3 (y3)
+sacrifice y2 at G3; move g1 from Y3 to Silversliver; move g2 from Y3 to Silversliver
+capture g2 at Silversliver
+build g1 at Silversliver; catastrophe green at Silversliver
+convert y1 to g1 at Silversliver
+build y1 at Wil
+build g1 at Silversliver
+build y1 at Wil
+build r2 at Silversliver
+build r3 at G3
+sacrifice g1 at Silversliver; build r3 at Sys3
+sacrifice y1 at Wil; move r1 from G3 to Silversliver
+convert r2 to y2 at Silversliver
+capture g1 at Silversliver
+capture r1 at Silversliver
+sacrifice y1 at Wil; move r3 from G3 to Y1 (y1)
+capture g1 at Silversliver
+build g1 at Wil
+build g1 at Silversliver
+convert g1 to b1 at Wil
+move g1 from Silversliver to Sys3
+build b1 at Wil
+convert r1 to b1 at Silversliver
+move b1 from Wil to G3
+move b1 from Silversliver to Sys4 (r3)
+build y1 at Wil
+build y2 at Silversliver
+move y1 from Wil to G3
+build g1 at Sys3
+move b1 from Wil to Gee3 (g3)
+build g2 at Sys3
+sacrifice g3 at Wil; build y2 at G3; build y3 at Wil; build b2 at G3
+sacrifice g2 at Sys3; build b3 at Sys4; build g2 at Sys3
+sacrifice y3 at Wil; move b2 from G3 to Silversliver; move b1 from G3 to Silversliver; move b1 from Gee3 to Silversliver; catastrophe blue at Silversliver

@@ -1,0 +1,26 @@
+Thorolf (0, y3b1) g3-
+Felix (1, r2b3) -g3
+build g1 at Thorolf
+build g1 at Felix
+move g1 from Thorolf to Alpha (b2)
+convert g1 to y1 at Felix
+build g1 at Thorolf
+build y1 at Felix
+move g1 from Thorolf to Alpha
+move y1 from Felix to Out (b1)
+build g1 at Thorolf
+build g2 at Felix
+build g2 at Alpha
+move g2 from Felix to Out
+move g3 from Thorolf to Alpha
+build g2 at Felix
+convert g3 to r3 at Alpha
+sacrifice g3 at Felix; build g3 at Out; build g3 at Out; build g3 at Felix
+convert g2 to y2 at Alpha
+convert g3 to r3 at Out
+build g2 at Thorolf
+move g2 from Out to Alpha
+capture g2 at Alpha
+build g3 at Out
+move y2 from Alpha to Delta (b1)
+move r3 from Out to Chomp (y2)

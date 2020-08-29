@@ -1,0 +1,35 @@
+Magicjohn (0, b3r1) g3-
+Goulo (1, b2r1) -g3
+build g1 at Magicjohn
+build g1 at Goulo
+convert g1 to y1 at Magicjohn
+build g1 at Goulo
+build g1 at Magicjohn
+convert g1 to y1 at Goulo
+convert g1 to b1 at Magicjohn
+convert g1 to r1 at Goulo
+build y1 at Magicjohn
+build r2 at Goulo
+build y2 at Magicjohn
+build y2 at Goulo
+move y1 from Magicjohn to Scarboughfair (g2)
+move y1 from Goulo to Smeraldego (g3)
+convert y2 to r2 at Magicjohn
+move r2 from Goulo to Smeraldego
+build y2 at Scarboughfair
+build r2 at Goulo
+move r2 from Magicjohn to Scarboughfair
+move r2 from Goulo to Citronego (y3)
+move y2 from Scarboughfair to Scairbroughfair (r3)
+sacrifice g3 at Goulo; build y2 at Smeraldego; build y3 at Goulo; build r3 at Citronego
+sacrifice g3 at Magicjohn; build y3 at Magicjohn; build r3 at Scarboughfair; build b1 at Magicjohn
+convert r1 to b1 at Goulo
+move b1 from Magicjohn to Scarboughfair
+move b1 from Goulo to Smeraldego
+move r3 from Scarboughfair to Smeraldego
+sacrifice y2 at Smeraldego; move r2 from Smeraldego to Goulo; move r3 from Citronego to Scarboughfair
+sacrifice r2 at Scarboughfair; capture b1 at Smeraldego; capture y1 at Smeraldego
+capture y1 at Scarboughfair
+build y2 at Smeraldego
+capture b1 at Scarboughfair
+sacrifice y2 at Smeraldego; move y1 from Smeraldego to Goulo; move y2 from Scairbroughfair to Goulo; catastrophe yellow at Goulo

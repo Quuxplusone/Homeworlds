@@ -1,0 +1,27 @@
+Endo (0, r1b2) g3-
+Simon (1, b1r3) -g3
+build g1 at Endo
+build g1 at Simon
+convert g1 to b1 at Endo
+convert g1 to r1 at Simon
+build b1 at Endo
+build g1 at Simon
+convert b1 to y1 at Endo
+convert g1 to y1 at Simon
+build b1 at Endo
+build r1 at Simon
+move b1 from Endo to Sat (r3)
+move r1 from Simon to B2 (b2)
+sacrifice g3 at Endo; build b2 at Sat; build b3 at Endo; build b3 at Sat
+build g1 at Simon
+convert b3 to g3 at Endo
+build r2 at Simon
+build b3 at Endo
+move r1 from Simon to Y2 (y2)
+convert b3 to r3 at Endo
+sacrifice g3 at Simon; build r2 at B2; build r2 at Y2; build y1 at Simon
+build y2 at Endo
+build y2 at Simon
+build y3 at Endo
+move y1 from Simon to G2 (g2)
+sacrifice y2 at Endo; move b3 from Sat to B2; move b3 from B2 to Simon

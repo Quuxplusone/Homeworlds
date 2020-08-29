@@ -1,0 +1,44 @@
+Sharkhands (0, y1b2) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Sharkhands
+build g1 at Draw5Playall
+convert g1 to r1 at Sharkhands
+convert g1 to r1 at Draw5Playall
+build r2 at Sharkhands
+build r2 at Draw5Playall
+move r1 from Sharkhands to G3 (g3)
+convert r2 to y2 at Draw5Playall
+build r2 at Sharkhands
+move r1 from Draw5Playall to G2 (g2)
+build g1 at Sharkhands
+build y1 at Draw5Playall
+move g1 from Sharkhands to R3 (r3)
+move y2 from Draw5Playall to G2
+move r2 from Sharkhands to Y3 (y3)
+build g1 at Draw5Playall
+sacrifice g3 at Sharkhands; build r2 at G3; build r3 at Sharkhands; build r3 at Y3
+build y1 at G2
+move r2 from Sharkhands to B3 (b3)
+move g1 from Draw5Playall to Y2 (y2)
+sacrifice g1 at R3; build r3 at B3
+sacrifice g3 at Draw5Playall; build y2 at Draw5Playall; build y3 at Draw5Playall; build y3 at G2
+move r2 from Y3 to Y2
+sacrifice g1 at Y2
+move r2 from Y2 to Y3
+convert y2 to g2 at Draw5Playall
+convert r2 to y2 at B3
+move y1 from G2 to G1 (g1)
+move r3 from Y3 to Y2 (y2)
+build r2 at G2
+move y2 from B3 to G21 (g2)
+build g1 at Draw5Playall
+move y2 from G21 to B3
+move g1 from Draw5Playall to B2 (b2)
+move r3 from B3 to B2
+sacrifice g1 at B2; build g1 at Draw5Playall
+move y2 from B3 to B2
+convert g2 to b2 at Draw5Playall
+sacrifice y2 at B2; move r1 from G3 to G2; move r2 from G3 to G2; catastrophe red at G2
+convert y1 to r1 at Draw5Playall
+move r2 from Y3 to G21 (g2)
+move r1 from Draw5Playall to G2

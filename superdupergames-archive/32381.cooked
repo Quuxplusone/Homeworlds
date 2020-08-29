@@ -1,0 +1,73 @@
+Dlwillson (0, b3r1) g3-
+Felix (1, r2b3) -g3
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Felix
+build g1 at Dlwillson
+build g1 at Felix
+move g1 from Dlwillson to Sea (b2)
+convert g1 to r1 at Felix
+convert g1 to r1 at Sea
+build r2 at Felix
+build g1 at Dlwillson
+move r2 from Felix to Rhombus (y1)
+build y2 at Dlwillson
+build y2 at Felix
+move y1 from Dlwillson to Golden (y2)
+move r2 from Rhombus to Sea
+sacrifice g3 at Dlwillson; build y1 at Golden; build y3 at Dlwillson; build r2 at Sea
+sacrifice g3 at Felix; build r3 at Felix; build r3 at Sea
+sacrifice y2 at Dlwillson; move r1 from Sea to Forest (g1); move r1 from Forest to Felix; catastrophe red at Felix
+sacrifice y1 at Felix; move r2 from Sea to Felix
+sacrifice y1 at Golden; move r2 from Sea to Dlwillson
+convert r3 to y3 at Sea
+build r1 at Dlwillson
+move y3 from Sea to Felix
+build y1 at Dlwillson
+convert y2 to g2 at Felix
+move r1 from Dlwillson to Golden
+build g1 at Felix
+move y1 from Golden to Sea (b1)
+convert g1 to b1 at Felix
+build g1 at Dlwillson
+build b1 at Felix
+convert r2 to b2 at Dlwillson
+move b1 from Felix to Trapezoid (b2)
+move b2 from Dlwillson to Trapezoid
+sacrifice g2 at Felix; build b2 at Trapezoid; build b3 at Felix; catastrophe blue at Trapezoid
+convert g1 to b1 at Dlwillson
+move b1 from Felix to Quadrilat (g2)
+move b1 from Dlwillson to Field (g2)
+build b2 at Quadrilat
+build b2 at Field
+move b3 from Felix to Field
+build b2 at Field; catastrophe blue at Field
+build b1 at Quadrilat
+move y1 from Dlwillson to Field (g2)
+convert b2 to y2 at Quadrilat
+build y1 at Field
+build b2 at Quadrilat
+build y2 at Dlwillson
+build y3 at Quadrilat
+move y2 from Dlwillson to Sky (b2)
+move b2 from Quadrilat to Square (g1)
+move r1 from Golden to Forest (g1)
+build b2 at Quadrilat
+move y2 from Sky to Sea
+convert b2 to r2 at Quadrilat
+convert y2 to g2 at Sea
+build b2 at Quadrilat
+build g3 at Sea
+build r1 at Quadrilat
+sacrifice y3 at Dlwillson; move y1 from Sea to Quadrilat; move y1 from Field to Sea; move y1 from Sea to Quadrilat; catastrophe yellow at Quadrilat
+build b2 at Square
+sacrifice g3 at Sea; build g3 at Dlwillson; build g3 at Sea; build g3 at Sea
+build b3 at Square
+sacrifice g3 at Sea; build r2 at Forest; build r3 at Forest; build g3 at Dlwillson
+sacrifice b2 at Square; convert b3 to y3 at Square; convert b2 to y2 at Quadrilat
+sacrifice y1 at Field; move r3 from Forest to Quadrilat
+sacrifice y2 at Quadrilat; move r2 from Quadrilat to Dlwillson; move y3 from Square to Quadrilat
+sacrifice r2 at Forest; capture y3 at Quadrilat; capture r2 at Dlwillson
+sacrifice b1 at Quadrilat; convert b1 to y1 at Quadrilat
+convert g3 to b3 at Sea

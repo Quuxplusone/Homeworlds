@@ -1,0 +1,27 @@
+Marmalade (0, y1b2) g3-
+Fogus (1, r1b2) -g3
+build g1 at Marmalade
+build g1 at Fogus
+move g1 from Marmalade to Formalhaut (y3)
+convert g1 to y1 at Fogus
+build g1 at Marmalade
+build y1 at Fogus
+build g1 at Formalhaut
+convert y1 to r1 at Fogus
+convert g1 to r1 at Marmalade
+build r2 at Fogus
+build r2 at Marmalade
+move r2 from Fogus to Formalhaut
+move g3 from Marmalade to Formalhaut
+capture g1 at Formalhaut
+sacrifice r2 at Marmalade; capture r2 at Formalhaut; capture g1 at Formalhaut
+move r1 from Fogus to Oboe (y3)
+move g3 from Formalhaut to Marmalade
+build g1 at Fogus
+build r2 at Marmalade
+move g1 from Fogus to Oboe
+move r2 from Marmalade to Oboe
+build g2 at Fogus
+capture r1 at Oboe
+move g1 from Oboe to Fogus
+move g1 from Formalhaut to Fogus; catastrophe green at Fogus

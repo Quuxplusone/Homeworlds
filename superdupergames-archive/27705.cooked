@@ -1,0 +1,48 @@
+Endo (0, b1y3) g3-
+Wil (1, r2y1) -b3
+build g1 at Endo
+convert b3 to g3 at Wil
+convert g1 to b1 at Endo
+build g1 at Wil
+move b1 from Endo to Ring (g2)
+move g1 from Wil to B3 (b3)
+build b1 at Ring
+build g1 at B3
+build b2 at Ring
+build g1 at Wil
+convert b2 to y2 at Ring
+build g2 at B3
+build b2 at Ring
+convert g2 to r2 at B3
+build g2 at Endo
+convert g1 to y1 at B3
+convert b2 to r2 at Ring
+build g1 at Wil
+build b2 at Ring
+build g2 at B3
+sacrifice g3 at Endo; build g3 at Endo; build g3 at Endo; build r1 at Ring
+build r1 at B3
+move r2 from Ring to Module (b3)
+move g2 from B3 to B2 (b2)
+move g3 from Endo to B2
+move g1 from Wil to B3
+sacrifice r1 at Ring; capture g2 at B2
+move g1 from B3 to B2
+convert g2 to y2 at B2
+build g2 at B2
+sacrifice y2 at Ring; move y2 from B2 to Module; move g3 from B2 to B3
+sacrifice g1 at B2; build g1 at B3
+sacrifice g3 at B3; build y1 at Module; build y2 at Module; build r1 at Module
+sacrifice g3 at Wil; build g3 at Wil; build g3 at B2; build y2 at B3
+sacrifice y2 at Module; move g2 from Endo to Ring; move g2 from Ring to Monoid (b3)
+move y1 from B3 to B2
+convert g3 to r3 at Endo
+move g3 from B2 to Monoid
+sacrifice g2 at Monoid; build r1 at Module; build r3 at Endo
+sacrifice g3 at Wil; build g2 at Monoid; build g3 at Wil; build g3 at B2
+convert b2 to y2 at Ring
+sacrifice g3 at Wil; build g3 at Wil; build y3 at B2; build y3 at B3
+sacrifice y2 at Ring; move r1 from Module to Wil; move r1 from Module to Wil
+sacrifice y2 at B3; move r1 from B3 to B2; move r1 from B2 to Endo
+move r2 from Module to Wil; catastrophe red at Wil
+sacrifice g1 at Wil; build r1 at Endo; catastrophe red at Endo

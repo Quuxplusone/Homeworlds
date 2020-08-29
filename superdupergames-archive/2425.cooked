@@ -1,0 +1,32 @@
+Uglyfoot (0, y1b2) g3-
+Andylooney (1, g2b3) -y3
+build g1 at Uglyfoot
+build y1 at Andylooney
+move g1 from Uglyfoot to Omega (b3)
+convert y1 to g1 at Andylooney
+build g1 at Uglyfoot
+build g2 at Andylooney
+convert g1 to y1 at Uglyfoot
+move g2 from Andylooney to Different (y1)
+build y2 at Uglyfoot
+build y2 at Andylooney
+convert y2 to b2 at Uglyfoot
+build y2 at Andylooney
+build y2 at Uglyfoot
+move y2 from Andylooney to Gumby (g1)
+build g2 at Uglyfoot
+build g3 at Different
+build g3 at Omega
+sacrifice g3 at Different; build g3 at Different; build y3 at Andylooney; build y3 at Gumby
+move y1 from Uglyfoot to Omega
+convert y2 to r2 at Andylooney
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build y2 at Omega; build b1 at Uglyfoot
+sacrifice y2 at Gumby; move y3 from Gumby to Omega; move y3 from Omega to Uglyfoot
+convert g3 to r3 at Omega
+sacrifice r2 at Andylooney; capture g3 at Uglyfoot; capture g2 at Uglyfoot
+sacrifice y2 at Omega; move r3 from Omega to Different; move r3 from Different to Andylooney
+convert g3 to r3 at Uglyfoot
+capture g1 at Andylooney
+sacrifice r3 at Uglyfoot; capture y2 at Uglyfoot; capture r3 at Andylooney; capture g1 at Andylooney
+move y1 from Omega to Uglyfoot; catastrophe yellow at Uglyfoot
+sacrifice r3 at Andylooney; capture b2 at Uglyfoot; capture b1 at Uglyfoot

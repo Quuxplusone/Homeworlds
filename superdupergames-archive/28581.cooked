@@ -1,0 +1,51 @@
+Wil (0, y3b1) g3-
+Danielaurence (1, r2b1) -g3
+build g1 at Wil
+build g1 at Danielaurence
+convert g1 to b1 at Wil
+convert g1 to y1 at Danielaurence
+build b2 at Wil
+build y1 at Danielaurence
+move b2 from Wil to G2 (g2)
+build g1 at Danielaurence
+build b2 at Wil
+move g1 from Danielaurence to B3 (b3)
+convert b2 to r2 at Wil
+build g1 at B3
+build b2 at G2
+convert g3 to b3 at Danielaurence
+convert b2 to y2 at G2
+convert y1 to g1 at Danielaurence
+build g2 at Wil
+build g2 at Danielaurence
+build g3 at Wil
+build g3 at Danielaurence
+sacrifice g3 at Wil; build b2 at Wil; build b2 at G2; build b3 at G2
+build g3 at B3
+convert b3 to y3 at G2
+convert g3 to y3 at Danielaurence
+sacrifice y2 at G2; move g2 from Wil to G2; move g2 from G2 to B3; catastrophe green at B3
+move b3 from Danielaurence to Forest (g3)
+move b2 from G2 to Forest
+convert b3 to r3 at Forest
+convert b2 to r2 at Forest
+capture r2 at Forest
+build b2 at G2
+move y1 from Danielaurence to Forest
+move b1 from Wil to Y2 (y2)
+move r2 from Forest to Y2
+sacrifice g3 at Wil; build b3 at Wil; build b3 at Y2; build b3 at G2
+move r3 from Forest to Y2
+sacrifice r2 at Wil; capture r3 at Y2; capture r2 at Y2
+build y1 at Forest
+convert b3 to g3 at Wil
+convert g1 to r1 at Danielaurence
+move b3 from Y2 to Forest
+sacrifice y1 at Forest; move y1 from Forest to Danielaurence
+sacrifice y3 at G2; move b3 from G2 to Forest; move b3 from Forest to Danielaurence; move b3 from Forest to Danielaurence
+convert y3 to b3 at Danielaurence; catastrophe blue at Danielaurence
+move g3 from Wil to Danielaurence
+build g1 at Danielaurence
+sacrifice r3 at Y2; capture g2 at Danielaurence; capture g1 at Danielaurence; capture r1 at Danielaurence
+pass
+capture y1 at Danielaurence

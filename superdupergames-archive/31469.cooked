@@ -1,0 +1,67 @@
+Dlwillson (0, b3y1) g3-
+Twoshort (1, r1b2) -g3
+build g1 at Dlwillson
+build g1 at Twoshort
+convert g1 to r1 at Dlwillson
+convert g1 to y1 at Twoshort
+build r1 at Dlwillson
+build y1 at Twoshort
+build r2 at Dlwillson
+build y2 at Twoshort
+convert r2 to y2 at Dlwillson
+move y1 from Twoshort to Grogar (g3)
+move y2 from Dlwillson to Field (g2)
+convert y2 to r2 at Twoshort
+build y2 at Field
+build y2 at Grogar
+move y2 from Field to Goldensun (y3)
+sacrifice g3 at Twoshort; build y3 at Grogar; build y3 at Twoshort; build r2 at Twoshort
+move y2 from Field to Grogar; catastrophe yellow at Grogar
+convert r2 to g2 at Twoshort
+move r1 from Dlwillson to Sky (b2)
+move r2 from Twoshort to Grogar (g3)
+build r2 at Dlwillson
+move y1 from Twoshort to Grogar
+move r1 from Dlwillson to Sol (y2)
+build y1 at Twoshort
+sacrifice g3 at Dlwillson; build r2 at Sol; build r3 at Sky; build r3 at Dlwillson
+sacrifice g2 at Twoshort; build y2 at Grogar; build y3 at Grogar
+move r2 from Sol to Field (g3)
+convert y3 to g3 at Twoshort
+convert r3 to y3 at Sky
+build r3 at Grogar
+move y3 from Sky to Grogar; catastrophe yellow at Grogar
+build y1 at Twoshort
+build r3 at Field
+move y1 from Twoshort to Grogar
+sacrifice y2 at Goldensun; move r1 from Sky to Grogar; move r1 from Sol to Grogar; catastrophe red at Grogar
+build y2 at Twoshort
+convert r2 to g2 at Dlwillson
+build y2 at Grogar
+build r1 at Dlwillson
+convert y2 to r2 at Twoshort
+convert r1 to b1 at Dlwillson
+build y2 at Twoshort
+sacrifice b1 at Dlwillson; convert r2 to b2 at Field
+move y1 from Twoshort to Bluestar (b3)
+build r1 at Field
+sacrifice g3 at Twoshort; build y2 at Bluestar; build y3 at Bluestar; build y3 at Twoshort
+convert r3 to y3 at Field
+convert y1 to b1 at Bluestar
+build r1 at Field
+sacrifice y2 at Grogar; move b1 from Bluestar to Yolonda (y2); move r2 from Twoshort to Grogar
+move r1 from Field to Sol (y1)
+build r2 at Grogar
+build r2 at Dlwillson
+move r2 from Grogar to Yolonda
+convert r3 to g3 at Dlwillson
+build r3 at Grogar
+build r3 at Field
+move r2 from Grogar to Borbor (b2)
+sacrifice g2 at Dlwillson; build r3 at Sol; build g1 at Dlwillson
+convert r2 to g2 at Borbor
+move y3 from Field to Borbor
+sacrifice g2 at Borbor; build b1 at Yolonda; build b1 at Yolonda
+move r3 from Sol to Yolonda
+sacrifice y3 at Bluestar; move b1 from Yolonda to Dlwillson; move b1 from Yolonda to Dlwillson; move b1 from Yolonda to Dlwillson; catastrophe blue at Dlwillson
+convert r3 to y3 at Field

@@ -1,0 +1,78 @@
+Felix (0, b2r3) g3-
+Trydnt (1, b2y1) -g3
+build g1 at Felix
+build g1 at Trydnt
+convert g1 to y1 at Felix
+convert g1 to y1 at Trydnt
+build y2 at Felix
+build y2 at Trydnt
+move y1 from Felix to Out (g1)
+move y1 from Trydnt to G3 (g3)
+build y2 at Out
+build y3 at G3
+build y3 at Felix
+move y1 from G3 to G2 (g2)
+move y1 from Out to Intrepid (y3)
+convert y2 to r2 at Trydnt
+convert y2 to r2 at Felix
+build y2 at G2
+build y2 at Felix
+build g1 at Trydnt
+build g1 at Felix
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Felix
+build g1 at Trydnt
+move b1 from Felix to Out
+move b1 from Trydnt to G3
+build b1 at Out
+build b2 at G3
+move b1 from Out to Intrepid
+convert b1 to r1 at G3
+convert b1 to g1 at Intrepid
+move y3 from G3 to Out
+build g2 at Intrepid
+move g1 from Trydnt to Intrepid
+sacrifice y2 at Felix; move g1 from Intrepid to Trydnt; move g2 from Intrepid to Trydnt
+convert g3 to r3 at Trydnt
+convert g1 to r1 at Trydnt
+sacrifice r2 at Trydnt; capture r1 at Trydnt; capture g2 at Trydnt
+move y2 from Out to In (g3)
+build y2 at Out
+sacrifice y1 at Intrepid; move b1 from Out to In
+move y3 from Out to In
+sacrifice y2 at In; move y3 from Felix to Out; move y3 from Out to G3
+sacrifice r1 at G3; capture b1 at In
+sacrifice r2 at Felix; capture b2 at G3
+move y2 from G2 to G3
+convert y3 to r3 at G3
+move y2 from G3 to Y1 (y1)
+convert b2 to y2 at G3
+build y3 at Out
+build r1 at G3
+sacrifice g1 at Intrepid; build y3 at G2
+move r1 from G3 to Trydnt
+sacrifice r1 at Trydnt; capture r1 at Trydnt
+build g1 at Felix
+move r1 from Trydnt to In
+convert g1 to b1 at Felix
+build g1 at Trydnt
+move r3 from G3 to Y1
+move y2 from Y1 to In
+build g1 at Felix
+build g2 at Trydnt
+sacrifice y2 at G3; move b1 from Felix to Y1; move g1 from Felix to Y1
+sacrifice g2 at Trydnt; build y2 at In; build r1 at In
+build b1 at Y1
+build b2 at In
+move b1 from Y1 to Grinch (g3)
+sacrifice b1 at In; convert y3 to b3 at Out
+convert g3 to y3 at Felix
+move y1 from G2 to Grinch
+build g2 at Y1
+build g3 at Trydnt
+sacrifice g2 at Y1; build b1 at Y1; build b3 at Grinch
+move y1 from Grinch to Out
+move g1 from Y1 to Walter (b3)
+sacrifice y3 at In; move y3 from G2 to Out; move y3 from Out to Felix; move y1 from Out to Felix
+sacrifice y3 at Felix; move g1 from Walter to Trydnt; move b3 from Grinch to Trydnt; move r3 from Y1 to Felix; catastrophe green at Trydnt
+sacrifice r1 at In; capture r3 at Felix

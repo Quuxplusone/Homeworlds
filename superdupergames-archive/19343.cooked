@@ -1,0 +1,16 @@
+Dreskyn (0, r2b1) g3-
+Silenttitan (1, b2r3) -g3
+build g1 at Dreskyn
+build g1 at Silenttitan
+convert g1 to y1 at Dreskyn
+convert g1 to y1 at Silenttitan
+build g1 at Dreskyn
+build g1 at Silenttitan
+move y1 from Dreskyn to Alpha (g3)
+convert g1 to b1 at Silenttitan
+build y1 at Alpha
+build y2 at Silenttitan
+build y2 at Alpha
+sacrifice y2 at Silenttitan; move y1 from Silenttitan to Poof (g1); move y1 from Poof to Alpha; catastrophe yellow at Alpha
+build g1 at Dreskyn
+build b1 at Silenttitan

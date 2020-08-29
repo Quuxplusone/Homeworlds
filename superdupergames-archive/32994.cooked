@@ -1,0 +1,103 @@
+Felix (0, b2r3) g3-
+Babamots (1, b2r1) -g3
+build g1 at Felix
+build g1 at Babamots
+convert g1 to y1 at Felix
+build g1 at Babamots
+build y1 at Felix
+convert g1 to y1 at Babamots
+move y1 from Felix to Bazoik (g1)
+build y2 at Babamots
+sacrifice g3 at Felix; build y2 at Bazoik; build y2 at Felix; build y3 at Felix
+move y1 from Babamots to Cardassia (b3)
+sacrifice y1 at Felix; move y2 from Bazoik to Cardassia
+sacrifice g3 at Babamots; build y1 at Cardassia; build y3 at Cardassia; build y3 at Babamots; catastrophe yellow at Cardassia
+convert y3 to g3 at Felix
+build g1 at Babamots
+build y1 at Bazoik
+move g1 from Babamots to Cardassia (b3)
+move y1 from Bazoik to Cardassia
+convert y3 to g3 at Babamots
+build y1 at Bazoik
+move y2 from Babamots to Cardassia
+sacrifice g3 at Felix; build y2 at Cardassia; build y3 at Felix; build y3 at Felix
+convert y2 to r2 at Cardassia
+sacrifice y2 at Cardassia; move y3 from Felix to Bazoik; move y3 from Bazoik to Cardassia
+capture y1 at Cardassia
+convert y2 to r2 at Felix
+sacrifice y1 at Cardassia; move r2 from Cardassia to Bazoik
+sacrifice y1 at Bazoik; move y1 from Bazoik to Flemoid (g3)
+build g2 at Babamots
+sacrifice r2 at Felix; capture g1 at Cardassia
+convert g2 to y2 at Babamots
+build g2 at Cardassia
+move g1 from Babamots to Ferenginar (b3)
+convert g1 to r1 at Cardassia
+build g1 at Babamots
+build g2 at Cardassia
+sacrifice g3 at Babamots; build g2 at Ferenginar; build g3 at Ferenginar; build g3 at Babamots
+move g2 from Cardassia to Babamots
+convert g1 to b1 at Babamots
+sacrifice g2 at Cardassia; build g1 at Babamots; build g2 at Babamots; catastrophe green at Babamots
+sacrifice y2 at Babamots; move g3 from Ferenginar to Babamots; move g1 from Ferenginar to Bazoik
+move y3 from Cardassia to Bazoik
+sacrifice g2 at Ferenginar; build g1 at Bazoik; build g2 at Bazoik; catastrophe green at Bazoik
+build y1 at Flemoid
+build g1 at Babamots
+convert y3 to g3 at Felix
+convert g1 to y1 at Babamots
+move y1 from Flemoid to Raggar (g1)
+build y2 at Babamots
+build y2 at Raggar
+move y1 from Babamots to Galorndon (b3)
+move y2 from Raggar to Felix
+convert b1 to r1 at Babamots
+sacrifice g3 at Felix; build y2 at Flemoid; build y3 at Raggar; build y3 at Felix
+build y3 at Babamots
+sacrifice y2 at Felix; move y1 from Flemoid to Babamots; move y2 from Flemoid to Babamots; catastrophe yellow at Babamots
+build g1 at Babamots
+move y1 from Raggar to Felix
+build g1 at Babamots
+convert y3 to g3 at Felix
+convert g1 to y1 at Babamots
+build y2 at Raggar
+build y2 at Babamots
+move y2 from Raggar to Cardassia
+move g1 from Babamots to Vulcan (y3)
+sacrifice g3 at Felix; build y2 at Cardassia; build y3 at Felix; build r2 at Cardassia
+move r1 from Babamots to Vulcan
+convert y1 to g1 at Felix
+build r2 at Vulcan
+build g2 at Felix
+build g2 at Babamots
+convert y2 to g2 at Cardassia
+sacrifice g3 at Babamots; build g3 at Vulcan; build g3 at Babamots; build y1 at Galorndon
+build g3 at Cardassia
+move g2 from Babamots to Cardassia
+sacrifice y2 at Cardassia; move g3 from Cardassia to Babamots; move g2 from Cardassia to Babamots
+sacrifice r2 at Vulcan; capture g3 at Babamots; capture g2 at Babamots
+sacrifice y3 at Raggar; move g1 from Felix to Raggar (g1); move g1 from Raggar to Cardassia; move g1 from Cardassia to Babamots; catastrophe green at Babamots
+sacrifice r1 at Vulcan; capture r2 at Cardassia
+build y2 at Felix
+capture r1 at Cardassia
+move y2 from Felix to Glorfindel (g1)
+convert y1 to g1 at Babamots
+build y1 at Glorfindel
+sacrifice y2 at Babamots; move y1 from Galorndon to Glorfindel; move y1 from Galorndon to Glorfindel; catastrophe yellow at Glorfindel
+build g1 at Felix
+move g3 from Vulcan to Babamots
+move g2 from Felix to Glimdark (b1)
+move g1 from Vulcan to Betazed (b1)
+build y1 at Felix
+convert r1 to y1 at Cardassia
+convert y1 to r1 at Felix
+move r2 from Cardassia to Iconia (b1)
+build y1 at Felix
+move y1 from Cardassia to Iconia
+move y1 from Felix to Glimdark
+move y1 from Iconia to Brekka (g3)
+move g2 from Glimdark to Rimworld (y3)
+sacrifice g3 at Babamots; build g2 at Cardassia; build g3 at Babamots; build g3 at Betazed
+move g1 from Felix to Glimdark
+convert g1 to r1 at Betazed
+sacrifice y3 at Felix; move g1 from Glimdark to Rimworld; move g1 from Rimworld to Babamots; move g2 from Rimworld to Babamots; catastrophe green at Babamots

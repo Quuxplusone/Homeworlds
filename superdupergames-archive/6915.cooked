@@ -1,0 +1,31 @@
+Jesse (0, y3b1) g3-
+Personman (1, y2b1) -g3
+build g1 at Jesse
+build g1 at Personman
+convert g1 to b1 at Jesse
+convert g1 to y1 at Personman
+build b2 at Jesse
+build y1 at Personman
+move b2 from Jesse to Wens (g2)
+move y1 from Personman to G3A (g3)
+build b2 at Wens
+move y1 from G3A to Wens
+convert b2 to r2 at Wens
+move y1 from Wens to Jesse
+sacrifice r2 at Wens; capture y1 at Jesse
+build g1 at Personman
+build b2 at Wens
+build g1 at Personman
+convert b2 to y2 at Wens
+move g1 from Personman to B3A (b3)
+build b2 at Wens
+build g1 at B3A
+build g2 at Jesse
+convert g1 to y1 at B3A
+move b2 from Wens to Scrim (g3)
+sacrifice g3 at Personman; build g1 at B3A; build g2 at Personman; build g3 at Personman
+sacrifice g3 at Jesse; build b2 at Wens; build b3 at Scrim; build g3 at Jesse
+sacrifice g3 at Personman; build y2 at Personman; build y3 at B3A; build g3 at Personman
+convert b3 to r3 at Scrim
+sacrifice y2 at Personman; move y1 from B3A to Temp (r2); move y1 from Temp to Jesse
+sacrifice y1 at Jesse; move r3 from Scrim to Personman

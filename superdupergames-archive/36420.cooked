@@ -1,0 +1,55 @@
+Deanthebean (0, y1b2) g3-
+Goulo (1, y1b3) -g3
+build g1 at Deanthebean
+build g1 at Goulo
+convert g1 to y1 at Deanthebean
+convert g3 to y3 at Goulo
+build y2 at Deanthebean
+build y2 at Goulo
+convert y2 to r2 at Deanthebean
+convert y2 to r2 at Goulo
+build y2 at Deanthebean
+build y2 at Goulo
+move y1 from Deanthebean to G3 (g3)
+move y2 from Goulo to Verdo (g2)
+build r1 at Deanthebean
+build r1 at Goulo
+convert r1 to b1 at Deanthebean
+move r1 from Goulo to Verdo
+build r1 at Deanthebean
+build r1 at Goulo
+build g1 at Deanthebean
+build r2 at Verdo
+move r2 from Deanthebean to G3
+convert r1 to b1 at Goulo
+build y2 at G3
+build y3 at Verdo
+move y2 from G3 to Verdo
+sacrifice y2 at Verdo; move r2 from Verdo to Verdeto (g1); move r1 from Verdo to Flavego (y3)
+move y2 from Verdo to Goulo
+convert y3 to g3 at Goulo
+sacrifice g3 at Deanthebean; build y2 at Goulo; build y3 at Deanthebean; build g2 at Deanthebean
+sacrifice r2 at Verdeto; capture y2 at Goulo; capture y2 at Goulo
+sacrifice y2 at Deanthebean; move y1 from G3 to Transient (r2); move y1 from Transient to Goulo; catastrophe yellow at Goulo
+convert g1 to y1 at Goulo
+build g1 at Deanthebean
+move y3 from Verdo to Goulo
+convert y3 to r3 at Deanthebean
+build g1 at Goulo
+move g1 from Deanthebean to Goulo
+sacrifice g3 at Goulo; build r1 at Flavego; build r2 at Flavego; build r3 at Goulo
+move r1 from Deanthebean to Flavego; catastrophe red at Flavego
+capture g1 at Goulo
+move g2 from Deanthebean to B3 (b3)
+move g1 from Goulo to Flavo (y2)
+build g2 at B3
+build g2 at Flavo
+build g3 at Deanthebean
+build g3 at Flavo
+convert g2 to y2 at B3
+move g3 from Flavo to G3
+sacrifice g3 at Deanthebean; build g2 at B3; build g3 at Deanthebean; build y1 at B3
+sacrifice r2 at Goulo; capture r2 at G3
+convert g2 to b2 at B3
+build g2 at Goulo
+move b1 from Deanthebean to Goulo

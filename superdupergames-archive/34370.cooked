@@ -1,0 +1,8 @@
+Tetsuhari (0, y2g3) b3-
+Draw5Playall (1, b3r1) -g3
+build b1 at Tetsuhari
+build g1 at Draw5Playall
+move b1 from Tetsuhari to Greenone (g1)
+build g1 at Draw5Playall
+build b1 at Greenone
+convert g1 to y1 at Draw5Playall

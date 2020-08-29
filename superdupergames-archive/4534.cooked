@@ -1,0 +1,47 @@
+Keith (0, b1y2) g3-
+Zoltar (1, b1r3) -g3
+build g1 at Keith
+build g1 at Zoltar
+move g1 from Keith to Hydra (y3)
+convert g1 to y1 at Zoltar
+build g1 at Keith
+build y1 at Zoltar
+convert g1 to b1 at Keith
+move y1 from Zoltar to Greenbelt (g2)
+build b2 at Keith
+build y1 at Greenbelt
+move b1 from Keith to Hydra
+move y1 from Greenbelt to Blueridge (b3)
+build g1 at Keith
+build y2 at Greenbelt
+move b2 from Keith to Drift (y3)
+build g1 at Zoltar
+convert g1 to r1 at Keith
+convert g1 to r1 at Zoltar
+build b2 at Hydra
+build y2 at Zoltar
+sacrifice g3 at Keith; build b2 at Drift; build b3 at Drift; build b3 at Hydra
+build y3 at Greenbelt
+move b3 from Drift to Keith
+build r1 at Zoltar
+sacrifice b3 at Hydra; convert b2 to r2 at Hydra; convert b2 to r2 at Drift; convert b3 to g3 at Keith
+move r1 from Zoltar to Greenbelt
+sacrifice g3 at Keith; build r2 at Drift; build r3 at Hydra; build r3 at Keith
+build g1 at Zoltar
+build b2 at Hydra
+move g1 from Zoltar to Greenbelt
+sacrifice b2 at Hydra; convert r2 to g2 at Hydra; convert r2 to g2 at Drift
+build r2 at Zoltar
+move g2 from Drift to Greenbelt
+sacrifice y2 at Greenbelt; move r1 from Greenbelt to Blueridge; move r1 from Zoltar to Desperation (b2)
+sacrifice g2 at Hydra; build b2 at Hydra; build g1 at Greenbelt; catastrophe green at Greenbelt
+sacrifice g3 at Zoltar; build y1 at Zoltar; build y2 at Blueridge; build y3 at Blueridge
+convert r3 to b3 at Keith
+move y3 from Blueridge to Desperation
+sacrifice g1 at Hydra; build b3 at Drift
+convert r2 to g2 at Zoltar
+move b2 from Drift to Ghaaa (g2)
+move r1 from Desperation to Zoltar
+move r2 from Drift to Ghaaa
+build r2 at Zoltar
+sacrifice b3 at Drift; convert r3 to y3 at Hydra

@@ -1,0 +1,59 @@
+Mathgod (0, r1b2) g3-
+Alexcobo (1, g3b2) -y3
+build g1 at Mathgod
+build y1 at Alexcobo
+convert g1 to y1 at Mathgod
+convert y1 to r1 at Alexcobo
+build g1 at Mathgod
+build y1 at Alexcobo
+convert g1 to r1 at Mathgod
+build r2 at Alexcobo
+move r1 from Mathgod to Greenee (g3)
+build r2 at Alexcobo
+build g1 at Mathgod
+move r2 from Alexcobo to Azure (b1)
+build g1 at Mathgod
+convert y1 to g1 at Alexcobo
+move g1 from Mathgod to Rendilee (r3)
+build y1 at Alexcobo
+move g1 from Mathgod to Belleeflop (r3)
+build g2 at Alexcobo
+build g2 at Mathgod
+sacrifice g1 at Alexcobo; build r2 at Azure
+build r3 at Greenee
+convert r2 to y2 at Alexcobo
+convert g2 to y2 at Mathgod
+convert r2 to y2 at Azure
+build g1 at Mathgod
+build g2 at Alexcobo
+sacrifice y2 at Mathgod; move g1 from Belleeflop to Azure; move g1 from Azure to Alexcobo; catastrophe green at Alexcobo
+move y2 from Alexcobo to Green (g3)
+build g1 at Mathgod
+convert y2 to g2 at Azure
+move g1 from Mathgod to Yellowee (y3)
+build g2 at Azure
+build g2 at Yellowee
+build y1 at Green
+build y2 at Mathgod
+build r2 at Azure
+move y1 from Mathgod to Greenee
+convert r2 to b2 at Azure
+sacrifice g3 at Mathgod; build g3 at Mathgod; build y2 at Greenee; build y3 at Mathgod
+sacrifice y1 at Alexcobo; move r2 from Azure to Rendilee
+sacrifice y1 at Greenee; move g1 from Rendilee to Azure
+convert g2 to r2 at Azure
+sacrifice g3 at Mathgod; build g2 at Mathgod; build g3 at Azure; build y1 at Greenee
+sacrifice g2 at Azure; build r2 at Rendilee; build r3 at Alexcobo
+convert g1 to b1 at Mathgod
+capture g1 at Azure
+sacrifice r3 at Greenee; capture b2 at Azure; capture g1 at Azure; capture r2 at Azure
+convert r1 to g1 at Alexcobo
+sacrifice g2 at Yellowee; build r1 at Azure; build r3 at Greenee
+build g2 at Alexcobo
+move b1 from Mathgod to Greenee
+build y1 at Alexcobo
+move y2 from Greenee to Azure
+sacrifice y2 at Green; move r2 from Rendilee to Alexcobo; move r2 from Alexcobo to Yellowee
+sacrifice g3 at Azure; build g2 at Mathgod; build g3 at Azure; build b1 at Greenee
+capture g1 at Yellowee
+sacrifice y3 at Mathgod; move b1 from Greenee to Alexcobo; move b1 from Greenee to Alexcobo; move b2 from Azure to Alexcobo; catastrophe blue at Alexcobo

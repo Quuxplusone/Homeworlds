@@ -1,0 +1,36 @@
+Alnith (0, b2r1) g3-
+Bhorner (1, r3b1) -g3
+build g1 at Alnith
+build g1 at Bhorner
+convert g1 to y1 at Alnith
+convert g1 to y1 at Bhorner
+build g1 at Alnith
+build g1 at Bhorner
+convert g1 to r1 at Alnith
+convert g1 to r1 at Bhorner
+build g1 at Alnith
+build r2 at Bhorner
+build r2 at Alnith
+move r2 from Bhorner to Boogar (g2)
+move r2 from Alnith to Qonos (g3)
+build g1 at Bhorner
+convert r1 to b1 at Alnith
+convert g1 to b1 at Bhorner
+move b1 from Alnith to Qonos
+build b2 at Bhorner
+build b2 at Qonos
+move b1 from Bhorner to Sun (y2)
+convert b1 to y1 at Qonos
+build y2 at Bhorner
+move r2 from Qonos to Sun
+move b1 from Sun to Nova (y3)
+move g1 from Alnith to Qonos
+move y1 from Bhorner to Tree (g2)
+build y2 at Qonos
+sacrifice g3 at Bhorner; build y3 at Bhorner; build y3 at Tree; build r1 at Boogar
+move g1 from Qonos to Sun
+move y2 from Bhorner to Boogar
+move b2 from Qonos to Sun
+convert b1 to g1 at Nova
+move r2 from Sun to Bhorner
+capture r2 at Bhorner

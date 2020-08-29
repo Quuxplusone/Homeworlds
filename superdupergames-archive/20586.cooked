@@ -1,0 +1,71 @@
+Twoshort (0, r1b3) g3-
+Ajo (1, y3b2) -g3
+build g1 at Twoshort
+build g1 at Ajo
+convert g1 to y1 at Twoshort
+convert g1 to r1 at Ajo
+build y1 at Twoshort
+build r1 at Ajo
+build y1 at Twoshort
+build r2 at Ajo
+move y1 from Twoshort to Grogar (g2)
+move r2 from Ajo to Alpha (b1)
+build y2 at Twoshort
+sacrifice g3 at Ajo; build r2 at Alpha; build r2 at Alpha; build r3 at Ajo
+move y1 from Twoshort to Yellonia (y2)
+convert r3 to g3 at Ajo
+sacrifice g3 at Twoshort; build y2 at Yellonia; build y3 at Twoshort; build y3 at Grogar
+build r3 at Ajo
+move y2 from Yellonia to Greenland (g1)
+move r3 from Ajo to Greenland
+move y2 from Greenland to Bluestar (b3)
+build r3 at Ajo
+convert y1 to g1 at Twoshort
+convert r1 to y1 at Ajo
+convert y3 to r3 at Twoshort
+sacrifice y1 at Ajo; move r2 from Alpha to Bluestar
+sacrifice y2 at Bluestar; move y3 from Grogar to Alpha; move y1 from Grogar to Yolonda (y3)
+convert r2 to y2 at Bluestar
+move y1 from Yolonda to Yoyodyne (y1)
+move y2 from Bluestar to Greenland
+build y3 at Twoshort
+build r1 at Greenland
+sacrifice r3 at Twoshort; capture r2 at Alpha; capture r2 at Alpha
+convert r3 to b3 at Ajo
+build g1 at Twoshort
+build g2 at Ajo
+convert g1 to b1 at Twoshort
+move b3 from Ajo to Yoyodyne
+move y1 from Yoyodyne to Bluonia (b2)
+move b3 from Yoyodyne to Yellonia
+move y1 from Yellonia to Grogar (g1)
+sacrifice g2 at Ajo; build b1 at Yellonia; build g2 at Ajo
+build g2 at Twoshort
+move b3 from Yellonia to Grogar
+move y1 from Grogar to Rover (r2)
+build r3 at Ajo
+move r2 from Alpha to Yellonia
+sacrifice y2 at Greenland; move r3 from Greenland to Bluonia; move b3 from Grogar to Yellonia
+sacrifice y3 at Alpha; move g2 from Twoshort to Yolonda (y2); move r2 from Yellonia to Yonderboy (y3); move y1 from Bluonia to Yoyodyne (y1)
+move b3 from Yellonia to Twoshort
+capture b3 at Twoshort
+move b1 from Yellonia to Twoshort; catastrophe blue at Twoshort
+sacrifice g2 at Yolonda; build y2 at Rover; build y2 at Twoshort
+move g2 from Ajo to Yoyodyne
+move y1 from Yoyodyne to Yonderboy
+build r3 at Greenland
+convert r2 to b2 at Alpha
+convert r3 to g3 at Bluonia
+sacrifice b2 at Alpha; convert y2 to g2 at Rover; convert g1 to b1 at Twoshort
+build g1 at Bluonia
+build y2 at Rover
+convert g1 to b1 at Bluonia
+sacrifice g2 at Rover; build b1 at Twoshort; build b2 at Twoshort
+sacrifice b1 at Bluonia; convert r3 to b3 at Greenland
+move b1 from Twoshort to Ajo
+move r1 from Ajo to Twoshort
+capture r1 at Twoshort
+move g2 from Yoyodyne to Rover
+capture g2 at Rover
+move r3 from Ajo to Twoshort
+sacrifice r1 at Twoshort; capture r3 at Twoshort

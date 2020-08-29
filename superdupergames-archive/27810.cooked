@@ -1,0 +1,6 @@
+Mandrel (0, r1b2) g3-
+Simon (1, b3y1) -g3
+build g1 at Mandrel
+build g1 at Simon
+convert g1 to y1 at Mandrel
+convert g1 to r1 at Simon

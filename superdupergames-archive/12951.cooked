@@ -1,0 +1,6 @@
+Pam (0, y1b2) g3-
+Ts52 (1, b1y3) -g3
+build g1 at Pam
+build g1 at Ts52
+build g1 at Pam
+move g1 from Ts52 to Grover (b2)

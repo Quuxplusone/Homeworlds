@@ -1,0 +1,36 @@
+Madwuher (0, b1r2) g3-
+Twoshort (1, b1g3) -b3
+build g1 at Madwuher
+build b1 at Twoshort
+build g1 at Madwuher
+convert b3 to y3 at Twoshort
+convert g1 to y1 at Madwuher
+build b2 at Twoshort
+build y1 at Madwuher
+move b1 from Twoshort to Grogar (g2)
+move y1 from Madwuher to Gimble (g3)
+build b2 at Twoshort
+convert g1 to r1 at Madwuher
+build b2 at Grogar
+build y1 at Gimble
+build b3 at Grogar
+build g1 at Madwuher
+move b2 from Twoshort to Yellonia (y2)
+move g1 from Madwuher to Bluto (b3)
+build b3 at Twoshort
+build g1 at Madwuher
+sacrifice b2 at Twoshort; convert b2 to r2 at Grogar; convert b3 to y3 at Grogar
+build y2 at Madwuher
+build b2 at Grogar
+convert y2 to b2 at Madwuher
+build b3 at Grogar
+build g1 at Bluto
+move b3 from Grogar to Gimble
+sacrifice g3 at Madwuher; build g2 at Madwuher; build g2 at Bluto; build g3 at Madwuher
+sacrifice y3 at Twoshort; move y3 from Grogar to Gimble; move b3 from Gimble to Madwuher; move y3 from Gimble to Madwuher
+sacrifice g3 at Madwuher; build g3 at Madwuher; build y2 at Madwuher; build y2 at Madwuher; catastrophe yellow at Madwuher
+sacrifice r2 at Grogar; capture g3 at Madwuher; capture b2 at Madwuher
+capture b2 at Madwuher
+sacrifice b2 at Grogar; convert b3 to r3 at Madwuher; convert g3 to y3 at Madwuher
+sacrifice g2 at Bluto; build g2 at Bluto; build r1 at Madwuher; catastrophe red at Madwuher
+sacrifice y3 at Madwuher; move b1 from Grogar to Madwuher; move b2 from Yellonia to Madwuher; catastrophe blue at Madwuher

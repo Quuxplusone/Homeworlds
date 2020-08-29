@@ -1,0 +1,83 @@
+Lexicon (0, b3r2) g3-
+Mikeyarrum (1, y3b1) -g3
+build g1 at Lexicon
+build g1 at Mikeyarrum
+convert g1 to y1 at Lexicon
+move g1 from Mikeyarrum to Kagu (y2)
+build g1 at Lexicon
+build g1 at Mikeyarrum
+build g2 at Lexicon
+build g2 at Kagu
+move g2 from Lexicon to Nature (y1)
+move g1 from Kagu to Tomo (b1)
+sacrifice g3 at Lexicon; build g2 at Lexicon; build g3 at Nature; build g3 at Lexicon
+convert g1 to r1 at Mikeyarrum
+move g2 from Nature to Science (b2)
+build r1 at Mikeyarrum
+sacrifice g2 at Lexicon; build g1 at Science; build g2 at Science
+move r1 from Mikeyarrum to Science
+convert g2 to r2 at Science
+capture g1 at Science
+capture r1 at Science
+convert g1 to r1 at Science
+sacrifice g3 at Lexicon; build g1 at Nature; build g2 at Science; build g3 at Lexicon
+build r2 at Mikeyarrum
+convert r2 to y2 at Science
+capture r1 at Science
+sacrifice g3 at Nature; build g3 at Nature; build y1 at Science; build y2 at Science
+capture y1 at Science
+sacrifice y2 at Science; move g2 from Science to Mikeyarrum; move g2 from Science to Mikeyarrum
+convert g3 to b3 at Mikeyarrum
+convert g2 to b2 at Mikeyarrum
+sacrifice r2 at Mikeyarrum; capture g2 at Mikeyarrum; capture b2 at Mikeyarrum
+move g3 from Nature to Cell (y2)
+move b2 from Mikeyarrum to Science
+sacrifice g3 at Lexicon; build g2 at Cell; build g3 at Lexicon; build g3 at Nature
+build r2 at Mikeyarrum
+sacrifice g3 at Lexicon; build g3 at Lexicon; build y3 at Lexicon; build y3 at Science
+capture y2 at Science
+convert g1 to b1 at Lexicon
+move b2 from Science to Tomo
+sacrifice b1 at Lexicon; convert g3 to b3 at Cell
+convert b2 to r2 at Tomo
+sacrifice g3 at Nature; build g1 at Lexicon; build g3 at Cell; build b1 at Cell
+build g3 at Kagu
+move b1 from Cell to Mikeyarrum
+move b3 from Mikeyarrum to Science
+sacrifice g1 at Nature; build y1 at Science; catastrophe yellow at Science
+convert b3 to y3 at Science
+sacrifice g2 at Cell; build b2 at Mikeyarrum; build b2 at Mikeyarrum; catastrophe blue at Mikeyarrum
+sacrifice g3 at Kagu; build g1 at Kagu; build g2 at Tomo; build g3 at Mikeyarrum
+convert g3 to r3 at Cell
+move r1 from Science to Chiyo (y1)
+sacrifice g3 at Lexicon; build g3 at Lexicon; build r3 at Cell; build y1 at Lexicon
+convert g2 to y2 at Tomo
+move y1 from Lexicon to Plos (b1)
+sacrifice g3 at Mikeyarrum; build g2 at Kagu; build g3 at Tomo; build g3 at Mikeyarrum
+move r3 from Cell to Chiyo
+sacrifice y3 at Science; move g1 from Kagu to Tomo; move g1 from Tomo to Lexicon; move g1 from Tomo to Lexicon; catastrophe green at Lexicon
+convert b3 to g3 at Cell
+build r3 at Tomo
+build g1 at Cell
+build y3 at Tomo
+move g3 from Cell to Mikeyarrum
+capture g3 at Mikeyarrum
+move g1 from Cell to Mikeyarrum; catastrophe green at Mikeyarrum
+move g3 from Tomo to Mikeyarrum
+convert y3 to g3 at Lexicon
+move r1 from Chiyo to Lexicon
+build y3 at Lexicon
+sacrifice y3 at Tomo; move r2 from Tomo to Lexicon; move r3 from Tomo to Lexicon; move r1 from Science to Plos; catastrophe red at Lexicon
+sacrifice g3 at Lexicon; build y3 at Plos; build r1 at Cell; build r2 at Chiyo
+move g2 from Kagu to Koneko (b1)
+sacrifice r1 at Cell; capture r1 at Plos
+build g1 at Koneko
+move r3 from Chiyo to Mikeyarrum
+capture r3 at Mikeyarrum
+move r2 from Chiyo to Mikeyarrum; catastrophe red at Mikeyarrum
+convert g2 to r2 at Koneko
+move r3 from Cell to Tomo
+build r1 at Koneko
+capture y2 at Tomo
+convert r2 to y2 at Koneko
+sacrifice y3 at Lexicon; move y1 from Plos to Mikeyarrum; move y3 from Plos to Mikeyarrum; move y2 from Tomo to Mikeyarrum; catastrophe yellow at Mikeyarrum

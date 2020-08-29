@@ -1,0 +1,20 @@
+Jeep (0, b1g2) y3-
+Twoshort (1, b1y3) -g3
+build y1 at Jeep
+build g1 at Twoshort
+convert y1 to g1 at Jeep
+convert g1 to b1 at Twoshort
+build g1 at Jeep
+build b2 at Twoshort
+move g1 from Jeep to Giant (y3)
+move b1 from Twoshort to Yolonda (y2)
+build y1 at Jeep
+sacrifice g3 at Twoshort; build b2 at Yolonda; build b2 at Yolonda; build b3 at Twoshort
+convert y3 to b3 at Jeep
+convert b3 to y3 at Twoshort
+convert g1 to r1 at Jeep
+move b2 from Yolonda to Grogar (g3)
+convert b3 to g3 at Jeep
+build b3 at Grogar
+move y1 from Jeep to Jolly (g3)
+build b3 at Grogar

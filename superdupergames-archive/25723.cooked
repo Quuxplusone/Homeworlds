@@ -1,0 +1,52 @@
+Wil (0, b2r1) g3-
+Fogus (1, b3y2) -g3
+build g1 at Wil
+build g1 at Fogus
+convert g1 to r1 at Wil
+build g1 at Fogus
+build r1 at Wil
+convert g1 to y1 at Fogus
+convert r1 to y1 at Wil
+convert g1 to r1 at Fogus
+build r2 at Wil
+build r2 at Fogus
+move r2 from Wil to G3 (g3)
+build g1 at Fogus
+build r2 at G3
+build r3 at Fogus
+build r3 at Wil
+move r1 from Fogus to Timmy (y1)
+convert r1 to b1 at Wil
+move g3 from Fogus to Timmy
+build b1 at Wil
+build y2 at Fogus
+build y2 at Wil
+move y2 from Fogus to Pickle (b1)
+build y3 at Wil
+convert y1 to g1 at Fogus
+sacrifice y2 at Wil; move y1 from Wil to G3; move b1 from Wil to G3
+move y2 from Pickle to Goo (b2)
+convert r3 to y3 at Wil
+build g1 at Timmy
+move r2 from G3 to B1 (b1)
+move r2 from Fogus to Hit (y1)
+sacrifice g3 at Wil; build b2 at G3; build b3 at G3; build b3 at Wil
+build g2 at Fogus
+sacrifice b2 at G3; convert b3 to y3 at G3; convert b3 to g3 at Wil
+move y2 from Goo to Timmy
+build g2 at Wil
+convert g2 to b2 at Fogus
+sacrifice g3 at Wil; build y2 at Wil; build b2 at G3; build b3 at Wil
+move g1 from Timmy to Nil (b3)
+sacrifice y3 at Wil; move y2 from Wil to G3; move y2 from G3 to Timmy; move y1 from G3 to Timmy; catastrophe yellow at Timmy
+build g2 at Nil
+convert b3 to g3 at Wil
+convert b2 to y2 at Fogus
+sacrifice g3 at Wil; build b2 at Wil; build b3 at G3; build r1 at B1
+move g1 from Fogus to Hit
+convert b3 to y3 at G3
+convert r3 to g3 at Fogus
+convert y3 to g3 at Wil
+sacrifice y2 at Fogus; move g1 from Nil to Wil; move g2 from Nil to Wil; catastrophe green at Wil
+sacrifice b2 at G3; convert r1 to g1 at B1; convert r2 to g2 at G3
+build g2 at Hit

@@ -1,0 +1,54 @@
+Disaac (0, y3b2) g3-
+Onii77 (1, b3r1) -g3
+build g1 at Disaac
+build g1 at Onii77
+move g1 from Disaac to Ba (b1)
+convert g1 to y1 at Onii77
+build g1 at Disaac
+build g1 at Onii77
+convert g1 to y1 at Disaac
+move g1 from Onii77 to Wall (b2)
+build g1 at Disaac
+convert g1 to r1 at Wall
+convert g1 to r1 at Disaac
+build g1 at Onii77
+build r2 at Disaac
+move g1 from Onii77 to Wall
+move r2 from Disaac to Ba
+build r2 at Wall
+sacrifice g3 at Disaac; build r2 at Disaac; build r3 at Disaac; build r3 at Ba
+convert r2 to y2 at Wall
+move r2 from Disaac to Ga (g1)
+build g2 at Wall
+convert r3 to g3 at Disaac
+build r2 at Wall
+sacrifice g3 at Disaac; build r3 at Ga; build r3 at Disaac; build g2 at Ba
+sacrifice y2 at Wall; move r1 from Wall to Ba; move r2 from Wall to Ba; catastrophe red at Ba
+sacrifice g2 at Ba; build y1 at Disaac; build g2 at Ba
+convert g2 to b2 at Wall
+move y1 from Disaac to Ga
+build g2 at Wall
+move r2 from Ga to Wall
+sacrifice g2 at Wall; build y2 at Onii77; build y2 at Onii77
+sacrifice g2 at Ba; build y2 at Ga; build y3 at Disaac
+sacrifice y2 at Onii77; move g1 from Wall to Ba; move b2 from Wall to Ba
+sacrifice y3 at Disaac; move r3 from Ga to Wall; move r2 from Wall to Onii77; move r3 from Wall to Onii77
+capture r3 at Onii77
+sacrifice g1 at Ba; build r1 at Onii77; catastrophe red at Onii77
+convert y2 to r2 at Onii77
+convert y1 to b1 at Disaac
+move r2 from Onii77 to Ga
+sacrifice r1 at Disaac; capture r2 at Ga
+convert g1 to r1 at Ba
+move b1 from Disaac to Ga
+convert b2 to r2 at Ba
+move y1 from Ga to Disaac
+build g1 at Onii77
+convert y1 to g1 at Disaac
+move g1 from Onii77 to Ba
+build g2 at Disaac
+convert g3 to y3 at Onii77
+sacrifice g2 at Disaac; build b1 at Ga; build b2 at Ga
+build g2 at Ba
+move b1 from Ga to Onii77
+sacrifice y3 at Onii77; move r2 from Ba to Disaac; move r1 from Ba to Disaac; move g2 from Ba to Disaac

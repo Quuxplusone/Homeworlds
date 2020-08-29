@@ -1,0 +1,78 @@
+Personman (0, b2y1) g3-
+Antihero (1, b3y2) -g3
+build g1 at Personman
+build g1 at Antihero
+move g1 from Personman to B3A (b3)
+move g1 from Antihero to Y1A (y1)
+build g1 at Personman
+build g2 at Antihero
+build g2 at B3A
+move g1 from Y1A to Y3A (y3)
+convert g1 to y1 at Personman
+convert g2 to y2 at Antihero
+convert g2 to y2 at B3A
+build g1 at Y3A
+convert y2 to r2 at B3A
+convert y2 to r2 at Antihero
+build g2 at B3A
+build g2 at Antihero
+build y1 at Personman
+convert g2 to y2 at Antihero
+move y1 from Personman to G3A (g3)
+build g2 at Antihero
+build y2 at Personman
+move y2 from Antihero to B1A (b1)
+build y3 at G3A
+sacrifice g1 at Y3A; build y3 at B1A
+convert y1 to r1 at Personman
+move y3 from B1A to B3A
+sacrifice y2 at Personman; move r2 from B3A to Y1A (y1); move g2 from B3A to Y1A
+move g2 from Antihero to B1A
+build r1 at Personman
+move g2 from B1A to B3A
+convert r1 to b1 at Personman
+build y2 at B3A
+move y3 from G3A to B1A
+move y2 from B1A to G3A
+move y3 from B1A to G3A
+sacrifice g1 at Y3A; build y3 at G3A; catastrophe yellow at G3A
+move b1 from Personman to B3A
+move y3 from B3A to Y1A
+sacrifice g2 at Y1A; build b1 at B3A; build b1 at B3A; catastrophe blue at B3A
+sacrifice r2 at Antihero; capture r2 at Y1A
+build g1 at Personman
+build g1 at Antihero
+build r1 at Personman
+convert g1 to b1 at Antihero
+convert r1 to y1 at Personman
+move b1 from Antihero to Y1A
+build y2 at Personman
+build g1 at Antihero
+move y1 from Personman to G3A (g3)
+move r2 from Y1A to G3A
+move y1 from G3A to G2A (g2)
+move y3 from Y1A to G3A
+build r1 at Personman
+move b1 from Y1A to G2B (g2)
+move r1 from Personman to B3A (b3)
+build b1 at G2B
+convert r1 to g1 at B3A
+convert b1 to y1 at G2B
+sacrifice g3 at Personman; build g2 at B3A; build y2 at G2A; build g3 at Personman
+sacrifice g3 at Antihero; build g3 at Antihero; build y3 at G2B; build y3 at G3A
+sacrifice y2 at Personman; move y2 from G2A to G3A; move y1 from G2A to G3A; catastrophe yellow at G3A
+build g2 at Antihero
+convert g2 to y2 at B3A
+convert g1 to r1 at Antihero
+build y1 at B3A
+move y3 from G2B to G3A
+move y1 from B3A to G1A (g1)
+sacrifice g3 at Antihero; build g2 at Antihero; build y2 at G2B; build y3 at G3A
+sacrifice g3 at Personman; build g3 at Personman; build g3 at B3A; build y3 at B3A
+sacrifice b1 at G2B; convert y3 to r3 at G3A
+sacrifice y2 at B3A; move g1 from B3A to G1A; move g1 from G1A to Antihero
+sacrifice y2 at G2B; move y3 from G3A to Personman; move r3 from G3A to Personman
+capture r3 at Personman
+sacrifice r2 at G3A; capture g3 at Personman; capture r3 at Personman
+sacrifice g3 at B3A; build g3 at Personman; build r1 at Personman; build r2 at Personman; catastrophe red at Personman
+convert y3 to g3 at Personman; catastrophe green at Personman

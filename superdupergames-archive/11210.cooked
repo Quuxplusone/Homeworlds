@@ -1,0 +1,22 @@
+Iwilson (0, y3b2) g3-
+Danner (1, r1b2) -g3
+build g1 at Iwilson
+build g1 at Danner
+convert g1 to r1 at Iwilson
+convert g1 to r1 at Danner
+build g1 at Iwilson
+build r2 at Danner
+build r2 at Iwilson
+convert r1 to y1 at Danner
+convert r2 to y2 at Iwilson
+build y1 at Danner
+build g1 at Iwilson
+build g1 at Danner
+build g2 at Iwilson
+build g2 at Danner; catastrophe green at Iwilson
+convert y2 to g2 at Iwilson
+move y1 from Danner to Earth (g3)
+build r1 at Iwilson
+build r2 at Danner
+build r2 at Iwilson
+convert r2 to y2 at Danner

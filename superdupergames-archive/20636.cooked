@@ -1,0 +1,52 @@
+Guntz1092 (0, y3b2) g3-
+Silenttitan (1, r2b1) -g3
+build g1 at Guntz1092
+build g1 at Silenttitan
+move g1 from Guntz1092 to Zonde1 (y1)
+convert g1 to y1 at Silenttitan
+build g1 at Zonde1
+build y1 at Silenttitan
+build g1 at Guntz1092
+move y1 from Silenttitan to Sol (g3)
+convert g1 to b1 at Guntz1092
+build y2 at Silenttitan
+move b1 from Guntz1092 to Zonde1
+move y2 from Silenttitan to Circle (b3)
+move g1 from Zonde1 to Circle
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Circle; build y3 at Silenttitan
+build g1 at Guntz1092
+build y3 at Sol
+build g2 at Guntz1092
+convert y2 to g2 at Circle
+convert g2 to y2 at Guntz1092
+sacrifice y2 at Sol; move y1 from Sol to Zonde1; move y1 from Zonde1 to Guntz1092
+convert y2 to r2 at Guntz1092
+convert g2 to r2 at Circle
+capture y1 at Guntz1092
+convert y3 to g3 at Silenttitan
+build g2 at Zonde1
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Circle; build y3 at Silenttitan
+sacrifice g3 at Guntz1092; build g2 at Guntz1092; build g2 at Zonde1; build g3 at Circle
+sacrifice y3 at Sol; move y2 from Circle to Mars (r1); move r2 from Circle to Mars; move y2 from Circle to Zonde1
+sacrifice y1 at Guntz1092; move g2 from Zonde1 to Circle
+sacrifice r2 at Mars; capture g2 at Zonde1; capture g1 at Zonde1
+convert g3 to y3 at Circle
+convert y3 to g3 at Silenttitan
+move g1 from Guntz1092 to Zonde1
+sacrifice g2 at Zonde1; build y1 at Sol; build y3 at Silenttitan
+build g2 at Guntz1092
+convert g3 to r3 at Silenttitan
+build g3 at Zonde1
+build g3 at Zonde1; catastrophe green at Zonde1
+move g2 from Circle to Gifoie (r2)
+sacrifice y2 at Sol; move r3 from Silenttitan to Sol; move r3 from Sol to Zonde1
+build y2 at Circle
+convert y3 to g3 at Silenttitan
+move y2 from Circle to Silenttitan
+build y3 at Silenttitan
+move y3 from Circle to Silenttitan
+sacrifice y3 at Silenttitan; move y2 from Mars to Guntz1092; move y2 from Zonde1 to Guntz1092; move y1 from Sol to Silenttitan; catastrophe yellow at Silenttitan
+capture y2 at Guntz1092
+sacrifice r3 at Zonde1; capture r2 at Guntz1092; capture g2 at Guntz1092; capture g2 at Guntz1092
+move b1 from Zonde1 to Guntz1092
+sacrifice r2 at Guntz1092; capture y2 at Guntz1092; capture b1 at Guntz1092

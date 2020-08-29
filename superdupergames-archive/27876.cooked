@@ -1,0 +1,55 @@
+Wil (0, b3y1) g3-
+Mcowper (1, r2b1) -g3
+build g1 at Wil
+build g1 at Mcowper
+convert g1 to b1 at Wil
+convert g1 to y1 at Mcowper
+build b1 at Wil
+build g1 at Mcowper
+move b1 from Wil to G2 (g2)
+move g1 from Mcowper to Heinlein (b3)
+build b2 at G2
+build g1 at Mcowper
+build b2 at Wil
+move g1 from Mcowper to Asimov (b3)
+build b2 at G2
+build g1 at Mcowper
+sacrifice b2 at Wil; convert b2 to y2 at G2; convert b2 to r2 at G2
+sacrifice g3 at Mcowper; build g2 at Heinlein; build g2 at Asimov; build g3 at Mcowper
+build g3 at Wil
+sacrifice g3 at Mcowper; build g3 at Mcowper; build y1 at Mcowper; build y2 at Mcowper
+move r2 from G2 to Asimov
+sacrifice y2 at Mcowper; move g1 from Asimov to Clarke (b2); move g2 from Asimov to Williamson (b2)
+sacrifice g3 at Wil; build g3 at Wil; build r1 at Asimov; build y2 at G2
+move y1 from Mcowper to Heinlein
+move y2 from G2 to Heinlein
+sacrifice g3 at Mcowper; build y2 at Mcowper; build y3 at Heinlein; build g3 at Mcowper
+sacrifice g3 at Wil; build g3 at Wil; build y3 at Heinlein; build y3 at G2; catastrophe yellow at Heinlein
+sacrifice y2 at Mcowper; move g1 from Clarke to Wil; move g2 from Williamson to Wil; catastrophe green at Wil
+move y2 from G2 to Heinlein
+convert g2 to r2 at Heinlein
+sacrifice r2 at Asimov; capture r2 at Heinlein; capture g1 at Heinlein
+build y1 at Mcowper
+build g1 at Heinlein
+move g1 from Mcowper to Niven (g3)
+build g2 at Heinlein
+move y1 from Mcowper to Niven
+move y3 from G2 to Niven
+sacrifice g3 at Mcowper; build y2 at Niven; build y2 at Niven; build y3 at Mcowper; catastrophe yellow at Niven
+move g1 from Heinlein to Y2 (y2)
+convert y3 to r3 at Mcowper
+sacrifice y2 at Heinlein; move r2 from Heinlein to Mcowper; move r1 from Asimov to Mcowper; catastrophe red at Mcowper
+sacrifice g1 at Niven; build y1 at Mcowper
+convert g2 to r2 at Heinlein
+convert y1 to g1 at Mcowper
+build g2 at Heinlein
+build y1 at Mcowper
+build b2 at G2
+build y2 at Mcowper
+convert b2 to y2 at G2
+convert y2 to r2 at Mcowper
+build b2 at G2
+build y2 at Mcowper
+build y3 at G2
+build g2 at Mcowper
+build b2 at G2

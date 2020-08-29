@@ -1,0 +1,19 @@
+Laurie_Menke (0, y3b1) g3-
+Wil (1, g2b1) -b3
+build g1 at Laurie_Menke
+build b1 at Wil
+move g1 from Laurie_Menke to Gotone (b2)
+convert b3 to y3 at Wil
+build g1 at Laurie_Menke
+build b2 at Wil
+build g1 at Gotone
+move b2 from Wil to G3 (g3)
+build g2 at Laurie_Menke
+build b2 at G3
+build g2 at Gotone
+build y1 at Wil
+move g2 from Laurie_Menke to Yeller (y2)
+build b3 at G3
+build g3 at Yeller
+convert b3 to r3 at G3
+convert g2 to y2 at Gotone

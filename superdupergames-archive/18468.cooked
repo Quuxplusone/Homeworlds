@@ -1,0 +1,30 @@
+Dlwillson (0, b3y1) g3-
+Lorgar (1, g1y2) -b3
+build g1 at Dlwillson
+build b1 at Lorgar
+build g1 at Dlwillson
+build b1 at Lorgar
+convert g1 to b1 at Dlwillson
+convert b1 to g1 at Lorgar
+build g2 at Dlwillson
+build g2 at Lorgar
+convert g2 to y2 at Dlwillson
+convert g2 to y2 at Lorgar
+build y1 at Dlwillson
+build g2 at Lorgar
+move y1 from Dlwillson to Knuckles (g2)
+move g2 from Lorgar to Rome (b3)
+sacrifice g3 at Dlwillson; build y1 at Knuckles; build y3 at Knuckles; build y3 at Dlwillson
+move y2 from Lorgar to Rome
+move y1 from Knuckles to Knees (y3)
+convert b1 to r1 at Lorgar
+sacrifice b1 at Dlwillson; convert y1 to r1 at Knuckles
+build y1 at Rome
+convert y3 to g3 at Dlwillson
+convert y1 to r1 at Rome
+move y3 from Knuckles to Rome
+convert g2 to r2 at Rome
+build g2 at Dlwillson
+convert r1 to y1 at Rome
+sacrifice g2 at Dlwillson; build y3 at Knees; build g2 at Dlwillson
+sacrifice y2 at Rome; move y1 from Rome to Knuckles; move y1 from Knuckles to Knees; catastrophe yellow at Knees

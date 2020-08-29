@@ -1,0 +1,19 @@
+Babamots (0, b3r1) g3-
+Skullnbones12 (1, g3r1) -y3
+build g1 at Babamots
+build y1 at Skullnbones12
+convert g1 to r1 at Babamots
+build y1 at Skullnbones12
+build r2 at Babamots
+move y1 from Skullnbones12 to Apex (b2)
+convert r2 to y2 at Babamots
+convert y1 to g1 at Apex
+build r2 at Babamots
+build g1 at Apex
+move r2 from Babamots to Apex
+build g1 at Apex
+capture g1 at Apex
+build g2 at Apex; catastrophe green at Apex
+build r2 at Babamots
+build y1 at Skullnbones12
+move r2 from Babamots to Aldea (y2)

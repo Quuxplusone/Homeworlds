@@ -1,0 +1,33 @@
+Jeep (0, b1y2) g3-
+Geepamoogle (1, y3b1) -g3
+build g1 at Jeep
+build g1 at Geepamoogle
+convert g1 to b1 at Jeep
+convert g3 to b3 at Geepamoogle
+build b2 at Jeep
+build b2 at Geepamoogle
+move b2 from Jeep to Ribbon (y3)
+convert b3 to g3 at Geepamoogle
+sacrifice g3 at Jeep; build b2 at Ribbon; build b3 at Ribbon; build b3 at Jeep
+build b3 at Geepamoogle
+sacrifice b2 at Ribbon; convert b3 to g3 at Jeep; convert b3 to y3 at Ribbon
+convert b2 to y2 at Geepamoogle
+sacrifice g3 at Jeep; build b2 at Ribbon; build b2 at Ribbon; build b3 at Jeep
+move b3 from Geepamoogle to Gaia (g2)
+sacrifice b2 at Ribbon; convert b3 to g3 at Jeep; convert b2 to r2 at Ribbon
+build b2 at Gaia
+build g1 at Jeep
+convert b2 to y2 at Gaia
+move g1 from Jeep to Ribbon
+build y1 at Geepamoogle
+build g1 at Jeep
+move g1 from Geepamoogle to Gaia
+build b2 at Ribbon
+build y1 at Gaia
+move y3 from Ribbon to Stage (g2)
+move y1 from Geepamoogle to Gaia
+sacrifice g3 at Jeep; build g2 at Ribbon; build g3 at Jeep; build y1 at Stage
+build g3 at Geepamoogle
+move y3 from Stage to Geepamoogle
+convert y2 to r2 at Geepamoogle
+sacrifice r2 at Ribbon; capture r2 at Geepamoogle; capture g3 at Geepamoogle

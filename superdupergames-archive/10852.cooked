@@ -1,0 +1,18 @@
+Mikeyarrum (0, y1b2) g3-
+Inundator (1, y3b2) -g3
+build g1 at Mikeyarrum
+build g1 at Inundator
+move g1 from Mikeyarrum to Asagi (y3)
+convert g1 to r1 at Inundator
+build g1 at Mikeyarrum
+move r1 from Inundator to Tiny (y1)
+convert g1 to y1 at Mikeyarrum
+move r1 from Tiny to Asagi
+move g1 from Asagi to Ena (r1)
+build g1 at Inundator
+build y1 at Mikeyarrum
+move r1 from Asagi to Mikeyarrum
+convert y1 to r1 at Mikeyarrum
+capture r1 at Mikeyarrum
+move y1 from Mikeyarrum to Asagi (r3)
+convert r1 to g1 at Mikeyarrum

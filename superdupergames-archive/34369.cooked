@@ -1,0 +1,28 @@
+Remneb (0, b1r2) g3-
+Draw5Playall (1, b1g2) -b3
+build g1 at Remneb
+build b1 at Draw5Playall
+convert g1 to y1 at Remneb
+convert b3 to y3 at Draw5Playall
+build g1 at Remneb
+build b2 at Draw5Playall
+build y1 at Remneb
+move b2 from Draw5Playall to Keeper (g3)
+move y1 from Remneb to Thor (g3)
+build b2 at Keeper
+move g1 from Remneb to Gort (y3)
+build b2 at Draw5Playall
+build g1 at Gort
+build b3 at Keeper
+build g1 at Remneb
+convert b3 to r3 at Keeper
+convert g1 to r1 at Remneb
+build b3 at Keeper
+build g1 at Remneb
+convert b3 to y3 at Keeper
+sacrifice g3 at Remneb; build g2 at Remneb; build g2 at Gort; build g3 at Remneb
+convert b2 to r2 at Keeper
+convert g2 to b2 at Remneb
+sacrifice y3 at Keeper; move b1 from Draw5Playall to Keeper; move b1 from Keeper to Remneb; move b2 from Keeper to Remneb; catastrophe blue at Remneb
+build g2 at Remneb
+sacrifice y3 at Draw5Playall; move r2 from Keeper to Remneb; move r3 from Keeper to Remneb; catastrophe red at Remneb

@@ -1,0 +1,47 @@
+Cerulean (0, b2y1) g3-
+Unic (1, r1b3) -g3
+build g1 at Cerulean
+build g1 at Unic
+move g1 from Cerulean to Wythrii (y3)
+convert g1 to y1 at Unic
+build g1 at Cerulean
+build y1 at Unic
+convert g3 to y3 at Cerulean
+build y2 at Unic
+build y2 at Cerulean
+move y1 from Unic to Amani (g2)
+convert y2 to r2 at Cerulean
+convert y2 to r2 at Unic
+build y2 at Cerulean
+build y2 at Amani
+move y2 from Cerulean to Wythrii
+move y1 from Amani to Barumba (g3)
+build g1 at Wythrii
+build y2 at Barumba
+convert y3 to g3 at Cerulean
+sacrifice g3 at Unic; build y3 at Barumba; build y3 at Unic; build r1 at Unic
+build g2 at Wythrii
+move y1 from Barumba to Cerulean
+convert g1 to r1 at Cerulean
+move y3 from Barumba to Cerulean
+capture y3 at Cerulean
+move y2 from Barumba to Cerulean; catastrophe yellow at Cerulean
+sacrifice y2 at Wythrii; move g1 from Wythrii to Cerulean; move r1 from Cerulean to Unic; catastrophe red at Unic
+convert y1 to r1 at Unic
+sacrifice g3 at Cerulean; build g1 at Cerulean; build g2 at Wythrii; build g3 at Cerulean
+convert y3 to g3 at Unic
+convert g3 to y3 at Cerulean
+build g3 at Unic
+move g1 from Wythrii to Wywun (y1)
+convert g3 to y3 at Unic
+build g3 at Wywun
+move y2 from Amani to Frz (g3)
+convert g1 to b1 at Cerulean
+build g1 at Unic
+build g2 at Cerulean
+sacrifice g3 at Unic; build g3 at Unic; build y1 at Unic; build y1 at Frz
+move b1 from Cerulean to Wywun
+convert y1 to b1 at Unic
+convert g1 to b1 at Cerulean
+move b1 from Unic to Wywun
+sacrifice y3 at Cerulean; move b1 from Wywun to Unic; move b1 from Cerulean to Unic; move g1 from Wywun to Unic

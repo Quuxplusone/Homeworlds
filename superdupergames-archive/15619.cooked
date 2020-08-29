@@ -1,0 +1,79 @@
+Ts52 (0, b1y2) g3-
+Mathochist (1, b1g3) -b3
+build g1 at Ts52
+build b1 at Mathochist
+convert g3 to b3 at Ts52
+convert b3 to y3 at Mathochist
+build b2 at Ts52
+build b2 at Mathochist
+convert b3 to g3 at Ts52
+move b1 from Mathochist to Frito (g2)
+move b2 from Ts52 to Kermit (g3)
+build y1 at Mathochist
+convert g1 to y1 at Ts52
+move y1 from Mathochist to Frito
+move y1 from Ts52 to Kermit
+convert b2 to r2 at Mathochist
+build g1 at Ts52
+build b2 at Frito
+convert g1 to r1 at Ts52
+convert b1 to r1 at Frito
+build g1 at Ts52
+move y1 from Frito to Dorito (b3)
+move g1 from Ts52 to Bigbird (y3)
+build b1 at Frito
+build g1 at Ts52
+convert b1 to y1 at Frito
+build y2 at Kermit
+build y2 at Frito
+move y2 from Kermit to Robin (g2)
+build y3 at Mathochist
+sacrifice g1 at Bigbird; build y3 at Kermit
+move y3 from Mathochist to Robin
+move y2 from Robin to Dorito
+move y3 from Robin to Kermit
+move y3 from Kermit to Frito
+move r1 from Frito to Kermit
+convert y2 to r2 at Dorito
+convert y2 to r2 at Frito
+sacrifice r1 at Ts52; capture r2 at Frito
+sacrifice r1 at Kermit; capture r2 at Frito
+capture y1 at Dorito
+move b2 from Frito to Kermit
+sacrifice r2 at Dorito; capture r2 at Frito; capture b2 at Kermit
+build r1 at Mathochist
+build r1 at Frito
+build y2 at Mathochist
+move g1 from Ts52 to Dorito
+sacrifice r2 at Mathochist; capture b2 at Kermit; capture b2 at Kermit
+build y2 at Kermit
+build b1 at Kermit
+sacrifice r2 at Frito; capture b2 at Kermit; capture b2 at Kermit
+build b2 at Kermit; catastrophe blue at Kermit
+capture y1 at Frito
+move y2 from Mathochist to Frito
+capture y2 at Frito
+move y3 from Kermit to Frito; catastrophe yellow at Frito
+build g1 at Dorito
+build y1 at Mathochist
+move y1 from Kermit to Frito
+move y1 from Mathochist to Waldo (g2)
+build g1 at Ts52
+build y2 at Mathochist
+sacrifice g3 at Ts52; build g2 at Ts52; build y3 at Dorito; build y3 at Kermit
+convert y3 to g3 at Mathochist
+build y3 at Frito
+build r1 at Mathochist
+move y3 from Kermit to Ts52
+move g3 from Mathochist to Cheeto (r2)
+move y3 from Frito to Mathochist
+move y2 from Mathochist to Cheeto
+sacrifice r1 at Frito; capture r1 at Mathochist
+capture r1 at Mathochist
+convert y3 to r3 at Mathochist
+move y1 from Waldo to Mathochist
+build y3 at Frito
+build r1 at Mathochist; catastrophe red at Mathochist
+sacrifice y2 at Kermit; move y1 from Frito to Mathochist; move y3 from Frito to Mathochist
+move g3 from Cheeto to Mathochist
+convert y3 to r3 at Mathochist

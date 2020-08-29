@@ -1,0 +1,35 @@
+Simon (0, g3r1) b3-
+Goulo (1, g1b2) -y3
+build b1 at Simon
+build y1 at Goulo
+build b1 at Simon
+build y1 at Goulo
+convert b3 to y3 at Simon
+convert y1 to r1 at Goulo
+build b1 at Simon
+build r1 at Goulo
+move b1 from Simon to G2 (g2)
+move r1 from Goulo to Flavego (y3)
+build b2 at G2
+build r2 at Goulo
+convert b2 to r2 at G2
+build y1 at Goulo
+build b2 at G2
+convert r1 to g1 at Goulo
+build b2 at Simon
+move y1 from Goulo to Verdego (g3)
+build b3 at G2
+build y1 at Verdego
+convert b2 to y2 at G2
+convert r2 to b2 at Goulo
+build b3 at G2
+move b2 from Goulo to Verdego
+move b3 from G2 to Verdego
+sacrifice y1 at Verdego; move b2 from Verdego to Flavo (y2)
+build b3 at Verdego
+move b2 from Flavo to Simon; catastrophe blue at Simon
+convert b3 to r3 at Verdego
+move y1 from Verdego to Verdo (g2)
+sacrifice y2 at G2; move b3 from Verdego to Goulo; move r3 from Verdego to Goulo
+sacrifice r1 at Flavego; capture r3 at Goulo
+sacrifice r2 at G2; capture r3 at Goulo; capture y3 at Goulo

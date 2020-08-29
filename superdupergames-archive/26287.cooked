@@ -1,0 +1,48 @@
+Dsabremaster (0, y3g1) b3-
+Wil (1, b3y2) -g3
+build b1 at Dsabremaster
+build g1 at Wil
+move b1 from Dsabremaster to Gamma (g2)
+build g1 at Wil
+build b1 at Gamma
+move g1 from Wil to Y1 (y1)
+build b1 at Dsabremaster
+build g2 at Y1
+convert b1 to y1 at Gamma
+build g2 at Wil
+build b1 at Gamma
+move g1 from Y1 to Gamma
+move b1 from Gamma to Y1
+convert g3 to r3 at Wil
+move b1 from Gamma to Aspire (g3)
+sacrifice r3 at Wil; capture y1 at Gamma; capture b1 at Y1
+build b2 at Aspire
+build g3 at Wil
+convert b1 to r1 at Dsabremaster
+sacrifice g3 at Wil; build g3 at Wil; build g3 at Y1; build y1 at Gamma
+convert b2 to y2 at Aspire
+build y2 at Gamma
+move y2 from Aspire to Gamma; catastrophe yellow at Gamma
+convert g3 to y3 at Y1
+build b1 at Dsabremaster
+sacrifice g3 at Wil; build g3 at Wil; build g3 at Y1; build b2 at Y1
+build b2 at Aspire
+move b2 from Y1 to Y2 (y2)
+convert b3 to y3 at Dsabremaster
+sacrifice g3 at Y1; build b2 at Y1; build b3 at Y1; build b3 at Y2
+move r1 from Dsabremaster to Gamma
+sacrifice y3 at Y1; move g1 from Gamma to Dsabremaster; move b1 from Y1 to Aspire; move b2 from Y1 to Aspire; catastrophe blue at Aspire
+sacrifice r1 at Gamma; capture g1 at Dsabremaster
+convert g1 to r1 at Wil
+convert y3 to r3 at Dsabremaster
+convert g2 to y2 at Wil
+move g1 from Dsabremaster to Lagoon (b2)
+sacrifice b2 at Y2; convert b3 to g3 at Y2; convert g3 to r3 at Wil
+build r1 at Dsabremaster
+move b3 from Y1 to Y2
+build g1 at Lagoon
+sacrifice y2 at Wil; move g3 from Y2 to Dsabremaster; move b3 from Y2 to Dsabremaster
+capture g3 at Dsabremaster
+sacrifice r3 at Wil; capture r3 at Dsabremaster; capture r1 at Dsabremaster; capture g3 at Dsabremaster
+build b1 at Dsabremaster
+sacrifice r3 at Dsabremaster; capture b1 at Dsabremaster; capture b1 at Dsabremaster

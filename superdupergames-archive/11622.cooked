@@ -1,0 +1,41 @@
+Madwuher (0, r1b2) g3-
+Random56 (1, b3g1) -r3
+build g1 at Madwuher
+build r1 at Random56
+build g1 at Madwuher
+convert r1 to y1 at Random56
+convert g3 to y3 at Madwuher
+build y1 at Random56
+move g1 from Madwuher to Edora (b3)
+build y1 at Random56
+build y2 at Madwuher
+convert y1 to r1 at Random56
+build g2 at Edora
+build r1 at Random56
+sacrifice g2 at Edora; build g2 at Edora; build g2 at Madwuher
+move r3 from Random56 to Nephi (y2)
+convert y3 to r3 at Madwuher
+build r2 at Random56
+sacrifice g2 at Edora; build g2 at Edora; build g2 at Madwuher
+move r1 from Random56 to Alma (y2)
+move g2 from Madwuher to Bologna (y3)
+move r3 from Nephi to Bologna
+sacrifice g2 at Bologna; build g2 at Madwuher; build g3 at Edora
+move r1 from Alma to Edora
+convert g2 to r2 at Edora
+convert r2 to g2 at Random56
+convert g1 to y1 at Edora
+build g1 at Random56
+capture r1 at Edora
+move g1 from Random56 to Steve (y2)
+sacrifice y2 at Madwuher; move g2 from Madwuher to Yogurt (g3); move g2 from Madwuher to Raisin (g3)
+build r2 at Random56
+sacrifice g2 at Raisin; build g2 at Edora; build g3 at Madwuher
+move r1 from Random56 to Steve
+move g3 from Edora to Steve
+sacrifice g2 at Random56; build r2 at Steve; build r3 at Steve
+sacrifice r2 at Edora; capture r3 at Steve; capture r2 at Steve
+move r3 from Bologna to Steve; catastrophe red at Steve
+sacrifice g3 at Madwuher; build g2 at Edora; build g3 at Madwuher; build y2 at Edora
+build y2 at Random56
+move g3 from Steve to Random56

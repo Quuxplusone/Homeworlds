@@ -1,0 +1,40 @@
+Bhorner (0, b2y1) g3-
+Wil (1, r3b1) -g3
+build g1 at Bhorner
+build g1 at Wil
+move g1 from Bhorner to Blip (b3)
+convert g1 to y1 at Wil
+convert g1 to y1 at Blip
+build y2 at Wil
+build g1 at Bhorner
+build y2 at Wil
+sacrifice g1 at Bhorner; build y2 at Blip
+move y2 from Wil to G2 (g2)
+move y1 from Blip to G2
+convert y2 to r2 at Wil
+convert y2 to r2 at Blip
+build y2 at Wil
+build g1 at Bhorner
+move y1 from Wil to Geetoo (g2)
+move g1 from Bhorner to Doh (y3)
+sacrifice g3 at Wil; build y2 at G2; build y3 at Geetoo; build y3 at Wil
+move y1 from G2 to Spark (r1)
+convert y2 to g2 at Wil
+build g1 at Bhorner
+move y3 from Geetoo to Blip
+convert g1 to r1 at Bhorner
+move y2 from G2 to Doh
+move g1 from Doh to Tri (y2)
+build r1 at Wil
+sacrifice y1 at Spark; move r2 from Blip to Tri
+move r2 from Wil to Geetoo
+build g1 at Bhorner
+build y1 at G2
+move r1 from Bhorner to Doh
+move y3 from Blip to Tri
+sacrifice g3 at Bhorner; build r1 at Tri; build r2 at Tri; build r3 at Doh
+build r3 at Geetoo
+move r2 from Tri to Wil
+sacrifice y3 at Tri; move r3 from Geetoo to Doh; move r3 from Doh to Bhorner; move y2 from Doh to Bhorner
+move r1 from Tri to Wil; catastrophe red at Wil
+capture g1 at Bhorner

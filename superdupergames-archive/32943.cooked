@@ -1,0 +1,32 @@
+Redsang (0, b2r1) g3-
+Ts52 (1, y3b1) -g3
+build g1 at Redsang
+build g1 at Ts52
+convert g1 to y1 at Redsang
+convert g1 to r1 at Ts52
+build g1 at Redsang
+build r1 at Ts52
+convert g1 to b1 at Redsang
+build r2 at Ts52
+move b1 from Redsang to Portobello (y3)
+move r1 from Ts52 to Kermit (g2)
+build g1 at Redsang
+build g1 at Ts52
+build y1 at Redsang
+convert r2 to y2 at Ts52
+move y1 from Redsang to Portobello
+build r2 at Kermit
+move y1 from Portobello to Fili (r2)
+sacrifice g3 at Ts52; build r2 at Kermit; build r3 at Ts52; build r3 at Ts52
+build y1 at Redsang
+move y2 from Ts52 to Kermit
+convert y1 to b1 at Redsang
+convert r3 to b3 at Ts52
+move b1 from Redsang to Ali (r3)
+build r3 at Ts52
+build g1 at Redsang
+move r2 from Kermit to Ali
+build g2 at Redsang
+catastrophe green at Redsang; sacrifice y2 at Kermit; move r2 from Ali to Redsang; move r2 from Kermit to Ali
+convert y1 to g1 at Redsang
+capture g1 at Redsang

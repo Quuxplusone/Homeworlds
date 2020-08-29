@@ -1,0 +1,35 @@
+Ajo (0, b3r2) g3-
+Bhorner (1, r2b1) -g3
+build g1 at Ajo
+build g1 at Bhorner
+convert g1 to y1 at Ajo
+convert g1 to b1 at Bhorner
+build g1 at Ajo
+build b1 at Bhorner
+build g1 at Ajo
+build g1 at Bhorner
+build y1 at Ajo
+convert g1 to y1 at Bhorner
+build y2 at Ajo
+move b1 from Bhorner to Tree (g3)
+sacrifice y2 at Ajo; move y1 from Ajo to Beta (g1); move y1 from Beta to Alpha (b3)
+build y2 at Bhorner
+sacrifice g1 at Ajo; build y2 at Alpha
+move y1 from Bhorner to Tree
+convert y1 to g1 at Alpha
+build b2 at Tree
+build y1 at Alpha
+move b2 from Tree to Twig (g1)
+convert y2 to r2 at Alpha
+convert b1 to r1 at Bhorner
+build y2 at Alpha
+build g2 at Bhorner
+build r1 at Alpha
+move r1 from Bhorner to Tree
+sacrifice y2 at Alpha; move r2 from Alpha to Twig; move r2 from Twig to Tree
+sacrifice g2 at Bhorner; build r1 at Tree; build r3 at Tree; catastrophe red at Tree
+build y2 at Alpha
+convert b2 to r2 at Twig
+build g2 at Alpha
+build b1 at Tree
+sacrifice g3 at Ajo; build g2 at Ajo; build g2 at Alpha; build g3 at Ajo

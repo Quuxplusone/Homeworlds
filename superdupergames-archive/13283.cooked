@@ -1,0 +1,25 @@
+Agentofchaos (0, b2r3) g3-
+Mouce (1, y1b2) -g3
+build g1 at Agentofchaos
+build g1 at Mouce
+convert g1 to y1 at Agentofchaos
+build g1 at Mouce
+build y1 at Agentofchaos
+move g1 from Mouce to Crumbz (b3)
+build y2 at Agentofchaos
+build g1 at Crumbz
+move y2 from Agentofchaos to Ghost (b1)
+build g2 at Crumbz
+build g2 at Agentofchaos
+convert g2 to y2 at Crumbz
+move g2 from Agentofchaos to Ghost
+move g1 from Crumbz to Nibble (b1)
+sacrifice g2 at Ghost; build y2 at Agentofchaos; build y3 at Ghost
+build y3 at Crumbz
+convert y3 to r3 at Ghost
+convert g1 to r1 at Mouce
+convert y2 to g2 at Agentofchaos
+move y3 from Crumbz to Nibble
+move g2 from Agentofchaos to Ghost
+build g1 at Mouce
+build g2 at Agentofchaos

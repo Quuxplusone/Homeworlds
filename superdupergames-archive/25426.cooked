@@ -1,0 +1,8 @@
+Qwertyu63 (0, b1y2) g3-
+Wil (1, g3b1) -b3
+build g1 at Qwertyu63
+build b1 at Wil
+convert g1 to y1 at Qwertyu63
+convert b3 to y3 at Wil
+build y1 at Qwertyu63
+build b2 at Wil

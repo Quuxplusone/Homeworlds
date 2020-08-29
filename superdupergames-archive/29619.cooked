@@ -1,0 +1,21 @@
+Ts52 (0, b2y3) g3-
+Benr (1, b1y2) -g3
+build g1 at Ts52
+build g1 at Benr
+move g1 from Ts52 to Grover (b1)
+move g1 from Benr to Kermit (y3)
+build g1 at Ts52
+build g2 at Benr
+convert g1 to b1 at Ts52
+convert g2 to b2 at Benr
+move b1 from Ts52 to Oscar (g1)
+build g2 at Benr
+build g2 at Ts52
+move b2 from Benr to Kermit
+sacrifice g3 at Ts52; build g2 at Ts52; build g3 at Ts52; build g3 at Grover
+move g2 from Benr to Kermit
+convert g2 to y2 at Ts52
+sacrifice g2 at Kermit; build g2 at Kermit; build g2 at Benr
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Oscar; build b3 at Oscar
+sacrifice g2 at Kermit; build g2 at Benr; build b3 at Kermit
+sacrifice y2 at Ts52; move g1 from Grover to Kermit; move g1 from Kermit to Benr; catastrophe green at Benr

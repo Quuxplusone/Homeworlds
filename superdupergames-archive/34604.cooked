@@ -1,0 +1,62 @@
+Draw5Playall (0, b3r1) g3-
+Ajo (1, b2r1) -g3
+build g1 at Draw5Playall
+build g1 at Ajo
+convert g1 to r1 at Draw5Playall
+convert g3 to r3 at Ajo
+build r2 at Draw5Playall
+build r2 at Ajo
+convert r2 to y2 at Draw5Playall
+convert r3 to y3 at Ajo
+build r2 at Draw5Playall
+build r2 at Ajo
+move r2 from Draw5Playall to Lebling (g2)
+move r2 from Ajo to Alpha (g3)
+sacrifice g3 at Draw5Playall; build r3 at Draw5Playall; build r3 at Lebling; build r3 at Lebling
+build y1 at Ajo
+sacrifice y2 at Draw5Playall; move r1 from Draw5Playall to Whoa (b2); move r3 from Lebling to Wow (b3)
+move y1 from Ajo to Alpha
+convert r3 to g3 at Draw5Playall
+build r3 at Alpha
+build g1 at Draw5Playall
+move r2 from Alpha to Whoa
+convert g1 to y1 at Draw5Playall
+capture r1 at Whoa
+build g1 at Draw5Playall
+convert r1 to g1 at Whoa
+sacrifice g1 at Draw5Playall; build r1 at Wow
+build g1 at Whoa
+build y1 at Draw5Playall
+build y2 at Alpha
+move y1 from Draw5Playall to Lebling
+build g2 at Whoa
+build y2 at Draw5Playall
+move r2 from Ajo to Beta (y3)
+convert y1 to b1 at Draw5Playall
+move y1 from Alpha to Whoa
+move b1 from Draw5Playall to Lebling
+move g1 from Whoa to Draw5Playall
+move r3 from Lebling to Draw5Playall
+sacrifice g2 at Whoa; build g2 at Draw5Playall; build g2 at Draw5Playall; catastrophe green at Draw5Playall
+convert r3 to g3 at Draw5Playall
+build r3 at Whoa
+move b1 from Lebling to Ugh (y1)
+move r3 from Alpha to Lebling
+sacrifice y1 at Lebling; move r2 from Lebling to Uhoh (y1)
+convert r2 to g2 at Whoa
+convert r1 to g1 at Wow
+sacrifice g2 at Whoa; build y2 at Ajo; build y3 at Whoa
+build g2 at Wow
+build g2 at Whoa
+sacrifice b1 at Ugh; convert g1 to y1 at Wow
+sacrifice g2 at Whoa; build r1 at Whoa; build r2 at Lebling
+build g1 at Wow
+build g2 at Whoa
+convert g1 to b1 at Wow
+convert g1 to b1 at Whoa
+move y1 from Wow to No (b2)
+move r3 from Whoa to Alpha
+build g1 at Draw5Playall
+build g1 at Whoa
+sacrifice g1 at Draw5Playall
+move b1 from Whoa to Alpha

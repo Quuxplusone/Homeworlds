@@ -1,0 +1,40 @@
+Fnord (0, b3g2) y3-
+Aristos (1, g2b1) -y3
+build y1 at Fnord
+build y1 at Aristos
+move y1 from Fnord to Eris (b1)
+convert y1 to r1 at Aristos
+build y1 at Fnord
+build r1 at Aristos
+convert y1 to r1 at Eris
+build y1 at Aristos
+move y1 from Fnord to Eris
+build r2 at Aristos
+convert y1 to g1 at Eris
+convert r1 to g1 at Aristos
+build y1 at Fnord
+build y1 at Aristos
+move y1 from Fnord to Eris
+sacrifice y3 at Aristos; move r2 from Aristos to Garage (g3); move y1 from Aristos to Garage; move r2 from Garage to Eris
+sacrifice y1 at Eris; move r1 from Eris to Garage
+sacrifice r1 at Aristos; capture r1 at Garage
+convert g1 to y1 at Eris
+capture y1 at Eris
+build y2 at Fnord
+build y2 at Garage
+convert y2 to g2 at Fnord
+build y2 at Aristos
+build y2 at Fnord
+sacrifice g1 at Aristos; build y3 at Eris
+convert y3 to r3 at Fnord
+build y3 at Garage
+build g1 at Fnord
+build y3 at Aristos
+convert g1 to b1 at Fnord
+convert y3 to g3 at Eris
+move y2 from Fnord to Discordia (g1)
+sacrifice y3 at Aristos; move g3 from Eris to Fnord; move y3 from Garage to Temporary (g1); move y3 from Temporary to Fnord
+capture g3 at Fnord
+sacrifice r2 at Eris; capture r3 at Fnord; capture g3 at Fnord
+build y3 at Discordia
+sacrifice r3 at Fnord; capture b1 at Fnord; capture g2 at Fnord

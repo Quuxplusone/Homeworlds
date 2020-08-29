@@ -1,0 +1,51 @@
+Simon (0, b3r1) g3-
+Laurie_Menke (1, b2y1) -g3
+build g1 at Simon
+build g1 at Laurie_Menke
+convert g1 to y1 at Simon
+convert g1 to y1 at Laurie_Menke
+build y2 at Simon
+build y2 at Laurie_Menke
+move y1 from Simon to B2 (b2)
+convert y1 to r1 at Laurie_Menke
+build y1 at Simon
+move y2 from Laurie_Menke to Green (g3)
+move y1 from Simon to G2 (g2)
+build r1 at Laurie_Menke
+build y2 at G2
+build y3 at Green
+build y3 at Simon
+move r1 from Laurie_Menke to Yellow (y3)
+convert y3 to r3 at Simon
+move r1 from Yellow to B2
+move r3 from Simon to B2
+move y3 from Green to G2
+capture r1 at B2
+build r2 at Laurie_Menke
+build y3 at G2; catastrophe yellow at G2
+convert r1 to y1 at Laurie_Menke
+convert r1 to g1 at B2
+move y1 from Laurie_Menke to Blue (b3)
+build r1 at B2
+build g1 at Laurie_Menke
+build g1 at Simon
+move g1 from Laurie_Menke to Bluetoo (b3)
+build g2 at B2
+build g2 at Laurie_Menke
+move r3 from B2 to Bluetoo
+sacrifice g2 at Laurie_Menke; build y2 at Green; build y3 at Blue
+sacrifice g2 at B2; build y3 at Simon; build y3 at B2
+sacrifice y2 at Green; move g1 from Bluetoo to Red (r2); move y1 from Blue to Red
+move g3 from Simon to Red
+move y1 from Red to Simon
+capture y1 at Simon
+sacrifice g1 at Red; build y2 at Blue
+move y1 from Simon to Red
+move r2 from Laurie_Menke to Blue
+build g1 at B2
+build g2 at Laurie_Menke
+sacrifice y2 at Simon; move g3 from Red to Blue; move g3 from Blue to Laurie_Menke
+sacrifice y2 at Blue; move y3 from Blue to Laurie_Menke; move y2 from Green to Laurie_Menke
+sacrifice r3 at Bluetoo; capture g3 at Laurie_Menke; capture y3 at Laurie_Menke; capture g2 at Laurie_Menke
+sacrifice r2 at Blue; capture g2 at Laurie_Menke
+sacrifice g3 at Laurie_Menke; build g2 at Laurie_Menke; build g2 at Laurie_Menke; build y2 at Laurie_Menke; catastrophe green at Laurie_Menke; catastrophe yellow at Laurie_Menke

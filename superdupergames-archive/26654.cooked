@@ -1,0 +1,8 @@
+Dsabremaster (0, b1y2) g3-
+Gungho (1, g3y1) -b3
+build g1 at Dsabremaster
+build b1 at Gungho
+move g1 from Dsabremaster to Shoal (b3)
+build b1 at Gungho
+build g1 at Dsabremaster
+move b1 from Gungho to Gg (g2)

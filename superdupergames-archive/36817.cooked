@@ -1,0 +1,22 @@
+Bootleby (0, b1y3) g3-
+Mirror33 (1, b2r1) -g3
+build g1 at Bootleby
+build g1 at Mirror33
+convert g1 to y1 at Bootleby
+build g1 at Mirror33
+move y1 from Bootleby to Sza (g2)
+convert g1 to y1 at Mirror33
+build g1 at Bootleby
+convert g1 to r1 at Mirror33
+build g1 at Bootleby
+build g1 at Mirror33
+convert g1 to b1 at Bootleby
+move g1 from Mirror33 to Sauce (y3)
+move b1 from Bootleby to Sza
+build g1 at Sauce
+build g2 at Bootleby
+build g2 at Sauce
+move b1 from Sza to Tryinstuff (g3)
+convert g3 to y3 at Mirror33
+build b1 at Tryinstuff
+sacrifice y3 at Mirror33; move g2 from Sauce to Why (y2); move g2 from Why to Bootleby; catastrophe green at Bootleby

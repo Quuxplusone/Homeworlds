@@ -1,0 +1,60 @@
+Joe (0, y1b2) g3-
+Zackstack (1, r2b3) -g3
+build g1 at Joe
+build g1 at Zackstack
+build g1 at Joe
+build g2 at Zackstack
+move g1 from Joe to Ann (b3)
+convert g2 to y2 at Zackstack
+build g2 at Ann
+move g1 from Zackstack to Tina (y1)
+convert g1 to y1 at Ann
+build g1 at Zackstack
+build g2 at Ann
+sacrifice g3 at Zackstack; build g2 at Zackstack; build g3 at Zackstack; build g3 at Tina
+convert g3 to r3 at Joe
+move g3 from Tina to Gwen (r3)
+build g3 at Joe
+move g1 from Zackstack to Belle (b1)
+convert g2 to r2 at Ann
+sacrifice g3 at Zackstack; build g2 at Belle; build g3 at Zackstack; build y2 at Zackstack
+move r2 from Ann to Belle
+sacrifice y2 at Zackstack; move g1 from Belle to Gina (y3); move g2 from Belle to Gina
+build y2 at Ann
+move g1 from Gina to Joe
+sacrifice y2 at Ann; move g1 from Joe to Gina; move g3 from Joe to Ann
+move g1 from Joe to Daisy (y3)
+convert g3 to r3 at Ann
+sacrifice g3 at Zackstack; build g3 at Zackstack; build y2 at Zackstack; build g3 at Daisy
+build y2 at Ann
+move g1 from Tina to Gwen
+convert y2 to r2 at Ann
+convert y2 to b2 at Zackstack
+build y1 at Ann
+sacrifice g3 at Zackstack; build g3 at Zackstack; build b1 at Zackstack; build y2 at Zackstack
+move y1 from Ann to Belle
+sacrifice b2 at Zackstack; convert g1 to b1 at Daisy; convert g2 to b2 at Gina
+move r2 from Belle to Gina
+sacrifice g3 at Daisy; build b2 at Daisy; build b3 at Daisy; build g1 at Zackstack
+capture b2 at Gina
+move b1 from Daisy to Joe
+build r1 at Ann
+move b2 from Daisy to Joe
+move r1 from Ann to Belle
+move g2 from Zackstack to Pippi (r1)
+build y2 at Ann
+move y2 from Zackstack to Pippi
+move r3 from Ann to Pippi
+sacrifice y2 at Zackstack; move y2 from Pippi to Daisy; move g2 from Pippi to Daisy
+sacrifice y1 at Ann; move r3 from Pippi to Daisy
+sacrifice y2 at Daisy; move b3 from Daisy to Joe; move g2 from Daisy to Mae (y2); catastrophe blue at Joe
+build y1 at Ann
+convert g3 to y3 at Zackstack
+build g2 at Gina
+sacrifice g3 at Gwen; build g3 at Zackstack; build y2 at Zackstack; build g3 at Gwen
+move r3 from Daisy to Belle
+sacrifice b1 at Zackstack; convert g3 to y3 at Gwen
+build b1 at Gina
+sacrifice g2 at Mae; build g2 at Gwen; build y2 at Gwen
+move y1 from Ann to Belle
+sacrifice y3 at Zackstack; move y2 from Zackstack to Joe; move y2 from Gwen to Joe; move y3 from Gwen to Joe; catastrophe yellow at Joe

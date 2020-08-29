@@ -1,0 +1,17 @@
+Wil (0, y2b1) g3-
+Bhorner (1, b3y2) -g3
+build g1 at Wil
+build g1 at Bhorner
+convert g1 to b1 at Wil
+convert g1 to b1 at Bhorner
+build b2 at Wil
+build b2 at Bhorner
+move b1 from Wil to G3 (g3)
+move b2 from Bhorner to Y1 (y1)
+convert b2 to r2 at Wil
+convert b1 to r1 at Bhorner
+build r1 at Wil
+build g1 at Bhorner
+build g1 at Wil
+move g1 from Bhorner to Y1
+convert g1 to y1 at Wil

@@ -1,0 +1,31 @@
+Twoshort (0, r1b3) g3-
+Dlwillson (1, b2y3) -g3
+build g1 at Twoshort
+build g1 at Dlwillson
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Dlwillson
+build g1 at Twoshort
+build g1 at Dlwillson
+move g1 from Twoshort to Yolonda (y2)
+convert g1 to r1 at Dlwillson
+build y1 at Twoshort
+build y2 at Dlwillson
+move y1 from Twoshort to Grogar (g2)
+move y1 from Dlwillson to Rivendell (g1)
+build g1 at Twoshort
+move y2 from Dlwillson to Mordor (r1)
+build g2 at Yolonda
+build g2 at Dlwillson
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y2 at Grogar; build y3 at Twoshort
+move g2 from Dlwillson to Mordor
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Twoshort; build y3 at Twoshort
+sacrifice y2 at Mordor; move y1 from Rivendell to Grogar; move y1 from Grogar to Twoshort; catastrophe yellow at Twoshort
+convert g3 to y3 at Twoshort
+sacrifice g2 at Mordor; build g1 at Dlwillson; build r1 at Dlwillson
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Twoshort; build g3 at Yolonda
+convert r1 to y1 at Dlwillson
+convert g2 to r2 at Twoshort
+move y1 from Dlwillson to Delay (b1)
+move g2 from Yolonda to Delay
+move y1 from Delay to Grogar
+sacrifice y3 at Twoshort; move g1 from Yolonda to Delay; move g1 from Delay to Dlwillson; move g2 from Delay to Dlwillson; catastrophe green at Dlwillson

@@ -1,0 +1,84 @@
+Wil (0, b3y1) g3-
+Simon (1, r1b2) -g3
+build g1 at Wil
+build g1 at Simon
+convert g1 to b1 at Wil
+convert g1 to b1 at Simon
+build g1 at Wil
+build g1 at Simon
+convert g1 to r1 at Wil
+convert g1 to y1 at Simon
+build r1 at Wil
+build y1 at Simon
+build r2 at Wil
+move y1 from Simon to G3 (g3)
+move r2 from Wil to Y2 (y2)
+build y2 at Simon
+move r2 from Y2 to G3
+move y1 from G3 to B2 (b2)
+build r2 at Wil
+convert y2 to r2 at Simon
+convert r2 to y2 at Wil
+move r2 from Simon to B3 (b3)
+move r1 from Wil to Betwo (b2)
+sacrifice g3 at Simon; build y2 at B2; build y2 at B2; build y3 at Simon
+move y2 from Wil to B2; catastrophe yellow at B2
+convert y3 to g3 at Simon
+sacrifice g3 at Wil; build r2 at Wil; build r3 at Wil; build r3 at Betwo
+sacrifice g3 at Simon; build r3 at B3; build y1 at Simon; build y2 at Simon
+convert r2 to y2 at Wil
+sacrifice y2 at Simon; move r3 from B3 to Simon; move y1 from Simon to G3A (g3)
+convert r3 to g3 at Betwo
+build y2 at G3A
+move y2 from Wil to Betwo
+move y2 from G3A to G2 (g2)
+sacrifice g3 at Betwo; build b1 at Wil; build r2 at G3; build r3 at Betwo
+convert r3 to g3 at Simon
+convert r3 to y3 at Betwo
+sacrifice g3 at Simon; build y2 at G2; build y3 at Simon; build r3 at B3
+convert y2 to g2 at Betwo
+convert r3 to g3 at B3
+build r3 at Betwo
+build r3 at B3
+convert r3 to y3 at Betwo
+move b1 from Simon to G3A
+convert b1 to g1 at Wil
+build y2 at G3A
+build r3 at Betwo
+move y1 from Simon to B3
+convert r3 to b3 at Betwo
+move r3 from B3 to G2
+build r3 at Betwo
+sacrifice y2 at G3A; move y1 from G3A to Betwo; move y1 from B3 to Betwo; catastrophe yellow at Betwo
+convert r1 to y1 at Betwo
+build r1 at G2
+build y1 at Betwo
+move y2 from G2 to B3
+move y1 from Betwo to G3
+sacrifice g3 at B3; build y2 at Simon; build y3 at B3; build y3 at G2
+convert r3 to g3 at Wil
+build b1 at G3A
+move b1 from Wil to Geetwo (g2)
+sacrifice y2 at G2; move b1 from G3A to Betwo; move b1 from G3A to Betwo; catastrophe blue at Betwo
+move g1 from Wil to Y2 (y2)
+convert y2 to g2 at B3
+build r3 at Wil
+build r3 at B3
+convert r3 to g3 at Wil
+move r3 from B3 to Geetwo
+build r3 at Wil
+capture b1 at Geetwo
+convert g3 to b3 at Wil
+build b1 at Geetwo
+move b3 from Wil to Y2
+build b1 at Geetwo
+move r1 from Wil to G2
+build y1 at B3
+build y2 at G3
+move g2 from B3 to Simon
+move r2 from G3 to G2; catastrophe red at G2
+move y2 from Simon to R3 (r3)
+build b2 at Y2
+sacrifice y3 at G2; move b1 from Geetwo to Wil; move b1 from Geetwo to Wil; move b1 from Geetwo to Wil; catastrophe blue at Wil
+convert b3 to y3 at Y2
+sacrifice y3 at Simon; move y3 from B3 to Wil; move y1 from B3 to Wil; move y2 from R3 to Wil; catastrophe yellow at Wil

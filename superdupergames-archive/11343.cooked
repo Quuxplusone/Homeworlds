@@ -1,0 +1,35 @@
+Danner (0, r1b2) g3-
+Patwillis (1, y1b3) -g3
+build g1 at Danner
+build g1 at Patwillis
+convert g1 to y1 at Danner
+convert g1 to y1 at Patwillis
+build y2 at Danner
+build y2 at Patwillis
+move y1 from Danner to Earth (g3)
+move y1 from Patwillis to Greenland (g2)
+build y2 at Earth
+build y3 at Greenland
+build y3 at Danner
+move y3 from Greenland to Littlegreenland (g1)
+move y1 from Earth to Greenland
+build y3 at Greenland
+move y2 from Earth to Greenland; catastrophe yellow at Greenland
+build g1 at Patwillis
+move y2 from Danner to Earth (g3)
+move g1 from Patwillis to Yellonia (y2)
+sacrifice g3 at Danner; build y1 at Earth; build y1 at Earth; build y3 at Danner
+build g1 at Patwillis
+convert y3 to g3 at Danner
+convert y2 to r2 at Patwillis
+build g2 at Danner
+move g1 from Yellonia to Sun (y3)
+move y1 from Earth to Littlegreenland
+move y3 from Littlegreenland to Mars (r3)
+build y2 at Littlegreenland
+sacrifice g3 at Patwillis; build g2 at Patwillis; build g2 at Patwillis; build g3 at Sun
+build y2 at Danner
+move g1 from Sun to Danner
+move g3 from Danner to Sun
+sacrifice r2 at Patwillis; capture g3 at Sun
+sacrifice y3 at Danner; move g2 from Danner to Sun; move g2 from Sun to Temporal (r2); move g2 from Temporal to Patwillis; catastrophe green at Patwillis

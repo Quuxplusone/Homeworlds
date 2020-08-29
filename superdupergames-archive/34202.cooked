@@ -1,0 +1,59 @@
+Trydnt (0, b2y1) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Trydnt
+build g1 at Draw5Playall
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Draw5Playall
+build y2 at Trydnt
+build y2 at Draw5Playall
+move y1 from Trydnt to G3 (g3)
+move y1 from Draw5Playall to Maybenot (g2)
+build g1 at Trydnt
+build g1 at Draw5Playall
+convert g1 to r1 at Trydnt
+convert g1 to r1 at Draw5Playall
+build r2 at Trydnt
+move r1 from Draw5Playall to Maybenot
+move r1 from Trydnt to G3
+build r2 at Maybenot
+build r2 at G3
+sacrifice r1 at Maybenot
+build g1 at Trydnt
+build g1 at Draw5Playall
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Draw5Playall
+build g1 at Trydnt
+move b1 from Draw5Playall to Maybenot
+move b1 from Trydnt to G3
+build g1 at Draw5Playall
+move y2 from Trydnt to R3 (r3)
+move g1 from Draw5Playall to Hmmm (b2)
+move r1 from G3 to Hmmm
+sacrifice g1 at Hmmm; build g1 at Draw5Playall
+sacrifice g3 at Trydnt; build r1 at G3; build r3 at Hmmm; build r3 at Trydnt
+build b1 at Maybenot
+convert r1 to g1 at Hmmm
+build r1 at Maybenot
+build g2 at Hmmm
+move g1 from Draw5Playall to Temp (b2)
+build b3 at G3
+move b1 from Maybenot to G3
+sacrifice b1 at G3; convert r3 to y3 at Hmmm
+build b1 at G3
+sacrifice r2 at G3; capture b1 at G3; capture b1 at G3
+build b3 at Maybenot
+sacrifice y2 at R3; move b1 from G3 to Maybenot; move b1 from G3 to Maybenot; catastrophe blue at Maybenot
+build y2 at Draw5Playall
+move r2 from Trydnt to Y3 (y3)
+move y2 from Draw5Playall to Temp
+sacrifice g2 at Hmmm; build y2 at G3; build y3 at Hmmm
+build g2 at Draw5Playall
+move b3 from G3 to Maybenot
+sacrifice y1 at Maybenot; move r2 from Maybenot to Givingup (b1)
+sacrifice r1 at G3; capture r1 at Maybenot
+build y1 at Draw5Playall
+build g2 at Hmmm
+build g3 at Temp
+sacrifice y3 at Hmmm; move g1 from Hmmm to Draw5Playall; move g2 from Hmmm to Draw5Playall; move b3 from Maybenot to Draw5Playall; catastrophe green at Draw5Playall
+sacrifice g1 at Temp; build y3 at Draw5Playall
+move y3 from Hmmm to Draw5Playall; catastrophe yellow at Draw5Playall

@@ -1,0 +1,34 @@
+Captncavern (0, b2g1) y3-
+Adambadura (1, g3b1) -r3
+build y1 at Captncavern
+build r1 at Adambadura
+convert y1 to r1 at Captncavern
+convert r1 to y1 at Adambadura
+build y1 at Captncavern
+build r1 at Adambadura
+convert y1 to g1 at Captncavern
+convert r1 to b1 at Adambadura
+build y1 at Captncavern
+build r1 at Adambadura
+move y1 from Captncavern to Aloha (g3)
+build b1 at Adambadura
+build g1 at Captncavern
+move b1 from Adambadura to Shipyard (g2)
+move g1 from Captncavern to Aloha
+build b2 at Shipyard
+build g2 at Captncavern
+build b2 at Shipyard
+sacrifice g2 at Captncavern; build g2 at Aloha; build r1 at Captncavern
+build b3 at Adambadura
+sacrifice g2 at Aloha; build g2 at Aloha; build r2 at Captncavern
+build y1 at Adambadura
+build y2 at Captncavern
+move y1 from Adambadura to Shipyard
+move g2 from Aloha to Ichi (y2)
+move b2 from Shipyard to Aloha
+move g1 from Aloha to Ichi
+build b3 at Aloha
+build g2 at Ichi
+build b3 at Shipyard
+build g3 at Captncavern
+sacrifice r1 at Adambadura; capture y1 at Aloha

@@ -1,0 +1,28 @@
+Cleverpun (0, y1b2) g3-
+Rootbier (1, b1y2) -g3
+build g1 at Cleverpun
+build g1 at Rootbier
+move g1 from Cleverpun to Milkyway (r3)
+convert g1 to y1 at Rootbier
+build g1 at Cleverpun
+build y1 at Rootbier
+convert g3 to y3 at Cleverpun
+move y1 from Rootbier to Cage (b3)
+build y2 at Cleverpun
+move y1 from Cage to Cleverpun; catastrophe yellow at Cleverpun
+build g1 at Milkyway
+build g2 at Rootbier
+build g2 at Cleverpun
+move g2 from Rootbier to Nomin (y3)
+convert g2 to r2 at Cleverpun
+build g2 at Rootbier
+convert g1 to y1 at Cleverpun
+move g3 from Rootbier to Nomin
+move r2 from Cleverpun to Nomin
+convert g2 to r2 at Rootbier
+capture g2 at Nomin
+sacrifice r2 at Rootbier; capture r2 at Nomin; capture g2 at Nomin
+sacrifice g1 at Milkyway; build y1 at Cleverpun
+move g3 from Nomin to Cleverpun
+convert y1 to g1 at Cleverpun
+sacrifice r2 at Nomin; capture y1 at Cleverpun; capture g1 at Cleverpun

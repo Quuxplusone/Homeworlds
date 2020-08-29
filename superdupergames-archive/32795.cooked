@@ -1,0 +1,45 @@
+Draw5Playall (0, b2r2) g3-
+Wil (1, b2r2) -g3
+build g1 at Draw5Playall
+build g1 at Wil
+convert g1 to y1 at Draw5Playall
+convert g1 to y1 at Wil
+build g1 at Draw5Playall
+build g1 at Wil
+convert g1 to r1 at Draw5Playall
+convert g1 to r1 at Wil
+build g1 at Draw5Playall
+build g1 at Wil
+convert g1 to b1 at Draw5Playall
+convert g1 to b1 at Wil
+move b1 from Draw5Playall to G1 (g1)
+build g1 at Wil
+build g1 at Draw5Playall
+build g2 at Wil
+build g2 at Draw5Playall
+convert g2 to y2 at Wil
+convert g2 to y2 at Draw5Playall
+move g1 from Wil to Y3 (y3)
+move g1 from Draw5Playall to B3 (b3)
+move y1 from Wil to G3 (g3)
+build b1 at G1
+build y1 at G3
+sacrifice y2 at Draw5Playall; move b1 from G1 to Wil; move b1 from G1 to Wil; catastrophe blue at Wil
+build y2 at Wil
+build y2 at Draw5Playall
+move y1 from G3 to Draw5Playall
+move y1 from Draw5Playall to G3
+move y2 from Wil to G1 (g1)
+build y3 at G3
+move y1 from Draw5Playall to G3; catastrophe yellow at G3
+build g2 at Draw5Playall
+move r1 from Wil to Y3
+move r1 from Draw5Playall to B3
+build g2 at Y3
+convert g2 to r2 at Draw5Playall
+build g2 at Y3
+move r2 from Draw5Playall to Y1 (y1)
+move y2 from G1 to B3
+build r1 at B3
+build r3 at Y3
+sacrifice y2 at Draw5Playall; move r1 from B3 to Wil; move r1 from B3 to Wil

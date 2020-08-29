@@ -1,0 +1,41 @@
+Jesse (0, b1g2) y3-
+Laurie_Menke (1, y3b2) -g3
+build y1 at Jesse
+build g1 at Laurie_Menke
+convert y1 to b1 at Jesse
+build g1 at Laurie_Menke
+build y1 at Jesse
+convert g1 to b1 at Laurie_Menke
+build b2 at Jesse
+build b2 at Laurie_Menke
+move b2 from Jesse to Gamera (g3)
+move b2 from Laurie_Menke to Transportation (y1)
+build b3 at Jesse
+move b2 from Transportation to Anne (y3)
+move b3 from Jesse to Anne
+build b3 at Laurie_Menke
+build b3 at Gamera
+convert b3 to r3 at Laurie_Menke
+convert y1 to r1 at Jesse
+build b3 at Laurie_Menke
+build r1 at Jesse
+move b3 from Laurie_Menke to Enterprise (y1)
+sacrifice r1 at Jesse; capture b2 at Anne
+move g1 from Laurie_Menke to Enterprise
+convert b2 to y2 at Gamera
+build b2 at Enterprise
+convert b3 to g3 at Anne
+move b3 from Enterprise to Mars (r3)
+build b3 at Gamera
+convert b2 to y2 at Enterprise
+move b3 from Gamera to Enterprise
+sacrifice y2 at Enterprise; move g1 from Enterprise to Mars
+build b2 at Anne
+build r1 at Laurie_Menke
+convert b2 to r2 at Anne
+sacrifice g3 at Laurie_Menke; build b2 at Mars; build g1 at Mars; build g1 at Mars
+sacrifice y3 at Jesse; move g3 from Anne to Enterprise; move g3 from Enterprise to Laurie_Menke; move b3 from Enterprise to Laurie_Menke
+capture g3 at Laurie_Menke
+sacrifice r2 at Anne; capture r3 at Laurie_Menke; capture g3 at Laurie_Menke
+build g2 at Mars; catastrophe green at Mars
+sacrifice r3 at Laurie_Menke; capture r1 at Laurie_Menke; capture b1 at Laurie_Menke

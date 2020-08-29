@@ -1,0 +1,24 @@
+Doa (0, g3y1) b3-
+Crothlisberger (1, b1y2) -g3
+build b1 at Doa
+build g1 at Crothlisberger
+move b1 from Doa to Lxsx (g2)
+move g1 from Crothlisberger to Hoth (b3)
+build b1 at Doa
+build g1 at Crothlisberger
+build b2 at Lxsx
+build g1 at Crothlisberger
+convert b2 to y2 at Lxsx
+build g2 at Hoth
+convert b3 to g3 at Doa
+convert g1 to r1 at Crothlisberger
+build b2 at Lxsx
+convert g2 to y2 at Hoth
+move b1 from Lxsx to Mxwx (y3)
+build g1 at Hoth
+sacrifice g3 at Doa; build b2 at Mxwx; build b2 at Lxsx; build b3 at Doa
+move g1 from Hoth to Lxsx
+build b3 at Doa
+sacrifice g3 at Crothlisberger; build g2 at Lxsx; build g2 at Hoth; build g3 at Crothlisberger
+sacrifice y2 at Lxsx; move b2 from Lxsx to Gwar (g3); move b2 from Lxsx to Gwar
+convert g2 to y2 at Hoth

@@ -1,0 +1,27 @@
+Aristos (0, b2y1) g3-
+Agentofchaos (1, r1b3) -g3
+build g1 at Aristos
+build g1 at Agentofchaos
+move g1 from Aristos to Orb (b3)
+convert g1 to y1 at Agentofchaos
+build g1 at Orb
+build y1 at Agentofchaos
+build g1 at Orb
+build g2 at Agentofchaos
+build g2 at Aristos
+build y2 at Agentofchaos
+convert g1 to r1 at Orb
+convert y2 to r2 at Agentofchaos
+convert g2 to y2 at Aristos
+move r2 from Agentofchaos to Procyon (y2)
+move y2 from Aristos to Orb
+move g2 from Agentofchaos to Procyon
+build g1 at Aristos
+build g2 at Agentofchaos
+sacrifice g3 at Aristos; build g2 at Orb; build g3 at Aristos; build g3 at Aristos
+sacrifice g3 at Agentofchaos; build g3 at Agentofchaos; build y2 at Agentofchaos; build r1 at Procyon
+sacrifice g1 at Aristos; build y3 at Orb
+move g2 from Procyon to Orb; catastrophe green at Orb
+move y3 from Orb to Tiny (g1)
+move y2 from Agentofchaos to Heartthew (g2)
+sacrifice g3 at Aristos; build r2 at Orb; build y3 at Orb; build y3 at Tiny

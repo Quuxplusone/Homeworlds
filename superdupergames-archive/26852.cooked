@@ -1,0 +1,31 @@
+Mneme (0, r1b3) g3-
+Gungho (1, g2y1) -b3
+build g1 at Mneme
+build b1 at Gungho
+convert g1 to y1 at Mneme
+convert b1 to r1 at Gungho
+build y1 at Mneme
+build r1 at Gungho
+build y2 at Mneme
+build r2 at Gungho
+convert y2 to r2 at Mneme
+convert r1 to g1 at Gungho
+build y2 at Mneme
+move g1 from Gungho to Bflat (b3)
+move y2 from Mneme to Eris (b2)
+convert r2 to y2 at Gungho
+sacrifice g3 at Mneme; build y2 at Eris; build y3 at Eris; build y3 at Mneme
+move y2 from Gungho to Bflat
+convert y2 to g2 at Eris
+build y2 at Bflat
+convert y1 to g1 at Mneme
+build g1 at Bflat
+move y3 from Eris to Clotho (g3)
+convert g1 to r1 at Bflat
+sacrifice g2 at Eris; build y1 at Clotho; build y3 at Eris
+build r2 at Bflat
+convert y3 to g3 at Eris
+move r2 from Bflat to Myohmy (g2)
+move r2 from Mneme to Eris
+convert b3 to g3 at Gungho
+sacrifice y2 at Eris; move g3 from Eris to Bflat; move y3 from Clotho to Myohmy

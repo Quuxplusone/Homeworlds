@@ -1,0 +1,31 @@
+Jonaskoelker (0, b1y2) g3-
+Zackstack (1, r1b3) -g3
+build g1 at Jonaskoelker
+build g1 at Zackstack
+convert g1 to b1 at Jonaskoelker
+build g1 at Zackstack
+build b1 at Jonaskoelker
+convert g1 to y1 at Zackstack
+move b1 from Jonaskoelker to Biggreen (g3)
+move g1 from Zackstack to Tooblue (b2)
+build b2 at Jonaskoelker
+build g1 at Tooblue
+move b1 from Jonaskoelker to Bigyellow (y3)
+convert g1 to y1 at Tooblue
+sacrifice g3 at Jonaskoelker; build b2 at Bigyellow; build b3 at Biggreen; build b3 at Jonaskoelker
+move y1 from Tooblue to Verygreen (g3)
+convert b3 to y3 at Biggreen
+build g1 at Zackstack
+build b3 at Biggreen
+build g1 at Tooblue
+convert b3 to y3 at Biggreen
+convert g1 to y1 at Tooblue
+build b3 at Biggreen
+build y2 at Tooblue
+move b3 from Biggreen to Medium_Yellow (y2)
+build g1 at Tooblue
+convert b3 to r3 at Jonaskoelker
+move y2 from Tooblue to Moreblue (b3)
+sacrifice y3 at Biggreen; move y3 from Biggreen to Medium_Yellow; move y3 from Medium_Yellow to Zackstack; move b3 from Medium_Yellow to Zackstack
+build y2 at Tooblue
+sacrifice r3 at Jonaskoelker; capture g3 at Zackstack; capture g1 at Zackstack; capture y1 at Zackstack

@@ -1,0 +1,73 @@
+Cdrodeffer (0, b2y1) g3-
+Keith (1, g3y2) -b3
+build g1 at Cdrodeffer
+build b1 at Keith
+convert g1 to r1 at Cdrodeffer
+convert b1 to r1 at Keith
+build g1 at Cdrodeffer
+build b1 at Keith
+convert g1 to y1 at Cdrodeffer
+move r1 from Keith to Maruko (y1)
+build y2 at Cdrodeffer
+convert b3 to y3 at Keith
+build g1 at Cdrodeffer
+build b1 at Keith
+convert y1 to b1 at Cdrodeffer
+build b2 at Keith
+move g1 from Cdrodeffer to College_Fund (y3)
+convert b1 to g1 at Keith
+move r1 from Cdrodeffer to College_Fund
+build y1 at Keith
+build y2 at Cdrodeffer
+sacrifice y3 at Keith; move y1 from Keith to Maruko; move y1 from Maruko to College_Fund; move y1 from College_Fund to Cdrodeffer; catastrophe yellow at Cdrodeffer
+convert b1 to y1 at Cdrodeffer
+convert b2 to g2 at Keith
+build g1 at Cdrodeffer
+build b1 at Keith
+build g2 at College_Fund
+move g2 from Keith to Maruko
+convert g1 to y1 at Cdrodeffer
+move b1 from Keith to Maruko
+build y2 at Cdrodeffer
+convert g2 to y2 at Maruko
+sacrifice y2 at Cdrodeffer; move y1 from Cdrodeffer to Maruko; move y1 from Cdrodeffer to Maruko; catastrophe yellow at Maruko
+convert g1 to r1 at Keith
+move g2 from College_Fund to Duckling (y1)
+build b1 at Keith
+move g2 from Duckling to Keith
+build r1 at Keith
+build r2 at College_Fund
+build r2 at Keith
+sacrifice r1 at College_Fund; capture r2 at Keith
+convert b1 to g1 at Keith
+move g2 from Keith to Lonely_Retreat (y1)
+build r1 at Keith; catastrophe red at Keith
+build r1 at College_Fund
+build b1 at Keith
+move r2 from College_Fund to Cdrodeffer
+convert b1 to r1 at Keith
+convert r2 to b2 at Cdrodeffer
+move g1 from Keith to Bab4 (y1)
+build b1 at Cdrodeffer
+build b1 at Keith
+convert b1 to y1 at Cdrodeffer
+move b1 from Keith to Bab4
+move b2 from Cdrodeffer to College_Fund
+build b1 at Keith
+build y2 at Cdrodeffer
+build b2 at Bab4
+build b3 at College_Fund
+move b1 from Bab4 to Cdrodeffer
+sacrifice r1 at College_Fund; capture b1 at Cdrodeffer
+move b2 from Bab4 to Cdrodeffer
+convert b1 to r1 at Cdrodeffer
+sacrifice r1 at Keith; capture r1 at Cdrodeffer
+convert g3 to r3 at Cdrodeffer
+capture y2 at Cdrodeffer
+capture r1 at Cdrodeffer
+move y2 from Cdrodeffer to Greenleaf (g1)
+capture b2 at Cdrodeffer
+build g2 at Bab4
+move b2 from Cdrodeffer to Lonely_Retreat
+sacrifice b1 at Keith; convert b1 to r1 at Keith
+move b2 from Lonely_Retreat to Keith

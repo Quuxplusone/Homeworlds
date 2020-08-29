@@ -1,0 +1,62 @@
+Wil (0, r2b1) g3-
+Radynski (1, b1g3) -y3
+build g1 at Wil
+build y1 at Radynski
+convert g1 to b1 at Wil
+move y1 from Radynski to George (g2)
+build b2 at Wil
+build y1 at George
+convert b2 to y2 at Wil
+move y1 from George to Nexus (b3)
+build b2 at Wil
+build y1 at George
+convert b2 to r2 at Wil
+build y2 at Radynski
+build b2 at Wil
+convert y2 to b2 at Radynski
+move b2 from Wil to G3 (g3)
+build y2 at Radynski
+build y2 at Wil
+build y3 at Radynski
+move y2 from Wil to G3
+convert y2 to r2 at Radynski
+build g1 at Wil
+build r1 at Radynski
+move b2 from G3 to George
+sacrifice y1 at George; move y3 from Radynski to George
+build b2 at Wil
+sacrifice r1 at Radynski; capture b2 at George
+move b2 from Wil to G3
+move y3 from George to G3
+build y1 at G3
+sacrifice r2 at Radynski; capture b2 at G3; capture y2 at G3
+build y2 at G3; catastrophe yellow at G3
+build b3 at Radynski
+move b1 from Wil to G3
+convert b2 to r2 at Radynski
+build y1 at Wil
+build y2 at George
+move y2 from Wil to B3 (b3)
+convert y1 to r1 at George
+build y1 at Wil
+convert y1 to r1 at Nexus
+build b2 at G3
+sacrifice r2 at Radynski; capture b2 at G3; capture b1 at G3
+move r2 from Wil to Nexus
+sacrifice y3 at Radynski; move b2 from G3 to Wil; move b2 from G3 to Wil; move b1 from G3 to Wil; catastrophe blue at Wil
+capture r1 at Nexus
+build b1 at Radynski
+sacrifice y2 at B3; move g1 from Wil to Radynski; move y1 from Wil to Radynski
+convert b3 to r3 at Radynski
+convert y1 to r1 at Radynski
+capture r1 at Radynski
+build y1 at Wil
+capture g1 at Radynski
+move y1 from Wil to Nexus
+convert r3 to y3 at Radynski
+move r2 from Nexus to G2 (g2)
+move r1 from George to Studio (g3)
+convert r1 to g1 at Nexus
+build r1 at Studio
+build g1 at Wil
+sacrifice y3 at Radynski; move r1 from Studio to Wil; move r1 from Studio to Wil; move r1 from Radynski to Wil; catastrophe red at Wil

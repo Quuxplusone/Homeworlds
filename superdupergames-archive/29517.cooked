@@ -1,0 +1,40 @@
+Ts52 (0, y1b2) g3-
+Felix (1, b1y3) -g3
+build g1 at Ts52
+build g1 at Felix
+move g1 from Ts52 to Gonzo (b3)
+convert g1 to b1 at Felix
+build g1 at Ts52
+build b1 at Felix
+convert g1 to y1 at Ts52
+move b1 from Felix to Grip (g2)
+build y1 at Ts52
+build b2 at Grip
+move y1 from Ts52 to Gonzo
+convert b2 to y2 at Grip
+build y2 at Gonzo
+build y2 at Grip
+move y1 from Ts52 to Kermit (g3)
+move y2 from Grip to Kermit
+build y3 at Kermit
+build y3 at Grip
+move y1 from Kermit to Grip
+convert y2 to r2 at Grip
+convert y2 to r2 at Gonzo
+move y3 from Grip to Gonzo
+move r2 from Gonzo to Bigbird (y2)
+capture y1 at Grip
+move g1 from Gonzo to Bigbird
+build b2 at Grip
+build r1 at Bigbird
+move y3 from Gonzo to Bigbird
+sacrifice r1 at Bigbird; capture y2 at Kermit
+sacrifice r2 at Grip; capture r2 at Bigbird; capture g1 at Bigbird
+convert y1 to r1 at Gonzo
+move b2 from Grip to Surge (r3)
+build g1 at Ts52
+sacrifice g3 at Felix; build b2 at Felix; build b3 at Surge; build b3 at Surge
+move g1 from Ts52 to Gonzo
+sacrifice y3 at Bigbird; move b3 from Surge to Ts52; move b3 from Surge to Ts52; move g1 from Bigbird to Oster (y3)
+sacrifice y2 at Kermit; move y3 from Kermit to Bigbird; move y3 from Bigbird to Felix
+sacrifice r2 at Bigbird; capture g3 at Ts52

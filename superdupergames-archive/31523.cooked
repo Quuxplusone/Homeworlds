@@ -1,0 +1,84 @@
+Mneme (0, r1b2) g3-
+Babamots (1, r1b3) -g3
+build g1 at Mneme
+build g1 at Babamots
+convert g1 to r1 at Mneme
+convert g1 to y1 at Babamots
+build r2 at Mneme
+build y1 at Babamots
+convert r2 to y2 at Mneme
+move y1 from Babamots to Betazed (g2)
+build r2 at Mneme
+build y1 at Betazed
+build y2 at Mneme
+sacrifice g3 at Babamots; build y2 at Betazed; build y3 at Babamots; build y3 at Babamots
+move y2 from Mneme to Euterpe (b3)
+sacrifice y1 at Betazed; move y3 from Babamots to Galorndon (b2)
+move r2 from Mneme to Euterpe
+convert y3 to g3 at Babamots
+move r2 from Euterpe to Betazed
+move y2 from Betazed to Iconia (b1)
+capture y1 at Betazed
+convert y2 to r2 at Iconia
+build r2 at Betazed
+build g1 at Babamots
+convert r1 to b1 at Mneme
+move g1 from Babamots to Galorndon
+build g1 at Mneme
+build g1 at Babamots
+move r2 from Betazed to Jumper (y1)
+build g2 at Galorndon
+sacrifice g3 at Mneme; build y2 at Euterpe; build y3 at Betazed; build y3 at Mneme
+convert g1 to r1 at Galorndon
+build r3 at Betazed
+sacrifice g2 at Galorndon; build r3 at Galorndon; build r3 at Iconia
+sacrifice b1 at Mneme; convert r2 to b2 at Betazed
+move r3 from Galorndon to Euterpe
+sacrifice y2 at Euterpe; move y2 from Euterpe to Caliope (g2); move y3 from Betazed to Polyhymnia (g3)
+move g1 from Babamots to Galorndon
+build r2 at Betazed
+build y2 at Galorndon
+build b1 at Betazed
+sacrifice y2 at Galorndon; move r1 from Galorndon to Vidiia (b3); move g1 from Galorndon to Ktaris (b1)
+move r2 from Jumper to Erato (y2)
+build g1 at Babamots
+sacrifice y2 at Mneme; move r2 from Betazed to Iconia; move r2 from Erato to Iconia; catastrophe red at Iconia
+sacrifice g3 at Babamots; build g2 at Ktaris; build g3 at Babamots; build r2 at Euterpe
+build g3 at Mneme
+convert r2 to y2 at Euterpe
+sacrifice g3 at Mneme; build g3 at Mneme; build b1 at Betazed; build r2 at Betazed
+sacrifice y3 at Galorndon; move g1 from Ktaris to Betazed; move g2 from Ktaris to Betazed; move g1 from Babamots to Betazed; catastrophe green at Betazed
+build y1 at Polyhymnia
+convert y2 to g2 at Euterpe
+convert g1 to b1 at Mneme
+build r2 at Euterpe
+sacrifice b1 at Mneme; convert y3 to r3 at Polyhymnia
+convert r2 to y2 at Euterpe
+build r2 at Polyhymnia
+build r2 at Euterpe
+build g1 at Mneme
+move r2 from Euterpe to Mabbu (b1)
+move g1 from Mneme to Erato (y3)
+build r2 at Euterpe
+build g1 at Mneme
+build g1 at Babamots
+convert g1 to b1 at Mneme
+convert r3 to y3 at Euterpe
+sacrifice b1 at Mneme; convert r2 to b2 at Polyhymnia
+sacrifice g2 at Euterpe; build r2 at Mabbu; build r3 at Vidiia
+build r3 at Polyhymnia
+sacrifice y2 at Euterpe; move r2 from Mabbu to Polyhymnia; move r2 from Mabbu to Polyhymnia; catastrophe red at Polyhymnia
+build g1 at Mneme
+convert r2 to g2 at Euterpe
+sacrifice g3 at Mneme; build g2 at Mneme; build g3 at Erato; build b1 at Polyhymnia
+sacrifice g3 at Babamots; build y1 at Babamots; build y2 at Euterpe; build g3 at Babamots
+convert b2 to r2 at Polyhymnia
+sacrifice y1 at Babamots; move r3 from Vidiia to Caliope
+move y2 from Caliope to Vidiia
+sacrifice g3 at Babamots; build r2 at Caliope; build y1 at Babamots; build g3 at Babamots
+sacrifice r2 at Polyhymnia; capture r1 at Vidiia
+sacrifice y1 at Babamots; move r3 from Caliope to Polyhymnia
+sacrifice y1 at Polyhymnia; move b1 from Polyhymnia to Melpomne (y2)
+sacrifice y2 at Euterpe; move y3 from Euterpe to Mneme; move r3 from Polyhymnia to Mneme
+sacrifice g3 at Erato; build g3 at Erato; build r2 at Vidiia; build y1 at Mneme
+sacrifice r2 at Caliope; capture y3 at Mneme; capture g2 at Mneme

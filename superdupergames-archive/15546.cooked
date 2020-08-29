@@ -1,0 +1,21 @@
+Mathochist (0, r1b2) g3-
+Dethdukk (1, b1y3) -g3
+build g1 at Mathochist
+build g1 at Dethdukk
+convert g1 to y1 at Mathochist
+build g1 at Dethdukk
+build y1 at Mathochist
+convert g1 to y1 at Dethdukk
+build y2 at Mathochist
+build y2 at Dethdukk
+move y1 from Mathochist to Dude (g3)
+convert g1 to r1 at Dethdukk
+sacrifice y2 at Mathochist; move y1 from Dude to Babe (g2); move y1 from Babe to Dethdukk; catastrophe yellow at Dethdukk
+build r1 at Dethdukk
+build g1 at Mathochist
+build r2 at Dethdukk
+build y1 at Mathochist
+convert r2 to y2 at Dethdukk
+move g1 from Mathochist to Wishingstar (y3)
+move r1 from Dethdukk to Wishingstar
+move g1 from Wishingstar to Mathochist

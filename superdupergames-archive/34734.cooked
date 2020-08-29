@@ -1,0 +1,62 @@
+Goulo (0, r3b1) g3-
+Trydnt (1, b1g2) -b3
+build g1 at Goulo
+build b1 at Trydnt
+convert g3 to b3 at Goulo
+convert b3 to y3 at Trydnt
+build b2 at Goulo
+build b2 at Trydnt
+convert b2 to y2 at Goulo
+convert b1 to r1 at Trydnt
+build y1 at Goulo
+build r1 at Trydnt
+build g1 at Goulo
+build r1 at Trydnt
+convert y2 to r2 at Goulo
+convert r1 to g1 at Trydnt
+build g2 at Goulo
+build y1 at Trydnt
+move g1 from Goulo to Flavo (y2)
+move g1 from Trydnt to Y3 (y3)
+move g1 from Goulo to Flavodua (y2)
+move b2 from Trydnt to Y3
+move g1 from Flavodua to Flavego (y3)
+move y1 from Trydnt to G3 (g3)
+build g2 at Flavego
+build g3 at Y3
+build g3 at Goulo
+sacrifice g3 at Y3; build g3 at Y3; build y1 at Trydnt; build y2 at G3
+build y2 at Goulo
+move r1 from Trydnt to Y3
+sacrifice y2 at Goulo; move g1 from Flavego to Trydnt; move g2 from Flavego to Trydnt
+sacrifice g3 at Y3; build g3 at Y3; build y2 at Trydnt; build y3 at G3
+sacrifice r2 at Goulo; capture y2 at Trydnt; capture r1 at Trydnt
+sacrifice b2 at Y3; convert y3 to b3 at Trydnt; convert y3 to r3 at G3
+sacrifice g1 at Flavo; build g1 at Trydnt; catastrophe green at Trydnt
+sacrifice r1 at Y3; capture r1 at Trydnt
+move y2 from Trydnt to Verdo (g2)
+move y2 from G3 to Verdo
+move y2 from Verdo to Rughego (r3)
+sacrifice g3 at Y3; build y2 at G3; build y3 at Verdo; build y3 at Trydnt
+convert g2 to r2 at Goulo
+move b3 from Trydnt to Y3
+move b3 from Goulo to Verdodua (g2)
+sacrifice b3 at Y3; convert y3 to g3 at Trydnt; convert y2 to b2 at Verdo; convert y2 to b2 at G3
+sacrifice g3 at Goulo; build y2 at Rughego; build y2 at Rughego; build y3 at Goulo
+sacrifice g1 at Y3; build y3 at G3
+move y2 from Rughego to Rugho (r2)
+build b1 at G3
+move y2 from Rughego to Verdodua
+build r1 at G3
+convert y1 to g1 at Goulo
+move r1 from G3 to Verdo
+move r2 from Goulo to Verdodua
+build r1 at Verdo
+build b2 at Verdodua
+move b2 from G3 to Verdodua
+sacrifice y2 at Verdodua; move b3 from Verdodua to Rughego; move b2 from Verdodua to Flaveto (y1)
+sacrifice r1 at Trydnt; capture r2 at Verdodua
+build g1 at Goulo
+sacrifice y3 at G3; move r1 from Verdo to Goulo; move r1 from Verdo to Goulo; move r2 from Verdodua to Goulo; catastrophe red at Goulo
+sacrifice g1 at Goulo; build b3 at Rughego
+sacrifice y3 at Verdo; move b1 from G3 to Goulo; move b2 from Verdo to Goulo; move b2 from Verdodua to Goulo; catastrophe blue at Goulo

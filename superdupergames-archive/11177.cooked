@@ -1,0 +1,43 @@
+Danner (0, r1b2) g3-
+Madwuher (1, b3r1) -g3
+build g1 at Danner
+build g1 at Madwuher
+convert g1 to r1 at Danner
+convert g1 to y1 at Madwuher
+build r2 at Danner
+build g1 at Madwuher
+convert r2 to y2 at Danner
+convert g3 to r3 at Madwuher
+build r2 at Danner
+build r2 at Madwuher
+move r1 from Danner to Earth (g3)
+move r2 from Madwuher to Googleplex (g2)
+sacrifice g3 at Danner; build r2 at Earth; build r3 at Earth; build r3 at Danner
+build g1 at Madwuher
+sacrifice r1 at Earth
+build g1 at Madwuher
+convert r3 to g3 at Danner
+convert g1 to y1 at Madwuher
+sacrifice y2 at Danner; move r2 from Earth to Alpha (y2); move r3 from Earth to Beta (y2)
+build y1 at Madwuher
+move r3 from Beta to Madwuher
+capture r3 at Madwuher
+move r2 from Alpha to Madwuher; catastrophe red at Madwuher
+move y1 from Madwuher to Googleplex
+convert r2 to y2 at Danner
+build y2 at Googleplex
+build y2 at Danner
+sacrifice y2 at Googleplex; move y1 from Madwuher to Danner; move y1 from Madwuher to Danner; catastrophe yellow at Danner
+build g1 at Danner
+build g2 at Madwuher
+convert g1 to y1 at Danner
+convert g2 to y2 at Madwuher
+build g1 at Danner
+move g1 from Madwuher to Blutopia (b2)
+convert g1 to b1 at Danner
+build g1 at Madwuher
+build b1 at Danner
+build g2 at Blutopia
+move b1 from Danner to Madwuher
+sacrifice g2 at Blutopia; build g2 at Blutopia; build r1 at Googleplex
+sacrifice g3 at Danner; build b1 at Madwuher; build b2 at Madwuher; catastrophe blue at Madwuher

@@ -1,0 +1,40 @@
+Daselva (0, g3y2) b3-
+Zackstack (1, r1b2) -g3
+build b1 at Daselva
+build g1 at Zackstack
+convert b1 to r1 at Daselva
+convert g1 to r1 at Zackstack
+build b1 at Daselva
+build r2 at Zackstack
+build r2 at Daselva
+convert r2 to y2 at Zackstack
+convert r1 to y1 at Daselva
+build g1 at Zackstack
+convert b3 to g3 at Daselva
+build g1 at Zackstack
+build b1 at Daselva
+move g1 from Zackstack to Deepsea (b3)
+move b1 from Daselva to Blue (g1)
+build g2 at Deepsea
+build g2 at Daselva
+build g2 at Deepsea
+move g2 from Daselva to Blue
+convert g2 to y2 at Deepsea
+convert b1 to y1 at Blue
+move g1 from Deepsea to Puddle (b1)
+move r2 from Daselva to Puddle
+sacrifice y2 at Deepsea; move g1 from Puddle to Daselva; move g2 from Deepsea to Spark (y1)
+convert g3 to r3 at Daselva
+sacrifice g3 at Zackstack; build g2 at Daselva; build g3 at Daselva; build g3 at Zackstack; catastrophe green at Daselva
+sacrifice g2 at Blue; build y2 at Blue; build y3 at Daselva
+build y3 at Zackstack
+convert y1 to r1 at Daselva
+move y2 from Zackstack to Melon (g3)
+sacrifice y1 at Blue; move r2 from Puddle to Melon
+move y2 from Melon to Pea (g1)
+build r2 at Melon
+build y1 at Pea
+sacrifice y3 at Daselva; move r2 from Melon to Zackstack; move r2 from Melon to Zackstack; move r1 from Daselva to Pea; catastrophe red at Zackstack
+sacrifice y3 at Zackstack; move y1 from Pea to Daselva; move y2 from Pea to Daselva; move g2 from Spark to Daselva
+capture g2 at Daselva
+sacrifice g1 at Zackstack; build y1 at Daselva; catastrophe yellow at Daselva

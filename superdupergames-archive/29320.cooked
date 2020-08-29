@@ -1,0 +1,17 @@
+Nycavri (0, y1b2) g3-
+Nupanick (1, b1g3) -y3
+build g1 at Nycavri
+build y1 at Nupanick
+move g1 from Nycavri to Deacon (y3)
+convert y1 to r1 at Nupanick
+build g1 at Nycavri
+convert r1 to g1 at Nupanick
+build g2 at Deacon
+move g1 from Nupanick to Discworld (y2)
+convert g1 to b1 at Nycavri
+build y1 at Nupanick
+move b1 from Nycavri to Deacon
+move g1 from Discworld to Chalkzone (b3)
+convert g1 to r1 at Deacon
+convert y1 to r1 at Nupanick
+build g1 at Deacon

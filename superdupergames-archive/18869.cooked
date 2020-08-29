@@ -1,0 +1,8 @@
+Baxy (0, g3b1) y3-
+Jesse (1, b1g2) -b3
+build y1 at Baxy
+build b1 at Jesse
+build y1 at Baxy
+convert b3 to y3 at Jesse
+convert y3 to b3 at Baxy
+build b2 at Jesse

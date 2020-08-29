@@ -1,0 +1,26 @@
+Fnord (0, y2b1) g3-
+Zoltar (1, g2b3) -y3
+build g1 at Fnord
+build y1 at Zoltar
+convert g1 to y1 at Fnord
+convert y1 to g1 at Zoltar
+build y1 at Fnord
+move g1 from Zoltar to Blue1 (b1)
+move y1 from Fnord to Eris (r3)
+build g1 at Blue1
+build y1 at Fnord
+build y2 at Zoltar
+move y1 from Fnord to Eris
+convert y3 to r3 at Zoltar
+build g1 at Fnord
+build y2 at Zoltar
+move g1 from Fnord to Eris
+build y3 at Zoltar
+build g2 at Fnord
+sacrifice y3 at Zoltar; move r3 from Zoltar to Blue1; move r3 from Blue1 to Eris; move r3 from Eris to Fnord
+sacrifice g3 at Fnord; build y3 at Fnord; build g2 at Fnord; build g3 at Fnord
+sacrifice y2 at Zoltar; move g1 from Blue1 to Eris; move g1 from Eris to Fnord; catastrophe green at Fnord
+move y1 from Eris to Blue1
+capture y3 at Fnord
+convert y1 to r1 at Blue1
+sacrifice g1 at Blue1; build y1 at Fnord; catastrophe yellow at Fnord

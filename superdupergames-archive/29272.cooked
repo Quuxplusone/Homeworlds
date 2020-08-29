@@ -1,0 +1,14 @@
+Zmehaffey (0, b3y2) g3-
+Wil (1, b3y1) -g3
+build g1 at Zmehaffey
+build g1 at Wil
+move g1 from Zmehaffey to Hornet (y1)
+convert g1 to y1 at Wil
+build g1 at Hornet
+build y2 at Wil
+build g1 at Zmehaffey
+move y1 from Wil to B2 (b2)
+move g1 from Hornet to Fig (b2)
+sacrifice g3 at Wil; build y2 at B2; build y3 at B2; build y3 at Wil
+build g2 at Hornet
+convert y3 to g3 at Wil

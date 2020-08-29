@@ -1,0 +1,42 @@
+Kanzenryu (0, g1r3) b3-
+Simon (1, b2r1) -g3
+build b1 at Kanzenryu
+build g1 at Simon
+convert b3 to y3 at Kanzenryu
+convert g1 to y1 at Simon
+build y1 at Kanzenryu
+build g1 at Simon
+convert y3 to g3 at Kanzenryu
+convert g1 to b1 at Simon
+build g1 at Kanzenryu
+move b1 from Simon to G3 (g3)
+move g1 from Kanzenryu to First (y2)
+build g1 at Simon
+build g2 at First
+build g2 at Simon
+build b1 at Kanzenryu
+move g2 from Simon to B3 (b3)
+build g2 at Kanzenryu
+sacrifice g3 at Simon; build g3 at Simon; build y1 at Simon; build y2 at Simon
+move g2 from Kanzenryu to Out (y2)
+convert y1 to r1 at Simon
+convert b1 to r1 at Kanzenryu
+sacrifice g3 at Simon; build g3 at Simon; build b1 at G3; build b2 at G3
+move r1 from Kanzenryu to First
+convert b2 to r2 at G3
+sacrifice g3 at Kanzenryu; build g3 at Out; build y1 at Kanzenryu; build y3 at Kanzenryu
+move y1 from Simon to G3
+move y1 from Kanzenryu to Out
+sacrifice g3 at Simon; build g3 at Simon; build y3 at Simon; build y3 at G3
+sacrifice g3 at Out; build g3 at Out; build b2 at Kanzenryu; build r2 at First
+move b1 from G3 to R2 (r2)
+move y1 from Out to Nearly (b3)
+sacrifice g3 at Simon; build g3 at Simon; build b2 at G3; build b3 at R2
+move r2 from First to Nearly
+build r3 at G3
+sacrifice g3 at Out; build g3 at Out; build r3 at Nearly
+move r3 from G3 to First
+move r3 from Nearly to Simon
+sacrifice r1 at Simon; capture r3 at Simon
+sacrifice y3 at Kanzenryu; move r1 from First to Nearly; move r1 from Nearly to Simon; move r2 from Nearly to Simon; catastrophe red at Simon
+sacrifice y3 at Simon; move r3 from First to Kanzenryu; move b3 from R2 to Kanzenryu; move b1 from R2 to Kanzenryu; catastrophe blue at Kanzenryu

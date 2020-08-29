@@ -1,0 +1,79 @@
+Andylooney (0, y1b2) g3-
+Uglyfoot (1, g3b1) -y3
+build g1 at Andylooney
+build y1 at Uglyfoot
+move g1 from Andylooney to Clampett (y3)
+convert y1 to g1 at Uglyfoot
+build g1 at Andylooney
+build g2 at Uglyfoot
+convert g1 to y1 at Andylooney
+move g2 from Uglyfoot to Centauri (b2)
+move y1 from Andylooney to Garden (g3)
+build y1 at Uglyfoot
+build y2 at Garden
+convert y1 to r1 at Uglyfoot
+build g1 at Andylooney
+build g2 at Centauri
+convert g1 to r1 at Andylooney
+convert g2 to y2 at Centauri
+move y1 from Garden to Greendome (g2)
+build g1 at Centauri
+build g2 at Andylooney
+move g2 from Centauri to Clampett
+move g1 from Clampett to Yellowdoor (y2)
+convert g1 to r1 at Uglyfoot
+build r2 at Andylooney
+build r2 at Uglyfoot
+move g2 from Andylooney to Thurston (y3)
+move r2 from Uglyfoot to Yellowdoor
+move g1 from Yellowdoor to Bigred (r3)
+move r2 from Yellowdoor to Clampett
+build g1 at Andylooney
+build r2 at Clampett
+convert r1 to b1 at Andylooney
+move r2 from Clampett to Greendome
+move y1 from Greendome to Bomber (b1)
+build y1 at Centauri
+sacrifice g3 at Andylooney; build g3 at Andylooney; build y2 at Bomber; build b2 at Andylooney
+build r1 at Clampett
+sacrifice g2 at Thurston; build y3 at Garden; build r3 at Andylooney
+sacrifice y2 at Centauri; move r1 from Clampett to Andylooney; move r2 from Clampett to Andylooney; catastrophe red at Andylooney
+convert y1 to r1 at Bomber
+build g2 at Clampett
+move b2 from Andylooney to Garden
+move g2 from Clampett to Andylooney
+sacrifice g3 at Andylooney; build g3 at Bigred; build b3 at Andylooney; build r2 at Bomber
+sacrifice r1 at Uglyfoot; capture b1 at Andylooney
+convert b3 to r3 at Andylooney
+sacrifice g2 at Clampett; build b3 at Andylooney; build b3 at Andylooney; catastrophe blue at Andylooney
+capture g2 at Andylooney
+build g2 at Centauri
+move g2 from Andylooney to Thurston (y3)
+build r1 at Greendome
+sacrifice g3 at Bigred; build g3 at Bigred; build r2 at Bomber; build r3 at Andylooney
+sacrifice y1 at Centauri; move r1 from Greendome to Bomber; catastrophe red at Bomber
+move r3 from Andylooney to Centauri
+sacrifice g2 at Centauri; build r1 at Uglyfoot; build r1 at Greendome
+capture g1 at Centauri
+build r2 at Greendome
+sacrifice g3 at Bigred; build g2 at Centauri; build r2 at Centauri; build g3 at Andylooney
+build y1 at Uglyfoot
+move y2 from Garden to Centauri
+move r1 from Uglyfoot to Centauri
+sacrifice y2 at Bomber; move r2 from Centauri to Thurston; move r2 from Thurston to Greendome; catastrophe red at Greendome
+capture g1 at Centauri
+sacrifice g2 at Centauri; build y1 at Garden; build y2 at Centauri
+convert y3 to b3 at Uglyfoot
+sacrifice g3 at Andylooney; build g2 at Andylooney; build g2 at Bigred; build g3 at Thurston
+build r1 at Centauri
+sacrifice r3 at Centauri; capture r1 at Centauri; capture r1 at Centauri; capture g1 at Centauri
+build y2 at Uglyfoot
+move g2 from Andylooney to Clampett (y3)
+build r2 at Uglyfoot
+build r2 at Andylooney
+move r1 from Uglyfoot to Centauri
+capture r1 at Centauri
+move r2 from Uglyfoot to Centauri; catastrophe red at Centauri
+sacrifice y2 at Centauri; move g3 from Thurston to Centauri; move g3 from Centauri to Uglyfoot
+build y2 at Uglyfoot
+sacrifice r3 at Andylooney; capture y2 at Uglyfoot; capture y2 at Uglyfoot; capture b3 at Uglyfoot

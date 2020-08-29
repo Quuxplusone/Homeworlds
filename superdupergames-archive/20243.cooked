@@ -1,0 +1,10 @@
+Subhan64 (0, b2y1) g3-
+Adambadura (1, g3b2) -y3
+build g1 at Subhan64
+build y1 at Adambadura
+build g1 at Subhan64
+convert y1 to g1 at Adambadura
+move g3 from Subhan64 to Aha (g3)
+build g2 at Adambadura
+build g2 at Subhan64
+sacrifice y3 at Adambadura; move g1 from Adambadura to Ontheway (y1); move g1 from Ontheway to Aha; move g1 from Aha to Subhan64; catastrophe green at Subhan64

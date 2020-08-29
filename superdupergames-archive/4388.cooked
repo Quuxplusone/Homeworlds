@@ -1,0 +1,24 @@
+Manny (0, b3y1) g3-
+Zoltar (1, r2b3) -g3
+build g1 at Manny
+build g1 at Zoltar
+move g1 from Manny to Flux (b2)
+convert g1 to y1 at Zoltar
+build g1 at Manny
+build y1 at Zoltar
+convert g3 to y3 at Manny
+build y2 at Zoltar
+build y2 at Manny
+move y1 from Zoltar to Greenbelt (g1)
+move y2 from Manny to Flux
+build g2 at Zoltar
+build g2 at Flux
+move y1 from Zoltar to Blueridge (b1)
+build g2 at Manny
+sacrifice g3 at Zoltar; build y2 at Greenbelt; build y3 at Blueridge; build y3 at Zoltar
+convert g1 to r1 at Manny
+convert y1 to r1 at Blueridge
+move g2 from Flux to Amber (y1)
+move y1 from Greenbelt to Blueberry (b2)
+build r1 at Manny
+move y3 from Blueridge to Flux

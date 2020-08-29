@@ -1,0 +1,62 @@
+Goulo (0, b2r3) g3-
+Mneme (1, r1b2) -g3
+build g1 at Goulo
+build g1 at Mneme
+convert g1 to y1 at Goulo
+convert g1 to y1 at Mneme
+build g1 at Goulo
+build g1 at Mneme
+convert g1 to r1 at Goulo
+convert g1 to b1 at Mneme
+build g1 at Goulo
+build b1 at Mneme
+convert g1 to b1 at Goulo
+move b1 from Mneme to Gunther (g3)
+move b1 from Goulo to Smeraldeto (g1)
+convert b1 to r1 at Gunther
+build r2 at Goulo
+build r2 at Gunther
+move r2 from Goulo to Smeraldeto
+sacrifice b1 at Mneme; convert r2 to y2 at Gunther
+build y1 at Goulo
+build y2 at Mneme
+move y1 from Goulo to Smeraldeto
+convert y2 to r2 at Mneme
+build y2 at Smeraldeto
+build g1 at Mneme
+convert y1 to g1 at Smeraldeto
+move g1 from Mneme to Launcher (y3)
+move g1 from Smeraldeto to Rubenego (r3)
+build g2 at Mneme
+build g2 at Rubenego
+move r2 from Mneme to Launcher
+sacrifice y2 at Smeraldeto; move g1 from Rubenego to Mneme; move g2 from Rubenego to Mneme; catastrophe green at Mneme
+build r2 at Gunther
+build r3 at Smeraldeto
+build r3 at Launcher
+convert r2 to y2 at Smeraldeto
+move r3 from Launcher to Mneme
+build r2 at Smeraldeto
+convert r3 to g3 at Mneme
+move r1 from Goulo to Citroneto (y1)
+sacrifice g3 at Mneme; build y2 at Mneme; build y3 at Mneme; build y3 at Gunther
+move y2 from Smeraldeto to Rubenego (r3)
+sacrifice y2 at Mneme; move r2 from Gunther to Smeraldeto; move r1 from Gunther to Smeraldeto; catastrophe red at Smeraldeto
+build y2 at Goulo
+convert y3 to g3 at Mneme
+build b1 at Smeraldeto
+build y3 at Mneme
+move y1 from Goulo to Smeraldeto
+move y3 from Gunther to Citroneto
+move r1 from Citroneto to Rubenego
+move y3 from Mneme to Rubenego
+move y2 from Rubenego to Rubeno (r2)
+capture r1 at Rubenego
+move b1 from Smeraldeto to Fragego (r3)
+move r2 from Launcher to Smeraldeto
+move y1 from Smeraldeto to Fragego
+sacrifice g1 at Launcher; build y3 at Rubenego
+build g1 at Goulo
+capture b1 at Smeraldeto
+move g1 from Goulo to Citroneto
+sacrifice r1 at Rubenego; capture g1 at Citroneto

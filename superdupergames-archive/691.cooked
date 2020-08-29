@@ -1,0 +1,50 @@
+Twoshort (0, b2y1) g3-
+Jesse (1, y2b3) -g3
+build g1 at Twoshort
+build g1 at Jesse
+build g1 at Twoshort
+move g1 from Jesse to Horch (y1)
+move g1 from Twoshort to Foosia (b3)
+build g2 at Jesse
+sacrifice g3 at Twoshort; build g2 at Foosia; build g2 at Twoshort; build g3 at Twoshort
+build g3 at Jesse
+convert g2 to y2 at Foosia
+convert g3 to r3 at Jesse
+convert g2 to r2 at Twoshort
+convert g2 to y2 at Jesse
+move g1 from Foosia to Yellonia (y1)
+move y2 from Jesse to Zuban (b1)
+build g2 at Yellonia
+build r1 at Jesse
+sacrifice g2 at Yellonia; build y3 at Foosia; build g2 at Yellonia
+sacrifice g3 at Jesse; build g2 at Horch; build g2 at Horch; build y3 at Zuban
+sacrifice y3 at Foosia; move g1 from Yellonia to Foosia; move g1 from Foosia to Horch; move y2 from Foosia to Bluto (b1); catastrophe green at Horch
+move y2 from Zuban to Triffid (g3)
+build r1 at Twoshort
+convert r1 to g1 at Jesse
+build g1 at Yellonia
+build r1 at Jesse
+convert y2 to b2 at Bluto
+build g2 at Jesse
+sacrifice g2 at Yellonia; build g2 at Yellonia; build b1 at Bluto
+move g2 from Jesse to Zuban
+move g1 from Yellonia to Oldyeller (y3)
+convert r3 to g3 at Jesse
+build g2 at Yellonia
+sacrifice g3 at Jesse; build r1 at Jesse; build r2 at Jesse; build g3 at Zuban
+convert g3 to y3 at Twoshort
+build g3 at Jesse
+convert b2 to r2 at Bluto
+convert r1 to y1 at Jesse
+move g2 from Yellonia to Jesse
+capture g2 at Jesse
+sacrifice g1 at Oldyeller; build b2 at Bluto
+sacrifice g2 at Jesse; build y2 at Zuban; build y3 at Triffid
+sacrifice g2 at Yellonia; build r1 at Twoshort; build r3 at Bluto
+sacrifice y2 at Zuban; move y2 from Triffid to Twoshort; move y3 from Triffid to Twoshort; catastrophe yellow at Twoshort
+convert r2 to y2 at Twoshort
+move g3 from Zuban to Twoshort
+sacrifice y2 at Twoshort; move r3 from Bluto to Jesse; move r2 from Bluto to Jesse; catastrophe red at Jesse
+convert g3 to b3 at Twoshort
+sacrifice b2 at Bluto; convert r1 to g1 at Twoshort; convert r1 to y1 at Twoshort
+sacrifice g2 at Zuban; build b2 at Twoshort; build b2 at Twoshort; catastrophe blue at Twoshort

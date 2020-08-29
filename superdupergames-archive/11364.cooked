@@ -1,0 +1,11 @@
+Madwuher (0, r1b2) g3-
+Djanyreason (1, b1r3) -g3
+build g1 at Madwuher
+build g1 at Djanyreason
+convert g1 to y1 at Madwuher
+convert g1 to y1 at Djanyreason
+build g1 at Madwuher
+build g1 at Djanyreason
+convert g1 to r1 at Madwuher
+convert g1 to r1 at Djanyreason
+build r2 at Madwuher

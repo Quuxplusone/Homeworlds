@@ -1,0 +1,58 @@
+Agentofchaos (0, r1b2) g3-
+Twoshort (1, b1r3) -g3
+build g1 at Agentofchaos
+build g1 at Twoshort
+convert g1 to y1 at Agentofchaos
+convert g1 to y1 at Twoshort
+build g1 at Agentofchaos
+build g1 at Twoshort
+move y1 from Agentofchaos to Myxo (g3)
+move g1 from Twoshort to Bluestar (b2)
+convert g1 to r1 at Agentofchaos
+build y1 at Twoshort
+build y2 at Myxo
+move y1 from Twoshort to Bluestar
+build r1 at Agentofchaos
+build y2 at Bluestar
+move y2 from Myxo to Bluestar
+sacrifice g3 at Twoshort; build y2 at Bluestar; build y3 at Twoshort; build y3 at Twoshort; catastrophe yellow at Bluestar
+convert r1 to y1 at Agentofchaos
+convert y3 to g3 at Twoshort
+build y2 at Myxo
+move y3 from Twoshort to Bluestar
+build y2 at Agentofchaos
+move g1 from Bluestar to Yolonda (y3)
+convert y1 to b1 at Agentofchaos
+build g1 at Twoshort
+build g1 at Agentofchaos
+build g2 at Yolonda
+move g1 from Agentofchaos to Zurvan (y3)
+move g1 from Yolonda to Bluestar
+move y2 from Myxo to Seti (b2)
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g2 at Bluestar; build g3 at Twoshort
+move r1 from Agentofchaos to Myxo
+convert g2 to r2 at Bluestar
+move y1 from Myxo to Seti
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Twoshort; build y1 at Bluestar
+build y2 at Agentofchaos
+convert g1 to b1 at Bluestar
+convert y1 to g1 at Seti
+move b1 from Bluestar to Yolonda
+move b1 from Agentofchaos to Zurvan
+sacrifice g3 at Twoshort; build b3 at Yolonda; build b3 at Yolonda; build g3 at Twoshort
+sacrifice y2 at Agentofchaos; move b1 from Zurvan to Seti; move b1 from Seti to Yolonda; catastrophe blue at Yolonda
+convert y1 to b1 at Bluestar
+build y1 at Seti
+move g2 from Bluestar to Zurvan
+convert g3 to r3 at Agentofchaos
+sacrifice g2 at Yolonda; build g2 at Zurvan; build g3 at Yolonda
+move g1 from Zurvan to Titan (y2)
+convert g1 to b1 at Twoshort
+build g1 at Titan
+sacrifice g2 at Yolonda; build b3 at Bluestar; build b3 at Twoshort
+build g2 at Seti
+sacrifice y3 at Bluestar; move b3 from Bluestar to Yolonda; move b3 from Yolonda to Agentofchaos; move g3 from Yolonda to Agentofchaos
+capture b3 at Agentofchaos
+sacrifice r2 at Bluestar; capture r3 at Agentofchaos; capture b3 at Agentofchaos
+sacrifice g2 at Seti; build y1 at Agentofchaos; build y3 at Agentofchaos
+convert b3 to y3 at Agentofchaos; catastrophe yellow at Agentofchaos

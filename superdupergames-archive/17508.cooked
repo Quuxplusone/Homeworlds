@@ -1,0 +1,40 @@
+Adambadura (0, g3b2) r3-
+Twoshort (1, b1r3) -g3
+build r1 at Adambadura
+build g1 at Twoshort
+build r1 at Adambadura
+convert g1 to r1 at Twoshort
+convert r1 to y1 at Adambadura
+build g1 at Twoshort
+convert r1 to b1 at Adambadura
+convert g1 to y1 at Twoshort
+build r1 at Adambadura
+build y1 at Twoshort
+build y2 at Adambadura
+build y2 at Twoshort
+move y2 from Adambadura to Shipyard (g1)
+convert y2 to g2 at Twoshort
+build y2 at Adambadura
+move y1 from Twoshort to Grogar (g2)
+convert y1 to g1 at Adambadura
+move g2 from Twoshort to Bluestar (b2)
+build g1 at Adambadura
+build g2 at Twoshort
+convert g1 to b1 at Adambadura
+sacrifice g3 at Twoshort; build g1 at Twoshort; build g3 at Twoshort; build g3 at Bluestar
+move b1 from Adambadura to Shipyard
+convert g2 to y2 at Bluestar
+convert y2 to g2 at Shipyard
+move g2 from Twoshort to Yolonda (y2)
+sacrifice g1 at Adambadura; build b2 at Adambadura
+move g3 from Bluestar to Yellonia (y3)
+sacrifice g2 at Shipyard; build b3 at Shipyard; build b3 at Shipyard
+sacrifice g3 at Twoshort; build y1 at Bluestar; build y3 at Twoshort; build y3 at Bluestar
+convert b3 to r3 at Shipyard
+sacrifice g3 at Yellonia; build y3 at Grogar; build g1 at Yolonda; build g2 at Yolonda
+convert r3 to g3 at Adambadura
+move g1 from Yolonda to Shipyard
+sacrifice y2 at Adambadura; move b3 from Shipyard to Yolonda; move r3 from Shipyard to Yolonda
+sacrifice y3 at Grogar; move g2 from Yolonda to Shipyard; move g2 from Shipyard to Adambadura; move g1 from Shipyard to Adambadura; catastrophe green at Adambadura
+capture g2 at Yolonda
+sacrifice y2 at Bluestar; move y3 from Bluestar to Shipyard; move y3 from Shipyard to Adambadura

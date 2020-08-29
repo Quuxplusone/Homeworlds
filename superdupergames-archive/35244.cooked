@@ -1,0 +1,62 @@
+Draw5Playall (0, b3r1) g3-
+Dlwillson (1, b3r2) -g3
+build g1 at Draw5Playall
+build g1 at Dlwillson
+convert g1 to y1 at Draw5Playall
+convert g1 to y1 at Dlwillson
+build g1 at Draw5Playall
+build g1 at Dlwillson
+convert g1 to r1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+build r2 at Draw5Playall
+build r2 at Dlwillson
+move r2 from Draw5Playall to Build (g2)
+move r1 from Dlwillson to Field (g1)
+sacrifice g3 at Draw5Playall; build r3 at Build; build r3 at Draw5Playall; build y1 at Draw5Playall
+build y2 at Dlwillson
+convert r3 to g3 at Draw5Playall
+build r3 at Field
+sacrifice y1 at Draw5Playall; move r2 from Build to Construct (g3)
+build r3 at Dlwillson
+build y1 at Draw5Playall
+move y1 from Dlwillson to Field
+move y1 from Draw5Playall to Build
+convert r2 to b2 at Dlwillson
+build y2 at Build
+convert r3 to y3 at Dlwillson
+move y1 from Build to Trade (b1)
+move y3 from Dlwillson to Trade
+sacrifice g3 at Draw5Playall; build y2 at Trade; build y3 at Draw5Playall; build y3 at Build
+convert y3 to r3 at Trade
+sacrifice y1 at Trade; move y2 from Trade to Grow (g3)
+build g1 at Dlwillson
+convert y1 to g1 at Draw5Playall
+build y1 at Field
+build g2 at Draw5Playall
+sacrifice y2 at Dlwillson; move y1 from Field to Build; move y1 from Field to Build; catastrophe yellow at Build
+convert g1 to b1 at Draw5Playall
+convert g1 to y1 at Dlwillson
+move b1 from Draw5Playall to Build
+move b2 from Dlwillson to Field
+build r2 at Build
+convert r1 to y1 at Field
+convert r2 to y2 at Build
+build g1 at Dlwillson
+build y1 at Build
+convert r3 to y3 at Trade
+move y1 from Build to Attack (r1)
+move g1 from Dlwillson to Trade
+sacrifice g2 at Draw5Playall; build r2 at Build; build r3 at Construct
+build g1 at Dlwillson
+move y2 from Grow to Convert (b1)
+sacrifice g3 at Dlwillson; build g2 at Trade; build g2 at Trade; build g3 at Dlwillson
+convert y3 to g3 at Draw5Playall
+sacrifice g3 at Dlwillson; build y2 at Field; build y3 at Dlwillson; build g3 at Dlwillson
+build y3 at Build
+sacrifice y3 at Trade; move g2 from Trade to Build; move g2 from Trade to Build; move g1 from Trade to Build; catastrophe green at Build
+convert r1 to b1 at Draw5Playall
+move y3 from Dlwillson to Attack
+move y1 from Attack to Construct
+move y2 from Field to Forest (g2)
+build g1 at Draw5Playall
+sacrifice g3 at Dlwillson; build y2 at Attack; build y3 at Forest; build y3 at Dlwillson

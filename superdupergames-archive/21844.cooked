@@ -1,0 +1,22 @@
+Anonymousapple (0, y3b2) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Anonymousapple
+build g1 at Ts52
+move g1 from Anonymousapple to Snickers (b1)
+convert g1 to r1 at Ts52
+build g1 at Anonymousapple
+build r1 at Ts52
+convert g1 to r1 at Anonymousapple
+build r2 at Ts52
+move r1 from Anonymousapple to Diablo (y1)
+move r2 from Ts52 to Grover (b3)
+move r1 from Diablo to Sulfur (g3)
+build g1 at Ts52
+build g1 at Anonymousapple
+move g1 from Ts52 to Grover
+build r2 at Sulfur
+build r2 at Grover
+convert g1 to y1 at Anonymousapple
+convert r2 to y2 at Grover
+sacrifice y1 at Anonymousapple; move r2 from Sulfur to Ts52
+capture r2 at Ts52

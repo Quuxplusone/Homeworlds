@@ -1,0 +1,62 @@
+Laurie_Menke (0, y3b1) g3-
+Personman (1, y1b2) -g3
+build g1 at Laurie_Menke
+build g1 at Personman
+convert g1 to r1 at Laurie_Menke
+convert g1 to r1 at Personman
+build g1 at Laurie_Menke
+build g1 at Personman
+move g1 from Laurie_Menke to Yeller (y2)
+convert g1 to y1 at Personman
+build g1 at Laurie_Menke
+build y1 at Personman
+convert g3 to y3 at Laurie_Menke
+move y1 from Personman to Grainy (g3)
+build y2 at Laurie_Menke
+build y2 at Grainy
+move y2 from Laurie_Menke to Green (g2)
+build y3 at Personman
+sacrifice g1 at Yeller; build y2 at Green
+convert y3 to r3 at Personman
+move y2 from Green to Lime (g1)
+convert y1 to b1 at Personman
+convert y3 to g3 at Laurie_Menke
+build g1 at Personman
+sacrifice g3 at Laurie_Menke; build y1 at Lime; build y3 at Green; build g2 at Laurie_Menke
+move y2 from Grainy to Green
+move y3 from Green to Grainy
+sacrifice r1 at Personman; capture y2 at Green
+move y1 from Lime to Forest (g3)
+build g2 at Personman
+build y3 at Forest
+convert g1 to b1 at Personman
+convert g2 to b2 at Laurie_Menke
+move b1 from Personman to Grainy
+build g1 at Laurie_Menke
+build r1 at Personman
+build g2 at Laurie_Menke
+move r1 from Personman to Blimp (b3)
+sacrifice r1 at Laurie_Menke; capture b1 at Grainy
+sacrifice r1 at Blimp; capture b1 at Grainy
+convert g2 to r2 at Laurie_Menke
+move y1 from Grainy to Gurney (g2)
+move y2 from Lime to Gurney
+move y1 from Gurney to Grumpy (g1)
+move b2 from Laurie_Menke to Gurney
+build r1 at Personman
+move b2 from Gurney to Forest
+move y2 from Green to Blur (b3)
+build b2 at Forest
+move r3 from Personman to Blur
+build r1 at Laurie_Menke
+sacrifice g3 at Personman; build g3 at Personman; build r1 at Personman; build r2 at Blur
+move r1 from Laurie_Menke to Gurney
+sacrifice y2 at Green; move r3 from Blur to Gurney; move r3 from Gurney to Laurie_Menke
+build r2 at Laurie_Menke
+sacrifice r2 at Blur; capture g1 at Laurie_Menke; capture g1 at Laurie_Menke
+move y2 from Gurney to Laurie_Menke
+capture r2 at Laurie_Menke
+sacrifice r2 at Laurie_Menke; capture r2 at Laurie_Menke; capture g1 at Laurie_Menke
+capture r2 at Laurie_Menke
+sacrifice y3 at Grainy; move y1 from Forest to Personman; move b2 from Forest to Personman; move b2 from Forest to Personman; catastrophe blue at Personman
+sacrifice r2 at Laurie_Menke; capture y2 at Laurie_Menke; capture g1 at Laurie_Menke

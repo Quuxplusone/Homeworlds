@@ -1,0 +1,31 @@
+Onepagewars (0, b2r1) g3-
+Foksieloy (1, b3y2) -g3
+build g1 at Onepagewars
+build g1 at Foksieloy
+convert g1 to y1 at Onepagewars
+convert g1 to y1 at Foksieloy
+build g1 at Onepagewars
+build g1 at Foksieloy
+convert g1 to b1 at Onepagewars
+move g1 from Foksieloy to Blackadder (r1)
+build b1 at Onepagewars
+build g1 at Foksieloy
+move b1 from Onepagewars to Bravelyranrobin (g3)
+sacrifice y1 at Foksieloy; move g1 from Blackadder to Balldrick (r3)
+build y1 at Onepagewars
+convert g1 to r1 at Foksieloy
+build g1 at Onepagewars
+build r1 at Foksieloy
+build b1 at Bravelyranrobin
+move r1 from Foksieloy to Percy (y1)
+build b2 at Bravelyranrobin
+sacrifice g1 at Balldrick; build r2 at Percy
+convert b2 to r2 at Bravelyranrobin
+build g1 at Foksieloy
+build b2 at Bravelyranrobin
+convert g3 to b3 at Foksieloy
+convert b2 to y2 at Bravelyranrobin
+build b2 at Foksieloy
+sacrifice y2 at Bravelyranrobin; move b1 from Bravelyranrobin to Percy; move b1 from Percy to Foksieloy; catastrophe blue at Foksieloy
+build r2 at Foksieloy
+build r3 at Bravelyranrobin

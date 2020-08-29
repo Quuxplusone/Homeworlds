@@ -1,0 +1,60 @@
+Aaron (0, y1b2) g3-
+Zoltar (1, y2b3) -g3
+build g1 at Aaron
+build g1 at Zoltar
+convert g1 to y1 at Aaron
+move g1 from Zoltar to Blueberry (b1)
+build g1 at Aaron
+build g1 at Zoltar
+convert g1 to b1 at Aaron
+move g1 from Zoltar to Raspberry (r1)
+move b1 from Aaron to Emeralds (g3)
+build g1 at Zoltar
+build g2 at Aaron
+convert g1 to r1 at Zoltar
+convert g2 to r2 at Aaron
+build g1 at Zoltar
+move r2 from Aaron to Emeralds
+build g2 at Raspberry
+build g2 at Aaron
+sacrifice g3 at Zoltar; build g2 at Blueberry; build g3 at Zoltar; build r1 at Zoltar
+sacrifice g3 at Aaron; build g3 at Aaron; build r2 at Emeralds; build y1 at Aaron
+convert g2 to y2 at Blueberry
+move y1 from Aaron to Emeralds
+move r1 from Zoltar to Blueberry
+move r2 from Emeralds to Aaron
+convert g1 to b1 at Zoltar
+build b2 at Emeralds
+move b1 from Zoltar to Raspberry
+move g2 from Aaron to Bananas (y3)
+move g1 from Blueberry to Pineapple (y3)
+build r2 at Aaron
+build g1 at Zoltar
+build g2 at Aaron
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r3 at Zoltar; build r3 at Blueberry
+sacrifice g3 at Aaron; build g3 at Aaron; build r3 at Emeralds; build y2 at Emeralds
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Blueberry; build b2 at Raspberry
+move r2 from Aaron to Pineapple
+move y3 from Blueberry to Pineapple
+move r2 from Pineapple to Aaron
+move g1 from Pineapple to Aaron
+sacrifice g2 at Aaron; build g2 at Bananas
+sacrifice g1 at Zoltar; build g1 at Aaron
+sacrifice r2 at Aaron; capture g1 at Aaron; capture g1 at Aaron
+sacrifice y2 at Blueberry; move g1 from Raspberry to Pineapple; move g1 from Pineapple to Aaron; catastrophe green at Aaron
+move r3 from Emeralds to Raspberry
+sacrifice b2 at Raspberry; convert y3 to g3 at Pineapple; convert r3 to y3 at Blueberry
+sacrifice g2 at Bananas; build r2 at Emeralds; build r3 at Aaron
+sacrifice g2 at Raspberry; build y2 at Blueberry; build g1 at Pineapple
+capture b1 at Raspberry
+move y3 from Blueberry to Emeralds
+sacrifice y1 at Emeralds; move r3 from Raspberry to Bananas
+sacrifice r3 at Zoltar; capture r2 at Emeralds; capture r2 at Emeralds; capture y2 at Emeralds
+sacrifice r2 at Aaron; capture r2 at Emeralds; capture r2 at Emeralds
+sacrifice g3 at Pineapple; build r2 at Zoltar; build r3 at Blueberry; build y1 at Blueberry
+capture y2 at Emeralds
+sacrifice r2 at Zoltar; capture r2 at Emeralds; capture r2 at Emeralds
+sacrifice r3 at Bananas; capture r2 at Emeralds; capture r2 at Emeralds
+sacrifice r3 at Blueberry; capture r2 at Emeralds; capture r2 at Emeralds; capture y2 at Emeralds
+sacrifice r3 at Aaron; capture r2 at Emeralds; capture r2 at Emeralds; capture y2 at Emeralds
+move y3 from Emeralds to Aaron

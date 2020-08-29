@@ -1,0 +1,42 @@
+Krispy101 (0, g3b2) r3-
+Bugggg (1, b1y2) -g3
+convert r3 to y3 at Krispy101
+build g1 at Bugggg
+build y1 at Krispy101
+build g1 at Bugggg
+move y1 from Krispy101 to Adam (r1)
+convert g1 to r1 at Bugggg
+convert y3 to r3 at Krispy101
+build g1 at Bugggg
+build r1 at Krispy101
+convert g1 to y1 at Bugggg
+move y1 from Adam to Bertie (g2)
+build g1 at Bugggg
+build y1 at Bertie
+move g1 from Bugggg to Eyedea (y3)
+convert r1 to b1 at Krispy101
+build g1 at Eyedea
+move y1 from Bertie to Charlie (b1)
+build g2 at Bugggg
+build y2 at Bertie
+build y2 at Bugggg
+move y2 from Bertie to Charlie
+move g1 from Eyedea to Charlie
+convert y2 to r2 at Charlie
+sacrifice g2 at Bugggg; build g2 at Charlie; build g2 at Charlie
+capture g2 at Charlie
+sacrifice y2 at Bugggg; move g1 from Charlie to Krispy101; move g2 from Charlie to Krispy101
+capture g2 at Krispy101
+sacrifice g1 at Bugggg; build g1 at Krispy101; catastrophe green at Krispy101
+move y1 from Charlie to Darren (g2)
+build y2 at Bugggg
+build y2 at Darren
+convert y2 to b2 at Bugggg
+move y2 from Darren to Charlie
+move b2 from Bugggg to Eyedea
+build y2 at Charlie
+build b2 at Eyedea
+move y2 from Charlie to Krispy101
+build y3 at Bugggg
+build y3 at Bertie
+sacrifice y3 at Bugggg; move b2 from Eyedea to Krispy101; move b2 from Eyedea to Krispy101; catastrophe blue at Krispy101

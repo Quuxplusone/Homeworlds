@@ -1,0 +1,9 @@
+Felix (0, b3y2) g3-
+Silenttitan (1, r1b2) -g3
+build g1 at Felix
+build g1 at Silenttitan
+convert g1 to r1 at Felix
+convert g1 to r1 at Silenttitan
+build r2 at Felix
+build g1 at Silenttitan
+build r2 at Felix

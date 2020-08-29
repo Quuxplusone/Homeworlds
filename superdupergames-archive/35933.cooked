@@ -1,0 +1,66 @@
+Huddyrx (0, b3r1) g3-
+Tkvaran (1, b3g2) -r3
+build g1 at Huddyrx
+build r1 at Tkvaran
+build g1 at Huddyrx
+convert r1 to y1 at Tkvaran
+convert g1 to y1 at Huddyrx
+move y1 from Tkvaran to Asimov (g1)
+move g1 from Huddyrx to Sagan (b2)
+build y1 at Asimov
+convert g1 to r1 at Sagan
+build y2 at Asimov
+build y2 at Huddyrx
+move y2 from Asimov to Sagan
+move y1 from Huddyrx to Sagan
+convert y2 to r2 at Sagan
+move r1 from Sagan to Asimov
+capture y1 at Sagan
+capture y1 at Asimov
+move y1 from Asimov to Sagan
+build y2 at Asimov
+convert y1 to g1 at Sagan
+build g1 at Huddyrx
+build g2 at Sagan
+move g1 from Huddyrx to Newton (r2)
+convert g2 to y2 at Sagan
+build g2 at Newton
+move y2 from Sagan to Galileo (g3)
+build g2 at Huddyrx
+build g3 at Sagan
+convert g2 to b2 at Huddyrx
+sacrifice g3 at Sagan; build y1 at Sagan; build y3 at Galileo; build g2 at Sagan
+sacrifice y2 at Huddyrx; move y1 from Asimov to Sagan; move y2 from Asimov to Sagan; catastrophe yellow at Sagan
+sacrifice g2 at Sagan; build g2 at Sagan; build g3 at Sagan
+convert g3 to y3 at Huddyrx
+convert g2 to b2 at Sagan
+sacrifice g2 at Newton; build y1 at Huddyrx; build g2 at Newton
+move y3 from Galileo to Newton
+move y1 from Huddyrx to Newton
+convert g1 to b1 at Sagan
+convert b2 to g2 at Huddyrx
+capture g2 at Newton
+move g1 from Newton to Asimov
+capture y1 at Newton
+build r1 at Asimov
+sacrifice b2 at Sagan; convert y1 to b1 at Newton; convert g2 to b2 at Newton
+build y1 at Huddyrx
+sacrifice y3 at Newton; move b2 from Newton to Huddyrx; move b1 from Newton to Huddyrx; move b1 from Sagan to Huddyrx; catastrophe blue at Huddyrx
+build g1 at Huddyrx
+build r2 at Sagan
+build g2 at Asimov
+build g3 at Sagan
+sacrifice g2 at Asimov; build r2 at Asimov; build g2 at Asimov
+sacrifice y2 at Galileo; move g3 from Sagan to Asimov; move g3 from Sagan to Asimov; catastrophe green at Asimov
+move g1 from Huddyrx to Copernicus (b2)
+convert r2 to g2 at Sagan
+build g1 at Copernicus
+build r1 at Sagan
+move y1 from Huddyrx to Copernicus
+build r1 at Tkvaran
+move g1 from Copernicus to Hubble (y1)
+convert r3 to y3 at Tkvaran
+build g1 at Hubble
+build y1 at Tkvaran
+build g3 at Huddyrx
+sacrifice y3 at Tkvaran; move r2 from Sagan to Huddyrx; move r1 from Sagan to Huddyrx; move r1 from Tkvaran to Huddyrx; catastrophe red at Huddyrx

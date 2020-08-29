@@ -1,0 +1,37 @@
+Twoshort (0, r1b3) g3-
+Danner (1, r2b1) -g3
+build g1 at Twoshort
+build g1 at Danner
+convert g1 to b1 at Twoshort
+convert g1 to y1 at Danner
+build b1 at Twoshort
+build y1 at Danner
+convert b1 to y1 at Twoshort
+build y2 at Danner
+build y2 at Twoshort
+move y1 from Danner to Stargate (g3)
+move y1 from Twoshort to Grogar (g2)
+convert y1 to b1 at Danner
+build y1 at Grogar
+move y1 from Stargate to Grogar
+sacrifice g3 at Twoshort; build y2 at Grogar; build y3 at Twoshort; build y3 at Twoshort; catastrophe yellow at Grogar
+move b1 from Danner to Stargate (g3)
+convert y3 to g3 at Twoshort
+build b2 at Stargate
+move b1 from Twoshort to Greenland (g2)
+convert b1 to y1 at Stargate
+move y3 from Twoshort to Greenland
+build y1 at Stargate
+build g1 at Twoshort
+convert y1 to g1 at Stargate
+build y1 at Greenland
+build g1 at Danner
+move y1 from Greenland to Yellonia (y1)
+move y1 from Stargate to Greenland
+sacrifice g3 at Twoshort; build y2 at Yellonia; build y3 at Greenland; build y3 at Twoshort
+sacrifice y2 at Danner; move g1 from Stargate to Mars (r2)
+move y2 from Yellonia to Yolonda (y2)
+move y1 from Greenland to Yellonia
+convert b1 to r1 at Greenland
+build g2 at Mars
+sacrifice r1 at Greenland; capture y1 at Yellonia

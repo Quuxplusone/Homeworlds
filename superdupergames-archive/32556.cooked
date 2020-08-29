@@ -1,0 +1,39 @@
+Felix (0, r1b3) g3-
+Dlwillson (1, y3b2) -g3
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to y1 at Felix
+convert g1 to y1 at Dlwillson
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to r1 at Felix
+convert g1 to r1 at Dlwillson
+build r2 at Felix
+build r2 at Dlwillson
+move r2 from Felix to Orcrist (b2)
+move y1 from Dlwillson to Field (g1)
+sacrifice g3 at Felix; build r2 at Orcrist; build r3 at Orcrist; build r3 at Felix
+build r3 at Dlwillson
+convert r2 to y2 at Orcrist
+move r3 from Dlwillson to Field
+convert r3 to g3 at Orcrist
+convert r2 to y2 at Dlwillson
+convert r3 to g3 at Felix
+build r2 at Dlwillson
+build y1 at Orcrist
+move r2 from Dlwillson to Sea (b1)
+move y1 from Orcrist to Glamdring (b1)
+move y2 from Dlwillson to Glamdring
+sacrifice g3 at Felix; build y2 at Glamdring; build y3 at Orcrist; build y3 at Felix
+sacrifice r1 at Dlwillson; capture y2 at Glamdring
+move y2 from Orcrist to Glamdring; catastrophe yellow at Glamdring
+build g1 at Dlwillson
+build g1 at Orcrist
+convert g1 to b1 at Dlwillson
+build g1 at Orcrist
+convert r2 to g2 at Sea
+move g3 from Orcrist to Sea
+sacrifice g2 at Sea; build b1 at Dlwillson; build y1 at Field
+build g2 at Sea
+move b1 from Dlwillson to Field
+sacrifice y1 at Felix; move g3 from Sea to Dlwillson

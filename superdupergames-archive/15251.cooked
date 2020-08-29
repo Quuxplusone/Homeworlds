@@ -1,0 +1,23 @@
+Dlwillson (0, y3b1) g3-
+Johannz (1, y2b1) -g3
+build g1 at Dlwillson
+build g1 at Johannz
+move g1 from Dlwillson to Blarfo (y2)
+convert g3 to y3 at Johannz
+build g1 at Dlwillson
+build g2 at Johannz
+sacrifice g3 at Dlwillson; build g2 at Blarfo; build g2 at Blarfo; build g3 at Dlwillson
+convert g2 to y2 at Johannz
+move g2 from Blarfo to Gungho (b3)
+move y3 from Johannz to Gungho
+sacrifice g3 at Dlwillson; build g2 at Blarfo; build g3 at Gungho; build g3 at Dlwillson
+build g3 at Johannz
+convert g3 to y3 at Gungho
+sacrifice y2 at Johannz; move g1 from Johannz to Gungho; move g1 from Gungho to Blarfo; catastrophe green at Blarfo
+convert g2 to r2 at Gungho
+convert y3 to r3 at Gungho
+sacrifice r2 at Gungho; capture r3 at Gungho
+build g1 at Johannz
+move y3 from Gungho to Johannz
+move g3 from Johannz to Mxyzptlk (y3)
+sacrifice r3 at Gungho; capture g1 at Johannz

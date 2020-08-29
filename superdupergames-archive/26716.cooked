@@ -1,0 +1,21 @@
+Wil (0, y3b1) g3-
+Rizzotto (1, r3b2) -g3
+build g1 at Wil
+build g1 at Rizzotto
+convert g1 to b1 at Wil
+convert g1 to y1 at Rizzotto
+build b1 at Wil
+build y1 at Rizzotto
+move b1 from Wil to G2 (g2)
+build g1 at Rizzotto
+sacrifice g3 at Wil; build b2 at G2; build b2 at G2; build b3 at Wil
+convert g1 to y1 at Rizzotto
+sacrifice b2 at G2; convert b2 to y2 at G2; convert b3 to g3 at Wil
+move y1 from Rizzotto to Gamora (g1)
+sacrifice g3 at Wil; build b2 at G2; build b2 at G2; build b3 at Wil
+build y2 at Gamora
+convert b3 to g3 at Wil
+convert y1 to r1 at Rizzotto
+convert b2 to r2 at G2
+build g1 at Rizzotto
+move b2 from G2 to Y1 (y1)

@@ -1,0 +1,30 @@
+Mantheron (0, r1b2) g3-
+Huddyrx (1, b3r2) -g3
+build g1 at Mantheron
+build g1 at Huddyrx
+convert g1 to y1 at Mantheron
+convert g1 to y1 at Huddyrx
+build g1 at Mantheron
+move y1 from Huddyrx to Cosmo (g1)
+convert g1 to r1 at Mantheron
+build g1 at Huddyrx
+build r1 at Mantheron
+convert g1 to b1 at Huddyrx
+build r2 at Mantheron
+build b1 at Huddyrx; catastrophe red at Mantheron
+build g1 at Mantheron
+convert g3 to r3 at Huddyrx
+convert g1 to r1 at Mantheron
+build y1 at Cosmo
+build y2 at Mantheron
+move y1 from Cosmo to Huddyrx
+convert y2 to b2 at Mantheron
+convert r3 to y3 at Huddyrx
+build y2 at Mantheron
+move b1 from Huddyrx to Cosmo
+convert b2 to r2 at Mantheron
+move b1 from Huddyrx to Astro (g1)
+move r2 from Mantheron to Cosmo
+build b1 at Astro
+capture y1 at Cosmo
+sacrifice y3 at Huddyrx; move b1 from Astro to Mantheron; move b1 from Astro to Mantheron; move b1 from Cosmo to Mantheron; catastrophe blue at Mantheron

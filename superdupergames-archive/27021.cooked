@@ -1,0 +1,48 @@
+Remneb (0, r1b2) g3-
+Grosseteste (1, b1y3) -g3
+build g1 at Remneb
+build g1 at Grosseteste
+convert g1 to y1 at Remneb
+build g1 at Grosseteste
+build y1 at Remneb
+move g1 from Grosseteste to Lucy (b2)
+move y1 from Remneb to Thor (g3)
+convert g1 to b1 at Grosseteste
+build g1 at Remneb
+move b1 from Grosseteste to Linus (g2)
+move g1 from Remneb to Thor
+build g1 at Grosseteste
+build g2 at Remneb
+build g2 at Lucy
+move g1 from Thor to Linus
+convert g1 to r1 at Grosseteste
+sacrifice g2 at Remneb; build y1 at Thor; build y2 at Remneb
+build g1 at Grosseteste
+build g2 at Remneb
+convert g1 to b1 at Grosseteste
+convert g2 to r2 at Remneb
+sacrifice g3 at Grosseteste; build b2 at Linus; build b3 at Linus; build b3 at Grosseteste
+move y1 from Remneb to Roma (b3)
+convert b3 to g3 at Grosseteste
+sacrifice y1 at Thor; move g1 from Linus to Thor
+build b3 at Grosseteste
+build g1 at Remneb
+convert b3 to y3 at Linus
+move g1 from Remneb to Roma
+build b3 at Linus
+move g1 from Roma to Lucy
+build g2 at Grosseteste
+move g1 from Thor to Lucy; catastrophe green at Lucy
+sacrifice y3 at Linus; move b3 from Linus to Rerun (y3); move b2 from Linus to Rerun; move b1 from Linus to Rerun
+convert r2 to b2 at Remneb
+move b3 from Rerun to Remneb
+capture b3 at Remneb
+move b1 from Rerun to Remneb; catastrophe blue at Remneb
+build g1 at Remneb
+convert b2 to r2 at Rerun
+convert y1 to b1 at Roma
+convert b3 to y3 at Grosseteste
+move y1 from Thor to Rem (g2)
+sacrifice y3 at Grosseteste; move r2 from Rerun to Remneb; move r1 from Grosseteste to Rem; move r1 from Rem to Remneb
+capture r2 at Remneb
+sacrifice g2 at Grosseteste; build r1 at Remneb; catastrophe red at Remneb

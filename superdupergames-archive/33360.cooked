@@ -1,0 +1,33 @@
+Babamots (0, y2b1) g3-
+Eliscinsky (1, y1b2) -g3
+build g1 at Babamots
+build g1 at Eliscinsky
+convert g1 to y1 at Babamots
+convert g1 to y1 at Eliscinsky
+build y2 at Babamots
+build y2 at Eliscinsky
+sacrifice y2 at Babamots; move y1 from Babamots to Iconia (y3); move y1 from Iconia to Eliscinsky; catastrophe yellow at Eliscinsky
+build g1 at Eliscinsky
+build g1 at Babamots
+convert g1 to y1 at Eliscinsky
+move g1 from Babamots to Ferenginar (y3)
+build g1 at Eliscinsky
+build g1 at Babamots
+convert g1 to r1 at Eliscinsky
+convert g1 to r1 at Babamots
+build g1 at Eliscinsky
+build g1 at Ferenginar
+convert g1 to r1 at Eliscinsky
+build r2 at Babamots
+move r1 from Eliscinsky to Ferenginar
+sacrifice r1 at Babamots; capture r1 at Ferenginar
+build y1 at Eliscinsky
+move g1 from Ferenginar to Betazed (b1)
+convert y1 to b1 at Eliscinsky
+build g1 at Babamots
+build b2 at Eliscinsky
+build g2 at Ferenginar
+build r1 at Eliscinsky
+build g2 at Betazed
+build y1 at Eliscinsky
+sacrifice g3 at Babamots; build g2 at Betazed; build g3 at Babamots; build g3 at Babamots

@@ -1,0 +1,18 @@
+Greedyalgorithm (0, b1y2) g3-
+Zoltar (1, b3y2) -g3
+build g1 at Greedyalgorithm
+build g1 at Zoltar
+convert g1 to y1 at Greedyalgorithm
+convert g1 to y1 at Zoltar
+build g1 at Greedyalgorithm
+build g1 at Zoltar
+convert g1 to b1 at Greedyalgorithm
+convert g1 to b1 at Zoltar
+build g1 at Greedyalgorithm
+build b2 at Zoltar
+build b2 at Greedyalgorithm
+convert b2 to r2 at Zoltar
+move b1 from Greedyalgorithm to Teh (b3)
+build b2 at Zoltar
+build b2 at Greedyalgorithm
+move b1 from Zoltar to Yellowstone (y1)

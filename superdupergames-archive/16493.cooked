@@ -1,0 +1,47 @@
+Silenttitan (0, g1b2) y3-
+Dlwillson (1, b3r2) -g3
+build y1 at Silenttitan
+build g1 at Dlwillson
+convert y1 to g1 at Silenttitan
+convert g3 to y3 at Dlwillson
+build g2 at Silenttitan
+build g2 at Dlwillson
+convert g2 to r2 at Silenttitan
+move g1 from Dlwillson to First (b1)
+build g2 at Silenttitan
+build g2 at Dlwillson
+move g2 from Silenttitan to Tic (y3)
+build g3 at First
+move g2 from Tic to Toe (b1)
+sacrifice g2 at Dlwillson; build g2 at First; build g3 at Dlwillson
+build g3 at Toe
+sacrifice y3 at Dlwillson; move g2 from Dlwillson to Toe; move g1 from First to Dlwillson; move g1 from Dlwillson to Toe; catastrophe green at Toe
+convert r2 to y2 at Silenttitan
+convert g2 to y2 at First
+convert y3 to r3 at Silenttitan
+build g1 at Dlwillson
+move g1 from Silenttitan to Banana (y3)
+build g2 at First
+build r1 at Silenttitan
+convert g1 to y1 at Dlwillson
+move g1 from Banana to Grape (b1)
+convert g3 to r3 at First
+build g1 at Grape
+sacrifice g3 at Dlwillson; build y1 at First; build r1 at First; build g2 at First
+convert g1 to r1 at Grape
+move g2 from First to Dlwillson
+build r2 at Grape
+build y1 at First
+convert r2 to y2 at Grape
+convert y1 to g1 at First
+convert r3 to g3 at Silenttitan
+move r3 from First to Second (b3)
+build r2 at Grape
+move y1 from First to Second
+move r1 from Grape to Ugly (y3)
+sacrifice g2 at First; build y1 at Second; build r2 at Second
+sacrifice g3 at Silenttitan; build y3 at Silenttitan; build y3 at Grape; build r3 at Silenttitan
+sacrifice y2 at First; move r3 from Second to First; move r3 from First to Dlwillson
+sacrifice y3 at Grape; move r1 from Ugly to Grape; move r1 from Grape to Dlwillson; move r2 from Grape to Dlwillson; catastrophe red at Dlwillson
+sacrifice y1 at Second; move r1 from First to Dlwillson
+move y3 from Silenttitan to Dlwillson

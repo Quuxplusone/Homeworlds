@@ -1,0 +1,26 @@
+Sordros (0, b1y2) g3-
+Zackstack (1, r1b3) -g3
+build g1 at Sordros
+build g1 at Zackstack
+convert g1 to b1 at Sordros
+convert g1 to y1 at Zackstack
+build g1 at Sordros
+build y1 at Zackstack
+build g1 at Sordros
+build y1 at Zackstack
+build b1 at Sordros
+move y1 from Zackstack to Globe (g2)
+move b1 from Sordros to Verdega (g3)
+build y2 at Zackstack
+build b2 at Verdega
+build y2 at Globe
+convert b2 to r2 at Verdega
+convert y2 to r2 at Zackstack
+build b2 at Sordros
+build y2 at Zackstack
+move b2 from Sordros to Flavega (y3)
+convert y2 to b2 at Zackstack
+sacrifice g3 at Sordros; build b2 at Verdega; build b3 at Flavega; build b3 at Sordros
+move b2 from Zackstack to Globe
+sacrifice b2 at Flavega; convert b3 to g3 at Sordros; convert b2 to y2 at Verdega
+convert y1 to g1 at Globe

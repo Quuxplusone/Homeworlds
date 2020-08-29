@@ -1,0 +1,35 @@
+Ts52 (0, b1y3) g3-
+Caru (1, b1y2) -g3
+build g1 at Ts52
+build g1 at Caru
+convert g1 to b1 at Ts52
+convert g3 to b3 at Caru
+build b2 at Ts52
+build b2 at Caru
+move b2 from Ts52 to Kermit (g2)
+convert b3 to y3 at Caru
+convert b2 to y2 at Kermit
+build b2 at Caru
+move b1 from Ts52 to Kermit
+move b2 from Caru to Alpha (g3)
+build g1 at Ts52
+build y1 at Caru
+build y1 at Kermit
+convert y3 to g3 at Caru
+build y1 at Kermit
+build y2 at Caru
+move y2 from Kermit to Gonzo (b3)
+move y1 from Caru to Pamali (b3)
+move y1 from Kermit to Gonzo
+move b2 from Caru to Nali (r3)
+build y3 at Kermit
+move y2 from Caru to Zazaza (r3)
+convert y3 to r3 at Kermit
+sacrifice g3 at Caru; build y3 at Pamali; build y3 at Zazaza; build b2 at Alpha
+move r3 from Kermit to Alpha
+sacrifice b2 at Nali; convert y3 to g3 at Zazaza; convert y3 to r3 at Pamali
+capture b2 at Alpha
+build y3 at Zazaza
+build y3 at Kermit
+sacrifice b2 at Alpha; convert y3 to b3 at Zazaza; convert y2 to g2 at Zazaza
+move y1 from Kermit to Alpha

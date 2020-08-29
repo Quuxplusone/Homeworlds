@@ -1,0 +1,63 @@
+Simon (0, r1g3) b3-
+Babamots (1, b2r1) -g3
+build b1 at Simon
+build g1 at Babamots
+convert b1 to r1 at Simon
+convert g3 to r3 at Babamots
+build r2 at Simon
+build r2 at Babamots
+convert r2 to y2 at Simon
+convert r3 to y3 at Babamots
+build r2 at Simon
+build r2 at Babamots
+move r1 from Simon to G2 (g2)
+convert r2 to b2 at Babamots
+build r2 at Simon
+move r2 from Babamots to Orion (g3)
+convert r2 to g2 at Simon
+build g1 at Babamots
+move r2 from Simon to B2 (b2)
+move g1 from Babamots to Romulus (r3)
+build y1 at Simon
+build g1 at Babamots
+sacrifice g2 at Simon; build r2 at G2; build r3 at B2
+build r3 at Orion
+sacrifice y2 at Simon; move r1 from G2 to Orion; move r2 from G2 to Orion; catastrophe red at Orion
+build y1 at Babamots
+convert r3 to g3 at B2
+build g2 at Babamots
+build g2 at B2
+build g2 at Romulus
+convert g3 to y3 at B2
+sacrifice b2 at Babamots; convert g2 to y2 at Romulus; convert g1 to r1 at Babamots
+build r2 at B2
+build g1 at Romulus
+move r2 from B2 to G3 (g3)
+move g2 from Babamots to Orion (g3)
+build y1 at B2
+move r1 from Babamots to Iconia (y3)
+build y2 at Simon
+build y2 at Romulus
+convert y3 to b3 at B2
+sacrifice y2 at Romulus; move g1 from Romulus to B2; move g1 from B2 to Tauceti (y3)
+move b3 from B2 to Romulus
+move y2 from Romulus to Gorn (g2)
+move r2 from B2 to Orion
+sacrifice g2 at Orion; build g2 at Tauceti; build y2 at Gorn
+capture g1 at Romulus
+sacrifice g2 at Tauceti; build r2 at Iconia; build r3 at Iconia
+sacrifice y2 at Simon; move r2 from Orion to B2; move r2 from B2 to Iconia; catastrophe red at Iconia
+convert y1 to r1 at Babamots
+build b1 at Romulus
+convert y3 to g3 at Babamots
+build g2 at Romulus
+convert g1 to y1 at Babamots
+convert b3 to y3 at Romulus
+move y2 from Gorn to Pakled (y3)
+build b1 at Romulus
+build y2 at Babamots
+move g2 from B2 to Tauceti
+build g1 at Babamots
+build r2 at G3
+move r1 from Babamots to Pakled
+sacrifice r2 at G3; capture g1 at Tauceti

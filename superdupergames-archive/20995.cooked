@@ -1,0 +1,30 @@
+Sompm (0, g3b2) y3-
+Ts52 (1, y1b2) -g3
+build y1 at Sompm
+build g1 at Ts52
+move y1 from Sompm to Nero (b1)
+convert g1 to b1 at Ts52
+move y1 from Nero to Constantine (g3)
+build g1 at Ts52
+build y1 at Constantine
+move g1 from Ts52 to Grover (b3)
+build y2 at Sompm
+build g1 at Ts52
+build y2 at Constantine
+build g1 at Ts52
+move y2 from Constantine to Aristarchus (g2)
+sacrifice g3 at Ts52; build g2 at Grover; build g2 at Grover; build g3 at Ts52
+build y2 at Constantine
+convert g3 to r3 at Ts52
+build y3 at Sompm
+build g3 at Ts52
+sacrifice y3 at Sompm; move y1 from Constantine to Ts52; move y1 from Constantine to Ts52; move y2 from Constantine to Ts52; catastrophe yellow at Ts52
+convert g3 to y3 at Ts52
+convert y2 to b2 at Sompm
+build g3 at Ts52
+move b2 from Sompm to Hamilton (y1)
+sacrifice y3 at Ts52; move r3 from Ts52 to Hamilton; move r3 from Hamilton to Sompm; move g2 from Grover to Hamilton
+sacrifice y3 at Sompm; move b2 from Hamilton to Sompm; move y2 from Aristarchus to Hamilton; move y2 from Hamilton to Sompm
+capture y2 at Sompm
+build b1 at Sompm
+convert r3 to b3 at Sompm; catastrophe blue at Sompm

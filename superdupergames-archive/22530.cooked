@@ -1,0 +1,39 @@
+Tuxhedoh (0, g1b2) r3-
+Bugggg (1, b1r2) -g3
+build r1 at Tuxhedoh
+build g1 at Bugggg
+convert r1 to y1 at Tuxhedoh
+build g1 at Bugggg
+build y1 at Tuxhedoh
+convert g1 to y1 at Bugggg
+build y2 at Tuxhedoh
+build y2 at Bugggg
+build r1 at Tuxhedoh
+convert y2 to r2 at Bugggg
+convert y1 to b1 at Tuxhedoh
+build y1 at Bugggg
+build y2 at Tuxhedoh
+build y2 at Bugggg
+sacrifice y2 at Tuxhedoh; move y1 from Tuxhedoh to Tux0 (y3); move y1 from Tux0 to Bugggg; catastrophe yellow at Bugggg
+build g1 at Bugggg
+build y1 at Tuxhedoh
+convert g1 to b1 at Bugggg
+convert y1 to g1 at Tuxhedoh
+build b2 at Bugggg
+build y1 at Tuxhedoh
+convert b2 to y2 at Bugggg
+build g2 at Tuxhedoh
+build b2 at Bugggg
+sacrifice y2 at Tuxhedoh; move b1 from Tuxhedoh to Tux0 (y3); move b1 from Tux0 to Bugggg; catastrophe blue at Bugggg
+sacrifice y2 at Bugggg; move g1 from Bugggg to Bug2 (y3); move g1 from Bug2 to Tuxhedoh; catastrophe green at Tuxhedoh
+convert r1 to g1 at Tuxhedoh
+build g1 at Bugggg
+build r1 at Tuxhedoh
+pass
+convert r3 to y3 at Tuxhedoh
+pass
+build r1 at Tuxhedoh
+pass
+move r1 from Tuxhedoh to Tux1 (y3)
+pass
+sacrifice y3 at Tuxhedoh; move r1 from Tuxhedoh to Tux1; move r1 from Tux1 to Bugggg; move r1 from Tux1 to Bugggg; catastrophe red at Bugggg

@@ -1,0 +1,73 @@
+Mneme (0, r1b2) g3-
+Dlwillson (1, y3b1) -g3
+build g1 at Mneme
+build g1 at Dlwillson
+convert g1 to b1 at Mneme
+convert g1 to b1 at Dlwillson
+build b2 at Mneme
+build b2 at Dlwillson
+convert b2 to y2 at Mneme
+convert b1 to r1 at Dlwillson
+build b1 at Mneme
+build r1 at Dlwillson
+move b1 from Mneme to Livery (g3)
+move b2 from Dlwillson to Field (g2)
+move b1 from Mneme to Portal (y3)
+move r1 from Dlwillson to Field
+build b2 at Livery
+build b3 at Field
+build b3 at Livery
+convert b3 to y3 at Field
+convert b2 to r2 at Livery
+build r2 at Field
+build g1 at Mneme
+move r2 from Field to Sky (b3)
+move g1 from Mneme to Portal
+build y1 at Field
+build y1 at Mneme
+move y1 from Field to Mars (r3)
+move y2 from Mneme to Ruby (r3)
+build g1 at Dlwillson
+build g1 at Mneme
+move g1 from Dlwillson to Golden (y2)
+convert b1 to y1 at Livery
+sacrifice g3 at Dlwillson; build y2 at Mars; build r2 at Sky; build r3 at Dlwillson
+build g2 at Portal
+sacrifice y2 at Mars; move r2 from Sky to Mneme; move r2 from Sky to Mneme
+sacrifice r2 at Livery; capture r2 at Mneme; capture r2 at Mneme
+sacrifice y3 at Field; move g1 from Golden to Sunny (y3); move r1 from Field to Mars; move r1 from Mars to Mneme; catastrophe red at Mneme
+convert g1 to r1 at Mneme
+convert r3 to g3 at Dlwillson
+build g1 at Mneme
+build g2 at Sunny
+move g1 from Mneme to Sunny
+sacrifice g2 at Sunny; build b1 at Field; build y2 at Mars
+sacrifice g2 at Portal; build b2 at Livery; build b3 at Portal
+sacrifice y2 at Mars; move b1 from Field to Sky (b3); move b2 from Field to Sunny
+build g2 at Portal
+sacrifice y1 at Mars; move b1 from Sky to Mneme
+capture b1 at Mneme
+build b3 at Sunny
+move b1 from Mneme to Ruby
+move b2 from Sunny to Golden (y2)
+convert g2 to r2 at Portal
+build g2 at Dlwillson
+move b2 from Livery to Golden
+convert b3 to r3 at Sunny
+sacrifice g1 at Sunny; build b3 at Golden
+build g1 at Sunny
+build g2 at Mneme
+move g1 from Sunny to Mneme
+move g2 from Mneme to Dlwillson
+sacrifice g2 at Dlwillson; build g2 at Mneme; build g2 at Mneme; catastrophe green at Mneme
+sacrifice r2 at Portal; capture r1 at Dlwillson; capture b2 at Golden
+move g1 from Sunny to Mneme
+capture g1 at Mneme
+move r3 from Sunny to Mneme
+sacrifice g2 at Dlwillson; build r1 at Mneme; build r2 at Mneme; catastrophe red at Mneme
+convert g3 to r3 at Dlwillson
+sacrifice g1 at Portal; build r1 at Dlwillson
+convert r3 to g3 at Dlwillson
+move b3 from Golden to Dlwillson
+build g1 at Dlwillson
+sacrifice b2 at Golden; convert b3 to g3 at Dlwillson; convert r1 to g1 at Dlwillson; catastrophe green at Dlwillson

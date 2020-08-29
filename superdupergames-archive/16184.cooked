@@ -1,0 +1,90 @@
+Teo (0, g1b2) y3-
+Rootbier (1, y3b1) -g3
+build y1 at Teo
+build g1 at Rootbier
+build y1 at Teo
+convert g1 to r1 at Rootbier
+convert y1 to g1 at Teo
+move r1 from Rootbier to Bagatelle (g2)
+convert y1 to r1 at Teo
+build g1 at Rootbier
+move r1 from Teo to Frisbee (y3)
+convert g1 to r1 at Rootbier
+move g1 from Teo to Frisbee
+build r2 at Rootbier
+build r2 at Frisbee
+convert r2 to y2 at Rootbier
+move r2 from Frisbee to Bagatelle
+build r2 at Bagatelle
+build r2 at Frisbee
+sacrifice g3 at Rootbier; build r3 at Rootbier; build r3 at Bagatelle; catastrophe red at Bagatelle
+build y1 at Teo
+convert r3 to g3 at Rootbier
+convert y1 to b1 at Teo
+build y1 at Rootbier
+move b1 from Teo to Frisbee
+sacrifice y2 at Rootbier; move r1 from Rootbier to Whateva (g2); move r1 from Whateva to Pratfall (b3)
+move r2 from Frisbee to Game (y2)
+convert r1 to y1 at Pratfall
+move r2 from Game to Pratfall
+move y1 from Pratfall to Teo
+convert y3 to r3 at Teo
+move y1 from Teo to Pistachio (g3)
+convert r2 to y2 at Pratfall
+convert y1 to r1 at Rootbier
+move y2 from Pratfall to Intership (g2)
+build y1 at Pistachio
+move r1 from Frisbee to Intership
+move y1 from Pistachio to Knuckles (r2)
+move b1 from Frisbee to Intership
+convert g3 to r3 at Rootbier
+move g1 from Frisbee to Teo
+move r3 from Rootbier to Intership
+move y2 from Intership to Rootbier
+sacrifice y1 at Pistachio; move r3 from Intership to Rootbier
+move y2 from Rootbier to Knuckles
+move y1 from Knuckles to Rootbier
+build r1 at Intership
+convert r3 to g3 at Rootbier
+build r2 at Teo
+move r1 from Rootbier to Resignation (y2)
+convert r1 to y1 at Intership
+convert y1 to r1 at Rootbier
+convert r3 to y3 at Teo
+build g1 at Rootbier
+build y1 at Intership
+sacrifice g3 at Rootbier; build g2 at Rootbier; build r2 at Resignation; build r3 at Rootbier
+sacrifice y3 at Teo; move y1 from Intership to Rootbier; move y1 from Intership to Rootbier; move y2 from Knuckles to Rootbier; catastrophe yellow at Rootbier
+convert g1 to y1 at Rootbier
+build r2 at Intership
+convert r1 to b1 at Rootbier
+convert g1 to y1 at Teo
+move r3 from Rootbier to Intership
+build r1 at Intership; catastrophe red at Intership
+move r2 from Resignation to Focus (y3)
+build b2 at Intership
+move r2 from Focus to Intership
+sacrifice y1 at Teo; move b2 from Intership to Rootbier
+sacrifice r1 at Resignation; capture b2 at Rootbier
+build b2 at Intership
+convert b1 to r1 at Rootbier
+build r1 at Teo
+capture b2 at Intership
+build b1 at Intership
+build b3 at Rootbier
+convert r1 to y1 at Teo
+sacrifice r2 at Intership; capture b1 at Intership; capture b1 at Intership
+build r1 at Teo
+sacrifice b2 at Rootbier; convert b2 to y2 at Intership; convert b3 to g3 at Rootbier
+build y1 at Teo
+sacrifice g3 at Rootbier; build y2 at Intership; build y2 at Intership; build y3 at Rootbier
+move y1 from Teo to Upside (g3)
+convert y2 to r2 at Intership
+convert r2 to b2 at Teo
+move y2 from Intership to Bonus (r3)
+build y2 at Teo
+sacrifice y3 at Rootbier; move g2 from Rootbier to Bonus; move g2 from Bonus to Teo; move y2 from Bonus to Teo
+capture g2 at Teo
+sacrifice r2 at Intership; capture r1 at Teo; capture g2 at Teo
+sacrifice y2 at Teo; move b2 from Teo to Upside; move b2 from Upside to Rootbier
+capture y1 at Teo

@@ -1,0 +1,50 @@
+Remneb (0, r1b2) g3-
+Ajo (1, b1r3) -g3
+build g1 at Remneb
+build g1 at Ajo
+convert g1 to y1 at Remneb
+convert g3 to y3 at Ajo
+build g1 at Remneb
+build g1 at Ajo
+convert g1 to r1 at Remneb
+build y1 at Ajo
+move r1 from Remneb to Deneb (y3)
+convert y1 to r1 at Ajo
+build y1 at Remneb
+build r2 at Ajo
+build g1 at Remneb
+move r2 from Ajo to Alpha (b2)
+move r1 from Deneb to Wolf (y2)
+move g1 from Ajo to Alpha
+sacrifice g1 at Remneb; build r2 at Wolf
+build r2 at Alpha
+build g1 at Remneb
+build r3 at Alpha
+move r1 from Wolf to Ajo
+sacrifice r1 at Ajo; capture r1 at Ajo
+move r2 from Wolf to Sirius (y3)
+convert r2 to y2 at Alpha
+move g1 from Remneb to Centaurus (y3)
+move r2 from Alpha to Centaurus
+move g1 from Centaurus to Akron (y2)
+build g2 at Alpha
+build g2 at Akron
+convert g1 to b1 at Alpha
+move g2 from Akron to Helios (b3)
+move b1 from Alpha to Centaurus
+build g1 at Remneb
+sacrifice g2 at Alpha; build b1 at Centaurus; build b2 at Centaurus
+sacrifice g3 at Remneb; build g2 at Akron; build g2 at Helios; build g3 at Remneb
+build g3 at Ajo
+convert g2 to y2 at Helios
+convert g3 to b3 at Ajo
+sacrifice g3 at Remneb; build g2 at Helios; build g3 at Remneb; build r1 at Sirius
+build g3 at Ajo
+move y1 from Remneb to Sigma (g3)
+sacrifice g3 at Ajo; build g3 at Ajo; build b3 at Ajo; build r2 at Alpha
+move r1 from Sirius to Akron
+move b1 from Centaurus to Remneb
+capture b1 at Remneb
+sacrifice y2 at Alpha; move b1 from Centaurus to Remneb; move b2 from Centaurus to Remneb; catastrophe blue at Remneb
+build r3 at Akron
+sacrifice y3 at Ajo; move r2 from Alpha to Remneb; move r3 from Alpha to Remneb; move r2 from Centaurus to Remneb; catastrophe red at Remneb

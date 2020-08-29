@@ -1,0 +1,23 @@
+Babamots (0, r3g2) b3-
+Layana (1, b2r1) -g3
+build b1 at Babamots
+build g1 at Layana
+convert b1 to y1 at Babamots
+convert g1 to y1 at Layana
+build b1 at Babamots
+build g1 at Layana
+build b1 at Babamots
+build g1 at Layana
+move b1 from Babamots to Bolarus (b1)
+move g1 from Layana to Cassiopeia (r3)
+build b2 at Babamots
+build g1 at Layana
+convert b2 to g2 at Babamots
+sacrifice g3 at Layana; build g2 at Layana; build g3 at Cassiopeia; build g3 at Cassiopeia
+build g3 at Babamots
+convert g2 to b2 at Layana
+convert b3 to y3 at Babamots
+sacrifice g1 at Cassiopeia; build y1 at Layana
+sacrifice g2 at Babamots; build b2 at Babamots; build b3 at Bolarus
+move y1 from Layana to Cassiopeia
+build b3 at Babamots

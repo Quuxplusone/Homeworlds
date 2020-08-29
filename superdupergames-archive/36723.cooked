@@ -1,0 +1,45 @@
+Mirror33 (0, b2r1) g3-
+Kenniepow (1, b2g3) -r3
+build g1 at Mirror33
+build r1 at Kenniepow
+build g1 at Mirror33
+build r1 at Kenniepow
+convert g1 to y1 at Mirror33
+convert r1 to y1 at Kenniepow
+convert g1 to r1 at Mirror33
+build r2 at Kenniepow
+build r2 at Mirror33
+move r1 from Kenniepow to Babyk (y1)
+build y2 at Mirror33
+move r1 from Babyk to Babyk2 (y3)
+move r2 from Mirror33 to Babyk2
+move r1 from Babyk2 to Mirror33
+capture r1 at Mirror33
+convert r2 to g2 at Kenniepow
+convert r1 to b1 at Mirror33
+move g2 from Kenniepow to Babyk3 (r1)
+move y2 from Mirror33 to Lilreflection (b3)
+build r2 at Kenniepow
+build r2 at Mirror33
+build r3 at Kenniepow
+sacrifice y2 at Lilreflection; move r2 from Babyk2 to Babyk3; move r2 from Babyk3 to Kenniepow; catastrophe red at Kenniepow
+build g1 at Babyk3
+build y1 at Mirror33
+build y2 at Kenniepow
+build y2 at Mirror33
+convert y2 to r2 at Kenniepow
+move y2 from Mirror33 to Picasso (g3)
+build y2 at Kenniepow
+sacrifice y2 at Picasso; move g3 from Mirror33 to Picasso2 (b3); move g3 from Picasso2 to Babyk3
+move r2 from Kenniepow to Babyk3
+capture r2 at Babyk3
+convert y2 to r2 at Kenniepow
+convert r1 to g1 at Mirror33
+sacrifice g2 at Babyk3; build r1 at Kenniepow; build r3 at Kenniepow
+sacrifice y1 at Mirror33; move r2 from Babyk3 to Kenniepow; catastrophe red at Kenniepow
+build y1 at Kenniepow
+sacrifice y1 at Mirror33; move g3 from Babyk3 to Kenniepow
+build y1 at Kenniepow
+sacrifice r2 at Mirror33; capture y1 at Kenniepow; capture y1 at Kenniepow
+build y2 at Kenniepow
+catastrophe yellow at Kenniepow

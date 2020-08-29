@@ -1,0 +1,39 @@
+Magicjohn (0, b1y2) g3-
+Agentofchaos (1, r1b3) -g3
+build g1 at Magicjohn
+build g1 at Agentofchaos
+convert g1 to y1 at Magicjohn
+build g1 at Agentofchaos
+build g1 at Magicjohn
+convert g1 to y1 at Agentofchaos
+move g1 from Magicjohn to Kaline (y3)
+move g1 from Agentofchaos to Kantele (y2)
+build g1 at Magicjohn
+build g2 at Kantele
+move g1 from Kaline to Kantele
+build g2 at Agentofchaos
+sacrifice g3 at Magicjohn; build g2 at Kantele; build g3 at Magicjohn; build g3 at Magicjohn; catastrophe green at Kantele
+build g1 at Agentofchaos
+move g1 from Magicjohn to Colavito (y3)
+move g2 from Agentofchaos to Dragha (y2)
+convert y1 to b1 at Magicjohn
+convert g1 to r1 at Agentofchaos
+build b1 at Magicjohn
+build r1 at Agentofchaos
+convert g3 to r3 at Magicjohn
+build y1 at Agentofchaos
+move b1 from Magicjohn to Colavito
+move r1 from Agentofchaos to Dragha
+move r3 from Magicjohn to Colavito
+sacrifice g2 at Dragha; build r2 at Dragha; build g1 at Agentofchaos
+build b2 at Colavito
+build r2 at Agentofchaos
+convert b2 to y2 at Colavito
+convert r2 to b2 at Agentofchaos
+build b2 at Colavito
+move b2 from Agentofchaos to Dragha
+build y1 at Colavito
+move y1 from Agentofchaos to Dragha
+move y2 from Colavito to Bunning (r2)
+build y3 at Agentofchaos
+sacrifice g1 at Colavito; build y3 at Bunning

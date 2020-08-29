@@ -1,0 +1,71 @@
+Ajo (0, g3b2) y3-
+Goulo (1, r1b2) -g3
+build y1 at Ajo
+build g1 at Goulo
+convert y1 to r1 at Ajo
+convert g1 to y1 at Goulo
+build r1 at Ajo
+build y1 at Goulo
+build r2 at Ajo
+move y1 from Goulo to Smeraldego (g3)
+move r2 from Ajo to Alpha (b1)
+build y1 at Smeraldego
+build y2 at Ajo
+build y2 at Goulo
+move y2 from Ajo to Alpha
+convert y2 to r2 at Goulo
+build y2 at Ajo
+move y1 from Smeraldego to Smeraldeto (g1)
+convert y2 to g2 at Ajo
+build y2 at Goulo
+move g2 from Ajo to Alpha
+move r2 from Goulo to Smeraldego
+build g1 at Alpha
+convert y2 to g2 at Goulo
+move r1 from Ajo to Smeraldeto
+move y1 from Smeraldeto to Citrono (y2)
+move g1 from Alpha to Beta (y3)
+sacrifice g2 at Goulo; build y2 at Smeraldego; build y3 at Goulo
+sacrifice g1 at Beta; build y3 at Ajo
+build g1 at Goulo
+move y3 from Ajo to Smeraldeto
+sacrifice y2 at Smeraldego; move g3 from Goulo to Smeraldego; move g3 from Smeraldego to Alpha
+sacrifice y2 at Alpha; move g2 from Alpha to Gamma (b3); move r2 from Alpha to Citrono
+move y1 from Citrono to Alpha
+build y2 at Smeraldeto
+build y2 at Alpha
+move y3 from Smeraldeto to Gamma
+build g1 at Alpha
+build g2 at Gamma
+convert g3 to r3 at Alpha
+sacrifice g2 at Gamma; build r2 at Smeraldeto; build r3 at Ajo
+build r3 at Alpha
+build g2 at Gamma
+build g2 at Goulo
+move r1 from Smeraldeto to Gamma
+build g3 at Alpha
+sacrifice y2 at Smeraldeto; move r1 from Gamma to Alpha; move r1 from Ajo to Alpha; catastrophe red at Alpha
+build y2 at Smeraldego
+sacrifice g2 at Gamma; build g2 at Gamma; build r1 at Citrono
+move g1 from Goulo to Rubenego (r3)
+move r2 from Citrono to Rubenego
+sacrifice g1 at Rubenego; build g1 at Goulo
+sacrifice g2 at Gamma; build r1 at Rubenego; build r3 at Citrono
+move g1 from Goulo to Smeraldego
+sacrifice y3 at Gamma; move r1 from Rubenego to Goulo; move r2 from Rubenego to Goulo; move r1 from Citrono to Citronella (y3)
+capture r2 at Goulo
+move r1 from Citronella to Goulo; catastrophe red at Goulo
+sacrifice g3 at Alpha; build g2 at Goulo; build g3 at Alpha; build y3 at Smeraldego
+move r3 from Citrono to Gamma
+build y2 at Alpha
+build r1 at Ajo
+move g1 from Smeraldego to Rubeneto (r1)
+convert r1 to b1 at Ajo
+sacrifice g2 at Goulo; build r1 at Smeraldego; build g2 at Rubeneto
+move b1 from Ajo to Smeraldeto
+move g1 from Alpha to Ajo
+capture g1 at Ajo
+sacrifice y2 at Smeraldego; move g1 from Rubeneto to Ajo; move g2 from Rubeneto to Ajo; catastrophe green at Ajo
+sacrifice g2 at Gamma; build b1 at Smeraldeto; build b2 at Smeraldeto
+sacrifice y3 at Smeraldego; move y1 from Smeraldego to Ajo; move y1 from Alpha to Ajo; move y2 from Alpha to Ajo; catastrophe yellow at Ajo
+convert r3 to y3 at Gamma

@@ -1,0 +1,42 @@
+Agentofchaos (0, r1b2) g3-
+Mouce (1, b1r3) -g3
+build g1 at Agentofchaos
+build g1 at Mouce
+convert g1 to y1 at Agentofchaos
+build g1 at Mouce
+build y1 at Agentofchaos
+convert g1 to y1 at Mouce
+build y2 at Agentofchaos
+build y2 at Mouce
+convert y2 to g2 at Agentofchaos
+build y2 at Mouce
+build y2 at Agentofchaos
+move y2 from Mouce to Nest (b2)
+move y1 from Agentofchaos to Freakout (g3)
+sacrifice g1 at Mouce; build y3 at Nest
+build y3 at Freakout
+convert y2 to g2 at Nest
+convert y1 to b1 at Agentofchaos
+build g1 at Nest
+build y1 at Agentofchaos
+move g1 from Nest to Freakout
+move y3 from Freakout to Glurge (b2)
+sacrifice g2 at Nest; build y2 at Mouce; build y3 at Nest
+move y3 from Glurge to Mouce; catastrophe yellow at Mouce
+build g1 at Mouce
+move g2 from Agentofchaos to Midas (y3)
+convert g1 to y1 at Mouce
+convert y1 to r1 at Agentofchaos
+build g1 at Mouce
+sacrifice r1 at Agentofchaos; capture g1 at Freakout
+move g1 from Mouce to Nest
+move b1 from Agentofchaos to Midas
+move y3 from Nest to Droppings (b3)
+build y1 at Agentofchaos
+move g1 from Nest to Droppings
+build y2 at Freakout
+build y2 at Mouce
+build g1 at Agentofchaos
+build g2 at Droppings
+sacrifice g3 at Agentofchaos; build g2 at Midas; build b1 at Midas; build g3 at Agentofchaos
+sacrifice y3 at Nest; move y3 from Droppings to Agentofchaos; move g1 from Droppings to Agentofchaos; move g2 from Droppings to Agentofchaos; catastrophe green at Agentofchaos

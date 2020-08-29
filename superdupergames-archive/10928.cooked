@@ -1,0 +1,19 @@
+Twoshort (0, r1b2) g3-
+Youreternalgod (1, b1g1) -y3
+build g1 at Twoshort
+build y1 at Youreternalgod
+build g1 at Twoshort
+build y1 at Youreternalgod
+convert g1 to y1 at Twoshort
+move y1 from Youreternalgod to Tyco (b2)
+build g1 at Twoshort
+build y2 at Youreternalgod
+move g1 from Twoshort to Jethro (y3)
+move y1 from Youreternalgod to Tyco
+build g2 at Twoshort
+convert y2 to g2 at Youreternalgod
+move g1 from Twoshort to Bluzilla (b3)
+build y2 at Youreternalgod
+sacrifice g3 at Twoshort; build g2 at Bluzilla; build g3 at Jethro; build g3 at Twoshort
+build g3 at Youreternalgod
+move g1 from Jethro to Youreternalgod; catastrophe green at Youreternalgod

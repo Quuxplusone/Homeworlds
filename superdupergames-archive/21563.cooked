@@ -1,0 +1,21 @@
+Silenttitan (0, r1b2) g3-
+Gnomekin (1, y2b1) -g3
+build g1 at Silenttitan
+build g1 at Gnomekin
+convert g1 to y1 at Silenttitan
+convert g1 to r1 at Gnomekin
+build y1 at Silenttitan
+build g1 at Gnomekin
+build y1 at Silenttitan
+move g1 from Gnomekin to Amber (b3)
+move y1 from Silenttitan to Sol (g3)
+sacrifice g3 at Gnomekin; build r1 at Gnomekin; build r2 at Gnomekin; build g1 at Amber
+build y2 at Silenttitan
+convert r2 to y2 at Gnomekin
+build y3 at Sol
+move y2 from Gnomekin to Amber
+convert y2 to r2 at Silenttitan
+build y2 at Amber
+move y3 from Sol to Gnomekin
+convert y2 to r2 at Amber
+sacrifice r2 at Silenttitan; capture r1 at Gnomekin; capture r1 at Gnomekin

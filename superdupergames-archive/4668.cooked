@@ -1,0 +1,30 @@
+Manny (0, y2b3) g3-
+Zoltar (1, r3b1) -g3
+build g1 at Manny
+build g1 at Zoltar
+convert g1 to y1 at Manny
+convert g1 to y1 at Zoltar
+build g1 at Manny
+build g1 at Zoltar
+move g1 from Manny to Flux (b1)
+convert g1 to b1 at Zoltar
+build g1 at Manny
+build b2 at Zoltar
+convert g3 to b3 at Manny
+convert b1 to r1 at Zoltar
+build g1 at Manny
+build g2 at Zoltar
+convert g1 to r1 at Manny
+move g2 from Zoltar to Chrononauts (b2)
+build g1 at Manny
+build g2 at Zoltar
+convert g1 to b1 at Manny
+build b2 at Zoltar
+move b1 from Manny to Slavelabour (g1)
+convert b2 to y2 at Zoltar
+build g2 at Manny
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Zoltar; build g3 at Chrononauts
+sacrifice g2 at Manny; build b2 at Slavelabour; build b3 at Manny
+convert g3 to y3 at Chrononauts
+build g2 at Flux
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Chrononauts; build y1 at Chrononauts

@@ -1,0 +1,49 @@
+Felix (0, y1b2) g3-
+Wil (1, b3r1) -g3
+build g1 at Felix
+build g1 at Wil
+convert g1 to y1 at Felix
+convert g1 to y1 at Wil
+build y2 at Felix
+build y2 at Wil
+move y1 from Felix to Grin (b3)
+move y1 from Wil to G2 (g2)
+build g1 at Felix
+build g1 at Wil
+move g1 from Felix to Grin
+convert g1 to r1 at Wil
+convert y2 to r2 at Felix
+build y2 at G2
+build y2 at Grin
+convert y2 to g2 at Wil
+move y1 from Grin to Grontle (b2)
+move y1 from G2 to B3 (b3)
+build g1 at Grin
+convert g3 to y3 at Wil
+move g1 from Grin to Grontle
+build g1 at Wil
+build g2 at Felix
+sacrifice g2 at Wil; build y2 at B3; build y3 at G2
+build y3 at Grontle
+move r1 from Wil to G2
+sacrifice g3 at Felix; build g2 at Grontle; build g3 at Grin; build g3 at Felix
+build g3 at Wil
+sacrifice y2 at Grin; move g1 from Grontle to Wil; move g2 from Grontle to Wil; catastrophe green at Wil
+sacrifice y2 at G2; move y1 from B3 to Grontle; move y2 from B3 to Grontle; catastrophe yellow at Grontle
+convert g3 to y3 at Grin
+build r1 at G2
+build r2 at Felix
+move r1 from G2 to Wil
+move r2 from Felix to Grin
+convert r1 to g1 at Wil
+build g1 at Grin
+build y1 at Wil
+move g1 from Grin to Guns (b2)
+convert y3 to g3 at Wil
+sacrifice g3 at Felix; build g2 at Grin; build g3 at Guns; build g3 at Felix
+sacrifice g3 at Wil; build g3 at Wil; build y1 at Wil; build y2 at G2
+convert g3 to y3 at Guns
+move y2 from G2 to G3 (g3)
+sacrifice g2 at Grin; build g2 at Guns; build y2 at Grin
+sacrifice g3 at Wil; build g3 at Wil; build y2 at G3; build r1 at G2
+sacrifice y3 at Grin; move g1 from Guns to Wil; move g2 from Guns to Wil; move y3 from Guns to Wil; catastrophe green at Wil

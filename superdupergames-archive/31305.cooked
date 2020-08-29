@@ -1,0 +1,23 @@
+Fogus (0, b1g2) y3-
+W00T (1, r3y1) -g3
+build y1 at Fogus
+build g1 at W00T
+build y1 at Fogus
+move g1 from W00T to Boop (b2)
+move y1 from Fogus to Orcus (g3)
+build g1 at W00T
+build y2 at Orcus
+build g1 at Boop
+convert y3 to g3 at Fogus
+build g2 at Boop
+build g2 at Fogus
+convert g2 to y2 at Boop
+move g2 from Fogus to Acererak (y3)
+move g1 from Boop to Acererak
+move g2 from Acererak to Meph (r2)
+move g1 from Acererak to Fogus
+convert g3 to r3 at Fogus
+sacrifice g3 at W00T; build g2 at Fogus; build g3 at Fogus; build g3 at W00T; catastrophe green at Fogus
+build g1 at Meph
+build g2 at Boop
+sacrifice y2 at Orcus; move g1 from Meph to W00T; move g2 from Meph to W00T; catastrophe green at W00T

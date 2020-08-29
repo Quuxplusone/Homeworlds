@@ -1,0 +1,88 @@
+Lorgar (0, b3y1) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Lorgar
+build g1 at Ts52
+convert g1 to y1 at Lorgar
+convert g1 to b1 at Ts52
+build g1 at Lorgar
+move b1 from Ts52 to Kermit (g3)
+move y1 from Lorgar to Captainharlock (g2)
+build b1 at Kermit
+convert g1 to y1 at Lorgar
+build b2 at Kermit
+build y2 at Captainharlock
+convert b2 to y2 at Kermit
+move y1 from Captainharlock to Kermit
+convert b1 to r1 at Kermit
+build y3 at Captainharlock
+capture y1 at Kermit
+move y3 from Captainharlock to Ultramar (r3)
+move y1 from Kermit to Captainharlock
+convert y1 to r1 at Lorgar
+build b1 at Kermit
+move r1 from Lorgar to Captainharlock
+move y1 from Captainharlock to Robin (g1)
+build g1 at Lorgar
+build b2 at Kermit
+convert g1 to y1 at Lorgar
+build y3 at Kermit
+build y3 at Captainharlock
+convert y3 to r3 at Kermit
+convert y1 to r1 at Lorgar
+move b2 from Kermit to Robin
+move y3 from Captainharlock to Robin
+move r3 from Kermit to Captainharlock
+move y2 from Captainharlock to Snoop (r3)
+build b2 at Robin
+sacrifice r1 at Captainharlock; capture b2 at Robin
+move y1 from Robin to Captainharlock
+build r1 at Lorgar
+build r2 at Kermit
+move y3 from Robin to Kermit
+convert b1 to y1 at Kermit
+move y3 from Kermit to Robin
+build y3 at Captainharlock
+sacrifice r1 at Lorgar; capture b2 at Robin
+build g1 at Ts52
+convert b2 to r2 at Robin
+move r1 from Kermit to Captainharlock
+build r1 at Robin
+move r3 from Captainharlock to Kermit
+sacrifice y2 at Snoop; move r1 from Robin to Kermit; move r2 from Robin to Kermit; catastrophe red at Kermit
+build y2 at Kermit
+move y3 from Robin to Kermit; catastrophe yellow at Kermit
+move y1 from Captainharlock to Kermit
+build b1 at Robin
+build b2 at Kermit
+convert b1 to y1 at Robin
+build y2 at Captainharlock
+build b1 at Robin
+move b2 from Kermit to Oscar (g2)
+move b1 from Robin to Mnemosine (y3)
+build y2 at Kermit
+build g1 at Lorgar
+convert y2 to r2 at Kermit
+move y3 from Ultramar to Oscar
+build y2 at Kermit
+sacrifice b1 at Mnemosine
+move g1 from Ts52 to Bigbird (y3)
+build r1 at Lorgar
+move y1 from Kermit to Gonzo (b2)
+move y3 from Oscar to Kermit
+sacrifice g1 at Bigbird; build y3 at Gonzo
+sacrifice r1 at Lorgar; capture r2 at Kermit
+build g1 at Ts52
+convert b2 to g2 at Robin
+move b1 from Kermit to Captainharlock
+capture y2 at Kermit
+build b1 at Captainharlock
+move y2 from Kermit to Captainharlock
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Oscar; build b3 at Captainharlock
+move y1 from Robin to Captainharlock; catastrophe yellow at Captainharlock
+convert b3 to y3 at Captainharlock
+move y3 from Kermit to Oscar
+sacrifice y3 at Gonzo; move b2 from Oscar to Lorgar; move b2 from Oscar to Lorgar; move b1 from Captainharlock to Lorgar; catastrophe blue at Lorgar
+sacrifice g3 at Lorgar; build g3 at Lorgar; build r1 at Kermit; build r2 at Lorgar
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Gonzo; build y2 at Captainharlock
+move g3 from Lorgar to Kermit
+sacrifice y3 at Captainharlock; move y2 from Captainharlock to Lorgar; move y1 from Gonzo to Lorgar; move y1 from Gonzo to Lorgar; catastrophe yellow at Lorgar

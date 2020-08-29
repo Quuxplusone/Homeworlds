@@ -1,0 +1,34 @@
+Jeep (0, r1b2) g3-
+Danner (1, b1g2) -r3
+build g1 at Jeep
+build r1 at Danner
+convert g1 to y1 at Jeep
+build r1 at Danner
+build g1 at Jeep
+convert r3 to y3 at Danner
+build y1 at Jeep
+build r2 at Danner
+build y1 at Jeep
+move r1 from Danner to Garrett (y3)
+move y1 from Jeep to Stage (g3)
+build r2 at Danner
+build y2 at Jeep
+move r2 from Danner to Stage
+move y1 from Stage to Far (y2)
+build r2 at Stage
+move y1 from Jeep to Cornhuskers (r3)
+build r3 at Danner
+sacrifice g3 at Jeep; build y2 at Cornhuskers; build y3 at Jeep; build g1 at Jeep
+convert r3 to b3 at Danner
+convert g1 to b1 at Jeep
+build r3 at Danner
+move y1 from Jeep to Store (r3)
+move b3 from Danner to Cornhuskers
+sacrifice y2 at Cornhuskers; move y1 from Cornhuskers to Hrm (y2)
+convert r2 to g2 at Danner
+build g1 at Jeep
+move g2 from Danner to Store
+move y1 from Store to Depression (r2)
+move r1 from Garrett to Jeep
+build g1 at Jeep
+sacrifice y3 at Danner; move r2 from Stage to Jeep; move r2 from Stage to Jeep; move b3 from Cornhuskers to Jeep; catastrophe red at Jeep

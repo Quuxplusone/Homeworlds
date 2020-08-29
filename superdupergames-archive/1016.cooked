@@ -1,0 +1,87 @@
+Ts52 (0, g2b1) y3-
+Twoshort (1, y3b1) -g3
+build y1 at Ts52
+build g1 at Twoshort
+move y1 from Ts52 to Endor (g3)
+build g1 at Twoshort
+build y1 at Ts52
+move g1 from Twoshort to Sulphur (y2)
+convert y1 to g1 at Ts52
+move g1 from Sulphur to Monkeywrench (y3)
+convert g1 to r1 at Ts52
+move g1 from Twoshort to Bluestar (b2)
+build y1 at Ts52
+build g1 at Twoshort
+convert y1 to b1 at Ts52
+sacrifice g3 at Twoshort; build g2 at Monkeywrench; build g2 at Bluestar; build g3 at Twoshort
+build b2 at Ts52
+convert g1 to y1 at Bluestar
+move b1 from Ts52 to Garden (g3)
+move g2 from Bluestar to Garden
+build b2 at Garden
+sacrifice g3 at Twoshort; build g1 at Garden; build g3 at Twoshort; build y1 at Bluestar
+build y2 at Endor
+convert y1 to r1 at Bluestar
+build b3 at Ts52
+sacrifice g3 at Twoshort; build y1 at Bluestar; build r1 at Bluestar; build g3 at Twoshort
+build y2 at Ts52
+sacrifice r1 at Bluestar; capture b2 at Garden
+move b3 from Ts52 to Endor
+sacrifice b2 at Garden; convert g2 to y2 at Garden; convert g2 to b2 at Monkeywrench
+convert y2 to g2 at Endor
+sacrifice y2 at Garden; move g1 from Garden to Ts52; move g1 from Monkeywrench to Ts52
+build g2 at Endor
+sacrifice g1 at Twoshort; build g1 at Ts52; catastrophe green at Ts52
+move y2 from Ts52 to Garden
+build g1 at Twoshort
+build y2 at Endor
+sacrifice g1 at Twoshort; build b3 at Monkeywrench
+move b2 from Ts52 to Shortbus (y2)
+build g1 at Twoshort
+sacrifice y2 at Endor; move g2 from Endor to Shortbus; move g2 from Shortbus to Twoshort
+sacrifice b3 at Monkeywrench; convert g3 to r3 at Twoshort; convert b2 to y2 at Monkeywrench; convert y1 to r1 at Bluestar
+build g1 at Twoshort
+capture g2 at Twoshort
+build g1 at Twoshort; catastrophe green at Twoshort
+convert r3 to g3 at Twoshort
+build g1 at Endor
+convert r1 to g1 at Bluestar
+move g1 from Endor to Ts52
+build g1 at Bluestar
+move b3 from Endor to Bluestar
+sacrifice y2 at Monkeywrench; move g1 from Bluestar to Endor; move r1 from Bluestar to Twoshort
+move g2 from Endor to Shortbus
+build g2 at Bluestar
+convert b3 to r3 at Bluestar
+sacrifice y1 at Bluestar; move g2 from Bluestar to Amideadyet (b3)
+build g2 at Shortbus
+sacrifice g1 at Bluestar; build g1 at Amideadyet
+build y1 at Endor
+convert g2 to y2 at Amideadyet
+move y1 from Endor to Bluestar
+build g2 at Amideadyet
+move r3 from Bluestar to Endor
+convert g2 to b2 at Amideadyet
+build g2 at Ts52
+move b2 from Amideadyet to Futility (y1)
+build y3 at Endor
+sacrifice g1 at Endor; build b3 at Futility
+build b3 at Shortbus
+move b3 from Futility to R2D2 (r2)
+move r3 from Endor to Futility
+move b2 from Futility to C3Po (r2)
+move r3 from Futility to Amideadyet
+move y2 from Amideadyet to Bluestar
+capture g1 at Amideadyet
+build r1 at Twoshort
+move y1 from Bluestar to Amideadyet
+move r1 from Twoshort to Bluestar
+move r3 from Amideadyet to Bluestar
+sacrifice g3 at Twoshort; build r2 at Bluestar; build r3 at Bluestar; build r3 at Twoshort; catastrophe red at Bluestar
+sacrifice b2 at Shortbus; convert b3 to r3 at Shortbus; convert y3 to r3 at Endor
+convert r3 to g3 at Twoshort
+move r3 from Endor to Bluestar
+build r1 at Twoshort
+capture y2 at Bluestar
+sacrifice g3 at Twoshort; build b2 at R2D2; build b3 at C3Po
+sacrifice y2 at Garden; move r3 from Bluestar to Twoshort; move r3 from Shortbus to Twoshort; catastrophe red at Twoshort

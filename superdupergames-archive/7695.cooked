@@ -1,0 +1,45 @@
+Zoltar (0, r3b2) g3-
+Mikeyarrum (1, b1g2) -y3
+build g1 at Zoltar
+build y1 at Mikeyarrum
+convert g1 to y1 at Zoltar
+convert y1 to g1 at Mikeyarrum
+build g1 at Zoltar
+build y1 at Mikeyarrum
+convert g1 to r1 at Zoltar
+build g1 at Mikeyarrum
+build g1 at Zoltar
+convert g1 to r1 at Mikeyarrum
+convert g1 to b1 at Zoltar
+build g1 at Mikeyarrum
+move b1 from Zoltar to Greendale (g1)
+move g1 from Mikeyarrum to Sakaki (y3)
+build g2 at Zoltar
+build r1 at Mikeyarrum
+move g2 from Zoltar to Yellowstone (y1)
+build y2 at Mikeyarrum
+build y2 at Zoltar
+build r2 at Mikeyarrum
+move r1 from Zoltar to Greendale
+move r1 from Mikeyarrum to Yomi (g3)
+move y1 from Zoltar to Greendale
+move y1 from Mikeyarrum to Yomi
+build r2 at Greendale
+move r2 from Mikeyarrum to Sakaki
+move r2 from Greendale to Yomi
+move r2 from Sakaki to Greendale
+sacrifice g2 at Yellowstone; build r2 at Yomi; build r3 at Greendale
+build r3 at Greendale; catastrophe red at Greendale
+sacrifice r2 at Yomi; capture r1 at Yomi; capture y1 at Yomi
+build g2 at Sakaki
+build g2 at Zoltar
+build g3 at Mikeyarrum
+sacrifice g3 at Zoltar; build y1 at Yomi; build y2 at Greendale; build y3 at Zoltar
+build r1 at Mikeyarrum
+build g3 at Zoltar
+move g2 from Sakaki to Tomo (b1)
+sacrifice y2 at Greendale; move y1 from Yomi to Mikeyarrum; move y1 from Yomi to Mikeyarrum; catastrophe yellow at Mikeyarrum
+move g1 from Sakaki to Tomo
+sacrifice y3 at Zoltar; move g2 from Zoltar to Greendale; move g2 from Greendale to Yomi; move g2 from Yomi to Mikeyarrum; catastrophe green at Mikeyarrum
+convert g1 to y1 at Tomo
+sacrifice y2 at Zoltar; move r1 from Yomi to Mikeyarrum; move r2 from Yomi to Mikeyarrum; catastrophe red at Mikeyarrum

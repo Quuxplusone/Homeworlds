@@ -1,0 +1,46 @@
+Agentofchaos (0, r1b2) g3-
+Qat (1, y3b1) -g3
+build g1 at Agentofchaos
+build g1 at Qat
+build g1 at Agentofchaos
+build g2 at Qat
+convert g1 to y1 at Agentofchaos
+move g2 from Qat to Chaos (b2)
+convert g1 to r1 at Agentofchaos
+build g1 at Qat
+build y1 at Agentofchaos
+convert g1 to y1 at Qat
+build g1 at Agentofchaos
+build y2 at Qat
+build y2 at Agentofchaos
+move y1 from Qat to Chaos
+move y1 from Agentofchaos to Zool (g3)
+convert g1 to r1 at Qat
+build r2 at Agentofchaos
+build r2 at Qat
+move r2 from Agentofchaos to Zool
+move r2 from Qat to Produce (g2)
+build r2 at Zool
+sacrifice g2 at Chaos; build r3 at Qat; build r3 at Produce
+move r2 from Zool to Chaos
+move y1 from Chaos to Whoosh (b3)
+build r3 at Zool
+move r3 from Qat to Chaos
+sacrifice y1 at Zool; move r2 from Chaos to Kakradoom (y3)
+sacrifice y2 at Qat; move r3 from Produce to Whoosh; move r2 from Produce to Whoosh
+move y1 from Agentofchaos to Zool
+convert r2 to g2 at Whoosh
+convert r1 to b1 at Agentofchaos
+convert r3 to b3 at Whoosh
+move b1 from Agentofchaos to Kakradoom
+move b3 from Whoosh to Produce (g2)
+build y1 at Zool
+build y2 at Whoosh
+convert b1 to g1 at Kakradoom
+sacrifice y2 at Whoosh; move r3 from Chaos to Whoosh; move b3 from Produce to Kakradoom
+move r2 from Kakradoom to Kastria (y2)
+sacrifice g2 at Whoosh; build y2 at Whoosh; build y3 at Whoosh
+move y2 from Agentofchaos to Whoosh; catastrophe yellow at Whoosh
+sacrifice r1 at Qat; capture g1 at Kakradoom
+convert g1 to y1 at Agentofchaos
+build g1 at Qat

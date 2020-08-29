@@ -1,0 +1,51 @@
+Felix (0, r3b2) g3-
+Steele (1, b3r1) -g3
+build g1 at Felix
+build g1 at Steele
+convert g1 to r1 at Felix
+convert g1 to y1 at Steele
+build g1 at Felix
+build g1 at Steele
+convert g1 to y1 at Felix
+move g1 from Steele to Alpha (b2)
+build g1 at Felix
+build g1 at Steele
+build g2 at Felix
+sacrifice g3 at Steele; build g2 at Alpha; build g2 at Alpha; build g3 at Steele
+move g2 from Felix to Rim (y1)
+convert g2 to r2 at Alpha
+sacrifice g3 at Felix; build g2 at Felix; build g3 at Felix; build g3 at Rim
+build y2 at Steele
+convert g1 to b1 at Felix
+move y1 from Steele to Alpha
+move b1 from Felix to Rim
+move r2 from Alpha to Rim
+sacrifice r1 at Felix; capture r2 at Rim
+sacrifice y2 at Steele; move g1 from Alpha to Rim; move g2 from Alpha to Rim; catastrophe green at Rim
+build y2 at Felix
+convert y1 to g1 at Alpha
+move g2 from Felix to Rim
+build g1 at Alpha
+convert g2 to y2 at Rim
+convert g1 to y1 at Alpha
+build g1 at Felix
+build y2 at Alpha
+move g1 from Felix to Rim
+convert y1 to r1 at Alpha
+build g2 at Rim
+sacrifice g3 at Steele; build g2 at Alpha; build g2 at Alpha; build g3 at Steele
+build g3 at Felix
+move g2 from Alpha to Beta (y1)
+move y1 from Felix to Opal (b1)
+build y3 at Alpha
+sacrifice g3 at Felix; build y3 at Opal; build y3 at Felix; build g3 at Felix
+sacrifice y3 at Alpha; move g1 from Alpha to Beta; move g2 from Beta to Felix; move g1 from Beta to Felix; catastrophe green at Felix
+convert y3 to g3 at Felix
+move r1 from Alpha to Beta (y1)
+build y3 at Felix
+sacrifice g3 at Steele; build y3 at Alpha; build r1 at Beta; build r2 at Beta
+build b1 at Rim
+sacrifice y3 at Alpha; move r1 from Beta to Felix; move r1 from Beta to Felix; move r2 from Beta to Felix; catastrophe red at Felix
+move y3 from Felix to Steele
+sacrifice g2 at Alpha; build g1 at Steele; build g2 at Steele
+convert y3 to g3 at Steele; catastrophe green at Steele

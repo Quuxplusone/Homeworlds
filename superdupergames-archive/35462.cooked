@@ -1,0 +1,52 @@
+Dlwillson (0, r1b3) g3-
+Trydnt (1, y3b2) -g3
+build g1 at Dlwillson
+build g1 at Trydnt
+convert g1 to y1 at Dlwillson
+convert g1 to r1 at Trydnt
+build y1 at Dlwillson
+build r1 at Trydnt
+build y1 at Dlwillson
+build r2 at Trydnt
+move y1 from Dlwillson to Sea (b2)
+move r1 from Trydnt to B1 (b1)
+move y1 from Dlwillson to Sol (y2)
+sacrifice g3 at Trydnt; build r2 at Trydnt; build r2 at B1; build r3 at B1
+build y2 at Dlwillson
+convert r3 to y3 at B1
+build g1 at Dlwillson
+move r2 from B1 to Y3 (y3)
+build y2 at Dlwillson
+convert r2 to g2 at Trydnt
+convert y2 to r2 at Dlwillson
+sacrifice g2 at Trydnt; build r3 at Y3; build r3 at Trydnt
+sacrifice y2 at Dlwillson; move r2 from Dlwillson to Sea; move y1 from Sol to Y3
+move r3 from Y3 to Sea
+move r2 from Sea to Forest (g1)
+sacrifice r2 at Trydnt; capture y1 at Sea; capture y1 at Y3
+build r2 at Forest
+convert r1 to g1 at B1
+build y2 at Dlwillson
+convert r3 to g3 at Trydnt
+convert g1 to b1 at Dlwillson
+build y2 at B1
+sacrifice b1 at Dlwillson; convert r2 to g2 at Forest
+move g1 from B1 to Sea
+build r1 at Forest
+build y2 at Sea
+sacrifice y2 at Dlwillson; move r1 from Forest to Sea; move r1 from Sea to Alsoforest (g1)
+build g2 at Sea
+sacrifice g2 at Forest; build r2 at Alsoforest; build r3 at Forest
+sacrifice g2 at Sea; build g2 at Sea; build r3 at Y3
+build y2 at Dlwillson
+sacrifice y2 at Sea; move r2 from Y3 to Forest; move r1 from Trydnt to Forest; catastrophe red at Forest
+convert y1 to b1 at Dlwillson
+build g1 at Sea
+sacrifice b1 at Dlwillson; convert r2 to y2 at Alsoforest
+build y1 at Sea
+build r1 at Alsoforest
+sacrifice y3 at B1; move g1 from Sea to Dlwillson; move g1 from Sea to Dlwillson; move g2 from Sea to Dlwillson; catastrophe green at Dlwillson
+build y3 at Alsoforest
+sacrifice y2 at B1; move r3 from Y3 to Sea; move r3 from Sea to Dlwillson
+sacrifice y2 at Alsoforest; move r1 from Alsoforest to Trydnt; move y3 from Alsoforest to Trydnt
+sacrifice r3 at Sea; capture y3 at Trydnt; capture r1 at Trydnt; capture y2 at Dlwillson

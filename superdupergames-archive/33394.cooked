@@ -1,0 +1,40 @@
+Wil (0, y2b1) g3-
+Icalvinist (1, b2r1) -g3
+build g1 at Wil
+build g1 at Icalvinist
+convert g1 to b1 at Wil
+convert g1 to y1 at Icalvinist
+build b1 at Wil
+build g1 at Icalvinist
+move b1 from Wil to G3 (g3)
+convert g3 to b3 at Icalvinist
+build b2 at G3
+build b2 at Icalvinist
+build b3 at Wil
+move b3 from Icalvinist to Odin (y3)
+convert b2 to y2 at G3
+move b3 from Odin to Wil; catastrophe blue at Wil
+build g1 at Wil
+build g1 at Icalvinist
+build b1 at G3
+move y1 from Icalvinist to Loki (g3)
+build b1 at G3
+convert b2 to y2 at Icalvinist
+move b1 from G3 to Wil
+build y1 at Icalvinist
+convert g3 to r3 at Wil
+convert y2 to r2 at Icalvinist
+build b2 at G3
+build y1 at Loki
+convert b2 to r2 at G3
+build y2 at Loki
+build y3 at G3
+build y3 at Icalvinist
+sacrifice y3 at G3; move y2 from G3 to G2 (g2); move b1 from G3 to G2; move y2 from G2 to Loki; catastrophe yellow at Loki
+build g2 at Icalvinist
+build b2 at G3
+move y1 from Icalvinist to Loki (g3)
+build g2 at Wil
+sacrifice g2 at Icalvinist; build y1 at Loki; build y1 at Loki
+convert b2 to y2 at G3
+sacrifice y3 at Icalvinist; move y1 from Loki to Wil; move y1 from Loki to Wil; move y1 from Loki to Wil; catastrophe yellow at Wil

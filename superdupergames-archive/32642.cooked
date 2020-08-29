@@ -1,0 +1,80 @@
+Mobynostromo (0, b1g2) y3-
+Wil (1, y3b2) -g3
+build y1 at Mobynostromo
+build g1 at Wil
+convert y1 to g1 at Mobynostromo
+convert g1 to b1 at Wil
+build g1 at Mobynostromo
+build b1 at Wil
+move g1 from Mobynostromo to Azo (y3)
+move b1 from Wil to Y1 (y1)
+build g1 at Mobynostromo
+sacrifice g3 at Wil; build b2 at Y1; build b2 at Y1; build b3 at Wil
+build g2 at Azo
+sacrifice b2 at Y1; convert b2 to r2 at Y1; convert b3 to g3 at Wil
+move g2 from Azo to Thalo (b2)
+sacrifice g3 at Wil; build b2 at Y1; build b3 at Y1; build b3 at Wil
+build y1 at Mobynostromo
+move b3 from Y1 to Azo
+convert g1 to r1 at Mobynostromo
+convert b3 to g3 at Wil
+build g1 at Thalo
+sacrifice g3 at Wil; build b3 at Wil; build b3 at Azo; build r1 at Y1
+build g2 at Azo
+sacrifice b2 at Y1; convert b3 to g3 at Wil; convert b3 to r3 at Azo
+move g2 from Azo to Nickel (y2)
+sacrifice g3 at Wil; build b2 at Azo; build b3 at Y1; build b3 at Wil
+build g3 at Nickel
+sacrifice b2 at Azo; convert b3 to g3 at Wil; convert b3 to g3 at Y1
+convert g2 to b2 at Thalo
+capture g1 at Azo
+move y1 from Mobynostromo to Cobalt (b3)
+sacrifice g3 at Y1; build b3 at Azo; build g2 at Azo; build g3 at Wil
+build y1 at Mobynostromo
+convert g2 to y2 at Azo
+sacrifice y3 at Mobynostromo; move y1 from Cobalt to Thalo; move y1 from Thalo to Azo; move y1 from Mobynostromo to Azo; catastrophe yellow at Azo
+sacrifice g3 at Wil; build b3 at Y1; build b3 at Wil; build b3 at Y1
+sacrifice g3 at Nickel; build g1 at Nickel; build g2 at Thalo; build g3 at Mobynostromo
+build g3 at Wil
+convert g2 to y2 at Thalo
+sacrifice b3 at Wil; convert g3 to r3 at Wil; convert b3 to g3 at Y1; convert b3 to y3 at Y1
+move b2 from Thalo to Arylide (y1)
+build b3 at Y1
+convert g1 to y1 at Mobynostromo
+build b3 at Y1
+build y2 at Mobynostromo
+move b3 from Y1 to Thalo
+move y1 from Mobynostromo to Oxide (y3)
+build b3 at Y1
+sacrifice y2 at Mobynostromo; move y1 from Oxide to Y1; move y2 from Thalo to Y1; catastrophe yellow at Y1
+build r1 at Wil
+convert g1 to y1 at Thalo
+sacrifice r1 at Wil; capture y1 at Thalo
+build r1 at Mobynostromo
+move b3 from Thalo to Arylide
+convert r1 to y1 at Mobynostromo
+build r1 at Wil
+build y2 at Mobynostromo
+sacrifice r1 at Wil; capture b2 at Arylide
+build r1 at Mobynostromo
+move b2 from Arylide to G3 (g3)
+move r1 from Mobynostromo to Vanadate (y3)
+convert b2 to y2 at G3
+convert y1 to b1 at Mobynostromo
+build g1 at Wil
+move b1 from Mobynostromo to Vanadate
+move b3 from Arylide to G3
+convert r1 to g1 at Vanadate
+move b1 from Wil to Y1 (y1)
+build b2 at Vanadate
+build b3 at G3
+sacrifice g3 at Mobynostromo; build g2 at Vanadate; build g3 at Vanadate; build r1 at Mobynostromo
+sacrifice g3 at Wil; build g3 at Wil; build b3 at Y1; build r1 at Wil
+move g3 from Vanadate to Mobynostromo
+sacrifice g3 at Wil; build y1 at Thalo; build y3 at G3; build g3 at Wil
+move r1 from Mobynostromo to Vanadate
+sacrifice y2 at G3; move y3 from G3 to Mobynostromo; move b3 from G3 to Mobynostromo
+capture y3 at Mobynostromo
+sacrifice r3 at Wil; capture g3 at Mobynostromo; capture y3 at Mobynostromo; capture y2 at Mobynostromo
+convert b2 to r2 at Vanadate
+sacrifice r1 at Wil; capture r1 at Mobynostromo

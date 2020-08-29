@@ -1,0 +1,50 @@
+Andylooney (0, g1b2) y3-
+Jesse (1, y3b1) -g3
+build y1 at Andylooney
+build g1 at Jesse
+convert y1 to g1 at Andylooney
+move g1 from Jesse to Robot (b2)
+build g2 at Andylooney
+build g2 at Jesse
+move g2 from Andylooney to Monkey (y3)
+convert g2 to y2 at Jesse
+build g2 at Monkey
+build g2 at Jesse
+move g2 from Monkey to Pirate (y2)
+convert g2 to r2 at Jesse
+convert g1 to r1 at Andylooney
+move y2 from Jesse to Robot
+build y1 at Andylooney
+build y1 at Robot
+move y1 from Andylooney to Ninja (g3)
+convert y1 to b1 at Robot
+build y1 at Andylooney
+build b1 at Robot
+move y1 from Andylooney to Ibm (b3)
+move b1 from Robot to Bumblebee (g3)
+build y1 at Ninja
+build y2 at Robot
+sacrifice g2 at Monkey; build y3 at Ibm; build r1 at Andylooney
+build b2 at Bumblebee
+move r1 from Andylooney to Meanie (b3)
+build b3 at Bumblebee
+sacrifice y3 at Ibm; move y1 from Ninja to Robot; move y1 from Ibm to Robot; move g2 from Pirate to Howell (y3); catastrophe yellow at Robot
+build b3 at Robot
+build y1 at Ninja
+convert b2 to y2 at Bumblebee
+move y1 from Ninja to Bomber (b2)
+convert b3 to r3 at Bumblebee
+move r1 from Andylooney to Max (b3)
+build g1 at Jesse
+build g2 at Howell
+sacrifice g3 at Jesse; build g2 at Robot; build g3 at Jesse; build r1 at Jesse
+sacrifice g2 at Howell; build r2 at Max; build r2 at Meanie
+convert b3 to r3 at Robot
+convert r2 to y2 at Max
+convert g2 to y2 at Robot
+sacrifice g2 at Howell; build y1 at Max; build y3 at Bomber
+build b3 at Bumblebee
+convert r2 to g2 at Meanie
+sacrifice y2 at Bumblebee; move r3 from Bumblebee to Andylooney; move b3 from Bumblebee to Andylooney
+build y2 at Andylooney
+sacrifice r2 at Jesse; capture y2 at Andylooney; capture y3 at Andylooney

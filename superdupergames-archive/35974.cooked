@@ -1,0 +1,30 @@
+Capi3101 (0, b1y3) g3-
+Trydnt (1, y1b2) -g3
+build g1 at Capi3101
+build g1 at Trydnt
+convert g1 to y1 at Capi3101
+convert g1 to b1 at Trydnt
+build y1 at Capi3101
+build b1 at Trydnt
+move y1 from Capi3101 to Aleph (g2)
+move b1 from Trydnt to G3 (g3)
+build y2 at Aleph
+build b2 at G3
+move y2 from Aleph to Bet (b3)
+convert b2 to y2 at G3
+sacrifice g3 at Capi3101; build y2 at Aleph; build y3 at Bet; build y3 at Capi3101
+build b2 at Trydnt
+move y1 from Aleph to Bet
+move y2 from G3 to G2 (g2)
+sacrifice y1 at Capi3101; move y2 from Aleph to Gimel (r3)
+move y2 from G2 to Bet; catastrophe yellow at Bet
+convert y3 to g3 at Capi3101
+build b2 at G3
+build g1 at Capi3101
+build b3 at G3
+convert g1 to r1 at Capi3101
+convert b2 to r2 at G3
+build g1 at Capi3101
+convert b3 to y3 at G3
+build g1 at Capi3101
+sacrifice y3 at G3; move g3 from Trydnt to G3; move g3 from G3 to Y2 (y2); move g3 from Y2 to Capi3101; catastrophe green at Capi3101

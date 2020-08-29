@@ -1,0 +1,47 @@
+Simon (0, b3r1) g3-
+Draw5Playall (1, b1r2) -g3
+build g1 at Simon
+build g1 at Draw5Playall
+convert g1 to y1 at Simon
+build g1 at Draw5Playall
+build y1 at Simon
+convert g1 to y1 at Draw5Playall
+build y2 at Simon
+build y2 at Draw5Playall
+move y2 from Simon to B2 (b2)
+move g1 from Draw5Playall to Neptune (b3)
+move y1 from Simon to Y2 (y2)
+move y1 from Draw5Playall to Neptune
+sacrifice g3 at Simon; build y3 at Simon; build y3 at B2; build y3 at Y2
+move y1 from Neptune to Y2; catastrophe yellow at Y2
+convert y2 to g2 at B2
+build g1 at Neptune
+build y1 at B2
+build g1 at Draw5Playall
+convert y3 to r3 at B2
+build g2 at Neptune
+move r3 from B2 to Neptune
+sacrifice y2 at Draw5Playall; move g2 from Neptune to Action (b2); move g1 from Neptune to Action
+capture g1 at Neptune
+convert g1 to y1 at Draw5Playall
+build y2 at B2
+build y2 at Draw5Playall
+move y1 from B2 to Neptune
+convert g2 to b2 at Action
+convert y1 to b1 at Simon
+build g1 at Draw5Playall
+build g2 at B2
+convert b2 to r2 at Action
+move g2 from B2 to Y3 (y3)
+convert g1 to b1 at Draw5Playall
+build y1 at B2
+move b1 from Draw5Playall to Earth (g3)
+build g1 at Y3
+build b2 at Earth
+move g1 from Y3 to Draw5Playall
+convert g3 to b3 at Draw5Playall
+build y2 at Neptune
+capture g1 at Draw5Playall
+sacrifice g2 at Y3; build y3 at Simon; build y3 at B2
+sacrifice y2 at Draw5Playall; move y1 from Draw5Playall to Neptune; move y1 from Neptune to B2; catastrophe yellow at B2
+move y3 from Simon to Action

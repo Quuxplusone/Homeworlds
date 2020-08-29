@@ -1,0 +1,30 @@
+Captncavern (0, b2g3) r3-
+Supergnouf (1, g3b1) -y3
+build r1 at Captncavern
+build y1 at Supergnouf
+convert r1 to y1 at Captncavern
+convert y1 to r1 at Supergnouf
+build r1 at Captncavern
+build y1 at Supergnouf
+convert r1 to g1 at Captncavern
+convert y1 to g1 at Supergnouf
+build y1 at Captncavern
+build r1 at Supergnouf
+move y1 from Captncavern to Un (b1)
+move r1 from Supergnouf to Picoro (y2)
+build r1 at Captncavern
+build r2 at Supergnouf
+build r2 at Captncavern
+build r2 at Supergnouf
+move r2 from Captncavern to Un
+sacrifice g1 at Supergnouf; build r3 at Picoro
+move r2 from Un to Deux (y2)
+move r2 from Supergnouf to Bou (y2)
+build r3 at Captncavern
+sacrifice y3 at Supergnouf; move r1 from Picoro to Un; move r1 from Un to Captncavern; move r3 from Picoro to Freeze (y1); catastrophe red at Captncavern
+build y2 at Captncavern
+move r3 from Freeze to Captncavern
+convert g1 to r1 at Captncavern
+sacrifice r2 at Bou; capture y2 at Captncavern; capture r1 at Captncavern
+build y1 at Captncavern
+sacrifice r2 at Supergnouf; capture y1 at Captncavern; capture y1 at Captncavern

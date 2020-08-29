@@ -1,0 +1,68 @@
+Magicjohn (0, b3r2) g3-
+Ajo (1, r1b2) -g3
+build g1 at Magicjohn
+build g1 at Ajo
+convert g1 to y1 at Magicjohn
+convert g1 to y1 at Ajo
+build g1 at Magicjohn
+build g1 at Ajo
+move g1 from Magicjohn to Prancer (r1)
+move g1 from Ajo to Alpha (b3)
+build g1 at Magicjohn
+build g2 at Ajo
+convert g1 to r1 at Magicjohn
+convert g2 to r2 at Ajo
+move r1 from Magicjohn to Comet (b1)
+build g1 at Ajo
+build g2 at Magicjohn
+sacrifice g3 at Ajo; build g2 at Alpha; build g2 at Alpha; build g3 at Ajo
+build g3 at Magicjohn
+convert g2 to y2 at Alpha
+convert g2 to y2 at Magicjohn
+move g2 from Alpha to Prancer
+move y2 from Magicjohn to Comet
+capture g1 at Prancer
+move g3 from Magicjohn to Comet
+sacrifice g3 at Ajo; build g2 at Alpha; build g2 at Prancer; build g3 at Ajo
+sacrifice g3 at Comet; build r2 at Comet; build r3 at Comet; build g3 at Magicjohn
+sacrifice y2 at Alpha; move g1 from Prancer to Magicjohn; move g2 from Prancer to Magicjohn; catastrophe green at Magicjohn
+move r3 from Comet to Magicjohn
+sacrifice g3 at Ajo; build g1 at Prancer; build g2 at Alpha; build g3 at Ajo
+convert r3 to g3 at Magicjohn
+convert g2 to y2 at Alpha
+convert r2 to g2 at Comet
+convert g1 to b1 at Alpha
+build r2 at Comet
+sacrifice g3 at Ajo; build g1 at Prancer; build g3 at Ajo; build g3 at Alpha
+convert r2 to b2 at Comet
+sacrifice y2 at Alpha; move g1 from Prancer to Magicjohn; move g1 from Prancer to Magicjohn
+convert g3 to r3 at Magicjohn
+convert g2 to y2 at Alpha
+build r2 at Comet
+sacrifice g3 at Ajo; build g2 at Magicjohn; build g3 at Ajo; build g3 at Alpha
+move g2 from Comet to Magicjohn; catastrophe green at Magicjohn
+move g3 from Alpha to Comet
+move b2 from Comet to Magicjohn
+sacrifice r2 at Ajo; capture r2 at Comet; capture y2 at Comet
+convert b2 to g2 at Magicjohn
+capture r1 at Comet
+convert r3 to y3 at Magicjohn
+sacrifice g2 at Prancer; build y1 at Comet; build y2 at Alpha
+move y1 from Magicjohn to Donder (g1)
+move y2 from Alpha to Donder
+build y3 at Donder
+build y3 at Donder; catastrophe yellow at Donder
+build g1 at Magicjohn
+build g1 at Alpha
+move g1 from Magicjohn to Prancer (y1)
+move g3 from Alpha to Prancer
+build g2 at Prancer
+sacrifice y2 at Alpha; move y1 from Comet to Magicjohn; move y2 from Comet to Magicjohn
+convert y3 to b3 at Magicjohn
+convert y1 to b1 at Magicjohn
+capture y2 at Magicjohn
+sacrifice g3 at Ajo; build g2 at Alpha; build g3 at Ajo; build b2 at Magicjohn; catastrophe blue at Magicjohn
+move g2 from Magicjohn to Prancer; catastrophe green at Prancer
+sacrifice y1 at Ajo; move g3 from Comet to Magicjohn
+pass
+capture y2 at Magicjohn

@@ -1,0 +1,11 @@
+Wil (0, b2y1) g3-
+Random56 (1, y3b2) -g3
+build g1 at Wil
+build g1 at Random56
+convert g1 to y1 at Wil
+build g1 at Random56
+build y1 at Wil
+convert g1 to r1 at Random56
+move y1 from Wil to G3 (g3)
+move r1 from Random56 to Kite (g1)
+build y2 at G3

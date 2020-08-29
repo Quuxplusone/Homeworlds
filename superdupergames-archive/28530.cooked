@@ -1,0 +1,21 @@
+Endo (0, b1y3) g3-
+Kanzenryu (1, r1g2) -b3
+build g1 at Endo
+build b1 at Kanzenryu
+move g1 from Endo to Gch (y2)
+convert b3 to y3 at Kanzenryu
+build g1 at Endo
+build y1 at Kanzenryu
+sacrifice g3 at Endo; build g1 at Gch; build g2 at Endo; build g2 at Gch
+convert y1 to r1 at Kanzenryu
+build g3 at Endo
+build y1 at Kanzenryu
+move g2 from Gch to Ac (y3)
+convert y3 to g3 at Kanzenryu
+convert g2 to y2 at Endo
+move r1 from Kanzenryu to Ac
+sacrifice g3 at Endo; build g2 at Endo; build g3 at Endo; build g3 at Ac
+convert g3 to r3 at Kanzenryu
+convert g3 to r3 at Endo
+move r1 from Ac to Gch
+sacrifice g3 at Ac; build g3 at Endo; build g3 at Gch; build g3 at Ac

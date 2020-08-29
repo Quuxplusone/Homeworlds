@@ -1,0 +1,47 @@
+Trydnt (0, b3y2) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Trydnt
+build g1 at Ts52
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Ts52
+build y2 at Trydnt
+build g1 at Ts52
+convert y1 to r1 at Trydnt
+convert g1 to r1 at Ts52
+build g1 at Trydnt
+build g1 at Ts52
+convert g1 to b1 at Trydnt
+build g1 at Ts52
+build b1 at Trydnt
+convert g1 to b1 at Ts52
+move b1 from Trydnt to G1 (g1)
+move b1 from Ts52 to Kermit (g3)
+build b2 at Trydnt
+move y1 from Ts52 to Kermit
+move y2 from Trydnt to G1
+move g1 from Ts52 to Grover (b3)
+move b2 from Trydnt to Y1 (y1)
+build g1 at Ts52
+build g2 at Trydnt
+build g2 at Grover
+sacrifice g2 at Trydnt; build b2 at G1; build b3 at Y1
+sacrifice g3 at Ts52; build g2 at Grover; build g2 at Ts52; build g3 at Ts52
+convert b2 to r2 at G1
+build b2 at Kermit
+move b3 from Y1 to Grover
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Kermit; build y3 at Kermit
+build y3 at G1
+move g2 from Ts52 to Bigbird (y3)
+move y2 from G1 to Kermit; catastrophe yellow at Kermit
+convert b2 to y2 at Kermit
+build b2 at G1
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Ts52; build r2 at Ts52
+sacrifice y3 at G1; move r2 from G1 to Grover; move r2 from Grover to Ts52; move b3 from Grover to Ts52; catastrophe red at Ts52
+convert g3 to y3 at Ts52
+sacrifice r1 at Trydnt; capture y3 at Ts52
+build g3 at Ts52
+convert b2 to r2 at G1
+sacrifice y2 at Kermit; move b1 from Kermit to Ts52; move g1 from Grover to Ts52
+sacrifice r2 at G1; capture g3 at Ts52; capture b1 at Ts52
+convert g1 to r1 at Ts52
+sacrifice g3 at Ts52; build y1 at Ts52; build y2 at Ts52; build b2 at Ts52; catastrophe blue at Ts52; catastrophe yellow at Ts52

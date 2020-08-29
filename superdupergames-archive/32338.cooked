@@ -1,0 +1,81 @@
+Icalvinist (0, b3y1) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Icalvinist
+build g1 at Ts52
+convert g1 to y1 at Icalvinist
+convert g1 to y1 at Ts52
+build y2 at Icalvinist
+build y2 at Ts52
+build g1 at Icalvinist
+move y1 from Ts52 to Gonzo (b1)
+move y1 from Icalvinist to Loki (b2)
+build g1 at Ts52
+convert g1 to b1 at Icalvinist
+convert g1 to b1 at Ts52
+build g1 at Icalvinist
+move b1 from Ts52 to Kermit (g1)
+move g1 from Icalvinist to Loki
+move y2 from Ts52 to Kermit
+move g1 from Loki to Gonzo
+convert y1 to r1 at Gonzo
+sacrifice y1 at Loki; move g1 from Gonzo to Ts52
+sacrifice r1 at Gonzo; capture g1 at Ts52
+move b1 from Icalvinist to Odin (y2)
+move g1 from Ts52 to Gonzo (b1)
+build g1 at Icalvinist
+build g2 at Ts52
+move g1 from Icalvinist to Odin
+build b2 at Kermit
+build g2 at Odin
+build y1 at Kermit
+convert g1 to r1 at Odin
+convert b1 to r1 at Kermit
+move g2 from Odin to Gonzo
+convert g2 to r2 at Ts52
+sacrifice r1 at Odin; capture g1 at Gonzo
+build r1 at Kermit
+convert g1 to y1 at Gonzo
+move y2 from Kermit to Robin (g2)
+build y3 at Gonzo
+build y3 at Kermit
+build g1 at Icalvinist
+move y3 from Kermit to Elmo (r2)
+convert y1 to r1 at Gonzo
+build g1 at Ts52
+sacrifice g3 at Icalvinist; build g2 at Gonzo; build r2 at Gonzo; build g3 at Icalvinist
+move g1 from Ts52 to Bigbird (y1)
+move r1 from Gonzo to Loki (g3)
+build r3 at Ts52
+sacrifice g3 at Icalvinist; build g3 at Icalvinist; build r3 at Gonzo; build r3 at Loki
+move r3 from Ts52 to Bigbird
+sacrifice b1 at Odin; convert g2 to y2 at Gonzo
+build g2 at Ts52
+move y2 from Gonzo to Loki
+sacrifice g3 at Ts52; build g3 at Ts52; build b1 at Kermit; build b1 at Kermit
+move r3 from Loki to Kermit
+move b2 from Kermit to Robin
+sacrifice r3 at Gonzo; capture r1 at Kermit; capture r1 at Kermit; capture y1 at Kermit
+sacrifice g3 at Ts52; build g3 at Ts52; build r3 at Bigbird; build b2 at Robin
+move r1 from Kermit to Loki
+build b3 at Robin
+sacrifice g1 at Icalvinist; build g1 at Gonzo
+sacrifice b1 at Kermit; convert r3 to b3 at Bigbird
+sacrifice y2 at Icalvinist; move g2 from Gonzo to Ts52; move g1 from Gonzo to Ts52; catastrophe green at Ts52
+move b3 from Bigbird to Ts52
+capture b1 at Kermit
+sacrifice y3 at Elmo; move b2 from Robin to Icalvinist; move b2 from Robin to Icalvinist; move b3 from Robin to Icalvinist; catastrophe blue at Icalvinist
+build y2 at Kermit
+build y3 at Robin
+build b1 at Kermit
+convert b3 to g3 at Ts52
+build b2 at Kermit
+build g1 at Ts52
+sacrifice y2 at Loki; move y3 from Gonzo to Ts52; move y1 from Kermit to Ts52
+sacrifice r2 at Ts52; capture y3 at Ts52; capture y1 at Ts52
+move y2 from Kermit to Ts52; catastrophe yellow at Ts52
+move y2 from Robin to Icalvinist
+sacrifice r1 at Loki; capture y2 at Icalvinist
+build y1 at Robin
+convert r3 to y3 at Kermit
+move y1 from Robin to Icalvinist
+sacrifice y3 at Kermit; move b2 from Kermit to Ts52; move b1 from Kermit to Ts52; move b1 from Kermit to Ts52; catastrophe blue at Ts52

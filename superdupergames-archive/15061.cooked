@@ -1,0 +1,27 @@
+Mathochist (0, r1g2) b3-
+Makertron (1, r2b1) -g3
+build b1 at Mathochist
+build g1 at Makertron
+convert b1 to y1 at Mathochist
+convert g1 to y1 at Makertron
+build b1 at Mathochist
+move y1 from Makertron to L2 (y3)
+convert b1 to r1 at Mathochist
+build g1 at Makertron
+build r1 at Mathochist
+build g1 at Makertron
+move r1 from Mathochist to Fred (b3)
+convert g1 to y1 at Makertron
+build r2 at Mathochist
+build g1 at Makertron
+build y2 at Mathochist
+build g1 at Makertron
+build y2 at Mathochist; catastrophe green at Makertron
+convert y1 to g1 at Makertron
+move r2 from Mathochist to L2
+build g1 at Makertron
+move r2 from L2 to Makertron
+build g1 at Makertron
+capture g1 at Makertron
+build g2 at Makertron
+catastrophe green at Makertron

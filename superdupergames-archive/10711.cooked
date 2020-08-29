@@ -1,0 +1,38 @@
+Wheatberry (0, g2y1) b3-
+Matrixfrog (1, b3g2) -y3
+build b1 at Wheatberry
+build y1 at Matrixfrog
+convert b1 to y1 at Wheatberry
+build y2 at Matrixfrog
+build y2 at Wheatberry
+move y2 from Matrixfrog to Bing (g1)
+move y1 from Wheatberry to Crosby (b3)
+convert y1 to g1 at Matrixfrog
+move y2 from Wheatberry to Crosby
+build g1 at Matrixfrog
+convert y2 to r2 at Crosby
+convert g1 to r1 at Matrixfrog
+move r2 from Crosby to Bing
+move y2 from Bing to Jello (g3)
+move y1 from Crosby to Bing
+build r1 at Matrixfrog
+build r1 at Bing
+build y1 at Jello
+build b1 at Wheatberry
+build y2 at Matrixfrog
+build y2 at Bing
+build g1 at Matrixfrog
+convert b3 to y3 at Wheatberry
+sacrifice y2 at Matrixfrog; move y2 from Jello to Wheatberry; move y1 from Jello to Wheatberry; catastrophe yellow at Wheatberry
+move r2 from Bing to Wheatberry
+move g1 from Matrixfrog to Bang (y1)
+build r2 at Wheatberry
+build g2 at Bang
+sacrifice y2 at Bing; move y1 from Bing to Wheatberry; move r1 from Bing to Matrixfrog
+capture r1 at Matrixfrog
+move r2 from Wheatberry to Bang
+sacrifice r1 at Matrixfrog; capture r2 at Bang
+move b1 from Wheatberry to Bounce (y3)
+sacrifice y3 at Matrixfrog; move g1 from Bang to Wheatberry; move g2 from Bang to Wheatberry; move r2 from Bang to Wheatberry
+capture g2 at Wheatberry
+build g1 at Wheatberry; catastrophe green at Wheatberry

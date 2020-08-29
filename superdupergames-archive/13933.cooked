@@ -1,0 +1,41 @@
+Jesse (0, r1b2) g3-
+Pottytroll (1, y3b1) -g3
+build g1 at Jesse
+build g1 at Pottytroll
+convert g1 to y1 at Jesse
+move g1 from Pottytroll to Porkslap (b2)
+build g1 at Jesse
+build g1 at Pottytroll
+build g2 at Jesse
+build g2 at Porkslap
+move g2 from Jesse to Blop (g3)
+convert g2 to y2 at Porkslap
+build y1 at Jesse
+build g2 at Porkslap
+move g1 from Jesse to Dollop (y3)
+move g1 from Porkslap to Blop
+build g2 at Dollop
+build y1 at Porkslap
+convert y1 to r1 at Jesse
+convert y1 to b1 at Porkslap
+move g2 from Dollop to Porkslap
+convert g1 to r1 at Pottytroll
+sacrifice r1 at Jesse; capture y2 at Porkslap
+sacrifice r1 at Pottytroll; capture y2 at Porkslap
+convert g2 to r2 at Porkslap
+sacrifice b1 at Porkslap; convert g1 to r1 at Blop
+capture y2 at Porkslap
+sacrifice r1 at Blop; capture r2 at Porkslap
+move y2 from Porkslap to Smidge (b3)
+build r1 at Porkslap
+sacrifice g2 at Blop; build y1 at Smidge; build g1 at Jesse
+convert r1 to y1 at Porkslap
+convert y1 to r1 at Smidge
+build g1 at Pottytroll
+build g2 at Dollop
+convert g1 to r1 at Pottytroll
+sacrifice g1 at Jesse; build r2 at Smidge
+sacrifice g2 at Porkslap; build r2 at Pottytroll; build r3 at Porkslap
+move r2 from Smidge to Pinch (g2)
+convert r2 to g2 at Porkslap
+sacrifice g2 at Dollop; build r2 at Pinch; build r3 at Smidge

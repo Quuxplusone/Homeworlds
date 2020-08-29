@@ -1,0 +1,31 @@
+Mandrel (0, r1b2) g3-
+Joe_Hill (1, y1b2) -g3
+build g1 at Mandrel
+build g1 at Joe_Hill
+convert g1 to y1 at Mandrel
+convert g1 to y1 at Joe_Hill
+build y2 at Mandrel
+build g1 at Joe_Hill
+move y1 from Mandrel to Peer (g3)
+convert g3 to r3 at Joe_Hill
+build y2 at Peer
+convert y1 to b1 at Joe_Hill
+build g1 at Mandrel
+build g1 at Joe_Hill
+convert g1 to b1 at Mandrel
+move g1 from Joe_Hill to Tab (y3)
+move b1 from Mandrel to Peer
+move b1 from Joe_Hill to Tab
+build y1 at Mandrel
+build g1 at Tab
+build g2 at Mandrel
+build g2 at Joe_Hill
+convert y2 to r2 at Mandrel
+convert g1 to r1 at Tab
+move r2 from Mandrel to Tab
+move r1 from Tab to Joe_Hill
+capture g1 at Tab
+move b1 from Tab to Hab (y2)
+build y2 at Mandrel
+move g2 from Joe_Hill to Peer
+build y3 at Peer

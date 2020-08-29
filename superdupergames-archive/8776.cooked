@@ -1,0 +1,62 @@
+Wmreed (0, g3b1) r3-
+Ts52 (1, g1b2) -r3
+build r1 at Wmreed
+build r1 at Ts52
+convert r1 to y1 at Wmreed
+convert r1 to y1 at Ts52
+build y1 at Wmreed
+build y2 at Ts52
+build y2 at Wmreed
+convert y1 to g1 at Ts52
+convert y1 to b1 at Wmreed
+build y1 at Ts52
+move b1 from Wmreed to Bendon (g2)
+move g1 from Ts52 to Grover (b3)
+build r1 at Wmreed
+build r1 at Ts52
+move r1 from Wmreed to Bendon
+move y1 from Ts52 to Grover
+move y1 from Wmreed to Bendon
+move r1 from Ts52 to Grover
+build y1 at Bendon
+build r1 at Ts52
+move b1 from Bendon to Telgar (y3)
+move r1 from Ts52 to Sol (y3)
+build r2 at Bendon
+build r2 at Grover
+move y1 from Bendon to Wmreed
+convert r2 to g2 at Grover
+build r2 at Wmreed
+sacrifice g2 at Grover; build y2 at Ts52; build y3 at Grover
+convert r2 to g2 at Wmreed
+build r2 at Ts52
+sacrifice g2 at Wmreed; build b1 at Telgar; build b2 at Telgar
+sacrifice y2 at Ts52; move y3 from Grover to Bendon; move y3 from Bendon to Telgar
+move b1 from Telgar to Bendon
+sacrifice r2 at Ts52; capture b2 at Telgar; capture b1 at Telgar
+move r1 from Bendon to Ista (g3)
+build y2 at Ts52
+build r2 at Ista
+convert b2 to g2 at Telgar
+build b2 at Bendon
+sacrifice g2 at Telgar; build r2 at Sol; build r3 at Grover
+convert b2 to g2 at Bendon
+move y3 from Telgar to Bendon
+sacrifice y2 at Wmreed; move r2 from Bendon to Fort (g1); move g2 from Bendon to Fort
+move r1 from Sol to Bendon
+sacrifice y1 at Bendon; move b1 from Bendon to Wmreed
+move r3 from Grover to Fort
+sacrifice g2 at Fort; build y1 at Wmreed; build y2 at Wmreed
+sacrifice y2 at Ts52; move y1 from Grover to Bendon; move y1 from Bendon to Wmreed; catastrophe yellow at Wmreed
+sacrifice b1 at Wmreed; convert r2 to g2 at Ista
+capture r2 at Fort
+build r2 at Wmreed
+build y1 at Bendon
+convert r2 to y2 at Wmreed
+sacrifice y1 at Bendon; move r3 from Fort to Bendon
+build g2 at Ista
+build g3 at Grover
+build y1 at Wmreed
+sacrifice y2 at Ts52; move y3 from Bendon to Wmreed; move r3 from Bendon to Wmreed
+capture r3 at Wmreed
+sacrifice r2 at Fort; capture r3 at Wmreed; capture r3 at Wmreed

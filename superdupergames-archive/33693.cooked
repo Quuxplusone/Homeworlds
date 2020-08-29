@@ -1,0 +1,53 @@
+Felix (0, r2b3) g3-
+Deanthebean (1, g1b2) -r3
+build g1 at Felix
+build r1 at Deanthebean
+build g1 at Felix
+build r1 at Deanthebean
+convert g1 to r1 at Felix
+convert r1 to y1 at Deanthebean
+convert g1 to y1 at Felix
+move r1 from Deanthebean to Dtb2 (g3)
+build g1 at Felix
+build r1 at Dtb2
+build r2 at Felix
+build r2 at Dtb2
+move r2 from Felix to Out (y1)
+build r3 at Deanthebean
+build r3 at Felix
+move y1 from Deanthebean to Dtb2
+move r2 from Out to Dtb2; catastrophe red at Dtb2
+convert r3 to y3 at Deanthebean
+convert r1 to b1 at Felix
+build r1 at Deanthebean
+build b1 at Felix
+build r1 at Deanthebean
+move b1 from Felix to Out (g1)
+move r3 from Deanthebean to Dtb2
+move r3 from Felix to Out
+build y1 at Deanthebean
+build y2 at Felix
+build y2 at Dtb2
+move y1 from Felix to Out
+convert r1 to b1 at Deanthebean
+build b2 at Out
+move b1 from Deanthebean to Dtb2
+move b2 from Out to Crumbs (g3)
+convert y3 to r3 at Deanthebean
+build g2 at Felix
+build b2 at Dtb2
+sacrifice g2 at Felix; build b3 at Crumbs; build b3 at Out
+move y1 from Dtb2 to Newstar (r1)
+convert b3 to y3 at Crumbs
+move r3 from Dtb2 to Newstar
+build b3 at Crumbs
+build y2 at Deanthebean
+sacrifice g3 at Felix; build y3 at Felix; build y3 at Out; build g2 at Felix
+convert r3 to g3 at Deanthebean
+move r3 from Out to Dtb2
+sacrifice y2 at Dtb2; move b2 from Dtb2 to Out; move b1 from Dtb2 to Out; catastrophe blue at Out
+build b1 at Crumbs
+build g2 at Deanthebean
+sacrifice y3 at Out; move g1 from Felix to Out; move g1 from Out to Dtb2; move g1 from Dtb2 to Deanthebean; catastrophe green at Deanthebean
+move r3 from Newstar to Crumbs
+sacrifice y3 at Felix; move b1 from Crumbs to Deanthebean; move b2 from Crumbs to Deanthebean; move b3 from Crumbs to Deanthebean; catastrophe blue at Deanthebean

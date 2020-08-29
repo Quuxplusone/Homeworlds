@@ -1,0 +1,43 @@
+Zoltar (0, y1b2) g3-
+Matrixfrog (1, b3g1) -y3
+build g1 at Zoltar
+build y1 at Matrixfrog
+move g1 from Zoltar to Banana (y3)
+build y1 at Matrixfrog
+build g1 at Zoltar
+move y1 from Matrixfrog to Jeetoo (g2)
+build g2 at Zoltar
+build y2 at Jeetoo
+move g2 from Zoltar to Blueberry (b3)
+move y1 from Jeetoo to Bumble (b3)
+sacrifice g3 at Zoltar; build g2 at Banana; build g3 at Zoltar; build g3 at Blueberry
+convert y3 to g3 at Matrixfrog
+convert g2 to y2 at Blueberry
+sacrifice g3 at Matrixfrog; build y2 at Matrixfrog; build y3 at Bumble; build y3 at Matrixfrog
+sacrifice g3 at Zoltar; build g2 at Blueberry; build g3 at Zoltar; build g3 at Banana
+move y1 from Matrixfrog to Earth (b2)
+convert g3 to r3 at Zoltar
+convert y2 to r2 at Matrixfrog
+sacrifice g3 at Banana; build g3 at Banana; build g3 at Zoltar; build y2 at Blueberry
+move y1 from Earth to Bumble
+move y2 from Blueberry to Boysenberry (b2)
+build r1 at Matrixfrog
+move y2 from Boysenberry to Bumble; catastrophe yellow at Bumble
+build y1 at Matrixfrog
+convert g3 to r3 at Blueberry
+move y1 from Matrixfrog to Zip (b2)
+sacrifice g3 at Banana; build g3 at Banana; build g3 at Blueberry; build r1 at Blueberry
+move y1 from Zip to Banana
+move r3 from Blueberry to Jeetoo
+move y2 from Jeetoo to Mordor (r3)
+convert g3 to y3 at Blueberry
+convert y3 to g3 at Matrixfrog
+sacrifice g3 at Banana; build g3 at Blueberry; build r1 at Jeetoo; build r2 at Blueberry
+move y1 from Banana to D2 (r2)
+move g3 from Blueberry to D2
+move y1 from D2 to Alpha (b3)
+sacrifice y3 at Blueberry; move g1 from Banana to D2; move g1 from D2 to Matrixfrog; move g3 from D2 to Matrixfrog; catastrophe green at Matrixfrog
+convert r1 to g1 at Matrixfrog
+move r3 from Zoltar to Matrixfrog
+build g1 at Matrixfrog
+sacrifice r3 at Jeetoo; capture r2 at Matrixfrog; capture g1 at Matrixfrog; capture g1 at Matrixfrog

@@ -1,0 +1,45 @@
+Babamots (0, b2r1) g3-
+Wil (1, b1y3) -g3
+build g1 at Babamots
+build g1 at Wil
+convert g1 to y1 at Babamots
+convert g1 to b1 at Wil
+build y1 at Babamots
+build b1 at Wil
+build y1 at Babamots
+move b1 from Wil to Y2 (y2)
+move y1 from Babamots to Risa (g3)
+move b1 from Y2 to Y3 (y3)
+build y2 at Babamots
+sacrifice g3 at Wil; build b2 at Y3; build b2 at Y3; build b3 at Wil
+convert y2 to r2 at Babamots
+sacrifice b2 at Y3; convert b2 to r2 at Y3; convert b3 to g3 at Wil
+convert r2 to b2 at Babamots
+build g1 at Wil
+move b2 from Babamots to Risa
+sacrifice g3 at Wil; build b2 at Y3; build b3 at Y3; build b3 at Wil
+build b3 at Risa
+sacrifice b2 at Y3; convert b3 to y3 at Y3; convert b3 to g3 at Wil
+build y2 at Risa
+move y3 from Y3 to G2 (g2)
+convert b2 to r2 at Risa
+build y2 at G2
+build y2 at Babamots
+move y2 from G2 to R3 (r3)
+move y1 from Babamots to Y3
+move b1 from Y3 to G2
+move y1 from Y3 to Orion (g2)
+build b2 at G2
+build b2 at Risa
+move b1 from G2 to Risa
+sacrifice y2 at Risa; move b3 from Risa to Orion; move b3 from Orion to Wil
+sacrifice g3 at Wil; build b3 at Wil; build b3 at G2; build y2 at R3; catastrophe blue at Wil
+move y1 from Risa to Betazed (g2)
+sacrifice y3 at G2; move b3 from G2 to Wil; move y2 from R3 to Babamots; move y2 from R3 to Babamots; catastrophe yellow at Babamots
+convert b2 to y2 at Risa
+convert b2 to y2 at G2
+build y1 at Orion
+build g1 at Wil
+sacrifice y2 at Risa; move y1 from Orion to Wil; move y1 from Orion to Wil
+sacrifice y2 at G2; move g1 from Wil to Babamots; move g1 from Wil to Babamots
+move y1 from Betazed to Wil; catastrophe yellow at Wil

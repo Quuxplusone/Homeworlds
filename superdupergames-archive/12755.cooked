@@ -1,0 +1,38 @@
+Uglyfoot (0, b3y2) g3-
+Mouce (1, g3y1) -b3
+build g1 at Uglyfoot
+build b1 at Mouce
+move g1 from Uglyfoot to Txfr (y1)
+move b1 from Mouce to Shangrilala (g2)
+build g1 at Uglyfoot
+build b1 at Shangrilala
+build g1 at Txfr
+convert b1 to y1 at Shangrilala
+move g1 from Txfr to Path (b2)
+build b1 at Mouce
+sacrifice g3 at Uglyfoot; build g2 at Path; build g2 at Path; build g3 at Uglyfoot
+build y2 at Shangrilala
+convert g2 to y2 at Path
+build y3 at Shangrilala
+sacrifice g3 at Uglyfoot; build g2 at Txfr; build g3 at Uglyfoot; build y3 at Path
+convert y3 to r3 at Shangrilala
+convert g1 to r1 at Uglyfoot
+sacrifice y2 at Shangrilala; move r3 from Shangrilala to Txfr; move r3 from Txfr to Path
+sacrifice r1 at Uglyfoot; capture r3 at Path
+convert b1 to r1 at Mouce
+build g1 at Uglyfoot
+build y2 at Shangrilala
+sacrifice y3 at Path; move y2 from Path to Mouce; move g2 from Path to Mouce; move g1 from Path to Mouce
+capture y2 at Mouce
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Mouce; build r1 at Path; catastrophe green at Mouce
+build y3 at Shangrilala
+convert r3 to y3 at Path
+convert y2 to r2 at Shangrilala
+move g1 from Txfr to Path
+sacrifice y2 at Mouce; move y3 from Shangrilala to Mouce; move b3 from Mouce to Uglyfoot
+sacrifice r1 at Path; capture b3 at Uglyfoot
+move y3 from Mouce to Uglyfoot
+sacrifice g3 at Uglyfoot; build g1 at Txfr; build g2 at Txfr; build g3 at Uglyfoot
+sacrifice r2 at Shangrilala; capture g3 at Uglyfoot; capture b3 at Uglyfoot
+sacrifice y3 at Path; move g2 from Txfr to Uglyfoot; move g2 from Txfr to Path; move g2 from Path to Mouce
+convert y3 to g3 at Uglyfoot; catastrophe green at Uglyfoot

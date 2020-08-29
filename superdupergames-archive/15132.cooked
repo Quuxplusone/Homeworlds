@@ -1,0 +1,86 @@
+Tvgide (0, g3b2) y3-
+Granthenninger (1, y1b2) -g3
+build y1 at Tvgide
+build g1 at Granthenninger
+convert y1 to r1 at Tvgide
+build g1 at Granthenninger
+move r1 from Tvgide to T1 (g1)
+convert g1 to r1 at Granthenninger
+build y1 at Tvgide
+move g1 from Granthenninger to Gmh1 (b3)
+convert y1 to r1 at Tvgide
+build r2 at Granthenninger
+build r2 at T1
+move r1 from Granthenninger to Gmh1
+build y1 at Tvgide
+sacrifice g3 at Granthenninger; build r2 at Gmh1; build r3 at Granthenninger; build r3 at Gmh1
+move y1 from Tvgide to T1
+convert r2 to y2 at Gmh1
+build y1 at Tvgide
+convert r2 to y2 at Granthenninger
+build y2 at T1
+build y3 at Gmh1
+sacrifice y2 at T1; move r1 from T1 to Gmh1; move r2 from T1 to Gmh1; catastrophe red at Gmh1
+convert y3 to g3 at Gmh1
+convert y1 to b1 at Tvgide
+move g1 from Gmh1 to Gmh2 (y1)
+build r1 at Tvgide
+build y2 at Gmh1
+build y3 at Tvgide
+build y3 at Gmh1
+move y1 from T1 to Gmh1; catastrophe yellow at Gmh1
+build g1 at Gmh1
+move y3 from Tvgide to Gmh2
+convert g1 to y1 at Gmh1
+move r1 from Tvgide to Gmh2
+convert y1 to r1 at Gmh1
+capture g1 at Gmh2
+build r2 at Gmh1
+build y1 at Gmh2
+convert r2 to y2 at Gmh1
+build b1 at Tvgide
+build r2 at Gmh1
+move b1 from Tvgide to Gmh2
+convert r2 to g2 at Gmh1
+convert y3 to g3 at Gmh2
+move g2 from Gmh1 to Granthenninger
+build r2 at Gmh2
+build y2 at Gmh1
+convert y1 to b1 at Gmh2
+sacrifice g2 at Granthenninger; build y1 at Gmh1; build y3 at Granthenninger
+move g3 from Gmh2 to T1 (b3)
+build r2 at Gmh1
+convert g3 to y3 at T1
+move y2 from Granthenninger to Gmh3 (b3)
+build g1 at Gmh2
+move y2 from Gmh1 to Gmh4 (g1)
+move g1 from Gmh2 to T1
+move r2 from Gmh1 to Gmh4
+move r1 from Gmh2 to T1
+build g2 at Gmh1
+build g2 at T1
+move g2 from Gmh1 to Granthenninger
+build b2 at Gmh2
+build g2 at Gmh1
+sacrifice y3 at T1; move g2 from T1 to Granthenninger; move g1 from T1 to Granthenninger; move r1 from T1 to Granthenninger
+capture r1 at Granthenninger
+sacrifice g2 at Granthenninger; build b3 at Tvgide; build y3 at Tvgide
+sacrifice g3 at Gmh1; build r2 at Gmh1; build r3 at Gmh4; build r3 at Granthenninger
+move r2 from Gmh2 to Gmh3
+move r3 from Granthenninger to Gmh3
+sacrifice y3 at Tvgide; move b1 from Gmh2 to Gmh3; move b1 from Gmh2 to Gmh3; move b2 from Gmh2 to Gmh3; catastrophe blue at Gmh3
+capture g1 at Granthenninger
+build g2 at Gmh2
+build g3 at Gmh1
+build y2 at Tvgide
+sacrifice g3 at Gmh1; build y3 at Gmh4; build g3 at Gmh1; build g3 at Granthenninger
+sacrifice y2 at Tvgide; move g1 from Gmh2 to Gmh1; move g1 from Gmh1 to Granthenninger; catastrophe green at Granthenninger
+convert r1 to b1 at Gmh1
+move b3 from Tvgide to Gmh2
+move b1 from Gmh1 to Gmh4
+convert b3 to r3 at Gmh2
+convert r2 to g2 at Gmh4
+move b1 from Tvgide to Gmh2
+sacrifice y2 at Gmh1; move r3 from Granthenninger to Gmh1; move r3 from Gmh1 to Gmh4
+build g1 at Gmh2
+sacrifice y2 at Gmh4; move r3 from Gmh4 to Tvgide; move r3 from Gmh4 to Tvgide

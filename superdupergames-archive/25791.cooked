@@ -1,0 +1,43 @@
+Fogus (0, b1y2) g3-
+Daselva (1, r1b2) -g3
+build g1 at Fogus
+build g1 at Daselva
+convert g1 to y1 at Fogus
+convert g1 to y1 at Daselva
+build g1 at Fogus
+build g1 at Daselva
+move g1 from Fogus to Goo (y3)
+convert g1 to b1 at Daselva
+build g1 at Fogus
+convert b1 to r1 at Daselva
+convert g1 to b1 at Fogus
+move r1 from Daselva to Goo
+move g1 from Goo to Fogus
+build g1 at Daselva
+convert b1 to r1 at Fogus
+move g1 from Daselva to Goo
+build r2 at Fogus
+build r2 at Goo
+move r2 from Fogus to Boo (y3)
+build g1 at Goo
+move g1 from Fogus to Boo
+build g2 at Daselva
+build g2 at Boo
+convert g2 to y2 at Daselva
+move g2 from Boo to Glob (b2)
+move r1 from Goo to Daselva
+build g2 at Glob
+sacrifice y2 at Daselva; move g1 from Goo to Glob; move g1 from Goo to Glob; catastrophe green at Glob
+build r2 at Boo
+build g1 at Daselva
+build r3 at Fogus
+sacrifice g1 at Daselva; build r3 at Goo
+convert r3 to y3 at Fogus
+move r1 from Daselva to R1 (g3)
+move y3 from Fogus to R1
+build r3 at R1
+sacrifice r2 at Boo; capture r3 at R1; capture r1 at R1
+build g1 at Daselva
+build r2 at Boo
+convert g1 to b1 at Daselva
+build r3 at Boo

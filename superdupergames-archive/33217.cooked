@@ -1,0 +1,27 @@
+Babamots (0, y2b1) g3-
+Agentofchaos (1, b2r3) -g3
+build g1 at Babamots
+build g1 at Agentofchaos
+convert g1 to b1 at Babamots
+convert g1 to b1 at Agentofchaos
+build b2 at Babamots
+build b2 at Agentofchaos
+move b1 from Babamots to Betazed (g3)
+convert b2 to y2 at Agentofchaos
+build g1 at Babamots
+build y1 at Agentofchaos
+move g1 from Babamots to Ferenginar (b3)
+move y2 from Agentofchaos to Webn (g1)
+sacrifice g3 at Babamots; build b2 at Betazed; build b3 at Betazed; build b3 at Babamots
+move b1 from Agentofchaos to Webn
+sacrifice b1 at Betazed; convert b3 to g3 at Babamots
+build b1 at Webn
+convert b2 to y2 at Betazed
+build y1 at Agentofchaos
+convert b2 to r2 at Babamots
+convert y1 to r1 at Agentofchaos
+move b3 from Betazed to Bajor (g1)
+build g2 at Agentofchaos
+build g2 at Babamots
+build g2 at Agentofchaos
+sacrifice y2 at Betazed; move g1 from Ferenginar to Bajor; move g1 from Bajor to Agentofchaos; catastrophe green at Agentofchaos

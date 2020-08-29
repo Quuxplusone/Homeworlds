@@ -1,0 +1,30 @@
+Anonymousapple (0, g1b2) y3-
+Ludiki (1, y1g2) -b3
+build y1 at Anonymousapple
+build b1 at Ludiki
+convert y1 to g1 at Anonymousapple
+move b1 from Ludiki to Cox (g3)
+move g1 from Anonymousapple to Snooki (b3)
+build b1 at Cox
+build g1 at Snooki
+convert b1 to r1 at Cox
+build g2 at Snooki
+build b1 at Ludiki
+build y1 at Anonymousapple
+convert b3 to r3 at Ludiki
+sacrifice y3 at Anonymousapple; move g1 from Snooki to Ludiki; move g1 from Snooki to Ludiki; move g2 from Snooki to Ludiki; catastrophe green at Ludiki
+convert b1 to y1 at Cox
+convert y1 to r1 at Anonymousapple
+build y1 at Cox
+build r1 at Anonymousapple
+build y2 at Cox
+convert r1 to g1 at Anonymousapple
+sacrifice y2 at Cox; move r3 from Ludiki to Cox; move r3 from Cox to Anonymousapple
+build r1 at Anonymousapple
+build r2 at Cox
+build r2 at Anonymousapple; catastrophe red at Anonymousapple
+move r2 from Cox to Anonymousapple
+build g1 at Anonymousapple
+capture g1 at Anonymousapple
+build g2 at Anonymousapple
+capture g2 at Anonymousapple; catastrophe green at Anonymousapple

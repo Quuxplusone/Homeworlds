@@ -1,0 +1,22 @@
+Lorgar (0, b3y2) g3-
+Sirruthvenmurgatroyd (1, y1b2) -g3
+build g1 at Lorgar
+build g1 at Sirruthvenmurgatroyd
+move g1 from Lorgar to Mellowmood (b1)
+move g1 from Sirruthvenmurgatroyd to Sol (y3)
+build g1 at Mellowmood
+build g2 at Sirruthvenmurgatroyd
+convert g1 to y1 at Mellowmood
+convert g2 to y2 at Sirruthvenmurgatroyd
+build g1 at Lorgar
+build g2 at Sirruthvenmurgatroyd
+build g2 at Mellowmood
+sacrifice g3 at Sirruthvenmurgatroyd; build g2 at Sol; build g3 at Sirruthvenmurgatroyd; build g3 at Sirruthvenmurgatroyd
+sacrifice g3 at Lorgar; build y1 at Mellowmood; build y2 at Mellowmood; build g3 at Lorgar
+sacrifice y2 at Sirruthvenmurgatroyd; move g2 from Sol to Mellowmood; move g1 from Sol to Mellowmood; catastrophe green at Mellowmood
+sacrifice y2 at Mellowmood; move y1 from Mellowmood to Stop (y2); move y1 from Mellowmood to Post (y2)
+convert g3 to y3 at Sirruthvenmurgatroyd
+move y1 from Post to Ost (g3)
+convert g3 to r3 at Sirruthvenmurgatroyd
+build y2 at Ost
+sacrifice y3 at Sirruthvenmurgatroyd; move r3 from Sirruthvenmurgatroyd to Ost; move r3 from Ost to Red (r1); move r3 from Red to Lorgar

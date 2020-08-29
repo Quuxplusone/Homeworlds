@@ -1,0 +1,47 @@
+Dlwillson (0, b3r1) g3-
+Felix (1, r2b3) -g3
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Felix
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to r1 at Dlwillson
+convert g1 to r1 at Felix
+build r2 at Dlwillson
+build r2 at Felix
+move r1 from Dlwillson to Field (g2)
+move r2 from Felix to Grass (g1)
+build r3 at Field
+sacrifice g3 at Felix; build r3 at Felix; build r3 at Grass; build y1 at Felix
+build y2 at Dlwillson
+convert r1 to g1 at Felix
+build y2 at Dlwillson
+move y1 from Felix to Grass
+move y1 from Dlwillson to Field
+build g1 at Felix
+sacrifice y2 at Dlwillson; move r3 from Field to Grass; move r3 from Grass to Felix
+capture r3 at Felix
+sacrifice y2 at Dlwillson; move r1 from Field to Grass; move r1 from Grass to Felix; catastrophe red at Felix
+build g2 at Felix
+build y2 at Field
+move r3 from Grass to Felix
+move y1 from Field to Fielder (b1)
+move g2 from Felix to Fielder
+move y1 from Fielder to Sea (b2)
+convert g1 to b1 at Felix
+build r1 at Dlwillson
+build y2 at Grass
+convert r2 to b2 at Dlwillson
+move b1 from Felix to Grass
+move y1 from Sea to Dlwillson
+convert r3 to g3 at Felix
+move b2 from Dlwillson to Field
+move y2 from Grass to Omnus (b2)
+build b1 at Field
+build b2 at Grass
+convert g3 to b3 at Dlwillson
+sacrifice g3 at Felix; build y2 at Omnus; build y3 at Grass; build y3 at Felix
+build y3 at Field
+sacrifice y1 at Felix; move b2 from Grass to Grassy (g2)
+sacrifice y3 at Field; move b3 from Dlwillson to Grassy; move b3 from Grassy to Felix; move b2 from Field to Felix

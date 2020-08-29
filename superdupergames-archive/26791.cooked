@@ -1,0 +1,55 @@
+Sounde (0, y1b3) g3-
+Wil (1, b2y3) -g3
+build g1 at Sounde
+build g1 at Wil
+convert g1 to y1 at Sounde
+convert g1 to y1 at Wil
+build y2 at Sounde
+build y2 at Wil
+move y2 from Sounde to Sissa (g2)
+convert y1 to r1 at Wil
+convert y1 to r1 at Sounde
+build g1 at Wil
+build g1 at Sounde
+convert g1 to b1 at Wil
+build y1 at Sissa
+move y2 from Wil to G1 (g1)
+move y2 from Sissa to Huin (b1)
+build b1 at Wil
+convert y2 to g2 at Huin
+move b1 from Wil to G1
+sacrifice g3 at Sounde; build g1 at Huin; build g2 at Huin; build g3 at Sounde
+build g3 at Wil
+convert g2 to y2 at Huin
+move g3 from Wil to Y1 (y1)
+sacrifice y2 at Huin; move g1 from Huin to Wil; move g2 from Huin to Wil
+convert g3 to y3 at Wil
+convert g2 to y2 at Wil
+convert y3 to r3 at Wil
+sacrifice g3 at Sounde; build g2 at Wil; build g2 at Wil; build g3 at Sounde
+move g3 from Y1 to Wil; catastrophe green at Wil
+move y2 from Wil to Huin (g1)
+convert r3 to g3 at Wil
+build g2 at Sounde
+build b1 at G1
+move g2 from Sounde to Tra (b2)
+move b1 from G1 to G3 (g3)
+sacrifice g3 at Sounde; build g2 at Tra; build g3 at Sounde; build y1 at Huin
+sacrifice g3 at Wil; build b2 at G3; build b3 at Wil; build b3 at G1
+sacrifice g3 at Sounde; build g3 at Sounde; build g3 at Tra; build y2 at Huin
+build y3 at G1
+sacrifice y2 at Huin; move g3 from Tra to G3; move g2 from Tra to Dorst (r1)
+move b3 from G1 to Tra
+sacrifice g2 at Tra; build g2 at Dorst; build y2 at Sissa
+convert b3 to y3 at Tra
+build r2 at Sounde
+build b3 at G1
+sacrifice r1 at Sounde; capture b2 at G3
+move b1 from G1 to G3
+sacrifice b2 at G3; convert g2 to b2 at Dorst; convert y1 to r1 at Huin
+convert y2 to r2 at G1
+sacrifice g3 at G3; build g2 at Sounde; build g3 at Dorst; build r2 at Huin
+build r3 at G1
+sacrifice y2 at Sissa; move g3 from Dorst to Wil; move b2 from Dorst to Wil; catastrophe blue at Wil
+sacrifice y3 at G1; move b3 from G1 to Wil; move r2 from G1 to Wil; move y3 from Tra to Sounde
+sacrifice r2 at Huin; capture b3 at Wil; capture y3 at Sounde

@@ -1,0 +1,56 @@
+Silenttitan (0, g3r2) b3-
+Dlwillson (1, r3b1) -g3
+build b1 at Silenttitan
+build g1 at Dlwillson
+convert b1 to y1 at Silenttitan
+convert g1 to y1 at Dlwillson
+build b1 at Silenttitan
+build g1 at Dlwillson
+move b1 from Silenttitan to Runningaway (b1)
+build g1 at Dlwillson
+build b2 at Silenttitan
+move g1 from Dlwillson to Silentrunning (y2)
+move b2 from Silenttitan to Cheeto (r1)
+build g1 at Silentrunning
+build b2 at Silenttitan
+move g1 from Silentrunning to Dorito (r1)
+move b2 from Silenttitan to Wrench (y1)
+sacrifice g3 at Dlwillson; build g2 at Dorito; build g2 at Silentrunning; build g2 at Dlwillson
+convert b3 to g3 at Silenttitan
+build g3 at Dlwillson
+sacrifice g3 at Silenttitan; build b2 at Cheeto; build b3 at Wrench; build b3 at Wrench
+sacrifice y1 at Dlwillson; move g2 from Dorito to Silenttitan
+move b3 from Wrench to Silenttitan
+sacrifice g2 at Silentrunning; build g2 at Silenttitan; build g3 at Silenttitan; catastrophe green at Silenttitan
+sacrifice b2 at Cheeto; convert b2 to y2 at Cheeto; convert b3 to g3 at Wrench
+convert g2 to y2 at Dlwillson
+sacrifice g3 at Wrench; build y1 at Cheeto; build y3 at Cheeto; build y3 at Silenttitan
+build y3 at Dlwillson
+sacrifice y3 at Cheeto; move y1 from Silenttitan to Cheeto; move y1 from Cheeto to Screwdriver (b2); move y1 from Cheeto to Toast (b2)
+move y3 from Dlwillson to Taco (g2)
+convert b3 to g3 at Silenttitan
+build y3 at Taco
+sacrifice g3 at Silenttitan; build b3 at Runningaway; build b3 at Wrench; build b3 at Wrench
+sacrifice g3 at Dlwillson; build g2 at Dlwillson; build g2 at Dorito; build g3 at Dlwillson
+sacrifice b2 at Wrench; convert b3 to r3 at Wrench; convert b3 to g3 at Runningaway
+sacrifice y3 at Taco; move g2 from Dorito to Cheese (y3); move g1 from Dorito to Justlikemoms (b3); move g2 from Dlwillson to Mysterymeat (b2)
+sacrifice y2 at Cheeto; move g3 from Runningaway to Cheese; move b3 from Wrench to Taco
+sacrifice y2 at Dlwillson; move y3 from Taco to Spaghetti (r3); move g1 from Silentrunning to Burnt (b3)
+sacrifice r3 at Wrench; capture g2 at Cheese
+sacrifice g2 at Mysterymeat; build g2 at Justlikemoms; build g3 at Burnt
+sacrifice g3 at Cheese; build y1 at Silenttitan; build y2 at Toast; build g3 at Cheese
+convert g3 to r3 at Burnt
+sacrifice y2 at Toast; move g3 from Cheese to Toast; move g3 from Toast to Dlwillson
+sacrifice y3 at Spaghetti; move r3 from Burnt to Toast; move g2 from Justlikemoms to Runningaway; move r3 from Toast to Dlwillson
+sacrifice g3 at Dlwillson; build y2 at Toast; build y2 at Screwdriver; build g3 at Cheese
+convert g3 to y3 at Dlwillson
+sacrifice b3 at Taco; convert b1 to r1 at Runningaway; convert y1 to r1 at Screwdriver; convert y1 to r1 at Toast
+convert r3 to b3 at Dlwillson
+sacrifice g3 at Cheese; build r2 at Toast; build r2 at Screwdriver; build r3 at Runningaway
+sacrifice g2 at Runningaway; build g2 at Justlikemoms; build g2 at Burnt
+sacrifice g2 at Cheese; build y1 at Screwdriver; build y1 at Toast
+build g2 at Justlikemoms
+convert r3 to g3 at Runningaway
+build g3 at Dlwillson
+sacrifice g3 at Runningaway; build r3 at Screwdriver; build r3 at Toast; build y2 at Silenttitan
+move y3 from Dlwillson to Silenttitan; catastrophe yellow at Silenttitan

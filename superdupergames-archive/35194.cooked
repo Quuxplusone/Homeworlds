@@ -1,0 +1,48 @@
+Dragon76N (0, b2g1) y3-
+Simon (1, g1b3) -g3
+build y1 at Dragon76N
+build g1 at Simon
+build y1 at Dragon76N
+convert g3 to y3 at Simon
+convert y3 to g3 at Dragon76N
+build g2 at Simon
+move g3 from Dragon76N to Bluthr (b3)
+convert g1 to r1 at Simon
+build g1 at Bluthr
+build g2 at Simon
+move y1 from Dragon76N to Bluthr
+move g2 from Simon to B2 (b2)
+move g1 from Bluthr to Yeltwo (y2)
+move g2 from Simon to Yeltwo
+build g2 at Bluthr
+build g3 at B2
+build g3 at Yeltwo
+sacrifice g2 at B2; build g2 at Yeltwo; build r1 at Simon; catastrophe green at Yeltwo
+convert g2 to r2 at Bluthr
+move r1 from Simon to B2
+move g3 from Bluthr to Dragon76N
+build g1 at B2
+move r2 from Bluthr to Yelone (y1)
+build g2 at B2
+move r2 from Yelone to Gretwo (g2)
+convert g3 to y3 at B2
+build r1 at Gretwo
+build g2 at B2
+move y1 from Bluthr to Gretwo
+move g2 from B2 to B3 (b3)
+build r2 at Gretwo
+build g3 at B3
+convert g3 to r3 at Dragon76N
+sacrifice g3 at B3; build g3 at B3; build g3 at B3; build g3 at B2
+move r2 from Gretwo to Yelthr (y3)
+convert g3 to b3 at B2
+build r2 at Dragon76N
+sacrifice g3 at B3; build g3 at B3; build r3 at B2; build r3 at Simon
+convert r2 to b2 at Dragon76N
+move b3 from B2 to G3 (g3)
+convert b2 to y2 at Dragon76N
+sacrifice g3 at B3; build g3 at B3; build b1 at G3; build b1 at G3
+move r2 from Gretwo to Bluone (b1)
+sacrifice y3 at B2; move b1 from G3 to Dragon76N; move b1 from G3 to Dragon76N; move b3 from G3 to Dragon76N; catastrophe blue at Dragon76N
+move r3 from Dragon76N to B3
+sacrifice y3 at Simon; move g3 from B3 to Dragon76N; move g3 from B3 to Dragon76N; move g2 from B3 to Dragon76N; catastrophe green at Dragon76N

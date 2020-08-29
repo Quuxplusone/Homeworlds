@@ -1,0 +1,60 @@
+Mobynostromo (0, b1y2) g3-
+Draw5Playall (1, b1g2) -b3
+build g1 at Mobynostromo
+build b1 at Draw5Playall
+build g1 at Mobynostromo
+convert b3 to y3 at Draw5Playall
+move g1 from Mobynostromo to Gold (y3)
+build b2 at Draw5Playall
+convert g3 to b3 at Mobynostromo
+move b2 from Draw5Playall to Niceidea (y3)
+build g1 at Gold
+build b2 at Draw5Playall
+build g2 at Mobynostromo
+convert b2 to r2 at Draw5Playall
+build g2 at Gold
+move r2 from Draw5Playall to Gold
+sacrifice g2 at Gold; build g2 at Mobynostromo; build g3 at Gold
+capture g1 at Gold
+convert g2 to r2 at Mobynostromo
+build g2 at Gold; catastrophe green at Gold
+move g2 from Mobynostromo to Ultrablue (b3)
+build b2 at Draw5Playall
+build g1 at Ultrablue
+move b2 from Draw5Playall to Dos (g3)
+convert g2 to b2 at Ultrablue
+build b3 at Dos
+convert b3 to r3 at Mobynostromo
+build b3 at Dos
+move r2 from Mobynostromo to Emerald (g3)
+sacrifice b2 at Niceidea; convert b3 to r3 at Dos; convert b3 to y3 at Dos
+build b2 at Ultrablue
+move b1 from Draw5Playall to Ultrablue; catastrophe blue at Ultrablue
+build g1 at Mobynostromo
+build b1 at Dos
+move g1 from Mobynostromo to Sky (b3)
+build r1 at Dos
+convert g1 to y1 at Sky
+build b2 at Dos
+convert r3 to g3 at Mobynostromo
+move b2 from Dos to Growth (g2)
+move g1 from Mobynostromo to Sky
+build b2 at Growth
+build g1 at Sky
+build b3 at Growth
+build g1 at Mobynostromo
+build b3 at Dos
+sacrifice g3 at Mobynostromo; build g2 at Sky; build g3 at Mobynostromo; build y1 at Sky
+convert b3 to r3 at Growth
+move y1 from Sky to Draw5Playall
+move r3 from Dos to Draw5Playall
+sacrifice g2 at Sky; build y1 at Draw5Playall; build y2 at Draw5Playall; catastrophe yellow at Draw5Playall
+build b3 at Growth
+sacrifice g3 at Mobynostromo; build g2 at Sky; build g3 at Mobynostromo; build y1 at Sky
+convert b2 to y2 at Growth
+sacrifice g3 at Mobynostromo; build g3 at Mobynostromo; build r1 at Emerald; build r1 at Emerald
+sacrifice y2 at Growth; move r1 from Dos to Growth; move r1 from Growth to Emerald; catastrophe red at Emerald
+convert g2 to b2 at Sky
+move b3 from Dos to Mobynostromo
+sacrifice g3 at Mobynostromo; build g2 at Mobynostromo; build g3 at Sky; build y1 at Sky
+sacrifice r2 at Gold; capture g2 at Mobynostromo; capture g1 at Mobynostromo

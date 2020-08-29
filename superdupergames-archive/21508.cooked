@@ -1,0 +1,37 @@
+Pjackson (0, y1b2) g3-
+Salmoneus (1, b3r2) -g3
+build g1 at Pjackson
+build g1 at Salmoneus
+convert g1 to b1 at Pjackson
+convert g1 to y1 at Salmoneus
+build g1 at Pjackson
+build y1 at Salmoneus
+build g1 at Pjackson
+build y2 at Salmoneus
+move g1 from Pjackson to Alekhine (y3)
+move y1 from Salmoneus to Kaitain (g1)
+build g2 at Pjackson
+build g2 at Salmoneus
+convert g2 to y2 at Pjackson
+move g2 from Salmoneus to Kaitain
+build g2 at Alekhine
+build g2 at Salmoneus
+convert g1 to r1 at Pjackson
+move g2 from Kaitain to Buzzell (y3)
+move y2 from Pjackson to Buzzell
+sacrifice g3 at Salmoneus; build g1 at Buzzell; build g3 at Buzzell; build g3 at Salmoneus
+sacrifice y2 at Buzzell; move g1 from Alekhine to Wormhole (b1); move g1 from Wormhole to Buzzell; catastrophe green at Buzzell
+build y2 at Kaitain
+build r1 at Pjackson
+move y2 from Kaitain to Ecaz (g3)
+build b1 at Pjackson
+sacrifice g3 at Salmoneus; build y2 at Ecaz; build y3 at Ecaz; build y3 at Salmoneus
+move g2 from Alekhine to Pjackson
+build y3 at Kaitain
+move g3 from Pjackson to Ecaz
+move y3 from Ecaz to Grumman (b2)
+sacrifice r1 at Pjackson; capture y2 at Ecaz
+convert y3 to r3 at Salmoneus
+move y2 from Ecaz to Capablanca (g1)
+sacrifice y2 at Salmoneus; move y3 from Grumman to Foldedspace (y3); move y3 from Foldedspace to Pjackson
+sacrifice g3 at Ecaz; build y2 at Capablanca; build b1 at Pjackson; build r1 at Pjackson

@@ -1,0 +1,14 @@
+Thecolorbrown (0, g1b2) y3-
+Trydnt (1, b3r2) -g3
+build y1 at Thecolorbrown
+build g1 at Trydnt
+convert y1 to r1 at Thecolorbrown
+build g1 at Trydnt
+build r1 at Thecolorbrown
+convert g3 to y3 at Trydnt
+build r1 at Thecolorbrown
+build g2 at Trydnt
+move r1 from Thecolorbrown to Avocadus (g3)
+convert g2 to r2 at Trydnt
+build y1 at Thecolorbrown
+move r2 from Trydnt to B1 (b1)

@@ -1,0 +1,13 @@
+Icernicus (0, r3b2) g3-
+Wil (1, y2b1) -g3
+build g1 at Icernicus
+build g1 at Wil
+convert g1 to y1 at Icernicus
+convert g1 to b1 at Wil
+build g1 at Icernicus
+build b1 at Wil
+move g1 from Icernicus to Alpha (y1)
+move b1 from Wil to Y3 (y3)
+build y1 at Icernicus
+sacrifice g3 at Wil; build b2 at Y3; build b2 at Y3; build b3 at Wil
+move y1 from Icernicus to Alpha

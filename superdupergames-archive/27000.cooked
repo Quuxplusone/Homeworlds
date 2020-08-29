@@ -1,0 +1,30 @@
+Sounde (0, y3b1) g3-
+Wil (1, b2y1) -g3
+build g1 at Sounde
+build g1 at Wil
+convert g1 to y1 at Sounde
+convert g1 to y1 at Wil
+build g1 at Sounde
+build y2 at Wil
+build y2 at Sounde
+move y1 from Wil to G3 (g3)
+convert y2 to r2 at Sounde
+build y2 at Wil
+move y1 from Sounde to Willow (b2)
+convert y2 to r2 at Wil
+move g1 from Sounde to Willow
+build y2 at Wil
+build r1 at Sounde
+move y2 from Wil to B3 (b3)
+build g1 at Sounde
+build r1 at Wil
+move r1 from Sounde to Willow
+move y2 from B3 to Willow
+sacrifice g3 at Sounde; build r1 at Willow; build r2 at Sounde; build r3 at Sounde
+build r3 at Wil
+convert r3 to g3 at Sounde
+sacrifice r3 at Wil; capture r1 at Willow; capture r1 at Willow; capture y1 at Willow
+sacrifice r2 at Sounde; capture y1 at Willow; capture r1 at Willow
+capture r1 at Willow
+build g1 at Willow
+sacrifice r2 at Wil; capture g1 at Willow; capture g1 at Willow

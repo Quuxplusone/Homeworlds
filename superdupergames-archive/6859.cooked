@@ -1,0 +1,47 @@
+Clockwise (0, y2b1) g3-
+Twoshort (1, r3b1) -g3
+build g1 at Clockwise
+build g1 at Twoshort
+convert g1 to b1 at Clockwise
+build g1 at Twoshort
+build b2 at Clockwise
+convert g1 to y1 at Twoshort
+move b2 from Clockwise to Spawningpool (g3)
+build y1 at Twoshort
+build b2 at Spawningpool
+move y1 from Twoshort to Bluestar (b2)
+build b3 at Spawningpool
+build y1 at Twoshort
+convert b3 to y3 at Spawningpool
+move y1 from Twoshort to Yolonda (y2)
+build y2 at Spawningpool
+sacrifice g3 at Twoshort; build y3 at Bluestar; build y3 at Twoshort; build g1 at Twoshort
+build b3 at Spawningpool
+move y1 from Yolonda to Borbor (b3)
+build b3 at Clockwise
+sacrifice g1 at Twoshort; build y2 at Borbor
+move y3 from Spawningpool to Ultralisk (g2)
+convert y2 to r2 at Borbor
+convert b2 to r2 at Spawningpool
+convert y3 to g3 at Twoshort
+move b3 from Clockwise to Borbor
+sacrifice y1 at Borbor; move r2 from Borbor to Glenwood (g1)
+build r1 at Spawningpool
+convert y1 to g1 at Bluestar
+move r1 from Spawningpool to Ultralisk
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g2 at Bluestar; build g3 at Twoshort
+build r1 at Ultralisk
+sacrifice y3 at Bluestar; move g1 from Bluestar to Spawningpool; move g2 from Bluestar to Spawningpool; move g2 from Bluestar to Spawningpool; catastrophe green at Spawningpool
+build g1 at Clockwise
+move g1 from Twoshort to Bluonia (b2)
+build r1 at Ultralisk
+sacrifice y1 at Twoshort; move r2 from Glenwood to Ultralisk; catastrophe red at Ultralisk
+build y1 at Ultralisk
+build g1 at Twoshort
+build b2 at Clockwise
+build g2 at Bluonia
+convert b2 to r2 at Clockwise
+convert g2 to y2 at Bluonia
+convert g3 to y3 at Clockwise
+convert y2 to r2 at Bluonia
+sacrifice y1 at Ultralisk; move b3 from Borbor to Bluonia

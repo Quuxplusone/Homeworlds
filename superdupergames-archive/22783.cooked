@@ -1,0 +1,50 @@
+Therealmaxl (0, r3b1) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Therealmaxl
+build g1 at Ts52
+convert g1 to y1 at Therealmaxl
+move g1 from Ts52 to Grover (b3)
+build g1 at Therealmaxl
+build g1 at Ts52
+move g1 from Therealmaxl to Yelon (y2)
+build g2 at Grover
+build g2 at Yelon
+convert g2 to y2 at Grover
+move g2 from Yelon to Bigbird (y3)
+build g2 at Grover
+build g2 at Yelon
+sacrifice y2 at Grover; move g2 from Grover to Yelon; move g2 from Yelon to Kermit (g3)
+move g1 from Yelon to Kermit
+sacrifice g1 at Ts52; build g1 at Grover
+sacrifice g2 at Yelon; build g2 at Bigbird; build y1 at Therealmaxl
+convert g1 to r1 at Grover
+build g1 at Kermit; catastrophe green at Kermit
+build g1 at Ts52
+move y1 from Therealmaxl to Dabo (b2)
+convert g1 to r1 at Ts52
+build g1 at Bigbird
+build r1 at Ts52
+move g1 from Bigbird to Elmo (r2)
+build r2 at Grover
+move g2 from Bigbird to Dabo
+convert r2 to y2 at Grover
+build y2 at Dabo
+move y2 from Grover to Elmo
+convert y2 to b2 at Dabo
+capture g1 at Elmo
+build y2 at Dabo
+build r2 at Grover
+build b1 at Dabo
+build r2 at Ts52
+move b1 from Dabo to Bigbird
+build r3 at Grover
+move b2 from Dabo to Bigbird
+convert r3 to y3 at Grover
+build b1 at Bigbird
+move r2 from Grover to Dabo
+sacrifice y2 at Dabo; move b1 from Bigbird to Ts52; move b1 from Bigbird to Ts52
+capture y1 at Dabo
+move b2 from Bigbird to Ts52; catastrophe blue at Ts52
+capture g2 at Dabo
+build g1 at Bigbird
+build r3 at Dabo

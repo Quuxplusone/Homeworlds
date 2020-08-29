@@ -1,0 +1,20 @@
+Tofuinjection (0, y3g1) b3-
+Daselva (1, r1g2) -b3
+build b1 at Tofuinjection
+build b1 at Daselva
+move b1 from Tofuinjection to Porkslap (g2)
+convert b3 to y3 at Daselva
+build b1 at Porkslap
+build b2 at Daselva
+build b2 at Tofuinjection
+convert b1 to g1 at Daselva
+convert b1 to y1 at Porkslap
+move b2 from Daselva to S2 (g3)
+convert b3 to r3 at Tofuinjection
+build b1 at S2
+build y1 at Porkslap
+convert b2 to y2 at S2
+convert y1 to r1 at Porkslap
+move y2 from S2 to S3 (g2)
+build y1 at Porkslap
+build y1 at S3

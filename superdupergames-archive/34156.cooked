@@ -1,0 +1,23 @@
+Wil (0, b3y1) g3-
+Thorolf (1, b2y3) -g3
+build g1 at Wil
+build g1 at Thorolf
+convert g1 to y1 at Wil
+build g1 at Thorolf
+build y1 at Wil
+convert g3 to r3 at Thorolf
+build g1 at Wil
+build g2 at Thorolf
+build g2 at Wil
+move g2 from Thorolf to Delta (b1)
+convert g1 to r1 at Wil
+build r1 at Thorolf
+move y1 from Wil to B2 (b2)
+move r1 from Thorolf to Delta
+build y2 at Wil
+build g1 at Delta
+move y2 from Wil to Y2 (y2)
+move r3 from Thorolf to Delta
+sacrifice g3 at Wil; build y2 at Y2; build y3 at B2; build y3 at Wil
+build g2 at Thorolf
+sacrifice y3 at B2; move g2 from Wil to Y2; move g2 from Y2 to Delta; move g2 from Delta to Thorolf; catastrophe green at Thorolf

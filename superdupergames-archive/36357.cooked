@@ -1,0 +1,43 @@
+Wil (0, y2b1) g3-
+Stormcrow (1, r1b3) -g3
+build g1 at Wil
+build g1 at Stormcrow
+convert g1 to b1 at Wil
+convert g1 to y1 at Stormcrow
+build b1 at Wil
+build y1 at Stormcrow
+move b1 from Wil to Why3 (y3)
+build y1 at Stormcrow
+build b2 at Wil
+move y1 from Stormcrow to Zork (g2)
+move b1 from Wil to Y3 (y3)
+build y2 at Zork
+sacrifice g3 at Wil; build b2 at Y3; build b2 at Why3; build b3 at Wil
+move y1 from Zork to Xyzzy (b3)
+convert b2 to y2 at Y3
+build y3 at Zork
+convert b2 to g2 at Wil
+build g1 at Stormcrow
+convert b2 to g2 at Why3
+convert y1 to r1 at Stormcrow
+build b2 at Wil
+build y1 at Stormcrow
+convert b2 to r2 at Wil
+move g1 from Stormcrow to Zork
+move b1 from Why3 to R2 (r2)
+move y3 from Zork to Y3
+move y2 from Y3 to B2 (b2)
+move y1 from Stormcrow to Deetwo (r2)
+sacrifice g2 at Why3; build y3 at B2; build g1 at Wil
+sacrifice r1 at Stormcrow; capture b1 at Y3
+sacrifice g2 at Wil; build r1 at Wil; build b2 at R2
+convert y3 to r3 at Y3
+move r2 from Wil to Why3 (y3)
+sacrifice g1 at Zork; build b2 at Y3
+build g1 at Wil
+sacrifice y2 at Zork; move b2 from Y3 to Wil; move b1 from Y3 to Wil; catastrophe blue at Wil
+move r2 from Why3 to Wil
+sacrifice g3 at Stormcrow; build y2 at Deetwo; build y3 at Stormcrow; build r1 at Y3
+move y3 from B2 to Stormcrow
+convert y3 to g3 at Stormcrow
+sacrifice r2 at Wil; capture g3 at Stormcrow; capture y1 at Stormcrow

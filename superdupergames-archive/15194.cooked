@@ -1,0 +1,6 @@
+Grico (0, r1b3) g3-
+Makertron (1, b3y2) -g3
+build g1 at Grico
+build g1 at Makertron
+convert g1 to y1 at Grico
+move g1 from Makertron to Tatu (r1)

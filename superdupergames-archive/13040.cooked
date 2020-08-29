@@ -1,0 +1,39 @@
+Mouce (0, y1b2) g3-
+Pedrop (1, b3r1) -g3
+build g1 at Mouce
+build g1 at Pedrop
+build g1 at Mouce
+convert g1 to y1 at Pedrop
+move g1 from Mouce to Skrich (b3)
+build y1 at Pedrop
+build g1 at Mouce
+build y2 at Pedrop
+build g2 at Skrich
+build g2 at Pedrop
+convert g2 to y2 at Skrich
+move y1 from Pedrop to Ziemia (g2)
+convert g1 to r1 at Mouce
+move y2 from Pedrop to Niebo (g2)
+move g1 from Skrich to Gnaw (b2)
+sacrifice g3 at Pedrop; build y2 at Ziemia; build y3 at Pedrop; build y3 at Niebo
+sacrifice g3 at Mouce; build g1 at Gnaw; build g3 at Mouce; build y3 at Skrich
+build g3 at Pedrop
+sacrifice y2 at Skrich; move y3 from Skrich to Gnaw; move g1 from Gnaw to Pedrop
+convert g2 to r2 at Pedrop
+sacrifice g3 at Mouce; build g2 at Pedrop; build g3 at Gnaw; build g3 at Mouce
+move g3 from Pedrop to Ogien (y2)
+convert g1 to r1 at Gnaw
+build g1 at Ogien
+move r1 from Gnaw to Pedrop
+move r2 from Pedrop to Ziemia
+sacrifice g3 at Mouce; build r2 at Pedrop; build r2 at Pedrop; build g3 at Mouce; catastrophe red at Pedrop
+convert y1 to b1 at Pedrop
+convert g2 to b2 at Pedrop
+sacrifice r2 at Ziemia; capture b2 at Pedrop; capture g1 at Pedrop
+move g3 from Gnaw to Pedrop
+sacrifice y3 at Pedrop; move b1 from Pedrop to Mouce; move b2 from Pedrop to Mouce; move y1 from Ziemia to Pedrop
+convert g3 to b3 at Pedrop
+sacrifice y3 at Niebo; move g1 from Pedrop to Mouce; move g1 from Ogien to Pedrop; move g1 from Pedrop to Mouce; catastrophe green at Mouce
+convert y3 to g3 at Gnaw
+sacrifice g3 at Ogien; build b1 at Mouce; build y1 at Niebo; build y2 at Ziemia; catastrophe blue at Mouce
+sacrifice g3 at Gnaw; build b1 at Pedrop; build b1 at Pedrop; build r1 at Mouce; catastrophe blue at Pedrop

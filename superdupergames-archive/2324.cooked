@@ -1,0 +1,51 @@
+Jeep (0, y1b2) g3-
+Uglyfoot (1, g3b2) -y3
+build g1 at Jeep
+build y1 at Uglyfoot
+build g1 at Jeep
+build y1 at Uglyfoot
+convert g3 to y3 at Jeep
+move y1 from Uglyfoot to Aleph (b1)
+build g1 at Jeep
+build y2 at Uglyfoot
+move g1 from Jeep to Stashed (y3)
+convert y2 to g2 at Uglyfoot
+build g2 at Stashed
+move g2 from Uglyfoot to Aleph
+convert g1 to r1 at Jeep
+build y2 at Aleph
+move g2 from Stashed to Aleph
+convert y1 to r1 at Uglyfoot
+sacrifice r1 at Jeep; capture g2 at Aleph
+build r1 at Uglyfoot
+convert g2 to y2 at Aleph
+move r1 from Uglyfoot to Aleph
+sacrifice g2 at Aleph; build y1 at Aleph; build y2 at Jeep; catastrophe yellow at Aleph
+build y1 at Uglyfoot
+convert y2 to g2 at Jeep
+move y1 from Uglyfoot to Aleph
+build g1 at Stashed
+move r1 from Aleph to Stashed
+convert g2 to r2 at Jeep
+capture g1 at Stashed
+sacrifice r2 at Jeep; capture r1 at Stashed; capture g1 at Stashed
+build y1 at Uglyfoot
+build g2 at Jeep
+build y2 at Uglyfoot
+build g2 at Stashed
+convert y3 to g3 at Uglyfoot
+convert g2 to b2 at Jeep
+build g2 at Uglyfoot
+sacrifice y3 at Jeep; move g1 from Stashed to Aleph; move g1 from Aleph to Uglyfoot; move g2 from Stashed to Aleph; catastrophe green at Uglyfoot
+convert y1 to g1 at Uglyfoot
+build g2 at Aleph
+build g2 at Uglyfoot
+build g3 at Stashed
+move g1 from Uglyfoot to Bypass (r3)
+move g3 from Stashed to Uglyfoot
+build r1 at Uglyfoot
+sacrifice r1 at Stashed; capture g2 at Uglyfoot
+capture g2 at Uglyfoot
+sacrifice b2 at Jeep; convert g2 to r2 at Aleph; convert g1 to r1 at Jeep
+sacrifice y2 at Uglyfoot; move g2 from Uglyfoot to Bypass; move g2 from Bypass to Jeep
+sacrifice r2 at Aleph; capture r1 at Uglyfoot; capture r1 at Uglyfoot

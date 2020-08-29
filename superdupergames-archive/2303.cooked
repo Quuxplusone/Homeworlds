@@ -1,0 +1,28 @@
+Personman (0, y1b3) g3-
+Twoshort (1, g1b2) -y3
+build g1 at Personman
+build y1 at Twoshort
+move g1 from Personman to Wtdrts (y2)
+convert y1 to g1 at Twoshort
+build g2 at Personman
+build y1 at Twoshort
+convert g2 to y2 at Personman
+move g1 from Twoshort to Yolonda (y3)
+build g2 at Personman
+build g2 at Yolonda
+convert g2 to b2 at Personman
+move g1 from Yolonda to Yak (y2)
+build g2 at Wtdrts
+move y1 from Twoshort to Bluestar (b3)
+move y2 from Personman to Twostar (b2)
+sacrifice g2 at Yolonda; build y1 at Twoshort; build y3 at Bluestar
+sacrifice g2 at Wtdrts; build y3 at Twostar; build g2 at Wtdrts
+convert y3 to g3 at Bluestar
+move g1 from Wtdrts to Save (y3)
+build g2 at Bluestar
+build g2 at Save
+build g3 at Yak
+move g1 from Save to Twoshort
+convert y1 to r1 at Twoshort
+sacrifice y3 at Twostar; move g2 from Wtdrts to Save; move g2 from Save to Twoshort; move g2 from Save to Twoshort; catastrophe green at Twoshort
+move g3 from Yak to Personman

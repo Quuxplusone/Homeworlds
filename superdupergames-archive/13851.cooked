@@ -1,0 +1,48 @@
+Umfpt (0, b3g1) y3-
+Zackstack (1, y1b2) -g3
+build y1 at Umfpt
+build g1 at Zackstack
+move y1 from Umfpt to Tola (b2)
+build g1 at Zackstack
+build y1 at Umfpt
+move g1 from Zackstack to Daisy (y3)
+build y2 at Umfpt
+build g2 at Daisy
+convert y2 to g2 at Umfpt
+move g2 from Daisy to Bluebell (b2)
+move g2 from Umfpt to Tola
+sacrifice g3 at Zackstack; build g2 at Bluebell; build g3 at Daisy; build g3 at Zackstack
+build g3 at Tola
+convert g2 to y2 at Bluebell
+move g2 from Tola to Ohnoes (y3)
+sacrifice g3 at Daisy; build y2 at Bluebell; build g2 at Daisy; build g3 at Bluebell
+move g2 from Ohnoes to Zackstack
+convert g1 to r1 at Zackstack
+sacrifice g2 at Zackstack; build g1 at Tola; build y2 at Tola
+build g2 at Zackstack
+convert y1 to r1 at Umfpt
+move g2 from Daisy to Rose (r2)
+move g3 from Tola to Daisy
+sacrifice y2 at Bluebell; move g2 from Rose to Umfpt; move g2 from Bluebell to Umfpt
+convert y1 to r1 at Tola
+sacrifice g1 at Daisy; build g1 at Umfpt; catastrophe green at Umfpt
+move r1 from Tola to Daisy
+build r2 at Zackstack
+build r2 at Daisy
+convert y2 to r2 at Bluebell
+sacrifice y3 at Umfpt; move g3 from Daisy to Zackstack; move r1 from Daisy to Zackstack; move r2 from Daisy to Zackstack; catastrophe red at Zackstack
+convert g2 to r2 at Zackstack
+move g3 from Zackstack to Umfpt
+build g1 at Bluebell
+build r1 at Umfpt
+build g1 at Zackstack
+build g2 at Umfpt
+convert g3 to y3 at Bluebell
+sacrifice g3 at Umfpt; build g2 at Tola; build y1 at Tola; build y1 at Tola
+move y3 from Bluebell to Umfpt
+move y1 from Tola to Umfpt
+sacrifice r2 at Bluebell; capture r1 at Umfpt; capture r1 at Umfpt
+sacrifice g2 at Tola; build y2 at Umfpt; build y2 at Umfpt; catastrophe yellow at Umfpt
+convert r1 to b1 at Umfpt
+move g1 from Tola to Umfpt
+sacrifice g3 at Zackstack; build b1 at Umfpt; build b1 at Umfpt; build g2 at Zackstack; catastrophe blue at Umfpt

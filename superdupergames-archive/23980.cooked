@@ -1,0 +1,29 @@
+Wil (0, y2b1) g3-
+Argel (1, b3g2) -r3
+build g1 at Wil
+build r1 at Argel
+move g1 from Wil to C1 (y3)
+convert r1 to y1 at Argel
+build g1 at Wil
+build y1 at Argel
+build g1 at Wil
+move y1 from Argel to Atenas (b1)
+convert g1 to y1 at Wil
+convert y1 to g1 at Atenas
+build g2 at C1
+build g2 at Atenas
+sacrifice g3 at Wil; build g3 at Wil; build g3 at Wil; build y1 at Wil
+convert g2 to y2 at Atenas
+move g3 from Wil to C2 (y3)
+move y2 from Atenas to Rhodes (g3)
+move y1 from Wil to C1
+build g2 at Atenas
+convert g3 to b3 at Wil
+build g3 at Atenas
+convert y1 to r1 at Wil
+convert g3 to b3 at Atenas
+build g3 at Wil
+convert g1 to y1 at Atenas
+move y1 from C1 to D1 (g1)
+convert b3 to y3 at Atenas
+sacrifice g3 at Wil; build g3 at Wil; build y2 at D1; build r1 at Wil

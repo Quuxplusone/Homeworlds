@@ -1,0 +1,25 @@
+Mrmoto (0, y3b2) g3-
+Madwuher (1, b1y2) -g3
+build g1 at Mrmoto
+build g1 at Madwuher
+move g1 from Mrmoto to Supertonic (b1)
+move g1 from Madwuher to Edora (b3)
+build g1 at Supertonic
+build g2 at Madwuher
+convert g1 to y1 at Supertonic
+move g2 from Madwuher to Bologna (y3)
+build g1 at Mrmoto
+build g2 at Madwuher
+sacrifice g3 at Mrmoto; build g2 at Supertonic; build g3 at Mrmoto; build g3 at Mrmoto
+convert g1 to r1 at Edora
+move g3 from Mrmoto to Morley (y1)
+sacrifice g3 at Madwuher; build g1 at Bologna; build g3 at Madwuher; build r1 at Edora
+sacrifice g3 at Mrmoto; build g3 at Mrmoto; build y1 at Supertonic; build y2 at Supertonic
+move g2 from Bologna to Supertonic
+move y2 from Supertonic to Toque (r3)
+sacrifice r1 at Edora; capture y1 at Supertonic
+sacrifice g3 at Mrmoto; build g3 at Mrmoto; build y2 at Toque; build y3 at Supertonic
+sacrifice g1 at Bologna; build y3 at Supertonic; catastrophe yellow at Supertonic
+sacrifice y2 at Toque; move g2 from Supertonic to Runcible (y3); move g1 from Supertonic to Spoon (b3)
+sacrifice g3 at Madwuher; build g1 at Supertonic; build g3 at Madwuher; build r1 at Edora
+sacrifice y2 at Toque; move g1 from Spoon to Madwuher; move g2 from Runcible to Madwuher; catastrophe green at Madwuher

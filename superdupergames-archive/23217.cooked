@@ -1,0 +1,55 @@
+Dlwillson (0, b3y1) g3-
+Silenttitan (1, g3b2) -y3
+build g1 at Dlwillson
+build y1 at Silenttitan
+convert g1 to y1 at Dlwillson
+convert y1 to r1 at Silenttitan
+build g1 at Dlwillson
+build r1 at Silenttitan
+convert g1 to r1 at Dlwillson
+convert r1 to b1 at Silenttitan
+build g1 at Dlwillson
+build b1 at Silenttitan
+convert g1 to b1 at Dlwillson
+move b1 from Silenttitan to Sol (g1)
+build b2 at Dlwillson
+build b2 at Sol
+move b2 from Dlwillson to Field (g2)
+build b3 at Silenttitan
+build b3 at Field
+convert b3 to y3 at Silenttitan
+convert b3 to y3 at Field
+convert b2 to y2 at Sol
+move y3 from Field to Sol
+build y1 at Sol
+sacrifice b1 at Dlwillson; convert y3 to r3 at Sol
+sacrifice y2 at Sol; move y1 from Sol to Sole (b2); move b1 from Sol to Soul (y2)
+move y1 from Dlwillson to Field
+convert y3 to g3 at Silenttitan
+build y2 at Field
+sacrifice g3 at Silenttitan; build y2 at Sole; build y3 at Sole; build y3 at Silenttitan
+sacrifice y2 at Field; move y1 from Field to Sol; move y1 from Sol to Sole; catastrophe yellow at Sole
+convert y3 to g3 at Silenttitan
+build g1 at Dlwillson
+move r1 from Silenttitan to Sole (b1)
+convert g1 to y1 at Dlwillson
+sacrifice g3 at Silenttitan; build b2 at Soul; build b3 at Soul; build b3 at Silenttitan
+move y1 from Dlwillson to Field
+sacrifice b2 at Soul; convert b3 to g3 at Silenttitan; convert b3 to r3 at Soul
+build b2 at Field
+sacrifice g3 at Silenttitan; build b3 at Silenttitan; build b3 at Soul; build y1 at Silenttitan
+move b2 from Field to Sol
+sacrifice b1 at Silenttitan; convert b3 to g3 at Soul
+build y2 at Field
+move y1 from Silenttitan to Sole
+move y1 from Field to Sol
+sacrifice g3 at Soul; build y2 at Silenttitan; build y3 at Sole; build b1 at Soul
+build y3 at Field
+move y1 from Sole to Tic (b3)
+build r1 at Sol
+convert b1 to g1 at Soul
+build b1 at Sol
+sacrifice y2 at Silenttitan; move y1 from Tic to Field; move y3 from Sole to Field; catastrophe yellow at Field
+build b3 at Field
+convert b3 to g3 at Silenttitan
+convert b2 to y2 at Field

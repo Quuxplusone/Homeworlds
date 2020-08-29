@@ -1,0 +1,60 @@
+Skykingt13 (0, y3b2) g3-
+Zoltar (1, r1b3) -g3
+build g1 at Skykingt13
+build g1 at Zoltar
+convert g1 to r1 at Skykingt13
+convert g1 to y1 at Zoltar
+move r1 from Skykingt13 to Space (g1)
+build y1 at Zoltar
+build g1 at Skykingt13
+build y1 at Zoltar
+build r1 at Space
+move y1 from Zoltar to Greenbelt (g2)
+build r2 at Space
+build y2 at Greenbelt
+convert g1 to b1 at Skykingt13
+build y2 at Zoltar
+move b1 from Skykingt13 to Space
+convert y2 to r2 at Zoltar
+convert r2 to y2 at Space
+convert y1 to b1 at Zoltar
+move r1 from Space to Skykingt13
+move r2 from Zoltar to Greendale (g2)
+build r2 at Space
+move b1 from Zoltar to Greendale
+move r2 from Space to Greenbelt
+sacrifice r2 at Greendale; capture r2 at Greenbelt
+build r2 at Space
+build g1 at Zoltar
+move r2 from Space to Sky (b2)
+move y2 from Greenbelt to Blueberry (b1)
+build r2 at Space
+build r3 at Greenbelt
+sacrifice g3 at Skykingt13; build r3 at Sky; build r3 at Skykingt13; build b2 at Space
+build b3 at Greendale
+move b1 from Space to Greendale
+convert b1 to y1 at Greendale
+convert r3 to g3 at Sky
+sacrifice g3 at Zoltar; build y2 at Greendale; build y3 at Blueberry; build y3 at Zoltar
+sacrifice g3 at Sky; build b1 at Greendale; build r3 at Sky; build b3 at Space
+sacrifice y2 at Blueberry; move r3 from Greenbelt to Greenville (g1); move b3 from Greendale to Space
+move r1 from Skykingt13 to Greenville
+sacrifice r3 at Greenville; capture b3 at Space; capture y2 at Space; capture r1 at Space
+build r3 at Greenville
+sacrifice y3 at Zoltar; move r1 from Space to Yellowstone (y2); move y2 from Space to Greenacres (g2); move y1 from Greendale to Oldyeller (y3)
+convert r3 to g3 at Skykingt13
+build g3 at Zoltar
+build g3 at Skykingt13
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r3 at Yellowstone
+pass
+move r3 from Yellowstone to Space
+pass
+capture r2 at Space
+pass
+capture b2 at Space
+pass
+move g3 from Zoltar to Greendale
+pass
+move g3 from Greendale to Oldyeller
+pass
+move y1 from Oldyeller to Space

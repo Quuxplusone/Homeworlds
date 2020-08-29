@@ -1,0 +1,72 @@
+Mandrel (0, b2r1) g3-
+Rootbier (1, b1y3) -g3
+build g1 at Mandrel
+build g1 at Rootbier
+convert g1 to y1 at Mandrel
+convert g1 to r1 at Rootbier
+build y1 at Mandrel
+build r1 at Rootbier
+build g1 at Mandrel
+convert r1 to y1 at Rootbier
+build y2 at Mandrel
+build y2 at Rootbier
+move y1 from Mandrel to Queasy (g3)
+convert y1 to b1 at Rootbier
+build y1 at Mandrel
+move y2 from Rootbier to Pesto (g2)
+convert y1 to b1 at Mandrel
+build b2 at Rootbier
+build b2 at Mandrel
+move b1 from Rootbier to Stone (y2)
+move b2 from Mandrel to Queasy
+move b2 from Rootbier to Pesto
+build b3 at Queasy
+build b3 at Pesto
+convert b3 to r3 at Queasy
+move b2 from Pesto to Ungarn (r3)
+move r3 from Queasy to Stone
+move b1 from Stone to Queasy
+move b1 from Mandrel to Queasy
+build g1 at Rootbier
+move b1 from Queasy to Stone
+sacrifice y2 at Pesto; move b2 from Ungarn to Mandrel; move b1 from Queasy to Mandrel
+sacrifice r3 at Stone; capture b1 at Mandrel; capture b2 at Mandrel
+move g1 from Rootbier to Posthaste (g2)
+build y1 at Queasy
+build b3 at Pesto
+sacrifice g1 at Mandrel; build b3 at Stone
+convert b3 to y3 at Pesto
+convert b2 to r2 at Mandrel
+build b2 at Pesto
+convert b3 to r3 at Stone
+convert b3 to r3 at Pesto
+move b2 from Queasy to Posthaste
+move b2 from Pesto to Queasy
+sacrifice y1 at Queasy; move y1 from Queasy to Posthaste
+build b3 at Queasy
+move b1 from Mandrel to Queasy
+convert b2 to r2 at Queasy
+build b2 at Posthaste
+build g1 at Rootbier
+convert b2 to r2 at Posthaste
+sacrifice g3 at Rootbier; build g1 at Posthaste; build g2 at Posthaste; build g3 at Rootbier; catastrophe green at Posthaste
+build g1 at Mandrel
+build r1 at Queasy
+move r2 from Mandrel to Hollow (y3)
+move r3 from Pesto to Hollow
+move r2 from Hollow to Stone
+move r1 from Rootbier to Stone
+sacrifice b1 at Stone; convert r2 to g2 at Stone
+sacrifice g3 at Rootbier; build r2 at Stone; build r2 at Stone; build r3 at Hollow; catastrophe red at Stone
+move g2 from Stone to Rootbier
+move y3 from Pesto to Rootbier
+build g1 at Rootbier
+sacrifice r2 at Queasy; capture g1 at Rootbier; capture g2 at Rootbier
+convert g1 to r1 at Mandrel
+convert g2 to y2 at Rootbier
+build y1 at Mandrel
+sacrifice y2 at Rootbier; move b3 from Queasy to Mandrel; move r3 from Hollow to Mandrel
+build r2 at Mandrel; catastrophe red at Mandrel
+sacrifice r3 at Hollow; capture g3 at Mandrel; capture y2 at Mandrel; capture y1 at Mandrel
+convert y1 to r1 at Mandrel
+sacrifice r1 at Queasy; capture r1 at Mandrel

@@ -1,0 +1,59 @@
+Grissom (0, b3r2) g3-
+Hellajoey (1, b1g2) -r3
+build g1 at Grissom
+build r1 at Hellajoey
+convert g1 to y1 at Grissom
+convert r1 to y1 at Hellajoey
+build g1 at Grissom
+build r1 at Hellajoey
+move g1 from Grissom to Star (b1)
+move r3 from Hellajoey to Goldstar (y3)
+build g1 at Grissom
+move r3 from Goldstar to Star
+convert g1 to r1 at Star
+capture r1 at Star
+move g1 from Grissom to Newblu (b1)
+convert r3 to g3 at Star
+build g1 at Newblu
+build r1 at Hellajoey
+convert g1 to y1 at Newblu
+build r2 at Hellajoey
+build g1 at Grissom
+move r2 from Hellajoey to Planetx (y3)
+build y2 at Newblu
+move r2 from Planetx to Newblu
+sacrifice y2 at Newblu; move y1 from Newblu to Bigred (r3); move g1 from Newblu to Bigred
+sacrifice g3 at Star; build r2 at Star; build r3 at Newblu; build r3 at Hellajoey
+build y2 at Bigred
+convert r3 to y3 at Newblu
+build y2 at Grissom
+convert r2 to g2 at Star
+move y1 from Grissom to Missinglink (g1)
+build r2 at Star
+sacrifice g3 at Grissom; build g2 at Bigred; build g3 at Bigred; build g3 at Grissom
+sacrifice y1 at Hellajoey; move g2 from Star to Bigred; catastrophe green at Bigred
+sacrifice g3 at Grissom; build y1 at Bigred; build y2 at Missinglink; build y3 at Grissom
+convert r3 to y3 at Hellajoey
+convert y3 to g3 at Grissom
+move y3 from Hellajoey to Bigred; catastrophe yellow at Bigred
+move y2 from Missinglink to Spot (b3)
+convert r2 to g2 at Star
+convert y2 to r2 at Spot
+move y3 from Newblu to Spot
+sacrifice y1 at Missinglink; move r2 from Spot to Hellajoey
+move y3 from Spot to Hellajoey
+build r3 at Hellajoey; catastrophe red at Hellajoey
+convert r2 to g2 at Newblu
+move g1 from Grissom to Yellno (y1)
+build g1 at Star
+move g1 from Yellno to Blubo (b3)
+build y1 at Hellajoey
+build y1 at Grissom
+convert g1 to y1 at Star
+move y1 from Grissom to Gbot (g1)
+move r1 from Star to Blubo
+move y1 from Gbot to Gbot2Point0 (g3)
+capture g1 at Blubo
+build y2 at Gbot2Point0
+build g1 at Blubo
+sacrifice y2 at Grissom; move y2 from Gbot2Point0 to Hellajoey; move y1 from Gbot2Point0 to Hellajoey; catastrophe yellow at Hellajoey

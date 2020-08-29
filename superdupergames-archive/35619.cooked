@@ -1,0 +1,8 @@
+Collin (0, y3b2) g3-
+Wil (1, b2y1) -g3
+build g1 at Collin
+build g1 at Wil
+move g3 from Collin to Alpha (b1)
+convert g1 to b1 at Wil
+build g1 at Alpha
+build b1 at Wil

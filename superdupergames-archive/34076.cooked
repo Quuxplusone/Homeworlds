@@ -1,0 +1,29 @@
+Broccoli_Commander (0, y1b2) g3-
+Aristos (1, b3g2) -y3
+build g1 at Broccoli_Commander
+build y1 at Aristos
+build g1 at Broccoli_Commander
+move y1 from Aristos to Glint (y1)
+move g1 from Broccoli_Commander to Cauliflower (y3)
+build y2 at Aristos
+build g1 at Broccoli_Commander
+convert y2 to g2 at Aristos
+move g1 from Broccoli_Commander to Blueberry (b3)
+build y2 at Aristos
+sacrifice g3 at Broccoli_Commander; build g2 at Cauliflower; build g3 at Blueberry; build g3 at Broccoli_Commander
+build g3 at Aristos
+convert g3 to y3 at Blueberry
+move g3 from Aristos to Glint
+build g3 at Blueberry
+sacrifice g2 at Aristos; build g2 at Glint; build y2 at Aristos
+convert g3 to r3 at Blueberry
+convert y2 to r2 at Aristos
+sacrifice g3 at Broccoli_Commander; build g3 at Broccoli_Commander; build g3 at Blueberry; build y2 at Blueberry
+move g2 from Glint to Brilliance (b3)
+convert g1 to r1 at Broccoli_Commander
+build g1 at Brilliance
+sacrifice g3 at Blueberry; build g3 at Blueberry; build r1 at Blueberry; build r1 at Broccoli_Commander
+move y1 from Glint to Shine (b2)
+move y3 from Blueberry to Shine
+sacrifice g3 at Glint; build y1 at Shine; build y2 at Shine; build r2 at Aristos; catastrophe yellow at Shine
+move g2 from Cauliflower to Muffin (b1)

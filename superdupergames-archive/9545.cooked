@@ -1,0 +1,47 @@
+Jesse (0, b3r1) g3-
+Wmreed (1, b2g1) -y3
+build g1 at Jesse
+build y1 at Wmreed
+convert g1 to y1 at Jesse
+convert y1 to r1 at Wmreed
+build g1 at Jesse
+build y1 at Wmreed
+convert g1 to r1 at Jesse
+build r2 at Wmreed
+build g1 at Jesse
+build r2 at Wmreed
+move g1 from Jesse to Blarg (b2)
+convert r2 to g2 at Wmreed
+move r1 from Jesse to Blarg
+build g1 at Wmreed
+build g2 at Blarg
+move g1 from Wmreed to Logan (b3)
+convert g2 to y2 at Blarg
+build g2 at Logan
+build g2 at Jesse
+convert g1 to y1 at Logan
+build y2 at Blarg
+move r1 from Wmreed to Logan
+move y2 from Blarg to Grr (g3)
+build r2 at Logan
+sacrifice g3 at Jesse; build y2 at Grr; build y3 at Blarg; build y3 at Jesse
+move r2 from Logan to Jessica (b2)
+sacrifice y2 at Blarg; move y2 from Grr to Wmreed; move y2 from Grr to Wmreed; catastrophe yellow at Wmreed
+sacrifice g2 at Logan; build r2 at Logan; build r3 at Wmreed
+build r3 at Blarg
+convert r2 to y2 at Wmreed
+move r3 from Blarg to Sniffle (g3)
+move r1 from Logan to Ballard (y2)
+build g1 at Jesse
+sacrifice g2 at Wmreed; build r2 at Ballard; build r3 at Logan
+build g2 at Blarg
+convert r3 to y3 at Logan
+build r3 at Blarg
+sacrifice y3 at Logan; move r2 from Jessica to Jesse; move r2 from Ballard to Jesse; move r1 from Ballard to Jesse; catastrophe red at Jesse
+build g2 at Blarg
+build y1 at Wmreed
+build g3 at Jesse
+convert y1 to b1 at Wmreed
+sacrifice y3 at Blarg; move y3 from Jesse to Wmreed; move g3 from Jesse to Wmreed; move r3 from Sniffle to Wmreed
+sacrifice r2 at Logan; capture r3 at Wmreed; capture y3 at Wmreed
+sacrifice r3 at Blarg; capture r3 at Wmreed; capture r3 at Wmreed; capture y3 at Wmreed

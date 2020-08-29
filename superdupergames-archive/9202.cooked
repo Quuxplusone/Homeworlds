@@ -1,0 +1,27 @@
+Spacehobo (0, b3y2) g3-
+Polyhymnia (1, g3b1) -y3
+build g1 at Spacehobo
+build y1 at Polyhymnia
+convert g1 to y1 at Spacehobo
+move y1 from Polyhymnia to Neverwhere (b2)
+move y1 from Spacehobo to Signaltonoise (g1)
+build y1 at Polyhymnia
+build g1 at Spacehobo
+build y2 at Polyhymnia
+build g1 at Spacehobo
+move y1 from Polyhymnia to Neverwhere
+move g1 from Spacehobo to Signaltonoise
+move y1 from Neverwhere to Signaltonoise
+build g2 at Spacehobo
+build y2 at Signaltonoise
+move g1 from Spacehobo to Sandman (b1)
+build y3 at Polyhymnia
+move g1 from Signaltonoise to Stardust (b2)
+convert y3 to r3 at Polyhymnia
+sacrifice g3 at Spacehobo; build g2 at Stardust; build g2 at Stardust; build g3 at Spacehobo
+build y3 at Polyhymnia
+sacrifice g3 at Spacehobo; build g3 at Spacehobo; build g3 at Spacehobo; build y3 at Signaltonoise
+move y2 from Signaltonoise to Neverwhere
+convert g3 to r3 at Spacehobo
+move y3 from Polyhymnia to Stardust
+build g3 at Spacehobo

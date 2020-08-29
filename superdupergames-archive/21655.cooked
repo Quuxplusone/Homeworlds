@@ -1,0 +1,15 @@
+Ts52 (0, y1b2) g3-
+Lorgar (1, b3y1) -g3
+build g1 at Ts52
+build g1 at Lorgar
+convert g1 to y1 at Ts52
+build g1 at Lorgar
+build y2 at Ts52
+move g1 from Lorgar to Aram (b2)
+move y2 from Ts52 to Kermit (g3)
+build g1 at Lorgar
+build g2 at Ts52
+build g2 at Aram
+move g2 from Ts52 to Bigbird (y3)
+convert g2 to y2 at Aram
+sacrifice y2 at Kermit; move g2 from Bigbird to Doom (y2); move g2 from Doom to Lorgar; catastrophe green at Lorgar

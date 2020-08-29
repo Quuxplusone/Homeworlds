@@ -1,0 +1,17 @@
+Dlwillson (0, b3y1) g3-
+Wil (1, y2b1) -g3
+build g1 at Dlwillson
+build g1 at Wil
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Wil
+build y2 at Dlwillson
+build y2 at Wil
+move y1 from Dlwillson to Field (g2)
+move y1 from Wil to Aaarghhh (g3)
+build y3 at Field
+build y3 at Aaarghhh
+move y3 from Field to Sky (b3)
+move y2 from Wil to Phooey (y3)
+convert y3 to r3 at Sky
+convert g3 to r3 at Wil
+build y3 at Field

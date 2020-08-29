@@ -1,0 +1,45 @@
+Jesse (0, r1b2) g3-
+Laurie_Menke (1, r3b2) -g3
+build g1 at Jesse
+build g1 at Laurie_Menke
+convert g1 to y1 at Jesse
+build g1 at Laurie_Menke
+build g1 at Jesse
+convert g1 to y1 at Laurie_Menke
+convert g1 to r1 at Jesse
+move g1 from Laurie_Menke to Luella (y1)
+build g1 at Jesse
+build y2 at Laurie_Menke
+build y2 at Jesse
+build g1 at Luella
+move y2 from Jesse to Makemonkeyfast (g3)
+move y2 from Laurie_Menke to Paintshop (b1)
+move g1 from Jesse to Nomonkeydown (y3)
+build y2 at Laurie_Menke
+sacrifice g3 at Jesse; build y3 at Jesse; build y3 at Makemonkeyfast; build g2 at Nomonkeydown
+sacrifice y2 at Laurie_Menke; move g1 from Luella to Nomonkeydown; move g1 from Luella to Nomonkeydown; catastrophe green at Nomonkeydown
+convert y3 to g3 at Jesse
+build g1 at Laurie_Menke
+move y2 from Makemonkeyfast to Paintshop
+convert y2 to r2 at Paintshop
+sacrifice r1 at Jesse; capture r2 at Paintshop
+convert g3 to r3 at Laurie_Menke
+build g1 at Jesse
+build g1 at Laurie_Menke
+move g1 from Jesse to Colorofmonkey (y3)
+move g1 from Laurie_Menke to Gettinoutadodge (y1)
+build g2 at Jesse
+build g2 at Gettinoutadodge
+sacrifice g3 at Jesse; build g2 at Jesse; build g3 at Jesse; build g3 at Colorofmonkey
+sacrifice g2 at Gettinoutadodge; build g2 at Laurie_Menke; build y2 at Laurie_Menke
+sacrifice g2 at Jesse; build y2 at Paintshop; build y3 at Jesse
+convert y2 to b2 at Laurie_Menke
+move g1 from Colorofmonkey to Paintshop
+build g2 at Gettinoutadodge
+sacrifice g3 at Colorofmonkey; build g3 at Paintshop; build y2 at Makemonkeyfast; build y3 at Jesse
+move b2 from Laurie_Menke to Gettinoutadodge
+sacrifice g3 at Jesse; build g3 at Jesse; build r1 at Paintshop; build r1 at Paintshop
+move r3 from Laurie_Menke to Paintshop
+sacrifice y3 at Jesse; move g3 from Paintshop to Laurie_Menke; move g1 from Paintshop to Laurie_Menke; move y2 from Paintshop to Laurie_Menke; catastrophe red at Paintshop; catastrophe green at Laurie_Menke
+build b1 at Gettinoutadodge
+capture y1 at Laurie_Menke

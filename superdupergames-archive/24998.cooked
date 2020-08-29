@@ -1,0 +1,60 @@
+Onepagewars (0, r1b2) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Onepagewars
+build g1 at Ts52
+convert g1 to b1 at Onepagewars
+move g1 from Ts52 to Grover (b1)
+build g1 at Onepagewars
+build g1 at Grover
+convert g1 to y1 at Onepagewars
+convert g1 to r1 at Grover
+build y1 at Onepagewars
+build g1 at Ts52
+build b1 at Onepagewars
+build r1 at Grover
+move b1 from Onepagewars to Rubiks_Cube (g3)
+build r2 at Grover
+build b2 at Rubiks_Cube
+convert r2 to y2 at Grover
+build b3 at Rubiks_Cube
+build r2 at Grover
+convert b3 to r3 at Rubiks_Cube
+move r2 from Grover to Bigbird (y3)
+move y1 from Onepagewars to Rubiks_Cube
+move r1 from Grover to Zoe (y3)
+build r2 at Rubiks_Cube
+build g1 at Grover
+move r3 from Rubiks_Cube to Grover
+sacrifice y2 at Grover; move g1 from Grover to Zoe; move g1 from Grover to Bigbird
+capture r1 at Grover
+build g2 at Zoe
+convert r1 to y1 at Grover
+build r1 at Bigbird
+move r3 from Grover to Bigbird
+move r2 from Bigbird to Grover
+move r3 from Bigbird to Grover
+build g2 at Bigbird
+capture r2 at Grover
+sacrifice g2 at Zoe; build r2 at Bigbird; build r3 at Zoe
+build r3 at Rubiks_Cube
+build g2 at Zoe
+build b3 at Rubiks_Cube
+build g2 at Ts52
+move r3 from Grover to Bigbird
+move r3 from Zoe to Grover
+capture r2 at Bigbird
+capture r2 at Grover
+capture g2 at Bigbird
+capture y1 at Grover
+move r3 from Rubiks_Cube to Hoban_Washburne (y2)
+move g2 from Ts52 to Grover
+move r3 from Hoban_Washburne to Zoe
+move r2 from Grover to Bigbird; catastrophe red at Bigbird
+capture g2 at Zoe
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Zoe; build r2 at Zoe; catastrophe red at Zoe
+convert b3 to r3 at Rubiks_Cube
+build r1 at Grover
+build b3 at Rubiks_Cube
+move r3 from Grover to Bigbird
+move r3 from Rubiks_Cube to Grover
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Grover; build r2 at Grover; catastrophe red at Grover

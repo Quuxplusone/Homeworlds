@@ -1,0 +1,10 @@
+Felix (0, r2b3) g3-
+Schmoopy (1, g2b1) -y3
+build g1 at Felix
+build y1 at Schmoopy
+convert g1 to y1 at Felix
+convert y1 to b1 at Schmoopy
+build y1 at Felix
+build b1 at Schmoopy
+move y1 from Felix to Out (g1)
+move b1 from Schmoopy to About (y3)

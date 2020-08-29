@@ -1,0 +1,46 @@
+Stoneaxe (0, r1b3) g3-
+Keith (1, y2b3) -g3
+build g1 at Stoneaxe
+build g1 at Keith
+convert g1 to y1 at Stoneaxe
+convert g1 to y1 at Keith
+build g1 at Stoneaxe
+build g1 at Keith
+build g1 at Stoneaxe
+build g2 at Keith
+move g1 from Stoneaxe to Rez (y2)
+convert g1 to y1 at Keith
+convert g1 to b1 at Stoneaxe
+move y1 from Keith to Midori (g1)
+build b1 at Stoneaxe
+sacrifice g3 at Keith; build y2 at Midori; build y3 at Midori; build y3 at Keith
+build y3 at Stoneaxe
+convert y1 to b1 at Keith
+build g1 at Rez
+sacrifice y3 at Midori; move b1 from Keith to Midori; move b1 from Midori to Rez; move b1 from Rez to Stoneaxe; catastrophe blue at Stoneaxe
+move y3 from Stoneaxe to Pez (b3)
+build g2 at Keith
+move g1 from Rez to Stoneaxe
+sacrifice y2 at Midori; move g2 from Keith to Stoneaxe; move g2 from Keith to Stoneaxe; catastrophe green at Stoneaxe
+build g1 at Rez
+convert y3 to r3 at Keith
+move y3 from Pez to Stoneaxe
+move y1 from Midori to Keith
+build g1 at Rez
+convert y1 to r1 at Keith
+move g1 from Rez to Bluegrass (b3)
+convert r3 to g3 at Keith
+convert g1 to y1 at Bluegrass
+build r1 at Keith
+sacrifice g1 at Rez; build y1 at Bluegrass
+build r2 at Keith
+move g1 from Rez to Stoneaxe
+convert r2 to g2 at Keith
+convert y1 to b1 at Bluegrass
+build r2 at Keith
+move b1 from Bluegrass to Stoneaxe
+move r1 from Keith to Stoneaxe
+capture r1 at Stoneaxe
+move r1 from Keith to Stoneaxe
+move r1 from Stoneaxe to Bluegrass
+sacrifice g2 at Keith; build r2 at Stoneaxe; build r2 at Stoneaxe; catastrophe red at Stoneaxe

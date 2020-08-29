@@ -1,0 +1,100 @@
+Dlwillson (0, b2r1) g3-
+Mneme (1, g3b2) -r3
+build g1 at Dlwillson
+build r1 at Mneme
+convert g1 to y1 at Dlwillson
+build r1 at Mneme
+build y1 at Dlwillson
+convert r3 to y3 at Mneme
+build g1 at Dlwillson
+build r2 at Mneme
+build g1 at Dlwillson
+convert r2 to g2 at Mneme
+convert g1 to b1 at Dlwillson
+build r2 at Mneme
+build b1 at Dlwillson
+convert r2 to b2 at Mneme
+move b1 from Dlwillson to Suse (g3)
+move b2 from Mneme to Forest (g1)
+move y1 from Dlwillson to Suse
+build r2 at Mneme
+move g1 from Dlwillson to Fedora (b3)
+convert r2 to y2 at Mneme
+build g1 at Dlwillson
+build g2 at Mneme
+sacrifice g3 at Dlwillson; build g2 at Fedora; build y1 at Suse; build g3 at Dlwillson
+move y2 from Mneme to Forest
+convert g2 to r2 at Fedora
+move r1 from Mneme to Forest
+sacrifice g3 at Dlwillson; build g2 at Fedora; build y2 at Dlwillson; build g3 at Dlwillson
+sacrifice g2 at Mneme; build y2 at Forest; build y3 at Mneme
+sacrifice y2 at Dlwillson; move b1 from Dlwillson to Suse; move b1 from Suse to Forest
+sacrifice y2 at Forest; move y3 from Mneme to Forest; move y3 from Forest to Fedora
+convert g1 to b1 at Fedora
+build b3 at Forest
+build b3 at Forest; catastrophe blue at Forest
+build r2 at Forest
+build b1 at Fedora
+sacrifice r2 at Forest; capture r2 at Fedora; capture g2 at Fedora
+sacrifice g3 at Dlwillson; build b2 at Fedora; build b3 at Suse; build b3 at Suse; catastrophe blue at Fedora
+move r1 from Forest to Safe (y2)
+convert b3 to r3 at Suse
+build r2 at Mneme
+move b3 from Suse to Dlwillson
+move r2 from Mneme to Forest
+move y1 from Suse to Mint (g1)
+build g2 at Mneme
+convert b3 to g3 at Dlwillson
+sacrifice g2 at Mneme; build r2 at Mneme; build r2 at Safe
+sacrifice g3 at Dlwillson; build y2 at Mint; build y3 at Suse; build y3 at Dlwillson
+sacrifice g2 at Mneme; build r3 at Mneme; build r3 at Forest
+build g2 at Dlwillson
+convert r3 to g3 at Mneme
+build r3 at Suse
+sacrifice y2 at Forest; move r1 from Safe to Suse; move r2 from Forest to Suse; catastrophe red at Suse
+convert y3 to r3 at Suse
+move r2 from Safe to Mint
+build y2 at Mint
+capture y2 at Mint
+sacrifice r3 at Suse; capture r2 at Mint; capture y2 at Mint
+move g3 from Mneme to Mint
+sacrifice y2 at Mint; move r2 from Mint to Suse; move y1 from Mint to Fedora (b3)
+sacrifice r1 at Mneme; capture y2 at Mint
+move g2 from Dlwillson to Fedora
+move g3 from Mint to Suse
+convert r2 to g2 at Suse
+sacrifice r2 at Mneme; capture g2 at Suse; capture b1 at Suse
+move g1 from Dlwillson to Suse; catastrophe green at Suse
+build y1 at Mneme
+convert y1 to r1 at Fedora
+convert y1 to r1 at Mneme
+move y1 from Dlwillson to Fedora
+build r2 at Mneme
+build r2 at Fedora
+convert r2 to g2 at Mneme
+build g1 at Fedora
+build r2 at Mneme
+sacrifice g2 at Fedora; build y1 at Dlwillson; build g2 at Fedora
+build r2 at Forest
+move r2 from Fedora to Ydl (y1)
+convert r2 to b2 at Mneme
+convert y3 to g3 at Dlwillson
+sacrifice y2 at Mint; move r3 from Forest to Touchstone (b3); move b2 from Mneme to Forest
+sacrifice g2 at Fedora; build r2 at Ydl; build r3 at Fedora
+build r3 at Forest
+build g1 at Dlwillson
+convert r3 to y3 at Forest
+move r2 from Ydl to Redhat (r3)
+build b1 at Forest
+build g2 at Fedora
+build y2 at Forest
+move g1 from Fedora to Ydl
+move b2 from Forest to Harpershall (g3)
+sacrifice g3 at Dlwillson; build g2 at Ydl; build y2 at Fedora; build g3 at Dlwillson
+move r2 from Forest to Harper (y3)
+sacrifice y2 at Fedora; move g2 from Ydl to Mneme; move g1 from Ydl to Mneme; catastrophe green at Mneme
+build b1 at Harpershall
+move r1 from Fedora to Suse (g1)
+build b1 at Harpershall
+convert r3 to b3 at Fedora
+sacrifice y3 at Forest; move b1 from Harpershall to Dlwillson; move b1 from Harpershall to Dlwillson; move b2 from Harpershall to Dlwillson; catastrophe blue at Dlwillson

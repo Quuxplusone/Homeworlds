@@ -1,0 +1,83 @@
+Daselva (0, b1r2) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Daselva
+build g1 at Ts52
+convert g3 to y3 at Daselva
+convert g1 to r1 at Ts52
+build y1 at Daselva
+build r1 at Ts52
+convert y3 to g3 at Daselva
+convert r1 to y1 at Ts52
+move g1 from Daselva to S1 (r3)
+move y1 from Ts52 to Robin (g1)
+build y1 at Daselva
+build y2 at Robin
+move y1 from Daselva to S1
+build r1 at Ts52
+build y2 at S1
+move r1 from Ts52 to Robin
+move y2 from S1 to S2 (g1)
+build g2 at Ts52
+build y2 at S2
+move y2 from Robin to Kermit (g3)
+build y3 at S1
+move y2 from Kermit to S2
+build y3 at Daselva
+move g2 from Ts52 to Grover (b1)
+convert y3 to r3 at Daselva
+build y3 at Robin
+move r3 from Daselva to S1
+build r1 at Robin
+move r3 from S1 to S2
+move y2 from S2 to Elmo (r2)
+move y2 from S2 to S3 (r3)
+build r2 at Ts52
+build g2 at S1
+move y1 from Robin to Kermit (g3)
+build g2 at Daselva
+convert r1 to b1 at Ts52
+build r1 at S2
+move b1 from Ts52 to Robin
+move r3 from S2 to Kermit
+move y1 from Kermit to Grover
+sacrifice y1 at S1; move r3 from Kermit to Grover
+build g3 at Ts52
+capture g2 at Grover
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Elmo; build b2 at Robin
+sacrifice y3 at S1; move g2 from Grover to Ts52; move g1 from S1 to S2; move g1 from S2 to Ts52; catastrophe green at Ts52
+move y3 from Robin to Ts52
+capture y1 at Grover
+convert y3 to g3 at Ts52
+sacrifice g2 at Daselva; build y3 at Grover; build y3 at S2
+move y1 from Elmo to Robin
+sacrifice y3 at Grover; move y1 from Grover to Ts52; move y3 from S2 to Ts52; move y2 from S2 to Ts52; catastrophe yellow at Ts52
+convert b2 to y2 at Robin
+build g1 at Daselva
+build g2 at Ts52
+build g2 at S1
+convert g3 to y3 at Ts52
+sacrifice y2 at S3; move r3 from Grover to Elmo; move r3 from Elmo to Robin
+build r3 at Robin; catastrophe red at Robin
+build y1 at Daselva
+build g3 at Ts52
+move y1 from Daselva to S1
+move y3 from Ts52 to S1
+sacrifice g2 at S1; build y2 at S1; build y3 at S1; catastrophe yellow at S1
+move y1 from Robin to Ts52
+convert g1 to b1 at Daselva
+build b2 at Robin
+move b1 from Daselva to S1
+move g2 from Ts52 to Bigbird (y3)
+build b2 at S1
+move b2 from Robin to Bigbird
+convert b2 to y2 at S1
+build r1 at Ts52
+build b2 at S1
+build b3 at Bigbird
+move b2 from S1 to S2
+build b3 at Robin
+build b3 at S2
+convert b3 to g3 at Bigbird
+convert g3 to y3 at Daselva
+build b3 at Bigbird
+sacrifice y3 at Daselva; move b1 from S1 to Ts52; move b2 from S2 to Ts52; move b3 from S2 to Ts52; catastrophe blue at Ts52

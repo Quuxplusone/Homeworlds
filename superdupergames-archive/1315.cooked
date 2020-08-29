@@ -1,0 +1,43 @@
+Twoshort (0, b1y2) g3-
+Andylooney (1, b3g2) -y3
+build g1 at Twoshort
+build y1 at Andylooney
+convert g1 to y1 at Twoshort
+convert y1 to g1 at Andylooney
+build g1 at Twoshort
+build y1 at Andylooney
+move g1 from Twoshort to Jed (y3)
+move g1 from Andylooney to Different (y1)
+build g1 at Twoshort
+build g2 at Different
+build g2 at Jed
+move g1 from Different to Clampett (y3)
+move g2 from Jed to Bubbles (b1)
+build g3 at Clampett
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y2 at Twoshort; build g3 at Bubbles
+convert y1 to r1 at Andylooney
+sacrifice y2 at Twoshort; move g1 from Twoshort to Clampett; move g2 from Bubbles to Clampett; catastrophe green at Clampett
+build g1 at Different
+build g1 at Bubbles
+move g2 from Different to Jolly (g3)
+convert g1 to y1 at Bubbles
+move r1 from Andylooney to Different
+sacrifice g3 at Bubbles; build y2 at Bubbles; build y2 at Bubbles; build y3 at Twoshort
+convert y3 to r3 at Andylooney
+convert y1 to r1 at Twoshort
+sacrifice g2 at Jolly; build r1 at Andylooney; build r2 at Different
+build r2 at Twoshort
+move r2 from Different to Jed
+sacrifice y2 at Bubbles; move g3 from Twoshort to Jed; move y1 from Bubbles to Yolonda (y3)
+move r2 from Jed to Ginger (g1)
+move r2 from Twoshort to Yolonda
+build g2 at Different
+sacrifice g3 at Jed; build g2 at Jed; build y1 at Bubbles; build y2 at Bubbles
+move g1 from Different to Ibm (b3)
+move g1 from Jed to Twoshort
+build g3 at Different
+sacrifice g2 at Jed; build y3 at Yolonda; build r2 at Yolonda
+sacrifice g2 at Different; build r3 at Different; build r3 at Ginger
+move r2 from Yolonda to Bubbles
+build g2 at Ibm
+sacrifice y3 at Yolonda; move r2 from Yolonda to Different; move r2 from Bubbles to Andylooney; move r2 from Different to Andylooney; catastrophe red at Andylooney

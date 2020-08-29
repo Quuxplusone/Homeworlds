@@ -1,0 +1,53 @@
+Twoshort (0, r1b2) g3-
+Eriinfo (1, b1y3) -g3
+build g1 at Twoshort
+build g1 at Eriinfo
+convert g1 to y1 at Twoshort
+convert g1 to b1 at Eriinfo
+build g1 at Twoshort
+build g1 at Eriinfo
+move g1 from Twoshort to Yolonda (y3)
+move g1 from Eriinfo to Cire (y2)
+build g1 at Twoshort
+build g2 at Cire
+build g2 at Twoshort
+move g1 from Cire to Eriinfo
+move g2 from Twoshort to Landgrab (g3)
+build g2 at Eriinfo
+sacrifice g2 at Landgrab; build g2 at Twoshort; build g3 at Yolonda
+convert g2 to y2 at Eriinfo
+convert g2 to r2 at Twoshort
+build g2 at Cire
+move g3 from Yolonda to Threat (y2)
+convert g1 to r1 at Eriinfo
+sacrifice g3 at Twoshort; build g1 at Threat; build g2 at Yolonda; build g3 at Twoshort
+move g2 from Cire to Rice (y3)
+build y1 at Twoshort
+build y1 at Eriinfo
+move y1 from Twoshort to Bluestar (b3)
+move y1 from Eriinfo to Cire
+move g3 from Threat to Rice
+move b1 from Eriinfo to Cire
+sacrifice g1 at Threat; build y2 at Bluestar
+build g1 at Eriinfo
+build r1 at Twoshort
+build r2 at Eriinfo
+sacrifice r1 at Twoshort; capture g2 at Rice
+convert r1 to b1 at Eriinfo
+convert y2 to r2 at Bluestar
+build b2 at Eriinfo
+move g3 from Rice to Cire
+move b2 from Eriinfo to Icer (y2)
+sacrifice g2 at Rice; build y3 at Bluestar; build r1 at Bluestar
+sacrifice g2 at Cire; build b2 at Eriinfo; build b3 at Icer
+sacrifice r2 at Bluestar; capture y1 at Cire; capture b1 at Cire
+sacrifice y2 at Eriinfo; move g1 from Eriinfo to Icer; move b1 from Eriinfo to Crie (g2)
+sacrifice g3 at Twoshort; build g2 at Cire; build b3 at Cire; build g3 at Twoshort
+convert b3 to r3 at Icer
+sacrifice g1 at Yolonda; build y2 at Twoshort
+move b2 from Eriinfo to Icer
+sacrifice g2 at Yolonda; build b3 at Cire; build y3 at Cire
+build g1 at Eriinfo
+sacrifice y3 at Cire; move b1 from Cire to Eriinfo; move b3 from Cire to Eriinfo; move b3 from Cire to Eriinfo; catastrophe blue at Eriinfo
+build b1 at Crie
+sacrifice y3 at Bluestar; move y1 from Cire to Eriinfo; move y2 from Twoshort to Eriinfo; move y1 from Twoshort to Eriinfo; catastrophe yellow at Eriinfo

@@ -1,0 +1,45 @@
+Keith (0, b2y1) g3-
+Zoltar (1, b2r3) -g3
+build g1 at Keith
+build g1 at Zoltar
+convert g1 to y1 at Keith
+build g1 at Zoltar
+build y1 at Keith
+convert g3 to y3 at Zoltar
+move y1 from Keith to Greenleaf (g3)
+build y2 at Zoltar
+build y2 at Greenleaf
+move g1 from Zoltar to Betazed (b1)
+move y1 from Greenleaf to Bell (b2)
+move y2 from Zoltar to Betazed
+move y1 from Keith to Midworld (g3)
+build y2 at Betazed
+build g1 at Keith
+convert y2 to r2 at Betazed
+sacrifice g3 at Keith; build y2 at Bell; build y3 at Greenleaf; build y3 at Midworld
+convert y3 to r3 at Zoltar
+move y3 from Greenleaf to Keith
+build y3 at Betazed
+sacrifice y2 at Bell; move y1 from Bell to Betazed; move y1 from Midworld to Betazed; catastrophe yellow at Betazed
+build g2 at Betazed
+build g2 at Keith
+convert r2 to y2 at Betazed
+convert g1 to r1 at Keith
+convert g2 to y2 at Betazed
+build r1 at Keith
+move y2 from Betazed to Balderdash (g3)
+build r1 at Keith
+build y1 at Balderdash
+convert y3 to b3 at Keith
+build y1 at Balderdash
+move g2 from Keith to Balderdash
+build y3 at Betazed
+sacrifice r1 at Keith; capture y2 at Balderdash
+sacrifice y2 at Betazed; move y1 from Balderdash to Keith; move y1 from Balderdash to Keith
+capture y1 at Keith
+sacrifice g1 at Zoltar; build y2 at Keith; catastrophe yellow at Keith
+sacrifice y2 at Balderdash; move r1 from Keith to Betazed; move r1 from Betazed to Zoltar
+convert r3 to y3 at Zoltar
+sacrifice g2 at Balderdash; build r1 at Zoltar; build r2 at Zoltar; catastrophe red at Zoltar
+build g1 at Betazed
+move y3 from Midworld to Zoltar

@@ -1,0 +1,39 @@
+Jesse (0, b3y1) g3-
+Laurie_Menke (1, g3b2) -y3
+build g1 at Jesse
+build y1 at Laurie_Menke
+convert g1 to y1 at Jesse
+build y2 at Laurie_Menke
+move y1 from Jesse to Kif (g2)
+move y1 from Laurie_Menke to Creativity (g1)
+build y2 at Kif
+build y2 at Creativity
+build g1 at Jesse
+convert y3 to g3 at Laurie_Menke
+move y1 from Kif to Frog (b1)
+move g3 from Laurie_Menke to Frog
+move y1 from Frog to Laurie_Menke
+sacrifice y2 at Laurie_Menke; move g3 from Frog to Laurie_Menke; move y2 from Creativity to Kif
+convert y1 to g1 at Laurie_Menke
+convert g3 to r3 at Laurie_Menke
+build g2 at Laurie_Menke
+build r1 at Laurie_Menke
+sacrifice g3 at Jesse; build g2 at Laurie_Menke; build g3 at Jesse; build g3 at Jesse; catastrophe green at Laurie_Menke
+build y1 at Creativity
+convert g3 to r3 at Jesse
+convert r1 to g1 at Laurie_Menke
+build r1 at Jesse
+build r1 at Laurie_Menke
+move r3 from Jesse to Laurie_Menke
+sacrifice r1 at Laurie_Menke; capture r3 at Laurie_Menke
+build r1 at Jesse
+build g2 at Laurie_Menke
+sacrifice y2 at Kif; move r1 from Jesse to Laurie_Menke; move r1 from Jesse to Laurie_Menke; catastrophe red at Laurie_Menke
+move y1 from Creativity to Laurie_Menke
+convert g3 to r3 at Jesse
+sacrifice g2 at Laurie_Menke; build y2 at Creativity; build y2 at Kif
+move r3 from Jesse to Laurie_Menke
+build y3 at Kif
+capture y1 at Laurie_Menke
+sacrifice y2 at Kif; move y1 from Creativity to Laurie_Menke; move y3 from Kif to Jesse
+sacrifice r3 at Laurie_Menke; capture y1 at Laurie_Menke; capture g1 at Laurie_Menke

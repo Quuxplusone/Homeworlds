@@ -1,0 +1,80 @@
+Ts52 (0, y1b2) g3-
+Simon (1, r1b3) -g3
+build g1 at Ts52
+build g1 at Simon
+convert g1 to y1 at Ts52
+convert g1 to y1 at Simon
+build y2 at Ts52
+build y2 at Simon
+build g1 at Ts52
+move y1 from Simon to B2 (b2)
+move y2 from Ts52 to Kermit (g3)
+sacrifice g3 at Simon; build y2 at B2; build y3 at B2; build y3 at Simon
+build y3 at Kermit
+convert y2 to r2 at B2
+convert g1 to r1 at Ts52
+convert y3 to g3 at B2
+move y2 from Kermit to Gonzo (b2)
+move y2 from Simon to G2 (g2)
+build g1 at Ts52
+build g1 at B2
+convert g1 to b1 at Ts52
+convert g1 to b1 at B2
+move b1 from Ts52 to Kermit
+build g1 at B2
+build g1 at Ts52
+move b1 from B2 to R3 (r3)
+move y2 from Gonzo to R3
+move g3 from B2 to R3
+move y2 from R3 to Robin (g2)
+sacrifice g3 at R3; build y2 at G2; build y3 at B2; build g1 at B2
+build b1 at Kermit
+build g2 at B2
+move g1 from Ts52 to Gonzo (b3)
+move g2 from B2 to Gonzo
+build g3 at Gonzo
+move g1 from B2 to Gonzo; catastrophe green at Gonzo
+build g1 at Ts52
+build g1 at B2
+move y1 from Ts52 to Kermit
+build g2 at B2
+move g1 from Ts52 to Gonzo (b3)
+move g1 from B2 to Gonzo
+convert g1 to r1 at Gonzo
+sacrifice g2 at B2; build g1 at B2; build g2 at Gonzo
+capture g1 at Gonzo
+build g3 at Gonzo
+sacrifice y2 at Robin; move r1 from Gonzo to Robin (g2); move b1 from Kermit to Robin
+sacrifice g3 at Gonzo; build g3 at Gonzo; build y2 at Simon; build r2 at B2
+sacrifice g3 at Ts52; build g3 at Gonzo; build r2 at Robin; build r3 at Ts52; catastrophe green at Gonzo
+move r2 from B2 to G3 (g3)
+convert r3 to g3 at Ts52
+build r3 at G3
+build r3 at Ts52
+sacrifice y1 at B2; move r3 from G3 to Robin
+move r3 from Ts52 to G3
+sacrifice r2 at G3; capture r2 at Robin; capture r1 at Robin
+build r2 at Ts52
+build y1 at B2
+sacrifice y1 at Kermit; move r3 from G3 to G2
+sacrifice y2 at G2; move r2 from Robin to G3 (g3); move y2 from G2 to G3
+move r2 from Ts52 to Kermit
+capture b1 at Robin
+build y1 at Kermit
+build y2 at G3
+move y1 from Kermit to G2
+build b2 at Robin
+build b3 at Kermit
+sacrifice g1 at B2; build b3 at R3
+move r3 from G2 to G3
+sacrifice y2 at G3; move y2 from G3 to Robin; move r2 from G3 to G2
+move y1 from G2 to G3
+build y2 at Robin
+move r3 from G3 to G2
+move y2 from Robin to R3
+capture r2 at G2
+move b3 from R3 to Ts52
+capture b3 at Ts52
+sacrifice y3 at B2; move b1 from Robin to R3; move b1 from R3 to Ts52; move b1 from R3 to Ts52; catastrophe blue at Ts52
+build y3 at G3
+sacrifice y3 at Simon; move y1 from B2 to Ts52; move y2 from R3 to Ts52; move y2 from Robin to Ts52; catastrophe yellow at Ts52

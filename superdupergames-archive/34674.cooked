@@ -1,0 +1,75 @@
+Draw5Playall (0, b3r1) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Draw5Playall
+build g1 at Ts52
+convert g1 to y1 at Draw5Playall
+convert g1 to r1 at Ts52
+build y1 at Draw5Playall
+build r1 at Ts52
+build y2 at Draw5Playall
+build r2 at Ts52
+convert y2 to r2 at Draw5Playall
+convert r2 to y2 at Ts52
+build r2 at Draw5Playall
+build y2 at Ts52
+convert r2 to b2 at Draw5Playall
+build r2 at Ts52
+move b2 from Draw5Playall to Money (g2)
+move r2 from Ts52 to Kermit (g3)
+move y1 from Draw5Playall to Money
+move y2 from Ts52 to Kermit
+move r2 from Draw5Playall to Money
+build g1 at Ts52
+build b1 at Money
+convert g1 to b1 at Ts52
+build g1 at Draw5Playall
+build g1 at Ts52
+move g1 from Draw5Playall to B2 (b2)
+move r2 from Kermit to B2
+sacrifice g1 at B2; build g1 at Draw5Playall
+move y2 from Ts52 to Gonzo (b3)
+move g1 from Draw5Playall to Wolf359 (y2)
+build y3 at Kermit
+sacrifice g3 at Draw5Playall; build y3 at Draw5Playall; build y3 at Money; build g1 at Wolf359
+move b1 from Ts52 to Kermit
+move g1 from Wolf359 to Draw5Playall
+move y2 from Kermit to B2
+build g2 at Draw5Playall
+move g1 from Ts52 to Gonzo
+move g1 from Wolf359 to Elmo (r3)
+build y2 at Gonzo
+move b1 from Money to Oscar (g3)
+build g2 at Ts52
+sacrifice g2 at Draw5Playall; build b1 at Money; build b3 at Oscar
+move y2 from B2 to Elmo
+build g2 at Draw5Playall
+capture g1 at Elmo
+move y1 from Money to Oscar
+move y2 from Gonzo to B2
+move b3 from Oscar to B2
+move r2 from B2 to Oscar
+sacrifice y1 at Oscar; move b1 from Oscar to Lost (y1)
+move r1 from Ts52 to Kermit
+build r2 at Money
+sacrifice g3 at Ts52; build g3 at Ts52; build r3 at Kermit; build r3 at Oscar
+sacrifice r2 at Money; capture y2 at B2
+build r2 at Ts52
+move b3 from B2 to Elmo
+move r3 from Kermit to B2
+capture y2 at Elmo
+capture y2 at B2
+capture g1 at Elmo
+move r2 from Ts52 to Kermit
+sacrifice g1 at Draw5Playall; build g1 at Draw5Playall
+move r2 from Kermit to Lost
+move b1 from Lost to Elmo
+move g2 from Ts52 to Gonzo
+sacrifice g1 at Draw5Playall; build g1 at Elmo
+move y2 from Gonzo to B2
+move y1 from Draw5Playall to Money
+move y2 from B2 to Gonzo
+pass
+move g2 from Gonzo to Lost
+pass
+pass
+pass

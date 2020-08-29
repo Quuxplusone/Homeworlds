@@ -1,0 +1,60 @@
+Dlwillson (0, r1b3) g3-
+Silenttitan (1, y1b2) -g3
+build g1 at Dlwillson
+build g1 at Silenttitan
+convert g1 to y1 at Dlwillson
+move g1 from Silenttitan to Ook (y3)
+build g1 at Dlwillson
+build g1 at Silenttitan
+move g1 from Dlwillson to Stuph (b2)
+convert g1 to r1 at Silenttitan
+build y1 at Dlwillson
+build g1 at Ook
+build g2 at Dlwillson
+move g1 from Ook to Stuph
+build g2 at Stuph
+sacrifice g3 at Silenttitan; build g2 at Stuph; build g3 at Ook; build g3 at Ook; catastrophe green at Stuph
+build y2 at Dlwillson
+move g3 from Ook to Silenttitan
+move y1 from Dlwillson to Boogie (g2)
+sacrifice g3 at Ook; build r1 at Silenttitan; build r2 at Silenttitan; build g1 at Ook
+move y2 from Dlwillson to Twist (b2)
+move g1 from Ook to Eek (b2)
+sacrifice g3 at Dlwillson; build y2 at Twist; build y2 at Twist; build y3 at Dlwillson
+convert r2 to g2 at Silenttitan
+convert y3 to g3 at Dlwillson
+sacrifice g3 at Silenttitan; build g1 at Ook; build g3 at Silenttitan; build g3 at Eek
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build y3 at Dlwillson; build y3 at Boogie
+move r1 from Silenttitan to Ook
+sacrifice y3 at Dlwillson; move y3 from Boogie to Samba (r3); move y2 from Twist to Tango (r3); move y1 from Boogie to Tango
+convert g3 to y3 at Eek
+convert g2 to r2 at Dlwillson
+sacrifice g3 at Silenttitan; build g2 at Eek; build g2 at Eek; build g3 at Silenttitan
+sacrifice y2 at Twist; move y2 from Twist to Ook; move y1 from Tango to Silenttitan
+sacrifice g3 at Silenttitan; build r2 at Silenttitan; build r2 at Silenttitan; build r3 at Ook
+sacrifice y2 at Tango; move y1 from Silenttitan to Ook; move y3 from Samba to Silenttitan
+sacrifice y3 at Eek; move g2 from Eek to Dlwillson; move g2 from Eek to Dlwillson; move g1 from Eek to Dlwillson; catastrophe green at Dlwillson
+sacrifice r2 at Dlwillson; capture g2 at Silenttitan; capture r2 at Silenttitan
+sacrifice r3 at Ook; capture r2 at Silenttitan; capture g2 at Silenttitan; capture y1 at Ook
+convert y3 to g3 at Silenttitan
+build y2 at Ook; catastrophe yellow at Ook
+convert y1 to g1 at Dlwillson
+convert r2 to y2 at Silenttitan
+build g1 at Dlwillson
+build g1 at Silenttitan
+build g2 at Dlwillson
+build g2 at Silenttitan; catastrophe green at Silenttitan
+convert g1 to y1 at Dlwillson
+convert r2 to g2 at Silenttitan
+move g1 from Dlwillson to Mook (b2)
+build r1 at Silenttitan
+build g1 at Dlwillson
+build g1 at Silenttitan
+sacrifice g2 at Dlwillson; build y1 at Dlwillson; build g2 at Mook
+move r1 from Silenttitan to Thunder (g3)
+move y1 from Dlwillson to Mook
+build r2 at Thunder
+convert g2 to r2 at Mook
+sacrifice y2 at Silenttitan; move r2 from Thunder to Mook; move r2 from Mook to Dlwillson
+move r2 from Mook to Dlwillson
+capture r2 at Dlwillson

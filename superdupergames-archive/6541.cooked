@@ -1,0 +1,46 @@
+Nycavri (0, b2y3) g3-
+Zoltar (1, r3b1) -g3
+build g1 at Nycavri
+build g1 at Zoltar
+convert g1 to r1 at Nycavri
+convert g1 to y1 at Zoltar
+build g1 at Nycavri
+build y1 at Zoltar
+convert g1 to y1 at Nycavri
+build y2 at Zoltar
+build y2 at Nycavri
+move y1 from Zoltar to Greenbelt (g2)
+sacrifice y2 at Nycavri; move r1 from Nycavri to Hop (r1); move r1 from Hop to Greenbelt
+move y1 from Greenbelt to Greendale (g1)
+build g1 at Nycavri
+build y2 at Greendale
+move y1 from Nycavri to Greendale
+move y2 from Zoltar to Blueridge (b2)
+build y2 at Greendale
+build g1 at Zoltar
+build y3 at Greendale
+build y3 at Zoltar; catastrophe yellow at Greendale
+convert g1 to y1 at Nycavri
+move g1 from Zoltar to Blueridge
+build g1 at Nycavri
+build g1 at Blueridge
+convert g1 to b1 at Nycavri
+convert g1 to b1 at Blueridge
+move b1 from Nycavri to Jw (y1)
+sacrifice g3 at Zoltar; build y2 at Zoltar; build y2 at Blueridge; build y3 at Blueridge
+move b1 from Jw to Greenbelt
+convert y3 to g3 at Zoltar
+convert r1 to y1 at Greenbelt
+convert y1 to r1 at Zoltar
+build y1 at Greenbelt
+build y3 at Zoltar
+build b2 at Greenbelt
+build b3 at Blueridge
+move y1 from Greenbelt to Fr (g1)
+sacrifice y2 at Blueridge; move b3 from Blueridge to Fr; move b3 from Fr to Nycavri
+build y2 at Fr
+sacrifice r1 at Zoltar; capture g3 at Nycavri
+sacrifice b1 at Greenbelt; convert y2 to r2 at Fr
+convert b3 to r3 at Nycavri
+build y2 at Fr
+capture y1 at Nycavri

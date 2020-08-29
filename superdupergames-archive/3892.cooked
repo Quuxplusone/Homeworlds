@@ -1,0 +1,17 @@
+Zoltar (0, r2b3) g3-
+Laurie_Menke (1, y1b3) -g3
+build g1 at Zoltar
+build g1 at Laurie_Menke
+convert g1 to y1 at Zoltar
+move g1 from Laurie_Menke to Forest (g2)
+build y1 at Zoltar
+build g1 at Laurie_Menke
+build y2 at Zoltar
+sacrifice g3 at Laurie_Menke; build g1 at Forest; build g2 at Laurie_Menke; build g2 at Laurie_Menke
+build g3 at Zoltar
+convert g2 to y2 at Laurie_Menke
+move g3 from Zoltar to Blueberry (b1)
+sacrifice y2 at Laurie_Menke; move g1 from Forest to Ocean (b1); move g1 from Forest to Ocean
+sacrifice y2 at Zoltar; move g3 from Blueberry to Wormhole (y2); move g3 from Wormhole to Laurie_Menke
+sacrifice g2 at Laurie_Menke; build g2 at Laurie_Menke; build g2 at Ocean
+sacrifice g3 at Zoltar; build g2 at Laurie_Menke; build g3 at Laurie_Menke; build g3 at Laurie_Menke; catastrophe green at Laurie_Menke

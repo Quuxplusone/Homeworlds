@@ -1,0 +1,20 @@
+Twoshort (0, b2y1) g3-
+Jeep (1, b1g2) -y3
+build g1 at Twoshort
+build y1 at Jeep
+build g1 at Twoshort
+build y1 at Jeep
+move g1 from Twoshort to Yolonda (y3)
+move y1 from Jeep to Giant (g3)
+build g1 at Yolonda
+build y2 at Giant
+move g1 from Yolonda to Jeep
+build y2 at Jeep
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g2 at Jeep; build g3 at Twoshort
+convert y2 to r2 at Jeep
+sacrifice g2 at Yolonda; build g2 at Jeep; build g3 at Yolonda
+sacrifice y2 at Giant; move y3 from Jeep to Yolonda; move y3 from Yolonda to Twoshort
+move g1 from Yolonda to Twoshort
+sacrifice r2 at Jeep; capture g3 at Twoshort; capture g1 at Twoshort; catastrophe green at Jeep
+sacrifice g3 at Yolonda; build g1 at Twoshort; build g2 at Twoshort; build g2 at Twoshort
+move g3 from Twoshort to Giant; catastrophe green at Twoshort

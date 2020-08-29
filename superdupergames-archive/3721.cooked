@@ -1,0 +1,25 @@
+Twoshort (0, b2r3) g3-
+Zoltar (1, b1y2) -g3
+build g1 at Twoshort
+build g1 at Zoltar
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Zoltar
+build g1 at Twoshort
+build g1 at Zoltar
+build y1 at Twoshort
+build y2 at Zoltar
+move y1 from Twoshort to Gloria (g1)
+move y1 from Zoltar to Hydra (g3)
+move y1 from Gloria to Borbor (b3)
+convert y2 to b2 at Zoltar
+build y2 at Twoshort
+build b1 at Zoltar
+move y1 from Twoshort to Gonzo (g1)
+convert b2 to r2 at Zoltar
+sacrifice g3 at Twoshort; build y2 at Borbor; build y3 at Twoshort; build y3 at Borbor
+build y3 at Hydra
+move y2 from Borbor to Zoltar
+convert g1 to b1 at Zoltar
+convert y2 to b2 at Zoltar; catastrophe blue at Zoltar
+build y2 at Hydra
+move y3 from Borbor to Zoltar

@@ -1,0 +1,58 @@
+Joe_Hill (0, b3y1) g3-
+Zeder (1, b2g3) -y3
+build g1 at Joe_Hill
+build y1 at Zeder
+build g1 at Joe_Hill
+build y1 at Zeder
+move g1 from Joe_Hill to Car (b2)
+move y1 from Zeder to Doop (b1)
+build g1 at Car
+convert y3 to g3 at Zeder
+build g2 at Joe_Hill
+build g2 at Zeder
+convert g2 to y2 at Joe_Hill
+move g2 from Zeder to Doop
+build y2 at Joe_Hill
+convert g2 to y2 at Doop
+move y2 from Joe_Hill to Car
+build y3 at Zeder
+build y3 at Car
+move y1 from Doop to Gloop (g2)
+convert y3 to r3 at Car
+convert y1 to r1 at Zeder
+move r3 from Car to Doop
+sacrifice y3 at Zeder; move y2 from Doop to Gloop; move y1 from Gloop to Joe_Hill; move y2 from Gloop to Joe_Hill; catastrophe yellow at Joe_Hill
+move y2 from Car to Doop
+build r1 at Zeder
+convert g1 to y1 at Joe_Hill
+convert r1 to y1 at Zeder
+build g1 at Joe_Hill
+build r1 at Zeder
+build g2 at Car
+move r1 from Zeder to Mancala (y1)
+convert g1 to r1 at Joe_Hill
+build r2 at Zeder
+convert g2 to y2 at Car
+move r2 from Zeder to Mancala
+build r2 at Joe_Hill
+convert r1 to b1 at Zeder
+move r3 from Doop to Zeder
+sacrifice r1 at Mancala; capture r3 at Zeder
+move g1 from Car to Doop
+move r3 from Zeder to Doop
+build g1 at Doop
+capture y2 at Doop
+sacrifice y2 at Car; move g1 from Doop to Zeder; move g1 from Doop to Zeder; catastrophe green at Zeder
+move r3 from Doop to Zeder
+build g1 at Car
+move r2 from Mancala to Car
+move r2 from Joe_Hill to Doop
+move y2 from Doop to Bowie (r3)
+convert g1 to y1 at Car
+capture g1 at Car
+move y1 from Car to Doop
+convert b1 to g1 at Zeder
+build g1 at Joe_Hill
+build g2 at Car
+move g1 from Joe_Hill to Doop
+build y2 at Zeder

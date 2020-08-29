@@ -1,0 +1,51 @@
+Wil (0, b1y2) g3-
+Trydnt (1, g3b1) -b3
+build g1 at Wil
+build b1 at Trydnt
+build g1 at Wil
+convert b3 to y3 at Trydnt
+move g1 from Wil to B3 (b3)
+build b2 at Trydnt
+build g1 at Wil
+convert b2 to g2 at Trydnt
+move g1 from Wil to Y3 (y3)
+move g2 from Trydnt to Y2 (y2)
+build g2 at B3
+move g2 from Y2 to Y3
+sacrifice g3 at Wil; build g2 at Y3; build g3 at Y3; build g3 at Wil; catastrophe green at Y3
+build b2 at Trydnt
+convert g2 to b2 at B3
+move b2 from Trydnt to Y2 (y2)
+build g1 at Wil
+build b2 at Trydnt
+move g1 from Wil to Bee3 (b3)
+move b2 from Trydnt to Why2 (y2)
+move g1 from Wil to Btree (b3)
+convert b2 to g2 at Y2
+build g2 at Wil
+move b2 from Why2 to G3 (g3)
+sacrifice g3 at Wil; build g2 at Bee3; build g3 at Wil; build b2 at B3
+convert b1 to r1 at Trydnt
+convert g1 to r1 at Bee3
+build g1 at Y2
+convert b2 to y2 at B3
+build y1 at Trydnt
+sacrifice g3 at Wil; build g3 at Wil; build y1 at B3; build r1 at Bee3
+build r2 at Trydnt
+move y1 from B3 to B2 (b2)
+move r2 from Trydnt to B2
+sacrifice g3 at Wil; build g3 at Wil; build y1 at B3; build y3 at B2
+sacrifice y1 at Trydnt; move g2 from Y2 to Y3 (y3)
+sacrifice g2 at Wil; build g2 at B3; build r2 at Bee3
+sacrifice g2 at Y3; build r2 at B2; build r3 at Trydnt
+sacrifice r2 at Bee3; capture r2 at B2; capture r2 at B2
+move r3 from Trydnt to Y2
+build g2 at Wil
+move r3 from Y2 to Btree
+sacrifice g3 at Wil; build g3 at Wil; build y1 at B2; build y3 at B3
+capture g1 at Btree
+sacrifice g2 at Wil; build g2 at Bee3; build r2 at Bee3
+build r3 at Trydnt
+sacrifice y3 at B3; move r2 from B2 to Trydnt; move r2 from B2 to Trydnt; move y3 from B2 to Trydnt; catastrophe red at Trydnt
+sacrifice y3 at Trydnt; move r3 from Btree to Wil; move g1 from Btree to Wil; move g1 from Y2 to Trydnt
+sacrifice r1 at Bee3; capture g1 at Trydnt

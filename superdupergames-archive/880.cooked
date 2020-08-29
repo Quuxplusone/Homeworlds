@@ -1,0 +1,41 @@
+Istari (0, y1b3) g3-
+Matrixfrog (1, g1b2) -y3
+build g1 at Istari
+build y1 at Matrixfrog
+move g1 from Istari to Pixley (b2)
+move y1 from Matrixfrog to Scorch (g3)
+build g1 at Istari
+build y1 at Matrixfrog
+convert g1 to r1 at Istari
+convert y1 to r1 at Matrixfrog
+build g1 at Istari
+move y1 from Scorch to Torch (g2)
+sacrifice g3 at Istari; build g2 at Pixley; build g2 at Pixley; build g3 at Istari
+build y1 at Matrixfrog
+convert g2 to r2 at Pixley
+build y2 at Torch
+convert g2 to y2 at Pixley
+build y2 at Torch
+sacrifice y2 at Pixley; move r2 from Pixley to Istari; move r2 from Istari to Torch
+sacrifice r1 at Matrixfrog; capture r2 at Torch
+convert g3 to r3 at Istari
+sacrifice y3 at Matrixfrog; move y2 from Torch to Istari; move y2 from Torch to Istari; move y1 from Torch to Istari; catastrophe yellow at Istari
+convert r1 to y1 at Istari
+build y1 at Matrixfrog
+move y1 from Istari to Matrixfrog
+sacrifice r2 at Torch; capture y1 at Matrixfrog
+build g2 at Istari
+convert y1 to b1 at Matrixfrog
+convert g2 to y2 at Istari
+build b1 at Matrixfrog
+build g2 at Istari
+convert b1 to r1 at Matrixfrog
+move g2 from Istari to Matrixfrog
+build r1 at Matrixfrog
+build g2 at Matrixfrog
+move r1 from Matrixfrog to Survival (g3)
+convert g2 to r2 at Matrixfrog
+build r1 at Matrixfrog
+sacrifice r2 at Matrixfrog; capture r1 at Matrixfrog; capture r1 at Matrixfrog
+build r2 at Survival
+sacrifice r3 at Istari; capture y1 at Matrixfrog; capture y1 at Matrixfrog; capture b1 at Matrixfrog

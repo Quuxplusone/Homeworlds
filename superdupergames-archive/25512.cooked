@@ -1,0 +1,52 @@
+Fogus (0, g1b3) y3-
+Remneb (1, r1b2) -g3
+build y1 at Fogus
+build g1 at Remneb
+convert y1 to r1 at Fogus
+convert g1 to y1 at Remneb
+build y1 at Fogus
+build g1 at Remneb
+convert y1 to g1 at Fogus
+move g1 from Remneb to Zork (y3)
+build g2 at Fogus
+build g2 at Zork
+move g1 from Fogus to Floop (y2)
+move g2 from Zork to Floop
+build g2 at Floop
+build g3 at Zork
+sacrifice g2 at Floop; build r1 at Fogus; build r2 at Fogus
+move g3 from Zork to Remneb
+move r2 from Fogus to Floop
+move g2 from Floop to Thor (y1)
+build g2 at Floop
+build g3 at Thor
+move r2 from Floop to Zork
+move g1 from Zork to Floop
+move r1 from Fogus to Floop
+sacrifice g3 at Remneb; build y1 at Remneb; build y2 at Remneb; build g3 at Remneb
+convert g2 to r2 at Fogus
+move g2 from Thor to Floop; catastrophe green at Floop
+move r1 from Floop to Wonka (b3)
+move g3 from Remneb to Wonka
+convert r1 to g1 at Wonka
+move y2 from Remneb to Wonka
+move r2 from Zork to Remneb
+capture r2 at Remneb
+build y2 at Fogus
+convert g3 to r3 at Wonka
+sacrifice g1 at Wonka; build y2 at Fogus
+move g3 from Thor to Wonka
+move y2 from Fogus to Leaf (g2)
+move r3 from Wonka to Leaf
+move y2 from Leaf to Pill (g3)
+build g1 at Remneb
+convert r1 to g1 at Fogus
+build g2 at Wonka
+convert y2 to b2 at Fogus
+move g2 from Wonka to Argo (y2)
+sacrifice b2 at Fogus; convert r2 to g2 at Fogus; convert g1 to r1 at Fogus
+build g1 at Argo
+move g2 from Fogus to Gnome (r2)
+move r2 from Remneb to Pill
+move y2 from Pill to Argo
+sacrifice r2 at Pill; capture y2 at Argo

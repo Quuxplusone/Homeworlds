@@ -1,0 +1,48 @@
+Nycavri (0, g3y2) b3-
+Zoltar (1, b3y1) -g3
+build b1 at Nycavri
+build g1 at Zoltar
+move b1 from Nycavri to Deacon (g1)
+move g1 from Zoltar to Blues (b2)
+build b1 at Deacon
+build g1 at Zoltar
+convert b1 to y1 at Deacon
+build g2 at Blues
+build y1 at Deacon
+convert g2 to y2 at Blues
+build b1 at Nycavri
+build g2 at Blues
+convert y1 to r1 at Deacon
+convert g2 to r2 at Blues
+build r1 at Deacon
+build g2 at Blues
+convert b1 to y1 at Nycavri
+move g2 from Blues to Deacon
+build y2 at Nycavri
+sacrifice g3 at Zoltar; build g2 at Blues; build g2 at Deacon; build g3 at Zoltar
+move b1 from Deacon to Nycavri
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Blues; build y3 at Blues
+convert b3 to r3 at Nycavri
+move y2 from Blues to Blueberry (b1)
+build y3 at Deacon
+sacrifice g2 at Blues; build y3 at Blueberry; build g2 at Deacon; catastrophe green at Deacon
+convert y1 to g1 at Nycavri
+move y2 from Blueberry to Greenbelt (g2)
+move y2 from Nycavri to Blueberry
+sacrifice r2 at Blues; capture y2 at Blueberry
+build r1 at Nycavri
+sacrifice g3 at Blues; build g2 at Zoltar; build g2 at Blues; build g3 at Blues
+move r3 from Nycavri to May (y1)
+convert y3 to r3 at Blueberry
+move r3 from May to Nycavri
+sacrifice g3 at Blues; build g3 at Blues; build r1 at Blueberry; build y1 at Blueberry
+convert r1 to y1 at Nycavri
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Blues; build y3 at Greenbelt
+move y1 from Nycavri to Mercury (r1)
+move y2 from Greenbelt to Blueberry
+move g1 from Nycavri to Mercury
+move g2 from Blues to Mercury
+sacrifice y1 at Mercury; move g1 from Mercury to Taylor (b2)
+sacrifice y3 at Blues; move y1 from Blueberry to Nycavri; move y2 from Blueberry to Nycavri; move y2 from Blueberry to Nycavri; catastrophe yellow at Nycavri
+convert g1 to y1 at Taylor
+sacrifice y3 at Blues; move g1 from Blues to Nycavri; move g2 from Mercury to Nycavri; move g3 from Blues to Nycavri; catastrophe green at Nycavri

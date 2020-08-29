@@ -1,0 +1,70 @@
+Wmreed (0, g2b1) r3-
+Madwuher (1, b1g3) -b3
+build r1 at Wmreed
+build b1 at Madwuher
+convert r3 to y3 at Wmreed
+convert b3 to y3 at Madwuher
+build y1 at Wmreed
+build b2 at Madwuher
+convert y1 to g1 at Wmreed
+convert b2 to r2 at Madwuher
+build y1 at Wmreed
+build b2 at Madwuher
+convert y3 to b3 at Wmreed
+convert b2 to y2 at Madwuher
+move b3 from Wmreed to Ruatha (g3)
+build b2 at Madwuher
+build b2 at Ruatha
+convert b2 to y2 at Madwuher
+sacrifice y1 at Wmreed; move b3 from Ruatha to Wmreed
+build b2 at Madwuher
+build b2 at Ruatha
+sacrifice y2 at Madwuher; move b1 from Madwuher to Camelot (g2); move y2 from Madwuher to Camelot
+convert b3 to y3 at Wmreed
+build b3 at Camelot
+convert b2 to y2 at Ruatha
+convert b1 to r1 at Camelot
+build r1 at Wmreed
+build r2 at Camelot
+move r1 from Wmreed to Ruatha
+convert r1 to g1 at Camelot
+build b1 at Ruatha
+build y1 at Madwuher
+convert b2 to r2 at Ruatha
+build b2 at Camelot
+move r2 from Ruatha to Bendon (g2)
+move g1 from Camelot to Edora (y3)
+build b2 at Ruatha
+move b3 from Camelot to Edora
+move b1 from Ruatha to Bendon
+build b3 at Camelot
+build b3 at Bendon
+sacrifice b2 at Camelot; convert b2 to y2 at Madwuher; convert y1 to g1 at Madwuher
+convert b3 to g3 at Bendon
+sacrifice y2 at Madwuher; move g1 from Madwuher to Bendon; move g1 from Edora to Bendon; catastrophe green at Bendon
+build y1 at Wmreed
+build y1 at Madwuher
+move y1 from Wmreed to Tillek (b3)
+convert b3 to g3 at Edora
+build r1 at Ruatha
+build g1 at Edora
+build r2 at Wmreed
+sacrifice g3 at Edora; build g1 at Edora; build r3 at Camelot; build r3 at Madwuher
+move g1 from Wmreed to Tillek
+move r3 from Camelot to Edora
+build g2 at Tillek
+build g3 at Edora
+sacrifice y2 at Ruatha; move g1 from Tillek to Camelot; move g1 from Camelot to Edora; catastrophe green at Edora
+move b3 from Camelot to Tillek
+sacrifice g2 at Tillek; build y1 at Tillek; build y2 at Wmreed
+build y2 at Camelot
+move y2 from Wmreed to Ruatha
+sacrifice r2 at Madwuher; capture y1 at Tillek; capture y1 at Tillek
+move r1 from Ruatha to Fort (g2)
+convert b3 to g3 at Tillek
+build b1 at Ruatha
+build g1 at Tillek
+move b2 from Ruatha to Fort
+sacrifice g3 at Tillek; build r2 at Edora; build r3 at Camelot; build g1 at Tillek
+build b2 at Fort
+move r3 from Edora to Fort

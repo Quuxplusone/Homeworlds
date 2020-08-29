@@ -1,0 +1,44 @@
+Mathematician42 (0, r3b1) g3-
+Wil (1, b2y1) -g3
+build g1 at Mathematician42
+build g1 at Wil
+convert g1 to b1 at Mathematician42
+convert g1 to b1 at Wil
+build b2 at Mathematician42
+build b2 at Wil
+convert b2 to y2 at Mathematician42
+move b1 from Wil to G3 (g3)
+convert b1 to r1 at Mathematician42
+build b1 at Wil
+build r1 at Mathematician42
+move b2 from Wil to Y3 (y3)
+move r1 from Mathematician42 to R2 (r2)
+sacrifice g3 at Wil; build b2 at G3; build b3 at Y3; build b3 at Wil
+build r1 at Mathematician42
+build b3 at G3
+convert r1 to g1 at Mathematician42
+move b2 from Y3 to Y2 (y2)
+sacrifice g3 at Mathematician42; build r1 at R2; build r2 at R2; build r2 at Mathematician42
+convert b3 to r3 at G3; catastrophe red at R2
+move r2 from Mathematician42 to Y2
+move b2 from Y2 to Why3 (y3)
+move r2 from Y2 to Why3
+move b2 from Why3 to R2 (r2)
+move r2 from Why3 to Wil
+move b1 from Wil to Y3
+move r2 from Wil to Y3
+move b1 from Y3 to R2
+move r2 from Y3 to Wil
+build b3 at G3
+build r1 at Mathematician42
+build r1 at G3
+move r1 from Mathematician42 to Stardust (y2)
+sacrifice r1 at G3; capture r2 at Wil
+convert g1 to r1 at Mathematician42
+convert b3 to y3 at G3
+convert y2 to g2 at Mathematician42
+move b3 from Y3 to Stardust
+convert r1 to y1 at Mathematician42
+move b3 from Stardust to Mathematician42
+move r1 from Mathematician42 to Ar2 (r2)
+sacrifice r2 at Wil; capture g2 at Mathematician42; capture y1 at Mathematician42

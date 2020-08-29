@@ -1,0 +1,71 @@
+Lefou23 (0, r3b2) g3-
+Kokigami (1, b2g1) -y3
+build g1 at Lefou23
+build y1 at Kokigami
+convert g1 to y1 at Lefou23
+move y1 from Kokigami to Mookie (g3)
+build g1 at Lefou23
+build y1 at Mookie
+build y2 at Lefou23
+build y2 at Mookie
+move y2 from Lefou23 to Sparky (r1)
+move y1 from Mookie to Gemi (b2)
+convert g1 to b1 at Lefou23
+convert y1 to b1 at Gemi
+build g1 at Lefou23
+move y1 from Mookie to Gemi
+move b1 from Lefou23 to Sparky
+move y2 from Mookie to Gemi
+move b1 from Sparky to Toledo (g3)
+convert y3 to r3 at Kokigami
+build b1 at Toledo
+convert y2 to g2 at Gemi
+convert b1 to r1 at Toledo
+sacrifice g2 at Gemi; build b1 at Gemi; build b3 at Gemi
+build b3 at Toledo
+move b3 from Gemi to Mookieprime (g3)
+move y2 from Sparky to Toledo
+convert b1 to y1 at Gemi
+build y2 at Lefou23
+move y1 from Gemi to Mookieprime
+build r1 at Toledo
+build y2 at Mookieprime
+build r1 at Toledo
+sacrifice y2 at Mookieprime; move y1 from Mookieprime to Kokigami; move b3 from Mookieprime to Kokigami
+convert b3 to y3 at Toledo
+move b1 from Gemi to Festus (g1)
+move r1 from Toledo to Festus
+sacrifice b1 at Festus; convert b3 to g3 at Kokigami
+build b1 at Toledo
+move g3 from Kokigami to Gigi (y3)
+sacrifice y1 at Lefou23; move r1 from Festus to Gigi
+sacrifice g3 at Gigi; build y1 at Kokigami; build y2 at Gemi; build y3 at Gemi
+sacrifice y3 at Toledo; move r1 from Gigi to Kokigami; move r1 from Toledo to Kokigami; move r1 from Toledo to Kokigami; catastrophe red at Kokigami
+convert y3 to r3 at Gemi
+move y2 from Toledo to Kokigami
+sacrifice y2 at Gemi; move r3 from Gemi to Toledo; move r3 from Toledo to Kokigami
+build y2 at Kokigami; catastrophe yellow at Kokigami
+build r1 at Kokigami
+convert b1 to r1 at Toledo
+move y1 from Gemi to Garms (g1)
+build r1 at Toledo
+convert r3 to y3 at Kokigami
+convert r1 to y1 at Toledo
+build y1 at Kokigami
+build y2 at Toledo
+convert y3 to r3 at Kokigami
+convert y2 to r2 at Toledo
+move r3 from Kokigami to Toledo
+build r1 at Toledo; catastrophe red at Toledo
+move r1 from Kokigami to Toledo
+build y2 at Toledo
+capture b1 at Toledo
+sacrifice y1 at Toledo; move y2 from Toledo to Kokigami
+sacrifice y1 at Garms; move r1 from Toledo to Kokigami
+convert y2 to r2 at Kokigami
+build r1 at Kokigami
+convert r2 to b2 at Kokigami
+build r1 at Kokigami
+convert g3 to r3 at Lefou23
+move r1 from Kokigami to Toledo
+sacrifice r3 at Lefou23; capture r1 at Kokigami; capture r1 at Kokigami; capture y1 at Kokigami

@@ -1,0 +1,23 @@
+Granthenninger (0, b3y2) g3-
+Logikal (1, y1b2) -g3
+build g1 at Granthenninger
+build g1 at Logikal
+convert g1 to r1 at Granthenninger
+move g1 from Logikal to L1 (b3)
+build g1 at Granthenninger
+build g1 at Logikal
+move g1 from Granthenninger to Gmh1 (b1)
+build g2 at L1
+build g2 at Granthenninger
+sacrifice g3 at Logikal; build g2 at Logikal; build g3 at Logikal; build g3 at L1
+sacrifice g3 at Granthenninger; build g3 at Granthenninger; build r1 at Granthenninger; build r1 at Granthenninger
+convert g1 to y1 at L1
+convert g1 to y1 at Gmh1
+build y2 at L1
+move g2 from Granthenninger to Gmh1
+move y1 from L1 to L2 (g1)
+build y2 at Gmh1
+sacrifice g2 at Logikal; build y3 at L2; build y3 at L1
+convert r1 to b1 at Granthenninger
+move y2 from L1 to Logikal
+move r1 from Granthenninger to Gmh1

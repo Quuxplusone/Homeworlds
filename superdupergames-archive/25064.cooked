@@ -1,0 +1,18 @@
+Cdmoose (0, y3r1) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Cdmoose
+build g1 at Ts52
+move g1 from Cdmoose to Aqua (b2)
+move g1 from Ts52 to Grover (b3)
+pass
+build g1 at Ts52
+build g2 at Aqua
+build g2 at Grover
+convert g2 to r2 at Aqua
+convert g1 to r1 at Grover
+build g1 at Aqua
+build g2 at Grover
+convert g1 to y1 at Aqua
+convert g2 to y2 at Grover
+convert g1 to b1 at Aqua
+build g1 at Grover

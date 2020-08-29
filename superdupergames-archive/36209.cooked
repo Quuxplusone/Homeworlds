@@ -1,0 +1,63 @@
+Ajo (0, b3r2) g3-
+Speardane (1, y3b1) -g3
+build g1 at Ajo
+build g1 at Speardane
+convert g1 to y1 at Ajo
+convert g3 to r3 at Speardane
+build g1 at Ajo
+build g1 at Speardane
+build g2 at Ajo
+move g1 from Speardane to Delos (b2)
+move g1 from Ajo to Alpha (b1)
+build g2 at Delos
+sacrifice g3 at Ajo; build g2 at Ajo; build g3 at Ajo; build g3 at Alpha
+sacrifice g2 at Delos; build g2 at Speardane; build g3 at Delos
+move g2 from Ajo to Beta (y1)
+convert g3 to y3 at Delos
+build g3 at Beta
+convert g2 to b2 at Speardane
+convert g3 to y3 at Alpha
+build g2 at Delos
+build g3 at Alpha
+convert g2 to r2 at Delos
+convert g3 to r3 at Alpha
+build g2 at Delos
+sacrifice g3 at Ajo; build g3 at Ajo; build g3 at Alpha; build r1 at Alpha
+move g2 from Delos to Lebling (b1)
+sacrifice y3 at Alpha; move r3 from Alpha to Delos; move r3 from Delos to Lebling; move g2 from Ajo to Gamma (y1)
+sacrifice g2 at Lebling; build r1 at Delos; build g2 at Delos
+sacrifice g3 at Alpha; build g3 at Alpha; build y2 at Ajo; build y2 at Ajo
+move b2 from Speardane to Kotok (y2)
+sacrifice y1 at Ajo; move y2 from Ajo to Lebling
+sacrifice g2 at Delos; build b2 at Kotok; build b3 at Kotok
+sacrifice g2 at Beta; build y1 at Lebling; build y3 at Ajo
+convert b2 to g2 at Kotok
+move y1 from Lebling to Delta (b2)
+move b3 from Kotok to Gamma
+sacrifice g2 at Gamma; build r1 at Lebling; build g2 at Ajo
+move r2 from Delos to Gamma
+move g3 from Beta to Kotok
+move g2 from Kotok to Gamma
+sacrifice r1 at Lebling; capture b2 at Kotok
+build b3 at Gamma
+sacrifice g3 at Ajo; build g2 at Kotok; build g3 at Ajo; build y1 at Delta
+move b3 from Gamma to Delta
+sacrifice y2 at Ajo; move y1 from Delta to Speardane; move y1 from Delta to Speardane
+build y2 at Delos
+move y2 from Lebling to Epsilon (r2)
+sacrifice y2 at Delos; move b3 from Gamma to Epsilon; move b3 from Delta to Gamma
+sacrifice g3 at Ajo; build g3 at Ajo; build b2 at Kotok; build y2 at Speardane; catastrophe yellow at Speardane
+capture y2 at Epsilon
+sacrifice g3 at Ajo; build g3 at Ajo; build r1 at Lebling; build r3 at Alpha
+convert r3 to y3 at Speardane
+convert g2 to y2 at Kotok
+build g2 at Gamma
+sacrifice g3 at Ajo; build g3 at Ajo; build y1 at Ajo; build r3 at Lebling
+move r1 from Delos to Lebling; catastrophe red at Lebling
+convert g1 to b1 at Alpha
+move g2 from Gamma to Epsilon
+sacrifice y2 at Kotok; move b1 from Alpha to Waypoint (y2)
+sacrifice y3 at Delos; move y3 from Speardane to Ajo; move y2 from Epsilon to Speardane; move y2 from Speardane to Ajo; catastrophe yellow at Ajo
+convert g3 to y3 at Ajo
+pass
+sacrifice y3 at Ajo; move b2 from Kotok to Speardane; move b2 from Kotok to Speardane; move b1 from Waypoint to Speardane; catastrophe blue at Speardane

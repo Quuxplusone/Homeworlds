@@ -1,0 +1,69 @@
+Supergnouf (0, b3g1) y3-
+Captncavern (1, b3g2) -y3
+build y1 at Supergnouf
+build y1 at Captncavern
+move y1 from Supergnouf to Loki (g2)
+convert y1 to r1 at Captncavern
+build y1 at Supergnouf
+build r1 at Captncavern
+convert y1 to r1 at Supergnouf
+move r1 from Captncavern to Kaori (y1)
+build r2 at Supergnouf
+build r2 at Captncavern
+move r2 from Supergnouf to Loki
+convert r1 to g1 at Captncavern
+build r1 at Supergnouf
+move g1 from Captncavern to Kaori
+move r2 from Loki to Kaori
+build r2 at Kaori
+build r3 at Supergnouf
+build r3 at Captncavern
+move r3 from Supergnouf to Loki
+move g1 from Kaori to Kiiro (y2)
+capture r2 at Kaori
+move r1 from Kaori to Kiiro
+build r3 at Loki
+build g1 at Kiiro
+move r2 from Kaori to Kiiro
+move r3 from Captncavern to Kaori
+sacrifice r2 at Kaori; capture g1 at Kiiro; capture r1 at Kiiro
+move r3 from Kaori to Kiiro
+move r1 from Supergnouf to Kiiro; catastrophe red at Kiiro
+build y1 at Captncavern
+sacrifice r1 at Supergnouf; capture g1 at Kiiro
+build r1 at Captncavern
+move r3 from Loki to Fall (y1)
+move y1 from Captncavern to Alaide (b1)
+build y2 at Loki
+move y1 from Alaide to Coucou (b2)
+move g1 from Kiiro to Supergnouf
+move y1 from Coucou to Supergnouf
+build r1 at Loki
+build y2 at Supergnouf
+build y3 at Loki
+convert r2 to b2 at Captncavern
+sacrifice y2 at Loki; move r3 from Loki to Supergnouf; move g1 from Supergnouf to Omely (y2)
+sacrifice b2 at Captncavern; convert y2 to b2 at Supergnouf; convert y1 to b1 at Supergnouf
+sacrifice r3 at Supergnouf; capture b1 at Supergnouf; capture b2 at Supergnouf
+build r1 at Captncavern
+move g1 from Kiiro to Mer (y1)
+build y2 at Captncavern
+move r1 from Loki to Mer
+move r1 from Captncavern to Hop (b1)
+move y3 from Loki to Hop
+build r2 at Captncavern
+build r2 at Mer
+move r2 from Captncavern to Aie (b1)
+sacrifice r1 at Mer; capture r1 at Hop
+convert r2 to b2 at Aie
+move y1 from Loki to Mad (r1)
+sacrifice y2 at Captncavern; move b2 from Aie to Omely; move b2 from Omely to Supergnouf; catastrophe blue at Supergnouf
+sacrifice g1 at Omely; build y2 at Mad
+build r2 at Captncavern
+build y2 at Supergnouf
+move r1 from Captncavern to Supergnouf
+sacrifice y3 at Hop; move y1 from Mad to Captncavern; move y2 from Mad to Captncavern; move y2 from Supergnouf to Captncavern; catastrophe yellow at Captncavern
+build r1 at Captncavern
+move r3 from Fall to Captncavern
+convert r1 to y1 at Captncavern
+sacrifice r2 at Mer; capture r2 at Captncavern; capture y1 at Captncavern

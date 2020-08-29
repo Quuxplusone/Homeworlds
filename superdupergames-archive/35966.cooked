@@ -1,0 +1,44 @@
+Mantheron (0, r3b2) g3-
+Zweiterlinde (1, g2y3) -r3
+build g1 at Mantheron
+build r1 at Zweiterlinde
+convert g1 to y1 at Mantheron
+move r1 from Zweiterlinde to Ein (r1)
+build y1 at Mantheron
+build r1 at Zweiterlinde
+build g1 at Mantheron
+move r1 from Zweiterlinde to Polis (b1)
+convert y1 to b1 at Mantheron
+build r2 at Zweiterlinde
+build b1 at Mantheron
+move r2 from Zweiterlinde to Polis
+move b1 from Mantheron to Altair (g1)
+build r2 at Zweiterlinde
+build b2 at Mantheron
+convert r2 to b2 at Polis
+move b2 from Mantheron to Bellatrix (g1)
+move r2 from Zweiterlinde to Bellatrix
+build b3 at Altair
+capture b2 at Bellatrix
+convert b3 to r3 at Altair
+build b3 at Bellatrix
+build b3 at Altair
+convert b3 to y3 at Bellatrix
+convert b3 to y3 at Altair
+build b3 at Bellatrix
+move b1 from Mantheron to Bellatrix
+move b3 from Bellatrix to Zweiterlinde
+build g2 at Mantheron
+convert b2 to g2 at Polis
+move g2 from Mantheron to Ein
+move b3 from Zweiterlinde to Ein
+sacrifice g2 at Ein; build b2 at Altair; build r2 at Altair
+build g2 at Polis
+sacrifice g3 at Mantheron; build g3 at Mantheron; build y1 at Altair; build y1 at Altair
+sacrifice g2 at Polis; build g2 at Polis; build b3 at Ein
+build y2 at Mantheron
+sacrifice y3 at Bellatrix; move g2 from Polis to Mantheron; move g2 from Polis to Mantheron; move b3 from Ein to Mantheron; catastrophe green at Mantheron
+sacrifice y3 at Altair; move b1 from Altair to Mantheron; move b1 from Bellatrix to Mantheron; move r3 from Altair to Mantheron; catastrophe blue at Mantheron
+convert b3 to y3 at Ein
+build y2 at Altair
+sacrifice y3 at Ein; move r1 from Ein to Mantheron; move r1 from Polis to Mantheron; catastrophe red at Mantheron

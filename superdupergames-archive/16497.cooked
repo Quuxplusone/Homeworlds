@@ -1,0 +1,69 @@
+Goulo (0, b1g2) y3-
+Ts52 (1, b2y3) -g3
+build y1 at Goulo
+build g1 at Ts52
+build y1 at Goulo
+convert g1 to y1 at Ts52
+convert y1 to g1 at Goulo
+move y1 from Ts52 to Robin (g1)
+move y1 from Goulo to Smeraldo (g3)
+build g1 at Ts52
+build g2 at Goulo
+move y1 from Robin to Kermit (g3)
+convert g2 to r2 at Goulo
+convert g1 to r1 at Ts52
+build r1 at Goulo
+build g1 at Ts52
+move r2 from Goulo to Smeraldo
+move g1 from Ts52 to Grover (b1)
+build y1 at Smeraldo
+build y2 at Kermit
+build y2 at Goulo
+build g1 at Ts52
+move g1 from Goulo to Citrono (y3)
+move y2 from Kermit to Grover
+move y2 from Goulo to Kermit
+build y2 at Grover
+sacrifice g1 at Citrono; build y3 at Goulo
+build g1 at Grover
+build r1 at Goulo
+build r2 at Ts52
+sacrifice r1 at Goulo; capture y1 at Kermit
+sacrifice g3 at Ts52; build g2 at Grover; build g2 at Ts52; build g3 at Ts52
+move y2 from Kermit to Rubeno (r1)
+move r2 from Ts52 to Grover
+move y1 from Smeraldo to Mirtelo (b1)
+move g2 from Ts52 to Mirtelo
+move y1 from Mirtelo to Ts52
+capture y1 at Ts52
+sacrifice y3 at Goulo; move y1 from Smeraldo to Rubeno; move y1 from Rubeno to Ts52; move y2 from Rubeno to Ts52; catastrophe yellow at Ts52
+move r2 from Grover to Kermit
+move y1 from Kermit to Sangero (r1)
+move y2 from Grover to Kermit
+build r2 at Goulo
+sacrifice g3 at Ts52; build g3 at Ts52; build r3 at Ts52; build r3 at Kermit
+build r3 at Smeraldo
+build y1 at Grover
+move y1 from Sangero to Smeraldo
+convert r1 to y1 at Ts52
+move r3 from Smeraldo to Grover
+sacrifice y2 at Grover; move g2 from Grover to Bigbird (y3); move g1 from Grover to Bigbird
+capture y1 at Grover
+sacrifice g1 at Grover; build g1 at Bigbird
+move r3 from Grover to Bigbird
+sacrifice y2 at Kermit; move g2 from Bigbird to Goulo; move g1 from Bigbird to Goulo
+capture g1 at Bigbird
+sacrifice g1 at Ts52; build g1 at Goulo; catastrophe green at Goulo
+convert r2 to b2 at Goulo
+build y2 at Ts52
+move b2 from Goulo to Bigbird
+move r3 from Ts52 to Smeraldo
+sacrifice y1 at Smeraldo; move r2 from Smeraldo to Grover
+convert g2 to b2 at Mirtelo
+build b3 at Bigbird
+move y1 from Ts52 to Mirtelo
+move r3 from Bigbird to Mirtelo
+move b2 from Mirtelo to Zoe (y2)
+convert r3 to b3 at Mirtelo
+sacrifice y2 at Ts52; move r3 from Kermit to Goulo; move r3 from Smeraldo to Goulo
+sacrifice y3 at Goulo; move b3 from Mirtelo to Ts52; move b3 from Bigbird to Ts52; move b2 from Bigbird to Ts52; catastrophe blue at Ts52

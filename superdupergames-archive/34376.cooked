@@ -1,0 +1,41 @@
+Speardane (0, r3b2) g3-
+Eliscinsky (1, b3y2) -g3
+build g1 at Speardane
+build g1 at Eliscinsky
+convert g3 to y3 at Speardane
+convert g1 to r1 at Eliscinsky
+build g1 at Speardane
+build r1 at Eliscinsky
+move g1 from Speardane to Delos (b1)
+move r1 from Eliscinsky to Delos
+sacrifice g1 at Delos; build g1 at Speardane
+build g1 at Eliscinsky
+move g1 from Speardane to Lebling (b1)
+convert g1 to y1 at Eliscinsky
+build g1 at Lebling
+sacrifice g3 at Eliscinsky; build r1 at Delos; build r2 at Delos; build r2 at Eliscinsky
+convert g1 to y1 at Lebling
+convert r1 to g1 at Eliscinsky
+build g2 at Speardane
+build g2 at Eliscinsky
+build g2 at Speardane
+move g2 from Eliscinsky to Delos
+move g1 from Speardane to Kotok (b1)
+convert r1 to y1 at Delos
+sacrifice g2 at Speardane; build y2 at Speardane; build g2 at Kotok
+build g3 at Delos
+sacrifice g2 at Kotok; build g2 at Lebling; build g3 at Kotok
+sacrifice g3 at Delos; build r1 at Delos; build y2 at Delos; build g3 at Delos
+sacrifice y2 at Speardane; move g1 from Lebling to Minsky (b2); move g3 from Kotok to Eliscinsky
+sacrifice g3 at Delos; build r1 at Eliscinsky; build r2 at Eliscinsky; build g3 at Delos
+build g3 at Kotok
+sacrifice y2 at Delos; move r2 from Delos to Speardane; move r1 from Delos to Speardane
+convert g3 to r3 at Kotok
+move r1 from Delos to Speardane; catastrophe red at Speardane
+sacrifice r3 at Kotok; capture r2 at Eliscinsky; capture r2 at Eliscinsky; capture g1 at Eliscinsky
+sacrifice g3 at Delos; build g3 at Delos; build y2 at Delos; build r1 at Eliscinsky; catastrophe red at Eliscinsky
+convert g3 to r3 at Eliscinsky
+sacrifice y2 at Delos; move g2 from Delos to Eliscinsky; move g3 from Delos to Eliscinsky
+sacrifice g2 at Lebling; build g2 at Eliscinsky; build g3 at Kotok; catastrophe green at Eliscinsky
+convert y1 to g1 at Eliscinsky
+capture g1 at Eliscinsky

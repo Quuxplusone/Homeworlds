@@ -1,0 +1,62 @@
+Capi3101 (0, b2r3) g3-
+Dlwillson (1, r3b1) -g3
+build g1 at Capi3101
+build g1 at Dlwillson
+convert g1 to y1 at Capi3101
+convert g1 to y1 at Dlwillson
+build g1 at Capi3101
+build g1 at Dlwillson
+move g1 from Capi3101 to Aleph (b1)
+convert g1 to b1 at Dlwillson
+build g1 at Aleph
+build b2 at Dlwillson
+convert g1 to r1 at Aleph
+convert b1 to r1 at Dlwillson
+build g1 at Aleph
+move b2 from Dlwillson to Golden (y2)
+convert g1 to y1 at Aleph
+move b2 from Golden to Aleph
+build y2 at Capi3101
+sacrifice r1 at Dlwillson; capture r1 at Aleph
+sacrifice y2 at Capi3101; move y1 from Aleph to Bet (y2); move g1 from Aleph to Gimel (b2)
+build y2 at Dlwillson
+sacrifice g3 at Capi3101; build y2 at Bet; build y3 at Capi3101; build y3 at Capi3101
+move y1 from Dlwillson to Bet; catastrophe yellow at Bet
+convert y3 to r3 at Capi3101
+convert b2 to g2 at Aleph
+move r3 from Capi3101 to Aleph
+sacrifice g2 at Aleph; build r1 at Aleph; build g1 at Dlwillson
+sacrifice y1 at Capi3101; move r3 from Aleph to Gimel
+convert r1 to g1 at Aleph
+convert y3 to g3 at Capi3101
+build g2 at Aleph
+build g2 at Gimel
+build g2 at Aleph
+convert g2 to y2 at Gimel
+convert g2 to y2 at Aleph
+build g2 at Gimel
+move g1 from Dlwillson to Sea (b2)
+move g1 from Gimel to Aleph
+sacrifice y2 at Aleph; move g1 from Aleph to Capi3101; move g2 from Aleph to Capi3101
+convert g3 to y3 at Capi3101
+capture g1 at Aleph
+capture g2 at Capi3101
+sacrifice g1 at Capi3101; build g1 at Dlwillson
+build r1 at Gimel
+build y1 at Dlwillson
+move r3 from Gimel to Aleph
+build r1 at Aleph
+convert r3 to b3 at Aleph
+convert y1 to b1 at Dlwillson
+sacrifice g2 at Capi3101; build g2 at Gimel; build b3 at Aleph
+sacrifice g3 at Dlwillson; build g2 at Aleph; build g3 at Sea; build g3 at Dlwillson
+convert g2 to y2 at Gimel
+sacrifice g3 at Dlwillson; build g2 at Sea; build g3 at Aleph; build g3 at Dlwillson
+move g2 from Gimel to Aleph; catastrophe green at Aleph
+sacrifice y2 at Dlwillson; move b1 from Dlwillson to Sea; move b1 from Sea to Aleph; catastrophe blue at Aleph
+convert y3 to g3 at Capi3101
+convert g3 to y3 at Dlwillson
+build g1 at Capi3101
+convert g2 to y2 at Sea
+convert y2 to g2 at Gimel
+sacrifice y2 at Sea; move g3 from Sea to Sky (b1); move g3 from Sky to Capi3101

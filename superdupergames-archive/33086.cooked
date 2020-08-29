@@ -1,0 +1,44 @@
+Babamots (0, b2y1) g3-
+Mneme (1, g3b1) -y3
+build g1 at Babamots
+build y1 at Mneme
+convert g1 to y1 at Babamots
+build y2 at Mneme
+move y1 from Babamots to Gaia (g3)
+move y1 from Mneme to Flavor (g2)
+build y2 at Gaia
+convert y2 to g2 at Mneme
+build g1 at Babamots
+build y2 at Flavor
+convert g1 to r1 at Babamots
+move y1 from Flavor to Touch (b3)
+move y2 from Gaia to Flavor
+move y2 from Flavor to Waystation (y3)
+move y2 from Flavor to Mneme
+sacrifice g2 at Mneme; build y2 at Waystation; build y3 at Touch
+move y1 from Gaia to Pakled (b2)
+convert y1 to g1 at Touch
+move y1 from Pakled to Waystation; catastrophe yellow at Waystation
+convert y3 to r3 at Mneme
+move y2 from Mneme to Vulcan (g2)
+build y1 at Touch
+build g1 at Babamots
+build g1 at Touch
+move g1 from Babamots to Touch
+move g1 from Touch to Scent (y2)
+sacrifice r1 at Babamots; capture y1 at Touch
+build r1 at Mneme
+convert g3 to r3 at Babamots
+sacrifice r1 at Mneme; capture y1 at Touch
+move y2 from Vulcan to Romulus (b3)
+convert y3 to r3 at Touch
+convert y2 to g2 at Romulus
+capture g1 at Touch
+build g2 at Romulus
+build g2 at Touch
+convert g2 to y2 at Romulus
+convert g2 to y2 at Touch
+build g2 at Romulus
+build g2 at Touch
+move g2 from Romulus to Kesprytt (b2)
+sacrifice g2 at Touch; build r1 at Touch; build r1 at Touch

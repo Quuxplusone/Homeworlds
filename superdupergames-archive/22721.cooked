@@ -1,0 +1,73 @@
+Twoshort (0, r1b2) g3-
+Dlwillson (1, b2r3) -g3
+build g1 at Twoshort
+build g1 at Dlwillson
+convert g1 to r1 at Twoshort
+convert g1 to r1 at Dlwillson
+build r2 at Twoshort
+build r2 at Dlwillson
+convert r2 to y2 at Twoshort
+convert r2 to y2 at Dlwillson
+build r2 at Twoshort
+build r2 at Dlwillson
+convert r2 to g2 at Twoshort
+convert r2 to g2 at Dlwillson
+build r2 at Twoshort
+build r2 at Dlwillson
+move r1 from Twoshort to Yolonda (y3)
+move r1 from Dlwillson to Field (g1)
+move g2 from Twoshort to Rover (r3)
+convert r2 to b2 at Dlwillson
+build g1 at Twoshort
+build b1 at Dlwillson
+move g1 from Twoshort to Yolonda
+build r2 at Field
+move r2 from Twoshort to Bluestar (b3)
+move b1 from Dlwillson to Field
+sacrifice g2 at Rover; build r2 at Yolonda; build r3 at Bluestar
+sacrifice g2 at Dlwillson; build b1 at Dlwillson; build b1 at Field
+move r2 from Yolonda to Field
+sacrifice r1 at Field; capture r2 at Field
+convert r3 to g3 at Bluestar
+convert r2 to y2 at Field
+sacrifice g3 at Bluestar; build r1 at Bluestar; build r2 at Bluestar; build r3 at Yolonda
+build b3 at Field
+convert r2 to g2 at Bluestar
+build r2 at Field
+build g1 at Yolonda
+sacrifice y2 at Field; move b1 from Field to Forest (g3); move r2 from Field to Forest
+sacrifice g2 at Bluestar; build g2 at Twoshort; build g2 at Yolonda
+convert b3 to y3 at Field
+move g2 from Yolonda to Field
+sacrifice y3 at Field; move r2 from Field to Nugget (y2); move b2 from Dlwillson to Eagle (y1); move b1 from Field to Sovereign (y3)
+sacrifice y2 at Twoshort; move r3 from Yolonda to Nugget; move g2 from Twoshort to Rover (r3)
+build g2 at Dlwillson
+convert r2 to y2 at Bluestar
+sacrifice g3 at Dlwillson; build b3 at Eagle; build b3 at Sovereign; build g3 at Dlwillson
+sacrifice g2 at Rover; build r2 at Yolonda; build r3 at Bluestar
+sacrifice b2 at Eagle; convert g3 to y3 at Dlwillson; convert b3 to g3 at Sovereign
+capture r2 at Nugget
+sacrifice g2 at Dlwillson; build b2 at Forest; build b3 at Forest
+build g2 at Twoshort
+move b3 from Eagle to Yolonda
+move r2 from Yolonda to Yaz (y1)
+sacrifice b3 at Yolonda; convert y2 to g2 at Dlwillson; convert b2 to y2 at Forest
+move r3 from Bluestar to Twoshort
+sacrifice g3 at Sovereign; build b2 at Sovereign; build b3 at Sovereign; build g3 at Dlwillson
+sacrifice g3 at Twoshort; build y1 at Bluestar; build y1 at Bluestar; build g3 at Twoshort
+sacrifice y2 at Forest; move b1 from Forest to Twoshort; move b1 from Sovereign to Twoshort
+move y1 from Bluestar to Twoshort
+build y2 at Dlwillson
+move g1 from Yolonda to Yaz
+move g2 from Dlwillson to Field
+move r1 from Yolonda to Yaz
+sacrifice y2 at Dlwillson; move b2 from Sovereign to Twoshort; move g3 from Dlwillson to Yaz; catastrophe blue at Twoshort
+move r2 from Yaz to Yelly (y2)
+move b3 from Sovereign to Yelly
+move r2 from Yelly to Yellonia (y3)
+move g3 from Yaz to Yolonda
+move g1 from Yaz to Forest
+capture g1 at Forest
+move g2 from Twoshort to Forest
+capture g2 at Forest
+sacrifice y2 at Bluestar; move g2 from Field to Forest; move r2 from Yellonia to Field; catastrophe green at Forest

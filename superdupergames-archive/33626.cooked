@@ -1,0 +1,40 @@
+Trydnt (0, b2y1) g3-
+Wil (1, y3b1) -g3
+build g1 at Trydnt
+build g1 at Wil
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Wil
+build b2 at Trydnt
+build b2 at Wil
+move b1 from Trydnt to G3 (g3)
+convert b2 to y2 at Wil
+convert b2 to y2 at Trydnt
+build y1 at Wil
+build b2 at G3
+move b1 from Wil to G2 (g2)
+convert b1 to y1 at G3
+move y1 from Wil to G2
+build g1 at Trydnt
+move y2 from Wil to Gtoo (g2)
+build y2 at G3
+build y3 at G2
+move y1 from G3 to Gtoo
+build y3 at Gtoo
+move y2 from G3 to Gtoo; catastrophe yellow at Gtoo
+convert y1 to r1 at G2
+convert g1 to r1 at Trydnt
+move y3 from G2 to G3
+build b1 at G3
+build b2 at G2
+move y2 from Trydnt to B3 (b3)
+build b3 at G2
+sacrifice y2 at B3; move b1 from G3 to G22 (g2); move b2 from G3 to G222 (g2)
+convert b1 to y1 at G2
+build g1 at Trydnt
+build g1 at Wil
+convert b2 to y2 at G222
+move b2 from G2 to G3
+build b1 at G22
+sacrifice g3 at Wil; build g1 at Wil; build g3 at Wil; build b2 at G3
+move g1 from Trydnt to B3 (b3)
+move g1 from Wil to Y2 (y2)

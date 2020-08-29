@@ -1,0 +1,13 @@
+Twoshort (0, r1b3) g3-
+Shmil1 (1, b3g1) -r3
+build g1 at Twoshort
+build r1 at Shmil1
+convert g1 to y1 at Twoshort
+convert r1 to y1 at Shmil1
+build g1 at Twoshort
+move y1 from Shmil1 to Shmil2 (g2)
+build g1 at Twoshort
+convert r3 to g3 at Shmil1
+move g1 from Twoshort to Threat (y2)
+build g2 at Shmil1
+move g1 from Threat to Shmil1; catastrophe green at Shmil1

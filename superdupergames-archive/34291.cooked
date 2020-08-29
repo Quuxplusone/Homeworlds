@@ -1,0 +1,56 @@
+Dodobirb (0, r1b2) g3-
+Babamots (1, g3y1) -b3
+build g1 at Dodobirb
+build b1 at Babamots
+convert g1 to y1 at Dodobirb
+convert b1 to y1 at Babamots
+build y2 at Dodobirb
+build y2 at Babamots
+move y1 from Dodobirb to Green (g3)
+move y1 from Babamots to Bajor (g2)
+build g1 at Dodobirb
+build b1 at Babamots
+convert g1 to b1 at Dodobirb
+move b1 from Babamots to Bajor
+move b1 from Dodobirb to Green
+build y2 at Bajor
+build y3 at Green
+convert y1 to r1 at Bajor
+convert y1 to r1 at Green
+build b1 at Bajor
+move y3 from Green to Bajor
+convert b1 to y1 at Bajor
+move y3 from Bajor to Green
+build r2 at Bajor
+build r2 at Green
+build b1 at Bajor
+build b2 at Green
+move b1 from Bajor to Cardassia (g1)
+move b1 from Green to Littlegreen (g1)
+build b2 at Bajor
+build b3 at Littlegreen
+build b3 at Cardassia
+build y1 at Green
+sacrifice y2 at Babamots; move y2 from Bajor to Green; move y1 from Bajor to Green; catastrophe yellow at Green
+build y1 at Dodobirb
+convert b2 to y2 at Bajor
+move y1 from Dodobirb to Green
+build b2 at Bajor
+sacrifice g3 at Dodobirb; build y1 at Green; build y2 at Dodobirb; build y3 at Dodobirb
+build y3 at Bajor
+sacrifice y2 at Dodobirb; move y2 from Dodobirb to Green; move y2 from Green to Littlegreen
+sacrifice b1 at Bajor; convert b3 to y3 at Cardassia
+build y2 at Littlegreen
+convert y3 to g3 at Bajor
+convert y2 to g2 at Littlegreen
+move b1 from Cardassia to Iconia (y3)
+move g2 from Littlegreen to Iconia
+sacrifice g3 at Bajor; build b1 at Bajor; build y2 at Bajor; build b3 at Iconia
+move g2 from Iconia to Dodobirb
+move r2 from Bajor to Iconia
+convert b3 to r3 at Littlegreen
+build r2 at Bajor
+build b3 at Littlegreen
+sacrifice y3 at Cardassia; move b1 from Bajor to Iconia; move b1 from Iconia to Dodobirb; move b3 from Iconia to Dodobirb
+build y3 at Littlegreen
+sacrifice r2 at Bajor; capture g2 at Dodobirb; capture y3 at Dodobirb

@@ -1,0 +1,14 @@
+Scottobear (0, g3b2) y3-
+Patwillis (1, r1b2) -g3
+build y1 at Scottobear
+build g1 at Patwillis
+move y1 from Scottobear to Fria (b1)
+convert g1 to y1 at Patwillis
+convert y1 to g1 at Fria
+build y1 at Patwillis
+build g1 at Fria
+move y1 from Patwillis to Greenland (g3)
+convert g1 to y1 at Fria
+build y2 at Greenland
+build y2 at Fria
+build g1 at Patwillis

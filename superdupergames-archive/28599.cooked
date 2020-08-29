@@ -1,0 +1,62 @@
+Fogus (0, b1y2) g3-
+Kanzenryu (1, y1g3) -b3
+build g1 at Fogus
+build b1 at Kanzenryu
+build g1 at Fogus
+build b1 at Kanzenryu
+convert g3 to b3 at Fogus
+convert b1 to g1 at Kanzenryu
+build g2 at Fogus
+build g2 at Kanzenryu
+move g1 from Fogus to Fripp (y3)
+move g1 from Kanzenryu to Out (y2)
+convert g2 to y2 at Fogus
+build g2 at Out
+build g2 at Fogus
+move g1 from Out to Nearly (y3)
+build g3 at Fripp
+build g3 at Nearly
+move g1 from Fripp to Out
+convert b1 to r1 at Kanzenryu
+build b1 at Fogus
+sacrifice g3 at Nearly; build g3 at Nearly; build r1 at Kanzenryu; build b1 at Kanzenryu
+move g1 from Out to Fripp
+sacrifice g3 at Nearly; build g3 at Nearly; build r1 at Kanzenryu; build b2 at Kanzenryu
+convert g2 to r2 at Fogus
+convert b3 to y3 at Kanzenryu
+move b1 from Fogus to Fripp
+sacrifice b1 at Kanzenryu; convert g3 to b3 at Nearly
+sacrifice g3 at Fripp; build g2 at Fogus; build g3 at Fripp; build r2 at Fogus
+build g3 at Nearly
+move r2 from Fogus to Fripp
+move r1 from Kanzenryu to Out
+move r2 from Fripp to Eno (y1)
+sacrifice g3 at Nearly; build g3 at Nearly; build y1 at Kanzenryu; build b1 at Nearly
+sacrifice g3 at Fripp; build r2 at Fogus; build r3 at Eno; build g3 at Fripp
+sacrifice g3 at Nearly; build g3 at Nearly; build b2 at Nearly; build r3 at Out
+convert b3 to r3 at Fogus
+move r1 from Out to Nearly
+move r2 from Fogus to Fripp
+move y1 from Kanzenryu to Out
+move b1 from Fripp to Fogus
+move b1 from Nearly to Fogus
+move b1 from Fogus to Fripp
+move b2 from Nearly to Fogus
+sacrifice g3 at Fripp; build g3 at Fripp; build b2 at Fripp; build b3 at Fripp
+sacrifice g2 at Kanzenryu; build g2 at Out; build b3 at Fogus; catastrophe blue at Fogus
+move b3 from Fripp to Zakir (b2)
+move y1 from Out to Nearly
+move y2 from Fogus to Fripp
+move r3 from Out to Nearly
+move r2 from Fogus to Nearly
+move g3 from Nearly to Fogus
+capture g3 at Fogus
+move g1 from Nearly to Fogus; catastrophe green at Fogus
+move g3 from Fripp to Fogus
+capture r2 at Nearly
+move r2 from Eno to Nearly; catastrophe red at Nearly
+convert b3 to r3 at Nearly
+sacrifice y2 at Fripp; move r3 from Eno to Nearly; move b3 from Zakir to Nearly
+move y1 from Nearly to Side (g1)
+capture r3 at Nearly
+sacrifice g2 at Out; build y1 at Side; build y2 at Side

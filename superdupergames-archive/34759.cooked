@@ -1,0 +1,65 @@
+Trydnt (0, y3b2) g3-
+Babamots (1, r2b1) -g3
+build g1 at Trydnt
+build g1 at Babamots
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Babamots
+build b2 at Trydnt
+build b2 at Babamots
+move b2 from Trydnt to G1 (g1)
+convert b1 to y1 at Babamots
+sacrifice g3 at Trydnt; build b1 at G1; build b3 at G1; build b3 at Trydnt
+build b3 at Babamots
+convert b2 to y2 at G1
+move b3 from Babamots to Risa (g3)
+convert b3 to g3 at Trydnt
+build g1 at Babamots
+build y1 at G1
+build y1 at Babamots
+build y2 at G1
+move y1 from Babamots to Risa
+convert y1 to r1 at G1
+convert g1 to r1 at Babamots
+build r1 at G1
+move r1 from Babamots to Risa
+move y2 from G1 to B3 (b3)
+build b2 at Risa
+convert b3 to y3 at G1
+move y1 from Babamots to Bolarus (b3)
+convert y2 to g2 at B3
+build r2 at Risa
+build g1 at B3
+convert r2 to y2 at Risa
+move y2 from G1 to Bolarus
+move y1 from Bolarus to Babamots
+build y1 at G1
+move y1 from Risa to G1
+move y1 from G1 to Y3 (y3)
+build y2 at Babamots
+capture y1 at G1
+build r2 at Risa
+move y2 from Bolarus to G2 (g2)
+move y1 from Babamots to Andoria (b3)
+build g1 at Trydnt
+build g2 at Babamots
+sacrifice y2 at G2; move g1 from B3 to Babamots; move g2 from B3 to Babamots; catastrophe green at Babamots
+convert b2 to g2 at Babamots
+build b2 at G1
+move b3 from Risa to Babamots
+move b2 from G1 to G3 (g3)
+build b3 at Risa
+move r1 from G1 to R3 (r3)
+build y2 at Babamots
+build r2 at G1
+convert r1 to g1 at Risa
+move g1 from Trydnt to G1
+move g1 from Risa to G1
+sacrifice y3 at G1; move b2 from G3 to Babamots; move b1 from G1 to Andoria; move b1 from Andoria to Babamots; catastrophe blue at Babamots
+build y3 at Risa
+sacrifice y1 at Y3; move r2 from G1 to Babamots
+capture r2 at Babamots
+move r1 from G1 to Babamots
+sacrifice r2 at Babamots; capture r1 at Babamots; capture y1 at G1
+build g2 at Trydnt
+sacrifice y3 at Risa; move g1 from G1 to Trydnt; move g2 from Babamots to G1; move g2 from G1 to Trydnt; catastrophe green at Trydnt
+convert b1 to g1 at Trydnt

@@ -1,0 +1,69 @@
+Trydnt (0, b2y1) g3-
+Eliscinsky (1, r2b3) -g3
+build g1 at Trydnt
+build g1 at Eliscinsky
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Eliscinsky
+build y2 at Trydnt
+build y2 at Eliscinsky
+move y1 from Trydnt to G3 (g3)
+build y2 at Eliscinsky
+build y3 at G3
+move y1 from Eliscinsky to Alpha (g1)
+convert y2 to r2 at Trydnt
+build y2 at Alpha
+move y1 from G3 to G1 (g1)
+move y2 from Alpha to Beta (b3)
+build y3 at G1
+build y3 at Alpha
+move y1 from G1 to B3 (b3)
+move y1 from Alpha to Beta
+move r2 from Trydnt to Beta
+sacrifice y3 at Alpha; move y2 from Beta to Trydnt; move y1 from Beta to Trydnt; move y2 from Eliscinsky to G1
+sacrifice r2 at Beta; capture y2 at Trydnt; capture y2 at G1
+build y3 at Eliscinsky
+sacrifice y3 at G1; move y1 from B3 to G1; move y1 from G1 to Eliscinsky; move y2 from G1 to Eliscinsky; catastrophe yellow at Eliscinsky
+build g1 at Eliscinsky
+convert y2 to r2 at Trydnt
+build g1 at Eliscinsky
+capture y1 at Trydnt
+convert g1 to y1 at Eliscinsky
+build y2 at G3
+build y2 at Eliscinsky
+move y2 from G3 to B1 (b1)
+convert y2 to r2 at Eliscinsky
+build y2 at G3
+move r2 from Eliscinsky to B1
+sacrifice r2 at Trydnt; capture r2 at B1
+convert g1 to r1 at Eliscinsky
+convert y1 to b1 at Trydnt
+move r1 from Eliscinsky to Alpha (g1)
+build b1 at Trydnt
+build y1 at Eliscinsky
+build g1 at Trydnt
+move y1 from Eliscinsky to Beta (g1)
+move y2 from G3 to Alpha
+move y1 from Beta to G3
+sacrifice r2 at B1; capture r1 at Alpha; capture y1 at G3
+build y2 at Eliscinsky
+build y3 at Alpha
+convert y2 to b2 at Eliscinsky
+move b1 from Trydnt to G3
+build g1 at Eliscinsky
+build r1 at Alpha
+build y2 at Eliscinsky
+sacrifice g1 at Trydnt; build y3 at B1
+move y1 from Eliscinsky to B1
+move y2 from B1 to B3 (b3)
+move y1 from B1 to Eliscinsky
+move b1 from G3 to Alpha
+move b2 from Eliscinsky to Beta (g1)
+move y3 from G3 to Beta
+build b2 at Beta
+build b3 at Alpha
+move g1 from Eliscinsky to Beta
+build r1 at Alpha
+convert b2 to r2 at Beta
+sacrifice y3 at B1; move r1 from Alpha to Eliscinsky; move r1 from Alpha to Eliscinsky; move r1 from Alpha to Eliscinsky; catastrophe red at Eliscinsky
+convert y1 to b1 at Eliscinsky
+sacrifice y2 at B3; move b1 from Alpha to Eliscinsky; move b3 from Alpha to Eliscinsky; catastrophe blue at Eliscinsky

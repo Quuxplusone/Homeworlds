@@ -1,0 +1,50 @@
+Eliscinsky (0, r1b3) g3-
+Draw5Playall (1, b1r2) -g3
+build g1 at Eliscinsky
+build g1 at Draw5Playall
+convert g1 to b1 at Eliscinsky
+convert g1 to b1 at Draw5Playall
+build b2 at Eliscinsky
+build b2 at Draw5Playall
+convert b2 to y2 at Eliscinsky
+convert b2 to y2 at Draw5Playall
+build b2 at Eliscinsky
+build b2 at Draw5Playall
+convert b2 to r2 at Eliscinsky
+convert b2 to r2 at Draw5Playall
+build b2 at Eliscinsky
+build b2 at Draw5Playall
+convert b2 to g2 at Eliscinsky
+move b2 from Draw5Playall to Lime (g3)
+move r2 from Eliscinsky to Sprout (g2)
+move r2 from Draw5Playall to Lime
+move g2 from Eliscinsky to Sprout
+build g1 at Draw5Playall
+move b1 from Eliscinsky to Sprout
+build y1 at Draw5Playall
+build b2 at Sprout
+move y1 from Draw5Playall to Lime
+convert b1 to y1 at Sprout
+build r1 at Lime
+build b1 at Sprout
+move r1 from Lime to Sky (b2)
+build g1 at Eliscinsky
+build b3 at Lime
+move b2 from Sprout to Sol (y3)
+move g1 from Draw5Playall to Water (b3)
+move g2 from Sprout to Sol
+move b1 from Draw5Playall to Lemon (y3)
+move r2 from Sprout to Water
+move r2 from Lime to Sprout
+sacrifice g3 at Eliscinsky; build g1 at Sol; build g2 at Sol; build g3 at Eliscinsky
+capture y1 at Sprout
+convert g2 to y2 at Sol
+sacrifice g1 at Water; build y1 at Lime
+sacrifice g3 at Eliscinsky; build g1 at Sol; build g2 at Eliscinsky; build g3 at Eliscinsky
+build y3 at Draw5Playall
+convert g1 to r1 at Sol
+convert r1 to g1 at Sky
+move y2 from Sol to Sky
+sacrifice y3 at Draw5Playall; move g1 from Sky to Eliscinsky; move b3 from Lime to Sky; move b3 from Sky to Eliscinsky; catastrophe green at Eliscinsky
+sacrifice g2 at Sol; build y3 at Eliscinsky; build r1 at Sol
+sacrifice r2 at Sprout; capture y3 at Eliscinsky; capture y2 at Eliscinsky

@@ -1,0 +1,45 @@
+Layana (0, b2) g3-
+Abraxas (1, r2b1) -g3
+build g1 at Layana
+build g1 at Abraxas
+convert g1 to y1 at Layana
+build g1 at Abraxas
+build y1 at Layana
+convert g1 to r1 at Abraxas
+build y1 at Layana
+build g1 at Abraxas
+move y1 from Layana to Andoria (g1)
+convert g1 to b1 at Abraxas
+build y2 at Andoria
+convert g3 to y3 at Abraxas
+convert y1 to b1 at Layana
+build r1 at Abraxas
+convert y1 to r1 at Layana
+move r1 from Abraxas to Myst (b3)
+build r2 at Layana
+build y1 at Abraxas
+convert r1 to y1 at Layana
+move y1 from Abraxas to Myst
+move r2 from Layana to Myst
+move r1 from Myst to Layana
+build y2 at Layana
+build y2 at Abraxas
+move y1 from Layana to Riven (g3)
+move b1 from Abraxas to Riven
+move b1 from Layana to Edanna (g3)
+build b2 at Riven
+build y3 at Riven
+build g1 at Abraxas
+build y3 at Layana
+move g1 from Abraxas to Edanna
+sacrifice r2 at Myst; capture b2 at Riven; capture b1 at Riven
+build r1 at Abraxas
+convert y2 to r2 at Layana
+move r1 from Abraxas to Edanna
+move r2 from Layana to Edanna
+move y1 from Myst to Andoria
+capture r1 at Edanna
+sacrifice g1 at Edanna; build y2 at Andoria; catastrophe yellow at Andoria
+sacrifice y3 at Layana; move r1 from Edanna to Abraxas; move r2 from Edanna to Abraxas; move b1 from Edanna to Abraxas; catastrophe red at Abraxas
+pass
+sacrifice y3 at Riven; move b1 from Riven to Abraxas; move b2 from Riven to Abraxas; catastrophe blue at Abraxas

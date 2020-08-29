@@ -1,0 +1,41 @@
+Felix (0, b3y2) g3-
+Alexcobo (1, b3y2) -g3
+build g1 at Felix
+build g1 at Alexcobo
+convert g1 to y1 at Felix
+build g1 at Alexcobo
+build y1 at Felix
+move g1 from Alexcobo to Blueone (b1)
+move y1 from Felix to Cephas (g1)
+build g2 at Blueone
+build y1 at Felix
+convert g2 to y2 at Blueone
+convert y1 to b1 at Felix
+build g2 at Blueone
+build b1 at Felix
+move g2 from Blueone to R2 (r2)
+move b1 from Felix to Cephas
+build g2 at Blueone
+build b2 at Cephas
+sacrifice g3 at Alexcobo; build g2 at Alexcobo; build g3 at R2; build g3 at Alexcobo
+move b1 from Cephas to Ingot (y3)
+convert g1 to r1 at Alexcobo
+convert y1 to r1 at Felix
+build y1 at Blueone
+sacrifice g3 at Felix; build b2 at Cephas; build b2 at Ingot; build b3 at Felix
+sacrifice g3 at R2; build g1 at R2; build g3 at R2; build g3 at Blueone
+convert b2 to r2 at Cephas
+convert g2 to b2 at Blueone
+sacrifice b1 at Felix; convert b2 to g2 at Ingot
+sacrifice y1 at Blueone; move g3 from R2 to Ingot
+move b1 from Ingot to Blueone
+convert g1 to y1 at Blueone
+sacrifice g2 at Ingot; build b1 at Blueone; build b2 at Cephas; catastrophe blue at Blueone
+sacrifice g3 at Alexcobo; build g1 at R2; build g2 at Ingot; build g3 at Alexcobo
+convert b3 to g3 at Felix
+convert g2 to b2 at Alexcobo
+build g2 at Felix
+sacrifice b2 at Alexcobo; convert g2 to y2 at Ingot; convert g1 to y1 at R2
+move g2 from Felix to Rathe (b1)
+sacrifice g2 at R2; build y1 at Ingot; build y3 at R2
+build y3 at Cephas

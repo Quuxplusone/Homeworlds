@@ -1,0 +1,20 @@
+Zeder (0, g3b1) y3-
+Simon (1, b2r1) -g3
+build y1 at Zeder
+build g1 at Simon
+convert y1 to g1 at Zeder
+convert g1 to b1 at Simon
+convert y3 to b3 at Zeder
+build g1 at Simon
+convert g1 to y1 at Zeder
+convert g1 to y1 at Simon
+build y1 at Zeder
+build y2 at Simon
+build y2 at Zeder
+move y2 from Simon to G3 (g3)
+convert y1 to g1 at Zeder
+move b1 from Simon to G3
+move y1 from Zeder to Aaa (g2)
+build g1 at Simon
+convert g1 to r1 at Zeder
+build b1 at G3

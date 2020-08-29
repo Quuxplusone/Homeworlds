@@ -1,0 +1,30 @@
+Game_Lover (0, y3g1) b3-
+Jesse (1, b3r2) -g3
+build b1 at Game_Lover
+build g1 at Jesse
+convert b1 to g1 at Game_Lover
+build g2 at Jesse
+move g1 from Game_Lover to Origins (y2)
+convert g2 to y2 at Jesse
+build b1 at Game_Lover
+build g2 at Jesse
+move b1 from Game_Lover to Origins
+move g2 from Jesse to Katamari (y1)
+convert b1 to r1 at Origins
+build g2 at Jesse
+build r1 at Origins
+move g2 from Jesse to N_ (b1)
+build g2 at Origins
+build g3 at N_
+build g3 at Origins
+move g2 from Katamari to Origins; catastrophe green at Origins
+build b1 at Game_Lover
+build g1 at N_
+convert b3 to g3 at Game_Lover
+convert g2 to r2 at N_
+convert g3 to r3 at Game_Lover
+build r1 at N_
+convert r3 to b3 at Game_Lover
+build g2 at N_
+move b3 from Game_Lover to Origins
+sacrifice y2 at Jesse; move g3 from N_ to Origins; move g3 from Origins to Game_Lover

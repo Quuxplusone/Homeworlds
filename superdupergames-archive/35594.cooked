@@ -1,0 +1,43 @@
+Babamots (0, b2r1) g3-
+Nycavri (1, y1b2) -g3
+build g1 at Babamots
+build g1 at Nycavri
+convert g1 to y1 at Babamots
+convert g1 to r1 at Nycavri
+build y1 at Babamots
+build g1 at Nycavri
+build y2 at Babamots
+convert g3 to y3 at Nycavri
+move y2 from Babamots to Orion (g3)
+build g1 at Nycavri
+build y2 at Babamots
+convert g1 to b1 at Nycavri
+build y2 at Orion
+convert y3 to g3 at Nycavri
+move y2 from Babamots to Romulus (r3)
+move g1 from Nycavri to Deacon (y3)
+build y3 at Babamots
+build r1 at Nycavri
+convert y3 to r3 at Babamots
+move r1 from Nycavri to Deacon
+build y3 at Babamots
+move b1 from Nycavri to May (y3)
+convert y3 to b3 at Babamots
+build r2 at Deacon
+move b3 from Babamots to Deacon
+move r2 from Deacon to Babamots
+sacrifice r3 at Babamots; capture r2 at Babamots; capture r1 at Deacon; capture g1 at Deacon
+build r2 at Nycavri
+build y3 at Orion
+move r2 from Nycavri to May
+build b1 at Deacon
+build g1 at Nycavri
+build b1 at Deacon
+move g1 from Nycavri to May
+move y1 from Babamots to Kronos (r3)
+build r2 at May
+move b3 from Deacon to Nycavri
+capture b3 at Nycavri
+sacrifice y2 at Orion; move b1 from Deacon to Nycavri; move b1 from Deacon to Nycavri; catastrophe blue at Nycavri
+convert r2 to y2 at May
+sacrifice y3 at Orion; move y2 from Orion to Nycavri; move y2 from Romulus to Nycavri; move y1 from Kronos to Nycavri; catastrophe yellow at Nycavri

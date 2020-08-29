@@ -1,0 +1,63 @@
+Panglott (0, g2r1) b3-
+Mobynostromo (1, g3y2) -b3
+build b1 at Panglott
+build b1 at Mobynostromo
+convert b1 to y1 at Panglott
+build b1 at Mobynostromo
+build y1 at Panglott
+convert b1 to y1 at Mobynostromo
+build y2 at Panglott
+convert b1 to g1 at Mobynostromo
+move y2 from Panglott to Arcturus (b3)
+build y2 at Mobynostromo
+build y3 at Panglott
+convert y2 to r2 at Mobynostromo
+sacrifice y2 at Arcturus; move y1 from Panglott to Arcturus (b3); move y1 from Panglott to Arcturus
+move y1 from Mobynostromo to Green (g1)
+build y2 at Panglott
+move r2 from Mobynostromo to Green
+convert y1 to r1 at Arcturus
+build r1 at Green
+move y3 from Panglott to Arcturus
+build b1 at Mobynostromo
+convert y1 to g1 at Arcturus
+move r2 from Green to Arcturus
+capture r2 at Arcturus
+build r2 at Green
+build g2 at Arcturus
+build g2 at Mobynostromo
+sacrifice y2 at Panglott; move g1 from Arcturus to Green; move g1 from Green to Mobynostromo; catastrophe green at Mobynostromo
+convert b3 to r3 at Mobynostromo
+build b1 at Panglott
+convert b1 to g1 at Mobynostromo
+convert b1 to g1 at Panglott
+move g1 from Mobynostromo to Blue (b3)
+build r2 at Arcturus
+move r1 from Green to Arcturus; catastrophe red at Arcturus
+convert g1 to r1 at Panglott
+build g1 at Blue
+build y1 at Arcturus
+convert g1 to y1 at Blue
+move y3 from Arcturus to Panglott
+build y2 at Blue
+build y2 at Arcturus
+build y3 at Green
+sacrifice y2 at Arcturus; move y3 from Panglott to Blue; move r1 from Panglott to Blue
+move y2 from Blue to G2 (g2)
+move y3 from Blue to Panglott
+build y2 at Blue
+capture y1 at Blue
+build y3 at G2
+capture g1 at Blue
+move r2 from Green to Blue
+move r1 from Blue to Panglott
+capture g1 at Blue
+build g1 at Arcturus
+build g3 at Blue
+build g3 at Arcturus
+move g1 from Blue to Mobynostromo
+convert g1 to r1 at Arcturus
+build r2 at Mobynostromo
+sacrifice g3 at Arcturus; build g1 at Arcturus; build r2 at Arcturus; build g3 at Arcturus
+move g1 from Mobynostromo to Arcturus; catastrophe green at Arcturus
+sacrifice y3 at Panglott; move r1 from Arcturus to Mobynostromo; move r2 from Arcturus to Mobynostromo; catastrophe red at Mobynostromo

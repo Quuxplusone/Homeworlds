@@ -1,0 +1,20 @@
+Pmagnus (0, g1y2) b3-
+Mschlat (1, y3b1) -g3
+build b1 at Pmagnus
+build g1 at Mschlat
+move b1 from Pmagnus to Barnard (y3)
+convert g1 to y1 at Mschlat
+build b1 at Pmagnus
+build g1 at Mschlat
+convert b1 to g1 at Barnard
+build g2 at Mschlat
+build g2 at Barnard
+convert g2 to y2 at Mschlat
+build g2 at Barnard
+sacrifice y2 at Mschlat; move g1 from Mschlat to Temp (r2); move g1 from Temp to Barnard; catastrophe green at Barnard
+convert b1 to g1 at Pmagnus
+build y1 at Mschlat
+build b1 at Pmagnus
+convert y1 to r1 at Mschlat
+convert b1 to y1 at Pmagnus
+build r1 at Mschlat

@@ -1,0 +1,55 @@
+Felix (0, y1b3) g3-
+Goulo (1, r3b2) -g3
+build g1 at Felix
+build g1 at Goulo
+convert g1 to y1 at Felix
+convert g1 to y1 at Goulo
+build y2 at Felix
+build y2 at Goulo
+move y1 from Felix to Roam (b2)
+move y2 from Goulo to Verdeto (g1)
+move y2 from Felix to Greenlee (g2)
+build g1 at Goulo
+build g1 at Felix
+build g2 at Goulo
+move g1 from Felix to Roam
+move g2 from Goulo to Blueto (b1)
+build g2 at Felix
+build g3 at Blueto
+convert g1 to b1 at Roam
+convert g1 to r1 at Goulo
+convert g2 to r2 at Felix
+convert g2 to y2 at Blueto
+build y3 at Greenlee
+sacrifice g3 at Blueto; build y3 at Goulo; build y3 at Blueto; build g1 at Goulo
+move y3 from Greenlee to Verdeto
+move y2 from Verdeto to Roam
+sacrifice y1 at Roam; move b1 from Roam to Verdeto
+sacrifice g1 at Goulo; build y1 at Roam
+build b1 at Verdeto
+move y2 from Blueto to Greenlee
+build b2 at Verdeto
+sacrifice r1 at Goulo; capture y2 at Greenlee
+move b2 from Verdeto to Greenlee
+convert y1 to r1 at Goulo
+build b3 at Greenlee
+sacrifice y2 at Greenlee; move y2 from Greenlee to Felix; move y1 from Roam to Felix
+capture y2 at Felix
+move y2 from Roam to Felix; catastrophe yellow at Felix
+build b2 at Greenlee
+build g1 at Goulo
+build b3 at Verdeto
+move r1 from Goulo to Blueto
+convert b2 to y2 at Greenlee
+build y1 at Goulo
+build b2 at Greenlee
+convert g1 to r1 at Goulo
+convert b2 to r2 at Greenlee
+move r1 from Goulo to Flaveto (y1)
+build r1 at Greenlee
+build g1 at Goulo
+move b3 from Verdeto to Goulo
+capture b3 at Goulo
+sacrifice y2 at Greenlee; move b1 from Verdeto to Goulo; move b1 from Verdeto to Goulo; catastrophe blue at Goulo
+build g1 at Goulo
+sacrifice y3 at Verdeto; move r1 from Greenlee to Goulo; move r2 from Greenlee to Goulo; move r2 from Felix to Injection (y1)

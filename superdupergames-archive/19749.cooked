@@ -1,0 +1,40 @@
+Dragmio (0, g2b1) y3-
+Silenttitan (1, r3b2) -g3
+build y1 at Dragmio
+build g1 at Silenttitan
+build y1 at Dragmio
+convert g1 to y1 at Silenttitan
+convert y1 to r1 at Dragmio
+build g1 at Silenttitan
+build r1 at Dragmio
+move g1 from Silenttitan to Book (b1)
+move y1 from Dragmio to Mark (r3)
+build g1 at Book
+move r1 from Dragmio to Mark
+convert g1 to r1 at Book
+build r2 at Dragmio
+build r2 at Book
+convert r1 to g1 at Dragmio
+convert r2 to y2 at Book
+move y3 from Dragmio to Mark
+build y1 at Book
+move y3 from Mark to Book
+build y2 at Book; catastrophe yellow at Book
+move y1 from Mark to Dragmio
+build g1 at Silenttitan
+build g2 at Dragmio
+sacrifice g3 at Silenttitan; build g2 at Silenttitan; build g3 at Silenttitan; build g3 at Book
+move g1 from Dragmio to Mark
+convert g1 to y1 at Book
+convert g2 to y2 at Dragmio
+sacrifice g3 at Silenttitan; build y2 at Silenttitan; build y2 at Book; build y3 at Silenttitan
+move y1 from Dragmio to Mark
+convert y2 to b2 at Silenttitan
+build y2 at Dragmio
+sacrifice y2 at Book; move g3 from Book to Thing1 (y3); move r1 from Book to Thing2 (y3)
+move r2 from Dragmio to Thing2
+move g3 from Thing1 to Dragmio
+capture r1 at Thing2
+convert y3 to r3 at Silenttitan
+move r2 from Thing2 to Book
+sacrifice r3 at Silenttitan; capture y2 at Dragmio; capture y2 at Dragmio

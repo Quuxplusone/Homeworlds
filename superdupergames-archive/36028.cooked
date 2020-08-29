@@ -1,0 +1,35 @@
+Zweiterlinde (0, b1y3) g3-
+Mantheron (1, g1b2) -y3
+build g1 at Zweiterlinde
+build y1 at Mantheron
+move g1 from Zweiterlinde to Apple (b2)
+convert y1 to r1 at Mantheron
+build g1 at Apple
+build y1 at Mantheron
+build g2 at Zweiterlinde
+move y1 from Mantheron to Banana (r3)
+move g2 from Zweiterlinde to Cantaloupe (b2)
+convert y3 to g3 at Mantheron
+build g2 at Zweiterlinde
+build r1 at Mantheron
+sacrifice g3 at Zweiterlinde; build g2 at Apple; build g3 at Zweiterlinde; build g3 at Cantaloupe
+build r1 at Mantheron
+convert g1 to y1 at Apple
+build g1 at Mantheron
+convert g2 to y2 at Cantaloupe
+convert g1 to y1 at Mantheron
+move g3 from Cantaloupe to Banana
+move y1 from Banana to Date (g2)
+sacrifice g3 at Zweiterlinde; build g1 at Banana; build g3 at Zweiterlinde; build y2 at Cantaloupe
+move g3 from Mantheron to Elderberry (r3)
+convert g2 to r2 at Zweiterlinde
+build g2 at Elderberry
+sacrifice y1 at Apple; move g3 from Banana to Mantheron
+move r1 from Mantheron to Elderberry
+sacrifice r2 at Zweiterlinde; capture r1 at Mantheron; capture r1 at Mantheron
+sacrifice g3 at Elderberry; build y1 at Mantheron; build y2 at Date; build g3 at Elderberry
+capture y1 at Mantheron
+sacrifice g3 at Elderberry; build g3 at Elderberry; build y3 at Mantheron; build r2 at Elderberry
+capture y3 at Mantheron
+sacrifice y2 at Date; move r1 from Elderberry to Mantheron; move r2 from Elderberry to Mantheron; catastrophe red at Mantheron
+sacrifice y2 at Cantaloupe; move y2 from Cantaloupe to Banana; move y2 from Banana to Mantheron; catastrophe yellow at Mantheron

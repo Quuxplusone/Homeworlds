@@ -1,0 +1,18 @@
+Panglott (0, b3g2) y3-
+Fogus (1, y2b1) -g3
+build y1 at Panglott
+build g1 at Fogus
+build y1 at Panglott
+build g1 at Fogus
+move y1 from Panglott to Deneb (b1)
+move g1 from Fogus to Boo (b3)
+move y1 from Panglott to Deneb
+build g1 at Fogus
+build y1 at Panglott
+sacrifice g3 at Fogus; build g2 at Boo; build g2 at Boo; build g3 at Fogus
+build y2 at Panglott
+convert g2 to y2 at Boo
+move y2 from Panglott to Deneb
+convert g3 to y3 at Fogus
+build y3 at Panglott
+sacrifice y3 at Fogus; move y2 from Boo to Boingboing (r1); move y2 from Boingboing to Panglott; catastrophe yellow at Panglott

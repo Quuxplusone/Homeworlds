@@ -1,0 +1,42 @@
+Nicknack (0, r2b1) g3-
+Trydnt (1, b2y1) -g3
+build g1 at Nicknack
+build g1 at Trydnt
+convert g1 to y1 at Nicknack
+convert g1 to b1 at Trydnt
+build y1 at Nicknack
+build b1 at Trydnt
+build y2 at Nicknack
+move b1 from Trydnt to G3 (g3)
+move y1 from Nicknack to G3
+build b2 at G3
+sacrifice g3 at Nicknack; build y2 at G3; build y2 at G3; build y3 at Nicknack
+convert b2 to r2 at G3
+sacrifice y2 at G3; move y2 from G3 to Trydnt; move y1 from G3 to Trydnt
+build b2 at G3
+sacrifice y2 at Nicknack; move y1 from Nicknack to G3; move y1 from G3 to Trydnt; catastrophe yellow at Trydnt
+convert b2 to y2 at G3
+convert y3 to g3 at Nicknack
+sacrifice g3 at Trydnt; build b2 at G3; build b2 at G3; build b3 at Trydnt
+build g1 at Nicknack
+move b2 from G3 to Y1 (y1)
+convert g1 to y1 at Nicknack
+build b3 at G3
+build y1 at Nicknack
+build y2 at G3
+move y1 from Nicknack to Beta (g3)
+move y2 from G3 to G1 (g1)
+build y2 at Beta
+move b2 from Y1 to Beta
+move y2 from Beta to Gamma (g1)
+build b3 at Beta
+sacrifice g3 at Nicknack; build y1 at Beta; build y3 at Nicknack; build y3 at Gamma
+build y3 at G3
+convert y3 to r3 at Nicknack
+move y3 from G3 to Gamma
+move y3 from Gamma to Delta (g3)
+build y3 at G1
+convert y1 to g1 at Nicknack
+build y1 at G3
+build g2 at Nicknack
+build r1 at G3

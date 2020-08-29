@@ -1,0 +1,60 @@
+Dragonlord (0, g1r2) b3-
+Pheonixian (1, b1y2) -g3
+build b1 at Dragonlord
+build g1 at Pheonixian
+convert b1 to g1 at Dragonlord
+build g2 at Pheonixian
+build g2 at Dragonlord
+convert g2 to b2 at Pheonixian
+convert g2 to y2 at Dragonlord
+build g2 at Pheonixian
+build g2 at Dragonlord
+convert g2 to y2 at Pheonixian
+move g2 from Dragonlord to Portals (y3)
+build b1 at Pheonixian
+build g2 at Portals
+convert b2 to r2 at Pheonixian
+build b1 at Dragonlord
+build r1 at Pheonixian
+convert b1 to r1 at Dragonlord
+move r2 from Pheonixian to Peach (g3)
+build b1 at Dragonlord
+move g1 from Pheonixian to Peach
+move b1 from Dragonlord to Portals
+build g2 at Pheonixian
+convert g2 to b2 at Portals
+move b1 from Pheonixian to Peach
+build b2 at Dragonlord
+build y1 at Pheonixian
+convert b3 to y3 at Dragonlord
+move y2 from Pheonixian to Peach
+move g1 from Dragonlord to Icehouse (r3)
+build r1 at Pheonixian
+build b2 at Dragonlord
+sacrifice g3 at Pheonixian; build b3 at Peach; build g2 at Peach; build g3 at Pheonixian
+sacrifice y2 at Dragonlord; move g1 from Icehouse to Dragonlord; move g1 from Dragonlord to Peach; catastrophe green at Peach
+convert g2 to y2 at Pheonixian
+move b2 from Dragonlord to Garden (g3)
+move r1 from Pheonixian to Sol (y3)
+convert b2 to r2 at Dragonlord
+move r1 from Sol to Dragonlord; catastrophe red at Dragonlord
+build y1 at Dragonlord
+move y2 from Pheonixian to Terra (g3)
+sacrifice b1 at Portals; convert y1 to b1 at Dragonlord
+build y1 at Terra
+build b1 at Dragonlord
+build g1 at Pheonixian
+convert y3 to r3 at Dragonlord
+move g1 from Pheonixian to Dragon (r3)
+convert b1 to y1 at Dragonlord
+build g1 at Pheonixian
+build g2 at Portals
+sacrifice g3 at Pheonixian; build r1 at Pheonixian; build g2 at Dragon; build g3 at Pheonixian
+build y2 at Dragonlord
+move y1 from Pheonixian to Dragon
+move y2 from Dragonlord to Portals
+build y3 at Dragon
+move y2 from Portals to Jail (r2)
+move g1 from Pheonixian to Lemon (y3)
+build b1 at Dragonlord
+sacrifice y3 at Dragon; move g1 from Dragon to Dragonlord; move g2 from Dragon to Dragonlord; move g1 from Lemon to Dragonlord; catastrophe green at Dragonlord

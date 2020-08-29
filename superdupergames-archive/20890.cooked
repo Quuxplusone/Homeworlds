@@ -1,0 +1,33 @@
+Mandrel (0, b1r2) g3-
+Magicjohn (1, y1b3) -g3
+build g1 at Mandrel
+build g1 at Magicjohn
+convert g1 to y1 at Mandrel
+build g1 at Magicjohn
+build y1 at Mandrel
+convert g1 to r1 at Magicjohn
+build y2 at Mandrel
+build g1 at Magicjohn
+move y1 from Mandrel to Slow (b3)
+move g1 from Magicjohn to Old (y2)
+build y2 at Mandrel
+build g1 at Old
+move y2 from Mandrel to Kings (g3)
+build g2 at Old
+build g2 at Mandrel
+move g2 from Old to Slow
+move y1 from Slow to Helix (b2)
+convert g3 to y3 at Magicjohn
+build y3 at Kings
+convert y3 to g3 at Magicjohn
+sacrifice g3 at Mandrel; build g2 at Mandrel; build g3 at Mandrel; build y3 at Helix
+move g1 from Old to Kings
+sacrifice y2 at Kings; move y1 from Helix to Magicjohn; move y3 from Helix to Magicjohn
+move g1 from Old to Grayhavens (y3)
+convert g2 to r2 at Mandrel
+capture y3 at Magicjohn
+sacrifice r2 at Mandrel; capture r1 at Magicjohn; capture g1 at Magicjohn
+convert y3 to r3 at Magicjohn
+sacrifice g2 at Mandrel; build r1 at Magicjohn; build r1 at Magicjohn; catastrophe red at Magicjohn
+convert g2 to r2 at Slow
+sacrifice g3 at Mandrel; build g2 at Magicjohn; build g2 at Magicjohn; build y2 at Kings; catastrophe green at Magicjohn

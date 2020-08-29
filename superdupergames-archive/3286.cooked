@@ -1,0 +1,10 @@
+Hedge_O_Matic (0, g3b2) y3-
+Andylooney (1, r2b1) -g3
+build y1 at Hedge_O_Matic
+build g1 at Andylooney
+convert y1 to g1 at Hedge_O_Matic
+convert g3 to y3 at Andylooney
+build g1 at Hedge_O_Matic
+build g2 at Andylooney
+convert g1 to r1 at Hedge_O_Matic
+move g2 from Andylooney to Howell (y3)

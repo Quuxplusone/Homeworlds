@@ -1,0 +1,9 @@
+Mneme (0, r1g2) b3-
+Adambadura (1, b2g3) -r3
+build b1 at Mneme
+build r1 at Adambadura
+build b1 at Mneme
+convert r1 to b1 at Adambadura
+convert b3 to y3 at Mneme
+build b2 at Adambadura
+sacrifice y3 at Mneme; move b1 from Mneme to Its (g3); move b1 from Its to Atrap (y1); move b1 from Atrap to Adambadura; catastrophe blue at Adambadura

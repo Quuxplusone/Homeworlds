@@ -1,0 +1,83 @@
+Themadhunter249 (0, r3g2) b3-
+The_Unicyclone (1, b3g1) -r3
+build b1 at Themadhunter249
+build r1 at The_Unicyclone
+convert b1 to y1 at Themadhunter249
+build r1 at The_Unicyclone
+move y1 from Themadhunter249 to Gastown (g1)
+convert r1 to y1 at The_Unicyclone
+build y1 at Gastown
+build y2 at The_Unicyclone
+build b1 at Themadhunter249
+sacrifice y2 at The_Unicyclone; move r1 from The_Unicyclone to Lilypad (y2); move r1 from Lilypad to Gastown
+build y2 at Gastown
+build y2 at The_Unicyclone
+sacrifice y1 at Gastown; move b1 from Themadhunter249 to Gastown
+capture b1 at Gastown
+move y1 from Gastown to Themadhunter249
+convert y2 to r2 at The_Unicyclone
+build b1 at Themadhunter249
+move r2 from The_Unicyclone to Bulletfarm (y2)
+convert b3 to r3 at Themadhunter249
+move r2 from Bulletfarm to Gastown
+move y2 from Gastown to Themadhunter249
+convert r1 to y1 at Gastown
+move r3 from Themadhunter249 to Gastown
+convert y1 to r1 at Gastown
+capture b1 at Gastown
+build r1 at Gastown; catastrophe red at Gastown
+build b1 at Gastown
+build y1 at The_Unicyclone
+convert b1 to r1 at Gastown
+convert y1 to g1 at The_Unicyclone
+move y1 from Themadhunter249 to Gastown
+move g1 from The_Unicyclone to Watertower (b2)
+move r1 from Gastown to Watertower
+build g2 at Watertower
+capture g1 at Watertower
+convert g2 to r2 at Watertower
+build r1 at Watertower
+capture g1 at Watertower
+build y1 at Gastown
+build y2 at The_Unicyclone
+convert y1 to r1 at Gastown
+build g2 at Watertower
+build r2 at Gastown
+convert g2 to y2 at Watertower
+convert r2 to g2 at Gastown
+move y2 from Watertower to Thunderdome (r3)
+move g2 from Gastown to Decoy (b2)
+sacrifice r2 at Watertower; capture r1 at Watertower; capture r1 at Watertower
+move y1 from Gastown to Decoy
+move y2 from Thunderdome to Dirtroad (b1)
+build y1 at Decoy
+sacrifice y1 at The_Unicyclone; move g1 from Watertower to Dirtroad
+build r2 at Gastown
+convert r1 to y1 at Watertower
+build y3 at Themadhunter249
+build y3 at Dirtroad
+move y2 from Themadhunter249 to Gastown
+convert y3 to r3 at Dirtroad
+build y3 at Gastown
+build y3 at Dirtroad
+move y3 from Gastown to Themadhunter249
+build r1 at Dirtroad
+move r2 from Gastown to Watertower
+move r1 from Watertower to Dirtroad
+capture y1 at Watertower
+sacrifice y3 at Dirtroad; move r1 from Dirtroad to Themadhunter249; move r1 from Dirtroad to Themadhunter249; move r3 from Dirtroad to Themadhunter249; catastrophe red at Themadhunter249
+build y3 at Gastown
+convert g1 to r1 at Dirtroad
+convert y3 to r3 at Themadhunter249
+move r1 from Dirtroad to Thegreen (g3)
+build y3 at Themadhunter249
+move y2 from Dirtroad to Thegreen
+convert y3 to g3 at Themadhunter249
+build y3 at Thegreen
+convert r2 to g2 at Watertower
+move y3 from Thegreen to Decoy
+sacrifice y3 at Themadhunter249; move g2 from Decoy to The_Unicyclone; move g2 from Watertower to The_Unicyclone; move g3 from Themadhunter249 to The_Unicyclone; catastrophe green at The_Unicyclone
+convert y3 to g3 at Decoy
+convert y1 to b1 at Watertower
+sacrifice g3 at Decoy; build r1 at The_Unicyclone; build r2 at The_Unicyclone; build r2 at The_Unicyclone; catastrophe red at The_Unicyclone
+sacrifice y3 at Gastown; move b1 from Gastown to The_Unicyclone; move b1 from Watertower to The_Unicyclone; move b1 from Themadhunter249 to The_Unicyclone; catastrophe blue at The_Unicyclone

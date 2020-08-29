@@ -1,0 +1,63 @@
+Eliscinsky (0, r1b3) g3-
+Dodobirb (1, b1r2) -g3
+build g1 at Eliscinsky
+build g1 at Dodobirb
+convert g1 to y1 at Eliscinsky
+convert g1 to y1 at Dodobirb
+build g1 at Eliscinsky
+build g1 at Dodobirb
+convert g1 to b1 at Eliscinsky
+convert g1 to b1 at Dodobirb
+build g1 at Eliscinsky
+build g1 at Dodobirb
+convert g1 to r1 at Eliscinsky
+convert g1 to r1 at Dodobirb
+build g1 at Eliscinsky
+build g1 at Dodobirb
+build r2 at Eliscinsky
+build b2 at Dodobirb
+build b2 at Eliscinsky
+move b2 from Dodobirb to Greeny (g3)
+move b2 from Eliscinsky to G2A (g2)
+move r1 from Dodobirb to Greeny
+move r2 from Eliscinsky to G2A
+build y1 at Dodobirb
+build y2 at Eliscinsky
+build y2 at Dodobirb
+move y2 from Eliscinsky to G2A
+move y2 from Dodobirb to Greeny
+move g1 from Eliscinsky to G2A
+move g1 from Dodobirb to Greeny
+sacrifice y2 at G2A; move b1 from Eliscinsky to G2B (g2); move r1 from Eliscinsky to G2B
+build g1 at Dodobirb
+build g2 at Eliscinsky
+sacrifice g3 at Dodobirb; build g3 at Dodobirb; build b2 at Dodobirb; build b3 at Greeny
+sacrifice g3 at Eliscinsky; build g3 at Eliscinsky; build b3 at G2A; build y2 at Eliscinsky
+sacrifice y2 at Greeny; move b2 from Greeny to Yellowy (y2); move b1 from Dodobirb to Sun (y3)
+sacrifice g3 at Eliscinsky; build g3 at Eliscinsky; build r2 at G2B; build r3 at G2A
+move g1 from Dodobirb to Reddy (r3)
+sacrifice g2 at Eliscinsky; build g2 at Eliscinsky; build y2 at Eliscinsky
+build y3 at Dodobirb
+convert b3 to y3 at G2A
+sacrifice y1 at Dodobirb; move b3 from Greeny to G2B
+sacrifice y2 at Eliscinsky; move y3 from G2A to Sun; move r3 from G2A to Sun
+sacrifice r1 at Greeny; capture r2 at G2B
+sacrifice g3 at Eliscinsky; build g3 at Eliscinsky; build b3 at G2A; build r1 at G2B
+sacrifice r2 at G2B; capture r1 at G2B; capture r1 at G2B
+capture b1 at Sun
+move b2 from Dodobirb to Greeny
+sacrifice g3 at Eliscinsky; build g3 at Eliscinsky; build y1 at Eliscinsky; build r2 at G2A
+move y1 from Dodobirb to Greeny
+move y1 from Eliscinsky to G2A
+build y2 at Greeny
+move r3 from Sun to Yellowy
+move b2 from Yellowy to Greeny
+sacrifice g2 at Eliscinsky; build g2 at Eliscinsky; build r3 at Yellowy
+move y1 from Greeny to G2B
+move r3 from Yellowy to Greeny
+sacrifice y2 at Greeny; move b2 from Greeny to G2A; move b2 from Greeny to G2A; catastrophe blue at G2A
+sacrifice y3 at Sun; move r3 from Yellowy to Greeny; move r3 from Greeny to Dodobirb; move r3 from Greeny to Dodobirb
+capture r3 at Dodobirb
+sacrifice r2 at G2A; capture r3 at Dodobirb; capture g3 at Dodobirb
+capture r3 at Dodobirb
+sacrifice r2 at G2A; capture r3 at Dodobirb; capture y3 at Dodobirb

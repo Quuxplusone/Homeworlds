@@ -1,0 +1,81 @@
+Axeman (0, g1b2) r3-
+Pete_Asman (1, g1b2) -y3
+build r1 at Axeman
+build y1 at Pete_Asman
+convert r1 to y1 at Axeman
+convert y3 to r3 at Pete_Asman
+build y1 at Axeman
+build y2 at Pete_Asman
+build y2 at Axeman
+move y1 from Pete_Asman to Sol (g3)
+convert y2 to r2 at Axeman
+build y2 at Pete_Asman
+convert y1 to b1 at Axeman
+build r1 at Pete_Asman
+build b1 at Axeman
+move r3 from Pete_Asman to Sol
+convert b1 to y1 at Axeman
+build r1 at Sol
+build y2 at Axeman
+sacrifice y2 at Pete_Asman; move r1 from Sol to Axeman; move r3 from Sol to Axeman; catastrophe red at Axeman
+convert y2 to r2 at Axeman
+build y2 at Pete_Asman
+move r2 from Axeman to Sol
+move y1 from Sol to Pete_Asman
+move y1 from Axeman to Sol
+convert y2 to r2 at Pete_Asman
+build y2 at Sol
+move r2 from Pete_Asman to Alphac (y3)
+move r2 from Sol to Axeman
+convert y1 to b1 at Pete_Asman
+move y2 from Sol to Axeman
+build r1 at Pete_Asman
+convert y2 to r2 at Axeman
+build b1 at Pete_Asman
+build y1 at Sol
+build y2 at Pete_Asman
+build y2 at Axeman
+move y2 from Pete_Asman to Alphac
+sacrifice y2 at Axeman; move b1 from Axeman to Sol; move b1 from Sol to Pete_Asman; catastrophe blue at Pete_Asman
+move y2 from Alphac to Betazed (b2)
+move r2 from Axeman to Sol
+build y2 at Pete_Asman
+move r2 from Sol to Pete_Asman
+capture r2 at Pete_Asman
+build y3 at Axeman
+sacrifice y2 at Pete_Asman; move r1 from Pete_Asman to Alphac; move r1 from Pete_Asman to Betazed
+convert y3 to r3 at Axeman
+sacrifice y2 at Betazed; move r1 from Alphac to Axeman; move r2 from Alphac to Axeman; catastrophe red at Axeman
+build y2 at Axeman
+build r1 at Pete_Asman
+convert y2 to r2 at Axeman
+build y2 at Pete_Asman
+build y2 at Axeman
+move y2 from Pete_Asman to Betazed
+build r1 at Axeman
+move r2 from Pete_Asman to Sol
+build y3 at Sol
+move y2 from Betazed to Sol; catastrophe yellow at Sol
+move y1 from Axeman to Backwater (b3)
+build y1 at Pete_Asman
+move r2 from Axeman to Backwater
+convert r1 to b1 at Betazed
+move r2 from Backwater to Betazed
+sacrifice y1 at Pete_Asman; move b1 from Betazed to Pete_Asman
+build y1 at Axeman
+build y1 at Pete_Asman
+sacrifice y1 at Axeman; move r2 from Betazed to Backwater
+build r1 at Pete_Asman
+build y1 at Axeman
+move y1 from Pete_Asman to Sol
+convert y1 to g1 at Axeman
+build b1 at Pete_Asman
+move g1 from Axeman to Backwater
+move b1 from Pete_Asman to Sol
+build g2 at Backwater
+build r2 at Sol
+build g2 at Backwater
+move r2 from Sol to Sigma957 (y2)
+move g1 from Backwater to Pete_Asman
+build r3 at Sol
+sacrifice y2 at Axeman; move g2 from Backwater to Pete_Asman; move g2 from Backwater to Pete_Asman; catastrophe green at Pete_Asman

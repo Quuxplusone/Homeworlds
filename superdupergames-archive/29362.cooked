@@ -1,0 +1,53 @@
+Ugoggino (0, r1b3) g3-
+Anshir (1, b2y3) -g3
+build g1 at Ugoggino
+build g1 at Anshir
+convert g1 to y1 at Ugoggino
+build g1 at Anshir
+build g1 at Ugoggino
+move g1 from Anshir to Rigel (b1)
+build g2 at Ugoggino
+build g2 at Rigel
+move g2 from Ugoggino to Alfa (y2)
+convert g2 to y2 at Rigel
+build y1 at Ugoggino
+sacrifice g3 at Anshir; build g2 at Anshir; build g2 at Rigel; build g3 at Anshir
+build g3 at Alfa
+sacrifice y2 at Rigel; move g1 from Rigel to Alfa; move g2 from Rigel to Alfa; catastrophe green at Alfa
+convert g1 to b1 at Ugoggino
+convert g2 to y2 at Anshir
+build g1 at Ugoggino
+convert g1 to b1 at Anshir
+move y1 from Ugoggino to Beta (g2)
+build g1 at Anshir
+move b1 from Ugoggino to Beta
+move g1 from Anshir to Antares (r1)
+build y1 at Ugoggino
+build y2 at Anshir
+build y2 at Beta
+move y2 from Anshir to Antares
+convert y2 to b2 at Beta
+build g1 at Antares
+convert y1 to b1 at Ugoggino
+build g2 at Anshir
+move b1 from Ugoggino to Alfa (y2)
+sacrifice g3 at Anshir; build g2 at Anshir; build g3 at Antares; build g3 at Anshir
+sacrifice g3 at Ugoggino; build g3 at Ugoggino; build y1 at Beta; build y3 at Ugoggino
+build y3 at Antares
+sacrifice g3 at Ugoggino; build g3 at Ugoggino; build b2 at Beta; build b3 at Alfa
+move b1 from Anshir to Antares
+sacrifice y1 at Beta; move y3 from Ugoggino to Beta
+convert g2 to r2 at Anshir
+sacrifice b2 at Beta; convert b1 to r1 at Alfa; convert b2 to r2 at Beta
+move b1 from Antares to Vega (g2)
+sacrifice g3 at Ugoggino; build g3 at Ugoggino; build r2 at Beta; build y1 at Ugoggino
+sacrifice g3 at Anshir; build g3 at Anshir; build b1 at Vega; build b2 at Vega
+sacrifice g3 at Ugoggino; build g3 at Ugoggino; build r3 at Beta; build r3 at Alfa
+sacrifice y3 at Antares; move b1 from Vega to Ugoggino; move b1 from Vega to Ugoggino; move b2 from Vega to Ugoggino; catastrophe blue at Ugoggino
+sacrifice y3 at Beta; move y1 from Ugoggino to Anshir; move y1 from Ugoggino to Anshir; move b3 from Alfa to Ugoggino; catastrophe yellow at Anshir
+sacrifice g3 at Anshir; build g2 at Anshir; build g3 at Anshir; build r3 at Anshir
+sacrifice g3 at Ugoggino; build b1 at Ugoggino; build b1 at Ugoggino; build g3 at Ugoggino
+sacrifice y2 at Antares; move g2 from Anshir to Ugoggino; move g2 from Anshir to Ugoggino; catastrophe green at Ugoggino
+move y1 from Beta to Ugoggino
+convert r3 to y3 at Anshir
+sacrifice b1 at Beta; convert r3 to y3 at Alfa

@@ -1,0 +1,26 @@
+Lorgar (0, b3y1) g3-
+Silenttitan (1, b1r2) -g3
+build g1 at Lorgar
+build g1 at Silenttitan
+move g1 from Lorgar to Cydonia (b2)
+convert g1 to y1 at Silenttitan
+build g1 at Lorgar
+build y1 at Silenttitan
+build g1 at Cydonia
+move y1 from Silenttitan to Sol (g3)
+convert g1 to r1 at Lorgar
+build y2 at Silenttitan
+build g1 at Lorgar
+move y2 from Silenttitan to Poison (b3)
+build g2 at Cydonia
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Poison; build y3 at Silenttitan
+convert g2 to r2 at Cydonia
+build y3 at Sol
+build r1 at Cydonia
+move y3 from Sol to Stun (b2)
+build g2 at Lorgar
+build y3 at Sol
+convert g2 to b2 at Lorgar
+convert y3 to g3 at Silenttitan
+move b2 from Lorgar to Mint (g2)
+build y3 at Silenttitan

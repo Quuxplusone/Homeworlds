@@ -1,0 +1,53 @@
+Sordros (0, r1b2) g3-
+Silenttitan (1, r3b2) -g3
+build g1 at Sordros
+build g1 at Silenttitan
+convert g1 to y1 at Sordros
+convert g1 to y1 at Silenttitan
+build g1 at Sordros
+build g1 at Silenttitan
+convert g1 to b1 at Sordros
+convert g1 to r1 at Silenttitan
+build b1 at Sordros
+build r1 at Silenttitan
+move b1 from Sordros to Koora (g3)
+move r1 from Silenttitan to Sol (y1)
+build y2 at Sordros
+build y2 at Silenttitan
+convert y2 to r2 at Sordros
+sacrifice g3 at Silenttitan; build r2 at Sol; build r2 at Sol; build r3 at Silenttitan
+sacrifice g3 at Sordros; build b1 at Koora; build b2 at Koora; build b3 at Sordros
+move r2 from Sol to Koora
+sacrifice r2 at Sordros; capture r2 at Koora
+convert r3 to b3 at Silenttitan
+convert b2 to y2 at Koora
+move b3 from Silenttitan to Sol
+convert b3 to g3 at Sordros
+convert y1 to g1 at Silenttitan
+move b1 from Koora to Aqua (g1)
+move r1 from Sol to Soul (b3)
+move r2 from Koora to Aqua
+move r1 from Silenttitan to Sole (g1)
+build g2 at Sordros
+move r2 from Sol to Tic (b3)
+build b2 at Aqua
+convert b3 to g3 at Sol
+build b3 at Koora
+move g3 from Sol to Silenttitan
+convert b3 to r3 at Koora
+convert r2 to y2 at Tic
+build b3 at Aqua
+build g2 at Silenttitan
+convert g3 to y3 at Sordros
+build r2 at Sole
+sacrifice g2 at Sordros; build r2 at Koora; build r3 at Aqua
+sacrifice g2 at Silenttitan; build y1 at Tic; build y1 at Silenttitan
+build y3 at Koora
+sacrifice y2 at Silenttitan; move y2 from Tic to Sordros; move y1 from Tic to Sordros; catastrophe yellow at Sordros
+build b3 at Koora
+sacrifice y1 at Silenttitan; move r2 from Sole to Sol (y3)
+sacrifice y2 at Koora; move r3 from Koora to Sordros; move b3 from Koora to Diwo (y1)
+convert g3 to y3 at Silenttitan
+sacrifice y3 at Koora; move b3 from Aqua to Silenttitan; move r3 from Aqua to Silenttitan; move b3 from Diwo to Silenttitan
+sacrifice y3 at Silenttitan; move r2 from Sol to Sordros; move r1 from Soul to Sordros; move r1 from Sole to Silenttitan; catastrophe red at Sordros
+sacrifice r2 at Koora; capture g1 at Silenttitan; capture r1 at Silenttitan

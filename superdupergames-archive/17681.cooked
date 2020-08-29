@@ -1,0 +1,36 @@
+Black_Rabbit (0, g1b2) r3-
+Silenttitan (1, b2r3) -g3
+build r1 at Black_Rabbit
+build g1 at Silenttitan
+convert r1 to y1 at Black_Rabbit
+convert g1 to y1 at Silenttitan
+build r1 at Black_Rabbit
+build g1 at Silenttitan
+move r1 from Black_Rabbit to Arakis (y3)
+build g1 at Silenttitan
+build y1 at Black_Rabbit
+build y2 at Silenttitan
+build y2 at Black_Rabbit
+move y2 from Silenttitan to Charm (r1)
+convert y2 to g2 at Black_Rabbit
+sacrifice g3 at Silenttitan; build y2 at Charm; build y2 at Charm; build y3 at Silenttitan
+move g2 from Black_Rabbit to Arakis
+build y3 at Silenttitan
+move y1 from Black_Rabbit to Arakis
+sacrifice y2 at Charm; move y2 from Charm to Arakis; move y2 from Charm to Arakis; catastrophe yellow at Arakis
+build y1 at Black_Rabbit
+move y1 from Silenttitan to Ball (b1)
+convert y1 to r1 at Black_Rabbit
+move g1 from Silenttitan to Ball
+move r1 from Black_Rabbit to Prime (g3)
+build g2 at Ball
+build y1 at Black_Rabbit
+sacrifice g2 at Ball; build y2 at Silenttitan; build y2 at Ball
+move y1 from Black_Rabbit to Prime
+convert y2 to r2 at Ball
+build y2 at Black_Rabbit
+move y3 from Silenttitan to Cube (b1)
+build y2 at Black_Rabbit
+sacrifice y2 at Silenttitan; move y1 from Ball to Prime; move y1 from Prime to Black_Rabbit; catastrophe yellow at Black_Rabbit
+build r1 at Black_Rabbit
+build g2 at Ball

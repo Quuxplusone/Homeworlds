@@ -1,0 +1,39 @@
+Felix (0, y2b3) g3-
+Orangeblood (1, g1b2) -y3
+build g1 at Felix
+build y1 at Orangeblood
+convert g1 to y1 at Felix
+convert y1 to g1 at Orangeblood
+build g1 at Felix
+build g2 at Orangeblood
+move g1 from Felix to Opus (b1)
+move g1 from Orangeblood to Bevo (b3)
+build g2 at Felix
+build y1 at Orangeblood
+move g2 from Felix to Opal (y1)
+build y2 at Orangeblood
+build g2 at Felix
+build g3 at Bevo
+sacrifice g3 at Felix; build g3 at Felix; build g3 at Opus; build y2 at Felix
+move y1 from Orangeblood to Bevo
+convert y1 to r1 at Felix
+convert g3 to r3 at Bevo
+build g3 at Opal
+build r1 at Bevo
+convert g1 to b1 at Opus
+convert r1 to b1 at Bevo
+sacrifice g3 at Felix; build g1 at Opus; build g3 at Felix; build r1 at Felix
+move b1 from Bevo to Orangeblood
+move g2 from Opal to Brink (y3)
+convert y3 to r3 at Orangeblood
+convert g1 to y1 at Opus
+build y3 at Orangeblood
+build y3 at Opus
+move r3 from Orangeblood to Brink
+move g2 from Brink to Orangeblood
+build r1 at Bevo
+build g1 at Orangeblood; catastrophe green at Orangeblood
+move y2 from Orangeblood to Brink
+convert g2 to b2 at Felix
+sacrifice y2 at Brink; move r3 from Brink to Opus; move r3 from Bevo to Opus
+sacrifice y3 at Opus; move b1 from Opus to Orangeblood; move b2 from Felix to Opus; move b2 from Opus to Orangeblood; catastrophe blue at Orangeblood

@@ -1,0 +1,38 @@
+Scottobear (0, g3b2) y3-
+Zoltar (1, r1b2) -g3
+build y1 at Scottobear
+build g1 at Zoltar
+move y1 from Scottobear to Camera (g1)
+convert g1 to y1 at Zoltar
+build y1 at Camera
+build y2 at Zoltar
+build y2 at Scottobear
+move y1 from Zoltar to Greengiant (g3)
+convert y2 to r2 at Scottobear
+build y2 at Greengiant
+move y1 from Camera to Glove (b3)
+move y2 from Greengiant to Camera
+build y2 at Camera
+build y3 at Zoltar
+move y1 from Camera to Glove
+build y3 at Greengiant
+convert y1 to r1 at Glove
+move y2 from Camera to Glove
+convert y1 to g1 at Glove
+convert y2 to r2 at Zoltar
+build y1 at Camera
+sacrifice r2 at Zoltar; capture r1 at Glove; capture g1 at Glove
+move y2 from Camera to Glove
+capture y2 at Glove
+build r1 at Scottobear
+build r2 at Glove
+move r1 from Scottobear to Camera
+move y2 from Glove to Camera
+build r2 at Camera
+sacrifice r2 at Glove; capture r2 at Camera; capture r1 at Camera
+build y1 at Camera
+sacrifice r2 at Camera; capture y1 at Camera; capture y1 at Camera
+move y3 from Scottobear to Camera; catastrophe yellow at Camera
+sacrifice y2 at Glove; move y3 from Greengiant to Camera; move y3 from Camera to Scottobear
+build r2 at Scottobear
+sacrifice y3 at Zoltar; move r1 from Glove to Camera; move r1 from Camera to Scottobear; move r1 from Camera to Scottobear; catastrophe red at Scottobear

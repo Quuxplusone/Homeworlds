@@ -1,0 +1,18 @@
+Dralius (0, y1g1) r1-
+Jesse (1, g1b1) -r1
+build r1 at Dralius
+build r2 at Jesse
+move r1 from Dralius to Occularies (y3)
+convert r2 to y2 at Jesse
+build r2 at Dralius
+build r2 at Jesse
+move r1 from Occularies to Stomell (b2)
+move r2 from Jesse to Stage (y3)
+convert r1 to g1 at Stomell
+build r1 at Jesse
+build g2 at Stomell
+build r2 at Jesse
+convert g2 to y2 at Stomell
+move r1 from Jesse to Stage
+move g1 from Stomell to Dralius
+build r3 at Jesse

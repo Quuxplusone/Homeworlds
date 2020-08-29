@@ -1,0 +1,50 @@
+Dlwillson (0, b3y2) g3-
+Wil (1, b3r1) -g3
+build g1 at Dlwillson
+build g1 at Wil
+convert g1 to r1 at Dlwillson
+build g1 at Wil
+build r1 at Dlwillson
+convert g3 to r3 at Wil
+build r2 at Dlwillson
+build r2 at Wil
+convert r2 to y2 at Dlwillson
+convert g1 to y1 at Wil
+move r1 from Dlwillson to Forest (g1)
+move r2 from Wil to Forttortuga (y2)
+build r2 at Dlwillson
+build g1 at Wil
+build g2 at Dlwillson
+build g2 at Wil
+move g2 from Dlwillson to Sky (b1)
+convert g1 to b1 at Wil
+build r2 at Forest
+move g1 from Wil to Forttortuga
+build r3 at Dlwillson
+build r3 at Forttortuga
+sacrifice y2 at Dlwillson; move r1 from Forest to Forttortuga; move r2 from Forest to Forttortuga; catastrophe red at Forttortuga
+build y1 at Wil
+convert r3 to y3 at Dlwillson
+build g1 at Forttortuga
+move y3 from Dlwillson to Sky
+move y1 from Wil to Dryden (g2)
+build g1 at Dlwillson
+build g3 at Wil
+build g3 at Sky
+sacrifice g3 at Wil; build g3 at Wil; build y1 at Wil; build b1 at Wil
+convert g2 to b2 at Sky
+move b1 from Wil to Stalag17 (g2)
+move b2 from Sky to Stalag17
+move r3 from Wil to Stalag17
+build b2 at Stalag17
+capture b2 at Stalag17
+build b2 at Stalag17; catastrophe blue at Stalag17
+sacrifice g3 at Wil; build g3 at Wil; build r1 at Stalag17; build r2 at Stalag17
+sacrifice y3 at Sky; move r1 from Dlwillson to Sky; move r1 from Sky to Stalag17; move g3 from Sky to Sea (b2); catastrophe red at Stalag17
+sacrifice g3 at Wil; build g2 at Forttortuga; build g3 at Wil; build y2 at Wil
+convert g3 to y3 at Sea
+sacrifice g3 at Wil; build g3 at Wil; build y3 at Dryden; build y3 at Dryden
+move r2 from Dlwillson to Sky (b1)
+sacrifice y3 at Dryden; move g1 from Forttortuga to Bedrock (r1); move g1 from Forttortuga to Bedrock; move y2 from Wil to Forttortuga
+sacrifice g1 at Dlwillson; build y3 at Sea
+sacrifice y2 at Forttortuga; move y1 from Wil to Sea; move y1 from Wil to Sea; catastrophe yellow at Sea

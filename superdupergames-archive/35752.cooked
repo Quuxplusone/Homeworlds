@@ -1,0 +1,33 @@
+Disaac (0, g2y1) b3-
+Wil (1, y2b1) -g3
+build b1 at Disaac
+build g1 at Wil
+move b1 from Disaac to Face (g3)
+convert g1 to b1 at Wil
+build b2 at Face
+build b2 at Wil
+convert b2 to y2 at Face
+convert b1 to y1 at Wil
+build b1 at Face
+move b2 from Wil to G3 (g3)
+build b2 at Disaac
+move y1 from Wil to G3
+convert b3 to r3 at Disaac
+convert g3 to r3 at Wil
+build r1 at Disaac
+build y1 at G3
+build b2 at Disaac
+build b3 at G3
+build b3 at Face
+convert b3 to g3 at G3
+move b2 from Disaac to G3
+convert g3 to r3 at G3
+build b3 at G3
+capture b3 at G3
+build b3 at G3; catastrophe blue at G3
+convert r3 to g3 at Wil
+move b3 from Face to Wil
+sacrifice r3 at G3; capture b3 at Wil
+sacrifice y2 at Face; move r3 from Disaac to G3; move r3 from G3 to Wil
+move y1 from G3 to Disaac
+capture g3 at Wil

@@ -1,0 +1,23 @@
+Madwuher (0, r1b2) g3-
+Djanyreason (1, g3b2) -y3
+build g1 at Madwuher
+build y1 at Djanyreason
+convert g1 to y1 at Madwuher
+convert y1 to r1 at Djanyreason
+build g1 at Madwuher
+build r1 at Djanyreason
+move g1 from Madwuher to Edora (y3)
+build r2 at Djanyreason
+build g1 at Madwuher
+move r2 from Djanyreason to S1 (g1)
+build g2 at Madwuher
+convert r1 to b1 at Djanyreason
+convert g2 to r2 at Madwuher
+move b1 from Djanyreason to S1
+build g2 at Edora
+convert b1 to y1 at S1
+move g1 from Edora to Bologna (b1)
+move r2 from S1 to Edora
+sacrifice r2 at Madwuher; capture r2 at Edora
+move y1 from S1 to Djanyreason
+build g1 at Bologna

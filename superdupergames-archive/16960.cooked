@@ -1,0 +1,12 @@
+Scottobear (0, r2b1) g3-
+Twoshort (1, b1g3) -b3
+build g1 at Scottobear
+build b1 at Twoshort
+convert g1 to y1 at Scottobear
+convert b3 to y3 at Twoshort
+build g1 at Scottobear
+build b2 at Twoshort
+build g1 at Scottobear
+move b2 from Twoshort to Grogar (g2)
+move y1 from Scottobear to Warzone (r3)
+build b2 at Twoshort

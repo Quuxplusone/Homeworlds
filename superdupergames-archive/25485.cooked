@@ -1,0 +1,21 @@
+Marmalade (0, y2b1) g3-
+Grosseteste (1, y3b1) -g3
+build g1 at Marmalade
+build g1 at Grosseteste
+move g1 from Marmalade to Foop (b3)
+build g1 at Grosseteste
+build g2 at Marmalade
+convert g1 to b1 at Grosseteste
+build g1 at Foop
+move g1 from Grosseteste to Luce (y2)
+convert g1 to y1 at Foop
+build b2 at Grosseteste
+convert g2 to b2 at Marmalade
+move b1 from Grosseteste to Luce
+build y1 at Foop
+sacrifice g3 at Grosseteste; build b2 at Luce; build b3 at Luce; build b3 at Grosseteste
+move b2 from Marmalade to Cloom (g3)
+move b3 from Luce to Hexaemeron (y3)
+build g1 at Marmalade
+sacrifice b2 at Luce; convert b3 to g3 at Grosseteste; convert b3 to r3 at Hexaemeron
+convert g1 to r1 at Marmalade

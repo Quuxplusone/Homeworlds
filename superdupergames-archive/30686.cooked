@@ -1,0 +1,9 @@
+Aristos (0, y2b3) g3-
+Agentofchaos (1, y1b2) -g3
+build g1 at Aristos
+build g1 at Agentofchaos
+move g1 from Aristos to Spark (b1)
+convert g1 to y1 at Agentofchaos
+build g1 at Aristos
+build y1 at Agentofchaos
+convert g3 to y3 at Aristos

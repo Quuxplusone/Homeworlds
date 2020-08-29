@@ -1,0 +1,39 @@
+Twoshort (0, r2b1) g3-
+Gort (1, g3y1) -b3
+build g1 at Twoshort
+build b1 at Gort
+convert g1 to y1 at Twoshort
+move b1 from Gort to Grot (g2)
+build y1 at Twoshort
+build b1 at Grot
+move y1 from Twoshort to Grogar (g3)
+build b2 at Grot
+build y2 at Twoshort
+build b2 at Gort
+move y2 from Twoshort to Bluestar (b3)
+convert b2 to y2 at Grot
+build g1 at Twoshort
+convert b2 to g2 at Gort
+move g1 from Twoshort to Yolonda (y3)
+convert b3 to r3 at Gort
+sacrifice g3 at Twoshort; build y2 at Bluestar; build y3 at Grogar; build y3 at Twoshort
+move b1 from Grot to Grogar
+convert y2 to r2 at Bluestar
+build y2 at Grot
+sacrifice g1 at Yolonda; build y3 at Bluestar
+move y2 from Grot to Bluestar
+move y3 from Bluestar to Grot
+sacrifice r3 at Gort; capture r2 at Bluestar; capture y2 at Bluestar; capture y1 at Grogar
+convert y3 to r3 at Twoshort
+sacrifice y2 at Grot; move y2 from Bluestar to Twoshort; move r2 from Bluestar to Twoshort
+convert r3 to g3 at Twoshort
+build b2 at Grogar
+sacrifice y1 at Twoshort; move y3 from Grogar to Trog (b2)
+move b1 from Grogar to Twoshort
+convert y3 to r3 at Trog
+sacrifice b2 at Grogar; convert b1 to g1 at Twoshort; convert r2 to g2 at Twoshort
+sacrifice r3 at Trog; capture y2 at Twoshort; capture g2 at Twoshort; capture g1 at Twoshort
+build y1 at Grogar
+convert g2 to r2 at Twoshort
+sacrifice y2 at Bluestar; move y1 from Grogar to Grot; move y1 from Grogar to Grot
+move y3 from Grot to Gort

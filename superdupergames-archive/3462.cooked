@@ -1,0 +1,33 @@
+Danner (0, y1g2) r3-
+Sztyuni (1, r3y3) -b3
+build r1 at Danner
+convert b3 to g3 at Sztyuni
+move r3 from Danner to Sztyuni
+capture r3 at Sztyuni
+build r1 at Danner
+build g1 at Sztyuni
+move r1 from Danner to Deathstar (b3)
+move r3 from Sztyuni to Danner
+build r1 at Danner
+capture r1 at Danner
+build r2 at Danner
+capture r2 at Danner
+convert r1 to y1 at Deathstar
+pass
+move y1 from Deathstar to Danner; catastrophe red at Danner
+move g1 from Sztyuni to Oreglyuk (b2)
+build y1 at Danner
+build g1 at Oreglyuk
+move y1 from Danner to Tradecenter (b3)
+build g1 at Oreglyuk
+build y2 at Danner
+build g2 at Oreglyuk
+move y1 from Danner to Tradecenter; catastrophe green at Oreglyuk
+build g1 at Sztyuni
+build y2 at Danner
+move g3 from Sztyuni to Nemlyuk (b2)
+convert y1 to r1 at Tradecenter
+build g1 at Nemlyuk
+move y2 from Danner to Sztyuni
+convert g1 to y1 at Nemlyuk
+capture g1 at Sztyuni

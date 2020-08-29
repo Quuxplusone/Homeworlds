@@ -1,0 +1,19 @@
+Felix (0, b3y2) g3-
+Tamiel (1, y1b2) -g3
+build g1 at Felix
+build g1 at Tamiel
+convert g1 to y1 at Felix
+build g1 at Tamiel
+build y1 at Felix
+convert g3 to y3 at Tamiel
+move y1 from Felix to Pickle (g1)
+move g1 from Tamiel to Gliesse1 (b3)
+build y2 at Pickle
+build g2 at Gliesse1
+build g2 at Felix
+convert g2 to y2 at Gliesse1
+move y2 from Pickle to Gliesse1
+build y3 at Gliesse1
+build y3 at Pickle
+sacrifice y3 at Tamiel; move y2 from Gliesse1 to Pickle; move y3 from Gliesse1 to Pickle; catastrophe yellow at Pickle
+move y2 from Gliesse1 to Tamiel

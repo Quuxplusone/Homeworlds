@@ -1,0 +1,45 @@
+Lexicon (0, r1b2) g3-
+Nycavri (1, b1g3) -y3
+build g1 at Lexicon
+build y1 at Nycavri
+convert g1 to y1 at Lexicon
+convert y1 to b1 at Nycavri
+build g1 at Lexicon
+build y1 at Nycavri
+move g1 from Lexicon to Drosophila (b3)
+move y1 from Nycavri to Deacon (g2)
+build g1 at Drosophila
+move y1 from Deacon to May (g3)
+build g1 at Lexicon
+build y1 at May
+build y2 at Lexicon
+move y1 from May to Lexicon
+move y2 from Lexicon to Drosophila
+build y2 at May
+move g1 from Drosophila to Bostaurus (b2)
+convert b1 to r1 at Nycavri
+build g2 at Bostaurus
+capture g1 at Lexicon
+build g2 at Drosophila
+build g2 at Lexicon
+capture g2 at Lexicon
+build y2 at Lexicon
+sacrifice g3 at Lexicon; build g3 at Lexicon; build y3 at Drosophila; build y3 at Lexicon; catastrophe yellow at Lexicon
+build y1 at Nycavri
+capture g1 at Lexicon
+convert y1 to b1 at Nycavri
+sacrifice y2 at Drosophila; move g1 from Bostaurus to Nycavri; move g2 from Bostaurus to Nycavri
+capture g2 at Nycavri
+sacrifice g1 at Lexicon; build g1 at Nycavri; catastrophe green at Nycavri
+convert b1 to g1 at Nycavri
+move g2 from Drosophila to Rattus (b2)
+build r1 at Nycavri
+sacrifice g3 at Lexicon; build g1 at Rattus; build g2 at Drosophila; build g3 at Lexicon
+build g3 at Nycavri
+convert g1 to b1 at Rattus
+build r2 at Nycavri
+convert g1 to b1 at Drosophila
+move g1 from Nycavri to May
+sacrifice y3 at Drosophila; move b1 from Drosophila to Nycavri; move g2 from Rattus to Nycavri; move b1 from Rattus to Nycavri
+capture g2 at Nycavri
+sacrifice g3 at Lexicon; build b2 at Nycavri; build b2 at Nycavri; build b3 at Nycavri; catastrophe blue at Nycavri

@@ -1,0 +1,70 @@
+Dlwillson (0, b3y1) g3-
+Draw5Playall (1, b2r1) -g3
+build g1 at Dlwillson
+build g1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+convert g1 to y1 at Draw5Playall
+build r1 at Dlwillson
+build y1 at Draw5Playall
+build r2 at Dlwillson
+build y2 at Draw5Playall
+move r1 from Dlwillson to Sea (b2)
+move y1 from Draw5Playall to Different (g3)
+move r2 from Dlwillson to Sol (y2)
+move y1 from Draw5Playall to Democrat (b3)
+build g1 at Dlwillson
+sacrifice g3 at Draw5Playall; build y2 at Democrat; build y3 at Democrat; build y3 at Draw5Playall
+sacrifice g3 at Dlwillson; build r2 at Sol; build r2 at Sea; build r3 at Sea
+build y3 at Different
+build r3 at Dlwillson
+convert y3 to r3 at Democrat
+convert r3 to y3 at Sea
+convert y1 to g1 at Democrat
+convert r1 to y1 at Dlwillson
+build g1 at Democrat
+move y1 from Dlwillson to Field (g2)
+build g2 at Democrat
+convert r2 to g2 at Sea
+move g1 from Democrat to Tmp (b1)
+build g3 at Dlwillson
+build g3 at Tmp
+move r2 from Sol to Different
+move y1 from Different to Tmp
+sacrifice g3 at Dlwillson; build r1 at Sea; build r2 at Sea; build r3 at Sol
+convert g1 to b1 at Tmp
+convert r2 to b2 at Sea
+build r2 at Democrat
+move b2 from Sea to Sky (b3)
+sacrifice r2 at Democrat; capture r2 at Different
+move y3 from Sea to Forest (g3)
+build r2 at Different
+move y1 from Field to Sky
+move g2 from Democrat to Draw5Playall
+move r3 from Sol to Sky
+move g3 from Tmp to Sea
+convert r1 to g1 at Sea
+sacrifice g3 at Sea; build g2 at Draw5Playall; build g3 at Democrat; build r1 at Democrat
+sacrifice y3 at Forest; move r2 from Sol to Tmp; move g1 from Sea to Sol (y3); move g2 from Sea to Forest (g3)
+sacrifice y1 at Tmp; move b1 from Tmp to Different
+sacrifice g2 at Forest; build g2 at Dlwillson; build g3 at Sol
+sacrifice g3 at Democrat; build g3 at Democrat; build y1 at Democrat; build y2 at Different
+move g1 from Sol to Sea
+move g3 from Democrat to Tmp
+sacrifice g3 at Sol; build y3 at Sky; build g3 at Sea
+sacrifice r1 at Democrat; capture r2 at Tmp
+move y3 from Sky to Draw5Playall
+capture y3 at Draw5Playall
+move y1 from Sky to Draw5Playall; catastrophe yellow at Draw5Playall
+move y3 from Different to Draw5Playall
+convert g2 to y2 at Dlwillson
+sacrifice g3 at Tmp; build y1 at Democrat; build y3 at Different; build y3 at Draw5Playall
+convert r3 to g3 at Sky
+sacrifice g2 at Draw5Playall; build r1 at Democrat; build r3 at Tmp
+sacrifice g3 at Sea; build g2 at Dlwillson; build g2 at Sky; build g3 at Sea
+build b1 at Different
+move y2 from Dlwillson to Sea
+move y1 from Democrat to Tmp
+move g1 from Sea to Different
+sacrifice y2 at Different; move y3 from Different to Safety (y2); move r3 from Tmp to Safety
+move g3 from Sea to Different
+sacrifice y3 at Draw5Playall; move y3 from Safety to Dlwillson; move r3 from Safety to Dlwillson; move g2 from Draw5Playall to Different; catastrophe green at Different

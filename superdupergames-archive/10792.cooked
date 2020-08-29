@@ -1,0 +1,60 @@
+Wheatberry (0, b3g2) y3-
+Jesse (1, r3b1) -g3
+build y1 at Wheatberry
+build g1 at Jesse
+convert y1 to g1 at Wheatberry
+convert g1 to y1 at Jesse
+move g1 from Wheatberry to Algol (r1)
+build y1 at Jesse
+build g1 at Algol
+build g1 at Jesse
+build y1 at Wheatberry
+move g1 from Jesse to Ocaml (b2)
+build y2 at Wheatberry
+move y1 from Jesse to Ocaml
+convert y2 to r2 at Wheatberry
+build y2 at Ocaml
+move y1 from Wheatberry to Algol
+build g2 at Jesse
+build y2 at Algol
+convert y2 to r2 at Ocaml
+build y2 at Wheatberry
+sacrifice g3 at Jesse; build g2 at Ocaml; build g3 at Jesse; build y2 at Ocaml
+move g1 from Algol to Simula (b2)
+convert g1 to b1 at Ocaml
+move g1 from Algol to Simula
+move y2 from Ocaml to Erlang (g3)
+sacrifice y2 at Wheatberry; move g1 from Simula to Jesse; move g1 from Simula to Jesse; catastrophe green at Jesse
+sacrifice g2 at Ocaml; build y2 at Ocaml; build y3 at Jesse
+move y1 from Algol to Simula (b2)
+convert y3 to g3 at Jesse
+convert y1 to g1 at Simula
+convert y1 to g1 at Ocaml
+build g1 at Simula
+build r1 at Ocaml
+move y2 from Algol to Simula
+build g2 at Ocaml
+build y1 at Simula
+move g1 from Ocaml to Self (y3)
+convert y1 to r1 at Simula
+build g2 at Self
+build y1 at Simula
+build g3 at Ocaml
+move g1 from Simula to Self
+sacrifice g3 at Ocaml; build g3 at Ocaml; build y1 at Erlang; build y3 at Ocaml
+convert y1 to b1 at Simula
+sacrifice y3 at Ocaml; move g3 from Ocaml to Intercal (y3); move g1 from Self to Scheme (y1); move b1 from Ocaml to Erlang
+move r2 from Wheatberry to Scheme
+sacrifice g3 at Intercal; build g3 at Scheme; build y3 at Ocaml; build b2 at Erlang
+move r2 from Scheme to Wheatberry
+sacrifice y3 at Ocaml; move r2 from Ocaml to Self; move b2 from Erlang to Scheme; move g3 from Scheme to Unlambda (y3)
+move g1 from Self to Algol (r1)
+sacrifice g3 at Unlambda; build g3 at Scheme; build y3 at Ocaml; build b3 at Scheme
+move b1 from Simula to Algol
+sacrifice g3 at Scheme; build g3 at Scheme; build b3 at Erlang; build r2 at Ocaml
+build r3 at Simula
+sacrifice y2 at Ocaml; move b3 from Erlang to Scheme; move b3 from Scheme to Wheatberry
+build r3 at Wheatberry
+sacrifice r2 at Ocaml; capture r3 at Wheatberry; capture y3 at Wheatberry
+pass
+capture r2 at Wheatberry

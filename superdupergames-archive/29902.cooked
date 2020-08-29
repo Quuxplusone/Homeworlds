@@ -1,0 +1,66 @@
+Skully (0, y3g2) b3-
+Felix (1, r1g3) -y3
+build b1 at Skully
+build y1 at Felix
+convert b1 to r1 at Skully
+move y1 from Felix to Rim (b2)
+move r1 from Skully to Evil (y1)
+build y1 at Felix
+build b1 at Skully
+move y1 from Felix to Rim
+move r1 from Evil to Rim
+move y1 from Rim to Escape (g1)
+capture y1 at Rim
+build y1 at Escape
+convert b1 to r1 at Skully
+build y2 at Felix
+build r2 at Skully
+move y2 from Felix to Rim
+move r2 from Skully to Escape
+convert y2 to r2 at Rim
+capture y1 at Escape
+capture r1 at Rim
+move y1 from Rim to Factory (g3)
+move y1 from Escape to Rim
+move y1 from Escape to War (r2)
+convert r1 to b1 at Rim
+build r1 at Skully
+convert b1 to g1 at Rim
+move y1 from War to Escape
+build y2 at Rim
+move y1 from Factory to Rim
+convert y1 to b1 at Rim
+move y1 from Rim to Eye (b3)
+move b1 from Rim to Felix
+convert y1 to g1 at Eye
+build g2 at Rim
+build g2 at Eye
+move g2 from Rim to Scyther (b1)
+convert g1 to y1 at Eye
+build g1 at Scyther
+build g3 at Eye
+build g3 at Rim
+convert g3 to r3 at Eye
+convert g1 to y1 at Scyther
+move r3 from Eye to Scyther
+sacrifice y1 at Scyther; move g2 from Scyther to Ekans (y3)
+sacrifice g2 at Eye; build r2 at Scyther; build r3 at Escape
+build r3 at Rim
+move y1 from Eye to Scyther
+move g1 from Rim to Oddish (b1)
+build b2 at Skully
+build g1 at Ekans
+convert b2 to y2 at Skully
+sacrifice g3 at Rim; build g2 at Oddish; build g3 at Oddish; build g3 at Ekans
+sacrifice y2 at Skully; move r2 from Scyther to Rim; move r2 from Escape to Rim; catastrophe red at Rim
+convert g3 to r3 at Oddish
+move r3 from Scyther to Ekans
+sacrifice r3 at Oddish; capture r3 at Ekans
+move r1 from Skully to Scyther
+build g3 at Oddish
+move r3 from Escape to Rim
+move y2 from Rim to Oddish
+build b2 at Skully
+convert g3 to b3 at Oddish
+convert b3 to g3 at Skully
+sacrifice y3 at Felix; move g1 from Oddish to Skully; move g2 from Oddish to Skully; move b3 from Oddish to Skully; catastrophe green at Skully

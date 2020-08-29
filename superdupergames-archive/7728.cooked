@@ -1,0 +1,56 @@
+Ts52 (0, y1g2) b3-
+Zoltar (1, b3y2) -g3
+build b1 at Ts52
+build g1 at Zoltar
+convert b1 to y1 at Ts52
+convert g1 to y1 at Zoltar
+build y2 at Ts52
+build y2 at Zoltar
+move y2 from Ts52 to Frogstar (g3)
+convert y1 to r1 at Zoltar
+convert y1 to r1 at Ts52
+move y2 from Zoltar to Greenpea (g1)
+build b1 at Ts52
+build g1 at Zoltar
+convert b1 to g1 at Ts52
+move g1 from Zoltar to Yellowjacket (y1)
+move g1 from Ts52 to Crikket (y3)
+build g2 at Zoltar
+build b1 at Ts52
+convert g2 to b2 at Zoltar
+move b1 from Ts52 to Crikket
+move b2 from Zoltar to Yellowjacket
+build b1 at Ts52
+build g2 at Zoltar
+build g2 at Crikket
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Yellowjacket; build b1 at Yellowjacket
+sacrifice y2 at Frogstar; move g1 from Crikket to Yellowjacket; move g2 from Crikket to Yellowjacket; catastrophe green at Yellowjacket
+move b1 from Yellowjacket to Greenland (g3)
+convert b1 to g1 at Crikket
+build b1 at Greenland
+convert b1 to g1 at Ts52
+convert b1 to y1 at Greenland
+build b1 at Ts52
+sacrifice g3 at Zoltar; build y2 at Greenland; build y3 at Greenland; build y3 at Greenpea
+build g2 at Crikket
+sacrifice b2 at Yellowjacket; convert y3 to g3 at Greenland; convert y3 to g3 at Greenpea
+convert b1 to y1 at Ts52
+sacrifice g3 at Greenland; build g3 at Zoltar; build y3 at Greenpea; build y3 at Greenpea
+move y1 from Ts52 to Grover (b3)
+move y2 from Greenpea to Grover
+move y1 from Grover to Gonzo (b2)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b1 at Greenland; build b1 at Greenland
+convert b3 to r3 at Ts52
+convert b1 to r1 at Greenland
+move g1 from Crikket to Gonzo
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Zoltar; build r2 at Greenland
+move r1 from Ts52 to Grape (b3)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Greenland; build r3 at Zoltar
+sacrifice g2 at Crikket; build g2 at Gonzo; build y3 at Gonzo
+sacrifice y3 at Greenpea; move y2 from Grover to Gonzo; move y1 from Greenland to Gonzo; move r1 from Greenland to Ts52; catastrophe yellow at Gonzo
+convert g2 to y2 at Gonzo
+build r3 at Ts52
+capture r3 at Ts52
+sacrifice y3 at Greenpea; move r2 from Greenland to Ts52; move g3 from Greenpea to Greenland; move g3 from Greenland to Ts52; catastrophe red at Ts52
+sacrifice y2 at Gonzo; move r1 from Grape to Pebble (g1); move r1 from Pebble to Zoltar; catastrophe red at Zoltar
+sacrifice g3 at Zoltar; build b1 at Greenland; build b2 at Greenland; build g1 at Ts52; catastrophe blue at Greenland; catastrophe green at Ts52

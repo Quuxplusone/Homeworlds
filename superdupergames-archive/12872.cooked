@@ -1,0 +1,14 @@
+Zoltar (0, r1b2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Zoltar
+build g1 at Twoshort
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Twoshort
+build g1 at Zoltar
+build g1 at Twoshort
+convert g1 to b1 at Zoltar
+build g1 at Twoshort
+build b1 at Zoltar
+convert g1 to r1 at Twoshort
+move b1 from Zoltar to Greenbelt (g3)
+build r2 at Twoshort

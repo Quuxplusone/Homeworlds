@@ -1,0 +1,18 @@
+Silenttitan (0, r1b2) g3-
+Ajo (1, b3y2) -g3
+build g1 at Silenttitan
+build g1 at Ajo
+convert g1 to y1 at Silenttitan
+convert g1 to r1 at Ajo
+build y1 at Silenttitan
+build r1 at Ajo
+move y1 from Silenttitan to Sol (b3)
+build r2 at Ajo
+sacrifice g3 at Silenttitan; build y1 at Sol; build y2 at Sol; build y2 at Silenttitan
+move r2 from Ajo to Alpha (b1)
+move y2 from Sol to Soul (g1)
+build r2 at Ajo
+build y3 at Soul
+move r1 from Ajo to Beta (b1)
+move y3 from Soul to Sole (g3)
+sacrifice g3 at Ajo; build r2 at Beta; build r3 at Alpha; build r3 at Ajo

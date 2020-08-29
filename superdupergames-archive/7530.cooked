@@ -1,0 +1,46 @@
+Mikeyarrum (0, b1y2) g3-
+Zoltar (1, b1g3) -b3
+build g1 at Mikeyarrum
+build b1 at Zoltar
+move g1 from Mikeyarrum to Sakaki (y3)
+convert b3 to y3 at Zoltar
+build g1 at Mikeyarrum
+build b2 at Zoltar
+convert g1 to y1 at Mikeyarrum
+convert b2 to r2 at Zoltar
+build g1 at Mikeyarrum
+build b2 at Zoltar
+move g1 from Mikeyarrum to Kagura (y3)
+move b2 from Zoltar to Greenhills (g2)
+build g1 at Mikeyarrum
+convert y3 to g3 at Zoltar
+sacrifice g3 at Mikeyarrum; build g2 at Sakaki; build g2 at Sakaki; build g3 at Mikeyarrum
+sacrifice g3 at Zoltar; build b2 at Greenhills; build b2 at Greenhills; build b3 at Zoltar
+sacrifice g3 at Mikeyarrum; build g3 at Kagura; build y1 at Mikeyarrum; build g3 at Mikeyarrum
+convert b3 to y3 at Zoltar
+move y1 from Mikeyarrum to Nyamo (b3)
+build b3 at Zoltar
+convert g1 to r1 at Mikeyarrum
+convert b3 to r3 at Zoltar
+sacrifice g2 at Sakaki; build y1 at Nyamo; build y2 at Nyamo
+convert b2 to y2 at Greenhills
+move y2 from Nyamo to Yukari (b2)
+build b3 at Greenhills
+convert g3 to r3 at Mikeyarrum
+convert b3 to r3 at Greenhills
+move g2 from Sakaki to Yukari
+move r3 from Zoltar to Yukari
+sacrifice y2 at Yukari; move g2 from Yukari to Nyamo; move g3 from Kagura to Mikeyarrum
+move r3 from Greenhills to Nyamo
+convert y1 to r1 at Nyamo
+build b3 at Greenhills
+move g2 from Nyamo to Greenhills
+sacrifice r2 at Zoltar; capture g2 at Greenhills; capture r1 at Nyamo
+sacrifice g3 at Mikeyarrum; build g1 at Kagura; build g2 at Sakaki; build y1 at Nyamo
+sacrifice g2 at Greenhills; build b3 at Zoltar; build y2 at Greenhills
+move g1 from Kagura to Greenhills
+sacrifice r3 at Yukari; capture g1 at Greenhills; capture y1 at Nyamo; capture y1 at Nyamo
+move g1 from Kagura to Greenhills
+sacrifice y2 at Greenhills; move y1 from Nyamo to Mikeyarrum; move y1 from Nyamo to Mikeyarrum; catastrophe yellow at Mikeyarrum
+move g1 from Sakaki to Greenhills; catastrophe green at Greenhills
+sacrifice y3 at Zoltar; move r1 from Nyamo to Mikeyarrum; move r3 from Nyamo to Mikeyarrum; catastrophe red at Mikeyarrum

@@ -1,0 +1,17 @@
+Trydnt (0, b3g1) y3-
+Dlwillson (1, b3r1) -g3
+build y1 at Trydnt
+build g1 at Dlwillson
+convert y1 to r1 at Trydnt
+convert g1 to r1 at Dlwillson
+build r2 at Trydnt
+build r2 at Dlwillson
+build r2 at Trydnt
+convert r2 to y2 at Dlwillson
+move r2 from Trydnt to Y2 (y2)
+build r2 at Dlwillson
+build r3 at Trydnt
+sacrifice y2 at Dlwillson; move r1 from Dlwillson to Y2; move r1 from Y2 to Trydnt; catastrophe red at Trydnt
+build y1 at Trydnt
+build r1 at Dlwillson
+move r2 from Y2 to Dlwillson; catastrophe red at Dlwillson

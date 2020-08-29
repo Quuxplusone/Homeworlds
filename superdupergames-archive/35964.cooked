@@ -1,0 +1,47 @@
+Zweiterlinde (0, y3g2) r3-
+Tkvaran (1, r2b1) -g3
+build r1 at Zweiterlinde
+build g1 at Tkvaran
+move r1 from Zweiterlinde to Mare (b1)
+convert g1 to y1 at Tkvaran
+build r1 at Zweiterlinde
+build y1 at Tkvaran
+move r1 from Zweiterlinde to Polis (r1)
+move y1 from Tkvaran to Coke (b3)
+build r2 at Zweiterlinde
+build y1 at Tkvaran
+move r2 from Zweiterlinde to Mare
+move y1 from Tkvaran to Pepsi (g3)
+convert r2 to y2 at Mare
+build y2 at Pepsi
+move r1 from Mare to Coke
+move y1 from Coke to Jolt (r2)
+build r2 at Zweiterlinde
+move y1 from Pepsi to Mare
+move r2 from Zweiterlinde to Mare
+move y2 from Pepsi to Polis
+build r3 at Zweiterlinde
+capture r1 at Polis
+move r3 from Zweiterlinde to Polis
+move y2 from Polis to Volt (b2)
+capture y1 at Mare
+build g1 at Tkvaran
+convert y2 to g2 at Mare
+build g1 at Tkvaran
+build y2 at Mare
+move g1 from Tkvaran to Sprite (y3)
+build r3 at Mare
+convert g1 to b1 at Tkvaran
+convert r3 to b3 at Mare
+build g1 at Sprite
+sacrifice y1 at Mare; move r3 from Polis to Sprite
+move g1 from Sprite to Rc (y1)
+capture g1 at Sprite
+build g1 at Rc
+build r3 at Sprite
+move b1 from Tkvaran to Squirt (g3)
+sacrifice y2 at Mare; move r3 from Sprite to Tkvaran; move r3 from Sprite to Tkvaran
+capture r3 at Tkvaran
+sacrifice r2 at Mare; capture r3 at Tkvaran; capture g3 at Tkvaran
+sacrifice y2 at Volt; move g1 from Rc to Zweiterlinde; move g1 from Rc to Zweiterlinde
+capture y1 at Tkvaran

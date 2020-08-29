@@ -1,0 +1,58 @@
+Magicjohn (0, g2y1) b3-
+Rootbier (1, b1y3) -g3
+build b1 at Magicjohn
+build g1 at Rootbier
+convert b3 to g3 at Magicjohn
+convert g1 to b1 at Rootbier
+build g1 at Magicjohn
+build b2 at Rootbier
+move g1 from Magicjohn to Dune (y3)
+move b2 from Rootbier to Nude (g2)
+move b1 from Magicjohn to Theshire (g3)
+build b2 at Rootbier
+build g1 at Magicjohn
+move b2 from Rootbier to Helmet (y2)
+move g1 from Magicjohn to Theshire
+sacrifice g3 at Rootbier; build b2 at Nude; build b3 at Helmet; build b3 at Rootbier
+build b3 at Theshire
+sacrifice b2 at Helmet; convert b3 to g3 at Rootbier; convert b2 to y2 at Nude
+convert b3 to y3 at Theshire
+sacrifice y2 at Nude; move b3 from Helmet to Dune; move b3 from Dune to Magicjohn
+sacrifice b1 at Theshire; convert g3 to r3 at Magicjohn
+sacrifice g3 at Rootbier; build b1 at Magicjohn; build b2 at Magicjohn; build b2 at Nude
+capture b3 at Magicjohn
+convert b2 to g2 at Nude
+capture b2 at Magicjohn
+sacrifice g2 at Nude; build b2 at Magicjohn; build b3 at Rootbier; catastrophe blue at Magicjohn
+build r1 at Magicjohn
+build b1 at Nude
+move r1 from Magicjohn to Loci (b3)
+convert b3 to r3 at Rootbier
+build r1 at Magicjohn
+build b2 at Nude
+move g1 from Theshire to Nude
+convert b2 to y2 at Nude
+build g1 at Dune
+build b2 at Nude
+sacrifice y3 at Theshire; move g1 from Dune to Nude; move g1 from Dune to Nude; catastrophe green at Nude
+convert b1 to g1 at Rootbier
+convert r1 to g1 at Loci
+build g1 at Rootbier
+move r3 from Magicjohn to Loci
+convert g1 to y1 at Rootbier
+build r1 at Loci
+build y1 at Rootbier
+convert r3 to g3 at Loci
+move y1 from Rootbier to Bamama (y2)
+build r1 at Loci
+build y2 at Rootbier
+convert g3 to y3 at Loci
+move y1 from Bamama to Bleak (g3)
+build y2 at Loci
+move y1 from Rootbier to Glowb (g2)
+convert y3 to g3 at Loci
+build y2 at Bleak
+build y3 at Loci
+sacrifice y2 at Rootbier; move y2 from Bleak to Magicjohn; move y1 from Bleak to Magicjohn
+build r2 at Magicjohn
+sacrifice r3 at Rootbier; capture r2 at Magicjohn; capture r1 at Magicjohn

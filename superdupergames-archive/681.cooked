@@ -1,0 +1,29 @@
+Twoshort (0, b3y1) g3-
+Tuxhedoh (1, r1y3) -g3
+build g1 at Twoshort
+build g1 at Tuxhedoh
+build g1 at Twoshort
+build g2 at Tuxhedoh
+move g1 from Twoshort to Bob (b2)
+move g1 from Tuxhedoh to Bob
+convert g1 to r1 at Bob
+convert g1 to b1 at Bob
+capture b1 at Bob
+build g1 at Tuxhedoh
+build g1 at Twoshort
+move g2 from Tuxhedoh to Bob
+move g1 from Twoshort to Bob
+move g1 from Tuxhedoh to Tux2 (y2)
+move g1 from Twoshort to Joe (b2)
+convert g2 to r2 at Bob
+build b1 at Bob
+capture g1 at Bob
+convert r1 to b1 at Bob; catastrophe blue at Bob
+build g1 at Tuxhedoh
+build g2 at Twoshort
+build g2 at Tuxhedoh
+convert g3 to y3 at Twoshort
+move g2 from Tuxhedoh to Joe
+build g2 at Twoshort
+build g3 at Tuxhedoh
+sacrifice y3 at Twoshort; move g1 from Joe to Tuxhedoh; catastrophe green at Tuxhedoh

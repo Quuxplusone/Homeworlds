@@ -1,0 +1,72 @@
+Chivenger (0, y1b2) g3-
+Ladybugsfly (1, g3y2) -b3
+build g1 at Chivenger
+build b1 at Ladybugsfly
+build g1 at Chivenger
+move b1 from Ladybugsfly to Frodo (g1)
+convert g1 to b1 at Chivenger
+build b1 at Frodo
+build b2 at Chivenger
+convert b1 to y1 at Frodo
+move b2 from Chivenger to Bilbo (g3)
+build y1 at Frodo
+build b1 at Bilbo
+build y2 at Frodo
+convert b2 to y2 at Bilbo
+move y1 from Frodo to Bilbo
+build b2 at Bilbo
+convert y2 to g2 at Frodo
+convert b2 to r2 at Bilbo
+sacrifice g2 at Frodo; build y2 at Bilbo; build y3 at Frodo
+move y2 from Bilbo to Frodo
+convert y3 to r3 at Frodo
+capture y2 at Bilbo
+move y1 from Bilbo to Chivenger
+build y3 at Bilbo
+convert y1 to g1 at Chivenger
+sacrifice y2 at Frodo; move g1 from Chivenger to Bilbo; move r2 from Bilbo to Chivenger
+move b1 from Frodo to Pippin (y3)
+convert y3 to r3 at Bilbo
+sacrifice g1 at Chivenger; build b2 at Pippin
+sacrifice y2 at Bilbo; move r3 from Bilbo to Frodo; move r3 from Frodo to Ladybugsfly
+sacrifice r3 at Frodo; capture r3 at Ladybugsfly
+build b2 at Bilbo
+build y1 at Frodo
+build b3 at Bilbo
+build b3 at Ladybugsfly
+convert b3 to y3 at Bilbo
+convert b3 to y3 at Ladybugsfly
+move b2 from Bilbo to Gollum (g1)
+build y2 at Frodo
+build b3 at Gollum
+move y2 from Frodo to Merry (b3)
+sacrifice y3 at Bilbo; move b2 from Gollum to Pippin; move b1 from Chivenger to Pippin; move r2 from Chivenger to Merry; catastrophe blue at Pippin
+move y2 from Merry to Chivenger
+build g2 at Bilbo
+convert y2 to g2 at Chivenger
+convert g1 to r1 at Bilbo
+move g2 from Chivenger to Samwise (y3)
+build r1 at Bilbo
+build g1 at Samwise
+convert g2 to y2 at Bilbo
+build g2 at Samwise
+sacrifice y2 at Bilbo; move r2 from Merry to Chivenger; move b3 from Gollum to Samwise
+move y1 from Frodo to Smeagol (b3)
+sacrifice r1 at Bilbo; capture g2 at Samwise
+sacrifice g2 at Samwise; build y2 at Smeagol; build y2 at Frodo
+convert b3 to y3 at Samwise
+sacrifice y3 at Ladybugsfly; move g1 from Samwise to Frodo; move y1 from Smeagol to Chivenger; move y2 from Smeagol to Chivenger
+sacrifice y3 at Samwise; move r1 from Bilbo to Frodo; move b1 from Bilbo to Frodo; move g2 from Samwise to Frodo
+sacrifice r3 at Ladybugsfly; capture g2 at Frodo; capture b1 at Frodo; capture r1 at Frodo
+capture y2 at Chivenger
+sacrifice y2 at Frodo; move y1 from Frodo to Baggins (b3); move y1 from Baggins to Chivenger; catastrophe yellow at Chivenger
+build g1 at Chivenger
+convert g1 to b1 at Frodo
+convert g1 to y1 at Chivenger
+convert g2 to y2 at Frodo
+build r1 at Chivenger
+build b1 at Frodo
+convert r2 to y2 at Chivenger
+move b1 from Frodo to Chivenger
+convert g3 to r3 at Chivenger
+sacrifice y2 at Frodo; move b1 from Frodo to Chivenger; move b1 from Frodo to Chivenger; catastrophe blue at Chivenger

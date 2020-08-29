@@ -1,0 +1,24 @@
+Aristos (0, b3r2) g3-
+Draw5Playall (1, b1r3) -g3
+build g1 at Aristos
+build g1 at Draw5Playall
+convert g3 to y3 at Aristos
+convert g1 to y1 at Draw5Playall
+build y1 at Aristos
+build g1 at Draw5Playall
+move y1 from Aristos to Mold (g1)
+build g2 at Draw5Playall
+build g2 at Aristos
+convert g2 to b2 at Draw5Playall
+move g1 from Aristos to Plum (b1)
+move b2 from Draw5Playall to G2 (g2)
+build y1 at Aristos
+build y2 at Draw5Playall
+build y2 at Mold
+convert y2 to r2 at Draw5Playall
+convert y1 to r1 at Aristos
+convert g1 to b1 at Draw5Playall
+build g1 at Aristos
+sacrifice g3 at Draw5Playall; build b2 at G2; build b2 at G2; build b3 at Draw5Playall
+build g2 at Plum
+convert b3 to g3 at Draw5Playall

@@ -1,0 +1,44 @@
+Makertron (0, b1y2) g3-
+Granthenninger (1, y1b2) -g3
+build g1 at Makertron
+build g1 at Granthenninger
+move g1 from Makertron to L2 (y3)
+convert g1 to y1 at Granthenninger
+build g1 at L2
+build y1 at Granthenninger
+build g1 at Makertron
+convert y1 to r1 at Granthenninger
+convert g1 to r1 at Makertron
+build g1 at Granthenninger
+move r1 from Makertron to L2
+convert g1 to b1 at Granthenninger
+build g1 at Makertron
+build g2 at Granthenninger
+convert g1 to b1 at Makertron
+sacrifice g2 at Granthenninger; build b2 at Granthenninger; build b2 at Granthenninger
+build g1 at Makertron
+convert b2 to r2 at Granthenninger
+build b2 at Makertron
+move b1 from Granthenninger to Gmh1 (y3)
+convert b1 to y1 at Makertron
+build g2 at Granthenninger
+build g2 at L2
+sacrifice g3 at Granthenninger; build g2 at Granthenninger; build g3 at Granthenninger; build g3 at Granthenninger
+convert g1 to r1 at Makertron
+move g2 from Granthenninger to L2; catastrophe green at L2
+build g1 at Makertron
+build y2 at Granthenninger
+build r2 at Makertron
+move r1 from Granthenninger to Gmh1
+build y2 at Makertron
+sacrifice y2 at Granthenninger; move y1 from Granthenninger to Gmh1; move y1 from Gmh1 to Makertron; catastrophe yellow at Makertron
+convert g1 to y1 at Makertron
+sacrifice g3 at Granthenninger; build b1 at Gmh1; build b3 at Gmh1; build b3 at Granthenninger
+build g1 at Makertron
+convert b1 to g1 at Gmh1
+move g1 from Makertron to L2
+convert b3 to y3 at Granthenninger
+build r2 at Makertron
+sacrifice g3 at Granthenninger; build r3 at Gmh1; build r3 at Gmh1; build r3 at Granthenninger
+build b1 at Makertron
+move b1 from Gmh1 to Makertron; catastrophe blue at Makertron

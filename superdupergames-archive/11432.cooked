@@ -1,0 +1,98 @@
+Madwuher (0, r1b3) g3-
+Danner (1, b1r2) -g3
+build g1 at Madwuher
+build g1 at Danner
+convert g1 to y1 at Madwuher
+convert g1 to y1 at Danner
+build g1 at Madwuher
+build g1 at Danner
+convert g1 to b1 at Madwuher
+convert g1 to b1 at Danner
+build b2 at Madwuher
+build b2 at Danner
+build g1 at Madwuher
+convert b2 to r2 at Danner
+convert b2 to r2 at Madwuher
+build b2 at Danner
+build b2 at Madwuher
+move b1 from Danner to Sun (y3)
+move b1 from Madwuher to Earth (g2)
+build r1 at Danner
+move b2 from Madwuher to Abydos (y2)
+convert r2 to g2 at Danner
+move b2 from Abydos to Chulak (y3)
+move y1 from Danner to Tollan (b3)
+build g1 at Madwuher
+build g1 at Danner
+move g1 from Madwuher to Abydos (y2)
+convert g1 to y1 at Danner
+sacrifice g3 at Madwuher; build b2 at Chulak; build b3 at Earth; build y2 at Madwuher
+move b2 from Danner to Tollana (g3)
+move g1 from Abydos to Chulak
+build y2 at Danner
+move y1 from Madwuher to Earth
+sacrifice g2 at Danner; build y2 at Danner; build y3 at Tollan
+sacrifice y2 at Madwuher; move y1 from Earth to Chulak; move y1 from Chulak to Danner; catastrophe yellow at Danner
+move y3 from Tollan to Abydos (r2)
+sacrifice b2 at Chulak; convert b3 to g3 at Earth; convert g1 to y1 at Madwuher
+move y3 from Abydos to Madwuher
+sacrifice g3 at Earth; build y1 at Madwuher; build y2 at Madwuher; build g1 at Chulak; catastrophe yellow at Madwuher
+build r1 at Danner
+move g1 from Chulak to Madrona (y2)
+convert r1 to y1 at Danner
+move g1 from Madrona to Atlantis (b3)
+build b2 at Tollana
+sacrifice g1 at Atlantis; build b3 at Earth
+build y1 at Danner
+convert b3 to y3 at Earth
+convert b2 to y2 at Tollana
+build y2 at Earth
+build y2 at Tollana
+move y3 from Earth to Madwuher
+convert b1 to g1 at Sun
+build b1 at Chulak
+sacrifice g1 at Sun; build y3 at Danner
+build g1 at Chulak
+move y3 from Danner to Chulak
+move b2 from Chulak to Earth
+build b2 at Tollana
+move b2 from Earth to Tollan
+convert b2 to r2 at Tollana
+move g1 from Chulak to Earth
+move r1 from Danner to Chulak
+move g1 from Earth to Madwuher
+capture g1 at Chulak
+move b1 from Chulak to Abydos (g2)
+move y3 from Chulak to Earth
+move y2 from Earth to Tollan
+move r2 from Tollana to Abydos
+build b2 at Abydos
+capture b2 at Abydos
+build b3 at Abydos
+move b2 from Tollana to Abydos; catastrophe blue at Abydos
+build b1 at Earth
+sacrifice r2 at Abydos; capture b1 at Earth; capture b1 at Earth
+move b2 from Tollan to Hanka (g2)
+convert b1 to r1 at Earth
+move r2 from Madwuher to Hanka
+move y3 from Earth to Tollan
+move y2 from Tollan to Earth
+move y3 from Tollan to Earth
+move y2 from Earth to Chulak
+move y3 from Earth to Chulak
+move y2 from Chulak to Earth
+move y3 from Chulak to Earth
+move y2 from Earth to Madwuher
+move y3 from Earth to Madwuher
+capture y3 at Madwuher
+sacrifice y2 at Tollana; move y1 from Tollan to Earth; move y1 from Earth to Madwuher; catastrophe yellow at Madwuher
+convert b2 to y2 at Hanka
+build g1 at Danner
+build r2 at Hanka
+sacrifice g3 at Danner; build g2 at Chulak; build g3 at Danner; build g3 at Chulak
+move r2 from Hanka to Madwuher
+sacrifice g3 at Chulak; build g3 at Chulak; build r3 at Chulak; build r3 at Earth
+build r3 at Hanka
+sacrifice y2 at Tollana; move g3 from Chulak to Earth; move g3 from Earth to Madwuher
+sacrifice y2 at Hanka; move r3 from Hanka to Madwuher; move r2 from Hanka to Madwuher; catastrophe red at Madwuher
+sacrifice g3 at Danner; build g2 at Madwuher; build g3 at Madwuher; build g3 at Danner; catastrophe green at Madwuher

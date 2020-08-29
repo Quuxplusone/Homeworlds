@@ -1,0 +1,57 @@
+Babamots (0, y2b1) g3-
+Wil (1, b3y1) -g3
+build g1 at Babamots
+build g1 at Wil
+convert g1 to y1 at Babamots
+convert g1 to y1 at Wil
+build y2 at Babamots
+build y2 at Wil
+move y1 from Babamots to Tellar (g3)
+move y1 from Wil to G2 (g2)
+build y3 at Tellar
+build y3 at G2
+move y1 from Tellar to Andor (b2)
+move y3 from G2 to Y3 (y3)
+convert y2 to r2 at Babamots
+convert y2 to r2 at Wil
+build y2 at Tellar
+build y2 at G2
+build r1 at Babamots
+build r1 at Wil
+move y3 from Tellar to G2
+sacrifice y1 at G2; move y2 from G2 to R3 (r3)
+build y1 at G2
+move r2 from Wil to Andor
+sacrifice y2 at Tellar; move y1 from Andor to Y3; move y1 from G2 to Y3; catastrophe yellow at Y3
+build r1 at Wil
+move r1 from Babamots to Kronos (b3)
+convert r1 to b1 at Wil
+move y3 from G2 to R3
+move y2 from R3 to G2 (g2)
+move y3 from R3 to Andor
+convert r2 to b2 at Andor
+sacrifice r1 at Kronos; capture b2 at Andor
+move b1 from Wil to G2
+move b2 from Andor to Vulcan (g1)
+build r1 at Wil
+build g1 at Babamots
+convert r1 to b1 at Wil
+move g1 from Babamots to Orion (b3)
+build r1 at Wil
+build g1 at Babamots
+build g2 at Wil
+sacrifice g3 at Babamots; build g2 at Babamots; build g3 at Orion; build g3 at Babamots
+sacrifice g3 at Wil; build b2 at G2; build b3 at G2; build g3 at Wil
+sacrifice y3 at Andor; move g3 from Orion to Andor (b2); move g2 from Babamots to Orion; move b2 from Vulcan to G2; catastrophe blue at G2
+build b1 at Wil
+convert g2 to y2 at Orion
+move b1 from Wil to G2
+sacrifice g3 at Babamots; build g1 at Andor; build g2 at Orion; build g3 at Babamots
+sacrifice g3 at Wil; build g3 at Wil; build b2 at G2; build y1 at G2
+convert g3 to b3 at Andor
+move b1 from Wil to Andor
+convert b3 to y3 at Andor
+move b1 from G2 to G3 (g3)
+sacrifice y3 at Andor; move g1 from Andor to Wil; move g1 from Orion to Andor; move g1 from Andor to Wil; catastrophe green at Wil
+move y1 from G2 to G3
+sacrifice y2 at Orion; move g2 from Orion to Andor; move g2 from Andor to Wil

@@ -1,0 +1,37 @@
+Mneme (0, r1b2) g3-
+Laurie_Menke (1, r3b2) -g3
+build g1 at Mneme
+build g1 at Laurie_Menke
+convert g1 to y1 at Mneme
+convert g1 to y1 at Laurie_Menke
+build g1 at Mneme
+build g1 at Laurie_Menke
+convert g1 to b1 at Mneme
+build g1 at Laurie_Menke
+build b1 at Mneme
+move g1 from Laurie_Menke to Yellow (y1)
+build y2 at Mneme
+build y2 at Laurie_Menke
+move y1 from Mneme to Chartruse (g3)
+move y1 from Laurie_Menke to Yellow
+move b1 from Mneme to Chartruse
+move y1 from Yellow to Red (r3)
+sacrifice g3 at Mneme; build b1 at Chartruse; build b2 at Chartruse; build b3 at Mneme
+sacrifice g3 at Laurie_Menke; build y2 at Red; build y3 at Laurie_Menke; build g1 at Laurie_Menke
+build y3 at Chartruse
+move g1 from Yellow to Yoink (y3)
+move b2 from Chartruse to Fuchsia (r1)
+move g1 from Laurie_Menke to Sunshine (y1)
+move y3 from Chartruse to Fuchsia
+move g1 from Sunshine to Shadow (b3)
+build b3 at Chartruse
+build g2 at Shadow
+convert b3 to r3 at Chartruse
+convert y3 to g3 at Laurie_Menke
+convert b3 to g3 at Mneme
+convert g1 to y1 at Shadow
+sacrifice g3 at Mneme; build y3 at Chartruse; build b3 at Mneme; build b3 at Fuchsia
+sacrifice y2 at Red; move y1 from Red to Mneme; move y1 from Shadow to Mneme
+sacrifice y2 at Mneme; move y3 from Fuchsia to Laurie_Menke; move b3 from Fuchsia to Laurie_Menke
+convert g2 to r2 at Shadow
+sacrifice r3 at Chartruse; capture g3 at Laurie_Menke; capture g1 at Laurie_Menke; capture y2 at Laurie_Menke

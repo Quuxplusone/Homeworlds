@@ -1,0 +1,48 @@
+Mtwomey (0, r3b2) g3-
+Zoltar (1, y1b2) -g3
+build g1 at Mtwomey
+build g1 at Zoltar
+convert g1 to y1 at Mtwomey
+build g1 at Zoltar
+build g1 at Mtwomey
+convert g1 to y1 at Zoltar
+move g1 from Mtwomey to Beakstar (b1)
+build y2 at Zoltar
+build y2 at Mtwomey
+move y2 from Zoltar to Greenbelt (g3)
+build g1 at Beakstar
+convert g1 to r1 at Zoltar
+convert g1 to r1 at Beakstar
+convert y1 to b1 at Zoltar
+move y2 from Mtwomey to Beakstar
+build b1 at Zoltar
+convert y2 to b2 at Beakstar
+convert b1 to g1 at Zoltar
+build y1 at Mtwomey
+build y2 at Greenbelt
+build y2 at Mtwomey
+move y2 from Greenbelt to Greenwich (g2)
+convert y1 to b1 at Mtwomey
+move b1 from Zoltar to Greenbelt
+convert b1 to g1 at Mtwomey
+convert g1 to b1 at Zoltar
+sacrifice y1 at Mtwomey; move b2 from Beakstar to Jellybeast (g2)
+build b3 at Greenbelt
+build b3 at Jellybeast
+convert b3 to r3 at Greenbelt
+build b3 at Jellybeast
+move b1 from Greenbelt to Jellybeast; catastrophe blue at Jellybeast
+convert r1 to y1 at Beakstar
+move r3 from Greenbelt to Beakstar
+convert g3 to r3 at Mtwomey
+capture y1 at Beakstar
+sacrifice g1 at Beakstar; build y1 at Mtwomey
+build g1 at Zoltar
+move y1 from Mtwomey to Kalmar (b1)
+sacrifice g3 at Zoltar; build y3 at Beakstar; build y3 at Greenwich; build y3 at Greenbelt
+move y2 from Mtwomey to Canfield (g1)
+build b2 at Zoltar
+build g2 at Mtwomey
+move b2 from Zoltar to Greenbelt
+move y1 from Kalmar to Mtwomey
+build b1 at Greenbelt

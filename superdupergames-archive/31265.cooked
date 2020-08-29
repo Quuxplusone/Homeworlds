@@ -1,0 +1,77 @@
+Bhorner (0, b2y1) g3-
+W00T (1, b3r2) -g3
+build g1 at Bhorner
+build g1 at W00T
+convert g1 to y1 at Bhorner
+convert g1 to y1 at W00T
+build y2 at Bhorner
+build y2 at W00T
+convert y2 to r2 at Bhorner
+build y2 at W00T
+move y1 from Bhorner to Plants (g3)
+convert y1 to r1 at W00T
+build g1 at Bhorner
+move r1 from W00T to Boop (g1)
+move g1 from Bhorner to Bigbird (y3)
+move y2 from W00T to Boop
+build g1 at Bhorner
+build g2 at W00T
+sacrifice g3 at Bhorner; build g2 at Bigbird; build g2 at Bigbird; build g3 at Bhorner
+build y1 at Boop
+move g1 from Bhorner to Sunny (y3)
+sacrifice g3 at W00T; build g3 at W00T; build y2 at W00T; build y3 at W00T
+sacrifice g1 at Sunny; build y3 at Plants
+move y2 from Boop to Rawr (r3)
+move g2 from Bigbird to Boop
+sacrifice y2 at W00T; move y1 from Boop to Blue (b3); move r1 from Boop to Blue
+move y1 from Plants to Boop
+move g3 from W00T to Another_Bop (r1)
+move g1 from Bigbird to Stickynote (y2)
+move y2 from W00T to Another_Bop
+sacrifice g2 at Bigbird; build y3 at Boop; build r1 at Bhorner
+sacrifice y2 at Another_Bop; move y1 from Blue to Boop; move y2 from Rawr to Boop; catastrophe yellow at Boop
+move r1 from Bhorner to Bigbird (y3)
+build y1 at W00T
+build y1 at Plants
+move y1 from W00T to Another_Bop
+sacrifice g2 at Boop; build r2 at Bhorner; build r3 at Bigbird
+build y2 at Another_Bop
+move r1 from Bigbird to Sticknote (y2)
+sacrifice g2 at W00T; build r3 at Blue; build g1 at Another_Bop
+build g1 at Bhorner
+move y1 from Another_Bop to Plants
+move y3 from Plants to Grover (b1)
+sacrifice r1 at Blue; capture y1 at Plants
+build g2 at Stickynote
+move g3 from Another_Bop to Blue
+sacrifice g2 at Stickynote; build r1 at Bigbird; build r3 at Sticknote
+build g2 at Blue
+sacrifice y3 at Grover; move g1 from Stickynote to Blue; move g1 from Bhorner to Blue; move r2 from Bhorner to Plants; catastrophe green at Blue
+sacrifice y2 at Another_Bop; move r3 from Blue to Another_Bop; move r3 from Another_Bop to Plants
+move r1 from Sticknote to Plants
+move r3 from Plants to Bravelyrunaway (b1)
+capture y1 at Plants
+move y1 from Plants to Bravelyrunaway
+build y2 at Plants
+sacrifice g1 at Another_Bop; build y2 at W00T
+move r3 from Sticknote to Snuffy (y3)
+convert y2 to g2 at W00T
+move y1 from Plants to Spark (r1)
+sacrifice g2 at W00T; build y2 at W00T; build y2 at Bravelyrunaway
+build g1 at Bhorner
+convert y1 to g1 at Bravelyrunaway
+sacrifice g1 at Bhorner; build y1 at Spark
+convert y2 to g2 at W00T
+build y2 at Plants
+move r3 from Bravelyrunaway to Nothing2See (b3)
+move r2 from Plants to Bravelyrunaway
+sacrifice y2 at Bravelyrunaway; move r3 from Nothing2See to Spark; move r3 from Spark to Plants
+sacrifice y2 at Plants; move r2 from Bravelyrunaway to Plants; move r1 from Bigbird to Stickynote (y2)
+capture y2 at Plants
+move r1 from Stickynote to Plants; catastrophe red at Plants
+build y2 at Plants
+build g1 at Bhorner
+build y2 at W00T
+move y1 from Spark to Bubble (b3)
+build g1 at Bravelyrunaway
+build r1 at Bhorner

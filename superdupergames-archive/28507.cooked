@@ -1,0 +1,30 @@
+Wil (0, y3b1) g3-
+Endo (1, y1b2) -g3
+build g1 at Wil
+build g1 at Endo
+convert g1 to b1 at Wil
+convert g1 to y1 at Endo
+build b1 at Wil
+build y1 at Endo
+move b1 from Wil to G2 (g2)
+move y1 from Endo to Well (b3)
+sacrifice g3 at Wil; build b2 at G2; build b2 at G2; build b3 at Wil
+build y2 at Endo
+convert b2 to y2 at G2
+move y1 from Endo to Lattice (b3)
+build y2 at G2
+build g1 at Endo
+move y2 from G2 to G3 (g3)
+sacrifice g3 at Endo; build g1 at Endo; build y3 at Well; build y3 at Lattice
+convert b3 to g3 at Wil
+convert y1 to r1 at Well
+convert b2 to r2 at G2
+sacrifice y2 at Endo; move y3 from Well to Endo; move y3 from Lattice to G2
+build y1 at G2
+sacrifice r1 at Well; capture r2 at G2
+move y2 from G3 to G2; catastrophe yellow at G2
+capture b1 at G2
+build b2 at Wil
+sacrifice y1 at Lattice; move b1 from G2 to Wil; catastrophe blue at Wil
+build g1 at Wil
+move y3 from Endo to Wil

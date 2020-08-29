@@ -1,0 +1,47 @@
+Dlwillson (0, b3y1) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Dlwillson
+build g1 at Ts52
+move g1 from Dlwillson to Sky (b2)
+move g1 from Ts52 to Grover (b3)
+build g1 at Dlwillson
+build g2 at Grover
+build g2 at Dlwillson
+convert g2 to y2 at Grover
+move g2 from Dlwillson to Sea (b2)
+build g2 at Grover
+sacrifice g3 at Dlwillson; build g2 at Sky; build g3 at Sea; build g3 at Dlwillson
+convert g2 to r2 at Grover
+convert g1 to r1 at Dlwillson
+build y1 at Grover
+convert g2 to y2 at Sky
+build g1 at Grover
+sacrifice g3 at Sea; build g2 at Dlwillson; build g2 at Sky; build g3 at Sea
+sacrifice y2 at Grover; move g1 from Grover to Sea; move g1 from Grover to Sea; catastrophe green at Sea
+move g2 from Sky to Sea (b3)
+build g1 at Ts52
+sacrifice g3 at Dlwillson; build g1 at Sea; build g2 at Sky; build g3 at Dlwillson
+convert g1 to r1 at Ts52
+sacrifice g3 at Dlwillson; build g1 at Dlwillson; build g3 at Sea; build g3 at Dlwillson
+build r1 at Ts52
+convert g3 to y3 at Sea
+convert r1 to b1 at Ts52
+build g3 at Sea
+build r1 at Ts52
+convert g3 to r3 at Sea
+move r1 from Ts52 to Kermit (g3)
+move g1 from Sea to Ts52
+build r2 at Ts52
+sacrifice y3 at Sea; move g2 from Sea to Ts52; move g1 from Sky to Sea; move g1 from Sea to Ts52; catastrophe green at Ts52
+convert r2 to g2 at Ts52
+sacrifice y2 at Sky; move r3 from Sea to Ts52; move g2 from Sky to Grover
+sacrifice g2 at Ts52; build r2 at Ts52; build r2 at Ts52; catastrophe red at Ts52
+sacrifice r1 at Dlwillson; capture r2 at Grover
+sacrifice y1 at Grover; move r1 from Kermit to Ts52
+convert g2 to y2 at Dlwillson
+convert b1 to g1 at Ts52
+sacrifice y2 at Dlwillson; move g2 from Grover to Ts52; move r2 from Grover to Ts52
+build g1 at Ts52
+sacrifice r2 at Ts52; capture r1 at Ts52; capture g1 at Ts52
+pass
+capture g1 at Ts52

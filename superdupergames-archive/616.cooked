@@ -1,0 +1,26 @@
+Matrixfrog (0, b2y1) r3-
+Jesse (1, b3y1) -g3
+convert r3 to g3 at Matrixfrog
+build g1 at Jesse
+convert g3 to r3 at Matrixfrog
+convert g1 to y1 at Jesse
+convert r3 to g3 at Matrixfrog
+build y2 at Jesse
+build g1 at Matrixfrog
+move y2 from Jesse to Moss (g2)
+build g1 at Matrixfrog
+build y2 at Jesse
+convert g3 to r3 at Matrixfrog
+convert y2 to r2 at Jesse
+move r3 from Matrixfrog to Green (g3)
+build y2 at Jesse
+build r1 at Green
+build y2 at Moss
+build g1 at Matrixfrog
+move y1 from Jesse to Smurf (b2)
+convert g1 to b1 at Matrixfrog
+sacrifice g3 at Jesse; build y3 at Moss; build y3 at Smurf; build y3 at Jesse
+move b1 from Matrixfrog to Green
+convert y2 to g2 at Jesse
+build g1 at Matrixfrog
+sacrifice y3 at Moss; move g2 from Jesse to Moss; move g2 from Moss to Boom (b3); move g2 from Boom to Matrixfrog; catastrophe green at Matrixfrog

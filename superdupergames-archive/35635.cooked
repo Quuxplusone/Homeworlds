@@ -1,0 +1,57 @@
+Capi3101 (0, g1b2) y3-
+Rho0 (1, r3g2) -b3
+build y1 at Capi3101
+build b1 at Rho0
+build y1 at Capi3101
+build b1 at Rho0
+convert y1 to r1 at Capi3101
+convert b1 to y1 at Rho0
+build r1 at Capi3101
+convert b1 to g1 at Rho0
+convert r1 to g1 at Capi3101
+build g2 at Rho0
+build g2 at Capi3101
+move g2 from Rho0 to Alpha (r1)
+convert g2 to b2 at Capi3101
+move g1 from Rho0 to Bravo (b1)
+build b1 at Capi3101
+build b1 at Rho0
+move b2 from Capi3101 to Charlie (g3)
+sacrifice g2 at Alpha; build y1 at Rho0; build y2 at Rho0
+build y2 at Capi3101
+build g2 at Bravo
+build b2 at Charlie
+move b1 from Rho0 to Bravo
+move y2 from Capi3101 to Charlie
+move y1 from Rho0 to Bravo
+move b2 from Charlie to Bravo
+move b1 from Bravo to Delta (y3)
+sacrifice r1 at Capi3101; capture g2 at Bravo
+convert b3 to g3 at Rho0
+build b3 at Charlie
+build g2 at Bravo
+convert g2 to r2 at Bravo
+move g2 from Bravo to Delta
+sacrifice r2 at Bravo; capture g1 at Bravo; capture y1 at Bravo
+build b3 at Delta
+convert b2 to g2 at Bravo
+sacrifice b1 at Delta; convert g3 to r3 at Rho0
+convert g1 to r1 at Capi3101
+build b1 at Delta
+move b1 from Capi3101 to Delta
+move y1 from Rho0 to Bravo
+move y1 from Capi3101 to Charlie
+move b1 from Delta to Echo (r2)
+move y1 from Charlie to Foxtrot (r1)
+build g1 at Delta
+sacrifice b2 at Charlie; convert y1 to r1 at Foxtrot; convert g2 to r2 at Bravo
+sacrifice g2 at Delta; build g2 at Delta; build y1 at Rho0
+sacrifice y2 at Charlie; move r1 from Foxtrot to Rho0; move r2 from Bravo to Rho0; catastrophe red at Rho0
+sacrifice g2 at Delta; build g2 at Delta; build b2 at Echo
+build y2 at Capi3101
+move g2 from Delta to Rho0
+convert y3 to r3 at Capi3101
+build g2 at Delta
+sacrifice y1 at Bravo; move b3 from Charlie to Rho0
+move b3 from Delta to Rho0
+sacrifice r3 at Capi3101; capture b3 at Rho0; capture y2 at Rho0; capture g2 at Rho0

@@ -1,0 +1,39 @@
+Felix (0, b2g3) y3-
+Smokeytroll42 (1, b3r1) -g3
+build y1 at Felix
+build g1 at Smokeytroll42
+convert y1 to r1 at Felix
+convert g1 to y1 at Smokeytroll42
+build r1 at Felix
+build y1 at Smokeytroll42
+move r1 from Felix to Out (g1)
+build g1 at Smokeytroll42
+build r2 at Felix
+build g1 at Smokeytroll42
+convert r2 to g2 at Felix
+move g1 from Smokeytroll42 to Garden (b2)
+move g2 from Felix to Opus (b1)
+build g2 at Garden
+build g2 at Opus
+build g3 at Smokeytroll42
+convert g2 to y2 at Opus
+convert g3 to r3 at Smokeytroll42
+build g2 at Opus
+convert g2 to y2 at Garden
+move g2 from Opus to Garden
+move r3 from Smokeytroll42 to Garden
+build g2 at Garden
+capture g2 at Garden
+build g3 at Opus
+sacrifice y2 at Garden; move g2 from Garden to Opus; move g1 from Garden to Opus; catastrophe green at Opus
+sacrifice g2 at Garden; build y1 at Felix; build y2 at Opus
+move y1 from Smokeytroll42 to Garden
+convert y2 to g2 at Opus
+move r3 from Garden to Opus
+sacrifice y2 at Opus; move g2 from Opus to Garden; move r1 from Out to Garden
+move y1 from Garden to Opus
+build r2 at Garden
+move g3 from Smokeytroll42 to Garden
+sacrifice y1 at Felix; move g2 from Garden to Smokeytroll42
+sacrifice y1 at Opus; move g3 from Garden to Smokeytroll42
+build g1 at Smokeytroll42; catastrophe green at Smokeytroll42

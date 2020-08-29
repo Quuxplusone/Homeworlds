@@ -1,0 +1,35 @@
+Morganfitzp (0, b1r2) g3-
+Lambda (1, b2y3) -g3
+build g1 at Morganfitzp
+build g1 at Lambda
+convert g1 to y1 at Morganfitzp
+build g1 at Lambda
+build y1 at Morganfitzp
+convert g1 to y1 at Lambda
+move y1 from Morganfitzp to Cama (g3)
+move y1 from Lambda to Altair (g1)
+build y2 at Morganfitzp
+build y2 at Altair
+build y2 at Cama
+move y1 from Altair to Betelgeuse (b3)
+convert y1 to b1 at Morganfitzp
+convert g1 to b1 at Lambda
+move b1 from Morganfitzp to Cama
+build g1 at Lambda
+build b2 at Cama
+move b1 from Lambda to Mira (g1)
+convert b1 to r1 at Cama
+build g2 at Lambda
+move y2 from Cama to Mira
+convert g2 to r2 at Lambda
+build g2 at Morganfitzp
+build g2 at Lambda
+sacrifice g3 at Morganfitzp; build y1 at Cama; build y3 at Mira; build y3 at Morganfitzp
+move g2 from Lambda to Sirius (b1)
+move y1 from Cama to Fogo (r1)
+sacrifice g3 at Lambda; build g2 at Sirius; build g3 at Sirius; build g3 at Lambda
+sacrifice y2 at Mira; move g2 from Morganfitzp to Cama; move g2 from Cama to Sirius; catastrophe green at Sirius
+build y2 at Altair
+convert y2 to g2 at Morganfitzp
+move g1 from Lambda to Sirius (b1)
+convert y3 to g3 at Morganfitzp

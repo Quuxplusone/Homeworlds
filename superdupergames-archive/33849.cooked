@@ -1,0 +1,75 @@
+Trydnt (0, b2r1) g3-
+Felix (1, y2b3) -g3
+build g1 at Trydnt
+build g1 at Felix
+convert g1 to r1 at Trydnt
+convert g1 to r1 at Felix
+build r2 at Trydnt
+build r2 at Felix
+convert r1 to y1 at Trydnt
+convert r2 to y2 at Felix
+build y1 at Trydnt
+build y1 at Felix
+build y2 at Trydnt
+move y1 from Felix to Out (b1)
+convert y1 to b1 at Trydnt
+build y1 at Felix
+build b1 at Trydnt
+move y1 from Felix to Rim (g1)
+sacrifice y2 at Trydnt; move r2 from Trydnt to Y3 (y3); move b1 from Trydnt to Y33 (y3)
+build g1 at Felix
+sacrifice g3 at Trydnt; build b2 at Y33; build b2 at Y33; build b3 at Trydnt
+build y2 at Rim
+convert b3 to y3 at Trydnt
+sacrifice y2 at Rim; move y1 from Rim to Y33; move y1 from Y33 to Trydnt
+convert y3 to g3 at Trydnt
+sacrifice g3 at Felix; build y2 at Trydnt; build y3 at Out; build r1 at Felix
+capture y2 at Trydnt
+move y3 from Out to Y3
+sacrifice y2 at Trydnt; move r2 from Y3 to Y2 (y2); move b2 from Y33 to G1 (g1)
+move y3 from Y3 to G1
+sacrifice g3 at Trydnt; build b3 at Y33; build b3 at Trydnt; build y3 at Trydnt
+sacrifice r1 at Felix; capture b2 at G1
+sacrifice b2 at Y33; convert b1 to g1 at Trydnt; convert y1 to r1 at Trydnt
+move y3 from G1 to Felix
+capture y1 at Trydnt
+move y2 from Felix to G1
+move b3 from Trydnt to G3 (g3)
+build g2 at Felix
+move y1 from Trydnt to G3
+move g2 from Felix to Out
+build y1 at G3
+build r2 at Felix
+build g2 at Trydnt
+move r2 from Felix to Out
+move r1 from Trydnt to G3
+build g2 at Felix
+convert b3 to g3 at Y33
+build g3 at Out
+build b1 at G3
+sacrifice g3 at Out; build g3 at Out; build r2 at Felix; build r3 at Out
+sacrifice g2 at Trydnt; build r3 at Y2; build r3 at G3
+move g3 from Out to Wanton (b3)
+move r3 from G3 to G1
+sacrifice y2 at G1; move b2 from G1 to G2 (g2); move r2 from Out to Wanton
+move y1 from G3 to G1
+build b2 at G2
+build y2 at G1
+sacrifice g1 at Felix; build g1 at Wanton
+move b1 from Y33 to G1
+move g2 from Out to Y33
+sacrifice r1 at G3; capture g2 at Y33
+build r1 at Wanton
+move b1 from G3 to Y2
+move y1 from Out to Wanton
+move g2 from Y33 to Y2
+move r1 from Wanton to Y2
+move r2 from Y2 to G3
+capture b1 at Y2
+sacrifice r2 at G3; capture r1 at Y2; capture b1 at Y2
+build r2 at Wanton
+sacrifice g3 at Y33; build g3 at Y2; build y3 at G3
+move g1 from Wanton to G1
+sacrifice y3 at G3; move y1 from G1 to Felix; move y2 from G1 to Felix; move b1 from G1 to Felix; catastrophe yellow at Felix
+capture b1 at Felix
+sacrifice y3 at Trydnt; move b3 from G3 to G1; move b3 from G1 to Felix; move b1 from Y2 to Felix; catastrophe blue at Felix

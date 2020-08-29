@@ -1,0 +1,40 @@
+Silenttitan (0, b1r2) g3-
+Zoltar (1, b3r1) -g3
+build g1 at Silenttitan
+build g1 at Zoltar
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Zoltar
+build g1 at Silenttitan
+build g1 at Zoltar
+move g1 from Silenttitan to Swing (y3)
+move g1 from Zoltar to Bluemoon (b2)
+build g1 at Silenttitan
+build g2 at Bluemoon
+build g2 at Silenttitan
+convert g1 to r1 at Bluemoon
+move g2 from Silenttitan to Loaner (g3)
+build g1 at Zoltar
+move g1 from Silenttitan to Wastenot (r3)
+sacrifice g3 at Zoltar; build g2 at Bluemoon; build g3 at Zoltar; build r1 at Bluemoon
+sacrifice g2 at Loaner; build g2 at Silenttitan; build g3 at Swing
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y1 at Zoltar; build y2 at Zoltar
+convert g3 to y3 at Silenttitan
+sacrifice y2 at Zoltar; move g2 from Bluemoon to Swing; move g2 from Bluemoon to Swing; catastrophe green at Swing
+build y2 at Silenttitan
+build y2 at Zoltar
+move y1 from Silenttitan to Simple (b3)
+move y1 from Zoltar to Bluemoon
+convert y2 to r2 at Silenttitan
+move y2 from Zoltar to Greenbelt (g2)
+build g1 at Silenttitan
+move g1 from Zoltar to Bluemoon
+move g2 from Silenttitan to Whippy (g3)
+move r1 from Bluemoon to Greengiant (g3)
+move r2 from Silenttitan to Simple
+build g2 at Zoltar
+sacrifice g2 at Whippy; build g2 at Wastenot; build g3 at Silenttitan
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Bluemoon; build r3 at Greengiant
+sacrifice y3 at Silenttitan; move y1 from Simple to Ablaze (b2); move g2 from Wastenot to Ablare (y2); move g1 from Wastenot to Ablame (y2)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Bluemoon; build y3 at Zoltar
+sacrifice g3 at Silenttitan; build y3 at Ablaze; build r3 at Simple; build g3 at Silenttitan
+sacrifice y3 at Bluemoon; move g3 from Zoltar to Greenbelt; move g3 from Greenbelt to Greengiant; move g3 from Greengiant to Silenttitan

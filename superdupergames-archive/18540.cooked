@@ -1,0 +1,10 @@
+Kermit (0, y1g2) b3-
+Uglyfoot (1, b3y2) -g3
+build b1 at Kermit
+build g1 at Uglyfoot
+move b1 from Kermit to Leary (g3)
+build g1 at Uglyfoot
+build b1 at Leary
+convert g1 to r1 at Uglyfoot
+convert b1 to y1 at Leary
+move g1 from Uglyfoot to Leap (b1)

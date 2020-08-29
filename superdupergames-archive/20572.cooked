@@ -1,0 +1,20 @@
+Subhan64 (0, y1b2) g3-
+Danner (1, b1r2) -g3
+build g1 at Subhan64
+build g1 at Danner
+convert g1 to y1 at Subhan64
+convert g1 to y1 at Danner
+build y2 at Subhan64
+build y2 at Danner
+move y1 from Subhan64 to Kermit (g3)
+move y1 from Danner to Gamall (b3)
+build g1 at Subhan64
+build g1 at Danner
+move g1 from Subhan64 to Bigbird (y3)
+move g1 from Danner to Garrett (y3)
+move g3 from Subhan64 to Tweety (y3)
+build g1 at Danner
+build y2 at Kermit
+sacrifice g1 at Garrett; build y3 at Gamall
+build g1 at Bigbird
+sacrifice y2 at Danner; move y1 from Gamall to Subhan64; move y3 from Gamall to Subhan64; catastrophe yellow at Subhan64

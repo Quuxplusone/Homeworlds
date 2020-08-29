@@ -1,0 +1,47 @@
+Ts52 (0, y1b2) g3-
+Virx61 (1, b3y2) -g3
+build g1 at Ts52
+build g1 at Virx61
+move g1 from Ts52 to Grover (b3)
+move g1 from Virx61 to Marsara (b1)
+build g1 at Grover
+convert g1 to y1 at Marsara
+convert g1 to y1 at Grover
+build g1 at Virx61
+build y2 at Grover
+move y1 from Marsara to Tarsonis (g2)
+build g1 at Ts52
+move g1 from Virx61 to Chausara (b1)
+build g2 at Grover
+sacrifice y1 at Tarsonis; move g1 from Chausara to Auir (g3)
+move g1 from Ts52 to Auir
+build g2 at Virx61
+convert y1 to r1 at Grover
+move g2 from Virx61 to Kamino (b1)
+build g2 at Ts52
+convert g2 to r2 at Kamino
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build y1 at Grover
+convert r2 to y2 at Kamino
+move g2 from Grover to Kamino
+move y2 from Kamino to Virx61
+move y1 from Grover to Kamino
+convert y2 to r2 at Virx61
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Grover; build y2 at Kamino
+build r1 at Virx61
+sacrifice g3 at Ts52; build g3 at Ts52; build y3 at Grover; build y3 at Kamino
+convert r1 to b1 at Virx61
+convert y3 to r3 at Kamino
+build r1 at Virx61
+sacrifice g3 at Ts52; build g3 at Ts52; build y3 at Kamino; build r1 at Kamino
+move r2 from Virx61 to Danube (b1)
+move r3 from Kamino to Auir
+build b2 at Virx61
+move y2 from Kamino to Auir
+build r2 at Virx61
+sacrifice g3 at Ts52; build g3 at Ts52; build y3 at Auir; build r2 at Kamino
+sacrifice g3 at Virx61; build g3 at Auir; build r3 at Virx61; build r3 at Danube; catastrophe green at Auir
+move r1 from Kamino to Virx61; catastrophe red at Virx61
+sacrifice b2 at Virx61; convert r2 to y2 at Danube; convert r3 to g3 at Danube
+move y3 from Kamino to Virx61
+move g3 from Danube to Virx61
+sacrifice r2 at Kamino; capture g3 at Virx61; capture b1 at Virx61

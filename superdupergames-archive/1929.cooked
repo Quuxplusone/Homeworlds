@@ -1,0 +1,57 @@
+Xoet (0, g3b2) y3-
+Toni (1, y1b1) -g3
+build y1 at Xoet
+pass
+build y1 at Xoet
+build g1 at Toni
+pass
+build g1 at Toni
+move y1 from Xoet to Emc2 (b1)
+build g1 at Toni
+pass
+move g1 from Toni to Yolanda (g2)
+build y2 at Xoet
+build g2 at Yolanda
+move y2 from Xoet to Emc2
+build g2 at Yolanda
+move y1 from Emc2 to Santa (g3)
+pass
+build y2 at Xoet
+convert g1 to b1 at Toni
+build y2 at Santa
+build g1 at Yolanda
+move y2 from Xoet to Bill (r1)
+move b1 from Toni to Yolanda
+convert y3 to b3 at Xoet
+build b2 at Yolanda
+build y3 at Xoet
+convert g1 to r1 at Toni
+move b3 from Xoet to Bill
+move r1 from Toni to Yolanda
+build y3 at Xoet
+build r1 at Yolanda
+build y3 at Santa
+convert g2 to b2 at Yolanda
+move b3 from Bill to Santa
+convert g2 to r2 at Yolanda
+convert y2 to g2 at Santa
+convert r2 to y2 at Yolanda
+move b3 from Santa to Bill
+move y2 from Yolanda to Emc2
+convert y2 to r2 at Emc2
+move y2 from Emc2 to Yolanda
+build g1 at Santa
+move r1 from Yolanda to Santa
+convert r2 to y2 at Emc2
+capture y1 at Santa
+move b3 from Bill to Yolanda; catastrophe blue at Yolanda
+capture g1 at Santa
+move g2 from Santa to Yolanda; catastrophe green at Yolanda
+move r1 from Santa to Bill
+convert y3 to r3 at Xoet
+build g1 at Toni
+convert y1 to b1 at Xoet
+convert g3 to r3 at Toni
+build y1 at Santa
+move r3 from Toni to Santa
+move y3 from Santa to Bill

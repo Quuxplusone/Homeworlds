@@ -1,0 +1,22 @@
+Justin (0, r1g3) b3-
+Fogus (1, b1y2) -g3
+build b1 at Justin
+build g1 at Fogus
+convert b3 to g3 at Justin
+build g1 at Fogus
+build b1 at Justin
+move g1 from Fogus to Sacsac (y3)
+convert b1 to y1 at Justin
+convert g1 to b1 at Fogus
+move b1 from Justin to Sourdough (g2)
+build b2 at Fogus
+build b2 at Sourdough
+convert b1 to y1 at Fogus
+build g1 at Justin
+convert b2 to y2 at Fogus
+convert b2 to y2 at Sourdough
+sacrifice y2 at Fogus; move g1 from Sacsac to Temp (r2); move g1 from Temp to Justin; catastrophe green at Justin
+move y2 from Sourdough to Rye (g3)
+build g1 at Fogus
+build b1 at Sourdough
+build g1 at Fogus

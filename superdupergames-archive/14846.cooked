@@ -1,0 +1,18 @@
+Stoneaxe (0, b2y3) g3-
+Jeep (1, b1r2) -g3
+build g1 at Stoneaxe
+build g1 at Jeep
+convert g1 to y1 at Stoneaxe
+convert g1 to y1 at Jeep
+build g1 at Stoneaxe
+build g1 at Jeep
+convert g1 to r1 at Stoneaxe
+move g1 from Jeep to Bank (y3)
+build g1 at Stoneaxe
+move y1 from Jeep to Submarine (y3)
+move g1 from Stoneaxe to Bogey (b1)
+build g1 at Jeep
+build g2 at Stoneaxe
+convert g1 to y1 at Jeep
+build y2 at Stoneaxe
+build y2 at Jeep

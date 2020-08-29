@@ -1,0 +1,80 @@
+Trydnt (0, g3y1) b3-
+Ts52 (1, r1b2) -g3
+build b1 at Trydnt
+build g1 at Ts52
+build b1 at Trydnt
+convert g1 to y1 at Ts52
+convert b1 to y1 at Trydnt
+build y2 at Ts52
+build y2 at Trydnt
+move y1 from Ts52 to Kermit (g3)
+move y1 from Trydnt to G2 (g2)
+build g1 at Ts52
+build b1 at Trydnt
+convert g1 to b1 at Ts52
+move b1 from Trydnt to Gee2 (g2)
+move b1 from Ts52 to Kermit
+move y2 from Trydnt to B2 (b2)
+build g1 at Ts52
+convert b1 to r1 at Trydnt
+convert g1 to r1 at Ts52
+build b1 at Gee2
+build g1 at Ts52
+build r2 at Trydnt
+build r2 at Ts52
+move r2 from Trydnt to B2
+move r2 from Ts52 to Kermit
+move r2 from B2 to B3 (b3)
+move g1 from Ts52 to Gonzo (b3)
+move y2 from B2 to Gonzo
+build b2 at Kermit
+sacrifice r1 at Trydnt; capture g1 at Gonzo
+build g1 at Ts52
+build b2 at Trydnt
+move b2 from Kermit to G2
+move y1 from G2 to B3
+sacrifice g3 at Ts52; build y2 at Kermit; build y3 at Kermit; build y3 at Ts52
+move b2 from Trydnt to G22 (g2)
+move y3 from Kermit to Gee2
+build y3 at Gonzo
+sacrifice r2 at Kermit; capture b1 at Gee2; capture b1 at Gee2
+convert b3 to r3 at Trydnt
+move y2 from Ts52 to Grover (b3)
+sacrifice g1 at Gonzo; build r1 at B3
+move r1 from Ts52 to Kermit
+convert r1 to g1 at B3
+move y1 from Kermit to G2
+move y3 from Gonzo to G2
+move y3 from Gee2 to B3
+sacrifice y1 at B3; move r2 from B3 to Gee2
+build y1 at Kermit
+sacrifice g1 at B3; build r1 at Gee2
+build r2 at Kermit
+build r2 at Trydnt
+build r3 at Kermit
+sacrifice r2 at Trydnt; capture y1 at G2; capture b1 at Gee2
+move r3 from Kermit to G22
+sacrifice y1 at G2; move b2 from G22 to Trydnt
+build g1 at Ts52
+capture b1 at Gee2
+move g1 from Ts52 to B3
+sacrifice r1 at Gee2; capture b2 at G2
+build g1 at B3
+move b2 from G2 to G3 (g3)
+move y3 from B3 to Gee2
+sacrifice y2 at Gonzo; move b1 from Gee2 to Kermit; move b1 from Gee2 to Kermit
+sacrifice r2 at Kermit; capture r2 at Gee2; capture b1 at Kermit
+build b3 at G3
+move b1 from Kermit to G22
+convert b2 to r2 at G3
+capture b1 at Kermit
+build r1 at G3
+build r2 at Gee2
+move y3 from G2 to B3
+build r3 at Kermit
+build b2 at G3
+build g2 at Ts52
+sacrifice r2 at G3; capture g1 at B3; capture g1 at B3
+sacrifice g2 at Ts52; build g2 at Ts52; build r2 at G22
+move b2 from Trydnt to Y2 (y2)
+sacrifice y3 at Gee2; move r2 from G22 to Trydnt; move r2 from Gee2 to Trydnt; move r2 from Gee2 to Trydnt; catastrophe red at Trydnt

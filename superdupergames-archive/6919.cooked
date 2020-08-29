@@ -1,0 +1,32 @@
+Subhan64 (0, b1y3) g3-
+Cerulean (1, g2b1) -y3
+build g1 at Subhan64
+build y1 at Cerulean
+convert g1 to y1 at Subhan64
+convert y1 to g1 at Cerulean
+build g1 at Subhan64
+build y1 at Cerulean
+move g1 from Subhan64 to Omicronpersei8 (g2)
+move y1 from Cerulean to Jithrii (g3)
+build g1 at Subhan64
+build y1 at Cerulean
+sacrifice g3 at Subhan64; build g2 at Omicronpersei8; build g3 at Subhan64; build g3 at Subhan64
+move g1 from Cerulean to Jithrii
+convert g3 to r3 at Subhan64
+build y2 at Jithrii
+convert g1 to b1 at Subhan64
+build y2 at Cerulean
+sacrifice b1 at Subhan64; convert g2 to y2 at Omicronpersei8
+convert y2 to r2 at Cerulean
+move r3 from Subhan64 to Omicronpersei8
+move y1 from Jithrii to Betou (b2)
+sacrifice y2 at Omicronpersei8; move r3 from Omicronpersei8 to Jithrii; move r3 from Jithrii to Cerulean
+capture r3 at Cerulean
+convert y1 to r1 at Subhan64
+convert r2 to g2 at Cerulean
+build r1 at Subhan64
+move y1 from Cerulean to Jithrii
+convert r1 to y1 at Subhan64
+build y2 at Cerulean
+build y2 at Subhan64
+move y1 from Betou to Subhan64; catastrophe yellow at Subhan64

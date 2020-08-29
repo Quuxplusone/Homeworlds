@@ -1,0 +1,63 @@
+Jeep (0, y1b2) g3-
+Sketchwick (1, y3b2) -g3
+build g1 at Jeep
+build g1 at Sketchwick
+convert g1 to y1 at Jeep
+convert g3 to y3 at Sketchwick
+build g1 at Jeep
+build y1 at Sketchwick
+move y1 from Jeep to Moon (b3)
+convert y1 to r1 at Sketchwick
+convert g1 to r1 at Jeep
+build g1 at Sketchwick
+build g1 at Jeep
+build g2 at Sketchwick
+move g1 from Jeep to Moon
+move g1 from Sketchwick to Over (b1)
+build g2 at Moon
+build g2 at Sketchwick
+build g3 at Jeep
+build g3 at Over
+move g1 from Moon to Over
+move g2 from Sketchwick to Myhammy (y1)
+sacrifice g2 at Moon; build y2 at Moon; build g2 at Over; catastrophe green at Over
+move g2 from Myhammy to Shine (y3)
+convert g3 to r3 at Jeep
+move g2 from Sketchwick to Run (b1)
+move r3 from Jeep to Shine
+sacrifice g2 at Shine; build r1 at Sketchwick; build r2 at Sketchwick
+sacrifice g3 at Jeep; build r2 at Shine; build r2 at Shine; build r3 at Jeep
+convert g2 to y2 at Run
+sacrifice y2 at Moon; move r2 from Shine to Run; move r2 from Run to Sketchwick; catastrophe red at Sketchwick
+build g1 at Sketchwick
+convert r3 to g3 at Jeep
+convert g1 to r1 at Sketchwick
+move r3 from Shine to Run
+move y2 from Run to Moon
+move y1 from Moon to Run
+build g1 at Sketchwick
+build g1 at Jeep
+build g2 at Sketchwick
+convert r3 to g3 at Run
+move g1 from Sketchwick to Run
+sacrifice r1 at Jeep; capture g1 at Run
+move r1 from Sketchwick to Run
+move y1 from Run to Sketchwick
+sacrifice r1 at Run; capture y1 at Sketchwick
+convert g1 to y1 at Run
+convert y1 to r1 at Sketchwick
+build y1 at Run
+move g2 from Sketchwick to Home (r1)
+convert g1 to r1 at Jeep
+build r2 at Sketchwick
+move y1 from Run to Sketchwick
+move y3 from Sketchwick to Home
+sacrifice g3 at Run; build y2 at Sketchwick; build r2 at Jeep; build r3 at Shine
+capture y2 at Sketchwick
+sacrifice r2 at Shine; capture r1 at Sketchwick; capture g1 at Sketchwick
+capture r1 at Sketchwick
+sacrifice g1 at Sketchwick; build y2 at Run
+convert y2 to g2 at Sketchwick
+sacrifice y2 at Run; move r3 from Shine to Run; move r3 from Run to Sketchwick
+build r2 at Sketchwick; catastrophe red at Sketchwick
+sacrifice g3 at Jeep; build y2 at Run; build y2 at Run; build y3 at Sketchwick

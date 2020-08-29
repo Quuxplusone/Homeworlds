@@ -1,0 +1,63 @@
+Wil (0, y2b1) g3-
+Amoscai (1, y1b2) -g3
+build g1 at Wil
+build g1 at Amoscai
+convert g1 to r1 at Wil
+build g1 at Amoscai
+build r1 at Wil
+convert g1 to r1 at Amoscai
+build r2 at Wil
+build r2 at Amoscai
+convert r2 to y2 at Wil
+convert r2 to y2 at Amoscai
+build r2 at Wil
+build r2 at Amoscai
+convert r2 to g2 at Wil
+build y1 at Amoscai
+move y2 from Wil to G3 (g3)
+move y1 from Amoscai to G3
+sacrifice r1 at Wil; capture y1 at G3
+convert g1 to b1 at Amoscai
+build r1 at Wil
+move r2 from Amoscai to G3
+sacrifice r1 at Wil; capture r2 at G3
+build r1 at Amoscai
+build r2 at Wil
+build g1 at Amoscai
+move g2 from Wil to Y3 (y3)
+move r1 from Amoscai to Y3
+move r2 from Wil to Y3
+sacrifice g1 at Amoscai; build r2 at Y3
+sacrifice g3 at Wil; build r3 at Wil; build r3 at G3; build r3 at Y3; catastrophe red at Y3
+build r1 at Amoscai
+convert r3 to g3 at Wil
+move r1 from Amoscai to G3
+move r3 from G3 to G2 (g2)
+capture y1 at G3
+sacrifice r2 at G3; capture r1 at G3; capture y1 at G3
+build r2 at Amoscai
+sacrifice g3 at Wil; build r2 at G3; build r2 at G2; build r3 at Wil
+move r2 from Amoscai to G3
+build r3 at G2
+build y1 at Amoscai
+move y1 from G3 to Amoscai; catastrophe yellow at Amoscai
+capture r2 at G3
+sacrifice r2 at G2; capture r2 at G3; capture r2 at G3
+build r2 at Amoscai
+convert r3 to y3 at Wil
+convert r2 to y2 at Amoscai
+move r1 from G3 to B1 (b1)
+build r2 at Amoscai
+build r3 at G3
+move r1 from Amoscai to G3; catastrophe red at G3
+build y1 at G3
+build r1 at Amoscai
+sacrifice y1 at G3; move r3 from G2 to G3
+move r2 from Amoscai to Y3
+sacrifice r1 at B1; capture r2 at Y3
+build y1 at Amoscai
+build r1 at G3
+build r2 at Amoscai
+sacrifice g2 at Y3; build r2 at Y3; build r3 at Wil
+sacrifice y2 at Amoscai; move r1 from Amoscai to G3; move r2 from Amoscai to G3; catastrophe red at G3
+sacrifice y2 at G3; move r3 from G2 to Y3; move r3 from Y3 to Amoscai

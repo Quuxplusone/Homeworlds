@@ -1,0 +1,6 @@
+Alexcobo (0, g3b2) y3-
+Zackstack (1, r1b2) -g3
+build y1 at Alexcobo
+build g1 at Zackstack
+convert y1 to r1 at Alexcobo
+convert g1 to y1 at Zackstack

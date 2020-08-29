@@ -1,0 +1,76 @@
+Remneb (0, r1b2) g3-
+Sompm (1, y3b1) -g3
+build g1 at Remneb
+build g1 at Sompm
+convert g1 to y1 at Remneb
+convert g1 to y1 at Sompm
+build g1 at Remneb
+move y1 from Sompm to Fruitbat (g2)
+move g1 from Remneb to Ninbo (y3)
+build g1 at Sompm
+move g1 from Ninbo to Alba (y2)
+convert g1 to r1 at Sompm
+build g1 at Remneb
+build r1 at Sompm
+build y1 at Remneb
+build y2 at Fruitbat
+move y1 from Remneb to Mora (g3)
+move y1 from Fruitbat to Jesse (b3)
+sacrifice g3 at Remneb; build y2 at Mora; build y3 at Remneb; build g1 at Remneb
+build g2 at Sompm
+move g1 from Remneb to Harum (y3)
+move g2 from Sompm to Nodule (b2)
+move y2 from Mora to Orion (r2)
+move r1 from Sompm to Alba
+move g1 from Alba to Jesse
+sacrifice r1 at Alba; capture g1 at Jesse
+build y2 at Mora
+sacrifice g3 at Sompm; build g2 at Nodule; build g3 at Jesse; build r1 at Sompm
+build g3 at Harum
+sacrifice y2 at Fruitbat; move g3 from Jesse to Orion; move g2 from Nodule to Harum
+sacrifice y2 at Orion; move g3 from Harum to Orion; move g3 from Orion to Sompm
+sacrifice y1 at Jesse; move g3 from Orion to Sompm
+move g3 from Sompm to Nodule
+build g2 at Sompm
+convert g3 to r3 at Nodule
+sacrifice g2 at Nodule; build g2 at Harum; build g3 at Jesse
+sacrifice y1 at Mora; move r3 from Nodule to Harum
+move r1 from Sompm to Disco (y2)
+capture g2 at Harum
+sacrifice g2 at Sompm; build g2 at Harum; build r2 at Disco; catastrophe green at Harum
+build g1 at Remneb
+move r2 from Disco to Ranch (b3)
+move g1 from Remneb to Mora
+build g2 at Sompm
+build g2 at Remneb
+sacrifice g2 at Sompm; build g2 at Sompm; build r2 at Ranch
+move g1 from Remneb to Harum
+convert g1 to y1 at Jesse
+build g1 at Remneb
+sacrifice g3 at Sompm; build g2 at Jesse; build y1 at Jesse; build g3 at Sompm
+build y2 at Mora
+move r1 from Disco to Mora
+move g1 from Mora to Zek (y2)
+build r2 at Mora
+sacrifice y3 at Remneb; move g1 from Harum to Zek; move g1 from Zek to Sompm; move g1 from Zek to Sompm; catastrophe green at Sompm
+sacrifice g2 at Jesse; build r3 at Sompm; build r3 at Mora
+sacrifice y2 at Mora; move r3 from Harum to Remneb; move y2 from Mora to Remneb
+sacrifice y1 at Jesse; move r2 from Mora to Remneb
+convert r3 to b3 at Remneb
+sacrifice r3 at Mora; capture g2 at Remneb; capture g1 at Remneb; capture y2 at Remneb
+capture r2 at Remneb
+sacrifice y2 at Remneb; move r1 from Mora to Remneb; move r2 from Ranch to Remneb; catastrophe red at Remneb
+convert b3 to r3 at Remneb
+sacrifice g2 at Remneb; build g1 at Remneb; build y1 at Jesse
+capture g1 at Remneb
+build g1 at Remneb
+capture g1 at Remneb
+build g2 at Remneb; catastrophe green at Remneb
+convert y1 to g1 at Remneb
+convert y1 to b1 at Jesse
+build g1 at Remneb
+build b1 at Jesse
+convert g1 to y1 at Remneb
+convert r2 to b2 at Ranch
+build g1 at Remneb
+convert r3 to y3 at Sompm

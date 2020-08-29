@@ -1,0 +1,51 @@
+Mobynostromo (0, b1y2) g3-
+Twinsen (1, r3b2) -g3
+build g1 at Mobynostromo
+build g1 at Twinsen
+convert g1 to y1 at Mobynostromo
+build g1 at Twinsen
+build y1 at Mobynostromo
+convert g1 to b1 at Twinsen
+build g1 at Mobynostromo
+build b1 at Twinsen
+move y1 from Mobynostromo to Cobalt (b3)
+convert g1 to y1 at Twinsen
+build y2 at Mobynostromo
+build y2 at Twinsen
+move y1 from Mobynostromo to Cobalt
+build g1 at Twinsen
+build y3 at Mobynostromo
+move y1 from Twinsen to Geegee (g1)
+move y2 from Mobynostromo to Thalo (b3)
+build y3 at Geegee
+sacrifice g3 at Mobynostromo; build y3 at Thalo; build g2 at Mobynostromo; build g2 at Mobynostromo
+sacrifice y3 at Geegee; move g1 from Twinsen to Geegee; move g1 from Geegee to Cobalt; move g1 from Cobalt to Mobynostromo; catastrophe green at Mobynostromo
+convert y3 to r3 at Thalo
+build y3 at Geegee
+move r3 from Thalo to Geegee
+sacrifice y1 at Geegee; move y3 from Geegee to Rojo (r3)
+build r1 at Geegee
+sacrifice g3 at Twinsen; build y1 at Rojo; build y3 at Twinsen
+convert y3 to g3 at Mobynostromo
+convert y3 to g3 at Twinsen
+build g1 at Mobynostromo
+build y3 at Twinsen
+sacrifice g1 at Mobynostromo; build y3 at Thalo
+move b1 from Twinsen to Verdin (g1)
+convert y1 to g1 at Cobalt
+convert b1 to y1 at Verdin
+build g2 at Mobynostromo
+move y1 from Verdin to Verdon (g3)
+build r1 at Geegee
+build g1 at Twinsen
+sacrifice g3 at Mobynostromo; build g2 at Cobalt; build g2 at Cobalt; build g3 at Mobynostromo
+sacrifice y3 at Twinsen; move y3 from Rojo to Mobynostromo; move y1 from Rojo to Mobynostromo; move y1 from Verdon to Mobynostromo; catastrophe yellow at Mobynostromo
+convert g3 to r3 at Mobynostromo
+sacrifice g3 at Twinsen; build g3 at Twinsen; build b1 at Twinsen; build y1 at Twinsen
+convert g2 to b2 at Cobalt
+sacrifice y2 at Twinsen; move b1 from Twinsen to Sol (y1); move g1 from Twinsen to Sol
+sacrifice g2 at Cobalt; build r1 at Mobynostromo; build r2 at Mobynostromo
+build b2 at Sol
+sacrifice y3 at Thalo; move r1 from Mobynostromo to Twinsen; move r1 from Geegee to Twinsen; move r1 from Geegee to Twinsen; catastrophe red at Twinsen
+build y2 at Twinsen
+sacrifice y1 at Cobalt; move r3 from Geegee to Twinsen

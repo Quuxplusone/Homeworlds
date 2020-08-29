@@ -1,0 +1,58 @@
+Wil (0, y2b1) g3-
+Felix (1, b1g3) -b3
+build g1 at Wil
+build b1 at Felix
+build g1 at Wil
+convert b3 to y3 at Felix
+move g1 from Wil to Y3 (y3)
+build b2 at Felix
+build g1 at Y3
+convert b2 to g2 at Felix
+move g1 from Y3 to Y2 (y2)
+build b2 at Felix
+sacrifice g3 at Wil; build g2 at Wil; build g2 at Y3; build g3 at Y2
+convert b2 to r2 at Felix
+convert g2 to r2 at Wil
+move g2 from Felix to Rim (b2)
+sacrifice g3 at Y2; build g2 at Wil; build g3 at Wil; build g3 at Y2
+build b2 at Felix
+sacrifice g3 at Y2; build g3 at Y2; build r1 at Wil; build r1 at Wil
+move r2 from Felix to Rim
+convert r2 to b2 at Wil
+convert b2 to y2 at Felix
+move r1 from Wil to Y3
+sacrifice y2 at Felix; move g2 from Rim to Y3; move g2 from Y3 to Wil; catastrophe green at Wil
+build g1 at Y2
+build y1 at Felix
+move g1 from Y2 to Why3 (y3)
+build b2 at Felix
+sacrifice g3 at Y2; build g2 at Y2; build g2 at Y3; build g3 at Why3
+move b1 from Felix to Rim
+move b2 from Wil to Y3
+build b3 at Felix
+move g3 from Why3 to Wil
+sacrifice b1 at Rim; convert b3 to g3 at Felix
+convert g2 to y2 at Y3
+move g3 from Felix to Rim
+build g2 at Wil
+move y1 from Felix to Rim
+sacrifice g3 at Wil; build g3 at Wil; build b1 at Y3; build b3 at Y3
+build y1 at Rim
+move b2 from Y3 to Y2
+move y1 from Rim to Y3
+sacrifice y2 at Y3; move b3 from Y3 to R2 (r2); move g1 from Y3 to R2
+move g3 from Rim to Y3
+sacrifice g3 at Wil; build g3 at Wil; build b3 at R2; build b3 at Y2
+sacrifice r2 at Rim; capture r1 at Y3; capture g2 at Y3
+convert g1 to y1 at R2
+move g3 from Y3 to Wil
+sacrifice g2 at Y2; build g1 at Wil; build y2 at R2; catastrophe green at Wil
+capture b1 at Y3
+move b3 from R2 to Y3
+move b2 from Felix to Reggio (g2)
+sacrifice b2 at Y2; convert b3 to g3 at R2; convert b3 to r3 at Y3
+sacrifice g2 at Y3; build b2 at Y3; build b3 at Reggio
+sacrifice y2 at R2; move g3 from R2 to Felix; move b3 from Y2 to Felix
+sacrifice b3 at Reggio; convert y1 to r1 at Y3; convert b2 to r2 at Y3; convert b2 to r2 at Reggio; catastrophe red at Y3
+sacrifice g3 at Felix; build b2 at Felix; build b2 at Felix; build r1 at Wil
+sacrifice y3 at Felix; move r2 from Reggio to Y3; move r2 from Y3 to Wil; move y1 from Rim to Felix; catastrophe blue at Felix

@@ -1,0 +1,49 @@
+Sketchwick (0, b1y2) g3-
+Jeep (1, y1b2) -g3
+build g1 at Sketchwick
+build g1 at Jeep
+move g1 from Sketchwick to Lime (g3)
+move g1 from Jeep to Lime
+build g1 at Sketchwick
+build g2 at Jeep
+sacrifice g3 at Sketchwick; build g2 at Lime; build g2 at Sketchwick; build g3 at Sketchwick; catastrophe green at Lime
+build g1 at Jeep
+move g1 from Sketchwick to Lemon (y3)
+move g2 from Jeep to Lemon
+move g1 from Lemon to Jeep
+convert g3 to r3 at Jeep
+build g1 at Jeep
+move g1 from Jeep to Lemon
+convert g2 to y2 at Sketchwick
+build g2 at Lemon
+sacrifice y2 at Sketchwick; move g1 from Jeep to Lemon; move g1 from Jeep to Berry (b3)
+convert r3 to g3 at Jeep; catastrophe green at Lemon
+build g1 at Sketchwick
+build g1 at Jeep
+build g2 at Berry
+move g1 from Jeep to Berry
+convert g2 to r2 at Berry
+build g2 at Jeep
+convert g1 to y1 at Berry
+move g2 from Jeep to Barn (y3)
+capture g1 at Berry
+build g1 at Jeep
+build g2 at Berry
+convert g3 to r3 at Jeep
+sacrifice g2 at Berry; build y1 at Berry; build y2 at Berry
+build g2 at Barn
+sacrifice g3 at Sketchwick; build g2 at Berry; build g3 at Sketchwick; build r1 at Berry
+move g2 from Barn to Sketchwick
+convert g1 to r1 at Sketchwick
+sacrifice g2 at Barn; build g1 at Sketchwick; build g2 at Sketchwick; catastrophe green at Sketchwick
+convert r1 to g1 at Sketchwick
+build r1 at Jeep
+sacrifice y2 at Berry; move r2 from Berry to Jeep; move r1 from Berry to Jeep; catastrophe red at Jeep
+build g2 at Jeep
+build y2 at Berry
+convert g2 to r2 at Jeep
+convert g1 to r1 at Berry
+build r1 at Jeep
+move y2 from Berry to Crunch (y2)
+move r1 from Jeep to Smash (y3)
+build y3 at Berry

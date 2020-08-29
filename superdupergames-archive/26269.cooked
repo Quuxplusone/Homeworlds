@@ -1,0 +1,55 @@
+Ts52 (0, b1y3) g3-
+Aristos (1, b3y2) -g3
+build g1 at Ts52
+build g1 at Aristos
+convert g1 to b1 at Ts52
+build g1 at Aristos
+build b1 at Ts52
+convert g1 to y1 at Aristos
+move b1 from Ts52 to Kermit (g2)
+convert g3 to b3 at Aristos
+build b2 at Kermit
+build b2 at Aristos
+convert b2 to y2 at Kermit
+move b2 from Aristos to Ping (g1)
+build b2 at Kermit
+build y1 at Aristos
+move b1 from Ts52 to Oscar (g2)
+move y1 from Aristos to Ping
+convert b2 to r2 at Kermit
+convert y1 to r1 at Ping
+build b2 at Oscar
+build y1 at Aristos
+build r1 at Kermit
+convert b3 to g3 at Aristos
+build y1 at Kermit
+move y1 from Aristos to Ping
+move y2 from Kermit to Robin (g3)
+move y1 from Aristos to Spark (r1)
+move r1 from Kermit to Robin
+sacrifice g3 at Aristos; build y2 at Spark; build y3 at Spark; build y3 at Ping
+move y1 from Kermit to Spark; catastrophe yellow at Spark
+build g1 at Aristos
+build y1 at Robin
+move y3 from Ping to Aristos
+move y1 from Robin to Kermit
+move g1 from Aristos to Flash (y1)
+move r2 from Kermit to Flash
+move g1 from Flash to Buzz (r2)
+move y2 from Robin to Buzz
+sacrifice g1 at Buzz; build g1 at Aristos
+build r1 at Robin
+move g1 from Aristos to Ping
+move y2 from Buzz to Robin
+convert y3 to g3 at Aristos
+build g2 at Ts52
+build r2 at Ping
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Flash; build r3 at Flash
+move r2 from Ping to Kermit
+move r3 from Flash to Kermit
+sacrifice g3 at Aristos; build g3 at Aristos; build r3 at Kermit; build r3 at Kermit; catastrophe red at Kermit
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Robin; build y3 at Kermit
+build y3 at Ping
+convert y3 to r3 at Kermit
+build b2 at Ping
+sacrifice g3 at Ts52; build g3 at Ts52; build y3 at Kermit; build b3 at Kermit

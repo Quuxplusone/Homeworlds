@@ -1,0 +1,23 @@
+Dlwillson (0, b3y1) g3-
+Gidaio (1, b2g1) -y3
+build g1 at Dlwillson
+build y1 at Gidaio
+convert g1 to y1 at Dlwillson
+move y1 from Gidaio to Galifrey (g3)
+move y1 from Dlwillson to Field (g2)
+build y2 at Galifrey
+build y2 at Field
+build y2 at Gidaio
+move y2 from Field to Meadow (g3)
+convert y2 to g2 at Gidaio
+build g1 at Dlwillson
+move g2 from Gidaio to Sr388 (y3)
+convert g1 to r1 at Dlwillson
+build g1 at Sr388
+build g1 at Dlwillson
+move g2 from Sr388 to Field
+sacrifice g3 at Dlwillson; build g2 at Dlwillson; build y2 at Field; build y3 at Meadow
+build g3 at Sr388
+move y3 from Meadow to Gidaio
+convert y3 to r3 at Gidaio
+sacrifice r1 at Dlwillson; capture r3 at Gidaio

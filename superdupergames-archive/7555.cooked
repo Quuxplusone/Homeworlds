@@ -1,0 +1,58 @@
+Mneme (0, r1b2) g3-
+Jesse (1, b1r3) -g3
+build g1 at Mneme
+build g1 at Jesse
+convert g1 to y1 at Mneme
+convert g1 to y1 at Jesse
+build g1 at Mneme
+build g1 at Jesse
+move g1 from Mneme to Tsalmoth (b3)
+move g1 from Jesse to Eliot (b2)
+build y1 at Mneme
+build y2 at Jesse
+build y2 at Mneme
+build y2 at Jesse
+move y1 from Mneme to Tsalmoth
+convert y1 to b1 at Jesse
+move y1 from Mneme to Jhegalla (b3)
+move y2 from Jesse to Eliot
+build g1 at Mneme
+build g2 at Jesse
+move g1 from Mneme to Yendi (y3)
+move g2 from Jesse to Tommy (b2)
+sacrifice g3 at Mneme; build y1 at Jhegalla; build y3 at Mneme; build y3 at Tsalmoth
+build g2 at Jesse
+convert y1 to r1 at Tsalmoth
+convert g2 to r2 at Jesse
+build g2 at Tsalmoth
+build g2 at Jesse
+build g3 at Yendi
+sacrifice g3 at Jesse; build g3 at Jesse; build g3 at Eliot; build y1 at Eliot
+convert y1 to b1 at Jhegalla
+sacrifice y2 at Eliot; move g1 from Eliot to Yendi; move g2 from Tommy to Yendi; catastrophe green at Yendi
+sacrifice g2 at Tsalmoth; build r1 at Tsalmoth; build b2 at Jhegalla
+move b1 from Jesse to Emmet (y2)
+move y2 from Mneme to Holdout (b3)
+move r2 from Jesse to Eliot
+convert b2 to g2 at Jhegalla
+sacrifice g3 at Jesse; build y1 at Eliot; build y3 at Jesse; build r2 at Eliot
+move r1 from Tsalmoth to Emmet
+sacrifice r2 at Eliot; capture r1 at Emmet
+build r2 at Tsalmoth
+build g1 at Jesse
+move r2 from Tsalmoth to Orca (g2)
+sacrifice g2 at Jesse; build r2 at Eliot; build r3 at Emmet
+build r3 at Orca
+move r3 from Emmet to Jhegalla
+sacrifice y2 at Holdout; move g2 from Jhegalla to Emmet; move b1 from Jhegalla to Emmet
+capture y1 at Jhegalla
+sacrifice r2 at Orca; capture b1 at Emmet; capture r1 at Emmet
+move r3 from Jhegalla to Emmet
+sacrifice g2 at Emmet; build r2 at Orca; build b2 at Emmet
+build y2 at Eliot
+move g1 from Tsalmoth to Mneme
+build g1 at Eliot
+sacrifice y3 at Tsalmoth; move r3 from Orca to Jesse; move b2 from Emmet to Jesse; move r1 from Emmet to Jesse
+sacrifice r2 at Eliot; capture r3 at Jesse; capture b1 at Emmet
+sacrifice y3 at Mneme; move r1 from Tsalmoth to Orca; move r1 from Orca to Jesse; move b1 from Emmet to Jesse; catastrophe red at Jesse
+sacrifice r2 at Eliot; capture b1 at Jesse; capture b2 at Jesse

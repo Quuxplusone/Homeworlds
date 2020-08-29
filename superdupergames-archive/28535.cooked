@@ -1,0 +1,30 @@
+Dragon76N (0, b2g1) y3-
+Wil (1, y3b1) -g3
+build y1 at Dragon76N
+build g1 at Wil
+convert y1 to g1 at Dragon76N
+convert g1 to b1 at Wil
+build y1 at Dragon76N
+build b1 at Wil
+build g1 at Dragon76N
+move b1 from Wil to Y2 (y2)
+move y1 from Dragon76N to Grethr (g3)
+build g2 at Wil
+move g1 from Dragon76N to Yelthr (y3)
+build b2 at Wil
+build g2 at Dragon76N
+sacrifice g2 at Wil; build b2 at Y2; build b3 at Y2
+sacrifice g2 at Dragon76N; build g2 at Yelthr; build g2 at Yelthr
+convert b3 to g3 at Y2
+sacrifice g2 at Yelthr; build y1 at Grethr; build g2 at Dragon76N
+build b3 at Y2
+convert g2 to r2 at Dragon76N
+convert b3 to r3 at Y2
+build y1 at Grethr
+convert b2 to y2 at Wil
+sacrifice y3 at Dragon76N; move y1 from Grethr to Y2; move y1 from Grethr to Y2; move y1 from Grethr to Y2; catastrophe yellow at Y2
+build g2 at Wil
+move g1 from Yelthr to Blutwo (b2)
+convert g2 to r2 at Wil
+build g2 at Blutwo
+build g2 at Wil

@@ -1,0 +1,10 @@
+Gidaio (0, y3b1) g3-
+Alexcobo (1, g3b2) -y3
+build g1 at Gidaio
+build y1 at Alexcobo
+build g1 at Gidaio
+build y1 at Alexcobo
+move g1 from Gidaio to Gamma (y2)
+convert y1 to g1 at Alexcobo
+sacrifice g3 at Gidaio; build g2 at Gidaio; build g2 at Gidaio; build g2 at Gamma
+sacrifice y3 at Alexcobo; move g1 from Alexcobo to Doom (r1); move g1 from Doom to Gamma; move g1 from Gamma to Gidaio; catastrophe green at Gidaio

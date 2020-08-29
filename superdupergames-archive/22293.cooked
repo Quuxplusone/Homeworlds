@@ -1,0 +1,76 @@
+Ts52 (0, y1b2) g3-
+Danner (1, b1r2) -g3
+build g1 at Ts52
+build g1 at Danner
+convert g1 to r1 at Ts52
+convert g1 to y1 at Danner
+build g1 at Ts52
+build y1 at Danner
+move g1 from Ts52 to Gonzo (b3)
+build y2 at Danner
+build g1 at Ts52
+move y2 from Danner to Cactus (g3)
+build r1 at Ts52
+move y1 from Danner to Outpost (r3)
+move r1 from Ts52 to Gonzo
+sacrifice g3 at Danner; build y2 at Outpost; build y2 at Danner; build y3 at Danner
+build r1 at Gonzo
+convert y3 to g3 at Danner
+build r2 at Ts52
+move y2 from Danner to Garrett (r3)
+move r2 from Ts52 to Cactus
+move y2 from Cactus to Danner
+build r2 at Ts52
+move y2 from Danner to Final (r3)
+convert g1 to b1 at Ts52
+build y3 at Danner
+move b1 from Ts52 to Cactus
+build y3 at Danner
+build b1 at Cactus
+convert y3 to b3 at Danner
+build g1 at Ts52
+convert y3 to b3 at Danner
+convert r2 to b2 at Ts52
+build y3 at Danner
+move b2 from Ts52 to Bigbird (y3)
+move b3 from Danner to Garrett
+build r2 at Ts52
+build y3 at Danner
+move g1 from Ts52 to Bigbird
+build g1 at Danner
+build b2 at Bigbird
+move b3 from Danner to Outpost
+build g2 at Bigbird
+move g1 from Danner to Outpost
+build g2 at Bigbird
+move y1 from Danner to Outpost
+build g2 at Gonzo
+move y3 from Danner to Final
+pass
+move g3 from Danner to Final
+pass
+move g1 from Outpost to Danner
+pass
+move g1 from Danner to Bigbird; catastrophe green at Bigbird
+build g1 at Ts52
+build g1 at Final
+move g1 from Ts52 to Bigbird
+move g1 from Final to Danner
+build g2 at Bigbird
+build g2 at Final
+pass
+move y2 from Garrett to Danner
+pass
+sacrifice b3 at Garrett; convert y3 to r3 at Danner; convert y3 to b3 at Final
+move r1 from Ts52 to Zoe (y3)
+build y3 at Danner
+pass
+move g1 from Danner to Outpost
+pass
+move g1 from Outpost to Ts52
+capture g1 at Ts52
+move g3 from Final to Ts52
+capture g3 at Ts52
+sacrifice y2 at Outpost; move g2 from Final to Ts52; move b3 from Final to Ts52; catastrophe green at Ts52
+move g2 from Bigbird to Ts52
+sacrifice r3 at Danner; capture r2 at Ts52; capture g2 at Ts52

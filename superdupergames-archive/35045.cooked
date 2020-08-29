@@ -1,0 +1,36 @@
+Felix (0, y1b2) g3-
+Trydnt (1, b2g2) -y3
+build g1 at Felix
+build y1 at Trydnt
+convert g1 to y1 at Felix
+build y2 at Trydnt
+move y1 from Felix to Out (g3)
+convert y2 to r2 at Trydnt
+build y2 at Out
+move r2 from Trydnt to Out
+move y2 from Out to Trydnt
+convert y3 to r3 at Trydnt
+build y2 at Trydnt
+capture y2 at Trydnt
+build y2 at Trydnt; catastrophe yellow at Trydnt
+capture y1 at Out
+build g1 at Felix
+build y1 at Out
+move g1 from Felix to Humphrey (b3)
+build y2 at Out
+build g1 at Felix
+sacrifice y2 at Out; move r2 from Out to Felix; move r2 from Felix to Humphrey
+build g1 at Felix
+capture g1 at Humphrey
+convert g1 to r1 at Felix
+build y2 at Out
+build r1 at Felix
+build r1 at Humphrey
+move r1 from Felix to Grinch (b3)
+build r2 at Trydnt
+build r2 at Felix
+convert r2 to y2 at Trydnt
+move r2 from Felix to Opus (y3)
+convert r2 to y2 at Humphrey
+build r2 at Felix
+build y3 at Trydnt

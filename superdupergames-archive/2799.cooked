@@ -1,0 +1,74 @@
+Uglyfoot (0, b2y1) g3-
+Ts52 (1, y3b1) -g3
+build g1 at Uglyfoot
+build g1 at Ts52
+move g1 from Uglyfoot to Aquarius (b3)
+move g1 from Ts52 to R2D2 (b2)
+build g1 at Aquarius
+build g2 at R2D2
+build g2 at Uglyfoot
+convert g1 to y1 at R2D2
+convert g1 to r1 at Aquarius
+build g1 at Ts52
+build g1 at Aquarius
+sacrifice g3 at Ts52; build g2 at R2D2; build g3 at Ts52; build g3 at R2D2
+convert g1 to y1 at Aquarius
+convert g2 to r2 at R2D2
+build y2 at Aquarius
+move g2 from R2D2 to Sol (y3)
+sacrifice g3 at Uglyfoot; build g1 at Aquarius; build g2 at Aquarius; build g3 at Uglyfoot
+move g3 from R2D2 to Aquarius; catastrophe green at Aquarius
+move g2 from Uglyfoot to Aquarius
+build g1 at Sol
+build g1 at Uglyfoot
+move g1 from Sol to R2D2
+build g2 at Aquarius
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Sol; build r1 at R2D2
+convert g1 to r1 at Uglyfoot
+build y2 at R2D2
+move g2 from Aquarius to Battlestar (r2)
+sacrifice y2 at R2D2; move g2 from Sol to Uglyfoot; move g3 from Sol to Uglyfoot
+capture g3 at Uglyfoot
+sacrifice r1 at R2D2; capture r1 at Uglyfoot
+convert g3 to y3 at Uglyfoot
+convert g1 to r1 at Ts52
+move y1 from Aquarius to Battlestar
+sacrifice g3 at Ts52; build r2 at Ts52; build r3 at Uglyfoot; build r3 at Uglyfoot
+move r1 from Aquarius to Uglyfoot; catastrophe red at Uglyfoot
+build g1 at Uglyfoot
+build g1 at Uglyfoot; catastrophe green at Uglyfoot
+build g1 at R2D2
+build y2 at Battlestar
+move g1 from R2D2 to Ts52
+convert y3 to g3 at Uglyfoot
+move r2 from R2D2 to Aquarius
+sacrifice y2 at Battlestar; move g2 from Aquarius to R2D2; move y2 from Aquarius to Uglyfoot
+build y2 at R2D2
+build y2 at Battlestar
+sacrifice r1 at Ts52; capture g2 at R2D2
+build y3 at Battlestar
+sacrifice y2 at R2D2; move y1 from R2D2 to Aquarius; move y1 from Aquarius to Battlestar; catastrophe yellow at Battlestar
+build g1 at Uglyfoot
+convert g1 to y1 at R2D2
+move g1 from Uglyfoot to Portal (y3)
+build g1 at R2D2
+build y1 at Uglyfoot
+build y2 at R2D2
+convert y1 to r1 at Uglyfoot
+move g1 from R2D2 to Aquarius
+build g2 at Uglyfoot
+build g3 at Ts52
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Battlestar; build y1 at Uglyfoot
+sacrifice y2 at R2D2; move y1 from R2D2 to Aquarius; move y1 from Aquarius to Uglyfoot; catastrophe yellow at Uglyfoot
+convert g3 to y3 at Uglyfoot
+build g3 at R2D2
+sacrifice y3 at Uglyfoot; move g2 from Battlestar to Ts52; move g2 from Uglyfoot to Ts52; move g1 from Portal to Uglyfoot; catastrophe green at Ts52
+convert g1 to y1 at Aquarius
+build g1 at Battlestar
+move r2 from Aquarius to Uglyfoot
+build g1 at Uglyfoot
+capture r1 at Uglyfoot
+build g2 at Uglyfoot
+capture g2 at Uglyfoot
+build g2 at Uglyfoot
+build g3 at R2D2; catastrophe green at Uglyfoot

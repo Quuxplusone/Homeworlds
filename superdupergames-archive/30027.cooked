@@ -1,0 +1,48 @@
+Kalimantan (0, y3g2) r3-
+Draw5Playall (1, b2r1) -g3
+build r1 at Kalimantan
+build g1 at Draw5Playall
+move r1 from Kalimantan to Dagoba (y1)
+convert g1 to y1 at Draw5Playall
+build r1 at Kalimantan
+build g1 at Draw5Playall
+move r1 from Kalimantan to Yarvin (b1)
+build g1 at Draw5Playall
+convert r1 to g1 at Yarvin
+convert g1 to r1 at Draw5Playall
+build g1 at Yarvin
+build r2 at Draw5Playall
+build r2 at Kalimantan
+move r2 from Draw5Playall to Icehouse (b3)
+move r2 from Kalimantan to Yarvin
+move g1 from Draw5Playall to Icehouse
+convert g1 to y1 at Yarvin
+build g1 at Draw5Playall
+build g2 at Yarvin
+sacrifice g3 at Draw5Playall; build g2 at Icehouse; build g3 at Draw5Playall; build y2 at Draw5Playall
+sacrifice g2 at Yarvin; build y2 at Yarvin; build g2 at Yarvin
+move y1 from Draw5Playall to Icehouse
+move y1 from Yarvin to Hoth (r3)
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y2 at Icehouse; build y3 at Draw5Playall
+sacrifice g2 at Yarvin; build r2 at Dagoba; build r3 at Yarvin
+move g2 from Icehouse to Icetraders (b1)
+build y3 at Yarvin
+sacrifice g3 at Draw5Playall; build g2 at Icetraders; build g3 at Draw5Playall; build g3 at Icehouse
+move r1 from Dagoba to Hoth
+move r1 from Draw5Playall to Builders (g3)
+move r3 from Yarvin to Builders
+sacrifice y1 at Icehouse; move r1 from Builders to Pluto (b1)
+move r2 from Dagoba to Builders
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y1 at Icehouse; build y1 at Icehouse
+sacrifice y3 at Yarvin; move r1 from Hoth to Draw5Playall; move r2 from Builders to Draw5Playall; move r3 from Builders to Draw5Playall
+move y1 from Icehouse to Pluto; catastrophe red at Draw5Playall
+build y3 at Yarvin
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build r1 at Icehouse; build r1 at Pluto
+build g3 at Yarvin
+sacrifice y1 at Icehouse; move r1 from Icehouse to Port4 (y1)
+move y3 from Yarvin to Kalimantan
+move y1 from Pluto to Kalimantan
+capture y1 at Kalimantan
+sacrifice y2 at Draw5Playall; move y2 from Icehouse to Port4; move y2 from Port4 to Kalimantan; catastrophe yellow at Kalimantan
+move y2 from Yarvin to Kalimantan
+sacrifice y3 at Draw5Playall; move g1 from Icehouse to Kalimantan; move g2 from Icetraders to Kalimantan; move g2 from Icetraders to Kalimantan; catastrophe green at Kalimantan

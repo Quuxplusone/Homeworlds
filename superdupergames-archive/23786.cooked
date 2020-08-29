@@ -1,0 +1,34 @@
+Goulo (0, r3b2) g3-
+Zoltar (1, r1b2) -g3
+build g1 at Goulo
+build g1 at Zoltar
+convert g1 to y1 at Goulo
+convert g1 to y1 at Zoltar
+build g1 at Goulo
+build g1 at Zoltar
+convert g1 to r1 at Goulo
+convert g1 to r1 at Zoltar
+build r2 at Goulo
+build r2 at Zoltar
+convert r1 to g1 at Goulo
+build g1 at Zoltar
+move g1 from Goulo to Poleneto (y1)
+move g1 from Zoltar to Oldyeller (y3)
+build y2 at Goulo
+build y2 at Zoltar
+move r2 from Goulo to Poleneto
+move r2 from Zoltar to Oldyeller
+build g1 at Goulo
+build g2 at Zoltar
+build g2 at Goulo
+sacrifice y2 at Zoltar; move g1 from Oldyeller to Poleneto; move g1 from Poleneto to Goulo; catastrophe green at Goulo
+convert y2 to g2 at Goulo
+build y2 at Zoltar
+build y2 at Goulo
+move y1 from Zoltar to Greengiant (g3)
+move y1 from Goulo to Poleneto
+move r1 from Zoltar to Greengiant
+move g1 from Poleneto to Polenego (y3)
+move g2 from Zoltar to Polenego
+build g1 at Polenego
+sacrifice g2 at Polenego; build y2 at Zoltar; build y3 at Greengiant

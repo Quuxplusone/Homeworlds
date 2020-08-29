@@ -1,0 +1,42 @@
+Mikeyarrum (0, b3r2) g3-
+Jesse (1, r3b1) -g3
+build g1 at Mikeyarrum
+build g1 at Jesse
+convert g3 to y3 at Mikeyarrum
+convert g1 to y1 at Jesse
+build y1 at Mikeyarrum
+build y1 at Jesse
+build y2 at Mikeyarrum
+build y2 at Jesse
+build g1 at Mikeyarrum
+move y2 from Jesse to Blork (g2)
+move y2 from Mikeyarrum to Tomo (b1)
+build y2 at Jesse
+move g1 from Mikeyarrum to Tomo
+convert y1 to r1 at Jesse
+convert y1 to r1 at Mikeyarrum
+convert y1 to b1 at Jesse
+move r1 from Mikeyarrum to Tomo
+move b1 from Jesse to Blork
+build r1 at Tomo
+build b2 at Blork
+build y1 at Mikeyarrum
+move b2 from Blork to Glog (g3)
+move r1 from Tomo to Yomi (g2)
+move r1 from Jesse to Blork
+build r2 at Yomi
+build b2 at Blork
+build y1 at Tomo
+convert b2 to g2 at Blork
+convert y2 to b2 at Tomo
+build b2 at Blork
+move b2 from Tomo to Nyamo (g3)
+build b3 at Glog
+build b3 at Nyamo
+sacrifice y2 at Blork; move b1 from Blork to Nyamo; move b2 from Blork to Nyamo; catastrophe blue at Nyamo
+convert y1 to b1 at Tomo
+convert b3 to y3 at Glog
+move y1 from Mikeyarrum to Tomo
+move y3 from Glog to Yomi
+build y1 at Tomo
+sacrifice r1 at Blork; capture r2 at Yomi

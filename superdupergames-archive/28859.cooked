@@ -1,0 +1,45 @@
+Wil (0, b3y1) g3-
+Felix (1, g3b2) -y3
+build g1 at Wil
+build y1 at Felix
+convert g1 to y1 at Wil
+move y1 from Felix to Olive (g1)
+build y2 at Wil
+build y2 at Olive
+convert y1 to r1 at Wil
+build y1 at Felix
+move y2 from Wil to G2 (g2)
+convert y1 to r1 at Felix
+build g1 at Wil
+move y2 from Olive to Grape (b2)
+build g1 at Wil
+convert y2 to g2 at Grape
+move g1 from Wil to B2 (b2)
+move y1 from Olive to Grape
+convert g1 to b1 at Wil
+build g1 at Grape
+build b1 at Wil
+move g1 from Grape to Banana (y3)
+build g1 at Wil
+build g2 at Grape
+build g3 at B2
+build y1 at Grape
+move b1 from Wil to G2
+sacrifice g2 at Grape; build y2 at Grape; build y2 at Felix
+build y3 at G2
+convert y1 to b1 at Grape
+move b1 from Wil to Grape
+move b1 from Grape to Wil
+capture b1 at Wil
+build g2 at Grape
+sacrifice g3 at Wil; build g3 at Wil; build b3 at Wil; build b3 at Grape
+sacrifice y2 at Grape; move g2 from Grape to Wil; move g2 from Grape to Wil; catastrophe green at Wil
+convert b3 to g3 at Wil
+convert y3 to b3 at Felix
+convert b3 to y3 at Grape
+build g1 at Banana
+build b3 at G2
+sacrifice r1 at Felix; capture b1 at Grape
+sacrifice y2 at G2; move g3 from B2 to R1 (r1); move g3 from R1 to Felix
+sacrifice y2 at Felix
+sacrifice r1 at Wil; capture b3 at Felix

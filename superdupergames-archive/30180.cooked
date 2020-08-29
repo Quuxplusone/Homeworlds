@@ -1,0 +1,62 @@
+Roguejedi234 (0, b3r2) g3-
+Babamots (1, g2r1) -b3
+build g1 at Roguejedi234
+build b1 at Babamots
+build g1 at Roguejedi234
+build b1 at Babamots
+convert g1 to y1 at Roguejedi234
+convert b1 to y1 at Babamots
+move g1 from Roguejedi234 to Yavin4 (b1)
+build b1 at Babamots
+build g1 at Yavin4
+move b1 from Babamots to Cuellar (g3)
+build g1 at Roguejedi234
+build b2 at Cuellar
+build g2 at Yavin4
+move b1 from Babamots to Galorndon (g3)
+convert g2 to r2 at Yavin4
+convert b2 to r2 at Cuellar
+move g1 from Roguejedi234 to Tatooine (y1)
+build b2 at Galorndon
+build g2 at Roguejedi234
+convert b2 to g2 at Galorndon
+sacrifice g3 at Roguejedi234; build g3 at Roguejedi234; build y2 at Roguejedi234; build r1 at Yavin4
+build y2 at Babamots
+move y2 from Roguejedi234 to Tatooine
+sacrifice g2 at Galorndon; build b2 at Galorndon; build b2 at Cuellar
+move y2 from Tatooine to Bespin (b3)
+convert b2 to y2 at Cuellar
+sacrifice g3 at Roguejedi234; build y3 at Bespin; build g2 at Tatooine; build g3 at Roguejedi234
+sacrifice y2 at Babamots; move y2 from Cuellar to Yavin4; move b2 from Galorndon to Yavin4
+convert y3 to r3 at Bespin
+sacrifice r2 at Cuellar; capture r2 at Yavin4; capture g1 at Yavin4
+sacrifice g3 at Roguejedi234; build g3 at Roguejedi234; build r1 at Bespin; build y2 at Bespin
+capture r1 at Yavin4
+sacrifice y2 at Bespin; move g2 from Tatooine to Hoth (y3); move g1 from Tatooine to Hoth
+capture g1 at Yavin4
+convert g2 to b2 at Roguejedi234
+build b2 at Cuellar
+sacrifice g1 at Hoth; build y1 at Bespin
+convert b2 to y2 at Cuellar
+convert y1 to g1 at Bespin
+move b1 from Cuellar to Wolf359 (y1)
+move b2 from Roguejedi234 to Wolf359
+build y3 at Yavin4
+sacrifice r1 at Bespin; capture b1 at Wolf359
+build y3 at Cuellar
+convert b2 to g2 at Wolf359
+move y3 from Cuellar to Wolf359
+sacrifice y2 at Bespin; move b1 from Wolf359 to Bespin; move g2 from Wolf359 to Bespin
+build y2 at Cuellar
+build r1 at Bespin
+sacrifice y3 at Wolf359; move b1 from Galorndon to Yavin4; move b1 from Yavin4 to Bespin; move b2 from Yavin4 to Bespin; catastrophe blue at Bespin
+build g1 at Hoth
+convert y2 to b2 at Yavin4
+move g2 from Hoth to Ossus (y1)
+sacrifice y2 at Cuellar; move g1 from Yavin4 to Roguejedi234; move g1 from Yavin4 to Roguejedi234
+convert g3 to b3 at Roguejedi234
+sacrifice b2 at Yavin4; convert g1 to b1 at Roguejedi234; convert g1 to b1 at Roguejedi234; catastrophe blue at Roguejedi234
+move g1 from Hoth to Babamots
+move y3 from Yavin4 to Roguejedi234
+sacrifice g2 at Ossus; build g1 at Babamots; build g1 at Babamots; catastrophe green at Babamots
+capture y1 at Roguejedi234

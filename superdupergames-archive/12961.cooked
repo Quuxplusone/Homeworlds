@@ -1,0 +1,61 @@
+Wmreed (0, g2b1) r3-
+Agentofchaos (1, r1b3) -g3
+build r1 at Wmreed
+build g1 at Agentofchaos
+convert r1 to g1 at Wmreed
+convert g1 to y1 at Agentofchaos
+build r1 at Wmreed
+build y1 at Agentofchaos
+build g1 at Wmreed
+convert y1 to r1 at Agentofchaos
+convert g1 to y1 at Wmreed
+build r2 at Agentofchaos
+build r2 at Wmreed
+build y1 at Agentofchaos
+convert r3 to y3 at Wmreed
+move r2 from Agentofchaos to Eris (y2)
+convert y1 to b1 at Wmreed
+build g1 at Agentofchaos
+build b1 at Wmreed
+move g1 from Agentofchaos to Eris
+move b1 from Wmreed to Odin (g3)
+build r2 at Eris
+build b2 at Odin
+build g1 at Agentofchaos
+build r3 at Wmreed
+move y1 from Agentofchaos to Zurvan (g2)
+move r3 from Wmreed to Odin
+build r3 at Eris
+convert b2 to y2 at Odin
+move r2 from Eris to Quasgar (y3)
+move y3 from Wmreed to Quasgar
+sacrifice g1 at Agentofchaos; build r3 at Quasgar
+sacrifice r1 at Wmreed; capture r3 at Quasgar
+move r3 from Eris to Quasgar
+sacrifice r3 at Quasgar; capture r3 at Quasgar; capture r2 at Quasgar
+build y1 at Zurvan
+move r3 from Quasgar to Zurvan
+move y1 from Zurvan to Elysia (y3)
+capture y1 at Zurvan
+build g1 at Agentofchaos
+move y3 from Quasgar to Wmreed
+sacrifice g3 at Agentofchaos; build g2 at Eris; build r1 at Eris; build g3 at Agentofchaos
+move r2 from Quasgar to Zurvan
+move r1 from Agentofchaos to Hades (y2)
+build y3 at Zurvan
+move g1 from Agentofchaos to Hades
+move r3 from Odin to Eris
+build r3 at Eris; catastrophe red at Eris
+move r3 from Zurvan to Odin
+build g3 at Agentofchaos
+move r3 from Odin to Eris
+move g2 from Eris to Elysia
+capture g1 at Eris
+sacrifice g3 at Agentofchaos; build r1 at Hades; build r2 at Hades; build g3 at Agentofchaos
+move r3 from Eris to Elysia
+move y1 from Agentofchaos to Hades
+capture g2 at Elysia
+move y1 from Elysia to Morgoth (b2)
+build r3 at Zurvan
+move y1 from Hades to Skurve (b3)
+sacrifice y3 at Zurvan; move g2 from Elysia to Eris; move g2 from Eris to Agentofchaos; move g1 from Eris to Agentofchaos; catastrophe green at Agentofchaos

@@ -1,0 +1,39 @@
+Rootbier (0, b1y2) g3-
+Magicjohn (1, b1y3) -g3
+build g1 at Rootbier
+build g1 at Magicjohn
+convert g1 to b1 at Rootbier
+convert g1 to y1 at Magicjohn
+build b2 at Rootbier
+build g1 at Magicjohn
+move b2 from Rootbier to Factory (g3)
+move g1 from Magicjohn to Mauisands (b2)
+build b2 at Factory
+build y1 at Magicjohn
+build b3 at Rootbier
+build g1 at Magicjohn
+build b3 at Factory
+convert g3 to b3 at Magicjohn
+sacrifice b2 at Factory; convert b3 to y3 at Factory; convert b3 to r3 at Rootbier
+build g1 at Mauisands
+sacrifice g3 at Rootbier; build b2 at Factory; build b3 at Factory; build b3 at Rootbier
+build g2 at Magicjohn
+sacrifice b2 at Factory; convert b2 to y2 at Factory; convert b3 to r3 at Factory
+convert y1 to r1 at Magicjohn
+move r3 from Factory to Mauisands
+build g2 at Magicjohn
+capture g1 at Mauisands
+move g2 from Magicjohn to Anyport (y2)
+move y3 from Factory to Anyport
+convert g2 to r2 at Magicjohn
+move b1 from Rootbier to Factory
+build g2 at Anyport
+sacrifice r3 at Rootbier; capture g2 at Anyport; capture g2 at Anyport; capture g1 at Mauisands
+move r2 from Magicjohn to Holeinthewall (b2)
+sacrifice g2 at Anyport; build b2 at Rootbier; build b3 at Factory
+move g1 from Magicjohn to Arthurbrown (g2)
+sacrifice b2 at Rootbier; convert g1 to y1 at Mauisands; convert g1 to y1 at Mauisands
+move y1 from Magicjohn to Holeinthewall
+sacrifice g2 at Anyport; build b2 at Factory; build y3 at Mauisands
+build g1 at Arthurbrown
+sacrifice y2 at Factory; move y1 from Mauisands to Magicjohn; move y1 from Mauisands to Magicjohn

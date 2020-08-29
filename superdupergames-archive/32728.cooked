@@ -1,0 +1,39 @@
+Bhorner (0, r2b1) g3-
+Foksieloy (1, b1r3) -g3
+build g1 at Bhorner
+build g1 at Foksieloy
+convert g1 to b1 at Bhorner
+convert g1 to y1 at Foksieloy
+build b2 at Bhorner
+build y1 at Foksieloy
+convert b2 to y2 at Bhorner
+move y1 from Foksieloy to Tibbers (g2)
+build b2 at Bhorner
+build y1 at Foksieloy
+build y2 at Bhorner
+move y1 from Foksieloy to Annie (g2)
+move y2 from Bhorner to Xmas (g3)
+build g1 at Foksieloy
+move b2 from Bhorner to Xmas
+move y1 from Annie to Valor (b3)
+build b2 at Bhorner
+sacrifice g1 at Foksieloy; build y2 at Valor
+build y3 at Xmas
+convert y2 to b2 at Valor
+move b2 from Bhorner to Bigbird (y3)
+build y2 at Tibbers
+build y3 at Bhorner
+convert y1 to g1 at Valor
+build b3 at Xmas
+build g1 at Valor
+convert b3 to r3 at Xmas
+sacrifice y1 at Foksieloy; move b2 from Valor to Tibbers
+move r3 from Xmas to Tibbers
+sacrifice y2 at Tibbers; move g1 from Valor to Bhorner; move g1 from Valor to Bhorner
+sacrifice y2 at Bhorner; move g3 from Bhorner to Xmas; move g3 from Xmas to Littlebird (y2)
+move b2 from Tibbers to Bigbird
+move y3 from Xmas to Littlebird
+move b2 from Bigbird to Bhorner
+sacrifice y2 at Xmas; move y3 from Littlebird to Foksieloy; move g3 from Littlebird to Foksieloy
+build b3 at Bhorner; catastrophe blue at Bhorner
+sacrifice r3 at Tibbers; capture g3 at Foksieloy

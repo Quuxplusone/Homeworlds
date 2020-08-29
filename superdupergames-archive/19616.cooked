@@ -1,0 +1,23 @@
+Lorgar (0, b2y3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Lorgar
+build g1 at Ts52
+move g1 from Lorgar to Lost (b1)
+convert g1 to b1 at Ts52
+build g1 at Lorgar
+move b1 from Ts52 to Kermit (g3)
+build g1 at Lost
+build g2 at Ts52
+convert g1 to y1 at Lost
+build b1 at Kermit
+build g1 at Lost
+build g2 at Ts52
+sacrifice g3 at Lorgar; build g2 at Lost; build y1 at Lost; build g3 at Lorgar
+build b2 at Kermit
+build y2 at Lost
+convert g2 to y2 at Ts52
+sacrifice y2 at Lost; move g1 from Lost to Kermit; move g1 from Lost to Kermit
+sacrifice y2 at Ts52; move b2 from Kermit to Oscar (g2); move b1 from Kermit to Lost
+build y2 at Lost
+sacrifice g3 at Ts52; build g3 at Ts52; build b3 at Oscar; build b3 at Lost
+sacrifice y2 at Lost; move g1 from Kermit to Ts52; move g1 from Kermit to Ts52; catastrophe green at Ts52

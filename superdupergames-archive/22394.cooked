@@ -1,0 +1,41 @@
+Aristos (0, y3b1) g3-
+Ajo (1, r2b3) -g3
+build g1 at Aristos
+build g1 at Ajo
+move g1 from Aristos to Bubba (b2)
+convert g1 to y1 at Ajo
+build g1 at Aristos
+build y1 at Ajo
+build g1 at Bubba
+move y1 from Ajo to Alpha (b1)
+convert g1 to y1 at Bubba
+build y2 at Ajo
+build y2 at Bubba
+move y2 from Ajo to Alpha
+move y1 from Bubba to Yokel (g1)
+build g2 at Ajo
+build g2 at Bubba
+convert y2 to g2 at Alpha
+sacrifice g3 at Aristos; build g3 at Aristos; build g3 at Aristos; build y2 at Yokel
+sacrifice g3 at Ajo; build g3 at Ajo; build y2 at Alpha; build y3 at Ajo
+convert g1 to r1 at Aristos
+convert y1 to r1 at Alpha
+sacrifice y2 at Bubba; move y1 from Yokel to Ajo; move y2 from Yokel to Ajo; catastrophe yellow at Ajo
+build g1 at Alpha
+convert g2 to y2 at Bubba
+move g1 from Alpha to Beta (b2)
+move g3 from Aristos to Redneck (g2)
+sacrifice g3 at Ajo; build g1 at Alpha; build g3 at Ajo; build y1 at Alpha
+build y1 at Bubba
+move g2 from Alpha to Redneck
+sacrifice y1 at Bubba; move g3 from Redneck to Alpha
+sacrifice y2 at Alpha; move g1 from Beta to Aristos; move g2 from Redneck to Aristos
+sacrifice y2 at Bubba; move g1 from Bubba to Glimmer (y1); move g3 from Alpha to Ajo
+convert g2 to y2 at Ajo
+capture g3 at Ajo
+sacrifice y2 at Ajo; move g1 from Alpha to Ajo; move y1 from Alpha to Ajo
+convert g3 to r3 at Ajo
+sacrifice g2 at Aristos; build g2 at Ajo; build y1 at Ajo
+sacrifice r3 at Ajo; capture g2 at Ajo; capture g1 at Ajo; capture g1 at Aristos
+capture g1 at Ajo
+convert g3 to r3 at Ajo

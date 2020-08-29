@@ -1,0 +1,55 @@
+Silenttitan (0, r2b3) g3-
+Lorgar (1, b1y3) -g3
+build g1 at Silenttitan
+build g1 at Lorgar
+convert g1 to y1 at Silenttitan
+move g1 from Lorgar to Titania (b2)
+build g1 at Silenttitan
+build g1 at Titania
+build y1 at Silenttitan
+convert g1 to y1 at Titania
+move y1 from Silenttitan to Icebergia (g1)
+build y2 at Titania
+build y2 at Icebergia
+convert y1 to r1 at Titania
+convert g1 to r1 at Silenttitan
+build g1 at Lorgar
+build y1 at Silenttitan
+build g2 at Titania
+move y2 from Icebergia to Rain (r2)
+move g1 from Titania to Amandos (y3)
+move y1 from Icebergia to Paper (g2)
+move y2 from Titania to Stone (b1)
+convert y1 to b1 at Silenttitan
+build r1 at Titania
+sacrifice g3 at Silenttitan; build y1 at Paper; build y2 at Rain; build y3 at Silenttitan
+sacrifice g1 at Amandos; build y3 at Stone
+convert y3 to g3 at Silenttitan
+build g1 at Titania
+sacrifice y2 at Rain; move y1 from Paper to Stone; move y1 from Silenttitan to Stone; catastrophe yellow at Stone
+convert g2 to y2 at Titania
+convert b1 to y1 at Silenttitan
+move r1 from Titania to Lorgar
+move r1 from Silenttitan to Glow (g1)
+build g2 at Titania
+build y1 at Paper
+sacrifice g3 at Lorgar; build g2 at Lorgar; build g3 at Titania; build g3 at Lorgar
+sacrifice g3 at Silenttitan; build y2 at Rain; build y3 at Silenttitan; build y3 at Silenttitan
+move g2 from Titania to Triforce (g3)
+sacrifice y3 at Silenttitan; move y1 from Paper to Lorgar; move y1 from Paper to Lorgar; move r1 from Glow to Silenttitan
+build r2 at Lorgar
+convert y1 to g1 at Lorgar; catastrophe green at Lorgar
+capture y1 at Lorgar
+convert y3 to g3 at Silenttitan
+sacrifice y1 at Lorgar; move g3 from Titania to Lorgar
+move r1 from Silenttitan to Hail (g1)
+convert r1 to g1 at Lorgar
+move y2 from Rain to Hail
+sacrifice g3 at Lorgar; build g2 at Titania; build g2 at Titania; build g3 at Lorgar
+build y1 at Hail
+sacrifice y2 at Titania; move g2 from Titania to Hail; move g2 from Titania to Hail
+sacrifice y2 at Hail; move r1 from Hail to Funtime (y2); move y1 from Hail to Snow (y2)
+sacrifice g2 at Triforce; build g2 at Titania; build g3 at Titania
+sacrifice g3 at Silenttitan; build y1 at Rain; build y3 at Rain; build y3 at Silenttitan
+sacrifice g2 at Titania; build g2 at Lorgar; build g3 at Titania
+convert y1 to b1 at Silenttitan

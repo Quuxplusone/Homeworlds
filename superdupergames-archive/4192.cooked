@@ -1,0 +1,16 @@
+Jerzy (0, b2r1) g3-
+Fabi (1, b3y1) -g3
+build g1 at Jerzy
+build g1 at Fabi
+convert g1 to y1 at Jerzy
+convert g1 to r1 at Fabi
+build g1 at Jerzy
+build g1 at Fabi
+convert g1 to y1 at Jerzy
+convert g1 to r1 at Fabi
+build y2 at Jerzy
+build r2 at Fabi
+move y1 from Jerzy to Darwin (g3)
+convert r2 to y2 at Fabi
+build y2 at Darwin
+move y2 from Fabi to Lamarck (g2)

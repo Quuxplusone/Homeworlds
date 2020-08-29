@@ -1,0 +1,11 @@
+Eliscinsky (0, b1r2) g3-
+Random56 (1, y3b1) -g3
+build g1 at Eliscinsky
+build g1 at Random56
+convert g1 to y1 at Eliscinsky
+build g1 at Random56
+build g1 at Eliscinsky
+convert g1 to r1 at Random56
+move g1 from Eliscinsky to Alpha (b3)
+move r1 from Random56 to Home (y2)
+build g1 at Eliscinsky

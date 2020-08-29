@@ -1,0 +1,56 @@
+Mouce (0, y1b2) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Mouce
+build g1 at Ts52
+move g1 from Mouce to Rathome (b3)
+move g1 from Ts52 to Gonzo (b1)
+build g1 at Mouce
+build g2 at Ts52
+build g2 at Rathome
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build g3 at Gonzo
+convert g1 to y1 at Rathome
+convert g3 to y3 at Gonzo
+sacrifice g3 at Mouce; build g1 at Rathome; build y1 at Rathome; build g3 at Mouce
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Ts52; build y2 at Gonzo
+move y1 from Rathome to Gonzo
+convert y3 to r3 at Gonzo
+sacrifice g3 at Mouce; build y2 at Gonzo; build y2 at Rathome; build g3 at Mouce
+move g3 from Ts52 to Elmo (r1)
+sacrifice y2 at Gonzo; move g1 from Rathome to Gonzo; move g1 from Gonzo to Ts52
+convert g3 to r3 at Ts52
+sacrifice g3 at Mouce; build y2 at Gonzo; build y3 at Gonzo; build g3 at Mouce; catastrophe yellow at Gonzo
+build g3 at Elmo
+sacrifice y2 at Rathome; move g1 from Ts52 to Elmo; move g2 from Rathome to Elmo; catastrophe green at Elmo
+convert g2 to y2 at Gonzo
+convert g1 to r1 at Mouce
+move r3 from Gonzo to Rathome
+move y1 from Rathome to Scurry (g1)
+build r1 at Ts52
+build y1 at Scurry
+build y2 at Gonzo
+build g1 at Mouce
+build g2 at Gonzo
+move y1 from Scurry to Hole (b3)
+move y2 from Gonzo to Rathome
+move y1 from Hole to Nest (g2)
+build g3 at Ts52
+sacrifice g3 at Mouce; build g3 at Mouce; build y2 at Nest; build y3 at Scurry
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Gonzo; build y3 at Gonzo
+sacrifice g3 at Mouce; build g3 at Mouce; build r1 at Mouce; build r2 at Mouce
+move g2 from Gonzo to Rathome
+sacrifice y3 at Scurry; move y1 from Nest to Scurry; move y1 from Scurry to Ts52; move y1 from Scurry to Ts52
+sacrifice r3 at Ts52; capture y1 at Ts52; capture y1 at Ts52
+move y2 from Nest to Mercury (b1)
+move y1 from Ts52 to Grover (b1)
+move r2 from Mouce to Sniffle (y3)
+build r2 at Rathome
+convert y2 to g2 at Mercury
+sacrifice g3 at Ts52; build g1 at Rathome; build g3 at Ts52; build y2 at Rathome
+move r1 from Mouce to Rathome
+move r3 from Rathome to Gonzo
+sacrifice g3 at Mouce; build g3 at Mouce; build r2 at Sniffle; build r3 at Mouce
+build r3 at Gonzo
+move r3 from Mouce to Rathome
+sacrifice y3 at Gonzo; move g1 from Rathome to Mouce; move g2 from Rathome to Mouce; move r2 from Rathome to Mouce; catastrophe green at Mouce
+sacrifice r2 at Sniffle; capture y2 at Rathome; capture y2 at Rathome
+capture r1 at Mouce

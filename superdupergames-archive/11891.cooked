@@ -1,0 +1,28 @@
+Mrmoto (0, y3b2) g3-
+Madwuher (1, r1b2) -g3
+build g1 at Mrmoto
+build g1 at Madwuher
+move g1 from Mrmoto to Denebula (b1)
+convert g1 to y1 at Madwuher
+build g1 at Denebula
+build y1 at Madwuher
+convert g1 to y1 at Denebula
+convert y1 to g1 at Madwuher
+build g1 at Denebula
+build g2 at Madwuher
+build g2 at Mrmoto
+move g2 from Madwuher to Bologna (g3)
+sacrifice g3 at Mrmoto; build g2 at Mrmoto; build g3 at Mrmoto; build y1 at Denebula
+sacrifice g3 at Madwuher; build g3 at Madwuher; build y2 at Madwuher; build y2 at Madwuher
+convert g2 to r2 at Mrmoto
+convert y2 to r2 at Madwuher
+move g2 from Mrmoto to Fragrance (b1)
+sacrifice g3 at Madwuher; build g2 at Madwuher; build g3 at Madwuher; build y2 at Madwuher
+move y1 from Denebula to Dawn (r2)
+sacrifice y2 at Madwuher; move g2 from Madwuher to Edora (b3); move y1 from Madwuher to Edora
+sacrifice g3 at Mrmoto; build y2 at Dawn; build y2 at Denebula; build g3 at Fragrance
+sacrifice g3 at Madwuher; build g3 at Madwuher; build y3 at Madwuher; build y3 at Edora
+convert g3 to r3 at Fragrance
+sacrifice y3 at Madwuher; move y3 from Edora to Fragrance; move y3 from Fragrance to Mrmoto; move g1 from Madwuher to Camelot (y3)
+sacrifice y1 at Dawn; move r3 from Fragrance to Mrmoto
+sacrifice r2 at Madwuher; capture r3 at Mrmoto; capture r2 at Mrmoto

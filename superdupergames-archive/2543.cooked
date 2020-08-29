@@ -1,0 +1,41 @@
+Jesse (0, y1g2) b3-
+Jeep (1, b1y3) -g3
+build b1 at Jesse
+build g1 at Jeep
+build b1 at Jesse
+move g1 from Jeep to Man (b2)
+move b1 from Jesse to Plus (g3)
+build g1 at Jeep
+build b2 at Plus
+build g1 at Man
+convert b2 to y2 at Plus
+move g3 from Jeep to Woman (y2)
+build b2 at Plus
+build g2 at Woman
+move b1 from Jesse to Yggdrasil (g3)
+sacrifice g3 at Woman; build g2 at Woman; build g3 at Jeep
+build b2 at Yggdrasil
+convert g1 to y1 at Man
+build b3 at Jesse
+sacrifice g3 at Jeep; build g1 at Man; build y1 at Man; build g3 at Jeep
+build b3 at Yggdrasil
+move y1 from Man to Stage (r3)
+sacrifice b2 at Yggdrasil; convert b3 to y3 at Yggdrasil; convert b3 to y3 at Jesse
+build y2 at Man
+build b2 at Yggdrasil
+move g2 from Woman to Stage
+convert b3 to r3 at Jesse
+convert g1 to r1 at Man
+build b3 at Yggdrasil
+move y1 from Man to Stage
+move y3 from Jesse to Child (b3)
+sacrifice g3 at Jeep; build g1 at Stage; build g3 at Jeep; build r1 at Man
+move b3 from Yggdrasil to Jesse
+move r1 from Man to Plus
+build b3 at Plus
+sacrifice g2 at Woman; build y2 at Stage; build g2 at Man
+move b3 from Plus to Man
+sacrifice y2 at Man; move r1 from Man to Jeep; move g2 from Stage to Store (y2)
+sacrifice y3 at Yggdrasil; move y3 from Child to Man; move y3 from Man to Jeep; move b3 from Man to Jeep
+sacrifice g3 at Jeep; build g3 at Jeep; build r1 at Jeep; build r2 at Plus
+sacrifice r3 at Jesse; capture g3 at Jeep; capture g1 at Jeep; capture r2 at Plus

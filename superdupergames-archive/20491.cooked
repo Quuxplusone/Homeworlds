@@ -1,0 +1,54 @@
+Silenttitan (0, r2b1) g3-
+Mneme (1, g3r1) -b3
+build g1 at Silenttitan
+build b1 at Mneme
+build g1 at Silenttitan
+build b1 at Mneme
+convert g1 to y1 at Silenttitan
+convert b3 to y3 at Mneme
+build y1 at Silenttitan
+build b2 at Mneme
+move y1 from Silenttitan to Sol (b3)
+move b2 from Mneme to Pattern (g2)
+build y1 at Silenttitan
+build b2 at Pattern
+move y1 from Silenttitan to Pluto (b3)
+build b2 at Mneme
+move g1 from Silenttitan to Sink (b3)
+convert b2 to y2 at Pattern
+build y2 at Silenttitan
+move b2 from Pattern to Jacinth (y3)
+convert y2 to b2 at Silenttitan
+convert b2 to g2 at Jacinth
+move b2 from Silenttitan to Egg (g3)
+convert b2 to r2 at Mneme
+build y2 at Silenttitan
+move y2 from Pattern to Sink
+convert y2 to r2 at Silenttitan
+build r1 at Mneme
+sacrifice g3 at Silenttitan; build y2 at Pluto; build y2 at Sol; build y3 at Silenttitan
+sacrifice r1 at Mneme; capture g1 at Sink
+sacrifice b2 at Egg; convert y1 to r1 at Sol; convert y2 to g2 at Sol
+move r2 from Mneme to Tracer (g2)
+convert y1 to r1 at Pluto
+build r3 at Tracer
+sacrifice g2 at Sol; build r3 at Pluto; build r3 at Sol
+sacrifice b1 at Mneme; convert r3 to g3 at Tracer
+convert r3 to g3 at Pluto
+build r3 at Tracer
+sacrifice y2 at Pluto; move r1 from Pluto to Tracer; move r1 from Sol to Tracer; catastrophe red at Tracer
+build g1 at Sink
+convert y1 to g1 at Silenttitan
+convert g1 to r1 at Sink
+build g1 at Pluto
+build r1 at Sink
+convert r2 to y2 at Silenttitan
+build y1 at Sink
+sacrifice y2 at Silenttitan; move r3 from Sol to Tracer; move r3 from Tracer to Sink
+build r2 at Sink; catastrophe red at Sink
+convert g1 to y1 at Pluto
+convert y2 to r2 at Sink
+sacrifice g3 at Pluto; build y1 at Pluto; build y2 at Pluto; build y2 at Silenttitan
+build y2 at Sink
+convert y2 to r2 at Pluto
+sacrifice y3 at Mneme; move y2 from Sink to Silenttitan; move y1 from Sink to Silenttitan; move g2 from Jacinth to Silenttitan; catastrophe yellow at Silenttitan

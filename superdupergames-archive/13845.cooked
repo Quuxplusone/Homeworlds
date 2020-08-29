@@ -1,0 +1,27 @@
+Analogkid (0, y3b1) g3-
+Jonaskoelker (1, y2b1) -g3
+build g1 at Analogkid
+build g1 at Jonaskoelker
+convert g1 to y1 at Analogkid
+convert g1 to y1 at Jonaskoelker
+move y1 from Analogkid to Ramandu (g2)
+move y1 from Jonaskoelker to Alderaan (g3)
+build g1 at Analogkid
+build g1 at Jonaskoelker
+convert g1 to b1 at Analogkid
+convert g3 to b3 at Jonaskoelker
+build b2 at Analogkid
+build b2 at Jonaskoelker
+move y1 from Ramandu to Coriakin (g3)
+move b2 from Jonaskoelker to Alderaan
+build g1 at Analogkid
+build b2 at Alderaan
+convert b1 to r1 at Analogkid
+convert b2 to g2 at Alderaan
+move b2 from Analogkid to Ramandu (g2)
+build b1 at Alderaan
+build y1 at Coriakin
+build y2 at Alderaan
+move y1 from Coriakin to Ramandu
+convert y2 to r2 at Alderaan
+build y2 at Ramandu

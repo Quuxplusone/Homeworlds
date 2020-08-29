@@ -1,0 +1,42 @@
+Goulo (0, r3b2) g3-
+Dlwillson (1, y3b1) -g3
+build g1 at Goulo
+build g1 at Dlwillson
+convert g1 to y1 at Goulo
+convert g1 to b1 at Dlwillson
+build g1 at Goulo
+build b1 at Dlwillson
+build y1 at Goulo
+move b1 from Dlwillson to Sea (b2)
+convert g3 to b3 at Goulo
+build g1 at Dlwillson
+convert y1 to r1 at Goulo
+move b1 from Dlwillson to Field (g2)
+build y1 at Goulo
+sacrifice g3 at Dlwillson; build b2 at Field; build b3 at Field; build b3 at Sea
+move y1 from Goulo to Flaveto (y1)
+sacrifice b2 at Field; convert b3 to g3 at Sea; convert b3 to y3 at Field
+build y2 at Goulo
+sacrifice g3 at Sea; build b2 at Field; build b3 at Field; build b3 at Sea
+sacrifice y2 at Goulo; move y1 from Flaveto to Sea; move y1 from Sea to Dlwillson
+move b3 from Field to Dlwillson
+sacrifice r1 at Goulo; capture g1 at Dlwillson
+sacrifice y3 at Field; move b3 from Sea to Sol (y1); move b1 from Sea to Sol; move b3 from Sol to Goulo
+capture b3 at Goulo
+move b1 from Sol to Goulo; catastrophe blue at Goulo
+build y1 at Dlwillson
+convert b3 to r3 at Dlwillson
+build g1 at Dlwillson
+convert b2 to y2 at Field
+build y2 at Goulo
+build y2 at Field
+build g2 at Goulo
+capture g1 at Dlwillson
+move y1 from Goulo to Verdo (g2)
+convert y2 to r2 at Field
+build g3 at Goulo
+build r1 at Field
+move g2 from Goulo to Field
+sacrifice y2 at Field; move r2 from Field to Goulo; move r1 from Field to Goulo
+build y2 at Dlwillson; catastrophe yellow at Dlwillson
+sacrifice g1 at Dlwillson; build r1 at Goulo; catastrophe red at Goulo

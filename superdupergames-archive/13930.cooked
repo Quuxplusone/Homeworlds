@@ -1,0 +1,22 @@
+Jonaskoelker (0, r1b2) g3-
+Matrixfrog (1, b2y3) -g3
+build g1 at Jonaskoelker
+build g1 at Matrixfrog
+convert g1 to y1 at Jonaskoelker
+build g1 at Matrixfrog
+build g1 at Jonaskoelker
+convert g1 to r1 at Matrixfrog
+build y1 at Jonaskoelker
+move g1 from Matrixfrog to Littlecheese (y1)
+build y2 at Jonaskoelker
+build r1 at Matrixfrog
+convert y2 to r2 at Jonaskoelker
+build r2 at Matrixfrog
+build y2 at Jonaskoelker
+convert r2 to g2 at Matrixfrog
+move g1 from Jonaskoelker to Large_Blue (b3)
+build g1 at Littlecheese
+build g2 at Jonaskoelker
+build r2 at Matrixfrog
+sacrifice g3 at Jonaskoelker; build g2 at Large_Blue; build g3 at Jonaskoelker; build g3 at Jonaskoelker
+convert r2 to y2 at Matrixfrog

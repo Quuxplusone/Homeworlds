@@ -1,0 +1,27 @@
+Zoltar (0, r3b2) g3-
+Jerzy (1, y1b3) -g3
+build g1 at Zoltar
+build g1 at Jerzy
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Jerzy
+build y2 at Zoltar
+build y2 at Jerzy
+build y2 at Zoltar
+move y1 from Jerzy to Darwin (g2)
+convert y1 to r1 at Zoltar
+convert y2 to b2 at Jerzy
+move y2 from Zoltar to Greenbelt (g1)
+build b1 at Jerzy
+build g1 at Zoltar
+build g1 at Jerzy
+move g1 from Zoltar to Lemon (y1)
+move g1 from Jerzy to Mango (y2)
+build g2 at Zoltar
+build g2 at Jerzy
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Lemon; build y3 at Greenbelt
+sacrifice g2 at Jerzy; build g2 at Jerzy; build y3 at Darwin
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Zoltar; build r1 at Zoltar
+move b1 from Jerzy to Mango
+sacrifice y3 at Zoltar; move r1 from Zoltar to Lemon; move g3 from Lemon to Mango; move g3 from Mango to Jerzy
+sacrifice b2 at Jerzy; convert g3 to y3 at Jerzy; convert g2 to r2 at Jerzy
+sacrifice r1 at Zoltar; capture r2 at Jerzy

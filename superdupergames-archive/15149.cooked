@@ -1,0 +1,73 @@
+Supergnouf (0, g3b1) y3-
+Captncavern (1, g3b2) -y3
+build y1 at Supergnouf
+build y1 at Captncavern
+convert y1 to r1 at Supergnouf
+build y1 at Captncavern
+build r1 at Supergnouf
+convert y1 to g1 at Captncavern
+convert r1 to g1 at Supergnouf
+convert y1 to r1 at Captncavern
+build y1 at Supergnouf
+move g1 from Captncavern to Jaune (y1)
+move y1 from Supergnouf to Kilman (g2)
+build g1 at Jaune
+build y1 at Supergnouf
+build g2 at Jaune
+build y2 at Kilman
+build y2 at Captncavern
+build y2 at Supergnouf
+build r1 at Captncavern
+sacrifice y2 at Supergnouf; move g1 from Supergnouf to Kilman; move g1 from Kilman to Jaune; catastrophe green at Jaune
+move y2 from Captncavern to Vert (g1)
+build r2 at Supergnouf
+build r2 at Captncavern
+move y1 from Kilman to Tort (b1)
+convert r1 to g1 at Captncavern
+move y3 from Supergnouf to Tiaw (g2)
+move g1 from Captncavern to Vert
+sacrifice y2 at Kilman; move y3 from Tiaw to Vert; move y1 from Tort to Captncavern
+move y2 from Vert to Plus (g2)
+build y1 at Captncavern
+sacrifice r2 at Captncavern; capture y1 at Captncavern; capture y1 at Captncavern
+build y2 at Supergnouf
+sacrifice g1 at Vert; build r1 at Captncavern
+move y3 from Vert to Captncavern; catastrophe yellow at Captncavern
+build r2 at Captncavern
+move r2 from Supergnouf to Roto (g2)
+convert r1 to y1 at Captncavern
+move y1 from Supergnouf to Roto
+move r1 from Captncavern to Hop (y1)
+build r1 at Supergnouf
+build y2 at Plus
+build y3 at Roto
+build y3 at Captncavern
+build y3 at Supergnouf
+move y2 from Plus to Moins (b1)
+move y3 from Roto to Hop
+convert y1 to g1 at Captncavern
+sacrifice r1 at Supergnouf; capture r1 at Hop
+build y1 at Plus
+move y2 from Supergnouf to Atoa (b2)
+build r1 at Captncavern
+build r2 at Supergnouf
+move r2 from Captncavern to Moins
+build r3 at Roto
+build r3 at Captncavern
+move r3 from Roto to Moins
+move r2 from Moins to Plus
+build r3 at Roto
+move y2 from Moins to Loin (g2)
+move y3 from Supergnouf to Plus
+sacrifice y2 at Loin; move y1 from Plus to Hop; move y2 from Plus to Hop; catastrophe yellow at Hop
+sacrifice r1 at Supergnouf; capture r2 at Plus
+build g1 at Captncavern
+build r1 at Supergnouf
+convert r3 to y3 at Captncavern
+convert r2 to g2 at Supergnouf
+build r1 at Captncavern
+build r2 at Plus
+sacrifice y3 at Captncavern; move y3 from Captncavern to Aa (y1); move y3 from Aa to Bb (y2); move y3 from Bb to Supergnouf
+sacrifice y2 at Atoa; move r3 from Moins to Captncavern; move y1 from Roto to Supergnouf
+sacrifice r1 at Captncavern; capture r1 at Supergnouf
+sacrifice r3 at Roto; capture r1 at Captncavern; capture g1 at Captncavern; capture g1 at Captncavern

@@ -1,0 +1,69 @@
+Face (0, r3b2) g3-
+Captncavern (1, g3b1) -y3
+build g1 at Face
+build y1 at Captncavern
+convert g3 to y3 at Face
+convert y1 to r1 at Captncavern
+build y1 at Face
+build r1 at Captncavern
+build g1 at Face
+build y1 at Captncavern
+move g1 from Face to Smash (b1)
+convert y3 to g3 at Captncavern
+move y1 from Face to Smash
+build y1 at Captncavern
+build y2 at Smash
+move y1 from Captncavern to Out (b2)
+build y2 at Face
+sacrifice g3 at Captncavern; build y2 at Out; build y3 at Captncavern; build r1 at Captncavern
+move y1 from Smash to Tank (r2)
+move y2 from Out to Smash
+move g1 from Smash to Tank
+sacrifice r1 at Captncavern; capture y2 at Smash
+build y3 at Tank
+move y1 from Captncavern to Tank
+move y3 from Tank to Waste (r3)
+move y1 from Tank to Big (b1)
+move y2 from Face to Plaster (g1)
+move y1 from Out to Come (r1)
+move y3 from Waste to Come
+sacrifice y2 at Smash; move y1 from Come to Face; move y1 from Big to Face
+build y2 at Tank
+move y2 from Smash to Face
+build g2 at Tank; catastrophe yellow at Face
+build r2 at Captncavern
+move y3 from Come to Face
+move r2 from Captncavern to Not (y2)
+build g2 at Face
+move y3 from Captncavern to Tank
+move g2 from Tank to Captncavern
+move r2 from Not to Plaster
+build g2 at Captncavern
+capture y2 at Plaster
+convert g2 to r2 at Captncavern
+move y3 from Tank to Captncavern
+sacrifice g2 at Face; build r1 at Captncavern; build g2 at Captncavern
+sacrifice r2 at Plaster; capture g2 at Captncavern; capture g2 at Captncavern; catastrophe red at Captncavern
+move g1 from Tank to Captncavern; catastrophe green at Captncavern
+build y1 at Plaster
+build y1 at Face
+convert y3 to g3 at Captncavern
+build g1 at Face
+move y1 from Plaster to Face
+move y1 from Face to Smash (r1)
+capture g1 at Face
+capture g1 at Face
+move y1 from Face to Captncavern
+move g1 from Face to Smash
+convert y1 to r1 at Captncavern
+build g2 at Face
+build r1 at Captncavern
+convert g1 to b1 at Face
+convert r1 to y1 at Captncavern
+build b1 at Face
+sacrifice g3 at Captncavern; build y2 at Plaster; build y3 at Plaster; build y3 at Captncavern
+move y1 from Tank to Plaster; catastrophe yellow at Plaster
+convert y1 to g1 at Captncavern
+sacrifice y2 at Tank; move b1 from Face to Captncavern; move b1 from Face to Captncavern
+capture b1 at Captncavern
+sacrifice g1 at Smash; build b2 at Captncavern; catastrophe blue at Captncavern

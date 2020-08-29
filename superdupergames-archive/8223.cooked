@@ -1,0 +1,46 @@
+Dsheldon (0, r1b2) g3-
+Clockwise (1, b3y1) -g3
+build g1 at Dsheldon
+build g1 at Clockwise
+build g1 at Dsheldon
+build g2 at Clockwise
+convert g1 to y1 at Dsheldon
+convert g2 to y2 at Clockwise
+move g1 from Dsheldon to Greenback (g3)
+move g1 from Clockwise to Sophocles (y2)
+build g1 at Dsheldon
+build g2 at Sophocles
+move g1 from Dsheldon to Jerome (y3)
+build g2 at Clockwise
+build g2 at Dsheldon
+move g2 from Sophocles to Aristotle (y3)
+move g2 from Dsheldon to Sky (b3)
+move g1 from Sophocles to Pascal (y3)
+build y1 at Dsheldon
+build y2 at Clockwise
+convert y1 to r1 at Dsheldon
+convert y2 to r2 at Clockwise
+sacrifice g2 at Sky; build g2 at Jerome; build y1 at Dsheldon
+sacrifice g3 at Clockwise; build g3 at Clockwise; build y2 at Clockwise; build r1 at Clockwise
+move g1 from Jerome to Puddle (b2)
+move y2 from Clockwise to Puddle
+sacrifice g1 at Puddle; build g1 at Jerome
+sacrifice g3 at Clockwise; build g3 at Clockwise; build y2 at Puddle; build r2 at Clockwise
+convert y1 to b1 at Dsheldon
+move r2 from Clockwise to Puddle
+move g1 from Jerome to Droplet (b1)
+sacrifice g3 at Clockwise; build g3 at Clockwise; build r2 at Puddle; build r3 at Puddle
+convert g1 to y1 at Droplet
+move r3 from Puddle to Jerome
+move r1 from Dsheldon to Pascal
+sacrifice r2 at Puddle; capture r1 at Pascal; capture g2 at Jerome
+build b1 at Dsheldon
+move y2 from Puddle to Machiavelli (b3)
+move b1 from Dsheldon to Greenback
+sacrifice g2 at Aristotle; build y3 at Machiavelli; build r2 at Jerome
+build b2 at Greenback
+sacrifice y2 at Puddle; move r3 from Jerome to Dsheldon; move y3 from Machiavelli to Dsheldon
+capture y3 at Dsheldon
+sacrifice r2 at Puddle; capture y3 at Dsheldon; capture g3 at Dsheldon
+convert b1 to g1 at Dsheldon
+sacrifice r2 at Clockwise; capture g1 at Dsheldon; capture y1 at Dsheldon

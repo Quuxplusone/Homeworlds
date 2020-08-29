@@ -1,0 +1,119 @@
+Antihero (0, g3b2) y3-
+Keith (1, y1b2) -g3
+build y1 at Antihero
+build g1 at Keith
+convert y1 to g1 at Antihero
+convert g1 to y1 at Keith
+build g1 at Antihero
+build g1 at Keith
+move g1 from Antihero to Huntington (y1)
+move y1 from Keith to Notfar (g3)
+build g2 at Huntington
+build y2 at Notfar
+build y2 at Antihero
+convert g1 to r1 at Keith
+convert y2 to r2 at Antihero
+build r1 at Keith
+build y2 at Antihero
+build g1 at Keith
+build g2 at Antihero
+convert g1 to b1 at Keith
+convert g1 to b1 at Antihero
+move b1 from Keith to Notfar
+move b1 from Antihero to Huntington
+convert y1 to g1 at Notfar
+move g1 from Huntington to Close (y3)
+move r1 from Keith to Notfar
+move g2 from Huntington to Notfar
+sacrifice y2 at Notfar; move g1 from Notfar to Huntington; move r1 from Notfar to Huntington
+sacrifice y2 at Antihero; move g1 from Close to Keith; move g2 from Notfar to Keith
+convert g3 to r3 at Keith
+convert g1 to r1 at Keith
+capture g2 at Keith
+sacrifice g2 at Antihero; build r2 at Antihero; build r2 at Keith; catastrophe red at Keith
+build r1 at Huntington
+sacrifice r2 at Antihero; capture r1 at Huntington; capture r1 at Huntington
+build g1 at Keith
+capture g1 at Huntington
+convert g1 to r1 at Keith
+build r2 at Antihero
+build r2 at Keith
+move r1 from Huntington to Bigstar (y3)
+move r2 from Keith to Bigstar
+build r3 at Huntington
+build r3 at Keith
+sacrifice y3 at Antihero; move r1 from Huntington to Bigstar; move r1 from Bigstar to Keith; move r1 from Bigstar to Keith; catastrophe red at Keith
+build g1 at Keith
+convert r2 to y2 at Antihero
+sacrifice g2 at Keith; build r1 at Bigstar; build r1 at Bigstar
+build y1 at Antihero
+move r1 from Bigstar to Keith
+sacrifice y2 at Antihero; move r3 from Huntington to Bigstar; move r3 from Bigstar to Keith
+build r1 at Keith
+capture g1 at Keith
+capture g1 at Keith
+sacrifice r2 at Antihero; capture g1 at Keith; capture r1 at Keith
+sacrifice r2 at Bigstar; capture g1 at Keith; capture r1 at Keith
+move r3 from Keith to Notfar
+convert b1 to g1 at Notfar
+capture g1 at Notfar
+move r1 from Bigstar to Huntington
+build y2 at Antihero
+move r1 from Huntington to Antihero
+convert y2 to r2 at Antihero
+build r2 at Antihero
+capture r2 at Antihero
+build r2 at Antihero; catastrophe red at Antihero
+build y2 at Antihero
+build g2 at Keith
+build y2 at Antihero
+convert g2 to y2 at Keith
+convert y1 to r1 at Antihero
+build r2 at Keith
+build g2 at Huntington
+build g2 at Keith
+sacrifice y2 at Antihero; move r3 from Notfar to Huntington; move r3 from Huntington to Antihero
+move r2 from Keith to Notfar
+sacrifice g1 at Notfar; build b1 at Huntington
+build r2 at Notfar
+convert b1 to y1 at Huntington
+sacrifice y2 at Keith; move r2 from Notfar to Huntington; move r2 from Notfar to Huntington
+move g2 from Huntington to Sol (y3)
+move r2 from Huntington to Antihero
+sacrifice r1 at Antihero; capture r2 at Antihero
+capture g1 at Huntington
+move y1 from Huntington to Archives (g3)
+build r1 at Huntington
+move r2 from Antihero to Shaw (g1)
+move g1 from Keith to Midworld (g3)
+build y2 at Archives
+build g2 at Huntington
+build r2 at Shaw
+move g1 from Huntington to Antihero
+capture g1 at Antihero
+move r1 from Huntington to Antihero
+capture r1 at Antihero
+build r3 at Huntington
+build r3 at Shaw
+move r2 from Huntington to Antihero
+sacrifice r1 at Antihero; capture r2 at Antihero
+capture b1 at Huntington
+build y2 at Antihero
+move r3 from Huntington to Sol
+sacrifice y2 at Antihero; move r2 from Shaw to Midworld; move r2 from Midworld to Keith
+capture r2 at Keith
+sacrifice y2 at Antihero; move r2 from Shaw to Midworld; move r2 from Midworld to Keith; catastrophe red at Keith
+move r3 from Sol to Keith
+convert r2 to y2 at Antihero
+sacrifice g2 at Huntington; build b1 at Huntington; build b1 at Huntington
+build y2 at Archives
+move b1 from Huntington to Antihero
+move y1 from Archives to Keith
+capture y1 at Keith
+sacrifice g2 at Sol; build y3 at Antihero; build y3 at Antihero
+sacrifice g2 at Keith; build b2 at Antihero; build b3 at Antihero
+sacrifice y2 at Antihero; move y2 from Archives to Keith; move y2 from Archives to Keith; catastrophe yellow at Keith; catastrophe blue at Antihero
+convert b1 to r1 at Huntington
+sacrifice y3 at Antihero; move r3 from Antihero to Keith; move y3 from Antihero to Keith; move r3 from Shaw to Antihero
+capture r3 at Keith
+sacrifice r3 at Antihero; capture r3 at Keith; capture r3 at Keith

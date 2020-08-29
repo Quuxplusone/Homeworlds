@@ -1,0 +1,36 @@
+Junkman (0, g3y1) r3-
+Andylooney (1, b1g2) -y3
+build r1 at Junkman
+build y1 at Andylooney
+move r1 from Junkman to Yellow (y2)
+build y1 at Andylooney
+move r1 from Yellow to Yellow2 (y3)
+convert y1 to r1 at Andylooney
+move r1 from Yellow2 to Blue (b2)
+build y1 at Andylooney
+convert r1 to g1 at Blue
+move y1 from Andylooney to Garden (g3)
+build g1 at Blue
+build y2 at Garden
+build r1 at Junkman
+build y2 at Andylooney
+move r1 from Junkman to Blue
+convert y2 to g2 at Andylooney
+build r1 at Blue
+move g2 from Andylooney to Clampett (y3)
+build r2 at Blue
+build r2 at Andylooney
+convert r2 to y2 at Blue
+move y1 from Garden to Gateway (g2)
+build r2 at Junkman
+build y2 at Gateway
+move r2 from Junkman to Gateway
+sacrifice r1 at Andylooney; capture r2 at Gateway
+build y3 at Blue
+sacrifice g2 at Clampett; build y3 at Garden; build r1 at Gateway
+move y3 from Blue to Garden
+move y3 from Garden to Blue
+sacrifice r1 at Blue; capture y2 at Garden
+sacrifice r2 at Gateway; capture y2 at Blue; capture r1 at Blue
+build r1 at Junkman
+sacrifice y2 at Gateway; move r1 from Gateway to Junkman; move r1 from Blue to Junkman; catastrophe red at Junkman

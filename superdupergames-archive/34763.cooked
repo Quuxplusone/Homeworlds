@@ -1,0 +1,42 @@
+Ajo (0, b3y2) g3-
+Trydnt (1, b2y1) -g3
+build g1 at Ajo
+build g1 at Trydnt
+convert g1 to r1 at Ajo
+convert g1 to y1 at Trydnt
+build r1 at Ajo
+build y1 at Trydnt
+build r1 at Ajo
+move y1 from Trydnt to G3 (g3)
+move r1 from Ajo to Alpha (b1)
+build y2 at G3
+build r2 at Ajo
+build y2 at Trydnt
+convert r2 to g2 at Ajo
+build y3 at G3
+sacrifice g2 at Ajo; build g1 at Ajo; build r2 at Alpha
+move y3 from G3 to Alpha
+move r1 from Ajo to Beta (b1)
+convert y2 to r2 at Trydnt
+sacrifice g3 at Ajo; build r2 at Beta; build r3 at Beta; build r3 at Ajo
+sacrifice g3 at Trydnt; build y2 at G3; build y3 at Alpha; build y3 at Trydnt
+convert r2 to g2 at Beta
+sacrifice r2 at Trydnt; capture r2 at Alpha; capture r1 at Alpha
+convert r3 to b3 at Ajo
+convert r2 to g2 at Alpha
+build r2 at Ajo
+build r2 at Alpha
+build g1 at Beta
+convert r1 to b1 at Alpha
+build r1 at Beta
+move b1 from Alpha to G2 (g2)
+convert r3 to b3 at Beta
+build b2 at G2
+sacrifice g2 at Beta; build g1 at Beta; build g2 at Ajo
+sacrifice y1 at Trydnt; move b2 from G2 to Y1 (y1)
+move b3 from Ajo to Y1
+move y3 from Alpha to Ajo
+sacrifice r1 at Beta; capture b2 at Y1
+sacrifice r2 at Alpha; capture r2 at Ajo; capture g2 at Ajo
+pass
+sacrifice r2 at Ajo; capture g1 at Ajo; capture r1 at Ajo

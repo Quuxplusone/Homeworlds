@@ -1,0 +1,20 @@
+Subhan64 (0, b1y2) g3-
+Danner (1, b1g2) -b3
+build g1 at Subhan64
+build b1 at Danner
+build g1 at Subhan64
+convert b3 to y3 at Danner
+move g1 from Subhan64 to Kermit (g3)
+build b2 at Danner
+build g1 at Kermit
+move b2 from Danner to Larkspur (g3)
+build g2 at Subhan64
+build b2 at Larkspur
+convert g2 to y2 at Subhan64
+build b2 at Larkspur
+sacrifice y2 at Subhan64; move g1 from Kermit to Danner; move g1 from Kermit to Danner
+build b3 at Danner
+build g2 at Danner; catastrophe green at Danner
+convert b3 to g3 at Danner
+build g1 at Subhan64
+sacrifice y3 at Danner; move g3 from Danner to Larkspur; move g3 from Larkspur to Subhan64; catastrophe green at Subhan64

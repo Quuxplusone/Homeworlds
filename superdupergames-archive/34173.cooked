@@ -1,0 +1,28 @@
+Thorolf (0, b3y2) g3-
+Trydnt (1, g2b2) -y3
+build g1 at Thorolf
+build y1 at Trydnt
+convert g3 to r3 at Thorolf
+build y1 at Trydnt
+build g1 at Thorolf
+move y1 from Trydnt to G3 (g3)
+move g1 from Thorolf to Theta (b1)
+build y1 at G3
+convert g1 to r1 at Theta
+build y2 at Trydnt
+build g1 at Thorolf
+move y1 from Trydnt to Gee3 (g3)
+convert g1 to r1 at Thorolf
+build y2 at Trydnt
+convert r3 to y3 at Thorolf
+build y3 at Gee3
+move r1 from Thorolf to Theta
+convert y2 to r2 at Trydnt
+build y2 at Thorolf
+sacrifice y2 at Trydnt; move y1 from G3 to Theta; move y1 from Theta to Thorolf; catastrophe yellow at Thorolf
+convert r1 to y1 at Theta
+build y2 at Trydnt
+build g1 at Thorolf
+move y2 from Trydnt to Thorolf
+convert g1 to r1 at Thorolf
+sacrifice r2 at Trydnt; capture r1 at Thorolf; capture g1 at Thorolf

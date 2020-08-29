@@ -1,0 +1,21 @@
+Twoshort (0, r1b3) g3-
+Aristos (1, g2b1) -y3
+build g1 at Twoshort
+build y1 at Aristos
+convert g1 to y1 at Twoshort
+move y1 from Aristos to Opening (g3)
+build g1 at Twoshort
+build y1 at Opening
+build y2 at Twoshort
+build y2 at Aristos
+move y1 from Twoshort to Grogar (g2)
+move y1 from Opening to Shifter (b2)
+build g1 at Twoshort
+convert y1 to g1 at Shifter
+move g1 from Twoshort to Yolonda (y2)
+build g2 at Shifter
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Yolonda; build y1 at Grogar
+sacrifice y2 at Aristos; move g1 from Shifter to Twoshort; move g2 from Shifter to Twoshort; catastrophe green at Twoshort
+sacrifice g3 at Yolonda; build y2 at Grogar; build y3 at Twoshort; build y3 at Twoshort
+move y1 from Opening to Hehehehe (g2)
+move y3 from Twoshort to Hehehehe

@@ -1,0 +1,32 @@
+Riddick (0, b2y1) g3-
+Johannz (1, y3b2) -g3
+build g1 at Riddick
+build g1 at Johannz
+move g3 from Riddick to Nomansland (y3)
+move g3 from Johannz to Gateway (r1)
+build g1 at Nomansland
+build g2 at Johannz
+build g2 at Riddick
+convert g2 to y2 at Johannz
+convert g1 to b1 at Riddick
+move y2 from Johannz to Gateway
+move b1 from Riddick to Nomansland
+build g1 at Johannz
+build g2 at Riddick
+move g1 from Johannz to Gateway
+build g2 at Nomansland
+move g1 from Gateway to Nomansland; catastrophe green at Nomansland
+move g2 from Riddick to Nomansland
+build g1 at Johannz
+build g1 at Riddick
+convert g1 to b1 at Johannz
+convert g2 to r2 at Nomansland
+move b1 from Johannz to Gateway
+move g2 from Riddick to Nomansland
+build y1 at Gateway
+convert g1 to r1 at Riddick
+convert g3 to r3 at Gateway
+move g2 from Nomansland to Riddick
+sacrifice y2 at Gateway; move r3 from Gateway to Nomansland; move r3 from Nomansland to Riddick
+build g1 at Riddick
+capture g2 at Riddick

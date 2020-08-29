@@ -1,0 +1,12 @@
+Charlemagne (0, g3b2) y3-
+Mikeyarrum (1, y1b2) -g3
+build y1 at Charlemagne
+build g1 at Mikeyarrum
+convert y1 to g1 at Charlemagne
+convert g1 to y1 at Mikeyarrum
+move y3 from Charlemagne to Fido (g1)
+move y1 from Mikeyarrum to Torako (b3)
+build y1 at Fido
+build g1 at Mikeyarrum
+build g2 at Charlemagne
+move g1 from Mikeyarrum to Torako

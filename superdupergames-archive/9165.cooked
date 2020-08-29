@@ -1,0 +1,18 @@
+Polyhymnia (0, y1g2) b3-
+Spacehobo (1, b1y2) -g3
+build b1 at Polyhymnia
+build g1 at Spacehobo
+build b1 at Polyhymnia
+build g1 at Spacehobo
+build b2 at Polyhymnia
+move g1 from Spacehobo to Marylebone (b3)
+move b2 from Polyhymnia to Marylebone
+build g1 at Marylebone
+convert b2 to g2 at Marylebone
+convert g1 to y1 at Marylebone
+build g1 at Marylebone
+build g2 at Marylebone
+build g3 at Marylebone
+convert g2 to b2 at Marylebone
+convert g3 to r3 at Marylebone
+move b2 from Marylebone to Polyhymnia; catastrophe blue at Polyhymnia

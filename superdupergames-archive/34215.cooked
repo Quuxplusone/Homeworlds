@@ -1,0 +1,64 @@
+Felix (0, b2r3) g3-
+Deanthebean (1, b1y2) -g3
+build g1 at Felix
+build g1 at Deanthebean
+convert g1 to b1 at Felix
+build g1 at Deanthebean
+build b1 at Felix
+convert g1 to r1 at Deanthebean
+build g1 at Felix
+build r1 at Deanthebean
+convert g1 to r1 at Felix
+build r2 at Deanthebean
+build r2 at Felix
+convert r2 to b2 at Deanthebean
+convert r1 to y1 at Felix
+convert r1 to y1 at Deanthebean
+move b1 from Felix to Rumpus (g1)
+move b2 from Deanthebean to Wait (g3)
+sacrifice g3 at Felix; build b2 at Rumpus; build b3 at Rumpus; build b3 at Felix
+sacrifice y1 at Deanthebean; move b2 from Wait to Rumpus; catastrophe blue at Rumpus
+convert b3 to g3 at Felix
+build r1 at Deanthebean
+build y1 at Felix
+convert r1 to b1 at Deanthebean
+build y1 at Felix
+build b2 at Deanthebean
+build b2 at Felix
+convert b2 to y2 at Deanthebean
+move y1 from Felix to Out (g1)
+move b1 from Deanthebean to Stage (y3)
+move b2 from Felix to Out
+move y2 from Deanthebean to Coach (g3)
+move y1 from Felix to Conk (g1)
+build g2 at Deanthebean
+sacrifice g3 at Felix; build y2 at Conk; build y3 at Out; build y3 at Felix
+move g2 from Deanthebean to Port (b3)
+convert y1 to r1 at Out
+sacrifice g3 at Deanthebean; build g2 at Port; build g2 at Port; build g3 at Deanthebean
+convert y3 to g3 at Felix
+sacrifice g3 at Deanthebean; build g3 at Deanthebean; build r1 at Deanthebean; build r2 at Deanthebean
+sacrifice g3 at Felix; build y1 at Out; build y3 at Felix; build r2 at Out
+sacrifice g3 at Deanthebean; build g3 at Deanthebean; build g3 at Deanthebean; build b2 at Stage
+move y3 from Out to Port
+move r1 from Deanthebean to Coach
+build b3 at Out
+build r3 at Coach
+sacrifice r2 at Out; capture g2 at Port; capture g2 at Port
+move g1 from Deanthebean to Port; catastrophe green at Port
+move b1 from Felix to Conk
+move r3 from Coach to Conk
+sacrifice y2 at Conk; move b1 from Conk to Coach; move b3 from Out to Coach
+move y2 from Coach to Mouth (g1)
+build b3 at Out
+sacrifice g3 at Deanthebean; build y2 at Mouth; build r2 at Conk; build g2 at Deanthebean
+build r3 at Out
+capture y1 at Conk
+sacrifice y3 at Port; move b1 from Coach to Deanthebean; move b3 from Coach to Deanthebean; move b2 from Out to In (y3)
+capture b3 at Deanthebean
+move b2 from In to Deanthebean; catastrophe blue at Deanthebean
+move r3 from Conk to Felix
+sacrifice r2 at Felix; capture r3 at Felix
+build y3 at Conk
+sacrifice y1 at Felix; move r3 from Felix to Mouth
+sacrifice y3 at Conk; move y1 from Conk to Felix; move y2 from Mouth to Felix; move y2 from Mouth to Felix; catastrophe yellow at Felix

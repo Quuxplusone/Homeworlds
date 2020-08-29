@@ -1,0 +1,23 @@
+Babamots (0, r3b1) g3-
+Pould_ (1, y1b2) -g3
+build g1 at Babamots
+build g1 at Pould_
+convert g1 to y1 at Babamots
+move g3 from Pould_ to Theta (b3)
+build y1 at Babamots
+build g1 at Theta
+build y2 at Babamots
+build g1 at Pould_
+build g2 at Babamots
+convert g3 to y3 at Theta
+move y1 from Babamots to Risa (g2)
+build g2 at Theta
+move g2 from Babamots to Iconia (y2)
+convert g2 to r2 at Theta
+convert y2 to r2 at Babamots
+move r2 from Theta to Iconia
+sacrifice r2 at Babamots; capture r2 at Iconia
+move y3 from Theta to Mu (b2)
+move g2 from Iconia to Aldea (y3)
+build g2 at Pould_
+move g2 from Aldea to Pould_; catastrophe green at Pould_

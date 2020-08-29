@@ -1,0 +1,47 @@
+Disaac (0, g2y1) b3-
+Dungeon (1, b1y3) -g3
+build b1 at Disaac
+build g1 at Dungeon
+move b1 from Disaac to Prosperity (g3)
+move g1 from Dungeon to Radiance (b2)
+build b1 at Disaac
+build g1 at Dungeon
+convert b3 to g3 at Disaac
+convert g1 to r1 at Dungeon
+build b2 at Disaac
+build g1 at Radiance
+sacrifice g3 at Disaac; build b2 at Prosperity; build b3 at Prosperity; build b3 at Disaac
+convert g1 to r1 at Radiance
+move b2 from Disaac to Sol (y3)
+build r1 at Radiance
+convert b2 to r2 at Prosperity
+convert g1 to y1 at Radiance
+convert b3 to g3 at Disaac
+convert r1 to g1 at Radiance
+convert b3 to y3 at Prosperity
+move r1 from Radiance to Reddwarf (b3)
+sacrifice g3 at Disaac; build b2 at Prosperity; build b3 at Sol; build b3 at Disaac
+move g1 from Radiance to Vejur (g3)
+convert b3 to r3 at Disaac
+build r1 at Dungeon
+convert b2 to g2 at Sol
+build g1 at Dungeon
+build b2 at Sol
+move r1 from Dungeon to Radiance
+build b3 at Disaac
+move g1 from Dungeon to Corona (r2)
+convert b3 to r3 at Sol
+sacrifice g3 at Dungeon; build r2 at Reddwarf; build r3 at Dungeon; build g1 at Corona
+build b3 at Sol
+build g2 at Vejur
+build g3 at Sol
+sacrifice g2 at Vejur; build y1 at Radiance; build y2 at Radiance
+move g3 from Sol to Station (y2)
+build g2 at Vejur
+move b3 from Sol to Station
+sacrifice y2 at Radiance; move r2 from Reddwarf to Derelect (y2); move g2 from Vejur to Derelect
+move r3 from Sol to Station
+sacrifice g1 at Corona; build y2 at Radiance
+sacrifice y3 at Prosperity; move r3 from Station to Dungeon; move g3 from Station to Dungeon; move b3 from Station to Dungeon
+capture r3 at Dungeon
+sacrifice r3 at Disaac; capture r3 at Dungeon; capture r3 at Dungeon; capture r1 at Dungeon

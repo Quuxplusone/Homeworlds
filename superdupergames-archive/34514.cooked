@@ -1,0 +1,13 @@
+Speardane (0, y3b1) g3-
+Felix (1, b1g2) -b3
+build g1 at Speardane
+build b1 at Felix
+convert g3 to r3 at Speardane
+convert b3 to r3 at Felix
+build r1 at Speardane
+build b2 at Felix
+convert r3 to b3 at Speardane
+convert b2 to y2 at Felix
+build r1 at Speardane
+build b2 at Felix
+move r1 from Speardane to Delos (y2)

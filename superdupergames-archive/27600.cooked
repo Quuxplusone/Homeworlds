@@ -1,0 +1,49 @@
+Dlwillson (0, b3y1) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Dlwillson
+build g1 at Ts52
+convert g1 to y1 at Dlwillson
+move g1 from Ts52 to Gonze (b3)
+build y2 at Dlwillson
+build g1 at Ts52
+move y1 from Dlwillson to Sky (b2)
+build g1 at Gonze
+build g2 at Dlwillson
+build g2 at Gonze
+sacrifice g3 at Dlwillson; build y2 at Sky; build y2 at Sky; build y3 at Dlwillson
+move g1 from Ts52 to Grover (b3)
+move y2 from Dlwillson to Sea (b2)
+sacrifice g2 at Gonze; build g2 at Ts52; build g2 at Grover
+build g3 at Dlwillson
+sacrifice g2 at Grover; build g2 at Gonze; build g3 at Grover
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build y3 at Sea; build y3 at Sea
+convert g2 to r2 at Ts52
+convert y3 to r3 at Sea
+convert g3 to y3 at Grover
+convert y3 to r3 at Dlwillson
+sacrifice g2 at Gonze; build g2 at Ts52; build y3 at Grover
+sacrifice y2 at Sky; move y1 from Sky to Grover; move y2 from Sea to Grover; catastrophe yellow at Grover
+sacrifice g3 at Ts52; build g2 at Gonze; build g3 at Ts52; build g3 at Grover
+move r3 from Sea to Gonze
+convert g1 to y1 at Grover
+capture g2 at Gonze
+build y2 at Grover
+convert g2 to y2 at Gonze
+sacrifice g3 at Ts52; build g1 at Gonze; build g2 at Grover; build g3 at Ts52
+sacrifice g3 at Dlwillson; build y3 at Gonze; build y3 at Sea; build g3 at Dlwillson
+convert g2 to r2 at Grover
+capture g1 at Gonze
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build r1 at Grover
+capture g1 at Gonze
+sacrifice g2 at Ts52; build g2 at Gonze; build r1 at Ts52; catastrophe green at Gonze
+sacrifice y2 at Sky; move y3 from Sea to Mars (r3); move y3 from Sea to Mars
+build y2 at Grover
+convert y2 to g2 at Gonze
+move y2 from Grover to Robin (g1)
+sacrifice g3 at Dlwillson; build y2 at Gonze; build r1 at Gonze; build r2 at Dlwillson
+sacrifice y2 at Grover; move r2 from Grover to Bigbird (y2); move r2 from Ts52 to Grover
+sacrifice y3 at Mars; move y3 from Mars to Ts52; move y3 from Gonze to Ts52; move r3 from Gonze to Ts52
+sacrifice g3 at Grover; build g1 at Ts52; build r3 at Ts52; build y3 at Grover
+sacrifice r2 at Dlwillson; capture r3 at Ts52; capture g3 at Ts52
+sacrifice y2 at Robin; move r1 from Grover to Ts52; move y1 from Grover to Ts52; catastrophe red at Ts52; catastrophe yellow at Ts52
+sacrifice r1 at Gonze; capture g1 at Ts52

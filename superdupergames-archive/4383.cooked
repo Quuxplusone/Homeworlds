@@ -1,0 +1,25 @@
+Zoltar (0, b3y1) g3-
+Mjbuyck (1, b2g3) -y3
+build g1 at Zoltar
+build y1 at Mjbuyck
+build g1 at Zoltar
+move y1 from Mjbuyck to Winterfell (g1)
+move g1 from Zoltar to Blueridge (b2)
+build y1 at Mjbuyck
+build g2 at Blueridge
+build y2 at Mjbuyck
+convert g2 to y2 at Blueridge
+move y2 from Mjbuyck to Riverrun (b1)
+build g2 at Blueridge
+convert y1 to b1 at Mjbuyck
+convert g2 to b2 at Blueridge
+move b1 from Mjbuyck to Winterfell
+move b2 from Blueridge to Greenhills (g3)
+build y1 at Mjbuyck
+build g2 at Blueridge
+convert y2 to g2 at Riverrun
+convert g1 to r1 at Blueridge
+build y2 at Winterfell
+convert b2 to y2 at Greenhills
+build y3 at Mjbuyck
+sacrifice y2 at Blueridge; move y2 from Greenhills to Winterfell; move y2 from Winterfell to Mjbuyck; catastrophe yellow at Mjbuyck

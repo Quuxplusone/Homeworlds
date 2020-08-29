@@ -1,0 +1,23 @@
+Bhorner (0, r2b1) g3-
+Dougforte (1, g1b3) -g3
+build g1 at Bhorner
+build g1 at Dougforte
+build g2 at Bhorner
+convert g1 to y1 at Dougforte
+convert g1 to y1 at Bhorner
+build g1 at Dougforte
+move g2 from Bhorner to Snowman (b3)
+move g3 from Dougforte to Tophat (b2)
+build g1 at Bhorner
+move y1 from Dougforte to Tophat
+build g2 at Snowman
+build g2 at Tophat
+build g3 at Bhorner
+build y1 at Tophat
+convert g2 to y2 at Snowman
+move y1 from Tophat to Dougforte
+sacrifice y2 at Snowman; move g2 from Snowman to Tophat; move g2 from Tophat to Dougforte
+build y2 at Dougforte
+convert g3 to r3 at Bhorner
+convert g1 to r1 at Dougforte
+sacrifice r3 at Bhorner; capture r1 at Dougforte; capture y1 at Dougforte; capture y2 at Dougforte

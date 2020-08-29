@@ -1,0 +1,51 @@
+Nycavri (0, y1b2) g3-
+Draw5Playall (1, b1r3) -g3
+build g1 at Nycavri
+build g1 at Draw5Playall
+convert g1 to y1 at Nycavri
+build g1 at Draw5Playall
+move y1 from Nycavri to Deacon (b3)
+convert g1 to y1 at Draw5Playall
+build g1 at Nycavri
+build y2 at Draw5Playall
+sacrifice g1 at Nycavri; build y2 at Deacon
+move y2 from Draw5Playall to Greenville (g2)
+convert y2 to g2 at Deacon
+build y2 at Greenville
+build g1 at Nycavri
+build y2 at Draw5Playall
+move y1 from Deacon to May (g2)
+sacrifice g3 at Draw5Playall; build g1 at Draw5Playall; build g3 at Draw5Playall; build y3 at Greenville
+sacrifice g3 at Nycavri; build g3 at Nycavri; build y3 at May; build g3 at Deacon
+convert g1 to b1 at Draw5Playall
+convert g3 to y3 at Deacon
+sacrifice y2 at Greenville; move y1 from Draw5Playall to Firefly (r2); move b1 from Draw5Playall to Firefly
+convert g1 to r1 at Nycavri
+move y3 from Greenville to Deacon
+build r1 at Nycavri
+convert y3 to r3 at Deacon
+sacrifice r1 at Nycavri; capture r3 at Deacon
+move b1 from Firefly to Largegreen (g3)
+build r1 at Nycavri
+build b1 at Largegreen
+sacrifice y3 at May; move r3 from Deacon to May; move r3 from May to Largegreen; move r1 from Nycavri to Largegreen
+build y2 at Greenville
+capture b1 at Largegreen
+move y2 from Greenville to Bigocean (b3)
+build y3 at May
+sacrifice g1 at Draw5Playall; build y3 at Bigocean
+build g1 at Nycavri
+sacrifice b1 at Largegreen; convert y2 to b2 at Greenville
+sacrifice g3 at Nycavri; build g1 at Deacon; build g1 at Deacon; build g3 at Nycavri
+move y2 from Draw5Playall to Greenville
+build y2 at Deacon
+move y2 from Greenville to Dangerzone (r3)
+convert g2 to r2 at Deacon
+build g2 at Draw5Playall
+sacrifice g3 at Nycavri; build g3 at Nycavri; build r1 at Deacon; build r2 at Deacon
+build b1 at Greenville
+sacrifice y2 at Deacon; move r1 from Deacon to Mercury (y2); move r2 from Deacon to Mercury
+move y1 from Firefly to Dangerzone
+sacrifice y3 at May; move r1 from Largegreen to May; move r1 from Mercury to Draw5Playall; move r2 from Mercury to Draw5Playall
+sacrifice y3 at Bigocean; move y2 from Bigocean to Nycavri; move y2 from Dangerzone to Nycavri; move y1 from Dangerzone to Nycavri; catastrophe yellow at Nycavri
+sacrifice y3 at Deacon; move g1 from Nycavri to Draw5Playall; move g3 from Nycavri to Draw5Playall; move r3 from Largegreen to Nycavri; catastrophe green at Draw5Playall

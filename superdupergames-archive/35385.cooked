@@ -1,0 +1,18 @@
+Owlman (0, g3b2) r3-
+Wil (1, y2b1) -g3
+build r1 at Owlman
+build g1 at Wil
+convert r1 to y1 at Owlman
+convert g1 to b1 at Wil
+build r1 at Owlman
+build b1 at Wil
+convert r3 to g3 at Owlman
+move b1 from Wil to Y3 (y3)
+move r1 from Owlman to Red (r1)
+build b2 at Wil
+move y1 from Owlman to Red
+move b2 from Wil to Why3 (y3)
+move r1 from Red to Y3
+move b1 from Y3 to R1 (r1)
+build g1 at Owlman
+sacrifice g3 at Wil; build b2 at Why3; build b3 at R1; build b3 at Wil

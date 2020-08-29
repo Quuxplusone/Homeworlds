@@ -1,0 +1,32 @@
+Dungeon (0, y3b1) g3-
+Disaac (1, g3y2) -b3
+build g1 at Dungeon
+build b1 at Disaac
+move g1 from Dungeon to Dalmuti (b2)
+convert b3 to g3 at Disaac
+build g1 at Dungeon
+build b1 at Disaac
+convert g3 to y3 at Dungeon
+move b1 from Disaac to Gaea1 (g1)
+build g2 at Dungeon
+build b2 at Gaea1
+build g2 at Dalmuti
+convert b2 to g2 at Gaea1
+build g3 at Dungeon
+build b2 at Disaac
+convert g3 to y3 at Dungeon
+sacrifice g3 at Disaac; build b2 at Gaea1; build b3 at Gaea1; build b3 at Disaac
+sacrifice y3 at Dungeon; move g1 from Dalmuti to Gaea1; move g2 from Dalmuti to Gaea1; move g2 from Dungeon to Saboteur (b2); catastrophe green at Gaea1
+move b2 from Disaac to Ds1 (y1)
+build g1 at Saboteur
+convert b3 to g3 at Disaac
+convert g2 to b2 at Saboteur
+move b2 from Ds1 to Ds2 (y2)
+build g1 at Saboteur
+sacrifice g3 at Disaac; build b1 at Ds2; build b3 at Disaac; build b3 at Ds2
+sacrifice y3 at Dungeon; move g1 from Saboteur to Id (y1); move g1 from Saboteur to Id; move b2 from Saboteur to Id
+move b2 from Ds2 to Dungeon
+build g2 at Dungeon
+convert b3 to r3 at Ds2
+convert b2 to y2 at Id
+sacrifice r3 at Ds2; capture g2 at Dungeon; capture g1 at Dungeon

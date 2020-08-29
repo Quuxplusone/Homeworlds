@@ -1,0 +1,42 @@
+Jrandom (0, b3g2) y3-
+Wil (1, y3b1) -g3
+build y1 at Jrandom
+build g1 at Wil
+convert y1 to g1 at Jrandom
+convert g1 to b1 at Wil
+build y1 at Jrandom
+build b1 at Wil
+convert y3 to g3 at Jrandom
+move b1 from Wil to G2 (g2)
+move g1 from Jrandom to Connery (g1)
+build b2 at Wil
+build y1 at Jrandom
+build g1 at Wil
+move y1 from Jrandom to Connery
+move b2 from Wil to Y2 (y2)
+build y1 at Jrandom
+sacrifice g3 at Wil; build b2 at G2; build b2 at Y2; build b3 at Y2
+move y1 from Connery to Moore (r2)
+build b3 at Wil
+convert y1 to r1 at Jrandom
+sacrifice b2 at Y2; convert b3 to g3 at Y2; convert b3 to g3 at Wil
+build g2 at Jrandom
+sacrifice g3 at Wil; build g3 at Wil; build b2 at Y2; build b3 at G2
+move g2 from Jrandom to Lazenby (y1)
+convert b3 to y3 at G2
+build y2 at Jrandom
+sacrifice g3 at Wil; build g3 at Wil; build y2 at G2; build y3 at G2
+move y1 from Moore to Dalton (r1)
+sacrifice g3 at Wil; build g3 at Wil; build b3 at G2; build b3 at Y2
+pass
+sacrifice b2 at Y2; convert b3 to r3 at Y2; convert b3 to r3 at G2
+convert g3 to r3 at Jrandom
+sacrifice g3 at Wil; build g3 at Wil; build g3 at Y2; build b2 at Y2
+move y1 from Dalton to G2; catastrophe yellow at G2
+sacrifice g3 at Wil; build g3 at Wil; build b3 at G2; build b3 at Y2
+move g2 from Lazenby to Horton (r2)
+sacrifice b2 at Y2; convert b3 to y3 at G2; convert b3 to y3 at Y2
+sacrifice y2 at Jrandom; move r3 from Jrandom to Connery; move r3 from Connery to Horton
+sacrifice y3 at Y2; move g3 from Y2 to Connery; move r3 from Y2 to Connery; move g3 from Connery to Jrandom
+sacrifice y1 at Jrandom; move r3 from Horton to Wil
+sacrifice r3 at G2; capture r1 at Jrandom; capture g1 at Connery; capture r3 at Wil

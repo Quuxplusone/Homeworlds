@@ -1,0 +1,6 @@
+Foksieloy (0, b1g3) y3-
+Takvorian (1, r1b2) -g3
+build y1 at Foksieloy
+build g1 at Takvorian
+convert y1 to g1 at Foksieloy
+convert g1 to y1 at Takvorian

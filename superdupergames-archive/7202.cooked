@@ -1,0 +1,56 @@
+Mikeyarrum (0, b1y2) g3-
+Twoshort (1, b1g3) -b3
+build g1 at Mikeyarrum
+build b1 at Twoshort
+build g1 at Mikeyarrum
+convert b3 to y3 at Twoshort
+move g1 from Mikeyarrum to Chiyo (y3)
+build b2 at Twoshort
+build g1 at Chiyo
+move b1 from Twoshort to Blitz (b2)
+build g2 at Mikeyarrum
+build b2 at Twoshort
+move g2 from Mikeyarrum to Osa (b3)
+move b2 from Twoshort to Grogar (g2)
+sacrifice g3 at Mikeyarrum; build g2 at Chiyo; build g3 at Osa; build g3 at Mikeyarrum
+build b3 at Grogar
+convert g3 to r3 at Osa
+build b3 at Twoshort
+move g1 from Chiyo to Tomo (y2)
+convert b3 to g3 at Grogar
+sacrifice g3 at Mikeyarrum; build r1 at Osa; build r1 at Osa; build g3 at Mikeyarrum
+build b3 at Grogar
+convert r1 to y1 at Osa
+convert b3 to r3 at Grogar
+move r1 from Osa to Blitz
+sacrifice g3 at Grogar; build b3 at Blitz; build r1 at Grogar; build y1 at Twoshort
+sacrifice g3 at Mikeyarrum; build g3 at Mikeyarrum; build g3 at Tomo; build r1 at Osa
+sacrifice r1 at Grogar; capture r1 at Blitz
+convert g1 to y1 at Mikeyarrum
+build r1 at Grogar
+sacrifice g3 at Tomo; build y2 at Osa; build g1 at Tomo; build g3 at Tomo
+sacrifice y3 at Twoshort; move r1 from Grogar to Osa; move r1 from Blitz to Osa; move r3 from Grogar to Chiyo; catastrophe red at Osa
+convert g3 to r3 at Mikeyarrum
+capture g2 at Chiyo
+sacrifice y2 at Osa; move g1 from Tomo to Twoshort; move g1 from Tomo to Twoshort
+build g3 at Chiyo
+move g3 from Tomo to Chiyo; catastrophe green at Chiyo
+sacrifice r3 at Chiyo; capture g1 at Twoshort; capture g1 at Twoshort
+build y2 at Osa
+convert g1 to r1 at Twoshort
+move y1 from Osa to Yomi (g2)
+convert b3 to y3 at Blitz
+sacrifice g2 at Osa; build y2 at Yomi; build y3 at Osa
+build b3 at Grogar
+move y1 from Yomi to Nyamo (g3)
+build y3 at Twoshort
+convert y3 to g3 at Osa
+sacrifice y1 at Twoshort; move b3 from Grogar to Nyamo
+convert y1 to r1 at Mikeyarrum
+convert b3 to r3 at Twoshort
+build g1 at Osa
+sacrifice y3 at Twoshort; move b3 from Nyamo to Mikeyarrum; move y3 from Blitz to Nyamo; move y3 from Nyamo to Mikeyarrum
+sacrifice y2 at Osa; move g3 from Osa to Mikeyarrum; move g1 from Osa to Mikeyarrum
+sacrifice r3 at Twoshort; capture r3 at Mikeyarrum; capture g3 at Mikeyarrum; capture g1 at Mikeyarrum
+move y1 from Nyamo to Mikeyarrum
+sacrifice r3 at Mikeyarrum; capture r1 at Mikeyarrum; capture y1 at Mikeyarrum

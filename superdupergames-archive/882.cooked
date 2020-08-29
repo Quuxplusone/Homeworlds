@@ -1,0 +1,40 @@
+Kermit (0, b1g3) y3-
+Twoshort (1, b1y2) -g3
+build y1 at Kermit
+build g1 at Twoshort
+move y1 from Kermit to Grendl (g2)
+build g1 at Twoshort
+build y1 at Grendl
+move g1 from Twoshort to Bluonia (b3)
+move y1 from Grendl to Medusa (b1)
+build g1 at Twoshort
+convert y1 to r1 at Medusa
+move g1 from Twoshort to Yeller (y3)
+build y1 at Grendl
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g2 at Yeller; build g3 at Twoshort
+move y1 from Grendl to Gryffin (g3)
+convert g2 to r2 at Bluonia
+move y1 from Grendl to Medusa
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g2 at Twoshort; build g3 at Twoshort
+move r1 from Medusa to Yeller
+sacrifice g3 at Twoshort; build g3 at Twoshort; build r1 at Bluonia; build r1 at Bluonia
+build y1 at Kermit
+sacrifice r1 at Bluonia; capture r1 at Yeller
+build y2 at Kermit
+convert g2 to y2 at Bluonia
+convert y2 to g2 at Kermit
+sacrifice y2 at Bluonia; move g2 from Twoshort to Gryffin; move g1 from Bluonia to Blubonic (b2)
+move g2 from Kermit to Blubonic
+sacrifice r1 at Bluonia; capture y1 at Gryffin
+convert g2 to r2 at Blubonic
+sacrifice g3 at Twoshort; build g2 at Yeller; build g3 at Twoshort; build y2 at Gryffin
+capture g1 at Blubonic
+sacrifice y2 at Gryffin; move g2 from Yeller to Blubonic; move g2 from Yeller to Blubonic
+capture g2 at Blubonic
+sacrifice r2 at Bluonia; capture g2 at Blubonic; capture r2 at Blubonic
+build y2 at Kermit
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y2 at Gryffin; build r1 at Blubonic
+convert y3 to r3 at Kermit
+move y1 from Gryffin to Bluestar (b2)
+move y2 from Kermit to Bluestar
+sacrifice g3 at Twoshort; build y3 at Bluestar; build y3 at Gryffin; build g3 at Twoshort

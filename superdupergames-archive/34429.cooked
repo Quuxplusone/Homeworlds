@@ -1,0 +1,17 @@
+Trydnt (0, b2y1) g3-
+Mobynostromo (1, g2b3) -y3
+build g1 at Trydnt
+build y1 at Mobynostromo
+convert g1 to y1 at Trydnt
+build y2 at Mobynostromo
+move y1 from Trydnt to G3 (g3)
+convert y1 to g1 at Mobynostromo
+build g1 at Trydnt
+convert y2 to b2 at Mobynostromo
+convert g1 to b1 at Trydnt
+build g1 at Mobynostromo
+build g1 at Trydnt
+move g1 from Mobynostromo to Sky (b1)
+convert g1 to r1 at Trydnt
+move b2 from Mobynostromo to Fire (r1)
+build r1 at Trydnt

@@ -1,0 +1,62 @@
+Scottobear (0, g3b2) y3-
+Zoltar (1, b1r2) -g3
+build y1 at Scottobear
+build g1 at Zoltar
+convert y1 to r1 at Scottobear
+convert g1 to y1 at Zoltar
+move r1 from Scottobear to Teeth (g1)
+build g1 at Zoltar
+build y1 at Scottobear
+move g1 from Zoltar to Bluemoon (b3)
+move y1 from Scottobear to Teeth
+build g1 at Bluemoon
+move r1 from Teeth to Bluemoon
+build g2 at Bluemoon
+build y1 at Scottobear
+convert g2 to r2 at Bluemoon
+build y2 at Teeth
+capture r1 at Bluemoon
+build y2 at Scottobear
+convert r2 to y2 at Bluemoon
+convert y3 to r3 at Scottobear
+build y3 at Zoltar
+build y3 at Teeth
+move y2 from Bluemoon to Teeth; catastrophe yellow at Teeth
+convert y1 to r1 at Scottobear
+move y3 from Zoltar to Bluemoon
+move r1 from Scottobear to Monkey (b1)
+build y1 at Bluemoon
+build r1 at Scottobear
+build r2 at Bluemoon
+build y1 at Scottobear
+move y3 from Bluemoon to Monkey
+move y2 from Scottobear to Monkey
+sacrifice r2 at Bluemoon; capture y2 at Monkey; capture r1 at Monkey
+convert r1 to b1 at Scottobear
+build y2 at Bluemoon
+build y2 at Scottobear
+move y1 from Bluemoon to Attackoutpost (r1)
+build y3 at Scottobear
+move y1 from Attackoutpost to Scottobear; catastrophe yellow at Scottobear
+build b2 at Scottobear
+move g1 from Bluemoon to Monkey
+convert b2 to r2 at Scottobear
+sacrifice y3 at Monkey; move r1 from Bluemoon to Monkey; move r1 from Monkey to Scottobear; move r1 from Monkey to Scottobear; catastrophe red at Scottobear
+build b2 at Scottobear
+build g1 at Zoltar
+convert b2 to r2 at Scottobear
+build g2 at Monkey
+build b2 at Scottobear
+sacrifice g3 at Zoltar; build g2 at Bluemoon; build g2 at Bluemoon; build g3 at Zoltar
+convert b2 to y2 at Scottobear
+sacrifice g3 at Zoltar; build g3 at Monkey; build g3 at Zoltar; build y1 at Monkey
+build b2 at Scottobear
+sacrifice g3 at Zoltar; build y1 at Monkey; build y3 at Bluemoon; build y3 at Zoltar
+convert b2 to r2 at Scottobear
+sacrifice g3 at Monkey; build g3 at Monkey; build g3 at Zoltar; build y3 at Bluemoon
+pass
+convert g3 to r3 at Monkey
+build b2 at Scottobear
+convert y3 to b3 at Bluemoon
+move y2 from Scottobear to Monkey; catastrophe yellow at Monkey
+sacrifice y3 at Bluemoon; move b3 from Bluemoon to Monkey; move b3 from Monkey to Scottobear; move r3 from Monkey to Scottobear; catastrophe blue at Scottobear

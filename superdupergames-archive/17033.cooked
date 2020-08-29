@@ -1,0 +1,39 @@
+Rootbier (0, b1y2) g3-
+Captncavern (1, g3b2) -r3
+build g1 at Rootbier
+build r1 at Captncavern
+convert g1 to b1 at Rootbier
+convert r1 to y1 at Captncavern
+build b1 at Rootbier
+build r1 at Captncavern
+move b1 from Rootbier to Bloke (g3)
+move r1 from Captncavern to Boule (y1)
+sacrifice g3 at Rootbier; build b2 at Bloke; build b2 at Bloke; build b3 at Rootbier
+move r1 from Boule to Passe (y3)
+sacrifice b2 at Bloke; convert b3 to g3 at Rootbier; convert b2 to r2 at Bloke
+build y1 at Captncavern
+sacrifice g3 at Rootbier; build b2 at Bloke; build b2 at Bloke; build b3 at Rootbier
+build r1 at Captncavern
+convert b2 to y2 at Bloke
+build y1 at Captncavern
+move b2 from Bloke to Flake (g1)
+move y1 from Captncavern to Autre (g1)
+build b2 at Bloke
+convert r3 to g3 at Captncavern
+build y2 at Bloke
+sacrifice g3 at Captncavern; build y3 at Autre; build r1 at Passe; build r2 at Captncavern
+build b3 at Flake
+sacrifice y1 at Captncavern; move y3 from Autre to Captncavern
+build b3 at Flake
+move r2 from Captncavern to Autre
+sacrifice b2 at Bloke; convert b3 to r3 at Flake; convert b3 to y3 at Flake
+move r2 from Autre to Caillou (b3)
+build b2 at Flake
+move y1 from Autre to Caillou
+build b3 at Flake
+convert y3 to g3 at Captncavern
+sacrifice b3 at Flake; convert b2 to g2 at Flake; convert b2 to g2 at Flake; convert b3 to r3 at Rootbier
+sacrifice g3 at Captncavern; build y1 at Caillou; build y3 at Captncavern; build r2 at Caillou
+sacrifice y2 at Bloke; move y2 from Bloke to Flake; move y2 from Flake to Captncavern
+sacrifice y3 at Captncavern; move r1 from Passe to Rootbier; move r1 from Passe to Rootbier; move r2 from Caillou to Rootbier
+sacrifice r3 at Flake; capture r1 at Captncavern; capture y1 at Captncavern; capture r2 at Rootbier

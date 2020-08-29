@@ -1,0 +1,36 @@
+Kanzenryu (0, y1b2) g3-
+Felix (1, y3b2) -g3
+build g1 at Kanzenryu
+build g1 at Felix
+convert g1 to b1 at Kanzenryu
+convert g1 to y1 at Felix
+build g1 at Kanzenryu
+build y1 at Felix
+convert g3 to y3 at Kanzenryu
+move y1 from Felix to Ripkin (g1)
+build y2 at Kanzenryu
+build y2 at Ripkin
+move y2 from Kanzenryu to Out (g3)
+move y1 from Ripkin to Out
+convert b1 to r1 at Kanzenryu
+build y2 at Out
+build y3 at Out; catastrophe yellow at Out
+build g1 at Felix
+build g2 at Kanzenryu
+convert g1 to r1 at Felix
+move g2 from Kanzenryu to Moon (b3)
+convert y1 to b1 at Felix
+build y1 at Kanzenryu
+build y1 at Ripkin
+move y1 from Kanzenryu to Moon
+move y1 from Ripkin to Foil (g3)
+move g2 from Moon to Peep (b1)
+build y2 at Foil
+convert y3 to g3 at Kanzenryu
+build b1 at Felix
+move g1 from Kanzenryu to Also (y3)
+build y2 at Ripkin
+build g1 at Kanzenryu
+move y2 from Ripkin to Moon
+move y1 from Moon to Peep
+build y3 at Ripkin

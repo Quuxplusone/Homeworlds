@@ -1,0 +1,11 @@
+Antihero (0, b1y2) g3-
+Unic (1, g3y3) -r3
+build g1 at Antihero
+build r1 at Unic
+convert g1 to r1 at Antihero
+move r1 from Unic to Babylon (b2)
+build r1 at Antihero
+build r2 at Unic
+move r1 from Antihero to Unic
+move r2 from Unic to Alexandria (y2)
+sacrifice g3 at Antihero; build r2 at Unic; build r2 at Unic; build r3 at Unic; catastrophe red at Unic

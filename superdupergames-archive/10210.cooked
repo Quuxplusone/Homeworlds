@@ -1,0 +1,31 @@
+Twoshort (0, r1b2) g3-
+Cheinzmann (1, y1b3) -g3
+build g1 at Twoshort
+build g1 at Cheinzmann
+convert g1 to y1 at Twoshort
+build g1 at Cheinzmann
+build y1 at Twoshort
+convert g3 to y3 at Cheinzmann
+build y2 at Twoshort
+build g1 at Cheinzmann
+build g2 at Twoshort
+move y3 from Cheinzmann to Grogg (g2)
+move g2 from Twoshort to Yolonda (y3)
+convert g1 to r1 at Cheinzmann
+build g1 at Twoshort
+build g2 at Cheinzmann
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Yolonda; build g3 at Twoshort
+move g1 from Cheinzmann to Grogg
+sacrifice y2 at Twoshort; move g3 from Yolonda to Grogg; move g2 from Yolonda to Grogg; catastrophe green at Grogg
+convert g2 to y2 at Cheinzmann
+convert g3 to y3 at Twoshort
+build y2 at Cheinzmann
+convert g3 to r3 at Twoshort
+build g1 at Cheinzmann
+sacrifice y3 at Twoshort; move y1 from Twoshort to Boom (r3); move y1 from Boom to Boomboom (r2); move y1 from Boomboom to Cheinzmann; catastrophe yellow at Cheinzmann
+convert g1 to y1 at Cheinzmann
+build g1 at Twoshort
+build g2 at Cheinzmann
+move g1 from Twoshort to Backup (b3)
+move y1 from Cheinzmann to Newone (y2)
+build g2 at Backup

@@ -1,0 +1,28 @@
+Salmonax (0, r3b2) g3-
+Magicjohn (1, b1g3) -b3
+build g1 at Salmonax
+build b1 at Magicjohn
+convert g1 to y1 at Salmonax
+convert b3 to y3 at Magicjohn
+build g1 at Salmonax
+build b1 at Magicjohn
+build g1 at Salmonax
+move b1 from Magicjohn to Leaf (g2)
+convert g3 to b3 at Salmonax
+build b2 at Leaf
+build y1 at Salmonax
+build y1 at Magicjohn
+move y1 from Salmonax to Two (g1)
+convert b2 to y2 at Leaf
+build y2 at Two
+build b2 at Leaf
+build g2 at Salmonax
+build b2 at Leaf
+sacrifice y2 at Two; move y1 from Two to Leaf; move y1 from Leaf to Magicjohn
+convert y3 to r3 at Magicjohn
+build y2 at Magicjohn
+capture y2 at Magicjohn
+build y2 at Magicjohn
+move b2 from Leaf to Stem (g1); catastrophe yellow at Magicjohn
+build y1 at Salmonax
+build b3 at Stem

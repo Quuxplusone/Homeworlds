@@ -1,0 +1,21 @@
+Wil (0, b2y1) g3-
+Trydnt (1, y3b2) -g3
+build g1 at Wil
+build g1 at Trydnt
+convert g1 to y1 at Wil
+convert g1 to y1 at Trydnt
+build y2 at Wil
+build y2 at Trydnt
+move y1 from Wil to G3 (g3)
+move y1 from Trydnt to G1 (g1)
+build g1 at Wil
+move y1 from G1 to B2 (b2)
+convert g1 to r1 at Wil
+convert y2 to r2 at Trydnt
+build y2 at G3
+build r1 at Trydnt
+move y2 from G3 to G1 (g1)
+build g1 at Trydnt
+sacrifice g3 at Wil; build y2 at G3; build y3 at G1; build y3 at Wil
+move r1 from Trydnt to Gee1 (g1)
+convert y2 to g2 at Wil

@@ -1,0 +1,21 @@
+Ajo (0, y3b2) g3-
+Subhan64 (1, y1b3) -g3
+build g1 at Ajo
+build g1 at Subhan64
+move g1 from Ajo to Alpha (b1)
+move g1 from Subhan64 to Blueberry (b2)
+build g1 at Ajo
+build g2 at Subhan64
+sacrifice g3 at Ajo; build g2 at Ajo; build g2 at Alpha; build g3 at Ajo
+build g3 at Subhan64
+convert g2 to y2 at Alpha
+convert g3 to y3 at Subhan64
+convert g1 to r1 at Ajo
+move g3 from Subhan64 to Blueberry
+build y1 at Alpha
+convert g1 to y1 at Blueberry
+sacrifice y2 at Alpha; move y1 from Alpha to Blueberry; move y1 from Blueberry to Subhan64
+move y3 from Subhan64 to Blueberry
+sacrifice g2 at Ajo; build g1 at Ajo; build y2 at Subhan64
+convert g2 to r2 at Subhan64
+sacrifice r1 at Ajo; capture r2 at Subhan64

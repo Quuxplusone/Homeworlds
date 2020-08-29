@@ -1,0 +1,54 @@
+Shoejitsu (0, g3r1) b3-
+Bhorner (1, r2b1) -g3
+build b1 at Shoejitsu
+build g1 at Bhorner
+convert b1 to g1 at Shoejitsu
+convert g1 to y1 at Bhorner
+build b1 at Shoejitsu
+build y1 at Bhorner
+convert b1 to y1 at Shoejitsu
+build y2 at Bhorner
+build g1 at Shoejitsu
+move y2 from Bhorner to Xmas (g3)
+move g1 from Shoejitsu to Bruno (b2)
+build y2 at Xmas
+build y2 at Shoejitsu
+build y3 at Bhorner
+move y1 from Shoejitsu to Bruno
+sacrifice y1 at Bhorner; move y3 from Bhorner to Grover (b3)
+build b1 at Shoejitsu
+move y2 from Xmas to Fire (r2)
+build g1 at Bruno
+sacrifice g3 at Bhorner; build y1 at Grover; build y3 at Bhorner; build y3 at Fire
+build g2 at Bruno
+convert y1 to r1 at Bhorner
+build y1 at Shoejitsu
+move y3 from Grover to Bruno
+convert g1 to r1 at Bruno
+sacrifice r1 at Bhorner; capture r1 at Bruno
+move g2 from Bruno to Grover
+capture g1 at Bruno
+move y1 from Bruno to Xmas
+sacrifice r1 at Bruno; capture y1 at Xmas
+convert b1 to r1 at Shoejitsu
+move y1 from Grover to Bhorner
+move r1 from Shoejitsu to Dance (g2)
+convert y3 to g3 at Bhorner
+move y1 from Shoejitsu to Dance
+build y3 at Bhorner
+build r1 at Dance
+convert y1 to b1 at Bhorner
+build g1 at Grover
+convert y3 to r3 at Bruno
+convert g1 to y1 at Grover
+convert y3 to r3 at Bhorner
+sacrifice g2 at Grover; build y3 at Grover; build r2 at Dance
+build r3 at Bruno
+move r1 from Dance to Grover
+sacrifice y2 at Xmas; move r3 from Bruno to Xmas; move r3 from Xmas to Dance
+sacrifice y3 at Grover; move r1 from Grover to Bhorner; move r2 from Dance to Grover; move r2 from Grover to Bhorner; catastrophe red at Bhorner
+sacrifice y2 at Fire; move r3 from Dance to Shoejitsu; move y3 from Fire to Shoejitsu
+capture r3 at Shoejitsu
+sacrifice r3 at Bruno; capture r3 at Shoejitsu; capture b3 at Shoejitsu; capture y2 at Shoejitsu
+build g1 at Shoejitsu
+convert y2 to g2 at Shoejitsu; catastrophe green at Shoejitsu

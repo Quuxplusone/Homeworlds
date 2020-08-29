@@ -1,0 +1,46 @@
+Antihero (0, g2b1) y3-
+Keith (1, y3b1) -g3
+build y1 at Antihero
+build g1 at Keith
+convert y1 to g1 at Antihero
+convert g1 to y1 at Keith
+build y1 at Antihero
+build g1 at Keith
+move y1 from Antihero to Forest (g3)
+move y1 from Keith to Centaur (g2)
+build g1 at Antihero
+convert g1 to b1 at Keith
+move g1 from Antihero to Desert (y3)
+build b2 at Keith
+build g1 at Antihero
+move b2 from Keith to Centaur
+convert g1 to y1 at Antihero
+build y2 at Centaur
+build y2 at Forest
+sacrifice g3 at Keith; build b2 at Centaur; build b2 at Centaur; build b3 at Keith
+move y1 from Antihero to Stopkeith (b3)
+convert b3 to g3 at Keith
+build y2 at Antihero
+build b3 at Keith
+sacrifice g1 at Desert; build y3 at Stopkeith
+convert b3 to r3 at Keith
+convert y3 to r3 at Stopkeith
+sacrifice y2 at Centaur; move b2 from Centaur to Stopkeith; move b2 from Centaur to Stopkeith
+move r3 from Stopkeith to Centaur
+sacrifice g3 at Keith; build b3 at Centaur; build b3 at Centaur; build y2 at Centaur
+sacrifice y1 at Forest; move r3 from Centaur to Forest
+convert b3 to g3 at Centaur
+move y2 from Antihero to Ahhhh (b3)
+move g3 from Centaur to Keith
+build r1 at Forest
+build r1 at Keith
+build y1 at Forest
+convert r3 to y3 at Keith
+build g1 at Antihero
+sacrifice y2 at Centaur; move b2 from Stopkeith to Antihero; move b2 from Stopkeith to Antihero
+sacrifice g1 at Antihero; build y2 at Ahhhh
+build g1 at Keith
+move y1 from Forest to Dontmindme (r2)
+sacrifice y3 at Keith; move b2 from Centaur to Stopkeith; move b2 from Stopkeith to Antihero; move b3 from Centaur to Forest; catastrophe blue at Antihero
+sacrifice y2 at Ahhhh; move r3 from Forest to Centaur; move y2 from Ahhhh to Antihero
+move g1 from Keith to Antihero

@@ -1,0 +1,82 @@
+Mneme (0, r1b2) g3-
+Antihero (1, b2y3) -g3
+build g1 at Mneme
+build g1 at Antihero
+convert g1 to y1 at Mneme
+convert g1 to y1 at Antihero
+build g1 at Mneme
+build g1 at Antihero
+move g1 from Mneme to Alpha (y3)
+convert g1 to r1 at Antihero
+build g1 at Mneme
+build r1 at Antihero
+build y1 at Mneme
+build y2 at Antihero
+move g1 from Mneme to Beta (y3)
+move y1 from Antihero to Switch (b1)
+move y1 from Mneme to Artist (b3)
+build r2 at Antihero
+build y2 at Mneme
+move r2 from Antihero to Switch
+convert y2 to r2 at Mneme
+move r1 from Antihero to Switch
+move r2 from Mneme to Beta
+convert r1 to g1 at Switch
+build g2 at Mneme
+build y2 at Switch
+sacrifice g2 at Mneme; build g2 at Alpha; build y2 at Artist
+build r1 at Switch
+sacrifice g1 at Alpha; build g1 at Mneme
+move y2 from Switch to Alpha
+sacrifice r2 at Beta; capture y2 at Alpha
+move r1 from Switch to Beta
+build g2 at Beta
+move r2 from Switch to Alpha
+convert y2 to r2 at Artist
+sacrifice g3 at Antihero; build r2 at Beta; build r3 at Antihero; build r3 at Alpha
+sacrifice g2 at Alpha; build y2 at Artist; build r3 at Artist
+sacrifice r2 at Alpha; capture y2 at Alpha; capture g2 at Beta
+sacrifice g3 at Mneme; build g2 at Beta; build g2 at Beta; build g3 at Mneme; catastrophe green at Beta
+convert r3 to g3 at Antihero
+convert r2 to g2 at Artist
+sacrifice y2 at Alpha; move r1 from Beta to Mneme; move r2 from Beta to Mneme
+sacrifice r3 at Artist; capture r2 at Mneme; capture r1 at Mneme
+move r1 from Antihero to Switch
+move r2 from Mneme to Artist
+build r2 at Switch
+build g1 at Artist
+build g2 at Switch
+sacrifice g2 at Artist; build y2 at Artist; build y3 at Mneme
+move y1 from Switch to Artist; catastrophe yellow at Artist
+build g2 at Artist
+move r3 from Alpha to Sigmund (y2)
+move y1 from Mneme to Artist
+move r3 from Sigmund to Artist
+sacrifice g3 at Mneme; build r2 at Artist; build r3 at Artist; build r3 at Mneme; catastrophe red at Artist
+sacrifice y2 at Antihero; move r1 from Switch to Wormhole (b3); move r1 from Wormhole to Mneme; catastrophe red at Mneme
+convert g2 to r2 at Artist
+build g2 at Antihero
+build g2 at Artist
+convert g1 to y1 at Switch
+convert g1 to b1 at Artist
+build g1 at Switch
+build g1 at Artist
+convert g1 to b1 at Switch
+move g2 from Artist to Trucker (y1)
+convert g2 to r2 at Antihero
+build y2 at Mneme
+build y2 at Switch
+move y2 from Mneme to Cookie (g3)
+move y1 from Switch to Toy (g3)
+sacrifice g2 at Trucker; build g1 at Mneme; build g2 at Artist
+move g2 from Switch to Mneme
+build g2 at Mneme; catastrophe green at Mneme
+move b1 from Switch to Toy
+build r1 at Artist
+build b2 at Toy
+move b1 from Artist to Piper (g1)
+move b2 from Toy to Another (g1)
+build b3 at Piper
+build b3 at Toy
+convert b1 to y1 at Piper
+sacrifice y2 at Switch; move b2 from Another to Mneme; move b1 from Toy to Mneme

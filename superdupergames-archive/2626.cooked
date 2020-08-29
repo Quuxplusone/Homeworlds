@@ -1,0 +1,23 @@
+Twoshort (0, y1b2) g3-
+Uglyfoot (1, y3b1) -g3
+build g1 at Twoshort
+build g1 at Uglyfoot
+move g1 from Twoshort to Yolonda (y3)
+move g1 from Uglyfoot to Venice (b2)
+build g1 at Twoshort
+build g2 at Venice
+build g2 at Yolonda
+convert g2 to y2 at Venice
+move g1 from Yolonda to Bluestar (b2)
+build g2 at Uglyfoot
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Yolonda; build g3 at Twoshort
+build y1 at Venice
+move g3 from Yolonda to Venice
+convert y1 to r1 at Venice
+convert g2 to r2 at Bluestar
+build g2 at Venice
+sacrifice r2 at Bluestar; capture r1 at Venice; capture y2 at Venice
+move g2 from Uglyfoot to Venice; catastrophe green at Venice
+build g1 at Bluestar
+build g2 at Uglyfoot
+sacrifice y2 at Venice; move g1 from Bluestar to Uglyfoot; move g1 from Bluestar to Uglyfoot; catastrophe green at Uglyfoot

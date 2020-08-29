@@ -1,0 +1,44 @@
+Mxpf (0, y1g3) b3-
+Ladybugsfly (1, b3g2) -y3
+build b1 at Mxpf
+build y1 at Ladybugsfly
+build b1 at Mxpf
+convert y1 to b1 at Ladybugsfly
+convert b1 to r1 at Mxpf
+build y1 at Ladybugsfly
+convert b1 to y1 at Mxpf
+build y2 at Ladybugsfly
+build y2 at Mxpf
+move y1 from Ladybugsfly to Pikachu (g1)
+move y1 from Mxpf to Cornholio (b2)
+build y2 at Pikachu
+move y1 from Cornholio to Pikachu
+sacrifice b1 at Ladybugsfly; convert y2 to r2 at Pikachu
+move y1 from Pikachu to Ladybugsfly
+convert y3 to r3 at Ladybugsfly
+move y1 from Ladybugsfly to Abraham (g1)
+move r2 from Pikachu to Riachu (y2)
+build y3 at Abraham
+build y3 at Pikachu
+move y3 from Abraham to Riachu
+build y3 at Ladybugsfly
+sacrifice r1 at Mxpf; capture r2 at Riachu
+sacrifice y2 at Ladybugsfly; move y1 from Pikachu to Riachu; move y1 from Riachu to Mxpf
+convert y2 to r2 at Mxpf
+move y1 from Mxpf to Riachu
+move y3 from Riachu to Abraham
+move y1 from Riachu to Abraham
+move y3 from Abraham to Scopuli (b2)
+build r1 at Ladybugsfly
+build y2 at Abraham
+build y2 at Abraham; catastrophe yellow at Abraham
+convert y3 to g3 at Scopuli
+build y1 at Pikachu
+build g1 at Scopuli
+move y1 from Pikachu to Squirtle (b2)
+convert g3 to y3 at Scopuli
+move y3 from Pikachu to Squirtle
+convert r2 to y2 at Mxpf
+move y1 from Squirtle to Mxpf
+sacrifice y2 at Mxpf; move r2 from Riachu to Mxpf; move y3 from Scopuli to Caliban (r1)
+build y1 at Mxpf

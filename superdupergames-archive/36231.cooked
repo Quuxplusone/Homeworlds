@@ -1,0 +1,60 @@
+Kokigami (0, r1g3) b3-
+Lefou23 (1, r3b1) -g3
+build b1 at Kokigami
+build g1 at Lefou23
+convert b1 to y1 at Kokigami
+convert g1 to y1 at Lefou23
+build b1 at Kokigami
+build g1 at Lefou23
+convert b1 to g1 at Kokigami
+move y1 from Lefou23 to Interopolis (r2)
+build b1 at Kokigami
+move y1 from Interopolis to Twig (r3)
+build b1 at Kokigami
+convert g1 to y1 at Lefou23
+build y2 at Kokigami
+build y2 at Lefou23
+sacrifice y2 at Kokigami; move b1 from Kokigami to Righthook (g2); move b1 from Kokigami to Lefthook (g2)
+convert y1 to r1 at Lefou23
+build y1 at Kokigami
+move r1 from Lefou23 to Righthook
+build b2 at Lefthook
+capture b1 at Righthook
+convert b2 to r2 at Lefthook
+build b2 at Righthook
+build y2 at Kokigami
+build y2 at Lefou23
+move y2 from Kokigami to Lefthook
+move y2 from Lefou23 to Righthook
+build y3 at Lefthook
+build y3 at Lefou23
+move g1 from Kokigami to Jab (b2)
+build y3 at Righthook
+sacrifice y2 at Lefthook; move y1 from Kokigami to Righthook; move y1 from Kokigami to Righthook; catastrophe yellow at Righthook
+convert y3 to r3 at Lefou23
+build y1 at Lefthook
+move r3 from Lefou23 to Jab
+sacrifice y1 at Lefthook; move g1 from Jab to Kokigami
+convert b1 to y1 at Righthook
+build r1 at Lefthook
+move r1 from Righthook to Twig
+move r2 from Lefthook to Twig
+sacrifice y1 at Twig; move r1 from Twig to Footwork (y1)
+build r2 at Lefthook
+build b1 at Righthook
+build y1 at Lefthook
+convert b1 to g1 at Righthook
+sacrifice y1 at Lefthook; move r2 from Twig to Righthook
+sacrifice y1 at Righthook; move b2 from Righthook to Footwork
+sacrifice y3 at Lefthook; move r1 from Lefthook to Lefou23; move r2 from Lefthook to Lefou23; move r2 from Righthook to Lefou23; catastrophe red at Lefou23
+build y1 at Lefou23
+build g1 at Kokigami
+sacrifice y1 at Lefou23; move g1 from Righthook to Kokigami; catastrophe green at Kokigami
+build b1 at Lefthook
+move b2 from Footwork to Lefthook
+convert b1 to y1 at Lefthook
+sacrifice r3 at Jab; capture b1 at Lefthook; capture y1 at Lefthook
+convert b3 to g3 at Kokigami
+move r1 from Footwork to Lefthook
+build g1 at Kokigami
+convert b1 to g1 at Lefthook

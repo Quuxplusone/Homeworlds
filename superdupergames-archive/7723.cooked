@@ -1,0 +1,47 @@
+Jesse (0, b3r1) g3-
+Zoltar (1, b3y2) -g3
+build g1 at Jesse
+build g1 at Zoltar
+convert g1 to y1 at Jesse
+convert g1 to y1 at Zoltar
+build g1 at Jesse
+build g1 at Zoltar
+build y1 at Jesse
+build y2 at Zoltar
+move y1 from Jesse to Goedel (g2)
+convert y1 to r1 at Zoltar
+build y1 at Jesse
+move y2 from Zoltar to Greenpea (g1)
+move y1 from Jesse to Leibniz (b2)
+build g2 at Zoltar
+sacrifice g3 at Jesse; build y2 at Goedel; build y3 at Leibniz; build y3 at Jesse
+build y3 at Greenpea
+convert y3 to g3 at Jesse
+convert g3 to y3 at Zoltar
+sacrifice y2 at Goedel; move y1 from Goedel to Greenpea; move y1 from Leibniz to Greenpea; catastrophe yellow at Greenpea
+sacrifice g2 at Zoltar; build r1 at Zoltar; build r2 at Zoltar
+move g1 from Jesse to Leibniz
+move r2 from Zoltar to Yellowjacket (y1)
+convert y3 to r3 at Leibniz
+build r2 at Zoltar
+build g1 at Jesse
+build g2 at Zoltar
+build g2 at Leibniz
+move g2 from Zoltar to Blueberry (b1)
+convert g1 to y1 at Leibniz
+build y2 at Zoltar
+sacrifice g3 at Jesse; build y2 at Jesse; build y3 at Jesse; build y3 at Leibniz
+sacrifice y2 at Zoltar; move r1 from Zoltar to Greenpea (g1); move r1 from Zoltar to Blueberry
+move y3 from Leibniz to Blueberry
+sacrifice g2 at Blueberry; build r2 at Yellowjacket; build r3 at Zoltar
+build y2 at Leibniz
+build r3 at Greenpea
+build g2 at Leibniz
+move y3 from Zoltar to Greenpea
+move g2 from Leibniz to Blueberry
+move r2 from Zoltar to Bluejay (b1)
+build g2 at Leibniz
+build g3 at Zoltar
+build g3 at Leibniz
+move g1 from Zoltar to Yellowjacket
+sacrifice g2 at Leibniz; build g2 at Jesse; build g3 at Blueberry

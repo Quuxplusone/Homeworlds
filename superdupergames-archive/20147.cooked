@@ -1,0 +1,24 @@
+Lorgar (0, b1y3) g3-
+Twoshort (1, r1b2) -g3
+build g1 at Lorgar
+build g1 at Twoshort
+move g1 from Lorgar to Maru (b2)
+convert g1 to y1 at Twoshort
+build g1 at Lorgar
+build y1 at Twoshort
+build g1 at Maru
+build g2 at Twoshort
+convert g1 to r1 at Maru
+move g2 from Twoshort to Yolonda (y3)
+build r1 at Maru
+build g1 at Twoshort
+build g2 at Lorgar
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Twoshort; build g3 at Yolonda
+convert g2 to y2 at Lorgar
+convert g2 to r2 at Twoshort
+build g2 at Maru
+move g2 from Yolonda to Bluestar (b2)
+move y2 from Lorgar to Maru
+convert g3 to y3 at Twoshort
+build y1 at Maru
+sacrifice y3 at Twoshort; move g3 from Yolonda to Bluestar; move g3 from Bluestar to Lorgar; move g2 from Bluestar to Lorgar; catastrophe green at Lorgar

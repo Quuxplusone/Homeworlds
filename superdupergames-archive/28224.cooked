@@ -1,0 +1,47 @@
+Rjbs (0, g2b1) r3-
+Neilb (1, g1b2) -r3
+build r1 at Rjbs
+build r1 at Neilb
+convert r1 to y1 at Rjbs
+convert r1 to y1 at Neilb
+build r1 at Rjbs
+move y1 from Neilb to Frobozz (b3)
+move r3 from Rjbs to Frobozz
+build r1 at Neilb
+capture y1 at Frobozz
+convert r1 to y1 at Neilb
+build r1 at Rjbs
+build r1 at Neilb
+convert r1 to g1 at Rjbs
+move y1 from Neilb to Banana (g3)
+move g1 from Rjbs to Frobozz
+build y2 at Banana
+build y2 at Rjbs
+build y2 at Banana
+build y3 at Frobozz
+move y2 from Banana to Trumpton (r1)
+convert y3 to r3 at Frobozz
+build y3 at Banana
+build r2 at Rjbs
+build r2 at Neilb
+move r3 from Frobozz to Trumpton
+convert r1 to g1 at Neilb
+capture y2 at Trumpton
+build r1 at Neilb
+move r3 from Trumpton to Banana
+move y1 from Banana to Neilb
+capture y3 at Banana
+build g2 at Neilb
+capture y2 at Banana
+move r3 from Neilb to Pogle (y3)
+move r3 from Frobozz to Neilb
+build y3 at Neilb
+capture y3 at Neilb
+build r2 at Neilb
+move g1 from Frobozz to Neilb; catastrophe green at Neilb
+move r3 from Pogle to Trumpton
+convert y1 to b1 at Rjbs
+capture y2 at Trumpton
+convert r2 to g2 at Rjbs
+move r3 from Trumpton to Neilb
+move g2 from Rjbs to Frobozz; catastrophe red at Neilb

@@ -1,0 +1,29 @@
+Uglyfoot (0, b3y2) g3-
+Rootbier (1, b1y3) -g3
+build g1 at Uglyfoot
+build g1 at Rootbier
+move g1 from Uglyfoot to Step (r1)
+move g1 from Rootbier to Son (y2)
+build g1 at Uglyfoot
+build g2 at Rootbier
+convert g1 to y1 at Uglyfoot
+move g1 from Son to Daughter (b1)
+build g1 at Uglyfoot
+build g2 at Daughter
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Uglyfoot; build g3 at Step
+convert g2 to y2 at Daughter
+convert g2 to r2 at Uglyfoot
+build g2 at Daughter
+build g2 at Step
+sacrifice y2 at Daughter; move g1 from Daughter to Uglyfoot; move g1 from Uglyfoot to Step; catastrophe green at Step
+move r2 from Uglyfoot to Daughter
+build g1 at Daughter
+capture g2 at Daughter
+build g1 at Daughter
+sacrifice g3 at Uglyfoot; build g2 at Daughter; build g3 at Uglyfoot; build g3 at Uglyfoot; catastrophe green at Daughter
+convert g2 to b2 at Rootbier
+move g3 from Uglyfoot to Links (y1)
+build b1 at Rootbier
+move g3 from Links to Forward (y2)
+convert b1 to r1 at Rootbier
+move y1 from Uglyfoot to Daughter

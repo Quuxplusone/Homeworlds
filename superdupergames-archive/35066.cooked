@@ -1,0 +1,65 @@
+Goulo (0, r3b2) g3-
+Wil (1, y2b1) -g3
+build g1 at Goulo
+build g1 at Wil
+convert g1 to y1 at Goulo
+convert g1 to b1 at Wil
+build y1 at Goulo
+build b1 at Wil
+move y1 from Goulo to Flaveto (y1)
+move b1 from Wil to Y3 (y3)
+build y2 at Goulo
+build g1 at Wil
+convert y2 to b2 at Goulo
+convert g1 to r1 at Wil
+build y2 at Goulo
+build g1 at Wil
+build g1 at Goulo
+sacrifice g3 at Wil; build b2 at Y3; build b3 at Y3; build b3 at Wil
+move b2 from Goulo to Flaveto
+sacrifice b2 at Y3; convert b3 to y3 at Y3; convert b3 to g3 at Wil
+convert g1 to r1 at Goulo
+move y3 from Y3 to G1 (g1)
+move b2 from Flaveto to Y3
+move b1 from Y3 to Y2 (y2)
+build g1 at Goulo
+build y3 at G1
+move y1 from Flaveto to Verdego (g3)
+move b1 from Y2 to G1
+sacrifice y2 at Goulo; move y1 from Goulo to G1; move y1 from Verdego to G1; catastrophe yellow at G1
+build g2 at Wil
+build g2 at Goulo
+move g2 from Wil to G3 (g3)
+convert g1 to y1 at Goulo
+convert g1 to y1 at Wil
+move g2 from Goulo to Flaveto (y1)
+move y1 from Wil to G3
+build y2 at Goulo
+move b1 from Wil to G3
+build g1 at Flaveto
+move y1 from G3 to B2 (b2)
+sacrifice y2 at Goulo; move g1 from Flaveto to G3; move g2 from Flaveto to G3; catastrophe green at G3
+build g1 at Wil
+build g1 at Goulo
+convert g1 to b1 at Wil
+sacrifice g1 at Goulo; build b3 at Y3
+build b3 at G1
+move b3 from Y3 to Wil
+capture b3 at Wil
+move b2 from Y3 to Wil; catastrophe blue at Wil
+convert b3 to y3 at G1
+build g1 at Goulo
+build y1 at G1
+build y2 at Goulo
+move y1 from G1 to G2 (g2)
+move y1 from Goulo to Verdeto (g1)
+build y2 at G1
+build y3 at Verdeto
+sacrifice y2 at G1; move y1 from B2 to Verdeto; move y1 from G2 to Verdeto; catastrophe yellow at Verdeto
+build y1 at Goulo
+build y1 at G1
+move y1 from Goulo to Verdeto (g1)
+move y1 from G1 to Y2 (y2)
+sacrifice g3 at Goulo; build y1 at Verdeto; build y3 at Goulo; build g2 at Goulo
+build y3 at G1
+sacrifice y3 at Goulo; move y2 from Goulo to Blueto (b1); move y2 from Blueto to Wil; move y1 from Verdeto to Wil

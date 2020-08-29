@@ -1,0 +1,15 @@
+Radio414 (0, b2r1) g3-
+Godofpie (1, g2y1) -r3
+build g1 at Radio414
+build r1 at Godofpie
+convert g1 to y1 at Radio414
+move r3 from Godofpie to Pastaperimero (b3)
+build y1 at Radio414
+build r1 at Godofpie
+build y2 at Radio414
+move r1 from Godofpie to Pastaperimero
+convert y2 to r2 at Radio414
+build r2 at Godofpie
+move g3 from Radio414 to Alfredo (y3)
+move r2 from Godofpie to Alfredo
+move g3 from Alfredo to Godofpie

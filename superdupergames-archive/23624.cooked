@@ -1,0 +1,41 @@
+Ts52 (0, y1b2) g3-
+Nupanick (1, b2r3) -g3
+build g1 at Ts52
+build g1 at Nupanick
+move g1 from Ts52 to Grover (b3)
+convert g3 to y3 at Nupanick
+build g1 at Ts52
+build g2 at Nupanick
+build g2 at Grover
+move g1 from Nupanick to Damogran (b1)
+convert g1 to y1 at Grover
+build g1 at Damogran
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build g3 at Grover
+build g3 at Nupanick
+convert g2 to r2 at Grover
+convert g1 to y1 at Damogran
+move r2 from Grover to Damogran
+move g1 from Damogran to Grover
+move g3 from Grover to Damogran
+sacrifice y1 at Damogran; move g1 from Grover to Ts52
+convert g3 to r3 at Ts52
+move g2 from Nupanick to Cerulean (b1)
+capture g1 at Ts52
+build g1 at Cerulean
+build r1 at Damogran
+convert g1 to y1 at Cerulean
+build y2 at Grover
+build y2 at Nupanick
+build g1 at Damogran
+build y2 at Cerulean
+move y1 from Grover to Damogran
+move y1 from Cerulean to Grover
+sacrifice g2 at Grover; build y3 at Grover; build y3 at Damogran
+move y2 from Cerulean to Grover; catastrophe yellow at Grover
+build r1 at Damogran
+build g2 at Cerulean
+move g1 from Ts52 to Grover (b3)
+convert g2 to y2 at Cerulean
+build g2 at Grover
+build g2 at Nupanick
+build g3 at Ts52

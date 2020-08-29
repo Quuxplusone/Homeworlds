@@ -1,0 +1,77 @@
+Wil (0, b2y1) g3-
+Dodobirb (1, b1r3) -g3
+build g1 at Wil
+build g1 at Dodobirb
+convert g1 to b1 at Wil
+convert g1 to b1 at Dodobirb
+build b2 at Wil
+build b2 at Dodobirb
+move b2 from Wil to Y3 (y3)
+convert b1 to y1 at Dodobirb
+move b2 from Y3 to Y2 (y2)
+build y1 at Dodobirb
+build b1 at Wil
+convert b2 to r2 at Dodobirb
+move b1 from Wil to R3 (r3)
+move r2 from Dodobirb to Y2
+sacrifice g3 at Wil; build b2 at R3; build b3 at Y2; build b3 at Wil
+capture b2 at Y2
+convert b1 to r1 at Wil
+move b2 from Y2 to Dodobirb
+convert b3 to g3 at Wil
+build y2 at Dodobirb
+sacrifice r1 at Wil; capture r2 at Y2
+convert y2 to r2 at Dodobirb
+convert b2 to y2 at R3
+build y2 at Dodobirb
+build g1 at Wil
+move y2 from Dodobirb to Construction (g2)
+move b3 from Y2 to Y3 (y3)
+build y3 at Construction
+sacrifice g1 at Wil; build y3 at R3
+move r2 from Dodobirb to Construction
+build g1 at Wil
+build g1 at Dodobirb
+convert b3 to g3 at Y3
+build r1 at Construction
+move y2 from R3 to B2 (b2)
+move b2 from Dodobirb to Construction
+build g1 at Y3
+move g1 from Dodobirb to Mediumhot (r2)
+convert g1 to r1 at Wil
+move r2 from Construction to Bluey (b3)
+move g1 from Y3 to Y2
+move r1 from Construction to Bluey
+sacrifice g3 at Y3; build y3 at B2; build r1 at Wil; build r3 at Y2
+sacrifice y2 at Construction; move r1 from Bluey to Y2; move r2 from Bluey to Y2; catastrophe red at Y2
+move y3 from B2 to B3 (b3)
+build g1 at Dodobirb
+build g2 at Y2
+convert g1 to b1 at Dodobirb
+sacrifice g2 at Y2; build b3 at R3; build y2 at B2
+build b3 at Construction
+convert b3 to g3 at R3
+convert b3 to r3 at Construction
+sacrifice g1 at Y2; build y2 at B2
+build r1 at Construction
+build b3 at R3
+build b3 at Construction
+move b3 from R3 to Mediumhot
+sacrifice g1 at Mediumhot; build g1 at Dodobirb
+move r1 from Wil to B3
+move r3 from Construction to Seed (g1)
+build r2 at Wil
+build r2 at Construction
+convert y2 to g2 at B2
+build y2 at Construction
+build g1 at B2
+sacrifice y2 at Construction; move y3 from Construction to B3; move y3 from B3 to B2
+sacrifice g3 at R3; build y2 at B2; build g2 at Wil; build g3 at Wil; catastrophe yellow at B2
+move b1 from Dodobirb to Yellow (y2)
+move g3 from Wil to Y3 (y3)
+move y1 from Dodobirb to Construction
+sacrifice g3 at Wil; build g3 at Wil; build y2 at B3; build y2 at R3
+move y1 from Construction to Seed
+sacrifice y3 at R3; move b3 from Mediumhot to Dodobirb; move g1 from B2 to Dodobirb; move g2 from B2 to Dodobirb; catastrophe green at Dodobirb
+sacrifice y1 at Seed; move b3 from Construction to Dodobirb
+sacrifice r2 at Wil; capture b3 at Dodobirb; capture y1 at Dodobirb

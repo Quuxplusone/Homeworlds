@@ -1,0 +1,29 @@
+Jesse (0, r1b2) g3-
+Andylooney (1, b3r2) -g3
+build g1 at Jesse
+build g1 at Andylooney
+convert g3 to y3 at Jesse
+convert g3 to y3 at Andylooney
+build y1 at Jesse
+build y1 at Andylooney
+move y1 from Jesse to Marmalade (g3)
+move y1 from Andylooney to Emerald (g1)
+build g2 at Jesse
+build g2 at Andylooney
+move g2 from Jesse to Butter (b3)
+move g2 from Andylooney to Sapphire (b1)
+build y1 at Jesse
+build y2 at Emerald
+convert y1 to r1 at Jesse
+convert g1 to r1 at Andylooney
+build g1 at Butter
+move y1 from Emerald to Jade (g3)
+build r2 at Jesse
+move r1 from Andylooney to Emerald
+move r2 from Jesse to Marmalade
+convert y3 to g3 at Andylooney
+build g2 at Jesse
+build y1 at Emerald
+build y2 at Marmalade
+move y1 from Emerald to Topaz (b3)
+move y2 from Marmalade to Nutella (b1)

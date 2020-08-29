@@ -1,0 +1,98 @@
+Ts52 (0, b1y2) g3-
+Agentofchaos (1, b1r3) -g3
+build g1 at Ts52
+build g1 at Agentofchaos
+move g1 from Ts52 to Grover (b3)
+convert g1 to y1 at Agentofchaos
+build g1 at Ts52
+move y1 from Agentofchaos to Shazcatraz (g2)
+convert g1 to y1 at Ts52
+build g1 at Agentofchaos
+move y1 from Ts52 to Grover
+convert g1 to r1 at Agentofchaos
+build g1 at Grover
+build g1 at Agentofchaos
+build g2 at Ts52
+convert g1 to y1 at Agentofchaos
+convert g1 to r1 at Grover
+build y2 at Shazcatraz
+build g1 at Grover
+move y2 from Shazcatraz to Grover
+move r1 from Grover to Kermit (g2)
+sacrifice r1 at Agentofchaos; capture y1 at Grover
+sacrifice g3 at Ts52; build g1 at Ts52; build g3 at Ts52; build g3 at Grover
+sacrifice y1 at Grover; move y2 from Grover to Kermit
+convert g1 to y1 at Grover
+build g1 at Agentofchaos
+move g3 from Grover to Kermit
+move y2 from Kermit to Holodeth (r3)
+sacrifice g3 at Kermit; build g3 at Grover; build y2 at Grover; build y3 at Grover
+sacrifice g3 at Agentofchaos; build y3 at Shazcatraz; build y3 at Holodeth; build g3 at Agentofchaos
+convert g2 to r2 at Ts52
+move y1 from Shazcatraz to Grover; catastrophe yellow at Grover
+convert g3 to y3 at Grover
+convert g1 to r1 at Agentofchaos
+build y1 at Grover
+build g1 at Agentofchaos
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build g3 at Grover
+sacrifice y2 at Holodeth; move g1 from Agentofchaos to Shazcatraz; move g1 from Shazcatraz to Grover; catastrophe green at Grover
+build r1 at Kermit
+move r1 from Agentofchaos to Shazcatraz
+build r2 at Kermit
+build g1 at Agentofchaos
+sacrifice y3 at Grover; move r1 from Kermit to Agentofchaos; move r1 from Kermit to Agentofchaos; move r2 from Kermit to Agentofchaos; catastrophe red at Agentofchaos
+convert g1 to b1 at Agentofchaos
+move g1 from Ts52 to Grover
+build b2 at Agentofchaos
+build r1 at Ts52
+convert b2 to g2 at Agentofchaos
+convert r2 to b2 at Ts52
+build b2 at Agentofchaos
+move b2 from Ts52 to Kermit (g3)
+move b2 from Agentofchaos to Grover
+build b2 at Kermit
+sacrifice r1 at Shazcatraz; capture y1 at Grover
+convert b2 to y2 at Kermit
+convert g2 to r2 at Agentofchaos
+build b2 at Kermit
+move b1 from Agentofchaos to Holodeth
+build b3 at Kermit
+sacrifice y3 at Holodeth; move b1 from Holodeth to Agentofchaos; move b1 from Agentofchaos to Kermit; move y3 from Shazcatraz to Kermit; catastrophe blue at Kermit
+build g1 at Grover
+sacrifice r2 at Agentofchaos; capture y2 at Kermit; capture g1 at Grover
+build r1 at Ts52
+convert b2 to r2 at Grover
+build g1 at Ts52
+capture g1 at Grover
+move g1 from Ts52 to Cookiemonster (b3)
+build y1 at Grover
+build g2 at Cookiemonster
+build y2 at Grover
+convert g2 to r2 at Cookiemonster
+build y3 at Agentofchaos
+build g2 at Cookiemonster
+build y3 at Agentofchaos
+convert g1 to b1 at Cookiemonster
+build g1 at Grover
+convert g3 to b3 at Ts52
+build r1 at Grover
+build g2 at Cookiemonster
+convert r2 to b2 at Grover
+build r2 at Cookiemonster
+move b2 from Grover to Agentofchaos
+move r1 from Ts52 to Robin (g3)
+build g2 at Agentofchaos
+sacrifice g2 at Cookiemonster; build r2 at Robin; build r3 at Ts52
+sacrifice g2 at Agentofchaos; build r3 at Grover; build b2 at Agentofchaos
+move r1 from Ts52 to Grover
+capture r1 at Grover
+move r3 from Ts52 to Grover; catastrophe red at Grover
+move b2 from Agentofchaos to Kermit
+convert b3 to r3 at Ts52
+build b2 at Kermit
+sacrifice g2 at Cookiemonster; build r1 at Ts52; build r1 at Cookiemonster
+sacrifice y3 at Agentofchaos; move y1 from Grover to Ts52; move y1 from Grover to Ts52; move y2 from Grover to Ts52; catastrophe yellow at Ts52
+convert r1 to y1 at Ts52
+sacrifice y3 at Agentofchaos; move b2 from Kermit to Ts52; move b2 from Kermit to Ts52; move b2 from Agentofchaos to Kermit
+sacrifice r2 at Cookiemonster; capture b2 at Ts52; capture b2 at Ts52
+move b2 from Kermit to Ts52; catastrophe blue at Ts52

@@ -1,0 +1,13 @@
+Ts52 (0, b2y3) g3-
+Mattthespratt (1, y2b1) -g3
+build g1 at Ts52
+build g1 at Mattthespratt
+convert g1 to b1 at Ts52
+move g1 from Mattthespratt to Corneria (r3)
+build b1 at Ts52
+build g1 at Mattthespratt
+move b1 from Ts52 to Zoe (y1)
+move g1 from Mattthespratt to Corneria
+build b2 at Ts52
+convert g3 to b3 at Mattthespratt
+convert b2 to g2 at Ts52

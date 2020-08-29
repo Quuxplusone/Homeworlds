@@ -1,0 +1,38 @@
+Wil (0, r3b1) g3-
+Anonfunc (1, y1b2) -g3
+build g1 at Wil
+build g1 at Anonfunc
+convert g1 to b1 at Wil
+move g1 from Anonfunc to Blue (b3)
+build b1 at Wil
+build g1 at Blue
+build g1 at Wil
+convert g1 to y1 at Blue
+convert g1 to y1 at Wil
+build y2 at Blue
+build y2 at Wil
+convert y2 to b2 at Blue
+convert b1 to r1 at Wil
+build y2 at Blue
+move y2 from Wil to G2 (g2)
+build g1 at Anonfunc
+build y2 at G2
+move b2 from Blue to Green (g2)
+move y2 from G2 to Blue
+sacrifice g3 at Anonfunc; build g1 at Blue; build g2 at Blue; build g3 at Anonfunc
+sacrifice g3 at Wil; build y3 at Wil; build y3 at G2; build y3 at Blue; catastrophe yellow at Blue
+sacrifice g3 at Anonfunc; build g3 at Anonfunc; build g3 at Anonfunc; build b1 at Green
+convert y3 to g3 at Wil
+sacrifice b2 at Green; convert b1 to r1 at Green; convert g3 to y3 at Anonfunc
+build g3 at Wil
+build r1 at Green
+sacrifice g3 at Wil; build g3 at Wil; build y1 at Wil; build y2 at Wil
+sacrifice y3 at Anonfunc; move r1 from Green to Wil; move r1 from Green to Wil; move g1 from Blue to Bluish (b2); catastrophe red at Wil
+sacrifice g3 at Wil; build g2 at Wil; build g3 at Wil; build y2 at G2
+convert g1 to b1 at Anonfunc
+sacrifice y2 at G2; move y3 from G2 to Blue; move g3 from Wil to Y3 (y3)
+convert g2 to y2 at Blue
+convert y1 to r1 at Wil
+convert b1 to r1 at Anonfunc
+convert g2 to r2 at Wil
+sacrifice g3 at Anonfunc; build r1 at Anonfunc; build r2 at Anonfunc; build y1 at Blue

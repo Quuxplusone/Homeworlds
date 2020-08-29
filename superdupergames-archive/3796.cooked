@@ -1,0 +1,113 @@
+Zoltar (0, y2b1) g3-
+Jeep (1, y3b2) -g3
+build g1 at Zoltar
+build g1 at Jeep
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Jeep
+build g1 at Zoltar
+build g1 at Jeep
+convert g1 to r1 at Zoltar
+move g1 from Jeep to Moon (b1)
+build g1 at Zoltar
+build g1 at Jeep
+build g2 at Zoltar
+sacrifice g3 at Jeep; build g2 at Jeep; build g2 at Moon; build g3 at Jeep
+move g2 from Zoltar to Investment (y3)
+sacrifice g3 at Jeep; build g3 at Jeep; build y1 at Jeep; build g3 at Moon
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Zoltar; build r1 at Zoltar
+convert g2 to y2 at Moon
+sacrifice y2 at Zoltar; move g2 from Investment to Moon; move g2 from Moon to Jeep; catastrophe green at Jeep
+convert y1 to r1 at Jeep
+build r2 at Zoltar
+sacrifice g3 at Moon; build y1 at Moon; build y2 at Moon; build y3 at Jeep
+move y1 from Zoltar to Greenbelt (g3)
+convert y2 to r2 at Moon
+convert r2 to y2 at Zoltar
+convert y1 to b1 at Jeep
+move y2 from Zoltar to Blueridge (b3)
+build g1 at Moon
+move r1 from Zoltar to Greenbelt
+move g1 from Moon to Jeep
+build r2 at Greenbelt
+build g2 at Moon
+move r1 from Greenbelt to Yellowstone (y1)
+move g2 from Moon to Nationalpark (y3)
+sacrifice g3 at Zoltar; build r2 at Greenbelt; build r3 at Yellowstone; build r3 at Zoltar
+build r3 at Moon
+move r3 from Yellowstone to Nationalpark
+sacrifice g2 at Nationalpark; build g2 at Moon; build g2 at Jeep
+sacrifice y2 at Blueridge; move r2 from Greenbelt to Moon; move r2 from Greenbelt to Moon; catastrophe red at Moon
+convert y2 to r2 at Moon
+convert r3 to g3 at Zoltar
+build y2 at Moon
+build y2 at Greenbelt
+move y2 from Moon to Stage (b3)
+move g1 from Zoltar to Nationalpark
+move g2 from Moon to Stage
+build r2 at Nationalpark
+sacrifice g2 at Jeep; build r2 at Moon; build r3 at Jeep
+build r3 at Zoltar
+convert r3 to g3 at Jeep
+move r3 from Nationalpark to Moon
+sacrifice g3 at Jeep; build g2 at Stage; build g2 at Stage; build g3 at Jeep
+build r3 at Nationalpark
+sacrifice y2 at Stage; move r2 from Moon to Nationalpark; move r2 from Moon to Nationalpark
+sacrifice r2 at Nationalpark; capture r2 at Nationalpark; capture r2 at Nationalpark
+convert g2 to r2 at Stage
+move r3 from Zoltar to Stage
+sacrifice g2 at Stage; build g2 at Moon; build y2 at Moon
+sacrifice r2 at Nationalpark; capture y2 at Moon; capture y1 at Moon
+sacrifice r2 at Stage; capture y2 at Moon; capture y1 at Moon
+sacrifice r2 at Nationalpark; capture g1 at Moon; capture g2 at Moon
+sacrifice y2 at Moon; move g2 from Stage to Bleh (b2); move y1 from Moon to Bleck (b3)
+sacrifice y2 at Greenbelt; move g2 from Moon to Jeep; move g1 from Moon to Jeep; catastrophe green at Jeep
+sacrifice g2 at Bleh; build y2 at Jeep; build y2 at Bleck
+move y1 from Greenbelt to Moon
+convert y2 to g2 at Jeep
+convert r3 to g3 at Moon
+build r2 at Jeep
+sacrifice g3 at Moon; build r2 at Stage; build r2 at Nationalpark; build r3 at Yellowstone
+move y1 from Bleck to Store (y2)
+move r3 from Nationalpark to Store
+move y1 from Store to Whatever (g3)
+build g1 at Nationalpark
+build b2 at Jeep
+convert r3 to b3 at Stage
+move y2 from Bleck to Sigh (g1)
+build r3 at Nationalpark
+move b1 from Jeep to Sigh
+move y1 from Moon to Stage
+build b1 at Sigh
+move b3 from Stage to Yellowstone
+build g2 at Jeep
+move g1 from Nationalpark to Yellowstone
+move g2 from Jeep to Sigh
+move r3 from Nationalpark to Sigh
+move y2 from Sigh to Apathy (b3)
+sacrifice r3 at Yellowstone; capture g2 at Sigh; capture b1 at Sigh; capture b1 at Sigh
+build g2 at Jeep
+sacrifice g2 at Sigh; build g2 at Zoltar; build r3 at Yellowstone
+move g2 from Jeep to Yellowstone
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Nationalpark; build b2 at Yellowstone
+move g2 from Yellowstone to Apathy
+move g1 from Nationalpark to Store
+sacrifice g2 at Jeep; build g2 at Apathy
+move g2 from Zoltar to Stage
+move r1 from Jeep to Yellowstone
+sacrifice r1 at Yellowstone; capture r1 at Yellowstone
+sacrifice g2 at Apathy; build r1 at Jeep; build g2 at Apathy
+move r2 from Nationalpark to Store
+move r1 from Jeep to Yellowstone
+sacrifice r1 at Yellowstone; capture r1 at Yellowstone
+sacrifice g2 at Apathy; build r1 at Jeep; build g2 at Apathy
+sacrifice g3 at Nationalpark; build g3 at Store; build y3 at Stage
+sacrifice g2 at Apathy; build g2 at Apathy
+move r3 from Store to Apathy
+sacrifice y2 at Apathy; move g2 from Apathy to Sigh; move g2 from Sigh to Jeep
+build y2 at Stage
+sacrifice g2 at Apathy; build g2 at Jeep
+move y1 from Stage to Sigh
+sacrifice g2 at Jeep; build g2 at Jeep
+move y2 from Stage to Sigh
+sacrifice g2 at Jeep; build g2 at Jeep
+sacrifice y3 at Stage; move y1 from Sigh to Jeep; move y2 from Sigh to Jeep; move b3 from Yellowstone to Jeep; catastrophe yellow at Jeep

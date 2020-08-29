@@ -1,0 +1,15 @@
+Felix (0, y1b3) g3-
+Draw5Playall (1, g3y1) -y3
+build g1 at Felix
+build y1 at Draw5Playall
+convert g3 to y3 at Felix
+move y1 from Draw5Playall to B2 (b2)
+build g1 at Felix
+build y2 at Draw5Playall
+build g1 at Felix
+move y2 from Draw5Playall to B2
+convert g1 to b1 at Felix
+build y2 at Draw5Playall
+move y3 from Felix to Roam (g2)
+move y2 from Draw5Playall to Roam
+move y3 from Roam to Draw5Playall

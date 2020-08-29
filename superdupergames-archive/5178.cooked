@@ -1,0 +1,10 @@
+Hedge_O_Matic (0, g3y1) b3-
+Jeep (1, b2g1) -y3
+build b1 at Hedge_O_Matic
+build y1 at Jeep
+convert b3 to y3 at Hedge_O_Matic
+convert y1 to r1 at Jeep
+build y1 at Hedge_O_Matic
+build y1 at Jeep
+build y2 at Hedge_O_Matic
+build r1 at Jeep; catastrophe yellow at Hedge_O_Matic

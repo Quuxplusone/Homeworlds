@@ -1,0 +1,56 @@
+Felix (0, b3r2) g3-
+Kanzenryu (1, b1y2) -g3
+build g1 at Felix
+build g1 at Kanzenryu
+convert g1 to y1 at Felix
+convert g1 to y1 at Kanzenryu
+build g1 at Felix
+build g1 at Kanzenryu
+move g1 from Felix to Ice (b1)
+move y1 from Kanzenryu to Moon (g3)
+build g1 at Felix
+convert g1 to b1 at Kanzenryu
+build g1 at Ice
+build g2 at Kanzenryu
+build g2 at Ice
+sacrifice g3 at Kanzenryu; build g2 at Kanzenryu; build g3 at Kanzenryu; build b2 at Kanzenryu
+convert g1 to r1 at Ice
+convert b2 to r2 at Kanzenryu
+convert g1 to y1 at Ice
+move g2 from Kanzenryu to Party (y3)
+build y2 at Ice
+move b1 from Kanzenryu to Party
+convert y2 to b2 at Ice
+build y2 at Moon
+build y2 at Felix
+build b2 at Party
+build y3 at Ice
+move y1 from Moon to Soon (g1)
+move y1 from Felix to Soon
+build y3 at Moon
+build r1 at Ice
+sacrifice g3 at Kanzenryu; build g1 at Party; build r1 at Kanzenryu; build g3 at Kanzenryu
+move y3 from Ice to Party
+sacrifice y2 at Moon; move b1 from Party to Ice; move b2 from Party to Ice; catastrophe blue at Ice
+convert g1 to r1 at Felix
+move g2 from Party to Brink (y1)
+build y2 at Felix
+move g1 from Party to Peep (b1)
+sacrifice r1 at Felix; capture y1 at Soon
+move r1 from Kanzenryu to Moon
+convert y2 to r2 at Felix
+sacrifice g3 at Kanzenryu; build g1 at Brink; build g2 at Peep; build g3 at Kanzenryu
+build y2 at Felix
+sacrifice g3 at Kanzenryu; build g3 at Kanzenryu; build r1 at Moon; build r1 at Kanzenryu
+move y3 from Party to Peep
+sacrifice g3 at Kanzenryu; build g3 at Kanzenryu; build r3 at Kanzenryu; build y3 at Moon
+sacrifice y2 at Felix; move y1 from Soon to Moon; move y1 from Soon to Moon; catastrophe yellow at Moon
+move r3 from Kanzenryu to More (y3)
+move r2 from Felix to Peep
+sacrifice r1 at Moon; capture r2 at Peep
+convert g3 to r3 at Felix
+sacrifice g3 at Kanzenryu; build g1 at Peep; build g3 at Brink; build g3 at Kanzenryu
+sacrifice r3 at Felix; capture r2 at Peep; capture g2 at Peep; capture g1 at Peep
+move g3 from Brink to Felix
+build y1 at Peep
+sacrifice r1 at Kanzenryu; capture y2 at Felix

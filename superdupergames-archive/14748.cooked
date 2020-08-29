@@ -1,0 +1,46 @@
+Danner (0, b1r2) g3-
+Mneme (1, g3r1) -b3
+build g1 at Danner
+build b1 at Mneme
+convert g1 to b1 at Danner
+build b2 at Mneme
+build b2 at Danner
+convert b2 to y2 at Mneme
+convert b2 to y2 at Danner
+move b1 from Mneme to Alpha (g2)
+move b1 from Danner to Beta (g3)
+build b2 at Mneme
+build b2 at Beta
+build b2 at Alpha
+convert b2 to y2 at Beta
+move b2 from Mneme to Gamma (g2)
+build g1 at Danner
+convert b2 to r2 at Alpha
+build b2 at Beta
+build b2 at Alpha
+move b1 from Beta to Delta (g2)
+build b3 at Mneme
+build b3 at Delta
+move b3 from Mneme to Delta
+sacrifice y2 at Danner; move b1 from Delta to Epsilon (y3); move b3 from Delta to Zeta (y3)
+convert b2 to y2 at Alpha
+convert g1 to r1 at Danner
+convert b3 to y3 at Delta
+move b3 from Zeta to Alpha
+sacrifice y2 at Alpha; move r2 from Alpha to Epsilon; move y3 from Delta to Beta
+build y1 at Beta
+sacrifice b1 at Alpha; convert y3 to r3 at Beta
+sacrifice y2 at Beta; move y1 from Beta to Alpha; move b2 from Beta to Delta (y2)
+capture b1 at Epsilon
+build g1 at Danner
+build b1 at Gamma
+build y1 at Alpha
+convert b2 to g2 at Gamma
+move y1 from Alpha to Zeta (b3)
+build b2 at Gamma
+build b2 at Alpha
+convert b2 to r2 at Gamma
+sacrifice y1 at Alpha; move r1 from Danner to Eta (y3)
+sacrifice g2 at Gamma; build r1 at Gamma; build r3 at Epsilon
+sacrifice g1 at Danner; build r3 at Eta
+sacrifice y2 at Mneme; move r2 from Gamma to Eta; move r1 from Gamma to Eta; catastrophe red at Eta

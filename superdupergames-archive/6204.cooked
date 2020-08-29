@@ -1,0 +1,32 @@
+Wmreed (0, b2g1) y3-
+Dsheldon (1, b3r2) -g3
+convert y3 to r3 at Wmreed
+build g1 at Dsheldon
+build r1 at Wmreed
+convert g1 to y1 at Dsheldon
+convert r1 to y1 at Wmreed
+build g1 at Dsheldon
+move y1 from Wmreed to Andy (b3)
+move g1 from Dsheldon to Lichen (b1)
+build r1 at Wmreed
+build g1 at Dsheldon
+convert r1 to y1 at Wmreed
+move g1 from Dsheldon to Tooth (b1)
+build y2 at Wmreed
+build g2 at Dsheldon
+convert y2 to g2 at Wmreed
+sacrifice g3 at Dsheldon; build g2 at Lichen; build g3 at Tooth; build g3 at Dsheldon
+build g3 at Wmreed
+sacrifice g3 at Dsheldon; build g3 at Dsheldon; build y2 at Dsheldon; build y2 at Dsheldon
+build y2 at Wmreed
+sacrifice y2 at Dsheldon; move g1 from Lichen to Andy; move g1 from Andy to Wmreed; catastrophe green at Wmreed
+move r3 from Wmreed to Tooth
+sacrifice y2 at Dsheldon; move g3 from Tooth to Bus (y3); move g1 from Tooth to Jerome (y3)
+convert r3 to y3 at Tooth
+build g1 at Lichen
+convert y2 to g2 at Wmreed
+move g1 from Jerome to Wmreed
+convert y1 to r1 at Andy
+convert g1 to b1 at Wmreed
+sacrifice y1 at Wmreed; move r1 from Andy to Wmreed
+sacrifice g2 at Dsheldon; build b2 at Wmreed; build b2 at Wmreed; catastrophe blue at Wmreed

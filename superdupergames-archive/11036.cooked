@@ -1,0 +1,37 @@
+Danner (0, r3b2) g3-
+Jesse (1, r2b1) -g3
+build g1 at Danner
+build g1 at Jesse
+convert g1 to y1 at Danner
+convert g1 to y1 at Jesse
+build g1 at Danner
+build g1 at Jesse
+convert g1 to r1 at Danner
+build g1 at Jesse
+build g1 at Danner
+move g1 from Jesse to Cheese (b3)
+move g1 from Danner to Moon (y1)
+build g2 at Cheese
+build y2 at Danner
+convert g2 to r2 at Cheese
+build g2 at Danner
+build g2 at Cheese
+sacrifice g3 at Danner; build g2 at Danner; build g3 at Moon; build g3 at Danner
+convert g2 to y2 at Cheese
+sacrifice y2 at Danner; move g3 from Danner to Moon; move g3 from Moon to Cheese
+sacrifice g3 at Jesse; build g2 at Cheese; build g3 at Jesse; build r1 at Cheese
+convert g3 to b3 at Cheese
+build g3 at Jesse
+sacrifice g3 at Moon; build g3 at Moon; build b1 at Cheese; build b1 at Cheese; catastrophe blue at Cheese
+convert g1 to r1 at Jesse
+build y2 at Danner
+build y2 at Jesse
+move y1 from Danner to Hyperspace (g1)
+move g3 from Jesse to Oscar (y3)
+sacrifice g3 at Moon; build y2 at Hyperspace; build y3 at Danner; build y3 at Danner
+move y2 from Jesse to Smellify (b3)
+move y1 from Hyperspace to Oscar
+build g1 at Jesse
+build g2 at Moon
+move r1 from Jesse to Thbt (g3)
+move g2 from Moon to Oscar

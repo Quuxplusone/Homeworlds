@@ -1,0 +1,68 @@
+Erik2Point0 (0, g3b1) r3-
+Scotward (1, r3b2) -g3
+build r1 at Erik2Point0
+build g1 at Scotward
+build r1 at Erik2Point0
+convert g1 to y1 at Scotward
+convert r1 to y1 at Erik2Point0
+build g1 at Scotward
+convert r1 to g1 at Erik2Point0
+build y1 at Scotward
+build y2 at Erik2Point0
+build y2 at Scotward
+convert y1 to b1 at Erik2Point0
+convert y2 to b2 at Scotward
+build r1 at Erik2Point0
+convert g1 to r1 at Scotward
+build g1 at Erik2Point0
+move r1 from Scotward to Shatner (b1)
+move g1 from Erik2Point0 to Rivendell (b2)
+build b3 at Scotward
+build b3 at Erik2Point0
+move b3 from Scotward to Shatner
+convert b3 to g3 at Erik2Point0
+build b3 at Scotward
+build b3 at Erik2Point0
+convert b2 to g2 at Scotward
+move b1 from Erik2Point0 to Bree (g2)
+convert b3 to y3 at Scotward
+move g1 from Erik2Point0 to Bree
+move g2 from Scotward to Shatner
+build y1 at Erik2Point0
+sacrifice y3 at Scotward; move b3 from Shatner to Bree; move r1 from Shatner to Bree; move g2 from Shatner to Nimoy (y2)
+move r3 from Erik2Point0 to Nimoy
+move g2 from Nimoy to Doohan (y3)
+sacrifice r1 at Erik2Point0; capture r1 at Bree
+convert b3 to r3 at Bree
+sacrifice g3 at Erik2Point0; build r1 at Bree; build r1 at Bree; build g1 at Bree; catastrophe red at Bree
+move g2 from Doohan to Rivendell
+convert b3 to g3 at Erik2Point0
+build g2 at Scotward
+move y1 from Erik2Point0 to Bree
+sacrifice y1 at Scotward; move g2 from Rivendell to Erik2Point0
+move g3 from Erik2Point0 to Nimoy
+sacrifice y1 at Scotward; move g2 from Erik2Point0 to Bree; catastrophe green at Bree
+build y1 at Erik2Point0
+convert g2 to y2 at Scotward
+build r1 at Nimoy
+build y1 at Scotward
+convert y1 to r1 at Erik2Point0
+move y2 from Scotward to Nichols (g1)
+build g1 at Rivendell
+build y1 at Nichols
+convert g1 to y1 at Rivendell
+move y1 from Nichols to Rivendell
+build y3 at Erik2Point0
+build y3 at Nichols
+move r1 from Nimoy to Rohan (g1)
+build y3 at Scotward
+sacrifice g3 at Nimoy; build r1 at Rohan; build r2 at Rohan; build g2 at Rivendell
+sacrifice y3 at Scotward; move y2 from Nichols to Rivendell; move y2 from Rivendell to Erik2Point0; move y1 from Rivendell to Erik2Point0; catastrophe yellow at Erik2Point0
+move r3 from Nimoy to Erik2Point0
+move y3 from Nichols to Rivendell
+convert g2 to y2 at Rivendell
+convert y3 to r3 at Rivendell
+move y2 from Rivendell to Rohan
+sacrifice y1 at Scotward; move r3 from Rivendell to Rohan
+sacrifice y2 at Rohan; move r1 from Rohan to Scotward; move r2 from Rohan to Scotward
+capture r1 at Rohan

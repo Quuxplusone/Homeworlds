@@ -1,0 +1,37 @@
+Dlwillson (0, b3y2) g3-
+Dethdukk (1, b1y2) -g3
+build g1 at Dlwillson
+build g1 at Dethdukk
+move g1 from Dlwillson to Golly (b1)
+convert g1 to b1 at Dethdukk
+build g1 at Dlwillson
+build b2 at Dethdukk
+build g1 at Golly
+move b1 from Dethdukk to Bounds (r3)
+convert g1 to y1 at Golly
+sacrifice g3 at Dethdukk; build b2 at Bounds; build b2 at Bounds; build b3 at Dethdukk
+convert g3 to b3 at Dlwillson
+convert b2 to y2 at Bounds
+move b3 from Dlwillson to Sprout (g1)
+convert b1 to r1 at Bounds
+build g2 at Dlwillson
+convert b3 to g3 at Dethdukk
+build g2 at Golly
+build g2 at Dethdukk
+move g1 from Golly to Whuhoo (b3)
+move g2 from Dethdukk to Bounds
+build g3 at Golly
+build g3 at Dethdukk
+convert g2 to r2 at Dlwillson
+sacrifice g3 at Dethdukk; build g2 at Dethdukk; build g3 at Bounds; build y1 at Bounds
+sacrifice g3 at Golly; build g3 at Dlwillson; build b1 at Sprout; build r1 at Dlwillson
+sacrifice g3 at Dethdukk; build g3 at Dethdukk; build r1 at Bounds; build b2 at Dethdukk
+convert b3 to y3 at Sprout
+sacrifice b2 at Dethdukk; convert b2 to r2 at Dethdukk; convert r1 to y1 at Bounds
+move y3 from Sprout to Whuhoo
+move y2 from Bounds to Sprout
+sacrifice g3 at Dlwillson; build y3 at Golly; build y3 at Whuhoo; build g3 at Dlwillson
+move y1 from Bounds to Golly
+sacrifice y3 at Golly; move y1 from Golly to Whuhoo; move y3 from Whuhoo to Dethdukk; move y1 from Whuhoo to Dethdukk
+sacrifice r1 at Bounds; capture y3 at Dethdukk
+sacrifice g1 at Whuhoo; build y3 at Dethdukk; catastrophe yellow at Dethdukk

@@ -1,0 +1,19 @@
+Disaac (0, g3y2) b3-
+Dungeon (1, y3b2) -g3
+build b1 at Disaac
+build g1 at Dungeon
+move b1 from Disaac to Gaea1 (g1)
+move g1 from Dungeon to Dscwrld1 (b1)
+build b1 at Disaac
+build g1 at Dscwrld1
+convert b3 to g3 at Disaac
+convert g1 to y1 at Dscwrld1
+sacrifice g3 at Disaac; build b2 at Gaea1; build b2 at Disaac; build b3 at Disaac
+move y1 from Dscwrld1 to Hamsammich (g3)
+build b3 at Gaea1
+build g1 at Dscwrld1
+sacrifice b2 at Disaac; convert b3 to y3 at Gaea1; convert b2 to r2 at Gaea1
+build g2 at Dscwrld1
+move y3 from Gaea1 to Dungeon
+convert g3 to y3 at Dungeon
+sacrifice r2 at Gaea1; capture y3 at Dungeon

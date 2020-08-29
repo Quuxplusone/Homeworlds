@@ -1,0 +1,31 @@
+Ts52 (0, b1y3) g3-
+Addesso (1, g2b1) -y3
+build g1 at Ts52
+build y1 at Addesso
+convert g1 to b1 at Ts52
+convert y1 to g1 at Addesso
+move b1 from Ts52 to Oscar (g2)
+build y1 at Addesso
+build b2 at Oscar
+convert y3 to b3 at Addesso
+convert b2 to y2 at Oscar
+move b3 from Addesso to Pegasus (g3)
+build b2 at Oscar
+build b2 at Pegasus
+convert b2 to r2 at Oscar
+convert b3 to r3 at Pegasus
+build g1 at Ts52
+build b2 at Pegasus
+build b2 at Oscar
+convert b2 to y2 at Pegasus
+move b2 from Oscar to Kermit (g3)
+build b2 at Pegasus
+build b3 at Kermit
+move b2 from Pegasus to Addesso
+convert b3 to r3 at Kermit
+build b3 at Addesso
+sacrifice y2 at Oscar; move b2 from Kermit to Addesso; move r3 from Kermit to Addesso; catastrophe blue at Addesso
+build y1 at Addesso
+capture g1 at Addesso
+sacrifice b2 at Pegasus; convert y1 to r1 at Addesso; convert y1 to r1 at Addesso
+sacrifice r2 at Oscar; capture r1 at Addesso; capture r1 at Addesso

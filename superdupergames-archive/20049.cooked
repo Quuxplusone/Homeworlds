@@ -1,0 +1,48 @@
+Adambadura (0, g3b2) y3-
+Goulo (1, r1b2) -g3
+build y1 at Adambadura
+build g1 at Goulo
+build y1 at Adambadura
+convert g1 to y1 at Goulo
+convert y1 to r1 at Adambadura
+build g1 at Goulo
+convert y1 to g1 at Adambadura
+convert g1 to r1 at Goulo
+build y1 at Adambadura
+build r2 at Goulo
+build r2 at Adambadura
+convert r1 to g1 at Goulo
+move y1 from Adambadura to Drydocks (g1)
+move g1 from Goulo to Citronego (y3)
+move r2 from Adambadura to Drydocks
+move r2 from Goulo to Citronego
+build g2 at Adambadura
+build g2 at Goulo
+move g2 from Adambadura to Outpost (y1)
+sacrifice g3 at Goulo; build g2 at Goulo; build g3 at Goulo; build g3 at Citronego
+build y2 at Adambadura
+move g2 from Goulo to Bananego (y3)
+build y2 at Drydocks
+build y2 at Goulo
+build r1 at Adambadura
+move g3 from Citronego to Drydocks
+sacrifice y2 at Drydocks; move y1 from Drydocks to Transformers (b3); move r2 from Drydocks to Transformers
+sacrifice y1 at Goulo; move g1 from Citronego to Safireto (b1)
+move g2 from Outpost to Transformers
+sacrifice g2 at Bananego; build g2 at Safireto; build y1 at Goulo
+build y1 at Transformers
+move y2 from Goulo to Rubenego (r3)
+move g1 from Adambadura to Changers (b1)
+sacrifice g3 at Goulo; build g3 at Goulo; build y2 at Goulo; build y3 at Rubenego
+move y1 from Transformers to Changers
+move y2 from Rubenego to Drydocks
+move g1 from Changers to Bunker (r3)
+move g2 from Goulo to Bunker
+sacrifice g1 at Bunker; build g1 at Transformers
+move g3 from Drydocks to Adambadura
+capture g3 at Adambadura
+sacrifice y2 at Goulo; move g1 from Safireto to Adambadura; move g2 from Safireto to Adambadura; catastrophe green at Adambadura
+move r1 from Adambadura to Shipyard (g3)
+build y2 at Goulo
+sacrifice g2 at Transformers; build r2 at Transformers; build r3 at Shipyard
+move y3 from Rubenego to Adambadura

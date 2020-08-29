@@ -1,0 +1,43 @@
+Twoshort (0, r1b2) g3-
+Agentofchaos (1, b3r2) -g3
+build g1 at Twoshort
+build g1 at Agentofchaos
+convert g1 to y1 at Twoshort
+build g1 at Agentofchaos
+build y1 at Twoshort
+convert g1 to y1 at Agentofchaos
+build y2 at Twoshort
+build y2 at Agentofchaos
+move y1 from Twoshort to Grognard (g3)
+build y2 at Agentofchaos
+build y3 at Grognard
+build g1 at Agentofchaos
+move y2 from Twoshort to Bluestar (b3)
+move y2 from Agentofchaos to Agrajag (b1)
+sacrifice g3 at Twoshort; build y3 at Twoshort; build y3 at Bluestar
+move y1 from Agentofchaos to Kakrafoon (b1)
+convert y1 to g1 at Twoshort
+move g1 from Agentofchaos to Kakrafoon
+convert y2 to r2 at Bluestar
+build g2 at Kakrafoon
+move y3 from Bluestar to Kakrafoon
+move g2 from Kakrafoon to Grognard
+sacrifice r2 at Bluestar; capture g2 at Grognard; capture g1 at Kakrafoon
+move g1 from Agentofchaos to Agrajag
+sacrifice g2 at Grognard; build g2 at Kakrafoon; build g2 at Twoshort
+move y2 from Agrajag to Grognard
+move y3 from Grognard to Agrajag
+convert g1 to y1 at Agrajag
+convert g2 to r2 at Kakrafoon
+build y2 at Grognard
+capture y1 at Kakrafoon
+convert y2 to r2 at Agentofchaos
+build r1 at Kakrafoon
+convert r2 to y2 at Agentofchaos
+move y1 from Kakrafoon to Grognard; catastrophe yellow at Grognard
+convert y1 to r1 at Agrajag
+convert y3 to b3 at Agrajag
+build g1 at Agentofchaos
+sacrifice y3 at Twoshort; move y3 from Kakrafoon to Agentofchaos; move b3 from Agrajag to Agentofchaos; move g1 from Kakrafoon to Agentofchaos
+convert g1 to y1 at Agentofchaos
+sacrifice r2 at Kakrafoon; capture g3 at Agentofchaos; capture y2 at Agentofchaos

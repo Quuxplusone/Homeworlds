@@ -1,0 +1,36 @@
+Steele (0, b3g2) y3-
+Ladybugsfly (1, y3b1) -g3
+build y1 at Steele
+build g1 at Ladybugsfly
+convert y1 to g1 at Steele
+move g1 from Ladybugsfly to Diglett (b2)
+build y1 at Steele
+convert g1 to y1 at Diglett
+convert y1 to r1 at Steele
+build g1 at Ladybugsfly
+build y1 at Steele
+move g1 from Ladybugsfly to Diglett
+move g1 from Steele to Alpha (y1)
+build y2 at Diglett
+build g1 at Alpha
+build g2 at Ladybugsfly
+move g1 from Alpha to Beta (y2)
+convert g2 to r2 at Ladybugsfly
+build g2 at Beta
+move y2 from Diglett to Dugtrio (r1)
+move g1 from Alpha to Gamma (b2)
+sacrifice g3 at Ladybugsfly; build y1 at Diglett; build y2 at Diglett; build y3 at Dugtrio
+convert y1 to r1 at Steele
+sacrifice y2 at Diglett; move y3 from Dugtrio to Steele; move y2 from Dugtrio to Steele
+convert y3 to g3 at Steele
+convert y3 to g3 at Steele
+convert g3 to b3 at Steele
+convert g3 to b3 at Steele
+sacrifice b3 at Steele; convert g1 to r1 at Beta; convert g2 to r2 at Beta; convert r1 to y1 at Steele
+move g1 from Diglett to Ladybugsfly
+build r1 at Steele
+build r2 at Ladybugsfly
+build y2 at Steele
+convert b3 to r3 at Steele
+build r3 at Steele; catastrophe red at Steele
+build y3 at Steele; catastrophe yellow at Steele

@@ -1,0 +1,35 @@
+Stoneaxe (0, r3b2) g3-
+Kawotan (1, g2b1) -y3
+build g1 at Stoneaxe
+build y1 at Kawotan
+convert g1 to y1 at Stoneaxe
+convert y3 to r3 at Kawotan
+build g1 at Stoneaxe
+build y1 at Kawotan
+build y2 at Stoneaxe
+build r1 at Kawotan
+build y2 at Stoneaxe
+build y2 at Kawotan
+move y2 from Stoneaxe to Jupiter (g1)
+move y1 from Kawotan to Saturn (r3)
+sacrifice g3 at Stoneaxe; build y3 at Stoneaxe; build y3 at Jupiter; build g1 at Stoneaxe
+build y3 at Kawotan
+move y3 from Jupiter to Saturn
+move y3 from Kawotan to Pluto (b3)
+move y1 from Stoneaxe to Jupiter
+convert y3 to g3 at Pluto
+build y3 at Stoneaxe
+move r3 from Kawotan to Saturn
+capture r3 at Saturn
+build g2 at Pluto
+move r3 from Saturn to Kawotan
+build r1 at Kawotan
+capture y2 at Kawotan
+sacrifice g3 at Pluto; build r1 at Kawotan; build r2 at Kawotan; build r2 at Kawotan
+capture r2 at Kawotan
+capture y2 at Kawotan
+sacrifice r2 at Kawotan; capture r2 at Kawotan; capture y2 at Kawotan
+sacrifice g2 at Pluto; build r2 at Kawotan; build r2 at Kawotan
+move r3 from Kawotan to Saturn; catastrophe red at Kawotan
+convert y1 to r1 at Kawotan
+sacrifice r3 at Saturn; capture r1 at Kawotan; capture y1 at Saturn

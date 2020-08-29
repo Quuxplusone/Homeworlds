@@ -1,0 +1,27 @@
+Fogus (0, b1y2) g3-
+Aristos (1, g3b1) -y3
+build g1 at Fogus
+build y1 at Aristos
+convert g1 to y1 at Fogus
+convert y1 to b1 at Aristos
+build g1 at Fogus
+build b2 at Aristos
+build y1 at Fogus
+move b2 from Aristos to Boing (g2)
+build g1 at Fogus
+build b2 at Boing
+convert y1 to r1 at Fogus
+build b2 at Aristos
+move g1 from Fogus to Kismet (b3)
+build b3 at Boing
+build y1 at Fogus
+move b1 from Aristos to Pop (r2)
+build g1 at Kismet
+convert b2 to y2 at Boing
+build g2 at Fogus
+sacrifice y3 at Aristos; move y2 from Boing to Kismet; move y2 from Kismet to Fogus; move b2 from Boing to Whack (g3); catastrophe yellow at Fogus
+convert g2 to y2 at Fogus
+build b2 at Aristos
+convert g3 to r3 at Fogus
+sacrifice b2 at Aristos; convert b3 to r3 at Boing; convert b2 to y2 at Whack
+sacrifice y2 at Fogus; move r3 from Fogus to Pop; move r3 from Pop to Aristos

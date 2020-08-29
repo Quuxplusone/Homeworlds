@@ -1,0 +1,43 @@
+Babamots (0, b2r1) g3-
+Draw5Playall (1, b3r2) -g3
+build g1 at Babamots
+build g1 at Draw5Playall
+convert g1 to y1 at Babamots
+convert g1 to y1 at Draw5Playall
+build g1 at Babamots
+build g1 at Draw5Playall
+convert g1 to r1 at Babamots
+convert g1 to r1 at Draw5Playall
+build r2 at Babamots
+move r1 from Draw5Playall to Build (g1)
+convert r1 to b1 at Babamots
+build g1 at Draw5Playall
+build b1 at Babamots
+convert g1 to b1 at Draw5Playall
+move b1 from Babamots to Risa (g3)
+build b2 at Draw5Playall
+build b2 at Risa
+move b1 from Draw5Playall to Build
+convert b2 to y2 at Risa
+move b2 from Draw5Playall to Build
+build b2 at Risa
+convert b2 to y2 at Build
+move b2 from Risa to Iconia (y1)
+build y2 at Draw5Playall
+sacrifice g3 at Babamots; build y3 at Risa; build y3 at Babamots; build y3 at Babamots
+sacrifice y2 at Draw5Playall; move y2 from Build to Risa; move y2 from Risa to Babamots; catastrophe yellow at Babamots
+convert y3 to g3 at Risa
+build y1 at Draw5Playall
+sacrifice g3 at Risa; build b2 at Risa; build b3 at Iconia; build b3 at Babamots
+move y1 from Draw5Playall to Construct (g1)
+move b2 from Risa to Build
+build y2 at Construct
+sacrifice r2 at Babamots; capture b1 at Build; capture r1 at Build
+move y1 from Construct to Desperation (g2)
+build r1 at Build
+sacrifice g3 at Draw5Playall; build y2 at Desperation; build y3 at Draw5Playall; build y3 at Construct
+convert b3 to y3 at Babamots
+convert y1 to g1 at Draw5Playall
+build r2 at Build
+build g2 at Draw5Playall
+move b3 from Iconia to Draw5Playall

@@ -1,0 +1,23 @@
+Twoshort (0, g2y1) b3-
+Laurie_Menke (1, y3b2) -g3
+build b1 at Twoshort
+build g1 at Laurie_Menke
+build b1 at Twoshort
+convert g3 to r3 at Laurie_Menke
+move b1 from Twoshort to Yellonia (y3)
+build g1 at Laurie_Menke
+move b1 from Twoshort to Zilla (g3)
+build g1 at Laurie_Menke
+build b1 at Twoshort
+convert g1 to y1 at Laurie_Menke
+build b2 at Zilla
+build g1 at Laurie_Menke
+build b2 at Twoshort
+build y1 at Laurie_Menke
+convert b2 to g2 at Twoshort
+build y2 at Laurie_Menke
+sacrifice g2 at Twoshort; build b2 at Yellonia; build b3 at Yellonia; catastrophe yellow at Laurie_Menke
+convert g1 to y1 at Laurie_Menke
+convert b3 to y3 at Yellonia
+move g1 from Laurie_Menke to Why_Not (y1)
+sacrifice y3 at Yellonia; move b2 from Yellonia to Laurie_Menke; move b1 from Yellonia to Laurie_Menke; move b1 from Zilla to Laurie_Menke; catastrophe blue at Laurie_Menke

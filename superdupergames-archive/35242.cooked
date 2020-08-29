@@ -1,0 +1,104 @@
+Simon (0, g3r1) b3-
+Wil (1, y1b2) -g3
+build b1 at Simon
+build g1 at Wil
+convert b1 to y1 at Simon
+convert g1 to r1 at Wil
+build y1 at Simon
+build r1 at Wil
+build y2 at Simon
+build r2 at Wil
+convert y2 to r2 at Simon
+convert r1 to b1 at Wil
+build y2 at Simon
+convert r2 to y2 at Wil
+move y1 from Simon to G2 (g2)
+move y2 from Wil to G3 (g3)
+move y2 from Simon to B2 (b2)
+move b1 from Wil to G3
+build b1 at Simon
+build g1 at Wil
+convert b1 to g1 at Simon
+build b1 at G3
+move g1 from Simon to B2
+move g1 from Wil to Y3 (y3)
+build y2 at Simon
+build y3 at G3
+build y3 at B2
+move y2 from G3 to Be2 (b2)
+move y2 from B2 to Y3
+move g1 from Y3 to Be2
+build g1 at B2
+build g2 at Wil
+build g2 at B2
+sacrifice g3 at Wil; build g3 at Wil; build r1 at Wil; build r2 at Wil
+convert g2 to r2 at B2
+sacrifice r1 at Wil
+build g2 at B2
+move r2 from Wil to G3
+move g2 from B2 to Y3
+sacrifice g3 at Wil; build g3 at Wil; build r1 at G3; build r3 at Wil
+build r3 at B2
+move r3 from Wil to Y3
+sacrifice y3 at B2; move g2 from Y3 to Wil; move g1 from B2 to Y3; move g1 from Y3 to Wil; catastrophe green at Wil
+sacrifice y3 at G3; move r2 from G3 to B2; move r1 from G3 to B2; move r3 from Y3 to Wil; catastrophe red at B2
+build y3 at G2
+build y3 at Be2
+move y3 from G2 to G3
+convert r3 to g3 at Wil
+move r2 from Simon to B2
+sacrifice y2 at Be2; move b1 from G3 to Gee2 (g2); move b1 from G3 to Gtoo (g2)
+build y2 at G3
+build g1 at Wil
+build r1 at B2
+sacrifice g3 at Wil; build g3 at Wil; build b1 at Gee2; build b3 at Gtoo
+move y3 from G3 to Gee2
+build b3 at Gtoo
+sacrifice r2 at B2; capture b1 at Gee2; capture b1 at Gee2
+convert b3 to r3 at Gtoo
+build r2 at B2
+build r2 at Wil
+build b3 at Gee2
+build r2 at Wil
+move b3 from Gee2 to G3
+build r3 at Gtoo
+build r3 at B2
+sacrifice y3 at Be2; move r3 from Gtoo to G3; move r1 from Wil to G3; move r1 from G3 to B2; catastrophe red at B2
+build y3 at Gee2
+sacrifice r2 at Wil; capture y2 at G3; capture b3 at G3
+convert y2 to r2 at Simon
+build y2 at G3
+move y3 from Gee2 to R3 (r3)
+sacrifice g3 at Wil; build g3 at Wil; build r1 at Gtoo; build r1 at G3
+move r2 from Simon to Gee2
+build r2 at Wil
+move b1 from Gee2 to R3
+move y2 from G3 to Gtoo
+move b1 from Gee2 to Y3
+move b3 from Gtoo to Y3
+move b1 from Y3 to Wil
+capture b1 at Wil
+sacrifice g1 at B2; build b2 at R3
+move b1 from Wil to R3
+convert b1 to g1 at R3
+move b3 from G3 to G2
+move y1 from G2 to R3
+build b1 at Gtoo
+move y2 from Y3 to Be2
+move g1 from Wil to Y3
+capture b1 at R3
+move r2 from Wil to Y3
+pass
+move r2 from Y3 to G2
+pass
+move g1 from Y3 to G2
+pass
+move r1 from G3 to G2
+move y2 from Be2 to Simon
+move r1 from Gtoo to Simon
+capture r1 at Simon
+sacrifice y2 at Gtoo; move r1 from G2 to Simon; move r2 from G2 to Simon; catastrophe red at Simon
+sacrifice y3 at Gee2; move y1 from R3 to Wil; move y1 from Simon to Wil; move y2 from Simon to Wil; catastrophe yellow at Wil
+convert r3 to y3 at Gtoo
+convert b3 to r3 at Simon
+sacrifice y3 at Gtoo; move g3 from Wil to Simon; move g1 from Be2 to Simon; move g1 from G2 to Simon; catastrophe green at Simon

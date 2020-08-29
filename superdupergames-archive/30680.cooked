@@ -1,0 +1,28 @@
+Agents17 (0, r2b1) g3-
+Felix (1, b1g3) -b3
+build g1 at Agents17
+build b1 at Felix
+build g1 at Agents17
+convert b3 to y3 at Felix
+convert g1 to y1 at Agents17
+build b2 at Felix
+move g1 from Agents17 to Alpha (b3)
+convert b2 to g2 at Felix
+build g1 at Agents17
+build b2 at Felix
+build g1 at Alpha
+convert b2 to r2 at Felix
+move g1 from Agents17 to Beta (b3)
+build b2 at Felix
+build g2 at Agents17
+move g2 from Felix to Omega (b2)
+move g2 from Agents17 to Gamma (b3)
+build y1 at Felix
+build y1 at Agents17
+convert y3 to g3 at Felix
+move y1 from Agents17 to Alpha
+build g2 at Omega
+build y2 at Alpha
+move b2 from Felix to Omega
+convert y2 to b2 at Alpha
+build y2 at Felix

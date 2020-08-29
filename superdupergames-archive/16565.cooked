@@ -1,0 +1,65 @@
+Zackstack (0, r1b2) g3-
+Silenttitan (1, b2g3) -r3
+build g1 at Zackstack
+build r1 at Silenttitan
+convert g1 to r1 at Zackstack
+build r2 at Silenttitan
+build r2 at Zackstack
+convert r2 to y2 at Silenttitan
+convert r2 to y2 at Zackstack
+move r1 from Silenttitan to Sol (y1)
+move r1 from Zackstack to Azure (b3)
+build r2 at Silenttitan
+build g1 at Zackstack
+convert r2 to g2 at Silenttitan
+move g1 from Zackstack to Azure
+sacrifice g2 at Silenttitan; build r2 at Sol; build r2 at Silenttitan
+build r2 at Azure
+move r2 from Sol to Sole (y3)
+convert r2 to y2 at Azure
+convert r2 to b2 at Silenttitan
+build r2 at Azure
+convert y2 to g2 at Silenttitan
+convert r2 to g2 at Azure
+sacrifice g2 at Silenttitan; build r2 at Sol; build b1 at Silenttitan
+convert g1 to b1 at Azure
+convert b2 to y2 at Silenttitan
+move b1 from Azure to Pea (g1)
+move b1 from Silenttitan to Sol
+build g1 at Zackstack
+convert r2 to g2 at Sol
+move g1 from Zackstack to Rojo (r3)
+sacrifice g2 at Sol; build b1 at Sol; build r2 at Sol
+build b2 at Pea
+move b1 from Sol to Soul (g3)
+convert b1 to y1 at Pea
+convert y2 to g2 at Silenttitan
+sacrifice g2 at Azure; build b1 at Pea; build b3 at Pea
+sacrifice g2 at Silenttitan; build b3 at Soul; build r2 at Sole
+sacrifice y2 at Zackstack; move b1 from Pea to Silenttitan; move b2 from Pea to Silenttitan
+sacrifice b3 at Soul; convert r2 to g2 at Sole; convert b1 to g1 at Soul; convert r2 to y2 at Sol
+build b1 at Silenttitan; catastrophe blue at Silenttitan
+build g2 at Sole
+convert b3 to r3 at Pea
+sacrifice y2 at Sol; move g1 from Soul to Zackstack; move g2 from Sole to Zackstack
+convert g3 to y3 at Zackstack
+convert g1 to y1 at Zackstack
+sacrifice r3 at Pea; capture y1 at Zackstack; capture g2 at Zackstack
+build r2 at Silenttitan
+move r1 from Azure to Pea
+sacrifice b1 at Sol; convert r2 to b2 at Silenttitan
+sacrifice g2 at Zackstack; build y2 at Pea; build y2 at Azure
+build r2 at Sole
+build r2 at Pea
+sacrifice g2 at Sole; build r3 at Sol; build b1 at Silenttitan
+build y3 at Pea
+move r3 from Sol to Azure
+sacrifice y2 at Azure; move y2 from Azure to Berry (b2); move r1 from Pea to Berry
+convert b2 to y2 at Silenttitan
+sacrifice g1 at Rojo; build r3 at Berry
+convert r3 to g3 at Silenttitan
+convert r1 to g1 at Berry
+convert r3 to g3 at Azure
+build g1 at Berry
+convert g3 to b3 at Silenttitan
+sacrifice y3 at Pea; move g1 from Berry to Silenttitan; move g1 from Berry to Silenttitan; move r3 from Berry to Silenttitan

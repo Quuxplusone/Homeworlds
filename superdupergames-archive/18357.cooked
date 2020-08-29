@@ -1,0 +1,71 @@
+Jesse (0, b3r1) g3-
+Epicfailguy (1, b1g2) -r3
+build g1 at Jesse
+build r1 at Epicfailguy
+convert g1 to r1 at Jesse
+convert r1 to y1 at Epicfailguy
+build g1 at Jesse
+build y1 at Epicfailguy
+convert g1 to y1 at Jesse
+build y2 at Epicfailguy
+build y2 at Jesse
+convert y1 to g1 at Epicfailguy
+build g1 at Jesse
+move g1 from Epicfailguy to Newfoundsystem (b3)
+move g1 from Jesse to Grover (b2)
+move y2 from Epicfailguy to Newfoundsystem
+move y2 from Jesse to Grover
+build y1 at Newfoundsystem
+move r1 from Jesse to Grover
+convert y2 to r2 at Newfoundsystem
+build y2 at Grover
+convert y1 to b1 at Epicfailguy
+convert y2 to b2 at Grover
+build r1 at Epicfailguy
+build r2 at Grover
+convert r3 to y3 at Epicfailguy
+move r1 from Grover to Oscar (g1)
+build g2 at Newfoundsystem
+build g2 at Jesse
+move g2 from Newfoundsystem to Starbright (y2)
+sacrifice g3 at Jesse; build g3 at Jesse; build g3 at Grover; build g3 at Grover
+move g1 from Newfoundsystem to Grover; catastrophe green at Grover
+move g2 from Jesse to Grover
+build r2 at Epicfailguy
+build r3 at Grover
+move r1 from Epicfailguy to Sol (y3)
+build r3 at Oscar
+build r3 at Epicfailguy
+build g1 at Jesse
+move r1 from Sol to Starbright
+move r3 from Grover to Newfoundsystem
+move r2 from Newfoundsystem to Starbright
+capture y1 at Newfoundsystem
+convert r2 to y2 at Epicfailguy
+sacrifice g3 at Jesse; build g1 at Grover; build g3 at Jesse; build y1 at Newfoundsystem
+build g3 at Starbright
+sacrifice g3 at Jesse; build g3 at Jesse; build y3 at Jesse; build y3 at Grover
+move y3 from Epicfailguy to Theisland (g3)
+move g1 from Grover to Newfoundsystem
+build r2 at Epicfailguy
+move y1 from Newfoundsystem to Oscar
+move g2 from Starbright to Theisland
+move b2 from Grover to Oscar
+move b1 from Epicfailguy to Theisland
+convert r3 to b3 at Oscar
+move r1 from Starbright to Theisland
+sacrifice g3 at Jesse; build g3 at Newfoundsystem; build r3 at Newfoundsystem
+build b1 at Theisland
+sacrifice y3 at Grover; move g3 from Newfoundsystem to Epicfailguy; move r3 from Newfoundsystem to Epicfailguy; move r3 from Newfoundsystem to Epicfailguy; catastrophe red at Epicfailguy
+sacrifice y3 at Theisland; move g2 from Theisland to Epicfailguy; move r1 from Theisland to Epicfailguy; move b1 from Theisland to Epicfailguy
+sacrifice g3 at Epicfailguy; build g3 at Newfoundsystem; build y3 at Newfoundsystem; build y3 at Grover
+build r2 at Starbright
+sacrifice g3 at Newfoundsystem; build g3 at Newfoundsystem; build r3 at Grover; build r3 at Oscar
+build r3 at Epicfailguy
+move r1 from Oscar to Newfoundsystem
+build b2 at Theisland
+move r3 from Oscar to Theisland
+pass
+sacrifice y3 at Grover; move r3 from Theisland to Epicfailguy; move r1 from Newfoundsystem to Epicfailguy; move g3 from Newfoundsystem to Epicfailguy; catastrophe red at Epicfailguy
+build y3 at Epicfailguy
+sacrifice r3 at Grover; capture y3 at Epicfailguy; capture y2 at Epicfailguy; capture g2 at Epicfailguy

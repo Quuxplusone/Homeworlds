@@ -1,0 +1,44 @@
+Felix (0, g2r1) b3-
+Endo (1, y1b3) -g3
+build b1 at Felix
+build g1 at Endo
+convert b1 to y1 at Felix
+convert g1 to y1 at Endo
+build y2 at Felix
+build y2 at Endo
+build y2 at Felix
+move y1 from Endo to Amc (g2)
+convert y1 to g1 at Felix
+sacrifice g3 at Endo; build y1 at Amc; build y3 at Endo; build y3 at Amc
+sacrifice y2 at Felix; move y2 from Felix to A1 (y3); move y2 from A1 to Amc; catastrophe yellow at Amc
+convert y3 to g3 at Endo
+build b1 at Felix
+build g1 at Endo
+convert b1 to y1 at Felix
+move g1 from Endo to Zorn (b2)
+move g1 from Felix to Kress (b3)
+build g1 at Endo
+build b1 at Felix
+build g2 at Endo
+convert b3 to g3 at Felix
+move g2 from Endo to Antichain (b2)
+build g2 at Kress
+build g3 at Zorn
+build y1 at Felix
+build y2 at Endo
+sacrifice y1 at Felix; move g1 from Kress to Bannermene (y2)
+sacrifice y2 at Endo; move g3 from Zorn to Kress; move g3 from Kress to Felix
+capture g3 at Felix
+sacrifice y2 at Endo; move g1 from Zorn to Kress; move g1 from Kress to Felix; catastrophe green at Felix
+move g1 from Bannermene to Felix
+build g1 at Antichain
+build g2 at Felix
+sacrifice g3 at Endo; build g3 at Endo; build g3 at Endo; build g3 at Antichain
+move g1 from Felix to Obelisk (y2)
+convert g1 to y1 at Endo
+build y2 at Felix
+convert g3 to r3 at Antichain
+move g2 from Felix to Obelisk
+convert g3 to r3 at Endo
+build g1 at Kress
+sacrifice y1 at Endo; move r3 from Antichain to Felix

@@ -1,0 +1,41 @@
+Twoshort (0, r1b2) g3-
+Zoltar (1, y3b1) -g3
+build g1 at Twoshort
+build g1 at Zoltar
+convert g3 to y3 at Twoshort
+convert g1 to y1 at Zoltar
+build g1 at Twoshort
+build y1 at Zoltar
+move g1 from Twoshort to Yoyodyne (y3)
+move y1 from Zoltar to Greenhills (g2)
+build g1 at Twoshort
+build g2 at Zoltar
+build g2 at Twoshort
+move g2 from Zoltar to Yellowstone (y2)
+build g3 at Yoyodyne
+build g3 at Yellowstone
+move g1 from Twoshort to Volyova (b3)
+sacrifice g3 at Yellowstone; build g3 at Yellowstone; build y1 at Greenhills; build y2 at Zoltar
+sacrifice g1 at Yoyodyne; build y2 at Twoshort
+convert y1 to r1 at Zoltar
+convert g2 to r2 at Twoshort
+move r1 from Zoltar to Yellowstone
+build g1 at Volyova
+sacrifice g3 at Yellowstone; build g2 at Zoltar; build g3 at Yellowstone; build r1 at Yellowstone
+sacrifice y2 at Twoshort; move g1 from Volyova to Yellowstone; move g1 from Volyova to Yellowstone; catastrophe green at Yellowstone
+move g2 from Zoltar to Bananas (y2)
+build g1 at Yoyodyne
+move r1 from Yellowstone to Yoyodyne
+move r2 from Twoshort to Yoyodyne
+sacrifice g2 at Bananas; build r2 at Yoyodyne; build r2 at Yoyodyne; catastrophe red at Yoyodyne
+build g1 at Twoshort
+build g2 at Zoltar
+convert g1 to r1 at Twoshort
+move g2 from Zoltar to Bananas (y2)
+move g1 from Yoyodyne to Illia (b2)
+build y1 at Zoltar
+build g1 at Yoyodyne
+build g2 at Zoltar
+sacrifice g3 at Yoyodyne; build g3 at Twoshort; build g3 at Illia
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Yellowstone; build r2 at Yellowstone
+sacrifice g1 at Yoyodyne; build y3 at Twoshort

@@ -1,0 +1,17 @@
+Cinnibar (0, b3g1) y3-
+Magni (1, y2b1) -g3
+build y1 at Cinnibar
+build g1 at Magni
+build y1 at Cinnibar
+convert g1 to y1 at Magni
+move y1 from Cinnibar to Vivat (g2)
+build g1 at Magni
+build y2 at Vivat
+build g1 at Magni
+build y2 at Cinnibar
+move g1 from Magni to Void (y3)
+build y3 at Vivat
+move y1 from Magni to Fire (r3)
+move y2 from Vivat to Fire
+move g1 from Magni to Water (b3)
+capture y1 at Fire

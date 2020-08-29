@@ -1,0 +1,60 @@
+Speardane (0, y2b3) g3-
+Felix (1, b2y3) -g3
+build g1 at Speardane
+build g1 at Felix
+convert g3 to r3 at Speardane
+convert g1 to b1 at Felix
+build g1 at Speardane
+build b1 at Felix
+move g1 from Speardane to Delos (b1)
+move b1 from Felix to Route (y1)
+build g1 at Delos
+build b2 at Felix
+convert g1 to y1 at Delos
+move b2 from Felix to Leet (r1)
+build g1 at Delos
+sacrifice g3 at Felix; build b2 at Route; build b3 at Felix; build b3 at Leet
+build g2 at Delos
+convert b3 to g3 at Felix
+move g2 from Delos to Lebling (b3)
+convert b3 to g3 at Leet
+move g1 from Delos to Kotok (b3)
+build g2 at Felix
+build g2 at Kotok
+build g3 at Leet
+convert g2 to y2 at Kotok
+convert g2 to r2 at Felix
+build g2 at Lebling
+convert g3 to y3 at Leet
+convert g2 to y2 at Lebling
+move r2 from Felix to Delos
+sacrifice g2 at Lebling; build y1 at Lebling; build y3 at Delos
+capture y1 at Delos
+convert y2 to r2 at Lebling
+sacrifice y1 at Delos; move r2 from Delos to Felix
+build y1 at Kotok
+build r1 at Felix
+convert y1 to r1 at Kotok
+move g3 from Leet to Kotok
+sacrifice y2 at Kotok; move r1 from Kotok to Minsky (y1); move g1 from Kotok to Minsky
+build g2 at Kotok
+sacrifice g1 at Minsky; build r2 at Minsky
+convert g3 to r3 at Kotok
+build r3 at Speardane
+sacrifice g2 at Kotok; build g1 at Felix; build y2 at Leet
+move r3 from Speardane to Route
+sacrifice y2 at Leet; move b1 from Route to Speardane; move b2 from Route to Speardane
+capture b2 at Speardane
+move b2 from Leet to Speardane; catastrophe blue at Speardane
+convert r2 to g2 at Lebling
+move g1 from Felix to Leet
+build g2 at Lebling
+build y2 at Leet
+move g2 from Lebling to Route
+move y3 from Leet to Lebling
+sacrifice y1 at Lebling; move g2 from Lebling to Minsky
+build y1 at Leet
+move r2 from Minsky to Licklider (b3)
+build y2 at Leet
+pass
+sacrifice y3 at Lebling; move y1 from Leet to Speardane; move y2 from Leet to Speardane; move y2 from Leet to Speardane; catastrophe yellow at Speardane

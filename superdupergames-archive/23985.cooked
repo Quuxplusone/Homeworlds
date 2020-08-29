@@ -1,0 +1,64 @@
+Agentofchaos (0, b1r2) g3-
+Ajo (1, r1b2) -g3
+build g1 at Agentofchaos
+build g1 at Ajo
+convert g1 to y1 at Agentofchaos
+convert g3 to y3 at Ajo
+move y1 from Agentofchaos to Ghostar (g3)
+build g1 at Ajo
+build g1 at Agentofchaos
+build g2 at Ajo
+convert g1 to r1 at Agentofchaos
+move g2 from Ajo to Central (b3)
+build r1 at Agentofchaos
+build y1 at Ajo
+convert r1 to y1 at Agentofchaos
+move y1 from Ajo to Central
+build y2 at Ghostar
+build y2 at Central
+build y2 at Agentofchaos
+convert y1 to r1 at Central
+move r1 from Agentofchaos to Ghostar
+build r2 at Central
+build r2 at Ghostar
+convert r1 to b1 at Central
+convert y1 to b1 at Agentofchaos
+build y1 at Central
+move b1 from Agentofchaos to Ghostar
+move b1 from Central to Alpha (g2)
+build b2 at Ghostar
+build b2 at Alpha
+move b2 from Ghostar to Firencola (g2)
+sacrifice y1 at Central; move b1 from Alpha to Beta (g3)
+build b3 at Firencola
+build b3 at Beta
+sacrifice y2 at Ghostar; move b3 from Firencola to Beta; move b2 from Firencola to Beta; catastrophe blue at Beta
+build r1 at Central
+build b1 at Ghostar
+build b2 at Alpha
+build b3 at Ghostar
+sacrifice y2 at Central; move r1 from Central to Alpha; move b2 from Alpha to Ghostar; catastrophe blue at Ghostar
+build r3 at Ghostar
+sacrifice g2 at Central; build r3 at Central; build r3 at Alpha
+build y1 at Agentofchaos
+sacrifice y3 at Ajo; move r1 from Alpha to Ghostar; move b2 from Alpha to Ghostar; move r3 from Central to Ajo; catastrophe red at Ghostar
+move y1 from Ghostar to Hadeon (g2)
+build r1 at Ajo
+convert y2 to r2 at Agentofchaos
+convert r3 to y3 at Ajo
+move r2 from Agentofchaos to Ergovore (y3)
+move g1 from Ajo to Central
+build y1 at Agentofchaos
+build y2 at Ajo
+build y2 at Hadeon
+build b1 at Ghostar
+build g1 at Agentofchaos
+build g2 at Central
+move g1 from Agentofchaos to Ergovore
+build g3 at Ajo
+build y2 at Hadeon
+move y2 from Ajo to Central
+move y2 from Hadeon to Agrajag (y3)
+convert g1 to b1 at Central
+build g1 at Ergovore
+move g3 from Ajo to Ergovore

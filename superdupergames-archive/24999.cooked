@@ -1,0 +1,30 @@
+Sleepinggreenideas (0, g1y3) b3-
+Silenttitan (1, r1b2) -g3
+build b1 at Sleepinggreenideas
+build g1 at Silenttitan
+build b1 at Sleepinggreenideas
+convert g1 to y1 at Silenttitan
+move b1 from Sleepinggreenideas to Alpha (g2)
+build y1 at Silenttitan
+convert b1 to g1 at Sleepinggreenideas
+build y1 at Silenttitan
+build b1 at Sleepinggreenideas
+move y1 from Silenttitan to Sol (b3)
+build b1 at Alpha
+build g1 at Silenttitan
+build b2 at Alpha
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Sol; build y2 at Silenttitan
+convert b1 to r1 at Alpha
+move y2 from Sol to Soul (g2)
+convert b3 to r3 at Sleepinggreenideas
+move y1 from Silenttitan to Sole (g3)
+build b1 at Alpha
+build y3 at Silenttitan
+build b2 at Sleepinggreenideas
+build y3 at Sole
+build b3 at Sleepinggreenideas
+move y1 from Sole to Tic (g2)
+convert b2 to r2 at Alpha
+build g3 at Silenttitan
+convert b3 to g3 at Sleepinggreenideas
+sacrifice y3 at Sole; move g1 from Silenttitan to Sol; move g1 from Sol to Tic; move g1 from Tic to Sleepinggreenideas; catastrophe green at Sleepinggreenideas

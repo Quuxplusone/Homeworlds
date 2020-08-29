@@ -1,0 +1,15 @@
+Draw5Playall (0, b3r1) g3-
+Deanthebean (1, r1b2) -g3
+build g1 at Draw5Playall
+build g1 at Deanthebean
+convert g1 to r1 at Draw5Playall
+build g1 at Deanthebean
+build r2 at Draw5Playall
+convert g3 to r3 at Deanthebean
+convert r2 to y2 at Draw5Playall
+convert g1 to y1 at Deanthebean
+move r1 from Draw5Playall to Rocket (g2)
+convert r3 to g3 at Deanthebean
+build r2 at Rocket
+build y1 at Deanthebean
+build r2 at Rocket

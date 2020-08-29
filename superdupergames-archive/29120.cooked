@@ -1,0 +1,65 @@
+Felix (0, y3b1) g3-
+Wil (1, y3b2) -g3
+build g1 at Felix
+build g1 at Wil
+convert g1 to b1 at Felix
+convert g1 to b1 at Wil
+build b2 at Felix
+build b2 at Wil
+move b1 from Felix to Cintas (g2)
+convert b1 to y1 at Wil
+build g1 at Felix
+build y1 at Wil
+convert g1 to y1 at Felix
+convert y1 to r1 at Wil
+build g1 at Felix
+move b2 from Wil to G1 (g1)
+convert b2 to r2 at Felix
+build r1 at Wil
+move g1 from Felix to Efrit (b2)
+move y1 from Wil to G1
+move r2 from Felix to Efrit
+move b2 from G1 to Cintas
+build b1 at Cintas
+convert b2 to r2 at Cintas
+build g1 at Felix
+capture b1 at Cintas
+build b2 at Cintas
+capture b2 at Cintas
+build b3 at Cintas
+build g2 at Wil; catastrophe blue at Cintas
+sacrifice g3 at Felix; build g2 at Efrit; build g3 at Efrit; build g3 at Felix
+sacrifice g3 at Wil; build g3 at Wil; build y1 at G1; build y2 at G1
+convert g2 to y2 at Efrit
+sacrifice y2 at G1; move y1 from G1 to Cintas; move y1 from G1 to B2 (b2)
+build y2 at Efrit
+sacrifice g2 at Wil; build y2 at Cintas; build y3 at B2
+sacrifice y2 at Efrit; move g3 from Efrit to Felix; move g3 from Felix to Cintas
+sacrifice y2 at Cintas; move y1 from Cintas to Felix; move y1 from B2 to Felix; catastrophe yellow at Felix
+convert g1 to r1 at Felix
+move r1 from Wil to Y1 (y1)
+sacrifice r1 at Felix; capture r2 at Cintas
+build g1 at Wil
+build g1 at Efrit
+move g1 from Wil to Why1 (y1)
+move r2 from Efrit to Why1
+build g2 at Wil
+capture g1 at Why1
+move y3 from B2 to Why1
+build g2 at Why1
+move g2 from Wil to Y1
+move y2 from Efrit to Why1
+move y3 from Why1 to Efrit
+convert g1 to y1 at Efrit
+sacrifice r1 at Y1; capture g1 at Efrit
+sacrifice g2 at Why1; build y2 at Efrit; build y2 at Efrit; catastrophe yellow at Efrit
+build g1 at Wil
+sacrifice g3 at Cintas; build g2 at Felix; build g3 at Why1; build y1 at Why1
+convert g3 to y3 at Wil
+convert g2 to y2 at Felix
+build r1 at Wil
+sacrifice y2 at Felix; move y1 from Why1 to Wil; move y2 from Why1 to Wil; catastrophe yellow at Wil
+build g2 at Wil
+move g3 from Why1 to Wil
+sacrifice g2 at Y1; build g2 at Wil; build g3 at Efrit; catastrophe green at Wil
+move r2 from Why1 to Wil

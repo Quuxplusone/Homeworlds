@@ -1,0 +1,35 @@
+Andylooney (0, b1g2) y3-
+Aaron (1, r2y3) -g3
+build y1 at Andylooney
+build g1 at Aaron
+convert y1 to g1 at Andylooney
+move g1 from Aaron to Sea (b1)
+move g1 from Andylooney to Clampett (y3)
+build g1 at Sea
+build g2 at Clampett
+convert g1 to y1 at Sea
+build y1 at Andylooney
+build y1 at Sea
+move y1 from Andylooney to Paradise (g3)
+convert y1 to r1 at Sea
+build y1 at Andylooney
+move r1 from Sea to Paradise
+move y1 from Paradise to Bluedoor (b1)
+build y2 at Sea
+convert y1 to r1 at Andylooney
+move y1 from Sea to Paradise
+move g1 from Clampett to Bluedoor
+move r1 from Paradise to Bluedoor
+sacrifice r1 at Andylooney; capture r1 at Bluedoor
+move y1 from Paradise to Sea
+build y1 at Bluedoor
+build y2 at Sea
+move y1 from Bluedoor to Emerald (g3)
+move y2 from Sea to Forest (g3)
+build y2 at Bluedoor
+convert y1 to r1 at Sea
+sacrifice g2 at Clampett; build y1 at Andylooney; build y3 at Emerald
+build r1 at Sea
+build r2 at Bluedoor
+move r1 from Sea to Forest
+move y3 from Emerald to Sea

@@ -1,0 +1,47 @@
+Teeteetee (0, b1y2) g3-
+Wil (1, b3y1) -g3
+build g1 at Teeteetee
+build g1 at Wil
+convert g1 to y1 at Teeteetee
+convert g1 to y1 at Wil
+build y2 at Teeteetee
+build y2 at Wil
+move y1 from Teeteetee to Hammerfall (g3)
+move y1 from Wil to G2 (g2)
+build y3 at Hammerfall
+build y3 at G2
+move y3 from Hammerfall to Avantasia (b2)
+move y1 from G2 to Y3 (y3)
+convert y2 to g2 at Teeteetee
+convert y2 to r2 at Wil
+sacrifice g2 at Teeteetee; build y2 at Hammerfall; build y2 at Avantasia
+build g1 at Wil
+convert y3 to r3 at Avantasia
+build y3 at G2
+sacrifice y2 at Avantasia; move y1 from Hammerfall to G2; move y2 from Hammerfall to G2; catastrophe yellow at G2
+convert g1 to y1 at Wil
+build g1 at Teeteetee
+build y2 at Wil
+convert g1 to r1 at Teeteetee
+move y2 from Wil to G2 (g2)
+convert r3 to y3 at Avantasia
+sacrifice g3 at Wil; build y2 at Y3; build y3 at Wil; build r1 at Wil
+move y3 from Avantasia to Wil; catastrophe yellow at Wil
+build y1 at G2
+build r1 at Teeteetee
+convert r2 to g2 at Wil
+move r1 from Teeteetee to Hevydevy (y3)
+build g1 at Wil
+build r2 at Teeteetee
+build r2 at Wil
+convert g3 to b3 at Teeteetee
+convert g1 to y1 at Wil
+move r1 from Teeteetee to Apocalyptica (y3)
+move r1 from Wil to Teeteetee
+capture r1 at Teeteetee
+build r2 at Wil
+convert r2 to g2 at Teeteetee
+move r2 from Wil to Teeteetee
+sacrifice r1 at Teeteetee; capture r2 at Teeteetee
+move y1 from Y3 to G2
+move b3 from Teeteetee to Wil

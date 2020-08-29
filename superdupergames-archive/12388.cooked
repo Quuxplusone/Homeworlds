@@ -1,0 +1,24 @@
+Agentofchaos (0, y1b2) g3-
+Twoshort (1, b3r1) -g3
+build g1 at Agentofchaos
+build g1 at Twoshort
+build g1 at Agentofchaos
+build g2 at Twoshort
+move g1 from Agentofchaos to Klingsor (y3)
+convert g1 to y1 at Twoshort
+build g1 at Klingsor
+move g2 from Twoshort to Yolonda (y2)
+move g1 from Klingsor to Odin (y1)
+build y2 at Twoshort
+build g2 at Klingsor
+move y1 from Twoshort to Grogar (g2)
+move g2 from Klingsor to Extensor (b1)
+build g3 at Twoshort
+convert g2 to y2 at Extensor
+sacrifice g3 at Twoshort; build g2 at Twoshort; build y3 at Twoshort; build y3 at Grogar
+build g3 at Klingsor
+convert g2 to r2 at Twoshort
+move g3 from Klingsor to Extensor
+sacrifice y2 at Twoshort; move y3 from Grogar to Klingsor; move y3 from Klingsor to Agentofchaos
+convert g3 to r3 at Agentofchaos
+sacrifice r2 at Twoshort; capture r3 at Agentofchaos; capture g1 at Agentofchaos

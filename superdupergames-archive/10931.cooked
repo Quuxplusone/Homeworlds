@@ -1,0 +1,12 @@
+Smilingra (0, b3r1) g3-
+Twoshort (1, b1y2) -g3
+build g1 at Smilingra
+build g1 at Twoshort
+convert g1 to y1 at Smilingra
+convert g1 to b1 at Twoshort
+build g1 at Smilingra
+build b1 at Twoshort
+move g1 from Smilingra to Beta (b2)
+move b1 from Twoshort to Grogar (g3)
+build g1 at Beta
+build b2 at Twoshort

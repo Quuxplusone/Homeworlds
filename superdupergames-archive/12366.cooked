@@ -1,0 +1,21 @@
+Twoshort (0, r1b3) g3-
+Apeloverage (1, b1g2) -y3
+build g1 at Twoshort
+build y1 at Apeloverage
+build g1 at Twoshort
+move y1 from Apeloverage to Apeloverage1 (b3)
+convert g1 to y1 at Twoshort
+convert y1 to g1 at Apeloverage1
+build y1 at Twoshort
+build y1 at Apeloverage
+build y2 at Twoshort
+move y3 from Apeloverage to Apeloverage2 (b3)
+move y1 from Twoshort to Grogar (g2)
+move y3 from Apeloverage2 to Apeloverage0 (b2)
+convert g1 to r1 at Twoshort
+convert y3 to r3 at Apeloverage0
+build y2 at Grogar
+build y2 at Apeloverage
+build y3 at Grogar
+build y3 at Apeloverage
+sacrifice y2 at Grogar; move y1 from Grogar to Bluebird (b3); move y1 from Bluebird to Apeloverage; catastrophe yellow at Apeloverage

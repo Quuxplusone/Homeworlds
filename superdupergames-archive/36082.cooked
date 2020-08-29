@@ -1,0 +1,60 @@
+Ts52 (0, y1b2) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Ts52
+build g1 at Draw5Playall
+convert g1 to y1 at Ts52
+convert g1 to y1 at Draw5Playall
+build y2 at Ts52
+build y2 at Draw5Playall
+move y1 from Ts52 to Kermit (g3)
+move y1 from Draw5Playall to Rocket (g2)
+build g1 at Ts52
+build g1 at Draw5Playall
+convert g1 to r1 at Ts52
+convert g1 to r1 at Draw5Playall
+build r2 at Ts52
+build r2 at Draw5Playall
+move r2 from Ts52 to Kermit
+move r2 from Draw5Playall to Rocket
+build g1 at Ts52
+build g1 at Draw5Playall
+convert g1 to b1 at Ts52
+convert g1 to b1 at Draw5Playall
+move b1 from Ts52 to Kermit
+move b1 from Draw5Playall to Rocket
+build g1 at Ts52
+build g1 at Draw5Playall
+move g1 from Ts52 to Gonzo (b3)
+move g1 from Draw5Playall to Jackpot (b2)
+move y2 from Ts52 to Gonzo
+move y2 from Draw5Playall to Jackpot
+build g1 at Ts52
+build g2 at Draw5Playall
+build b1 at Kermit
+build g2 at Jackpot
+sacrifice g3 at Ts52; build r2 at Kermit; build r3 at Ts52; build g3 at Ts52
+build r3 at Rocket
+move r3 from Ts52 to Gonzo
+move g2 from Jackpot to Countdown (r3)
+move r3 from Gonzo to Jackpot
+sacrifice y2 at Jackpot; move g1 from Jackpot to Taxation (b3); move r3 from Rocket to Gonzo
+move y2 from Gonzo to Jackpot
+sacrifice g2 at Countdown; build r3 at Rocket; build y2 at Rocket
+sacrifice y2 at Jackpot; move g1 from Gonzo to Jackpot; move r3 from Jackpot to Taxation
+move y2 from Rocket to Draw5Playall
+build y2 at Kermit
+move g2 from Draw5Playall to Jackpot
+capture g1 at Taxation
+convert g2 to y2 at Jackpot
+move y2 from Kermit to Robin (g2)
+sacrifice g3 at Draw5Playall; build y3 at Draw5Playall; build y3 at Rocket; build y3 at Jackpot
+move b1 from Kermit to Robin
+build b2 at Rocket
+sacrifice g3 at Ts52; build g2 at Taxation; build g3 at Ts52; build g3 at Ts52
+move y3 from Rocket to Kermit
+move r2 from Kermit to Robin
+sacrifice r2 at Rocket; capture g1 at Jackpot; capture r2 at Kermit
+move b1 from Kermit to Robin
+sacrifice y3 at Jackpot; move g1 from Jackpot to Gonzo; move g1 from Gonzo to Ts52; move r3 from Gonzo to Ts52; catastrophe green at Ts52
+sacrifice y1 at Kermit; move r3 from Taxation to Ts52
+sacrifice r2 at Kermit; capture r3 at Ts52; capture r1 at Ts52

@@ -1,0 +1,28 @@
+Headphoned (0, b3g2) y3-
+Jesse (1, g1b3) -y3
+build y1 at Headphoned
+build y1 at Jesse
+convert y1 to r1 at Headphoned
+convert y1 to r1 at Jesse
+build y1 at Headphoned
+build y1 at Jesse
+convert y1 to g1 at Headphoned
+convert y1 to g1 at Jesse
+build y1 at Headphoned
+build y1 at Jesse
+move y1 from Headphoned to Alcatraz (b1)
+move y1 from Jesse to Tomato (g2)
+move g1 from Headphoned to Phlebas (y1)
+move g1 from Jesse to Newt (b2)
+build y2 at Headphoned
+build y2 at Jesse
+convert y2 to b2 at Headphoned
+move y2 from Jesse to Newt
+build y2 at Headphoned
+convert y2 to r2 at Newt
+build g2 at Phlebas
+build g3 at Newt
+sacrifice y2 at Headphoned; move g2 from Phlebas to Newt; move g1 from Phlebas to Newt; catastrophe green at Newt
+convert r2 to g2 at Newt
+build b1 at Headphoned
+build g1 at Newt

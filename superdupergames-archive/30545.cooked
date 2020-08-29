@@ -1,0 +1,32 @@
+Ladybugsfly (0, g3b2) y3-
+Lordrefa (1, g3b1) -g3
+build y1 at Ladybugsfly
+build g1 at Lordrefa
+move y1 from Ladybugsfly to Frodo (g1)
+convert g1 to y1 at Lordrefa
+build y1 at Frodo
+build y2 at Lordrefa
+build y2 at Ladybugsfly
+move y2 from Lordrefa to Bilbo (g2)
+convert y2 to b2 at Ladybugsfly
+build y2 at Bilbo
+move b2 from Ladybugsfly to Frodo
+build y2 at Lordrefa
+build y3 at Ladybugsfly
+move y2 from Bilbo to Frodo
+convert y1 to r1 at Frodo
+move y2 from Frodo to Ladybugsfly
+convert y3 to r3 at Ladybugsfly
+sacrifice g3 at Lordrefa; build y1 at Ladybugsfly; build y3 at Ladybugsfly; build y3 at Bilbo; catastrophe yellow at Ladybugsfly
+build r1 at Ladybugsfly
+convert y2 to r2 at Lordrefa
+build b1 at Frodo
+move r2 from Lordrefa to Bilbo
+move b2 from Frodo to Gandalf (y2)
+move r2 from Bilbo to Frodo
+move b2 from Gandalf to Lordrefa
+move y3 from Bilbo to Lordrefa
+move b1 from Frodo to Gimli (y2)
+capture r1 at Frodo
+build b1 at Lordrefa
+sacrifice y2 at Bilbo; move r1 from Frodo to Ladybugsfly; move r2 from Frodo to Ladybugsfly; catastrophe red at Ladybugsfly

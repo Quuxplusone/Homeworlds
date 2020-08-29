@@ -1,0 +1,44 @@
+Mikeyarrum (0, b3y1) g3-
+Antihero (1, b2y3) -g3
+build g1 at Mikeyarrum
+build g1 at Antihero
+convert g1 to y1 at Mikeyarrum
+convert g1 to y1 at Antihero
+build y2 at Mikeyarrum
+build y2 at Antihero
+move y1 from Mikeyarrum to Kagura (g2)
+move y1 from Antihero to Greenie (g1)
+build g1 at Mikeyarrum
+build g1 at Antihero
+build g2 at Mikeyarrum
+build g2 at Antihero
+move g2 from Mikeyarrum to Boynamo (b2)
+convert g1 to r1 at Antihero
+convert g1 to r1 at Mikeyarrum
+move g2 from Antihero to Switch (b1)
+build g1 at Mikeyarrum
+move y1 from Greenie to Kagura
+build g1 at Boynamo
+build g1 at Switch
+convert g2 to r2 at Boynamo
+convert g1 to r1 at Switch
+build r2 at Boynamo
+build r2 at Switch
+build r3 at Mikeyarrum
+build r3 at Antihero
+move r3 from Mikeyarrum to Rachael (g2)
+sacrifice r1 at Antihero; capture y1 at Kagura
+move y2 from Mikeyarrum to Rachael
+move y2 from Antihero to Switch
+move r3 from Rachael to Chihiro (b1)
+build y2 at Kagura
+build y3 at Rachael
+build y3 at Switch
+sacrifice y2 at Rachael; move r2 from Boynamo to Switch; move r2 from Boynamo to Switch; catastrophe red at Switch
+move y1 from Kagura to Mikeyarrum
+build y2 at Rachael
+move y1 from Kagura to Mikeyarrum
+build r1 at Mikeyarrum
+move y2 from Kagura to Mikeyarrum; catastrophe yellow at Mikeyarrum
+move y3 from Rachael to Mikeyarrum
+build r1 at Antihero

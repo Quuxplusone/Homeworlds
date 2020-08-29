@@ -1,0 +1,29 @@
+Mikeyarrum (0, b3r2) g3-
+Dadrk (1, g2b3) -r3
+build g1 at Mikeyarrum
+build r1 at Dadrk
+build g1 at Mikeyarrum
+convert r1 to y1 at Dadrk
+convert g1 to y1 at Mikeyarrum
+move y1 from Dadrk to Frstyi (g1)
+build g1 at Mikeyarrum
+build y1 at Frstyi
+build y2 at Mikeyarrum
+build r1 at Dadrk
+move g1 from Mikeyarrum to Nyamo (b1)
+convert r1 to b1 at Dadrk
+build g2 at Nyamo
+move y1 from Frstyi to Scnd (g2)
+sacrifice g3 at Mikeyarrum; build g3 at Nyamo; build g3 at Mikeyarrum; build g3 at Mikeyarrum
+build y2 at Scnd
+convert g1 to r1 at Nyamo
+convert b1 to g1 at Dadrk
+move g3 from Mikeyarrum to Yukari (b1)
+build r1 at Dadrk
+build r1 at Nyamo
+move y1 from Scnd to Frstyi
+sacrifice y2 at Mikeyarrum; move r1 from Nyamo to Dadrk; move r1 from Nyamo to Dadrk; catastrophe red at Dadrk
+convert g1 to r1 at Dadrk
+convert g3 to r3 at Nyamo
+move y1 from Frstyi to Dadrk
+sacrifice y1 at Mikeyarrum; move r3 from Nyamo to Dadrk

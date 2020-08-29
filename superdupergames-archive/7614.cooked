@@ -1,0 +1,48 @@
+Uglyfoot (0, y1b3) g3-
+Clockwise (1, b1g2) -y3
+build g1 at Uglyfoot
+build y1 at Clockwise
+convert g1 to y1 at Uglyfoot
+convert y1 to b1 at Clockwise
+move y1 from Uglyfoot to Assembly (g2)
+build b1 at Clockwise
+build g1 at Uglyfoot
+move b1 from Clockwise to Godzilla (g3)
+convert g1 to r1 at Uglyfoot
+build b2 at Godzilla
+build g1 at Uglyfoot
+convert b2 to r2 at Godzilla
+build y1 at Assembly
+build y2 at Clockwise
+build y2 at Assembly
+move y2 from Clockwise to Godzilla
+move y2 from Assembly to Forward (g3)
+build y2 at Godzilla
+build y3 at Forward
+build y3 at Clockwise
+move y2 from Forward to Clockwise
+move y3 from Clockwise to Leviathan (b3)
+convert y2 to b2 at Clockwise
+convert b1 to r1 at Clockwise
+move g1 from Uglyfoot to Exchange (b2)
+build y2 at Clockwise
+build g1 at Exchange
+capture b2 at Clockwise
+move y3 from Forward to Exchange
+move b1 from Godzilla to Assembly
+move y1 from Assembly to Godzilla
+sacrifice r2 at Godzilla; capture y1 at Assembly; capture y1 at Godzilla
+build g1 at Uglyfoot
+sacrifice y2 at Godzilla; move y2 from Godzilla to Assembly; move y1 from Godzilla to Kraken (b2)
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Uglyfoot; build g3 at Exchange
+build b1 at Assembly
+move g3 from Exchange to Firebase (r3)
+sacrifice y3 at Leviathan; move y1 from Assembly to Uglyfoot; move y2 from Assembly to Uglyfoot; move y1 from Kraken to Uglyfoot; catastrophe yellow at Uglyfoot
+sacrifice y3 at Exchange; move g1 from Uglyfoot to Assembly; move g2 from Uglyfoot to Assembly; move g3 from Firebase to Assembly; catastrophe green at Assembly
+build b1 at Clockwise
+build g1 at Uglyfoot
+sacrifice y2 at Clockwise; move b1 from Clockwise to Mothra (y3); move b1 from Mothra to Mechagodzilla (g2)
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Exchange; build g3 at Uglyfoot
+build b1 at Mechagodzilla
+convert g3 to y3 at Uglyfoot
+sacrifice y3 at Clockwise; move b2 from Clockwise to Uglyfoot; move b1 from Mechagodzilla to Uglyfoot; move b1 from Mechagodzilla to Uglyfoot; catastrophe blue at Uglyfoot

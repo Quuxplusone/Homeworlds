@@ -1,0 +1,49 @@
+Morganfitzp (0, b1y2) g3-
+Dsheldon (1, b3r2) -g3
+build g1 at Morganfitzp
+build g1 at Dsheldon
+convert g1 to y1 at Morganfitzp
+build g1 at Dsheldon
+build y1 at Morganfitzp
+convert g1 to y1 at Dsheldon
+move y1 from Morganfitzp to Ur (g3)
+move g1 from Dsheldon to Frankfurt (b1)
+build y2 at Ur
+build g1 at Frankfurt
+build y2 at Morganfitzp
+build y3 at Dsheldon
+convert y1 to b1 at Morganfitzp
+move y1 from Dsheldon to Kermit (g1)
+build g2 at Morganfitzp
+build g2 at Dsheldon
+move y1 from Ur to Babylon (g2)
+sacrifice g3 at Dsheldon; build g3 at Dsheldon; build y1 at Kermit; build y3 at Dsheldon
+sacrifice g3 at Morganfitzp; build g3 at Morganfitzp; build b2 at Morganfitzp; build y3 at Ur
+convert g1 to r1 at Frankfurt
+convert b2 to r2 at Morganfitzp
+sacrifice y3 at Dsheldon; move y1 from Kermit to Ur; move y1 from Kermit to Ur; move g1 from Frankfurt to Memphis (y3); catastrophe yellow at Ur
+move r2 from Morganfitzp to Memphis
+move g1 from Memphis to Morganfitzp
+convert g3 to r3 at Morganfitzp
+sacrifice g3 at Dsheldon; build g1 at Morganfitzp; build g1 at Morganfitzp; build g3 at Dsheldon; catastrophe green at Morganfitzp
+convert r3 to g3 at Morganfitzp
+move g3 from Dsheldon to Cairo (y1)
+build b2 at Morganfitzp
+build g1 at Dsheldon
+move b2 from Morganfitzp to Memphis
+move g1 from Dsheldon to Frankfurt
+build b2 at Morganfitzp
+build y1 at Dsheldon
+move b1 from Morganfitzp to Memphis
+move y1 from Dsheldon to Frankfurt
+move b2 from Memphis to Beirut (g1)
+build y2 at Frankfurt
+build y3 at Babylon
+move y1 from Frankfurt to Eridu (g3)
+move y2 from Morganfitzp to Beijing (b3)
+sacrifice g3 at Cairo; build g1 at Frankfurt; build g2 at Frankfurt; build g3 at Dsheldon
+sacrifice y3 at Babylon; move b2 from Beirut to Dsheldon; move b1 from Memphis to Frankfurt; move b1 from Frankfurt to Dsheldon
+sacrifice y2 at Frankfurt; move g1 from Frankfurt to Paris (b3); move g1 from Frankfurt to Versailles (b2)
+sacrifice y2 at Beijing; move r2 from Memphis to Frankfurt; move r2 from Frankfurt to Dsheldon
+sacrifice g2 at Dsheldon; build y1 at Eridu; build y2 at Eridu
+sacrifice g3 at Morganfitzp; build b3 at Dsheldon; build r1 at Dsheldon; build r1 at Dsheldon; catastrophe red at Dsheldon; catastrophe blue at Dsheldon

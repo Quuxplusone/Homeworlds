@@ -1,0 +1,24 @@
+Eugman (0, b2y1) g3-
+Laurie_Menke (1, y1b3) -g3
+build g1 at Eugman
+build g1 at Laurie_Menke
+convert g1 to y1 at Eugman
+move g1 from Laurie_Menke to Hill (b2)
+move y1 from Eugman to Dale (g3)
+build g1 at Laurie_Menke
+build g1 at Eugman
+build g2 at Hill
+convert g1 to b1 at Eugman
+build g1 at Laurie_Menke
+move b1 from Eugman to Dale
+move g1 from Laurie_Menke to Chip (y2)
+build g2 at Eugman
+convert g2 to y2 at Hill
+move g2 from Eugman to Dale
+sacrifice g3 at Laurie_Menke; build g2 at Chip; build g2 at Hill; build g3 at Laurie_Menke
+move g2 from Dale to Eugman
+build y2 at Hill
+sacrifice g3 at Eugman; build g3 at Eugman; build y3 at Dale; build b1 at Dale
+sacrifice y2 at Hill; move g2 from Hill to Luella (y3); move g1 from Hill to Sharon (y3)
+convert y3 to r3 at Dale
+sacrifice y2 at Hill; move g1 from Sharon to Eugman; move g2 from Luella to Eugman; catastrophe green at Eugman

@@ -1,0 +1,43 @@
+Broccoli_Commander (0, g1y2) b3-
+Marmalade (1, y3b1) -g3
+build b1 at Broccoli_Commander
+build g1 at Marmalade
+build b1 at Broccoli_Commander
+move g1 from Marmalade to Alamak (b2)
+move b1 from Broccoli_Commander to Lettuce (g3)
+build g1 at Marmalade
+build b2 at Lettuce
+convert g3 to b3 at Marmalade
+convert b2 to y2 at Lettuce
+build g2 at Marmalade
+convert b3 to g3 at Broccoli_Commander
+build g2 at Alamak
+build b2 at Broccoli_Commander
+convert g2 to y2 at Alamak
+move b2 from Broccoli_Commander to Watermelon (g3)
+build g2 at Alamak
+sacrifice g3 at Broccoli_Commander; build b2 at Watermelon; build b3 at Lettuce; build b3 at Broccoli_Commander
+convert b3 to g3 at Marmalade
+convert b2 to g2 at Watermelon
+sacrifice y2 at Alamak; move g1 from Alamak to Watermelon; move g2 from Alamak to Watermelon; catastrophe green at Watermelon
+convert b3 to r3 at Lettuce
+convert g2 to r2 at Marmalade
+convert b3 to g3 at Broccoli_Commander
+build r1 at Marmalade
+sacrifice g3 at Broccoli_Commander; build b2 at Lettuce; build b2 at Lettuce; build b2 at Broccoli_Commander
+convert r2 to y2 at Marmalade
+move b2 from Lettuce to Lemon (y1)
+move g1 from Marmalade to Moop (g2)
+build b3 at Broccoli_Commander
+build y1 at Marmalade
+convert b3 to g3 at Broccoli_Commander
+move y2 from Marmalade to Moop
+sacrifice g3 at Broccoli_Commander; build b3 at Broccoli_Commander; build b3 at Lettuce; build b3 at Lemon
+build y1 at Moop
+sacrifice b2 at Lettuce; convert b3 to y3 at Lettuce; convert b3 to y3 at Broccoli_Commander
+move y1 from Marmalade to Meep (b2)
+move b3 from Lemon to Moop
+build g1 at Moop
+sacrifice y3 at Broccoli_Commander; move y3 from Lettuce to Moop; move y3 from Moop to Marmalade; move b3 from Moop to Marmalade
+capture b3 at Marmalade
+sacrifice r3 at Lettuce; capture b3 at Marmalade; capture g3 at Marmalade; capture r1 at Marmalade

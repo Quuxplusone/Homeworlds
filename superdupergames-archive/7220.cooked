@@ -1,0 +1,14 @@
+Unic (0, b3y2) g3-
+Jeep (1, y1b2) -g3
+build g1 at Unic
+build g1 at Jeep
+move g1 from Unic to Zato (y1)
+convert g1 to y1 at Jeep
+build g1 at Unic
+build y2 at Jeep
+convert g1 to r1 at Unic
+move y1 from Jeep to Bob (g3)
+build g1 at Unic
+build g1 at Jeep
+build g2 at Unic
+sacrifice g3 at Jeep; build y2 at Bob; build y3 at Bob; build y3 at Jeep

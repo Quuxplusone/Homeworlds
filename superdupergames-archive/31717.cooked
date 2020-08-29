@@ -1,0 +1,40 @@
+Laurie_Menke (0, b2r1) g3-
+Wil (1, y3b1) -g3
+build g1 at Laurie_Menke
+build g1 at Wil
+convert g1 to y1 at Laurie_Menke
+convert g1 to b1 at Wil
+build y1 at Laurie_Menke
+build b1 at Wil
+build g1 at Laurie_Menke
+move b1 from Wil to R2 (r2)
+move g1 from Laurie_Menke to C3Po (y3)
+build b2 at Wil
+move y1 from Laurie_Menke to D2 (r3)
+move b1 from Wil to Y2 (y2)
+build g1 at Laurie_Menke
+sacrifice g3 at Wil; build b2 at R2; build b3 at Y2; build b3 at Wil
+convert g3 to b3 at Laurie_Menke
+sacrifice b2 at R2; convert b3 to g3 at Wil; convert b3 to y3 at Y2
+build g1 at Laurie_Menke
+sacrifice g3 at Wil; build b2 at R2; build b3 at Y2; build b3 at Wil
+build g2 at C3Po
+sacrifice b2 at R2; convert b3 to g3 at Y2; convert b3 to g3 at Wil
+convert b3 to g3 at Laurie_Menke
+build g2 at Wil
+move y1 from Laurie_Menke to D2
+sacrifice g3 at Wil; build g2 at Y2; build g3 at Wil; build b2 at R2
+sacrifice y1 at D2; move g1 from Laurie_Menke to D2
+sacrifice g3 at Wil; build b3 at Wil; build b3 at R2; build b3 at Y2
+convert g1 to r1 at Laurie_Menke
+convert b3 to r3 at Y2
+build y1 at D2
+move r3 from Y2 to D2
+move g2 from C3Po to Y2Too (y2)
+capture g1 at D2
+move y1 from D2 to Y2Three (y2)
+move g3 from Y2 to C3Po
+move g2 from Y2Too to Wil
+convert b3 to r3 at Wil
+sacrifice g3 at Laurie_Menke; build g1 at Wil; build r1 at Laurie_Menke; build y1 at Y2Three
+sacrifice y3 at Y2; move r3 from Wil to Y2; move r3 from Y2 to D2; move r3 from D2 to Laurie_Menke; catastrophe red at Laurie_Menke

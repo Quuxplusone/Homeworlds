@@ -1,0 +1,36 @@
+Matrixfrog (0, b2g1) y3-
+Madwuher (1, r1b3) -g3
+build y1 at Matrixfrog
+build g1 at Madwuher
+build y1 at Matrixfrog
+convert g1 to y1 at Madwuher
+move y1 from Matrixfrog to Time (g3)
+build y2 at Madwuher
+build y2 at Time
+build g1 at Madwuher
+convert y1 to b1 at Matrixfrog
+move g1 from Madwuher to Edora (b2)
+build y1 at Matrixfrog
+move y2 from Madwuher to Edora
+build b1 at Matrixfrog
+build y2 at Madwuher
+convert b1 to r1 at Matrixfrog
+build y3 at Edora
+build b1 at Matrixfrog
+convert y1 to r1 at Madwuher
+convert b1 to g1 at Matrixfrog
+build g2 at Madwuher
+move y2 from Time to Space (g2)
+move g1 from Edora to Bologna (y3)
+build b1 at Matrixfrog
+sacrifice g3 at Madwuher; build g2 at Bologna; build g3 at Madwuher; build y1 at Madwuher
+move g1 from Matrixfrog to Dreams (g3)
+move r1 from Madwuher to Edora
+move y1 from Time to Space
+sacrifice y2 at Edora; move g2 from Bologna to Edora; move g2 from Edora to Camelot (g3)
+sacrifice y3 at Matrixfrog; move y1 from Space to Madwuher; move y2 from Space to Madwuher; move g1 from Dreams to Cheese (y2); catastrophe yellow at Madwuher
+sacrifice g3 at Madwuher; build g2 at Camelot; build g3 at Bologna; build g3 at Madwuher
+move g1 from Cheese to Camelot; catastrophe green at Camelot
+move g3 from Bologna to Matrixfrog
+move b1 from Matrixfrog to Bologna
+sacrifice r1 at Edora; capture r1 at Matrixfrog

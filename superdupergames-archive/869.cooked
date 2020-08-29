@@ -1,0 +1,110 @@
+Lambda (0, r3y1) g3-
+Andylooney (1, b1g2) -y3
+build g1 at Lambda
+build y1 at Andylooney
+move g1 from Lambda to Betelgeuse (b2)
+convert y1 to g1 at Andylooney
+build g1 at Betelgeuse
+build g2 at Andylooney
+convert g1 to y1 at Betelgeuse
+move g2 from Andylooney to Clampett (y3)
+build g1 at Betelgeuse
+move g1 from Andylooney to Jethro (y3)
+convert g1 to b1 at Betelgeuse
+build y1 at Andylooney
+build y2 at Betelgeuse
+convert y1 to r1 at Andylooney
+move b1 from Betelgeuse to Lambda
+build y1 at Andylooney
+build y2 at Betelgeuse
+move y1 from Andylooney to Paradise (g3)
+move y2 from Betelgeuse to Antares (b3)
+build g1 at Clampett
+move y1 from Betelgeuse to Antares
+build y2 at Paradise
+convert y1 to b1 at Antares
+move y2 from Paradise to Meanie (b2)
+build b2 at Lambda
+move y2 from Meanie to Bigmeanie (b3)
+move b2 from Lambda to Markab (b2)
+move r1 from Andylooney to Finalfrontier (b3)
+sacrifice y2 at Betelgeuse; move y2 from Antares to Andylooney; move b1 from Antares to Andylooney
+convert y3 to r3 at Andylooney
+sacrifice b2 at Markab; convert b1 to r1 at Andylooney; convert y2 to r2 at Andylooney
+convert r3 to y3 at Andylooney
+convert r2 to y2 at Andylooney
+sacrifice r1 at Finalfrontier; capture r1 at Andylooney
+move y2 from Andylooney to Arcturus (b3)
+sacrifice g2 at Clampett; build y1 at Bigmeanie; build y2 at Paradise
+build g2 at Betelgeuse
+sacrifice g1 at Jethro; build y3 at Andylooney
+build g1 at Lambda
+build g2 at Clampett
+move y2 from Arcturus to Betelgeuse
+move g1 from Clampett to Stealth (b2)
+convert g2 to r2 at Betelgeuse
+move y3 from Andylooney to Garden (g3)
+build g2 at Betelgeuse
+sacrifice g2 at Clampett; build g2 at Stealth; build y3 at Garden
+convert g1 to b1 at Betelgeuse
+move y3 from Garden to Betelgeuse
+sacrifice g3 at Lambda; build b2 at Lambda; build b3 at Lambda; build b3 at Betelgeuse
+move y3 from Betelgeuse to Jolly (g3)
+move b3 from Betelgeuse to Paradise
+sacrifice y2 at Paradise; move y3 from Garden to Betelgeuse; move y1 from Paradise to Plugh (y2)
+move g2 from Betelgeuse to Kuma (g3)
+sacrifice r1 at Andylooney; capture r2 at Betelgeuse
+move y2 from Betelgeuse to Paradise
+move y3 from Betelgeuse to Kuma
+convert b2 to r2 at Lambda
+capture b1 at Betelgeuse
+build b2 at Paradise
+sacrifice g2 at Stealth; build g1 at Stealth; build r1 at Betelgeuse
+move b3 from Paradise to Betelgeuse
+sacrifice y2 at Bigmeanie; move r2 from Betelgeuse to Jolly; move b1 from Betelgeuse to Jolly
+build y2 at Paradise
+sacrifice r1 at Betelgeuse; capture g2 at Kuma
+build g2 at Lambda
+convert g1 to r1 at Stealth
+move r2 from Lambda to Betelgeuse
+build g1 at Stealth
+move g1 from Lambda to Betelgeuse
+move y1 from Plugh to Daddyo (r1)
+move y2 from Paradise to Betelgeuse
+build y2 at Jolly
+convert b2 to r2 at Paradise
+build b2 at Jolly
+move b3 from Betelgeuse to Paradise
+sacrifice g2 at Kuma; build r1 at Jolly; build r3 at Stealth
+build r3 at Paradise
+move b2 from Jolly to Frog (g2)
+move r3 from Paradise to Frog
+sacrifice y2 at Jolly; move b2 from Frog to Daddyo; move b2 from Daddyo to Plugh (y2)
+move b3 from Paradise to Plugh
+move b2 from Plugh to Kuma
+move g2 from Lambda to Plugh
+move b2 from Kuma to Stealth
+move b1 from Lambda to Frog
+sacrifice y1 at Daddyo; move r3 from Stealth to Paradise
+sacrifice y2 at Paradise; move r2 from Paradise to Stealth; move r2 from Stealth to Bigmeanie
+move y1 from Bigmeanie to Stealth
+sacrifice g2 at Plugh; build y1 at Betelgeuse; build y2 at Betelgeuse
+sacrifice y3 at Kuma; move y1 from Stealth to Paradise; move y1 from Paradise to Betelgeuse; move r3 from Paradise to Betelgeuse; catastrophe yellow at Betelgeuse
+convert b3 to g3 at Plugh
+build b3 at Stealth
+convert r2 to y2 at Bigmeanie
+sacrifice b2 at Stealth; convert b3 to y3 at Stealth; convert r3 to g3 at Betelgeuse
+sacrifice g3 at Plugh; build b2 at Lambda; build b3 at Frog; build y1 at Bigmeanie
+sacrifice r2 at Jolly; capture r2 at Betelgeuse; capture g1 at Betelgeuse
+convert b2 to g2 at Lambda
+sacrifice g3 at Betelgeuse; build g3 at Betelgeuse; build g3 at Stealth; build b2 at Jolly
+move g2 from Lambda to Stealth; catastrophe green at Stealth
+sacrifice g3 at Betelgeuse; build y1 at Andylooney; build y2 at Stealth; build y2 at Jolly
+convert b3 to g3 at Frog
+sacrifice y2 at Jolly; move y2 from Stealth to Bigmeanie; move y1 from Andylooney to Bigmeanie; catastrophe yellow at Bigmeanie
+sacrifice g3 at Frog; build b3 at Frog; build b3 at Lambda; build r1 at Frog
+move b1 from Jolly to Clover (g2)
+convert b3 to g3 at Lambda
+build b3 at Clover
+convert r1 to y1 at Frog
+sacrifice b2 at Jolly; convert b3 to g3 at Clover; convert b1 to y1 at Clover

@@ -1,0 +1,33 @@
+Ts52 (0, y1b3) g3-
+Wil (1, y2b1) -g3
+build g1 at Ts52
+build g1 at Wil
+move g1 from Ts52 to Gonzo (b2)
+convert g1 to b1 at Wil
+build g1 at Gonzo
+build b1 at Wil
+convert g1 to y1 at Gonzo
+move b1 from Wil to Y3 (y3)
+build y1 at Gonzo
+sacrifice g3 at Wil; build b2 at Y3; build b2 at Y3; build b3 at Wil
+build y2 at Gonzo
+move b1 from Y3 to Gonzo
+convert y2 to r2 at Gonzo
+move b2 from Y3 to Gonzo
+move g1 from Gonzo to Grover (b3)
+convert b3 to g3 at Wil
+capture b2 at Gonzo
+build b3 at Wil
+move b2 from Gonzo to Y3
+move b2 from Y3 to Y2 (y2)
+move b2 from Y3 to Wil; catastrophe blue at Wil
+build g1 at Wil
+capture b1 at Gonzo
+move g1 from Wil to B3 (b3)
+move y1 from Gonzo to Grover
+build g1 at B3
+build g2 at Grover
+build g2 at B3
+build y2 at Grover
+build g2 at Wil
+sacrifice y2 at Grover; move g1 from Grover to Wil; move g2 from Grover to Wil; catastrophe green at Wil

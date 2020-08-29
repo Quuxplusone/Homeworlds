@@ -1,0 +1,37 @@
+Takvorian (0, b1r2) g3-
+Fogus (1, b1y2) -g3
+build g1 at Takvorian
+build g1 at Fogus
+convert g1 to b1 at Takvorian
+convert g1 to y1 at Fogus
+build g1 at Takvorian
+build g1 at Fogus
+convert g1 to y1 at Takvorian
+build g1 at Fogus
+build b2 at Takvorian
+move g1 from Fogus to Scan (b3)
+convert b2 to r2 at Takvorian
+convert y1 to r1 at Fogus
+move r2 from Takvorian to Scan
+sacrifice g1 at Scan; build r1 at Fogus
+build b2 at Takvorian
+convert g1 to y1 at Fogus
+convert b2 to y2 at Takvorian
+build g1 at Fogus
+build g1 at Takvorian
+move g1 from Fogus to Blip (y3)
+convert y2 to r2 at Takvorian
+build g1 at Fogus
+move r2 from Takvorian to Blip
+move g1 from Blip to Flip (y2)
+move g1 from Takvorian to Blip
+build g2 at Flip
+build g2 at Blip
+move r1 from Fogus to Chip (g3)
+build b2 at Takvorian
+convert r1 to y1 at Fogus
+build y2 at Takvorian
+move y1 from Fogus to Chip
+build g2 at Takvorian
+build y3 at Chip
+sacrifice y2 at Takvorian; move g2 from Blip to Fogus; move g1 from Blip to Fogus; catastrophe green at Fogus

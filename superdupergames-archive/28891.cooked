@@ -1,0 +1,39 @@
+Endo (0, r1b3) g3-
+Kanzenryu (1, b1y2) -g3
+build g1 at Endo
+build g1 at Kanzenryu
+convert g1 to y1 at Endo
+convert g1 to y1 at Kanzenryu
+build g1 at Endo
+move y1 from Kanzenryu to Jeep (g3)
+convert g1 to b1 at Endo
+build g1 at Kanzenryu
+build b1 at Endo
+build g1 at Kanzenryu
+move b1 from Endo to Open (y2)
+move g1 from Kanzenryu to Bigblue (b3)
+build b2 at Endo
+convert g1 to r1 at Kanzenryu
+convert b2 to r2 at Endo
+build g1 at Kanzenryu
+build b2 at Endo
+move g1 from Kanzenryu to Other (b3)
+move b2 from Endo to Dense (g2)
+build g1 at Kanzenryu
+build g2 at Endo
+sacrifice g3 at Kanzenryu; build g2 at Other; build g3 at Kanzenryu; build r1 at Kanzenryu
+sacrifice g3 at Endo; build g3 at Endo; build b2 at Open; build b2 at Open
+sacrifice g3 at Kanzenryu; build g3 at Kanzenryu; build r2 at Kanzenryu; build y1 at Jeep
+sacrifice g3 at Endo; build g3 at Endo; build y2 at Endo; build y3 at Endo
+move r2 from Kanzenryu to Sun (y3)
+sacrifice y2 at Endo; move y1 from Endo to Dense; move r2 from Endo to Open
+move y1 from Jeep to Brink (r2)
+sacrifice g3 at Endo; build g3 at Endo; build y2 at Endo; build y3 at Dense
+sacrifice g2 at Other; build g2 at Other; build r3 at Sun
+sacrifice g2 at Endo; build g2 at Endo; build r3 at Open
+move g1 from Kanzenryu to Sun
+move r2 from Open to Jeep
+move y1 from Jeep to Brink
+build r3 at Jeep
+move r1 from Kanzenryu to Bigblue
+move y3 from Endo to Brink

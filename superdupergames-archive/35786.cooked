@@ -1,0 +1,27 @@
+Eliscinsky (0, b3y2) g3-
+Ajo (1, r3b1) -g3
+build g1 at Eliscinsky
+build g1 at Ajo
+convert g1 to y1 at Eliscinsky
+convert g1 to y1 at Ajo
+build g1 at Eliscinsky
+build g1 at Ajo
+convert g1 to b1 at Eliscinsky
+convert g1 to b1 at Ajo
+build b2 at Eliscinsky
+build b2 at Ajo
+move b1 from Eliscinsky to Romulus (r1)
+move b2 from Ajo to Alpha (g2)
+build g1 at Eliscinsky
+build b2 at Alpha
+build b3 at Eliscinsky
+build b3 at Ajo
+convert b2 to y2 at Eliscinsky
+convert b2 to y2 at Alpha
+sacrifice y2 at Eliscinsky; move b1 from Romulus to Alpha; move b1 from Alpha to Ajo; catastrophe blue at Ajo
+build y1 at Alpha
+convert b3 to r3 at Eliscinsky
+sacrifice g3 at Ajo; build y2 at Ajo; build y3 at Ajo; build y3 at Alpha
+move y1 from Eliscinsky to Romulus (g1)
+convert y1 to r1 at Alpha
+move y1 from Romulus to Ajo; catastrophe yellow at Ajo

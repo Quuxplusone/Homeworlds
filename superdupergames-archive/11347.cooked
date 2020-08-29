@@ -1,0 +1,33 @@
+Danner (0, r1b2) g3-
+Madwuher (1, y1b3) -g3
+build g1 at Danner
+build g1 at Madwuher
+convert g1 to y1 at Danner
+move g1 from Madwuher to Abydos (b2)
+build y1 at Danner
+build g1 at Madwuher
+build y2 at Danner
+build g1 at Abydos
+move y1 from Danner to Earth (g3)
+build g2 at Abydos
+sacrifice g3 at Danner; build y2 at Earth; build y2 at Earth; build y3 at Danner
+move g1 from Madwuher to Chulak (b2)
+convert y3 to g3 at Danner
+convert g2 to r2 at Abydos
+move y1 from Danner to Atlantis (b3)
+convert g3 to y3 at Madwuher
+build y3 at Danner
+build g2 at Chulak
+build y3 at Danner
+convert y3 to g3 at Madwuher
+move y3 from Danner to P3R118 (r3)
+build g2 at Madwuher
+build g2 at Danner
+convert g3 to y3 at Madwuher
+build g3 at Danner
+sacrifice y3 at Madwuher; move g1 from Abydos to Atlantis; move r2 from Abydos to Earth; move g1 from Atlantis to Danner; catastrophe green at Danner
+sacrifice y2 at Earth; move y3 from P3R118 to Abydos; move y3 from Abydos to Madwuher
+build g1 at Abydos
+convert y3 to r3 at Danner
+sacrifice g2 at Chulak; build g2 at Madwuher; build g2 at Madwuher
+convert y3 to g3 at Madwuher; catastrophe green at Madwuher

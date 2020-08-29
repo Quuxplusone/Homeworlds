@@ -1,0 +1,11 @@
+Logikal (0, r2b1) g3-
+Granthenninger (1, g2y1) -r3
+build g1 at Logikal
+build r1 at Granthenninger
+build g1 at Logikal
+build r1 at Granthenninger
+convert g1 to y1 at Logikal
+build r1 at Granthenninger
+move g1 from Logikal to L1 (y3)
+build r2 at Granthenninger
+build y1 at Logikal; catastrophe red at Granthenninger

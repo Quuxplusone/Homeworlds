@@ -1,0 +1,25 @@
+W00T (0, r3y2) g3-
+Dragonlord (1, g1b2) -y3
+build g1 at W00T
+build y1 at Dragonlord
+move g1 from W00T to Boop (b1)
+move y1 from Dragonlord to Terrace (g3)
+build g1 at Boop
+build y1 at Dragonlord
+build g2 at Boop
+convert y3 to g3 at Dragonlord
+convert g2 to y2 at Boop
+build y1 at Terrace
+build g2 at W00T
+move y1 from Terrace to Iceland (b1)
+move g1 from Boop to Bop (b3)
+convert y1 to r1 at Dragonlord
+sacrifice g3 at W00T; build g2 at Boop; build g2 at Bop; build g3 at W00T
+build r1 at Dragonlord
+sacrifice y2 at Boop; move g1 from Bop to Dragonlord; move g2 from Bop to Dragonlord; catastrophe green at Dragonlord
+convert r1 to y1 at Dragonlord
+convert g2 to y2 at Boop
+build y2 at Terrace
+move y2 from Boop to Dragonlord
+move y1 from Dragonlord to Farm (g3)
+convert g1 to r1 at Boop

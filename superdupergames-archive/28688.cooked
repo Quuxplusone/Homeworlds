@@ -1,0 +1,59 @@
+Simon (0, b3r1) g3-
+Dlwillson (1, b3r2) -g3
+build g1 at Simon
+build g1 at Dlwillson
+convert g1 to y1 at Simon
+convert g1 to y1 at Dlwillson
+build g1 at Simon
+build g1 at Dlwillson
+convert g1 to r1 at Simon
+convert g1 to r1 at Dlwillson
+build r2 at Simon
+build r2 at Dlwillson
+move r2 from Simon to B2 (b2)
+convert r2 to y2 at Dlwillson
+sacrifice g3 at Simon; build r2 at B2; build r3 at B2; build r3 at Simon
+sacrifice y2 at Dlwillson; move r1 from Dlwillson to Sunny (y1); move r1 from Sunny to B2; catastrophe red at B2
+convert r3 to g3 at Simon
+build g1 at Dlwillson
+build r1 at Simon
+convert g3 to r3 at Dlwillson
+move r1 from Simon to B2 (b2)
+build r2 at Dlwillson
+sacrifice g3 at Simon; build r2 at B2; build r3 at B2; build r3 at Simon
+move r2 from Dlwillson to Forest (g1)
+convert r2 to y2 at B2
+build r2 at Forest
+convert r3 to g3 at Simon
+move y1 from Dlwillson to Forest
+build r3 at Simon
+move r2 from Forest to Sol (y2)
+move r3 from Simon to Sol
+convert r3 to g3 at Dlwillson
+convert r1 to g1 at B2
+move r2 from Sol to Rigel (y1)
+move r3 from Sol to Forest
+sacrifice y1 at Forest; move r2 from Forest to Sol (y2)
+build g2 at Simon
+convert g1 to y1 at Dlwillson
+sacrifice g3 at Simon; build y2 at B2; build y3 at Simon; build y3 at B2
+sacrifice g3 at Dlwillson; build y3 at Dlwillson; build r1 at Rigel; build r3 at Sol
+move y3 from B2 to Rigel
+convert y1 to g1 at Dlwillson
+sacrifice r1 at Simon; capture r2 at Rigel
+build g2 at Dlwillson
+build r1 at Forest
+move g1 from Dlwillson to Sky (b1)
+build y1 at B2
+build g2 at Sky
+build g3 at B2
+build g3 at Dlwillson
+capture r1 at Rigel
+convert g1 to b1 at Sky
+move r3 from B2 to Sky
+sacrifice g2 at Sky; build b1 at Sky; build b2 at Sky; catastrophe blue at Sky
+convert g1 to b1 at B2
+move g3 from Dlwillson to Sky (b1)
+move y2 from B2 to Forest
+move r2 from Sol to Sky
+build b1 at B2

@@ -1,0 +1,29 @@
+Babamots (0, r2b2) g3-
+Cuc (1, g3y1) -r3
+build g1 at Babamots
+build r1 at Cuc
+convert g1 to y1 at Babamots
+move r1 from Cuc to B2A (b2)
+build y1 at Babamots
+build r1 at Cuc
+build y2 at Babamots
+move r1 from Cuc to B2A
+move y1 from Babamots to Risa (g1)
+convert r1 to g1 at B2A
+convert y2 to r2 at Babamots
+build g1 at B2A
+build y2 at Risa
+build g2 at B2A
+sacrifice g3 at Babamots; build y2 at Risa; build y2 at Babamots; build y3 at Babamots
+build r1 at Cuc
+convert y3 to g3 at Babamots
+convert g2 to r2 at B2A
+move r2 from Babamots to Risa
+move r1 from Cuc to G2B (g2)
+build y3 at Babamots
+build r1 at Cuc
+build r3 at Risa
+build r3 at G2B
+move r3 from Risa to Bolarus (b2)
+pass
+sacrifice y3 at Babamots; move r2 from Risa to Bolarus; move r3 from Bolarus to Cuc; move r2 from Bolarus to Cuc; catastrophe red at Cuc

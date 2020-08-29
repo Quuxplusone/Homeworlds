@@ -1,0 +1,48 @@
+Lurch (0, y1b3) g3-
+Mandrel (1, r1b2) -g3
+build g1 at Lurch
+build g1 at Mandrel
+convert g1 to y1 at Lurch
+convert g1 to y1 at Mandrel
+build y2 at Lurch
+build y2 at Mandrel
+move y2 from Lurch to Alpha (b2)
+move y1 from Mandrel to Solo (g3)
+build g1 at Lurch
+build y2 at Solo
+move g1 from Lurch to Alpha
+build y3 at Mandrel
+build y3 at Alpha
+move y3 from Mandrel to Activity (b3)
+convert y1 to r1 at Lurch
+build g1 at Mandrel
+move g1 from Alpha to Beta (y3)
+convert y2 to r2 at Mandrel
+build g1 at Beta
+convert g1 to y1 at Mandrel
+move g1 from Beta to Alpha
+move r2 from Mandrel to Beta
+convert y3 to r3 at Alpha
+move y3 from Activity to Mystery (g2)
+move r3 from Alpha to Beta
+move r2 from Beta to Mystery
+build y2 at Alpha
+build y3 at Mystery
+convert g1 to b1 at Alpha
+build g1 at Mandrel
+build g1 at Beta
+convert g3 to b3 at Mandrel
+move b1 from Alpha to Beta
+build g2 at Mandrel
+convert g1 to b1 at Beta
+sacrifice y3 at Mystery; move y3 from Mystery to Solo; move y3 from Solo to Mandrel; move b3 from Mandrel to Solo
+build b1 at Beta
+build y3 at Mandrel
+move b1 from Beta to Mandrel
+build b2 at Solo
+move b1 from Beta to Mandrel
+move y1 from Solo to Mystery
+move b1 from Beta to Mandrel; catastrophe blue at Mandrel
+move y1 from Mandrel to Mystery
+build g1 at Beta
+move y2 from Solo to Reset (b2)

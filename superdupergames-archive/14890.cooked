@@ -1,0 +1,21 @@
+Twoshort (0, r1b3) g3-
+Maxl (1, b1g3) -r3
+build g1 at Twoshort
+build r1 at Maxl
+convert g1 to y1 at Twoshort
+convert r1 to y1 at Maxl
+build g1 at Twoshort
+move y1 from Maxl to Beta (b2)
+build g1 at Twoshort
+move y1 from Beta to Maxl
+move g1 from Twoshort to Bluestar (b2)
+build r1 at Maxl
+build g1 at Twoshort
+move r1 from Maxl to Bluestar
+build g2 at Bluestar
+capture g1 at Bluestar
+move g1 from Twoshort to Grogar (g2)
+move r3 from Maxl to Grogar
+sacrifice g3 at Twoshort; build g2 at Grogar; build g3 at Bluestar; build g3 at Twoshort
+capture g2 at Grogar
+sacrifice g2 at Bluestar; build g2 at Grogar; build y1 at Twoshort; catastrophe green at Grogar

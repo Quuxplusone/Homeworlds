@@ -1,0 +1,48 @@
+Lorgar (0, b3g1) r3-
+Ajo (1, y2b3) -g3
+build r1 at Lorgar
+build g1 at Ajo
+convert r1 to g1 at Lorgar
+build g2 at Ajo
+build r1 at Lorgar
+convert g2 to r2 at Ajo
+convert r1 to y1 at Lorgar
+move g1 from Ajo to Alpha (b1)
+move g1 from Lorgar to Barrabas (b2)
+build g2 at Ajo
+build g2 at Barrabas
+sacrifice g3 at Ajo; build g2 at Ajo; build g3 at Ajo; build g3 at Alpha
+build g3 at Barrabas
+move g2 from Ajo to Beta (b1)
+convert g2 to r2 at Barrabas
+sacrifice g3 at Alpha; build g2 at Alpha; build g3 at Beta; build r1 at Ajo
+build r1 at Barrabas
+convert g3 to y3 at Beta
+sacrifice y1 at Lorgar; move g1 from Barrabas to Safe (g3)
+sacrifice g3 at Ajo; build g3 at Ajo; build y1 at Beta; build y1 at Beta
+convert r1 to y1 at Barrabas
+sacrifice y1 at Beta; move g1 from Alpha to Gamma (b2)
+build y1 at Barrabas
+move y3 from Beta to Safe
+build r1 at Barrabas
+sacrifice g2 at Alpha; build g2 at Gamma; build y2 at Beta
+move y1 from Barrabas to Safe
+sacrifice r2 at Ajo; capture y1 at Safe; capture g1 at Safe
+move g3 from Barrabas to Beta
+sacrifice y2 at Beta; move g2 from Beta to Gamma; move g1 from Gamma to Lorgar
+sacrifice r1 at Barrabas; capture y1 at Beta
+sacrifice y1 at Safe; move g2 from Gamma to Lorgar
+build y1 at Beta
+sacrifice g2 at Gamma; build g2 at Lorgar; build y2 at Safe; catastrophe green at Lorgar
+convert y1 to g1 at Beta
+move y2 from Safe to Midway (b1)
+move r2 from Barrabas to Macteanimo (b1)
+convert g2 to b2 at Ajo
+convert r2 to b2 at Macteanimo
+move b2 from Ajo to Factor (g1)
+move y1 from Barrabas to Beta
+build g2 at Ajo
+convert b2 to g2 at Macteanimo
+sacrifice g2 at Ajo; build b2 at Factor; build b2 at Factor
+move g1 from Beta to Safe
+sacrifice y3 at Safe; move b2 from Factor to Lorgar; move b2 from Factor to Lorgar; move b2 from Factor to Lorgar; catastrophe blue at Lorgar

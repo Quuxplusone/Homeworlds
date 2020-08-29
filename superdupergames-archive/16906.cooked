@@ -1,0 +1,38 @@
+Agentofchaos (0, r1b2) g3-
+Dlwillson (1, y1b3) -g3
+build g1 at Agentofchaos
+build g1 at Dlwillson
+convert g1 to y1 at Agentofchaos
+convert g1 to r1 at Dlwillson
+build g1 at Agentofchaos
+build r1 at Dlwillson
+build y1 at Agentofchaos
+build r2 at Dlwillson
+build y2 at Agentofchaos
+move r2 from Dlwillson to Sticky (b2)
+convert y2 to r2 at Agentofchaos
+build g1 at Dlwillson
+build y2 at Agentofchaos
+move r1 from Dlwillson to Slick (y2)
+move y2 from Agentofchaos to Klabberjass (b3)
+sacrifice g3 at Dlwillson; build r2 at Slick; build r3 at Sticky; build r3 at Dlwillson
+build r3 at Agentofchaos
+convert r3 to y3 at Dlwillson
+move r3 from Agentofchaos to Klabberjass
+build r3 at Dlwillson
+move g1 from Agentofchaos to Blackguard (y3)
+move r2 from Slick to Blackguard
+sacrifice g1 at Blackguard; build y2 at Klabberjass
+sacrifice y3 at Dlwillson; move r1 from Slick to Blackguard; move r2 from Blackguard to Agentofchaos; move r1 from Blackguard to Agentofchaos; catastrophe red at Agentofchaos
+build g1 at Agentofchaos
+convert r3 to y3 at Sticky
+convert y2 to g2 at Klabberjass
+convert r2 to b2 at Sticky
+build g1 at Klabberjass
+move b2 from Sticky to Puffy (g3)
+build g2 at Klabberjass
+build b1 at Puffy
+sacrifice y2 at Klabberjass; move r3 from Klabberjass to Sticky; move r3 from Sticky to Puffy
+sacrifice y3 at Sticky; move b2 from Puffy to Agentofchaos; move b1 from Puffy to Agentofchaos
+sacrifice r3 at Puffy; capture b1 at Agentofchaos; capture b2 at Agentofchaos
+move r3 from Dlwillson to Agentofchaos

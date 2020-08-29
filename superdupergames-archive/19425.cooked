@@ -1,0 +1,100 @@
+Aristos (0, b1y2) g3-
+Ajo (1, b3r2) -g3
+build g1 at Aristos
+build g1 at Ajo
+convert g3 to r3 at Aristos
+convert g3 to y3 at Ajo
+build r1 at Aristos
+build y1 at Ajo
+build r1 at Aristos
+convert y1 to r1 at Ajo
+move r1 from Aristos to Banana (y3)
+build r2 at Ajo
+move r1 from Banana to Lemon (y1)
+convert r1 to g1 at Ajo
+build g2 at Aristos
+build g2 at Ajo
+sacrifice g2 at Aristos; build g2 at Aristos; build r1 at Lemon
+move g2 from Ajo to Lemon
+move r1 from Lemon to Ajo
+sacrifice r2 at Ajo; capture r1 at Ajo; capture r1 at Lemon
+move r1 from Aristos to Lime (g3)
+build r2 at Lemon
+build r2 at Lime
+build r3 at Ajo
+build r3 at Aristos
+move r3 from Ajo to Alpha (b1)
+convert g1 to y1 at Aristos
+convert r3 to y3 at Alpha
+move y1 from Aristos to Lime
+build r3 at Ajo
+build y1 at Lime
+convert r3 to b3 at Ajo
+build y2 at Lime
+move r1 from Lemon to Schoolbus (y3)
+move r3 from Aristos to Schoolbus
+sacrifice g2 at Lemon; build r3 at Lemon; build y2 at Alpha
+sacrifice y2 at Lime; move y1 from Lime to Alpha; move y1 from Lime to Alpha; catastrophe yellow at Alpha
+move r3 from Lemon to Lime
+sacrifice r2 at Lime; capture r1 at Schoolbus
+capture r1 at Lime
+build r2 at Aristos
+sacrifice y3 at Ajo; move r2 from Lemon to Lime; move r2 from Lime to Aristos; move r1 from Lime to Aristos; catastrophe red at Aristos
+build g1 at Aristos
+convert g1 to y1 at Ajo
+move r3 from Schoolbus to Aristos
+build y1 at Ajo
+convert g2 to y2 at Aristos
+build b1 at Ajo
+build r1 at Aristos
+build r2 at Lime
+build g1 at Aristos
+build g2 at Ajo
+build g2 at Aristos
+sacrifice b1 at Ajo; convert r3 to b3 at Lime
+build y1 at Aristos
+sacrifice g2 at Ajo; build y2 at Ajo; build r2 at Lime
+move r1 from Aristos to Kiwi (g3)
+move y1 from Ajo to Alpha (b1)
+move y1 from Aristos to Kiwi
+sacrifice y1 at Ajo; move y1 from Alpha to Lime
+sacrifice g2 at Aristos; build r3 at Kiwi; build r3 at Schoolbus
+build g2 at Ajo
+build g2 at Aristos
+sacrifice g2 at Ajo; build y1 at Lime; build y3 at Ajo
+sacrifice y2 at Aristos; move g1 from Aristos to Lime; move g1 from Aristos to Lime
+sacrifice y3 at Ajo; move y1 from Lime to Aristos; move y1 from Lime to Aristos; move b3 from Lime to Alpha (b1)
+sacrifice r3 at Kiwi; capture y1 at Aristos; capture y1 at Aristos
+build r3 at Ajo
+build g2 at Lime; catastrophe green at Lime
+convert b3 to g3 at Alpha
+build y2 at Kiwi
+move r1 from Ajo to Alpha
+build y3 at Kiwi
+build y3 at Ajo
+sacrifice y2 at Kiwi; move r1 from Kiwi to Pear (g1); move y1 from Aristos to Watermelon (g3)
+move r3 from Ajo to Pear
+build r2 at Pear
+build r2 at Alpha
+build y2 at Watermelon
+sacrifice y2 at Ajo; move r3 from Pear to Watermelon; move r1 from Alpha to Beta (b3)
+sacrifice y1 at Watermelon; move y2 from Watermelon to Lime (g2)
+build g1 at Alpha
+build g2 at Aristos
+convert r1 to y1 at Beta
+move r1 from Schoolbus to Plum (b1)
+sacrifice g3 at Alpha; build g3 at Alpha; build y2 at Beta; build b2 at Ajo
+convert g2 to b2 at Aristos
+sacrifice y3 at Ajo; move b2 from Ajo to Alpha; move y1 from Beta to Aristos; move y2 from Beta to Aristos; catastrophe yellow at Aristos
+build b2 at Aristos
+convert b3 to y3 at Ajo
+sacrifice y1 at Kiwi; move b2 from Aristos to Lime
+sacrifice g3 at Alpha; build g2 at Ajo; build g3 at Alpha; build y1 at Ajo
+sacrifice y3 at Kiwi; move r1 from Plum to Ajo; move r1 from Pear to Ajo; move r2 from Pear to Ajo; catastrophe red at Ajo
+sacrifice b2 at Alpha; convert g1 to b1 at Alpha; convert r3 to b3 at Watermelon
+convert b2 to y2 at Aristos
+convert g2 to b2 at Ajo
+move b2 from Lime to Ajo
+sacrifice r2 at Alpha; capture b2 at Ajo
+move y2 from Lime to Ajo
+sacrifice y3 at Ajo; move b2 from Ajo to Aristos; move b2 from Ajo to Aristos; move b3 from Watermelon to Aristos; catastrophe blue at Aristos

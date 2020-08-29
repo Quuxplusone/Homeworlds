@@ -1,0 +1,52 @@
+Ajo (0, b3y1) g3-
+Dlwillson (1, y3b2) -g3
+build g1 at Ajo
+build g1 at Dlwillson
+convert g1 to y1 at Ajo
+convert g1 to y1 at Dlwillson
+build y2 at Ajo
+build y2 at Dlwillson
+convert y2 to r2 at Ajo
+move y1 from Dlwillson to Field (g1)
+move y1 from Ajo to Alpha (g2)
+build y2 at Dlwillson
+move y1 from Alpha to Beta (g1)
+convert y2 to r2 at Dlwillson
+build y2 at Beta
+move y2 from Dlwillson to Sky (b1)
+build r1 at Ajo
+build y2 at Field
+convert r1 to b1 at Ajo
+move y2 from Field to Sea (b3)
+sacrifice b1 at Ajo; convert y1 to b1 at Beta
+sacrifice g3 at Dlwillson; build y1 at Sea; build y3 at Sky; build y3 at Sky
+build b1 at Beta
+move y3 from Sky to Dlwillson
+build b2 at Beta
+convert y2 to b2 at Sea
+move b2 from Beta to Gamma (y2)
+move y2 from Sky to Focus (b3)
+build g1 at Ajo
+move b2 from Sea to Field
+build g2 at Ajo
+convert y3 to g3 at Dlwillson
+build y3 at Beta
+convert y3 to g3 at Sky
+convert g3 to y3 at Ajo
+convert y2 to g2 at Focus
+move y3 from Beta to Focus
+sacrifice g2 at Focus; build g2 at Sky; build y2 at Field
+move g1 from Ajo to Gamma
+move y2 from Field to Gamma
+sacrifice y3 at Focus; move y2 from Beta to Dlwillson; move b1 from Beta to Dlwillson; move b1 from Beta to Dlwillson
+capture y2 at Dlwillson
+sacrifice g1 at Gamma; build b3 at Dlwillson; catastrophe blue at Dlwillson
+sacrifice g3 at Sky; build b1 at Field; build g1 at Dlwillson; build y3 at Gamma
+move b2 from Gamma to Sea
+sacrifice y2 at Dlwillson; move y3 from Gamma to Ajo; move y2 from Gamma to Ajo; catastrophe yellow at Ajo
+build r1 at Ajo
+sacrifice g3 at Dlwillson; build y1 at Sea; build y2 at Field; build b1 at Field
+sacrifice r2 at Ajo; capture y1 at Sea; capture y1 at Sea
+move b1 from Field to Ajo
+capture b1 at Ajo
+sacrifice y2 at Field; move b1 from Field to Ajo; move b2 from Field to Ajo; catastrophe blue at Ajo

@@ -1,0 +1,23 @@
+Wil (0, b2y1) g3-
+Eliscinsky (1, r1b2) -g3
+build g1 at Wil
+build g1 at Eliscinsky
+convert g1 to r1 at Wil
+convert g1 to y1 at Eliscinsky
+build r1 at Wil
+build g1 at Eliscinsky
+build r2 at Wil
+build y1 at Eliscinsky
+move r2 from Wil to Y3 (y3)
+build y2 at Eliscinsky
+build r2 at Wil
+convert y2 to r2 at Eliscinsky
+convert r2 to y2 at Wil
+convert y1 to b1 at Eliscinsky
+build r2 at Wil
+move y1 from Eliscinsky to B3 (b3)
+move r1 from Wil to Be3 (b3)
+convert g1 to y1 at Eliscinsky
+sacrifice g3 at Wil; build r3 at Y3; build r3 at Be3; build r3 at Wil
+build y2 at Eliscinsky
+convert r3 to g3 at Wil

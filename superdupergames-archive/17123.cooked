@@ -1,0 +1,41 @@
+Dlwillson (0, b3y2) g3-
+Captncavern (1, b3r1) -g3
+build g1 at Dlwillson
+build g1 at Captncavern
+convert g1 to r1 at Dlwillson
+convert g1 to y1 at Captncavern
+build g1 at Dlwillson
+build y1 at Captncavern
+build r1 at Dlwillson
+convert y1 to b1 at Captncavern
+build r2 at Dlwillson
+build y1 at Captncavern
+move r1 from Dlwillson to Frob (b1)
+build y1 at Captncavern
+sacrifice g3 at Dlwillson; build r2 at Frob; build r2 at Dlwillson; build r3 at Frob
+move y1 from Captncavern to Bille (g2)
+move r2 from Dlwillson to Grok (g1)
+move y1 from Bille to Pomme (g1)
+build r3 at Dlwillson
+build g2 at Captncavern
+convert r3 to y3 at Dlwillson
+build y2 at Pomme
+move y3 from Dlwillson to Grok
+sacrifice g3 at Captncavern; build y2 at Pomme; build y3 at Captncavern; build g2 at Captncavern
+build r3 at Dlwillson
+move y1 from Captncavern to Truc (b2)
+convert r3 to y3 at Frob
+sacrifice b1 at Captncavern; convert y2 to g2 at Pomme
+build r3 at Grok
+sacrifice g2 at Captncavern; build y2 at Truc; build g2 at Captncavern
+build r3 at Grok
+move y1 from Truc to Patate (b1)
+move r3 from Grok to Truc
+sacrifice y2 at Truc; move y1 from Pomme to Dlwillson; move y1 from Patate to Dlwillson
+sacrifice y3 at Grok; move r3 from Grok to Truc; move r3 from Truc to Captncavern; move r3 from Truc to Captncavern
+convert y1 to b1 at Dlwillson
+sacrifice r3 at Captncavern; capture y3 at Captncavern; capture y1 at Dlwillson; capture b1 at Dlwillson
+build g3 at Captncavern
+sacrifice r3 at Captncavern; capture g3 at Captncavern; capture g2 at Captncavern; capture g2 at Captncavern
+sacrifice y2 at Pomme; move g2 from Pomme to Last (y2); move g2 from Last to Captncavern; catastrophe green at Captncavern
+capture y1 at Captncavern

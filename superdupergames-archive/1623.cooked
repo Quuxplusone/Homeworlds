@@ -1,0 +1,23 @@
+Murwiz (0, y3g2) b3-
+Uglyfoot (1, b2g1) -y3
+build b1 at Murwiz
+build y1 at Uglyfoot
+convert b1 to y1 at Murwiz
+move y1 from Uglyfoot to Gateway (g3)
+move y1 from Murwiz to Garagedoor (g1)
+build y1 at Uglyfoot
+build y2 at Garagedoor
+build y2 at Gateway
+build b1 at Murwiz
+convert y1 to b1 at Uglyfoot
+move b1 from Murwiz to Garagedoor
+move b1 from Uglyfoot to Gateway
+build b1 at Murwiz
+build b2 at Gateway
+convert b1 to g1 at Murwiz
+convert b2 to r2 at Gateway
+build g2 at Murwiz
+move r2 from Gateway to Garagedoor
+sacrifice y2 at Garagedoor; move y1 from Garagedoor to Gateway; move b1 from Garagedoor to Portcullis (g2)
+move y1 from Gateway to Garagedoor
+build g3 at Murwiz

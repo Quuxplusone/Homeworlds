@@ -1,0 +1,60 @@
+Jerzy (0, y3b2) g3-
+Zoltar (1, r1b3) -g3
+build g1 at Jerzy
+build g1 at Zoltar
+convert g1 to r1 at Jerzy
+convert g1 to r1 at Zoltar
+build r2 at Jerzy
+build r2 at Zoltar
+build r2 at Jerzy
+convert r2 to y2 at Zoltar
+convert r2 to g2 at Jerzy
+build r2 at Zoltar
+build r2 at Jerzy
+move r1 from Zoltar to Yellowstone (y2)
+convert r2 to y2 at Jerzy
+move y2 from Zoltar to Greenbelt (g2)
+move g2 from Jerzy to Tinyspot (b1)
+build r2 at Zoltar
+build r3 at Jerzy
+sacrifice y2 at Greenbelt; move r1 from Yellowstone to Tinyspot; move r1 from Tinyspot to Jerzy; catastrophe red at Jerzy
+build g1 at Jerzy
+convert r2 to y2 at Zoltar
+convert g1 to r1 at Jerzy
+move r2 from Zoltar to Greenbelt (g2)
+move r1 from Jerzy to Tinyspot
+build g1 at Zoltar
+build g1 at Tinyspot
+move g1 from Zoltar to Yellowsprings (y2)
+convert g1 to y1 at Tinyspot
+build g1 at Zoltar
+convert y2 to r2 at Jerzy
+build y1 at Zoltar
+build g1 at Jerzy
+sacrifice g3 at Zoltar; build g2 at Zoltar; build g3 at Zoltar; build g3 at Yellowsprings
+convert r2 to y2 at Jerzy
+move g2 from Zoltar to Blueridge (b2)
+convert g1 to r1 at Jerzy
+sacrifice g3 at Zoltar; build g1 at Blueridge; build g3 at Zoltar; build r2 at Greenbelt
+build r2 at Tinyspot
+sacrifice y2 at Zoltar; move g3 from Yellowsprings to Tinyspot; move r2 from Greenbelt to Blueberry (b1)
+build r3 at Jerzy
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r3 at Greenbelt; build r3 at Blueberry
+move r2 from Tinyspot to Blueridge
+sacrifice r3 at Greenbelt; capture r2 at Blueridge; capture r1 at Tinyspot; capture y1 at Tinyspot
+move r3 from Jerzy to Goldie (y1)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Tinyspot; build r3 at Blueridge
+move r3 from Goldie to Yellowsprings
+move g1 from Yellowsprings to Goldie (y1)
+sacrifice y2 at Jerzy; move r3 from Yellowsprings to Goldie; move r3 from Goldie to Greenbelt
+capture g2 at Tinyspot
+capture r2 at Greenbelt
+sacrifice y2 at Tinyspot; move r2 from Blueberry to Greenbelt; move r1 from Tinyspot to Greenbelt; catastrophe red at Greenbelt
+build g2 at Jerzy
+sacrifice g3 at Tinyspot; build g3 at Goldie; build y2 at Tinyspot; build y2 at Zoltar
+build r1 at Jerzy
+sacrifice y2 at Zoltar; move g3 from Goldie to Jerzy; move g2 from Tinyspot to Jerzy; catastrophe green at Jerzy
+move r1 from Jerzy to Goldie
+sacrifice y1 at Tinyspot; move r3 from Blueberry to Jerzy
+pass
+sacrifice r2 at Blueridge; capture r1 at Goldie; capture r1 at Jerzy

@@ -1,0 +1,31 @@
+Twoshort (0, r1b3) g3-
+Shmil1 (1, b2y1) -g3
+build g1 at Twoshort
+build g1 at Shmil1
+convert g1 to y1 at Twoshort
+move g1 from Shmil1 to Rudy (r3)
+build g1 at Twoshort
+build g1 at Rudy
+build g2 at Twoshort
+build g2 at Shmil1
+convert g2 to y2 at Twoshort
+build g2 at Shmil1
+move y1 from Twoshort to Bluonia (b2)
+convert g2 to b2 at Shmil1
+build y1 at Twoshort
+build g2 at Rudy
+move y1 from Twoshort to Yolonda (y2)
+move b2 from Shmil1 to Rudy
+sacrifice g3 at Twoshort; build y2 at Bluonia; build y3 at Bluonia; build y3 at Twoshort
+convert g3 to y3 at Shmil1
+move y2 from Bluonia to Grogar (g3)
+build g2 at Shmil1
+sacrifice y3 at Bluonia; move y1 from Yolonda to Grogar; move y1 from Grogar to Shmil1; move y2 from Grogar to Shmil1; catastrophe yellow at Shmil1
+convert g2 to r2 at Shmil1
+convert y2 to r2 at Twoshort
+convert g2 to y2 at Rudy
+move y3 from Twoshort to Shmil1
+sacrifice y2 at Rudy; move g1 from Rudy to Shmil1; move g1 from Rudy to Shmil1
+sacrifice r2 at Twoshort; capture r2 at Shmil1; capture g2 at Shmil1
+sacrifice b2 at Rudy; convert g1 to r1 at Shmil1; convert g1 to y1 at Shmil1
+sacrifice r2 at Shmil1; capture r1 at Shmil1; capture y1 at Shmil1

@@ -1,0 +1,29 @@
+Thejackdiaz (0, g3b1) r3-
+Guntz1092 (1, b3g2) -y3
+build r1 at Thejackdiaz
+build y1 at Guntz1092
+convert r3 to y3 at Thejackdiaz
+build y1 at Guntz1092
+build r1 at Thejackdiaz
+convert y1 to g1 at Guntz1092
+move r1 from Thejackdiaz to Cyril (b2)
+move g1 from Guntz1092 to Justin (y1)
+build r1 at Thejackdiaz
+build g1 at Justin
+convert r1 to g1 at Thejackdiaz
+move y1 from Guntz1092 to Justin
+build g2 at Thejackdiaz
+build g2 at Justin
+move g2 from Thejackdiaz to Cyril
+move g1 from Justin to Jack (b2)
+build g3 at Cyril
+build g3 at Jack
+sacrifice y3 at Thejackdiaz; move r1 from Cyril to Buffalo (y1); move g3 from Cyril to Buffalo; move g3 from Buffalo to Guntz1092
+build y2 at Guntz1092
+sacrifice r1 at Buffalo; capture y3 at Guntz1092
+move g1 from Justin to Guntz1092
+convert g3 to r3 at Guntz1092
+sacrifice g2 at Justin; build g2 at Guntz1092; build y1 at Guntz1092
+capture y2 at Guntz1092
+sacrifice g3 at Jack; build g3 at Jack; build y2 at Guntz1092; build y2 at Justin; catastrophe yellow at Guntz1092
+convert r3 to g3 at Guntz1092; catastrophe green at Guntz1092

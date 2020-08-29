@@ -1,0 +1,70 @@
+Evilaxe (0, y2b1) g3-
+Mrstickman (1, b3g2) -y3
+build g1 at Evilaxe
+build y1 at Mrstickman
+convert g1 to y1 at Evilaxe
+convert y1 to b1 at Mrstickman
+build g1 at Evilaxe
+build y1 at Mrstickman
+convert g1 to r1 at Evilaxe
+convert y1 to r1 at Mrstickman
+build y1 at Evilaxe
+build b1 at Mrstickman
+convert g3 to b3 at Evilaxe
+convert b1 to g1 at Mrstickman
+convert y1 to g1 at Evilaxe
+build y1 at Mrstickman
+build g1 at Evilaxe
+move g1 from Mrstickman to Lorem (b1)
+move g1 from Evilaxe to New_Derbyshire (b3)
+build g2 at Lorem
+build g2 at New_Derbyshire
+build g3 at Lorem
+sacrifice y1 at Evilaxe; move g1 from New_Derbyshire to Lorem; catastrophe green at Lorem
+build y1 at Mrstickman
+build g1 at New_Derbyshire
+move y1 from Mrstickman to Ipsum (b1)
+sacrifice g2 at New_Derbyshire; build g1 at New_Derbyshire; build g2 at Evilaxe
+build b2 at Mrstickman
+move g1 from Evilaxe to Sindern (y3)
+move b2 from Mrstickman to Ipsum
+build g2 at Sindern
+convert y3 to g3 at Mrstickman
+build g3 at Evilaxe
+build g3 at Mrstickman
+convert g2 to b2 at Evilaxe
+move g3 from Mrstickman to Ipsum
+move b2 from Evilaxe to Sindern
+build g2 at Ipsum
+move g1 from Sindern to Ipsum
+convert g2 to r2 at Ipsum
+build b2 at Sindern
+capture g1 at Ipsum
+build g2 at Evilaxe
+move g1 from Ipsum to Dolor (y3)
+move g3 from Evilaxe to Sindern
+move r2 from Ipsum to Dolor
+convert g2 to y2 at Sindern
+pass
+convert b2 to g2 at Sindern
+move b2 from Ipsum to Dolor
+move b2 from Sindern to Brent (y1)
+build b2 at Dolor
+sacrifice y2 at Sindern; move g3 from Sindern to Evilaxe; move b3 from Evilaxe to Dolor
+move b2 from Dolor to Brent
+sacrifice r1 at Evilaxe; capture r2 at Dolor
+move b2 from Dolor to Sit (r1)
+convert g3 to y3 at Evilaxe
+build g3 at Ipsum
+sacrifice y3 at Evilaxe; move g1 from New_Derbyshire to Ipsum; move g1 from New_Derbyshire to Ipsum; move b3 from Dolor to Evilaxe; catastrophe green at Ipsum
+sacrifice g3 at Mrstickman; build b3 at Sit; build y2 at Mrstickman; build y2 at Ipsum
+capture g1 at Dolor
+convert b3 to y3 at Sit
+move g1 from Dolor to Brent
+move b2 from Brent to Sindern
+build b3 at Brent
+sacrifice y3 at Sit; move b2 from Sit to Sindern; move b2 from Sindern to Evilaxe; move b2 from Sindern to Evilaxe; catastrophe blue at Evilaxe
+convert b3 to y3 at Brent
+move y1 from Mrstickman to Brent
+move y3 from Brent to Evilaxe
+sacrifice y2 at Mrstickman; move y2 from Ipsum to Evilaxe; move y1 from Ipsum to Evilaxe; catastrophe yellow at Evilaxe

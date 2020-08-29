@@ -1,0 +1,40 @@
+Ts52 (0, y1b2) g3-
+Mathochist (1, y1b3) -g3
+build g1 at Ts52
+build g1 at Mathochist
+move g1 from Ts52 to Gonzo (b3)
+convert g1 to y1 at Mathochist
+build g1 at Ts52
+build y2 at Mathochist
+convert g1 to r1 at Ts52
+build g1 at Mathochist
+build r1 at Ts52
+move y2 from Mathochist to Kermit (b2)
+move r1 from Ts52 to Gonzo
+build y2 at Mathochist
+build r1 at Ts52
+move g1 from Mathochist to Kermit
+build r2 at Ts52
+build y2 at Kermit
+move r2 from Ts52 to Bigbird (y3)
+build y3 at Kermit
+build r2 at Ts52
+convert y3 to r3 at Kermit
+move r2 from Ts52 to Zoe (y3)
+build y3 at Kermit
+convert r1 to b1 at Ts52
+build r1 at Kermit
+build r2 at Gonzo
+move r3 from Kermit to Bigbird
+build r3 at Ts52
+build r3 at Kermit
+move b1 from Ts52 to Zoe
+move g1 from Kermit to Bigbird
+capture g1 at Bigbird
+capture r2 at Bigbird
+move g1 from Bigbird to Ts52
+move y2 from Kermit to Bigbird
+move r3 from Ts52 to Oscar (g3)
+move r3 from Kermit to Zoe
+pass
+capture r2 at Zoe

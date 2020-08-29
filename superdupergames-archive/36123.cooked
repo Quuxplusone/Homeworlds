@@ -1,0 +1,44 @@
+Eliscinsky (0, r1b2) g3-
+Dlwillson (1, r3b1) -g3
+build g1 at Eliscinsky
+build g1 at Dlwillson
+convert g1 to r1 at Eliscinsky
+convert g1 to r1 at Dlwillson
+build r2 at Eliscinsky
+build r2 at Dlwillson
+build g1 at Eliscinsky
+convert r2 to y2 at Dlwillson
+convert r2 to y2 at Eliscinsky
+build g1 at Dlwillson
+build r2 at Eliscinsky
+build r2 at Dlwillson
+convert r2 to y2 at Eliscinsky
+move r2 from Dlwillson to Sea (b2)
+move y2 from Eliscinsky to Kronos (g3)
+move g1 from Dlwillson to Sea
+move r1 from Eliscinsky to Kronos
+move r1 from Dlwillson to Field (g2)
+build r2 at Kronos
+build r2 at Sea
+move g1 from Eliscinsky to Regula (b3)
+build r3 at Field
+build y1 at Kronos
+build y1 at Dlwillson
+move y1 from Kronos to Betazed (b1)
+convert y1 to b1 at Dlwillson
+move y1 from Betazed to Takara (b2)
+move b1 from Dlwillson to Field
+sacrifice g3 at Eliscinsky; build y1 at Takara; build y1 at Takara; build y3 at Eliscinsky
+convert r3 to y3 at Field
+move r2 from Kronos to Takara
+build y3 at Field
+move r1 from Kronos to Talos4 (g2)
+move y3 from Field to Kronos
+convert y2 to g2 at Eliscinsky
+sacrifice r1 at Field; capture y2 at Kronos
+sacrifice y1 at Takara; move g1 from Regula to Takara
+build y1 at Dlwillson
+convert y3 to g3 at Eliscinsky
+sacrifice y3 at Kronos; move g3 from Dlwillson to Sea; move g3 from Sea to Kronos; move g3 from Kronos to Eliscinsky
+sacrifice g3 at Eliscinsky; build g1 at Eliscinsky; build g3 at Eliscinsky; build y2 at Takara
+catastrophe green at Eliscinsky

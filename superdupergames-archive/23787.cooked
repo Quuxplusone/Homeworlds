@@ -1,0 +1,41 @@
+Wil (0, r2b1) g3-
+Nupanick (1, b2g3) -y3
+build g1 at Wil
+build y1 at Nupanick
+convert g1 to y1 at Wil
+convert y1 to g1 at Nupanick
+build g1 at Wil
+build y1 at Nupanick
+convert g1 to b1 at Wil
+move y1 from Nupanick to Pitstop (g1)
+build b1 at Wil
+build y1 at Pitstop
+move b1 from Wil to Fortcourage (g3)
+build y2 at Pitstop
+build y2 at Wil
+move y1 from Pitstop to Coruscant (b3)
+build b2 at Wil
+build y2 at Nupanick
+convert b2 to r2 at Wil
+convert y2 to g2 at Nupanick
+move r2 from Wil to Coruscant
+move y1 from Coruscant to Aislefive (b2)
+build g1 at Wil
+move y2 from Pitstop to Aislefive
+build b2 at Fortcourage
+build y2 at Pitstop
+build b3 at Fortcourage
+convert y2 to g2 at Aislefive
+convert b3 to y3 at Fortcourage
+convert g1 to r1 at Nupanick
+build b3 at Wil
+build y2 at Pitstop
+build y3 at Fortcourage
+sacrifice y2 at Pitstop; move y2 from Pitstop to Fortcourage; move y1 from Pitstop to Fortcourage; catastrophe yellow at Fortcourage
+build b3 at Fortcourage
+build y1 at Aislefive
+convert b3 to y3 at Fortcourage
+move g2 from Aislefive to Catplanet (b3)
+build y2 at Fortcourage
+move y1 from Aislefive to Catplanet
+sacrifice y2 at Wil; move y2 from Fortcourage to Bedrock (g1); move g1 from Wil to Coruscant

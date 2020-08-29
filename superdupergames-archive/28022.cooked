@@ -1,0 +1,50 @@
+Jeep (0, y2b1) g3-
+Wil (1, b3y1) -g3
+build g1 at Jeep
+build g1 at Wil
+convert g1 to y1 at Jeep
+convert g1 to y1 at Wil
+build y2 at Jeep
+build y2 at Wil
+move y2 from Jeep to Bigblue (b3)
+move y1 from Wil to G2 (g2)
+build g1 at Jeep
+build y3 at G2
+sacrifice g1 at Jeep; build y3 at Bigblue
+move y3 from G2 to B3 (b3)
+convert y2 to g2 at Bigblue
+build g1 at Wil
+build g1 at Jeep
+build y2 at G2
+move g1 from Jeep to Bank (y3)
+convert g1 to r1 at Wil
+convert y1 to r1 at Jeep
+build y1 at G2
+move y3 from Bigblue to Medblue (b2)
+build g1 at Wil
+sacrifice g1 at Bank; build y3 at Medblue
+sacrifice y3 at B3; move y1 from G2 to Bigblue; move y1 from Bigblue to Medblue; move y2 from Wil to Medblue; catastrophe yellow at Medblue
+convert g2 to y2 at Bigblue
+move y1 from G2 to G3 (g3)
+build g1 at Jeep
+convert g1 to b1 at Wil
+convert g1 to b1 at Jeep
+convert b1 to y1 at Wil
+move y2 from Bigblue to Medgreen (g2)
+build y3 at G2
+build y3 at Medgreen
+sacrifice y2 at G2; move y1 from G3 to Medgreen; move y1 from Wil to Medgreen; catastrophe yellow at Medgreen
+build g1 at Jeep
+build y1 at G2
+build b1 at Jeep
+build r1 at Wil
+build r2 at Jeep
+build r2 at Wil
+build r2 at Jeep
+move r1 from Wil to G2
+convert r2 to y2 at Jeep
+build r2 at G2
+move g1 from Jeep to Changer (b3)
+move r2 from G2 to Changer
+sacrifice g1 at Changer; build g1 at Jeep
+sacrifice g3 at Wil; build r3 at Changer; build r3 at G2; build r3 at Wil

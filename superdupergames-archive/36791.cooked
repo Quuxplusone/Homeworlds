@@ -1,0 +1,49 @@
+Layana (0, b2y1) g3-
+Babamots (1, b2) -g3
+build g1 at Layana
+build g1 at Babamots
+convert g1 to y1 at Layana
+convert g1 to y1 at Babamots
+build y2 at Layana
+build y2 at Babamots
+move y1 from Layana to Nausicaa (g3)
+convert y1 to r1 at Babamots
+build g1 at Layana
+build y1 at Babamots
+convert g1 to r1 at Layana
+move y1 from Babamots to Orion (g1)
+build g1 at Layana
+build g1 at Babamots
+convert g1 to b1 at Layana
+convert g1 to b1 at Babamots
+move y2 from Layana to Trill (r3)
+build g1 at Babamots
+move b1 from Layana to Trill
+build r1 at Babamots
+build r2 at Layana
+move r1 from Babamots to Bolarus (b1)
+build g1 at Layana
+build r2 at Babamots
+move g1 from Layana to Trill
+move r2 from Babamots to Trill
+capture r2 at Trill
+sacrifice y2 at Babamots; move r1 from Babamots to Trill; move r1 from Bolarus to Trill; catastrophe red at Trill
+build y2 at Nausicaa
+convert g1 to r1 at Babamots
+convert r1 to b1 at Layana
+build y2 at Orion
+move b1 from Layana to Nausicaa
+move y1 from Orion to Babamots
+build b1 at Nausicaa
+move b1 from Babamots to Orion
+move b1 from Nausicaa to Wolf359 (g1)
+sacrifice g3 at Babamots; build y2 at Orion; build y3 at Babamots; build b2 at Orion
+build b3 at Wolf359
+sacrifice y2 at Orion; move y1 from Babamots to Nausicaa; move y2 from Orion to Nausicaa; catastrophe yellow at Nausicaa
+convert b3 to y3 at Wolf359
+build b3 at Orion
+build b3 at Wolf359
+sacrifice y3 at Babamots; move b1 from Orion to Nausicaa; move b2 from Orion to Nausicaa; move b3 from Orion to Nausicaa; catastrophe blue at Nausicaa
+move b3 from Wolf359 to Babamots
+convert r1 to g1 at Babamots
+sacrifice r2 at Layana; capture g1 at Babamots

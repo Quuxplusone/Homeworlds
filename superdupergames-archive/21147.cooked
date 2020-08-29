@@ -1,0 +1,94 @@
+Onii77 (0, g3b2) r3-
+Disaac (1, g2y1) -b3
+build r1 at Onii77
+build b1 at Disaac
+convert r1 to y1 at Onii77
+move b1 from Disaac to Verdance (g3)
+build r1 at Onii77
+build b1 at Disaac
+move r1 from Onii77 to Evo (g1)
+convert b1 to r1 at Disaac
+build y1 at Onii77
+build b1 at Disaac
+build y2 at Onii77
+build b1 at Verdance
+move y2 from Onii77 to Evo
+build b2 at Verdance
+move y2 from Evo to Verdance
+sacrifice r1 at Disaac; capture y2 at Verdance
+build r1 at Evo
+convert b2 to r2 at Verdance
+build y2 at Onii77
+build y2 at Verdance
+sacrifice y2 at Onii77; move r3 from Onii77 to Evo; move r3 from Evo to Verdance
+sacrifice y2 at Verdance; move r2 from Verdance to Evo; move r2 from Evo to Onii77
+capture y2 at Verdance
+capture y1 at Onii77
+sacrifice y2 at Verdance; move r3 from Verdance to Evo; move r3 from Evo to Onii77
+build r1 at Onii77
+capture y1 at Onii77
+build r2 at Onii77; catastrophe red at Onii77
+build y2 at Onii77
+build b2 at Verdance
+sacrifice y1 at Onii77; move r1 from Evo to Verdance
+convert b2 to r2 at Verdance
+sacrifice y1 at Onii77; move r1 from Verdance to Disaac
+build r1 at Verdance
+capture b1 at Disaac
+sacrifice r2 at Verdance; capture r1 at Disaac; capture b1 at Disaac
+build r2 at Evo
+build r2 at Verdance
+build y1 at Onii77
+convert b1 to y1 at Verdance
+build y2 at Onii77
+move r1 from Verdance to Toad (g1)
+convert y1 to b1 at Onii77
+build r2 at Disaac
+sacrifice b1 at Onii77; convert r2 to g2 at Evo
+move r2 from Verdance to Evo
+capture r2 at Evo
+move r2 from Disaac to Verdance
+move y2 from Onii77 to Evo
+build r2 at Disaac
+move r1 from Evo to Onii77
+build r3 at Toad
+sacrifice g2 at Evo; build r3 at Onii77; build r3 at Evo
+sacrifice b1 at Disaac; convert r3 to g3 at Toad
+move r3 from Evo to Verdance
+sacrifice g3 at Toad; build r3 at Verdance; build y1 at Verdance; build y2 at Verdance
+build y3 at Onii77
+sacrifice r2 at Verdance; capture r3 at Verdance
+move y2 from Evo to Verdance; catastrophe yellow at Verdance
+convert b1 to y1 at Verdance
+move r3 from Onii77 to Toad
+move r3 from Verdance to Evo
+build r2 at Evo
+capture r2 at Evo
+move r1 from Onii77 to Evo; catastrophe red at Evo
+convert r2 to y2 at Disaac
+capture r1 at Toad
+move y1 from Verdance to Evo2 (g1)
+convert y2 to r2 at Onii77
+build b1 at Disaac
+build y1 at Onii77
+build y2 at Evo2
+move y1 from Onii77 to Toad
+move y2 from Disaac to Verdance
+convert y3 to b3 at Onii77
+build y2 at Verdance
+move r3 from Toad to Alac (y3)
+move y2 from Verdance to Toad
+build b1 at Onii77
+sacrifice r1 at Disaac; capture r1 at Toad
+build y3 at Toad
+build y3 at Verdance
+sacrifice b1 at Onii77; convert y3 to r3 at Toad
+build r1 at Toad
+capture y2 at Toad
+build r1 at Verdance
+move r3 from Toad to Rity (y3)
+move r1 from Verdance to Evo2
+sacrifice r2 at Onii77; capture r1 at Toad; capture r1 at Toad
+build r2 at Evo2
+build b1 at Onii77
+sacrifice y3 at Verdance; move b1 from Disaac to Verdance; move b1 from Verdance to Evo2; move b1 from Evo2 to Onii77; catastrophe blue at Onii77

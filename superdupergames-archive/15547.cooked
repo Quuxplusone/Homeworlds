@@ -1,0 +1,48 @@
+Shmil1 (0, b2y1) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Shmil1
+build g1 at Dlwillson
+move g1 from Shmil1 to Modry (b3)
+convert g1 to y1 at Dlwillson
+build g1 at Modry
+build y1 at Dlwillson
+convert g1 to r1 at Modry
+build y2 at Dlwillson
+build g1 at Modry
+convert y2 to r2 at Dlwillson
+build r1 at Modry
+build y2 at Dlwillson
+build g1 at Shmil1
+build g2 at Dlwillson
+build g2 at Shmil1
+sacrifice y2 at Dlwillson; move r2 from Dlwillson to Temp (y2); move r2 from Temp to Modry
+convert g2 to r2 at Shmil1
+sacrifice g2 at Dlwillson; build r2 at Modry; build g2 at Dlwillson; catastrophe red at Modry
+build g2 at Modry
+sacrifice g3 at Dlwillson; build y2 at Dlwillson; build g2 at Dlwillson; build g3 at Dlwillson
+convert g2 to y2 at Modry
+move g2 from Dlwillson to Dingo (b2)
+move g1 from Modry to Dingo
+convert g2 to r2 at Dingo
+sacrifice g3 at Shmil1; build g2 at Modry; build g2 at Modry; build g3 at Shmil1
+sacrifice y2 at Dlwillson; move g2 from Dlwillson to Dingo; move g2 from Dingo to Modry; catastrophe green at Modry
+move g1 from Shmil1 to Modry
+move y1 from Dlwillson to Dingo
+build r1 at Shmil1
+build y2 at Dlwillson
+build g1 at Dingo
+move y1 from Dlwillson to Sparkle (b2)
+sacrifice y2 at Modry; move g1 from Dingo to Dlwillson; move g1 from Dingo to Dlwillson
+sacrifice g3 at Dlwillson; build y2 at Dingo; build y2 at Sparkle; build y3 at Dlwillson
+convert g1 to r1 at Dlwillson
+capture r1 at Dlwillson
+capture r1 at Dlwillson
+sacrifice r2 at Dingo; capture r1 at Dlwillson; capture g1 at Dlwillson
+build r2 at Shmil1
+convert y3 to g3 at Dlwillson
+convert g3 to y3 at Shmil1
+build y3 at Dlwillson
+move r2 from Shmil1 to Modry
+move y3 from Dlwillson to Dingo
+sacrifice y3 at Shmil1; move r2 from Modry to Dingo; move r1 from Shmil1 to Modry; move r1 from Modry to Sparkle
+sacrifice y2 at Dingo; move y3 from Dingo to Modry; move y3 from Modry to Shmil1

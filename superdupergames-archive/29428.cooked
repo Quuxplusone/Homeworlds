@@ -1,0 +1,81 @@
+Felix (0, y3b1) g3-
+Ts52 (1, b2y3) -g3
+build g1 at Felix
+build g1 at Ts52
+convert g1 to b1 at Felix
+convert g1 to b1 at Ts52
+build b2 at Felix
+move b1 from Ts52 to Kermit (g1)
+move b2 from Felix to Rim (y2)
+build g1 at Ts52
+build g1 at Felix
+build g2 at Ts52
+move g1 from Felix to Rim
+convert g2 to y2 at Ts52
+build g2 at Rim
+move y2 from Ts52 to Kermit
+build g2 at Felix
+move g1 from Ts52 to Bigbird (y1)
+move g2 from Rim to Bank (g3)
+build g2 at Ts52
+move g2 from Felix to Ram (y2)
+move y2 from Kermit to Bank
+convert g1 to r1 at Rim
+convert g2 to r2 at Ts52
+sacrifice r1 at Rim; capture y2 at Bank
+build g1 at Ts52
+build g2 at Felix
+convert g1 to y1 at Ts52
+sacrifice g3 at Felix; build g1 at Ram; build g3 at Felix; build b2 at Rim
+build b3 at Kermit
+sacrifice g3 at Felix; build y1 at Bank; build y3 at Bank; build g3 at Felix
+move y1 from Ts52 to Kermit
+sacrifice y1 at Bank; move b2 from Rim to Rom (y1)
+move b3 from Kermit to Ram
+convert b1 to r1 at Felix
+build r1 at Ts52
+sacrifice g3 at Felix; build g3 at Felix; build r1 at Felix; build r2 at Felix
+sacrifice r2 at Ts52; capture g2 at Ram; capture g1 at Ram
+move y2 from Bank to Kermit
+sacrifice g2 at Ram; build b1 at Ram; build b3 at Kermit
+sacrifice r2 at Felix; capture b1 at Kermit; capture y1 at Kermit
+convert b3 to r3 at Kermit
+sacrifice y2 at Kermit; move y1 from Kermit to Rum (y2); move b1 from Kermit to Rum
+convert b3 to r3 at Ram
+sacrifice g3 at Felix; build b3 at Rom; build b3 at Rim; build b3 at Rum
+build r2 at Ram
+move b3 from Rim to Felix
+sacrifice g3 at Ts52; build r2 at Kermit; build r2 at Kermit; build r3 at Ts52
+move r1 from Felix to Rim
+convert r3 to g3 at Ram
+build r3 at Felix
+convert r3 to g3 at Ts52
+sacrifice g2 at Bank; build g2 at Felix; build r3 at Rim
+build g2 at Ts52
+move r3 from Rim to Bigbird
+move g1 from Bigbird to Rum
+move r1 from Rim to Kermit; catastrophe red at Kermit
+build r1 at Ram
+sacrifice r1 at Felix; capture g1 at Rum
+convert g3 to r3 at Ts52
+sacrifice g2 at Felix; build r1 at Bigbird; build g1 at Felix
+sacrifice g3 at Ram; build g2 at Ts52; build g3 at Ram; build g3 at Ts52
+sacrifice y3 at Bank; move g1 from Rum to Bigbird; move g1 from Bigbird to Ts52; move r1 from Bigbird to Ts52; catastrophe green at Ts52
+convert r3 to y3 at Ts52
+capture r1 at Ts52
+sacrifice r2 at Ram; capture r1 at Ts52; capture r1 at Ts52
+sacrifice b2 at Rim; convert b2 to y2 at Rom; convert b1 to g1 at Rum
+build r2 at Ram
+sacrifice g2 at Felix; build g2 at Felix; build b1 at Rom
+build b2 at Ram
+move y1 from Rum to Bigbird
+move b1 from Ram to Felix
+move y1 from Bigbird to Ts52
+convert y3 to g3 at Ts52
+sacrifice g2 at Felix; build g2 at Felix; build y3 at Ts52
+capture y3 at Ts52
+move y2 from Rom to Ts52; catastrophe yellow at Ts52
+convert r1 to y1 at Ts52
+sacrifice b3 at Felix; convert r3 to b3 at Bigbird; convert b3 to y3 at Rum
+sacrifice g3 at Ram; build b2 at Felix; build b3 at Felix; build y2 at Ts52; catastrophe blue at Felix
+sacrifice y3 at Rum; move b3 from Bigbird to Ts52; move b3 from Rom to Ts52; move b1 from Rom to Ts52; catastrophe blue at Ts52

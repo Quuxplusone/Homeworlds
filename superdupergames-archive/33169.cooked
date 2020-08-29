@@ -1,0 +1,29 @@
+Babamots (0, b1y2) g3-
+Remneb (1, r1b2) -g3
+build g1 at Babamots
+build g1 at Remneb
+convert g1 to r1 at Babamots
+convert g1 to y1 at Remneb
+build r1 at Babamots
+build g1 at Remneb
+build r2 at Babamots
+convert g1 to b1 at Remneb
+move r2 from Babamots to Galorndon (b3)
+build g1 at Remneb
+build r2 at Babamots
+build y1 at Remneb
+move r2 from Babamots to Vulcan (b3)
+move y1 from Remneb to Malvern (g3)
+sacrifice g3 at Babamots; build r2 at Vulcan; build r3 at Galorndon; build r3 at Babamots
+move g1 from Remneb to Altair (y3)
+convert r3 to g3 at Galorndon
+build g1 at Remneb
+build r3 at Galorndon
+move g1 from Remneb to Sand (y3)
+build r3 at Galorndon
+build y1 at Remneb
+convert r2 to y2 at Vulcan
+move y1 from Remneb to Polix (b3)
+sacrifice y2 at Vulcan; move g3 from Galorndon to Remneb; move r3 from Galorndon to Remneb
+capture g3 at Remneb
+sacrifice r2 at Galorndon; capture g3 at Remneb; capture g3 at Remneb

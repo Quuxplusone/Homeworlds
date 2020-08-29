@@ -1,0 +1,20 @@
+Matrixfrog (0, g1y3) b3-
+Twoshort (1, b1y2) -g3
+build b1 at Matrixfrog
+build g1 at Twoshort
+build b1 at Matrixfrog
+build g1 at Twoshort
+convert b3 to g3 at Matrixfrog
+move g1 from Twoshort to Yolonda (y3)
+move b1 from Matrixfrog to Jeremy (y2)
+build g2 at Yolonda
+build g2 at Matrixfrog
+move g2 from Yolonda to Yak (y2)
+move g3 from Matrixfrog to Jeremy
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g3 at Yak; build g3 at Twoshort
+build b2 at Matrixfrog
+move g3 from Yak to Matrixfrog
+sacrifice g2 at Matrixfrog; build g2 at Jeremy; build b2 at Jeremy
+convert g3 to r3 at Twoshort
+move g3 from Jeremy to Matrixfrog
+sacrifice r3 at Twoshort; capture g3 at Matrixfrog; capture b2 at Matrixfrog; capture b1 at Matrixfrog

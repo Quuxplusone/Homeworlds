@@ -1,0 +1,33 @@
+Ts52 (0, y1b2) g3-
+Wmreed (1, b3g1) -y3
+build g1 at Ts52
+build y1 at Wmreed
+move g1 from Ts52 to Grover (b3)
+convert y1 to r1 at Wmreed
+build g1 at Ts52
+build y1 at Wmreed
+build g2 at Grover
+convert y1 to b1 at Wmreed
+build g2 at Grover
+build y1 at Wmreed
+convert g2 to r2 at Grover
+convert y3 to g3 at Wmreed
+build g2 at Grover
+build r1 at Wmreed
+convert g2 to y2 at Grover
+move r1 from Wmreed to Xander (g2)
+move r2 from Grover to Xander
+build y1 at Wmreed
+capture r1 at Xander
+move y1 from Wmreed to Willow (b2)
+sacrifice g3 at Ts52; build g2 at Ts52; build g3 at Ts52; build g3 at Grover
+build y2 at Wmreed
+move g2 from Grover to Willow
+move y1 from Willow to Cordelia (b1)
+convert g3 to y3 at Grover
+move g3 from Wmreed to Willow
+convert g3 to r3 at Ts52
+sacrifice y1 at Wmreed; move g3 from Willow to Wmreed
+sacrifice g2 at Ts52; build g2 at Willow; build g3 at Ts52
+convert g3 to b3 at Wmreed
+sacrifice y2 at Grover; move g2 from Willow to Wmreed; move g2 from Willow to Wmreed

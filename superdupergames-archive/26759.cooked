@@ -1,0 +1,49 @@
+Gungho (0, g3y1) b3-
+Mneme (1, r1b2) -g3
+build b1 at Gungho
+build g1 at Mneme
+build b1 at Gungho
+convert g1 to b1 at Mneme
+move b1 from Gungho to Mold (g2)
+build b2 at Mneme
+build b2 at Mold
+convert b1 to y1 at Mneme
+convert b2 to y2 at Mold
+move b2 from Mneme to Forest (g3)
+build b1 at Mold
+build g1 at Mneme
+convert b1 to r1 at Mold
+convert g1 to r1 at Mneme
+build r2 at Mold
+move r1 from Mneme to Forest
+convert r1 to b1 at Mold
+build g1 at Mneme
+convert b1 to g1 at Mold
+move g1 from Mneme to Ocean (b3)
+move g1 from Mold to Puddle (b3)
+build g1 at Mneme
+build g2 at Puddle
+move g1 from Mneme to Sol (y3)
+move r2 from Mold to Ocean
+sacrifice g1 at Ocean; build y1 at Mneme
+build y2 at Mold
+move y1 from Mneme to Forest
+sacrifice y2 at Mold; move g1 from Puddle to Mneme; move g2 from Puddle to Mneme
+sacrifice g3 at Mneme; build y2 at Forest; build y2 at Forest; build y3 at Mneme
+build y3 at Mold
+capture g2 at Mneme
+move y2 from Mold to Forest; catastrophe yellow at Forest
+capture g1 at Mneme
+move y3 from Mold to Forest
+sacrifice g2 at Mneme; build r1 at Forest; build r2 at Forest
+sacrifice r2 at Ocean; capture r2 at Forest; capture b2 at Forest
+build r2 at Forest; catastrophe red at Forest
+convert b3 to g3 at Gungho
+convert y1 to r1 at Mneme
+sacrifice g3 at Gungho; build b1 at Mold; build b2 at Mold; build b3 at Gungho
+build y1 at Mneme
+build b3 at Forest
+move g1 from Mneme to No (b3)
+sacrifice b2 at Forest; convert b2 to y2 at Mold; convert b3 to r3 at Gungho
+convert y3 to g3 at Mneme
+sacrifice y2 at Mold; move b3 from Forest to Mneme; move y3 from Forest to Mneme

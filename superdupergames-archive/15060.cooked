@@ -1,0 +1,30 @@
+Maxl (0, b2y1) g3-
+Jesse (1, g3b1) -y3
+build g1 at Maxl
+build y1 at Jesse
+build g1 at Maxl
+build y1 at Jesse
+move g1 from Maxl to Sectorz (g3)
+move y1 from Jesse to Moon (b2)
+convert g1 to b1 at Maxl
+build y2 at Jesse
+move b1 from Maxl to Sectorz
+convert y2 to b2 at Jesse
+build b1 at Sectorz
+build y2 at Jesse
+build g1 at Maxl
+build b3 at Jesse
+convert b1 to r1 at Sectorz
+move y2 from Jesse to Groon (g2)
+build r1 at Sectorz
+build y2 at Groon
+move g1 from Maxl to Saviour (y3)
+build y2 at Jesse
+build g1 at Saviour
+convert y2 to r2 at Jesse
+move g1 from Saviour to Groon
+build y2 at Jesse
+build g2 at Groon
+move y2 from Jesse to Grood (g2)
+move g1 from Saviour to Groon; catastrophe green at Groon
+build y2 at Jesse

@@ -1,0 +1,35 @@
+Ts52 (0, y1b2) g3-
+Aleis (1, g3y2) -b3
+build g1 at Ts52
+build b1 at Aleis
+convert g1 to b1 at Ts52
+convert b1 to g1 at Aleis
+build g1 at Ts52
+build b1 at Aleis
+move b1 from Ts52 to Kermit (g3)
+convert b1 to r1 at Aleis
+build b1 at Kermit
+move r1 from Aleis to Porcky (g1)
+convert b1 to r1 at Kermit
+build b1 at Aleis
+build g2 at Ts52
+build r1 at Porcky
+build r2 at Kermit
+build r2 at Porcky
+convert b1 to y1 at Kermit
+convert b1 to y1 at Aleis
+move r1 from Kermit to Porcky; catastrophe red at Porcky
+build b1 at Aleis
+build y2 at Kermit
+convert b1 to r1 at Aleis
+move g2 from Ts52 to Bigbird (y3)
+move y1 from Aleis to Elmer (g1)
+move y2 from Kermit to Grover (b1)
+build y2 at Elmer
+sacrifice g3 at Ts52; build g2 at Bigbird; build g2 at Ts52; build g3 at Ts52
+build y3 at Elmer
+move y1 from Kermit to Elmer; catastrophe yellow at Elmer
+convert b3 to y3 at Aleis
+move g2 from Ts52 to Zoe (y3)
+move g1 from Aleis to Grover
+sacrifice g3 at Ts52; build g1 at Zoe; build g3 at Ts52; build r1 at Kermit

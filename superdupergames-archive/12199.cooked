@@ -1,0 +1,69 @@
+Ts52 (0, b1y2) g3-
+Mathgod (1, b1g3) -b3
+build g1 at Ts52
+build b1 at Mathgod
+move g1 from Ts52 to Gonzo (b3)
+convert b3 to y3 at Mathgod
+build g1 at Ts52
+build b2 at Mathgod
+build g1 at Ts52
+convert b2 to g2 at Mathgod
+move g1 from Ts52 to Grover (b3)
+build g2 at Mathgod
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Grover; build g3 at Ts52
+move g2 from Mathgod to Yello (y2)
+convert g2 to r2 at Gonzo
+convert g2 to r2 at Mathgod
+build g2 at Gonzo
+build g2 at Yello
+sacrifice g3 at Grover; build g3 at Grover; build r1 at Gonzo; build r1 at Gonzo
+build b2 at Mathgod
+convert r1 to y1 at Gonzo
+move b2 from Mathgod to Yello
+build y1 at Gonzo
+sacrifice g2 at Yello; build b2 at Yello; build b2 at Mathgod
+move g1 from Ts52 to Rosalita (b3)
+move b2 from Yello to Rosalita
+move r2 from Gonzo to Ts52
+convert b2 to g2 at Rosalita
+build r1 at Gonzo
+build b2 at Yello
+move y1 from Gonzo to Ts52
+sacrifice b2 at Mathgod; convert g2 to r2 at Rosalita; convert b2 to g2 at Yello
+sacrifice g3 at Grover; build g3 at Rosalita; build r1 at Gonzo; build r3 at Ts52
+sacrifice g2 at Yello; build g2 at Yello; build r3 at Mathgod
+sacrifice r1 at Gonzo; capture r2 at Rosalita
+move r3 from Mathgod to Yello
+sacrifice g3 at Rosalita; build g3 at Grover; build r1 at Gonzo; build r3 at Rosalita
+build b2 at Yello
+move r1 from Gonzo to Zoe (y2)
+move g2 from Yello to Barry (y3)
+sacrifice g3 at Grover; build g3 at Grover; build y1 at Ts52; build y3 at Gonzo
+sacrifice g2 at Barry; build g2 at Yello; build y3 at Mathgod
+move g2 from Gonzo to Cookie (b2)
+move b1 from Mathgod to Yello
+move y1 from Ts52 to Rosalita
+sacrifice y3 at Mathgod; move b1 from Yello to Gonzo; move b2 from Yello to Gonzo; move b2 from Yello to Gonzo; catastrophe blue at Gonzo
+build g1 at Ts52
+move g2 from Yello to Ytoo (y3)
+sacrifice g3 at Grover; build g3 at Grover; build y1 at Ts52; build y3 at Rosalita
+sacrifice g2 at Ytoo; build g2 at Yello; build y3 at Mathgod
+move y1 from Ts52 to Grover
+move y3 from Mathgod to Bluetoe (b2)
+move r2 from Rosalita to Cookie
+move g2 from Yello to Grover
+move r3 from Ts52 to Grover
+sacrifice g2 at Grover; build g2 at Yello; build r1 at Yello
+move g3 from Grover to Zoe
+move g2 from Yello to Bello (b3)
+build r1 at Zoe
+move r1 from Yello to Bello
+move g3 from Zoe to Bello
+sacrifice g2 at Bello; build g2 at Yello
+sacrifice r1 at Zoe; capture r1 at Bello
+move g2 from Yello to Blue (b1)
+build r1 at Cookie
+move y3 from Mathgod to Cookie
+sacrifice y3 at Rosalita; move r3 from Grover to Cookie; move r3 from Cookie to Mathgod; move r3 from Rosalita to Cookie
+sacrifice r3 at Yello; capture r3 at Cookie; capture r2 at Cookie; capture g2 at Cookie
+capture r2 at Mathgod

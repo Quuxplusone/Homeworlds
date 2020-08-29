@@ -1,0 +1,9 @@
+Dlwillson (0, b3y1) g3-
+Trydnt (1, g3b2) -y3
+build g1 at Dlwillson
+build y1 at Trydnt
+convert g1 to y1 at Dlwillson
+build y2 at Trydnt
+build y2 at Dlwillson
+move y1 from Trydnt to G1 (g1)
+move y1 from Dlwillson to Field (g2)

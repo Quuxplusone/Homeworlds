@@ -1,0 +1,71 @@
+Felix (0, r3g2) b3-
+Velgarath2 (1, b1y2) -g3
+build b1 at Felix
+build g1 at Velgarath2
+convert b1 to y1 at Felix
+move g1 from Velgarath2 to Krypton (b3)
+build b1 at Felix
+build g1 at Velgarath2
+convert b1 to g1 at Felix
+build g2 at Krypton
+move g1 from Felix to Vergois (b1)
+convert g1 to y1 at Krypton
+build b1 at Felix
+move g2 from Krypton to Vergois
+build b2 at Felix
+convert g2 to b2 at Vergois
+convert b2 to r2 at Felix
+convert b2 to r2 at Vergois
+build b2 at Felix
+capture g1 at Vergois
+move b2 from Felix to Outward (g1)
+sacrifice g3 at Velgarath2; build g2 at Vergois; build g2 at Vergois; build g3 at Velgarath2
+convert b3 to g3 at Felix
+build g3 at Velgarath2
+sacrifice g3 at Felix; build b2 at Outward; build b2 at Felix; build b3 at Felix
+convert g3 to b3 at Velgarath2
+convert b3 to g3 at Felix
+sacrifice g3 at Velgarath2; build b3 at Velgarath2; build g3 at Velgarath2; build r1 at Vergois
+convert b2 to y2 at Outward
+convert g2 to y2 at Vergois
+sacrifice g3 at Felix; build y1 at Outward; build b2 at Outward; build y3 at Felix
+sacrifice b3 at Velgarath2; convert y1 to r1 at Krypton; convert b3 to y3 at Velgarath2; convert g1 to r1 at Velgarath2
+move r2 from Felix to Outward
+move r1 from Vergois to Felix
+capture r1 at Felix
+sacrifice y3 at Velgarath2; move r1 from Krypton to Vergois; move r1 from Vergois to Felix; move r2 from Vergois to Felix; catastrophe red at Felix
+build b3 at Felix
+build g1 at Vergois
+move b3 from Felix to Vergois
+move g1 from Vergois to Felix
+sacrifice r2 at Outward; capture g1 at Felix; capture y2 at Vergois
+convert g1 to y1 at Vergois
+convert b2 to r2 at Felix
+build g1 at Velgarath2
+sacrifice r2 at Felix; capture g2 at Vergois; capture y1 at Vergois
+move g1 from Velgarath2 to Alpha (y3)
+sacrifice y3 at Felix; move g1 from Felix to Rauros (g3); move y1 from Vergois to Saria (g2); move b3 from Vergois to Darunia (g3)
+build r1 at Velgarath2
+build y3 at Felix
+move r1 from Velgarath2 to Bravo (y3)
+convert y3 to r3 at Felix
+build r1 at Velgarath2
+build y3 at Felix
+move r1 from Bravo to Saria
+move y1 from Saria to Rauros
+build r2 at Saria
+build y3 at Vergois
+build r2 at Velgarath2
+build b2 at Darunia
+move r2 from Velgarath2 to Rauros
+move r3 from Felix to Rauros
+sacrifice r2 at Saria; capture g1 at Rauros; capture y1 at Rauros
+capture r2 at Rauros
+move y1 from Rauros to Velgarath2
+capture g1 at Rauros
+build r2 at Saria
+build b3 at Darunia
+sacrifice g1 at Alpha; build y3 at Velgarath2
+sacrifice y2 at Vergois; move y1 from Outward to Rauros; move y1 from Rauros to Velgarath2; catastrophe yellow at Velgarath2
+build g1 at Velgarath2
+sacrifice y3 at Vergois; move b3 from Darunia to Velgarath2; move b3 from Darunia to Velgarath2; move b2 from Darunia to Velgarath2; catastrophe blue at Velgarath2

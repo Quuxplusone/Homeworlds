@@ -1,0 +1,58 @@
+Panglott (0, r3b2) g3-
+Fogus (1, y1b2) -g3
+build g1 at Panglott
+build g1 at Fogus
+build g1 at Panglott
+build g2 at Fogus
+convert g1 to y1 at Panglott
+convert g2 to y2 at Fogus
+build g1 at Panglott
+build g2 at Fogus
+move g1 from Panglott to Acamar (b1)
+convert g1 to r1 at Fogus
+build y1 at Panglott
+build y2 at Fogus
+convert g1 to r1 at Acamar
+move y2 from Fogus to Eklund (g3)
+build y2 at Panglott
+build y3 at Eklund
+move y2 from Panglott to Acamar
+convert y2 to r2 at Fogus
+move y1 from Panglott to Acamar
+move r1 from Fogus to Eklund
+move g1 from Panglott to Acamar
+move y2 from Eklund to Kansil (g1)
+build y2 at Acamar
+sacrifice g2 at Fogus; build y3 at Eklund; build y3 at Kansil
+build g1 at Acamar
+build g2 at Fogus
+move y1 from Acamar to Telluride (r3)
+move g2 from Fogus to Telluride
+build g2 at Panglott
+build g2 at Telluride
+move y1 from Telluride to Banff (b1)
+move y3 from Eklund to Banff
+convert g1 to b1 at Acamar
+move r1 from Eklund to Banff
+sacrifice y2 at Acamar; move y1 from Banff to Eklund; move b1 from Acamar to Eklund
+move r2 from Fogus to Eklund
+move y1 from Eklund to Biloxi (b2)
+capture b1 at Eklund
+move g1 from Acamar to Biloxi
+move r2 from Eklund to Biloxi
+move g1 from Biloxi to Paducah (r3)
+capture y1 at Biloxi
+sacrifice g3 at Panglott; build g1 at Paducah; build g3 at Panglott; build y2 at Panglott
+build b3 at Eklund
+sacrifice y2 at Acamar; move g2 from Panglott to Acamar; move g2 from Acamar to Paducah
+sacrifice y2 at Kansil; move g2 from Telluride to Kansil; move g2 from Kansil to Paducah; catastrophe green at Paducah
+build g1 at Panglott
+convert y3 to b3 at Banff
+move y1 from Panglott to Acamar
+move r2 from Biloxi to Acamar
+move r1 from Acamar to Panglott
+sacrifice y3 at Eklund; move r2 from Acamar to Panglott; move r1 from Banff to Panglott; move b3 from Eklund to Fogus; catastrophe red at Panglott
+convert y1 to g1 at Acamar
+build b3 at Eklund
+sacrifice g3 at Panglott; build g2 at Acamar; build g2 at Acamar; build g3 at Panglott
+sacrifice y3 at Kansil; move b1 from Eklund to Panglott; move b3 from Eklund to Panglott; move b3 from Banff to Panglott; catastrophe blue at Panglott

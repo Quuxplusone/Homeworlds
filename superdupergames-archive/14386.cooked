@@ -1,0 +1,58 @@
+Face (0, r3b2) g3-
+Zackstack (1, b1r2) -g3
+build g1 at Face
+build g1 at Zackstack
+convert g3 to y3 at Face
+convert g1 to y1 at Zackstack
+build y1 at Face
+build g1 at Zackstack
+build g1 at Face
+move g1 from Zackstack to Crush (b3)
+build g2 at Face
+build g2 at Zackstack
+convert g1 to r1 at Face
+build y1 at Zackstack
+move y1 from Face to Trash (g1)
+sacrifice g3 at Zackstack; build g2 at Zackstack; build g3 at Zackstack; build g3 at Crush
+build g3 at Face
+convert g2 to r2 at Zackstack
+move g3 from Face to Trash
+move r2 from Zackstack to Crush
+move r1 from Face to Trash
+sacrifice g3 at Zackstack; build g2 at Crush; build g3 at Zackstack; build y2 at Zackstack
+convert g2 to b2 at Face
+convert g2 to y2 at Crush
+move g3 from Trash to Plaster (y3)
+move g3 from Crush to Stomp (b1)
+move y1 from Trash to Buzz (r3)
+move y2 from Zackstack to Buzz
+move y1 from Buzz to Waste (b2)
+sacrifice g3 at Zackstack; build g2 at Stomp; build g2 at Crush; build g3 at Zackstack
+move g3 from Plaster to Waste
+move r2 from Crush to Trash
+convert b2 to r2 at Face
+capture r1 at Trash
+move r2 from Face to Plaster (r1)
+sacrifice g3 at Zackstack; build g3 at Zackstack; build y2 at Crush; build y3 at Buzz
+build y3 at Waste
+move y3 from Buzz to Plaster
+sacrifice y1 at Waste; move r2 from Plaster to Waste
+move g1 from Crush to Plaster
+build y1 at Face
+move y2 from Crush to Trash
+move y1 from Face to Tank (r1)
+convert g3 to r3 at Stomp
+build g3 at Waste
+sacrifice y3 at Plaster; move r3 from Stomp to Face; move r2 from Trash to Face; move r1 from Trash to Face; catastrophe red at Face
+sacrifice g3 at Waste; build g3 at Waste; build y3 at Tank; build r1 at Waste
+convert y1 to b1 at Zackstack
+move g3 from Waste to Plaster
+move b1 from Zackstack to Buzz
+move g3 from Waste to Buzz
+sacrifice y2 at Buzz; move b1 from Buzz to Trash; move g1 from Plaster to Face
+move r2 from Waste to Trash
+sacrifice g2 at Zackstack; build b2 at Trash; build b3 at Trash
+sacrifice g3 at Buzz; build g2 at Plaster; build r2 at Waste; build r3 at Trash
+sacrifice y2 at Trash; move b1 from Trash to Face; move b2 from Trash to Face
+sacrifice y3 at Tank; move g3 from Plaster to Face; move g2 from Plaster to Face; move r1 from Waste to Goodgame (b3); catastrophe green at Face
+sacrifice y1 at Zackstack; move b3 from Trash to Face; catastrophe blue at Face

@@ -1,0 +1,29 @@
+Capi3101 (0, g1b2) y3-
+Maxlfusion (1, g3b2) -y3
+build y1 at Capi3101
+build y1 at Maxlfusion
+convert y1 to r1 at Capi3101
+move y1 from Maxlfusion to B1 (b1)
+build r1 at Capi3101
+build y1 at Maxlfusion
+convert r1 to g1 at Capi3101
+convert y1 to g1 at B1
+build y1 at Capi3101
+build g2 at B1
+build g2 at Capi3101
+move y1 from Maxlfusion to B1
+move g2 from Capi3101 to Advena (b3)
+move g1 from B1 to Topaz (y2)
+build g2 at Advena
+build y1 at Maxlfusion
+build g3 at Capi3101
+build g3 at Topaz
+sacrifice g3 at Capi3101; build g3 at Capi3101; build r1 at Capi3101; build y2 at Capi3101
+move g1 from Topaz to B1
+move y3 from Capi3101 to Advena
+convert g2 to r2 at B1
+convert y3 to r3 at Advena
+build g2 at B1
+sacrifice y1 at Capi3101; move r3 from Advena to B1
+move g2 from B1 to Advena
+capture r2 at B1

@@ -1,0 +1,57 @@
+Felix (0, r2b3) g3-
+Remneb (1, b2r1) -g3
+build g1 at Felix
+build g1 at Remneb
+convert g1 to r1 at Felix
+convert g1 to r1 at Remneb
+build r2 at Felix
+build g1 at Remneb
+convert r2 to y2 at Felix
+convert g1 to y1 at Remneb
+build r2 at Felix
+build r2 at Remneb
+move r2 from Felix to Out (g1)
+move r2 from Remneb to Wotan (y3)
+build r3 at Felix
+move r1 from Remneb to Gort (g3)
+build r3 at Out
+build r3 at Gort
+build y1 at Felix
+build g1 at Remneb
+move y1 from Felix to Out
+move y1 from Remneb to Gort
+convert r1 to b1 at Felix
+convert g1 to y1 at Remneb
+move b1 from Felix to Out
+build y2 at Remneb
+convert r3 to y3 at Out
+move y1 from Remneb to Gort
+build b1 at Out
+move y1 from Gort to Orel (g1)
+move r3 from Felix to Orel
+move y1 from Orel to Proton (g2)
+move b1 from Out to In (y3)
+build y2 at Gort
+build g1 at Felix
+build g2 at Remneb
+build b1 at Out
+sacrifice y2 at Remneb; move y1 from Proton to Out; move y1 from Gort to Out; catastrophe yellow at Out
+convert b1 to y1 at Out
+convert g2 to y2 at Remneb
+move g1 from Felix to Ent (b1)
+build g2 at Remneb
+build g2 at Felix
+move g2 from Remneb to Gort
+sacrifice g3 at Felix; build g2 at Ent; build g3 at Felix; build b2 at In
+move g2 from Gort to Mud (y1)
+sacrifice g3 at Felix; build g3 at Felix; build y1 at Felix; build y3 at Out
+move r3 from Gort to Ent
+sacrifice g2 at Ent; build b2 at In; build b3 at Out
+capture g1 at Ent
+sacrifice y1 at Out; move r3 from Orel to Gort
+sacrifice y2 at Gort; move g1 from Ent to Felix; move g2 from Mud to Felix; catastrophe green at Felix
+move b3 from Out to Felix
+sacrifice y2 at Remneb; move r3 from Ent to In; move r1 from Gort to Pawn (y1)
+sacrifice y3 at Out; move b1 from In to Remneb; move b2 from In to Remneb; move b2 from In to Remneb; catastrophe blue at Remneb
+move r3 from In to Remneb
+sacrifice y2 at Felix; move r3 from Gort to Remneb; move r2 from Out to In (y2)

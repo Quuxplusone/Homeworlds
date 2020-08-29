@@ -1,0 +1,58 @@
+Rizzotto (0, b1g2) r3-
+Detectiveazul (1, g1b3) -y3
+build r1 at Rizzotto
+build y1 at Detectiveazul
+build r1 at Rizzotto
+convert y1 to r1 at Detectiveazul
+convert r1 to y1 at Rizzotto
+build r1 at Detectiveazul
+move r1 from Rizzotto to Hulk (g3)
+build r2 at Detectiveazul
+build r2 at Hulk
+convert r2 to b2 at Detectiveazul
+build r2 at Rizzotto
+build y1 at Detectiveazul
+convert r2 to y2 at Rizzotto
+convert y1 to g1 at Detectiveazul
+build r2 at Rizzotto
+build y1 at Detectiveazul
+move y1 from Rizzotto to Hulk
+move y3 from Detectiveazul to Cristina (g2)
+build y1 at Rizzotto
+move r1 from Detectiveazul to Cristina
+sacrifice y2 at Rizzotto; move r2 from Hulk to Cristina; move r2 from Cristina to Detectiveazul
+capture r2 at Detectiveazul
+build y2 at Hulk
+build y2 at Cristina
+convert y1 to b1 at Rizzotto
+move r2 from Detectiveazul to Cristina
+move y1 from Hulk to Rizzotto
+move y3 from Cristina to Hulk
+move y2 from Hulk to Rizzotto
+sacrifice r1 at Cristina; capture r1 at Hulk
+move y2 from Rizzotto to Kirito (b3)
+build r1 at Hulk
+move r2 from Rizzotto to Kirito
+build r2 at Detectiveazul
+convert y2 to g2 at Kirito
+build r3 at Cristina
+build r3 at Kirito
+sacrifice y3 at Hulk; move r1 from Detectiveazul to Cristina; move r1 from Cristina to Kirito; move r2 from Cristina to Kirito; catastrophe red at Kirito
+convert g2 to y2 at Kirito
+sacrifice b2 at Detectiveazul; convert r1 to b1 at Hulk
+build r1 at Rizzotto
+build b2 at Hulk
+convert b1 to g1 at Rizzotto
+build b1 at Hulk
+move g1 from Rizzotto to Kirito
+sacrifice y2 at Cristina; move b1 from Hulk to Rizzotto; move b1 from Hulk to Rizzotto
+capture b1 at Rizzotto
+sacrifice y1 at Detectiveazul; move b2 from Hulk to Rizzotto; catastrophe blue at Rizzotto
+move r3 from Rizzotto to Detectiveazul
+build r1 at Detectiveazul
+capture g1 at Detectiveazul
+capture g1 at Detectiveazul
+sacrifice y1 at Rizzotto; move r3 from Detectiveazul to Rizzotto
+convert r2 to y2 at Detectiveazul
+build g2 at Kirito
+sacrifice y2 at Detectiveazul; move r1 from Detectiveazul to Rizzotto; move r1 from Hulk to Rizzotto; catastrophe red at Rizzotto

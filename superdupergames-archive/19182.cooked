@@ -1,0 +1,33 @@
+Silenttitan (0, r2b3) g3-
+Alexcobo (1, g3b1) -y3
+build g1 at Silenttitan
+build y1 at Alexcobo
+convert g1 to y1 at Silenttitan
+convert y1 to r1 at Alexcobo
+build y1 at Silenttitan
+build r1 at Alexcobo
+build g1 at Silenttitan
+build r1 at Alexcobo
+move y1 from Silenttitan to Ox (g1)
+move r1 from Alexcobo to One (g2)
+move y1 from Silenttitan to Ax (g1)
+build r2 at One
+move y1 from Ox to Bigred (r3)
+convert r1 to g1 at Alexcobo
+convert g1 to r1 at Silenttitan
+build y1 at Alexcobo
+build y2 at Ax
+build r2 at Alexcobo
+sacrifice y1 at Ax; move r1 from Silenttitan to Spore (g1)
+build r3 at Alexcobo
+build r3 at Spore
+move r3 from Alexcobo to Ambar (y2)
+build g2 at Silenttitan
+build g2 at Alexcobo
+convert g2 to y2 at Silenttitan
+move y1 from Alexcobo to One
+sacrifice g3 at Silenttitan; build y1 at Bigred; build y3 at Ax; build y3 at Silenttitan
+sacrifice y3 at Alexcobo; move r1 from One to Spore; move r2 from One to Spore; move r3 from Ambar to Ax; catastrophe red at Spore
+sacrifice y2 at Ax; move y3 from Ax to One; move y3 from One to Alexcobo
+convert r2 to y2 at Alexcobo
+convert y3 to g3 at Alexcobo; catastrophe green at Alexcobo

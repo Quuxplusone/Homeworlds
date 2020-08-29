@@ -1,0 +1,51 @@
+Lurch (0, b2y1) g3-
+Shmil1 (1, r1b2) -g3
+build g1 at Lurch
+build g1 at Shmil1
+convert g1 to b1 at Lurch
+build g1 at Shmil1
+move b1 from Lurch to Alpha (g3)
+convert g1 to y1 at Shmil1
+build b1 at Alpha
+convert g1 to b1 at Shmil1
+build g1 at Lurch
+build g1 at Shmil1
+convert b1 to y1 at Alpha
+move g1 from Shmil1 to Zluta (y3)
+build y2 at Alpha
+move g1 from Zluta to Lurch
+convert g3 to r3 at Lurch
+sacrifice g3 at Shmil1; build g1 at Lurch; build g2 at Lurch; build y2 at Shmil1; catastrophe green at Lurch
+build b1 at Alpha
+convert b1 to g1 at Shmil1
+convert y1 to b1 at Alpha
+convert y2 to r2 at Shmil1
+move b1 from Alpha to Shmil1
+capture b1 at Shmil1
+sacrifice y2 at Alpha; move b1 from Alpha to Shmil1; move b1 from Alpha to Shmil1; catastrophe blue at Shmil1
+move g1 from Shmil1 to Zluty (y3)
+convert r3 to g3 at Lurch
+move g1 from Zluty to Lurch
+convert g3 to r3 at Lurch
+move g1 from Lurch to Druhazluta (y3)
+convert r3 to g3 at Lurch
+move g1 from Druhazluta to Lurch
+convert g3 to r3 at Lurch
+build g1 at Lurch
+capture g1 at Lurch
+build g1 at Lurch
+convert g1 to b1 at Lurch
+convert g1 to r1 at Lurch
+capture r1 at Lurch
+sacrifice r2 at Shmil1; capture b1 at Lurch; capture r1 at Lurch
+capture r1 at Lurch
+build b1 at Lurch
+capture g1 at Lurch
+convert b1 to r1 at Lurch
+sacrifice r1 at Lurch; capture r1 at Lurch
+sacrifice b1 at Lurch; convert y1 to g1 at Shmil1
+move g1 from Lurch to Alpha (y3)
+build g1 at Shmil1
+build g2 at Alpha
+pass
+move g2 from Alpha to Shmil1

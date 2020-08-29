@@ -1,0 +1,17 @@
+Mouce (0, b3g2) r3-
+Madwuher (1, b1y2) -g3
+build r1 at Mouce
+build g1 at Madwuher
+convert r1 to y1 at Mouce
+move g1 from Madwuher to Edora (b3)
+build y1 at Mouce
+build g1 at Madwuher
+move y1 from Mouce to Xombargle (g1)
+sacrifice g3 at Madwuher; build g2 at Edora; build g2 at Madwuher; build g3 at Madwuher
+move y1 from Xombargle to Edora
+convert g2 to r2 at Madwuher
+move r3 from Mouce to Whoops (y1)
+convert g2 to r2 at Edora
+build y2 at Mouce
+capture y1 at Edora
+sacrifice y2 at Mouce; move r3 from Whoops to Edora; move r3 from Edora to Madwuher

@@ -1,0 +1,38 @@
+Method7 (0, g2b3) y3-
+Antihero (1, g1b2) -y3
+build y1 at Method7
+build y1 at Antihero
+convert y1 to g1 at Method7
+move y1 from Antihero to Green (g3)
+build y1 at Method7
+move y1 from Green to Method6 (b1)
+convert y1 to b1 at Method7
+build y1 at Antihero
+build y1 at Method7
+convert y1 to g1 at Antihero
+build g2 at Method7
+build y1 at Antihero
+convert g2 to r2 at Method7
+convert y1 to r1 at Antihero
+build r1 at Method7
+build y1 at Antihero
+move r2 from Method7 to Method6
+move y1 from Antihero to Green (g3)
+capture y1 at Method6
+build y2 at Green
+build g2 at Method7
+move g1 from Antihero to Yellow (y3)
+sacrifice g2 at Method7; build r1 at Method6; build r2 at Method7
+build g2 at Yellow
+sacrifice g1 at Method7; build y2 at Method6
+build y2 at Antihero
+move y1 from Method6 to Yellow
+move y2 from Antihero to Another (g3)
+sacrifice r1 at Method7; capture g1 at Yellow
+move y1 from Green to Closer (r1)
+convert r2 to b2 at Method7
+build r2 at Antihero
+move g1 from Yellow to Method6
+move y1 from Closer to Method7
+move y1 from Method7 to Method6
+convert y1 to b1 at Method7; catastrophe blue at Method7

@@ -1,0 +1,63 @@
+Wil (0, y2b1) g3-
+Marmalade (1, y2b3) -g3
+build g1 at Wil
+build g1 at Marmalade
+move g1 from Wil to Fortcourage (y3)
+move g1 from Marmalade to Toast (b1)
+build g1 at Fortcourage
+build g2 at Toast
+build g2 at Fortcourage
+convert g1 to y1 at Toast
+move g1 from Fortcourage to Dryden (b1)
+build g1 at Marmalade
+move g1 from Fortcourage to Y1 (y1)
+move y1 from Toast to Moose (g3)
+build g2 at Wil
+build y1 at Moose
+convert g2 to y2 at Wil
+convert g1 to r1 at Marmalade
+convert g1 to r1 at Dryden
+move y1 from Moose to Toast
+build y3 at Wil
+move y1 from Moose to Wil; catastrophe yellow at Wil
+build g1 at Wil
+build g1 at Toast
+sacrifice g3 at Wil; build g2 at Y1; build g3 at Wil; build g3 at Fortcourage
+move y1 from Toast to Marmalade
+convert g1 to y1 at Wil
+build y2 at Marmalade
+move y1 from Wil to Marmalade; catastrophe yellow at Marmalade
+convert g2 to r2 at Toast
+sacrifice g3 at Fortcourage; build g1 at Y1; build g2 at Wil; build g3 at Wil
+convert g1 to y1 at Toast
+convert g3 to y3 at Wil
+convert g3 to r3 at Marmalade
+sacrifice g3 at Wil; build g1 at Wil; build g3 at Wil; build r1 at Dryden
+sacrifice y1 at Toast; move r3 from Marmalade to Dryden
+sacrifice y3 at Wil; move r1 from Dryden to Marmalade; move r1 from Dryden to Marmalade; move g1 from Y1 to Marmalade
+sacrifice r3 at Dryden; capture r1 at Marmalade; capture r1 at Marmalade; capture g1 at Marmalade
+convert g2 to r2 at Wil
+convert r1 to y1 at Marmalade
+move g2 from Y1 to Marmalade
+build g2 at Marmalade
+sacrifice r2 at Wil; capture g2 at Marmalade; capture r1 at Marmalade
+capture r1 at Marmalade
+build g3 at Y1
+build g3 at Marmalade; catastrophe green at Marmalade
+convert g3 to r3 at Wil
+convert r2 to g2 at Toast
+move g3 from Y1 to Marmalade
+sacrifice g2 at Toast; build y1 at Marmalade; build y2 at Marmalade
+build r1 at Wil
+sacrifice y2 at Marmalade; move r1 from Marmalade to Wil; move r1 from Marmalade to Wil; catastrophe red at Wil
+sacrifice g3 at Marmalade; build g1 at Fortcourage; build g2 at Y1; build g2 at Wil
+convert y1 to r1 at Marmalade
+convert g2 to r2 at Wil
+move y1 from Marmalade to Desperation (g2)
+convert g1 to y1 at Wil
+build y2 at Desperation
+move g2 from Y1 to Marmalade
+sacrifice y2 at Desperation; move y1 from Desperation to Marmalade; move r1 from Marmalade to Wil
+capture r1 at Wil
+convert y1 to g1 at Marmalade
+sacrifice r1 at Wil; capture g1 at Marmalade

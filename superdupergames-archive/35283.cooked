@@ -1,0 +1,20 @@
+Felix (0, b1r1) g3-
+Wil (1, y2b2) -g3
+build g1 at Felix
+build g1 at Wil
+convert g1 to y1 at Felix
+convert g1 to b1 at Wil
+build y1 at Felix
+build b1 at Wil
+build y1 at Felix
+move b1 from Wil to G3 (g3)
+move y1 from Felix to Out (b3)
+build b2 at Wil
+sacrifice g3 at Felix; build y2 at Out; build y2 at Out; build y3 at Felix
+build b2 at G3
+convert y3 to g3 at Felix
+build b3 at G3
+build y3 at Felix
+convert b3 to y3 at G3
+move y1 from Felix to Keepaway (y3)
+build b3 at G3

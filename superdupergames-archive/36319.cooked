@@ -1,0 +1,31 @@
+Babamots (0, b3r1) g3-
+Thecolorbrown (1, r2b1) -g3
+build g1 at Babamots
+build g1 at Thecolorbrown
+convert g1 to r1 at Babamots
+build g1 at Thecolorbrown
+build r1 at Babamots
+convert g3 to y3 at Thecolorbrown
+build g1 at Babamots
+move g1 from Thecolorbrown to Paransaeksam (b3)
+convert g1 to y1 at Babamots
+build g1 at Paransaeksam
+move r1 from Babamots to Bolarus (b2)
+build g2 at Paransaeksam
+sacrifice g3 at Babamots; build r2 at Bolarus; build r2 at Bolarus; build r3 at Babamots
+sacrifice g2 at Paransaeksam; build g2 at Thecolorbrown; build g2 at Thecolorbrown
+convert r3 to g3 at Babamots
+move g2 from Thecolorbrown to Imgoingtolose (r3)
+build r3 at Babamots
+convert y3 to r3 at Thecolorbrown
+convert r3 to y3 at Babamots
+sacrifice g2 at Thecolorbrown; build g2 at Paransaeksam; build g2 at Imgoingtolose
+build g3 at Babamots
+build g3 at Thecolorbrown
+build r3 at Babamots
+convert g1 to y1 at Paransaeksam
+convert r3 to y3 at Babamots
+build y1 at Paransaeksam
+build r3 at Babamots
+build y2 at Paransaeksam
+move y3 from Babamots to Andoria (b2)

@@ -1,0 +1,58 @@
+Gidaio (0, g3b1) y3-
+Aristos (1, g1b2) -y3
+build y1 at Gidaio
+build y1 at Aristos
+convert y1 to r1 at Gidaio
+build y1 at Aristos
+build y1 at Gidaio
+convert y1 to r1 at Aristos
+move y1 from Gidaio to Solaris (b2)
+move y1 from Aristos to Burningcopper (g3)
+convert y1 to g1 at Solaris
+build y1 at Aristos
+build g1 at Solaris
+build y1 at Burningcopper
+build g2 at Solaris
+build y2 at Burningcopper
+convert g2 to y2 at Solaris
+move y2 from Burningcopper to Gasgiant (b2)
+move g1 from Solaris to Gassygiant (r3)
+move y2 from Gasgiant to Gassygiant
+build g2 at Solaris
+capture g1 at Gassygiant
+build g2 at Solaris
+build g2 at Gassygiant
+sacrifice y2 at Solaris; move g2 from Solaris to Yeahno (b3); move g2 from Solaris to Yeahno
+move g2 from Gassygiant to Whytwo (y2)
+build g3 at Solaris
+build y2 at Gassygiant
+sacrifice g3 at Solaris; build g3 at Solaris; build y3 at Gidaio; build r1 at Gidaio
+build r2 at Aristos
+convert g2 to r2 at Yeahno
+build g2 at Whytwo
+move y3 from Gidaio to Solaris
+move r2 from Aristos to Burningcopper
+move g3 from Solaris to Yeahno
+build r2 at Burningcopper
+move g1 from Solaris to Yeahno
+move g2 from Whytwo to Yeahno; catastrophe green at Yeahno
+convert y3 to g3 at Solaris
+build y3 at Burningcopper
+build g1 at Solaris
+build g2 at Gassygiant
+convert r2 to g2 at Yeahno
+move r2 from Burningcopper to Whytwo
+move r1 from Gidaio to Solaris
+sacrifice g2 at Gassygiant; build r2 at Whytwo; build r3 at Burningcopper
+build r3 at Solaris
+sacrifice y2 at Gassygiant; move r2 from Burningcopper to Solaris; move r3 from Burningcopper to Solaris; catastrophe red at Solaris
+build g2 at Solaris
+move g1 from Gassygiant to Solaris; catastrophe green at Solaris
+build y2 at Gidaio
+sacrifice y3 at Burningcopper; move g2 from Whytwo to Gidaio; move r2 from Whytwo to Gidaio; move r2 from Whytwo to Gidaio
+build g1 at Yeahno
+sacrifice r2 at Gidaio; capture r1 at Gidaio; capture y2 at Gidaio
+convert g2 to y2 at Yeahno
+build y3 at Gidaio
+move y2 from Yeahno to Solaris (g2)
+sacrifice y2 at Gassygiant; move y1 from Burningcopper to Solaris; move y1 from Solaris to Gidaio; catastrophe yellow at Gidaio

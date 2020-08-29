@@ -1,0 +1,35 @@
+Dlwillson (0, b3y1) g3-
+Panglott (1, y3b2) -g3
+build g1 at Dlwillson
+build g1 at Panglott
+convert g1 to y1 at Dlwillson
+move g1 from Panglott to Versailles (b1)
+build y1 at Dlwillson
+build g1 at Versailles
+move y1 from Dlwillson to Sea (b2)
+build g1 at Panglott
+build g2 at Dlwillson
+move g1 from Panglott to Allegheny (b1)
+sacrifice g3 at Dlwillson; build y2 at Dlwillson; build y2 at Sea; build y2 at Sea
+build g2 at Panglott
+move y1 from Dlwillson to Sky (b2)
+sacrifice g3 at Panglott; build g2 at Versailles; build g3 at Allegheny; build g3 at Panglott
+build g3 at Dlwillson
+convert g3 to y3 at Allegheny
+move g2 from Dlwillson to Sky
+convert g1 to r1 at Versailles
+build y3 at Sky
+sacrifice g3 at Panglott; build g1 at Allegheny; build g3 at Allegheny; build g3 at Panglott
+move g2 from Sky to Allegheny; catastrophe green at Allegheny
+move y3 from Allegheny to Sea
+move y2 from Sea to Field (g1)
+convert y3 to r3 at Sea
+sacrifice y2 at Sea; move y1 from Sea to Field; move y1 from Field to Panglott
+convert g2 to y2 at Versailles
+convert y2 to r2 at Dlwillson
+move g1 from Versailles to Sea
+convert y1 to g1 at Panglott
+convert g2 to r2 at Panglott
+build g2 at Panglott
+move g3 from Panglott to Versailles
+sacrifice r2 at Dlwillson; capture r2 at Panglott

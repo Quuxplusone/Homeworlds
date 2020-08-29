@@ -1,0 +1,40 @@
+Tank_7 (0, g2r1) b3-
+Rootbier (1, b1y3) -g3
+build b1 at Tank_7
+build g1 at Rootbier
+convert b3 to y3 at Tank_7
+convert g1 to b1 at Rootbier
+build b2 at Tank_7
+move b1 from Rootbier to Achio (g2)
+move b1 from Tank_7 to Nidulon (g3)
+build g1 at Rootbier
+build b2 at Nidulon
+convert g1 to y1 at Rootbier
+convert b1 to y1 at Nidulon
+build g1 at Rootbier
+build b1 at Nidulon
+build g1 at Rootbier
+convert b2 to g2 at Nidulon
+move g1 from Rootbier to Palace (b2)
+convert b2 to y2 at Tank_7
+build b2 at Achio
+build b2 at Nidulon
+build g1 at Palace
+sacrifice b1 at Nidulon; convert y3 to g3 at Tank_7
+convert b1 to r1 at Achio
+convert g2 to r2 at Nidulon
+sacrifice g3 at Rootbier; build g2 at Palace; build g3 at Rootbier; build b1 at Achio
+move r2 from Nidulon to Palace
+sacrifice r1 at Achio; capture r2 at Palace
+build b1 at Nidulon
+move y1 from Rootbier to Achio
+move b2 from Nidulon to Kamu (y2)
+move b2 from Achio to Azel (r3)
+build b3 at Nidulon
+sacrifice g3 at Rootbier; build g3 at Rootbier; build b3 at Azel; build b3 at Achio
+convert b1 to r1 at Nidulon
+sacrifice b2 at Azel; convert g3 to y3 at Rootbier; convert g1 to r1 at Palace
+sacrifice y2 at Tank_7; move b3 from Nidulon to Tank_7; move g3 from Tank_7 to Canopus (r3)
+sacrifice y3 at Rootbier; move b3 from Achio to Azel; move b3 from Azel to Tank_7; move b3 from Azel to Tank_7
+sacrifice g3 at Canopus; build b1 at Tank_7; build b2 at Tank_7; build r2 at Nidulon
+catastrophe blue at Tank_7

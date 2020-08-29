@@ -1,0 +1,28 @@
+Scottobear (0, b3g2) y3-
+Mneme (1, b1r3) -g3
+build y1 at Scottobear
+build g1 at Mneme
+convert y1 to g1 at Scottobear
+convert g1 to y1 at Mneme
+move g1 from Scottobear to Monkey (b1)
+build g1 at Mneme
+build y1 at Scottobear
+convert g1 to b1 at Mneme
+build g1 at Monkey
+build b2 at Mneme
+convert y1 to r1 at Scottobear
+move b2 from Mneme to Daffodil (y2)
+convert y3 to b3 at Scottobear
+sacrifice g3 at Mneme; build b2 at Daffodil; build b2 at Daffodil; build b3 at Mneme
+build g1 at Monkey
+sacrifice b2 at Daffodil; convert b2 to y2 at Daffodil; convert b3 to g3 at Mneme
+convert g1 to y1 at Monkey
+sacrifice g3 at Mneme; build b2 at Daffodil; build b2 at Daffodil; build b3 at Mneme
+build r1 at Scottobear
+convert b3 to g3 at Mneme
+build b3 at Scottobear
+sacrifice y2 at Daffodil; move b2 from Daffodil to Monkey; move b2 from Monkey to Scottobear; catastrophe blue at Scottobear
+build y1 at Monkey
+move g3 from Mneme to Scottobear
+move g1 from Monkey to Scottobear
+build g1 at Scottobear; catastrophe green at Scottobear

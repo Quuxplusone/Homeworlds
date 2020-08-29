@@ -1,0 +1,82 @@
+Grosseteste (0, y3b2) g3-
+Magicjohn (1, b2g3) -b3
+build g1 at Grosseteste
+build b1 at Magicjohn
+convert g1 to b1 at Grosseteste
+convert b1 to y1 at Magicjohn
+move b1 from Grosseteste to Charlie (y1)
+convert y1 to r1 at Magicjohn
+build g1 at Grosseteste
+build r1 at Magicjohn
+convert g1 to r1 at Grosseteste
+convert r1 to y1 at Magicjohn
+build g1 at Grosseteste
+move y1 from Magicjohn to Strawberry (g1)
+convert g1 to b1 at Grosseteste
+convert b3 to y3 at Magicjohn
+move r1 from Grosseteste to Strawberry
+sacrifice r1 at Magicjohn; capture r1 at Strawberry
+move b1 from Charlie to Magicjohn
+sacrifice r1 at Strawberry; capture b1 at Magicjohn
+build g1 at Grosseteste
+convert b1 to r1 at Magicjohn
+convert g1 to r1 at Grosseteste
+build y1 at Strawberry
+build b1 at Grosseteste
+build y1 at Magicjohn
+move b1 from Grosseteste to Lucy (g1)
+build y2 at Strawberry
+sacrifice g3 at Grosseteste; build b1 at Lucy; build b2 at Lucy; build b3 at Grosseteste
+build y2 at Magicjohn
+convert b3 to g3 at Grosseteste
+move y1 from Strawberry to Walrus (g2)
+build b3 at Grosseteste
+build y2 at Walrus
+move b3 from Grosseteste to Linus (g1)
+build y3 at Walrus
+build b3 at Grosseteste
+move y2 from Walrus to Bluejway (b3)
+convert b3 to r3 at Grosseteste
+move y1 from Strawberry to Revolution (b3)
+move r3 from Grosseteste to Strawberry
+move y2 from Strawberry to Bluejway
+build g2 at Grosseteste
+build r1 at Magicjohn
+sacrifice g3 at Grosseteste; build g2 at Grosseteste; build g3 at Grosseteste; build r2 at Strawberry
+build r2 at Magicjohn
+move g2 from Grosseteste to Lucy
+move r1 from Magicjohn to Strawberry
+sacrifice g3 at Grosseteste; build g3 at Grosseteste; build g3 at Lucy; build r2 at Grosseteste
+build r3 at Magicjohn
+build r3 at Grosseteste
+move r1 from Magicjohn to Strawberry; catastrophe red at Strawberry
+move r3 from Grosseteste to Charlie (g1)
+build r1 at Magicjohn
+sacrifice g3 at Grosseteste; build g3 at Grosseteste; build r1 at Charlie; build r2 at Grosseteste
+move r1 from Magicjohn to Charlie
+move r2 from Grosseteste to Lucy
+build r3 at Magicjohn
+sacrifice g2 at Grosseteste; build g2 at Grosseteste
+move r2 from Magicjohn to Charlie; catastrophe red at Charlie
+move r1 from Grosseteste to Rerun (r1)
+build r1 at Magicjohn
+build g1 at Grosseteste
+move r1 from Magicjohn to Rerun
+sacrifice g3 at Grosseteste; build g3 at Grosseteste; build r2 at Rerun; build r3 at Grosseteste; catastrophe red at Rerun
+build r1 at Magicjohn
+move r2 from Grosseteste to Linus
+move y1 from Magicjohn to Honeypie (r1)
+sacrifice g3 at Grosseteste; build r1 at Grosseteste; build r2 at Grosseteste; build g3 at Grosseteste
+move r1 from Magicjohn to Honeypie
+move r2 from Grosseteste to Honeypie
+move y1 from Honeypie to Walrus
+capture r1 at Honeypie
+move y1 from Walrus to Revolution
+sacrifice g1 at Grosseteste; build g1 at Grosseteste
+move y3 from Magicjohn to Honeypie
+move r1 from Grosseteste to Honeypie; catastrophe red at Honeypie
+build y3 at Walrus
+sacrifice g3 at Grosseteste; build r1 at Linus; build r1 at Grosseteste; build g3 at Grosseteste
+move y3 from Walrus to Blackbird (r1)
+build r2 at Grosseteste
+move y1 from Walrus to Bluejway

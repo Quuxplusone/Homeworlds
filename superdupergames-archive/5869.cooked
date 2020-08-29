@@ -1,0 +1,16 @@
+Uglyfoot (0, b1y3) g3-
+Clockwise (1, g1b2) -y3
+build g1 at Uglyfoot
+build y1 at Clockwise
+move g1 from Uglyfoot to Xchg (b2)
+convert y1 to g1 at Clockwise
+build g2 at Xchg
+move g1 from Clockwise to Peanut (y3)
+build g2 at Uglyfoot
+build y1 at Clockwise
+convert g2 to y2 at Xchg
+build g2 at Peanut
+build g2 at Xchg
+move g1 from Peanut to Xchg
+convert g2 to r2 at Xchg
+sacrifice y3 at Clockwise; move g1 from Xchg to Uglyfoot; move g2 from Peanut to Xchg; move g2 from Xchg to Uglyfoot; catastrophe green at Uglyfoot

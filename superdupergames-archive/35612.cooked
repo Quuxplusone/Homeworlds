@@ -1,0 +1,48 @@
+Deanthebean (0, b2y3) g3-
+Babamots (1, b2r1) -g3
+build g1 at Deanthebean
+build g1 at Babamots
+move g1 from Deanthebean to Helenthemelon (y1)
+convert g1 to y1 at Babamots
+build g1 at Deanthebean
+build y1 at Babamots
+convert g1 to r1 at Deanthebean
+build y2 at Babamots
+build g1 at Deanthebean
+move y2 from Babamots to Bolarus (g3)
+build g1 at Helenthemelon
+move y1 from Babamots to Betazed (b3)
+build g2 at Helenthemelon
+build g2 at Babamots
+move g2 from Helenthemelon to Betazed
+move y1 from Betazed to Iconia (y2)
+sacrifice g3 at Deanthebean; build g2 at Betazed; build g3 at Deanthebean; build r1 at Deanthebean
+sacrifice g3 at Babamots; build y2 at Iconia; build y3 at Babamots; build g3 at Babamots
+convert g3 to y3 at Deanthebean
+convert g2 to r2 at Babamots
+convert g2 to b2 at Betazed
+move y3 from Babamots to Betazed
+sacrifice g2 at Betazed; build g2 at Deanthebean; build r2 at Deanthebean
+convert y3 to r3 at Betazed
+move g1 from Helenthemelon to Peaches (y3)
+capture b2 at Betazed
+build g2 at Peaches
+sacrifice g3 at Babamots; build r2 at Betazed; build r3 at Betazed; build r3 at Babamots
+build g2 at Helenthemelon
+sacrifice b2 at Betazed; convert r3 to g3 at Betazed; convert r3 to g3 at Babamots
+move r1 from Deanthebean to Helenthemelon
+sacrifice y1 at Iconia; move r3 from Betazed to Helenthemelon
+move g2 from Helenthemelon to Bolarus
+sacrifice r2 at Babamots; capture g2 at Bolarus; capture r1 at Helenthemelon
+move r1 from Deanthebean to Helenthemelon
+sacrifice r1 at Helenthemelon; capture r1 at Helenthemelon
+move g1 from Helenthemelon to Bolarus
+sacrifice r1 at Helenthemelon; capture g1 at Bolarus
+move g1 from Deanthebean to Plum (y1)
+sacrifice g1 at Bolarus; build g1 at Betazed
+build r1 at Deanthebean
+move r3 from Helenthemelon to Peaches
+move g2 from Peaches to Iconia
+sacrifice r2 at Betazed; capture g1 at Peaches; capture g2 at Iconia
+convert r2 to b2 at Deanthebean
+move y2 from Iconia to Kronos (b1)

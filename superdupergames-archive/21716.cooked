@@ -1,0 +1,22 @@
+Adambadura (0, g3b2) y3-
+Agentofchaos (1, r1b3) -g3
+build y1 at Adambadura
+build g1 at Agentofchaos
+convert y1 to g1 at Adambadura
+convert g1 to y1 at Agentofchaos
+build g1 at Adambadura
+build g1 at Agentofchaos
+convert g1 to r1 at Adambadura
+convert g1 to r1 at Agentofchaos
+build r2 at Adambadura
+build r2 at Agentofchaos
+build r2 at Adambadura
+move r2 from Agentofchaos to Arcktron (g2)
+move r1 from Adambadura to Shipyard (g1)
+build r3 at Arcktron
+build r3 at Shipyard
+build r3 at Agentofchaos
+sacrifice y3 at Adambadura; move r1 from Shipyard to Arcktron; move r1 from Arcktron to Agentofchaos; move g1 from Adambadura to Outpost (y1); catastrophe red at Agentofchaos
+sacrifice y1 at Agentofchaos; move r3 from Arcktron to Outpost
+move g1 from Outpost to Outpost2 (y2)
+move r3 from Outpost to Adambadura

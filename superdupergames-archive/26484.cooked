@@ -1,0 +1,23 @@
+Teeteetee (0, r1b2) g3-
+Detectiveazul (1, b1g2) -y3
+build g1 at Teeteetee
+build y1 at Detectiveazul
+convert g1 to b1 at Teeteetee
+convert y1 to g1 at Detectiveazul
+build b1 at Teeteetee
+move g1 from Detectiveazul to Kamino (r3)
+build g1 at Teeteetee
+build g1 at Kamino
+build g2 at Teeteetee
+build y1 at Detectiveazul
+convert g2 to y2 at Teeteetee
+build y1 at Detectiveazul
+move g1 from Teeteetee to Frodo (y3)
+convert y1 to r1 at Detectiveazul
+build g2 at Teeteetee
+build y1 at Detectiveazul
+sacrifice g3 at Teeteetee; build g2 at Frodo; build g3 at Frodo; build g3 at Teeteetee
+sacrifice y3 at Detectiveazul; move g1 from Kamino to Detectiveazul; move g1 from Detectiveazul to Frodo; move y1 from Detectiveazul to Kamino; catastrophe green at Frodo
+convert g3 to r3 at Teeteetee
+build r1 at Detectiveazul
+sacrifice y2 at Teeteetee; move g2 from Teeteetee to Kamino; move g2 from Kamino to Detectiveazul

@@ -1,0 +1,29 @@
+Cokier (0, g3b2) y3-
+Xejaw (1, b3g1) -y3
+build y1 at Cokier
+build y1 at Xejaw
+move y1 from Cokier to Siusiak (g1)
+convert y1 to g1 at Xejaw
+build y1 at Cokier
+build g2 at Xejaw
+move y1 from Siusiak to Jazda (g2)
+convert g1 to b1 at Xejaw
+convert y1 to g1 at Cokier
+build b1 at Xejaw
+move g1 from Cokier to Kupa (y1)
+convert b1 to r1 at Xejaw
+convert y3 to r3 at Cokier
+move r1 from Xejaw to Jazda
+move y1 from Jazda to Xejaw
+build r1 at Jazda
+convert y1 to r1 at Xejaw
+move b1 from Xejaw to Jazda
+build r2 at Xejaw
+move g2 from Xejaw to Jazda
+build r2 at Cokier
+convert y3 to r3 at Xejaw
+convert r3 to y3 at Cokier
+capture r2 at Xejaw
+build y1 at Cokier
+capture r1 at Xejaw
+sacrifice y3 at Cokier; move r2 from Cokier to Kupa; move r2 from Kupa to Jazda; move r2 from Jazda to Xejaw; catastrophe red at Xejaw

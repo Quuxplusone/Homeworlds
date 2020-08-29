@@ -1,0 +1,29 @@
+Twoshort (0, g1b2) y3-
+Gort (1, b2g1) -y3
+build y1 at Twoshort
+build y1 at Gort
+move y1 from Twoshort to Bluestar (b3)
+convert y1 to g1 at Gort
+build y1 at Twoshort
+build g2 at Gort
+convert y3 to g3 at Twoshort
+move g2 from Gort to Bluestar
+build y1 at Twoshort
+build y2 at Gort
+move y1 from Twoshort to Gorgon (g3)
+sacrifice y3 at Gort; move g2 from Bluestar to Twoshort; move g1 from Gort to Bluestar; move g1 from Bluestar to Twoshort; catastrophe green at Twoshort
+build y2 at Gorgon
+convert y2 to r2 at Gort
+build y2 at Gorgon
+build r1 at Gort
+move y1 from Gorgon to Denial (y2)
+build r1 at Gort
+build y3 at Gorgon
+convert r1 to g1 at Gort
+move y3 from Gorgon to Gort
+build g1 at Gort
+build y3 at Gort
+convert r2 to b2 at Gort
+build y3 at Gort
+build r1 at Gort
+convert y3 to b3 at Gort

@@ -1,0 +1,62 @@
+Danner (0, r3b2) g3-
+Uglyfoot (1, b3y1) -g3
+build g1 at Danner
+build g1 at Uglyfoot
+convert g1 to y1 at Danner
+move g1 from Uglyfoot to Gateway (b2)
+build y1 at Danner
+build g1 at Gateway
+build y2 at Danner
+build g1 at Uglyfoot
+convert y2 to r2 at Danner
+convert g1 to r1 at Gateway
+build r1 at Danner
+build g1 at Gateway
+build y2 at Danner
+build g2 at Gateway
+build g2 at Danner
+convert g2 to y2 at Gateway
+move r2 from Danner to Gate (b1)
+move g1 from Gateway to Epsilon (r1)
+move g2 from Danner to Gate
+sacrifice g3 at Uglyfoot; build g2 at Epsilon; build g2 at Gateway; build g3 at Uglyfoot
+build g3 at Gate
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build y2 at Gateway; build y3 at Gateway
+sacrifice y2 at Danner; move y1 from Danner to Gate; move y1 from Gate to Gateway; catastrophe yellow at Gateway
+convert g1 to y1 at Gateway
+build y2 at Danner
+sacrifice g3 at Uglyfoot; build g1 at Gateway; build r2 at Gateway; build g3 at Uglyfoot
+sacrifice y1 at Danner; move g3 from Gate to Gateway
+move g1 from Uglyfoot to Gateway; catastrophe green at Gateway
+build g1 at Danner
+convert r1 to g1 at Gateway
+build y1 at Danner
+build g2 at Uglyfoot
+build g3 at Gate
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build r1 at Gateway; build y2 at Gateway
+sacrifice y2 at Danner; move g3 from Danner to Gate; move g3 from Gate to Gateway
+sacrifice y2 at Gateway; move r2 from Gateway to Epsilon; move r2 from Epsilon to Danner
+sacrifice y1 at Danner; move g3 from Gateway to Uglyfoot
+sacrifice r1 at Gateway; capture g3 at Uglyfoot
+convert g2 to y2 at Gate
+convert g3 to r3 at Uglyfoot
+move g3 from Gate to Danner
+capture r1 at Danner
+capture r2 at Danner
+capture g1 at Danner
+capture g1 at Danner
+sacrifice g3 at Uglyfoot; build g2 at Gateway; build g3 at Uglyfoot; build r1 at Uglyfoot
+capture r1 at Danner
+move g2 from Gateway to Eradani (y1)
+sacrifice g3 at Danner; build g3 at Danner; build r2 at Gate; build r3 at Gate
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Gateway; build y2 at Gateway
+convert g3 to y3 at Danner
+sacrifice y2 at Gateway; move r1 from Uglyfoot to Gateway; move r1 from Gateway to Gate; catastrophe red at Gate
+build g3 at Danner
+sacrifice g3 at Uglyfoot; build g3 at Eradani; build y2 at Gateway; build r1 at Uglyfoot
+move g3 from Danner to Epsilon
+move r1 from Uglyfoot to Gateway
+move r1 from Danner to Gate
+sacrifice g3 at Gateway; build g3 at Gateway; build r2 at Gateway; build r2 at Uglyfoot
+build y2 at Danner
+move g3 from Gateway to Gate

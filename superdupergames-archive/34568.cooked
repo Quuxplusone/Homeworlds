@@ -1,0 +1,48 @@
+Felix (0, r2b3) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to y1 at Felix
+convert g1 to y1 at Dlwillson
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to r1 at Felix
+convert g1 to r1 at Dlwillson
+build r2 at Felix
+build r2 at Dlwillson
+move r1 from Felix to Splash (b1)
+move r2 from Dlwillson to Field (g2)
+sacrifice g3 at Felix; build r3 at Splash; build r3 at Splash; build r3 at Felix
+build y1 at Dlwillson
+convert r2 to g2 at Felix
+sacrifice y1 at Dlwillson; move r2 from Field to Splash; catastrophe red at Splash
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to b1 at Felix
+move g1 from Dlwillson to Sea (b2)
+build y1 at Felix
+build g1 at Dlwillson
+build r1 at Felix
+build y2 at Dlwillson
+move y1 from Felix to Out (g1)
+move r1 from Dlwillson to Sea
+convert r3 to g3 at Felix
+sacrifice g3 at Dlwillson; build g2 at Sea; build g2 at Sea; build g3 at Dlwillson
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Out; build y2 at Out
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build g3 at Dlwillson; build y3 at Dlwillson
+sacrifice g3 at Felix; build g3 at Felix; build y3 at Felix; build y3 at Felix
+sacrifice y3 at Dlwillson; move y1 from Dlwillson to Sea; move y1 from Sea to Out; move y1 from Out to Felix; catastrophe yellow at Felix
+convert g3 to y3 at Felix
+convert g1 to y1 at Sea
+move y1 from Out to Sea
+capture y1 at Sea
+build g1 at Felix
+move g2 from Sea to Sky (b1)
+move y2 from Out to Foultrain (g3)
+move y1 from Sea to Sky
+sacrifice g2 at Felix; build y1 at Foultrain; build y3 at Felix
+sacrifice g3 at Dlwillson; build g2 at Sky; build g3 at Sea; build y3 at Sky
+move r1 from Felix to Out
+sacrifice y3 at Sky; move y1 from Sea to Sky; move y1 from Sky to Felix; move y1 from Sky to Felix; catastrophe yellow at Felix
+build r2 at Out
+sacrifice y2 at Dlwillson; move g2 from Sky to Felix; move g3 from Sea to Sol (y1)

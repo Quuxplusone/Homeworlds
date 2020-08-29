@@ -1,0 +1,89 @@
+Personman (0, b3y1) g3-
+Noel45424 (1, g3b1) -y3
+build g1 at Personman
+build y1 at Noel45424
+convert g1 to y1 at Personman
+move y1 from Noel45424 to P4X639 (g2)
+build g1 at Personman
+build y2 at Noel45424
+move y1 from Personman to P4X639
+convert y3 to r3 at Noel45424
+convert g1 to r1 at Personman
+build y2 at Noel45424
+build g1 at Personman
+convert y2 to g2 at Noel45424
+move y1 from P4X639 to G1A (g1)
+convert g2 to b2 at Noel45424
+build y2 at G1A
+build b1 at Noel45424
+move r1 from Personman to P4X639
+convert b2 to r2 at Noel45424
+capture y1 at P4X639
+move r2 from Noel45424 to P4X639
+build r1 at P4X639
+capture r1 at P4X639
+build r1 at P4X639; catastrophe red at P4X639
+build y2 at Noel45424
+convert g1 to r1 at Personman
+move y2 from Noel45424 to P4X639
+build y3 at P4X639
+build y3 at P4X639; catastrophe yellow at P4X639
+build r1 at Personman
+build r1 at Noel45424
+build g1 at Personman
+convert r1 to g1 at Noel45424
+move g1 from Personman to Y2A (y2)
+build r1 at Noel45424
+build g2 at Y2A
+move r1 from Noel45424 to Y2A
+move g1 from Y2A to Noel45424
+convert g1 to y1 at Noel45424
+build g1 at Noel45424
+build y3 at Noel45424
+sacrifice y2 at G1A; move y1 from G1A to Y2A; move y1 from Y2A to Noel45424; catastrophe yellow at Noel45424
+build r2 at Noel45424
+build g1 at Noel45424; catastrophe green at Noel45424
+convert r3 to g3 at Noel45424
+sacrifice r1 at Personman; capture r1 at Y2A
+build g1 at Noel45424
+build g1 at Personman
+build b1 at Noel45424
+build g1 at Y2A
+convert b1 to y1 at Noel45424
+move g1 from Y2A to Noel45424
+convert g1 to y1 at Noel45424
+sacrifice g2 at Y2A; build g1 at Noel45424; build g2 at Noel45424; catastrophe green at Noel45424
+convert y1 to g1 at Noel45424
+sacrifice g1 at Personman; build r1 at Y2A
+build g1 at Noel45424
+build r2 at Personman
+build y1 at Noel45424
+convert r2 to y2 at Personman
+build r2 at Noel45424
+build y2 at Personman
+move r2 from Noel45424 to Y2A
+move g3 from Personman to Y2A
+move r2 from Y2A to Personman
+capture r2 at Personman
+move y1 from Noel45424 to Y2A
+capture y1 at Y2A
+build y3 at Noel45424
+move y2 from Personman to G2A (g2)
+convert y3 to g3 at Noel45424
+build y3 at G2A
+sacrifice g1 at Noel45424; build y3 at Noel45424
+move y3 from G2A to Noel45424
+capture y3 at Noel45424
+move y1 from Y2A to Noel45424; catastrophe yellow at Noel45424
+convert b1 to y1 at Noel45424
+build g1 at Y2A
+move g1 from Noel45424 to Peace (y3)
+move g1 from Y2A to Personman
+build g1 at Noel45424
+convert g1 to b1 at Personman
+build r2 at Noel45424
+convert r1 to g1 at Personman
+move r2 from Noel45424 to G2A
+sacrifice r1 at Y2A; capture r2 at G2A
+move g1 from Noel45424 to Peace
+move r2 from G2A to Peace

@@ -1,0 +1,72 @@
+Trydnt (0, g2b1) r3-
+Wil (1, b3y1) -g3
+build r1 at Trydnt
+build g1 at Wil
+build r1 at Trydnt
+convert g1 to y1 at Wil
+convert r3 to y3 at Trydnt
+build g1 at Wil
+build r1 at Trydnt
+convert g1 to b1 at Wil
+move r1 from Trydnt to G3 (g3)
+build g1 at Wil
+build r2 at Trydnt
+convert g3 to r3 at Wil
+convert r1 to b1 at Trydnt
+build b2 at Wil
+build b2 at Trydnt
+convert b2 to r2 at Wil
+move b2 from Trydnt to G3
+convert r2 to g2 at Wil
+build b2 at G3
+move b1 from Wil to Y2 (y2)
+convert b2 to y2 at G3
+build r1 at Wil
+build b2 at G3
+move g2 from Wil to Y2
+build r2 at G3
+move r1 from Wil to Y2
+move r2 from Trydnt to Gee3 (g3)
+build r2 at Wil
+build r3 at Gee3
+build r3 at Y2
+sacrifice y2 at G3; move r1 from G3 to Y2; move r2 from G3 to Y2; catastrophe red at Y2
+convert r3 to g3 at Wil
+move b1 from Trydnt to Gee3
+build b2 at Y2
+build b3 at Gee3
+convert b2 to y2 at Y2
+convert b3 to y3 at Gee3
+build g1 at Wil
+move r2 from Gee3 to G2 (g2)
+sacrifice g3 at Wil; build g1 at Y2; build g3 at Wil; build y1 at Wil
+move r3 from Gee3 to Y2
+move y1 from Wil to Y2
+sacrifice b1 at Gee3; convert r3 to y3 at Y2; catastrophe yellow at Y2
+move g1 from Wil to Gtoo (g2)
+convert b2 to y2 at G3
+sacrifice g3 at Wil; build g1 at Gtoo; build g3 at Wil; build r1 at Wil
+build b1 at G3
+move y1 from Wil to B2 (b2)
+build b1 at G3
+move r1 from Wil to Gtoo
+move b1 from G3 to G2
+sacrifice g3 at Wil; build g3 at Wil; build r1 at Wil; build r2 at Gtoo
+build r3 at G2
+sacrifice g3 at Wil; build g3 at Wil; build r3 at Gtoo; build r3 at Wil
+sacrifice y2 at G3; move r2 from G2 to G3; move r2 from G3 to Gtoo; catastrophe red at Gtoo
+convert r1 to y1 at Wil
+build b2 at G2
+move r3 from Wil to B2
+build b3 at G3
+convert r3 to y3 at B2
+convert b2 to y2 at G3
+build r1 at Wil
+build b2 at G2
+move r2 from Wil to B2
+convert b2 to y2 at G2
+sacrifice g3 at Wil; build g3 at Wil; build r1 at Wil; build r2 at B2
+sacrifice y3 at Gee3; move y2 from G2 to Wil; move y2 from G3 to G2; move y2 from G2 to Wil; catastrophe yellow at Wil
+build g3 at Wil
+build b2 at G2
+sacrifice y3 at B2; move g3 from Wil to G2; move g3 from Wil to G2; move g1 from Wil to G2; catastrophe green at G2

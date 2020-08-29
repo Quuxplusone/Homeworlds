@@ -1,0 +1,23 @@
+Adambadura (0, g2b1) r3-
+Rootbier (1, y1b3) -g3
+build r1 at Adambadura
+build g1 at Rootbier
+convert r1 to y1 at Adambadura
+convert g1 to y1 at Rootbier
+build y2 at Adambadura
+move y1 from Rootbier to Banter (g2)
+move y2 from Adambadura to Shipyard (g3)
+build y2 at Banter
+build y2 at Shipyard
+build g1 at Rootbier
+build y3 at Adambadura
+move y2 from Banter to Udi2W (b3)
+move y2 from Shipyard to Banter
+sacrifice g1 at Rootbier; build y3 at Udi2W
+build y3 at Shipyard
+build g1 at Rootbier
+build r1 at Adambadura
+convert g1 to b1 at Rootbier
+sacrifice y2 at Shipyard; move y3 from Shipyard to Banter; move y3 from Banter to Rootbier
+sacrifice y3 at Udi2W; move y2 from Udi2W to Banter; move y2 from Banter to Rootbier; move y1 from Banter to Rootbier; catastrophe yellow at Rootbier
+move y3 from Adambadura to Rootbier

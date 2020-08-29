@@ -1,0 +1,12 @@
+Wil (0, b3y1) g3-
+Cacodemon (1, g2b1) -y3
+build g1 at Wil
+build y1 at Cacodemon
+convert g1 to y1 at Wil
+convert y1 to b1 at Cacodemon
+build y1 at Wil
+build y2 at Cacodemon
+move y1 from Wil to G2 (g2)
+build y2 at Cacodemon
+build g1 at Wil
+move y2 from Cacodemon to Green3 (g3)

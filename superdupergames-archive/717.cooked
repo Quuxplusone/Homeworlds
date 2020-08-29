@@ -1,0 +1,27 @@
+Ts52 (0, b3g1) y3-
+Rootbeer (1, b1y2) -g3
+build y1 at Ts52
+build g1 at Rootbeer
+move y1 from Ts52 to Discordia (b2)
+build g1 at Rootbeer
+build y1 at Ts52
+convert g3 to r3 at Rootbeer
+convert y3 to g3 at Ts52
+build g2 at Rootbeer
+build g2 at Ts52
+move g2 from Rootbeer to Lizaminelli (y3)
+move g2 from Ts52 to Discordia
+build g2 at Lizaminelli
+build g3 at Discordia
+move g2 from Lizaminelli to Discordia
+convert g3 to r3 at Discordia
+build g3 at Discordia
+build g3 at Ts52
+convert g2 to y2 at Discordia
+capture y2 at Discordia
+sacrifice g2 at Lizaminelli; build g2 at Discordia; build g2 at Discordia
+move g2 from Discordia to Persiod (y3)
+convert g3 to y3 at Discordia
+capture y3 at Discordia
+build g3 at Rootbeer
+sacrifice y1 at Discordia; move g2 from Persiod to Rootbeer; catastrophe green at Rootbeer

@@ -1,0 +1,37 @@
+Wil (0, r2b1) g3-
+Onepagewars (1, b2y3) -g3
+build g1 at Wil
+build g1 at Onepagewars
+convert g1 to b1 at Wil
+convert g3 to y3 at Onepagewars
+build b1 at Wil
+build g1 at Onepagewars
+build g1 at Wil
+build g2 at Onepagewars
+convert g1 to y1 at Wil
+convert g1 to r1 at Onepagewars
+move b1 from Wil to G3 (g3)
+move y3 from Onepagewars to Starcraft2 (g1)
+build b2 at Wil
+build r1 at Onepagewars
+build y1 at Wil
+move r1 from Onepagewars to Starcraft2
+convert b2 to r2 at Wil
+convert g2 to b2 at Onepagewars
+build b2 at G3
+build b3 at Onepagewars
+sacrifice y1 at Wil; move b1 from G3 to Y1 (y1)
+move b2 from Onepagewars to Y1
+sacrifice g3 at Wil; build b3 at G3; build b3 at Y1; build y1 at Wil
+build r1 at Onepagewars
+convert b3 to r3 at Y1
+build r2 at Starcraft2
+convert b3 to g3 at G3
+move r2 from Starcraft2 to G3
+sacrifice r2 at Wil; capture r2 at G3; capture b2 at Y1
+build y2 at Starcraft2
+sacrifice g3 at G3; build b3 at Wil; build b3 at G3; build y2 at Wil
+sacrifice y3 at Starcraft2; move b3 from Onepagewars to Starcraft2; move b3 from Starcraft2 to G3; move b3 from G3 to Wil; catastrophe blue at Wil
+sacrifice y2 at Wil; move b3 from G3 to Y1; move b3 from Y1 to Onepagewars
+build r2 at Starcraft2
+sacrifice r3 at Y1; capture r1 at Onepagewars; capture g1 at Onepagewars; capture r1 at Onepagewars

@@ -1,0 +1,32 @@
+Nycavri (0, y1b2) g3-
+Ts52 (1, y1b3) -g3
+build g1 at Nycavri
+build g1 at Ts52
+convert g1 to y1 at Nycavri
+build g1 at Ts52
+build y2 at Nycavri
+move g1 from Ts52 to Berry (b2)
+move y2 from Nycavri to Deacon (b3)
+build g1 at Berry
+sacrifice g3 at Nycavri; build y2 at Deacon; build y2 at Deacon; build y3 at Nycavri
+build g2 at Berry
+convert y2 to g2 at Deacon
+convert g2 to y2 at Berry
+sacrifice y2 at Deacon; move g2 from Deacon to Berry; move g2 from Berry to Ts52
+convert g3 to r3 at Ts52
+convert y1 to r1 at Nycavri
+capture g2 at Ts52
+convert y2 to g2 at Deacon
+move g1 from Berry to Grover (b3)
+build g2 at Deacon
+build g3 at Grover
+convert g2 to y2 at Deacon
+convert g1 to y1 at Berry
+build y2 at Deacon
+move y2 from Berry to Grover
+convert y3 to r3 at Nycavri
+sacrifice g2 at Ts52; build y3 at Berry; build y3 at Grover
+convert y2 to b2 at Deacon
+sacrifice y2 at Grover; move g3 from Grover to Nycavri; move y3 from Grover to Nycavri
+capture g3 at Nycavri
+sacrifice r3 at Ts52; capture g3 at Nycavri; capture r3 at Nycavri; capture r1 at Nycavri

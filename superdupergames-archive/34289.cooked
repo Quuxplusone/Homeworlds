@@ -1,0 +1,35 @@
+Wil (0, b3y2) g3-
+Shmil1 (1, g1b2) -y3
+build g1 at Wil
+build y1 at Shmil1
+convert g1 to b1 at Wil
+build y1 at Shmil1
+build g1 at Wil
+move y1 from Shmil1 to Zel (g3)
+move g1 from Wil to B1 (b1)
+convert y1 to r1 at Shmil1
+build g1 at Wil
+move y1 from Zel to B1
+build g2 at B1
+sacrifice r1 at Shmil1; capture g1 at B1
+sacrifice g3 at Wil; build g2 at B1; build g2 at B1; build g3 at Wil; catastrophe green at B1
+convert y1 to g1 at B1
+build b1 at Wil
+build g2 at B1
+move b1 from Wil to Y1 (y1)
+convert g2 to y2 at B1
+convert g1 to r1 at Wil
+build y1 at B1
+sacrifice g3 at Wil; build b2 at Y1; build b2 at Y1; build b3 at Wil
+build y1 at B1
+convert b3 to g3 at Wil
+build y2 at Shmil1
+build b3 at Wil
+sacrifice y3 at Shmil1; move y1 from B1 to Wil; move y1 from B1 to Wil; move y2 from B1 to Wil; catastrophe yellow at Wil
+convert b3 to y3 at Wil
+build y1 at Shmil1
+move y3 from Wil to Shmil1
+convert y2 to g2 at Shmil1
+convert g3 to r3 at Wil
+build y1 at Shmil1
+sacrifice r3 at Wil; capture y1 at Shmil1; capture y1 at Shmil1; capture g2 at Shmil1

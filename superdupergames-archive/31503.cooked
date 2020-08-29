@@ -1,0 +1,34 @@
+Mobynostromo (0, g3y2) b3-
+Draw5Playall (1, b3r1) -g3
+build b1 at Mobynostromo
+build g1 at Draw5Playall
+build b1 at Mobynostromo
+convert g1 to b1 at Draw5Playall
+convert b1 to y1 at Mobynostromo
+build g1 at Draw5Playall
+convert b1 to g1 at Mobynostromo
+convert g1 to y1 at Draw5Playall
+build y1 at Mobynostromo
+build y2 at Draw5Playall
+move y1 from Mobynostromo to Blue (b1)
+move b1 from Draw5Playall to G2 (g2)
+build y2 at Mobynostromo
+move y1 from Draw5Playall to G2
+move g1 from Mobynostromo to Blue
+build y3 at G2
+build y3 at Blue
+sacrifice y2 at Draw5Playall; move y1 from G2 to Blue; move y1 from Blue to Mobynostromo; catastrophe yellow at Mobynostromo
+convert y3 to r3 at Blue
+build g1 at Draw5Playall
+move r3 from Blue to G2
+move y3 from G2 to Blue
+capture b1 at G2
+convert g1 to r1 at Draw5Playall
+sacrifice y1 at Blue; move r3 from G2 to Blue
+sacrifice r1 at Draw5Playall; capture r3 at Blue
+convert b3 to g3 at Mobynostromo
+capture g1 at Blue
+build b1 at G2
+build g1 at Draw5Playall
+convert b1 to y1 at G2
+sacrifice y3 at Blue; move g1 from Blue to Mobynostromo; move g1 from Draw5Playall to G2; move g1 from G2 to Mobynostromo; catastrophe green at Mobynostromo

@@ -1,0 +1,38 @@
+Wil (0, r2b1) g3-
+Broccoli_Commander (1, y2g3) -b3
+build g1 at Wil
+build b1 at Broccoli_Commander
+build g1 at Wil
+convert b3 to g3 at Broccoli_Commander
+convert g1 to b1 at Wil
+build b2 at Broccoli_Commander
+build b2 at Wil
+move b1 from Broccoli_Commander to Pea (g1)
+convert b1 to y1 at Wil
+build b1 at Broccoli_Commander
+build b2 at Wil
+move b2 from Broccoli_Commander to Tomatoe (r1)
+convert b2 to r2 at Wil
+sacrifice g3 at Broccoli_Commander; build b2 at Tomatoe; build b3 at Broccoli_Commander; build b3 at Pea
+build b3 at Wil
+convert b3 to r3 at Pea
+convert b3 to y3 at Wil
+convert b2 to y2 at Tomatoe
+move b2 from Wil to G3 (g3)
+build r1 at Pea
+move y1 from Wil to G3
+build r1 at Pea
+build b2 at G3
+build b3 at Pea
+move b2 from G3 to Y1 (y1)
+sacrifice b2 at Tomatoe; convert b3 to r3 at Broccoli_Commander; convert b1 to y1 at Pea
+move r2 from Wil to G3
+move r3 from Pea to G3
+sacrifice g3 at Wil; build r2 at G3; build r3 at G3; build b1 at Y1; catastrophe red at G3
+move b3 from Pea to G3
+move b2 from G3 to G1 (g1)
+sacrifice r1 at Pea; capture y1 at G3
+build b2 at G1
+build y2 at G3
+build y3 at Wil
+sacrifice y2 at Tomatoe; move y1 from G3 to Wil; move y2 from G3 to Wil; catastrophe yellow at Wil

@@ -1,0 +1,31 @@
+Dther (0, r2b3) g3-
+Mobynostromo (1, b2g3) -y3
+build g1 at Dther
+build y1 at Mobynostromo
+build g1 at Dther
+move y1 from Mobynostromo to Srouts (g1)
+convert g1 to y1 at Dther
+build y1 at Mobynostromo
+build y2 at Dther
+build y2 at Srouts
+sacrifice y2 at Dther; move g1 from Dther to Srouts; move g1 from Srouts to Mobynostromo
+convert y1 to r1 at Mobynostromo
+build g1 at Mobynostromo
+build r1 at Mobynostromo
+build g2 at Dther
+capture g1 at Mobynostromo
+sacrifice g3 at Dther; build g2 at Mobynostromo; build g2 at Dther; build g3 at Dther; catastrophe green at Mobynostromo
+convert r1 to b1 at Mobynostromo
+convert g2 to b2 at Dther
+move b1 from Mobynostromo to Srouts
+move b2 from Dther to Malachite (g1)
+convert y2 to r2 at Srouts
+build b1 at Malachite
+move r2 from Srouts to Amber (y2)
+convert b1 to r1 at Malachite
+build b1 at Srouts
+convert g3 to y3 at Dther
+convert b1 to r1 at Srouts
+sacrifice g2 at Dther; build b1 at Malachite; build b1 at Malachite
+move r2 from Amber to Malachite
+sacrifice y3 at Dther; move b2 from Malachite to Mobynostromo; move b1 from Malachite to Mobynostromo; move b1 from Malachite to Mobynostromo; catastrophe blue at Mobynostromo

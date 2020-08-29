@@ -1,0 +1,61 @@
+Trydnt (0, b2r1) g3-
+Mandrel (1, b1r3) -g3
+build g1 at Trydnt
+build g1 at Mandrel
+convert g1 to b1 at Trydnt
+convert g1 to y1 at Mandrel
+build g1 at Trydnt
+build y1 at Mandrel
+convert g1 to y1 at Trydnt
+build y2 at Mandrel
+build y2 at Trydnt
+move y1 from Mandrel to Squirrel (g2)
+move b1 from Trydnt to G3 (g3)
+convert y2 to b2 at Mandrel
+move y1 from Trydnt to G3
+move b2 from Mandrel to Squirrel
+build y2 at G3
+build y2 at Squirrel
+move y1 from G3 to Squirrel
+convert y1 to r1 at Squirrel
+sacrifice g3 at Trydnt; build y1 at Squirrel; build y3 at G3; build y3 at Trydnt
+build y3 at Mandrel
+sacrifice y2 at G3; move y1 from Squirrel to Mandrel; move y1 from Squirrel to Mandrel; catastrophe yellow at Mandrel
+build g1 at Mandrel
+build y1 at G3
+convert g1 to y1 at Mandrel
+convert y3 to g3 at Trydnt
+build g1 at Mandrel
+convert y1 to r1 at G3
+build r2 at Squirrel
+build r2 at G3
+move r2 from Squirrel to Tea (b3)
+move r2 from G3 to G2 (g2)
+build g1 at Mandrel
+convert r1 to g1 at G3
+convert g1 to b1 at Mandrel
+build y1 at G3
+move g1 from Mandrel to Sky (b2)
+build b3 at G3
+build b3 at Squirrel
+move b3 from G3 to G2
+convert b2 to g2 at Squirrel
+sacrifice g1 at G3; build b2 at G2
+move g2 from Squirrel to Tea
+move y1 from G3 to G2
+build g1 at Mandrel
+build g1 at Trydnt
+move b1 from Mandrel to Intent (y2)
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y1 at G3; build y3 at G2
+sacrifice g3 at Mandrel; build g3 at Mandrel; build y3 at Mandrel; build r1 at Tea
+move y3 from G2 to Tea
+sacrifice y2 at Squirrel; move r1 from Tea to Trydnt; move r2 from Tea to Trydnt
+sacrifice r2 at G2; capture r1 at Trydnt; capture r2 at Trydnt
+sacrifice y3 at Mandrel; move r1 from Squirrel to Tea; move r1 from Tea to Trydnt; move g2 from Tea to Intent; catastrophe red at Trydnt
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y2 at G2; build y3 at Tea
+convert g1 to r1 at Mandrel
+convert g1 to r1 at Trydnt
+build g1 at Mandrel
+build r1 at Trydnt
+sacrifice g1 at Sky; build b2 at Intent
+sacrifice y3 at Tea; move r1 from Trydnt to Mandrel; move r1 from Trydnt to Mandrel; move b3 from G2 to Mandrel; catastrophe red at Mandrel

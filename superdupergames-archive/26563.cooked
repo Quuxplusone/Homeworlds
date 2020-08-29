@@ -1,0 +1,56 @@
+Rizzotto (0, b1g2) y3-
+Detectiveazul (1, g3b2) -y3
+build y1 at Rizzotto
+build y1 at Detectiveazul
+move y1 from Rizzotto to Azulita (b3)
+convert y1 to g1 at Detectiveazul
+build y1 at Rizzotto
+build g1 at Detectiveazul
+move y3 from Rizzotto to Azulita
+convert g1 to r1 at Detectiveazul
+convert y3 to r3 at Azulita
+build r1 at Detectiveazul
+build y1 at Rizzotto
+convert r1 to b1 at Detectiveazul
+move y1 from Rizzotto to Azulita
+build y2 at Detectiveazul
+convert y1 to r1 at Azulita
+move b1 from Detectiveazul to Putilla (g1)
+move r3 from Azulita to Putilla
+sacrifice y2 at Detectiveazul; move b1 from Putilla to Azulita; move b1 from Azulita to Rizzotto
+build y1 at Rizzotto
+convert b1 to r1 at Rizzotto
+build y2 at Rizzotto
+convert y3 to r3 at Detectiveazul
+convert y2 to r2 at Rizzotto
+build r2 at Rizzotto
+capture r2 at Rizzotto
+sacrifice r3 at Detectiveazul; capture y1 at Rizzotto; capture y1 at Rizzotto
+sacrifice r3 at Putilla; capture y1 at Rizzotto; capture r1 at Rizzotto
+build y2 at Rizzotto
+sacrifice r2 at Rizzotto; capture y1 at Rizzotto; capture y2 at Rizzotto
+build r2 at Detectiveazul
+convert y1 to g1 at Rizzotto
+convert r1 to b1 at Detectiveazul
+move g1 from Rizzotto to Azulita
+build r1 at Detectiveazul
+convert y2 to g2 at Rizzotto
+convert r1 to y1 at Detectiveazul
+convert g2 to r2 at Rizzotto
+build y2 at Detectiveazul
+move r2 from Rizzotto to Azulita
+build y2 at Detectiveazul
+move r2 from Azulita to Estaclaro (g1)
+convert y2 to b2 at Detectiveazul
+build g2 at Azulita
+move b2 from Detectiveazul to Estrambolico (b1)
+build y2 at Azulita
+convert b2 to g2 at Estrambolico
+move g1 from Azulita to Estaclaro
+build g3 at Estrambolico
+build g3 at Estaclaro
+move g1 from Detectiveazul to Estaclaro; catastrophe green at Estaclaro
+convert g2 to r2 at Azulita
+sacrifice y2 at Detectiveazul; move g3 from Estrambolico to Azulita; move g3 from Azulita to Rizzotto
+move r2 from Rizzotto to Azulita
+sacrifice r2 at Detectiveazul; capture r1 at Rizzotto; capture y1 at Rizzotto

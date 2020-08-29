@@ -1,0 +1,50 @@
+Shmil1 (0, y3b1) g3-
+Dlwillson (1, b2r3) -g3
+build g1 at Shmil1
+build g1 at Dlwillson
+move g1 from Shmil1 to Modra (b2)
+convert g1 to b1 at Dlwillson
+build g1 at Modra
+build b1 at Dlwillson
+convert g1 to y1 at Modra
+build g1 at Dlwillson
+build y1 at Modra
+convert g3 to y3 at Dlwillson
+move y1 from Modra to Zelena (g1)
+move b1 from Dlwillson to Zelena
+build y1 at Zelena
+build b2 at Zelena
+build y2 at Modra
+convert b2 to r2 at Zelena
+sacrifice y2 at Modra; move y1 from Zelena to Dlwillson; move y1 from Zelena to Dlwillson
+convert y3 to g3 at Dlwillson
+capture g1 at Dlwillson
+capture g1 at Dlwillson
+build g2 at Modra
+capture y1 at Dlwillson
+convert g2 to r2 at Modra
+sacrifice g3 at Dlwillson; build b2 at Zelena; build b3 at Zelena; build b3 at Dlwillson
+sacrifice r2 at Modra; capture y1 at Dlwillson; capture g1 at Dlwillson
+capture g1 at Dlwillson
+capture b1 at Dlwillson
+sacrifice r2 at Zelena; capture b1 at Dlwillson; capture y1 at Dlwillson
+build g2 at Shmil1
+capture y1 at Dlwillson
+convert g3 to r3 at Shmil1
+move y1 from Dlwillson to Zelena
+move g1 from Modra to Zelena
+move b3 from Zelena to Grappa (y2)
+sacrifice g2 at Shmil1; build g2 at Zelena; build y2 at Modra
+sacrifice g1 at Dlwillson; build b3 at Grappa
+sacrifice y2 at Modra; move g1 from Zelena to Dlwillson; move g2 from Zelena to Dlwillson
+capture g2 at Dlwillson
+capture b1 at Dlwillson
+capture g1 at Dlwillson
+move y1 from Modra to Zelena
+capture b1 at Dlwillson
+build y2 at Zelena
+sacrifice b2 at Zelena; convert g2 to y2 at Dlwillson; convert b3 to r3 at Dlwillson
+sacrifice y2 at Zelena; move y1 from Zelena to Grappa; move y1 from Grappa to Shmil1
+sacrifice y2 at Dlwillson; move b3 from Grappa to Shmil1; move b3 from Grappa to Shmil1
+capture b3 at Shmil1
+sacrifice r3 at Dlwillson; capture b3 at Shmil1; capture r3 at Shmil1; capture y1 at Shmil1

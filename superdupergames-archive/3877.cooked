@@ -1,0 +1,29 @@
+Zoltar (0, b2y1) g3-
+Personman (1, b3y1) -g3
+build g1 at Zoltar
+build g1 at Personman
+convert g1 to y1 at Zoltar
+convert g3 to y3 at Personman
+build y2 at Zoltar
+build y2 at Personman
+move y1 from Zoltar to Greenbelt (g3)
+move y2 from Personman to Alves (g2)
+build g1 at Zoltar
+build g1 at Personman
+move g1 from Zoltar to Investment (y3)
+move g1 from Personman to Cobaltmere (b2)
+build g2 at Zoltar
+build g2 at Cobaltmere
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Investment; build y2 at Greenbelt
+sacrifice g2 at Cobaltmere; build y3 at Alves; build g2 at Personman
+move y1 from Greenbelt to Blueberry (b2)
+convert g1 to r1 at Personman
+convert g2 to r2 at Zoltar
+build r1 at Personman
+sacrifice g3 at Investment; build g1 at Investment; build g2 at Investment; build g3 at Zoltar
+sacrifice y2 at Alves; move g1 from Cobaltmere to Investment; move r1 from Personman to Blueberry; catastrophe green at Investment
+move y1 from Blueberry to Personman
+move y3 from Personman to Blueberry
+sacrifice g3 at Zoltar; build y2 at Greenbelt; build y3 at Personman; build r1 at Zoltar
+move y3 from Alves to Luitpold (g3)
+sacrifice r2 at Zoltar; capture g2 at Personman; capture r1 at Personman

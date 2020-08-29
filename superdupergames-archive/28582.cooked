@@ -1,0 +1,24 @@
+Ts52 (0, y3b1) g3-
+Danielaurence (1, b2r1) -g3
+build g1 at Ts52
+build g1 at Danielaurence
+convert g1 to b1 at Ts52
+convert g1 to b1 at Danielaurence
+build b2 at Ts52
+build b2 at Danielaurence
+move b2 from Ts52 to Oscar (g2)
+convert b1 to y1 at Danielaurence
+build g1 at Ts52
+build y1 at Danielaurence
+move b1 from Ts52 to Oscar
+move b2 from Danielaurence to Forest (g3)
+convert b2 to y2 at Oscar
+build g1 at Danielaurence
+move g1 from Ts52 to Gonzo (b2)
+move y1 from Danielaurence to Forest
+build g1 at Ts52
+move g1 from Danielaurence to Forest
+sacrifice g3 at Ts52; build g2 at Ts52; build g2 at Gonzo; build g3 at Ts52
+move g1 from Forest to Desert (y2)
+convert g2 to r2 at Gonzo
+move g1 from Desert to Ts52; catastrophe green at Ts52

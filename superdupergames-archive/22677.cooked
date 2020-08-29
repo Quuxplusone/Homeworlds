@@ -1,0 +1,29 @@
+Bugggg (0, b2y3) g3-
+Krispy101 (1, y3b2) -g3
+build g1 at Bugggg
+build g1 at Krispy101
+convert g1 to r1 at Bugggg
+move g1 from Krispy101 to Alpha (b1)
+build r1 at Bugggg
+build g1 at Krispy101
+move r1 from Bugggg to Alpha
+convert g1 to r1 at Krispy101
+capture g1 at Alpha
+build r2 at Krispy101
+build r2 at Alpha
+move r1 from Krispy101 to Bravo (y1)
+build g1 at Bugggg
+move g3 from Krispy101 to Bravo
+convert g3 to r3 at Bugggg
+build g1 at Bravo
+sacrifice r1 at Alpha
+move g1 from Bravo to Krispy101
+build g2 at Alpha
+convert g1 to b1 at Krispy101
+convert g2 to y2 at Alpha
+build r1 at Bravo
+sacrifice y2 at Alpha; move r3 from Bugggg to Alpha; move r3 from Alpha to Krispy101
+move g3 from Bravo to Krispy101
+sacrifice r2 at Alpha; capture g3 at Krispy101; capture r2 at Krispy101
+move r1 from Bravo to Bugggg
+capture b1 at Krispy101

@@ -1,0 +1,12 @@
+Unic (0, g1y2) b3-
+Gundam_Blade (1, b3g2) -r3
+build b1 at Unic
+build r1 at Gundam_Blade
+build b1 at Unic
+build r1 at Gundam_Blade
+move b1 from Unic to Prima (g3)
+convert r1 to y1 at Gundam_Blade
+build b1 at Unic
+move r1 from Gundam_Blade to Gundam1 (y1)
+convert b1 to r1 at Unic
+build y1 at Gundam_Blade

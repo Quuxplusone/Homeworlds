@@ -1,0 +1,24 @@
+Mikeyarrum (0, b1y2) g3-
+Cinnibar (1, y1b2) -g3
+build g1 at Mikeyarrum
+build g1 at Cinnibar
+move g1 from Mikeyarrum to Deep (b3)
+convert g1 to r1 at Cinnibar
+build g1 at Deep
+move r1 from Cinnibar to Deep
+build g1 at Mikeyarrum
+build g2 at Cinnibar
+build g2 at Mikeyarrum
+capture g1 at Deep
+convert g3 to r3 at Mikeyarrum
+build r1 at Deep
+convert g1 to y1 at Mikeyarrum
+convert g2 to y2 at Cinnibar
+move y1 from Mikeyarrum to Mean (g3)
+build g1 at Cinnibar
+sacrifice g1 at Deep; build y1 at Mean
+move y2 from Cinnibar to Mean
+build g1 at Mikeyarrum
+build g2 at Deep
+move y1 from Mean to Cinnibar
+sacrifice y2 at Mean; move g1 from Deep to Mikeyarrum; move g2 from Deep to Mikeyarrum; catastrophe green at Mikeyarrum

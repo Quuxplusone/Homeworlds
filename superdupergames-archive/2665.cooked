@@ -1,0 +1,27 @@
+Twoshort (0, y1b2) g3-
+Sketchwick (1, y1b3) -g3
+build g1 at Twoshort
+build g1 at Sketchwick
+move g1 from Twoshort to Yolonda (y3)
+move g1 from Sketchwick to Again (y2)
+build g1 at Twoshort
+build g2 at Sketchwick
+move g1 from Twoshort to Bluestar (b3)
+build g2 at Again
+convert g1 to y1 at Bluestar
+move g1 from Again to Good (g1)
+build g2 at Twoshort
+build g3 at Again
+sacrifice g3 at Twoshort; build y2 at Bluestar; build y2 at Bluestar; build g3 at Twoshort
+convert g2 to r2 at Sketchwick
+sacrifice y2 at Bluestar; move y2 from Bluestar to Bomber (b2); move y1 from Bluestar to Denial (y2)
+convert g3 to y3 at Sketchwick
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g3 at Twoshort; build y3 at Bomber
+sacrifice y3 at Sketchwick; move g2 from Again to Sketchwick; move g3 from Again to Yolonda; move g3 from Yolonda to Twoshort
+sacrifice y3 at Bomber; move g1 from Yolonda to Twoshort; move y2 from Bomber to Desperation (r3); move y2 from Desperation to Twoshort; catastrophe green at Twoshort
+move r2 from Sketchwick to Denial
+sacrifice g2 at Yolonda; build y2 at Twoshort; build y3 at Denial
+move r2 from Denial to Bleh (y3)
+convert y2 to r2 at Twoshort
+convert g2 to y2 at Sketchwick
+move y3 from Denial to Sketchwick

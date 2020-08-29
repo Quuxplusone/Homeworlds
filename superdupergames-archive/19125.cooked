@@ -1,0 +1,19 @@
+Ajo (0, y3b1) g3-
+Shmil1 (1, g1b2) -y3
+build g1 at Ajo
+build y1 at Shmil1
+build g1 at Ajo
+build y1 at Shmil1
+move g1 from Ajo to Alpha (b2)
+move y1 from Shmil1 to Zel (g3)
+build g2 at Alpha
+build y1 at Zel
+sacrifice g3 at Ajo; build g2 at Ajo; build g2 at Alpha; build g3 at Ajo
+convert y3 to g3 at Shmil1
+convert g2 to y2 at Alpha
+convert y1 to b1 at Shmil1
+convert g1 to b1 at Alpha
+build b2 at Shmil1
+sacrifice y2 at Alpha; move b1 from Alpha to Zel; move b1 from Zel to Shmil1; catastrophe blue at Shmil1
+move y1 from Zel to Alpha
+convert g3 to y3 at Ajo

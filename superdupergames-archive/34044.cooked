@@ -1,0 +1,43 @@
+Trydnt (0, b2y1) g3-
+Ts52 (1, b2y3) -g3
+build g1 at Trydnt
+build g1 at Ts52
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Ts52
+build y2 at Trydnt
+build y2 at Ts52
+move y1 from Trydnt to G3 (g3)
+move y2 from Ts52 to Kermit (g1)
+sacrifice g3 at Trydnt; build y2 at G3; build y3 at Trydnt; build y3 at G3
+move y1 from Ts52 to Robin (g1)
+sacrifice y2 at G3; move y2 from Trydnt to B3 (b3); move y1 from G3 to G1 (g1)
+build y2 at Robin
+convert y2 to r2 at B3
+build g2 at Ts52
+build y2 at G1
+convert g2 to r2 at Ts52
+move y3 from G3 to Robin
+sacrifice y2 at Robin; move y1 from Robin to Gonzo (b3); move y2 from Kermit to Gonzo
+convert y3 to r3 at Trydnt
+convert y1 to g1 at Gonzo
+move y3 from Robin to Gonzo
+move g1 from Gonzo to Grover (b1)
+sacrifice r2 at B3; capture y2 at Gonzo
+build g1 at Ts52
+convert y2 to r2 at Gonzo
+build g2 at Grover
+convert r3 to g3 at Trydnt
+build g2 at Grover
+move y3 from Gonzo to Grover
+move g1 from Ts52 to Cookie (b1)
+sacrifice r2 at Gonzo; capture g2 at Grover; capture g2 at Grover
+build g2 at Grover; catastrophe green at Grover
+move y1 from G1 to B3 (b3)
+build r1 at Ts52
+convert y1 to r1 at B3
+move r2 from Ts52 to Cookie
+build y1 at G1
+build r1 at Cookie
+build y1 at G1
+convert r2 to y2 at Cookie
+move y3 from Grover to B3

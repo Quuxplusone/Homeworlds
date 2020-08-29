@@ -1,0 +1,40 @@
+Astroprincess (0, b2r1) g3-
+Moverman (1, y3b2) -g3
+build g1 at Astroprincess
+build g1 at Moverman
+convert g1 to y1 at Astroprincess
+convert g1 to r1 at Moverman
+build y1 at Astroprincess
+build r1 at Moverman
+move y1 from Astroprincess to Nemo (r3)
+build g1 at Moverman
+build g1 at Astroprincess
+build r2 at Moverman
+move g1 from Astroprincess to Nemo
+move r2 from Moverman to Mwvz (y1)
+build y2 at Nemo
+move g1 from Moverman to Mwvz
+build y2 at Astroprincess
+build r2 at Mwvz
+convert y1 to b1 at Astroprincess
+build r2 at Moverman
+build b1 at Astroprincess
+build r3 at Mwvz
+move b1 from Astroprincess to Nemo
+move r3 from Mwvz to Nemo
+move b1 from Astroprincess to Nemo
+sacrifice r2 at Moverman; capture y2 at Nemo; capture y1 at Nemo
+build g1 at Astroprincess
+sacrifice r2 at Mwvz; capture b1 at Nemo; capture b1 at Nemo
+build y1 at Astroprincess
+move y1 from Nemo to Astroprincess
+move y1 from Astroprincess to Nemo
+capture y1 at Nemo
+capture y1 at Astroprincess
+capture g1 at Nemo
+convert y1 to b1 at Astroprincess
+sacrifice y2 at Nemo; move b1 from Nemo to Astroprincess; move b1 from Nemo to Astroprincess; catastrophe blue at Astroprincess
+build y1 at Astroprincess
+sacrifice g3 at Moverman; build y2 at Nemo; build r2 at Mwvz; build g2 at Nemo
+build y2 at Astroprincess
+move y1 from Nemo to Astroprincess; catastrophe yellow at Astroprincess

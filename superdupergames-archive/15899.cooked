@@ -1,0 +1,40 @@
+Dlwillson (0, b3r1) g3-
+Twoshort (1, b1r2) -g3
+build g1 at Dlwillson
+build g1 at Twoshort
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Twoshort
+build g1 at Dlwillson
+build g1 at Twoshort
+convert g1 to r1 at Dlwillson
+convert g1 to b1 at Twoshort
+move r1 from Dlwillson to Dingo (g2)
+build b1 at Twoshort
+build g1 at Dlwillson
+move b1 from Twoshort to Grogar (g3)
+build g1 at Dlwillson
+build b2 at Grogar
+move g1 from Dlwillson to Bingo (r2)
+build g1 at Twoshort
+sacrifice g3 at Dlwillson; build g2 at Dlwillson; build g2 at Bingo; build g3 at Dlwillson
+sacrifice g3 at Twoshort; build g3 at Twoshort; build b2 at Grogar; build b2 at Twoshort
+sacrifice g3 at Dlwillson; build r1 at Dingo; build r2 at Dingo; build g3 at Dlwillson
+move b1 from Twoshort to Rover (r3)
+sacrifice g3 at Dlwillson; build y1 at Dlwillson; build y2 at Dlwillson; build g3 at Dlwillson
+sacrifice g3 at Twoshort; build b3 at Twoshort; build b3 at Rover; build g3 at Twoshort
+move y1 from Dlwillson to Dingo
+sacrifice b2 at Grogar; convert b3 to r3 at Twoshort; convert b3 to y3 at Rover
+sacrifice g2 at Dlwillson; build y2 at Dingo; build y2 at Dingo
+sacrifice g3 at Twoshort; build b2 at Rover; build b3 at Grogar; build b3 at Twoshort
+sacrifice y2 at Dingo; move r1 from Dingo to Xerox (y3); move r1 from Dingo to Ditto (y3)
+sacrifice y3 at Rover; move r3 from Twoshort to Grover (g3); move b2 from Twoshort to Rogar (r3); move b3 from Grogar to Dingo
+sacrifice y2 at Dingo; move r2 from Dingo to Ditto; move r1 from Ditto to Twoshort
+capture r1 at Twoshort
+sacrifice y2 at Dlwillson; move r1 from Xerox to Twoshort; move r2 from Ditto to Twoshort; catastrophe red at Twoshort
+sacrifice b2 at Rover; convert b3 to y3 at Twoshort; convert b2 to r2 at Rogar
+sacrifice g3 at Dlwillson; build y2 at Dlwillson; build y2 at Dingo; build g2 at Dlwillson
+sacrifice y3 at Twoshort; move r3 from Grover to Dingo; move r3 from Dingo to Dlwillson; move b3 from Dingo to Dlwillson
+sacrifice y2 at Dingo; move g1 from Bingo to Twoshort; move g2 from Bingo to Twoshort
+sacrifice r2 at Rogar; capture g2 at Dlwillson; capture y2 at Dlwillson
+build g3 at Twoshort; catastrophe green at Twoshort
+sacrifice r3 at Dlwillson; capture g1 at Dlwillson; capture y1 at Dlwillson

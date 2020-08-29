@@ -1,0 +1,53 @@
+Twoshort (0, y1b3) g3-
+Keith (1, y2b1) -g3
+build g1 at Twoshort
+build g1 at Keith
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Keith
+build g1 at Twoshort
+move y1 from Keith to Maruko (g3)
+move y1 from Twoshort to Grogar (g2)
+build y2 at Maruko
+build g1 at Twoshort
+move y1 from Maruko to Nikos (b2)
+move g1 from Twoshort to Bluestar (b2)
+build g1 at Keith
+build g2 at Bluestar
+sacrifice g3 at Keith; build g2 at Keith; build g3 at Keith; build y2 at Nikos
+build y3 at Grogar
+convert g2 to b2 at Keith
+convert g2 to r2 at Bluestar
+build y3 at Maruko
+move y3 from Grogar to Maruko
+convert y2 to r2 at Nikos
+move y3 from Maruko to Nikos
+move r2 from Nikos to Maruko
+build g2 at Bluestar
+move y3 from Maruko to Bluestar
+sacrifice y3 at Nikos; move g2 from Bluestar to Larry (y3); move g1 from Bluestar to Moe (b3); move r2 from Bluestar to Curly (b3)
+move r2 from Maruko to Grogar
+sacrifice g3 at Twoshort; build g2 at Larry; build y2 at Grogar; build g3 at Twoshort
+capture y2 at Grogar
+sacrifice g3 at Twoshort; build y3 at Grogar; build g3 at Twoshort; build r1 at Curly
+move y2 from Maruko to Grogar; catastrophe yellow at Grogar
+convert r2 to y2 at Curly
+move g1 from Keith to Larry
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Moe; build y1 at Curly
+move y3 from Bluestar to Larry
+convert g3 to r3 at Moe
+build g3 at Larry; catastrophe green at Larry
+move y2 from Curly to Keith
+build r1 at Grogar
+sacrifice g1 at Moe; build y2 at Keith
+convert y1 to g1 at Nikos
+convert g1 to r1 at Twoshort
+build g1 at Nikos
+convert r3 to g3 at Moe
+build g1 at Nikos
+sacrifice g3 at Moe; build y1 at Keith; build r2 at Twoshort; build y3 at Curly
+sacrifice y3 at Larry; move r1 from Grogar to Twoshort; move g1 from Nikos to Twoshort; move g1 from Nikos to Twoshort
+sacrifice r2 at Twoshort; capture r1 at Twoshort; capture b2 at Keith
+build g2 at Twoshort; catastrophe green at Twoshort
+convert y3 to g3 at Curly
+sacrifice r2 at Grogar; capture b2 at Keith; capture y2 at Keith
+sacrifice r1 at Curly; capture b2 at Keith; catastrophe yellow at Keith

@@ -1,0 +1,26 @@
+Dragmio (0, g3y2) b3-
+Ajo (1, b1r2) -g3
+build b1 at Dragmio
+build g1 at Ajo
+convert b1 to r1 at Dragmio
+convert g1 to y1 at Ajo
+move r1 from Dragmio to Dragmio2 (y1)
+build g1 at Ajo
+build b1 at Dragmio
+build y1 at Ajo
+build b1 at Dragmio
+build y2 at Ajo
+convert b1 to g1 at Dragmio
+convert y2 to r2 at Ajo
+move g1 from Dragmio to Dragmio2
+build y2 at Ajo
+build r1 at Dragmio2
+sacrifice y2 at Ajo; move r2 from Ajo to Alpha (b3); move g1 from Ajo to Alpha
+move b3 from Dragmio to Dragmio2
+build y2 at Ajo
+move b3 from Dragmio2 to Alpha
+sacrifice y2 at Ajo; move r2 from Alpha to Dragmio2; move r2 from Dragmio2 to Dragmio
+build b1 at Dragmio
+capture b1 at Dragmio
+build b2 at Dragmio
+convert r2 to b2 at Dragmio; catastrophe blue at Dragmio

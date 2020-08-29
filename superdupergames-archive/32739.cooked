@@ -1,0 +1,67 @@
+Wil (0, b2r1) g3-
+Felix (1, b1r3) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to b1 at Wil
+convert g1 to r1 at Felix
+build g1 at Wil
+build r1 at Felix
+convert g1 to y1 at Wil
+convert r1 to y1 at Felix
+build b1 at Wil
+build r1 at Felix
+move b1 from Wil to R3 (r3)
+move r1 from Felix to Rauros (g2)
+build g1 at Wil
+build r2 at Felix
+sacrifice g3 at Wil; build b2 at R3; build b2 at R3; build b3 at Wil
+move r2 from Felix to Tail (y2)
+convert b3 to r3 at Wil
+build g1 at Felix
+build b3 at Wil
+convert g3 to b3 at Felix
+move b3 from Wil to G3 (g3)
+build b3 at Felix
+convert b2 to g2 at R3
+move b3 from Felix to Rauros
+build b2 at R3
+build r2 at Rauros
+convert b2 to y2 at R3
+convert r2 to y2 at Rauros
+build b2 at G3
+convert b3 to g3 at Felix
+build b3 at R3
+sacrifice g3 at Felix; build y1 at Rauros; build y3 at Felix; build y3 at Felix
+build y3 at R3
+build r2 at Rauros
+sacrifice y3 at R3; move b3 from R3 to Tail; move y2 from R3 to Tail; move y2 from Tail to Felix; catastrophe yellow at Felix
+move b3 from Rauros to Felix
+convert b2 to r2 at G3
+move y2 from Rauros to Felix
+build b2 at G3
+build y1 at Rauros
+convert b3 to y3 at G3
+move y1 from Rauros to Gold (y3)
+sacrifice g2 at R3; build y2 at Wil; build y3 at G3
+move y1 from Gold to Wil
+convert b3 to y3 at Tail
+sacrifice r2 at Tail; capture g1 at Wil; capture b1 at Wil
+capture b1 at Wil
+sacrifice y1 at Wil; move r2 from Rauros to Edge (g3)
+move y3 from Tail to Edge
+sacrifice y1 at Rauros; move r2 from Edge to Wil
+sacrifice r2 at G3; capture r2 at Wil; capture g1 at Wil
+sacrifice y2 at Felix; move r1 from Rauros to Edge; move r1 from Edge to Wil; catastrophe red at Wil
+build b3 at G3
+build g1 at Felix
+move b2 from G3 to Y2 (y2)
+convert b3 to r3 at Felix
+sacrifice y3 at G3; move y3 from G3 to Wil; move b1 from Wil to Felix; move b2 from Y2 to Felix
+convert g1 to y1 at Felix
+convert y2 to r2 at Wil
+sacrifice r1 at Felix; capture b1 at Felix
+sacrifice g1 at Wil; build b3 at Felix; catastrophe blue at Felix
+build y1 at Felix
+convert y3 to g3 at Wil
+build y2 at Felix
+move y1 from Wil to Felix; catastrophe yellow at Felix

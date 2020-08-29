@@ -1,0 +1,39 @@
+Felix (0, y1b2) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Felix
+build g1 at Draw5Playall
+convert g1 to r1 at Felix
+convert g1 to r1 at Draw5Playall
+build r2 at Felix
+build r2 at Draw5Playall
+move r2 from Felix to Rim (b3)
+convert r2 to y2 at Draw5Playall
+build r2 at Felix
+move r1 from Draw5Playall to G2 (g2)
+move r2 from Felix to Out (b3)
+build y1 at Draw5Playall
+build g1 at Felix
+move y2 from Draw5Playall to G2
+sacrifice g3 at Felix; build r2 at Out; build r3 at Rim; build r3 at Felix
+build r3 at G2
+convert r3 to g3 at Rim
+build y1 at G2
+build r3 at Rim
+sacrifice g3 at Draw5Playall; build y2 at Draw5Playall; build y2 at G2; build y3 at Draw5Playall
+convert r3 to y3 at Rim
+convert y2 to g2 at Draw5Playall
+build r3 at Rim
+build g1 at Draw5Playall
+build y2 at Rim
+sacrifice y2 at G2; move y2 from G2 to Rim; move y1 from G2 to Rim; catastrophe yellow at Rim
+convert r3 to y3 at Rim
+move y1 from Draw5Playall to G2
+build r3 at Rim
+build y1 at Draw5Playall
+build y2 at Rim
+build y2 at G2
+move r3 from Rim to Point (y2)
+convert y1 to b1 at Draw5Playall
+sacrifice y2 at Rim; move r2 from Out to G2; move r2 from Out to G2; catastrophe red at G2
+build y1 at Draw5Playall
+sacrifice y3 at Rim; move g3 from Rim to Point; move g3 from Point to Draw5Playall; move r3 from Point to Draw5Playall

@@ -1,0 +1,28 @@
+Babamots (0, b3r1) g3-
+Capi3101 (1, b1y3) -g3
+build g1 at Babamots
+build g1 at Capi3101
+convert g1 to r1 at Babamots
+convert g1 to y1 at Capi3101
+build g1 at Babamots
+build y1 at Capi3101
+build r1 at Babamots
+build g1 at Capi3101
+convert g1 to y1 at Babamots
+move y1 from Capi3101 to Aleph (g2)
+build y2 at Babamots
+build y2 at Aleph
+move y2 from Babamots to Aleph
+sacrifice y1 at Aleph; move y2 from Aleph to Bet (r3)
+move r1 from Babamots to Aleph
+move y1 from Capi3101 to Gimel (r2)
+sacrifice g3 at Babamots; build r2 at Aleph; build r2 at Aleph; build r3 at Babamots
+convert g1 to b1 at Capi3101
+convert r3 to g3 at Babamots
+move y1 from Gimel to Dalet (r3)
+build r2 at Babamots
+build g1 at Capi3101
+move r2 from Aleph to Capi3101
+convert g3 to r3 at Capi3101
+move r2 from Aleph to Capi3101
+capture r2 at Capi3101

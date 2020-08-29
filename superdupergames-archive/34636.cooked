@@ -1,0 +1,56 @@
+Laurie_Menke (0, y3b1) g3-
+Eliscinsky (1, y1b2) -g3
+build g1 at Laurie_Menke
+build g1 at Eliscinsky
+convert g1 to r1 at Laurie_Menke
+convert g1 to r1 at Eliscinsky
+build g1 at Laurie_Menke
+build g1 at Eliscinsky
+convert g1 to b1 at Laurie_Menke
+convert g1 to b1 at Eliscinsky
+build b2 at Laurie_Menke
+build b2 at Eliscinsky
+convert b2 to y2 at Laurie_Menke
+convert b2 to y2 at Eliscinsky
+build b2 at Laurie_Menke
+build b2 at Eliscinsky
+move b2 from Laurie_Menke to Green (g2)
+move b2 from Eliscinsky to Orion (g3)
+build b3 at Green
+build b3 at Orion
+convert b3 to y3 at Green
+convert b2 to y2 at Orion
+build g1 at Laurie_Menke
+build y1 at Orion
+move y2 from Laurie_Menke to Red (r2)
+move b3 from Orion to Red
+move y2 from Red to Orion
+build y1 at Orion; catastrophe yellow at Orion
+move b2 from Green to Greener (g3)
+move b1 from Eliscinsky to Greener
+build y1 at Green
+convert b3 to r3 at Red
+build r1 at Laurie_Menke
+convert b1 to y1 at Greener
+sacrifice r1 at Laurie_Menke; capture y1 at Greener
+sacrifice y2 at Eliscinsky; move r3 from Red to Greener
+sacrifice y3 at Green; move y1 from Green to Greener; move y1 from Greener to Eliscinsky; move y1 from Greener to Eliscinsky
+capture b2 at Greener
+sacrifice g1 at Laurie_Menke; build y2 at Eliscinsky; catastrophe yellow at Eliscinsky
+convert r3 to y3 at Greener
+move b1 from Laurie_Menke to Eliscinsky
+capture b1 at Eliscinsky
+build g1 at Laurie_Menke
+build b1 at Greener
+build r1 at Laurie_Menke
+convert b1 to y1 at Eliscinsky
+move g1 from Laurie_Menke to Yellow (y2)
+build b1 at Greener
+build g1 at Laurie_Menke
+convert b2 to r2 at Greener
+convert g3 to y3 at Laurie_Menke
+sacrifice y3 at Greener; move r1 from Eliscinsky to Laurie_Menke; move r2 from Greener to Eliscinsky; move r2 from Eliscinsky to Laurie_Menke; catastrophe red at Laurie_Menke
+build g1 at Laurie_Menke
+build y1 at Eliscinsky
+move g1 from Laurie_Menke to Eliscinsky
+convert g3 to r3 at Eliscinsky

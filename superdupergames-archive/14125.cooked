@@ -1,0 +1,49 @@
+Werebear (0, g3y1) b3-
+Braino (1, b3y2) -g3
+build b1 at Werebear
+build g1 at Braino
+move b1 from Werebear to Kabbar (g2)
+move g1 from Braino to Dismemberment (b1)
+build b1 at Werebear
+build g1 at Dismemberment
+build b2 at Kabbar
+convert g3 to b3 at Braino
+convert b3 to g3 at Werebear
+build g1 at Dismemberment
+sacrifice g3 at Werebear; build b2 at Kabbar; build b2 at Werebear; build b3 at Werebear
+convert g1 to y1 at Dismemberment
+move b2 from Werebear to Dubbiena (y2)
+convert g1 to r1 at Dismemberment
+sacrifice b2 at Kabbar; convert b3 to g3 at Werebear; convert b1 to r1 at Kabbar
+move g1 from Dismemberment to Statue (b3)
+build g1 at Werebear
+move r1 from Dismemberment to Postal (g3)
+move g1 from Werebear to Dubbiena
+build g1 at Statue
+build g2 at Werebear
+convert g1 to y1 at Statue
+sacrifice g3 at Werebear; build g1 at Dubbiena; build g2 at Dubbiena; build g3 at Werebear
+build y2 at Statue
+sacrifice b2 at Dubbiena; convert g2 to r2 at Dubbiena; convert g3 to y3 at Werebear
+build y3 at Statue
+move g1 from Dubbiena to Anzen (y3)
+convert b3 to g3 at Braino
+build g2 at Dubbiena
+move y1 from Dismemberment to Hugs (b2)
+convert y3 to b3 at Werebear
+convert y2 to b2 at Statue
+convert b2 to y2 at Kabbar
+move y3 from Statue to Kabbar
+sacrifice g1 at Anzen; build y3 at Kabbar
+move y3 from Kabbar to Postal
+move y3 from Kabbar to Statue
+build y3 at Postal
+sacrifice r2 at Dubbiena; capture b2 at Statue; capture y1 at Statue
+move y3 from Postal to Hugs
+convert b2 to r2 at Statue
+convert y3 to r3 at Hugs
+build y3 at Kabbar
+build g1 at Braino
+move g1 from Dubbiena to Bieb (b1)
+move r3 from Hugs to Bieb
+sacrifice y3 at Statue; move g1 from Bieb to Braino; move g2 from Dubbiena to Bieb; move g2 from Bieb to Braino; catastrophe green at Braino

@@ -1,0 +1,55 @@
+Silenttitan (0, r1b2) g3-
+Rootbier (1, b1y3) -g3
+build g1 at Silenttitan
+build g1 at Rootbier
+convert g1 to y1 at Silenttitan
+move g1 from Rootbier to Oxix (y2)
+build g1 at Silenttitan
+build g1 at Rootbier
+move g1 from Silenttitan to Sol (y3)
+build g2 at Oxix
+build y1 at Silenttitan
+move g2 from Oxix to Ixox (b3)
+move y1 from Silenttitan to Soul (g3)
+sacrifice g3 at Rootbier; build g2 at Ixox; build g2 at Oxix; build g3 at Rootbier
+sacrifice g3 at Silenttitan; build y1 at Soul; build y2 at Silenttitan; build g3 at Sol
+convert g2 to r2 at Ixox
+move g1 from Sol to Sole (y2)
+move g1 from Oxix to Sol
+build g2 at Sole
+move g1 from Rootbier to Sole
+move g1 from Sole to Rootbier
+convert g3 to r3 at Rootbier
+sacrifice g2 at Sole; build y3 at Silenttitan
+sacrifice g2 at Oxix; build g2 at Sol; build g2 at Sol; catastrophe green at Sol
+build y2 at Soul
+capture g1 at Rootbier
+convert y3 to g3 at Silenttitan
+move g1 from Sole to Soul
+sacrifice y2 at Soul; move y1 from Soul to Tic (y2); move y1 from Soul to Tac (y2)
+build g1 at Ixox
+build y3 at Silenttitan
+convert g2 to b2 at Ixox
+convert y3 to r3 at Silenttitan
+move g1 from Rootbier to Tic
+sacrifice g3 at Silenttitan; build y3 at Tic; build y3 at Silenttitan; build r1 at Silenttitan
+sacrifice g1 at Soul; build r1 at Rootbier
+sacrifice r1 at Silenttitan; capture g1 at Tic
+convert r3 to g3 at Rootbier
+move y3 from Tic to Ixox
+build b1 at Ixox
+convert y3 to b3 at Ixox; catastrophe blue at Ixox
+build r1 at Rootbier
+sacrifice y2 at Silenttitan; move y1 from Tac to Rootbier; move y1 from Tic to Rootbier
+build r2 at Rootbier
+sacrifice g1 at Tic; build y2 at Rootbier; catastrophe yellow at Rootbier
+convert r2 to y2 at Rootbier
+convert r3 to g3 at Silenttitan
+build r2 at Rootbier
+build g1 at Silenttitan
+convert r2 to y2 at Rootbier
+convert y1 to b1 at Silenttitan
+sacrifice y2 at Rootbier; move y2 from Rootbier to Sluph (b3); move r1 from Rootbier to Sluph
+move b1 from Silenttitan to Sol (r3)
+build r2 at Rootbier
+sacrifice g3 at Silenttitan; build b1 at Sol; build b2 at Sol; build y1 at Silenttitan

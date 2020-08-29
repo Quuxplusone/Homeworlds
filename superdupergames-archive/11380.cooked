@@ -1,0 +1,86 @@
+Cerulean (0, g3b2) y3-
+Danner (1, r1b2) -g3
+build y1 at Cerulean
+build g1 at Danner
+build y1 at Cerulean
+convert g1 to y1 at Danner
+convert y1 to g1 at Cerulean
+build g1 at Danner
+convert y1 to r1 at Cerulean
+convert g1 to r1 at Danner
+build y1 at Cerulean
+build r2 at Danner
+build r2 at Cerulean
+move r2 from Danner to Sun (y3)
+build g1 at Cerulean
+build g1 at Danner
+convert g1 to b1 at Cerulean
+convert g1 to b1 at Danner
+move y1 from Cerulean to Jiwun (g1)
+move r2 from Sun to Jiwun
+move y1 from Jiwun to Jithree (g3)
+build r2 at Danner
+move r1 from Cerulean to Wywun (y1)
+convert r1 to g1 at Danner
+build g2 at Cerulean
+build g2 at Danner
+move g2 from Cerulean to Wywun
+move r2 from Danner to Sun (y3)
+build g2 at Wywun
+sacrifice g3 at Danner; build g3 at Danner; build y2 at Danner; build b1 at Danner
+move g2 from Wywun to Jithree
+move g1 from Danner to Sun
+build y2 at Jithree
+move b1 from Danner to Highway (y3)
+move y1 from Jithree to Danner
+capture y1 at Danner
+move g2 from Jithree to Danner
+move g2 from Danner to Highway
+convert g2 to y2 at Danner; catastrophe yellow at Danner
+build g2 at Danner
+build y1 at Jithree
+convert g2 to y2 at Highway
+build g2 at Wywun
+sacrifice g3 at Danner; build g3 at Danner; build b2 at Danner; build b3 at Highway
+move b1 from Cerulean to Wywun
+sacrifice b1 at Highway; convert b2 to y2 at Danner
+build y1 at Cerulean
+sacrifice g2 at Danner; build g2 at Danner; build b1 at Highway
+move g2 from Wywun to Jithree
+move g2 from Danner to Highway
+move b1 from Wywun to Jithree
+move b1 from Danner to Sun
+convert y2 to b2 at Jithree
+sacrifice g3 at Danner; build g3 at Sun; build b3 at Sun; build b3 at Sun
+build y2 at Jithree
+move b3 from Sun to Wywun
+sacrifice g2 at Wywun; build r1 at Wywun; build r3 at Cerulean
+move g3 from Sun to Danner
+move r1 from Wywun to Jithree
+sacrifice g2 at Highway; build r3 at Jiwun; build r3 at Sun
+sacrifice y1 at Cerulean; move r3 from Cerulean to Wywuntu (y1)
+sacrifice y2 at Highway; move r3 from Jiwun to Jithree; move b1 from Highway to Wywun
+sacrifice y2 at Jithree; move y1 from Jithree to Danner; move g2 from Jithree to Danner
+capture g2 at Danner
+move r1 from Wywun to Highway
+capture y1 at Danner
+convert b2 to y2 at Jithree
+capture y2 at Jithree
+move r1 from Highway to Wywuntu
+build y2 at Jithree
+move r3 from Wywuntu to Cerulean
+capture r1 at Jithree
+move r3 from Cerulean to Jiwun
+sacrifice y2 at Danner; move r2 from Jiwun to Honeymaker (y2); move g2 from Danner to Highway
+sacrifice r1 at Wywuntu; capture r1 at Jithree
+build y1 at Danner
+build r1 at Cerulean
+sacrifice y2 at Jithree; move g1 from Sun to Jiwun; move g1 from Jiwun to Cerulean
+sacrifice r1 at Cerulean; capture g1 at Cerulean
+sacrifice y2 at Jithree; move g2 from Highway to Jiwun; move g2 from Jiwun to Cerulean; catastrophe green at Cerulean
+convert r2 to g2 at Cerulean
+move b1 from Wywun to Cerulean
+build y2 at Cerulean
+move b1 from Sun to Cerulean
+sacrifice r3 at Jiwun; capture b1 at Cerulean; capture b1 at Cerulean
+move b3 from Highway to Cerulean; catastrophe blue at Cerulean

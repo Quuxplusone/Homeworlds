@@ -1,0 +1,91 @@
+Twoshort (0, r1b3) g3-
+Wyons (1, r1b2) -g3
+build g1 at Twoshort
+build g1 at Wyons
+convert g1 to y1 at Twoshort
+convert g1 to r1 at Wyons
+build y1 at Twoshort
+build r2 at Wyons
+move y1 from Twoshort to Bluonia (b2)
+convert r2 to y2 at Wyons
+build y1 at Twoshort
+move y2 from Wyons to Astralweeks (g3)
+move y1 from Twoshort to Yonderboy (y2)
+build r2 at Wyons
+sacrifice g3 at Twoshort; build y2 at Twoshort; build y3 at Bluonia; build y3 at Twoshort
+move y2 from Astralweeks to Wyons
+convert y2 to g2 at Twoshort
+convert r2 to g2 at Wyons
+sacrifice g2 at Twoshort; build y2 at Twoshort; build y3 at Bluonia
+build r2 at Wyons
+convert y2 to g2 at Twoshort
+build y2 at Wyons
+move y3 from Bluonia to Wedge (b3)
+move y2 from Wyons to Stargazer (g3)
+convert y3 to r3 at Wedge
+build y3 at Wyons
+move y1 from Yonderboy to Wedge
+build y2 at Stargazer
+convert y3 to g3 at Twoshort
+sacrifice y2 at Wyons; move g3 from Wyons to Stella (y3); move r1 from Wyons to Stella
+convert y3 to r3 at Bluonia
+sacrifice g2 at Wyons; build y2 at Stargazer; build y3 at Wyons
+move y1 from Bluonia to Stargazer; catastrophe yellow at Stargazer
+move y3 from Wyons to Stardust (g3)
+move g2 from Twoshort to Bluonia
+convert r2 to g2 at Wyons
+build r2 at Bluonia
+build g1 at Wyons
+convert r2 to y2 at Bluonia
+build r2 at Stella
+build r2 at Bluonia
+move r2 from Stella to Nickoftime (y2)
+convert r2 to b2 at Bluonia
+sacrifice g3 at Stella; build r2 at Stella; build r2 at Stella; build r3 at Nickoftime
+move r3 from Bluonia to Stella; catastrophe red at Stella
+move g2 from Wyons to Startrek (y3)
+build b1 at Bluonia
+build g1 at Wyons
+build g1 at Twoshort
+convert g1 to b1 at Wyons
+move b2 from Bluonia to Greenfly (g3)
+move r2 from Nickoftime to Cosmicgorilla (b3)
+sacrifice y2 at Bluonia; move b1 from Bluonia to Wedge; move b2 from Greenfly to Wyons
+move b1 from Wyons to Stardust
+sacrifice g2 at Bluonia; build b1 at Wyons; build b2 at Wyons; catastrophe blue at Wyons
+build b1 at Stardust
+convert b1 to r1 at Wedge
+move b1 from Stardust to Wyons
+move r1 from Wedge to Grogar (g2)
+build g1 at Startrek
+sacrifice g1 at Twoshort; build r2 at Wedge
+sacrifice g2 at Startrek; build r2 at Nickoftime; build r3 at Cosmicgorilla
+move r2 from Wedge to Yolonda (y2)
+sacrifice y3 at Stardust; move r2 from Cosmicgorilla to Warp1 (y1); move r3 from Cosmicgorilla to Warp2 (y2); move r3 from Nickoftime to Warp3 (y3)
+move r3 from Wedge to Nickoftime
+sacrifice g1 at Startrek; build y3 at Wyons
+capture r2 at Nickoftime
+move y3 from Wyons to Stardust
+move r2 from Yolonda to Wyons
+sacrifice r2 at Warp1; capture r2 at Wyons
+move r2 from Nickoftime to Wedge
+convert r2 to y2 at Wyons
+build r2 at Grogar
+build g1 at Wyons
+move r3 from Nickoftime to Bluonia (b3)
+move g1 from Wyons to Wormhole (y2)
+sacrifice y1 at Wedge; move r3 from Bluonia to Wormhole
+sacrifice g1 at Wormhole; build r2 at Warp2
+build g1 at Twoshort
+build b1 at Stardust
+build y1 at Twoshort
+build g1 at Wyons
+move y1 from Twoshort to Grogar
+move g1 from Wyons to Warp2
+move r3 from Wormhole to Wyons
+capture r3 at Wyons
+sacrifice g3 at Twoshort; build g2 at Twoshort; build y1 at Twoshort; build y2 at Grogar
+sacrifice y2 at Wyons; move r3 from Wyons to Grogar; move r3 from Warp3 to Grogar; catastrophe red at Grogar
+convert y1 to r1 at Twoshort
+sacrifice y3 at Stardust; move g1 from Wyons to Grogar; move g1 from Grogar to Twoshort; move g1 from Warp2 to Twoshort; catastrophe green at Twoshort
+move y2 from Grogar to Twoshort

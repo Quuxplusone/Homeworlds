@@ -1,0 +1,26 @@
+Rockabilly (0, g3y1) b3-
+Ts52 (1, b1y2) -g3
+build b1 at Rockabilly
+build g1 at Ts52
+build b1 at Rockabilly
+build g1 at Ts52
+move b1 from Rockabilly to Vincent (g2)
+move g1 from Ts52 to Gonzo (b3)
+build b2 at Rockabilly
+build g1 at Gonzo
+build b2 at Vincent
+build g2 at Ts52
+convert b2 to y2 at Vincent
+move g2 from Ts52 to Grover (b3)
+move b1 from Vincent to Buddy (g3)
+build g2 at Grover
+sacrifice b2 at Rockabilly; convert b1 to y1 at Rockabilly; convert b1 to y1 at Buddy
+convert g2 to y2 at Grover
+build y3 at Rockabilly
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build y3 at Grover
+build y3 at Buddy
+convert g2 to r2 at Grover
+convert y3 to r3 at Rockabilly
+move g1 from Ts52 to Bigbird (y3)
+sacrifice y2 at Vincent; move r3 from Rockabilly to Tmp (y2); move r3 from Tmp to Gonzo
+sacrifice y2 at Grover; move g1 from Gonzo to Ts52; move g1 from Gonzo to Zoe (y2)

@@ -1,0 +1,63 @@
+Babamots (0, g3r1) b3-
+Xaevith (1, b2r1) -g3
+build b1 at Babamots
+build g1 at Xaevith
+convert b1 to r1 at Babamots
+convert g3 to r3 at Xaevith
+build r2 at Babamots
+build r2 at Xaevith
+convert r2 to y2 at Babamots
+convert r2 to y2 at Xaevith
+build r2 at Babamots
+build r2 at Xaevith
+move r2 from Babamots to Risa (g2)
+move r2 from Xaevith to Emerald (g3)
+build y1 at Babamots
+build y1 at Xaevith
+build b1 at Babamots
+build g1 at Xaevith
+move y1 from Babamots to Risa
+convert g1 to b1 at Xaevith
+convert b1 to g1 at Babamots
+build b1 at Xaevith
+build b1 at Babamots
+move b1 from Xaevith to Topaz (y3)
+move b1 from Babamots to Aldea (y2)
+convert r3 to g3 at Xaevith
+build b2 at Babamots
+move g1 from Xaevith to Topaz
+move b2 from Babamots to Trill (g2)
+move b1 from Xaevith to Citrine (y3)
+build y1 at Babamots
+move y1 from Xaevith to Emerald
+build y3 at Risa
+move b1 from Topaz to Jade (g2)
+move r2 from Risa to Topaz
+move g1 from Topaz to Azurite (b2)
+build b3 at Babamots
+build b3 at Jade
+move b3 from Babamots to Aldea
+build g1 at Xaevith
+move y3 from Risa to Emerald
+move r2 from Emerald to Jade
+move r1 from Babamots to Risa
+sacrifice y1 at Emerald; move b3 from Jade to Topaz
+move r2 from Topaz to Azurite
+sacrifice g3 at Xaevith; build g3 at Xaevith; build y1 at Xaevith; build r2 at Jade
+capture g1 at Azurite
+sacrifice y1 at Xaevith; move r2 from Jade to Topaz
+build r3 at Azurite
+sacrifice g3 at Xaevith; build g3 at Xaevith; build r3 at Jade; build r3 at Topaz
+move r1 from Risa to Emerald
+build y1 at Xaevith
+move b3 from Aldea to Citrine
+move r3 from Topaz to Risa
+move y1 from Risa to Emerald
+move y1 from Xaevith to Topaz
+move y1 from Emerald to Azurite
+move y1 from Topaz to Jade
+move r2 from Azurite to Citrine
+sacrifice y2 at Xaevith; move r3 from Jade to Babamots; move r2 from Jade to Babamots
+capture r3 at Babamots
+sacrifice y1 at Jade; move r3 from Risa to Babamots; catastrophe red at Babamots
+sacrifice y3 at Emerald; move g1 from Babamots to Xaevith; move g1 from Azurite to Emerald; move g1 from Emerald to Xaevith; catastrophe green at Xaevith

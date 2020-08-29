@@ -1,0 +1,58 @@
+Canisfirebrand (0, g3b1) r3-
+Xmiyux (1, b2y1) -g3
+build r1 at Canisfirebrand
+build g1 at Xmiyux
+convert r1 to g1 at Canisfirebrand
+convert g1 to y1 at Xmiyux
+build r1 at Canisfirebrand
+build g1 at Xmiyux
+convert g1 to y1 at Canisfirebrand
+move g1 from Xmiyux to Miranda (g3)
+convert r1 to g1 at Canisfirebrand
+build y2 at Xmiyux
+move g1 from Canisfirebrand to Inverness (b2)
+move y1 from Xmiyux to Serenity (b3)
+build r1 at Canisfirebrand
+build y2 at Xmiyux
+convert r3 to b3 at Canisfirebrand
+move y2 from Xmiyux to Akers (b3)
+build y2 at Canisfirebrand
+build g1 at Xmiyux
+move y1 from Canisfirebrand to Erebus (g2)
+move y2 from Xmiyux to Miranda
+build y3 at Erebus
+build y3 at Miranda
+build g2 at Inverness
+convert g1 to r1 at Xmiyux
+sacrifice y3 at Erebus; move y2 from Canisfirebrand to Inverness; move g1 from Inverness to Miranda; move g2 from Inverness to Miranda; catastrophe green at Miranda
+move y2 from Akers to Inverness
+sacrifice r1 at Canisfirebrand; capture y2 at Inverness
+build r1 at Xmiyux
+build y2 at Erebus
+build g1 at Xmiyux
+move y2 from Inverness to Canisfirebrand
+convert g3 to y3 at Xmiyux
+build y3 at Canisfirebrand
+build g1 at Xmiyux
+move y1 from Erebus to Dunsinane (y3)
+move r1 from Xmiyux to Serenity
+build b1 at Canisfirebrand
+move g1 from Xmiyux to Serenity
+move y2 from Inverness to Nottingham (g3)
+convert y3 to g3 at Xmiyux
+build y3 at Nottingham
+build g1 at Serenity
+sacrifice b3 at Canisfirebrand; convert y1 to b1 at Dunsinane; convert y2 to b2 at Nottingham; convert y3 to b3 at Nottingham
+move g1 from Serenity to Akers (y2)
+sacrifice y3 at Canisfirebrand; move b3 from Nottingham to Erebus; move b2 from Nottingham to Erebus; move b1 from Canisfirebrand to Erebus
+move r1 from Serenity to Valley (g2)
+move b1 from Erebus to Inverness (b3)
+sacrifice g3 at Xmiyux; build g2 at Serenity; build g3 at Xmiyux; build g3 at Akers
+build b2 at Erebus
+sacrifice g3 at Xmiyux; build g3 at Xmiyux; build r1 at Xmiyux; build r2 at Valley
+build y1 at Erebus
+move g3 from Akers to Canisfirebrand
+sacrifice y2 at Erebus; move b2 from Erebus to Canisfirebrand; move b2 from Erebus to Canisfirebrand
+sacrifice r2 at Valley; capture y2 at Canisfirebrand; capture b2 at Canisfirebrand
+move b3 from Erebus to Canisfirebrand
+sacrifice g3 at Xmiyux; build g3 at Xmiyux; build r2 at Valley; build r2 at Valley; catastrophe blue at Canisfirebrand

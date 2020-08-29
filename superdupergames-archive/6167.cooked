@@ -1,0 +1,79 @@
+Keith (0, b1y2) g3-
+Jan (1, g2y3) -b3
+build g1 at Keith
+build b1 at Jan
+move g1 from Keith to Midworld (y3)
+build b1 at Jan
+build g1 at Keith
+convert b1 to g1 at Jan
+convert g1 to b1 at Keith
+build b2 at Jan
+build b2 at Keith
+move b2 from Jan to Gio (g1)
+convert b1 to y1 at Keith
+build g2 at Jan
+build g2 at Midworld
+move g1 from Jan to Droo (b1)
+build g3 at Keith
+build g3 at Droo
+move b2 from Keith to Midworld
+convert g3 to r3 at Droo
+sacrifice g3 at Keith; build g3 at Keith; build g3 at Midworld; build y1 at Keith
+convert b2 to y2 at Gio
+convert g1 to r1 at Midworld
+move b1 from Jan to Gio
+move g2 from Midworld to Darebase (y1)
+build r1 at Droo
+build r1 at Midworld
+build y2 at Gio
+move y1 from Keith to Midworld
+move y2 from Gio to Fenu (b3)
+move r1 from Midworld to Droo
+convert r1 to g1 at Droo
+sacrifice g3 at Keith; build g3 at Keith; build r1 at Droo; build r2 at Droo; catastrophe red at Droo
+build y3 at Gio
+move y1 from Midworld to Gio
+convert g2 to r2 at Jan
+sacrifice g2 at Darebase; build y1 at Gio; build r1 at Midworld; catastrophe yellow at Gio
+build g2 at Droo
+move g3 from Midworld to Droo; catastrophe green at Droo
+build r1 at Jan
+move g3 from Keith to Fenu
+move y2 from Fenu to Gio
+build g1 at Keith
+build y1 at Gio
+sacrifice y1 at Keith; move g3 from Fenu to Gio
+move y2 from Gio to Eden (g3)
+sacrifice r1 at Midworld; capture b1 at Gio
+sacrifice r1 at Jan; capture b1 at Gio
+sacrifice r1 at Midworld; capture b1 at Gio
+build b1 at Jan
+convert g1 to r1 at Keith
+move y1 from Gio to Eden
+convert g3 to y3 at Gio
+convert b3 to g3 at Jan
+build g1 at Keith
+build b2 at Jan
+move g1 from Keith to Midworld
+sacrifice b1 at Jan; convert y1 to b1 at Eden
+build g1 at Keith
+sacrifice y2 at Eden; move b1 from Eden to Keith; move r2 from Jan to Gio
+sacrifice r1 at Keith; capture r2 at Gio
+build b2 at Jan
+sacrifice g3 at Keith; build g2 at Midworld; build g2 at Midworld; build g3 at Keith
+convert b2 to r2 at Jan
+sacrifice r2 at Gio; capture b1 at Keith
+build b2 at Jan
+sacrifice g3 at Keith; build g3 at Keith; build b3 at Gio; build b3 at Midworld
+move b2 from Jan to Elf (y1)
+move g1 from Midworld to Gio
+move b2 from Elf to Midworld
+sacrifice y3 at Gio; move b3 from Gio to Jan; move g1 from Gio to Jan; move b1 from Gio to Jan
+capture b3 at Jan
+sacrifice g2 at Midworld; build g1 at Jan; build b3 at Jan; catastrophe green at Jan; catastrophe blue at Jan
+move b2 from Midworld to Goblin (g1)
+convert b3 to r3 at Midworld
+convert b2 to y2 at Goblin
+move g3 from Keith to Jan
+build y1 at Goblin
+sacrifice r3 at Midworld; capture r2 at Jan

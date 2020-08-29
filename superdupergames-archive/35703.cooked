@@ -1,0 +1,26 @@
+Cuc (0, b1g2) y3-
+Babamots (1, g3b1) -b3
+build y1 at Cuc
+build b1 at Babamots
+build y1 at Cuc
+convert b3 to y3 at Babamots
+move y1 from Cuc to G3A (g3)
+build b2 at Babamots
+convert y3 to b3 at Cuc
+convert b2 to r2 at Babamots
+build y1 at Cuc
+build y2 at Babamots
+build y2 at Cuc
+move y2 from Babamots to Bajor (g2)
+move y2 from Cuc to B3A (b3)
+build b2 at Babamots
+build y2 at G3A
+build y3 at Babamots
+build y3 at G3A
+convert y3 to g3 at Babamots
+move y3 from G3A to B2A (b2)
+sacrifice y3 at Babamots; move g3 from Babamots to Bajor; move g3 from Bajor to B3A; move g3 from B3A to Cuc
+convert b3 to r3 at Cuc
+sacrifice r2 at Babamots; capture r3 at Cuc; capture y1 at Cuc
+sacrifice y3 at B2A; move y2 from G3A to Cuc; move y1 from G3A to Cuc; move y2 from B3A to Cuc
+catastrophe yellow at Cuc

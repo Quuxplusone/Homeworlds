@@ -1,0 +1,58 @@
+Rootbier (0, b1y2) g3-
+Teo (1, g3b1) -y3
+build g1 at Rootbier
+build y1 at Teo
+convert g1 to y1 at Rootbier
+convert y1 to b1 at Teo
+build g1 at Rootbier
+build y1 at Teo
+build g1 at Rootbier
+build b2 at Teo
+move g1 from Rootbier to Aubergine (b3)
+move b2 from Teo to Cucumber (g2)
+build g1 at Aubergine
+sacrifice y1 at Teo; move b2 from Cucumber to Aubergine
+build g2 at Aubergine
+convert b2 to g2 at Aubergine; catastrophe green at Aubergine
+convert g1 to r1 at Rootbier
+build b2 at Teo
+build y1 at Rootbier
+move b2 from Teo to Heatwave (g2)
+move y1 from Rootbier to Badday (b3)
+build b2 at Heatwave
+build g1 at Rootbier
+build b2 at Teo
+move g1 from Rootbier to Badday
+move b2 from Teo to Zone (g2)
+build y1 at Badday
+build b3 at Zone
+move y1 from Badday to Heatwave
+convert b3 to r3 at Zone
+sacrifice g3 at Rootbier; build y2 at Badday; build y2 at Heatwave; build y3 at Rootbier
+sacrifice r3 at Zone; capture y2 at Heatwave; capture y1 at Heatwave
+convert y3 to g3 at Rootbier
+build y3 at Teo
+sacrifice y2 at Badday; move y1 from Badday to Heatwave; move y1 from Heatwave to Teo
+sacrifice b2 at Heatwave; convert y3 to r3 at Teo; convert y3 to g3 at Teo
+build y2 at Teo
+sacrifice r3 at Teo; capture y2 at Teo; capture y1 at Teo
+move y1 from Rootbier to Badday
+move y1 from Heatwave to Badday
+move g1 from Badday to Owwday (b2)
+sacrifice g3 at Teo; build y3 at Heatwave; build y3 at Teo; build y3 at Badday
+build g1 at Rootbier
+convert y1 to r1 at Badday
+move y1 from Badday to Owwday
+convert y2 to r2 at Teo
+build y1 at Owwday
+build y2 at Heatwave
+sacrifice g3 at Rootbier; build g1 at Owwday; build g2 at Owwday; build g3 at Rootbier
+move y1 from Teo to Owwday
+convert y1 to r1 at Owwday
+move y1 from Owwday to Badday
+sacrifice g3 at Rootbier; build g3 at Rootbier; build g3 at Rootbier; build r2 at Rootbier
+move y2 from Heatwave to Killer (r3)
+convert g3 to b3 at Rootbier
+sacrifice y3 at Heatwave; move y1 from Badday to Rootbier; move y3 from Badday to Rootbier; move y2 from Killer to Rootbier; catastrophe yellow at Rootbier
+sacrifice g3 at Rootbier; build g3 at Rootbier; build g3 at Rootbier; build r2 at Owwday
+sacrifice y2 at Heatwave; move b2 from Heatwave to Rootbier; move b2 from Zone to Rootbier; catastrophe blue at Rootbier

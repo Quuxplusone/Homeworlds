@@ -1,0 +1,29 @@
+Fogus (0, y1b2) g3-
+Velgarath2 (1, r3b2) -g3
+build g1 at Fogus
+build g1 at Velgarath2
+convert g1 to y1 at Fogus
+convert g1 to y1 at Velgarath2
+move y1 from Fogus to Cribbage (g3)
+build y2 at Velgarath2
+build y2 at Cribbage
+move y2 from Velgarath2 to Hyperspace (g1)
+build g1 at Fogus
+build y2 at Hyperspace
+move g1 from Fogus to Gops (y3)
+build y3 at Velgarath2
+move y1 from Cribbage to Gin (g1)
+move y2 from Hyperspace to Casiopea (y3)
+build g2 at Fogus
+build g2 at Velgarath2
+build g2 at Gops
+convert g2 to r2 at Velgarath2
+build g2 at Gops
+move r2 from Velgarath2 to Gin
+move y1 from Gin to Velgarath2
+move y1 from Velgarath2 to Gin
+move y1 from Velgarath2 to Hearts (b1)
+move r2 from Gin to Gops
+convert y1 to r1 at Hearts
+move r2 from Gops to Hearts
+build y1 at Cribbage

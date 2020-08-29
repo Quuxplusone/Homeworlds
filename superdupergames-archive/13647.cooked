@@ -1,0 +1,56 @@
+Agentofchaos (0, r2b3) g3-
+Qat (1, b1y2) -g3
+build g1 at Agentofchaos
+build g1 at Qat
+convert g1 to y1 at Agentofchaos
+build g1 at Qat
+build y1 at Agentofchaos
+move g1 from Qat to Whoosh (b3)
+convert y1 to b1 at Agentofchaos
+convert g1 to b1 at Qat
+build y1 at Agentofchaos
+build b2 at Qat
+build b2 at Agentofchaos
+move b2 from Qat to Verte (g3)
+convert b2 to r2 at Agentofchaos
+sacrifice g3 at Qat; build b2 at Verte; build b2 at Verte; build b3 at Qat
+move r2 from Agentofchaos to Krombe (y1)
+convert b2 to r2 at Verte
+build b2 at Agentofchaos
+sacrifice g1 at Whoosh; build b3 at Verte
+build y2 at Agentofchaos
+convert b3 to y3 at Verte
+move r2 from Krombe to Glurgon (b3)
+convert b3 to g3 at Qat
+build g1 at Agentofchaos
+build b3 at Qat
+convert r2 to y2 at Glurgon
+move b3 from Qat to Northward_Ho (y3)
+build g1 at Agentofchaos
+move b2 from Verte to Sandy (y1)
+move b2 from Agentofchaos to Hagrol (g1)
+build y3 at Verte
+move y2 from Agentofchaos to Hagrol
+move r2 from Verte to Hagrol
+convert g1 to r1 at Agentofchaos
+capture b2 at Hagrol
+sacrifice r1 at Agentofchaos; capture r2 at Hagrol
+sacrifice b2 at Hagrol; convert b1 to r1 at Qat; convert b3 to r3 at Northward_Ho
+move r2 from Hagrol to Glurgon
+sacrifice y3 at Verte; move b2 from Verte to Sandy; move b2 from Sandy to Agentofchaos; move b2 from Sandy to Agentofchaos; catastrophe blue at Agentofchaos
+build y1 at Hagrol
+build y3 at Verte
+sacrifice y2 at Glurgon; move y1 from Hagrol to Verte; move y1 from Agentofchaos to Verte; catastrophe yellow at Verte
+move r3 from Northward_Ho to Sapphire (b1)
+build g1 at Agentofchaos
+build g2 at Qat
+move g1 from Agentofchaos to Glurgon
+sacrifice g2 at Qat; build g2 at Qat; build r1 at Sapphire
+build g2 at Glurgon
+move g2 from Qat to Sahara (y3)
+sacrifice g2 at Glurgon; build y1 at Hagrol; build y1 at Hagrol
+build r1 at Qat
+build y2 at Agentofchaos
+convert g3 to y3 at Qat
+build y3 at Agentofchaos
+sacrifice y3 at Qat; move r3 from Sapphire to Agentofchaos; move r1 from Sapphire to Agentofchaos; move r1 from Qat to Gameover (y3)

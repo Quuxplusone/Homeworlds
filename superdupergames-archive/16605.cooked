@@ -1,0 +1,61 @@
+Mandrel (0, y1b2) g3-
+Shmil1 (1, g1b2) -r3
+build g1 at Mandrel
+build r1 at Shmil1
+convert g1 to r1 at Mandrel
+convert r1 to y1 at Shmil1
+build g1 at Mandrel
+build r1 at Shmil1
+build g1 at Mandrel
+move r1 from Shmil1 to Slunce (y3)
+move g1 from Mandrel to Guilt (b3)
+build y1 at Shmil1
+build g2 at Guilt
+move y1 from Shmil1 to Guilt
+sacrifice r1 at Mandrel; capture y1 at Guilt
+move r1 from Slunce to Mandrel
+convert g3 to r3 at Mandrel
+move r1 from Mandrel to Guilt
+convert g2 to r2 at Guilt
+capture g1 at Guilt
+capture r1 at Guilt
+build g2 at Guilt
+capture g2 at Guilt
+build g2 at Guilt
+sacrifice r2 at Guilt; capture g1 at Guilt; capture g2 at Guilt
+build y2 at Shmil1
+build g2 at Mandrel
+move y2 from Shmil1 to Modry (b3)
+build g3 at Mandrel
+build y2 at Shmil1
+sacrifice g3 at Mandrel; build g3 at Mandrel; build r1 at Mandrel; build y2 at Guilt
+move y2 from Shmil1 to Guilt
+sacrifice y2 at Guilt; move g1 from Guilt to Shmil1; move g2 from Guilt to Shmil1
+capture g2 at Shmil1
+sacrifice g3 at Mandrel; build g3 at Mandrel; build g3 at Shmil1; build g3 at Shmil1
+sacrifice g2 at Shmil1; build y2 at Modry; build y3 at Modry; catastrophe green at Shmil1
+capture y2 at Guilt
+convert y3 to g3 at Modry
+move g3 from Mandrel to Modry
+sacrifice y2 at Modry; move g3 from Modry to Mandrel; move y2 from Modry to Mandrel
+capture g3 at Mandrel
+sacrifice r3 at Shmil1; capture g2 at Mandrel; capture g1 at Mandrel; capture r1 at Mandrel
+move g2 from Guilt to Shmil1
+sacrifice g2 at Mandrel; build y2 at Mandrel; build y3 at Shmil1
+sacrifice r3 at Mandrel; capture y2 at Mandrel; capture y2 at Mandrel; capture r1 at Mandrel
+convert y3 to r3 at Shmil1
+sacrifice y1 at Guilt; move g2 from Shmil1 to Guilt
+convert g1 to y1 at Mandrel; catastrophe yellow at Mandrel
+build g1 at Guilt
+convert y1 to g1 at Shmil1
+convert g3 to r3 at Modry
+build g1 at Shmil1
+sacrifice y2 at Guilt; move g1 from Guilt to Shmil1; move g2 from Guilt to Shmil1; catastrophe green at Shmil1
+convert r3 to g3 at Shmil1
+convert r1 to y1 at Guilt
+build g1 at Shmil1
+sacrifice y1 at Guilt; move r3 from Modry to Shmil1
+convert g1 to r1 at Shmil1
+capture g3 at Shmil1
+pass
+capture r1 at Shmil1

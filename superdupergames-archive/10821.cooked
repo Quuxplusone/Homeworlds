@@ -1,0 +1,77 @@
+Wyons (0, b3r1) g3-
+Keith (1, y1b2) -g3
+build g1 at Wyons
+build g1 at Keith
+convert g1 to y1 at Wyons
+convert g1 to y1 at Keith
+build y2 at Wyons
+build y2 at Keith
+build y2 at Wyons
+move y1 from Keith to Geeliwan (g3)
+move y1 from Wyons to Greengenie (g2)
+build y3 at Geeliwan
+build y3 at Greengenie
+move y1 from Geeliwan to Greengenie
+move y1 from Greengenie to Mellowyellow (y3)
+build g1 at Keith
+build g1 at Wyons
+convert g1 to r1 at Keith
+convert y2 to r2 at Wyons
+build y2 at Geeliwan
+build g1 at Wyons
+build g1 at Keith
+convert g1 to b1 at Wyons
+convert g1 to b1 at Keith
+build g1 at Wyons
+build g1 at Keith
+move g1 from Wyons to Bluegreens (b2)
+build r1 at Keith
+build r2 at Wyons
+move r1 from Keith to Mellowyellow
+sacrifice r2 at Wyons; capture r1 at Mellowyellow; capture y1 at Greengenie
+move b1 from Keith to Geeliwan
+sacrifice g3 at Wyons; build g2 at Bluegreens; build g2 at Bluegreens; build g3 at Wyons
+sacrifice y2 at Geeliwan; move g1 from Keith to Geeliwan; move g1 from Geeliwan to Bluegreens; catastrophe green at Bluegreens
+build y2 at Wyons
+build r2 at Keith
+move r1 from Mellowyellow to Greengenie
+move r2 from Keith to Geeliwan
+move b1 from Wyons to Greengenie
+build g1 at Keith
+move y1 from Mellowyellow to Xanthrophyl (g2)
+sacrifice g3 at Keith; build y3 at Geeliwan; build r2 at Geeliwan; build r3 at Keith
+sacrifice y2 at Wyons; move y1 from Greengenie to Geeliwan; move y1 from Xanthrophyl to Geeliwan; catastrophe yellow at Geeliwan
+convert r3 to g3 at Keith
+build r3 at Greengenie
+build r3 at Keith
+move r3 from Greengenie to Orange (y3)
+convert r3 to b3 at Keith
+build r3 at Greengenie
+build r3 at Keith
+convert r3 to y3 at Greengenie
+sacrifice b3 at Keith; convert r2 to y2 at Geeliwan; convert b1 to y1 at Geeliwan
+move y3 from Greengenie to Dewshine (g1)
+move r3 from Keith to Geeliwan
+build g2 at Wyons
+move g1 from Keith to Brightlygo (r3)
+sacrifice g1 at Wyons; build b1 at Greengenie
+build g1 at Keith
+move y3 from Dewshine to Brightlygo
+sacrifice g1 at Brightlygo; build r2 at Keith
+move g2 from Wyons to Greengenie
+move g1 from Keith to Geeliwan
+build g1 at Wyons
+build g1 at Keith
+sacrifice y3 at Greengenie; move g2 from Greengenie to Geeliwan; move g1 from Wyons to Greengenie; move g1 from Greengenie to Geeliwan; catastrophe green at Geeliwan
+move y2 from Keith to Midworld (g3)
+move r2 from Wyons to Redperil (r2)
+convert r2 to y2 at Keith
+build g1 at Wyons
+build r2 at Keith
+build r3 at Greengenie
+move g1 from Keith to Midworld
+convert r3 to y3 at Greengenie
+build g1 at Keith
+build r3 at Greengenie
+build g2 at Midworld
+sacrifice y3 at Brightlygo; move r1 from Greengenie to Purpleheart (b1); move g1 from Wyons to Greengenie; move g1 from Greengenie to Midworld; catastrophe green at Midworld

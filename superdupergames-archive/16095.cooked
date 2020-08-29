@@ -1,0 +1,32 @@
+Rootbier (0, b2y1) g3-
+Jesse (1, r1b3) -g3
+build g1 at Rootbier
+build g1 at Jesse
+convert g1 to r1 at Rootbier
+convert g1 to y1 at Jesse
+build g1 at Rootbier
+build y1 at Jesse
+move g1 from Rootbier to Bagatelle (b3)
+build y2 at Jesse
+build r1 at Rootbier
+move y2 from Jesse to Eggplanet (b2)
+build r2 at Rootbier
+sacrifice g3 at Jesse; build y2 at Eggplanet; build y2 at Eggplanet; build y3 at Jesse
+move r2 from Rootbier to Aubergine (y3)
+convert y2 to r2 at Eggplanet
+move r1 from Rootbier to Mainfest (y3)
+convert y3 to g3 at Jesse
+sacrifice g3 at Rootbier; build r2 at Aubergine; build r3 at Mainfest; build r3 at Rootbier
+sacrifice g3 at Jesse; build y2 at Eggplanet; build y3 at Jesse; build r3 at Eggplanet
+move r3 from Mainfest to Pony (b1)
+convert y2 to g2 at Eggplanet
+move r1 from Mainfest to Typo (b2)
+move r2 from Eggplanet to Check (y3)
+convert r1 to b1 at Rootbier
+build y2 at Eggplanet
+move b1 from Rootbier to Aubergine
+build r1 at Eggplanet
+move r2 from Aubergine to Pesto (g2)
+sacrifice y3 at Jesse; move r3 from Eggplanet to Check; move r3 from Check to Rootbier; move r2 from Check to Rootbier
+sacrifice r2 at Aubergine; capture r2 at Rootbier; capture r3 at Rootbier
+sacrifice y2 at Eggplanet; move r1 from Eggplanet to Aubergine; move r1 from Aubergine to Rootbier; catastrophe red at Rootbier

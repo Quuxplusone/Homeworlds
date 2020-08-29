@@ -1,0 +1,35 @@
+Bigby (0, y2b3) g3-
+Gundam_Blade (1, g2b1) -y3
+build g1 at Bigby
+build y1 at Gundam_Blade
+move g1 from Bigby to Cassini (g1)
+convert y1 to r1 at Gundam_Blade
+build g1 at Bigby
+build y1 at Gundam_Blade
+build g2 at Bigby
+convert y1 to b1 at Gundam_Blade
+convert g2 to b2 at Bigby
+move b1 from Gundam_Blade to Planethollywood (g3)
+build g2 at Bigby
+build b1 at Planethollywood
+move g2 from Bigby to Logan (r1)
+build b2 at Planethollywood
+build b2 at Bigby
+convert b2 to y2 at Planethollywood
+move b2 from Bigby to Cassini
+build b2 at Planethollywood
+build b3 at Cassini
+sacrifice y2 at Planethollywood; move b1 from Planethollywood to Cassini; move b1 from Planethollywood to Cassini; catastrophe blue at Cassini
+build b1 at Bigby
+build b1 at Planethollywood
+move b1 from Bigby to Logan
+build y1 at Gundam_Blade
+build b2 at Logan
+build b3 at Planethollywood
+convert b1 to y1 at Logan
+convert b3 to y3 at Planethollywood
+sacrifice g3 at Bigby; build g2 at Logan; build g3 at Bigby; build g3 at Bigby
+move b1 from Planethollywood to Cassini
+move b2 from Bigby to Cassini
+sacrifice r1 at Gundam_Blade; capture g1 at Cassini
+move g3 from Bigby to Cassini

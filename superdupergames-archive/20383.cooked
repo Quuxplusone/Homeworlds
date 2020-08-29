@@ -1,0 +1,57 @@
+Goulo (0, r1b2) g3-
+Subhan64 (1, y2b3) -g3
+build g1 at Goulo
+build g1 at Subhan64
+convert g1 to y1 at Goulo
+build g1 at Subhan64
+build g1 at Goulo
+convert g1 to y1 at Subhan64
+convert g1 to r1 at Goulo
+build g1 at Subhan64
+move r1 from Goulo to Smeraldego (g3)
+move g1 from Subhan64 to Bluebell (b1)
+build r1 at Smeraldego
+move g1 from Subhan64 to Greengrass (g1)
+build g2 at Goulo
+sacrifice g3 at Subhan64; build g2 at Bluebell; build g2 at Greengrass; build g3 at Bluebell
+move g2 from Goulo to Citronego (y3)
+convert g2 to r2 at Bluebell
+build g2 at Goulo
+sacrifice g2 at Greengrass; build g2 at Greengrass; build r2 at Bluebell
+move g2 from Citronego to Greengrass; catastrophe green at Greengrass
+sacrifice g1 at Bluebell; build y1 at Subhan64
+build y2 at Goulo
+sacrifice y1 at Subhan64; move r2 from Bluebell to Smeraldego
+build r2 at Smeraldego; catastrophe red at Smeraldego
+build g1 at Bluebell
+convert y1 to r1 at Goulo
+convert g1 to y1 at Bluebell
+move g2 from Goulo to Citronego (y3)
+move r2 from Bluebell to Citronego
+sacrifice r1 at Goulo; capture r2 at Citronego
+move g3 from Bluebell to Subhan64
+build g1 at Citronego
+build g1 at Subhan64
+move g2 from Citronego to Bluebell
+convert y1 to r1 at Subhan64
+build y1 at Goulo
+convert g1 to y1 at Subhan64
+build g1 at Bluebell
+sacrifice g3 at Subhan64; build y2 at Subhan64; build y3 at Bluebell; build r1 at Subhan64
+sacrifice g2 at Bluebell; build y3 at Goulo; build g1 at Goulo
+sacrifice y2 at Subhan64; move y1 from Bluebell to Citronego; move y1 from Citronego to Goulo; catastrophe yellow at Goulo
+build g2 at Goulo
+sacrifice r1 at Subhan64; capture g1 at Bluebell
+convert g2 to y2 at Goulo
+build g2 at Bluebell
+move g3 from Goulo to Citronego
+convert g2 to y2 at Bluebell
+build g2 at Goulo
+move g1 from Bluebell to Subhan64
+sacrifice y2 at Goulo; move g3 from Citronego to Bluebell; move g3 from Bluebell to Subhan64
+build g2 at Subhan64
+sacrifice r2 at Citronego; capture y1 at Subhan64; capture r1 at Subhan64
+convert g1 to r1 at Subhan64
+capture r1 at Subhan64
+sacrifice y2 at Bluebell; move y3 from Bluebell to Citronego; move y3 from Citronego to Goulo
+capture g2 at Subhan64

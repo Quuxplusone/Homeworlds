@@ -1,0 +1,90 @@
+Ts52 (0, y1b2) g3-
+Wil (1, r3b2) -g3
+build g1 at Ts52
+build g1 at Wil
+move g1 from Ts52 to Grover (b3)
+convert g1 to y1 at Wil
+build g1 at Ts52
+build y1 at Wil
+build g1 at Ts52
+build y2 at Wil
+build g2 at Grover
+build g2 at Wil
+convert g2 to y2 at Grover
+sacrifice y2 at Wil; move g2 from Wil to B1 (b1); move y1 from Wil to B1
+move g1 from Ts52 to Gonzo (b3)
+build y2 at B1
+build g2 at Gonzo
+move y2 from B1 to G3 (g3)
+convert g2 to r2 at Gonzo
+build g2 at Wil
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build r1 at Gonzo
+sacrifice g3 at Wil; build g3 at Wil; build y2 at Wil; build y3 at B1
+build y3 at Grover
+convert y3 to r3 at B1
+convert y3 to r3 at Grover
+sacrifice g3 at Wil; build g3 at Wil; build y3 at G3; build y3 at B1
+sacrifice g3 at Ts52; build g3 at Ts52; build y3 at Grover; build r1 at Grover
+convert y3 to b3 at B1
+move y3 from Grover to Elmo (r2)
+sacrifice g3 at Wil; build g3 at Wil; build y3 at B1; build b1 at B1
+move y3 from Elmo to Gonzo
+sacrifice y2 at G3; move g2 from B1 to G3; move g2 from G3 to Ts52
+convert g1 to r1 at Ts52
+sacrifice g2 at Wil; build g1 at Ts52; build g2 at Ts52; catastrophe green at Ts52
+move r3 from Grover to Ts52
+move r3 from B1 to Grover
+sacrifice g2 at Grover; build r2 at Grover; build r2 at Grover; catastrophe red at Grover
+convert b3 to r3 at B1
+convert r3 to g3 at Ts52
+build y2 at G3
+build g1 at Ts52
+build g2 at Wil
+sacrifice g3 at Ts52; build g2 at Grover; build g2 at Gonzo; build g3 at Ts52
+sacrifice g3 at Wil; build g3 at Wil; build r1 at B1; build b1 at B1
+convert g3 to r3 at Ts52
+sacrifice y2 at G3; move r3 from B1 to Grover; move b1 from B1 to G3
+build g3 at Ts52
+sacrifice g3 at Wil; build g3 at Wil; build y2 at G3; build r2 at B1
+sacrifice y2 at Grover; move g2 from Grover to Bigbird (y2); move g1 from Grover to Bigbird
+sacrifice g3 at Wil; build g3 at Wil; build b2 at G3; build r2 at Grover
+move g1 from Bigbird to Cookiemonster (b3)
+move r2 from B1 to Cookiemonster
+move r3 from Ts52 to Cookiemonster
+sacrifice y3 at B1; move b1 from B1 to G3; move b1 from G3 to Ts52; move b1 from G3 to Ts52
+build y3 at Gonzo
+sacrifice y2 at Wil; move b2 from G3 to Ts52; move g2 from Wil to B1; catastrophe blue at Ts52
+capture r2 at Cookiemonster
+sacrifice y2 at G3; move r3 from Grover to B1; move r3 from B1 to Wil
+move y3 from Gonzo to B1
+sacrifice y3 at G3; move g3 from Wil to Ts52; move g2 from B1 to Wil; move g2 from Wil to Ts52; catastrophe green at Ts52
+move y3 from Gonzo to Ts52
+move y1 from B1 to Grover
+convert g1 to b1 at Gonzo
+convert y1 to g1 at Grover
+convert r2 to y2 at Gonzo
+convert r3 to g3 at Wil
+move b1 from Gonzo to Ts52
+build y1 at Wil
+convert y3 to g3 at Ts52
+move y1 from Wil to G1 (g1)
+sacrifice g2 at Bigbird; build r2 at Gonzo; build r3 at Ts52
+build g2 at Wil
+move r2 from Gonzo to B1
+sacrifice g3 at Wil; build g2 at Grover; build g3 at Grover; build g3 at Wil
+capture r1 at B1
+build y2 at G1
+sacrifice g3 at Ts52; build g3 at Gonzo; build y2 at B1; build y3 at Gonzo
+move y2 from G1 to Grover
+move g2 from Gonzo to B1
+build y3 at G1
+move y2 from B1 to Cookiemonster
+convert g2 to b2 at Wil
+move g2 from B1 to Grover; catastrophe green at Grover
+move y1 from G1 to Grover
+sacrifice y3 at Gonzo; move y3 from B1 to Grover; move y2 from Gonzo to B1; move y2 from B1 to Grover; catastrophe yellow at Grover
+move y3 from G1 to G3 (g3)
+convert r2 to y2 at B1
+sacrifice g3 at Wil; build y1 at Wil; build y2 at G3; build r2 at Grover
+sacrifice y2 at Cookiemonster; move r3 from Cookiemonster to B1; move r3 from B1 to Wil
+sacrifice y3 at G3; move y2 from G3 to Ts52; move y1 from Wil to Ts52; move y1 from Wil to Ts52; catastrophe yellow at Ts52

@@ -1,0 +1,6 @@
+Uglyfoot (0, y1b3) g3-
+Danner (1, g2y2) -r3
+build g1 at Uglyfoot
+build r1 at Danner
+move g1 from Uglyfoot to Waystation (y2)
+move r3 from Danner to Uglyfoot

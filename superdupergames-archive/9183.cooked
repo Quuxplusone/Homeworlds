@@ -1,0 +1,29 @@
+Polyhymnia (0, g2b1) y3-
+Spacehobo (1, y1b3) -g3
+build y1 at Polyhymnia
+build g1 at Spacehobo
+move y1 from Polyhymnia to Botanico (g3)
+convert g1 to y1 at Spacehobo
+build y2 at Botanico
+build y2 at Spacehobo
+move y2 from Botanico to Citagazze (y2)
+move y2 from Spacehobo to Svalbard (b2)
+build y3 at Polyhymnia
+build y3 at Spacehobo
+move y2 from Citagazze to Spacehobo; catastrophe yellow at Spacehobo
+build g1 at Spacehobo
+build y1 at Botanico
+convert g3 to y3 at Spacehobo
+convert y3 to b3 at Polyhymnia
+build g1 at Spacehobo
+move b3 from Polyhymnia to Botanico
+build g1 at Spacehobo
+build y1 at Polyhymnia
+build g2 at Spacehobo
+move y1 from Polyhymnia to Spacehobo; catastrophe green at Spacehobo
+convert y3 to g3 at Spacehobo
+build y2 at Polyhymnia
+move y2 from Svalbard to Spacehobo
+build y2 at Botanico
+sacrifice g3 at Spacehobo; build y3 at Spacehobo; build y3 at Spacehobo
+move y2 from Polyhymnia to Spacehobo; catastrophe yellow at Spacehobo

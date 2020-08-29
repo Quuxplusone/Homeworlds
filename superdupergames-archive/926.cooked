@@ -1,0 +1,42 @@
+Pat (0, g1y2) b3-
+Aaron (1, y2b3) -g3
+build b1 at Pat
+build g1 at Aaron
+move b1 from Pat to Magrathea (y3)
+convert g1 to r1 at Aaron
+build b1 at Pat
+build r1 at Aaron
+convert b1 to r1 at Pat
+convert r1 to y1 at Aaron
+build r1 at Pat
+build g1 at Aaron
+build r2 at Pat
+build r2 at Aaron
+build r2 at Pat
+build r3 at Aaron; catastrophe red at Pat
+build b1 at Pat
+move r2 from Aaron to Bananas (y1)
+convert b3 to r3 at Pat
+move r2 from Bananas to Magrathea
+move r3 from Pat to Magrathea
+move r2 from Magrathea to Pat
+move r3 from Magrathea to Pat
+move r2 from Pat to Magrathea
+convert b1 to y1 at Magrathea
+capture y1 at Magrathea
+build b1 at Pat
+move g1 from Aaron to Bananas (y1)
+build b1 at Pat
+move r2 from Magrathea to Bananas
+build b2 at Pat
+build y2 at Aaron; catastrophe blue at Pat
+build r1 at Pat
+move r2 from Bananas to Magrathea
+build r1 at Pat
+move y1 from Magrathea to Bananas
+move r1 from Pat to Krikket (b3)
+build y3 at Bananas
+convert r1 to g1 at Krikket
+move r3 from Aaron to Bananas
+build g2 at Krikket
+sacrifice y3 at Bananas; move r3 from Bananas to Magrathea; move r3 from Magrathea to Pat; move r2 from Magrathea to Pat; catastrophe red at Pat

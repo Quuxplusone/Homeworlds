@@ -1,0 +1,52 @@
+Nycavri (0, y1b3) g3-
+Zoltar (1, r1b2) -g3
+build g1 at Nycavri
+build g1 at Zoltar
+convert g1 to y1 at Nycavri
+build g1 at Zoltar
+build g1 at Nycavri
+convert g1 to y1 at Zoltar
+build y2 at Nycavri
+build y2 at Zoltar
+move y2 from Nycavri to Jep (g2)
+move y1 from Zoltar to Greenbelt (g3)
+convert y1 to b1 at Nycavri
+build y1 at Zoltar
+build b1 at Nycavri
+sacrifice g3 at Zoltar; build y2 at Greenbelt; build y3 at Greenbelt; build y3 at Zoltar
+move y2 from Jep to Greenbelt; catastrophe yellow at Greenbelt
+move y2 from Zoltar to Greenbelt (g3)
+move b1 from Nycavri to Jlb (g2)
+build y1 at Greenbelt
+convert g1 to r1 at Nycavri
+build y2 at Zoltar
+build b1 at Jlb
+move y2 from Zoltar to Bluemoon (b3)
+build b2 at Jlb
+build y2 at Zoltar
+build g1 at Nycavri
+convert y3 to g3 at Zoltar
+convert g3 to y3 at Nycavri
+sacrifice g3 at Zoltar; build g1 at Zoltar; build y3 at Zoltar; build y3 at Bluemoon
+build r1 at Nycavri
+convert y3 to g3 at Bluemoon
+build r2 at Nycavri
+convert y3 to r3 at Zoltar
+move r2 from Nycavri to Rcl (g2)
+build y3 at Bluemoon
+sacrifice y3 at Nycavri; move b1 from Jlb to Bluemoon; move b1 from Jlb to Bluemoon; move b2 from Jlb to Bluemoon; catastrophe blue at Bluemoon
+sacrifice y2 at Zoltar; move y2 from Greenbelt to Rcl; move y2 from Rcl to Nycavri
+build g2 at Nycavri
+sacrifice r3 at Zoltar; capture g2 at Nycavri; capture r1 at Nycavri; capture r1 at Nycavri
+sacrifice r2 at Rcl; capture r1 at Nycavri; capture r1 at Nycavri
+build g2 at Zoltar
+move r1 from Nycavri to Bdw (y2)
+convert g2 to r2 at Zoltar
+move r1 from Bdw to Greenbelt
+sacrifice r2 at Zoltar; capture r1 at Greenbelt; capture r1 at Nycavri
+build b1 at Nycavri
+build g2 at Zoltar
+move b1 from Nycavri to Cmg (y2)
+capture g1 at Nycavri
+move b1 from Cmg to Ct (g3)
+capture b1 at Nycavri

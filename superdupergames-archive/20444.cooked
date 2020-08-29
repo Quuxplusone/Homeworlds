@@ -1,0 +1,25 @@
+Zoltar (0, r1b2) g3-
+Ts52 (1, y2b3) -g3
+build g1 at Zoltar
+build g1 at Ts52
+convert g1 to y1 at Zoltar
+convert g1 to r1 at Ts52
+build y1 at Zoltar
+build r1 at Ts52
+move y1 from Zoltar to Greenbelt (g3)
+build r2 at Ts52
+build y1 at Greenbelt
+move r2 from Ts52 to Gonzo (b1)
+build y2 at Greenbelt
+build g1 at Ts52
+build y2 at Zoltar
+move g1 from Ts52 to Gonzo
+move y2 from Greenbelt to Blueberry (b1)
+build r2 at Ts52
+sacrifice g3 at Zoltar; build y3 at Zoltar; build y3 at Greenbelt; build y3 at Blueberry
+move r2 from Ts52 to Robin (g1)
+convert y3 to g3 at Zoltar
+sacrifice g3 at Ts52; build r2 at Robin; build r3 at Ts52; build r3 at Gonzo
+convert y3 to r3 at Blueberry
+convert r3 to y3 at Gonzo
+move r3 from Blueberry to Ts52; catastrophe red at Ts52

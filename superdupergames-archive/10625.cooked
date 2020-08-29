@@ -1,0 +1,11 @@
+H3D0 (0, b1y2) g3-
+Slyfordtrabbit (1, b3g2) -y3
+build g1 at H3D0
+build y1 at Slyfordtrabbit
+convert g1 to r1 at H3D0
+build y1 at Slyfordtrabbit
+build r1 at H3D0
+convert y1 to g1 at Slyfordtrabbit
+move r1 from H3D0 to C3P0 (r3)
+build g1 at Slyfordtrabbit
+move g3 from H3D0 to C3P0

@@ -1,0 +1,47 @@
+Mobynostromo (0, b1y2) g3-
+Robizzlefoshizzle (1, g3b1) -y3
+build g1 at Mobynostromo
+build y1 at Robizzlefoshizzle
+convert g1 to b1 at Mobynostromo
+build y1 at Robizzlefoshizzle
+build b2 at Mobynostromo
+convert y1 to g1 at Robizzlefoshizzle
+move b2 from Mobynostromo to Vital (g3)
+build g1 at Robizzlefoshizzle
+build b2 at Vital
+move g1 from Robizzlefoshizzle to Dog (y2)
+convert b1 to y1 at Mobynostromo
+build y1 at Robizzlefoshizzle
+convert b2 to r2 at Vital
+move y1 from Robizzlefoshizzle to Dog
+build r1 at Vital
+build y2 at Dog
+sacrifice y1 at Mobynostromo; move r2 from Vital to Dog
+sacrifice y2 at Dog; move g1 from Dog to Robizzlefoshizzle; move y1 from Dog to Robizzlefoshizzle
+move r2 from Dog to Robizzlefoshizzle
+sacrifice y1 at Robizzlefoshizzle; move g1 from Robizzlefoshizzle to Cat (b2)
+convert r2 to y2 at Robizzlefoshizzle
+sacrifice y1 at Robizzlefoshizzle; move g1 from Cat to Mouse (r3)
+build y1 at Robizzlefoshizzle
+build g1 at Mouse
+build y1 at Robizzlefoshizzle; catastrophe yellow at Robizzlefoshizzle
+convert g1 to y1 at Robizzlefoshizzle
+build g1 at Mobynostromo
+build y1 at Robizzlefoshizzle
+convert g1 to r1 at Mobynostromo
+convert y1 to r1 at Robizzlefoshizzle
+build b1 at Vital
+build r2 at Robizzlefoshizzle
+convert b1 to y1 at Vital
+convert r1 to b1 at Robizzlefoshizzle
+build b2 at Vital
+move b1 from Robizzlefoshizzle to Cheese (g2)
+move b2 from Vital to Canopy (g2)
+build y1 at Robizzlefoshizzle
+build y2 at Vital
+move y1 from Robizzlefoshizzle to Cheese
+move y1 from Vital to Canopy
+build y2 at Cheese
+build y3 at Canopy
+sacrifice y2 at Cheese; move g1 from Mouse to Mobynostromo; move g1 from Mouse to Mobynostromo
+convert g3 to r3 at Mobynostromo

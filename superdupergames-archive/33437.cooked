@@ -1,0 +1,74 @@
+Trydnt (0, b3y2) g3-
+Wil (1, y2b1) -g3
+build g1 at Trydnt
+build g1 at Wil
+convert g1 to b1 at Trydnt
+convert g1 to y1 at Wil
+build b1 at Trydnt
+build y1 at Wil
+convert b1 to y1 at Trydnt
+convert y1 to b1 at Wil
+build b2 at Trydnt
+build b2 at Wil
+move b2 from Trydnt to Ac (g1)
+move b1 from Wil to Y3 (y3)
+move y1 from Trydnt to Ac
+build g1 at Wil
+convert b1 to r1 at Trydnt
+convert g1 to r1 at Wil
+move b2 from Ac to Y3
+sacrifice g3 at Wil; build b1 at Y3; build b2 at Y3; build b3 at Wil; catastrophe blue at Y3
+build y1 at Ac
+move y1 from Wil to G3 (g3)
+move y1 from Ac to G2 (g2)
+convert b3 to g3 at Wil
+build g1 at Trydnt
+build b1 at Wil
+convert g1 to b1 at Trydnt
+move b2 from Wil to Y3 (y3)
+sacrifice g3 at Trydnt; build y2 at Ac; build y3 at G2; build b2 at Trydnt
+build y3 at G3
+move b1 from Trydnt to Ac
+build g1 at Wil
+move y3 from G2 to Y3
+move b2 from Y3 to G1 (g1)
+move y3 from Y3 to G1
+build b2 at G1
+build y3 at G1
+build b3 at G1
+sacrifice y2 at Ac; move b1 from Ac to G3; move b1 from G3 to G1; catastrophe blue at G1
+build g2 at Wil
+build y2 at Ac
+convert g2 to r2 at Wil
+move y3 from G1 to Trydnt
+move y1 from G3 to Gee2 (g2)
+move y3 from G1 to Gee3 (g3)
+build g1 at Wil
+move b2 from Trydnt to Ac
+move g1 from Wil to G3
+move b2 from Ac to Gee3
+move r2 from Wil to G3
+build b1 at Gee3
+move b1 from Wil to G3
+build b2 at Gee3
+build b2 at G3
+move b1 from Gee3 to G2
+move b2 from G3 to G2
+build b3 at G2
+sacrifice g3 at Wil; build b3 at G3; build g2 at G3; build g3 at Wil
+move b1 from G2 to R3 (r3)
+move b3 from G3 to Ac
+sacrifice y3 at Gee3; move y1 from Ac to R3; move b1 from R3 to Wil; move y2 from Ac to Gee3
+sacrifice g3 at Wil; build g3 at Wil; build y3 at G3; build r1 at G3
+move b2 from Gee3 to Wil
+sacrifice r1 at G3; capture y1 at G2
+move b2 from Gee3 to Wil; catastrophe blue at Wil
+sacrifice g3 at Wil; build b1 at G2; build g3 at Wil; build b1 at G2; catastrophe blue at G2
+move y2 from Gee3 to Gee2
+move y1 from Gee2 to Ac
+move y2 from Gee2 to Gee3 (g3)
+convert g2 to r2 at G3
+move y1 from R3 to B1 (b1)
+sacrifice y3 at G3; move y3 from G3 to Ac; move y3 from Ac to Trydnt; move b3 from Ac to Trydnt
+move y1 from B1 to Trydnt; catastrophe yellow at Trydnt
+sacrifice r2 at G3; capture r1 at Trydnt

@@ -1,0 +1,36 @@
+W00T (0, g2r1) b3-
+Ts52 (1, y3b1) -g3
+build b1 at W00T
+build g1 at Ts52
+convert b1 to y1 at W00T
+convert g1 to b1 at Ts52
+build y1 at W00T
+build g1 at Ts52
+convert y1 to g1 at W00T
+convert g1 to y1 at Ts52
+move g1 from W00T to Boop (b3)
+build g1 at Ts52
+build y1 at W00T
+build y2 at Ts52
+build y2 at W00T
+move y1 from Ts52 to Kermit (g2)
+move y1 from W00T to Boop
+move b1 from Ts52 to Kermit
+move y1 from W00T to Bop (g3)
+move g1 from Ts52 to Grover (b2)
+build g1 at Boop
+build g2 at Grover
+convert g1 to r1 at Boop
+convert g2 to r2 at Grover
+build g1 at Boop
+move y2 from Ts52 to Grover
+move g1 from Boop to Star (r2)
+build r1 at Grover
+convert b3 to g3 at W00T
+build g2 at Ts52
+sacrifice y1 at Boop; move g1 from Star to Ts52
+convert g2 to r2 at Ts52
+build g2 at Ts52
+sacrifice g3 at Ts52; build g3 at Grover; build r2 at Grover; build r3 at Ts52
+sacrifice g2 at Ts52; build r3 at Boop; build g2 at Boop
+move r2 from Grover to Bop

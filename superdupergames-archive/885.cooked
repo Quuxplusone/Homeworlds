@@ -1,0 +1,69 @@
+Twoshort (0, y1b2) g3-
+Andylooney (1, b3g2) -y3
+build g1 at Twoshort
+build y1 at Andylooney
+build g1 at Twoshort
+convert y1 to g1 at Andylooney
+move g1 from Twoshort to Bluestar (b3)
+move g1 from Andylooney to Different (y1)
+build g2 at Twoshort
+build y1 at Andylooney
+move g1 from Twoshort to Similar (y3)
+build y2 at Andylooney
+sacrifice g3 at Twoshort; build g2 at Similar; build g3 at Twoshort; build g3 at Bluestar
+build g3 at Different
+convert g3 to y3 at Bluestar
+convert y2 to r2 at Andylooney
+convert g2 to r2 at Twoshort
+move y1 from Andylooney to Bomber (b1)
+build g2 at Twoshort
+move y1 from Bomber to Paradise (g3)
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y2 at Bluestar; build y2 at Bluestar
+sacrifice g3 at Different; build g3 at Different; build r1 at Andylooney; build y2 at Paradise
+sacrifice y3 at Bluestar; move g1 from Similar to Different; move g2 from Similar to Different; move y2 from Bluestar to Moltar (r1); catastrophe green at Different
+convert r1 to g1 at Andylooney
+move y2 from Bluestar to Emerald (g1)
+move g1 from Andylooney to Bomber (b1)
+build y1 at Emerald
+move y2 from Paradise to Bomber
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Twoshort; build y3 at Moltar
+build g3 at Bomber
+sacrifice y2 at Moltar; move g2 from Bluestar to Bomber; move g1 from Bluestar to Bomber; catastrophe green at Bomber
+convert y2 to g2 at Bomber
+sacrifice g2 at Twoshort; build g1 at Twoshort; build y2 at Moltar
+build y2 at Paradise
+move y3 from Moltar to Paradise
+build y3 at Paradise; catastrophe yellow at Paradise
+build y1 at Emerald
+build g1 at Bomber
+move y1 from Emerald to Bluestar (b3)
+convert g1 to r1 at Bomber
+convert y1 to g1 at Bluestar
+convert r1 to y1 at Bomber
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Twoshort; build y2 at Moltar
+sacrifice g2 at Bomber; build y3 at Bomber; build y3 at Andylooney
+sacrifice y2 at Moltar; move y2 from Moltar to Andylooney; move y1 from Emerald to Andylooney; catastrophe yellow at Andylooney
+move y3 from Bomber to Andylooney
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Twoshort; build g3 at Bluestar
+move y1 from Bomber to Garden (g3)
+sacrifice y2 at Emerald; move g3 from Bluestar to Lancer (b1); move g2 from Twoshort to Garden
+move y1 from Garden to Bomber (b2)
+convert g2 to y2 at Bluestar
+convert y1 to g1 at Bomber
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Twoshort; build y1 at Bluestar
+build r1 at Andylooney
+sacrifice g2 at Garden; build g2 at Lancer; build g3 at Lancer
+convert r1 to b1 at Andylooney
+convert g3 to y3 at Lancer
+build g3 at Bomber
+sacrifice y3 at Lancer; move g1 from Bluestar to Bomber; move g2 from Lancer to Bomber; move g2 from Bluestar to Yolonda (y1); catastrophe green at Bomber
+build y2 at Andylooney
+build g1 at Lancer
+move y2 from Andylooney to Zorak (g1)
+sacrifice g3 at Lancer; build g2 at Lancer; build g3 at Lancer; build g3 at Yolonda
+build y2 at Zorak
+sacrifice y2 at Bluestar; move g2 from Lancer to Andylooney; move g1 from Lancer to Andylooney
+move y2 from Zorak to Ibm (b3)
+sacrifice r2 at Twoshort; capture r2 at Andylooney; capture b1 at Andylooney
+convert y2 to r2 at Ibm
+sacrifice g3 at Lancer; build b1 at Andylooney; build b1 at Andylooney; build g3 at Andylooney; catastrophe blue at Andylooney; catastrophe green at Andylooney

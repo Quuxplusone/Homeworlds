@@ -1,0 +1,31 @@
+Spacehobo (0, y1b2) g3-
+Polyhymnia (1, b2g3) -y3
+build g1 at Spacehobo
+build y1 at Polyhymnia
+move g1 from Spacehobo to Pimlico (y3)
+move y1 from Polyhymnia to Mornington (g1)
+build g1 at Spacehobo
+build y1 at Mornington
+sacrifice g3 at Spacehobo; build g2 at Spacehobo; build g2 at Spacehobo; build g2 at Spacehobo
+build y2 at Mornington
+convert g2 to y2 at Spacehobo
+build y2 at Polyhymnia
+build y3 at Spacehobo
+convert y2 to g2 at Polyhymnia
+build g3 at Pimlico
+build g3 at Polyhymnia
+move y2 from Spacehobo to Pimlico
+move y1 from Mornington to Pimlico
+move g3 from Pimlico to Plaistow (b1)
+convert g3 to r3 at Polyhymnia
+build g3 at Plaistow
+build y2 at Polyhymnia
+convert g3 to r3 at Plaistow
+move y2 from Mornington to Pimlico
+build g3 at Plaistow
+move y2 from Pimlico to Spacehobo
+sacrifice y2 at Pimlico; move g3 from Plaistow to Polyhymnia; move g3 from Plaistow to Polyhymnia
+capture g3 at Polyhymnia
+sacrifice r3 at Plaistow; capture r3 at Polyhymnia; capture g3 at Polyhymnia; capture y3 at Polyhymnia
+move y1 from Mornington to Polyhymnia; catastrophe green at Polyhymnia
+sacrifice r3 at Polyhymnia; capture y2 at Polyhymnia; capture y1 at Polyhymnia

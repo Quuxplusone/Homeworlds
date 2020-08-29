@@ -1,0 +1,53 @@
+Ajo (0, b1r3) g3-
+Goblin981 (1, y3b2) -g3
+build g1 at Ajo
+build g1 at Goblin981
+convert g1 to y1 at Ajo
+move g1 from Goblin981 to Blue (b1)
+build y1 at Ajo
+build g1 at Goblin981
+build y1 at Ajo
+build g1 at Goblin981
+move y1 from Ajo to Alpha (b2)
+build g2 at Blue
+build g2 at Ajo
+convert g2 to r2 at Blue
+sacrifice g2 at Ajo; build g2 at Ajo; build y2 at Alpha
+convert g1 to r1 at Goblin981
+convert y2 to r2 at Alpha
+move g1 from Goblin981 to Green (g1)
+sacrifice g2 at Ajo; build g2 at Ajo; build y2 at Alpha
+build g2 at Goblin981
+convert y2 to g2 at Alpha
+sacrifice g2 at Goblin981; build g2 at Goblin981; build g3 at Blue
+sacrifice g3 at Ajo; build g3 at Ajo; build y2 at Alpha; build y2 at Alpha
+convert g3 to y3 at Blue
+sacrifice g3 at Ajo; build g3 at Ajo; build g3 at Alpha; build r1 at Alpha
+move r2 from Blue to Y2 (y2)
+sacrifice y2 at Alpha; move y1 from Alpha to Blue; move y1 from Ajo to Beta (b2)
+move g1 from Blue to Y2
+sacrifice g3 at Ajo; build g3 at Ajo; build y2 at Blue; build y3 at Blue; catastrophe yellow at Blue
+sacrifice g3 at Goblin981; build g3 at Goblin981; build r1 at Y2; build r2 at Y2
+sacrifice g3 at Ajo; build g3 at Ajo; build r3 at Alpha; build y1 at Beta
+move r2 from Y2 to Y3 (y3)
+move r3 from Alpha to Green
+sacrifice g1 at Green; build r3 at Y3
+move y1 from Beta to Green
+move r3 from Y3 to Yell2 (y2)
+build y3 at Green
+move r2 from Y3 to Beta
+build y3 at Alpha
+capture y1 at Beta
+move y3 from Green to Beta
+sacrifice y1 at Beta; move r2 from Beta to Ajo
+capture r2 at Ajo
+build g1 at Y2
+build y1 at Green
+move r3 from Yell2 to Green
+capture r3 at Green
+convert g2 to y2 at Goblin981
+sacrifice y2 at Alpha; move y1 from Green to Goblin981; move y1 from Green to Goblin981; catastrophe yellow at Goblin981
+move r1 from Y2 to Ajo
+sacrifice y3 at Beta; move g3 from Alpha to Green; move g3 from Green to Goblin981; move g2 from Ajo to Goblin981
+move r2 from Y2 to Ajo; catastrophe red at Ajo
+sacrifice r2 at Alpha; capture g3 at Goblin981; capture r1 at Goblin981

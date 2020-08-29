@@ -1,0 +1,45 @@
+Wil (0, r2b1) g3-
+Ts52 (1, b2r3) -g3
+build g1 at Wil
+build g1 at Ts52
+convert g1 to b1 at Wil
+convert g1 to y1 at Ts52
+build g1 at Wil
+build g1 at Ts52
+convert g1 to y1 at Wil
+move g1 from Ts52 to Elmo (r1)
+build g1 at Wil
+move y1 from Ts52 to Elmo
+move g1 from Wil to Fortcourage (y3)
+build g1 at Ts52
+build g2 at Wil
+build g2 at Ts52
+sacrifice g3 at Wil; build g2 at Wil; build g3 at Fortcourage; build g3 at Wil
+convert g2 to y2 at Ts52
+convert g2 to r2 at Wil
+sacrifice g3 at Ts52; build g2 at Ts52; build g2 at Elmo; build g3 at Ts52
+move g1 from Fortcourage to Tortuga (y2)
+convert g2 to b2 at Ts52
+sacrifice g3 at Wil; build g2 at Tortuga; build g3 at Wil; build r1 at Wil
+move b2 from Ts52 to Elmo
+move g1 from Tortuga to Dryden (y3)
+sacrifice g3 at Ts52; build g3 at Ts52; build b1 at Elmo; build b2 at Elmo
+move b1 from Wil to Dryden
+convert b2 to r2 at Elmo
+move r2 from Wil to Dryden
+move r2 from Elmo to Bigbird (y3)
+sacrifice g3 at Wil; build g3 at Wil; build r1 at Dryden; build r3 at Dryden
+sacrifice g3 at Ts52; build g3 at Ts52; build r3 at Bigbird; build y1 at Elmo
+build y2 at Wil
+move b2 from Elmo to Bigbird
+move r3 from Dryden to Elmo
+move g2 from Elmo to Bigbird
+sacrifice r2 at Dryden; capture y1 at Elmo; capture y1 at Elmo
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Elmo; build b3 at Bigbird
+sacrifice g3 at Wil; build g3 at Wil; build r2 at Dryden; build b3 at Dryden
+sacrifice y2 at Ts52; move b2 from Elmo to Dryden; move b1 from Elmo to Dryden; catastrophe blue at Dryden
+sacrifice g3 at Fortcourage; build g3 at Dryden; build y2 at Elmo; build y3 at Wil
+move r3 from Bigbird to Tortuga
+sacrifice y2 at Elmo; move g2 from Tortuga to Fortcourage (b1); move g1 from Dryden to Fortcourage
+move r3 from Tortuga to Fortcourage
+sacrifice y2 at Wil; move g2 from Fortcourage to Ts52; move g1 from Fortcourage to Ts52; catastrophe green at Ts52

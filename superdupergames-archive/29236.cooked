@@ -1,0 +1,40 @@
+Random56 (0, b1y2) g3-
+Felix (1, b3g2) -y3
+build g1 at Random56
+build y1 at Felix
+build g1 at Random56
+convert y1 to g1 at Felix
+move g1 from Random56 to A1C (b3)
+build g2 at Felix
+sacrifice g3 at Random56; build g2 at Random56; build g3 at A1C; build g3 at A1C
+move g2 from Felix to Door (b1)
+convert g1 to y1 at Random56
+build y1 at Felix
+convert g1 to y1 at A1C
+move y1 from Felix to Door
+sacrifice g3 at A1C; build g1 at A1C; build g1 at A1C; build g3 at Random56
+move g2 from Door to A1C; catastrophe green at A1C
+convert y1 to g1 at A1C
+build y1 at Felix
+build y2 at Random56
+move g1 from Felix to Door
+move y1 from Random56 to Fio2 (g3)
+build y2 at Door
+sacrifice g3 at Random56; build y3 at Random56; build y3 at Fio2; build g1 at A1C
+build g2 at Door
+move y2 from Random56 to Aki (g3)
+convert y1 to r1 at Felix
+convert g2 to r2 at Random56
+move g2 from Door to Gate (b3)
+build y1 at Aki
+build g2 at Door
+build g3 at A1C
+move g1 from Door to A1C; catastrophe green at A1C
+move y1 from Aki to Help (g1)
+move y2 from Door to Gate
+move y1 from Fio2 to Help
+move y1 from Door to Gate
+convert y3 to r3 at Random56
+convert y1 to r1 at Gate
+build y1 at Help
+move r1 from Gate to Random56

@@ -1,0 +1,18 @@
+Onepagewars (0, g3y2) b3-
+Ts52 (1, y2b1) -g3
+build b1 at Onepagewars
+build g1 at Ts52
+move b3 from Onepagewars to Yellowstar (y1)
+convert g1 to b1 at Ts52
+convert b1 to g1 at Onepagewars
+move b1 from Ts52 to Kermit (g3)
+build g1 at Onepagewars
+build b1 at Kermit
+move g1 from Onepagewars to Yellowstar
+convert b1 to y1 at Kermit
+convert g1 to r1 at Yellowstar
+convert y1 to r1 at Kermit
+build g1 at Onepagewars
+build g1 at Ts52
+build g2 at Onepagewars
+build g2 at Ts52; catastrophe green at Onepagewars

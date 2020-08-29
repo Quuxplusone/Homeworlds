@@ -1,0 +1,9 @@
+Lorgar (0, g2b1) y3-
+Lurch (1, y1b3) -g3
+build y1 at Lorgar
+build g1 at Lurch
+convert y1 to g1 at Lorgar
+convert g1 to y1 at Lurch
+build g1 at Lorgar
+move y1 from Lurch to Alpha (g2)
+move g1 from Lorgar to Metatron (b3)

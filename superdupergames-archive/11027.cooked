@@ -1,0 +1,68 @@
+Horowits (0, g3b2) y3-
+Ts52 (1, b1y2) -g3
+build y1 at Horowits
+build g1 at Ts52
+convert y1 to g1 at Horowits
+convert g1 to b1 at Ts52
+build g1 at Horowits
+build b1 at Ts52
+build y1 at Horowits
+move b1 from Ts52 to Kermit (g3)
+move g1 from Horowits to Wolley (y1)
+build b2 at Kermit
+convert y3 to b3 at Horowits
+convert b2 to y2 at Kermit
+move b3 from Horowits to Der (r1)
+build b2 at Kermit
+build g1 at Horowits
+build g2 at Ts52
+build g2 at Wolley
+build g2 at Ts52
+sacrifice g1 at Horowits; build b2 at Der
+build b3 at Ts52
+convert b2 to y2 at Der
+sacrifice b2 at Kermit; convert b3 to r3 at Ts52; convert g2 to r2 at Ts52
+sacrifice g2 at Wolley; build y1 at Der; build y3 at Horowits
+move r3 from Ts52 to Kermit
+convert y1 to r1 at Horowits
+build b2 at Kermit
+convert y2 to g2 at Der
+build b2 at Ts52
+move b3 from Der to Move (y3)
+convert b2 to y2 at Ts52
+sacrifice g2 at Der; build y1 at Horowits; build y3 at Der
+move b2 from Kermit to Wolley
+move g1 from Wolley to Move
+sacrifice g2 at Ts52; build b2 at Kermit; build b3 at Wolley
+build b3 at Move
+sacrifice y2 at Ts52; move b3 from Wolley to Move; move b2 from Wolley to Move; catastrophe blue at Move
+build r1 at Horowits
+move r2 from Ts52 to Move
+move g1 from Move to Ts52
+build b2 at Kermit
+sacrifice r1 at Horowits; capture b1 at Ts52
+sacrifice r2 at Move; capture g1 at Ts52; capture b1 at Ts52
+move g1 from Horowits to Der
+build b3 at Ts52
+move y1 from Der to Eulb (b3)
+move b2 from Kermit to Oscar (g1)
+move g1 from Der to Eulb
+build b3 at Oscar
+move y1 from Eulb to Ts52
+convert b3 to r3 at Ts52
+build g2 at Eulb
+capture y1 at Ts52
+move y3 from Der to Eulb
+convert b3 to r3 at Oscar
+move g1 from Eulb to Ts52
+move g3 from Ts52 to Bigbird (y3)
+convert g1 to y1 at Ts52
+move y1 from Ts52 to Kermit
+build y2 at Eulb
+capture y1 at Ts52
+convert y3 to b3 at Eulb
+build b3 at Oscar
+build y3 at Eulb
+sacrifice y2 at Kermit; move r3 from Oscar to Horowits; move b3 from Oscar to Horowits
+sacrifice g2 at Eulb; build r1 at Horowits; build r1 at Horowits; catastrophe red at Horowits
+sacrifice r3 at Kermit; capture y3 at Horowits; capture y1 at Horowits

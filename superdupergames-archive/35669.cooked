@@ -1,0 +1,54 @@
+Eliscinsky (0, r1b3) g3-
+Babamots (1, b2r1) -g3
+build g1 at Eliscinsky
+build g1 at Babamots
+convert g1 to r1 at Eliscinsky
+convert g3 to r3 at Babamots
+build g1 at Eliscinsky
+build r2 at Babamots
+build r2 at Eliscinsky
+convert r2 to y2 at Babamots
+convert r2 to y2 at Eliscinsky
+build r2 at Babamots
+convert g1 to b1 at Eliscinsky
+move r2 from Babamots to Orion (g3)
+build g1 at Eliscinsky
+build r2 at Babamots
+build y1 at Eliscinsky
+convert r2 to b2 at Babamots
+move r1 from Eliscinsky to Reddwarf (r2)
+move b2 from Babamots to Orion
+move g1 from Eliscinsky to Reddwarf
+build y1 at Babamots
+move y1 from Eliscinsky to Reddwarf
+move y1 from Babamots to Orion
+build r2 at Reddwarf
+move r2 from Orion to Reddwarf; catastrophe red at Reddwarf
+build g1 at Eliscinsky
+build r1 at Babamots
+move b1 from Eliscinsky to Greentwo (g2)
+move r1 from Babamots to Orion
+build b1 at Greentwo
+build r2 at Orion
+convert b1 to y1 at Greentwo
+move r2 from Orion to Greentwo
+build y1 at Eliscinsky
+capture y1 at Greentwo
+convert y2 to r2 at Eliscinsky
+capture b1 at Greentwo
+build y2 at Eliscinsky
+build y2 at Orion
+convert y2 to b2 at Eliscinsky
+build b1 at Greentwo
+move b2 from Eliscinsky to Reddwarf (r2)
+build r3 at Orion
+move r2 from Eliscinsky to Reddwarf
+move b2 from Orion to Greentwo
+build y2 at Eliscinsky
+move b2 from Greentwo to Eliscinsky
+capture b2 at Eliscinsky
+sacrifice y2 at Orion; move b1 from Greentwo to Eliscinsky; move b1 from Greentwo to Eliscinsky; catastrophe blue at Eliscinsky
+sacrifice b2 at Reddwarf; convert r2 to y2 at Reddwarf; convert y2 to b2 at Eliscinsky
+move r3 from Orion to Eliscinsky
+sacrifice y2 at Reddwarf; move g3 from Eliscinsky to Orion; move g3 from Orion to Babamots
+sacrifice y2 at Babamots; move r1 from Orion to Eliscinsky; move r2 from Greentwo to Eliscinsky; catastrophe red at Eliscinsky

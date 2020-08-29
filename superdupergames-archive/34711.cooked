@@ -1,0 +1,41 @@
+Mneme (0, r1b2) g3-
+Draw5Playall (1, b3r2) -g3
+build g1 at Mneme
+build g1 at Draw5Playall
+convert g1 to r1 at Mneme
+convert g1 to r1 at Draw5Playall
+build r2 at Mneme
+build r2 at Draw5Playall
+convert r2 to y2 at Mneme
+convert r1 to y1 at Draw5Playall
+build r1 at Mneme
+build r2 at Draw5Playall
+move r1 from Mneme to Melpomene (b3)
+move r2 from Draw5Playall to Gone (g1)
+build r3 at Mneme
+build r3 at Gone
+build g1 at Mneme
+build g1 at Draw5Playall
+sacrifice g1 at Mneme; build r3 at Melpomene
+build y1 at Draw5Playall
+move r1 from Mneme to Terpsicore (y3)
+convert g1 to b1 at Draw5Playall
+sacrifice y2 at Mneme; move r1 from Terpsicore to Gone; move r1 from Melpomene to Gone; catastrophe red at Gone
+build y1 at Draw5Playall
+convert r3 to y3 at Mneme
+move y1 from Draw5Playall to Iloseagain (g1)
+build y2 at Mneme
+move y1 from Draw5Playall to Youllwin (b1)
+build g1 at Mneme
+build g1 at Draw5Playall
+build g2 at Mneme
+build y2 at Iloseagain
+sacrifice y2 at Mneme; move r3 from Melpomene to Iloseagain; move g2 from Mneme to Caliope (y3)
+sacrifice y1 at Iloseagain; move y2 from Iloseagain to Outrunyou (g2)
+sacrifice g3 at Mneme; build g2 at Mneme; build g3 at Caliope; build g3 at Mneme
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y1 at Youllwin; build y2 at Draw5Playall
+convert g3 to y3 at Mneme
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build g3 at Draw5Playall; build y2 at Outrunyou
+sacrifice y3 at Mneme; move g2 from Caliope to Iloseagain; move g2 from Iloseagain to Draw5Playall; move r3 from Iloseagain to Draw5Playall; catastrophe green at Draw5Playall
+convert y1 to r1 at Draw5Playall; catastrophe red at Draw5Playall
+convert g2 to r2 at Mneme

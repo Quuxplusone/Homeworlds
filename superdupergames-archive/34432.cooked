@@ -1,0 +1,42 @@
+Laurie_Menke (0, y3b1) g3-
+Dlwillson (1, b2y3) -g3
+build g1 at Laurie_Menke
+build g1 at Dlwillson
+convert g1 to r1 at Laurie_Menke
+convert g1 to r1 at Dlwillson
+build g1 at Laurie_Menke
+build g1 at Dlwillson
+move g1 from Laurie_Menke to Yellow (y2)
+convert g1 to b1 at Dlwillson
+build g1 at Laurie_Menke
+build b1 at Dlwillson
+move g1 from Yellow to Closer (y1)
+move b1 from Dlwillson to Sol (y1)
+build g1 at Closer
+sacrifice g3 at Dlwillson; build b2 at Sol; build b2 at Sol; build b3 at Dlwillson
+sacrifice g3 at Laurie_Menke; build g2 at Closer; build g2 at Laurie_Menke; build g2 at Laurie_Menke
+convert b3 to g3 at Dlwillson
+move g2 from Closer to Farther (g3)
+move b2 from Sol to Mars (r2)
+sacrifice g2 at Laurie_Menke; build g2 at Farther; build g3 at Laurie_Menke
+sacrifice g3 at Dlwillson; build b3 at Dlwillson; build b3 at Sol; build b3 at Mars
+convert g1 to y1 at Laurie_Menke
+convert b3 to g3 at Sol
+sacrifice y1 at Laurie_Menke; move g2 from Farther to Escape (y2)
+build g1 at Sol
+sacrifice g2 at Farther; build g2 at Escape; build g3 at Laurie_Menke
+convert b3 to y3 at Dlwillson
+convert g2 to y2 at Laurie_Menke
+sacrifice g3 at Sol; build b3 at Mars; build b3 at Dlwillson; build g2 at Sol
+sacrifice g3 at Laurie_Menke; build g3 at Laurie_Menke; build y1 at Laurie_Menke; build g3 at Closer
+sacrifice y3 at Dlwillson; move b3 from Mars to Laurie_Menke; move b3 from Mars to Laurie_Menke
+sacrifice y2 at Laurie_Menke; move g1 from Closer to Dlwillson; move g1 from Closer to Dlwillson
+sacrifice r1 at Dlwillson; capture r1 at Laurie_Menke
+move g3 from Closer to Mars
+sacrifice b2 at Mars; convert b2 to r2 at Sol; convert b3 to r3 at Laurie_Menke
+sacrifice g3 at Mars; build g3 at Dlwillson; build y1 at Laurie_Menke
+sacrifice r3 at Laurie_Menke; capture g3 at Laurie_Menke; capture g3 at Laurie_Menke; capture g3 at Dlwillson
+move g2 from Escape to Laurie_Menke
+sacrifice r2 at Sol; capture g2 at Laurie_Menke; capture y1 at Laurie_Menke
+sacrifice g2 at Escape; build y2 at Laurie_Menke; build y2 at Laurie_Menke
+sacrifice g2 at Laurie_Menke; build b2 at Laurie_Menke; build b2 at Laurie_Menke; catastrophe yellow at Laurie_Menke; catastrophe blue at Laurie_Menke

@@ -1,0 +1,21 @@
+Mxpf (0, r3b1) g3-
+Ladybugsfly (1, g3y2) -b3
+build g1 at Mxpf
+build b1 at Ladybugsfly
+convert g3 to b3 at Mxpf
+move b1 from Ladybugsfly to Squirtle (y1)
+build g1 at Mxpf
+build b1 at Ladybugsfly
+build b2 at Mxpf
+move b1 from Squirtle to Wartortle (y2)
+convert b2 to y2 at Mxpf
+convert b1 to g1 at Wartortle
+convert g1 to r1 at Mxpf
+build g1 at Wartortle
+move y2 from Mxpf to Wartortle
+convert b3 to r3 at Ladybugsfly
+sacrifice r1 at Mxpf; capture g1 at Wartortle
+build g2 at Wartortle
+build g2 at Mxpf
+sacrifice g2 at Wartortle; build r1 at Ladybugsfly; build b1 at Ladybugsfly
+build g2 at Mxpf

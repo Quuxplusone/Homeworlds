@@ -1,0 +1,74 @@
+Speardane (0, b2g3) y3-
+Goulo (1, b3r1) -g3
+build y1 at Speardane
+build g1 at Goulo
+convert y3 to r3 at Speardane
+convert g1 to y1 at Goulo
+build r1 at Speardane
+build y1 at Goulo
+convert r3 to b3 at Speardane
+build y2 at Goulo
+build b1 at Speardane
+convert y1 to b1 at Goulo
+move b1 from Speardane to Delos (y1)
+move y2 from Goulo to Verdo (g2)
+move b1 from Delos to Lebling (g2)
+build g1 at Goulo
+convert b3 to g3 at Speardane
+convert g1 to r1 at Goulo
+build g1 at Speardane
+build g1 at Goulo
+move g1 from Speardane to Delos (b1)
+move y2 from Verdo to Delos
+sacrifice g1 at Delos; build b2 at Lebling
+move b1 from Goulo to Flavo (y2)
+convert b2 to y2 at Lebling
+build r2 at Goulo
+sacrifice g3 at Speardane; build y1 at Speardane; build y3 at Speardane; build y3 at Lebling
+move y2 from Delos to Speardane; catastrophe yellow at Speardane
+sacrifice y2 at Lebling; move y3 from Lebling to Delos (y1); move y3 from Delos to Speardane
+move r2 from Goulo to Lebling
+build r2 at Speardane
+build r2 at Lebling
+build r3 at Speardane
+build r3 at Lebling
+sacrifice y3 at Speardane; move r1 from Speardane to Delos (y1); move r2 from Speardane to Kotok (b1); move r1 from Delos to Lebling; catastrophe red at Lebling
+sacrifice g1 at Goulo; build b2 at Flavo
+convert r3 to y3 at Speardane
+build g1 at Goulo
+convert r2 to g2 at Kotok
+move r1 from Goulo to Lebling
+build b2 at Lebling
+move g1 from Goulo to Flavo
+convert b2 to y2 at Lebling
+capture b1 at Lebling
+build g1 at Kotok
+move b2 from Flavo to Kotok
+sacrifice y2 at Lebling; move g2 from Kotok to Flavo; move g1 from Kotok to Delos (b3)
+build b2 at Flavo
+move g2 from Flavo to Minsky (b3)
+build y1 at Goulo
+build g1 at Minsky
+move y1 from Goulo to Lebling
+convert g2 to y2 at Minsky
+build g2 at Goulo
+move y2 from Minsky to Lebling
+move g2 from Goulo to Lebling
+sacrifice y2 at Lebling; move g1 from Delos to Lebling; move g1 from Minsky to Lebling; catastrophe green at Lebling
+move b1 from Flavo to Flaveto (y1)
+build y1 at Speardane
+move b1 from Flaveto to Speardane
+convert y3 to r3 at Speardane
+build b1 at Speardane
+capture b1 at Speardane
+build b3 at Speardane; catastrophe blue at Speardane
+build r1 at Speardane
+convert b2 to r2 at Flavo
+move r3 from Speardane to Flavo
+move r2 from Flavo to Speardane
+move r3 from Flavo to Speardane
+build r1 at Speardane; catastrophe red at Speardane
+build y1 at Speardane
+move g1 from Flavo to Speardane
+pass
+sacrifice g3 at Goulo; build g1 at Speardane; build g1 at Speardane; build y2 at Goulo; catastrophe green at Speardane

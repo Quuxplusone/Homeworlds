@@ -1,0 +1,47 @@
+Twoshort (0, r1b3) g3-
+Lorgar (1, b3y2) -g3
+build g1 at Twoshort
+build g1 at Lorgar
+convert g1 to y1 at Twoshort
+move g1 from Lorgar to Bridge (b1)
+build g1 at Twoshort
+build g1 at Lorgar
+move g1 from Twoshort to Yolonda (y2)
+convert g1 to r1 at Lorgar
+build y1 at Twoshort
+build g1 at Bridge
+build g2 at Twoshort
+convert g1 to y1 at Bridge
+move y1 from Twoshort to Grogar (g2)
+build g1 at Bridge
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Twoshort; build g3 at Yolonda
+convert g1 to r1 at Bridge
+move g1 from Yolonda to Yellonia (y3)
+move r1 from Bridge to Grogar
+sacrifice g3 at Twoshort; build y2 at Twoshort; build y3 at Grogar; build y3 at Twoshort
+move g1 from Bridge to Grogar
+convert y2 to r2 at Twoshort
+convert y1 to g1 at Bridge
+sacrifice g3 at Yolonda; build g3 at Yellonia; build g3 at Twoshort; build y1 at Twoshort
+build r2 at Lorgar
+sacrifice r2 at Twoshort; capture r1 at Grogar; capture g1 at Grogar
+convert r2 to y2 at Lorgar
+sacrifice g2 at Twoshort; build r2 at Grogar; build y2 at Grogar
+move y2 from Lorgar to Bridge
+move y3 from Grogar to Bridge
+build g2 at Lorgar
+sacrifice r2 at Grogar; capture y2 at Bridge; capture g1 at Bridge
+build r2 at Lorgar
+convert y3 to r3 at Twoshort
+move r1 from Lorgar to Mo (b1)
+sacrifice g3 at Yellonia; build g3 at Bridge; build y3 at Bridge; build r2 at Grogar
+sacrifice g3 at Lorgar; build r2 at Mo; build r3 at Lorgar; build g3 at Lorgar
+sacrifice g1 at Yellonia; build y3 at Twoshort
+convert r2 to b2 at Lorgar
+sacrifice y3 at Twoshort; move r2 from Grogar to Mo; move r1 from Grogar to Mo; move g3 from Bridge to Lorgar; catastrophe red at Mo
+build g1 at Lorgar; catastrophe green at Lorgar
+convert y3 to b3 at Bridge
+convert r3 to g3 at Lorgar
+sacrifice y3 at Bridge; move g1 from Bridge to Lorgar; move y2 from Bridge to Lorgar; move b3 from Bridge to Lorgar
+build b1 at Lorgar; catastrophe blue at Lorgar
+sacrifice y2 at Lorgar; move g3 from Twoshort to Lorgar; move g2 from Twoshort to Lorgar; catastrophe green at Lorgar

@@ -1,0 +1,39 @@
+Twoshort (0, y1b2) g3-
+Geepamoogle (1, g3b1) -y3
+build g1 at Twoshort
+build y1 at Geepamoogle
+convert g1 to y1 at Twoshort
+build y2 at Geepamoogle
+build g1 at Twoshort
+convert y2 to g2 at Geepamoogle
+move y1 from Twoshort to Grogar (g3)
+build y2 at Geepamoogle
+build y2 at Grogar
+move y2 from Geepamoogle to Alpha (b2)
+move g1 from Twoshort to Yolonda (y3)
+move y1 from Geepamoogle to Beta (b2)
+move y1 from Grogar to Gobble (g2)
+build y2 at Geepamoogle
+build y3 at Gobble
+move y2 from Geepamoogle to Beta
+sacrifice g1 at Yolonda; build y3 at Grogar
+sacrifice y2 at Alpha; move y2 from Beta to Grogar; move y1 from Beta to Grogar; catastrophe yellow at Grogar
+build g1 at Twoshort
+move g2 from Geepamoogle to Alpha (b2)
+build g1 at Twoshort
+build y1 at Geepamoogle
+move g1 from Twoshort to Bluestar (b3)
+build g1 at Alpha
+move y1 from Gobble to Geepamoogle
+convert y3 to r3 at Geepamoogle
+build y2 at Geepamoogle
+convert g1 to b1 at Alpha
+build y2 at Gobble
+move y1 from Geepamoogle to Gobble
+sacrifice y2 at Geepamoogle; move y1 from Geepamoogle to Gobble; move y3 from Gobble to Bluestar
+build g1 at Alpha
+build g2 at Bluestar
+build y2 at Gobble; catastrophe yellow at Gobble
+move g2 from Bluestar to Yolonda (y2)
+build r1 at Geepamoogle
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Yolonda; build g3 at Twoshort

@@ -1,0 +1,16 @@
+Greo (0, b3y2) g3-
+Twoshort (1, b1r2) -g3
+build g1 at Greo
+build g1 at Twoshort
+move g1 from Greo to Loller (y1)
+convert g1 to y1 at Twoshort
+build g1 at Loller
+build g1 at Twoshort
+build g2 at Greo
+build y1 at Twoshort
+convert g2 to b2 at Greo
+move y1 from Twoshort to Grogar (g3)
+build g2 at Loller
+move g1 from Twoshort to Yolonda (y3)
+move b2 from Greo to Loller
+sacrifice g3 at Twoshort; build y2 at Grogar; build y2 at Grogar; build y3 at Twoshort

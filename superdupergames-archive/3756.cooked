@@ -1,0 +1,67 @@
+Zoltar (0, y2b1) g3-
+Keith (1, b2y1) -g3
+build g1 at Zoltar
+build g1 at Keith
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Keith
+build y2 at Zoltar
+move y1 from Keith to Wagtail (g3)
+convert y1 to r1 at Zoltar
+build g1 at Keith
+move r1 from Zoltar to Wagtail
+move y1 from Wagtail to Goaway (g2)
+build g1 at Zoltar
+convert g1 to y1 at Keith
+move y2 from Zoltar to Wagtail
+convert y1 to r1 at Keith
+convert g1 to y1 at Zoltar
+build g1 at Keith
+build g1 at Zoltar
+move g1 from Keith to Bend (y3)
+convert g1 to b1 at Zoltar
+build g1 at Keith
+convert y1 to r1 at Zoltar
+build g1 at Bend
+build g2 at Zoltar
+move g1 from Bend to Zoltar
+convert g3 to y3 at Zoltar
+sacrifice g3 at Keith; build g2 at Zoltar; build g3 at Bend; build g3 at Keith
+capture g2 at Zoltar
+move g1 from Bend to Zoltar; catastrophe green at Zoltar
+convert b1 to g1 at Zoltar
+move y1 from Goaway to Bend
+build g1 at Zoltar
+build y1 at Bend
+build y2 at Wagtail
+move y1 from Bend to Zoltar
+convert y3 to r3 at Zoltar
+sacrifice g3 at Bend; build y3 at Zoltar; build y3 at Bend; build r2 at Keith
+capture y3 at Zoltar
+move y1 from Bend to Zoltar; catastrophe yellow at Zoltar
+build r2 at Wagtail
+move r1 from Keith to Bend
+convert r3 to y3 at Zoltar
+move y3 from Bend to Greenway (g2)
+move g1 from Zoltar to Jacket (y2)
+convert g1 to b1 at Keith
+convert r1 to b1 at Zoltar
+move b1 from Keith to Bend
+move b1 from Zoltar to Jacket
+build g1 at Keith
+build g2 at Jacket
+move g1 from Keith to Bend
+build b2 at Jacket
+move y3 from Greenway to Wagtail
+build y1 at Wagtail; catastrophe yellow at Wagtail
+build g2 at Keith
+build g2 at Zoltar
+sacrifice g3 at Keith; build g3 at Keith; build g3 at Bend; build b2 at Bend
+move g1 from Jacket to Bend
+move g3 from Bend to Jacket
+sacrifice r2 at Wagtail; capture r1 at Bend; capture g1 at Bend
+move b1 from Bend to Zoltar
+sacrifice r1 at Bend; capture b1 at Zoltar
+move b2 from Bend to Zoltar
+sacrifice r1 at Wagtail; capture b2 at Zoltar
+sacrifice r2 at Keith; capture b1 at Jacket; capture b2 at Jacket
+sacrifice y3 at Zoltar; move b1 from Zoltar to Bend; move g1 from Bend to Keith; move g1 from Bend to Keith; catastrophe green at Keith

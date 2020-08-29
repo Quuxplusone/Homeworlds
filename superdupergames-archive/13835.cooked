@@ -1,0 +1,51 @@
+Twoflower (0, r2g3) b3-
+Pottytroll (1, b3g1) -y3
+build b1 at Twoflower
+build y1 at Pottytroll
+build b1 at Twoflower
+move y1 from Pottytroll to Pigtesticles (g2)
+convert b1 to y1 at Twoflower
+build y1 at Pottytroll
+build y2 at Twoflower
+build y2 at Pottytroll
+convert y2 to r2 at Twoflower
+convert y2 to b2 at Pottytroll
+build y2 at Twoflower
+move b2 from Pottytroll to Pigtesticles
+move r2 from Twoflower to Cmotdibbler (b1)
+convert y1 to r1 at Pottytroll
+convert y2 to g2 at Twoflower
+build r1 at Pottytroll
+build g1 at Twoflower
+move r1 from Pottytroll to Pigtesticles
+move g1 from Twoflower to Cmotdibbler
+move r1 from Pigtesticles to Cameltoe (b1)
+sacrifice g2 at Twoflower; build g1 at Cmotdibbler; build g2 at Cmotdibbler
+build b2 at Pigtesticles
+convert g2 to b2 at Cmotdibbler
+convert b2 to y2 at Pigtesticles
+build g2 at Cmotdibbler
+move y2 from Pigtesticles to Cameltoe
+convert g1 to y1 at Cmotdibbler
+convert y2 to g2 at Cameltoe
+move g1 from Cmotdibbler to Brainpick (g3)
+sacrifice y1 at Pigtesticles; move b2 from Pigtesticles to Cameltoe
+move g2 from Cmotdibbler to Zombietestes (y2)
+convert b2 to y2 at Cameltoe
+sacrifice g2 at Zombietestes; build b2 at Twoflower; build b2 at Cmotdibbler
+sacrifice g2 at Cameltoe; build r1 at Cameltoe; build r2 at Cameltoe
+sacrifice g1 at Brainpick; build r3 at Cmotdibbler
+build r3 at Pottytroll
+move b2 from Cmotdibbler to Poobag (g2)
+sacrifice y3 at Pottytroll; move r1 from Cameltoe to Twoflower; move r1 from Cameltoe to Twoflower; move r2 from Cameltoe to Twoflower; catastrophe red at Twoflower
+build b3 at Poobag
+build r1 at Pottytroll
+move r3 from Cmotdibbler to Poobag
+convert r1 to y1 at Pottytroll
+build y2 at Twoflower
+build y2 at Pottytroll
+sacrifice y2 at Twoflower; move r3 from Poobag to Pottytroll; move b3 from Poobag to Pottytroll
+capture r3 at Pottytroll
+sacrifice r2 at Cmotdibbler; capture r3 at Pottytroll; capture r3 at Pottytroll
+build r1 at Pottytroll; catastrophe red at Pottytroll
+convert b3 to r3 at Twoflower

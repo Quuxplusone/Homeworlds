@@ -1,0 +1,37 @@
+Wil (0, y2b1) g3-
+Deanthebean (1, b1y2) -g3
+build g1 at Wil
+build g1 at Deanthebean
+convert g1 to b1 at Wil
+convert g1 to r1 at Deanthebean
+build b2 at Wil
+build g1 at Deanthebean
+move b2 from Wil to G3 (g3)
+build g1 at Deanthebean
+build b2 at G3
+move g1 from Deanthebean to Y3 (y3)
+convert b2 to r2 at G3
+build g1 at Y3
+build g2 at Wil
+sacrifice g3 at Deanthebean; build g2 at Y3; build g2 at Deanthebean; build g3 at Deanthebean
+sacrifice g3 at Wil; build g3 at Wil; build b2 at G3; build b2 at Wil
+move g2 from Y3 to Wil
+convert g2 to r2 at Wil
+sacrifice r1 at Deanthebean; capture r2 at Wil
+sacrifice r2 at G3; capture r2 at Wil; capture g2 at Wil
+move g1 from Y3 to Wil
+convert g3 to r3 at Wil
+sacrifice g3 at Deanthebean; build g2 at Wil; build g3 at Deanthebean; build g3 at Y3
+capture g2 at Wil
+move g1 from Y3 to Wil; catastrophe green at Wil
+build b3 at G3
+convert g1 to r1 at Deanthebean
+convert b3 to y3 at G3
+build r1 at Deanthebean
+build b3 at G3
+build g1 at Deanthebean
+move b3 from G3 to G1 (g1)
+convert g2 to y2 at Deanthebean
+build b3 at G1
+move y2 from Deanthebean to B3 (b3)
+convert b3 to r3 at G1

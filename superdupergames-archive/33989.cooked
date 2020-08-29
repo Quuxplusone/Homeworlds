@@ -1,0 +1,95 @@
+Trydnt (0, b2y1) g3-
+Babamots (1, g3b1) -y3
+build g1 at Trydnt
+build y1 at Babamots
+convert g1 to y1 at Trydnt
+build y2 at Babamots
+build y2 at Trydnt
+convert y2 to g2 at Babamots
+move y1 from Trydnt to G3 (g3)
+convert y1 to r1 at Babamots
+build g1 at Trydnt
+move g2 from Babamots to Iconia (y2)
+build g1 at Trydnt
+build g1 at Iconia
+convert g1 to r1 at Trydnt
+move g2 from Iconia to Betazed (b3)
+convert g1 to b1 at Trydnt
+build g1 at Betazed
+build b1 at Trydnt
+convert g1 to y1 at Betazed
+move b1 from Trydnt to Y3 (y3)
+sacrifice g2 at Betazed; build y2 at Babamots; build y3 at Betazed
+convert b1 to g1 at Y3
+move y2 from Babamots to Kurl (b2)
+sacrifice g1 at Y3; build y3 at G3
+sacrifice g1 at Iconia; build y2 at Kurl
+build b1 at Trydnt
+convert y2 to g2 at Kurl
+move b1 from Trydnt to G3
+convert y3 to b3 at Betazed
+move y2 from Trydnt to Y3 (y3)
+move b3 from Betazed to Bajor (y2)
+move y1 from G3 to G2 (g2)
+build g1 at Kurl
+build g1 at Trydnt
+convert g1 to r1 at Kurl
+build r2 at Trydnt
+build r2 at Kurl
+move y3 from G3 to Kurl
+sacrifice g2 at Kurl; build r2 at Kurl; build r3 at Babamots
+sacrifice r2 at Trydnt; capture r2 at Kurl; capture r2 at Kurl
+sacrifice r3 at Babamots; capture r2 at Kurl; capture r2 at Kurl
+sacrifice y2 at Y3; move g1 from Trydnt to Y3 (y3); move b1 from G3 to Y2 (y2)
+move r2 from Kurl to Y3
+build r2 at Trydnt
+build r3 at Babamots
+sacrifice r2 at Trydnt; capture y2 at Kurl; capture r2 at Kurl
+capture g1 at Y3
+capture r1 at Kurl
+move r3 from Babamots to Y2
+move b1 from Y2 to G1 (g1)
+move r3 from Y2 to G1
+sacrifice b1 at G1
+build y2 at Babamots
+sacrifice y3 at Kurl; move y1 from G2 to Babamots; move y2 from Kurl to Babamots; move r2 from Kurl to Babamots; catastrophe yellow at Babamots
+sacrifice y1 at Betazed; move b3 from Bajor to Babamots
+sacrifice g3 at Trydnt; build r2 at Babamots; build r3 at Kurl; build r3 at Trydnt
+sacrifice r2 at Y3; capture r2 at Babamots; capture r2 at Babamots
+convert r3 to g3 at Trydnt
+convert r2 to y2 at Babamots
+build r2 at Trydnt
+build r2 at G1
+convert r1 to y1 at Trydnt
+convert r2 to g2 at Babamots
+convert r1 to g1 at Kurl
+move g2 from Babamots to Galorndon (b2)
+build g2 at Kurl
+build y1 at Babamots
+build y2 at Trydnt
+move y1 from Babamots to Iconia (y2)
+sacrifice y2 at Trydnt; move r2 from Trydnt to Y3; move b1 from Trydnt to G3 (g3)
+sacrifice g2 at Galorndon; build y2 at Babamots; build y3 at Babamots
+convert r3 to y3 at Kurl
+sacrifice y2 at Babamots; move r3 from G1 to Y3; move r2 from G1 to G3
+move r2 from Y3 to Kurl
+capture b1 at G3
+build y2 at Kurl
+build b1 at G3
+build r1 at Kurl
+build b2 at G3
+move y3 from Kurl to G3
+sacrifice y3 at Babamots; move b2 from G3 to Kurl; move b1 from G3 to Kurl; move b1 from G3 to Kurl; catastrophe blue at Kurl
+convert y1 to r1 at Trydnt
+sacrifice y1 at Iconia; move r2 from G3 to Iconia (y2)
+build g1 at Trydnt
+build g1 at Y3
+convert g1 to b1 at Trydnt
+build g1 at Y3
+move b1 from Trydnt to G3
+move g1 from Y3 to Trydnt
+convert g3 to r3 at Trydnt
+sacrifice y2 at Babamots; move r3 from Y3 to Trydnt; move g1 from Y3 to Trydnt
+sacrifice r3 at Trydnt; capture g1 at Trydnt; capture g1 at Trydnt
+sacrifice r2 at Iconia; capture r1 at Trydnt; capture g1 at Trydnt
+move y3 from G3 to Trydnt

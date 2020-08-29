@@ -1,0 +1,62 @@
+Pheonixian (0, b1y2) g3-
+Ts52 (1, y1b3) -g3
+build g1 at Pheonixian
+build g1 at Ts52
+convert g1 to b1 at Pheonixian
+build g1 at Ts52
+build b1 at Pheonixian
+move g1 from Ts52 to Grover (b2)
+convert b1 to y1 at Pheonixian
+convert g1 to y1 at Ts52
+build y2 at Pheonixian
+move y1 from Ts52 to Grover
+move y2 from Pheonixian to Eden (g3)
+build g1 at Ts52
+build b1 at Pheonixian
+convert g1 to r1 at Ts52
+move b1 from Pheonixian to Eden
+build g1 at Grover
+build b2 at Eden
+build r1 at Ts52
+convert b1 to r1 at Eden
+move r1 from Ts52 to Grover
+build b1 at Eden
+build r2 at Grover
+build r2 at Eden
+move g1 from Grover to Bigbird (y3)
+move b2 from Eden to Spinach (g2)
+move r1 from Grover to Bigbird
+build b2 at Spinach
+sacrifice g3 at Ts52; build r2 at Grover; build r3 at Ts52; build r3 at Bigbird
+move r2 from Eden to Pheonixian
+convert r3 to g3 at Ts52
+sacrifice g3 at Pheonixian; build b3 at Eden; build r3 at Pheonixian; build r3 at Eden
+move r3 from Bigbird to Spinach
+sacrifice y2 at Eden; move b2 from Spinach to Avocado (g3); move b2 from Spinach to Avocado
+build y2 at Grover
+build b3 at Eden
+build y2 at Grover
+convert b3 to y3 at Eden
+build g1 at Ts52
+build y3 at Eden
+sacrifice y1 at Grover; move r3 from Spinach to Avocado
+sacrifice y3 at Eden; move b2 from Avocado to Lemon (g2); move b2 from Avocado to Lemon; move b1 from Eden to Apple (g2)
+move r2 from Grover to Bigbird
+move r2 from Pheonixian to Icetower (b3)
+move y2 from Grover to Avocado
+convert b2 to g2 at Lemon
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Avocado; build y3 at Grover
+move y1 from Pheonixian to Eden
+move y3 from Grover to Icetower
+build b2 at Apple
+sacrifice r1 at Bigbird; capture r2 at Icetower
+sacrifice y3 at Eden; move b1 from Apple to Ts52; move b2 from Apple to Ts52; move b2 from Lemon to Ts52; catastrophe blue at Ts52
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build y3 at Icetower
+build b1 at Eden
+convert g2 to b2 at Grover
+move b1 from Eden to Lemon
+move b2 from Grover to Bigbird
+build b2 at Lemon
+sacrifice g3 at Ts52; build g2 at Bigbird; build g3 at Ts52; build b3 at Bigbird
+move r1 from Eden to Lemon
+sacrifice y2 at Grover; move b2 from Bigbird to Pheonixian; move b3 from Bigbird to Pheonixian; catastrophe blue at Pheonixian

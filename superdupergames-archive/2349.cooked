@@ -1,0 +1,62 @@
+Calavera (0, b2y3) g3-
+Uglyfoot (1, b2y1) -g3
+build g1 at Calavera
+build g1 at Uglyfoot
+convert g1 to y1 at Calavera
+build g1 at Uglyfoot
+build g1 at Calavera
+convert g1 to b1 at Uglyfoot
+move g1 from Calavera to Camelot (b1)
+move b1 from Uglyfoot to Industry (g3)
+build g1 at Calavera
+build g2 at Uglyfoot
+sacrifice g3 at Calavera; build g2 at Camelot; build g2 at Camelot; build g3 at Calavera
+sacrifice g3 at Uglyfoot; build b1 at Industry; build b2 at Industry; build g3 at Uglyfoot
+convert g1 to r1 at Calavera
+sacrifice b2 at Industry; convert g2 to r2 at Uglyfoot; convert b1 to y1 at Industry
+convert g2 to b2 at Camelot
+build y2 at Industry
+convert g2 to y2 at Camelot
+convert y2 to r2 at Industry
+move b2 from Camelot to Lyonesse (y3)
+move r2 from Uglyfoot to Lyonesse
+sacrifice r1 at Calavera; capture r2 at Lyonesse
+build y2 at Industry
+build y2 at Camelot
+move y2 from Industry to Camelot
+sacrifice y2 at Camelot; move g1 from Camelot to Industry; move g1 from Industry to Uglyfoot
+sacrifice r2 at Industry; capture y2 at Camelot; capture g1 at Uglyfoot
+convert b2 to g2 at Lyonesse
+sacrifice g1 at Uglyfoot; build y2 at Camelot
+move y1 from Calavera to Camelot; catastrophe yellow at Camelot
+convert g1 to r1 at Uglyfoot
+build g1 at Calavera
+build g1 at Uglyfoot
+convert g1 to b1 at Calavera
+move g1 from Uglyfoot to Industry
+move b1 from Calavera to Tintagel (g1)
+build g1 at Industry
+build g2 at Calavera
+build g2 at Uglyfoot
+build b1 at Tintagel
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build b2 at Industry; build r1 at Uglyfoot
+convert g2 to y2 at Calavera
+move b1 from Industry to Gateway (y1)
+sacrifice y2 at Calavera; move g2 from Lyonesse to Gateway; move g2 from Gateway to Industry; catastrophe green at Industry
+convert g2 to y2 at Uglyfoot
+convert b1 to y1 at Tintagel
+build y2 at Uglyfoot
+build y2 at Tintagel
+move y2 from Uglyfoot to Industry2 (g3)
+convert y1 to g1 at Tintagel
+build g1 at Uglyfoot
+build g2 at Calavera
+move g1 from Uglyfoot to Industry2
+move g1 from Tintagel to Lyonesse
+move g1 from Industry2 to Gateway
+build g2 at Lyonesse
+build g2 at Gateway
+convert g2 to r2 at Calavera
+sacrifice g2 at Gateway; build y1 at Uglyfoot; build y3 at Industry2
+move y2 from Tintagel to Lyonesse
+sacrifice y2 at Industry2; move y1 from Uglyfoot to Lyonesse; move y2 from Uglyfoot to Lyonesse; catastrophe yellow at Lyonesse

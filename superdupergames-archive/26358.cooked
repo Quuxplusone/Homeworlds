@@ -1,0 +1,44 @@
+Jaredl (0, y1b2) g3-
+Hellajoey (1, b2g3) -y3
+build g1 at Jaredl
+build y1 at Hellajoey
+move g1 from Jaredl to Blue3 (b3)
+build y1 at Hellajoey
+build g1 at Blue3
+move y1 from Hellajoey to Grun (g1)
+build g2 at Jaredl
+build y2 at Hellajoey
+build g2 at Blue3
+build y2 at Grun
+convert g2 to y2 at Blue3
+move y2 from Grun to Blooth (b3)
+move g1 from Blue3 to Blue2 (b2)
+convert y2 to g2 at Blooth
+sacrifice g3 at Jaredl; build g2 at Blue2; build g3 at Blue3; build g3 at Jaredl
+move y1 from Hellajoey to Reedle (r1)
+convert g3 to r3 at Blue3
+build g3 at Blooth
+sacrifice y2 at Blue3; move g2 from Blue2 to Blooth; move g1 from Blue2 to Blooth; catastrophe green at Blooth
+convert y3 to g3 at Hellajoey
+convert g2 to y2 at Jaredl
+convert y2 to r2 at Hellajoey
+build y2 at Jaredl
+build y2 at Grun
+move y2 from Jaredl to Blue3
+move y2 from Grun to Grande (g2)
+convert y2 to g2 at Jaredl
+build y2 at Grun
+sacrifice g3 at Jaredl; build g1 at Blue3; build g2 at Blue3; build g3 at Jaredl
+build y3 at Grande
+move g2 from Blue3 to Red1 (r1)
+move y3 from Grande to Red1
+convert g3 to y3 at Jaredl
+move y2 from Grun to Grown (g3)
+sacrifice y3 at Jaredl; move g2 from Red1 to Hellajoey; move g1 from Blue3 to Red1; move g1 from Red1 to Hellajoey; catastrophe green at Hellajoey
+move y3 from Red1 to Hellajoey
+move r3 from Blue3 to Jaredl
+build y3 at Grown
+build y3 at Blue3
+sacrifice y2 at Grown; move y1 from Grun to Blue3; move y1 from Reedle to Blue3; catastrophe yellow at Blue3
+build g1 at Blue3
+convert y3 to r3 at Hellajoey

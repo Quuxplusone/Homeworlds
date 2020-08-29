@@ -1,0 +1,30 @@
+Felix (0, b1y3) g3-
+Simon (1, b2r1) -g3
+build g1 at Felix
+build g1 at Simon
+convert g1 to b1 at Felix
+convert g1 to b1 at Simon
+build b2 at Felix
+build g1 at Simon
+move b2 from Felix to Raven (g2)
+convert g1 to y1 at Simon
+sacrifice g3 at Felix; build b2 at Raven; build b3 at Raven; build b3 at Felix
+build b3 at Simon
+convert b3 to g3 at Felix
+convert b3 to y3 at Simon
+convert b2 to y2 at Raven
+move y3 from Simon to G3 (g3)
+move b2 from Raven to Albatross (y3)
+move b1 from Simon to G3
+build g1 at Felix
+build y1 at G3
+move b1 from Felix to Rim (y2)
+convert y1 to r1 at G3
+convert g1 to r1 at Felix
+build r2 at G3
+sacrifice g3 at Felix; build b2 at Raven; build b3 at Albatross; build b3 at Rim
+sacrifice y3 at G3; move g3 from Simon to Albatross; move g3 from Albatross to Raven; move g3 from Raven to Felix
+sacrifice y2 at Raven; move b3 from Raven to Felix; move b3 from Rim to Felix
+sacrifice r2 at G3; capture b3 at Felix; capture b3 at Felix
+move b1 from Rim to Felix; catastrophe blue at Felix
+sacrifice r1 at G3; capture r1 at Felix

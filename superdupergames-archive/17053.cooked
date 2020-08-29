@@ -1,0 +1,48 @@
+Zackstack (0, r1b2) g3-
+Adambadura (1, g1b2) -r3
+build g1 at Zackstack
+build r1 at Adambadura
+convert g1 to r1 at Zackstack
+convert r1 to y1 at Adambadura
+build g1 at Zackstack
+build r1 at Adambadura
+build r2 at Zackstack
+build r2 at Adambadura
+convert r2 to y2 at Zackstack
+move r1 from Adambadura to Shipyard (g3)
+move y2 from Zackstack to Shipyard
+convert r2 to y2 at Adambadura
+sacrifice r1 at Zackstack; capture r1 at Shipyard
+build r1 at Adambadura
+build r2 at Shipyard
+move r1 from Adambadura to Drydocks (g3)
+build r2 at Shipyard
+move y1 from Adambadura to Drydocks
+sacrifice y2 at Shipyard; move r1 from Shipyard to Adambadura; move r2 from Shipyard to Adambadura
+sacrifice r3 at Adambadura; capture r1 at Adambadura; capture r2 at Adambadura
+build g1 at Zackstack
+build r2 at Drydocks
+convert g1 to y1 at Zackstack
+move r1 from Adambadura to Outpost (y3)
+build r3 at Shipyard
+build r3 at Adambadura
+convert g1 to b1 at Zackstack
+move r1 from Drydocks to Ontheway (y1)
+move b1 from Zackstack to Shipyard
+build r3 at Drydocks
+build y2 at Zackstack
+build y2 at Drydocks
+sacrifice y2 at Zackstack; move y1 from Zackstack to Shipyard; move r2 from Shipyard to Adambadura
+sacrifice r2 at Adambadura; capture r2 at Adambadura
+build g1 at Zackstack
+build r2 at Drydocks
+convert g1 to b1 at Zackstack
+build y2 at Drydocks
+build y3 at Shipyard
+sacrifice y2 at Drydocks; move r2 from Drydocks to Zackstack; move r2 from Drydocks to Zackstack
+build b1 at Shipyard
+capture b1 at Zackstack
+capture r2 at Zackstack
+move r1 from Outpost to Zackstack; catastrophe red at Zackstack
+build r1 at Shipyard
+sacrifice y2 at Drydocks; move r1 from Ontheway to Shipyard; move r2 from Adambadura to Shipyard; catastrophe red at Shipyard

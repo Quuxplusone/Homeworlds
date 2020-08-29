@@ -1,0 +1,53 @@
+Madwuher (0, y2b3) g3-
+Djanyreason (1, b1r3) -g3
+build g1 at Madwuher
+build g1 at Djanyreason
+move g1 from Madwuher to Edora (b1)
+convert g1 to y1 at Djanyreason
+build g1 at Madwuher
+build y1 at Djanyreason
+convert g1 to y1 at Edora
+convert y1 to b1 at Djanyreason
+build g1 at Madwuher
+build g1 at Djanyreason
+move g1 from Madwuher to Edora
+convert g1 to r1 at Djanyreason
+convert g1 to r1 at Madwuher
+build b2 at Djanyreason
+build g1 at Madwuher
+move b2 from Djanyreason to S1 (y2)
+build g1 at Edora
+build g2 at Djanyreason
+move g1 from Edora to Bologna (b2)
+sacrifice g3 at Djanyreason; build b2 at S1; build b3 at S1; build b3 at Djanyreason
+sacrifice g3 at Madwuher; build g2 at Bologna; build g2 at Edora; build g3 at Madwuher
+build g3 at Djanyreason
+build g3 at Edora
+move g3 from Djanyreason to S1
+convert g2 to y2 at Edora
+convert r1 to y1 at Djanyreason
+move y1 from Edora to S1
+move g3 from S1 to S2 (r3)
+sacrifice g3 at Edora; build y3 at Edora; build y3 at S1; build y3 at S1; catastrophe yellow at S1
+move b1 from Djanyreason to S3 (g2)
+build g3 at Edora
+sacrifice g3 at S2; build b2 at S3; build b2 at S3; build g3 at Djanyreason
+move y3 from Edora to Bologna
+build b3 at Djanyreason
+sacrifice g3 at Madwuher; build g3 at Madwuher; build r1 at Madwuher; build r1 at Madwuher
+move g3 from Djanyreason to S4 (r2)
+move r1 from Madwuher to Edora
+convert b3 to r3 at Djanyreason
+sacrifice g3 at Edora; build g3 at Edora; build y1 at Bologna; build r2 at Edora
+sacrifice y1 at Djanyreason; move y1 from Djanyreason to S4
+move r1 from Edora to Bologna
+build b3 at Djanyreason
+sacrifice g3 at Madwuher; build r2 at Bologna; build r3 at Edora; build g3 at Madwuher
+convert b3 to y3 at Djanyreason
+sacrifice y2 at Edora; move r1 from Bologna to Djanyreason; move r2 from Bologna to Djanyreason; catastrophe red at Djanyreason
+sacrifice y3 at Djanyreason; move b2 from S3 to Edora; move b2 from S3 to Edora; move b1 from S3 to Edora; catastrophe blue at Edora
+move y3 from Bologna to Djanyreason
+move y1 from S4 to Djanyreason
+sacrifice r1 at Madwuher; capture b3 at Djanyreason
+sacrifice g3 at S4; build y1 at Djanyreason; build y2 at Djanyreason; build g1 at Djanyreason; catastrophe yellow at Djanyreason
+sacrifice g2 at Bologna; build b1 at Djanyreason; build b1 at Djanyreason; catastrophe blue at Djanyreason

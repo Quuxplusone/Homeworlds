@@ -1,0 +1,5 @@
+Mandrel (0, r2b1) g3-
+Pgadey (1, g3r2) -b3
+build g1 at Mandrel
+convert b3 to g3 at Pgadey
+convert g1 to y1 at Mandrel

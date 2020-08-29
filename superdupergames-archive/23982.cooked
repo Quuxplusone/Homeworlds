@@ -1,0 +1,23 @@
+Goulo (0, r1b2) g3-
+Subhan64 (1, y3b2) -g3
+build g1 at Goulo
+build g1 at Subhan64
+convert g1 to y1 at Goulo
+build g1 at Subhan64
+build y1 at Goulo
+move g1 from Subhan64 to Kermie (g1)
+build g2 at Goulo
+sacrifice g3 at Subhan64; build g2 at Kermie; build g2 at Subhan64; build g3 at Subhan64
+sacrifice g3 at Goulo; build g3 at Goulo; build g3 at Goulo; build y1 at Goulo
+convert g2 to y2 at Subhan64
+move g3 from Goulo to Mirtelego (b3)
+sacrifice y2 at Subhan64; move g2 from Kermie to Scooter (g2); move g3 from Subhan64 to Elmo (r1)
+move y1 from Goulo to Mirtelego
+sacrifice g2 at Scooter; build g2 at Subhan64; build g2 at Subhan64
+sacrifice g3 at Goulo; build g3 at Goulo; build y2 at Goulo; build y2 at Mirtelego
+convert g2 to y2 at Subhan64
+sacrifice g3 at Goulo; build g2 at Mirtelego; build g3 at Goulo; build y3 at Mirtelego
+sacrifice g2 at Subhan64; build g2 at Elmo; build y3 at Subhan64
+sacrifice y2 at Goulo; move y1 from Mirtelego to Elmo; move y1 from Elmo to Subhan64; catastrophe yellow at Subhan64
+sacrifice g3 at Elmo; build g3 at Subhan64
+sacrifice y2 at Mirtelego; move g2 from Mirtelego to Subhan64; move g3 from Mirtelego to Subhan64; catastrophe green at Subhan64

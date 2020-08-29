@@ -1,0 +1,43 @@
+Tomclem (0, y1b2) g3-
+Bhorner (1, y1g3) -y3
+build g1 at Tomclem
+build y1 at Bhorner
+convert g3 to y3 at Tomclem
+move y1 from Bhorner to Stab (g2)
+build y2 at Tomclem
+build y2 at Stab
+convert y2 to r2 at Tomclem
+move y1 from Stab to Rush (b3)
+build g1 at Tomclem
+build y2 at Stab
+move g1 from Tomclem to Rush
+move y2 from Stab to Hope (g3)
+sacrifice r2 at Tomclem; capture y1 at Rush
+move y2 from Stab to Damn (b3)
+convert y3 to r3 at Tomclem
+convert y2 to b2 at Damn
+build y2 at Rush
+build y2 at Hope
+move y1 from Rush to Land (g2)
+sacrifice b2 at Damn; convert y2 to g2 at Hope; convert y3 to r3 at Bhorner
+build g1 at Tomclem
+build r1 at Bhorner
+move g1 from Tomclem to Fear (y3)
+move y2 from Hope to Land
+build g2 at Tomclem
+sacrifice r1 at Bhorner; capture y1 at Land
+build g3 at Rush
+build r1 at Bhorner
+build r1 at Tomclem
+move y2 from Land to Hope
+convert g3 to y3 at Rush
+sacrifice g2 at Hope; build y2 at Hope; build y3 at Land
+move y2 from Rush to Gold (g2)
+move y1 from Land to Layaway (g3)
+move g2 from Tomclem to Layaway
+sacrifice y3 at Land; move y2 from Hope to Tomclem; move y2 from Hope to Tomclem; move y1 from Layaway to Tomclem; catastrophe yellow at Tomclem
+build g2 at Rush
+move r1 from Bhorner to Tomclem
+sacrifice r1 at Tomclem; capture r1 at Tomclem
+build r1 at Bhorner
+sacrifice y2 at Gold; move r1 from Tomclem to Bhorner; move r3 from Tomclem to Bhorner; catastrophe red at Bhorner

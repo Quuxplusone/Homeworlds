@@ -1,0 +1,46 @@
+Salmonax (0, g3r2) b3-
+Dethdukk (1, b1r3) -g3
+build b1 at Salmonax
+build g1 at Dethdukk
+convert b1 to y1 at Salmonax
+build g1 at Dethdukk
+build y1 at Salmonax
+convert g1 to y1 at Dethdukk
+build y2 at Salmonax
+build y2 at Dethdukk
+move y1 from Salmonax to Samandmax (g1)
+move y2 from Dethdukk to Frontier (g2)
+build y2 at Samandmax
+build y3 at Dethdukk
+convert y1 to b1 at Salmonax
+move y1 from Dethdukk to Beyond (b2)
+convert b1 to r1 at Salmonax
+sacrifice g3 at Dethdukk; build y1 at Frontier; build y3 at Dethdukk; build y3 at Beyond
+move y2 from Samandmax to Frontier
+build g1 at Dethdukk
+sacrifice r1 at Salmonax; capture y2 at Frontier
+build g2 at Dethdukk
+move y2 from Frontier to Dethdukk
+convert y3 to r3 at Dethdukk
+convert y2 to g2 at Dethdukk; catastrophe green at Dethdukk
+convert y3 to g3 at Beyond
+build y2 at Samandmax
+build y3 at Frontier
+build y3 at Frontier; catastrophe yellow at Frontier
+build y1 at Beyond
+build y2 at Salmonax
+move y1 from Beyond to Samandmax
+sacrifice y2 at Salmonax; move y2 from Samandmax to Scoobydoo (g2); move y1 from Samandmax to Scoobydoo
+build y2 at Samandmax
+convert y2 to r2 at Salmonax
+sacrifice g3 at Beyond; build y2 at Samandmax; build y3 at Beyond; build y3 at Dethdukk
+move y1 from Scoobydoo to Samandmax; catastrophe yellow at Samandmax
+convert y3 to g3 at Dethdukk
+build y1 at Scoobydoo
+move y3 from Beyond to Stone (g1)
+build b1 at Salmonax
+move r3 from Dethdukk to Scoobydoo
+build y1 at Scoobydoo
+build r1 at Scoobydoo
+move y1 from Scoobydoo to Dethdukk
+capture y2 at Scoobydoo

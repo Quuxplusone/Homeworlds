@@ -1,0 +1,11 @@
+Mikeyarrum (0, b3r2) g3-
+Nmccoy (1, y1b2) -g3
+build g1 at Mikeyarrum
+build g1 at Nmccoy
+convert g1 to y1 at Mikeyarrum
+convert g1 to y1 at Nmccoy
+build y2 at Mikeyarrum
+move y1 from Nmccoy to Meganium (g3)
+build y2 at Mikeyarrum
+build y2 at Meganium
+move y1 from Mikeyarrum to Ena (g1)

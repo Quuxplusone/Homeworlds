@@ -1,0 +1,62 @@
+Twoshort (0, r1b3) g3-
+Jeep (1, g1b3) -y3
+build g1 at Twoshort
+build y1 at Jeep
+build g1 at Twoshort
+build y1 at Jeep
+convert g1 to y1 at Twoshort
+convert y1 to g1 at Jeep
+move g1 from Twoshort to Yellonia (y2)
+move g1 from Jeep to Yellonia
+build g2 at Twoshort
+convert y1 to r1 at Jeep
+build g2 at Yellonia
+build r1 at Jeep
+sacrifice g3 at Twoshort; build g2 at Yellonia; build g3 at Twoshort; build g3 at Twoshort; catastrophe green at Yellonia
+build r2 at Jeep
+convert g2 to r2 at Twoshort
+convert r2 to y2 at Jeep
+convert g3 to y3 at Twoshort
+build r2 at Jeep
+move r2 from Twoshort to Grogar (g2)
+convert r2 to g2 at Jeep
+build g1 at Twoshort
+move r1 from Jeep to Thumb (g2)
+move g1 from Twoshort to Yolonda (y2)
+build r2 at Thumb
+build g1 at Twoshort
+build r2 at Jeep
+move y3 from Twoshort to Thumb
+build r3 at Thumb
+sacrifice r2 at Grogar; capture r3 at Thumb; capture r2 at Thumb
+sacrifice g2 at Jeep; build r2 at Thumb; build r3 at Jeep; catastrophe red at Thumb
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g2 at Twoshort; build g3 at Twoshort
+move r3 from Jeep to Yolonda
+sacrifice g2 at Twoshort; build g2 at Yolonda; build g3 at Twoshort
+capture g2 at Yolonda
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Yolonda; build y1 at Thumb; catastrophe green at Yolonda
+convert r2 to g2 at Jeep
+sacrifice y3 at Thumb; move y1 from Twoshort to Thumb; move y1 from Thumb to Jeep; move y1 from Thumb to Jeep; catastrophe yellow at Jeep
+convert g2 to y2 at Jeep
+convert g3 to y3 at Twoshort
+move r3 from Yolonda to Jeep
+build g1 at Twoshort
+convert r3 to g3 at Jeep
+move g1 from Twoshort to Yolonda (y2)
+build y1 at Jeep
+sacrifice y3 at Twoshort; move g1 from Twoshort to Yolonda; move g1 from Yolonda to Jeep; move g1 from Yolonda to Jeep; catastrophe green at Jeep
+convert y1 to g1 at Jeep
+build g1 at Twoshort
+build g1 at Jeep
+convert g3 to y3 at Twoshort
+build g2 at Jeep
+build g2 at Twoshort
+move g1 from Jeep to Mover (y2)
+convert g2 to b2 at Twoshort
+build g2 at Mover
+build b1 at Twoshort
+sacrifice g2 at Jeep; build r1 at Jeep; build r2 at Jeep
+build g2 at Twoshort
+build g2 at Jeep
+move b2 from Twoshort to Rosie (r2)
+convert r1 to b1 at Jeep

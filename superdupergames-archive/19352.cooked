@@ -1,0 +1,56 @@
+Dreskyn (0, b2r1) g3-
+Ts52 (1, y1b3) -g3
+build g1 at Dreskyn
+build g1 at Ts52
+convert g1 to y1 at Dreskyn
+convert g1 to r1 at Ts52
+build y1 at Dreskyn
+build r1 at Ts52
+build y2 at Dreskyn
+build r2 at Ts52
+convert y2 to r2 at Dreskyn
+move r1 from Ts52 to Oscar (g2)
+build y2 at Dreskyn
+convert r2 to y2 at Ts52
+move y1 from Dreskyn to Alpha (g3)
+build r2 at Ts52
+move r2 from Dreskyn to Alpha
+move y2 from Ts52 to Oscar
+move r2 from Alpha to Oscar
+capture r2 at Oscar
+build y2 at Dreskyn
+build y3 at Oscar
+build y3 at Alpha
+build r2 at Ts52
+sacrifice y3 at Alpha; move y1 from Dreskyn to Alpha; move y1 from Alpha to Oscar; move y1 from Alpha to Oscar; catastrophe yellow at Oscar
+build r3 at Oscar
+build g1 at Dreskyn
+convert r2 to y2 at Ts52
+build g1 at Dreskyn
+move y2 from Ts52 to Oscar
+move g1 from Dreskyn to Bob (b3)
+build r2 at Ts52
+build g1 at Bob
+move r2 from Oscar to Bob
+convert y2 to g2 at Dreskyn
+capture g1 at Bob
+sacrifice g2 at Dreskyn; build g2 at Bob; build g2 at Bob; catastrophe green at Bob
+build r3 at Oscar
+convert g3 to r3 at Dreskyn
+move r3 from Oscar to Bob
+convert r3 to g3 at Dreskyn
+convert r3 to g3 at Bob
+build y1 at Dreskyn
+build r3 at Bob
+move g1 from Dreskyn to Hope (y3)
+move r3 from Oscar to Hope
+build g1 at Dreskyn
+capture g1 at Hope
+build y1 at Dreskyn
+build r3 at Hope
+move g1 from Dreskyn to Ouch (y3)
+sacrifice y2 at Oscar; move r3 from Bob to Dreskyn; move r3 from Hope to Dreskyn
+capture r3 at Dreskyn
+sacrifice r2 at Ts52; capture r3 at Dreskyn; capture g3 at Dreskyn
+convert y2 to r2 at Dreskyn; catastrophe red at Dreskyn
+sacrifice r2 at Ts52; capture y1 at Dreskyn; capture y1 at Dreskyn

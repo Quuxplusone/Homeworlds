@@ -1,0 +1,51 @@
+Babamots (0, b2y1) g3-
+Smokeytroll42 (1, r1b2) -g3
+build g1 at Babamots
+build g1 at Smokeytroll42
+convert g1 to r1 at Babamots
+convert g1 to r1 at Smokeytroll42
+build r2 at Babamots
+build r2 at Smokeytroll42
+build r2 at Babamots
+convert r1 to y1 at Smokeytroll42
+move r2 from Babamots to Galorndon (b3)
+build y1 at Smokeytroll42
+convert r2 to y2 at Babamots
+build y2 at Smokeytroll42
+move y2 from Babamots to Vulcan (g3)
+move y2 from Smokeytroll42 to Risa (b3)
+build r1 at Babamots
+move y1 from Smokeytroll42 to Risa
+move r1 from Babamots to Omicrontheta (y3)
+move r2 from Smokeytroll42 to Omicrontheta
+sacrifice g3 at Babamots; build r2 at Galorndon; build r3 at Omicrontheta; build r3 at Babamots
+sacrifice g3 at Smokeytroll42; build r3 at Omicrontheta; build y2 at Risa; build y3 at Smokeytroll42; catastrophe red at Omicrontheta
+build y3 at Vulcan
+move y1 from Risa to Ceti (g2)
+pass
+convert y3 to g3 at Smokeytroll42
+sacrifice y2 at Vulcan; move r2 from Galorndon to Ceti; move r2 from Ceti to Risa
+sacrifice g3 at Smokeytroll42; build y2 at Ceti; build y3 at Smokeytroll42; build y3 at Risa
+sacrifice r2 at Galorndon; capture y2 at Risa; capture y2 at Risa
+convert y3 to g3 at Smokeytroll42
+convert y2 to g2 at Risa
+convert y3 to r3 at Risa
+sacrifice g2 at Risa; build r1 at Risa; build r2 at Risa; catastrophe red at Risa
+build g1 at Smokeytroll42
+convert r3 to g3 at Babamots
+move g1 from Smokeytroll42 to Mintakaiii (b3)
+build r1 at Babamots
+build y2 at Smokeytroll42
+build r2 at Babamots
+move y1 from Ceti to Qonos (b3)
+move y2 from Risa to Ceti
+move y2 from Ceti to Mintakaiii
+build y3 at Ceti
+sacrifice y2 at Smokeytroll42; move y1 from Qonos to Ceti; move y2 from Mintakaiii to Ceti; catastrophe yellow at Ceti
+move r2 from Babamots to Mintakaiii
+sacrifice g1 at Mintakaiii; build g1 at Smokeytroll42
+move r1 from Babamots to Vulcan
+build y1 at Smokeytroll42
+sacrifice g3 at Babamots; build r2 at Mintakaiii; build r2 at Vulcan; build r3 at Babamots
+move g1 from Smokeytroll42 to Arrakis (y3)
+build r3 at Vulcan

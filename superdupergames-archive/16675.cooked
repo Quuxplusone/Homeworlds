@@ -1,0 +1,28 @@
+Goulo (0, b1g2) y3-
+Shmil1 (1, g1b2) -r3
+build y1 at Goulo
+build r1 at Shmil1
+build y1 at Goulo
+convert r1 to y1 at Shmil1
+convert y1 to r1 at Goulo
+build r1 at Shmil1
+move y1 from Goulo to Rubeno (r3)
+move r3 from Shmil1 to Rubeno
+move y1 from Rubeno to Sangero (r2)
+build y1 at Shmil1
+build y2 at Goulo
+move y1 from Shmil1 to Rubeno
+build r1 at Goulo
+build y2 at Shmil1
+sacrifice y2 at Goulo; move r1 from Goulo to Rubeno; move r1 from Goulo to Rubeno; catastrophe red at Rubeno
+sacrifice y2 at Shmil1; move r1 from Shmil1 to Velka (g3); move r1 from Velka to Goulo
+convert y3 to r3 at Goulo
+build r1 at Goulo
+convert r3 to y3 at Goulo
+convert r1 to y1 at Goulo
+move y1 from Sangero to Smeraldo (g3)
+build y2 at Goulo
+convert y3 to g3 at Goulo
+convert y2 to g2 at Goulo
+convert g3 to r3 at Goulo
+sacrifice g2 at Goulo; build r1 at Goulo; build r1 at Goulo; catastrophe red at Goulo

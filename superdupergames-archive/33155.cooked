@@ -1,0 +1,37 @@
+Ajo (0, b1r3) g3-
+Goulo (1, r2b3) -g3
+build g1 at Ajo
+build g1 at Goulo
+convert g3 to y3 at Ajo
+convert g3 to y3 at Goulo
+build y1 at Ajo
+build y1 at Goulo
+move y1 from Ajo to Alpha (g2)
+move y1 from Goulo to Blueto (b1)
+build y1 at Ajo
+build y2 at Goulo
+build y2 at Alpha
+convert y2 to r2 at Goulo
+convert y1 to b1 at Ajo
+build r1 at Goulo
+build b2 at Ajo
+convert r2 to b2 at Goulo
+move b2 from Ajo to Alpha
+move b2 from Goulo to Verdeto (g1)
+build g2 at Ajo
+convert b2 to g2 at Verdeto
+build g3 at Ajo
+build g3 at Goulo
+move g2 from Ajo to Beta (b2)
+build g3 at Verdeto
+sacrifice g3 at Ajo; build g3 at Ajo; build b2 at Ajo; build b3 at Alpha
+move y1 from Blueto to Alpha
+convert b2 to r2 at Alpha
+move y1 from Alpha to Verdeto
+sacrifice g3 at Ajo; build g3 at Ajo; build b1 at Alpha; build r1 at Alpha
+move g3 from Verdeto to Flavo (y2)
+move b3 from Alpha to Verdeto
+sacrifice g2 at Verdeto; build g2 at Flavo; build y1 at Goulo
+sacrifice r1 at Alpha; capture y1 at Verdeto
+move y1 from Goulo to Rugheto (r1)
+sacrifice g3 at Ajo; build g3 at Ajo; build y2 at Ajo; build y3 at Verdeto

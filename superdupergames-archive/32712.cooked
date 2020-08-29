@@ -1,0 +1,43 @@
+Wil (0, b2y1) g3-
+Felix (1, r2b3) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to r1 at Wil
+convert g1 to y1 at Felix
+build r1 at Wil
+build y1 at Felix
+move r1 from Wil to G3 (g3)
+convert y1 to r1 at Felix
+build r2 at Wil
+move r1 from Felix to Rim (g1)
+convert r1 to y1 at Wil
+build y2 at Felix
+build y2 at Wil
+move y1 from Felix to Rim
+move y1 from Wil to G3
+build g1 at Felix
+build r1 at Wil
+build r2 at Rim
+build r3 at G3
+move r1 from Rim to Rom (b3)
+move r3 from G3 to Rim
+sacrifice g1 at Felix; build r3 at Rom
+build r3 at G3
+convert r3 to y3 at Rom
+sacrifice r2 at Wil; capture r2 at Rim; capture y1 at Rim
+build g1 at Felix
+build y2 at Rim
+build y3 at Felix
+build y3 at G3
+convert y3 to r3 at Felix
+convert y2 to b2 at Wil
+sacrifice g3 at Felix; build y2 at Rom; build y3 at Felix; build r2 at Rom
+sacrifice y3 at G3; move r1 from G3 to Rim; move r1 from Rim to Felix; move r2 from Rim to Felix; catastrophe red at Felix
+convert y3 to g3 at Rom
+build y3 at G3
+build y3 at Rom
+move y1 from G3 to G2 (g2)
+build g1 at Rom
+sacrifice y3 at G3; move y1 from Rim to Felix; move y1 from G2 to Felix; move r3 from Rim to Felix; catastrophe yellow at Felix
+sacrifice y3 at Rom
+capture g1 at Felix

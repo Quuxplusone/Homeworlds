@@ -1,0 +1,46 @@
+Kalimantan (0, r3g2) b3-
+Ts52 (1, y1b2) -g3
+build b1 at Kalimantan
+build g1 at Ts52
+build b1 at Kalimantan
+convert g1 to b1 at Ts52
+convert b1 to y1 at Kalimantan
+build g1 at Ts52
+convert b1 to g1 at Kalimantan
+move g1 from Ts52 to Gonzo (b3)
+build b1 at Kalimantan
+move b1 from Ts52 to Oscar (g3)
+convert b1 to r1 at Kalimantan
+convert b1 to r1 at Oscar
+move r1 from Kalimantan to Dagoba (g1)
+build g2 at Ts52
+build g2 at Kalimantan
+build g3 at Gonzo
+build b1 at Kalimantan
+convert g3 to y3 at Gonzo
+move g2 from Kalimantan to Dagoba
+build g3 at Gonzo
+move y1 from Kalimantan to Dagoba
+convert g2 to b2 at Ts52
+convert g1 to y1 at Kalimantan
+sacrifice g3 at Gonzo; build g1 at Ts52; build g2 at Ts52; build g3 at Gonzo
+build y2 at Kalimantan
+move g1 from Ts52 to Bigbird (y3)
+move r1 from Dagoba to Bigbird
+sacrifice r1 at Oscar; capture r1 at Bigbird
+move y1 from Dagoba to Yavin (g3)
+move y3 from Gonzo to Dagoba
+sacrifice g2 at Dagoba; build y2 at Yavin; build y2 at Yavin
+sacrifice g3 at Gonzo; build g2 at Bigbird; build g3 at Gonzo; build y3 at Dagoba
+sacrifice y2 at Kalimantan; move y2 from Yavin to Ts52; move y2 from Yavin to Ts52
+convert g3 to r3 at Ts52
+build y2 at Yavin
+sacrifice g3 at Gonzo; build g3 at Gonzo; build g3 at Ts52; build r1 at Bigbird
+move y1 from Yavin to Ts52; catastrophe yellow at Ts52
+sacrifice y3 at Dagoba; move g3 from Gonzo to Dagoba; move g3 from Dagoba to Kalimantan; move y3 from Dagoba to Kalimantan
+capture g3 at Kalimantan
+sacrifice r3 at Ts52; capture g3 at Kalimantan; capture b3 at Kalimantan; capture y1 at Kalimantan
+capture y1 at Kalimantan
+sacrifice g3 at Kalimantan; build y1 at Kalimantan; build y1 at Kalimantan; build b1 at Kalimantan; catastrophe yellow at Kalimantan
+capture b1 at Kalimantan
+build b1 at Kalimantan; catastrophe blue at Kalimantan

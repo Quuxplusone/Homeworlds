@@ -1,0 +1,34 @@
+Grissom (0, y2b1) g3-
+Hellajoey (1, b3y1) -g3
+build g1 at Grissom
+build g1 at Hellajoey
+move g1 from Grissom to Narnia (b3)
+move g1 from Hellajoey to Blubot (b2)
+convert g1 to y1 at Narnia
+build g1 at Hellajoey
+build g1 at Grissom
+build g2 at Blubot
+move g1 from Grissom to Narnia
+convert g1 to y1 at Blubot
+build g1 at Grissom
+build y2 at Blubot
+move g1 from Grissom to Telmar (b3)
+move y2 from Blubot to Hellajoey
+build y2 at Narnia
+build y3 at Blubot
+sacrifice y2 at Narnia; move g1 from Narnia to Blubot; move g1 from Blubot to Hellajoey
+convert g1 to r1 at Hellajoey
+build g1 at Hellajoey
+convert g3 to r3 at Hellajoey
+build g2 at Grissom
+capture g1 at Hellajoey
+sacrifice g3 at Grissom; build g2 at Hellajoey; build g3 at Grissom; build g3 at Telmar
+build g3 at Blubot
+convert g2 to y2 at Hellajoey
+capture y2 at Hellajoey
+sacrifice g3 at Grissom; build g2 at Hellajoey; build y3 at Narnia; build g3 at Grissom
+move g3 from Blubot to Narnia
+sacrifice y3 at Narnia; move y1 from Narnia to Blubot; move y1 from Blubot to Hellajoey; move g2 from Grissom to Kalormen (y3); catastrophe yellow at Hellajoey
+sacrifice y1 at Blubot; move g3 from Narnia to Grissom
+convert g3 to r3 at Grissom
+sacrifice r1 at Hellajoey; capture r3 at Grissom

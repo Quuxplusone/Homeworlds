@@ -1,0 +1,60 @@
+Felix (0, b2r3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Felix
+build g1 at Ts52
+convert g1 to y1 at Felix
+convert g1 to y1 at Ts52
+build y2 at Felix
+build y2 at Ts52
+move y1 from Felix to Out (g1)
+move y1 from Ts52 to Kermit (g3)
+build g1 at Felix
+build g1 at Ts52
+convert g1 to b1 at Felix
+convert g1 to b1 at Ts52
+move b1 from Felix to Out
+move b1 from Ts52 to Kermit
+build g1 at Felix
+move y2 from Ts52 to Gonzo (b3)
+build y2 at Out
+build y3 at Kermit
+build y3 at Felix
+move y1 from Kermit to Oscar (g1)
+convert y1 to r1 at Out
+build g2 at Ts52
+sacrifice y3 at Felix; move g3 from Felix to Out; move g3 from Out to Kermit; move g3 from Kermit to Ts52
+move y3 from Kermit to Ts52
+sacrifice r1 at Out; capture y3 at Ts52
+convert g2 to r2 at Ts52
+sacrifice g3 at Ts52; build y1 at Ts52; build y3 at Ts52; build y3 at Felix; catastrophe yellow at Ts52
+build g2 at Ts52
+build b1 at Out
+sacrifice y1 at Oscar; move r2 from Ts52 to Out
+sacrifice y2 at Out; move b1 from Out to In (y3); move b1 from Out to In
+convert g2 to y2 at Ts52
+move b1 from In to Integer (g1)
+sacrifice y2 at Gonzo; move r2 from Out to In; move b1 from Kermit to Integer
+move b1 from In to Remote (g1)
+move r2 from In to Remote
+sacrifice y2 at Felix; move b1 from Remote to Ts52; move b1 from Integer to Brink (g3)
+sacrifice r2 at Remote; capture b1 at Ts52
+build b2 at Brink
+move b1 from Ts52 to Brink
+convert b2 to r2 at Brink
+convert b1 to r1 at Brink
+capture r1 at Brink
+convert b1 to r1 at Integer
+build b1 at Brink
+move g3 from Ts52 to Brink
+sacrifice y3 at Felix; move b1 from Brink to Ts52; move b1 from Brink to Ts52; move r2 from Brink to Ingot (b1)
+sacrifice r1 at Integer; capture b1 at Ts52
+convert r2 to b2 at Ingot
+convert b1 to r1 at Ts52
+convert b2 to g2 at Ingot
+capture b1 at Ts52
+build g1 at Felix
+sacrifice y2 at Ts52; move g3 from Brink to Ingot; move g3 from Ingot to Felix
+convert g1 to y1 at Felix
+capture y1 at Felix
+build g1 at Felix
+build g1 at Felix; catastrophe green at Felix

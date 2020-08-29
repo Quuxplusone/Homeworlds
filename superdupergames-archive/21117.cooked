@@ -1,0 +1,57 @@
+Goulo (0, b3r2) g3-
+Agentofchaos (1, r1b2) -g3
+build g1 at Goulo
+build g1 at Agentofchaos
+convert g1 to y1 at Goulo
+convert g1 to y1 at Agentofchaos
+build g1 at Goulo
+build g1 at Agentofchaos
+convert g1 to r1 at Goulo
+convert g1 to r1 at Agentofchaos
+build r2 at Goulo
+build r2 at Agentofchaos
+move r2 from Goulo to Smeraldeto (g1)
+convert r1 to g1 at Agentofchaos
+convert r1 to b1 at Goulo
+convert g1 to b1 at Agentofchaos
+build g1 at Goulo
+move r2 from Agentofchaos to Paralandroid (y3)
+convert g1 to r1 at Goulo
+build g1 at Agentofchaos
+build g1 at Goulo
+build g2 at Agentofchaos
+build g2 at Goulo
+move g2 from Agentofchaos to Paralandroid
+move g1 from Goulo to Citroneto (y1)
+build y2 at Agentofchaos
+build y2 at Goulo
+move y2 from Agentofchaos to Luvarola (b3)
+sacrifice g3 at Goulo; build g2 at Goulo; build g3 at Goulo; build g3 at Citroneto
+sacrifice y2 at Luvarola; move g2 from Paralandroid to Citroneto; move g2 from Citroneto to Goulo; catastrophe green at Goulo
+move y1 from Goulo to Smeraldeto
+build y2 at Agentofchaos
+sacrifice g3 at Citroneto; build y2 at Smeraldeto; build y3 at Goulo; build y3 at Goulo
+move y2 from Agentofchaos to Dragonfeld (r3)
+move y3 from Goulo to Mirteleto (b1)
+move r2 from Paralandroid to Citroneto
+move g1 from Citroneto to Citronego (y3)
+sacrifice g1 at Agentofchaos; build r1 at Citroneto
+convert r1 to g1 at Goulo
+build g2 at Agentofchaos
+sacrifice g1 at Citronego; build y3 at Mirteleto
+convert b1 to r1 at Agentofchaos
+build r3 at Smeraldeto
+move r1 from Agentofchaos to Dragonfeld
+move r3 from Smeraldeto to Smeraldego (g3)
+move r1 from Dragonfeld to Doompulse (g1)
+build g2 at Goulo
+sacrifice y2 at Dragonfeld; move r1 from Citroneto to Goulo; move r2 from Citroneto to Goulo
+sacrifice r2 at Smeraldeto; capture r1 at Goulo; capture r2 at Goulo
+convert g2 to y2 at Agentofchaos
+sacrifice y2 at Goulo; move r2 from Goulo to Doompulse; move g1 from Goulo to Mirteleto
+build r2 at Doompulse
+sacrifice g2 at Goulo; build r3 at Doompulse; build r3 at Smeraldego; catastrophe red at Doompulse
+convert y2 to r2 at Agentofchaos
+sacrifice y2 at Smeraldeto; move r3 from Smeraldego to Agentofchaos; move r3 from Smeraldego to Agentofchaos; catastrophe red at Agentofchaos
+build g1 at Agentofchaos
+move y3 from Mirteleto to Agentofchaos

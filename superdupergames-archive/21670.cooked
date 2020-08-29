@@ -1,0 +1,43 @@
+Dlwillson (0, y3b1) g3-
+Radio414 (1, b2r1) -g3
+build g1 at Dlwillson
+build g1 at Radio414
+convert g1 to b1 at Dlwillson
+build g1 at Radio414
+build b1 at Dlwillson
+convert g3 to b3 at Radio414
+build g1 at Dlwillson
+build b2 at Radio414
+convert g3 to y3 at Dlwillson
+convert b2 to y2 at Radio414
+move b1 from Dlwillson to Frog (g2)
+build g2 at Radio414
+move b1 from Dlwillson to Toad (g2)
+move g1 from Radio414 to Snail (b3)
+build g3 at Dlwillson
+build g3 at Snail
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build b2 at Toad; build b2 at Frog
+sacrifice g3 at Snail; build g3 at Snail; build g3 at Snail; build y1 at Radio414
+sacrifice y3 at Dlwillson; move g1 from Dlwillson to Frog; move g1 from Frog to Snail; move b1 from Frog to Bee (y3); catastrophe green at Snail
+move b3 from Radio414 to Grue (g3)
+build b3 at Frog
+build b3 at Grue
+convert b2 to y2 at Frog
+convert b3 to r3 at Grue
+convert b2 to r2 at Toad
+sacrifice y1 at Radio414; move r3 from Grue to Radio414
+build g1 at Dlwillson
+build b2 at Grue
+sacrifice g3 at Dlwillson; build g1 at Dlwillson; build g3 at Dlwillson; build b2 at Bee
+move g1 from Radio414 to Grue
+sacrifice g1 at Dlwillson; build b3 at Toad
+build g1 at Radio414
+move g1 from Dlwillson to Goldilocks (y2)
+move y2 from Radio414 to Papabear (g3)
+convert b3 to y3 at Toad
+build y1 at Papabear
+sacrifice y2 at Frog; move b1 from Bee to Radio414; move b2 from Bee to Radio414
+capture b2 at Radio414
+sacrifice g1 at Goldilocks; build b3 at Radio414; catastrophe blue at Radio414
+move y1 from Papabear to Desparado (b2)
+build r1 at Toad

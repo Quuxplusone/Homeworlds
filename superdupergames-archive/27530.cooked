@@ -1,0 +1,49 @@
+Ts52 (0, y2b3) g3-
+Mcowper (1, g3r1) -b3
+build g1 at Ts52
+build b1 at Mcowper
+convert g1 to b1 at Ts52
+convert b1 to y1 at Mcowper
+move b1 from Ts52 to Robin (g1)
+build y1 at Mcowper
+build g1 at Ts52
+convert y1 to r1 at Mcowper
+convert g1 to r1 at Ts52
+build r2 at Mcowper
+build r2 at Ts52
+convert r2 to g2 at Mcowper
+move r2 from Ts52 to Robin
+build r2 at Mcowper
+sacrifice g3 at Ts52; build r2 at Robin; build r3 at Robin; build r3 at Ts52
+convert r2 to y2 at Mcowper
+convert r3 to y3 at Robin
+move r1 from Mcowper to Alpha (g2)
+move r2 from Robin to Alpha
+move y1 from Mcowper to Beta (r2)
+capture r1 at Alpha
+build y1 at Mcowper
+build r3 at Robin
+build b1 at Mcowper
+build r3 at Alpha
+build g1 at Mcowper
+convert r3 to g3 at Ts52
+move g2 from Mcowper to Beta
+build r3 at Ts52
+move y2 from Mcowper to Gamma (b2)
+convert r2 to y2 at Robin
+convert y2 to r2 at Gamma
+move y2 from Robin to Alpha
+build y1 at Mcowper
+build g1 at Ts52
+move b1 from Mcowper to Beta
+move r3 from Robin to Gamma
+sacrifice y1 at Mcowper; move r2 from Gamma to Robin
+sacrifice r1 at Ts52; capture r2 at Robin
+convert y1 to r1 at Beta
+move y3 from Robin to Beta
+sacrifice y1 at Mcowper; move r1 from Beta to Mcowper
+sacrifice y2 at Alpha; move r1 from Alpha to Mcowper; move r2 from Alpha to Mcowper; catastrophe red at Mcowper
+sacrifice g2 at Beta; build b1 at Beta; build b2 at Mcowper
+sacrifice y3 at Beta; move r3 from Gamma to Mcowper; move g1 from Ts52 to Robin; move g1 from Robin to Mcowper
+build g2 at Mcowper
+sacrifice r3 at Ts52; capture b3 at Mcowper; capture b2 at Mcowper; capture g2 at Mcowper; catastrophe green at Mcowper

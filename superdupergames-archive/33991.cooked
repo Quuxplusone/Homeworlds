@@ -1,0 +1,30 @@
+Mandrel (0, r1b2) g3-
+Laurie_Menke (1, b1y3) -g3
+build g1 at Mandrel
+build g1 at Laurie_Menke
+convert g1 to y1 at Mandrel
+build g1 at Laurie_Menke
+build y1 at Mandrel
+move g1 from Laurie_Menke to Yellow (y2)
+move y1 from Mandrel to Wait (b3)
+move g1 from Laurie_Menke to Blue (b2)
+build y1 at Mandrel
+build g1 at Laurie_Menke
+build g2 at Mandrel
+sacrifice g3 at Laurie_Menke; build g2 at Blue; build g2 at Yellow; build g3 at Laurie_Menke
+sacrifice g3 at Mandrel; build g3 at Mandrel; build g3 at Mandrel; build y2 at Wait
+move g1 from Yellow to Hi (y3)
+move g3 from Mandrel to Roast (y3)
+convert g2 to y2 at Blue
+convert g2 to b2 at Mandrel
+sacrifice g3 at Laurie_Menke; build g2 at Hi; build g2 at Yellow; build g3 at Laurie_Menke
+move b2 from Mandrel to Roast
+convert g1 to r1 at Laurie_Menke
+build b1 at Roast
+build g1 at Laurie_Menke
+convert b2 to r2 at Roast
+move r1 from Laurie_Menke to Yellow
+move g3 from Roast to Blue
+move y2 from Blue to Red (r3)
+sacrifice r2 at Roast; capture g1 at Blue
+convert g1 to r1 at Laurie_Menke

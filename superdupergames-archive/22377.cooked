@@ -1,0 +1,31 @@
+Aristos (0, b3g2) y3-
+Adambadura (1, g3b2) -y3
+build y1 at Aristos
+build y1 at Adambadura
+move y1 from Aristos to Splinter (g1)
+move y1 from Adambadura to Shipyard (g1)
+move y1 from Splinter to Morph (b3)
+build y1 at Adambadura
+build y2 at Aristos
+convert y3 to g3 at Adambadura
+convert y1 to g1 at Morph
+build y1 at Adambadura
+build g1 at Morph
+sacrifice g3 at Adambadura; build y2 at Shipyard; build y2 at Shipyard; build y3 at Adambadura
+convert y3 to r3 at Aristos
+move y2 from Shipyard to Drydocks (g2)
+build y3 at Aristos
+convert y1 to r1 at Adambadura
+move y2 from Aristos to Exit (r1)
+build r1 at Adambadura
+build r2 at Aristos
+move r1 from Adambadura to Shipyard
+move r3 from Aristos to Shipyard
+build r2 at Shipyard
+sacrifice r2 at Aristos; capture y2 at Shipyard; capture y1 at Shipyard
+sacrifice y2 at Drydocks; move r1 from Shipyard to Aristos; move r2 from Shipyard to Newdrydocks (g3)
+sacrifice y2 at Shipyard; move y2 from Exit to Adambadura; move y1 from Shipyard to Adambadura; catastrophe yellow at Adambadura
+build r1 at Newdrydocks
+convert g1 to y1 at Morph
+build r2 at Adambadura
+sacrifice y1 at Morph; move r3 from Shipyard to Adambadura

@@ -1,0 +1,98 @@
+Laurie_Menke (0, y3r1) g3-
+Trydnt (1, b3g1) -r3
+build g1 at Laurie_Menke
+build r1 at Trydnt
+move g1 from Laurie_Menke to Presto (b2)
+convert r1 to y1 at Trydnt
+build g1 at Laurie_Menke
+build r1 at Trydnt
+build g2 at Presto
+move r3 from Trydnt to Presto
+sacrifice g3 at Laurie_Menke; build g2 at Presto; build g2 at Presto; build g3 at Laurie_Menke; catastrophe green at Presto
+build y1 at Trydnt
+build g1 at Laurie_Menke
+move y1 from Trydnt to Presto
+move g1 from Laurie_Menke to Yellow (y2)
+build y1 at Trydnt
+move g1 from Laurie_Menke to Another (y2)
+build y2 at Trydnt
+build g2 at Laurie_Menke
+sacrifice y2 at Trydnt; move y1 from Trydnt to Y2 (y2); move y1 from Presto to G3 (g3)
+sacrifice g3 at Laurie_Menke; build g2 at Another; build g2 at Yellow; build g3 at Laurie_Menke
+build y3 at Trydnt
+move g1 from Another to Bigyellow (y3)
+sacrifice y1 at Y2; move r3 from Presto to G33 (g3)
+move g2 from Yellow to Blue (b3)
+build r1 at G33
+convert g2 to y2 at Blue
+build y1 at G3
+sacrifice g2 at Another; build g2 at Yellow; build g2 at Yellow
+sacrifice y3 at Trydnt; move y1 from G3 to Yellow; move y1 from G3 to Yellow; move y1 from Trydnt to Yellow; catastrophe yellow at Yellow
+move y2 from Blue to Change (b2)
+build r2 at Trydnt
+sacrifice g2 at Laurie_Menke; build y1 at Change; build y1 at Change
+convert r2 to y2 at Trydnt
+convert y2 to r2 at Change
+build y1 at Trydnt
+move y1 from Change to Trydnt
+sacrifice y2 at Trydnt; move r3 from G33 to Change; move r3 from Change to Trydnt
+build y2 at Trydnt
+move y1 from Trydnt to G2 (g2)
+convert y2 to r2 at Trydnt
+sacrifice r1 at Trydnt; capture r2 at Trydnt
+convert y1 to r1 at Trydnt
+convert r3 to y3 at Trydnt
+build r2 at Trydnt
+sacrifice r2 at Trydnt; capture r2 at Trydnt; capture r1 at Trydnt
+build g1 at Laurie_Menke
+move r2 from Trydnt to G2
+sacrifice g3 at Laurie_Menke; build g2 at Laurie_Menke; build g2 at Bigyellow; build g3 at Laurie_Menke
+move r2 from G2 to G3 (g3)
+sacrifice g3 at Laurie_Menke; build g3 at Laurie_Menke; build r2 at Change; build y1 at Change
+build r3 at G33
+sacrifice g2 at Bigyellow; build g2 at Bigyellow; build y2 at Change
+build y2 at G2
+move r2 from Change to Bigyellow
+build r3 at G3
+build r3 at Bigyellow
+build y2 at Trydnt
+sacrifice y2 at Change; move y1 from Change to Trydnt; move y1 from Change to Trydnt; catastrophe yellow at Trydnt
+sacrifice y2 at G2; move r3 from G33 to G2; move r3 from G3 to Change
+move r2 from Bigyellow to Mediumyellow (y2)
+sacrifice y1 at G2; move r3 from Change to Trydnt
+move g2 from Laurie_Menke to Blue (b2)
+convert r1 to y1 at Trydnt
+convert g2 to y2 at Blue
+build y1 at Trydnt
+sacrifice g3 at Laurie_Menke; build g2 at Bigyellow; build g3 at Laurie_Menke; build y1 at Blue
+convert y1 to b1 at Trydnt
+sacrifice g2 at Bigyellow; build g2 at Bigyellow; build r1 at Mediumyellow
+move b1 from Trydnt to G2
+move g2 from Bigyellow to Change
+build y1 at Trydnt
+move r1 from Mediumyellow to Trydnt
+move y1 from Trydnt to G2
+move r2 from Mediumyellow to Trydnt
+build y2 at G2
+move y1 from Blue to Trydnt
+capture r2 at Trydnt
+sacrifice g2 at Change; build y2 at Trydnt; build y3 at Trydnt; catastrophe yellow at Trydnt
+sacrifice r2 at Trydnt; capture r1 at Trydnt
+move r3 from Bigyellow to Blue
+convert r3 to y3 at Trydnt
+move g1 from Bigyellow to Blue
+build b1 at G2
+sacrifice g3 at Laurie_Menke; build g2 at Blue; build g3 at Laurie_Menke; build y1 at Blue
+sacrifice y2 at G2; move r3 from G2 to Bigyellow; move b1 from G2 to G3
+move g2 from Bigyellow to Blue
+build b1 at G3
+sacrifice y2 at Blue; move g1 from Blue to Trydnt; move g2 from Blue to Trydnt
+build b2 at G3
+sacrifice g1 at Laurie_Menke; build g1 at Trydnt; catastrophe green at Trydnt
+build b3 at G2
+build g1 at Laurie_Menke
+build b3 at G2
+sacrifice g2 at Blue; build r2 at Blue; build r3 at Change
+sacrifice b2 at G3; convert b1 to g1 at G2; convert b1 to g1 at G3
+convert r2 to b2 at Blue
+sacrifice y3 at Trydnt; move g1 from G2 to Laurie_Menke; move g1 from G3 to G2; move g1 from G2 to Laurie_Menke; catastrophe green at Laurie_Menke

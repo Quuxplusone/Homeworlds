@@ -1,0 +1,13 @@
+Jeep (0, r1b2) g3-
+Spearjr (1, b3g2) -y3
+build g1 at Jeep
+build y1 at Spearjr
+convert g1 to y1 at Jeep
+convert y1 to b1 at Spearjr
+build g1 at Jeep
+build y1 at Spearjr
+build g1 at Jeep
+build y1 at Spearjr
+move g1 from Jeep to Cache (y3)
+convert y1 to g1 at Spearjr
+convert g1 to b1 at Jeep

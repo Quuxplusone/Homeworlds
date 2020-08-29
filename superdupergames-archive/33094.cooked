@@ -1,0 +1,31 @@
+Babamots (0, y2b1) g3-
+Shoejitsu (1, b3r1) -g3
+build g1 at Babamots
+build g1 at Shoejitsu
+move g1 from Babamots to Betazed (y3)
+convert g1 to b1 at Shoejitsu
+build g1 at Babamots
+build g1 at Shoejitsu
+build g2 at Betazed
+build g2 at Shoejitsu
+move g1 from Betazed to Galorndon (y2)
+convert g1 to y1 at Shoejitsu
+sacrifice g3 at Babamots; build g1 at Betazed; build g2 at Galorndon; build g3 at Babamots
+move g2 from Shoejitsu to Galorndon
+sacrifice g2 at Betazed; build g2 at Galorndon; build g3 at Betazed; catastrophe green at Galorndon
+move b1 from Shoejitsu to Xed (g2)
+move g3 from Betazed to Ferenginar (b2)
+build b1 at Xed
+build g1 at Ferenginar
+build b2 at Xed
+convert g3 to r3 at Ferenginar
+build y1 at Shoejitsu
+build g2 at Betazed
+convert b2 to g2 at Xed
+sacrifice g3 at Babamots; build g3 at Babamots; build g3 at Ferenginar; build r1 at Ferenginar
+move y1 from Shoejitsu to Xed
+move g1 from Betazed to Xed
+convert g2 to r2 at Xed
+sacrifice g2 at Betazed; build g2 at Xed; build g2 at Xed; catastrophe green at Xed
+convert g3 to r3 at Shoejitsu
+build g1 at Ferenginar

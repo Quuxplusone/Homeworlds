@@ -1,0 +1,74 @@
+Silenttitan (0, r1b2) g3-
+Sarthobi (1, y3b1) -g3
+build g1 at Silenttitan
+build g1 at Sarthobi
+convert g1 to y1 at Silenttitan
+build g1 at Sarthobi
+build y1 at Silenttitan
+convert g1 to b1 at Sarthobi
+build y1 at Silenttitan
+build b1 at Sarthobi
+move y1 from Silenttitan to Sol (g3)
+move b1 from Sarthobi to G2 (g2)
+move y1 from Silenttitan to Soul (b3)
+build b2 at G2
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Soul; build y2 at Silenttitan
+build b2 at G2
+build y3 at Sol
+build b3 at Sarthobi
+move y1 from Silenttitan to Sole (y3)
+convert b3 to r3 at Sarthobi
+move y3 from Sol to Silenttitan
+build b3 at Sarthobi
+move y1 from Sol to Silenttitan
+convert b3 to r3 at Sarthobi
+move y1 from Soul to Tic (r2)
+move r3 from Sarthobi to Tic
+move y1 from Tic to Sol
+build b3 at Sarthobi
+move y1 from Sol to Tac (r2)
+build r1 at Sarthobi
+move y2 from Soul to Toe (g2)
+move b3 from Sarthobi to Tac
+move y1 from Tac to Sol
+build b3 at Sarthobi
+move y1 from Sol to Ying (g2)
+build r1 at Sarthobi
+move y2 from Toe to Yang (b3)
+move r1 from Sarthobi to G2
+move y2 from Yang to Mish (g2)
+move b1 from Sarthobi to Tic
+move y1 from Silenttitan to Sol
+build b3 at Sarthobi
+move y1 from Sol to Mash (r2)
+build r3 at Sarthobi
+move y1 from Mash to Sol
+convert r3 to g3 at Tic
+move y1 from Sol to Silenttitan
+move r3 from Sarthobi to Mish
+move y2 from Mish to Eenie (r3)
+move r3 from Sarthobi to Ying
+move y1 from Ying to Meenie (g1)
+move g3 from Sarthobi to G2
+move y2 from Eenie to Meenie
+convert b3 to r3 at Sarthobi
+move y1 from Meenie to Sol
+build b3 at Sarthobi
+move y1 from Sol to Meenie
+build r2 at Sarthobi
+move y1 from Silenttitan to Sol
+build g1 at Sarthobi
+move y1 from Sol to Silenttitan
+sacrifice b1 at Tic
+pass
+pass
+move y2 from Meenie to Sol
+move g1 from Sarthobi to Tac
+move y2 from Sol to Meenie
+convert g1 to b1 at Tac
+move y2 from Silenttitan to Sol
+build g1 at Sarthobi
+move y2 from Sol to Silenttitan
+pass
+move y2 from Meenie to Sol
+pass

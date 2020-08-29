@@ -1,0 +1,78 @@
+Silenttitan (0, r1b2) g3-
+Agentofchaos (1, b3r2) -g3
+build g1 at Silenttitan
+build g1 at Agentofchaos
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Agentofchaos
+build g1 at Silenttitan
+build g1 at Agentofchaos
+convert g1 to r1 at Silenttitan
+convert g1 to r1 at Agentofchaos
+build r2 at Silenttitan
+build r2 at Agentofchaos
+move r2 from Silenttitan to Sol (b3)
+convert r1 to b1 at Agentofchaos
+convert r2 to y2 at Sol
+move r2 from Agentofchaos to Procyon (g1)
+build r1 at Silenttitan
+build g1 at Agentofchaos
+move r1 from Silenttitan to Sol
+move y1 from Agentofchaos to Procyon
+move r1 from Silenttitan to Sole (b3)
+convert g1 to y1 at Agentofchaos
+build y2 at Silenttitan
+build y2 at Agentofchaos
+move y1 from Silenttitan to Sole
+build y3 at Procyon
+sacrifice g3 at Silenttitan; build y3 at Silenttitan; build r2 at Sol; build r3 at Sole
+build r3 at Procyon
+convert y3 to g3 at Silenttitan
+move y3 from Procyon to Sol
+sacrifice g3 at Silenttitan; build y3 at Silenttitan; build y3 at Sol; build r3 at Sol
+sacrifice r3 at Procyon; capture r3 at Sol; capture y3 at Sol; capture y2 at Sol
+move y2 from Silenttitan to Sol; catastrophe yellow at Sol
+capture r2 at Sol
+move r3 from Sole to Procyon
+move r2 from Procyon to Sole
+capture y1 at Procyon
+capture y1 at Sole
+build r3 at Procyon
+sacrifice y2 at Agentofchaos; move r2 from Sole to Procyon; move r2 from Sol to Procyon; catastrophe red at Procyon
+convert y3 to g3 at Silenttitan
+move y1 from Sole to Frendzia (g2)
+build g1 at Silenttitan
+capture r1 at Sol
+build g1 at Silenttitan
+build g2 at Agentofchaos
+convert g3 to y3 at Silenttitan
+sacrifice g2 at Agentofchaos; build y2 at Agentofchaos; build y2 at Frendzia
+move g1 from Silenttitan to Soul (y3)
+build g2 at Agentofchaos
+build y2 at Procyon
+convert y1 to b1 at Agentofchaos
+build g2 at Silenttitan
+move y2 from Frendzia to Sole
+sacrifice y2 at Procyon; move g1 from Silenttitan to Tic (y3); move r1 from Sole to Tac (y1)
+build y2 at Frendzia
+build g3 at Silenttitan
+convert r3 to g3 at Sol
+sacrifice y3 at Silenttitan; move g1 from Soul to Tac; move y1 from Procyon to Agentofchaos; move r1 from Tac to Agentofchaos
+capture r1 at Agentofchaos
+convert y1 to b1 at Agentofchaos; catastrophe blue at Agentofchaos
+build r2 at Sol
+convert g3 to y3 at Silenttitan
+move g2 from Agentofchaos to Tac
+sacrifice g1 at Tac; build g1 at Silenttitan
+move g2 from Tac to Tic
+move g2 from Silenttitan to Sky (b3)
+sacrifice r1 at Sol; capture g1 at Tic
+build g1 at Sky
+build g3 at Sol
+convert g1 to r1 at Sky
+sacrifice g3 at Sol; build g1 at Agentofchaos; build g3 at Sol; build y1 at Sole
+build r2 at Sky
+move r1 from Agentofchaos to Azafrood (y1)
+convert r1 to b1 at Sky
+sacrifice g3 at Sol; build r1 at Sol; build r3 at Azafrood; build g3 at Sol
+build r3 at Sky
+sacrifice y2 at Frendzia; move y1 from Sole to Silenttitan; move y2 from Sole to Silenttitan

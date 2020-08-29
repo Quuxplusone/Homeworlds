@@ -1,0 +1,50 @@
+Agentofchaos (0, y1b2) g3-
+Ts52 (1, b1y3) -g3
+build g1 at Agentofchaos
+build g1 at Ts52
+move g1 from Agentofchaos to Hymzoth (y3)
+move g1 from Ts52 to Gonzo (b2)
+build g1 at Agentofchaos
+build g2 at Ts52
+sacrifice g3 at Agentofchaos; build g2 at Hymzoth; build g2 at Hymzoth; build g3 at Agentofchaos
+build g3 at Gonzo
+move g2 from Hymzoth to Abaddon (b2)
+convert g1 to y1 at Gonzo
+build g1 at Hymzoth
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Gonzo; build y2 at Gonzo
+convert g2 to y2 at Abaddon
+convert g2 to r2 at Ts52
+convert g1 to r1 at Agentofchaos
+move y2 from Gonzo to Grover (b3)
+build r1 at Agentofchaos
+build g1 at Gonzo
+sacrifice g2 at Hymzoth; build y2 at Abaddon; build g2 at Agentofchaos
+sacrifice g1 at Gonzo; build y3 at Grover
+move g1 from Hymzoth to Abaddon
+build g1 at Gonzo
+sacrifice g3 at Agentofchaos; build g2 at Abaddon; build g2 at Hymzoth; build g3 at Agentofchaos
+convert y3 to r3 at Grover
+convert g3 to y3 at Agentofchaos
+move y1 from Gonzo to Kermit (g3)
+convert r1 to b1 at Agentofchaos
+move g1 from Gonzo to Grover
+build b1 at Agentofchaos
+move r3 from Grover to Abaddon
+sacrifice y2 at Abaddon; move g1 from Abaddon to Ts52; move g2 from Abaddon to Ts52
+capture g2 at Ts52
+sacrifice y2 at Abaddon; move g1 from Hymzoth to Abaddon; move g1 from Abaddon to Ts52; catastrophe green at Ts52
+move g3 from Gonzo to Ts52
+move b1 from Agentofchaos to Grimvale (g3)
+build g1 at Ts52
+build b3 at Grimvale
+sacrifice g3 at Ts52; build g1 at Grover; build g2 at Grover; build g3 at Ts52
+build b3 at Grimvale
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Grover; build y2 at Kermit
+build r1 at Agentofchaos
+move y2 from Grover to Abaddon
+convert b3 to r3 at Grimvale
+sacrifice y2 at Abaddon; move y2 from Grover to Agentofchaos; move y1 from Kermit to Agentofchaos; catastrophe yellow at Agentofchaos
+build b3 at Agentofchaos
+move y1 from Gonzo to Grover
+convert b3 to y3 at Agentofchaos
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Grover; build y1 at Kermit

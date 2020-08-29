@@ -1,0 +1,56 @@
+Madwuher (0, r1b2) g3-
+Jeep (1, b1r2) -g3
+build g1 at Madwuher
+build g1 at Jeep
+convert g1 to y1 at Madwuher
+convert g1 to y1 at Jeep
+build g1 at Madwuher
+build g1 at Jeep
+move g1 from Madwuher to Edora (y3)
+move g1 from Jeep to Submarine (y3)
+build g1 at Madwuher
+build g2 at Jeep
+convert g1 to b1 at Madwuher
+move g2 from Jeep to Moon (b3)
+build g1 at Madwuher
+move g1 from Submarine to Madwuher
+convert g3 to y3 at Madwuher
+build g2 at Moon
+capture g1 at Madwuher
+convert g2 to y2 at Moon
+build g2 at Edora
+build g2 at Moon
+convert g1 to r1 at Madwuher
+build y1 at Moon
+move y1 from Madwuher to Bologna (g3)
+convert y1 to r1 at Moon
+move r1 from Madwuher to Edora
+sacrifice g2 at Moon; build y1 at Moon; build y2 at Moon
+build y2 at Bologna
+build y3 at Jeep
+build r2 at Edora
+build r2 at Moon
+move r2 from Edora to Camelot (b1)
+move y1 from Moon to Madwuher
+capture y1 at Madwuher
+sacrifice y3 at Jeep; move y2 from Moon to Madwuher; move y2 from Moon to Madwuher; move g2 from Moon to Madwuher; catastrophe yellow at Madwuher
+sacrifice g2 at Edora; build g1 at Madwuher; build g2 at Madwuher; catastrophe green at Madwuher
+sacrifice y1 at Jeep; move r2 from Moon to Madwuher
+sacrifice y2 at Bologna; move r2 from Camelot to Bologna; move r2 from Bologna to Madwuher
+capture r2 at Madwuher
+move r1 from Edora to Madwuher; catastrophe red at Madwuher
+build g1 at Jeep
+build y1 at Bologna
+convert g1 to y1 at Jeep
+convert b1 to r1 at Madwuher
+build y2 at Jeep
+move y1 from Bologna to Madwuher
+sacrifice y1 at Jeep; move y2 from Jeep to Thumb (g3)
+build g1 at Edora
+move y2 from Thumb to Madwuher
+sacrifice g1 at Edora; build r1 at Madwuher
+build g1 at Jeep
+build g1 at Edora
+convert g3 to r3 at Jeep
+sacrifice g1 at Edora; build r2 at Madwuher
+sacrifice r3 at Jeep; capture r1 at Madwuher; capture r1 at Madwuher; capture r2 at Madwuher

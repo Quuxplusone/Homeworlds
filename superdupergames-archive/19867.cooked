@@ -1,0 +1,37 @@
+Goulo (0, r3b2) g3-
+Adambadura (1, b3g2) -y3
+build g1 at Goulo
+build y1 at Adambadura
+convert g1 to y1 at Goulo
+move y1 from Adambadura to Drydocks (g1)
+build g1 at Goulo
+build y1 at Adambadura
+move g1 from Goulo to Rubeneto (r1)
+build y2 at Adambadura
+build y2 at Goulo
+move y2 from Adambadura to Rubeneto
+sacrifice g1 at Rubeneto; build g1 at Goulo
+convert y3 to r3 at Adambadura
+move y2 from Goulo to Drydocks
+build y2 at Drydocks
+build y3 at Goulo
+build y3 at Adambadura
+move y3 from Goulo to Rubeneto
+move y2 from Rubeneto to Redundancy (y3)
+convert g1 to r1 at Goulo
+build r1 at Adambadura
+build g1 at Goulo
+move r1 from Adambadura to Drydocks
+sacrifice r1 at Goulo; capture r1 at Drydocks
+build r1 at Adambadura
+capture y2 at Drydocks
+move y1 from Adambadura to Drydocks; catastrophe yellow at Drydocks
+build y1 at Goulo
+build y1 at Adambadura
+move y1 from Goulo to Drydocks
+move r3 from Adambadura to Drydocks
+build r2 at Drydocks
+sacrifice y1 at Adambadura; move r3 from Drydocks to Redundancy
+build y1 at Drydocks
+build y2 at Adambadura
+sacrifice y3 at Rubeneto; move y1 from Drydocks to Adambadura; move y1 from Drydocks to Adambadura; move r2 from Drydocks to Adambadura; catastrophe yellow at Adambadura

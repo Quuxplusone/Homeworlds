@@ -1,0 +1,47 @@
+Zoltar (0, y2b1) g3-
+Gort (1, g3b2) -y3
+build g1 at Zoltar
+build y1 at Gort
+convert g1 to y1 at Zoltar
+build y1 at Gort
+move y1 from Zoltar to Greengiant (g3)
+convert y1 to r1 at Gort
+build g1 at Zoltar
+convert y1 to g1 at Gort
+convert g1 to r1 at Zoltar
+build y1 at Gort
+build g1 at Zoltar
+move g1 from Gort to Booberry (b1)
+move g1 from Zoltar to Boysenberry (b3)
+build g1 at Booberry
+build g2 at Zoltar
+sacrifice y1 at Gort; move g1 from Booberry to Boysenberry
+sacrifice g3 at Zoltar; build g2 at Zoltar; build g2 at Boysenberry; build g3 at Zoltar
+sacrifice y3 at Gort; move g1 from Boysenberry to Zoltar; move g1 from Booberry to Boysenberry; catastrophe green at Zoltar
+sacrifice y1 at Greengiant; move g2 from Boysenberry to Zoltar
+build r1 at Gort
+sacrifice r1 at Zoltar; capture g1 at Boysenberry
+convert r1 to y1 at Gort
+build g1 at Zoltar
+move r1 from Gort to Yellowstar (y1)
+convert g2 to r2 at Zoltar
+build y1 at Gort
+build g2 at Boysenberry
+build y2 at Gort
+convert g2 to y2 at Boysenberry
+sacrifice y2 at Gort; move y1 from Gort to Yellowstar; move y1 from Yellowstar to Boysenberry
+move y2 from Boysenberry to Yellowstar
+build y2 at Gort
+sacrifice r2 at Zoltar; capture r1 at Yellowstar; capture y1 at Boysenberry
+convert y2 to r2 at Gort
+build g2 at Zoltar
+build y2 at Gort
+build y3 at Boysenberry
+move y1 from Gort to Yellowstar
+sacrifice y2 at Yellowstar; move y3 from Boysenberry to Yellowstar; move y3 from Yellowstar to Gort
+build r1 at Gort
+convert g2 to r2 at Zoltar
+build y2 at Gort
+sacrifice r2 at Zoltar; capture r2 at Gort; capture r1 at Gort
+build y3 at Gort
+move r1 from Yellowstar to Gort; catastrophe yellow at Gort

@@ -1,0 +1,49 @@
+Zweiterlinde (0, b1y2) g3-
+Mantheron (1, b3r2) -g3
+build g1 at Zweiterlinde
+build g1 at Mantheron
+move g1 from Zweiterlinde to Acta (b3)
+convert g1 to y1 at Mantheron
+build g1 at Acta
+build y1 at Mantheron
+convert g1 to y1 at Acta
+move y1 from Mantheron to Bno (g1)
+build g1 at Zweiterlinde
+build g2 at Mantheron
+build y2 at Acta
+build y2 at Bno
+build g2 at Acta
+move g2 from Mantheron to Bno
+move y1 from Acta to Bno
+build y3 at Mantheron
+build y3 at Acta
+convert y1 to r1 at Mantheron
+sacrifice g3 at Zweiterlinde; build g2 at Zweiterlinde; build y1 at Bno; build y3 at Acta; catastrophe yellow at Bno
+build g3 at Mantheron
+sacrifice g2 at Zweiterlinde; build g2 at Acta; build g3 at Zweiterlinde
+build y1 at Mantheron
+move y2 from Acta to Caepe (b1)
+move y1 from Mantheron to Bno
+move g2 from Acta to Caepe
+sacrifice g3 at Mantheron; build g3 at Mantheron; build r1 at Mantheron; build y1 at Bno
+sacrifice y3 at Acta; move g1 from Acta to Caepe; move g1 from Caepe to Mantheron; move g2 from Caepe to Mantheron; catastrophe green at Mantheron
+move r1 from Mantheron to Bno
+build g1 at Acta
+move g2 from Bno to Mantheron
+convert g2 to r2 at Acta
+build g2 at Mantheron
+move r2 from Acta to Bno
+move y1 from Bno to Dnm (g3)
+capture r1 at Bno
+convert r1 to b1 at Mantheron
+sacrifice g3 at Zweiterlinde; build g2 at Acta; build g3 at Acta; build g3 at Zweiterlinde
+move g2 from Mantheron to Erie (r1)
+sacrifice g3 at Zweiterlinde; build g3 at Zweiterlinde; build r1 at Bno; build y1 at Caepe
+build b2 at Mantheron
+move g3 from Acta to Erie
+sacrifice g2 at Erie; build g2 at Mantheron; build y2 at Dnm
+build y3 at Acta
+sacrifice y3 at Mantheron; move y1 from Dnm to Bno; move y1 from Bno to Acta; move y1 from Bno to Acta; catastrophe yellow at Acta
+sacrifice y1 at Caepe; move g3 from Erie to Mantheron
+convert b1 to y1 at Mantheron
+sacrifice r2 at Bno; capture g2 at Mantheron; capture g2 at Mantheron

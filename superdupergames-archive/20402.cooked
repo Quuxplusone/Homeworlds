@@ -1,0 +1,41 @@
+Silenttitan (0, r1b2) g3-
+Ajo (1, g3y2) -r3
+build g1 at Silenttitan
+build r1 at Ajo
+convert g3 to r3 at Silenttitan
+move r1 from Ajo to Alpha (b1)
+build g1 at Silenttitan
+convert r1 to g1 at Alpha
+convert g1 to y1 at Silenttitan
+build r1 at Ajo
+build y1 at Silenttitan
+move r1 from Ajo to Alpha
+build y1 at Silenttitan
+build g1 at Alpha
+move y1 from Silenttitan to Sky (g3)
+build g2 at Alpha
+build y2 at Sky
+convert g2 to y2 at Alpha
+sacrifice y2 at Sky; move r3 from Silenttitan to Sky; move r3 from Sky to Alpha
+convert y2 to r2 at Alpha
+build y2 at Sky
+build r1 at Alpha; catastrophe red at Alpha
+build g2 at Silenttitan
+build g2 at Alpha
+sacrifice y2 at Sky; move g1 from Silenttitan to Tempworld (b3); move g1 from Tempworld to Alpha; catastrophe green at Alpha
+build r1 at Ajo
+build y2 at Sky
+build r1 at Ajo
+build y2 at Sky
+move r1 from Ajo to Alpha (g1)
+move y2 from Sky to Ground (b1)
+build r2 at Ajo
+sacrifice g2 at Silenttitan; build y3 at Silenttitan; build y3 at Ground
+move r2 from Ajo to Beta (b1)
+convert y3 to g3 at Ground
+convert r2 to g2 at Beta
+build y3 at Ground
+move r1 from Ajo to Beta
+convert y3 to r3 at Ground
+build r2 at Beta
+sacrifice g3 at Ground; build r2 at Ground; build r2 at Ground; build y3 at Ground

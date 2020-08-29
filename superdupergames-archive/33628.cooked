@@ -1,0 +1,125 @@
+Trydnt (0, b3y1) g3-
+Wil (1, y2b1) -g3
+build g1 at Trydnt
+build g1 at Wil
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Wil
+build y2 at Trydnt
+build y2 at Wil
+move y1 from Trydnt to G2 (g2)
+move y1 from Wil to G3 (g3)
+build y3 at G2
+build y3 at G3
+move y1 from G2 to G3
+move y2 from Wil to Y3 (y3)
+build g1 at Trydnt
+build g1 at Wil
+convert y2 to r2 at Trydnt
+move y1 from G3 to G2
+build y2 at G3
+convert g1 to r1 at Wil
+move r2 from Trydnt to G2
+move y1 from G2 to Y3
+sacrifice y2 at G3; move y1 from G3 to G2; move y1 from G2 to Y3; catastrophe yellow at Y3
+build r1 at Wil
+convert g1 to b1 at Trydnt
+convert r1 to b1 at Wil
+move b1 from Trydnt to G2
+build b2 at Wil
+build b2 at G2
+move b2 from Wil to G3
+move b2 from G2 to Y3 (y3)
+move b1 from Wil to Y3
+build r1 at G2
+sacrifice g3 at Wil; build b2 at G3; build b3 at G3; build b3 at Y3
+move y3 from G2 to G3
+sacrifice b3 at G3; convert b2 to y2 at G3; convert b2 to y2 at G3; convert b3 to r3 at Y3; catastrophe yellow at G3
+move b2 from Y3 to Wil
+move r3 from Y3 to Wil
+move b2 from Wil to Y3
+move b1 from Y3 to Y2 (y2)
+build b2 at G2
+convert r3 to g3 at Wil
+convert b2 to y2 at G2
+build g1 at Wil
+move b2 from Y3 to Y2
+move b1 from Y2 to Y3 (y3)
+build g1 at Trydnt
+convert g1 to y1 at Wil
+move g1 from Trydnt to Y2
+move b1 from Y3 to B2 (g2)
+build b2 at Y2
+build g1 at Wil
+move b2 from Y2 to Y3 (y3)
+build b2 at B2
+build b3 at G2
+convert b1 to y1 at B2
+build y3 at G2
+build y3 at B2
+move y3 from G2 to G3 (g3)
+move g1 from Wil to B3 (b3)
+move b2 from Y2 to G3
+build g1 at Wil
+sacrifice g1 at Y2; build y2 at G3
+convert y1 to g1 at B2
+sacrifice b2 at Y3; convert b3 to y3 at G2
+sacrifice g3 at Wil; build g2 at B2; build g3 at Wil; build y1 at B2
+sacrifice y2 at G3; move y3 from G2 to Trydnt; move g3 from Trydnt to B2; catastrophe green at B2
+move y1 from Wil to B3
+move r2 from G2 to B3
+build g1 at B3
+capture y1 at B3
+build g2 at B3
+capture g2 at B3
+sacrifice g3 at Wil; build g2 at B3; build g3 at Wil; build g3 at Wil; catastrophe green at B3
+sacrifice b2 at G3; convert r2 to g2 at B3; convert y1 to g1 at B3
+convert g3 to y3 at Wil
+sacrifice y2 at G2; move g2 from B3 to Wil; move g1 from B3 to Wil; catastrophe green at Wil
+convert y3 to g3 at Wil
+build b1 at G2
+build g1 at Wil
+build b2 at G2
+build g1 at Wil
+build y1 at G3
+convert g1 to y1 at Wil
+move y3 from G3 to G2
+move y1 from Wil to G3
+build y2 at G3
+build y2 at G3; catastrophe yellow at G3
+move b2 from G2 to G1 (g1)
+build g1 at Wil
+convert y3 to g3 at Trydnt
+move g1 from Wil to G3 (g3)
+build g2 at Trydnt
+sacrifice g3 at Wil; build g2 at G3; build g3 at Wil; build r1 at Wil
+sacrifice g3 at Trydnt; build g3 at Trydnt; build r2 at G2; build b2 at G1
+move r1 from Wil to Y3 (y3)
+move b1 from G2 to Y33 (y3)
+sacrifice g3 at Wil; build g3 at Wil; build r2 at Wil; build r2 at Y3
+sacrifice g3 at Trydnt; build g3 at Trydnt; build b2 at G2; build b3 at Y33
+move r1 from Y3 to Y2 (y2)
+convert b3 to r3 at Y33
+sacrifice g3 at Wil; build g3 at Wil; build r3 at Y3; build r3 at Y2
+sacrifice g3 at Trydnt; build g3 at Trydnt; build b3 at G1; build b3 at Y33
+convert r2 to y2 at Wil
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y1 at G2; build y1 at G2
+build r2 at Wil
+move y1 from G2 to G1
+move r1 from Wil to G3
+move y1 from G1 to Y33
+move y2 from Wil to G3
+move b1 from G2 to Y33
+move g1 from G3 to Y2
+sacrifice y1 at G2; move b3 from G1 to G3
+move r3 from Y3 to G1
+sacrifice r3 at Y33; capture g2 at G3; capture y2 at G3; capture r1 at G3
+build r3 at G1
+sacrifice y3 at G2; move b1 from Y33 to Wil; move b1 from Y33 to Wil; move y1 from Y33 to Wil
+sacrifice r3 at G1; capture y1 at Wil; capture b2 at G1; capture b2 at G1
+sacrifice b2 at G2; convert b1 to y1 at Wil; convert b3 to y3 at G3
+move y1 from Wil to B3 (b3)
+sacrifice g3 at Trydnt; build g3 at Trydnt; build b1 at Wil; build b2 at Wil
+move g1 from Y2 to Trydnt
+catastrophe blue at Wil; sacrifice y3 at G3; move g2 from Trydnt to Wil; move g2 from G3 to Wil; move b3 from Y33 to Wil; catastrophe green at Wil
+convert b2 to g2 at G1
+sacrifice r1 at G2; capture r2 at Wil

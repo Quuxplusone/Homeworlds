@@ -1,0 +1,26 @@
+Zeder (0, y2b1) g3-
+Nycavri (1, g3b1) -y3
+build g1 at Zeder
+build y1 at Nycavri
+convert g1 to y1 at Zeder
+convert y1 to b1 at Nycavri
+build g1 at Zeder
+build b2 at Nycavri
+build g1 at Zeder
+convert b2 to g2 at Nycavri
+move g1 from Zeder to Aaa (b3)
+build b2 at Nycavri
+build y1 at Zeder
+move b2 from Nycavri to Taylor (g2)
+move y1 from Zeder to Bbb (b3)
+build b2 at Taylor
+move y1 from Zeder to Aaa
+move g2 from Nycavri to Mercury (y2)
+convert g1 to r1 at Zeder
+build b2 at Taylor
+build g1 at Zeder
+build b3 at Nycavri
+build r1 at Zeder
+convert b2 to y2 at Taylor
+sacrifice g3 at Zeder; build g1 at Aaa; build g2 at Aaa; build g3 at Zeder
+build b2 at Taylor

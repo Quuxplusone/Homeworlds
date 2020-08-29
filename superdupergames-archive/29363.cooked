@@ -1,0 +1,44 @@
+Ugoggino (0, g3b2) y3-
+Felix (1, r1b3) -g3
+build y1 at Ugoggino
+build g1 at Felix
+convert y1 to g1 at Ugoggino
+convert g1 to y1 at Felix
+build g1 at Ugoggino
+build g1 at Felix
+move g1 from Ugoggino to Rigel (b1)
+convert g1 to b1 at Felix
+build y1 at Ugoggino
+build b1 at Felix
+move y1 from Ugoggino to Rigel
+move b1 from Felix to Out (g2)
+build g1 at Rigel
+build b2 at Out
+build g2 at Ugoggino
+build g2 at Felix
+build g3 at Rigel
+sacrifice g3 at Felix; build g3 at Felix; build b2 at Felix; build b3 at Out
+convert g3 to b3 at Rigel
+convert b1 to r1 at Felix
+sacrifice g2 at Ugoggino; build g2 at Rigel; build g3 at Ugoggino
+convert b1 to y1 at Out
+convert g1 to r1 at Rigel
+move g2 from Felix to Gate (y2)
+move g3 from Ugoggino to Polar (b1)
+build g1 at Felix
+sacrifice g2 at Rigel; build g2 at Polar; build y2 at Ugoggino
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Out; build y3 at Felix
+sacrifice g3 at Polar; build g3 at Polar; build y3 at Rigel; build r2 at Rigel
+move y1 from Out to In (b1)
+move y3 from Rigel to Sirio (r2)
+move r1 from Felix to Out
+move r1 from Rigel to Ugoggino
+move b3 from Out to In
+sacrifice g3 at Polar; build g3 at Polar; build r2 at Ugoggino; build r3 at Rigel
+move y2 from Out to In
+move r3 from Rigel to Gate
+build r3 at Out
+capture g2 at Gate
+sacrifice y3 at Felix; move y2 from In to Ugoggino; move y1 from In to Ugoggino; move b3 from In to Ugoggino; catastrophe yellow at Ugoggino
+pass
+sacrifice r3 at Out; capture r2 at Ugoggino; capture r1 at Ugoggino; capture g1 at Ugoggino

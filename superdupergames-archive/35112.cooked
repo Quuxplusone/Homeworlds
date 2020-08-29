@@ -1,0 +1,54 @@
+Dlwillson (0, r3b2) g3-
+Babamots (1, y1b3) -g3
+build g1 at Dlwillson
+build g1 at Babamots
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Babamots
+build y2 at Dlwillson
+build y2 at Babamots
+move y1 from Dlwillson to Sea (b1)
+move y1 from Babamots to Ferenginar (g2)
+build g1 at Dlwillson
+build g1 at Babamots
+move g1 from Dlwillson to Sea
+convert g1 to r1 at Babamots
+build g1 at Sea
+build r1 at Babamots
+convert g1 to r1 at Sea
+move r1 from Babamots to Ferenginar
+build r2 at Sea
+build r2 at Ferenginar
+build y2 at Dlwillson
+build y3 at Ferenginar
+build y3 at Sea
+move r1 from Ferenginar to Iconia (y3)
+convert y1 to b1 at Sea
+sacrifice g3 at Babamots; build r2 at Ferenginar; build r3 at Iconia; build r3 at Babamots
+move r2 from Sea to Sky (g2)
+convert r1 to b1 at Babamots
+build r1 at Sky
+move b1 from Babamots to Ferenginar
+move b1 from Sea to Sky
+move r3 from Iconia to Sky
+build b2 at Sky
+sacrifice r2 at Ferenginar; capture r2 at Sky; capture b2 at Sky
+build r2 at Sky; catastrophe red at Sky
+build b2 at Ferenginar
+build b3 at Sky
+build b3 at Sky; catastrophe blue at Sky
+build g1 at Dlwillson
+build b1 at Ferenginar
+build g1 at Sea
+sacrifice y3 at Ferenginar; move b1 from Ferenginar to Sea; move b1 from Ferenginar to Sea; move b2 from Ferenginar to Sea; catastrophe blue at Sea
+convert g1 to r1 at Dlwillson
+convert r3 to g3 at Babamots
+move y2 from Dlwillson to Field (g1)
+build g1 at Babamots
+move r1 from Dlwillson to Field
+convert g1 to r1 at Babamots
+move y2 from Field to Forest (g2)
+move y2 from Babamots to Romulus (r2)
+build g1 at Dlwillson
+sacrifice g3 at Babamots; build r2 at Ferenginar; build r3 at Iconia; build r3 at Babamots
+build g1 at Dlwillson
+move y2 from Romulus to Field

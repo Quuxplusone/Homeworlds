@@ -1,0 +1,67 @@
+Felix (0, b3y2) g3-
+Ts52 (1, y3b1) -g3
+build g1 at Felix
+build g1 at Ts52
+convert g1 to b1 at Felix
+convert g1 to b1 at Ts52
+build b2 at Felix
+build b2 at Ts52
+move b2 from Felix to Settlement (g1)
+move b2 from Ts52 to Kermit (g2)
+sacrifice g3 at Felix; build b2 at Settlement; build b3 at Settlement; build b3 at Felix
+build g1 at Ts52
+convert b1 to g1 at Felix
+convert g1 to y1 at Ts52
+convert b3 to y3 at Settlement
+move y1 from Ts52 to Kermit
+build g1 at Felix
+build g2 at Ts52
+move b2 from Settlement to Village (g2)
+move g2 from Ts52 to Bigbird (y2)
+build g3 at Felix
+move g2 from Bigbird to Zoe (y1)
+convert g1 to r1 at Felix
+convert b1 to r1 at Ts52
+move b3 from Felix to Zoe
+move g2 from Zoe to Oscar (g3)
+sacrifice g3 at Felix; build g1 at Felix; build g3 at Felix; build b1 at Village
+build y1 at Kermit
+sacrifice g3 at Felix; build g3 at Felix; build b1 at Zoe; build b3 at Settlement
+move y1 from Kermit to Oscar
+sacrifice g3 at Felix; build g3 at Felix; build r1 at Felix; build y2 at Settlement
+sacrifice g2 at Oscar; build y2 at Oscar; build y3 at Kermit
+move b2 from Settlement to Duchy (g2)
+sacrifice y2 at Oscar; move y1 from Oscar to Settlement; move y1 from Kermit to Settlement; catastrophe yellow at Settlement
+convert g1 to y1 at Felix
+build r2 at Ts52
+move y1 from Felix to Settlement
+move r2 from Ts52 to Kermit
+move r1 from Felix to Settlement
+build y1 at Kermit
+build y2 at Settlement
+move y3 from Kermit to Oscar (g3)
+move y1 from Settlement to Village
+move y3 from Oscar to Village
+build y2 at Village
+build y3 at Kermit
+sacrifice y2 at Village; move b1 from Village to Ts52; move b2 from Village to Ts52
+build r2 at Ts52
+build y2 at Settlement
+sacrifice r2 at Ts52; capture y1 at Village; capture b2 at Ts52
+move y2 from Settlement to Duchy
+move b2 from Ts52 to Village
+sacrifice r1 at Settlement; capture r1 at Ts52
+sacrifice r2 at Kermit; capture r1 at Ts52; capture b1 at Ts52
+move b2 from Duchy to Ts52
+capture b2 at Ts52
+sacrifice y2 at Settlement; move b1 from Zoe to Duchy; move b1 from Duchy to Ts52; catastrophe blue at Ts52
+build g1 at Ts52
+move g1 from Felix to Argyle (b1)
+move y3 from Kermit to Oscar (g3)
+convert g3 to r3 at Felix
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Kermit; build b1 at Village
+sacrifice y2 at Duchy; move b3 from Zoe to Ts52; move b3 from Settlement to Ts52
+sacrifice g3 at Ts52; build g1 at Ts52; build r1 at Ts52; build r2 at Ts52
+sacrifice r3 at Felix; capture r1 at Ts52; capture r1 at Ts52; capture r2 at Ts52
+sacrifice y3 at Village; move y3 from Oscar to Argyle; move y3 from Argyle to Felix; move b1 from Village to Ts52
+sacrifice b3 at Ts52; convert b3 to y3 at Ts52; convert r2 to y2 at Ts52; convert r1 to y1 at Ts52; catastrophe yellow at Ts52

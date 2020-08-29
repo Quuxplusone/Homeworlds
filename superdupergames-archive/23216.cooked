@@ -1,0 +1,64 @@
+Ts52 (0, y1b3) g3-
+Broccoli_Commander (1, y1g2) -y3
+build g1 at Ts52
+build y1 at Broccoli_Commander
+move g1 from Ts52 to Gonzo (b2)
+move y1 from Broccoli_Commander to Lettuce (g3)
+build g1 at Ts52
+build y2 at Lettuce
+build g1 at Gonzo
+build y2 at Lettuce
+build g2 at Gonzo
+build y2 at Broccoli_Commander
+move g1 from Ts52 to Grover (b2)
+move y2 from Broccoli_Commander to Watermelon (g3)
+build g2 at Ts52
+build y3 at Watermelon
+convert g2 to r2 at Ts52
+build y3 at Watermelon
+build g2 at Ts52
+move y3 from Watermelon to Gonzo
+convert g2 to r2 at Gonzo
+convert y3 to r3 at Gonzo
+sacrifice g2 at Ts52; build r1 at Gonzo; build r1 at Gonzo; catastrophe red at Gonzo
+build y3 at Watermelon
+build g2 at Grover
+move y3 from Watermelon to Grover
+convert g1 to r1 at Grover
+convert y3 to r3 at Grover
+sacrifice g2 at Grover; build r1 at Grover; build r1 at Grover; catastrophe red at Grover
+build y3 at Watermelon
+build g1 at Ts52
+move y3 from Watermelon to Gonzo
+sacrifice g3 at Ts52; build g2 at Ts52; build g2 at Gonzo; build g3 at Ts52
+convert y3 to r3 at Gonzo
+convert g3 to y3 at Ts52
+capture g2 at Gonzo
+sacrifice g2 at Ts52; build g2 at Gonzo; build g3 at Ts52; catastrophe green at Gonzo
+move y2 from Lettuce to Gonzo
+move y3 from Ts52 to Kermit (g2)
+convert y2 to g2 at Gonzo
+move g1 from Ts52 to Zoe (y2)
+build g1 at Gonzo
+move y3 from Kermit to Grover (b3)
+convert g1 to b1 at Gonzo
+sacrifice g1 at Zoe; build y2 at Grover
+sacrifice b1 at Gonzo; convert y3 to r3 at Broccoli_Commander
+build g1 at Ts52
+build y3 at Lettuce
+convert y2 to g2 at Grover
+build y2 at Watermelon
+build g1 at Grover
+build g1 at Gonzo
+move g1 from Ts52 to Cookie (b2)
+sacrifice y3 at Watermelon; move y2 from Watermelon to Gonzo; move y2 from Watermelon to Gonzo; move y3 from Lettuce to Cookie
+build g3 at Cookie
+build y3 at Lettuce
+convert g1 to r1 at Cookie
+sacrifice r3 at Gonzo; capture g3 at Cookie; capture r1 at Cookie
+build r1 at Ts52
+sacrifice y3 at Lettuce; move g1 from Gonzo to Ts52; move g2 from Gonzo to Ts52; move g3 from Cookie to Ts52; catastrophe green at Ts52
+convert r2 to g2 at Ts52
+sacrifice y2 at Gonzo; move y2 from Lettuce to Broccoli_Commander; move y3 from Cookie to Ts52
+sacrifice g2 at Ts52; build y2 at Grover; build y3 at Grover
+sacrifice r1 at Cookie; capture r1 at Ts52

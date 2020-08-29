@@ -1,0 +1,42 @@
+Kalimantan (0, y3g1) r3-
+Felix (1, r3y2) -g3
+build r1 at Kalimantan
+build g1 at Felix
+build r1 at Kalimantan
+build g1 at Felix
+move r1 from Kalimantan to Dagoba (b2)
+move g1 from Felix to Flip (b1)
+move r1 from Kalimantan to Dagoba
+build g2 at Flip
+convert r1 to b1 at Dagoba
+convert g2 to b2 at Flip
+convert r1 to y1 at Dagoba
+build g2 at Flip
+move b1 from Dagoba to Kalimantan
+convert g2 to y2 at Flip
+build r1 at Kalimantan
+move b2 from Flip to Felix
+move r1 from Kalimantan to Dagoba
+build g2 at Flip
+move r1 from Dagoba to Flip
+convert g2 to r2 at Flip
+capture g1 at Flip
+sacrifice r2 at Flip; capture r1 at Flip; capture g1 at Flip
+build r1 at Kalimantan
+build g2 at Flip
+convert r3 to g3 at Kalimantan
+move g2 from Flip to Flop (b2)
+sacrifice g3 at Kalimantan; build b1 at Kalimantan; build b3 at Kalimantan; build y1 at Dagoba
+build b3 at Felix
+convert b3 to g3 at Kalimantan
+build b3 at Felix
+sacrifice g3 at Kalimantan; build b3 at Kalimantan; build r1 at Kalimantan; build r2 at Kalimantan
+move b3 from Felix to Flap (y1)
+move r2 from Kalimantan to Flop
+sacrifice r1 at Flip; capture r2 at Flop
+move y1 from Dagoba to Flip
+move b3 from Flap to Flop
+sacrifice r1 at Kalimantan; capture g1 at Flip
+sacrifice y2 at Flip; move b3 from Flop to Kalimantan; move r2 from Flop to Kalimantan; catastrophe blue at Kalimantan
+build r1 at Kalimantan
+sacrifice g1 at Felix; build r1 at Kalimantan; catastrophe red at Kalimantan

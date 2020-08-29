@@ -1,0 +1,33 @@
+Jesse (0, b2y1) g3-
+Andylooney (1, b3g2) -y3
+build g1 at Jesse
+build y1 at Andylooney
+move g1 from Jesse to Chewy (b3)
+convert y1 to g1 at Andylooney
+build g1 at Jesse
+move g1 from Andylooney to Yellowrock (y1)
+build g2 at Chewy
+build y1 at Andylooney
+convert g2 to y2 at Chewy
+build g2 at Yellowrock
+sacrifice g3 at Jesse; build g2 at Chewy; build g3 at Jesse; build y2 at Chewy
+move g2 from Yellowrock to Clampett (y3)
+convert g1 to r1 at Jesse
+convert y1 to r1 at Andylooney
+move g2 from Chewy to Horch (y1)
+move g1 from Yellowrock to Bigblue (b3)
+move y2 from Chewy to Schnoz (g1)
+build g3 at Bigblue
+build g3 at Horch
+sacrifice g3 at Bigblue; build g3 at Bigblue; build y1 at Andylooney; build r1 at Andylooney
+sacrifice g3 at Horch; build g3 at Horch; build y2 at Chewy; build y3 at Schnoz
+move y1 from Andylooney to Littleblue (b1)
+move g3 from Horch to Clampett
+move g2 from Clampett to Littleblue
+sacrifice g3 at Clampett; build g3 at Horch; build y3 at Schnoz; build r2 at Jesse
+move r1 from Andylooney to Littleblue
+sacrifice y2 at Chewy; move y3 from Schnoz to Andylooney; move g3 from Horch to Andylooney
+capture y3 at Andylooney
+sacrifice r2 at Jesse; capture y3 at Andylooney; capture y3 at Andylooney
+pass
+sacrifice r1 at Jesse; capture r1 at Andylooney

@@ -1,0 +1,35 @@
+Detectiveazul (0, g2b1) y3-
+Rizzotto (1, g3b2) -r3
+build y1 at Detectiveazul
+build r1 at Rizzotto
+build y1 at Detectiveazul
+convert r1 to y1 at Rizzotto
+move y1 from Detectiveazul to Yvolo (g3)
+build y2 at Rizzotto
+move y1 from Detectiveazul to Yyovoledeel (g3)
+build y2 at Rizzotto
+build y2 at Yvolo
+convert y2 to r2 at Rizzotto
+build y2 at Yyovoledeel
+build r1 at Rizzotto
+build y3 at Detectiveazul
+move r2 from Rizzotto to Elpan (g1)
+build y3 at Detectiveazul
+move y1 from Rizzotto to Elpan
+convert y3 to r3 at Detectiveazul
+build y3 at Rizzotto
+convert y3 to b3 at Detectiveazul
+sacrifice y2 at Rizzotto; move r3 from Rizzotto to Elpan; move r3 from Elpan to Yvolo
+sacrifice y2 at Yvolo; move r3 from Detectiveazul to Yvolo; move r3 from Yvolo to Elpan
+move r2 from Elpan to Yvolo
+sacrifice y1 at Yvolo; move y2 from Yyovoledeel to Elpan
+sacrifice y1 at Elpan; move r3 from Yvolo to Detectiveazul
+sacrifice r3 at Elpan; capture r3 at Detectiveazul
+build y1 at Rizzotto
+build y1 at Yyovoledeel
+convert y3 to r3 at Rizzotto
+build y2 at Elpan
+build y2 at Rizzotto
+build y3 at Detectiveazul
+convert r3 to y3 at Rizzotto
+move y2 from Elpan to Rizzotto; catastrophe yellow at Rizzotto

@@ -1,0 +1,62 @@
+Jerzy (0, y1b2) g3-
+Fabi (1, b2y1) -g3
+build g1 at Jerzy
+build g1 at Fabi
+build g1 at Jerzy
+convert g1 to y1 at Fabi
+convert g1 to r1 at Jerzy
+build y2 at Fabi
+build r1 at Jerzy
+convert y1 to r1 at Fabi
+move r1 from Jerzy to Fatoldsun (y3)
+build y1 at Fabi
+build r2 at Jerzy
+build r2 at Fabi
+convert r2 to y2 at Jerzy
+move r1 from Fabi to Thinyoungmoon (g3)
+build r2 at Jerzy
+move y2 from Fabi to Thinyoungmoon
+move g1 from Jerzy to Fatoldsun
+build y2 at Thinyoungmoon
+move y2 from Jerzy to Fatoldsun
+build r2 at Fabi
+move r1 from Jerzy to Fatoldsun
+move r2 from Fabi to Thinyoungmoon
+build r3 at Jerzy
+build g1 at Fabi
+move r3 from Jerzy to Thinyoungmoon
+sacrifice y2 at Thinyoungmoon; move y2 from Thinyoungmoon to Adalimumab (g2); move r2 from Thinyoungmoon to Adalimumab
+build r3 at Jerzy
+move g1 from Fabi to Cetuximab (y3)
+convert r3 to y3 at Jerzy
+build g1 at Fabi
+build g2 at Fatoldsun
+convert g1 to b1 at Fabi
+build g1 at Fatoldsun
+sacrifice y2 at Adalimumab; move g1 from Cetuximab to Adalimumab; move g1 from Adalimumab to Fatoldsun; catastrophe green at Fatoldsun
+capture r1 at Thinyoungmoon
+build r3 at Adalimumab
+sacrifice y3 at Jerzy; move r1 from Fatoldsun to Fabi; move r1 from Fatoldsun to Fabi; move r1 from Thinyoungmoon to Fabi; catastrophe red at Fabi
+convert b1 to r1 at Fabi
+build r1 at Thinyoungmoon
+build r1 at Fabi
+move y2 from Fatoldsun to Jerzy
+convert r1 to b1 at Fabi
+build g1 at Jerzy
+build y2 at Fabi
+convert g1 to b1 at Jerzy
+sacrifice y2 at Fabi; move r3 from Adalimumab to Thinyoungmoon; move r2 from Adalimumab to Thinyoungmoon; catastrophe red at Thinyoungmoon
+build g1 at Jerzy
+move y1 from Fabi to Acarbose (g3)
+move r2 from Jerzy to Acarbose
+move y1 from Acarbose to Fabi
+build r1 at Acarbose
+build y2 at Fabi
+move b1 from Jerzy to Acarbose
+build g1 at Fabi
+convert r1 to b1 at Acarbose
+move b1 from Fabi to Bigo (r3)
+convert r2 to y2 at Acarbose
+move y2 from Fabi to Bigo
+move g3 from Jerzy to Bigo
+move y2 from Bigo to Jerzy

@@ -1,0 +1,36 @@
+Mangchi (0, g3b1) y3-
+Nuberu (1, r2b1) -g3
+build y1 at Mangchi
+build g1 at Nuberu
+convert y1 to r1 at Mangchi
+convert g1 to r1 at Nuberu
+move r1 from Mangchi to Ferengi (r2)
+build g1 at Nuberu
+build y1 at Mangchi
+convert g1 to y1 at Nuberu
+convert y1 to g1 at Mangchi
+build g1 at Nuberu
+move g1 from Mangchi to Ferengi
+move r1 from Nuberu to Trasgu (b3)
+build y1 at Mangchi
+build g1 at Nuberu
+convert y1 to b1 at Mangchi
+move g1 from Nuberu to Trasgu
+move b1 from Mangchi to Ferengi
+build g2 at Trasgu
+build y1 at Mangchi
+convert g2 to y2 at Trasgu
+move y1 from Mangchi to Ferengi
+build g2 at Trasgu
+build y1 at Mangchi
+move g2 from Trasgu to Xana (y2)
+move g1 from Ferengi to Judo (b3)
+build g2 at Trasgu
+build g2 at Judo
+build g3 at Xana
+build y2 at Mangchi
+sacrifice g3 at Nuberu; build y3 at Trasgu; build y3 at Nuberu; build g3 at Nuberu
+move y2 from Mangchi to Ferengi
+move y3 from Trasgu to Ferengi
+move y2 from Ferengi to Judo
+sacrifice y3 at Nuberu; move y3 from Ferengi to Mangchi; move y2 from Trasgu to Xana; move y2 from Xana to Mangchi; catastrophe yellow at Mangchi

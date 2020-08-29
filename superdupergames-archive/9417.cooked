@@ -1,0 +1,8 @@
+Stoneaxe (0, y1b3) g3-
+Wyons (1, y1b2) -g3
+build g1 at Stoneaxe
+build g1 at Wyons
+build g1 at Stoneaxe
+build g2 at Wyons
+build g2 at Stoneaxe
+convert g1 to r1 at Wyons; catastrophe green at Stoneaxe

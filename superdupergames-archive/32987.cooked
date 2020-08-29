@@ -1,0 +1,29 @@
+Remneb (0, r1b2) g3-
+Eliscinsky (1, r1b2) -g3
+build g1 at Remneb
+build g1 at Eliscinsky
+convert g1 to y1 at Remneb
+convert g1 to y1 at Eliscinsky
+build g1 at Remneb
+build g1 at Eliscinsky
+convert g1 to r1 at Remneb
+move y1 from Eliscinsky to Proto (r3)
+build r2 at Remneb
+build g1 at Eliscinsky
+convert r2 to y2 at Remneb
+convert g1 to y1 at Eliscinsky
+build g1 at Remneb
+build g1 at Eliscinsky
+sacrifice y2 at Remneb; move g1 from Remneb to Proto; move g1 from Proto to Eliscinsky; catastrophe green at Eliscinsky
+convert y1 to g1 at Eliscinsky
+build r2 at Remneb
+build g1 at Eliscinsky
+move r2 from Remneb to Trump (y3)
+convert g1 to b1 at Eliscinsky
+move r2 from Trump to Eliscinsky
+build g1 at Eliscinsky
+capture g1 at Eliscinsky
+build g1 at Eliscinsky
+capture g1 at Eliscinsky
+build g2 at Eliscinsky
+catastrophe green at Eliscinsky; capture b1 at Eliscinsky

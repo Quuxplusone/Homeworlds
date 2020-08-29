@@ -1,0 +1,22 @@
+Madwuher (0, y1b2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Madwuher
+build g1 at Twoshort
+convert g1 to y1 at Madwuher
+convert g1 to y1 at Twoshort
+build g1 at Madwuher
+build y2 at Twoshort
+move g1 from Madwuher to Yuuzhantar (y3)
+move y1 from Twoshort to Grogar (g2)
+build y2 at Madwuher
+sacrifice y2 at Twoshort; move y1 from Grogar to Boomtime (r3); move y1 from Boomtime to Madwuher; catastrophe yellow at Madwuher
+build g1 at Madwuher
+build g1 at Twoshort
+build g2 at Yuuzhantar
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Madwuher
+build g1 at Twoshort
+build g1 at Madwuher
+convert g1 to b1 at Twoshort
+convert g1 to b1 at Madwuher
+move b1 from Twoshort to Madwuher

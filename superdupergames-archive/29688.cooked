@@ -1,0 +1,26 @@
+Felix (0, g3b2) y3-
+Steele (1, b3r1) -g3
+build y1 at Felix
+build g1 at Steele
+convert y1 to g1 at Felix
+convert g1 to y1 at Steele
+build y1 at Felix
+build g1 at Steele
+move g1 from Felix to Element (b1)
+build y1 at Steele
+build y2 at Felix
+build y2 at Steele
+move y2 from Felix to Element
+sacrifice y2 at Steele; move g1 from Steele to Temp (b2); move g1 from Temp to Alpha (b1)
+build y2 at Element
+build g1 at Alpha
+build g2 at Element
+move y1 from Steele to Beta (g2)
+move g2 from Element to Investment (g3)
+build y2 at Beta
+move y2 from Element to Rigor (b2)
+move y1 from Beta to Alpha
+build y3 at Element
+build y3 at Alpha
+build g2 at Element
+sacrifice y2 at Beta; move y1 from Alpha to Felix; move y3 from Alpha to Felix; catastrophe yellow at Felix

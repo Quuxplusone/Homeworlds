@@ -1,0 +1,39 @@
+Ts52 (0, y1b2) g3-
+Javico (1, b2g1) -y3
+build g1 at Ts52
+build y1 at Javico
+build g1 at Ts52
+move y3 from Javico to Nova (r3)
+move g1 from Ts52 to Grover (b3)
+convert y1 to r1 at Javico
+convert g3 to r3 at Ts52
+move y3 from Nova to Javico
+build r1 at Ts52
+build y1 at Javico
+build g2 at Grover
+build y1 at Javico
+convert g2 to y2 at Grover
+move y1 from Javico to Nova (b3)
+build g2 at Grover
+convert y3 to g3 at Javico
+build g2 at Ts52
+move r1 from Javico to Grover
+sacrifice r1 at Ts52; capture r1 at Grover
+build y2 at Javico
+build r1 at Ts52
+convert y1 to r1 at Javico
+build r2 at Grover
+convert y2 to g2 at Javico
+build g3 at Ts52
+convert g2 to y2 at Javico
+move r3 from Ts52 to Nova
+build g2 at Javico
+move g1 from Grover to Javico; catastrophe green at Javico
+convert y1 to g1 at Nova
+capture g1 at Nova
+convert y2 to g2 at Javico
+convert g1 to y1 at Nova
+build g1 at Javico
+move r3 from Nova to Javico
+convert g1 to y1 at Javico
+capture r1 at Javico

@@ -1,0 +1,35 @@
+Mneme (0, b1r2) g3-
+Grosseteste (1, y3b1) -g3
+build g1 at Mneme
+build g1 at Grosseteste
+convert g1 to b1 at Mneme
+build g1 at Grosseteste
+build b2 at Mneme
+convert g1 to r1 at Grosseteste
+convert b2 to y2 at Mneme
+convert g3 to b3 at Grosseteste
+build b2 at Mneme
+build r1 at Grosseteste
+move b2 from Mneme to Staging (g3)
+move r1 from Grosseteste to Luce (y2)
+build b2 at Staging
+move r1 from Luce to Compotus (g3)
+build b2 at Mneme
+build r1 at Compotus
+build b3 at Staging
+build r2 at Compotus
+convert b2 to r2 at Mneme
+build r3 at Grosseteste
+build r3 at Mneme
+build r3 at Grosseteste
+move r2 from Mneme to Compotus; catastrophe red at Compotus
+convert r3 to g3 at Grosseteste
+convert b3 to y3 at Staging
+move b3 from Grosseteste to Hexaemeron (g2)
+build b2 at Staging
+convert r3 to y3 at Grosseteste
+move b2 from Staging to Hexaemeron
+sacrifice r1 at Grosseteste; capture b2 at Hexaemeron
+sacrifice y2 at Mneme; move b2 from Staging to Hexaemeron; move b2 from Staging to Hexaemeron; catastrophe blue at Hexaemeron
+move g1 from Grosseteste to Colore (y2)
+sacrifice y3 at Staging; move g3 from Mneme to Staging (y3); move g3 from Staging to Colore; move g3 from Colore to Grosseteste

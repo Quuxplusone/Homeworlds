@@ -1,0 +1,50 @@
+Zackstack (0, r1b2) g3-
+Ts52 (1, y3b1) -g3
+build g1 at Zackstack
+build g1 at Ts52
+convert g1 to y1 at Zackstack
+convert g1 to r1 at Ts52
+convert y1 to r1 at Zackstack
+build r2 at Ts52
+build r2 at Zackstack
+move r2 from Ts52 to Oscar (g2)
+convert r2 to y2 at Zackstack
+build r2 at Ts52
+move r1 from Zackstack to Gilbert (g3)
+build g1 at Ts52
+build g1 at Zackstack
+convert g1 to b1 at Ts52
+convert g1 to b1 at Zackstack
+build b2 at Ts52
+build b2 at Zackstack
+move b2 from Ts52 to Oscar
+move b2 from Zackstack to Gilbert
+build b3 at Oscar
+build b3 at Gilbert
+convert b3 to y3 at Oscar
+convert b2 to y2 at Gilbert
+build g1 at Ts52
+build b2 at Gilbert
+build b3 at Oscar
+move b2 from Gilbert to Froggy (g2)
+move y3 from Oscar to Gonzo (b3)
+move b1 from Zackstack to Gilbert
+move g1 from Ts52 to Bigbird (y2)
+move b1 from Gilbert to Froggy
+move b1 from Ts52 to Bigbird
+build y1 at Gilbert
+move g1 from Bigbird to Gonzo
+move y2 from Gilbert to Froggy
+build g1 at Ts52
+build g1 at Zackstack
+move r2 from Ts52 to Bigbird
+build y1 at Froggy
+move r2 from Bigbird to Fozzie (y3)
+move b3 from Gilbert to Tadpole (g2)
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Fozzie; build r3 at Ts52
+sacrifice g3 at Zackstack; build g3 at Zackstack; build r3 at Gilbert; build y1 at Gilbert
+build r3 at Oscar
+move y1 from Gilbert to Tadpole
+move r3 from Ts52 to Froggy
+sacrifice y2 at Froggy; move b1 from Froggy to Ts52; move b2 from Froggy to Ts52
+convert b2 to y2 at Oscar

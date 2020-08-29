@@ -1,0 +1,17 @@
+Wil (0, b2y1) g3-
+Ottia (1, g3b2) -y3
+build g1 at Wil
+build y1 at Ottia
+convert g1 to y1 at Wil
+move y1 from Ottia to Parsley (g1)
+build y2 at Wil
+build y2 at Ottia
+move y1 from Wil to G3 (g3)
+convert y2 to b2 at Ottia
+build y2 at Wil
+move b2 from Ottia to Parsley
+move y2 from Wil to B3 (b3)
+build y2 at Parsley
+build y3 at G3
+move y2 from Parsley to Turmeric (y3)
+build g1 at Wil

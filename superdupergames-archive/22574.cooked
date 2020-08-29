@@ -1,0 +1,21 @@
+Bugggg (0, r1b2) g3-
+Swatter (1, r2b3) -g3
+build g1 at Bugggg
+build g1 at Swatter
+build g1 at Bugggg
+build g2 at Swatter
+convert g1 to y1 at Bugggg
+build g1 at Swatter
+convert g3 to y3 at Bugggg
+convert g1 to y1 at Swatter
+sacrifice y3 at Bugggg; move g1 from Bugggg to Genocyber (y3); move g1 from Genocyber to Ranma (y1); move g1 from Ranma to Swatter; catastrophe green at Swatter
+convert y1 to g1 at Swatter
+convert y1 to g1 at Bugggg
+build g1 at Swatter
+build g2 at Bugggg
+convert g1 to r1 at Swatter
+convert g1 to y1 at Bugggg
+build r1 at Swatter
+build y1 at Bugggg
+pass
+move y1 from Bugggg to Moss (y3)

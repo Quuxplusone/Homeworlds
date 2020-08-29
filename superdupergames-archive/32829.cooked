@@ -1,0 +1,9 @@
+Ratpfink (0, g2b1) y3-
+Equinox (1, y3b2) -g3
+build y1 at Ratpfink
+build g1 at Equinox
+build y1 at Ratpfink
+convert g1 to y1 at Equinox
+convert y1 to g1 at Ratpfink
+build y1 at Equinox
+sacrifice y3 at Ratpfink; move y1 from Ratpfink to Wampa (r3); move y1 from Wampa to Lexi (r1); move y1 from Lexi to Equinox; catastrophe yellow at Equinox

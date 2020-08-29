@@ -1,0 +1,53 @@
+Ajo (0, b3r1) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Ajo
+build g1 at Ts52
+convert g1 to y1 at Ajo
+convert g1 to y1 at Ts52
+build g1 at Ajo
+build g1 at Ts52
+move g1 from Ajo to Alpha (b2)
+move g1 from Ts52 to Grover (b3)
+build g1 at Ajo
+build g2 at Grover
+build g2 at Alpha
+convert g2 to y2 at Grover
+convert g2 to r2 at Alpha
+convert y1 to r1 at Ts52
+build g2 at Alpha
+build g2 at Ts52
+convert g2 to y2 at Alpha
+build g2 at Grover
+build y1 at Alpha
+move g2 from Grover to Gonzo (b2)
+move y1 from Alpha to Oscar (g3)
+build g2 at Gonzo
+move g1 from Ajo to Beta (b2)
+convert g2 to r2 at Ts52
+sacrifice g3 at Ajo; build y1 at Oscar; build y3 at Ajo; build y3 at Alpha
+sacrifice g2 at Gonzo; build g2 at Ts52; build y3 at Grover
+build g2 at Beta
+build g3 at Gonzo
+convert y3 to b3 at Alpha
+convert y3 to r3 at Grover
+sacrifice g2 at Beta; build y3 at Oscar; build y3 at Alpha
+build g2 at Grover
+move b3 from Alpha to Oscar
+convert g1 to b1 at Grover
+build b1 at Oscar
+move b1 from Grover to Elmo (r2)
+move y3 from Oscar to Elmo
+move r3 from Grover to Beta
+capture b1 at Elmo
+build g1 at Grover
+convert b3 to r3 at Oscar
+capture g1 at Beta
+build b3 at Oscar
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Beta; build r3 at Beta
+move r3 from Oscar to Beta; catastrophe red at Beta
+move r2 from Ts52 to Grover
+move y2 from Alpha to Waypoint (r3)
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Grover; build r3 at Grover
+sacrifice y3 at Elmo; move y2 from Waypoint to Ts52; move y1 from Oscar to Ts52; move y1 from Oscar to Ts52; catastrophe yellow at Ts52
+move r3 from Grover to Elmo
+sacrifice y3 at Alpha; move b1 from Elmo to Ts52; move b1 from Oscar to Ts52; move b3 from Oscar to Ts52; catastrophe blue at Ts52

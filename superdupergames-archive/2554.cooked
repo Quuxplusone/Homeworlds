@@ -1,0 +1,30 @@
+Laurie_Menke (0, b1g2) y3-
+Junkman (1, b2g3) -y3
+build y1 at Laurie_Menke
+build y1 at Junkman
+move y1 from Laurie_Menke to Forest (g3)
+convert y1 to r1 at Junkman
+build y1 at Forest
+build y1 at Junkman
+build y2 at Laurie_Menke
+move y1 from Junkman to Garden (g1)
+convert y2 to b2 at Laurie_Menke
+build y2 at Garden
+move b2 from Laurie_Menke to Envy (g3)
+move y1 from Garden to Factory (b3)
+build b1 at Envy
+build y2 at Garden
+move y1 from Forest to Sunshine (y2)
+build y3 at Junkman
+move y1 from Sunshine to Envy
+move y2 from Garden to Factory
+build y2 at Forest
+move y2 from Garden to Mars (r3)
+move b2 from Envy to Laurie_Menke
+convert y1 to g1 at Factory
+move y1 from Forest to Luella (y1)
+move y3 from Junkman to Bunker (r1)
+move y3 from Laurie_Menke to Mars
+move y2 from Mars to Laurie_Menke
+convert b2 to r2 at Laurie_Menke
+sacrifice r1 at Junkman; capture r2 at Laurie_Menke

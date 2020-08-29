@@ -1,0 +1,34 @@
+Languidude (0, b3r2) g3-
+Babamots (1, r1b3) -g3
+build g1 at Languidude
+build g1 at Babamots
+convert g1 to y1 at Languidude
+convert g1 to r1 at Babamots
+build g1 at Languidude
+build r1 at Babamots
+convert g3 to r3 at Languidude
+convert r1 to y1 at Babamots
+build g1 at Languidude
+build r1 at Babamots
+convert g1 to b1 at Languidude
+move r1 from Babamots to Orion (g2)
+build r2 at Languidude
+sacrifice g3 at Babamots; build r2 at Orion; build r3 at Orion; build r3 at Babamots
+move r2 from Languidude to Antoinette (b1)
+sacrifice y1 at Babamots; move r3 from Orion to Antoinette
+sacrifice y1 at Languidude; move r2 from Antoinette to Brahmin (y2)
+convert r1 to g1 at Babamots
+build r1 at Languidude
+convert r3 to y3 at Antoinette
+convert r3 to y3 at Languidude
+build r3 at Orion
+build b1 at Languidude
+move y3 from Antoinette to Orion
+sacrifice y3 at Languidude; move r1 from Languidude to Kobayashi (y1); move r1 from Kobayashi to Orion; move r2 from Brahmin to Casanova (g3); catastrophe red at Orion
+move y3 from Orion to Nausicaa (r1)
+convert b1 to y1 at Languidude
+move y3 from Nausicaa to Languidude
+build y1 at Languidude
+sacrifice r3 at Babamots; capture y1 at Languidude; capture y1 at Languidude; capture g1 at Languidude
+convert b1 to y1 at Languidude
+catastrophe yellow at Languidude

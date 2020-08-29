@@ -1,0 +1,56 @@
+Logikal (0, r2b1) g3-
+Makertron (1, r2b1) -g3
+build g1 at Logikal
+build g1 at Makertron
+convert g1 to y1 at Logikal
+convert g1 to y1 at Makertron
+move y1 from Logikal to L1 (y3)
+convert y1 to r1 at Makertron
+move y1 from L1 to Logikal
+convert r1 to y1 at Makertron
+build g1 at Logikal
+build g1 at Makertron
+move g1 from Logikal to L1 (g3)
+move g1 from Makertron to L2 (y3)
+build y1 at Logikal
+build g1 at L2
+sacrifice g1 at L1; build y2 at Logikal
+build y2 at Makertron
+build g1 at Logikal
+build g2 at L2
+convert y1 to b1 at Logikal
+build y1 at Makertron
+build b2 at Logikal
+convert y2 to b2 at Makertron
+move g1 from Logikal to L1 (y3)
+build y2 at Makertron
+sacrifice y2 at Logikal; move g1 from L1 to Logikal; move g1 from Logikal to L2; catastrophe green at L2
+move y1 from Makertron to Spacehat (y3)
+move b1 from Logikal to L1 (g3)
+convert y1 to g1 at Makertron
+build b2 at L1
+move y2 from Makertron to Jhaze (b3)
+convert b1 to g1 at L1
+convert g1 to y1 at Makertron
+build g1 at Logikal
+build g1 at Makertron
+build y2 at Logikal
+build y2 at Makertron
+move y1 from Logikal to L1
+move g1 from Makertron to Spacehat
+build b1 at L1
+build b3 at Makertron
+build y3 at L1
+move b2 from Makertron to Spacehat
+build y3 at Logikal
+build b3 at Spacehat
+convert b2 to r2 at Logikal
+convert b3 to r3 at Spacehat
+sacrifice y2 at Logikal; move b1 from L1 to Makertron; move b2 from L1 to Makertron; catastrophe blue at Makertron
+build b1 at Spacehat
+build y2 at Logikal
+move b1 from Spacehat to Makertron
+move r2 from Logikal to L1
+build g2 at Spacehat
+move y2 from Logikal to L2 (b3)
+build g2 at Makertron

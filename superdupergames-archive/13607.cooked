@@ -1,0 +1,36 @@
+Joe (0, y1g2) b3-
+Zackstack (1, b3r1) -g3
+build b1 at Joe
+build g1 at Zackstack
+build b1 at Joe
+convert g1 to y1 at Zackstack
+move b1 from Joe to Prinsh (g3)
+build g1 at Zackstack
+build b1 at Prinsh
+move g1 from Zackstack to Azure (b2)
+build b2 at Prinsh
+build g1 at Azure
+convert b2 to r2 at Prinsh
+build y1 at Zackstack
+convert b3 to y3 at Joe
+build y2 at Zackstack
+move y3 from Joe to Prinsh
+sacrifice y2 at Zackstack; move g1 from Azure to Sunshine (y3); move g1 from Azure to Sunshine
+build b2 at Joe
+move g1 from Sunshine to Joe
+convert y3 to r3 at Prinsh
+build g1 at Joe
+build b2 at Joe
+build g2 at Sunshine
+sacrifice r2 at Prinsh; capture g1 at Joe; capture g1 at Joe
+move g1 from Sunshine to Joe; catastrophe green at Joe
+convert b2 to y2 at Joe
+build y2 at Zackstack
+build b2 at Prinsh
+build g1 at Zackstack
+convert b2 to y2 at Prinsh
+move y2 from Zackstack to Crimson (r2)
+convert b1 to r1 at Joe
+sacrifice g3 at Zackstack; build y3 at Crimson; build y3 at Zackstack; build g1 at Sunshine
+move r3 from Prinsh to Joe
+sacrifice y3 at Zackstack; move y3 from Crimson to Joe; move g2 from Sunshine to Crimson; move y2 from Crimson to Joe; catastrophe yellow at Joe

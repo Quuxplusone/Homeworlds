@@ -1,0 +1,49 @@
+Wil (0, g2b1) r3-
+Felix (1, r3g2) -y3
+build r1 at Wil
+build y1 at Felix
+convert r1 to b1 at Wil
+move y1 from Felix to Petri (g1)
+convert b1 to y1 at Wil
+build y1 at Petri
+build y2 at Wil
+build y2 at Felix
+move y1 from Wil to G3 (g3)
+move y2 from Felix to Algae (b1)
+build y2 at Wil
+move y1 from Petri to G3
+move y2 from Wil to Gee3 (g3)
+convert y2 to b2 at Algae
+build r1 at Wil
+sacrifice y1 at G3; move b2 from Algae to Felix
+move y1 from G3 to Petri
+move y1 from Petri to Dish (g3)
+move r1 from Wil to Dish
+build y1 at Felix
+capture y1 at Dish
+convert y1 to r1 at Felix
+build r1 at Wil
+build b1 at Felix
+build r2 at Wil
+move b2 from Felix to Petri
+build r2 at Dish
+move r1 from Felix to Petri
+sacrifice r1 at Dish; capture r1 at Petri
+build b1 at Felix
+move r2 from Dish to Petri
+build b2 at Felix
+capture b2 at Petri
+move b2 from Felix to Out (y1)
+move r2 from Wil to Dish
+convert b1 to g1 at Felix
+build y2 at Petri
+move g1 from Felix to Apophis (b1)
+build y3 at Wil
+build g1 at Apophis
+build y3 at Dish
+build g2 at Apophis
+move y2 from Gee3 to Apophis
+sacrifice g2 at Apophis; build b2 at Out; build b3 at Felix
+build b3 at Petri
+convert b3 to r3 at Felix
+sacrifice y2 at Wil; move r2 from Petri to Felix; move r1 from Petri to Felix; catastrophe red at Felix

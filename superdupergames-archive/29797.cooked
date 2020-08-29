@@ -1,0 +1,91 @@
+Zakmagnus (0, b3g2) y3-
+Felix (1, b1g3) -r3
+build y1 at Zakmagnus
+build r1 at Felix
+move y1 from Zakmagnus to Submarine (y1)
+convert r1 to y1 at Felix
+build y2 at Zakmagnus
+build y2 at Felix
+convert y2 to r2 at Zakmagnus
+move y2 from Felix to Rykan (g2)
+move r2 from Zakmagnus to Submarine
+build r1 at Felix
+build y2 at Zakmagnus
+build y2 at Rykan
+convert y2 to r2 at Zakmagnus
+move y2 from Rykan to Issichar (g1)
+move y1 from Submarine to Lush (g3)
+build y2 at Felix
+build y3 at Zakmagnus
+build y3 at Issichar
+move y3 from Zakmagnus to Bill (b1)
+convert y1 to b1 at Felix
+convert y3 to g3 at Bill
+build b2 at Felix
+build g1 at Bill
+convert b2 to g2 at Felix
+move y1 from Lush to Bill
+move g2 from Felix to Still (b2)
+sacrifice g3 at Bill; build g1 at Bill; build g3 at Bill; build r1 at Zakmagnus
+build g3 at Still
+sacrifice g3 at Bill; build g3 at Bill; build y1 at Zakmagnus; build y3 at Bill
+build b2 at Felix
+sacrifice y3 at Bill; move g1 from Bill to Still; move g1 from Bill to Still; move r2 from Submarine to Thumb (b3); catastrophe green at Still
+move b1 from Felix to Rykan
+build g1 at Bill
+build b2 at Rykan
+convert r2 to g2 at Thumb
+build b2 at Felix
+sacrifice g3 at Bill; build g1 at Thumb; build g3 at Bill; build g3 at Bill
+build b3 at Rykan
+sacrifice g3 at Bill; build g3 at Thumb; build y1 at Bill; build y3 at Bill
+move y2 from Rykan to Bill; catastrophe yellow at Bill
+move y1 from Zakmagnus to Bill
+build y1 at Felix
+sacrifice g3 at Bill; build g3 at Bill; build y1 at Zakmagnus; build y2 at Bill
+convert b3 to y3 at Rykan
+move y1 from Bill to Thumb
+build b3 at Rykan
+sacrifice y2 at Bill; move y1 from Thumb to Issichar; move y1 from Zakmagnus to Issichar; catastrophe yellow at Issichar
+convert r1 to g1 at Felix
+convert g2 to y2 at Thumb
+move y2 from Felix to Opus (g2)
+sacrifice g3 at Bill; build g3 at Bill; build y1 at Zakmagnus; build y1 at Thumb
+build y2 at Rykan
+sacrifice g3 at Bill; build g3 at Bill; build y3 at Zakmagnus; build r1 at Zakmagnus
+sacrifice y2 at Rykan; move y2 from Opus to Bill; move y2 from Bill to Zakmagnus; catastrophe yellow at Zakmagnus
+sacrifice y1 at Thumb; move g3 from Bill to Zakmagnus
+build r1 at Felix
+convert r1 to y1 at Zakmagnus
+move b2 from Rykan to Onyx (y1)
+sacrifice g3 at Thumb; build g2 at Bill; build g3 at Thumb; build y2 at Zakmagnus
+move b3 from Rykan to Bill
+sacrifice g2 at Bill; build y2 at Thumb; build y3 at Thumb
+build y3 at Felix
+move g3 from Thumb to Onyx
+move b2 from Onyx to Rykan
+sacrifice g1 at Bill; build g1 at Onyx
+move g1 from Felix to Ledge (r2)
+build g2 at Thumb
+move r1 from Felix to Rykan
+move r1 from Zakmagnus to Onyx
+sacrifice y1 at Felix; move b2 from Rykan to Entry (y1)
+sacrifice g3 at Onyx; build g3 at Onyx; build r1 at Zakmagnus; build r2 at Onyx
+build r3 at Rykan
+build r3 at Zakmagnus
+move b2 from Entry to Zakmagnus
+capture b2 at Zakmagnus
+sacrifice y3 at Rykan; move b3 from Bill to Zakmagnus; move b1 from Rykan to Onyx; move b1 from Onyx to Zakmagnus; catastrophe blue at Zakmagnus
+move g3 from Onyx to Ledge
+sacrifice g1 at Ledge; build y1 at Felix
+sacrifice y2 at Thumb; move y2 from Zakmagnus to Felix; move y1 from Zakmagnus to Felix; catastrophe yellow at Felix
+convert b2 to y2 at Felix
+sacrifice g3 at Ledge; build g1 at Zakmagnus; build g3 at Onyx; build y1 at Thumb
+build r2 at Felix
+sacrifice y2 at Thumb; move r1 from Zakmagnus to Felix; move r2 from Zakmagnus to Felix; catastrophe red at Felix
+sacrifice y2 at Felix; move r3 from Rykan to Felix; move r1 from Rykan to Felix
+sacrifice y3 at Thumb; move r1 from Onyx to Zakmagnus; move r1 from Zakmagnus to Felix; move r3 from Zakmagnus to Felix; catastrophe red at Felix
+build b1 at Felix
+sacrifice y1 at Thumb; move g3 from Zakmagnus to Felix
+build b1 at Felix
+sacrifice g2 at Thumb; build g2 at Felix; build g2 at Felix; catastrophe green at Felix; catastrophe blue at Felix

@@ -1,0 +1,23 @@
+Dlwillson (0, r3b1) g3-
+Agentofchaos (1, b2r1) -g3
+build g1 at Dlwillson
+build g1 at Agentofchaos
+convert g1 to y1 at Dlwillson
+build g1 at Agentofchaos
+build y1 at Dlwillson
+convert g1 to y1 at Agentofchaos
+move y1 from Dlwillson to Smorgasbord (b2)
+build y2 at Agentofchaos
+build y2 at Dlwillson
+build g1 at Agentofchaos
+move y1 from Dlwillson to Buffet (g2)
+convert g1 to r1 at Agentofchaos
+build g1 at Dlwillson
+move y2 from Agentofchaos to Dagon (g3)
+sacrifice g3 at Dlwillson; build y2 at Smorgasbord; build y3 at Buffet; build y3 at Dlwillson
+build y3 at Dagon
+sacrifice y2 at Dlwillson; move y1 from Buffet to Dagon; move y1 from Smorgasbord to Dagon; catastrophe yellow at Dagon
+build r1 at Agentofchaos
+build g1 at Dlwillson
+build y1 at Agentofchaos
+move g1 from Dlwillson to Smorgasbord

@@ -1,0 +1,12 @@
+Borg_King (0, r2g1) y3-
+Cakepan (1, r3b2) -g3
+build y1 at Borg_King
+build g1 at Cakepan
+move y1 from Borg_King to One (b3)
+convert g1 to y1 at Cakepan
+convert y1 to b1 at One
+build g1 at Cakepan
+build y1 at Borg_King
+move g1 from Cakepan to Redvelvet (b1)
+move y1 from Borg_King to One
+build g1 at Redvelvet

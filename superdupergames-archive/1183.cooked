@@ -1,0 +1,67 @@
+Andylooney (0, b1g2) y3-
+Laurie_Menke (1, g3y1) -b3
+build y1 at Andylooney
+build b1 at Laurie_Menke
+build y1 at Andylooney
+build b1 at Laurie_Menke
+convert y1 to g1 at Andylooney
+convert b3 to r3 at Laurie_Menke
+convert y1 to r1 at Andylooney
+build b2 at Laurie_Menke
+build y1 at Andylooney
+build b2 at Laurie_Menke
+move g1 from Andylooney to Clampett (y3)
+convert b2 to y2 at Laurie_Menke
+move y1 from Andylooney to Garden (g3)
+move b2 from Laurie_Menke to Miner49Er (y2)
+build r1 at Andylooney
+build y1 at Laurie_Menke
+build y2 at Andylooney
+move y1 from Laurie_Menke to Growth (g2)
+build y3 at Garden
+build r1 at Laurie_Menke
+move r1 from Andylooney to Paradise (g3)
+move r3 from Laurie_Menke to Reforestation (g2)
+build r2 at Andylooney
+move y2 from Laurie_Menke to Reforestation
+build r2 at Paradise
+move r3 from Reforestation to Laurie_Menke
+move y2 from Andylooney to Paradise
+convert b2 to r2 at Miner49Er
+convert r2 to b2 at Andylooney
+move y1 from Growth to Clampett
+sacrifice r1 at Paradise; capture y1 at Clampett
+move b1 from Laurie_Menke to Reforestation
+move b2 from Andylooney to Paradise
+build b2 at Laurie_Menke
+move y1 from Clampett to Fantasyisland (g2)
+move r1 from Laurie_Menke to Fantasyisland
+sacrifice g1 at Clampett; build y3 at Paradise
+capture y1 at Fantasyisland
+sacrifice y2 at Paradise; move y3 from Paradise to Fantasyisland; move y3 from Garden to Reforestation
+sacrifice y2 at Reforestation; move r1 from Fantasyisland to Garden; move b1 from Reforestation to Garden
+sacrifice r2 at Paradise; capture r1 at Garden; capture b1 at Garden
+build b2 at Laurie_Menke
+build b3 at Garden
+move b2 from Laurie_Menke to Miner49Er
+build b3 at Paradise
+build b3 at Laurie_Menke
+sacrifice y3 at Fantasyisland; move b1 from Garden to Fantasyisland; move b1 from Fantasyisland to Laurie_Menke; move b3 from Paradise to Miner49Er; catastrophe blue at Laurie_Menke
+build r1 at Laurie_Menke
+sacrifice r1 at Andylooney; capture r2 at Miner49Er
+sacrifice r1 at Laurie_Menke; capture r2 at Miner49Er
+sacrifice r1 at Garden; capture r2 at Miner49Er
+move b2 from Miner49Er to Laurie_Menke
+sacrifice b2 at Paradise; convert b3 to r3 at Garden; convert b3 to g3 at Miner49Er
+build y2 at Fantasyisland
+build y2 at Andylooney
+move y2 from Fantasyisland to Laurie_Menke
+build y3 at Reforestation
+convert y2 to r2 at Laurie_Menke
+sacrifice y3 at Reforestation; move r3 from Garden to Fantasyisland; move r3 from Fantasyisland to Laurie_Menke; move r2 from Miner49Er to Laurie_Menke; catastrophe red at Laurie_Menke
+move y1 from Fantasyisland to Laurie_Menke
+convert y3 to r3 at Andylooney
+build b1 at Laurie_Menke
+move y3 from Reforestation to Laurie_Menke
+convert y1 to r1 at Laurie_Menke
+sacrifice r3 at Andylooney; capture b1 at Laurie_Menke; capture b2 at Laurie_Menke; capture r1 at Laurie_Menke

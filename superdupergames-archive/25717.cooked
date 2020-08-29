@@ -1,0 +1,34 @@
+Vanoosbree (0, b1y2) g3-
+Wil (1, y3g2) -b3
+build g1 at Vanoosbree
+build b1 at Wil
+move g1 from Vanoosbree to Omega_Centauri (y3)
+build b1 at Wil
+build g1 at Vanoosbree
+move b1 from Wil to Y1 (y1)
+convert g1 to r1 at Vanoosbree
+build b2 at Wil
+build g1 at Vanoosbree
+convert b2 to g2 at Wil
+build r1 at Vanoosbree
+build b2 at Wil
+build r1 at Vanoosbree
+convert b2 to r2 at Wil
+build r2 at Vanoosbree
+build r2 at Wil
+convert r1 to y1 at Vanoosbree
+move r2 from Wil to Y1
+move r1 from Vanoosbree to Omega_Centauri
+move r2 from Y1 to Omega_Centauri
+convert r2 to b2 at Vanoosbree
+capture g1 at Omega_Centauri
+build b2 at Vanoosbree
+sacrifice g2 at Wil; build b2 at Wil; build b3 at Y1
+convert g3 to r3 at Vanoosbree
+convert b3 to y3 at Y1
+convert b2 to y2 at Vanoosbree
+capture r1 at Omega_Centauri
+build b2 at Vanoosbree
+sacrifice y3 at Y1; move b1 from Y1 to Omega_Centauri; move b1 from Omega_Centauri to Vanoosbree; move r1 from Omega_Centauri to Vanoosbree; catastrophe blue at Vanoosbree
+capture r1 at Vanoosbree
+move r2 from Omega_Centauri to Vanoosbree; catastrophe red at Vanoosbree

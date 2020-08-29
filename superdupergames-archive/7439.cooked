@@ -1,0 +1,68 @@
+Mneme (0, y1g2) b3-
+Zoltar (1, b3g1) -y3
+build b1 at Mneme
+build y1 at Zoltar
+build b1 at Mneme
+build y1 at Zoltar
+move b1 from Mneme to Canary (y3)
+convert y1 to b1 at Zoltar
+convert b1 to y1 at Mneme
+convert y1 to r1 at Zoltar
+build b1 at Mneme
+build b2 at Zoltar
+convert b1 to r1 at Mneme
+move b2 from Zoltar to Greenbelt (g2)
+move y1 from Mneme to Parrot (g3)
+move b1 from Zoltar to Greenhills (g2)
+convert b1 to g1 at Canary
+convert b2 to y2 at Greenbelt
+build g1 at Canary
+move y2 from Greenbelt to Canary
+build g2 at Canary
+sacrifice r1 at Zoltar; capture g2 at Canary
+build g3 at Canary; catastrophe green at Canary
+build b1 at Greenhills
+build r1 at Mneme
+convert b1 to r1 at Greenhills
+build r2 at Mneme
+build r2 at Greenhills
+move r2 from Mneme to Parrot
+convert r2 to y2 at Greenhills
+build r2 at Parrot
+build r2 at Greenhills
+move r2 from Parrot to Sparrow (g2)
+convert r1 to g1 at Greenhills
+build b1 at Mneme
+build g1 at Greenhills
+convert b3 to g3 at Mneme
+move g1 from Greenhills to Canary
+move r1 from Mneme to Crow (g3)
+move g1 from Greenhills to Vulture (y3)
+sacrifice g3 at Mneme; build r1 at Crow; build r3 at Mneme; build r3 at Parrot
+build r3 at Greenhills
+move r1 from Mneme to Fledge (g3)
+move r2 from Greenhills to Fledge
+move r3 from Parrot to Frank (y2)
+capture r1 at Fledge
+move r3 from Frank to Canary
+build y1 at Canary
+capture g1 at Canary
+build y2 at Greenhills
+capture y2 at Canary
+sacrifice g1 at Vulture; build y3 at Zoltar
+move y2 from Canary to Sparrow
+move y3 from Zoltar to Sparrow
+capture y1 at Canary
+sacrifice r2 at Fledge; capture r2 at Sparrow; capture y2 at Sparrow
+build r2 at Parrot
+move y3 from Sparrow to Parrot
+move r3 from Canary to Sparrow
+sacrifice r2 at Sparrow; capture r2 at Parrot; capture r2 at Parrot
+capture y2 at Sparrow
+move r3 from Greenhills to Canary
+sacrifice y2 at Sparrow; move r3 from Sparrow to Parrot; move r3 from Parrot to Greenhills
+sacrifice y2 at Greenhills; move y2 from Greenhills to Crow; move b1 from Greenhills to Zoltar
+move y1 from Parrot to Greenhills
+sacrifice y3 at Parrot; move r1 from Fledge to Mneme; move r2 from Parrot to Mneme; move r2 from Parrot to Mneme; catastrophe red at Mneme
+build y2 at Canary
+move r3 from Canary to Mneme

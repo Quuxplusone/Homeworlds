@@ -1,0 +1,68 @@
+Roguejedi234 (0, b3r2) g3-
+Draw5Playall (1, b1r3) -g3
+build g1 at Roguejedi234
+build g1 at Draw5Playall
+convert g1 to y1 at Roguejedi234
+build g1 at Draw5Playall
+build g1 at Roguejedi234
+convert g1 to b1 at Draw5Playall
+build y1 at Roguejedi234
+convert g1 to y1 at Draw5Playall
+move y1 from Roguejedi234 to Tatooine (g1)
+build y2 at Draw5Playall
+build y2 at Tatooine
+move b1 from Draw5Playall to Earth (g2)
+build y2 at Roguejedi234
+move y1 from Draw5Playall to Earth
+sacrifice y2 at Tatooine; move g1 from Roguejedi234 to Hoth (b1); move y1 from Roguejedi234 to Hoth
+build b2 at Earth
+build g1 at Hoth
+build g2 at Draw5Playall
+build g2 at Roguejedi234
+sacrifice g3 at Draw5Playall; build y2 at Draw5Playall; build y3 at Earth; build g3 at Draw5Playall
+sacrifice g3 at Roguejedi234; build g3 at Roguejedi234; build y3 at Roguejedi234; build y3 at Tatooine
+convert y3 to r3 at Earth
+move y3 from Tatooine to Endor (b2)
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y3 at Earth; build r1 at Earth
+sacrifice y2 at Roguejedi234; move y1 from Hoth to Earth; move y1 from Tatooine to Earth; catastrophe yellow at Earth
+move g2 from Draw5Playall to Icehouse (b2)
+convert g1 to y1 at Hoth
+build b3 at Earth
+build g1 at Hoth
+build y1 at Draw5Playall
+sacrifice y3 at Endor; move g1 from Hoth to Alderaan (b2); move y1 from Hoth to Alderaan; move y1 from Alderaan to Draw5Playall; catastrophe yellow at Draw5Playall
+convert g3 to y3 at Draw5Playall
+sacrifice g3 at Roguejedi234; build g1 at Hoth; build g3 at Roguejedi234; build g3 at Alderaan
+build g3 at Icehouse
+convert g3 to r3 at Alderaan
+convert g2 to y2 at Icehouse
+convert g1 to y1 at Hoth
+move g3 from Icehouse to Draw5Playall
+sacrifice g3 at Roguejedi234; build g1 at Hoth; build g2 at Alderaan; build g3 at Roguejedi234
+build y1 at Draw5Playall
+sacrifice g3 at Roguejedi234; build g3 at Roguejedi234; build g3 at Hoth; build r1 at Alderaan
+move g3 from Draw5Playall to Icehouse
+move g1 from Hoth to Korriban (y2)
+build y1 at Icehouse
+convert g2 to y2 at Alderaan
+move g3 from Icehouse to Draw5Playall
+build g2 at Korriban
+sacrifice y1 at Icehouse; move b1 from Earth to Wolf359 (y3)
+build y1 at Alderaan
+move y1 from Draw5Playall to Earth
+move g1 from Korriban to Belkadan (r1)
+move b2 from Earth to Belkadan
+sacrifice y3 at Roguejedi234; move g3 from Hoth to Earth; move g1 from Hoth to Earth; move g1 from Belkadan to Earth; catastrophe green at Earth
+convert y2 to g2 at Icehouse
+convert g2 to y2 at Roguejedi234
+sacrifice g2 at Icehouse; build b2 at Wolf359; build b3 at Belkadan
+build g1 at Roguejedi234
+convert b2 to g2 at Wolf359
+build r1 at Alderaan
+build b2 at Wolf359
+sacrifice y2 at Alderaan; move r3 from Alderaan to Draw5Playall; move r1 from Alderaan to Draw5Playall
+capture r3 at Draw5Playall
+sacrifice g3 at Roguejedi234; build r2 at Draw5Playall; build r2 at Alderaan; build r3 at Alderaan; catastrophe red at Draw5Playall
+convert b2 to r2 at Wolf359
+move r3 from Alderaan to Wolf359
+sacrifice y3 at Draw5Playall; move b3 from Belkadan to Roguejedi234; move b1 from Wolf359 to Belkadan; move r2 from Wolf359 to Draw5Playall

@@ -1,0 +1,35 @@
+Twoshort (0, r1b3) g3-
+Inundator (1, b3y2) -g3
+build g1 at Twoshort
+build g1 at Inundator
+convert g1 to y1 at Twoshort
+convert g1 to r1 at Inundator
+build g1 at Twoshort
+build g1 at Inundator
+move g1 from Twoshort to Yolonda (y2)
+move g1 from Inundator to Akihabara (b1)
+build y1 at Twoshort
+build g1 at Inundator
+build g2 at Twoshort
+build g2 at Akihabara
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Yolonda; build g3 at Twoshort
+sacrifice g3 at Inundator; build g3 at Inundator; build r1 at Inundator; build r2 at Inundator
+convert g2 to r2 at Twoshort
+move r1 from Inundator to Shibuya (y1)
+move g3 from Yolonda to Shibuya
+move r1 from Shibuya to Yolonda
+sacrifice g2 at Twoshort; build g2 at Shibuya; build y2 at Twoshort
+sacrifice g2 at Akihabara; build g2 at Akihabara; build r2 at Yolonda
+move y1 from Twoshort to Bluestar (b2)
+move r1 from Yolonda to Twoshort
+sacrifice r2 at Twoshort; capture r1 at Twoshort
+sacrifice g2 at Akihabara; build r2 at Yolonda; build r3 at Inundator
+sacrifice g3 at Shibuya; build y3 at Bluestar; build y3 at Bluestar; build y3 at Twoshort
+move r3 from Inundator to Shibuya
+sacrifice y3 at Twoshort; move g1 from Yolonda to Shibuya; move g1 from Shibuya to Inundator; move g2 from Shibuya to Inundator; catastrophe green at Inundator
+convert r2 to g2 at Inundator
+sacrifice y2 at Twoshort; move y3 from Bluestar to Shibuya; move y3 from Shibuya to Inundator
+move r3 from Shibuya to Inundator
+sacrifice r1 at Twoshort; capture r3 at Inundator
+build r1 at Inundator
+sacrifice r3 at Inundator; capture r1 at Inundator; capture r1 at Inundator; capture g2 at Inundator

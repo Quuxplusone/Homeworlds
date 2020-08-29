@@ -1,0 +1,24 @@
+Skullnbones12 (0, g3r1) y3-
+Eliscinsky (1, r1b2) -g3
+build y1 at Skullnbones12
+build g1 at Eliscinsky
+build y1 at Skullnbones12
+convert g1 to y1 at Eliscinsky
+move y1 from Skullnbones12 to Apex (b2)
+build y2 at Eliscinsky
+convert y1 to g1 at Apex
+build g1 at Eliscinsky
+build g1 at Apex
+convert g1 to r1 at Eliscinsky
+build g1 at Apex
+build r2 at Eliscinsky
+convert g1 to y1 at Apex
+sacrifice y2 at Eliscinsky; move r2 from Eliscinsky to Yeller (y3); move r2 from Yeller to Apex
+build y2 at Skullnbones12
+capture y1 at Apex
+move y1 from Skullnbones12 to Apex
+capture y1 at Apex
+build g1 at Apex
+move y1 from Apex to Skullnbones12
+move y2 from Skullnbones12 to Apex
+sacrifice g3 at Eliscinsky; build y2 at Skullnbones12; build y2 at Skullnbones12; build y3 at Apex; catastrophe yellow at Skullnbones12

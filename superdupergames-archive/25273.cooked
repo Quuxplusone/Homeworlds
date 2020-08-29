@@ -1,0 +1,35 @@
+Fogus (0, r1b2) g3-
+Ausmuh (1, b3y1) -g3
+build g1 at Fogus
+build g1 at Ausmuh
+convert g1 to y1 at Fogus
+convert g1 to y1 at Ausmuh
+build g1 at Fogus
+build y2 at Ausmuh
+build y2 at Fogus
+move y1 from Ausmuh to Gwar (g2)
+convert y1 to r1 at Fogus
+move y1 from Gwar to Grass (g3)
+move r1 from Fogus to Grass
+build g1 at Ausmuh
+capture y1 at Grass
+build y1 at Ausmuh
+sacrifice y2 at Fogus; move y1 from Grass to Cats (y2); move y1 from Cats to Ausmuh; catastrophe yellow at Ausmuh
+convert g1 to y1 at Ausmuh
+convert g1 to y1 at Fogus
+build g1 at Ausmuh
+build g1 at Fogus
+move g1 from Ausmuh to Gwar (b2)
+convert g1 to r1 at Fogus
+build g1 at Gwar
+build r2 at Fogus
+build y1 at Ausmuh
+build y2 at Fogus
+build g1 at Ausmuh
+build g2 at Fogus
+move y1 from Ausmuh to Gwar
+sacrifice y2 at Fogus; move g3 from Fogus to Ausmuh; move r1 from Fogus to Ausmuh
+build y2 at Gwar
+capture g3 at Ausmuh
+build g2 at Ausmuh; catastrophe green at Ausmuh
+capture y1 at Ausmuh

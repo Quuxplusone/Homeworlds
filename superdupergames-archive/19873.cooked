@@ -1,0 +1,38 @@
+Nycavri (0, b1y2) g3-
+Remneb (1, r2b3) -g3
+build g1 at Nycavri
+build g1 at Remneb
+convert g1 to y1 at Nycavri
+convert g1 to y1 at Remneb
+build g1 at Nycavri
+build g1 at Remneb
+move g1 from Nycavri to Deacon (y3)
+move g1 from Remneb to Sirius (y1)
+build y2 at Nycavri
+build y2 at Remneb
+move y2 from Nycavri to May (g3)
+move y2 from Remneb to Sirius
+build y3 at May
+build y3 at Remneb
+move y2 from May to Mercury (b1)
+move y3 from Remneb to Mercury
+build g1 at Deacon
+build g2 at Remneb
+move g1 from Deacon to Sirius
+move g2 from Remneb to Mercury
+move g1 from Deacon to Mercury
+build y3 at Remneb
+sacrifice y2 at Mercury; move g1 from Mercury to Remneb; move g1 from Sirius to Remneb
+move g3 from Remneb to Mercury
+build y2 at May
+capture g1 at Remneb
+build g2 at Nycavri
+capture g1 at Remneb
+move y2 from May to Mercury
+convert y1 to r1 at Remneb
+convert y2 to r2 at Mercury
+sacrifice r1 at Remneb; capture r2 at Mercury
+move g2 from Nycavri to Taylor (b3)
+sacrifice y2 at Sirius; move g3 from Mercury to May; move g3 from May to Nycavri
+convert g3 to r3 at Nycavri
+sacrifice r2 at Mercury; capture r3 at Nycavri; capture y1 at Nycavri

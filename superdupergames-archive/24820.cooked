@@ -1,0 +1,60 @@
+Bangle_Tiger (0, b2y1) g3-
+Ultan_The_Blind (1, y3g1) -b3
+build g1 at Bangle_Tiger
+build b1 at Ultan_The_Blind
+build g1 at Bangle_Tiger
+convert b3 to g3 at Ultan_The_Blind
+move g1 from Bangle_Tiger to Coruscant (b3)
+build g2 at Ultan_The_Blind
+build g2 at Coruscant
+move g2 from Ultan_The_Blind to Sullust (y2)
+convert g2 to r2 at Coruscant
+move g2 from Sullust to Kessel (r1)
+build g2 at Coruscant
+build b1 at Ultan_The_Blind
+sacrifice g3 at Bangle_Tiger; build g2 at Bangle_Tiger; build g3 at Bangle_Tiger; build g3 at Coruscant
+convert b1 to y1 at Ultan_The_Blind
+convert g2 to y2 at Coruscant
+sacrifice y1 at Ultan_The_Blind; move g2 from Kessel to Alderaan (y3)
+convert g2 to r2 at Bangle_Tiger
+convert g3 to b3 at Ultan_The_Blind
+move g3 from Coruscant to Sullest (r2)
+convert b1 to r1 at Ultan_The_Blind
+build y1 at Coruscant
+build b1 at Ultan_The_Blind
+build g2 at Sullest
+build g2 at Alderaan
+sacrifice g3 at Sullest; build g3 at Sullest; build g3 at Coruscant; build r1 at Coruscant
+move g2 from Alderaan to Bangle_Tiger
+move g1 from Bangle_Tiger to Hoth (y3)
+sacrifice g2 at Bangle_Tiger; build g2 at Alderaan; build b1 at Ultan_The_Blind
+sacrifice g3 at Coruscant; build g3 at Coruscant; build r1 at Bangle_Tiger; build r3 at Bangle_Tiger
+sacrifice b1 at Ultan_The_Blind; convert g2 to y2 at Alderaan
+sacrifice y2 at Coruscant; move g3 from Sullest to Ultan_The_Blind; move g2 from Sullest to Ultan_The_Blind
+capture g3 at Ultan_The_Blind
+build g2 at Ultan_The_Blind; catastrophe green at Ultan_The_Blind
+move r1 from Ultan_The_Blind to Bangle_Tiger; catastrophe red at Bangle_Tiger
+move r2 from Coruscant to Bangle_Tiger
+convert b3 to g3 at Ultan_The_Blind
+move r2 from Bangle_Tiger to Ultan_The_Blind
+sacrifice b1 at Ultan_The_Blind; convert y2 to r2 at Alderaan
+move g3 from Coruscant to Bangle_Tiger
+build r1 at Alderaan
+convert g3 to r3 at Bangle_Tiger
+sacrifice r1 at Alderaan; capture r2 at Ultan_The_Blind
+build g1 at Hoth
+move r2 from Alderaan to Geonosis (y2)
+move r3 from Bangle_Tiger to Alderaan
+move g2 from Alderaan to Tatooine (y2)
+build g2 at Coruscant
+build g2 at Ultan_The_Blind
+build g3 at Bangle_Tiger
+move g2 from Tatooine to Fondor (b3)
+sacrifice g3 at Bangle_Tiger; build g3 at Bangle_Tiger; build y1 at Coruscant; build y2 at Coruscant
+move r2 from Geonosis to Hoth
+move r3 from Alderaan to Lando (y2)
+capture g1 at Hoth
+sacrifice y2 at Coruscant; move y1 from Coruscant to Lando; move y1 from Coruscant to Lando
+move g3 from Ultan_The_Blind to Bangle_Tiger
+convert g3 to r3 at Bangle_Tiger
+sacrifice r2 at Hoth; capture r3 at Bangle_Tiger; capture g3 at Bangle_Tiger

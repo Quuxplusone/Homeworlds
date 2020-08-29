@@ -1,0 +1,69 @@
+Goulo (0, b3g2) y3-
+Agentofchaos (1, r1b3) -g3
+build y1 at Goulo
+build g1 at Agentofchaos
+build y1 at Goulo
+convert g1 to y1 at Agentofchaos
+convert y1 to r1 at Goulo
+build g1 at Agentofchaos
+move y1 from Goulo to Smeraldeto (g1)
+build g1 at Agentofchaos
+build r1 at Goulo
+move g1 from Agentofchaos to Dreamzone (y2)
+build r2 at Goulo
+build g2 at Agentofchaos
+convert r2 to g2 at Goulo
+build g3 at Dreamzone
+build g3 at Goulo
+convert g2 to r2 at Agentofchaos
+move g3 from Goulo to Citroneto (y1)
+build y2 at Agentofchaos
+build y2 at Goulo
+convert g1 to b1 at Agentofchaos
+build y3 at Smeraldeto
+move r2 from Agentofchaos to Dreamzone
+move r1 from Goulo to Smeraldeto
+build r2 at Dreamzone
+build y3 at Goulo
+build b1 at Agentofchaos
+build g1 at Citroneto
+build g2 at Agentofchaos
+convert g2 to b2 at Goulo
+move b1 from Agentofchaos to Dreamzone
+build r2 at Goulo
+move y1 from Agentofchaos to Kompazmor (b2)
+move y3 from Goulo to Citroneto
+move r2 from Dreamzone to Smaragdin (b1)
+build b2 at Goulo
+sacrifice g2 at Agentofchaos; build r3 at Dreamzone; build b3 at Dreamzone
+move b2 from Goulo to Smeraldeto
+move r2 from Dreamzone to Smaragdin
+move r2 from Goulo to Smaragdin
+capture r2 at Smaragdin
+move r1 from Goulo to Smaragdin; catastrophe red at Smaragdin
+build r1 at Dreamzone
+build r2 at Smeraldeto
+sacrifice y1 at Kompazmor; move r3 from Dreamzone to Dethstar (y1)
+convert b2 to r2 at Goulo
+sacrifice g3 at Dreamzone; build r2 at Dreamzone; build r3 at Dethstar; build g2 at Agentofchaos
+sacrifice y2 at Goulo; move b2 from Smeraldeto to Citrono (y2); move g3 from Citroneto to Citrono
+move g2 from Agentofchaos to Dreamzone
+build g2 at Citrono
+move b1 from Dreamzone to Dethstar
+build b1 at Citrono
+move b1 from Agentofchaos to Citrono
+sacrifice g3 at Citrono; build g3 at Citrono; build g3 at Citroneto; build r3 at Goulo
+move b1 from Dethstar to Citrono; catastrophe blue at Citrono
+sacrifice y3 at Citroneto; move r1 from Smeraldeto to Goulo; move r1 from Goulo to Dethstar; move r2 from Goulo to Dethstar; catastrophe red at Dethstar
+convert b3 to y3 at Dreamzone
+sacrifice y3 at Goulo; move g3 from Citroneto to Goulo; move y1 from Smeraldeto to Dreamzone; move y3 from Smeraldeto to Dreamzone; catastrophe yellow at Dreamzone
+build y1 at Agentofchaos
+sacrifice g3 at Citrono; build g1 at Goulo; build g2 at Citroneto; build g3 at Citrono
+convert y1 to r1 at Agentofchaos
+convert r3 to y3 at Goulo
+move y2 from Agentofchaos to Perdition (b2)
+sacrifice g1 at Goulo; build g1 at Citrono
+convert r1 to y1 at Agentofchaos
+move g3 from Citrono to Agentofchaos
+capture g3 at Agentofchaos
+sacrifice y3 at Goulo; move g2 from Citroneto to Citrono; move g2 from Citrono to Agentofchaos; move g1 from Citrono to Agentofchaos; catastrophe green at Agentofchaos

@@ -1,0 +1,10 @@
+Madwuher (0, r1b2) g3-
+Horowits (1, g3b1) -y3
+build g1 at Madwuher
+build y1 at Horowits
+convert g1 to y1 at Madwuher
+convert y1 to b1 at Horowits
+build g1 at Madwuher
+build b1 at Horowits
+build g1 at Madwuher
+move b1 from Horowits to Jello (g2)

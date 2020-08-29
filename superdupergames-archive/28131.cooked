@@ -1,0 +1,56 @@
+Dlwillson (0, b3y1) g3-
+Wil (1, y2b1) -g3
+build g1 at Dlwillson
+build g1 at Wil
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Wil
+build y2 at Dlwillson
+build y2 at Wil
+move y1 from Dlwillson to Sky (g2)
+move y1 from Wil to G3 (g3)
+build y3 at Sky
+build y3 at G3
+move y3 from Sky to Sea (b3)
+convert y2 to r2 at Wil
+convert y2 to r2 at Dlwillson
+move y3 from G3 to B2 (b2)
+build y2 at Sky
+move r2 from Wil to Y3 (y3)
+move y2 from Sky to Sea
+build y2 at G3
+convert y2 to g2 at Sea
+move y2 from G3 to B2
+build y2 at Sea
+build g1 at Wil
+build g1 at Dlwillson
+move g1 from Wil to Y3
+build r1 at Dlwillson
+build r1 at Y3
+build g1 at Sea
+move r1 from Y3 to Wil
+build g2 at Sea
+sacrifice y2 at B2; move g1 from Y3 to B2; move g1 from B2 to Sea; catastrophe green at Sea
+convert y2 to g2 at Sea
+build g1 at Wil
+build g1 at Sea
+move g1 from Wil to Y3
+sacrifice g3 at Dlwillson; build y2 at Sea; build g2 at Sea; build g3 at Dlwillson
+build r1 at Wil
+convert g2 to r2 at Sea
+build y2 at G3
+sacrifice y2 at Sea; move g1 from Sea to Wil; move r2 from Dlwillson to Life (b2)
+capture g1 at Wil
+sacrifice g3 at Dlwillson; build r3 at Sea; build r3 at Life; build r3 at Dlwillson
+sacrifice g3 at Wil; build g2 at Y3; build g3 at Y3; build g3 at Wil
+convert r2 to y2 at Life
+move g1 from Y3 to B2
+move r3 from Life to G3
+move r1 from Wil to Sea
+sacrifice r2 at Sea; capture y2 at G3; capture y1 at G3
+build r2 at Wil
+move g1 from Dlwillson to Life
+build r2 at Y3
+capture r1 at Sea
+move r2 from Y3 to B2
+sacrifice y2 at G3; move r3 from G3 to Wil; move g2 from Sea to Wil
+sacrifice y3 at B2; move r2 from Y3 to B2; move r2 from B2 to Dlwillson; move r2 from B2 to Dlwillson; catastrophe red at Dlwillson

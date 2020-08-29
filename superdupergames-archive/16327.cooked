@@ -1,0 +1,24 @@
+Rootbier (0, y1b2) g3-
+Dlwillson (1, y3b1) -g3
+build g1 at Rootbier
+build g1 at Dlwillson
+convert g1 to y1 at Rootbier
+convert g1 to b1 at Dlwillson
+build y1 at Rootbier
+build b1 at Dlwillson
+move y1 from Rootbier to Calabash (g3)
+move b1 from Dlwillson to Bottlegourd (g2)
+build y2 at Calabash
+build b2 at Bottlegourd
+move y2 from Calabash to Bottlegourd
+build b2 at Dlwillson
+sacrifice g3 at Rootbier; build y2 at Calabash; build y2 at Bottlegourd; build y3 at Rootbier
+convert b2 to r2 at Dlwillson
+build y3 at Bottlegourd
+sacrifice r2 at Dlwillson; capture y2 at Bottlegourd; capture y2 at Bottlegourd
+convert y1 to r1 at Rootbier
+sacrifice g3 at Dlwillson; build y1 at Bottlegourd; build b2 at Bottlegourd; build b3 at Dlwillson
+sacrifice y2 at Calabash; move y3 from Bottlegourd to Butternut (g3); move y1 from Calabash to Bottlegourd; catastrophe yellow at Bottlegourd
+sacrifice b2 at Bottlegourd; convert b3 to g3 at Dlwillson; convert b2 to r2 at Bottlegourd
+convert y3 to g3 at Rootbier
+build b2 at Dlwillson

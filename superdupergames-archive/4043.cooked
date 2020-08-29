@@ -1,0 +1,38 @@
+Gluco (0, b1y2) g3-
+Keith (1, g3b3) -y3
+build g1 at Gluco
+build y1 at Keith
+convert g1 to r1 at Gluco
+convert y1 to r1 at Keith
+build g1 at Gluco
+build y1 at Keith
+convert g1 to y1 at Gluco
+convert y1 to g1 at Keith
+build g1 at Gluco
+build y1 at Keith
+build r1 at Gluco
+build r2 at Keith
+move y1 from Gluco to Erty (g3)
+move r2 from Keith to Ventura (y2)
+convert r1 to y1 at Gluco
+convert y1 to b1 at Keith
+build y1 at Erty
+move r2 from Ventura to Erty
+move y1 from Erty to Iop (y2)
+sacrifice r1 at Keith; capture y1 at Erty
+convert g3 to r3 at Gluco
+build y2 at Erty
+build g1 at Gluco
+build y3 at Keith
+move r3 from Gluco to Erty
+sacrifice y3 at Keith; move y1 from Erty to Gluco; move y2 from Erty to Gluco; move r2 from Erty to Gluco; catastrophe yellow at Gluco
+sacrifice y1 at Iop; move r3 from Erty to Gluco
+sacrifice g1 at Keith; build r1 at Gluco; catastrophe red at Gluco
+convert g1 to y1 at Gluco
+move y3 from Keith to Gluco
+build g1 at Gluco
+convert y3 to r3 at Gluco
+move y1 from Gluco to Iopy (g2)
+capture g1 at Gluco
+move y1 from Iopy to Keith
+capture g1 at Gluco

@@ -1,0 +1,33 @@
+Twoshort (0, r1b2) g3-
+Mneme (1, b1r3) -g3
+build g1 at Twoshort
+build g1 at Mneme
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Mneme
+build g1 at Twoshort
+build g1 at Mneme
+convert g1 to b1 at Twoshort
+convert g1 to b1 at Mneme
+build b2 at Twoshort
+build g1 at Mneme
+move b1 from Twoshort to Grogar (g3)
+convert g1 to r1 at Mneme
+build g1 at Twoshort
+build r1 at Mneme
+move g1 from Twoshort to Bluzilla (b3)
+move r1 from Mneme to Jade (g2)
+sacrifice g3 at Twoshort; build b2 at Grogar; build b3 at Grogar; build b3 at Twoshort
+build r2 at Jade
+sacrifice b2 at Grogar; convert b3 to y3 at Grogar; convert b3 to g3 at Twoshort
+build y1 at Mneme
+sacrifice g3 at Twoshort; build b2 at Grogar; build b3 at Grogar; build b3 at Twoshort
+sacrifice y1 at Mneme; move r1 from Jade to Bluzilla
+sacrifice b2 at Grogar; convert b3 to r3 at Grogar; convert b3 to g3 at Twoshort
+capture g1 at Bluzilla
+sacrifice g3 at Twoshort; build b2 at Grogar; build b3 at Grogar; build b3 at Twoshort
+build r2 at Bluzilla
+sacrifice b2 at Grogar; convert b3 to r3 at Grogar; convert b3 to g3 at Twoshort
+convert r2 to b2 at Bluzilla
+build b3 at Grogar
+build b3 at Bluzilla
+move b2 from Twoshort to Bluzilla; catastrophe blue at Bluzilla

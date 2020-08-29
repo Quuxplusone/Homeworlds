@@ -1,0 +1,21 @@
+Ajo (0, y3b1) g3-
+Baxy (1, g3b2) -y3
+build g1 at Ajo
+build y1 at Baxy
+convert g1 to r1 at Ajo
+convert y1 to r1 at Baxy
+build g1 at Ajo
+build y1 at Baxy
+build g1 at Ajo
+build y1 at Baxy
+move g1 from Ajo to Alpha (b2)
+convert y1 to b1 at Baxy
+build g1 at Alpha
+build b1 at Baxy
+build g2 at Alpha
+convert y3 to g3 at Baxy
+convert g2 to y2 at Alpha
+move b1 from Baxy to Weezer (y1)
+build g2 at Alpha
+sacrifice g3 at Baxy; build b2 at Weezer; build b3 at Weezer; build b3 at Baxy
+build g2 at Ajo

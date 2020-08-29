@@ -1,0 +1,70 @@
+Rkalajian (0, g3b2) y3-
+Mikeyarrum (1, b1y2) -g3
+build y1 at Rkalajian
+build g1 at Mikeyarrum
+move y1 from Rkalajian to Redstarsystem (r1)
+convert g1 to y1 at Mikeyarrum
+build y1 at Rkalajian
+move y1 from Mikeyarrum to Yomi (g3)
+convert y1 to g1 at Rkalajian
+build g1 at Mikeyarrum
+move g1 from Rkalajian to Redstarsystem
+convert g1 to r1 at Mikeyarrum
+build y1 at Rkalajian
+build y2 at Yomi
+build y2 at Redstarsystem
+move y1 from Yomi to Tomo (g1)
+convert y1 to b1 at Rkalajian
+build r1 at Mikeyarrum
+move y1 from Redstarsystem to Bluestarsystem (b3)
+build r2 at Mikeyarrum
+build y1 at Rkalajian
+build y3 at Yomi
+convert y3 to r3 at Rkalajian
+build y3 at Tomo
+build r2 at Rkalajian
+move r1 from Mikeyarrum to Sakaki (y3)
+move r2 from Rkalajian to Redstarsystem
+convert r1 to b1 at Mikeyarrum
+move g1 from Redstarsystem to Bluestarsystem
+build b2 at Mikeyarrum
+build b2 at Rkalajian
+move b1 from Mikeyarrum to Yomi
+move b2 from Rkalajian to Redstarsystem
+build b3 at Yomi
+build g1 at Bluestarsystem
+move b3 from Yomi to Tomo
+build g2 at Bluestarsystem
+build b3 at Tomo
+move r2 from Redstarsystem to Bluestarsystem
+convert b3 to r3 at Tomo
+move g1 from Bluestarsystem to Redstarsystem
+build b3 at Tomo
+build g2 at Bluestarsystem
+move r3 from Tomo to Bluestarsystem
+build g2 at Redstarsystem
+capture r2 at Bluestarsystem
+build r1 at Rkalajian
+capture y1 at Bluestarsystem
+convert g2 to r2 at Bluestarsystem
+move r3 from Bluestarsystem to Redstarsystem
+capture r2 at Bluestarsystem
+capture b2 at Redstarsystem
+build r3 at Bluestarsystem
+sacrifice y2 at Yomi; move r1 from Sakaki to Tomo; move r1 from Tomo to Bluestarsystem; catastrophe red at Bluestarsystem
+build g2 at Bluestarsystem
+capture g2 at Redstarsystem
+move y2 from Redstarsystem to Bluestarsystem
+capture g1 at Redstarsystem
+convert g2 to r2 at Bluestarsystem
+convert b3 to r3 at Tomo
+capture y1 at Bluestarsystem
+build b3 at Redstarsystem
+build y2 at Rkalajian
+sacrifice y3 at Tomo; move g2 from Redstarsystem to Rkalajian; move g1 from Redstarsystem to Rkalajian; move r3 from Redstarsystem to Rkalajian
+capture r3 at Rkalajian
+convert g1 to r1 at Rkalajian; catastrophe red at Rkalajian
+build y3 at Rkalajian
+move y1 from Tomo to Rkalajian; catastrophe yellow at Rkalajian
+move g2 from Bluestarsystem to Redstarsystem
+sacrifice r2 at Mikeyarrum; capture b1 at Rkalajian

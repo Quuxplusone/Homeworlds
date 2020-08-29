@@ -1,0 +1,92 @@
+Draw5Playall (0, b3r1) g3-
+Bhorner (1, b1r2) -g3
+build g1 at Draw5Playall
+build g1 at Bhorner
+convert g1 to y1 at Draw5Playall
+convert g1 to y1 at Bhorner
+build g1 at Draw5Playall
+build g1 at Bhorner
+convert g1 to r1 at Draw5Playall
+convert g1 to r1 at Bhorner
+build r2 at Draw5Playall
+build g1 at Bhorner
+move r2 from Draw5Playall to Stein (g2)
+move g1 from Bhorner to Volcano (r3)
+sacrifice g3 at Draw5Playall; build r2 at Stein; build r3 at Stein; build r3 at Draw5Playall
+sacrifice g1 at Volcano; build r3 at Bhorner
+convert r1 to b1 at Draw5Playall
+move r1 from Bhorner to Sun (y3)
+sacrifice b1 at Draw5Playall; convert r2 to b2 at Stein
+build y1 at Bhorner
+convert r2 to y2 at Stein
+move y1 from Bhorner to Ocean (b3)
+convert r3 to g3 at Draw5Playall
+build g1 at Bhorner
+build r1 at Stein
+move g1 from Bhorner to Ocean
+build y2 at Stein
+build y2 at Ocean
+build y3 at Draw5Playall
+build y3 at Bhorner
+convert y2 to b2 at Stein
+convert y1 to b1 at Bhorner
+move r1 from Stein to Nader (g3)
+move g3 from Bhorner to Volcano (r3)
+move g3 from Draw5Playall to Johnson (y2)
+move r3 from Bhorner to Nader
+move g3 from Johnson to Sun
+capture r1 at Nader
+build r2 at Stein
+sacrifice y2 at Ocean; move r1 from Nader to Stein; move r1 from Sun to Stein; catastrophe red at Stein
+move b2 from Stein to Sun
+build r1 at Nader
+convert y1 to r1 at Draw5Playall
+move g1 from Ocean to Bhorner
+build g1 at Sun
+build g1 at Bhorner
+move g1 from Sun to Johnson (y2)
+build g2 at Bhorner
+build g2 at Sun
+sacrifice y3 at Bhorner; move g1 from Bhorner to Sun; move g1 from Bhorner to Sun; move g3 from Volcano to Bhorner; catastrophe green at Sun
+move r1 from Draw5Playall to Earth (g2)
+convert g2 to y2 at Bhorner
+build r2 at Earth
+move y2 from Bhorner to Nader
+move b2 from Stein to Moss (g3)
+move r3 from Nader to Spark (y1)
+move g1 from Johnson to Draw5Playall
+move r3 from Spark to Moss
+sacrifice y2 at Stein; move b2 from Moss to Forest (g1); move r2 from Earth to Ocean
+move y1 from Ocean to Bhorner
+build g1 at Draw5Playall
+build g2 at Bhorner
+build y1 at Draw5Playall
+move y2 from Nader to Earth
+build g2 at Draw5Playall
+sacrifice r1 at Nader; capture r1 at Earth
+move g2 from Draw5Playall to Y2 (y2)
+sacrifice g3 at Bhorner; build g3 at Bhorner; build y1 at Earth; build y2 at Bhorner
+build g3 at Y2
+sacrifice g3 at Bhorner; build g3 at Bhorner; build y3 at Bhorner; build r1 at Moss
+sacrifice g3 at Y2; build b1 at Sun; build b2 at Forest; build g3 at Y2
+sacrifice y3 at Bhorner; move r3 from Moss to Forest; move y2 from Earth to Draw5Playall; move y1 from Earth to Draw5Playall; catastrophe yellow at Draw5Playall
+move g3 from Y2 to Draw5Playall
+sacrifice g3 at Bhorner; build g3 at Bhorner; build r2 at Earth; build r3 at Moss
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build b3 at Forest; build r3 at Ocean
+sacrifice y2 at Bhorner; move r1 from Earth to Ocean; move r2 from Earth to Ocean; catastrophe red at Ocean
+sacrifice b3 at Forest; convert b2 to r2 at Forest; convert b2 to r2 at Forest; convert b1 to r1 at Sun
+sacrifice g3 at Bhorner; build g2 at Bhorner; build g3 at Bhorner; build r3 at Moss
+convert g1 to y1 at Draw5Playall
+capture r2 at Forest
+sacrifice y1 at Draw5Playall; move r2 from Forest to Moss; catastrophe red at Moss
+move g2 from Bhorner to Boogar (g3)
+convert g1 to y1 at Draw5Playall
+build y1 at Bhorner
+build y2 at Draw5Playall
+move y1 from Bhorner to Bullet (b3)
+move y2 from Draw5Playall to Ballot (b2)
+sacrifice g3 at Bhorner; build y2 at Bhorner; build y3 at Bullet; build y3 at Bhorner
+build g1 at Draw5Playall
+sacrifice y1 at Bhorner; move r3 from Forest to Y2
+move g2 from Y2 to Y1 (y1)
+sacrifice y3 at Bhorner; move r3 from Y2 to Draw5Playall; move y3 from Bullet to Ballot; move y3 from Ballot to Draw5Playall

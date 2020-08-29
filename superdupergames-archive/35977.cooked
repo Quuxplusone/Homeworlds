@@ -1,0 +1,26 @@
+Eliscinsky (0, b1r2) g3-
+Babamots (1, g3b1) -b3
+build g1 at Eliscinsky
+build b1 at Babamots
+convert g3 to b3 at Eliscinsky
+convert b3 to y3 at Babamots
+build b2 at Eliscinsky
+build b2 at Babamots
+convert b2 to y2 at Eliscinsky
+convert b2 to r2 at Babamots
+build b2 at Eliscinsky
+sacrifice y3 at Babamots; move b1 from Babamots to Remus (r2); move b1 from Remus to Chalna (r3); move b1 from Chalna to Eliscinsky; catastrophe blue at Eliscinsky
+build g1 at Eliscinsky
+build r1 at Babamots
+build g1 at Eliscinsky
+build r1 at Babamots
+move g1 from Eliscinsky to Oldyeller (y3)
+convert r2 to y2 at Babamots
+build g2 at Eliscinsky
+build r1 at Babamots
+move g1 from Eliscinsky to Babamots
+build y1 at Babamots
+move g1 from Eliscinsky to Babamots
+move r1 from Babamots to Eliscinsky
+build g2 at Babamots; catastrophe green at Babamots
+sacrifice y2 at Babamots; move r1 from Babamots to Eliscinsky; move r1 from Babamots to Eliscinsky; catastrophe red at Eliscinsky

@@ -1,0 +1,19 @@
+Madwuher (0, y1b3) g3-
+Smartmo (1, r3b2) -g3
+build g1 at Madwuher
+build g1 at Smartmo
+move g1 from Madwuher to Edora (b2)
+convert g1 to y1 at Smartmo
+build g1 at Madwuher
+build g1 at Smartmo
+build g2 at Edora
+move g1 from Smartmo to Alpha (b1)
+convert g2 to y2 at Edora
+build g2 at Smartmo
+sacrifice g3 at Madwuher; build g2 at Madwuher; build g2 at Edora; build g3 at Madwuher
+sacrifice g3 at Smartmo; build g3 at Smartmo; build y1 at Smartmo; build y2 at Smartmo
+sacrifice g1 at Madwuher; build y2 at Edora
+move y1 from Smartmo to Alpha
+convert g2 to r2 at Madwuher
+build y3 at Alpha
+move y2 from Edora to Bologna (b1)

@@ -1,0 +1,39 @@
+Ausmuh (0, b3r1) g3-
+Salmonax (1, g2r1) -b3
+build g1 at Ausmuh
+build b1 at Salmonax
+convert g1 to r1 at Ausmuh
+convert b1 to y1 at Salmonax
+build r2 at Ausmuh
+build y1 at Salmonax
+convert r2 to y2 at Ausmuh
+convert y1 to b1 at Salmonax
+build r2 at Ausmuh
+build y1 at Salmonax
+move r2 from Ausmuh to Gwar (g2)
+convert b3 to r3 at Salmonax
+build r2 at Ausmuh
+build b1 at Salmonax
+move r2 from Ausmuh to Slayer (y2)
+convert b1 to g1 at Salmonax
+sacrifice g3 at Ausmuh; build r2 at Gwar; build r3 at Slayer; build r3 at Ausmuh
+move y1 from Salmonax to S2 (g3)
+convert r3 to y3 at Ausmuh
+build y1 at S2
+move r3 from Slayer to Glob (g3)
+build y2 at Salmonax
+convert y2 to g2 at Ausmuh
+build y2 at Salmonax
+move r2 from Slayer to S2
+build y2 at S2
+build y3 at Ausmuh
+sacrifice y2 at S2; move y1 from S2 to S3 (b2); move y1 from S2 to S3
+sacrifice y3 at Ausmuh; move r2 from S2 to Salmonax; move r2 from Gwar to Glob; move r2 from Glob to Salmonax; catastrophe red at Salmonax
+convert b1 to r1 at Salmonax
+sacrifice y3 at Ausmuh; move r3 from Glob to Salmonax
+move y2 from Salmonax to Ausmuh
+sacrifice r2 at Gwar; capture y2 at Ausmuh; capture y2 at Salmonax
+build g1 at Salmonax
+sacrifice r3 at Salmonax; capture r1 at Salmonax; capture g1 at Salmonax; capture y1 at Salmonax
+convert y1 to b1 at S3
+capture g1 at Salmonax

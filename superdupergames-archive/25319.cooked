@@ -1,0 +1,16 @@
+Qwertyu63 (0, y1g2) b3-
+Silenttitan (1, b3r2) -g3
+build b1 at Qwertyu63
+build g1 at Silenttitan
+convert b1 to y1 at Qwertyu63
+convert g1 to y1 at Silenttitan
+move y1 from Qwertyu63 to Asdf (r3)
+build y2 at Silenttitan
+build b1 at Qwertyu63
+convert y1 to b1 at Silenttitan
+move b1 from Qwertyu63 to Asdf
+build g1 at Silenttitan
+build b1 at Qwertyu63
+move b1 from Silenttitan to Sol (y1)
+build b2 at Qwertyu63
+sacrifice y2 at Silenttitan; move b1 from Sol to Asdf; move b1 from Asdf to Qwertyu63; catastrophe blue at Qwertyu63

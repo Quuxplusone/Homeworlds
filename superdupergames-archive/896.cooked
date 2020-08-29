@@ -1,0 +1,26 @@
+C0G (0, y3b1) g3-
+Lambda (1, b2y1) -g3
+build g1 at C0G
+build g1 at Lambda
+convert g1 to y1 at C0G
+move g1 from Lambda to Rigel (b3)
+move y1 from C0G to Polaris (y2)
+build g1 at Rigel
+build g1 at C0G
+convert g1 to y1 at Rigel
+move y1 from Polaris to Rigel
+build y2 at Rigel
+move y1 from Rigel to Lambda
+build g1 at Lambda
+convert y1 to b1 at Lambda
+convert g1 to r1 at Lambda
+move b1 from Lambda to Boston (g3)
+build g1 at Lambda
+build b1 at Boston
+convert y2 to b2 at Rigel
+convert b1 to y1 at Boston
+move g1 from Lambda to Rasalgethi (y3)
+build y2 at Boston
+build y2 at Rigel
+convert y2 to r2 at Boston
+move y2 from Rigel to Giauzar (g2)

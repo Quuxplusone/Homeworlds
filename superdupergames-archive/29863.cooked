@@ -1,0 +1,38 @@
+Ladybugsfly (0, r2g1) b3-
+Steele (1, y3b2) -g3
+build b1 at Ladybugsfly
+build g1 at Steele
+build b1 at Ladybugsfly
+build g1 at Steele
+convert b1 to y1 at Ladybugsfly
+move g1 from Steele to Yourecute (y1)
+move b1 from Ladybugsfly to Loveyoutoo (g3)
+build g2 at Yourecute
+move y1 from Ladybugsfly to Shouldbeworking (g3)
+sacrifice g3 at Steele; build g2 at Steele; build g2 at Yourecute; build g3 at Steele
+build y1 at Shouldbeworking
+move g2 from Yourecute to Kisses (y3)
+build y2 at Shouldbeworking
+convert g1 to b1 at Steele
+move y1 from Shouldbeworking to Yourecute
+convert b1 to r1 at Steele
+sacrifice y1 at Yourecute; move b1 from Loveyoutoo to Happy (g1)
+convert g2 to b2 at Steele
+build b1 at Happy
+move b2 from Steele to Yourecute
+build b1 at Happy
+convert g1 to y1 at Yourecute
+convert b1 to r1 at Happy
+build g1 at Yourecute
+move y1 from Shouldbeworking to Yourecute
+move y1 from Yourecute to Nicetry (g3)
+sacrifice r1 at Happy; capture g1 at Yourecute
+move b2 from Yourecute to Kisses
+sacrifice y2 at Shouldbeworking; move b1 from Happy to Steele; move b1 from Happy to Steele
+sacrifice g2 at Kisses; build y2 at Nicetry; build r1 at Steele
+sacrifice g1 at Yourecute; build b1 at Steele; catastrophe blue at Steele
+build r1 at Steele
+build b1 at Ladybugsfly
+sacrifice y2 at Nicetry; move r1 from Steele to Ladybugsfly; move r1 from Steele to Ladybugsfly
+move y1 from Yourecute to Runforestrun (g2)
+sacrifice b2 at Kisses; convert r1 to b1 at Ladybugsfly; convert r1 to b1 at Ladybugsfly; catastrophe blue at Ladybugsfly

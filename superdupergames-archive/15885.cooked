@@ -1,0 +1,24 @@
+Dlwillson (0, b3r1) g3-
+Shmil1 (1, b1r2) -g3
+build g1 at Dlwillson
+build g1 at Shmil1
+convert g1 to y1 at Dlwillson
+build g1 at Shmil1
+build y1 at Dlwillson
+convert g1 to b1 at Shmil1
+move y1 from Dlwillson to Potato (b2)
+build g1 at Shmil1
+build y1 at Dlwillson
+build b1 at Shmil1
+move y1 from Dlwillson to Rutabaga (g2)
+convert g1 to r1 at Shmil1
+build y2 at Dlwillson
+build r1 at Shmil1
+move y1 from Rutabaga to Carrotofdoom (b3)
+pass
+sacrifice g3 at Dlwillson; build y2 at Carrotofdoom; build y2 at Dlwillson; build y3 at Carrotofdoom
+convert g3 to y3 at Shmil1
+convert y2 to r2 at Carrotofdoom
+build y2 at Shmil1
+move r2 from Carrotofdoom to Shmil1
+sacrifice y3 at Shmil1; move y2 from Shmil1 to Carrotofdoom; move y2 from Carrotofdoom to Potato; move y2 from Potato to Dlwillson; catastrophe yellow at Dlwillson

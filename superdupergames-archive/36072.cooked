@@ -1,0 +1,48 @@
+Eliscinsky (0, r1b2) g3-
+Babamots (1, r2b1) -g3
+build g1 at Eliscinsky
+build g1 at Babamots
+convert g1 to y1 at Eliscinsky
+convert g1 to y1 at Babamots
+build g1 at Eliscinsky
+build g1 at Babamots
+convert g1 to b1 at Eliscinsky
+convert g1 to b1 at Babamots
+build g1 at Eliscinsky
+build b2 at Babamots
+build b2 at Eliscinsky
+convert b1 to r1 at Babamots
+convert b2 to r2 at Eliscinsky
+build g1 at Babamots
+move r2 from Eliscinsky to Mtndew (g3)
+move g1 from Babamots to Bolarus (b3)
+move g1 from Eliscinsky to Mtndew
+build g1 at Babamots
+build g2 at Eliscinsky
+build g2 at Bolarus
+convert g2 to y2 at Eliscinsky
+convert g2 to y2 at Bolarus
+move y1 from Eliscinsky to Mtndew
+build g2 at Bolarus
+move b1 from Eliscinsky to Mtndew
+move g1 from Bolarus to Iconia (y2)
+convert g1 to b1 at Mtndew
+move b2 from Babamots to Aldea (y3)
+build b2 at Mtndew
+sacrifice g3 at Babamots; build y1 at Bolarus; build y3 at Bolarus; build y3 at Babamots
+build r1 at Mtndew
+sacrifice g2 at Bolarus; build g1 at Iconia; build b3 at Aldea
+sacrifice y2 at Eliscinsky; move y1 from Mtndew to Iconia; move y1 from Iconia to Bolarus; catastrophe yellow at Bolarus
+sacrifice y3 at Babamots; move g1 from Iconia to Mtndew; move g1 from Iconia to Mtndew; move g1 from Babamots to Mtndew; catastrophe green at Mtndew
+build g1 at Eliscinsky
+convert b3 to g3 at Aldea
+convert g1 to y1 at Eliscinsky
+build g1 at Aldea
+build g1 at Eliscinsky
+move g3 from Aldea to Eliscinsky
+sacrifice g3 at Eliscinsky; build y1 at Eliscinsky; build g1 at Eliscinsky; build g2 at Eliscinsky; catastrophe green at Eliscinsky
+move b2 from Aldea to Eliscinsky
+convert y1 to g1 at Eliscinsky
+capture g1 at Eliscinsky
+pass
+capture y1 at Eliscinsky

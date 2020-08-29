@@ -1,0 +1,40 @@
+Eliscinsky (0, r1b3) g3-
+Wil (1, y2b1) -g3
+build g1 at Eliscinsky
+build g1 at Wil
+convert g1 to y1 at Eliscinsky
+convert g1 to r1 at Wil
+build y1 at Eliscinsky
+build r1 at Wil
+move y1 from Eliscinsky to G2Win (g2)
+build r2 at Wil
+build g1 at Eliscinsky
+move r2 from Wil to Y3 (y3)
+move y1 from G2Win to Eliscinsky
+build r2 at Wil
+build g1 at Eliscinsky
+move r2 from Wil to B3 (b3)
+convert g1 to b1 at Eliscinsky
+sacrifice g3 at Wil; build r2 at Y3; build r3 at B3; build r3 at Wil
+move g1 from Eliscinsky to Y2 (y2)
+convert r3 to g3 at Wil
+build g1 at Y2
+move r2 from Y3 to Y2
+build g1 at Eliscinsky
+capture g1 at Y2
+build g2 at Y2
+build r3 at Y2
+build g2 at Y2; catastrophe green at Y2
+convert r3 to g3 at B3
+build b1 at Eliscinsky
+build r3 at B3
+build g1 at Eliscinsky
+convert r3 to y3 at B3
+move g1 from Eliscinsky to Yellow2 (y2)
+sacrifice g3 at B3; build g1 at Wil; build r3 at B3; build r3 at B3
+build g2 at Yellow2
+sacrifice y3 at B3; move r3 from B3 to Y2; move r3 from Y2 to Eliscinsky; move r3 from Y2 to Eliscinsky
+capture r3 at Eliscinsky
+sacrifice r2 at B3; capture r3 at Eliscinsky; capture g3 at Eliscinsky
+build b2 at Eliscinsky
+catastrophe blue at Eliscinsky; sacrifice r3 at B3; capture g1 at Eliscinsky; capture y1 at Eliscinsky; capture y1 at Eliscinsky

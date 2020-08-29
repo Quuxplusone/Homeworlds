@@ -1,0 +1,21 @@
+Wil (0, y2b1) g3-
+Capi3101 (1, y1b3) -g3
+build g1 at Wil
+build g1 at Capi3101
+convert g1 to y1 at Wil
+convert g1 to b1 at Capi3101
+build y1 at Wil
+build b1 at Capi3101
+move y1 from Wil to B3 (b3)
+move b1 from Capi3101 to Aleph (g2)
+sacrifice g3 at Wil; build y2 at B3; build y2 at B3; build y3 at Wil
+build b2 at Capi3101
+move y2 from B3 to Aleph
+sacrifice b1 at Aleph; convert b2 to r2 at Capi3101
+build y3 at Aleph
+move r2 from Capi3101 to Aleph
+move y2 from Aleph to G3 (g3)
+build b1 at Capi3101
+build y3 at Aleph
+move g3 from Capi3101 to Aleph
+sacrifice y2 at B3; move y3 from Aleph to Capi3101; move y3 from Aleph to Bthree (b3)

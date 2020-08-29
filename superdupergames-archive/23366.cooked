@@ -1,0 +1,26 @@
+Mandrel (0, r1b2) g3-
+Goulo (1, r1b3) -g3
+build g1 at Mandrel
+build g1 at Goulo
+convert g1 to r1 at Mandrel
+convert g3 to r3 at Goulo
+build r2 at Mandrel
+build r2 at Goulo
+convert r1 to y1 at Mandrel
+convert r3 to y3 at Goulo
+build y1 at Mandrel
+build g1 at Goulo
+move y1 from Mandrel to Proof (g3)
+move r2 from Goulo to Citrono (y2)
+convert y1 to b1 at Mandrel
+move g1 from Goulo to Citrono
+build b1 at Mandrel
+build g1 at Goulo
+build g2 at Mandrel
+build g2 at Citrono
+convert g2 to y2 at Mandrel
+convert g1 to b1 at Goulo
+move b1 from Mandrel to Proof
+move b1 from Goulo to Citrono
+build b2 at Proof
+build b2 at Citrono

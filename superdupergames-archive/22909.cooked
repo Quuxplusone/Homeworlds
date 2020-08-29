@@ -1,0 +1,19 @@
+Ts52 (0, y1b2) g3-
+Goblin981 (1, g3b2) -y3
+build g1 at Ts52
+build y1 at Goblin981
+move g1 from Ts52 to Grover (b3)
+move y1 from Goblin981 to Alpha (g1)
+build g1 at Ts52
+build y1 at Goblin981
+build g2 at Grover
+build y2 at Goblin981
+convert g2 to y2 at Grover
+move y1 from Goblin981 to Beta (b1)
+build g2 at Grover
+build y2 at Alpha
+build y3 at Grover
+convert y2 to g2 at Goblin981
+convert y3 to r3 at Grover
+convert y3 to r3 at Goblin981
+move r3 from Grover to Alpha

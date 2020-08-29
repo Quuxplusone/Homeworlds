@@ -1,0 +1,55 @@
+Zmehaffey (0, b3y2) g3-
+Felix (1, r3b1) -g3
+build g1 at Zmehaffey
+build g1 at Felix
+convert g1 to r1 at Zmehaffey
+convert g1 to y1 at Felix
+build g1 at Zmehaffey
+build y1 at Felix
+move g1 from Zmehaffey to Brony (b1)
+move y1 from Felix to Butts (g2)
+build g1 at Brony
+build y1 at Felix
+build g1 at Zmehaffey
+build g2 at Felix
+sacrifice g3 at Zmehaffey; build g2 at Brony; build g3 at Zmehaffey; build g3 at Zmehaffey
+build y2 at Butts
+convert g2 to y2 at Brony
+build y3 at Felix
+move g3 from Zmehaffey to Harlem (r1)
+convert y1 to b1 at Felix
+sacrifice g3 at Zmehaffey; build g2 at Harlem; build g3 at Zmehaffey; build r1 at Zmehaffey
+move b1 from Felix to Butts
+move y2 from Brony to Butts
+sacrifice g3 at Felix; build g3 at Felix; build y1 at Butts; build y3 at Felix; catastrophe yellow at Butts
+convert g1 to y1 at Brony
+convert y3 to r3 at Felix
+build y1 at Brony
+move r3 from Felix to Butts
+move y1 from Brony to Vince (b3)
+move y3 from Felix to Butts
+build y2 at Brony
+move g2 from Felix to Pony (b2)
+build g1 at Brony
+move y3 from Butts to Brony
+sacrifice g3 at Harlem; build g3 at Harlem; build y2 at Brony; build y3 at Vince; catastrophe yellow at Brony
+build b2 at Butts
+convert y3 to r3 at Vince
+convert b2 to y2 at Butts
+sacrifice g3 at Harlem; build g3 at Harlem; build r2 at Vince; build y1 at Vince
+sacrifice g3 at Felix; build g3 at Pony; build y2 at Butts; build y3 at Felix
+move r2 from Vince to Harlem
+sacrifice g3 at Pony; build g3 at Pony; build b2 at Butts; build b2 at Butts
+move r3 from Vince to Pony
+sacrifice r3 at Butts; capture r3 at Pony
+move y1 from Vince to Harlem
+move y2 from Butts to Brony
+sacrifice g3 at Harlem; build g3 at Harlem; build y3 at Harlem; build y3 at Vince
+move b2 from Butts to Brony
+convert y3 to r3 at Vince
+convert b2 to r2 at Butts
+move r3 from Vince to Butts
+sacrifice r2 at Butts; capture g1 at Brony; capture g1 at Brony
+sacrifice r2 at Harlem; capture b1 at Butts; capture y2 at Butts
+build y3 at Brony
+sacrifice y3 at Harlem; move y2 from Butts to Felix; move y1 from Vince to Butts; move y1 from Butts to Felix; catastrophe yellow at Felix

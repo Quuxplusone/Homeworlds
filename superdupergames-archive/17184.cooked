@@ -1,0 +1,55 @@
+Madwuher (0, r1b2) g3-
+Captncavern (1, b3g1) -r3
+build g1 at Madwuher
+build r1 at Captncavern
+convert g1 to y1 at Madwuher
+build r1 at Captncavern
+build g1 at Madwuher
+convert r1 to y1 at Captncavern
+convert g1 to r1 at Madwuher
+build r2 at Captncavern
+build r2 at Madwuher
+convert r1 to g1 at Captncavern
+move r2 from Madwuher to Edora (g3)
+build r1 at Captncavern
+build r2 at Madwuher
+move r1 from Captncavern to Mako (y2)
+convert r2 to y2 at Madwuher
+build y1 at Captncavern
+move y2 from Madwuher to Edora
+build g1 at Captncavern
+build g2 at Madwuher
+move r2 from Captncavern to Chia (g2)
+move g2 from Madwuher to Camelot (g3)
+move r1 from Mako to Kazu (y3)
+build g2 at Madwuher
+move y1 from Captncavern to Chia
+move g2 from Madwuher to Kazu
+move r1 from Kazu to Madwuher
+sacrifice r1 at Madwuher; capture r1 at Madwuher
+move g1 from Captncavern to Fumi (y2)
+sacrifice g2 at Camelot; build g2 at Madwuher; build g3 at Kazu
+move r2 from Chia to Mari (y3)
+sacrifice g3 at Kazu; build g3 at Kazu; build y2 at Madwuher; build y3 at Edora
+move g1 from Fumi to Mari
+convert y1 to b1 at Madwuher
+build r1 at Mari
+sacrifice y2 at Edora; move g2 from Madwuher to Camelot (r3); move r2 from Edora to Chia
+move r1 from Mari to Madwuher
+sacrifice r1 at Madwuher; capture r1 at Madwuher
+build r1 at Captncavern
+capture y1 at Chia
+convert r1 to b1 at Captncavern
+move b1 from Madwuher to Edora
+build r1 at Mari
+move r1 from Madwuher to Edora
+move b1 from Captncavern to Tomo (y2)
+sacrifice g3 at Kazu; build g3 at Kazu; build r2 at Edora; build r3 at Chia
+build y1 at Captncavern
+sacrifice g2 at Kazu; build g2 at Madwuher; build y2 at Edora
+move g1 from Captncavern to Tomo
+move r2 from Edora to Tomo
+move g1 from Tomo to Mari
+capture b1 at Tomo
+move g1 from Mari to Madwuher
+sacrifice g2 at Madwuher; build g2 at Kazu; build b1 at Edora

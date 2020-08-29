@@ -1,0 +1,26 @@
+Goblin981 (0, g3b1) y3-
+Sirruthvenmurgatroyd (1, y1b2) -g3
+build y1 at Goblin981
+build g1 at Sirruthvenmurgatroyd
+build y1 at Goblin981
+build g1 at Sirruthvenmurgatroyd
+move y1 from Goblin981 to Green (g2)
+move g1 from Sirruthvenmurgatroyd to Yellow (y3)
+move y1 from Goblin981 to Green2 (g2)
+sacrifice g3 at Sirruthvenmurgatroyd; build g1 at Yellow; build g2 at Yellow; build g3 at Sirruthvenmurgatroyd
+move y1 from Green2 to Green3 (g3)
+convert g1 to r1 at Sirruthvenmurgatroyd
+build y2 at Goblin981
+move g2 from Yellow to Yellow2 (y2)
+convert y2 to g2 at Goblin981
+move g2 from Yellow2 to Green3
+build y2 at Green3
+sacrifice r1 at Sirruthvenmurgatroyd; capture y2 at Green3
+build g1 at Goblin981
+sacrifice y2 at Green3; move g1 from Yellow to Green; move g1 from Green to Goblin981; catastrophe green at Goblin981
+build y2 at Green3
+move g1 from Yellow to Goblin981
+move y2 from Green3 to Goblin981
+convert g1 to b1 at Goblin981
+convert y2 to g2 at Goblin981
+sacrifice g2 at Green3; build b1 at Goblin981; build b2 at Goblin981; catastrophe blue at Goblin981

@@ -1,0 +1,41 @@
+Babamots (0, r1b3) g3-
+Draw5Playall (1, b1r2) -g3
+build g1 at Babamots
+build g1 at Draw5Playall
+convert g1 to r1 at Babamots
+convert g1 to r1 at Draw5Playall
+build r2 at Babamots
+build r2 at Draw5Playall
+convert r2 to y2 at Babamots
+convert r2 to y2 at Draw5Playall
+build r2 at Babamots
+build r2 at Draw5Playall
+move r1 from Babamots to Risa (g2)
+move r1 from Draw5Playall to Earth (g3)
+build r3 at Risa
+build r3 at Earth
+move r2 from Babamots to Orion (g2)
+convert r2 to b2 at Draw5Playall
+build y1 at Babamots
+move b2 from Draw5Playall to Earth
+sacrifice y2 at Babamots; move r1 from Risa to Earth; move r2 from Orion to Earth; catastrophe red at Earth
+build y1 at Draw5Playall
+build y1 at Babamots
+build y2 at Draw5Playall
+move y1 from Babamots to Risa
+move y2 from Draw5Playall to Water (b3)
+build y2 at Babamots
+move y1 from Draw5Playall to Fire (r3)
+build y3 at Risa
+sacrifice g3 at Draw5Playall; build y3 at Draw5Playall; build y3 at Water; build b1 at Earth
+move y3 from Risa to Water
+sacrifice y2 at Draw5Playall; move y3 from Water to Flame (r1); move b2 from Earth to Flame
+build r1 at Risa
+move y2 from Water to Flame
+build r2 at Risa
+convert y2 to g2 at Flame
+move r3 from Risa to Earth
+convert y3 to g3 at Draw5Playall
+sacrifice y2 at Babamots; move r3 from Earth to Draw5Playall; move y3 from Water to Draw5Playall
+capture r3 at Draw5Playall
+sacrifice r2 at Risa; capture r3 at Draw5Playall; capture g3 at Draw5Playall

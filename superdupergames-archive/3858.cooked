@@ -1,0 +1,42 @@
+Wkr (0, g3b1) r3-
+Zoltar (1, b2y1) -g3
+build r1 at Wkr
+build g1 at Zoltar
+convert r1 to y1 at Wkr
+convert g1 to y1 at Zoltar
+build y2 at Wkr
+build y2 at Zoltar
+convert y2 to r2 at Wkr
+convert y2 to r2 at Zoltar
+build y2 at Wkr
+build y2 at Zoltar
+move r2 from Wkr to Caesar (b2)
+move y2 from Zoltar to Greenbelt (g3)
+move y2 from Wkr to Caesar
+convert y1 to b1 at Zoltar
+move r2 from Caesar to Greenbelt
+sacrifice r2 at Zoltar; capture r2 at Greenbelt
+build r1 at Wkr
+build r1 at Greenbelt
+convert y2 to r2 at Caesar
+build b1 at Zoltar
+build r1 at Wkr
+sacrifice y2 at Greenbelt; move r1 from Greenbelt to Caesar; move r1 from Caesar to Wkr; catastrophe red at Wkr
+build y1 at Wkr
+move b1 from Zoltar to Greenbelt
+build y2 at Wkr
+sacrifice g3 at Zoltar; build b2 at Greenbelt; build b3 at Greenbelt; build b3 at Zoltar
+move y1 from Wkr to Caesar
+sacrifice b2 at Greenbelt; convert b3 to y3 at Greenbelt; convert b3 to g3 at Zoltar
+build y2 at Wkr
+sacrifice g3 at Zoltar; build b2 at Greenbelt; build b3 at Greenbelt; build b3 at Zoltar
+move y2 from Wkr to Beatles (g2)
+sacrifice b2 at Greenbelt; convert b3 to r3 at Greenbelt; convert b3 to g3 at Zoltar
+convert y2 to g2 at Wkr
+sacrifice g3 at Zoltar; build b2 at Greenbelt; build b3 at Greenbelt; build b3 at Zoltar
+sacrifice g2 at Wkr; build y2 at Wkr; build y2 at Wkr
+sacrifice y3 at Greenbelt; move b3 from Greenbelt to Beatles; move r3 from Greenbelt to Beatles; move r3 from Beatles to Wkr
+move r2 from Caesar to Wkr
+sacrifice r2 at Greenbelt; capture r2 at Wkr; capture y2 at Wkr
+convert y2 to g2 at Wkr
+sacrifice r2 at Wkr; capture g2 at Wkr; capture y1 at Wkr

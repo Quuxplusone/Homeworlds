@@ -1,0 +1,32 @@
+Simon (0, b2r1) g3-
+Wil (1, y3b1) -g3
+build g1 at Simon
+build g1 at Wil
+convert g1 to b1 at Simon
+convert g1 to b1 at Wil
+build b2 at Simon
+build b2 at Wil
+convert b1 to y1 at Simon
+convert b1 to r1 at Wil
+build y1 at Simon
+build r1 at Wil
+move b2 from Simon to G3 (g3)
+move r1 from Wil to Y2 (y2)
+build g1 at Simon
+build r2 at Wil
+build b1 at G3
+sacrifice g3 at Wil; build r2 at Y2; build r2 at Y2; build r3 at Wil
+convert b2 to y2 at G3
+move r2 from Y2 to G3
+move y2 from G3 to G1 (g1)
+build r3 at G3
+move g1 from Simon to Y3 (y3)
+build r3 at G3
+sacrifice g3 at Simon; build y1 at G1; build y2 at G1; build y3 at Simon
+capture b1 at G3
+move y2 from G1 to B3 (b3)
+move r2 from Y2 to G1
+sacrifice g1 at Y3; build y3 at B3
+capture y2 at G1
+convert y3 to g3 at Simon
+sacrifice y2 at G1; move r3 from G3 to Simon; move r3 from G3 to Simon

@@ -1,0 +1,78 @@
+Draw5Playall (0, b2r1) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Draw5Playall
+build g1 at Ts52
+convert g1 to r1 at Draw5Playall
+convert g1 to r1 at Ts52
+build r2 at Draw5Playall
+build r2 at Ts52
+convert r1 to y1 at Draw5Playall
+build g1 at Ts52
+build g1 at Draw5Playall
+move g1 from Ts52 to Grover (b1)
+convert g1 to b1 at Draw5Playall
+build g1 at Ts52
+build y1 at Draw5Playall
+convert r2 to y2 at Ts52
+move y1 from Draw5Playall to Thirdgen (g3)
+move y2 from Ts52 to Grover
+move r2 from Draw5Playall to Thirdgen
+move r1 from Ts52 to Grover
+build b1 at Draw5Playall
+build y1 at Grover
+build y2 at Thirdgen
+convert y2 to b2 at Grover
+move b1 from Draw5Playall to Thirdgen
+build y2 at Grover
+move y1 from Thirdgen to Littleforest (g1)
+move b2 from Grover to Oscar (g2)
+build b3 at Thirdgen
+build b3 at Oscar
+convert b3 to r3 at Thirdgen
+convert b3 to y3 at Oscar
+build b3 at Thirdgen
+build b3 at Oscar
+sacrifice b1 at Draw5Playall; convert b3 to y3 at Thirdgen
+sacrifice g3 at Ts52; build g2 at Grover; build g2 at Grover; build g3 at Ts52
+build y2 at Littleforest
+convert g2 to r2 at Grover
+move y2 from Thirdgen to Lavaflow (r1)
+move b3 from Oscar to Lavaflow
+sacrifice y3 at Thirdgen; move y2 from Lavaflow to Ts52; move y1 from Littleforest to Ts52; move y2 from Littleforest to Ts52; catastrophe yellow at Ts52
+move y2 from Grover to Ts52
+convert r3 to y3 at Thirdgen
+move r1 from Grover to Ts52
+build b1 at Thirdgen
+build b3 at Oscar
+move b1 from Thirdgen to Oscar
+convert b3 to r3 at Oscar
+build b3 at Thirdgen
+capture b1 at Oscar
+move b3 from Thirdgen to Port1 (g1)
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build b3 at Lavaflow
+convert b3 to r3 at Port1
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Oscar; build r3 at Grover
+build b3 at Thirdgen
+move r3 from Oscar to Bigbird (y3)
+move b1 from Thirdgen to Lavaflow
+sacrifice y2 at Ts52; move b3 from Lavaflow to Bigbird; move g2 from Grover to Bigbird
+build y1 at Thirdgen
+capture b1 at Lavaflow
+build y2 at Draw5Playall
+build y2 at Grover
+move y1 from Thirdgen to Port1
+move r2 from Grover to Bigbird
+build y2 at Port1
+move y2 from Grover to Ts52
+sacrifice y3 at Thirdgen; move y1 from Port1 to Bigbird; move y1 from Draw5Playall to Bigbird; move y2 from Port1 to Bigbird; catastrophe yellow at Bigbird
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build b3 at Oscar
+build y1 at Draw5Playall
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Oscar; build r3 at Grover
+move y1 from Draw5Playall to Thirdgen
+move b3 from Oscar to Bigbird (y3)
+move y1 from Thirdgen to Port1
+move r2 from Oscar to Bigbird
+build y1 at Port1
+move r3 from Grover to Zoe (y3)
+build y2 at Draw5Playall
+move r2 from Oscar to Bigbird

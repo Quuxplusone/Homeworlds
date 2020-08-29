@@ -1,0 +1,26 @@
+Trollkin (0, g1r3) b3-
+Twoshort (1, r1b2) -g3
+build b1 at Trollkin
+build g1 at Twoshort
+convert b1 to y1 at Trollkin
+build g1 at Twoshort
+move y1 from Trollkin to Bozo (g2)
+convert g3 to y3 at Twoshort
+build y1 at Bozo
+build g2 at Twoshort
+build b1 at Trollkin
+move g1 from Twoshort to Yolonda (y3)
+convert b3 to g3 at Trollkin
+move g1 from Yolonda to Yonderboy (y2)
+convert g3 to y3 at Trollkin
+build g2 at Twoshort
+convert b1 to r1 at Trollkin
+build g3 at Yonderboy
+move y1 from Bozo to Heinlein (b3)
+sacrifice g3 at Yonderboy; build g3 at Yonderboy; build y1 at Twoshort; build g3 at Yonderboy
+build y2 at Bozo
+convert g2 to r2 at Twoshort
+move r1 from Trollkin to Yonderboy
+sacrifice y3 at Twoshort; move g3 from Yonderboy to Trollkin; move g3 from Yonderboy to Trollkin
+capture g3 at Trollkin
+sacrifice r2 at Twoshort; capture g3 at Trollkin; capture y3 at Trollkin

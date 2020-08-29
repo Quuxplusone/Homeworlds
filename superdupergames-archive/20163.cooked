@@ -1,0 +1,64 @@
+Aristos (0, y1b2) g3-
+Sirruthvenmurgatroyd (1, y2b3) -g3
+build g1 at Aristos
+build g1 at Sirruthvenmurgatroyd
+move g1 from Aristos to Ash (y3)
+move g1 from Sirruthvenmurgatroyd to Sol (y1)
+move g1 from Ash to Elm (y1)
+build g1 at Sirruthvenmurgatroyd
+build g2 at Elm
+build g2 at Sol
+build g2 at Aristos
+build g3 at Sol
+convert g2 to y2 at Aristos
+convert g3 to r3 at Sirruthvenmurgatroyd
+sacrifice y2 at Aristos; move g1 from Elm to Ash (y2); move g1 from Ash to Sol; catastrophe green at Sol
+move r3 from Sirruthvenmurgatroyd to Elm
+sacrifice g2 at Elm; build g1 at Aristos
+move r3 from Elm to Sirruthvenmurgatroyd
+convert g1 to y1 at Aristos
+build g1 at Sirruthvenmurgatroyd
+build y1 at Aristos
+move g1 from Sirruthvenmurgatroyd to Terra (g1)
+build g2 at Aristos
+build g2 at Sirruthvenmurgatroyd
+move g2 from Aristos to Oak (b3)
+convert g1 to b1 at Sirruthvenmurgatroyd
+build g1 at Aristos
+convert g2 to y2 at Sirruthvenmurgatroyd
+convert y1 to r1 at Aristos
+build g2 at Terra
+build g2 at Oak
+sacrifice y2 at Sirruthvenmurgatroyd; move g2 from Terra to Sirruthvenmurgatroyd; move g1 from Terra to Sirruthvenmurgatroyd
+sacrifice g3 at Aristos; build g1 at Aristos; build g3 at Aristos; build g3 at Oak
+build g3 at Sirruthvenmurgatroyd
+sacrifice g3 at Oak; build g3 at Oak; build y1 at Aristos; build r1 at Aristos
+sacrifice g3 at Sirruthvenmurgatroyd; build g3 at Sirruthvenmurgatroyd; build r1 at Sirruthvenmurgatroyd; build r2 at Sirruthvenmurgatroyd
+convert g3 to y3 at Oak
+sacrifice g1 at Sirruthvenmurgatroyd; build b1 at Sirruthvenmurgatroyd
+build y2 at Oak
+convert r3 to y3 at Sirruthvenmurgatroyd
+move g1 from Aristos to Cedar (y3)
+move y3 from Sirruthvenmurgatroyd to Calufrax (b1)
+sacrifice y3 at Oak; move y1 from Aristos to Oak; move y1 from Oak to Elm (g1); move y2 from Oak to Elm
+move y3 from Calufrax to Betelgeuse (g3)
+convert g2 to b2 at Oak
+sacrifice b1 at Sirruthvenmurgatroyd; convert g2 to y2 at Sirruthvenmurgatroyd
+move y1 from Aristos to Maple (r3)
+build y3 at Betelgeuse
+move y1 from Maple to Pine (b1)
+sacrifice y2 at Sirruthvenmurgatroyd; move y3 from Betelgeuse to Aristos; move y3 from Betelgeuse to Aristos
+sacrifice y2 at Elm; move y1 from Pine to Willow (b3); move y1 from Willow to Aristos; catastrophe yellow at Aristos
+build g2 at Sirruthvenmurgatroyd
+sacrifice g3 at Aristos; build g2 at Cedar; build g3 at Oak; build g3 at Aristos
+move b1 from Sirruthvenmurgatroyd to Dogwood (y1)
+convert g2 to y2 at Oak
+convert g3 to y3 at Sirruthvenmurgatroyd
+move y2 from Oak to Dogwood
+move b1 from Dogwood to Acacia (y3)
+convert b2 to y2 at Oak
+sacrifice g2 at Sirruthvenmurgatroyd; build b1 at Acacia; build b1 at Acacia
+sacrifice y2 at Oak; move y2 from Dogwood to Sirruthvenmurgatroyd; move y1 from Elm to Sirruthvenmurgatroyd; catastrophe yellow at Sirruthvenmurgatroyd
+move b1 from Acacia to Aristos
+capture b1 at Aristos
+move b1 from Acacia to Aristos

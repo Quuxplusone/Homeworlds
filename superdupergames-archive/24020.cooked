@@ -1,0 +1,73 @@
+Aristos (0, g3b2) y3-
+Goulo (1, r1b2) -g3
+build y1 at Aristos
+build g1 at Goulo
+move y1 from Aristos to Glimmer (y1)
+build g1 at Goulo
+build y1 at Aristos
+convert g3 to y3 at Goulo
+convert y1 to g1 at Aristos
+build g2 at Goulo
+build g2 at Aristos
+move g1 from Goulo to Citronego (y3)
+move g1 from Aristos to Glimmer
+build g2 at Goulo
+build g3 at Glimmer
+build g3 at Citronego
+move g1 from Glimmer to Citronego
+move g1 from Goulo to Mirtelego (b3)
+sacrifice g2 at Aristos; build g2 at Citronego; build y1 at Aristos; catastrophe green at Citronego
+build y2 at Goulo
+build y2 at Glimmer
+move y2 from Goulo to Mirtelego
+sacrifice y2 at Glimmer; move g3 from Glimmer to Flash (y3); move y1 from Glimmer to Shine (g2)
+build g1 at Mirtelego
+convert y1 to r1 at Aristos
+convert g1 to r1 at Mirtelego
+build r2 at Aristos
+build r2 at Mirtelego
+move r2 from Aristos to Flare (g1)
+move r2 from Mirtelego to Citroneto (y1)
+move g3 from Flash to Citroneto
+move r2 from Citroneto to Citronego (y3)
+build y1 at Shine
+build y2 at Mirtelego
+build y2 at Aristos
+move g2 from Goulo to Smeraldego (g3)
+move y1 from Shine to Mirtelego
+capture y1 at Mirtelego
+sacrifice y2 at Aristos; move r2 from Flare to Mirtelego; move y1 from Shine to Mirtelego; catastrophe yellow at Mirtelego
+build r2 at Mirtelego
+sacrifice g3 at Citroneto; build r3 at Aristos; build r3 at Aristos; build r3 at Mirtelego; catastrophe red at Mirtelego
+sacrifice y3 at Goulo; move g1 from Mirtelego to Citroneto (y1); move r2 from Citronego to Citroneto; move r2 from Citroneto to Aristos; catastrophe red at Aristos
+build y1 at Aristos
+move g1 from Citroneto to Aristos
+convert y3 to r3 at Aristos
+build g1 at Aristos
+capture g1 at Aristos
+sacrifice g2 at Smeraldego; build g1 at Aristos; build g2 at Goulo; catastrophe green at Aristos
+convert y1 to g1 at Aristos
+build g1 at Goulo
+build r1 at Aristos
+convert g2 to y2 at Goulo
+convert r1 to y1 at Aristos
+move g2 from Goulo to Citronego (y3)
+move r3 from Aristos to Citronego
+sacrifice g2 at Citronego; build g1 at Goulo; build g2 at Goulo
+build g2 at Aristos
+convert g1 to r1 at Goulo
+move g1 from Aristos to Citronego
+convert g1 to b1 at Goulo
+build r1 at Citronego
+move b1 from Goulo to Bananego (y3)
+move r1 from Citronego to Twinkle (y1)
+build g1 at Goulo
+build r2 at Citronego
+sacrifice g2 at Goulo; build b1 at Bananego; build b1 at Bananego
+move r3 from Citronego to Goulo
+build r2 at Goulo; catastrophe red at Goulo
+move r2 from Citronego to Goulo
+move b1 from Bananego to Aristos
+capture y2 at Goulo
+move b1 from Bananego to Aristos
+capture g1 at Goulo

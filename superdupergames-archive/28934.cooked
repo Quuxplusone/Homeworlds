@@ -1,0 +1,27 @@
+Ts52 (0, y3b1) g3-
+Kanzenryu (1, y1b2) -g3
+build g1 at Ts52
+build g1 at Kanzenryu
+convert g1 to b1 at Ts52
+convert g1 to y1 at Kanzenryu
+build b1 at Ts52
+build g1 at Kanzenryu
+move b1 from Ts52 to Robin (g2)
+move g1 from Kanzenryu to Bigblue (b3)
+build b2 at Robin
+build g1 at Bigblue
+build b2 at Ts52
+convert g1 to y1 at Bigblue
+build b3 at Robin
+build y2 at Bigblue
+convert b3 to y3 at Robin
+convert y2 to r2 at Bigblue
+convert b2 to r2 at Robin
+build y2 at Bigblue
+build b2 at Robin
+move y1 from Kanzenryu to Other (b3)
+build b3 at Robin
+build g1 at Kanzenryu
+move b2 from Robin to Bigbird (y3)
+move y1 from Bigblue to Peep (g2)
+convert b3 to g3 at Robin

@@ -1,0 +1,27 @@
+Sordros (0, y1b2) g3-
+Makertron (1, b3y1) -g3
+build g1 at Sordros
+build g1 at Makertron
+convert g1 to y1 at Sordros
+convert g1 to r1 at Makertron
+build y2 at Sordros
+build g1 at Makertron
+build g1 at Sordros
+move g1 from Makertron to Catastrophe (b2)
+convert y2 to b2 at Sordros
+build g1 at Makertron
+convert g1 to r1 at Sordros
+build r1 at Makertron
+build y2 at Sordros
+build r2 at Makertron
+move y2 from Sordros to Azurra (b3)
+move r1 from Makertron to Catastrophe
+build r2 at Sordros
+build r2 at Catastrophe
+sacrifice g3 at Sordros; build y2 at Azurra; build y2 at Azurra; build y3 at Sordros
+build r3 at Makertron
+sacrifice b2 at Sordros; convert y3 to g3 at Sordros; convert r2 to b2 at Sordros
+convert r2 to g2 at Catastrophe
+build r2 at Sordros
+move r2 from Makertron to Catastrophe
+convert y2 to r2 at Azurra

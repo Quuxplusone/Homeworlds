@@ -1,0 +1,20 @@
+Deanthebean (0, r2b1) g3-
+Draw5Playall (1, b1g2) -b3
+build g1 at Deanthebean
+build b1 at Draw5Playall
+build g1 at Deanthebean
+convert b3 to y3 at Draw5Playall
+convert g1 to y1 at Deanthebean
+build b2 at Draw5Playall
+build y1 at Deanthebean
+move b2 from Draw5Playall to Success (g3)
+convert g1 to r1 at Deanthebean
+build b2 at Success
+build g1 at Deanthebean
+convert b2 to r2 at Success
+move g3 from Deanthebean to Success
+sacrifice y3 at Draw5Playall; move r2 from Success to Deanthebean; move b2 from Success to Deanthebean
+sacrifice y1 at Deanthebean; move g3 from Success to Deanthebean
+capture g1 at Deanthebean
+capture b2 at Deanthebean
+capture b2 at Deanthebean

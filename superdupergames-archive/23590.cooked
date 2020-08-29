@@ -1,0 +1,48 @@
+Wil (0, r2b1) g3-
+Silenttitan (1, b2r3) -g3
+build g1 at Wil
+build g1 at Silenttitan
+convert g1 to y1 at Wil
+convert g1 to y1 at Silenttitan
+build g1 at Wil
+build g1 at Silenttitan
+convert g1 to b1 at Wil
+convert g3 to b3 at Silenttitan
+build g1 at Wil
+build g1 at Silenttitan
+build g2 at Wil
+build g2 at Silenttitan
+convert g1 to r1 at Wil
+convert g2 to b2 at Silenttitan
+move b1 from Wil to Fortcourage (y3)
+convert b2 to r2 at Silenttitan
+build r1 at Wil
+move b3 from Silenttitan to Sol (r1)
+move g2 from Wil to Taratupa (r3)
+build r2 at Silenttitan
+convert g3 to y3 at Wil
+convert r2 to y2 at Silenttitan
+move r1 from Wil to Fortcourage
+sacrifice y1 at Silenttitan; move b3 from Sol to Fortcourage
+move b1 from Fortcourage to Wil
+move g1 from Silenttitan to Sol (y1)
+move r1 from Fortcourage to Sol
+move b3 from Fortcourage to Sol
+move r1 from Sol to Taratupa
+build g1 at Silenttitan
+build g2 at Taratupa
+move g1 from Silenttitan to Sole (b1)
+move r1 from Wil to Forttortuga (g3)
+build g2 at Sole
+move y1 from Wil to Taratupa
+build g3 at Silenttitan
+build y1 at Taratupa
+build g3 at Sol
+build y2 at Taratupa
+convert g2 to y2 at Sole
+move y1 from Taratupa to Stalag17 (r1)
+sacrifice y2 at Sole; move b3 from Sol to Forttortuga; move g3 from Sol to Forttortuga
+sacrifice g2 at Taratupa; build r2 at Taratupa; build r3 at Forttortuga
+sacrifice r2 at Silenttitan; capture r3 at Forttortuga; capture r1 at Forttortuga
+build g2 at Taratupa
+sacrifice y2 at Silenttitan; move r1 from Forttortuga to Sol; move r1 from Sol to Taratupa; catastrophe red at Taratupa

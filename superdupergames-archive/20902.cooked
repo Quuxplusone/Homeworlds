@@ -1,0 +1,39 @@
+Jesse (0, y1b2) g3-
+Subhan64 (1, g3b1) -y3
+build g1 at Jesse
+build y1 at Subhan64
+convert g1 to y1 at Jesse
+convert y1 to g1 at Subhan64
+move y1 from Jesse to Supermoss (g3)
+move g1 from Subhan64 to Bigbird (y2)
+build g1 at Jesse
+build g1 at Bigbird
+move g1 from Jesse to Superlake (b3)
+move g1 from Bigbird to Superlake
+convert g1 to r1 at Superlake
+sacrifice g1 at Superlake; build y1 at Subhan64
+build y2 at Supermoss
+convert y1 to r1 at Subhan64
+build g1 at Jesse
+move r1 from Subhan64 to Kermit (g2)
+move y2 from Supermoss to Kermit
+build y1 at Subhan64
+sacrifice r1 at Superlake; capture r1 at Kermit
+move y1 from Subhan64 to Karopi (g2)
+move g1 from Jesse to Supercanary (y3)
+sacrifice g1 at Bigbird; build y2 at Karopi
+build g1 at Jesse
+move y1 from Karopi to Subhan64
+sacrifice g3 at Jesse; build g1 at Supercanary; build g2 at Supercanary; build g3 at Jesse
+build y2 at Karopi
+build y3 at Supermoss
+convert y1 to r1 at Subhan64
+build y1 at Kermit
+move y2 from Karopi to Supermoss
+move g1 from Supercanary to Lake (b2)
+move r1 from Subhan64 to Lake
+sacrifice r1 at Kermit; capture r1 at Lake
+move y2 from Supermoss to Karopi
+move y1 from Supermoss to Lake
+move y2 from Karopi to Cookie_Monster (b3)
+sacrifice y3 at Supermoss; move y1 from Lake to Subhan64; move y1 from Kermit to Subhan64; move y2 from Kermit to Subhan64; catastrophe yellow at Subhan64

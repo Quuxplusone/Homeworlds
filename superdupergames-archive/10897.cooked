@@ -1,0 +1,16 @@
+Mikeyarrum (0, b3r2) g3-
+Jj12121616 (1, g2b1) -y3
+build g1 at Mikeyarrum
+build y1 at Jj12121616
+convert g1 to y1 at Mikeyarrum
+move y1 from Jj12121616 to Market (b3)
+build g1 at Mikeyarrum
+build y1 at Jj12121616
+build y2 at Mikeyarrum
+build y2 at Jj12121616
+move y1 from Mikeyarrum to Yotsuba (g1)
+move y1 from Jj12121616 to Slime (g3)
+build g1 at Mikeyarrum
+convert y2 to r2 at Jj12121616
+build y2 at Yotsuba
+build y2 at Slime

@@ -1,0 +1,49 @@
+Babamots (0, b2r1) g3-
+Speardane (1, y3g2) -b3
+build g1 at Babamots
+build b1 at Speardane
+convert g1 to y1 at Babamots
+convert b1 to r1 at Speardane
+build y1 at Babamots
+build r1 at Speardane
+build y1 at Babamots
+move r1 from Speardane to Delos (b1)
+move y1 from Babamots to Orion (g3)
+build r2 at Speardane
+build y2 at Babamots
+convert r2 to y2 at Speardane
+move y1 from Babamots to Betazed (b3)
+move y2 from Speardane to Delos
+sacrifice g3 at Babamots; build y2 at Orion; build y3 at Betazed; build y3 at Babamots
+convert r1 to g1 at Delos
+convert y1 to g1 at Babamots
+build y1 at Delos
+convert y1 to r1 at Betazed
+convert y2 to r2 at Delos
+move y3 from Betazed to Delos
+move r2 from Delos to Betazed
+sacrifice r1 at Betazed; capture y1 at Delos
+sacrifice g1 at Delos; build r1 at Betazed
+build y1 at Babamots
+convert r2 to y2 at Betazed
+convert y2 to r2 at Babamots
+convert r1 to g1 at Betazed
+build y2 at Orion
+build b1 at Speardane
+move g1 from Babamots to Bolarus (b3)
+move b1 from Speardane to Lebling (r1)
+move y2 from Orion to Lebling
+sacrifice b1 at Lebling
+build g1 at Bolarus
+build r2 at Speardane
+sacrifice y1 at Orion; move g1 from Bolarus to Lebling
+convert r2 to g2 at Speardane
+build g2 at Lebling
+build g3 at Betazed
+sacrifice y3 at Delos; move y2 from Lebling to Speardane; move y1 from Delos to Speardane; move y2 from Orion to Lebling
+sacrifice g2 at Speardane; build y1 at Betazed; build y3 at Betazed
+move g1 from Lebling to Speardane
+sacrifice y3 at Betazed; move y1 from Betazed to Babamots; move y2 from Betazed to Babamots; move g3 from Betazed to Lebling; catastrophe yellow at Babamots
+sacrifice g2 at Lebling; build g2 at Speardane; build y1 at Speardane; catastrophe yellow at Speardane
+pass
+build g2 at Speardane; catastrophe green at Speardane

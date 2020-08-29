@@ -1,0 +1,24 @@
+Subhan64 (0, y3b1) g3-
+Foksieloy (1, r2b1) -g3
+build g1 at Subhan64
+build g1 at Foksieloy
+convert g1 to y1 at Subhan64
+convert g1 to y1 at Foksieloy
+build g1 at Subhan64
+build g1 at Foksieloy
+convert g1 to b1 at Subhan64
+move g1 from Foksieloy to Tibbers (y3)
+build g1 at Subhan64
+build g1 at Tibbers
+build g2 at Subhan64
+build g2 at Tibbers
+move g1 from Subhan64 to Tweety (y2)
+move g2 from Tibbers to Annie (b2)
+sacrifice g3 at Subhan64; build g2 at Tweety; build g3 at Subhan64; build b2 at Subhan64
+build g3 at Annie
+sacrifice b1 at Subhan64; convert g2 to b2 at Tweety
+convert g3 to r3 at Annie
+move b2 from Subhan64 to Tweety
+sacrifice y1 at Foksieloy; move r3 from Annie to Subhan64
+sacrifice b2 at Tweety; convert y1 to r1 at Subhan64; convert g2 to r2 at Subhan64
+capture g3 at Subhan64

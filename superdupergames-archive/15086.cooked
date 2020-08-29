@@ -1,0 +1,54 @@
+Granthenninger (0, y1b2) g3-
+Logikal (1, y1b3) -g3
+build g1 at Granthenninger
+build g1 at Logikal
+convert g1 to y1 at Granthenninger
+build g1 at Logikal
+build y2 at Granthenninger
+move g1 from Logikal to L1 (y2)
+move y2 from Granthenninger to Gmh1 (y3)
+move g1 from L1 to L2 (y3)
+build g1 at Granthenninger
+build g2 at L2
+move g1 from Granthenninger to Gmh1
+move g2 from L2 to L3 (b2)
+build g2 at Granthenninger
+sacrifice g3 at Logikal; build g2 at L3; build g3 at Logikal; build g3 at Logikal
+sacrifice g3 at Granthenninger; build y2 at Granthenninger; build g3 at Granthenninger; build y2 at Gmh1
+convert g3 to y3 at Logikal
+build g3 at Gmh1
+sacrifice g1 at L2; build y3 at Logikal
+sacrifice y2 at Granthenninger; move y2 from Gmh1 to L3; move y2 from L3 to Logikal; catastrophe yellow at Logikal
+convert g1 to r1 at Logikal
+convert g3 to r3 at Granthenninger
+convert g2 to y2 at L3
+build g1 at Granthenninger
+build y1 at L3
+move g3 from Gmh1 to Granthenninger
+sacrifice y2 at L3; move g2 from L3 to Gmh1; move g2 from Gmh1 to Granthenninger; catastrophe green at Granthenninger
+convert y1 to g1 at Granthenninger
+move y1 from L3 to Logikal
+build r1 at Granthenninger
+build g1 at Logikal
+build g2 at Gmh1
+build y1 at Logikal
+build g2 at Granthenninger
+move g1 from Logikal to L1 (y2)
+sacrifice y2 at Gmh1; move r3 from Granthenninger to Gmh1; move r3 from Gmh1 to L1
+move g1 from L1 to L2 (b3)
+move g1 from Gmh1 to L1
+build g2 at Logikal
+sacrifice g2 at Granthenninger; build g2 at Granthenninger; build g3 at L1
+build g3 at L2
+convert g2 to y2 at Granthenninger
+convert g2 to b2 at Logikal
+convert g1 to b1 at Granthenninger
+build b1 at Logikal
+move b1 from Granthenninger to Gmh1
+move b2 from Logikal to L3 (g1)
+move b1 from Gmh1 to L1
+convert b2 to y2 at L3
+convert g3 to r3 at L1
+convert g3 to r3 at L2
+sacrifice y2 at Granthenninger; move r3 from L1 to Logikal; move r3 from L1 to Logikal
+sacrifice r3 at L2; capture r3 at Logikal; capture r3 at Logikal

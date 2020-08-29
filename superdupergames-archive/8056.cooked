@@ -1,0 +1,45 @@
+Dadrk (0, g2r3) b3-
+Matrixfrog (1, g2b1) -y3
+build b1 at Dadrk
+build y1 at Matrixfrog
+convert b1 to y1 at Dadrk
+build y1 at Matrixfrog
+build y2 at Dadrk
+move y1 from Matrixfrog to Alpha (g3)
+move y2 from Dadrk to First (b1)
+build y2 at Alpha
+build b1 at Dadrk
+convert y1 to r1 at Matrixfrog
+move b1 from Dadrk to Scnd (g1)
+build r1 at Matrixfrog
+build b2 at Scnd
+move y2 from Alpha to Scnd
+convert y1 to r1 at Dadrk
+sacrifice r1 at Matrixfrog; capture b2 at Scnd
+build b2 at Dadrk
+build y1 at Matrixfrog
+convert b3 to r3 at Dadrk
+sacrifice r1 at Matrixfrog; capture b1 at Scnd
+convert r1 to y1 at Dadrk
+build y2 at Alpha
+move r3 from Dadrk to Scnd
+move b2 from Scnd to Dadrk
+capture b2 at Dadrk
+build b2 at Scnd
+capture b2 at Scnd
+build y3 at Alpha
+move y2 from First to Alpha; catastrophe yellow at Alpha
+build y1 at Matrixfrog
+capture y2 at Scnd
+build b1 at Scnd
+sacrifice b2 at Scnd; convert b2 to y2 at Dadrk; convert y1 to g1 at Dadrk
+move y1 from Matrixfrog to Beta (g3)
+capture b1 at Scnd
+build y1 at Beta
+move r3 from Scnd to Beta
+sacrifice y1 at Beta; move y1 from Beta to Scnd
+sacrifice y2 at Dadrk; move b1 from Scnd to Beta; move r3 from Beta to Matrixfrog
+convert y1 to r1 at Scnd
+capture y3 at Matrixfrog
+build y1 at Matrixfrog
+build y1 at Matrixfrog; catastrophe yellow at Matrixfrog

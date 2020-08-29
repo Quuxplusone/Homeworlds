@@ -1,0 +1,22 @@
+Bhorner (0, r1b2) g3-
+Ajo (1, r2b1) -g3
+build g1 at Bhorner
+build g1 at Ajo
+convert g1 to b1 at Bhorner
+convert g1 to y1 at Ajo
+build b1 at Bhorner
+build y1 at Ajo
+build g1 at Bhorner
+build g1 at Ajo
+convert b1 to r1 at Bhorner
+build y1 at Ajo
+convert g3 to y3 at Bhorner
+move y1 from Ajo to Alpha (g3)
+build y2 at Bhorner
+build y2 at Ajo
+convert y3 to g3 at Bhorner
+convert y1 to r1 at Ajo
+build b1 at Bhorner
+convert y2 to b2 at Ajo
+move g1 from Bhorner to Shiney (y3)
+move b2 from Ajo to Alpha

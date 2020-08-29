@@ -1,0 +1,35 @@
+Clockwise (0, r1b2) g3-
+Dsheldon (1, y3b2) -g3
+build g1 at Clockwise
+build g1 at Dsheldon
+convert g1 to y1 at Clockwise
+move g1 from Dsheldon to Babycorn (y1)
+build g1 at Clockwise
+build g1 at Dsheldon
+build g2 at Clockwise
+sacrifice g3 at Dsheldon; build g2 at Babycorn; build g2 at Babycorn; build g3 at Dsheldon
+move g2 from Clockwise to Kermit (g3)
+move g2 from Babycorn to Reststop (b2)
+sacrifice g3 at Clockwise; build g3 at Clockwise; build y1 at Clockwise; build y2 at Clockwise
+convert g2 to y2 at Reststop
+move y1 from Clockwise to Cookie (b3)
+move g1 from Babycorn to Cookie
+sacrifice g3 at Clockwise; build g2 at Kermit; build g3 at Clockwise; build y2 at Cookie
+move g2 from Babycorn to Kermit; catastrophe green at Kermit
+convert y2 to r2 at Cookie
+sacrifice g1 at Cookie; build y1 at Reststop
+move y1 from Clockwise to Kermit (g3)
+convert y1 to r1 at Reststop
+build y1 at Kermit
+build g1 at Dsheldon
+sacrifice g3 at Clockwise; build y2 at Clockwise; build y3 at Clockwise; build y3 at Cookie
+move g1 from Dsheldon to Skirmish (r1)
+convert y3 to g3 at Clockwise
+sacrifice g3 at Dsheldon; build y3 at Reststop; build r2 at Reststop; build g2 at Dsheldon
+sacrifice y2 at Clockwise; move y1 from Kermit to Reststop; move y1 from Cookie to Reststop; catastrophe yellow at Reststop
+convert r2 to y2 at Reststop
+sacrifice y2 at Clockwise; move y3 from Cookie to Skirmish; move y3 from Skirmish to Dsheldon
+sacrifice y2 at Reststop; move r1 from Reststop to Skirmish; move r1 from Skirmish to Dsheldon
+sacrifice r2 at Cookie; capture g2 at Dsheldon; capture r1 at Dsheldon
+build g2 at Dsheldon
+sacrifice g3 at Clockwise; build g2 at Dsheldon; build g3 at Clockwise; build g3 at Clockwise; catastrophe green at Dsheldon

@@ -1,0 +1,55 @@
+Zweiterlinde (0, y1b3) g3-
+Amoscai (1, r1b3) -g3
+build g1 at Zweiterlinde
+build g1 at Amoscai
+move g1 from Zweiterlinde to Alto (b2)
+convert g1 to y1 at Amoscai
+build g1 at Zweiterlinde
+build g1 at Amoscai
+build g2 at Alto
+move g1 from Amoscai to Base (y2)
+convert g1 to y1 at Alto
+build y2 at Amoscai
+build y2 at Alto
+move y2 from Amoscai to Base
+move y2 from Alto to Carota (g3)
+build y3 at Amoscai
+build y3 at Alto
+move y1 from Amoscai to Alto
+build y3 at Carota
+move y3 from Amoscai to Alto; catastrophe yellow at Alto
+move y2 from Carota to Base
+build g1 at Base
+sacrifice g1 at Zweiterlinde; build y1 at Base; catastrophe yellow at Base
+build g1 at Amoscai
+build g1 at Alto
+convert g1 to y1 at Amoscai
+convert g1 to y1 at Alto
+build y2 at Amoscai
+build g1 at Zweiterlinde
+convert y2 to r2 at Amoscai
+convert g2 to r2 at Alto
+build y2 at Amoscai
+move g1 from Zweiterlinde to Alto
+build g1 at Amoscai
+build g1 at Alto
+move g1 from Amoscai to Alto
+capture g1 at Alto
+move y1 from Amoscai to Beta (g2)
+convert g1 to r1 at Alto
+build y2 at Beta
+build g1 at Zweiterlinde
+move y1 from Beta to Delta (y3)
+build g2 at Alto
+move r2 from Amoscai to Beta
+move g1 from Alto to Empyrio (y3)
+build y2 at Beta
+sacrifice g3 at Zweiterlinde; build g2 at Alto; build g3 at Zweiterlinde; build r1 at Alto
+move y1 from Delta to Alto
+build y3 at Alto
+sacrifice y2 at Beta; move y2 from Beta to Carota; move y2 from Carota to Alto; catastrophe yellow at Alto
+sacrifice y3 at Carota; move g1 from Alto to Amoscai; move g2 from Alto to Amoscai; move g2 from Alto to Amoscai; catastrophe green at Amoscai
+convert y2 to g2 at Amoscai
+move g3 from Zweiterlinde to Fortitude (y2)
+build g1 at Amoscai
+move g3 from Fortitude to Amoscai

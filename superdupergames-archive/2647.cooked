@@ -1,0 +1,41 @@
+Twoshort (0, y1b2) g3-
+Sketchwick (1, b1r3) -g3
+build g1 at Twoshort
+build g1 at Sketchwick
+move g1 from Twoshort to Yolonda (y3)
+convert g3 to y3 at Sketchwick
+build g1 at Yolonda
+build g2 at Sketchwick
+build g2 at Twoshort
+move g1 from Sketchwick to Smith (y2)
+move g1 from Yolonda to Smith
+convert g2 to r2 at Sketchwick
+sacrifice g3 at Twoshort; build g2 at Smith; build g2 at Yolonda; build g3 at Twoshort
+move r2 from Sketchwick to Smith
+sacrifice g3 at Twoshort; build g3 at Yolonda; build g3 at Twoshort; build g3 at Twoshort
+capture g2 at Smith
+move g1 from Yolonda to Smith; catastrophe green at Smith
+move r2 from Smith to Yolonda
+convert g2 to r2 at Twoshort
+move r2 from Yolonda to Notgoingwell (y2)
+move g3 from Yolonda to Notgoingwell
+move r2 from Notgoingwell to Sketchwick
+sacrifice g3 at Twoshort; build g1 at Twoshort; build g1 at Yolonda; build g1 at Notgoingwell
+convert r2 to g2 at Sketchwick
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Yolonda; build g3 at Twoshort
+build y1 at Sketchwick
+convert g3 to y3 at Twoshort
+build g3 at Sketchwick
+move g2 from Yolonda to Goingfine (y2)
+move y1 from Sketchwick to Notdead (r2)
+move g1 from Notgoingwell to Sketchwick
+sacrifice g2 at Sketchwick; build y1 at Notdead; build y2 at Sketchwick
+sacrifice g2 at Goingfine; build g2 at Sketchwick; build g2 at Sketchwick; catastrophe green at Sketchwick
+convert y3 to g3 at Sketchwick
+move g3 from Yolonda to Yet (b2)
+move y1 from Notdead to Ox (b3)
+convert g3 to y3 at Yet
+convert y2 to g2 at Sketchwick
+sacrifice y3 at Twoshort; move y3 from Yet to Sketchwick; move g3 from Notgoingwell to Sketchwick
+capture y3 at Sketchwick
+sacrifice r2 at Twoshort; capture g3 at Sketchwick; capture y3 at Sketchwick

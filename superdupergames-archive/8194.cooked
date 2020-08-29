@@ -1,0 +1,78 @@
+Mikeyarrum (0, b3r2) g3-
+Dayleh (1, b1g2) -y3
+build g1 at Mikeyarrum
+build y1 at Dayleh
+convert g1 to y1 at Mikeyarrum
+convert y1 to r1 at Dayleh
+build g1 at Mikeyarrum
+build y1 at Dayleh
+build g1 at Mikeyarrum
+build r1 at Dayleh
+move g1 from Mikeyarrum to Tomo (b1)
+convert y3 to g3 at Dayleh
+convert g1 to b1 at Mikeyarrum
+move y1 from Dayleh to Erin (g3)
+build b2 at Mikeyarrum
+build y1 at Erin
+build y2 at Mikeyarrum
+move y1 from Erin to Dayleh
+build y2 at Mikeyarrum
+sacrifice g3 at Dayleh; build y2 at Erin; build y3 at Dayleh; build y3 at Dayleh
+move y1 from Mikeyarrum to Tomo
+convert y1 to g1 at Dayleh
+move b2 from Mikeyarrum to Tomo
+move y2 from Erin to Tomo
+build b2 at Tomo
+sacrifice r1 at Dayleh; capture b2 at Tomo
+build b2 at Tomo; catastrophe blue at Tomo
+build r1 at Dayleh
+convert y2 to r2 at Mikeyarrum
+convert y3 to g3 at Dayleh
+move r2 from Mikeyarrum to Osaka (g1)
+move g3 from Dayleh to Callie (y3)
+build y1 at Mikeyarrum
+build y1 at Dayleh
+build y2 at Mikeyarrum
+build y2 at Erin
+move y2 from Mikeyarrum to Osaka
+move g1 from Dayleh to Kadon (y3)
+build g1 at Mikeyarrum
+convert r1 to b1 at Dayleh
+move b1 from Mikeyarrum to Osaka
+move b1 from Dayleh to Erin
+build b2 at Osaka
+build b2 at Erin
+move y2 from Mikeyarrum to Kimura (r1)
+move y2 from Erin to Tammy (g2)
+move r2 from Osaka to Kadon
+sacrifice g1 at Kadon; build r1 at Dayleh
+move b1 from Osaka to Kadon
+convert b2 to g2 at Erin
+build b2 at Osaka
+move r1 from Dayleh to Callie
+move g1 from Mikeyarrum to Kimura
+sacrifice g2 at Erin; build r2 at Dayleh; build r3 at Callie
+sacrifice g1 at Kimura; build r3 at Kadon
+sacrifice y2 at Tammy; move r1 from Dayleh to Kadon; move r2 from Dayleh to Kadon; catastrophe red at Kadon
+convert b2 to r2 at Osaka
+move g3 from Callie to Osaka
+sacrifice y2 at Osaka; move r2 from Osaka to Callie; move b2 from Osaka to Callie
+capture b2 at Callie
+capture b2 at Callie
+move r1 from Callie to Osaka
+build g1 at Mikeyarrum
+capture r2 at Callie
+move b2 from Callie to Dayleh
+sacrifice r1 at Osaka; capture b2 at Dayleh
+move b1 from Kadon to Dayleh
+convert b2 to r2 at Dayleh
+build b2 at Dayleh
+sacrifice r2 at Callie; capture b1 at Dayleh; capture b2 at Dayleh
+move g1 from Mikeyarrum to Osaka
+sacrifice y1 at Dayleh; move g3 from Osaka to Kadon (y3)
+convert y1 to r1 at Mikeyarrum
+move b2 from Dayleh to Kadon
+sacrifice g1 at Osaka; build y1 at Kimura
+move b2 from Kadon to Tammy (g1)
+build g1 at Mikeyarrum
+sacrifice g3 at Kadon; build b2 at Erin; build b2 at Dayleh; build b3 at Tammy

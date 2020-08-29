@@ -1,0 +1,20 @@
+Wil (0, y2b1) g3-
+Teeteetee (1, y1b3) -g3
+build g1 at Wil
+build g1 at Teeteetee
+convert g1 to b1 at Wil
+convert g1 to y1 at Teeteetee
+build b1 at Wil
+build y1 at Teeteetee
+move b1 from Wil to G3 (g3)
+move y1 from Teeteetee to Spite (g2)
+build b2 at G3
+sacrifice g3 at Teeteetee; build y2 at Spite; build y2 at Spite; build y3 at Teeteetee
+build b2 at Wil
+convert y3 to g3 at Teeteetee
+convert b2 to r2 at Wil
+build y3 at Teeteetee
+move r2 from Wil to Y3 (y3)
+convert y3 to r3 at Teeteetee
+build g1 at Wil
+build y3 at Teeteetee

@@ -1,0 +1,77 @@
+Zoltar (0, b3r2) g3-
+Madwuher (1, r1b2) -g3
+build g1 at Zoltar
+build g1 at Madwuher
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Madwuher
+build g1 at Zoltar
+build g1 at Madwuher
+convert g1 to r1 at Zoltar
+convert g1 to r1 at Madwuher
+build r2 at Zoltar
+build r2 at Madwuher
+move r2 from Zoltar to Greenbelt (g1)
+move r2 from Madwuher to Edora (y3)
+build r3 at Greenbelt
+build r3 at Madwuher
+build r3 at Zoltar
+convert r1 to b1 at Madwuher
+convert r1 to b1 at Zoltar
+build g1 at Madwuher
+move b1 from Zoltar to Greenbelt
+move r3 from Madwuher to Edora
+convert r3 to y3 at Greenbelt
+move b1 from Madwuher to Edora
+build y1 at Greenbelt
+build y2 at Madwuher
+build y2 at Zoltar
+move y2 from Madwuher to Bologna (g3)
+move y1 from Zoltar to Greenarrow (g1)
+move g1 from Madwuher to Camelot (y3)
+move r3 from Zoltar to Greenarrow
+build y2 at Madwuher
+move r3 from Greenarrow to Camelot
+sacrifice g1 at Camelot; build g1 at Madwuher
+build g2 at Zoltar
+move g1 from Madwuher to Edora
+move g2 from Zoltar to Reddwarf (r1)
+build g2 at Madwuher
+build g2 at Zoltar
+move r2 from Edora to Greenarrow
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r1 at Camelot; build r3 at Greenbelt
+capture y1 at Greenarrow
+move r3 from Camelot to Greenarrow
+move r2 from Greenarrow to Camelot
+sacrifice r1 at Camelot; capture y1 at Greenarrow
+sacrifice g2 at Madwuher; build r1 at Camelot; build g2 at Edora
+move r3 from Greenbelt to Camelot
+sacrifice y2 at Bologna; move r2 from Camelot to Bologna (y2); move g1 from Edora to Bologna
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Reddwarf; build b1 at Greenbelt
+build b2 at Edora
+capture r1 at Camelot
+move b1 from Edora to Bologna
+move b1 from Greenbelt to Camelot
+sacrifice g1 at Bologna; build g1 at Madwuher
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b2 at Greenbelt; build b3 at Camelot
+sacrifice g3 at Madwuher; build g3 at Madwuher; build b3 at Bologna
+sacrifice y2 at Zoltar; move b1 from Camelot to Bologna; move b1 from Greenbelt to Bologna; catastrophe blue at Bologna
+build b1 at Edora
+sacrifice g3 at Reddwarf; build g3 at Reddwarf; build y2 at Greenarrow; build b1 at Camelot
+move b1 from Edora to Bologna
+sacrifice y2 at Greenarrow; move g3 from Reddwarf to Bologna; move g2 from Reddwarf to Bluemoon (b3)
+move r2 from Bologna to Bluemoon
+sacrifice g3 at Bologna; build g3 at Bluemoon; build y2 at Greenarrow; build r1 at Greenbelt
+capture g2 at Bluemoon
+sacrifice r2 at Greenbelt; capture r2 at Bluemoon; capture g2 at Bluemoon
+move g1 from Madwuher to Edora
+sacrifice g3 at Bluemoon; build g3 at Bluemoon; build r2 at Greenbelt; build b1 at Greenbelt
+sacrifice y1 at Madwuher; move g1 from Edora to Dung (y1)
+move y3 from Greenbelt to Zoltar
+sacrifice g1 at Dung; build y1 at Madwuher
+move b1 from Greenbelt to Bluemoon
+build g1 at Edora
+move b3 from Camelot to Madwuher
+capture b3 at Madwuher
+sacrifice y2 at Greenarrow; move b1 from Bluemoon to Madwuher; move b1 from Camelot to Madwuher; catastrophe blue at Madwuher
+build y2 at Madwuher
+sacrifice y3 at Zoltar; move r1 from Camelot to Madwuher; move r2 from Bluemoon to Madwuher; move r3 from Camelot to Madwuher; catastrophe red at Madwuher

@@ -1,0 +1,105 @@
+Ts52 (0, y1b2) g3-
+Felix (1, b1y3) -g3
+build g1 at Ts52
+build g1 at Felix
+convert g1 to b1 at Ts52
+convert g1 to b1 at Felix
+build b2 at Ts52
+build b2 at Felix
+move b2 from Ts52 to Kermit (g3)
+move b1 from Felix to Reign (y2)
+build b3 at Kermit
+build b3 at Felix
+convert b3 to y3 at Kermit
+convert b2 to r2 at Felix
+convert b1 to r1 at Ts52
+build g1 at Felix
+build y1 at Kermit
+convert g1 to y1 at Felix
+build y2 at Kermit
+move y1 from Felix to Out (g2)
+move y2 from Kermit to Gonzo (b2)
+build y2 at Out
+move y3 from Kermit to Gonzo
+move y1 from Out to Kermit
+convert y2 to g2 at Gonzo
+sacrifice y2 at Out; move b3 from Felix to Reign; move b3 from Reign to Kermit
+build y2 at Gonzo
+build r1 at Felix
+convert y2 to r2 at Gonzo
+sacrifice r2 at Felix; capture y1 at Kermit; capture b2 at Kermit
+build y2 at Gonzo
+move y1 from Kermit to Gonzo
+convert y3 to r3 at Gonzo
+build g1 at Felix
+build g1 at Gonzo
+build y2 at Kermit
+sacrifice y2 at Gonzo; move g1 from Gonzo to Felix; move g2 from Gonzo to Felix; catastrophe green at Felix
+sacrifice y2 at Kermit; move b3 from Kermit to Reign; move b3 from Reign to Felix
+capture y1 at Gonzo
+convert b3 to g3 at Felix
+move r3 from Gonzo to Kermit
+move b2 from Kermit to Envision (b1)
+capture y1 at Kermit
+sacrifice g3 at Felix; build b3 at Envision; build b3 at Reign; build b3 at Reign
+move r2 from Gonzo to Felix
+move b3 from Reign to Felix
+capture r1 at Felix
+convert b2 to r2 at Envision
+move r2 from Felix to Gonzo
+convert b3 to g3 at Reign
+build y2 at Kermit
+convert b3 to y3 at Envision
+build g1 at Ts52
+sacrifice g3 at Reign; build b2 at Reign; build b3 at Reign; build b3 at Felix
+convert r2 to g2 at Gonzo
+convert b3 to g3 at Reign
+build y2 at Gonzo
+sacrifice g3 at Reign; build b3 at Reign; build y3 at Envision; build r1 at Envision
+sacrifice y2 at Kermit; move y2 from Gonzo to Envision; move y1 from Gonzo to Envision; catastrophe yellow at Envision
+sacrifice r1 at Envision; capture r1 at Felix
+build g1 at Gonzo
+convert b3 to g3 at Reign
+convert g1 to y1 at Gonzo
+build b3 at Reign
+sacrifice g2 at Gonzo; build y2 at Gonzo; build y2 at Kermit
+move b3 from Reign to Mars (r3)
+build y3 at Kermit
+convert b3 to y3 at Mars
+move r3 from Kermit to Envision
+sacrifice g3 at Reign; build r1 at Envision; build r2 at Envision; build b3 at Reign; catastrophe red at Envision
+convert y1 to b1 at Gonzo
+sacrifice b2 at Reign; convert b3 to g3 at Felix; convert b3 to r3 at Reign
+move y2 from Kermit to Gonzo
+sacrifice g3 at Felix; build b2 at Reign; build b3 at Reign; build y1 at Mars
+move b1 from Gonzo to Kermit
+move b3 from Reign to Renown (b3)
+convert y3 to r3 at Kermit
+move b2 from Reign to Steel (y3)
+build g1 at Ts52
+convert b1 to g1 at Reign
+move g1 from Ts52 to Steel
+sacrifice r1 at Felix; capture g1 at Steel
+build b1 at Kermit
+move g1 from Steel to Ts52
+sacrifice y2 at Gonzo; move g3 from Ts52 to Steel; move r3 from Kermit to Ts52
+sacrifice y3 at Mars; move b3 from Renown to Ts52; move b2 from Steel to Ts52; move g1 from Ts52 to Bomb (b3)
+capture b3 at Ts52
+sacrifice g1 at Bomb; build b3 at Ts52
+sacrifice g3 at Steel; build y2 at Kermit; build y3 at Gonzo; build y3 at Kermit; catastrophe blue at Ts52
+build r1 at Reign
+move b1 from Kermit to Robin (g2)
+convert b3 to g3 at Felix
+build b2 at Robin
+move y1 from Mars to Greeny (g2)
+build b2 at Robin
+build g1 at Felix
+move y2 from Kermit to Robin
+move r3 from Reign to Felix
+move y3 from Kermit to Robin
+build r1 at Felix
+move y1 from Kermit to Elmo (r2)
+build r2 at Reign
+sacrifice y3 at Gonzo; move y1 from Elmo to Felix; move y2 from Gonzo to Felix; move y2 from Robin to Felix; catastrophe yellow at Felix
+pass
+sacrifice y3 at Robin; move b1 from Robin to Felix; move b2 from Robin to Felix; move b2 from Robin to Felix; catastrophe blue at Felix

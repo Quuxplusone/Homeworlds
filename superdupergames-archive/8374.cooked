@@ -1,0 +1,69 @@
+Dadrk (0, r3g1) b3-
+Matrixfrog (1, g1b2) -y3
+build b1 at Dadrk
+build y1 at Matrixfrog
+build b1 at Dadrk
+build y1 at Matrixfrog
+convert b1 to y1 at Dadrk
+convert y1 to r1 at Matrixfrog
+build b1 at Dadrk
+move y1 from Matrixfrog to Gandalf (g3)
+move b1 from Dadrk to Frst (g2)
+build y1 at Gandalf
+build y2 at Dadrk
+build y2 at Matrixfrog
+convert y2 to r2 at Dadrk
+move y1 from Gandalf to Frodo (b2)
+move r2 from Dadrk to Frodo
+move y1 from Frodo to Bilbo (g1)
+build b1 at Frst
+build y2 at Bilbo
+convert b1 to r1 at Dadrk
+move y2 from Bilbo to Elves (b2)
+convert b1 to r1 at Frst
+move y1 from Gandalf to Elves
+build y2 at Dadrk
+move y1 from Elves to Dadrk
+sacrifice y2 at Dadrk; move y1 from Dadrk to Frodo; move r2 from Frodo to Bilbo
+build y2 at Bilbo
+capture y2 at Bilbo
+build y3 at Bilbo
+build y3 at Bilbo; catastrophe yellow at Bilbo
+build y1 at Dadrk
+sacrifice r2 at Bilbo; capture y1 at Dadrk; capture y1 at Dadrk
+build r2 at Matrixfrog
+build r2 at Frst
+build y2 at Matrixfrog
+move y1 from Dadrk to Frst
+move y2 from Matrixfrog to Gigawatt (g3)
+build y3 at Dadrk
+build y3 at Gigawatt
+move r2 from Frst to Scnd (r3)
+convert r1 to b1 at Matrixfrog
+sacrifice y3 at Dadrk; move r1 from Dadrk to Frodo; move r2 from Scnd to Frodo; move r2 from Frodo to Gigawatt
+move y2 from Gigawatt to Frodo
+build y3 at Dadrk
+sacrifice r2 at Matrixfrog; capture r1 at Frodo; capture y1 at Frodo
+build b1 at Frst
+convert y3 to g3 at Matrixfrog
+build y3 at Frst
+build g1 at Matrixfrog
+build b3 at Dadrk
+sacrifice y2 at Elves; move y2 from Frodo to Dadrk; move y1 from Frodo to Dadrk; catastrophe yellow at Dadrk
+sacrifice y3 at Frst; move b1 from Frst to Gigawatt; move b1 from Gigawatt to Matrixfrog; move r2 from Gigawatt to Matrixfrog
+move g1 from Matrixfrog to Cheese (y3)
+convert r2 to b2 at Matrixfrog; catastrophe blue at Matrixfrog
+build y1 at Matrixfrog
+build r1 at Frst
+convert r1 to b1 at Frodo
+move r1 from Frst to Cheese
+sacrifice g1 at Cheese; build g1 at Matrixfrog
+build r1 at Frst
+sacrifice b1 at Frodo; convert g1 to b1 at Matrixfrog
+convert r1 to g1 at Frst
+build b1 at Matrixfrog
+convert b3 to g3 at Dadrk
+move y3 from Gigawatt to Frst
+move g1 from Frst to Matrixfrog
+convert g3 to r3 at Matrixfrog
+sacrifice g3 at Dadrk; build g2 at Matrixfrog; build g2 at Matrixfrog; build g3 at Matrixfrog; catastrophe green at Matrixfrog

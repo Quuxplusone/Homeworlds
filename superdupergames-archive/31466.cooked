@@ -1,0 +1,28 @@
+Takvorian (0, b1r2) g3-
+Felix (1, y1b3) -g3
+build g1 at Takvorian
+build g1 at Felix
+convert g1 to b1 at Takvorian
+convert g1 to b1 at Felix
+build b2 at Takvorian
+build b2 at Felix
+convert b1 to y1 at Takvorian
+convert b2 to r2 at Felix
+build y1 at Takvorian
+build r1 at Felix
+convert y1 to r1 at Takvorian
+convert r2 to y2 at Felix
+build g1 at Takvorian
+build g1 at Felix
+move b2 from Takvorian to Britz (g3)
+move g1 from Felix to Out (b2)
+convert g1 to b1 at Takvorian
+move b1 from Felix to Opus (g2)
+build g1 at Takvorian
+build g1 at Felix
+move g1 from Takvorian to Rixdorf (b3)
+sacrifice g3 at Felix; build g2 at Out; build g2 at Felix; build g3 at Felix
+convert b2 to y2 at Britz
+build b2 at Opus
+sacrifice y2 at Britz; move g1 from Rixdorf to Opus; move g1 from Opus to Felix; catastrophe green at Felix
+convert b2 to y2 at Opus

@@ -1,0 +1,62 @@
+Maka (0, g2b1) y3-
+Velgarath (1, b3g1) -y3
+build y1 at Maka
+build y1 at Velgarath
+move y1 from Maka to Loko (g3)
+move y1 from Velgarath to Friki (b2)
+move y1 from Loko to Maka
+build y1 at Velgarath
+convert y1 to b1 at Maka
+convert y1 to g1 at Velgarath
+build y1 at Maka
+build g1 at Velgarath
+move y1 from Maka to Keke (g3)
+move g1 from Velgarath to Friki
+move b1 from Maka to Keke
+build g2 at Friki
+convert y1 to r1 at Keke
+convert g2 to r2 at Friki
+build b1 at Keke
+build r1 at Friki
+build b2 at Keke
+move r2 from Friki to Keke
+build r1 at Keke
+capture b2 at Keke
+build r2 at Keke; catastrophe red at Keke
+convert b2 to r2 at Keke
+build y1 at Maka
+capture b1 at Keke
+convert y1 to r1 at Maka
+capture b1 at Keke
+build r1 at Maka
+build r2 at Keke
+move r1 from Maka to Loko (b3)
+build y1 at Friki
+convert r1 to y1 at Loko
+build g2 at Friki
+build y2 at Maka
+move y1 from Friki to Keke
+convert y2 to g2 at Maka
+build g3 at Velgarath
+build g3 at Maka
+build y2 at Keke
+move g3 from Maka to Fire (r3)
+build y2 at Friki
+build y2 at Maka
+sacrifice y2 at Friki; move y2 from Keke to Maka; move y1 from Keke to Maka; catastrophe yellow at Maka
+sacrifice y1 at Loko; move g3 from Fire to Sun (y2)
+convert b1 to y1 at Keke
+move g3 from Sun to Velgarath; catastrophe green at Velgarath
+move g1 from Friki to Velgarath
+build g1 at Maka
+convert y3 to r3 at Velgarath
+convert g2 to y2 at Maka
+build g1 at Velgarath
+convert g1 to b1 at Maka
+sacrifice y1 at Friki; move r3 from Velgarath to Maka
+build r1 at Maka
+sacrifice r2 at Keke; capture r1 at Maka; capture r1 at Maka
+convert y2 to r2 at Maka; catastrophe red at Maka
+move r2 from Keke to Maka
+build b2 at Maka
+move b1 from Keke to Maka; catastrophe blue at Maka

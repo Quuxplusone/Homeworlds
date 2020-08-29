@@ -1,0 +1,17 @@
+Twoshort (0, y1b2) g3-
+Monkeyjamboree (1, g2b1) -y3
+build g1 at Twoshort
+build y1 at Monkeyjamboree
+convert g1 to y1 at Twoshort
+convert y1 to g1 at Monkeyjamboree
+build g1 at Twoshort
+build g1 at Monkeyjamboree
+move g1 from Twoshort to Yolonda (y3)
+convert g1 to y1 at Monkeyjamboree
+build g1 at Twoshort
+convert y1 to r1 at Monkeyjamboree
+convert y1 to r1 at Twoshort
+build r1 at Monkeyjamboree
+build g2 at Yolonda
+build g2 at Monkeyjamboree
+move g1 from Yolonda to Monkeyjamboree

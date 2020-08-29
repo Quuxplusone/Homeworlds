@@ -1,0 +1,37 @@
+Jesse (0, r2b3) g3-
+Cobaltstarfire (1, b2y1) -g3
+build g1 at Jesse
+build g1 at Cobaltstarfire
+convert g1 to y1 at Jesse
+move g1 from Cobaltstarfire to Cactus (b3)
+build g1 at Jesse
+convert g3 to r3 at Cobaltstarfire
+move g1 from Jesse to Muffin (b1)
+convert r3 to g3 at Cobaltstarfire
+build g1 at Jesse
+build g2 at Cactus
+build g2 at Muffin
+convert g1 to y1 at Cactus
+convert g2 to y2 at Muffin
+build g1 at Cobaltstarfire
+build g2 at Muffin
+build y2 at Cactus
+convert g2 to r2 at Muffin
+convert y1 to r1 at Cactus
+build y1 at Muffin
+convert g1 to r1 at Cobaltstarfire
+move y1 from Muffin to Starboard (g3)
+build g1 at Cactus
+build y2 at Starboard
+build y3 at Cactus
+build y3 at Muffin
+sacrifice y2 at Cactus; move y3 from Cactus to Balls (r1); move g1 from Cactus to Balls
+move y2 from Muffin to Reddwarf (b3)
+sacrifice g2 at Cactus; build r2 at Cactus; build y2 at Balls
+build y3 at Jesse
+move g1 from Balls to Cactus
+build r3 at Muffin
+build g2 at Cactus
+move r3 from Muffin to Reddwarf
+move y2 from Balls to Cactus
+build g2 at Muffin

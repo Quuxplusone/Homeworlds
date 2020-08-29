@@ -1,0 +1,20 @@
+Zoltar (0, b1g3) y3-
+Twoshort (1, b1g2) -b3
+build y1 at Zoltar
+build b1 at Twoshort
+build y1 at Zoltar
+convert b3 to g3 at Twoshort
+move y1 from Zoltar to Z2 (b2)
+build b2 at Twoshort
+build y1 at Zoltar
+convert b2 to y2 at Twoshort
+move y1 from Zoltar to Z1 (g2)
+build b2 at Twoshort
+build y2 at Zoltar
+move b2 from Twoshort to Yolonda (y3)
+convert y2 to b2 at Zoltar
+sacrifice g3 at Twoshort; build b3 at Twoshort; build b3 at Yolonda; build b3 at Yolonda
+build y2 at Z1
+sacrifice b2 at Yolonda; convert b3 to r3 at Twoshort; convert b3 to g3 at Yolonda
+move b2 from Zoltar to Z1
+move b1 from Twoshort to Grogar (g3)

@@ -1,0 +1,13 @@
+Wil (0, y2b1) g3-
+Felix (1, y1g3) -y3
+build g1 at Wil
+build y1 at Felix
+convert g1 to y1 at Wil
+move y1 from Felix to Out (g2)
+build y2 at Wil
+build y2 at Out
+move y1 from Wil to G3 (g3)
+move y1 from Out to G3
+move y1 from G3 to G2 (g2)
+build y3 at G3
+build y3 at G2

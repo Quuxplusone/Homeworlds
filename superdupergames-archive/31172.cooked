@@ -1,0 +1,78 @@
+W00T (0, b3y1) g3-
+Felix (1, r2b3) -g3
+build g1 at W00T
+build g1 at Felix
+move g1 from W00T to Boop (b2)
+convert g1 to y1 at Felix
+build g1 at Boop
+build y1 at Felix
+build g1 at W00T
+build y2 at Felix
+build g2 at Boop
+build g2 at Felix
+convert g2 to y2 at Boop
+move g2 from Felix to Out (b1)
+move g1 from Boop to Bop (r1)
+move y1 from Felix to Out
+build g2 at Bop
+sacrifice g3 at Felix; build y2 at Out; build y3 at Felix; build g2 at Out
+sacrifice g3 at W00T; build g3 at W00T; build g3 at Boop; build y3 at Boop
+sacrifice y2 at Felix; move g2 from Out to Boop; move g2 from Boop to W00T
+convert g1 to r1 at W00T
+sacrifice g2 at Out; build g1 at W00T; build g2 at W00T; catastrophe green at W00T
+move g3 from Boop to W00T
+convert y3 to g3 at Felix
+move y3 from Boop to Bop
+move y1 from Out to Vazoik (g2)
+build g1 at W00T
+sacrifice g3 at Felix; build y2 at Vazoik; build y3 at Out; build y3 at Felix
+move y2 from Boop to Out
+convert y3 to r3 at Out
+build y3 at Bop
+convert y3 to g3 at Felix
+sacrifice g3 at W00T; build g2 at Bop; build g3 at W00T; build g3 at Boop
+build y3 at Felix
+move y2 from Out to Felix
+convert y3 to r3 at Felix
+sacrifice y2 at Felix; move g1 from Bop to Felix; move g2 from Bop to Felix
+sacrifice g3 at Felix; build y2 at Out; build y3 at Felix; build r1 at Out
+convert g2 to r2 at Felix
+sacrifice r3 at Felix; capture r2 at Felix; capture g1 at Felix
+build r2 at W00T
+sacrifice y2 at Out; move y2 from Vazoik to Bop; move y1 from Felix to Bop; catastrophe yellow at Bop
+move r2 from W00T to Vazoik
+move r3 from Out to Vazoik
+sacrifice g2 at Bop; build r1 at Vazoik; build r3 at Vazoik; catastrophe red at Vazoik
+build g2 at Felix
+convert g1 to y1 at Boop
+move g2 from Felix to Out
+move g3 from Boop to Out
+sacrifice y2 at Out; move g2 from Out to Boop; move r1 from Out to Boop
+move y1 from Boop to Out
+build y2 at Felix
+build y2 at Out
+move y2 from Felix to Rim (b1)
+convert g1 to b1 at W00T
+build y2 at Vazoik
+sacrifice y2 at Out; move g3 from Out to Yoink1 (y3); move y1 from Out to Yoink2 (y3)
+build y2 at Vazoik
+move y1 from Yoink2 to Vazoik; catastrophe yellow at Vazoik
+build g1 at Boop
+convert g3 to y3 at W00T
+convert g1 to y1 at Boop
+convert y3 to b3 at W00T
+build g1 at Boop
+move b1 from W00T to Thbt (g2)
+convert g1 to b1 at Boop
+convert b3 to g3 at W00T
+build b2 at Boop
+move g3 from Yoink1 to Rim
+sacrifice y2 at Rim; move b1 from Boop to W00T; move b2 from Boop to W00T
+build b2 at Thbt
+sacrifice r1 at Boop; capture r1 at W00T
+convert b2 to r2 at Thbt
+sacrifice g2 at Boop; build b2 at W00T; build y1 at Boop; catastrophe blue at W00T
+build r1 at Thbt
+sacrifice g1 at Felix; build y2 at Boop
+sacrifice r1 at Thbt; capture r1 at W00T
+sacrifice y3 at Felix; move y2 from Boop to W00T; move y1 from Boop to W00T; move y1 from Boop to W00T; catastrophe yellow at W00T

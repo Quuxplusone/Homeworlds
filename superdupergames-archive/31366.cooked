@@ -1,0 +1,16 @@
+Fogus (0, b1y2) g3-
+Draw5Playall (1, b1g2) -b3
+build g1 at Fogus
+build b1 at Draw5Playall
+convert g3 to b3 at Fogus
+convert b3 to y3 at Draw5Playall
+move b3 from Fogus to Whynot (y3)
+build b2 at Draw5Playall
+build g1 at Fogus
+convert b2 to r2 at Draw5Playall
+build g1 at Fogus
+sacrifice y3 at Draw5Playall; move r2 from Draw5Playall to Whynot; move r2 from Whynot to Fogus
+convert g1 to r1 at Fogus
+capture r1 at Fogus
+convert g1 to r1 at Fogus
+sacrifice r2 at Fogus; capture r1 at Fogus; capture g1 at Fogus

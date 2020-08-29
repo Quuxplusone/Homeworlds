@@ -1,0 +1,99 @@
+Felix (0, y1b2) g3-
+Wil (1, b3y2) -g3
+build g1 at Felix
+build g1 at Wil
+convert g1 to y1 at Felix
+convert g1 to y1 at Wil
+build y2 at Felix
+build y2 at Wil
+move y1 from Felix to Opus (g3)
+move y1 from Wil to G1 (g1)
+build y3 at Opus
+build y3 at G1
+move y1 from Opus to Magnum (g1)
+move y1 from G1 to Y3 (y3)
+convert y2 to r2 at Felix
+convert y2 to r2 at Wil
+build y2 at Magnum
+build y2 at G1
+build r1 at Felix
+build r1 at Wil
+convert r1 to b1 at Felix
+move r1 from Wil to G1
+build b1 at Felix
+build r1 at Wil
+move b1 from Felix to Opus
+convert r1 to b1 at Wil
+build b2 at Opus
+move b1 from Wil to G1
+move b2 from Opus to Magnum
+build r1 at G1
+build g1 at Felix
+build g2 at Wil
+move r2 from Felix to Y3
+move y1 from Y3 to Magnum
+move r2 from Y3 to Magnum
+move y2 from G1 to Y3 (y3)
+build r1 at Magnum
+move r1 from G1 to G2 (g2)
+move r2 from Magnum to Y3
+sacrifice r1 at G2; capture r2 at Y3
+capture y1 at Magnum
+move y2 from Y3 to Magnum; catastrophe yellow at Magnum
+move g1 from Felix to Safe (b3)
+move g2 from Wil to Y1 (y1)
+build g2 at Felix
+build b2 at G1
+sacrifice g3 at Felix; build g2 at Safe; build g3 at Felix; build b3 at Magnum
+move y3 from G1 to Safe
+sacrifice g2 at Safe; build y1 at Opus; build y2 at Opus
+build g2 at Wil
+convert b2 to y2 at Magnum
+sacrifice g2 at Y1; build r1 at G1; build y1 at Safe
+sacrifice g1 at Safe; build r2 at Magnum
+sacrifice g3 at Wil; build r3 at Wil; build r3 at Y3; build r3 at G1
+convert y3 to g3 at Opus
+move r2 from Wil to Magnum
+sacrifice r1 at Magnum; capture r2 at Magnum
+move r2 from Y3 to Magnum
+sacrifice r2 at Magnum; capture r2 at Magnum
+convert r3 to y3 at Wil
+sacrifice y2 at Opus; move r2 from Magnum to Y3; move r2 from Y3 to G1; catastrophe red at G1
+convert b2 to y2 at G1
+sacrifice g2 at Felix; build b2 at Magnum; build b2 at Opus
+build g1 at Wil
+build g2 at Felix
+sacrifice g2 at Wil; build g2 at Wil; build r1 at Y3
+convert g3 to r3 at Opus
+move r1 from Y3 to G1
+move r3 from Opus to G1
+sacrifice g2 at Wil; build r1 at G1; build r1 at G1; catastrophe red at G1
+move g2 from Felix to Bank (g3)
+build g2 at Wil
+build g2 at Felix
+move g2 from Wil to G1
+move g2 from Felix to Factory (r3)
+move g2 from G1 to Bank
+build r1 at Magnum
+sacrifice g1 at Wil; build g1 at Bank; catastrophe green at Bank
+move b2 from Opus to G1
+move y2 from G1 to Opus
+move b2 from Magnum to Opus
+move y2 from Opus to G2 (g2)
+move y1 from Opus to G1
+convert y1 to g1 at Safe
+build y1 at Magnum
+convert y3 to g3 at Wil
+sacrifice g2 at Factory; build g2 at Felix; build y3 at G1
+build g2 at Wil
+sacrifice r1 at Magnum; capture b1 at G1
+move r3 from Y3 to G2
+move y1 from Magnum to Wil
+sacrifice g3 at Wil; build g3 at Wil; build y3 at G2; build r1 at G2
+move y1 from G1 to Wil
+move y3 from Safe to Felix
+sacrifice r2 at Magnum; capture y3 at Felix
+sacrifice y3 at G2; move g3 from Wil to Magnum; move g3 from Magnum to Opus; move g3 from Opus to Felix
+sacrifice g2 at Felix; build y3 at Wil; build g2 at Felix; catastrophe yellow at Wil
+sacrifice r3 at G2; capture g3 at Felix; capture y3 at Felix; capture g2 at Felix
+sacrifice y3 at G1; move b3 from Magnum to Wil; move b2 from G1 to Wil; move b1 from G1 to Wil; catastrophe blue at Wil

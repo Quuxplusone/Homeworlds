@@ -1,0 +1,22 @@
+Skykingt13 (0, g1b2) r3-
+Twoshort (1, r1b3) -g3
+build r1 at Skykingt13
+build g1 at Twoshort
+convert r1 to g1 at Skykingt13
+convert g1 to y1 at Twoshort
+build r1 at Skykingt13
+build g1 at Twoshort
+convert r1 to y1 at Skykingt13
+build g2 at Twoshort
+build g2 at Skykingt13
+move g1 from Twoshort to Graben (g2)
+move g1 from Skykingt13 to Space (y3)
+sacrifice g3 at Twoshort; build g3 at Graben; build g3 at Twoshort; build g3 at Twoshort
+move g1 from Space to Graben; catastrophe green at Graben
+move g3 from Twoshort to Bluonia (b2)
+move r3 from Skykingt13 to Space (y3)
+convert g2 to r2 at Twoshort
+move r3 from Space to Bluonia
+sacrifice r2 at Twoshort; capture r3 at Bluonia
+build y1 at Skykingt13
+convert g3 to y3 at Bluonia

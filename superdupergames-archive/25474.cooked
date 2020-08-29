@@ -1,0 +1,52 @@
+Wil (0, b2r1) g3-
+Silenttitan (1, r2b3) -g3
+build g1 at Wil
+build g1 at Silenttitan
+convert g1 to y1 at Wil
+convert g1 to y1 at Silenttitan
+build g1 at Wil
+build g1 at Silenttitan
+convert g1 to r1 at Wil
+build y1 at Silenttitan
+build y2 at Wil
+move y1 from Silenttitan to Sol (g1)
+convert y1 to b1 at Wil
+build y1 at Sol
+build y2 at Wil
+sacrifice g3 at Silenttitan; build y2 at Sol; build y3 at Silenttitan; build y3 at Silenttitan
+move y2 from Wil to G3 (g3)
+sacrifice y1 at Silenttitan; move y2 from Sol to Soul (r3)
+build b1 at Wil
+convert y3 to g3 at Silenttitan
+move b1 from Wil to G3
+sacrifice g3 at Silenttitan; build y1 at Sol; build y3 at Soul; build y3 at Silenttitan
+move r1 from Wil to Gee3 (g3)
+move y1 from Sol to Sole (r3)
+build b1 at Wil
+convert y3 to b3 at Silenttitan
+build y3 at Wil
+sacrifice y3 at Soul; move y2 from Soul to Wil; move y1 from Sole to Wil; move b3 from Silenttitan to Tic (g1); catastrophe yellow at Wil
+build y1 at G3
+build y2 at Silenttitan
+build b2 at G3
+sacrifice y2 at Silenttitan; move b3 from Tic to G3; move b3 from G3 to Wil; catastrophe blue at Wil
+sacrifice y1 at G3; move r1 from Gee3 to Sol
+sacrifice y1 at Sol; move y1 from Sol to Soul (g3)
+build r1 at Sol
+build g1 at Silenttitan
+build y1 at G3
+build g2 at Silenttitan
+move b1 from G3 to Sol
+build y1 at Silenttitan
+sacrifice b2 at G3; convert y1 to b1 at G3; convert g3 to b3 at Wil
+convert g2 to r2 at Silenttitan
+sacrifice y2 at G3; move r1 from Sol to Silenttitan; move r1 from Sol to Silenttitan; catastrophe red at Silenttitan
+build g2 at Silenttitan
+convert b1 to r1 at Sol
+convert g2 to r2 at Silenttitan
+convert b1 to y1 at G3
+build y2 at Silenttitan
+build y2 at G3
+convert y3 to r3 at Silenttitan
+convert b3 to g3 at Wil
+sacrifice y2 at Silenttitan; move r3 from Silenttitan to Wil; move r2 from Silenttitan to Wil

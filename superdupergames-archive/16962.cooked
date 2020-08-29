@@ -1,0 +1,47 @@
+Rootbier (0, b1y2) g3-
+Lurch (1, b3y1) -g3
+build g1 at Rootbier
+build g1 at Lurch
+convert g1 to y1 at Rootbier
+convert g1 to b1 at Lurch
+build y1 at Rootbier
+build b1 at Lurch
+move y1 from Rootbier to Bamam (g3)
+move b1 from Lurch to Alpha (g2)
+sacrifice g3 at Rootbier; build y2 at Bamam; build y2 at Bamam; build y3 at Rootbier
+build b2 at Alpha
+convert y3 to b3 at Rootbier
+move g3 from Lurch to Alpha
+move y2 from Bamam to Plat (g2)
+convert g3 to y3 at Alpha
+convert y1 to g1 at Rootbier
+convert b1 to g1 at Lurch
+build b1 at Rootbier
+sacrifice y3 at Alpha; move b1 from Alpha to Bamam; move b1 from Bamam to Rootbier; move b2 from Alpha to Bamam; catastrophe blue at Rootbier
+build y1 at Plat
+convert b2 to r2 at Bamam
+sacrifice y1 at Bamam; move y2 from Bamam to Plat
+build g1 at Lurch
+build g2 at Rootbier
+convert g1 to b1 at Lurch
+move y2 from Plat to Ooger (g1)
+build g2 at Lurch
+sacrifice g2 at Rootbier; build y1 at Plat; build y3 at Ooger
+move b1 from Lurch to Beta (g2)
+build y3 at Ooger
+move g1 from Lurch to Rootbier
+sacrifice y3 at Ooger; move y3 from Ooger to Rootbier; move y2 from Ooger to Cathe (b3); move y1 from Plat to Cathe
+build g1 at Rootbier
+build g3 at Rootbier; catastrophe green at Rootbier
+build g1 at Lurch
+convert y1 to b1 at Cathe
+convert b1 to y1 at Beta
+move b1 from Cathe to Rootbier
+build y3 at Beta
+convert y3 to r3 at Rootbier
+move y3 from Beta to Bamam
+build y3 at Plat
+build y3 at Bamam
+move y3 from Plat to Lurch
+sacrifice y3 at Bamam; move y3 from Bamam to Plat; move y1 from Beta to Bamam; move y1 from Bamam to Plat; catastrophe yellow at Plat
+sacrifice r3 at Rootbier; capture g1 at Lurch; capture g2 at Lurch

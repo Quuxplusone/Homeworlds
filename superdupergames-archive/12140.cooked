@@ -1,0 +1,56 @@
+Uglyfoot (0, b3y2) g3-
+Madwuher (1, r1b2) -g3
+build g1 at Uglyfoot
+build g1 at Madwuher
+move g1 from Uglyfoot to Newton (r1)
+convert g1 to y1 at Madwuher
+build g1 at Newton
+build y1 at Madwuher
+build g1 at Uglyfoot
+build y1 at Madwuher
+build g2 at Uglyfoot
+build g2 at Madwuher
+convert g2 to y2 at Uglyfoot
+sacrifice y1 at Madwuher; move g2 from Madwuher to Edora (b3)
+move y2 from Uglyfoot to Newton
+build g2 at Madwuher
+sacrifice g3 at Uglyfoot; build g2 at Newton; build g3 at Uglyfoot; build g3 at Uglyfoot
+move g2 from Madwuher to Bologna (y3)
+move g1 from Newton to Bologna
+convert y1 to r1 at Madwuher
+convert g3 to y3 at Uglyfoot
+build g3 at Edora
+convert g1 to b1 at Uglyfoot
+convert g3 to y3 at Edora
+sacrifice y3 at Uglyfoot; move g1 from Newton to Bologna; move g1 from Bologna to Madwuher; move g1 from Bologna to Madwuher
+sacrifice g2 at Bologna; build g1 at Madwuher; build r2 at Madwuher; catastrophe green at Madwuher
+move b1 from Uglyfoot to Newton
+convert r2 to g2 at Madwuher
+build g1 at Newton
+build r2 at Madwuher
+build g1 at Uglyfoot
+build g1 at Madwuher
+convert g2 to r2 at Newton
+move r1 from Madwuher to Edora
+move r2 from Newton to Tesla (y3)
+move r2 from Madwuher to Bologna (y3)
+sacrifice g3 at Uglyfoot; build g2 at Newton; build g3 at Uglyfoot; build y1 at Newton
+sacrifice g2 at Madwuher; build g2 at Edora; build g3 at Madwuher
+convert g2 to r2 at Newton
+sacrifice g2 at Edora; build r3 at Edora; build r3 at Bologna
+move r2 from Newton to Uglyfoot
+convert r1 to y1 at Edora
+build g2 at Newton
+move r3 from Bologna to Newton
+sacrifice y2 at Newton; move g2 from Newton to Tesla; move b1 from Newton to Tesla
+sacrifice r2 at Bologna; capture g1 at Newton; capture y1 at Newton
+move g1 from Uglyfoot to Franklin (r1)
+sacrifice g3 at Madwuher; build y2 at Newton; build y2 at Madwuher; build y3 at Madwuher
+move r2 from Uglyfoot to Newton
+sacrifice y2 at Newton; move r3 from Newton to Tesla; move y1 from Newton to Tesla
+sacrifice g2 at Tesla; build r2 at Tesla; build r3 at Tesla; catastrophe red at Tesla
+sacrifice g1 at Newton; build y2 at Edora
+build g1 at Uglyfoot
+build g2 at Madwuher
+sacrifice g3 at Uglyfoot; build g2 at Franklin; build g3 at Uglyfoot; build g3 at Franklin
+sacrifice g2 at Madwuher; build g2 at Edora; build g3 at Madwuher

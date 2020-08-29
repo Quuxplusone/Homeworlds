@@ -1,0 +1,31 @@
+Babamots (0, b3r1) g3-
+Ausmuh (1, g2b1) -y3
+build g1 at Babamots
+build y1 at Ausmuh
+convert g1 to y1 at Babamots
+move y1 from Ausmuh to Bluzebub (b3)
+build g1 at Babamots
+convert y1 to g1 at Bluzebub
+move g1 from Babamots to Zakdorn (b2)
+build g1 at Bluzebub
+build g2 at Babamots
+convert g1 to y1 at Bluzebub
+move g2 from Babamots to Husnock (b2)
+build g1 at Bluzebub
+build g2 at Babamots
+convert g1 to r1 at Bluzebub
+sacrifice g3 at Babamots; build g1 at Babamots; build g3 at Zakdorn; build g3 at Babamots
+build g3 at Bluzebub
+convert g3 to r3 at Zakdorn
+move g1 from Bluzebub to Mellow (y2)
+sacrifice g2 at Babamots; build g2 at Zakdorn; build g3 at Husnock
+sacrifice g3 at Bluzebub; build y1 at Ausmuh; build y2 at Bluzebub; build g3 at Mellow
+convert g3 to y3 at Husnock
+sacrifice y2 at Bluzebub; move y1 from Bluzebub to Husnock; move g1 from Mellow to Babamots
+capture g1 at Babamots
+move g3 from Mellow to Babamots; catastrophe green at Babamots
+convert g2 to y2 at Zakdorn
+convert r1 to g1 at Bluzebub
+sacrifice y2 at Zakdorn; move y3 from Husnock to Bluzebub; move y3 from Bluzebub to Ausmuh
+move y1 from Husnock to Babamots
+sacrifice r3 at Zakdorn; capture y3 at Ausmuh; capture y1 at Ausmuh

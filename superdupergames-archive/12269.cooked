@@ -1,0 +1,49 @@
+Mathgod (0, y1b2) g3-
+Fnord (1, b3y2) -g3
+build g1 at Mathgod
+build g1 at Fnord
+move g1 from Mathgod to Yelena (y3)
+convert g1 to y1 at Fnord
+build g1 at Mathgod
+build y1 at Fnord
+convert g1 to r1 at Mathgod
+move y1 from Fnord to Eris (b1)
+build g1 at Mathgod
+convert y1 to g1 at Eris
+build g2 at Mathgod
+build g2 at Fnord
+sacrifice g3 at Mathgod; build g2 at Yelena; build g3 at Yelena; build g3 at Mathgod
+convert g2 to r2 at Fnord
+move g2 from Yelena to Belena (b1)
+build g2 at Eris
+convert g1 to b1 at Mathgod
+move r2 from Fnord to Eris
+build b2 at Mathgod
+convert g2 to y2 at Eris
+move b2 from Mathgod to Yelena
+build r1 at Eris
+sacrifice g3 at Mathgod; build g1 at Belena; build g2 at Belena; build g3 at Mathgod
+sacrifice y2 at Eris; move g1 from Eris to Yelena; move g1 from Yelena to Belena; catastrophe green at Belena
+move g3 from Yelena to Eris
+convert r2 to y2 at Eris
+sacrifice r1 at Mathgod; capture r1 at Eris
+build g1 at Fnord
+capture y2 at Eris
+convert g3 to r3 at Fnord
+build b1 at Yelena
+build r1 at Fnord
+move b1 from Yelena to Hail (y2)
+move y1 from Fnord to Chaos (g1)
+sacrifice g3 at Mathgod; build b2 at Yelena; build b3 at Mathgod; build b3 at Hail
+build g2 at Fnord
+build g2 at Eris
+move g1 from Fnord to Eris
+sacrifice g3 at Eris; build g3 at Mathgod; build g3 at Mathgod; build g3 at Yelena
+convert r3 to y3 at Fnord
+capture g1 at Eris
+sacrifice y3 at Fnord; move g2 from Fnord to Chaos; move g2 from Chaos to Yelena; move g2 from Yelena to Mathgod; catastrophe green at Mathgod
+move g2 from Eris to Fnord
+move y1 from Chaos to Fnord
+sacrifice r1 at Eris; capture r1 at Fnord
+convert y1 to g1 at Fnord
+capture g1 at Fnord

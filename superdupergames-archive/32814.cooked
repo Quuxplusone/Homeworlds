@@ -1,0 +1,40 @@
+Shoejitsu (0, b3y2) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Shoejitsu
+build g1 at Ts52
+build g1 at Shoejitsu
+build g2 at Ts52
+move g1 from Shoejitsu to Titan (b1)
+convert g1 to b1 at Ts52
+convert g1 to y1 at Shoejitsu
+move g2 from Ts52 to Grover (b1)
+build g1 at Titan
+build b2 at Ts52
+convert g1 to y1 at Titan
+move b2 from Ts52 to Kermit (g1)
+build g1 at Titan
+build g2 at Ts52
+move g1 from Titan to Gaea (b2)
+build b3 at Kermit
+build y1 at Titan
+convert b3 to y3 at Kermit
+convert y1 to r1 at Titan
+build b3 at Kermit
+move r1 from Titan to Ts52
+convert g2 to r2 at Ts52
+capture b1 at Ts52
+sacrifice r2 at Ts52; capture r1 at Ts52; capture b1 at Ts52
+build g2 at Shoejitsu
+build b3 at Kermit
+convert g2 to r2 at Shoejitsu
+convert b3 to y3 at Kermit
+build g2 at Titan
+build b3 at Kermit
+move y1 from Shoejitsu to Titan
+convert b3 to r3 at Kermit
+move y1 from Titan to Gaea
+build b3 at Kermit
+move y1 from Titan to Gaea
+sacrifice y3 at Kermit; move b3 from Kermit to Shoejitsu; move y3 from Kermit to Shoejitsu; move b3 from Kermit to Shoejitsu
+convert g3 to r3 at Shoejitsu
+sacrifice r3 at Kermit; capture r3 at Shoejitsu; capture r2 at Shoejitsu

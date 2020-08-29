@@ -1,0 +1,40 @@
+Laurie_Menke (0, y2b1) g3-
+Felix (1, b1g3) -b3
+build g1 at Laurie_Menke
+build b1 at Felix
+build g1 at Laurie_Menke
+convert b3 to y3 at Felix
+convert g1 to r1 at Laurie_Menke
+build b2 at Felix
+convert g1 to y1 at Laurie_Menke
+move b2 from Felix to Out (g2)
+build g1 at Laurie_Menke
+build b2 at Out
+move g1 from Laurie_Menke to Blue (b3)
+convert b2 to y2 at Out
+build g1 at Laurie_Menke
+build b2 at Out
+sacrifice g3 at Laurie_Menke; build g1 at Laurie_Menke; build g2 at Blue; build g2 at Blue
+build b2 at Felix
+build g3 at Laurie_Menke
+build b3 at Out
+sacrifice y1 at Laurie_Menke; move g2 from Blue to Out
+convert b3 to r3 at Out
+sacrifice g2 at Out; build r1 at Laurie_Menke; build g2 at Blue
+move r3 from Out to Blue
+build g3 at Blue; catastrophe green at Blue
+build b3 at Out
+move g1 from Laurie_Menke to Yellow (y3)
+convert b3 to y3 at Out
+build g1 at Yellow
+build b3 at Out
+sacrifice g3 at Laurie_Menke; build g2 at Laurie_Menke; build g2 at Yellow; build g3 at Laurie_Menke
+move b3 from Out to Green (g3)
+convert g2 to y2 at Laurie_Menke
+build b3 at Green
+move g1 from Yellow to Out
+sacrifice y2 at Out; move b3 from Green to Laurie_Menke; move b3 from Green to Laurie_Menke
+sacrifice g3 at Laurie_Menke; build r1 at Laurie_Menke; build g2 at Laurie_Menke; build g3 at Laurie_Menke
+sacrifice r3 at Blue; capture g3 at Laurie_Menke; capture y2 at Laurie_Menke; capture g2 at Laurie_Menke
+build g3 at Laurie_Menke
+convert b3 to r3 at Laurie_Menke; catastrophe red at Laurie_Menke; catastrophe green at Laurie_Menke

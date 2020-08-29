@@ -1,0 +1,51 @@
+Simon (0, r1b2) g3-
+Felix (1, y1b3) -g3
+build g1 at Simon
+build g1 at Felix
+convert g1 to y1 at Simon
+convert g1 to y1 at Felix
+build y2 at Simon
+build y2 at Felix
+move y2 from Simon to G3 (g3)
+convert y2 to r2 at Felix
+build y2 at G3
+move y1 from Felix to Rim (g2)
+move y2 from G3 to B2 (b2)
+build r1 at Felix
+build y2 at Simon
+build y3 at Rim
+build y3 at G3
+move y1 from Rim to Opus (b3)
+sacrifice y1 at Simon; move y3 from G3 to B2
+build g1 at Felix
+convert y2 to r2 at B2
+convert g1 to b1 at Felix
+sacrifice g3 at Simon; build y1 at G3; build y2 at B2; build y3 at Simon
+move r1 from Felix to Rim
+convert y2 to g2 at B2
+build g1 at Felix
+build y2 at B2
+build r1 at Rim
+build g1 at B2
+move g1 from Felix to Ledge (b2)
+convert g1 to b1 at B2
+build g1 at Ledge
+move b1 from B2 to G3
+move r1 from Rim to Opus
+sacrifice g2 at B2; build b1 at G3; build b3 at G3
+move y3 from Rim to Hangar (g3)
+move y2 from Simon to Opus
+sacrifice g3 at Felix; build r2 at Rim; build r3 at Opus; build r3 at Felix
+sacrifice y2 at Opus; move b3 from G3 to Rim; move b1 from G3 to B2
+build r3 at Rim
+sacrifice y1 at G3; move b3 from Rim to Felix
+capture b3 at Felix
+move b1 from B2 to Felix; catastrophe blue at Felix
+sacrifice y3 at Hangar; move r3 from Rim to G3; move y1 from Opus to Simon; move r1 from Opus to Simon
+move y2 from G3 to Felix
+sacrifice r2 at Rim; capture y2 at Felix; capture b1 at G3
+move y3 from B2 to Felix
+sacrifice y2 at Felix; move g1 from Ledge to Felix; move r3 from Opus to Simon
+sacrifice r2 at B2; capture r3 at Felix; capture r3 at Simon
+sacrifice g1 at Ledge; build r2 at Simon; catastrophe red at Simon
+sacrifice r3 at Felix; capture r2 at Felix; capture g1 at Felix; capture y1 at Simon

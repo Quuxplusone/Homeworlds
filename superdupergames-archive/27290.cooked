@@ -1,0 +1,25 @@
+Laurie_Menke (0, b3r1) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Laurie_Menke
+build g1 at Ts52
+convert g1 to y1 at Laurie_Menke
+build g1 at Ts52
+build y1 at Laurie_Menke
+move g1 from Ts52 to Gonzo_The_Great (b3)
+build y2 at Laurie_Menke
+build g1 at Ts52
+move y2 from Laurie_Menke to Green (g2)
+build g2 at Gonzo_The_Great
+build g2 at Laurie_Menke
+build g3 at Gonzo_The_Great
+sacrifice y2 at Green; move g2 from Laurie_Menke to Yellow (y2); move g2 from Yellow to Gonzo_The_Great; catastrophe green at Gonzo_The_Great
+move g1 from Ts52 to Gonzo (b3)
+build y2 at Laurie_Menke
+build g1 at Ts52
+build g2 at Laurie_Menke
+build g2 at Gonzo
+move g2 from Laurie_Menke to Yellow (y2)
+convert g2 to y2 at Gonzo
+build g2 at Laurie_Menke
+build y3 at Gonzo
+sacrifice y2 at Laurie_Menke; move g2 from Yellow to Gonzo; move g2 from Gonzo to Ts52; catastrophe green at Ts52

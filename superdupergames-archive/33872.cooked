@@ -1,0 +1,106 @@
+Trydnt (0, y3b2) g3-
+Wil (1, g2y1) -b3
+build g1 at Trydnt
+build b1 at Wil
+convert g1 to b1 at Trydnt
+convert b3 to y3 at Wil
+build g1 at Trydnt
+build y1 at Wil
+move b1 from Trydnt to G1 (g1)
+convert y1 to g1 at Wil
+convert g1 to r1 at Trydnt
+build y1 at Wil
+build r1 at Trydnt
+move g1 from Wil to Seven (b3)
+build r1 at Trydnt
+move y1 from Wil to Seven
+move r1 from Trydnt to G1
+build y1 at Wil
+build r2 at G1
+build y2 at Seven
+convert r2 to y2 at G1
+convert y3 to r3 at Wil
+build r2 at G1
+build r2 at Wil
+move r1 from G1 to Y3 (y3)
+build y2 at Wil
+sacrifice g3 at Trydnt; build r2 at Y3; build r3 at Trydnt; build y3 at G1
+move r2 from Wil to Seven
+convert r3 to g3 at Trydnt
+build r3 at Seven
+build r3 at G1
+convert r3 to g3 at Seven
+move y3 from G1 to R3 (r3)
+move y2 from Seven to Anew (b2)
+build g1 at Trydnt
+convert y2 to b2 at Wil
+build y2 at G1
+move b2 from Wil to Nation (g3)
+move r2 from G1 to B3 (b3)
+move g1 from Seven to Anew
+convert r2 to g2 at B3
+build g2 at Seven
+build r2 at G1
+sacrifice g3 at Seven; build g3 at Seven; build b1 at Wil; build b3 at Nation
+sacrifice g2 at B3; build b3 at G1
+build g2 at Anew
+move r3 from G1 to Anew
+sacrifice y2 at Anew; move g1 from Anew to G1; move g2 from Anew to G1
+sacrifice y3 at R3; move y2 from G1 to Anew; move b3 from G1 to Y3; move y2 from G1 to Anew
+sacrifice g3 at Seven; build g3 at Seven; build r3 at Seven; build y2 at Seven
+capture g2 at G1
+sacrifice y1 at Seven; move g2 from Seven to G1; catastrophe green at G1
+move y2 from Anew to G1 (g1)
+convert b3 to y3 at Nation
+move g1 from Trydnt to Y1 (y1)
+move r3 from Seven to G1
+move y2 from G1 to Y3
+build r2 at Seven
+build g1 at Y1
+move r2 from Seven to Y1
+build g2 at Trydnt
+capture g1 at Y1
+build g2 at Y1
+capture g2 at Y1
+move g2 from Trydnt to Y1; catastrophe green at Y1
+move y2 from Seven to G1
+move r3 from Anew to Y1
+move r2 from Y1 to Nation
+move r2 from Y3 to G1
+sacrifice y3 at Nation; move r3 from G1 to Anew; move y1 from Wil to Y3; move y2 from G1 to Y3; catastrophe yellow at Y3
+move r3 from Y1 to Nation
+sacrifice b2 at Nation; convert r2 to g2 at Nation; convert g2 to r2 at Nation
+move y2 from Anew to Nation
+capture y2 at Nation
+sacrifice r2 at G1; capture y2 at Nation; capture r2 at Nation
+build b1 at Wil
+build y1 at Nation
+move b1 from Wil to Seven
+build y1 at Nation
+move b1 from Wil to Y3 (y3)
+move y2 from Nation to G2 (g2)
+sacrifice g3 at Seven; build b2 at Wil; build b3 at Seven; build b3 at Y3
+sacrifice g3 at Trydnt; build y2 at Nation; build y2 at G2; build y3 at G2
+convert b3 to g3 at Seven
+move y2 from G2 to B3 (b3)
+build r1 at Seven
+build r2 at Nation
+convert b3 to g3 at Y3
+move r2 from Nation to G2
+build b3 at Wil
+move r2 from G2 to B3
+build g1 at Y3
+convert r2 to g2 at B3
+sacrifice g3 at Y3; build g1 at Seven; build g1 at Seven; build g3 at Y3
+build r2 at Nation
+move g1 from Y3 to Anew
+move y3 from G2 to B3
+pass
+pass
+pass
+sacrifice y1 at Nation; move r3 from Nation to Y1 (y1)
+move g3 from Y3 to G2
+move r3 from Y1 to Y3
+sacrifice r1 at Seven; capture y2 at G2
+sacrifice y2 at B3; move r2 from Nation to Y1 (y1); move y2 from Nation to R1 (r1)
+sacrifice y2 at G2; move g3 from G2 to R1; move g3 from R1 to Trydnt

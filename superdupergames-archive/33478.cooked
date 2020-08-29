@@ -1,0 +1,55 @@
+Trydnt (0, b2y1) g3-
+Smokeytroll42 (1, g3r2) -b3
+build g1 at Trydnt
+build b1 at Smokeytroll42
+convert g1 to y1 at Trydnt
+convert b1 to y1 at Smokeytroll42
+build y2 at Trydnt
+build y2 at Smokeytroll42
+move y2 from Trydnt to G3 (g3)
+move y2 from Smokeytroll42 to Mars (g1)
+move y1 from Trydnt to B3 (b3)
+build b1 at Smokeytroll42
+build g1 at Trydnt
+move b1 from Smokeytroll42 to Mars
+move g1 from Trydnt to B3
+build b1 at Mars
+build g1 at Trydnt
+convert b1 to r1 at Mars
+convert g1 to r1 at Trydnt
+build b1 at Mars
+build g1 at Trydnt
+build b1 at Smokeytroll42
+build g2 at B3
+build b2 at Mars
+move g1 from Trydnt to Bee3 (b3)
+convert b2 to r2 at Mars
+build g2 at Bee3
+convert r2 to g2 at Mars
+sacrifice y2 at G3; move g1 from B3 to Mars; move g1 from Bee3 to Mars; catastrophe green at Mars
+build y2 at Smokeytroll42
+build y2 at B3
+convert y1 to r1 at Smokeytroll42
+build g1 at Bee3
+move b1 from Smokeytroll42 to Mercury (g1)
+build g1 at Trydnt
+build b1 at Mercury
+sacrifice g3 at Trydnt; build g2 at B3; build g3 at Trydnt; build g3 at B3
+build b1 at Smokeytroll42
+convert g2 to r2 at B3
+move y2 from Smokeytroll42 to Mercury
+move g3 from B3 to Mercury
+sacrifice y2 at Mercury; move b1 from Mercury to Pluto (y2); move b1 from Mercury to Neptune (r2)
+sacrifice y2 at B3; move r2 from B3 to Pluto; move g2 from Bee3 to Neptune
+move b1 from Pluto to Venus (y3)
+capture b1 at Neptune
+build b2 at Smokeytroll42
+sacrifice g3 at Trydnt; build b2 at Neptune; build g2 at Bee3; build g3 at Trydnt
+convert b1 to y1 at Smokeytroll42
+move r2 from Pluto to Venus
+build y2 at Smokeytroll42
+capture b1 at Venus
+sacrifice y2 at Smokeytroll42; move b3 from Smokeytroll42 to Mercury; move b3 from Mercury to Venus
+move r2 from Venus to Mercury
+convert b3 to r3 at Venus
+sacrifice y1 at B3; move g3 from Mercury to Smokeytroll42

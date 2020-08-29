@@ -1,0 +1,28 @@
+Ts52 (0, y1b2) g3-
+Rootbier (1, b1y3) -g3
+build g1 at Ts52
+build g1 at Rootbier
+convert g1 to b1 at Ts52
+move g1 from Rootbier to Oxies (b2)
+move b1 from Ts52 to Kermit (g3)
+build g1 at Rootbier
+build b1 at Kermit
+build g1 at Oxies
+build g2 at Ts52
+sacrifice g3 at Rootbier; build g2 at Rootbier; build g2 at Oxies; build g3 at Rootbier
+build b2 at Kermit
+convert g2 to y2 at Oxies
+convert g2 to y2 at Ts52
+convert g2 to r2 at Rootbier
+convert b2 to r2 at Kermit
+move g1 from Oxies to Comswin (y3)
+build g2 at Ts52
+sacrifice g3 at Rootbier; build g2 at Comswin; build g2 at Oxies; build g3 at Rootbier
+move g2 from Ts52 to Grover (b3)
+sacrifice g3 at Rootbier; build y1 at Oxies; build y1 at Oxies; build g3 at Rootbier
+move y2 from Ts52 to Kermit
+sacrifice y2 at Oxies; move y1 from Oxies to Plesj (b3); move g1 from Oxies to Plesj
+move r2 from Kermit to Zoe (y2)
+sacrifice g3 at Rootbier; build y2 at Oxies; build y3 at Plesj; build g3 at Plesj
+build b2 at Kermit
+sacrifice y3 at Plesj; move g1 from Comswin to Ts52; move g2 from Comswin to Ts52; move g1 from Plesj to Ts52; catastrophe green at Ts52

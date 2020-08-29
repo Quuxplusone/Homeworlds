@@ -1,0 +1,47 @@
+Adambadura (0, g3b2) y3-
+Subhan64 (1, g1b2) -y3
+build y1 at Adambadura
+build y1 at Subhan64
+convert y1 to r1 at Adambadura
+convert y1 to g1 at Subhan64
+build y1 at Adambadura
+build y1 at Subhan64
+convert y1 to g1 at Adambadura
+move g1 from Subhan64 to Bigbird (y3)
+move g1 from Adambadura to Roadahead (y1)
+build g2 at Bigbird
+build g2 at Roadahead
+convert y1 to r1 at Subhan64
+build y1 at Adambadura
+move r1 from Subhan64 to Swampthing (g3)
+move g2 from Roadahead to Bigbird
+move g2 from Bigbird to Roadahead
+build g2 at Roadahead
+build g3 at Bigbird
+sacrifice g2 at Roadahead; build g2 at Bigbird; build r1 at Adambadura; catastrophe green at Bigbird
+sacrifice r1 at Swampthing; capture g1 at Roadahead
+move r1 from Adambadura to Roadahead
+move g1 from Roadahead to Roadbehind (y2)
+move r1 from Roadahead to Roadbehind
+move g1 from Roadbehind to Cookiemonster (b3)
+move r1 from Roadbehind to Cookiemonster
+sacrifice g2 at Roadahead; build g1 at Cookiemonster; build g2 at Cookiemonster
+capture g1 at Cookiemonster
+convert g2 to r2 at Cookiemonster
+build r1 at Cookiemonster
+capture g1 at Cookiemonster
+capture g1 at Cookiemonster
+capture g1 at Cookiemonster
+build r2 at Adambadura
+capture r1 at Cookiemonster
+build r2 at Adambadura
+capture r1 at Cookiemonster
+move r2 from Adambadura to Onmyway (y1)
+convert r1 to y1 at Cookiemonster
+convert r2 to g2 at Adambadura
+build g2 at Cookiemonster
+build g2 at Adambadura
+build y2 at Subhan64
+move g2 from Adambadura to Onmyway
+build y2 at Subhan64
+sacrifice y3 at Adambadura; move y1 from Adambadura to Onmyway; move y1 from Onmyway to Cookiemonster; move y1 from Cookiemonster to Subhan64; catastrophe yellow at Subhan64

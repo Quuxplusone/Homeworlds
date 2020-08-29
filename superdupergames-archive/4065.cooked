@@ -1,0 +1,67 @@
+Zoltar (0, r3g2) b3-
+Eugman (1, b2g1) -y3
+build b1 at Zoltar
+build y1 at Eugman
+convert b1 to y1 at Zoltar
+convert y1 to b1 at Eugman
+build b1 at Zoltar
+build y1 at Eugman
+convert b1 to g1 at Zoltar
+build b1 at Eugman
+build y1 at Zoltar
+build y2 at Eugman
+move y1 from Zoltar to Greenbelt (g1)
+convert y1 to r1 at Eugman
+build g2 at Zoltar
+convert y2 to g2 at Eugman
+convert g1 to r1 at Zoltar
+move b1 from Eugman to Flapjack (g3)
+move g2 from Zoltar to Yellowstone (y1)
+build y2 at Eugman
+build y2 at Greenbelt
+move y2 from Eugman to Flapjack
+move y1 from Greenbelt to Greendale (g3)
+convert y2 to r2 at Flapjack
+build y2 at Zoltar
+build y2 at Eugman
+build y3 at Greenbelt
+move y2 from Eugman to Flapjack
+build y3 at Greendale
+build b1 at Flapjack
+build b2 at Zoltar
+build r1 at Eugman
+move r1 from Zoltar to Yellowstone
+move b1 from Flapjack to Greenbelt
+build r2 at Yellowstone
+move b1 from Flapjack to Greenbelt
+sacrifice r2 at Yellowstone; capture b1 at Greenbelt; capture b1 at Greenbelt
+build r2 at Flapjack
+convert y2 to r2 at Greenbelt
+move b1 from Eugman to Flapjack
+move b1 from Greenbelt to Greendale
+move r1 from Eugman to Greendale
+sacrifice g2 at Yellowstone; build r3 at Yellowstone; build r3 at Greenbelt
+sacrifice r2 at Flapjack; capture y1 at Greendale; capture b1 at Greendale
+sacrifice r2 at Greenbelt; capture r1 at Greendale; capture b1 at Greendale
+sacrifice b1 at Flapjack; convert y1 to g1 at Greendale
+move y3 from Greendale to Greenhills (b1)
+build y1 at Flapjack
+convert b3 to g3 at Zoltar
+build g2 at Greendale
+build b2 at Greendale
+sacrifice g2 at Greendale; build y2 at Eugman; build r2 at Flapjack
+capture g1 at Greendale
+build r2 at Eugman
+sacrifice g3 at Zoltar; build b3 at Zoltar; build b3 at Greenbelt; build b3 at Greenbelt
+sacrifice y2 at Flapjack; move r2 from Flapjack to Greenhills; move r2 from Flapjack to Greenhills
+build y2 at Greenbelt
+move g2 from Eugman to Flapjack
+move b3 from Greenbelt to Flapjack
+move g2 from Flapjack to Greenhills
+sacrifice r3 at Yellowstone; capture r2 at Greenhills; capture r2 at Greenhills; capture g2 at Greenhills
+convert r2 to g2 at Eugman
+build g3 at Greenhills
+build r2 at Eugman
+build r3 at Greenbelt
+pass
+sacrifice y3 at Greenbelt; move g2 from Greenhills to Greendale; move g2 from Greendale to Eugman; move g1 from Greendale to Eugman; catastrophe green at Eugman

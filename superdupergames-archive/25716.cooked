@@ -1,0 +1,37 @@
+Broccoli_Commander (0, r1b2) g3-
+Twoshort (1, b1r3) -g3
+build g1 at Broccoli_Commander
+build g1 at Twoshort
+convert g1 to y1 at Broccoli_Commander
+convert g1 to b1 at Twoshort
+build y1 at Broccoli_Commander
+build b1 at Twoshort
+build y1 at Broccoli_Commander
+convert g3 to y3 at Twoshort
+move y1 from Broccoli_Commander to Lettuce (g3)
+move b1 from Twoshort to Grogar (g2)
+move y1 from Broccoli_Commander to Blueberry (b3)
+build b2 at Grogar
+build y2 at Lettuce
+convert b2 to g2 at Grogar
+move y1 from Lettuce to Cauliflower (y2)
+sacrifice g2 at Grogar; build b2 at Grogar; build b2 at Twoshort
+sacrifice g3 at Broccoli_Commander; build y2 at Lettuce; build y3 at Broccoli_Commander; build y3 at Blueberry
+build b3 at Grogar
+convert y3 to r3 at Blueberry
+sacrifice b2 at Twoshort; convert b2 to r2 at Grogar; convert b3 to y3 at Grogar
+convert y3 to g3 at Broccoli_Commander
+build b2 at Grogar
+build y3 at Broccoli_Commander
+build b2 at Grogar
+convert y3 to r3 at Broccoli_Commander
+convert b2 to g2 at Grogar
+build y3 at Broccoli_Commander
+sacrifice g2 at Grogar; build b2 at Grogar; build b3 at Twoshort
+move r3 from Broccoli_Commander to Lettuce
+build r1 at Grogar
+build r1 at Lettuce
+convert b3 to g3 at Twoshort
+build g1 at Broccoli_Commander
+build b3 at Twoshort
+move g1 from Broccoli_Commander to Blueberry

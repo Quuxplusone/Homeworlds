@@ -1,0 +1,51 @@
+Dlwillson (0, y2b3) g3-
+Broccoli_Commander (1, y1g2) -b3
+build g1 at Dlwillson
+build b1 at Broccoli_Commander
+convert g1 to b1 at Dlwillson
+convert b3 to g3 at Broccoli_Commander
+build g1 at Dlwillson
+build g1 at Broccoli_Commander
+convert g1 to y1 at Dlwillson
+move g1 from Broccoli_Commander to Blueberry (b3)
+move b1 from Dlwillson to Field (g1)
+build g1 at Broccoli_Commander
+build y1 at Dlwillson
+build g2 at Blueberry
+move y1 from Dlwillson to Field
+convert g2 to y2 at Blueberry
+build b1 at Field
+build b2 at Broccoli_Commander
+build b2 at Field
+build g2 at Blueberry
+move b1 from Field to Blueberry
+move g1 from Blueberry to Tomatoe (r2)
+build y2 at Dlwillson
+build y3 at Blueberry
+sacrifice g3 at Dlwillson; build b2 at Blueberry; build b3 at Blueberry; build y3 at Field; catastrophe blue at Blueberry
+sacrifice g3 at Broccoli_Commander; build g2 at Tomatoe; build g2 at Tomatoe; build g3 at Broccoli_Commander
+convert y3 to g3 at Field
+sacrifice b1 at Broccoli_Commander; convert g2 to y2 at Tomatoe
+sacrifice y2 at Dlwillson; move g3 from Field to Dlwillson; move b2 from Field to Forest (g3)
+build b1 at Broccoli_Commander
+build g2 at Dlwillson
+convert g1 to r1 at Broccoli_Commander
+convert g2 to r2 at Dlwillson
+build r1 at Broccoli_Commander
+build g1 at Dlwillson
+move y2 from Tomatoe to Field
+build y2 at Field
+move y2 from Field to Tomatoe
+convert y2 to r2 at Field
+build g2 at Tomatoe
+sacrifice g3 at Dlwillson; build y2 at Dlwillson; build y3 at Field; build g3 at Dlwillson
+build y3 at Tomatoe
+move y1 from Field to Tomatoe
+move g2 from Tomatoe to Field
+sacrifice g3 at Dlwillson; build r1 at Field; build y3 at Tomatoe; build g3 at Dlwillson; catastrophe yellow at Tomatoe
+convert b2 to y2 at Broccoli_Commander
+sacrifice g3 at Dlwillson; build r3 at Dlwillson; build b1 at Forest; build g3 at Dlwillson
+sacrifice y2 at Broccoli_Commander; move g2 from Tomatoe to Field; move g1 from Tomatoe to Field; catastrophe green at Field
+convert b1 to y1 at Forest
+convert g3 to y3 at Broccoli_Commander
+build y2 at Forest

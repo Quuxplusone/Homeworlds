@@ -1,0 +1,30 @@
+Uglyfoot (0, g3b1) y3-
+Danner (1, g2b1) -b3
+build y1 at Uglyfoot
+build b1 at Danner
+move y1 from Uglyfoot to Forth (g2)
+convert b3 to y3 at Danner
+build y1 at Uglyfoot
+build b2 at Danner
+build y1 at Forth
+move b2 from Danner to Orland (g3)
+build y2 at Forth
+build b2 at Orland
+convert y3 to b3 at Uglyfoot
+build b2 at Danner
+convert y1 to r1 at Uglyfoot
+build b3 at Orland
+move y2 from Forth to Orland
+convert b3 to r3 at Orland
+move y2 from Orland to Danner
+sacrifice r3 at Orland; capture y2 at Danner
+build b3 at Uglyfoot
+sacrifice y2 at Danner; move b2 from Orland to Forth; move b2 from Forth to Uglyfoot; catastrophe blue at Uglyfoot
+build y1 at Forth
+convert b2 to g2 at Danner
+move y1 from Forth to Uglyfoot
+move g2 from Danner to Uglyfoot
+build y2 at Uglyfoot
+build g1 at Uglyfoot
+capture g2 at Uglyfoot
+build g1 at Uglyfoot; catastrophe green at Uglyfoot

@@ -1,0 +1,60 @@
+Trydnt (0, b2y1) g3-
+Dlwillson (1, r3b2) -g3
+build g1 at Trydnt
+build g1 at Dlwillson
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Dlwillson
+build y2 at Trydnt
+build y2 at Dlwillson
+move y1 from Trydnt to G3 (g3)
+move y1 from Dlwillson to Sea (b1)
+build g1 at Trydnt
+build g1 at Dlwillson
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Dlwillson
+move b1 from Trydnt to G3
+move b1 from Dlwillson to Field (g1)
+build g1 at Trydnt
+build g1 at Dlwillson
+move g1 from Trydnt to B3 (b3)
+move g1 from Dlwillson to Sea
+build g2 at B3
+build g2 at Dlwillson
+convert g2 to r2 at B3
+build g2 at Sea
+build g2 at Trydnt
+convert g1 to r1 at Sea
+move y2 from Trydnt to B3
+sacrifice g3 at Dlwillson; build g1 at Sea; build r1 at Sea; build g3 at Dlwillson
+move r2 from B3 to Field
+move g1 from Sea to G3
+capture b1 at Field
+sacrifice r1 at Sea; capture y1 at G3
+build b2 at G3
+sacrifice g3 at Dlwillson; build y2 at Sea; build y3 at G3; build y3 at Dlwillson
+sacrifice g2 at Trydnt; build y3 at B3; build b3 at Field
+convert y2 to r2 at Sea
+build b3 at Field
+sacrifice r1 at Sea; capture b2 at G3
+convert b3 to r3 at Field
+sacrifice b2 at G3; convert y3 to g3 at Dlwillson; convert y3 to r3 at G3
+sacrifice b1 at G3; convert b3 to y3 at Field
+sacrifice g3 at Dlwillson; build g2 at Sea; build r1 at Sea; build g3 at Dlwillson
+move r3 from Field to Y3 (y3)
+sacrifice g3 at Dlwillson; build y2 at G3; build r1 at G3; build g3 at Dlwillson
+build r1 at Field
+convert r2 to b2 at Sea
+build b1 at Field
+move b2 from Sea to G3
+move b1 from Field to Y3
+build b3 at G3
+build b3 at Field
+move g1 from G3 to Trydnt
+sacrifice r1 at Field; capture g1 at Trydnt
+sacrifice y2 at G3; move g2 from Sea to Y3; move g2 from Y3 to Trydnt
+sacrifice y2 at B3; move r3 from Y3 to Trydnt; move g1 from Trydnt to B3
+sacrifice g2 at Dlwillson; build y2 at G3; build g2 at Trydnt
+move g3 from Trydnt to Y3
+sacrifice y2 at Dlwillson; move r3 from G3 to Trydnt; move r1 from G3 to Trydnt
+sacrifice y3 at Field; move r2 from Field to Y3; move r2 from Y3 to Trydnt; move y3 from B3 to Trydnt; catastrophe red at Trydnt
+sacrifice b2 at G3; convert g2 to y2 at Trydnt; convert g2 to y2 at Trydnt; catastrophe yellow at Trydnt

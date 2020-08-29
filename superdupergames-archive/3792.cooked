@@ -1,0 +1,30 @@
+Calavera (0, y1b2) g3-
+Zoltar (1, y3b2) -g3
+build g1 at Calavera
+build g1 at Zoltar
+convert g1 to y1 at Calavera
+build g1 at Zoltar
+build g1 at Calavera
+move g1 from Zoltar to Boysenberry (b1)
+move g1 from Calavera to El (b3)
+build g2 at Boysenberry
+build y1 at Calavera
+convert g1 to r1 at Zoltar
+move y1 from Calavera to El
+convert g2 to y2 at Boysenberry
+convert y1 to r1 at El
+build y1 at Boysenberry
+build g1 at Calavera
+build g2 at Zoltar
+sacrifice g3 at Calavera; build g2 at El; build g2 at Calavera; build g3 at Calavera
+sacrifice y2 at Boysenberry; move g1 from Boysenberry to El; move g1 from El to Calavera; catastrophe green at Calavera
+convert y1 to g1 at Calavera
+move g2 from Zoltar to Boysenberry
+convert g2 to y2 at El
+move g2 from Boysenberry to Banana (y3)
+move y2 from El to Calavera
+move y1 from Boysenberry to Greengiant (g3)
+build g1 at Calavera
+build g2 at Zoltar
+convert y2 to r2 at Calavera
+sacrifice g3 at Zoltar; build g2 at Zoltar; build g3 at Zoltar; build g3 at Banana

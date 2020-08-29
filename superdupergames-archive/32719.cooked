@@ -1,0 +1,32 @@
+Eraelan (0, b3g2) y3-
+Jaybones (1, r3b1) -g3
+build y1 at Eraelan
+build g1 at Jaybones
+move y3 from Eraelan to Callup (g1)
+build g1 at Jaybones
+build y1 at Eraelan
+convert g1 to y1 at Jaybones
+move y1 from Eraelan to Callup
+move y1 from Jaybones to Melon (g2)
+build y2 at Eraelan
+build y2 at Melon
+convert y1 to b1 at Eraelan
+build g1 at Jaybones
+build y1 at Callup
+move y1 from Melon to Callup; catastrophe yellow at Callup
+build y1 at Eraelan
+convert g1 to y1 at Jaybones
+move b1 from Eraelan to Color (g1)
+move g1 from Jaybones to Banana (y2)
+build b1 at Color
+move g1 from Banana to Apple (g1)
+build b2 at Color
+build g2 at Jaybones
+convert b2 to r2 at Color
+sacrifice g3 at Jaybones; build g3 at Jaybones; build g3 at Apple; build g3 at Jaybones
+build b2 at Color
+convert g3 to r3 at Jaybones
+build y1 at Eraelan
+sacrifice g3 at Jaybones; build g3 at Jaybones; build y2 at Jaybones; build y3 at Melon
+build r1 at Color
+sacrifice y2 at Melon; move y3 from Melon to Apple; move y3 from Apple to Eraelan; catastrophe yellow at Eraelan

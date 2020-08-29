@@ -1,0 +1,65 @@
+Wil (0, y3r1) g3-
+Jrandom (1, b1g3) -y3
+build g1 at Wil
+build y1 at Jrandom
+move g1 from Wil to B2 (b2)
+convert y1 to r1 at Jrandom
+build g1 at Wil
+build y1 at Jrandom
+build g1 at B2
+move r1 from Jrandom to B2
+sacrifice g3 at Wil; build g2 at Wil; build g2 at B2
+convert y1 to b1 at Jrandom
+convert g2 to r2 at B2
+convert b1 to r1 at Jrandom
+capture r1 at B2
+build r2 at Jrandom
+build g2 at B2
+build y1 at Jrandom
+convert g2 to y2 at B2
+convert r2 to b2 at Jrandom
+build g2 at B2
+build r2 at Jrandom
+move g1 from Wil to Y2 (y2)
+move r2 from Jrandom to Y2
+move g1 from Y2 to Y3 (y3)
+move b2 from Jrandom to Y2
+move r2 from B2 to Y3
+convert b2 to g2 at Y2
+convert g1 to b1 at B2
+build r2 at Y2
+build r3 at B2
+build r3 at Jrandom
+build r3 at Y3
+sacrifice y3 at Jrandom; move r2 from Y2 to Y3; move r2 from Y2 to Y3; move r1 from Jrandom to Y2; catastrophe red at Y3
+build b1 at B2
+build r2 at Y2
+move b1 from B2 to Wil
+build y1 at Jrandom
+move r1 from B2 to Y3
+move y1 from Jrandom to Y2
+build r2 at Y3
+move y1 from Y2 to Betelgeuse (r3)
+build r2 at B2
+build y1 at Jrandom
+move r2 from Y3 to Y2
+capture r2 at Y2
+move r1 from Y3 to Y2; catastrophe red at Y2
+move g2 from Y2 to Jrandom
+build y2 at B2
+move y1 from Betelgeuse to Beetlejuice (b2)
+move y2 from B2 to G3 (g3)
+move g2 from Jrandom to Beetlejuice
+sacrifice g2 at B2; build y2 at B2; build y3 at G3
+convert y1 to g1 at Jrandom
+sacrifice g2 at Wil; build b2 at B2; build b3 at Wil
+build g2 at Beetlejuice
+convert b3 to g3 at Wil
+convert g2 to r2 at Beetlejuice
+build g2 at B2
+move r2 from Beetlejuice to Y3
+move b1 from B2 to Jrandom
+capture g1 at Y3
+sacrifice y2 at B2; move g1 from B2 to Jrandom; move g2 from B2 to Jrandom; catastrophe green at Jrandom
+move r2 from Y3 to Beetlejuice
+sacrifice y3 at G3; move b2 from B2 to Jrandom; move b1 from Wil to B2; move b1 from B2 to Jrandom; catastrophe blue at Jrandom

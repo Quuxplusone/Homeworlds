@@ -1,0 +1,16 @@
+Sompm (0, y3b1) g3-
+Felix (1, b3y2) -g3
+build g1 at Sompm
+build g1 at Felix
+move g1 from Sompm to Hoth (b2)
+move g1 from Felix to Wampa (b1)
+build g1 at Hoth
+build g2 at Wampa
+build g2 at Hoth
+convert g1 to y1 at Wampa
+convert g2 to y2 at Hoth
+build g1 at Felix
+build g2 at Sompm
+sacrifice g3 at Felix; build g2 at Wampa; build g3 at Felix; build y1 at Wampa
+sacrifice g3 at Sompm; build g3 at Sompm; build g3 at Sompm; build y1 at Hoth
+move y1 from Wampa to Gate (b2)

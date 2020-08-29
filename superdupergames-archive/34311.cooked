@@ -1,0 +1,65 @@
+Trydnt (0, g3b2) y3-
+Smokeytroll42 (1, b3r1) -g3
+build y1 at Trydnt
+build g1 at Smokeytroll42
+build y1 at Trydnt
+convert g1 to y1 at Smokeytroll42
+convert y1 to r1 at Trydnt
+build g1 at Smokeytroll42
+build r1 at Trydnt
+move g1 from Smokeytroll42 to Peace (b2)
+build r2 at Trydnt
+build g1 at Peace
+move r2 from Trydnt to B1 (b1)
+build g1 at Peace
+convert r2 to g2 at B1
+build g2 at Smokeytroll42
+build r2 at Trydnt
+convert g2 to r2 at Smokeytroll42
+build g2 at B1
+move r2 from Smokeytroll42 to Peace
+move r1 from Trydnt to B1
+convert g1 to y1 at Peace
+convert g2 to y2 at B1
+build y2 at Peace
+move y2 from B1 to G2 (g2)
+move g1 from Peace to Harmony (b1)
+move r2 from Trydnt to Harmony
+sacrifice y1 at Peace; move g1 from Harmony to Peace
+sacrifice g2 at B1; build r2 at B1; build r3 at Harmony
+build r3 at Peace
+sacrifice y2 at G2; move r1 from B1 to Peace; move r2 from B1 to Peace; catastrophe red at Peace
+convert g1 to r1 at Peace
+convert r2 to g2 at Harmony
+build r2 at Peace
+build r2 at Trydnt
+move r1 from Peace to Smokeytroll42
+build g1 at Harmony
+build r2 at Peace
+build r3 at Trydnt
+sacrifice y2 at Peace; move r2 from Peace to Harmony; move r2 from Harmony to Trydnt; catastrophe red at Trydnt
+move y1 from Trydnt to Harmony
+build r1 at Peace
+build r2 at Harmony
+move r1 from Smokeytroll42 to Love (g2)
+move r3 from Harmony to Love
+build r2 at Love
+sacrifice r2 at Harmony; capture r1 at Love; capture r2 at Love
+build y1 at Smokeytroll42
+convert g2 to b2 at Harmony
+move y1 from Smokeytroll42 to Peace
+build y2 at Harmony
+build y2 at Peace
+sacrifice b2 at Harmony; convert r3 to y3 at Love; convert r1 to b1 at Love
+build y2 at Smokeytroll42
+build y3 at Trydnt
+move y1 from Peace to Amity (g1)
+build g2 at Harmony
+move y2 from Peace to Amity
+move y3 from Trydnt to B1 (b1)
+build g2 at Peace
+move g1 from Harmony to B2 (b2)
+build g3 at Smokeytroll42
+sacrifice y3 at Love; move g1 from B2 to Smokeytroll42; move g2 from Harmony to Peace; move g2 from Peace to Smokeytroll42; catastrophe green at Smokeytroll42
+move y1 from Smokeytroll42 to Peace
+sacrifice y2 at Harmony; move y3 from B1 to Peace; move y3 from Peace to Smokeytroll42

@@ -1,0 +1,49 @@
+Ts52 (0, y1b2) g3-
+Felix (1, b1r3) -g3
+build g1 at Ts52
+build g1 at Felix
+convert g1 to y1 at Ts52
+convert g1 to y1 at Felix
+build y2 at Ts52
+build y2 at Felix
+move y2 from Ts52 to Kermit (g3)
+move y1 from Felix to Caladan (g2)
+build g1 at Ts52
+build g1 at Felix
+convert g1 to b1 at Ts52
+build y2 at Caladan
+build y3 at Kermit
+build y3 at Felix
+move b1 from Ts52 to Kermit
+convert y3 to b3 at Felix
+convert y3 to r3 at Kermit
+build y3 at Felix
+move r3 from Kermit to Caladan
+sacrifice y2 at Caladan; move y1 from Caladan to Kermit; move y1 from Kermit to Ts52
+convert y1 to r1 at Ts52
+sacrifice g3 at Felix; build y1 at Ts52; build y2 at Ts52; build g1 at Felix; catastrophe yellow at Ts52
+build r1 at Ts52
+move b3 from Felix to Geidi_Prime (g2)
+convert r1 to y1 at Ts52
+convert g1 to r1 at Felix
+build r1 at Caladan
+move r1 from Felix to Geidi_Prime
+build r2 at Ts52
+build r2 at Geidi_Prime
+build y1 at Ts52
+convert y2 to b2 at Felix
+build b1 at Kermit
+convert r2 to y2 at Geidi_Prime
+build b2 at Kermit
+move b3 from Geidi_Prime to Kermit; catastrophe blue at Kermit
+build y1 at Ts52
+build b1 at Felix
+move r1 from Ts52 to Felix
+capture r1 at Felix
+sacrifice y2 at Kermit; move r1 from Caladan to Felix; move y1 from Ts52 to Felix
+move b1 from Felix to Geidi_Prime
+sacrifice g3 at Ts52; build y2 at Felix; build y2 at Felix; build r2 at Felix; catastrophe red at Felix; catastrophe yellow at Felix
+build b1 at Felix
+sacrifice y1 at Ts52; move r3 from Caladan to Felix
+sacrifice y2 at Geidi_Prime; move b1 from Felix to Ts52; move b2 from Felix to Ts52
+capture g1 at Felix

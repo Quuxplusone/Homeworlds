@@ -1,0 +1,83 @@
+Jeep (0, g1b2) y3-
+Andylooney (1, b3g2) -y3
+build y1 at Jeep
+build y1 at Andylooney
+move y1 from Jeep to Lantern (g3)
+convert y1 to g1 at Andylooney
+build y1 at Jeep
+build g1 at Andylooney
+convert y3 to g3 at Jeep
+move g1 from Andylooney to Different (y1)
+build g2 at Jeep
+build g2 at Different
+move g2 from Jeep to Arrow (g3)
+build y2 at Andylooney
+build y2 at Jeep
+move y2 from Andylooney to Bomber (b1)
+move y2 from Jeep to Moon (b3)
+move g2 from Different to Clampett (y3)
+sacrifice g3 at Jeep; build y2 at Moon; build y3 at Jeep; build g3 at Arrow
+move g1 from Different to Arrow; catastrophe green at Arrow
+convert y2 to g2 at Moon
+move g1 from Andylooney to Bomber
+convert y1 to g1 at Jeep
+build g3 at Bomber
+build g3 at Moon
+convert g1 to r1 at Bomber
+convert g2 to r2 at Moon
+build r1 at Bomber
+build r1 at Moon
+move r1 from Bomber to Clampett
+build g1 at Moon
+build r2 at Bomber
+move g1 from Moon to Man (b1)
+build g2 at Bomber
+build y1 at Moon
+move r2 from Bomber to Lantern
+move r2 from Moon to Man
+capture y1 at Lantern
+sacrifice g3 at Moon; build g3 at Man; build r2 at Man; build r3 at Moon
+sacrifice g3 at Bomber; build g3 at Bomber; build r3 at Clampett; build r3 at Lantern
+convert y1 to b1 at Moon
+sacrifice g3 at Bomber; build g3 at Bomber; build y1 at Bomber; build y1 at Lantern
+sacrifice g3 at Man; build g3 at Man; build y2 at Moon; build b2 at Moon
+convert g2 to b2 at Bomber
+sacrifice y2 at Moon; move b1 from Moon to Bomber; move b2 from Moon to Bomber; catastrophe blue at Bomber
+build g2 at Clampett
+convert r3 to g3 at Moon
+sacrifice g2 at Clampett; build y1 at Lantern; build y2 at Andylooney
+sacrifice g3 at Man; build g2 at Moon; build g3 at Man; build y2 at Moon
+move r1 from Clampett to Bomber (b1)
+move y2 from Moon to Man
+sacrifice y2 at Andylooney; move r3 from Clampett to Plugh (y2); move r1 from Bomber to Andylooney
+convert r2 to b2 at Man
+sacrifice g2 at Clampett; build y3 at Andylooney; build r1 at Andylooney
+move y2 from Man to Lantern; catastrophe yellow at Lantern
+convert r1 to b1 at Andylooney
+sacrifice g3 at Moon; build g2 at Jeep; build g3 at Moon; build r1 at Man
+move b1 from Andylooney to Different (y1)
+sacrifice g3 at Man; build g3 at Man; build y1 at Moon; build y1 at Jeep
+move b1 from Different to Lantern
+sacrifice y2 at Moon; move r1 from Man to Lantern; move r2 from Man to Lantern; catastrophe red at Lantern
+build b1 at Lantern
+sacrifice g3 at Moon; build g3 at Moon; build y1 at Moon; build r1 at Moon
+sacrifice y3 at Andylooney; move b1 from Lantern to Man; move b1 from Lantern to Man; move r3 from Plugh to Ibm (b3); catastrophe blue at Man
+move y1 from Moon to Station (b1)
+build y2 at Andylooney
+sacrifice g2 at Moon; build y2 at Moon; build y2 at Station
+convert y2 to g2 at Andylooney
+sacrifice g2 at Jeep; build y2 at Station; build y3 at Moon
+sacrifice g2 at Andylooney; build r2 at Ibm; build r2 at Andylooney
+convert y2 to r2 at Station
+convert r2 to y2 at Ibm
+sacrifice y3 at Moon; move r2 from Station to Andylooney; move r1 from Moon to Station; move r1 from Station to Andylooney; catastrophe red at Andylooney
+convert y2 to g2 at Ibm
+move y1 from Moon to Station
+convert y3 to r3 at Andylooney
+sacrifice g3 at Moon; build y2 at Jeep; build y3 at Moon; build y3 at Moon
+build r1 at Ibm
+move g1 from Jeep to Moon
+build g1 at Ibm
+build g2 at Moon
+convert g1 to b1 at Ibm
+move r1 from Moon to Station

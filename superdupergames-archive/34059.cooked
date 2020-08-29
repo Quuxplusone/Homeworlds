@@ -1,0 +1,108 @@
+Felix (0, b2r3) g3-
+Deanthebean (1, r1b2) -g3
+build g1 at Felix
+build g1 at Deanthebean
+convert g1 to y1 at Felix
+build g1 at Deanthebean
+build y1 at Felix
+convert g1 to y1 at Deanthebean
+build y2 at Felix
+build y2 at Deanthebean
+move y1 from Felix to Out (b1)
+convert y1 to r1 at Deanthebean
+convert y1 to b1 at Felix
+build y1 at Deanthebean
+build y1 at Felix
+convert y1 to b1 at Deanthebean
+move b1 from Felix to Joy (g1)
+build r1 at Deanthebean
+build b2 at Joy
+move b1 from Deanthebean to Euoi (g3)
+move y1 from Felix to Joy
+build b3 at Euoi
+move b1 from Joy to Rim (r3)
+move g3 from Deanthebean to Rim
+build b3 at Joy
+capture b1 at Rim
+move b2 from Joy to Rim
+capture b2 at Rim
+build b3 at Joy
+sacrifice y2 at Deanthebean; move b1 from Rim to Joy; move b1 from Euoi to Joy; catastrophe blue at Joy
+build y1 at Joy
+convert b2 to y2 at Rim
+sacrifice g3 at Felix; build y2 at Felix; build y3 at Out; build y3 at Felix
+build y3 at Rim
+sacrifice y2 at Felix; move y1 from Joy to Rim; move y1 from Out to Rim; catastrophe yellow at Rim
+convert r1 to y1 at Deanthebean
+convert y3 to g3 at Felix
+build b1 at Euoi
+build y1 at Felix
+build y2 at Deanthebean
+move y3 from Out to Ramp (b3)
+sacrifice y1 at Deanthebean; move g3 from Rim to Deanthebean
+build y1 at Joy
+convert b3 to y3 at Euoi
+build g1 at Felix
+sacrifice g3 at Deanthebean; build y2 at Euoi; build y3 at Deanthebean; build g2 at Deanthebean
+move g1 from Felix to Grump (b1)
+build b1 at Euoi
+build g2 at Felix
+move g1 from Deanthebean to Lieu (b3)
+convert g2 to r2 at Felix
+build g2 at Lieu
+convert y2 to b2 at Felix
+build b3 at Euoi
+move y1 from Joy to Bazoik (g3)
+convert g2 to y2 at Lieu
+move y1 from Joy to Sputz (r3)
+move y2 from Deanthebean to Sputz
+move y1 from Sputz to Grump
+move r1 from Deanthebean to Bazoik
+sacrifice r2 at Felix; capture r1 at Bazoik
+convert g1 to r1 at Lieu
+build r2 at Bazoik
+convert b3 to r3 at Euoi
+move b2 from Felix to Zipcord (g1)
+move r3 from Euoi to Zipcord
+sacrifice y3 at Ramp; move b2 from Zipcord to Bazoik; move r1 from Bazoik to Deanthebean; move r2 from Bazoik to Deanthebean
+capture r2 at Deanthebean
+sacrifice g1 at Grump; build r2 at Deanthebean; catastrophe red at Deanthebean
+build y3 at Deanthebean
+build b3 at Bazoik
+move b1 from Euoi to Zipcord
+move y1 from Grump to Deanthebean
+move y3 from Deanthebean to Zipcord
+move b2 from Bazoik to Glint (g1)
+move y3 from Zipcord to Bazoik
+convert y1 to b1 at Deanthebean
+sacrifice r3 at Zipcord; capture b3 at Bazoik; capture y1 at Bazoik; capture b1 at Deanthebean
+build b3 at Glint
+move b1 from Euoi to Glint
+convert b2 to r2 at Glint
+build b2 at Glint
+capture b2 at Glint
+move b1 from Deanthebean to Glint; catastrophe blue at Glint
+build y1 at Felix
+move y3 from Bazoik to Glint
+sacrifice y1 at Felix; move r2 from Glint to Felix
+build y1 at Glint
+move r2 from Felix to Zipcord
+move y3 from Euoi to Zipcord
+capture b1 at Zipcord
+sacrifice r1 at Lieu; capture r2 at Zipcord
+build g1 at Felix
+build g2 at Deanthebean
+sacrifice b1 at Zipcord; convert g1 to b1 at Felix
+build r1 at Zipcord
+build g1 at Felix
+build g2 at Deanthebean
+build b1 at Felix
+build r1 at Zipcord
+move b1 from Felix to Hope (r1)
+move b3 from Bazoik to Hope
+sacrifice g3 at Felix; build b1 at Hope; build b2 at Hope; build b3 at Felix; catastrophe blue at Hope
+convert g2 to b2 at Deanthebean
+move y1 from Felix to Grin (b1)
+sacrifice y2 at Sputz; move b2 from Deanthebean to Grin; move b2 from Grin to Felix; catastrophe blue at Felix
+build g2 at Felix
+sacrifice y3 at Zipcord; move r2 from Zipcord to Felix; move r1 from Zipcord to Felix; move r1 from Zipcord to Felix; catastrophe red at Felix

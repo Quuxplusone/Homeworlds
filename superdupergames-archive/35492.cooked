@@ -1,0 +1,31 @@
+Agentofchaos (0, y1b2) g3-
+Bhorner (1, y1g2) -y3
+build g1 at Agentofchaos
+build y1 at Bhorner
+build g1 at Agentofchaos
+move y1 from Bhorner to Tree (g3)
+move g1 from Agentofchaos to Shadowverse (y3)
+build y2 at Bhorner
+build g1 at Shadowverse
+build y2 at Tree
+sacrifice g3 at Agentofchaos; build g2 at Shadowverse; build g2 at Agentofchaos; build g3 at Agentofchaos
+move y2 from Bhorner to Avalanche (b3)
+convert g1 to r1 at Agentofchaos
+convert y2 to r2 at Avalanche
+convert g2 to y2 at Agentofchaos
+move y1 from Tree to Blizzard (b2)
+build g1 at Agentofchaos
+build y2 at Tree
+move g1 from Agentofchaos to Kakrafoon (y3)
+convert y1 to b1 at Blizzard
+build g2 at Agentofchaos
+sacrifice b1 at Blizzard; convert y2 to b2 at Tree
+sacrifice g3 at Agentofchaos; build g3 at Agentofchaos; build r1 at Agentofchaos; build g3 at Kakrafoon
+build b1 at Tree
+sacrifice y2 at Agentofchaos; move g3 from Kakrafoon to Terrorverse (r2); move g3 from Terrorverse to Tree
+sacrifice y2 at Tree; move b2 from Tree to Bhorner; move b1 from Tree to Sparkle (y1)
+convert g2 to y2 at Agentofchaos
+build y2 at Bhorner
+move y2 from Agentofchaos to Tree
+convert y3 to r3 at Bhorner
+build y2 at Tree

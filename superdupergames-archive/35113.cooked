@@ -1,0 +1,25 @@
+Dlwillson (0, y3b1) g3-
+Uglyfoot (1, y3b2) -g3
+build g1 at Dlwillson
+build g1 at Uglyfoot
+convert g1 to b1 at Dlwillson
+move g1 from Uglyfoot to Gateway (r1)
+build b1 at Dlwillson
+build g1 at Gateway
+move b1 from Dlwillson to Field (g2)
+build g1 at Uglyfoot
+build g2 at Dlwillson
+convert g1 to r1 at Uglyfoot
+sacrifice g3 at Dlwillson; build b2 at Field; build b2 at Field; build b3 at Dlwillson
+build g1 at Uglyfoot
+convert b3 to y3 at Dlwillson
+build g2 at Uglyfoot
+sacrifice y3 at Dlwillson; move g2 from Dlwillson to Field; move g2 from Field to Gateway; move g2 from Gateway to Uglyfoot; catastrophe green at Uglyfoot
+sacrifice g1 at Gateway; build r1 at Uglyfoot
+convert b2 to y2 at Field
+build g1 at Gateway
+sacrifice y2 at Field; move b2 from Field to Gateway; move b2 from Gateway to Uglyfoot
+move r1 from Uglyfoot to Sol (y1)
+convert b2 to r2 at Uglyfoot
+sacrifice g1 at Gateway; build r2 at Uglyfoot
+capture r2 at Uglyfoot

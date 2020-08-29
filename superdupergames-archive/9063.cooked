@@ -1,0 +1,45 @@
+Mneme (0, r1b2) g3-
+Ts52 (1, r3b2) -g3
+build g1 at Mneme
+build g1 at Ts52
+convert g1 to y1 at Mneme
+convert g1 to y1 at Ts52
+build g1 at Mneme
+build g1 at Ts52
+convert g1 to r1 at Mneme
+build g1 at Ts52
+build r1 at Mneme
+move g1 from Ts52 to Blueberry (b1)
+move r1 from Mneme to Redwood (g3)
+build y1 at Ts52
+build r2 at Mneme
+build y2 at Ts52
+build y2 at Mneme
+convert y2 to r2 at Ts52
+build r2 at Redwood
+move r2 from Ts52 to Blueberry
+convert r2 to b2 at Mneme
+build y2 at Ts52
+move y1 from Mneme to Redwood
+move y2 from Ts52 to Blueberry
+move b2 from Mneme to Sirius (y3)
+move g1 from Ts52 to Blueberry
+sacrifice g3 at Mneme; build y2 at Mneme; build y3 at Mneme; build y3 at Redwood
+convert g1 to b1 at Blueberry
+convert y2 to g2 at Mneme
+build y2 at Blueberry
+move y3 from Redwood to Outpost (b1)
+move b1 from Blueberry to Oscar (g3)
+move y3 from Outpost to Oscar
+convert b1 to g1 at Oscar
+sacrifice r1 at Redwood; capture g1 at Oscar
+build g1 at Ts52
+sacrifice b2 at Sirius; convert y3 to b3 at Oscar; convert g1 to r1 at Oscar
+move y2 from Blueberry to Grover (b3)
+sacrifice y1 at Redwood; move b3 from Oscar to Blueberry
+sacrifice g3 at Ts52; build y1 at Grover; build y3 at Blueberry; build y3 at Ts52
+sacrifice r2 at Redwood; capture y3 at Blueberry; capture r2 at Blueberry
+convert y2 to r2 at Grover
+sacrifice y2 at Mneme; move y3 from Blueberry to Ts52; move b3 from Blueberry to Ts52; catastrophe yellow at Ts52
+build g1 at Ts52
+sacrifice r2 at Blueberry; capture g1 at Ts52; capture g1 at Ts52

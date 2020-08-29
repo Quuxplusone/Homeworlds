@@ -1,0 +1,51 @@
+Ercepeda (0, g3b2) r3-
+Languidude (1, b3y1) -g3
+build r1 at Ercepeda
+build g1 at Languidude
+convert r1 to y1 at Ercepeda
+move g1 from Languidude to Atreides (y2)
+build y1 at Ercepeda
+build g1 at Languidude
+move y1 from Ercepeda to Blerb (g1)
+convert g1 to b1 at Languidude
+build y2 at Blerb
+build b1 at Languidude
+move y2 from Blerb to Sup (g2)
+convert b1 to r1 at Languidude
+build y2 at Sup
+move r1 from Languidude to Sup
+build y3 at Ercepeda
+build g1 at Atreides
+build y3 at Sup
+build g2 at Atreides
+build y3 at Blerb
+build b1 at Languidude
+move r3 from Ercepeda to Blerb
+move b1 from Languidude to Atreides
+move r3 from Blerb to Sup
+convert b1 to r1 at Languidude
+sacrifice y3 at Blerb; move y2 from Sup to Languidude; move y2 from Sup to Languidude; move y3 from Sup to Languidude; catastrophe yellow at Languidude
+move g2 from Atreides to Carthag (y1)
+convert y1 to r1 at Ercepeda
+build r2 at Languidude
+build r2 at Ercepeda
+build g2 at Languidude
+convert r1 to b1 at Ercepeda
+sacrifice g3 at Languidude; build g3 at Languidude; build g3 at Carthag; build b1 at Atreides
+sacrifice y1 at Blerb; move r3 from Sup to Carthag
+move g3 from Carthag to Sup
+capture g2 at Carthag
+convert r2 to y2 at Languidude
+move b1 from Ercepeda to Carthag
+move r1 from Languidude to Dagobah (y1)
+build b2 at Carthag
+sacrifice y2 at Languidude; move b1 from Atreides to Carthag; move b1 from Atreides to Carthag; catastrophe blue at Carthag
+build g1 at Carthag
+convert g2 to y2 at Languidude
+build y1 at Ercepeda
+build g2 at Languidude
+convert y1 to b1 at Ercepeda
+convert g2 to r2 at Languidude
+move b1 from Ercepeda to Carthag
+build g2 at Languidude
+sacrifice g2 at Carthag; build b1 at Carthag; build b1 at Carthag

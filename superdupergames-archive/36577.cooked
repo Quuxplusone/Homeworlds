@@ -1,0 +1,64 @@
+Deanthebean (0, r1b2) g3-
+Dlwillson (1, r3b1) -g3
+build g1 at Deanthebean
+build g1 at Dlwillson
+convert g1 to y1 at Deanthebean
+convert g1 to y1 at Dlwillson
+build g1 at Deanthebean
+build g1 at Dlwillson
+convert g1 to r1 at Deanthebean
+convert g1 to r1 at Dlwillson
+build r2 at Deanthebean
+build r2 at Dlwillson
+convert r2 to y2 at Deanthebean
+convert r1 to b1 at Dlwillson
+convert y1 to b1 at Deanthebean
+build b2 at Dlwillson
+build b2 at Deanthebean
+move b1 from Dlwillson to Field (g2)
+move b1 from Deanthebean to Motorway (y3)
+build b3 at Field
+sacrifice g3 at Deanthebean; build b3 at Motorway; build b3 at Deanthebean; build y1 at Deanthebean
+move b2 from Dlwillson to Alsofield (g2)
+convert b1 to g1 at Motorway
+build b1 at Alsofield
+convert b3 to g3 at Deanthebean
+sacrifice b2 at Alsofield; convert b1 to y1 at Alsofield; convert b3 to y3 at Field
+build y2 at Deanthebean
+build y2 at Alsofield
+convert b3 to y3 at Motorway
+sacrifice y2 at Alsofield; move y1 from Alsofield to Motorway; move y1 from Motorway to Deanthebean; catastrophe yellow at Deanthebean
+build g1 at Deanthebean
+build y1 at Field
+convert g1 to y1 at Deanthebean
+move y1 from Field to Motorway
+build y2 at Deanthebean
+build y2 at Field
+convert y1 to g1 at Deanthebean
+move y2 from Field to Motorway; catastrophe yellow at Motorway
+build y1 at Deanthebean
+build r1 at Dlwillson
+move r1 from Deanthebean to Bigfield (g3)
+move r2 from Dlwillson to Field
+build r2 at Bigfield
+build r2 at Field
+move y1 from Deanthebean to Bigfield
+move r2 from Field to Sol (y3)
+move r1 from Bigfield to Mediumfield (g2)
+build r3 at Field
+build r3 at Bigfield
+convert r3 to b3 at Field
+build r3 at Mediumfield
+move b3 from Field to Sol
+sacrifice y2 at Deanthebean; move r3 from Mediumfield to Dlwillson; move r1 from Mediumfield to Dlwillson; catastrophe red at Dlwillson
+build r1 at Field
+build g1 at Deanthebean
+move b3 from Sol to Deanthebean
+capture b3 at Deanthebean
+sacrifice y3 at Field; move b1 from Field to Bigfield; move b1 from Bigfield to Deanthebean; move r1 from Field to Dlwillson; catastrophe blue at Deanthebean
+move r2 from Bigfield to Market (b2)
+sacrifice g3 at Dlwillson; build r1 at Field; build r3 at Sol; build r3 at Dlwillson
+move r3 from Bigfield to Dlwillson
+capture r3 at Dlwillson
+sacrifice y1 at Bigfield; move r2 from Market to Dlwillson; catastrophe red at Dlwillson
+move r3 from Sol to Dlwillson

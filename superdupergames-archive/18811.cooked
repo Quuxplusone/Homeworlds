@@ -1,0 +1,48 @@
+Goulo (0, g3b2) y3-
+Twoshort (1, r1b2) -g3
+build y1 at Goulo
+build g1 at Twoshort
+build y1 at Goulo
+convert g1 to y1 at Twoshort
+convert y1 to g1 at Goulo
+build g1 at Twoshort
+convert y1 to r1 at Goulo
+build g1 at Twoshort
+sacrifice y3 at Goulo; move g1 from Goulo to Citroneto (y1); move g1 from Citroneto to Rubenego (r3); move g1 from Rubenego to Twoshort; catastrophe green at Twoshort
+convert y1 to g1 at Twoshort
+build r1 at Goulo
+build g1 at Twoshort
+build r2 at Goulo
+build g1 at Twoshort
+convert r2 to g2 at Goulo
+convert g1 to y1 at Twoshort
+build r2 at Goulo
+build g1 at Twoshort
+convert r2 to y2 at Goulo
+move g1 from Twoshort to Bluestar (b3)
+move g2 from Goulo to Citroneto (y1)
+build g2 at Bluestar
+build r2 at Goulo
+convert g2 to r2 at Bluestar
+move r1 from Goulo to Citroneto
+build g2 at Bluestar
+convert r1 to b1 at Goulo
+move g1 from Twoshort to Yolonda (y3)
+move b1 from Goulo to Citroneto
+build y1 at Twoshort
+move g2 from Citroneto to Yolonda
+sacrifice g2 at Bluestar; build g2 at Twoshort; build g2 at Yolonda
+move g2 from Yolonda to Citroneto
+move g2 from Yolonda to Citroneto
+capture g2 at Citroneto
+sacrifice g2 at Twoshort; build g2 at Yolonda; build g3 at Twoshort
+move g2 from Citroneto to Smeraldego (g3)
+move y1 from Twoshort to Bluestar
+build y2 at Goulo
+sacrifice g3 at Twoshort; build y2 at Bluestar; build y3 at Twoshort; build g3 at Bluestar
+move g2 from Citroneto to Citronego (y3)
+sacrifice y2 at Bluestar; move g3 from Bluestar to Citroneto; move g3 from Citroneto to Goulo
+move g2 from Citronego to Citroneto
+convert y3 to r3 at Twoshort
+build y2 at Goulo
+sacrifice r2 at Bluestar; capture r2 at Goulo; capture y2 at Goulo

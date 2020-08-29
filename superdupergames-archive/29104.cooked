@@ -1,0 +1,38 @@
+Felix (0, b3y2) g3-
+Endo (1, b1y3) -g3
+build g1 at Felix
+build g1 at Endo
+convert g1 to b1 at Felix
+convert g1 to b1 at Endo
+build b2 at Felix
+build b2 at Endo
+move b2 from Felix to Rim (g1)
+move b1 from Endo to Site (y2)
+convert b1 to r1 at Felix
+build b1 at Endo
+build r1 at Felix
+move b1 from Endo to Topos (g2)
+convert g3 to y3 at Felix
+build g1 at Endo
+build b2 at Rim
+build b3 at Topos
+convert b2 to y2 at Rim
+convert b3 to r3 at Topos
+convert r1 to g1 at Felix
+convert g1 to y1 at Endo
+build y1 at Felix
+move y1 from Endo to Topos
+convert y3 to g3 at Felix
+move r3 from Topos to Rim
+sacrifice y2 at Rim; move b2 from Rim to Site; move b2 from Site to Endo
+sacrifice r3 at Rim; capture b2 at Endo
+move g3 from Felix to Flow (y1)
+convert b2 to r2 at Endo
+build y2 at Felix
+build y3 at Topos
+move y2 from Felix to Oust (g1)
+move y1 from Topos to Germ (y3)
+build r1 at Felix
+build b2 at Topos
+move g3 from Flow to Felix
+sacrifice g3 at Endo; build b2 at Site; build b3 at Endo; build b3 at Site

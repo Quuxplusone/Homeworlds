@@ -1,0 +1,13 @@
+Wil (0, y3b1) g3-
+Redmerlin (1, y1b2) -g3
+build g1 at Wil
+build g1 at Redmerlin
+convert g1 to b1 at Wil
+move g1 from Redmerlin to Al (y3)
+build b1 at Wil
+build g1 at Redmerlin
+move b1 from Wil to G2 (g2)
+move g1 from Redmerlin to B3 (b3)
+sacrifice g3 at Wil; build b2 at G2; build b2 at G2; build b3 at Wil
+convert g3 to b3 at Redmerlin
+sacrifice b2 at G2; convert b2 to y2 at G2; convert b3 to g3 at Wil

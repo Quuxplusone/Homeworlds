@@ -1,0 +1,56 @@
+Cdrodeffer (0, b1y2) g3-
+Werebear (1, g2b1) -r3
+build g1 at Cdrodeffer
+build r1 at Werebear
+convert g1 to r1 at Cdrodeffer
+convert r1 to b1 at Werebear
+move r1 from Cdrodeffer to Eden (g3)
+build b2 at Werebear
+build g1 at Cdrodeffer
+convert b2 to y2 at Werebear
+convert g1 to y1 at Cdrodeffer
+build b2 at Werebear
+build g1 at Cdrodeffer
+move b2 from Werebear to Eden
+sacrifice y1 at Cdrodeffer; move r1 from Eden to Cdrodeffer
+build r1 at Werebear
+build g1 at Cdrodeffer
+build b2 at Werebear
+build r1 at Cdrodeffer
+build r2 at Werebear
+move r1 from Cdrodeffer to Eden
+sacrifice r1 at Werebear; capture r1 at Eden
+move r1 from Cdrodeffer to Taxi (y3)
+move r2 from Werebear to Taxi
+move r1 from Taxi to HorribleUnicode (r1)
+build r2 at Werebear
+sacrifice g1 at Cdrodeffer; build r2 at HorribleUnicode
+convert b2 to g2 at Werebear
+convert g1 to y1 at Cdrodeffer
+build r3 at Eden
+convert g3 to r3 at Cdrodeffer
+move b1 from Werebear to Taxi
+convert y1 to g1 at Cdrodeffer
+move g2 from Werebear to Taxi
+build g1 at Cdrodeffer
+build b2 at Eden
+move g1 from Cdrodeffer to The_Berry_Vest_Of_The_Swirling_Eddies (b3)
+move r2 from Werebear to The_Berry_Vest_Of_The_Swirling_Eddies
+build g1 at The_Berry_Vest_Of_The_Swirling_Eddies
+build b2 at Taxi
+build g2 at The_Berry_Vest_Of_The_Swirling_Eddies
+sacrifice g2 at Taxi; build b3 at Taxi; build b3 at Eden
+build g2 at Cdrodeffer
+sacrifice b2 at Eden; convert b3 to g3 at Eden; convert b3 to g3 at Taxi
+convert g2 to b2 at Cdrodeffer
+build g2 at Taxi
+move b2 from Cdrodeffer to Submarine (y3)
+sacrifice g3 at Taxi; build g3 at Taxi; build b3 at Taxi; build b3 at Eden
+sacrifice r1 at HorribleUnicode; capture r2 at The_Berry_Vest_Of_The_Swirling_Eddies
+sacrifice b2 at Eden; convert b1 to r1 at Taxi; convert b3 to y3 at Taxi
+convert g1 to y1 at The_Berry_Vest_Of_The_Swirling_Eddies
+sacrifice y3 at Taxi; move g3 from Eden to Cdrodeffer; move r3 from Eden to Cdrodeffer; move b3 from Eden to Cdrodeffer
+sacrifice r2 at HorribleUnicode; capture r3 at Cdrodeffer; capture g3 at Cdrodeffer
+sacrifice r3 at Werebear; capture r3 at Cdrodeffer; capture g3 at Cdrodeffer; capture r3 at Cdrodeffer
+build y1 at The_Berry_Vest_Of_The_Swirling_Eddies
+capture g1 at Cdrodeffer

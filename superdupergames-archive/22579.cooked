@@ -1,0 +1,27 @@
+Aristos (0, y3b1) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Aristos
+build g1 at Ts52
+move g1 from Aristos to Swap (b2)
+move g1 from Ts52 to Grover (b3)
+convert g1 to y1 at Swap
+build g1 at Ts52
+build g1 at Aristos
+build g2 at Grover
+build g2 at Aristos
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build g3 at Ts52
+move g2 from Aristos to Swap
+convert g2 to y2 at Grover
+sacrifice g3 at Aristos; build g2 at Swap; build g3 at Aristos; build y1 at Swap
+convert g3 to r3 at Ts52
+move y1 from Swap to Instantiate (g3)
+move r3 from Ts52 to Instantiate
+convert g1 to r1 at Aristos
+capture y1 at Instantiate
+move g2 from Swap to Grover
+build r1 at Instantiate
+sacrifice r1 at Aristos; capture y2 at Grover
+move r3 from Instantiate to Swap
+convert g3 to r3 at Aristos
+capture y1 at Swap
+sacrifice g2 at Swap; build y2 at Grover; build g1 at Grover; catastrophe green at Grover

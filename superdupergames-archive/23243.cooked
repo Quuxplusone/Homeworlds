@@ -1,0 +1,40 @@
+Inundator (0, b2y3) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Inundator
+build g1 at Dlwillson
+move g1 from Inundator to Gene (b1)
+convert g1 to y1 at Dlwillson
+build g1 at Inundator
+build y1 at Dlwillson
+convert g1 to r1 at Inundator
+build y1 at Dlwillson
+build g1 at Inundator
+move y1 from Dlwillson to Sky (b2)
+build r1 at Inundator
+build y2 at Dlwillson
+build r2 at Inundator
+move y2 from Dlwillson to Sea (b2)
+convert r2 to y2 at Inundator
+sacrifice g3 at Dlwillson; build y2 at Sky; build y3 at Sea; build y3 at Dlwillson
+build g1 at Gene
+convert y3 to g3 at Dlwillson
+build g2 at Gene
+convert y3 to r3 at Sea
+convert g2 to r2 at Gene
+build g2 at Dlwillson
+sacrifice g3 at Inundator; build g2 at Inundator; build g2 at Gene; build g3 at Inundator
+sacrifice g3 at Dlwillson; build y3 at Sky; build y3 at Sea; build g3 at Dlwillson
+move g2 from Inundator to Ace (b1)
+move y3 from Sky to Gene
+build g3 at Ace
+move y3 from Gene to Inundator
+capture y3 at Inundator
+sacrifice y2 at Sea; move y1 from Sky to Gene; move y1 from Gene to Inundator; catastrophe yellow at Inundator
+convert g3 to y3 at Ace
+convert y1 to b1 at Dlwillson
+sacrifice g3 at Inundator; build g3 at Inundator; build g3 at Ace; build y1 at Ace
+build b3 at Dlwillson
+convert g2 to y2 at Gene
+sacrifice y3 at Sea; move g3 from Dlwillson to Inundator; move g2 from Dlwillson to Inundator; move b3 from Dlwillson to Inundator; catastrophe green at Inundator
+sacrifice y2 at Gene; move g3 from Ace to Sky; move g3 from Sky to Dlwillson
+sacrifice r3 at Sea; capture r1 at Inundator; capture r1 at Inundator

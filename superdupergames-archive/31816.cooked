@@ -1,0 +1,37 @@
+Mobynostromo (0, b2g1) y3-
+Ottia (1, g1y2) -b3
+build y1 at Mobynostromo
+build b1 at Ottia
+build y1 at Mobynostromo
+convert b1 to y1 at Ottia
+move y1 from Mobynostromo to Yellow (y3)
+move y1 from Ottia to Blackgarlic (r3)
+move y1 from Mobynostromo to Green (g3)
+build b1 at Ottia
+build y2 at Mobynostromo
+move b1 from Ottia to Blackgarlic
+convert y2 to g2 at Mobynostromo
+build b1 at Ottia
+build g1 at Mobynostromo
+convert b3 to y3 at Ottia
+move g1 from Mobynostromo to Gazpacho (r3)
+move y3 from Ottia to Rawginger (g3)
+build g2 at Mobynostromo
+build y2 at Rawginger
+move g2 from Mobynostromo to Yellow
+build b1 at Ottia
+build g2 at Yellow
+move y2 from Rawginger to Galiamelon (y2)
+build g3 at Gazpacho
+move b1 from Ottia to Rawginger
+move g2 from Yellow to Kimchi (r1)
+move b1 from Rawginger to Tulsitea (r1)
+convert g2 to b2 at Mobynostromo
+build b2 at Ottia
+move b2 from Mobynostromo to Redbeans (r3)
+convert b2 to g2 at Ottia
+move y1 from Yellow to Kimchi
+build b2 at Ottia
+sacrifice g2 at Yellow; build y3 at Mobynostromo; build g2 at Kimchi
+move b1 from Ottia to Rawginger
+sacrifice y3 at Mobynostromo; move g2 from Kimchi to Gazpacho; move g2 from Gazpacho to Ottia; move g1 from Gazpacho to Ottia; catastrophe green at Ottia

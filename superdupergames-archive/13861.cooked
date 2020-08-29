@@ -1,0 +1,42 @@
+Jonaskoelker (0, b2r1) g3-
+Agentofchaos (1, b3r2) -g3
+build g1 at Jonaskoelker
+build g1 at Agentofchaos
+convert g1 to y1 at Jonaskoelker
+build g1 at Agentofchaos
+build y1 at Jonaskoelker
+convert g1 to y1 at Agentofchaos
+build y2 at Jonaskoelker
+build y2 at Agentofchaos
+move y1 from Jonaskoelker to Lush (g3)
+convert y1 to r1 at Agentofchaos
+convert y1 to r1 at Jonaskoelker
+build y1 at Agentofchaos
+build r2 at Jonaskoelker
+move r1 from Agentofchaos to Ykron (g1)
+move r2 from Jonaskoelker to Lush
+build r2 at Ykron
+build r3 at Lush
+sacrifice y1 at Agentofchaos; move r2 from Ykron to Jeroboam (y3)
+build r3 at Lush
+sacrifice y2 at Agentofchaos; move r1 from Ykron to Lush; catastrophe red at Lush
+build g1 at Jonaskoelker
+convert g1 to y1 at Agentofchaos
+build y1 at Lush
+build y2 at Agentofchaos
+move y1 from Lush to Smallblue (b1)
+convert y1 to g1 at Agentofchaos
+build y1 at Lush
+build g1 at Agentofchaos
+sacrifice g3 at Jonaskoelker; build y2 at Smallblue; build y3 at Jonaskoelker; build y3 at Lush
+convert g1 to b1 at Agentofchaos
+convert y1 to b1 at Smallblue
+build y1 at Agentofchaos
+convert y3 to g3 at Jonaskoelker
+move y1 from Agentofchaos to Superfreak (g1)
+build y3 at Jonaskoelker
+move y1 from Superfreak to Lush; catastrophe yellow at Lush
+move g3 from Jonaskoelker to Jeroboam
+move r2 from Jeroboam to Jehannum (y1)
+move y2 from Jonaskoelker to Large_Green (g3)
+build y1 at Agentofchaos

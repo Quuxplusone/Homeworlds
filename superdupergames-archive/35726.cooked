@@ -1,0 +1,54 @@
+Jerome (0, r1b2) g3-
+Bhorner (1, b1r3) -g3
+build g1 at Jerome
+build g1 at Bhorner
+convert g1 to y1 at Jerome
+convert g1 to b1 at Bhorner
+build y1 at Jerome
+convert b1 to y1 at Bhorner
+move y1 from Jerome to Alpha (g3)
+build y2 at Bhorner
+build y2 at Alpha
+move y1 from Bhorner to Bush (g2)
+move y2 from Alpha to Orion (g1)
+build g1 at Bhorner
+build g1 at Jerome
+build g2 at Bhorner
+build g2 at Jerome
+convert g1 to r1 at Bhorner
+convert g1 to b1 at Jerome
+move r1 from Bhorner to Bush
+move b1 from Jerome to Alpha
+move r1 from Bush to Alpha
+build y2 at Alpha
+build y3 at Bhorner
+convert y2 to r2 at Alpha
+build r1 at Alpha
+sacrifice r2 at Alpha; capture r1 at Alpha; capture r1 at Alpha
+convert y2 to r2 at Bhorner
+move r1 from Alpha to Orion
+build y2 at Bhorner
+build r2 at Alpha
+move y2 from Bhorner to Ocean (b2)
+build y2 at Orion
+sacrifice g2 at Bhorner; build y3 at Bush; build y3 at Ocean
+move r1 from Alpha to Sirius (g2)
+sacrifice y2 at Ocean; move y3 from Ocean to Orion; move y3 from Bush to Alpha
+move r2 from Alpha to Bush
+sacrifice r2 at Bhorner; capture y2 at Orion; capture r1 at Orion
+sacrifice r2 at Bush; capture r1 at Orion; capture y2 at Orion
+build y2 at Bhorner
+build r2 at Sirius
+move y2 from Bhorner to Puddle (b2)
+move y2 from Orion to Puddle
+move y2 from Puddle to Ocean (b3)
+build r2 at Orion
+convert y2 to r2 at Ocean
+build r3 at Sirius
+sacrifice r2 at Ocean; capture r2 at Orion; capture y2 at Orion
+sacrifice y1 at Alpha; move r3 from Sirius to Bhorner
+capture r3 at Bhorner
+sacrifice y2 at Puddle; move r2 from Sirius to Bhorner; move r1 from Sirius to Bhorner; catastrophe red at Bhorner
+sacrifice y3 at Orion; move g3 from Bhorner to Alpha; move g3 from Alpha to Jerome; move y3 from Alpha to Jerome
+build y1 at Jerome
+sacrifice r2 at Orion; capture g3 at Jerome; capture g2 at Jerome

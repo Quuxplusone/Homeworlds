@@ -1,0 +1,25 @@
+Zoltar (0, b3r2) g3-
+Goblin981 (1, y1b3) -g3
+build g1 at Zoltar
+build g1 at Goblin981
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Goblin981
+build y2 at Zoltar
+build g1 at Goblin981
+move y1 from Zoltar to Greenpea (g1)
+move g1 from Goblin981 to Chicken (y2)
+build y2 at Greenpea
+build g1 at Goblin981
+build y3 at Zoltar
+build g2 at Chicken
+build y3 at Zoltar
+convert g1 to b1 at Goblin981
+build y3 at Greenpea
+move y1 from Goblin981 to Chicken
+move y3 from Greenpea to Chicken
+move y1 from Chicken to Greenpea
+convert y3 to r3 at Zoltar
+build g1 at Goblin981
+move y3 from Chicken to Goblin981
+convert g1 to r1 at Goblin981
+sacrifice r3 at Zoltar; capture r1 at Goblin981; capture b1 at Goblin981; capture g3 at Goblin981

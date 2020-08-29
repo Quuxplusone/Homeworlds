@@ -1,0 +1,53 @@
+Madwuher (0, r1b3) g3-
+Danner (1, r1b2) -g3
+build g1 at Madwuher
+build g1 at Danner
+convert g1 to r1 at Madwuher
+convert g3 to r3 at Danner
+build r2 at Madwuher
+build r2 at Danner
+convert r2 to y2 at Madwuher
+convert r2 to y2 at Danner
+build r2 at Madwuher
+build r2 at Danner
+move r2 from Madwuher to Abydos (b2)
+move r2 from Danner to Dakara (y3)
+build y1 at Madwuher
+build y1 at Danner
+move r1 from Madwuher to Chulak (g2)
+sacrifice g1 at Danner; build r2 at Dakara
+sacrifice g3 at Madwuher; build r3 at Chulak; build r3 at Abydos; build y1 at Madwuher
+sacrifice y2 at Danner; move r2 from Dakara to Abydos; move r2 from Dakara to Abydos; catastrophe red at Abydos
+sacrifice y1 at Madwuher; move r3 from Chulak to Madwuher
+convert r3 to g3 at Danner
+build r2 at Chulak
+build y1 at Danner
+convert y1 to g1 at Madwuher
+move y1 from Danner to Tollana (g3)
+build r2 at Madwuher
+build g1 at Danner
+move r2 from Madwuher to Tartarus (g2)
+build y1 at Danner
+build y2 at Madwuher
+build y2 at Tollana
+move y2 from Madwuher to Tartarus
+sacrifice g3 at Danner; build y3 at Tollana; build y3 at Danner; build g1 at Danner
+build y3 at Tartarus
+move y3 from Tollana to Earth (b2)
+build g2 at Madwuher
+build g3 at Danner
+convert g2 to b2 at Madwuher
+move y3 from Danner to Abydos (g3)
+sacrifice y2 at Madwuher; move r2 from Chulak to Tollana; move b2 from Madwuher to Chulak
+move y2 from Tollana to Dakara (b1)
+build r2 at Chulak
+move g1 from Danner to Abydos
+capture y1 at Tollana
+convert y3 to r3 at Earth
+build r3 at Tollana
+build g2 at Danner
+sacrifice y3 at Tartarus; move g1 from Madwuher to Chulak; move g1 from Chulak to Abydos; move g1 from Abydos to Danner; catastrophe green at Danner
+sacrifice y1 at Danner; move y3 from Abydos to Danner
+sacrifice b2 at Chulak; convert r3 to y3 at Tollana; convert r3 to g3 at Madwuher
+sacrifice g1 at Abydos; build r3 at Earth
+sacrifice y2 at Tartarus; move y3 from Tollana to Danner; move y1 from Tollana to Danner; catastrophe yellow at Danner

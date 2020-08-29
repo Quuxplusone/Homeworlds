@@ -1,0 +1,16 @@
+Horowits (0, g2b1) r3-
+Matrixfrog (1, b3g2) -y3
+build r1 at Horowits
+build y1 at Matrixfrog
+convert r1 to y1 at Horowits
+move y1 from Matrixfrog to Bom (y1)
+build y2 at Horowits
+build y2 at Matrixfrog
+move y1 from Horowits to Gwar (g3)
+convert y2 to g2 at Matrixfrog
+build y2 at Gwar
+build g1 at Matrixfrog
+build r1 at Horowits
+build y2 at Matrixfrog
+convert r1 to g1 at Horowits
+move y1 from Bom to Zip (g3)

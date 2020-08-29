@@ -1,0 +1,25 @@
+Wil (0, b3y1) g3-
+Takvorian (1, r1b2) -g3
+build g1 at Wil
+build g1 at Takvorian
+move g1 from Wil to Y2 (y2)
+convert g1 to r1 at Takvorian
+build g1 at Y2
+build r1 at Takvorian
+build g1 at Wil
+build g2 at Takvorian
+move g1 from Y2 to B3 (b3)
+convert g2 to y2 at Takvorian
+build g2 at B3
+build y1 at Takvorian
+convert g2 to y2 at B3
+move r1 from Takvorian to Tb3 (b3)
+build g2 at Wil
+move y2 from Takvorian to B3
+move y2 from B3 to G2 (g2)
+build r2 at Takvorian
+sacrifice g3 at Wil; build g2 at Y2; build g3 at B3; build g3 at Wil
+build y1 at Takvorian
+build y3 at G2
+move y1 from Takvorian to Tb3
+convert g3 to r3 at B3

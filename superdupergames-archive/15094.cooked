@@ -1,0 +1,60 @@
+Maxl (0, b3r1) g3-
+Zackstack (1, b1r2) -g3
+build g1 at Maxl
+build g1 at Zackstack
+build g1 at Maxl
+build g2 at Zackstack
+convert g1 to y1 at Maxl
+convert g2 to y2 at Zackstack
+move g1 from Maxl to Jupiter (b2)
+move g1 from Zackstack to Zeus (b3)
+convert g1 to y1 at Jupiter
+build g1 at Zackstack
+build g1 at Maxl
+build g2 at Zeus
+move g1 from Maxl to Jupiter
+convert g1 to y1 at Zeus
+build y2 at Maxl
+build g1 at Zeus
+build g2 at Jupiter
+sacrifice g2 at Zeus; build y2 at Zackstack; build y3 at Zeus
+build y3 at Jupiter
+convert y3 to r3 at Zeus
+convert y1 to r1 at Jupiter
+move r3 from Zeus to Gaia (g2)
+build g2 at Maxl
+sacrifice g3 at Zackstack; build g3 at Zeus; build g3 at Zackstack; build r1 at Gaia
+build r2 at Jupiter
+move y1 from Zeus to Gaia
+move g2 from Maxl to Bluestar (b2)
+move y2 from Zackstack to Zeus
+move y1 from Maxl to Bluestar
+sacrifice g3 at Zackstack; build y1 at Zeus; build y3 at Gaia; build y3 at Zackstack
+sacrifice y2 at Maxl; move g1 from Jupiter to Zeus; move g2 from Jupiter to Zeus; catastrophe green at Zeus
+convert y2 to r2 at Zeus
+move r1 from Jupiter to Saturn (g1)
+move r2 from Zeus to Apollo (y2)
+build g1 at Maxl
+sacrifice g1 at Zackstack; build r3 at Apollo
+build r3 at Saturn
+move r3 from Apollo to Maxl
+capture r3 at Maxl
+sacrifice y2 at Zackstack; move r2 from Apollo to Maxl; move r1 from Gaia to Maxl; catastrophe red at Maxl
+build y2 at Bluestar
+convert y3 to g3 at Zackstack
+convert g1 to r1 at Maxl
+move y1 from Zeus to Zackstack
+move y1 from Bluestar to Saturn
+build y2 at Zackstack
+build g1 at Bluestar
+convert y1 to b1 at Zackstack
+build g1 at Maxl
+build b1 at Zackstack
+convert g1 to y1 at Maxl
+move b1 from Zackstack to Hera (y3)
+build y2 at Maxl
+move b1 from Hera to Gaia
+build y3 at Saturn
+build b2 at Gaia
+move g1 from Bluestar to Kefka (b3)
+sacrifice y3 at Gaia; move b2 from Gaia to Maxl; move b1 from Gaia to Maxl; move b1 from Zackstack to Maxl; catastrophe blue at Maxl

@@ -1,0 +1,55 @@
+Endo (0, b1y3) g3-
+Simon (1, b3r1) -g3
+build g1 at Endo
+build g1 at Simon
+convert g1 to b1 at Endo
+convert g1 to b1 at Simon
+build b2 at Endo
+build b2 at Simon
+move b1 from Endo to Compact (g2)
+convert b2 to y2 at Simon
+build b2 at Compact
+build b2 at Simon
+convert b2 to y2 at Endo
+sacrifice b1 at Simon; convert b2 to y2 at Simon
+convert b2 to r2 at Compact
+move y2 from Simon to G2 (g2)
+build r1 at Compact
+build y1 at G2
+move y2 from Endo to G2
+build y1 at Simon
+build b1 at Compact
+move y1 from Simon to B2 (b2)
+sacrifice r2 at Compact; capture y1 at G2; capture y2 at G2
+move y2 from Simon to G2; catastrophe yellow at G2
+build r1 at Compact
+build g1 at Simon
+build b2 at Compact
+convert g1 to y1 at Simon
+convert b2 to y2 at Compact
+build g1 at Simon
+build b2 at Compact
+build g1 at Simon
+build r2 at Compact
+move g1 from Simon to B2
+convert r2 to y2 at Compact
+sacrifice g3 at Simon; build y1 at B2; build y2 at B2; build y3 at Simon
+move b1 from Compact to Simon
+build g1 at B2
+sacrifice y2 at Compact; move b1 from Compact to Simon; move b2 from Compact to Simon; catastrophe blue at Simon
+build g2 at Simon
+move r1 from Compact to Endo
+build g2 at Simon
+build r2 at Compact
+move g1 from B2 to Endo
+build r2 at Compact
+sacrifice y3 at Simon; move g1 from Endo to Compact; move g1 from Simon to Compact; move g2 from Simon to Compact; catastrophe green at Compact
+build g1 at Endo
+build y2 at Simon
+build r1 at Endo
+move y2 from Simon to Y2 (y2)
+build r2 at Endo
+build y3 at Simon
+move r2 from Endo to B2
+sacrifice y2 at Y2; move y1 from B2 to Endo; move y1 from B2 to Endo
+capture y2 at B2

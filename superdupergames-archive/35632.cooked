@@ -1,0 +1,35 @@
+Rho0 (0, y2b3) g3-
+Maxlfusion (1, r3b2) -g3
+build g1 at Rho0
+build g1 at Maxlfusion
+convert g1 to y1 at Rho0
+convert g1 to y1 at Maxlfusion
+build g1 at Rho0
+build g1 at Maxlfusion
+convert g1 to b1 at Rho0
+convert g1 to b1 at Maxlfusion
+build g1 at Rho0
+build g1 at Maxlfusion
+move g1 from Rho0 to Beta (r1)
+move g1 from Maxlfusion to Alpha (r1)
+build b1 at Rho0
+build y1 at Maxlfusion
+build y2 at Rho0
+move y1 from Maxlfusion to Alpha
+move b1 from Rho0 to Beta
+move b1 from Maxlfusion to Alpha
+move y2 from Rho0 to Alpha
+build y2 at Maxlfusion
+capture y1 at Alpha
+sacrifice y1 at Maxlfusion; move b1 from Alpha to Rho0
+convert b1 to r1 at Rho0
+sacrifice g1 at Alpha; build b1 at Rho0
+sacrifice y1 at Alpha; move g1 from Beta to Gamma (y3)
+build g1 at Maxlfusion
+capture b1 at Rho0
+sacrifice g1 at Maxlfusion; build b2 at Rho0
+move b1 from Rho0 to Alpha
+sacrifice g3 at Maxlfusion; build b2 at Rho0; build b3 at Rho0; build y1 at Maxlfusion
+move y1 from Rho0 to Beta; catastrophe blue at Rho0
+convert y1 to g1 at Maxlfusion
+build r2 at Rho0

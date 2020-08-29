@@ -1,0 +1,41 @@
+Babamots (0, r1b3) g3-
+Amoscai (1, y1b2) -g3
+build g1 at Babamots
+build g1 at Amoscai
+convert g1 to y1 at Babamots
+convert g1 to y1 at Amoscai
+build y2 at Babamots
+build y2 at Amoscai
+build y2 at Babamots
+move y1 from Amoscai to Alpha (g3)
+move y2 from Babamots to Risa (g2)
+build y3 at Alpha
+build y3 at Risa
+convert y2 to r2 at Amoscai
+convert y2 to r2 at Babamots
+build r1 at Amoscai
+build y2 at Babamots
+move y1 from Alpha to Risa
+sacrifice r2 at Babamots; capture y1 at Risa
+move y3 from Alpha to Risa; catastrophe yellow at Risa
+build y1 at Babamots
+convert r2 to y2 at Amoscai
+move y1 from Babamots to Risa (g2)
+build r1 at Amoscai
+sacrifice g3 at Babamots; build y2 at Risa; build y3 at Risa; build y3 at Babamots
+build r2 at Amoscai
+convert y3 to g3 at Babamots
+build g1 at Amoscai
+build y3 at Babamots
+move r2 from Amoscai to Sira (y3)
+convert y2 to r2 at Babamots
+build r2 at Amoscai
+move r2 from Babamots to Risa
+move r1 from Amoscai to Sira
+move y3 from Risa to Sira
+move y2 from Amoscai to Sira
+sacrifice r2 at Risa; capture r2 at Sira; capture y2 at Sira
+move r1 from Sira to Risa
+build y2 at Risa
+convert r1 to b1 at Amoscai
+build g1 at Babamots

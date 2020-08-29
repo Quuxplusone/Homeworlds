@@ -1,0 +1,36 @@
+Twoshort (0, r1b2) g3-
+Wyons (1, b1r3) -g3
+build g1 at Twoshort
+build g1 at Wyons
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Wyons
+build g1 at Twoshort
+build g1 at Wyons
+convert g1 to b1 at Twoshort
+build y1 at Wyons
+build y2 at Twoshort
+build y2 at Wyons
+move y1 from Twoshort to Grogar (g3)
+move y1 from Wyons to Xanthrophyl (g2)
+build g1 at Twoshort
+convert y1 to b1 at Wyons
+build g1 at Twoshort
+build g2 at Wyons
+move g1 from Twoshort to Bluonia (b3)
+convert g1 to r1 at Wyons
+sacrifice g3 at Twoshort; build g1 at Twoshort; build g2 at Bluonia; build g3 at Twoshort
+sacrifice g3 at Wyons; build g3 at Wyons; build r1 at Wyons; build b2 at Wyons
+convert g2 to r2 at Bluonia
+move r1 from Wyons to Xanthrophyl
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g3 at Twoshort; build b2 at Twoshort
+move b2 from Wyons to Xanthrophyl
+sacrifice b2 at Twoshort; convert g1 to y1 at Twoshort; convert g2 to r2 at Bluonia
+move b1 from Wyons to Bluemeanies (b2)
+move y1 from Grogar to Grozuki (g2)
+sacrifice g2 at Wyons; build b3 at Bluemeanies; build b3 at Xanthrophyl
+sacrifice y2 at Twoshort; move b1 from Twoshort to Bluonia; move b1 from Bluonia to Bluemeanies; catastrophe blue at Bluemeanies
+convert b3 to g3 at Xanthrophyl
+sacrifice g3 at Twoshort; build g1 at Bluonia; build g2 at Bluonia; build g3 at Twoshort
+sacrifice g3 at Xanthrophyl; build g3 at Wyons; build r2 at Xanthrophyl; build r3 at Wyons
+convert g2 to y2 at Bluonia
+move r3 from Wyons to Grozuki

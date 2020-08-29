@@ -1,0 +1,33 @@
+Magicjohn (0, r1b2) g3-
+Adambadura (1, g3b2) -y3
+build g1 at Magicjohn
+build y1 at Adambadura
+build g1 at Magicjohn
+convert y1 to g1 at Adambadura
+convert g1 to y1 at Magicjohn
+build y1 at Adambadura
+convert g1 to b1 at Magicjohn
+build g1 at Adambadura
+build b1 at Magicjohn
+convert g1 to r1 at Adambadura
+build g1 at Magicjohn
+move y1 from Adambadura to Shipyard (g1)
+move g1 from Magicjohn to Kaline (y3)
+build g2 at Adambadura
+build g2 at Kaline
+move g2 from Adambadura to Outpost (y1)
+build y2 at Magicjohn
+build y2 at Shipyard
+move g2 from Kaline to Colavito (b1)
+convert g1 to r1 at Adambadura
+convert g2 to r2 at Colavito
+build y2 at Adambadura
+move y1 from Magicjohn to Kaline
+move y2 from Shipyard to Highway (y3)
+move b1 from Magicjohn to Kaline
+move r1 from Adambadura to Outpost
+sacrifice g3 at Magicjohn; build b2 at Kaline; build b3 at Kaline; build b3 at Magicjohn
+build r2 at Adambadura
+convert b3 to g3 at Magicjohn
+build r2 at Outpost
+convert b3 to r3 at Kaline

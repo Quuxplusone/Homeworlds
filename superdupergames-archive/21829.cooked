@@ -1,0 +1,32 @@
+Adambadura (0, g3b2) y3-
+Danner (1, b1r2) -g3
+build y1 at Adambadura
+build g1 at Danner
+convert y1 to g1 at Adambadura
+convert g1 to y1 at Danner
+build g1 at Adambadura
+build y1 at Danner
+convert g1 to r1 at Adambadura
+convert y1 to r1 at Danner
+build g1 at Adambadura
+build g1 at Danner
+convert g1 to b1 at Adambadura
+move g1 from Danner to Alpha (y3)
+build y1 at Adambadura
+build g1 at Alpha
+build g2 at Adambadura
+build g2 at Danner
+move g2 from Adambadura to Ontheway (y1)
+move g1 from Alpha to Ontheway
+build y2 at Adambadura
+sacrifice g3 at Danner; build g2 at Ontheway; build g3 at Alpha; build g3 at Danner
+build r1 at Adambadura
+move g2 from Ontheway to Adambadura
+sacrifice y2 at Adambadura; move g1 from Adambadura to Ontheway; move g1 from Ontheway to Alpha
+sacrifice g1 at Alpha; build g1 at Adambadura
+sacrifice r1 at Adambadura; capture g1 at Ontheway
+sacrifice r1 at Danner; capture r1 at Adambadura
+sacrifice y1 at Adambadura; move b1 from Adambadura to Ontheway
+convert g1 to b1 at Adambadura
+convert g2 to r2 at Ontheway
+sacrifice g3 at Alpha; build b2 at Adambadura; build b2 at Adambadura; build g1 at Adambadura; catastrophe blue at Adambadura

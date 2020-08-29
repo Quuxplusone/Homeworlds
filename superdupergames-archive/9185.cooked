@@ -1,0 +1,20 @@
+Mr_Shine (0, b1y3) g3-
+Mneme (1, r1b2) -g3
+build g1 at Mr_Shine
+build g1 at Mneme
+move g1 from Mr_Shine to Kobol (b2)
+convert g1 to y1 at Mneme
+build g1 at Mr_Shine
+build y1 at Mneme
+move g1 from Mr_Shine to Caprica (b2)
+build y1 at Mneme
+build g1 at Kobol
+build g2 at Mneme
+build g2 at Mr_Shine
+move y1 from Mneme to Rough (g3)
+build g2 at Caprica
+sacrifice g3 at Mneme; build g3 at Mneme; build y2 at Rough; build y2 at Mneme
+convert g2 to y2 at Caprica
+convert y1 to b1 at Mneme
+convert g1 to b1 at Kobol
+move b1 from Mneme to Rough

@@ -1,0 +1,62 @@
+Jeep (0, b1g2) y3-
+Sketchwick (1, b3r1) -g3
+build y1 at Jeep
+build g1 at Sketchwick
+convert y1 to g1 at Jeep
+convert g1 to y1 at Sketchwick
+build g1 at Jeep
+build g1 at Sketchwick
+convert g1 to r1 at Jeep
+move g1 from Sketchwick to Sun (y2)
+build r1 at Jeep
+build g1 at Sketchwick
+move r1 from Jeep to Daoghter (y3)
+build g2 at Sun
+build r2 at Jeep
+move g1 from Sun to Mum (b1)
+move r1 from Jeep to Pup (b3)
+sacrifice g3 at Sketchwick; build g2 at Mum; build g3 at Mum; build g3 at Sketchwick
+convert y3 to g3 at Jeep
+convert g2 to y2 at Mum
+sacrifice g3 at Jeep; build r2 at Daoghter; build r2 at Pup; build r3 at Jeep
+sacrifice g3 at Mum; build g2 at Sketchwick; build g3 at Mum; build g3 at Mum
+build r3 at Jeep
+convert g3 to r3 at Mum
+convert r2 to y2 at Jeep
+sacrifice g3 at Sketchwick; build g3 at Sketchwick; build g3 at Sun; build r2 at Mum
+sacrifice y2 at Jeep; move r1 from Pup to Mum; move r1 from Daoghter to Mum; catastrophe red at Mum
+convert g3 to r3 at Mum
+convert r3 to y3 at Jeep
+convert g2 to r2 at Sketchwick
+convert r2 to g2 at Pup
+build g3 at Mum
+convert g2 to y2 at Pup
+move g3 from Mum to Pup
+move y2 from Pup to Grans (g2)
+sacrifice g3 at Pup; build y1 at Sketchwick; build y1 at Sketchwick; build y3 at Mum
+move y2 from Grans to Sketchwick; catastrophe yellow at Sketchwick
+move g3 from Sun to Daoghter
+move r2 from Daoghter to Pup (y2)
+move g3 from Daoghter to Jeep
+capture g3 at Jeep
+sacrifice y2 at Mum; move g1 from Mum to Charge (y3); move g1 from Charge to Jeep; catastrophe green at Jeep
+convert y3 to g3 at Jeep
+move r3 from Mum to Pup
+sacrifice g3 at Jeep; build r1 at Pup; build r1 at Pup; build r2 at Jeep; catastrophe red at Pup
+build r1 at Sketchwick
+convert r2 to g2 at Jeep
+build g1 at Sun
+build r1 at Jeep
+move g2 from Sun to Sketchwick
+convert r3 to y3 at Jeep
+convert g2 to y2 at Sketchwick
+move g2 from Jeep to Sun
+move y3 from Mum to Sun
+sacrifice g2 at Sun; build y1 at Jeep; build r2 at Jeep
+move r2 from Sketchwick to Ender (y2)
+move r2 from Jeep to Valentine (g2)
+move g3 from Sketchwick to Valentine
+build r2 at Valentine
+sacrifice r2 at Ender; capture r2 at Valentine; capture r2 at Valentine
+convert y1 to g1 at Jeep
+sacrifice y2 at Sketchwick; move y3 from Sun to Jeep; move g3 from Valentine to Jeep

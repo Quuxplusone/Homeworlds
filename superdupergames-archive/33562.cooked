@@ -1,0 +1,17 @@
+Trydnt (0, y3b2) g3-
+Orl (1, b2r1) -g3
+build g1 at Trydnt
+build g1 at Orl
+convert g1 to r1 at Trydnt
+convert g1 to r1 at Orl
+build r2 at Trydnt
+build r2 at Orl
+build r2 at Trydnt
+convert r2 to y2 at Orl
+move r2 from Trydnt to G1 (g1)
+build g1 at Orl
+convert r1 to b1 at Trydnt
+move g1 from Orl to Y3 (y3)
+move b1 from Trydnt to G1
+build g1 at Y3
+build g2 at Trydnt

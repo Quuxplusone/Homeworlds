@@ -1,0 +1,38 @@
+Goblin981 (0, g1b2) y3-
+Twoshort (1, r1b3) -g3
+build y1 at Goblin981
+build g1 at Twoshort
+convert y1 to g1 at Goblin981
+build g2 at Twoshort
+build g2 at Goblin981
+convert g2 to y2 at Twoshort
+convert g2 to r2 at Goblin981
+build g2 at Twoshort
+build r1 at Goblin981
+move g1 from Twoshort to Bluestar (b2)
+move r2 from Goblin981 to Pxiii (y3)
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g2 at Bluestar; build g3 at Twoshort
+move g1 from Goblin981 to Pxiii
+convert g2 to r2 at Bluestar
+build y1 at Goblin981
+convert g2 to y2 at Bluestar
+move g1 from Pxiii to Reddy (r1)
+build g2 at Bluestar
+move r2 from Pxiii to Reddy
+move g2 from Bluestar to Greedy (g3)
+build r2 at Reddy
+move r2 from Bluestar to Reddy; catastrophe red at Reddy
+build r1 at Goblin981
+build g1 at Bluestar
+build r2 at Goblin981
+sacrifice g3 at Twoshort; build g2 at Bluestar; build g3 at Greedy; build g3 at Twoshort
+move r2 from Goblin981 to Greedy
+convert g2 to r2 at Bluestar
+capture g2 at Greedy
+sacrifice r2 at Bluestar; capture r2 at Greedy; capture g2 at Greedy
+build r2 at Goblin981
+sacrifice y2 at Bluestar; move r2 from Greedy to Goblin981; move g2 from Greedy to Goblin981; catastrophe red at Goblin981
+move y3 from Goblin981 to Greedy
+convert g2 to r2 at Twoshort
+move y3 from Greedy to Bluestar
+sacrifice r2 at Twoshort; capture y1 at Goblin981

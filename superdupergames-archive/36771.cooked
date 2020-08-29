@@ -1,0 +1,20 @@
+Layana (0, y3b2) g3-
+Babamots (1, b3y1) -g3
+build g1 at Layana
+build g1 at Babamots
+convert g3 to y3 at Layana
+convert g1 to y1 at Babamots
+build y1 at Layana
+move y1 from Babamots to Cardassia (g2)
+move y1 from Layana to Vulcan (g1)
+build y2 at Cardassia
+build y2 at Vulcan
+move y1 from Cardassia to Orion (g1)
+move y2 from Vulcan to Deneb (b2)
+build g2 at Babamots
+move y1 from Vulcan to Risa (y3)
+build y2 at Orion
+move y3 from Layana to Betazed (b1)
+convert g2 to r2 at Babamots
+convert y3 to r3 at Betazed
+build y3 at Cardassia

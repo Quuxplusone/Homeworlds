@@ -1,0 +1,46 @@
+Zoltar (0, y1b2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Zoltar
+build g1 at Twoshort
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Twoshort
+build y2 at Zoltar
+build y2 at Twoshort
+move y1 from Zoltar to Greenbelt (g3)
+move y1 from Twoshort to Twisty (g2)
+build g1 at Zoltar
+build g1 at Twoshort
+move y2 from Zoltar to Bloohoohoo (b3)
+move g1 from Twoshort to Grozilla (g2)
+convert g1 to r1 at Zoltar
+build g1 at Twoshort
+build r1 at Zoltar
+sacrifice g3 at Twoshort; build g1 at Grozilla; build g2 at Twoshort; build g3 at Twoshort
+build r2 at Zoltar
+sacrifice g3 at Twoshort; build y2 at Twisty; build y3 at Twoshort; build g3 at Twoshort
+build y3 at Greenbelt
+sacrifice y2 at Twoshort; move y1 from Twisty to Greenbelt; move y2 from Twisty to Greenbelt; catastrophe yellow at Greenbelt
+convert y2 to g2 at Bloohoohoo
+convert g2 to r2 at Twoshort
+convert r2 to y2 at Zoltar
+move g1 from Twoshort to Bluonia (b2)
+build r2 at Zoltar
+sacrifice g1 at Grozilla; build g1 at Twoshort
+move r1 from Zoltar to Goodgrief (g3)
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Bluonia; build y1 at Twoshort
+move r2 from Zoltar to Yuck (y3)
+move y1 from Twoshort to Bluestar (b2)
+sacrifice g3 at Zoltar; build r2 at Yuck; build r3 at Zoltar; build g3 at Bloohoohoo
+sacrifice g3 at Bluonia; build y1 at Bluestar; build y2 at Twoshort; build g3 at Bluonia
+sacrifice g3 at Bloohoohoo; build g3 at Bloohoohoo; build r3 at Goodgrief; build r3 at Zoltar
+sacrifice g3 at Bluonia; build g3 at Bluonia; build y2 at Twoshort; build y3 at Bluestar
+move r3 from Zoltar to Bloohoohoo
+move y2 from Twoshort to Bluonia
+move y2 from Zoltar to Bloohoohoo
+convert y1 to b1 at Bluestar
+convert g3 to b3 at Bloohoohoo
+convert g1 to b1 at Bluonia
+move r2 from Yuck to Grozilla
+sacrifice y2 at Twoshort; move b1 from Bluonia to Bloohoohoo; move b1 from Bluestar to Bloohoohoo; catastrophe blue at Bloohoohoo
+build r3 at Grozilla
+sacrifice g3 at Bluonia; build y1 at Twoshort; build y2 at Twoshort; build y2 at Bluonia

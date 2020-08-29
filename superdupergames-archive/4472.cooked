@@ -1,0 +1,19 @@
+Zoltar (0, y3b1) g3-
+Papipo (1, g2y1) -b3
+build g1 at Zoltar
+build b1 at Papipo
+convert g1 to b1 at Zoltar
+build b2 at Papipo
+build b2 at Zoltar
+convert b1 to y1 at Papipo
+convert b2 to y2 at Zoltar
+move y1 from Papipo to Gaia (g3)
+move y2 from Zoltar to Greenhills (g2)
+convert b2 to r2 at Papipo
+build g1 at Zoltar
+move r2 from Papipo to Gaia
+convert g1 to r1 at Zoltar
+build r1 at Gaia
+build g1 at Zoltar
+move r2 from Gaia to Greenhills
+sacrifice r1 at Zoltar; capture r2 at Greenhills

@@ -1,0 +1,67 @@
+Felix (0, r1b3) g3-
+Draw5Playall (1, b2r3) -g3
+build g1 at Felix
+build g1 at Draw5Playall
+convert g1 to y1 at Felix
+convert g1 to y1 at Draw5Playall
+build g1 at Felix
+build g1 at Draw5Playall
+convert g1 to r1 at Felix
+convert g1 to r1 at Draw5Playall
+build r2 at Felix
+build r2 at Draw5Playall
+move r2 from Felix to Out (b2)
+convert r2 to b2 at Draw5Playall
+build g1 at Felix
+move b2 from Draw5Playall to Whatelse (g1)
+move g1 from Felix to Out
+build b1 at Whatelse
+build r2 at Out
+convert b2 to y2 at Whatelse
+convert r2 to y2 at Out
+build b1 at Whatelse
+build r2 at Out
+move r1 from Draw5Playall to Whatelse
+move r2 from Out to Chronos (b1)
+build b2 at Whatelse
+build y1 at Out
+build y2 at Whatelse
+build y3 at Felix
+build y3 at Draw5Playall
+move y1 from Out to Chronos
+move b2 from Whatelse to Dontyoudare (y3)
+sacrifice g3 at Felix; build r2 at Felix; build r3 at Out; build r3 at Chronos
+build b3 at Whatelse
+move r1 from Felix to Windy (g2)
+move b1 from Whatelse to Draw5Playall
+convert r3 to g3 at Chronos
+convert b3 to r3 at Whatelse
+sacrifice y2 at Out; move r2 from Out to Whatelse; move r1 from Windy to Whatelse; catastrophe red at Whatelse
+convert y2 to r2 at Whatelse
+sacrifice y1 at Felix; move r3 from Out to Whatelse
+sacrifice g3 at Draw5Playall; build r1 at Whatelse; build r1 at Whatelse; build b3 at Dontyoudare; catastrophe red at Whatelse
+move g3 from Chronos to Dontyoudare
+move b3 from Dontyoudare to Enteranddie (r1)
+sacrifice g1 at Out; build y1 at Chronos
+sacrifice b2 at Dontyoudare; convert y3 to g3 at Draw5Playall; convert b1 to r1 at Draw5Playall
+move g3 from Dontyoudare to Whatelse
+move y2 from Whatelse to Leavemealone (g2)
+convert y1 to g1 at Chronos
+build y1 at Leavemealone
+build y2 at Chronos
+sacrifice b1 at Whatelse; convert y2 to r2 at Leavemealone
+build r3 at Chronos
+build r3 at Leavemealone
+sacrifice y2 at Chronos; move r2 from Chronos to Draw5Playall; move r3 from Chronos to Draw5Playall; catastrophe red at Draw5Playall
+build y2 at Draw5Playall
+convert r2 to g2 at Felix
+convert y1 to b1 at Draw5Playall
+build g1 at Felix
+move b1 from Draw5Playall to Enteranddie
+build g2 at Chronos
+convert b3 to g3 at Enteranddie
+convert g2 to b2 at Chronos
+build b1 at Enteranddie
+sacrifice b2 at Chronos; convert g2 to b2 at Felix; convert g3 to b3 at Whatelse
+build b2 at Enteranddie
+build b3 at Whatelse

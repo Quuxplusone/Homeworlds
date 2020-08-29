@@ -1,0 +1,32 @@
+Panglott (0, g3b2) r3-
+Wil (1, y3b1) -g3
+build r1 at Panglott
+build g1 at Wil
+convert r1 to y1 at Panglott
+convert g1 to b1 at Wil
+build r1 at Panglott
+build b1 at Wil
+build y1 at Panglott
+move b1 from Wil to G2 (g2)
+build y1 at Panglott
+sacrifice g3 at Wil; build b2 at G2; build b2 at G2; build b3 at Wil
+move y1 from Panglott to Pleidy (r1)
+convert b2 to r2 at G2
+build y2 at Panglott
+convert b2 to y2 at G2
+move y2 from Panglott to Pleidy
+build b2 at G2
+build y2 at Panglott
+build y3 at G2
+move y1 from Pleidy to Plaits (r2)
+move y2 from G2 to G1 (g1)
+move y1 from Panglott to Pleidy
+build y3 at G1
+sacrifice y2 at Pleidy; move y1 from Panglott to Pleidy; move y1 from Pleidy to Whisker (r2)
+build y2 at G2
+move y1 from Pleidy to Plaits
+convert b3 to r3 at Wil
+sacrifice y2 at Panglott; move y1 from Plaits to Wil; move y1 from Plaits to Wil
+capture y1 at Wil
+move y1 from Whisker to Wil; catastrophe yellow at Wil
+sacrifice y3 at G2; move r2 from G2 to Wil; move r2 from Wil to Panglott; move r3 from Wil to Panglott; catastrophe red at Panglott

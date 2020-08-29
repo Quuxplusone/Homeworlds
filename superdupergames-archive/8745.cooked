@@ -1,0 +1,41 @@
+Mikeyarrum (0, r3b2) g3-
+Dadrk (1, b1g2) -r3
+build g1 at Mikeyarrum
+build r1 at Dadrk
+convert g1 to y1 at Mikeyarrum
+build r1 at Dadrk
+build y1 at Mikeyarrum
+convert r1 to y1 at Dadrk
+build y2 at Mikeyarrum
+move r1 from Dadrk to Frst (g3)
+convert y1 to r1 at Mikeyarrum
+build y1 at Dadrk
+build y2 at Mikeyarrum
+build y2 at Dadrk
+move y1 from Mikeyarrum to Osaka (g1)
+convert y1 to g1 at Dadrk
+move r1 from Mikeyarrum to Osaka
+move g1 from Dadrk to Scnd (b3)
+move y1 from Osaka to Kagura (g3)
+build g1 at Scnd
+build y1 at Mikeyarrum
+build g2 at Scnd
+build y3 at Kagura
+move y1 from Dadrk to Kagura
+move y3 from Kagura to Tomo (b2)
+sacrifice y2 at Dadrk; move y1 from Kagura to Osaka; move y1 from Osaka to Mikeyarrum; catastrophe yellow at Mikeyarrum
+build y1 at Kagura
+convert g1 to y1 at Scnd
+move y1 from Kagura to Osaka
+move g2 from Scnd to Thrd (r1)
+build y2 at Kagura
+build g1 at Thrd
+build g2 at Mikeyarrum
+convert r3 to y3 at Dadrk
+build y2 at Kagura
+convert y3 to r3 at Dadrk
+sacrifice g3 at Mikeyarrum; build y2 at Osaka; build r2 at Osaka; build g3 at Mikeyarrum
+build r2 at Dadrk
+move r2 from Osaka to Scnd
+move y1 from Scnd to Thrd
+sacrifice y1 at Kagura; move r2 from Scnd to Dadrk

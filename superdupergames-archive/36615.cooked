@@ -1,0 +1,27 @@
+Goulo (0, b3r2) g3-
+Bhorner (1, r2b1) -g3
+build g1 at Goulo
+build g1 at Bhorner
+convert g1 to y1 at Goulo
+convert g1 to y1 at Bhorner
+build g1 at Goulo
+build g1 at Bhorner
+convert g1 to r1 at Goulo
+convert g1 to r1 at Bhorner
+build g1 at Goulo
+build g1 at Bhorner
+convert g1 to b1 at Goulo
+build g1 at Bhorner
+build g1 at Goulo
+convert g1 to b1 at Bhorner
+build b2 at Goulo
+build b2 at Bhorner
+move b2 from Goulo to Flaveto (y1)
+convert b1 to g1 at Bhorner
+build g2 at Goulo
+build y2 at Bhorner
+move g2 from Goulo to Flaveto
+move g1 from Bhorner to Bright (y3)
+build y2 at Goulo
+move y1 from Bhorner to Tree (g3)
+move y1 from Goulo to Blueto (b1)

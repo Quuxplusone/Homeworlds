@@ -1,0 +1,12 @@
+Paul98 (0, g2b1) y3-
+Andylooney (1, b3g2) -y3
+build y1 at Paul98
+build y1 at Andylooney
+move y1 from Paul98 to Fluxx (b3)
+convert y1 to g1 at Andylooney
+convert y1 to g1 at Fluxx
+move g1 from Andylooney to Mellow (y1)
+build g1 at Fluxx
+build g2 at Mellow
+build y1 at Paul98
+move g2 from Mellow to Lacanna (y3)

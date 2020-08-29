@@ -1,0 +1,51 @@
+Roguejedi234 (0, b3g2) y3-
+Krazykyle2011 (1, b3g1) -r3
+build y1 at Roguejedi234
+build r1 at Krazykyle2011
+build y1 at Roguejedi234
+convert r1 to y1 at Krazykyle2011
+move y1 from Roguejedi234 to Alpha1 (g1)
+build y2 at Krazykyle2011
+build y2 at Roguejedi234
+build y2 at Krazykyle2011
+convert y2 to b2 at Roguejedi234
+move y2 from Krazykyle2011 to Beta2 (b2)
+move b2 from Roguejedi234 to Alpha1
+move y2 from Krazykyle2011 to Beta2
+build y2 at Alpha1
+convert y2 to g2 at Beta2
+convert y2 to g2 at Alpha1
+build r1 at Krazykyle2011
+build g1 at Alpha1
+move r1 from Krazykyle2011 to Beta2
+build y2 at Roguejedi234
+move r1 from Beta2 to Alpha1
+convert y2 to r2 at Roguejedi234
+move y2 from Beta2 to Alpha1
+sacrifice r2 at Roguejedi234; capture r1 at Alpha1; capture y2 at Alpha1
+build y2 at Krazykyle2011
+move g2 from Alpha1 to Roguejedi234
+move y2 from Krazykyle2011 to Beta2
+convert y1 to r1 at Roguejedi234
+move g2 from Beta2 to Delta (b1)
+sacrifice y2 at Alpha1; move r1 from Alpha1 to Beta2; move b2 from Alpha1 to Beta2
+move y2 from Beta2 to Delta
+sacrifice g2 at Roguejedi234; build r1 at Beta2; build r2 at Beta2
+build g2 at Delta
+move g1 from Alpha1 to Beta2
+convert g2 to r2 at Delta
+build y1 at Alpha1
+move r3 from Krazykyle2011 to Beta2
+sacrifice y1 at Alpha1; move r2 from Beta2 to Krazykyle2011
+build y1 at Krazykyle2011
+convert r2 to g2 at Krazykyle2011
+sacrifice y2 at Delta; move r3 from Beta2 to Krazykyle2011; move y1 from Krazykyle2011 to Beta2
+build g3 at Krazykyle2011
+build g3 at Delta
+build g3 at Krazykyle2011; catastrophe green at Krazykyle2011
+sacrifice y1 at Beta2; move g3 from Delta to Gamma (b3)
+build b1 at Beta2
+build g1 at Gamma
+build b1 at Beta2
+convert r2 to y2 at Delta
+sacrifice y3 at Roguejedi234; move b1 from Beta2 to Krazykyle2011; move b2 from Beta2 to Krazykyle2011; move b1 from Beta2 to Krazykyle2011; catastrophe blue at Krazykyle2011

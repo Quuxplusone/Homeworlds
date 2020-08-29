@@ -1,0 +1,15 @@
+Mneme (0, y2b1) g3-
+Zoltar (1, r1b3) -g3
+build g1 at Mneme
+build g1 at Zoltar
+move g1 from Mneme to Emerald (b3)
+convert g3 to y3 at Zoltar
+build g1 at Emerald
+build g2 at Zoltar
+build g2 at Mneme
+move g1 from Zoltar to Yellowstone (y2)
+convert g1 to y1 at Emerald
+build y1 at Zoltar
+move g2 from Mneme to Jade (g3)
+convert y1 to r1 at Zoltar
+build g1 at Mneme

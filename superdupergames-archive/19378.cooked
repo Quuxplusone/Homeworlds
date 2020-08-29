@@ -1,0 +1,53 @@
+Ajo (0, b3r2) g3-
+Silenttitan (1, b1r2) -g3
+build g1 at Ajo
+build g1 at Silenttitan
+convert g3 to y3 at Ajo
+convert g1 to y1 at Silenttitan
+build y1 at Ajo
+build g1 at Silenttitan
+move y1 from Ajo to Alpha (b1)
+convert g1 to b1 at Silenttitan
+build g1 at Ajo
+build b2 at Silenttitan
+move g1 from Ajo to Alpha
+move b2 from Silenttitan to Glomar (g3)
+build y1 at Ajo
+build b2 at Glomar
+build y2 at Alpha
+build b2 at Glomar
+convert y2 to r2 at Alpha
+convert y1 to r1 at Silenttitan
+build y1 at Alpha
+build b3 at Silenttitan
+build y2 at Ajo
+convert b2 to y2 at Glomar
+convert y2 to b2 at Ajo
+convert b3 to y3 at Silenttitan
+move b2 from Ajo to Beta (g1)
+move b1 from Silenttitan to Glory (g3)
+build b3 at Beta
+sacrifice y2 at Glomar; move b2 from Glomar to Beta; move b1 from Glory to Beta; catastrophe blue at Beta
+build y2 at Alpha
+convert b2 to y2 at Glomar
+move y1 from Alpha to Beta (g3)
+move g3 from Silenttitan to Sol (y3)
+build y2 at Beta
+build g1 at Sol
+build g2 at Alpha
+move g1 from Sol to Silenttitan
+build g2 at Ajo
+build r1 at Silenttitan
+sacrifice y2 at Alpha; move r2 from Alpha to Beta; move r2 from Beta to Silenttitan; catastrophe red at Silenttitan
+sacrifice g3 at Sol; build y2 at Silenttitan; build y3 at Glomar; build g2 at Silenttitan
+convert y3 to r3 at Ajo
+convert y2 to r2 at Silenttitan
+sacrifice g2 at Alpha; build y2 at Alpha; build y3 at Ajo
+build r1 at Silenttitan
+convert y1 to b1 at Alpha
+move y3 from Glomar to Alpha
+sacrifice y2 at Alpha; move b1 from Alpha to Gamma (y2); move g1 from Alpha to Gamma
+move g1 from Silenttitan to Ajo
+sacrifice g2 at Ajo; build b2 at Gamma; build b2 at Gamma
+sacrifice y3 at Alpha; move y2 from Glomar to Silenttitan; move y2 from Silenttitan to Ajo; move y3 from Silenttitan to Ajo; catastrophe yellow at Ajo
+sacrifice y2 at Beta; move b1 from Gamma to Silenttitan; move b2 from Gamma to Silenttitan

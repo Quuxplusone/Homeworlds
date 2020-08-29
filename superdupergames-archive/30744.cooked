@@ -1,0 +1,80 @@
+Zeder (0, g3b2) y3-
+Dragon76N (1, b3y2) -g3
+build y1 at Zeder
+build g1 at Dragon76N
+convert y1 to g1 at Zeder
+convert g1 to y1 at Dragon76N
+build g1 at Zeder
+build y1 at Dragon76N
+move g1 from Zeder to Poker (y1)
+convert y1 to r1 at Dragon76N
+convert g1 to r1 at Zeder
+build g1 at Dragon76N
+convert r1 to b1 at Zeder
+move r1 from Dragon76N to Poker
+move g1 from Poker to Gin (y2)
+convert g1 to b1 at Dragon76N
+convert b1 to r1 at Zeder
+build g1 at Dragon76N
+build y1 at Zeder
+move g1 from Dragon76N to Poker
+build y2 at Zeder
+move y1 from Dragon76N to Poker
+move y2 from Zeder to Poker
+move r1 from Poker to Gin
+sacrifice r1 at Zeder; capture r1 at Gin
+move y1 from Poker to Zeder
+convert y1 to r1 at Zeder
+build y1 at Zeder
+capture y1 at Zeder
+build y3 at Zeder; catastrophe yellow at Zeder
+build r1 at Zeder
+move g1 from Poker to Blutwo (b2)
+build r2 at Zeder
+build b1 at Dragon76N
+build r2 at Gin
+convert b1 to y1 at Dragon76N
+build r2 at Gin
+convert g3 to r3 at Dragon76N
+move r2 from Gin to Hearts (y1)
+sacrifice g1 at Blutwo; build r3 at Dragon76N
+build r3 at Gin
+move r3 from Dragon76N to Poker
+move y2 from Poker to Zeder
+move r3 from Poker to Zeder; catastrophe red at Zeder
+move r3 from Gin to Hearts
+convert b1 to g1 at Dragon76N
+build y1 at Zeder
+move y1 from Dragon76N to Greone (g1)
+convert y2 to g2 at Zeder
+build y2 at Greone
+move r2 from Gin to Greone
+build y3 at Greone
+move y1 from Zeder to Greone; catastrophe yellow at Greone
+build g2 at Dragon76N
+move g1 from Gin to Hearts
+convert g2 to y2 at Dragon76N
+build g2 at Hearts
+build y1 at Dragon76N
+move r1 from Gin to Greone
+move y2 from Dragon76N to Redone (r1)
+convert g2 to y2 at Zeder
+build g2 at Dragon76N
+move r3 from Hearts to Zeder
+move g1 from Dragon76N to Redone
+build r1 at Hearts
+build g2 at Redone
+sacrifice y2 at Zeder; move r2 from Greone to Dragon76N; move r1 from Greone to Dragon76N
+sacrifice r3 at Dragon76N; capture r2 at Dragon76N; capture r1 at Dragon76N
+build r2 at Zeder
+move g2 from Redone to Yeltwo (y2)
+convert r2 to b2 at Zeder
+build g1 at Dragon76N
+move g2 from Hearts to Steak (b2)
+build y1 at Redone
+build g3 at Steak
+build g3 at Redone
+sacrifice g3 at Steak; build g3 at Hearts; build r2 at Zeder; build r3 at Zeder
+sacrifice y2 at Redone; move r1 from Dragon76N to Redone; move r1 from Redone to Zeder; catastrophe red at Zeder
+move g3 from Hearts to Dragon76N
+move g1 from Redone to Dragon76N; catastrophe green at Dragon76N

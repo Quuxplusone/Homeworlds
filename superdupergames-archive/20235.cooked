@@ -1,0 +1,50 @@
+Silenttitan (0, r2b3) g3-
+Twoshort (1, r1b2) -g3
+build g1 at Silenttitan
+build g1 at Twoshort
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Twoshort
+build g1 at Silenttitan
+build g1 at Twoshort
+move g1 from Silenttitan to Sol (y1)
+build y2 at Twoshort
+build y2 at Silenttitan
+move g1 from Twoshort to Yolonda (y3)
+move y1 from Silenttitan to Tear (b1)
+move y1 from Twoshort to Bluonia (b3)
+sacrifice g1 at Sol; build y1 at Tear
+build g1 at Twoshort
+move y1 from Tear to Zone (b3)
+move g1 from Twoshort to Yoyodyne (y3)
+convert y1 to g1 at Zone
+build g2 at Twoshort
+build g2 at Zone
+move g2 from Twoshort to Yellonia (y3)
+convert g2 to y2 at Zone
+sacrifice g2 at Yellonia; build y1 at Bluonia; build y3 at Twoshort
+build g2 at Zone
+move y1 from Bluonia to Bonanza (b1)
+convert g2 to r2 at Zone
+sacrifice g1 at Yolonda; build y3 at Bonanza
+build r1 at Zone
+sacrifice g1 at Yoyodyne; build y3 at Bluonia
+build g1 at Silenttitan
+convert y1 to g1 at Bonanza
+build y1 at Zone
+build g2 at Bonanza
+move g1 from Silenttitan to Bonanza
+convert g2 to r2 at Bonanza
+sacrifice g1 at Bonanza; build g1 at Zone
+build g2 at Bonanza
+build r1 at Zone
+move r2 from Bonanza to Zone; catastrophe red at Zone
+sacrifice y2 at Zone; move g1 from Zone to Twoshort; move g1 from Zone to Twoshort
+convert g3 to r3 at Twoshort
+convert y2 to r2 at Silenttitan
+build g2 at Bonanza
+convert g1 to r1 at Twoshort
+sacrifice y3 at Bluonia; move g1 from Bonanza to Silenttitan; move g2 from Bonanza to Silenttitan; move g2 from Bonanza to Silenttitan; catastrophe green at Silenttitan
+build r1 at Twoshort; catastrophe red at Twoshort
+move y3 from Bonanza to Silenttitan
+move y1 from Zone to Twoshort
+capture r2 at Silenttitan

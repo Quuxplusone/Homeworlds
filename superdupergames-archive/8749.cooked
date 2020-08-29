@@ -1,0 +1,59 @@
+Twoshort (0, r3b1) g3-
+Mneme (1, r1g2) -b3
+build g1 at Twoshort
+build b1 at Mneme
+convert g1 to b1 at Twoshort
+build b2 at Mneme
+build b2 at Twoshort
+convert b3 to y3 at Mneme
+convert b2 to y2 at Twoshort
+convert b2 to g2 at Mneme
+build b2 at Twoshort
+build b2 at Mneme
+move b1 from Twoshort to Grogar (g2)
+move b2 from Mneme to Apple (g3)
+build g1 at Twoshort
+build y1 at Mneme
+move g1 from Twoshort to Yolonda (y2)
+move y1 from Mneme to Apple
+build g1 at Twoshort
+move g2 from Mneme to Stash (g3)
+sacrifice g3 at Twoshort; build g1 at Yolonda; build g3 at Twoshort; build y1 at Twoshort
+build y1 at Mneme
+move y1 from Twoshort to Grogar
+sacrifice g2 at Stash; build b2 at Apple; build b3 at Mneme
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Yolonda; build g3 at Twoshort
+convert b2 to r2 at Apple
+sacrifice g3 at Yolonda; build g3 at Yolonda; build y2 at Grogar; build y3 at Twoshort
+build y3 at Apple
+sacrifice y2 at Twoshort; move y1 from Grogar to Apple; move y2 from Grogar to Apple; catastrophe yellow at Apple
+move y1 from Mneme to Apple
+convert g2 to r2 at Twoshort
+build y1 at Apple
+sacrifice g3 at Yolonda; build g2 at Yolonda; build g3 at Twoshort; build y1 at Twoshort
+build y2 at Mneme
+move y1 from Twoshort to Grogar
+move b3 from Mneme to Winter (y3)
+build y2 at Grogar
+build r1 at Apple
+move y1 from Grogar to Bluestar (b3)
+move b3 from Winter to Yolonda
+sacrifice y3 at Twoshort; move g1 from Yolonda to Apple; move g1 from Yolonda to Apple; move g2 from Yolonda to Apple; catastrophe green at Apple
+convert b3 to g3 at Yolonda
+convert g3 to y3 at Twoshort
+build g1 at Yolonda
+sacrifice g3 at Twoshort; build y1 at Grogar; build y1 at Bluestar; build y3 at Twoshort
+build b2 at Mneme
+sacrifice y2 at Grogar; move y1 from Bluestar to Mneme; move y1 from Bluestar to Mneme; catastrophe yellow at Mneme
+convert b2 to y2 at Mneme
+move y3 from Twoshort to Yolonda
+move g3 from Yolonda to Tmp (y3)
+move y3 from Yolonda to Boom (b3)
+move g3 from Tmp to Mneme
+convert y3 to g3 at Boom
+build b2 at Mneme
+build g1 at Boom
+move b2 from Mneme to Jacinth (y3)
+move b2 from Twoshort to Yolonda
+sacrifice g3 at Mneme; build b2 at Mneme; build b3 at Mneme; build b3 at Jacinth
+sacrifice y3 at Twoshort; move g3 from Boom to Mneme; move b1 from Grogar to Boom; move b1 from Boom to Mneme; catastrophe blue at Mneme

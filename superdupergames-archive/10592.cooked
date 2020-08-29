@@ -1,0 +1,14 @@
+Benji_Stein (0, b1g3) y3-
+Jesse (1, b3g2) -y3
+build y1 at Benji_Stein
+build y1 at Jesse
+convert y1 to b1 at Benji_Stein
+convert y1 to b1 at Jesse
+build b2 at Benji_Stein
+build b2 at Jesse
+sacrifice y3 at Benji_Stein; move b1 from Benji_Stein to Goes (y2); move b1 from Goes to Boom (y1); move b1 from Boom to Jesse; catastrophe blue at Jesse
+build y1 at Jesse
+build b1 at Benji_Stein
+move y3 from Jesse to Benji_Stein
+convert b2 to g2 at Benji_Stein
+convert y3 to r3 at Benji_Stein

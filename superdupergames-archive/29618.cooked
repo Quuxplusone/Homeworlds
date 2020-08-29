@@ -1,0 +1,35 @@
+Felix (0, b3y2) g3-
+Steele (1, g3y1) -b3
+build g1 at Felix
+build b1 at Steele
+convert g1 to b1 at Felix
+convert b3 to g3 at Steele
+build g1 at Felix
+build g1 at Steele
+convert g1 to y1 at Felix
+convert b1 to y1 at Steele
+build b1 at Felix
+move g1 from Steele to Alpha (b2)
+move b1 from Felix to Orpheus (g1)
+build y2 at Steele
+build y2 at Felix
+build g1 at Alpha
+move y1 from Felix to Orpheus
+build g2 at Alpha
+build y3 at Orpheus
+move y1 from Steele to Alpha
+move y1 from Orpheus to Mikal (g2)
+convert g2 to b2 at Alpha
+build y3 at Mikal
+move b2 from Alpha to Steele
+build b1 at Orpheus
+build g2 at Steele
+build g2 at Felix
+sacrifice g3 at Steele; build g3 at Steele; build y3 at Alpha; build b2 at Steele
+move b1 from Orpheus to Mikal
+move y2 from Steele to Beta (r2)
+build b3 at Orpheus
+move y2 from Beta to Gamma (r1)
+sacrifice y3 at Orpheus; move g2 from Felix to Orpheus; move g2 from Orpheus to Mikal; move g2 from Mikal to Steele; catastrophe green at Steele
+sacrifice y3 at Alpha; move y1 from Alpha to Gamma; move y1 from Gamma to Felix; move y2 from Gamma to Felix; catastrophe yellow at Felix
+sacrifice y3 at Mikal; move b1 from Mikal to Steele; move b1 from Felix to Steele; catastrophe blue at Steele

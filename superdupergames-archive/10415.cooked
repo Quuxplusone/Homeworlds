@@ -1,0 +1,11 @@
+Jeep (0, b3y1) g3-
+Random56 (1, b1g2) -r3
+build g1 at Jeep
+build r1 at Random56
+build g1 at Jeep
+convert r1 to y1 at Random56
+move g1 from Jeep to Mover (y2)
+build y1 at Random56
+build g1 at Mover
+move y1 from Random56 to Omacron (g3)
+move g1 from Mover to Changer (b3)

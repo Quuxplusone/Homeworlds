@@ -1,0 +1,56 @@
+Remneb (0, b1r3) g3-
+Wil (1, b2y1) -g3
+build g1 at Remneb
+build g1 at Wil
+convert g1 to y1 at Remneb
+convert g1 to b1 at Wil
+convert y1 to b1 at Remneb
+build b2 at Wil
+build g1 at Remneb
+move b1 from Wil to Y3 (y3)
+convert g1 to y1 at Remneb
+convert b2 to y2 at Wil
+move b1 from Remneb to Bronx (g2)
+move b1 from Y3 to Bronx
+build b2 at Bronx
+build b2 at Bronx; catastrophe blue at Bronx
+build g1 at Remneb
+build g1 at Wil
+convert g1 to b1 at Remneb
+convert g1 to b1 at Wil
+move b1 from Remneb to King (g2)
+build b2 at Wil
+build b2 at King
+convert b1 to r1 at Wil
+build g1 at Remneb
+build b1 at Wil
+sacrifice y1 at Remneb; move b2 from King to Kong (y3)
+move b2 from Wil to Kong
+move b2 from Kong to Hydra (y2)
+move b2 from Kong to King
+build b3 at King
+build b3 at Wil
+convert b3 to r3 at King
+move b3 from Wil to G3 (g3)
+capture b2 at King
+sacrifice g3 at Wil; build b3 at Wil; build b3 at G3; build r1 at Wil
+convert g1 to y1 at Remneb
+move y2 from Wil to G3
+convert b2 to y2 at King
+convert b3 to g3 at Wil
+build b2 at King
+convert b3 to y3 at G3
+sacrifice g3 at Remneb; build y1 at King; build y3 at Remneb; build b3 at Hydra
+build b3 at G3
+convert b2 to r2 at Hydra
+convert b3 to r3 at G3
+move b1 from King to Trump (y3)
+move y3 from G3 to G2 (g2)
+move b2 from King to Trump
+move b1 from Wil to Gee3 (g3)
+build r1 at King
+move y2 from G3 to R2 (r2)
+move b1 from Trump to King
+move y3 from G2 to Remneb
+sacrifice y1 at Remneb; move r3 from King to Remneb
+sacrifice r3 at G3; capture r3 at Remneb; capture y3 at Remneb

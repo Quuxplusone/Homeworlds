@@ -1,0 +1,93 @@
+Agentofchaos (0, r1b3) g3-
+Pedrop (1, y1b2) -g3
+build g1 at Agentofchaos
+build g1 at Pedrop
+convert g1 to y1 at Agentofchaos
+convert g1 to y1 at Pedrop
+build y2 at Agentofchaos
+build y2 at Pedrop
+build g1 at Agentofchaos
+move y2 from Pedrop to Blues (b3)
+move y2 from Agentofchaos to Kantele (g2)
+move y1 from Pedrop to Blues
+build g1 at Agentofchaos
+convert y1 to b1 at Blues
+move g1 from Agentofchaos to Squid (y2)
+move b1 from Blues to Pedrop
+build g1 at Squid
+build g2 at Pedrop
+move g1 from Squid to Kalki (y3)
+move g2 from Pedrop to Blues
+sacrifice g3 at Agentofchaos; build g2 at Kalki; build g3 at Agentofchaos; build y1 at Kantele
+sacrifice g2 at Blues; build y3 at Blues; build y3 at Blues
+move y1 from Kantele to Blues; catastrophe yellow at Blues
+build b1 at Pedrop
+sacrifice g3 at Agentofchaos; build g2 at Squid; build g3 at Squid; build g3 at Agentofchaos
+convert b1 to y1 at Pedrop
+sacrifice g3 at Agentofchaos; build y2 at Agentofchaos; build y3 at Agentofchaos; build g3 at Agentofchaos
+move b1 from Pedrop to Hard (y3)
+convert g1 to b1 at Agentofchaos
+build g1 at Pedrop
+move b1 from Agentofchaos to Squid
+convert y1 to r1 at Pedrop
+build y1 at Kantele
+sacrifice g3 at Pedrop; build r1 at Pedrop; build r2 at Pedrop; build g3 at Pedrop
+build b1 at Squid
+move r1 from Pedrop to Kalki
+move b1 from Squid to Kalki
+sacrifice g3 at Pedrop; build r2 at Pedrop; build r2 at Kalki; build g3 at Pedrop
+sacrifice y3 at Agentofchaos; move g1 from Kalki to Pedrop; move g2 from Kalki to Pedrop; move b1 from Kalki to Kantele; catastrophe green at Pedrop
+convert b1 to g1 at Hard
+convert g3 to r3 at Squid
+move r2 from Kalki to Kantele
+sacrifice r3 at Squid; capture r2 at Kantele
+convert r1 to g1 at Pedrop
+build y3 at Agentofchaos
+build g2 at Hard
+build g3 at Agentofchaos
+build g3 at Pedrop
+convert b1 to r1 at Squid
+convert r2 to b2 at Pedrop
+sacrifice g3 at Agentofchaos; build r2 at Squid; build r3 at Kantele; build g3 at Agentofchaos
+sacrifice g3 at Pedrop; build r3 at Pedrop; build r3 at Kalki; build g3 at Pedrop
+move y3 from Agentofchaos to Squid
+move r3 from Pedrop to Hard
+sacrifice y2 at Kantele; move r2 from Kantele to Kalki; move r1 from Squid to Kalki; catastrophe red at Kalki
+convert b2 to y2 at Pedrop
+sacrifice g3 at Agentofchaos; build y3 at Kantele; build b1 at Kantele; build g3 at Agentofchaos
+build r1 at Pedrop
+sacrifice g3 at Agentofchaos; build r1 at Squid; build b1 at Kantele; build g3 at Agentofchaos
+convert r2 to b2 at Pedrop
+move b1 from Kantele to Juvar (b3)
+move b2 from Pedrop to Hard
+build r2 at Kantele
+sacrifice g3 at Pedrop; build g3 at Pedrop; build r2 at Hard; build r3 at Pedrop
+move r3 from Kantele to Juvar
+move r2 from Hard to Never (b2)
+move g1 from Squid to Oa (b3)
+move r3 from Pedrop to Hard
+move b1 from Kantele to Oa
+move g1 from Pedrop to Oa
+move r2 from Squid to Oa
+move r3 from Hard to Never
+sacrifice y2 at Agentofchaos; move b1 from Oa to Pedrop; move b1 from Juvar to Pedrop
+convert r2 to y2 at Never
+sacrifice g3 at Agentofchaos; build g3 at Squid; build r2 at Squid
+move r3 from Never to Oa
+sacrifice y3 at Squid; move b1 from Kantele to Juvar; move b1 from Juvar to Pedrop; move y1 from Kantele to Juvar; catastrophe blue at Pedrop
+move y2 from Pedrop to Ziemia (y3)
+move r2 from Squid to Ziemia
+sacrifice r3 at Hard; capture r2 at Ziemia; capture r2 at Oa; capture g1 at Oa
+build r3 at Kantele
+move g1 from Hard to Squid
+move g2 from Squid to Juvar
+move g1 from Squid to Hard
+move r3 from Kantele to Ziemia
+sacrifice y2 at Ziemia; move g1 from Oa to Kantele; move g1 from Oa to Kantele
+build y2 at Juvar
+move g1 from Hard to Kantele; catastrophe green at Kantele
+build y3 at Agentofchaos
+move y2 from Never to Oa
+move y1 from Agentofchaos to Squid
+move r3 from Oa to Theend (g2)
+sacrifice y3 at Agentofchaos; move y1 from Juvar to Pedrop; move y2 from Juvar to Pedrop; move y1 from Squid to Pedrop; catastrophe yellow at Pedrop

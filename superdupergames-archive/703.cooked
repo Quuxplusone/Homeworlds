@@ -1,0 +1,62 @@
+Zevzimra (0, b1g2) y3-
+Pigasuspig (1, b1g3) -r3
+build y1 at Zevzimra
+build r1 at Pigasuspig
+move y1 from Zevzimra to Bob (g3)
+build r1 at Pigasuspig
+build y1 at Bob
+convert r1 to y1 at Pigasuspig
+build y2 at Bob
+build y2 at Pigasuspig
+build y2 at Zevzimra
+build y3 at Pigasuspig
+build y3 at Zevzimra
+move r1 from Pigasuspig to Russia (b2)
+convert y3 to r3 at Zevzimra
+move y3 from Pigasuspig to Russia
+move r3 from Zevzimra to Bob
+sacrifice y2 at Pigasuspig; move r1 from Russia to Bob; move y3 from Russia to Steve (r3)
+capture r1 at Bob
+build y2 at Pigasuspig
+move r1 from Bob to Zevzimra
+move y1 from Pigasuspig to Fern (g2)
+move r3 from Bob to Fern
+move y1 from Fern to Bob; catastrophe yellow at Bob
+build r1 at Fern
+build y1 at Pigasuspig
+build r1 at Zevzimra
+build y1 at Pigasuspig
+move y2 from Zevzimra to Notbob (b3)
+convert y1 to g1 at Pigasuspig
+build r2 at Zevzimra
+convert y1 to b1 at Pigasuspig
+convert r2 to b2 at Zevzimra
+build g1 at Pigasuspig
+move r1 from Zevzimra to Notbob
+move g1 from Pigasuspig to Siam (b2)
+move y2 from Notbob to Fern
+move y3 from Steve to Siam
+build r2 at Fern
+move r3 from Pigasuspig to Fern; catastrophe red at Fern
+build y1 at Fern
+build y1 at Siam
+convert r1 to g1 at Zevzimra
+build g2 at Siam
+move g1 from Zevzimra to Notbob
+move g2 from Siam to Monster (b3)
+build g3 at Notbob
+build g3 at Monster
+convert g3 to r3 at Notbob
+convert g1 to r1 at Pigasuspig
+sacrifice y2 at Fern; move r3 from Notbob to Fern; move r3 from Fern to Pigasuspig
+sacrifice g2 at Monster; build r1 at Pigasuspig; build r2 at Pigasuspig; catastrophe red at Pigasuspig
+move y1 from Fern to Notbob
+move y3 from Siam to Notbob
+convert y3 to r3 at Zevzimra
+convert y3 to r3 at Notbob
+build b2 at Zevzimra
+build b3 at Pigasuspig
+convert r3 to y3 at Zevzimra
+convert b3 to r3 at Pigasuspig
+move b2 from Zevzimra to Notbobatall (g3)
+sacrifice y2 at Pigasuspig; move r3 from Notbob to Zevzimra; move g3 from Monster to Zevzimra

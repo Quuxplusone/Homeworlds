@@ -1,0 +1,52 @@
+Wil (0, b2r1) g3-
+Teeteetee (1, b1y3) -g3
+build g1 at Wil
+build g1 at Teeteetee
+convert g1 to r1 at Wil
+convert g1 to r1 at Teeteetee
+build r2 at Wil
+build r2 at Teeteetee
+convert r2 to y2 at Wil
+convert r1 to b1 at Teeteetee
+build y1 at Wil
+build b1 at Teeteetee
+move y1 from Wil to G3 (g3)
+move b1 from Teeteetee to Hull (g2)
+build y1 at Wil
+build b2 at Hull
+convert y2 to b2 at Wil
+convert b2 to y2 at Hull
+move b2 from Wil to G3
+move b1 from Teeteetee to Scunthorpe (g2)
+move b2 from G3 to Scunthorpe
+build b2 at Scunthorpe
+build b3 at Scunthorpe; catastrophe blue at Scunthorpe
+build b1 at Hull
+build y1 at G3
+build y2 at Hull
+build y2 at Wil
+move y2 from Hull to G3
+sacrifice g3 at Wil; build y3 at Wil; build y3 at G3; build r1 at Wil; catastrophe yellow at G3
+build r2 at Teeteetee
+move y2 from Wil to G3 (g3)
+move r2 from Teeteetee to Hull
+move r1 from Wil to G3
+move b1 from Hull to Milton_Keynes (g3)
+convert r1 to g1 at Wil
+build b2 at Milton_Keynes
+build r1 at G3
+build b2 at Hull
+move r1 from G3 to G2 (g2)
+build b3 at Milton_Keynes
+build r2 at G3
+build r3 at Hull
+build r3 at G2
+build r3 at Teeteetee
+sacrifice y2 at G3; move r1 from G3 to Hull; move r2 from G3 to Hull; catastrophe red at Hull
+convert b3 to r3 at Milton_Keynes
+build y1 at Wil
+move r3 from Teeteetee to Hull
+sacrifice y1 at Wil; move r3 from G2 to B3 (b3)
+build b3 at Milton_Keynes
+convert r3 to g3 at B3
+sacrifice y2 at Hull; move b3 from Milton_Keynes to Wil; move r3 from Milton_Keynes to Wil

@@ -1,0 +1,10 @@
+Lorgar (0, b2y3) g3-
+Sirruthvenmurgatroyd (1, y1b2) -g3
+build g1 at Lorgar
+build g1 at Sirruthvenmurgatroyd
+move g1 from Lorgar to Celeron (b1)
+move g1 from Sirruthvenmurgatroyd to Sol (y3)
+build g1 at Celeron
+build g2 at Sirruthvenmurgatroyd
+convert g1 to r1 at Celeron
+convert g2 to y2 at Sirruthvenmurgatroyd

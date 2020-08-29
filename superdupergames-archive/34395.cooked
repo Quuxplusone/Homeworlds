@@ -1,0 +1,38 @@
+Random56 (0, r1b3) g3-
+Babamots (1, b3y2) -g3
+build g1 at Random56
+build g1 at Babamots
+convert g1 to y1 at Random56
+convert g1 to y1 at Babamots
+build g1 at Random56
+build g1 at Babamots
+move g1 from Random56 to Aden (y2)
+convert g1 to r1 at Babamots
+build g1 at Aden
+build r1 at Babamots
+build g1 at Random56
+build g2 at Babamots
+sacrifice g3 at Random56; build g2 at Aden; build g2 at Random56; build g3 at Random56
+sacrifice g3 at Babamots; build r2 at Babamots; build g3 at Babamots; build g3 at Babamots
+move g1 from Aden to Kite (y1)
+move r1 from Babamots to Bolarus (b1)
+convert g3 to y3 at Random56
+sacrifice g2 at Babamots; build r2 at Bolarus; build r2 at Bolarus
+convert g1 to b1 at Random56
+move g3 from Babamots to Bolarus
+move b1 from Random56 to Aden
+move r1 from Babamots to Kite
+sacrifice g1 at Kite; build g1 at Random56
+sacrifice g3 at Babamots; build r3 at Babamots; build r3 at Kite; build r3 at Kite
+convert g2 to y2 at Aden
+convert g3 to y3 at Bolarus
+build y3 at Aden
+move y3 from Bolarus to Aden; catastrophe yellow at Aden
+move g1 from Random56 to Top (y2)
+move r3 from Kite to Top
+move g1 from Top to Dnr (y3)
+move y1 from Babamots to Rubicun (g1)
+build g1 at Random56
+build y2 at Rubicun
+build g2 at Dnr
+move r3 from Kite to Top

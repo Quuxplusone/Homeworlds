@@ -1,0 +1,77 @@
+Abacuswizard (0, b3r2) g3-
+Judithtruman (1, y3b1) -g3
+build g1 at Abacuswizard
+build g1 at Judithtruman
+convert g1 to y1 at Abacuswizard
+convert g1 to r1 at Judithtruman
+build y1 at Abacuswizard
+build r1 at Judithtruman
+move y1 from Abacuswizard to Konstruktstarr (g1)
+move r1 from Judithtruman to Fleern (g2)
+build y1 at Konstruktstarr
+build r1 at Fleern
+build y2 at Abacuswizard
+build r2 at Judithtruman
+convert y2 to r2 at Abacuswizard
+build r3 at Judithtruman
+move r2 from Abacuswizard to Konstruktstarr
+convert r3 to y3 at Judithtruman
+build r3 at Konstruktstarr
+move y3 from Judithtruman to Fleern
+move r2 from Konstruktstarr to Fleern
+move r1 from Fleern to Apple (b1)
+capture r1 at Fleern
+sacrifice r1 at Apple; capture r2 at Fleern
+build r1 at Fleern
+move r2 from Fleern to Apple (b1)
+build y2 at Abacuswizard
+sacrifice r1 at Judithtruman; capture r1 at Fleern
+capture r1 at Fleern
+sacrifice r2 at Apple; capture r1 at Fleern; capture r1 at Fleern
+build y2 at Konstruktstarr
+move y3 from Fleern to Apple (b1)
+sacrifice y2 at Konstruktstarr; move r3 from Konstruktstarr to Fleern; move r3 from Fleern to Apple
+sacrifice r1 at Fleern; capture r3 at Apple
+build y2 at Konstruktstarr
+build g1 at Judithtruman
+move y2 from Konstruktstarr to Fleern
+build r1 at Fleern
+build y2 at Fleern
+sacrifice g1 at Judithtruman; build y3 at Apple
+sacrifice y2 at Abacuswizard; move y2 from Fleern to Apple; move y2 from Fleern to Apple; catastrophe yellow at Apple
+convert r2 to b2 at Judithtruman
+move y1 from Konstruktstarr to Dagobah (y2)
+build b1 at Judithtruman
+move y1 from Konstruktstarr to Hoth (g2)
+convert b2 to y2 at Judithtruman
+build y2 at Hoth
+move y2 from Judithtruman to Fleern
+build y3 at Abacuswizard
+build y3 at Fleern
+move y1 from Dagobah to Judithtruman
+move r1 from Fleern to Judithtruman
+build y2 at Hoth
+sacrifice y3 at Fleern; move r3 from Apple to Abacuswizard; move y2 from Fleern to Pear (g1); move y2 from Pear to Hoth; catastrophe yellow at Hoth
+capture r3 at Abacuswizard
+capture y1 at Judithtruman
+build g1 at Abacuswizard
+move y1 from Judithtruman to Fleern
+move g3 from Abacuswizard to Appleiie (b1)
+build r1 at Fleern
+move r3 from Abacuswizard to Appleiie
+build g1 at Judithtruman
+build r2 at Appleiie
+move g1 from Judithtruman to Fleern
+convert r2 to y2 at Appleiie
+build b2 at Judithtruman
+build r2 at Appleiie
+convert b2 to y2 at Judithtruman
+move r2 from Appleiie to Ifruity (b2)
+move b1 from Judithtruman to Fleern
+move g3 from Appleiie to Ifruity
+move r1 from Fleern to Froboz (y1)
+move r3 from Appleiie to Ifruity
+sacrifice g3 at Judithtruman; build r2 at Froboz; build y2 at Fleern; build y3 at Fleern
+sacrifice y2 at Appleiie; move r3 from Ifruity to Judithtruman; move g3 from Ifruity to Judithtruman
+sacrifice g1 at Fleern; build r3 at Judithtruman
+sacrifice r3 at Judithtruman; capture y2 at Judithtruman; capture r1 at Judithtruman; capture r3 at Judithtruman

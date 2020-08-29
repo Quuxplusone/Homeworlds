@@ -1,0 +1,34 @@
+Wyons (0, r3b2) g3-
+Sordros (1, b1y2) -g3
+build g1 at Wyons
+build g1 at Sordros
+convert g1 to y1 at Wyons
+move g1 from Sordros to Flavega (y3)
+build g1 at Wyons
+build g1 at Sordros
+build g2 at Wyons
+build g2 at Flavega
+convert g1 to r1 at Wyons
+convert g1 to y1 at Sordros
+move g2 from Wyons to Safire (b1)
+build g1 at Sordros
+build y1 at Wyons
+build y2 at Sordros
+build y2 at Wyons
+convert y1 to r1 at Sordros
+convert y1 to b1 at Wyons
+build y1 at Sordros
+build b2 at Wyons
+convert y2 to b2 at Sordros
+convert b2 to g2 at Wyons
+move g1 from Flavega to Flava (y2)
+sacrifice g3 at Wyons; build g1 at Wyons; build g3 at Wyons; build g3 at Safire
+move g1 from Sordros to Amarella (y3)
+sacrifice y1 at Wyons; move g3 from Safire to Flavega
+sacrifice g2 at Flavega; build g2 at Amarella; build y1 at Sordros
+sacrifice g3 at Wyons; build y1 at Wyons; build g3 at Safire; build y3 at Wyons
+sacrifice g2 at Amarella; build g2 at Sordros; build b2 at Sordros
+sacrifice g2 at Safire; build g2 at Flavega; build b3 at Wyons
+move b2 from Sordros to Amarella
+sacrifice y3 at Wyons; move y1 from Wyons to Safire; move y1 from Safire to Flavega; move y1 from Flavega to Sordros; catastrophe yellow at Sordros
+convert g2 to y2 at Sordros

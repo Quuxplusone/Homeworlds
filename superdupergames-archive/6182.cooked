@@ -1,0 +1,26 @@
+Greedyalgorithm (0, y1b2) g3-
+Clockwise (1, b3g1) -y3
+build g1 at Greedyalgorithm
+build y1 at Clockwise
+convert g1 to b1 at Greedyalgorithm
+build y1 at Clockwise
+build g1 at Greedyalgorithm
+convert y3 to g3 at Clockwise
+build g1 at Greedyalgorithm
+build g2 at Clockwise
+move g1 from Greedyalgorithm to Tosystem (y3)
+move g2 from Clockwise to Gyro (y2)
+build g2 at Tosystem
+build y2 at Clockwise
+move g2 from Tosystem to Gyro
+move g2 from Gyro to Denial (g3)
+sacrifice g3 at Greedyalgorithm; build g2 at Gyro; build g3 at Greedyalgorithm; build b1 at Greedyalgorithm
+sacrifice y1 at Clockwise; move g2 from Denial to Greedyalgorithm
+sacrifice g2 at Gyro; build g2 at Tosystem; build g3 at Gyro
+convert g2 to b2 at Greedyalgorithm; catastrophe blue at Greedyalgorithm
+move g2 from Tosystem to Blue (b2)
+move y1 from Clockwise to Hovercraft (g2)
+convert g2 to r2 at Blue
+sacrifice g3 at Clockwise; build y1 at Hovercraft; build y2 at Hovercraft; build y3 at Clockwise
+move g3 from Gyro to Clockwise
+sacrifice y3 at Clockwise; move y1 from Hovercraft to Greedyalgorithm; move y1 from Hovercraft to Greedyalgorithm; move y2 from Hovercraft to Greedyalgorithm; catastrophe yellow at Greedyalgorithm

@@ -1,0 +1,33 @@
+Dlwillson (0, b3y1) g3-
+Daselva (1, r1b2) -g3
+build g1 at Dlwillson
+build g1 at Daselva
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Daselva
+build y2 at Dlwillson
+build y2 at Daselva
+move y1 from Dlwillson to Sky (b2)
+convert y1 to r1 at Daselva
+convert y2 to r2 at Dlwillson
+build y1 at Daselva
+build r1 at Dlwillson
+build y2 at Daselva
+build g1 at Dlwillson
+convert y2 to r2 at Daselva
+move g1 from Dlwillson to Sky
+sacrifice y2 at Daselva; move r2 from Daselva to Ds1 (y3); move r2 from Ds1 to Sky
+build y2 at Sky
+capture y2 at Sky
+build y2 at Sky
+convert y2 to g2 at Sky
+sacrifice r2 at Dlwillson; capture g2 at Sky; capture r2 at Sky
+build y2 at Daselva
+build r2 at Sky
+build g1 at Daselva
+move r2 from Sky to Sea (b3)
+move y2 from Daselva to Ds1 (r3)
+sacrifice g3 at Dlwillson; build r2 at Sea; build r3 at Sky; build r3 at Dlwillson
+move g1 from Daselva to Ds1
+sacrifice y2 at Sky; move r2 from Sea to Daselva; move r2 from Sea to Daselva; catastrophe red at Daselva
+move y2 from Ds1 to Ds2 (g2)
+move r3 from Dlwillson to Daselva

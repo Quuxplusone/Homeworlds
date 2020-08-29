@@ -1,0 +1,40 @@
+Bloodrumpus (0, b2r3) g3-
+Kingsamj (1, b3g1) -y3
+build g1 at Bloodrumpus
+build y1 at Kingsamj
+convert g1 to y1 at Bloodrumpus
+convert y1 to r1 at Kingsamj
+build g1 at Bloodrumpus
+build y1 at Kingsamj
+build g1 at Bloodrumpus
+move y1 from Kingsamj to Caprica (g2)
+move g1 from Bloodrumpus to Tauron (b1)
+build y1 at Caprica
+convert g1 to r1 at Bloodrumpus
+build y2 at Kingsamj
+build y2 at Bloodrumpus
+convert y2 to g2 at Kingsamj
+move y1 from Bloodrumpus to Sagitaron (g1)
+build y2 at Kingsamj
+build y2 at Sagitaron
+move g2 from Kingsamj to Kobol (b2)
+build y3 at Bloodrumpus
+move y2 from Kingsamj to Kobol
+sacrifice y1 at Sagitaron; move g1 from Tauron to Earth (y3)
+build y1 at Kingsamj
+build g2 at Earth
+build g3 at Kobol
+build g3 at Bloodrumpus
+convert g2 to r2 at Kobol
+move g2 from Earth to Ragnar (b2)
+build g2 at Kobol
+sacrifice g1 at Earth; build g1 at Ragnar
+move g3 from Kobol to Sagitaron
+sacrifice y2 at Sagitaron; move g1 from Ragnar to Sagitaron; move g2 from Ragnar to Sagitaron; catastrophe green at Sagitaron
+build g1 at Kobol
+move g3 from Bloodrumpus to Tauron (r1)
+move y1 from Caprica to Earth (g1)
+move y2 from Bloodrumpus to Tauron
+move g2 from Kobol to Earth
+convert r1 to b1 at Bloodrumpus
+build y2 at Earth

@@ -1,0 +1,30 @@
+Goulo (0, y3g2) b3-
+Adambadura (1, b3g1) -r3
+build b1 at Goulo
+build r1 at Adambadura
+build b1 at Goulo
+convert r1 to y1 at Adambadura
+convert b1 to r1 at Goulo
+build r1 at Adambadura
+convert b1 to y1 at Goulo
+convert r1 to g1 at Adambadura
+build b1 at Goulo
+build r1 at Adambadura
+build b1 at Goulo
+move r1 from Adambadura to Bombay (y2)
+convert b1 to g1 at Goulo
+build g2 at Adambadura
+build g2 at Goulo
+move g1 from Adambadura to Bombay
+move g2 from Goulo to Mumbai (y1)
+build g3 at Bombay
+build g3 at Mumbai
+sacrifice g3 at Bombay; build g3 at Bombay; build y2 at Adambadura; build g3 at Adambadura
+sacrifice g3 at Mumbai; build g3 at Mumbai; build r1 at Goulo; build y2 at Goulo
+move g3 from Adambadura to Newdelhi (b2)
+move r1 from Goulo to Mumbai
+sacrifice g3 at Bombay; build g3 at Bombay; build y3 at Adambadura; build r2 at Adambadura
+move y1 from Goulo to Mumbai
+sacrifice y3 at Adambadura; move g3 from Bombay to Mumbai; move g3 from Mumbai to Goulo; move g1 from Bombay to Mumbai
+move g1 from Goulo to Varkala (b1)
+sacrifice r3 at Adambadura; capture b3 at Goulo; capture y2 at Goulo; capture r1 at Goulo

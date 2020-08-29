@@ -1,0 +1,9 @@
+Layana (0, y1b2) g3-
+Trillp (1, r3b2) -g3
+build g1 at Layana
+build g1 at Trillp
+convert g1 to y1 at Layana
+build g1 at Trillp
+build y1 at Layana
+build g1 at Trillp
+catastrophe green at Trillp; build g1 at Layana

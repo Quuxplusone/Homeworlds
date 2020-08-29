@@ -1,0 +1,17 @@
+Grosseteste (0, y2b1) g3-
+Bhorner (1, b3y2) -g3
+build g1 at Grosseteste
+build g1 at Bhorner
+move g1 from Grosseteste to Luce (b3)
+move g1 from Bhorner to Y1 (y1)
+build g1 at Luce
+build g2 at Y1
+build g2 at Grosseteste
+move g1 from Y1 to Y3 (y3)
+convert g2 to r2 at Grosseteste
+build g2 at Bhorner
+convert g1 to y1 at Luce
+convert g2 to r2 at Bhorner
+build g1 at Luce
+build r1 at Bhorner
+move g1 from Luce to Colore (y1)

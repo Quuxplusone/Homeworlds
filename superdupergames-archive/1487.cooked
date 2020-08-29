@@ -1,0 +1,13 @@
+Andylooney (0, b1g2) y3-
+Hedge_O_Matic (1, g1b2) -y3
+build y1 at Andylooney
+build y1 at Hedge_O_Matic
+convert y1 to g1 at Andylooney
+convert y1 to r1 at Hedge_O_Matic
+move g1 from Andylooney to Clampett (y3)
+move r1 from Hedge_O_Matic to Clampett
+move g1 from Clampett to Gumby (g1)
+convert y3 to g3 at Hedge_O_Matic
+build y1 at Andylooney
+build g2 at Hedge_O_Matic
+sacrifice y3 at Andylooney; move g1 from Gumby to Clampett; move g1 from Clampett to Hedge_O_Matic; catastrophe green at Hedge_O_Matic

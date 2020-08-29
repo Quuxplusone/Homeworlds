@@ -1,0 +1,26 @@
+Mikeyarrum (0, r3b2) g3-
+Nupanick (1, b1g2) -y3
+build g1 at Mikeyarrum
+build y1 at Nupanick
+convert g1 to y1 at Mikeyarrum
+move y1 from Nupanick to Slippery (g3)
+build g1 at Mikeyarrum
+build y1 at Slippery
+build y2 at Mikeyarrum
+build y2 at Nupanick
+move y2 from Mikeyarrum to Yotsuba (g1)
+move y1 from Slippery to Damogran (b1)
+convert g1 to b1 at Mikeyarrum
+convert y1 to g1 at Damogran
+build b2 at Mikeyarrum
+build g1 at Damogran
+convert b2 to r2 at Mikeyarrum
+build g2 at Damogran
+build b2 at Mikeyarrum
+convert g2 to b2 at Damogran
+move b2 from Mikeyarrum to Damogran
+convert b2 to g2 at Damogran
+sacrifice r2 at Mikeyarrum; capture g2 at Damogran; capture g1 at Damogran
+build g2 at Damogran; catastrophe green at Damogran
+convert b2 to g2 at Damogran
+build y1 at Slippery

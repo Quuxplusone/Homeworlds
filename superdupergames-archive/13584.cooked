@@ -1,0 +1,33 @@
+Agentofchaos (0, b3r2) g3-
+Joe (1, g1y2) -b3
+build g1 at Agentofchaos
+build b1 at Joe
+build g1 at Agentofchaos
+build b1 at Joe
+convert g1 to y1 at Agentofchaos
+convert b1 to g1 at Joe
+build g2 at Agentofchaos
+build g2 at Joe
+convert g1 to b1 at Agentofchaos
+build b1 at Joe
+build b2 at Agentofchaos
+convert b1 to r1 at Joe
+convert b2 to y2 at Agentofchaos
+convert b3 to y3 at Joe
+move g2 from Agentofchaos to Cymru (y1)
+move g2 from Joe to Prok (y3)
+build g1 at Agentofchaos
+convert y3 to r3 at Joe
+sacrifice g3 at Agentofchaos; build g2 at Agentofchaos; build g3 at Cymru; build g3 at Agentofchaos
+move r3 from Joe to Prok
+convert g1 to r1 at Agentofchaos
+move r3 from Prok to Cymru
+sacrifice r1 at Agentofchaos; capture r3 at Cymru
+build b1 at Joe
+sacrifice y2 at Agentofchaos; move r3 from Cymru to Prok; move r3 from Prok to Joe
+move b1 from Joe to Prok
+sacrifice b1 at Agentofchaos; convert g3 to r3 at Cymru
+build r1 at Joe
+sacrifice r3 at Cymru; capture r1 at Joe; capture r1 at Joe; capture g1 at Joe
+move g2 from Prok to Joe
+capture g2 at Joe

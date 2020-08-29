@@ -1,0 +1,43 @@
+Layana (0, g2r1) b3-
+Trillp (1, b3r2) -g3
+build b1 at Layana
+build g1 at Trillp
+build b1 at Layana
+build g1 at Trillp
+convert b1 to g1 at Layana
+convert g1 to y1 at Trillp
+convert b1 to y1 at Layana
+build g1 at Trillp
+build g2 at Layana
+convert g1 to r1 at Trillp
+move g2 from Layana to Vulcan (b3)
+move y1 from Trillp to Betazed (g1)
+build g2 at Vulcan
+sacrifice g3 at Trillp; build g3 at Trillp; build g3 at Trillp; build y1 at Betazed
+build g3 at Vulcan
+move y1 from Betazed to Trillp
+convert g2 to y2 at Vulcan
+sacrifice g3 at Trillp; build y2 at Betazed; build y2 at Betazed; build y3 at Trillp
+move y2 from Vulcan to Betazed; catastrophe yellow at Betazed
+move g1 from Trillp to Newbetazed (r1)
+convert g2 to y2 at Vulcan
+build r2 at Trillp
+build g1 at Vulcan
+build g2 at Trillp
+sacrifice g3 at Vulcan; build g2 at Layana; build g3 at Vulcan; build y1 at Vulcan
+sacrifice y3 at Trillp; move r1 from Trillp to Newbetazed; move r2 from Trillp to Newbetazed; move g2 from Trillp to Newbetazed
+sacrifice g3 at Vulcan; build g3 at Vulcan; build y2 at Vulcan; build y2 at Layana
+build g3 at Trillp
+convert y2 to r2 at Vulcan
+sacrifice g3 at Trillp; build y2 at Trillp; build y3 at Trillp; build g3 at Newbetazed
+sacrifice y2 at Layana; move y1 from Vulcan to Newbetazed; move y1 from Newbetazed to Trillp; catastrophe yellow at Trillp
+convert g3 to y3 at Trillp
+move r2 from Vulcan to Newbetazed; catastrophe red at Newbetazed
+convert y3 to g3 at Trillp
+move g3 from Vulcan to Bajor (b1)
+build g1 at Trillp
+sacrifice y1 at Layana; move g3 from Bajor to Trillp
+convert g3 to r3 at Trillp
+capture r3 at Trillp
+build g2 at Trillp
+sacrifice r3 at Trillp; capture g2 at Trillp; capture g1 at Trillp

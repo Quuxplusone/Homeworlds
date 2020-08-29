@@ -1,0 +1,42 @@
+Xmiyux (0, b3y1) g3-
+Dsheldon (1, b2y1) -g3
+build g1 at Xmiyux
+build g1 at Dsheldon
+convert g1 to y1 at Xmiyux
+move g1 from Dsheldon to Investment (y3)
+move y1 from Xmiyux to Miranda (g2)
+build g1 at Dsheldon
+build y2 at Miranda
+build g1 at Dsheldon
+move y2 from Miranda to Serenityvalley (g3)
+sacrifice g3 at Dsheldon; build g2 at Investment; build g2 at Investment; build g3 at Dsheldon
+build y2 at Miranda
+convert g1 to b1 at Dsheldon
+build g1 at Xmiyux
+sacrifice b1 at Dsheldon; convert g1 to b1 at Investment
+build g1 at Xmiyux
+convert g2 to y2 at Investment
+move g1 from Xmiyux to Akers (g2)
+move y2 from Investment to Akers
+build y3 at Serenityvalley
+build y3 at Akers
+move y1 from Miranda to Xmiyux
+convert b1 to r1 at Investment
+convert g1 to b1 at Xmiyux
+move y3 from Akers to Xmiyux
+move y2 from Miranda to Xmiyux; catastrophe yellow at Xmiyux
+sacrifice r1 at Investment; capture g1 at Akers
+convert b1 to r1 at Xmiyux
+convert g1 to r1 at Dsheldon
+move y3 from Serenityvalley to Miranda (g2)
+build g1 at Dsheldon
+build y1 at Miranda
+sacrifice g3 at Dsheldon; build g1 at Akers; build g3 at Dsheldon; build y1 at Akers
+move y1 from Miranda to Xmiyux
+convert g1 to b1 at Dsheldon
+convert y1 to g1 at Xmiyux
+sacrifice y2 at Akers; move g1 from Akers to Xmiyux; move g1 from Akers to Xmiyux; catastrophe green at Xmiyux
+convert r1 to b1 at Xmiyux
+move b1 from Dsheldon to Xmiyux
+pass
+sacrifice g2 at Investment; build y1 at Akers; build b1 at Xmiyux; catastrophe blue at Xmiyux

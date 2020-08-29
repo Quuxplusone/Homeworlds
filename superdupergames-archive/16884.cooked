@@ -1,0 +1,9 @@
+Rootbier (0, b1y2) g3-
+Scottobear (1, r2b1) -g3
+build g1 at Rootbier
+build g1 at Scottobear
+convert g1 to b1 at Rootbier
+convert g1 to y1 at Scottobear
+build b2 at Rootbier
+build g1 at Scottobear
+move b1 from Rootbier to Slake (g3)

@@ -1,0 +1,38 @@
+Dethdukk (0, b1y3) g3-
+Twoshort (1, b1g2) -b3
+build g1 at Dethdukk
+build b1 at Twoshort
+build g1 at Dethdukk
+convert b3 to y3 at Twoshort
+move g1 from Dethdukk to Launch (y2)
+build b2 at Twoshort
+build g1 at Dethdukk
+move b2 from Twoshort to Greed (g3)
+sacrifice g3 at Dethdukk; build g2 at Launch; build g2 at Launch; build g3 at Dethdukk
+build b2 at Twoshort
+move g1 from Launch to Point (y3)
+move b1 from Twoshort to Grogar (g3)
+move g1 from Dethdukk to Move (y2)
+build b2 at Grogar
+move g2 from Launch to Trader (b3)
+build b3 at Grogar
+move g2 from Launch to Pull (b3)
+convert b2 to r2 at Grogar
+convert g2 to r2 at Pull
+build b2 at Grogar
+build g2 at Move
+convert b2 to y2 at Grogar
+move g2 from Move to Pull
+build b2 at Grogar
+build r1 at Pull
+move b2 from Grogar to Move
+convert r2 to y2 at Pull
+sacrifice b2 at Greed; convert b3 to g3 at Grogar; convert b2 to r2 at Move
+build y1 at Pull
+capture g1 at Move
+convert g3 to r3 at Dethdukk
+build g3 at Move
+build r1 at Pull
+move g3 from Grogar to Boomer (b2)
+move y1 from Pull to Mobile (y1)
+sacrifice g3 at Move; build b2 at Grogar; build b3 at Grogar; build g3 at Move

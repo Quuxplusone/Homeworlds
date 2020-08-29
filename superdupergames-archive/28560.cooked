@@ -1,0 +1,33 @@
+Endo (0, b1y2) g3-
+Kanzenryu (1, g1b3) -y3
+build g1 at Endo
+build y1 at Kanzenryu
+build g1 at Endo
+convert y3 to g3 at Kanzenryu
+move g1 from Endo to Grp (b3)
+build g2 at Kanzenryu
+sacrifice g3 at Endo; build g2 at Grp; build g2 at Grp; build g3 at Endo
+convert g2 to r2 at Kanzenryu
+convert g2 to y2 at Grp
+move r2 from Kanzenryu to First (y2)
+convert g2 to r2 at Grp
+build y1 at Kanzenryu
+build g2 at Grp
+convert y1 to b1 at Kanzenryu
+move g2 from Grp to Top (b2)
+build y1 at Kanzenryu
+sacrifice g3 at Endo; build g2 at Grp; build g2 at Top; build g3 at Endo
+convert g3 to r3 at Kanzenryu
+sacrifice g3 at Endo; build g3 at Endo; build g3 at Grp; build g3 at Top
+build r1 at Kanzenryu
+convert g3 to r3 at Endo
+move r1 from Kanzenryu to Top
+sacrifice g3 at Grp; build g3 at Endo; build g3 at Grp; build r1 at Grp
+build r1 at Kanzenryu
+sacrifice r1 at Grp; capture r1 at Top
+move b1 from Kanzenryu to First
+sacrifice g3 at Grp; build r1 at Top; build r2 at Endo; build r3 at Grp
+move y1 from Kanzenryu to First
+move r3 from Grp to First
+sacrifice y1 at First; move r2 from First to Peep (g3)
+sacrifice y2 at Grp; move r1 from Top to Kanzenryu; move r1 from Top to Kanzenryu; catastrophe red at Kanzenryu

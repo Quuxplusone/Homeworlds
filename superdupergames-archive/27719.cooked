@@ -1,0 +1,133 @@
+Ts52 (0, y1b2) g3-
+Simon (1, g3b1) -y3
+build g1 at Ts52
+build y1 at Simon
+convert g1 to y1 at Ts52
+build y2 at Simon
+move y1 from Ts52 to Kermit (g3)
+move y2 from Simon to Grass (g2)
+build y2 at Kermit
+convert y1 to b1 at Simon
+build g1 at Ts52
+build b1 at Simon
+move y2 from Kermit to Ts52
+move b1 from Simon to Grass
+convert y2 to b2 at Ts52
+build b2 at Grass
+move b2 from Ts52 to Kermit
+build b3 at Simon
+build b3 at Kermit
+convert b3 to r3 at Simon
+convert b3 to r3 at Kermit
+build b3 at Simon
+build b3 at Kermit
+convert b3 to y3 at Simon
+move b3 from Kermit to Robin (g2)
+build b3 at Grass
+build b3 at Robin
+convert b3 to y3 at Grass
+build b3 at Kermit
+move y3 from Simon to Wine (r2)
+convert b3 to r3 at Robin
+build b3 at Grass
+move b2 from Kermit to Grass; catastrophe blue at Grass
+move b1 from Simon to Grass
+move g1 from Ts52 to Gonzo (b3)
+build r1 at Simon
+build g1 at Ts52
+move r3 from Simon to Grass
+sacrifice g3 at Ts52; build g1 at Ts52; build g2 at Gonzo; build g3 at Ts52
+move r3 from Grass to Gonzo
+sacrifice g3 at Ts52; build y1 at Kermit; build y2 at Kermit; build g3 at Ts52
+capture g2 at Gonzo
+convert g1 to r1 at Ts52
+capture g1 at Gonzo
+move y1 from Kermit to Robin
+sacrifice y2 at Grass; move g1 from Gonzo to Ts52; move g2 from Gonzo to Ts52; catastrophe green at Ts52
+move b3 from Kermit to Ts52
+build y2 at Grass
+convert b3 to g3 at Ts52
+build y2 at Simon
+build g1 at Ts52
+build b1 at Grass
+build b2 at Robin
+convert b1 to g1 at Grass
+move b3 from Robin to Kermit
+move g1 from Grass to Gonzo
+move y1 from Kermit to Robin
+convert y2 to g2 at Simon
+build y2 at Kermit
+move g2 from Simon to Wine
+move y2 from Kermit to Oscar (g1)
+sacrifice y3 at Grass; move g1 from Gonzo to Ts52; move g2 from Wine to Gonzo; move g2 from Gonzo to Ts52; catastrophe green at Ts52
+move b3 from Kermit to Ts52
+build y3 at Grass
+convert b3 to g3 at Ts52
+build b1 at Grass
+move y2 from Oscar to Grass
+move y2 from Grass to Gonzo
+build g1 at Ts52
+move b1 from Grass to Gonzo
+build g1 at Ts52
+convert b1 to g1 at Gonzo
+move g1 from Ts52 to Kermit
+build r1 at Gonzo
+build r2 at Kermit
+build r2 at Simon
+sacrifice r1 at Ts52; capture b1 at Grass
+build g2 at Gonzo
+convert g1 to r1 at Ts52
+sacrifice r2 at Simon; capture y2 at Grass; capture b1 at Grass
+build r2 at Robin
+move y3 from Wine to Sea (b3)
+build r2 at Ts52
+build b1 at Grass
+sacrifice y2 at Kermit; move r1 from Ts52 to Gonzo; move r2 from Robin to Gonzo; catastrophe red at Gonzo
+sacrifice g1 at Gonzo; build y2 at Sea
+move r3 from Robin to Gonzo
+convert b1 to r1 at Grass
+sacrifice r2 at Kermit; capture y2 at Gonzo; capture g2 at Gonzo
+convert y2 to r2 at Sea
+build y2 at Gonzo
+build b1 at Grass
+build g1 at Ts52
+convert b1 to g1 at Grass
+sacrifice g3 at Ts52; build g3 at Ts52; build b1 at Robin; build r1 at Gonzo
+build b2 at Grass
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Ts52; build r3 at Kermit
+move g1 from Grass to Sea
+move b1 from Robin to Kermit
+move b1 from Grass to B3 (b3)
+move y1 from Robin to Kermit
+move y2 from Grass to B3
+move r3 from Kermit to Robin
+move r2 from Sea to Grass
+move r1 from Gonzo to Robin
+move r1 from Grass to Sea
+move r2 from Ts52 to Kermit
+move r1 from Sea to Grass
+move r3 from Robin to B3
+sacrifice y2 at B3; move r1 from Grass to Kermit; move r2 from Grass to Kermit; catastrophe red at Kermit
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Kermit; build r1 at Robin
+build r2 at Simon
+sacrifice y2 at Gonzo; move r1 from Robin to Simon; move r1 from Robin to Simon; catastrophe red at Simon
+convert g1 to r1 at Sea
+sacrifice g3 at Ts52; build g1 at Ts52; build g3 at Ts52; build y2 at Robin
+move r1 from Sea to Grass
+sacrifice y2 at Kermit; move y1 from Robin to Simon; move y2 from Robin to Simon
+convert y3 to r3 at Simon
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Gonzo; build y3 at Kermit
+capture y2 at Simon
+move r3 from Gonzo to Robin
+build r1 at Grass
+capture b1 at B3
+capture y1 at Simon
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Robin; build r2 at Robin
+sacrifice y2 at Simon; move r1 from Grass to Simon; move r1 from Simon to Robin; catastrophe red at Robin
+move y2 from Gonzo to Robin
+build y2 at Grass
+move y3 from Kermit to Elmo (r2)
+build r1 at Grass
+sacrifice y1 at Kermit; move r3 from B3 to Robin
+move y3 from Grass to Gonzo
+sacrifice y2 at Robin; move y3 from Elmo to Simon; move r3 from Robin to Simon

@@ -1,0 +1,36 @@
+Dlwillson (0, b3r1) g3-
+Felix (1, b1r3) -g3
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Felix
+build g1 at Dlwillson
+build g1 at Felix
+move g1 from Dlwillson to Sky (b2)
+convert g1 to b1 at Felix
+build g1 at Dlwillson
+build b1 at Felix
+build g1 at Sky
+move b1 from Felix to Synchron (b2)
+build g2 at Sky
+build b2 at Felix
+convert g2 to y2 at Sky
+move b2 from Felix to Occo (g2)
+sacrifice y2 at Sky; move g1 from Sky to Sea (b3); move g1 from Sky to Bluesky (b3)
+build b2 at Occo
+build g2 at Bluesky
+convert b2 to r2 at Occo
+sacrifice g3 at Dlwillson; build g2 at Dlwillson; build g3 at Dlwillson; build g3 at Bluesky
+build b2 at Occo
+convert g2 to r2 at Bluesky
+build g2 at Felix
+move g2 from Dlwillson to Synchron
+sacrifice g3 at Felix; build g3 at Felix; build y1 at Felix; build y2 at Felix
+sacrifice g3 at Bluesky; build y2 at Dlwillson; build r1 at Bluesky; build g3 at Synchron
+sacrifice y1 at Felix; move b1 from Synchron to Dlwillson
+capture b1 at Dlwillson
+sacrifice y2 at Felix; move b2 from Occo to Dlwillson; move b2 from Occo to Dlwillson; catastrophe blue at Dlwillson
+sacrifice y2 at Dlwillson; move g2 from Synchron to Felix; move g3 from Synchron to Felix; catastrophe green at Felix
+sacrifice y1 at Felix; move r2 from Occo to Sea
+sacrifice g3 at Dlwillson; build g2 at Sea; build g2 at Sea; build g2 at Dlwillson
+sacrifice r2 at Sea

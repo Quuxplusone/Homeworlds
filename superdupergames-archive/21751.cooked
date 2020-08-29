@@ -1,0 +1,24 @@
+Ludiki (0, g1b2) y3-
+Lorgar (1, b1y3) -g3
+build y1 at Ludiki
+build g1 at Lorgar
+convert y1 to r1 at Ludiki
+build g1 at Lorgar
+move r1 from Ludiki to Rhodio (g3)
+move g1 from Lorgar to Mnar (b2)
+build y1 at Ludiki
+build g2 at Mnar
+move y1 from Ludiki to Rhodio
+convert g2 to r2 at Mnar
+build y1 at Ludiki
+build g2 at Mnar
+convert y3 to r3 at Ludiki
+convert g2 to y2 at Mnar
+move r3 from Ludiki to Rhodio
+sacrifice y2 at Mnar; move r2 from Mnar to Rhodio; move r2 from Rhodio to Ludiki
+move r3 from Rhodio to Ludiki
+build r1 at Ludiki
+move r1 from Rhodio to Mnar
+capture y1 at Ludiki
+capture r2 at Ludiki
+build r1 at Ludiki; catastrophe red at Ludiki

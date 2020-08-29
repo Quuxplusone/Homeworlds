@@ -1,0 +1,41 @@
+Simon (0, r2b1) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Simon
+build g1 at Dlwillson
+convert g1 to y1 at Simon
+convert g1 to y1 at Dlwillson
+build g1 at Simon
+build g1 at Dlwillson
+convert g1 to r1 at Simon
+convert g1 to r1 at Dlwillson
+build r2 at Simon
+build r2 at Dlwillson
+move r2 from Simon to G3 (g3)
+convert r1 to b1 at Dlwillson
+build g1 at Simon
+build b1 at Dlwillson
+move r1 from Simon to B3 (b3)
+move b1 from Dlwillson to Field (g2)
+move g1 from Simon to B3
+build b2 at Field
+build r1 at G3
+build r3 at Dlwillson
+build r3 at B3
+move r2 from Dlwillson to Field
+build r3 at G3
+sacrifice y1 at Dlwillson; move r2 from Field to G3; catastrophe red at G3
+convert r1 to y1 at B3
+convert b2 to y2 at Field
+build y1 at B3
+sacrifice g3 at Dlwillson; build b2 at Dlwillson; build b2 at Field; build r1 at Dlwillson
+move r3 from B3 to Field
+sacrifice y2 at Field; move b2 from Field to B3; move r1 from Dlwillson to Forest (g2)
+capture b1 at Field
+convert b2 to r2 at B3
+sacrifice y1 at B3; move b1 from Field to Dlwillson; catastrophe blue at Dlwillson
+convert r2 to b2 at B3
+sacrifice g3 at Simon; build y1 at Simon; build y2 at Simon; build r1 at Field
+sacrifice b2 at B3; convert r3 to g3 at Dlwillson; convert r1 to b1 at Forest
+sacrifice y2 at Simon; move r1 from Field to Dlwillson; move r3 from Field to Dlwillson
+capture r3 at Dlwillson
+sacrifice g1 at B3; build r1 at Dlwillson; catastrophe red at Dlwillson

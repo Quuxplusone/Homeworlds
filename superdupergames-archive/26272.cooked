@@ -1,0 +1,42 @@
+Wil (0, y2b1) g3-
+Teeteetee (1, y1b3) -g3
+build g1 at Wil
+build g1 at Teeteetee
+convert g1 to b1 at Wil
+convert g1 to y1 at Teeteetee
+build b1 at Wil
+build y1 at Teeteetee
+move b1 from Wil to G3 (g3)
+move y1 from Teeteetee to Grasshopper (g2)
+build b2 at G3
+sacrifice g3 at Teeteetee; build y2 at Grasshopper; build y2 at Grasshopper; build y3 at Teeteetee
+build b2 at Wil
+convert y3 to g3 at Teeteetee
+move b1 from Wil to Y3 (y3)
+move y2 from Grasshopper to Beetle (b3)
+build b2 at Wil
+move y2 from Grasshopper to Ant (b3)
+convert b2 to r2 at G3
+sacrifice g3 at Teeteetee; build y3 at Ant; build y3 at Beetle
+convert b2 to r2 at Wil
+convert y3 to r3 at Ant
+build b2 at Wil
+convert y3 to g3 at Beetle
+build b2 at G3
+build y3 at Grasshopper
+convert b2 to g2 at Wil
+move y3 from Grasshopper to G3
+move b2 from Wil to Why3 (y3)
+sacrifice r3 at Ant; capture r2 at G3; capture b2 at G3; capture b1 at G3
+move g2 from Wil to Y3
+build b2 at G3
+build g1 at Y3
+move y3 from G3 to Grasshopper
+move g1 from Y3 to R2 (r2)
+sacrifice b1 at G3; convert y3 to r3 at Grasshopper
+build r1 at Wil
+build y3 at Grasshopper
+build g1 at R2
+build r1 at G3
+build g1 at Wil
+sacrifice y3 at Grasshopper; move r1 from G3 to Wil; move r2 from G3 to Wil; move g3 from Beetle to Wil; catastrophe red at Wil

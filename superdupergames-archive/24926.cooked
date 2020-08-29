@@ -1,0 +1,40 @@
+Silenttitan (0, b1r2) g3-
+Twoshort (1, b1g3) -b3
+build g1 at Silenttitan
+build b1 at Twoshort
+build g1 at Silenttitan
+convert b3 to y3 at Twoshort
+convert g3 to b3 at Silenttitan
+build b2 at Twoshort
+convert g1 to y1 at Silenttitan
+move b2 from Twoshort to Grogar (g2)
+build b2 at Silenttitan
+build b2 at Grogar
+move b2 from Silenttitan to Sol (g3)
+convert b2 to y2 at Grogar
+build y1 at Silenttitan
+build y1 at Grogar
+move y1 from Silenttitan to Sol
+convert y2 to r2 at Grogar
+convert b2 to r2 at Sol
+build y2 at Twoshort
+build y2 at Silenttitan
+build b2 at Grogar
+move y1 from Silenttitan to Soul (b3)
+move b2 from Grogar to Yolonda (y3)
+convert b3 to g3 at Silenttitan
+convert y2 to g2 at Twoshort
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Soul; build y3 at Silenttitan
+sacrifice g2 at Twoshort; build b2 at Yolonda; build b3 at Grogar
+move y2 from Silenttitan to Tic (b3)
+move b3 from Grogar to Sol
+sacrifice y2 at Sol; move y1 from Sol to Silenttitan; move r2 from Sol to Silenttitan
+build y2 at Twoshort
+build g1 at Silenttitan
+convert b3 to r3 at Sol
+move g1 from Silenttitan to Tac (b3)
+sacrifice y3 at Twoshort; move r2 from Grogar to Sol; move r2 from Sol to Silenttitan; move r3 from Sol to Silenttitan; catastrophe red at Silenttitan
+convert y2 to r2 at Tic
+move b2 from Grogar to Silenttitan
+pass
+sacrifice y2 at Twoshort; move b2 from Yolonda to Silenttitan; move b2 from Yolonda to Silenttitan; catastrophe blue at Silenttitan

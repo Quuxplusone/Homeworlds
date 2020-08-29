@@ -1,0 +1,24 @@
+Aristos (0, g3b2) y3-
+Goulo (1, r3b1) -g3
+build y1 at Aristos
+build g1 at Goulo
+move y1 from Aristos to Spark (b1)
+convert g1 to y1 at Goulo
+move y1 from Spark to Flash (g2)
+build g1 at Goulo
+build y1 at Aristos
+build y2 at Goulo
+build y2 at Flash
+convert y2 to r2 at Goulo
+convert y1 to b1 at Aristos
+move r2 from Goulo to Flash
+sacrifice y1 at Flash; move y2 from Flash to Refuge (r3)
+build y1 at Goulo
+build b1 at Aristos
+move y1 from Goulo to Flash
+convert b1 to g1 at Aristos
+move r2 from Flash to Citroneto (y1)
+convert g1 to r1 at Aristos
+build y2 at Flash
+build r1 at Aristos
+sacrifice g3 at Goulo; build y2 at Flash; build y3 at Goulo; build y3 at Goulo

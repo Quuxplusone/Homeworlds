@@ -1,0 +1,19 @@
+Andylooney (0, b1g2) y3-
+Chaosbreaker (1, b2g1) -y3
+build y1 at Andylooney
+build y1 at Chaosbreaker
+convert y1 to g1 at Andylooney
+convert y1 to g1 at Chaosbreaker
+build g2 at Andylooney
+build y1 at Chaosbreaker
+move g2 from Andylooney to Clampett (y3)
+move y1 from Chaosbreaker to Thor (g3)
+build y1 at Andylooney
+build g2 at Chaosbreaker
+build g3 at Clampett
+build g3 at Chaosbreaker
+convert g1 to r1 at Andylooney; catastrophe green at Chaosbreaker
+convert y3 to g3 at Chaosbreaker
+move g2 from Clampett to Plugh (y2)
+build g1 at Chaosbreaker
+sacrifice y3 at Andylooney; move g2 from Plugh to Clampett; move g2 from Clampett to Chaosbreaker; move g3 from Clampett to Chaosbreaker; catastrophe green at Chaosbreaker

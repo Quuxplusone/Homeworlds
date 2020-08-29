@@ -1,0 +1,85 @@
+Draw5Playall (0, b2r2) g3-
+Dlwillson (1, b3y1) -g3
+build g1 at Draw5Playall
+build g1 at Dlwillson
+convert g1 to y1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+build y1 at Draw5Playall
+build r1 at Dlwillson
+build y2 at Draw5Playall
+move r1 from Dlwillson to Mars (r2)
+move y2 from Draw5Playall to Rocket (g1)
+build r1 at Dlwillson
+move y1 from Draw5Playall to Taxation (b3)
+move r1 from Dlwillson to Sea (b2)
+sacrifice g3 at Draw5Playall; build y2 at Taxation; build y2 at Taxation; build y3 at Draw5Playall
+build r2 at Dlwillson
+build y3 at Rocket
+build r3 at Dlwillson
+build y3 at Rocket
+move r2 from Dlwillson to Sea
+move y3 from Rocket to Mars
+sacrifice r1 at Mars
+move y3 from Mars to Stealakeeper (b1)
+build r1 at Dlwillson
+convert y3 to r3 at Stealakeeper
+convert r3 to y3 at Dlwillson
+sacrifice y3 at Rocket; move y1 from Draw5Playall to Dlwillson; move y1 from Taxation to Sea; move y1 from Sea to Dlwillson; catastrophe yellow at Dlwillson
+convert r1 to y1 at Dlwillson
+convert y2 to g2 at Taxation
+convert r2 to g2 at Sea
+build y1 at Taxation
+build r1 at Dlwillson
+build g1 at Taxation
+build r2 at Sea
+convert g2 to r2 at Taxation
+convert r1 to b1 at Sea
+convert y1 to b1 at Taxation
+move r1 from Dlwillson to Sol (y1)
+move b1 from Taxation to Rocket
+build g1 at Dlwillson
+move y2 from Rocket to Countdown (r3)
+sacrifice g2 at Sea; build r1 at Sea; build r3 at Sol
+build g2 at Taxation
+move r3 from Sol to Taxation
+sacrifice y2 at Taxation; move g2 from Taxation to Stealakeeper; move r2 from Taxation to Moon (g2)
+capture g1 at Taxation
+build b2 at Rocket
+move r1 from Sol to Sky (b3)
+build g2 at Stealakeeper
+move g1 from Dlwillson to Sea
+sacrifice y2 at Countdown; move b2 from Rocket to Sea; move b1 from Rocket to Sea; catastrophe blue at Sea
+build y1 at Dlwillson
+convert g2 to y2 at Stealakeeper
+convert y1 to b1 at Dlwillson
+move g2 from Stealakeeper to Worldpeace (r3)
+build b1 at Dlwillson
+build r1 at Moon
+build r2 at Taxation
+sacrifice g2 at Worldpeace; build r3 at Stealakeeper; build y1 at Stealakeeper
+convert r3 to y3 at Taxation
+build r3 at Moon
+sacrifice y3 at Taxation; move r1 from Dlwillson to Moon; move r1 from Sky to Stealakeeper; move r2 from Taxation to Stealakeeper; catastrophe red at Moon; catastrophe red at Stealakeeper
+convert y2 to b2 at Stealakeeper
+convert b1 to r1 at Dlwillson
+move b2 from Stealakeeper to Money (g2)
+move b1 from Dlwillson to Field (g1)
+build b1 at Money
+build b2 at Field
+convert b2 to r2 at Money
+move y1 from Dlwillson to Field
+build b2 at Money
+move b1 from Field to Sol (y3)
+move y1 from Stealakeeper to Money
+build b1 at Field
+move b1 from Money to Field
+sacrifice g1 at Taxation; build b3 at Sol
+build b3 at Money
+move b1 from Sol to Field; catastrophe blue at Field
+convert b2 to y2 at Money
+move b3 from Sol to Field
+build b1 at Money
+build y1 at Field
+sacrifice y1 at Money; move b1 from Money to Recycling (y1)
+build y2 at Field
+move y2 from Money to Field; catastrophe yellow at Field

@@ -1,0 +1,76 @@
+Agentofchaos (0, b1r3) g3-
+Madwuher (1, r1b2) -g3
+build g1 at Agentofchaos
+build g1 at Madwuher
+convert g1 to y1 at Agentofchaos
+convert g1 to y1 at Madwuher
+build g1 at Agentofchaos
+build g1 at Madwuher
+move g1 from Agentofchaos to Shaka (y2)
+move g1 from Madwuher to Edora (y3)
+build y1 at Agentofchaos
+build y2 at Madwuher
+move y1 from Agentofchaos to Zoovar (b2)
+move y1 from Madwuher to Bologna (b3)
+build g1 at Agentofchaos
+sacrifice g3 at Madwuher; build y2 at Madwuher; build y3 at Madwuher; build y3 at Bologna
+build g2 at Shaka
+convert y2 to g2 at Madwuher
+sacrifice g2 at Shaka; build y2 at Zoovar; build g2 at Shaka
+build g2 at Madwuher
+convert g1 to r1 at Agentofchaos
+convert y2 to r2 at Madwuher
+build g1 at Agentofchaos
+build g3 at Edora
+build y2 at Agentofchaos
+convert y1 to r1 at Bologna
+move r1 from Agentofchaos to Shaka
+move g2 from Madwuher to Camelot (g3)
+build r2 at Shaka
+move r2 from Madwuher to Edora
+move r2 from Shaka to Camelot
+sacrifice g2 at Camelot; build g2 at Madwuher; build y1 at Madwuher
+sacrifice g3 at Agentofchaos; build r2 at Camelot; build r3 at Shaka; build g3 at Agentofchaos
+sacrifice g2 at Madwuher; build g2 at Madwuher; build r3 at Bologna
+convert y1 to b1 at Agentofchaos
+convert g2 to b2 at Madwuher
+build y1 at Agentofchaos
+sacrifice g3 at Edora; build g2 at Madwuher; build g3 at Edora; build b1 at Madwuher
+move b1 from Agentofchaos to Shaka
+move b2 from Madwuher to Edora
+move y1 from Zoovar to Camelot
+build b3 at Edora
+build b3 at Shaka
+move r3 from Bologna to Zoovar
+sacrifice y2 at Zoovar; move b3 from Shaka to Camelot; move b1 from Shaka to Camelot
+sacrifice b1 at Madwuher; convert b2 to y2 at Edora
+convert g1 to b1 at Agentofchaos
+build b2 at Edora
+move b1 from Agentofchaos to Shaka
+move y2 from Edora to Zoovar
+move g1 from Shaka to Edora
+move g1 from Edora to Zoovar
+move g1 from Edora to Madwuher
+sacrifice g2 at Madwuher; build g1 at Edora; build g2 at Zoovar
+sacrifice y2 at Agentofchaos; move b1 from Camelot to Madwuher; move b3 from Camelot to Madwuher
+sacrifice r3 at Zoovar; capture g1 at Madwuher; capture b3 at Madwuher; capture b1 at Madwuher
+build y2 at Camelot
+move b3 from Madwuher to Camelot
+build r3 at Camelot
+sacrifice r2 at Edora; capture r3 at Camelot; capture y2 at Camelot
+build r2 at Camelot; catastrophe red at Camelot
+sacrifice g2 at Zoovar; build g2 at Zoovar; build r2 at Bologna
+move r1 from Shaka to Bologna
+sacrifice r1 at Bologna; capture r1 at Bologna
+build r1 at Shaka
+move r2 from Bologna to Zoovar
+move r3 from Shaka to Irae (r3)
+sacrifice g3 at Edora; build g3 at Edora; build r2 at Bologna; build r2 at Zoovar
+sacrifice y1 at Agentofchaos; move r3 from Irae to Zoovar
+sacrifice g3 at Edora; build g3 at Edora; build y1 at Zoovar; build r3 at Zoovar; catastrophe red at Zoovar
+build r2 at Shaka
+move r1 from Bologna to Zoovar
+move r1 from Shaka to Bologna
+capture r1 at Bologna
+build r2 at Shaka
+sacrifice r1 at Bologna; capture y1 at Camelot

@@ -1,0 +1,11 @@
+Felix (0, b1r3) g3-
+Wil (1, g2b1) -b3
+build g1 at Felix
+build b1 at Wil
+convert g3 to b3 at Felix
+convert b3 to y3 at Wil
+build b2 at Felix
+build b2 at Wil
+convert b3 to y3 at Felix
+convert b1 to r1 at Wil
+build g1 at Felix

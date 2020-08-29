@@ -1,0 +1,67 @@
+Zoltar (0, r3b2) g3-
+Dethdukk (1, r1b3) -g3
+build g1 at Zoltar
+build g1 at Dethdukk
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Dethdukk
+build g1 at Zoltar
+build g1 at Dethdukk
+convert g1 to r1 at Zoltar
+build g1 at Dethdukk
+build r1 at Zoltar
+move g1 from Dethdukk to Smallstep (b2)
+move r1 from Zoltar to Blueberry (b1)
+convert g1 to b1 at Dethdukk
+build r2 at Zoltar
+build g1 at Dethdukk
+convert r2 to y2 at Zoltar
+build g1 at Dethdukk
+build g2 at Zoltar
+move g1 from Dethdukk to Giantleap (y2)
+move g2 from Zoltar to Blueberry
+build b1 at Dethdukk
+build r2 at Blueberry
+move b1 from Dethdukk to Giantleap
+sacrifice y1 at Zoltar; move r2 from Blueberry to Giantleap
+build b2 at Giantleap
+capture b2 at Giantleap
+build b3 at Giantleap
+sacrifice g2 at Blueberry; build r2 at Blueberry; build b3 at Giantleap; catastrophe blue at Giantleap
+move g1 from Giantleap to Pin (r3)
+convert r2 to g2 at Blueberry
+build b1 at Dethdukk
+sacrifice g3 at Zoltar; build r2 at Blueberry; build r2 at Giantleap; build r3 at Zoltar
+move b1 from Dethdukk to Chess (b2)
+convert r3 to g3 at Zoltar
+build b3 at Dethdukk
+build r3 at Blueberry
+sacrifice g1 at Dethdukk; build b3 at Chess
+sacrifice y2 at Zoltar; move r2 from Blueberry to Smallstep; move r3 from Blueberry to Chess
+sacrifice b3 at Chess; convert b1 to g1 at Chess; convert g1 to b1 at Pin; convert b3 to g3 at Dethdukk
+sacrifice r2 at Giantleap; capture g1 at Chess; capture g1 at Smallstep
+sacrifice g3 at Dethdukk; build b3 at Dethdukk; build b3 at Pin; build y1 at Dethdukk
+build r2 at Chess
+convert b3 to g3 at Pin
+convert r3 to y3 at Chess
+build b3 at Pin
+build r3 at Smallstep
+move y1 from Dethdukk to Expansion (y2)
+sacrifice y3 at Chess; move r1 from Blueberry to Pin; move r2 from Giantleap to Pin; move r2 from Smallstep to Pin; catastrophe red at Pin
+move b3 from Dethdukk to Reboot (r2)
+build r1 at Smallstep
+sacrifice g3 at Dethdukk; build b1 at Reboot; build b3 at Dethdukk; build y1 at Dethdukk
+sacrifice g2 at Blueberry; build r2 at Smallstep; build r3 at Chess
+convert b3 to g3 at Dethdukk
+convert r3 to y3 at Smallstep
+convert b3 to r3 at Reboot
+convert r3 to y3 at Chess
+sacrifice g3 at Dethdukk; build b1 at Reboot; build b3 at Dethdukk; build b3 at Reboot
+sacrifice g3 at Zoltar; build r3 at Zoltar; build y2 at Chess; build y2 at Smallstep
+move y1 from Dethdukk to Reboot
+convert r3 to y3 at Zoltar
+convert b3 to g3 at Dethdukk
+move r1 from Smallstep to Blueyoudonthave (b3)
+convert b1 to g1 at Reboot
+sacrifice y3 at Smallstep; move r1 from Zoltar to Wormhole (b1); move r1 from Wormhole to Reboot; move r1 from Blueyoudonthave to Reboot; catastrophe red at Reboot
+build b1 at Dethdukk
+convert y3 to g3 at Chess

@@ -1,0 +1,41 @@
+Master_Tactician (0, b1r3) g3-
+Poggydude (1, b2y1) -g3
+build g1 at Master_Tactician
+build g1 at Poggydude
+convert g1 to y1 at Master_Tactician
+convert g1 to r1 at Poggydude
+move g3 from Master_Tactician to Masonsbutthole (b2)
+build g1 at Poggydude
+build g1 at Masonsbutthole
+build r1 at Poggydude
+convert g1 to r1 at Masonsbutthole
+convert r1 to y1 at Poggydude
+build r1 at Masonsbutthole
+build r2 at Poggydude
+convert y1 to g1 at Master_Tactician
+build r2 at Poggydude
+convert r1 to y1 at Masonsbutthole
+build y2 at Poggydude
+build y2 at Masonsbutthole
+sacrifice y2 at Poggydude; move r2 from Poggydude to Orion (b3); move g1 from Poggydude to Orion
+build y2 at Masonsbutthole
+convert r2 to y2 at Orion
+move y2 from Masonsbutthole to Orion
+sacrifice r1 at Poggydude; capture y2 at Orion
+build r1 at Masonsbutthole
+move y2 from Orion to Ursa (g2)
+move y2 from Masonsbutthole to Master_Tactician
+build y3 at Ursa
+build y3 at Master_Tactician
+build y3 at Orion
+move y2 from Master_Tactician to Alphacucktauri (g2)
+convert y3 to g3 at Orion
+build y3 at Master_Tactician
+sacrifice g3 at Orion; build g1 at Poggydude; build g2 at Poggydude; build g3 at Orion
+move y3 from Master_Tactician to Ursa
+move g3 from Orion to Ursa
+sacrifice r1 at Masonsbutthole; capture g3 at Ursa
+sacrifice r2 at Poggydude; capture y3 at Ursa; capture g3 at Ursa
+move y3 from Master_Tactician to Ursa; catastrophe yellow at Ursa
+sacrifice y1 at Poggydude; move g3 from Ursa to Master_Tactician
+sacrifice g3 at Masonsbutthole; build g2 at Master_Tactician; build g3 at Master_Tactician; build y1 at Alphacucktauri

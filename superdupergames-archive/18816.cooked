@@ -1,0 +1,66 @@
+Buttons (0, y1b2) g3-
+Silenttitan (1, r3b2) -g3
+build g1 at Buttons
+build g1 at Silenttitan
+convert g1 to y1 at Buttons
+convert g1 to y1 at Silenttitan
+build y2 at Buttons
+build y2 at Silenttitan
+convert y1 to r1 at Buttons
+build g1 at Silenttitan
+build g1 at Buttons
+move y1 from Silenttitan to Pak (b1)
+move g1 from Buttons to Senseofconquest (y3)
+build y1 at Silenttitan
+move y2 from Buttons to Bloomandgrow (g3)
+move y1 from Silenttitan to Sic (b1)
+build r1 at Buttons
+sacrifice g3 at Silenttitan; build y2 at Pak; build y3 at Sic; build y3 at Silenttitan
+convert r1 to b1 at Buttons
+convert y3 to b3 at Sic
+build y3 at Bloomandgrow
+sacrifice y2 at Silenttitan; move y2 from Pak to Bloomandgrow; move y1 from Pak to Bloomandgrow; catastrophe yellow at Bloomandgrow
+build r1 at Buttons
+build y1 at Silenttitan
+move r1 from Buttons to Dtmgffbank (b3)
+convert y3 to g3 at Silenttitan
+build r1 at Buttons
+sacrifice g3 at Silenttitan; build y2 at Sic; build y2 at Sic; build y2 at Silenttitan
+build r2 at Buttons
+build y3 at Silenttitan
+move r2 from Buttons to Senseofconquest
+convert b3 to r3 at Sic
+build g1 at Buttons
+move y2 from Sic to Rosy (r3)
+move r2 from Senseofconquest to Lacuna (b2)
+convert y3 to g3 at Silenttitan
+move g1 from Buttons to Seventeenpigs (y3)
+build y3 at Silenttitan
+build b1 at Buttons
+move y2 from Sic to Sox (b3)
+move b1 from Buttons to Seventeenpigs
+convert y3 to b3 at Silenttitan
+build g2 at Buttons
+sacrifice g1 at Silenttitan; build y3 at Sox
+move g1 from Seventeenpigs to Lacuna
+convert y3 to g3 at Sox
+sacrifice r1 at Dtmgffbank
+sacrifice g3 at Sox; build y3 at Sox; build b3 at Silenttitan; build g1 at Silenttitan
+build g2 at Senseofconquest
+sacrifice y3 at Sox; move b3 from Silenttitan to Sic; move b3 from Sic to Rosy; move b3 from Silenttitan to Sic
+move b1 from Buttons to Senseofconquest
+move r3 from Sic to Lacuna
+move r1 from Buttons to Impendingdoom (g3)
+capture r2 at Lacuna
+sacrifice g2 at Senseofconquest; build r1 at Buttons; build r2 at Impendingdoom
+move b3 from Sic to Impendingdoom
+move b1 from Senseofconquest to Sic
+sacrifice r3 at Lacuna; capture r2 at Impendingdoom; capture r1 at Impendingdoom; capture b1 at Sic
+build g2 at Senseofconquest
+sacrifice y2 at Sox; move b3 from Impendingdoom to Buttons; move b3 from Rosy to Buttons
+capture b3 at Buttons
+sacrifice r2 at Impendingdoom; capture b3 at Buttons; capture g3 at Buttons
+move b1 from Seventeenpigs to Buttons; catastrophe blue at Buttons
+sacrifice b1 at Sic; convert g3 to y3 at Buttons
+move g1 from Senseofconquest to Buttonsn (b1)
+sacrifice y2 at Rosy; move y2 from Silenttitan to Buttons; move y1 from Silenttitan to Buttons; catastrophe yellow at Buttons

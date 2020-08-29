@@ -1,0 +1,40 @@
+Kanzenryu (0, r1b2) g3-
+Wil (1, y3b1) -g3
+build g1 at Kanzenryu
+build g1 at Wil
+convert g1 to y1 at Kanzenryu
+convert g1 to b1 at Wil
+build y1 at Kanzenryu
+build b1 at Wil
+move y1 from Kanzenryu to Out (g3)
+move b1 from Wil to B2 (b2)
+build y1 at Out
+build b2 at Wil
+build y2 at Kanzenryu
+move b1 from Wil to G3 (g2)
+build y2 at Out
+sacrifice g3 at Wil; build b3 at Wil; build b3 at G3; build b3 at B2
+build g1 at Kanzenryu
+convert b3 to y3 at G3
+move y2 from Out to Along (g2)
+convert b3 to y3 at B2
+move y2 from Kanzenryu to Bigblue (b3)
+build b3 at G3
+build y2 at Along
+convert b3 to r3 at G3
+convert g1 to r1 at Kanzenryu
+build b3 at G3
+move y2 from Along to Wil
+move r3 from G3 to Wil
+sacrifice y2 at Bigblue; move y1 from Out to Along; move y1 from Along to Wil
+capture y2 at Wil
+move y2 from Along to Wil; catastrophe yellow at Wil
+convert b3 to g3 at Wil
+build g1 at Kanzenryu
+convert b3 to r3 at G3
+build g1 at Kanzenryu
+build g1 at Wil
+move g1 from Kanzenryu to Blob (y3)
+move r3 from G3 to Blob
+build g2 at Blob
+sacrifice y3 at G3; move r3 from Blob to Kanzenryu; move y3 from B2 to Blob; move y3 from Blob to Kanzenryu

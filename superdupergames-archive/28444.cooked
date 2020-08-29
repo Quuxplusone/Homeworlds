@@ -1,0 +1,67 @@
+Endo (0, y1b2) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Endo
+build g1 at Dlwillson
+convert g1 to y1 at Endo
+convert g1 to y1 at Dlwillson
+build y2 at Endo
+build y2 at Dlwillson
+convert y1 to r1 at Endo
+move y1 from Dlwillson to Sky (b2)
+build r1 at Endo
+sacrifice g3 at Dlwillson; build y1 at Sky; build y2 at Sky; build y3 at Dlwillson
+move y2 from Endo to Zf (g3)
+convert y1 to g1 at Sky
+build y1 at Zf
+convert y3 to g3 at Dlwillson
+move y1 from Zf to Kp (g2)
+convert y2 to r2 at Sky
+build r2 at Endo
+build r2 at Sky
+move r2 from Endo to Zf
+convert r2 to g2 at Sky
+move r1 from Endo to Nf (y3)
+move g1 from Sky to Sol (y3)
+sacrifice g3 at Endo; build r2 at Zf; build r3 at Endo; build r3 at Nf
+build r3 at Sky
+convert r3 to g3 at Endo
+convert r3 to y3 at Sky
+build r3 at Endo
+sacrifice g2 at Sky; build y2 at Dlwillson; build r3 at Sky
+convert r3 to b3 at Endo
+move r3 from Sky to Zf
+build r3 at Zf; catastrophe red at Zf
+move y1 from Sky to Sea (b3)
+move b3 from Endo to Sol
+move g1 from Sol to Sky
+build r2 at Endo
+convert y2 to r2 at Dlwillson
+move r2 from Endo to Sea
+move r2 from Dlwillson to Kp
+sacrifice g3 at Endo; build y2 at Zf; build r3 at Endo; build r3 at Sea
+capture y1 at Kp
+capture y1 at Sea
+convert y3 to g3 at Sky
+move r1 from Endo to Tg (y3)
+move r2 from Kp to Tg
+convert r2 to g2 at Sea
+build r2 at Sky
+move r1 from Tg to Endo
+move r2 from Tg to Endo
+convert r3 to y3 at Endo
+capture r1 at Endo
+build r3 at Sea
+sacrifice y2 at Dlwillson; move r2 from Sky to Sea; move r2 from Endo to Sea; catastrophe red at Sea
+build y2 at Sea
+build g1 at Dlwillson
+build g1 at Sea
+convert g1 to b1 at Sky
+sacrifice r1 at Nf; capture r1 at Endo
+move y1 from Kp to Dlwillson
+sacrifice g2 at Sea; build b1 at Sol; build r1 at Nf
+move y1 from Dlwillson to Sky
+sacrifice y2 at Zf; move b1 from Sol to Sky; move b3 from Sol to Sky; catastrophe blue at Sky
+convert g3 to y3 at Dlwillson
+move y1 from Sea to Nbg (g2)
+build y1 at Dlwillson
+sacrifice y3 at Endo; move y2 from Zf to Nbg; move y1 from Nbg to Dlwillson; move y2 from Nbg to Dlwillson; catastrophe yellow at Dlwillson

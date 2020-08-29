@@ -1,0 +1,45 @@
+Silenttitan (0, b3r2) g3-
+Aqurk (1, y3g2) -b3
+build g1 at Silenttitan
+build b1 at Aqurk
+build g1 at Silenttitan
+convert b1 to g1 at Aqurk
+convert g1 to y1 at Silenttitan
+build b1 at Aqurk
+build y1 at Silenttitan
+convert b1 to y1 at Aqurk
+build y2 at Silenttitan
+build b1 at Aqurk
+move y1 from Silenttitan to Scoop (g1)
+convert b3 to r3 at Aqurk
+build y2 at Scoop
+move y1 from Aqurk to Scoop
+sacrifice y2 at Silenttitan; move y2 from Scoop to Aqurk; move y1 from Scoop to Aqurk
+capture y2 at Aqurk
+build y2 at Aqurk; catastrophe yellow at Aqurk
+move y1 from Scoop to Aqurk
+move g1 from Silenttitan to Scraps (y1)
+build r1 at Aqurk
+build y2 at Silenttitan
+build y2 at Aqurk
+build g1 at Scraps
+move g1 from Aqurk to Scraps
+sacrifice y2 at Silenttitan; move g1 from Scraps to Aqurk; move g1 from Scraps to Aqurk
+sacrifice r3 at Aqurk; capture g1 at Aqurk; capture g1 at Aqurk
+build y2 at Silenttitan
+move g1 from Aqurk to Scraps
+convert y2 to r2 at Silenttitan
+sacrifice g1 at Scraps; build y2 at Aqurk
+move r2 from Silenttitan to Scraps
+convert y2 to r2 at Aqurk
+capture g1 at Scraps
+build y2 at Aqurk
+build y2 at Silenttitan
+convert y1 to b1 at Aqurk
+build g1 at Scraps
+move g1 from Aqurk to Kobold (y3)
+move g1 from Scraps to Junk (y3)
+move r2 from Aqurk to Junk
+sacrifice g3 at Silenttitan; build g2 at Junk; build g2 at Scraps; build r1 at Scraps
+capture g2 at Junk
+sacrifice y2 at Silenttitan; move g1 from Junk to Aqurk; move g2 from Scraps to Aqurk

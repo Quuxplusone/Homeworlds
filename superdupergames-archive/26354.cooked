@@ -1,0 +1,57 @@
+Teeteetee (0, y1b2) g3-
+Wil (1, b3r1) -g3
+build g1 at Teeteetee
+build g1 at Wil
+convert g1 to r1 at Teeteetee
+convert g1 to r1 at Wil
+build r2 at Teeteetee
+build r2 at Wil
+build r2 at Teeteetee
+convert r2 to y2 at Wil
+move r1 from Teeteetee to Mercia (b3)
+move r1 from Wil to G2 (g2)
+move r2 from Teeteetee to Wessex (y3)
+build y1 at Wil
+move r2 from Wessex to G2
+sacrifice y1 at Wil; move r1 from G2 to Wil
+build g1 at Teeteetee
+build y1 at Wil
+convert g1 to y1 at Teeteetee
+move r1 from Wil to Gee2 (g2)
+sacrifice g3 at Teeteetee; build r2 at G2; build r3 at Mercia; build r3 at Teeteetee
+build r3 at Gee2
+convert r3 to g3 at Mercia
+build y2 at Wil
+move y1 from Teeteetee to Mercia
+sacrifice y1 at Wil; move r3 from Gee2 to G3 (g3)
+build r3 at Mercia
+build g1 at Wil
+move r3 from Mercia to Gee2
+build y1 at Wil
+build y2 at Mercia
+move y2 from Wil to Gtoo (g2)
+move y1 from Mercia to G2
+sacrifice g3 at Wil; build y3 at Wil; build y3 at Gtoo; build y3 at Gtoo
+convert r3 to g3 at Teeteetee
+sacrifice y1 at Wil; move y3 from Gtoo to R3 (r3)
+capture r1 at Gee2
+build g1 at Wil
+build g1 at Mercia
+move g1 from Wil to Gee2
+capture g1 at Gee2
+move y2 from Wil to B2 (b2)
+build y1 at G2
+move y2 from Gtoo to G3
+convert r2 to b2 at Teeteetee
+build r2 at G3
+sacrifice y2 at Mercia; move r1 from Gee2 to G3; move r2 from G2 to G3; catastrophe red at G3
+build y2 at G3
+sacrifice g3 at Mercia; build g3 at Mercia; build r1 at Gee2; build r2 at G2
+move y2 from G3 to Teeteetee
+sacrifice r1 at Gee2; capture y2 at Teeteetee
+sacrifice y2 at B2; move y2 from G3 to Teeteetee; move y3 from R3 to Teeteetee; catastrophe yellow at Teeteetee
+sacrifice g3 at Mercia; build g3 at Mercia; build g3 at Teeteetee; build r1 at Gee2
+build y1 at Wil
+convert b2 to y2 at Teeteetee
+convert y3 to b3 at Wil
+sacrifice y2 at Teeteetee; move g3 from Teeteetee to Wil; move r3 from Gee2 to Wil

@@ -1,0 +1,87 @@
+Trydnt (0, b3r2) g3-
+Mneme (1, b1g2) -r3
+build g1 at Trydnt
+build r1 at Mneme
+build g1 at Trydnt
+convert r1 to y1 at Mneme
+convert g1 to y1 at Trydnt
+build r1 at Mneme
+build g1 at Trydnt
+convert r1 to g1 at Mneme
+convert g1 to b1 at Trydnt
+build r1 at Mneme
+build b1 at Trydnt
+build r1 at Mneme
+move b1 from Trydnt to G1 (g1)
+build g2 at Mneme
+build g2 at Trydnt
+move g2 from Mneme to Melpomene (g3)
+convert g2 to y2 at Trydnt
+move g1 from Mneme to Calliope (b3)
+build b2 at G1
+move r1 from Mneme to Clio (b3)
+convert b2 to r2 at G1
+convert r3 to g3 at Mneme
+build b2 at G1
+build g2 at Calliope
+convert b2 to y2 at G1
+convert g2 to y2 at Calliope
+move y2 from Trydnt to R1 (r1)
+sacrifice g2 at Melpomene; build y1 at Mneme; build y3 at Calliope
+sacrifice g3 at Trydnt; build y3 at Trydnt; build y3 at G1; build g2 at Trydnt
+sacrifice g3 at Mneme; build r2 at Mneme; build r3 at Clio; build r3 at Mneme
+sacrifice g2 at Trydnt; build r3 at G1; build b2 at G1
+convert r3 to g3 at Mneme
+sacrifice y2 at G1; move y3 from G1 to R3 (r3); move b2 from G1 to G3 (g3)
+move y3 from Calliope to R1
+sacrifice y2 at R1; move b2 from G3 to R1; move b2 from R1 to R3
+build y2 at Calliope
+build g2 at Trydnt
+build y2 at Calliope
+sacrifice g2 at Trydnt; build b2 at R3; build b2 at R3
+move y2 from Calliope to R1
+move y1 from Trydnt to G1
+move y1 from Mneme to Clio
+convert b2 to g2 at R3
+sacrifice y1 at Clio; move r1 from Clio to Melpomene (y1)
+build b2 at R3
+sacrifice y3 at R1; move r1 from Melpomene to R3; move r1 from Mneme to R3; move r2 from Mneme to R3; catastrophe red at R3
+build g2 at Trydnt
+build g2 at Calliope
+move r3 from G1 to Calliope
+sacrifice g3 at Mneme; build y1 at Calliope; build y3 at Mneme; build y3 at R1
+sacrifice r2 at G1; capture g2 at Calliope; capture g1 at Calliope
+sacrifice y2 at Calliope; move y2 from Calliope to G1; move r3 from Clio to G1
+capture y1 at Calliope
+convert y1 to r1 at Mneme
+sacrifice y1 at G1; move b1 from G1 to Y2 (y2)
+build y1 at G1
+build g3 at Trydnt
+build r1 at G1
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y1 at Calliope; build g3 at Calliope
+build r2 at Mneme
+move g3 from Calliope to Y2
+convert r2 to b2 at Mneme
+sacrifice g3 at Trydnt; build g3 at Trydnt; build g3 at Y2; build b2 at Y2
+sacrifice b2 at Mneme; convert r3 to b3 at G1; convert y2 to b2 at R1
+sacrifice y1 at Calliope; move b1 from Trydnt to Y1 (y1)
+build b2 at G1
+sacrifice g3 at Y2; build g3 at Y2; build y2 at Trydnt; build r2 at Calliope
+build r2 at Mneme
+move g2 from Trydnt to G1
+move y3 from R1 to Trydnt
+capture y3 at Trydnt
+move y1 from G1 to Trydnt; catastrophe yellow at Trydnt
+sacrifice g1 at Calliope; build g1 at G1
+move b3 from G1 to Trydnt
+sacrifice r3 at Calliope; capture b3 at Trydnt; capture b2 at G1; capture y2 at G1
+build r3 at G1
+sacrifice g1 at Trydnt; build g1 at G1; catastrophe green at G1
+build y1 at Mneme
+build y2 at Calliope
+convert y1 to g1 at Mneme
+sacrifice y2 at Calliope; move g3 from Y2 to Calliope; move g3 from Calliope to Mneme
+capture g3 at Mneme
+move g2 from Calliope to Mneme; catastrophe green at Mneme
+convert r2 to g2 at Mneme
+convert b3 to y3 at Trydnt

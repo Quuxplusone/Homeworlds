@@ -1,0 +1,80 @@
+Ladybugsfly (0, y3g2) b3-
+Felix (1, r1b3) -g3
+build b1 at Ladybugsfly
+build g1 at Felix
+move b1 from Ladybugsfly to Squirtle (g1)
+convert g1 to y1 at Felix
+build b1 at Ladybugsfly
+build y1 at Felix
+move b1 from Ladybugsfly to Wartortle (g1)
+convert y1 to b1 at Felix
+build b2 at Squirtle
+build b2 at Felix
+build b2 at Wartortle
+convert b2 to y2 at Felix
+convert b2 to y2 at Squirtle
+move b1 from Felix to Rim (g2)
+convert b1 to r1 at Wartortle
+convert y1 to r1 at Felix
+build r2 at Wartortle
+move r1 from Felix to Rim
+build y1 at Squirtle
+build r2 at Rim
+convert r1 to y1 at Wartortle
+convert r2 to y2 at Rim
+build b1 at Ladybugsfly
+build b2 at Rim
+convert b3 to g3 at Ladybugsfly
+move b2 from Rim to Pax (g1)
+sacrifice g3 at Ladybugsfly; build b2 at Wartortle; build b3 at Squirtle; build b3 at Ladybugsfly
+build g2 at Felix
+sacrifice y2 at Squirtle; move b3 from Squirtle to Blastoise (y2); move y1 from Squirtle to Blastoise
+build g3 at Felix
+sacrifice b1 at Squirtle; convert y1 to g1 at Blastoise
+sacrifice g2 at Felix; build b1 at Pax; build y1 at Rim
+convert b1 to r1 at Ladybugsfly
+sacrifice g3 at Felix; build y1 at Rim; build y3 at Felix; build y3 at Felix
+sacrifice b2 at Wartortle; convert b3 to g3 at Blastoise; convert b3 to g3 at Ladybugsfly
+build g2 at Felix
+move g3 from Blastoise to Felix
+capture g3 at Felix
+move g1 from Blastoise to Felix; catastrophe green at Felix
+convert b2 to y2 at Pax
+move y1 from Wartortle to Pikachu (g2)
+move y2 from Felix to Pikachu
+move y1 from Pikachu to Wartortle
+build b1 at Pax
+move y1 from Wartortle to Rim; catastrophe yellow at Rim
+build r2 at Rim
+convert r2 to y2 at Wartortle
+convert r1 to y1 at Rim
+build y1 at Wartortle
+convert y3 to g3 at Felix
+build r1 at Ladybugsfly
+build g1 at Felix
+move r1 from Ladybugsfly to Wartortle
+build g3 at Felix
+build r2 at Wartortle
+sacrifice g3 at Felix; build g3 at Felix; build y1 at Pikachu; build y3 at Rim
+move r1 from Wartortle to Riachu (b2)
+move y3 from Rim to Wartortle
+sacrifice g3 at Ladybugsfly; build r2 at Wartortle; build r3 at Wartortle; build r3 at Ladybugsfly
+move r2 from Rim to Wartortle; catastrophe red at Wartortle
+move r3 from Ladybugsfly to Wartortle
+move y3 from Wartortle to Rim
+move r3 from Wartortle to Rim
+sacrifice y3 at Rim; move b1 from Pax to Ladybugsfly; move b1 from Pax to Ladybugsfly; move y2 from Pax to Ladybugsfly
+sacrifice y2 at Wartortle; move r3 from Rim to Wartortle; move r3 from Wartortle to Ladybugsfly
+sacrifice g3 at Felix; build y2 at Ladybugsfly; build y3 at Ladybugsfly; build b2 at Ladybugsfly; catastrophe yellow at Ladybugsfly
+build b3 at Wartortle
+convert b2 to r2 at Ladybugsfly
+capture r2 at Ladybugsfly
+convert g3 to r3 at Felix
+sacrifice r2 at Ladybugsfly; capture b1 at Ladybugsfly; capture b1 at Ladybugsfly
+build b2 at Rim
+move b3 from Wartortle to Pikachu
+build g1 at Felix
+build b3 at Pikachu
+build g3 at Felix
+sacrifice r1 at Riachu; capture y2 at Pikachu
+sacrifice y3 at Felix; move g1 from Felix to Ladybugsfly; move g1 from Felix to Ladybugsfly; move g3 from Felix to Ladybugsfly; catastrophe green at Ladybugsfly

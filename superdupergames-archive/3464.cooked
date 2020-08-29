@@ -1,0 +1,47 @@
+Danner (0, g1b2) r3-
+Sztyuni (1, g3b2) -r3
+build r1 at Danner
+build r1 at Sztyuni
+convert r1 to y1 at Danner
+build r1 at Sztyuni
+build r1 at Danner
+build r2 at Sztyuni
+build r2 at Danner
+sacrifice r3 at Sztyuni
+move r2 from Danner to Constructcenter (g3)
+convert r1 to y1 at Sztyuni
+convert r1 to b1 at Danner
+move r2 from Sztyuni to Ja (g1)
+move b1 from Danner to Constructcenter
+build r1 at Sztyuni
+build r1 at Constructcenter
+build r2 at Sztyuni
+build r3 at Danner
+build r3 at Ja
+build b1 at Constructcenter
+build y1 at Sztyuni
+build y2 at Danner
+move y1 from Sztyuni to Ja
+sacrifice y2 at Danner; move r1 from Constructcenter to Ja; move r2 from Constructcenter to Ja; catastrophe red at Ja
+convert r1 to b1 at Sztyuni
+build y2 at Danner
+move b1 from Sztyuni to Ja
+build y2 at Danner
+build r1 at Sztyuni
+convert b1 to r1 at Constructcenter
+move r1 from Sztyuni to Ja
+build r2 at Constructcenter
+build b1 at Ja
+build b2 at Constructcenter
+move b1 from Ja to Sztyuni
+sacrifice y2 at Danner; move r3 from Danner to Constructcenter; move r3 from Constructcenter to Ja
+build b3 at Sztyuni
+sacrifice y2 at Danner; move b1 from Constructcenter to Ja; move b1 from Ja to Sztyuni; catastrophe blue at Sztyuni
+build y2 at Sztyuni
+build y2 at Danner
+build r2 at Ja
+build r3 at Danner
+sacrifice y2 at Sztyuni; move r1 from Sztyuni to Danner; move r2 from Sztyuni to Danner; catastrophe red at Danner
+sacrifice y1 at Danner; move r3 from Ja to Sztyuni
+move r1 from Ja to Sztyuni
+sacrifice r2 at Constructcenter; capture y1 at Sztyuni; capture r1 at Sztyuni

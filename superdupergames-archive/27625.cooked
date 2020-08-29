@@ -1,0 +1,63 @@
+Wil (0, b3y1) g3-
+Jrandom (1, b1g2) -y3
+build g1 at Wil
+build y1 at Jrandom
+convert g1 to y1 at Wil
+build y2 at Jrandom
+build y2 at Wil
+convert y2 to g2 at Jrandom
+move y2 from Wil to B2 (b2)
+build g1 at Jrandom
+convert y1 to r1 at Wil
+move g2 from Jrandom to Abalone (r3)
+build r1 at Wil
+move y1 from Jrandom to Bartleby (b3)
+move r1 from Wil to G2 (g2)
+convert y1 to g1 at Bartleby
+move y2 from B2 to Bartleby
+build y1 at Jrandom
+sacrifice r1 at G2; capture g1 at Bartleby
+convert y1 to r1 at Jrandom
+build g1 at Wil
+build y1 at Jrandom
+move g1 from Wil to Y2 (y2)
+move y1 from Jrandom to Abalone
+build g2 at Y2
+build g3 at Abalone
+build g3 at Wil
+convert g1 to b1 at Jrandom
+move g2 from Y2 to Abalone
+move g2 from Abalone to Y2
+move g1 from Y2 to Abalone
+capture g2 at Abalone
+sacrifice g3 at Wil; build g1 at Abalone; build r1 at Wil; build g3 at Wil; catastrophe green at Abalone
+build r2 at Jrandom
+move r1 from Wil to G2 (g2)
+move r2 from Jrandom to Bartleby
+sacrifice r1 at G2; capture r2 at Bartleby
+build g1 at Y2
+move g3 from Wil to B2 (b2)
+move y1 from Abalone to Y2
+build g1 at B2
+build r1 at Jrandom
+build g2 at Bartleby
+move g1 from Y2 to Cooper (g3)
+sacrifice g3 at B2; build g3 at B2; build r2 at Bartleby; build y1 at Bartleby
+build y2 at Jrandom
+sacrifice g3 at B2; build g3 at B2; build r2 at Wil; build r3 at Wil
+build r3 at Jrandom
+move r2 from Bartleby to Jrandom; catastrophe red at Jrandom
+convert y3 to r3 at Jrandom
+move y1 from Bartleby to B2
+build y3 at Jrandom
+sacrifice g3 at B2; build g3 at B2; build y3 at B2; build y3 at Bartleby
+move y2 from Jrandom to Cooper
+move r3 from Wil to Y2
+move g2 from Y2 to Cooper
+move g1 from B2 to Cooper; catastrophe green at Cooper
+convert y3 to g3 at Jrandom
+sacrifice y2 at Bartleby; move g1 from Bartleby to Jrandom; move g2 from Bartleby to Jrandom; catastrophe green at Jrandom
+convert b1 to g1 at Jrandom
+sacrifice y3 at B2; move y3 from Bartleby to Jrandom; move g3 from B2 to Bartleby; move g3 from Bartleby to Jrandom
+capture g3 at Jrandom
+sacrifice r3 at Y2; capture g3 at Jrandom; capture r3 at Jrandom; capture g1 at Jrandom

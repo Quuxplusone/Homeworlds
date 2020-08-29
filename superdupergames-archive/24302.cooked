@@ -1,0 +1,27 @@
+Scotward (0, g3r1) b3-
+Erik2Point0 (1, b1g2) -y3
+build b1 at Scotward
+build y1 at Erik2Point0
+convert b1 to y1 at Scotward
+convert y1 to g1 at Erik2Point0
+build y1 at Scotward
+build g1 at Erik2Point0
+convert y1 to g1 at Scotward
+move g1 from Erik2Point0 to Intrigue (y3)
+build g2 at Scotward
+build g2 at Erik2Point0
+move g2 from Scotward to Mystery (b2)
+build g3 at Intrigue
+build g3 at Mystery
+convert g1 to r1 at Erik2Point0
+convert g2 to y2 at Mystery
+build y1 at Erik2Point0
+build g1 at Mystery
+convert y1 to b1 at Erik2Point0
+build g2 at Scotward
+sacrifice y3 at Erik2Point0; move g1 from Intrigue to Mystery; move g1 from Mystery to Scotward; move g2 from Erik2Point0 to Seaside (b3); catastrophe green at Scotward
+sacrifice y2 at Mystery; move g3 from Mystery to Intrigue; move g3 from Intrigue to Erik2Point0
+build g1 at Intrigue
+convert g1 to r1 at Mystery
+convert r1 to y1 at Erik2Point0
+convert g3 to r3 at Erik2Point0

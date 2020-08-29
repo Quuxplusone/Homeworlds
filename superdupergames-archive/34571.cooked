@@ -1,0 +1,40 @@
+Speardane (0, y3b1) g3-
+Mneme (1, g3r2) -b3
+build g1 at Speardane
+build b1 at Mneme
+move g1 from Speardane to Delos (b2)
+build b1 at Mneme
+build g1 at Delos
+convert b3 to y3 at Mneme
+build g1 at Speardane
+build b2 at Mneme
+convert g3 to r3 at Speardane
+move b2 from Mneme to Terpsicore (y1)
+build g2 at Delos
+build b2 at Mneme
+convert g2 to y2 at Delos
+convert b2 to r2 at Mneme
+convert g1 to r1 at Delos
+build b2 at Mneme
+build g1 at Delos
+move b2 from Mneme to Urania (y1)
+build r1 at Speardane
+build b3 at Mneme
+convert r3 to b3 at Speardane
+convert b3 to g3 at Mneme
+build b3 at Speardane
+sacrifice y3 at Mneme; move b1 from Mneme to Terpsicore; move b1 from Terpsicore to Delos; move b1 from Delos to Speardane; catastrophe blue at Speardane
+convert g1 to b1 at Delos
+sacrifice g3 at Mneme; build b1 at Urania; build b3 at Mneme; build b3 at Terpsicore
+move b1 from Delos to Speardane
+move b3 from Terpsicore to Speardane
+build b3 at Speardane
+sacrifice r2 at Mneme; capture b3 at Speardane; capture r1 at Speardane
+sacrifice r1 at Delos; capture r1 at Speardane
+convert b3 to r3 at Speardane
+build b3 at Speardane
+capture b3 at Speardane
+build g1 at Speardane
+capture r1 at Speardane
+pass
+sacrifice b3 at Mneme; convert r3 to y3 at Speardane; convert b3 to y3 at Speardane; convert r1 to y1 at Speardane; catastrophe yellow at Speardane

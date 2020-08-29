@@ -1,0 +1,46 @@
+Dlwillson (0, y3b2) g3-
+Felix (1, r1b3) -g3
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to r1 at Dlwillson
+convert g1 to r1 at Felix
+build r2 at Dlwillson
+build r2 at Felix
+build r2 at Dlwillson
+convert r2 to y2 at Felix
+move r1 from Dlwillson to Golden (y1)
+move r1 from Felix to Forstep (g2)
+move r1 from Golden to Sky (b2)
+build y1 at Felix
+move r2 from Dlwillson to Sea (b1)
+move y1 from Felix to Forstep
+build g1 at Dlwillson
+sacrifice g3 at Felix; build r2 at Forstep; build r3 at Forstep; build y1 at Forstep
+sacrifice g3 at Dlwillson; build r3 at Sea; build r3 at Dlwillson; build g1 at Dlwillson
+move r3 from Forstep to Felix
+move g1 from Dlwillson to Sea
+move r2 from Forstep to Ichor (y1)
+convert r2 to y2 at Sea
+convert r3 to g3 at Felix
+convert r3 to g3 at Dlwillson
+move y1 from Forstep to Inglass (b1)
+move r3 from Sea to Forstep
+sacrifice g3 at Felix; build y2 at Inglass; build y3 at Felix; build y3 at Felix
+sacrifice r2 at Dlwillson; capture r1 at Forstep; capture y1 at Forstep
+convert y2 to g2 at Felix
+build y2 at Forstep
+move y3 from Felix to Doge (g2)
+move r3 from Forstep to Sea
+convert y1 to g1 at Inglass
+convert g3 to r3 at Dlwillson
+build g3 at Felix
+build g3 at Sea
+sacrifice g3 at Felix; build g3 at Felix; build g3 at Inglass; build y1 at Inglass
+sacrifice g3 at Sea; build r2 at Dlwillson; build r2 at Sea; build r3 at Forstep
+convert g1 to b1 at Inglass
+convert r3 to g3 at Sea
+sacrifice g2 at Felix; build r3 at Ichor; build b2 at Inglass
+convert r1 to g1 at Sky
+convert y1 to r1 at Inglass
+sacrifice g3 at Sea; build g2 at Sea; build g3 at Sky; build y1 at Sea
+sacrifice y3 at Doge; move r1 from Inglass to Dlwillson; move r2 from Ichor to Dlwillson; move g3 from Inglass to Dlwillson; catastrophe red at Dlwillson

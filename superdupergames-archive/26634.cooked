@@ -1,0 +1,71 @@
+Hellajoey (0, r1b2) g3-
+Grissom (1, r3b2) -g3
+build g1 at Hellajoey
+build g1 at Grissom
+convert g1 to y1 at Hellajoey
+build g1 at Grissom
+build y1 at Hellajoey
+convert g1 to y1 at Grissom
+build y2 at Hellajoey
+build y2 at Grissom
+move y1 from Hellajoey to Grun (g3)
+move y1 from Grissom to Greengob (g1)
+convert y1 to b1 at Hellajoey
+move g1 from Grissom to Flash (y1)
+move b1 from Hellajoey to Grun
+move y1 from Greengob to Blubot (b3)
+build g1 at Hellajoey
+move g1 from Flash to Blubot2Point0 (b3)
+convert g3 to r3 at Hellajoey
+build g1 at Grissom
+build g2 at Hellajoey
+build g2 at Blubot2Point0
+move g2 from Hellajoey to Grun
+convert g3 to r3 at Grissom
+move r3 from Hellajoey to Blubot2Point0
+sacrifice g2 at Blubot2Point0; build g2 at Grissom; build y1 at Blubot
+capture g1 at Blubot2Point0
+sacrifice g2 at Grissom; build y2 at Blubot; build y3 at Grissom
+sacrifice g2 at Grun; build y3 at Grun; build y3 at Hellajoey
+sacrifice y2 at Blubot; move y1 from Blubot to Hellajoey; move y1 from Blubot to Hellajoey; catastrophe yellow at Hellajoey
+move y3 from Grun to Hellajoey
+build g2 at Grissom
+build g2 at Blubot2Point0
+move g1 from Grissom to Yo (y1)
+build y1 at Hellajoey
+move y2 from Grissom to Hop (b1)
+move y1 from Hellajoey to Blubot2Point0
+build y2 at Grissom
+sacrifice g2 at Blubot2Point0; build y2 at Blubot2Point0; build y3 at Hellajoey
+build g2 at Yo
+build g2 at Blubot2Point0
+build g3 at Grissom
+build g3 at Hellajoey
+convert y2 to b2 at Grissom
+build y2 at Grun
+move y2 from Hop to Grun
+build r1 at Blubot2Point0
+move r3 from Grissom to Yo
+move y2 from Grun to Yo
+sacrifice r3 at Yo; capture y2 at Yo; capture b1 at Grun; capture y1 at Grun
+move y3 from Hellajoey to Blut (b3)
+sacrifice g3 at Grissom; build g3 at Grissom; build b1 at Grun; build b1 at Grun
+move g1 from Hellajoey to Druid (b3)
+move g2 from Yo to Druid
+move r3 from Blubot2Point0 to Yo
+sacrifice b2 at Grissom; convert g2 to r2 at Druid; convert y1 to r1 at Grun
+capture g1 at Yo
+build r2 at Grun
+sacrifice y3 at Blut; move g1 from Blubot2Point0 to Yo; move g1 from Yo to Grissom; move g1 from Yo to Grissom; catastrophe green at Grissom
+sacrifice y2 at Yo; move r2 from Druid to Hellajoey; move r1 from Grun to Hellajoey
+move y3 from Hellajoey to Grun
+sacrifice y2 at Grun; move b1 from Grun to Skip (g1); move r2 from Grun to Hellajoey; catastrophe red at Hellajoey
+move y2 from Blubot2Point0 to Skip
+build b2 at Grun
+sacrifice r3 at Yo; capture b1 at Skip; capture b2 at Grun; capture b1 at Grun
+build b3 at Grun; catastrophe blue at Grun
+build y1 at Skip
+convert y3 to g3 at Grissom
+move g2 from Blubot2Point0 to Skip
+build g1 at Grissom
+sacrifice y3 at Grun; move g1 from Druid to Skip; move g1 from Skip to Grissom; move g2 from Skip to Grissom; catastrophe green at Grissom

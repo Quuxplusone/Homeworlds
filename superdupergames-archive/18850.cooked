@@ -1,0 +1,19 @@
+Mneme (0, r1b2) g3-
+Danner (1, y3b2) -g3
+build g1 at Mneme
+build g1 at Danner
+convert g1 to r1 at Mneme
+convert g1 to r1 at Danner
+build r2 at Mneme
+build r2 at Danner
+convert r2 to y2 at Mneme
+move r1 from Danner to P4C970 (y1)
+build r2 at Mneme
+sacrifice g3 at Danner; build r2 at Danner; build r3 at P4C970; build r3 at Danner
+move r2 from Mneme to Expansion (g3)
+convert r2 to y2 at Danner
+move r1 from Mneme to Pressure (g3)
+move r1 from P4C970 to P3X234 (g2)
+build y1 at Mneme
+move r3 from P4C970 to Expansion
+sacrifice y1 at Mneme; move r2 from Expansion to P3X234

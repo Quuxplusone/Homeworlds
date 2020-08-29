@@ -1,0 +1,27 @@
+Twoshort (0, r1b3) g3-
+Jonaskoelker (1, b1r2) -g3
+build g1 at Twoshort
+build g1 at Jonaskoelker
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Jonaskoelker
+build g1 at Twoshort
+build g1 at Jonaskoelker
+convert g1 to b1 at Twoshort
+convert g1 to b1 at Jonaskoelker
+build b2 at Twoshort
+move b1 from Jonaskoelker to Biggreen (g3)
+move b2 from Twoshort to Grogar (g2)
+build b2 at Biggreen
+build b2 at Grogar
+convert b2 to y2 at Biggreen
+convert b2 to r2 at Grogar
+convert y1 to r1 at Jonaskoelker
+build b2 at Grogar
+build b2 at Biggreen
+convert b2 to y2 at Grogar
+move b2 from Biggreen to Medium_Green (g2)
+build r1 at Grogar
+build b2 at Biggreen
+build b3 at Grogar
+build b3 at Medium_Green
+move r1 from Grogar to Yolonda (y3)

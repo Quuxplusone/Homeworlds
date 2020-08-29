@@ -1,0 +1,42 @@
+Dragon76N (0, b3g2) y3-
+Draw5Playall (1, b3r1) -g3
+build y1 at Dragon76N
+build g1 at Draw5Playall
+convert y1 to g1 at Dragon76N
+convert g1 to y1 at Draw5Playall
+build g1 at Dragon76N
+build y1 at Draw5Playall
+convert g1 to r1 at Dragon76N
+convert y1 to r1 at Draw5Playall
+build r2 at Dragon76N
+build r2 at Draw5Playall
+build r2 at Dragon76N
+move r2 from Draw5Playall to Ugh (g2)
+move r2 from Dragon76N to Greone (g1)
+build r3 at Ugh
+build r3 at Greone
+convert r1 to b1 at Draw5Playall
+convert r1 to y1 at Dragon76N
+move b1 from Draw5Playall to Ugh
+move y1 from Dragon76N to Greone
+build b1 at Ugh
+convert r2 to b2 at Dragon76N
+convert r2 to y2 at Ugh
+move b2 from Dragon76N to Greone
+build g1 at Draw5Playall
+convert r3 to g3 at Greone
+build r1 at Ugh
+move g3 from Greone to Grethr (g3)
+build g2 at Draw5Playall
+sacrifice g3 at Grethr; build y1 at Greone; build y2 at Dragon76N; build g3 at Dragon76N
+move g2 from Draw5Playall to Crlf (y2)
+move g3 from Dragon76N to Bluone (b1)
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y3 at Ugh; build g3 at Crlf
+sacrifice y2 at Dragon76N; move y1 from Greone to Ugh; move y1 from Greone to Ugh; catastrophe yellow at Ugh
+build y1 at Draw5Playall
+sacrifice g3 at Bluone; build g3 at Dragon76N; build y1 at Dragon76N; build y2 at Dragon76N
+move y1 from Draw5Playall to Ugh
+move y3 from Dragon76N to Greone
+sacrifice g3 at Crlf; build y2 at Ugh; build y3 at Ugh; build y3 at Draw5Playall
+sacrifice y2 at Dragon76N; move y1 from Dragon76N to Greone; move y1 from Greone to Ugh; catastrophe yellow at Ugh
+sacrifice y3 at Draw5Playall; move g2 from Crlf to Sudo_Rm_Rf (r1); move g2 from Sudo_Rm_Rf to Dragon76N; move r3 from Ugh to Greone; catastrophe green at Dragon76N

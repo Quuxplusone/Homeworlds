@@ -1,0 +1,63 @@
+Jesse (0, g2b1) y3-
+Lexicon (1, g2b3) -y3
+build y1 at Jesse
+build y1 at Lexicon
+move y1 from Jesse to Tree (g3)
+convert y1 to r1 at Lexicon
+build y1 at Jesse
+build y1 at Lexicon
+convert y1 to r1 at Jesse
+convert y3 to g3 at Lexicon
+build y1 at Jesse
+move y1 from Lexicon to Circle (g1)
+convert y1 to g1 at Jesse
+build g1 at Lexicon
+move g1 from Jesse to Delta (y3)
+convert g3 to y3 at Lexicon
+build r1 at Jesse
+move g1 from Lexicon to Square (y1)
+build g2 at Delta
+build g3 at Square
+move g2 from Delta to Shrew (b1)
+sacrifice g3 at Square; build g3 at Square; build y2 at Lexicon; build r2 at Lexicon
+build g3 at Shrew
+convert r2 to b2 at Lexicon
+sacrifice g3 at Shrew; build g3 at Shrew; build y2 at Jesse; build y2 at Tree
+move b2 from Lexicon to Square
+move r1 from Jesse to Tree
+move b2 from Square to Tree
+capture b2 at Tree
+build r2 at Lexicon
+move b2 from Tree to Square
+move r1 from Lexicon to Square
+move y1 from Tree to Shrew
+capture b2 at Square
+convert g3 to r3 at Shrew
+sacrifice g3 at Square; build g3 at Square; build r2 at Square; build b1 at Square
+build g3 at Delta
+move r2 from Square to Hex (b3)
+move g1 from Delta to Shiny (b2)
+sacrifice g3 at Square; build g3 at Square; build r2 at Square; build r3 at Hex
+sacrifice g3 at Delta; build g3 at Shiny; build y3 at Tree; build r3 at Tree
+move b1 from Square to Hex
+move y2 from Tree to Circle
+move y2 from Lexicon to Square
+move r3 from Tree to Circle
+move y1 from Circle to Hex
+move y2 from Jesse to Tree
+sacrifice g3 at Square; build g3 at Square; build b2 at Square; build b3 at Hex
+sacrifice y3 at Tree; move y2 from Tree to Square; move y2 from Circle to Hex; move y2 from Hex to Square; catastrophe yellow at Square
+sacrifice b3 at Hex; convert r3 to g3 at Hex; convert b1 to g1 at Hex
+convert g3 to y3 at Shiny
+sacrifice g3 at Hex; build g3 at Hex; build y1 at Lexicon; build y2 at Hex
+build g3 at Shiny
+move g1 from Hex to Shiny
+sacrifice g3 at Shiny; build g3 at Shrew; build y2 at Shiny; build y2 at Shrew
+convert y1 to b1 at Lexicon
+move y2 from Shiny to Circle
+sacrifice y1 at Hex; move g1 from Shiny to Hex
+sacrifice y3 at Shiny; move y1 from Shrew to Lexicon; move y2 from Shrew to Lexicon; move y2 from Circle to Lexicon; catastrophe yellow at Lexicon
+sacrifice y2 at Hex; move g3 from Hex to Circle; move g3 from Circle to Lexicon
+sacrifice y3 at Jesse; move g2 from Shrew to Lexicon; move g3 from Shrew to Lexicon; move r3 from Circle to Lexicon; catastrophe green at Lexicon
+convert g1 to y1 at Hex
+sacrifice r3 at Shrew; capture r2 at Lexicon; capture b1 at Lexicon

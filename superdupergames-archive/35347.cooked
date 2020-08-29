@@ -1,0 +1,59 @@
+Dougforte (0, g3b1) r3-
+Wil (1, b2y1) -g3
+build r1 at Dougforte
+build g1 at Wil
+convert r1 to y1 at Dougforte
+convert g1 to b1 at Wil
+build r1 at Dougforte
+build b1 at Wil
+move r3 from Dougforte to Everest (g2)
+build g1 at Wil
+build r1 at Everest
+move b1 from Wil to Y3 (y3)
+build y1 at Dougforte
+convert g1 to r1 at Wil
+move y1 from Dougforte to Everest
+build g1 at Wil
+move r3 from Everest to Y3
+move b1 from Y3 to Y2 (y2)
+build r2 at Dougforte
+sacrifice g3 at Wil; build b2 at Y2; build b2 at Y2; build b3 at Wil
+move r3 from Y3 to Y2
+move b2 from Y2 to G3 (g3)
+sacrifice r2 at Dougforte; capture b2 at Y2; capture b1 at Y2
+build b3 at G3
+move r3 from Y2 to G3
+move b1 from Wil to G3
+capture b3 at G3
+build b3 at G3; catastrophe blue at G3
+build y2 at Everest
+build r2 at Wil
+move y2 from Everest to G3
+move r2 from Wil to Gee3 (g3)
+build r2 at Everest
+build g1 at Wil
+build y2 at G3
+move g1 from Wil to Y3 (y3)
+build y3 at Dougforte
+build r2 at Gee3
+build r3 at G3
+build r3 at Wil
+build y3 at Everest
+build g1 at Wil
+convert b2 to g2 at Y2
+move r1 from Wil to G3
+build g2 at Y2
+move b3 from Wil to Y3
+move r3 from G3 to Y2
+sacrifice r1 at G3
+move r3 from Y2 to Gee3
+build r1 at Gee3; catastrophe red at Gee3
+move g2 from Y2 to Gee3 (g3)
+build r1 at Wil
+build r2 at Dougforte
+move r1 from Wil to Y3
+sacrifice g2 at Y2; build r2 at Everest; build r3 at G3
+build g2 at Y3
+sacrifice y2 at G3; move r3 from G3 to Wil; move r3 from G3 to Wil
+move r3 from Wil to G3
+sacrifice r2 at Everest; capture g1 at Wil; capture g1 at Wil

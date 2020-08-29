@@ -1,0 +1,35 @@
+Madwuher (0, b2y3) g3-
+Nycavri (1, b1y2) -g3
+build g1 at Madwuher
+build g1 at Nycavri
+convert g1 to b1 at Madwuher
+move g1 from Nycavri to Fr94 (b3)
+build b1 at Madwuher
+build g1 at Fr94
+move b1 from Madwuher to Edora (y1)
+convert g1 to y1 at Fr94
+build b2 at Madwuher
+build g1 at Nycavri
+convert b2 to r2 at Madwuher
+convert g1 to r1 at Nycavri
+build g1 at Madwuher
+build r1 at Nycavri
+move g1 from Madwuher to Edora
+move y1 from Fr94 to Hl95 (g1)
+build g2 at Madwuher
+build g2 at Nycavri
+sacrifice g3 at Madwuher; build g2 at Madwuher; build g3 at Madwuher; build g3 at Edora
+convert g2 to y2 at Nycavri
+sacrifice g2 at Madwuher; build b2 at Edora; build b2 at Madwuher
+sacrifice g3 at Nycavri; build y1 at Hl95; build y2 at Hl95; build y3 at Nycavri
+move b2 from Edora to Bologna (y3)
+sacrifice y2 at Nycavri; move y1 from Hl95 to Madwuher; move y1 from Hl95 to Madwuher
+sacrifice g3 at Edora; build b3 at Bologna; build b3 at Bologna; build g2 at Edora
+sacrifice g1 at Fr94; build y2 at Madwuher; catastrophe yellow at Madwuher
+sacrifice b2 at Madwuher; convert b2 to y2 at Bologna; convert g2 to r2 at Edora
+convert y3 to g3 at Nycavri
+sacrifice y2 at Bologna; move b3 from Bologna to Nycavri; move b3 from Bologna to Nycavri
+build g1 at Nycavri
+sacrifice r2 at Madwuher; capture g3 at Nycavri; capture g1 at Nycavri
+capture g1 at Nycavri
+sacrifice r2 at Edora; capture r1 at Nycavri; capture r1 at Nycavri

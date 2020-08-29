@@ -1,0 +1,27 @@
+Teeteetee (0, b1y2) g3-
+Goulo (1, r1b3) -g3
+build g1 at Teeteetee
+build g1 at Goulo
+convert g1 to b1 at Teeteetee
+build g1 at Goulo
+build b1 at Teeteetee
+convert g3 to b3 at Goulo
+move b1 from Teeteetee to Pauli (g3)
+convert g1 to y1 at Goulo
+build b2 at Pauli
+build b2 at Goulo
+build b2 at Pauli
+convert b2 to r2 at Goulo
+convert b2 to y2 at Pauli
+build y1 at Goulo
+build b2 at Teeteetee
+move r2 from Goulo to Smeraldo (g2)
+move b1 from Pauli to Bohr (g2)
+move y1 from Goulo to Smeraldo
+build b2 at Bohr
+move r2 from Smeraldo to Safirego (b3)
+convert b1 to r1 at Teeteetee
+build g1 at Goulo
+build b1 at Bohr
+move g1 from Goulo to Smeraldo
+sacrifice y2 at Pauli; move b1 from Bohr to Goulo; move b1 from Bohr to Goulo; catastrophe blue at Goulo

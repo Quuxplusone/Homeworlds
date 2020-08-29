@@ -1,0 +1,21 @@
+Aristos (0, g3b2) y3-
+Twoshort (1, r1b3) -g3
+build y1 at Aristos
+build g1 at Twoshort
+build y1 at Aristos
+convert g1 to y1 at Twoshort
+convert y1 to g1 at Aristos
+build g1 at Twoshort
+move g1 from Aristos to Spark (b1)
+build g1 at Twoshort
+sacrifice y3 at Aristos; move g1 from Spark to Waypoint (b2); move g1 from Waypoint to Twoshort; catastrophe green at Twoshort
+convert y1 to g1 at Twoshort
+build y1 at Aristos
+build g1 at Twoshort
+build y1 at Aristos
+convert g1 to r1 at Twoshort
+move y1 from Aristos to Aaa (b1)
+build r1 at Twoshort
+build y2 at Aristos
+build g1 at Twoshort
+move y1 from Aaa to Bbb (g2)

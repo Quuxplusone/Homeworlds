@@ -1,0 +1,68 @@
+Inundator (0, y1b2) g3-
+Sirruthvenmurgatroyd (1, b2y3) -g3
+build g1 at Inundator
+build g1 at Sirruthvenmurgatroyd
+move g1 from Inundator to Cthulu (b3)
+move g1 from Sirruthvenmurgatroyd to Sol (y1)
+build g1 at Inundator
+build g2 at Sirruthvenmurgatroyd
+convert g1 to y1 at Inundator
+convert g2 to y2 at Sirruthvenmurgatroyd
+build y2 at Inundator
+build y2 at Sirruthvenmurgatroyd
+move y1 from Inundator to Yogsothoth (y3)
+convert y2 to r2 at Sirruthvenmurgatroyd
+build y2 at Inundator
+move g1 from Sol to Big (y3)
+convert y2 to r2 at Inundator
+build g1 at Big
+move r2 from Inundator to Big
+move g1 from Big to Inundator
+capture g1 at Big
+build g2 at Inundator
+sacrifice r2 at Big; capture g2 at Inundator; capture g1 at Inundator
+build g2 at Sirruthvenmurgatroyd
+sacrifice g3 at Inundator; build g2 at Big; build g3 at Cthulu; build g3 at Inundator
+move g3 from Sirruthvenmurgatroyd to Yellow (y1)
+convert g1 to r1 at Inundator
+build r1 at Sirruthvenmurgatroyd
+sacrifice g3 at Inundator; build g1 at Big; build g3 at Inundator; build r1 at Inundator
+move r1 from Sirruthvenmurgatroyd to Yellow
+sacrifice y2 at Inundator; move g3 from Cthulu to Yellow; move g3 from Yellow to Sirruthvenmurgatroyd
+build r2 at Sirruthvenmurgatroyd
+sacrifice r1 at Inundator; capture r2 at Sirruthvenmurgatroyd
+capture r2 at Sirruthvenmurgatroyd
+sacrifice g3 at Inundator; build g3 at Inundator; build r1 at Inundator; build y2 at Yogsothoth
+build r2 at Yellow
+move r1 from Inundator to Yogsothoth
+move g3 from Yellow to Yogsothoth
+move r1 from Yogsothoth to Yellowking (b1)
+sacrifice r2 at Sirruthvenmurgatroyd; capture y2 at Yogsothoth; capture y1 at Yogsothoth
+sacrifice r1 at Yellowking; capture r2 at Sirruthvenmurgatroyd
+sacrifice r1 at Yellow; capture r2 at Sirruthvenmurgatroyd
+move g2 from Big to Hastur (b1)
+build y2 at Sirruthvenmurgatroyd
+convert g2 to r2 at Hastur
+build r1 at Sirruthvenmurgatroyd
+sacrifice r2 at Hastur; capture r2 at Sirruthvenmurgatroyd; capture r1 at Sirruthvenmurgatroyd
+sacrifice r2 at Yellow; capture r2 at Sirruthvenmurgatroyd; capture r1 at Sirruthvenmurgatroyd
+convert g1 to y1 at Cthulu
+build g1 at Yogsothoth
+move y1 from Cthulu to Rats (b1)
+sacrifice y2 at Sirruthvenmurgatroyd; move g3 from Yogsothoth to Inundator; move g1 from Yogsothoth to Inundator; catastrophe green at Inundator
+move y1 from Rats to Yogsothoth; catastrophe yellow at Yogsothoth
+build g1 at Sirruthvenmurgatroyd
+convert g3 to b3 at Sirruthvenmurgatroyd
+build g2 at Sirruthvenmurgatroyd
+move g1 from Big to Inundator
+convert g1 to b1 at Sirruthvenmurgatroyd
+move b3 from Sirruthvenmurgatroyd to Whisperer (y1)
+sacrifice g2 at Sirruthvenmurgatroyd; build b1 at Sirruthvenmurgatroyd; build b1 at Sirruthvenmurgatroyd; catastrophe blue at Sirruthvenmurgatroyd
+move b3 from Whisperer to Big
+move g2 from Sirruthvenmurgatroyd to Inundator
+move b3 from Big to Inundator
+sacrifice r2 at Sirruthvenmurgatroyd; capture r1 at Inundator; capture g1 at Inundator
+build g1 at Big
+convert g1 to b1 at Inundator
+convert b3 to r3 at Inundator
+sacrifice g2 at Inundator; build r1 at Inundator; build r2 at Inundator; catastrophe red at Inundator

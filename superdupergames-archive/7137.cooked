@@ -1,0 +1,53 @@
+Jbj77 (0, y1b2) g3-
+Morganfitzp (1, b3y2) -g3
+build g1 at Jbj77
+build g1 at Morganfitzp
+convert g1 to y1 at Jbj77
+convert g1 to y1 at Morganfitzp
+move y1 from Jbj77 to Alpha (g3)
+build y2 at Morganfitzp
+build y2 at Alpha
+move y1 from Morganfitzp to Ri (g1)
+move y1 from Alpha to Beta (g1)
+convert y2 to g2 at Morganfitzp
+build g1 at Jbj77
+move g2 from Morganfitzp to Cn (b1)
+convert g1 to b1 at Jbj77
+build g1 at Morganfitzp
+build g2 at Jbj77
+sacrifice g3 at Morganfitzp; build g2 at Cn; build g3 at Morganfitzp; build y2 at Ri
+sacrifice g3 at Jbj77; build y3 at Alpha; build y3 at Beta; build g3 at Jbj77
+convert g2 to r2 at Cn
+sacrifice b1 at Jbj77; convert y3 to r3 at Alpha
+sacrifice g3 at Morganfitzp; build g2 at Cn; build y3 at Ri; build g3 at Morganfitzp
+build y3 at Alpha
+sacrifice y2 at Ri; move g2 from Cn to Alpha; move g2 from Cn to Alpha
+sacrifice r3 at Alpha; capture g2 at Alpha; capture g2 at Alpha
+sacrifice y3 at Ri; move g1 from Morganfitzp to Ri; move g1 from Ri to Alpha; move r2 from Cn to Me (b3); catastrophe green at Alpha
+move y1 from Beta to Gamma (b3)
+build g1 at Morganfitzp
+build g2 at Jbj77
+sacrifice g1 at Morganfitzp; build r1 at Me
+convert g2 to r2 at Jbj77
+convert r1 to g1 at Me
+move y3 from Beta to Me
+sacrifice g1 at Me; build y2 at Ri
+sacrifice r2 at Jbj77; capture r2 at Me
+move y2 from Ri to Nh (b2)
+move y3 from Me to Delta (g1)
+convert y2 to r2 at Nh
+build y2 at Delta
+build g1 at Morganfitzp
+move y2 from Delta to Me
+convert g1 to b1 at Morganfitzp
+build g1 at Jbj77
+build g2 at Morganfitzp
+move g1 from Jbj77 to Me
+move b1 from Morganfitzp to Ri
+sacrifice g3 at Jbj77; build g2 at Jbj77; build g3 at Jbj77; build g3 at Me
+sacrifice g3 at Morganfitzp; build g3 at Morganfitzp; build b1 at Ri; build b1 at Ri
+sacrifice g3 at Jbj77; build y2 at Me; build y3 at Gamma; build y3 at Delta
+sacrifice g2 at Morganfitzp; build g2 at Morganfitzp; build r1 at Nh
+sacrifice y2 at Me; move g3 from Me to Ri; move g3 from Ri to Morganfitzp
+convert g3 to r3 at Morganfitzp
+sacrifice r2 at Me; capture r3 at Morganfitzp; capture g2 at Morganfitzp

@@ -1,0 +1,37 @@
+Madwuher (0, r2b3) g3-
+Pedrop (1, y1b2) -g3
+build g1 at Madwuher
+build g1 at Pedrop
+convert g1 to y1 at Madwuher
+convert g1 to y1 at Pedrop
+build y2 at Madwuher
+build y2 at Pedrop
+move y1 from Madwuher to Edora (g1)
+move y1 from Pedrop to Ziemia (g3)
+build g1 at Madwuher
+build g1 at Pedrop
+convert g1 to r1 at Madwuher
+move g1 from Pedrop to Dupa (b3)
+sacrifice g3 at Madwuher; build y2 at Edora; build y3 at Edora; build y3 at Madwuher
+move y1 from Ziemia to Edora; catastrophe yellow at Edora
+convert y3 to g3 at Madwuher
+build g1 at Dupa
+build r1 at Madwuher
+convert g1 to r1 at Dupa
+convert r1 to g1 at Madwuher
+build g1 at Dupa
+move g1 from Madwuher to Edora (b1)
+build r1 at Dupa
+build g2 at Edora
+build g2 at Pedrop
+convert g1 to y1 at Edora
+move y2 from Pedrop to Dupa
+build g1 at Edora
+move g1 from Dupa to Ziemia (b2)
+move g2 from Edora to Bologna (g3)
+sacrifice g3 at Pedrop; build g2 at Ziemia; build g3 at Pedrop; build y1 at Dupa
+sacrifice g2 at Bologna; build g2 at Madwuher; build g3 at Edora
+move y1 from Dupa to Niebo (b1)
+move r1 from Madwuher to Edora
+move r1 from Dupa to Niebo
+move g1 from Edora to Bologna (b3)

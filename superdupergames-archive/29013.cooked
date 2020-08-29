@@ -1,0 +1,49 @@
+Felix (0, b3y2) g3-
+Tamiel (1, y1b2) -g3
+build g1 at Felix
+build g1 at Tamiel
+convert g1 to y1 at Felix
+build g1 at Tamiel
+build g1 at Felix
+move g1 from Tamiel to Gliesse1 (y3)
+move g1 from Felix to Ice (b1)
+build g2 at Gliesse1
+build g2 at Felix
+sacrifice g3 at Tamiel; build g2 at Gliesse1; build g3 at Tamiel; build g3 at Tamiel
+convert g2 to y2 at Felix
+convert g3 to y3 at Tamiel
+build g2 at Felix
+move g2 from Gliesse1 to Ice
+convert g1 to r1 at Ice
+move g2 from Gliesse1 to Ice
+move y2 from Felix to Ice
+sacrifice y3 at Tamiel; move g2 from Ice to Felix; move g2 from Ice to Felix; catastrophe green at Felix
+convert y1 to g1 at Felix
+build g2 at Tamiel
+build g2 at Felix
+convert g2 to b2 at Tamiel
+move g1 from Felix to Ice
+build g2 at Gliesse1
+move g1 from Ice to Gliesse1
+move b2 from Tamiel to Gliesse1
+move g1 from Gliesse1 to Tamiel
+convert g3 to r3 at Tamiel
+move g1 from Tamiel to Rim (b3)
+move g1 from Gliesse1 to Gliesse2 (b1)
+move y2 from Ice to Gliesse1
+build r1 at Tamiel
+move y2 from Gliesse1 to Gliesse2
+convert r3 to g3 at Tamiel
+sacrifice r1 at Ice; capture g1 at Gliesse2
+move r1 from Tamiel to Rim
+build g2 at Rim
+capture g1 at Rim
+sacrifice y2 at Gliesse2; move g2 from Rim to Tamiel; move g1 from Gliesse2 to Brink (y3)
+convert g3 to r3 at Tamiel
+sacrifice g2 at Tamiel; build g2 at Brink; build g3 at Felix
+sacrifice g2 at Gliesse1; build g2 at Rim; build g3 at Rim
+build g3 at Felix
+move r3 from Tamiel to Brink
+move g2 from Brink to Tamiel
+convert g2 to y2 at Rim
+sacrifice g2 at Felix; build g2 at Tamiel; build g2 at Tamiel; catastrophe green at Tamiel

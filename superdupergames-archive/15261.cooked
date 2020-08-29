@@ -1,0 +1,35 @@
+Twoshort (0, r1b3) g3-
+Dethdukk (1, r1b2) -g3
+build g1 at Twoshort
+build g1 at Dethdukk
+convert g1 to y1 at Twoshort
+build g1 at Dethdukk
+build g1 at Twoshort
+convert g1 to y1 at Dethdukk
+build g1 at Twoshort
+build g2 at Dethdukk
+move g1 from Twoshort to Greenorama (g2)
+move g2 from Dethdukk to Smallstep (g3)
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Twoshort; build y1 at Twoshort
+move g1 from Dethdukk to Giantleap (b3)
+convert g2 to r2 at Twoshort
+build y2 at Dethdukk
+move y1 from Twoshort to Greenorama
+build g2 at Dethdukk
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y2 at Twoshort; build y2 at Greenorama
+move y1 from Dethdukk to Giantleap
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y3 at Twoshort; build y3 at Greenorama
+build y3 at Dethdukk
+sacrifice y2 at Twoshort; move y3 from Greenorama to Giantleap; move y2 from Greenorama to Smallstep
+convert g3 to r3 at Dethdukk
+convert y3 to r3 at Giantleap
+build g3 at Dethdukk
+sacrifice r2 at Twoshort; capture g2 at Smallstep; capture g1 at Giantleap
+move y3 from Dethdukk to Smallstep
+sacrifice g3 at Twoshort; build g3 at Giantleap; build y2 at Smallstep; build y3 at Greenorama
+convert g2 to b2 at Dethdukk
+sacrifice g3 at Giantleap; build g2 at Giantleap; build g3 at Smallstep; build r1 at Giantleap
+move y3 from Smallstep to Haven (r2)
+convert g2 to b2 at Giantleap
+move b2 from Dethdukk to Stall (b3)
+sacrifice y3 at Greenorama; move r3 from Giantleap to Dethdukk; move r1 from Giantleap to Dethdukk; move b2 from Giantleap to Dethdukk; catastrophe red at Dethdukk

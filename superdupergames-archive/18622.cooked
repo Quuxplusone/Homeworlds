@@ -1,0 +1,51 @@
+Ts52 (0, y3b2) g3-
+Ajo (1, b2r1) -g3
+build g1 at Ts52
+build g1 at Ajo
+convert g1 to r1 at Ts52
+build g1 at Ajo
+build r1 at Ts52
+convert g1 to y1 at Ajo
+build r2 at Ts52
+build y1 at Ajo
+move r2 from Ts52 to Robin (g1)
+move y1 from Ajo to Alpha (b3)
+build r2 at Ts52
+move g1 from Ajo to Alpha
+convert r2 to y2 at Ts52
+build g1 at Ajo
+move y2 from Ts52 to Robin
+build g2 at Ajo
+build r2 at Robin
+build g2 at Alpha
+move r2 from Robin to Alpha
+sacrifice y1 at Alpha; move g2 from Alpha to Beta (b1)
+capture g1 at Alpha
+sacrifice g2 at Ajo; build g2 at Beta; build y1 at Ajo
+build r2 at Alpha
+move y1 from Ajo to Gamma (r3)
+build r3 at Robin
+convert g2 to y2 at Beta
+build r3 at Alpha
+build g2 at Beta
+convert r2 to y2 at Alpha
+convert g2 to r2 at Beta
+move r3 from Alpha to Beta
+sacrifice g3 at Ajo; build y1 at Beta; build y3 at Gamma; build y3 at Ajo
+capture r2 at Beta
+sacrifice y3 at Gamma; move y1 from Gamma to Delta (b1); move y1 from Beta to Ts52; move y2 from Beta to Ts52
+build y3 at Alpha
+sacrifice g2 at Beta; build g2 at Ajo
+build r3 at Ts52
+convert g1 to b1 at Ajo
+move r1 from Ts52 to Delta
+move y1 from Delta to Ts52; catastrophe yellow at Ts52
+convert r3 to y3 at Ts52
+convert y3 to r3 at Ajo
+sacrifice y3 at Alpha; move r2 from Alpha to Ajo; move r1 from Delta to Alpha; move r1 from Alpha to Ajo; catastrophe red at Ajo
+convert b1 to r1 at Ajo
+move r3 from Robin to Ajo
+sacrifice g2 at Ajo; build r1 at Ajo; build r2 at Ajo; catastrophe red at Ajo
+move r2 from Robin to Ajo
+pass
+capture y1 at Ajo

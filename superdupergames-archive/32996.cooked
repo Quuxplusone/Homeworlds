@@ -1,0 +1,48 @@
+Ts52 (0, y3b2) g3-
+Felix (1, b1r3) -g3
+build g1 at Ts52
+build g1 at Felix
+convert g1 to b1 at Ts52
+convert g1 to b1 at Felix
+build b2 at Ts52
+build b2 at Felix
+move b2 from Ts52 to Kermit (g1)
+convert b2 to y2 at Felix
+build g1 at Ts52
+move b1 from Felix to Opus (g2)
+convert g1 to y1 at Ts52
+build y1 at Felix
+build g1 at Ts52
+move y2 from Felix to Opus
+move y1 from Ts52 to Kermit
+build y1 at Opus
+build y2 at Kermit
+move y1 from Opus to Kermit
+convert y1 to r1 at Kermit
+build y1 at Kermit
+build r1 at Kermit
+sacrifice g3 at Felix; build y2 at Kermit; build y3 at Opus; build y3 at Felix; catastrophe yellow at Kermit
+convert r1 to y1 at Kermit
+convert y3 to r3 at Opus
+build g1 at Ts52
+move r3 from Opus to Kermit
+build r1 at Kermit
+capture b2 at Kermit
+build r1 at Kermit; catastrophe red at Kermit
+build b2 at Kermit
+move g1 from Ts52 to Bigbird (y1)
+convert b2 to r2 at Kermit
+convert g1 to r1 at Ts52
+capture y1 at Kermit
+build g1 at Ts52
+convert y3 to g3 at Felix
+build g2 at Bigbird
+build y2 at Kermit
+sacrifice g3 at Ts52; build g2 at Bigbird; build g3 at Ts52; build g3 at Ts52
+sacrifice g3 at Felix; build y2 at Kermit; build y3 at Opus; build y3 at Felix
+convert g3 to r3 at Ts52
+build b2 at Kermit
+move r3 from Ts52 to Kermit
+sacrifice y2 at Kermit; move b2 from Kermit to Ts52; move b2 from Kermit to Ts52; catastrophe blue at Ts52
+capture y2 at Kermit
+sacrifice y3 at Felix; move y3 from Opus to Ts52; move y2 from Opus to Ts52; move y1 from Kermit to Ts52; catastrophe yellow at Ts52

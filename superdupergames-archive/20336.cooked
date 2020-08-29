@@ -1,0 +1,34 @@
+Mandrel (0, b3r2) g3-
+Sirruthvenmurgatroyd (1, y1b2) -g3
+build g1 at Mandrel
+build g1 at Sirruthvenmurgatroyd
+convert g1 to y1 at Mandrel
+move g1 from Sirruthvenmurgatroyd to Sol (y3)
+move y1 from Mandrel to Down (g1)
+build g1 at Sirruthvenmurgatroyd
+build g2 at Mandrel
+build g2 at Sirruthvenmurgatroyd
+convert g2 to y2 at Mandrel
+convert g1 to r1 at Sirruthvenmurgatroyd
+build y1 at Down
+build g1 at Sol
+build y2 at Mandrel
+move g1 from Sol to Calufrax (b1)
+build y2 at Down
+build g2 at Calufrax
+build y3 at Mandrel
+convert g3 to y3 at Sirruthvenmurgatroyd
+move y1 from Down to Confusion (g3)
+move y3 from Sirruthvenmurgatroyd to Confusion
+sacrifice y3 at Mandrel; move y1 from Down to Confusion; move y1 from Confusion to Sirruthvenmurgatroyd; move y1 from Confusion to Sirruthvenmurgatroyd
+build y3 at Confusion
+sacrifice y2 at Mandrel; move y2 from Down to Confusion; move y2 from Confusion to Sirruthvenmurgatroyd; catastrophe yellow at Sirruthvenmurgatroyd
+convert g2 to r2 at Calufrax
+build y1 at Mandrel
+build r1 at Calufrax
+convert y1 to b1 at Mandrel
+convert g1 to b1 at Calufrax
+build y1 at Mandrel
+sacrifice y3 at Confusion; move b1 from Calufrax to Mandrel; move r1 from Calufrax to Mandrel; move r2 from Calufrax to Mandrel
+capture r2 at Mandrel
+sacrifice g2 at Sirruthvenmurgatroyd; build r1 at Mandrel; build b1 at Mandrel; catastrophe red at Mandrel; catastrophe blue at Mandrel

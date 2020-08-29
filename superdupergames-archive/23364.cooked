@@ -1,0 +1,41 @@
+Disaac (0, y1g2) b3-
+Dungeon (1, b3y2) -g3
+build b1 at Disaac
+build g1 at Dungeon
+convert b3 to g3 at Disaac
+move g1 from Dungeon to Snazzle (y1)
+build g1 at Disaac
+build g1 at Dungeon
+move g1 from Disaac to Hydro (b3)
+sacrifice g3 at Dungeon; build g2 at Snazzle; build g2 at Snazzle; build g3 at Dungeon
+build g3 at Hydro
+convert g1 to b1 at Dungeon
+build g1 at Disaac
+move b1 from Dungeon to Xanth (y1)
+move g1 from Disaac to Iss (y3)
+move b1 from Xanth to Ir (y3)
+build b1 at Disaac
+convert b1 to y1 at Ir
+move g1 from Iss to Snazzle; catastrophe green at Snazzle
+build g1 at Dungeon
+move b1 from Disaac to Stargate (y3)
+move g1 from Dungeon to Caldera (y1)
+build b1 at Disaac
+build g1 at Caldera
+build g2 at Disaac
+build g2 at Caldera
+move g2 from Disaac to Stargate
+move g2 from Caldera to Gemini (b3)
+sacrifice g3 at Hydro; build g3 at Hydro; build b2 at Stargate; build b2 at Stargate
+move g1 from Caldera to Hydro
+convert g1 to r1 at Hydro
+move y1 from Ir to Disaac
+sacrifice r1 at Hydro; capture y1 at Disaac
+convert g2 to y2 at Gemini
+convert b1 to r1 at Disaac
+build g1 at Hydro
+convert b2 to y2 at Stargate
+build g2 at Caldera
+sacrifice y2 at Stargate; move g3 from Hydro to Caldera; move g3 from Caldera to Dungeon
+convert g3 to r3 at Dungeon
+sacrifice r1 at Disaac; capture r3 at Dungeon

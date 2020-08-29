@@ -1,0 +1,21 @@
+Jonaskoelker (0, r1b2) g3-
+Radio414 (1, b3r1) -g3
+build g1 at Jonaskoelker
+build g1 at Radio414
+convert g1 to r1 at Jonaskoelker
+convert g3 to r3 at Radio414
+build r2 at Jonaskoelker
+build r2 at Radio414
+convert r2 to y2 at Jonaskoelker
+convert r3 to g3 at Radio414
+build r2 at Jonaskoelker
+build r2 at Radio414
+move r2 from Jonaskoelker to Big_Yellow (y3)
+convert r2 to y2 at Radio414
+build r2 at Jonaskoelker
+build y1 at Radio414
+move r2 from Jonaskoelker to Big_Blue (b3)
+move y2 from Radio414 to Not_So_Big_Blue (b2)
+sacrifice g3 at Jonaskoelker; build r3 at Jonaskoelker; build r3 at Big_Yellow; build r3 at Big_Blue
+move r2 from Radio414 to Not_So_Big_Blue
+convert r3 to g3 at Jonaskoelker

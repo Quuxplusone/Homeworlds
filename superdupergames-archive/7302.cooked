@@ -1,0 +1,63 @@
+Clockwise (0, b2r1) g3-
+Jbj77 (1, b1y2) -g3
+build g1 at Clockwise
+build g1 at Jbj77
+convert g1 to y1 at Clockwise
+convert g1 to y1 at Jbj77
+build g1 at Clockwise
+move y1 from Jbj77 to Alpha (g3)
+convert g1 to r1 at Clockwise
+build g1 at Jbj77
+build r1 at Clockwise
+convert g3 to r3 at Jbj77
+move r1 from Clockwise to Alpha
+move y1 from Alpha to Beta (g2)
+convert r1 to b1 at Clockwise
+build y1 at Beta
+build y2 at Clockwise
+build y2 at Beta
+sacrifice y2 at Clockwise; move y1 from Clockwise to Flux (y3); move y1 from Flux to Beta; catastrophe yellow at Beta
+build g1 at Jbj77
+build b1 at Clockwise
+build g1 at Jbj77
+build g2 at Clockwise
+move g1 from Jbj77 to Gamma (b3)
+convert g2 to y2 at Clockwise
+convert g1 to y1 at Jbj77
+move b1 from Clockwise to Alpha
+build r1 at Jbj77
+build b2 at Clockwise
+move r1 from Jbj77 to Gamma
+move b2 from Clockwise to Gamma
+build r2 at Jbj77
+sacrifice g3 at Clockwise; build b2 at Alpha; build r2 at Alpha; build b3 at Clockwise
+move r2 from Jbj77 to Delta (b3)
+sacrifice r2 at Alpha; capture r1 at Gamma; capture g1 at Gamma
+build g1 at Jbj77
+convert b3 to g3 at Clockwise
+move g1 from Jbj77 to Epsilon (b3)
+build y1 at Clockwise
+move y1 from Jbj77 to Delta
+move y1 from Clockwise to Gamma
+build g2 at Epsilon
+sacrifice g3 at Clockwise; build y1 at Gamma; build y2 at Gamma; build y3 at Clockwise
+sacrifice g2 at Epsilon; build g2 at Epsilon; build y3 at Delta
+sacrifice y2 at Clockwise; move y1 from Gamma to Jbj77; move y1 from Gamma to Jbj77
+sacrifice y3 at Delta; move r2 from Delta to Jbj77; move r3 from Jbj77 to Gamma; move g2 from Epsilon to Jbj77
+sacrifice b2 at Alpha; convert b2 to r2 at Gamma; convert y2 to r2 at Gamma; catastrophe red at Gamma
+move r2 from Jbj77 to Alpha
+build g2 at Gamma
+convert g1 to r1 at Jbj77
+sacrifice r1 at Alpha; capture r1 at Jbj77
+capture b1 at Alpha
+sacrifice g2 at Gamma; build y2 at Jbj77; build y2 at Clockwise; catastrophe yellow at Jbj77
+build b2 at Alpha
+move y3 from Clockwise to Alpha
+sacrifice r2 at Alpha; capture r1 at Jbj77
+convert y2 to r2 at Clockwise
+build r1 at Jbj77
+sacrifice r2 at Clockwise; capture b1 at Alpha; capture b2 at Alpha
+sacrifice y1 at Delta; move r1 from Jbj77 to Gamma
+build b2 at Alpha
+capture g1 at Gamma
+sacrifice y3 at Alpha; move b1 from Alpha to Jbj77; move b2 from Alpha to Jbj77; move b2 from Alpha to Jbj77; catastrophe blue at Jbj77

@@ -1,0 +1,46 @@
+Keith (0, b1y2) g3-
+Twoshort (1, b1g3) -b3
+build g1 at Keith
+build b1 at Twoshort
+build g1 at Keith
+convert b3 to y3 at Twoshort
+move g1 from Keith to Amazons (y3)
+build b2 at Twoshort
+build g1 at Amazons
+move b1 from Twoshort to Blitz (b2)
+build g2 at Keith
+build b2 at Twoshort
+move g1 from Amazons to Fanorona (g2)
+move b2 from Twoshort to Grogar (g2)
+build g3 at Amazons
+build b3 at Grogar
+convert g3 to b3 at Keith
+convert b3 to g3 at Grogar
+convert g2 to r2 at Keith
+convert b2 to r2 at Twoshort
+build g2 at Amazons
+sacrifice g3 at Grogar; build b2 at Blitz; build b3 at Grogar; build b3 at Grogar
+build g3 at Keith
+convert b3 to y3 at Grogar
+sacrifice g3 at Keith; build g3 at Keith; build r1 at Keith; build r1 at Keith
+convert b3 to r3 at Grogar
+convert r2 to y2 at Keith
+build y1 at Grogar
+sacrifice y2 at Keith; move g3 from Amazons to Grogar; move g2 from Amazons to Grogar
+sacrifice y3 at Grogar; move r3 from Grogar to Amazons; move b2 from Grogar to Twoshort; move r2 from Twoshort to Fanorona
+sacrifice g2 at Grogar; build g2 at Fanorona; build b3 at Keith
+sacrifice y1 at Grogar; move b1 from Blitz to Yoyodyne (y3)
+move b3 from Keith to Yoyodyne
+build b3 at Twoshort
+sacrifice r1 at Keith; capture r2 at Fanorona
+capture g1 at Amazons
+sacrifice b3 at Keith; convert g2 to y2 at Fanorona; convert g1 to y1 at Fanorona; convert g1 to y1 at Keith
+move b3 from Twoshort to Fanorona
+move y2 from Fanorona to Twoshort
+sacrifice r3 at Amazons; capture y2 at Twoshort; capture r2 at Fanorona; capture y1 at Fanorona
+build r1 at Keith
+build b3 at Fanorona
+sacrifice r1 at Keith; capture b1 at Yoyodyne
+move b3 from Fanorona to Yoyodyne
+build r1 at Keith
+sacrifice r2 at Fanorona; capture b3 at Yoyodyne; capture b1 at Yoyodyne

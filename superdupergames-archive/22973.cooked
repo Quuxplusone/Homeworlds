@@ -1,0 +1,32 @@
+Gidaio (0, g3r2) b3-
+Mandrel (1, b3r1) -g3
+build b1 at Gidaio
+build g1 at Mandrel
+convert b3 to y3 at Gidaio
+build g1 at Mandrel
+build y1 at Gidaio
+convert g1 to y1 at Mandrel
+move y1 from Gidaio to Rizhulan (g1)
+move g1 from Mandrel to King (b2)
+build y1 at Rizhulan
+build y2 at Mandrel
+build y2 at Gidaio
+move y2 from Mandrel to King
+move y2 from Gidaio to Grasslandia (g1)
+build g2 at Mandrel
+build y2 at Grasslandia
+build y3 at King
+build y3 at Gidaio
+build g2 at King
+move y1 from Rizhulan to Brinstar (g3)
+build g2 at King
+move b1 from Gidaio to Rizhulan
+convert g2 to r2 at Mandrel
+convert y1 to r1 at Rizhulan
+move y2 from King to Rizhulan
+build r1 at Rizhulan
+sacrifice r2 at Mandrel; capture r1 at Rizhulan; capture r1 at Rizhulan
+sacrifice y2 at Grasslandia; move b1 from Rizhulan to King; move b1 from King to Grasslandia
+build y1 at Rizhulan
+convert y2 to r2 at Grasslandia
+sacrifice y3 at King; move y1 from Rizhulan to Gidaio; move y2 from Rizhulan to Gidaio; move r1 from Rizhulan to Gidaio; catastrophe yellow at Gidaio

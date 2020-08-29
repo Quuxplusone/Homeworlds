@@ -1,0 +1,22 @@
+Subatomicaura (0, r1b2) g3-
+Eliscinsky (1, r2b3) -g3
+build g1 at Subatomicaura
+build g1 at Eliscinsky
+convert g1 to r1 at Subatomicaura
+convert g1 to r1 at Eliscinsky
+build r2 at Subatomicaura
+build r2 at Eliscinsky
+convert r1 to y1 at Subatomicaura
+convert r1 to y1 at Eliscinsky
+build r1 at Subatomicaura
+build r1 at Eliscinsky
+convert r2 to b2 at Subatomicaura
+convert r2 to b2 at Eliscinsky
+build r2 at Subatomicaura
+build r2 at Eliscinsky
+convert r1 to g1 at Subatomicaura
+build g1 at Eliscinsky
+build b1 at Subatomicaura
+convert r2 to y2 at Eliscinsky
+convert b2 to y2 at Subatomicaura
+move y2 from Eliscinsky to Kronos (g1)

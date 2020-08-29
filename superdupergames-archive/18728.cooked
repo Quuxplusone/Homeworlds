@@ -1,0 +1,36 @@
+Laurie_Menke (0, b2y1) g3-
+Ajo (1, b1y3) -g3
+build g1 at Laurie_Menke
+build g1 at Ajo
+convert g1 to y1 at Laurie_Menke
+build g1 at Ajo
+move y1 from Laurie_Menke to Green (g3)
+move g1 from Ajo to Alpha (b2)
+build y1 at Green
+build g1 at Ajo
+build y2 at Green
+build g2 at Alpha
+move y2 from Green to Alpha
+convert g2 to r2 at Alpha
+move y2 from Alpha to Ajo
+convert g1 to r1 at Ajo
+move y1 from Green to Laurie_Menke
+capture y2 at Ajo
+build y2 at Laurie_Menke
+move y2 from Ajo to Alpha
+move y2 from Laurie_Menke to Red (r3)
+move y2 from Alpha to Green
+move y1 from Green to Pink (r2)
+build y2 at Green
+build y3 at Laurie_Menke
+move y2 from Green to Laurie_Menke; catastrophe yellow at Laurie_Menke
+convert g3 to r3 at Laurie_Menke
+build g1 at Alpha
+move y1 from Pink to Forest (g3)
+convert g1 to b1 at Ajo
+build y1 at Forest
+build b1 at Ajo
+move y1 from Forest to Blue (b2)
+sacrifice y2 at Green; move b1 from Ajo to Laurie_Menke; move b1 from Ajo to Laurie_Menke
+capture b1 at Laurie_Menke
+sacrifice g1 at Alpha; build b3 at Laurie_Menke; catastrophe blue at Laurie_Menke

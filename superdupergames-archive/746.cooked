@@ -1,0 +1,39 @@
+Samaculus (0, g3y2) b3-
+Matrixfrog (1, b2g3) -y3
+build b1 at Samaculus
+build y1 at Matrixfrog
+convert b1 to r1 at Samaculus
+build y1 at Matrixfrog
+build r1 at Samaculus
+move y1 from Matrixfrog to Dydx (g1)
+move r1 from Samaculus to Dydx
+move y1 from Dydx to Matrixfrog
+build r1 at Samaculus
+convert y3 to r3 at Matrixfrog
+move b3 from Samaculus to Dydx
+build r2 at Matrixfrog
+build r2 at Dydx
+convert r2 to g2 at Matrixfrog
+convert r1 to y1 at Dydx
+build r1 at Matrixfrog
+build y2 at Dydx
+convert r1 to b1 at Matrixfrog
+build b1 at Dydx
+build r1 at Matrixfrog
+move r1 from Samaculus to Dydx
+move y1 from Matrixfrog to Antelope (g1)
+sacrifice y2 at Dydx; move r1 from Dydx to Matrixfrog; move r2 from Dydx to Matrixfrog; catastrophe red at Matrixfrog
+build y2 at Matrixfrog
+convert b3 to r3 at Dydx
+build y2 at Antelope
+move r3 from Dydx to Matrixfrog
+build g1 at Matrixfrog
+capture g2 at Matrixfrog
+sacrifice g1 at Matrixfrog; build y3 at Antelope
+capture y2 at Matrixfrog
+move y1 from Antelope to Matrixfrog
+capture b1 at Matrixfrog
+convert y1 to g1 at Matrixfrog
+capture y1 at Matrixfrog
+move y2 from Antelope to Matrixfrog
+sacrifice r3 at Matrixfrog; capture y2 at Matrixfrog; capture g1 at Matrixfrog

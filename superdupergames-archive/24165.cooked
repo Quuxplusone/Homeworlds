@@ -1,0 +1,35 @@
+Wil (0, y2b1) g3-
+Marmalade (1, y3b1) -g3
+build g1 at Wil
+build g1 at Marmalade
+move g1 from Wil to Y3 (y3)
+move g1 from Marmalade to Formalhaut (b2)
+build g1 at Wil
+build g2 at Marmalade
+sacrifice g3 at Wil; build g2 at Wil; build g2 at Y3; build g3 at Wil
+sacrifice g2 at Marmalade; build g2 at Marmalade; build g3 at Formalhaut
+convert g2 to r2 at Wil
+convert g1 to r1 at Formalhaut
+convert g1 to b1 at Wil
+build g1 at Formalhaut
+build b2 at Wil
+build r1 at Formalhaut
+move g2 from Y3 to Y2 (y2)
+convert g2 to y2 at Marmalade
+move b1 from Wil to Y3
+sacrifice y2 at Marmalade; move g3 from Formalhaut to Y3; move r1 from Formalhaut to Y3
+sacrifice g2 at Y2; build g1 at Y3; build g2 at Y3; catastrophe green at Y3
+capture b1 at Y3
+move b2 from Wil to G3 (g3)
+build g1 at Marmalade
+build b2 at G3
+sacrifice g3 at Marmalade; build b3 at Y3; build b3 at Y3; build g1 at Marmalade
+build b3 at G3
+convert b3 to g3 at Y3
+sacrifice b2 at G3; convert b3 to r3 at G3; convert b2 to y2 at G3
+move g3 from Y3 to Formalhaut
+sacrifice y2 at G3; move r3 from G3 to Formalhaut; move r3 from Formalhaut to Marmalade
+build g2 at Marmalade
+sacrifice r2 at Wil; capture g2 at Marmalade; capture g1 at Marmalade
+convert g1 to r1 at Marmalade
+capture r1 at Marmalade

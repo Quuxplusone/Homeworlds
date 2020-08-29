@@ -1,0 +1,53 @@
+Felix (0, b1y2) g3-
+Simon (1, b3r1) -g3
+build g1 at Felix
+build g1 at Simon
+convert g1 to b1 at Felix
+convert g1 to b1 at Simon
+build b2 at Felix
+build b2 at Simon
+move b2 from Felix to Rise (g3)
+convert b2 to y2 at Simon
+build b2 at Rise
+build y1 at Simon
+convert b2 to y2 at Rise
+move y2 from Simon to G2 (g2)
+build b2 at Rise
+move b1 from Simon to G2
+move b2 from Rise to Whorl (g2)
+build y1 at G2
+build g1 at Felix
+convert y1 to r1 at G2
+convert g1 to r1 at Felix
+build r2 at G2
+build b2 at Rise
+build b3 at G2
+build b3 at Whorl
+convert b3 to y3 at G2
+convert b2 to r2 at Rise
+build g1 at Simon
+build g1 at Felix
+move y2 from G2 to B3 (b3)
+build b2 at Rise
+move r1 from G2 to B3
+move g1 from Felix to Opus (y3)
+sacrifice g3 at Simon; build y1 at G2; build y1 at B3; build y3 at Simon
+sacrifice g1 at Opus; build y3 at Rise
+move y1 from G2 to R3 (r3)
+build r2 at Rise
+build r3 at G2
+build r3 at Felix
+convert y3 to g3 at Simon
+move r1 from Felix to Slipstream (y3)
+move r3 from G2 to Slipstream
+move r3 from Felix to B3
+sacrifice y2 at B3; move y1 from B3 to G1 (g1); move r1 from B3 to G2
+move b2 from Rise to Codex (y2)
+capture r1 at Slipstream
+sacrifice y2 at Rise; move b2 from Whorl to Simon; move b3 from Whorl to Simon
+capture b3 at Simon
+move b2 from Codex to Simon; catastrophe blue at Simon
+sacrifice y3 at G2; move r1 from G2 to Rise; move r2 from G2 to Rise; move y1 from R3 to Felix; catastrophe red at Rise
+convert b2 to r2 at Rise
+build b2 at G2
+build r1 at Rise

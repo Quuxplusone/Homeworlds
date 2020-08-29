@@ -1,0 +1,33 @@
+Felix (0, b3r2) g3-
+Mcowper (1, b2y1) -g3
+build g1 at Felix
+build g1 at Mcowper
+convert g1 to y1 at Felix
+move g1 from Mcowper to Alpha (g3)
+build y1 at Felix
+build g1 at Mcowper
+build y2 at Felix
+move g1 from Mcowper to Bravo (y3)
+move y1 from Felix to Out (g1)
+build g2 at Mcowper
+build g2 at Felix
+build g2 at Mcowper
+build y2 at Out
+convert g2 to b2 at Mcowper
+convert g2 to b2 at Felix
+sacrifice g3 at Mcowper; build g2 at Bravo; build g2 at Mcowper; build g3 at Mcowper
+build y2 at Felix
+sacrifice b2 at Mcowper; convert g2 to b2 at Mcowper; convert g3 to y3 at Mcowper
+build y3 at Out
+move b2 from Mcowper to Alpha
+move y1 from Out to Brink (g3)
+build g2 at Mcowper
+move b2 from Felix to Out
+convert g2 to r2 at Mcowper
+convert y2 to r2 at Out
+convert b2 to y2 at Alpha
+build g2 at Felix
+convert r2 to b2 at Mcowper
+sacrifice y2 at Felix; move y3 from Out to Brink; move y3 from Brink to Mcowper
+convert g2 to r2 at Mcowper
+sacrifice r2 at Out; capture y3 at Mcowper; capture r2 at Mcowper

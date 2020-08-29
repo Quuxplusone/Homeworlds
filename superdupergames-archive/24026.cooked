@@ -1,0 +1,56 @@
+Ts52 (0, y2b1) g3-
+Danner (1, r1b2) -g3
+build g1 at Ts52
+build g1 at Danner
+convert g1 to r1 at Ts52
+convert g1 to r1 at Danner
+build g1 at Ts52
+build r2 at Danner
+build r2 at Ts52
+convert r2 to y2 at Danner
+move g1 from Ts52 to Grover (b3)
+build r2 at Danner
+build g1 at Grover
+move r2 from Danner to Grover
+convert r2 to y2 at Ts52
+capture g1 at Grover
+build r2 at Ts52
+build r2 at Grover
+move r2 from Ts52 to Bigbird (y3)
+convert r2 to b2 at Grover
+build g1 at Ts52
+capture g1 at Grover
+move g1 from Ts52 to Bigbird
+convert g1 to y1 at Grover
+move y2 from Ts52 to Kermit (g3)
+build y1 at Danner
+build g1 at Bigbird
+build g2 at Grover
+build g2 at Bigbird
+sacrifice y2 at Danner; move g1 from Grover to Ts52; move g1 from Ts52 to Bigbird; catastrophe green at Bigbird
+build g1 at Ts52
+build y1 at Danner
+convert g1 to b1 at Ts52
+move y1 from Danner to Alpha (b3)
+move b1 from Ts52 to Kermit
+sacrifice g3 at Danner; build y2 at Grover; build y3 at Alpha; build y3 at Danner
+build g1 at Ts52
+build g1 at Grover
+move g1 from Ts52 to Bigbird
+move g2 from Grover to Danner
+build b1 at Kermit
+move y3 from Danner to Kermit
+sacrifice y2 at Kermit; move b1 from Kermit to Zoe (y2); move b1 from Kermit to Zoe
+sacrifice b2 at Grover; convert y3 to b3 at Kermit; convert y3 to g3 at Alpha
+move b1 from Zoe to Bigbird
+sacrifice g2 at Danner; build y3 at Danner; build y3 at Alpha
+build b2 at Bigbird
+convert y3 to r3 at Alpha
+build r2 at Bigbird
+sacrifice g3 at Alpha; build r3 at Alpha; build r3 at Grover; build y3 at Alpha
+build g1 at Ts52
+sacrifice y3 at Alpha; move r3 from Alpha to Ts52; move r3 from Alpha to Ts52; move b3 from Kermit to Ts52
+sacrifice r2 at Bigbird; capture r3 at Ts52; capture r3 at Ts52
+sacrifice r3 at Grover; capture r3 at Ts52; capture r3 at Ts52; capture g3 at Ts52
+build r2 at Ts52; catastrophe red at Ts52
+sacrifice r1 at Danner; capture g1 at Ts52

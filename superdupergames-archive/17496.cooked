@@ -1,0 +1,46 @@
+Keith (0, b1y2) g3-
+Dlwillson (1, b3y1) -g3
+build g1 at Keith
+build g1 at Dlwillson
+convert g1 to y1 at Keith
+convert g1 to y1 at Dlwillson
+build y2 at Keith
+build y2 at Dlwillson
+move y1 from Keith to Forrest (g3)
+move y1 from Dlwillson to Spubit (g2)
+build y3 at Forrest
+build y3 at Spubit
+move y3 from Forrest to Ariel (g2)
+convert y2 to r2 at Dlwillson
+build y2 at Forrest
+move y3 from Spubit to Thingum (b3)
+build y3 at Ariel
+move y3 from Thingum to Keith
+move y1 from Forrest to Keith; catastrophe yellow at Keith
+build g1 at Dlwillson
+move y3 from Ariel to Keith
+build y1 at Spubit
+convert y3 to r3 at Keith
+convert g1 to b1 at Dlwillson
+build y2 at Ariel
+move b1 from Dlwillson to Spubit
+move y2 from Forrest to Spubit
+convert y1 to b1 at Spubit
+sacrifice r3 at Keith; capture b1 at Spubit; capture b1 at Spubit; capture y1 at Spubit
+build g1 at Dlwillson
+build g1 at Keith
+move g1 from Dlwillson to Dingo (y2)
+build b2 at Spubit
+move g1 from Dingo to Keith
+convert g3 to r3 at Keith
+build g1 at Dlwillson
+sacrifice y3 at Ariel; move b1 from Spubit to Dlwillson; move b1 from Spubit to Dlwillson; move b2 from Spubit to Dlwillson; catastrophe blue at Dlwillson
+build g2 at Keith
+build y1 at Ariel
+convert g1 to b1 at Keith
+capture b1 at Keith
+sacrifice r2 at Dlwillson; capture b1 at Keith; capture g1 at Keith
+capture b1 at Keith
+convert g1 to b1 at Keith
+sacrifice y2 at Ariel; move y1 from Spubit to Dlwillson; move y2 from Spubit to Dlwillson
+convert g2 to b2 at Keith; catastrophe blue at Keith

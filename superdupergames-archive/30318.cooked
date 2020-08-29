@@ -1,0 +1,72 @@
+Draw5Playall (0, r1b3) g3-
+Felix (1, y2b3) -g3
+build g1 at Draw5Playall
+build g1 at Felix
+convert g1 to y1 at Draw5Playall
+convert g1 to y1 at Felix
+build g1 at Draw5Playall
+build g1 at Felix
+convert g1 to b1 at Draw5Playall
+convert g1 to r1 at Felix
+move b1 from Draw5Playall to Keeper (g2)
+build r1 at Felix
+build y1 at Draw5Playall
+build y2 at Felix
+build y2 at Draw5Playall
+move y1 from Felix to Rim (g1)
+move y2 from Draw5Playall to Keeper
+sacrifice g3 at Felix; build y3 at Felix; build y3 at Rim; build r2 at Felix
+build y3 at Keeper
+convert y3 to g3 at Felix
+convert y3 to r3 at Keeper
+build y3 at Felix
+build y3 at Keeper
+convert y3 to b3 at Felix
+build r2 at Keeper
+move r1 from Felix to Rim
+move y3 from Keeper to Action (b1)
+sacrifice y1 at Rim; move y2 from Felix to Pax (g1)
+build g1 at Draw5Playall
+build g2 at Felix
+move r2 from Keeper to Action
+move b3 from Felix to Pax
+move g1 from Draw5Playall to Draw2Useem (b2)
+move g2 from Felix to Arakkis (b1)
+build g2 at Draw5Playall
+build g3 at Arakkis
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build r2 at Keeper; build r3 at Action
+sacrifice g3 at Arakkis; build g3 at Arakkis; build r3 at Rim; build b2 at Pax
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y1 at Keeper; build y3 at Action
+move r3 from Rim to Draw2Useem
+sacrifice y1 at Draw5Playall; move g1 from Draw2Useem to Newrule (y1)
+sacrifice y2 at Pax; move g2 from Arakkis to Dune (y2); move g3 from Arakkis to Dune
+sacrifice g2 at Draw5Playall; build g2 at Newrule; build b1 at Keeper
+move g3 from Dune to Newrule
+move g2 from Newrule to Spacejackpot (b2)
+sacrifice r1 at Felix; capture g1 at Newrule
+move r3 from Action to Dune
+sacrifice g2 at Dune; build g2 at Felix; build r1 at Draw2Useem
+move y3 from Action to Spacejackpot
+move g1 from Newrule to Draw2Useem
+sacrifice y2 at Keeper; move b1 from Keeper to Pax; move b1 from Keeper to Pax; catastrophe blue at Pax
+sacrifice g3 at Felix; build g1 at Draw2Useem; build g3 at Felix; build y2 at Rim
+move r3 from Dune to Icetraders (b1)
+move y2 from Rim to Draw2Useem
+sacrifice g2 at Spacejackpot; build y2 at Action
+build g2 at Draw2Useem
+convert g3 to b3 at Draw5Playall
+build g3 at Newrule
+move y3 from Action to Felix
+capture y3 at Felix
+sacrifice y3 at Spacejackpot; move y2 from Action to Felix; move y1 from Keeper to Action; move y1 from Action to Felix; catastrophe yellow at Felix
+convert r1 to b1 at Draw2Useem
+convert r2 to b2 at Action
+convert g2 to b2 at Felix
+convert b3 to y3 at Draw5Playall
+build y1 at Draw2Useem
+convert y1 to r1 at Draw5Playall
+build y1 at Draw2Useem
+convert y3 to b3 at Draw5Playall
+sacrifice y3 at Rim; move b1 from Draw2Useem to Draw5Playall; move b2 from Felix to Keeper; move b2 from Keeper to Draw5Playall; catastrophe blue at Draw5Playall
+sacrifice b2 at Action; convert r3 to y3 at Keeper
+sacrifice y2 at Draw2Useem; move r3 from Draw2Useem to Draw5Playall; move r2 from Felix to Draw5Playall; catastrophe red at Draw5Playall

@@ -1,0 +1,16 @@
+Jonaskoelker (0, r1b2) g3-
+Zxcv411 (1, r1b2) -g3
+build g1 at Jonaskoelker
+build g1 at Zxcv411
+convert g1 to y1 at Jonaskoelker
+build g1 at Zxcv411
+build g1 at Jonaskoelker
+convert g1 to y1 at Zxcv411
+move g1 from Jonaskoelker to Large_Yellow (y3)
+build y1 at Zxcv411
+build y2 at Jonaskoelker
+convert y1 to b1 at Zxcv411
+convert y1 to r1 at Jonaskoelker
+move g1 from Zxcv411 to Large_Yellow
+build r2 at Jonaskoelker
+convert g3 to y3 at Zxcv411

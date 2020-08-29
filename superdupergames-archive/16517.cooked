@@ -1,0 +1,58 @@
+Tomclem (0, r1b2) g3-
+Bhorner (1, b3g2) -y3
+build g1 at Tomclem
+build y1 at Bhorner
+build g1 at Tomclem
+build y1 at Bhorner
+convert g1 to y1 at Tomclem
+move y1 from Bhorner to S1 (g1)
+build y2 at Tomclem
+build y2 at S1
+move y2 from Tomclem to Badben (g3)
+convert y1 to b1 at Bhorner
+move g1 from Tomclem to Badben
+sacrifice b1 at Bhorner; convert y2 to r2 at S1
+build g1 at Tomclem
+move r2 from S1 to Badben
+move y2 from Badben to S1
+capture g1 at Badben
+convert g1 to b1 at Tomclem
+build y1 at Bhorner
+build y2 at Tomclem
+build r1 at Badben
+build g1 at Tomclem
+move y1 from S1 to Badben
+sacrifice b1 at Tomclem; convert y2 to r2 at S1
+move y1 from Badben to Stall (g2)
+move g1 from Tomclem to Badben
+capture g1 at Badben
+build g2 at Tomclem
+sacrifice g1 at Badben; build y2 at Stall
+move g2 from Tomclem to Badben
+capture g2 at Badben
+sacrifice y1 at Tomclem; move r2 from S1 to Stall
+sacrifice r1 at Badben; capture r2 at Stall
+move g3 from Tomclem to Badben; catastrophe green at Badben
+move y1 from Stall to Stage (g3)
+convert y2 to g2 at Tomclem
+convert y3 to g3 at Bhorner
+build g1 at Tomclem
+build y1 at Stage
+convert g2 to y2 at Tomclem
+build r1 at Stall
+build g1 at Tomclem
+move g3 from Bhorner to Twoaway (b1)
+build y2 at Tomclem
+sacrifice g3 at Twoaway; build y3 at Stall; build y3 at Bhorner; build y3 at Bhorner
+build g1 at Tomclem
+sacrifice y2 at Stall; move y1 from Stage to Tomclem; move y1 from Stage to Tomclem; catastrophe yellow at Tomclem
+convert g1 to y1 at Tomclem
+sacrifice y3 at Bhorner; move r2 from Stall to Temp (r3); move r2 from Temp to Tomclem
+build y1 at Tomclem
+capture g1 at Tomclem
+build g1 at Tomclem
+capture y1 at Tomclem
+build y2 at Tomclem
+build y2 at Tomclem; catastrophe yellow at Tomclem
+sacrifice g1 at Tomclem; build g1 at Tomclem
+build g2 at Tomclem; catastrophe green at Tomclem

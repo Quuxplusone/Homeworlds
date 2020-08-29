@@ -1,0 +1,27 @@
+Trydnt (0, b2y1) g3-
+Vezeon (1, r2b3) -g3
+build g1 at Trydnt
+build g1 at Vezeon
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Vezeon
+build y2 at Trydnt
+build y2 at Vezeon
+move y2 from Trydnt to G3 (g3)
+build g1 at Vezeon
+build g1 at Trydnt
+move g1 from Vezeon to Pluto (b1)
+convert g1 to b1 at Trydnt
+build g1 at Pluto
+build b1 at Trydnt
+convert y2 to b2 at Vezeon
+build y2 at G3
+move b2 from Vezeon to Mars (r1)
+move b1 from Trydnt to G3
+move y1 from Vezeon to Magma (r1)
+move y2 from G3 to G1 (g1)
+build g2 at Vezeon
+build g2 at Trydnt
+build g2 at Vezeon
+sacrifice g2 at Trydnt; build y2 at G1; build y3 at G3
+convert b2 to r2 at Mars
+sacrifice y3 at G3; move g3 from Trydnt to G3; move g3 from G3 to Pluto; move g3 from Pluto to Vezeon; catastrophe green at Vezeon

@@ -1,0 +1,26 @@
+Bloodrumpus (0, b3r1) g3-
+Sirruthvenmurgatroyd (1, g1b2) -y3
+build g1 at Bloodrumpus
+build y1 at Sirruthvenmurgatroyd
+convert g1 to y1 at Bloodrumpus
+convert y1 to r1 at Sirruthvenmurgatroyd
+build g1 at Bloodrumpus
+build y1 at Sirruthvenmurgatroyd
+move g1 from Bloodrumpus to Vega (b2)
+build r1 at Sirruthvenmurgatroyd
+build g1 at Vega
+convert y3 to g3 at Sirruthvenmurgatroyd
+build g2 at Vega
+build g2 at Sirruthvenmurgatroyd
+convert g1 to y1 at Vega
+build r2 at Sirruthvenmurgatroyd
+build y2 at Vega
+convert g2 to y2 at Sirruthvenmurgatroyd
+convert y2 to r2 at Vega
+move r1 from Sirruthvenmurgatroyd to Sol (y3)
+build y2 at Vega
+move r1 from Sol to Yellow (y2)
+sacrifice g3 at Bloodrumpus; build y3 at Bloodrumpus; build y3 at Bloodrumpus; build y3 at Vega
+move y1 from Sirruthvenmurgatroyd to Green (g3)
+convert y1 to g1 at Vega
+sacrifice y2 at Sirruthvenmurgatroyd; move y1 from Green to Yellow; move y1 from Yellow to Bloodrumpus; catastrophe yellow at Bloodrumpus

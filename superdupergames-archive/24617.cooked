@@ -1,0 +1,37 @@
+Ts52 (0, y3b1) g3-
+Mnkr (1, y1b2) -g3
+build g1 at Ts52
+build g1 at Mnkr
+move g1 from Ts52 to Gonzo (b2)
+move g1 from Mnkr to Nnkr (b3)
+build g1 at Ts52
+build g2 at Nnkr
+build g2 at Gonzo
+build g2 at Mnkr
+build g3 at Gonzo
+convert g2 to y2 at Nnkr
+convert g3 to y3 at Gonzo
+build y1 at Nnkr
+convert g2 to r2 at Gonzo
+convert g3 to r3 at Mnkr
+build g2 at Gonzo
+build g2 at Nnkr
+move g2 from Gonzo to Grover (b3)
+move g2 from Nnkr to Onkr (b2)
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Grover; build g3 at Gonzo
+move g1 from Nnkr to Onkr
+convert g1 to r1 at Ts52
+convert g2 to r2 at Onkr
+convert g3 to y3 at Grover
+build r1 at Onkr
+move y3 from Grover to Onkr
+convert y1 to g1 at Nnkr
+sacrifice r2 at Gonzo; capture r2 at Onkr; capture r1 at Onkr
+sacrifice g1 at Onkr; build g1 at Nnkr
+sacrifice g3 at Gonzo; build g2 at Ts52; build g3 at Gonzo; build g3 at Grover
+build y1 at Nnkr
+move r2 from Onkr to Nnkr
+sacrifice y2 at Nnkr; move g1 from Nnkr to Gonzo; move g1 from Nnkr to Gonzo; catastrophe green at Gonzo
+capture y1 at Nnkr
+build r1 at Mnkr
+sacrifice y3 at Gonzo; move r2 from Nnkr to Mnkr; move r1 from Onkr to Grover; move r1 from Grover to Mnkr; catastrophe red at Mnkr

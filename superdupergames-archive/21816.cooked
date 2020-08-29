@@ -1,0 +1,83 @@
+Ajo (0, r1b2) g3-
+Lorgar (1, b1y3) -g3
+build g1 at Ajo
+build g1 at Lorgar
+convert g1 to y1 at Ajo
+convert g1 to b1 at Lorgar
+build g1 at Ajo
+build b1 at Lorgar
+move g1 from Ajo to Alpha (b3)
+move b1 from Lorgar to Mnar (g2)
+build g1 at Ajo
+build g1 at Lorgar
+build g2 at Alpha
+build b2 at Mnar
+convert g2 to y2 at Alpha
+move g1 from Lorgar to Mhor (b2)
+build g2 at Alpha
+build b3 at Mnar
+convert g2 to r2 at Alpha
+build g2 at Lorgar
+sacrifice g3 at Ajo; build g2 at Ajo; build g3 at Ajo; build g3 at Alpha
+convert b2 to y2 at Mnar
+move g3 from Alpha to Mnar
+sacrifice y2 at Mnar; move g1 from Mhor to Bravo (y3); move b3 from Mnar to Alpha
+move g1 from Ajo to Bravo
+convert b1 to r1 at Lorgar
+sacrifice r2 at Alpha; capture g1 at Bravo; capture b1 at Mnar
+convert b3 to r3 at Alpha
+sacrifice y2 at Alpha; move g1 from Alpha to Gamma (y2); move g1 from Bravo to Gamma
+move g2 from Lorgar to Gamma
+sacrifice g2 at Ajo; build g2 at Gamma; build b1 at Mnar; catastrophe green at Gamma
+build g1 at Lorgar
+convert g3 to r3 at Mnar
+sacrifice g1 at Lorgar; build r1 at Alpha
+build r2 at Mnar
+build g1 at Lorgar
+convert r2 to y2 at Mnar
+convert r1 to g1 at Alpha
+build b2 at Mnar
+sacrifice g3 at Lorgar; build g2 at Alpha; build g2 at Alpha; build g3 at Lorgar
+build g3 at Ajo
+convert g2 to y2 at Alpha
+convert g3 to y3 at Ajo
+sacrifice y2 at Alpha; move g2 from Alpha to Mnar; move g1 from Alpha to Mnar
+sacrifice y3 at Ajo; move r3 from Mnar to Bravo; move b2 from Mnar to Lorgar; move b1 from Mnar to Lorgar
+build g2 at Mnar; catastrophe green at Mnar
+sacrifice g1 at Bravo; build b1 at Lorgar; catastrophe blue at Lorgar
+build g1 at Lorgar
+move r3 from Bravo to Charlie (b1)
+sacrifice g1 at Lorgar; build r1 at Alpha
+build g1 at Ajo
+convert r1 to g1 at Alpha
+build y1 at Ajo
+build g2 at Alpha
+move g1 from Ajo to Beta (y3)
+convert g2 to y2 at Alpha
+move g1 from Beta to Charlie
+build g2 at Alpha
+convert g3 to b3 at Ajo
+build y1 at Alpha
+build g2 at Charlie
+sacrifice y2 at Alpha; move g2 from Alpha to Ajo; move g1 from Alpha to Ajo
+sacrifice r3 at Charlie; capture g1 at Ajo; capture g2 at Ajo
+move g1 from Lorgar to Charlie
+sacrifice y1 at Ajo; move g1 from Charlie to Lorgar
+move r3 from Alpha to Charlie
+sacrifice g2 at Charlie; build g2 at Lorgar; build g2 at Lorgar; catastrophe green at Lorgar
+build g1 at Charlie
+convert g2 to r2 at Ajo
+sacrifice y1 at Alpha; move r3 from Charlie to Lorgar
+build g2 at Ajo
+build g2 at Charlie
+convert g2 to y2 at Ajo
+convert g2 to r2 at Charlie
+build y1 at Ajo
+build g2 at Charlie
+build g2 at Ajo
+convert g2 to y2 at Charlie
+move y1 from Ajo to Lorgar
+capture y1 at Lorgar
+move y1 from Ajo to Lorgar
+pass
+sacrifice g2 at Ajo; build y1 at Lorgar; build y2 at Lorgar; catastrophe yellow at Lorgar

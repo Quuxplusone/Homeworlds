@@ -1,0 +1,27 @@
+Silenttitan (0, r1b2) g3-
+Fogus (1, r1b2) -g3
+build g1 at Silenttitan
+build g1 at Fogus
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Fogus
+build g1 at Silenttitan
+build g1 at Fogus
+convert g1 to r1 at Silenttitan
+convert g1 to b1 at Fogus
+build r2 at Silenttitan
+build y1 at Fogus
+build y2 at Silenttitan
+convert y1 to b1 at Fogus
+build g1 at Silenttitan
+build g1 at Fogus
+move r1 from Silenttitan to Sol (g3)
+move b1 from Fogus to Bacon (y3)
+sacrifice g3 at Silenttitan; build r2 at Sol; build r2 at Sol; build r3 at Silenttitan
+build b1 at Fogus
+move r3 from Silenttitan to Bacon
+move b1 from Fogus to Bacon
+sacrifice g1 at Silenttitan; build r3 at Bacon
+convert b1 to y1 at Bacon
+sacrifice y2 at Silenttitan; move r3 from Bacon to Fogus; move r3 from Bacon to Fogus
+build y2 at Fogus
+sacrifice r3 at Fogus; capture g3 at Fogus; capture y2 at Fogus; capture y1 at Fogus

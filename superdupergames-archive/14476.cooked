@@ -1,0 +1,30 @@
+Shmil1 (0, r1b3) g3-
+Zoltar (1, b2r3) -g3
+build g1 at Shmil1
+build g1 at Zoltar
+sacrifice g3 at Shmil1; build g1 at Shmil1; build g2 at Shmil1; build g2 at Shmil1
+convert g1 to y1 at Zoltar
+convert g2 to y2 at Shmil1
+build y1 at Zoltar
+move g2 from Shmil1 to K25 (r2)
+convert y1 to r1 at Zoltar
+convert g1 to b1 at Shmil1
+build y1 at Zoltar
+move b1 from Shmil1 to K25
+convert y1 to b1 at Zoltar
+sacrifice g2 at K25; build b1 at K25; build b2 at K25
+build b2 at Zoltar
+sacrifice y2 at Shmil1; move b2 from K25 to Mac (y1); move b1 from K25 to Mac
+move b2 from Zoltar to Mac
+move b2 from Mac to Zoltar
+sacrifice r1 at Zoltar; capture b1 at Mac
+build g1 at Shmil1
+sacrifice b1 at Zoltar; convert b2 to r2 at Mac
+sacrifice b1 at K25; convert b2 to r2 at Zoltar
+capture r2 at Zoltar
+build g1 at Shmil1
+move r2 from Mac to Deathstar (y2)
+convert g1 to r1 at Shmil1
+move r2 from Deathstar to Shmil1
+convert g1 to y1 at Shmil1
+sacrifice r2 at Zoltar; capture g1 at Shmil1; capture y1 at Shmil1

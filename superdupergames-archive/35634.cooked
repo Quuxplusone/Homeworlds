@@ -1,0 +1,17 @@
+Trydnt (0, b2y1) g3-
+Capi3101 (1, g1b2) -y3
+build g1 at Trydnt
+build y1 at Capi3101
+build g1 at Trydnt
+convert y1 to r1 at Capi3101
+move g1 from Trydnt to Y3 (y3)
+build y1 at Capi3101
+build g2 at Trydnt
+convert y3 to g3 at Capi3101
+sacrifice g3 at Trydnt; build g2 at Y3; build g2 at Y3; build g3 at Trydnt
+build r1 at Capi3101
+convert g2 to r2 at Trydnt
+move r1 from Capi3101 to Cinefactus (b3)
+build g2 at Trydnt
+build g3 at Capi3101
+move g1 from Y3 to Capi3101; catastrophe green at Capi3101

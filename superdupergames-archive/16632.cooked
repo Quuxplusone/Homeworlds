@@ -1,0 +1,26 @@
+Sordros (0, y1b2) g3-
+Uglyfoot (1, b3y2) -g3
+build g1 at Sordros
+build g1 at Uglyfoot
+convert g1 to y1 at Sordros
+build g1 at Uglyfoot
+build g1 at Sordros
+move g1 from Uglyfoot to Step (r1)
+build g2 at Sordros
+sacrifice g3 at Uglyfoot; build g2 at Step; build g2 at Step; build g3 at Uglyfoot
+move g2 from Sordros to Verdega (g3)
+convert g1 to b1 at Uglyfoot
+convert g1 to b1 at Sordros
+move b1 from Uglyfoot to Step
+build g1 at Sordros
+convert g2 to y2 at Step
+convert g1 to r1 at Sordros
+build g1 at Uglyfoot
+build r1 at Sordros
+move g1 from Step to Verdega
+move r1 from Sordros to Bluega (b3)
+sacrifice g3 at Uglyfoot; build g1 at Verdega; build g2 at Step; build g3 at Uglyfoot; catastrophe green at Verdega
+build r2 at Sordros
+convert g2 to r2 at Step
+build g1 at Sordros
+move r2 from Step to Node (y3)

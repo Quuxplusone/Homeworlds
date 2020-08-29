@@ -1,0 +1,34 @@
+Agentofchaos (0, r1b2) g3-
+Wil (1, y3b1) -g3
+build g1 at Agentofchaos
+build g1 at Wil
+convert g1 to y1 at Agentofchaos
+convert g1 to r1 at Wil
+convert y1 to r1 at Agentofchaos
+build r2 at Wil
+build r2 at Agentofchaos
+build r2 at Wil
+convert r2 to g2 at Agentofchaos
+convert r1 to b1 at Wil
+build g1 at Agentofchaos
+build b1 at Wil
+convert g1 to y1 at Agentofchaos
+move b1 from Wil to G2 (g2)
+move g2 from Agentofchaos to Dare (y3)
+build b2 at Wil
+build g1 at Dare
+move b2 from Wil to B2 (b2)
+build g1 at Agentofchaos
+sacrifice g3 at Wil; build b3 at Wil; build b3 at B2; build b3 at G2
+build r1 at Agentofchaos
+sacrifice b2 at B2; convert b3 to y3 at G2; convert b3 to g3 at Wil
+move g2 from Dare to Hadestorm (y2)
+sacrifice y3 at G2; move r2 from Wil to G2; move r2 from G2 to Dare; move r2 from Dare to Agentofchaos; catastrophe red at Agentofchaos
+convert g1 to r1 at Agentofchaos
+sacrifice g3 at Wil; build b2 at G2; build b3 at B2; build b3 at Wil
+build g1 at Hadestorm
+convert b3 to g3 at B2
+move r1 from Agentofchaos to Dospair (g1)
+move b1 from Wil to Agentofchaos
+convert g3 to r3 at Agentofchaos
+convert b3 to y3 at B2

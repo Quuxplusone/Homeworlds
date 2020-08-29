@@ -1,0 +1,39 @@
+Ajo (0, b3r1) g3-
+Magicjohn (1, g1b2) -b3
+build g1 at Ajo
+build b1 at Magicjohn
+build g1 at Ajo
+convert b1 to y1 at Magicjohn
+convert g3 to y3 at Ajo
+build b1 at Magicjohn
+build g2 at Ajo
+move b1 from Magicjohn to Outpost (g3)
+move g2 from Ajo to Alpha (b2)
+build b1 at Outpost
+build g2 at Alpha
+build b1 at Magicjohn
+convert g2 to y2 at Alpha
+convert b3 to r3 at Magicjohn
+build g2 at Alpha
+build b2 at Outpost
+convert g2 to r2 at Alpha
+build b3 at Magicjohn
+build g2 at Alpha
+convert b2 to r2 at Outpost
+convert g2 to b2 at Alpha
+convert b3 to g3 at Magicjohn
+move b2 from Alpha to Beta (g3)
+sacrifice y1 at Magicjohn; move b1 from Outpost to Toolies (y2)
+build b3 at Beta
+build b3 at Outpost
+convert b3 to y3 at Beta
+sacrifice g3 at Magicjohn; build b3 at Toolies; build r1 at Magicjohn; build r1 at Outpost
+build r2 at Alpha
+convert r1 to y1 at Magicjohn
+move r2 from Alpha to Beta
+build y1 at Magicjohn
+build r1 at Beta
+move b1 from Toolies to Outback (y1)
+build y2 at Beta
+convert r2 to g2 at Outpost
+build y3 at Alpha

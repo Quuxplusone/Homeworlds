@@ -1,0 +1,47 @@
+Jbj77 (0, b1g2) r3-
+Eriinfo (1, y3b1) -g3
+build r1 at Jbj77
+build g1 at Eriinfo
+convert r3 to y3 at Jbj77
+convert g1 to r1 at Eriinfo
+build y1 at Jbj77
+build g1 at Eriinfo
+convert y1 to g1 at Jbj77
+convert g1 to y1 at Eriinfo
+build y1 at Jbj77
+build g1 at Eriinfo
+convert y1 to b1 at Jbj77
+convert g3 to b3 at Eriinfo
+build b2 at Jbj77
+build y1 at Eriinfo
+move b1 from Jbj77 to Alpha (g3)
+move y1 from Eriinfo to Cire2 (b2)
+build b2 at Alpha
+convert b3 to g3 at Eriinfo
+build b3 at Alpha
+build r1 at Eriinfo
+convert b2 to y2 at Alpha
+build r2 at Eriinfo
+build r2 at Jbj77
+move r2 from Eriinfo to Cire2
+move r1 from Jbj77 to Alpha
+move g1 from Eriinfo to Cire2
+convert b3 to g3 at Alpha
+move r1 from Eriinfo to Cire2
+move g3 from Alpha to Cire2
+build g1 at Cire2
+sacrifice r2 at Jbj77; capture r2 at Cire2; capture r1 at Cire2
+build r2 at Eriinfo
+sacrifice y3 at Jbj77; move g3 from Cire2 to Eriinfo; move r1 from Cire2 to Eriinfo; move r2 from Cire2 to Eriinfo; catastrophe red at Eriinfo
+build g2 at Eriinfo
+convert g3 to r3 at Eriinfo
+sacrifice g3 at Eriinfo; build g2 at Eriinfo; build g3 at Cire2; build y1 at Cire2
+capture g2 at Eriinfo
+sacrifice g3 at Cire2; build g3 at Cire2; build g3 at Eriinfo; build y2 at Eriinfo
+capture g3 at Eriinfo
+move g1 from Cire2 to Eriinfo; catastrophe green at Eriinfo
+capture y2 at Eriinfo
+move g3 from Cire2 to Eriinfo
+capture g3 at Eriinfo
+move g1 from Cire2 to Eriinfo
+sacrifice r3 at Eriinfo; capture g1 at Eriinfo; capture y1 at Eriinfo

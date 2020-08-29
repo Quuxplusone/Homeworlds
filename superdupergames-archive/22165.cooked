@@ -1,0 +1,24 @@
+Dlwillson (0, b3y1) g3-
+Twoshort (1, r1b2) -g3
+build g1 at Dlwillson
+build g1 at Twoshort
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Twoshort
+build y2 at Dlwillson
+build y2 at Twoshort
+move y1 from Dlwillson to Sky (b2)
+move y1 from Twoshort to Borbor (b3)
+build g1 at Dlwillson
+build g1 at Twoshort
+convert g1 to r1 at Dlwillson
+build y2 at Twoshort
+move y2 from Dlwillson to Field (g2)
+convert y2 to r2 at Twoshort
+build g1 at Dlwillson
+move g1 from Twoshort to Yoyodyne (y3)
+sacrifice g3 at Dlwillson; build g1 at Dlwillson; build y2 at Field; build y3 at Sky
+build g2 at Twoshort
+convert y1 to r1 at Sky
+sacrifice g2 at Twoshort; build y1 at Twoshort; build y3 at Borbor
+build r2 at Dlwillson
+sacrifice y2 at Twoshort; move y3 from Borbor to Sky; move y3 from Sky to Dlwillson

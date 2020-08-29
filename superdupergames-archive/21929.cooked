@@ -1,0 +1,62 @@
+Shmil1 (0, g1b2) r3-
+Rootbier (1, y2b3) -g3
+build r1 at Shmil1
+build g1 at Rootbier
+convert r1 to y1 at Shmil1
+move g1 from Rootbier to Oxix (b1)
+build r1 at Shmil1
+build g1 at Rootbier
+build y1 at Shmil1
+move g1 from Rootbier to Ixox (b1)
+build y1 at Shmil1
+build g2 at Rootbier
+move r1 from Shmil1 to Prechodnenebe (y3)
+sacrifice g3 at Rootbier; build g2 at Ixox; build g2 at Oxix; build g3 at Rootbier
+move r1 from Prechodnenebe to Oxix
+convert g2 to r2 at Oxix
+capture g1 at Oxix
+capture r1 at Oxix
+build g2 at Oxix
+capture g2 at Oxix
+build g3 at Oxix
+sacrifice g1 at Ixox; build g1 at Oxix; catastrophe green at Oxix
+convert y1 to g1 at Shmil1
+move g2 from Rootbier to Oxix
+build r1 at Shmil1
+convert r2 to y2 at Oxix
+move y1 from Shmil1 to Zelenenebe (g3)
+build g1 at Rootbier
+build y1 at Zelenenebe
+sacrifice g3 at Rootbier; build g2 at Ixox; build g3 at Rootbier; build g3 at Oxix
+build y2 at Shmil1
+convert g2 to r2 at Ixox
+move y1 from Zelenenebe to Modrenebe (b1)
+sacrifice g3 at Rootbier; build g2 at Ixox; build g3 at Rootbier; build y3 at Oxix
+move y1 from Zelenenebe to Modrenebe
+sacrifice y3 at Oxix; move r2 from Ixox to Rootbier; move r2 from Rootbier to Modrenebe; move y2 from Oxix to Habl (b3)
+sacrifice y2 at Shmil1; move y1 from Modrenebe to Rootbier; move y1 from Modrenebe to Rootbier
+sacrifice r2 at Modrenebe; capture y1 at Rootbier; capture y1 at Rootbier
+build g3 at Shmil1
+sacrifice y2 at Habl; move g2 from Ixox to Habl (y3); move g2 from Habl to Shmil1; catastrophe green at Shmil1
+convert r3 to g3 at Shmil1
+move y1 from Rootbier to Oxix
+build y2 at Shmil1
+move y1 from Rootbier to Ixox
+move y2 from Shmil1 to Ixox
+sacrifice r1 at Oxix; capture y2 at Ixox
+move r1 from Shmil1 to Oxix
+sacrifice y1 at Oxix; move g2 from Oxix to Habl (y3)
+sacrifice y1 at Shmil1; move r1 from Oxix to Rootbier
+convert y2 to r2 at Ixox
+capture g1 at Rootbier
+sacrifice r2 at Ixox; capture g1 at Rootbier; capture r1 at Rootbier
+build g1 at Shmil1
+move g2 from Habl to Shmil1
+convert g3 to r3 at Shmil1
+sacrifice g3 at Rootbier; build g1 at Shmil1; build g2 at Oxix; build g3 at Ixox
+capture g2 at Shmil1
+build g3 at Shmil1; catastrophe green at Shmil1
+convert r3 to g3 at Shmil1
+move g3 from Ixox to Shmil1
+convert g3 to r3 at Shmil1
+sacrifice r1 at Rootbier; capture r3 at Shmil1

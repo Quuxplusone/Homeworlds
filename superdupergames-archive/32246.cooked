@@ -1,0 +1,91 @@
+Dlwillson (0, r3b2) g3-
+Felix (1, r2b3) -g3
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Felix
+build g1 at Dlwillson
+build g1 at Felix
+move g1 from Dlwillson to Sol (y1)
+build y2 at Felix
+build g1 at Sol
+move g1 from Felix to Sol
+build g2 at Dlwillson
+build g2 at Felix
+move g1 from Sol to Felix
+sacrifice g2 at Felix; build g2 at Sol; build y2 at Felix
+sacrifice g3 at Dlwillson; build g2 at Sol; build g3 at Felix; build g3 at Dlwillson; catastrophe green at Sol
+build g1 at Felix; catastrophe green at Felix
+build y1 at Dlwillson
+convert y2 to g2 at Felix
+build y2 at Dlwillson
+build g1 at Felix
+move y1 from Dlwillson to Sky (b1)
+move y1 from Felix to Oriole (b1)
+move y2 from Dlwillson to Oriole
+sacrifice g2 at Felix; build y2 at Oriole; build y3 at Felix
+sacrifice g2 at Dlwillson; build y3 at Oriole; build y3 at Sky; catastrophe yellow at Oriole
+build g1 at Felix
+sacrifice y3 at Sky; move y1 from Dlwillson to Sky; move y1 from Sky to Felix; move y1 from Sky to Felix; catastrophe yellow at Felix
+convert g1 to y1 at Felix
+build g1 at Dlwillson
+build g1 at Felix
+build g2 at Dlwillson
+build g2 at Felix
+convert g3 to y3 at Dlwillson
+move g1 from Felix to Hope (b1)
+build y1 at Dlwillson
+move g1 from Felix to Saveme (b1)
+move y3 from Dlwillson to Saveme
+build g2 at Hope
+sacrifice g2 at Dlwillson; build y1 at Saveme; build y2 at Dlwillson
+build g2 at Saveme
+build g3 at Dlwillson
+build g3 at Felix
+convert y3 to r3 at Saveme
+sacrifice g2 at Hope; build g2 at Saveme; build g3 at Hope
+capture g2 at Saveme
+convert g3 to r3 at Hope
+convert g2 to r2 at Saveme
+sacrifice g3 at Felix; build g2 at Saveme; build g3 at Hope; build g3 at Felix
+move g1 from Dlwillson to Saveme; catastrophe green at Saveme
+convert g3 to y3 at Hope
+build g1 at Dlwillson
+build y2 at Hope
+sacrifice y2 at Dlwillson; move r2 from Saveme to Dlwillson; move g1 from Dlwillson to Saveme
+build r1 at Hope
+build g1 at Saveme
+sacrifice g3 at Felix; build g2 at Hope; build g2 at Hope; build g3 at Felix
+move g1 from Saveme to Felix
+convert g2 to r2 at Felix
+build g2 at Felix
+sacrifice y3 at Hope; move g1 from Hope to Dlwillson; move g2 from Hope to Dlwillson; move g2 from Hope to Dlwillson; catastrophe green at Dlwillson
+build g1 at Felix; catastrophe green at Felix
+convert y1 to g1 at Felix
+convert r3 to b3 at Saveme
+move r3 from Hope to Felix
+build b1 at Saveme
+convert r3 to y3 at Felix
+move b3 from Saveme to Dlwillson
+move r2 from Felix to Saveme
+sacrifice y1 at Saveme; move b1 from Saveme to Dlwillson
+capture g1 at Saveme
+move r2 from Dlwillson to Golden (y1)
+build y1 at Felix
+convert b3 to g3 at Dlwillson
+build g1 at Saveme
+build y2 at Dlwillson
+convert y3 to g3 at Felix
+build b2 at Dlwillson
+sacrifice g3 at Felix; build y2 at Hope; build y3 at Felix; build g2 at Saveme
+move b2 from Dlwillson to Golden
+convert g2 to b2 at Saveme
+move y1 from Dlwillson to Mars (r1)
+move y1 from Felix to Saveme
+sacrifice g3 at Dlwillson; build y3 at Dlwillson; build y3 at Mars; build b3 at Golden
+sacrifice y3 at Felix; move y2 from Hope to Dlwillson; move y1 from Saveme to Dlwillson; move b2 from Saveme to Dlwillson; catastrophe yellow at Dlwillson
+move y3 from Mars to Dlwillson
+sacrifice g1 at Saveme; build b3 at Dlwillson
+move b3 from Golden to Felix; catastrophe blue at Dlwillson
+sacrifice y2 at Hope; move r1 from Hope to Dlwillson; move r2 from Saveme to Dlwillson
+capture g1 at Felix

@@ -1,0 +1,40 @@
+Foksieloy (0, b1g3) y3-
+Magicjohn (1, b1g3) -b3
+build y1 at Foksieloy
+build b1 at Magicjohn
+build y1 at Foksieloy
+convert b3 to y3 at Magicjohn
+convert y1 to g1 at Foksieloy
+build b2 at Magicjohn
+convert y3 to b3 at Foksieloy
+move b2 from Magicjohn to Bbking (b2)
+build y1 at Foksieloy
+build b2 at Magicjohn
+move b3 from Foksieloy to Tibbers (g2)
+convert b2 to r2 at Magicjohn
+convert b3 to r3 at Tibbers
+build y1 at Magicjohn
+build y2 at Foksieloy
+move b1 from Magicjohn to Muddywaters (g2)
+move y1 from Foksieloy to Gnar (g2)
+build b2 at Muddywaters
+build y2 at Gnar
+move y1 from Magicjohn to Muddywaters
+convert y2 to r2 at Foksieloy
+build r1 at Magicjohn
+build r1 at Tibbers
+build b3 at Muddywaters
+build y2 at Foksieloy
+move b2 from Muddywaters to Eclapton (y3)
+move y1 from Gnar to Teemo (b3)
+convert b3 to g3 at Muddywaters
+convert y1 to g1 at Teemo
+sacrifice g3 at Muddywaters; build y1 at Muddywaters; build b3 at Muddywaters; build b3 at Bbking
+build g1 at Teemo
+convert b3 to g3 at Bbking
+convert g1 to r1 at Teemo
+convert b3 to r3 at Muddywaters
+build y2 at Gnar
+sacrifice y1 at Muddywaters; move g3 from Bbking to Foksieloy
+sacrifice y2 at Foksieloy; move g1 from Teemo to Tibbers; move g1 from Tibbers to Foksieloy; catastrophe green at Foksieloy
+sacrifice y1 at Muddywaters; move r3 from Muddywaters to Foksieloy

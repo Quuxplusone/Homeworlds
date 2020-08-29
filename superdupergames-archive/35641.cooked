@@ -1,0 +1,29 @@
+Trydnt (0, b2y1) g3-
+Capi3101 (1, r3b2) -g3
+build g1 at Trydnt
+build g1 at Capi3101
+convert g1 to y1 at Trydnt
+build g1 at Capi3101
+build y1 at Trydnt
+convert g3 to y3 at Capi3101
+move y1 from Trydnt to G3 (g3)
+move g1 from Capi3101 to Sugit (b1)
+build y2 at G3
+build y2 at Capi3101
+convert y1 to r1 at Trydnt
+move y2 from Capi3101 to Sugit
+move y1 from G3 to G1 (g1)
+build g2 at Sugit
+build g2 at Trydnt
+convert y3 to g3 at Capi3101
+build y1 at G3
+move g2 from Sugit to Caeruleum (b3)
+sacrifice g2 at Trydnt; build y2 at G1; build y3 at G1
+sacrifice g3 at Capi3101; build g2 at Caeruleum; build g2 at Caeruleum; build g3 at Capi3101
+move y3 from G1 to B3 (b3)
+build y3 at Sugit
+sacrifice y2 at G1; move y1 from G3 to Sugit; move y2 from G3 to Sugit; catastrophe yellow at Sugit
+build g3 at Sugit
+move y3 from B3 to Sugit
+sacrifice g3 at Sugit; build g3 at Capi3101
+sacrifice y3 at Sugit; move g3 from Trydnt to Caeruleum; move g3 from Caeruleum to G1; move g3 from G1 to Capi3101; catastrophe green at Capi3101

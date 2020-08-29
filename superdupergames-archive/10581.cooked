@@ -1,0 +1,54 @@
+Nupanick (0, b2g3) y3-
+Ts52 (1, b1y2) -g3
+build y1 at Nupanick
+build g1 at Ts52
+build y1 at Nupanick
+build g1 at Ts52
+convert y1 to r1 at Nupanick
+convert g1 to r1 at Ts52
+move y1 from Nupanick to Damogran (b1)
+move g1 from Ts52 to Sol (y3)
+convert y1 to g1 at Damogran
+build g1 at Ts52
+build g2 at Damogran
+build g2 at Sol
+convert g2 to r2 at Damogran
+convert g1 to b1 at Ts52
+build g1 at Damogran
+build g2 at Ts52
+convert g1 to y1 at Damogran
+move b1 from Ts52 to Sol
+move r2 from Damogran to Sol
+sacrifice r1 at Ts52; capture r2 at Sol
+build r1 at Nupanick
+move g2 from Ts52 to Grover (b3)
+build g1 at Damogran
+build b2 at Sol
+build y1 at Damogran
+move r2 from Sol to Damogran
+move g1 from Damogran to Sol
+capture g1 at Damogran
+move y1 from Damogran to Sol
+capture y1 at Damogran
+build y1 at Sol
+sacrifice r2 at Damogran; capture y1 at Sol; capture y1 at Sol
+move r1 from Nupanick to Damogran
+convert g2 to r2 at Sol
+build r1 at Nupanick
+sacrifice r2 at Sol; capture r1 at Damogran; capture g1 at Sol
+build y2 at Nupanick
+build g2 at Damogran
+convert y2 to b2 at Nupanick
+move b1 from Sol to Damogran
+convert b2 to y2 at Nupanick
+move y1 from Sol to Damogran
+build r2 at Nupanick
+build y2 at Sol
+sacrifice y2 at Nupanick; move r2 from Nupanick to Damogran; move r2 from Damogran to Catan (b3)
+sacrifice g2 at Grover; build g2 at Ts52; build r2 at Damogran
+move r1 from Nupanick to Damogran
+capture r1 at Damogran
+move r1 from Nupanick to Damogran; catastrophe red at Damogran
+convert g2 to r2 at Damogran
+build y2 at Nupanick
+sacrifice y2 at Sol; move y1 from Damogran to Nupanick; move y1 from Damogran to Nupanick; catastrophe yellow at Nupanick

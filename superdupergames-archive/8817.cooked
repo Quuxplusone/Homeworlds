@@ -1,0 +1,42 @@
+Matrixfrog (0, r1g3) y3-
+Mr_Shine (1, b2y3) -g3
+build y1 at Matrixfrog
+build g1 at Mr_Shine
+build y1 at Matrixfrog
+build g1 at Mr_Shine
+move y1 from Matrixfrog to Zip (b2)
+move g1 from Mr_Shine to Kobol (b1)
+convert y1 to g1 at Zip
+build g2 at Mr_Shine
+build g2 at Zip
+convert g1 to y1 at Mr_Shine
+convert g1 to b1 at Zip
+convert g2 to b2 at Mr_Shine
+build g1 at Zip
+move b2 from Mr_Shine to Caprica (g1)
+convert g2 to y2 at Zip
+build g2 at Mr_Shine
+build g2 at Zip
+build g2 at Kobol
+move g1 from Zip to Zap (y1)
+convert g1 to r1 at Kobol
+build g1 at Zap
+convert g2 to r2 at Mr_Shine
+build y2 at Zip
+build b1 at Caprica
+move y2 from Zip to Matrixfrog
+convert b2 to y2 at Caprica
+sacrifice b1 at Zip; convert y3 to g3 at Matrixfrog
+build y3 at Caprica
+build y3 at Zip
+move y3 from Caprica to Zip
+move y3 from Zip to Caprica
+sacrifice r2 at Mr_Shine; capture y2 at Zip; capture g2 at Zip
+move g1 from Zap to Zop (b2)
+build g2 at Zip
+sacrifice y2 at Matrixfrog; move g1 from Zap to Mr_Shine; move y3 from Caprica to Mr_Shine
+sacrifice y2 at Zip; move g2 from Zip to Matrixfrog; move g2 from Zip to Matrixfrog; catastrophe green at Matrixfrog
+build y1 at Mr_Shine; catastrophe yellow at Mr_Shine
+move y3 from Zip to Matrixfrog
+sacrifice g1 at Zop; build g1 at Mr_Shine
+capture y1 at Matrixfrog

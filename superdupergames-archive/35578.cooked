@@ -1,0 +1,33 @@
+Jerome (0, b1r2) g3-
+Laurie_Menke (1, y3b2) -g3
+build g1 at Jerome
+build g1 at Laurie_Menke
+convert g1 to y1 at Jerome
+convert g1 to y1 at Laurie_Menke
+build y1 at Jerome
+build y2 at Laurie_Menke
+move y1 from Jerome to Orion (g3)
+convert y2 to r2 at Laurie_Menke
+build y2 at Jerome
+build r1 at Laurie_Menke
+build y2 at Orion
+move y1 from Laurie_Menke to Forest (g1)
+move y2 from Orion to Alpha (g2)
+convert r1 to b1 at Laurie_Menke
+build y2 at Orion
+build y3 at Forest
+build y3 at Alpha
+build g1 at Laurie_Menke
+convert y2 to b2 at Jerome
+move y1 from Forest to Alpha
+move y3 from Alpha to Sirius (b1)
+build y2 at Forest
+move b2 from Jerome to Orion
+move y3 from Forest to Alpha
+build b2 at Orion
+move y3 from Alpha to Sirius
+move b2 from Orion to Vega (g2)
+move y2 from Forest to Vega
+build b3 at Orion
+sacrifice r2 at Laurie_Menke; capture y3 at Sirius; capture b2 at Vega
+convert b3 to r3 at Orion

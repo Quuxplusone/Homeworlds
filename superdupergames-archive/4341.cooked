@@ -1,0 +1,57 @@
+Zoltar (0, b3y2) g3-
+Unic (1, y1b3) -g3
+build g1 at Zoltar
+build g1 at Unic
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Unic
+build y2 at Zoltar
+build y2 at Unic
+move y1 from Zoltar to Lime (g1)
+move y1 from Unic to Cicero (g2)
+build y3 at Lime
+build y3 at Cicero
+move y1 from Lime to Cicero
+move y2 from Unic to Catullus (b2)
+build y3 at Cicero; catastrophe yellow at Cicero
+build g1 at Unic
+build g1 at Zoltar
+convert g1 to y1 at Unic
+convert g1 to r1 at Zoltar
+convert y1 to r1 at Unic
+build g1 at Zoltar
+build g1 at Unic
+build g2 at Zoltar
+move g1 from Unic to Catullus
+convert g1 to b1 at Zoltar
+build y1 at Catullus
+move y2 from Zoltar to Blueberry (b1)
+move y1 from Catullus to Petronius (g1)
+move g2 from Zoltar to Blueberry
+build g2 at Unic
+build g2 at Zoltar
+sacrifice g3 at Unic; build g3 at Unic; build g3 at Catullus; build r1 at Unic
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y1 at Lime; build y3 at Blueberry
+build y3 at Petronius
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Zoltar; build b1 at Zoltar
+convert g3 to b3 at Catullus
+move b1 from Zoltar to Lime
+build g3 at Catullus
+sacrifice y3 at Lime; move b1 from Zoltar to Lime; move b1 from Lime to Catullus; move b1 from Lime to Catullus; catastrophe blue at Catullus
+convert g3 to y3 at Unic
+build y2 at Lime
+move y1 from Petronius to Lucretius (b2)
+move y2 from Lime to Lucretius
+convert y3 to g3 at Unic
+sacrifice g3 at Zoltar; build g1 at Blueberry; build g3 at Zoltar; build y3 at Lime
+convert r1 to b1 at Unic
+sacrifice g2 at Zoltar; build g2 at Blueberry; build g3 at Zoltar
+build b1 at Unic
+convert g3 to b3 at Zoltar
+move g2 from Unic to Lucretius
+sacrifice r1 at Zoltar; capture g2 at Lucretius
+build g3 at Unic
+sacrifice y3 at Blueberry; move g1 from Blueberry to Lucretius; move g2 from Lucretius to Unic; move g1 from Lucretius to Unic; catastrophe green at Unic
+build y3 at Petronius
+sacrifice y3 at Lime; move y1 from Lime to Lucretius; move y1 from Lucretius to Petronius; move y2 from Lucretius to Petronius; catastrophe yellow at Petronius
+convert b1 to g1 at Unic
+sacrifice y2 at Blueberry; move g2 from Blueberry to Lucretius; move g2 from Lucretius to Unic

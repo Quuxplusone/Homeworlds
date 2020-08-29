@@ -1,0 +1,36 @@
+Mneme (0, y3b2) g3-
+Twoshort (1, y1b2) -g3
+build g1 at Mneme
+build g1 at Twoshort
+move g1 from Mneme to Chimera (b1)
+move g1 from Twoshort to Yolonda (y3)
+build g1 at Chimera
+build g2 at Twoshort
+build g2 at Mneme
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g3 at Twoshort; build g3 at Twoshort
+convert g2 to y2 at Mneme
+convert g3 to y3 at Twoshort
+build g2 at Mneme
+move g2 from Yolonda to Bluestar (b1)
+move g2 from Mneme to Gryphon (y1)
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Yolonda; build y1 at Twoshort
+sacrifice y2 at Mneme; move g1 from Chimera to Yolonda; move g1 from Chimera to Yolonda; catastrophe green at Yolonda
+move g2 from Twoshort to Yak (y3)
+build g1 at Gryphon
+move y1 from Twoshort to Zorak (g3)
+move g1 from Gryphon to Leviathan (b3)
+build g1 at Twoshort
+build g1 at Leviathan
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y2 at Zorak; build y2 at Zorak
+convert g1 to r1 at Leviathan
+convert g2 to r2 at Bluestar
+sacrifice g2 at Gryphon; build g1 at Leviathan; build g2 at Mneme
+move y3 from Twoshort to Leviathan
+sacrifice g3 at Mneme; build g2 at Leviathan; build g3 at Mneme; build r1 at Leviathan
+sacrifice r2 at Bluestar; capture r1 at Leviathan; capture r1 at Leviathan
+convert g2 to b2 at Leviathan
+capture b2 at Leviathan
+convert g1 to b1 at Leviathan
+sacrifice y2 at Zorak; move y3 from Leviathan to Banzai (b1); move y3 from Banzai to Mneme
+convert g1 to b1 at Leviathan; catastrophe blue at Leviathan
+convert g3 to r3 at Twoshort

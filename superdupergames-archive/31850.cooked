@@ -1,0 +1,74 @@
+Mobynostromo (0, g1b2) y3-
+Wil (1, b3y1) -g3
+build y1 at Mobynostromo
+build g1 at Wil
+build y1 at Mobynostromo
+build g1 at Wil
+move y1 from Mobynostromo to Green (g3)
+move g1 from Wil to Y2 (y2)
+convert y1 to b1 at Mobynostromo
+build g2 at Wil
+build b1 at Mobynostromo
+build g2 at Y2
+move b1 from Mobynostromo to Red (r3)
+move g2 from Y2 to Red
+move y3 from Mobynostromo to Red
+sacrifice g3 at Wil; build g2 at Y2; build g3 at Y2; build g3 at Wil
+capture g2 at Red
+convert g2 to b2 at Wil
+move g2 from Red to Y2; catastrophe green at Y2
+move b2 from Wil to Y2 (y2)
+convert b1 to r1 at Mobynostromo
+build g1 at Wil
+build r1 at Mobynostromo
+move g1 from Wil to Why2 (y2)
+convert r1 to y1 at Mobynostromo
+build g2 at Wil
+build y2 at Green
+move g1 from Why2 to Y3 (y3)
+build r1 at Mobynostromo
+convert g2 to y2 at Wil
+build y3 at Mobynostromo
+convert g1 to r1 at Wil
+convert r1 to g1 at Mobynostromo
+move y2 from Wil to G2 (g2)
+build r1 at Mobynostromo
+sacrifice g1 at Y3; build y3 at G2
+sacrifice y3 at Red; move y1 from Green to G2; move y2 from Green to G2; move b1 from Red to G2; catastrophe yellow at G2
+build r2 at Wil
+build r2 at Mobynostromo
+convert r2 to y2 at Wil
+move r2 from Mobynostromo to Gammagreen (g3)
+build r2 at Wil
+move y1 from Mobynostromo to Gammagreen
+move r2 from Wil to Y2
+build b1 at G2
+sacrifice g3 at Wil; build r2 at Wil; build r3 at Wil; build r3 at Y2
+build r3 at Gammagreen
+move r2 from Wil to Whytwo (y2)
+build g1 at Mobynostromo
+convert r3 to g3 at Wil
+move g1 from Mobynostromo to Redgiant (r3)
+build g2 at Wil
+build g2 at Mobynostromo
+convert r3 to g3 at Y2
+move g1 from Mobynostromo to Redragon (r3)
+move b2 from Y2 to Redragon
+build b1 at G2
+capture g1 at Redragon
+sacrifice y3 at Mobynostromo; move b1 from G2 to Wil; move b1 from G2 to Wil; move b1 from G2 to Wil; catastrophe blue at Wil
+move y2 from Wil to B3 (b3)
+convert r1 to y1 at Mobynostromo
+sacrifice g3 at Wil; build g2 at Redragon; build g3 at Wil; build y3 at B3
+sacrifice g2 at Mobynostromo; build y3 at Mobynostromo; build y3 at Gammagreen
+sacrifice g3 at Wil; build g2 at Y2; build g3 at Wil; build r1 at Y2
+move y1 from Mobynostromo to Gammagreen
+sacrifice y3 at B3; move y2 from B3 to Y2; move y2 from Y2 to Gammagreen; move r1 from Y2 to Gammagreen; catastrophe yellow at Gammagreen
+sacrifice y3 at Mobynostromo; move r2 from Gammagreen to Mobynostromo; move r3 from Gammagreen to Whytwo
+move g3 from Y2 to Y3 (y3)
+capture r2 at Whytwo
+move g3 from Y3 to Mobynostromo
+sacrifice g1 at Redgiant; build r3 at Mobynostromo
+sacrifice r2 at Y2; capture r3 at Mobynostromo; capture r2 at Mobynostromo
+move r3 from Whytwo to Gammagreen
+build r2 at Mobynostromo; catastrophe red at Mobynostromo

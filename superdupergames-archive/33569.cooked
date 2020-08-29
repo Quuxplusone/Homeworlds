@@ -1,0 +1,53 @@
+Ts52 (0, y2b1) g3-
+Remneb (1, y3b2) -g3
+build g1 at Ts52
+build g1 at Remneb
+move g1 from Ts52 to Gonzo (b3)
+convert g1 to r1 at Remneb
+build g1 at Ts52
+build r1 at Remneb
+convert g1 to r1 at Ts52
+convert r1 to y1 at Remneb
+build g1 at Ts52
+move y1 from Remneb to Hort (g1)
+build g2 at Gonzo
+build g2 at Remneb
+sacrifice g3 at Ts52; build g2 at Ts52; build g3 at Ts52; build g3 at Gonzo
+move g2 from Remneb to Hort
+convert g1 to y1 at Gonzo
+build g1 at Remneb
+convert g1 to b1 at Ts52
+convert g1 to b1 at Remneb
+build b2 at Ts52
+build b2 at Remneb
+move b2 from Ts52 to Bigbird (y3)
+move b2 from Remneb to Aries (g1)
+sacrifice g2 at Gonzo; build b3 at Bigbird; build b3 at Ts52
+convert b2 to y2 at Aries
+move b3 from Ts52 to Zoe (y3)
+build b2 at Remneb
+convert b2 to g2 at Bigbird
+convert b2 to y2 at Remneb
+sacrifice g3 at Ts52; build g1 at Gonzo; build g3 at Ts52; build b2 at Zoe
+move b1 from Remneb to Borg (y1)
+convert b3 to r3 at Zoe
+build r1 at Remneb
+sacrifice g3 at Ts52; build g3 at Ts52; build b2 at Bigbird; build b3 at Zoe
+build r2 at Remneb
+move r3 from Zoe to Borg
+move r2 from Remneb to Hort
+capture b1 at Borg
+move r1 from Remneb to Aries
+convert b3 to r3 at Bigbird
+build r2 at Aries
+sacrifice g3 at Gonzo; build b3 at Borg; build r2 at Borg; build r3 at Ts52
+build g3 at Remneb
+move r3 from Bigbird to Aries
+move r1 from Remneb to Aries; catastrophe red at Aries
+move b3 from Borg to Remneb
+sacrifice r2 at Hort; capture b3 at Remneb
+move r3 from Borg to Remneb
+sacrifice y2 at Aries; move g2 from Hort to Remneb; move y1 from Hort to Remneb
+sacrifice r3 at Ts52; capture g3 at Remneb; capture g3 at Remneb; capture b3 at Remneb
+convert y1 to g1 at Remneb; catastrophe green at Remneb
+capture y2 at Remneb

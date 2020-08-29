@@ -1,0 +1,32 @@
+Jeep (0, y1b2) g3-
+Wyons (1, b1r3) -g3
+build g1 at Jeep
+build g1 at Wyons
+convert g1 to y1 at Jeep
+convert g1 to y1 at Wyons
+build y2 at Jeep
+build y2 at Wyons
+move y1 from Jeep to Grower (g3)
+move y1 from Wyons to Bag (g2)
+build g1 at Jeep
+build g1 at Wyons
+move y2 from Jeep to Changer (b3)
+convert g1 to b1 at Wyons
+move g1 from Jeep to Cache (y3)
+build b1 at Wyons
+build g1 at Jeep
+move b1 from Wyons to Bag
+convert g1 to r1 at Jeep
+build b2 at Bag
+build g1 at Jeep
+build b2 at Wyons
+build r1 at Jeep
+build b3 at Bag
+move r1 from Jeep to Sigh (b3)
+convert b3 to r3 at Bag
+move g1 from Jeep to Scary (b3)
+build r1 at Bag
+build g1 at Jeep
+build g2 at Wyons
+sacrifice g3 at Jeep; build g2 at Scary; build g3 at Jeep; build r2 at Sigh
+move r3 from Bag to Scary

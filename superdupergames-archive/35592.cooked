@@ -1,0 +1,59 @@
+Babamots (0, b2r1) g3-
+Ajo (1, y2b3) -g3
+build g1 at Babamots
+build g1 at Ajo
+convert g1 to r1 at Babamots
+convert g1 to r1 at Ajo
+build r2 at Babamots
+build r2 at Ajo
+convert r1 to y1 at Babamots
+convert r2 to y2 at Ajo
+build y1 at Babamots
+build g1 at Ajo
+move y1 from Babamots to Risa (g3)
+move g1 from Ajo to Alpha (b1)
+build g1 at Babamots
+build g1 at Ajo
+sacrifice g3 at Babamots; build y1 at Babamots; build y2 at Risa; build y3 at Babamots
+build g2 at Alpha
+build y3 at Risa
+sacrifice y2 at Ajo; move g1 from Alpha to Beta (b3); move g2 from Alpha to Gamma (b3)
+move y3 from Babamots to Gamma
+sacrifice g2 at Gamma; build g2 at Beta; build r1 at Ajo
+build y2 at Babamots
+convert g2 to r2 at Beta
+sacrifice g1 at Babamots; build y3 at Gamma
+move r1 from Ajo to Alpha (g1)
+convert y1 to b1 at Babamots
+sacrifice g3 at Ajo; build r2 at Alpha; build r3 at Beta; build r3 at Ajo
+move y3 from Risa to Alpha
+convert r3 to g3 at Ajo
+build y1 at Risa
+sacrifice g3 at Ajo; build g2 at Beta; build r3 at Ajo; build r3 at Alpha
+move y3 from Alpha to Orion (g3)
+convert r2 to b2 at Beta
+move b1 from Babamots to Risa
+sacrifice b2 at Beta; convert r3 to g3 at Alpha; convert r2 to b2 at Alpha
+build b1 at Risa
+sacrifice g3 at Alpha; build r2 at Beta; build r2 at Alpha; build r3 at Alpha
+move y1 from Babamots to Gravesworld (g3)
+build b1 at Alpha
+build b2 at Risa
+build g2 at Ajo
+move r2 from Babamots to Risa
+convert r2 to g2 at Alpha
+build r2 at Risa
+pass
+sacrifice y1 at Gravesworld; move y3 from Gamma to Zakdorn (y1)
+build g3 at Ajo
+move r2 from Risa to Zakdorn
+pass
+move b1 from Risa to Zakdorn
+pass
+move b1 from Risa to Zakdorn
+pass
+move b2 from Risa to Zakdorn
+move g1 from Ajo to Zakdorn
+sacrifice y3 at Zakdorn; move b1 from Zakdorn to Ajo; move b1 from Zakdorn to Ajo; move b2 from Zakdorn to Ajo; catastrophe blue at Ajo
+move r3 from Ajo to Bah (y3)
+sacrifice y3 at Orion; move y1 from Risa to Ajo; move y1 from Risa to Ajo; move y2 from Risa to Ajo; catastrophe yellow at Ajo

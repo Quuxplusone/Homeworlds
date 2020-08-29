@@ -1,0 +1,51 @@
+Silenttitan (0, r2b1) g3-
+Captncavern (1, y3b1) -g3
+build g1 at Silenttitan
+build g1 at Captncavern
+convert g1 to b1 at Silenttitan
+build g1 at Captncavern
+build b2 at Silenttitan
+convert g1 to r1 at Captncavern
+convert b2 to y2 at Silenttitan
+build r1 at Captncavern
+build b2 at Silenttitan
+build r1 at Captncavern
+move b2 from Silenttitan to Sol (g3)
+move r1 from Captncavern to Ichi (y2)
+sacrifice g3 at Silenttitan; build b2 at Sol; build b2 at Sol; build b3 at Silenttitan
+build r2 at Captncavern
+convert b3 to g3 at Silenttitan
+sacrifice g1 at Captncavern; build r2 at Ichi
+sacrifice y2 at Silenttitan; move b2 from Sol to Soul (y2); move b2 from Sol to Sole (y2)
+move r2 from Ichi to Sol
+sacrifice g3 at Silenttitan; build b3 at Sole; build b3 at Soul; build b3 at Silenttitan
+capture b2 at Sol
+sacrifice b3 at Soul; convert b3 to r3 at Sole; convert b3 to g3 at Silenttitan; convert b2 to g2 at Sole
+convert r1 to y1 at Captncavern
+convert b1 to y1 at Silenttitan
+move r2 from Captncavern to Soul
+sacrifice g2 at Sole; build y1 at Silenttitan; build y3 at Silenttitan
+move r1 from Ichi to Ni (b3)
+move r3 from Sole to Sol
+sacrifice r2 at Sol; capture b2 at Soul
+capture b2 at Sol
+move r2 from Soul to San (y3)
+move y1 from Silenttitan to Sol
+move b2 from Soul to San
+build g1 at Silenttitan
+move y1 from Captncavern to Yon (g2)
+sacrifice y3 at Silenttitan; move r3 from Sol to Yon; move r3 from Yon to San; move b2 from Sol to Yon
+move r2 from San to Yon
+sacrifice r3 at San; capture y1 at Yon; capture r2 at Yon
+build g1 at Captncavern
+build y2 at Yon
+move g1 from Captncavern to Go (y2)
+sacrifice g3 at Silenttitan; build y2 at Yon; build y3 at Silenttitan; build b1 at Yon
+move g1 from Go to San
+sacrifice y2 at Yon; move b1 from Yon to Captncavern; move b2 from Yon to Captncavern
+capture b2 at Captncavern
+sacrifice g1 at Silenttitan; build b2 at Captncavern; catastrophe blue at Captncavern
+build b1 at San
+move y1 from Sol to Yon
+move b2 from San to Silenttitan
+sacrifice y3 at Silenttitan; move y2 from Yon to Captncavern; move y1 from Yon to Captncavern; move y1 from Yon to Captncavern; catastrophe yellow at Captncavern

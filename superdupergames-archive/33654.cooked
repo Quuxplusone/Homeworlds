@@ -1,0 +1,36 @@
+Dlwillson (0, y3b1) g3-
+Draw5Playall (1, b1g3) -b3
+build g1 at Dlwillson
+build b1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+convert b3 to y3 at Draw5Playall
+build r1 at Dlwillson
+build b2 at Draw5Playall
+build r1 at Dlwillson
+move b2 from Draw5Playall to B2 (b2)
+move r1 from Dlwillson to Sol (y2)
+build b2 at Draw5Playall
+build g1 at Dlwillson
+move b2 from Draw5Playall to G2 (g2)
+move r1 from Dlwillson to Field (g2)
+build b3 at G2
+sacrifice g3 at Dlwillson; build r2 at Dlwillson; build r2 at Field; build r2 at Sol
+convert b3 to r3 at G2
+build r3 at Dlwillson
+build r3 at G2
+convert r3 to y3 at Dlwillson
+convert r3 to g3 at G2
+move r2 from Sol to Draw5Playall
+sacrifice g3 at G2; build r3 at G2; build b3 at B2; build b3 at G2
+build r3 at Dlwillson
+build y1 at Draw5Playall
+convert r3 to b3 at Dlwillson
+move y1 from Draw5Playall to G2
+build r3 at Field
+move r3 from G2 to Draw5Playall
+move r2 from Dlwillson to Sol
+capture r2 at Draw5Playall
+move b3 from Dlwillson to Sol
+move r2 from Draw5Playall to B2
+sacrifice b3 at Sol; convert r3 to b3 at Field; convert y3 to g3 at Dlwillson; convert r2 to y2 at Field
+sacrifice y3 at Draw5Playall; move b3 from B2 to Dlwillson; move b3 from G2 to Dlwillson; move r3 from G2 to Dlwillson

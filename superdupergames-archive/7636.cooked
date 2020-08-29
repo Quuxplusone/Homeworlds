@@ -1,0 +1,27 @@
+Dsheldon (0, b2y1) g3-
+Jbj77 (1, b1y3) -g3
+build g1 at Dsheldon
+build g1 at Jbj77
+build g1 at Dsheldon
+build g2 at Jbj77
+move g1 from Dsheldon to Jerome (y3)
+move g2 from Jbj77 to Alpha (y2)
+convert g1 to y1 at Dsheldon
+convert g1 to y1 at Jbj77
+move y1 from Dsheldon to Hope (b3)
+build y2 at Jbj77
+build g1 at Dsheldon
+move y2 from Jbj77 to Beta (g2)
+convert g1 to r1 at Dsheldon
+build y2 at Beta
+build g1 at Dsheldon
+convert y1 to r1 at Jbj77
+move g1 from Dsheldon to Hope
+move y2 from Beta to Gamma (g3)
+build g1 at Dsheldon
+build g2 at Jbj77
+sacrifice g3 at Dsheldon; build g3 at Dsheldon; build y1 at Hope; build y3 at Hope
+move y2 from Beta to Hope; catastrophe yellow at Hope
+build g2 at Hope
+sacrifice g3 at Jbj77; build r1 at Jbj77; build r2 at Jbj77; build g3 at Jbj77
+sacrifice g3 at Dsheldon; build g3 at Dsheldon; build r2 at Dsheldon; build r2 at Dsheldon

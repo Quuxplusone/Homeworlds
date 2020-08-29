@@ -1,0 +1,46 @@
+Sordros (0, g1b2) y3-
+Zoltar (1, b3y1) -g3
+build y1 at Sordros
+build g1 at Zoltar
+build y1 at Sordros
+build g1 at Zoltar
+move y1 from Sordros to Picolino (g3)
+move g1 from Zoltar to Bluemoon (b2)
+build y2 at Picolino
+build g2 at Bluemoon
+build y2 at Sordros
+convert g2 to y2 at Bluemoon
+convert y2 to b2 at Sordros
+build y2 at Bluemoon
+build b1 at Sordros
+move y2 from Bluemoon to Greengiant (g3)
+move y2 from Picolino to Bluemoon
+sacrifice g3 at Zoltar; build g2 at Zoltar; build y3 at Bluemoon; build y3 at Greengiant
+move y1 from Picolino to Bluemoon; catastrophe yellow at Bluemoon
+build g2 at Bluemoon
+convert y1 to r1 at Sordros
+convert g2 to r2 at Zoltar
+convert b2 to g2 at Sordros
+build g2 at Bluemoon
+move g2 from Sordros to Mugie (y3)
+build g3 at Zoltar
+move g2 from Mugie to Bluemoon; catastrophe green at Bluemoon
+move y3 from Greengiant to Greenpea (g1)
+build b1 at Sordros
+build g2 at Zoltar
+move b1 from Sordros to Verdega (g3)
+convert g2 to b2 at Zoltar
+build y1 at Sordros
+build g2 at Zoltar
+build b1 at Verdega
+move b2 from Zoltar to Banana (y2)
+convert b1 to y1 at Verdega
+sacrifice g2 at Zoltar; build y2 at Greengiant; build y3 at Greenpea
+build b1 at Verdega
+sacrifice y3 at Greenpea; move y3 from Greenpea to Verdega; move y2 from Greengiant to Sordros; move y2 from Greengiant to Sordros; catastrophe yellow at Sordros
+build y1 at Verdega
+move y3 from Verdega to Sordros
+build b2 at Sordros
+sacrifice r2 at Zoltar; capture r1 at Sordros; capture b2 at Sordros
+build b3 at Sordros
+sacrifice y3 at Sordros; move b2 from Banana to Verdega; move b2 from Verdega to Sordros; move r1 from Sordros to Verdega; catastrophe blue at Sordros

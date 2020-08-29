@@ -1,0 +1,25 @@
+Babamots (0, b2r1) g3-
+Bhorner (1, r3b1) -g3
+build g1 at Babamots
+build g1 at Bhorner
+convert g1 to b1 at Babamots
+convert g1 to b1 at Bhorner
+build b2 at Babamots
+build b2 at Bhorner
+convert b2 to y2 at Babamots
+convert b2 to y2 at Bhorner
+build b2 at Babamots
+build b2 at Bhorner
+move b1 from Babamots to Risa (g3)
+move b1 from Bhorner to Swirl (g2)
+build b3 at Risa
+build b3 at Swirl
+convert b1 to y1 at Risa
+convert b1 to r1 at Swirl
+build y1 at Babamots
+build b1 at Swirl
+convert b2 to r2 at Babamots
+convert b3 to y3 at Swirl
+move y1 from Babamots to Bolarus (b3)
+build r1 at Swirl
+build y1 at Risa

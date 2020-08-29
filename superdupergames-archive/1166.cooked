@@ -1,0 +1,10 @@
+Gobleteer (0, y1y1) g3-
+Andylooney (1, b1g2) -y3
+build g1 at Gobleteer
+build y1 at Andylooney
+move g1 from Gobleteer to Icecube (b2)
+build y2 at Andylooney
+build g1 at Gobleteer
+move y1 from Andylooney to Garden (g3)
+move g1 from Gobleteer to Wild (y3)
+build y2 at Garden

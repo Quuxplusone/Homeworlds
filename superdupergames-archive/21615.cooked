@@ -1,0 +1,46 @@
+Lorgar (0, b1y3) g3-
+Silenttitan (1, r1b2) -g3
+build g1 at Lorgar
+build g1 at Silenttitan
+convert g1 to b1 at Lorgar
+build g1 at Silenttitan
+move b1 from Lorgar to Mnar (g2)
+convert g1 to y1 at Silenttitan
+build b1 at Mnar
+move g1 from Silenttitan to Sol (b3)
+build g1 at Lorgar
+build y1 at Silenttitan
+build b2 at Mnar
+build g1 at Silenttitan
+convert b2 to y2 at Mnar
+move y1 from Silenttitan to Soul (g3)
+move y2 from Mnar to Sol
+sacrifice g3 at Silenttitan; build g2 at Silenttitan; build g2 at Silenttitan; build g3 at Sol
+sacrifice y2 at Sol; move b1 from Mnar to Sol; move b1 from Mnar to Sol
+sacrifice g3 at Sol; build y1 at Soul; build y2 at Soul; build y2 at Silenttitan
+convert b1 to r1 at Sol
+sacrifice g2 at Silenttitan; build g2 at Sol; build g2 at Sol
+sacrifice g3 at Lorgar; build g3 at Lorgar; build b1 at Sol; build b2 at Sol; catastrophe blue at Sol
+move y1 from Soul to Sole (y2)
+convert g1 to r1 at Lorgar
+sacrifice g2 at Silenttitan; build y3 at Silenttitan; build y3 at Sole
+build r1 at Lorgar
+convert y3 to b3 at Silenttitan
+move r1 from Lorgar to Pastures (g2)
+build y3 at Silenttitan
+build r2 at Pastures
+convert y3 to r3 at Silenttitan
+build r2 at Lorgar
+move b3 from Silenttitan to Tic (y3)
+convert r1 to b1 at Lorgar
+move b3 from Tic to Sole
+sacrifice b1 at Lorgar; convert r1 to b1 at Pastures
+build y3 at Silenttitan
+build b1 at Pastures
+convert y3 to g3 at Silenttitan
+build g1 at Lorgar
+sacrifice g3 at Silenttitan; build b2 at Sole; build b2 at Sole; build y3 at Silenttitan
+build b3 at Pastures
+sacrifice y3 at Sole; move b3 from Sole to Lorgar; move b2 from Sole to Lorgar; move b2 from Sole to Lorgar; catastrophe blue at Lorgar
+convert b3 to y3 at Pastures
+sacrifice y3 at Silenttitan; move y1 from Sole to Lorgar; move y2 from Silenttitan to Lorgar; move y1 from Silenttitan to Lorgar; catastrophe yellow at Lorgar

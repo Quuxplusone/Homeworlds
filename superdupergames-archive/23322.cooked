@@ -1,0 +1,32 @@
+Mattthespratt (0, g3y1) b3-
+Mandrel (1, y2b1) -g3
+build b1 at Mattthespratt
+build g1 at Mandrel
+move b1 from Mattthespratt to Fortran (y2)
+convert g1 to b1 at Mandrel
+build b2 at Mattthespratt
+build b2 at Mandrel
+convert b2 to r2 at Mattthespratt
+convert b1 to r1 at Mandrel
+build b1 at Mattthespratt
+move b2 from Mandrel to Master (g3)
+convert b1 to g1 at Fortran
+build g1 at Mandrel
+build g1 at Fortran
+build g2 at Mandrel
+move b1 from Mattthespratt to Fortran
+convert g2 to y2 at Mandrel
+convert g1 to r1 at Fortran
+move y2 from Mandrel to Master
+build r1 at Fortran
+build r2 at Mandrel
+build r2 at Mattthespratt
+build r3 at Mandrel
+move g1 from Fortran to Master
+sacrifice r1 at Mandrel; capture g1 at Master
+convert r1 to g1 at Fortran
+move r2 from Mandrel to Master
+build g2 at Fortran
+build r1 at Master
+build r1 at Fortran
+build r3 at Mandrel

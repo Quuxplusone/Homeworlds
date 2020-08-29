@@ -1,0 +1,57 @@
+Jeep (0, y1b2) g3-
+Laurie_Menke (1, y3b1) -g3
+build g1 at Jeep
+build g1 at Laurie_Menke
+convert g1 to y1 at Jeep
+convert g1 to y1 at Laurie_Menke
+build y2 at Jeep
+build y2 at Laurie_Menke
+convert y2 to r2 at Jeep
+convert y2 to r2 at Laurie_Menke
+build y2 at Jeep
+build y2 at Laurie_Menke
+move y1 from Jeep to Thumb (g3)
+move y2 from Laurie_Menke to Acres (g2)
+sacrifice g3 at Jeep; build y2 at Thumb; build y3 at Thumb; build y3 at Jeep
+move y2 from Acres to Thumb; catastrophe yellow at Thumb
+convert y3 to g3 at Jeep
+move y1 from Laurie_Menke to Luella (y2)
+build g1 at Jeep
+build g1 at Laurie_Menke
+move g1 from Jeep to Submarine (y3)
+move g1 from Laurie_Menke to Sharon (y2)
+build g1 at Jeep
+build g2 at Laurie_Menke
+move y2 from Jeep to Fertilizer (g3)
+build g2 at Sharon
+build g2 at Jeep
+move g1 from Sharon to Roses (y3)
+build r1 at Jeep
+move g1 from Roses to Jeep; catastrophe green at Jeep
+build y1 at Fertilizer
+move g2 from Sharon to Berries (b3)
+build g1 at Submarine
+move g3 from Laurie_Menke to Luella
+move g1 from Submarine to Sigh (y2)
+move g3 from Luella to Berries
+build y3 at Fertilizer
+move y1 from Luella to Fertilizer; catastrophe yellow at Fertilizer
+convert r1 to g1 at Jeep
+convert g3 to r3 at Berries
+build g2 at Sigh
+convert g2 to y2 at Berries
+build g2 at Jeep
+move r3 from Berries to Jeep
+sacrifice g2 at Sigh; build r1 at Jeep; build r1 at Jeep; catastrophe red at Jeep
+build g2 at Laurie_Menke
+sacrifice g2 at Jeep; build g2 at Sigh; build g3 at Jeep
+move g2 from Laurie_Menke to Roses (y2)
+sacrifice g3 at Jeep; build g3 at Jeep; build g3 at Submarine; build g3 at Sigh
+move g2 from Laurie_Menke to Sigh; catastrophe green at Sigh
+move g3 from Submarine to Salvation (y2)
+build g1 at Roses
+convert g3 to r3 at Jeep
+move g2 from Roses to Laurie_Menke
+move g3 from Salvation to Laurie_Menke
+sacrifice g2 at Laurie_Menke; build r1 at Laurie_Menke; build g2 at Roses
+sacrifice r3 at Jeep; capture r2 at Laurie_Menke; capture r1 at Laurie_Menke

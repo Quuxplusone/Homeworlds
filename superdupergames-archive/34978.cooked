@@ -1,0 +1,37 @@
+Wil (0, b1y2) g3-
+Mathematician42 (1, y3b2) -g3
+build g1 at Wil
+build g1 at Mathematician42
+convert g1 to b1 at Wil
+build g1 at Mathematician42
+build b1 at Wil
+convert g1 to y1 at Mathematician42
+move b1 from Wil to Y3 (y3)
+build g1 at Mathematician42
+build b2 at Wil
+move g1 from Mathematician42 to G1 (g1)
+sacrifice g3 at Wil; build b2 at Y3; build b3 at Y3; build b3 at Wil
+build y1 at Mathematician42
+sacrifice b2 at Wil; convert b3 to g3 at Wil; convert b3 to g3 at Y3
+build g2 at Mathematician42
+move b2 from Y3 to G1
+convert y1 to r1 at Mathematician42
+build b2 at Wil
+build y1 at Mathematician42
+build g2 at Y3
+move g1 from Mathematician42 to Y1 (y1)
+sacrifice g3 at Y3; build g2 at Wil; build g3 at Y3; build b3 at G1
+move g1 from Y1 to Y3
+convert g2 to r2 at Y3
+move g1 from Y3 to Wil
+sacrifice r2 at Y3; capture g1 at Wil; capture g1 at G1
+move r1 from Mathematician42 to G1
+sacrifice g3 at Wil; build g2 at Y3; build g3 at Wil; build b3 at G1
+capture g1 at G1
+convert b3 to r3 at G1
+sacrifice y1 at Mathematician42; move g1 from G1 to Y3
+sacrifice b3 at G1; convert g3 to y3 at Y3; convert g2 to r2 at Y3; convert g2 to r2 at Wil
+sacrifice g3 at Mathematician42; build g2 at Y3; build g2 at Y3; build g3 at Mathematician42
+sacrifice r2 at Wil; capture g2 at Y3; capture r1 at G1
+build g3 at Mathematician42
+sacrifice y3 at Y3; move g2 from Y3 to G1; move g2 from G1 to Mathematician42; move r3 from G1 to Mathematician42; catastrophe green at Mathematician42

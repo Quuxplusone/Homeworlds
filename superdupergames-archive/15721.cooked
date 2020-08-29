@@ -1,0 +1,30 @@
+Dlwillson (0, b2r1) g3-
+Zoltar (1, r3b1) -g3
+build g1 at Dlwillson
+build g1 at Zoltar
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Zoltar
+build g1 at Dlwillson
+build g1 at Zoltar
+convert g1 to r1 at Dlwillson
+convert g1 to b1 at Zoltar
+build g1 at Dlwillson
+build b1 at Zoltar
+move r1 from Dlwillson to Blueberry (g3)
+move b1 from Zoltar to Greenbelt (g2)
+move g1 from Dlwillson to Luniversal (b3)
+build b2 at Greenbelt
+build g1 at Dlwillson
+build b2 at Zoltar
+convert g3 to b3 at Dlwillson
+convert b2 to y2 at Greenbelt
+move b3 from Dlwillson to Jumper (y3)
+convert b2 to r2 at Zoltar
+build r1 at Blueberry
+build b2 at Greenbelt
+build g1 at Dlwillson
+move b2 from Greenbelt to Blueberry
+move g1 from Dlwillson to Ring (b3)
+build g2 at Zoltar
+build r2 at Blueberry
+sacrifice y1 at Zoltar; move b2 from Blueberry to Dlwillson

@@ -1,0 +1,18 @@
+Hellajoey (0, b1y2) g3-
+Grissom (1, b3r2) -g3
+build g1 at Hellajoey
+build g1 at Grissom
+move g1 from Hellajoey to Blu3 (b3)
+convert g1 to y1 at Grissom
+build g1 at Hellajoey
+build y1 at Grissom
+convert g1 to y1 at Hellajoey
+move y1 from Grissom to B1Ue (b1)
+build y2 at Hellajoey
+build g1 at Grissom
+build g1 at Hellajoey
+sacrifice g3 at Grissom; build y2 at B1Ue; build y3 at Grissom; build y3 at Grissom
+move y1 from Hellajoey to Blu3
+convert y3 to g3 at Grissom
+build y3 at Blu3
+move y2 from B1Ue to Blomb (b3)

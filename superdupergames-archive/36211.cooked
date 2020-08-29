@@ -1,0 +1,35 @@
+Trydnt (0, b2y1) g3-
+Ajo (1, b2y1) -g3
+build g1 at Trydnt
+build g1 at Ajo
+convert g1 to y1 at Trydnt
+convert g1 to r1 at Ajo
+build y2 at Trydnt
+build g1 at Ajo
+convert y2 to r2 at Trydnt
+build g1 at Ajo
+build y2 at Trydnt
+move g1 from Ajo to Ugh (y3)
+build r1 at Trydnt
+build r1 at Ajo
+move r1 from Trydnt to G3 (g3)
+move r1 from Ajo to Hmm (y3)
+build r2 at Trydnt
+sacrifice g3 at Ajo; build g1 at Ajo; build r2 at Hmm; build r3 at Ajo
+build r3 at G3
+convert r3 to b3 at Ajo
+convert r2 to b2 at Trydnt
+build r2 at Ajo
+build r3 at Trydnt
+move r2 from Ajo to Ugh
+move y2 from Trydnt to R3 (r3)
+build b1 at Ajo
+sacrifice y2 at R3; move b2 from Trydnt to Ugh; move b2 from Ugh to Ajo; catastrophe blue at Ajo
+build r3 at Ajo
+move r3 from Trydnt to Ugh
+build g2 at Ajo
+sacrifice r2 at Trydnt; capture g1 at Ugh; capture r2 at Ugh
+move g1 from Ajo to Alpha (b3)
+build y2 at Trydnt
+convert g1 to b1 at Alpha
+sacrifice y2 at Trydnt; move r1 from G3 to Ajo; move r2 from Ugh to Ajo; catastrophe red at Ajo

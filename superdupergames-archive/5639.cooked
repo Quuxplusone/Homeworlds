@@ -1,0 +1,39 @@
+Keith (0, b1y2) g3-
+Jeep (1, b3y1) -g3
+build g1 at Keith
+build g1 at Jeep
+convert g1 to y1 at Keith
+convert g1 to y1 at Jeep
+build g1 at Keith
+build g1 at Jeep
+move y1 from Keith to Behemoth (g3)
+build y2 at Jeep
+build y2 at Behemoth
+move y1 from Jeep to Grower (g2)
+move y2 from Behemoth to Grower
+sacrifice g3 at Jeep; build y3 at Grower; build y3 at Grower; build y3 at Jeep; catastrophe yellow at Grower
+move y1 from Behemoth to Bend (g2)
+convert y2 to r2 at Jeep
+build y1 at Bend
+convert y3 to g3 at Jeep
+convert g1 to r1 at Keith
+convert g1 to b1 at Jeep
+build g1 at Keith
+move b1 from Jeep to Yonkers (y2)
+build y2 at Bend
+build r1 at Jeep
+move y1 from Bend to Prineville (g1)
+move g3 from Jeep to Bend
+sacrifice y1 at Bend; move y2 from Bend to Madras (g3)
+sacrifice b1 at Yonkers; convert g3 to y3 at Bend
+build y1 at Prineville
+move y3 from Bend to Jeep
+build y2 at Madras
+move r2 from Jeep to Tigard (b2)
+build y3 at Prineville
+convert r2 to g2 at Tigard
+sacrifice y3 at Prineville; move y1 from Prineville to Beaverton (b2); move y1 from Beaverton to Jeep; move y2 from Madras to Tigard
+convert y3 to g3 at Jeep
+sacrifice r1 at Keith; capture r1 at Jeep
+convert g3 to r3 at Jeep
+sacrifice g3 at Keith; build g1 at Keith; build r1 at Jeep; build r1 at Jeep; catastrophe red at Jeep

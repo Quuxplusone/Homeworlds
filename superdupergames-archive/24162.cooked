@@ -1,0 +1,21 @@
+Silenttitan (0, r1b2) g3-
+Ausmuh (1, g3y1) -b3
+build g1 at Silenttitan
+build b1 at Ausmuh
+convert g1 to y1 at Silenttitan
+build b1 at Ausmuh
+build y1 at Silenttitan
+move b1 from Ausmuh to Gwar (g2)
+build y2 at Silenttitan
+build b1 at Gwar
+move y1 from Silenttitan to Sol (b3)
+convert b3 to y3 at Ausmuh
+sacrifice g3 at Silenttitan; build y2 at Sol; build y2 at Sol; build y3 at Silenttitan
+build b2 at Ausmuh
+convert y2 to b2 at Sol
+move b2 from Ausmuh to Slayer (y2)
+move b2 from Sol to Sole (g2)
+build b3 at Gwar
+sacrifice y2 at Silenttitan; move b2 from Sole to Sol; move b2 from Sol to Gwar; catastrophe blue at Gwar
+convert b1 to r1 at Ausmuh
+convert y2 to r2 at Sol

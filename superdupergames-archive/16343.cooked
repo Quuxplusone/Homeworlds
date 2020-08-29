@@ -1,0 +1,41 @@
+Dlwillson (0, b3y1) g3-
+Face (1, r3b2) -g3
+build g1 at Dlwillson
+build g1 at Face
+convert g1 to r1 at Dlwillson
+convert g3 to y3 at Face
+build g1 at Dlwillson
+build y1 at Face
+build r1 at Dlwillson
+convert y1 to b1 at Face
+build r1 at Dlwillson
+build y1 at Face
+move r1 from Dlwillson to Potato (b2)
+move y1 from Face to Smash (b1)
+move r1 from Dlwillson to Meat (y2)
+build y1 at Face
+sacrifice g3 at Dlwillson; build r2 at Meat; build r2 at Meat; build r2 at Potato
+convert y3 to r3 at Face
+build r3 at Dlwillson
+build y2 at Face
+move r2 from Meat to Smash
+move y1 from Smash to Waste (g3)
+convert r3 to y3 at Dlwillson
+convert r3 to y3 at Face
+build r3 at Dlwillson
+move y2 from Face to Trash (g1)
+build r3 at Dlwillson
+build y2 at Waste
+move y3 from Dlwillson to Potato
+build y3 at Trash
+convert r3 to g3 at Dlwillson
+move b1 from Face to Trash
+sacrifice g1 at Dlwillson; build r3 at Smash
+move y2 from Trash to Tank (g3)
+move r3 from Dlwillson to Meat
+build b1 at Trash
+move r3 from Meat to Smash
+move y1 from Waste to Plaster (g2)
+sacrifice y3 at Potato; move r3 from Smash to Face; move r3 from Smash to Face
+move y2 from Tank to Blitz (g2)
+sacrifice r3 at Face; capture y3 at Face; capture y1 at Face; capture g1 at Face

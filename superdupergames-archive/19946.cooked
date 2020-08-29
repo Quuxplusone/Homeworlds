@@ -1,0 +1,95 @@
+Lorgar (0, b1y3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Lorgar
+build g1 at Ts52
+build g1 at Lorgar
+build g2 at Ts52
+convert g1 to b1 at Lorgar
+convert g2 to b2 at Ts52
+move b1 from Lorgar to Amarante (g2)
+move b2 from Ts52 to Kermit (g3)
+build b1 at Amarante
+convert g1 to y1 at Ts52
+convert b1 to y1 at Amarante
+build g1 at Ts52
+build y2 at Amarante
+move y1 from Ts52 to Kermit
+convert y2 to r2 at Amarante
+convert g1 to r1 at Ts52
+build g1 at Lorgar
+build y2 at Kermit
+move g1 from Lorgar to Marigot (b2)
+convert y2 to r2 at Kermit
+build g1 at Lorgar
+build g2 at Ts52
+build g2 at Marigot
+move g2 from Ts52 to Kermit
+build y2 at Amarante
+move g2 from Kermit to Birbird (y2)
+convert g1 to r1 at Lorgar
+build g1 at Ts52
+sacrifice y2 at Amarante; move g2 from Marigot to Ark (y3); move g1 from Marigot to Stark (y3)
+move g2 from Birbird to Stark
+move g1 from Stark to Meth (b2)
+move r2 from Kermit to Meth
+sacrifice g3 at Lorgar; build r1 at Amarante; build y2 at Amarante; build g3 at Lorgar
+capture g1 at Meth
+move r2 from Amarante to Ark
+build y2 at Kermit
+move y2 from Amarante to Kermit
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Meth; build r3 at Ts52
+sacrifice g3 at Lorgar; build g3 at Lorgar; build y2 at Kermit; build r3 at Ark; catastrophe yellow at Kermit
+convert r2 to y2 at Meth
+sacrifice g3 at Lorgar; build r2 at Lorgar; build r3 at Amarante; build g3 at Lorgar
+move r3 from Ts52 to Kermit
+convert r2 to y2 at Lorgar
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Meth; build r2 at Ts52
+sacrifice y2 at Lorgar; move r3 from Ark to Meth; move r3 from Amarante to Ark
+sacrifice y2 at Meth; move r1 from Ts52 to Ark; move r2 from Meth to Ark; catastrophe red at Ark
+capture y1 at Meth
+convert b2 to y2 at Kermit
+sacrifice g3 at Lorgar; build y2 at Amarante; build y2 at Meth; build g3 at Lorgar
+build r1 at Ts52
+sacrifice y2 at Amarante; move r3 from Meth to Stark; move r1 from Amarante to Ark
+move g2 from Stark to Amarante
+sacrifice y1 at Amarante; move b1 from Amarante to Stark
+convert r2 to b2 at Ts52
+sacrifice g3 at Lorgar; build b1 at Stark; build r2 at Lorgar; build g3 at Lorgar
+move b2 from Ts52 to Kermit
+sacrifice y2 at Meth; move b1 from Stark to Ts52; move g2 from Ark to Ts52
+capture g2 at Ts52
+sacrifice g3 at Lorgar; build b3 at Ts52; build b3 at Ts52; build g3 at Lorgar; catastrophe blue at Ts52
+sacrifice b2 at Kermit; convert g1 to b1 at Ts52; convert g2 to b2 at Amarante
+move r3 from Stark to Amarante
+build r2 at Kermit
+sacrifice r2 at Lorgar; capture b2 at Amarante; capture g1 at Meth
+move r2 from Kermit to Meth
+sacrifice y1 at Meth; move g1 from Meth to Stark
+build r2 at Ts52
+convert b2 to y2 at Amarante
+move r2 from Ts52 to Stark
+move r3 from Amarante to Stark
+sacrifice g2 at Ts52; build r2 at Stark; build r3 at Stark; catastrophe red at Stark
+build y1 at Amarante
+move r3 from Kermit to Amarante
+sacrifice y2 at Amarante; move y1 from Amarante to Flight (b3); move y1 from Flight to Flees (g2)
+convert r2 to g2 at Meth
+sacrifice g3 at Lorgar; build g1 at Stark; build r2 at Ark; build g3 at Lorgar
+move y2 from Kermit to Meth
+move r2 from Ark to Meth
+sacrifice r1 at Ts52; capture r2 at Meth
+sacrifice g3 at Lorgar; build y1 at Flees; build y2 at Flees; build g3 at Lorgar
+move r2 from Meth to Stark
+sacrifice y2 at Flees; move r1 from Ark to Amarante; move b1 from Stark to Meth
+build g3 at Ts52
+sacrifice g3 at Lorgar; build r1 at Amarante; build r2 at Amarante; build g3 at Lorgar; catastrophe red at Amarante
+capture g1 at Stark
+move g1 from Stark to Ts52
+move g3 from Ts52 to Stark
+sacrifice g3 at Lorgar; build b2 at Meth; build g2 at Ts52; build g3 at Lorgar
+sacrifice r2 at Stark; capture g2 at Ts52; capture b2 at Meth
+move y1 from Flees to Ts52
+sacrifice g3 at Stark; build y2 at Meth; build y2 at Meth; build y3 at Meth
+sacrifice g3 at Lorgar; build g3 at Ts52; build b2 at Meth; build g3 at Lorgar; catastrophe blue at Meth; catastrophe green at Ts52
+sacrifice g1 at Stark; build b1 at Ts52
+sacrifice g3 at Lorgar; build y2 at Ts52; build y2 at Ts52; build g1 at Lorgar; catastrophe yellow at Ts52

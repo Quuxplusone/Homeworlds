@@ -1,0 +1,41 @@
+Astroprincess (0, b3r1) g3-
+Moverman (1, y3b2) -g3
+build g1 at Astroprincess
+build g1 at Moverman
+convert g1 to y1 at Astroprincess
+move g1 from Moverman to Htns (r1)
+build y1 at Astroprincess
+build g1 at Moverman
+move y1 from Astroprincess to Steven (g2)
+convert g1 to r1 at Moverman
+build y1 at Steven
+build r2 at Moverman
+build y2 at Astroprincess
+move r2 from Moverman to Htns
+convert y2 to r2 at Astroprincess
+sacrifice g3 at Moverman; build g1 at Htns; build r2 at Moverman; build r3 at Htns
+build r3 at Astroprincess
+convert r2 to y2 at Moverman
+move r3 from Astroprincess to Steven
+move y2 from Moverman to Htns
+build r2 at Steven
+move r3 from Htns to Moverman
+move r3 from Steven to Htns
+sacrifice y2 at Htns; move g1 from Htns to Moverman; move g1 from Htns to Steven
+capture g1 at Steven
+move r1 from Moverman to Htns; catastrophe red at Htns
+move y1 from Steven to Ds9 (r1)
+build g1 at Moverman
+move g1 from Steven to Ds9
+convert g1 to b1 at Moverman
+build y2 at Ds9
+convert r3 to y3 at Moverman
+move y1 from Ds9 to Moverman
+move y3 from Moverman to Ds9
+move y2 from Ds9 to Moverman
+capture g1 at Ds9
+convert y2 to r2 at Moverman
+move y3 from Ds9 to Moverman
+sacrifice g3 at Astroprincess; build y2 at Moverman; build y2 at Astroprincess; build y2 at Steven; catastrophe yellow at Moverman
+build g1 at Moverman
+sacrifice r2 at Astroprincess; capture g1 at Moverman; capture g1 at Moverman

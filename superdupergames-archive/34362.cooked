@@ -1,0 +1,51 @@
+Wil (0, b2y1) g3-
+Nycavri (1, b3g2) -y3
+build g1 at Wil
+build y1 at Nycavri
+convert g1 to y1 at Wil
+build y2 at Nycavri
+build y2 at Wil
+move y1 from Nycavri to Deacon (g1)
+move y1 from Wil to G3 (g3)
+convert y2 to g2 at Nycavri
+build y2 at Wil
+build y2 at Deacon
+convert y2 to g2 at Wil
+build g1 at Nycavri
+move g2 from Wil to B3 (b3)
+move g1 from Nycavri to Deacon
+build g1 at B3
+move y1 from Deacon to May (g3)
+move y2 from Wil to B3
+move y1 from May to Wil
+sacrifice g2 at B3; build g2 at Wil; build g3 at B3
+sacrifice g2 at Nycavri; build y2 at Wil; build y3 at Wil; catastrophe yellow at Wil
+convert g2 to r2 at Wil
+convert y3 to r3 at Nycavri
+build g2 at Wil
+build r1 at Nycavri
+sacrifice y2 at B3; move g1 from B3 to Deacon; move g2 from Wil to Deacon; catastrophe green at Deacon
+convert r1 to y1 at Nycavri
+build g1 at B3
+build y1 at Nycavri
+build y2 at G3
+move y1 from Nycavri to John (g1)
+move y2 from G3 to John
+build y2 at Nycavri
+build r1 at Wil
+sacrifice y1 at John; move y1 from Nycavri to Mercury (y1)
+build g1 at Wil
+build r1 at Nycavri
+sacrifice g3 at Wil; build g2 at Wil; build g2 at B3; build g3 at Wil
+move r1 from Nycavri to Mercury
+convert g3 to y3 at B3
+build y2 at Nycavri
+sacrifice g3 at Wil; build g3 at B3; build y3 at B3; build g3 at Wil
+move y2 from Nycavri to Paul (b1)
+build y3 at John
+move y2 from Paul to G3
+sacrifice y3 at B3; move g3 from B3 to John; move y3 from John to Nycavri; move g3 from John to Nycavri
+capture y3 at Nycavri
+sacrifice r2 at Wil; capture y3 at Nycavri; capture r3 at Nycavri
+build y3 at Nycavri
+sacrifice r3 at Nycavri; capture y3 at Nycavri; capture y2 at Nycavri

@@ -1,0 +1,74 @@
+Silenttitan (0, y2g3) b3-
+Mandrel (1, r1b3) -g3
+build b1 at Silenttitan
+build g1 at Mandrel
+move b1 from Silenttitan to Blue (b1)
+convert g1 to b1 at Mandrel
+build b2 at Silenttitan
+build b2 at Mandrel
+convert b3 to g3 at Silenttitan
+convert b2 to y2 at Mandrel
+build b2 at Silenttitan
+build b2 at Mandrel
+build b3 at Silenttitan
+convert b1 to r1 at Mandrel
+move b2 from Silenttitan to Green (g1)
+move b2 from Mandrel to Resolution (g2)
+convert b2 to r2 at Silenttitan
+build y1 at Mandrel
+move g3 from Silenttitan to Red (r1)
+build r2 at Mandrel
+convert b2 to r2 at Green
+move r2 from Mandrel to Resolution
+convert r2 to y2 at Silenttitan
+sacrifice y1 at Mandrel; move r2 from Resolution to Blue
+convert b3 to r3 at Silenttitan
+capture b1 at Blue
+build y1 at Silenttitan
+convert b1 to y1 at Blue
+move y2 from Silenttitan to Green
+build g1 at Mandrel
+move y2 from Green to Sink (g2)
+sacrifice g1 at Mandrel; build y1 at Blue
+sacrifice y1 at Silenttitan; move g3 from Red to Rand (b2)
+convert b2 to r2 at Resolution
+build g1 at Rand
+convert y1 to r1 at Blue
+build r3 at Green
+build r3 at Resolution
+convert g1 to b1 at Rand
+convert r1 to y1 at Mandrel
+sacrifice b1 at Rand; convert r3 to b3 at Silenttitan
+convert y1 to b1 at Mandrel
+build g1 at Rand
+build y1 at Mandrel
+convert g1 to y1 at Rand
+build g1 at Mandrel
+sacrifice g3 at Rand; build y3 at Rand; build y3 at Sink; build b1 at Silenttitan
+sacrifice g1 at Mandrel; build y3 at Blue
+sacrifice y3 at Sink; move y2 from Sink to Blue; move y1 from Rand to Blue; move r3 from Green to Rand; catastrophe yellow at Blue
+convert r2 to y2 at Blue
+build b2 at Silenttitan
+move y2 from Mandrel to Resolution
+sacrifice b2 at Silenttitan; convert r2 to b2 at Green; convert b3 to g3 at Silenttitan
+move b1 from Mandrel to Resolution
+build g1 at Silenttitan
+convert r2 to g2 at Resolution
+convert g1 to y1 at Silenttitan
+move g2 from Resolution to Blue
+sacrifice y1 at Silenttitan; move b2 from Green to Rand
+build y1 at Blue
+convert b2 to g2 at Rand
+build g1 at Blue
+convert g3 to r3 at Silenttitan
+build y1 at Resolution
+build r1 at Rand
+build y3 at Mandrel
+build b2 at Silenttitan
+move y1 from Resolution to Tragedy (g1)
+move b1 from Silenttitan to Blue
+capture b1 at Blue
+build r2 at Silenttitan
+build y3 at Resolution
+move r2 from Silenttitan to Tragedy
+sacrifice y3 at Resolution; move y1 from Tragedy to Silenttitan; move y1 from Blue to Silenttitan; move y2 from Blue to Silenttitan; catastrophe yellow at Silenttitan

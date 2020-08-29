@@ -1,0 +1,40 @@
+Kingsamj (0, g3b2) y3-
+Bloodrumpus (1, y1b2) -g3
+build y1 at Kingsamj
+build g1 at Bloodrumpus
+convert y1 to g1 at Kingsamj
+convert g3 to y3 at Bloodrumpus
+move g1 from Kingsamj to Avalon (b1)
+build y1 at Bloodrumpus
+build y1 at Kingsamj
+convert y1 to r1 at Bloodrumpus
+build y1 at Kingsamj
+build g1 at Bloodrumpus
+convert y1 to r1 at Kingsamj
+move g1 from Bloodrumpus to Sarkovy (g3)
+build g2 at Avalon
+build g2 at Bloodrumpus
+convert g2 to r2 at Avalon
+build g2 at Bloodrumpus
+build g2 at Avalon
+sacrifice g2 at Bloodrumpus; build g2 at Sarkovy; build g3 at Bloodrumpus
+build y1 at Kingsamj
+convert g1 to b1 at Bloodrumpus
+build g1 at Avalon
+sacrifice b1 at Bloodrumpus; convert g2 to y2 at Sarkovy
+convert g2 to y2 at Avalon
+sacrifice y3 at Bloodrumpus; move y2 from Sarkovy to Avalon; move y2 from Avalon to Kingsamj; move g1 from Sarkovy to Rigel (b1); catastrophe yellow at Kingsamj
+move y2 from Avalon to Kingsamj
+build g2 at Rigel
+convert g1 to y1 at Avalon
+convert g1 to y1 at Rigel
+build y2 at Kingsamj
+move g2 from Bloodrumpus to Sirius (y3)
+move r2 from Avalon to Sirius
+sacrifice r1 at Bloodrumpus; capture r2 at Sirius
+move y2 from Kingsamj to Avalon
+move g2 from Sirius to Avalon
+sacrifice r1 at Kingsamj; capture g2 at Avalon
+move g2 from Rigel to Kingsamj
+convert y2 to r2 at Kingsamj
+sacrifice r2 at Sirius; capture r2 at Kingsamj

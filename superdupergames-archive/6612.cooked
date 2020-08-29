@@ -1,0 +1,24 @@
+Antihero (0, g2b1) y3-
+Twoshort (1, g3b1) -b3
+build y1 at Antihero
+build b1 at Twoshort
+build y1 at Antihero
+convert b3 to y3 at Twoshort
+move y1 from Antihero to Evergreen (g3)
+build b2 at Twoshort
+build y1 at Evergreen
+move b1 from Twoshort to Bluestar (b2)
+convert y3 to b3 at Antihero
+build b2 at Twoshort
+build y2 at Antihero
+convert b2 to y2 at Twoshort
+move y1 from Evergreen to Greenstar (g2)
+move y2 from Twoshort to Bluesville (b2)
+move y1 from Greenstar to Twoshort
+convert b2 to r2 at Twoshort
+build y2 at Twoshort
+convert y3 to g3 at Twoshort
+build y3 at Evergreen
+sacrifice r2 at Twoshort; capture y2 at Twoshort; capture y1 at Twoshort
+sacrifice y2 at Antihero; move y1 from Evergreen to Bluesville; move y1 from Bluesville to Twoshort
+convert y2 to r2 at Twoshort

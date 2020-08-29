@@ -1,0 +1,12 @@
+Godofpie (0, b3y2) g3-
+Jesse (1, y1b2) -g3
+build g1 at Godofpie
+build g1 at Jesse
+move g1 from Godofpie to God (y1)
+move g1 from Jesse to Zathras (b3)
+build g1 at Godofpie
+build g2 at Zathras
+build g2 at God
+convert g2 to y2 at Zathras
+convert g1 to r1 at Godofpie
+convert g1 to r1 at Zathras

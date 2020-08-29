@@ -1,0 +1,57 @@
+Danner (0, r1b2) g3-
+Cerulean (1, y3b1) -g3
+build g1 at Danner
+build g1 at Cerulean
+convert g1 to y1 at Danner
+move g1 from Cerulean to Wytu (y2)
+build g1 at Danner
+move g1 from Wytu to Cerulean
+move g1 from Danner to Treshold (y3)
+convert g1 to r1 at Cerulean
+build y1 at Danner
+build g1 at Cerulean
+move y1 from Danner to Cube (g3)
+move g1 from Cerulean to Wytu (y2)
+build y1 at Cube
+build g1 at Cerulean
+sacrifice g3 at Danner; build y2 at Cube; build y2 at Danner; build y3 at Danner
+build g2 at Wytu
+move y1 from Cube to Earth (g2)
+convert g1 to b1 at Cerulean
+convert y3 to r3 at Danner
+convert g3 to y3 at Cerulean
+move y1 from Cube to Earth
+convert y3 to g3 at Cerulean
+build y3 at Cube
+move g1 from Wytu to Cube
+move y3 from Cube to Refuge (g2)
+move b1 from Cerulean to Earth
+move g1 from Treshold to Danner
+convert b1 to r1 at Earth
+build y3 at Earth
+capture y1 at Earth
+sacrifice r3 at Danner; capture r1 at Earth; capture y1 at Earth; capture g1 at Cube
+build r2 at Cerulean
+build r2 at Earth
+convert r1 to b1 at Cerulean
+move r2 from Earth to Cube
+build b1 at Cerulean
+move y3 from Refuge to Garrett (b3)
+move b1 from Cerulean to Wytu
+convert y3 to b3 at Garrett
+move b1 from Wytu to Garrett
+build y3 at Danner
+move b1 from Cerulean to Wytu
+convert b3 to r3 at Garrett
+convert b1 to r1 at Garrett
+convert y3 to g3 at Danner
+build b1 at Wytu
+sacrifice g3 at Danner; build y3 at Danner; build r2 at Cube; build r3 at Earth
+build r3 at Cerulean
+move r3 from Earth to Cerulean
+capture r3 at Cerulean
+sacrifice y2 at Danner; move r1 from Earth to Cerulean; move y3 from Earth to Cerulean; catastrophe red at Cerulean
+sacrifice r1 at Garrett; capture y3 at Cerulean
+sacrifice y2 at Cube; move r3 from Garrett to Earth; move r3 from Earth to Cerulean
+convert g2 to r2 at Wytu
+sacrifice r2 at Cube; capture g3 at Cerulean; capture y3 at Cerulean

@@ -1,0 +1,18 @@
+Professor_Rabbit (0, r1g2) b3-
+Mathochist (1, r1b3) -g3
+build b1 at Professor_Rabbit
+build g1 at Mathochist
+convert b1 to y1 at Professor_Rabbit
+convert g1 to y1 at Mathochist
+move y1 from Professor_Rabbit to Alpha (g3)
+build g1 at Mathochist
+build y1 at Alpha
+build y2 at Mathochist
+build y2 at Alpha
+sacrifice y2 at Mathochist; move y1 from Mathochist to Beta (b2); move y1 from Beta to Alpha; catastrophe yellow at Alpha
+build b1 at Professor_Rabbit
+convert g1 to r1 at Mathochist
+convert b1 to y1 at Professor_Rabbit
+build r2 at Mathochist
+move y1 from Professor_Rabbit to Delta (y3)
+convert r2 to y2 at Mathochist

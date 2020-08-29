@@ -1,0 +1,12 @@
+Trydnt (0, b2y1) g3-
+Mathematician42 (1, b1r3) -g3
+build g1 at Trydnt
+build g1 at Mathematician42
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Mathematician42
+build b2 at Trydnt
+build b2 at Mathematician42
+move b1 from Trydnt to G3 (g3)
+build b3 at Mathematician42
+build b3 at G3; catastrophe blue at Mathematician42
+build g1 at Mathematician42

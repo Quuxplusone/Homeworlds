@@ -1,0 +1,25 @@
+Rbryan (0, y3b2) g3-
+Tuxhedoh (1, b3g2) -y3
+build g1 at Rbryan
+build y1 at Tuxhedoh
+build g1 at Rbryan
+build y1 at Tuxhedoh
+move g1 from Rbryan to Bluonia (b1)
+convert y1 to r1 at Tuxhedoh
+build g1 at Bluonia
+convert y3 to g3 at Tuxhedoh
+convert g1 to y1 at Bluonia
+move r1 from Tuxhedoh to Bluonia
+move g1 from Bluonia to Tuxhedoh
+capture y1 at Bluonia
+build g1 at Tuxhedoh; catastrophe green at Tuxhedoh
+move y1 from Bluonia to Tuxhedoh
+build g1 at Rbryan
+convert y1 to g1 at Tuxhedoh
+convert g1 to r1 at Rbryan
+build y1 at Tuxhedoh
+move g3 from Rbryan to Doom (y1)
+convert y1 to r1 at Tuxhedoh
+move g3 from Doom to Tuxhedoh
+convert r1 to g1 at Tuxhedoh
+convert g3 to r3 at Tuxhedoh

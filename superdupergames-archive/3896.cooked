@@ -1,0 +1,62 @@
+Personman (0, y1b2) g3-
+Zoltar (1, y3b2) -g3
+build g1 at Personman
+build g1 at Zoltar
+convert g1 to y1 at Personman
+build g1 at Zoltar
+move y1 from Personman to Serpolet (g3)
+convert g3 to y3 at Zoltar
+move y1 from Serpolet to Vriko (r1)
+move g1 from Zoltar to Blueridge (b1)
+move y1 from Vriko to Zoltar
+convert y3 to r3 at Zoltar
+move y1 from Zoltar to Soubridge (b1)
+build r1 at Zoltar
+build g1 at Personman
+build g2 at Blueridge
+convert g1 to r1 at Personman
+convert g2 to y2 at Blueridge
+build r1 at Personman
+convert r1 to b1 at Zoltar
+build g1 at Personman
+build g2 at Blueridge
+move g1 from Personman to Hope (y3)
+convert g2 to b2 at Blueridge
+build g2 at Personman
+build b3 at Blueridge
+move g2 from Personman to Thing_50 (y3)
+convert b3 to r3 at Blueridge
+build g2 at Personman
+move r3 from Blueridge to Thing_50
+move g2 from Thing_50 to Blueridge
+build b3 at Blueridge
+convert g2 to y2 at Blueridge
+convert b3 to r3 at Blueridge
+move y2 from Blueridge to Run (b3)
+build b3 at Blueridge
+move g1 from Hope to Montrouge (y2)
+convert b3 to y3 at Blueridge
+build g2 at Montrouge
+build b3 at Zoltar
+move g2 from Montrouge to Run
+move y3 from Blueridge to Run
+sacrifice g2 at Run; build g2 at Montrouge; build y1 at Run
+convert b3 to g3 at Zoltar
+move y1 from Soubridge to Zoltar
+sacrifice r3 at Zoltar; capture y1 at Zoltar; capture y1 at Run; capture y2 at Run
+convert r1 to b1 at Personman
+sacrifice g3 at Zoltar; build g2 at Zoltar; build g3 at Zoltar; build b3 at Blueridge
+build r1 at Personman
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b3 at Zoltar; build g3 at Blueridge
+move g2 from Montrouge to Ha (r3)
+move b3 from Blueridge to Ha
+build r1 at Personman
+move b2 from Blueridge to Thing_50
+move r1 from Personman to Run
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Thing_50; build r2 at Blueridge
+capture y1 at Run
+sacrifice r3 at Blueridge; capture g2 at Ha; capture r1 at Run; capture y1 at Run
+build r2 at Personman
+sacrifice g2 at Zoltar; build g2 at Ha; build r3 at Run
+sacrifice b1 at Personman
+sacrifice y3 at Run; move r1 from Run to Personman; move g2 from Ha to Personman; move g2 from Ha to Personman; catastrophe red at Personman; catastrophe green at Personman

@@ -1,0 +1,25 @@
+Danner (0, r1b2) g3-
+Keith (1, y2b3) -g3
+build g1 at Danner
+build g1 at Keith
+convert g1 to y1 at Danner
+convert g1 to y1 at Keith
+build g1 at Danner
+build g1 at Keith
+convert g1 to r1 at Danner
+convert g1 to r1 at Keith
+build r2 at Danner
+build r2 at Keith
+move r2 from Danner to Sun (y3)
+build g1 at Keith
+build g1 at Danner
+move g1 from Keith to Kiro (y1)
+build y2 at Danner
+move r2 from Keith to Kiro
+move y1 from Danner to Earth (g3)
+move r2 from Kiro to Earth
+sacrifice g3 at Danner; build y2 at Earth; build y3 at Earth; build y3 at Danner
+capture y2 at Earth
+sacrifice r2 at Sun; capture r2 at Earth; capture y2 at Earth
+move y1 from Keith to Dimm (b1)
+move y3 from Earth to Dimm

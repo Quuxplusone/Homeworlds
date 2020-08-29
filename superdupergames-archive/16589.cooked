@@ -1,0 +1,53 @@
+Supergnouf (0, g3b1) y3-
+Captncavern (1, b3g2) -y3
+build y1 at Supergnouf
+build y1 at Captncavern
+convert y1 to b1 at Supergnouf
+build y1 at Captncavern
+build y1 at Supergnouf
+move y1 from Captncavern to Abc (g1)
+move y1 from Supergnouf to Caraba (g2)
+convert y1 to r1 at Captncavern
+build b1 at Supergnouf
+build r1 at Captncavern
+move b1 from Supergnouf to Caraba
+build r1 at Captncavern
+build b2 at Caraba
+move r1 from Captncavern to Abc
+convert b2 to r2 at Caraba
+move r1 from Abc to Azerty (y2)
+build r2 at Caraba
+convert r1 to g1 at Captncavern
+build b2 at Caraba
+build g1 at Captncavern
+convert b2 to g2 at Caraba
+convert g1 to r1 at Captncavern
+build b2 at Caraba
+move r1 from Captncavern to Xyz (y1)
+move r2 from Caraba to Supergnouf
+build y2 at Abc
+sacrifice g2 at Caraba; build y2 at Supergnouf; build y3 at Caraba
+build g1 at Captncavern
+convert b2 to g2 at Caraba
+move g1 from Captncavern to Abc
+move g2 from Caraba to Xyz
+move g1 from Captncavern to Xyz
+sacrifice r2 at Caraba; capture r1 at Xyz; capture g1 at Xyz
+build r2 at Captncavern
+sacrifice y3 at Caraba; move g1 from Xyz to Captncavern; move g2 from Xyz to Captncavern; move r1 from Xyz to Captncavern
+capture r1 at Captncavern
+build g3 at Captncavern; catastrophe green at Captncavern
+move r2 from Captncavern to Caraba
+move y3 from Supergnouf to Caraba
+sacrifice y1 at Abc; move r2 from Caraba to Bleu (y3)
+build b2 at Caraba
+convert r1 to y1 at Captncavern
+move b1 from Supergnouf to Vandemaar (b2)
+sacrifice y3 at Captncavern; move y1 from Captncavern to Caraba; move y2 from Abc to Caraba; move g1 from Abc to Captncavern; catastrophe yellow at Caraba
+sacrifice y2 at Supergnouf; move b2 from Caraba to Captncavern
+move r2 from Bleu to Caraba
+build r1 at Supergnouf
+build r2 at Captncavern
+sacrifice r2 at Supergnouf; capture r2 at Captncavern; capture r1 at Captncavern
+build g1 at Captncavern
+sacrifice r2 at Captncavern; capture g1 at Captncavern; capture g1 at Captncavern

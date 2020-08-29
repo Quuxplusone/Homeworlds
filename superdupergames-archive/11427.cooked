@@ -1,0 +1,25 @@
+Twoshort (0, r1b2) g3-
+Random56 (1, g1b3) -g3
+build g1 at Twoshort
+build g1 at Random56
+build g2 at Twoshort
+convert g1 to r1 at Random56
+convert g2 to y2 at Twoshort
+build r1 at Random56
+move g1 from Twoshort to Yolonda (y3)
+build r2 at Random56
+build g1 at Twoshort
+convert r1 to y1 at Random56
+build g2 at Yolonda
+move r2 from Random56 to Dixy (y2)
+move g1 from Yolonda to Yellonia (y2)
+move r2 from Dixy to Yolonda
+move g2 from Yolonda to Yonderboy (y2)
+move g3 from Random56 to Yonderboy
+move g2 from Yonderboy to Random56
+move r1 from Random56 to Yonderboy
+build g2 at Random56
+build y1 at Random56
+convert g2 to r2 at Random56
+move r2 from Yolonda to Twoshort
+sacrifice r2 at Random56; capture y1 at Random56; capture y1 at Random56

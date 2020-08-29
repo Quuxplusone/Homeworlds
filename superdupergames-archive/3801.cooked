@@ -1,0 +1,38 @@
+Laurie_Menke (0, b2g3) y3-
+Zoltar (1, y2b1) -g3
+build y1 at Laurie_Menke
+build g1 at Zoltar
+convert y1 to g1 at Laurie_Menke
+convert g1 to y1 at Zoltar
+build g1 at Laurie_Menke
+build y1 at Zoltar
+build y1 at Laurie_Menke
+move y1 from Zoltar to Greenbelt (g3)
+move g1 from Laurie_Menke to Park (g1)
+build g2 at Zoltar
+build g2 at Laurie_Menke
+move g2 from Zoltar to Yellowstone (y3)
+move g2 from Laurie_Menke to Phonebooth (b1)
+build g2 at Zoltar
+build y2 at Laurie_Menke
+move y1 from Zoltar to Blueridge (b3)
+move y2 from Laurie_Menke to Phonebooth
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Greenbelt; build y3 at Blueridge
+convert g1 to b1 at Laurie_Menke
+convert y3 to r3 at Blueridge
+convert y3 to r3 at Laurie_Menke
+move r3 from Blueridge to Phonebooth
+sacrifice y2 at Phonebooth; move b1 from Laurie_Menke to Park; move g2 from Phonebooth to Mars (r3)
+sacrifice g3 at Zoltar; build g1 at Yellowstone; build g3 at Zoltar; build r1 at Phonebooth
+sacrifice g2 at Mars; build r1 at Laurie_Menke; build y2 at Laurie_Menke
+sacrifice g2 at Yellowstone; build y3 at Blueridge; build y3 at Blueridge
+move y1 from Laurie_Menke to Ready (r1)
+sacrifice y3 at Blueridge; move g2 from Zoltar to Yosemite (y3); move r1 from Phonebooth to Laurie_Menke; move r3 from Phonebooth to Laurie_Menke; catastrophe red at Laurie_Menke
+convert y2 to g2 at Laurie_Menke
+build g2 at Zoltar
+sacrifice g1 at Park; build y2 at Ready
+sacrifice y2 at Greenbelt; move y3 from Blueridge to Park; move y3 from Park to Laurie_Menke
+build b1 at Park
+convert g3 to r3 at Zoltar
+build b2 at Park
+sacrifice r3 at Zoltar; capture g2 at Laurie_Menke

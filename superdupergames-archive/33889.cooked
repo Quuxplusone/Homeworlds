@@ -1,0 +1,111 @@
+Trydnt (0, g3r2) b3-
+Wil (1, b2y1) -g3
+build b1 at Trydnt
+build g1 at Wil
+build b1 at Trydnt
+convert g1 to y1 at Wil
+convert b3 to y3 at Trydnt
+build y1 at Wil
+build y2 at Trydnt
+convert y1 to b1 at Wil
+move b1 from Trydnt to Y1 (y1)
+build y2 at Wil
+build y2 at Trydnt
+move y2 from Wil to Liberty (g3)
+convert y2 to r2 at Trydnt
+convert y1 to r1 at Wil
+build b2 at Trydnt
+move b1 from Wil to Liberty
+move b2 from Trydnt to G1 (g1)
+build r1 at Wil
+move r2 from Trydnt to G1
+move r1 from Wil to Liberty
+convert b2 to y2 at G1
+build b2 at Liberty
+build b2 at Trydnt
+move b2 from Liberty to G1
+capture b2 at G1
+build b3 at Liberty
+sacrifice y2 at Trydnt; move b1 from Y1 to Liberty; move b2 from G1 to Liberty; catastrophe blue at Liberty
+build r1 at Wil
+build y1 at G1
+build r2 at Wil
+build r3 at G1
+build r3 at Liberty
+move r2 from G1 to Y3 (y3)
+convert r2 to g2 at Wil
+move b1 from Trydnt to G1
+move r1 from Liberty to Y1 (y1)
+move y2 from G1 to R3 (r3)
+build r2 at Liberty
+convert b2 to g2 at Trydnt
+move g2 from Wil to Why3 (y3)
+move r2 from Y3 to Y1
+build y2 at Liberty
+sacrifice g2 at Trydnt; build y3 at R3; build b1 at G1
+move r1 from Y1 to R3
+move y3 from R3 to B1 (b1)
+move r1 from Wil to R3
+move y2 from R3 to B1
+move y2 from Liberty to Gwon (g1)
+move r3 from G1 to Why3
+move r3 from Liberty to G1
+capture g2 at Why3
+capture y1 at G1
+sacrifice y2 at B1; move b1 from G1 to Why3; move b1 from G1 to Why3
+build y2 at G1
+build b2 at Why3
+move y1 from G1 to Trydnt
+sacrifice b2 at Why3; convert y3 to b3 at Trydnt
+build y3 at Gwon
+capture y1 at Trydnt
+build g1 at Wil
+build g2 at Why3
+move g1 from Wil to B3 (b3)
+move y3 from B1 to B3
+convert g1 to b1 at B3
+build g1 at Why3
+pass
+move g1 from Why3 to Wil
+sacrifice y2 at Gwon; move y3 from Gwon to Why3; move y3 from Why3 to Wil
+sacrifice g2 at Why3; build g1 at Wil; build g2 at Wil; catastrophe green at Wil
+build y2 at Liberty
+move r2 from Y1 to B3
+build y1 at G1
+capture b1 at B3
+move y1 from G1 to R3
+build b2 at Trydnt
+convert r1 to g1 at Wil
+build b2 at Trydnt
+build g1 at Wil
+build b3 at Why3
+move g1 from Wil to R3
+convert b3 to g3 at Why3
+move r1 from R3 to R1 (r1)
+sacrifice y3 at B3; move r3 from Why3 to G1; move r3 from G1 to Liberty; move g2 from Why3 to R1
+build y3 at G1
+sacrifice r2 at B3; capture y2 at Liberty; capture r1 at R1
+build r2 at Liberty
+sacrifice r3 at Liberty; capture r2 at Liberty; capture r2 at Liberty; capture y2 at Liberty
+build r3 at G1
+sacrifice y2 at Liberty; move r2 from Liberty to G1; move r2 from Liberty to G1; catastrophe red at G1
+move r1 from R3 to Wil
+build y2 at Liberty
+build r2 at Wil
+build g2 at Why3
+build g2 at Wil
+sacrifice g3 at Why3; build g3 at Why3; build b3 at B3
+sacrifice y2 at G1; move g2 from Wil to Why3; move g1 from Wil to Why3; catastrophe green at Why3
+convert b3 to g3 at B3
+move y3 from G1 to Why3
+sacrifice g2 at R1; build y2 at Liberty; build b3 at B3
+sacrifice r2 at Wil; capture b1 at Why3; capture b1 at Why3
+sacrifice y2 at Liberty; move y2 from Liberty to Wil; move y2 from Liberty to Wil; catastrophe yellow at Wil
+sacrifice y3 at Why3; move b1 from Why3 to Y1 (y1); move b1 from Why3 to Y1; move b1 from Y1 to B3; catastrophe blue at B3
+move b2 from Trydnt to Y1
+build y2 at R3
+sacrifice r1 at R1; capture b1 at Y1
+build y2 at R3
+convert b3 to y3 at Trydnt
+move y2 from R3 to Wil
+sacrifice y3 at Trydnt; move b2 from Trydnt to Y1; move b1 from Y1 to Wil; move b2 from Y1 to Wil

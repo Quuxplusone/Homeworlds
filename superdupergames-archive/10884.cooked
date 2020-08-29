@@ -1,0 +1,20 @@
+Youreternalgod (0, g1y2) b3-
+Twoshort (1, y1b3) -g3
+build b1 at Youreternalgod
+build g1 at Twoshort
+build b1 at Youreternalgod
+build g1 at Twoshort
+move b1 from Youreternalgod to Wanderer (y3)
+move g1 from Twoshort to Yolonda (y2)
+build b1 at Youreternalgod
+build g2 at Yolonda
+convert b1 to r1 at Wanderer
+build g2 at Twoshort
+move r1 from Wanderer to Yolonda
+convert g2 to r2 at Twoshort
+capture g1 at Yolonda
+sacrifice r2 at Twoshort; capture r1 at Yolonda; capture g1 at Yolonda
+move b3 from Youreternalgod to Go (g3)
+move g2 from Yolonda to Ynot (y3)
+convert b1 to r1 at Youreternalgod
+sacrifice g3 at Twoshort; build g2 at Ynot; build g2 at Twoshort; build g3 at Twoshort

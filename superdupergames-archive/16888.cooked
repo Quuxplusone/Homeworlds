@@ -1,0 +1,16 @@
+Jonaskoelker (0, b1r2) g3-
+Goulo (1, b3g2) -y3
+build g1 at Jonaskoelker
+build y1 at Goulo
+convert g1 to y1 at Jonaskoelker
+move y1 from Goulo to Smeraldeto (g1)
+build g1 at Jonaskoelker
+build y1 at Goulo
+build y2 at Jonaskoelker
+build y2 at Smeraldeto
+move y1 from Jonaskoelker to Big_Green (g3)
+convert y1 to r1 at Goulo
+build y1 at Big_Green
+build r1 at Goulo
+move y1 from Big_Green to Smeraldeto
+move y2 from Smeraldeto to Big_Green

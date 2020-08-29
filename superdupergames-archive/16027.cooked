@@ -1,0 +1,47 @@
+Silenttitan (0, y1b2) g3-
+Dlwillson (1, b3y1) -g3
+build g1 at Silenttitan
+build g1 at Dlwillson
+convert g1 to y1 at Silenttitan
+build g1 at Dlwillson
+build y2 at Silenttitan
+move g1 from Dlwillson to Bell (b2)
+move y1 from Silenttitan to Dell (g3)
+move g1 from Dlwillson to Well (b2)
+build y2 at Dell
+build g1 at Dlwillson
+build y2 at Silenttitan
+build g2 at Dlwillson
+build y3 at Dell
+convert g1 to r1 at Dlwillson
+move y3 from Dell to Bell
+sacrifice g2 at Dlwillson; build g1 at Dlwillson; build g2 at Well
+convert y3 to r3 at Bell
+sacrifice g3 at Dlwillson; build g2 at Bell; build g2 at Well; build g3 at Dlwillson
+capture g2 at Bell
+convert g2 to r2 at Well
+capture g1 at Bell
+convert g1 to b1 at Dlwillson
+sacrifice y2 at Silenttitan; move g2 from Bell to Dlwillson; move g1 from Bell to Dlwillson
+sacrifice r2 at Well; capture g1 at Dlwillson; capture g2 at Dlwillson
+build y2 at Dell
+convert g2 to r2 at Dlwillson
+sacrifice y2 at Dell; move y2 from Dell to Sell (r2); move y1 from Dell to Cell (y2)
+move g3 from Dlwillson to Sell
+move y2 from Sell to Pell (g3)
+move r1 from Dlwillson to Cell
+sacrifice g3 at Silenttitan; build y3 at Pell; build y3 at Cell; build y3 at Silenttitan
+capture y1 at Cell
+sacrifice r3 at Bell; capture r1 at Cell; capture y1 at Cell
+build g1 at Sell
+move y3 from Cell to Dlwillson
+move r2 from Dlwillson to Cell
+sacrifice r1 at Cell; capture g1 at Dlwillson
+sacrifice r2 at Cell; capture g1 at Dlwillson
+convert y3 to r3 at Silenttitan
+sacrifice g3 at Sell; build g2 at Dlwillson; build g2 at Dlwillson; build b1 at Dlwillson
+sacrifice r3 at Silenttitan; capture g2 at Dlwillson; capture g2 at Dlwillson; capture g1 at Dlwillson
+convert b1 to r1 at Dlwillson
+convert g1 to b1 at Dlwillson
+sacrifice g2 at Well; build b1 at Dlwillson; build g1 at Well; catastrophe blue at Dlwillson
+sacrifice y3 at Pell; move y1 from Cell to Pell; move y1 from Pell to Dlwillson; move y2 from Pell to Dlwillson; catastrophe yellow at Dlwillson

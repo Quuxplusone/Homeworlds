@@ -1,0 +1,88 @@
+Salmonax (0, r1b3) g3-
+Fogus (1, b1y2) -g3
+build g1 at Salmonax
+build g1 at Fogus
+convert g1 to y1 at Salmonax
+build g1 at Fogus
+build g1 at Salmonax
+convert g1 to y1 at Fogus
+move g1 from Salmonax to Frootyloops (b2)
+convert y1 to r1 at Fogus
+build y1 at Salmonax
+move r1 from Fogus to Way (y3)
+convert g1 to r1 at Frootyloops
+sacrifice g1 at Fogus; build r2 at Way
+build g1 at Salmonax
+move r2 from Way to Frootyloops
+sacrifice y1 at Salmonax; move r1 from Frootyloops to Salmonax
+build g1 at Fogus
+move g3 from Salmonax to Frootyloops
+convert r2 to b2 at Frootyloops
+sacrifice r1 at Salmonax; capture b2 at Frootyloops
+convert g1 to y1 at Fogus
+convert b2 to y2 at Frootyloops
+build g1 at Fogus
+build g1 at Frootyloops
+move g1 from Fogus to Way
+convert g1 to r1 at Frootyloops
+build r2 at Way
+move g3 from Frootyloops to Way
+move r2 from Way to Foo (y2)
+move y2 from Frootyloops to Salmonax
+move r1 from Way to Fogus
+move g3 from Way to Foo
+move r2 from Foo to Way
+build g1 at Foo
+move r2 from Way to Frootyloops
+sacrifice y1 at Salmonax; move r1 from Frootyloops to Salmonax
+build r2 at Fogus
+move g3 from Foo to Way
+move g1 from Way to Fogus
+build g2 at Way
+move g1 from Fogus to Flipper (y3)
+move g3 from Way to Frootyloops
+convert r2 to b2 at Frootyloops
+sacrifice r1 at Salmonax; capture b2 at Frootyloops
+build g2 at Fogus
+build g2 at Salmonax
+build g3 at Flipper
+build y1 at Salmonax
+convert r1 to b1 at Fogus
+convert g1 to r1 at Salmonax
+move g3 from Flipper to Foo
+sacrifice y1 at Salmonax; move g3 from Frootyloops to Salmonax
+build y1 at Fogus
+build g1 at Way
+move g3 from Fogus to Way
+move g1 from Foo to Blipper (y3)
+move y1 from Fogus to Warworld (r3)
+build y1 at Salmonax
+sacrifice g1 at Flipper; build y3 at Warworld
+sacrifice g2 at Salmonax; build g1 at Way; build g2 at Blipper; catastrophe green at Way
+build y3 at Fogus
+convert b2 to r2 at Frootyloops
+build r1 at Fogus
+sacrifice g2 at Blipper; build g1 at Blipper; build r2 at Frootyloops
+move y3 from Warworld to Frootyloops
+move y1 from Salmonax to Charlier (g2)
+move y1 from Fogus to Chthon (r3)
+sacrifice y1 at Charlier; move r2 from Frootyloops to Chthon
+sacrifice r1 at Fogus; capture r2 at Frootyloops
+capture y1 at Chthon
+sacrifice g2 at Fogus; build r1 at Frootyloops; build r3 at Fogus
+build g1 at Salmonax
+sacrifice y3 at Frootyloops; move r1 from Frootyloops to Salmonax; move r2 from Frootyloops to Salmonax; move g3 from Foo to Warworld; catastrophe red at Salmonax
+build y1 at Salmonax
+move y3 from Fogus to Gipf (y3)
+sacrifice g1 at Salmonax; build r1 at Chthon
+move r2 from Fogus to Gipf
+build g1 at Salmonax
+move g3 from Warworld to Fogus
+move r2 from Chthon to Ziggle (g2)
+build b1 at Fogus
+sacrifice g1 at Salmonax; build y2 at Chthon
+move b1 from Fogus to Gipf
+build r1 at Ziggle
+build b2 at Fogus
+convert y2 to b2 at Salmonax
+sacrifice y3 at Gipf; move b1 from Fogus to Salmonax; move b2 from Fogus to Salmonax; catastrophe blue at Salmonax

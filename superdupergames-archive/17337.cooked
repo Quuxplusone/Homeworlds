@@ -1,0 +1,33 @@
+Dlwillson (0, b3y1) g3-
+Random56 (1, g2b3) -y3
+build g1 at Dlwillson
+build y1 at Random56
+convert g1 to y1 at Dlwillson
+move y1 from Random56 to Bob (g1)
+build y2 at Dlwillson
+build y2 at Bob
+convert y1 to r1 at Dlwillson
+build y1 at Random56
+build g1 at Dlwillson
+convert y1 to b1 at Random56
+move y2 from Dlwillson to Gecko (g2)
+move b1 from Random56 to Bob
+move g1 from Dlwillson to Gecko
+convert y2 to r2 at Bob
+move g1 from Gecko to Bluebird (b1)
+build y1 at Random56
+build y2 at Gecko
+build y2 at Bob
+build g1 at Dlwillson
+convert y3 to r3 at Random56
+sacrifice g3 at Dlwillson; build g2 at Dlwillson; build g3 at Dlwillson; build g3 at Bluebird
+build r1 at Random56
+convert g3 to y3 at Bluebird
+move r2 from Bob to Gecko
+sacrifice y2 at Gecko; move g2 from Dlwillson to Chameleon (b2); move y2 from Gecko to Mudskipper (b1)
+build b2 at Bob
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build g3 at Chameleon; build g3 at Bluebird
+move b2 from Bob to Gecko
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build y2 at Mudskipper; build y3 at Bluebird
+build y3 at Bob
+sacrifice y3 at Bluebird; move g3 from Bluebird to Random56; move g3 from Chameleon to Bluebird; move g3 from Bluebird to Random56

@@ -1,0 +1,51 @@
+Ts52 (0, y3b2) g3-
+Pigasuspig (1, b1g2) -y3
+build g1 at Ts52
+build y1 at Pigasuspig
+build g1 at Ts52
+build y1 at Pigasuspig
+convert g1 to b1 at Ts52
+convert y1 to g1 at Pigasuspig
+move g1 from Ts52 to Persiphone (b1)
+convert y1 to r1 at Pigasuspig
+build b2 at Ts52
+build g1 at Pigasuspig
+build g2 at Persiphone
+move g1 from Pigasuspig to Hermes (b3)
+move b2 from Ts52 to Persiphone
+build g2 at Pigasuspig
+build g3 at Ts52
+sacrifice y3 at Pigasuspig; move g1 from Pigasuspig to Hermes; move g1 from Hermes to Persiphone; move g1 from Persiphone to Ts52
+sacrifice b2 at Persiphone; convert g3 to r3 at Ts52; convert g3 to r3 at Ts52
+build g3 at Pigasuspig
+capture g1 at Ts52
+sacrifice g3 at Pigasuspig; build g3 at Pigasuspig; build g3 at Hermes; build g3 at Hermes
+convert b1 to y1 at Ts52
+convert g1 to y1 at Hermes
+move r3 from Ts52 to Persiphone
+convert g3 to y3 at Pigasuspig
+build g1 at Ts52
+build g3 at Pigasuspig
+build r1 at Persiphone
+move g3 from Hermes to Mars (r1)
+move y1 from Ts52 to Persiphone
+build r2 at Pigasuspig
+move g1 from Persiphone to Sol (y3)
+convert g2 to b2 at Pigasuspig
+build g2 at Sol
+sacrifice b2 at Pigasuspig; convert g3 to b3 at Pigasuspig; convert g3 to r3 at Mars
+build g3 at Persiphone
+convert g3 to b3 at Hermes
+move g1 from Ts52 to Blueberry (b1)
+sacrifice y3 at Pigasuspig; move b3 from Hermes to Blueberry; move b3 from Blueberry to Ts52; move r3 from Mars to Ts52
+sacrifice r3 at Persiphone; capture r3 at Ts52; capture b3 at Ts52
+build b2 at Pigasuspig
+sacrifice g3 at Persiphone; build g3 at Persiphone; build g3 at Blueberry; build g3 at Ts52
+move y1 from Hermes to Pigasuspig
+sacrifice g3 at Blueberry; build g3 at Blueberry; build y1 at Persiphone; build y2 at Persiphone
+move r2 from Pigasuspig to Sol
+sacrifice r1 at Persiphone; capture r2 at Sol
+convert b3 to y3 at Pigasuspig
+move b3 from Ts52 to Rasberry (r1)
+build r1 at Pigasuspig
+move y1 from Persiphone to Sol

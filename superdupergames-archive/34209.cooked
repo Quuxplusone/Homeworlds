@@ -1,0 +1,43 @@
+Babamots (0, b2y1) g3-
+Felix (1, b1y2) -g3
+build g1 at Babamots
+build g1 at Felix
+convert g1 to b1 at Babamots
+convert g1 to y1 at Felix
+build b1 at Babamots
+build y1 at Felix
+move b1 from Babamots to Betazed (g3)
+move y1 from Felix to Out (b3)
+sacrifice g3 at Babamots; build b2 at Betazed; build b2 at Betazed; build b3 at Babamots
+sacrifice g3 at Felix; build y2 at Out; build y2 at Out; build y3 at Felix
+convert b3 to g3 at Babamots
+convert y3 to g3 at Felix
+build b3 at Babamots
+build y3 at Felix
+move b3 from Babamots to Galorndon (b3)
+move y1 from Out to Babamots
+convert b3 to y3 at Galorndon
+convert y3 to r3 at Felix
+convert b2 to r2 at Betazed
+move y2 from Out to Babamots
+sacrifice g3 at Babamots; build b2 at Betazed; build b3 at Babamots; build y3 at Galorndon
+move y1 from Felix to Grip (g3)
+convert b1 to r1 at Babamots
+build y3 at Grip
+move y3 from Galorndon to Cardassia (g2)
+build r1 at Felix
+capture y2 at Babamots
+sacrifice y2 at Out; move y1 from Grip to Babamots; move r3 from Felix to Betazed; catastrophe yellow at Babamots
+build r1 at Betazed
+build r2 at Felix
+build r2 at Betazed; catastrophe red at Betazed
+build g1 at Felix
+convert b2 to r2 at Betazed
+move r2 from Felix to Comfrey (b3)
+build b1 at Betazed
+convert r2 to b2 at Comfrey
+sacrifice y3 at Cardassia; move b3 from Babamots to Betazed; move b3 from Betazed to Felix; move y3 from Galorndon to Felix
+sacrifice g3 at Felix; build g1 at Felix; build g1 at Felix; build b3 at Comfrey
+convert b3 to g3 at Felix; catastrophe green at Felix
+sacrifice y3 at Grip; move b2 from Comfrey to Felix; move b3 from Comfrey to Felix
+sacrifice y3 at Felix; move b1 from Betazed to Felix; move r2 from Betazed to Felix; catastrophe blue at Felix

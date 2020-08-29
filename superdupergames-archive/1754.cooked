@@ -1,0 +1,20 @@
+Bennyb (0, b1g3) r3-
+Jesse (1, g1b2) -y3
+build r1 at Bennyb
+build y1 at Jesse
+convert r1 to y1 at Bennyb
+move y1 from Jesse to Paul (g3)
+move y1 from Bennyb to Dude (b2)
+build y1 at Jesse
+build r1 at Bennyb
+convert y1 to r1 at Jesse
+convert r1 to y1 at Bennyb
+build y2 at Jesse
+build r1 at Bennyb
+convert y2 to g2 at Jesse
+move y1 from Bennyb to Dude
+move g2 from Jesse to Erwin (y3)
+convert y1 to g1 at Dude
+build r1 at Jesse
+build y1 at Dude
+build y2 at Jesse

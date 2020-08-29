@@ -1,0 +1,35 @@
+Feidoi (0, b1g2) y3-
+Jlabrozzi (1, b3y2) -g3
+build y1 at Feidoi
+build g1 at Jlabrozzi
+build y1 at Feidoi
+build g1 at Jlabrozzi
+convert y1 to g1 at Feidoi
+convert g1 to r1 at Jlabrozzi
+build g1 at Feidoi
+build r1 at Jlabrozzi
+convert g1 to r1 at Feidoi
+convert g1 to y1 at Jlabrozzi
+build r2 at Feidoi
+build g1 at Jlabrozzi
+build r2 at Feidoi
+move y1 from Jlabrozzi to Egypt (b1)
+move r2 from Feidoi to Fool (g3)
+move g3 from Jlabrozzi to Egypt
+build r2 at Fool
+convert g3 to r3 at Egypt
+sacrifice y1 at Feidoi; move r2 from Fool to Istanbul (y1)
+move r1 from Jlabrozzi to Egypt
+move r2 from Istanbul to Jlabrozzi
+move r3 from Egypt to Jlabrozzi
+sacrifice g1 at Feidoi; build r3 at Jlabrozzi; catastrophe red at Jlabrozzi
+move r1 from Egypt to Jlabrozzi
+build y1 at Feidoi
+build r1 at Jlabrozzi
+sacrifice y1 at Feidoi; move r2 from Fool to Egypt
+build r2 at Jlabrozzi
+sacrifice y3 at Feidoi; move r1 from Feidoi to Fool2 (y3); move r1 from Fool2 to Egypt; move r1 from Egypt to Jlabrozzi; catastrophe red at Jlabrozzi
+build g1 at Jlabrozzi
+capture y1 at Egypt
+build g1 at Jlabrozzi
+move r2 from Egypt to Jlabrozzi

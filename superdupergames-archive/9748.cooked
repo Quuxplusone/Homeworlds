@@ -1,0 +1,55 @@
+Wyons (0, r1b2) g3-
+Antihero (1, y1b3) -g3
+build g1 at Wyons
+build g1 at Antihero
+convert g1 to y1 at Wyons
+build g1 at Antihero
+build g1 at Wyons
+move g1 from Antihero to Crater (y2)
+build g2 at Wyons
+build g2 at Crater
+sacrifice g2 at Wyons; build y1 at Wyons; build y2 at Wyons
+build g2 at Antihero
+move y2 from Wyons to Solsys (g3)
+convert g3 to y3 at Antihero
+sacrifice g3 at Wyons; build y2 at Solsys; build y3 at Wyons; build g2 at Wyons
+move g1 from Crater to Pha (y3)
+convert g1 to r1 at Wyons
+convert g1 to r1 at Antihero
+move r1 from Wyons to Solsys
+build r2 at Antihero
+build r2 at Solsys
+move r2 from Antihero to Crater
+move r2 from Solsys to Milkyway (g1)
+build g1 at Antihero
+build g3 at Wyons
+build g3 at Crater
+move y3 from Wyons to Solsys
+move g2 from Crater to Pha
+sacrifice g3 at Wyons; build r2 at Milkyway; build r3 at Solsys; build g3 at Wyons
+sacrifice g2 at Pha; build r3 at Antihero; build r3 at Crater
+sacrifice y2 at Solsys; move r1 from Solsys to Crater; move r2 from Milkyway to Crater; catastrophe red at Crater
+build g2 at Pha
+move g2 from Wyons to Andromclust (b3)
+move y3 from Antihero to Bb (b2)
+build y2 at Wyons
+convert g1 to b1 at Antihero
+move y3 from Solsys to Milkyway
+move b1 from Antihero to Crater
+move y1 from Wyons to Solsys
+sacrifice g1 at Pha; build b1 at Crater
+build g1 at Wyons
+build b1 at Crater
+sacrifice g3 at Wyons; build g1 at Andromclust; build g3 at Wyons; build r1 at Milkyway
+sacrifice g2 at Pha; build y3 at Bb; build g2 at Antihero
+sacrifice y2 at Wyons; move y1 from Solsys to Bb; move y2 from Solsys to Bb; catastrophe yellow at Bb
+move b1 from Crater to Aplace (y3)
+sacrifice g3 at Wyons; build g3 at Wyons; build y1 at Milkyway; build y2 at Wyons
+convert g2 to y2 at Antihero
+sacrifice g3 at Wyons; build g2 at Andromclust; build g3 at Wyons; build y3 at Wyons
+build b2 at Crater
+move y3 from Wyons to Aplace
+move y2 from Antihero to Rockin (r2)
+sacrifice r1 at Milkyway; capture b1 at Aplace
+move b1 from Crater to Aplace
+sacrifice g3 at Wyons; build r1 at Milkyway; build r2 at Solsys; build g3 at Wyons

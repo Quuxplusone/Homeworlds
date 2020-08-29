@@ -1,0 +1,61 @@
+Mandrel (0, b3y2) g3-
+Daselva (1, r1b2) -g3
+build g1 at Mandrel
+build g1 at Daselva
+convert g1 to r1 at Mandrel
+convert g1 to r1 at Daselva
+build r2 at Mandrel
+build r2 at Daselva
+build r2 at Mandrel
+convert r2 to y2 at Daselva
+convert r1 to y1 at Mandrel
+build y1 at Daselva
+move r2 from Mandrel to Relief (b1)
+build g1 at Daselva
+build g1 at Mandrel
+move y2 from Daselva to S1 (r3)
+move g1 from Mandrel to Relief
+move g1 from Daselva to S1
+build r1 at Mandrel
+sacrifice g3 at Daselva; build y1 at S1; build y2 at Daselva; build y3 at Daselva
+move y1 from Mandrel to Relief
+convert y3 to g3 at Daselva
+build y3 at Relief
+move y1 from S1 to Relief
+move y3 from Relief to S1
+move y2 from S1 to S2 (g1)
+capture g1 at S1
+move y1 from Relief to Mandrel
+capture y1 at Mandrel
+move y2 from S2 to Mandrel
+capture y2 at Mandrel
+move y1 from Daselva to S2 (g3)
+move y1 from Mandrel to Moment (g1)
+build y3 at S2
+build y3 at S1
+move y3 from S2 to Moment
+convert r1 to b1 at Mandrel
+sacrifice r1 at Daselva; capture y1 at Moment
+move y2 from Mandrel to Relief
+sacrifice y3 at Moment; move y1 from Moment to S1; move y1 from S2 to S3 (b2); move y1 from S3 to S1; catastrophe yellow at S1
+move y2 from Relief to Calypso (g3)
+build y1 at Daselva
+build y1 at Calypso
+move y2 from Daselva to S2 (r3)
+build y3 at Relief
+build y3 at Daselva
+move y3 from Relief to S2
+move y2 from S2 to S3 (r1)
+build y3 at Relief
+move y3 from Daselva to S4 (r3)
+convert y3 to b3 at Relief
+build y3 at Daselva
+move b3 from Relief to Calypso
+convert y1 to b1 at Daselva
+sacrifice y2 at Calypso; move b3 from Calypso to Daselva; move y3 from S2 to Daselva
+capture b3 at Daselva
+sacrifice r2 at Relief; capture g3 at Daselva; capture y3 at Daselva
+capture g3 at Daselva
+sacrifice r2 at Mandrel; capture b3 at Daselva; capture g3 at Daselva
+move y3 from S4 to Daselva
+capture y3 at Daselva

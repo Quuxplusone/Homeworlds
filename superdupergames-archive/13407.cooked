@@ -1,0 +1,32 @@
+Mouce (0, b1y2) g3-
+Zoltar (1, r1b3) -g3
+build g1 at Mouce
+build g1 at Zoltar
+move g1 from Mouce to Skitter (b3)
+convert g1 to y1 at Zoltar
+build g1 at Skitter
+build y1 at Zoltar
+build g1 at Mouce
+build g2 at Zoltar
+convert g1 to y1 at Skitter
+convert y1 to r1 at Zoltar
+build g1 at Skitter
+move g2 from Zoltar to Yippee (y2)
+move g1 from Skitter to Squeak (b2)
+move g2 from Yippee to Skitter
+build g2 at Skitter
+convert g2 to r2 at Skitter
+sacrifice g2 at Skitter; build g2 at Squeak; build g2 at Squeak
+capture g1 at Skitter
+convert g1 to y1 at Squeak
+capture y1 at Skitter
+sacrifice g2 at Squeak; build g1 at Squeak; build y2 at Squeak
+sacrifice g3 at Zoltar; build g2 at Skitter; build y2 at Skitter; build y3 at Zoltar
+convert g1 to r1 at Mouce
+move y2 from Skitter to Redrum (r2)
+convert g2 to r2 at Squeak
+sacrifice g2 at Skitter; build y3 at Skitter; build y3 at Redrum
+move y1 from Squeak to Zoltar
+sacrifice y2 at Redrum; move y1 from Zoltar to Greenbelt (g2); move y3 from Skitter to Squeak
+sacrifice y2 at Squeak; move r2 from Squeak to Zoltar; move g1 from Squeak to Zoltar
+sacrifice r1 at Zoltar; capture r2 at Zoltar

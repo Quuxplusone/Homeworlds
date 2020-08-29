@@ -1,0 +1,52 @@
+Fnord (0, y1b2) g3-
+Zoltar (1, r3b2) -g3
+build g1 at Fnord
+build g1 at Zoltar
+convert g1 to y1 at Fnord
+convert g3 to y3 at Zoltar
+build g1 at Fnord
+build g1 at Zoltar
+convert g1 to r1 at Fnord
+convert g1 to r1 at Zoltar
+build g1 at Fnord
+move r1 from Zoltar to Eggs (g1)
+convert g1 to b1 at Fnord
+build y1 at Zoltar
+build g1 at Fnord
+build g2 at Zoltar
+move g1 from Fnord to Kallisti (y3)
+convert g1 to b1 at Zoltar
+move y1 from Fnord to Eris (b3)
+build y2 at Zoltar
+build g1 at Fnord
+build g2 at Zoltar
+sacrifice g3 at Fnord; build g2 at Kallisti; build g3 at Fnord; build y2 at Eris
+move y2 from Zoltar to Blueberry (b1)
+move g1 from Fnord to Eris
+move g2 from Zoltar to Blueberry
+move g1 from Kallisti to Blueberry
+build g3 at Zoltar
+convert y2 to r2 at Eris
+sacrifice g2 at Zoltar; build g2 at Blueberry; build g3 at Zoltar
+move g2 from Kallisti to Sink (b2)
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b3 at Zoltar; build y2 at Blueberry
+build r1 at Eris
+move g2 from Blueberry to Boysenberry (b3)
+build r2 at Fnord
+sacrifice y2 at Blueberry; move y1 from Zoltar to Eggs; move b3 from Zoltar to Eggs
+move r2 from Eris to Blueberry
+sacrifice r1 at Eggs; capture r2 at Blueberry
+sacrifice g1 at Blueberry; build r1 at Eris
+sacrifice g3 at Zoltar; build g1 at Blueberry; build g3 at Zoltar; build r2 at Blueberry
+move r1 from Eris to Eggs
+move r2 from Blueberry to Eris
+build r3 at Eris
+sacrifice g3 at Zoltar; build g3 at Boysenberry; build r3 at Blueberry; build y2 at Eggs
+move r3 from Eris to Eggs
+sacrifice r3 at Blueberry; capture r3 at Eggs; capture r1 at Eggs; capture r1 at Eris
+sacrifice g2 at Sink; build y2 at Eris; build y3 at Eris
+sacrifice y3 at Zoltar; move r1 from Eris to Fnord; move r2 from Eris to Fnord; move g3 from Boysenberry to Fnord; catastrophe red at Fnord
+sacrifice y3 at Eris; move y2 from Eris to Fnord; move g1 from Eris to Fnord; move y1 from Eris to Fnord
+sacrifice r3 at Eggs; capture g3 at Fnord; capture y2 at Fnord; capture g1 at Fnord
+convert y1 to r1 at Fnord
+sacrifice r2 at Blueberry; capture r1 at Fnord; capture b1 at Fnord

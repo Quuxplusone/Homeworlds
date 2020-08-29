@@ -1,0 +1,27 @@
+Keith (0, b3y1) g3-
+Sordros (1, b1y2) -g3
+build g1 at Keith
+build g1 at Sordros
+convert g1 to y1 at Keith
+convert g1 to b1 at Sordros
+build y1 at Keith
+build b1 at Sordros
+move y1 from Keith to Midori (g2)
+move b1 from Sordros to Verdego (g3)
+build y2 at Keith
+build b2 at Verdego
+build y2 at Midori
+move b1 from Sordros to Flavega (y3)
+build y3 at Midori
+build g1 at Sordros
+convert y2 to b2 at Keith
+convert b2 to y2 at Verdego
+move y1 from Midori to Verdego
+build b2 at Verdego
+build y3 at Keith
+convert b1 to r1 at Verdego
+sacrifice y1 at Keith; move y2 from Midori to Verdego
+capture y2 at Verdego
+build y1 at Verdego; catastrophe yellow at Verdego
+build g1 at Sordros
+sacrifice y3 at Midori; move g3 from Keith to Midworld (g2); move g3 from Midworld to Flavega; move g3 from Flavega to Sordros; catastrophe green at Sordros

@@ -1,0 +1,53 @@
+Wil (0, y2b1) g3-
+Eliscinsky (1, r1b3) -g3
+build g1 at Wil
+build g1 at Eliscinsky
+convert g1 to b1 at Wil
+convert g1 to y1 at Eliscinsky
+build b1 at Wil
+build g1 at Eliscinsky
+move b1 from Wil to G3 (g3)
+move g1 from Eliscinsky to Rigel (b2)
+sacrifice g3 at Wil; build b2 at G3; build b2 at G3; build b3 at Wil
+build g1 at Rigel
+sacrifice b2 at G3; convert b2 to y2 at G3; convert b3 to g3 at Wil
+convert g1 to r1 at Rigel
+sacrifice g3 at Wil; build b2 at G3; build b2 at G3; build b3 at Wil
+build g1 at Rigel
+sacrifice b2 at G3; convert b2 to r2 at G3; convert b3 to g3 at Wil
+convert g1 to y1 at Rigel
+sacrifice g3 at Wil; build b2 at G3; build b2 at G3; build b3 at Wil
+move y1 from Rigel to Orion (g3)
+move b2 from G3 to Rigel
+build g1 at Rigel
+build b3 at G3
+build y1 at Orion
+sacrifice b2 at G3; convert b3 to y3 at G3; convert b3 to y3 at Wil
+build y2 at Eliscinsky
+sacrifice r2 at G3; capture r1 at Rigel; capture g1 at Rigel
+sacrifice y2 at Eliscinsky; move y1 from Orion to Wil; move y1 from Orion to Wil; catastrophe yellow at Wil
+build b2 at Rigel
+sacrifice y1 at Eliscinsky; move g1 from Rigel to Wil
+sacrifice r1 at Rigel; capture g1 at Wil
+build g1 at Eliscinsky
+build g2 at Rigel
+convert g1 to y1 at Eliscinsky
+build b3 at G3
+build y1 at Eliscinsky
+build b3 at G3
+move y1 from Eliscinsky to Rigel
+sacrifice b2 at Rigel; convert b3 to g3 at G3; convert b3 to r3 at G3
+build y1 at Eliscinsky
+sacrifice g3 at G3; build b2 at G3; build b3 at G3; build b3 at Rigel
+convert y1 to r1 at Rigel
+sacrifice b2 at G3; convert b2 to r2 at Rigel; convert b3 to g3 at G3
+capture g1 at Rigel
+capture r1 at Rigel
+build g1 at Rigel
+sacrifice r2 at Rigel; capture g1 at Rigel; capture g1 at Rigel
+convert y1 to r1 at Eliscinsky
+sacrifice y3 at G3; move g1 from Rigel to Eliscinsky; move g1 from Rigel to Eliscinsky; move g2 from Rigel to Eliscinsky; catastrophe green at Eliscinsky
+convert r1 to g1 at Eliscinsky
+sacrifice y2 at G3; move g3 from G3 to Rigel; move g3 from Rigel to Eliscinsky
+build g1 at Eliscinsky
+sacrifice r3 at G3; capture g1 at Eliscinsky; capture g1 at Eliscinsky; capture y1 at Eliscinsky

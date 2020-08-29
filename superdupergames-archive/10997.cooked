@@ -1,0 +1,13 @@
+Horowits (0, b3g2) y3-
+Fnord (1, b2g1) -y3
+build y1 at Horowits
+build y1 at Fnord
+convert y1 to g1 at Horowits
+move y1 from Fnord to Discord (r3)
+move g1 from Horowits to Doom (b1)
+build y1 at Fnord
+build y1 at Horowits
+move y1 from Fnord to Kallisti (b3)
+move y1 from Horowits to Doom
+build y2 at Fnord
+build y2 at Doom

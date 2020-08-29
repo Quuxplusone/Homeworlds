@@ -1,0 +1,22 @@
+Analogkid (0, b1y2) g3-
+Babamots (1, g3b1) -b3
+build g1 at Analogkid
+build b1 at Babamots
+build g1 at Analogkid
+convert b3 to y3 at Babamots
+convert g3 to b3 at Analogkid
+build b2 at Babamots
+move g1 from Analogkid to Alcyone (b3)
+move b1 from Babamots to Risa (g2)
+build g1 at Alcyone
+build b2 at Risa
+move b3 from Analogkid to Sigmaoctantis (y3)
+sacrifice y3 at Babamots; move b1 from Risa to Iconia (y3); move b2 from Risa to Iconia; move b2 from Iconia to Analogkid
+convert b3 to r3 at Sigmaoctantis
+convert b2 to r2 at Analogkid
+move r3 from Sigmaoctantis to Analogkid
+move r2 from Analogkid to Risa (y3)
+build g2 at Analogkid
+build b2 at Babamots
+build g2 at Analogkid
+convert b2 to g2 at Babamots

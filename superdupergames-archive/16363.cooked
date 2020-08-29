@@ -1,0 +1,14 @@
+Rootbier (0, b1y3) g3-
+Jesse (1, g2b1) -b3
+build g1 at Rootbier
+build b1 at Jesse
+build g1 at Rootbier
+convert b3 to y3 at Jesse
+move g1 from Rootbier to Procra (y2)
+build b2 at Jesse
+build g1 at Procra
+move b2 from Jesse to Canada (g3)
+move g1 from Procra to Stinat (b3)
+build b2 at Canada
+sacrifice g3 at Rootbier; build g2 at Procra; build g2 at Stinat; build g3 at Rootbier
+build b2 at Jesse

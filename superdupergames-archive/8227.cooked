@@ -1,0 +1,79 @@
+Zoltar (0, r2b3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Zoltar
+build g1 at Ts52
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Ts52
+build y2 at Zoltar
+move y1 from Ts52 to Kermit (g3)
+convert y1 to r1 at Zoltar
+build g1 at Ts52
+build g1 at Zoltar
+convert g1 to r1 at Ts52
+convert g1 to b1 at Zoltar
+build g1 at Ts52
+build b1 at Zoltar
+convert g1 to b1 at Ts52
+move b1 from Zoltar to Greenpea (g1)
+move b1 from Ts52 to Kermit
+build b2 at Greenpea
+build b2 at Kermit
+build b3 at Zoltar
+convert b2 to y2 at Kermit
+sacrifice b1 at Zoltar; convert b2 to y2 at Greenpea
+build g1 at Ts52
+move r1 from Zoltar to Greenpea
+move y1 from Kermit to Wikket (g2)
+build g1 at Zoltar
+build g2 at Ts52
+move b3 from Zoltar to Redwarf (r1)
+build r2 at Ts52
+convert b3 to y3 at Redwarf
+move g2 from Ts52 to Bigstar (y3)
+sacrifice g3 at Zoltar; build y1 at Greenpea; build y3 at Zoltar; build r2 at Greenpea
+move r1 from Ts52 to Kermit
+move y3 from Redwarf to Kermit
+sacrifice y2 at Kermit; move b1 from Kermit to Wikket; move r1 from Kermit to Wikket
+move y3 from Kermit to Wikket
+sacrifice g3 at Ts52; build g2 at Bigstar; build g3 at Ts52; build g3 at Bigstar
+sacrifice y2 at Greenpea; move g1 from Zoltar to Greenpea; move g1 from Greenpea to Bigstar; catastrophe green at Bigstar
+build y2 at Wikket
+sacrifice b1 at Greenpea; convert y3 to g3 at Wikket
+move y2 from Wikket to Dot (b1)
+sacrifice r2 at Greenpea; capture r1 at Wikket; capture y1 at Wikket
+sacrifice g1 at Ts52; build y2 at Dot
+convert y3 to g3 at Zoltar
+build g1 at Ts52
+sacrifice g3 at Wikket; build y3 at Wikket; build y3 at Greenpea; build y3 at Zoltar
+move g1 from Ts52 to Easygreen (g3)
+convert y3 to r3 at Zoltar
+move y2 from Dot to Easygreen
+build y3 at Zoltar
+move g1 from Easygreen to Dot
+move r3 from Zoltar to Dot
+sacrifice y2 at Dot; move g1 from Dot to Easygreen
+build y2 at Zoltar
+build g1 at Ts52
+capture b1 at Wikket
+move g1 from Ts52 to Saphire (b3)
+build g2 at Zoltar
+build g2 at Ts52
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b1 at Wikket; build b2 at Wikket
+convert g2 to b2 at Ts52
+move b1 from Wikket to Attackoutpost (r3)
+move b2 from Ts52 to Easygreen
+sacrifice g2 at Zoltar; build g2 at Zoltar; build b3 at Attackoutpost
+move g1 from Easygreen to Lasthope (r1)
+move y3 from Wikket to Saphire
+build g2 at Lasthope
+sacrifice g2 at Zoltar; build r2 at Greenpea; build r3 at Wikket
+move y2 from Easygreen to Lasthope
+move y3 from Zoltar to Lasthope
+sacrifice y2 at Lasthope; move g1 from Lasthope to Zoltar; move g2 from Lasthope to Zoltar
+sacrifice r2 at Greenpea; capture g1 at Zoltar; capture g2 at Zoltar
+build g2 at Ts52
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Saphire; build r2 at Greenpea
+sacrifice g1 at Saphire; build g1 at Ts52
+sacrifice y2 at Zoltar; move b2 from Wikket to Easygreen; move y1 from Greenpea to Easygreen
+sacrifice r2 at Ts52; capture b2 at Easygreen; capture y1 at Easygreen
+sacrifice y3 at Lasthope; move g1 from Zoltar to Dot; move g1 from Dot to Saphire; move g1 from Saphire to Ts52; catastrophe green at Ts52

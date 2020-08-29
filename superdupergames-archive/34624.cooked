@@ -1,0 +1,37 @@
+Goulo (0, r3b2) g3-
+Deanthebean (1, y1b2) -g3
+build g1 at Goulo
+build g1 at Deanthebean
+convert g1 to y1 at Goulo
+build g1 at Deanthebean
+build y1 at Goulo
+convert g1 to r1 at Deanthebean
+build y2 at Goulo
+build r1 at Deanthebean
+move y1 from Goulo to Verdeto (g1)
+convert g3 to y3 at Deanthebean
+build y2 at Verdeto
+move y3 from Deanthebean to Johnthescone (g3)
+build y2 at Verdeto
+build y3 at Johnthescone
+sacrifice y2 at Verdeto; move y2 from Verdeto to Johnthescone; move y1 from Verdeto to Johnthescone; catastrophe yellow at Johnthescone
+convert r1 to y1 at Deanthebean
+convert y1 to r1 at Goulo
+build g1 at Deanthebean
+move y2 from Goulo to Verdeto (g1)
+build g2 at Deanthebean
+build g2 at Goulo
+move g1 from Deanthebean to Andythecandy (g3)
+convert g2 to y2 at Goulo
+build g2 at Andythecandy
+move y2 from Verdeto to Verdego (g3)
+convert g1 to b1 at Deanthebean
+build y1 at Verdego
+move y1 from Deanthebean to Andythecandy
+sacrifice g3 at Goulo; build y2 at Goulo; build y3 at Goulo; build y3 at Verdego
+build y3 at Andythecandy
+sacrifice y2 at Goulo; move y3 from Verdego to Deanthebean; move y1 from Verdego to Flavo (y2)
+sacrifice g2 at Deanthebean; build r1 at Deanthebean; build b1 at Deanthebean
+convert y3 to b3 at Deanthebean; catastrophe blue at Deanthebean
+build y3 at Andythecandy
+sacrifice y3 at Goulo; move y1 from Flavo to Deanthebean; move y2 from Goulo to Deanthebean; move y2 from Verdego to Deanthebean; catastrophe yellow at Deanthebean

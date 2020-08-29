@@ -1,0 +1,65 @@
+Magicjohn (0, y1g2) b3-
+Ringebri (1, g1b2) -y3
+build b1 at Magicjohn
+build y1 at Ringebri
+build b1 at Magicjohn
+build y1 at Ringebri
+build b1 at Magicjohn
+build y2 at Ringebri
+convert b1 to g1 at Magicjohn
+build y2 at Ringebri
+build g1 at Magicjohn
+convert y2 to b2 at Ringebri
+build g2 at Magicjohn
+build b1 at Ringebri
+move g1 from Magicjohn to Patches1 (r3)
+move y2 from Ringebri to Buffy1 (g3)
+build g2 at Patches1
+build y2 at Buffy1
+build g3 at Patches1
+build y2 at Buffy1
+move b1 from Magicjohn to Patches1
+build y3 at Ringebri
+convert g1 to r1 at Patches1; catastrophe yellow at Ringebri
+convert b1 to y1 at Ringebri
+convert g1 to y1 at Magicjohn
+build y3 at Ringebri
+move y1 from Magicjohn to Buffy1; catastrophe yellow at Buffy1
+convert b2 to r2 at Ringebri
+convert g3 to r3 at Patches1
+move r2 from Ringebri to Patches1
+capture r2 at Patches1
+convert y3 to r3 at Ringebri; catastrophe red at Patches1
+build g1 at Magicjohn
+convert y1 to g1 at Ringebri
+move g1 from Magicjohn to Patches2 (b3)
+build g2 at Ringebri
+convert g2 to y2 at Magicjohn
+build r1 at Ringebri
+move y2 from Magicjohn to Patches2
+convert g2 to y2 at Ringebri
+convert b3 to r3 at Magicjohn
+move y2 from Ringebri to Buffy2 (y3)
+convert y2 to r2 at Patches2
+convert r3 to y3 at Ringebri
+move r3 from Magicjohn to Buffy2
+build g2 at Ringebri
+capture y2 at Buffy2
+build r1 at Ringebri
+build b1 at Magicjohn
+build y1 at Ringebri
+convert b1 to y1 at Magicjohn
+move g1 from Ringebri to Buffy2
+capture g1 at Buffy2
+convert g2 to r2 at Ringebri
+build r1 at Buffy2
+move r2 from Ringebri to Patches2
+capture r2 at Patches2
+build y2 at Ringebri
+move y2 from Buffy2 to Ringebri; catastrophe yellow at Ringebri
+convert r1 to y1 at Ringebri
+move r3 from Buffy2 to Ringebri
+build r1 at Ringebri
+capture y1 at Ringebri
+build r2 at Ringebri
+build r3 at Buffy2; catastrophe red at Ringebri

@@ -1,0 +1,34 @@
+Dlwillson (0, y2b3) g3-
+Felix (1, b1r1) -g3
+build g1 at Dlwillson
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to y1 at Felix
+move g1 from Dlwillson to Sea (b1)
+build y1 at Felix
+convert g1 to r1 at Dlwillson
+build y1 at Felix
+build g1 at Dlwillson
+move y1 from Felix to Graves (g2)
+move g1 from Dlwillson to Field (g1)
+move y1 from Felix to Yards (g3)
+build g2 at Sea
+build g2 at Felix
+convert g2 to y2 at Sea
+sacrifice g3 at Felix; build y2 at Graves; build y3 at Yards; build y3 at Felix
+build y3 at Sea
+sacrifice y2 at Graves; move y1 from Graves to Sea; move y1 from Yards to Sea; catastrophe yellow at Sea
+build g2 at Dlwillson
+build g2 at Felix
+convert g2 to y2 at Dlwillson
+sacrifice y3 at Yards; move g2 from Felix to Dlwillson; move g2 from Felix to Dlwillson; move y1 from Felix to Dlwillson
+sacrifice g3 at Dlwillson; build g2 at Sea; build g3 at Sea; build r1 at Dlwillson
+build y1 at Dlwillson; catastrophe yellow at Dlwillson
+convert g3 to y3 at Sea
+convert g2 to b2 at Dlwillson
+sacrifice y3 at Sea; move g1 from Field to Dlwillson; move g1 from Sea to Dlwillson; move g2 from Sea to Dlwillson; catastrophe green at Dlwillson
+convert b2 to r2 at Dlwillson
+convert r1 to g1 at Dlwillson
+capture r1 at Dlwillson
+build g1 at Dlwillson
+sacrifice r2 at Dlwillson; capture g1 at Dlwillson; capture g1 at Dlwillson

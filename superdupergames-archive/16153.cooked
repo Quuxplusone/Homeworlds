@@ -1,0 +1,74 @@
+Radio414 (0, b2r1) g3-
+Dlwillson (1, b3y2) -g3
+build g1 at Radio414
+build g1 at Dlwillson
+convert g1 to y1 at Radio414
+build g1 at Dlwillson
+build y1 at Radio414
+move g1 from Dlwillson to Funkytown (b1)
+convert y1 to b1 at Radio414
+convert g1 to y1 at Dlwillson
+move b1 from Radio414 to Lonelystreet (g3)
+build g1 at Dlwillson
+build b1 at Lonelystreet
+convert g1 to r1 at Dlwillson
+build b2 at Lonelystreet
+build g1 at Dlwillson
+convert b2 to r2 at Lonelystreet
+build g1 at Dlwillson
+build b2 at Lonelystreet
+build g2 at Funkytown
+build g2 at Radio414
+convert g2 to b2 at Funkytown
+convert b1 to y1 at Lonelystreet
+move y1 from Dlwillson to Funkytown
+move g2 from Radio414 to Lonelystreet
+move g1 from Dlwillson to Electric_Avenue (b1)
+build y2 at Radio414
+move b2 from Funkytown to Detroit (g2)
+move r2 from Lonelystreet to Funkytown
+sacrifice y1 at Funkytown; move g1 from Funkytown to Heartbrk_Hotel (b3)
+build g2 at Radio414
+build b3 at Detroit
+sacrifice y2 at Radio414; move b1 from Lonelystreet to Detroit; move b2 from Lonelystreet to Detroit; catastrophe blue at Detroit
+sacrifice g3 at Dlwillson; build g2 at Heartbrk_Hotel; build g3 at Dlwillson; build r1 at Dlwillson
+convert g2 to r2 at Radio414
+move r1 from Dlwillson to Electric_Avenue
+build g2 at Radio414
+convert g2 to y2 at Heartbrk_Hotel
+move g2 from Lonelystreet to Funkytown
+build g2 at Electric_Avenue
+convert r2 to y2 at Radio414
+convert g1 to y1 at Electric_Avenue
+build y3 at Lonelystreet
+sacrifice g3 at Dlwillson; build g1 at Heartbrk_Hotel; build g3 at Dlwillson; build y3 at Electric_Avenue
+convert y2 to r2 at Radio414
+sacrifice y3 at Electric_Avenue; move g1 from Heartbrk_Hotel to Radio414; move g1 from Heartbrk_Hotel to Radio414; move r1 from Electric_Avenue to Heartbrk_Hotel; catastrophe green at Radio414
+move y3 from Lonelystreet to Radio414
+sacrifice g3 at Dlwillson; build y2 at Heartbrk_Hotel; build r2 at Heartbrk_Hotel; build r3 at Dlwillson
+convert r2 to g2 at Radio414
+build y3 at Electric_Avenue
+build y3 at Lonelystreet
+sacrifice y3 at Electric_Avenue; move y2 from Heartbrk_Hotel to Radio414; move r2 from Heartbrk_Hotel to Radio414; move g2 from Electric_Avenue to Heartbrk_Hotel
+sacrifice r2 at Funkytown; capture r2 at Radio414; capture y2 at Radio414
+move y2 from Heartbrk_Hotel to Radio414; catastrophe yellow at Radio414
+move y3 from Lonelystreet to Radio414
+move r1 from Dlwillson to Electric_Avenue
+build g1 at Funkytown
+build g1 at Heartbrk_Hotel
+build g3 at Radio414
+build g3 at Dlwillson
+build y1 at Radio414
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build y2 at Electric_Avenue; build r2 at Heartbrk_Hotel
+convert r2 to b2 at Radio414
+sacrifice y2 at Electric_Avenue; move r1 from Heartbrk_Hotel to Radio414; move r2 from Heartbrk_Hotel to Radio414
+build y2 at Lonelystreet
+sacrifice g3 at Dlwillson; build r2 at Radio414; build r2 at Electric_Avenue; build r3 at Dlwillson; catastrophe red at Radio414
+convert y1 to r1 at Radio414
+sacrifice g2 at Heartbrk_Hotel; build g2 at Dlwillson; build g3 at Heartbrk_Hotel
+sacrifice y2 at Lonelystreet; move g2 from Funkytown to Heartbrk_Hotel; move g1 from Funkytown to Heartbrk_Hotel; catastrophe green at Heartbrk_Hotel
+convert r2 to b2 at Electric_Avenue
+build y1 at Lonelystreet
+convert r3 to y3 at Dlwillson
+move g3 from Radio414 to Electric_Avenue
+sacrifice y3 at Dlwillson; move r1 from Electric_Avenue to Radio414; move b2 from Electric_Avenue to Radio414; move y1 from Electric_Avenue to Radio414

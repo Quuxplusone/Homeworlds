@@ -1,0 +1,55 @@
+Dlwillson (0, b2y3) g3-
+Dodobirb (1, b1r2) -g3
+build g1 at Dlwillson
+build g1 at Dodobirb
+convert g1 to b1 at Dlwillson
+convert g1 to b1 at Dodobirb
+build b2 at Dlwillson
+build b2 at Dodobirb
+move b1 from Dlwillson to Field (g1)
+convert b1 to y1 at Dodobirb
+build g1 at Dlwillson
+build g1 at Dodobirb
+sacrifice g3 at Dlwillson; build b1 at Field; build b3 at Field; build b3 at Dlwillson
+build b3 at Dodobirb
+sacrifice b2 at Dlwillson; convert b3 to g3 at Dlwillson; convert b3 to y3 at Field
+move b3 from Dodobirb to Green (g3)
+move b1 from Field to Green
+convert b2 to r2 at Dodobirb
+convert g1 to r1 at Dlwillson
+convert b3 to y3 at Green
+build b2 at Field
+build y1 at Green
+convert b1 to y1 at Green
+move y3 from Green to Littlegreen (g1)
+convert b2 to g2 at Field
+build y2 at Littlegreen
+build y2 at Field
+build y2 at Dodobirb
+convert y3 to r3 at Field
+move g1 from Dodobirb to Sun (y3)
+move g2 from Field to Sun
+sacrifice g1 at Sun; build g1 at Dodobirb
+build g2 at Sun
+move g1 from Dodobirb to Deeperblue (b3)
+sacrifice g2 at Sun; build b1 at Field; build g2 at Dlwillson
+build g2 at Deeperblue
+sacrifice g3 at Dlwillson; build r1 at Dlwillson; build b2 at Field; build g3 at Dlwillson
+convert g2 to b2 at Deeperblue
+sacrifice r1 at Dlwillson; capture y1 at Green
+move y1 from Dodobirb to Ocean (b3)
+sacrifice y2 at Field; move y1 from Green to Littlegreen; move y1 from Green to Littlegreen; catastrophe yellow at Littlegreen
+sacrifice y1 at Ocean; move b2 from Deeperblue to Grass (g1)
+sacrifice g3 at Dlwillson; build g2 at Sun; build g3 at Sun; build g3 at Dlwillson
+build b3 at Grass
+sacrifice b2 at Field; convert g3 to b3 at Sun; convert g2 to r2 at Sun
+convert y2 to b2 at Dodobirb
+sacrifice g3 at Dlwillson; build g2 at Sun; build g3 at Sun; build g3 at Dlwillson
+convert b2 to y2 at Grass
+sacrifice g3 at Dlwillson; build r1 at Field; build r1 at Sun; build g3 at Dlwillson
+build b2 at Grass
+convert g3 to y3 at Sun
+convert b2 to y2 at Dodobirb
+sacrifice y3 at Sun; move r2 from Sun to Dodobirb; move r1 from Sun to Dodobirb; move b3 from Sun to Dodobirb; catastrophe red at Dodobirb
+convert b3 to r3 at Grass
+sacrifice r3 at Field; capture g3 at Dodobirb; capture y2 at Dodobirb

@@ -1,0 +1,142 @@
+Cdrodeffer (0, b1g2) y3-
+Benedict (1, g2b3) -y3
+build y1 at Cdrodeffer
+build y1 at Benedict
+convert y1 to r1 at Cdrodeffer
+convert y1 to r1 at Benedict
+build y1 at Cdrodeffer
+build y1 at Benedict
+convert y1 to b1 at Cdrodeffer
+convert y1 to g1 at Benedict
+build y1 at Cdrodeffer
+build g1 at Benedict
+build y1 at Cdrodeffer
+move g1 from Benedict to Barony (y1)
+move y1 from Cdrodeffer to Phlegm (g3)
+build y2 at Benedict
+build y2 at Phlegm
+move y2 from Benedict to Barony
+move y1 from Phlegm to Barony
+sacrifice r1 at Benedict; capture y1 at Barony
+move y2 from Phlegm to Barony; catastrophe yellow at Barony
+build y1 at Benedict
+convert y1 to g1 at Cdrodeffer
+convert y1 to r1 at Benedict
+build y1 at Cdrodeffer
+build y1 at Benedict
+move y1 from Cdrodeffer to Marble (b3)
+build g1 at Benedict
+build b1 at Cdrodeffer
+move g1 from Benedict to Carpe_Diem (y1)
+build y2 at Cdrodeffer
+move y1 from Benedict to Nosebleed (r1)
+move y2 from Cdrodeffer to Marble
+build r2 at Benedict
+build r2 at Cdrodeffer
+convert r2 to b2 at Benedict
+sacrifice y2 at Marble; move b1 from Cdrodeffer to Marble; move r2 from Cdrodeffer to Marble
+build y2 at Benedict
+build y2 at Cdrodeffer
+move b2 from Benedict to Carpe_Diem
+move g1 from Cdrodeffer to Marble
+build b2 at Carpe_Diem
+move b1 from Marble to Dangersense (g2)
+build g3 at Carpe_Diem
+build g3 at Marble
+sacrifice g1 at Benedict; build y2 at Nosebleed
+move y1 from Marble to Dangersense
+move g3 from Carpe_Diem to Barony (y3)
+move y2 from Cdrodeffer to Marble
+build r2 at Benedict
+move g3 from Marble to Nosebleed
+sacrifice y1 at Nosebleed; move y2 from Nosebleed to Dangersense
+sacrifice y1 at Dangersense; move g3 from Nosebleed to Dangersense
+sacrifice y2 at Dangersense; move b2 from Carpe_Diem to Barony; move b2 from Carpe_Diem to Barony
+sacrifice y2 at Marble; move b1 from Cdrodeffer to Barony; move g3 from Dangersense to Carpe_Diem
+convert b2 to r2 at Barony
+move b1 from Barony to Carpe_Diem
+move g1 from Carpe_Diem to Barony
+build b2 at Dangersense
+build b2 at Barony
+convert b1 to y1 at Dangersense
+build y1 at Benedict
+build y2 at Dangersense
+move y1 from Benedict to Hegemony (b1)
+move y2 from Dangersense to Hegemony
+move y1 from Hegemony to Barony
+build y2 at Dangersense
+move g3 from Barony to Hegemony
+move y2 from Hegemony to Benedict
+move y2 from Benedict to Hegemony
+move y2 from Benedict to Nosebleed (r1)
+build r3 at Barony
+build r3 at Marble
+move r3 from Barony to Dangersense
+sacrifice y2 at Dangersense; move y1 from Dangersense to Barony; move y2 from Nosebleed to Barony; catastrophe yellow at Barony
+capture b2 at Dangersense
+build g1 at Carpe_Diem
+convert r3 to g3 at Dangersense
+sacrifice g3 at Carpe_Diem; build g1 at Marble; build g3 at Carpe_Diem; build y1 at Cdrodeffer
+build y1 at Hegemony
+move y1 from Cdrodeffer to Marble
+convert g3 to y3 at Dangersense
+sacrifice g3 at Carpe_Diem; build g3 at Carpe_Diem; build b2 at Carpe_Diem; build y2 at Cdrodeffer
+build y2 at Dangersense
+sacrifice y2 at Cdrodeffer; move r3 from Marble to Cdrodeffer; move g1 from Marble to Cdrodeffer
+build y2 at Benedict
+sacrifice g3 at Carpe_Diem; build g3 at Carpe_Diem; build g3 at Marble; build r1 at Marble
+move r1 from Benedict to Hegemony
+move r1 from Marble to Carpe_Diem
+move y2 from Dangersense to Julius (r3)
+sacrifice g3 at Carpe_Diem; build g3 at Carpe_Diem; build r2 at Marble; build r3 at Carpe_Diem
+sacrifice y2 at Benedict; move y1 from Hegemony to Julius; move y2 from Hegemony to Julius
+move y3 from Cdrodeffer to Neptune (b3)
+sacrifice y3 at Dangersense; move y1 from Julius to Carpe_Diem; move y2 from Julius to Carpe_Diem; move y2 from Julius to Carpe_Diem; catastrophe yellow at Carpe_Diem
+move y3 from Neptune to Dangersense
+build y1 at Benedict
+move r2 from Marble to Dangersense
+move y1 from Benedict to Hegemony
+capture b2 at Dangersense
+build g1 at Hegemony
+sacrifice g3 at Marble; build g3 at Marble; build y1 at Dangersense; build y2 at Marble
+sacrifice g3 at Hegemony; build g3 at Hegemony; build y2 at Hegemony; build r1 at Hegemony
+move g1 from Marble to Royal (b1)
+move y2 from Hegemony to Outpost (r3)
+sacrifice g3 at Marble; build g3 at Royal; build b2 at Dangersense; build b2 at Dangersense
+move g1 from Hegemony to Outpost
+sacrifice y3 at Dangersense; move b2 from Dangersense to Hegemony; move b2 from Dangersense to Hegemony; move b2 from Dangersense to Hegemony; catastrophe blue at Hegemony
+build g3 at Outpost
+convert g1 to y1 at Cdrodeffer
+move g1 from Outpost to Avalon (y2)
+build y3 at Cdrodeffer
+build y3 at Outpost
+move y3 from Cdrodeffer to Dotdotdot (g3)
+move g3 from Outpost to Avalon
+sacrifice y1 at Marble; move g1 from Royal to Marble
+build r1 at Benedict
+sacrifice y2 at Marble; move y1 from Cdrodeffer to Outpost; move y1 from Dangersense to Outpost; catastrophe yellow at Outpost
+move r1 from Benedict to Smallville (y1)
+move y3 from Dotdotdot to Smallville
+move r1 from Smallville to Avalon
+build g1 at Marble
+move g1 from Avalon to Wessex (y3)
+convert g1 to y1 at Marble
+build g1 at Avalon
+build g3 at Marble
+sacrifice g3 at Avalon; build r1 at Benedict; build r3 at Avalon; build g3 at Wessex
+sacrifice g3 at Marble; build g3 at Marble; build r3 at Dangersense; build y1 at Marble
+build y2 at Benedict
+move y1 from Marble to Royal
+move y2 from Benedict to Blueberry (b1)
+build y2 at Royal
+convert r2 to b2 at Benedict
+convert r2 to b2 at Marble
+move b2 from Benedict to Blueberry
+move y1 from Royal to Dangersense
+move b2 from Blueberry to Avalon
+move r2 from Dangersense to Smallville
+sacrifice g3 at Wessex; build g3 at Wessex; build r2 at Benedict; build b2 at Avalon
+move b2 from Marble to Smallville
+sacrifice y2 at Blueberry; move r3 from Avalon to Wessex; move r3 from Wessex to Cdrodeffer
+capture r3 at Cdrodeffer
+sacrifice y3 at Benedict; move r1 from Avalon to Wessex; move r1 from Wessex to Cdrodeffer; catastrophe red at Cdrodeffer

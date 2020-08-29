@@ -1,0 +1,36 @@
+Andylooney (0, r1b3) g3-
+Randrews (1, r1b2) -g3
+build g1 at Andylooney
+build g1 at Randrews
+convert g3 to y3 at Andylooney
+convert g3 to y3 at Randrews
+build y1 at Andylooney
+move g1 from Randrews to Gardner (y3)
+move y1 from Andylooney to Lime (g2)
+convert y3 to g3 at Randrews
+build y1 at Lime
+build g1 at Randrews
+build g2 at Andylooney
+build g2 at Gardner
+build g3 at Andylooney
+move g1 from Gardner to Lime
+convert g1 to r1 at Andylooney
+convert g1 to y1 at Randrews
+sacrifice r1 at Andylooney; capture g1 at Lime
+build y2 at Randrews
+build y2 at Andylooney
+build g1 at Randrews
+move g1 from Lime to Lemon (y3)
+move g1 from Randrews to Slinky (b3)
+build y2 at Andylooney
+sacrifice g3 at Randrews; build g1 at Slinky; build g3 at Slinky; build g3 at Gardner
+sacrifice y2 at Andylooney; move g1 from Lemon to Lime; move g1 from Lime to Slinky; catastrophe green at Slinky
+move g3 from Gardner to Randrews
+move y1 from Lime to Shamrock (g3)
+convert y2 to r2 at Randrews
+convert y2 to r2 at Andylooney
+move r2 from Randrews to Shamrock
+move y1 from Shamrock to Bean (g1)
+build y2 at Randrews
+build y2 at Lime
+sacrifice y1 at Randrews; move r2 from Shamrock to Bean

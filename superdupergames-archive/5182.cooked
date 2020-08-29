@@ -1,0 +1,51 @@
+Laurie_Menke (0, y2b1) g3-
+Subhan64 (1, b2y1) -g3
+build g1 at Laurie_Menke
+build g1 at Subhan64
+move g1 from Laurie_Menke to Luella (y3)
+convert g1 to r1 at Subhan64
+build g1 at Luella
+build r1 at Subhan64
+move g1 from Luella to Laurie_Menke
+move r1 from Subhan64 to Luella
+move g1 from Luella to Sharon (y2)
+move r1 from Luella to Sharon
+move g1 from Sharon to Mars (r3)
+build g1 at Subhan64
+convert g1 to b1 at Laurie_Menke
+move g1 from Subhan64 to Omicronpersei8 (y3)
+build g1 at Mars
+build g2 at Subhan64
+build g2 at Laurie_Menke
+sacrifice g3 at Subhan64; build g2 at Subhan64; build r1 at Subhan64; build r2 at Subhan64
+convert g2 to y2 at Laurie_Menke
+move g2 from Subhan64 to Omicronpersei8
+sacrifice y2 at Laurie_Menke; move g3 from Laurie_Menke to Mars; move g3 from Mars to Subhan64
+convert g2 to y2 at Subhan64
+build g2 at Subhan64
+sacrifice y2 at Subhan64; move g2 from Omicronpersei8 to Subhan64; move g1 from Omicronpersei8 to Subhan64; catastrophe green at Subhan64
+convert b1 to g1 at Laurie_Menke
+move r2 from Subhan64 to Mars
+build g2 at Laurie_Menke
+capture g1 at Mars
+convert g2 to r2 at Laurie_Menke
+convert r1 to y1 at Subhan64
+capture g1 at Mars
+capture g1 at Mars
+build g2 at Laurie_Menke
+capture g1 at Mars
+move g1 from Laurie_Menke to Luella (y3)
+move y1 from Subhan64 to Mars
+sacrifice g2 at Laurie_Menke; build g2 at Luella; build g2 at Luella
+move r2 from Mars to Sharon
+move g2 from Luella to Laurie_Menke
+move r2 from Sharon to Luella
+sacrifice g2 at Luella; build r1 at Laurie_Menke; build g2 at Laurie_Menke
+capture g1 at Luella
+convert g2 to y2 at Laurie_Menke
+sacrifice g1 at Mars; build r2 at Subhan64
+move r1 from Laurie_Menke to Old (y3)
+move r2 from Subhan64 to Mars
+sacrifice y2 at Laurie_Menke; move r2 from Laurie_Menke to Old; move r2 from Old to Subhan64
+sacrifice g1 at Mars; build r3 at Subhan64
+move r1 from Old to Subhan64; catastrophe red at Subhan64

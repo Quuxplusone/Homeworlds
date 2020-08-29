@@ -1,0 +1,17 @@
+Twoshort (0, r1b3) g3-
+Jeffw (1, y1g3) -b3
+build g1 at Twoshort
+build b1 at Jeffw
+convert g1 to y1 at Twoshort
+convert b1 to y1 at Jeffw
+build y2 at Twoshort
+build y2 at Jeffw
+sacrifice y2 at Twoshort; move y1 from Twoshort to Boomtime (r2); move y1 from Boomtime to Jeffw; catastrophe yellow at Jeffw
+build b1 at Jeffw
+build g1 at Twoshort
+convert b1 to y1 at Jeffw
+build g1 at Twoshort
+build y1 at Jeffw
+convert g3 to y3 at Twoshort
+convert y1 to r1 at Jeffw
+move g1 from Twoshort to Rosy (r2)

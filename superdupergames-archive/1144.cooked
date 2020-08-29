@@ -1,0 +1,9 @@
+Jesse (0, g2b1) y3-
+Lambda (1, y3b2) -g3
+build y1 at Jesse
+build g1 at Lambda
+move y1 from Jesse to Sekhar (g3)
+move g1 from Lambda to Arrakis (b1)
+build y1 at Jesse
+build g1 at Arrakis
+build y1 at Sekhar

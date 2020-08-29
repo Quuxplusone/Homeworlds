@@ -1,0 +1,54 @@
+Rizzotto (0, r3b2) g3-
+Detectiveazul (1, g3b1) -y3
+build g1 at Rizzotto
+build y1 at Detectiveazul
+convert g1 to r1 at Rizzotto
+build y1 at Detectiveazul
+build r1 at Rizzotto
+convert y1 to r1 at Detectiveazul
+convert r1 to y1 at Rizzotto
+convert y1 to b1 at Detectiveazul
+build g1 at Rizzotto
+build y1 at Detectiveazul
+convert g1 to b1 at Rizzotto
+convert y1 to g1 at Detectiveazul
+build b2 at Rizzotto
+build b2 at Detectiveazul
+move b1 from Rizzotto to Piticli (g1)
+move b2 from Detectiveazul to Potoclo (g2)
+build b3 at Piticli
+build b3 at Detectiveazul
+convert b3 to y3 at Piticli
+convert b3 to r3 at Detectiveazul
+build b3 at Piticli
+build b3 at Potoclo
+convert b3 to r3 at Piticli
+convert b3 to g3 at Potoclo
+build b3 at Piticli
+build b3 at Potoclo
+move b3 from Piticli to Bocasecaman (g2)
+convert b3 to y3 at Potoclo
+build r1 at Piticli
+build b3 at Potoclo
+convert b2 to y2 at Rizzotto
+move g3 from Potoclo to Laconcha (y1)
+move r1 from Piticli to Bocasecaman
+move b3 from Potoclo to Laconcha
+build r2 at Piticli
+move r1 from Detectiveazul to Potoclo
+build r2 at Bocasecaman
+build r2 at Potoclo
+build b2 at Piticli
+build b3 at Laconcha
+build y1 at Piticli
+build y2 at Detectiveazul
+build y2 at Rizzotto
+move b2 from Potoclo to Agentcarter (g1)
+sacrifice y3 at Piticli; move y1 from Rizzotto to Laconcha; move y2 from Rizzotto to Laconcha; move y2 from Rizzotto to Laconcha; catastrophe yellow at Laconcha
+build b3 at Agentcarter
+convert b2 to y2 at Piticli
+sacrifice y2 at Detectiveazul; move b1 from Detectiveazul to Pepapig (g2); move b1 from Pepapig to Pepapig2 (y1)
+convert b3 to y3 at Bocasecaman
+sacrifice y3 at Potoclo; move b2 from Agentcarter to Rizzotto; move b3 from Agentcarter to Rizzotto; move b1 from Pepapig2 to Rizzotto; catastrophe blue at Rizzotto
+sacrifice b1 at Piticli; convert r1 to b1 at Rizzotto
+sacrifice y3 at Detectiveazul; move r1 from Potoclo to Rizzotto; move r2 from Potoclo to Rizzotto; move r3 from Detectiveazul to Rocketraccoon (y2)

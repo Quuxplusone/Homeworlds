@@ -1,0 +1,26 @@
+Kanzenryu (0, r1b2) g3-
+Ts52 (1, y3b1) -g3
+build g1 at Kanzenryu
+build g1 at Ts52
+convert g1 to y1 at Kanzenryu
+convert g1 to b1 at Ts52
+build g1 at Kanzenryu
+build b1 at Ts52
+build y1 at Kanzenryu
+move b1 from Ts52 to Kermit (g2)
+move y1 from Kanzenryu to Moon (g3)
+build b2 at Kermit
+build y1 at Moon
+convert b2 to y2 at Kermit
+build y2 at Kanzenryu
+sacrifice g3 at Ts52; build b2 at Kermit; build b2 at Kermit; build b3 at Ts52
+move g1 from Kanzenryu to Desperation (b3)
+convert b3 to g3 at Ts52
+build g1 at Kanzenryu
+build b3 at Ts52
+sacrifice y2 at Kanzenryu; move y1 from Moon to Close (g2); move y1 from Moon to Close
+move b2 from Kermit to Oscar (g3)
+move y1 from Close to Ts52
+convert b3 to r3 at Ts52
+sacrifice g3 at Kanzenryu; build y2 at Ts52; build y2 at Ts52; build g1 at Desperation; catastrophe yellow at Ts52
+sacrifice y2 at Kermit; move r3 from Ts52 to Oscar; move r3 from Oscar to Kanzenryu

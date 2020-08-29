@@ -1,0 +1,35 @@
+Keith (0, g2b1) y3-
+Cobalt (1, g3b2) -y3
+build y1 at Keith
+build y1 at Cobalt
+build y1 at Keith
+convert y1 to g1 at Cobalt
+convert y1 to b1 at Keith
+build g1 at Cobalt
+convert y1 to g1 at Keith
+convert g1 to b1 at Cobalt
+build b2 at Keith
+build b2 at Cobalt
+convert b2 to y2 at Keith
+move b1 from Cobalt to Persephone (g1)
+move b1 from Keith to Greenleaf (g3)
+build y1 at Cobalt
+move y2 from Keith to Greenleaf
+build g2 at Cobalt
+move g1 from Keith to Miranda (b3)
+convert b1 to y1 at Persephone
+build g2 at Miranda
+move g1 from Cobalt to Lobsterback (y1)
+sacrifice g2 at Miranda; build y2 at Keith; build b1 at Greenleaf
+move g1 from Lobsterback to Labrador (y3)
+move b1 from Greenleaf to Bluesun (b2)
+move b2 from Cobalt to Persephone
+convert y2 to r2 at Keith
+build b3 at Persephone
+build b3 at Greenleaf
+convert b3 to g3 at Persephone
+move b3 from Greenleaf to Persephone
+sacrifice y1 at Persephone; move g3 from Persephone to Greenleaf
+build b3 at Greenleaf
+sacrifice g3 at Greenleaf; build g2 at Cobalt; build g3 at Labrador
+sacrifice y2 at Greenleaf; move g1 from Miranda to Persephone; move g1 from Persephone to Cobalt; catastrophe green at Cobalt

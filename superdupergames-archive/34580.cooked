@@ -1,0 +1,70 @@
+Ajo (0, b3y1) g3-
+Trydnt (1, b2r3) -g3
+build g1 at Ajo
+build g1 at Trydnt
+move g1 from Ajo to Alpha (b2)
+convert g1 to y1 at Trydnt
+build g1 at Ajo
+build y1 at Trydnt
+convert g3 to y3 at Ajo
+build y2 at Trydnt
+build y2 at Ajo
+move y1 from Trydnt to G1 (g1)
+move y2 from Ajo to Alpha
+move y2 from Trydnt to B1 (b1)
+build g2 at Ajo
+build g2 at Trydnt
+convert y3 to r3 at Ajo
+convert g2 to r2 at Trydnt
+build g2 at Alpha
+move y2 from B1 to Alpha
+sacrifice g2 at Ajo; build y2 at Alpha; build y3 at Alpha; catastrophe yellow at Alpha
+build y2 at G1
+build r1 at Ajo
+sacrifice g3 at Trydnt; build y2 at Trydnt; build y2 at G1; build y3 at Trydnt
+build g2 at Alpha
+convert y3 to g3 at Trydnt
+build g2 at Ajo
+build g3 at Trydnt
+build g3 at Ajo
+move y2 from G1 to B3 (b3)
+convert g3 to y3 at Ajo
+sacrifice g3 at Trydnt; build y3 at B3; build y3 at G1; build g3 at Trydnt
+move y3 from Ajo to Alpha
+move y2 from G1 to B2 (b2)
+build g3 at Ajo
+move r2 from Trydnt to G1
+move g3 from Ajo to B2
+move y2 from B2 to B33 (b3)
+convert g2 to r2 at Alpha
+move y3 from B3 to G2 (g2)
+move r1 from Ajo to B2
+convert y1 to b1 at Trydnt
+sacrifice g2 at Alpha; build y1 at Alpha; build g2 at B2
+move b1 from Trydnt to G1
+move g1 from Alpha to Beta (b1)
+build b1 at G1
+sacrifice y3 at Alpha; move g2 from B2 to Beta; move g3 from B2 to Beta; move g1 from Beta to Trydnt
+sacrifice g3 at Trydnt; build y3 at Trydnt; build r1 at G1
+sacrifice g3 at Beta; build r1 at B2; build r2 at Ajo; build r3 at Alpha
+move g3 from Trydnt to Beta
+convert r3 to g3 at Alpha
+move y3 from G2 to R3 (r3)
+build g2 at Alpha
+sacrifice r2 at G1; capture g1 at Trydnt; capture g2 at Beta
+sacrifice g3 at Alpha; build r2 at Alpha; build g3 at Alpha; build g3 at Ajo
+sacrifice y2 at B33; move g2 from Beta to B2; move g2 from B2 to Ajo; catastrophe green at Ajo
+build y2 at Alpha
+build b3 at G1
+sacrifice y1 at Alpha; move g3 from Alpha to Gamma (y1)
+move b3 from G1 to G2 (g2)
+move r2 from Alpha to Gamma
+build g1 at Trydnt
+convert r3 to g3 at Ajo
+build r3 at G1
+move r2 from Alpha to Gamma
+build g2 at Beta
+sacrifice r1 at B2
+move y2 from B3 to R1 (r1)
+move y2 from Alpha to Delta (b3)
+move r3 from G1 to B2

@@ -1,0 +1,69 @@
+Krom (0, r3b1) g3-
+Schmoopy (1, b2y1) -g3
+build g1 at Krom
+build g1 at Schmoopy
+convert g1 to b1 at Krom
+convert g1 to y1 at Schmoopy
+build g1 at Krom
+build y1 at Schmoopy
+build g1 at Krom
+build g1 at Schmoopy
+build b1 at Krom
+build g2 at Schmoopy
+convert b1 to r1 at Krom
+convert g1 to b1 at Schmoopy
+build b2 at Krom
+move b1 from Schmoopy to Meme (g3)
+convert b2 to y2 at Krom
+build b2 at Meme
+move b1 from Krom to Dingus (g2)
+convert b1 to r1 at Meme
+build y2 at Krom
+move y1 from Schmoopy to Meme
+move y2 from Krom to Dingus
+build r1 at Meme
+sacrifice g3 at Krom; build y2 at Krom; build y3 at Krom; build y3 at Dingus
+build y3 at Meme
+move r1 from Krom to Dingus
+sacrifice y3 at Meme; move y1 from Meme to Dingus; move y1 from Dingus to Krom; catastrophe yellow at Krom
+move y2 from Dingus to Krom
+move y1 from Schmoopy to Meme
+build r2 at Dingus
+move r1 from Meme to Schmoopy
+move r1 from Dingus to Krom
+build r2 at Schmoopy
+build b1 at Dingus
+move r2 from Schmoopy to Crusty (g3)
+move y3 from Dingus to Crusty
+sacrifice g2 at Schmoopy; build r2 at Schmoopy; build r3 at Meme
+build r3 at Dingus
+move r3 from Meme to Neato (y2)
+sacrifice y2 at Krom; move r3 from Dingus to Meme; move r2 from Dingus to Krom
+move r1 from Meme to Neato
+sacrifice y3 at Crusty; move r2 from Krom to Neato; move r1 from Krom to Neato; move b1 from Dingus to Krom; catastrophe red at Neato
+move b2 from Meme to Neato2 (y2)
+capture y1 at Meme
+convert r2 to b2 at Schmoopy
+move r3 from Meme to Neato2
+sacrifice g3 at Schmoopy; build b3 at Neato2; build b3 at Neato2; build b3 at Schmoopy
+sacrifice y1 at Meme; move b1 from Krom to Neato2; catastrophe blue at Neato2
+convert b3 to g3 at Schmoopy
+move r3 from Neato2 to Crusty
+move r1 from Schmoopy to Crusty
+convert g1 to y1 at Krom
+build r1 at Crusty; catastrophe red at Crusty
+build y1 at Krom
+build g1 at Schmoopy
+build y2 at Krom
+convert b2 to y2 at Schmoopy
+move y1 from Krom to Dingus
+move y2 from Schmoopy to Crambo (g3)
+move y1 from Dingus to Brigfacks (g3)
+move g3 from Schmoopy to Peace (r3)
+build y2 at Brigfacks
+sacrifice y2 at Crambo; move g3 from Peace to Dingus; move g3 from Dingus to Krom
+move y2 from Brigfacks to Schmoopy
+capture y2 at Krom
+sacrifice b1 at Dingus; convert y2 to r2 at Schmoopy
+sacrifice g3 at Krom; build y2 at Krom; build y2 at Krom; build g1 at Schmoopy; catastrophe yellow at Krom
+capture g1 at Schmoopy

@@ -1,0 +1,67 @@
+Trydnt (0, b3y1) g3-
+Mobynostromo (1, y1g2) -b3
+build g1 at Trydnt
+build b1 at Mobynostromo
+convert g1 to y1 at Trydnt
+convert b3 to y3 at Mobynostromo
+build y2 at Trydnt
+build y2 at Mobynostromo
+move y1 from Trydnt to G2 (g2)
+move y2 from Mobynostromo to Azure (b3)
+build g1 at Trydnt
+build b1 at Mobynostromo
+convert g1 to b1 at Trydnt
+convert b1 to g1 at Mobynostromo
+build g1 at Trydnt
+build g1 at Mobynostromo
+move y2 from Trydnt to B2 (b2)
+move g1 from Mobynostromo to Azure
+move y1 from G2 to G3 (g3)
+build g2 at Azure
+convert g1 to r1 at Trydnt
+move g2 from Azure to Blonde (y2)
+build y3 at G3
+convert y3 to r3 at Mobynostromo
+build y3 at G3
+build y3 at Azure
+sacrifice b1 at Trydnt; convert y3 to b3 at G3
+build g1 at Blonde
+build r1 at Trydnt
+sacrifice y3 at Azure; move g1 from Blonde to G3; move g2 from Blonde to G3; move g1 from Mobynostromo to G3; catastrophe green at G3
+move r1 from Trydnt to G2 (g2)
+build g1 at Azure
+move y2 from B2 to Azure
+sacrifice y2 at Azure; move g1 from Azure to Lemon (y2); move g1 from Azure to Lemon
+move r1 from Trydnt to Lemon
+build b1 at Mobynostromo
+capture g1 at Lemon
+move g1 from Lemon to Sky (b1)
+move r1 from Lemon to Sky
+build b2 at Mobynostromo
+capture g1 at Sky
+convert b2 to g2 at Mobynostromo
+sacrifice g1 at Sky; build y1 at Azure
+move b1 from Mobynostromo to Cobalt (b3)
+convert y1 to g1 at Azure
+convert b1 to g1 at Cobalt
+build g3 at Azure
+build g3 at Cobalt
+build y1 at Azure
+convert g2 to y2 at Mobynostromo
+move y1 from Azure to Gee2 (g2)
+move y2 from Mobynostromo to Cobalt
+sacrifice g3 at Azure; build g3 at Azure; build y3 at Gee2; build y3 at Azure
+sacrifice g3 at Cobalt; build g3 at Cobalt; build r1 at Mobynostromo; build y3 at Cobalt
+convert y2 to r2 at Azure
+move r1 from Mobynostromo to Cobalt
+sacrifice g3 at Azure; build g3 at Azure; build y2 at Azure; build r2 at Sky
+build r2 at Cobalt
+sacrifice g3 at Azure; build g3 at Azure; build r3 at Azure; build r3 at G2
+sacrifice g3 at Cobalt; build g3 at Cobalt; build b1 at Mobynostromo; build b2 at Mobynostromo
+move g3 from Azure to Mobynostromo
+capture g3 at Mobynostromo
+sacrifice y3 at Azure; move g1 from Azure to Mobynostromo; move g1 from Lemon to Azure; move g1 from Azure to Mobynostromo; catastrophe green at Mobynostromo
+sacrifice y3 at Cobalt; move b1 from Mobynostromo to Azure; move b1 from Mobynostromo to Azure; move b2 from Mobynostromo to Azure; catastrophe blue at Azure
+sacrifice y1 at Gee2; move r3 from G2 to Mobynostromo
+capture r3 at Mobynostromo
+sacrifice y3 at Gee2; move r1 from Sky to G2; move r1 from G2 to Mobynostromo; move r1 from G2 to Mobynostromo; catastrophe red at Mobynostromo

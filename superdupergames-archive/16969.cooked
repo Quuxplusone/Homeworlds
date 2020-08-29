@@ -1,0 +1,19 @@
+Lurch (0, y1b2) g3-
+Dlwillson (1, b3b1) -b3
+build g1 at Lurch
+convert b3 to g3 at Dlwillson
+convert g1 to b1 at Lurch
+build g1 at Dlwillson
+move b1 from Lurch to Beta (g3)
+convert g1 to y1 at Dlwillson
+build b1 at Beta
+build y1 at Dlwillson
+build b2 at Beta
+build y2 at Dlwillson
+convert b2 to y2 at Beta
+move y2 from Dlwillson to Gamma (b2)
+build y2 at Beta
+build y3 at Dlwillson
+sacrifice y2 at Beta; move b1 from Beta to Gamma; move b1 from Beta to Gamma
+convert y1 to r1 at Dlwillson
+sacrifice y2 at Beta; move b1 from Gamma to Dlwillson; move b1 from Gamma to Dlwillson; catastrophe blue at Dlwillson

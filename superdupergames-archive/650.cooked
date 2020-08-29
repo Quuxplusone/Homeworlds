@@ -1,0 +1,39 @@
+Jesse (0, y3g2) b3-
+Pigasuspig (1, g1b3) -r3
+build b1 at Jesse
+build r1 at Pigasuspig
+build b1 at Jesse
+convert r1 to y1 at Pigasuspig
+move b1 from Jesse to Zoid (b1)
+build r1 at Pigasuspig
+build b2 at Jesse
+move r1 from Pigasuspig to Oliver (y2)
+convert b2 to r2 at Jesse
+build y1 at Pigasuspig
+build b2 at Jesse
+build y1 at Pigasuspig
+convert b2 to y2 at Jesse
+build y2 at Pigasuspig
+build y3 at Jesse
+convert y2 to b2 at Pigasuspig
+move y3 from Jesse to Zoid
+move y1 from Pigasuspig to Oliver
+convert b1 to g1 at Zoid
+move y1 from Oliver to Ficus (g1)
+build g2 at Zoid
+build y2 at Ficus
+build y3 at Zoid
+move r1 from Oliver to Zoid
+build r1 at Jesse
+build y2 at Pigasuspig
+sacrifice r1 at Jesse; capture r1 at Zoid
+sacrifice y2 at Pigasuspig; move y2 from Ficus to Jesse; move y1 from Ficus to Jesse; catastrophe yellow at Jesse
+sacrifice y3 at Zoid; move y3 from Zoid to Jesse; move y3 from Jesse to Pigasuspig; move b3 from Jesse to Pigasuspig
+move r3 from Pigasuspig to Jesse
+sacrifice g2 at Zoid; build r1 at Jesse; build r1 at Jesse; catastrophe red at Jesse
+move b2 from Pigasuspig to Jesse
+move y3 from Pigasuspig to Jesse
+convert b2 to g2 at Jesse
+convert y3 to r3 at Jesse
+build g1 at Jesse
+sacrifice r3 at Jesse; capture y1 at Pigasuspig; capture y1 at Pigasuspig; capture g1 at Jesse

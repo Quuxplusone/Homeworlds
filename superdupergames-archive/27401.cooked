@@ -1,0 +1,29 @@
+Mandrel (0, r2b3) g3-
+Aghmarck (1, g1b2) -y3
+build g1 at Mandrel
+build y1 at Aghmarck
+build g1 at Mandrel
+convert y1 to b1 at Aghmarck
+convert g1 to y1 at Mandrel
+build y1 at Aghmarck
+move g1 from Mandrel to Anomaly (b1)
+build b1 at Aghmarck
+build g1 at Mandrel
+move b1 from Aghmarck to Treant (g3)
+build g2 at Anomaly
+build b2 at Treant
+build g2 at Anomaly
+convert b2 to y2 at Treant
+convert g2 to b2 at Anomaly
+build b2 at Treant
+convert g2 to y2 at Anomaly
+convert b2 to g2 at Treant
+build g2 at Anomaly
+build b2 at Treant
+convert g2 to r2 at Anomaly
+sacrifice y2 at Treant; move b1 from Treant to Anomaly; move b2 from Treant to Anomaly; catastrophe blue at Anomaly
+move g1 from Mandrel to Anomaly2 (b1)
+build b1 at Aghmarck
+build g1 at Mandrel
+build b2 at Aghmarck
+build g2 at Anomaly2; catastrophe blue at Aghmarck

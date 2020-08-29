@@ -1,0 +1,11 @@
+Shmil1 (0, r2b1) g3-
+Foksieloy (1, r1b3) -g3
+build g1 at Shmil1
+build g1 at Foksieloy
+convert g1 to y1 at Shmil1
+convert g1 to b1 at Foksieloy
+build g1 at Shmil1
+build g1 at Foksieloy
+build y1 at Shmil1
+build b1 at Foksieloy
+convert y1 to r1 at Shmil1

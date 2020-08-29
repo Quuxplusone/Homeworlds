@@ -1,0 +1,48 @@
+Kreiger (0, y3b1) g3-
+Sunnan (1, b1r2) -g3
+build g1 at Kreiger
+build g1 at Sunnan
+move g1 from Kreiger to Slylandro (b2)
+convert g1 to y1 at Sunnan
+build g1 at Slylandro
+build y1 at Sunnan
+convert g1 to y1 at Slylandro
+move y1 from Sunnan to Alonzo (g3)
+build y2 at Slylandro
+build y2 at Sunnan
+move y1 from Slylandro to Alonzo
+move y1 from Sunnan to Veronica (b3)
+move y2 from Slylandro to Orz (y3)
+sacrifice g3 at Sunnan; build y2 at Veronica; build y3 at Sunnan
+build g1 at Slylandro
+convert y1 to g1 at Veronica
+convert g1 to y1 at Slylandro
+move y2 from Sunnan to Knuth (b3)
+move y2 from Orz to Slylandro
+build y3 at Veronica
+convert y1 to r1 at Slylandro
+move y1 from Alonzo to Compose (g2)
+build g1 at Kreiger
+build y1 at Compose
+move y1 from Alonzo to Compose
+move y1 from Compose to Kreiger
+sacrifice r1 at Slylandro; capture y1 at Compose
+sacrifice y2 at Veronica; move y2 from Knuth to Compose; move y2 from Compose to Kreiger
+build y2 at Slylandro
+convert y3 to b3 at Veronica
+sacrifice g3 at Kreiger; build g2 at Slylandro; build g2 at Slylandro; build g3 at Kreiger
+sacrifice y1 at Kreiger; move g1 from Veronica to Slylandro; catastrophe green at Slylandro
+convert g1 to r1 at Kreiger
+move y2 from Kreiger to Earth (r2)
+build g1 at Kreiger
+convert y3 to g3 at Sunnan
+sacrifice y2 at Slylandro; move g3 from Kreiger to Slylandro; move g3 from Slylandro to Veronica
+sacrifice y2 at Earth; move b3 from Veronica to Compose; move b3 from Compose to Kreiger
+sacrifice y2 at Slylandro; move g3 from Veronica to Compose; move g3 from Compose to Kreiger
+move b3 from Kreiger to Zebedee (r2)
+move y1 from Compose to Melnorme (g3)
+build g1 at Sunnan
+build y1 at Compose
+convert g1 to r1 at Sunnan
+build y2 at Melnorme
+convert b3 to y3 at Zebedee

@@ -1,0 +1,34 @@
+Mcowper (0, y2b1) g3-
+Wil (1, y3b1) -g3
+build g1 at Mcowper
+build g1 at Wil
+move g1 from Mcowper to Angel (b3)
+convert g1 to b1 at Wil
+build g1 at Mcowper
+build b2 at Wil
+build g1 at Angel
+move b1 from Wil to G2 (g2)
+sacrifice g3 at Mcowper; build g2 at Angel; build g2 at Mcowper; build g3 at Mcowper
+build g3 at Wil
+convert g2 to b2 at Mcowper
+sacrifice g3 at Wil; build b2 at G2; build b3 at G2; build b3 at Wil
+convert g1 to y1 at Angel
+sacrifice b2 at G2; convert b3 to y3 at G2; convert b3 to g3 at Wil
+move g2 from Angel to Beast (y2)
+sacrifice g3 at Wil; build b2 at G2; build b3 at G2; build b3 at Wil
+build y1 at Angel
+sacrifice b2 at G2; convert b3 to r3 at G2; convert b3 to g3 at Wil
+move y1 from Angel to Cyclops (g2)
+sacrifice g3 at Wil; build b2 at G2; build b3 at G2; build b3 at Wil
+convert g1 to r1 at Mcowper
+convert b3 to y3 at Wil
+build g1 at Mcowper
+move b3 from G2 to Angel
+move y1 from Angel to Beast
+convert b3 to g3 at Angel
+move b2 from Mcowper to Dazzler (b3)
+build g1 at Wil
+sacrifice g3 at Mcowper; build g3 at Mcowper; build y1 at Cyclops; build y2 at Cyclops
+sacrifice y3 at Wil; move g3 from Angel to Mcowper; move y3 from G2 to Angel; move y3 from Angel to Mcowper
+capture y3 at Mcowper
+sacrifice r3 at G2; capture y3 at Mcowper; capture g3 at Mcowper; capture r1 at Mcowper

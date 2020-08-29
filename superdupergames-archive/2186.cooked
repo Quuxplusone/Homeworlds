@@ -1,0 +1,44 @@
+Twopercentright (0, g3b2) y3-
+Jesse (1, g1b3) -y3
+build y1 at Twopercentright
+pass
+convert y1 to g1 at Twopercentright
+pass
+build y1 at Twopercentright
+pass
+move y1 from Twopercentright to Grainne (g1)
+build y1 at Jesse
+build y1 at Grainne
+move y1 from Jesse to Morbo (g2)
+build g2 at Twopercentright
+build y2 at Jesse
+move g1 from Twopercentright to Grainne
+convert y2 to g2 at Jesse
+build g3 at Grainne
+move g2 from Jesse to Juble (y2)
+move g1 from Grainne to Juble
+build g3 at Juble
+move g3 from Grainne to Juble; catastrophe green at Juble
+build y2 at Jesse
+build y2 at Twopercentright
+convert y2 to g2 at Jesse
+move g2 from Twopercentright to Grainne
+build y2 at Jesse
+convert y2 to r2 at Twopercentright
+convert y2 to r2 at Jesse
+build r1 at Twopercentright
+build r1 at Jesse
+move r1 from Twopercentright to Pallas (g1)
+move g2 from Jesse to Draal (y2)
+build y2 at Twopercentright
+build g3 at Draal
+build g3 at Grainne
+move g2 from Draal to Grainne; catastrophe green at Grainne
+move y3 from Twopercentright to Pallas
+move g3 from Draal to Kaori (y1)
+build y1 at Pallas
+move g3 from Kaori to Twopercentright
+move y3 from Pallas to Twopercentright
+sacrifice r2 at Jesse; capture y3 at Twopercentright; capture r2 at Twopercentright
+build y1 at Twopercentright
+sacrifice r2 at Twopercentright; capture y2 at Twopercentright; capture y1 at Twopercentright

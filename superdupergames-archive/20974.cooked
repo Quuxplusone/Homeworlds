@@ -1,0 +1,56 @@
+Agentofchaos (0, b1r2) g3-
+Sirruthvenmurgatroyd (1, y2b3) -g3
+build g1 at Agentofchaos
+build g1 at Sirruthvenmurgatroyd
+convert g1 to y1 at Agentofchaos
+move g1 from Sirruthvenmurgatroyd to Sol (y1)
+build y1 at Agentofchaos
+build g1 at Sirruthvenmurgatroyd
+build y2 at Agentofchaos
+build g1 at Sol
+build g2 at Agentofchaos
+move g1 from Sol to Betelgeuse (y3)
+convert g2 to r2 at Agentofchaos
+build g2 at Betelgeuse
+move r2 from Agentofchaos to Betelgeuse
+sacrifice g3 at Sirruthvenmurgatroyd; build g2 at Sirruthvenmurgatroyd; build g2 at Sol; build g3 at Sirruthvenmurgatroyd
+build g3 at Agentofchaos
+convert g3 to y3 at Sirruthvenmurgatroyd
+move g3 from Agentofchaos to Aeonoia (y3)
+build g3 at Betelgeuse
+sacrifice y2 at Agentofchaos; move g3 from Aeonoia to Sol; move g3 from Sol to Betelgeuse; catastrophe green at Betelgeuse
+convert g2 to r2 at Sirruthvenmurgatroyd
+build y2 at Agentofchaos
+build y2 at Sirruthvenmurgatroyd
+move y1 from Agentofchaos to Betelgeuse
+convert y2 to b2 at Sirruthvenmurgatroyd
+build y2 at Agentofchaos
+move g2 from Sol to Alpha (y3)
+move y1 from Agentofchaos to Betelgeuse
+move y3 from Sirruthvenmurgatroyd to Beta (b1)
+move r2 from Betelgeuse to Sol
+move g1 from Sol to Betelgeuse
+move r2 from Sol to Betelgeuse
+sacrifice b2 at Sirruthvenmurgatroyd; convert g1 to y1 at Betelgeuse; catastrophe yellow at Betelgeuse
+convert y2 to r2 at Agentofchaos
+build g1 at Alpha
+build g1 at Agentofchaos
+build g2 at Sirruthvenmurgatroyd
+convert g1 to y1 at Agentofchaos
+build g1 at Alpha
+move y2 from Agentofchaos to Gruvann (b3)
+move g1 from Alpha to Beta
+build g2 at Agentofchaos
+build g3 at Beta
+move g2 from Agentofchaos to Blackguard (y3)
+build g3 at Sirruthvenmurgatroyd
+build y1 at Agentofchaos
+move g2 from Sirruthvenmurgatroyd to Gamma (b1)
+move r2 from Agentofchaos to Gruvann
+convert g2 to b2 at Gamma
+build g2 at Blackguard
+move g1 from Alpha to Agentofchaos
+sacrifice y2 at Gruvann; move g2 from Blackguard to Beta; move g2 from Blackguard to Beta; catastrophe green at Beta
+sacrifice g2 at Alpha; build g1 at Agentofchaos; build g2 at Agentofchaos; catastrophe green at Agentofchaos
+convert y1 to g1 at Agentofchaos
+move y3 from Beta to Delta (b3)

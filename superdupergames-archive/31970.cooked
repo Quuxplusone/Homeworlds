@@ -1,0 +1,29 @@
+Draw5Playall (0, b3r1) g3-
+Panglott (1, b3g1) -y3
+build g1 at Draw5Playall
+build y1 at Panglott
+build g1 at Draw5Playall
+convert y3 to g3 at Panglott
+convert g1 to y1 at Draw5Playall
+build y1 at Panglott
+build y2 at Draw5Playall
+build g1 at Panglott
+sacrifice y2 at Draw5Playall; move g1 from Draw5Playall to Y2 (y2); move g1 from Y2 to Panglott; catastrophe green at Panglott
+convert y1 to g1 at Panglott
+build g1 at Draw5Playall
+build g1 at Panglott
+convert g1 to r1 at Draw5Playall
+move g1 from Panglott to Ulzad (y1)
+build y2 at Draw5Playall
+build y2 at Panglott
+move y2 from Draw5Playall to G2 (g2)
+convert y2 to b2 at Panglott
+move r1 from Draw5Playall to G2
+build y2 at Panglott
+build r1 at G2
+move y2 from Panglott to Ulzad
+move y2 from G2 to Panglott
+convert b2 to r2 at Panglott
+sacrifice r1 at G2; capture r2 at Panglott
+build y2 at Ulzad
+sacrifice r2 at Panglott; capture g1 at Panglott; capture y1 at Panglott

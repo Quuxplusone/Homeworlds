@@ -1,0 +1,13 @@
+Felix (0, r2b3) g3-
+Sharkhands (1, b2y1) -g3
+build g1 at Felix
+build g1 at Sharkhands
+convert g1 to y1 at Felix
+build g1 at Sharkhands
+build y1 at Felix
+move g1 from Sharkhands to R3 (r3)
+build y2 at Felix
+move g1 from Sharkhands to R31 (r3)
+move y1 from Felix to Out (g1)
+build g2 at Sharkhands
+build y2 at Out

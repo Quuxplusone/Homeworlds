@@ -1,0 +1,13 @@
+Mick (0, b3g1) y3-
+Mikeyarrum (1, y1b2) -g3
+build y1 at Mick
+build g1 at Mikeyarrum
+move y1 from Mick to Orion (b2)
+convert g1 to y1 at Mikeyarrum
+convert y1 to g1 at Orion
+move y1 from Mikeyarrum to Sakaki (g3)
+convert y3 to g3 at Mick
+build y1 at Sakaki
+build g1 at Orion
+build g2 at Mikeyarrum
+build g2 at Orion

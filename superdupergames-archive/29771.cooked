@@ -1,0 +1,55 @@
+Felix (0, b3y2) g3-
+Dijek (1, g1y3) -b3
+build g1 at Felix
+build b1 at Dijek
+convert g1 to b1 at Felix
+move b1 from Dijek to Galois (r2)
+move b1 from Felix to Littlewood (g1)
+build b1 at Dijek
+build b2 at Littlewood
+build b2 at Dijek
+convert b1 to y1 at Littlewood
+move b2 from Dijek to Klein (b2)
+build b1 at Littlewood
+convert b2 to y2 at Klein
+build y1 at Littlewood
+build b2 at Dijek
+move b1 from Littlewood to Othlorien (g2)
+move y2 from Klein to Dijek
+build b2 at Othlorien
+move b2 from Dijek to Galois
+build b3 at Littlewood
+build y1 at Dijek
+convert b2 to y2 at Othlorien
+convert y2 to g2 at Dijek
+build g1 at Felix
+move g2 from Dijek to Galois
+move g1 from Felix to Sapros (r1)
+convert b3 to g3 at Dijek
+build g2 at Felix
+build g3 at Galois
+build y2 at Othlorien
+move y1 from Dijek to Galois
+sacrifice y1 at Littlewood; move g1 from Sapros to Othlorien
+move b2 from Galois to Kowa (r1)
+move b2 from Littlewood to Lavaflow (r2)
+sacrifice g3 at Galois; build b2 at Galois; build b3 at Kowa; build g3 at Galois
+sacrifice g3 at Felix; build y1 at Othlorien; build y3 at Littlewood; build g3 at Felix
+build y3 at Galois
+convert g2 to r2 at Felix
+sacrifice y3 at Galois; move y1 from Galois to Kowa; move y1 from Kowa to Othlorien; catastrophe yellow at Othlorien
+sacrifice y1 at Littlewood; move g1 from Othlorien to Dijek
+convert g3 to r3 at Dijek
+build g2 at Dijek
+build r1 at Dijek
+build g3 at Dijek; catastrophe green at Dijek
+convert r1 to g1 at Dijek
+build g1 at Felix
+convert b1 to y1 at Galois
+sacrifice y3 at Littlewood; move g3 from Felix to Littlewood; move b3 from Littlewood to Dijek; move g3 from Littlewood to Dijek
+capture b3 at Dijek
+sacrifice r2 at Felix; capture r3 at Dijek; capture b3 at Dijek
+sacrifice g3 at Galois; build g1 at Dijek; build b1 at Dijek; build g2 at Galois
+build g3 at Dijek; catastrophe green at Dijek
+convert b1 to r1 at Dijek
+sacrifice r3 at Dijek; capture b1 at Dijek; capture r1 at Dijek

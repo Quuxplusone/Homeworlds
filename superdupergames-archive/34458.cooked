@@ -1,0 +1,36 @@
+Speardane (0, y3g2) b3-
+Ts52 (1, y1b2) -g3
+build b1 at Speardane
+build g1 at Ts52
+convert b1 to r1 at Speardane
+convert g1 to r1 at Ts52
+build b1 at Speardane
+build g1 at Ts52
+move b1 from Speardane to Delos (g1)
+build g1 at Ts52
+build b1 at Speardane
+move g1 from Ts52 to Gonzo (b3)
+move b1 from Speardane to Lebling (y1)
+sacrifice g3 at Ts52; build g2 at Gonzo; build g2 at Gonzo; build g3 at Ts52
+convert b1 to y1 at Delos
+convert g2 to y2 at Gonzo
+move b1 from Lebling to Kotok (g3)
+sacrifice g3 at Ts52; build g2 at Ts52; build g3 at Ts52; build g3 at Gonzo
+move y1 from Delos to Kotok
+convert g3 to r3 at Gonzo
+build b1 at Speardane
+move g2 from Ts52 to Grover (b3)
+build b1 at Speardane
+convert g2 to b2 at Gonzo
+build b2 at Kotok
+sacrifice y2 at Gonzo; move b2 from Gonzo to Elmo (r1); move b2 from Elmo to Speardane; catastrophe blue at Speardane
+convert b1 to r1 at Kotok
+convert g2 to y2 at Grover
+build r2 at Speardane
+sacrifice y2 at Grover; move r3 from Gonzo to Bigbird (y1); move r3 from Bigbird to Speardane
+sacrifice b2 at Kotok; convert r2 to b2 at Speardane; convert r1 to b1 at Kotok
+capture r1 at Speardane
+build b1 at Speardane
+capture b2 at Speardane
+pass
+capture b1 at Speardane

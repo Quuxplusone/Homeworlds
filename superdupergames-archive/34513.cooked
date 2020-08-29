@@ -1,0 +1,60 @@
+Speardane (0, b2y1) g3-
+Trydnt (1, b3y2) -g3
+build g1 at Speardane
+build g1 at Trydnt
+convert g1 to r1 at Speardane
+convert g1 to y1 at Trydnt
+build g1 at Speardane
+build y1 at Trydnt
+move g1 from Speardane to Delos (b3)
+move y1 from Trydnt to G1 (g1)
+build g1 at Delos
+build y2 at G1
+convert g1 to r1 at Delos
+build y2 at Trydnt
+build r1 at Delos
+build y3 at G1
+build r2 at Delos
+move y3 from G1 to Delos
+build g1 at Delos
+build y3 at G1
+convert g1 to b1 at Delos
+move y1 from G1 to G3 (g3)
+build g1 at Speardane
+build y3 at G3
+move g1 from Speardane to Lebling (b3)
+build g2 at Trydnt
+build g2 at Lebling
+build g2 at Trydnt
+convert g2 to r2 at Lebling
+convert y3 to r3 at Delos; catastrophe red at Delos
+convert b1 to r1 at Delos
+build y3 at G3
+build r1 at Speardane
+convert g2 to r2 at Trydnt
+build r2 at Speardane
+sacrifice y3 at G3; move r2 from Trydnt to G1; move r2 from G1 to G3; move r2 from G3 to Speardane; catastrophe red at Speardane
+build g2 at Speardane
+build y3 at G1
+convert g2 to r2 at Speardane
+convert g2 to r2 at Trydnt
+build r1 at Lebling
+move y3 from G1 to Delos
+build r1 at Lebling
+sacrifice r2 at Trydnt; capture g1 at Delos; capture r1 at Delos
+convert r1 to b1 at Lebling
+build g2 at Delos
+build g2 at Lebling
+build g2 at Trydnt
+convert g2 to r2 at Lebling
+convert g1 to b1 at Delos
+build g1 at Speardane
+sacrifice g3 at Trydnt; build g2 at Delos; build g3 at Trydnt; build b1 at Delos
+sacrifice g3 at Speardane; build r1 at Speardane; build r3 at Speardane; build g3 at Lebling
+move r1 from Delos to Speardane; catastrophe red at Speardane
+sacrifice g1 at Lebling
+convert g2 to r2 at Delos
+build g1 at Speardane
+move y3 from G3 to Speardane
+pass
+sacrifice r2 at Delos; capture g1 at Speardane; capture g1 at Speardane

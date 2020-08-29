@@ -1,0 +1,77 @@
+Personman (0, b2y1) g3-
+Uglyfoot (1, y3b2) -g3
+build g1 at Personman
+build g1 at Uglyfoot
+convert g1 to y1 at Personman
+move g1 from Uglyfoot to Battlestar (r1)
+build g1 at Personman
+build g1 at Uglyfoot
+build g2 at Personman
+build g2 at Battlestar
+move g2 from Personman to Y3A (y3)
+convert g1 to r1 at Uglyfoot
+build y1 at Personman
+build g1 at Uglyfoot
+sacrifice g3 at Personman; build g2 at Y3A; build g3 at Y3A; build g3 at Personman
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build r1 at Uglyfoot; build r2 at Uglyfoot
+move y1 from Personman to B3A (b3)
+convert r2 to y2 at Uglyfoot
+sacrifice g3 at Personman; build y2 at Personman; build y2 at B3A; build g3 at Personman
+sacrifice y2 at Uglyfoot; move g1 from Battlestar to Y3A; move g2 from Battlestar to B3A; catastrophe green at Y3A
+convert y2 to r2 at B3A
+sacrifice r1 at Uglyfoot; capture r2 at B3A
+move y1 from B3A to B1A (b1)
+convert r2 to y2 at B3A
+convert y1 to r1 at Personman
+move g1 from Uglyfoot to Welcomemat (b1)
+build r1 at Personman
+build g1 at Uglyfoot
+sacrifice g1 at Personman; build r2 at Personman
+build g1 at Welcomemat
+build g2 at Personman
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Uglyfoot; build g3 at B3A
+move g2 from Personman to Y3A (y3)
+convert g2 to y2 at Uglyfoot
+move g2 from Y3A to B1A
+convert g2 to r2 at B3A
+convert r1 to b1 at Personman
+sacrifice g3 at Uglyfoot; build g2 at B3A; build g2 at Welcomemat; build g3 at Uglyfoot
+build b2 at Personman
+convert g3 to b3 at B3A
+sacrifice y2 at Personman; move b1 from Personman to B3A; move b2 from Personman to B3A; catastrophe blue at B3A
+convert g1 to y1 at Welcomemat
+build g1 at Personman
+move g1 from Welcomemat to Forward (y3)
+sacrifice g3 at Personman; build g2 at B1A; build g3 at Personman; build y2 at B1A
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Forward; build y2 at Welcomemat
+move g2 from B1A to Uglyfoot
+capture g2 at Uglyfoot
+move g2 from B1A to Uglyfoot; catastrophe green at Uglyfoot
+sacrifice y2 at Welcomemat; move g1 from Forward to Personman; move g3 from Forward to Personman; catastrophe green at Personman
+move y2 from B1A to Uglyfoot
+capture y2 at Uglyfoot
+move y1 from B1A to Uglyfoot; catastrophe yellow at Uglyfoot
+build g1 at Welcomemat
+convert r1 to g1 at Personman
+move g1 from Welcomemat to Nexus (y3)
+build r1 at Personman
+move g2 from Welcomemat to Uglyfoot
+convert r1 to b1 at Personman
+build g1 at Nexus
+build r1 at Personman
+build g2 at Uglyfoot
+move r2 from Personman to Nexus
+build g2 at Nexus
+capture g2 at Nexus
+build g3 at Nexus
+build g3 at Personman; catastrophe green at Nexus
+convert g2 to y2 at Uglyfoot
+move g3 from Personman to Nexus
+build g1 at Uglyfoot
+build g1 at Nexus
+move g1 from Uglyfoot to Breakout (y3)
+move g3 from Nexus to Uglyfoot
+build g2 at Uglyfoot
+sacrifice r1 at Personman; capture r1 at Uglyfoot
+build g2 at Uglyfoot; catastrophe green at Uglyfoot
+move r2 from Nexus to Uglyfoot

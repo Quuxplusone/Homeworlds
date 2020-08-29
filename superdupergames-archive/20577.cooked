@@ -1,0 +1,46 @@
+Goulo (0, b1r2) g3-
+Zoltar (1, r1b3) -g3
+build g1 at Goulo
+build g1 at Zoltar
+convert g1 to y1 at Goulo
+convert g1 to y1 at Zoltar
+build g1 at Goulo
+build g1 at Zoltar
+convert g1 to r1 at Goulo
+convert g1 to r1 at Zoltar
+build r2 at Goulo
+build r2 at Zoltar
+move r1 from Goulo to Citronego (y3)
+convert r2 to y2 at Zoltar
+build g1 at Goulo
+move r1 from Zoltar to Greenarrow (g2)
+move g1 from Goulo to Citronego
+move y1 from Zoltar to Greenarrow
+build g1 at Goulo
+build y1 at Zoltar
+build y2 at Goulo
+move y2 from Zoltar to Bluebeetle (b2)
+move y1 from Goulo to Smeraldego (g3)
+sacrifice g3 at Zoltar; build y2 at Greenarrow; build y3 at Bluebeetle; build y3 at Zoltar
+move r1 from Citronego to Smeraldo (g2)
+convert y2 to g2 at Bluebeetle
+build y2 at Smeraldego
+move y3 from Bluebeetle to Citronego
+move y1 from Smeraldego to Bluebeetle
+convert y1 to g1 at Zoltar
+sacrifice y2 at Goulo; move y1 from Bluebeetle to Citronego; move g1 from Citronego to Greenarrow
+build g3 at Bluebeetle
+sacrifice g3 at Goulo; build g3 at Goulo; build y1 at Citronego; build y2 at Smeraldego; catastrophe yellow at Citronego
+capture g1 at Greenarrow
+move y2 from Smeraldego to Rubeno (r2)
+build r3 at Greenarrow
+build r3 at Smeraldo
+move r3 from Greenarrow to Smeraldego
+sacrifice y2 at Smeraldego; move r2 from Goulo to Smeraldego; move r2 from Smeraldego to Citrono (y2)
+sacrifice g3 at Bluebeetle; build r3 at Greenarrow; build g3 at Bluebeetle; build y1 at Zoltar
+sacrifice y2 at Rubeno; move r3 from Smeraldo to Zoltar; move r1 from Smeraldo to Zoltar
+capture r3 at Zoltar
+sacrifice g1 at Goulo; build r2 at Zoltar; catastrophe red at Zoltar
+sacrifice g3 at Bluebeetle; build g1 at Zoltar; build g2 at Zoltar; build g3 at Bluebeetle
+move r2 from Citrono to Citronego (y3)
+sacrifice y3 at Zoltar; move g1 from Zoltar to Goulo; move g2 from Zoltar to Goulo; move g1 from Zoltar to Goulo; catastrophe green at Goulo

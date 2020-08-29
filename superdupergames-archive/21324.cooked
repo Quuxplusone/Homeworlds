@@ -1,0 +1,8 @@
+Jonaskoelker (0, b2r1) g3-
+Magicjohn (1, b1y3) -g3
+build g1 at Jonaskoelker
+build g1 at Magicjohn
+convert g1 to y1 at Jonaskoelker
+move g1 from Magicjohn to Tarvalon (y2)
+build y1 at Jonaskoelker
+build g1 at Tarvalon

@@ -1,0 +1,22 @@
+Mobynostromo (0, g3y2) b3-
+Wil (1, b2y1) -g3
+build b1 at Mobynostromo
+build g1 at Wil
+convert b1 to y1 at Mobynostromo
+convert g1 to y1 at Wil
+build y2 at Mobynostromo
+build y2 at Wil
+convert y2 to g2 at Mobynostromo
+move y1 from Wil to B3 (b3)
+build y2 at Mobynostromo
+sacrifice y2 at Wil; move y1 from B3 to R1 (r1); move y1 from R1 to Mobynostromo; catastrophe yellow at Mobynostromo
+convert g2 to y2 at Mobynostromo
+build g1 at Wil
+build b1 at Mobynostromo
+convert g3 to r3 at Wil
+build y1 at Mobynostromo
+move r3 from Wil to Mobynostromo
+move b3 from Mobynostromo to Green (g1)
+capture y2 at Mobynostromo
+convert b3 to r3 at Green
+sacrifice r3 at Mobynostromo; capture y1 at Mobynostromo; capture b1 at Mobynostromo

@@ -1,0 +1,32 @@
+Bangle_Tiger (0, r3b2) g3-
+Ultan_The_Blind (1, y2b1) -g3
+build g1 at Bangle_Tiger
+build g1 at Ultan_The_Blind
+convert g1 to y1 at Bangle_Tiger
+move g1 from Ultan_The_Blind to Tatooine (y3)
+build g1 at Bangle_Tiger
+build g1 at Tatooine
+move g1 from Bangle_Tiger to Dantooine (r1)
+move g1 from Tatooine to Hoth (b2)
+build y1 at Bangle_Tiger
+build g2 at Hoth
+build g2 at Bangle_Tiger
+convert g1 to y1 at Hoth
+move g2 from Bangle_Tiger to Dantooine
+build y2 at Hoth
+move y1 from Bangle_Tiger to Dantooine
+convert y2 to r2 at Hoth
+build y2 at Bangle_Tiger
+build g1 at Hoth
+move g2 from Dantooine to Tatooine
+move g1 from Hoth to Fest (b1)
+move y2 from Bangle_Tiger to Dantooine
+move g1 from Tatooine to Ultan_The_Blind
+move y2 from Dantooine to Tatooine
+sacrifice g3 at Ultan_The_Blind; build g2 at Hoth; build g3 at Ultan_The_Blind; build g3 at Fest
+move g1 from Dantooine to Tatooine
+convert g1 to r1 at Ultan_The_Blind
+sacrifice y2 at Tatooine; move g1 from Tatooine to Fest; move g2 from Tatooine to Fest; catastrophe green at Fest
+build y2 at Hoth
+sacrifice g3 at Bangle_Tiger; build y2 at Dantooine; build y3 at Bangle_Tiger; build y3 at Bangle_Tiger
+sacrifice y2 at Hoth; move y1 from Hoth to Festus (b1); move y1 from Festus to Bangle_Tiger; catastrophe yellow at Bangle_Tiger

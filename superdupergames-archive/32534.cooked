@@ -1,0 +1,53 @@
+Dlwillson (0, y2b3) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Dlwillson
+build g1 at Draw5Playall
+build g1 at Dlwillson
+build g2 at Draw5Playall
+move g1 from Dlwillson to Sea (b1)
+convert g1 to y1 at Draw5Playall
+convert g1 to r1 at Dlwillson
+build g1 at Draw5Playall
+build g1 at Dlwillson
+convert g1 to r1 at Draw5Playall
+build r2 at Dlwillson
+move g2 from Draw5Playall to B2 (b2)
+move r1 from Dlwillson to Golden (y1)
+build g1 at Draw5Playall
+sacrifice g3 at Dlwillson; build r2 at Dlwillson; build r2 at Golden; build r3 at Golden
+build r3 at Draw5Playall
+build r3 at Dlwillson
+convert r3 to y3 at Draw5Playall
+convert r3 to y3 at Dlwillson
+move r1 from Draw5Playall to G2 (g2)
+move r2 from Golden to G2
+sacrifice g3 at Draw5Playall; build g2 at B2; build g3 at Draw5Playall; build r3 at G2
+build g3 at Dlwillson
+sacrifice r1 at G2; capture r2 at G2
+build g3 at Sea
+move y3 from Draw5Playall to B2
+convert g3 to y3 at Sea
+convert g2 to y2 at B2
+move r2 from Dlwillson to Sea
+convert g1 to b1 at Draw5Playall
+sacrifice y3 at Dlwillson; move r1 from Golden to G2; move r2 from Sea to G2; move y3 from Sea to B2; catastrophe red at G2
+sacrifice y2 at B2; move y3 from B2 to R3 (r3); move g2 from B2 to R3
+build g1 at Dlwillson
+build g2 at Draw5Playall
+move g1 from Dlwillson to Golden
+convert g2 to y2 at Draw5Playall
+build g2 at Golden
+convert y1 to r1 at Draw5Playall
+move g2 from Golden to B2
+build y1 at R3
+sacrifice g3 at Dlwillson; build g2 at B2; build g3 at Sea; build g3 at Dlwillson
+build b1 at Draw5Playall
+convert g3 to y3 at Sea
+build g3 at R3
+sacrifice g3 at Dlwillson; build g3 at Dlwillson; build y1 at Sea; build y2 at B2
+move b1 from Draw5Playall to B2
+sacrifice y2 at B2; move g2 from B2 to R3; move g1 from Sea to R3; catastrophe green at R3
+build y2 at Draw5Playall
+sacrifice y3 at Sea; move y3 from B2 to Draw5Playall; move r3 from Golden to B2; move r3 from B2 to Draw5Playall
+capture r3 at Draw5Playall
+sacrifice r2 at Dlwillson; capture r3 at Draw5Playall; capture g3 at Draw5Playall

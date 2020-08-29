@@ -1,0 +1,28 @@
+Ajo (0, y1b3) g3-
+Mneme (1, r1b2) -g3
+build g1 at Ajo
+build g1 at Mneme
+convert g1 to r1 at Ajo
+convert g1 to y1 at Mneme
+build g1 at Ajo
+build y1 at Mneme
+convert g3 to y3 at Ajo
+build y2 at Mneme
+build y2 at Ajo
+move y1 from Mneme to Staging (b3)
+move y2 from Ajo to Alpha (b2)
+move y1 from Mneme to Violet (b3)
+convert y3 to g3 at Ajo
+build g1 at Mneme
+move g1 from Ajo to Alpha
+move g1 from Mneme to Host (y3)
+build y2 at Alpha
+build y3 at Mneme
+move y2 from Alpha to Violet
+convert y2 to r2 at Mneme
+sacrifice r1 at Ajo; capture y1 at Violet
+move g3 from Mneme to Violet
+sacrifice y1 at Violet; move y2 from Violet to Beta (b2)
+sacrifice y3 at Mneme; move g3 from Violet to Alpha; move g3 from Alpha to Ajo; move g1 from Host to Mneme
+sacrifice y2 at Beta; move y2 from Alpha to Ajo; move g1 from Alpha to Ajo
+sacrifice r2 at Mneme; capture g3 at Ajo; capture g1 at Ajo

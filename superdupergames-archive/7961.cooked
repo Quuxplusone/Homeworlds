@@ -1,0 +1,9 @@
+Kobeyu (0, b2y3) g3-
+Prock (1, y2b1) -g3
+build g1 at Kobeyu
+build g1 at Prock
+convert g1 to y1 at Kobeyu
+convert g1 to y1 at Prock
+build g1 at Kobeyu
+sacrifice g3 at Prock; build y1 at Prock; build y2 at Prock; build y2 at Prock
+move g1 from Kobeyu to Fiji (b1); catastrophe yellow at Prock

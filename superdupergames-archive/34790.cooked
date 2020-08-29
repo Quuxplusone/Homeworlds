@@ -1,0 +1,50 @@
+Analogkid (0, r2b3) g3-
+Babamots (1, b3r1) -g3
+build g1 at Analogkid
+build g1 at Babamots
+convert g1 to r1 at Analogkid
+convert g1 to r1 at Babamots
+build r2 at Analogkid
+build r2 at Babamots
+convert r1 to y1 at Analogkid
+convert r1 to y1 at Babamots
+build r1 at Analogkid
+build g1 at Babamots
+move r1 from Analogkid to Lyese (g1)
+move r2 from Babamots to Trill (g2)
+convert r2 to b2 at Analogkid
+build y1 at Babamots
+build y2 at Analogkid
+move y1 from Babamots to Trill
+move y2 from Analogkid to Lyese
+build y2 at Trill
+sacrifice g3 at Analogkid; build y2 at Lyese; build y3 at Analogkid; build b1 at Analogkid
+build y3 at Babamots
+convert y3 to g3 at Analogkid
+convert y1 to b1 at Babamots
+move b1 from Analogkid to Lyese
+move y1 from Trill to Romulus (r1)
+move y2 from Lyese to Polaris_Aa (y3)
+build g1 at Babamots
+build g2 at Analogkid
+move g1 from Babamots to Bolarus (b2)
+sacrifice g2 at Analogkid; build y1 at Lyese; build y3 at Analogkid
+build g2 at Bolarus
+move y3 from Analogkid to Romulus
+sacrifice g3 at Babamots; build g2 at Babamots; build g3 at Babamots; build g3 at Bolarus
+capture y1 at Romulus
+move g3 from Babamots to Trill
+build b1 at Lyese
+move g3 from Trill to Lyese
+sacrifice y2 at Lyese; move b1 from Lyese to Sol (y2); move b1 from Lyese to Sol
+move b1 from Babamots to Trill
+sacrifice y2 at Polaris_Aa; move b1 from Sol to Babamots; move b1 from Sol to Babamots
+sacrifice g3 at Bolarus; build b2 at Trill; build b3 at Trill; build g3 at Bolarus
+sacrifice y3 at Romulus; move b2 from Analogkid to Romulus; move b2 from Romulus to Bolarus; move b2 from Bolarus to Babamots; catastrophe blue at Babamots
+sacrifice y3 at Babamots; move b3 from Trill to Romulus; move b3 from Romulus to Analogkid; move g3 from Lyese to Analogkid
+capture b3 at Analogkid
+sacrifice r2 at Trill; capture g3 at Analogkid; capture b3 at Analogkid
+move r1 from Lyese to Analogkid
+capture r1 at Analogkid
+build y2 at Lyese
+capture y1 at Analogkid

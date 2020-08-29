@@ -1,0 +1,7 @@
+Ajo (0, g3b2) y3-
+Cheinzmann (1, b3g1) -y3
+build y1 at Ajo
+build y1 at Cheinzmann
+build y1 at Ajo
+build y2 at Cheinzmann
+sacrifice y3 at Ajo; move y1 from Ajo to Aa (r1); move y1 from Aa to Ba (r2); move y1 from Ba to Cheinzmann; catastrophe yellow at Cheinzmann

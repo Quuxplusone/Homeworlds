@@ -1,0 +1,43 @@
+Draw5Playall (0, b1r3) g3-
+Mxpf (1, b3y2) -g3
+build g1 at Draw5Playall
+build g1 at Mxpf
+convert g1 to y1 at Draw5Playall
+build g1 at Mxpf
+build g1 at Draw5Playall
+convert g1 to b1 at Mxpf
+move g1 from Draw5Playall to Icehouse (b2)
+move g1 from Mxpf to Arboria (g1)
+build g2 at Draw5Playall
+sacrifice g1 at Arboria; build b1 at Mxpf
+build y1 at Draw5Playall
+move b1 from Mxpf to Amber (y1)
+build y2 at Draw5Playall
+build b2 at Mxpf
+move y2 from Draw5Playall to Icehouse
+convert b2 to y2 at Mxpf
+build y3 at Icehouse
+sacrifice g3 at Mxpf; build b2 at Amber; build b2 at Amber; build b3 at Mxpf
+convert y3 to r3 at Icehouse
+move b1 from Amber to Icehouse
+sacrifice y2 at Icehouse; move r3 from Icehouse to Amber; move g1 from Icehouse to Amber
+convert b1 to r1 at Icehouse
+capture b2 at Amber
+sacrifice b2 at Amber; convert b3 to r3 at Mxpf; convert b1 to g1 at Mxpf
+move g2 from Draw5Playall to Action (b2)
+build y2 at Mxpf
+build y3 at Draw5Playall
+move y2 from Mxpf to Scrofula (g1)
+move y1 from Draw5Playall to Action
+build y3 at Scrofula
+build y3 at Action
+build g2 at Mxpf
+build g2 at Draw5Playall
+convert g1 to r1 at Mxpf
+sacrifice g3 at Draw5Playall; build g1 at Action; build g3 at Draw5Playall; build b1 at Amber
+move y3 from Scrofula to Action
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build g3 at Amber; build b1 at Amber
+sacrifice r3 at Mxpf; capture y3 at Action; capture g2 at Action; capture y1 at Action
+sacrifice y3 at Draw5Playall; move y1 from Draw5Playall to Action; move r3 from Amber to Mxpf; move g3 from Amber to Mxpf
+sacrifice y2 at Scrofula; move y1 from Action to Argo (y3); move y3 from Action to Amber
+sacrifice r3 at Mxpf; capture r1 at Mxpf; capture g2 at Mxpf; capture y2 at Mxpf

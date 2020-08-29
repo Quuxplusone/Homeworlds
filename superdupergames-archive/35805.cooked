@@ -1,0 +1,43 @@
+Trydnt (0, b2y1) g3-
+Dlwillson (1, r3b1) -g3
+build g1 at Trydnt
+build g1 at Dlwillson
+convert g1 to b1 at Trydnt
+convert g1 to b1 at Dlwillson
+build b2 at Trydnt
+build b2 at Dlwillson
+move b2 from Trydnt to G3 (g3)
+convert b2 to y2 at Dlwillson
+convert b2 to y2 at G3
+build y1 at Dlwillson
+build b2 at Trydnt
+build b2 at Dlwillson
+move b1 from Trydnt to G3
+move b1 from Dlwillson to Field (g2)
+build b3 at G3
+build b3 at Field
+move b1 from G3 to G2 (g2)
+convert b3 to r3 at Field
+convert b2 to r2 at Trydnt
+move y1 from Dlwillson to G2
+build b2 at G2
+move b2 from Dlwillson to Alsofield (g2)
+convert b2 to r2 at G2
+move y1 from G2 to Sky (b3)
+move b3 from G3 to Alsofield
+build b2 at Alsofield
+build b3 at G2
+sacrifice y2 at Dlwillson; move b2 from Alsofield to Sol (y3); move b2 from Alsofield to Alsosol (y3)
+build y1 at G3
+build g1 at Dlwillson
+build y2 at G3
+convert y1 to g1 at Sky
+sacrifice y2 at G3; move r2 from G2 to Sky; move b3 from G2 to Sol
+sacrifice g3 at Dlwillson; build g1 at Sky; build r1 at Field; build g3 at Dlwillson
+capture g1 at Sky
+convert r1 to y1 at Field
+move y2 from G3 to Alsofield
+move b2 from Sol to G2
+build r1 at Sky
+build y2 at Field
+sacrifice g1 at Sky; build g1 at Trydnt

@@ -1,0 +1,51 @@
+Madwuher (0, b2y3) g3-
+Djanyreason (1, b1r2) -g3
+build g1 at Madwuher
+build g1 at Djanyreason
+convert g1 to b1 at Madwuher
+convert g1 to y1 at Djanyreason
+build b1 at Madwuher
+build y1 at Djanyreason
+move b1 from Madwuher to Edora (g1)
+move y1 from Djanyreason to S1 (g3)
+build b2 at Edora
+build g1 at Djanyreason
+convert b2 to y2 at Edora
+build g1 at Djanyreason
+build g2 at Madwuher
+move g1 from Djanyreason to S2 (b3)
+sacrifice g3 at Madwuher; build b2 at Edora; build b2 at Edora; build b3 at Madwuher
+move g1 from Djanyreason to S3 (b3)
+sacrifice b2 at Edora; convert b3 to g3 at Madwuher; convert b2 to r2 at Edora
+build g2 at Djanyreason
+sacrifice g3 at Madwuher; build g2 at Madwuher; build g3 at Madwuher; build b2 at Edora
+convert g2 to b2 at Djanyreason
+build b3 at Edora
+move b2 from Djanyreason to S4 (y3)
+sacrifice b1 at Edora; convert b3 to y3 at Edora
+build g2 at Djanyreason
+move r2 from Edora to S2
+move y1 from S1 to Edora
+sacrifice b2 at Edora; convert y3 to r3 at Edora; convert g2 to y2 at Madwuher
+move y1 from Edora to Madwuher
+sacrifice r2 at S2; capture y1 at Madwuher
+sacrifice g3 at Djanyreason; build g2 at S2; build g3 at Djanyreason; build g3 at Djanyreason
+sacrifice y1 at Madwuher; move b1 from Madwuher to Edora
+sacrifice b2 at S4; convert g1 to b1 at S2; convert g2 to b2 at Djanyreason
+build b2 at Edora
+sacrifice b2 at Djanyreason; convert g3 to b3 at Djanyreason; convert g2 to y2 at S2
+move b2 from Edora to Bologna (g3)
+sacrifice y2 at S2; move g1 from S3 to Edora; move g1 from Edora to Madwuher
+convert g3 to r3 at Madwuher
+build g1 at Madwuher
+capture g1 at Madwuher
+build g2 at Madwuher; catastrophe green at Madwuher
+convert y2 to g2 at Madwuher
+build y1 at Djanyreason
+build b2 at Edora
+convert b1 to g1 at S2
+build b1 at Bologna
+move b3 from Djanyreason to S3 (r3)
+build b3 at Bologna
+sacrifice g1 at S2; build b3 at S3
+sacrifice y2 at Edora; move b1 from Edora to S3; move b2 from Edora to S3; catastrophe blue at S3

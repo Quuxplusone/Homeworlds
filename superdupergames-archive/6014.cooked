@@ -1,0 +1,84 @@
+Eriinfo (0, y3b1) g3-
+Jeep (1, y1b2) -g3
+build g1 at Eriinfo
+build g1 at Jeep
+convert g1 to b1 at Eriinfo
+convert g1 to b1 at Jeep
+build b2 at Eriinfo
+build b2 at Jeep
+move b2 from Eriinfo to Wise (g2)
+convert b2 to y2 at Jeep
+build g1 at Eriinfo
+move b1 from Jeep to Cowardly (y3)
+convert g1 to r1 at Eriinfo
+build y1 at Jeep
+convert b2 to y2 at Wise
+build g1 at Jeep
+build y1 at Wise
+move y1 from Jeep to Lion (y3)
+build g1 at Eriinfo
+convert g1 to r1 at Jeep
+move y2 from Wise to Owl (g3)
+build g1 at Jeep
+build y2 at Wise
+move g1 from Jeep to Cowardly
+move b1 from Eriinfo to Wise
+build b2 at Cowardly
+move b1 from Wise to Owl
+build g1 at Jeep
+move g1 from Eriinfo to Cire (b2)
+move b1 from Cowardly to Tin (g2)
+build b3 at Owl
+build b3 at Tin
+build g2 at Cire
+sacrifice g3 at Jeep; build g3 at Jeep; build b3 at Cowardly; build r1 at Jeep
+build r2 at Eriinfo
+convert b3 to r3 at Tin
+move r1 from Eriinfo to Cire
+move g1 from Jeep to Lion
+move b1 from Owl to Cire
+build b3 at Tin
+build r2 at Cire
+move y1 from Lion to Tin
+move y2 from Wise to Lion
+move r1 from Jeep to Cowardly
+move y2 from Owl to Cire
+move g1 from Lion to Jeep
+move g1 from Cire to Eriinfo
+sacrifice g3 at Jeep; build g3 at Jeep; build r2 at Tin; build r3 at Jeep
+build r3 at Eriinfo
+move g3 from Jeep to Lion
+move g2 from Cire to Owl
+sacrifice r1 at Jeep; capture y2 at Lion
+move r2 from Cire to Owl
+move y2 from Lion to Tin
+move y2 from Cire to Owl
+move y1 from Tin to Baron (r1)
+move g2 from Owl to Wise
+sacrifice g3 at Lion; build y3 at Baron; build g3 at Cowardly
+move y1 from Wise to Owl
+move b3 from Cowardly to Wise
+move y1 from Owl to Cire
+move r1 from Cowardly to Wise
+sacrifice r1 at Cire; capture r1 at Wise
+sacrifice r2 at Tin; capture r1 at Wise; capture g2 at Wise
+move g1 from Eriinfo to Cire
+sacrifice g3 at Cowardly; build g3 at Cowardly; build r1 at Wise; build r2 at Jeep
+move r3 from Eriinfo to Cire
+move y1 from Baron to Wise
+move r3 from Cire to Owl
+sacrifice y3 at Baron; move r1 from Wise to Owl; move r1 from Wise to Owl; move g2 from Wise to Bank (y3); catastrophe red at Owl
+move g1 from Cire to Bank
+sacrifice r2 at Jeep; capture g1 at Bank
+build r1 at Eriinfo
+move g1 from Bank to Wise
+move r1 from Eriinfo to Wise
+sacrifice g3 at Cowardly; build g3 at Cowardly; build r1 at Tin; build r1 at Jeep
+capture y1 at Wise
+sacrifice r3 at Tin; capture y1 at Wise; capture r1 at Wise
+move y2 from Owl to Cire
+move g3 from Cowardly to Cire
+move y2 from Cire to Cowardly
+sacrifice r3 at Jeep; capture y2 at Cowardly; capture y1 at Cire; capture b1 at Cire
+move r2 from Eriinfo to Rice (r2)
+sacrifice g3 at Cire; build g3 at Jeep; build r2 at Tin; build r3 at Wise

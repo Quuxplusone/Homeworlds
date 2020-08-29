@@ -1,0 +1,62 @@
+Shmil1 (0, r1b2) g3-
+Radio414 (1, b3r1) -g3
+build g1 at Shmil1
+build g1 at Radio414
+convert g1 to y1 at Shmil1
+convert g1 to y1 at Radio414
+build g1 at Shmil1
+build g1 at Radio414
+convert g1 to b1 at Shmil1
+convert g1 to b1 at Radio414
+build g1 at Shmil1
+build g1 at Radio414
+move g1 from Shmil1 to Modry (b3)
+move b1 from Radio414 to Jaroslav (g2)
+move b1 from Shmil1 to Modry
+move g1 from Radio414 to Jaroslav
+move y1 from Shmil1 to Modry
+build b1 at Jaroslav
+build b2 at Modry
+sacrifice y1 at Radio414; move b1 from Jaroslav to Modry; catastrophe blue at Modry
+build g1 at Shmil1
+build b1 at Jaroslav
+convert g1 to y1 at Shmil1
+build g1 at Radio414
+build y1 at Shmil1
+convert g1 to b1 at Radio414
+build g1 at Shmil1
+convert b1 to r1 at Jaroslav
+move g1 from Shmil1 to Modradobra (b3)
+build r2 at Jaroslav
+move y1 from Shmil1 to Modradobra
+convert r1 to y1 at Jaroslav
+build y2 at Modradobra
+build y2 at Jaroslav
+convert y1 to b1 at Modradobra
+move r2 from Jaroslav to Modradobra
+sacrifice y2 at Modradobra; move b1 from Modradobra to Jaroslav; move g1 from Modradobra to Jaroslav
+convert b1 to r1 at Jaroslav
+build g1 at Jaroslav; catastrophe green at Jaroslav
+build g1 at Radio414
+build g1 at Shmil1
+convert b1 to y1 at Radio414
+move g1 from Shmil1 to Zluta (y3)
+convert g1 to b1 at Radio414
+move g1 from Zluta to Modra2 (b2)
+move b1 from Radio414 to Modra2
+build g1 at Modra2
+sacrifice r2 at Modradobra; capture g1 at Modra2; capture g1 at Modra2
+build g1 at Shmil1
+build g2 at Radio414
+move g1 from Shmil1 to Zluty (y3)
+convert g1 to r1 at Modra2
+move g1 from Zluty to Modry (b2)
+build r2 at Modra2
+build g1 at Modry
+convert g2 to y2 at Radio414
+convert g1 to y1 at Modry
+build b1 at Modra2
+build y2 at Shmil1
+move y1 from Radio414 to Modry
+sacrifice g3 at Shmil1; build y2 at Modry; build y3 at Shmil1; build g1 at Modry
+sacrifice y2 at Radio414; move y1 from Modry to Goodgame (r3); move y1 from Goodgame to Shmil1; catastrophe yellow at Shmil1

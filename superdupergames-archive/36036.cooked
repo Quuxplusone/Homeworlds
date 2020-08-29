@@ -1,0 +1,36 @@
+Huddyrx (0, b3y1) g3-
+Tkvaran (1, r1b2) -g3
+build g1 at Huddyrx
+build g1 at Tkvaran
+convert g1 to y1 at Huddyrx
+convert g1 to y1 at Tkvaran
+build g1 at Huddyrx
+build g1 at Tkvaran
+build y2 at Huddyrx
+move g1 from Tkvaran to Freddie (b3)
+move y1 from Huddyrx to Alderaan (g2)
+build y2 at Tkvaran
+convert g1 to b1 at Huddyrx
+build g1 at Freddie
+move b1 from Huddyrx to Alderaan
+move y1 from Tkvaran to Freddie
+build b1 at Alderaan
+convert g1 to r1 at Freddie
+build y2 at Alderaan
+build r1 at Freddie
+convert y2 to r2 at Huddyrx
+build y2 at Freddie
+move b1 from Alderaan to Naboo (g3)
+move y2 from Tkvaran to Naboo
+build b1 at Naboo
+build y3 at Naboo
+move y1 from Alderaan to Bespin (g1)
+sacrifice y2 at Naboo; move r1 from Freddie to Alderaan; move y2 from Freddie to Alderaan
+sacrifice y2 at Alderaan; move b1 from Alderaan to Naboo; move b1 from Naboo to Tkvaran
+build y2 at Alderaan
+build y2 at Bespin
+move y1 from Freddie to Jason (r2)
+build b2 at Naboo
+capture b1 at Tkvaran
+build r2 at Huddyrx
+sacrifice y3 at Naboo; move y2 from Alderaan to Huddyrx; move y2 from Alderaan to Huddyrx; move y1 from Jason to Huddyrx; catastrophe yellow at Huddyrx

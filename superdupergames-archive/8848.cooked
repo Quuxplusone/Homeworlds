@@ -1,0 +1,42 @@
+Zoltar (0, r1b2) g3-
+Mr_Shine (1, b2y3) -g3
+build g1 at Zoltar
+build g1 at Mr_Shine
+convert g1 to y1 at Zoltar
+build g1 at Mr_Shine
+build g1 at Zoltar
+convert g1 to y1 at Mr_Shine
+convert g1 to r1 at Zoltar
+convert g1 to r1 at Mr_Shine
+build r2 at Zoltar
+build r2 at Mr_Shine
+move r2 from Zoltar to Greengiant (g3)
+convert r2 to b2 at Mr_Shine
+build r2 at Zoltar
+move b2 from Mr_Shine to New_Eden (g1)
+convert r1 to b1 at Zoltar
+build g1 at Mr_Shine
+move b1 from Zoltar to Greengiant
+convert g1 to b1 at Mr_Shine
+build g1 at Zoltar
+move y1 from Mr_Shine to New_Eden
+move g1 from Zoltar to Bloohoohoo (b3)
+build g1 at Mr_Shine
+build g2 at Zoltar
+move g1 from Mr_Shine to Sapphire (b1)
+sacrifice g3 at Zoltar; build g2 at Bloohoohoo; build g2 at Zoltar; build g3 at Zoltar
+sacrifice g3 at Mr_Shine; build g3 at Sapphire; build b3 at Mr_Shine; build b3 at New_Eden
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y1 at Zoltar; build y2 at Zoltar
+convert b3 to y3 at Mr_Shine
+sacrifice g2 at Zoltar; build b3 at Greengiant; build r1 at Greengiant
+sacrifice y1 at New_Eden; move g1 from Sapphire to Mr_Shine
+convert b3 to y3 at Greengiant
+build g2 at Sapphire
+sacrifice y2 at Zoltar; move g1 from Bloohoohoo to Sapphire; move g2 from Bloohoohoo to Sapphire; catastrophe green at Sapphire
+build r2 at Mr_Shine
+move r2 from Greengiant to Attackoutpost (y1)
+sacrifice r1 at Mr_Shine
+build y2 at Greengiant
+convert b2 to y2 at New_Eden
+build y2 at Zoltar
+move b1 from Mr_Shine to Lonelybluestar (b1)

@@ -1,0 +1,47 @@
+Lexicon (0, b3g2) y3-
+Aaron (1, y1b2) -g3
+build y1 at Lexicon
+build g1 at Aaron
+convert y1 to g1 at Lexicon
+convert g1 to r1 at Aaron
+build g1 at Lexicon
+build r1 at Aaron
+move g1 from Lexicon to Gopher (y1)
+move r1 from Aaron to Bananas (y3)
+build y1 at Lexicon
+move r1 from Bananas to Gopher
+move g1 from Gopher to Ftp (b3)
+move r1 from Gopher to Ftp
+build g1 at Ftp
+capture g1 at Ftp
+build g2 at Ftp
+build g2 at Ftp; catastrophe green at Ftp
+build y1 at Lexicon
+build g1 at Aaron
+move y1 from Lexicon to Gopher (g1)
+convert g3 to y3 at Aaron
+build g2 at Lexicon
+build y2 at Aaron
+build y2 at Gopher
+move y2 from Aaron to Ftp
+move g2 from Lexicon to Gopher
+sacrifice y2 at Ftp; move r1 from Ftp to Gopher; move r1 from Gopher to Lexicon
+convert y3 to r3 at Lexicon
+capture g1 at Lexicon
+capture g1 at Lexicon
+capture g1 at Lexicon
+sacrifice y2 at Gopher; move g2 from Gopher to Http (b3); move y1 from Gopher to Http
+build g1 at Lexicon
+build y2 at Lexicon
+build g2 at Lexicon; catastrophe green at Lexicon
+sacrifice y2 at Lexicon; move y1 from Lexicon to Aaron; move y1 from Http to Aaron; catastrophe yellow at Aaron
+build g1 at Aaron
+capture r1 at Lexicon
+convert g1 to y1 at Aaron
+convert r1 to y1 at Lexicon
+build g1 at Aaron
+build g1 at Http
+move g1 from Aaron to Archie (y3)
+sacrifice g1 at Http; build r1 at Lexicon
+pass
+sacrifice y1 at Lexicon; move g2 from Http to Aaron

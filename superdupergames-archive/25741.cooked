@@ -1,0 +1,49 @@
+Ts52 (0, y1b2) g3-
+Wil (1, b3g2) -y3
+build g1 at Ts52
+build y1 at Wil
+convert g1 to y1 at Ts52
+build y2 at Wil
+move y1 from Ts52 to Kermit (g3)
+convert y2 to r2 at Wil
+build g1 at Ts52
+build y2 at Wil
+convert g1 to r1 at Ts52
+convert y2 to b2 at Wil
+build y2 at Kermit
+convert y1 to g1 at Wil
+build g1 at Ts52
+move b2 from Wil to G1 (g1)
+move g1 from Ts52 to Grover (b3)
+move g1 from Wil to Y1 (y1)
+build g2 at Ts52
+build y2 at Wil
+convert g2 to r2 at Ts52
+build g2 at Y1
+move r2 from Ts52 to Kermit
+move g2 from Y1 to R3 (r3)
+move y2 from Kermit to G1
+sacrifice r2 at Wil; capture y2 at G1
+move r2 from Kermit to G1
+sacrifice y2 at Wil; move y2 from G1 to R3; move b2 from G1 to R3
+build y2 at Kermit
+build y2 at Wil
+move y1 from Kermit to G1
+convert y2 to r2 at Wil
+build r1 at G1
+build r1 at Wil
+move r2 from G1 to Grover
+move b2 from R3 to G1
+sacrifice g3 at Ts52; build r2 at Grover; build r3 at Ts52; build r3 at G1
+build g2 at R3
+capture b2 at G1
+build g3 at Y1
+build g3 at Grover
+sacrifice g3 at Y1; build g3 at Y1; build y2 at Wil; build y3 at R3
+sacrifice g3 at Grover; build g3 at Grover; build b1 at G1; build y3 at Kermit
+convert r2 to b2 at Wil
+sacrifice y2 at Kermit; move b1 from G1 to Wil; move b2 from G1 to Wil; catastrophe blue at Wil
+build r2 at Wil
+sacrifice y3 at Kermit; move r1 from G1 to Wil; move r2 from Grover to Wil; catastrophe red at Wil
+move y2 from Wil to B3 (b3)
+move r3 from G1 to Wil

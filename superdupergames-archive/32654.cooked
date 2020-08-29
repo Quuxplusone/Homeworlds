@@ -1,0 +1,43 @@
+Wil (0, b2r1) g3-
+Felix (1, b1r3) -g3
+build g1 at Wil
+build g1 at Felix
+convert g1 to b1 at Wil
+convert g1 to y1 at Felix
+build b1 at Wil
+build y1 at Felix
+convert b1 to y1 at Wil
+move y1 from Felix to Gold (y2)
+build b1 at Wil
+build y2 at Felix
+move b1 from Wil to Y3 (y3)
+move y1 from Gold to Horcrux (b3)
+sacrifice g3 at Wil; build b2 at Y3; build b2 at Y3; build b3 at Wil
+sacrifice g3 at Felix; build y2 at Horcrux; build y2 at Horcrux; build y3 at Felix
+move y1 from Wil to Horcrux; catastrophe yellow at Horcrux
+convert y1 to g1 at Felix
+move b1 from Y3 to G2 (g2)
+convert y3 to b3 at Felix
+build b3 at G2
+move b3 from Felix to Gremlin (g2)
+convert b3 to y3 at Wil
+build y1 at Felix
+convert b3 to y3 at G2
+build g1 at Felix
+convert b2 to r2 at Y3
+build g1 at Felix
+convert y3 to g3 at Wil
+move g1 from Felix to Kremlin (g2)
+move r2 from Y3 to Kremlin
+build g3 at Felix
+build g3 at Wil
+convert g3 to r3 at Felix
+convert g3 to y3 at Wil
+move g1 from Felix to Frost (b2)
+build g3 at Wil
+build b3 at Gremlin
+sacrifice g3 at Wil; build g3 at Wil; build r1 at Kremlin; build b3 at G2
+build g3 at Felix
+sacrifice y3 at G2; move b3 from G2 to Felix; move r2 from Kremlin to Felix; move r1 from Kremlin to Felix; catastrophe red at Felix
+convert g3 to r3 at Felix
+sacrifice y3 at Wil; move g3 from Wil to Y3; move b2 from Y3 to Felix; move b1 from G2 to Felix; catastrophe blue at Felix

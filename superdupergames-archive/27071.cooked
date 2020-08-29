@@ -1,0 +1,42 @@
+Wil (0, b2y1) g3-
+Teeteetee (1, b1y3) -g3
+build g1 at Wil
+build g1 at Teeteetee
+convert g1 to b1 at Wil
+convert g1 to b1 at Teeteetee
+build b2 at Wil
+build b2 at Teeteetee
+convert b2 to r2 at Wil
+move b1 from Teeteetee to Apple (g2)
+move b1 from Wil to G3 (g3)
+sacrifice g3 at Teeteetee; build b2 at Apple; build b3 at Apple; build b3 at Teeteetee
+build b3 at G3
+convert b3 to y3 at Apple
+convert b1 to y1 at G3
+convert b3 to g3 at Teeteetee
+build y1 at G3
+build y2 at Apple
+move y1 from G3 to Apple
+convert y3 to r3 at Apple
+build y2 at Apple
+move b1 from Apple to G3
+build r1 at Wil
+sacrifice g3 at Teeteetee; build b1 at G3; build b3 at Teeteetee; build b3 at G3; catastrophe blue at G3
+sacrifice r2 at Wil; capture b2 at Apple; capture y2 at Apple
+capture b2 at Apple
+sacrifice g3 at Wil; build y2 at Apple; build y3 at G3; build y3 at G3; catastrophe yellow at Apple
+convert b3 to g3 at Teeteetee
+move y3 from G3 to Wil
+sacrifice g3 at Teeteetee; build b1 at Apple; build b1 at Apple; build b3 at Teeteetee
+convert y3 to g3 at Wil
+convert b3 to g3 at Teeteetee
+move y3 from G3 to Wil
+build b3 at Teeteetee
+convert y3 to b3 at Wil
+convert b3 to y3 at Teeteetee
+move b3 from Wil to G3
+build b3 at Teeteetee
+move b3 from G3 to G2 (g2)
+move b3 from Teeteetee to G2
+sacrifice y1 at G3; move b3 from G2 to Y3 (y3)
+build b3 at G2

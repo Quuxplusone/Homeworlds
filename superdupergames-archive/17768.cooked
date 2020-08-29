@@ -1,0 +1,32 @@
+Dlwillson (0, b2r1) g3-
+Twoshort (1, b1r3) -g3
+build g1 at Dlwillson
+build g1 at Twoshort
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Twoshort
+build g1 at Dlwillson
+build g1 at Twoshort
+convert g1 to b1 at Dlwillson
+build y1 at Twoshort
+build y2 at Dlwillson
+build y2 at Twoshort
+build y2 at Dlwillson
+move y1 from Twoshort to Grogar (g2)
+move y1 from Dlwillson to G802 (g3)
+build y3 at Grogar
+build y3 at G802
+move y1 from Twoshort to Greenonia (g2)
+move y2 from Dlwillson to Y9T (y3)
+sacrifice y2 at Twoshort; move y1 from Grogar to G802; move y1 from Greenonia to G802; catastrophe yellow at G802
+build y1 at Dlwillson
+build g1 at Twoshort
+build b1 at Dlwillson
+convert g1 to y1 at Twoshort
+move y1 from Dlwillson to G901 (g3)
+build g1 at Twoshort
+sacrifice g3 at Dlwillson; build y1 at Y9T; build y2 at G901; build y3 at Dlwillson
+move g1 from Twoshort to Greenonia (g2)
+move b1 from Dlwillson to G9L (g3)
+sacrifice g3 at Twoshort; build g1 at Greenonia; build g2 at Twoshort; build g3 at Twoshort
+build b2 at G9L
+convert g2 to r2 at Twoshort

@@ -1,0 +1,65 @@
+Mandrel (0, b2y1) g3-
+Face (1, r3b2) -g3
+build g1 at Mandrel
+build g1 at Face
+convert g1 to y1 at Mandrel
+convert g3 to y3 at Face
+build g1 at Mandrel
+build g1 at Face
+move g1 from Mandrel to Awesome (y3)
+build g2 at Face
+build g2 at Mandrel
+convert g1 to r1 at Face
+convert g2 to r2 at Mandrel
+move g2 from Face to Tank (b1)
+build g1 at Awesome
+build g2 at Face
+build g2 at Mandrel
+build g3 at Tank
+convert g2 to y2 at Mandrel
+convert g3 to y3 at Tank
+move y1 from Mandrel to Awesome
+move r1 from Face to Tank
+move g1 from Awesome to Honour (b1)
+build y1 at Tank
+move g1 from Awesome to Honour
+move g2 from Face to Blitz (r1)
+build g2 at Mandrel
+build g3 at Blitz
+convert g2 to b2 at Mandrel
+move y1 from Tank to Plaster (g3)
+move y2 from Mandrel to Plaster
+build y2 at Tank
+move y1 from Awesome to Tank
+move y3 from Tank to Smash (r3)
+build y2 at Plaster
+capture y1 at Tank
+build g2 at Mandrel
+sacrifice g3 at Blitz; build g3 at Blitz; build y3 at Smash; build r1 at Tank
+move g2 from Mandrel to Plaster
+move y1 from Tank to Waste (r3)
+move g2 from Plaster to Blitz
+sacrifice g2 at Blitz; build g2 at Tank
+build r2 at Mandrel
+capture g2 at Blitz
+move r2 from Mandrel to Waste
+move y1 from Plaster to Mandrel
+move y2 from Plaster to Honour
+move y1 from Waste to Mandrel
+build r2 at Mandrel
+move y3 from Smash to Mandrel; catastrophe yellow at Mandrel
+convert g3 to y3 at Mandrel
+move y3 from Smash to Blitz
+build y1 at Honour
+move r1 from Tank to Intoxicate (b3)
+build y1 at Plaster
+sacrifice g3 at Blitz; build g3 at Blitz; build r3 at Intoxicate; build y1 at Tank
+sacrifice y2 at Plaster; move y1 from Honour to Face; move y2 from Honour to Face
+convert y3 to b3 at Face
+sacrifice b2 at Mandrel; convert y2 to b2 at Face; convert y1 to b1 at Face; catastrophe blue at Face
+move y3 from Blitz to Face
+sacrifice y1 at Plaster; move g1 from Honour to Mandrel
+build y1 at Face
+move r2 from Mandrel to Face
+capture r2 at Face
+sacrifice y3 at Mandrel; move r2 from Mandrel to Face; move r2 from Waste to Mandrel; move r2 from Mandrel to Face; catastrophe red at Face

@@ -1,0 +1,68 @@
+Lorgar (0, b3y1) g3-
+Dragmio (1, b2g1) -r3
+build g1 at Lorgar
+build r1 at Dragmio
+build g1 at Lorgar
+build r1 at Dragmio
+convert g1 to r1 at Lorgar
+convert r1 to y1 at Dragmio
+move g1 from Lorgar to Pot (b2)
+build y1 at Dragmio
+build g1 at Lorgar
+build y2 at Dragmio
+build g2 at Pot
+convert y2 to g2 at Dragmio
+convert g2 to y2 at Pot
+build y2 at Dragmio
+build g2 at Pot
+move y2 from Dragmio to Able (b3)
+move g2 from Pot to Weed (b3)
+move g2 from Dragmio to Able
+build r1 at Lorgar
+build y2 at Dragmio
+sacrifice g3 at Lorgar; build g2 at Pot; build g3 at Weed; build g3 at Lorgar
+build y3 at Able
+move g2 from Pot to Marmec (g3)
+move y3 from Able to Pot
+sacrifice g3 at Lorgar; build g3 at Lorgar; build y3 at Pot; build y3 at Pot; catastrophe yellow at Pot
+move y2 from Able to Pot
+sacrifice g3 at Weed; build g3 at Pot
+move y2 from Pot to Able
+move r1 from Lorgar to Pot
+build y2 at Able
+sacrifice g2 at Marmec; build g2 at Weed; build g3 at Weed
+sacrifice y2 at Dragmio; move g2 from Able to Dragmio; move g2 from Dragmio to Weed; catastrophe green at Weed
+build r2 at Pot
+convert y2 to g2 at Able
+convert r2 to y2 at Pot
+sacrifice g2 at Able; build y2 at Dragmio; build y3 at Able
+move g1 from Pot to Kaya (y3)
+convert y3 to g3 at Able
+build y3 at Pot
+build y3 at Able
+move y2 from Pot to Soulcaptives (b3)
+sacrifice y2 at Dragmio; move y3 from Able to Pot; move g3 from Able to Pot
+capture g3 at Pot
+sacrifice r3 at Dragmio; capture g3 at Pot; capture y3 at Pot; capture g3 at Pot
+move y2 from Soulcaptives to Dragmio
+sacrifice y2 at Able; move g3 from Pot to Kaya; move g3 from Kaya to Dragmio
+convert y2 to g2 at Dragmio
+convert g3 to r3 at Dragmio
+convert r1 to b1 at Pot
+capture g2 at Dragmio
+sacrifice g3 at Lorgar; build b1 at Pot; build b1 at Pot; build g2 at Kaya; catastrophe blue at Pot
+move r3 from Dragmio to Kaya
+build g2 at Kaya
+move g2 from Dragmio to Kaya; catastrophe green at Kaya
+build r1 at Lorgar
+move r3 from Kaya to Plavi (b2)
+build g1 at Lorgar
+build r2 at Dragmio
+move g1 from Lorgar to Catonemoidia (b2)
+convert r3 to y3 at Plavi
+build g2 at Lorgar
+move y3 from Plavi to Lorgar
+convert g2 to y2 at Lorgar
+sacrifice r2 at Dragmio; capture r1 at Lorgar; capture r1 at Lorgar
+build y2 at Lorgar; catastrophe yellow at Lorgar
+capture g1 at Lorgar

@@ -1,0 +1,25 @@
+Trydnt (0, b2y3) g3-
+Felix (1, y1b3) -g3
+build g1 at Trydnt
+build g1 at Felix
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Felix
+build y2 at Trydnt
+build y2 at Felix
+move y1 from Trydnt to G1 (g1)
+convert y1 to b1 at Felix
+build y1 at Trydnt
+move y2 from Felix to Oompa (g2)
+move y2 from Trydnt to G11 (g1)
+build y2 at Oompa
+build y3 at G1
+move y2 from Oompa to G11
+build y3 at G11
+build b1 at Felix
+move y2 from G11 to B2 (b2)
+move b1 from Felix to Oompa
+convert y1 to r1 at Trydnt
+move y2 from G11 to Bronx (b2)
+sacrifice y2 at B2; move y3 from G1 to Bronx; move y3 from Bronx to Felix
+sacrifice y2 at Oompa; move g3 from Felix to Bronx; move y2 from Bronx to Felix
+convert y3 to r3 at Felix

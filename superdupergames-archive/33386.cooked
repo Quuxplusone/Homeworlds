@@ -1,0 +1,8 @@
+Blueskies (0, r1b2) g3-
+Babamots (1, g3y2) -b3
+build g1 at Blueskies
+build b1 at Babamots
+convert g1 to y1 at Blueskies
+build b1 at Babamots
+move y1 from Blueskies to Biggreen (g3)
+move b1 from Babamots to Betazed (g1)

@@ -1,0 +1,19 @@
+Trydnt (0, b3g1) r3-
+Fogus (1, b2r1) -g3
+build r1 at Trydnt
+build g1 at Fogus
+convert r1 to y1 at Trydnt
+build g1 at Fogus
+build r1 at Trydnt
+convert g1 to y1 at Fogus
+convert r1 to g1 at Trydnt
+build g2 at Fogus
+build g2 at Trydnt
+move y1 from Fogus to Foo (g3)
+move g2 from Trydnt to B2 (b2)
+convert g3 to y3 at Fogus
+build r1 at Trydnt
+convert g1 to b1 at Fogus
+build r1 at Trydnt
+build b1 at Fogus
+move r1 from Trydnt to B2

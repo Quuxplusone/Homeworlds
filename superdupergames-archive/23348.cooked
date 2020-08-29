@@ -1,0 +1,28 @@
+Dungeon (0, b2y1) g3-
+Adwm86 (1, g3y2) -b3
+build g1 at Dungeon
+build b1 at Adwm86
+move g1 from Dungeon to Nar_Shaddaa (g3)
+convert b3 to r3 at Adwm86
+build g1 at Dungeon
+build b1 at Adwm86
+convert g1 to b1 at Dungeon
+build b2 at Adwm86
+move b1 from Dungeon to Ywing (y3)
+move b2 from Adwm86 to Death_Star (g1)
+build g1 at Dungeon
+build b2 at Death_Star
+move g1 from Dungeon to Ywing
+build b3 at Adwm86
+build g2 at Nar_Shaddaa
+move b3 from Adwm86 to Tie_Fighter (y1)
+build b3 at Ywing
+convert b3 to r3 at Tie_Fighter
+convert b3 to y3 at Ywing
+move r3 from Tie_Fighter to Ywing
+sacrifice g2 at Nar_Shaddaa; build b3 at Ywing; build g2 at Nar_Shaddaa
+capture b3 at Ywing
+sacrifice y3 at Ywing; move b1 from Ywing to Xwing (y1); move g1 from Ywing to Xwing; move g2 from Nar_Shaddaa to Xwing
+move r3 from Ywing to Dungeon
+convert g3 to r3 at Dungeon
+capture r3 at Dungeon

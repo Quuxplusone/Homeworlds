@@ -1,0 +1,47 @@
+Felix (0, r1b3) g3-
+Kataclysm (1, b2g1) -r3
+build g1 at Felix
+build r1 at Kataclysm
+convert g1 to y1 at Felix
+convert r1 to y1 at Kataclysm
+build g1 at Felix
+convert r3 to y3 at Kataclysm
+build g1 at Felix
+convert y1 to r1 at Kataclysm
+move g1 from Felix to Rim (b2)
+build y1 at Kataclysm
+build g2 at Rim
+build r1 at Kataclysm
+convert g2 to y2 at Rim
+build r2 at Kataclysm
+build g2 at Rim
+convert r1 to b1 at Kataclysm
+move g2 from Rim to Rom (b3)
+move r2 from Kataclysm to Rom
+sacrifice g2 at Rom; build g2 at Rim; build g2 at Rim
+build r1 at Kataclysm
+convert g2 to r2 at Rim
+build r2 at Kataclysm
+move g2 from Rim to Ram (b3)
+move r2 from Kataclysm to Ram
+sacrifice r2 at Rim; capture r2 at Ram
+convert r2 to g2 at Rom
+sacrifice g3 at Felix; build g2 at Ram; build g3 at Rim; build g3 at Felix
+build r2 at Kataclysm
+sacrifice g3 at Felix; build g3 at Felix; build g3 at Ram; build r2 at Ram
+move r1 from Kataclysm to Glorax (y3)
+convert g3 to y3 at Ram
+build b1 at Kataclysm
+convert g1 to b1 at Felix
+move b1 from Kataclysm to Glorax
+move g1 from Rim to Volcano (r3)
+move b1 from Kataclysm to Grassyknoll (g3)
+move y2 from Rim to Grassyknoll
+build b2 at Grassyknoll
+sacrifice r2 at Ram; capture b2 at Grassyknoll; capture b1 at Grassyknoll
+convert b1 to g1 at Glorax
+move g2 from Ram to Kataclysm
+capture g2 at Kataclysm
+sacrifice y2 at Grassyknoll; move g2 from Ram to Kataclysm; move g1 from Volcano to Kataclysm; catastrophe green at Kataclysm
+convert r1 to g1 at Kataclysm
+sacrifice y3 at Ram; move b1 from Grassyknoll to Kataclysm; move b2 from Grassyknoll to Kataclysm; move b1 from Felix to Kataclysm; catastrophe blue at Kataclysm

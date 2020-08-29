@@ -1,0 +1,52 @@
+Agentofchaos (0, r3b2) g3-
+Horowits (1, g3y1) -b3
+build g1 at Agentofchaos
+build b1 at Horowits
+build g1 at Agentofchaos
+build b1 at Horowits
+convert g1 to b1 at Agentofchaos
+convert b1 to r1 at Horowits
+build g1 at Agentofchaos
+move b1 from Horowits to Greens (g2)
+convert g1 to y1 at Agentofchaos
+build r1 at Horowits
+convert g1 to r1 at Agentofchaos
+build r2 at Horowits
+build r2 at Agentofchaos
+move r1 from Horowits to Greens
+build y1 at Agentofchaos
+convert r2 to y2 at Horowits
+convert r1 to g1 at Agentofchaos
+build b1 at Horowits
+sacrifice y1 at Agentofchaos; move r2 from Agentofchaos to Myxo (y1)
+build b2 at Greens
+build y2 at Agentofchaos
+convert b2 to y2 at Greens
+move y2 from Agentofchaos to Glaucous (g1)
+build y3 at Greens
+build y3 at Glaucous
+sacrifice y2 at Horowits; move b1 from Horowits to Gwar (g2); move y3 from Greens to Gir (r1)
+build g1 at Agentofchaos
+build b2 at Gwar
+sacrifice g1 at Agentofchaos; build r2 at Myxo
+build b2 at Horowits
+move b1 from Agentofchaos to Glaucous
+build b3 at Greens
+build b3 at Glaucous
+sacrifice y2 at Greens; move b1 from Greens to Glaucous; move b1 from Gwar to Glaucous; catastrophe blue at Glaucous
+build y2 at Glaucous
+convert b3 to y3 at Greens
+move y2 from Glaucous to Zurwheel (g2)
+convert b2 to r2 at Gwar
+build y2 at Agentofchaos
+build r3 at Horowits
+move y2 from Glaucous to Zurwheel
+move r3 from Horowits to Zurwheel
+sacrifice y2 at Agentofchaos; move y2 from Zurwheel to Horowits; move y2 from Zurwheel to Horowits
+build r3 at Horowits
+build y2 at Horowits; catastrophe yellow at Horowits
+sacrifice y3 at Greens; move r1 from Horowits to Myxo; move r2 from Gwar to Myxo; move b3 from Horowits to Bluish (b1); catastrophe red at Myxo
+convert g1 to r1 at Agentofchaos
+sacrifice y3 at Gir; move b3 from Bluish to Agentofchaos; move r3 from Zurwheel to Glaucous; move r3 from Glaucous to Agentofchaos
+capture r3 at Agentofchaos
+sacrifice r3 at Horowits; capture r3 at Agentofchaos; capture g3 at Agentofchaos; capture y1 at Agentofchaos

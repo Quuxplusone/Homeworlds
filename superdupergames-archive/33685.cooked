@@ -1,0 +1,17 @@
+Dlwillson (0, y3b1) g3-
+Mi_Spero (1, y1b2) -g3
+build g1 at Dlwillson
+build g1 at Mi_Spero
+convert g1 to y1 at Dlwillson
+convert g1 to b1 at Mi_Spero
+build y1 at Dlwillson
+build g1 at Mi_Spero
+move y1 from Dlwillson to Field (g2)
+build g1 at Mi_Spero
+build g1 at Dlwillson
+convert g1 to r1 at Mi_Spero
+build y2 at Dlwillson
+convert g3 to y3 at Mi_Spero
+build y2 at Field
+build y2 at Mi_Spero
+sacrifice y2 at Field; move y1 from Field to Sol (y3); move y1 from Sol to Mi_Spero; catastrophe yellow at Mi_Spero

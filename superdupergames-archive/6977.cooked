@@ -1,0 +1,59 @@
+Twoshort (0, r1b2) g3-
+Lexicon (1, r1b3) -g3
+build g1 at Twoshort
+build g1 at Lexicon
+convert g1 to y1 at Twoshort
+convert g1 to r1 at Lexicon
+build y1 at Twoshort
+build r2 at Lexicon
+build y1 at Twoshort
+convert r2 to y2 at Lexicon
+move y1 from Twoshort to Grogar (g3)
+build y2 at Lexicon
+move y1 from Twoshort to Bluonia (b3)
+build r2 at Lexicon
+sacrifice g3 at Twoshort; build y2 at Bluonia; build y3 at Twoshort; build y3 at Twoshort
+move y2 from Lexicon to Pyori (g2)
+move y1 from Twoshort to Canary (y3)
+move r1 from Lexicon to Pyori
+convert y2 to r2 at Bluonia
+build y2 at Pyori
+move r2 from Bluonia to Glenda (g2)
+move y2 from Pyori to Pombe (b3)
+move y3 from Twoshort to Pombe
+move y2 from Pyori to Bluonia
+convert y3 to r3 at Pombe
+build y3 at Lexicon
+capture y2 at Pombe
+sacrifice y2 at Lexicon; move r2 from Lexicon to Pyori; move r2 from Pyori to Bluonia
+move y1 from Bluonia to Gorgon (g2)
+sacrifice g3 at Lexicon; build r2 at Pyori; build r3 at Bluonia; build y2 at Bluonia
+build r3 at Glenda
+sacrifice y2 at Bluonia; move r1 from Pyori to Bluonia; move r1 from Bluonia to Twoshort
+build y2 at Gorgon
+move r2 from Bluonia to Twoshort
+move y1 from Canary to Blaze (b2)
+convert y3 to g3 at Lexicon
+build y3 at Grogar
+build g1 at Lexicon
+build y3 at Grogar
+move r3 from Bluonia to Gorgon
+sacrifice y2 at Gorgon; move y1 from Gorgon to Lupus (g1); move y3 from Grogar to Yonderboy (y2)
+move y2 from Bluonia to Gorgon
+capture r2 at Twoshort
+move r3 from Gorgon to Lupus
+move y1 from Lupus to Pombe
+sacrifice y2 at Gorgon; move r2 from Pyori to Pombe; move r2 from Pombe to Twoshort; catastrophe red at Twoshort
+build y2 at Grogar
+convert g1 to b1 at Lexicon
+convert y2 to b2 at Pombe
+build r1 at Lupus
+move b2 from Pombe to Glenda
+sacrifice b1 at Lexicon; convert r1 to b1 at Lupus
+convert r3 to g3 at Pombe
+build g1 at Lexicon
+sacrifice g3 at Pombe; build r1 at Glenda; build b1 at Glenda; build b1 at Glenda
+build b3 at Lupus
+sacrifice y3 at Grogar; move b1 from Glenda to Lexicon; move b1 from Glenda to Lexicon; move b2 from Glenda to Lexicon; catastrophe blue at Lexicon
+sacrifice g3 at Lexicon; build g1 at Lexicon; build g2 at Lexicon; build g2 at Lexicon
+catastrophe green at Lexicon

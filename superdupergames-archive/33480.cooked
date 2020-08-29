@@ -1,0 +1,8 @@
+Dlwillson (0, b2y3) g3-
+Wil (1, b2y1) -g3
+build g1 at Dlwillson
+build g1 at Wil
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Wil
+build y2 at Dlwillson
+build y2 at Wil

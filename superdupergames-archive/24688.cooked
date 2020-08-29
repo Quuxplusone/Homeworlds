@@ -1,0 +1,40 @@
+Adambadura (0, g3b2) r3-
+Ajo (1, b1r3) -g3
+build r1 at Adambadura
+build g1 at Ajo
+convert r1 to g1 at Adambadura
+convert g3 to y3 at Ajo
+build r1 at Adambadura
+build y1 at Ajo
+convert r1 to y1 at Adambadura
+move y1 from Ajo to Alpha (b2)
+build r1 at Adambadura
+build g1 at Ajo
+build g2 at Adambadura
+build g2 at Ajo
+move g2 from Adambadura to Outpost (r1)
+move g2 from Ajo to Alpha
+build r1 at Adambadura
+build g2 at Ajo
+build g3 at Outpost
+sacrifice g2 at Ajo; build g2 at Alpha; build g3 at Ajo
+move r1 from Adambadura to Mutator (b1)
+convert g2 to r2 at Alpha
+build y1 at Adambadura
+sacrifice g3 at Ajo; build g2 at Alpha; build g3 at Ajo; build y2 at Alpha
+sacrifice y1 at Adambadura; move g3 from Outpost to Deathstar (r2)
+move g2 from Alpha to Mutator
+sacrifice y1 at Adambadura; move g3 from Deathstar to Ajo; catastrophe green at Ajo
+build r2 at Alpha
+convert r1 to y1 at Mutator
+sacrifice r2 at Alpha; capture y1 at Mutator
+build g1 at Outpost
+build r1 at Alpha
+convert r1 to y1 at Adambadura
+build g1 at Mutator
+move g1 from Adambadura to Deathstar (r1)
+build g3 at Mutator
+build y2 at Adambadura
+convert g2 to r2 at Mutator
+move y2 from Adambadura to Deathstar
+move y2 from Alpha to Beta (b1)

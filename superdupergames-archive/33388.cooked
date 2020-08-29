@@ -1,0 +1,28 @@
+Remneb (0, y1b2) g3-
+Ts52 (1, b1y3) -g3
+build g1 at Remneb
+build g1 at Ts52
+convert g1 to r1 at Remneb
+convert g1 to r1 at Ts52
+build g1 at Remneb
+build g1 at Ts52
+convert g1 to b1 at Remneb
+convert g1 to b1 at Ts52
+build g1 at Remneb
+build b2 at Ts52
+build b2 at Remneb
+move b2 from Ts52 to Kermit (g2)
+move b2 from Remneb to Doom (g3)
+sacrifice g3 at Ts52; build b3 at Ts52; build b3 at Kermit; build b3 at Kermit
+convert b1 to y1 at Remneb
+convert b3 to y3 at Kermit
+sacrifice y1 at Remneb; move b2 from Doom to Orb (y2)
+convert b3 to g3 at Ts52
+sacrifice g1 at Remneb; build b1 at Orb
+build b3 at Kermit
+move b1 from Orb to Ts52
+convert b3 to r3 at Kermit
+move b2 from Orb to Ts52; catastrophe blue at Ts52
+sacrifice y3 at Kermit; move b3 from Kermit to Ts52; move b3 from Ts52 to Remneb; move g3 from Ts52 to Remneb
+move g3 from Remneb to Ts52
+sacrifice r3 at Kermit; capture r1 at Remneb

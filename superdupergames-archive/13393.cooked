@@ -1,0 +1,25 @@
+Mouce (0, y1b2) g3-
+Headphoned (1, b3g2) -y3
+build g1 at Mouce
+build y1 at Headphoned
+build g1 at Mouce
+build y1 at Headphoned
+move g1 from Mouce to Wisker (b3)
+convert y3 to g3 at Headphoned
+build g1 at Mouce
+build y2 at Headphoned
+move g1 from Mouce to Scritch (b3)
+build g2 at Headphoned
+sacrifice g3 at Mouce; build g2 at Scritch; build g3 at Wisker; build g3 at Mouce
+convert y1 to b1 at Headphoned
+convert g2 to y2 at Scritch
+move g3 from Headphoned to Khat (y1)
+sacrifice y2 at Scritch; move g1 from Wisker to Khat; move g1 from Khat to Headphoned
+sacrifice y2 at Headphoned; move g3 from Khat to Scritch; move g3 from Scritch to Mouce
+convert g3 to r3 at Mouce
+sacrifice g2 at Headphoned; build y1 at Headphoned; build y2 at Headphoned
+capture g3 at Mouce
+convert y1 to r1 at Headphoned
+sacrifice r3 at Mouce; capture b1 at Headphoned; capture r1 at Headphoned; capture y1 at Headphoned
+build y1 at Headphoned
+build y2 at Headphoned; catastrophe yellow at Headphoned

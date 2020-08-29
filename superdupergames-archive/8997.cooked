@@ -1,0 +1,96 @@
+Mneme (0, r1b2) g3-
+Jesse (1, r3b1) -g3
+build g1 at Mneme
+build g1 at Jesse
+convert g1 to y1 at Mneme
+convert g1 to y1 at Jesse
+build g1 at Mneme
+build g1 at Jesse
+convert g1 to b1 at Mneme
+convert g1 to b1 at Jesse
+build g1 at Mneme
+build g1 at Jesse
+build b2 at Mneme
+build b2 at Jesse
+move b2 from Mneme to Verdant (g3)
+convert b2 to y2 at Jesse
+convert b1 to r1 at Mneme
+move y2 from Jesse to Purple (g2)
+build r1 at Mneme
+convert g3 to r3 at Jesse
+move r1 from Mneme to Verdant
+build r2 at Jesse
+build r2 at Verdant
+move r2 from Jesse to Purple
+convert r2 to y2 at Verdant
+build r2 at Purple
+build y1 at Verdant
+convert r3 to y3 at Jesse
+build r2 at Verdant
+move r2 from Purple to Ecru (y3)
+convert r1 to b1 at Verdant
+move b1 from Jesse to Purple
+move y2 from Verdant to Brilliant (g2)
+build b2 at Purple
+move b1 from Verdant to Brilliant
+move b2 from Purple to Olive (y3)
+build b3 at Brilliant
+build b3 at Purple
+build b3 at Verdant
+convert b3 to g3 at Purple
+convert b2 to y2 at Verdant
+move g3 from Purple to Ecru
+move y1 from Verdant to Brilliant
+move y1 from Jesse to Aqua (g2)
+move r1 from Mneme to Bluebird (b3)
+build g1 at Ecru
+move g1 from Mneme to Bluebird
+sacrifice g3 at Ecru; build g3 at Ecru; build r1 at Ecru; build r3 at Purple
+build r3 at Bluebird
+build b2 at Purple
+sacrifice y2 at Brilliant; move r2 from Verdant to Purple; move r1 from Bluebird to Purple; catastrophe red at Purple
+move b2 from Olive to Aqua
+build r1 at Bluebird
+sacrifice g3 at Ecru; build g3 at Ecru; build y2 at Jesse; build y3 at Aqua
+sacrifice y2 at Verdant; move r3 from Bluebird to Purple; move r1 from Bluebird to Purple
+sacrifice y2 at Jesse; move r2 from Ecru to Purple; move r1 from Ecru to Purple; catastrophe red at Purple
+sacrifice g1 at Bluebird; build b3 at Verdant
+sacrifice g3 at Ecru; build g1 at Ecru; build g3 at Ecru; build y2 at Jesse
+convert b3 to r3 at Brilliant
+convert b1 to r1 at Purple
+convert b3 to r3 at Verdant
+convert y1 to r1 at Aqua
+build y1 at Brilliant
+sacrifice g3 at Ecru; build g3 at Ecru; build y2 at Aqua; build r2 at Purple
+move y1 from Brilliant to Jesse
+move y2 from Jesse to White (r2)
+capture g1 at Jesse
+sacrifice r2 at Purple; capture y1 at Jesse; capture g1 at Jesse
+build r2 at Brilliant
+sacrifice g3 at Ecru; build g3 at Ecru; build b1 at Aqua; build b3 at Purple
+build b3 at Brilliant
+build r2 at Purple
+move y1 from Brilliant to Verdant
+move b2 from Purple to Ecru
+move b3 from Verdant to White
+sacrifice y2 at White; move g1 from Ecru to Elbow (y2); move r1 from Purple to Ecru
+move r3 from Verdant to Elbow
+move g1 from Elbow to Ecru
+move r3 from Elbow to Verdant
+build y2 at Purple
+move y1 from Verdant to Brilliant
+move g1 from Ecru to Brilliant
+move b3 from Brilliant to Verdant
+sacrifice y2 at Purple; move g1 from Ecru to Brilliant; move g1 from Jesse to Brilliant; catastrophe green at Brilliant
+build g1 at Mneme
+build g1 at Ecru
+move g1 from Mneme to Ack (r3)
+move b3 from Purple to Ack
+sacrifice g1 at Ack; build r2 at Verdant
+move r2 from Purple to Ecru
+convert r2 to y2 at Verdant
+build b1 at Ecru
+build y1 at Verdant
+sacrifice y3 at Aqua; move b3 from Ack to Mneme; move b2 from Ecru to Mneme; move b1 from Ecru to Mneme; catastrophe blue at Mneme
+build y3 at Mneme
+sacrifice y3 at Jesse; move r1 from Aqua to Mneme; move r2 from Ecru to Mneme; move r1 from Ecru to Mneme; catastrophe red at Mneme

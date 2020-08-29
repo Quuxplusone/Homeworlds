@@ -1,0 +1,9 @@
+Wil (0, b2r1) g3-
+Thejackdiaz (1, b3r2) -g3
+build g1 at Wil
+build g1 at Thejackdiaz
+convert g1 to y1 at Wil
+convert g1 to y1 at Thejackdiaz
+build g1 at Wil
+build g1 at Thejackdiaz
+move g1 from Wil to Y3 (y3)

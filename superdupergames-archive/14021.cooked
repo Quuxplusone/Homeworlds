@@ -1,0 +1,22 @@
+Horowits (0, g3r1) b3-
+Ts52 (1, y1b2) -g3
+build b1 at Horowits
+build g1 at Ts52
+build b1 at Horowits
+build g1 at Ts52
+convert b3 to y3 at Horowits
+move g1 from Ts52 to Grover (b3)
+move b1 from Horowits to Gwar (g2)
+build g1 at Ts52
+build b1 at Gwar
+build g2 at Grover
+build b2 at Horowits
+move g1 from Ts52 to Gonzo (b3)
+sacrifice b2 at Horowits; convert b1 to y1 at Gwar; convert b1 to r1 at Gwar
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build g3 at Grover
+build r1 at Gwar
+convert g3 to r3 at Grover
+convert y3 to g3 at Horowits
+build r2 at Grover
+move r1 from Gwar to Gonzo
+convert r2 to y2 at Grover

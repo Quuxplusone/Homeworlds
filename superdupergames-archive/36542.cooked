@@ -1,0 +1,38 @@
+Bhorner (0, b2r1) g3-
+Ts52 (1, b1y3) -g3
+build g1 at Bhorner
+build g1 at Ts52
+convert g1 to y1 at Bhorner
+build g1 at Ts52
+build y1 at Bhorner
+convert g1 to b1 at Ts52
+build y1 at Bhorner
+build b1 at Ts52
+move y1 from Bhorner to Tree (g3)
+move b1 from Ts52 to Kermit (g2)
+build y2 at Tree
+build b2 at Kermit
+move y2 from Tree to Fern (g2)
+convert b2 to y2 at Kermit
+sacrifice g3 at Bhorner; build y2 at Tree; build y3 at Bhorner; build y3 at Fern
+build b2 at Kermit
+convert y3 to b3 at Bhorner
+build y3 at Kermit
+sacrifice y2 at Fern; move y1 from Tree to Kermit; move y2 from Tree to Kermit; catastrophe yellow at Kermit
+convert b2 to y2 at Kermit
+convert y1 to g1 at Bhorner
+build b2 at Kermit
+convert b3 to g3 at Bhorner
+build b2 at Ts52
+move g1 from Bhorner to Sky (b3)
+build b3 at Kermit
+build y1 at Fern
+convert b3 to r3 at Kermit
+build g1 at Bhorner
+move r3 from Kermit to Sky
+sacrifice g3 at Bhorner; build g2 at Sky; build g3 at Bhorner; build g3 at Bhorner
+capture g2 at Sky
+convert g1 to r1 at Bhorner
+capture g1 at Sky
+convert g3 to b3 at Bhorner
+move b2 from Ts52 to Bigbird (y2)

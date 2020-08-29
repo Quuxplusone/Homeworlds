@@ -1,0 +1,16 @@
+Alexkm (0, y1b2) g3-
+Wil (1, b3y2) -g3
+build g1 at Alexkm
+build g1 at Wil
+convert g1 to y1 at Alexkm
+convert g1 to y1 at Wil
+build y2 at Alexkm
+build y2 at Wil
+convert y2 to g2 at Alexkm
+convert y2 to r2 at Wil
+build y2 at Alexkm
+build y2 at Wil
+move y1 from Alexkm to Sigma (b3)
+move y1 from Wil to G1 (g1)
+sacrifice y2 at Alexkm; move y1 from Sigma to Alexkm; move y1 from Alexkm to Praise_It (y3)
+build y2 at Wil

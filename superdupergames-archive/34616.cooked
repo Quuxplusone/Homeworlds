@@ -1,0 +1,62 @@
+Trydnt (0, y3b2) g3-
+Mneme (1, r1b2) -g3
+build g1 at Trydnt
+build g1 at Mneme
+convert g1 to r1 at Trydnt
+convert g1 to r1 at Mneme
+build r2 at Trydnt
+build r2 at Mneme
+build r2 at Trydnt
+convert r2 to y2 at Mneme
+convert r2 to y2 at Trydnt
+build r2 at Mneme
+build r2 at Trydnt
+move r2 from Mneme to Clio (b3)
+move r2 from Trydnt to G1 (g1)
+build g1 at Mneme
+convert r1 to b1 at Trydnt
+move g1 from Mneme to Clio
+move b1 from Trydnt to G1
+build y1 at Mneme
+build b1 at G1
+move y1 from Mneme to Clio
+convert b1 to y1 at G1
+build y1 at Clio
+move y2 from Trydnt to B1 (b1)
+move y1 from Clio to Thalia (g1)
+move b1 from G1 to Y3 (y3)
+build g2 at Mneme
+move r2 from G1 to Why3 (y3)
+build y2 at Thalia
+sacrifice g3 at Trydnt; build r1 at Why3; build r3 at Trydnt; build b1 at Y3
+move r1 from Mneme to Erato (g3)
+convert r3 to g3 at Trydnt
+sacrifice g3 at Mneme; build g2 at Clio; build g2 at Clio; build g3 at Mneme
+move y1 from G1 to R3 (r3)
+sacrifice g2 at Clio; build r3 at Clio; build r3 at Erato
+move y1 from R3 to B2 (b2)
+move g3 from Mneme to Y3
+move b1 from Y3 to G2 (g2)
+sacrifice r1 at Erato; capture b1 at Y3
+build b3 at G2
+sacrifice g3 at Y3; build g1 at Clio; build g3 at Mneme; build b3 at Y3
+convert b3 to r3 at G2
+move g2 from Mneme to Urania (b3)
+sacrifice y1 at B2; move r3 from G2 to Urania
+sacrifice g2 at Urania; build g2 at Mneme; build y1 at Thalia
+build b2 at G2
+move r3 from Clio to G2
+sacrifice y2 at B1; move r3 from Urania to Thalia; move r3 from Thalia to Clio
+sacrifice r2 at Clio; capture b2 at G2; capture b1 at G2
+sacrifice r2 at Why3; capture g2 at Clio; capture y1 at Clio
+sacrifice g2 at Mneme; build g2 at Clio; build y2 at Mneme; catastrophe green at Clio
+move r3 from Clio to Thalia
+sacrifice y2 at Mneme; move y1 from Thalia to Trydnt; move y2 from Thalia to Trydnt
+sacrifice r2 at Trydnt; capture y2 at Trydnt; capture y1 at Thalia
+sacrifice g3 at Mneme; build y2 at Trydnt; build b1 at Y3; build b3 at G2; catastrophe yellow at Trydnt
+move r3 from Thalia to Why3
+move b3 from Y3 to Mneme
+move y1 from Thalia to Y3
+convert b2 to r2 at G2
+move y1 from Y3 to B2 (b2)
+convert b3 to y3 at G2

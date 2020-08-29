@@ -1,0 +1,63 @@
+Goulo (0, g3b2) y3-
+Uglyfoot (1, b3y1) -g3
+build y1 at Goulo
+build g1 at Uglyfoot
+convert y1 to r1 at Goulo
+convert g1 to y1 at Uglyfoot
+build r1 at Goulo
+build g1 at Uglyfoot
+move r1 from Goulo to Citroneto (y1)
+move y1 from Uglyfoot to Out (r2)
+build y2 at Goulo
+move g1 from Uglyfoot to Out
+build y2 at Goulo
+build y2 at Out
+move y2 from Goulo to Citroneto
+move y2 from Out to Walky (g1)
+move y2 from Goulo to Walky
+build y3 at Out
+build y3 at Goulo
+build g1 at Uglyfoot
+convert y3 to g3 at Goulo
+build g2 at Out
+build y3 at Goulo
+convert g1 to b1 at Uglyfoot
+sacrifice r1 at Citroneto; capture y2 at Walky
+move b1 from Uglyfoot to Out
+sacrifice y3 at Goulo; move g3 from Goulo to Citroneto; move g3 from Citroneto to Out; move g3 from Out to Uglyfoot
+move y3 from Out to Uglyfoot
+convert y3 to r3 at Goulo
+sacrifice g2 at Out; build g1 at Uglyfoot; build g2 at Uglyfoot; catastrophe green at Uglyfoot
+move y2 from Citroneto to Out
+convert y3 to g3 at Uglyfoot
+build r1 at Goulo
+move b1 from Out to Nexus (y1)
+capture y1 at Out
+capture y1 at Out
+convert r3 to y3 at Goulo
+convert b1 to r1 at Nexus
+build y3 at Goulo
+build y3 at Out
+move y2 from Walky to Out; catastrophe yellow at Out
+build g1 at Uglyfoot
+move y2 from Walky to Out
+sacrifice g1 at Out; build r2 at Nexus
+move y3 from Goulo to Nexus
+move r2 from Nexus to Port (b2)
+sacrifice r1 at Goulo; capture r1 at Nexus
+build g1 at Uglyfoot
+move y3 from Nexus to Port
+convert g1 to r1 at Uglyfoot
+sacrifice r1 at Nexus; capture r2 at Port
+build g1 at Uglyfoot
+build y1 at Goulo
+move g1 from Uglyfoot to Movit (y2)
+convert y3 to g3 at Port
+build g1 at Movit
+build g2 at Port
+convert g1 to b1 at Uglyfoot
+build g1 at Port
+build g2 at Movit
+sacrifice y2 at Out; move g1 from Port to Uglyfoot; move g1 from Uglyfoot to Movit; catastrophe green at Movit
+move b1 from Uglyfoot to Movit2 (y2)
+build g1 at Port

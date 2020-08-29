@@ -1,0 +1,20 @@
+Kermit (0, y3g1) b3-
+Morganfitzp (1, g2y1) -b3
+build b1 at Kermit
+build b1 at Morganfitzp
+move b1 from Kermit to Chronos (g2)
+move b1 from Morganfitzp to Couve (g3)
+build b1 at Chronos
+build b2 at Couve
+convert b1 to y1 at Chronos
+convert b2 to y2 at Couve
+build b1 at Kermit
+build b2 at Couve
+convert b1 to g1 at Kermit
+move b2 from Couve to Aboborinha (y2)
+convert b1 to r1 at Chronos
+build b1 at Couve
+move y1 from Chronos to Phobos (b3)
+convert b1 to r1 at Couve
+build b1 at Kermit
+build b1 at Couve

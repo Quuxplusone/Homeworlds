@@ -1,0 +1,85 @@
+Jesse (0, b3r1) g3-
+Benji_Stein (1, y3b2) -g3
+build g1 at Jesse
+build g1 at Benji_Stein
+convert g1 to y1 at Jesse
+build g1 at Benji_Stein
+build g1 at Jesse
+convert g1 to y1 at Benji_Stein
+move g1 from Jesse to Moooo (b2)
+convert g1 to b1 at Benji_Stein
+build g1 at Jesse
+build b1 at Benji_Stein
+convert g1 to b1 at Jesse
+convert b1 to r1 at Benji_Stein
+build g1 at Jesse
+move b1 from Benji_Stein to Upchuck (g1)
+build g2 at Moooo
+build g2 at Benji_Stein
+sacrifice g3 at Jesse; build g2 at Moooo; build g3 at Jesse; build g3 at Jesse
+sacrifice g3 at Benji_Stein; build g3 at Benji_Stein; build y1 at Benji_Stein; build y2 at Benji_Stein
+convert g2 to r2 at Moooo
+convert y2 to r2 at Benji_Stein
+pass
+convert y1 to r1 at Benji_Stein
+pass
+sacrifice g3 at Benji_Stein; build g2 at Benji_Stein; build g3 at Benji_Stein; build b1 at Upchuck
+convert g2 to y2 at Moooo
+move g2 from Benji_Stein to Upchuck
+move b1 from Jesse to Oinkoink (g2)
+move y1 from Benji_Stein to Upchuck
+convert g3 to y3 at Jesse
+move b1 from Upchuck to Hurl (g3)
+sacrifice g3 at Jesse; build g3 at Jesse; build r2 at Moooo; build r3 at Moooo
+move r1 from Benji_Stein to Upchuck
+move r3 from Moooo to Hurl
+sacrifice g3 at Benji_Stein; build g3 at Benji_Stein; build r3 at Benji_Stein; build r3 at Upchuck
+capture b1 at Hurl
+convert r3 to y3 at Benji_Stein
+sacrifice g3 at Jesse; build g3 at Moooo; build r3 at Hurl; build y1 at Moooo
+move r3 from Upchuck to Oinkoink
+sacrifice g3 at Moooo; build g3 at Moooo; build b2 at Oinkoink; build b3 at Hurl
+sacrifice g3 at Benji_Stein; build g3 at Benji_Stein; build y2 at Upchuck; build b3 at Upchuck
+sacrifice y2 at Moooo; move b1 from Oinkoink to Upchuck; move b2 from Oinkoink to Upchuck; catastrophe blue at Upchuck
+sacrifice y3 at Benji_Stein; move g2 from Benji_Stein to Upchuck; move g2 from Upchuck to Moooo; move g2 from Upchuck to Moooo; catastrophe green at Moooo
+sacrifice y1 at Jesse; move r3 from Hurl to Meow (y1)
+move y1 from Upchuck to Oinkoink
+convert b3 to y3 at Hurl
+build y2 at Oinkoink
+build y2 at Hurl
+move r3 from Oinkoink to Upchuck
+convert r2 to g2 at Moooo
+move r3 from Upchuck to Moooo
+sacrifice g2 at Moooo; build b1 at Hurl; build r2 at Moooo
+capture r2 at Moooo
+move r3 from Meow to Moooo; catastrophe red at Moooo
+build r2 at Upchuck
+move y3 from Hurl to Moooo
+build y1 at Upchuck
+convert y3 to g3 at Moooo
+convert r1 to b1 at Benji_Stein
+build y3 at Moooo
+move y2 from Upchuck to Benji_Stein
+move y1 from Moooo to Neigh (g1)
+move y2 from Benji_Stein to Retch (r1)
+build g2 at Moooo
+build g2 at Benji_Stein
+move b1 from Hurl to Neigh
+move b1 from Benji_Stein to Retch
+sacrifice g3 at Moooo; build b2 at Hurl; build b3 at Neigh; build g3 at Moooo
+sacrifice g3 at Benji_Stein; build g3 at Benji_Stein; build r2 at Benji_Stein; build b3 at Retch
+convert b3 to r3 at Neigh
+convert b3 to r3 at Retch
+sacrifice g3 at Moooo; build g3 at Moooo; build b3 at Neigh; build b3 at Hurl
+move b1 from Retch to Hurl; catastrophe blue at Hurl
+move g3 from Moooo to Upchuck
+move g2 from Benji_Stein to Retch
+sacrifice r3 at Neigh; capture r1 at Upchuck; capture r2 at Upchuck; capture y1 at Upchuck
+move r3 from Retch to Spew (b2)
+build b1 at Neigh
+move y1 from Oinkoink to Barf (b3)
+move b3 from Neigh to Benji_Stein
+capture b3 at Benji_Stein
+sacrifice y2 at Hurl; move b1 from Neigh to Benji_Stein; move b1 from Neigh to Benji_Stein; catastrophe blue at Benji_Stein
+build y2 at Oinkoink
+sacrifice y3 at Jesse; move y3 from Moooo to Benji_Stein; move y1 from Upchuck to Benji_Stein; move y1 from Neigh to Benji_Stein; catastrophe yellow at Benji_Stein

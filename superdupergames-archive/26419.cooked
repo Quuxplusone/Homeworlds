@@ -1,0 +1,38 @@
+Dsabremaster (0, g1r2) b3-
+Fogus (1, b1y2) -g3
+build b1 at Dsabremaster
+build g1 at Fogus
+convert b1 to g1 at Dsabremaster
+build g2 at Fogus
+build g2 at Dsabremaster
+move g1 from Fogus to Turtle (y3)
+convert g1 to y1 at Dsabremaster
+build g1 at Fogus
+move g2 from Dsabremaster to Requiem (r3)
+convert g1 to r1 at Fogus
+build y1 at Dsabremaster
+build r1 at Fogus
+build b1 at Dsabremaster
+move g3 from Fogus to Requiem
+build g1 at Requiem
+sacrifice g3 at Requiem; build g2 at Turtle; build g3 at Fogus; build g3 at Turtle
+sacrifice y1 at Dsabremaster; move g2 from Requiem to Sigma2 (y2)
+move g3 from Turtle to Sigma2
+build g3 at Requiem
+sacrifice r1 at Fogus; capture g2 at Sigma2
+move b1 from Dsabremaster to Requiem
+build r1 at Fogus
+sacrifice g3 at Requiem; build g3 at Requiem; build b1 at Dsabremaster; build b2 at Requiem
+convert g2 to y2 at Fogus
+build y1 at Dsabremaster
+build g2 at Fogus
+move y1 from Dsabremaster to Requiem
+convert g3 to r3 at Fogus
+convert b1 to r1 at Dsabremaster
+build g3 at Fogus
+sacrifice g3 at Requiem; build g3 at Requiem; build y1 at Requiem; build r2 at Dsabremaster
+sacrifice y2 at Fogus; move r1 from Fogus to Turtle; move r1 from Turtle to Dsabremaster; catastrophe red at Dsabremaster
+sacrifice g3 at Requiem; build g3 at Requiem; build y2 at Requiem; build y3 at Dsabremaster
+move g3 from Sigma2 to Dsabremaster
+sacrifice y3 at Dsabremaster; move g3 from Requiem to Dsabremaster; move b2 from Requiem to Dsabremaster; move y2 from Requiem to Dsabremaster
+move g1 from Turtle to Dsabremaster; catastrophe green at Dsabremaster

@@ -1,0 +1,19 @@
+Ts52 (0, y3b2) g3-
+Ausmuh (1, g3y1) -b3
+build g1 at Ts52
+build b1 at Ausmuh
+build g1 at Ts52
+convert b1 to g1 at Ausmuh
+move g1 from Ts52 to Grover (b1)
+move g1 from Ausmuh to Zing (y2)
+build g2 at Grover
+build b1 at Ausmuh
+convert g1 to y1 at Grover
+build b1 at Ausmuh
+build y1 at Grover
+move b1 from Ausmuh to Zork (g2)
+build y2 at Grover
+convert b3 to y3 at Ausmuh
+move y1 from Grover to Kermit (g2)
+build b2 at Zork
+build y2 at Kermit

@@ -1,0 +1,44 @@
+Goulo (0, g3b1) y3-
+Babamots (1, g2b1) -b3
+build y1 at Goulo
+build b1 at Babamots
+build y1 at Goulo
+convert b3 to y3 at Babamots
+move y1 from Goulo to Verdo (g2)
+build b2 at Babamots
+build y1 at Verdo
+build y2 at Babamots
+build y2 at Verdo
+move y2 from Babamots to Orion (g3)
+convert y1 to r1 at Goulo
+move y2 from Orion to Verdo; catastrophe yellow at Verdo
+build y1 at Goulo
+move b2 from Babamots to Genesis (g3)
+build r1 at Goulo
+build b2 at Genesis
+move r1 from Goulo to Flavo (y2)
+build b2 at Babamots
+build r1 at Goulo
+build b3 at Genesis
+build r2 at Goulo
+convert b3 to r3 at Genesis
+convert r1 to g1 at Goulo
+build b3 at Genesis
+build g1 at Goulo
+convert b3 to y3 at Genesis
+move r1 from Goulo to Flavo
+build b3 at Genesis
+move g1 from Goulo to Flavo2 (y2)
+move b3 from Genesis to Flavo2
+move g1 from Flavo2 to Flaveto (y1)
+build b3 at Genesis
+build g1 at Flaveto
+move b2 from Genesis to Flavo2
+build g2 at Goulo
+convert b3 to g3 at Flavo2
+sacrifice g1 at Goulo; build g1 at Flaveto
+move r3 from Genesis to Flaveto
+move g1 from Flaveto to Genesis
+move b3 from Genesis to Risa (g2)
+move g1 from Flaveto to Genesis
+move y3 from Genesis to Flavo

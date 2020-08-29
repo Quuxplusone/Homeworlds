@@ -1,0 +1,49 @@
+Uglyfoot (0, b1y2) g3-
+Eriinfo (1, b3y1) -g3
+build g1 at Uglyfoot
+build g1 at Eriinfo
+move g1 from Uglyfoot to Defender (r3)
+move g1 from Eriinfo to Cire (b2)
+build g1 at Uglyfoot
+build g2 at Eriinfo
+sacrifice g3 at Uglyfoot; build g2 at Defender; build g2 at Uglyfoot; build g3 at Uglyfoot
+build g3 at Cire
+convert g2 to y2 at Uglyfoot
+convert g2 to b2 at Eriinfo
+move y2 from Uglyfoot to Defender
+build g2 at Eriinfo
+move g2 from Defender to Cire
+convert g1 to r1 at Cire
+sacrifice g3 at Uglyfoot; build g1 at Cire; build g2 at Defender; build g3 at Uglyfoot
+capture g2 at Cire
+move g1 from Defender to Cire; catastrophe green at Cire
+move g2 from Eriinfo to Cire
+build g1 at Defender
+build g1 at Eriinfo
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Uglyfoot; build g3 at Defender
+convert g1 to r1 at Eriinfo
+move g3 from Defender to Cire
+build g1 at Eriinfo
+convert g2 to r2 at Uglyfoot
+convert g2 to y2 at Cire
+sacrifice r2 at Uglyfoot; capture y2 at Cire; capture r1 at Cire
+convert g1 to y1 at Eriinfo
+build g1 at Cire
+build r1 at Eriinfo
+convert g1 to b1 at Cire
+move r1 from Eriinfo to Rice (g2)
+sacrifice g3 at Uglyfoot; build g1 at Cire; build g2 at Cire; build g3 at Uglyfoot
+build r2 at Eriinfo
+convert g3 to y3 at Cire
+move y1 from Eriinfo to Rice
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Cire; build r2 at Cire
+move r1 from Eriinfo to Rice
+move g3 from Cire to Eriinfo
+capture g3 at Eriinfo
+sacrifice y2 at Cire; move g1 from Cire to Eriinfo; move g2 from Cire to Eriinfo; catastrophe green at Eriinfo
+convert b2 to g2 at Eriinfo
+move y3 from Cire to Eriinfo
+build r2 at Eriinfo
+sacrifice r2 at Cire; capture r2 at Eriinfo; capture r2 at Eriinfo
+move r1 from Rice to Eriinfo
+sacrifice r2 at Eriinfo; capture g2 at Eriinfo; capture r1 at Eriinfo

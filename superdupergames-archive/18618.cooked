@@ -1,0 +1,68 @@
+Nycavri (0, y2b3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Nycavri
+build g1 at Ts52
+convert g1 to y1 at Nycavri
+convert g1 to y1 at Ts52
+move y1 from Nycavri to Deacon (g1)
+move y1 from Ts52 to Kermit (g3)
+build g1 at Nycavri
+build y2 at Kermit
+build y2 at Deacon
+move y1 from Kermit to Robin (g2)
+move y2 from Deacon to Kermit
+build y3 at Kermit
+move y2 from Kermit to Ts52
+build y3 at Robin
+convert g1 to r1 at Nycavri
+convert g3 to r3 at Ts52
+build y3 at Deacon
+capture y2 at Ts52
+build g1 at Nycavri
+convert y2 to r2 at Ts52
+build r1 at Nycavri
+convert r3 to g3 at Ts52
+move r1 from Nycavri to May (b1)
+build g1 at Ts52
+move g1 from Nycavri to Deacon
+move g1 from Ts52 to Grover (b3)
+build g2 at Nycavri
+build g2 at Ts52
+move g1 from Deacon to Mercury (y2)
+move y3 from Robin to Grover
+sacrifice g3 at Nycavri; build g3 at Nycavri; build r1 at May; build r2 at Nycavri
+convert y3 to r3 at Grover
+move y1 from Deacon to Taylor (y3)
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Grover; build r3 at Ts52
+sacrifice y3 at Deacon; move r1 from May to Taylor; move r1 from May to Taylor; move r1 from Taylor to Ts52
+move r3 from Ts52 to Taylor
+sacrifice y1 at Taylor; move r1 from Taylor to Ts52
+sacrifice g3 at Ts52; build g1 at Grover; build g3 at Ts52; build r3 at Taylor
+convert r1 to b1 at Ts52
+capture b1 at Ts52
+sacrifice g2 at Nycavri; build g2 at Nycavri; build r1 at Ts52
+capture r1 at Ts52
+sacrifice r1 at Nycavri; capture b1 at Ts52
+capture b1 at Ts52
+sacrifice g2 at Nycavri; build g2 at Nycavri; build r1 at Ts52; catastrophe red at Ts52
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Kermit; build y3 at Robin
+build r1 at Nycavri
+move b1 from Ts52 to Taylor
+convert r1 to b1 at Nycavri
+sacrifice g3 at Ts52; build g3 at Ts52; build b1 at Taylor; build b2 at Taylor
+move b1 from Nycavri to Edney (r1)
+move y2 from Kermit to Edney
+sacrifice g3 at Nycavri; build g3 at Nycavri; build b2 at Edney; build b3 at Edney
+move b1 from Taylor to Edney; catastrophe blue at Edney
+build r1 at Nycavri
+move y1 from Robin to Grover
+convert r1 to b1 at Nycavri
+move b1 from Taylor to Edney
+move b1 from Nycavri to Edney
+capture b1 at Edney
+build r1 at Nycavri
+move b2 from Taylor to Edney
+convert r1 to b1 at Nycavri
+sacrifice y2 at Edney; move b1 from Edney to Nycavri; move b1 from Edney to Nycavri; catastrophe blue at Nycavri
+move g1 from Mercury to Rodgers (b3)
+sacrifice y3 at Robin; move y3 from Kermit to Nycavri; move y1 from Kermit to Nycavri; move y1 from Grover to Nycavri; catastrophe yellow at Nycavri

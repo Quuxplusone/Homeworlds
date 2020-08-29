@@ -1,0 +1,59 @@
+Mneme (0, r2b3) g3-
+Silenttitan (1, b2r3) -g3
+build g1 at Mneme
+build g1 at Silenttitan
+convert g1 to y1 at Mneme
+convert g1 to y1 at Silenttitan
+build g1 at Mneme
+build g1 at Silenttitan
+move g1 from Mneme to Echothis (y1)
+build y2 at Silenttitan
+build y2 at Mneme
+move y2 from Silenttitan to Ant (r1)
+build g1 at Mneme
+build y2 at Silenttitan
+build g2 at Echothis
+sacrifice g1 at Silenttitan; build y3 at Ant
+move y1 from Mneme to Tryouts (b1)
+convert y2 to r2 at Silenttitan
+sacrifice g2 at Echothis; build y2 at Tryouts; build y3 at Mneme
+build y3 at Silenttitan
+sacrifice y2 at Mneme; move y2 from Tryouts to Silenttitan; move y1 from Tryouts to Silenttitan; catastrophe yellow at Silenttitan
+move y3 from Ant to Silenttitan
+convert g1 to b1 at Mneme
+move r2 from Silenttitan to Echothis
+move g1 from Echothis to Ruby (r3)
+build g1 at Silenttitan
+build b1 at Mneme
+build y1 at Silenttitan
+move b1 from Mneme to Ghost (g1)
+convert y1 to b1 at Silenttitan
+build y1 at Mneme
+move b1 from Silenttitan to Echothis
+build b2 at Ghost
+sacrifice g3 at Silenttitan; build r1 at Echothis; build r1 at Echothis; build b2 at Echothis
+move b1 from Mneme to Hunter (y1)
+build g2 at Silenttitan
+sacrifice g3 at Mneme; build b3 at Ghost; build b3 at Hunter; build g2 at Ruby
+sacrifice y2 at Ant; move b1 from Echothis to Mneme; move b2 from Echothis to Mneme
+capture b2 at Mneme
+move g2 from Silenttitan to Ghost
+capture b1 at Mneme
+build g2 at Ghost
+sacrifice y1 at Mneme; move b3 from Ghost to Ruby
+sacrifice r1 at Echothis; capture b2 at Ghost
+sacrifice b1 at Mneme; convert b3 to r3 at Hunter
+build g3 at Silenttitan
+sacrifice g2 at Ruby; build b1 at Ruby; build b3 at Hunter
+sacrifice b2 at Ghost; convert g2 to y2 at Ghost; convert g2 to y2 at Ghost
+convert b3 to g3 at Ruby
+sacrifice g3 at Silenttitan; build y1 at Ghost; build y2 at Silenttitan; build y3 at Silenttitan
+sacrifice g3 at Ruby; build b2 at Ruby; build b3 at Ghost; build g2 at Ruby
+sacrifice y3 at Silenttitan; move y2 from Ghost to Mneme; move y2 from Ghost to Mneme; move y1 from Ghost to Mneme; catastrophe yellow at Mneme
+sacrifice b2 at Ruby; convert b3 to y3 at Ghost; convert b3 to g3 at Hunter
+sacrifice g1 at Silenttitan; build r1 at Echothis
+sacrifice g3 at Hunter; build b2 at Ruby; build b3 at Hunter; build b3 at Ghost
+move r1 from Echothis to Fin (g2)
+sacrifice b2 at Ruby; convert b3 to g3 at Hunter; convert b3 to y3 at Ghost
+build r1 at Fin
+move y3 from Ghost to Silenttitan

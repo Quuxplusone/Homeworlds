@@ -1,0 +1,45 @@
+Dodobirb (0, b1r2) g3-
+Mneme (1, g3y1) -b3
+build g1 at Dodobirb
+build b1 at Mneme
+convert g1 to b1 at Dodobirb
+build b2 at Mneme
+build b2 at Dodobirb
+convert b3 to g3 at Mneme
+build g1 at Dodobirb
+move b1 from Mneme to Caliope (g2)
+convert g1 to y1 at Dodobirb
+sacrifice g3 at Mneme; build b2 at Mneme; build b3 at Mneme; build b3 at Caliope
+move b2 from Dodobirb to Hill (g3)
+sacrifice b2 at Mneme; convert b2 to r2 at Mneme; convert b1 to y1 at Caliope
+build g1 at Dodobirb
+build y2 at Caliope
+build y2 at Dodobirb
+move y2 from Caliope to Hill
+sacrifice y1 at Dodobirb; move b2 from Hill to Stardef (r2)
+build r1 at Mneme
+build y1 at Dodobirb
+build y2 at Caliope
+move y1 from Dodobirb to Water (b3)
+convert y2 to g2 at Caliope
+move g1 from Dodobirb to Water
+sacrifice g2 at Caliope; build y2 at Caliope; build y3 at Hill
+build y3 at Water
+sacrifice y2 at Hill; move y2 from Caliope to Water; move y1 from Caliope to Water; catastrophe yellow at Water
+build y1 at Dodobirb
+move y3 from Hill to Stardef
+sacrifice y1 at Dodobirb; move b2 from Stardef to Run (y3)
+move y3 from Stardef to Water
+sacrifice g1 at Water; build g1 at Dodobirb
+build b1 at Caliope
+build y1 at Dodobirb
+convert b3 to y3 at Caliope
+build g1 at Dodobirb
+build b2 at Caliope
+move g1 from Dodobirb to Run
+move b2 from Caliope to Run
+sacrifice y2 at Dodobirb; move b2 from Run to Defence (r2); move g1 from Run to Defence
+move y3 from Water to Defence
+sacrifice y1 at Dodobirb; move b2 from Defence to Runagain (y1)
+capture g1 at Defence
+convert g1 to y1 at Dodobirb

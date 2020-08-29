@@ -1,0 +1,61 @@
+Zackstack (0, g2y3) b3-
+Asur (1, g1y2) -b3
+build b1 at Zackstack
+build b1 at Asur
+move b1 from Zackstack to Emerald (g1)
+move b1 from Asur to Saphire (y3)
+build b1 at Emerald
+build b2 at Asur
+build b2 at Zackstack
+convert b2 to r2 at Asur
+convert b1 to y1 at Emerald
+move r2 from Asur to Saphire
+convert b2 to r2 at Zackstack
+move r2 from Saphire to Emerald
+sacrifice y1 at Emerald; move b1 from Emerald to Saphire
+build b1 at Asur
+convert b1 to g1 at Saphire
+convert b1 to r1 at Saphire
+sacrifice r2 at Zackstack; capture r1 at Saphire
+build r1 at Emerald
+build g2 at Saphire
+build b1 at Asur
+build b1 at Zackstack
+move b1 from Asur to Diamond (g3)
+sacrifice b1 at Zackstack; convert g1 to b1 at Saphire
+move b1 from Asur to Diamond
+build b2 at Zackstack
+convert b1 to y1 at Diamond
+move b2 from Zackstack to Topaz (y1)
+move y1 from Diamond to Emerald
+build g1 at Saphire
+build y1 at Emerald
+move b2 from Topaz to Garnet (g3)
+move y1 from Emerald to Stall (r2)
+build b1 at Garnet
+build b2 at Asur
+convert b2 to y2 at Garnet
+move y1 from Emerald to Diamond
+build b2 at Garnet
+move b2 from Asur to Diamond
+build b2 at Saphire
+build b3 at Diamond
+convert b1 to y1 at Saphire
+move b3 from Diamond to Emerald
+sacrifice y2 at Garnet; move b1 from Garnet to Asur; move b2 from Garnet to Asur
+convert b3 to r3 at Asur
+sacrifice b2 at Saphire; convert b1 to r1 at Asur; convert b2 to r2 at Asur
+sacrifice b1 at Diamond; convert r3 to b3 at Asur
+move r2 from Asur to Saphire
+move y1 from Diamond to Emerald
+build b1 at Zackstack
+convert b3 to r3 at Emerald
+move r1 from Saphire to Emerald; catastrophe red at Emerald
+build y2 at Emerald
+move y1 from Saphire to Asur
+sacrifice y1 at Stall; move b2 from Diamond to Emerald
+build y1 at Asur
+convert y1 to b1 at Emerald
+convert b1 to r1 at Zackstack
+convert b3 to r3 at Asur
+sacrifice g2 at Saphire; build r1 at Asur; build r2 at Asur; catastrophe red at Asur

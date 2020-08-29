@@ -1,0 +1,33 @@
+Tank_7 (0, b1r2) g3-
+Rootbier (1, y1b2) -g3
+build g1 at Tank_7
+build g1 at Rootbier
+build g1 at Tank_7
+build g2 at Rootbier
+convert g1 to y1 at Tank_7
+convert g2 to y2 at Rootbier
+move g1 from Tank_7 to Malfadoris (b3)
+convert g1 to r1 at Rootbier
+convert g1 to r1 at Malfadoris
+build g1 at Rootbier
+build g1 at Tank_7
+move y2 from Rootbier to Malfadoris
+sacrifice r1 at Malfadoris
+build g1 at Rootbier
+convert g1 to r1 at Tank_7
+build r1 at Rootbier
+build y1 at Tank_7
+sacrifice g1 at Rootbier; build y2 at Malfadoris
+move y1 from Tank_7 to Fyzan (g3)
+build r2 at Rootbier
+build y2 at Fyzan
+move r1 from Rootbier to Malfadoris
+move r1 from Tank_7 to Fyzan
+sacrifice y2 at Malfadoris; move r1 from Rootbier to Pluma (y3); move g1 from Rootbier to Pluma
+build g1 at Tank_7
+sacrifice g3 at Rootbier; build r2 at Rootbier; build r3 at Pluma; build r3 at Malfadoris
+build r3 at Fyzan
+convert r2 to g2 at Rootbier
+sacrifice y2 at Fyzan; move g3 from Tank_7 to Fyzan; move g3 from Fyzan to Rootbier
+sacrifice y2 at Malfadoris; move g1 from Pluma to Rootbier; move r1 from Pluma to Rootbier
+sacrifice r3 at Fyzan; capture r2 at Rootbier; capture g2 at Rootbier; capture g1 at Rootbier

@@ -1,0 +1,17 @@
+Andylooney (0, r2b1) g3-
+Ratonlaveurgarou (1, g1b2) -r3
+build g1 at Andylooney
+build r1 at Ratonlaveurgarou
+convert g1 to r1 at Andylooney
+pass
+build g1 at Andylooney
+convert r1 to y1 at Ratonlaveurgarou
+convert g3 to y3 at Andylooney
+move r3 from Ratonlaveurgarou to Sunflower (y3)
+move r1 from Andylooney to Paradise (g3)
+build y1 at Ratonlaveurgarou
+build g1 at Andylooney
+build y1 at Ratonlaveurgarou
+build y2 at Andylooney
+move y1 from Ratonlaveurgarou to Coquelicot (r3)
+build g2 at Andylooney

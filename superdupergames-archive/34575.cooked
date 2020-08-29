@@ -1,0 +1,62 @@
+Laurie_Menke (0, y1b3) g3-
+Agentofchaos (1, b2r1) -g3
+build g1 at Laurie_Menke
+build g1 at Agentofchaos
+convert g1 to r1 at Laurie_Menke
+convert g1 to r1 at Agentofchaos
+build r2 at Laurie_Menke
+build r2 at Agentofchaos
+move r1 from Laurie_Menke to Yellow (y2)
+convert r1 to y1 at Agentofchaos
+sacrifice g3 at Laurie_Menke; build r1 at Laurie_Menke; build r2 at Yellow; build r3 at Laurie_Menke
+sacrifice g3 at Agentofchaos; build r3 at Agentofchaos; build y1 at Agentofchaos; build y2 at Agentofchaos
+move r1 from Yellow to Hi (y3)
+move r2 from Agentofchaos to Hi
+convert r1 to g1 at Laurie_Menke
+capture r1 at Hi
+convert r2 to y2 at Laurie_Menke
+move y1 from Agentofchaos to Playzure (g3)
+move r2 from Yellow to Playzure
+move y1 from Playzure to Gripsy (g1)
+build r1 at Playzure
+convert r3 to g3 at Agentofchaos
+build r2 at Playzure
+sacrifice g3 at Agentofchaos; build y2 at Gripsy; build y3 at Gripsy; build y3 at Agentofchaos
+build r3 at Laurie_Menke
+sacrifice y2 at Gripsy; move r1 from Hi to Gripsy; move r1 from Gripsy to Playzure; catastrophe red at Playzure
+sacrifice y2 at Laurie_Menke; move r3 from Laurie_Menke to Justforasec (y2); move r3 from Justforasec to Hi
+move r2 from Hi to Gripsy
+build g1 at Laurie_Menke
+convert y2 to g2 at Agentofchaos
+build g2 at Laurie_Menke
+build g2 at Agentofchaos
+sacrifice g2 at Laurie_Menke; build r1 at Laurie_Menke; build r1 at Hi
+sacrifice g2 at Agentofchaos; build r2 at Gripsy; build y2 at Gripsy
+move g1 from Laurie_Menke to Poppins (y2)
+build y2 at Agentofchaos
+build g2 at Laurie_Menke
+move y2 from Agentofchaos to Wazrom (g3)
+move r3 from Hi to Poppins
+build g2 at Agentofchaos
+move r3 from Poppins to Wazrom
+move y2 from Wazrom to Deetoo (r2)
+convert g1 to b1 at Laurie_Menke
+convert g2 to b2 at Agentofchaos
+sacrifice b1 at Laurie_Menke; convert g1 to b1 at Poppins
+move b2 from Agentofchaos to Hi
+move r1 from Hi to Agentofchaos
+capture r1 at Agentofchaos
+sacrifice b1 at Poppins; convert g2 to y2 at Laurie_Menke
+move y1 from Gripsy to Deetoo
+move y2 from Laurie_Menke to Green (g2)
+move y2 from Gripsy to Denetor (b2)
+convert r1 to g1 at Laurie_Menke
+build g1 at Agentofchaos
+sacrifice y2 at Green; move r3 from Wazrom to Deetoo
+sacrifice y3 at Gripsy; move y1 from Deetoo to Laurie_Menke; move y2 from Deetoo to Laurie_Menke; move y2 from Denetor to Laurie_Menke; catastrophe yellow at Laurie_Menke
+build g2 at Laurie_Menke
+build g2 at Agentofchaos
+convert g2 to y2 at Laurie_Menke
+move b2 from Hi to Gripsy
+sacrifice y2 at Laurie_Menke; move r3 from Deetoo to Gripsy; move g1 from Laurie_Menke to Agentofchaos; catastrophe green at Agentofchaos
+sacrifice y3 at Agentofchaos; move r1 from Agentofchaos to Laurie_Menke; move r2 from Gripsy to Laurie_Menke; move r2 from Gripsy to Laurie_Menke; catastrophe red at Laurie_Menke

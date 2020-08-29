@@ -1,0 +1,31 @@
+Wil (0, b3y2) g3-
+Thorolf (1, b1y2) -g3
+build g1 at Wil
+build g1 at Thorolf
+convert g1 to b1 at Wil
+move g1 from Thorolf to Gamma (b3)
+build b1 at Wil
+build g1 at Gamma
+move b1 from Wil to Y1 (y1)
+build g1 at Gamma
+build b2 at Wil
+convert g1 to y1 at Gamma
+move b1 from Wil to G1 (g1)
+move y1 from Gamma to Zeta (g2)
+sacrifice g3 at Wil; build b2 at G1; build b2 at Y1; build b3 at Wil
+build g2 at Gamma
+convert b3 to g3 at Wil
+convert g2 to r2 at Gamma
+build b3 at G1
+build g2 at Thorolf
+convert b3 to r3 at G1
+convert g2 to r2 at Thorolf
+build b3 at G1
+build g2 at Thorolf
+convert b3 to y3 at G1
+convert g3 to r3 at Thorolf
+build b3 at G1
+move r3 from Thorolf to Gamma
+sacrifice y3 at G1; move b3 from G1 to Gamma; move r3 from G1 to Y3 (y3); move b3 from Gamma to Thorolf
+convert r3 to y3 at Gamma
+sacrifice r3 at Y3; capture r2 at Thorolf; capture g2 at Thorolf

@@ -1,0 +1,78 @@
+Mrstickman (0, g1b2) y3-
+Keith (1, y3b1) -g3
+build y1 at Mrstickman
+build g1 at Keith
+build y1 at Mrstickman
+convert g1 to y1 at Keith
+convert y1 to b1 at Mrstickman
+build g1 at Keith
+move b1 from Mrstickman to Lorem (g3)
+move y1 from Keith to Midworld (g2)
+convert y1 to r1 at Mrstickman
+convert g1 to r1 at Keith
+build y1 at Mrstickman
+build g1 at Keith
+move y1 from Mrstickman to Lorem
+convert g1 to b1 at Keith
+build b2 at Lorem
+move b1 from Keith to Midworld
+convert b1 to g1 at Lorem
+convert b1 to g1 at Midworld
+move b2 from Lorem to Ipsum (g2)
+build g2 at Keith
+build b1 at Ipsum
+sacrifice g2 at Keith; build g2 at Midworld; build g3 at Keith
+move g1 from Lorem to Midworld; catastrophe green at Midworld
+convert g3 to r3 at Keith
+build y1 at Lorem
+move r3 from Keith to Ipsum
+sacrifice y1 at Lorem; move b2 from Ipsum to Dolor (g1)
+capture b1 at Ipsum
+build y1 at Lorem
+convert b1 to y1 at Ipsum
+build y2 at Mrstickman
+build y2 at Ipsum
+sacrifice y2 at Mrstickman; move y1 from Lorem to Ipsum; move y1 from Lorem to Ipsum; catastrophe yellow at Ipsum
+build g1 at Keith
+build b1 at Dolor
+convert g1 to y1 at Keith
+build b1 at Dolor
+move y1 from Keith to Ipsum
+convert b2 to y2 at Dolor
+move r3 from Ipsum to Dolor
+sacrifice y2 at Dolor; move b1 from Dolor to Sit (g2); move b1 from Dolor to Amet (y2)
+build g1 at Keith
+build b2 at Sit
+convert g1 to y1 at Keith
+convert y3 to b3 at Mrstickman
+sacrifice y1 at Keith; move r3 from Dolor to Sit
+build b2 at Sit
+capture b2 at Sit
+build b3 at Sit
+capture b3 at Sit
+build b3 at Mrstickman; catastrophe blue at Sit
+build g1 at Keith
+convert b3 to y3 at Mrstickman
+convert g1 to y1 at Keith
+build b1 at Mrstickman
+move y1 from Keith to Sit
+move b3 from Mrstickman to Adipiscing (r3)
+build g1 at Keith
+build b2 at Mrstickman
+build y1 at Sit
+convert b2 to g2 at Mrstickman
+build y2 at Ipsum
+build b2 at Mrstickman
+move y1 from Sit to Belle (b3)
+move g2 from Mrstickman to Adipiscing
+move y2 from Ipsum to Ping (b3)
+build b2 at Adipiscing
+sacrifice g1 at Keith; build y2 at Belle
+convert b3 to y3 at Adipiscing
+move y1 from Belle to Mrstickman
+capture y1 at Mrstickman
+sacrifice y1 at Sit; move y2 from Belle to Mrstickman
+move y1 from Mrstickman to Elit (g3)
+sacrifice r3 at Sit; capture b2 at Mrstickman; capture b1 at Mrstickman; capture r1 at Mrstickman
+convert y3 to r3 at Mrstickman
+sacrifice g3 at Keith; build r1 at Mrstickman; build r2 at Mrstickman; build b3 at Mrstickman; catastrophe red at Mrstickman

@@ -1,0 +1,16 @@
+Mzmzmz (0, g2y1) b3-
+Werebear (1, y2b1) -g3
+build b1 at Mzmzmz
+build g1 at Werebear
+convert b1 to g1 at Mzmzmz
+move g1 from Werebear to Banana (y3)
+build b1 at Mzmzmz
+build g1 at Werebear
+move g1 from Mzmzmz to Banana
+convert g1 to r1 at Werebear
+convert b1 to y1 at Mzmzmz
+build r1 at Werebear
+build b1 at Mzmzmz
+move r1 from Werebear to Spinach (g3)
+move b1 from Mzmzmz to Banana
+move r1 from Werebear to Banana

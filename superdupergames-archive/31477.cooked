@@ -1,0 +1,61 @@
+Bhorner (0, y2b1) g3-
+Mandrel (1, r1b3) -g3
+build g1 at Bhorner
+build g1 at Mandrel
+convert g1 to b1 at Bhorner
+convert g1 to b1 at Mandrel
+move b1 from Bhorner to Stpat (g3)
+build b2 at Mandrel
+build b2 at Stpat
+convert b1 to y1 at Mandrel
+convert b1 to y1 at Stpat
+move b2 from Mandrel to Adjustment (g2)
+build g1 at Bhorner
+build b1 at Adjustment
+build g1 at Bhorner
+convert b2 to y2 at Adjustment
+convert g1 to r1 at Bhorner
+build y1 at Adjustment
+move g1 from Bhorner to Bigbird (y3)
+convert y2 to r2 at Adjustment
+build y2 at Stpat
+build y2 at Adjustment
+move y2 from Stpat to Xmas (g2)
+build y3 at Mandrel
+build y3 at Xmas
+move y1 from Adjustment to Boltzmann (b3)
+move y2 from Xmas to Spark (r1)
+build b1 at Adjustment
+sacrifice g1 at Bigbird; build y3 at Stpat
+build r2 at Adjustment
+move y1 from Stpat to Envy (g2)
+move r2 from Adjustment to Boltzmann
+sacrifice y3 at Xmas; move y2 from Spark to Envy; move y1 from Envy to Mandrel; move y2 from Envy to Mandrel; catastrophe yellow at Mandrel
+build y1 at Adjustment
+build b2 at Stpat
+build g1 at Mandrel
+move b2 from Stpat to Tweety (y2)
+build y1 at Adjustment
+move b2 from Tweety to Bigbird (y3)
+move y1 from Adjustment to Bubbles (b3)
+build b2 at Stpat
+convert b1 to g1 at Adjustment
+convert b2 to r2 at Stpat
+move g1 from Adjustment to Boltzmann
+build y2 at Stpat
+build y3 at Boltzmann
+move y3 from Stpat to Grover (b2)
+move y1 from Adjustment to Hard (r3)
+convert b2 to g2 at Bigbird
+sacrifice g3 at Mandrel; build g1 at Boltzmann; build g2 at Boltzmann; build g3 at Mandrel
+sacrifice y3 at Grover; move g3 from Bhorner to Bigbird; move g3 from Bigbird to Adjustment; move g3 from Adjustment to Mandrel
+sacrifice y3 at Boltzmann; move g1 from Boltzmann to Adjustment; move g1 from Adjustment to Mandrel; move y2 from Adjustment to Mandrel; catastrophe green at Mandrel
+build y3 at Stpat
+move r2 from Boltzmann to Bhorner
+move y3 from Stpat to Bhorner
+sacrifice g2 at Boltzmann; build r1 at Bhorner; build r3 at Adjustment
+build y3 at Stpat
+capture r1 at Bhorner
+sacrifice y2 at Stpat; move y3 from Stpat to Adjustment; move y3 from Adjustment to Mandrel
+convert r2 to y2 at Bhorner
+sacrifice r2 at Stpat; capture y2 at Mandrel

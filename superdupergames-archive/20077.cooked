@@ -1,0 +1,15 @@
+Silenttitan (0, y2b1) g3-
+Godofpie (1, b1y3) -g3
+build g1 at Silenttitan
+build g1 at Godofpie
+convert g1 to b1 at Silenttitan
+convert g3 to r3 at Godofpie
+build b2 at Silenttitan
+move r3 from Godofpie to Tot (y2)
+build g1 at Silenttitan
+move r3 from Tot to Pop (y3)
+convert g1 to r1 at Silenttitan
+build g1 at Godofpie
+convert b2 to y2 at Silenttitan
+convert g1 to r1 at Godofpie
+build b2 at Silenttitan

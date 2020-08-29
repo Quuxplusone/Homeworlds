@@ -1,0 +1,33 @@
+Dlwillson (0, b3y1) g3-
+Goblin981 (1, g3b2) -y3
+build g1 at Dlwillson
+build y1 at Goblin981
+build g1 at Dlwillson
+build y1 at Goblin981
+move g1 from Dlwillson to Slick (y2)
+move y1 from Goblin981 to Green (g1)
+build g2 at Slick
+build y2 at Green
+move g2 from Slick to Sticky (b1)
+convert y3 to g3 at Goblin981
+sacrifice g3 at Dlwillson; build g2 at Sticky; build g2 at Slick; build g3 at Dlwillson
+sacrifice g3 at Goblin981; build y2 at Goblin981; build y3 at Goblin981; build y3 at Green
+build g3 at Sticky
+convert y1 to r1 at Goblin981
+convert g1 to r1 at Dlwillson
+move y3 from Green to Slick
+convert g3 to y3 at Sticky
+sacrifice r1 at Goblin981; capture g1 at Slick
+convert g2 to b2 at Sticky
+convert y2 to r2 at Goblin981
+move g2 from Slick to Slippery (y1)
+move r2 from Goblin981 to Slippery
+move g2 from Slippery to Goblin981
+build y2 at Goblin981
+build g1 at Goblin981
+convert y2 to r2 at Goblin981
+build b1 at Sticky
+capture g2 at Goblin981
+move b1 from Sticky to Goblin981
+move r2 from Slippery to Slick
+sacrifice g3 at Dlwillson; build g2 at Goblin981; build b1 at Goblin981; build b2 at Goblin981; catastrophe green at Goblin981; catastrophe blue at Goblin981

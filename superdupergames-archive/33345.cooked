@@ -1,0 +1,39 @@
+Nupanick (0, r3g2) b3-
+Laroka (1, r3b2) -g3
+build b1 at Nupanick
+build g1 at Laroka
+convert b1 to y1 at Nupanick
+convert g1 to y1 at Laroka
+build b1 at Nupanick
+build g1 at Laroka
+move b1 from Nupanick to Altair (y1)
+convert g1 to r1 at Laroka
+build y2 at Nupanick
+build g1 at Laroka
+build y2 at Nupanick
+move g3 from Laroka to Altair
+move b1 from Altair to Betelgeuse (g2)
+build g1 at Laroka
+convert y1 to g1 at Nupanick
+convert g1 to b1 at Laroka
+move y2 from Nupanick to Castor (r1)
+move b1 from Laroka to Altair
+move y2 from Castor to Laroka
+move g3 from Altair to Laroka
+sacrifice y2 at Laroka; move y2 from Nupanick to Altair; move y2 from Altair to Betelgeuse
+move g1 from Laroka to Altair
+convert g1 to y1 at Nupanick
+build y2 at Laroka
+build y2 at Nupanick
+move y2 from Laroka to Altair
+build y3 at Betelgeuse
+sacrifice y2 at Altair; move g1 from Altair to Betelgeuse; move b1 from Altair to Betelgeuse
+convert y2 to r2 at Betelgeuse
+build g1 at Laroka
+capture g1 at Betelgeuse
+move g1 from Laroka to Caprica (b1)
+capture b1 at Betelgeuse
+move g3 from Laroka to Caprica
+sacrifice y2 at Nupanick; move y3 from Betelgeuse to Caprica; move y3 from Caprica to Laroka
+convert g1 to y1 at Caprica
+sacrifice r2 at Betelgeuse; capture r1 at Laroka; capture y1 at Laroka

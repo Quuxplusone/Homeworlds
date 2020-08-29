@@ -1,0 +1,14 @@
+Smartmo (0, g3y3) g3-
+Madwuher (1, r1b3) -g3
+build g1 at Smartmo
+build g1 at Madwuher
+move g1 from Smartmo to Delta (y2)
+convert g1 to y1 at Madwuher
+build g1 at Smartmo
+build g1 at Madwuher
+build g2 at Delta
+build g2 at Madwuher
+move g1 from Delta to Madwuher; catastrophe green at Madwuher
+convert y1 to g1 at Madwuher
+move g1 from Smartmo to Gamma (b1)
+build g1 at Madwuher

@@ -1,0 +1,67 @@
+Dlwillson (0, y3b1) g3-
+Felix (1, r2b3) -g3
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to b1 at Dlwillson
+convert g1 to b1 at Felix
+build b2 at Dlwillson
+build b2 at Felix
+move b1 from Dlwillson to Forest (g2)
+convert b1 to y1 at Felix
+build b1 at Forest
+build b2 at Felix
+convert b2 to y2 at Dlwillson
+move b2 from Felix to Out (g1)
+move y2 from Dlwillson to Forest
+build y1 at Felix
+move b1 from Forest to Field (g1)
+move b2 from Felix to Sand (y1)
+build y2 at Forest
+move y1 from Felix to Out
+move y2 from Forest to Dlwillson
+build g1 at Felix
+sacrifice g3 at Dlwillson; build b2 at Field; build b3 at Field; build b3 at Forest
+sacrifice g3 at Felix; build y2 at Felix; build y3 at Felix; build y3 at Out
+move b3 from Forest to Dlwillson
+sacrifice y2 at Felix; move b2 from Sand to Felix; move b2 from Felix to Field; catastrophe blue at Field
+convert b3 to g3 at Dlwillson
+convert y1 to r1 at Out
+convert y2 to r2 at Dlwillson
+build y1 at Out
+build y1 at Forest
+build r1 at Out
+move y1 from Forest to Field (g1)
+move b2 from Out to Forest
+build y2 at Forest
+sacrifice r1 at Out; capture y2 at Forest
+build r1 at Dlwillson
+sacrifice y2 at Forest; move b2 from Forest to Out; move y3 from Out to Forest
+build y2 at Forest
+build y2 at Out
+convert y2 to g2 at Forest
+sacrifice b2 at Out; convert y3 to r3 at Forest; convert y1 to b1 at Out
+sacrifice y2 at Forest; move b1 from Forest to Field; move r1 from Dlwillson to Forest
+capture g2 at Forest
+sacrifice g3 at Dlwillson; build r1 at Forest; build r2 at Forest; build r3 at Dlwillson; catastrophe red at Forest
+sacrifice g2 at Forest; build b2 at Out; build b2 at Out
+build b2 at Field
+move b2 from Out to Wizard (g2)
+convert b1 to r1 at Field
+build g2 at Felix
+convert r3 to g3 at Dlwillson
+sacrifice g2 at Felix; build b1 at Out; build b3 at Wizard
+build b3 at Field
+convert b3 to y3 at Wizard
+convert b2 to g2 at Field
+build g2 at Felix
+move g2 from Field to Sol (y2)
+sacrifice g2 at Felix; build y1 at Out; build y2 at Wizard
+sacrifice g2 at Sol; build g2 at Dlwillson; build y2 at Field
+move b2 from Out to Post (g2)
+sacrifice g2 at Dlwillson; build r1 at Field; build r2 at Field
+sacrifice y3 at Wizard; move b2 from Post to Dlwillson; move b1 from Out to Wizard; move b1 from Wizard to Dlwillson
+move y1 from Field to Felix
+sacrifice y1 at Felix; move b2 from Wizard to Dlwillson; catastrophe blue at Dlwillson
+sacrifice g3 at Dlwillson; build y1 at Felix; build y3 at Felix; build r3 at Dlwillson; catastrophe yellow at Felix
+build r3 at Out
+sacrifice y2 at Field; move b3 from Field to Felix; move r2 from Dlwillson to Wizard

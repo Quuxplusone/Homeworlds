@@ -1,0 +1,65 @@
+Bhorner (0, r2b1) g3-
+Aristos (1, g3b2) -y3
+build g1 at Bhorner
+build y1 at Aristos
+convert g1 to y1 at Bhorner
+convert y1 to g1 at Aristos
+build g1 at Bhorner
+build y1 at Aristos
+convert g1 to b1 at Bhorner
+move y1 from Aristos to Seedling (g1)
+build b1 at Bhorner
+build y1 at Aristos
+build y2 at Bhorner
+build y2 at Seedling
+move b1 from Bhorner to Xmas (g3)
+move y2 from Seedling to Xmas
+build b2 at Bhorner
+build y2 at Seedling
+convert y1 to r1 at Bhorner
+convert y1 to r1 at Aristos
+convert b1 to g1 at Xmas
+build y1 at Aristos
+build g2 at Xmas
+sacrifice y2 at Xmas; move g1 from Aristos to Seedling; move g1 from Seedling to Xmas; catastrophe green at Xmas
+move b2 from Bhorner to Xmas (g3)
+build r1 at Aristos
+build r2 at Bhorner
+move r1 from Aristos to Seedling
+move r2 from Bhorner to Xmas
+build r2 at Seedling
+build r3 at Xmas
+build r3 at Aristos
+convert r2 to y2 at Xmas
+build r2 at Seedling
+sacrifice y2 at Bhorner; move r1 from Bhorner to Xmas; move r1 from Xmas to Seedling; catastrophe red at Seedling
+move r3 from Aristos to Seedling
+build b1 at Xmas
+build r1 at Seedling
+build g1 at Bhorner
+convert y1 to g1 at Aristos
+move b1 from Xmas to Way (b2)
+build g2 at Aristos
+sacrifice g3 at Bhorner; build b3 at Bhorner; build b3 at Xmas; build b3 at Way
+move r1 from Seedling to Art (g3)
+sacrifice y2 at Xmas; move b1 from Way to Flare (y1); move b2 from Xmas to Flare
+sacrifice y2 at Seedling; move r3 from Seedling to Way; move r3 from Way to Flare
+sacrifice b3 at Xmas; convert b1 to r1 at Flare; convert b2 to r2 at Flare; convert b3 to y3 at Bhorner
+sacrifice g2 at Aristos; build r2 at Art; build r3 at Aristos
+move r2 from Flare to Way
+capture r1 at Flare
+build b1 at Bhorner
+move r1 from Flare to Art
+move b1 from Bhorner to Xmas
+build y1 at Aristos
+build b2 at Xmas
+sacrifice y3 at Aristos; move r1 from Art to Bhorner; move r1 from Art to Bhorner; move r2 from Art to Bhorner; catastrophe red at Bhorner
+build b3 at Bhorner
+move y1 from Seedling to Arch (b3)
+build g1 at Bhorner
+build y2 at Aristos
+move g1 from Bhorner to Aristos
+capture g1 at Aristos
+move g1 from Bhorner to Aristos; catastrophe green at Aristos
+convert y1 to g1 at Aristos
+sacrifice y3 at Bhorner; move b1 from Bhorner to Aristos; move b1 from Xmas to Aristos; move b2 from Xmas to Aristos; catastrophe blue at Aristos

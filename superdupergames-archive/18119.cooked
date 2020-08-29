@@ -1,0 +1,59 @@
+Dlwillson (0, b3y1) g3-
+Aristos (1, y1b2) -g3
+build g1 at Dlwillson
+build g1 at Aristos
+convert g1 to y1 at Dlwillson
+move g1 from Aristos to Babylon1 (g3)
+build y2 at Dlwillson
+build g1 at Aristos
+move y1 from Dlwillson to Goldie (b2)
+convert g3 to y3 at Aristos
+build y2 at Dlwillson
+move y3 from Aristos to Ixion (g3)
+move y1 from Goldie to Babylon1
+build y2 at Ixion
+build y3 at Babylon1
+move y3 from Ixion to Aristos
+convert y2 to r2 at Dlwillson
+convert y3 to r3 at Aristos
+sacrifice g3 at Dlwillson; build y2 at Dlwillson; build y3 at Babylon1; build r1 at Dlwillson
+build y3 at Ixion
+sacrifice y2 at Dlwillson; move y3 from Babylon1 to Aristos; move y3 from Babylon1 to Aristos
+move y2 from Ixion to Aristos; catastrophe yellow at Aristos
+convert r2 to g2 at Dlwillson
+move y3 from Ixion to Flank (g2)
+build y1 at Dlwillson
+build r1 at Aristos
+convert y1 to b1 at Dlwillson
+sacrifice r1 at Aristos; capture y1 at Babylon1
+build b1 at Dlwillson
+move y3 from Flank to Dlwillson
+build y1 at Dlwillson; catastrophe yellow at Dlwillson
+convert g1 to b1 at Aristos
+convert b1 to y1 at Dlwillson
+build y1 at Babylon1
+build y2 at Dlwillson
+move y1 from Babylon1 to Aristos
+sacrifice y2 at Dlwillson; move r1 from Dlwillson to Aristos; move b1 from Dlwillson to Aristos
+sacrifice r3 at Aristos; capture b1 at Aristos; capture r1 at Aristos
+build g1 at Dlwillson
+build y2 at Babylon1
+convert g2 to r2 at Dlwillson
+build y2 at Babylon1
+move r2 from Dlwillson to Aristos
+sacrifice y2 at Babylon1; move b1 from Aristos to Dlwillson; move b1 from Aristos to Dlwillson
+sacrifice r2 at Aristos; capture b1 at Dlwillson; capture b1 at Dlwillson
+build y2 at Babylon1
+build y2 at Dlwillson
+sacrifice y2 at Babylon1; move r1 from Aristos to Dlwillson; move y2 from Babylon1 to Aristos
+sacrifice b1 at Dlwillson; convert y2 to r2 at Dlwillson
+sacrifice y1 at Babylon1; move r1 from Dlwillson to Aristos
+build b1 at Dlwillson
+convert y1 to b1 at Aristos
+move b1 from Dlwillson to Dingo (y1)
+sacrifice g1 at Babylon1; build r1 at Aristos
+move b1 from Dlwillson to Aristos
+move b1 from Aristos to Wrongway (y1)
+move b1 from Dingo to Aristos
+move b1 from Wrongway to Dlwillson
+sacrifice g1 at Dlwillson; build b2 at Aristos; catastrophe blue at Aristos

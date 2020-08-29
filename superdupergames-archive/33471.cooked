@@ -1,0 +1,17 @@
+Trydnt (0, b2y1) g3-
+Mobynostromo (1, b1g2) -y3
+build g1 at Trydnt
+build y1 at Mobynostromo
+build g1 at Trydnt
+build y1 at Mobynostromo
+move g1 from Trydnt to Y3 (y3)
+move y1 from Mobynostromo to Jolly (g3)
+build g1 at Y3
+build y2 at Mobynostromo
+build g2 at Y3
+convert y1 to r1 at Mobynostromo
+convert g1 to r1 at Trydnt
+convert y2 to g2 at Mobynostromo
+move g1 from Y3 to Mobynostromo
+move g2 from Mobynostromo to Y3
+sacrifice r1 at Trydnt; capture r1 at Mobynostromo

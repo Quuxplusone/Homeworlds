@@ -1,0 +1,39 @@
+Ts52 (0, y3b2) g3-
+Nycavri (1, g3b1) -y3
+build g1 at Ts52
+build y1 at Nycavri
+convert g1 to y1 at Ts52
+convert y1 to g1 at Nycavri
+build g1 at Ts52
+build y1 at Nycavri
+move g1 from Ts52 to Gonzo (b1)
+move y1 from Nycavri to Deacon (g2)
+move y1 from Ts52 to Gonzo
+convert g1 to r1 at Nycavri
+convert y1 to r1 at Gonzo
+build y1 at Nycavri
+build g1 at Ts52
+build y1 at Deacon
+build g1 at Gonzo
+build y2 at Deacon
+sacrifice g3 at Ts52; build g2 at Ts52; build g2 at Gonzo; build g3 at Ts52
+build y2 at Nycavri
+convert g3 to y3 at Ts52
+move y2 from Deacon to May (b1)
+move y3 from Ts52 to Gonzo
+build y2 at Deacon
+build g3 at Ts52
+sacrifice y2 at Deacon; move y1 from Deacon to May; move y1 from Deacon to May
+move g2 from Gonzo to Bigbird (y2)
+sacrifice y3 at Nycavri; move y2 from May to Ts52; move y1 from May to Ts52; move y1 from May to Ts52; catastrophe yellow at Ts52
+move y3 from Gonzo to Ts52
+build y1 at Nycavri
+sacrifice g3 at Ts52; build g2 at Bigbird; build g3 at Ts52; build g3 at Gonzo
+move y1 from Nycavri to Mercury (b2)
+move g3 from Ts52 to Nycavri
+move y1 from Mercury to Taylor (b3)
+sacrifice r1 at Gonzo; capture r1 at Nycavri
+move y1 from Taylor to Ts52
+capture y2 at Nycavri
+build y1 at Nycavri
+build y2 at Nycavri; catastrophe yellow at Nycavri

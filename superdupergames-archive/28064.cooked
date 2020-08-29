@@ -1,0 +1,18 @@
+Doa (0, b3y1) g3-
+Wil (1, b3g2) -y3
+build g1 at Doa
+build y1 at Wil
+move g1 from Doa to Clue (b2)
+build y1 at Wil
+build g1 at Clue
+move y1 from Wil to B1 (b1)
+build g1 at Clue
+build y2 at Wil
+build g2 at Doa
+convert y2 to g2 at Wil
+convert g2 to y2 at Doa
+move g2 from Wil to B1
+move y2 from Doa to Badplan (g2)
+move y1 from Wil to Be1 (b1)
+convert g1 to r1 at Clue
+build y2 at B1

@@ -1,0 +1,49 @@
+Babamots (0, b2r1) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Babamots
+build g1 at Ts52
+convert g1 to r1 at Babamots
+convert g1 to r1 at Ts52
+build r2 at Babamots
+build r2 at Ts52
+convert r1 to y1 at Babamots
+convert r1 to y1 at Ts52
+build g1 at Babamots
+build g1 at Ts52
+move g1 from Babamots to Betazed (b3)
+move g1 from Ts52 to Gonzo (b1)
+build y1 at Babamots
+build y2 at Ts52
+move y1 from Babamots to Betazed
+move y2 from Ts52 to Gonzo
+build y2 at Babamots
+build r1 at Ts52
+sacrifice g3 at Babamots; build y2 at Betazed; build y3 at Betazed; build y3 at Babamots
+move y1 from Ts52 to Grover (b1)
+sacrifice y1 at Betazed; move y2 from Babamots to Orion (g3)
+build y1 at Gonzo
+convert y1 to b1 at Babamots
+move r2 from Ts52 to Grover
+move b1 from Babamots to Orion
+build g1 at Ts52
+move y3 from Betazed to Grover
+move r2 from Grover to Ts52
+build b2 at Orion
+build g2 at Gonzo
+build b3 at Orion
+move g2 from Gonzo to Cookie (b3)
+move b3 from Orion to Gonzo
+move y2 from Gonzo to Cookie
+convert b3 to r3 at Gonzo
+build g2 at Cookie
+capture y1 at Gonzo
+move r2 from Ts52 to Bigbird (y1)
+capture g1 at Gonzo
+move g2 from Cookie to Bigbird
+move g1 from Betazed to Gonzo
+sacrifice g3 at Ts52; build g2 at Bigbird; build g3 at Ts52; build g3 at Cookie
+sacrifice y3 at Grover; move g1 from Gonzo to Ts52; move g1 from Gonzo to Ts52; move r3 from Gonzo to Ts52; catastrophe green at Ts52
+sacrifice y2 at Cookie; move g2 from Bigbird to Ts52; move r2 from Bigbird to Ts52
+sacrifice r2 at Babamots; capture g2 at Ts52; capture r2 at Ts52
+move g2 from Bigbird to Ts52
+sacrifice r2 at Ts52; capture r1 at Ts52; capture g2 at Ts52

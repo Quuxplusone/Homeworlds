@@ -1,0 +1,61 @@
+Mneme (0, r1b2) g3-
+Wil (1, b3y1) -g3
+build g1 at Mneme
+build g1 at Wil
+convert g1 to y1 at Mneme
+convert g1 to y1 at Wil
+build y2 at Mneme
+build y2 at Wil
+move y1 from Mneme to Melpomene (b3)
+move y1 from Wil to G2 (g2)
+build g1 at Mneme
+build g1 at Wil
+move g1 from Mneme to Melpomene
+convert g1 to r1 at Wil
+convert g1 to r1 at Melpomene
+build r2 at Wil
+build g1 at Mneme
+move r2 from Wil to G2
+sacrifice g1 at Mneme; build r2 at Melpomene
+build r2 at Wil
+sacrifice g3 at Mneme; build y2 at Melpomene; build y3 at Mneme; build r3 at Melpomene
+move r2 from G2 to Melpomene; catastrophe red at Melpomene
+convert y2 to g2 at Mneme
+move r2 from Wil to G2
+convert y1 to r1 at Melpomene
+build r2 at Wil
+build g1 at Mneme
+move r2 from Wil to Y2 (y2)
+move g1 from Mneme to Erato (y3)
+build r2 at G2
+sacrifice g2 at Mneme; build y1 at Mneme; build y3 at Melpomene
+move r2 from G2 to Erato
+sacrifice g1 at Erato; build r3 at Melpomene
+build r3 at Wil
+convert r1 to g1 at Melpomene
+convert r3 to b3 at Wil
+convert y1 to g1 at Mneme
+build r1 at G2
+build r3 at Melpomene
+build r3 at Wil
+move r3 from Melpomene to Urania (g2)
+build g1 at Wil
+convert y3 to g3 at Melpomene
+build b1 at Wil
+convert g1 to b1 at Melpomene
+sacrifice y2 at Wil; move b1 from Wil to Y2; move g1 from Wil to Y2
+move b1 from Melpomene to Urania
+move b3 from Wil to Gtwo (g2)
+build b1 at Urania
+build b2 at Y2
+move g3 from Melpomene to Y2
+move g1 from Y2 to Erato
+sacrifice r3 at Urania; capture b2 at Y2; capture r2 at Y2; capture b1 at Y2
+build r3 at Erato
+sacrifice g3 at Y2; build y1 at Melpomene; build y2 at Mneme; build y3 at Mneme
+move r3 from Wil to Y2
+move b2 from Y2 to Wil
+capture r2 at Y2
+sacrifice y3 at Mneme; move b1 from Urania to Wil; move b1 from Y2 to Wil; move y2 from Mneme to Nemesis (g3); catastrophe blue at Wil
+move r3 from Erato to Mneme
+sacrifice y3 at Mneme; move y2 from Melpomene to Wil; move y1 from Melpomene to Wil; move y2 from Nemesis to Wil; catastrophe yellow at Wil

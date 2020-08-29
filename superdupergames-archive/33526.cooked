@@ -1,0 +1,50 @@
+Sharkhands (0, b1g2) r3-
+Wil (1, b3y1) -g3
+build r1 at Sharkhands
+build g1 at Wil
+convert r1 to y1 at Sharkhands
+convert g1 to b1 at Wil
+build r1 at Sharkhands
+build b1 at Wil
+convert r1 to g1 at Sharkhands
+move b1 from Wil to Y2 (y2)
+build g1 at Sharkhands
+build b2 at Wil
+move g1 from Sharkhands to Antares (r3)
+move b1 from Wil to Why2 (y2)
+build g1 at Sharkhands
+build b2 at Wil
+move g1 from Sharkhands to Something (r3)
+move b2 from Wil to G2 (g2)
+build r1 at Sharkhands
+sacrifice g3 at Wil; build b2 at Y2; build b3 at Wil; build b3 at G2
+move g1 from Sharkhands to Baloo (y3)
+move b2 from Y2 to Antares
+build g2 at Baloo
+capture g1 at Antares
+build g3 at Baloo
+build g3 at Antares
+move g3 from Baloo to Another (y2)
+convert b3 to y3 at G2
+build g3 at Another
+convert b2 to r2 at Wil
+sacrifice g3 at Another; build y1 at Sharkhands; build y3 at Sharkhands; build g3 at Another
+sacrifice g3 at Antares; build g3 at Antares; build b2 at Y2; build b3 at Why2
+move r3 from Sharkhands to Baloo
+convert b2 to r2 at G2
+sacrifice g3 at Another; build g3 at Another; build r1 at Sharkhands; build r1 at Baloo
+sacrifice g3 at Antares; build g3 at Antares; build b2 at Antares; build r2 at G2
+move r3 from Baloo to Another
+move r2 from G2 to Baloo
+capture r2 at Baloo
+move r2 from G2 to Something
+sacrifice g1 at Something; build g1 at Baloo
+move b3 from Why2 to Baloo
+move r3 from Another to Baloo
+sacrifice r2 at Wil; capture r3 at Baloo; capture g2 at Baloo
+move r1 from Sharkhands to Baloo; catastrophe red at Baloo
+convert g2 to r2 at Baloo
+move g1 from Baloo to Sharkhands
+capture g1 at Baloo
+build r1 at Sharkhands
+sacrifice y3 at G2; move g3 from Antares to Sharkhands; move b3 from Baloo to Sharkhands; move b1 from Y2 to Baloo

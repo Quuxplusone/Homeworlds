@@ -1,0 +1,63 @@
+Eliscinsky (0, y1b2) g3-
+Nycavri (1, b1y3) -g3
+build g1 at Eliscinsky
+build g1 at Nycavri
+convert g1 to b1 at Eliscinsky
+convert g1 to y1 at Nycavri
+build g1 at Eliscinsky
+build g1 at Nycavri
+convert g1 to y1 at Eliscinsky
+build y2 at Nycavri
+build y2 at Eliscinsky
+move y1 from Nycavri to Deacon (y2)
+move y1 from Eliscinsky to Earth (g3)
+convert g1 to r1 at Nycavri
+build y3 at Earth
+convert y2 to r2 at Nycavri
+build y2 at Eliscinsky
+build g1 at Nycavri
+convert y2 to b2 at Eliscinsky
+move y1 from Deacon to Earth
+move y1 from Earth to Earth2 (g2)
+move r2 from Nycavri to Earth2
+convert b1 to r1 at Eliscinsky
+capture y1 at Earth2
+move y3 from Earth to Earth2
+move r2 from Earth2 to Earth
+build r1 at Eliscinsky
+build r2 at Earth
+sacrifice y2 at Eliscinsky; move r1 from Eliscinsky to Earth; move r1 from Eliscinsky to Earth; catastrophe red at Earth
+move y1 from Earth2 to Earth
+build g1 at Eliscinsky
+move g1 from Nycavri to May (y2)
+convert g1 to r1 at Eliscinsky
+build y2 at Earth
+convert b2 to r2 at Eliscinsky
+build g1 at Nycavri
+move r2 from Eliscinsky to Sol (y3)
+convert g1 to b1 at Nycavri
+move y3 from Earth2 to Earth; catastrophe yellow at Earth
+move b1 from Nycavri to May
+move r2 from Sol to May
+move g1 from May to Mercury (b3)
+capture b1 at May
+convert g1 to y1 at Mercury
+convert b1 to g1 at May
+build g1 at Nycavri
+build g1 at May
+move g1 from Nycavri to Taylor (y2)
+build g2 at May
+build g2 at Taylor
+build g2 at Eliscinsky
+move g2 from Taylor to Mercury
+move g1 from May to Nycavri
+capture g1 at Nycavri
+move g1 from May to Nycavri
+convert g3 to r3 at Nycavri
+sacrifice g3 at Eliscinsky; build g3 at Eliscinsky; build g3 at Nycavri; build g3 at May
+move g1 from Taylor to Nycavri; catastrophe green at Nycavri
+convert g2 to y2 at Eliscinsky
+build y1 at Mercury
+build r1 at May
+move y1 from Mercury to Eliscinsky
+sacrifice y2 at Eliscinsky; move r1 from May to Nycavri; move r2 from May to Nycavri; catastrophe red at Nycavri

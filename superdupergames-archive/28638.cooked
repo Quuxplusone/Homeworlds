@@ -1,0 +1,45 @@
+Ausmuh (0, g3y1) b3-
+Danielaurence (1, b3y2) -g3
+build b1 at Ausmuh
+build g1 at Danielaurence
+build b1 at Ausmuh
+convert g1 to b1 at Danielaurence
+move b1 from Ausmuh to Mw2 (g2)
+build b2 at Danielaurence
+build b2 at Mw2
+move b2 from Danielaurence to Foris (g1)
+sacrifice b2 at Mw2; convert b1 to y1 at Mw2; convert b1 to r1 at Ausmuh
+build b1 at Foris
+build y1 at Mw2
+convert b2 to y2 at Foris
+build r1 at Ausmuh
+convert y2 to r2 at Foris
+build y2 at Mw2
+build g1 at Danielaurence
+move y2 from Mw2 to Ausmuh
+move g1 from Danielaurence to Foris
+convert y2 to b2 at Ausmuh
+build g1 at Danielaurence
+build y2 at Mw2
+sacrifice g3 at Danielaurence; build g2 at Foris; build g2 at Danielaurence; build g3 at Danielaurence
+move y2 from Mw2 to Cc1 (r1)
+convert g2 to y2 at Foris
+convert b2 to g2 at Ausmuh
+sacrifice g3 at Danielaurence; build g3 at Foris; build y3 at Foris; build g3 at Danielaurence
+sacrifice y2 at Cc1; move g2 from Ausmuh to Mw2; move g2 from Mw2 to Foris; catastrophe green at Foris
+convert g2 to y2 at Danielaurence
+build r1 at Ausmuh
+build y2 at Danielaurence
+move y1 from Mw2 to Mw1 (g1)
+move y2 from Danielaurence to Naboo (g1)
+build y3 at Mw1
+sacrifice g3 at Danielaurence; build g2 at Danielaurence; build y3 at Danielaurence; build y3 at Naboo
+move y1 from Mw1 to Danielaurence; catastrophe yellow at Danielaurence
+move y3 from Naboo to Danielaurence
+move y3 from Mw1 to Danielaurence
+build y1 at Danielaurence
+convert y3 to r3 at Danielaurence
+build y2 at Danielaurence
+capture y3 at Danielaurence
+sacrifice g2 at Danielaurence; build b1 at Danielaurence; build b1 at Danielaurence
+convert r3 to b3 at Danielaurence; catastrophe blue at Danielaurence

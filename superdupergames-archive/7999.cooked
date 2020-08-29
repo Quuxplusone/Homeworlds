@@ -1,0 +1,33 @@
+Mikeyarrum (0, y1b2) g3-
+Kermit (1, g2b1) -y3
+build g1 at Mikeyarrum
+build y1 at Kermit
+convert g1 to y1 at Mikeyarrum
+convert y1 to b1 at Kermit
+build g1 at Mikeyarrum
+build y1 at Kermit
+move y1 from Mikeyarrum to Yomi (g3)
+move y1 from Kermit to Semi (g3)
+build y2 at Yomi
+convert b1 to g1 at Kermit
+convert g1 to r1 at Mikeyarrum
+convert g1 to r1 at Kermit
+build y2 at Yomi
+build y2 at Semi
+move y2 from Yomi to Tomo (g2)
+build y3 at Semi
+build y3 at Tomo
+move y3 from Semi to Noles (b1)
+build g1 at Mikeyarrum
+move y1 from Semi to Noles
+move y2 from Tomo to Kagura (b3)
+convert y1 to g1 at Noles
+build y1 at Tomo
+move g1 from Noles to Muskogee (b3)
+move y1 from Tomo to Kagura
+build g1 at Muskogee
+sacrifice y2 at Yomi; move y1 from Yomi to Kermit; move y1 from Kagura to Kermit
+convert y3 to r3 at Kermit
+convert y1 to r1 at Kermit
+sacrifice y2 at Semi; move g1 from Muskogee to Mikeyarrum; move g1 from Muskogee to Mikeyarrum; catastrophe green at Mikeyarrum
+build r2 at Kermit; catastrophe red at Kermit

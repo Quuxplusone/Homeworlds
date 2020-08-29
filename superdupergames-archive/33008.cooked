@@ -1,0 +1,11 @@
+Babamots (0, g2y1) b3-
+Fogus (1, b2y3) -g3
+build b1 at Babamots
+build g1 at Fogus
+move b1 from Babamots to Betazed (g3)
+convert g1 to b1 at Fogus
+build b1 at Betazed
+build b2 at Fogus
+build b2 at Babamots
+move b1 from Fogus to Cribbage (y1)
+build b3 at Babamots

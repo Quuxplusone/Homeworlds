@@ -1,0 +1,31 @@
+Keith (0, y1b2) g3-
+Kenchi (1, g3y1) -b3
+build g1 at Keith
+build b1 at Kenchi
+convert g1 to y1 at Keith
+move b1 from Kenchi to Aldune (g2)
+build g1 at Keith
+build b1 at Kenchi
+build y2 at Keith
+convert b1 to r1 at Kenchi
+convert y1 to r1 at Keith
+build b1 at Kenchi
+move y2 from Keith to Behemoth (g3)
+convert b1 to y1 at Kenchi
+convert g1 to b1 at Keith
+build y2 at Kenchi
+build g1 at Keith
+move y1 from Kenchi to Aldune
+move y2 from Behemoth to Aldune
+sacrifice y1 at Aldune; move b1 from Aldune to Kenchi
+build r1 at Keith
+build r2 at Kenchi
+move r1 from Keith to Okikiro (y3)
+move r2 from Kenchi to Aldune
+sacrifice y2 at Aldune; move g1 from Keith to Okikiro; move b1 from Keith to Okikiro
+build y1 at Kenchi
+build r2 at Okikiro
+build r2 at Kenchi
+build g1 at Keith
+build r3 at Kenchi
+convert r2 to y2 at Okikiro

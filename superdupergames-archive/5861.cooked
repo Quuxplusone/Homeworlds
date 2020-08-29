@@ -1,0 +1,29 @@
+Unic (0, b3y2) g3-
+Laurie_Menke (1, y1b3) -g3
+build g1 at Unic
+build g1 at Laurie_Menke
+move g1 from Unic to Gul (y1)
+move g1 from Laurie_Menke to Roses (y2)
+build g1 at Unic
+build g2 at Laurie_Menke
+build g2 at Gul
+move g2 from Laurie_Menke to Ribbon (y2)
+convert g1 to y1 at Unic
+move g2 from Ribbon to Bellied (y3)
+build y2 at Unic
+move g1 from Roses to Gul
+convert y1 to r1 at Unic
+sacrifice g2 at Bellied; build g1 at Gul; build g2 at Laurie_Menke; catastrophe green at Gul
+move y2 from Unic to Lego (g1)
+convert g2 to y2 at Laurie_Menke
+move r1 from Unic to Clay (y1)
+move y2 from Laurie_Menke to Mars (r2)
+build g1 at Unic
+build g1 at Laurie_Menke
+build g2 at Unic
+convert g1 to r1 at Laurie_Menke
+build y1 at Lego
+move g3 from Laurie_Menke to Mars
+move g1 from Unic to Ground (b1)
+sacrifice g3 at Mars; build r1 at Laurie_Menke; build y3 at Mars; build r2 at Laurie_Menke
+sacrifice y2 at Lego; move r1 from Clay to Temp (y2); move r1 from Temp to Laurie_Menke; catastrophe red at Laurie_Menke

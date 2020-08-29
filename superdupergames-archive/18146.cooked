@@ -1,0 +1,20 @@
+Gidaio (0, y1b2) g3-
+Nycavri (1, g3b2) -y3
+build g1 at Gidaio
+build y1 at Nycavri
+build g1 at Gidaio
+build y1 at Nycavri
+move g1 from Gidaio to Llanowar (b3)
+convert y3 to g3 at Nycavri
+build g1 at Gidaio
+build g2 at Nycavri
+sacrifice g3 at Gidaio; build g2 at Llanowar; build g2 at Llanowar; build g3 at Gidaio
+move y1 from Nycavri to Deacon (r1)
+convert g2 to y2 at Llanowar
+convert g2 to r2 at Nycavri
+move g1 from Llanowar to Serra (r1)
+move y1 from Deacon to May (b3)
+move g2 from Llanowar to Serra
+move y1 from May to Gidaio
+sacrifice y2 at Llanowar; move g1 from Serra to Nycavri; move g2 from Serra to Nycavri; catastrophe green at Nycavri
+convert y1 to g1 at Gidaio; catastrophe green at Gidaio

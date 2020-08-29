@@ -1,0 +1,76 @@
+Unic (0, y2b1) g3-
+Zoltar (1, b3r1) -g3
+build g1 at Unic
+build g1 at Zoltar
+convert g1 to r1 at Unic
+convert g1 to y1 at Zoltar
+build r1 at Unic
+build y1 at Zoltar
+build r2 at Unic
+build y1 at Zoltar
+move r2 from Unic to Prima (y3)
+move y1 from Zoltar to Greendale (g2)
+move r1 from Unic to Secunda (g3)
+build y2 at Zoltar
+build r2 at Secunda
+convert y2 to r2 at Zoltar
+build r3 at Unic
+build r3 at Zoltar
+build r3 at Unic
+move r3 from Zoltar to Lemon (y2)
+convert r3 to y3 at Unic
+sacrifice g3 at Zoltar; build r3 at Lemon; build y2 at Greendale; build y3 at Zoltar
+move y3 from Unic to Secunda
+convert y1 to g1 at Zoltar
+build y1 at Secunda
+move r3 from Lemon to Prima
+move r2 from Prima to Greendale
+sacrifice r2 at Zoltar; capture r2 at Greendale
+build g1 at Unic
+convert y3 to g3 at Zoltar
+move r3 from Unic to Tertia (y3)
+build r2 at Greendale
+move y1 from Secunda to Unic
+convert g1 to b1 at Zoltar
+move r3 from Tertia to Greendale
+build y3 at Zoltar
+sacrifice r2 at Secunda; capture r2 at Greendale; capture r2 at Greendale
+sacrifice y1 at Greendale; move r3 from Prima to Greendale; catastrophe red at Greendale
+build r2 at Secunda
+sacrifice b1 at Zoltar; convert y2 to r2 at Greendale
+convert r1 to b1 at Unic
+build g1 at Zoltar
+move r1 from Secunda to Unic
+move y1 from Zoltar to Greendale
+build b1 at Unic
+move g1 from Zoltar to Lemon
+move b1 from Unic to Secunda
+build g1 at Zoltar
+build b2 at Secunda
+build g2 at Lemon
+move b2 from Secunda to Prima (b2)
+sacrifice g3 at Zoltar; build g2 at Lemon; build g3 at Zoltar; build y1 at Greendale
+sacrifice g3 at Unic; build g3 at Unic; build b2 at Secunda; build b3 at Prima
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Greendale; build y3 at Zoltar
+sacrifice g3 at Unic; build g3 at Unic; build b3 at Unic; build r1 at Unic
+move g1 from Lemon to Bigred (r3)
+convert b3 to r3 at Prima
+sacrifice g2 at Lemon; build g2 at Bigred; build r2 at Greendale
+build b3 at Secunda
+move y1 from Greendale to Bigred
+sacrifice y1 at Unic; move b3 from Unic to Bigred
+sacrifice y3 at Zoltar; move y1 from Bigred to Unic; move g1 from Bigred to Unic; move g2 from Bigred to Unic; catastrophe green at Unic
+sacrifice y3 at Secunda; move b3 from Bigred to Unic; move b3 from Secunda to Greendale; move b1 from Secunda to Tertia (g2)
+sacrifice g3 at Zoltar; build r3 at Lemon; build y1 at Unic; build y3 at Zoltar
+sacrifice r3 at Prima; capture y2 at Greendale; capture y1 at Greendale; capture y1 at Unic
+sacrifice r3 at Lemon; capture y2 at Greendale; capture y1 at Greendale; capture b1 at Unic
+sacrifice r2 at Secunda; capture r2 at Greendale; capture r2 at Greendale
+sacrifice r3 at Lemon; capture r2 at Greendale; capture r2 at Greendale; capture y1 at Unic
+capture b1 at Unic
+sacrifice r2 at Greendale; capture r1 at Unic; capture b1 at Unic
+sacrifice r1 at Unic; capture r2 at Greendale
+sacrifice r1 at Unic; capture r2 at Greendale
+sacrifice b2 at Prima; convert b3 to r3 at Greendale; convert b3 to r3 at Unic
+sacrifice g2 at Lemon; build b2 at Unic; build b2 at Unic; catastrophe blue at Unic
+sacrifice r3 at Greendale; capture y1 at Unic; capture y1 at Unic
+sacrifice y2 at Greendale; move y1 from Greendale to Zoltar; move y1 from Zoltar to Unic; catastrophe yellow at Unic

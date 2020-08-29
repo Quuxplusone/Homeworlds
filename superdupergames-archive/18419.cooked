@@ -1,0 +1,45 @@
+Zoltar (0, r1b2) g3-
+Agentofchaos (1, r3b1) -g3
+build g1 at Zoltar
+build g1 at Agentofchaos
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Agentofchaos
+build g1 at Zoltar
+build g1 at Agentofchaos
+convert g1 to b1 at Zoltar
+convert g1 to b1 at Agentofchaos
+build b2 at Zoltar
+build b2 at Agentofchaos
+move b1 from Zoltar to Greengiant (g3)
+convert b2 to r2 at Agentofchaos
+convert b2 to r2 at Zoltar
+move r2 from Agentofchaos to Ajeroth (y2)
+build b2 at Greengiant
+build g1 at Agentofchaos
+convert b2 to y2 at Greengiant
+build b2 at Agentofchaos
+sacrifice y2 at Greengiant; move b1 from Greengiant to Ajeroth; move b1 from Ajeroth to Agentofchaos; catastrophe blue at Agentofchaos
+sacrifice g1 at Agentofchaos; build r1 at Ajeroth
+move r2 from Zoltar to Greengiant (g3)
+build g1 at Agentofchaos
+build g1 at Zoltar
+move g1 from Agentofchaos to Ajeroth
+convert g1 to b1 at Zoltar
+move g1 from Ajeroth to Diassomer (y3)
+build g1 at Zoltar
+build g1 at Diassomer
+move g1 from Zoltar to Mellowyellow (y3)
+build g2 at Diassomer
+build g2 at Zoltar
+move g1 from Diassomer to Zoltar
+sacrifice b1 at Zoltar; convert g3 to b3 at Zoltar
+sacrifice g2 at Diassomer; build g2 at Zoltar; build g2 at Diassomer
+build g3 at Mellowyellow
+convert g1 to b1 at Zoltar
+sacrifice r2 at Greengiant; capture b1 at Zoltar; capture g2 at Zoltar
+build y1 at Agentofchaos
+move g2 from Zoltar to Oldyeller (y3)
+move g1 from Diassomer to Glumph (b2)
+sacrifice g3 at Mellowyellow; build g1 at Zoltar; build g3 at Mellowyellow; build g3 at Oldyeller
+build y2 at Agentofchaos
+move y1 from Zoltar to Agentofchaos; catastrophe yellow at Agentofchaos

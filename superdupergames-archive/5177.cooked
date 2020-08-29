@@ -1,0 +1,90 @@
+Cerulean (0, b1y3) g3-
+Jesse (1, y3b2) -g3
+build g1 at Cerulean
+build g1 at Jesse
+convert g1 to y1 at Cerulean
+convert g1 to b1 at Jesse
+build g1 at Cerulean
+build b1 at Jesse
+move g1 from Cerulean to Wytou (y2)
+move b1 from Jesse to Gumby (g1)
+build y1 at Cerulean
+build b2 at Gumby
+convert y1 to r1 at Cerulean
+convert b2 to r2 at Gumby
+build r1 at Cerulean
+build b2 at Jesse
+build y1 at Cerulean
+build b2 at Gumby
+move y1 from Cerulean to Wytou
+convert b2 to y2 at Gumby
+move r1 from Cerulean to Wytou
+convert b2 to y2 at Jesse
+build r1 at Cerulean
+build b2 at Gumby
+build r2 at Wytou
+build y1 at Gumby
+convert r1 to g1 at Cerulean
+build g2 at Jesse
+build g2 at Wytou
+sacrifice y2 at Jesse; move y1 from Gumby to Wytou; move y2 from Gumby to Wytou; catastrophe yellow at Wytou
+build r1 at Cerulean
+build b2 at Gumby
+build y1 at Cerulean
+build b3 at Jesse
+move y1 from Cerulean to Jetou (g2)
+convert b3 to y3 at Jesse
+move r1 from Cerulean to Jetou
+convert b2 to y2 at Gumby
+pass
+move b2 from Gumby to Gojira (g3)
+move r1 from Jetou to Wywun (y1)
+build g1 at Jesse
+build y2 at Jetou
+move g2 from Jesse to Wywun
+move r1 from Wywun to Jesse
+sacrifice g3 at Jesse; build g2 at Wywun; build g3 at Jesse; build y2 at Gumby
+capture b1 at Jesse
+sacrifice r2 at Gumby; capture r1 at Jesse; capture b1 at Jesse
+build r1 at Cerulean
+sacrifice g3 at Jesse; build b2 at Gumby; build b3 at Jesse; build g3 at Jesse
+move r1 from Cerulean to Jetou
+convert b2 to r2 at Gumby
+build r2 at Cerulean
+sacrifice g3 at Jesse; build g3 at Jesse; build b2 at Gumby; build b3 at Gojira
+move r1 from Cerulean to Jetou
+convert b3 to r3 at Gojira
+sacrifice g3 at Cerulean; build g3 at Cerulean; build r2 at Jetou; build r3 at Cerulean
+sacrifice g3 at Jesse; build g3 at Jesse; build r3 at Jesse; build b3 at Gumby
+move r1 from Jetou to Bethrii (b3)
+move b3 from Jesse to Wywun
+move y2 from Jetou to Bethrii
+move y2 from Gumby to Gojira
+move g1 from Cerulean to Jetou
+move g2 from Wywun to Jetou
+sacrifice r1 at Jetou; capture g2 at Jetou
+move g2 from Wywun to Jetou; catastrophe green at Jetou
+build g1 at Cerulean
+build y1 at Gumby
+move g1 from Cerulean to Artou (r2)
+move b3 from Wywun to Artou
+sacrifice g1 at Artou; build y1 at Bethrii
+build r1 at Gojira
+move y1 from Bethrii to Jiwun (g1)
+move y3 from Jesse to Jiwun
+move y1 from Jiwun to Bethrii
+move y2 from Gumby to Artou
+build g2 at Cerulean
+move b1 from Gumby to Artou
+move r3 from Cerulean to Jetou (g2)
+move b3 from Gumby to Sputum (g2)
+move y1 from Bethrii to Jetou
+move y2 from Gojira to Sputum
+move y1 from Cerulean to Jetou
+move b3 from Sputum to Cerulean
+capture b3 at Cerulean
+move b3 from Artou to Cerulean
+capture b3 at Cerulean
+move b1 from Artou to Cerulean; catastrophe blue at Cerulean
+move r3 from Jetou to Gumby
+sacrifice y3 at Jiwun; move y2 from Artou to Cerulean; move y1 from Gumby to Cerulean; move y2 from Sputum to Cerulean; catastrophe yellow at Cerulean

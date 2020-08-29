@@ -1,0 +1,57 @@
+Jbj77 (0, b2g3) y3-
+Kermit (1, g1b3) -y3
+build y1 at Jbj77
+build y1 at Kermit
+convert y1 to r1 at Jbj77
+move y1 from Kermit to Ipaq (b2)
+build r1 at Jbj77
+convert y1 to g1 at Ipaq
+convert r1 to g1 at Jbj77
+build g2 at Ipaq
+move g1 from Jbj77 to Alpha (y1)
+build y1 at Kermit
+build g2 at Alpha
+convert y1 to b1 at Kermit
+build g2 at Alpha
+convert g1 to y1 at Ipaq
+move g1 from Alpha to Beta (b2)
+build b1 at Kermit
+move g2 from Alpha to Gamma (y2)
+convert b1 to r1 at Kermit
+convert g1 to b1 at Beta
+build g1 at Ipaq
+build g1 at Alpha
+move g1 from Ipaq to Visor (b3)
+move g1 from Alpha to Delta (b3)
+build g3 at Visor
+build g3 at Alpha
+convert g2 to y2 at Ipaq
+move g2 from Alpha to Beta
+sacrifice y1 at Ipaq; move g1 from Visor to Alpha
+move g3 from Alpha to Epsilon (y3)
+build g2 at Alpha
+convert g2 to y2 at Beta
+sacrifice g2 at Alpha; build r1 at Kermit; build r2 at Kermit
+move b1 from Beta to Phi (r3)
+build y1 at Kermit
+build r2 at Jbj77
+build g2 at Alpha
+build g2 at Gamma
+move r2 from Kermit to Ipaq
+move r2 from Jbj77 to Zeta (y1)
+sacrifice y2 at Ipaq; move g2 from Alpha to Gamma; move g1 from Alpha to Gamma; catastrophe green at Gamma
+sacrifice g3 at Epsilon; build r2 at Jbj77; build r3 at Jbj77; build r3 at Zeta
+sacrifice y1 at Kermit; move g3 from Visor to Ipaq
+move r3 from Jbj77 to Theta (b1)
+build y1 at Kermit
+sacrifice g1 at Delta; build b3 at Phi
+move y1 from Kermit to Snark (g2)
+convert b3 to g3 at Phi
+move r1 from Kermit to Snark
+build b3 at Phi
+move b1 from Kermit to Weasel (g2)
+move r3 from Zeta to Weasel
+sacrifice y1 at Snark; move b1 from Weasel to Xerxes (g1)
+move y2 from Beta to Xerxes
+build b2 at Xerxes
+sacrifice r2 at Jbj77; capture b2 at Xerxes; capture b1 at Xerxes

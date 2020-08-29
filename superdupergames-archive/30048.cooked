@@ -1,0 +1,22 @@
+Mitotic (0, r1g2) b3-
+Galateangemmate (1, r3b1) -g3
+build b1 at Mitotic
+build g1 at Galateangemmate
+convert b1 to y1 at Mitotic
+convert g1 to b1 at Galateangemmate
+build y1 at Mitotic
+convert b1 to y1 at Galateangemmate
+convert y1 to r1 at Mitotic
+build y1 at Galateangemmate
+convert b3 to r3 at Mitotic
+build g1 at Galateangemmate
+move r1 from Mitotic to Aegis (b3)
+build y2 at Galateangemmate
+move y1 from Mitotic to Aegis
+convert y1 to b1 at Galateangemmate
+convert r1 to b1 at Aegis
+move b1 from Galateangemmate to Sofa (g2)
+move b1 from Aegis to Mitotic
+build b2 at Sofa
+convert b1 to g1 at Mitotic
+move y1 from Galateangemmate to Sofa

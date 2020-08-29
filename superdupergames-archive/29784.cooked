@@ -1,0 +1,45 @@
+Doctorfedora (0, b1g3) y3-
+Jaegernjos (1, b3g1) -r3
+build y1 at Doctorfedora
+build r1 at Jaegernjos
+convert y1 to g1 at Doctorfedora
+convert r1 to y1 at Jaegernjos
+move g1 from Doctorfedora to Middy (g2)
+move r3 from Jaegernjos to Middy
+build y1 at Doctorfedora
+capture g1 at Middy
+convert y3 to r3 at Doctorfedora
+build y1 at Jaegernjos
+build y2 at Doctorfedora
+move y1 from Jaegernjos to Middy
+move y2 from Doctorfedora to Sidey (b2)
+build y2 at Jaegernjos
+move y2 from Sidey to Jaegernjos
+convert y1 to g1 at Jaegernjos
+convert r3 to g3 at Doctorfedora
+move r3 from Middy to Jaegernjos
+move y2 from Jaegernjos to Bluey (b2)
+move g1 from Middy to Sideytoo (y1)
+convert y2 to r2 at Bluey
+build g2 at Sideytoo
+build y2 at Doctorfedora
+move g2 from Sideytoo to Middy
+convert r2 to g2 at Bluey
+convert g1 to r1 at Jaegernjos
+convert y1 to r1 at Doctorfedora
+move r1 from Jaegernjos to Middy
+build r1 at Doctorfedora
+build r2 at Middy
+convert r1 to y1 at Doctorfedora
+build y2 at Middy
+move y2 from Doctorfedora to Bluey
+move r2 from Middy to Blueytoo (b1)
+sacrifice g2 at Bluey; build y3 at Bluey; build y3 at Doctorfedora
+sacrifice y2 at Jaegernjos; move y2 from Middy to Doctorfedora; move y1 from Middy to Doctorfedora; catastrophe yellow at Doctorfedora
+convert y2 to r2 at Bluey
+convert r2 to y2 at Blueytoo
+sacrifice g3 at Doctorfedora; build r1 at Bluey; build r2 at Bluey; build r2 at Doctorfedora
+sacrifice y2 at Blueytoo; move g2 from Middy to Jaegernjos; move r3 from Jaegernjos to Bluey; catastrophe red at Bluey
+move y3 from Bluey to Jaegernjos
+build r1 at Middy
+sacrifice r2 at Doctorfedora; capture g2 at Jaegernjos

@@ -1,0 +1,26 @@
+Subhan64 (0, y2b3) g3-
+Ajo (1, b3r1) -g3
+build g1 at Subhan64
+build g1 at Ajo
+convert g3 to y3 at Subhan64
+convert g3 to y3 at Ajo
+build y1 at Subhan64
+build y1 at Ajo
+move y1 from Subhan64 to Smurfberry (b1)
+move y1 from Ajo to Alpha (g2)
+move y1 from Smurfberry to Kermit (g2)
+build g1 at Ajo
+convert y3 to g3 at Subhan64
+convert g1 to b1 at Ajo
+convert g1 to b1 at Subhan64
+move b1 from Ajo to Alpha
+build g1 at Subhan64
+build g1 at Ajo
+move g3 from Subhan64 to Elmos_World (r1)
+move g1 from Ajo to Alpha
+build g2 at Elmos_World
+build g3 at Ajo
+build g3 at Subhan64
+sacrifice g3 at Ajo; build g3 at Ajo; build y1 at Alpha; build y2 at Alpha
+sacrifice g3 at Elmos_World; build g3 at Elmos_World; build y2 at Kermit; build b1 at Subhan64
+sacrifice y2 at Alpha; move b1 from Alpha to Elmos_World; move b1 from Elmos_World to Subhan64; catastrophe blue at Subhan64

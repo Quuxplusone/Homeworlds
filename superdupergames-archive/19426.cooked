@@ -1,0 +1,38 @@
+Daarck (0, g1y2) b3-
+Ts52 (1, y1b3) -g3
+build b1 at Daarck
+build g1 at Ts52
+build b1 at Daarck
+convert g1 to b1 at Ts52
+convert b1 to y1 at Daarck
+build g1 at Ts52
+move y1 from Daarck to Marco (g3)
+move b1 from Ts52 to Kermit (g2)
+move b1 from Daarck to Marco
+build g1 at Ts52
+build y1 at Marco
+move g1 from Ts52 to Grover (b2)
+build y2 at Marco
+sacrifice g3 at Ts52; build g2 at Grover; build g2 at Grover; build g3 at Ts52
+convert y1 to r1 at Marco
+convert g2 to r2 at Grover
+build r1 at Marco
+sacrifice g3 at Ts52; build g2 at Ts52; build g3 at Ts52; build g3 at Grover
+move r1 from Marco to Daarck
+convert g3 to y3 at Grover
+move b1 from Marco to Daarck
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Grover; build y1 at Grover
+move y2 from Marco to Polo (y2)
+move y3 from Grover to Marco
+build y3 at Marco
+sacrifice r2 at Grover; capture y3 at Marco; capture r1 at Marco
+sacrifice r1 at Daarck; capture r1 at Marco
+convert g3 to r3 at Grover
+move r1 from Marco to Daarck
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Grover; build y3 at Grover
+move y2 from Polo to Marco; catastrophe yellow at Marco
+move g3 from Grover to Bigbird (y3)
+convert b1 to y1 at Daarck
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Grover; build r1 at Grover
+build r1 at Daarck
+move r1 from Grover to Bigbird

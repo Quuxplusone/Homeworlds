@@ -1,0 +1,40 @@
+Eugman (0, g2b1) y3-
+Zoltar (1, b3y1) -g3
+build y1 at Eugman
+build g1 at Zoltar
+build y1 at Eugman
+convert g3 to y3 at Zoltar
+convert y3 to g3 at Eugman
+build y2 at Zoltar
+move y1 from Eugman to Lime (g3)
+move y2 from Zoltar to Swisschard (g2)
+build y2 at Eugman
+convert g1 to r1 at Zoltar
+convert y2 to r2 at Eugman
+build y2 at Swisschard
+build r1 at Eugman
+convert y3 to g3 at Zoltar
+move r2 from Eugman to Lime
+move y2 from Swisschard to Collards (g1)
+convert r1 to b1 at Eugman
+build g1 at Zoltar
+build b1 at Eugman
+build g1 at Zoltar
+convert b1 to r1 at Eugman
+move g1 from Zoltar to Kale (g2)
+build b1 at Eugman
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r1 at Zoltar; build r2 at Zoltar
+move r2 from Lime to Kale
+move r2 from Zoltar to Lemon (y2)
+sacrifice g3 at Eugman; build y3 at Eugman; build y3 at Lime; build r2 at Kale
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Kale; build r3 at Lemon
+sacrifice y3 at Lime; move r2 from Kale to Lime; move r2 from Kale to Lime; move r2 from Lime to Eugman
+sacrifice g3 at Kale; build g3 at Kale; build y3 at Collards; build y3 at Swisschard
+build r3 at Lime
+sacrifice y3 at Swisschard; move r2 from Lemon to Lime; move r1 from Zoltar to Lemon; move r1 from Lemon to Lime; catastrophe red at Lime
+build y3 at Lime
+sacrifice g3 at Kale; build g3 at Kale; build r1 at Lemon; build r2 at Zoltar
+move r1 from Eugman to Lime
+sacrifice y2 at Collards; move r2 from Zoltar to Kale; move r1 from Lemon to Collards
+move b1 from Eugman to Lime
+sacrifice g3 at Kale; build r2 at Lemon; build r3 at Kale; build r3 at Collards

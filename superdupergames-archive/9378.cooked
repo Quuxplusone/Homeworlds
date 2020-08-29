@@ -1,0 +1,57 @@
+Wyons (0, y1b2) g3-
+Scottobear (1, g3b2) -y3
+build g1 at Wyons
+build y1 at Scottobear
+convert g1 to r1 at Wyons
+convert y1 to r1 at Scottobear
+build g1 at Wyons
+move r1 from Scottobear to Teeth (g1)
+convert g1 to y1 at Wyons
+build y1 at Scottobear
+build y2 at Wyons
+move y1 from Scottobear to Teeth
+move y2 from Wyons to Gondola (g3)
+build y2 at Scottobear
+convert y1 to b1 at Wyons
+convert y3 to r3 at Scottobear
+convert g3 to r3 at Wyons
+move y2 from Scottobear to Teeth
+convert r1 to g1 at Wyons
+move r1 from Teeth to Gondola
+build r1 at Wyons
+move y2 from Teeth to Scottobear
+sacrifice r1 at Wyons; capture r1 at Gondola
+build y1 at Scottobear
+move b1 from Wyons to Gondola
+convert y2 to r2 at Scottobear
+build y2 at Gondola
+move r2 from Scottobear to Teeth
+build b1 at Gondola
+build y2 at Scottobear
+move y2 from Gondola to Kayak (g2)
+build y3 at Scottobear
+build y3 at Kayak
+convert y3 to r3 at Scottobear
+build y3 at Gondola
+move r2 from Teeth to Gondola
+capture r2 at Gondola
+move y2 from Scottobear to Claws (b1)
+convert y3 to g3 at Gondola
+build y3 at Scottobear
+build y3 at Gondola
+move y3 from Scottobear to Teeth
+move y3 from Gondola to Punt (g1)
+convert y2 to r2 at Claws
+build g2 at Wyons
+move y3 from Teeth to Eyes (b3)
+build g2 at Gondola
+build y2 at Teeth
+sacrifice y2 at Kayak; move b1 from Gondola to Punt; move r1 from Gondola to Punt
+convert r2 to y2 at Claws
+sacrifice g3 at Gondola; build r1 at Punt; build r1 at Wyons; build g3 at Gondola
+move r3 from Scottobear to Teeth
+sacrifice g3 at Gondola; build b2 at Punt; build b3 at Gondola; build g3 at Gondola
+build r2 at Scottobear
+sacrifice y3 at Kayak; move r1 from Punt to Scottobear; move r1 from Punt to Scottobear; move y3 from Punt to Scottobear; catastrophe red at Scottobear
+build y3 at Scottobear
+sacrifice r2 at Gondola; capture y3 at Scottobear; capture y1 at Scottobear

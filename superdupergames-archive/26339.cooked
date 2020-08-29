@@ -1,0 +1,24 @@
+Abridged (0, g3b1) r3-
+Hellajoey (1, b1g2) -r3
+build r1 at Abridged
+build r1 at Hellajoey
+convert r1 to y1 at Abridged
+convert r1 to y1 at Hellajoey
+build r1 at Abridged
+build r1 at Hellajoey
+move y1 from Abridged to Gazebo (g2)
+convert r1 to b1 at Hellajoey
+convert r3 to b3 at Abridged
+build b2 at Hellajoey
+build b2 at Abridged
+move b2 from Hellajoey to Weedsville (g3)
+convert b3 to r3 at Abridged
+build b2 at Weedsville
+build b3 at Abridged
+build b3 at Hellajoey
+move y1 from Gazebo to Bozega (b3)
+convert b2 to y2 at Weedsville
+build r1 at Abridged
+sacrifice y2 at Weedsville; move b2 from Weedsville to Tempworld (r2); move b2 from Tempworld to Abridged; catastrophe blue at Abridged
+move y1 from Bozega to Hideyhole (g2)
+sacrifice y1 at Hellajoey; move r3 from Hellajoey to Abridged; catastrophe red at Abridged

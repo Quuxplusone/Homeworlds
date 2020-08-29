@@ -1,0 +1,36 @@
+Remneb (0, r1b2) g3-
+Teeteetee (1, b1y3) -g3
+build g1 at Remneb
+build g1 at Teeteetee
+convert g1 to y1 at Remneb
+convert g1 to b1 at Teeteetee
+build g1 at Remneb
+build b1 at Teeteetee
+build y1 at Remneb
+move b1 from Teeteetee to Dirac (g2)
+convert y1 to r1 at Remneb
+build b2 at Dirac
+move r1 from Remneb to Redrum (y3)
+convert b2 to r2 at Dirac
+build y1 at Remneb
+build b2 at Dirac
+move r1 from Redrum to Ouja (y2)
+build b2 at Teeteetee
+move y1 from Remneb to Altar (b3)
+build b3 at Dirac
+build g1 at Remneb
+convert b3 to y3 at Dirac
+move g1 from Remneb to Horla (y3)
+build b3 at Dirac
+build g1 at Horla
+move r2 from Dirac to Horla
+sacrifice g3 at Remneb; build g2 at Horla; build g2 at Horla; build g3 at Remneb; catastrophe green at Horla
+convert b3 to g3 at Dirac
+move g1 from Remneb to Altar
+build b3 at Dirac
+build g1 at Altar
+move b3 from Dirac to Altar
+move g1 from Altar to Dirac
+sacrifice y3 at Dirac; move g3 from Dirac to Altar; move g3 from Altar to Remneb; move b3 from Altar to Remneb
+sacrifice g3 at Remneb; build g1 at Dirac; build g2 at Dirac; build y1 at Altar; catastrophe green at Dirac
+capture y1 at Remneb

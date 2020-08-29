@@ -1,0 +1,23 @@
+Nicknack (0, r2b1) g3-
+Mobynostromo (1, y2b3) -g3
+build g1 at Nicknack
+build g1 at Mobynostromo
+convert g1 to y1 at Nicknack
+convert g1 to y1 at Mobynostromo
+build g1 at Nicknack
+move y1 from Mobynostromo to Viridian (g1)
+move g1 from Nicknack to Amber (y3)
+build g1 at Mobynostromo
+build g2 at Nicknack
+build g2 at Mobynostromo
+sacrifice g3 at Nicknack; build g2 at Nicknack; build g3 at Nicknack; build g3 at Amber
+move g2 from Mobynostromo to Azure (b1)
+convert g2 to y2 at Nicknack
+sacrifice g3 at Mobynostromo; build g2 at Azure; build g3 at Mobynostromo; build y1 at Viridian
+convert g3 to y3 at Nicknack
+sacrifice y1 at Viridian; move g2 from Azure to Gold (y3)
+build g3 at Nicknack
+sacrifice g3 at Mobynostromo; build g3 at Mobynostromo; build y1 at Viridian; build y2 at Viridian
+sacrifice y1 at Nicknack; move g1 from Amber to Mustard (y1)
+move y1 from Viridian to Cobalt (b2)
+sacrifice y3 at Nicknack; move g3 from Amber to Mustard; move g1 from Mustard to Mobynostromo; move g3 from Mustard to Mobynostromo; catastrophe green at Mobynostromo

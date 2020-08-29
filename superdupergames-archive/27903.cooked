@@ -1,0 +1,31 @@
+Simon (0, b3y1) g3-
+Grosseteste (1, b2y1) -g3
+build g1 at Simon
+build g1 at Grosseteste
+convert g1 to y1 at Simon
+move g1 from Grosseteste to Charlie (b3)
+build y2 at Simon
+build g1 at Charlie
+move y2 from Simon to G2 (g2)
+build g1 at Grosseteste
+build y2 at G2
+convert g3 to y3 at Grosseteste
+build g2 at Simon
+build g2 at Grosseteste
+sacrifice g3 at Simon; build g3 at Simon; build y2 at Simon; build y3 at G2
+move g1 from Grosseteste to Linus (b3)
+convert y2 to b2 at Simon
+build g3 at Grosseteste
+sacrifice b2 at Simon; convert y2 to r2 at G2; convert y2 to b2 at G2
+sacrifice y3 at Grosseteste; move g1 from Linus to G2; move g1 from Charlie to G2; move g1 from Charlie to G2; catastrophe green at G2
+build y2 at Simon
+convert g2 to y2 at Grosseteste
+move y2 from Simon to B2 (b2)
+build g1 at Grosseteste
+sacrifice g3 at Simon; build y2 at B2; build y3 at B2; build y3 at Simon
+move g1 from Grosseteste to Chuck (y3)
+convert y3 to g3 at B2
+move y2 from Grosseteste to Linus (g3)
+convert y2 to r2 at B2
+build g1 at Grosseteste
+sacrifice y2 at B2; move g3 from B2 to Chuck; move g3 from Chuck to Grosseteste

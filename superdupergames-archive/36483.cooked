@@ -1,0 +1,27 @@
+Tkvaran (0, b3y2) g3-
+Eternalswordsman (1, b3g1) -y3
+build g1 at Tkvaran
+build y1 at Eternalswordsman
+move g1 from Tkvaran to Oprah (b1)
+move y1 from Eternalswordsman to Qonos (r2)
+build g1 at Oprah
+build y1 at Eternalswordsman
+convert g1 to y1 at Oprah
+convert y1 to r1 at Eternalswordsman
+build g1 at Tkvaran
+move r1 from Eternalswordsman to Qonos
+convert y1 to r1 at Oprah
+build y1 at Eternalswordsman
+build g2 at Oprah
+convert y3 to g3 at Eternalswordsman
+convert g2 to y2 at Oprah
+move g3 from Eternalswordsman to Qonos
+move y2 from Oprah to Rickilake (g2)
+build y1 at Eternalswordsman
+move y2 from Rickilake to Eternalswordsman
+convert y1 to r1 at Eternalswordsman
+convert y2 to r2 at Eternalswordsman
+build r2 at Qonos
+capture y1 at Eternalswordsman
+build r3 at Qonos
+capture r1 at Eternalswordsman

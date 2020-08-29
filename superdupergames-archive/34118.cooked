@@ -1,0 +1,50 @@
+Silversliver (0, r2g1) b3-
+Ts52 (1, b1y3) -g3
+build b1 at Silversliver
+build g1 at Ts52
+convert b1 to y1 at Silversliver
+convert g1 to b1 at Ts52
+build y1 at Silversliver
+build g1 at Ts52
+move y1 from Silversliver to Sys1 (b3)
+build g1 at Ts52
+build y1 at Silversliver
+move g1 from Ts52 to Gonzo (b2)
+move y1 from Silversliver to Sys1
+build g2 at Gonzo
+build y2 at Silversliver
+sacrifice g3 at Ts52; build g2 at Gonzo; build g2 at Ts52; build g3 at Ts52
+move y1 from Sys1 to Gonzo
+convert g2 to r2 at Gonzo
+move y1 from Gonzo to Ts52
+convert g2 to r2 at Ts52
+sacrifice y2 at Silversliver; move y1 from Sys1 to Gonzo; move y1 from Gonzo to Ts52
+capture y1 at Ts52
+build y2 at Silversliver
+move y1 from Ts52 to Gonzo
+move y1 from Silversliver to Sys2 (b3)
+build y2 at Gonzo
+convert y1 to b1 at Sys2
+move b1 from Ts52 to Kermit (g2)
+build b2 at Silversliver
+move r2 from Gonzo to Sys2
+sacrifice y2 at Silversliver; move b1 from Sys2 to Gonzo; move b1 from Gonzo to Ts52
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build r1 at Sys2
+convert y1 to r1 at Ts52
+capture r1 at Ts52
+convert b2 to y2 at Silversliver
+move g2 from Gonzo to Sys2
+build b2 at Silversliver
+capture b1 at Ts52
+move b2 from Silversliver to Sys3 (y3)
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Sys2; build g3 at Gonzo
+build y1 at Silversliver
+move y2 from Gonzo to Sys2
+move y1 from Silversliver to Sys3
+sacrifice g3 at Sys2; build g3 at Sys2; build r1 at Ts52; build r3 at Sys2
+move b2 from Sys3 to Gonzo
+sacrifice y2 at Sys2; move g3 from Sys2 to Silversliver; move r3 from Sys2 to Silversliver
+capture r3 at Silversliver
+sacrifice r2 at Sys2; capture r3 at Silversliver; capture b3 at Silversliver
+convert b2 to r2 at Gonzo
+capture y2 at Silversliver

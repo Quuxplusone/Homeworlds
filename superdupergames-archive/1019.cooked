@@ -1,0 +1,10 @@
+Tendrecube (0, g3b1) y3-
+Junkman (1, b2g1) -y3
+build y1 at Tendrecube
+build y1 at Junkman
+move y1 from Tendrecube to Alias (b2)
+convert y1 to g1 at Junkman
+build y1 at Tendrecube
+build y1 at Junkman
+build y2 at Tendrecube
+sacrifice y3 at Junkman; move y1 from Junkman to Skinny (b3); move y1 from Skinny to Edward (b2); move y1 from Edward to Tendrecube; catastrophe yellow at Tendrecube

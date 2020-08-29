@@ -1,0 +1,62 @@
+Matrixfrog (0, g2b1) y3-
+Andylooney (1, g2b3) -y3
+build y1 at Matrixfrog
+build y1 at Andylooney
+convert y1 to b1 at Matrixfrog
+convert y1 to b1 at Andylooney
+build b2 at Matrixfrog
+move b1 from Andylooney to Paradise (g1)
+convert b2 to r2 at Matrixfrog
+build b2 at Paradise
+build b2 at Matrixfrog
+build b2 at Paradise
+move b1 from Matrixfrog to Magnesium (y3)
+convert b2 to y2 at Paradise
+move b1 from Magnesium to Paradise
+convert b2 to r2 at Paradise
+build b2 at Paradise
+capture b2 at Paradise
+build b2 at Paradise
+sacrifice y2 at Paradise; move r2 from Paradise to Garden (g3); move b2 from Paradise to Garden
+convert b2 to r2 at Matrixfrog
+build b2 at Paradise; catastrophe blue at Paradise
+convert y3 to g3 at Matrixfrog
+build r1 at Garden
+convert r2 to y2 at Matrixfrog
+convert r1 to y1 at Garden
+build g1 at Matrixfrog
+build y1 at Andylooney
+build y1 at Matrixfrog
+convert y1 to g1 at Andylooney
+convert g1 to b1 at Matrixfrog
+move g1 from Andylooney to Gateway (y1)
+build r1 at Matrixfrog
+build y2 at Andylooney
+move b1 from Matrixfrog to Epsilon (y3)
+move g1 from Gateway to Goldenrock (y3)
+convert b1 to g1 at Epsilon
+move y2 from Andylooney to Niceplace (g1)
+move g1 from Epsilon to Theta (y1)
+build y2 at Garden
+sacrifice y1 at Matrixfrog; move g1 from Theta to Andylooney
+build r1 at Garden
+move r1 from Matrixfrog to Goldenrock
+sacrifice r2 at Garden; capture r1 at Goldenrock; capture g1 at Andylooney
+move r2 from Matrixfrog to Goldenrock
+sacrifice y2 at Garden; move g1 from Goldenrock to Niceplace; move r1 from Goldenrock to Niceplace
+build g2 at Matrixfrog
+build g3 at Andylooney
+move g2 from Matrixfrog to Goldenrock
+move g3 from Andylooney to Littleyellowdifferent (y1)
+build y1 at Matrixfrog
+move g1 from Andylooney to Littleyellowdifferent
+move y1 from Matrixfrog to Goldenrock
+sacrifice g3 at Littleyellowdifferent; build g3 at Littleyellowdifferent; build y2 at Niceplace; build y3 at Garden
+build r1 at Goldenrock
+sacrifice y3 at Garden; move y1 from Garden to Littleyellowdifferent; move y1 from Littleyellowdifferent to Goldenrock; move y2 from Niceplace to Goldenrock; catastrophe yellow at Goldenrock
+move g3 from Matrixfrog to Zeta (y3)
+sacrifice y2 at Niceplace; move g3 from Littleyellowdifferent to Garden; move g3 from Garden to Matrixfrog
+build y1 at Matrixfrog
+sacrifice r1 at Niceplace; capture y2 at Matrixfrog
+build y1 at Matrixfrog
+build y2 at Matrixfrog; catastrophe yellow at Matrixfrog

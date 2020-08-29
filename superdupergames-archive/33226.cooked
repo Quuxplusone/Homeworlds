@@ -1,0 +1,33 @@
+Orangeblood (0, b1y3) g3-
+Mobynostromo (1, b2g1) -y3
+build g1 at Orangeblood
+build y1 at Mobynostromo
+convert g1 to b1 at Orangeblood
+build y1 at Mobynostromo
+build b1 at Orangeblood
+convert y1 to g1 at Mobynostromo
+convert b1 to y1 at Orangeblood
+convert y1 to b1 at Mobynostromo
+build b2 at Orangeblood
+build b2 at Mobynostromo
+move b2 from Orangeblood to Proximacentauri (g2)
+move b2 from Mobynostromo to Merlot (r3)
+build b3 at Proximacentauri
+build b3 at Mobynostromo
+convert b2 to y2 at Proximacentauri
+move b3 from Mobynostromo to Merlot
+build y1 at Proximacentauri
+convert b3 to y3 at Merlot
+build b2 at Proximacentauri
+move b2 from Merlot to Lemonade (y2)
+move b3 from Proximacentauri to Mmmdonuts (g3)
+move b1 from Mobynostromo to Merlot
+convert b1 to r1 at Orangeblood
+convert y3 to g3 at Merlot
+sacrifice y1 at Proximacentauri; move b3 from Mmmdonuts to Mobynostromo
+convert g1 to r1 at Mobynostromo
+sacrifice r1 at Orangeblood; capture r1 at Mobynostromo
+sacrifice g3 at Merlot; build y1 at Mobynostromo; build b1 at Lemonade; build b3 at Lemonade
+capture y3 at Mobynostromo
+convert b3 to r3 at Lemonade
+capture y1 at Mobynostromo

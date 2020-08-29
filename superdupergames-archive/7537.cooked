@@ -1,0 +1,54 @@
+Sordros (0, y2b3) g3-
+Twoshort (1, y1b2) -g3
+build g1 at Sordros
+build g1 at Twoshort
+convert g1 to y1 at Sordros
+build g1 at Twoshort
+build y1 at Sordros
+move g1 from Twoshort to Yellonia (y3)
+move y1 from Sordros to Verdeto (g1)
+build g2 at Twoshort
+sacrifice g3 at Sordros; build y2 at Verdeto; build y2 at Verdeto; build y3 at Sordros
+sacrifice g3 at Twoshort; build g2 at Yellonia; build g2 at Yellonia; build g3 at Twoshort
+convert y3 to g3 at Sordros
+move g2 from Twoshort to Greensville (g3)
+build y3 at Sordros
+convert g1 to r1 at Twoshort
+convert y1 to r1 at Sordros
+build g1 at Twoshort
+build y1 at Sordros
+move g2 from Yellonia to Verdeto
+sacrifice r1 at Sordros; capture g2 at Verdeto
+move g1 from Yellonia to Verdeto
+sacrifice y2 at Verdeto; move g2 from Verdeto to Zuleo (b3); move y2 from Verdeto to Zuleo
+sacrifice r1 at Twoshort; capture y1 at Verdeto
+convert y1 to r1 at Sordros
+convert g1 to r1 at Twoshort
+move y3 from Sordros to Verdeto
+build g1 at Verdeto
+build y1 at Verdeto
+sacrifice g2 at Greensville; build g2 at Verdeto; build g3 at Twoshort; catastrophe green at Verdeto
+build y1 at Zuleo
+move g3 from Twoshort to Zuleo
+build g1 at Sordros
+sacrifice r1 at Twoshort; capture g2 at Zuleo
+convert y2 to g2 at Zuleo
+convert g3 to r3 at Zuleo
+build g1 at Zuleo
+sacrifice r3 at Zuleo; capture g2 at Zuleo; capture g1 at Zuleo; capture y1 at Zuleo
+build r1 at Sordros
+move g1 from Zuleo to Greedo (g1)
+move g1 from Sordros to Flaveta (y1)
+sacrifice g2 at Zuleo; build g2 at Twoshort; build g3 at Zuleo
+convert r1 to b1 at Sordros
+sacrifice g3 at Zuleo; build g3 at Zuleo; build y2 at Zuleo; build y2 at Zuleo
+build r1 at Sordros
+move y2 from Zuleo to Greedo
+build b1 at Sordros
+sacrifice g3 at Twoshort; build g3 at Twoshort; build y3 at Greedo; build y3 at Greedo
+move b1 from Sordros to Flaveta
+convert g3 to r3 at Zuleo
+build g3 at Sordros
+sacrifice y2 at Greedo; move y3 from Greedo to Sordros; move y3 from Greedo to Sordros
+capture y3 at Sordros
+sacrifice r3 at Zuleo; capture r1 at Sordros; capture r1 at Sordros; capture g3 at Sordros

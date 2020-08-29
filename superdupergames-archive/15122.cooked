@@ -1,0 +1,43 @@
+Tvgide (0, g3b2) y3-
+Logikal (1, r1b2) -g3
+build y1 at Tvgide
+build g1 at Logikal
+build y1 at Tvgide
+build g1 at Logikal
+move y1 from Tvgide to T1 (y1)
+convert g3 to y3 at Logikal
+build y2 at Tvgide
+move g1 from Logikal to L1 (b3)
+convert y1 to r1 at Tvgide
+build y1 at Logikal
+sacrifice y2 at Tvgide; move r1 from Tvgide to T1; move r1 from T1 to L1
+build g1 at Logikal
+capture g1 at L1
+build y2 at Logikal
+build y2 at Tvgide
+convert y2 to b2 at Logikal
+convert y2 to r2 at Tvgide
+convert g1 to r1 at Logikal
+build r2 at L1
+move r1 from Logikal to L2 (y3)
+convert r2 to y2 at L1
+build g1 at Logikal
+build r2 at L1
+move r1 from L2 to T1
+move r2 from L1 to T1
+move r1 from T1 to L2 (b3)
+build y2 at Tvgide
+move b2 from Logikal to L2
+move y2 from Tvgide to T1
+move y1 from Logikal to L2
+move y2 from T1 to T2 (r3)
+move y3 from Logikal to T2
+build g2 at L1
+convert g1 to b1 at Logikal
+sacrifice g2 at L1; build y2 at Tvgide; build y3 at L1
+move y3 from T2 to L3 (b1)
+convert y3 to r3 at L1
+convert y3 to g3 at L3
+move r3 from L1 to Logikal
+sacrifice g3 at L3; build y3 at L2; build b1 at L2; build b1 at L2
+sacrifice r2 at T1; capture b1 at Logikal; capture g1 at Logikal

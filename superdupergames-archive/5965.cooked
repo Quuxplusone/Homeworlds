@@ -1,0 +1,35 @@
+Uglyfoot (0, b1y3) g3-
+Kermit (1, g2y3) -b3
+build g1 at Uglyfoot
+build b1 at Kermit
+move g1 from Uglyfoot to Amex (b2)
+convert b1 to g1 at Kermit
+build g1 at Uglyfoot
+move g1 from Kermit to Nymex (y1)
+build g2 at Amex
+build g2 at Nymex
+convert g2 to y2 at Amex
+build b1 at Kermit
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Uglyfoot; build g3 at Amex
+move g1 from Nymex to Nyse (b2)
+move g2 from Uglyfoot to Nyse
+sacrifice g2 at Nymex; build g2 at Nyse; build g3 at Nyse; catastrophe green at Nyse
+move g3 from Amex to Mars (r1)
+build b1 at Kermit
+sacrifice g3 at Uglyfoot; build g1 at Amex; build g2 at Mars; build g2 at Uglyfoot
+move b1 from Kermit to Apollo (y1)
+sacrifice g3 at Mars; build g3 at Mars; build g3 at Uglyfoot; build g3 at Amex
+build b2 at Kermit
+convert g3 to b3 at Amex
+convert b3 to y3 at Kermit
+move b3 from Amex to Apollo
+convert b1 to r1 at Kermit
+convert g1 to r1 at Uglyfoot
+convert b1 to g1 at Apollo
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build r2 at Uglyfoot; build b1 at Apollo
+build g3 at Apollo
+sacrifice r2 at Uglyfoot; capture g3 at Apollo; capture g1 at Apollo
+build b1 at Kermit
+move b3 from Apollo to Kermit
+convert y3 to r3 at Kermit
+sacrifice r1 at Uglyfoot; capture r3 at Kermit

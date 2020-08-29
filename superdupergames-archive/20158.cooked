@@ -1,0 +1,38 @@
+Madwuher (0, r2b1) g3-
+Aristos (1, y3b1) -g3
+build g1 at Madwuher
+build g1 at Aristos
+convert g1 to b1 at Madwuher
+convert g3 to b3 at Aristos
+build b2 at Madwuher
+build g1 at Aristos
+convert b1 to y1 at Madwuher
+move g1 from Aristos to Canary (y2)
+build y1 at Madwuher
+build g1 at Aristos
+build g2 at Madwuher
+build g2 at Canary
+move g2 from Madwuher to Goliath (g3)
+move g1 from Canary to Goliath
+build g2 at Madwuher
+build g3 at Canary
+move y1 from Madwuher to Goliath
+sacrifice g2 at Canary; build g2 at Goliath; build b1 at Aristos; catastrophe green at Goliath
+build b2 at Madwuher
+move b1 from Aristos to Canary
+move g2 from Madwuher to Bologna (b3)
+build b2 at Canary
+build g1 at Madwuher
+build b3 at Canary
+move b2 from Madwuher to Elonia (y3)
+build g2 at Canary
+sacrifice g2 at Bologna; build g2 at Madwuher; build b3 at Elonia
+convert b3 to y3 at Canary
+move g2 from Madwuher to Elonia
+move b1 from Canary to Plum (b3)
+move b2 from Madwuher to Plum
+sacrifice y3 at Canary; move b2 from Canary to Fire (r3); move b2 from Fire to Madwuher; move b1 from Plum to Madwuher
+capture b2 at Madwuher
+capture y1 at Madwuher
+capture y1 at Madwuher
+capture y1 at Madwuher

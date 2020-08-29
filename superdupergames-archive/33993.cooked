@@ -1,0 +1,56 @@
+Mobynostromo (0, b1y2) g3-
+Trydnt (1, y3g2) -b3
+build g1 at Mobynostromo
+build b1 at Trydnt
+build g1 at Mobynostromo
+build b1 at Trydnt
+move g1 from Mobynostromo to Chrome (y3)
+move b1 from Trydnt to Y1 (y1)
+convert g1 to y1 at Mobynostromo
+move b1 from Y1 to G3 (g3)
+build y1 at Mobynostromo
+build b2 at G3
+move g1 from Chrome to Brass (y1)
+convert b2 to y2 at G3
+move y1 from Mobynostromo to Emerald (g3)
+build b2 at G3
+move y1 from Mobynostromo to G3
+convert b2 to r2 at G3
+move y1 from G3 to Dust (g1)
+build b2 at G3
+convert g3 to r3 at Mobynostromo
+build b2 at Trydnt
+build y2 at Emerald
+sacrifice y2 at G3; move b2 from G3 to Dust; move r2 from G3 to B2 (b2)
+move y2 from Emerald to Mobynostromo
+build b3 at G3
+convert y2 to g2 at Mobynostromo
+build b3 at G3
+build g1 at Mobynostromo
+convert b3 to y3 at G3
+build y2 at Emerald
+build b3 at Dust
+build g2 at Brass
+convert b3 to g3 at Dust
+convert g1 to r1 at Mobynostromo
+build y2 at G3
+move r1 from Mobynostromo to Emerald
+build b3 at Dust
+build y3 at Dust
+sacrifice r2 at B2; capture y3 at Dust; capture y1 at Dust
+build g1 at Mobynostromo
+build b2 at G3
+sacrifice g2 at Brass; build r1 at Emerald; build r1 at Emerald
+convert b3 to r3 at G3
+sacrifice g2 at Mobynostromo; build r2 at Mobynostromo; build g2 at Brass
+move b3 from Dust to Emerald
+sacrifice y2 at Emerald; move r1 from Emerald to Brass; move r1 from Emerald to Brass
+build r2 at G3
+move r2 from Mobynostromo to Aqua (b3)
+move g3 from Dust to Aqua
+sacrifice y1 at Emerald; move r2 from Aqua to Garden (g2)
+build y1 at G3
+move r1 from Brass to G3
+sacrifice r2 at G3; capture r1 at G3; capture r1 at Emerald
+build r2 at Brass
+move y1 from Dust to R3 (r3)

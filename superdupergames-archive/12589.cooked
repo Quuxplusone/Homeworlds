@@ -1,0 +1,46 @@
+Mschlat (0, b1y2) g3-
+Madwuher (1, b3r2) -g3
+build g1 at Mschlat
+build g1 at Madwuher
+convert g1 to y1 at Mschlat
+convert g1 to y1 at Madwuher
+build g1 at Mschlat
+build g1 at Madwuher
+build g1 at Mschlat
+build g2 at Madwuher
+convert g1 to r1 at Mschlat
+convert g2 to r2 at Madwuher
+convert g1 to b1 at Mschlat
+convert g1 to b1 at Madwuher
+build b2 at Mschlat
+build b2 at Madwuher
+move b1 from Mschlat to Adama (g3)
+move b2 from Madwuher to Edora (y1)
+build b2 at Adama
+sacrifice g3 at Madwuher; build b3 at Madwuher; build b3 at Edora; build y2 at Madwuher
+build y2 at Mschlat
+convert b3 to g3 at Madwuher
+sacrifice y2 at Mschlat; move b1 from Adama to Edora; move b2 from Adama to Edora; catastrophe blue at Edora
+build g1 at Madwuher
+build y1 at Mschlat
+move y1 from Madwuher to Edora (g1)
+move y1 from Mschlat to Adama (g3)
+move b1 from Madwuher to Edora
+build r1 at Mschlat
+move r2 from Madwuher to Edora
+build g1 at Mschlat
+build b1 at Edora
+move b2 from Mschlat to Adama
+move b1 from Edora to Bologna (g2)
+build b2 at Adama
+build b2 at Bologna
+convert b2 to r2 at Adama
+build g2 at Madwuher
+move r2 from Adama to Bologna
+sacrifice r2 at Edora; capture r2 at Bologna
+build y2 at Adama
+sacrifice g2 at Madwuher; build y3 at Edora; build y3 at Madwuher
+convert y2 to g2 at Adama
+convert y1 to r1 at Edora
+build g2 at Adama
+sacrifice y2 at Madwuher; move g1 from Madwuher to Edora; move g1 from Edora to Adama; catastrophe green at Adama

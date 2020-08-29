@@ -1,0 +1,48 @@
+Ts52 (0, y1b3) g3-
+Lorgar (1, b2g1) -y3
+build g1 at Ts52
+build y1 at Lorgar
+build g1 at Ts52
+move y1 from Lorgar to Hitherto (g3)
+move g1 from Ts52 to Gonzo (b2)
+build y1 at Lorgar
+build g2 at Gonzo
+build y2 at Hitherto
+convert g2 to y2 at Gonzo
+convert y1 to r1 at Lorgar
+convert g1 to r1 at Ts52
+convert y3 to g3 at Lorgar
+build g1 at Gonzo
+build g2 at Lorgar
+sacrifice y2 at Gonzo; move g1 from Gonzo to Hitherto; move g1 from Hitherto to Lorgar; catastrophe green at Lorgar
+convert r1 to g1 at Lorgar
+build r1 at Ts52
+move y2 from Hitherto to Lorgar
+move r1 from Ts52 to Gonzo
+build g1 at Lorgar
+build g2 at Gonzo
+convert g1 to r1 at Lorgar
+build r2 at Ts52
+build r2 at Lorgar
+convert g2 to y2 at Gonzo
+move r1 from Lorgar to Hitherto
+move r2 from Ts52 to Zoe (y2)
+build r2 at Hitherto
+sacrifice g3 at Ts52; build r3 at Ts52; build r3 at Gonzo; build r3 at Zoe
+build y1 at Hitherto
+move r3 from Zoe to Hitherto
+build y3 at Lorgar
+capture y1 at Hitherto
+move r2 from Hitherto to Lorgar
+capture r1 at Hitherto
+move y1 from Hitherto to Thylacine (g2)
+move r3 from Hitherto to Thylacine
+move y1 from Thylacine to Bucephale (g1)
+build y3 at Gonzo
+build y3 at Bucephale
+move r1 from Gonzo to Hitherto
+move r2 from Lorgar to Bucephale
+move g1 from Gonzo to Grover (b3)
+build g2 at Lorgar
+move y3 from Gonzo to Grover
+sacrifice y3 at Bucephale; move r2 from Lorgar to Ts52; move r2 from Bucephale to Atlas (b2); move r2 from Atlas to Ts52; catastrophe red at Ts52

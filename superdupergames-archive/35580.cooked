@@ -1,0 +1,39 @@
+Dther (0, r1b2) g3-
+Babamots (1, b3y2) -g3
+build g1 at Dther
+build g1 at Babamots
+convert g1 to r1 at Dther
+convert g1 to r1 at Babamots
+build r2 at Dther
+build r2 at Babamots
+convert r1 to y1 at Dther
+convert r2 to y2 at Babamots
+build y1 at Dther
+build g1 at Babamots
+build g1 at Dther
+move g1 from Babamots to Andoria (b1)
+move g1 from Dther to Theseus (y3)
+build g1 at Babamots
+move y1 from Dther to Yggdrasil (g3)
+move y2 from Babamots to Andoria
+build g2 at Dther
+sacrifice g3 at Babamots; build g2 at Andoria; build g2 at Babamots; build g3 at Babamots
+build y1 at Yggdrasil
+sacrifice g3 at Babamots; build r1 at Babamots; build r2 at Babamots; build g3 at Babamots
+sacrifice g3 at Dther; build y2 at Dther; build y3 at Dther; build g3 at Dther
+build y3 at Andoria
+sacrifice y2 at Dther; move g1 from Theseus to Andoria; move g1 from Andoria to Babamots; catastrophe green at Babamots
+convert r1 to g1 at Babamots
+sacrifice g2 at Dther; build y2 at Yggdrasil; build y3 at Dther
+move y3 from Andoria to Babamots
+move y1 from Yggdrasil to Rubicon (b1)
+move r2 from Babamots to Rubicon
+sacrifice y3 at Dther; move y1 from Rubicon to Babamots; move y1 from Yggdrasil to Andoria; move y1 from Andoria to Babamots; catastrophe yellow at Babamots
+sacrifice y2 at Andoria; move r1 from Babamots to Dther; move r2 from Rubicon to Pakeld (y3)
+sacrifice r2 at Dther; capture r1 at Dther
+convert g2 to y2 at Andoria
+move y3 from Dther to Babamots
+build g1 at Babamots
+convert y3 to b3 at Babamots
+move r2 from Pakeld to Dther
+sacrifice g3 at Dther; build b1 at Babamots; build b1 at Babamots; build r1 at Dther; catastrophe blue at Babamots

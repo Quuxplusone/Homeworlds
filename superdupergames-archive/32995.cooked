@@ -1,0 +1,17 @@
+Felix (0, r2b3) g3-
+Fogus (1, y1b2) -g3
+build g1 at Felix
+build g1 at Fogus
+convert g1 to y1 at Felix
+build g1 at Fogus
+build y1 at Felix
+convert g3 to y3 at Fogus
+move y1 from Felix to Out (b1)
+build y2 at Fogus
+build y2 at Felix
+move y2 from Fogus to Cribbage (g3)
+move y1 from Felix to Opus (g1)
+build g2 at Fogus
+sacrifice g3 at Felix; build y2 at Opus; build y3 at Out; build y3 at Felix
+move y2 from Cribbage to Out
+move y1 from Out to Brink (r3)

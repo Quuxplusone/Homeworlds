@@ -1,0 +1,37 @@
+Zackstack (0, r1b2) g3-
+Nycavri (1, b3y2) -g3
+build g1 at Zackstack
+build g1 at Nycavri
+convert g1 to y1 at Zackstack
+build g1 at Nycavri
+move y1 from Zackstack to Blob (g3)
+convert g1 to y1 at Nycavri
+build g1 at Zackstack
+convert g1 to r1 at Nycavri
+build g1 at Zackstack
+move y1 from Nycavri to Deacon (b1)
+convert g1 to y1 at Zackstack
+build g1 at Nycavri
+sacrifice g3 at Zackstack; build y2 at Blob; build y2 at Zackstack; build y3 at Zackstack
+sacrifice g1 at Nycavri; build y3 at Deacon
+sacrifice y2 at Zackstack; move y1 from Blob to Deacon; move y2 from Blob to Deacon; catastrophe yellow at Deacon
+convert r1 to y1 at Nycavri
+build g1 at Zackstack
+move y1 from Nycavri to May (b1)
+move g1 from Zackstack to June (b3)
+move y1 from May to Mercury (b3)
+convert y1 to r1 at Zackstack
+build g1 at Nycavri
+build g2 at June
+move g1 from Nycavri to Taylor (y1)
+convert g2 to y2 at June
+build g2 at Nycavri
+sacrifice y2 at June; move g1 from June to Taylor; move g1 from Taylor to Nycavri
+convert g2 to r2 at Nycavri
+build g2 at Nycavri
+convert g3 to y3 at Nycavri
+sacrifice r1 at Zackstack; capture r2 at Nycavri
+move g1 from Taylor to Mercury
+convert y3 to b3 at Zackstack
+build g2 at Mercury
+sacrifice b3 at Zackstack; convert g1 to y1 at Nycavri; convert g2 to y2 at Nycavri; convert r2 to y2 at Nycavri; catastrophe yellow at Nycavri

@@ -1,0 +1,44 @@
+Dlwillson (0, b3y1) g3-
+Felix (1, b2r3) -g3
+build g1 at Dlwillson
+build g1 at Felix
+convert g1 to r1 at Dlwillson
+convert g1 to y1 at Felix
+build g1 at Dlwillson
+build y1 at Felix
+convert g3 to y3 at Dlwillson
+build y2 at Felix
+build y2 at Dlwillson
+move y1 from Felix to Borgus (g1)
+move y2 from Dlwillson to Sea (b2)
+move y1 from Felix to Ender (b1)
+convert y3 to b3 at Dlwillson
+sacrifice g3 at Felix; build y2 at Borgus; build y3 at Ender; build y3 at Felix
+sacrifice g1 at Dlwillson; build y3 at Sea
+sacrifice y2 at Borgus; move y1 from Borgus to Sea; move y1 from Ender to Sea; catastrophe yellow at Sea
+convert b3 to g3 at Dlwillson
+convert y3 to g3 at Felix
+build r1 at Dlwillson
+build y1 at Felix
+convert r1 to y1 at Dlwillson
+sacrifice g3 at Felix; build y2 at Ender; build y2 at Ender; build y3 at Felix
+move y1 from Dlwillson to Field (g2)
+move y2 from Ender to Field
+move y1 from Field to Forest (g1)
+move y1 from Felix to Forest
+build r1 at Dlwillson
+build y3 at Field
+sacrifice r1 at Dlwillson; capture y1 at Forest
+convert y2 to r2 at Felix
+move y1 from Forest to Field
+move y2 from Field to Forest
+move y1 from Forest to Solar (y2)
+convert y3 to g3 at Ender
+move y1 from Field to Golden (y3)
+move y2 from Forest to Felix
+build g1 at Dlwillson
+sacrifice y3 at Felix; move g3 from Ender to Field; move y3 from Field to Dlwillson; move g3 from Field to Dlwillson
+sacrifice g3 at Dlwillson; build g1 at Dlwillson; build y3 at Golden; build r1 at Dlwillson
+sacrifice r2 at Felix; capture r1 at Dlwillson; capture r1 at Dlwillson
+sacrifice y3 at Golden; move y1 from Golden to Solar; move y1 from Solar to Dlwillson; move y1 from Solar to Dlwillson; catastrophe yellow at Dlwillson
+build g1 at Dlwillson; catastrophe green at Dlwillson

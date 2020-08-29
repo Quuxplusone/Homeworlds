@@ -1,0 +1,67 @@
+Dragon76N (0, b3y1) g3-
+Mobynostromo (1, y1b2) -g3
+build g1 at Dragon76N
+build g1 at Mobynostromo
+convert g1 to y1 at Dragon76N
+build g1 at Mobynostromo
+build y2 at Dragon76N
+move g1 from Mobynostromo to Bigbird (y3)
+move y1 from Dragon76N to Blutwo (b2)
+move g1 from Mobynostromo to Tweety (y3)
+build g1 at Dragon76N
+build g2 at Mobynostromo
+sacrifice g3 at Dragon76N; build y2 at Blutwo; build y2 at Blutwo; build y3 at Dragon76N
+move g2 from Mobynostromo to Hotstuff (r3)
+convert y2 to g2 at Blutwo
+build g2 at Mobynostromo
+build g3 at Blutwo
+convert g2 to y2 at Mobynostromo
+move g3 from Blutwo to Hotstuff
+sacrifice g2 at Hotstuff; build g2 at Tweety; build g2 at Bigbird
+build g3 at Dragon76N
+convert g3 to r3 at Mobynostromo
+convert y1 to r1 at Blutwo
+move g1 from Bigbird to Grover (b2)
+sacrifice g3 at Dragon76N; build g3 at Dragon76N; build y1 at Blutwo; build g3 at Blutwo
+move y2 from Mobynostromo to Maximillian (r3)
+move g3 from Blutwo to Maximillian
+move y2 from Maximillian to Grover
+move y3 from Dragon76N to Grover
+move g1 from Tweety to Mobynostromo
+sacrifice r1 at Blutwo; capture y2 at Grover
+build r1 at Mobynostromo
+convert y2 to r2 at Grover
+convert r1 to b1 at Mobynostromo
+sacrifice g3 at Hotstuff; build y2 at Grover; build g3 at Blutwo; build r1 at Grover
+build b1 at Mobynostromo
+capture g1 at Grover
+move b1 from Mobynostromo to Tweety
+move g3 from Blutwo to Bigbird
+sacrifice g2 at Tweety; build b1 at Tweety; build b3 at Tweety
+sacrifice r1 at Grover; capture g2 at Bigbird
+build g2 at Mobynostromo
+sacrifice y2 at Blutwo; move g2 from Blutwo to Maximillian; move y1 from Blutwo to Maximillian
+convert g2 to y2 at Mobynostromo
+convert y2 to b2 at Grover
+sacrifice y2 at Mobynostromo; move b1 from Tweety to Grover; move b1 from Tweety to Grover; catastrophe blue at Grover
+sacrifice g3 at Maximillian; build y2 at Dragon76N; build y2 at Maximillian; build y3 at Maximillian
+build g1 at Mobynostromo
+convert y2 to b2 at Dragon76N
+move g1 from Mobynostromo to Tweety
+move b2 from Dragon76N to Yeltwo (y2)
+build r1 at Mobynostromo
+move b2 from Yeltwo to Maximillian
+build r1 at Mobynostromo
+convert y2 to r2 at Maximillian
+move r1 from Mobynostromo to Miracle (g3)
+move g2 from Bigbird to Redone (r1)
+build g2 at Mobynostromo
+sacrifice g3 at Dragon76N; build b1 at Maximillian; build y2 at Maximillian; build g3 at Dragon76N
+move b3 from Tweety to Redone
+sacrifice y1 at Maximillian; move g2 from Redone to Tweety
+convert g2 to y2 at Mobynostromo
+sacrifice y2 at Maximillian; move b2 from Maximillian to Mobynostromo; move b1 from Maximillian to Mobynostromo; catastrophe blue at Mobynostromo
+build g2 at Tweety
+sacrifice g3 at Dragon76N; build g3 at Dragon76N; build y1 at Maximillian; build y2 at Dragon76N
+sacrifice g2 at Tweety; build g2 at Tweety; build b1 at Redone
+sacrifice y2 at Dragon76N; move y1 from Maximillian to Mobynostromo; move y3 from Maximillian to Mobynostromo; catastrophe yellow at Mobynostromo

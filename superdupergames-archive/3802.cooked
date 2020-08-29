@@ -1,0 +1,36 @@
+Personman (0, y3b2) g3-
+Zoltar (1, b3y1) -g3
+build g1 at Personman
+build g1 at Zoltar
+move g1 from Personman to Athiba (y1)
+convert g1 to y1 at Zoltar
+build g1 at Personman
+build y2 at Zoltar
+convert g1 to b1 at Personman
+move y2 from Zoltar to Greenbelt (g2)
+build g1 at Personman
+build y2 at Greenbelt
+build g1 at Personman
+build g2 at Zoltar
+sacrifice g3 at Personman; build g2 at Athiba; build g3 at Athiba; build g3 at Personman
+sacrifice y2 at Greenbelt; move g2 from Zoltar to Greenbelt; move g2 from Greenbelt to Athiba; catastrophe green at Athiba
+convert g1 to y1 at Personman
+build y2 at Greenbelt
+move y1 from Personman to A2Ba (g1)
+convert y1 to r1 at Zoltar
+convert g1 to r1 at Personman
+build g1 at Zoltar
+build g1 at Personman
+build g2 at Zoltar
+sacrifice g3 at Personman; build g2 at Personman; build g3 at Personman; build y1 at A2Ba
+move g2 from Zoltar to Blueridge (b2)
+move y1 from A2Ba to Fhutwos (b2)
+sacrifice y2 at Greenbelt; move g2 from Blueridge to A2Ba; move g2 from A2Ba to Personman; catastrophe green at Personman
+build y2 at A2Ba
+build y2 at Greenbelt
+move y2 from A2Ba to Fhutwos
+sacrifice y2 at Greenbelt; move y2 from Greenbelt to A2Ba; move y2 from A2Ba to Personman
+convert b1 to g1 at Personman
+convert g3 to r3 at Zoltar
+build g2 at Personman
+sacrifice r3 at Zoltar; capture g2 at Personman; capture g1 at Personman; capture r1 at Personman

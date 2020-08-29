@@ -1,0 +1,42 @@
+Guntz1092 (0, y3g2) r3-
+Silenttitan (1, r2b1) -g3
+build r1 at Guntz1092
+build g1 at Silenttitan
+build r1 at Guntz1092
+convert g1 to r1 at Silenttitan
+move r1 from Guntz1092 to Barta1 (b1)
+build r2 at Silenttitan
+move r1 from Guntz1092 to Barta1
+convert r1 to y1 at Silenttitan
+convert r1 to y1 at Barta1
+build y1 at Silenttitan
+convert r1 to g1 at Barta1
+move y1 from Silenttitan to Sol (g3)
+build y2 at Barta1
+build y2 at Sol
+build r1 at Guntz1092
+move y1 from Sol to Sameasy (b1)
+move y2 from Barta1 to Foie (r3)
+sacrifice g3 at Silenttitan; build y2 at Sol; build y3 at Sameasy; build y3 at Silenttitan
+build g1 at Barta1
+sacrifice y2 at Sol; move y3 from Sameasy to Guntz1092; move y1 from Sameasy to Guntz1092
+capture y3 at Guntz1092
+build y2 at Guntz1092; catastrophe yellow at Guntz1092
+convert g1 to r1 at Barta1
+convert y1 to g1 at Silenttitan
+move r1 from Barta1 to Foie
+build y1 at Silenttitan
+sacrifice y1 at Barta1; move r1 from Guntz1092 to Rabarta (b3)
+move r2 from Silenttitan to Grass (g3)
+sacrifice y2 at Foie; move r1 from Foie to Silenttitan; move r1 from Rabarta to Silenttitan
+sacrifice r2 at Grass; capture r1 at Silenttitan; capture r1 at Silenttitan
+convert g1 to y1 at Barta1
+sacrifice y2 at Sol; move r1 from Silenttitan to Sole (y3); move r1 from Silenttitan to Soul (g3)
+move y1 from Barta1 to Guntz1092
+move g1 from Silenttitan to Sole
+build y1 at Guntz1092
+build g1 at Sole
+build r1 at Guntz1092
+build g1 at Sole
+move r3 from Guntz1092 to Sole
+sacrifice y3 at Silenttitan; move g1 from Sole to Guntz1092; move g1 from Sole to Guntz1092; move g1 from Sole to Guntz1092; catastrophe green at Guntz1092

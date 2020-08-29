@@ -1,0 +1,49 @@
+Andylooney (0, b1g2) y3-
+Jeep (1, b3y1) -g3
+build y1 at Andylooney
+build g1 at Jeep
+convert y1 to g1 at Andylooney
+convert g1 to y1 at Jeep
+move g1 from Andylooney to Clampett (y3)
+move y1 from Jeep to Ned (y2)
+build y1 at Andylooney
+build g1 at Jeep
+move y1 from Andylooney to Paradise (g3)
+convert g1 to b1 at Jeep
+build y2 at Paradise
+move y1 from Ned to Lost (g3)
+move y1 from Paradise to Gateway (g2)
+build y2 at Lost
+build y2 at Gateway
+move y1 from Lost to Ohboy (b2)
+build y3 at Paradise
+build g1 at Jeep
+sacrifice g1 at Clampett; build y3 at Andylooney
+build g1 at Jeep
+convert y3 to r3 at Andylooney
+convert g1 to r1 at Jeep
+build y3 at Andylooney
+build r1 at Jeep
+build r1 at Andylooney
+move r1 from Jeep to Ohboy
+convert r1 to b1 at Andylooney
+move g1 from Jeep to Ohboy
+move b1 from Andylooney to Paradise
+build g1 at Jeep
+build b2 at Paradise
+sacrifice g3 at Jeep; build g1 at Ohboy; build g2 at Ohboy; build g3 at Jeep
+move y3 from Paradise to Ohboy
+move y1 from Ohboy to Lost
+sacrifice r3 at Andylooney; capture g2 at Ohboy; capture g1 at Ohboy; capture r1 at Ohboy
+move y1 from Lost to Andylooney
+sacrifice b2 at Paradise; convert y3 to r3 at Andylooney; convert y1 to r1 at Gateway
+sacrifice g3 at Jeep; build g3 at Jeep; build r2 at Jeep; build y1 at Lost
+sacrifice y3 at Andylooney; move y3 from Ohboy to Jeep; move g1 from Ohboy to Jeep; move g2 from Ohboy to Jeep; catastrophe green at Jeep
+build y3 at Lost
+sacrifice r1 at Ohboy; capture r2 at Jeep
+sacrifice y2 at Lost; move y3 from Lost to Ohboy; move y3 from Ohboy to Jeep
+sacrifice r2 at Jeep; capture y3 at Jeep; capture r1 at Jeep
+sacrifice y1 at Lost; move g1 from Ohboy to Jeep
+capture g1 at Jeep
+convert b1 to g1 at Jeep
+capture g1 at Jeep

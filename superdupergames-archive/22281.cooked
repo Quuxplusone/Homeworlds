@@ -1,0 +1,44 @@
+Agentofchaos (0, b1r2) g3-
+Silenttitan (1, g2y1) -b3
+build g1 at Agentofchaos
+build b1 at Silenttitan
+build g1 at Agentofchaos
+build b1 at Silenttitan
+convert g1 to y1 at Agentofchaos
+move b1 from Silenttitan to Sol (g3)
+build y1 at Agentofchaos
+build b2 at Sol
+build y2 at Agentofchaos
+convert b3 to g3 at Silenttitan
+convert y2 to r2 at Agentofchaos
+convert b2 to y2 at Sol
+move r2 from Agentofchaos to Sol
+sacrifice y2 at Sol; move b1 from Sol to Silenttitan; move b1 from Silenttitan to Soul (y3)
+build y2 at Agentofchaos
+convert g3 to r3 at Silenttitan
+build r1 at Sol
+build b2 at Silenttitan
+move y2 from Agentofchaos to Soul
+build b2 at Silenttitan
+sacrifice r1 at Sol; capture b1 at Soul
+convert b2 to r2 at Silenttitan
+build r1 at Sol
+move r3 from Silenttitan to Soul
+sacrifice y2 at Soul; move r2 from Sol to Silenttitan; move r1 from Sol to Silenttitan
+sacrifice r2 at Silenttitan; capture r2 at Silenttitan; capture r1 at Silenttitan
+move b1 from Soul to Agentofchaos
+convert b2 to y2 at Silenttitan
+build y2 at Agentofchaos
+move r2 from Silenttitan to Sol (y3)
+build b2 at Agentofchaos
+build b2 at Silenttitan
+move y2 from Agentofchaos to Dreadthought (b3)
+sacrifice y2 at Silenttitan; move b1 from Silenttitan to Sol; move b1 from Sol to Agentofchaos; catastrophe blue at Agentofchaos
+build y2 at Agentofchaos
+build b1 at Silenttitan
+build g1 at Agentofchaos
+convert b2 to y2 at Silenttitan
+sacrifice g1 at Agentofchaos; build y3 at Dreadthought
+move r3 from Soul to Silenttitan
+sacrifice y2 at Agentofchaos; move y2 from Dreadthought to Silenttitan; move y3 from Dreadthought to Silenttitan; catastrophe yellow at Silenttitan
+convert r3 to y3 at Silenttitan

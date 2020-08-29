@@ -1,0 +1,53 @@
+Mandrel (0, r1b2) g3-
+Alexcobo (1, g3b2) -y3
+build g1 at Mandrel
+build y1 at Alexcobo
+convert g1 to r1 at Mandrel
+convert y1 to r1 at Alexcobo
+build r2 at Mandrel
+build r2 at Alexcobo
+convert r2 to y2 at Mandrel
+build y1 at Alexcobo
+build r2 at Mandrel
+build r2 at Alexcobo
+convert r2 to y2 at Mandrel
+move r2 from Alexcobo to One (g1)
+move r1 from Mandrel to Campus (g3)
+convert r1 to g1 at Alexcobo
+move y2 from Mandrel to Campus
+build r1 at One
+build y1 at Mandrel
+build r2 at Alexcobo
+build r3 at Campus
+convert r2 to b2 at Alexcobo
+build g1 at Mandrel
+move y1 from Alexcobo to One
+convert g1 to b1 at Mandrel
+build r2 at Alexcobo
+move r3 from Campus to Late (g1)
+move b2 from Alexcobo to One
+build r3 at Campus
+convert r2 to g2 at One
+move b1 from Mandrel to Campus
+build g2 at Alexcobo
+build g2 at Mandrel
+build y1 at Alexcobo
+sacrifice g3 at Mandrel; build g3 at Mandrel; build y2 at Mandrel; build y3 at Campus
+build y3 at One
+sacrifice y3 at Campus; move g2 from Mandrel to Campus; move g2 from Campus to Late; move g2 from Late to Alexcobo; catastrophe green at Alexcobo
+sacrifice y3 at One; move g2 from One to Alexcobo; move y1 from One to Campus; move y1 from Campus to Mandrel; catastrophe yellow at Mandrel
+build g1 at Mandrel
+build g2 at Alexcobo
+convert g1 to y1 at Mandrel
+move r2 from Alexcobo to R2 (g3)
+build y1 at Mandrel
+sacrifice g2 at Alexcobo; build r2 at One; build r3 at Alexcobo
+build b1 at Campus
+build g1 at Alexcobo
+move b1 from Campus to Late
+move y1 from Alexcobo to R2
+build b1 at Late
+build b3 at One
+sacrifice y2 at Campus; move b1 from Late to Alexcobo; move b1 from Late to Alexcobo
+sacrifice r2 at One; capture b1 at Alexcobo; capture b1 at Alexcobo
+sacrifice y1 at Mandrel; move b1 from Campus to Alexcobo; catastrophe blue at Alexcobo

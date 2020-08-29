@@ -1,0 +1,45 @@
+Broccoli_Commander (0, r1b2) g3-
+Marmalade (1, b1r3) -g3
+build g1 at Broccoli_Commander
+build g1 at Marmalade
+convert g1 to y1 at Broccoli_Commander
+convert g1 to y1 at Marmalade
+build g1 at Broccoli_Commander
+build g1 at Marmalade
+move g1 from Broccoli_Commander to Blueberry (b3)
+move g1 from Marmalade to Mote (y2)
+build y1 at Broccoli_Commander
+build y2 at Marmalade
+move y1 from Broccoli_Commander to Blueberry
+move y2 from Marmalade to Dust (b2)
+sacrifice g3 at Broccoli_Commander; build y2 at Broccoli_Commander; build y3 at Broccoli_Commander; build y3 at Blueberry
+build y3 at Marmalade
+convert y1 to r1 at Broccoli_Commander
+convert y1 to r1 at Marmalade
+convert y3 to g3 at Broccoli_Commander
+build r2 at Marmalade
+build r2 at Broccoli_Commander
+move r2 from Marmalade to Dust
+move r2 from Broccoli_Commander to Blueberry
+move g3 from Marmalade to Dust
+build y1 at Broccoli_Commander
+move g1 from Mote to Marmalade
+convert y1 to b1 at Blueberry
+build y1 at Dust
+build b1 at Blueberry
+move r1 from Marmalade to Grit (g2)
+move y3 from Blueberry to Grit
+sacrifice y2 at Dust; move g3 from Dust to Marmalade; move g3 from Marmalade to Grit
+sacrifice r2 at Blueberry; capture r1 at Grit; capture g3 at Grit
+build g1 at Marmalade
+sacrifice g3 at Grit; build g2 at Broccoli_Commander; build g2 at Broccoli_Commander; build g3 at Blueberry
+convert r2 to b2 at Dust
+sacrifice y1 at Broccoli_Commander; move b1 from Blueberry to Grit
+sacrifice g1 at Marmalade; build b3 at Dust
+sacrifice g2 at Broccoli_Commander; build b3 at Grit; build r2 at Grit
+move b3 from Dust to Speck (r3)
+sacrifice y2 at Broccoli_Commander; move y3 from Grit to Marmalade; move b3 from Grit to Marmalade
+capture y3 at Marmalade
+sacrifice r2 at Grit; capture y3 at Marmalade; capture y3 at Marmalade
+move y1 from Dust to Blueberry
+capture g1 at Marmalade

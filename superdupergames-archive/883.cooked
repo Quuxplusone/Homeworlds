@@ -1,0 +1,74 @@
+Istari (0, b1y2) g3-
+Junkman (1, b3g1) -y3
+build g1 at Istari
+build y1 at Junkman
+move g1 from Istari to Greenacres (y3)
+move y1 from Junkman to Azul (g2)
+build g1 at Greenacres
+build y1 at Junkman
+build g2 at Istari
+convert y1 to b1 at Junkman
+convert g2 to b2 at Istari
+build y1 at Junkman
+move b2 from Istari to Greenacres
+convert y1 to r1 at Junkman
+convert g1 to r1 at Greenacres
+build y1 at Azul
+build g1 at Istari
+sacrifice y1 at Azul; move b1 from Junkman to Azul
+build g2 at Istari
+build y1 at Azul
+move b2 from Greenacres to Azul
+move y1 from Azul to Junkman
+convert b2 to r2 at Azul
+sacrifice y1 at Azul; move b1 from Azul to Junkman
+convert g2 to r2 at Istari
+build r1 at Junkman
+build g2 at Greenacres
+build r2 at Junkman
+build r3 at Istari
+sacrifice y1 at Junkman; move r1 from Junkman to Azul
+build r3 at Greenacres
+build r3 at Junkman
+capture r1 at Azul
+move y3 from Junkman to Azul
+convert r3 to y3 at Istari
+sacrifice r1 at Junkman; capture r2 at Azul
+sacrifice y3 at Istari; move r2 from Istari to Greenacres; move r2 from Greenacres to Azul; move r1 from Greenacres to Azul; catastrophe red at Azul
+build y1 at Azul
+convert g1 to y1 at Istari
+sacrifice b1 at Junkman; convert y1 to g1 at Azul
+build g2 at Istari
+build y1 at Azul
+convert y1 to b1 at Istari
+move g1 from Azul to Junkman
+sacrifice g2 at Greenacres; build r1 at Greenacres; build b1 at Istari
+build g2 at Junkman
+convert g2 to y2 at Istari
+sacrifice g1 at Junkman; build y1 at Azul
+move b1 from Istari to Greenacres
+move y1 from Azul to Merlin (g3)
+move y2 from Istari to Merlin
+sacrifice y1 at Merlin; move r2 from Junkman to Azul
+build y1 at Merlin
+build r1 at Azul
+sacrifice y2 at Merlin; move b1 from Greenacres to Azul; move r1 from Greenacres to Azul
+capture b1 at Azul
+build r1 at Azul; catastrophe red at Azul
+build r1 at Junkman
+move y1 from Merlin to Istari
+build b2 at Azul
+build g1 at Greenacres
+move b2 from Azul to Beret (g3)
+move b1 from Istari to Greenacres
+convert b2 to y2 at Beret
+move g1 from Greenacres to Istari
+build y1 at Beret
+convert g1 to r1 at Istari
+move y2 from Beret to Istari
+move g1 from Greenacres to Azul
+sacrifice g2 at Junkman; build y2 at Istari; build y3 at Beret; catastrophe yellow at Istari
+sacrifice g3 at Istari; build g1 at Azul; build g2 at Azul; build g2 at Azul; catastrophe green at Azul
+move y3 from Beret to Istari
+convert r3 to g3 at Greenacres
+sacrifice r1 at Junkman; capture r1 at Istari

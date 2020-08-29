@@ -1,0 +1,66 @@
+Fnord (0, b3y2) g3-
+Zoltar (1, y2b1) -g3
+build g1 at Fnord
+build g1 at Zoltar
+convert g1 to b1 at Fnord
+build g1 at Zoltar
+move b1 from Fnord to Nothingness (y1)
+move g1 from Zoltar to Yellowstone (y3)
+build g1 at Fnord
+build g2 at Zoltar
+convert g1 to r1 at Fnord
+convert g2 to r2 at Zoltar
+move b1 from Nothingness to Yellowstone
+move g1 from Yellowstone to Redriver (r1)
+build g1 at Fnord
+build g2 at Redriver
+move g1 from Fnord to Redriver
+build g2 at Zoltar
+build g2 at Redriver; catastrophe green at Redriver
+move g2 from Zoltar to Blueridge (b3)
+build g1 at Fnord
+build r1 at Zoltar
+move g1 from Fnord to Orary (y1)
+move r2 from Zoltar to Yellowstone
+move b1 from Yellowstone to Orary
+move r2 from Yellowstone to Orary
+build g1 at Orary
+capture b1 at Orary
+build g2 at Fnord
+sacrifice g3 at Zoltar; build g2 at Blueridge; build g3 at Blueridge; build g3 at Zoltar
+move g1 from Orary to Blueridge; catastrophe green at Blueridge
+capture g1 at Orary
+build r1 at Fnord
+build r2 at Orary
+convert r1 to y1 at Fnord
+convert r2 to y2 at Orary
+move y1 from Fnord to Orary
+capture y1 at Orary
+build r1 at Fnord
+build r2 at Orary
+convert r1 to y1 at Fnord
+convert y2 to g2 at Orary
+move g2 from Fnord to Temp (b1)
+move g2 from Orary to Investment (b3)
+move y1 from Fnord to Temp
+move y1 from Orary to Investment
+build y2 at Temp
+build y3 at Investment
+convert y2 to r2 at Temp
+move y3 from Investment to Temp
+build y2 at Temp
+sacrifice r2 at Orary; capture g2 at Temp; capture r2 at Temp
+move y2 from Temp to Sink (y3)
+build y3 at Investment
+move y2 from Sink to Hole (b2)
+move y3 from Investment to Hole
+move y2 from Hole to Eris (g3)
+build y3 at Investment
+build r1 at Fnord
+sacrifice g3 at Zoltar; build g1 at Orary; build g2 at Temp; build g3 at Zoltar
+move y1 from Temp to Investment
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Orary; build r3 at Temp
+move r1 from Fnord to Temp
+sacrifice y3 at Investment; move g1 from Orary to Fnord; move r2 from Orary to Fnord; move r3 from Temp to Fnord
+sacrifice y1 at Investment; move r1 from Temp to Fnord; catastrophe red at Fnord
+sacrifice y3 at Temp; move g2 from Temp to Fnord; move g2 from Temp to Fnord; move r2 from Temp to Fnord; catastrophe green at Fnord

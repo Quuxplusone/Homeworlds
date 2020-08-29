@@ -1,0 +1,47 @@
+Ts52 (0, b3y2) g3-
+Remneb (1, b2y3) -g3
+build g1 at Ts52
+build g1 at Remneb
+move g1 from Ts52 to Gonzo (b1)
+move g1 from Remneb to Draconis (y1)
+convert g1 to y1 at Gonzo
+build g1 at Remneb
+move y1 from Gonzo to Kermit (g3)
+move g1 from Draconis to Kermit
+build y1 at Kermit
+move g1 from Remneb to Khufu (y1)
+build y2 at Kermit
+build g1 at Remneb
+build g2 at Ts52
+move g1 from Remneb to Khufu
+convert g2 to r2 at Ts52
+sacrifice g1 at Kermit; build g1 at Khufu
+move r2 from Ts52 to Khufu
+move g1 from Khufu to Ts52
+convert g3 to r3 at Ts52
+move g1 from Khufu to Kermit
+capture g1 at Ts52
+move g1 from Khufu to Kermit
+sacrifice r2 at Khufu; capture g1 at Kermit; capture g1 at Kermit
+build g2 at Remneb
+build g2 at Ts52
+move g2 from Remneb to Phoenix (y1)
+move g1 from Kermit to Gonzo (b1)
+build g2 at Remneb
+build g3 at Gonzo
+move g2 from Remneb to Menkaura (b1)
+build r1 at Ts52
+convert g2 to y2 at Menkaura
+move y1 from Kermit to Gonzo
+build g2 at Remneb
+sacrifice g3 at Gonzo; build g3 at Gonzo; build y3 at Gonzo; build y3 at Gonzo
+convert g2 to b2 at Remneb
+convert y1 to b1 at Gonzo
+build b2 at Remneb
+move y3 from Gonzo to Remneb
+move b2 from Remneb to Phoenix
+convert y3 to r3 at Remneb
+move y2 from Menkaura to Arcturus (r2)
+capture g3 at Remneb
+convert b2 to r2 at Phoenix
+capture b2 at Remneb

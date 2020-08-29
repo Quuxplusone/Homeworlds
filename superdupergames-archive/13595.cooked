@@ -1,0 +1,25 @@
+Laurie_Menke (0, g2b1) y3-
+Joe (1, r1b2) -g3
+build y1 at Laurie_Menke
+build g1 at Joe
+build y1 at Laurie_Menke
+build g1 at Joe
+move y3 from Laurie_Menke to Jollygreengiant (g3)
+convert g3 to r3 at Joe
+build y1 at Laurie_Menke
+convert g1 to b1 at Joe
+build y2 at Jollygreengiant
+build g1 at Joe
+move y1 from Laurie_Menke to Bigyellowsun (y3)
+pass
+move y1 from Laurie_Menke to Bigyellowmoon (y3)
+build g1 at Joe
+move y2 from Jollygreengiant to Yellowsubmarine (y2)
+build b1 at Joe
+build y2 at Laurie_Menke
+pass
+convert y2 to b2 at Laurie_Menke
+build r1 at Joe
+sacrifice y2 at Yellowsubmarine; move b2 from Laurie_Menke to Bigyellowmoon; move b2 from Bigyellowmoon to Joe; catastrophe blue at Joe
+pass
+build y2 at Laurie_Menke

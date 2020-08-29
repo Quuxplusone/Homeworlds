@@ -1,0 +1,42 @@
+Ts52 (0, y1b2) g3-
+Trydnt (1, b2g2) -y3
+build g1 at Ts52
+build y1 at Trydnt
+build g1 at Ts52
+build y1 at Trydnt
+move g1 from Ts52 to Gonzo (b3)
+convert y3 to r3 at Trydnt
+build g1 at Ts52
+build y2 at Trydnt
+build g2 at Gonzo
+move r3 from Trydnt to Gonzo
+convert g3 to r3 at Ts52
+capture g2 at Gonzo
+build r1 at Ts52
+capture g1 at Gonzo
+move g1 from Ts52 to Grover (b3)
+build r1 at Gonzo
+move r1 from Ts52 to Grover
+move y1 from Trydnt to Gonzo
+build g2 at Ts52
+sacrifice g2 at Gonzo; build y2 at Gonzo; build y2 at Gonzo
+build r1 at Grover
+build y3 at Trydnt
+build r2 at Grover
+move y2 from Trydnt to G3 (g3)
+convert g1 to b1 at Ts52
+build y3 at G3
+build g1 at Grover
+build y3 at Trydnt
+move b1 from Ts52 to Kermit (g3)
+move y3 from Trydnt to Grover
+build b1 at Kermit
+sacrifice r3 at Gonzo; capture r1 at Grover; capture r2 at Grover; capture r1 at Grover
+build b1 at Kermit
+sacrifice y3 at G3; move r1 from Grover to Ts52; move r1 from Grover to Ts52; move r2 from Grover to Ts52; catastrophe red at Ts52
+convert g2 to r2 at Ts52
+move y3 from Grover to Ts52
+sacrifice g1 at Grover; build r1 at Ts52
+sacrifice r1 at Gonzo; capture r2 at Ts52
+sacrifice g1 at Grover; build r1 at Ts52
+sacrifice r2 at Ts52; capture r1 at Ts52; capture r1 at Ts52

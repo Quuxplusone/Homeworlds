@@ -1,0 +1,14 @@
+Jeep (0, r1b2) g3-
+Zoltar (1, r3b1) -g3
+build g1 at Jeep
+build g1 at Zoltar
+convert g1 to y1 at Jeep
+convert g1 to y1 at Zoltar
+build g1 at Jeep
+build g1 at Zoltar
+convert g1 to b1 at Jeep
+build g1 at Zoltar
+build b1 at Jeep
+convert g1 to r1 at Zoltar
+move b1 from Jeep to Builder (g3)
+build r1 at Zoltar

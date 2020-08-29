@@ -1,0 +1,39 @@
+Jeep (0, y1b2) g3-
+Lexicon (1, y1b3) -g3
+build g1 at Jeep
+build g1 at Lexicon
+convert g1 to y1 at Jeep
+build g1 at Lexicon
+build y2 at Jeep
+move g1 from Lexicon to Alanine (g2)
+move y1 from Jeep to Thumb (g3)
+convert g1 to r1 at Lexicon
+build y2 at Jeep
+build g1 at Lexicon
+build g1 at Jeep
+move g1 from Lexicon to Candle (b2)
+move y2 from Jeep to Wind (b3)
+build g2 at Lexicon
+sacrifice g3 at Jeep; build g2 at Jeep; build g3 at Jeep; build y2 at Thumb
+convert g1 to b1 at Candle
+sacrifice g3 at Jeep; build y3 at Jeep; build y3 at Wind; build y3 at Wind
+sacrifice g3 at Lexicon; build g1 at Alanine; build g3 at Lexicon; build b1 at Candle
+build g3 at Jeep
+sacrifice b1 at Candle; convert g1 to b1 at Alanine
+convert g2 to b2 at Jeep
+move g2 from Lexicon to Lysine (r2)
+move g1 from Jeep to Wind
+build g1 at Lexicon
+build g2 at Wind
+sacrifice g3 at Lexicon; build g3 at Lexicon; build r1 at Lexicon; build r1 at Lexicon
+convert g2 to r2 at Wind
+move r1 from Lexicon to Alanine
+sacrifice g3 at Jeep; build g2 at Wind; build g3 at Wind; build r2 at Wind
+sacrifice g3 at Lexicon; build b1 at Candle; build b3 at Alanine; build g3 at Lexicon
+build r3 at Wind
+build r3 at Alanine
+move r2 from Wind to Candle
+move r1 from Lexicon to Lysine
+sacrifice g2 at Wind; build g2 at Wind; build r3 at Candle
+pass
+move g2 from Wind to Candle

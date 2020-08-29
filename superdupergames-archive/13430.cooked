@@ -1,0 +1,26 @@
+Molnar (0, y3b1) g3-
+Nycavri (1, y1b2) -g3
+build g1 at Molnar
+build g1 at Nycavri
+convert g1 to r1 at Molnar
+move g1 from Nycavri to Mvb (y3)
+build g1 at Molnar
+build g1 at Mvb
+move g1 from Molnar to Poop (y2)
+build g2 at Nycavri
+move r1 from Molnar to Poop
+build g2 at Nycavri
+move g1 from Poop to Mvb
+build g2 at Mvb; catastrophe green at Mvb
+build g1 at Molnar
+convert g2 to y2 at Nycavri
+move g3 from Molnar to Poop
+move g2 from Nycavri to Mvg (y3)
+move g3 from Poop to Mvg
+convert y2 to r2 at Nycavri
+build g1 at Molnar
+move g2 from Mvg to Poop
+move g3 from Mvg to Poop
+move g2 from Poop to Molnar
+build r1 at Poop
+build g1 at Molnar; catastrophe green at Molnar

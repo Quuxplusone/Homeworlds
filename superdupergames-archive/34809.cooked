@@ -1,0 +1,42 @@
+Draw5Playall (0, b3y1) g3-
+Felix (1, r1b3) -g3
+build g1 at Draw5Playall
+build g1 at Felix
+convert g1 to r1 at Draw5Playall
+convert g1 to y1 at Felix
+build r1 at Draw5Playall
+build y1 at Felix
+move r1 from Draw5Playall to G2019 (g2)
+build y2 at Felix
+build r2 at Draw5Playall
+move y1 from Felix to Cheese (y2)
+move r1 from Draw5Playall to Niceidea (r2)
+move y1 from Felix to Swiss (y2)
+sacrifice g3 at Draw5Playall; build r2 at Niceidea; build r3 at G2019; build r3 at Draw5Playall
+sacrifice g3 at Felix; build y3 at Felix; build y3 at Felix; build y3 at Cheese
+build r3 at G2019
+convert y3 to g3 at Felix
+convert r3 to g3 at Draw5Playall
+convert y3 to r3 at Felix
+sacrifice r1 at G2019
+sacrifice g3 at Felix; build y3 at Felix; build y3 at Felix; build r1 at Felix
+build g1 at Draw5Playall
+convert y3 to g3 at Felix
+convert g1 to b1 at Draw5Playall
+build y3 at Felix
+move b1 from Draw5Playall to G2019
+convert r3 to b3 at Felix
+build r3 at Draw5Playall
+move b3 from Felix to Swiss
+build b1 at G2019
+build g1 at Felix
+build g1 at Draw5Playall
+move g1 from Felix to Swiss
+move g3 from Draw5Playall to Shutdown (b2)
+build b1 at Swiss
+build g1 at Shutdown
+build b2 at Swiss
+sacrifice g1 at Shutdown; build g1 at Draw5Playall
+sacrifice y3 at Felix; move y1 from Cheese to Draw5Playall; move y3 from Cheese to Draw5Playall; move y1 from Swiss to Draw5Playall; catastrophe yellow at Draw5Playall
+convert r3 to y3 at G2019
+sacrifice y3 at Felix; move b1 from Swiss to Draw5Playall; move b2 from Swiss to Draw5Playall; move b3 from Swiss to Draw5Playall; catastrophe blue at Draw5Playall

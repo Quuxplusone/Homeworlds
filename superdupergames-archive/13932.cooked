@@ -1,0 +1,39 @@
+Twoshort (0, b1r3) g3-
+Zxcv411 (1, r1b2) -g3
+build g1 at Twoshort
+build g1 at Zxcv411
+convert g1 to y1 at Twoshort
+build g1 at Zxcv411
+build g1 at Twoshort
+convert g1 to y1 at Zxcv411
+convert g1 to b1 at Twoshort
+move g1 from Zxcv411 to Starbug (y3)
+build b1 at Twoshort
+build g1 at Zxcv411
+move b1 from Twoshort to Grogar (g2)
+convert g1 to r1 at Zxcv411
+build b2 at Twoshort
+convert g3 to y3 at Zxcv411
+move b1 from Twoshort to Bonanza (b2)
+build g1 at Starbug
+sacrifice g3 at Twoshort; build b3 at Twoshort; build b3 at Grogar; build b3 at Bonanza
+move g1 from Starbug to Zxcv411
+sacrifice b2 at Twoshort; convert b3 to g3 at Bonanza; convert b3 to y3 at Grogar
+build r1 at Zxcv411
+sacrifice g3 at Bonanza; build b2 at Twoshort; build b3 at Bonanza; build b3 at Grogar
+move r1 from Zxcv411 to Starbug
+move b3 from Grogar to Rosy (r3)
+build r2 at Starbug
+sacrifice b2 at Twoshort; convert b3 to r3 at Twoshort; convert b3 to g3 at Bonanza
+move r1 from Starbug to Rimmer (b2)
+sacrifice g3 at Bonanza; build b3 at Rosy; build b3 at Bonanza; build y1 at Twoshort
+sacrifice y3 at Zxcv411; move r2 from Starbug to Rimmer; move r2 from Rimmer to Twoshort; move r1 from Rimmer to Twoshort; catastrophe red at Twoshort
+convert b3 to r3 at Bonanza
+build y2 at Zxcv411
+sacrifice y3 at Grogar; move b3 from Rosy to Zxcv411; move r3 from Bonanza to Twoshort; move b3 from Rosy to Twoshort
+build y2 at Zxcv411
+sacrifice r3 at Twoshort; capture y2 at Zxcv411; capture y2 at Zxcv411; capture g1 at Zxcv411
+capture g1 at Zxcv411
+sacrifice b3 at Twoshort; convert y2 to b2 at Zxcv411; convert y2 to r2 at Zxcv411; convert b3 to g3 at Zxcv411
+build r1 at Zxcv411; catastrophe red at Zxcv411
+sacrifice g3 at Zxcv411; build b3 at Zxcv411; build b3 at Zxcv411; catastrophe blue at Zxcv411

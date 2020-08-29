@@ -1,0 +1,24 @@
+Radynski (0, g1b2) y3-
+Wil (1, b3g1) -g3
+build y1 at Radynski
+build g1 at Wil
+convert y1 to r1 at Radynski
+convert g3 to y3 at Wil
+build y1 at Radynski
+build g2 at Wil
+move y1 from Radynski to George (b3)
+convert g2 to r2 at Wil
+build r1 at Radynski
+build g2 at Wil
+move y1 from George to Banks (r1)
+build r2 at Wil
+build r2 at Radynski
+build r3 at Wil
+sacrifice y3 at Radynski; move r2 from Radynski to George (b3); move r2 from George to Georgy (b2); move r2 from Georgy to Wil; catastrophe red at Wil
+move g2 from Wil to Y2 (y2)
+build r2 at Radynski
+build g2 at Y2
+convert r2 to g2 at Radynski
+build g3 at Wil
+build g3 at Radynski
+sacrifice y3 at Wil; move g2 from Y2 to Y3 (y3); move g2 from Y2 to Y3; move g2 from Y3 to Radynski; catastrophe green at Radynski

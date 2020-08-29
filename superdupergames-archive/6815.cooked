@@ -1,0 +1,36 @@
+Mikeyarrum (0, g2y1) b3-
+Uglyfoot (1, b3y1) -g3
+build b1 at Mikeyarrum
+build g1 at Uglyfoot
+convert b1 to y1 at Mikeyarrum
+convert g3 to y3 at Uglyfoot
+build y2 at Mikeyarrum
+build y2 at Uglyfoot
+convert y2 to g2 at Mikeyarrum
+move y2 from Uglyfoot to Thestrip (b2)
+build y2 at Mikeyarrum
+build g1 at Uglyfoot
+move y2 from Mikeyarrum to Zone (b3)
+move g1 from Uglyfoot to Thestrip
+move g2 from Mikeyarrum to Zone
+build g1 at Thestrip
+build y2 at Zone
+build g2 at Uglyfoot
+convert y2 to r2 at Zone
+convert g2 to r2 at Uglyfoot
+build r1 at Zone
+build g2 at Uglyfoot
+move r1 from Zone to Thestrip
+move g1 from Thestrip to Zone
+capture g1 at Zone
+build g3 at Thestrip
+capture g1 at Thestrip
+sacrifice r2 at Uglyfoot; capture r1 at Thestrip; capture g1 at Thestrip
+sacrifice y2 at Zone; move g1 from Zone to Thestrip; move g2 from Zone to Thestrip; catastrophe green at Thestrip
+build y2 at Uglyfoot
+convert b3 to g3 at Mikeyarrum
+move g2 from Uglyfoot to Thestrip
+move g3 from Mikeyarrum to Zone
+sacrifice y2 at Uglyfoot; move y2 from Thestrip to Zone; move y2 from Zone to Mikeyarrum
+sacrifice y1 at Mikeyarrum; move r2 from Zone to Mikeyarrum
+sacrifice r1 at Thestrip; capture r2 at Mikeyarrum

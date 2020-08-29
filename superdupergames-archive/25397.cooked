@@ -1,0 +1,24 @@
+Pedrop (0, y1b2) g3-
+Fogus (1, r1b2) -g3
+build g1 at Pedrop
+build g1 at Fogus
+convert g1 to y1 at Pedrop
+convert g1 to y1 at Fogus
+move y1 from Pedrop to Kaziu (g3)
+build g1 at Fogus
+build g1 at Pedrop
+convert g1 to r1 at Fogus
+convert g1 to r1 at Pedrop
+move r1 from Fogus to Kaziu
+sacrifice r1 at Pedrop; capture r1 at Kaziu
+build g1 at Fogus
+build g1 at Pedrop
+build y2 at Fogus
+build y2 at Kaziu
+move y1 from Fogus to Chum (b3)
+move y1 from Kaziu to Zbysiu (g2)
+convert g1 to r1 at Fogus
+build r2 at Kaziu
+move r1 from Fogus to Chum
+move r2 from Kaziu to Zbysiu
+build g1 at Fogus

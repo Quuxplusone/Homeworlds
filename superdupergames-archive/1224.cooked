@@ -1,0 +1,52 @@
+Sketchwick (0, b1y3) g3-
+Jeep (1, b1y2) -g3
+build g1 at Sketchwick
+build g1 at Jeep
+convert g1 to r1 at Sketchwick
+convert g1 to r1 at Jeep
+build g1 at Sketchwick
+build g1 at Jeep
+convert g1 to b1 at Sketchwick
+move g1 from Jeep to Moon (b3)
+build b2 at Sketchwick
+build g1 at Moon
+move b2 from Sketchwick to Shine (y2)
+convert g1 to y1 at Moon
+sacrifice g3 at Sketchwick; build b2 at Shine; build b2 at Shine; build b3 at Sketchwick
+build g1 at Jeep
+convert b2 to r2 at Shine
+move g1 from Jeep to Shoe (y3)
+move r2 from Shine to Moon
+sacrifice y1 at Moon; move g1 from Moon to Polish (g1)
+convert b3 to g3 at Sketchwick
+convert r1 to y1 at Jeep
+convert b2 to y2 at Shine
+build g2 at Shoe
+move y2 from Shine to Moon
+build g2 at Jeep
+move r2 from Moon to Polish
+sacrifice g3 at Jeep; build g2 at Polish; build g3 at Polish; build g3 at Jeep; catastrophe green at Polish
+move y2 from Moon to Jeep
+convert g3 to r3 at Jeep
+sacrifice g3 at Sketchwick; build b2 at Sketchwick; build b2 at Shine; build y1 at Jeep; catastrophe yellow at Jeep
+convert g2 to y2 at Jeep
+move b2 from Shine to Sun (g1)
+move r3 from Jeep to Spot (y2)
+move b2 from Shine to Jeep
+move r3 from Spot to Jeep
+build b3 at Sun
+capture b2 at Jeep
+convert b3 to y3 at Sun
+sacrifice y2 at Jeep; move b2 from Jeep to Temp (y2); move b2 from Temp to Sketchwick; catastrophe blue at Sketchwick
+move b2 from Sun to Sketchwick
+move g2 from Shoe to Jeep
+build y1 at Sun
+build g1 at Jeep
+move y1 from Sun to Sketchwick
+convert g2 to y2 at Jeep
+build y1 at Sun
+build g2 at Jeep
+convert y1 to b1 at Sketchwick
+sacrifice y2 at Jeep; move r3 from Jeep to Temp (y2); move r3 from Temp to Sketchwick
+move y1 from Sun to Sketchwick
+capture b2 at Sketchwick

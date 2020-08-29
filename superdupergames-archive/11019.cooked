@@ -1,0 +1,18 @@
+Keith (0, y1b3) g3-
+Mneme (1, r2b3) -g3
+build g1 at Keith
+build g1 at Mneme
+move g1 from Keith to Brightlygo (y2)
+convert g1 to y1 at Mneme
+build g1 at Keith
+build y1 at Mneme
+convert g1 to b1 at Keith
+move y1 from Mneme to Grape (g1)
+move b1 from Keith to Brightlygo
+build y2 at Grape
+build g1 at Keith
+sacrifice g3 at Mneme; build y2 at Grape; build y3 at Mneme; build y3 at Mneme
+build g2 at Brightlygo
+convert y3 to g3 at Mneme
+build g2 at Keith
+sacrifice y3 at Mneme; move g3 from Mneme to Grape; move g3 from Grape to Brightlygo; move g3 from Brightlygo to Keith; catastrophe green at Keith

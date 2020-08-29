@@ -1,0 +1,40 @@
+Lorgar (0, g3b1) y3-
+Uglyfoot (1, b3y2) -g3
+build y1 at Lorgar
+build g1 at Uglyfoot
+convert y1 to g1 at Lorgar
+move g1 from Uglyfoot to Colony (r1)
+build y1 at Lorgar
+build g1 at Uglyfoot
+move g1 from Lorgar to Concretejungle (b2)
+build g2 at Colony
+build g2 at Concretejungle
+convert g1 to r1 at Uglyfoot
+convert g1 to r1 at Concretejungle
+build r2 at Uglyfoot
+build r2 at Concretejungle
+convert r1 to y1 at Uglyfoot
+convert r1 to y1 at Concretejungle
+build y2 at Uglyfoot
+move g2 from Concretejungle to Lorgar
+move y2 from Uglyfoot to Colony
+convert y1 to g1 at Concretejungle
+move g2 from Colony to Far (y2)
+convert g2 to r2 at Lorgar
+build g1 at Uglyfoot
+move r2 from Lorgar to Far
+sacrifice r2 at Uglyfoot; capture r2 at Far
+move y1 from Lorgar to Concretejungle
+build g2 at Colony
+build g2 at Concretejungle
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Far; build r1 at Far
+move r2 from Concretejungle to Lorgar
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build y1 at Uglyfoot; build y3 at Colony
+build y3 at Lorgar
+move y3 from Colony to Concretejungle
+move r2 from Lorgar to Far
+sacrifice r2 at Far; capture r2 at Far; capture y1 at Concretejungle
+convert y3 to r3 at Lorgar
+build y3 at Colony
+move r3 from Lorgar to Concretejungle
+sacrifice r1 at Far; capture r3 at Concretejungle

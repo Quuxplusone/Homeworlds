@@ -1,0 +1,50 @@
+Mangotoque (0, y2g1) b3-
+Uncledan (1, b3g2) -r3
+build b1 at Mangotoque
+build r1 at Uncledan
+move b1 from Mangotoque to Bob (g3)
+build r1 at Uncledan
+build b1 at Mangotoque
+convert r1 to y1 at Uncledan
+build b1 at Mangotoque
+build y1 at Uncledan
+build b2 at Bob
+build r1 at Uncledan
+build b2 at Bob
+move r1 from Uncledan to Zog (g1)
+sacrifice b2 at Bob; convert b3 to g3 at Mangotoque; convert b2 to y2 at Bob
+build r1 at Zog
+build b2 at Bob
+build r2 at Zog
+build b2 at Mangotoque
+sacrifice y1 at Uncledan; move r2 from Zog to Bob
+sacrifice y2 at Bob; move b2 from Bob to Ken (b2); move b1 from Bob to Ken
+build r2 at Bob
+move b2 from Mangotoque to Bill (r3)
+build r2 at Zog
+move b1 from Mangotoque to Joe (r3)
+move r3 from Uncledan to Gred (y1)
+build g1 at Mangotoque
+move r3 from Gred to Ken
+sacrifice g3 at Mangotoque; build b3 at Mangotoque; build b3 at Mangotoque; build g2 at Mangotoque
+capture b2 at Ken
+sacrifice b2 at Bill; convert b3 to r3 at Mangotoque; convert g1 to y1 at Mangotoque
+convert b2 to y2 at Ken
+move r3 from Mangotoque to Bob
+move r3 from Ken to Joe
+sacrifice y1 at Mangotoque; move r3 from Bob to Tim (y1)
+sacrifice y2 at Ken; move r3 from Joe to Zog; move r3 from Zog to Uncledan
+sacrifice b1 at Joe; convert b3 to r3 at Mangotoque
+build y1 at Uncledan
+build g1 at Mangotoque
+move y1 from Uncledan to Zog
+convert g2 to y2 at Mangotoque
+build y2 at Uncledan
+move r3 from Mangotoque to Dave (y3)
+build y3 at Uncledan
+move y2 from Mangotoque to Bill (y3)
+sacrifice y3 at Uncledan; move r3 from Uncledan to Tim; move r3 from Tim to Bob; move r3 from Bob to Mangotoque
+sacrifice y2 at Bill; move r3 from Tim to Uncledan; move r3 from Dave to Mangotoque
+sacrifice r2 at Bob; capture r3 at Mangotoque; capture b1 at Mangotoque
+capture y2 at Uncledan
+capture g1 at Mangotoque

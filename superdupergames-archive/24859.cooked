@@ -1,0 +1,45 @@
+Foksieloy (0, r1g3) b3-
+Wil (1, r2b1) -g3
+build b1 at Foksieloy
+build g1 at Wil
+convert b1 to g1 at Foksieloy
+convert g1 to b1 at Wil
+build g1 at Foksieloy
+build g1 at Wil
+convert g1 to y1 at Foksieloy
+build g1 at Wil
+build g2 at Foksieloy
+convert g1 to y1 at Wil
+convert g1 to r1 at Foksieloy
+convert g1 to r1 at Wil
+build r2 at Foksieloy
+build r2 at Wil
+move r2 from Foksieloy to Garthmarenghi (g2)
+convert r2 to y2 at Wil
+build b1 at Foksieloy
+build b2 at Wil
+move b1 from Foksieloy to Garthmarenghi
+convert b2 to y2 at Wil
+convert r2 to y2 at Garthmarenghi
+build r2 at Wil
+build b2 at Garthmarenghi
+move r2 from Wil to G3 (g3)
+move r1 from Foksieloy to Garthmarenghi
+move y2 from Wil to G3
+build b2 at Foksieloy
+build g1 at Wil
+move b2 from Garthmarenghi to Toddrivers (y3)
+move g1 from Wil to Y3 (y3)
+convert b3 to y3 at Foksieloy
+build g1 at Wil
+sacrifice y3 at Foksieloy; move b1 from Garthmarenghi to Toddrivers; move b1 from Toddrivers to Wil; move b2 from Toddrivers to Wil; catastrophe blue at Wil
+sacrifice g3 at Wil; build g1 at Y3; build g2 at Y3; build g3 at Wil
+sacrifice g2 at Foksieloy; build y1 at Garthmarenghi; build y3 at Foksieloy
+sacrifice g3 at Wil; build g2 at Wil; build g3 at Wil; build y3 at G3
+move y1 from Foksieloy to Madeleinewool (b2)
+move y3 from G3 to B2 (b2)
+build b1 at Foksieloy
+move g1 from Y3 to B2
+convert b2 to r2 at Foksieloy
+build r3 at G3
+sacrifice y3 at Foksieloy; move r1 from Garthmarenghi to Foksieloy; move r1 from Foksieloy to Wil; move r2 from Foksieloy to Wil; catastrophe red at Wil

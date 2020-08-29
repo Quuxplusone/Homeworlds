@@ -1,0 +1,14 @@
+Thorolf (0, b3y2) g3-
+Babamots (1, y3b1) -g3
+build g1 at Thorolf
+build g1 at Babamots
+convert g1 to b1 at Thorolf
+convert g1 to b1 at Babamots
+move b1 from Thorolf to Sigma (g1)
+build b2 at Babamots
+build b2 at Sigma
+move b2 from Babamots to Bajor (g2)
+build b2 at Sigma
+build b3 at Bajor
+convert b2 to r2 at Sigma
+build g1 at Babamots

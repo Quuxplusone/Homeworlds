@@ -1,0 +1,53 @@
+Wil (0, r3b1) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Wil
+build g1 at Ts52
+convert g1 to y1 at Wil
+build g1 at Ts52
+build y1 at Wil
+move g1 from Ts52 to Grover (b3)
+build y2 at Wil
+build g1 at Ts52
+build g2 at Wil
+build g2 at Grover
+move g2 from Wil to G2 (g2)
+convert g1 to r1 at Ts52
+convert y2 to r2 at Wil
+convert g2 to y2 at Grover
+build y2 at Wil
+move g1 from Ts52 to Gonzo (b3)
+move r2 from Wil to G2
+build g1 at Ts52
+build g2 at Wil
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Grover; build r1 at Ts52
+move y1 from Wil to B2 (b2)
+move r1 from Ts52 to Gonzo
+move y1 from Wil to G2
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Ts52; build r2 at Gonzo
+sacrifice g3 at Wil; build g3 at Wil; build y2 at G2; build y3 at B2
+build y3 at Grover
+convert y3 to r3 at B2
+convert g3 to r3 at Grover
+sacrifice g3 at Wil; build g3 at Wil; build y3 at Wil; build y3 at B2
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Gonzo; build r2 at Grover
+move r2 from G2 to B3 (b3)
+move r3 from Grover to G2
+sacrifice y2 at G2; move y1 from G2 to B3; move g2 from G2 to B3
+move y2 from Grover to G2
+build y2 at B3
+move r3 from G2 to B3
+sacrifice y2 at B3; move y1 from B3 to Ts52; move g2 from B3 to Ts52
+capture g2 at Ts52
+sacrifice r3 at B2; capture r1 at Ts52; capture r1 at Ts52; capture g1 at Ts52
+build r3 at Grover
+build y2 at Ts52
+sacrifice r2 at Gonzo; capture y2 at Ts52; capture r2 at B3
+sacrifice g2 at Wil; build g2 at Ts52; build r2 at Ts52; catastrophe green at Ts52
+sacrifice y2 at Ts52; move g3 from Gonzo to Ts52; move r1 from Gonzo to Ts52; catastrophe red at Ts52
+convert y2 to g2 at Wil
+move r3 from Grover to B2
+sacrifice y1 at B2; move y3 from B2 to Gonzo
+move y3 from Grover to B2
+sacrifice g2 at Wil; build y1 at Ts52; build y2 at Ts52; catastrophe yellow at Ts52
+sacrifice y2 at G2; move y3 from B2 to Wil; move r3 from B2 to Wil
+sacrifice g3 at Wil; build y1 at Wil; build y1 at Wil; build y1 at Wil

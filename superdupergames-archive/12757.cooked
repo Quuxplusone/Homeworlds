@@ -1,0 +1,98 @@
+Danner (0, b1r2) g3-
+Dsheldon (1, y3g2) -b3
+build g1 at Danner
+build b1 at Dsheldon
+convert g1 to b1 at Danner
+build b2 at Dsheldon
+build b2 at Danner
+move b2 from Dsheldon to Penny (g1)
+convert b1 to y1 at Danner
+build b1 at Penny
+move b2 from Danner to Existenz (g3)
+convert b2 to g2 at Penny
+build b2 at Existenz
+convert b1 to y1 at Penny
+convert b2 to y2 at Existenz
+move g2 from Penny to Albiorix (r3)
+build y1 at Existenz
+build y2 at Penny
+move y2 from Existenz to Garrett (g1)
+build g1 at Albiorix
+sacrifice g3 at Danner; build y2 at Garrett; build y3 at Existenz; build y3 at Danner
+convert b1 to r1 at Dsheldon
+convert y3 to r3 at Existenz
+sacrifice y2 at Penny; move g1 from Albiorix to Tube (b2); move g1 from Tube to Knox (y3)
+build y2 at Existenz
+build g2 at Albiorix
+convert y3 to g3 at Danner
+build y3 at Penny
+sacrifice y2 at Garrett; move y1 from Existenz to Penny; move y2 from Existenz to Penny; catastrophe yellow at Penny
+build b1 at Dsheldon
+build y1 at Garrett
+sacrifice b1 at Dsheldon; convert g2 to y2 at Albiorix
+sacrifice y2 at Garrett; move r3 from Existenz to Garrett; move r3 from Garrett to Albiorix
+sacrifice y2 at Albiorix; move g2 from Albiorix to Garrett; move g2 from Garrett to Poseidon (b3)
+convert b2 to y2 at Existenz
+build g1 at Poseidon
+sacrifice g3 at Danner; build y1 at Garrett; build y2 at Existenz; build y2 at Danner
+build g2 at Knox
+build y3 at Existenz
+build g3 at Knox
+move y3 from Existenz to Danner
+sacrifice g3 at Knox; build g3 at Knox; build g3 at Poseidon; build r1 at Dsheldon
+move y1 from Garrett to Albiorix
+move g2 from Knox to Garrett
+move y1 from Garrett to Albiorix
+sacrifice g3 at Knox; build g3 at Knox; build b1 at Dsheldon; build b1 at Dsheldon
+move r3 from Albiorix to Danner
+sacrifice g2 at Garrett; build g1 at Knox; build r1 at Dsheldon
+move r3 from Danner to Existenz
+convert g2 to r2 at Poseidon
+build r2 at Existenz
+build r3 at Poseidon
+move r3 from Existenz to Danner
+build g2 at Poseidon
+move r2 from Existenz to Danner
+convert r2 to b2 at Poseidon
+convert r2 to g2 at Danner
+sacrifice g2 at Poseidon; build r2 at Poseidon; build r2 at Poseidon
+build g2 at Danner
+move g1 from Knox to Danner
+move g2 from Danner to Albiorix
+sacrifice r1 at Dsheldon; capture y1 at Danner
+capture y1 at Danner
+capture y1 at Danner
+capture y1 at Danner
+capture y1 at Danner
+capture y1 at Danner
+sacrifice b1 at Dsheldon; convert g1 to b1 at Knox
+build g1 at Albiorix
+build b2 at Knox
+capture g1 at Danner
+move g3 from Knox to Sidebet (b2)
+move r3 from Danner to Knox
+move b2 from Knox to Danner
+capture b2 at Danner
+move b1 from Knox to Sidebet
+build b3 at Danner
+sacrifice b2 at Poseidon
+move y2 from Existenz to Deathstar (r1)
+sacrifice b1 at Sidebet; convert g1 to b1 at Poseidon
+move b3 from Danner to Knox
+build g1 at Poseidon
+move b3 from Knox to Deathstar
+move b1 from Dsheldon to Deathstar
+capture b1 at Deathstar
+move r1 from Dsheldon to Deathstar
+capture r1 at Deathstar
+sacrifice r2 at Poseidon
+sacrifice g2 at Danner; build g2 at Danner; build r2 at Knox
+sacrifice b1 at Poseidon
+sacrifice g2 at Danner; build g2 at Danner; build b1 at Deathstar
+convert r2 to b2 at Poseidon
+sacrifice g2 at Danner; build g2 at Danner; build r2 at Knox
+pass
+move r1 from Deathstar to Existenz
+pass
+move r3 from Knox to Deathstar
+pass

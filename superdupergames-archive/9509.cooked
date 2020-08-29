@@ -1,0 +1,44 @@
+Stoneaxe (0, b2y3) g3-
+Wyons (1, r1b3) -g3
+build g1 at Stoneaxe
+build g1 at Wyons
+convert g1 to y1 at Stoneaxe
+convert g1 to y1 at Wyons
+move g3 from Stoneaxe to Zpm (y1)
+build y2 at Wyons
+build g1 at Zpm
+convert y1 to r1 at Wyons
+build g1 at Zpm
+build g1 at Wyons
+move g3 from Zpm to Stoneaxe
+build g2 at Wyons
+build g2 at Stoneaxe
+move g2 from Wyons to Live (y2)
+convert g2 to r2 at Stoneaxe
+build g2 at Live
+move g1 from Zpm to Live
+move g2 from Live to Zpm
+build g2 at Stoneaxe
+sacrifice r1 at Wyons; capture g1 at Live
+build g3 at Zpm
+move g1 from Live to Zpm; catastrophe green at Zpm
+move g2 from Stoneaxe to Kronos (y1)
+convert g1 to r1 at Wyons
+build y1 at Stoneaxe
+build y2 at Wyons
+convert y1 to b1 at Stoneaxe
+build g1 at Wyons
+build g1 at Stoneaxe
+move y2 from Wyons to Live
+move r2 from Stoneaxe to Kronos
+sacrifice g3 at Wyons; build y1 at Wyons; build y3 at Live; build y3 at Wyons
+move g3 from Stoneaxe to Kronos
+sacrifice y2 at Live; move y3 from Live to Kronos; move y3 from Kronos to Stoneaxe
+sacrifice b1 at Stoneaxe; convert g2 to y2 at Kronos
+convert y3 to r3 at Stoneaxe
+sacrifice g3 at Kronos; build g1 at Stoneaxe; build r1 at Kronos; build r2 at Kronos
+capture g1 at Stoneaxe
+build y3 at Stoneaxe
+capture y3 at Stoneaxe
+move r2 from Kronos to Live
+sacrifice r3 at Stoneaxe; capture g1 at Stoneaxe; capture y1 at Stoneaxe; capture r2 at Live

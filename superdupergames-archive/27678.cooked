@@ -1,0 +1,23 @@
+Simon (0, b3y1) g3-
+Wil (1, b3r1) -g3
+build g1 at Simon
+build g1 at Wil
+convert g1 to b1 at Simon
+convert g1 to y1 at Wil
+build b1 at Simon
+build y1 at Wil
+move b1 from Simon to Gee (g2)
+move y1 from Wil to R2 (r2)
+build b1 at Gee
+build y2 at Wil
+build b2 at Gee
+move y2 from Wil to G2 (g2)
+convert b2 to y2 at Gee
+build g1 at Wil
+build b2 at Gee
+build y2 at Wil
+build y3 at Gee
+sacrifice y2 at G2; move y1 from Wil to Gee; move y2 from Wil to Gee; catastrophe yellow at Gee
+convert b2 to y2 at Gee
+build g1 at Wil
+sacrifice y2 at Gee; move g3 from Simon to Gee; move g3 from Gee to Wil; catastrophe green at Wil

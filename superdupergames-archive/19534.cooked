@@ -1,0 +1,55 @@
+Silenttitan (0, b3r2) g3-
+Uglyfoot (1, b3r1) -g3
+build g1 at Silenttitan
+build g1 at Uglyfoot
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Uglyfoot
+build g1 at Silenttitan
+build g1 at Uglyfoot
+move g1 from Silenttitan to Sol (y1)
+build y2 at Uglyfoot
+build y2 at Silenttitan
+move y2 from Uglyfoot to Second (g2)
+move g1 from Sol to Sunstrike (y3)
+build y1 at Second
+move y1 from Silenttitan to Moonflow (g1)
+move y2 from Second to Third (b1)
+sacrifice g3 at Silenttitan; build y2 at Moonflow; build y3 at Moonflow; build y3 at Silenttitan
+move y1 from Second to Moonflow; catastrophe yellow at Moonflow
+convert y3 to g3 at Silenttitan
+move g1 from Uglyfoot to Nexus (y2)
+build g1 at Sunstrike
+build g2 at Uglyfoot
+move g1 from Sunstrike to West (b2)
+build g2 at Nexus
+build g2 at West
+convert g2 to r2 at Uglyfoot
+convert g2 to r2 at West
+build g2 at Uglyfoot
+build g2 at Silenttitan
+move g3 from Uglyfoot to West
+sacrifice g2 at Silenttitan; build g2 at West; build g3 at West; catastrophe green at West
+build g1 at Uglyfoot
+build g2 at Silenttitan
+build g3 at Uglyfoot
+sacrifice y2 at Silenttitan; move g1 from Sunstrike to Nexus; move g1 from Nexus to Uglyfoot; catastrophe green at Uglyfoot
+move g1 from Nexus to Third
+convert g2 to y2 at Silenttitan
+convert r2 to g2 at Uglyfoot
+sacrifice y2 at Silenttitan; move r2 from West to Third
+move g1 from Third to Silenttitan
+capture g1 at Silenttitan
+move y2 from Third to Nexus
+convert g1 to y1 at Silenttitan
+move g2 from Nexus to Fourth (b1)
+convert r2 to y2 at Third
+build y1 at Uglyfoot
+sacrifice g3 at Silenttitan; build y3 at Third; build y3 at Silenttitan; build y3 at Silenttitan
+move y2 from Nexus to Fourth
+convert y3 to r3 at Silenttitan
+build y2 at Fourth
+convert y3 to g3 at Silenttitan
+move y2 from Fourth to Fifth (b2)
+move r3 from Silenttitan to Fourth
+sacrifice g2 at Fourth; build y3 at Fifth; build y3 at Fifth
+sacrifice y3 at Third; move y2 from Third to Fifth; move r3 from Fourth to Fifth; move r3 from Fifth to Uglyfoot; catastrophe yellow at Fifth

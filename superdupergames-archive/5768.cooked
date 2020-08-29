@@ -1,0 +1,47 @@
+Greedyalgorithm (0, y1b2) g3-
+Keith (1, b1y3) -g3
+build g1 at Greedyalgorithm
+build g1 at Keith
+convert g1 to b1 at Greedyalgorithm
+convert g1 to b1 at Keith
+build g1 at Greedyalgorithm
+build b2 at Keith
+move b1 from Greedyalgorithm to Cornucopia (g3)
+move b2 from Keith to Midworld (g2)
+build g1 at Greedyalgorithm
+build g1 at Keith
+move g1 from Greedyalgorithm to Extension (y3)
+sacrifice g3 at Keith; build b2 at Midworld; build b3 at Midworld; build b3 at Keith
+build b3 at Cornucopia
+sacrifice b2 at Midworld; convert b3 to y3 at Midworld; convert b3 to g3 at Keith
+convert b1 to y1 at Cornucopia
+move b1 from Keith to Akai (r2)
+move b3 from Cornucopia to Interloper (y2)
+convert g1 to r1 at Keith
+build y1 at Cornucopia
+build g1 at Keith
+build y2 at Cornucopia
+move y3 from Midworld to Cornucopia; catastrophe yellow at Cornucopia
+convert g1 to y1 at Greedyalgorithm
+convert g1 to y1 at Keith
+build y2 at Greedyalgorithm
+move y1 from Keith to Midworld
+move y1 from Greedyalgorithm to Hornofplenty (g3)
+build g1 at Keith
+sacrifice g3 at Greedyalgorithm; build y2 at Hornofplenty; build y3 at Greedyalgorithm; build b1 at Interloper
+move b2 from Midworld to Hornofplenty
+sacrifice y2 at Greedyalgorithm; move y1 from Hornofplenty to Alpha (y2); move y2 from Hornofplenty to Beta (g2)
+build b2 at Hornofplenty
+build g1 at Extension
+move g1 from Keith to Akai
+move b1 from Interloper to Hornofplenty
+build b3 at Akai
+sacrifice g1 at Extension; build b3 at Interloper
+build r1 at Keith
+convert b3 to r3 at Interloper
+sacrifice y1 at Midworld; move b2 from Hornofplenty to Alpha
+build b3 at Hornofplenty
+convert b1 to y1 at Akai
+sacrifice g1 at Extension; build y3 at Beta
+build b1 at Hornofplenty; catastrophe blue at Hornofplenty
+sacrifice y2 at Beta; move y3 from Beta to Keith; move b3 from Interloper to Keith

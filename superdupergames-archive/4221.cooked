@@ -1,0 +1,55 @@
+Fabi (0, b3y1) g3-
+Jerzy (1, b2r1) -g3
+build g1 at Fabi
+build g1 at Jerzy
+convert g1 to r1 at Fabi
+convert g1 to y1 at Jerzy
+build g1 at Fabi
+build g1 at Jerzy
+convert g1 to r1 at Fabi
+convert g1 to y1 at Jerzy
+build r2 at Fabi
+build y2 at Jerzy
+convert r2 to y2 at Fabi
+move y1 from Jerzy to Darwin (g3)
+move y2 from Fabi to Lamarck (g2)
+build y2 at Darwin
+move r1 from Fabi to Lamarck
+build y3 at Jerzy
+build y3 at Lamarck
+convert y1 to b1 at Jerzy
+build r2 at Lamarck
+move b1 from Jerzy to Buffon (y3)
+move r2 from Lamarck to Darwin
+sacrifice y2 at Darwin; move y1 from Darwin to Lamarck; move y1 from Lamarck to Buffon
+build r2 at Darwin
+convert y2 to r2 at Jerzy
+build r3 at Fabi
+move y1 from Buffon to Bernard (y2)
+sacrifice y2 at Lamarck; move r2 from Darwin to Jerzy; move r2 from Darwin to Jerzy; catastrophe red at Jerzy
+move b1 from Buffon to Bernard
+convert r1 to b1 at Fabi
+build g1 at Jerzy
+build y1 at Lamarck
+convert g1 to b1 at Jerzy
+move b1 from Fabi to Lamarck
+convert b1 to g1 at Bernard
+build b1 at Lamarck
+build y2 at Jerzy
+move b1 from Lamarck to Fabi
+move b1 from Jerzy to Fabi
+capture b1 at Fabi
+convert y2 to r2 at Jerzy
+move b1 from Fabi to Lamarck
+move g1 from Bernard to Gould (y3)
+move r1 from Lamarck to Gould
+move g1 from Gould to Kauffman (y2)
+move b1 from Lamarck to Gould
+build y2 at Jerzy
+move b1 from Fabi to Lamarck
+convert y3 to r3 at Jerzy
+move b1 from Lamarck to Gould
+build y3 at Jerzy
+move b1 from Lamarck to Gould
+pass
+sacrifice y3 at Lamarck; move b1 from Gould to Jerzy; move b1 from Gould to Jerzy; move b1 from Gould to Jerzy; catastrophe blue at Jerzy

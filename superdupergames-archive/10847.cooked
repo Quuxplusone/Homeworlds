@@ -1,0 +1,28 @@
+Mneme (0, r1b2) g3-
+Twoshort (1, b1y3) -g3
+build g1 at Mneme
+build g1 at Twoshort
+convert g1 to y1 at Mneme
+convert g1 to b1 at Twoshort
+build y1 at Mneme
+build b1 at Twoshort
+build y1 at Mneme
+move b1 from Twoshort to Grogar (g2)
+move y1 from Mneme to Applesauce (g3)
+build b2 at Twoshort
+build y2 at Applesauce
+move b1 from Twoshort to Bluzilla (b2)
+move y1 from Mneme to Bluebird (b3)
+build b3 at Grogar
+build y2 at Mneme
+convert b3 to y3 at Grogar
+convert y2 to g2 at Mneme
+sacrifice g3 at Twoshort; build b3 at Bluzilla; build b3 at Twoshort; build y2 at Grogar
+sacrifice g2 at Mneme; build y2 at Mneme; build y3 at Bluebird
+convert b3 to g3 at Twoshort
+sacrifice y2 at Mneme; move y1 from Applesauce to Grogar; move y1 from Bluebird to Grogar; catastrophe yellow at Grogar
+build b3 at Grogar
+build g1 at Mneme
+convert b3 to y3 at Grogar
+convert g3 to b3 at Mneme
+convert b3 to g3 at Bluzilla

@@ -1,0 +1,63 @@
+Sordros (0, y1b2) g3-
+Mikeyarrum (1, b3r2) -g3
+build g1 at Sordros
+build g1 at Mikeyarrum
+convert g1 to y1 at Sordros
+convert g1 to y1 at Mikeyarrum
+move y1 from Sordros to Verdolaga (g3)
+build y2 at Mikeyarrum
+build y2 at Verdolaga
+move y2 from Mikeyarrum to Osaka (g1)
+build g1 at Sordros
+build y2 at Osaka
+move y2 from Verdolaga to Bluemoon (b1)
+build y3 at Mikeyarrum
+build y3 at Verdolaga
+move y2 from Osaka to Sakaki (y3)
+convert g1 to b1 at Sordros
+build g1 at Mikeyarrum
+build b1 at Sordros
+convert g1 to r1 at Mikeyarrum
+convert b1 to r1 at Sordros
+build g1 at Mikeyarrum
+build b1 at Sordros
+move g1 from Mikeyarrum to Osaka
+move b1 from Sordros to Verdolaga
+move y3 from Mikeyarrum to Bluemoon
+move y3 from Verdolaga to Osaka
+move g1 from Osaka to Sakaki
+build b2 at Verdolaga
+build g1 at Mikeyarrum
+convert b2 to g2 at Verdolaga
+build g2 at Sakaki
+build g2 at Sordros
+move r1 from Mikeyarrum to Bluemoon
+sacrifice r1 at Sordros; capture r1 at Bluemoon
+convert g1 to r1 at Mikeyarrum
+sacrifice r1 at Bluemoon; capture y2 at Osaka
+sacrifice r1 at Mikeyarrum; capture y2 at Bluemoon
+sacrifice g3 at Sordros; build b2 at Verdolaga; build b2 at Verdolaga; build b3 at Sordros
+convert y2 to r2 at Bluemoon
+sacrifice b2 at Verdolaga; convert b2 to r2 at Verdolaga; convert b3 to r3 at Sordros
+build y2 at Mikeyarrum
+build b2 at Verdolaga
+move g1 from Sakaki to Bluemoon
+move b1 from Verdolaga to Osaka
+build r1 at Bluemoon
+build r1 at Sordros
+move r1 from Bluemoon to Sakaki
+convert r3 to g3 at Sordros
+move g2 from Sakaki to Sordros
+sacrifice g3 at Sordros; build b2 at Verdolaga; build b3 at Sordros; build b3 at Osaka
+sacrifice r2 at Bluemoon; capture b1 at Sordros; capture g2 at Sordros
+sacrifice r2 at Verdolaga; capture b1 at Sordros; capture g2 at Sordros
+sacrifice r1 at Sakaki; capture r1 at Sordros
+convert b3 to r3 at Sordros
+sacrifice g2 at Sordros; build r1 at Sordros; build r1 at Sordros; catastrophe red at Sordros
+build b3 at Sordros
+convert y1 to r1 at Mikeyarrum
+convert b3 to r3 at Sordros
+move r1 from Mikeyarrum to Bluemoon
+sacrifice y2 at Osaka; move y3 from Osaka to Mikeyarrum; move b3 from Osaka to Mikeyarrum
+sacrifice y3 at Bluemoon; move g1 from Bluemoon to Mikeyarrum; move r1 from Bluemoon to Mikeyarrum; move y2 from Sakaki to Sordros
+capture g3 at Mikeyarrum

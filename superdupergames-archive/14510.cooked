@@ -1,0 +1,66 @@
+Agentofchaos (0, r1b2) g3-
+Zackstack (1, b3r1) -g3
+build g1 at Agentofchaos
+build g1 at Zackstack
+convert g1 to y1 at Agentofchaos
+build g1 at Zackstack
+build y1 at Agentofchaos
+convert g1 to y1 at Zackstack
+build y2 at Agentofchaos
+move g1 from Zackstack to Gooey (b2)
+convert y1 to g1 at Agentofchaos
+build g1 at Zackstack
+build g2 at Agentofchaos
+sacrifice g3 at Zackstack; build g2 at Gooey; build g2 at Zackstack; build g3 at Zackstack
+move g2 from Agentofchaos to Despero (y3)
+convert g2 to y2 at Gooey
+sacrifice y2 at Agentofchaos; move g2 from Despero to Gooey; move g2 from Gooey to Zackstack; catastrophe green at Zackstack
+build g1 at Gooey
+convert g1 to r1 at Agentofchaos
+move g1 from Gooey to Zackstack
+build r2 at Agentofchaos
+build y1 at Gooey
+move r2 from Agentofchaos to Phreniaville (y3)
+convert y2 to r2 at Gooey
+build y2 at Agentofchaos
+build y2 at Zackstack
+build g1 at Agentofchaos
+build y2 at Gooey
+move y1 from Agentofchaos to Aporia (g3)
+move y1 from Zackstack to Gummy (g2)
+build y3 at Agentofchaos
+build y3 at Zackstack
+move r1 from Agentofchaos to Aporia
+move y2 from Gooey to Slimey (g3)
+sacrifice g1 at Agentofchaos; build r2 at Aporia
+build r3 at Gooey
+move r2 from Aporia to Gummy
+move y1 from Gummy to Slimey
+convert y2 to g2 at Agentofchaos
+move r3 from Gooey to Aporia
+move y1 from Aporia to Gummy
+build r3 at Gooey
+build r3 at Gummy
+capture r1 at Aporia
+build y2 at Gummy
+sacrifice y2 at Slimey; move r1 from Aporia to Agentofchaos; move r3 from Aporia to Agentofchaos
+sacrifice r2 at Phreniaville; capture r3 at Agentofchaos; capture r1 at Agentofchaos
+sacrifice y2 at Zackstack; move r2 from Gooey to Slimey; move r2 from Slimey to Agentofchaos; catastrophe red at Agentofchaos
+convert g2 to r2 at Agentofchaos
+build y2 at Gooey
+build r1 at Agentofchaos
+build g1 at Zackstack
+sacrifice y2 at Gummy; move r1 from Agentofchaos to Zackstack; move r2 from Gummy to Zackstack
+build y2 at Slimey
+build y2 at Gummy
+convert y1 to b1 at Gooey
+build r1 at Gummy
+move b1 from Gooey to Slimey
+move r3 from Gummy to Slimey
+sacrifice y2 at Slimey; move b1 from Slimey to Binky (y1); move y1 from Slimey to Binky
+build r2 at Slimey
+build r3 at Gooey
+move r1 from Gummy to Zackstack; catastrophe red at Zackstack
+convert g1 to b1 at Zackstack
+build r1 at Agentofchaos
+build b1 at Zackstack

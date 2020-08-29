@@ -1,0 +1,9 @@
+Shmil1 (0, g2r1) b3-
+Jake007 (1, g3y1) -b3
+build b1 at Shmil1
+build b1 at Jake007
+convert b3 to y3 at Shmil1
+convert b3 to y3 at Jake007
+move b1 from Shmil1 to Olddays (g3)
+build b1 at Jake007
+build b2 at Olddays

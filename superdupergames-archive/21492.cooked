@@ -1,0 +1,25 @@
+Salmoneus (0, b3r1) g3-
+Pjackson (1, b2y3) -g3
+build g1 at Salmoneus
+build g1 at Pjackson
+convert g1 to y1 at Salmoneus
+build g1 at Pjackson
+build y1 at Salmoneus
+move g1 from Pjackson to Tebow (r1)
+move y1 from Salmoneus to Caladan (g2)
+convert g1 to b1 at Pjackson
+build g1 at Salmoneus
+build b1 at Pjackson
+move g1 from Salmoneus to Caladan
+move b1 from Pjackson to Brees (b1)
+move g1 from Caladan to Brees
+convert b1 to r1 at Brees
+sacrifice g1 at Brees; build y1 at Caladan
+sacrifice g3 at Pjackson; build r2 at Brees; build r2 at Brees; build b1 at Pjackson
+sacrifice g3 at Salmoneus; build y2 at Salmoneus; build y2 at Salmoneus; build y2 at Caladan
+convert r2 to g2 at Brees
+convert y2 to g2 at Salmoneus
+convert g2 to y2 at Brees
+build y3 at Salmoneus
+move y2 from Brees to Caladan; catastrophe yellow at Caladan
+convert y2 to r2 at Salmoneus

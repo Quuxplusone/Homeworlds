@@ -1,0 +1,26 @@
+Kensho (0, b1y2) g3-
+Slothbear (1, b1g2) -y3
+build g1 at Kensho
+build y1 at Slothbear
+move g1 from Kensho to Rot (r3)
+build y1 at Slothbear
+build g1 at Kensho
+convert y1 to r1 at Slothbear
+move g1 from Kensho to Got (b3)
+move y1 from Slothbear to Got
+build g1 at Rot
+build r1 at Slothbear
+build g2 at Rot
+sacrifice r1 at Slothbear; capture g1 at Got
+build g2 at Kensho
+convert y3 to r3 at Slothbear
+move g3 from Kensho to Got
+build y1 at Got
+convert g3 to y3 at Got
+convert r1 to y1 at Slothbear
+convert y3 to b3 at Got
+build y2 at Slothbear
+sacrifice b3 at Got; convert g1 to r1 at Rot; convert g1 to b1 at Rot
+sacrifice y2 at Slothbear; move r3 from Slothbear to Got; move r3 from Got to Kensho
+convert g2 to r2 at Kensho
+capture r2 at Kensho

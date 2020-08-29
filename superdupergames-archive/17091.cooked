@@ -1,0 +1,21 @@
+Rootbier (0, b1y2) g3-
+Galaxian (1, b3y2) -g3
+build g1 at Rootbier
+build g1 at Galaxian
+convert g1 to b1 at Rootbier
+convert g1 to y1 at Galaxian
+build b1 at Rootbier
+build g1 at Galaxian
+move b1 from Rootbier to Wamel (g3)
+build y1 at Galaxian
+build b2 at Wamel
+move y1 from Galaxian to Alpha (g1)
+build b2 at Wamel
+build y1 at Alpha
+build b2 at Rootbier
+build y2 at Alpha
+move b1 from Rootbier to Stone (y3)
+build y3 at Galaxian
+sacrifice g3 at Rootbier; build b3 at Rootbier; build b3 at Stone
+move y1 from Alpha to Beta (y3)
+move b3 from Stone to Prodigal (g1)

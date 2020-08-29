@@ -1,0 +1,33 @@
+Twoshort (0, r1b2) g3-
+Silenttitan (1, r2b3) -g3
+build g1 at Twoshort
+build g1 at Silenttitan
+convert g1 to r1 at Twoshort
+build g1 at Silenttitan
+build r1 at Twoshort
+convert g3 to r3 at Silenttitan
+convert r1 to y1 at Twoshort
+convert g1 to y1 at Silenttitan
+build g1 at Twoshort
+move y1 from Silenttitan to Sol (g1)
+build g2 at Twoshort
+build g2 at Silenttitan
+move g1 from Twoshort to Grogar (g3)
+convert g2 to y2 at Silenttitan
+build g2 at Twoshort
+convert r3 to g3 at Silenttitan
+convert g2 to y2 at Twoshort
+sacrifice g3 at Silenttitan; build y1 at Sol; build y2 at Sol; build y3 at Silenttitan
+move y1 from Twoshort to Greenland (g3)
+sacrifice y1 at Sol; move y2 from Sol to Alpha (r3)
+move g2 from Twoshort to Yolonda (y3)
+build g2 at Silenttitan
+build g2 at Twoshort
+sacrifice g2 at Silenttitan; build y1 at Alpha; build y3 at Sol
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g3 at Twoshort; build r1 at Twoshort
+convert y2 to b2 at Silenttitan
+build y2 at Greenland
+sacrifice b2 at Silenttitan; convert y3 to r3 at Sol; convert y2 to r2 at Alpha
+sacrifice y2 at Greenland; move r1 from Twoshort to Alpha; move r1 from Twoshort to Alpha; catastrophe red at Alpha
+move r3 from Sol to Yolonda
+sacrifice y2 at Twoshort; move g2 from Yolonda to Sol; move g2 from Yolonda to Ynot (y1)

@@ -1,0 +1,63 @@
+Ulric (0, b3g2) y3-
+Mathieuzebest (1, g1y2) -b3
+build y1 at Ulric
+build b1 at Mathieuzebest
+move y1 from Ulric to Paf (y1)
+move b1 from Mathieuzebest to Zoulou (y3)
+build y1 at Ulric
+convert b1 to r1 at Zoulou
+build y2 at Ulric
+move r1 from Zoulou to Paf
+convert y2 to r2 at Ulric
+capture y1 at Paf
+move r2 from Ulric to Paf
+move r1 from Paf to Urss (g3)
+capture y1 at Paf
+build b1 at Mathieuzebest
+move r2 from Paf to Urss
+move b3 from Mathieuzebest to Urss
+capture r1 at Urss
+convert b3 to r3 at Urss
+sacrifice y1 at Ulric; move r2 from Urss to Bim (b1)
+capture r1 at Urss
+build y1 at Ulric
+build r1 at Urss
+convert y1 to b1 at Ulric
+build b2 at Mathieuzebest
+build b2 at Ulric
+convert b2 to y2 at Mathieuzebest
+convert b2 to g2 at Ulric
+move y2 from Mathieuzebest to Urss
+sacrifice y1 at Paf; move r2 from Bim to Urss; catastrophe red at Urss
+move y2 from Urss to Glouda (b2)
+move g2 from Ulric to Paf (y1)
+build b1 at Mathieuzebest
+build b2 at Ulric
+convert b1 to g1 at Mathieuzebest
+move b2 from Ulric to Paf
+move g1 from Mathieuzebest to Name (y3)
+build g1 at Paf
+move g1 from Name to Glouda
+convert g1 to r1 at Paf
+build y1 at Glouda
+build g1 at Paf
+convert y2 to r2 at Glouda
+move g1 from Paf to Ulric
+build g2 at Glouda
+build g3 at Paf
+build g3 at Glouda
+build g3 at Ulric
+convert g3 to y3 at Glouda
+move g2 from Paf to Bim (b3)
+move y3 from Glouda to Bim
+build g3 at Bim
+sacrifice y3 at Bim; move g2 from Glouda to Bim; move g1 from Glouda to Bim; move r2 from Glouda to Bim; catastrophe green at Bim
+move g1 from Ulric to Paf
+move y1 from Glouda to Bim
+move g3 from Ulric to Paf
+move y1 from Bim to Yoda (g1)
+convert g3 to r3 at Paf
+move y1 from Yoda to Ulric
+sacrifice y3 at Ulric; move r1 from Paf to Bim; move r1 from Bim to Mathieuzebest; move r3 from Paf to Ulric
+convert y1 to r1 at Ulric
+capture b1 at Mathieuzebest

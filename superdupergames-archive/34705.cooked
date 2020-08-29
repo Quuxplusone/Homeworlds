@@ -1,0 +1,55 @@
+Babamots (0, r2b1) g3-
+Felix (1, b1g3) -b3
+build g1 at Babamots
+build b1 at Felix
+convert g3 to b3 at Babamots
+convert b3 to y3 at Felix
+build b2 at Babamots
+build b2 at Felix
+convert b2 to y2 at Babamots
+move b2 from Felix to Out (g2)
+build b2 at Babamots
+build b2 at Felix
+move b2 from Babamots to Ferenginar (g3)
+convert b1 to r1 at Felix
+convert b2 to r2 at Ferenginar
+build b1 at Out
+move b3 from Babamots to Ferenginar
+convert b2 to y2 at Felix
+build b2 at Ferenginar
+sacrifice y2 at Felix; move b1 from Out to Ferenginar; move b2 from Out to Ferenginar; catastrophe blue at Ferenginar
+build y1 at Babamots
+build y1 at Felix
+convert y1 to b1 at Babamots
+build r1 at Felix
+build b2 at Babamots
+move r1 from Felix to Opus (g2)
+move b2 from Babamots to Ferenginar
+build r1 at Opus
+build b2 at Ferenginar
+move y1 from Felix to Opus
+build b2 at Ferenginar
+build y1 at Felix
+build b3 at Babamots
+convert y3 to b3 at Felix
+convert b2 to y2 at Ferenginar
+build y1 at Opus
+move b2 from Ferenginar to Opus
+build r2 at Felix
+build r3 at Ferenginar
+move r1 from Opus to Bazoik (r3)
+sacrifice r3 at Ferenginar; capture r1 at Opus; capture y1 at Opus; capture y1 at Opus
+move b3 from Felix to Opus
+move b3 from Babamots to Iconia (y3)
+convert r2 to b2 at Felix
+build b3 at Opus
+sacrifice r1 at Bazoik; capture b3 at Opus
+sacrifice b1 at Babamots; convert y1 to b1 at Opus; catastrophe blue at Opus
+build r1 at Felix
+convert b3 to g3 at Iconia
+convert r1 to g1 at Felix
+build b1 at Ferenginar
+build y1 at Felix
+sacrifice y2 at Ferenginar; move g3 from Iconia to Opus; move g3 from Opus to Felix
+convert b2 to g2 at Felix; catastrophe green at Felix
+sacrifice y1 at Opus; move b2 from Ferenginar to Felix

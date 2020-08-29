@@ -1,0 +1,28 @@
+Nycavri (0, y1b2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Nycavri
+build g1 at Twoshort
+convert g1 to y1 at Nycavri
+convert g1 to y1 at Twoshort
+build y2 at Nycavri
+build y2 at Twoshort
+convert y2 to r2 at Nycavri
+move y1 from Twoshort to Grogar (g2)
+move y1 from Nycavri to Deacon (g3)
+build y2 at Grogar
+build g1 at Nycavri
+move y2 from Grogar to Bluonia (b3)
+build y2 at Deacon
+sacrifice g3 at Twoshort; build y3 at Twoshort; build y3 at Grogar; build y3 at Bluonia
+move y2 from Deacon to Grogar
+convert y2 to r2 at Bluonia
+build y2 at Deacon
+convert y3 to g3 at Twoshort
+move y2 from Deacon to May (b2)
+sacrifice g3 at Twoshort; build y3 at Twoshort; build r1 at Bluonia; build r1 at Bluonia
+build r2 at Nycavri
+sacrifice y3 at Grogar; move y3 from Bluonia to Nycavri; move r1 from Bluonia to Nycavri; move r1 from Bluonia to Nycavri; catastrophe red at Nycavri
+build g1 at Nycavri
+sacrifice r2 at Bluonia; capture g3 at Nycavri; capture g1 at Nycavri
+build y3 at Grogar
+build g1 at Nycavri; catastrophe green at Nycavri

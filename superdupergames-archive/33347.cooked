@@ -1,0 +1,64 @@
+Wil (0, b2y1) g3-
+Bhorner (1, r1b2) -g3
+build g1 at Wil
+build g1 at Bhorner
+convert g1 to b1 at Wil
+convert g1 to y1 at Bhorner
+build b1 at Wil
+build y1 at Bhorner
+move b1 from Wil to Y3 (y3)
+convert y1 to b1 at Bhorner
+build g1 at Wil
+build y1 at Bhorner
+convert g1 to r1 at Wil
+convert y1 to r1 at Bhorner
+build r2 at Wil
+build y1 at Bhorner
+convert r2 to y2 at Wil
+build y2 at Bhorner
+move y2 from Wil to G3 (g3)
+move y1 from Bhorner to G3
+build r2 at Wil
+build y2 at G3
+convert r2 to g2 at Wil
+sacrifice r1 at Bhorner; capture y2 at G3
+sacrifice g2 at Wil; build g1 at Wil; build b2 at Y3
+move b1 from Bhorner to G3
+build r1 at Wil
+build y3 at Bhorner
+sacrifice g1 at Wil; build b3 at Y3
+sacrifice y2 at Bhorner; move b1 from G3 to Wil; move b1 from Wil to Y3; catastrophe blue at Y3
+build r2 at Wil
+build y2 at Bhorner
+move r2 from Wil to G3
+sacrifice y3 at Bhorner; move y2 from G3 to Bloop (b2); move y2 from G3 to Branch (g2); move y1 from G3 to Twig (g2)
+move r1 from Wil to Y3 (y3)
+sacrifice g3 at Bhorner; build y3 at Bhorner; build y3 at Bloop
+sacrifice g3 at Wil; build r2 at Y3; build r2 at Y3; build r3 at Wil
+convert y3 to r3 at Bloop
+convert r3 to y3 at Wil
+sacrifice y2 at Bhorner; move y1 from Bhorner to Y3; move y1 from Y3 to Wil
+capture y1 at Wil
+sacrifice y2 at Bloop; move y1 from Twig to Y3; move y1 from Y3 to Wil; catastrophe yellow at Wil
+move r2 from Y3 to Wil
+convert y3 to g3 at Bhorner
+build r3 at G3
+build g1 at Bhorner
+convert r2 to y2 at Wil
+build y1 at Branch
+sacrifice y2 at Wil; move r3 from G3 to Wil; move r2 from G3 to Branch
+sacrifice y1 at Branch; move y2 from Branch to Leaf (g1)
+convert r1 to g1 at Wil
+build g2 at Bhorner
+build g2 at Wil
+convert g1 to y1 at Bhorner
+convert g2 to y2 at Wil
+convert r3 to b3 at Bloop
+build g1 at Wil
+build y1 at Bhorner
+move g1 from Wil to B3 (b3)
+convert y1 to b1 at Bhorner
+build g2 at Wil
+move b1 from Bhorner to Sun (y3)
+build g3 at B3
+sacrifice y2 at Leaf; move b3 from Bloop to Y3; move b3 from Y3 to Wil

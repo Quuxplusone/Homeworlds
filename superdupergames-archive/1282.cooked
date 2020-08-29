@@ -1,0 +1,16 @@
+Monkeyjamboree (0, g3b2) y3-
+Andylooney (1, g1b2) -y3
+build y1 at Monkeyjamboree
+build y1 at Andylooney
+move y1 from Monkeyjamboree to Garflax (r1)
+convert y1 to g1 at Andylooney
+build y1 at Monkeyjamboree
+move g1 from Andylooney to Clampett (y3)
+convert y1 to g1 at Monkeyjamboree
+build g2 at Clampett
+move g1 from Monkeyjamboree to Garflax
+move g1 from Clampett to Bomber (b1)
+move g1 from Garflax to Zeepmo (g3)
+build g2 at Bomber
+build g2 at Zeepmo
+build g3 at Clampett

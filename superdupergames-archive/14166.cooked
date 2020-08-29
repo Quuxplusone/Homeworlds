@@ -1,0 +1,56 @@
+Mrstickman (0, y2b3) g3-
+Face (1, r3b1) -g3
+build g1 at Mrstickman
+build g1 at Face
+convert g1 to r1 at Mrstickman
+convert g3 to y3 at Face
+build r1 at Mrstickman
+build y1 at Face
+build r1 at Mrstickman
+build g1 at Face
+move r1 from Mrstickman to Lorem (g1)
+build g2 at Face
+build r2 at Lorem
+convert g2 to r2 at Face
+build g2 at Mrstickman
+build g2 at Face
+move r1 from Mrstickman to Ipsum (y1)
+move y1 from Face to Waste (b2)
+move r1 from Ipsum to Dolor (g3)
+move r2 from Face to Plaster (y2)
+build r2 at Dolor
+move g2 from Face to Plaster
+build r3 at Mrstickman
+build r3 at Plaster
+move g2 from Mrstickman to Sit (b1)
+move g1 from Face to Waste
+convert r1 to y1 at Mrstickman
+move r2 from Plaster to Blitz (y1)
+build r1 at Mrstickman
+build y2 at Face
+move y1 from Mrstickman to Lorem
+build y3 at Waste
+build y3 at Lorem
+move r3 from Plaster to Sit
+sacrifice g2 at Sit; build g2 at Mrstickman
+convert y2 to b2 at Face
+move y1 from Lorem to Amet (g2)
+build g3 at Plaster
+build y2 at Amet
+move b2 from Face to Plaster
+move y1 from Amet to Dolor
+build b1 at Plaster
+convert r3 to b3 at Mrstickman
+sacrifice g2 at Plaster; build g2 at Plaster; build r3 at Blitz
+move b3 from Mrstickman to Lorem
+move b1 from Plaster to Blitz
+build b2 at Lorem
+build b3 at Plaster
+move b3 from Lorem to Amet
+move g1 from Waste to Blitz
+move r1 from Lorem to Amet
+sacrifice y3 at Waste; move g1 from Blitz to Mrstickman; move g2 from Plaster to Blitz; move g2 from Blitz to Mrstickman; catastrophe green at Mrstickman
+move y3 from Lorem to Mrstickman
+build y3 at Face
+sacrifice y3 at Mrstickman; move y1 from Dolor to Amet; move y2 from Amet to Face; move y1 from Amet to Face; catastrophe yellow at Face
+move r3 from Blitz to Mrstickman

@@ -1,0 +1,17 @@
+Jeep (0, r1b2) g3-
+Kermit (1, y1b2) -g3
+build g1 at Jeep
+build g1 at Kermit
+convert g1 to y1 at Jeep
+convert g1 to b1 at Kermit
+build y1 at Jeep
+move b1 from Kermit to Freebus (g3)
+build y2 at Jeep
+build b1 at Freebus
+move y1 from Jeep to Moon (b3)
+build g1 at Kermit
+convert y2 to g2 at Jeep
+convert g1 to r1 at Kermit
+build y2 at Jeep
+move r1 from Kermit to Moon
+move y1 from Moon to Far (b2)

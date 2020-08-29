@@ -1,0 +1,19 @@
+Twoshort (0, r1b2) g3-
+Subhan64 (1, y3b2) -g3
+build g1 at Twoshort
+build g1 at Subhan64
+convert g1 to y1 at Twoshort
+build g1 at Subhan64
+build g1 at Twoshort
+convert g1 to y1 at Subhan64
+move g1 from Twoshort to Yolonda (y3)
+move y1 from Subhan64 to Omicronpersei8 (r1)
+build g1 at Twoshort
+build g2 at Subhan64
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g2 at Yolonda; build g3 at Twoshort
+move g2 from Subhan64 to Omicronpersei8
+convert g2 to y2 at Twoshort
+sacrifice g3 at Subhan64; build g2 at Omicronpersei8; build g3 at Subhan64; build y1 at Omicronpersei8
+move g1 from Yolonda to Bluestar (b1)
+move g2 from Omicronpersei8 to Magrathea (b3)
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Bluestar; build y2 at Twoshort

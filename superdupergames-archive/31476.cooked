@@ -1,0 +1,73 @@
+Bhorner (0, y1b1) g3-
+Draw5Playall (1, b3y3) -g3
+build g1 at Bhorner
+build g1 at Draw5Playall
+build g1 at Bhorner
+sacrifice g3 at Draw5Playall; build g2 at Draw5Playall; build g2 at Draw5Playall; build g2 at Draw5Playall
+convert g1 to y1 at Bhorner
+convert g2 to r2 at Draw5Playall
+sacrifice g3 at Bhorner; build g1 at Bhorner; build g2 at Bhorner; build g3 at Bhorner
+build g3 at Draw5Playall
+sacrifice g3 at Bhorner; build g3 at Bhorner; build y1 at Bhorner; build y2 at Bhorner
+sacrifice g3 at Draw5Playall; build r1 at Draw5Playall; build r1 at Draw5Playall; build g3 at Draw5Playall
+sacrifice g3 at Bhorner; build g3 at Bhorner; build y2 at Bhorner; build y2 at Bhorner
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build g3 at Draw5Playall; build r1 at Draw5Playall
+sacrifice g3 at Bhorner; build g3 at Bhorner; build y3 at Bhorner; build y3 at Bhorner
+convert r1 to b1 at Draw5Playall
+convert g1 to b1 at Bhorner
+sacrifice g3 at Draw5Playall; build r1 at Draw5Playall; build b2 at Draw5Playall; build g1 at Draw5Playall
+sacrifice g3 at Bhorner; build g3 at Bhorner; build b2 at Bhorner; build b2 at Bhorner
+move g2 from Draw5Playall to Bhorner
+sacrifice g3 at Bhorner; build g3 at Bhorner; build b3 at Bhorner; build b3 at Bhorner
+catastrophe red at Draw5Playall
+sacrifice y3 at Bhorner; move g3 from Bhorner to Draw5Playall; move y3 from Bhorner to Draw5Playall; move b3 from Bhorner to Draw5Playall
+pass
+build g3 at Draw5Playall
+pass
+convert g3 to r3 at Draw5Playall
+convert g1 to r1 at Draw5Playall
+build y3 at Draw5Playall
+sacrifice g3 at Draw5Playall; build g1 at Draw5Playall; build g3 at Draw5Playall; build r1 at Draw5Playall
+build g3 at Draw5Playall
+build r1 at Draw5Playall
+sacrifice b2 at Bhorner; convert y3 to r3 at Draw5Playall; convert g3 to r3 at Draw5Playall
+move g1 from Draw5Playall to R2 (r2)
+build y3 at Draw5Playall
+capture y3 at Draw5Playall
+move b3 from Bhorner to Draw5Playall
+build g3 at R2
+sacrifice y2 at Bhorner; move b3 from Draw5Playall to R2; move y1 from Bhorner to R2
+sacrifice y3 at Draw5Playall; move g1 from Draw5Playall to R2; move b2 from Draw5Playall to R2; move r1 from Draw5Playall to R2
+capture g3 at R2
+sacrifice g3 at Draw5Playall; build g3 at R2; build b2 at R2; build r2 at R2
+capture g3 at R2
+capture y1 at R2
+sacrifice g3 at R2; build g3 at Draw5Playall; build y2 at Bhorner; build y3 at Draw5Playall
+build r2 at R2
+sacrifice y2 at Bhorner; move b3 from R2 to Draw5Playall; move g3 from R2 to Draw5Playall
+build y2 at R2
+sacrifice y3 at Draw5Playall; move y3 from Draw5Playall to R2; move g3 from Draw5Playall to R2; move b3 from Draw5Playall to R2
+build y3 at R2
+sacrifice y3 at R2; move r3 from Draw5Playall to R2; move r3 from Draw5Playall to R2; move r3 from Draw5Playall to R2
+build y3 at R2
+sacrifice y2 at Bhorner; move b3 from Draw5Playall to R2; move g3 from Draw5Playall to R2
+build y2 at R2
+sacrifice y2 at Bhorner; move b2 from Bhorner to R2; move g3 from Draw5Playall to R2
+move g2 from Bhorner to R2
+move g2 from Bhorner to R2
+move g2 from Draw5Playall to R2
+pass
+sacrifice y3 at R2; move y3 from R2 to Draw5Playall; move b2 from R2 to Draw5Playall; move b2 from R2 to Draw5Playall
+move g1 from Bhorner to R2
+sacrifice y2 at R2; move r1 from Draw5Playall to R2; move r1 from Draw5Playall to R2
+sacrifice g3 at R2; build y2 at Bhorner; build y2 at Bhorner; build y3 at Bhorner
+pass
+pass
+pass
+pass
+catastrophe yellow at Bhorner
+catastrophe blue at Draw5Playall
+move g1 from R2 to Draw5Playall; catastrophe red at R2
+convert b1 to g1 at Bhorner
+build g1 at Draw5Playall
+build g2 at Bhorner

@@ -1,0 +1,45 @@
+Felix (0, r2b3) g3-
+Eliscinsky (1, r1b2) -g3
+build g1 at Felix
+build g1 at Eliscinsky
+convert g1 to r1 at Felix
+build g1 at Eliscinsky
+build r1 at Felix
+convert g1 to y1 at Eliscinsky
+convert r1 to y1 at Felix
+convert g1 to r1 at Eliscinsky
+build r2 at Felix
+move y1 from Eliscinsky to Proto (y3)
+move r2 from Felix to Zoan (b1)
+build g1 at Eliscinsky
+sacrifice g3 at Felix; build r2 at Zoan; build r3 at Zoan; build r3 at Felix
+convert g1 to y1 at Eliscinsky
+convert r3 to g3 at Felix
+build g1 at Eliscinsky
+convert r3 to y3 at Zoan
+build y2 at Eliscinsky
+move r2 from Zoan to Proto
+move y2 from Eliscinsky to Proto
+capture y2 at Proto
+move y1 from Eliscinsky to Proto; catastrophe yellow at Proto
+build g1 at Felix
+convert g1 to y1 at Eliscinsky
+convert g1 to b1 at Felix
+build g1 at Eliscinsky
+build b1 at Felix
+build y1 at Eliscinsky
+build y2 at Felix
+build y2 at Eliscinsky
+move y1 from Felix to Opus (g1)
+convert y2 to b2 at Eliscinsky
+sacrifice g3 at Felix; build y2 at Opus; build y2 at Zoan; build y3 at Felix
+move y1 from Eliscinsky to Alpha (r3)
+sacrifice y1 at Opus; move y2 from Opus to Alpha
+move b2 from Eliscinsky to Alpha
+capture b2 at Alpha
+build r2 at Eliscinsky
+sacrifice y2 at Zoan; move r2 from Zoan to Alpha; move r2 from Alpha to Eliscinsky; catastrophe red at Eliscinsky
+build g1 at Eliscinsky
+sacrifice y2 at Alpha; move b1 from Felix to Out (g1); move b1 from Felix to Out
+convert g1 to r1 at Eliscinsky
+sacrifice y3 at Zoan; move b1 from Out to Eliscinsky; move b1 from Out to Eliscinsky; move b2 from Alpha to Eliscinsky; catastrophe blue at Eliscinsky

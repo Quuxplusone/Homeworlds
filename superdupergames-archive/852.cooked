@@ -1,0 +1,45 @@
+Andylooney (0, b1g2) y3-
+Istari (1, y3g1) -b3
+build y1 at Andylooney
+build b1 at Istari
+convert y1 to b1 at Andylooney
+build b2 at Istari
+build b2 at Andylooney
+move b2 from Istari to Jupitor2 (g2)
+move b2 from Andylooney to Garden (g3)
+convert b1 to y1 at Istari
+build y1 at Andylooney
+move y1 from Istari to Jupitor2
+convert b1 to g1 at Andylooney
+build b1 at Istari
+move g1 from Andylooney to Clampett (y3)
+convert b1 to r1 at Istari
+convert y1 to r1 at Andylooney
+move y1 from Jupitor2 to Hooterville (b3)
+build y1 at Andylooney
+build b1 at Jupitor2
+move y1 from Andylooney to Garden
+build b1 at Istari
+move b2 from Garden to Motr (g2)
+convert b2 to y2 at Jupitor2
+build b2 at Motr
+convert y1 to g1 at Hooterville
+build g3 at Clampett
+build g3 at Hooterville
+convert b2 to y2 at Motr
+build b2 at Jupitor2
+sacrifice g3 at Clampett; build g3 at Clampett; build r1 at Andylooney; build r2 at Andylooney
+sacrifice g3 at Hooterville; build g3 at Hooterville; build r2 at Istari; build y1 at Jupitor2
+sacrifice g3 at Clampett; build g3 at Clampett; build y1 at Motr; build y2 at Garden
+convert b2 to r2 at Jupitor2
+move r2 from Andylooney to Cobalt (b3)
+sacrifice g3 at Hooterville; build g3 at Hooterville; build r3 at Istari; build r3 at Jupitor2
+sacrifice g3 at Clampett; build g3 at Clampett; build r3 at Cobalt; build b2 at Motr
+move r3 from Istari to Motr
+sacrifice y2 at Motr; move b2 from Motr to Istari; move b2 from Motr to Istari; catastrophe blue at Istari
+sacrifice y2 at Jupitor2; move r3 from Jupitor2 to Cobalt; move r2 from Jupitor2 to Cobalt; catastrophe red at Cobalt
+sacrifice y2 at Garden; move g3 from Clampett to Jupitor2; move g3 from Jupitor2 to Istari
+sacrifice g3 at Hooterville; build g3 at Hooterville; build y2 at Jupitor2; build r2 at Motr
+sacrifice r1 at Andylooney; capture r2 at Istari
+pass
+capture r1 at Istari

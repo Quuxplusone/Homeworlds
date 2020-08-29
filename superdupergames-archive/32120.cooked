@@ -1,0 +1,94 @@
+Joe_Hill (0, b2r1) g3-
+Mobynostromo (1, g1b2) -y3
+build g1 at Joe_Hill
+build y1 at Mobynostromo
+convert g1 to y1 at Joe_Hill
+convert y1 to g1 at Mobynostromo
+build g1 at Joe_Hill
+build g2 at Mobynostromo
+build g2 at Joe_Hill
+move g2 from Mobynostromo to Redgiant (r3)
+move g2 from Joe_Hill to Pan (y3)
+move g1 from Mobynostromo to Yellowtriad (y3)
+build g2 at Pan
+build g3 at Redgiant
+convert g1 to b1 at Joe_Hill
+build g1 at Yellowtriad
+move b1 from Joe_Hill to Pan
+build y1 at Mobynostromo
+convert g2 to r2 at Pan
+move y1 from Mobynostromo to Earth (g3)
+move r2 from Pan to Mobynostromo
+convert y3 to r3 at Mobynostromo
+build g2 at Pan
+move g1 from Yellowtriad to Mobynostromo
+convert g2 to y2 at Pan
+capture r2 at Mobynostromo
+build g2 at Pan
+convert g1 to y1 at Mobynostromo
+convert g2 to r2 at Pan
+build y2 at Mobynostromo
+build g1 at Joe_Hill
+build g2 at Yellowtriad
+convert g3 to r3 at Joe_Hill
+move y2 from Mobynostromo to Bigbird (y3)
+build y2 at Joe_Hill
+move g2 from Yellowtriad to D2 (r2)
+build r1 at Pan
+move r3 from Mobynostromo to Pan
+convert b1 to r1 at Pan; catastrophe red at Pan
+sacrifice g1 at Yellowtriad; build y3 at Mobynostromo
+build g1 at Pan
+build r1 at Mobynostromo
+convert y1 to b1 at Joe_Hill
+build y1 at Earth
+move b1 from Joe_Hill to Pan
+move y1 from Earth to Maul (r2)
+convert g1 to r1 at Pan
+sacrifice y2 at Bigbird; move y1 from Maul to Pan; move y1 from Mobynostromo to Pan; catastrophe yellow at Pan
+build r1 at Joe_Hill
+sacrifice y3 at Mobynostromo; move r2 from Mobynostromo to Earth; move r2 from Earth to Joe_Hill; move y1 from Earth to Mobynostromo; catastrophe red at Joe_Hill
+build g1 at Joe_Hill
+sacrifice g3 at Redgiant; build g2 at D2; build g3 at D2; build g3 at Redgiant
+convert g1 to r1 at Joe_Hill
+build y1 at Mobynostromo
+build g1 at Joe_Hill
+move y1 from Mobynostromo to Redgiant
+convert g1 to y1 at Joe_Hill
+build y2 at Mobynostromo
+build g1 at Joe_Hill
+move g3 from Redgiant to Mobynostromo
+move g1 from Joe_Hill to Bill (r1)
+convert g3 to r3 at Mobynostromo
+build g3 at Bill
+sacrifice g3 at D2; build g3 at Redgiant; build y2 at Redgiant; build y3 at Mobynostromo
+sacrifice y2 at Joe_Hill; move y1 from Joe_Hill to Redgiant; move y1 from Redgiant to Mobynostromo; catastrophe yellow at Mobynostromo
+sacrifice y2 at Redgiant; move r3 from Mobynostromo to Redgiant; move r3 from Redgiant to Joe_Hill
+build r2 at Joe_Hill
+capture r2 at Joe_Hill
+build r2 at Joe_Hill; catastrophe red at Joe_Hill
+build r1 at Mobynostromo
+build g3 at Joe_Hill
+move g2 from Redgiant to Joe_Hill
+convert g3 to r3 at Joe_Hill
+build g3 at Redgiant
+build r2 at Joe_Hill
+convert r1 to y1 at Mobynostromo
+capture g2 at Joe_Hill
+build y1 at Mobynostromo
+convert r2 to y2 at Joe_Hill
+move g3 from Redgiant to Mobynostromo
+build y2 at Joe_Hill
+convert y1 to b1 at Mobynostromo
+convert g2 to b2 at Joe_Hill
+move b1 from Mobynostromo to Redgiant
+move y2 from Joe_Hill to Bill
+convert g3 to b3 at Redgiant
+move b2 from Joe_Hill to Bill
+move b1 from Redgiant to Solar (y1)
+build y2 at Joe_Hill
+build y3 at Mobynostromo
+move g1 from Bill to Phil (y3)
+convert y1 to b1 at Redgiant
+sacrifice y2 at Joe_Hill; move g3 from Bill to Phil; move g3 from Phil to Mobynostromo
+sacrifice y3 at Mobynostromo; move b1 from Redgiant to Joe_Hill; move b3 from Redgiant to Joe_Hill; move b1 from Solar to Joe_Hill; catastrophe blue at Joe_Hill

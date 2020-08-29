@@ -1,0 +1,48 @@
+Wil (0, y2b1) g3-
+Endo (1, y1b3) -g3
+build g1 at Wil
+build g1 at Endo
+convert g1 to y1 at Wil
+convert g1 to y1 at Endo
+build y2 at Wil
+build y2 at Endo
+move y1 from Wil to G3 (g3)
+move y1 from Endo to Projection (g2)
+build y3 at G3
+build y3 at Projection
+move y2 from Wil to Y3 (y3)
+move y1 from Projection to Injection (b3)
+build g1 at Wil
+build g1 at Endo
+convert g1 to r1 at Wil
+convert g1 to r1 at Endo
+build g1 at Wil
+build g1 at Endo
+convert g1 to b1 at Wil
+convert g1 to b1 at Endo
+move b1 from Wil to G3
+move b1 from Endo to Projection
+build b2 at G3
+build b2 at Projection
+convert b2 to r2 at G3
+convert b2 to r2 at Projection
+build b2 at G3
+build b2 at Projection
+convert b2 to r2 at G3
+convert y1 to r1 at Injection
+move r2 from G3 to B2 (b2)
+sacrifice g3 at Endo; build r3 at Endo; build r3 at Projection; build r3 at Injection
+build g1 at Wil
+convert r1 to g1 at Injection
+move y1 from G3 to B2
+convert y2 to g2 at Endo
+build b2 at G3
+convert r3 to g3 at Projection
+convert b2 to g2 at G3
+move g3 from Projection to Terminal (b3)
+sacrifice g2 at G3; build r1 at B2; build r3 at G3
+build g1 at Terminal
+build b2 at G3
+sacrifice y3 at Projection; move r3 from Injection to Wil; move g1 from Injection to Wil; move g1 from Terminal to Wil; catastrophe green at Wil
+sacrifice y3 at G3; move r2 from G3 to Wil; move r3 from G3 to Wil; move b2 from G3 to Wil; catastrophe red at Wil
+convert r1 to y1 at Endo

@@ -1,0 +1,20 @@
+Mikeyarrum (0, r2b3) g3-
+Mneme (1, r1b2) -g3
+build g1 at Mikeyarrum
+build g1 at Mneme
+convert g1 to y1 at Mikeyarrum
+convert g1 to y1 at Mneme
+build g1 at Mikeyarrum
+build g1 at Mneme
+move g1 from Mikeyarrum to Chubbz (b1)
+move g1 from Mneme to Bluebird (b3)
+build g1 at Mikeyarrum
+build g2 at Bluebird
+build g2 at Chubbz
+convert g2 to r2 at Bluebird
+convert g1 to r1 at Chubbz
+build g1 at Mneme
+convert g2 to y2 at Chubbz
+build g2 at Bluebird
+build g2 at Mikeyarrum
+sacrifice g3 at Mneme; build g2 at Bluebird; build g3 at Mneme; build g3 at Mneme

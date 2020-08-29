@@ -1,0 +1,53 @@
+Silenttitan (0, r3y2) g3-
+Aristos (1, y3b1) -g3
+build g1 at Silenttitan
+build g1 at Aristos
+move g1 from Silenttitan to Samsung (b1)
+move g1 from Aristos to Doorstep (y2)
+convert g1 to b1 at Samsung
+build g1 at Aristos
+build g1 at Silenttitan
+move g1 from Doorstep to Windingroad (y1)
+move g1 from Silenttitan to Samsung
+build g2 at Windingroad
+build b2 at Samsung
+convert g3 to y3 at Aristos
+convert b2 to y2 at Samsung
+build g2 at Aristos
+build b2 at Samsung
+convert g2 to b2 at Aristos
+move b2 from Samsung to Acer (b2)
+build g2 at Aristos
+build b3 at Samsung
+sacrifice y3 at Aristos; move b2 from Aristos to Acer; move b2 from Acer to Samsung; move g1 from Aristos to Waystation (y2); catastrophe blue at Samsung
+build g1 at Silenttitan
+build g2 at Aristos
+move g1 from Silenttitan to Windingroad
+build g3 at Aristos
+build g3 at Windingroad; catastrophe green at Windingroad
+move g1 from Waystation to Vantagepoint (y1)
+build g1 at Silenttitan
+convert g3 to y3 at Aristos
+move g1 from Silenttitan to Temp (b1)
+sacrifice g2 at Aristos; build g1 at Vantagepoint; build g2 at Vantagepoint
+sacrifice b2 at Acer; convert g3 to b3 at Silenttitan
+build g2 at Aristos
+build g3 at Temp
+build g3 at Aristos
+convert g3 to y3 at Temp
+convert g3 to r3 at Aristos
+build g3 at Temp
+move y3 from Aristos to Thirdattempt (b2)
+convert g3 to r3 at Temp
+build r1 at Aristos
+build g3 at Temp
+convert r3 to b3 at Aristos
+sacrifice g3 at Temp; build b1 at Silenttitan; build y1 at Temp; build g3 at Temp
+sacrifice g2 at Aristos; build g2 at Aristos; build y1 at Thirdattempt
+move y3 from Temp to Thirdattempt
+move y1 from Thirdattempt to Runningscared (r1)
+sacrifice g3 at Temp; build y2 at Temp; build y2 at Thirdattempt; build g3 at Temp
+sacrifice y3 at Thirdattempt; move g1 from Vantagepoint to Thirdattempt; move g1 from Thirdattempt to Temp; move g1 from Vantagepoint to Thirdattempt
+sacrifice g1 at Temp; build y3 at Temp
+build g1 at Temp
+sacrifice y3 at Temp; move y3 from Thirdattempt to Aristos; move g3 from Temp to Thirdattempt; move g3 from Thirdattempt to Aristos

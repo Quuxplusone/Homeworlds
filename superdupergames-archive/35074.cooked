@@ -1,0 +1,27 @@
+Uglyfoot (0, g3b2) r3-
+Dlwillson (1, y1b3) -g3
+build r1 at Uglyfoot
+build g1 at Dlwillson
+convert r1 to g1 at Uglyfoot
+convert g1 to y1 at Dlwillson
+build g1 at Uglyfoot
+build y1 at Dlwillson
+convert r3 to y3 at Uglyfoot
+move y1 from Dlwillson to Sol (y2)
+build y2 at Uglyfoot
+build y2 at Dlwillson
+sacrifice y3 at Uglyfoot; move y2 from Uglyfoot to Flash (r1); move y2 from Flash to Sol; move y2 from Sol to Dlwillson; catastrophe yellow at Dlwillson
+build g1 at Dlwillson
+convert g1 to y1 at Uglyfoot
+convert g3 to r3 at Dlwillson
+move g1 from Uglyfoot to Skeet (r1)
+build r1 at Dlwillson
+build y1 at Uglyfoot
+sacrifice y1 at Sol; move r1 from Dlwillson to Mars (r1)
+move y1 from Uglyfoot to Skeet
+build r2 at Dlwillson
+build y1 at Skeet
+convert r2 to y2 at Dlwillson
+build y2 at Uglyfoot
+sacrifice y2 at Dlwillson; move r3 from Dlwillson to Mars; move r3 from Mars to Uglyfoot
+build y2 at Uglyfoot

@@ -1,0 +1,54 @@
+Scottobear (0, b3g2) y3-
+Madwuher (1, g1b2) -y3
+build y1 at Scottobear
+build y1 at Madwuher
+convert y1 to b1 at Scottobear
+convert y1 to g1 at Madwuher
+build y1 at Scottobear
+build y1 at Madwuher
+move y1 from Scottobear to Hershey (b1)
+move g1 from Madwuher to Mars (y3)
+convert y1 to g1 at Hershey
+convert y1 to r1 at Madwuher
+build y1 at Scottobear
+build g2 at Mars
+build g2 at Hershey
+build y1 at Madwuher
+build b1 at Scottobear
+move g1 from Mars to Aero (y1)
+convert g2 to y2 at Hershey
+build g2 at Aero
+convert y3 to r3 at Scottobear
+build g3 at Mars
+move r3 from Scottobear to Aero
+sacrifice g2 at Aero; build g2 at Mars; build y2 at Madwuher
+move g1 from Hershey to Mars; catastrophe green at Mars
+convert y2 to b2 at Madwuher
+capture g1 at Aero
+convert y1 to g1 at Madwuher
+build g2 at Aero
+build r1 at Madwuher
+convert y2 to g2 at Hershey
+build g3 at Madwuher
+build g3 at Hershey
+sacrifice y3 at Madwuher; move b2 from Madwuher to Hmmm (g3); move b2 from Hmmm to Hershey; move b2 from Hershey to Scottobear; catastrophe blue at Scottobear
+build g3 at Hershey
+convert g1 to y1 at Madwuher
+convert g3 to y3 at Hershey
+build y2 at Madwuher
+move g3 from Hershey to Quisp (b3)
+convert y1 to b1 at Madwuher
+build y1 at Scottobear
+move b1 from Madwuher to Crisp (g3)
+build g1 at Quisp
+build b1 at Crisp
+move r3 from Aero to Crisp
+sacrifice y2 at Madwuher; move g3 from Madwuher to Crisp; move g3 from Crisp to Scottobear
+convert g3 to r3 at Quisp
+sacrifice b1 at Crisp; convert r1 to b1 at Madwuher
+convert y3 to b3 at Hershey
+build g3 at Scottobear
+move y1 from Scottobear to Quisp
+sacrifice b1 at Crisp; convert g3 to r3 at Scottobear
+move r3 from Quisp to Madwuher
+capture y1 at Scottobear

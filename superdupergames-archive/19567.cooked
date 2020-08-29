@@ -1,0 +1,29 @@
+Lorgar (0, b2y3) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Lorgar
+build g1 at Ts52
+move g1 from Lorgar to Atmazone (b1)
+convert g1 to b1 at Ts52
+build g1 at Lorgar
+move b1 from Ts52 to Kermit (g3)
+build g1 at Atmazone
+build g2 at Ts52
+convert g1 to y1 at Atmazone
+build b2 at Kermit
+convert g1 to r1 at Lorgar
+convert b2 to r2 at Kermit
+build y1 at Atmazone
+build b2 at Kermit
+move g1 from Atmazone to Amarante (b3)
+convert b2 to y2 at Kermit
+convert y1 to g1 at Atmazone
+build b2 at Kermit
+move g1 from Atmazone to Adamante (b3)
+move b2 from Kermit to Oscar (g2)
+move y1 from Atmazone to Mermoz (b3)
+build y1 at Kermit
+build g1 at Amarante
+move g2 from Ts52 to Bigbirg (y3)
+convert g3 to y3 at Lorgar
+move y1 from Kermit to Oscar
+sacrifice y3 at Lorgar; move g1 from Adamante to Ts52; move g1 from Amarante to Ts52; move g1 from Amarante to Ts52; catastrophe green at Ts52

@@ -1,0 +1,74 @@
+Erik2Point0 (0, b1g2) y3-
+Scotward (1, r1b3) -g3
+build y1 at Erik2Point0
+build g1 at Scotward
+convert y1 to g1 at Erik2Point0
+convert g1 to b1 at Scotward
+build g1 at Erik2Point0
+build b1 at Scotward
+build y1 at Erik2Point0
+build g1 at Scotward
+move g1 from Erik2Point0 to Alpha (b3)
+convert g1 to y1 at Scotward
+convert y1 to r1 at Erik2Point0
+move b1 from Scotward to Omega (g2)
+build y1 at Erik2Point0
+build b2 at Omega
+build g1 at Alpha
+convert b2 to g2 at Omega
+build g3 at Erik2Point0
+build g3 at Scotward
+convert g1 to y1 at Alpha
+build b2 at Omega
+sacrifice g3 at Erik2Point0; build g1 at Alpha; build g3 at Erik2Point0; build y2 at Alpha
+sacrifice g3 at Scotward; build y2 at Scotward; build g3 at Scotward; build b2 at Omega
+sacrifice y2 at Alpha; move g1 from Alpha to Omega; move g1 from Alpha to Omega; catastrophe green at Omega
+move g3 from Scotward to Omega2 (b2)
+convert g1 to b1 at Erik2Point0
+move y2 from Scotward to Omega2
+build y2 at Erik2Point0
+build g1 at Omega2
+move y2 from Erik2Point0 to Alpha
+convert g3 to r3 at Omega2
+convert y2 to r2 at Alpha
+build y2 at Omega2
+move y3 from Erik2Point0 to Beta (r3)
+convert y2 to g2 at Omega2
+move r2 from Alpha to Gamma (g2)
+move g2 from Omega2 to Psi (y3)
+sacrifice g3 at Erik2Point0; build y2 at Alpha; build y2 at Beta; build y3 at Erik2Point0
+sacrifice g2 at Psi; build y3 at Scotward; build g1 at Omega2
+move y3 from Beta to Gamma
+move g1 from Omega2 to Chi (b3)
+build r1 at Gamma
+sacrifice g3 at Scotward; build g1 at Chi; build g2 at Chi; build g3 at Omega2
+build r2 at Gamma
+sacrifice y3 at Scotward; move g1 from Chi to Gamma; move g1 from Chi to Gamma; move g2 from Chi to Gamma; catastrophe green at Gamma
+convert y2 to g2 at Alpha
+move g3 from Omega2 to Scotward
+convert y3 to g3 at Erik2Point0
+move r3 from Omega2 to Alpha
+sacrifice g3 at Erik2Point0; build y2 at Alpha; build y3 at Beta; build y3 at Erik2Point0
+capture y2 at Alpha
+sacrifice y1 at Alpha; move g2 from Alpha to Gamma (b2)
+move r3 from Alpha to Gamma
+sacrifice g2 at Gamma; build r1 at Erik2Point0; build r2 at Erik2Point0
+convert y2 to g2 at Alpha
+convert r1 to g1 at Erik2Point0
+build g1 at Alpha
+move g1 from Erik2Point0 to Beta
+move g1 from Omega2 to Phi (y3)
+sacrifice y2 at Beta; move y3 from Beta to Omega2; move r2 from Erik2Point0 to Phi
+sacrifice y2 at Omega2; move g1 from Alpha to Erik2Point0; move g2 from Alpha to Erik2Point0
+capture g1 at Phi
+sacrifice r3 at Gamma; capture r1 at Erik2Point0; capture b1 at Erik2Point0; capture y1 at Erik2Point0
+sacrifice r2 at Phi; capture g1 at Erik2Point0; capture g2 at Erik2Point0
+capture g1 at Erik2Point0
+convert g2 to r2 at Erik2Point0
+build b2 at Erik2Point0
+sacrifice r2 at Erik2Point0; capture b1 at Erik2Point0; capture b2 at Erik2Point0
+build g2 at Erik2Point0
+convert b2 to r2 at Erik2Point0
+capture r2 at Erik2Point0
+convert y3 to g3 at Omega2
+sacrifice g2 at Erik2Point0; build y1 at Erik2Point0; build y2 at Erik2Point0; catastrophe yellow at Erik2Point0

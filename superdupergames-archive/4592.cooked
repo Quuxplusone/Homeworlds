@@ -1,0 +1,49 @@
+Keith (0, b1y2) g3-
+Personman (1, y1b3) -g3
+build g1 at Keith
+build g1 at Personman
+move g1 from Keith to Serpent (y3)
+convert g1 to y1 at Personman
+build g1 at Keith
+build y1 at Personman
+convert g1 to b1 at Keith
+move y1 from Personman to Theme (g2)
+build g1 at Keith
+build y2 at Personman
+build b1 at Keith
+convert y2 to b2 at Personman
+move b1 from Keith to Serpent
+build y2 at Theme
+move b1 from Serpent to Hydra (y2)
+build y3 at Personman
+move b1 from Keith to Behemoth (g3)
+build g1 at Personman
+convert g1 to r1 at Keith
+move y2 from Theme to Genre (b3)
+build g1 at Serpent
+sacrifice y3 at Personman; move y1 from Theme to Genre; move y1 from Genre to Keith; move y2 from Genre to Keith
+capture y2 at Keith
+sacrifice g1 at Personman; build y3 at Keith; catastrophe yellow at Keith
+convert r1 to y1 at Keith
+build y2 at Personman
+build g1 at Keith
+move y2 from Personman to Type (g2)
+build b2 at Behemoth
+move b2 from Personman to Type
+sacrifice g3 at Keith; build g2 at Keith; build g2 at Serpent; build g3 at Keith
+move b2 from Type to Keith
+sacrifice g3 at Keith; build g3 at Keith; build b2 at Hydra; build b3 at Hydra
+convert b2 to r2 at Keith
+convert b2 to r2 at Hydra
+capture g2 at Keith
+sacrifice r2 at Hydra; capture g2 at Keith; capture r2 at Keith
+move y2 from Type to Class (b3)
+build y2 at Keith
+convert y1 to r1 at Personman
+move y2 from Keith to Cyclops (g2)
+build r1 at Personman
+sacrifice g3 at Keith; build y1 at Cyclops; build y3 at Keith; build g3 at Keith
+move r1 from Personman to Hydra
+sacrifice y3 at Keith; move b3 from Hydra to Personman; move b1 from Hydra to Personman; move y1 from Cyclops to Personman
+capture b3 at Personman
+sacrifice g3 at Keith; build y3 at Personman; build y3 at Personman; build b2 at Personman; catastrophe yellow at Personman; catastrophe blue at Personman

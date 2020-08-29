@@ -1,0 +1,57 @@
+Zoltar (0, b2y1) g3-
+Uglyfoot (1, b3y2) -g3
+build g1 at Zoltar
+build g1 at Uglyfoot
+convert g1 to y1 at Zoltar
+move g1 from Uglyfoot to Commerce (b1)
+build g1 at Zoltar
+build g1 at Uglyfoot
+convert g1 to r1 at Zoltar
+convert g1 to r1 at Uglyfoot
+build g1 at Zoltar
+build g1 at Commerce
+move g1 from Zoltar to Ribbon (y3)
+convert g1 to y1 at Commerce
+build y2 at Zoltar
+move y1 from Commerce to Industry (g3)
+move y2 from Zoltar to Industry
+build y2 at Industry
+build y3 at Industry; catastrophe yellow at Industry
+build g1 at Uglyfoot
+build g2 at Zoltar
+move g1 from Uglyfoot to Fleamarket (b1)
+build g2 at Ribbon
+build g2 at Uglyfoot
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Zoltar; build y1 at Zoltar
+convert g2 to y2 at Uglyfoot
+move g3 from Zoltar to Investment (b3)
+build g2 at Uglyfoot
+move y1 from Zoltar to Stocks (b3)
+move y2 from Uglyfoot to Commerce
+move y1 from Zoltar to Redgiant (r3)
+build y2 at Commerce
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Redgiant; build y3 at Stocks
+sacrifice y2 at Commerce; move g1 from Commerce to Ribbon; move g1 from Fleamarket to Ribbon; catastrophe green at Ribbon
+convert y3 to r3 at Stocks
+move g2 from Uglyfoot to Commerce
+move y3 from Redgiant to Commerce
+move g2 from Commerce to Outreach (y3)
+sacrifice g2 at Zoltar; build y2 at Stocks; build y3 at Redgiant
+build g1 at Outreach
+convert y3 to r3 at Commerce
+sacrifice y2 at Commerce; move g2 from Outreach to Zoltar; move g1 from Outreach to Zoltar
+sacrifice r3 at Stocks; capture g2 at Zoltar; capture g1 at Zoltar
+build r1 at Uglyfoot
+sacrifice y2 at Stocks; move g1 from Zoltar to Stocks; move g1 from Stocks to Commerce
+move r1 from Uglyfoot to Caprica2 (b1)
+move y1 from Redgiant to Commerce
+build r2 at Uglyfoot
+build g1 at Investment
+convert r2 to g2 at Uglyfoot
+sacrifice y3 at Redgiant; move g1 from Investment to Commerce; move g1 from Commerce to Uglyfoot; move g1 from Commerce to Uglyfoot; catastrophe green at Uglyfoot
+convert r1 to g1 at Uglyfoot
+move r3 from Commerce to Uglyfoot
+build g1 at Uglyfoot
+convert g3 to r3 at Investment
+build g1 at Uglyfoot
+sacrifice r3 at Investment; capture g1 at Uglyfoot; capture g1 at Uglyfoot; capture g1 at Uglyfoot

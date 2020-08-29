@@ -1,0 +1,15 @@
+Broccoli_Commander (0, b1y2) g3-
+Nico (1, b2g3) -r3
+build g1 at Broccoli_Commander
+build r1 at Nico
+convert g1 to r1 at Broccoli_Commander
+convert r1 to y1 at Nico
+build r1 at Broccoli_Commander
+build r1 at Nico
+move r1 from Broccoli_Commander to Cauliflowrr (y3)
+build y1 at Nico
+build r2 at Broccoli_Commander
+move y1 from Nico to Colibris (y1)
+build g1 at Broccoli_Commander
+build y2 at Nico
+move r2 from Broccoli_Commander to Banana (y3)

@@ -1,0 +1,29 @@
+Salmonax (0, g1y3) b3-
+Subhan64 (1, y2g1) -b3
+build b1 at Salmonax
+build b1 at Subhan64
+convert b1 to g1 at Salmonax
+convert b3 to g3 at Subhan64
+build g2 at Salmonax
+build g2 at Subhan64
+move g2 from Salmonax to Fiddle (b2)
+move g2 from Subhan64 to Bb (y3)
+convert g1 to r1 at Salmonax
+build g1 at Subhan64
+build b1 at Salmonax
+sacrifice g3 at Subhan64; build g2 at Bb; build g3 at Subhan64; build g3 at Bb
+build g3 at Fiddle
+move g2 from Bb to Cm (b2)
+convert b3 to y3 at Salmonax
+sacrifice g1 at Subhan64; build g1 at Cm
+build y1 at Salmonax
+convert g2 to y2 at Cm
+move y1 from Salmonax to Fiddle
+sacrifice g2 at Bb; build g2 at Cm; build g2 at Cm
+move g3 from Fiddle to Bb
+move g1 from Cm to Salmonax
+move g3 from Bb to Subhan64
+convert g3 to r3 at Subhan64
+sacrifice r1 at Salmonax; capture r3 at Subhan64
+sacrifice y2 at Cm; move g2 from Cm to Salmonax; move g2 from Cm to Salmonax; catastrophe green at Salmonax
+capture b1 at Subhan64

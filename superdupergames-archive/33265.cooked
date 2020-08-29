@@ -1,0 +1,49 @@
+Wil (0, b2y1) g3-
+Gidaio (1, r3b1) -g3
+build g1 at Wil
+build g1 at Gidaio
+convert g1 to b1 at Wil
+convert g1 to y1 at Gidaio
+build b1 at Wil
+build y1 at Gidaio
+move b1 from Wil to Y3 (y3)
+move y1 from Gidaio to Gallifrey (g2)
+sacrifice g3 at Wil; build b2 at Y3; build b2 at Y3; build b3 at Wil
+build y2 at Gallifrey
+move b2 from Y3 to Gallifrey
+build y2 at Gidaio
+convert b3 to g3 at Wil
+move y2 from Gallifrey to Y3
+sacrifice g3 at Wil; build b3 at Gallifrey; build b3 at Y3; build b3 at Wil
+sacrifice g3 at Gidaio; build y2 at Y3; build y3 at Gallifrey; build y3 at Gidaio
+sacrifice b3 at Y3; convert b2 to r2 at Gallifrey; convert b2 to g2 at Y3; convert b3 to g3 at Wil
+move y3 from Gallifrey to Y3; catastrophe yellow at Y3
+capture y1 at Gallifrey
+convert y3 to g3 at Gidaio
+build y2 at Gallifrey
+move y2 from Gidaio to Bob (b2)
+move y2 from Gallifrey to B3 (b3)
+convert y2 to r2 at Bob
+build b1 at Gallifrey
+build y2 at Gidaio
+build y2 at Gallifrey
+move y2 from Gidaio to Bob
+move b3 from Gallifrey to Y3 (y3)
+move r2 from Bob to B3
+sacrifice g3 at Wil; build b2 at Gallifrey; build b3 at Wil; build y3 at B3
+capture y2 at B3
+sacrifice b2 at Gallifrey; convert b3 to g3 at Wil; convert b3 to y3 at Y3
+build g1 at Gidaio
+sacrifice g3 at Wil; build b2 at Gallifrey; build b3 at Gallifrey; build b3 at Wil
+sacrifice y2 at Bob; move y2 from B3 to Wil; move g1 from Gidaio to Terragreen (g2)
+sacrifice r2 at Gallifrey; capture r2 at B3; capture y2 at Wil
+build y2 at Gidaio
+sacrifice b2 at Gallifrey; convert b3 to r3 at Gallifrey; convert b3 to g3 at Wil
+build g1 at Terragreen
+sacrifice g3 at Wil; build b2 at Gallifrey; build b2 at Gallifrey; build b3 at Wil
+sacrifice y1 at Gidaio; move g1 from Terragreen to Y3
+build r1 at Gallifrey
+build y1 at Gidaio
+build r1 at Gallifrey
+build g1 at Gidaio
+sacrifice y3 at B3; move r3 from Gallifrey to Gidaio; move r1 from Gallifrey to Gidaio; move r1 from Gallifrey to Gidaio; catastrophe red at Gidaio

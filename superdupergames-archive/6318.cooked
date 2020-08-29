@@ -1,0 +1,22 @@
+Larry (0, g3b1) r3-
+Jbj77 (1, y1b2) -g3
+build r1 at Larry
+build g1 at Jbj77
+convert r1 to y1 at Larry
+convert g1 to r1 at Jbj77
+build r1 at Larry
+build g1 at Jbj77
+convert r3 to g3 at Larry
+build g1 at Jbj77
+move g3 from Larry to Clubron (y2)
+convert g3 to y3 at Jbj77
+build y1 at Larry
+build y2 at Jbj77
+build y2 at Larry
+sacrifice y2 at Jbj77; move g1 from Jbj77 to Alpha (y3); move g1 from Jbj77 to Beta (y3)
+build g1 at Clubron
+build g2 at Beta
+move r1 from Larry to Clubron
+sacrifice g2 at Beta; build y2 at Jbj77; build g2 at Beta
+build r1 at Clubron
+sacrifice y3 at Jbj77; move y2 from Jbj77 to Alpha; move y2 from Alpha to Clubron; move y2 from Clubron to Larry; catastrophe yellow at Larry

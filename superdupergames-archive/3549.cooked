@@ -1,0 +1,26 @@
+Danner (0, y1b2) g3-
+Cerulean (1, y3b1) -g3
+build g1 at Danner
+build g1 at Cerulean
+convert g1 to y1 at Danner
+build g1 at Cerulean
+build g1 at Danner
+convert g1 to y1 at Cerulean
+build y2 at Danner
+build y2 at Cerulean
+convert y1 to r1 at Danner
+move y2 from Cerulean to Freedonia (g2)
+move y2 from Danner to Stargate (g3)
+convert g1 to r1 at Cerulean
+build r1 at Danner
+build r2 at Cerulean
+move r1 from Danner to Stargate
+convert r1 to b1 at Cerulean
+build y1 at Stargate
+build g1 at Cerulean
+move y1 from Stargate to Xx (g2)
+move g1 from Cerulean to Sylvania (b2)
+convert g1 to b1 at Danner
+build g1 at Cerulean
+build g1 at Danner
+build g2 at Sylvania

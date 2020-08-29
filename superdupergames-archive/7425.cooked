@@ -1,0 +1,38 @@
+Gypsydog (0, g3b2) y3-
+Dsheldon (1, y1b2) -g3
+build y1 at Gypsydog
+build g1 at Dsheldon
+build y1 at Gypsydog
+move g1 from Dsheldon to Jerome (y3)
+convert y1 to g1 at Gypsydog
+build g1 at Dsheldon
+move g1 from Gypsydog to Yzerman (y1)
+convert g1 to b1 at Dsheldon
+build y2 at Gypsydog
+build g1 at Dsheldon
+build g2 at Yzerman
+move g1 from Dsheldon to Bank (g3)
+move g2 from Yzerman to Datsyuk (r2)
+build g2 at Dsheldon
+convert y1 to b1 at Gypsydog
+convert b1 to y1 at Dsheldon
+build g2 at Datsyuk
+sacrifice g2 at Dsheldon; build g2 at Bank; build y2 at Dsheldon
+move b1 from Gypsydog to Yzerman
+sacrifice y1 at Dsheldon; move g1 from Bank to Colony (b1)
+move b1 from Yzerman to Datsyuk
+sacrifice g2 at Bank; build g2 at Dsheldon; build g3 at Colony
+convert g2 to r2 at Datsyuk
+convert g2 to r2 at Dsheldon
+build r1 at Datsyuk
+sacrifice g3 at Colony; build g2 at Dsheldon; build g2 at Jerome; build g3 at Colony
+convert r1 to y1 at Datsyuk
+move g2 from Jerome to Striker (r1)
+build r1 at Datsyuk
+sacrifice y2 at Dsheldon; move r2 from Dsheldon to Jerome; move r2 from Jerome to Datsyuk; catastrophe red at Datsyuk
+convert y2 to r2 at Gypsydog
+convert g2 to r2 at Dsheldon
+move r2 from Gypsydog to Striker
+capture r2 at Striker
+build g2 at Yzerman
+sacrifice g3 at Colony; build g2 at Striker; build g3 at Colony; build r1 at Dsheldon

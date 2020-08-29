@@ -1,0 +1,46 @@
+Goblin981 (0, r1b2) g3-
+Dlwillson (1, r3b1) -g3
+build g1 at Goblin981
+build g1 at Dlwillson
+convert g1 to y1 at Goblin981
+convert g1 to y1 at Dlwillson
+move y1 from Goblin981 to Rygalv (y3)
+build g1 at Dlwillson
+build g1 at Goblin981
+convert g1 to b1 at Dlwillson
+convert g1 to r1 at Goblin981
+build b1 at Dlwillson
+move y1 from Rygalv to Barkor (y1)
+move b1 from Dlwillson to Armor (r2)
+build r1 at Goblin981
+build b2 at Dlwillson
+move y1 from Barkor to Lyon (g3)
+move b1 from Dlwillson to Shield (r2)
+convert r1 to y1 at Goblin981
+build g1 at Dlwillson
+move r1 from Goblin981 to Lyon
+build b2 at Dlwillson
+build y2 at Lyon
+sacrifice g3 at Dlwillson; build b3 at Armor; build b3 at Shield; build b3 at Shield
+build y2 at Goblin981
+sacrifice b2 at Dlwillson; convert b3 to g3 at Shield; convert b3 to y3 at Shield
+convert y2 to b2 at Goblin981
+sacrifice g3 at Shield; build b3 at Dlwillson; build y2 at Dlwillson; build b3 at Shield
+move b2 from Goblin981 to Lyon
+sacrifice b2 at Dlwillson; convert b3 to g3 at Dlwillson; convert b3 to r3 at Armor
+move b2 from Lyon to Kilzar (b2)
+move y1 from Dlwillson to Armor
+convert b2 to g2 at Kilzar
+sacrifice g3 at Dlwillson; build y2 at Shield; build y3 at Armor; build y3 at Dlwillson
+move y2 from Lyon to Kilzar
+sacrifice y2 at Shield; move y3 from Shield to Sword (r3); move b3 from Shield to Sword
+sacrifice g2 at Kilzar; build y2 at Goblin981; build g1 at Goblin981
+sacrifice y2 at Dlwillson; move y3 from Sword to Goblin981; move b3 from Sword to Goblin981
+capture b3 at Goblin981
+sacrifice r3 at Armor; capture g3 at Goblin981; capture b3 at Goblin981; capture y2 at Goblin981
+build g1 at Goblin981
+convert y3 to r3 at Goblin981
+build y2 at Goblin981
+build y3 at Goblin981; catastrophe yellow at Goblin981
+convert g1 to y1 at Goblin981
+sacrifice r3 at Goblin981; capture y1 at Goblin981; capture g1 at Goblin981

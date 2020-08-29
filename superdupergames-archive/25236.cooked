@@ -1,0 +1,14 @@
+Wil (0, r2b1) g3-
+Ausmuh (1, b3y1) -g3
+build g1 at Wil
+build g1 at Ausmuh
+convert g1 to y1 at Wil
+convert g1 to y1 at Ausmuh
+build y2 at Wil
+build y2 at Ausmuh
+move y2 from Wil to G3 (g3)
+build g1 at Ausmuh
+sacrifice g3 at Wil; build y2 at G3; build y3 at Wil; build y3 at Wil
+move y1 from Ausmuh to Gwar (g2)
+move y2 from G3 to Gwar
+sacrifice y2 at Ausmuh; move y1 from Gwar to G3; move y1 from G3 to Wil; catastrophe yellow at Wil

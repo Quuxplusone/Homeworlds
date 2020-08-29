@@ -1,0 +1,33 @@
+Mikeyarrum (0, r3b2) g3-
+Freemonty (1, b1g2) -y3
+build g1 at Mikeyarrum
+build y1 at Freemonty
+convert g1 to y1 at Mikeyarrum
+convert y1 to r1 at Freemonty
+build g1 at Mikeyarrum
+build r1 at Freemonty
+build g1 at Mikeyarrum
+build y1 at Freemonty
+move g1 from Mikeyarrum to Yotsuba (b1)
+convert r1 to b1 at Freemonty
+build g1 at Yotsuba
+move r1 from Freemonty to Sevensevenseven (y3)
+build g2 at Yotsuba
+move b1 from Freemonty to Sevensevenseven
+convert g1 to y1 at Yotsuba
+convert b1 to g1 at Sevensevenseven
+build y2 at Yotsuba
+build g2 at Sevensevenseven
+convert g1 to r1 at Yotsuba
+sacrifice y3 at Freemonty; move r1 from Sevensevenseven to Yotsuba; move g1 from Sevensevenseven to Yotsuba; move g2 from Sevensevenseven to Yotsuba
+capture g2 at Yotsuba
+capture r1 at Yotsuba
+move y2 from Yotsuba to Asagi (g3)
+convert y1 to r1 at Freemonty
+convert g2 to r2 at Yotsuba
+build r2 at Yotsuba; catastrophe red at Yotsuba
+convert g2 to r2 at Yotsuba
+build r1 at Freemonty
+sacrifice y2 at Asagi; move r2 from Yotsuba to Fuuka (b3); move r2 from Fuuka to Freemonty
+convert g1 to r1 at Yotsuba
+build r2 at Freemonty; catastrophe red at Freemonty

@@ -1,0 +1,40 @@
+Joe (0, y3b2) g3-
+Zackstack (1, y3b1) -g3
+build g1 at Joe
+build g1 at Zackstack
+build g1 at Joe
+move g1 from Zackstack to Grover (b2)
+convert g1 to y1 at Joe
+build g1 at Zackstack
+move g1 from Joe to Fogo (y1)
+build g2 at Grover
+move g1 from Fogo to Grover
+convert g2 to r2 at Grover
+build g2 at Joe
+capture g1 at Grover
+convert g3 to r3 at Joe
+convert g1 to r1 at Zackstack
+build r1 at Joe
+convert g1 to y1 at Grover
+move r3 from Joe to Pope (y1)
+move r2 from Grover to Oscar (g1)
+move r3 from Pope to Joe
+build g1 at Zackstack
+build g2 at Joe
+sacrifice g3 at Zackstack; build g2 at Grover; build g3 at Grover; build g3 at Zackstack
+move r3 from Joe to Oscar
+sacrifice y1 at Grover; move r2 from Oscar to Grover
+build g3 at Joe
+convert g2 to y2 at Grover
+convert g3 to r3 at Joe
+sacrifice g3 at Zackstack; build g2 at Zackstack; build g3 at Grover; build g3 at Zackstack
+build r1 at Oscar
+move g3 from Grover to Bigbird (y1)
+move y1 from Joe to Oscar
+sacrifice g3 at Zackstack; build g3 at Zackstack; build r2 at Grover; build r2 at Zackstack
+build r3 at Joe
+sacrifice y2 at Grover; move r2 from Grover to Bigbird; move r2 from Bigbird to Joe; catastrophe red at Joe
+convert g2 to b2 at Joe
+move g3 from Bigbird to Joe
+move r3 from Oscar to Joe
+sacrifice r2 at Zackstack; capture r3 at Joe; capture g2 at Joe

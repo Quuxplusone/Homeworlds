@@ -1,0 +1,35 @@
+Mikeyarrum (0, y1b2) g3-
+Twoshort (1, y1b3) -g3
+build g1 at Mikeyarrum
+build g1 at Twoshort
+convert g1 to y1 at Mikeyarrum
+build g1 at Twoshort
+build y2 at Mikeyarrum
+move g1 from Twoshort to Bluonia (b2)
+move y2 from Mikeyarrum to Nyamo (b3)
+build g1 at Twoshort
+build g2 at Mikeyarrum
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g2 at Bluonia; build g3 at Twoshort
+build g3 at Mikeyarrum
+convert g2 to y2 at Bluonia
+move g3 from Mikeyarrum to Nyamo
+move g1 from Twoshort to Borbor (b2)
+build g2 at Nyamo
+convert g1 to b1 at Bluonia
+move g2 from Mikeyarrum to Sakaki (y3)
+move b1 from Bluonia to Yoyodyne (y3)
+sacrifice g2 at Nyamo; build y2 at Nyamo; build y3 at Mikeyarrum
+sacrifice g3 at Twoshort; build g1 at Bluonia; build g2 at Borbor; build g3 at Twoshort
+convert g3 to r3 at Nyamo
+convert g2 to r2 at Bluonia
+move y2 from Nyamo to Tadakichi (r2)
+sacrifice g3 at Twoshort; build g2 at Borbor; build g3 at Bluonia; build g3 at Twoshort
+move r3 from Nyamo to Borbor
+sacrifice b1 at Yoyodyne; convert g3 to y3 at Bluonia
+build g3 at Sakaki
+sacrifice y3 at Bluonia; move y2 from Bluonia to Nyamo; move y2 from Nyamo to Mikeyarrum; move r2 from Bluonia to Twoshort; catastrophe yellow at Mikeyarrum
+capture g2 at Borbor
+convert g1 to b1 at Twoshort
+capture g2 at Borbor
+build b1 at Twoshort
+sacrifice y2 at Tadakichi; move g2 from Borbor to Twoshort; move g2 from Borbor to Twoshort

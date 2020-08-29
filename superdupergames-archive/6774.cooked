@@ -1,0 +1,43 @@
+Dsheldon (0, y1b2) g3-
+Mikeyarrum (1, y1b3) -g3
+build g1 at Dsheldon
+build g1 at Mikeyarrum
+convert g1 to y1 at Dsheldon
+convert g1 to b1 at Mikeyarrum
+build g1 at Dsheldon
+build g1 at Mikeyarrum
+build y2 at Dsheldon
+build b1 at Mikeyarrum
+move g1 from Dsheldon to Jerome (y3)
+move b1 from Mikeyarrum to Eugene (g2)
+move y2 from Dsheldon to Jerome
+build b1 at Mikeyarrum
+build y2 at Jerome
+build b2 at Eugene
+build g1 at Dsheldon
+convert b2 to y2 at Eugene
+sacrifice g3 at Dsheldon; build g2 at Jerome; build g2 at Dsheldon; build g3 at Dsheldon
+sacrifice g3 at Mikeyarrum; build g3 at Mikeyarrum; build y3 at Eugene; build b2 at Eugene
+convert g3 to r3 at Dsheldon
+convert y3 to r3 at Eugene
+move y2 from Jerome to Phobos (r2)
+move r3 from Eugene to Jerome
+sacrifice y2 at Jerome; move g1 from Jerome to Eugene; move g2 from Jerome to Eugene
+convert g3 to r3 at Mikeyarrum
+build g3 at Dsheldon
+convert b2 to r2 at Eugene
+sacrifice g3 at Dsheldon; build g3 at Eugene; build y2 at Dsheldon; build y3 at Phobos; catastrophe green at Eugene
+convert b1 to g1 at Mikeyarrum
+convert y2 to b2 at Dsheldon
+build g2 at Mikeyarrum
+sacrifice g2 at Dsheldon; build y2 at Phobos; build g2 at Dsheldon
+move g1 from Mikeyarrum to Apollo (b2)
+sacrifice b2 at Dsheldon; convert y2 to b2 at Phobos; convert y2 to g2 at Phobos
+build g3 at Apollo
+build g3 at Phobos
+convert g2 to y2 at Mikeyarrum
+convert g3 to b3 at Phobos
+sacrifice y2 at Mikeyarrum; move r3 from Jerome to Phobos; move r3 from Mikeyarrum to Phobos
+sacrifice y3 at Phobos; move b2 from Phobos to Mikeyarrum; move b3 from Phobos to Mikeyarrum; move g2 from Phobos to Mikeyarrum; catastrophe blue at Mikeyarrum
+build g2 at Mikeyarrum
+build g3 at Mikeyarrum; catastrophe green at Mikeyarrum

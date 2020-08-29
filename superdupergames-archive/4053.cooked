@@ -1,0 +1,54 @@
+Antihero (0, g3b2) y3-
+Keith (1, b1y2) -g3
+build y1 at Antihero
+build g1 at Keith
+convert y1 to g1 at Antihero
+convert g1 to y1 at Keith
+move g1 from Antihero to Next_One_Over (y1)
+move y1 from Keith to Midworld (g3)
+build g1 at Next_One_Over
+build g1 at Keith
+build g2 at Next_One_Over
+move g1 from Keith to Midworld
+move g2 from Next_One_Over to Antihero
+build g2 at Keith
+build g2 at Antihero
+sacrifice g3 at Keith; build g3 at Keith; build y1 at Midworld; build y2 at Midworld
+convert g2 to r2 at Antihero
+move y1 from Midworld to Next_One_Over
+move g1 from Next_One_Over to Big_Star (b3)
+convert g2 to r2 at Keith
+build g2 at Big_Star
+build g2 at Keith
+sacrifice y3 at Antihero; move g2 from Big_Star to Keith; move g1 from Big_Star to Keith; catastrophe green at Keith
+move g1 from Midworld to Keith
+convert g2 to y2 at Antihero
+build y3 at Midworld
+build y3 at Antihero
+sacrifice y3 at Midworld; move y1 from Next_One_Over to Antihero; move y1 from Midworld to Next_One_Over; move y1 from Next_One_Over to Antihero; catastrophe yellow at Antihero
+build r1 at Antihero
+build r1 at Keith
+convert r1 to y1 at Antihero
+convert r1 to b1 at Keith
+build r1 at Antihero
+build r1 at Keith
+move r1 from Antihero to Next_One_Over
+move y2 from Midworld to Next_One_Over
+move r1 from Next_One_Over to Sun (y3)
+sacrifice r1 at Keith; capture g1 at Next_One_Over
+build r1 at Antihero
+build b1 at Keith
+convert r1 to g1 at Antihero
+build g2 at Next_One_Over
+move g1 from Antihero to Next_One_Over
+build g2 at Keith
+build g2 at Next_One_Over
+build g3 at Keith; catastrophe green at Next_One_Over
+build r1 at Antihero
+move g3 from Keith to Sun
+build y1 at Antihero
+sacrifice y2 at Next_One_Over; move g3 from Sun to Temp (y1); move g3 from Temp to Antihero
+convert y1 to g1 at Antihero
+sacrifice r2 at Keith; capture r2 at Antihero; capture r1 at Antihero
+build g1 at Antihero; catastrophe green at Antihero
+capture y1 at Antihero

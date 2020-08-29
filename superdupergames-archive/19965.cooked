@@ -1,0 +1,48 @@
+Lorgar (0, b1y3) g3-
+Mandrel (1, r1b2) -g3
+build g1 at Lorgar
+build g1 at Mandrel
+build g1 at Lorgar
+build g2 at Mandrel
+convert g3 to y3 at Lorgar
+convert g1 to y1 at Mandrel
+move g1 from Lorgar to Catonemoidia (b2)
+move g2 from Mandrel to Hunger (b3)
+convert y3 to g3 at Lorgar
+build y1 at Mandrel
+build g1 at Lorgar
+build g2 at Mandrel
+convert g1 to r1 at Lorgar
+move y1 from Mandrel to Hunger
+build g1 at Catonemoidia
+sacrifice g3 at Mandrel; build g2 at Mandrel; build g3 at Mandrel; build g3 at Hunger
+convert g1 to r1 at Catonemoidia
+convert g2 to r2 at Hunger
+sacrifice g3 at Lorgar; build g1 at Catonemoidia; build g2 at Catonemoidia; build g3 at Lorgar
+sacrifice g3 at Mandrel; build g3 at Mandrel; build r2 at Hunger; build y1 at Hunger
+convert g2 to y2 at Catonemoidia
+convert g2 to b2 at Mandrel
+move g1 from Catonemoidia to Lys (b3)
+move y1 from Hunger to Full (g2)
+sacrifice g3 at Lorgar; build g2 at Lys; build y2 at Catonemoidia; build g3 at Lorgar
+sacrifice g2 at Mandrel; build g2 at Hunger; build y2 at Full
+move y2 from Catonemoidia to Lys
+sacrifice g3 at Hunger; build g3 at Hunger; build y3 at Hunger; build y3 at Mandrel
+sacrifice g3 at Lorgar; build r2 at Lorgar; build r3 at Catonemoidia; build g3 at Lorgar
+build b1 at Mandrel
+convert g1 to b1 at Lys
+move b2 from Mandrel to Hunger
+sacrifice g3 at Lorgar; build g1 at Catonemoidia; build g3 at Lorgar
+move b2 from Hunger to Full
+sacrifice y2 at Catonemoidia; move g1 from Catonemoidia to Hunger; move g1 from Catonemoidia to Hunger; catastrophe green at Hunger
+build b3 at Full
+build y2 at Lys
+build g1 at Mandrel
+build g1 at Lys
+sacrifice y3 at Hunger; move y1 from Hunger to Full; move y1 from Full to Lorgar; move y2 from Full to Lorgar
+sacrifice r2 at Lorgar; capture y2 at Lorgar; capture y1 at Lorgar
+move y1 from Full to Lorgar; catastrophe yellow at Lorgar
+sacrifice y2 at Lys; move g2 from Lys to Mandrel; move g1 from Lys to Mandrel; catastrophe green at Mandrel
+move b1 from Mandrel to Dam (g3)
+convert r1 to g1 at Catonemoidia
+sacrifice y3 at Mandrel; move b1 from Dam to Lorgar; move b3 from Full to Lorgar; move b2 from Full to Lorgar; catastrophe blue at Lorgar

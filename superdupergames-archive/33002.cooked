@@ -1,0 +1,26 @@
+Shoejitsu (0, g2r1) b3-
+Grosseteste (1, b1y3) -g3
+build b1 at Shoejitsu
+build g1 at Grosseteste
+build b1 at Shoejitsu
+build g1 at Grosseteste
+convert b1 to g1 at Shoejitsu
+move g1 from Grosseteste to Charlie (b2)
+build g2 at Shoejitsu
+sacrifice g3 at Grosseteste; build g2 at Charlie; build g3 at Charlie; build g3 at Grosseteste
+sacrifice g2 at Shoejitsu; build b1 at Shoejitsu; build g2 at Shoejitsu
+convert g3 to y3 at Charlie
+convert b1 to y1 at Shoejitsu
+sacrifice y3 at Charlie; move g1 from Charlie to Lucy (r3); move g1 from Lucy to Shoejitsu; move g1 from Grosseteste to Rerun (b2); catastrophe green at Shoejitsu
+convert b1 to g1 at Shoejitsu
+build g1 at Grosseteste
+move g1 from Shoejitsu to Indigo (r3)
+build g2 at Rerun
+build g2 at Indigo
+sacrifice g3 at Grosseteste; build g3 at Grosseteste; build g3 at Grosseteste; build g3 at Charlie
+move y1 from Shoejitsu to Indigo
+convert g3 to b3 at Grosseteste
+convert b3 to g3 at Shoejitsu
+convert g3 to y3 at Grosseteste
+move g2 from Indigo to Charlie
+sacrifice y3 at Grosseteste; move g1 from Rerun to Shoejitsu; move g2 from Rerun to Shoejitsu; move g2 from Charlie to Shoejitsu; catastrophe green at Shoejitsu

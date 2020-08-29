@@ -1,0 +1,32 @@
+Remneb (0, r1b2) g3-
+Subhan64 (1, b3g2) -r3
+build g1 at Remneb
+build r1 at Subhan64
+convert g1 to r1 at Remneb
+build r2 at Subhan64
+build g1 at Remneb
+convert r2 to y2 at Subhan64
+convert g1 to y1 at Remneb
+build r2 at Subhan64
+build r2 at Remneb
+build y1 at Subhan64
+move r2 from Remneb to Rogue (y3)
+move r1 from Subhan64 to Kermit (g1)
+convert r1 to g1 at Remneb
+convert y2 to b2 at Subhan64
+move r2 from Rogue to Kermit
+sacrifice y1 at Subhan64; move r1 from Kermit to Bb (y3)
+build y1 at Remneb
+build b1 at Subhan64
+move y1 from Remneb to Drone (y3)
+convert b2 to g2 at Subhan64
+move g1 from Remneb to Drone
+build g1 at Subhan64
+build g2 at Remneb
+convert g2 to y2 at Subhan64
+build g2 at Drone
+build g3 at Subhan64
+build g3 at Remneb
+sacrifice y2 at Subhan64; move g1 from Subhan64 to Kermit; move g1 from Kermit to Bb
+move y1 from Drone to Kermit
+move g1 from Bb to Remneb; catastrophe green at Remneb

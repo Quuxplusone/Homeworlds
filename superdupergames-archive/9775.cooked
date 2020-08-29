@@ -1,0 +1,40 @@
+Keith (0, b1y3) g3-
+Stoneaxe (1, r1b2) -g3
+build g1 at Keith
+build g1 at Stoneaxe
+move g1 from Keith to Bend (y2)
+convert g1 to y1 at Stoneaxe
+build g1 at Keith
+build y1 at Stoneaxe
+convert g1 to b1 at Keith
+build g1 at Stoneaxe
+move b1 from Keith to Bend
+build y1 at Stoneaxe
+build g1 at Keith
+move y1 from Stoneaxe to Broke (b3)
+build g2 at Bend
+move g1 from Stoneaxe to Broke
+convert g2 to y2 at Bend
+build y2 at Broke
+move y2 from Bend to Boring (g3)
+build y3 at Broke
+build y3 at Boring
+sacrifice y2 at Broke; move y1 from Stoneaxe to Boring; move y1 from Stoneaxe to Boring; catastrophe yellow at Boring
+move g1 from Keith to Prineville (b2)
+build g2 at Stoneaxe
+build g2 at Keith
+sacrifice g3 at Stoneaxe; build g2 at Broke; build g3 at Stoneaxe; build g3 at Stoneaxe
+sacrifice g3 at Keith; build g3 at Keith; build b1 at Bend; build b2 at Bend
+convert y1 to r1 at Broke
+convert b2 to y2 at Bend
+convert g2 to y2 at Stoneaxe
+build b2 at Bend
+move g2 from Broke to Bend
+sacrifice y2 at Bend; move b2 from Bend to Broke; move b1 from Bend to Broke
+sacrifice y3 at Broke; move g3 from Stoneaxe to Broke; move g3 from Broke to Bend; move g3 from Bend to Keith
+convert g3 to y3 at Keith
+convert g3 to r3 at Stoneaxe
+sacrifice y3 at Keith; move b1 from Bend to Keith; move g1 from Bend to Keith; move g1 from Prineville to Keith; catastrophe green at Keith
+move g2 from Bend to Keith
+convert b2 to g2 at Broke
+sacrifice r1 at Broke; capture b1 at Keith

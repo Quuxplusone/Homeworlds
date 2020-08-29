@@ -1,0 +1,47 @@
+Zoltar (0, r1b3) g3-
+Scottobear (1, g3r2) -b3
+build g1 at Zoltar
+build b1 at Scottobear
+convert g1 to y1 at Zoltar
+convert b1 to y1 at Scottobear
+build g1 at Zoltar
+build b1 at Scottobear
+convert g1 to r1 at Zoltar
+convert b1 to r1 at Scottobear
+build r2 at Zoltar
+build b1 at Scottobear
+convert r1 to b1 at Zoltar
+move b1 from Scottobear to Gorgon (g1)
+move b1 from Zoltar to Greenslime (g2)
+build b1 at Gorgon
+build b2 at Greenslime
+build b2 at Gorgon
+sacrifice y1 at Zoltar; move b1 from Greenslime to Gorgon; catastrophe blue at Gorgon
+build y1 at Scottobear
+build b1 at Greenslime
+move y1 from Scottobear to Oz (g1)
+convert b2 to y2 at Greenslime
+move r1 from Scottobear to Oz
+build g1 at Zoltar
+build b1 at Scottobear
+convert g1 to y1 at Zoltar
+build y2 at Oz
+sacrifice g3 at Zoltar; build y2 at Zoltar; build y3 at Zoltar; build y3 at Greenslime
+build y3 at Scottobear
+move y1 from Zoltar to Blooze (b2)
+convert y1 to b1 at Scottobear
+sacrifice y2 at Greenslime; move b1 from Greenslime to Oz; move b1 from Oz to Scottobear; catastrophe blue at Scottobear
+move y2 from Oz to Blooze
+convert y3 to g3 at Zoltar
+move r1 from Oz to Blooze
+sacrifice g3 at Zoltar; build y1 at Blooze; build y2 at Greenslime; build y3 at Zoltar
+convert y2 to b2 at Blooze
+convert y3 to g3 at Zoltar
+capture y1 at Blooze
+sacrifice r2 at Zoltar; capture r1 at Blooze; capture y1 at Blooze
+build y2 at Oz
+build y3 at Zoltar
+move y2 from Oz to Blooze
+sacrifice y3 at Zoltar; move y2 from Greenslime to Oz; move y1 from Blooze to Vim (g1); move y1 from Blooze to Vigor (g1)
+build y3 at Oz
+sacrifice y3 at Greenslime; move y2 from Oz to Scottobear; move y1 from Vim to Scottobear; move y1 from Vigor to Scottobear; catastrophe yellow at Scottobear

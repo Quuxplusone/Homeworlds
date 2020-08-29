@@ -1,0 +1,33 @@
+Felix (0, b3y1) g3-
+Draw5Playall (1, b2r1) -g3
+build g1 at Felix
+build g1 at Draw5Playall
+convert g1 to y1 at Felix
+convert g1 to y1 at Draw5Playall
+build y2 at Felix
+build y2 at Draw5Playall
+move y1 from Felix to Opulence (g2)
+move y1 from Draw5Playall to R1 (g3)
+build g1 at Felix
+build g1 at Draw5Playall
+convert g1 to r1 at Felix
+convert g1 to r1 at Draw5Playall
+build r2 at Felix
+build r2 at Draw5Playall
+move r2 from Felix to Opulence
+convert r2 to b2 at Draw5Playall
+build r2 at Felix
+build b1 at Draw5Playall
+move r1 from Felix to Scrum (b2)
+move b2 from Draw5Playall to R1
+sacrifice g3 at Felix; build r2 at Scrum; build r3 at Opulence; build r3 at Felix
+move r1 from Draw5Playall to R1
+move r3 from Opulence to R1
+sacrifice y1 at R1; move r1 from R1 to Y4 (g2)
+build r3 at R1
+sacrifice b2 at R1
+sacrifice y2 at Felix; move r3 from R1 to Draw5Playall; move r3 from R1 to Draw5Playall
+sacrifice y2 at Draw5Playall; move r1 from Y4 to Temp (y3); move r1 from Temp to Draw5Playall; catastrophe red at Draw5Playall
+move r3 from Felix to Draw5Playall
+sacrifice g3 at Draw5Playall; build b1 at Draw5Playall; build b1 at Draw5Playall; build b2 at Draw5Playall
+catastrophe blue at Draw5Playall

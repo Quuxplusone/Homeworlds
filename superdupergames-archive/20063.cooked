@@ -1,0 +1,42 @@
+Godofpie (0, y3b1) g3-
+Radio414 (1, b2r1) -g3
+build g1 at Godofpie
+build g1 at Radio414
+move g1 from Godofpie to Toe (y2)
+convert g1 to y1 at Radio414
+build g1 at Toe
+build y1 at Radio414
+build g1 at Godofpie
+build g2 at Radio414
+build g2 at Godofpie
+convert y1 to r1 at Radio414
+convert g1 to b1 at Godofpie
+build y1 at Radio414
+move b1 from Godofpie to Toe
+convert y1 to b1 at Radio414
+build b2 at Toe
+build b2 at Radio414
+build b3 at Toe
+move b2 from Radio414 to Nail (g3)
+convert b3 to r3 at Toe
+build b3 at Nail
+build b3 at Toe
+sacrifice y1 at Radio414; move b2 from Nail to Toe; catastrophe blue at Toe
+convert g2 to b2 at Godofpie
+convert g2 to y2 at Radio414
+build r1 at Toe
+build y1 at Radio414
+move b2 from Godofpie to Toe
+build r2 at Radio414
+convert g1 to y1 at Toe
+convert r1 to g1 at Radio414
+move r3 from Toe to Pi (b3)
+move r2 from Radio414 to Nail
+build g1 at Godofpie
+build g2 at Radio414
+move b2 from Toe to Pi
+move g2 from Radio414 to Nail
+move g1 from Godofpie to Toe
+move y2 from Radio414 to Nail
+convert b2 to y2 at Pi
+convert g1 to y1 at Radio414

@@ -1,0 +1,59 @@
+Babamots (0, b2r2) g3-
+Eliscinsky (1, r1b3) -g3
+build g1 at Babamots
+build g1 at Eliscinsky
+convert g1 to y1 at Babamots
+convert g1 to y1 at Eliscinsky
+build g1 at Babamots
+build g1 at Eliscinsky
+convert g1 to r1 at Babamots
+convert g1 to r1 at Eliscinsky
+move r1 from Babamots to Orion (g3)
+move r1 from Eliscinsky to Kronos (g2)
+build r2 at Orion
+build r2 at Kronos
+move y1 from Babamots to Orion
+move y1 from Eliscinsky to Kronos
+move r2 from Orion to Andoria (b2)
+move r2 from Kronos to Regula (b3)
+build r3 at Orion
+build r3 at Kronos
+move r1 from Orion to Risa (g1)
+move r1 from Kronos to Talos4 (g1)
+build r3 at Orion
+move r3 from Kronos to Regula
+convert r2 to y2 at Andoria
+build r2 at Talos4
+move r3 from Orion to Talos4
+convert r2 to g2 at Regula
+build r2 at Orion
+build g1 at Eliscinsky
+capture r2 at Talos4
+build g2 at Regula
+capture r1 at Talos4
+sacrifice y1 at Kronos; move r3 from Regula to Talos4; catastrophe red at Talos4
+move y2 from Andoria to Regula
+convert g2 to y2 at Regula
+sacrifice r2 at Orion; capture y2 at Regula; capture g2 at Regula
+convert g1 to y1 at Eliscinsky
+build r1 at Orion
+build g1 at Eliscinsky
+move y2 from Regula to Babamots
+convert g1 to b1 at Eliscinsky
+move r3 from Orion to Iconia (y2)
+build g1 at Eliscinsky
+convert g2 to r2 at Regula
+build b1 at Eliscinsky
+build r2 at Risa
+move g1 from Eliscinsky to Earth (g2)
+build r3 at Orion
+build g1 at Eliscinsky
+move r3 from Orion to Babamots
+move g1 from Eliscinsky to Peapod (g2)
+sacrifice y2 at Regula; move r3 from Iconia to Eliscinsky; move g3 from Babamots to Eliscinsky
+capture r3 at Eliscinsky
+sacrifice r2 at Risa; capture r3 at Eliscinsky; capture g3 at Eliscinsky
+sacrifice g1 at Peapod; build y1 at Eliscinsky
+convert g3 to b3 at Eliscinsky; catastrophe blue at Eliscinsky
+sacrifice g1 at Earth; build y2 at Eliscinsky
+move y1 from Orion to Eliscinsky; catastrophe yellow at Eliscinsky

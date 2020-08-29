@@ -1,0 +1,39 @@
+Adambadura (0, g1b2) r3-
+Shmil1 (1, g1b2) -y3
+build r1 at Adambadura
+build y1 at Shmil1
+convert r1 to y1 at Adambadura
+move y1 from Shmil1 to Zelena (g3)
+build r1 at Adambadura
+build y1 at Shmil1
+move r1 from Adambadura to Zelena
+build y2 at Zelena
+capture y1 at Zelena
+build y2 at Zelena
+build y2 at Zelena; catastrophe yellow at Zelena
+convert y1 to r1 at Shmil1
+build y1 at Adambadura
+build r1 at Shmil1
+build r2 at Zelena
+move r1 from Shmil1 to Cesta (g3)
+move y1 from Adambadura to Zelena
+build r2 at Cesta
+convert y1 to b1 at Adambadura
+build r2 at Cesta
+build r3 at Adambadura
+sacrifice y3 at Shmil1; move r1 from Cesta to Adambadura; move r2 from Cesta to Adambadura; move r2 from Cesta to Shmil1; catastrophe red at Adambadura
+build b1 at Adambadura
+convert r2 to y2 at Shmil1
+move r1 from Zelena to Adambadura
+build r1 at Shmil1
+build r2 at Zelena
+move r1 from Shmil1 to Zelena
+sacrifice b1 at Adambadura; convert r2 to y2 at Zelena
+build r2 at Zelena
+sacrifice r2 at Zelena; capture r2 at Zelena; capture r1 at Zelena
+build r2 at Shmil1
+move r1 from Zelena to Outpost (y2)
+sacrifice y2 at Shmil1; move r2 from Shmil1 to Zelena; move r2 from Zelena to Adambadura
+move y2 from Zelena to Shmil1
+build r2 at Shmil1
+sacrifice r2 at Zelena; capture r2 at Shmil1; capture r1 at Shmil1

@@ -1,0 +1,27 @@
+Silenttitan (0, r1b2) g3-
+Agentofchaos (1, b1r3) -g3
+build g1 at Silenttitan
+build g1 at Agentofchaos
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Agentofchaos
+build g1 at Silenttitan
+build g1 at Agentofchaos
+convert g1 to r1 at Silenttitan
+convert g1 to r1 at Agentofchaos
+build r2 at Silenttitan
+build r2 at Agentofchaos
+convert r2 to y2 at Silenttitan
+convert r2 to y2 at Agentofchaos
+build g1 at Silenttitan
+build r2 at Agentofchaos
+move y2 from Silenttitan to Sol (g3)
+move r2 from Agentofchaos to Glaxo (y2)
+sacrifice g3 at Silenttitan; build y1 at Sol; build y3 at Silenttitan; build y3 at Silenttitan
+build g1 at Agentofchaos
+convert y3 to b3 at Silenttitan
+move g1 from Agentofchaos to Glaxo
+build y3 at Silenttitan
+move y1 from Agentofchaos to Gelfhome (g2)
+sacrifice y2 at Sol; move b3 from Silenttitan to Sol; move y3 from Silenttitan to Sole (r3)
+build r2 at Glaxo
+move b3 from Sol to Glaxo

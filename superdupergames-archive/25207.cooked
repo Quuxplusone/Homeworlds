@@ -1,0 +1,25 @@
+Twoshort (0, r1b3) g3-
+Wil (1, r2b1) -g3
+build g1 at Twoshort
+build g1 at Wil
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Wil
+build g1 at Twoshort
+build g1 at Wil
+move g1 from Twoshort to Yolonda (y2)
+convert g1 to b1 at Wil
+build g1 at Twoshort
+build b1 at Wil
+build g1 at Yolonda
+move b1 from Wil to G3 (g3)
+move g1 from Yolonda to Yoyodyne (y3)
+build b2 at G3
+build g2 at Yoyodyne
+build g2 at Wil
+move g1 from Yoyodyne to Wil
+convert g2 to r2 at Wil
+sacrifice g3 at Twoshort; build g2 at Wil; build g2 at Wil; build g3 at Yoyodyne; catastrophe green at Wil
+convert b1 to y1 at G3
+move g3 from Yoyodyne to Wil
+convert b1 to g1 at Wil
+capture r2 at Wil

@@ -1,0 +1,58 @@
+Felix (0, b2r3) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to y1 at Felix
+convert g1 to y1 at Dlwillson
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to r1 at Felix
+convert g1 to r1 at Dlwillson
+build r2 at Felix
+build r2 at Dlwillson
+move r1 from Felix to Gronch (b1)
+convert r2 to y2 at Dlwillson
+move r2 from Felix to Splinch (y1)
+build y2 at Dlwillson
+build y2 at Felix
+move y2 from Dlwillson to Sea (b2)
+move y1 from Felix to Gronch
+move y1 from Dlwillson to Field (g2)
+build y3 at Felix
+build y3 at Field
+sacrifice g3 at Felix; build y3 at Gronch; build r2 at Gronch; build r2 at Splinch
+sacrifice y2 at Sea; move y3 from Field to Gronch; move y3 from Gronch to Felix
+move r2 from Splinch to Felix
+capture y3 at Felix
+move y1 from Gronch to Felix; catastrophe yellow at Felix
+move r1 from Dlwillson to Field
+convert r1 to g1 at Gronch
+build y1 at Field
+move y3 from Gronch to Felix
+move y1 from Field to Sky (b1)
+convert r2 to g2 at Felix
+sacrifice g3 at Dlwillson; build y2 at Field; build y2 at Sky; build y3 at Dlwillson
+build g1 at Gronch
+build y3 at Field
+build g1 at Felix
+move y3 from Field to Gronch
+sacrifice r2 at Gronch
+convert y3 to r3 at Gronch
+build g2 at Gronch
+capture g2 at Gronch
+sacrifice g2 at Felix; build g2 at Gronch; build g3 at Felix; catastrophe green at Gronch
+build y3 at Field
+move g3 from Felix to Sky
+sacrifice y2 at Sky; move y3 from Field to Splinch; move y1 from Field to Gronch
+convert g3 to r3 at Sky
+sacrifice y1 at Sky; move y2 from Field to Gronch
+move r2 from Splinch to Field
+convert y3 to g3 at Dlwillson
+capture r1 at Field
+sacrifice g3 at Dlwillson; build y1 at Dlwillson; build y2 at Splinch; build y3 at Dlwillson
+build g1 at Felix
+sacrifice y3 at Dlwillson; move y2 from Splinch to Felix; move y2 from Gronch to Felix; move y1 from Gronch to Felix; catastrophe yellow at Felix
+convert g1 to y1 at Felix
+move y3 from Splinch to Felix
+sacrifice y1 at Felix; move r3 from Sky to Felix
+sacrifice r3 at Gronch; capture g1 at Felix; capture r3 at Felix

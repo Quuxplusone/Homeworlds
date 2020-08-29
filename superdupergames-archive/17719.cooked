@@ -1,0 +1,31 @@
+Gidaio (0, y3g1) b3-
+Sompm (1, g3y2) -b3
+build b1 at Gidaio
+build b1 at Sompm
+build b1 at Gidaio
+build b2 at Sompm
+move b1 from Gidaio to Pachinko (g2)
+move b2 from Sompm to Fakaar (y1)
+build b2 at Pachinko
+convert b2 to g2 at Fakaar
+convert b1 to y1 at Pachinko
+build b1 at Sompm
+convert b2 to r2 at Pachinko
+convert b1 to r1 at Sompm
+move r2 from Pachinko to Fakaar
+move g2 from Fakaar to Runningrunning (y2)
+build y1 at Pachinko
+build b1 at Sompm
+build y2 at Pachinko
+build r1 at Sompm
+move y2 from Pachinko to Fakaar
+convert b3 to y3 at Sompm
+build y3 at Pachinko
+build b2 at Sompm
+sacrifice y3 at Pachinko; move b1 from Gidaio to Pachinko; move b1 from Pachinko to Fakaar; move b1 from Fakaar to Sompm; catastrophe blue at Sompm
+build y3 at Sompm
+move y2 from Fakaar to Sompm; catastrophe yellow at Sompm
+move g2 from Runningrunning to Youjerk (b1)
+move r2 from Fakaar to Sompm
+build g1 at Youjerk
+capture r1 at Sompm

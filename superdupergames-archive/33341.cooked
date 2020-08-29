@@ -1,0 +1,44 @@
+Shoejitsu (0, r3b1) g3-
+Wil (1, b2y1) -g3
+build g1 at Shoejitsu
+build g1 at Wil
+build g1 at Shoejitsu
+convert g1 to b1 at Wil
+convert g1 to b1 at Shoejitsu
+build b2 at Wil
+build g1 at Shoejitsu
+move b2 from Wil to Y3 (y3)
+build b2 at Shoejitsu
+sacrifice g3 at Wil; build b3 at Wil; build b3 at Y3; build b3 at Y3
+convert g1 to y1 at Shoejitsu
+sacrifice b2 at Y3; convert b3 to g3 at Wil; convert b3 to g3 at Y3
+move b2 from Shoejitsu to Mix (g2)
+build g1 at Wil
+build y1 at Shoejitsu
+convert b1 to r1 at Wil
+convert y1 to r1 at Shoejitsu
+convert g1 to y1 at Wil
+move r1 from Shoejitsu to Mix
+build y2 at Wil
+build y2 at Shoejitsu
+move y1 from Wil to B3 (b3)
+move y1 from Shoejitsu to Mix
+move y2 from Wil to Be3 (b3)
+move b2 from Mix to It (y3)
+move b3 from Y3 to Mix
+build y2 at Shoejitsu
+sacrifice g3 at Y3; build g1 at Wil; build y3 at B3; build y3 at Be3
+convert b2 to g2 at It
+sacrifice r1 at Wil; capture r1 at Mix
+sacrifice g2 at It; build y3 at Mix; build g1 at Shoejitsu
+capture y3 at Mix
+move y1 from Mix to B3
+convert y3 to r3 at B3
+build y3 at Shoejitsu
+sacrifice y2 at Be3; move y1 from B3 to Mix; move y1 from Mix to Shoejitsu; catastrophe yellow at Shoejitsu
+move y1 from B3 to Up (r2)
+sacrifice y3 at Be3; move g1 from Wil to B3; move g1 from B3 to Up; move g1 from Up to Shoejitsu; catastrophe green at Shoejitsu
+convert b1 to g1 at Shoejitsu
+move b3 from Mix to Shoejitsu
+build g1 at Shoejitsu
+sacrifice r3 at B3; capture g1 at Shoejitsu; capture g1 at Shoejitsu

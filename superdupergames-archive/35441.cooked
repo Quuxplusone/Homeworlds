@@ -1,0 +1,12 @@
+Laurie_Menke (0, b3y1) g3-
+Bhorner (1, b1r2) -g3
+build g1 at Laurie_Menke
+build g1 at Bhorner
+move g1 from Laurie_Menke to Yellow (y2)
+convert g1 to y1 at Bhorner
+build g1 at Laurie_Menke
+build y1 at Bhorner
+sacrifice g3 at Laurie_Menke; build g1 at Yellow; build g2 at Laurie_Menke; build g2 at Yellow
+move y1 from Bhorner to Tree (g3)
+convert g2 to y2 at Laurie_Menke
+sacrifice g3 at Bhorner; build y2 at Tree; build y3 at Tree; build y3 at Bhorner

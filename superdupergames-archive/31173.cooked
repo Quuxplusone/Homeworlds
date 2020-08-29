@@ -1,0 +1,28 @@
+Zeder (0, y2b1) g3-
+Ausmuh (1, g3y1) -b3
+build g1 at Zeder
+build b1 at Ausmuh
+move g1 from Zeder to Water (y3)
+build b1 at Ausmuh
+build g1 at Zeder
+move b1 from Ausmuh to Gwar (g2)
+convert g3 to b3 at Zeder
+build b2 at Gwar
+build b2 at Zeder
+convert b2 to y2 at Gwar
+convert b2 to r2 at Zeder
+build b2 at Gwar
+build g1 at Zeder
+convert b2 to r2 at Gwar
+move r2 from Zeder to Water
+build b2 at Gwar
+build g2 at Zeder
+convert b3 to g3 at Ausmuh
+move g1 from Water to Deaddog (y2)
+sacrifice g3 at Ausmuh; build b2 at Ausmuh; build b2 at Gwar; build b3 at Ausmuh
+build g2 at Deaddog
+convert b3 to y3 at Ausmuh
+build g3 at Deaddog
+build b3 at Ausmuh
+move g2 from Deaddog to Heap (b3)
+move b2 from Gwar to Lxsx (g3)

@@ -1,0 +1,48 @@
+Wil (0, y2b1) g3-
+Felix (1, b1g2) -b3
+build g1 at Wil
+build b1 at Felix
+build g1 at Wil
+convert b3 to g3 at Felix
+convert g1 to r1 at Wil
+build b2 at Felix
+build r1 at Wil
+convert b2 to r2 at Felix
+move r1 from Wil to B3 (b3)
+build b2 at Felix
+build r1 at Wil
+build r2 at Felix
+build r2 at Wil
+build r3 at Felix
+sacrifice g1 at Wil; build r3 at B3
+convert r3 to y3 at Felix
+convert r1 to y1 at B3
+move b2 from Felix to Nomans (g3)
+convert r2 to b2 at Wil
+build b2 at Nomans
+build g1 at Wil
+build b3 at Felix
+convert r3 to b3 at B3
+convert b3 to y3 at Felix
+move g1 from Wil to B3
+sacrifice y3 at Felix; move b1 from Felix to B3; move b2 from Nomans to Felix; move b2 from Felix to B3; catastrophe blue at B3
+move b2 from Wil to Y3 (y3)
+move g3 from Felix to Y3
+move b2 from Y3 to Y2 (y2)
+move y3 from Felix to Fulcrum (b3)
+build g1 at Wil
+convert r2 to y2 at Felix
+convert g1 to y1 at Wil
+sacrifice y2 at Felix; move y3 from Fulcrum to Wil; move g3 from Y3 to Wil
+capture g3 at Wil
+build r1 at Felix
+capture y3 at Wil
+convert r2 to y2 at Felix
+move y3 from Wil to Nomans
+build y1 at Felix
+move y1 from Wil to B3 (b3)
+convert y2 to g2 at Felix
+convert g3 to r3 at Wil
+convert b2 to y2 at Nomans
+sacrifice y3 at Nomans; move g3 from Wil to B3; move g3 from B3 to Felix
+sacrifice y2 at Nomans; move r1 from Felix to B3; move r1 from B3 to Wil; catastrophe red at Wil

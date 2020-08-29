@@ -1,0 +1,63 @@
+Babamots (0, b3r1) g3-
+Stormcrow (1, r3b2) -g3
+build g1 at Babamots
+build g1 at Stormcrow
+convert g1 to y1 at Babamots
+convert g1 to y1 at Stormcrow
+build g1 at Babamots
+build g1 at Stormcrow
+convert g1 to r1 at Babamots
+move g1 from Stormcrow to Zark (b1)
+build r1 at Babamots
+build g1 at Stormcrow
+move r1 from Babamots to Orion (g2)
+build g1 at Zark
+build r2 at Orion
+build g2 at Zark
+move y1 from Babamots to Orion
+convert g2 to r2 at Zark
+move r1 from Orion to Andoria (b1)
+build r2 at Zark
+sacrifice g3 at Babamots; build r3 at Babamots; build r3 at Orion; build y1 at Orion
+build g2 at Zark
+move r3 from Orion to Zark
+sacrifice y1 at Stormcrow; move r2 from Zark to Frobaz (y2)
+sacrifice r1 at Babamots; capture r2 at Zark
+build g2 at Zark; catastrophe green at Zark
+convert r3 to g3 at Zark
+convert g1 to y1 at Stormcrow
+build r1 at Orion
+build y2 at Stormcrow
+build r3 at Zark
+convert y2 to g2 at Stormcrow
+build y2 at Orion
+build y2 at Stormcrow
+move y1 from Orion to Zark
+move y1 from Stormcrow to Polaris (g1)
+sacrifice g3 at Zark; build y3 at Orion; build y3 at Zark; build y3 at Zark
+move y2 from Stormcrow to Zark; catastrophe yellow at Zark
+move y3 from Orion to Zark
+convert g2 to y2 at Stormcrow
+move y2 from Orion to Andoria
+build y1 at Polaris
+build y3 at Orion
+build y3 at Stormcrow
+move y1 from Orion to Betazed (b3)
+move y1 from Polaris to Romulus (b2)
+convert r3 to g3 at Zark
+move r2 from Frobaz to Polaris
+build r3 at Zark
+build y2 at Polaris
+convert r2 to b2 at Zark
+build r2 at Polaris
+build b1 at Zark
+move r2 from Polaris to Romulus
+convert r3 to b3 at Babamots
+build r3 at Polaris
+move r3 from Zark to Stormcrow
+capture r3 at Stormcrow
+sacrifice y3 at Orion; move r1 from Orion to Andoria; move r1 from Andoria to Stormcrow; move r1 from Andoria to Stormcrow; catastrophe red at Stormcrow
+convert r2 to g2 at Romulus
+sacrifice y2 at Andoria; move b2 from Zark to Stormcrow; move b1 from Zark to Stormcrow
+sacrifice r2 at Polaris; capture b1 at Stormcrow; capture b2 at Stormcrow
+sacrifice y3 at Zark; move g3 from Zark to Orion; move g3 from Orion to Babamots; move b3 from Babamots to Stormcrow; catastrophe blue at Stormcrow

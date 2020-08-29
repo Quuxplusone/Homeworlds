@@ -1,0 +1,39 @@
+Goulo (0, r3b2) g3-
+Wil (1, r1b2) -g3
+build g1 at Goulo
+build g1 at Wil
+convert g1 to y1 at Goulo
+convert g1 to y1 at Wil
+build g1 at Goulo
+build y1 at Wil
+build y2 at Goulo
+move y1 from Wil to B3 (b3)
+move y1 from Goulo to Smeraldeto (g1)
+build g1 at Wil
+build g2 at Goulo
+sacrifice g3 at Wil; build y2 at B3; build y2 at B3; build y3 at Wil
+move y1 from Smeraldeto to B3; catastrophe yellow at B3
+build g1 at Wil
+move g2 from Goulo to Citroneto (y1)
+build g2 at Wil
+sacrifice g3 at Goulo; build g2 at Citroneto; build g3 at Citroneto; build g3 at Goulo
+sacrifice y3 at Wil; move g1 from Wil to Y3 (y3); move g1 from Wil to Y3; move g1 from Y3 to Citroneto; catastrophe green at Citroneto
+build y1 at Goulo
+build y1 at Wil
+move y1 from Goulo to Rubeneto (r1)
+convert y1 to r1 at Wil
+move y1 from Rubeneto to Smeraldego (g3)
+build r1 at Wil
+build y1 at Goulo
+move r1 from Wil to Smeraldego
+move y1 from Smeraldego to Mirtelo (b2)
+build y2 at Wil
+move y1 from Goulo to Safireto (b1)
+move y2 from Wil to Smeraldego
+sacrifice g3 at Goulo; build y2 at Mirtelo; build y3 at Safireto; build y3 at Goulo
+build r2 at Smeraldego
+sacrifice y2 at Mirtelo; move y3 from Safireto to Y3; move y3 from Y3 to Wil
+build y2 at Wil
+capture g2 at Wil
+move y2 from Smeraldego to Wil; catastrophe yellow at Wil
+capture r1 at Wil

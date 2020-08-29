@@ -1,0 +1,42 @@
+Broccoli_Commander (0, r1b2) g3-
+Teeteetee (1, b1y3) -g3
+build g1 at Broccoli_Commander
+build g1 at Teeteetee
+convert g1 to y1 at Broccoli_Commander
+convert g1 to r1 at Teeteetee
+build y1 at Broccoli_Commander
+build r1 at Teeteetee
+build y1 at Broccoli_Commander
+build r2 at Teeteetee
+move y1 from Broccoli_Commander to Tomatoe (r3)
+move r1 from Teeteetee to Riemann (b2)
+build y2 at Broccoli_Commander
+sacrifice g3 at Teeteetee; build r2 at Riemann; build r2 at Riemann; build r3 at Teeteetee
+move y1 from Broccoli_Commander to Cherry (r3)
+convert r3 to g3 at Teeteetee
+move y1 from Broccoli_Commander to Chili (r3)
+convert r2 to y2 at Riemann
+sacrifice g3 at Broccoli_Commander; build y2 at Cherry; build y3 at Tomatoe; build y3 at Broccoli_Commander
+move y2 from Riemann to Fourier (g3)
+move y1 from Tomatoe to Strawberry (r2)
+convert r2 to g2 at Riemann
+convert y2 to r2 at Broccoli_Commander
+build y2 at Fourier
+sacrifice y1 at Strawberry; move y3 from Tomatoe to Riemann
+sacrifice g2 at Riemann; build r2 at Riemann; build r3 at Teeteetee
+sacrifice r2 at Broccoli_Commander; capture r1 at Riemann; capture r2 at Riemann
+move r3 from Teeteetee to Bernoulli (b2)
+convert r2 to g2 at Riemann
+convert r1 to b1 at Teeteetee
+convert y3 to b3 at Riemann
+sacrifice y2 at Fourier; move y2 from Fourier to Laplace (g2); move b1 from Teeteetee to Laplace
+build g1 at Riemann
+build b1 at Laplace
+build g1 at Riemann
+build b3 at Laplace
+sacrifice y2 at Cherry; move g1 from Riemann to Teeteetee; move g2 from Riemann to Teeteetee
+capture g2 at Teeteetee
+build g1 at Teeteetee; catastrophe green at Teeteetee
+move b3 from Laplace to Teeteetee
+build g1 at Riemann
+build b3 at Laplace

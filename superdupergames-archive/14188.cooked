@@ -1,0 +1,61 @@
+Werebear (0, g3y1) b3-
+Uglyfoot (1, y3b2) -g3
+build b1 at Werebear
+build g1 at Uglyfoot
+move b1 from Werebear to Juang (r2)
+move g1 from Uglyfoot to Basestar (r1)
+convert b1 to g1 at Juang
+build g1 at Uglyfoot
+build g2 at Juang
+build g2 at Basestar
+sacrifice g1 at Juang; build b1 at Werebear
+convert g1 to b1 at Uglyfoot
+convert b1 to y1 at Werebear
+move b1 from Uglyfoot to Basestar
+move y1 from Werebear to Juang
+convert g2 to y2 at Basestar
+build b1 at Werebear
+build g1 at Uglyfoot
+move b1 from Werebear to Juang
+convert g1 to r1 at Uglyfoot
+build g1 at Juang
+move b1 from Basestar to Forward (g2)
+build b1 at Werebear
+build b2 at Forward
+convert b3 to r3 at Werebear
+convert b2 to r2 at Forward
+build b2 at Werebear
+build g1 at Uglyfoot
+sacrifice g2 at Juang; build b2 at Werebear; build b3 at Juang
+sacrifice g3 at Uglyfoot; build b3 at Forward; build g2 at Basestar; build g2 at Uglyfoot
+build g3 at Juang
+sacrifice y2 at Basestar; move b1 from Forward to Werebear; move g1 from Basestar to Forward; catastrophe blue at Werebear
+build g3 at Juang
+build r1 at Forward
+move b3 from Juang to Werebear
+convert r2 to y2 at Forward
+move g3 from Juang to Pisang (y1)
+sacrifice y2 at Forward; move b3 from Forward to Pisang; move b3 from Pisang to Uglyfoot
+sacrifice g3 at Juang; build g3 at Juang; build r2 at Werebear; build y2 at Juang
+convert g2 to y2 at Uglyfoot
+move y2 from Juang to Bidla (b1)
+build r2 at Uglyfoot
+move r2 from Werebear to Matahari (y2)
+move y2 from Uglyfoot to Basestar
+sacrifice g3 at Juang; build y3 at Bidla; build y3 at Juang; build r3 at Matahari
+build r3 at Forward
+build b1 at Juang
+move g2 from Basestar to Outback (b3)
+move b1 from Juang to Pisang
+build g2 at Outback
+build g3 at Juang
+move y2 from Basestar to Forward
+sacrifice g3 at Juang; build g3 at Juang; build b2 at Juang; build b2 at Pisang
+move r1 from Forward to Werebear
+move b1 from Juang to Pedang (r1)
+move r1 from Uglyfoot to Pisang
+sacrifice y3 at Juang; move r3 from Matahari to Bidla; move b1 from Pedang to Uglyfoot; move b1 from Pisang to Uglyfoot; catastrophe blue at Uglyfoot
+build y3 at Forward
+sacrifice y2 at Bidla; move r3 from Bidla to Uglyfoot; move g3 from Pisang to Uglyfoot
+sacrifice y3 at Forward; move r3 from Forward to Werebear; move r1 from Pisang to Forward; move r1 from Forward to Werebear; catastrophe red at Werebear
+sacrifice r2 at Matahari; capture r2 at Uglyfoot; capture g1 at Uglyfoot

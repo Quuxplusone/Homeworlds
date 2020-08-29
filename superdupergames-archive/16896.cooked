@@ -1,0 +1,51 @@
+Dlwillson (0, b3r1) g3-
+Silenttitan (1, y2g3) -b3
+build g1 at Dlwillson
+build b1 at Silenttitan
+build g1 at Dlwillson
+move b1 from Silenttitan to Bluemoon (b1)
+convert g1 to b1 at Dlwillson
+convert b1 to g1 at Bluemoon
+convert g1 to r1 at Dlwillson
+build g1 at Bluemoon
+build r1 at Dlwillson
+convert g1 to y1 at Bluemoon
+build g1 at Dlwillson
+build y1 at Bluemoon
+convert g1 to y1 at Dlwillson
+move y1 from Bluemoon to Hagar (r2)
+build y2 at Dlwillson
+move g1 from Bluemoon to Yaz (y3)
+move y1 from Dlwillson to Ellboreoom (g2)
+build b1 at Silenttitan
+build b2 at Dlwillson
+convert b3 to y3 at Silenttitan
+build y2 at Dlwillson
+build b2 at Silenttitan
+move b2 from Dlwillson to Hagar
+sacrifice g1 at Yaz; build y3 at Hagar
+build y3 at Ellboreoom
+convert b2 to r2 at Silenttitan
+sacrifice y2 at Dlwillson; move r1 from Dlwillson to Hellboreboom (b2); move b2 from Hagar to Smellodoom (g1)
+convert y3 to g3 at Silenttitan
+move y1 from Ellboreoom to Smellodoom
+move y3 from Hagar to Smellodoom
+convert y1 to g1 at Smellodoom
+move y3 from Smellodoom to Redonk (g2)
+build g1 at Dlwillson
+sacrifice b1 at Silenttitan; convert y3 to r3 at Redonk
+sacrifice g3 at Dlwillson; build g2 at Smellodoom; build g3 at Dlwillson; build y1 at Ellboreoom
+sacrifice g3 at Silenttitan; build r2 at Redonk; build r3 at Silenttitan; build y2 at Bluemoon
+sacrifice g3 at Dlwillson; build r3 at Hellboreboom; build g3 at Dlwillson; build g3 at Dlwillson
+convert y2 to b2 at Bluemoon
+sacrifice y2 at Dlwillson; move r1 from Hellboreboom to Bestbuy (b1); move r3 from Hellboreboom to Bestbuy
+sacrifice b2 at Bluemoon; convert r3 to y3 at Redonk; convert r3 to b3 at Silenttitan
+sacrifice y3 at Ellboreoom; move b2 from Smellodoom to Silenttitan; move g1 from Smellodoom to Silenttitan; move r1 from Bestbuy to Ellboreoom
+sacrifice r2 at Redonk; capture b2 at Silenttitan; capture g1 at Silenttitan
+sacrifice g3 at Dlwillson; build r2 at Dlwillson; build r3 at Ellboreoom; build r3 at Bestbuy
+sacrifice g1 at Silenttitan; build y2 at Hagar
+sacrifice g3 at Dlwillson; build g1 at Smellodoom; build g3 at Dlwillson; build g3 at Dlwillson
+sacrifice y3 at Redonk; move r2 from Silenttitan to Bluemoon; move r2 from Bluemoon to Hagar; move r2 from Hagar to Dlwillson; catastrophe red at Dlwillson
+sacrifice y1 at Ellboreoom; move r3 from Bestbuy to Silenttitan
+convert y1 to r1 at Bluemoon
+sacrifice r3 at Ellboreoom; capture b3 at Silenttitan; capture b2 at Silenttitan

@@ -1,0 +1,39 @@
+Dodobirb (0, r2b1) g3-
+Squishy_Mage42 (1, r1b2) -g3
+build g1 at Dodobirb
+build g1 at Squishy_Mage42
+convert g1 to y1 at Dodobirb
+build g1 at Squishy_Mage42
+move y1 from Dodobirb to Greeny (g3)
+convert g1 to y1 at Squishy_Mage42
+build g1 at Dodobirb
+move g1 from Squishy_Mage42 to Bigblue (b3)
+convert g1 to y1 at Dodobirb
+build y2 at Squishy_Mage42
+build y2 at Dodobirb
+move y2 from Squishy_Mage42 to Bigblue
+build g1 at Dodobirb
+build y2 at Squishy_Mage42
+build y3 at Greeny
+move y1 from Squishy_Mage42 to Bigblue
+move g1 from Dodobirb to Solaris (y3)
+sacrifice y2 at Squishy_Mage42; move y1 from Bigblue to Dodobirb; move y2 from Bigblue to Dodobirb; catastrophe yellow at Dodobirb
+build y1 at Greeny
+build g1 at Squishy_Mage42
+build g2 at Solaris
+convert g1 to y1 at Squishy_Mage42
+move y1 from Greeny to Dodobirb
+move y1 from Squishy_Mage42 to Bigblue
+build g1 at Solaris
+convert g3 to y3 at Squishy_Mage42
+build y2 at Dodobirb
+build y2 at Bigblue
+convert y2 to r2 at Dodobirb
+convert y1 to r1 at Bigblue
+sacrifice g2 at Solaris; build g2 at Dodobirb; build y1 at Dodobirb
+convert g1 to r1 at Bigblue
+move r2 from Dodobirb to Greeny
+convert y2 to g2 at Bigblue
+move y1 from Dodobirb to Greeny
+build r2 at Bigblue
+build r3 at Greeny

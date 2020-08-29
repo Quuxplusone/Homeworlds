@@ -1,0 +1,52 @@
+Remneb (0, b1r2) g3-
+Silenttitan (1, b2r3) -g3
+build g1 at Remneb
+build g1 at Silenttitan
+convert g1 to b1 at Remneb
+convert g3 to b3 at Silenttitan
+build g1 at Remneb
+convert b3 to y3 at Silenttitan
+convert g1 to y1 at Remneb
+build y1 at Silenttitan
+build g1 at Remneb
+move y1 from Silenttitan to Killers (r1)
+move g1 from Remneb to Edinga (y3)
+move y1 from Killers to Areosmith (g3)
+build b1 at Remneb
+build y1 at Silenttitan
+build y2 at Remneb
+build y2 at Areosmith
+convert b1 to r1 at Remneb
+convert y1 to b1 at Silenttitan
+build b2 at Remneb
+move b1 from Silenttitan to Checkcheck (y1)
+convert b2 to r2 at Remneb
+build y2 at Silenttitan
+move r1 from Remneb to Lexington (y3)
+sacrifice b1 at Checkcheck; convert y2 to r2 at Areosmith
+move r1 from Lexington to Trenton (y2)
+convert y3 to g3 at Silenttitan
+move r1 from Trenton to Edinga
+move g1 from Silenttitan to Okgo (y1)
+move y1 from Remneb to Edinga
+build y2 at Areosmith
+build y3 at Remneb
+build y3 at Silenttitan
+move y1 from Edinga to Okgo
+build r1 at Areosmith
+move y2 from Remneb to Edinga
+sacrifice y2 at Silenttitan; move r2 from Areosmith to Remneb; move r1 from Areosmith to Remneb; catastrophe red at Remneb
+move r1 from Edinga to Okgo
+build y2 at Silenttitan
+capture g1 at Okgo
+convert y2 to b2 at Silenttitan
+move r1 from Okgo to Sangrilla (r3)
+move y2 from Areosmith to Tmbg (b1)
+build y2 at Remneb
+convert y2 to b2 at Tmbg
+move b1 from Remneb to Sangrilla
+build y2 at Areosmith
+move y2 from Remneb to Malvern (g2)
+sacrifice b2 at Tmbg; convert y2 to b2 at Areosmith; convert y1 to b1 at Areosmith
+sacrifice g3 at Remneb; build g1 at Edinga; build b3 at Sangrilla; build y1 at Malvern
+sacrifice y3 at Silenttitan; move b2 from Silenttitan to Remneb; move b2 from Areosmith to Remneb; move b1 from Areosmith to Remneb; catastrophe blue at Remneb

@@ -1,0 +1,8 @@
+Eugman (0, g1b2) g3-
+Rootbeer (1, y3b1) -g3
+build g1 at Eugman
+build g1 at Rootbeer
+convert g1 to y1 at Eugman
+move g1 from Rootbeer to Lisasimpson (y2)
+build g1 at Eugman
+build g2 at Lisasimpson

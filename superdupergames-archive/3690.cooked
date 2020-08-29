@@ -1,0 +1,27 @@
+Zoltar (0, b3g1) y3-
+Fnord (1, b2y1) -g3
+build y1 at Zoltar
+build g1 at Fnord
+move y1 from Zoltar to Z1 (b2)
+convert g1 to r1 at Fnord
+build y1 at Zoltar
+build g1 at Fnord
+move y1 from Zoltar to Z1
+build g1 at Fnord
+build y2 at Zoltar
+move g1 from Fnord to Discordia (r3)
+convert y2 to r2 at Zoltar
+build g2 at Fnord
+build y2 at Zoltar
+convert g2 to y2 at Fnord
+convert y2 to g2 at Zoltar
+build y2 at Fnord
+build y2 at Zoltar
+sacrifice y2 at Fnord; move y2 from Fnord to Discordia; move r1 from Fnord to Discordia
+move g2 from Zoltar to Z2 (y2)
+build y3 at Discordia
+sacrifice y2 at Zoltar; move y1 from Z1 to Discordia; move y1 from Z1 to Discordia; catastrophe yellow at Discordia
+move g3 from Fnord to Discordia
+build g2 at Z2
+convert g1 to y1 at Fnord
+build y1 at Zoltar

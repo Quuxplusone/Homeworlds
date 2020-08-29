@@ -1,0 +1,10 @@
+Thorolf (0, b3y2) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Thorolf
+build g1 at Ts52
+move g1 from Thorolf to Iota (r1)
+convert g1 to b1 at Ts52
+build g1 at Iota
+build b1 at Ts52
+build g1 at Iota
+build g2 at Ts52

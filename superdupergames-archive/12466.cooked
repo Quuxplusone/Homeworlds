@@ -1,0 +1,42 @@
+Madwuher (0, r1b2) g3-
+Zoltar (1, b1r3) -g3
+build g1 at Madwuher
+build g1 at Zoltar
+convert g1 to y1 at Madwuher
+convert g1 to y1 at Zoltar
+build g1 at Madwuher
+build g1 at Zoltar
+convert g1 to b1 at Madwuher
+convert g1 to b1 at Zoltar
+move b1 from Madwuher to Edora (g3)
+build b2 at Zoltar
+build b2 at Edora
+move b1 from Zoltar to Greenbelt (g2)
+convert b1 to r1 at Edora
+build y1 at Zoltar
+build y2 at Madwuher
+build y2 at Zoltar
+move y1 from Madwuher to Edora
+convert y1 to r1 at Zoltar
+build r2 at Edora
+move y2 from Zoltar to Greenbelt
+move r2 from Edora to Bologna (y2)
+move r1 from Zoltar to Greenbelt
+build r2 at Edora
+build r2 at Greenbelt
+convert r1 to g1 at Edora
+convert r1 to g1 at Greenbelt
+move g1 from Edora to Bologna
+move g1 from Greenbelt to Yellowstone (y3)
+build g1 at Madwuher
+build g2 at Yellowstone
+sacrifice g1 at Madwuher; build r1 at Bologna
+sacrifice g3 at Zoltar; build y1 at Zoltar; build y3 at Zoltar; build y3 at Greenbelt
+move r1 from Bologna to Camelot (b3)
+move y3 from Greenbelt to Edora
+sacrifice b2 at Edora; convert y1 to g1 at Edora; convert r2 to g2 at Edora
+move y3 from Edora to Bologna
+sacrifice g2 at Edora; build g2 at Bologna; build g3 at Madwuher
+sacrifice y2 at Greenbelt; move g1 from Yellowstone to Madwuher; move g2 from Yellowstone to Madwuher; catastrophe green at Madwuher
+move g2 from Bologna to Camelot
+sacrifice y3 at Zoltar; move y1 from Zoltar to Greenbelt; move y3 from Bologna to Camelot; move y3 from Camelot to Madwuher

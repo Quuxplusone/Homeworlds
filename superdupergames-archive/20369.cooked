@@ -1,0 +1,66 @@
+Thejackdiaz (0, r1b2) g3-
+Ajo (1, g3b1) -r3
+build g1 at Thejackdiaz
+build r1 at Ajo
+convert g1 to y1 at Thejackdiaz
+convert r3 to y3 at Ajo
+build g1 at Thejackdiaz
+build r1 at Ajo
+move g1 from Thejackdiaz to Spike (y3)
+build r2 at Ajo
+build y1 at Thejackdiaz
+move r2 from Ajo to Waypoint (y2)
+move g1 from Spike to Jet (b2)
+move r1 from Ajo to Jet
+convert g1 to y1 at Jet
+capture y1 at Jet
+build y2 at Thejackdiaz
+build r2 at Ajo
+convert y2 to r2 at Thejackdiaz
+convert r1 to g1 at Jet
+build y2 at Thejackdiaz
+build y2 at Jet
+move y2 from Thejackdiaz to Ed (b3)
+build y3 at Ajo
+move y2 from Ed to Valentine (g2)
+move y3 from Ajo to Valentine
+build y3 at Valentine
+sacrifice r2 at Ajo; capture y2 at Valentine; capture y3 at Valentine
+move r2 from Thejackdiaz to Silas (g3)
+move y3 from Valentine to Silas
+sacrifice y1 at Thejackdiaz; move r2 from Silas to Thejackdiaz
+build y1 at Silas
+build g1 at Thejackdiaz
+move r2 from Waypoint to Silas
+convert g1 to b1 at Thejackdiaz
+build y2 at Jet
+build g1 at Thejackdiaz
+convert y1 to r1 at Jet
+build y1 at Thejackdiaz
+sacrifice y3 at Valentine; move r1 from Jet to Silas; move r1 from Silas to Thejackdiaz; move r2 from Silas to Thejackdiaz; catastrophe red at Thejackdiaz
+convert y1 to r1 at Thejackdiaz
+convert y2 to b2 at Jet
+move g1 from Thejackdiaz to Iv (b3)
+build b1 at Jet
+move b1 from Thejackdiaz to Iv
+convert b2 to r2 at Jet
+build g1 at Iv
+move b1 from Jet to Iv
+convert b1 to r1 at Iv
+sacrifice r2 at Jet; capture r1 at Iv; capture g1 at Iv
+build r2 at Thejackdiaz
+build r2 at Iv
+sacrifice r1 at Thejackdiaz; capture g1 at Iv
+capture g1 at Iv
+build g2 at Thejackdiaz
+capture g1 at Iv
+convert g2 to y2 at Thejackdiaz
+sacrifice y2 at Valentine; move g1 from Iv to Thejackdiaz; move g1 from Iv to Thejackdiaz
+capture g1 at Thejackdiaz
+build g2 at Thejackdiaz; catastrophe green at Thejackdiaz
+convert y2 to g2 at Thejackdiaz
+move y3 from Silas to Thejackdiaz
+build r1 at Thejackdiaz
+sacrifice r2 at Iv; capture r2 at Thejackdiaz; capture g2 at Thejackdiaz
+convert y1 to g1 at Thejackdiaz
+sacrifice r2 at Thejackdiaz; capture g1 at Thejackdiaz; capture r1 at Thejackdiaz

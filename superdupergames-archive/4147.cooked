@@ -1,0 +1,44 @@
+Uglyfoot (0, b3y1) g3-
+Antihero (1, b2y3) -g3
+build g1 at Uglyfoot
+build g1 at Antihero
+move g1 from Uglyfoot to Trader (b2)
+convert g1 to y1 at Antihero
+build g1 at Uglyfoot
+build y1 at Antihero
+build g1 at Uglyfoot
+build g2 at Antihero
+sacrifice g3 at Uglyfoot; build g2 at Trader; build g2 at Trader; build g3 at Uglyfoot
+build g3 at Antihero
+convert g2 to y2 at Trader
+move g3 from Antihero to Switch (b1)
+move g1 from Trader to Battlestar (r1)
+build g2 at Switch
+convert g1 to r1 at Uglyfoot
+convert g2 to r2 at Antihero
+sacrifice g3 at Uglyfoot; build g1 at Trader; build g2 at Battlestar; build g3 at Uglyfoot
+move y1 from Antihero to Switch
+sacrifice y2 at Trader; move g1 from Trader to Switch; move g2 from Trader to Switch; catastrophe green at Switch
+build y2 at Antihero
+convert g1 to b1 at Uglyfoot
+move y2 from Antihero to Switch
+sacrifice b1 at Uglyfoot; convert g2 to y2 at Battlestar
+convert y1 to g1 at Switch
+build g1 at Uglyfoot
+build g2 at Antihero
+build g2 at Battlestar
+move g2 from Antihero to Switch
+move g1 from Uglyfoot to Movinout (y2)
+move g2 from Switch to Chillin (y3)
+build r1 at Uglyfoot
+build r2 at Antihero
+convert r1 to b1 at Uglyfoot
+move g2 from Chillin to Movinout
+build g2 at Movinout
+build g3 at Switch
+move g1 from Movinout to Switch
+convert g1 to b1 at Switch
+sacrifice r1 at Uglyfoot; capture g2 at Movinout
+sacrifice y2 at Switch; move g3 from Switch to Movinout; move g3 from Movinout to Uglyfoot
+convert g3 to r3 at Uglyfoot
+sacrifice r2 at Antihero; capture b1 at Uglyfoot; capture r3 at Uglyfoot

@@ -1,0 +1,33 @@
+Dlwillson (0, y3b1) g3-
+Felix (1, b1g3) -b3
+build g1 at Dlwillson
+build b1 at Felix
+build g1 at Dlwillson
+convert b3 to y3 at Felix
+move g1 from Dlwillson to Sold (y2)
+build b2 at Felix
+build g1 at Sold
+move b1 from Felix to Out (g2)
+move g1 from Sold to Felix
+convert b2 to r2 at Felix
+sacrifice g3 at Dlwillson; build g2 at Felix; build g2 at Sold; build g3 at Dlwillson
+build r1 at Felix
+sacrifice g2 at Sold; build g2 at Felix; build g3 at Dlwillson; catastrophe green at Felix
+build b2 at Out
+convert g3 to r3 at Dlwillson
+build b2 at Out
+build r1 at Dlwillson
+convert b2 to y2 at Out
+move r3 from Dlwillson to Out
+build b2 at Out
+capture y2 at Out
+sacrifice b2 at Out; convert b1 to r1 at Out; convert b2 to r2 at Out
+sacrifice r3 at Out; capture r2 at Out; capture r1 at Out
+convert r1 to g1 at Felix
+convert g1 to b1 at Dlwillson
+build g1 at Felix
+build b2 at Dlwillson
+build y1 at Felix
+move b2 from Dlwillson to Sold
+move g1 from Felix to Hope (b3)
+sacrifice g3 at Dlwillson; build b2 at Sold; build b2 at Sold; build b3 at Dlwillson

@@ -1,0 +1,86 @@
+Ryzorrin (0, b2r1) g3-
+Ts52 (1, b2y3) -g3
+build g1 at Ryzorrin
+build g1 at Ts52
+convert g1 to y1 at Ryzorrin
+build g1 at Ts52
+build y1 at Ryzorrin
+move g1 from Ts52 to Gonzo (b1)
+convert y1 to b1 at Ryzorrin
+convert g1 to y1 at Ts52
+build g1 at Ryzorrin
+move y1 from Ts52 to Gonzo
+move g1 from Ryzorrin to Click (b3)
+build g1 at Ts52
+build g2 at Click
+build g2 at Gonzo
+convert g2 to y2 at Click
+convert g2 to b2 at Gonzo
+build g2 at Click
+build g2 at Gonzo
+convert g2 to r2 at Click
+convert g1 to r1 at Ts52
+build g1 at Ryzorrin
+build g2 at Ts52
+sacrifice g3 at Ryzorrin; build g2 at Click; build b1 at Ryzorrin; build g3 at Ryzorrin
+move b2 from Gonzo to Kermit (g3)
+move b1 from Ryzorrin to Knock (y3)
+sacrifice g3 at Ts52; build g3 at Ts52; build b3 at Kermit; build b3 at Kermit
+move b1 from Ryzorrin to Kermit; catastrophe blue at Kermit
+move g2 from Gonzo to Kermit (g3)
+move r2 from Click to Gonzo
+move g2 from Ts52 to Bigbird (y1)
+capture y1 at Gonzo
+sacrifice g2 at Kermit; build g2 at Ts52; build g3 at Gonzo
+sacrifice g3 at Ryzorrin; build g3 at Ryzorrin; build y2 at Gonzo; build y2 at Click
+sacrifice r1 at Ts52; capture r2 at Gonzo
+build y3 at Ryzorrin
+sacrifice g3 at Gonzo; build g3 at Gonzo; build r1 at Gonzo; build r1 at Gonzo
+sacrifice b1 at Knock; convert y2 to r2 at Gonzo; catastrophe red at Gonzo
+convert g1 to r1 at Gonzo
+move y1 from Gonzo to Tap (r3)
+convert g3 to y3 at Gonzo
+move g2 from Click to Clap (b1)
+sacrifice g3 at Ts52; build g1 at Bigbird; build g3 at Ts52; build y2 at Gonzo
+build g3 at Clap
+convert g2 to r2 at Ts52
+convert g3 to r3 at Clap
+move y3 from Gonzo to Tap
+move y3 from Ryzorrin to Thud (b3)
+capture y1 at Tap
+sacrifice g3 at Ryzorrin; build g2 at Click; build g3 at Clap; build g3 at Ryzorrin
+sacrifice g2 at Bigbird; build r1 at Ts52; build r2 at Gonzo
+move g1 from Click to Clap
+convert r2 to b2 at Ts52
+sacrifice y3 at Thud; move g3 from Clap to Ts52; move g1 from Clap to Ts52; move g2 from Clap to Ts52; catastrophe green at Ts52
+sacrifice y2 at Gonzo; move y3 from Tap to Gonzo; move y3 from Gonzo to Ts52
+move g2 from Click to Clap
+move b2 from Ts52 to Bigbird
+convert y2 to g2 at Click
+build b1 at Bigbird
+build r2 at Clap
+build b3 at Bigbird
+convert r3 to b3 at Clap
+move b3 from Bigbird to Tap
+sacrifice y2 at Click; move r2 from Clap to Click; move r2 from Click to Bigbird
+sacrifice r1 at Gonzo; capture r2 at Bigbird
+sacrifice g3 at Ryzorrin; build g1 at Click; build g2 at Clap; build g3 at Ryzorrin
+build g3 at Bigbird
+sacrifice g3 at Ryzorrin; build g3 at Clap; build g3 at Ryzorrin; build y2 at Ryzorrin
+move g1 from Bigbird to Tap
+convert g3 to r3 at Clap
+build g3 at Tap
+sacrifice g1 at Ryzorrin; build r1 at Clap
+sacrifice g3 at Tap; build g1 at Bigbird; build g3 at Tap; build y2 at Tap
+convert g2 to y2 at Clap
+move g3 from Bigbird to Zoe (y3)
+convert g2 to r2 at Click
+build r3 at Bigbird
+move r3 from Clap to Zoe
+sacrifice r1 at Ts52; capture r3 at Zoe
+sacrifice y2 at Clap; move r1 from Clap to Ts52; move b3 from Clap to Ts52
+sacrifice r2 at Bigbird; capture r1 at Ts52; capture b3 at Ts52
+build g2 at Clap
+sacrifice y3 at Ts52; move b3 from Tap to Ryzorrin; move g3 from Tap to Ryzorrin; move g3 from Zoe to Ryzorrin
+sacrifice r2 at Click; capture b3 at Ryzorrin; capture g3 at Ryzorrin
+sacrifice r3 at Bigbird; capture g3 at Ryzorrin; capture g3 at Ryzorrin; capture b3 at Ryzorrin

@@ -1,0 +1,90 @@
+Dlwillson (0, b3y1) g3-
+Wil (1, y2b1) -g3
+build g1 at Dlwillson
+build g1 at Wil
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Wil
+build y2 at Dlwillson
+build y2 at Wil
+move y1 from Dlwillson to Field (g2)
+move y1 from Wil to G3 (g3)
+build y3 at Field
+build y3 at G3
+convert y2 to r2 at Dlwillson
+convert y2 to r2 at Wil
+move y1 from Field to Sky (b3)
+move y3 from G3 to G2 (g2)
+build y2 at Field
+build y2 at G3
+convert y1 to g1 at Sky
+build r1 at Wil
+move y2 from Field to Sky
+move r2 from Wil to Y3 (y3)
+build g1 at Dlwillson
+build g1 at Wil
+sacrifice g3 at Dlwillson; build g2 at Sky; build y1 at Field; build g3 at Dlwillson
+build r1 at Wil
+sacrifice y3 at Field; move g2 from Sky to Wil; move g1 from Sky to Wil; move y2 from Sky to Wil; catastrophe green at Wil
+move y2 from G3 to Wil
+build y3 at Field
+capture y2 at Wil
+move y3 from Field to Y3
+move y1 from G3 to B2 (b2)
+build r1 at Dlwillson
+move y1 from B2 to Y3
+move y3 from Y3 to Wil; catastrophe yellow at Wil
+convert r1 to g1 at Wil
+move r2 from Dlwillson to Field
+build g1 at Wil
+convert g1 to b1 at Dlwillson
+build y2 at G2
+build y2 at Field
+move y3 from G2 to Wil
+build b1 at Dlwillson
+build y2 at Wil
+move y1 from Field to Wil
+build y3 at G2
+move y2 from Field to Wil; catastrophe yellow at Wil
+build y1 at G2
+move b1 from Dlwillson to Field
+move y3 from G2 to Wil
+build b2 at Field
+move y3 from Wil to Field
+convert r2 to y2 at Field
+sacrifice r2 at Y3; capture y2 at Field; capture b2 at Field
+build b2 at Field
+sacrifice r1 at Wil; capture b2 at Field
+build b2 at Field; catastrophe blue at Field
+build y2 at Field
+build b1 at Dlwillson
+convert g1 to r1 at Wil
+move b1 from Dlwillson to Forest (g2)
+build y3 at G2
+build b2 at Dlwillson
+build r1 at Wil
+build r2 at Dlwillson
+build r2 at Wil
+move r2 from Dlwillson to Forest
+convert r2 to b2 at Wil
+move b2 from Dlwillson to Field
+build r2 at Wil
+build b2 at Field
+sacrifice r2 at Wil; capture b2 at Field; capture b2 at Field
+move b1 from Dlwillson to Mars (r2)
+build b3 at Wil
+build b3 at Forest
+sacrifice y2 at Field; move b2 from Wil to Forest; move b3 from Wil to Forest; catastrophe blue at Forest
+sacrifice b1 at Mars; convert r2 to y2 at Forest
+move y3 from G2 to Wil
+build r2 at Dlwillson
+build r2 at Wil
+move r2 from Dlwillson to Forest
+move r2 from Wil to Y3
+build r2 at Dlwillson
+convert r1 to b1 at Wil
+build g1 at Dlwillson
+move b1 from Wil to G2
+move r2 from Dlwillson to Sky (b2)
+sacrifice y3 at Field; move b2 from Field to Dlwillson; move b2 from Field to Dlwillson; move b1 from G2 to Dlwillson; catastrophe blue at Dlwillson
+sacrifice g3 at Dlwillson; build r1 at Sky; build r3 at Forest; build r3 at Dlwillson
+sacrifice y3 at Wil; move y2 from Field to Dlwillson; move y2 from G2 to Dlwillson; move y1 from G2 to Dlwillson; catastrophe yellow at Dlwillson

@@ -1,0 +1,29 @@
+Zoltar (0, y2b1) g3-
+Uglyfoot (1, y1b3) -g3
+build g1 at Zoltar
+build g1 at Uglyfoot
+convert g1 to y1 at Zoltar
+build g1 at Uglyfoot
+build g1 at Zoltar
+move g1 from Uglyfoot to Nexus (y2)
+convert g1 to r1 at Zoltar
+convert g1 to r1 at Uglyfoot
+build g1 at Zoltar
+build g1 at Uglyfoot
+build g2 at Zoltar
+sacrifice g3 at Uglyfoot; build g2 at Nexus; build g2 at Nexus; build g3 at Uglyfoot
+convert g2 to y2 at Zoltar
+move g2 from Nexus to Sanguine (r3)
+move y2 from Zoltar to Greenbelt (g3)
+move g2 from Nexus to Extension (b3)
+sacrifice g3 at Zoltar; build y1 at Zoltar; build g2 at Zoltar; build g3 at Zoltar
+convert g3 to y3 at Uglyfoot
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Greenbelt; build y3 at Greenbelt
+build g3 at Extension
+convert y1 to b1 at Zoltar
+sacrifice g3 at Extension; build y1 at Uglyfoot; build r1 at Uglyfoot; build g3 at Extension
+sacrifice y3 at Greenbelt; move y1 from Zoltar to Greenbelt; move y1 from Greenbelt to Nexus; move y1 from Nexus to Uglyfoot; catastrophe yellow at Uglyfoot
+convert g3 to y3 at Extension
+sacrifice y3 at Greenbelt; move b1 from Zoltar to Uglyfoot; move g1 from Zoltar to Uglyfoot; move g2 from Zoltar to Uglyfoot
+sacrifice g2 at Sanguine; build g2 at Uglyfoot; build g3 at Extension; catastrophe green at Uglyfoot
+sacrifice g3 at Zoltar; build b1 at Uglyfoot; build b2 at Uglyfoot; build b2 at Uglyfoot; catastrophe blue at Uglyfoot

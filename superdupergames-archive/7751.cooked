@@ -1,0 +1,76 @@
+Lexicon (0, r1b2) g3-
+Mikeyarrum (1, b3r2) -g3
+build g1 at Lexicon
+build g1 at Mikeyarrum
+convert g1 to y1 at Lexicon
+convert g3 to y3 at Mikeyarrum
+build y1 at Lexicon
+build g1 at Mikeyarrum
+move y1 from Lexicon to One (g3)
+move g1 from Mikeyarrum to Tomo (b1)
+build y1 at One
+build y2 at Mikeyarrum
+build y2 at Lexicon
+move y2 from Mikeyarrum to Tomo
+move y1 from One to Two (b2)
+convert g1 to b1 at Mikeyarrum
+build g1 at Lexicon
+move b1 from Mikeyarrum to Osaka (g1)
+build y2 at One
+build y3 at Tomo
+sacrifice g1 at Lexicon; build y3 at Two
+convert y2 to r2 at Tomo
+convert y1 to g1 at Two
+build g2 at Tomo
+build g2 at Two
+build r1 at Tomo
+convert g2 to r2 at Two
+move g2 from Tomo to Yukari (r3)
+move g1 from Two to Three (b1)
+build g2 at Yukari
+build g2 at Three
+build g3 at Tomo
+convert y2 to b2 at Lexicon
+build b3 at Osaka
+convert g1 to y1 at Three
+build y2 at Tomo
+sacrifice y3 at Two; move y1 from Lexicon to One; move y1 from One to Tomo; move y1 from One to Tomo; catastrophe yellow at Tomo
+convert b3 to y3 at Osaka
+build g1 at Three
+build b3 at Osaka
+move g1 from Three to Yukari
+move b3 from Osaka to One
+sacrifice g2 at Three; build g2 at Yukari; build y1 at Three; catastrophe green at Yukari
+sacrifice r1 at Tomo; capture y2 at One
+convert y1 to g1 at Three
+convert b3 to r3 at One
+build g2 at Lexicon
+move r3 from One to Two
+sacrifice y1 at Three; move r2 from Two to Four (y1)
+build b3 at Osaka
+sacrifice g3 at Lexicon; build g2 at Three; build g2 at Three; build g3 at Lexicon
+sacrifice y2 at One; move g1 from Tomo to Two; move g1 from Two to Three; catastrophe green at Three
+convert g2 to y2 at Lexicon
+move b3 from Osaka to Kagura (y3)
+move b2 from Lexicon to Kagura
+build y1 at Osaka
+move b2 from Kagura to Five (g1)
+sacrifice y1 at Osaka; move r3 from Two to Five
+sacrifice b2 at Five; convert r2 to g2 at Four; convert y2 to g2 at Lexicon
+build b1 at Osaka
+build g1 at Four
+convert b3 to g3 at Kagura
+move g1 from Four to Six (b2)
+move b1 from Osaka to Kagura
+build g2 at Six
+build b2 at Kagura
+convert g1 to r1 at Six
+build b3 at Osaka
+sacrifice g3 at Lexicon; build g1 at Six; build g3 at Lexicon; build r1 at Six
+build b3 at Kagura
+convert r1 to y1 at Six
+sacrifice y3 at Osaka; move b1 from Kagura to Lexicon; move b2 from Kagura to Lexicon; move b3 from Kagura to Lexicon
+sacrifice g3 at Lexicon; build g3 at Lexicon; build y1 at Six; build y2 at Six; catastrophe blue at Lexicon
+convert b3 to y3 at Osaka
+sacrifice g3 at Lexicon; build g3 at Four; build r1 at Six; build r2 at Six
+move g3 from Kagura to Lexicon

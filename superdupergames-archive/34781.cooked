@@ -1,0 +1,50 @@
+Ajo (0, r3b2) g3-
+Dodobirb (1, b1r2) -g3
+build g1 at Ajo
+build g1 at Dodobirb
+convert g1 to y1 at Ajo
+build g1 at Dodobirb
+build y1 at Ajo
+convert g1 to y1 at Dodobirb
+move y1 from Ajo to Alpha (b1)
+move g1 from Dodobirb to Bluey (b3)
+build y2 at Ajo
+build y2 at Dodobirb
+build y2 at Ajo
+build y3 at Dodobirb
+sacrifice y2 at Ajo; move y1 from Alpha to Bluey; move y1 from Bluey to Dodobirb; catastrophe yellow at Dodobirb
+build g1 at Dodobirb
+move y2 from Ajo to Alpha (b1)
+convert g1 to b1 at Dodobirb
+build g1 at Ajo
+build g1 at Dodobirb
+convert g1 to r1 at Ajo
+convert g1 to r1 at Dodobirb
+move y2 from Alpha to Bluey
+sacrifice g1 at Bluey; build g1 at Dodobirb
+build g1 at Ajo
+convert g1 to y1 at Dodobirb
+convert g1 to b1 at Ajo
+build b2 at Dodobirb
+build b2 at Ajo
+move b2 from Dodobirb to Greeny (g3)
+convert b2 to y2 at Ajo
+build b2 at Greeny
+build b3 at Ajo
+build b3 at Dodobirb
+move b3 from Ajo to Alpha (g1)
+convert b2 to y2 at Greeny
+sacrifice y2 at Ajo; move b3 from Alpha to Bluey; move b3 from Bluey to Dodobirb; catastrophe blue at Dodobirb
+build b1 at Greeny
+convert y2 to g2 at Bluey
+convert b2 to y2 at Greeny
+build g1 at Bluey
+move r1 from Dodobirb to Greeny
+convert g1 to y1 at Bluey
+build r1 at Greeny
+sacrifice g2 at Bluey; build y2 at Ajo; build y3 at Bluey
+build b1 at Greeny
+move y3 from Bluey to Waypoint (g1)
+move y1 from Dodobirb to Smallg (g1)
+sacrifice y1 at Ajo; move r1 from Ajo to Waypoint
+build g1 at Dodobirb

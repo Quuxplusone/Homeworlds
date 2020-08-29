@@ -1,0 +1,44 @@
+Icalvinist (0, b2y1) g3-
+Wil (1, b3y2) -g3
+build g1 at Icalvinist
+build g1 at Wil
+move g1 from Icalvinist to Odin (y3)
+convert g1 to y1 at Wil
+build g1 at Icalvinist
+build y1 at Wil
+move g1 from Icalvinist to Tyr (y3)
+move y1 from Wil to G1 (g1)
+build g2 at Icalvinist
+sacrifice g3 at Wil; build y2 at G1; build y2 at G1; build y3 at Wil
+sacrifice g3 at Icalvinist; build g2 at Icalvinist; build g2 at Icalvinist; build g3 at Odin
+convert y3 to g3 at Wil
+build g3 at Tyr
+build y3 at Wil
+convert g2 to b2 at Icalvinist
+build g2 at Wil
+build b1 at Icalvinist
+convert g2 to b2 at Wil
+sacrifice b1 at Icalvinist; convert g3 to r3 at Odin
+move y2 from G1 to G3 (g3)
+sacrifice g3 at Tyr; build g2 at Odin; build g3 at Tyr; build r1 at Odin
+convert y1 to r1 at Wil
+sacrifice b2 at Icalvinist; convert g1 to y1 at Odin; convert g2 to b2 at Icalvinist
+build r1 at Wil
+sacrifice g3 at Tyr; build g1 at Odin; build g2 at Tyr; build g3 at Icalvinist
+sacrifice y2 at G3; move y1 from G1 to Odin; move y2 from G1 to Odin; catastrophe yellow at Odin
+convert g2 to y2 at Icalvinist
+build r1 at Wil
+move g1 from Tyr to Odin (y1)
+move r1 from Wil to Odin
+move g1 from Odin to Thor (y3)
+build r2 at Wil
+convert g3 to r3 at Icalvinist
+move r1 from Odin to Thor
+sacrifice g1 at Thor; build g1 at Tyr
+move r1 from Wil to B1 (b1)
+move r3 from Icalvinist to Loki (g3)
+sacrifice g3 at Wil; build r2 at Wil; build r2 at B1; build r3 at Thor
+sacrifice y2 at Icalvinist; move r3 from Loki to B1; move r3 from B1 to Wil; catastrophe red at Wil
+move r3 from Thor to Icalvinist
+move g2 from Tyr to Icalvinist
+sacrifice r2 at B1; capture b2 at Icalvinist; capture g2 at Icalvinist

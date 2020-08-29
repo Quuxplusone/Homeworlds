@@ -1,0 +1,41 @@
+Mneme (0, b3r1) g3-
+Stoneaxe (1, y3b2) -g3
+build g1 at Mneme
+build g1 at Stoneaxe
+convert g1 to y1 at Mneme
+convert g1 to r1 at Stoneaxe
+build y1 at Mneme
+build r1 at Stoneaxe
+build y1 at Mneme
+build r2 at Stoneaxe
+move y1 from Mneme to Apple (g2)
+move r1 from Stoneaxe to Zed (g1)
+build y2 at Mneme
+convert r2 to y2 at Stoneaxe
+convert y2 to r2 at Mneme
+build r2 at Stoneaxe
+move r2 from Mneme to Apple
+move r2 from Stoneaxe to Zed
+build y2 at Apple
+sacrifice g3 at Stoneaxe; build r2 at Zed; build r3 at Stoneaxe; build r3 at Stoneaxe
+sacrifice y2 at Apple; move r2 from Apple to Zed; move r2 from Zed to Stoneaxe; catastrophe red at Stoneaxe
+convert y2 to g2 at Stoneaxe
+build y2 at Mneme
+build g1 at Stoneaxe
+move y2 from Mneme to Gambit (g2)
+move g1 from Stoneaxe to Gamma (g1)
+move y1 from Apple to Heart (g3)
+sacrifice g1 at Gamma; build g1 at Stoneaxe
+sacrifice g3 at Mneme; build y2 at Gambit; build y2 at Heart; build y3 at Mneme
+convert g1 to b1 at Stoneaxe
+build y3 at Gambit
+build b1 at Stoneaxe
+convert y3 to g3 at Mneme
+move b1 from Stoneaxe to Zed
+build y3 at Mneme
+build b1 at Zed
+convert y3 to r3 at Mneme
+build b2 at Stoneaxe
+sacrifice y2 at Gambit; move y3 from Gambit to Zed; move y3 from Zed to Stoneaxe
+build b2 at Stoneaxe
+sacrifice r3 at Mneme; capture b2 at Stoneaxe; capture g2 at Stoneaxe; capture b2 at Stoneaxe; catastrophe blue at Stoneaxe

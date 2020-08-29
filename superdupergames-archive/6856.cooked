@@ -1,0 +1,11 @@
+Guymauve (0, g3b2) y3-
+Josser (1, g3b2) -y3
+build y1 at Guymauve
+build y1 at Josser
+move y3 from Guymauve to Kaka (r1)
+convert y3 to g3 at Josser
+build y1 at Guymauve
+sacrifice g3 at Josser; build y2 at Josser; build y2 at Josser
+build y2 at Guymauve
+build y3 at Josser
+move y2 from Guymauve to Kaka; catastrophe yellow at Josser

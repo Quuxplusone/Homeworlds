@@ -1,0 +1,21 @@
+Madwuher (0, y1b2) g3-
+Wmreed (1, b3g2) -y3
+build g1 at Madwuher
+build y1 at Wmreed
+convert g1 to y1 at Madwuher
+build y2 at Wmreed
+build g1 at Madwuher
+convert y1 to g1 at Wmreed
+move g1 from Madwuher to Edora (y3)
+move y2 from Wmreed to Arthur (r1)
+move g1 from Edora to Bologna (y1)
+build y2 at Wmreed
+move g1 from Bologna to Wmreed
+convert y2 to r2 at Wmreed
+build g1 at Wmreed; catastrophe green at Wmreed
+move y2 from Arthur to Wmreed
+convert y1 to r1 at Madwuher
+convert y2 to g2 at Wmreed
+build g1 at Madwuher
+build y1 at Wmreed
+move g1 from Madwuher to Edora (y3)

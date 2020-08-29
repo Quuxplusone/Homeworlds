@@ -1,0 +1,70 @@
+Dlwillson (0, b3r1) g3-
+Danner (1, b1y2) -g3
+build g1 at Dlwillson
+build g1 at Danner
+convert g1 to b1 at Dlwillson
+convert g1 to b1 at Danner
+build b2 at Dlwillson
+build b2 at Danner
+build g1 at Dlwillson
+move b2 from Danner to Artemus (y3)
+convert b2 to y2 at Dlwillson
+build b2 at Danner
+move b1 from Dlwillson to Jimwest (g2)
+convert b1 to r1 at Danner
+convert g1 to r1 at Dlwillson
+build r2 at Danner
+build r2 at Dlwillson
+build r2 at Danner
+move r1 from Dlwillson to Jimwest
+convert r2 to y2 at Danner
+build r2 at Jimwest
+move r1 from Danner to Artemus
+convert r1 to y1 at Jimwest
+build g1 at Danner
+build y1 at Jimwest
+move b2 from Danner to Garrett (y3)
+build y1 at Dlwillson
+move g1 from Danner to Gamall (y3)
+move y1 from Jimwest to Miguelito (b3)
+move y2 from Danner to Builder (r3)
+move r2 from Dlwillson to Ulysses (b2)
+sacrifice g1 at Gamall; build y3 at Builder
+convert y2 to g2 at Dlwillson
+move y3 from Builder to Jimwest
+move r2 from Jimwest to Miguelito
+move y3 from Jimwest to Miguelito
+convert r2 to y2 at Miguelito
+move y3 from Miguelito to Ulysses
+sacrifice y1 at Jimwest; move r2 from Ulysses to Miguelito
+convert b2 to g2 at Garrett
+convert y1 to g1 at Miguelito
+move y3 from Ulysses to Miguelito
+sacrifice g2 at Dlwillson; build y1 at Miguelito; build y1 at Miguelito; catastrophe yellow at Miguelito
+move g3 from Danner to Miguelito
+convert r2 to g2 at Miguelito
+convert g3 to r3 at Miguelito
+build g1 at Dlwillson
+capture g2 at Miguelito
+move g1 from Dlwillson to Train (b2)
+capture g1 at Miguelito
+build g1 at Train
+convert g1 to y1 at Miguelito
+build g1 at Dlwillson
+build g3 at Miguelito
+convert g3 to y3 at Dlwillson
+sacrifice g3 at Miguelito; build g3 at Miguelito; build g3 at Miguelito; build g3 at Garrett
+sacrifice y1 at Dlwillson; move g1 from Train to Miguelito; catastrophe green at Miguelito
+move r3 from Miguelito to Train
+build y1 at Dlwillson
+capture g1 at Train
+move y1 from Dlwillson to Jimwest
+move r1 from Artemus to Jimwest
+build y1 at Jimwest
+capture y1 at Jimwest
+build y2 at Dlwillson
+capture y1 at Jimwest
+convert y2 to r2 at Dlwillson
+sacrifice g3 at Garrett; build r1 at Train; build r2 at Danner; build y2 at Jimwest
+build r3 at Dlwillson
+sacrifice y2 at Jimwest; move r1 from Train to Dlwillson; move r3 from Train to Miguelito; catastrophe red at Dlwillson

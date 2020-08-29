@@ -1,0 +1,63 @@
+Agentofchaos (0, r1b2) g3-
+Sirruthvenmurgatroyd (1, y3b2) -g3
+build g1 at Agentofchaos
+build g1 at Sirruthvenmurgatroyd
+convert g1 to y1 at Agentofchaos
+move g1 from Sirruthvenmurgatroyd to Sol (y1)
+build y1 at Agentofchaos
+build g1 at Sirruthvenmurgatroyd
+build y2 at Agentofchaos
+build g1 at Sol
+build g2 at Agentofchaos
+move g1 from Sol to Betelgeuse (y3)
+convert g2 to r2 at Agentofchaos
+build g2 at Betelgeuse
+move r2 from Agentofchaos to Betelgeuse
+build g2 at Sol
+capture g2 at Betelgeuse
+convert g3 to r3 at Sirruthvenmurgatroyd
+capture g1 at Betelgeuse
+move g2 from Sol to Sirruthvenmurgatroyd
+sacrifice g2 at Betelgeuse; build r1 at Betelgeuse; build g2 at Agentofchaos
+convert g2 to y2 at Sirruthvenmurgatroyd
+convert y1 to r1 at Agentofchaos
+build g2 at Sirruthvenmurgatroyd
+sacrifice g3 at Agentofchaos; build g2 at Betelgeuse; build g3 at Agentofchaos; build r2 at Betelgeuse
+build r2 at Sirruthvenmurgatroyd
+move r2 from Betelgeuse to Huvaloo (y1)
+build y2 at Sirruthvenmurgatroyd
+sacrifice g3 at Agentofchaos; build y3 at Agentofchaos; build r3 at Agentofchaos; build g3 at Agentofchaos
+build g3 at Sol
+sacrifice g2 at Agentofchaos; build r3 at Huvaloo; build g2 at Agentofchaos
+sacrifice y2 at Sirruthvenmurgatroyd; move y2 from Sirruthvenmurgatroyd to Alpha (b1); move r2 from Sirruthvenmurgatroyd to Alpha
+move r3 from Agentofchaos to Barrowdrob (b3)
+move g3 from Sol to Beta (b3)
+move y3 from Agentofchaos to Barrowdrob
+build g3 at Beta
+move g2 from Agentofchaos to Barrowdrob
+sacrifice g2 at Sirruthvenmurgatroyd; build g2 at Sirruthvenmurgatroyd; build y2 at Alpha
+move r3 from Barrowdrob to Alpha
+sacrifice y2 at Alpha; move y2 from Alpha to Beta; move r2 from Alpha to Beta
+build y2 at Barrowdrob
+move g1 from Sol to Gamma (b3)
+move r1 from Betelgeuse to Rhomgroon (y1)
+convert g1 to b1 at Gamma
+sacrifice y3 at Barrowdrob; move r1 from Rhomgroon to Sirruthvenmurgatroyd; move r2 from Huvaloo to Sirruthvenmurgatroyd; move r3 from Alpha to Sirruthvenmurgatroyd; catastrophe red at Sirruthvenmurgatroyd
+convert g1 to r1 at Sirruthvenmurgatroyd
+move r3 from Huvaloo to Sirruthvenmurgatroyd
+sacrifice g3 at Beta; build r2 at Sirruthvenmurgatroyd; build r3 at Sirruthvenmurgatroyd; build r3 at Beta; catastrophe red at Sirruthvenmurgatroyd
+move r1 from Agentofchaos to Betelgeuse
+build g1 at Beta
+convert y1 to b1 at Agentofchaos
+build y1 at Beta
+build y1 at Barrowdrob
+sacrifice y2 at Beta; move r3 from Beta to Blah (r1); move r3 from Blah to Barrowdrob
+sacrifice y2 at Barrowdrob; move g2 from Barrowdrob to Kirril (y1); move y1 from Barrowdrob to Threndor (b1)
+move g1 from Beta to Agentofchaos
+capture g1 at Agentofchaos
+build y2 at Beta
+sacrifice g3 at Agentofchaos; build g1 at Betelgeuse; build g3 at Kirril; build g3 at Agentofchaos
+sacrifice y2 at Beta; move y1 from Beta to Kirril; move y1 from Kirril to Sirruthvenmurgatroyd
+move g3 from Kirril to Sirruthvenmurgatroyd
+build y2 at Sirruthvenmurgatroyd
+move y1 from Threndor to Sirruthvenmurgatroyd; catastrophe yellow at Sirruthvenmurgatroyd

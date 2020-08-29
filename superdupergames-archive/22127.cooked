@@ -1,0 +1,61 @@
+Silenttitan (0, r1b2) g3-
+Ts52 (1, y1b3) -g3
+build g1 at Silenttitan
+build g1 at Ts52
+convert g1 to r1 at Silenttitan
+convert g3 to r3 at Ts52
+build g1 at Silenttitan
+build r1 at Ts52
+convert g1 to y1 at Silenttitan
+build r2 at Ts52
+build r2 at Silenttitan
+move r2 from Ts52 to Zoe (y2)
+move r2 from Silenttitan to Sol (b3)
+convert r3 to g3 at Ts52
+convert r2 to y2 at Sol
+build r2 at Ts52
+build g1 at Silenttitan
+convert r2 to y2 at Ts52
+sacrifice g3 at Silenttitan; build y1 at Silenttitan; build y3 at Silenttitan; build y3 at Sol
+move y2 from Ts52 to Kermit (g2)
+move y3 from Sol to Kermit
+move y2 from Kermit to Robin (g3)
+convert y3 to g3 at Silenttitan
+build y3 at Robin
+sacrifice y2 at Sol; move y1 from Silenttitan to Robin; move y1 from Silenttitan to Robin; catastrophe yellow at Robin
+convert g1 to y1 at Ts52
+convert g1 to y1 at Silenttitan
+build g1 at Ts52
+sacrifice g3 at Silenttitan; build y2 at Kermit; build y2 at Silenttitan; build y3 at Silenttitan
+build r2 at Ts52
+move y3 from Kermit to Ts52
+capture y3 at Ts52
+move y2 from Kermit to Ts52; catastrophe yellow at Ts52
+convert r2 to y2 at Ts52
+convert y1 to g1 at Silenttitan
+build r2 at Ts52
+convert r1 to g1 at Silenttitan
+move g1 from Ts52 to Zoe
+move y2 from Silenttitan to Rain (r3)
+move r2 from Zoe to Bigbird (y3)
+convert g1 to b1 at Silenttitan
+build y1 at Ts52
+sacrifice b1 at Silenttitan; convert y2 to r2 at Rain
+move g1 from Zoe to Bigbird
+build g1 at Silenttitan
+build g2 at Bigbird
+convert g1 to b1 at Silenttitan
+move r2 from Ts52 to Gonzo (b2)
+build g1 at Silenttitan
+sacrifice g2 at Bigbird; build r1 at Ts52; build r3 at Gonzo
+move g1 from Silenttitan to Sky (b3)
+build r3 at Bigbird
+build g2 at Silenttitan
+convert r3 to g3 at Gonzo
+convert g1 to b1 at Sky
+build r3 at Gonzo
+convert g1 to b1 at Silenttitan
+sacrifice y1 at Ts52; move r3 from Gonzo to Sky
+sacrifice y3 at Silenttitan; move b1 from Silenttitan to Ts52; move b1 from Silenttitan to Ts52; move b1 from Sky to Sol (y2)
+sacrifice r2 at Bigbird; capture b1 at Ts52; capture b1 at Ts52
+move b1 from Sol to Ts52; catastrophe blue at Ts52

@@ -1,0 +1,30 @@
+Demerzel (0, g3b1) r3-
+Rikko (1, g2r1) -b3
+build r1 at Demerzel
+build b1 at Rikko
+convert r1 to y1 at Demerzel
+build b1 at Rikko
+move r3 from Demerzel to Dagobah (y2)
+convert b1 to y1 at Rikko
+move r3 from Dagobah to Corusan (y3)
+convert b1 to r1 at Rikko
+move r3 from Corusan to Rikko
+capture r3 at Rikko
+build y1 at Demerzel
+move b3 from Rikko to Dagobah (y3)
+build y2 at Demerzel
+move r3 from Rikko to Dagobah
+convert y2 to r2 at Demerzel
+move r3 from Dagobah to Corusan (y2)
+convert y1 to r1 at Demerzel
+move r1 from Rikko to Dagobah
+convert r1 to g1 at Demerzel
+move b3 from Dagobah to Corusan
+move y1 from Demerzel to Corusan
+move r3 from Corusan to Demerzel
+build r1 at Demerzel
+capture r1 at Demerzel
+capture r1 at Demerzel
+move b3 from Corusan to Demerzel
+move y1 from Corusan to Dagobah
+sacrifice r3 at Demerzel; capture r1 at Demerzel; capture r2 at Demerzel; capture g1 at Demerzel

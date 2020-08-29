@@ -1,0 +1,30 @@
+Felix (0, y1b2) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Felix
+build g1 at Dlwillson
+convert g1 to y1 at Felix
+convert g1 to y1 at Dlwillson
+build y2 at Felix
+build y2 at Dlwillson
+move y2 from Felix to Opus (g3)
+move y1 from Dlwillson to Sky (b2)
+convert y1 to b1 at Felix
+build g1 at Dlwillson
+move b1 from Felix to Opus
+move g1 from Dlwillson to Sky
+build b1 at Opus
+build y1 at Sky
+move b1 from Opus to Magnum (g2)
+move y1 from Sky to Sol (y3)
+build b1 at Opus
+sacrifice g3 at Dlwillson; build y2 at Sky; build y3 at Dlwillson; build y3 at Dlwillson
+build b2 at Opus
+convert y3 to r3 at Dlwillson
+build y3 at Opus
+sacrifice y3 at Dlwillson; move r3 from Dlwillson to Sky; move r3 from Sky to Sol; move r3 from Sol to Felix
+sacrifice y3 at Opus; move y2 from Opus to Magnum; move y2 from Magnum to Dlwillson; move b2 from Opus to Felix
+capture y2 at Dlwillson
+build b3 at Felix
+capture g3 at Felix
+convert b1 to r1 at Opus
+sacrifice r3 at Felix; capture b3 at Felix; capture b2 at Felix

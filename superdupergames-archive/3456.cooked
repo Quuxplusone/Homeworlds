@@ -1,0 +1,39 @@
+Jeep (0, y2b1) g3-
+Lexicon (1, g2b3) -y3
+build g1 at Jeep
+build y1 at Lexicon
+build g1 at Jeep
+build y1 at Lexicon
+convert g1 to y1 at Jeep
+convert y1 to g1 at Lexicon
+move g1 from Jeep to Moon (b3)
+convert y1 to b1 at Lexicon
+build g1 at Jeep
+move g1 from Lexicon to Blue (b1)
+build g2 at Moon
+build g2 at Blue
+sacrifice g3 at Jeep; build g3 at Jeep; build g3 at Moon; build y1 at Jeep
+build y1 at Lexicon
+convert g3 to y3 at Moon
+sacrifice y1 at Lexicon; move g1 from Blue to Yellow (y3)
+sacrifice g3 at Jeep; build g3 at Jeep; build y1 at Moon; build y2 at Moon
+build g3 at Yellow
+build g3 at Moon
+sacrifice g3 at Yellow; build g3 at Yellow; build b2 at Lexicon; build y2 at Lexicon
+convert g3 to r3 at Moon
+sacrifice b2 at Lexicon; convert y2 to r2 at Lexicon; convert g2 to y2 at Blue
+sacrifice y3 at Moon; move g1 from Jeep to Yellow; move g1 from Moon to Blue; move g1 from Blue to Yellow; catastrophe green at Yellow
+build y3 at Lexicon
+move y1 from Moon to Stage (g1)
+sacrifice y3 at Lexicon; move y2 from Blue to Moon; move y2 from Moon to Jeep; catastrophe yellow at Jeep
+build g1 at Jeep
+build y1 at Lexicon
+sacrifice g3 at Jeep; build g1 at Moon; build g2 at Moon; build g3 at Jeep
+move b1 from Lexicon to Yellow (y1)
+build y2 at Stage
+move b1 from Yellow to Green (g3)
+build g3 at Jeep
+build b1 at Green
+sacrifice y2 at Stage; move r3 from Moon to Stage; move r3 from Stage to Green
+sacrifice y3 at Lexicon; move b1 from Green to Jeep; move b1 from Green to Jeep; move r2 from Lexicon to Jeep
+sacrifice r3 at Green; capture b1 at Jeep; capture b1 at Jeep; capture r2 at Jeep

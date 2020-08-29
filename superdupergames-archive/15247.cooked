@@ -1,0 +1,42 @@
+Shmil1 (0, g3b1) y3-
+Zackstack (1, r1b2) -g3
+build y1 at Shmil1
+build g1 at Zackstack
+move y1 from Shmil1 to Eldor (g2)
+convert g1 to y1 at Zackstack
+move y1 from Eldor to Techos (g3)
+build g1 at Zackstack
+move y1 from Techos to Zackstack
+capture y1 at Zackstack
+convert y3 to g3 at Shmil1
+move g1 from Zackstack to Azure (b3)
+build g1 at Shmil1
+move y1 from Zackstack to Azure
+convert g1 to r1 at Shmil1
+build y1 at Azure
+build g1 at Shmil1
+build y2 at Azure
+convert g3 to y3 at Shmil1
+convert y1 to r1 at Azure
+build r2 at Shmil1
+convert y1 to b1 at Azure
+move r2 from Shmil1 to Gramm (g2)
+build r2 at Azure
+build y1 at Shmil1
+move b1 from Azure to Verde (g2)
+move y1 from Shmil1 to Gramm
+build g1 at Zackstack
+build r2 at Gramm
+sacrifice g3 at Zackstack; build g2 at Azure; build g3 at Zackstack; build g3 at Azure
+build r3 at Shmil1
+move g3 from Azure to Verde
+move r3 from Shmil1 to Verde
+sacrifice r1 at Azure; capture r3 at Verde
+convert y3 to b3 at Shmil1
+sacrifice g3 at Zackstack; build g3 at Zackstack; build b1 at Verde; build y1 at Azure
+build y2 at Gramm
+sacrifice y2 at Azure; move b1 from Verde to Shmil1; move b1 from Verde to Shmil1; catastrophe blue at Shmil1
+move y2 from Gramm to Lastworld (r3)
+sacrifice y1 at Azure; move g3 from Verde to Shmil1
+sacrifice y2 at Lastworld; move r2 from Gramm to Shmil1; move r2 from Gramm to Shmil1
+sacrifice g1 at Azure; build g1 at Shmil1; catastrophe green at Shmil1

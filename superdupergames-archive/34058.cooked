@@ -1,0 +1,54 @@
+Wil (0, b2r1) g3-
+Felix (1, y1b3) -g3
+build g1 at Wil
+build g1 at Felix
+build g1 at Wil
+build g2 at Felix
+convert g1 to y1 at Wil
+convert g2 to y2 at Felix
+convert g1 to r1 at Wil
+convert g1 to r1 at Felix
+build r2 at Wil
+build r2 at Felix
+convert r2 to g2 at Wil
+move r2 from Felix to Grunge (b2)
+move r1 from Wil to G3 (g3)
+sacrifice g3 at Felix; build r2 at Grunge; build r2 at Felix; build r3 at Felix
+move y1 from Wil to Gee3 (g3)
+convert r2 to g2 at Felix
+build y1 at Gee3
+convert r2 to y2 at Grunge
+build y2 at Gee3
+move y2 from Grunge to Gee3; catastrophe yellow at Gee3
+build g1 at Wil
+build g1 at Felix
+convert g2 to y2 at Wil
+move g2 from Felix to Grunge
+build r2 at G3
+build r2 at Grunge
+convert g1 to y1 at Wil
+move r1 from Felix to Joy (b2)
+move y2 from Wil to R3 (r3)
+build r3 at Felix
+build y1 at Wil
+move y2 from Felix to Grunge
+move y1 from Wil to B3 (b3)
+convert r3 to b3 at Felix
+sacrifice g3 at Wil; build y2 at R3; build y3 at B3; build y3 at Wil
+build r3 at Felix
+convert y3 to g3 at Wil
+convert r3 to y3 at Felix
+convert y3 to r3 at B3
+build y3 at Grunge
+build y3 at Wil
+convert y3 to g3 at Grunge
+move g3 from Wil to Y3 (y3)
+move b3 from Felix to Grunge
+convert y1 to g1 at Wil
+move b3 from Grunge to R3
+sacrifice y2 at R3; move y2 from R3 to Grunge; move y2 from Grunge to G3
+sacrifice g2 at Grunge; build b1 at R3; build b1 at R3
+build g1 at Wil
+sacrifice y3 at Felix; move b1 from R3 to Wil; move b1 from R3 to Wil; move b3 from R3 to Wil; catastrophe blue at Wil
+sacrifice y2 at G3; move r1 from G3 to Grunge; move r2 from G3 to Grunge; catastrophe red at Grunge
+build r1 at Felix

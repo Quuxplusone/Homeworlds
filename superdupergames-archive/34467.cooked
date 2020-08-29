@@ -1,0 +1,15 @@
+Dlwillson (0, y3b2) g3-
+Random56 (1, y3b1) -g3
+build g1 at Dlwillson
+build g1 at Random56
+convert g1 to b1 at Dlwillson
+build g1 at Random56
+build b1 at Dlwillson
+convert g1 to r1 at Random56
+build g1 at Dlwillson
+move g1 from Random56 to Gold (b2)
+move b1 from Dlwillson to Field (g1)
+build g2 at Gold
+sacrifice g3 at Dlwillson; build b2 at Field; build b3 at Field; build b3 at Dlwillson
+build g2 at Gold
+convert b3 to y3 at Field

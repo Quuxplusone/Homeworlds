@@ -1,0 +1,38 @@
+Mrmoto (0, y3b2) g3-
+Madwuher (1, b1r2) -g3
+build g1 at Mrmoto
+build g1 at Madwuher
+move g1 from Mrmoto to Riel (b1)
+convert g1 to b1 at Madwuher
+build g1 at Mrmoto
+build b2 at Madwuher
+move g1 from Mrmoto to Crawford (y1)
+convert b2 to y2 at Madwuher
+build g1 at Mrmoto
+build g2 at Madwuher
+sacrifice g3 at Mrmoto; build g2 at Riel; build g2 at Crawford; build g3 at Mrmoto
+sacrifice g3 at Madwuher; build g3 at Madwuher; build g3 at Madwuher; build y1 at Madwuher
+convert g2 to y2 at Riel
+sacrifice y2 at Madwuher; move g3 from Madwuher to Edora (y3); move b1 from Madwuher to Edora
+build g2 at Riel
+sacrifice g3 at Madwuher; build g3 at Madwuher; build b2 at Edora; build b2 at Edora
+convert g1 to r1 at Riel
+convert b2 to r2 at Edora
+sacrifice g3 at Mrmoto; build g1 at Mrmoto; build g3 at Mrmoto; build r1 at Riel
+move b2 from Edora to Bologna (y1)
+move r1 from Riel to Ion (y3)
+sacrifice g3 at Madwuher; build g3 at Madwuher; build y2 at Madwuher; build y2 at Madwuher
+convert g1 to r1 at Mrmoto
+move y2 from Madwuher to Edora
+build r2 at Riel
+build r3 at Edora
+move r2 from Riel to Gradus (b3)
+move r3 from Edora to Bologna
+sacrifice g1 at Crawford; build r3 at Gradus
+build r3 at Edora
+move r1 from Ion to Madwuher
+build y3 at Madwuher
+sacrifice y2 at Riel; move r2 from Gradus to Madwuher; move r3 from Gradus to Madwuher; catastrophe red at Madwuher
+sacrifice y2 at Edora; move g3 from Madwuher to Mrmoto; move r3 from Bologna to Mrmoto
+capture r3 at Mrmoto
+sacrifice r3 at Edora; capture r3 at Mrmoto; capture g3 at Mrmoto; capture r1 at Mrmoto

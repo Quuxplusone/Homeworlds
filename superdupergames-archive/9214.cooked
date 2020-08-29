@@ -1,0 +1,14 @@
+Rattus (0, b1y3) g3-
+Spacehobo (1, y2g1) -b3
+build g1 at Rattus
+build b1 at Spacehobo
+move g1 from Rattus to Themoon (y2)
+move b1 from Spacehobo to Upminster (g3)
+build g1 at Rattus
+build b1 at Upminster
+convert g1 to y1 at Rattus
+build b2 at Spacehobo
+sacrifice g3 at Rattus; build y1 at Rattus; build y1 at Rattus; build y2 at Rattus
+build b2 at Upminster
+build g1 at Themoon
+build b2 at Spacehobo

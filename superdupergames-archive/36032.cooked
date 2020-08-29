@@ -1,0 +1,48 @@
+Pedrop (0, g3b2) y3-
+Trydnt (1, b2y2) -g3
+build y1 at Pedrop
+build g1 at Trydnt
+convert y1 to r1 at Pedrop
+build g1 at Trydnt
+build y1 at Pedrop
+convert g1 to y1 at Trydnt
+build r1 at Pedrop
+convert g1 to r1 at Trydnt
+build r2 at Pedrop
+build r2 at Trydnt
+move r2 from Pedrop to Cylons (g1)
+move r2 from Trydnt to G1 (g1)
+convert r1 to g1 at Pedrop
+build g2 at Trydnt
+move g1 from Pedrop to Adama (b1)
+move g2 from Trydnt to Adama
+move y3 from Pedrop to Adama
+sacrifice g2 at Adama; build g2 at Trydnt; build r1 at Trydnt
+build g2 at Adama
+move g2 from Trydnt to B1 (b1)
+build y1 at Adama
+move y1 from Trydnt to B1
+build r2 at Pedrop
+build r3 at G1
+move y3 from Adama to Pedrop
+move r1 from Trydnt to Y3 (y3)
+build y2 at Adama
+sacrifice g2 at B1; build r3 at Y3; build r3 at Trydnt
+sacrifice y2 at Adama; move r1 from Pedrop to G1; move r2 from Pedrop to G1; catastrophe red at G1
+move r3 from Trydnt to Adama
+move g2 from Adama to Saul (y2)
+capture y1 at Adama
+move y1 from Pedrop to Cylons
+capture g1 at Adama
+build g1 at Saul
+move g1 from Adama to Why3 (y3)
+build y2 at Pedrop
+build g2 at Why3
+move g1 from Saul to Starbuck (b3)
+move g1 from Why3 to Adama
+build r1 at Cylons
+build r2 at Adama
+move r1 from Cylons to Pedrop
+sacrifice g2 at Why3; build g2 at Adama; build y3 at Adama
+sacrifice g2 at Saul; build r2 at Pedrop; build r3 at Cylons
+sacrifice y3 at Adama; move r2 from Adama to Y3; move r2 from Y3 to Cylons; move r1 from Y3 to Cylons; catastrophe red at Cylons

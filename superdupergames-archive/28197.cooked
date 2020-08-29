@@ -1,0 +1,19 @@
+Endo (0, b1y3) g3-
+Aristos (1, y3g2) -b3
+build g1 at Endo
+build b1 at Aristos
+move g1 from Endo to Stationary (y2)
+move b1 from Aristos to Plum (b1)
+build g1 at Endo
+build b2 at Aristos
+build g1 at Stationary
+convert b2 to g2 at Aristos
+move g1 from Stationary to Club (y1)
+convert b1 to r1 at Plum
+sacrifice g3 at Endo; build g2 at Stationary; build g3 at Endo; build g3 at Club
+move g2 from Aristos to Plum
+build g3 at Endo
+build b1 at Aristos
+convert g1 to r1 at Endo
+build g1 at Plum
+convert g3 to b3 at Endo

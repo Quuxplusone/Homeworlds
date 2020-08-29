@@ -1,0 +1,22 @@
+Lorgar (0, b1y3) g3-
+Twoshort (1, b1g2) -b3
+build g1 at Lorgar
+build b1 at Twoshort
+move g1 from Lorgar to Amarante (b2)
+convert b3 to y3 at Twoshort
+build g1 at Amarante
+build b2 at Twoshort
+convert g1 to y1 at Amarante
+move b2 from Twoshort to Grogar (g3)
+build g1 at Lorgar
+build b2 at Twoshort
+build g1 at Amarante
+build b3 at Grogar
+move g1 from Amarante to Onregardelefilm (b3)
+build b3 at Grogar
+build g2 at Onregardelefilm
+convert b3 to r3 at Grogar
+convert g2 to y2 at Onregardelefilm
+sacrifice y3 at Twoshort; move b3 from Grogar to Gameover (g2); move b3 from Gameover to Lorgar; move r3 from Grogar to Twoshort
+pass
+sacrifice r3 at Twoshort; capture g3 at Lorgar; capture g1 at Lorgar

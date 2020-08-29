@@ -1,0 +1,29 @@
+Silenttitan (0, r1b3) g3-
+Laurie_Menke (1, b1r2) -g3
+build g1 at Silenttitan
+build g1 at Laurie_Menke
+convert g1 to y1 at Silenttitan
+convert g1 to r1 at Laurie_Menke
+build y1 at Silenttitan
+build r1 at Laurie_Menke
+move y1 from Silenttitan to Sol (g2)
+convert r1 to y1 at Laurie_Menke
+build y2 at Sol
+build r1 at Laurie_Menke
+move y2 from Sol to Soul (b3)
+build y2 at Laurie_Menke
+sacrifice g3 at Silenttitan; build y2 at Sol; build y3 at Soul; build y3 at Silenttitan
+move y2 from Laurie_Menke to Soul
+convert y3 to r3 at Soul
+move y2 from Soul to Sol
+move r3 from Soul to Laurie_Menke; catastrophe red at Laurie_Menke
+sacrifice g3 at Laurie_Menke; build y3 at Laurie_Menke; build y3 at Sol; catastrophe yellow at Sol
+convert y3 to g3 at Silenttitan
+move y1 from Laurie_Menke to Green (g2)
+build y1 at Silenttitan
+build y2 at Green
+convert y2 to b2 at Soul
+move y1 from Green to Laurie_Menke
+sacrifice y1 at Silenttitan; move b2 from Soul to Laurie_Menke
+convert y1 to g1 at Laurie_Menke
+sacrifice g3 at Silenttitan; build b1 at Laurie_Menke; build b1 at Laurie_Menke; build y1 at Silenttitan; catastrophe blue at Laurie_Menke

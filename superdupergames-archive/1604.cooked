@@ -1,0 +1,64 @@
+Twoshort (0, b1y2) g3-
+Jeep (1, y3b1) -g3
+build g1 at Twoshort
+build g1 at Jeep
+move g1 from Twoshort to Yolonda (y3)
+move g1 from Jeep to Moon (b2)
+build g1 at Twoshort
+build g2 at Jeep
+build g2 at Yolonda
+sacrifice g3 at Jeep; build g2 at Jeep; build g3 at Jeep; build g3 at Moon
+move g1 from Yolonda to Yak (y2)
+convert g2 to y2 at Jeep
+convert g1 to y1 at Twoshort
+move y2 from Jeep to Moon
+build g1 at Twoshort
+build y1 at Moon
+move y1 from Twoshort to Bluonia (b3)
+move g1 from Moon to Station (y3)
+sacrifice g3 at Twoshort; build g2 at Yak; build g3 at Twoshort; build y1 at Bluonia
+move g3 from Moon to Station
+convert g1 to r1 at Twoshort
+convert g2 to r2 at Jeep
+move y1 from Bluonia to Bluestar (b2)
+move g3 from Station to Moon
+sacrifice g2 at Yolonda; build y3 at Bluestar; build g1 at Twoshort
+build g2 at Station
+move g1 from Twoshort to Station
+sacrifice g2 at Station; build g2 at Moon; build r1 at Jeep
+build g2 at Station
+move r1 from Jeep to Moon
+sacrifice y3 at Bluestar; move g2 from Station to Moon; move g1 from Station to Moon; move g2 from Yak to Station; catastrophe green at Moon
+move y1 from Moon to Stopper (y3)
+sacrifice g1 at Yak; build y2 at Bluestar
+build g1 at Jeep
+build g1 at Twoshort
+sacrifice g3 at Jeep; build g2 at Station; build g2 at Station; build g3 at Jeep
+sacrifice g3 at Twoshort; build g3 at Twoshort; build g3 at Twoshort; build r1 at Twoshort; catastrophe green at Station
+sacrifice g1 at Jeep; build y3 at Moon
+move g3 from Twoshort to Stopper
+build g1 at Jeep
+sacrifice r1 at Twoshort; capture y1 at Stopper
+move y2 from Moon to Bluonia
+move y1 from Stopper to D2 (r2)
+move g1 from Jeep to Moon
+sacrifice g3 at Stopper; build y3 at Bluonia; build r1 at Twoshort
+move y2 from Bluonia to D2
+move y3 from Bluonia to D2
+move y2 from D2 to Bluonia
+move y1 from Bluonia to Gordo (g2)
+build r2 at Moon
+move r1 from Twoshort to Grogar (g3)
+move r2 from Moon to Grogar
+build r3 at Grogar
+sacrifice g3 at Jeep; build r3 at Jeep; build r3 at Moon; build g1 at Moon
+sacrifice y2 at Bluestar; move r3 from Grogar to Bluestar; move r3 from Bluestar to Jeep
+sacrifice r2 at Jeep; capture r3 at Jeep; capture r1 at Grogar
+build y2 at Gordo
+build r2 at Grogar
+sacrifice y3 at D2; move y1 from D2 to Jeep; move y1 from Bluestar to Jeep; move y1 from Gordo to Jeep; catastrophe yellow at Jeep
+build r2 at Moon
+build y1 at Gordo
+sacrifice y2 at Bluonia; move r2 from Grogar to Twoshort; move r2 from Grogar to Twoshort
+capture r2 at Twoshort
+sacrifice r3 at Moon; capture r2 at Twoshort; capture r1 at Twoshort; capture g1 at Twoshort

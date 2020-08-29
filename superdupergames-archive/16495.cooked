@@ -1,0 +1,36 @@
+Shmil1 (0, r1b1) g3-
+Twoshort (1, g1b1) -b3
+build g1 at Shmil1
+build b1 at Twoshort
+convert g1 to y1 at Shmil1
+convert b3 to y3 at Twoshort
+build g1 at Shmil1
+build b2 at Twoshort
+move g1 from Shmil1 to Zluty (y3)
+convert b2 to r2 at Twoshort
+build y1 at Shmil1
+build b2 at Twoshort
+move y1 from Shmil1 to Zeleny (g2)
+move b2 from Twoshort to Zeleny
+build y1 at Zeleny
+sacrifice r2 at Twoshort; capture y1 at Zeleny; capture y1 at Zeleny
+build g1 at Zluty
+build b2 at Twoshort
+move g1 from Zluty to Twoshort
+convert b2 to r2 at Twoshort
+sacrifice g3 at Shmil1; build g2 at Twoshort; build g2 at Twoshort; build g3 at Zluty; catastrophe green at Twoshort
+build b2 at Zeleny
+move g3 from Zluty to Shmil1
+move b2 from Zeleny to Grogar (g3)
+build y2 at Shmil1
+build b2 at Grogar
+convert g3 to b3 at Shmil1
+build b3 at Zeleny
+convert y1 to g1 at Shmil1
+sacrifice y3 at Twoshort; move b2 from Grogar to Shmil1; move b2 from Grogar to Shmil1; catastrophe blue at Shmil1
+build g1 at Shmil1
+move b3 from Zeleny to Shmil1
+build g2 at Zluty
+capture y2 at Shmil1
+build g2 at Shmil1
+convert b3 to g3 at Shmil1; catastrophe green at Shmil1

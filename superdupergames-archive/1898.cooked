@@ -1,0 +1,43 @@
+Andylooney (0, b1g2) y3-
+A_Magical_Me (1, b2g1) -r3
+build y1 at Andylooney
+build r1 at A_Magical_Me
+move y1 from Andylooney to Grunwald (g3)
+build r1 at A_Magical_Me
+build y1 at Andylooney
+convert r1 to y1 at A_Magical_Me
+build y2 at Andylooney
+move r1 from A_Magical_Me to Grunwald
+build y2 at Grunwald
+capture y1 at Grunwald
+convert y2 to r2 at Andylooney
+move r1 from Grunwald to Sanctuary (y2)
+convert y1 to g1 at Andylooney
+build r1 at A_Magical_Me
+build r1 at Andylooney
+build r2 at A_Magical_Me
+sacrifice y2 at Grunwald; move r1 from Andylooney to Grunwald; move r1 from Grunwald to A_Magical_Me; catastrophe red at A_Magical_Me
+build y1 at A_Magical_Me
+move r2 from Andylooney to Grunwald
+build y2 at A_Magical_Me
+capture y1 at Grunwald
+convert y2 to r2 at A_Magical_Me
+build y2 at Grunwald
+move y1 from A_Magical_Me to Grunwald
+move y2 from Grunwald to Outpost (g1)
+build y2 at Grunwald
+build y3 at Grunwald; catastrophe yellow at Grunwald
+build y1 at A_Magical_Me
+move g1 from Andylooney to Howell (y3)
+convert r2 to g2 at A_Magical_Me
+build g2 at Howell
+convert g2 to b2 at A_Magical_Me
+build g2 at Howell
+move r1 from Sanctuary to Foothold (g3)
+move g2 from Howell to Plugh (y2)
+build r1 at Foothold
+build g3 at Howell
+build r1 at Foothold
+move g3 from Howell to A_Magical_Me
+move y1 from A_Magical_Me to Foothold
+sacrifice r2 at Grunwald; capture b2 at A_Magical_Me; capture y1 at A_Magical_Me

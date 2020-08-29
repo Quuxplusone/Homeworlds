@@ -1,0 +1,31 @@
+Dlwillson (0, b3y1) g3-
+Salmonax (1, y3b2) -g3
+build g1 at Dlwillson
+build g1 at Salmonax
+convert g1 to r1 at Dlwillson
+build g1 at Salmonax
+build g1 at Dlwillson
+convert g1 to r1 at Salmonax
+move g1 from Dlwillson to Ringo (b2)
+convert g1 to y1 at Salmonax
+build g1 at Dlwillson
+build y1 at Salmonax
+build g1 at Ringo
+build g2 at Salmonax
+build g2 at Ringo
+sacrifice y1 at Salmonax; move g2 from Salmonax to Lykke (y1)
+convert g2 to y2 at Ringo
+build g2 at Salmonax
+build y2 at Ringo
+move g2 from Lykke to Burlerd (b2)
+move g1 from Ringo to Paul (b1)
+sacrifice g2 at Salmonax; build r1 at Salmonax; build r2 at Salmonax
+build g2 at Paul
+build g2 at Burlerd
+sacrifice g3 at Dlwillson; build r2 at Dlwillson; build g3 at Ringo; build g3 at Dlwillson
+move y1 from Salmonax to Crestible (b1)
+move r1 from Dlwillson to Ringo
+move r1 from Salmonax to Crestible
+convert g1 to b1 at Ringo
+move y1 from Crestible to Burlerd
+move b1 from Ringo to John (g1)

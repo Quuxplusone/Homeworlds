@@ -1,0 +1,39 @@
+Simon (0, r1b3) g3-
+Speardane (1, b3y2) -g3
+build g1 at Simon
+build g1 at Speardane
+convert g1 to y1 at Simon
+convert g3 to r3 at Speardane
+build y1 at Simon
+build g1 at Speardane
+move y1 from Simon to G2 (g2)
+move g1 from Speardane to Delos (b1)
+build y1 at G2
+build r1 at Speardane
+build y2 at Simon
+move r1 from Speardane to Delos
+move y2 from Simon to B2 (b2)
+build r1 at Delos
+sacrifice g3 at Simon; build y2 at B2; build y3 at B2; build y3 at Simon
+build g1 at Delos
+convert y2 to r2 at B2
+build g2 at Delos
+convert y2 to g2 at B2
+convert g2 to y2 at Delos
+move y3 from B2 to Delos
+move y2 from Delos to G2
+sacrifice r2 at B2; capture r1 at Delos; capture r1 at Delos
+build g2 at Delos
+capture g2 at Delos
+build g3 at Delos; catastrophe green at Delos
+sacrifice g2 at B2; build y2 at G2; build y3 at Delos; catastrophe yellow at G2
+build g1 at Speardane
+convert y3 to g3 at Delos
+move g1 from Speardane to Lebling (b1)
+build r2 at Delos
+build g1 at Lebling
+sacrifice y3 at Simon; move y3 from Delos to Speardane; move g3 from Delos to Speardane; move r1 from Delos to Speardane
+capture g3 at Speardane
+sacrifice r2 at Delos; capture g3 at Speardane; capture r3 at Speardane
+pass
+sacrifice r1 at Delos; capture g1 at Speardane

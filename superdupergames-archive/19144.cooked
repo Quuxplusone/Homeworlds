@@ -1,0 +1,45 @@
+Jesse (0, g3b1) y3-
+Lorgar (1, g1y2) -b3
+build y1 at Jesse
+build b1 at Lorgar
+move y1 from Jesse to Grass (g2)
+move b1 from Lorgar to Amarante (g3)
+build y1 at Jesse
+build b1 at Lorgar
+build y1 at Grass
+build b2 at Amarante
+build y2 at Jesse
+convert b2 to y2 at Amarante
+move y1 from Grass to Amarante
+sacrifice y2 at Amarante; move b1 from Amarante to Grass; move b1 from Grass to Jesse
+convert y2 to r2 at Jesse
+build b2 at Lorgar
+build y2 at Amarante
+convert b2 to r2 at Lorgar
+capture b1 at Jesse
+move b3 from Lorgar to Amarante
+build y2 at Amarante
+sacrifice r2 at Lorgar; capture y2 at Amarante; capture y2 at Amarante
+build y3 at Amarante; catastrophe yellow at Amarante
+build b2 at Amarante
+move b1 from Jesse to Grass
+convert b2 to y2 at Amarante
+build b2 at Grass
+build b2 at Lorgar
+move b2 from Grass to Bud (g3)
+convert b1 to r1 at Lorgar
+move y1 from Jesse to Leaf (g2)
+build y1 at Amarante
+build y2 at Jesse
+convert y1 to r1 at Amarante
+build y1 at Leaf
+build y3 at Amarante
+build y3 at Grass
+move y2 from Amarante to Leaf
+sacrifice y2 at Jesse; move y3 from Grass to Bud; move y3 from Bud to Lorgar
+sacrifice y2 at Leaf; move y3 from Amarante to Lorgar; move b3 from Amarante to Lorgar
+sacrifice r2 at Jesse; capture y3 at Lorgar; capture b3 at Lorgar
+convert b2 to y2 at Lorgar; catastrophe yellow at Lorgar
+convert b2 to r2 at Bud
+build r1 at Lorgar
+sacrifice r2 at Bud; capture r1 at Lorgar; capture r1 at Lorgar

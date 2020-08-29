@@ -1,0 +1,71 @@
+Magicjohn (0, r1b2) g3-
+Ts52 (1, b1y3) -g3
+build g1 at Magicjohn
+build g1 at Ts52
+convert g1 to y1 at Magicjohn
+move g1 from Ts52 to Grover (b2)
+build g1 at Magicjohn
+build g1 at Ts52
+move g1 from Magicjohn to Bisbee (y3)
+build g2 at Grover
+move y1 from Magicjohn to Flagstaff (g3)
+convert g2 to y2 at Grover
+build g2 at Magicjohn
+build g2 at Grover
+build g2 at Bisbee
+convert g2 to r2 at Grover
+convert g2 to r2 at Magicjohn
+sacrifice g3 at Ts52; build g2 at Ts52; build g2 at Grover; build g3 at Ts52
+move g1 from Bisbee to Tombstone (y2)
+convert g2 to b2 at Ts52
+build g2 at Magicjohn
+move b2 from Ts52 to Tombstone
+convert g2 to y2 at Magicjohn
+build r1 at Grover
+build g2 at Magicjohn
+sacrifice r1 at Grover; capture g1 at Tombstone
+move r2 from Magicjohn to Bisbee
+build r1 at Grover
+build y1 at Magicjohn
+move r2 from Grover to Flagstaff
+move y1 from Flagstaff to Sunflower (r2)
+move y2 from Grover to Flagstaff
+move y1 from Magicjohn to Bisbee
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Grover; build r3 at Flagstaff
+sacrifice g3 at Magicjohn; build g3 at Magicjohn; build y1 at Sunflower; build y3 at Magicjohn
+move r2 from Flagstaff to Sunflower
+sacrifice y2 at Magicjohn; move y1 from Sunflower to Ts52; move y1 from Sunflower to Ts52
+sacrifice r2 at Sunflower; capture y1 at Ts52; capture y1 at Ts52
+sacrifice y3 at Magicjohn; move y1 from Bisbee to Grover; move y1 from Grover to Ts52; catastrophe yellow at Ts52
+build b1 at Tombstone
+convert g3 to y3 at Magicjohn
+convert g1 to y1 at Ts52
+build y1 at Magicjohn
+convert r1 to y1 at Grover
+move y1 from Magicjohn to Bisbee
+sacrifice y2 at Flagstaff; move y1 from Grover to Bisbee; move y1 from Ts52 to Bisbee; catastrophe yellow at Bisbee
+build g1 at Magicjohn
+move b1 from Tombstone to Flagstaff
+move g1 from Magicjohn to Tempe (g3)
+convert g1 to y1 at Grover
+build y1 at Magicjohn
+build b1 at Flagstaff
+move y1 from Magicjohn to Tempe
+build b3 at Flagstaff
+convert y3 to b3 at Magicjohn
+convert b3 to y3 at Flagstaff
+convert b3 to y3 at Magicjohn
+build b3 at Tombstone
+move g2 from Magicjohn to Ajo (b3)
+convert b3 to r3 at Tombstone
+build y1 at Tempe
+move r3 from Tombstone to Tempe
+build g1 at Ajo
+capture y1 at Tempe
+move g1 from Tempe to Magicjohn
+capture y1 at Tempe
+build g2 at Magicjohn
+build b3 at Flagstaff
+move g1 from Magicjohn to Payson (b3)
+build y2 at Grover
+sacrifice y3 at Magicjohn; move g1 from Payson to Ts52; move g2 from Ajo to Ts52; move g1 from Ajo to Ts52; catastrophe green at Ts52

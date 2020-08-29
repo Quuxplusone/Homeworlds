@@ -1,0 +1,22 @@
+Sarthobi (0, y2b1) g3-
+Gungho (1, g3y1) -b3
+build g1 at Sarthobi
+build b1 at Gungho
+convert g1 to y1 at Sarthobi
+build b1 at Gungho
+build y1 at Sarthobi
+move b1 from Gungho to Buildy (g2)
+move y1 from Sarthobi to G3Buildy (g3)
+build b2 at Buildy
+build y2 at Sarthobi
+convert b3 to y3 at Gungho
+build y2 at G3Buildy
+build b2 at Gungho
+sacrifice y2 at Sarthobi; move y1 from G3Buildy to Buildy; move y1 from Buildy to Gungho
+convert y3 to r3 at Gungho
+sacrifice g3 at Sarthobi; build y2 at Gungho; build y3 at Gungho; build y3 at Sarthobi; catastrophe yellow at Gungho
+convert b1 to y1 at Buildy
+convert y3 to g3 at Sarthobi
+sacrifice y1 at Buildy; move r3 from Gungho to Sarthobi
+move g3 from Sarthobi to Gungho
+capture y1 at Sarthobi

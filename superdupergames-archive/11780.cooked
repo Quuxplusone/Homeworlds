@@ -1,0 +1,96 @@
+Mneme (0, r1b2) g3-
+Wyons (1, b1r3) -g3
+build g1 at Mneme
+build g1 at Wyons
+convert g1 to r1 at Mneme
+convert g1 to r1 at Wyons
+build r2 at Mneme
+build r2 at Wyons
+convert r2 to y2 at Mneme
+convert r2 to y2 at Wyons
+build r2 at Mneme
+build r2 at Wyons
+move r2 from Mneme to Bootiful (g3)
+move r2 from Wyons to Chillies (g2)
+move r1 from Mneme to Poet (y3)
+convert r1 to b1 at Wyons
+build y1 at Mneme
+build b1 at Wyons
+convert y2 to b2 at Mneme
+move b1 from Wyons to Trueblues (b2)
+move b2 from Mneme to Bootiful
+build b3 at Wyons
+build b3 at Bootiful
+move b1 from Wyons to Chillies
+convert b2 to y2 at Bootiful
+build b2 at Chillies
+move y1 from Mneme to Holdover (b3)
+convert b3 to y3 at Wyons
+build y1 at Bootiful
+build b3 at Chillies
+move b3 from Bootiful to Chillies; catastrophe blue at Chillies
+move y3 from Wyons to Chillies
+move y1 from Bootiful to Mneme
+build y1 at Wyons
+sacrifice g3 at Mneme; build y2 at Holdover; build y3 at Mneme; build r1 at Bootiful
+move y3 from Chillies to Bootiful
+sacrifice y2 at Bootiful; move r1 from Bootiful to Trueblues; move r2 from Bootiful to Desert (y2)
+sacrifice b1 at Trueblues; convert y2 to r2 at Wyons
+convert r1 to g1 at Trueblues
+build y2 at Wyons
+convert y2 to g2 at Holdover
+build y2 at Bootiful
+move y1 from Mneme to Haze (r3)
+convert r2 to g2 at Wyons
+build g1 at Trueblues
+move g2 from Wyons to Neverbeseen (b2)
+convert g1 to b1 at Trueblues
+convert y1 to b1 at Wyons
+build y1 at Holdover
+build g1 at Wyons
+convert g1 to r1 at Trueblues
+convert g3 to r3 at Wyons
+sacrifice y1 at Haze; move r1 from Trueblues to Wyons
+build y1 at Bootiful
+convert y3 to g3 at Mneme
+convert r3 to y3 at Wyons
+sacrifice g2 at Holdover; build r2 at Wyons; build r3 at Desert
+build r3 at Chillies
+move y1 from Holdover to Mneme
+move y1 from Bootiful to Chillies
+capture b1 at Wyons
+sacrifice r2 at Chillies; capture r2 at Wyons; capture b1 at Wyons
+move r2 from Desert to Wyons; catastrophe red at Wyons
+convert y2 to r2 at Wyons
+build y2 at Mneme
+move b1 from Wyons to Bootiful
+sacrifice y1 at Mneme; move b1 from Trueblues to Pretty (g3)
+move r3 from Chillies to Pretty
+sacrifice y1 at Holdover; move b1 from Pretty to Giggle (g1)
+sacrifice y1 at Chillies; move r3 from Pretty to Giggle
+sacrifice b1 at Giggle; convert r1 to b1 at Poet
+move y2 from Bootiful to Giggle
+build g1 at Mneme
+build g2 at Wyons
+build y1 at Mneme
+build y1 at Bootiful
+move y2 from Mneme to Emerald (g3)
+build y1 at Giggle
+move g1 from Mneme to Emerald
+build g2 at Neverbeseen
+move g1 from Emerald to Mneme
+sacrifice g2 at Neverbeseen; build r1 at Giggle; build r1 at Wyons
+move g1 from Mneme to Poet
+build g2 at Neverbeseen
+move g1 from Poet to Desert
+sacrifice y2 at Giggle; move r3 from Giggle to Emerald; move r2 from Wyons to Poet
+sacrifice y2 at Emerald; move b1 from Poet to Desert
+sacrifice g2 at Neverbeseen; build y2 at Giggle; build y2 at Giggle
+build g2 at Mneme
+sacrifice y3 at Bootiful; move y1 from Bootiful to Desert; move y1 from Giggle to Desert; move y2 from Giggle to Desert; catastrophe yellow at Desert
+convert g2 to b2 at Mneme
+build b1 at Bootiful
+move b2 from Mneme to Knife (y3)
+build b3 at Bootiful
+build g1 at Mneme
+sacrifice y2 at Giggle; move r3 from Emerald to Mneme; move b3 from Bootiful to Mneme

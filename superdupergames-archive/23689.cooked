@@ -1,0 +1,25 @@
+Broccoli_Commander (0, y1b2) g3-
+Headphoned (1, b1y3) -g3
+build g1 at Broccoli_Commander
+build g1 at Headphoned
+move g1 from Broccoli_Commander to Blueberry (b3)
+move g1 from Headphoned to Omicron (b2)
+build g1 at Blueberry
+build g2 at Omicron
+build g2 at Blueberry
+convert g1 to y1 at Omicron
+convert g1 to y1 at Blueberry
+build y2 at Omicron
+build y2 at Blueberry
+build g1 at Headphoned
+move y2 from Blueberry to Muffin (b2)
+sacrifice y2 at Omicron; move y1 from Omicron to Blueberry; move y1 from Blueberry to Broccoli_Commander
+build y2 at Blueberry
+convert y1 to b1 at Broccoli_Commander
+convert g1 to r1 at Blueberry
+sacrifice g2 at Omicron; build b1 at Broccoli_Commander; build b2 at Broccoli_Commander; catastrophe blue at Broccoli_Commander
+build g1 at Broccoli_Commander
+move g1 from Headphoned to Muffin
+sacrifice y2 at Blueberry; move g3 from Broccoli_Commander to Muffin; move g3 from Muffin to Headphoned
+convert g3 to r3 at Headphoned
+sacrifice r1 at Blueberry; capture r3 at Headphoned

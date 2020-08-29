@@ -1,0 +1,17 @@
+Onepagewars (0, y3b2) g3-
+Roboxx (1, y1b3) -g3
+build g1 at Onepagewars
+build g1 at Roboxx
+build g1 at Onepagewars
+move g1 from Roboxx to Cybertron (r2)
+move g3 from Onepagewars to Vulcan (r1)
+build g2 at Cybertron
+build g2 at Vulcan
+build g2 at Roboxx
+build g3 at Onepagewars
+convert g2 to y2 at Roboxx
+convert g1 to y1 at Onepagewars
+sacrifice y2 at Roboxx; move g2 from Cybertron to Grey (b3); move g1 from Cybertron to Reptilian (b3)
+convert g1 to b1 at Onepagewars
+build g1 at Roboxx
+build b1 at Onepagewars

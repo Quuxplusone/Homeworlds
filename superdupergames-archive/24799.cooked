@@ -1,0 +1,32 @@
+Onepagewars (0, r2b1) g3-
+Wil (1, b3y1) -g3
+build g1 at Onepagewars
+build g1 at Wil
+convert g1 to y1 at Onepagewars
+move g1 from Wil to B2 (b2)
+build g1 at Onepagewars
+build g1 at Wil
+move g1 from Onepagewars to Miranda (b3)
+build g2 at B2
+build g2 at Miranda
+sacrifice g3 at Wil; build g2 at B2; build g3 at Wil; build g3 at Wil
+convert g2 to y2 at Miranda
+convert g1 to r1 at Wil
+build y1 at Miranda
+convert g2 to y2 at B2
+convert y1 to r1 at Miranda
+convert g2 to r2 at B2
+build r1 at Miranda
+build r2 at Wil
+convert r1 to b1 at Miranda
+move g3 from Wil to Y2 (y2)
+build g1 at Onepagewars
+move g3 from Y2 to Miranda
+build g2 at Miranda
+convert g3 to r3 at Miranda
+sacrifice g3 at Onepagewars; build g2 at Onepagewars; build g2 at Onepagewars; build g3 at Miranda
+sacrifice y2 at B2; move r3 from Miranda to Onepagewars; move r2 from Wil to B2
+build y1 at Miranda
+sacrifice r2 at B2; capture y1 at Onepagewars; capture g2 at Onepagewars
+sacrifice g3 at Miranda; build g3 at Miranda; build y2 at Miranda; build r1 at Miranda
+sacrifice r2 at B2; capture g1 at Onepagewars; capture g2 at Onepagewars

@@ -1,0 +1,15 @@
+Calavera (0, y1b3) g3-
+Matrixfrog (1, b3y2) -g3
+build g1 at Calavera
+build g1 at Matrixfrog
+build g1 at Calavera
+build g2 at Matrixfrog
+move g1 from Calavera to Rillanon (b2)
+move g2 from Matrixfrog to Epsilon (y1)
+convert g1 to r1 at Calavera
+move g2 from Epsilon to Delta (y2)
+build g1 at Rillanon
+build g2 at Delta
+convert g3 to y3 at Calavera
+sacrifice g3 at Matrixfrog; build g2 at Matrixfrog; build g3 at Matrixfrog; build g3 at Delta
+sacrifice y3 at Calavera; move g1 from Rillanon to Krondor (r1); move g1 from Krondor to Matrixfrog; catastrophe green at Matrixfrog

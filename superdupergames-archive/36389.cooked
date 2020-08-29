@@ -1,0 +1,41 @@
+Capi3101 (0, r1g3) b3-
+Mobynostromo (1, y1b2) -g3
+build b1 at Capi3101
+build g1 at Mobynostromo
+convert b1 to y1 at Capi3101
+convert g1 to y1 at Mobynostromo
+build y2 at Capi3101
+build y2 at Mobynostromo
+move y2 from Capi3101 to Resh (g2)
+move y2 from Mobynostromo to Sapphire (b3)
+build b1 at Capi3101
+build g1 at Mobynostromo
+build b1 at Capi3101
+build g1 at Mobynostromo
+move b1 from Capi3101 to Resh
+move g1 from Mobynostromo to Sapphire
+build y2 at Resh
+build y3 at Sapphire
+build y3 at Capi3101
+convert y3 to r3 at Sapphire
+convert b1 to r1 at Capi3101
+move g1 from Mobynostromo to Ultramarine (b3)
+convert y2 to r2 at Resh
+convert y1 to b1 at Mobynostromo
+move b1 from Resh to Qoph (g3)
+build g1 at Mobynostromo
+build b1 at Qoph
+sacrifice g3 at Mobynostromo; build g2 at Sapphire; build g2 at Ultramarine; build g3 at Mobynostromo
+sacrifice y2 at Resh; move b1 from Qoph to Mobynostromo; move b1 from Qoph to Mobynostromo; catastrophe blue at Mobynostromo
+move r3 from Sapphire to Resh
+build r1 at Resh
+sacrifice g3 at Mobynostromo; build g3 at Mobynostromo; build g3 at Sapphire; build y1 at Sapphire
+move y1 from Capi3101 to Tsade (b2)
+sacrifice y1 at Sapphire; move r3 from Resh to Mobynostromo
+build y1 at Capi3101
+convert g2 to r2 at Sapphire
+move y1 from Capi3101 to Peh (g2)
+sacrifice g3 at Mobynostromo; build g3 at Mobynostromo; build r2 at Sapphire; build y2 at Sapphire
+build y2 at Peh
+move r2 from Sapphire to Steel (b2)
+sacrifice y3 at Capi3101; move y1 from Tsade to Mobynostromo; move y1 from Peh to Mobynostromo; move y2 from Peh to Mobynostromo; catastrophe yellow at Mobynostromo

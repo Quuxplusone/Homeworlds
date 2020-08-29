@@ -1,0 +1,40 @@
+Amoscai (0, y1b3) g3-
+Huddyrx (1, b3r2) -g3
+build g1 at Amoscai
+build g1 at Huddyrx
+move g1 from Amoscai to Bam (r2)
+convert g1 to y1 at Huddyrx
+build g1 at Amoscai
+move y1 from Huddyrx to Skywalker (b1)
+build g1 at Bam
+build g2 at Huddyrx
+build g2 at Amoscai
+sacrifice g2 at Huddyrx; build g2 at Huddyrx; build y1 at Skywalker
+convert g2 to y2 at Amoscai
+convert g2 to y2 at Huddyrx
+build y2 at Amoscai
+sacrifice y2 at Huddyrx; move y1 from Skywalker to Bam; move y1 from Bam to Amoscai; catastrophe yellow at Amoscai
+convert g1 to y1 at Amoscai
+build g1 at Huddyrx
+build g2 at Amoscai
+convert g1 to b1 at Huddyrx
+convert g2 to b2 at Amoscai
+move y1 from Skywalker to Huddyrx
+build y1 at Amoscai
+build y2 at Huddyrx
+move y1 from Amoscai to Bam
+move b1 from Huddyrx to Solo (g1)
+build y2 at Amoscai
+build b1 at Solo
+convert b2 to r2 at Amoscai
+move y1 from Huddyrx to Solo
+build r1 at Amoscai
+convert g3 to y3 at Huddyrx
+move y1 from Amoscai to Solo
+move b1 from Solo to Kenobi (g2)
+move r2 from Amoscai to Solo
+move b1 from Solo to Kenobi
+capture y1 at Solo
+convert y2 to g2 at Huddyrx
+build g2 at Amoscai
+build b1 at Kenobi

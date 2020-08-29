@@ -1,0 +1,43 @@
+Laurie_Menke (0, b1y3) g3-
+Dougforte (1, g3b2) -y3
+build g1 at Laurie_Menke
+build y1 at Dougforte
+build g1 at Laurie_Menke
+build y1 at Dougforte
+convert g1 to y1 at Laurie_Menke
+convert y1 to b1 at Dougforte
+move y1 from Laurie_Menke to Danube (b2)
+convert y1 to r1 at Dougforte
+convert g1 to r1 at Laurie_Menke
+build y1 at Dougforte
+build g1 at Laurie_Menke
+move y3 from Dougforte to Rhine (g1)
+build g1 at Laurie_Menke
+move b1 from Dougforte to Rhine
+move y1 from Danube to Colorado (b1)
+build b2 at Rhine
+sacrifice g1 at Laurie_Menke; build y1 at Colorado
+build y2 at Dougforte
+build g1 at Laurie_Menke
+build y2 at Dougforte
+move y1 from Colorado to Dougforte; catastrophe yellow at Dougforte
+convert b2 to g2 at Rhine
+move g1 from Laurie_Menke to Steppingstone (y2)
+build g2 at Rhine
+move g1 from Steppingstone to Colorado
+convert g2 to y2 at Rhine
+sacrifice g3 at Laurie_Menke; build g2 at Colorado; build g2 at Colorado; build g3 at Laurie_Menke
+build g3 at Rhine
+convert g2 to r2 at Colorado
+move y3 from Rhine to Dougforte
+convert g2 to y2 at Colorado
+build y1 at Rhine
+sacrifice y2 at Colorado; move g1 from Colorado to Dougforte; move g1 from Dougforte to Rhine; catastrophe green at Rhine
+convert r1 to g1 at Dougforte
+sacrifice g1 at Laurie_Menke; build y1 at Colorado
+build g1 at Dougforte
+move y1 from Colorado to Dougforte
+convert g1 to r1 at Dougforte
+sacrifice r2 at Colorado; capture r1 at Dougforte; capture g1 at Dougforte
+build y1 at Dougforte
+build y2 at Dougforte; catastrophe yellow at Dougforte

@@ -1,0 +1,35 @@
+Ts52 (0, y1b2) g3-
+Mnkr (1, b3y1) -g3
+build g1 at Ts52
+build g1 at Mnkr
+convert g1 to y1 at Ts52
+move g1 from Mnkr to Nnkr (y2)
+build g1 at Ts52
+convert g3 to y3 at Mnkr
+move g1 from Ts52 to Grover (b3)
+build g1 at Nnkr
+build g2 at Grover
+move g1 from Nnkr to Mnkr
+build g2 at Ts52
+build g2 at Mnkr
+move g2 from Ts52 to Gonzo (b3)
+build g3 at Nnkr
+build g3 at Ts52
+move y3 from Mnkr to Onkr (b2)
+convert g2 to y2 at Grover
+convert g2 to y2 at Mnkr
+build y3 at Grover
+build y3 at Mnkr
+sacrifice y3 at Grover; move y1 from Ts52 to Grover; move y1 from Grover to Onkr; move y1 from Onkr to Mnkr; catastrophe yellow at Mnkr
+build g2 at Mnkr
+convert g3 to r3 at Ts52
+move y3 from Onkr to Mnkr
+move r3 from Ts52 to Mnkr
+sacrifice y3 at Mnkr; move g3 from Nnkr to Mnkr; move g3 from Mnkr to Ts52; move g1 from Nnkr to Mnkr
+convert g3 to r3 at Ts52
+build g2 at Ts52
+capture g2 at Mnkr
+convert g2 to r2 at Ts52
+capture r2 at Ts52
+build g2 at Ts52
+sacrifice r2 at Ts52; capture g1 at Mnkr; capture g1 at Mnkr

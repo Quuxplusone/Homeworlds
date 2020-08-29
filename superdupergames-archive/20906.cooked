@@ -1,0 +1,28 @@
+Ajo (0, b3y2) g3-
+Danner (1, b1y2) -g3
+build g1 at Ajo
+build g1 at Danner
+convert g1 to r1 at Ajo
+convert g1 to r1 at Danner
+build g1 at Ajo
+build g1 at Danner
+move g1 from Ajo to Alpha (b1)
+move g1 from Danner to Beta (y3)
+build g1 at Ajo
+build g2 at Danner
+sacrifice g3 at Ajo; build g2 at Alpha; build g2 at Alpha; build g3 at Ajo
+sacrifice g3 at Danner; build g3 at Danner; build g3 at Beta; build r1 at Danner
+convert g2 to y2 at Alpha
+move g1 from Beta to Gamma (y1)
+sacrifice g3 at Ajo; build g2 at Alpha; build g3 at Ajo; build r2 at Ajo
+move r1 from Danner to Beta
+move r2 from Ajo to Gamma
+sacrifice g3 at Beta; build g3 at Gamma; build r2 at Beta
+sacrifice g2 at Alpha; build r2 at Ajo; build r3 at Ajo
+sacrifice r1 at Beta; capture r2 at Gamma
+move r3 from Ajo to Alpha
+sacrifice g3 at Danner; build r1 at Gamma; build r3 at Beta; build r3 at Danner
+move g2 from Alpha to Delta (b3)
+move g3 from Gamma to Epsilon (g3)
+sacrifice g3 at Ajo; build g2 at Delta; build g3 at Ajo; build y1 at Alpha
+sacrifice g3 at Epsilon; build g3 at Danner; build g3 at Gamma

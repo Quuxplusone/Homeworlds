@@ -1,0 +1,58 @@
+Silenttitan (0, r1b2) g3-
+Agentofchaos (1, b1r3) -g3
+build g1 at Silenttitan
+build g1 at Agentofchaos
+convert g1 to y1 at Silenttitan
+build g1 at Agentofchaos
+build y1 at Silenttitan
+convert g1 to y1 at Agentofchaos
+build g1 at Silenttitan
+build y2 at Agentofchaos
+move y1 from Silenttitan to Sol (g3)
+move y2 from Agentofchaos to Terraplasm (g2)
+move g1 from Silenttitan to Sole (y3)
+build y2 at Agentofchaos
+build y2 at Sol
+build y3 at Terraplasm
+build y3 at Silenttitan
+convert g1 to r1 at Agentofchaos
+sacrifice y2 at Sol; move g1 from Sole to Taos (y2); move y1 from Sol to Tyan (g2)
+build y3 at Terraplasm
+sacrifice y3 at Silenttitan; move y1 from Tyan to Moot (b3); move y1 from Moot to Terraplasm; catastrophe yellow at Terraplasm
+move y2 from Agentofchaos to Taos
+move g1 from Taos to Sol (y3)
+move y2 from Taos to Sol
+move g1 from Sol to Taos (y2)
+build r1 at Agentofchaos
+move g1 from Taos to Sole (y3)
+move r1 from Agentofchaos to Wopolsa (y2)
+build g1 at Silenttitan
+build r2 at Agentofchaos
+move g1 from Silenttitan to Soul (y3)
+convert r2 to y2 at Agentofchaos
+build g1 at Silenttitan
+build g2 at Agentofchaos
+build g2 at Silenttitan
+sacrifice g2 at Agentofchaos; build r2 at Wopolsa; build r2 at Wopolsa
+convert g2 to r2 at Silenttitan
+build r3 at Agentofchaos
+build y1 at Silenttitan
+move r2 from Wopolsa to Soul
+move g3 from Silenttitan to Soul
+sacrifice y2 at Sol; move r2 from Soul to Silenttitan; move r2 from Wopolsa to Sole
+capture r2 at Silenttitan
+move r2 from Sole to Silenttitan; catastrophe red at Silenttitan
+convert y1 to r1 at Silenttitan
+move r3 from Agentofchaos to Silenttitan
+sacrifice g3 at Soul; build r2 at Silenttitan; build r2 at Silenttitan; build g2 at Silenttitan; catastrophe red at Silenttitan
+move g3 from Agentofchaos to Silenttitan
+build g2 at Silenttitan; catastrophe green at Silenttitan
+move y2 from Agentofchaos to Silenttitan
+move g1 from Soul to Silenttitan
+convert y2 to r2 at Silenttitan
+build g1 at Silenttitan
+capture y1 at Silenttitan
+build g2 at Sole
+capture g1 at Silenttitan
+sacrifice g2 at Sole; build g2 at Silenttitan; build g2 at Sole
+build g2 at Silenttitan; catastrophe green at Silenttitan

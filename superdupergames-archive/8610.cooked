@@ -1,0 +1,60 @@
+Ts52 (0, r1b2) g3-
+Zoltar (1, b1r3) -g3
+build g1 at Ts52
+build g1 at Zoltar
+convert g1 to y1 at Ts52
+convert g1 to y1 at Zoltar
+build g1 at Ts52
+build g1 at Zoltar
+convert g1 to b1 at Ts52
+convert g1 to r1 at Zoltar
+convert b1 to r1 at Ts52
+build r2 at Zoltar
+move r1 from Ts52 to Kermit (g3)
+convert r1 to b1 at Zoltar
+build g1 at Ts52
+build g1 at Zoltar
+move g1 from Ts52 to Krikket (y3)
+move g1 from Zoltar to Blueberry (b2)
+build g1 at Ts52
+build g2 at Zoltar
+sacrifice g3 at Ts52; build g2 at Krikket; build g2 at Ts52; build g3 at Ts52
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y1 at Zoltar; build y2 at Zoltar
+move g2 from Ts52 to Wikket (y3)
+sacrifice y2 at Zoltar; move y1 from Zoltar to Blueberry; move r2 from Zoltar to Blueberry
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Ts52; build y2 at Ts52
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Zoltar; build y3 at Blueberry
+move y2 from Ts52 to Kermit
+move y3 from Blueberry to Kermit
+move r1 from Kermit to Ts52
+sacrifice g3 at Zoltar; build g3 at Zoltar; build b1 at Zoltar; build r1 at Blueberry
+move y2 from Ts52 to Gameyed (b3)
+move r1 from Blueberry to Kermit
+sacrifice r1 at Ts52; capture r1 at Kermit
+sacrifice r2 at Blueberry; capture r1 at Kermit; capture y2 at Kermit
+move g1 from Ts52 to Gameyed
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r1 at Kermit; build r2 at Kermit
+sacrifice g2 at Wikket; build g2 at Ts52; build y3 at Gameyed
+sacrifice y2 at Zoltar; move y2 from Kermit to Blueberry; move y2 from Blueberry to Gameyed
+convert y3 to r3 at Gameyed
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y2 at Blueberry; build y3 at Zoltar
+capture y2 at Gameyed
+move r1 from Kermit to Blueberry
+convert y2 to b2 at Gameyed
+move b1 from Zoltar to Yukkieposition (y2)
+move b2 from Gameyed to Yukkieposition
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Blueberry; build r2 at Blueberry
+move r3 from Gameyed to Blueberry; catastrophe red at Blueberry
+move r2 from Kermit to Yukkieposition
+sacrifice g3 at Ts52; build g3 at Ts52; build b3 at Yukkieposition; build b3 at Yukkieposition; catastrophe blue at Yukkieposition
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r1 at Kermit; build r2 at Yukkieposition
+move g2 from Ts52 to Gameyed
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r2 at Kermit; build r3 at Yukkieposition
+move g1 from Gameyed to Lasthope (b2)
+move r3 from Yukkieposition to Krikket
+move g2 from Krikket to Lasthope
+sacrifice g2 at Zoltar; build g2 at Blueberry; build r3 at Krikket
+sacrifice g1 at Krikket; build g1 at Gameyed
+sacrifice y2 at Blueberry; move y3 from Kermit to Ts52; move r3 from Krikket to Ts52
+capture r3 at Ts52
+sacrifice r3 at Krikket; capture y1 at Ts52; capture r3 at Ts52; capture g3 at Ts52

@@ -1,0 +1,40 @@
+Silenttitan (0, b2r3) g3-
+Baxy (1, g3b1) -y3
+build g1 at Silenttitan
+build y1 at Baxy
+convert g1 to y1 at Silenttitan
+convert y1 to b1 at Baxy
+convert y1 to b1 at Silenttitan
+build b2 at Baxy
+build g1 at Silenttitan
+move b2 from Baxy to Gwar (y2)
+convert g1 to y1 at Silenttitan
+convert y3 to g3 at Baxy
+move b1 from Silenttitan to Sic (y1)
+convert b1 to y1 at Baxy
+build y2 at Silenttitan
+build g1 at Baxy
+build g1 at Silenttitan
+convert g1 to r1 at Baxy
+move y2 from Silenttitan to Redplanet (r1)
+build r1 at Baxy
+move y2 from Redplanet to Planredet (r2)
+move r1 from Baxy to Gwar
+move b1 from Sic to Ssl (y3)
+move r1 from Gwar to Ssl
+move b1 from Ssl to Planredet
+build r1 at Baxy
+build y1 at Silenttitan
+sacrifice g3 at Baxy; build r2 at Ssl; build r2 at Ssl; build r3 at Baxy
+move y1 from Silenttitan to Peaceful (g1)
+convert r3 to y3 at Baxy
+sacrifice g3 at Silenttitan; build y2 at Planredet; build b1 at Planredet; build y3 at Silenttitan
+build r3 at Baxy
+convert y3 to g3 at Silenttitan
+sacrifice y1 at Baxy; move r2 from Ssl to Peaceful
+sacrifice y2 at Planredet; move b1 from Planredet to Baxy; move b1 from Planredet to Baxy
+build r3 at Peaceful
+move y1 from Peaceful to Planredet
+move r3 from Baxy to Megadeth (g2)
+sacrifice g3 at Silenttitan; build y1 at Planredet; build y2 at Silenttitan; build y3 at Silenttitan
+sacrifice y3 at Baxy; move r3 from Peaceful to Silenttitan; move r3 from Megadeth to Peaceful; move r3 from Peaceful to Silenttitan

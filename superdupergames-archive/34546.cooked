@@ -1,0 +1,58 @@
+Deanthebean (0, g3y2) b3-
+Babamots (1, b2r1) -g3
+build b1 at Deanthebean
+build g1 at Babamots
+build b1 at Deanthebean
+convert g1 to b1 at Babamots
+convert b1 to r1 at Deanthebean
+build g1 at Babamots
+convert b1 to y1 at Deanthebean
+convert g1 to y1 at Babamots
+build b1 at Deanthebean
+build y1 at Babamots
+convert b3 to g3 at Deanthebean
+move y1 from Babamots to Iconia (y3)
+move y1 from Deanthebean to Newstar (b1)
+build y2 at Babamots
+build b2 at Deanthebean
+move y2 from Babamots to Andoria (b3)
+move b1 from Deanthebean to Newerstar (g1)
+sacrifice g3 at Babamots; build y2 at Iconia; build y3 at Andoria; build y3 at Babamots
+sacrifice g3 at Deanthebean; build b2 at Deanthebean; build b3 at Newerstar; build b3 at Deanthebean
+move y1 from Iconia to Risa (g2)
+convert b3 to g3 at Newerstar
+convert b1 to g1 at Babamots
+convert b3 to g3 at Deanthebean
+build g1 at Babamots
+move y1 from Newstar to Risa
+convert g1 to r1 at Babamots
+move y1 from Risa to Newerstar
+build g1 at Babamots
+build r2 at Deanthebean
+move g1 from Babamots to Iconia
+move g3 from Newerstar to Iconia
+move y2 from Iconia to Newerstar
+sacrifice r1 at Deanthebean; capture g1 at Iconia
+sacrifice r1 at Babamots; capture y1 at Newerstar
+move r2 from Deanthebean to Newerstar
+sacrifice y1 at Newerstar; move y2 from Newerstar to Kronos (r2)
+convert b1 to y1 at Newerstar
+convert y1 to r1 at Babamots
+build y1 at Newerstar
+build g2 at Babamots
+move g3 from Iconia to Kronos
+move y2 from Kronos to Romulus (r1)
+build g2 at Iconia
+move g1 from Babamots to Andoria
+move r2 from Newerstar to Iconia
+move r1 from Babamots to Andoria
+build r2 at Iconia
+move g1 from Andoria to Romulus
+move r2 from Iconia to Risa
+sacrifice g2 at Babamots; build g2 at Romulus; build r3 at Andoria
+move g3 from Deanthebean to Romulus
+sacrifice y2 at Romulus; move r3 from Andoria to Romulus; move r3 from Romulus to Deanthebean
+move y1 from Newerstar to Kronos
+sacrifice g2 at Romulus; build r3 at Deanthebean; build r3 at Deanthebean
+sacrifice g3 at Kronos; build b1 at Deanthebean; build b1 at Deanthebean; build b1 at Deanthebean
+build y2 at Risa; catastrophe blue at Deanthebean

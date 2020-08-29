@@ -1,0 +1,47 @@
+Felix (0, r1b3) g3-
+Orangeblood (1, b1y2) -g3
+build g1 at Felix
+build g1 at Orangeblood
+convert g1 to y1 at Felix
+convert g1 to b1 at Orangeblood
+build y1 at Felix
+build g1 at Orangeblood
+move y1 from Felix to Flemoid (g2)
+move g1 from Orangeblood to Wishbone (y3)
+build g1 at Felix
+build g1 at Orangeblood
+move g1 from Felix to Ralston (b2)
+build g2 at Wishbone
+build y1 at Felix
+move g1 from Orangeblood to Bevo (g3)
+build g2 at Felix
+move b1 from Orangeblood to Wishbone
+move y1 from Felix to Ralston
+convert g2 to y2 at Wishbone
+build g2 at Ralston
+move y2 from Wishbone to Orangeblood
+build y2 at Flemoid
+move y2 from Orangeblood to Bevo
+build y3 at Ralston
+build y3 at Bevo
+convert y3 to r3 at Ralston
+convert g3 to r3 at Orangeblood
+build y3 at Ralston
+sacrifice y2 at Bevo; move y3 from Bevo to Orangeblood; move g1 from Bevo to Orangeblood
+move g2 from Ralston to Bazoik (b3)
+build g3 at Wishbone
+build g3 at Bazoik
+build r1 at Orangeblood
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Felix; build r1 at Ralston
+move y3 from Orangeblood to Santorini (b3)
+move y1 from Flemoid to Bazoik
+move r1 from Orangeblood to Wishbone
+move r3 from Ralston to Bazoik
+sacrifice g3 at Wishbone; build g3 at Wishbone; build r2 at Wishbone; build r2 at Orangeblood
+sacrifice g3 at Felix; build g3 at Felix; build r2 at Bazoik; build r3 at Ralston
+move y3 from Santorini to Orangeblood
+convert r3 to b3 at Bazoik
+move r3 from Orangeblood to Red (r3)
+move y2 from Flemoid to Bazoik
+sacrifice g3 at Wishbone; build g2 at Orangeblood; build g3 at Wishbone; build b1 at Wishbone
+sacrifice y3 at Ralston; move y1 from Bazoik to Orangeblood; move y2 from Bazoik to Orangeblood; move b3 from Bazoik to Orangeblood; catastrophe yellow at Orangeblood

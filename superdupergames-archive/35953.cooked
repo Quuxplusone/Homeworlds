@@ -1,0 +1,88 @@
+Mobynostromo (0, y1b2) g3-
+Capi3101 (1, b1y3) -g3
+build g1 at Mobynostromo
+build g1 at Capi3101
+convert g1 to y1 at Mobynostromo
+build g1 at Capi3101
+move y1 from Mobynostromo to Malachite (g3)
+move g1 from Capi3101 to Aleph (b2)
+build g1 at Mobynostromo
+build g2 at Aleph
+build g2 at Mobynostromo
+convert g2 to y2 at Aleph
+convert g2 to b2 at Mobynostromo
+convert g1 to y1 at Capi3101
+build y2 at Malachite
+build y2 at Aleph
+move y2 from Malachite to Emerald (g2)
+convert g1 to r1 at Aleph
+convert g1 to r1 at Mobynostromo
+move y2 from Aleph to Malachite
+build y3 at Malachite
+build y3 at Malachite; catastrophe yellow at Malachite
+convert b2 to y2 at Mobynostromo
+build g1 at Capi3101
+build g1 at Mobynostromo
+move g1 from Capi3101 to Aleph
+move g1 from Mobynostromo to Sapphire (b3)
+move g1 from Aleph to Bet (y1)
+build y3 at Emerald
+build g1 at Capi3101
+sacrifice y2 at Mobynostromo; move y2 from Emerald to Capi3101; move y3 from Emerald to Capi3101; catastrophe yellow at Capi3101
+move y2 from Aleph to Sapphire
+build g2 at Sapphire
+sacrifice r1 at Aleph; capture g2 at Sapphire
+build g2 at Sapphire
+move g1 from Bet to Sapphire; catastrophe green at Sapphire
+build g1 at Mobynostromo
+convert g1 to r1 at Capi3101
+convert g1 to y1 at Mobynostromo
+build g1 at Capi3101
+move y1 from Mobynostromo to Emerald (g3)
+build g1 at Capi3101
+build y1 at Emerald
+sacrifice g1 at Capi3101; build y2 at Sapphire
+build g1 at Mobynostromo
+move y2 from Sapphire to Capi3101
+convert g1 to b1 at Mobynostromo
+sacrifice g3 at Capi3101; build y2 at Sapphire; build y3 at Sapphire; build y3 at Capi3101
+build y3 at Emerald
+move y2 from Capi3101 to Emerald; catastrophe yellow at Emerald
+move b1 from Mobynostromo to Foliage (g3)
+build g1 at Capi3101
+build g1 at Mobynostromo
+move g1 from Capi3101 to Foliage
+build r1 at Mobynostromo
+build r2 at Capi3101
+sacrifice r1 at Mobynostromo; capture g1 at Foliage
+move r2 from Capi3101 to Foliage
+build g2 at Foliage
+build g2 at Capi3101
+convert g1 to y1 at Mobynostromo
+move y3 from Sapphire to Mobynostromo
+capture y3 at Mobynostromo
+move y2 from Sapphire to Mobynostromo; catastrophe yellow at Mobynostromo
+build r1 at Mobynostromo
+capture g2 at Foliage
+build g1 at Foliage; catastrophe green at Foliage
+move g2 from Capi3101 to Sapphire
+convert r1 to y1 at Mobynostromo
+build y1 at Sapphire
+move y1 from Mobynostromo to Moss (g1)
+build g1 at Sapphire
+build r1 at Mobynostromo
+sacrifice y3 at Capi3101; move g1 from Capi3101 to Mobynostromo; move g1 from Sapphire to Mobynostromo; move g2 from Sapphire to Mobynostromo; catastrophe green at Mobynostromo
+convert r1 to g1 at Mobynostromo
+move y2 from Sapphire to Mobynostromo
+build r1 at Mobynostromo
+move y1 from Sapphire to Capi3101
+build y1 at Moss
+convert y1 to g1 at Capi3101
+move y1 from Moss to Sky (b3)
+build r2 at Capi3101
+build y1 at Moss
+convert y2 to b2 at Mobynostromo
+build y2 at Moss
+convert r2 to g2 at Capi3101
+build r2 at Mobynostromo
+sacrifice g2 at Capi3101; build b1 at Mobynostromo; build b1 at Mobynostromo; catastrophe blue at Mobynostromo

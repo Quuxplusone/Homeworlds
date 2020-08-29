@@ -1,0 +1,53 @@
+Simon (0, g3r1) b3-
+Felix (1, b1y2) -g3
+build b1 at Simon
+build g1 at Felix
+build b1 at Simon
+build g1 at Felix
+convert b3 to y3 at Simon
+move g1 from Felix to Rim (b3)
+move b1 from Simon to G2 (g2)
+build g1 at Felix
+build b2 at G2
+sacrifice g3 at Felix; build g2 at Rim; build g2 at Rim; build g3 at Felix
+build b2 at G2
+move g1 from Felix to Range (b3)
+convert b2 to y2 at G2
+build g3 at Range
+build b2 at Simon
+convert g3 to y3 at Range
+move b1 from G2 to G3 (g3)
+convert g1 to r1 at Felix
+build b2 at G3
+sacrifice g2 at Rim; build g1 at Felix; build g2 at Range
+build b3 at G3
+move y3 from Range to G2
+convert b3 to r3 at G3
+move y3 from G2 to Bloop (b3)
+convert b2 to y2 at G3
+convert g2 to b2 at Range
+build y1 at G2
+sacrifice g3 at Felix; build g2 at Range; build g3 at Felix; build y1 at Bloop
+build y1 at G3
+move g1 from Felix to Cheese (y3)
+move b2 from G2 to Cheese
+sacrifice g2 at Range; build g2 at Felix; build r1 at Felix
+build r2 at G3
+move g1 from Cheese to Volc (r2)
+move b1 from Simon to G2
+move r1 from Felix to Range
+move b1 from G2 to Cheese
+sacrifice g3 at Felix; build g3 at Felix; build r2 at Range; build r3 at Felix
+move y1 from G2 to Cheese
+move r3 from Felix to Cheese
+sacrifice y2 at G2; move b1 from Cheese to Felix; move b2 from Cheese to Felix
+capture y1 at Cheese
+build y2 at G3
+sacrifice g3 at Felix; build g2 at Volc; build g3 at Felix; build r3 at Cheese
+sacrifice y2 at G3; move b1 from G3 to Felix; move y2 from G3 to Felix
+capture y2 at Felix; catastrophe blue at Felix
+move y3 from Simon to Felix
+sacrifice y2 at Felix; move g2 from Volc to Simon; move g1 from Range to Felix
+sacrifice r3 at G3; capture g2 at Simon; capture g3 at Felix; capture r1 at Felix
+sacrifice y3 at Bloop; move r3 from Cheese to Felix; move r3 from Felix to Simon; move r3 from Cheese to Felix
+sacrifice g3 at Felix; build y2 at Felix; build y2 at Felix; build y3 at Felix; catastrophe yellow at Felix

@@ -1,0 +1,33 @@
+Zweiterlinde (0, b2y3) g3-
+Amoscai (1, r1b2) -g3
+build g1 at Zweiterlinde
+build g1 at Amoscai
+move g1 from Zweiterlinde to Ada (b1)
+convert g1 to y1 at Amoscai
+build g1 at Zweiterlinde
+build g1 at Amoscai
+build g2 at Ada
+move g1 from Amoscai to Beta (r3)
+move g1 from Zweiterlinde to Cobol (b1)
+build g2 at Amoscai
+convert g2 to y2 at Ada
+convert g2 to b2 at Amoscai
+move y2 from Ada to Beta
+build g2 at Beta
+capture g2 at Beta
+build g2 at Amoscai
+capture g1 at Beta
+move g3 from Amoscai to Beta
+move y2 from Beta to Ada
+capture g2 at Beta
+move g1 from Ada to Beta; catastrophe green at Beta
+build g1 at Amoscai
+build g1 at Cobol
+move g1 from Amoscai to Bolt (y3)
+convert g1 to b1 at Cobol
+build b3 at Amoscai
+sacrifice y2 at Ada; move b1 from Cobol to Bolt; move b1 from Bolt to Amoscai; catastrophe blue at Amoscai
+build g1 at Bolt
+build g2 at Zweiterlinde
+move g1 from Bolt to Cobol
+convert g3 to r3 at Zweiterlinde

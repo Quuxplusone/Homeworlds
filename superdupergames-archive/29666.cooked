@@ -1,0 +1,14 @@
+Pheonixian (0, b1r2) g3-
+Nycavri (1, b2y3) -g3
+build g1 at Pheonixian
+build g1 at Nycavri
+convert g1 to y1 at Pheonixian
+convert g1 to y1 at Nycavri
+build g1 at Pheonixian
+build g1 at Nycavri
+convert g1 to b1 at Pheonixian
+convert g1 to r1 at Nycavri
+move b1 from Pheonixian to Garden (g3)
+build g1 at Nycavri
+build b1 at Garden
+move y1 from Nycavri to Taylor (g1)

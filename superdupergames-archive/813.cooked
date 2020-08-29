@@ -1,0 +1,32 @@
+Jeep (0, y3b2) g3-
+Sketchwick (1, y3g1) -b3
+build g1 at Jeep
+build b1 at Sketchwick
+build g1 at Jeep
+build b1 at Sketchwick
+move g1 from Jeep to Trada (b1)
+move b1 from Sketchwick to Yada (r2)
+build g2 at Trada
+convert b3 to y3 at Sketchwick
+sacrifice g3 at Jeep; build g2 at Jeep; build g2 at Trada; build g3 at Jeep
+build y1 at Sketchwick
+move g2 from Jeep to Mova (y1)
+build b2 at Sketchwick
+sacrifice g3 at Jeep; build g3 at Jeep; build g3 at Mova; build g3 at Mova
+convert b2 to r2 at Sketchwick
+convert g1 to r1 at Jeep
+move y3 from Sketchwick to Yada
+convert g2 to y2 at Trada
+move r2 from Sketchwick to Huba (y2)
+sacrifice g3 at Mova; build g1 at Mova; build g2 at Jeep; build g3 at Trada
+build b2 at Sketchwick
+convert g2 to b2 at Trada
+convert b2 to g2 at Sketchwick
+sacrifice y2 at Trada; move g3 from Mova to Huba; move g3 from Huba to Sketchwick
+move y3 from Yada to Mova
+sacrifice r1 at Jeep; capture g2 at Sketchwick
+move y3 from Mova to Jeep
+sacrifice g2 at Sketchwick; build g2 at Jeep; build b2 at Trada
+sacrifice r2 at Huba; capture g3 at Jeep; capture g2 at Jeep
+sacrifice b2 at Trada; convert g3 to r3 at Sketchwick; convert g2 to y2 at Mova
+build g2 at Jeep; catastrophe green at Jeep

@@ -1,0 +1,41 @@
+Ts52 (0, b1y2) g3-
+Wil (1, y3r1) -g3
+build g1 at Ts52
+build g1 at Wil
+convert g1 to b1 at Ts52
+move g1 from Wil to B2 (b2)
+move b1 from Ts52 to Kermit (g3)
+build g1 at B2
+build b1 at Kermit
+build g1 at Wil
+build g2 at Ts52
+build g2 at B2
+build b2 at Kermit
+convert g1 to y1 at B2
+convert b2 to y2 at Kermit
+convert g2 to r2 at B2
+convert g2 to r2 at Ts52
+move g1 from B2 to B3 (b3)
+move r2 from Ts52 to B3
+build g1 at B3
+build g2 at Ts52
+build g2 at B3
+capture g2 at B3
+sacrifice g3 at Wil; build g2 at B3; build y1 at B2; build g3 at Wil; catastrophe green at B3
+move g2 from Ts52 to B3
+convert r2 to b2 at B2
+sacrifice y2 at Kermit; move b1 from Kermit to B2; move b1 from Kermit to B2; catastrophe blue at B2
+move g1 from Wil to B2 (b2)
+build g1 at B3
+build g1 at Wil
+convert g1 to y1 at B3
+build g1 at B2
+move r2 from B3 to B2
+build g2 at Wil
+capture g1 at B2
+move g1 from Wil to Bee2 (b2)
+convert g1 to y1 at B2
+build g1 at B2
+capture g1 at B2
+sacrifice g3 at Wil; build g2 at Bee2; build g3 at Wil; build g3 at Wil
+move g1 from B2 to Wil; catastrophe green at Wil

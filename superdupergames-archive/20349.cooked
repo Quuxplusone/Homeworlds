@@ -1,0 +1,45 @@
+Mandrel (0, r2b1) g3-
+Thejackdiaz (1, b1g3) -r3
+build g1 at Mandrel
+build r1 at Thejackdiaz
+convert g1 to b1 at Mandrel
+convert r3 to y3 at Thejackdiaz
+build b2 at Mandrel
+build r1 at Thejackdiaz
+convert b1 to y1 at Mandrel
+build y1 at Thejackdiaz
+move b2 from Mandrel to Berry (g3)
+move r1 from Thejackdiaz to Kix (g2)
+build b1 at Berry
+build r1 at Kix
+build b2 at Berry
+move y1 from Thejackdiaz to Kix
+convert b2 to r2 at Berry
+build r2 at Kix
+convert b2 to y2 at Berry
+move r1 from Kix to Thejackdiaz
+build r3 at Berry
+move r1 from Kix to Cubone (b3)
+convert r2 to g2 at Berry
+build r2 at Kix
+build r3 at Berry
+build r3 at Thejackdiaz
+move g2 from Berry to Ground (b2)
+convert r1 to y1 at Thejackdiaz
+build y2 at Mandrel
+build y2 at Kix
+build y3 at Berry
+move y2 from Kix to Cubone
+build b2 at Berry
+build y3 at Kix
+build g1 at Ground
+move r2 from Kix to Cubone
+build g1 at Ground
+move r2 from Kix to Omega (b3)
+convert r3 to b3 at Berry
+sacrifice y3 at Kix; move r2 from Cubone to Mandrel; move r1 from Cubone to Mandrel; move r2 from Omega to Mandrel; catastrophe red at Mandrel
+sacrifice y3 at Berry; move g1 from Ground to Thejackdiaz; move g1 from Ground to Thejackdiaz; move g2 from Ground to Thejackdiaz; catastrophe green at Thejackdiaz
+build y3 at Kix
+move b1 from Berry to Thejackdiaz
+sacrifice y3 at Kix; move r3 from Thejackdiaz to Berry; move y1 from Kix to Mandrel; move y2 from Cubone to Mandrel; catastrophe yellow at Mandrel
+sacrifice y2 at Berry; move b2 from Berry to Thejackdiaz; move b3 from Berry to Thejackdiaz; catastrophe blue at Thejackdiaz

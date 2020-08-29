@@ -1,0 +1,53 @@
+Zackstack (0, r1b3) g3-
+Pottytroll (1, b2y1) -g3
+build g1 at Zackstack
+build g1 at Pottytroll
+convert g1 to y1 at Zackstack
+move g1 from Pottytroll to Porkslap (b3)
+build g1 at Zackstack
+build g1 at Porkslap
+move g1 from Zackstack to Meatpunch (b2)
+build g2 at Porkslap
+build g2 at Zackstack
+convert g2 to y2 at Porkslap
+build g2 at Meatpunch
+build g2 at Pottytroll
+sacrifice y1 at Zackstack; move g2 from Meatpunch to Hamkick (g3)
+convert g2 to r2 at Pottytroll
+convert g2 to y2 at Zackstack
+build g2 at Pottytroll
+build g2 at Meatpunch
+build r1 at Pottytroll
+convert g2 to y2 at Meatpunch
+convert g2 to b2 at Pottytroll
+build g2 at Zackstack
+move g1 from Porkslap to Meatpunch
+sacrifice g3 at Zackstack; build g2 at Meatpunch; build g3 at Zackstack; build y1 at Meatpunch
+move g1 from Porkslap to Meatpunch; catastrophe green at Meatpunch
+convert y2 to r2 at Meatpunch
+convert b2 to g2 at Pottytroll
+move r2 from Meatpunch to Hamkick
+move g2 from Pottytroll to Porkslap
+move g2 from Zackstack to Meatpunch
+build g1 at Porkslap
+build r1 at Hamkick
+convert g2 to r2 at Porkslap
+build g1 at Meatpunch
+move r2 from Porkslap to Sausagepunt (g2)
+convert g1 to b1 at Meatpunch
+build r3 at Sausagepunt
+move g2 from Meatpunch to Spamgrapple (r3)
+convert r2 to y2 at Pottytroll
+sacrifice g2 at Hamkick; build y1 at Zackstack; build y3 at Meatpunch
+build y3 at Porkslap
+move y1 from Meatpunch to Hamkick
+move y2 from Porkslap to Sausagepunt
+build y3 at Hamkick
+build r2 at Pottytroll
+sacrifice y2 at Zackstack; move y1 from Hamkick to Pottytroll; move y3 from Hamkick to Pottytroll; catastrophe yellow at Pottytroll
+convert r2 to y2 at Pottytroll
+move b1 from Meatpunch to Hamkick
+build r2 at Pottytroll
+sacrifice g2 at Spamgrapple; build b1 at Hamkick; build b1 at Hamkick
+build y1 at Sausagepunt
+sacrifice y3 at Meatpunch; move b1 from Hamkick to Pottytroll; move b1 from Hamkick to Pottytroll; move b1 from Hamkick to Pottytroll; catastrophe blue at Pottytroll

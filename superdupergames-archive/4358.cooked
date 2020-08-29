@@ -1,0 +1,71 @@
+Zoltar (0, b3r2) g3-
+Maka (1, b3g1) -y3
+build g1 at Zoltar
+build y1 at Maka
+convert g1 to y1 at Zoltar
+convert y1 to g1 at Maka
+build y1 at Zoltar
+move g1 from Maka to Tolok (b2)
+move y1 from Zoltar to Blueberry (b1)
+build g1 at Tolok
+build g2 at Zoltar
+build g2 at Tolok
+move g2 from Zoltar to Blueberry
+convert g2 to y2 at Tolok
+build g2 at Zoltar
+convert g1 to r1 at Tolok
+convert g2 to r2 at Zoltar
+build r1 at Tolok
+move r2 from Zoltar to Blueberry
+move r1 from Tolok to Maka
+build g1 at Blueberry
+build g2 at Tolok
+move g1 from Blueberry to Lemon (y2)
+move r1 from Maka to Lemon
+build g2 at Lemon
+capture g1 at Lemon
+sacrifice r2 at Blueberry; capture g1 at Lemon; capture r1 at Lemon
+move r1 from Tolok to Maka
+build g3 at Zoltar
+convert g1 to b1 at Tolok
+sacrifice g3 at Zoltar; build g1 at Lemon; build g3 at Blueberry; build g3 at Zoltar
+move g2 from Tolok to Sol (y1)
+sacrifice g3 at Blueberry; build y2 at Zoltar; build y3 at Blueberry; build y3 at Zoltar
+build g3 at Sol
+sacrifice y2 at Zoltar; move g1 from Lemon to Sol; move g1 from Lemon to Sol; catastrophe green at Sol
+move y2 from Tolok to Frog (g1)
+move y1 from Blueberry to Tolok
+convert b1 to r1 at Tolok
+sacrifice r1 at Lemon; capture r1 at Tolok
+build y1 at Frog
+build y2 at Blueberry
+sacrifice y2 at Frog; move r1 from Maka to Tolok; move r1 from Tolok to Frog
+sacrifice g3 at Zoltar; build g1 at Lemon; build g2 at Zoltar; build g3 at Blueberry
+convert y3 to r3 at Maka
+sacrifice g2 at Zoltar; build y2 at Blueberry; build y3 at Tolok
+build r1 at Frog
+sacrifice g3 at Blueberry; build g2 at Lemon; build g3 at Blueberry; build g3 at Zoltar
+move r1 from Frog to Zoltar
+capture r1 at Zoltar
+build r2 at Frog
+move r1 from Zoltar to Blueberry
+move r2 from Frog to Lemon
+sacrifice r1 at Tolok; capture r2 at Lemon
+move y1 from Frog to Lava (r2)
+move y2 from Blueberry to Lava
+move y1 from Lava to Maka
+sacrifice g3 at Zoltar; build r1 at Lemon; build r3 at Blueberry; build r3 at Blueberry
+pass
+build g3 at Zoltar
+pass
+convert g3 to b3 at Blueberry
+pass
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Blueberry; build b1 at Blueberry
+pass
+move b1 from Blueberry to Lemon
+pass
+sacrifice g3 at Blueberry; build g3 at Blueberry; build b1 at Lemon; build b2 at Lemon
+pass
+sacrifice y3 at Zoltar; move b2 from Lemon to Maka; move b1 from Lemon to Maka; move b1 from Lemon to Maka
+catastrophe blue at Maka
+sacrifice y3 at Blueberry; move g2 from Lemon to Maka; move g2 from Lemon to Maka; move g1 from Lemon to Maka; catastrophe green at Maka

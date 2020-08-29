@@ -1,0 +1,60 @@
+Roguejedi234 (0, b1y2) g3-
+Torianironfist (1, g3b1) -y3
+build g1 at Roguejedi234
+build y1 at Torianironfist
+convert g1 to r1 at Roguejedi234
+convert y1 to r1 at Torianironfist
+build g1 at Roguejedi234
+build y1 at Torianironfist
+move g1 from Roguejedi234 to Yavin4 (b3)
+convert y1 to g1 at Torianironfist
+build g1 at Yavin4
+build g2 at Torianironfist
+build g2 at Yavin4
+move g1 from Torianironfist to Dathomir (b2)
+convert g2 to r2 at Yavin4
+build g2 at Dathomir
+convert g1 to y1 at Yavin4
+move r1 from Torianironfist to Dathomir
+build y1 at Yavin4
+convert g2 to y2 at Dathomir
+move y1 from Yavin4 to Ossus (g2)
+convert g2 to r2 at Torianironfist
+build y1 at Ossus
+move g1 from Dathomir to Sonamazekot (y3)
+build y2 at Yavin4
+sacrifice g1 at Sonamazekot; build y3 at Dathomir
+sacrifice y2 at Yavin4; move y1 from Ossus to Torianironfist; move y1 from Ossus to Torianironfist
+capture y1 at Torianironfist
+build y2 at Torianironfist; catastrophe yellow at Torianironfist
+move y3 from Dathomir to Torianironfist
+move g1 from Yavin4 to Moncalamari (b2)
+build y1 at Torianironfist
+build g1 at Moncalamari
+move y1 from Torianironfist to Dathomir
+build g1 at Moncalamari
+convert y2 to g2 at Dathomir
+move r2 from Yavin4 to Moncalamari
+build g2 at Dathomir
+sacrifice g1 at Moncalamari; build y1 at Yavin4
+build y2 at Dathomir
+move y1 from Yavin4 to Dathomir
+move y2 from Dathomir to Kashyyyk (g3)
+move y1 from Yavin4 to Moncalamari
+capture y1 at Dathomir
+build y2 at Moncalamari
+build y3 at Kashyyyk
+sacrifice y2 at Moncalamari; move g1 from Moncalamari to Torianironfist; move g1 from Moncalamari to Torianironfist
+sacrifice r2 at Torianironfist; capture g1 at Torianironfist; capture g1 at Torianironfist
+convert r2 to g2 at Moncalamari
+convert g1 to r1 at Torianironfist
+build y2 at Moncalamari
+build y3 at Torianironfist
+sacrifice y2 at Moncalamari; move y1 from Moncalamari to Torianironfist; move g2 from Moncalamari to Torianironfist
+capture g2 at Torianironfist
+build y2 at Torianironfist; catastrophe yellow at Torianironfist
+move y1 from Dathomir to Alderaan (b3)
+build r2 at Roguejedi234
+move g2 from Dathomir to Alderaan
+move r2 from Roguejedi234 to Alderaan
+sacrifice r1 at Torianironfist; capture r2 at Alderaan

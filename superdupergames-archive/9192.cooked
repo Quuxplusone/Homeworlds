@@ -1,0 +1,33 @@
+Mneme (0, r1b2) g3-
+Scottobear (1, r2b1) -g3
+build g1 at Mneme
+build g1 at Scottobear
+convert g1 to y1 at Mneme
+convert g1 to y1 at Scottobear
+build g1 at Mneme
+build g1 at Scottobear
+convert g1 to b1 at Mneme
+convert g1 to b1 at Scottobear
+build b2 at Mneme
+build b2 at Scottobear
+move b1 from Mneme to Bb (y3)
+move b1 from Scottobear to Ips (y3)
+sacrifice g3 at Mneme; build b3 at Mneme; build b3 at Bb; build b3 at Bb
+move b1 from Ips to Mneme
+sacrifice b2 at Mneme; convert b3 to g3 at Mneme; convert b3 to r3 at Bb
+convert b2 to r2 at Scottobear
+capture b1 at Mneme
+build y1 at Scottobear
+build y2 at Mneme
+move y1 from Scottobear to Bb
+capture y1 at Bb
+move r2 from Scottobear to Bb
+capture r2 at Bb
+convert y1 to r1 at Scottobear
+move b1 from Mneme to Gnu (g3)
+convert r1 to y1 at Scottobear
+move y2 from Mneme to Gnu
+build y2 at Scottobear
+sacrifice y2 at Gnu; move r3 from Bb to Scottobear; move b3 from Bb to Scottobear
+convert g3 to r3 at Scottobear
+sacrifice r3 at Scottobear; capture r3 at Scottobear; capture y2 at Scottobear; capture y1 at Scottobear

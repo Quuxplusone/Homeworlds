@@ -1,0 +1,42 @@
+Mikeyarrum (0, b1y2) g3-
+Mneme (1, g3y2) -b3
+build g1 at Mikeyarrum
+build b1 at Mneme
+build g1 at Mikeyarrum
+move b1 from Mneme to Emerald (g1)
+move g1 from Mikeyarrum to Saka (y3)
+build b1 at Mneme
+build g2 at Saka
+convert b3 to g3 at Mneme
+sacrifice g3 at Mikeyarrum; build g2 at Saka; build g2 at Mikeyarrum; build g3 at Mikeyarrum
+build b2 at Mneme
+move g2 from Saka to Yuka (b2)
+build b2 at Mneme
+convert g2 to r2 at Mikeyarrum
+build b3 at Emerald
+sacrifice g3 at Mikeyarrum; build g2 at Yuka; build g3 at Mikeyarrum; build r1 at Mikeyarrum
+move b2 from Mneme to Jacinth (y1)
+move r2 from Mikeyarrum to Saka
+build b3 at Mneme
+build r1 at Mikeyarrum
+convert b3 to r3 at Emerald
+convert g2 to y2 at Yuka
+build b3 at Emerald
+build g2 at Yuka
+convert b3 to y3 at Emerald
+move g2 from Yuka to Jacinth
+move b2 from Jacinth to Jasper (y3)
+move g2 from Yuka to Jacinth
+move g3 from Mneme to Tigereye (y1)
+convert g1 to y1 at Mikeyarrum
+build b3 at Emerald
+move g2 from Jacinth to Mneme
+convert b3 to r3 at Mneme
+build g1 at Mneme
+move r3 from Emerald to Saka
+move g2 from Jacinth to Mneme; catastrophe green at Mneme
+capture r2 at Saka
+move g2 from Saka to Yuka
+sacrifice y3 at Emerald; move b3 from Emerald to Saka; move b3 from Saka to Mikeyarrum; move r3 from Saka to Mikeyarrum
+build r1 at Mikeyarrum; catastrophe red at Mikeyarrum
+sacrifice r2 at Saka; capture g3 at Mikeyarrum; capture y1 at Mikeyarrum

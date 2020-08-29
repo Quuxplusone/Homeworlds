@@ -1,0 +1,27 @@
+Andylooney (0, g1b2) y3-
+Laurie_Menke (1, b3g1) -y3
+build y1 at Andylooney
+build y1 at Laurie_Menke
+convert y1 to g1 at Andylooney
+convert y3 to g3 at Laurie_Menke
+build g2 at Andylooney
+move g3 from Laurie_Menke to Phonebooth (b2)
+convert g1 to r1 at Andylooney
+build y1 at Laurie_Menke
+move g2 from Andylooney to Howell (y3)
+convert y1 to r1 at Laurie_Menke
+build g1 at Howell
+sacrifice g3 at Phonebooth; build r1 at Laurie_Menke; build r2 at Laurie_Menke; build y1 at Laurie_Menke
+build r2 at Andylooney
+convert r2 to g2 at Laurie_Menke
+move g1 from Howell to Plugh (y2)
+move g2 from Laurie_Menke to Luella (y2)
+build y1 at Andylooney
+convert y1 to b1 at Laurie_Menke
+build g2 at Plugh
+move r1 from Laurie_Menke to Plugh
+move g2 from Plugh to Laurie_Menke
+build r2 at Laurie_Menke
+sacrifice r2 at Andylooney; capture r2 at Laurie_Menke; capture r1 at Laurie_Menke
+build g3 at Luella
+sacrifice r2 at Laurie_Menke; capture b1 at Laurie_Menke; capture y1 at Laurie_Menke

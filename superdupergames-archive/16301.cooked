@@ -1,0 +1,44 @@
+Zoltar (0, r3b1) g3-
+Dlwillson (1, b2y1) -g3
+build g1 at Zoltar
+build g1 at Dlwillson
+convert g1 to y1 at Zoltar
+convert g1 to b1 at Dlwillson
+build y1 at Zoltar
+build b1 at Dlwillson
+build y2 at Zoltar
+move b1 from Dlwillson to Farmville (g3)
+convert y2 to b2 at Zoltar
+sacrifice g3 at Dlwillson; build b2 at Farmville; build b3 at Farmville; build b3 at Dlwillson
+build b3 at Zoltar
+convert b3 to y3 at Farmville
+move b2 from Zoltar to Greenbelt (g2)
+convert b3 to g3 at Dlwillson
+build b3 at Greenbelt
+sacrifice g3 at Dlwillson; build y2 at Farmville; build y2 at Farmville; build b3 at Dlwillson
+sacrifice b2 at Greenbelt; convert b3 to y3 at Greenbelt; convert y1 to r1 at Zoltar
+sacrifice b2 at Farmville; convert b3 to g3 at Dlwillson; convert y2 to r2 at Farmville
+move b3 from Zoltar to Greenbelt
+build g1 at Dlwillson
+build g1 at Zoltar
+build b2 at Farmville
+build b2 at Greenbelt
+sacrifice y2 at Farmville; move b1 from Farmville to Greenbelt; move b2 from Farmville to Greenbelt; catastrophe blue at Greenbelt
+convert g1 to b1 at Zoltar
+move b1 from Dlwillson to Farmville
+move b1 from Zoltar to Greenbelt
+convert g1 to r1 at Dlwillson
+build b2 at Greenbelt
+build r1 at Farmville
+convert b2 to r2 at Greenbelt
+move r1 from Farmville to Cafeworld (b2)
+move r1 from Zoltar to Yellowstone (y2)
+sacrifice g3 at Dlwillson; build r2 at Cafeworld; build r3 at Farmville; build r3 at Dlwillson
+move r1 from Yellowstone to Farmville
+move b1 from Farmville to Dlwillson
+move r2 from Greenbelt to Farmville; catastrophe red at Farmville
+convert b1 to r1 at Dlwillson
+build b1 at Greenbelt
+move y3 from Farmville to Greenbelt
+build y1 at Greenbelt
+sacrifice r2 at Cafeworld; capture b1 at Greenbelt; capture b1 at Greenbelt

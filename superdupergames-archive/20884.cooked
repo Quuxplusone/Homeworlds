@@ -1,0 +1,49 @@
+Bloodrumpus (0, b1r2) g3-
+Meckanical (1, b1g3) -y3
+build g1 at Bloodrumpus
+build y1 at Meckanical
+build g1 at Bloodrumpus
+convert y1 to g1 at Meckanical
+convert g1 to y1 at Bloodrumpus
+build g1 at Meckanical
+move g1 from Bloodrumpus to Sirius (y3)
+convert g1 to b1 at Meckanical
+build g1 at Sirius
+build b2 at Meckanical
+move g1 from Sirius to Rigel (b2)
+convert b2 to r2 at Meckanical
+build g2 at Sirius
+move r2 from Meckanical to Rigel
+sacrifice y1 at Bloodrumpus; move g1 from Rigel to Meckanical
+convert y3 to r3 at Meckanical
+sacrifice g2 at Sirius; build g2 at Meckanical; build g2 at Meckanical; catastrophe green at Meckanical
+convert r2 to g2 at Rigel
+build g1 at Bloodrumpus
+convert b1 to g1 at Meckanical
+build g2 at Sirius
+sacrifice g2 at Rigel; build g2 at Meckanical; build r1 at Meckanical
+convert g1 to b1 at Bloodrumpus
+build r1 at Meckanical
+build b2 at Bloodrumpus
+convert r1 to y1 at Meckanical
+convert b1 to r1 at Bloodrumpus
+move r3 from Meckanical to Sirius
+move g2 from Sirius to Caprica (y2)
+capture g1 at Sirius
+build g1 at Caprica
+convert g2 to r2 at Meckanical
+build b1 at Bloodrumpus
+build g2 at Meckanical
+sacrifice b1 at Bloodrumpus; convert g1 to r1 at Caprica
+move r3 from Sirius to Caprica
+sacrifice g2 at Caprica; build r2 at Caprica; build r3 at Caprica; catastrophe red at Caprica
+move r2 from Meckanical to Sirius
+build b1 at Bloodrumpus
+convert g2 to b2 at Meckanical
+convert r1 to y1 at Bloodrumpus
+build r1 at Sirius
+move b1 from Bloodrumpus to Zepher (g3)
+move r2 from Sirius to Bloodrumpus
+capture r2 at Bloodrumpus
+build b2 at Meckanical
+sacrifice y1 at Bloodrumpus; move b1 from Zepher to Meckanical; catastrophe blue at Meckanical

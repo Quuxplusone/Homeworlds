@@ -1,0 +1,36 @@
+Thecolorbrown (0, b1g2) y3-
+Babamots (1, b3r2) -g3
+build y1 at Thecolorbrown
+build g1 at Babamots
+build y1 at Thecolorbrown
+convert g1 to y1 at Babamots
+convert y1 to b1 at Thecolorbrown
+build y1 at Babamots
+move y1 from Thecolorbrown to Endor (g3)
+convert y1 to b1 at Babamots
+build b2 at Thecolorbrown
+build b2 at Babamots
+sacrifice y3 at Thecolorbrown; move b1 from Thecolorbrown to Endor; move b1 from Endor to Hellitself (r1); move b1 from Hellitself to Babamots; catastrophe blue at Babamots
+build y1 at Babamots
+build y2 at Endor
+move y1 from Babamots to Endor
+move y2 from Endor to Thecolorbrown
+build y2 at Babamots
+build y2 at Thecolorbrown
+move y1 from Endor to Thecolorbrown
+convert y2 to r2 at Thecolorbrown
+move y1 from Thecolorbrown to Pakled (b3)
+build r1 at Thecolorbrown
+move y1 from Babamots to Aldea (y3)
+move r1 from Thecolorbrown to Endor
+sacrifice g3 at Babamots; build y2 at Aldea; build y3 at Babamots; build y3 at Pakled
+build r1 at Endor
+convert y3 to r3 at Pakled
+build y3 at Endor
+sacrifice y2 at Babamots; move r3 from Pakled to Thecolorbrown; move y2 from Aldea to Thecolorbrown
+sacrifice y2 at Thecolorbrown; move r1 from Endor to Thecolorbrown; move r1 from Endor to Thecolorbrown; catastrophe red at Thecolorbrown
+convert y2 to r2 at Thecolorbrown
+move y3 from Endor to Thecolorbrown
+capture b2 at Thecolorbrown
+convert y3 to r3 at Thecolorbrown
+convert b2 to r2 at Thecolorbrown

@@ -1,0 +1,47 @@
+Jesse (0, b2r1) g3-
+Zoltar (1, b1r3) -g3
+build g1 at Jesse
+build g1 at Zoltar
+convert g1 to y1 at Jesse
+convert g1 to y1 at Zoltar
+build g1 at Jesse
+build g1 at Zoltar
+convert g1 to b1 at Jesse
+convert g1 to b1 at Zoltar
+build b2 at Jesse
+build b2 at Zoltar
+move b2 from Jesse to Golem (g3)
+convert b1 to r1 at Zoltar
+build b1 at Golem
+build b3 at Zoltar
+build b3 at Golem
+convert b3 to y3 at Zoltar
+convert b1 to r1 at Golem
+build r2 at Zoltar
+convert b3 to y3 at Golem
+move r1 from Zoltar to Greenbelt (g2)
+build r2 at Golem
+move y3 from Zoltar to Greenbelt
+move r2 from Golem to Gorgon (g2)
+build g1 at Zoltar
+build g1 at Jesse
+move r2 from Zoltar to Yellowstone (y2)
+build b1 at Golem
+move b2 from Zoltar to Greenbelt
+move b1 from Golem to Gorgon
+build b3 at Greenbelt
+build b3 at Gorgon
+convert b3 to r3 at Greenbelt
+convert b3 to y3 at Gorgon
+build b3 at Greenbelt
+build b3 at Gorgon
+move r3 from Greenbelt to Bluemoon (b3)
+build r2 at Gorgon
+build r3 at Greenbelt
+move r1 from Golem to Yeti (y2)
+sacrifice y3 at Greenbelt; move r1 from Greenbelt to Bluemoon; move r1 from Bluemoon to Gorgon; move r3 from Bluemoon to Gorgon; catastrophe red at Gorgon
+convert b3 to r3 at Gorgon
+sacrifice y1 at Zoltar; move b3 from Greenbelt to Yellowbelly (y3)
+build r1 at Gorgon
+build b3 at Greenbelt
+move r3 from Gorgon to Zoltar

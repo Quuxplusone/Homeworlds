@@ -1,0 +1,17 @@
+Agentofchaos (0, y3b1) g3-
+Grosseteste (1, y3b2) -g3
+build g1 at Agentofchaos
+build g1 at Grosseteste
+move g1 from Agentofchaos to Skaros (y2)
+convert g1 to b1 at Grosseteste
+build g1 at Agentofchaos
+build g1 at Grosseteste
+build g2 at Agentofchaos
+build g2 at Grosseteste
+sacrifice g3 at Agentofchaos; build g2 at Skaros; build g3 at Skaros; build g3 at Agentofchaos
+convert g2 to r2 at Grosseteste
+convert g1 to r1 at Agentofchaos
+build g1 at Grosseteste
+sacrifice g3 at Agentofchaos; build g2 at Agentofchaos; build r1 at Agentofchaos; build g3 at Agentofchaos
+move g1 from Grosseteste to Charlie (y1)
+move g3 from Skaros to Charlie

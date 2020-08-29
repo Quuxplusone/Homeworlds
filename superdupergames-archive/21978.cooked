@@ -1,0 +1,21 @@
+Remneb (0, r1b2) g3-
+Subhan64 (1, r1b3) -g3
+build g1 at Remneb
+build g1 at Subhan64
+convert g1 to y1 at Remneb
+convert g1 to y1 at Subhan64
+build g1 at Remneb
+build g1 at Subhan64
+convert g1 to r1 at Remneb
+build g1 at Subhan64
+build r2 at Remneb
+convert g3 to r3 at Subhan64
+move r1 from Remneb to Draco (y3)
+move g1 from Subhan64 to Elmos_World (r2)
+move r2 from Remneb to Taken (y3)
+move r3 from Subhan64 to Smurfette (b2)
+move r2 from Taken to Horla (y2)
+sacrifice y1 at Subhan64; move r3 from Smurfette to Subhan64
+move r1 from Draco to Horla
+convert g1 to y1 at Subhan64
+move r1 from Horla to Subhan64

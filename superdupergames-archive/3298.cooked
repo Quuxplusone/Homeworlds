@@ -1,0 +1,49 @@
+Dralius (0, b3g2) y3-
+Babelfish (1, g3b1) -y3
+build y1 at Dralius
+build y1 at Babelfish
+convert y1 to r1 at Dralius
+build y1 at Babelfish
+build r1 at Dralius
+convert y1 to r1 at Babelfish
+move r1 from Dralius to Boogie (g1)
+move y1 from Babelfish to Tweety (g2)
+build y1 at Dralius
+build y1 at Babelfish
+convert y1 to b1 at Dralius
+build y1 at Babelfish
+move b1 from Dralius to Boogie
+convert y1 to b1 at Babelfish
+build r2 at Boogie
+build r2 at Babelfish
+convert r1 to y1 at Boogie
+move r2 from Babelfish to Tweety
+move r2 from Boogie to Chacha (y2)
+move r2 from Tweety to Boogie
+move b1 from Boogie to Chacha
+convert y3 to r3 at Babelfish
+build y2 at Boogie
+capture y2 at Boogie
+build r1 at Dralius
+build r2 at Boogie
+build y2 at Dralius
+move r2 from Boogie to Dralius
+move r1 from Dralius to Boogie
+capture y2 at Dralius
+capture r2 at Dralius
+build r3 at Boogie
+move r1 from Dralius to Boogie; catastrophe red at Boogie
+move y2 from Dralius to Boogie
+build y3 at Dralius
+move b1 from Babelfish to Tweety
+convert y3 to r3 at Dralius
+move b1 from Tweety to Elmo (r1)
+move y1 from Boogie to Chacha
+build y3 at Tweety
+convert y1 to r1 at Chacha
+move y3 from Tweety to Elmo
+move r2 from Chacha to Babelfish
+convert y3 to r3 at Elmo
+capture y1 at Babelfish
+move y2 from Boogie to Dralius
+move r1 from Chacha to Babelfish; catastrophe red at Babelfish

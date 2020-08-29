@@ -1,0 +1,31 @@
+Zweiterlinde (0, r1b2) g3-
+Amoscai (1, b1g3) -r3
+build g1 at Zweiterlinde
+build r1 at Amoscai
+convert g1 to y1 at Zweiterlinde
+convert r1 to y1 at Amoscai
+build g1 at Zweiterlinde
+build r1 at Amoscai
+move g1 from Zweiterlinde to Acme (b3)
+move r1 from Amoscai to Bcme (g2)
+build g1 at Zweiterlinde
+convert r3 to b3 at Amoscai
+move g1 from Zweiterlinde to Bongo (b3)
+build r1 at Bcme
+build g1 at Zweiterlinde
+convert b3 to g3 at Amoscai
+sacrifice g3 at Zweiterlinde; build g2 at Acme; build g2 at Bongo; build g3 at Zweiterlinde
+build r2 at Bcme
+convert g2 to r2 at Acme
+build g2 at Amoscai
+sacrifice g3 at Zweiterlinde; build g3 at Zweiterlinde; build y1 at Zweiterlinde; build y2 at Zweiterlinde
+sacrifice g2 at Amoscai; build g2 at Amoscai; build y2 at Amoscai
+sacrifice y2 at Zweiterlinde; move g2 from Bongo to Bcme; move g2 from Bcme to Amoscai; catastrophe green at Amoscai
+convert y2 to g2 at Amoscai
+move y1 from Zweiterlinde to Acme
+build y2 at Amoscai
+sacrifice g3 at Zweiterlinde; build g2 at Acme; build g3 at Zweiterlinde; build y2 at Acme
+build g3 at Amoscai
+sacrifice y2 at Acme; move g2 from Acme to Amoscai; move g1 from Acme to Amoscai; catastrophe green at Amoscai
+convert y2 to g2 at Amoscai
+move r2 from Acme to Amoscai

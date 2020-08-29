@@ -1,0 +1,28 @@
+Mneme (0, y3b2) g3-
+Andylooney (1, g1b2) -y3
+build g1 at Mneme
+build y1 at Andylooney
+build g1 at Mneme
+move y1 from Andylooney to Garden (g3)
+move g1 from Mneme to Fleur (b1)
+build y1 at Andylooney
+build g2 at Fleur
+build y1 at Garden
+sacrifice g3 at Mneme; build g2 at Fleur; build g2 at Fleur; build g3 at Mneme
+build y2 at Andylooney; catastrophe green at Fleur
+build g1 at Mneme
+convert y2 to g2 at Andylooney
+move g1 from Mneme to Fleuret (b1)
+move g2 from Andylooney to Howell (y3)
+build g2 at Fleuret
+move y1 from Garden to Berry (b1)
+convert g2 to y2 at Fleuret
+build y2 at Garden
+build y2 at Fleuret
+build g2 at Howell
+convert y2 to b2 at Fleuret
+sacrifice g2 at Howell; build g2 at Howell; build y2 at Berry
+sacrifice g3 at Mneme; build g2 at Fleuret; build g3 at Mneme; build b1 at Fleuret
+move g2 from Howell to Berry
+move b2 from Fleuret to Garden
+sacrifice y3 at Andylooney; move g2 from Howell to Berry; move g2 from Berry to Mneme; move g2 from Berry to Mneme; catastrophe green at Mneme

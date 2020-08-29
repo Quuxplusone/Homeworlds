@@ -1,0 +1,40 @@
+Eliscinsky (0, r1b2) g3-
+Babamots (1, y3g2) -b3
+build g1 at Eliscinsky
+build b1 at Babamots
+convert g1 to y1 at Eliscinsky
+build b1 at Babamots
+convert y1 to b1 at Eliscinsky
+move b1 from Babamots to Risa (g1)
+build b2 at Eliscinsky
+build b2 at Risa
+convert b1 to y1 at Eliscinsky
+convert b2 to y2 at Risa
+build y1 at Eliscinsky
+build b1 at Risa
+build g1 at Eliscinsky
+build b2 at Babamots
+move b2 from Eliscinsky to Ds9 (g3)
+convert b1 to r1 at Risa
+move y1 from Eliscinsky to Ds9
+build r1 at Risa
+build y1 at Eliscinsky
+move y2 from Risa to Ds9
+convert b2 to r2 at Ds9
+sacrifice r1 at Risa; capture r2 at Ds9
+convert y1 to r1 at Eliscinsky
+capture y1 at Ds9
+convert g1 to b1 at Eliscinsky
+move b1 from Babamots to Betazed (g1)
+build y1 at Eliscinsky
+build b2 at Betazed
+move y1 from Eliscinsky to Vulcan (g3)
+build b3 at Risa
+sacrifice g3 at Eliscinsky; build y2 at Vulcan; build y2 at Eliscinsky; build y3 at Vulcan
+sacrifice y2 at Ds9; move b3 from Risa to Ds9; move b3 from Ds9 to Eliscinsky
+sacrifice y2 at Eliscinsky; move y1 from Vulcan to Betazed; move y3 from Vulcan to Betazed
+sacrifice r2 at Ds9; capture y1 at Eliscinsky; capture r1 at Eliscinsky
+move y2 from Vulcan to Eliscinsky
+capture y2 at Eliscinsky
+move y3 from Betazed to Babamots
+capture b1 at Eliscinsky

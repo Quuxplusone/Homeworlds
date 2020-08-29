@@ -1,0 +1,40 @@
+Calavera (0, b1y3) g3-
+Zoltar (1, b2y1) -g3
+build g1 at Calavera
+build g1 at Zoltar
+move g1 from Calavera to El_Marrow (b2)
+convert g1 to y1 at Zoltar
+build g1 at Calavera
+build y1 at Zoltar
+build g1 at El_Marrow
+build g2 at Zoltar
+convert g1 to r1 at El_Marrow
+convert y1 to r1 at Zoltar
+build r1 at El_Marrow
+build r2 at Zoltar
+build r2 at El_Marrow
+move r2 from Zoltar to Banana (y3)
+convert r1 to y1 at El_Marrow
+build y2 at Zoltar
+convert g1 to b1 at Calavera
+move y2 from Zoltar to Greenbelt (g3)
+move r2 from El_Marrow to Rubacava (y3)
+build y2 at Greenbelt
+build y2 at El_Marrow
+move y2 from Greenbelt to Blueberry (b2)
+convert y1 to b1 at El_Marrow
+move g2 from Zoltar to Boysenberry (b3)
+build b3 at Calavera
+build g1 at Zoltar
+build b3 at El_Marrow
+move y2 from Blueberry to Greenbelt
+sacrifice y2 at El_Marrow; move b3 from El_Marrow to Rubacava; move g1 from El_Marrow to Rubacava
+sacrifice g2 at Boysenberry; build r1 at Banana; build r2 at Zoltar
+sacrifice g3 at Calavera; build b2 at El_Marrow; build b3 at Rubacava; build r3 at Rubacava
+move r1 from Zoltar to Rubacava
+sacrifice b2 at El_Marrow; convert r2 to y2 at Rubacava; convert b3 to g3 at Rubacava
+sacrifice y2 at Greenbelt; move r1 from Banana to El_Marrow; move g1 from Zoltar to Rubacava
+capture g1 at Rubacava
+sacrifice r2 at Banana; capture b1 at El_Marrow; capture g1 at Rubacava
+sacrifice r3 at Rubacava; capture r1 at Rubacava; capture r1 at El_Marrow; capture g1 at Rubacava
+sacrifice y1 at Zoltar; move b1 from El_Marrow to Calavera; catastrophe blue at Calavera

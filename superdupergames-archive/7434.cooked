@@ -1,0 +1,23 @@
+Twoshort (0, r1b2) g3-
+Sordros (1, y1g3) -b3
+build g1 at Twoshort
+build b1 at Sordros
+build g1 at Twoshort
+build b1 at Sordros
+convert g1 to b1 at Twoshort
+convert b1 to g1 at Sordros
+convert g1 to y1 at Twoshort
+build g1 at Sordros
+build g1 at Twoshort
+convert g1 to r1 at Sordros
+build y1 at Twoshort
+build r1 at Sordros
+move y1 from Twoshort to Grogar (g3)
+build r2 at Sordros
+build y2 at Grogar
+convert r2 to y2 at Sordros
+move y1 from Grogar to Yolonda (y2)
+build y3 at Sordros
+move y1 from Yolonda to Sordros; catastrophe yellow at Sordros
+build r2 at Sordros
+sacrifice y2 at Grogar; move g1 from Twoshort to Sordros; move g3 from Twoshort to Sordros; catastrophe green at Sordros

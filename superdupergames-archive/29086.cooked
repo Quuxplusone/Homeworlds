@@ -1,0 +1,38 @@
+Random56 (0, g3b2) y3-
+Felix (1, y3b1) -g3
+build y1 at Random56
+build g1 at Felix
+move y1 from Random56 to Go39 (g1)
+move g1 from Felix to Rim (b2)
+build y1 at Go39
+build g1 at Felix
+build y1 at Go39
+build g2 at Rim
+move y1 from Go39 to Rim
+convert g2 to r2 at Rim
+build y2 at Random56
+capture y1 at Rim
+convert y2 to r2 at Random56
+build g2 at Rim
+move r2 from Random56 to Go39
+build g2 at Rim
+build y2 at Random56
+build y2 at Rim
+build r1 at Go39
+move g2 from Rim to Gate (b1)
+sacrifice y2 at Random56; move r2 from Go39 to Rim; move r2 from Rim to Gate
+sacrifice g3 at Felix; build g2 at Rim; build g3 at Gate; build g3 at Felix
+capture g2 at Gate
+sacrifice r2 at Rim; capture r2 at Gate; capture g2 at Gate
+build y2 at Random56
+move y1 from Rim to Gate
+move r1 from Go39 to Random56
+sacrifice g3 at Felix; build y2 at Rim; build y3 at Gate; build g3 at Felix
+build r1 at Random56
+sacrifice y2 at Rim; move y1 from Gate to Random56; move y3 from Gate to Random56; catastrophe yellow at Random56
+convert r1 to y1 at Random56
+sacrifice y2 at Rim; move g3 from Gate to Random56; move r2 from Gate to Random56
+build y2 at Random56
+sacrifice r2 at Random56; capture r1 at Random56; capture y2 at Random56
+build y2 at Go39
+capture y1 at Random56

@@ -1,0 +1,48 @@
+Deanthebean (0, b2r3) g3-
+Goulo (1, b1r3) -g3
+build g1 at Deanthebean
+build g1 at Goulo
+convert g1 to y1 at Deanthebean
+convert g1 to y1 at Goulo
+build g1 at Deanthebean
+build g1 at Goulo
+convert g1 to b1 at Deanthebean
+convert g1 to b1 at Goulo
+build b2 at Deanthebean
+build b2 at Goulo
+move b1 from Deanthebean to Sun (g1)
+convert b1 to r1 at Goulo
+build b1 at Deanthebean
+build b3 at Goulo
+build b3 at Sun
+move b3 from Goulo to Flavo (y2)
+convert b3 to y3 at Sun
+move b3 from Flavo to Sun
+move b1 from Deanthebean to Sun
+sacrifice r1 at Goulo; capture y3 at Sun
+build y1 at Deanthebean
+build b3 at Sun; catastrophe blue at Sun
+build y2 at Deanthebean
+build y2 at Goulo
+convert y1 to r1 at Deanthebean
+convert y1 to r1 at Goulo
+move b2 from Deanthebean to Proxima (g1)
+move b2 from Goulo to Flavo (y2)
+move y1 from Deanthebean to Proxima
+move r1 from Goulo to Flavo
+build y1 at Proxima
+convert b2 to g2 at Flavo
+build b1 at Proxima
+build r1 at Flavo
+convert b2 to r2 at Proxima
+move r1 from Flavo to Sun
+build r2 at Proxima
+sacrifice g2 at Flavo; build r2 at Flavo; build r3 at Sun
+convert y1 to g1 at Proxima
+build g2 at Goulo
+build g2 at Deanthebean
+move g2 from Goulo to Flavo
+sacrifice g3 at Deanthebean; build g2 at Deanthebean; build g3 at Deanthebean; build g3 at Proxima
+move g2 from Flavo to Proxima; catastrophe green at Proxima
+move g2 from Deanthebean to Barnard (y1)
+sacrifice y2 at Goulo; move r3 from Sun to Deanthebean; move y3 from Sun to Deanthebean

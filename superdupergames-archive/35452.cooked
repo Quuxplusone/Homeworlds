@@ -1,0 +1,49 @@
+Trydnt (0, b2r1) g3-
+Felix (1, b1y2) -g3
+build g1 at Trydnt
+build g1 at Felix
+build g1 at Trydnt
+build g2 at Felix
+convert g1 to y1 at Trydnt
+convert g1 to b1 at Felix
+convert g1 to b1 at Trydnt
+build b2 at Felix
+build b2 at Trydnt
+move b2 from Felix to Out (g3)
+move b2 from Trydnt to Y3 (y3)
+build b3 at Out
+sacrifice g3 at Trydnt; build b3 at Y3; build b3 at Trydnt; build y1 at Trydnt
+convert b3 to y3 at Out
+sacrifice b1 at Trydnt; convert b2 to r2 at Y3
+convert g2 to r2 at Felix
+convert b3 to g3 at Trydnt
+build b1 at Out
+build g1 at Trydnt
+build g1 at Felix
+move g1 from Trydnt to Y3
+move g1 from Felix to Cap (b3)
+build r1 at Y3
+convert b2 to r2 at Out
+build b2 at Y3
+build b2 at Out
+move b3 from Y3 to Felix
+capture b3 at Felix
+move b2 from Y3 to Felix; catastrophe blue at Felix
+move b1 from Out to Felix
+move y1 from Trydnt to B3 (b3)
+build y1 at Out
+build y2 at Trydnt
+move r2 from Felix to B3
+move y1 from B3 to G1 (g1)
+move y3 from Out to G1
+build g2 at Y3
+build y2 at Out
+move y2 from Trydnt to Cap
+move y3 from G1 to Keepaway (y3)
+sacrifice r1 at Y3; capture g1 at Cap
+build g2 at Felix
+sacrifice y2 at Cap; move g1 from Cap to Felix; move g1 from Y3 to Felix; catastrophe green at Felix
+move y3 from Keepaway to Felix
+sacrifice g2 at Y3; build y2 at G1; build y3 at Trydnt
+convert y3 to g3 at Felix
+sacrifice y3 at Trydnt; move y1 from G1 to Felix; move y1 from Trydnt to Out; move y1 from Out to Felix

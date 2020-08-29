@@ -1,0 +1,36 @@
+Matrixfrog (0, g2b3) y3-
+Ts52 (1, y1b2) -g3
+build y1 at Matrixfrog
+build g1 at Ts52
+build y1 at Matrixfrog
+move g1 from Ts52 to Bigbird (y3)
+move y1 from Matrixfrog to Pea (g1)
+build g1 at Bigbird
+build y2 at Matrixfrog
+build g2 at Ts52
+move y1 from Pea to Broccoli (g3)
+convert g2 to y2 at Ts52
+build y2 at Broccoli
+move y2 from Ts52 to Kermit (g3)
+convert y2 to g2 at Matrixfrog
+move g1 from Bigbird to Ts52
+convert y1 to b1 at Matrixfrog
+sacrifice g3 at Ts52; build g1 at Bigbird; build g2 at Bigbird; build g3 at Ts52
+build y1 at Broccoli
+move g2 from Bigbird to Gonzo (b1)
+sacrifice g2 at Matrixfrog; build y2 at Matrixfrog
+sacrifice g3 at Ts52; build y3 at Kermit; build g2 at Gonzo; build g3 at Ts52
+sacrifice y3 at Matrixfrog; move y1 from Broccoli to Ts52; move y1 from Broccoli to Ts52; move y2 from Broccoli to Ts52; catastrophe yellow at Ts52
+build g3 at Gonzo
+build y1 at Matrixfrog
+convert g3 to r3 at Gonzo
+convert y1 to r1 at Matrixfrog
+build g3 at Gonzo
+build y1 at Matrixfrog
+convert g3 to r3 at Gonzo
+move y1 from Matrixfrog to Wokka (b1)
+sacrifice y3 at Kermit; move r3 from Gonzo to Matrixfrog; move g2 from Gonzo to Matrixfrog; move g2 from Gonzo to Matrixfrog
+build y1 at Matrixfrog
+sacrifice r3 at Matrixfrog; capture r1 at Matrixfrog; capture y2 at Matrixfrog; capture y1 at Matrixfrog
+build b2 at Matrixfrog
+convert g2 to b2 at Matrixfrog; catastrophe blue at Matrixfrog

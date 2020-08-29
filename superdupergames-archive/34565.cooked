@@ -1,0 +1,47 @@
+Ajo (0, r1b2) g3-
+Eliscinsky (1, y1b3) -g3
+build g1 at Ajo
+build g1 at Eliscinsky
+convert g1 to y1 at Ajo
+convert g1 to y1 at Eliscinsky
+build y2 at Ajo
+build g1 at Eliscinsky
+convert y1 to g1 at Ajo
+convert g1 to r1 at Eliscinsky
+convert g1 to r1 at Ajo
+build r2 at Eliscinsky
+build r2 at Ajo
+build g1 at Eliscinsky
+build g1 at Ajo
+convert g1 to b1 at Eliscinsky
+move r1 from Ajo to Alpha (b3)
+move b1 from Eliscinsky to Earth (g2)
+sacrifice g3 at Ajo; build r2 at Alpha; build r3 at Alpha; build r3 at Ajo
+move r1 from Eliscinsky to Earth
+convert r2 to g2 at Alpha
+build r2 at Earth
+convert r3 to y3 at Alpha
+convert r2 to y2 at Earth
+move r2 from Ajo to Beta (b3)
+build g1 at Eliscinsky
+build g1 at Alpha
+move g1 from Eliscinsky to Neptune (b2)
+sacrifice g2 at Alpha; build r2 at Alpha; build r3 at Beta
+build r3 at Eliscinsky
+build g2 at Alpha
+build g2 at Neptune
+sacrifice g2 at Alpha; build g2 at Ajo; build g3 at Alpha
+convert g2 to y2 at Neptune
+move g3 from Alpha to Earth
+move r1 from Earth to Beta
+sacrifice r3 at Beta; capture r1 at Beta; capture y2 at Earth; capture b1 at Earth
+move r3 from Eliscinsky to Neptune
+move r2 from Alpha to Gamma (b2)
+move r3 from Neptune to Eden (g3)
+sacrifice g3 at Earth; build y1 at Earth; build y3 at Alpha; build r3 at Gamma
+build y3 at Neptune
+sacrifice g2 at Ajo; build b1 at Earth; build b1 at Earth
+build g2 at Eliscinsky
+sacrifice y3 at Alpha; move b1 from Earth to Eliscinsky; move y1 from Earth to Eliscinsky; move y2 from Earth to Eliscinsky; catastrophe yellow at Eliscinsky
+sacrifice y2 at Neptune; move r2 from Eliscinsky to Ajo; move r3 from Eden to Ajo; catastrophe red at Ajo
+sacrifice y3 at Alpha; move b1 from Earth to Eliscinsky; move b1 from Earth to Eliscinsky; catastrophe blue at Eliscinsky

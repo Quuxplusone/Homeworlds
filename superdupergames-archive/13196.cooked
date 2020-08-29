@@ -1,0 +1,41 @@
+Mouce (0, b1y2) g3-
+Agentofchaos (1, r1b3) -g3
+build g1 at Mouce
+build g1 at Agentofchaos
+move g1 from Mouce to Hole (b3)
+convert g1 to y1 at Agentofchaos
+build g1 at Hole
+build y1 at Agentofchaos
+convert g1 to y1 at Hole
+build y2 at Agentofchaos
+build y2 at Hole
+move y2 from Agentofchaos to Galdr (g2)
+move y1 from Hole to Galdr
+convert y1 to r1 at Agentofchaos
+move y1 from Galdr to Twitch (b3)
+build g1 at Agentofchaos
+build g1 at Mouce
+move g1 from Agentofchaos to Galdr
+build g2 at Hole
+build g2 at Agentofchaos
+move g1 from Hole to Galdr
+move g1 from Galdr to Spunk (y3)
+build g3 at Hole
+sacrifice g3 at Agentofchaos; build y1 at Galdr; build y3 at Agentofchaos; build g3 at Spunk
+convert g3 to r3 at Mouce
+convert y1 to b1 at Agentofchaos
+sacrifice g3 at Hole; build g3 at Hole; build y1 at Hole; build y3 at Twitch
+sacrifice g3 at Spunk; build g3 at Agentofchaos; build b1 at Agentofchaos; build g3 at Spunk
+sacrifice y1 at Twitch; move g1 from Galdr to Agentofchaos
+move g2 from Agentofchaos to Galdr
+sacrifice g2 at Hole; build g2 at Agentofchaos; build r1 at Mouce
+move g3 from Agentofchaos to Panik (r2)
+convert g2 to b2 at Agentofchaos; catastrophe blue at Agentofchaos
+capture g1 at Agentofchaos
+convert y2 to r2 at Hole
+move r1 from Agentofchaos to Spunk
+build r2 at Hole
+build r3 at Spunk
+sacrifice y3 at Twitch; move r2 from Hole to Agentofchaos; move r2 from Hole to Agentofchaos; move r1 from Mouce to Hole
+capture r2 at Agentofchaos
+move r1 from Hole to Agentofchaos; catastrophe red at Agentofchaos

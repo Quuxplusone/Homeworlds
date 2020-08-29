@@ -1,0 +1,47 @@
+Jesse (0, b1g2) y3-
+Uglyfoot (1, b3y1) -g3
+build y1 at Jesse
+build g1 at Uglyfoot
+build y1 at Jesse
+move g1 from Uglyfoot to Forward (b2)
+move y1 from Jesse to Serenity (b3)
+build g1 at Forward
+build y2 at Jesse
+build g1 at Uglyfoot
+convert y2 to g2 at Jesse
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g3 at Uglyfoot; build g3 at Forward
+move g2 from Jesse to Serenity
+convert g2 to y2 at Uglyfoot
+move g2 from Serenity to Forward; catastrophe green at Forward
+build y2 at Uglyfoot
+move y1 from Jesse to Ariel (g3)
+move g1 from Uglyfoot to Nexus (b2)
+build y2 at Jesse
+move y2 from Uglyfoot to Nexus
+convert y2 to r2 at Jesse
+build y2 at Nexus
+build y3 at Jesse
+convert y2 to r2 at Nexus
+move y3 from Jesse to Serenity
+build g1 at Uglyfoot
+convert y3 to g3 at Serenity
+build y2 at Nexus
+build y3 at Serenity
+build y3 at Uglyfoot
+sacrifice y3 at Serenity; move y1 from Serenity to Nexus; move y1 from Nexus to Uglyfoot; move g3 from Serenity to Nexus; catastrophe yellow at Uglyfoot
+sacrifice y2 at Nexus; move y2 from Nexus to Ariel; move r2 from Nexus to Ariel
+move y1 from Ariel to Nexus
+convert g1 to r1 at Uglyfoot
+convert g3 to r3 at Nexus
+build r1 at Uglyfoot
+capture g1 at Nexus
+build y1 at Ariel
+build g1 at Nexus
+build g1 at Uglyfoot
+move g1 from Nexus to Miranda (y1)
+move r2 from Ariel to Miranda
+sacrifice y3 at Jesse; move g1 from Miranda to Uglyfoot; move g1 from Nexus to Uglyfoot; move r3 from Nexus to Uglyfoot; catastrophe green at Uglyfoot
+move y2 from Ariel to Jesse
+capture y2 at Jesse
+move r2 from Miranda to Uglyfoot
+catastrophe red at Uglyfoot

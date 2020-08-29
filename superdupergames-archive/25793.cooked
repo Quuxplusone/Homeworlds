@@ -1,0 +1,17 @@
+Ts52 (0, y1b2) g3-
+Timetech (1, b3g1) -y3
+build g1 at Ts52
+build y1 at Timetech
+convert g1 to b1 at Ts52
+convert y3 to r3 at Timetech
+move b1 from Ts52 to Kermit (g3)
+move y1 from Timetech to Two (r2)
+convert b1 to r1 at Kermit
+build r1 at Timetech
+build g1 at Ts52
+convert r1 to y1 at Timetech
+build g1 at Ts52
+build y2 at Timetech
+move g1 from Ts52 to Gonzo (b3)
+move y1 from Timetech to Three (r2)
+build g2 at Gonzo

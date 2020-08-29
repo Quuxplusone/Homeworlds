@@ -1,0 +1,60 @@
+Wil (0, y2b1) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Wil
+build g1 at Draw5Playall
+convert g1 to b1 at Wil
+convert g1 to b1 at Draw5Playall
+build b2 at Wil
+build b2 at Draw5Playall
+move b1 from Wil to Y3 (y3)
+convert b1 to y1 at Draw5Playall
+build b1 at Wil
+move b2 from Draw5Playall to Build (g2)
+convert b1 to r1 at Wil
+build y1 at Draw5Playall
+build r1 at Wil
+build y1 at Draw5Playall
+build r2 at Wil
+build b1 at Build
+convert r2 to y2 at Wil
+convert b2 to r2 at Build
+move y2 from Wil to G3 (g3)
+move y1 from Draw5Playall to Build
+build b2 at Wil
+move y1 from Draw5Playall to Construct (g2)
+move b2 from Wil to Why3 (y3)
+sacrifice g3 at Draw5Playall; build y2 at Construct; build y3 at Draw5Playall; build r2 at Build
+convert b2 to g2 at Why3
+move r2 from Build to Y3
+move b1 from Y3 to R2 (r2)
+build r3 at Build
+sacrifice g2 at Why3; build y3 at G3; build b2 at R2
+convert y3 to g3 at Draw5Playall
+move r1 from Wil to Why3 (y3)
+sacrifice y2 at Construct; move y1 from Construct to G3; move y1 from Build to G3; catastrophe yellow at G3
+convert b1 to y1 at R2
+convert r2 to y2 at Build
+sacrifice g3 at Wil; build r2 at Why3; build r3 at Why3; build r3 at Wil
+sacrifice y2 at Build; move r2 from Y3 to R2; move r2 from R2 to Why3; catastrophe red at Why3
+convert r3 to g3 at Wil
+build y1 at Draw5Playall
+build b1 at Wil
+move y1 from Draw5Playall to Build
+move b2 from Wil to Y3 (y3)
+build y2 at Build
+build g1 at Wil
+move y2 from Build to Construct (g3)
+move g1 from Wil to Why3 (y3)
+build b2 at Build
+sacrifice g1 at Why3; build b3 at Y3
+sacrifice g3 at Draw5Playall; build y2 at Build; build y3 at Construct; build y3 at Draw5Playall
+convert b3 to g3 at Y3
+move b2 from Build to Construct
+build g1 at Wil
+build b3 at Construct
+build b3 at Y3
+move b3 from Construct to Wil
+move b2 from Y3 to Wil; catastrophe blue at Wil
+move y2 from Build to Attack (r3)
+build r1 at Wil
+sacrifice y3 at Construct; move y2 from Attack to Wil; move y2 from Construct to Wil; move y1 from Draw5Playall to Wil; catastrophe yellow at Wil

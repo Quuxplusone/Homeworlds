@@ -1,0 +1,13 @@
+Magicjohn (0, r1b2) g3-
+Subhan64 (1, r1b3) -g3
+build g1 at Magicjohn
+build g1 at Subhan64
+convert g1 to y1 at Magicjohn
+convert g1 to y1 at Subhan64
+build g1 at Magicjohn
+build g1 at Subhan64
+convert g1 to b1 at Magicjohn
+build g1 at Subhan64
+build b1 at Magicjohn
+move g1 from Subhan64 to Kermit (b2)
+move b1 from Magicjohn to Never (g3)

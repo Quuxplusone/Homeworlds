@@ -1,0 +1,25 @@
+Amnykon (0, y2b1) g3-
+Ts52 (1, b1y3) -g3
+build g1 at Amnykon
+build g1 at Ts52
+move g1 from Amnykon to Blue (b3)
+move g1 from Ts52 to Gonzo (b2)
+build g1 at Amnykon
+build g2 at Ts52
+convert g1 to y1 at Amnykon
+convert g2 to y2 at Ts52
+build g1 at Amnykon
+build g2 at Ts52
+sacrifice g3 at Amnykon; build g2 at Blue; build g2 at Blue; build g3 at Amnykon
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Gonzo; build y1 at Ts52
+convert g2 to y2 at Blue
+move y1 from Ts52 to Gonzo
+move g2 from Blue to Mba (b2)
+move y2 from Ts52 to Kermit (g2)
+convert y1 to b1 at Amnykon
+convert g1 to r1 at Gonzo
+convert g1 to r1 at Amnykon
+build y1 at Gonzo
+sacrifice g3 at Amnykon; build g1 at Blue; build g1 at Blue; build g3 at Mba
+sacrifice y2 at Kermit; move g3 from Gonzo to Blue; move g3 from Blue to Amnykon
+sacrifice y2 at Blue; move g3 from Mba to Ts52; move g2 from Mba to Ts52; catastrophe green at Ts52

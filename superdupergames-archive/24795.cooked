@@ -1,0 +1,23 @@
+Marmalade (0, b2y1) g3-
+Wil (1, b3g1) -y3
+build g1 at Marmalade
+build y1 at Wil
+move g1 from Marmalade to Doom (y3)
+move y1 from Wil to G2 (g2)
+build g1 at Doom
+build y1 at G2
+build g2 at Marmalade
+build y2 at Wil
+build g2 at Doom
+convert y3 to g3 at Wil
+build g3 at Marmalade
+build y2 at G2
+convert g2 to y2 at Marmalade
+move y2 from G2 to B3 (b3)
+move g3 from Marmalade to B3
+move y2 from B3 to Gtoo (g2)
+convert g3 to r3 at B3
+move y2 from Gtoo to G3 (g3)
+sacrifice y2 at Marmalade; move r3 from B3 to G2; move r3 from G2 to Wil
+move g3 from Wil to G2
+capture y2 at Wil

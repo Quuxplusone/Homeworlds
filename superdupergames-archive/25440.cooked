@@ -1,0 +1,18 @@
+Marmalade (0, g1y2) b3-
+Wil (1, b3g1) -g3
+build b1 at Marmalade
+build g1 at Wil
+build b1 at Marmalade
+convert g3 to y3 at Wil
+move b1 from Marmalade to Foop (g3)
+build g2 at Wil
+build b1 at Foop
+convert g2 to b2 at Wil
+build b2 at Foop
+build b2 at Wil
+convert b2 to y2 at Foop
+move b2 from Wil to G2 (g2)
+sacrifice y2 at Foop; move b1 from Foop to G2; move b1 from G2 to Wil
+move b2 from Wil to Y2 (y2)
+build b2 at Wil
+build b3 at G2

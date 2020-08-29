@@ -1,0 +1,21 @@
+Jesse (0, r1b2) g3-
+Caru (1, y3b2) -g3
+build g1 at Jesse
+build g1 at Caru
+convert g1 to y1 at Jesse
+build g1 at Caru
+build g1 at Jesse
+convert g1 to y1 at Caru
+build y1 at Jesse
+build y2 at Caru
+build y2 at Jesse
+move y1 from Caru to Freedom (g1)
+convert y1 to r1 at Jesse
+build g2 at Caru
+move r1 from Jesse to Goober (g3)
+move g1 from Caru to Mizar (y1)
+move y1 from Jesse to Goober
+sacrifice g3 at Caru; build g2 at Caru; build g2 at Mizar; build g3 at Caru
+sacrifice g3 at Jesse; build g3 at Jesse; build y2 at Jesse; build y3 at Goober
+convert g2 to r2 at Caru
+build y3 at Jesse

@@ -1,0 +1,69 @@
+Madwuher (0, y3b2) g3-
+Ts52 (1, g1b2) -y3
+build g1 at Madwuher
+build y1 at Ts52
+build g1 at Madwuher
+move y1 from Ts52 to Kermit (g3)
+move g1 from Madwuher to Edora (b1)
+build y1 at Ts52
+build g2 at Edora
+build y1 at Kermit
+build g2 at Edora
+build y2 at Ts52
+convert g2 to y2 at Edora
+move y1 from Ts52 to Oscar (g3)
+convert g1 to r1 at Edora
+convert y2 to r2 at Ts52
+build y2 at Edora
+build r1 at Ts52
+move y2 from Edora to Bologna (b3)
+build y2 at Oscar
+sacrifice g1 at Madwuher; build y3 at Bologna
+convert r1 to g1 at Ts52
+build g1 at Madwuher
+move g1 from Ts52 to Gonzo (b3)
+move g2 from Edora to Gonzo
+build g2 at Gonzo
+sacrifice g3 at Madwuher; build g2 at Gonzo; build g3 at Madwuher; build r1 at Edora; catastrophe green at Gonzo
+build r1 at Ts52
+build g1 at Madwuher
+convert r2 to g2 at Ts52
+move g1 from Madwuher to Edora
+build r2 at Ts52
+build g2 at Edora
+move r2 from Ts52 to Kermit
+move r1 from Edora to Bologna
+build r2 at Ts52
+move g1 from Edora to Bologna
+move r1 from Ts52 to Oscar
+sacrifice g3 at Madwuher; build g2 at Bologna; build g3 at Madwuher
+move y1 from Oscar to Ts52
+sacrifice g3 at Madwuher; build g3 at Madwuher; build r2 at Bologna; build r3 at Edora
+sacrifice g2 at Ts52; build r3 at Oscar; build r3 at Kermit
+build g2 at Edora
+sacrifice y2 at Oscar; move r1 from Oscar to Edora; move r2 from Kermit to Edora; catastrophe red at Edora
+convert g1 to r1 at Madwuher
+move r3 from Kermit to Edora
+sacrifice y2 at Edora; move g2 from Edora to Camelot (y2); move g2 from Edora to Farthington (y2)
+move y1 from Ts52 to Oscar
+build g1 at Madwuher
+move y1 from Kermit to Edora
+move r2 from Bologna to Camelot
+move r3 from Oscar to Camelot
+sacrifice g3 at Madwuher; build g3 at Madwuher; build r1 at Camelot; build r2 at Camelot; catastrophe red at Camelot
+move r3 from Edora to Camelot
+sacrifice g2 at Camelot; build g2 at Farthington; build r1 at Bologna
+move r3 from Camelot to Edora
+move r1 from Bologna to Farthington
+build y2 at Ts52
+sacrifice g3 at Madwuher; build g3 at Madwuher; build r2 at Bologna; build r2 at Madwuher
+build r3 at Ts52
+build r3 at Farthington
+move r2 from Ts52 to Oscar
+move g2 from Farthington to Kermit
+move r3 from Ts52 to Kermit
+sacrifice g2 at Kermit; build g2 at Bologna
+move y1 from Kermit to Edora
+move y3 from Bologna to Ts52
+move r2 from Oscar to Ts52
+sacrifice r3 at Farthington; capture y3 at Ts52; capture y2 at Ts52; capture r2 at Ts52

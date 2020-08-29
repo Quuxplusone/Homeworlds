@@ -1,0 +1,13 @@
+Danner (0, r1b2) g3-
+Horowits (1, g2b3) -y3
+build g1 at Danner
+build y1 at Horowits
+convert g1 to r1 at Danner
+convert y1 to g1 at Horowits
+build r1 at Danner
+build g1 at Horowits
+build g1 at Danner
+convert y3 to r3 at Horowits
+convert r1 to y1 at Danner
+convert g1 to y1 at Horowits
+move g1 from Danner to Sun (y3)

@@ -1,0 +1,63 @@
+Wil (0, y2b1) g3-
+Speardane (1, y3b2) -g3
+build g1 at Wil
+build g1 at Speardane
+convert g1 to b1 at Wil
+convert g3 to r3 at Speardane
+build b1 at Wil
+build g1 at Speardane
+move b1 from Wil to G3 (g3)
+move g1 from Speardane to Delos (y1)
+build b2 at Wil
+build g1 at Delos
+move b2 from Wil to Y3 (y3)
+move g1 from Delos to Lebling (b3)
+sacrifice g3 at Wil; build b2 at Y3; build b3 at G3; build b3 at Wil
+build g2 at Lebling
+convert b3 to y3 at G3
+convert g2 to y2 at Lebling
+build b3 at G3
+build g2 at Lebling
+convert b3 to r3 at G3
+move g1 from Delos to Kotok (b3)
+convert b3 to g3 at Wil
+sacrifice g2 at Lebling; build g2 at Speardane; build g2 at Kotok
+build b3 at G3
+convert g1 to y1 at Kotok
+convert b3 to g3 at G3
+move g2 from Speardane to Delos (y1)
+build b3 at G3
+build g1 at Delos
+move g3 from G3 to Y1 (y1)
+sacrifice g2 at Delos; build y2 at Kotok; build g2 at Kotok
+build g2 at Y1
+convert g2 to r2 at Kotok
+build r1 at G3
+build g2 at Delos
+move r3 from G3 to Delos
+sacrifice y2 at Kotok; move g1 from Delos to Minsky (y2); move g2 from Delos to Minsky
+move r3 from Delos to Minsky
+sacrifice y2 at Lebling; move g1 from Minsky to Y1; move g2 from Minsky to Y1; catastrophe green at Y1
+convert b3 to r3 at G3
+build y1 at Kotok
+build b3 at G3
+move y1 from Kotok to Delos (g2)
+convert b3 to g3 at G3
+move y1 from Delos to Licklider (b3)
+move g3 from G3 to Y1 (y1)
+build y2 at Kotok
+move r1 from G3 to Y1
+move y2 from Kotok to Delos (g2)
+build r1 at G3
+move y2 from Delos to Lebling
+move r3 from G3 to G1 (g1)
+build g2 at Kotok
+build r1 at G1
+sacrifice g2 at Kotok; build g2 at Lebling; build r2 at Kotok
+move r1 from Y1 to Speardane
+sacrifice g2 at Lebling; build g2 at Speardane; build g2 at Kotok
+capture g1 at Speardane
+sacrifice g2 at Kotok; build g2 at Lebling; build r2 at Kotok
+sacrifice y3 at G3; move r1 from G1 to Speardane; move r3 from G1 to Speardane; move g3 from Y1 to Speardane; catastrophe red at Speardane
+pass
+build g1 at Speardane; catastrophe green at Speardane

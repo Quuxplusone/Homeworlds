@@ -1,0 +1,32 @@
+Mxpf (0, y3g2) b3-
+Simon (1, b3y1) -g3
+build b1 at Mxpf
+build g1 at Simon
+convert b1 to g1 at Mxpf
+move g1 from Simon to B2 (b2)
+build b1 at Mxpf
+build g1 at Simon
+build g2 at Mxpf
+build g2 at Simon
+move g2 from Mxpf to Artax (y1)
+build g3 at B2
+build g3 at Artax
+convert g1 to y1 at B2
+move g2 from Artax to Amber (y2)
+convert g1 to r1 at Simon
+sacrifice g3 at Artax; build g1 at Amber; build g1 at Amber; build g3 at Mxpf
+sacrifice g3 at Simon; build g3 at Simon; build y1 at B2; build y2 at B2
+convert g3 to y3 at Mxpf
+sacrifice g3 at Simon; build g3 at Simon; build g3 at B2; build r1 at Simon
+sacrifice b1 at Mxpf; convert g2 to y2 at Amber
+sacrifice y2 at B2; move g2 from Simon to Amber; move y1 from B2 to R1 (r1)
+sacrifice y3 at Mxpf; move y2 from Amber to Simon; move g1 from Amber to Simon; move g1 from Amber to Simon
+capture y2 at Simon
+build g2 at Simon; catastrophe green at Simon
+sacrifice g3 at B2; build y2 at B2; build y3 at R1; build y3 at Simon
+convert b3 to r3 at Mxpf
+build g1 at B2
+build r2 at Mxpf
+move g3 from B2 to B1 (b1)
+build r2 at Mxpf
+build g1 at B1

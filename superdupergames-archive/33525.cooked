@@ -1,0 +1,18 @@
+Silenttitan (0, b1r2) g3-
+Bhorner (1, b2r1) -g3
+build g1 at Silenttitan
+build g1 at Bhorner
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Bhorner
+build g1 at Silenttitan
+build g1 at Bhorner
+convert g1 to b1 at Silenttitan
+build g1 at Bhorner
+build b1 at Silenttitan
+convert g1 to r1 at Bhorner
+move b1 from Silenttitan to Sol (y3)
+build r1 at Bhorner
+build b2 at Silenttitan
+move r1 from Bhorner to Sol
+sacrifice b1 at Sol; convert b2 to y2 at Silenttitan
+build r2 at Bhorner

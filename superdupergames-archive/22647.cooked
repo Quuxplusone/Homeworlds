@@ -1,0 +1,39 @@
+Danner (0, b1r2) g3-
+Dlwillson (1, b3y1) -g3
+build g1 at Danner
+build g1 at Dlwillson
+convert g1 to y1 at Danner
+convert g1 to b1 at Dlwillson
+build y1 at Danner
+build b1 at Dlwillson
+build y2 at Danner
+move b1 from Dlwillson to Field (g2)
+move y1 from Danner to Ocean (b3)
+build b2 at Field
+sacrifice g3 at Danner; build y2 at Ocean; build y2 at Ocean; build y3 at Danner
+build b2 at Dlwillson
+convert y3 to g3 at Danner
+move b2 from Dlwillson to Forest (g2)
+build y3 at Danner
+build g1 at Dlwillson
+convert y3 to b3 at Danner
+convert g3 to y3 at Dlwillson
+build y3 at Danner
+build g1 at Dlwillson
+move y1 from Ocean to Hill (g2)
+move g1 from Dlwillson to Sky (b2)
+sacrifice y3 at Danner; move y2 from Ocean to Hill; move y1 from Hill to Dlwillson; move y2 from Hill to Dlwillson; catastrophe yellow at Dlwillson
+convert b1 to y1 at Dlwillson
+move b3 from Danner to Dlwillson
+build g1 at Dlwillson
+convert b3 to r3 at Dlwillson
+sacrifice b2 at Field; convert y1 to r1 at Dlwillson; convert g1 to r1 at Dlwillson
+capture g1 at Dlwillson
+capture g1 at Dlwillson
+move y2 from Danner to Dlwillson
+build r1 at Dlwillson; catastrophe red at Dlwillson
+convert y2 to r2 at Dlwillson
+build g1 at Dlwillson
+capture g1 at Dlwillson
+build g2 at Dlwillson
+build g3 at Dlwillson; catastrophe green at Dlwillson

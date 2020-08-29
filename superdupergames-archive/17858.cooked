@@ -1,0 +1,87 @@
+Ts52 (0, y3b2) g3-
+Daselva (1, r1b2) -g3
+build g1 at Ts52
+build g1 at Daselva
+convert g1 to r1 at Ts52
+convert g1 to r1 at Daselva
+build r2 at Ts52
+build r2 at Daselva
+move r1 from Ts52 to Dogstar (y1)
+convert r1 to y1 at Daselva
+build g1 at Ts52
+build y1 at Daselva
+move g1 from Ts52 to Dogstar
+build y2 at Daselva
+build g1 at Ts52
+convert y2 to g2 at Daselva
+convert g1 to b1 at Ts52
+build y2 at Daselva
+convert r2 to y2 at Ts52
+move y2 from Daselva to S1 (g3)
+move y2 from Ts52 to Robin (g1)
+convert y1 to b1 at Daselva
+move b1 from Ts52 to Dogstar
+build y1 at S1
+build g1 at Ts52
+sacrifice b1 at Daselva; convert y1 to r1 at S1
+build r2 at Dogstar
+build r2 at S1
+move r1 from Dogstar to Ts52
+move r2 from S1 to S2 (g2)
+build r3 at Ts52
+sacrifice g2 at Daselva; build r3 at S1; build r3 at S2
+move r3 from Ts52 to Robin
+move r3 from S1 to Dogstar
+move r2 from Dogstar to Bigstar (y3)
+capture b1 at Dogstar
+move g1 from Dogstar to Bigstar
+build g2 at Daselva
+move r3 from Robin to S1
+move y2 from S1 to Dogstar
+move y2 from Robin to S1
+convert b1 to g1 at Dogstar
+capture r1 at S1
+build g2 at Dogstar
+move g1 from Ts52 to Chickadee (y1)
+sacrifice y1 at Daselva; move r2 from S2 to Chickadee
+move g1 from Chickadee to Bigstar
+convert g2 to y2 at Daselva
+move r3 from S1 to Chickadee
+move r2 from Chickadee to S3 (y3)
+build y1 at S1
+move r3 from Dogstar to Bigstar
+sacrifice y2 at S1; move r1 from S1 to Daselva; move r2 from Bigstar to Daselva; catastrophe red at Daselva
+move r2 from S3 to Daselva
+move g1 from Bigstar to Chickadee
+capture g1 at Bigstar
+build r1 at Ts52
+sacrifice g2 at Dogstar; build y2 at Dogstar; build y3 at Daselva
+move y1 from S1 to Dogstar; catastrophe yellow at Dogstar
+move y2 from Daselva to Bigstar
+convert r1 to y1 at Ts52
+sacrifice g3 at Daselva; build y1 at Bigstar; build y2 at Daselva; build y2 at Daselva
+move y1 from Ts52 to Gonzo (b1)
+move y2 from Daselva to S1 (g1)
+move y1 from Gonzo to Bigstar; catastrophe yellow at Bigstar
+sacrifice y2 at Daselva; move r3 from S2 to S1
+build r1 at Ts52
+build y1 at S1
+convert r1 to b1 at Ts52
+build y1 at S1
+move b1 from Ts52 to Chickadee
+move y1 from S1 to Ts52
+capture y1 at Ts52
+move y2 from S1 to Daselva
+move y1 from Ts52 to Robin (g1)
+build y2 at S1
+build g2 at Ts52
+build y2 at S1
+build y3 at Robin
+sacrifice y2 at Daselva; move y1 from S1 to Ts52; move y2 from S1 to Ts52
+build b1 at Chickadee
+sacrifice y2 at S1; move y1 from Ts52 to Robin; move y2 from Ts52 to Robin; catastrophe yellow at Robin
+build b1 at Chickadee
+build r1 at S1
+convert r3 to y3 at Chickadee
+build r1 at S1
+sacrifice y3 at Chickadee; move b1 from Chickadee to Daselva; move b1 from Chickadee to Daselva; move b1 from Chickadee to Daselva; catastrophe blue at Daselva

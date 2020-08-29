@@ -1,0 +1,36 @@
+Uglyfoot (0, b3y1) g3-
+Silenttitan (1, r3b2) -g3
+build g1 at Uglyfoot
+build g1 at Silenttitan
+convert g1 to r1 at Uglyfoot
+convert g1 to y1 at Silenttitan
+build g1 at Uglyfoot
+build y1 at Silenttitan
+move g1 from Uglyfoot to Colony (y2)
+build y2 at Silenttitan
+build g1 at Uglyfoot
+move y2 from Silenttitan to Valley (g1)
+build g2 at Colony
+sacrifice g3 at Silenttitan; build y2 at Valley; build y3 at Valley; build y3 at Silenttitan
+sacrifice g3 at Uglyfoot; build g2 at Colony; build g2 at Uglyfoot; build g3 at Uglyfoot
+convert y3 to g3 at Silenttitan
+move g2 from Colony to Outpost (b1)
+build g3 at Silenttitan
+convert g2 to r2 at Outpost
+build y3 at Silenttitan
+convert g3 to y3 at Uglyfoot
+sacrifice y3 at Silenttitan; move y2 from Valley to Rare (b2); move y3 from Valley to Burst (r2); move g3 from Silenttitan to Sync (b1)
+build g2 at Colony
+sacrifice y1 at Silenttitan; move g3 from Sync to Colony; catastrophe green at Colony
+move g2 from Uglyfoot to Nexus (y2)
+convert y2 to r2 at Rare
+build g1 at Nexus
+sacrifice g3 at Silenttitan; build y1 at Burst; build y2 at Burst; build y3 at Silenttitan
+convert y3 to g3 at Uglyfoot
+build y3 at Valley
+sacrifice g3 at Uglyfoot; build g2 at Uglyfoot; build g2 at Nexus; build g3 at Uglyfoot
+convert y3 to g3 at Silenttitan
+move g2 from Uglyfoot to Themall (b2)
+build y3 at Silenttitan
+sacrifice g3 at Uglyfoot; build g3 at Uglyfoot; build g3 at Themall; build r1 at Outpost
+move y3 from Valley to Nexus

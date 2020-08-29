@@ -1,0 +1,45 @@
+Fuguru (0, b3y2) g3-
+Neoprofin (1, g1b3) -r3
+build g1 at Fuguru
+build r1 at Neoprofin
+move g1 from Fuguru to Aa (g1)
+convert r1 to y1 at Neoprofin
+build g2 at Fuguru
+build y1 at Neoprofin
+convert g3 to y3 at Fuguru
+build r1 at Neoprofin
+build g2 at Fuguru
+move y1 from Neoprofin to Xxx (y2)
+build g2 at Fuguru
+move y1 from Neoprofin to Nambla (y2)
+move g2 from Fuguru to Nafta (b1)
+convert r1 to b1 at Neoprofin
+build g3 at Nafta
+build b1 at Neoprofin
+convert g3 to r3 at Nafta
+convert b1 to y1 at Neoprofin
+build g3 at Nafta
+build y3 at Neoprofin
+convert g3 to y3 at Nafta
+build r1 at Neoprofin
+move r3 from Nafta to Nambla
+move y1 from Nambla to Aa
+build g3 at Nafta
+convert y3 to g3 at Neoprofin
+convert g3 to r3 at Nafta
+build y3 at Neoprofin
+move r3 from Nafta to Xxx
+sacrifice y3 at Neoprofin; move y1 from Aa to Fuguru; move y1 from Xxx to Aa; move y1 from Aa to Fuguru; catastrophe yellow at Fuguru
+move y3 from Nafta to Xxx
+build g3 at Neoprofin
+build g3 at Fuguru
+convert g3 to y3 at Neoprofin
+convert g3 to y3 at Fuguru
+sacrifice y3 at Neoprofin; move r1 from Neoprofin to Fafsa (y2); move g3 from Neoprofin to Fafsa; move g3 from Fafsa to Fuguru
+convert g2 to r2 at Fuguru
+build r1 at Neoprofin
+sacrifice y3 at Fuguru; move r3 from Xxx to Neoprofin; move y3 from Xxx to Neoprofin; move r3 from Nambla to Fuguru
+capture r3 at Neoprofin
+sacrifice r3 at Fuguru; capture r3 at Neoprofin; capture r3 at Neoprofin; capture r1 at Neoprofin
+move r1 from Fafsa to Neoprofin; catastrophe red at Neoprofin
+sacrifice r2 at Fuguru; capture b1 at Neoprofin; capture y1 at Neoprofin

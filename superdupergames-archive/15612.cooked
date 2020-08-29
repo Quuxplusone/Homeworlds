@@ -1,0 +1,20 @@
+Dlwillson (0, b3y2) g3-
+Shmil1 (1, b2y3) -g3
+build g1 at Dlwillson
+build g1 at Shmil1
+move g1 from Dlwillson to Lucky (b1)
+convert g1 to r1 at Shmil1
+build g1 at Lucky
+move r1 from Shmil1 to Lucky
+build g1 at Dlwillson
+capture g1 at Lucky
+build g2 at Dlwillson
+build g2 at Shmil1
+move g2 from Dlwillson to Rich (y1)
+convert g2 to r2 at Shmil1
+sacrifice g3 at Dlwillson; build g2 at Lucky; build g2 at Rich; build g3 at Dlwillson
+build g3 at Shmil1
+move g2 from Rich to Shmil1
+convert g3 to y3 at Shmil1
+sacrifice g2 at Lucky; build g2 at Shmil1; build g3 at Lucky
+sacrifice y3 at Shmil1; move g3 from Shmil1 to Rich; move g3 from Rich to Dlwillson; move g1 from Lucky to Dlwillson; catastrophe green at Dlwillson

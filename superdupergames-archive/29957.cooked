@@ -1,0 +1,53 @@
+Haymire (0, r3b2) g3-
+Felix (1, g1b3) -r3
+build g1 at Haymire
+build r1 at Felix
+convert g1 to y1 at Haymire
+convert r1 to y1 at Felix
+build g1 at Haymire
+build y1 at Felix
+build y2 at Haymire
+convert y1 to g1 at Felix
+build g2 at Haymire
+move g1 from Felix to Rim (b2)
+move g2 from Haymire to Blood (r1)
+build g2 at Rim
+sacrifice g3 at Haymire; build g2 at Blood; build g3 at Haymire; build g3 at Haymire
+convert g2 to y2 at Rim
+move g3 from Haymire to Cheeseball (y1)
+build y2 at Rim
+convert y1 to b1 at Haymire
+convert y2 to b2 at Rim
+move b1 from Haymire to Blood
+build r1 at Felix
+convert g2 to y2 at Blood
+convert r3 to g3 at Felix
+build b1 at Blood
+build g2 at Rim
+sacrifice g2 at Blood; build y1 at Haymire; build y3 at Haymire
+sacrifice g3 at Felix; build y3 at Felix; build y3 at Rim; build r1 at Felix
+sacrifice y2 at Haymire; move b1 from Blood to Rim; move b1 from Blood to Rim; catastrophe blue at Rim
+move y1 from Felix to Opus (g2)
+move g3 from Cheeseball to Aquatear (b2)
+move y3 from Felix to Aquatear
+sacrifice y1 at Haymire; move g3 from Aquatear to Felix
+move y3 from Aquatear to Felix
+sacrifice g3 at Haymire; build g1 at Felix; build g2 at Felix; build g2 at Haymire; catastrophe green at Felix
+convert r1 to g1 at Felix
+build y1 at Haymire
+build g1 at Felix
+convert g1 to b1 at Haymire
+convert g1 to b1 at Felix
+move b1 from Haymire to Bogey (g1)
+build y1 at Opus
+convert y1 to b1 at Haymire
+move b1 from Felix to Opus
+build g1 at Haymire
+build b2 at Opus
+move b1 from Haymire to Blood
+convert y1 to r1 at Opus
+convert g2 to b2 at Haymire
+move b1 from Opus to Raggy (y1)
+sacrifice y3 at Haymire; move b2 from Haymire to Bogey; move b2 from Bogey to Felix; move b1 from Bogey to Felix
+move b1 from Raggy to Felix
+move b1 from Blood to Felix; catastrophe blue at Felix

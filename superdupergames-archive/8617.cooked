@@ -1,0 +1,28 @@
+Horowits (0, g3b2) r3-
+Jesse (1, g3b1) -y3
+build r1 at Horowits
+build y1 at Jesse
+convert r1 to y1 at Horowits
+move y1 from Jesse to Riotgear (g2)
+move y1 from Horowits to Greenjello (g1)
+build y1 at Jesse
+build y2 at Greenjello
+move y1 from Jesse to Baton (g2)
+build r1 at Horowits
+build y2 at Jesse
+convert r1 to b1 at Horowits
+convert y2 to r2 at Jesse
+move y2 from Greenjello to Horowits
+build y2 at Jesse
+move b1 from Horowits to Greenjello
+convert y2 to b2 at Jesse
+convert y1 to r1 at Greenjello
+move b2 from Jesse to Riotgear
+build y1 at Horowits
+build y2 at Riotgear
+move y2 from Horowits to Greenjello
+convert y2 to g2 at Riotgear
+move r1 from Greenjello to Baton
+build y2 at Baton
+capture y1 at Baton
+sacrifice r2 at Jesse; capture y1 at Baton; capture r1 at Baton

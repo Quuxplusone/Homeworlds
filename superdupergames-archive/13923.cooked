@@ -1,0 +1,22 @@
+Agentofchaos (0, r3b1) g3-
+Twoshort (1, b1g1) -b3
+build g1 at Agentofchaos
+build b1 at Twoshort
+build g1 at Agentofchaos
+convert b3 to y3 at Twoshort
+convert g1 to y1 at Agentofchaos
+build b2 at Twoshort
+build g1 at Agentofchaos
+move b1 from Twoshort to Grogar (g3)
+build y1 at Agentofchaos
+build b2 at Twoshort
+convert g3 to b3 at Agentofchaos
+move b2 from Twoshort to Yak (y2)
+build g2 at Agentofchaos
+build b2 at Grogar
+convert g1 to r1 at Agentofchaos
+build b3 at Twoshort
+move g2 from Agentofchaos to Hakra (y2)
+sacrifice y3 at Twoshort; move b1 from Grogar to Yak; move b1 from Yak to Agentofchaos; move b2 from Yak to Agentofchaos; catastrophe blue at Agentofchaos
+build y1 at Agentofchaos
+convert b2 to y2 at Twoshort

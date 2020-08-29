@@ -1,0 +1,50 @@
+Ausmuh (0, g3y2) b3-
+Simon (1, r1b3) -g3
+build b1 at Ausmuh
+build g1 at Simon
+convert b1 to y1 at Ausmuh
+convert g1 to y1 at Simon
+build b1 at Ausmuh
+build g1 at Simon
+move y1 from Ausmuh to Ls1 (b1)
+convert g1 to b1 at Simon
+move y1 from Ls1 to Mw2 (g2)
+move b1 from Simon to G2 (g2)
+convert b1 to r1 at Ausmuh
+build b1 at G2
+build b1 at Ausmuh
+build b2 at G2
+build b2 at Ausmuh
+convert b2 to y2 at G2
+build r1 at Ausmuh
+sacrifice y2 at G2; move b1 from G2 to G1 (g1); move b1 from G1 to Ausmuh; catastrophe blue at Ausmuh
+build r2 at Ausmuh
+build b1 at G2
+move r1 from Ausmuh to Sm1 (y1)
+build y2 at Simon
+move r1 from Sm1 to Mw2
+move y2 from Simon to G2
+build r2 at Mw2
+convert y2 to r2 at G2
+build r3 at Ausmuh
+build r3 at G2
+build r3 at Mw2
+convert r3 to y3 at G2
+move r2 from Ausmuh to Ls1 (b1)
+build r3 at G2
+convert r2 to b2 at Ls1
+move r3 from G2 to Ls1
+sacrifice b2 at Ls1; convert r2 to y2 at Mw2; convert r3 to b3 at Ausmuh
+convert b1 to g1 at G2
+move y1 from Mw2 to Mw1 (g1)
+move g1 from G2 to Ls1
+convert r1 to b1 at Ausmuh
+build g1 at Simon
+move b1 from Ausmuh to Mw1
+sacrifice g3 at Simon; build g2 at Ls1; build g3 at Ls1; build g3 at Simon
+build b2 at Mw1
+sacrifice g3 at Simon; build g3 at Simon; build y1 at G2; build b2 at G2
+build b2 at Ausmuh
+move b1 from G2 to Mw1
+move r3 from Mw2 to Mw1
+sacrifice y3 at G2; move b1 from Mw1 to Ausmuh; move b2 from G2 to Mw1; move b2 from Mw1 to Ausmuh; catastrophe blue at Ausmuh

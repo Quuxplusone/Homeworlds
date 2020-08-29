@@ -1,0 +1,9 @@
+Clockwise (0, r1b2) g3-
+Eugman (1, y3b1) -g3
+build g1 at Clockwise
+build g1 at Eugman
+convert g1 to y1 at Clockwise
+build g1 at Eugman
+build g1 at Clockwise
+convert g1 to b1 at Eugman
+build y1 at Clockwise

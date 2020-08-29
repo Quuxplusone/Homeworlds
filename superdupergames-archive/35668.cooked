@@ -1,0 +1,25 @@
+Babamots (0, b2r1) g3-
+Speardane (1, y1g3) -b3
+build g1 at Babamots
+build b1 at Speardane
+convert g1 to y1 at Babamots
+convert b3 to r3 at Speardane
+build y1 at Babamots
+build b1 at Speardane
+build y2 at Babamots
+move b1 from Speardane to Delos (g2)
+move y1 from Babamots to Bolarus (b3)
+build b1 at Delos
+sacrifice g3 at Babamots; build y2 at Bolarus; build y2 at Bolarus; build y3 at Babamots
+convert b1 to r1 at Delos
+convert y3 to g3 at Babamots
+convert r3 to y3 at Speardane
+build y3 at Babamots
+build y3 at Speardane
+sacrifice y2 at Bolarus; move y1 from Bolarus to Delos; move y1 from Delos to Speardane; catastrophe yellow at Speardane
+build b1 at Delos
+convert y3 to r3 at Babamots
+convert b1 to y1 at Delos
+move g3 from Babamots to Speardane
+pass
+sacrifice r3 at Babamots; capture b1 at Speardane

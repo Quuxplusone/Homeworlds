@@ -1,0 +1,44 @@
+Dlwillson (0, b2y3) g3-
+Ausmuh (1, b3y1) -g3
+build g1 at Dlwillson
+build g1 at Ausmuh
+convert g1 to r1 at Dlwillson
+convert g1 to b1 at Ausmuh
+build r1 at Dlwillson
+build b1 at Ausmuh
+convert r1 to b1 at Dlwillson
+move b1 from Ausmuh to Zog (g2)
+move b1 from Dlwillson to Field (g1)
+build b2 at Ausmuh
+build r1 at Dlwillson
+convert b2 to r2 at Ausmuh
+build g1 at Dlwillson
+build b2 at Zog
+move r1 from Dlwillson to Field
+convert b2 to y2 at Zog
+build b2 at Field
+sacrifice g3 at Ausmuh; build b2 at Zog; build b3 at Zog; build b3 at Ausmuh
+convert b2 to y2 at Field
+sacrifice b2 at Zog; convert b3 to g3 at Ausmuh; convert b3 to y3 at Zog
+build b2 at Field
+build g1 at Ausmuh
+convert b2 to g2 at Field
+move y3 from Zog to Almost (y1)
+move g2 from Field to Sky (b2)
+convert b1 to y1 at Ausmuh
+build g2 at Sky
+sacrifice g3 at Ausmuh; build y2 at Zog; build y3 at Almost; build g3 at Ausmuh
+move g1 from Dlwillson to Sea (b1)
+move b1 from Zog to Almost
+sacrifice g2 at Sky; build g2 at Dlwillson; build g3 at Sky
+sacrifice g3 at Ausmuh; build b2 at Almost; build b3 at Almost; build g3 at Ausmuh
+build b3 at Field
+sacrifice y2 at Zog; move y3 from Almost to Dlwillson; move b3 from Almost to Dlwillson
+capture b3 at Dlwillson
+sacrifice r2 at Ausmuh; capture g3 at Dlwillson; capture b3 at Dlwillson
+move b3 from Field to Dlwillson
+convert y3 to r3 at Almost
+sacrifice g3 at Sky; build y2 at Field; build y3 at Field; build g3 at Dlwillson
+sacrifice r3 at Almost; capture b3 at Dlwillson; capture g3 at Dlwillson; capture r1 at Dlwillson
+sacrifice r1 at Field; capture r1 at Dlwillson
+sacrifice b2 at Almost; convert g3 to r3 at Ausmuh; convert y2 to r2 at Zog

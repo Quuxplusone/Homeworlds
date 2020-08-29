@@ -1,0 +1,63 @@
+Mneme (0, b1y2) g3-
+Jbj77 (1, b1g3) -b3
+build g1 at Mneme
+build b1 at Jbj77
+build g1 at Mneme
+convert b3 to y3 at Jbj77
+move g1 from Mneme to Diamant (y3)
+build b2 at Jbj77
+build g1 at Diamant
+move b2 from Jbj77 to Alpha (b2)
+build g2 at Mneme
+build b2 at Jbj77
+move g2 from Mneme to Bazaar (b3)
+move b1 from Jbj77 to Beta (g2)
+sacrifice g3 at Mneme; build g2 at Mneme; build g3 at Mneme; build g3 at Bazaar
+build b3 at Jbj77
+move g2 from Mneme to Alhambra (b3)
+convert b3 to r3 at Jbj77
+convert g3 to r3 at Bazaar
+build b3 at Beta
+sacrifice g3 at Mneme; build g3 at Mneme; build g3 at Bazaar; build r1 at Bazaar
+convert b3 to y3 at Beta
+move g1 from Mneme to Hacienda (b3)
+move r3 from Jbj77 to Beta
+convert g2 to y2 at Bazaar
+move r3 from Beta to Alhambra
+sacrifice g2 at Alhambra; build g2 at Bazaar; build y1 at Bazaar
+convert b2 to g2 at Alpha
+move y1 from Bazaar to Ingenious (b2)
+build y1 at Beta
+sacrifice g3 at Bazaar; build y1 at Ingenious; build y2 at Ingenious; build g3 at Bazaar
+move y1 from Beta to Alhambra
+move y1 from Ingenious to Jbj77
+convert b2 to r2 at Jbj77
+sacrifice y2 at Bazaar; move y1 from Ingenious to Jbj77; move y2 from Ingenious to Jbj77; catastrophe yellow at Jbj77
+build b2 at Beta
+convert g2 to y2 at Bazaar
+move y3 from Beta to Jbj77
+sacrifice g3 at Bazaar; build g2 at Mneme; build g3 at Hacienda; build y1 at Bazaar
+sacrifice g2 at Alpha; build y1 at Alhambra; build y2 at Alhambra
+convert g3 to y3 at Hacienda
+convert y2 to g2 at Alhambra
+sacrifice g3 at Mneme; build g3 at Mneme; build g3 at Hacienda; build y2 at Hacienda
+build b2 at Beta
+move y3 from Hacienda to Beta
+build b2 at Beta
+move g1 from Diamant to Beta; catastrophe blue at Beta
+build r1 at Jbj77
+sacrifice g1 at Diamant; build y3 at Hacienda
+build g1 at Alhambra
+sacrifice y2 at Hacienda; move g2 from Mneme to Alhambra; move g1 from Beta to Alhambra; catastrophe green at Alhambra
+build r1 at Jbj77
+sacrifice y2 at Bazaar; move r1 from Bazaar to Beta; move r1 from Beta to Jbj77; catastrophe red at Jbj77
+convert y1 to g1 at Alhambra
+build y1 at Beta
+build y2 at Alhambra
+move g3 from Hacienda to Niagra (b2)
+move y1 from Alhambra to Gamma (g2)
+convert g3 to r3 at Mneme
+build y2 at Gamma
+move y1 from Bazaar to Niagra
+sacrifice y2 at Gamma; move r3 from Alhambra to Gamma; move r3 from Gamma to Jbj77
+build y2 at Niagra

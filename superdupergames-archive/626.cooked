@@ -1,0 +1,43 @@
+Zapple (0, b2g1) y3-
+Matrixfrog (1, r2g1) -y3
+build y1 at Zapple
+build y1 at Matrixfrog
+build y1 at Zapple
+move y1 from Matrixfrog to Blueberry (b3)
+move y1 from Zapple to Blueberry
+move y1 from Blueberry to Pine (g1)
+convert y1 to b1 at Zapple
+build y1 at Pine
+convert y1 to r1 at Blueberry
+move y1 from Pine to Newberry (b2)
+move y3 from Zapple to Blueberry
+build y1 at Matrixfrog
+build b1 at Zapple
+build y2 at Pine
+move y3 from Blueberry to Zapple
+move y2 from Pine to Blueberry
+build y2 at Zapple
+move y1 from Pine to Cheese (y2)
+move y3 from Zapple to Blueberry
+move y2 from Blueberry to Zapple
+convert y3 to r3 at Blueberry
+pass
+convert r3 to b3 at Blueberry
+pass
+convert b1 to r1 at Zapple
+build y3 at Matrixfrog
+convert b3 to y3 at Blueberry
+move y3 from Matrixfrog to Zxc (b3)
+build r1 at Zapple
+convert y1 to g1 at Newberry
+move r1 from Zapple to Zxc
+build y1 at Zapple
+convert y3 to r3 at Blueberry
+convert y2 to b2 at Zapple
+sacrifice b1 at Zapple; convert r3 to y3 at Blueberry
+move y3 from Matrixfrog to Ruby (r3)
+build y2 at Zapple
+convert b2 to r2 at Zapple
+move r1 from Blueberry to Matrixfrog
+capture r1 at Zapple
+capture y1 at Matrixfrog

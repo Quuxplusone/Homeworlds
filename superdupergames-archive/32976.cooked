@@ -1,0 +1,64 @@
+Draw5Playall (0, b3r1) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Draw5Playall
+build g1 at Ts52
+convert g1 to y1 at Draw5Playall
+convert g1 to y1 at Ts52
+build g1 at Draw5Playall
+build g1 at Ts52
+convert g1 to b1 at Draw5Playall
+convert g1 to b1 at Ts52
+build g1 at Draw5Playall
+move b1 from Ts52 to Kermit (g1)
+move b1 from Draw5Playall to G2 (g2)
+move y1 from Ts52 to Kermit
+convert g1 to r1 at Draw5Playall
+build g1 at Ts52
+build r1 at Draw5Playall
+move g1 from Ts52 to Gonzo (b1)
+build b2 at G2
+build b2 at Kermit
+move r1 from Draw5Playall to G2
+convert b2 to r2 at Kermit
+build g1 at Draw5Playall
+build g2 at Ts52
+move y1 from Draw5Playall to G2
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build g3 at Gonzo
+convert b2 to y2 at G2
+convert g2 to y2 at Gonzo
+move y1 from G2 to Draw5Playall
+move g1 from Gonzo to Bigbird (y2)
+move g1 from Draw5Playall to B2 (b2)
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build r2 at Kermit
+move r1 from Draw5Playall to B2
+move r2 from Kermit to B2
+sacrifice g3 at Draw5Playall; build g3 at B2; build y1 at G2; build y3 at Draw5Playall
+build y3 at Gonzo
+sacrifice y1 at Draw5Playall; move g1 from B2 to Draw5Playall
+sacrifice g3 at Gonzo; build g3 at Bigbird; build r2 at B2; build r3 at Kermit
+sacrifice g3 at B2; build r3 at B2; build r3 at G2; build g3 at Draw5Playall; catastrophe red at B2
+convert g3 to r3 at Ts52
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build b2 at G2; build y1 at Draw5Playall
+build g3 at Gonzo
+move b1 from G2 to R1 (r1)
+move y3 from Gonzo to Elmo (r2)
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build b2 at G2; build b3 at R1
+sacrifice g3 at Gonzo; build b3 at Kermit; build g3 at Gonzo; build r2 at Ts52
+sacrifice y1 at G2; move b2 from G2 to Y1 (y1)
+move g2 from Gonzo to Elmo
+move b2 from Y1 to Ts52
+build y1 at Elmo
+move y1 from Draw5Playall to G2
+move b1 from Kermit to Bigbird
+move y1 from G2 to R1
+capture b2 at Ts52
+move b3 from R1 to Ts52
+capture b3 at Ts52
+move b1 from R1 to Ts52; catastrophe blue at Ts52
+sacrifice g3 at Bigbird; build g3 at Bigbird; build b1 at Bigbird; build b2 at Bigbird
+sacrifice y2 at G2; move r1 from G2 to Ts52; move r3 from G2 to Ts52; catastrophe red at Ts52
+move r3 from Kermit to Ts52
+sacrifice g3 at Draw5Playall; build y2 at R1; build g3 at Draw5Playall
+sacrifice g3 at Bigbird; build g3 at Bigbird; build r1 at Kermit; build r2 at Ts52
+convert g3 to r3 at Draw5Playall
+sacrifice g3 at Bigbird; build g3 at Bigbird; build g3 at Elmo; build r3 at Kermit

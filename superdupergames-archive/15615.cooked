@@ -1,0 +1,58 @@
+Zackstack (0, b1r2) g3-
+Dlwillson (1, y1b3) -g3
+build g1 at Zackstack
+build g1 at Dlwillson
+convert g1 to y1 at Zackstack
+convert g1 to y1 at Dlwillson
+build g1 at Zackstack
+build y2 at Dlwillson
+build y2 at Zackstack
+move y2 from Dlwillson to Spot (g2)
+move y2 from Zackstack to Blob (g3)
+convert y1 to r1 at Dlwillson
+move g1 from Zackstack to Blub (b3)
+move y2 from Spot to Blub
+sacrifice g1 at Blub; build g1 at Zackstack
+build g1 at Dlwillson
+convert g1 to b1 at Zackstack
+build r1 at Dlwillson
+move b1 from Zackstack to Blob
+convert y2 to r2 at Blub
+build y1 at Blob
+sacrifice g3 at Dlwillson; build r1 at Blub; build r2 at Blub; build r3 at Dlwillson
+sacrifice g3 at Zackstack; build y2 at Zackstack; build y2 at Blob; build y3 at Zackstack
+convert r3 to y3 at Dlwillson
+convert y3 to g3 at Zackstack
+sacrifice y3 at Dlwillson; move r2 from Blub to Zackstack; move r1 from Blub to Zackstack; move r1 from Dlwillson to Kitty (g2)
+capture r2 at Zackstack
+build r3 at Dlwillson
+build y3 at Zackstack
+convert r3 to g3 at Dlwillson
+move y3 from Zackstack to Blub
+sacrifice g3 at Dlwillson; build r3 at Dlwillson; build r3 at Blub; build r3 at Zackstack; catastrophe red at Zackstack
+move y3 from Blub to Kitty
+convert r3 to y3 at Blub
+build y3 at Kitty
+convert r3 to g3 at Dlwillson
+move y2 from Blob to Crimson (r2)
+build r1 at Kitty
+move y2 from Crimson to Dlwillson
+capture y2 at Dlwillson
+sacrifice y3 at Kitty; move y3 from Kitty to Dlwillson; move y1 from Blob to Kitty; move y1 from Kitty to Dlwillson; catastrophe yellow at Dlwillson
+move y3 from Blub to Zackstack
+build y1 at Zackstack; catastrophe yellow at Zackstack
+sacrifice g3 at Dlwillson; build r2 at Blub; build r2 at Blub; build r3 at Dlwillson
+build g1 at Zackstack
+convert r2 to y2 at Blub
+move b1 from Blob to Goob (g2)
+convert r3 to g3 at Dlwillson
+build b1 at Goob
+sacrifice g3 at Dlwillson; build r2 at Kitty; build r3 at Blub; build r3 at Dlwillson
+convert g3 to r3 at Zackstack
+sacrifice y2 at Blub; move r2 from Blub to Goob; move r2 from Kitty to Blob
+sacrifice y2 at Blob; move b1 from Goob to Pip (y1); move b1 from Goob to Speck (y1)
+convert r3 to y3 at Dlwillson
+convert r3 to y3 at Zackstack
+sacrifice y3 at Dlwillson; move r3 from Blub to Zackstack; move r1 from Kitty to Blub; move r1 from Kitty to Speck
+sacrifice y3 at Zackstack; move b1 from Pip to Dlwillson; move b1 from Speck to Dlwillson
+capture g1 at Zackstack

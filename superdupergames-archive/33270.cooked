@@ -1,0 +1,35 @@
+Ts52 (0, b1y2) g3-
+Eliscinsky (1, r1b2) -g3
+build g1 at Ts52
+build g1 at Eliscinsky
+move g1 from Ts52 to Gonzo (b3)
+convert g1 to r1 at Eliscinsky
+build g1 at Ts52
+build r1 at Eliscinsky
+build g1 at Gonzo
+convert r1 to y1 at Eliscinsky
+convert g1 to r1 at Ts52
+move r1 from Eliscinsky to Gonzo
+sacrifice r1 at Ts52; capture r1 at Gonzo
+build y1 at Eliscinsky
+convert g1 to y1 at Gonzo
+convert y1 to r1 at Eliscinsky
+build r2 at Gonzo
+build g1 at Eliscinsky
+build g1 at Ts52
+convert g1 to b1 at Eliscinsky
+convert r2 to y2 at Gonzo
+build g1 at Eliscinsky
+build g2 at Gonzo
+move g1 from Eliscinsky to Bozo (b3)
+build r2 at Gonzo
+build g2 at Bozo
+move r1 from Gonzo to Ts52
+move b1 from Eliscinsky to Bozo
+build r2 at Gonzo
+build g2 at Eliscinsky
+sacrifice y2 at Gonzo; move g1 from Gonzo to Eliscinsky; move g2 from Gonzo to Eliscinsky; catastrophe green at Eliscinsky
+move y1 from Eliscinsky to Bozo
+move r2 from Gonzo to Eliscinsky
+move g2 from Bozo to Eliscinsky
+sacrifice r2 at Gonzo; capture g2 at Eliscinsky; capture r1 at Eliscinsky

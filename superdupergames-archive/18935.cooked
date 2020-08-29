@@ -1,0 +1,66 @@
+Lorgar (0, b3y2) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Lorgar
+build g1 at Ts52
+convert g1 to y1 at Lorgar
+convert g1 to y1 at Ts52
+build y2 at Lorgar
+move y1 from Ts52 to Kermit (g3)
+convert y1 to r1 at Lorgar
+build g1 at Ts52
+move y2 from Lorgar to Sotrantika (g1)
+convert g1 to r1 at Ts52
+build g1 at Lorgar
+build r1 at Ts52
+build r2 at Lorgar
+build r2 at Ts52
+move r2 from Lorgar to Madyamika (g1)
+move r2 from Ts52 to Kermit
+move r1 from Lorgar to Sotrantika
+build g2 at Ts52
+build g2 at Lorgar
+convert g2 to b2 at Ts52
+convert g2 to r2 at Lorgar
+build r3 at Kermit
+build r3 at Sotrantika
+move r1 from Ts52 to Bigbird (y3)
+build r3 at Madyamika
+build g2 at Ts52
+sacrifice y2 at Sotrantika; move r2 from Madyamika to Kermit; move r1 from Sotrantika to Kermit; catastrophe red at Kermit
+build g2 at Ts52
+build g2 at Lorgar
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Kermit; build y2 at Kermit
+convert g2 to y2 at Lorgar
+move y2 from Kermit to Gonzo (b1)
+sacrifice y2 at Lorgar; move r3 from Madyamika to Bigbird; move r3 from Sotrantika to Kermit
+sacrifice g2 at Ts52; build y2 at Gonzo; build y3 at Gonzo
+capture y1 at Kermit
+convert y3 to r3 at Gonzo
+capture y1 at Kermit
+move y2 from Gonzo to Robin (g2)
+move r3 from Bigbird to Robin
+move y2 from Robin to Oscar (g1)
+move y1 from Kermit to Oscar
+sacrifice g2 at Ts52; build y3 at Gonzo; build y3 at Oscar
+move y1 from Kermit to Oscar; catastrophe yellow at Oscar
+build g1 at Ts52
+convert g1 to b1 at Lorgar
+move g1 from Ts52 to Bigbird
+build b1 at Lorgar
+sacrifice y3 at Gonzo; move b2 from Ts52 to Bigbird; move b2 from Bigbird to Gonzo; move b2 from Gonzo to Lorgar; catastrophe blue at Lorgar
+build g1 at Lorgar
+move g1 from Bigbird to Gonzo
+move g1 from Lorgar to Newgate (b1)
+build y1 at Gonzo
+convert g1 to y1 at Newgate
+move y2 from Gonzo to Oscar (g2)
+move y1 from Newgate to Kermit
+build g1 at Ts52
+move r3 from Kermit to Oscar
+move y2 from Oscar to Kermit
+sacrifice y1 at Kermit; move r3 from Oscar to Magnamund (b3)
+build y1 at Kermit
+convert r3 to y3 at Magnamund
+convert r3 to y3 at Gonzo
+build g1 at Lorgar
+sacrifice y3 at Gonzo; move y1 from Gonzo to Lorgar; move y2 from Kermit to Lorgar; move y1 from Kermit to Lorgar; catastrophe yellow at Lorgar

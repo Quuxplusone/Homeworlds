@@ -1,0 +1,47 @@
+Felix (0, b3r2) g3-
+Draw5Playall (1, b1r2) -g3
+build g1 at Felix
+build g1 at Draw5Playall
+convert g1 to y1 at Felix
+build g1 at Draw5Playall
+build g1 at Felix
+convert g1 to y1 at Draw5Playall
+convert g1 to b1 at Felix
+move g1 from Draw5Playall to Dangerzone (r3)
+build b1 at Felix
+build y1 at Draw5Playall
+move b1 from Felix to Littlewood (g1)
+build y2 at Draw5Playall
+build b2 at Littlewood
+move y1 from Draw5Playall to Dangerzone
+build y2 at Felix
+convert y1 to r1 at Draw5Playall
+move y2 from Felix to Littlewood
+move r1 from Draw5Playall to Biglemon (y3)
+convert b1 to r1 at Littlewood
+build y1 at Dangerzone
+build y2 at Littlewood
+build y3 at Draw5Playall
+build y3 at Felix
+build g1 at Dangerzone
+build b1 at Littlewood
+build g2 at Dangerzone
+move b2 from Littlewood to Biglemon
+move g1 from Dangerzone to Epsilonvi (b2)
+sacrifice r1 at Littlewood; capture r1 at Biglemon
+build g2 at Epsilonvi
+build g2 at Felix
+convert g2 to b2 at Epsilonvi
+sacrifice g3 at Felix; build b3 at Biglemon; build b3 at Littlewood; build g2 at Felix
+build g3 at Epsilonvi
+move g2 from Felix to Lavaflow (r1)
+sacrifice y1 at Dangerzone; move g3 from Epsilonvi to Lavaflow
+sacrifice g2 at Lavaflow; build r1 at Biglemon; build r2 at Biglemon
+sacrifice g2 at Dangerzone; build g2 at Lavaflow; build g2 at Epsilonvi
+build g3 at Felix
+sacrifice y2 at Draw5Playall; move g2 from Lavaflow to Felix; move g3 from Lavaflow to Felix; catastrophe green at Felix
+move r1 from Biglemon to Draw5Playall
+sacrifice g2 at Epsilonvi; build y1 at Draw5Playall; build y2 at Dangerzone
+move b1 from Littlewood to Bigwood (g3)
+sacrifice y3 at Draw5Playall; move y2 from Dangerzone to Littlewood; move y1 from Dangerzone to Littlewood; move b2 from Epsilonvi to Lavaflow (r1); catastrophe yellow at Littlewood
+move r1 from Biglemon to Draw5Playall

@@ -1,0 +1,55 @@
+Sketchwick (0, b1r2) g3-
+Jeep (1, y3b2) -g3
+build g1 at Sketchwick
+build g1 at Jeep
+convert g1 to y1 at Sketchwick
+convert g1 to y1 at Jeep
+build g1 at Sketchwick
+build g1 at Jeep
+move g1 from Sketchwick to Jolly (g3)
+move g1 from Jeep to Happy (b1)
+build y1 at Sketchwick
+build y2 at Jeep
+move y1 from Sketchwick to Jolly
+move y1 from Jeep to Happy
+build y2 at Sketchwick
+move g1 from Happy to Jolly
+move y1 from Jolly to Bean (b1)
+build g1 at Jeep
+build g2 at Sketchwick
+move y2 from Jeep to Burrito (r1)
+sacrifice g3 at Sketchwick; build y2 at Bean; build y3 at Bean; build y3 at Sketchwick
+sacrifice y2 at Burrito; move y1 from Happy to Jolly; move y1 from Jolly to Sketchwick; catastrophe yellow at Sketchwick
+build g2 at Sketchwick
+convert g1 to r1 at Jeep
+convert g2 to r2 at Sketchwick
+build r1 at Jeep
+convert y2 to r2 at Bean
+convert r1 to y1 at Jeep
+move y1 from Bean to Giant (b2)
+build r1 at Jeep
+build r1 at Sketchwick
+move r1 from Jeep to Growth (g1)
+convert r1 to y1 at Sketchwick
+sacrifice r1 at Growth; capture g1 at Jolly
+sacrifice g2 at Sketchwick; build y2 at Sketchwick; build y2 at Giant
+move y1 from Jeep to Wurm (g1)
+convert r2 to g2 at Sketchwick
+move y1 from Wurm to Jolly
+move g2 from Sketchwick to Jolly; catastrophe green at Jolly
+build g1 at Jeep
+convert y2 to g2 at Sketchwick
+build r1 at Jeep
+build g1 at Sketchwick
+convert g1 to b1 at Jeep
+build y1 at Sketchwick
+build r1 at Jeep
+move r2 from Bean to Jeep; catastrophe red at Jeep
+build b2 at Jeep
+sacrifice g2 at Sketchwick; build y2 at Bean; build y2 at Bean
+move b2 from Jeep to Killer (r1)
+convert y3 to b3 at Bean
+build g1 at Jeep
+build y3 at Sketchwick
+move g1 from Jeep to Killer
+sacrifice y2 at Bean; move y3 from Sketchwick to Temp (r3); move y3 from Temp to Killer

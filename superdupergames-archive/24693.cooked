@@ -1,0 +1,28 @@
+Magicjohn (0, y1b2) g3-
+Broccoli_Commander (1, b1r3) -g3
+build g1 at Magicjohn
+build g1 at Broccoli_Commander
+convert g1 to r1 at Magicjohn
+convert g1 to y1 at Broccoli_Commander
+build r1 at Magicjohn
+build y1 at Broccoli_Commander
+convert g3 to y3 at Magicjohn
+build y2 at Broccoli_Commander
+convert r1 to g1 at Magicjohn
+move y1 from Broccoli_Commander to Blueberry (b2)
+move y3 from Magicjohn to Ruffage (g3)
+sacrifice g3 at Broccoli_Commander; build y2 at Blueberry; build y2 at Blueberry; build y3 at Broccoli_Commander
+move y3 from Ruffage to Magicjohn
+move y2 from Blueberry to Lettuce (g3)
+convert y3 to r3 at Magicjohn
+build y3 at Lettuce
+convert r1 to b1 at Magicjohn
+build y3 at Lettuce
+build g1 at Magicjohn
+convert y2 to r2 at Broccoli_Commander
+move b1 from Magicjohn to Lettuce
+sacrifice y2 at Blueberry; move y3 from Lettuce to Magicjohn; move y3 from Lettuce to Magicjohn
+build r1 at Magicjohn
+sacrifice r2 at Broccoli_Commander; capture r3 at Magicjohn; capture r1 at Magicjohn
+convert g1 to b1 at Magicjohn
+sacrifice r3 at Magicjohn; capture b1 at Magicjohn; capture g1 at Magicjohn; capture b1 at Lettuce

@@ -1,0 +1,32 @@
+Andylooney (0, b1g2) y3-
+Calavera (1, y1b3) -g3
+build y1 at Andylooney
+build g1 at Calavera
+convert y1 to g1 at Andylooney
+convert g1 to r1 at Calavera
+build g1 at Andylooney
+build g1 at Calavera
+convert g1 to r1 at Andylooney
+move g1 from Calavera to Riallanon (y2)
+move g1 from Andylooney to Clampett (y3)
+move g1 from Riallanon to Krondor (b3)
+build y1 at Andylooney
+build g1 at Calavera
+build g2 at Clampett
+sacrifice g3 at Calavera; build g2 at Krondor; build g3 at Krondor; build g3 at Calavera
+build g3 at Clampett
+convert g2 to y2 at Krondor
+move g2 from Clampett to Plugh (y2)
+build y1 at Krondor
+move y1 from Andylooney to Ibm (b3)
+convert y1 to b1 at Krondor
+sacrifice g3 at Clampett; build g2 at Clampett; build g3 at Plugh; build y1 at Andylooney
+sacrifice y2 at Krondor; move g1 from Krondor to Plugh; move g1 from Calavera to Plugh; catastrophe green at Plugh
+sacrifice g2 at Clampett; build y2 at Ibm; build y2 at Ibm
+convert g3 to y3 at Krondor
+convert y1 to g1 at Ibm
+convert b1 to g1 at Krondor
+build g2 at Clampett
+build g2 at Calavera
+build g3 at Ibm
+build g3 at Krondor

@@ -1,0 +1,46 @@
+Dlwillson (0, y3b1) g3-
+Trydnt (1, g2y1) -b3
+build g1 at Dlwillson
+build b1 at Trydnt
+build g1 at Dlwillson
+move b1 from Trydnt to G3 (g3)
+move g1 from Dlwillson to Db0 (b2)
+build b1 at Trydnt
+sacrifice g3 at Dlwillson; build g1 at Db0; build g2 at Db0; build g2 at Dlwillson
+move b1 from Trydnt to Gee3 (g3)
+build g3 at Dlwillson
+build b2 at G3
+convert g2 to y2 at Dlwillson
+build b2 at Trydnt
+convert g1 to y1 at Db0
+build b3 at Gee3
+sacrifice y2 at Dlwillson; move g2 from Db0 to Tb0 (b3); move g1 from Db0 to Gee3
+convert b2 to y2 at G3
+sacrifice g3 at Dlwillson; build g1 at Gee3; build g2 at Gee3; build g3 at Dlwillson; catastrophe green at Gee3
+build b1 at G3
+build g1 at Dlwillson
+build b2 at Trydnt
+move g1 from Dlwillson to Db0
+move b2 from Trydnt to Gee3 (g3)
+sacrifice g3 at Dlwillson; build g1 at Tb0; build g2 at Tb0; build g3 at Dlwillson
+build b3 at Gee3
+convert g2 to y2 at Tb0
+convert b3 to r3 at Gee3
+convert g1 to r1 at Tb0
+build b3 at Trydnt
+convert g1 to y1 at Dlwillson
+move b3 from Trydnt to Tb0
+sacrifice g2 at Tb0; build y2 at Db0; build y3 at Dlwillson
+sacrifice r3 at Gee3; capture y2 at Tb0; capture r1 at Tb0
+convert y1 to r1 at Dlwillson
+convert b3 to y3 at Tb0
+convert y3 to b3 at Dlwillson
+convert y2 to g2 at Tb0
+move b3 from Dlwillson to Field (g2)
+build g1 at Tb0
+build g1 at Dlwillson
+move g1 from Tb0 to Y2 (y2)
+convert y1 to r1 at Db0
+build y1 at G3
+move g1 from Db0 to Sol (y3)
+convert b3 to r3 at Trydnt

@@ -1,0 +1,30 @@
+Keith (0, b1y2) g3-
+Dlwillson (1, b3r1) -g3
+build g1 at Keith
+build g1 at Dlwillson
+convert g1 to y1 at Keith
+convert g1 to y1 at Dlwillson
+build g1 at Keith
+build g1 at Dlwillson
+build y1 at Keith
+build y2 at Dlwillson
+move y1 from Keith to Miranda (b3)
+move y2 from Dlwillson to Nuts (b2)
+sacrifice g3 at Keith; build y2 at Miranda; build y3 at Miranda; build y3 at Keith
+build y3 at Dlwillson
+sacrifice y1 at Miranda; move y1 from Keith to Midworld (g3)
+move y1 from Dlwillson to Berries (g2)
+build y1 at Midworld
+move g1 from Dlwillson to Nuts
+move y1 from Midworld to Lv426 (b2)
+build g1 at Dlwillson
+convert y3 to r3 at Miranda
+build y3 at Berries
+move r3 from Miranda to Berries
+move y3 from Berries to Miranda
+capture y1 at Berries
+convert g1 to r1 at Dlwillson
+build r1 at Berries
+move r1 from Dlwillson to Nuts
+convert y3 to r3 at Keith
+build y3 at Nuts

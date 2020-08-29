@@ -1,0 +1,38 @@
+Matrixfrog (0, b1g3) y3-
+Calavera (1, y1b2) -g3
+build y1 at Matrixfrog
+build g1 at Calavera
+convert y1 to g1 at Matrixfrog
+build g1 at Calavera
+build g2 at Matrixfrog
+move g1 from Calavera to Rillanon (y3)
+move g1 from Matrixfrog to Fondue (y2)
+convert g1 to r1 at Calavera
+move g1 from Fondue to Epsilon (y3)
+build g1 at Calavera
+build g2 at Matrixfrog
+sacrifice g3 at Calavera; build g2 at Rillanon; build g3 at Rillanon; build g3 at Calavera
+sacrifice g2 at Matrixfrog; build g2 at Epsilon; build y1 at Matrixfrog
+move g3 from Rillanon to Krondor (b1)
+sacrifice y3 at Matrixfrog; move g1 from Epsilon to Calavera; move g2 from Epsilon to Calavera; catastrophe green at Calavera
+move g2 from Rillanon to Calavera
+build y1 at Matrixfrog
+build g1 at Calavera
+move y1 from Matrixfrog to Endor (g2)
+sacrifice g3 at Krondor; build g1 at Rillanon; build g3 at Calavera; build g3 at Rillanon
+build y2 at Matrixfrog
+move g3 from Rillanon to Crydee (y2)
+convert g2 to b2 at Matrixfrog
+sacrifice g2 at Calavera; build g2 at Crydee; build g2 at Crydee
+move b2 from Matrixfrog to Crydee
+move g3 from Crydee to Matrixfrog
+convert y1 to r1 at Matrixfrog
+sacrifice r1 at Calavera; capture y2 at Matrixfrog
+move b2 from Crydee to Matrixfrog
+convert g3 to r3 at Matrixfrog
+capture y2 at Matrixfrog
+capture r1 at Matrixfrog
+build y1 at Matrixfrog
+capture b2 at Matrixfrog
+move y1 from Endor to Matrixfrog
+sacrifice r3 at Matrixfrog; capture y1 at Matrixfrog; capture y1 at Matrixfrog; capture y2 at Matrixfrog

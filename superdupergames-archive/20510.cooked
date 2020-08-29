@@ -1,0 +1,35 @@
+Ts52 (0, y3b2) g3-
+Inundator (1, b3y1) -g3
+build g1 at Ts52
+build g1 at Inundator
+convert g1 to y1 at Ts52
+build g1 at Inundator
+move y1 from Ts52 to Kermit (g1)
+move g1 from Inundator to Misspiggy (b2)
+build g2 at Ts52
+build g2 at Misspiggy
+build y1 at Kermit
+sacrifice g3 at Inundator; build g2 at Misspiggy; build g3 at Inundator; build g3 at Inundator
+build y2 at Kermit
+convert g2 to r2 at Misspiggy
+build g2 at Ts52
+convert g2 to y2 at Misspiggy
+convert g2 to r2 at Ts52
+move y2 from Misspiggy to Kermit; catastrophe yellow at Kermit
+build r1 at Ts52
+move g3 from Inundator to Misspiggy
+move g2 from Ts52 to Gonzo (b1)
+convert g1 to y1 at Misspiggy
+build g1 at Gonzo
+build y1 at Misspiggy
+convert g2 to y2 at Gonzo
+move y1 from Misspiggy to Beaker (g1)
+build g2 at Ts52
+build y2 at Beaker
+build g2 at Gonzo
+convert g3 to y3 at Misspiggy
+build y2 at Gonzo
+move y1 from Misspiggy to Animal (r1)
+sacrifice g3 at Ts52; build g2 at Gonzo; build g3 at Ts52; build y3 at Gonzo
+sacrifice y3 at Misspiggy; move y1 from Animal to Ts52; move y2 from Beaker to Ts52; move y1 from Beaker to Ts52; catastrophe yellow at Ts52
+sacrifice y2 at Gonzo; move g2 from Ts52 to Inundator; move g3 from Ts52 to Inundator; catastrophe green at Inundator

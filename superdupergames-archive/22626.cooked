@@ -1,0 +1,23 @@
+Mandrel (0, r3b2) g3-
+Therealmaxl (1, y1b2) -g3
+build g1 at Mandrel
+build g1 at Therealmaxl
+convert g1 to y1 at Mandrel
+move g1 from Therealmaxl to Yonorium (y3)
+build g1 at Mandrel
+build g1 at Yonorium
+build g2 at Mandrel
+build g2 at Therealmaxl
+move g2 from Mandrel to Cluster (b1)
+move g1 from Yonorium to Bofo (b2)
+sacrifice g3 at Mandrel; build g2 at Mandrel; build g3 at Mandrel; build g3 at Cluster
+convert g1 to b1 at Bofo
+convert g3 to y3 at Mandrel
+sacrifice g3 at Therealmaxl; build b1 at Bofo; build g1 at Yonorium; build g3 at Therealmaxl
+build g3 at Mandrel
+move g1 from Yonorium to Cluster
+convert g3 to r3 at Cluster
+build g3 at Yonorium
+sacrifice y3 at Mandrel; move r3 from Cluster to Yonorium; move r3 from Yonorium to Therealmaxl; move g2 from Cluster to Yonorium
+move g3 from Yonorium to Therealmaxl
+move g2 from Yonorium to Therealmaxl; catastrophe green at Therealmaxl

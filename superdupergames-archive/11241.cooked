@@ -1,0 +1,97 @@
+Mneme (0, r1b3) g3-
+Madwuher (1, r2b1) -g3
+build g1 at Mneme
+build g1 at Madwuher
+convert g1 to y1 at Mneme
+convert g1 to y1 at Madwuher
+build g1 at Mneme
+build g1 at Madwuher
+convert g1 to b1 at Mneme
+convert g1 to b1 at Madwuher
+build b2 at Mneme
+build b2 at Madwuher
+move b2 from Mneme to Ector (y2)
+move b1 from Madwuher to Edora (g3)
+sacrifice g3 at Mneme; build b2 at Ector; build b3 at Mneme; build y1 at Mneme
+build b3 at Edora
+convert b2 to g2 at Ector
+build y2 at Madwuher
+convert b3 to g3 at Mneme
+move y1 from Madwuher to Edora
+move y1 from Mneme to Friendly (b2)
+build b3 at Madwuher
+sacrifice g3 at Mneme; build y2 at Mneme; build y3 at Mneme; build y3 at Friendly
+sacrifice b2 at Madwuher; convert b1 to r1 at Edora; convert b3 to y3 at Madwuher
+convert y1 to r1 at Mneme
+build r2 at Edora
+move b1 from Mneme to Bomber (b2)
+move r2 from Edora to Bomber
+sacrifice g2 at Ector; build b1 at Bomber; build b3 at Ector
+capture b1 at Bomber
+convert y1 to g1 at Friendly
+capture b1 at Bomber
+sacrifice y2 at Mneme; move b2 from Ector to Edora; move b2 from Edora to Bomber; catastrophe blue at Bomber
+build r2 at Edora
+move r1 from Mneme to Friendly
+move r2 from Edora to Bologna (y2)
+build g1 at Friendly
+build g1 at Madwuher
+move g1 from Friendly to Mneme
+sacrifice y2 at Madwuher; move g1 from Madwuher to Edora; move g1 from Edora to Bologna
+build g2 at Friendly
+build g2 at Madwuher
+move g2 from Friendly to Hector (g3)
+sacrifice g3 at Madwuher; build g2 at Bologna; build g3 at Madwuher; build r2 at Edora
+sacrifice g2 at Hector; build g2 at Mneme; build g3 at Friendly
+sacrifice g3 at Madwuher; build g3 at Madwuher; build r3 at Bologna; build r3 at Bologna
+sacrifice g3 at Friendly; build g3 at Friendly; build r3 at Friendly; build b1 at Ector
+convert g2 to y2 at Madwuher
+sacrifice y3 at Friendly; move r1 from Friendly to Edora; move r1 from Edora to Bologna; move g2 from Mneme to Ector; catastrophe red at Bologna
+build g2 at Madwuher
+convert g3 to y3 at Friendly
+sacrifice g3 at Madwuher; build g3 at Madwuher; build g3 at Bologna; build b1 at Edora
+move g1 from Mneme to Bologna; catastrophe green at Bologna
+move b1 from Edora to Bologna (g2)
+build g1 at Friendly
+build b2 at Bologna
+sacrifice y3 at Friendly; move g1 from Friendly to Edora; move g1 from Friendly to Edora; move g2 from Ector to Edora; catastrophe green at Edora
+build b2 at Bologna
+convert b3 to g3 at Ector
+sacrifice b1 at Bologna; convert b2 to y2 at Bologna
+build b1 at Ector
+sacrifice g2 at Madwuher; build b2 at Bologna; build b3 at Bologna
+move b1 from Ector to Artis (g3)
+sacrifice b2 at Bologna; convert y2 to g2 at Madwuher; convert b3 to r3 at Bologna
+sacrifice g3 at Ector; build b2 at Ector; build b3 at Ector; build b3 at Artis
+sacrifice y2 at Bologna; move b2 from Bologna to Artis; move b2 from Artis to Ector; catastrophe blue at Ector
+convert b3 to y3 at Artis
+build g1 at Madwuher
+build b1 at Artis
+convert g2 to b2 at Madwuher
+move b1 from Artis to Madwuher
+convert b2 to r2 at Madwuher
+capture g1 at Madwuher
+sacrifice r2 at Madwuher; capture b1 at Madwuher; capture g1 at Madwuher
+build b2 at Artis
+move b1 from Madwuher to Caviar (g3)
+build y1 at Artis
+build b2 at Caviar
+sacrifice y1 at Artis; move r3 from Friendly to Caviar
+sacrifice y3 at Madwuher; move b2 from Caviar to Bologna; move b1 from Caviar to Edora (g2)
+move b2 from Artis to Edora
+build r1 at Bologna
+build r1 at Caviar
+sacrifice b1 at Edora; convert r1 to y1 at Bologna
+build b1 at Artis
+build g1 at Madwuher
+convert b1 to r1 at Artis
+convert g1 to y1 at Madwuher
+build r2 at Artis
+build b1 at Bologna
+convert r2 to g2 at Artis
+convert b1 to g1 at Bologna
+sacrifice g2 at Artis; build y1 at Mneme; build b1 at Artis
+build y2 at Madwuher
+sacrifice y3 at Artis; move r1 from Artis to Madwuher; move r1 from Caviar to Madwuher; move r3 from Caviar to Madwuher; catastrophe red at Madwuher
+move y1 from Bologna to Mneme
+sacrifice y3 at Mneme; move b1 from Artis to Madwuher; move b1 from Artis to Madwuher; move b2 from Edora to Madwuher; catastrophe blue at Madwuher

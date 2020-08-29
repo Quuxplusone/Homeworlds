@@ -1,0 +1,65 @@
+Trydnt (0, b2y1) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Trydnt
+build g1 at Draw5Playall
+convert g1 to r1 at Trydnt
+convert g1 to y1 at Draw5Playall
+build r1 at Trydnt
+build y1 at Draw5Playall
+build r2 at Trydnt
+build y2 at Draw5Playall
+move r1 from Trydnt to Y3 (y3)
+move y1 from Draw5Playall to Epa (g2)
+move r1 from Trydnt to Why3 (y3)
+sacrifice g3 at Draw5Playall; build y2 at Epa; build y2 at Epa; build y3 at Draw5Playall
+build r2 at Trydnt
+convert y2 to b2 at Draw5Playall
+convert r2 to y2 at Trydnt
+sacrifice b2 at Draw5Playall; convert y2 to r2 at Epa; convert y3 to g3 at Draw5Playall
+move y2 from Trydnt to G3 (g3)
+build g1 at Draw5Playall
+build g1 at Trydnt
+convert g1 to b1 at Draw5Playall
+convert g1 to b1 at Trydnt
+move b1 from Draw5Playall to Epa
+move b1 from Trydnt to G3
+sacrifice g3 at Draw5Playall; build y2 at Draw5Playall; build y3 at Draw5Playall; build b1 at Epa
+build b2 at G3
+convert y1 to g1 at Draw5Playall
+build y1 at G3
+build g1 at Draw5Playall
+move b2 from G3 to G2 (g2)
+move g1 from Draw5Playall to Nafta (b2)
+build b3 at G2
+build g1 at Nafta
+build b3 at G3
+move y2 from Epa to Esa (g3)
+move b3 from G3 to Epa
+sacrifice y1 at Epa; move r2 from Epa to Y3
+sacrifice r1 at Y3; capture b1 at Epa
+sacrifice b1 at Epa; convert g1 to b1 at Nafta
+move y1 from G3 to Epa
+build y1 at Esa
+move r1 from Why3 to Epa
+convert y2 to r2 at Draw5Playall
+convert b3 to y3 at G2
+build b3 at Nafta
+move b1 from G3 to Nafta; catastrophe blue at Nafta
+build y2 at Draw5Playall
+build b1 at G2
+build g1 at Draw5Playall
+build g1 at Trydnt
+build g2 at Draw5Playall
+sacrifice g3 at Trydnt; build b1 at G2; build b2 at Epa; build g3 at Trydnt
+sacrifice y2 at Draw5Playall; move g2 from Draw5Playall to What (y2); move r2 from Draw5Playall to What
+convert b3 to r3 at Epa
+sacrifice g2 at What; build r1 at Y3; build r3 at What
+build r3 at Trydnt
+sacrifice y2 at Esa; move r1 from Y3 to Trydnt; move r2 from Y3 to Trydnt; catastrophe red at Trydnt
+convert b2 to r2 at G2
+build g2 at Draw5Playall
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y2 at G2; build y3 at G3
+move r3 from What to Esa
+sacrifice y3 at G3; move r3 from Epa to Draw5Playall; move r1 from Epa to Draw5Playall; move b1 from G2 to Draw5Playall
+move r3 from Esa to Trydnt
+sacrifice y3 at G2; move r2 from G2 to Draw5Playall; move b1 from G2 to Draw5Playall; move b1 from Epa to Draw5Playall; catastrophe red at Draw5Playall; catastrophe blue at Draw5Playall

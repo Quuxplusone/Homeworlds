@@ -1,0 +1,41 @@
+Ryzorrin (0, b1g2) r3-
+Wil (1, b3r1) -g3
+build r1 at Ryzorrin
+build g1 at Wil
+convert r1 to y1 at Ryzorrin
+convert g1 to y1 at Wil
+move y1 from Ryzorrin to Arthur (b3)
+build g1 at Wil
+convert y1 to g1 at Arthur
+build y1 at Wil
+build r1 at Ryzorrin
+build y1 at Wil
+build r1 at Ryzorrin
+move y1 from Wil to G2 (g2)
+convert r1 to g1 at Ryzorrin
+build y2 at G2
+build g2 at Ryzorrin
+build g3 at Wil
+build g3 at Arthur
+move g1 from Wil to Y2 (y2)
+convert g2 to y2 at Ryzorrin
+convert y1 to r1 at Wil
+move g1 from Ryzorrin to Lancelot (b3)
+sacrifice g3 at Wil; build g2 at Y2; build g3 at Wil; build r2 at Wil
+convert g1 to y1 at Arthur
+move y2 from G2 to Lancelot
+build y3 at Arthur
+sacrifice g2 at Y2; build y3 at Lancelot; build y3 at Wil
+convert g3 to r3 at Arthur
+sacrifice r1 at Wil; capture g1 at Lancelot
+move r3 from Arthur to G2
+convert y1 to b1 at Wil
+capture y1 at G2
+sacrifice g3 at Wil; build g1 at Wil; build g2 at Lancelot; build g3 at Y2
+build r1 at G2
+convert g2 to r2 at Lancelot
+sacrifice y2 at Ryzorrin; move r1 from G2 to Wil; move r3 from G2 to Wil; catastrophe red at Wil
+sacrifice g3 at Wil; build g2 at Wil; build g3 at Wil; build g3 at Lancelot
+convert r1 to b1 at Ryzorrin
+sacrifice y3 at Wil; move g3 from Lancelot to Ryzorrin; move y3 from Lancelot to Ryzorrin; move y2 from Lancelot to Ryzorrin
+capture y3 at Ryzorrin

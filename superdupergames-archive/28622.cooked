@@ -1,0 +1,64 @@
+Danielaurence (0, b3g2) y3-
+Wil (1, r3y1) -g3
+build y1 at Danielaurence
+build g1 at Wil
+build y1 at Danielaurence
+move g1 from Wil to B2 (b2)
+move y1 from Danielaurence to Jelloland (g1)
+build g1 at Wil
+build y2 at Jelloland
+build g2 at B2
+convert y3 to g3 at Danielaurence
+convert g2 to y2 at B2
+move y1 from Jelloland to Danielaurence
+build g2 at B2
+convert y1 to b1 at Danielaurence
+move g2 from B2 to Y1 (y1)
+build b1 at Danielaurence
+sacrifice g3 at Wil; build g2 at Y1; build g3 at B2; build g3 at Wil
+sacrifice g3 at Danielaurence; build y2 at Danielaurence; build y3 at Jelloland; build y3 at Danielaurence
+sacrifice g3 at Wil; build g3 at Wil; build g3 at B2; build y3 at B2
+convert y2 to r2 at Danielaurence
+convert g3 to r3 at B2
+move b1 from Danielaurence to Jelloland
+move y2 from B2 to B1 (b1)
+convert y3 to g3 at Jelloland
+convert g3 to y3 at B2
+move g3 from Jelloland to Topos (b2)
+sacrifice g3 at Wil; build g3 at Wil; build g3 at B2; build y2 at B1
+sacrifice g3 at Topos; build b2 at Jelloland; build b2 at Jelloland; build b3 at Danielaurence
+move y3 from B2 to Jelloland
+sacrifice y3 at Danielaurence; move b2 from Jelloland to B2; move b2 from Jelloland to B2; move b1 from Jelloland to B2; catastrophe blue at B2
+sacrifice g3 at Wil; build g1 at Y1; build g3 at Wil; build g3 at Wil
+build y3 at Danielaurence
+convert y2 to r2 at B1
+convert b3 to g3 at Danielaurence
+move g3 from Wil to B2 (b2)
+convert g3 to r3 at Danielaurence
+build g3 at B2
+move r3 from Danielaurence to Y1
+convert g3 to y3 at B2
+capture g2 at Y1
+sacrifice g3 at Wil; build g3 at Wil; build g3 at Y1; build y2 at B1; catastrophe green at Y1
+convert y1 to g1 at Danielaurence
+build g2 at B2
+move b1 from Danielaurence to Jelloland
+move g3 from B2 to B1
+move g1 from Danielaurence to Y1
+sacrifice g3 at Wil; build g2 at B2; build g3 at B1; build g3 at Wil
+build y1 at Jelloland
+convert g2 to r2 at B2
+build g2 at Y1
+sacrifice g3 at Wil; build g3 at Wil; build r1 at B1; build r1 at B2
+move g1 from Y1 to Ice (b2)
+move g1 from Wil to B2
+build b1 at Jelloland
+sacrifice r2 at B2; capture y2 at Jelloland; capture b1 at Jelloland
+move b1 from Jelloland to Ice
+sacrifice r1 at B1; capture y1 at Jelloland
+move r3 from Y1 to Ice
+sacrifice y3 at B2; move y1 from Jelloland to Danielaurence; move y2 from Jelloland to Danielaurence; move y2 from B1 to Danielaurence; catastrophe yellow at Danielaurence
+build r1 at Ice
+move y3 from Jelloland to Danielaurence
+pass
+sacrifice r1 at B2; capture r2 at Danielaurence

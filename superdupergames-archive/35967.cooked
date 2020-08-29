@@ -1,0 +1,34 @@
+Amoscai (0, g1b2) y3-
+Mantheron (1, b3r2) -g3
+build y1 at Amoscai
+build g1 at Mantheron
+convert y1 to g1 at Amoscai
+build g2 at Mantheron
+build g2 at Amoscai
+convert g1 to y1 at Mantheron
+convert g1 to r1 at Amoscai
+move g2 from Mantheron to Altair (r1)
+move g2 from Amoscai to Base (b3)
+build y1 at Mantheron
+build g1 at Base
+convert y1 to r1 at Mantheron
+build r2 at Amoscai
+move r1 from Mantheron to Altair
+build y1 at Amoscai
+build y1 at Mantheron
+move r2 from Amoscai to Base
+move y1 from Mantheron to Altair
+build r2 at Base
+build g1 at Altair
+convert g2 to y2 at Base
+build g2 at Mantheron
+sacrifice y2 at Base; move r2 from Base to Altair; move r2 from Base to Altair; catastrophe red at Altair
+move g2 from Mantheron to Castor (r1)
+convert y3 to g3 at Amoscai
+build g1 at Mantheron
+build g2 at Amoscai
+sacrifice g3 at Mantheron; build g2 at Mantheron; build g3 at Mantheron; build g3 at Castor
+sacrifice g3 at Amoscai; build g3 at Amoscai; build y1 at Amoscai; build y2 at Amoscai
+convert g2 to y2 at Mantheron
+build g2 at Base
+sacrifice y2 at Mantheron; move g2 from Castor to Base; move g2 from Base to Amoscai; catastrophe green at Amoscai

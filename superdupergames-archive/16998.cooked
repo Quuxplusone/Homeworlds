@@ -1,0 +1,24 @@
+Lurch (0, y1b2) g3-
+Dlwillson (1, b3y2) -g3
+build g1 at Lurch
+build g1 at Dlwillson
+convert g1 to y1 at Lurch
+convert g1 to y1 at Dlwillson
+build y2 at Lurch
+build y2 at Dlwillson
+convert y1 to b1 at Lurch
+move y1 from Dlwillson to Change (b1)
+move b1 from Lurch to Alpha (g3)
+build g1 at Dlwillson
+build g1 at Lurch
+sacrifice g3 at Dlwillson; build y1 at Change; build y3 at Change; build y3 at Dlwillson
+move y2 from Lurch to Alpha
+convert y1 to r1 at Change
+build y1 at Alpha
+move y2 from Dlwillson to Growth (g1)
+move y2 from Alpha to Beta (b1)
+sacrifice y2 at Growth; move y3 from Change to Alpha; move y3 from Alpha to Lurch
+convert g3 to r3 at Lurch
+sacrifice r1 at Change; capture r3 at Lurch
+build g1 at Lurch
+sacrifice r3 at Lurch; capture g1 at Lurch; capture g1 at Lurch

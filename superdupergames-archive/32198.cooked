@@ -1,0 +1,64 @@
+Ts52 (0, y1b2) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Ts52
+build g1 at Draw5Playall
+convert g1 to y1 at Ts52
+convert g1 to y1 at Draw5Playall
+build y2 at Ts52
+build y2 at Draw5Playall
+move y1 from Ts52 to Kermit (g3)
+convert y2 to b2 at Draw5Playall
+build y2 at Kermit
+build y2 at Draw5Playall
+build y3 at Ts52
+move y1 from Draw5Playall to G2 (g2)
+convert y2 to b2 at Ts52
+move b2 from Draw5Playall to G2
+move b2 from Ts52 to Kermit
+build b1 at G2
+build g1 at Ts52
+convert b1 to r1 at G2
+convert g1 to r1 at Ts52
+build r2 at G2
+build r2 at Ts52
+build y2 at Draw5Playall
+move y2 from Kermit to Robin (g2)
+build y3 at G2
+build y3 at Robin
+build g1 at Draw5Playall
+move y3 from Ts52 to Gonzo (b3)
+move r1 from G2 to G1 (g1)
+move r2 from Ts52 to Kermit
+move y1 from G2 to G1B (g1)
+move y3 from Robin to G1
+sacrifice g3 at Draw5Playall; build g2 at Draw5Playall; build g3 at Draw5Playall; build b1 at G2
+build b1 at Kermit
+sacrifice g3 at Draw5Playall; build r2 at G1; build r3 at G2; build g3 at Draw5Playall
+sacrifice r2 at Kermit; capture r2 at G1; capture r1 at G1
+move r3 from G2 to Kermit
+move b2 from Kermit to Robin
+capture b1 at Kermit
+move y1 from Kermit to Robin
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build b1 at G2; build b3 at Kermit
+move r1 from G1 to Robin
+move b1 from G2 to R3 (r3)
+build r2 at G1
+build r3 at G2
+move r2 from G1 to Gonzo
+move b1 from G2 to R3
+move r2 from G1 to R3
+sacrifice y2 at Draw5Playall; move b1 from R3 to Ts52; move b1 from R3 to Ts52
+move y3 from G1 to R3
+sacrifice g1 at Draw5Playall; build y2 at G2
+sacrifice r2 at R3; capture b1 at Ts52; capture b1 at Ts52
+sacrifice y2 at G2; move b1 from Kermit to Ts52; move y1 from G1B to Kermit; catastrophe blue at Ts52
+build y2 at Robin
+move y1 from Kermit to Robin; catastrophe yellow at Robin
+build g1 at Ts52
+build y1 at G2
+move g1 from Ts52 to Gonzo
+move y1 from G2 to Kermit
+build y1 at Gonzo
+build y2 at Kermit
+build y2 at Gonzo
+sacrifice y2 at Draw5Playall; move y1 from Kermit to Ts52; move y2 from Kermit to Ts52

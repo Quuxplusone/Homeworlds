@@ -1,0 +1,26 @@
+Gort (0, g1y2) b3-
+Zoltar (1, y1b2) -g3
+build b1 at Gort
+build g1 at Zoltar
+move b3 from Gort to Gorn (y3)
+build g1 at Zoltar
+convert b3 to g3 at Gorn
+convert g1 to y1 at Zoltar
+build b1 at Gort
+build y1 at Zoltar
+build g1 at Gorn
+move y1 from Zoltar to Hydra (g3)
+convert b1 to r1 at Gort
+convert g3 to r3 at Zoltar
+move g3 from Gorn to Gort
+build y2 at Zoltar
+build g2 at Gorn
+build g2 at Zoltar
+move g2 from Gorn to Zoltar
+sacrifice y2 at Zoltar; move g2 from Zoltar to Gorn; move g1 from Zoltar to Gorn
+sacrifice g2 at Zoltar; build g2 at Gorn; build g2 at Gort; catastrophe green at Gorn
+build y2 at Hydra
+convert g2 to r2 at Gort
+convert y1 to g1 at Zoltar
+move r2 from Gort to Hydra
+sacrifice y1 at Hydra; move y2 from Hydra to Zoltar

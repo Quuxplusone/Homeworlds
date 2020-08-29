@@ -1,0 +1,39 @@
+Simon (0, b3r1) g3-
+Danielaurence (1, b3y2) -g3
+build g1 at Simon
+build g1 at Danielaurence
+convert g1 to y1 at Simon
+move g1 from Danielaurence to Gate (b1)
+build g1 at Simon
+build g1 at Gate
+build g2 at Simon
+build g2 at Gate
+convert g2 to b2 at Simon
+build g2 at Danielaurence
+move b2 from Simon to R2 (r2)
+convert g1 to y1 at Gate
+move g1 from Simon to R2
+move g2 from Gate to Door (b2)
+build b1 at R2
+build g1 at Door
+convert b2 to y2 at R2
+convert g2 to r2 at Danielaurence
+build g2 at Simon
+build g2 at Danielaurence
+sacrifice g3 at Simon; build g3 at Simon; build g3 at R2; build y1 at R2
+build y2 at Gate
+move y2 from R2 to R1 (r1)
+sacrifice y2 at Gate; move g1 from Door to Simon; move g2 from Door to Simon; catastrophe green at Simon
+sacrifice g3 at R2; build y2 at R1; build y3 at Simon; build y3 at R2
+build y3 at Gate
+convert y3 to g3 at R2
+convert g3 to y3 at Danielaurence
+convert y3 to g3 at Simon
+convert y3 to g3 at Gate
+sacrifice g3 at R2; build y3 at R2; build y3 at Simon; build b1 at R2
+move g3 from Gate to Ice (b2)
+build b2 at R2
+build g1 at Ice
+sacrifice y3 at Simon; move y2 from R1 to Danielaurence; move y2 from R1 to Danielaurence; catastrophe yellow at Danielaurence
+pass
+sacrifice y3 at R2; move b1 from R2 to Danielaurence; move b1 from R2 to Danielaurence; move b2 from R2 to Danielaurence; catastrophe blue at Danielaurence

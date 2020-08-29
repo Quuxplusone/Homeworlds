@@ -1,0 +1,20 @@
+Onepagewars (0, g1b2) y3-
+Silenttitan (1, r2b3) -g3
+build y1 at Onepagewars
+build g1 at Silenttitan
+build y1 at Onepagewars
+convert g1 to y1 at Silenttitan
+move y1 from Onepagewars to Tvtropes (g3)
+build y2 at Silenttitan
+build y2 at Tvtropes
+move y1 from Silenttitan to Sol (g1)
+convert y1 to b1 at Onepagewars
+build y1 at Sol
+build b1 at Onepagewars
+move y1 from Sol to Soul (b3)
+move b1 from Onepagewars to Tvtropes
+sacrifice g3 at Silenttitan; build y2 at Sol; build y3 at Soul; build y3 at Silenttitan
+convert y2 to r2 at Tvtropes
+convert y3 to g3 at Silenttitan
+convert y3 to g3 at Onepagewars
+sacrifice g3 at Silenttitan; build y2 at Soul; build y3 at Silenttitan; build y3 at Silenttitan

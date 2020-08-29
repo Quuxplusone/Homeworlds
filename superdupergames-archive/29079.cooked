@@ -1,0 +1,36 @@
+Felix (0, r3b1) g3-
+Ts52 (1, b1y2) -g3
+build g1 at Felix
+build g1 at Ts52
+convert g1 to b1 at Felix
+move g1 from Ts52 to Gonzo (b3)
+build b2 at Felix
+build g1 at Ts52
+convert b2 to y2 at Felix
+build g1 at Gonzo
+build g2 at Felix
+build g2 at Gonzo
+move g2 from Felix to Ice (b2)
+convert g2 to y2 at Gonzo
+build g2 at Felix
+move g1 from Gonzo to Grover (b2)
+sacrifice g3 at Felix; build g2 at Ice; build g3 at Felix; build b2 at Felix
+build g3 at Gonzo
+sacrifice g2 at Ice; build b3 at Felix; build y1 at Felix
+convert g3 to b3 at Gonzo
+sacrifice g3 at Felix; build g2 at Ice; build g3 at Ice; build g3 at Felix; catastrophe blue at Felix
+convert g3 to r3 at Ts52
+convert g3 to y3 at Ice
+build g3 at Grover
+convert g2 to b2 at Ice
+sacrifice g3 at Grover; build g2 at Ts52; build g3 at Grover; build g3 at Gonzo
+move b2 from Ice to Felix
+sacrifice y2 at Gonzo; move g1 from Ts52 to Felix; move g1 from Grover to Felix; catastrophe green at Felix
+build g1 at Ice
+convert g1 to y1 at Gonzo
+move y3 from Ice to Felix
+convert b3 to y3 at Gonzo
+sacrifice y2 at Felix; move g1 from Ice to Slash (b3); move g2 from Ice to Felix
+sacrifice g3 at Gonzo; build r1 at Ts52; build r1 at Ts52; build g1 at Grover
+convert g1 to r1 at Slash
+sacrifice y3 at Gonzo; move r3 from Ts52 to Felix; move r1 from Ts52 to Felix; move r1 from Ts52 to Felix; catastrophe red at Felix

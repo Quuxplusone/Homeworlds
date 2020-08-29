@@ -1,0 +1,25 @@
+Xx_Henry_Xx (0, g1b2) y3-
+Dragon76N (1, y1b3) -g3
+build y1 at Xx_Henry_Xx
+build g1 at Dragon76N
+move y1 from Xx_Henry_Xx to Alpaca (g3)
+convert g1 to y1 at Dragon76N
+build y2 at Alpaca
+build y2 at Dragon76N
+build y2 at Xx_Henry_Xx
+move y1 from Dragon76N to Gretwo (g2)
+convert y2 to b2 at Xx_Henry_Xx
+build g1 at Dragon76N
+move b2 from Xx_Henry_Xx to Alpaca
+build y2 at Gretwo
+build y3 at Xx_Henry_Xx
+move y1 from Gretwo to Bluthr (b3)
+move y3 from Xx_Henry_Xx to Yeller (y3)
+convert y1 to g1 at Bluthr
+sacrifice y2 at Alpaca; move b2 from Alpaca to Gretwo; move b2 from Gretwo to Yeller
+sacrifice g3 at Dragon76N; build g2 at Bluthr; build g2 at Bluthr; build g3 at Dragon76N
+convert y3 to g3 at Yeller
+build y1 at Gretwo
+convert b2 to y2 at Yeller
+move y2 from Gretwo to Bluthr
+move y2 from Yeller to Xx_Henry_Xx

@@ -1,0 +1,57 @@
+Mikeyarrum (0, b1y2) g3-
+Matrixfrog (1, g2b3) -y3
+build g1 at Mikeyarrum
+build y1 at Matrixfrog
+build g1 at Mikeyarrum
+convert y3 to g3 at Matrixfrog
+convert g1 to y1 at Mikeyarrum
+build g1 at Matrixfrog
+convert g3 to y3 at Mikeyarrum
+move g1 from Matrixfrog to Grape (b1)
+move y1 from Mikeyarrum to Yomi (g3)
+build g1 at Matrixfrog
+build g2 at Mikeyarrum
+sacrifice g3 at Matrixfrog; build g2 at Grape; build g3 at Matrixfrog; build g3 at Grape
+sacrifice y3 at Mikeyarrum; move g1 from Mikeyarrum to Yomi; move g1 from Yomi to Grape; move g1 from Grape to Matrixfrog; catastrophe green at Matrixfrog
+sacrifice g1 at Grape; build y1 at Matrixfrog
+build y2 at Yomi
+build g1 at Grape
+build g1 at Mikeyarrum
+sacrifice y1 at Matrixfrog; move g3 from Grape to Matrixfrog
+convert g1 to r1 at Mikeyarrum
+build g1 at Matrixfrog
+build r1 at Mikeyarrum
+build y1 at Matrixfrog
+build g1 at Mikeyarrum
+move y1 from Matrixfrog to Grape
+convert g2 to y2 at Mikeyarrum
+build y3 at Matrixfrog
+build g2 at Mikeyarrum
+move y3 from Matrixfrog to Mikeyarrum
+move y2 from Yomi to Grape
+sacrifice g1 at Grape; build y3 at Mikeyarrum; catastrophe yellow at Mikeyarrum
+sacrifice r1 at Mikeyarrum; capture g2 at Grape
+move y1 from Grape to Matrixfrog
+build g1 at Grape
+convert y1 to r1 at Matrixfrog
+move g1 from Grape to Matrixfrog
+move g3 from Matrixfrog to Mikeyarrum
+sacrifice y2 at Grape; move g1 from Matrixfrog to Mikeyarrum; move y1 from Yomi to Mikeyarrum; catastrophe green at Mikeyarrum
+build g1 at Matrixfrog
+build g1 at Grape
+build r1 at Matrixfrog
+convert g1 to y1 at Grape
+build y2 at Matrixfrog
+build y2 at Grape
+convert y2 to r2 at Matrixfrog
+move r1 from Mikeyarrum to Matrixfrog; catastrophe red at Matrixfrog
+move y1 from Matrixfrog to Mikeyarrum
+move g2 from Grape to Matrixfrog
+sacrifice g1 at Matrixfrog; build y2 at Mikeyarrum
+convert g2 to r2 at Matrixfrog
+build g1 at Matrixfrog
+capture g1 at Matrixfrog
+move y2 from Mikeyarrum to Matrixfrog
+capture y2 at Matrixfrog
+move y1 from Mikeyarrum to Matrixfrog
+capture g1 at Matrixfrog

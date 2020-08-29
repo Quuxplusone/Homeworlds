@@ -1,0 +1,44 @@
+Ajo (0, b2r3) g3-
+Mneme (1, r1g3) -b3
+build g1 at Ajo
+build b1 at Mneme
+convert g1 to y1 at Ajo
+convert b1 to y1 at Mneme
+build g1 at Ajo
+build b1 at Mneme
+convert g3 to b3 at Ajo
+convert b1 to r1 at Mneme
+build b1 at Ajo
+build r1 at Mneme
+move b1 from Ajo to Alpha (g1)
+move r1 from Mneme to Hester (y2)
+build g1 at Ajo
+build r2 at Mneme
+build g2 at Ajo
+convert r2 to g2 at Mneme
+move g2 from Ajo to Alpha
+move g2 from Mneme to Hester
+convert g2 to r2 at Alpha
+build r2 at Hester
+build r2 at Alpha
+build r3 at Mneme
+convert r2 to y2 at Alpha
+convert r3 to y3 at Mneme
+build r2 at Alpha
+move r1 from Hester to Andromeda (r3)
+convert r2 to y2 at Alpha
+sacrifice g2 at Hester; build r2 at Andromeda; build r3 at Hester
+move r2 from Alpha to Andromeda; catastrophe red at Andromeda
+move r3 from Hester to Alpha
+sacrifice y2 at Alpha; move y2 from Alpha to Gamma (g2); move b1 from Alpha to Gamma
+move b3 from Mneme to Gamma
+build g2 at Ajo
+sacrifice r2 at Hester; capture y2 at Gamma; capture b1 at Gamma
+move g1 from Ajo to Beta (b1)
+move b3 from Gamma to Beta
+move g2 from Ajo to Delta (b1)
+sacrifice b1 at Gamma; convert y3 to r3 at Mneme
+build g2 at Ajo
+sacrifice y2 at Gamma; move r3 from Alpha to Ajo; move b3 from Beta to Ajo
+capture r3 at Ajo
+sacrifice r3 at Mneme; capture r3 at Ajo; capture b3 at Ajo; capture g2 at Ajo

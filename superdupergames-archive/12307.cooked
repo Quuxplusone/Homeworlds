@@ -1,0 +1,46 @@
+Madwuher (0, r2b3) g3-
+Twoshort (1, r1b2) -g3
+build g1 at Madwuher
+build g1 at Twoshort
+convert g1 to y1 at Madwuher
+convert g1 to y1 at Twoshort
+build g1 at Madwuher
+build g1 at Twoshort
+move g1 from Madwuher to Edora (b1)
+move g1 from Twoshort to Yolonda (y3)
+build g1 at Madwuher
+build g2 at Twoshort
+build g2 at Edora
+sacrifice g3 at Twoshort; build g2 at Twoshort; build g3 at Yolonda; build g3 at Twoshort
+convert g2 to y2 at Edora
+convert g2 to r2 at Twoshort
+sacrifice g3 at Madwuher; build g2 at Edora; build g2 at Madwuher; build g3 at Madwuher
+move g1 from Yolonda to Yak (y1)
+convert g1 to r1 at Madwuher
+move r2 from Twoshort to Yoyo (y3)
+sacrifice g3 at Madwuher; build y2 at Edora; build y2 at Madwuher; build y3 at Madwuher
+move g2 from Twoshort to Yoyo
+sacrifice y1 at Madwuher; move g2 from Edora to Bologna (g3)
+build r1 at Yoyo
+build r2 at Madwuher
+move r2 from Yoyo to Yanyan (y1)
+sacrifice y2 at Madwuher; move r1 from Madwuher to Edora; move r2 from Madwuher to Camelot (g1)
+sacrifice g2 at Yoyo; build r3 at Yoyo; build r3 at Yanyan
+build r3 at Edora
+build y2 at Twoshort
+build g2 at Edora
+move y2 from Twoshort to Bluestar (b3)
+sacrifice g2 at Bologna; build g2 at Edora; build g3 at Madwuher
+sacrifice g3 at Yolonda; build g3 at Yak; build y3 at Bluestar
+convert g2 to b2 at Edora
+sacrifice y2 at Bluestar; move r3 from Yoyo to Edora; move r1 from Yoyo to Edora; catastrophe red at Edora
+sacrifice y2 at Edora; move g3 from Madwuher to Edora; move g2 from Edora to Madwuher
+sacrifice g3 at Yak; build y2 at Twoshort; build y2 at Twoshort; build y3 at Bluestar
+move g2 from Madwuher to Bologna (b1)
+sacrifice y2 at Twoshort; move y3 from Bluestar to Edora; move y3 from Bluestar to Camelot
+sacrifice r2 at Camelot; capture y3 at Edora
+sacrifice y2 at Twoshort; move y3 from Camelot to Madwuher; move r3 from Yanyan to Madwuher
+sacrifice y2 at Edora; move g3 from Edora to Madwuher; move y3 from Edora to Madwuher
+sacrifice r3 at Madwuher; capture y3 at Madwuher; capture y3 at Madwuher; capture g3 at Madwuher
+sacrifice g2 at Bologna; build g1 at Madwuher; build g2 at Madwuher
+catastrophe green at Madwuher

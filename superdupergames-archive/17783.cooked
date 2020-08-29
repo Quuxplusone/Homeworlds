@@ -1,0 +1,16 @@
+Lorgar (0, y1b2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Lorgar
+build g1 at Twoshort
+convert g1 to y1 at Lorgar
+convert g1 to y1 at Twoshort
+build y2 at Lorgar
+build y2 at Twoshort
+convert y2 to r2 at Lorgar
+move y1 from Twoshort to Grogar (g2)
+build y2 at Lorgar
+build y2 at Grogar
+move y2 from Lorgar to Leodagan (b3)
+build y3 at Twoshort
+build y3 at Lorgar
+sacrifice y2 at Grogar; move y1 from Grogar to Stopover (r3); move y1 from Stopover to Lorgar; catastrophe yellow at Lorgar

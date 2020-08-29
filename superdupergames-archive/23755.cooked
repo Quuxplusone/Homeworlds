@@ -1,0 +1,57 @@
+Zoltar (0, b1r3) g3-
+Wil (1, b2r1) -g3
+build g1 at Zoltar
+build g1 at Wil
+convert g1 to y1 at Zoltar
+convert g1 to y1 at Wil
+build g1 at Zoltar
+build g1 at Wil
+convert g1 to r1 at Zoltar
+convert g1 to r1 at Wil
+build r2 at Zoltar
+build r2 at Wil
+convert r1 to b1 at Zoltar
+convert r2 to b2 at Wil
+move b1 from Zoltar to Emeraldforest (g2)
+build g1 at Wil
+build b1 at Emeraldforest
+build g1 at Wil
+convert b1 to y1 at Emeraldforest
+build y2 at Wil
+build y2 at Emeraldforest
+move g1 from Wil to Fortcourage (y3)
+move y2 from Emeraldforest to Blueball (b3)
+move y1 from Wil to Stalag17 (g3)
+move r2 from Zoltar to Emeraldforest
+build y2 at Stalag17
+move r2 from Emeraldforest to Fortcourage
+move g1 from Fortcourage to Dryden (b2)
+sacrifice g3 at Zoltar; build b1 at Emeraldforest; build y3 at Blueball; build y3 at Zoltar
+move b2 from Wil to Taratupa (g3)
+move b1 from Emeraldforest to Taratupa
+convert b2 to r2 at Taratupa
+build b2 at Taratupa
+capture b2 at Taratupa
+build b3 at Emeraldforest
+build b3 at Taratupa
+move b1 from Emeraldforest to Taratupa; catastrophe blue at Taratupa
+build r1 at Taratupa
+build b1 at Emeraldforest
+build r2 at Taratupa
+convert b3 to r3 at Emeraldforest
+build g1 at Dryden
+convert y2 to g2 at Blueball
+build y2 at Wil
+build g2 at Blueball
+convert g1 to b1 at Dryden
+sacrifice g2 at Blueball; build g1 at Blueball; build r3 at Fortcourage
+sacrifice y2 at Wil; move y2 from Stalag17 to Dryden; move y1 from Stalag17 to Dryden
+convert y3 to g3 at Zoltar
+build g2 at Dryden
+sacrifice g2 at Blueball; build y2 at Blueball; build y3 at Emeraldforest
+move y1 from Dryden to Taratupa
+build g2 at Blueball
+move r2 from Taratupa to Dryden
+sacrifice y3 at Emeraldforest; move y3 from Blueball to Wil; move g2 from Blueball to Wil; move g1 from Blueball to Wil; catastrophe green at Wil
+build y3 at Taratupa
+sacrifice r2 at Fortcourage; capture r1 at Wil; capture y2 at Wil

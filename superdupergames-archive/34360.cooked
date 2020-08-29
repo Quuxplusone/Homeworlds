@@ -1,0 +1,39 @@
+Laurie_Menke (0, y3b1) g3-
+Nycavri (1, g2b3) -y3
+build g1 at Laurie_Menke
+build y1 at Nycavri
+build g1 at Laurie_Menke
+move y1 from Nycavri to Deacon (b1)
+convert g1 to r1 at Laurie_Menke
+build y1 at Nycavri
+convert g1 to y1 at Laurie_Menke
+build y2 at Nycavri
+move y1 from Laurie_Menke to Hi (g2)
+move y2 from Nycavri to May (b1)
+build g1 at Laurie_Menke
+build y2 at Nycavri
+build g1 at Laurie_Menke
+move y1 from Nycavri to Mercury (g1)
+move r1 from Laurie_Menke to Hi
+convert y2 to g2 at May
+move g1 from Laurie_Menke to Yeller (y2)
+build g3 at May
+sacrifice g3 at Laurie_Menke; build g3 at Laurie_Menke; build g3 at Yeller; build r1 at Hi
+sacrifice g3 at May; build g3 at May; build y2 at Deacon; build y3 at Mercury
+move g3 from Yeller to Deacon
+sacrifice y2 at Deacon; move g3 from May to Taylor (r2); move g2 from May to Taylor
+convert g1 to r1 at Laurie_Menke
+move y1 from Deacon to May (y2)
+move y1 from Hi to Mercury
+move y1 from Mercury to May
+move y1 from Mercury to May
+build g1 at Taylor
+move y1 from May to Deacon
+convert y2 to r2 at Nycavri
+sacrifice g3 at Deacon; build g3 at Yeller; build y2 at Deacon; build r2 at Laurie_Menke
+build r3 at Nycavri
+sacrifice y2 at Deacon; move g1 from Yeller to Deacon; move r1 from Hi to Deacon
+sacrifice y3 at Mercury; move g1 from Taylor to Laurie_Menke; move g2 from Taylor to Laurie_Menke; move g3 from Taylor to Laurie_Menke; catastrophe green at Laurie_Menke
+move g3 from Yeller to Laurie_Menke
+build y2 at Nycavri
+build r2 at Deacon

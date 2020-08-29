@@ -1,0 +1,30 @@
+Gypsydog (0, y1b2) g3-
+Dsheldon (1, r2b3) -g3
+build g1 at Gypsydog
+build g1 at Dsheldon
+move g1 from Gypsydog to Howe (b3)
+convert g1 to y1 at Dsheldon
+build g1 at Gypsydog
+build y1 at Dsheldon
+build g1 at Howe
+move y1 from Dsheldon to Berry (b1)
+build g2 at Howe
+build g2 at Dsheldon
+convert g2 to y2 at Howe
+sacrifice g2 at Dsheldon; build g2 at Dsheldon; build y2 at Berry
+build g2 at Gypsydog
+convert y2 to g2 at Berry
+build y2 at Howe
+sacrifice g3 at Dsheldon; build g3 at Dsheldon; build y2 at Dsheldon; build y3 at Berry
+move y2 from Howe to Gypsydog
+sacrifice y2 at Dsheldon; move g2 from Berry to Howe; move g2 from Howe to Gypsydog; catastrophe green at Gypsydog
+convert g1 to r1 at Howe
+move y1 from Berry to Bruise (b3)
+build r1 at Howe
+sacrifice g3 at Dsheldon; build y2 at Berry; build y3 at Bruise; build y3 at Dsheldon
+convert y2 to g2 at Gypsydog
+move y3 from Bruise to Gypsydog
+build r1 at Howe
+convert y3 to r3 at Dsheldon
+move r1 from Howe to Gypsydog
+sacrifice r3 at Dsheldon; capture g2 at Gypsydog; capture r1 at Gypsydog

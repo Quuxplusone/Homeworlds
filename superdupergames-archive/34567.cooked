@@ -1,0 +1,71 @@
+Trydnt (0, b2y1) g3-
+Dodobirb (1, b1r3) -g3
+build g1 at Trydnt
+build g1 at Dodobirb
+convert g1 to y1 at Trydnt
+convert g1 to y1 at Dodobirb
+build y2 at Trydnt
+build y2 at Dodobirb
+sacrifice g3 at Trydnt; build y2 at Trydnt; build y3 at Trydnt; build y3 at Trydnt
+build g1 at Dodobirb
+move y3 from Trydnt to Bigblue (b3)
+move y2 from Dodobirb to Transition (g2)
+move y3 from Trydnt to G3 (g3)
+move y2 from Transition to Bigblue
+move y2 from Trydnt to Transitiong2 (g3)
+convert g1 to r1 at Dodobirb
+convert y1 to g1 at Trydnt
+build g1 at Dodobirb
+build y1 at G3
+sacrifice g3 at Dodobirb; build g1 at Dodobirb; build g2 at Dodobirb; build g2 at Dodobirb
+move y2 from Transitiong2 to G2 (g2)
+build g3 at Dodobirb
+convert y2 to b2 at Trydnt
+sacrifice g3 at Dodobirb; build g3 at Dodobirb; build r1 at Dodobirb; build r1 at Dodobirb
+build b1 at Trydnt
+sacrifice g3 at Dodobirb; build r2 at Dodobirb; build r2 at Dodobirb; build g3 at Dodobirb
+build g3 at Trydnt
+sacrifice g3 at Dodobirb; build r2 at Dodobirb; build r3 at Dodobirb; build g3 at Dodobirb
+convert g3 to r3 at Trydnt
+sacrifice r2 at Dodobirb
+move b1 from Trydnt to G3
+sacrifice r2 at Dodobirb
+build b1 at G3
+sacrifice g2 at Dodobirb
+move b1 from G3 to Grass (g2)
+sacrifice r1 at Dodobirb
+build r1 at Trydnt
+sacrifice r1 at Dodobirb
+move r3 from Trydnt to G3
+sacrifice r1 at Dodobirb
+move r3 from G3 to Grass
+move r3 from Dodobirb to Halfblue (b2)
+sacrifice g1 at Trydnt; build r1 at Grass
+sacrifice g2 at Dodobirb
+sacrifice b2 at Trydnt
+sacrifice g1 at Dodobirb
+build b2 at G3
+sacrifice g1 at Dodobirb
+sacrifice b1 at G3
+sacrifice r2 at Dodobirb
+sacrifice r1 at Grass; capture y2 at Bigblue
+build g1 at Dodobirb
+convert y3 to g3 at Bigblue
+move g1 from Dodobirb to Halfblue
+build g1 at Bigblue
+build r1 at Halfblue
+sacrifice g3 at Bigblue; build y2 at G2; build y3 at Bigblue; build y3 at Bigblue
+build g1 at Dodobirb
+move y2 from G2 to B1 (b1)
+move y1 from Dodobirb to Halfblue
+build b3 at G3
+convert r3 to b3 at Halfblue
+move y3 from Bigblue to Grass
+build g2 at Halfblue
+build g3 at Bigblue
+sacrifice g3 at Dodobirb; build g3 at Dodobirb; build r1 at Halfblue; build r2 at Halfblue
+sacrifice g3 at Bigblue; build g3 at Bigblue; build r2 at Grass; build r2 at Grass
+move r1 from Halfblue to Bigred (r3)
+sacrifice y3 at G3; move r2 from Grass to Dodobirb; move r2 from Grass to Dodobirb; move r3 from Grass to Dodobirb; catastrophe red at Dodobirb
+convert b3 to y3 at Halfblue
+sacrifice y3 at Grass; move b1 from Grass to Dodobirb; move b2 from G3 to Dodobirb; move b3 from G3 to Dodobirb; catastrophe blue at Dodobirb

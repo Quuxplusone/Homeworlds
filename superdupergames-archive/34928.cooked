@@ -1,0 +1,32 @@
+Deanthebean (0, b2r3) g3-
+Ajo (1, r3b2) -g3
+build g1 at Deanthebean
+build g1 at Ajo
+convert g3 to y3 at Deanthebean
+convert g3 to y3 at Ajo
+build y1 at Deanthebean
+build y1 at Ajo
+move y1 from Deanthebean to Newstar (g1)
+build g2 at Ajo
+build g2 at Deanthebean
+move g2 from Ajo to Alpha (b1)
+move g2 from Deanthebean to Ipo (y1)
+move y1 from Ajo to Alpha
+build y2 at Deanthebean
+build y2 at Alpha
+convert y2 to r2 at Deanthebean
+convert y2 to r2 at Alpha
+build y2 at Deanthebean
+build y2 at Alpha
+build g2 at Ipo
+build g3 at Ajo
+move y2 from Deanthebean to Venus (b1)
+sacrifice g3 at Ajo; build g3 at Ajo; build g3 at Alpha; build r1 at Alpha
+build g3 at Deanthebean
+move g1 from Ajo to Beta (b1)
+sacrifice g3 at Deanthebean; build g3 at Deanthebean; build y2 at Newstar; build y3 at Venus
+sacrifice y2 at Alpha; move r1 from Alpha to Deanthebean; move r2 from Alpha to Deanthebean; catastrophe red at Deanthebean
+build y2 at Deanthebean
+convert g2 to b2 at Alpha
+build g2 at Ipo
+move b2 from Alpha to Deanthebean

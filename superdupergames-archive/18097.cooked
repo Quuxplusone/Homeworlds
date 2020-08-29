@@ -1,0 +1,15 @@
+Ts52 (0, b3y2) g3-
+Onepagewars (1, g3b2) -r3
+build g1 at Ts52
+build r1 at Onepagewars
+convert g1 to r1 at Ts52
+convert r1 to y1 at Onepagewars
+build g1 at Ts52
+move r3 from Onepagewars to Cyteen (g1)
+build g1 at Ts52
+build y1 at Onepagewars
+move g1 from Ts52 to Grover (b1)
+move y1 from Onepagewars to Cyteen
+build g2 at Grover
+move r3 from Cyteen to Ts52
+capture r3 at Ts52

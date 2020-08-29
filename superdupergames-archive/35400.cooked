@@ -1,0 +1,51 @@
+Simon (0, g3r1) b3-
+Dlwillson (1, b2y3) -g3
+build b1 at Simon
+build g1 at Dlwillson
+convert b3 to y3 at Simon
+convert g1 to b1 at Dlwillson
+build y1 at Simon
+build b1 at Dlwillson
+build b2 at Simon
+move b1 from Dlwillson to Field (g1)
+move b2 from Simon to G2 (g2)
+convert b1 to r1 at Dlwillson
+build b1 at G2
+build r1 at Dlwillson
+convert b2 to r2 at G2
+build b2 at Field
+build r2 at G2
+convert b2 to r2 at Field
+convert r2 to y2 at G2
+move r1 from Dlwillson to Golden (y1)
+build b2 at G2
+build g1 at Dlwillson
+move b1 from G2 to Y1 (y1)
+move g1 from Dlwillson to Golden
+build y2 at G2
+move g1 from Golden to Mars (r3)
+build y2 at Simon
+move r1 from Golden to Sky (b2)
+build b3 at G2
+build b3 at Field
+convert b3 to g3 at G2
+convert b3 to y3 at Field
+sacrifice g3 at G2; build b3 at G2; build b3 at Y1; build b3 at Simon
+build g1 at Dlwillson
+move b2 from G2 to Y1B (y1)
+sacrifice g3 at Dlwillson; build g2 at Mars; build g2 at Mars; build g3 at Dlwillson
+move y1 from Simon to R2 (r2)
+sacrifice y3 at Field; move g2 from Mars to G2; move g2 from Mars to G2; move g1 from Mars to G2; catastrophe green at G2
+convert b3 to g3 at Simon
+convert r2 to y2 at Field
+sacrifice g3 at Simon; build y2 at Simon; build y3 at R2; build b3 at Y1B
+build b3 at Field
+move y2 from Simon to R2B (r2)
+sacrifice g3 at Dlwillson; build r2 at Sky; build r3 at Sky; build r3 at Dlwillson
+convert b3 to r3 at Y1B
+convert r3 to g3 at Sky
+move y2 from Simon to G2 (g2)
+move b3 from Field to G2
+move y2 from G2 to G1 (g1)
+build b3 at G2
+sacrifice y3 at R2; move b1 from Y1 to Dlwillson; move b3 from Y1 to Dlwillson; move b2 from Y1B to Dlwillson; catastrophe blue at Dlwillson

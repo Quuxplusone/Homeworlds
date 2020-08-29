@@ -1,0 +1,45 @@
+Aaron (0, b1y2) g3-
+Cdiffell (1, b3y1) -g3
+build g1 at Aaron
+build g1 at Cdiffell
+convert g1 to y1 at Aaron
+convert g1 to y1 at Cdiffell
+build y2 at Aaron
+move y1 from Cdiffell to Cdiffell2 (g2)
+move y2 from Aaron to Emeralds (g3)
+build g1 at Cdiffell
+build y2 at Emeralds
+build y3 at Cdiffell2
+move y2 from Emeralds to Cdiffell2
+convert g1 to b1 at Cdiffell
+build y3 at Cdiffell2; catastrophe yellow at Cdiffell2
+build g1 at Cdiffell
+build g1 at Aaron
+move g1 from Cdiffell to Cdiffell3 (b2)
+convert g1 to r1 at Aaron
+move b1 from Cdiffell to Cdiffell3
+build r1 at Aaron
+build g1 at Cdiffell
+convert r1 to b1 at Aaron
+build b2 at Cdiffell3
+sacrifice y2 at Emeralds; move b1 from Aaron to Emeralds (g3); move b1 from Emeralds to Cdiffell3; catastrophe blue at Cdiffell3
+convert g1 to r1 at Cdiffell
+build g1 at Aaron
+move r1 from Cdiffell to Cdiffell4 (y2)
+move g1 from Aaron to Sky (b3)
+build g1 at Cdiffell
+build g1 at Sky
+move g1 from Cdiffell to Cdiffell4
+convert g1 to y1 at Sky
+move r1 from Cdiffell4 to Sky
+sacrifice r1 at Aaron; capture r1 at Sky
+build g1 at Cdiffell
+move r1 from Sky to Cdiffell4
+build g2 at Cdiffell
+capture g1 at Cdiffell4
+convert g2 to r2 at Cdiffell
+build y2 at Sky
+move r2 from Cdiffell to Cdiffell4
+move g1 from Cdiffell4 to Cdiffell
+move r2 from Cdiffell4 to Sky
+build g2 at Cdiffell; catastrophe green at Cdiffell

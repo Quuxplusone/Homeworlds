@@ -1,0 +1,20 @@
+Phi_618 (0, b3y2) g3-
+Trydnt (1, b2y1) -g3
+build g1 at Phi_618
+build g1 at Trydnt
+move g1 from Phi_618 to Newb1 (b1)
+convert g1 to y1 at Trydnt
+build g1 at Newb1
+build y1 at Trydnt
+convert g1 to b1 at Newb1
+move y1 from Trydnt to G3 (g3)
+build g1 at Newb1
+build y2 at Trydnt
+build b1 at Newb1
+build y2 at G3
+build g1 at Phi_618
+build y3 at G3
+convert g1 to r1 at Phi_618
+convert y2 to r2 at Trydnt
+convert b1 to r1 at Newb1
+build y2 at Trydnt

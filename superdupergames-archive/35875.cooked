@@ -1,0 +1,15 @@
+Capi3101 (0, b1g3) y3-
+Dther (1, y2g1) -b3
+build y1 at Capi3101
+build b1 at Dther
+build y1 at Capi3101
+build b1 at Dther
+move y1 from Capi3101 to Aleph (g2)
+move b1 from Dther to Algae (g3)
+build y1 at Aleph
+build b2 at Algae
+move y1 from Aleph to Bet (g3)
+convert b2 to y2 at Algae
+build y2 at Aleph
+build y3 at Algae
+build y3 at Bet

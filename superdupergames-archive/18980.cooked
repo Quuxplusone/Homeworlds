@@ -1,0 +1,16 @@
+Lorgar (0, y1b2) g3-
+Twoshort (1, r1b3) -g3
+build g1 at Lorgar
+build g1 at Twoshort
+move g1 from Lorgar to Camille (b3)
+convert g1 to y1 at Twoshort
+build g1 at Lorgar
+build y1 at Twoshort
+build g1 at Lorgar
+build g2 at Twoshort
+build g2 at Camille
+move g2 from Twoshort to Yolonda (y2)
+convert g2 to y2 at Camille
+build y2 at Twoshort
+build y3 at Camille
+sacrifice y2 at Twoshort; move g2 from Yolonda to Bluebird (b3); move g2 from Bluebird to Lorgar; catastrophe green at Lorgar

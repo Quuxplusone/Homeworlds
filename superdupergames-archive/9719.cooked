@@ -1,0 +1,34 @@
+Mxx (0, g2y3) r3-
+Twoshort (1, b1y2) -g3
+build r1 at Mxx
+build g1 at Twoshort
+move r1 from Mxx to Centi (b1)
+convert g1 to b1 at Twoshort
+convert r1 to g1 at Centi
+build b2 at Twoshort
+build g1 at Centi
+convert b2 to r2 at Twoshort
+convert g1 to y1 at Centi
+build b2 at Twoshort
+build g1 at Centi
+move b2 from Twoshort to Yolonda (y3)
+convert g1 to y1 at Centi
+build b2 at Twoshort
+move y1 from Centi to Yolonda
+move b2 from Twoshort to Yoyodyne (y3)
+build y1 at Centi
+build b2 at Twoshort
+build y2 at Centi
+move b2 from Twoshort to Grogar (g3)
+convert y1 to r1 at Centi
+sacrifice g3 at Twoshort; build b3 at Twoshort; build b3 at Grogar; build b3 at Yoyodyne
+move y2 from Centi to Yolonda
+convert b2 to y2 at Yolonda; catastrophe yellow at Yolonda
+build r1 at Centi
+convert b3 to y3 at Twoshort
+build y1 at Centi
+move b3 from Yoyodyne to Centi
+move y1 from Centi to Yoyodyne
+sacrifice y3 at Twoshort; move b3 from Grogar to Centi; move b3 from Centi to Mxx; move b3 from Centi to Mxx
+capture b3 at Mxx
+sacrifice r2 at Twoshort; capture b3 at Mxx; capture r3 at Mxx

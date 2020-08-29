@@ -1,0 +1,46 @@
+Method7 (0, y1b2) g3-
+Antihero (1, b1g3) -y3
+build g1 at Method7
+build y1 at Antihero
+build g1 at Method7
+build y1 at Antihero
+convert g1 to b1 at Method7
+move y1 from Antihero to Greenbelt (g2)
+build g1 at Method7
+build y2 at Antihero
+convert g3 to y3 at Method7
+build y2 at Greenbelt
+move g1 from Method7 to Blonde (y3)
+convert y2 to b2 at Antihero
+build b1 at Method7
+build y2 at Antihero
+move b1 from Method7 to Blonde
+move b2 from Antihero to Greenbelt
+move b1 from Blonde to Sun (y2)
+convert y1 to r1 at Antihero
+convert b1 to r1 at Method7
+convert y2 to r2 at Antihero
+build g1 at Blonde
+move r1 from Antihero to Sun
+sacrifice r1 at Method7; capture r1 at Sun
+move y1 from Greenbelt to Big (g3)
+build g2 at Method7
+move y1 from Big to Method7
+sacrifice r1 at Sun; capture y1 at Method7
+build y1 at Greenbelt
+move y1 from Method7 to Blonde
+build b1 at Greenbelt
+build g2 at Blonde
+move b2 from Greenbelt to Blonde
+move g2 from Blonde to Sun
+build b2 at Greenbelt
+build g3 at Sun
+build b3 at Greenbelt
+sacrifice y3 at Method7; move b1 from Sun to Blonde; move b1 from Blonde to Greenbelt; move y1 from Blonde to Method7; catastrophe blue at Greenbelt
+sacrifice y2 at Greenbelt; move y1 from Greenbelt to Wormhole (g3); move y1 from Wormhole to Method7
+convert g1 to b1 at Method7
+move b2 from Blonde to Method7
+sacrifice g3 at Sun; build g1 at Sun; build g2 at Method7; build g3 at Method7
+convert y3 to g3 at Antihero
+move g1 from Sun to Antihero
+sacrifice g3 at Antihero; build y2 at Method7; build b1 at Method7; catastrophe blue at Method7; catastrophe yellow at Method7

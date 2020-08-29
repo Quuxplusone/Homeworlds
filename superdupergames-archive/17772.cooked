@@ -1,0 +1,41 @@
+Sompm (0, b1y2) g3-
+Gidaio (1, y2b3) -g3
+build g1 at Sompm
+build g1 at Gidaio
+convert g1 to b1 at Sompm
+build g1 at Gidaio
+build g1 at Sompm
+move g1 from Gidaio to China (y1)
+build g2 at Sompm
+sacrifice g3 at Gidaio; build g2 at Gidaio; build g2 at Gidaio; build g3 at China
+move g1 from Sompm to Ishouldgetaow (y3)
+convert g2 to b2 at Gidaio
+build g2 at Ishouldgetaow
+move b2 from Gidaio to China
+build g3 at Sompm
+convert g3 to r3 at China
+move g2 from Ishouldgetaow to Swappyworld (b1)
+move r3 from China to Ishouldgetaow
+convert g3 to r3 at Sompm
+capture g1 at Ishouldgetaow
+build g3 at Sompm
+build g3 at Gidaio
+move g3 from Sompm to Youcheekybugger (b3)
+move r3 from Ishouldgetaow to Swappyworld
+sacrifice g2 at Swappyworld; build r1 at Sompm; build r1 at Sompm
+convert b2 to y2 at China
+move r1 from Sompm to Youcheekybugger
+move y2 from China to Ishouldgetaow
+move r3 from Sompm to Ishouldgetaow
+move y2 from Ishouldgetaow to Swappyworld
+capture g1 at Ishouldgetaow
+convert g2 to b2 at Gidaio
+move r3 from Ishouldgetaow to China
+move g1 from China to Ishouldgetaow
+move r3 from China to Gidaio
+move r3 from Swappyworld to Ishouldgetaow
+capture g3 at Gidaio
+capture g1 at Ishouldgetaow
+capture b2 at Gidaio
+sacrifice y2 at Swappyworld; move g1 from Ishouldgetaow to Sompm; move g1 from Ishouldgetaow to Sompm; catastrophe green at Sompm
+capture g1 at Gidaio

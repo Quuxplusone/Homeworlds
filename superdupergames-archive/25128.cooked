@@ -1,0 +1,41 @@
+Sleepinggreenideas (0, y3b1) g3-
+Onepagewars (1, r1b2) -g3
+build g1 at Sleepinggreenideas
+build g1 at Onepagewars
+convert g1 to r1 at Sleepinggreenideas
+build g1 at Onepagewars
+move r1 from Sleepinggreenideas to Hello (b2)
+convert g1 to y1 at Onepagewars
+build g1 at Sleepinggreenideas
+build y1 at Onepagewars
+move g1 from Sleepinggreenideas to Hello
+move y1 from Onepagewars to Anivia (g3)
+convert g1 to y1 at Hello
+build y2 at Onepagewars
+build g1 at Sleepinggreenideas
+convert g1 to b1 at Onepagewars
+move r1 from Hello to Anivia
+convert y2 to r2 at Onepagewars
+build r1 at Anivia
+move r2 from Onepagewars to Anivia
+build r2 at Anivia
+build y2 at Anivia; catastrophe red at Anivia
+sacrifice g1 at Sleepinggreenideas; build y2 at Hello
+build g1 at Onepagewars
+build g1 at Sleepinggreenideas
+convert g1 to r1 at Onepagewars
+convert g1 to r1 at Sleepinggreenideas
+build r2 at Onepagewars
+build r2 at Sleepinggreenideas
+move r2 from Onepagewars to Anivia
+convert y1 to g1 at Hello
+build r2 at Anivia
+build g1 at Hello
+build r3 at Onepagewars
+move r2 from Sleepinggreenideas to Hello
+sacrifice y2 at Anivia; move r3 from Onepagewars to Anivia; move r3 from Anivia to Hello
+build r3 at Hello
+capture r3 at Hello
+build r3 at Hello; catastrophe red at Hello
+move r2 from Anivia to Hello
+sacrifice r1 at Sleepinggreenideas; capture r2 at Hello

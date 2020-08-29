@@ -1,0 +1,37 @@
+Babamots (0, b2r1) g3-
+Bhorner (1, b1r3) -g3
+build g1 at Babamots
+build g1 at Bhorner
+convert g1 to b1 at Babamots
+convert g1 to y1 at Bhorner
+build g1 at Babamots
+build y1 at Bhorner
+convert g1 to y1 at Babamots
+build y2 at Bhorner
+build y2 at Babamots
+move y1 from Bhorner to Bush (g2)
+move y1 from Babamots to Orion (g3)
+convert y1 to b1 at Bhorner
+build b2 at Babamots
+build b2 at Bhorner
+move b2 from Babamots to Orion
+move b1 from Bhorner to Bush
+build b3 at Orion
+build b3 at Bush
+move b3 from Orion to Iconia (y2)
+convert b3 to r3 at Bush
+move b2 from Orion to Betazed (g2)
+build b3 at Bush
+build b3 at Betazed
+convert b3 to y3 at Bush
+convert b2 to r2 at Betazed
+move y1 from Bush to Puddle (b3)
+sacrifice g3 at Babamots; build y1 at Orion; build y3 at Orion; build y3 at Babamots
+sacrifice y2 at Bhorner; move y1 from Puddle to Betazed; move y1 from Betazed to Orion; catastrophe yellow at Orion
+build r1 at Betazed
+build y1 at Bush
+build r1 at Betazed
+move y1 from Bush to Tree (g3)
+sacrifice y2 at Babamots; move r1 from Betazed to Bhorner; move b3 from Betazed to Bhorner
+capture b3 at Bhorner
+sacrifice y3 at Babamots; move r1 from Betazed to Bhorner; move r2 from Betazed to Bhorner; move b3 from Iconia to Bhorner; catastrophe red at Bhorner; catastrophe blue at Bhorner

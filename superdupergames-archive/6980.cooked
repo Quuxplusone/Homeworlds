@@ -1,0 +1,23 @@
+Twoshort (0, r1b2) g3-
+Cochise (1, b1g2) -y3
+build g1 at Twoshort
+build y1 at Cochise
+build g1 at Twoshort
+build y1 at Cochise
+convert g1 to y1 at Twoshort
+convert y1 to g1 at Cochise
+move g1 from Twoshort to Yolonda (y3)
+move g1 from Cochise to Yolonda
+build g1 at Twoshort
+build g2 at Yolonda
+sacrifice g3 at Twoshort; build g2 at Yolonda; build g3 at Twoshort; build g3 at Twoshort; catastrophe green at Yolonda
+build y1 at Cochise
+move g3 from Twoshort to Bluonia (b3)
+convert y1 to g1 at Cochise
+convert g3 to r3 at Bluonia
+move g1 from Cochise to Bluonia
+sacrifice y1 at Twoshort; move r3 from Bluonia to Cochise
+convert y3 to r3 at Cochise
+capture r3 at Cochise
+build g1 at Bluonia
+capture y1 at Cochise

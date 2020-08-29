@@ -1,0 +1,87 @@
+Joe_Hill (0, b2r1) g3-
+Ratpfink (1, y2b1) -g3
+build g1 at Joe_Hill
+build g1 at Ratpfink
+convert g1 to y1 at Joe_Hill
+move g1 from Ratpfink to Cat (y3)
+build g1 at Joe_Hill
+build g1 at Cat
+move g1 from Joe_Hill to Verge (b3)
+build g2 at Ratpfink
+build g2 at Verge
+convert g2 to r2 at Ratpfink
+convert g2 to r2 at Verge
+build g2 at Ratpfink
+build g2 at Verge
+convert g2 to y2 at Ratpfink
+build y1 at Joe_Hill
+build y1 at Ratpfink
+move y1 from Joe_Hill to Verge
+move y1 from Ratpfink to Cat
+move g1 from Verge to Merge (y2)
+build g2 at Ratpfink
+build g2 at Merge
+build r1 at Ratpfink
+build y3 at Verge
+sacrifice y2 at Ratpfink; move g1 from Cat to Merge; move g1 from Cat to Merge; catastrophe green at Merge
+convert y3 to r3 at Verge
+move r1 from Ratpfink to Verge
+move r3 from Verge to Joe_Hill
+capture y1 at Verge
+capture r1 at Verge
+move y1 from Verge to Bat (r1)
+build g1 at Verge
+build r2 at Ratpfink
+convert g3 to y3 at Joe_Hill
+convert g2 to b2 at Ratpfink
+convert g2 to y2 at Verge
+move r2 from Ratpfink to Cat
+move r2 from Verge to Bat
+move y1 from Bat to Worm (g2)
+build r3 at Verge
+build r3 at Ratpfink
+move r3 from Joe_Hill to Cat
+move r2 from Cat to Joe_Hill
+capture r2 at Joe_Hill
+move y1 from Worm to Cat
+convert y1 to g1 at Joe_Hill
+build g1 at Ratpfink
+move r1 from Verge to Ratpfink
+sacrifice g1 at Ratpfink; build y1 at Cat; catastrophe yellow at Cat
+build y1 at Joe_Hill
+move r2 from Ratpfink to Wampa (y3)
+build r3 at Verge
+capture r1 at Ratpfink
+sacrifice y2 at Verge; move r3 from Verge to Ratpfink; move r3 from Verge to Ratpfink; catastrophe red at Ratpfink
+convert b2 to y2 at Ratpfink
+move y1 from Joe_Hill to Verge
+build g1 at Ratpfink
+build g2 at Verge
+move g1 from Ratpfink to Wampa
+convert g1 to r1 at Verge
+build r3 at Wampa
+build r3 at Verge
+convert g3 to r3 at Ratpfink
+build y1 at Verge
+build g1 at Wampa
+move y1 from Verge to Bat
+sacrifice y2 at Ratpfink; move r3 from Wampa to Joe_Hill; move r2 from Wampa to Joe_Hill; catastrophe red at Joe_Hill
+build g2 at Joe_Hill
+move g1 from Wampa to Ratpfink
+move r2 from Bat to Wampa
+move g1 from Wampa to Joe_Hill
+convert g1 to r1 at Joe_Hill
+build g1 at Joe_Hill
+move r2 from Wampa to Joe_Hill
+build g2 at Joe_Hill
+move y1 from Bat to Joe_Hill; catastrophe green at Joe_Hill
+build r1 at Ratpfink
+convert y1 to g1 at Joe_Hill
+move r1 from Ratpfink to Clown (g3)
+build r2 at Verge
+build g1 at Ratpfink
+build g2 at Joe_Hill
+move g1 from Ratpfink to Down (g3)
+move r2 from Joe_Hill to Down
+sacrifice g1 at Down; build r2 at Ratpfink
+sacrifice y3 at Joe_Hill; move r1 from Verge to Ratpfink; move r2 from Verge to Ratpfink; catastrophe red at Ratpfink

@@ -1,0 +1,30 @@
+Tim_P (0, y1g2) b3-
+Silenttitan (1, r1b3) -g3
+build b1 at Tim_P
+build g1 at Silenttitan
+convert b1 to g1 at Tim_P
+convert g1 to y1 at Silenttitan
+build g1 at Tim_P
+build y1 at Silenttitan
+move g1 from Tim_P to Gethen (y3)
+build y2 at Silenttitan
+build g1 at Tim_P
+build g2 at Silenttitan
+build g2 at Gethen
+build g3 at Silenttitan
+move g1 from Tim_P to Sjandra (g3)
+move g2 from Silenttitan to Sol (y2)
+convert g1 to r1 at Tim_P
+move y1 from Silenttitan to Soul (y2)
+move g1 from Gethen to Tim_P
+build y3 at Silenttitan
+convert b3 to y3 at Tim_P
+sacrifice y3 at Silenttitan; move y1 from Silenttitan to Soul; move y1 from Soul to Sjandra; move y1 from Sjandra to Tim_P
+move y3 from Tim_P to Acheron (y3)
+move y1 from Tim_P to Acheron
+move y3 from Acheron to Virga (r1)
+convert g3 to r3 at Silenttitan
+move g1 from Tim_P to Coventry (r3)
+sacrifice y2 at Silenttitan; move g2 from Sol to Coventry; move g2 from Coventry to Tim_P
+build r2 at Tim_P
+sacrifice r3 at Silenttitan; capture r2 at Tim_P; capture r1 at Tim_P

@@ -1,0 +1,33 @@
+Silenttitan (0, b1r2) g3-
+Marmalade (1, y1b3) -g3
+build g1 at Silenttitan
+build g1 at Marmalade
+convert g1 to y1 at Silenttitan
+move g1 from Marmalade to Canopus (b2)
+build y1 at Silenttitan
+build g1 at Canopus
+build y2 at Silenttitan
+convert g1 to r1 at Canopus
+move y1 from Silenttitan to Sol (g3)
+build g1 at Marmalade
+move y1 from Sol to Sole (r2)
+build g1 at Canopus
+sacrifice g3 at Silenttitan; build y2 at Sole; build y2 at Sole; build y3 at Silenttitan
+move g3 from Marmalade to Sole
+sacrifice y2 at Sole; move y2 from Sole to Soul (g3); move y1 from Sole to Tic (g3)
+build g2 at Sole
+build y2 at Tic
+sacrifice g3 at Sole; build g2 at Sole; build g2 at Canopus; build g3 at Marmalade
+build y3 at Soul
+convert g3 to y3 at Marmalade
+convert y3 to g3 at Silenttitan
+build y3 at Marmalade
+sacrifice y2 at Soul; move y1 from Tic to Sole; move y1 from Sole to Marmalade; catastrophe yellow at Marmalade
+convert g1 to r1 at Marmalade
+move g3 from Silenttitan to Marmalade
+convert g2 to y2 at Canopus
+convert g3 to r3 at Marmalade
+sacrifice y2 at Canopus; move g2 from Sole to Marmalade; move r1 from Canopus to Marmalade
+capture g2 at Marmalade
+convert r1 to g1 at Marmalade
+sacrifice r3 at Marmalade; capture r1 at Marmalade; capture g1 at Marmalade

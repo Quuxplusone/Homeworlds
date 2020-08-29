@@ -1,0 +1,44 @@
+Agentofchaos (0, b1r3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Agentofchaos
+build g1 at Ts52
+convert g1 to y1 at Agentofchaos
+convert g1 to y1 at Ts52
+build y2 at Agentofchaos
+move y1 from Ts52 to Kermit (g3)
+move y2 from Agentofchaos to Shiyai (g2)
+build y2 at Kermit
+build y2 at Shiyai
+move y1 from Kermit to Robin (g2)
+move y1 from Agentofchaos to Kakrafloon (g2)
+build y3 at Robin
+build y3 at Kakrafloon
+build g1 at Ts52
+build g1 at Agentofchaos
+convert g1 to b1 at Ts52
+convert g1 to b1 at Agentofchaos
+move b1 from Ts52 to Kermit
+move y1 from Kakrafloon to Agentofchaos
+build y3 at Kermit
+move b1 from Agentofchaos to Kakrafloon
+build b2 at Kermit
+build b2 at Kakrafloon
+move b2 from Kermit to Robin
+convert b1 to r1 at Kakrafloon
+convert y2 to r2 at Kermit
+build y2 at Kakrafloon
+build r1 at Kermit
+move y2 from Shiyai to Wopolsa (b3)
+move y3 from Robin to Wopolsa
+move y2 from Wopolsa to Grrindah (r2)
+build g1 at Ts52
+build g1 at Agentofchaos
+move g1 from Ts52 to Wopolsa
+convert g1 to r1 at Agentofchaos
+build g1 at Ts52
+build g1 at Agentofchaos
+sacrifice g3 at Ts52; build g3 at Ts52; build b1 at Kermit; build b3 at Robin
+build b3 at Kakrafloon
+convert b3 to r3 at Robin
+build r2 at Kakrafloon
+sacrifice g3 at Ts52; build g3 at Ts52; build r3 at Robin; build b3 at Robin

@@ -1,0 +1,48 @@
+Kermit (0, g2y3) b3-
+Andylooney (1, b1g2) -y3
+build b1 at Kermit
+build y1 at Andylooney
+move b1 from Kermit to Minko (y1)
+convert y1 to b1 at Andylooney
+build b2 at Kermit
+move b1 from Andylooney to Paradise (g3)
+move b2 from Kermit to Minko
+build b2 at Paradise
+convert b1 to g1 at Minko
+build y1 at Andylooney
+build b1 at Minko
+convert b1 to y1 at Paradise
+convert b2 to y2 at Minko
+build y2 at Paradise
+build b1 at Minko
+convert y1 to g1 at Andylooney
+move b1 from Minko to Lalu (g3)
+move g1 from Andylooney to Clampett (y3)
+move b1 from Minko to Lalu
+move y2 from Paradise to Gateway (g1)
+convert b1 to y1 at Lalu
+build y2 at Andylooney
+convert y1 to b1 at Lalu
+convert y2 to r2 at Andylooney
+build y1 at Minko
+move y1 from Paradise to Minko; catastrophe yellow at Minko
+build b2 at Kermit
+move r2 from Andylooney to Lalu
+convert b3 to r3 at Kermit
+capture b1 at Lalu
+convert b1 to y1 at Lalu
+capture y1 at Lalu
+build b1 at Kermit
+build b2 at Paradise
+convert b2 to r2 at Kermit
+convert b2 to r2 at Paradise
+move r2 from Kermit to Gateway
+sacrifice r2 at Paradise; capture r2 at Gateway
+build b2 at Kermit
+build b2 at Lalu
+convert b1 to y1 at Kermit
+convert b2 to g2 at Lalu
+move y1 from Kermit to Flurkey (r1)
+move g2 from Lalu to Flurkey
+build b1 at Kermit
+capture y1 at Flurkey

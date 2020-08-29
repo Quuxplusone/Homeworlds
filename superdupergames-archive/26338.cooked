@@ -1,0 +1,33 @@
+Hellajoey (0, b2g3) r3-
+Jaredl (1, g2b1) -r3
+build r1 at Hellajoey
+build r1 at Jaredl
+convert r1 to y1 at Hellajoey
+convert r1 to y1 at Jaredl
+build r1 at Hellajoey
+build r1 at Jaredl
+convert r1 to g1 at Hellajoey
+convert r1 to b1 at Jaredl
+move g1 from Hellajoey to Lemonasia (y1)
+move b1 from Jaredl to Greenie (g3)
+build y2 at Hellajoey
+build y2 at Jaredl
+move y2 from Hellajoey to Beanstone (g1)
+build b1 at Greenie
+build y2 at Hellajoey
+move y2 from Jaredl to Greenie
+build y3 at Hellajoey
+build y3 at Greenie
+build y3 at Beanstone
+sacrifice y3 at Greenie; move y1 from Jaredl to Greenie; move y1 from Greenie to Beanstone; move y1 from Beanstone to Hellajoey; catastrophe yellow at Hellajoey
+build r1 at Hellajoey
+build b2 at Greenie
+move y2 from Beanstone to Hellajoey
+move b2 from Greenie to Sectorg (g2)
+move g1 from Lemonasia to Blunder (b3)
+build b2 at Sectorg
+sacrifice y2 at Hellajoey; move r3 from Hellajoey to Beanstone; move r3 from Beanstone to Greenie
+sacrifice y2 at Greenie; move b1 from Greenie to Beanstone; move b1 from Greenie to Beanstone
+build r1 at Hellajoey
+build b3 at Beanstone
+sacrifice r1 at Hellajoey; capture b3 at Beanstone

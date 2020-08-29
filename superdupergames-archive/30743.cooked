@@ -1,0 +1,55 @@
+Felix (0, r2b3) g3-
+Mandrel (1, r1b2) -g3
+build g1 at Felix
+build g1 at Mandrel
+convert g1 to y1 at Felix
+convert g1 to y1 at Mandrel
+build g1 at Felix
+build g1 at Mandrel
+convert g1 to b1 at Felix
+convert g1 to b1 at Mandrel
+move b1 from Felix to Grinch (g1)
+move b1 from Mandrel to Tooth (g3)
+build g1 at Felix
+build g1 at Mandrel
+move g1 from Felix to Quozah (b1)
+build g2 at Mandrel
+build g2 at Felix
+move g1 from Mandrel to Early (b3)
+sacrifice g3 at Felix; build g2 at Quozah; build g3 at Felix; build b2 at Grinch
+sacrifice g3 at Mandrel; build g3 at Mandrel; build y1 at Mandrel; build b2 at Tooth
+convert b2 to y2 at Grinch
+build y2 at Mandrel
+sacrifice g3 at Felix; build g3 at Felix; build y2 at Grinch; build y3 at Felix
+move y1 from Mandrel to Tooth
+move y2 from Grinch to Early
+build y3 at Tooth
+build y3 at Grinch
+convert y1 to r1 at Mandrel
+convert y2 to r2 at Early
+sacrifice g1 at Early; build y1 at Mandrel
+build b2 at Grinch
+move g2 from Mandrel to Hole (b3)
+move y2 from Grinch to Early
+convert b2 to r2 at Tooth
+sacrifice g3 at Felix; build g1 at Quozah; build g3 at Felix; build y2 at Early
+build b2 at Tooth
+sacrifice g3 at Felix; build g3 at Felix; build r1 at Early
+move r1 from Mandrel to Hole
+sacrifice y2 at Early; move r2 from Early to Quozah; move g1 from Quozah to Early
+build r3 at Hole
+sacrifice g3 at Felix; build g3 at Felix; build r3 at Early; build r3 at Quozah
+move y1 from Mandrel to Hole
+sacrifice y3 at Felix; move r3 from Quozah to Early; move r3 from Early to Mandrel; move r3 from Early to Mandrel
+sacrifice r2 at Tooth; capture r3 at Mandrel; capture r3 at Mandrel
+move r1 from Early to Mandrel; catastrophe red at Mandrel
+move r3 from Hole to Quozah
+sacrifice g3 at Felix; build g3 at Felix; build r1 at Quozah; build r1 at Quozah; catastrophe red at Quozah
+move b1 from Tooth to Fall (r1)
+move y2 from Early to Fall
+sacrifice y3 at Tooth; move b1 from Fall to Felix; move b2 from Tooth to Fall; move b2 from Fall to Felix
+capture b2 at Felix
+capture y1 at Felix
+sacrifice y3 at Grinch; move b1 from Grinch to Mandrel; move b2 from Grinch to Mandrel; move b2 from Felix to Gambit (g1)
+sacrifice g2 at Hole; build y2 at Felix; build y3 at Felix
+sacrifice y2 at Fall; move b2 from Gambit to Mandrel; catastrophe blue at Mandrel

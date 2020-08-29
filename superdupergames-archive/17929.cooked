@@ -1,0 +1,55 @@
+Sompm (0, y3g1) b3-
+Shmil1 (1, g1b2) -y3
+build b1 at Sompm
+build y1 at Shmil1
+build b1 at Sompm
+convert y1 to b1 at Shmil1
+convert b1 to g1 at Sompm
+build y1 at Shmil1
+build g2 at Sompm
+build y1 at Shmil1
+move g1 from Sompm to Tetrachord (b2)
+convert y1 to r1 at Shmil1
+build g2 at Tetrachord
+move y1 from Shmil1 to Zelena (g3)
+build g2 at Tetrachord
+move y1 from Zelena to Tetrachord
+convert g2 to r2 at Tetrachord
+move y1 from Tetrachord to Sompm
+build g2 at Tetrachord
+convert y3 to g3 at Shmil1
+build g3 at Sompm
+build g3 at Shmil1
+convert g2 to r2 at Sompm
+sacrifice g3 at Shmil1; build y1 at Sompm; build y1 at Sompm; build g2 at Shmil1; catastrophe yellow at Sompm
+convert g2 to y2 at Tetrachord
+convert g3 to y3 at Shmil1
+move g1 from Tetrachord to Anotherplanet (g3)
+move g2 from Shmil1 to Zluta (y3)
+build g2 at Anotherplanet
+build g3 at Zluta
+convert g3 to y3 at Sompm
+move g3 from Zluta to Tetrachord
+build g3 at Tetrachord
+sacrifice r1 at Shmil1; capture r2 at Tetrachord
+sacrifice r2 at Sompm; capture g3 at Tetrachord; capture r2 at Tetrachord
+move g2 from Zluta to Tetrachord; catastrophe green at Tetrachord
+sacrifice y2 at Tetrachord; move g1 from Anotherplanet to Shmil1; move g2 from Anotherplanet to Shmil1
+move b1 from Shmil1 to Slunce (y3)
+build g2 at Shmil1; catastrophe green at Shmil1
+convert y3 to r3 at Shmil1
+build b1 at Sompm
+move b1 from Slunce to Sompm; catastrophe blue at Sompm
+build y1 at Sompm
+convert r3 to g3 at Shmil1
+convert r2 to b2 at Tetrachord
+build g1 at Shmil1
+sacrifice y1 at Sompm; move b2 from Tetrachord to Sompm
+convert g1 to r1 at Shmil1
+build b1 at Sompm
+build r1 at Shmil1
+build y1 at Sompm
+convert r1 to y1 at Shmil1
+build b1 at Sompm
+move y1 from Shmil1 to Sompm
+sacrifice y3 at Sompm; move b1 from Sompm to Shmil1; move b1 from Sompm to Shmil1; move b2 from Sompm to Shmil1; catastrophe blue at Shmil1

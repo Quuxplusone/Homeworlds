@@ -1,0 +1,55 @@
+Zoltar (0, b3r1) g3-
+Kreiger (1, y1b2) -g3
+build g1 at Zoltar
+build g1 at Kreiger
+convert g1 to y1 at Zoltar
+build g1 at Kreiger
+build y1 at Zoltar
+move g1 from Kreiger to Shofixti (y3)
+build y2 at Zoltar
+move g1 from Kreiger to Mycon (y3)
+move y1 from Zoltar to Gonorrhea (g2)
+build g1 at Kreiger
+sacrifice g3 at Zoltar; build y2 at Gonorrhea; build y2 at Gonorrhea; build y3 at Zoltar
+sacrifice g3 at Kreiger; build g2 at Mycon; build g2 at Shofixti; build g3 at Kreiger
+convert y3 to g3 at Zoltar
+convert g3 to y3 at Kreiger
+build g3 at Zoltar
+build g3 at Kreiger
+convert y2 to r2 at Zoltar
+convert g1 to r1 at Kreiger
+move r2 from Zoltar to Gonorrhea
+build g1 at Kreiger
+sacrifice g3 at Zoltar; build y2 at Zoltar; build r1 at Gonorrhea; build g3 at Zoltar
+sacrifice y3 at Kreiger; move g1 from Mycon to Gonorrhea; move g1 from Shofixti to Gonorrhea; move g2 from Shofixti to Gonorrhea; catastrophe green at Gonorrhea
+move g3 from Zoltar to Bluehoohoo (b2)
+convert g1 to b1 at Kreiger
+build g1 at Bluehoohoo
+build g1 at Mycon
+convert g1 to y1 at Bluehoohoo
+sacrifice b1 at Kreiger; convert g2 to y2 at Mycon
+move y2 from Zoltar to Blooze (b2)
+move y2 from Mycon to Blooze
+sacrifice g3 at Zoltar; build y2 at Blooze; build y3 at Bluehoohoo; build y3 at Zoltar
+build r1 at Kreiger
+convert y3 to r3 at Bluehoohoo
+sacrifice g1 at Mycon; build y3 at Blooze; catastrophe yellow at Blooze
+build y2 at Bluehoohoo
+build g1 at Kreiger
+build y2 at Bluehoohoo
+build r2 at Kreiger
+build r2 at Bluehoohoo
+convert r2 to y2 at Kreiger
+move y2 from Bluehoohoo to Bluesbrothers (b3)
+move r1 from Kreiger to Spathi (b3)
+convert y3 to g3 at Zoltar
+sacrifice g3 at Kreiger; build r2 at Kreiger; build r2 at Kreiger; build r3 at Spathi
+sacrifice g3 at Zoltar; build y3 at Zoltar; build y3 at Bluesbrothers; build y3 at Bluehoohoo
+build g1 at Kreiger
+move r2 from Bluehoohoo to Bluesbrothers
+move r2 from Kreiger to Vux (g3)
+build r3 at Bluehoohoo
+move y2 from Kreiger to Spathi
+sacrifice y2 at Bluehoohoo; move r3 from Bluehoohoo to Vux; move y1 from Zoltar to Bloozebrotherz (b2)
+sacrifice g1 at Kreiger; build y2 at Spathi
+capture r2 at Vux

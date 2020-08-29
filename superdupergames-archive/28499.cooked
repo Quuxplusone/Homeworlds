@@ -1,0 +1,43 @@
+Endo (0, b1y3) g3-
+Ts52 (1, y3b2) -g3
+build g1 at Endo
+build g1 at Ts52
+convert g1 to b1 at Endo
+convert g1 to b1 at Ts52
+build b2 at Endo
+move b1 from Ts52 to Kermit (g1)
+move b1 from Endo to Cyclic (g2)
+build g1 at Ts52
+sacrifice g3 at Endo; build b2 at Cyclic; build b3 at Endo; build b3 at Cyclic
+build b3 at Kermit
+convert b2 to y2 at Cyclic
+convert b3 to y3 at Kermit
+convert b3 to g3 at Endo
+build y1 at Kermit
+move b1 from Cyclic to Simple (g1)
+convert y3 to r3 at Kermit
+convert b2 to r2 at Endo
+build b2 at Kermit
+build b2 at Cyclic
+move b2 from Kermit to Oscar (g2)
+build b3 at Simple
+build b3 at Oscar
+convert b2 to g2 at Cyclic
+move g1 from Ts52 to Zoe (y1)
+build g3 at Endo
+build b2 at Kermit
+sacrifice g3 at Endo; build g3 at Endo; build r1 at Endo; build r1 at Endo
+convert b2 to r2 at Oscar
+sacrifice g3 at Endo; build g3 at Endo; build b2 at Cyclic; build y1 at Cyclic
+move y1 from Kermit to Oscar
+move r2 from Endo to Cyclic
+build y2 at Oscar
+move b2 from Cyclic to Zoe
+move g1 from Zoe to Ts52
+move y2 from Cyclic to Simple
+move y2 from Oscar to Kermit
+sacrifice g3 at Endo; build g3 at Endo; build y2 at Simple; build y3 at Cyclic
+build r1 at Kermit
+sacrifice y3 at Cyclic; move g3 from Endo to Oscar; move g3 from Oscar to Kermit; move g3 from Kermit to Ts52
+convert g3 to r3 at Ts52
+sacrifice r2 at Cyclic; capture g1 at Ts52; capture r3 at Ts52

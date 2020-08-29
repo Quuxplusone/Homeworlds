@@ -1,0 +1,52 @@
+Personman (0, b3r1) g3-
+Zoltar (1, y3b2) -g3
+build g1 at Personman
+build g1 at Zoltar
+convert g1 to y1 at Personman
+convert g1 to y1 at Zoltar
+build g1 at Personman
+build g1 at Zoltar
+move g1 from Personman to Particle (y2)
+move g1 from Zoltar to Blueberry (b1)
+convert y1 to b1 at Personman
+build g1 at Zoltar
+build b1 at Personman
+build g2 at Blueberry
+move g1 from Particle to Blueberry
+convert g2 to r2 at Blueberry
+build g2 at Personman
+capture g1 at Blueberry
+build g2 at Personman
+sacrifice g3 at Zoltar; build g2 at Blueberry; build g3 at Zoltar; build g3 at Zoltar
+convert g2 to y2 at Personman
+convert g1 to y1 at Blueberry
+move g2 from Personman to Letterbox (y2)
+convert g1 to r1 at Zoltar
+convert b1 to r1 at Personman
+build r2 at Blueberry
+build b1 at Personman
+move r2 from Blueberry to Lemon (y2)
+move b1 from Personman to Letterbox
+build r2 at Blueberry
+build b2 at Letterbox
+sacrifice g3 at Zoltar; build r3 at Zoltar; build r3 at Zoltar; build r3 at Lemon
+sacrifice g2 at Letterbox; build b2 at Personman; build b3 at Letterbox
+convert r3 to b3 at Zoltar
+move b2 from Letterbox to Start (g1)
+build r3 at Zoltar
+convert b3 to g3 at Letterbox
+move b3 from Zoltar to Start
+build b3 at Letterbox
+sacrifice r1 at Zoltar; capture b2 at Start
+move b1 from Letterbox to Start
+sacrifice b2 at Start; convert r3 to y3 at Lemon; convert r3 to y3 at Zoltar
+convert b2 to g2 at Personman
+sacrifice g3 at Zoltar; build r1 at Lemon; build r3 at Zoltar; build r3 at Zoltar
+build y1 at Personman
+sacrifice y1 at Zoltar; move b3 from Start to Lemon
+move b3 from Letterbox to Blueberry
+sacrifice y3 at Lemon; move b3 from Lemon to Personman; move r2 from Lemon to Personman; move r1 from Lemon to Personman; catastrophe red at Personman
+sacrifice g2 at Personman; build b2 at Blueberry; build b2 at Blueberry; catastrophe blue at Blueberry
+sacrifice r3 at Zoltar; capture g3 at Personman; capture y2 at Personman; capture b1 at Personman
+sacrifice g3 at Letterbox; build y1 at Personman; build y1 at Personman; build y2 at Personman
+sacrifice g3 at Personman; build y2 at Personman; build y3 at Personman; build b1 at Personman

@@ -1,0 +1,53 @@
+Ts52 (0, y1b2) g3-
+Wil (1, y3g2) -r3
+build g1 at Ts52
+build r1 at Wil
+convert g1 to r1 at Ts52
+move r1 from Wil to Fortcourage (b1)
+build g1 at Ts52
+convert r1 to g1 at Fortcourage
+move g1 from Ts52 to Grover (b3)
+build r1 at Wil
+build r1 at Ts52
+build r2 at Wil
+build r2 at Ts52
+move r2 from Wil to Fortcourage
+move r2 from Ts52 to Grover
+build r2 at Wil
+build r3 at Grover
+build r3 at Fortcourage
+convert r3 to y3 at Grover
+move r2 from Wil to Tortuga (b1)
+build r3 at Grover
+convert r2 to g2 at Tortuga
+move r3 from Grover to Tortuga
+move r1 from Wil to Dryden (y1)
+build r2 at Grover
+convert r2 to b2 at Fortcourage
+capture g2 at Tortuga
+convert g1 to y1 at Fortcourage
+build r2 at Tortuga
+move b2 from Fortcourage to Wil
+move r2 from Grover to Dryden
+convert r3 to y3 at Wil
+capture r1 at Dryden
+build b1 at Wil
+build y2 at Grover
+build b2 at Wil
+build r3 at Grover
+move b2 from Wil to Bedrock (g1)
+move y2 from Grover to Tortuga
+build b3 at Bedrock
+build y2 at Tortuga
+convert b2 to y2 at Bedrock
+build g1 at Ts52
+convert y3 to b3 at Wil
+sacrifice g3 at Ts52; build y3 at Grover; build g2 at Tortuga; build g3 at Ts52
+build b2 at Bedrock
+move y3 from Grover to Bedrock
+sacrifice y2 at Bedrock; move b3 from Bedrock to Whynot (g3); move b2 from Bedrock to Whynot
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Bedrock; build g3 at Grover
+pass
+sacrifice y3 at Bedrock; move y2 from Bedrock to Wil; move y2 from Tortuga to Wil; move y2 from Tortuga to Wil; catastrophe yellow at Wil
+sacrifice b2 at Wil; convert b3 to y3 at Wil; convert b3 to y3 at Whynot
+sacrifice y3 at Grover; move g1 from Grover to Wil; move g2 from Tortuga to Wil; move g2 from Tortuga to Wil; catastrophe green at Wil

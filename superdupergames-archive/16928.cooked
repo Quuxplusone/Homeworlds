@@ -1,0 +1,12 @@
+Scottobear (0, r2b3) g3-
+Ts52 (1, y1b2) -g3
+build g1 at Scottobear
+build g1 at Ts52
+convert g1 to y1 at Scottobear
+convert g1 to y1 at Ts52
+move y1 from Scottobear to Boog (g1)
+move y1 from Ts52 to Kermit (g3)
+build g1 at Scottobear
+build y2 at Kermit
+build y2 at Boog
+build g1 at Ts52

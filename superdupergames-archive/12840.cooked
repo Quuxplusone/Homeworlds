@@ -1,0 +1,15 @@
+Twoshort (0, r1b3) g3-
+Jgabin1 (1, g2b1) -y3
+build g1 at Twoshort
+build y1 at Jgabin1
+build g1 at Twoshort
+move y1 from Jgabin1 to Bob (g3)
+convert g1 to y1 at Twoshort
+build y1 at Bob
+build y2 at Twoshort
+build y2 at Bob
+move y1 from Twoshort to Bluonia (b2)
+build y2 at Jgabin1
+build y3 at Twoshort
+convert y3 to g3 at Jgabin1
+move y1 from Bluonia to Bob; catastrophe yellow at Bob

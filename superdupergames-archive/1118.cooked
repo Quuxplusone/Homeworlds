@@ -1,0 +1,36 @@
+Kermit (0, b1g2) y3-
+Evilaxe (1, b1g3) -y3
+build y1 at Kermit
+build y1 at Evilaxe
+convert y1 to g1 at Kermit
+convert y1 to r1 at Evilaxe
+move g1 from Kermit to Fozzie (b3)
+build y1 at Evilaxe
+build g1 at Fozzie
+convert y1 to g1 at Evilaxe
+convert g1 to y1 at Fozzie
+move g1 from Evilaxe to Coffee (b2)
+build y1 at Fozzie
+build r1 at Evilaxe
+convert y1 to r1 at Fozzie
+convert r1 to b1 at Evilaxe
+move r1 from Fozzie to Coffee
+sacrifice r1 at Evilaxe; capture r1 at Coffee
+build y1 at Fozzie
+build b2 at Evilaxe
+convert y1 to r1 at Fozzie
+move b2 from Evilaxe to New_Wiltshire (g2)
+move g1 from Fozzie to Squeezel (y1)
+build b2 at New_Wiltshire
+build y1 at Kermit
+build b3 at New_Wiltshire
+move g1 from Squeezel to Fozzie
+build b3 at Evilaxe
+convert y1 to g1 at Kermit
+convert b2 to r2 at New_Wiltshire
+convert y3 to r3 at Kermit
+convert b2 to y2 at New_Wiltshire
+build g2 at Kermit
+build g3 at Coffee
+build g3 at Fozzie
+sacrifice y2 at New_Wiltshire; move g1 from Coffee to Fozzie; move g1 from Fozzie to Kermit; catastrophe green at Kermit

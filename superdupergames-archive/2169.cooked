@@ -1,0 +1,39 @@
+Andylooney (0, g1b2) y3-
+Mightyjack (1, b3y2) -g3
+build y1 at Andylooney
+build g1 at Mightyjack
+convert y1 to g1 at Andylooney
+build g2 at Mightyjack
+build g2 at Andylooney
+move g2 from Mightyjack to Tau (y1)
+move g2 from Andylooney to Howell (y3)
+convert g1 to y1 at Mightyjack
+move g1 from Andylooney to Clampett (y3)
+move y1 from Mightyjack to Eden (g1)
+build y1 at Andylooney
+build y2 at Eden
+move y1 from Andylooney to Garden (g3)
+move y2 from Eden to Kermit (g3)
+build y2 at Garden
+build g2 at Mightyjack
+sacrifice g2 at Howell; build g2 at Clampett; build y3 at Andylooney
+convert g2 to r2 at Mightyjack
+move y2 from Garden to Berry (b1)
+move r2 from Mightyjack to Berry
+move g1 from Clampett to Bomber (b1)
+capture y2 at Berry
+convert g1 to r1 at Bomber
+move r2 from Berry to Garden
+move y3 from Andylooney to Garden
+sacrifice y2 at Kermit; move y2 from Berry to Garden; move y1 from Eden to Garden; catastrophe yellow at Garden
+build y1 at Andylooney
+build g1 at Mightyjack
+build y1 at Andylooney
+convert g1 to b1 at Mightyjack
+convert y1 to b1 at Andylooney
+move b1 from Mightyjack to Tau
+move b1 from Andylooney to Paradise (g3)
+build b2 at Tau
+build b2 at Paradise
+move b2 from Tau to Garden
+convert b1 to r1 at Paradise

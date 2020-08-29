@@ -1,0 +1,40 @@
+Jeep (0, r1b2) g3-
+Twoshort (1, r1b3) -g3
+pass
+build g1 at Twoshort
+build g1 at Jeep
+convert g1 to r1 at Twoshort
+convert g1 to y1 at Jeep
+build r2 at Twoshort
+build g1 at Jeep
+convert r2 to y2 at Twoshort
+convert g3 to r3 at Jeep
+move r1 from Twoshort to Noescape (g2)
+build g1 at Jeep
+build r2 at Noescape
+move g1 from Jeep to Onlyhope (r3)
+build r2 at Noescape
+convert r3 to g3 at Jeep
+sacrifice y2 at Twoshort; move r2 from Noescape to Onlyhope; move r1 from Noescape to Twoshort
+sacrifice g1 at Onlyhope; build y1 at Jeep
+build g1 at Twoshort
+move y1 from Jeep to Reserve (r3)
+sacrifice g3 at Twoshort; build r2 at Noescape; build r3 at Twoshort; build g1 at Twoshort
+build g2 at Jeep
+convert r3 to g3 at Twoshort
+convert g3 to r3 at Jeep
+convert g1 to y1 at Twoshort
+move g1 from Jeep to Mover (y3)
+build y2 at Twoshort
+convert r3 to g3 at Jeep
+build r3 at Noescape
+sacrifice g2 at Jeep; build y2 at Jeep; build y2 at Reserve
+sacrifice y2 at Twoshort; move r2 from Onlyhope to Bluestar (b2); move r3 from Noescape to Reserve
+sacrifice y1 at Reserve; move y2 from Reserve to Stage (b2)
+build r3 at Twoshort
+move y1 from Jeep to Shaker (y3)
+convert r3 to y3 at Twoshort
+build y1 at Jeep
+sacrifice g1 at Twoshort; build r3 at Reserve
+sacrifice g1 at Mover; build y2 at Stage
+sacrifice y3 at Twoshort; move r2 from Noescape to Reserve; move r3 from Reserve to Jeep; move r3 from Reserve to Jeep

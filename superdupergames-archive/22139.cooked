@@ -1,0 +1,65 @@
+Ts52 (0, y1b2) g3-
+Werebear (1, g3b2) -y3
+build g1 at Ts52
+build y1 at Werebear
+convert g1 to y1 at Ts52
+convert y1 to r1 at Werebear
+build g1 at Ts52
+move r1 from Werebear to Widget (g1)
+convert g1 to r1 at Ts52
+build y1 at Werebear
+move y1 from Ts52 to Grover (b3)
+build y2 at Werebear
+build g1 at Ts52
+move y2 from Werebear to Widget
+sacrifice g1 at Ts52; build y2 at Grover
+convert y1 to b1 at Werebear
+convert y1 to g1 at Grover
+build y1 at Werebear
+build g1 at Ts52
+move b1 from Werebear to Widget
+build g2 at Grover
+convert y2 to g2 at Widget
+convert g2 to r2 at Grover
+move y1 from Werebear to Widget
+sacrifice g3 at Ts52; build g2 at Ts52; build g2 at Grover; build g3 at Ts52
+move g2 from Widget to Security (y3)
+convert g3 to r3 at Ts52
+build g3 at Security
+sacrifice y2 at Grover; move g1 from Ts52 to Security; move g2 from Ts52 to Security; catastrophe green at Security
+build y1 at Werebear
+convert g2 to y2 at Grover
+build y2 at Widget
+build g1 at Grover
+move y1 from Widget to Winkle (g2)
+build g2 at Grover
+build b1 at Widget
+move g1 from Grover to Ts52
+move b1 from Widget to Winkle
+build g2 at Ts52
+build b1 at Widget
+build g3 at Ts52
+build b2 at Winkle
+build g3 at Grover
+build b3 at Widget
+move g3 from Grover to Winkle
+move b2 from Winkle to Wecurity (y3)
+sacrifice r2 at Grover; capture b1 at Winkle; capture y1 at Winkle
+convert b3 to r3 at Widget
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Winkle; build y3 at Grover
+move b1 from Widget to Wecurity
+move r3 from Ts52 to Wecurity
+build b3 at Widget
+capture b2 at Wecurity
+move b3 from Widget to Wonder (r3)
+build b3 at Winkle
+sacrifice y2 at Widget; move b1 from Wecurity to Winkle; move b1 from Widget to Winkle; catastrophe blue at Winkle
+move y2 from Grover to Gonzo (b1)
+convert y1 to r1 at Werebear
+sacrifice g3 at Ts52; build g3 at Ts52; build y1 at Gonzo; build y2 at Gonzo
+build r2 at Werebear
+sacrifice y3 at Grover; move y1 from Gonzo to Werebear; move y2 from Gonzo to Werebear; move y2 from Gonzo to Werebear; catastrophe yellow at Werebear
+convert r1 to y1 at Werebear
+sacrifice y2 at Winkle; move g3 from Winkle to Widget; move g3 from Widget to Werebear
+sacrifice y1 at Werebear; move b3 from Wonder to Ts52
+sacrifice r1 at Ts52; capture r2 at Werebear

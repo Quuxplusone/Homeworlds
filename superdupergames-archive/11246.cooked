@@ -1,0 +1,38 @@
+Matrixfrog (0, r2g1) b3-
+Madwuher (1, g1b3) -g3
+build b1 at Matrixfrog
+build g1 at Madwuher
+build b1 at Matrixfrog
+convert g3 to y3 at Madwuher
+convert b3 to y3 at Matrixfrog
+build g2 at Madwuher
+build y1 at Matrixfrog
+move g2 from Madwuher to Ambleside (b2)
+convert y3 to g3 at Matrixfrog
+build g2 at Madwuher
+build y1 at Matrixfrog
+convert g2 to y2 at Madwuher
+build y1 at Matrixfrog
+build g2 at Ambleside
+move y1 from Matrixfrog to Ping (g3)
+build g2 at Madwuher
+build y2 at Ping
+build g3 at Ambleside
+move y2 from Ping to Ambleside
+convert g2 to r2 at Ambleside
+build y2 at Ping
+capture y2 at Ambleside
+move y1 from Ping to Pong (g2)
+build y3 at Ambleside
+build y3 at Pong
+sacrifice g2 at Madwuher; build g2 at Ambleside; build r1 at Ambleside
+convert b1 to r1 at Matrixfrog
+sacrifice y2 at Madwuher; move g2 from Ambleside to Sunnybrook (b3); move y2 from Ambleside to Sunnybrook
+sacrifice b1 at Matrixfrog; convert y2 to r2 at Ping
+move r1 from Ambleside to Sunnybrook
+sacrifice g3 at Matrixfrog; build r1 at Ping; build r3 at Ping; build y2 at Pong
+sacrifice g3 at Ambleside; build g3 at Ambleside; build r3 at Sunnybrook; build r3 at Ambleside
+move y3 from Pong to Pang (b3)
+sacrifice y3 at Ambleside; move r2 from Ambleside to Sunnybrook; move r2 from Sunnybrook to Matrixfrog; move r1 from Sunnybrook to Matrixfrog; catastrophe red at Matrixfrog
+sacrifice y3 at Pang; move y1 from Pong to Madwuher; move y2 from Pong to Madwuher; move r3 from Ping to Matrixfrog
+sacrifice y3 at Madwuher; move g3 from Ambleside to Matrixfrog; move g2 from Ambleside to Matrixfrog; move g2 from Sunnybrook to Matrixfrog; catastrophe green at Matrixfrog

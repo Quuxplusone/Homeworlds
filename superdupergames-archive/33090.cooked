@@ -1,0 +1,47 @@
+Mneme (0, r1b2) g3-
+Ts52 (1, y3b1) -g3
+build g1 at Mneme
+build g1 at Ts52
+convert g1 to r1 at Mneme
+convert g1 to r1 at Ts52
+build r2 at Mneme
+build r2 at Ts52
+convert r2 to y2 at Mneme
+build g1 at Ts52
+build r2 at Mneme
+move r2 from Ts52 to Kermit (g2)
+move r1 from Mneme to Cleo (y3)
+build g1 at Ts52
+build y1 at Mneme
+convert g1 to b1 at Ts52
+move y1 from Mneme to Euterpe (r3)
+build b1 at Ts52
+sacrifice g3 at Mneme; build r2 at Cleo; build r3 at Cleo; build r3 at Mneme
+move b1 from Ts52 to Kermit
+convert r2 to b2 at Mneme
+build r2 at Kermit
+sacrifice b2 at Mneme; convert r2 to b2 at Cleo; convert r3 to g3 at Cleo
+convert g1 to y1 at Ts52
+build g1 at Cleo
+move y1 from Ts52 to Kermit
+convert b2 to g2 at Cleo
+build b2 at Kermit
+sacrifice g2 at Cleo; build r2 at Mneme; build r3 at Cleo
+convert b2 to y2 at Kermit
+convert r2 to g2 at Mneme
+move r2 from Kermit to Bigbird (y3)
+move g3 from Cleo to Kermit
+sacrifice y2 at Kermit; move b1 from Kermit to Bigbird; move r2 from Kermit to Bigbird
+move r3 from Mneme to Bigbird
+build g1 at Ts52
+sacrifice r3 at Cleo; capture r2 at Bigbird; capture r2 at Bigbird; capture y1 at Kermit
+move r1 from Ts52 to Zoe (y2)
+capture b1 at Bigbird
+move g1 from Ts52 to Zoe
+move g3 from Kermit to Ts52
+sacrifice r1 at Zoe; capture g3 at Ts52
+sacrifice y2 at Mneme; move r3 from Bigbird to Kermit; move r3 from Kermit to Ts52
+convert g3 to r3 at Ts52
+sacrifice r2 at Bigbird; capture r3 at Ts52; capture g3 at Ts52
+sacrifice g1 at Zoe; build b2 at Ts52
+convert r3 to b3 at Ts52; catastrophe blue at Ts52

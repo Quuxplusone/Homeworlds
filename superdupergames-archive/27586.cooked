@@ -1,0 +1,33 @@
+Wil (0, y2b1) g3-
+Ts52 (1, y1b3) -g3
+build g1 at Wil
+build g1 at Ts52
+convert g1 to y1 at Wil
+convert g1 to b1 at Ts52
+build y1 at Wil
+build b1 at Ts52
+move y1 from Wil to B3 (b3)
+move b1 from Ts52 to Robin (g2)
+sacrifice g3 at Wil; build y2 at B3; build y2 at B3; build y3 at Wil
+build b2 at Robin
+move y2 from B3 to G2 (g2)
+build g1 at Ts52
+convert y3 to g3 at Wil
+build b2 at Ts52
+sacrifice g3 at Wil; build y3 at Wil; build y3 at B3; build y3 at G2
+convert b2 to r2 at Ts52
+convert y3 to g3 at Wil
+move r2 from Ts52 to G2
+move y2 from G2 to R3 (r3)
+build b2 at Ts52
+convert y3 to b3 at B3
+move b2 from Ts52 to Oscar (g2)
+sacrifice g3 at Wil; build y3 at Wil; build y3 at B3; build b2 at B3
+build g1 at Ts52
+sacrifice b3 at B3; convert y3 to b3 at G2; convert y3 to g3 at Wil; convert y3 to r3 at B3
+move g1 from Ts52 to Elmo (r2)
+sacrifice g3 at Wil; build y3 at Wil; build y3 at R3; build y3 at B3
+sacrifice g3 at Ts52; build g1 at Elmo; build g3 at Ts52; build g3 at Ts52
+sacrifice y3 at R3; move b2 from B3 to G2; move b2 from G2 to Ts52; move b3 from G2 to Ts52; catastrophe blue at Ts52
+sacrifice b2 at Robin; convert g3 to r3 at Ts52; convert g3 to b3 at Ts52
+sacrifice y3 at Wil; move y3 from B3 to Ts52; move y2 from B3 to Ts52; move y2 from R3 to Ts52; catastrophe yellow at Ts52

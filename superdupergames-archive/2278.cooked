@@ -1,0 +1,34 @@
+Tendrecube (0, y2b1) g3-
+Jesse (1, y3b2) -g3
+build g1 at Tendrecube
+pass
+build g1 at Tendrecube
+pass
+move g1 from Tendrecube to Atomium (y3)
+pass
+build g1 at Atomium
+pass
+convert g1 to b1 at Tendrecube
+build g1 at Jesse
+move g1 from Atomium to Elfstar (b1)
+build g2 at Jesse
+convert g3 to y3 at Tendrecube
+convert g2 to r2 at Jesse
+move b1 from Tendrecube to Atomium
+build g2 at Jesse
+build b2 at Atomium
+convert g2 to b2 at Jesse
+move b2 from Atomium to Elfstar
+move b2 from Jesse to Khoomei (y1)
+build b3 at Elfstar
+sacrifice g1 at Jesse; build b3 at Khoomei
+build b3 at Atomium
+convert b3 to g3 at Khoomei
+move b1 from Atomium to Paradise (g1)
+build b3 at Khoomei
+move g1 from Atomium to Tendrecube
+move b3 from Khoomei to Atomium
+sacrifice y3 at Tendrecube; move b3 from Elfstar to Jesse; move b2 from Elfstar to Jesse; move b1 from Paradise to Jesse; catastrophe blue at Jesse
+move b3 from Atomium to Tendrecube
+build g1 at Elfstar
+sacrifice r2 at Jesse; capture g1 at Tendrecube

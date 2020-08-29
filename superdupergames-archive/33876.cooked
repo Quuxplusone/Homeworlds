@@ -1,0 +1,86 @@
+Trydnt (0, b3y2) g3-
+Draw5Playall (1, b3r1) -g3
+build g1 at Trydnt
+build g1 at Draw5Playall
+convert g1 to r1 at Trydnt
+convert g1 to r1 at Draw5Playall
+build r2 at Trydnt
+build r2 at Draw5Playall
+build r2 at Trydnt
+convert r2 to y2 at Draw5Playall
+convert r2 to y2 at Trydnt
+build r2 at Draw5Playall
+build r2 at Trydnt
+move r2 from Draw5Playall to G2 (g2)
+move r2 from Trydnt to G1 (g1)
+build r3 at G2
+build r3 at G1
+convert r1 to b1 at Draw5Playall
+convert r2 to b2 at Trydnt
+build y1 at Draw5Playall
+build b1 at Trydnt
+move b1 from Draw5Playall to G2
+move b1 from Trydnt to G1
+move y1 from Draw5Playall to G2
+move y2 from Trydnt to G1
+build y1 at G2
+move r2 from G1 to G22 (g2)
+move y1 from G2 to Liberty (g1)
+sacrifice g3 at Trydnt; build r1 at G1; build r2 at G22; build r3 at Trydnt
+sacrifice g3 at Draw5Playall; build y1 at G2; build y3 at Liberty; build y3 at Draw5Playall
+build y3 at G1
+convert y3 to g3 at Draw5Playall
+move r3 from G1 to Y3 (y3)
+build g1 at Draw5Playall
+convert r3 to g3 at Trydnt
+convert r2 to b2 at G2
+build g2 at Trydnt
+sacrifice y2 at Draw5Playall; move y1 from G2 to G1; move y1 from G2 to G1; catastrophe yellow at G1
+sacrifice b2 at Trydnt; convert r1 to y1 at G1; convert r2 to y2 at G22
+build g3 at Draw5Playall
+sacrifice g3 at Trydnt; build g3 at Trydnt; build y1 at G22; build r1 at Y3
+convert g3 to y3 at Draw5Playall
+sacrifice g2 at Trydnt; build r2 at G22; build y2 at G1
+move y1 from Liberty to G2
+move r2 from G22 to G1
+build g2 at Draw5Playall
+build g3 at Trydnt
+move b1 from G2 to Liberty
+sacrifice g3 at Trydnt; build g3 at Trydnt; build r2 at G1; build r3 at G22
+move g2 from Draw5Playall to G2
+convert r2 to b2 at G1
+build r2 at G2
+move b2 from G1 to G22
+move g2 from G2 to Liberty
+move r2 from G1 to G22
+move g1 from Draw5Playall to G2
+move g3 from Trydnt to B1 (b1)
+move r2 from G2 to Liberty
+sacrifice y2 at G22; move r3 from G22 to Draw5Playall; move g3 from B1 to B3 (b3)
+capture r3 at Draw5Playall
+sacrifice y2 at G1; move r2 from G22 to Draw5Playall; move r2 from G22 to Draw5Playall; catastrophe red at Draw5Playall
+sacrifice g2 at Liberty; build y2 at G2; build y2 at Liberty
+build b1 at G22
+build b2 at Liberty
+build g2 at Trydnt
+build r1 at Liberty
+move b2 from G22 to Liberty
+move b1 from Liberty to G2
+sacrifice r3 at Y3; capture r1 at Liberty; capture y2 at Liberty; capture r2 at Liberty
+sacrifice r3 at G2; capture r2 at Liberty; capture y2 at Liberty; capture b2 at Liberty
+build r2 at Liberty
+sacrifice r2 at Liberty; capture r2 at Liberty; capture r1 at Liberty
+sacrifice y1 at G1; move g2 from Trydnt to Y1 (y1)
+move r2 from Liberty to G22
+sacrifice g3 at B3; build g3 at Y1; build b3 at G22; build r2 at Y3
+move b2 from G2 to G1
+sacrifice r1 at Y3; capture r2 at G22
+move y1 from G2 to Idkwhy (r1)
+move g3 from Y1 to Y3
+convert g3 to r3 at Draw5Playall
+build g3 at Y1
+move y2 from G2 to Idkwhy
+move r2 from Y3 to Liberty
+sacrifice y3 at Liberty; move b2 from Liberty to Trydnt; move b2 from Liberty to Trydnt; move y2 from Liberty to Trydnt
+build y3 at G22
+sacrifice y3 at Draw5Playall; move b2 from G1 to Trydnt; move y2 from Idkwhy to Trydnt; move y1 from Idkwhy to Trydnt; catastrophe yellow at Trydnt; catastrophe blue at Trydnt

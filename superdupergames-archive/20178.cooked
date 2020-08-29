@@ -1,0 +1,46 @@
+Goblin981 (0, g3b2) r3-
+Ajo (1, b1y2) -g3
+build r1 at Goblin981
+build g1 at Ajo
+convert r1 to y1 at Goblin981
+convert g1 to y1 at Ajo
+build r1 at Goblin981
+build g1 at Ajo
+move r1 from Goblin981 to Yellow (y1)
+build y2 at Ajo
+build y2 at Goblin981
+move y1 from Ajo to Alpha (g3)
+build y3 at Goblin981
+sacrifice y2 at Ajo; move y1 from Alpha to Yellow; move y1 from Yellow to Goblin981; catastrophe yellow at Goblin981
+build r1 at Goblin981
+build g1 at Ajo
+convert r1 to y1 at Goblin981
+move g1 from Ajo to Alpha (b3)
+build r1 at Goblin981
+move g1 from Ajo to Beta (b3)
+move r1 from Goblin981 to Y2 (y1)
+build g1 at Ajo
+build y2 at Goblin981
+build g2 at Alpha
+move r1 from Yellow to Green (g3)
+sacrifice g3 at Ajo; build g2 at Alpha; build g2 at Beta; build g3 at Ajo
+move r1 from Y2 to Green
+convert g2 to r2 at Alpha
+build r1 at Goblin981
+sacrifice g3 at Ajo; build r2 at Alpha; build g2 at Beta; build g3 at Ajo
+sacrifice y2 at Goblin981; move r1 from Green to Ajo; move r1 from Green to Ajo
+sacrifice r2 at Alpha; capture r1 at Ajo; capture r1 at Ajo
+build y1 at Goblin981
+sacrifice g3 at Ajo; build g3 at Ajo; build g3 at Alpha; build r2 at Alpha
+move r1 from Goblin981 to Yellow (y1)
+convert g3 to y3 at Alpha
+build r2 at Goblin981
+move r2 from Alpha to Yellow
+convert r2 to y2 at Goblin981
+capture r1 at Yellow
+sacrifice y2 at Goblin981; move y1 from Goblin981 to Blue (b1); move y1 from Goblin981 to Blue
+move g2 from Alpha to Blue
+move y1 from Blue to Green (g3)
+move r2 from Alpha to Blue
+build y2 at Green
+sacrifice y3 at Alpha; move r2 from Blue to Goblin981; move r2 from Yellow to Goblin981; move r1 from Yellow to Goblin981; catastrophe red at Goblin981

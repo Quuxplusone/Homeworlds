@@ -1,0 +1,71 @@
+Zoltar (0, g3r2) b3-
+Laurie_Menke (1, g1b2) -y3
+build b1 at Zoltar
+build y1 at Laurie_Menke
+convert b1 to y1 at Zoltar
+build y1 at Laurie_Menke
+build y2 at Zoltar
+convert y1 to b1 at Laurie_Menke
+move y1 from Zoltar to Greenbelt (g1)
+convert y1 to g1 at Laurie_Menke
+build y1 at Zoltar
+build g2 at Laurie_Menke
+build y1 at Greenbelt
+build y2 at Laurie_Menke
+build y2 at Greenbelt
+build y3 at Laurie_Menke
+sacrifice y2 at Greenbelt; move y1 from Greenbelt to Wormhole (y3); move y1 from Wormhole to Laurie_Menke; catastrophe yellow at Laurie_Menke
+convert g1 to y1 at Laurie_Menke
+build y2 at Greenbelt
+sacrifice g2 at Laurie_Menke; build y2 at Laurie_Menke; build y3 at Laurie_Menke
+sacrifice y2 at Greenbelt; move y1 from Greenbelt to Wormhole (y3); move y1 from Wormhole to Laurie_Menke; catastrophe yellow at Laurie_Menke
+build b1 at Laurie_Menke
+build b1 at Zoltar
+convert b1 to y1 at Laurie_Menke
+convert b1 to g1 at Zoltar
+move y1 from Laurie_Menke to Jolly (g3)
+move y1 from Zoltar to Kermit (g1)
+build b1 at Laurie_Menke
+build g2 at Zoltar
+build y1 at Jolly
+move b3 from Zoltar to Kermit
+convert b1 to r1 at Laurie_Menke
+move g2 from Zoltar to Blueberry (b1)
+move y1 from Jolly to Laurie_Menke
+build g2 at Blueberry
+build y2 at Laurie_Menke
+build g2 at Blueberry
+build y2 at Jolly
+build g3 at Zoltar
+build y3 at Laurie_Menke
+sacrifice g3 at Zoltar; build g3 at Zoltar; build y3 at Zoltar; build y3 at Kermit
+convert y3 to r3 at Laurie_Menke
+move y3 from Zoltar to Blueberry
+move r1 from Laurie_Menke to Luella (y3)
+build b1 at Kermit
+move b1 from Laurie_Menke to Luella
+convert b3 to r3 at Kermit
+sacrifice y2 at Laurie_Menke; move y2 from Jolly to Kermit; move y1 from Jolly to Kermit; catastrophe yellow at Kermit
+move g2 from Blueberry to Luella
+move r1 from Luella to Laurie_Menke
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Blueberry; build b2 at Kermit
+move b1 from Luella to Laurie_Menke
+sacrifice g3 at Blueberry; build g3 at Blueberry; build y1 at Zoltar; build r1 at Kermit
+build y1 at Laurie_Menke
+sacrifice g3 at Blueberry; build y2 at Blueberry; build y2 at Blueberry; build y3 at Zoltar
+move b1 from Laurie_Menke to Rebuilding (g3)
+sacrifice y2 at Zoltar; move r3 from Kermit to Rebuilding; move y2 from Blueberry to Rebuilding
+build b2 at Rebuilding
+sacrifice g3 at Zoltar; build g3 at Zoltar; build r1 at Rebuilding; build r2 at Kermit
+sacrifice r1 at Laurie_Menke; capture r1 at Rebuilding
+sacrifice r3 at Rebuilding; capture r1 at Rebuilding; capture b2 at Rebuilding; capture b1 at Rebuilding
+build r1 at Laurie_Menke
+sacrifice y3 at Zoltar; move r1 from Kermit to Rebuilding; move r1 from Rebuilding to Laurie_Menke; move r1 from Rebuilding to Laurie_Menke; catastrophe red at Laurie_Menke
+convert y1 to r1 at Laurie_Menke
+sacrifice y3 at Blueberry; move g2 from Luella to Laurie_Menke; move b2 from Rebuilding to Laurie_Menke; move b1 from Rebuilding to Laurie_Menke
+capture b1 at Laurie_Menke
+sacrifice g2 at Blueberry; build g2 at Laurie_Menke; build b3 at Laurie_Menke
+build b3 at Laurie_Menke
+sacrifice g2 at Blueberry; build g2 at Laurie_Menke; build b3 at Laurie_Menke
+convert b3 to r3 at Laurie_Menke
+sacrifice r2 at Kermit; capture r3 at Laurie_Menke; capture r1 at Laurie_Menke

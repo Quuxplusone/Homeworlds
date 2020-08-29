@@ -1,0 +1,40 @@
+Acetylenelamp (0, b1y2) g3-
+Felix (1, b3y2) -g3
+build g1 at Acetylenelamp
+build g1 at Felix
+convert g1 to y1 at Acetylenelamp
+convert g1 to b1 at Felix
+move y1 from Acetylenelamp to Giedi_Prime (r3)
+move b1 from Felix to Rygar (g1)
+build g1 at Acetylenelamp
+build g1 at Felix
+move g1 from Acetylenelamp to Giedi_Prime
+build b1 at Rygar
+build g2 at Acetylenelamp
+build b2 at Rygar
+convert g2 to r2 at Acetylenelamp
+convert b2 to r2 at Rygar
+build r1 at Acetylenelamp
+build b2 at Rygar
+move r1 from Acetylenelamp to Giedi_Prime
+convert b2 to y2 at Rygar
+build g2 at Acetylenelamp
+build b2 at Rygar
+convert g2 to b2 at Acetylenelamp
+move b2 from Rygar to Rappa (g3)
+move r2 from Acetylenelamp to Rappa
+sacrifice r2 at Rygar; capture r2 at Rappa
+build b2 at Acetylenelamp
+build b3 at Rappa
+convert b2 to r2 at Acetylenelamp
+convert b3 to y3 at Rappa
+move y1 from Giedi_Prime to Corneria (b2)
+build b3 at Rappa
+build b3 at Acetylenelamp
+move b2 from Rappa to Acetylenelamp; catastrophe blue at Acetylenelamp
+build g2 at Acetylenelamp
+build y1 at Rygar
+build g2 at Giedi_Prime
+build y1 at Rappa
+move y1 from Corneria to Giedi_Prime
+sacrifice y3 at Rappa; move y1 from Rappa to Acetylenelamp; move y2 from Rygar to Acetylenelamp; move y1 from Rygar to Acetylenelamp; catastrophe yellow at Acetylenelamp

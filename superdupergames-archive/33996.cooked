@@ -1,0 +1,64 @@
+Broccoli_Commander (0, g3b2) y3-
+Trydnt (1, b2r1) -g3
+build y1 at Broccoli_Commander
+build g1 at Trydnt
+build y1 at Broccoli_Commander
+build g1 at Trydnt
+move y1 from Broccoli_Commander to Cauliflower (y1)
+convert g3 to y3 at Trydnt
+build y2 at Broccoli_Commander
+build y2 at Trydnt
+move y2 from Broccoli_Commander to Blueberry (b1)
+move y2 from Trydnt to G3 (g3)
+convert y3 to g3 at Broccoli_Commander
+move g1 from Trydnt to Y3 (y3)
+move y1 from Cauliflower to Muffin (b3)
+move g1 from Trydnt to Y33 (y3)
+convert y2 to g2 at Blueberry
+build g1 at Y33
+build g2 at Blueberry
+build g2 at Y3
+convert g2 to r2 at Blueberry
+move g1 from Y3 to Y1 (y1)
+convert g3 to r3 at Broccoli_Commander
+sacrifice g1 at Y33; build y2 at Trydnt
+sacrifice y1 at Muffin; move r2 from Blueberry to Y3
+sacrifice g2 at Y3; build g1 at Y33; build y1 at G3
+build y2 at Broccoli_Commander
+convert y3 to g3 at Trydnt
+build y3 at Broccoli_Commander
+sacrifice y2 at G3; move y1 from G3 to Y1; move y1 from Y1 to Broccoli_Commander; catastrophe yellow at Broccoli_Commander
+build g2 at Blueberry
+sacrifice g3 at Trydnt; build g2 at Y1; build g3 at Y1; build g3 at Y33
+sacrifice g2 at Blueberry; build r1 at Y3; build r1 at Broccoli_Commander
+move g2 from Y1 to B3 (b3)
+move r2 from Y3 to Blueberry
+convert g2 to r2 at B3
+sacrifice g2 at Blueberry; build r2 at Blueberry; build r3 at Y3
+move g3 from Y33 to Trydnt
+convert r2 to g2 at Blueberry
+sacrifice g3 at Y1; build g2 at Trydnt; build g2 at Y33; build g3 at Y1
+convert r3 to y3 at Broccoli_Commander
+build y1 at Trydnt
+build y1 at Broccoli_Commander
+move y1 from Trydnt to B3
+move r1 from Y3 to Y1
+sacrifice g3 at Y1; build g3 at Y1; build y2 at B3; build y2 at B3
+build r2 at Blueberry
+sacrifice g3 at Y1; build r3 at B3; build g3 at Y1
+build r3 at Broccoli_Commander
+move r2 from B3 to Y1
+move r1 from Y1 to Y33
+sacrifice r2 at Y1; capture r1 at Y33
+convert r1 to b1 at Broccoli_Commander
+sacrifice g3 at Y1; build g3 at Y1; build r1 at Y33; build r2 at Y33
+move y3 from Broccoli_Commander to Blueberry
+move g1 from Y1 to Broccoli_Commander
+build b1 at Broccoli_Commander
+sacrifice r2 at Y33; capture b1 at Broccoli_Commander; capture b1 at Broccoli_Commander
+sacrifice r2 at Blueberry; capture b1 at Broccoli_Commander; capture b1 at Broccoli_Commander
+sacrifice g2 at Y33; build g2 at Broccoli_Commander; build r2 at B3
+build r2 at Blueberry
+convert g2 to b2 at Broccoli_Commander; catastrophe blue at Broccoli_Commander
+sacrifice y3 at Blueberry; move r2 from Blueberry to B3; move r2 from Blueberry to B3; move g2 from Blueberry to Y33; catastrophe red at B3
+sacrifice g3 at Y1; build g2 at Broccoli_Commander; build g3 at Broccoli_Commander; build y1 at Trydnt; catastrophe green at Broccoli_Commander

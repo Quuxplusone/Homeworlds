@@ -1,0 +1,45 @@
+Jbj77 (0, y1b2) g3-
+Zoltar (1, b3y1) -g3
+build g1 at Jbj77
+build g1 at Zoltar
+convert g1 to y1 at Jbj77
+convert g3 to y3 at Zoltar
+build y2 at Jbj77
+build y2 at Zoltar
+convert y2 to r2 at Jbj77
+convert y2 to r2 at Zoltar
+build y2 at Jbj77
+build y2 at Zoltar
+move y2 from Jbj77 to Alpha (b3)
+move y2 from Zoltar to Greenbelt (g2)
+build g1 at Jbj77
+build g1 at Zoltar
+move g1 from Jbj77 to Alpha
+convert g1 to b1 at Zoltar
+build r1 at Jbj77
+build r1 at Zoltar
+convert r1 to b1 at Jbj77
+move b1 from Zoltar to Greenbelt
+build g1 at Alpha
+build g2 at Zoltar
+build g2 at Alpha
+sacrifice g2 at Zoltar; build y2 at Zoltar; build y3 at Greenbelt
+sacrifice g2 at Alpha; build y3 at Alpha; build g2 at Jbj77
+convert y3 to g3 at Zoltar
+move y2 from Alpha to Gamma (g2)
+sacrifice y2 at Greenbelt; move g1 from Zoltar to Beta (b2); move y2 from Zoltar to Beta
+sacrifice g3 at Jbj77; build g3 at Jbj77; build y2 at Alpha; build y3 at Gamma
+build g3 at Zoltar
+move b1 from Jbj77 to Delta (r3)
+move r2 from Zoltar to Greenbelt
+convert g1 to r1 at Alpha
+sacrifice g3 at Zoltar; build g1 at Zoltar; build g3 at Beta; build r1 at Greenbelt
+move y3 from Gamma to Delta
+move r1 from Greenbelt to Blueberry (b1)
+move b1 from Delta to Gamma
+sacrifice g3 at Beta; build r2 at Zoltar; build r3 at Blueberry; build r3 at Greenbelt
+sacrifice g3 at Jbj77; build g3 at Jbj77; build b2 at Gamma; build b3 at Gamma
+sacrifice y3 at Greenbelt; move b1 from Greenbelt to Blueberry; move b1 from Blueberry to Gamma; move r3 from Blueberry to Gamma; catastrophe blue at Gamma
+sacrifice g3 at Jbj77; build g3 at Jbj77; build g3 at Alpha; build y3 at Delta
+capture y2 at Gamma
+move y3 from Delta to Beta

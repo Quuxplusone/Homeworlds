@@ -1,0 +1,100 @@
+Ajo (0, b2r1) g3-
+Babamots (1, r3b2) -g3
+build g1 at Ajo
+build g1 at Babamots
+convert g1 to y1 at Ajo
+convert g1 to y1 at Babamots
+build g1 at Ajo
+build g1 at Babamots
+move g1 from Ajo to Alpha (b3)
+move g1 from Babamots to Andoria (b1)
+build g1 at Ajo
+build g2 at Babamots
+sacrifice g3 at Ajo; build g2 at Alpha; build g2 at Alpha; build g3 at Ajo
+sacrifice g3 at Babamots; build g3 at Andoria; build g3 at Babamots; build y1 at Babamots
+convert g2 to y2 at Alpha
+convert y1 to r1 at Babamots
+convert g2 to r2 at Alpha
+convert g3 to y3 at Andoria
+build g2 at Alpha
+move y3 from Andoria to Orion (g2)
+sacrifice g3 at Ajo; build g3 at Ajo; build g3 at Alpha; build r1 at Alpha
+sacrifice y1 at Babamots; move g1 from Andoria to Alpha; catastrophe green at Alpha
+convert r2 to g2 at Alpha
+convert g2 to y2 at Babamots
+build r2 at Alpha
+build y1 at Babamots
+move r1 from Alpha to Beta (g1)
+move y2 from Babamots to Beta
+sacrifice y2 at Alpha; move r1 from Beta to Babamots; move r2 from Alpha to Gamma (y1)
+sacrifice r1 at Babamots; capture r1 at Babamots
+build y2 at Ajo
+sacrifice g3 at Babamots; build y2 at Orion; build y3 at Beta; build y3 at Babamots
+sacrifice g1 at Ajo; build r1 at Gamma
+convert r1 to b1 at Babamots
+build g1 at Alpha
+sacrifice b1 at Babamots; convert y2 to r2 at Beta
+sacrifice g2 at Alpha; build g1 at Ajo; build r1 at Gamma
+sacrifice y2 at Orion; move r2 from Beta to Alpha; move r2 from Alpha to Gamma; catastrophe red at Gamma
+sacrifice g3 at Ajo; build g2 at Alpha; build g2 at Ajo; build g3 at Ajo
+move y3 from Beta to Risa (g3)
+convert g2 to y2 at Alpha
+convert y3 to g3 at Babamots
+move y1 from Ajo to Beta (b3)
+build g1 at Babamots
+sacrifice g2 at Ajo; build g2 at Alpha; build y1 at Beta
+move g1 from Babamots to Bolarus (b1)
+sacrifice g2 at Alpha; build y2 at Beta; build y3 at Alpha
+build g2 at Bolarus
+convert y3 to r3 at Alpha
+sacrifice g2 at Bolarus; build g2 at Babamots; build y3 at Babamots
+sacrifice g3 at Ajo; build g2 at Alpha; build g3 at Ajo; build r1 at Alpha
+convert g2 to r2 at Babamots
+move y1 from Beta to Bolarus
+move r2 from Babamots to Bolarus
+move y1 from Bolarus to Babamots
+move y1 from Babamots to Bolarus
+move y1 from Babamots to Gamma (b1)
+build r1 at Bolarus
+move g2 from Alpha to Gamma
+convert r1 to b1 at Bolarus
+move r3 from Alpha to Gamma
+build g2 at Bolarus
+sacrifice g3 at Ajo; build r1 at Gamma; build r2 at Alpha; build g3 at Ajo
+move g1 from Bolarus to Benzar (b3)
+move r3 from Gamma to Benzar
+sacrifice y3 at Orion; move g2 from Bolarus to Benzar; move g2 from Benzar to Ajo; move g1 from Benzar to Ajo; catastrophe green at Ajo
+sacrifice y2 at Beta; move r3 from Benzar to Ajo; move r1 from Alpha to Gamma
+sacrifice g3 at Babamots; build y2 at Bolarus; build b2 at Bolarus; build y3 at Babamots
+move y1 from Beta to Epsilon (g1)
+move y3 from Babamots to Gamma
+sacrifice y2 at Alpha; move r1 from Gamma to Babamots; move r1 from Gamma to Babamots
+sacrifice r2 at Bolarus; capture y1 at Gamma; capture g2 at Gamma
+build y2 at Epsilon
+capture r1 at Babamots
+sacrifice g1 at Alpha; build r2 at Babamots; catastrophe red at Babamots
+convert y1 to r1 at Gamma
+convert r3 to g3 at Ajo
+move b2 from Bolarus to Risa
+build y1 at Ajo
+build b3 at Risa
+move y1 from Epsilon to Zeta (b3)
+convert b3 to r3 at Risa
+move y1 from Ajo to Theta (b3)
+build r1 at Risa
+build g1 at Ajo
+move g2 from Gamma to Zeta
+move g1 from Ajo to Alpha
+sacrifice r1 at Risa; capture y1 at Zeta
+build g1 at Ajo
+move y1 from Zeta to Gamma
+build g2 at Alpha
+sacrifice g2 at Zeta; build r1 at Risa; build b3 at Risa
+build r2 at Alpha
+move r1 from Gamma to Babamots
+sacrifice g3 at Ajo; build g2 at Ajo; build g2 at Alpha; build g3 at Ajo
+sacrifice y3 at Gamma; move b1 from Bolarus to Risa; move b1 from Risa to Ajo; move b3 from Risa to Ajo
+capture b3 at Ajo
+move b2 from Risa to Ajo; catastrophe blue at Ajo
+pass
+sacrifice y3 at Risa; move r1 from Risa to Ajo; move r1 from Babamots to Ajo; move r3 from Risa to Ajo; catastrophe red at Ajo

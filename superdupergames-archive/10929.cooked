@@ -1,0 +1,16 @@
+Youreternalgod (0, y3b2) g3-
+Twoshort (1, b1y2) -g3
+build g1 at Youreternalgod
+build g1 at Twoshort
+move g1 from Youreternalgod to Amber (y1)
+convert g1 to b1 at Twoshort
+build g1 at Youreternalgod
+build b1 at Twoshort
+convert g1 to y1 at Youreternalgod
+move b1 from Twoshort to Yolonda (y3)
+build g1 at Youreternalgod
+build b2 at Twoshort
+move g1 from Amber to Azure (b3)
+convert b2 to r2 at Twoshort
+sacrifice g3 at Youreternalgod; build g1 at Youreternalgod; build g2 at Youreternalgod; build g2 at Azure
+move r2 from Twoshort to Azure

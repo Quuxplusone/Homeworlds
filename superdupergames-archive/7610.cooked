@@ -1,0 +1,66 @@
+Mikeyarrum (0, b2y1) g3-
+Zoltar (1, y2b3) -g3
+build g1 at Mikeyarrum
+build g1 at Zoltar
+convert g1 to y1 at Mikeyarrum
+convert g1 to y1 at Zoltar
+build y2 at Mikeyarrum
+build y2 at Zoltar
+move y2 from Mikeyarrum to Yomi (g3)
+move y1 from Zoltar to Greendale (g1)
+build y3 at Yomi
+build y3 at Greendale
+build g1 at Mikeyarrum
+move y3 from Greendale to Blueridge (b3)
+move g1 from Mikeyarrum to Sakaki (y3)
+convert y2 to r2 at Zoltar
+convert y1 to r1 at Mikeyarrum
+build r1 at Zoltar
+build r1 at Mikeyarrum
+convert r1 to b1 at Zoltar
+move y2 from Yomi to Chiyo (b1)
+build b1 at Zoltar
+convert y2 to b2 at Chiyo
+move b1 from Zoltar to Greendale
+move r1 from Mikeyarrum to Nyamo (b3)
+build b2 at Greendale
+convert b2 to y2 at Chiyo
+move b2 from Greendale to Sakaki
+move y3 from Yomi to Greendale
+convert b1 to y1 at Greendale
+move y3 from Greendale to Yomi2 (g3)
+build y2 at Greendale
+move g1 from Sakaki to Chiyo
+convert b2 to g2 at Sakaki
+build g1 at Chiyo
+build g2 at Sakaki
+sacrifice y2 at Chiyo; move g1 from Chiyo to Sakaki; move g1 from Chiyo to Sakaki; catastrophe green at Sakaki
+move y1 from Greendale to Greenhills (g2)
+build g1 at Mikeyarrum
+build y2 at Greenhills
+move g1 from Mikeyarrum to Kagura (y3)
+build b1 at Zoltar
+build g1 at Mikeyarrum
+build g2 at Zoltar
+build g2 at Kagura
+convert y3 to r3 at Blueridge
+convert g3 to y3 at Mikeyarrum
+convert g3 to r3 at Zoltar
+build g3 at Mikeyarrum
+build g3 at Zoltar
+move g1 from Kagura to Chiyo (b1)
+move g3 from Zoltar to Chiyo
+convert g1 to r1 at Chiyo
+move y2 from Greendale to Nyamo
+build r2 at Mikeyarrum
+sacrifice r2 at Zoltar; capture r1 at Chiyo; capture r1 at Nyamo
+convert r2 to b2 at Mikeyarrum
+move b1 from Zoltar to Greendale
+move b2 from Mikeyarrum to Yomi2
+sacrifice y2 at Nyamo; move y2 from Greenhills to Kagura; move g3 from Chiyo to Yomi2
+sacrifice r1 at Mikeyarrum; capture g3 at Yomi2
+sacrifice y1 at Greenhills; move r3 from Blueridge to Mikeyarrum
+sacrifice g3 at Yomi2; build g1 at Mikeyarrum; build b2 at Yomi2; build y1 at Yomi2
+capture y3 at Mikeyarrum
+sacrifice y3 at Yomi2; move b2 from Yomi2 to Greendale; move b2 from Greendale to Zoltar; move b2 from Yomi2 to Greendale
+convert y3 to g3 at Mikeyarrum; catastrophe green at Mikeyarrum

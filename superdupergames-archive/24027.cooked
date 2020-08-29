@@ -1,0 +1,50 @@
+Mnkr (0, b2y1) g3-
+Ts52 (1, y1b3) -g3
+build g1 at Mnkr
+build g1 at Ts52
+move g1 from Mnkr to Lsdr (y3)
+move g1 from Ts52 to Gonzo (b2)
+build g1 at Mnkr
+build g2 at Gonzo
+build g2 at Lsdr
+convert g2 to y2 at Gonzo
+move g1 from Lsdr to Dnar (y2)
+build g2 at Gonzo
+convert g1 to y1 at Mnkr
+build y2 at Gonzo
+move y1 from Mnkr to Unr (g3)
+move y2 from Gonzo to Grover (b3)
+build y3 at Unr
+build y3 at Gonzo
+move y3 from Unr to Nator (b2)
+convert y3 to r3 at Gonzo
+build g1 at Dnar
+convert g3 to r3 at Ts52
+convert y3 to r3 at Nator
+move g1 from Gonzo to Ts52
+build y3 at Unr
+build y3 at Gonzo
+move y1 from Unr to Nator
+build r1 at Gonzo
+build g2 at Lsdr
+build g3 at Gonzo
+move g2 from Lsdr to Nator
+move r3 from Gonzo to Lsdr
+sacrifice g2 at Lsdr; build g2 at Nator; build r1 at Nator
+move g2 from Gonzo to Lsdr
+move r1 from Nator to Unr
+move r3 from Lsdr to Dnar
+move r3 from Nator to Lsdr
+move g2 from Lsdr to Gonzo
+build r1 at Unr
+capture g1 at Dnar
+move g1 from Dnar to Lsdr
+move r3 from Dnar to Grover
+build r2 at Lsdr
+move r3 from Grover to Nator
+move r3 from Lsdr to Gonzo
+capture r3 at Gonzo
+move r2 from Lsdr to Dnar
+capture g2 at Nator
+sacrifice g1 at Lsdr; build y3 at Unr
+capture y1 at Nator

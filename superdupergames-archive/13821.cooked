@@ -1,0 +1,50 @@
+Pottytroll (0, g3b1) y3-
+Agentofchaos (1, b3r2) -g3
+build y1 at Pottytroll
+build g1 at Agentofchaos
+build y1 at Pottytroll
+convert g1 to y1 at Agentofchaos
+move y1 from Pottytroll to Hogdumpling (r2)
+build y2 at Agentofchaos
+build y2 at Pottytroll
+build g1 at Agentofchaos
+move y2 from Pottytroll to Hogdumpling
+convert y1 to r1 at Agentofchaos
+convert y1 to b1 at Pottytroll
+convert g1 to b1 at Agentofchaos
+build b2 at Pottytroll
+move b1 from Agentofchaos to Dreamzone (y1)
+move b2 from Pottytroll to Hogdumpling
+build y1 at Agentofchaos
+convert y2 to g2 at Hogdumpling
+build g1 at Agentofchaos
+build y2 at Hogdumpling
+move y2 from Agentofchaos to Dreamzone
+convert y2 to r2 at Hogdumpling
+build y2 at Agentofchaos
+move r2 from Hogdumpling to Dreamzone
+sacrifice r1 at Agentofchaos; capture r2 at Dreamzone
+build y2 at Hogdumpling
+convert y2 to g2 at Dreamzone
+convert b1 to r1 at Pottytroll
+build r1 at Dreamzone
+sacrifice g2 at Hogdumpling; build y2 at Pottytroll; build y3 at Pottytroll
+move y2 from Agentofchaos to Earthroot (g1)
+convert y2 to g2 at Hogdumpling
+sacrifice g2 at Dreamzone; build y2 at Agentofchaos; build y3 at Earthroot
+move y3 from Pottytroll to Baitmaster (b2)
+move y3 from Earthroot to Hogdumpling
+move g2 from Hogdumpling to Earthroot
+move y2 from Earthroot to Terrorworld (b2)
+convert y2 to g2 at Pottytroll
+sacrifice r2 at Dreamzone; capture b2 at Hogdumpling; capture y1 at Hogdumpling
+build y2 at Pottytroll
+move b1 from Dreamzone to Terrorworld
+move y2 from Pottytroll to Terrorworld
+sacrifice y2 at Terrorworld; move b1 from Terrorworld to Pottytroll; move b2 from Hogdumpling to Pottytroll
+build g1 at Earthroot
+move g1 from Agentofchaos to Earthroot; catastrophe green at Earthroot
+convert y2 to r2 at Terrorworld
+build b1 at Pottytroll; catastrophe blue at Pottytroll
+build g1 at Pottytroll
+sacrifice y2 at Agentofchaos; move g3 from Agentofchaos to Dreamzone; move g3 from Dreamzone to Pottytroll; catastrophe green at Pottytroll

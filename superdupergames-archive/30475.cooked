@@ -1,0 +1,53 @@
+Felix (0, y2b3) g3-
+Subhan64 (1, y2b1) -g3
+build g1 at Felix
+build g1 at Subhan64
+convert g1 to b1 at Felix
+build g1 at Subhan64
+build g1 at Felix
+convert g1 to y1 at Subhan64
+build b1 at Felix
+build y1 at Subhan64
+convert b1 to y1 at Felix
+move y1 from Subhan64 to Kermit (g3)
+move y1 from Felix to Flemoid (g1)
+sacrifice g3 at Subhan64; build g2 at Subhan64; build y2 at Kermit; build y3 at Subhan64
+build y3 at Flemoid
+move y1 from Kermit to Flemoid
+move y3 from Flemoid to Kermit
+move y1 from Subhan64 to Kermit
+sacrifice b1 at Felix; convert y3 to r3 at Kermit
+sacrifice y1 at Kermit; move y2 from Kermit to Flemoid
+build y1 at Flemoid; catastrophe yellow at Flemoid
+convert y3 to r3 at Subhan64
+convert g1 to b1 at Felix
+build r1 at Subhan64
+build g1 at Felix
+convert g2 to y2 at Subhan64
+convert g1 to y1 at Felix
+convert r1 to b1 at Subhan64
+move b1 from Felix to Ralston (g1)
+build b2 at Subhan64
+build b2 at Ralston
+convert b2 to g2 at Subhan64
+convert b1 to y1 at Ralston
+move g2 from Subhan64 to Tweety (y3)
+sacrifice g3 at Felix; build y1 at Ralston; build y3 at Ralston; build y3 at Felix
+move y2 from Subhan64 to Tweety
+move y1 from Ralston to Tweety
+build g1 at Subhan64
+move y1 from Ralston to Tweety; catastrophe yellow at Tweety
+convert g1 to y1 at Subhan64
+build y1 at Ralston
+build g1 at Subhan64
+convert y3 to g3 at Felix
+build r1 at Subhan64
+move y1 from Ralston to Kermit
+move g1 from Subhan64 to Daisy (y3)
+build y2 at Kermit
+move r3 from Subhan64 to Daisy
+build y3 at Ralston
+move r3 from Daisy to Ralston
+sacrifice y3 at Ralston; move r3 from Kermit to Subhan64; move y1 from Kermit to Subhan64; move y3 from Ralston to Kermit
+build r1 at Subhan64
+sacrifice y3 at Kermit; move y2 from Kermit to Subhan64; move b2 from Ralston to Daisy; move b2 from Daisy to Subhan64; catastrophe yellow at Subhan64

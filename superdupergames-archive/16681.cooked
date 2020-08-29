@@ -1,0 +1,11 @@
+Twoshort (0, r1b3) g3-
+Scottobear (1, r2b1) -g3
+build g1 at Twoshort
+build g1 at Scottobear
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Scottobear
+build g1 at Twoshort
+build g1 at Scottobear
+build g1 at Twoshort
+build g2 at Scottobear
+move g1 from Twoshort to Greenzilla (g2)

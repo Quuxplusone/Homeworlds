@@ -1,0 +1,38 @@
+Mandrel (0, r1b2) g3-
+Dlwillson (1, b3y1) -g3
+build g1 at Mandrel
+build g1 at Dlwillson
+convert g1 to y1 at Mandrel
+convert g1 to r1 at Dlwillson
+build y1 at Mandrel
+build r1 at Dlwillson
+build y2 at Mandrel
+build r2 at Dlwillson
+convert y1 to b1 at Mandrel
+move r1 from Dlwillson to Grungy (g2)
+move b1 from Mandrel to Oscillator (g3)
+convert r2 to y2 at Dlwillson
+build b1 at Oscillator
+move y2 from Dlwillson to Grungy
+convert b1 to y1 at Oscillator
+build r2 at Grungy
+convert y2 to r2 at Mandrel
+move r2 from Grungy to Oscillator
+move b1 from Oscillator to Nap (g2)
+capture y1 at Oscillator
+build y2 at Mandrel
+build r2 at Oscillator
+move r2 from Mandrel to Broken (b3)
+move r2 from Oscillator to Nap
+build g1 at Mandrel
+sacrifice g3 at Dlwillson; build r3 at Dlwillson; build r3 at Grungy; build r3 at Oscillator
+convert y1 to b1 at Mandrel
+move r3 from Grungy to Broken
+build b1 at Nap
+capture r2 at Broken
+build b2 at Mandrel
+sacrifice y2 at Grungy; move r3 from Broken to Mandrel; move r3 from Oscillator to Mandrel
+build b2 at Nap
+sacrifice r3 at Mandrel; capture g3 at Mandrel; capture y2 at Mandrel; capture b2 at Mandrel
+build g1 at Mandrel
+sacrifice r3 at Mandrel; capture g1 at Mandrel; capture g1 at Mandrel; capture b1 at Mandrel

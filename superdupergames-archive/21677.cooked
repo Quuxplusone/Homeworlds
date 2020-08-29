@@ -1,0 +1,58 @@
+Silenttitan (0, r1b2) g3-
+Twoshort (1, b1r3) -g3
+build g1 at Silenttitan
+build g1 at Twoshort
+convert g1 to y1 at Silenttitan
+convert g1 to y1 at Twoshort
+build g1 at Silenttitan
+build g1 at Twoshort
+convert g1 to b1 at Silenttitan
+convert g1 to b1 at Twoshort
+build b2 at Silenttitan
+build b2 at Twoshort
+move b1 from Silenttitan to Sol (y3)
+move b1 from Twoshort to Yolonda (y2)
+build g1 at Silenttitan
+build b3 at Twoshort
+build b3 at Silenttitan
+sacrifice g3 at Twoshort; build b3 at Yolonda; build y1 at Twoshort; build y2 at Twoshort
+move b1 from Sol to Soul (y2)
+sacrifice y2 at Twoshort; move b1 from Yolonda to Yoyodyne (y3); move b2 from Twoshort to Soul
+convert b3 to r3 at Silenttitan
+convert b2 to r2 at Soul
+sacrifice g3 at Silenttitan; build b2 at Soul; build y2 at Silenttitan; build y3 at Silenttitan
+capture b2 at Soul
+sacrifice y2 at Silenttitan; move r3 from Silenttitan to Yoyodyne; move r3 from Yoyodyne to Soul
+sacrifice b3 at Yolonda; convert b2 to r2 at Soul; convert b3 to g3 at Twoshort; convert y1 to g1 at Twoshort
+sacrifice b2 at Silenttitan; convert y1 to r1 at Silenttitan; convert r3 to g3 at Soul
+capture b1 at Soul
+convert y3 to r3 at Silenttitan
+move r2 from Soul to Yoyodyne
+sacrifice r1 at Silenttitan; capture r2 at Soul
+move b1 from Soul to Yonder (y3)
+move r2 from Soul to Yonder
+move b1 from Yonder to Rover (r2)
+convert r3 to y3 at Silenttitan
+sacrifice g1 at Twoshort; build b2 at Rover
+move g3 from Soul to Yoyodyne
+move r2 from Yoyodyne to Grogar (g2)
+build g1 at Silenttitan
+build g1 at Twoshort
+build g2 at Yoyodyne
+move b1 from Yoyodyne to Goner (g2)
+build g3 at Silenttitan
+sacrifice g3 at Twoshort; build g3 at Twoshort; build b2 at Goner; build b3 at Rover
+convert g3 to b3 at Silenttitan
+convert b2 to y2 at Rover
+convert g1 to y1 at Silenttitan
+move b3 from Rover to Yonder
+sacrifice g3 at Yoyodyne; build g1 at Yoyodyne; build g3 at Silenttitan; build g3 at Silenttitan
+sacrifice g3 at Twoshort; build g3 at Twoshort; build b2 at Yonder; build b3 at Rover
+convert g3 to r3 at Silenttitan
+sacrifice y2 at Rover; move b3 from Yonder to Silenttitan; move b2 from Yonder to Silenttitan; catastrophe blue at Silenttitan
+move y3 from Silenttitan to Goner
+sacrifice b2 at Goner; convert b1 to y1 at Goner; convert b1 to r1 at Rover
+sacrifice y3 at Goner; move g1 from Yoyodyne to Goner; move g1 from Goner to Twoshort; move g2 from Yoyodyne to Sky (y2)
+sacrifice b3 at Rover; convert y1 to r1 at Goner; convert g3 to y3 at Twoshort
+sacrifice r2 at Yonder; capture g1 at Twoshort; capture y1 at Twoshort
+sacrifice y3 at Twoshort; move r1 from Rover to Twoshort; move r1 from Goner to Silenttitan; move r2 from Grogar to Silenttitan; catastrophe red at Silenttitan

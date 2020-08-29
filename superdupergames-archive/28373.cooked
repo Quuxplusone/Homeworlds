@@ -1,0 +1,60 @@
+Foksieloy (0, r1b3) g3-
+Magicjohn (1, b1g3) -b3
+build g1 at Foksieloy
+build b1 at Magicjohn
+convert g1 to b1 at Foksieloy
+convert b3 to y3 at Magicjohn
+build b2 at Foksieloy
+build b2 at Magicjohn
+convert b1 to y1 at Foksieloy
+move b2 from Magicjohn to Billieholiday (b2)
+move b2 from Foksieloy to Tibbers (g2)
+convert b1 to r1 at Magicjohn
+build b1 at Tibbers
+build y1 at Magicjohn
+convert b2 to g2 at Tibbers
+convert b2 to r2 at Billieholiday
+build g1 at Foksieloy
+move y1 from Magicjohn to Gatemouth (g2)
+move g1 from Foksieloy to Warwick (b2)
+build r1 at Magicjohn
+build y1 at Foksieloy
+build y2 at Gatemouth
+convert y1 to b1 at Foksieloy
+build r2 at Magicjohn
+build b2 at Tibbers
+move r2 from Magicjohn to Tibbers
+sacrifice g2 at Tibbers; build b3 at Foksieloy; build g1 at Warwick
+capture b2 at Tibbers
+convert b3 to y3 at Foksieloy
+capture b1 at Tibbers
+move b1 from Foksieloy to Warwick
+move r1 from Magicjohn to Warwick
+move y3 from Foksieloy to Warwick
+sacrifice r2 at Tibbers; capture b1 at Warwick; capture g1 at Warwick
+convert y3 to r3 at Warwick
+build b3 at Tibbers
+sacrifice r3 at Warwick; capture g1 at Warwick; capture b1 at Warwick; capture r1 at Warwick
+convert b3 to y3 at Tibbers
+convert g1 to y1 at Warwick
+build b3 at Tibbers
+move b1 from Warwick to Gnar (y3)
+convert b2 to g2 at Tibbers
+build y2 at Warwick
+sacrifice g2 at Tibbers; build y2 at Magicjohn; build r2 at Billieholiday
+build g1 at Warwick
+move b3 from Tibbers to Gnar
+build g1 at Warwick
+sacrifice r1 at Magicjohn; capture b1 at Gnar
+move g1 from Warwick to Magicjohn
+convert b1 to r1 at Tibbers
+sacrifice y2 at Warwick; move g1 from Warwick to Magicjohn; move g1 from Warwick to Magicjohn; catastrophe green at Magicjohn
+sacrifice y3 at Tibbers; move r1 from Tibbers to Foksieloy; move r2 from Billieholiday to Foksieloy; move r2 from Billieholiday to Foksieloy; catastrophe red at Foksieloy
+build y2 at Foksieloy
+convert y3 to g3 at Magicjohn
+move y1 from Warwick to Annie (g3)
+build y3 at Magicjohn
+build y3 at Annie
+sacrifice y2 at Gatemouth; move y1 from Gatemouth to Annie; move y2 from Magicjohn to Annie; catastrophe yellow at Annie
+sacrifice y2 at Foksieloy; move g3 from Foksieloy to Magicjohn; move r1 from Warwick to Magicjohn
+convert b3 to r3 at Gnar

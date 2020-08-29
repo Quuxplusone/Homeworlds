@@ -1,0 +1,38 @@
+Draw5Playall (0, r1b3) g3-
+Felix (1, b1y2) -g3
+build g1 at Draw5Playall
+build g1 at Felix
+convert g1 to y1 at Draw5Playall
+convert g1 to b1 at Felix
+build g1 at Draw5Playall
+build b1 at Felix
+move g1 from Draw5Playall to Icehouse (b2)
+move b1 from Felix to Wild (g3)
+build g1 at Icehouse
+build b2 at Wild
+convert g1 to y1 at Icehouse
+convert b2 to y2 at Wild
+build g1 at Draw5Playall
+build b2 at Wild
+convert g1 to r1 at Draw5Playall
+convert b2 to r2 at Wild
+build g1 at Draw5Playall
+build b2 at Wild
+build y1 at Icehouse
+move b2 from Wild to Erness (g2)
+build y2 at Draw5Playall
+build y3 at Wild
+move r1 from Draw5Playall to Icehouse
+move y2 from Wild to Erness
+build g1 at Icehouse
+build g2 at Felix
+build g2 at Icehouse
+sacrifice g3 at Felix; build g3 at Felix; build y3 at Wild; build y3 at Erness
+move g1 from Icehouse to Cool (b3)
+sacrifice g3 at Felix; build b2 at Wild; build b3 at Erness; build g3 at Felix
+sacrifice g1 at Icehouse; build g1 at Cool
+sacrifice y2 at Erness; move b3 from Erness to Draw5Playall; move y3 from Erness to Draw5Playall
+sacrifice y2 at Draw5Playall; move g1 from Cool to Felix; move g1 from Cool to Felix; catastrophe green at Felix
+sacrifice r2 at Wild; capture g3 at Draw5Playall; capture y1 at Draw5Playall
+sacrifice g2 at Icehouse; build g1 at Draw5Playall; build g1 at Draw5Playall
+catastrophe green at Draw5Playall

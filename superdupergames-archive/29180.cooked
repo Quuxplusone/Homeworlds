@@ -1,0 +1,41 @@
+Felix (0, b3y2) g3-
+Random56 (1, y1b2) -g3
+build g1 at Felix
+build g1 at Random56
+convert g1 to b1 at Felix
+build g1 at Random56
+build g1 at Felix
+move g1 from Random56 to Zal (b3)
+move g1 from Felix to Ichor (b1)
+convert g1 to r1 at Random56
+convert b1 to r1 at Felix
+build g1 at Zal
+build g2 at Felix
+build g2 at Random56
+convert g2 to b2 at Felix
+build g2 at Random56
+build g2 at Ichor
+build g3 at Zal
+build b1 at Felix
+convert g1 to y1 at Zal
+build g1 at Felix
+sacrifice g3 at Zal; build g3 at Zal; build y1 at Zal; build y2 at Zal
+convert g2 to y2 at Ichor
+convert g2 to b2 at Random56
+build y3 at Ichor
+move y1 from Zal to Hco3 (g2)
+move y2 from Ichor to Maia (g2)
+build y3 at Hco3
+build y3 at Maia
+sacrifice y3 at Hco3; move b2 from Random56 to Zal; move b2 from Zal to Ichor; move b2 from Ichor to Felix; catastrophe blue at Felix
+sacrifice y2 at Maia; move g1 from Ichor to Zal; move g1 from Felix to Zal; catastrophe green at Zal
+move y1 from Hco3 to Pco2 (g3)
+move y3 from Maia to Pco2
+build g1 at Random56
+sacrifice y3 at Ichor; move g3 from Felix to Pco2; move g3 from Pco2 to Random56; move y3 from Pco2 to Random56; catastrophe green at Random56
+move y1 from Zal to Random56
+convert y3 to r3 at Random56
+build y2 at Pco2
+capture r1 at Random56
+move y1 from Pco2 to Random56
+convert r3 to y3 at Random56; catastrophe yellow at Random56

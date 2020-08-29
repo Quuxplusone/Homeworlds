@@ -1,0 +1,43 @@
+Bhorner (0, r2b1) g3-
+Goulo (1, r3b2) -g3
+build g1 at Bhorner
+build g1 at Goulo
+convert g1 to b1 at Bhorner
+convert g1 to y1 at Goulo
+build b1 at Bhorner
+build y1 at Goulo
+convert b1 to y1 at Bhorner
+build y2 at Goulo
+build y2 at Bhorner
+convert y1 to g1 at Goulo
+build b1 at Bhorner
+convert y2 to b2 at Goulo
+move b1 from Bhorner to Xmas (g3)
+move b2 from Goulo to Verdeto (g1)
+move y2 from Bhorner to Xmas
+convert g1 to r1 at Goulo
+build g1 at Bhorner
+build g1 at Goulo
+convert g1 to r1 at Bhorner
+move g1 from Goulo to Verdeto
+sacrifice g3 at Bhorner; build b2 at Xmas; build b3 at Bhorner; build b3 at Xmas
+build b3 at Verdeto
+sacrifice y2 at Xmas; move b1 from Xmas to Verdeto; move b2 from Xmas to Verdeto; catastrophe blue at Verdeto
+build y1 at Goulo
+convert b3 to g3 at Bhorner
+build y2 at Goulo
+build y2 at Bhorner
+move y1 from Goulo to Verdeto
+move y1 from Bhorner to Xmas
+move y1 from Goulo to Smeraldeto (g1)
+build r1 at Bhorner
+sacrifice g3 at Goulo; build y2 at Smeraldeto; build y3 at Verdeto; build y3 at Goulo
+build y3 at Bhorner
+build g2 at Verdeto
+move y3 from Bhorner to Tree (g3)
+move r1 from Goulo to Verdeto
+build g2 at Bhorner
+sacrifice y3 at Verdeto; move r1 from Verdeto to Tree; move r1 from Tree to Bhorner; move g2 from Verdeto to Goulo; catastrophe red at Bhorner
+build y3 at Bhorner
+convert g2 to r2 at Goulo
+sacrifice y3 at Tree; move y2 from Bhorner to Goulo; move y1 from Xmas to Bhorner; move y1 from Bhorner to Goulo; catastrophe yellow at Goulo

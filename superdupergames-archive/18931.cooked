@@ -1,0 +1,47 @@
+Silenttitan (0, r2b3) g3-
+Lorgar (1, b1g2) -y3
+build g1 at Silenttitan
+build y1 at Lorgar
+convert g1 to y1 at Silenttitan
+convert y1 to b1 at Lorgar
+build y1 at Silenttitan
+build b1 at Lorgar
+move y1 from Silenttitan to Sox (y1)
+build y2 at Lorgar
+build y2 at Silenttitan
+move y2 from Lorgar to Madyamika (g3)
+move y2 from Silenttitan to Sax (g1)
+move y2 from Madyamika to Sax
+sacrifice g3 at Silenttitan; build y2 at Sax; build y3 at Sox; build y3 at Silenttitan
+convert b1 to r1 at Lorgar
+sacrifice y3 at Sox; move y2 from Sax to Tic (g3); move y2 from Sax to Tac (g3); move y1 from Sox to Toe (b3)
+convert y3 to g3 at Lorgar
+move y2 from Tac to Fee (b2)
+move y2 from Sax to Tic
+convert y3 to g3 at Silenttitan
+sacrifice r1 at Lorgar; capture y2 at Tic
+sacrifice g3 at Silenttitan; build y1 at Toe; build y3 at Fee; build y3 at Silenttitan
+build b1 at Lorgar
+convert y1 to r1 at Toe
+sacrifice b1 at Lorgar; convert y2 to r2 at Tic
+convert y3 to g3 at Silenttitan
+convert b1 to r1 at Lorgar
+move y3 from Fee to Tic
+build y1 at Tic
+sacrifice r1 at Toe; capture r2 at Tic
+build y2 at Tic; catastrophe yellow at Tic
+build y1 at Silenttitan
+build g1 at Lorgar
+convert y2 to g2 at Fee
+build r1 at Lorgar
+sacrifice g2 at Fee; build y2 at Toe; build y2 at Toe
+convert g3 to y3 at Lorgar
+sacrifice y2 at Toe; move y2 from Toe to Lorgar; move y1 from Toe to Lorgar
+convert y3 to b3 at Lorgar
+sacrifice r2 at Tic; capture r1 at Lorgar; capture r1 at Lorgar
+build g1 at Lorgar
+convert y1 to g1 at Lorgar; catastrophe green at Lorgar
+convert b3 to g3 at Lorgar
+convert r1 to g1 at Lorgar
+convert g3 to r3 at Lorgar
+sacrifice g3 at Silenttitan; build r1 at Lorgar; build r1 at Lorgar; build y1 at Silenttitan; catastrophe red at Lorgar

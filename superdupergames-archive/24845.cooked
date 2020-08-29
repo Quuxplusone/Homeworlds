@@ -1,0 +1,68 @@
+Onepagewars (0, r2b1) g3-
+Wil (1, y3g1) -b3
+build g1 at Onepagewars
+build b1 at Wil
+convert g1 to r1 at Onepagewars
+build b1 at Wil
+build r1 at Onepagewars
+move b1 from Wil to G2 (g2)
+convert r1 to y1 at Onepagewars
+build b2 at G2
+build y1 at Onepagewars
+convert b2 to r2 at G2
+build g1 at Onepagewars
+build b2 at G2
+move y1 from Onepagewars to Ilikedogs (g3)
+convert b2 to y2 at G2
+build y1 at Onepagewars
+build y2 at G2
+build y2 at Ilikedogs
+move y2 from G2 to B3 (b3)
+move y1 from Ilikedogs to Idislikecats (g2)
+build b2 at G2
+build y3 at Ilikedogs
+build y3 at G2
+convert g3 to b3 at Onepagewars
+move b2 from G2 to B3
+move b3 from Onepagewars to Ilikedogs
+convert b2 to g2 at B3
+build b2 at Ilikedogs
+convert b3 to r3 at Wil
+move r1 from Onepagewars to Ilikedogs
+move g2 from B3 to Onepagewars
+move b3 from Ilikedogs to Onepagewars
+build g1 at Onepagewars
+capture g2 at Onepagewars
+build g3 at Onepagewars; catastrophe green at Onepagewars
+convert y3 to r3 at Ilikedogs
+convert y3 to g3 at G2
+build y3 at Ilikedogs
+sacrifice g3 at G2; build y3 at B3; build r1 at G2; build b2 at Wil
+move r3 from Ilikedogs to G2
+build r1 at G2; catastrophe red at G2
+build r1 at Ilikedogs
+build r1 at Wil
+convert y1 to g1 at Onepagewars
+convert y2 to g2 at B3
+move r1 from Ilikedogs to Idislikecats
+move r1 from Wil to G2
+build r2 at Idislikecats
+convert y3 to g3 at B3
+build y1 at Onepagewars
+convert r3 to g3 at Wil
+build g1 at Onepagewars
+convert b2 to r2 at Wil
+build r3 at Ilikedogs
+sacrifice g3 at B3; build g3 at B3; build r3 at Wil; build r3 at G2
+sacrifice y2 at Ilikedogs; move r1 from Idislikecats to Wil; move r2 from Idislikecats to Wil; catastrophe red at Wil
+sacrifice g3 at B3; build g3 at B3; build b2 at G2; build b2 at Wil
+build y2 at Ilikedogs
+sacrifice b2 at G2; convert r3 to y3 at G2; convert y2 to r2 at G2
+convert b3 to r3 at Onepagewars
+convert b2 to r2 at Wil
+build y2 at Idislikecats
+sacrifice g3 at B3; build g3 at B3; build y2 at G2; build b2 at G2
+move g1 from Onepagewars to Ilikedogs
+move r1 from G2 to B3
+move y2 from Idislikecats to Ilikewolves (r3)
+sacrifice y3 at G2; move r2 from G2 to B3; move r2 from B3 to Onepagewars; move r1 from B3 to Onepagewars; catastrophe red at Onepagewars

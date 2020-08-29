@@ -1,0 +1,53 @@
+Trydnt (0, b2y1) g3-
+T0Nk5 (1, b3r2) -g3
+build g1 at Trydnt
+build g1 at T0Nk5
+convert g1 to y1 at Trydnt
+convert g1 to y1 at T0Nk5
+build y2 at Trydnt
+build y2 at T0Nk5
+move y1 from Trydnt to G3 (g3)
+move y1 from T0Nk5 to Bert (g1)
+build g1 at Trydnt
+build g1 at T0Nk5
+build g2 at Trydnt
+build g2 at T0Nk5
+move g2 from Trydnt to B3 (b3)
+move y1 from Bert to Mozart (b2)
+pass
+move y1 from Mozart to Bert (g1)
+pass
+convert g1 to r1 at T0Nk5
+convert g1 to r1 at Trydnt
+move r1 from T0Nk5 to Mozart (b1)
+move y2 from Trydnt to B3
+convert g2 to b2 at T0Nk5
+build g1 at B3
+move b2 from T0Nk5 to Bert
+move g2 from B3 to Mozart
+build b1 at Bert
+sacrifice r1 at Trydnt; capture r1 at Mozart
+move b1 from Bert to Arnold (y3)
+build g1 at Mozart
+build g2 at T0Nk5
+sacrifice y2 at B3; move g1 from Mozart to T0Nk5; move g2 from Mozart to T0Nk5; catastrophe green at T0Nk5
+build y2 at Bert
+build g1 at Trydnt
+convert y2 to g2 at Bert
+sacrifice g3 at Trydnt; build g2 at B3; build g2 at Trydnt; build g3 at Trydnt
+build y2 at Bert
+move g2 from Trydnt to Arnold
+move y2 from Bert to Arnold
+sacrifice g3 at Trydnt; build g3 at Trydnt; build g3 at Arnold; build r1 at Mozart
+build y2 at Bert
+sacrifice r1 at Mozart; capture y2 at Arnold
+move g2 from Bert to T0Nk5
+sacrifice y2 at Arnold; move g3 from Arnold to Bert; move g2 from Arnold to Mozart
+build y2 at T0Nk5
+sacrifice y1 at G3; move g3 from Bert to T0Nk5
+build g3 at T0Nk5
+capture g3 at T0Nk5
+sacrifice y2 at Bert; move y1 from Bert to Arnold; move b2 from Bert to Arnold
+capture y2 at T0Nk5
+build g1 at T0Nk5; catastrophe green at T0Nk5
+sacrifice g2 at B3; build y1 at T0Nk5; build y2 at T0Nk5; catastrophe yellow at T0Nk5

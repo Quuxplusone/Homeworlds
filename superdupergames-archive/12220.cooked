@@ -1,0 +1,41 @@
+Madwuher (0, r2b3) g3-
+Agentofchaos (1, g1b2) -y3
+build g1 at Madwuher
+build y1 at Agentofchaos
+build g1 at Madwuher
+move y1 from Agentofchaos to Leviathan (g3)
+convert g3 to y3 at Madwuher
+build y1 at Leviathan
+move g1 from Madwuher to Edora (b1)
+build y1 at Agentofchaos
+build g2 at Madwuher
+build y2 at Agentofchaos
+build g2 at Edora
+convert y3 to g3 at Agentofchaos
+build y2 at Madwuher
+build g2 at Agentofchaos
+sacrifice y2 at Madwuher; move g1 from Edora to Leviathan; move g1 from Leviathan to Agentofchaos; catastrophe green at Agentofchaos
+convert y2 to r2 at Agentofchaos
+build y2 at Madwuher
+convert y1 to g1 at Agentofchaos
+move g2 from Madwuher to Bologna (b1)
+build g1 at Agentofchaos
+build g2 at Madwuher
+build r1 at Agentofchaos
+build g3 at Edora
+convert g1 to y1 at Agentofchaos
+convert g2 to r2 at Madwuher
+build g1 at Agentofchaos
+sacrifice g3 at Edora; build g2 at Madwuher; build g3 at Edora; build g3 at Bologna
+build r1 at Agentofchaos
+move y2 from Madwuher to Edora
+build y2 at Agentofchaos
+sacrifice g3 at Edora; build g3 at Edora; build y2 at Madwuher; build y3 at Edora
+move y1 from Leviathan to Cryoferno (b2)
+move g3 from Edora to Agentofchaos
+move g1 from Agentofchaos to Leviathan
+sacrifice y2 at Edora; move y2 from Madwuher to Bologna; move r2 from Madwuher to Bologna
+move r1 from Agentofchaos to Leviathan
+sacrifice g3 at Bologna; build g3 at Bologna; build y2 at Edora; build y3 at Bologna
+move g1 from Leviathan to Cryoferno
+sacrifice r2 at Bologna; capture r2 at Agentofchaos; capture y2 at Agentofchaos

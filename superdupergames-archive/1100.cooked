@@ -1,0 +1,40 @@
+Tendrecube (0, g3b1) y3-
+Andylooney (1, b1g2) -y3
+build y1 at Tendrecube
+build y1 at Andylooney
+convert y1 to g1 at Tendrecube
+convert y1 to g1 at Andylooney
+build y1 at Tendrecube
+move g1 from Andylooney to Clampett (y3)
+move y1 from Tendrecube to Alias (g2)
+build y1 at Andylooney
+move y1 from Alias to Mythril (g3)
+move y1 from Andylooney to Garden (g3)
+move g1 from Tendrecube to Atomium (y2)
+build y1 at Andylooney
+build y2 at Mythril
+build y2 at Garden
+move g1 from Atomium to Tendrecube
+convert y1 to r1 at Andylooney
+build g1 at Tendrecube
+build g2 at Clampett
+convert g1 to r1 at Tendrecube
+move y1 from Garden to Oasis (g2)
+move g1 from Tendrecube to Atomium (b2)
+move g1 from Clampett to Plugh (y2)
+build g1 at Atomium
+build y1 at Garden
+move y2 from Mythril to Alias (b2)
+sacrifice g2 at Clampett; build g2 at Plugh; build y3 at Oasis
+convert y2 to r2 at Alias
+build y2 at Andylooney
+build r1 at Tendrecube
+build r2 at Andylooney
+move r1 from Tendrecube to Oasis
+sacrifice r1 at Andylooney; capture r1 at Oasis
+sacrifice y3 at Tendrecube; move r2 from Alias to Mythril; move r2 from Mythril to Andylooney; move y1 from Mythril to Andylooney
+convert y3 to g3 at Andylooney
+build y3 at Andylooney
+sacrifice y2 at Garden; move y1 from Garden to Andylooney; move y3 from Oasis to Tendrecube; catastrophe yellow at Andylooney
+convert r2 to y2 at Andylooney
+sacrifice r2 at Andylooney; capture y2 at Andylooney; capture r1 at Tendrecube

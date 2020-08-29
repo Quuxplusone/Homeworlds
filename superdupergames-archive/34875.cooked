@@ -1,0 +1,36 @@
+Wil (0, y2b1) g3-
+Ts52 (1, y3b1) -g3
+build g1 at Wil
+build g1 at Ts52
+convert g1 to b1 at Wil
+build g1 at Ts52
+build b2 at Wil
+move g1 from Ts52 to Gonzo (b2)
+move b1 from Wil to R3 (r3)
+convert g1 to y1 at Ts52
+sacrifice g3 at Wil; build b2 at R3; build b3 at R3; build b3 at Wil
+build y1 at Ts52
+convert b3 to g3 at Wil
+move y1 from Ts52 to Gonzo
+convert b3 to y3 at R3
+build g1 at Ts52
+move b2 from R3 to Y2 (y2)
+sacrifice g3 at Ts52; build y1 at Gonzo; build y2 at Gonzo; build y3 at Ts52
+sacrifice g3 at Wil; build b3 at Wil; build b3 at Y2; build b3 at R3
+convert y3 to g3 at Ts52
+move b3 from Y2 to Y3 (y3)
+build g1 at Gonzo
+sacrifice b2 at Wil; convert b3 to r3 at R3; convert b3 to g3 at Y3
+convert y2 to r2 at Gonzo
+sacrifice g3 at Y3; build b2 at Wil; build b3 at Y2; build b3 at Y2
+build y2 at Gonzo
+convert b3 to g3 at Wil
+build y3 at Ts52
+convert b3 to g3 at Y2
+build r1 at Gonzo
+build b3 at Y2
+build g2 at Gonzo
+move r3 from R3 to G2 (g2)
+move y3 from Ts52 to Kermit (g2)
+move b1 from R3 to G2
+move y2 from Gonzo to Grover (b3)

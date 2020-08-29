@@ -1,0 +1,39 @@
+Calavera (0, y2b3) g3-
+Ts52 (1, b2g1) -y3
+build g1 at Calavera
+build y1 at Ts52
+build g1 at Calavera
+build y1 at Ts52
+move g1 from Calavera to Rillanon (y1)
+move y1 from Ts52 to Oscar (g3)
+move g1 from Rillanon to Krondor (b3)
+build y1 at Oscar
+build g2 at Krondor
+build y2 at Ts52
+convert g2 to y2 at Krondor
+convert y2 to r2 at Ts52
+convert g1 to r1 at Calavera
+move y1 from Ts52 to Kermit (g3)
+build g1 at Krondor
+build y2 at Ts52
+build g2 at Krondor
+convert y2 to g2 at Ts52
+sacrifice y2 at Krondor; move g1 from Krondor to Ts52; move g1 from Krondor to Ts52; catastrophe green at Ts52
+convert r2 to g2 at Ts52
+build g1 at Krondor
+build g1 at Ts52
+convert g2 to y2 at Krondor
+convert g1 to r1 at Ts52
+build g1 at Calavera
+build y2 at Kermit
+build y3 at Krondor
+build y3 at Ts52
+convert g1 to b1 at Calavera
+build g1 at Ts52
+move b1 from Calavera to Crydee (g1)
+move g2 from Ts52 to Oscar
+move y3 from Krondor to Bastyra (r1)
+build g2 at Ts52
+sacrifice g3 at Calavera; build r2 at Calavera; build b1 at Crydee; build b1 at Crydee
+move g2 from Ts52 to Earth (g3)
+sacrifice y3 at Bastyra; move b1 from Crydee to Ts52; move b1 from Crydee to Ts52; move b1 from Crydee to Ts52; catastrophe blue at Ts52

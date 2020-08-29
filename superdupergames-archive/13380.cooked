@@ -1,0 +1,29 @@
+Jesse (0, b3y1) g3-
+Skykingt13 (1, b1y2) -g3
+build g1 at Jesse
+build g1 at Skykingt13
+move g1 from Jesse to Time (b2)
+move g1 from Skykingt13 to Space (b3)
+build g1 at Time
+build g2 at Space
+build g2 at Jesse
+convert g2 to y2 at Space
+convert g1 to y1 at Time
+build g1 at Skykingt13
+build y1 at Time
+build g2 at Space
+move y1 from Time to Energy (g3)
+convert g2 to r2 at Space
+sacrifice g2 at Jesse; build y2 at Energy; build y3 at Time
+build y3 at Space
+convert y1 to r1 at Time
+convert y2 to g2 at Space
+build g2 at Jesse
+build r1 at Space
+sacrifice g3 at Jesse; build g2 at Time; build g3 at Jesse; build r1 at Time
+move r2 from Space to Sky (y2)
+sacrifice g3 at Jesse; build g3 at Jesse; build y1 at Time; build y3 at Energy
+sacrifice g3 at Skykingt13; build r2 at Sky; build r2 at Space; build r3 at Sky
+sacrifice y2 at Energy; move y3 from Energy to Skykingt13; move g1 from Time to Will (b3)
+sacrifice y3 at Space; move r3 from Sky to Jesse; move r2 from Sky to Jesse
+sacrifice r1 at Time; capture g1 at Skykingt13

@@ -1,0 +1,44 @@
+Scottobear (0, b2g3) y3-
+Zoltar (1, b1r2) -g3
+build y1 at Scottobear
+build g1 at Zoltar
+convert y1 to r1 at Scottobear
+convert g1 to y1 at Zoltar
+move r1 from Scottobear to Xx (g1)
+build g1 at Zoltar
+build r1 at Xx
+build g1 at Zoltar
+build y1 at Scottobear
+move g1 from Zoltar to Bloohoohoo (b3)
+move y1 from Scottobear to Xx
+build g2 at Bloohoohoo
+move r1 from Xx to Bloohoohoo
+build g2 at Bloohoohoo
+capture g1 at Bloohoohoo
+convert g2 to r2 at Bloohoohoo
+build r1 at Bloohoohoo
+sacrifice r2 at Bloohoohoo; capture r1 at Bloohoohoo; capture r1 at Bloohoohoo
+build r2 at Xx
+capture g1 at Bloohoohoo
+move r2 from Xx to Bloohoohoo
+sacrifice r1 at Bloohoohoo; capture r2 at Bloohoohoo
+build r1 at Xx
+sacrifice g3 at Zoltar; build g2 at Bloohoohoo; build g2 at Zoltar; build g3 at Zoltar
+move r1 from Xx to Scottobear
+sacrifice y1 at Zoltar; move g2 from Bloohoohoo to Xx
+build y1 at Scottobear
+sacrifice g2 at Zoltar; build g2 at Xx; build g3 at Bloohoohoo
+move r1 from Xx to Scottobear
+sacrifice r1 at Bloohoohoo; capture y1 at Xx
+build r1 at Scottobear
+convert g3 to y3 at Bloohoohoo
+move r1 from Scottobear to Xx
+sacrifice g3 at Zoltar; build g3 at Zoltar; build g3 at Bloohoohoo; build y1 at Xx
+move r1 from Scottobear to Xx
+sacrifice r2 at Bloohoohoo; capture r1 at Xx; capture r1 at Xx
+convert y3 to r3 at Scottobear
+sacrifice y3 at Bloohoohoo; move r1 from Xx to Scottobear; move r1 from Xx to Scottobear; move g2 from Xx to Scottobear; catastrophe red at Scottobear
+build y2 at Scottobear
+convert g3 to r3 at Bloohoohoo
+convert y2 to r2 at Scottobear
+sacrifice r3 at Bloohoohoo; capture y1 at Scottobear; capture r2 at Scottobear

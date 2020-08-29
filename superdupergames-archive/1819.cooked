@@ -1,0 +1,29 @@
+Sketchwick (0, r1b2) g3-
+Jeep (1, y1b3) -g3
+build g1 at Sketchwick
+build g1 at Jeep
+convert g1 to y1 at Sketchwick
+build g1 at Jeep
+build g1 at Sketchwick
+convert g1 to y1 at Jeep
+build y2 at Sketchwick
+build y2 at Jeep
+move y1 from Sketchwick to Gob (g3)
+move y1 from Jeep to Stopper (g2)
+sacrifice g3 at Sketchwick; build y2 at Sketchwick; build y3 at Sketchwick; build y3 at Gob
+sacrifice y2 at Jeep; move y1 from Stopper to Gob; move y1 from Gob to Sketchwick; catastrophe yellow at Sketchwick
+build y1 at Gob
+build g1 at Jeep
+build g2 at Sketchwick
+convert g3 to r3 at Jeep
+convert g1 to r1 at Sketchwick
+move g1 from Jeep to Stopper (y2)
+move y1 from Gob to Sketchwick
+build g1 at Stopper
+build y2 at Sketchwick
+convert r3 to y3 at Jeep
+build y2 at Sketchwick
+build g2 at Jeep
+build y3 at Gob
+move g1 from Stopper to Gob
+sacrifice y2 at Sketchwick; move y3 from Gob to Stopper; move y3 from Stopper to Jeep

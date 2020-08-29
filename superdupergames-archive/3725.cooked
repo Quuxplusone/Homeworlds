@@ -1,0 +1,49 @@
+Twoshort (0, b2r3) b3-
+Zoltar (1, y1b2) -g3
+convert b3 to g3 at Twoshort
+build g1 at Zoltar
+build g1 at Twoshort
+convert g1 to y1 at Zoltar
+build g1 at Twoshort
+build y1 at Zoltar
+convert g3 to y3 at Twoshort
+convert y1 to g1 at Zoltar
+move g1 from Twoshort to Bonanza (b1)
+build g2 at Zoltar
+build g2 at Bonanza
+move g1 from Zoltar to Nix (y3)
+convert g2 to y2 at Bonanza
+move g2 from Zoltar to Hydra (y3)
+convert y3 to g3 at Twoshort
+build g2 at Zoltar
+sacrifice g3 at Twoshort; build g2 at Bonanza; build g3 at Twoshort; build g3 at Twoshort
+move g2 from Hydra to Bonanza
+convert g3 to y3 at Twoshort
+sacrifice g2 at Zoltar; build g2 at Bonanza; build g3 at Zoltar; catastrophe green at Bonanza
+move g1 from Twoshort to Bonanza
+build g1 at Nix
+build g2 at Twoshort
+move g1 from Nix to Hydra (y1)
+build g2 at Bonanza
+move y1 from Zoltar to Charon (b3)
+move g2 from Bonanza to Charon
+sacrifice g3 at Zoltar; build g2 at Hydra; build g3 at Nix; build y2 at Charon
+convert g2 to r2 at Twoshort
+sacrifice g3 at Nix; build g2 at Zoltar; build g3 at Nix; build y2 at Charon
+build y3 at Bonanza
+convert g2 to r2 at Zoltar
+sacrifice r2 at Twoshort; capture y2 at Charon; capture y2 at Charon
+move g3 from Nix to Bonanza
+sacrifice y3 at Bonanza; move y2 from Bonanza to Charon; move y2 from Charon to Zoltar; move y2 from Charon to Zoltar
+move g1 from Hydra to Twoshort
+sacrifice g3 at Twoshort; build y3 at Twoshort; build g2 at Bonanza; build g3 at Charon
+sacrifice g3 at Bonanza; build g3 at Zoltar; build r1 at Zoltar; build r1 at Zoltar
+sacrifice y3 at Twoshort; move g1 from Bonanza to Charon; move g1 from Charon to Zoltar; move g2 from Charon to Zoltar; catastrophe green at Zoltar
+capture y2 at Zoltar
+convert y2 to r2 at Zoltar; catastrophe red at Zoltar
+sacrifice g1 at Twoshort; build y2 at Charon
+move g3 from Charon to Zoltar
+sacrifice g1 at Nix; build y3 at Charon; catastrophe yellow at Charon
+convert g2 to r2 at Bonanza
+move g2 from Hydra to Twoshort
+sacrifice r2 at Bonanza; capture g2 at Twoshort; capture y2 at Zoltar

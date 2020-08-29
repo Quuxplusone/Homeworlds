@@ -1,0 +1,50 @@
+Ts52 (0, y1b2) g3-
+Babamots (1, b3r1) -g3
+build g1 at Ts52
+build g1 at Babamots
+convert g1 to y1 at Ts52
+convert g1 to y1 at Babamots
+build y2 at Ts52
+build y2 at Babamots
+move y1 from Ts52 to Kermit (g3)
+move y1 from Babamots to Genesis (g2)
+build g1 at Ts52
+build g1 at Babamots
+convert g1 to r1 at Ts52
+convert g1 to r1 at Babamots
+build r2 at Ts52
+build r2 at Babamots
+move r2 from Ts52 to Kermit
+move r2 from Babamots to Genesis
+build g1 at Ts52
+build g1 at Babamots
+convert g1 to b1 at Ts52
+convert g1 to b1 at Babamots
+build g1 at Ts52
+build g1 at Babamots
+move b1 from Ts52 to Kermit
+sacrifice g3 at Babamots; build y2 at Babamots; build y3 at Genesis; build y3 at Babamots
+build y3 at Kermit
+move y2 from Babamots to Risa (g2)
+sacrifice g3 at Ts52; build r2 at Kermit; build r3 at Kermit; build r3 at Ts52
+sacrifice y2 at Babamots; move r1 from Babamots to Risa; move r1 from Risa to Kermit; catastrophe red at Kermit
+convert y3 to r3 at Kermit
+move b1 from Babamots to Genesis
+build g1 at Ts52
+convert y3 to g3 at Genesis
+move g1 from Ts52 to Gonzo (b3)
+sacrifice g3 at Genesis; build y2 at Babamots; build y3 at Risa; build y3 at Genesis
+convert r3 to g3 at Ts52
+move y3 from Risa to Orion (g3)
+build g2 at Gonzo
+build b1 at Genesis
+move y2 from Ts52 to Gonzo
+move b1 from Genesis to Orion
+sacrifice g3 at Ts52; build g3 at Ts52; build r1 at Kermit; build r2 at Ts52
+build b2 at Orion
+move r3 from Kermit to Risa
+sacrifice y2 at Risa; move b1 from Orion to Ts52; move b2 from Orion to Ts52
+capture b2 at Ts52
+sacrifice g1 at Babamots; build b2 at Ts52; catastrophe blue at Ts52
+sacrifice g3 at Ts52; build g1 at Gonzo; build g3 at Ts52; build y2 at Kermit
+sacrifice y3 at Babamots; move y1 from Genesis to Ts52; move y3 from Genesis to Ts52; move y3 from Orion to Ts52; catastrophe yellow at Ts52

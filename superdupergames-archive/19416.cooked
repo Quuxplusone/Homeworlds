@@ -1,0 +1,93 @@
+Ts52 (0, y1b2) g3-
+Fnord (1, b3y2) -g3
+build g1 at Ts52
+build g1 at Fnord
+convert g1 to y1 at Ts52
+move g1 from Fnord to Eris (b1)
+build g1 at Ts52
+build g1 at Eris
+build g2 at Ts52
+build g2 at Eris
+move g2 from Ts52 to Grover (b3)
+convert g2 to r2 at Eris
+convert g1 to r1 at Ts52
+build g1 at Fnord
+build g2 at Grover
+convert g1 to y1 at Eris
+convert g2 to y2 at Grover
+build r1 at Eris
+build r1 at Ts52
+build y2 at Eris
+build y3 at Grover
+convert y2 to g2 at Eris
+move y2 from Grover to Robin (g1)
+sacrifice y1 at Eris; move r2 from Eris to Fnord
+build g2 at Grover
+convert g1 to y1 at Fnord
+build y2 at Robin
+build r2 at Fnord
+move y3 from Grover to Eris
+sacrifice g2 at Eris; build r2 at Eris; build r3 at Eris
+sacrifice r1 at Ts52; capture r3 at Eris
+build r1 at Eris; catastrophe red at Eris
+convert y3 to r3 at Eris
+sacrifice y1 at Fnord; move g1 from Eris to Discordia (b3)
+move y1 from Ts52 to Grover
+build g1 at Discordia
+convert g2 to r2 at Grover
+convert g1 to y1 at Discordia
+build y3 at Grover
+build y3 at Discordia
+convert y3 to g3 at Grover
+build g1 at Discordia
+build y3 at Grover
+convert y3 to r3 at Discordia
+build y3 at Grover
+build y3 at Discordia
+move y3 from Grover to Eris
+build r1 at Discordia
+sacrifice g2 at Grover; build r1 at Eris; build r3 at Grover
+sacrifice y1 at Discordia; move r3 from Discordia to Robin
+sacrifice y2 at Robin; move y2 from Robin to Grover; move r3 from Grover to Gonzo (b1)
+convert g1 to b1 at Discordia
+move y2 from Grover to Gonzo
+build b2 at Discordia
+sacrifice g3 at Grover; build y1 at Gonzo; build y2 at Eris; build g1 at Ts52
+build g2 at Discordia
+sacrifice y3 at Grover; move y2 from Eris to Discordia; move y1 from Gonzo to Discordia; move y2 from Gonzo to Discordia; catastrophe yellow at Discordia
+convert g1 to y1 at Discordia
+move g1 from Ts52 to Grover
+build y2 at Discordia
+move r3 from Eris to Discordia
+build b2 at Discordia; catastrophe blue at Discordia
+move g1 from Grover to Eris
+build g1 at Fnord
+build g2 at Ts52
+move g1 from Fnord to Robin
+build g2 at Eris
+build r1 at Robin
+build r3 at Eris
+convert r2 to y2 at Fnord
+move g2 from Eris to Grover
+build r2 at Fnord
+sacrifice g3 at Ts52; build g2 at Eris; build g3 at Grover; build g3 at Ts52
+convert r2 to b2 at Fnord
+sacrifice g3 at Grover; build g3 at Grover; build r2 at Gonzo; build y1 at Eris
+move b2 from Fnord to Robin
+build y2 at Grover
+convert r3 to y3 at Robin
+move y1 from Grover to Gonzo
+build b1 at Robin
+sacrifice y2 at Grover; move y1 from Gonzo to Fnord; move y1 from Eris to Fnord; catastrophe yellow at Fnord
+build y1 at Robin
+sacrifice y3 at Eris; move g2 from Grover to Robin; move g1 from Eris to Grover; move g1 from Grover to Robin; catastrophe green at Robin
+build r1 at Fnord
+convert r2 to y2 at Grover
+convert r2 to y2 at Fnord
+build y1 at Grover
+build r2 at Fnord
+sacrifice y2 at Grover; move r1 from Eris to Fnord; move r2 from Gonzo to Fnord; catastrophe red at Fnord
+build g1 at Fnord
+sacrifice y1 at Grover; move r3 from Eris to Fnord
+move g3 from Fnord to Sink (b2)
+sacrifice r3 at Gonzo; capture g1 at Fnord; capture y2 at Fnord

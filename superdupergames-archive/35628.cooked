@@ -1,0 +1,22 @@
+Trydnt (0, y2b2) g3-
+Dlwillson (1, r3b1) -g3
+build g1 at Trydnt
+build g1 at Dlwillson
+move g1 from Trydnt to G1 (g1)
+convert g1 to y1 at Dlwillson
+build g1 at Trydnt
+build g2 at Dlwillson
+build g2 at G1
+build y1 at Dlwillson
+move g1 from Trydnt to B3 (b3)
+convert y1 to b1 at Dlwillson
+sacrifice g2 at G1; build g2 at B3; build g2 at Trydnt
+move b1 from Dlwillson to Trydnt
+move g2 from Trydnt to Dlwillson
+capture g2 at Dlwillson
+build g3 at Trydnt
+sacrifice g2 at Dlwillson; build b1 at Trydnt; build b2 at Trydnt; catastrophe blue at Trydnt
+convert g2 to r2 at B3
+move g3 from Dlwillson to Trydnt
+sacrifice g3 at Trydnt; build g2 at B3; build g2 at B3; build r1 at B3
+sacrifice g2 at Dlwillson; build g2 at Trydnt; build g3 at Trydnt; catastrophe green at Trydnt

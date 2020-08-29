@@ -1,0 +1,58 @@
+Goulo (0, r3b1) g3-
+Adambadura (1, g3b2) -y3
+build g1 at Goulo
+build y1 at Adambadura
+convert g1 to y1 at Goulo
+convert y1 to r1 at Adambadura
+build g1 at Goulo
+build y1 at Adambadura
+convert g1 to r1 at Goulo
+move y1 from Adambadura to Shipyard (g1)
+build g1 at Goulo
+build y1 at Adambadura
+build y2 at Goulo
+build y2 at Shipyard
+move y1 from Goulo to Citrono (y2)
+convert y1 to g1 at Adambadura
+move g1 from Goulo to Rubeno (r2)
+move y2 from Shipyard to Rubeno
+build g2 at Goulo
+capture g1 at Rubeno
+move g2 from Goulo to Citrono
+build y1 at Adambadura
+build y3 at Goulo
+build y3 at Rubeno
+build g2 at Citrono
+build g2 at Rubeno
+move g2 from Citrono to Mirteleto (b1)
+convert g1 to b1 at Adambadura
+build g1 at Mirteleto
+build b2 at Adambadura
+build g3 at Citrono
+move b2 from Adambadura to Shipyard
+sacrifice y2 at Goulo; move g1 from Mirteleto to Adambadura; move g2 from Mirteleto to Adambadura
+sacrifice y3 at Rubeno; move y1 from Shipyard to Citrono; move y1 from Adambadura to Shipyard; move y1 from Shipyard to Citrono; catastrophe yellow at Citrono
+build y1 at Goulo
+build g2 at Rubeno
+build g3 at Adambadura; catastrophe green at Adambadura
+move g2 from Rubeno to Highway (g3)
+move r1 from Goulo to Mirtelo (b2)
+build y1 at Rubeno
+move y3 from Goulo to Rubeno
+sacrifice y2 at Rubeno; move g2 from Rubeno to Goulo; move g1 from Rubeno to Goulo
+move y3 from Rubeno to Goulo
+move y1 from Rubeno to Goulo
+capture y1 at Goulo
+convert g2 to y2 at Goulo; catastrophe yellow at Goulo
+capture g1 at Goulo
+convert y3 to g3 at Adambadura
+convert g1 to y1 at Goulo
+build g1 at Adambadura
+build y1 at Goulo
+convert g3 to y3 at Adambadura
+move y1 from Goulo to Mirtelo
+build g1 at Adambadura
+move r1 from Mirtelo to Mirtelego (b3)
+build g2 at Highway
+convert g3 to y3 at Goulo
+build b1 at Shipyard

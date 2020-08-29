@@ -1,0 +1,65 @@
+Dlwillson (0, b3y2) g3-
+Eliscinsky (1, b2y3) -g3
+build g1 at Dlwillson
+build g1 at Eliscinsky
+convert g1 to y1 at Dlwillson
+convert g1 to y1 at Eliscinsky
+move y1 from Dlwillson to Field (g1)
+build g1 at Eliscinsky
+build g1 at Dlwillson
+convert g1 to r1 at Eliscinsky
+convert g1 to r1 at Dlwillson
+build g1 at Eliscinsky
+build r1 at Dlwillson
+build r2 at Eliscinsky
+move r1 from Dlwillson to Field
+move r2 from Eliscinsky to Field
+build r2 at Field
+move r1 from Eliscinsky to Field; catastrophe red at Field
+build r1 at Dlwillson
+convert g1 to r1 at Eliscinsky
+move r1 from Dlwillson to Field
+build r2 at Eliscinsky
+build r2 at Field
+move r1 from Eliscinsky to Alpha (g1)
+move r1 from Field to Mars (r3)
+build r2 at Alpha
+build r3 at Dlwillson
+build r3 at Eliscinsky
+convert r3 to b3 at Dlwillson
+move y1 from Eliscinsky to Alpha
+build r3 at Field
+build g1 at Eliscinsky
+build g2 at Dlwillson
+convert g1 to y1 at Eliscinsky
+build b1 at Dlwillson
+build g1 at Eliscinsky
+move g2 from Dlwillson to Sea (b1)
+convert g1 to b1 at Eliscinsky
+build y2 at Field
+move r3 from Eliscinsky to Sea
+build g1 at Sea
+capture g2 at Sea
+build g2 at Sea
+capture g2 at Sea
+build g2 at Sea; catastrophe green at Sea
+move b1 from Eliscinsky to Alpha
+move b3 from Dlwillson to Alpha
+sacrifice y1 at Eliscinsky; move r3 from Sea to Mars
+sacrifice r3 at Field; capture r2 at Alpha; capture r1 at Alpha; capture y1 at Alpha
+capture r1 at Mars
+capture b1 at Alpha
+build r3 at Eliscinsky
+sacrifice g3 at Dlwillson; build y1 at Alpha; build y2 at Alpha; build y3 at Field
+build g1 at Eliscinsky
+sacrifice y3 at Field; move r1 from Alpha to Mars; move r2 from Alpha to Eliscinsky; move r2 from Field to Eliscinsky; catastrophe red at Mars; catastrophe red at Eliscinsky
+convert g1 to r1 at Eliscinsky
+build b1 at Alpha
+build g1 at Eliscinsky
+move b3 from Alpha to Eliscinsky
+capture b3 at Eliscinsky
+sacrifice y2 at Alpha; move b1 from Alpha to Eliscinsky; move b1 from Alpha to Eliscinsky; catastrophe blue at Eliscinsky
+move g1 from Eliscinsky to Rover (r1)
+move y1 from Field to Eliscinsky
+capture y1 at Eliscinsky
+sacrifice y2 at Field; move y1 from Alpha to Eliscinsky; move y1 from Alpha to Eliscinsky; catastrophe yellow at Eliscinsky

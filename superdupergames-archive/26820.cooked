@@ -1,0 +1,39 @@
+Wil (0, y3b1) g3-
+Takvorian (1, r1b2) -g3
+build g1 at Wil
+build g1 at Takvorian
+convert g1 to r1 at Wil
+convert g1 to y1 at Takvorian
+build r1 at Wil
+build y1 at Takvorian
+build r2 at Wil
+build y1 at Takvorian
+move r2 from Wil to B2 (b2)
+move y1 from Takvorian to Cygnusx1 (r3)
+move r1 from Wil to R2 (r2)
+build y2 at Takvorian
+sacrifice g3 at Wil; build r2 at B2; build r3 at B2; build r3 at Wil
+move y1 from Takvorian to Aldebaran (b3)
+convert r3 to y3 at B2
+build y2 at Takvorian
+convert r3 to g3 at Wil
+move y2 from Takvorian to Aldebaran
+build r3 at Wil
+convert g3 to r3 at Takvorian
+convert r2 to g2 at B2
+convert y2 to r2 at Aldebaran
+build y2 at B2
+convert y1 to g1 at Takvorian
+move y2 from B2 to B3 (b3)
+move g1 from Takvorian to Cygnusx1
+build g1 at B2
+move y1 from Cygnusx1 to Ertrus (y2)
+sacrifice g2 at B2; build y1 at B2; build y3 at B3
+move r2 from Aldebaran to Ertrus
+move r2 from B2 to Aldebaran
+sacrifice g1 at Cygnusx1; build r3 at Ertrus
+sacrifice y3 at B3; move r1 from R2 to Aldebaran; move r1 from Aldebaran to Takvorian; move r2 from Aldebaran to Takvorian; catastrophe red at Takvorian
+convert y2 to g2 at Takvorian
+move r3 from Wil to Takvorian
+move r2 from Ertrus to B3
+capture g2 at Takvorian

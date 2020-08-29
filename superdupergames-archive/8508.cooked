@@ -1,0 +1,39 @@
+Mneme (0, r3b1) g3-
+Antihero (1, b1y2) -g3
+build g1 at Mneme
+build g1 at Antihero
+convert g1 to b1 at Mneme
+build g1 at Antihero
+build b2 at Mneme
+move g1 from Antihero to Trader (b3)
+convert b2 to y2 at Mneme
+build g1 at Trader
+build g2 at Mneme
+build g2 at Antihero
+move g2 from Mneme to Gambit (b2)
+convert g2 to b2 at Antihero
+build g2 at Mneme
+convert g1 to y1 at Trader
+build y1 at Mneme
+convert g1 to r1 at Antihero
+move b1 from Mneme to Giant (g2)
+move y1 from Trader to Giant
+sacrifice y2 at Mneme; move g2 from Gambit to Nova (r3); move b1 from Giant to Nova
+build r1 at Antihero
+convert g2 to r2 at Mneme
+move b2 from Antihero to Builder (g3)
+build b2 at Nova
+build g1 at Trader
+build g1 at Mneme
+build g2 at Antihero
+move r2 from Mneme to Giant
+move y1 from Giant to Builder
+convert b2 to y2 at Nova
+convert g1 to y1 at Trader
+sacrifice g3 at Mneme; build g1 at Nova; build g3 at Mneme; build b2 at Nova
+move r1 from Antihero to Builder
+sacrifice y2 at Nova; move g2 from Nova to Antihero; move g1 from Nova to Antihero; catastrophe green at Antihero
+move b2 from Builder to Antihero
+build y2 at Mneme
+convert b2 to g2 at Antihero
+sacrifice y1 at Mneme; move r2 from Giant to Trader

@@ -1,0 +1,36 @@
+Jeep (0, b2r1) g3-
+Babamots (1, b1y3) -g3
+build g1 at Jeep
+build g1 at Babamots
+convert g1 to y1 at Jeep
+convert g1 to b1 at Babamots
+build y1 at Jeep
+build b1 at Babamots
+build y1 at Jeep
+move b1 from Babamots to Betazed (g2)
+move y1 from Jeep to Grower (g3)
+sacrifice g3 at Babamots; build b2 at Betazed; build b2 at Betazed; build b3 at Babamots
+build y2 at Grower
+convert b2 to y2 at Betazed
+move y1 from Grower to Gammay (g2)
+move b1 from Babamots to Rubicun (b2)
+sacrifice g3 at Jeep; build y2 at Gammay; build y3 at Jeep; build y3 at Gammay
+build b3 at Betazed
+convert y1 to r1 at Jeep
+convert b3 to r3 at Betazed
+convert y3 to g3 at Jeep
+build b3 at Betazed
+sacrifice g3 at Jeep; build y1 at Grower; build y3 at Jeep; build r1 at Jeep
+convert b3 to g3 at Betazed
+move r1 from Jeep to Changer (b3)
+move r3 from Betazed to Grower
+sacrifice y2 at Grower; move y1 from Grower to Mover (y2); move r1 from Changer to Rubicun
+sacrifice g3 at Betazed; build b3 at Babamots; build r2 at Grower; build b3 at Rubicun
+capture b1 at Rubicun
+sacrifice r2 at Grower; capture r1 at Rubicun; capture b1 at Rubicun
+convert y1 to g1 at Jeep
+build y1 at Betazed
+build g1 at Jeep
+sacrifice y2 at Betazed; move y1 from Betazed to Grower; move y1 from Grower to Gammay; catastrophe yellow at Gammay
+build r2 at Jeep
+convert b3 to g3 at Rubicun

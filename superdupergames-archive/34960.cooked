@@ -1,0 +1,7 @@
+Ts52 (0, b2y3) g3-
+Para (1, g3b1) -r3
+build g1 at Ts52
+build r1 at Para
+build g1 at Ts52
+build r1 at Para
+convert g1 to r1 at Ts52

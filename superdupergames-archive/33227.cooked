@@ -1,0 +1,38 @@
+Ottia (0, g3b2) y3-
+Wil (1, y2b1) -g3
+build y1 at Ottia
+build g1 at Wil
+move y1 from Ottia to Smurf (b1)
+convert g1 to y1 at Wil
+build y1 at Ottia
+build y2 at Wil
+build y2 at Ottia
+move y1 from Wil to Y3 (y3)
+convert y3 to g3 at Ottia
+move y1 from Y3 to G2 (g2)
+convert y1 to g1 at Ottia
+build g1 at Wil
+move g1 from Ottia to Smurf
+convert g1 to r1 at Wil
+build y1 at Ottia
+build y3 at G2
+move y1 from Smurf to Yellowbrickroad (y3)
+move y3 from G2 to Smurf
+convert y2 to r2 at Ottia
+build r1 at Wil
+build r1 at Ottia
+sacrifice r1 at Wil; capture g1 at Smurf
+move r2 from Ottia to Smurf
+sacrifice r1 at Wil; capture r2 at Smurf
+build y2 at Ottia
+build y3 at G2
+convert y2 to r2 at Ottia
+build r1 at Smurf
+build y2 at Ottia
+build g1 at Wil
+move r2 from Ottia to Cabbage (g1)
+sacrifice g3 at Wil; build g2 at Smurf; build g2 at Smurf; build g3 at Wil
+move g3 from Ottia to Smurf; catastrophe green at Smurf
+move y3 from Smurf to Ottia
+move y2 from Ottia to Cabbage
+sacrifice r2 at Smurf; capture y1 at Ottia; capture r1 at Ottia

@@ -1,0 +1,66 @@
+Roguejedi234 (0, y3b1) g3-
+Torianironfist (1, b2y1) -g3
+build g1 at Roguejedi234
+build g1 at Torianironfist
+move g1 from Roguejedi234 to Alpha (b2)
+move g1 from Torianironfist to Beta (b3)
+convert g1 to y1 at Alpha
+build g1 at Beta
+build g1 at Roguejedi234
+convert g1 to y1 at Beta
+sacrifice g1 at Roguejedi234; build y2 at Alpha
+build y2 at Beta
+convert y2 to g2 at Alpha
+build g1 at Torianironfist
+build y2 at Alpha
+convert g1 to r1 at Torianironfist
+convert y2 to r2 at Alpha
+convert y1 to r1 at Beta
+move r2 from Alpha to Roguejedi234
+build g1 at Torianironfist
+move g2 from Alpha to Gamma (b3)
+move g1 from Torianironfist to Delta (y3)
+build g1 at Gamma
+build g2 at Torianironfist
+convert g2 to y2 at Gamma
+build g2 at Delta
+build g2 at Gamma
+build g3 at Beta
+sacrifice y2 at Gamma; move g2 from Gamma to Torianironfist; move g1 from Gamma to Torianironfist; catastrophe green at Torianironfist
+move g3 from Beta to Alpha
+move y1 from Alpha to Gamma (g3)
+move g2 from Delta to Torianironfist
+build y1 at Gamma
+build y2 at Beta
+move y1 from Gamma to Epsilon (r2)
+build g1 at Torianironfist
+build y2 at Gamma
+build y3 at Beta
+move y1 from Epsilon to Beta; catastrophe yellow at Beta
+sacrifice g3 at Alpha; build g2 at Delta; build g2 at Beta; build g3 at Torianironfist
+move y2 from Gamma to Alpha (b2)
+convert g2 to y2 at Beta
+convert y2 to g2 at Alpha
+move g1 from Delta to Alpha
+build r1 at Roguejedi234
+sacrifice g2 at Delta; build g2 at Alpha; build r2 at Beta
+sacrifice y1 at Gamma; move g2 from Alpha to Delta (y3)
+sacrifice g2 at Torianironfist; build y1 at Beta; build g2 at Beta
+build g3 at Delta
+sacrifice y2 at Beta; move g1 from Torianironfist to Delta; move g1 from Alpha to Delta; catastrophe green at Delta
+move r1 from Roguejedi234 to Gamma (b2)
+build g1 at Torianironfist
+convert r1 to g1 at Gamma
+sacrifice g3 at Torianironfist; build g2 at Beta; build g3 at Alpha; build g3 at Alpha
+build r1 at Roguejedi234
+sacrifice g3 at Alpha; build r2 at Beta; build r3 at Torianironfist; build g3 at Alpha
+convert r1 to y1 at Roguejedi234
+sacrifice g3 at Alpha; build g3 at Alpha; build y2 at Beta; build y2 at Beta
+sacrifice y1 at Roguejedi234; move g1 from Gamma to Beta; catastrophe green at Beta
+sacrifice y2 at Beta; move g3 from Alpha to Roguejedi234; move g3 from Alpha to Roguejedi234
+build g1 at Roguejedi234; catastrophe green at Roguejedi234
+sacrifice y2 at Beta; move r3 from Torianironfist to Doom (y3); move r3 from Doom to Alpha
+convert r2 to b2 at Roguejedi234
+sacrifice y1 at Beta; move r3 from Alpha to Roguejedi234
+convert b2 to y2 at Roguejedi234
+capture y2 at Roguejedi234

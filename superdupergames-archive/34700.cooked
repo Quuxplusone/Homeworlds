@@ -1,0 +1,66 @@
+Babamots (0, b2r1) g3-
+Deanthebean (1, b1r3) -g3
+build g1 at Babamots
+build g1 at Deanthebean
+convert g1 to y1 at Babamots
+convert g1 to y1 at Deanthebean
+build g1 at Babamots
+build g1 at Deanthebean
+convert g1 to r1 at Babamots
+convert g1 to b1 at Deanthebean
+build r1 at Babamots
+build g1 at Deanthebean
+move r1 from Babamots to Iconia (y3)
+build g1 at Deanthebean
+build r2 at Babamots
+convert g3 to r3 at Deanthebean
+convert r2 to y2 at Babamots
+move g1 from Deanthebean to Gc (b2)
+move r1 from Iconia to Gc
+build b1 at Deanthebean
+capture g1 at Gc
+move b1 from Deanthebean to Avverso (b2)
+convert g3 to b3 at Babamots
+build b3 at Deanthebean
+sacrifice g1 at Gc; build b3 at Babamots
+convert b3 to g3 at Deanthebean
+move y1 from Babamots to Bolarus (b3)
+move r3 from Deanthebean to Gc
+move b3 from Babamots to Risa (g3)
+capture r1 at Gc
+convert y2 to g2 at Babamots
+convert r3 to y3 at Gc
+build g1 at Babamots
+move r1 from Gc to Bol (g3)
+convert g2 to y2 at Babamots
+build r2 at Bol
+move r1 from Babamots to Risa
+build r2 at Bol
+build r2 at Risa
+move y3 from Gc to Bol
+build r3 at Risa
+move r2 from Bol to Unlur (b2)
+convert r2 to y2 at Risa
+convert r2 to y2 at Unlur
+convert r3 to y3 at Risa
+build r2 at Bol
+sacrifice y2 at Risa; move r1 from Risa to Unlur; move r1 from Unlur to Bol; catastrophe red at Bol
+sacrifice g3 at Deanthebean; build y1 at Unlur; build y2 at Bol; build y3 at Deanthebean
+convert y1 to g1 at Bolarus
+convert y3 to g3 at Deanthebean
+sacrifice g1 at Bolarus; build b3 at Risa
+convert y2 to r2 at Unlur
+convert y2 to r2 at Babamots
+build y1 at Deanthebean
+move b3 from Risa to Unlur
+move r2 from Unlur to Bol
+build y2 at Risa
+build r1 at Bol
+move y3 from Risa to Avverso
+sacrifice y3 at Bol; move b1 from Avverso to Bol; move r1 from Bol to Babamots; move r2 from Bol to Babamots; catastrophe red at Babamots
+convert b3 to r3 at Babamots
+build b3 at Bol
+sacrifice y2 at Risa; move b3 from Unlur to Deanthebean; move y3 from Avverso to Deanthebean
+move b1 from Deanthebean to Babamots
+sacrifice r3 at Babamots; capture g3 at Deanthebean; capture g1 at Deanthebean; capture y1 at Deanthebean
+sacrifice y2 at Bol; move b3 from Bol to Babamots; move b1 from Bol to Babamots; catastrophe blue at Babamots

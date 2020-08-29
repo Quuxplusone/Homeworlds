@@ -1,0 +1,97 @@
+Goulo (0, r3b2) g3-
+Dodobirb (1, y1b2) -g3
+build g1 at Goulo
+build g1 at Dodobirb
+convert g1 to y1 at Goulo
+convert g1 to y1 at Dodobirb
+build y2 at Goulo
+build y2 at Dodobirb
+build y2 at Goulo
+move y2 from Dodobirb to Greeny (g3)
+move y1 from Goulo to Verdeto (g1)
+build y3 at Greeny
+build y3 at Verdeto
+move y2 from Greeny to Minigreeny (g1)
+convert y2 to r2 at Goulo
+convert y1 to r1 at Dodobirb
+move r2 from Goulo to Verdeto
+build y1 at Greeny
+build g1 at Goulo
+build g2 at Dodobirb
+convert g1 to b1 at Goulo
+convert g2 to b2 at Dodobirb
+move b1 from Goulo to Verdeto
+build r1 at Dodobirb
+build b1 at Verdeto
+move b2 from Dodobirb to Greeny
+build r1 at Verdeto
+move r1 from Dodobirb to Greeny
+move r2 from Verdeto to Flavego (y3)
+build r2 at Greeny
+build y2 at Goulo
+build g1 at Dodobirb
+build g2 at Goulo
+move g1 from Dodobirb to Bluey (b3)
+move g2 from Goulo to Verdeto
+build g2 at Bluey
+move g2 from Verdeto to Flavego
+build g2 at Dodobirb
+move b1 from Verdeto to Flavego
+move r2 from Greeny to Minigreeny
+move y3 from Verdeto to Bluey
+move b2 from Greeny to Verdeto
+move r1 from Verdeto to Flavego
+sacrifice g3 at Dodobirb; build g3 at Dodobirb; build r2 at Greeny; build r3 at Minigreeny
+sacrifice r2 at Flavego; capture g1 at Bluey; capture g2 at Bluey
+sacrifice r2 at Greeny; capture b1 at Verdeto; capture y1 at Verdeto
+build r2 at Flavego
+sacrifice g3 at Dodobirb; build r2 at Dodobirb; build r3 at Greeny; build g3 at Dodobirb
+sacrifice y2 at Goulo; move g2 from Bluey to Dodobirb; move g1 from Bluey to Dodobirb; catastrophe green at Dodobirb
+move y3 from Greeny to Dodobirb
+build y2 at Goulo
+convert y3 to g3 at Dodobirb
+sacrifice g2 at Flavego; build y3 at Bluey; build g1 at Goulo
+move b1 from Verdeto to Greeny
+build g2 at Goulo
+build g2 at Dodobirb
+move y3 from Bluey to Verdeto
+sacrifice y1 at Verdeto; move b2 from Verdeto to Greeny
+build y1 at Verdeto
+move g2 from Dodobirb to Deepblue (b3)
+sacrifice y2 at Goulo; move r1 from Flavego to Minigreeny; move r2 from Flavego to Minigreeny; catastrophe red at Minigreeny
+build g2 at Dodobirb
+sacrifice g2 at Goulo; build b1 at Flavego; build y2 at Bluey
+move b2 from Greeny to Minigreeny
+convert y2 to r2 at Bluey
+build y2 at Greeny
+move y3 from Bluey to Minigreeny
+move y2 from Minigreeny to Deepblue
+move y3 from Verdeto to Deepblue
+move y2 from Deepblue to Verdeto
+sacrifice r2 at Bluey; capture g2 at Deepblue; capture b2 at Minigreeny
+build r1 at Greeny
+move b2 from Minigreeny to Deepblue
+move r3 from Greeny to Dodobirb
+build g2 at Deepblue
+build b3 at Greeny
+convert g2 to r2 at Deepblue
+move r2 from Dodobirb to Flavego
+sacrifice y2 at Goulo; move b1 from Flavego to Dodobirb; move b1 from Flavego to Dodobirb
+build b3 at Greeny
+move b1 from Dodobirb to Greeny; catastrophe blue at Greeny
+capture b1 at Dodobirb
+build y2 at Minigreeny
+sacrifice g2 at Dodobirb; build r2 at Greeny; build r3 at Flavego
+move y3 from Minigreeny to Greeny
+sacrifice y2 at Greeny; move r2 from Greeny to Verdeto; move r3 from Flavego to Verdeto
+sacrifice r2 at Deepblue; capture r1 at Greeny; capture r1 at Greeny
+capture y1 at Verdeto
+capture y1 at Greeny
+build g2 at Dodobirb
+sacrifice g3 at Goulo; build g2 at Deepblue; build g3 at Goulo; build y2 at Deepblue
+move r3 from Dodobirb to Flavego
+sacrifice y3 at Deepblue; move g2 from Deepblue to Dodobirb; move g2 from Deepblue to Dodobirb; move y3 from Greeny to Dodobirb; catastrophe green at Dodobirb
+move r3 from Flavego to Dodobirb
+sacrifice r1 at Greeny; capture r3 at Dodobirb
+pass
+sacrifice r3 at Dodobirb; capture r1 at Dodobirb; capture b1 at Dodobirb

@@ -1,0 +1,28 @@
+Kanzenryu (0, y1b2) g3-
+Endo (1, b1y3) -g3
+build g1 at Kanzenryu
+build g1 at Endo
+convert g1 to b1 at Kanzenryu
+convert g1 to b1 at Endo
+build b2 at Kanzenryu
+build b2 at Endo
+move b2 from Kanzenryu to Out (g3)
+convert b2 to y2 at Endo
+build g1 at Kanzenryu
+build y1 at Endo
+convert g1 to y1 at Kanzenryu
+move y1 from Endo to Hamiltonian (g2)
+move y1 from Kanzenryu to Out
+build y2 at Endo
+build g1 at Kanzenryu
+move y2 from Endo to Knapsack (g2)
+move g1 from Kanzenryu to More (y3)
+move b1 from Endo to Hamiltonian
+build g1 at Kanzenryu
+move y2 from Knapsack to More
+build y2 at Out
+build y3 at Hamiltonian
+move y1 from Out to Hamiltonian
+convert y3 to r3 at Hamiltonian
+move y1 from Hamiltonian to Endo
+sacrifice y2 at Endo; move r3 from Hamiltonian to Out; move r3 from Out to Kanzenryu

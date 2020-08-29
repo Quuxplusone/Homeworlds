@@ -1,0 +1,19 @@
+Ts52 (0, y3b2) g3-
+Zmehaffey (1, g3y1) -b3
+build g1 at Ts52
+build b1 at Zmehaffey
+convert g1 to y1 at Ts52
+build b1 at Zmehaffey
+build y1 at Ts52
+move b1 from Zmehaffey to Hornet (g2)
+move y1 from Ts52 to Kermit (g1)
+build b1 at Hornet
+build y2 at Ts52
+build b2 at Zmehaffey
+convert y2 to b2 at Ts52
+build b3 at Hornet
+build b3 at Ts52
+convert b2 to y2 at Zmehaffey
+move b3 from Ts52 to Kermit
+convert b3 to g3 at Hornet
+build y2 at Kermit

@@ -1,0 +1,31 @@
+Andylooney (0, y1b2) g3-
+Laurie_Menke (1, b3y2) -g3
+build g1 at Andylooney
+build g1 at Laurie_Menke
+move g1 from Andylooney to Howell3 (y3)
+move g1 from Laurie_Menke to Paintshop (b1)
+build g1 at Howell3
+build g2 at Paintshop
+build g2 at Andylooney
+convert g1 to y1 at Paintshop
+convert g2 to y2 at Andylooney
+build y1 at Paintshop
+move y2 from Andylooney to Paradise (g3)
+move g2 from Paintshop to Luella (y3)
+move g1 from Howell3 to Bomber (b1)
+move y1 from Paintshop to Sharon (y3)
+build y2 at Paradise
+build g1 at Laurie_Menke
+build g2 at Andylooney
+move y1 from Sharon to Bomber
+convert g3 to y3 at Andylooney
+convert y1 to r1 at Bomber
+move g2 from Andylooney to Jolly (g3)
+capture g1 at Bomber
+build g2 at Howell3
+sacrifice g3 at Laurie_Menke; build g3 at Laurie_Menke; build r1 at Bomber; build y1 at Paintshop
+move g1 from Howell3 to Bird (b1)
+sacrifice y1 at Paintshop; move r1 from Bomber to Luella
+move y2 from Paradise to Andylooney
+move r1 from Luella to Bird
+sacrifice y3 at Andylooney; move g2 from Howell3 to Bird; move g1 from Bird to Laurie_Menke; move g2 from Bird to Laurie_Menke; catastrophe green at Laurie_Menke

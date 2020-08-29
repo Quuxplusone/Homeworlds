@@ -1,0 +1,15 @@
+Tkvaran (0, g3r1) b3-
+Drstclair (1, y3g2) -b3
+build b1 at Tkvaran
+build b1 at Drstclair
+convert b1 to y1 at Tkvaran
+build b1 at Drstclair
+build y1 at Tkvaran
+convert b1 to y1 at Drstclair
+build b1 at Tkvaran
+build y2 at Drstclair
+move y1 from Tkvaran to Freddie (g2)
+build y2 at Drstclair
+build y2 at Freddie; catastrophe yellow at Drstclair
+build b1 at Drstclair
+move b1 from Tkvaran to Drstclair; catastrophe blue at Drstclair

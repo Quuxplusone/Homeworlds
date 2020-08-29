@@ -1,0 +1,21 @@
+Matrixfrog (0, y1b2) g3-
+Samaculus (1, b3g2) -y1
+build g1 at Matrixfrog
+build y1 at Samaculus
+build g1 at Matrixfrog
+build y2 at Samaculus
+convert g3 to y3 at Matrixfrog
+move y1 from Samaculus to Heiphon (g1)
+build y2 at Matrixfrog
+move y1 from Heiphon to Sentinel (g2)
+move y2 from Matrixfrog to Scorch (r3)
+move y1 from Sentinel to Heiphon (g3)
+convert g1 to b1 at Matrixfrog
+build y2 at Heiphon
+convert y3 to b3 at Matrixfrog
+build y3 at Samaculus
+move y2 from Scorch to Delta (g1)
+move y1 from Samaculus to Delta
+move y2 from Delta to Samaculus
+move y1 from Delta to Heiphon
+build y3 at Samaculus; catastrophe yellow at Samaculus

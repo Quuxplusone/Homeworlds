@@ -1,0 +1,61 @@
+Jesse (0, r1b2) g3-
+Jeep (1, b3y1) -g3
+build g1 at Jesse
+build g1 at Jeep
+convert g1 to y1 at Jesse
+convert g1 to r1 at Jeep
+build g1 at Jesse
+build r1 at Jeep
+build y1 at Jesse
+build r2 at Jeep
+build y2 at Jesse
+convert r2 to y2 at Jeep
+convert y2 to r2 at Jesse
+move r1 from Jeep to Hana (g2)
+move y1 from Jesse to Noggin (g3)
+build r2 at Hana
+build y2 at Noggin
+move y2 from Jeep to Hana
+move y1 from Noggin to Kneecaps (b2)
+sacrifice g3 at Jeep; build r2 at Hana; build r3 at Jeep; build r3 at Jeep
+sacrifice g3 at Jesse; build y2 at Noggin; build y3 at Jesse; build y3 at Kneecaps
+build y3 at Hana
+convert y3 to r3 at Kneecaps
+convert r3 to g3 at Jeep
+convert y3 to g3 at Jesse
+move r2 from Hana to Dul (y3)
+sacrifice g3 at Jesse; build g1 at Jesse; build r3 at Kneecaps; build y3 at Jesse
+sacrifice y2 at Hana; move r1 from Jeep to Kneecaps; move r2 from Dul to Kneecaps; catastrophe red at Kneecaps
+move y1 from Jesse to Trouble (g3)
+build g1 at Jeep
+build y2 at Trouble
+move r2 from Hana to Dul (y3)
+move r2 from Jesse to Trouble
+build g2 at Jeep
+build g2 at Jesse
+sacrifice g3 at Jeep; build r1 at Dul; build r2 at Dul; build g3 at Jeep
+build r3 at Trouble
+convert g2 to b2 at Jeep
+move g1 from Jesse to Snoopy (r3)
+move r1 from Dul to Jesse
+capture r1 at Jesse
+sacrifice y3 at Hana; move r2 from Dul to Jesse; move r2 from Dul to Jesse; move g1 from Jeep to Hana; catastrophe red at Jesse
+sacrifice g2 at Jesse; build y3 at Jesse; build y3 at Kneecaps
+build b1 at Jeep
+move r3 from Trouble to Jesse
+move b2 from Jeep to Kneecaps
+sacrifice r2 at Trouble; capture b2 at Kneecaps
+build g2 at Jeep
+build g2 at Jesse
+move b1 from Jeep to Kneecaps
+sacrifice y3 at Kneecaps; move g2 from Jesse to Storage (y3); move y1 from Kneecaps to Snoopy; move b2 from Kneecaps to Snoopy
+sacrifice g3 at Jeep; build g3 at Jeep; build r1 at Jeep; build r1 at Hana
+build b1 at Snoopy
+convert r1 to b1 at Jeep
+build b3 at Snoopy
+sacrifice g3 at Jeep; build g3 at Jeep; build r1 at Hana; build r2 at Jeep
+sacrifice g2 at Storage; build g2 at Jesse; build y3 at Jesse
+sacrifice b1 at Jeep; convert g3 to b3 at Jeep
+sacrifice y2 at Noggin; move b3 from Snoopy to Jesse; move b3 from Jesse to Jeep
+capture b3 at Jeep
+sacrifice y2 at Trouble; move b1 from Snoopy to Jesse; move b1 from Jesse to Jeep; catastrophe blue at Jeep

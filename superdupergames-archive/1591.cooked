@@ -1,0 +1,22 @@
+Calavera (0, y2b2) g3-
+Twoshort (1, b2y2) -g3
+build g1 at Calavera
+build g1 at Twoshort
+move g1 from Calavera to Rillanon (y3)
+convert g1 to r1 at Twoshort
+move g1 from Rillanon to Calavera
+build g1 at Twoshort
+convert g3 to y3 at Calavera
+build r1 at Twoshort
+build g1 at Calavera
+move g1 from Twoshort to Yolonda (y3)
+convert g1 to r1 at Calavera
+move r1 from Twoshort to Bluestar (b3)
+build y1 at Calavera
+build r2 at Twoshort
+build r2 at Calavera
+convert r1 to y1 at Bluestar
+convert y1 to b1 at Calavera
+convert r2 to g2 at Twoshort
+move g1 from Calavera to Krondor (y3)
+move g2 from Twoshort to Krondor

@@ -1,0 +1,84 @@
+Mneme (0, r1b3) g3-
+Felix (1, b2y3) -g3
+build g1 at Mneme
+build g1 at Felix
+convert g1 to y1 at Mneme
+convert g1 to r1 at Felix
+build y1 at Mneme
+build r1 at Felix
+build y1 at Mneme
+build r2 at Felix
+move y1 from Mneme to Clio (b2)
+move r1 from Felix to Out (b1)
+build y2 at Mneme
+sacrifice g3 at Felix; build r2 at Out; build r2 at Out; build r3 at Felix
+move y1 from Mneme to Ghost (b2)
+convert r3 to g3 at Felix
+move y1 from Mneme to Hecate (y2)
+convert r2 to y2 at Out
+build y3 at Mneme
+move r2 from Out to Clio
+convert y2 to r2 at Mneme
+capture y1 at Clio
+sacrifice y1 at Hecate; move g3 from Mneme to Clio
+move r2 from Clio to Edgeward (b3)
+move r2 from Mneme to Clio
+build r3 at Felix
+capture y1 at Clio
+move r2 from Felix to Grinch (g1)
+build r3 at Clio
+convert r3 to y3 at Felix
+move g3 from Clio to Out
+sacrifice y2 at Out; move r1 from Out to Clio; move r2 from Grinch to Clio; catastrophe red at Clio
+convert y1 to r1 at Ghost
+build r2 at Felix
+build g1 at Out
+move r1 from Felix to Splint (b1)
+convert g1 to b1 at Out
+sacrifice g3 at Felix; build r2 at Splint; build r3 at Edgeward; build r3 at Felix
+build b3 at Out
+convert r3 to g3 at Edgeward
+convert b3 to r3 at Out
+build r3 at Edgeward
+build b3 at Out
+convert r2 to y2 at Edgeward
+sacrifice g3 at Out; build r2 at Ghost; build y1 at Mneme; build y1 at Clio
+convert r3 to g3 at Felix
+convert y1 to g1 at Mneme
+build r3 at Edgeward
+convert r1 to g1 at Ghost
+move r3 from Edgeward to Ghost
+sacrifice y1 at Clio; move r2 from Ghost to Erato (y1)
+capture g1 at Ghost
+convert b3 to g3 at Out
+convert r3 to b3 at Ghost
+build g1 at Out
+build g2 at Edgeward
+convert g1 to y1 at Out
+sacrifice g2 at Edgeward; build r1 at Felix; build r3 at Edgeward
+build y2 at Out
+move y3 from Felix to Splint
+build y2 at Mneme
+sacrifice y2 at Edgeward; move b3 from Ghost to Erato; move r3 from Edgeward to Clio
+sacrifice y1 at Clio; move r2 from Erato to Euterpe (y2)
+sacrifice g1 at Ghost; build b2 at Erato
+build y1 at Out
+move b3 from Erato to Euterpe
+sacrifice y1 at Out; move r2 from Euterpe to Thalia (y1)
+sacrifice b2 at Erato; convert r1 to y1 at Splint; convert r2 to b2 at Felix
+build g1 at Out
+sacrifice y3 at Splint; move b3 from Euterpe to Out; move b2 from Felix to Out; move g3 from Edgeward to Clio; catastrophe blue at Out
+convert y3 to g3 at Mneme
+sacrifice y1 at Splint; move r3 from Edgeward to Plank (y2)
+build y1 at Mneme
+build g1 at Felix
+move y1 from Mneme to Euterpe (b2)
+convert g3 to y3 at Felix
+sacrifice g3 at Mneme; build y1 at Euterpe; build y2 at Euterpe; build y3 at Mneme
+sacrifice y3 at Felix; move r3 from Plank to Mneme; move r3 from Clio to Mneme; move g3 from Clio to Mneme
+sacrifice r2 at Thalia; capture r3 at Mneme; capture r3 at Mneme
+sacrifice r2 at Splint; capture r3 at Mneme; capture r3 at Mneme
+convert y2 to r2 at Mneme; catastrophe red at Mneme
+sacrifice r1 at Felix; capture y3 at Mneme
+convert y1 to r1 at Euterpe
+convert y3 to r3 at Mneme

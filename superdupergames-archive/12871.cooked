@@ -1,0 +1,77 @@
+Xmiyux (0, b3g1) y3-
+Canisfirebrand (1, b3g1) -y3
+convert y3 to b3 at Xmiyux
+build y1 at Canisfirebrand
+build b1 at Xmiyux
+convert y1 to r1 at Canisfirebrand
+convert b1 to g1 at Xmiyux
+move r1 from Canisfirebrand to Canis2 (r2)
+build g2 at Xmiyux
+build y1 at Canisfirebrand
+convert g1 to y1 at Xmiyux
+build y1 at Canisfirebrand
+build y2 at Xmiyux
+convert y1 to g1 at Canisfirebrand
+move g2 from Xmiyux to Miranda (b2)
+build g2 at Canisfirebrand
+move y1 from Xmiyux to Miranda
+move g2 from Canisfirebrand to Canis2
+build y1 at Miranda
+build r1 at Canis2
+move y1 from Miranda to Canisfirebrand
+move y1 from Canisfirebrand to Canis2
+build y2 at Canisfirebrand
+move r1 from Canis2 to Xmiyux
+convert y2 to r2 at Xmiyux
+build r1 at Xmiyux
+sacrifice y2 at Canisfirebrand; move r2 from Xmiyux to Canis2; move g2 from Miranda to Canisfirebrand
+build r2 at Xmiyux
+build g2 at Canisfirebrand; catastrophe green at Canisfirebrand
+capture r2 at Canis2
+convert y1 to g1 at Canisfirebrand
+convert r1 to y1 at Xmiyux
+build g1 at Canisfirebrand
+build g2 at Canis2
+convert g1 to r1 at Canisfirebrand
+build r3 at Xmiyux
+sacrifice r1 at Canisfirebrand; capture r3 at Xmiyux
+build r1 at Xmiyux; catastrophe red at Xmiyux
+build g1 at Canisfirebrand
+build g2 at Canis2
+convert g1 to b1 at Canisfirebrand
+sacrifice r1 at Canis2; capture g1 at Canisfirebrand
+convert b3 to r3 at Xmiyux
+convert y1 to r1 at Xmiyux
+capture r1 at Xmiyux
+convert g1 to r1 at Canisfirebrand
+sacrifice r1 at Xmiyux; capture r1 at Canisfirebrand
+sacrifice r2 at Canis2; capture r1 at Canisfirebrand; capture b1 at Canisfirebrand
+build r1 at Xmiyux
+move g2 from Canis2 to Canisfirebrand
+convert r1 to g1 at Xmiyux
+move r1 from Canisfirebrand to Miranda
+move y1 from Miranda to Xmiyux
+convert y3 to r3 at Canisfirebrand
+build r1 at Xmiyux
+build y1 at Canis2
+build y2 at Xmiyux
+sacrifice y1 at Canis2; move r3 from Canisfirebrand to Canis2
+convert y1 to b1 at Xmiyux
+sacrifice g2 at Canis2; build y1 at Canis2; build g1 at Canis2
+build y1 at Xmiyux
+move y1 from Canis2 to Canisfirebrand
+move y2 from Xmiyux to Serenityvalley (r2)
+build g2 at Canisfirebrand
+move y2 from Serenityvalley to Canisfirebrand
+sacrifice r1 at Miranda; capture y2 at Canisfirebrand
+build y2 at Xmiyux
+sacrifice g2 at Canisfirebrand; build y2 at Canis2; build y3 at Canis2
+move y1 from Xmiyux to Canis2; catastrophe yellow at Canis2
+move y2 from Canisfirebrand to Canis2
+build y1 at Xmiyux
+sacrifice y2 at Canis2; move g1 from Canis2 to Xmiyux; move g2 from Canis2 to Xmiyux; catastrophe green at Xmiyux
+move y2 from Xmiyux to Miranda (g2)
+build g1 at Canisfirebrand
+move y2 from Miranda to Canisfirebrand
+move g2 from Canisfirebrand to Canis2
+sacrifice r3 at Xmiyux; capture y1 at Canisfirebrand; capture g1 at Canisfirebrand; capture b1 at Canisfirebrand

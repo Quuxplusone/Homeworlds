@@ -1,0 +1,54 @@
+Matrixfrog (0, g3b2) y3-
+Ts52 (1, b1y2) -g3
+build y1 at Matrixfrog
+build g1 at Ts52
+build y1 at Matrixfrog
+build g1 at Ts52
+move y1 from Matrixfrog to Zoop (g1)
+move g1 from Ts52 to Grover (b3)
+build y1 at Zoop
+build g2 at Grover
+convert y3 to g3 at Matrixfrog
+convert g2 to y2 at Grover
+move y1 from Zoop to Zeep (b3)
+build g2 at Grover
+sacrifice g3 at Matrixfrog; build y2 at Zeep; build y3 at Matrixfrog; build y3 at Zoop
+build y3 at Grover
+convert y2 to g2 at Zeep
+move g2 from Grover to Sol (y2)
+move g2 from Zeep to Ts52
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Sol; build g3 at Ts52
+convert g2 to r2 at Ts52
+convert g2 to r2 at Grover
+capture g1 at Ts52
+sacrifice r2 at Grover; capture r2 at Ts52; capture g1 at Ts52
+convert y3 to b3 at Matrixfrog
+sacrifice g3 at Ts52; build g2 at Grover; build g2 at Sol; build g3 at Ts52
+build y3 at Matrixfrog
+convert g2 to b2 at Grover
+move y3 from Zoop to Zeep
+sacrifice g3 at Ts52; build g2 at Grover; build g3 at Ts52; build r1 at Ts52
+convert y1 to r1 at Zeep
+move g2 from Grover to Zoe (y1)
+convert y1 to r1 at Matrixfrog
+move g2 from Sol to Zoe
+build y1 at Zoop
+move b2 from Grover to Zoe
+build r2 at Matrixfrog
+move r2 from Ts52 to Grover
+move y1 from Zoop to Zeep
+move g2 from Sol to Zoe
+sacrifice y3 at Zeep; move y1 from Zoop to Grover; move y1 from Zeep to Flash (r2); move y1 from Flash to Grover; catastrophe yellow at Grover
+build g1 at Sol
+convert r1 to y1 at Zeep
+build r1 at Grover
+build y1 at Matrixfrog
+convert r2 to y2 at Grover
+build y3 at Matrixfrog
+sacrifice g3 at Ts52; build g3 at Ts52; build y3 at Grover; build b1 at Zoe
+move b3 from Matrixfrog to Llama (b1)
+sacrifice y3 at Grover; move g2 from Zoe to Matrixfrog; move g2 from Zoe to Matrixfrog; move g2 from Zoe to Matrixfrog; catastrophe green at Matrixfrog
+move r2 from Matrixfrog to Zoe
+sacrifice r1 at Grover; capture r2 at Zoe
+convert y3 to g3 at Matrixfrog
+sacrifice y2 at Grover; move b2 from Zoe to Matrixfrog; move b1 from Zoe to Matrixfrog

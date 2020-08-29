@@ -1,0 +1,67 @@
+Matrixfrog (0, g1y2) y3-
+Cerulean (1, b3g2) -y3
+build y1 at Matrixfrog
+build y1 at Cerulean
+move y1 from Matrixfrog to Ice (b3)
+move y1 from Cerulean to Hydrogen (g1)
+build y1 at Matrixfrog
+convert y3 to b3 at Cerulean
+convert y1 to g1 at Ice
+build b1 at Cerulean
+build g2 at Ice
+convert b3 to y3 at Cerulean
+move y3 from Matrixfrog to Ice
+build b1 at Cerulean
+build y1 at Ice
+move b1 from Cerulean to Hydrogen
+build y2 at Matrixfrog
+move y1 from Hydrogen to Ice
+move y1 from Matrixfrog to Helium (r3)
+build y2 at Cerulean
+move y3 from Ice to Delta (r1)
+build b1 at Cerulean
+move y3 from Delta to Cerulean
+convert b1 to r1 at Cerulean
+build y3 at Cerulean; catastrophe yellow at Cerulean
+build r1 at Cerulean
+move g1 from Ice to Matrixfrog
+move y1 from Ice to Hydrogen
+build g2 at Matrixfrog
+build y2 at Hydrogen
+build y3 at Matrixfrog
+sacrifice y2 at Hydrogen; move y1 from Hydrogen to Ice; move y1 from Ice to Matrixfrog; catastrophe yellow at Matrixfrog
+move y1 from Ice to Matrixfrog
+convert r1 to y1 at Cerulean
+sacrifice g2 at Matrixfrog; build g2 at Ice; build g3 at Ice
+build y2 at Cerulean
+move y1 from Helium to Hydrogen
+move y1 from Cerulean to Hydrogen
+convert g2 to r2 at Ice
+build y2 at Cerulean
+build g2 at Matrixfrog
+build r1 at Cerulean
+build r1 at Ice
+build r2 at Cerulean
+move g1 from Matrixfrog to Lithium (y2)
+build y3 at Hydrogen
+sacrifice y1 at Hydrogen; move r2 from Ice to Matrixfrog
+move r1 from Cerulean to Hydrogen
+build g3 at Matrixfrog
+convert y3 to g3 at Hydrogen
+sacrifice g3 at Matrixfrog; build y1 at Matrixfrog; build g3 at Lithium; build r2 at Ice
+build y3 at Hydrogen
+convert g3 to y3 at Ice
+build g3 at Hydrogen
+sacrifice y3 at Ice; move y1 from Matrixfrog to Cerulean; move g2 from Ice to Hydrogen; move y1 from Matrixfrog to Cerulean; catastrophe yellow at Cerulean; catastrophe green at Hydrogen
+convert r2 to y2 at Cerulean
+move g1 from Lithium to Magnesium (y1)
+build y1 at Cerulean
+build g1 at Magnesium
+convert y2 to g2 at Cerulean
+move g1 from Magnesium to Cerulean
+move g2 from Cerulean to Magnesium
+build g3 at Cerulean
+build g3 at Magnesium
+sacrifice r2 at Ice; capture y1 at Cerulean; capture r1 at Cerulean
+move g3 from Magnesium to Lithium
+capture b1 at Cerulean

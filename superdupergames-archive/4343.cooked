@@ -1,0 +1,43 @@
+Gundam_Blade (0, g3b2) r3-
+Zoltar (1, r3b2) -g3
+build r1 at Gundam_Blade
+build g1 at Zoltar
+convert r1 to y1 at Gundam_Blade
+convert g1 to y1 at Zoltar
+move y1 from Gundam_Blade to Gundam1 (r1)
+build y1 at Zoltar
+build r1 at Gundam_Blade
+move y1 from Zoltar to Greenbelt (g1)
+move y1 from Gundam1 to Gundam_Blade
+build y2 at Greenbelt
+build y2 at Gundam_Blade
+build y2 at Zoltar
+move y2 from Gundam_Blade to Gundam1 (b1)
+convert y1 to r1 at Zoltar
+convert y2 to g2 at Gundam1
+build y1 at Zoltar
+move r1 from Gundam_Blade to Greenbelt
+sacrifice r1 at Zoltar; capture r1 at Greenbelt
+build g1 at Gundam1
+move y2 from Zoltar to Gundam1
+convert g2 to r2 at Gundam1
+sacrifice r1 at Greenbelt; capture r2 at Gundam1
+build y2 at Gundam_Blade
+build y3 at Zoltar
+move y2 from Gundam_Blade to Gundam2 (r1)
+convert y1 to r1 at Zoltar
+build r1 at Gundam_Blade
+capture g1 at Gundam1
+move r1 from Gundam_Blade to Gundam2
+build r2 at Gundam1
+build y1 at Gundam_Blade
+build y3 at Zoltar
+convert y1 to g1 at Gundam_Blade
+build g2 at Gundam1
+build g2 at Gundam_Blade
+move g1 from Gundam1 to Gundam_Blade; catastrophe green at Gundam_Blade
+convert y1 to g1 at Gundam_Blade
+move r2 from Gundam1 to Greenhills (g3)
+build g1 at Gundam_Blade
+build g2 at Zoltar
+build g2 at Gundam_Blade

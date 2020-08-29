@@ -1,0 +1,62 @@
+Ladybugsfly (0, b3y2) g3-
+Draw5Playall (1, r3b1) -g3
+build g1 at Ladybugsfly
+build g1 at Draw5Playall
+convert g1 to r1 at Ladybugsfly
+convert g1 to y1 at Draw5Playall
+build g1 at Ladybugsfly
+build g1 at Draw5Playall
+move g1 from Ladybugsfly to Dumbledore (b1)
+convert g1 to b1 at Draw5Playall
+build g1 at Dumbledore
+move b1 from Draw5Playall to G2 (g2)
+convert g1 to y1 at Dumbledore
+build b2 at G2
+build y1 at Dumbledore
+build y2 at Draw5Playall
+move y1 from Dumbledore to Snape (r2)
+build b2 at G2
+sacrifice g3 at Ladybugsfly; build y2 at Dumbledore; build y3 at Dumbledore; build y3 at Snape
+sacrifice y2 at Draw5Playall; move y1 from Draw5Playall to Snape; move y1 from Snape to Dumbledore; catastrophe yellow at Dumbledore
+move y3 from Snape to Dumbledore
+convert b2 to r2 at G2
+move g1 from Dumbledore to Snape
+build g1 at Draw5Playall
+build g1 at Snape
+convert g1 to y1 at Draw5Playall
+build g1 at Snape
+convert b2 to y2 at G2
+move y3 from Dumbledore to Ladybugsfly
+build b1 at G2
+move g1 from Snape to Hagrid (y1)
+build b2 at G2
+build g2 at Snape
+build y2 at Draw5Playall
+build y3 at Snape
+move y2 from Draw5Playall to B2 (b2)
+build g2 at Hagrid
+build y3 at G2
+move g2 from Hagrid to Ladybugsfly
+convert g3 to b3 at Draw5Playall
+build g3 at Hagrid
+move y3 from G2 to B3 (b3)
+move g1 from Hagrid to B2
+convert y3 to g3 at B3
+sacrifice g3 at Hagrid; build g3 at B2; build g3 at Ladybugsfly; build r1 at Ladybugsfly
+move y2 from B2 to B3
+sacrifice g3 at B2; build g3 at B2; build r1 at Ladybugsfly; build y1 at Ladybugsfly
+build y3 at G2
+convert g3 to r3 at B2
+build g3 at B3
+sacrifice y3 at Snape; move g1 from Snape to Lupin (r3); move g1 from Snape to Lupin; move g2 from Snape to Lupin
+sacrifice y2 at G2; move g3 from B3 to Snape; move g3 from Snape to Lupin; catastrophe green at Lupin
+sacrifice y3 at Ladybugsfly; move r1 from Ladybugsfly to Ginny (g1); move r1 from Ladybugsfly to Ginny; move r1 from Ginny to Krum (y2)
+sacrifice g3 at B3; build y3 at Draw5Playall; build y3 at B3; build r2 at G2
+move y1 from Snape to Ginny
+convert b3 to g3 at Draw5Playall
+build r2 at Ginny
+move y3 from B3 to Ginny
+move r2 from Ginny to B3
+sacrifice y3 at Draw5Playall; move y3 from Ginny to Ladybugsfly; move y2 from B3 to Ginny; move y2 from Ginny to Ladybugsfly; catastrophe yellow at Ladybugsfly
+move r1 from Krum to Draw5Playall
+sacrifice y3 at G2; move b2 from G2 to Ladybugsfly; move b1 from G2 to Ladybugsfly; move b1 from G2 to Ladybugsfly; catastrophe blue at Ladybugsfly

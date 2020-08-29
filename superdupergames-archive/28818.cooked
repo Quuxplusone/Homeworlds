@@ -1,0 +1,26 @@
+Wil (0, r2b1) g3-
+Endo (1, b1g3) -b3
+build g1 at Wil
+build b1 at Endo
+convert g1 to y1 at Wil
+convert b3 to y3 at Endo
+build g1 at Wil
+build b2 at Endo
+convert g3 to b3 at Wil
+move b1 from Endo to Hod (g2)
+build b2 at Wil
+sacrifice y3 at Endo; move b1 from Hod to V_Omega (r3); move b1 from V_Omega to Wil; catastrophe blue at Wil
+build g1 at Wil
+build b1 at Endo
+move g1 from Wil to B3 (b3)
+convert b1 to r1 at Endo
+build g1 at B3
+build b1 at Endo
+build g2 at B3
+convert b2 to y2 at Endo
+build g2 at Wil
+build r1 at Endo
+convert g2 to y2 at B3
+build r1 at Endo
+move y1 from Wil to Endo
+capture y1 at Endo

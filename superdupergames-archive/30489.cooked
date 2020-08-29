@@ -1,0 +1,32 @@
+Subhan64 (0, b3g2) y3-
+Foksieloy (1, b1r3) -g3
+build y1 at Subhan64
+build g1 at Foksieloy
+convert y1 to g1 at Subhan64
+convert g1 to y1 at Foksieloy
+build y1 at Subhan64
+build g1 at Foksieloy
+move g1 from Subhan64 to Kermit (g1)
+move g1 from Foksieloy to Tibbers (b2)
+build g2 at Kermit
+build g2 at Tibbers
+convert y1 to b1 at Subhan64
+build g3 at Foksieloy
+sacrifice b1 at Subhan64; convert g1 to y1 at Kermit
+convert g2 to y2 at Tibbers
+move g2 from Kermit to Scooter (g3)
+move g3 from Foksieloy to Annie (b2)
+move y1 from Kermit to Annie
+build g1 at Annie
+sacrifice y1 at Annie; move g2 from Scooter to Annie
+convert g1 to r1 at Annie
+build y1 at Subhan64
+capture g2 at Annie
+convert y1 to r1 at Subhan64
+build y1 at Tibbers
+move r1 from Subhan64 to Scooter (g1)
+move y2 from Tibbers to Fishbone (g1)
+build y1 at Subhan64
+sacrifice g3 at Annie; build g2 at Tibbers; build g3 at Annie; build g3 at Foksieloy
+build y2 at Subhan64
+move y2 from Fishbone to Subhan64; catastrophe yellow at Subhan64

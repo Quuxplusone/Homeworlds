@@ -1,0 +1,26 @@
+Smartmo (0, b3y2) g3-
+Madwuher (1, r1b3) -g3
+build g1 at Smartmo
+build g1 at Madwuher
+convert g1 to y1 at Smartmo
+convert g1 to y1 at Madwuher
+build g1 at Smartmo
+build g1 at Madwuher
+move g1 from Smartmo to Matrix (g1)
+build g2 at Madwuher
+build g2 at Smartmo
+move g2 from Madwuher to Edora (b2)
+sacrifice g3 at Smartmo; build g2 at Smartmo; build g3 at Smartmo; build y1 at Smartmo
+sacrifice g3 at Madwuher; build g3 at Madwuher; build g3 at Edora; build y2 at Madwuher
+move g2 from Smartmo to Eigenspace (r1)
+build y2 at Madwuher
+sacrifice g2 at Smartmo; build g2 at Smartmo; build y3 at Smartmo
+move y2 from Madwuher to Edora; catastrophe yellow at Smartmo
+convert g2 to y2 at Smartmo
+convert g1 to r1 at Madwuher
+sacrifice g1 at Matrix; build y1 at Smartmo
+sacrifice y2 at Edora; move g3 from Edora to Eigenspace; move g3 from Eigenspace to Smartmo
+convert y2 to r2 at Smartmo
+sacrifice r1 at Madwuher; capture r2 at Smartmo
+sacrifice g3 at Smartmo; build y1 at Smartmo; build y2 at Smartmo; build y2 at Smartmo
+build r1 at Smartmo; catastrophe yellow at Smartmo

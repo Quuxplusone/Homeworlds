@@ -1,0 +1,40 @@
+Scottobear (0, r3b2) g3-
+Stoneaxe (1, y1b3) -g3
+build g1 at Scottobear
+build g1 at Stoneaxe
+convert g1 to y1 at Scottobear
+build g1 at Stoneaxe
+move y1 from Scottobear to Hoth (b1)
+move g1 from Stoneaxe to Romulus (b2)
+convert y1 to g1 at Hoth
+build g2 at Romulus
+build g2 at Hoth
+move g1 from Stoneaxe to Vulcan (y2)
+build g2 at Scottobear
+build g3 at Vulcan
+convert g3 to y3 at Scottobear
+build g3 at Stoneaxe
+convert g1 to y1 at Hoth
+convert g3 to r3 at Stoneaxe
+build y1 at Hoth
+convert g2 to y2 at Romulus
+convert y1 to g1 at Hoth
+build r1 at Stoneaxe
+convert g2 to r2 at Hoth
+move g3 from Vulcan to Hoth
+move r2 from Hoth to Romulus
+sacrifice r1 at Stoneaxe; capture r2 at Romulus
+build g2 at Hoth
+sacrifice g3 at Hoth; build g2 at Vulcan; build g3 at Romulus; build g3 at Stoneaxe
+build y1 at Scottobear
+move r2 from Romulus to Hoth
+build y2 at Hoth
+build y3 at Romulus
+build y3 at Scottobear
+capture y2 at Hoth
+move g2 from Hoth to Romulus
+sacrifice y2 at Romulus; move g3 from Romulus to Hoth; move y3 from Romulus to Hoth
+convert y3 to b3 at Scottobear
+sacrifice y2 at Hoth; move y3 from Hoth to Scottobear; move g3 from Hoth to Scottobear
+capture g3 at Scottobear
+sacrifice r3 at Stoneaxe; capture g3 at Scottobear; capture b3 at Scottobear; capture y3 at Scottobear

@@ -1,0 +1,10 @@
+Jimpurbrick (0, r1b2) g3-
+Sirruthvenmurgatroyd (1, y2b3) -g3
+build g1 at Jimpurbrick
+build g1 at Sirruthvenmurgatroyd
+convert g1 to y1 at Jimpurbrick
+move g1 from Sirruthvenmurgatroyd to Sol (y1)
+move y1 from Jimpurbrick to Gallifrey (g3)
+build g1 at Sirruthvenmurgatroyd
+build y1 at Gallifrey
+convert g3 to y3 at Sirruthvenmurgatroyd

@@ -1,0 +1,50 @@
+Uglyfoot (0, y1b3) g3-
+Jbj77 (1, b1g2) -y3
+build g1 at Uglyfoot
+build y1 at Jbj77
+build g1 at Uglyfoot
+convert y1 to g1 at Jbj77
+move g1 from Uglyfoot to Library (b2)
+build g2 at Jbj77
+sacrifice g3 at Uglyfoot; build g2 at Library; build g3 at Library; build g3 at Uglyfoot
+move g1 from Jbj77 to Alpha (y3)
+convert g3 to y3 at Library
+build g3 at Alpha
+move g1 from Library to Alpha
+move g3 from Alpha to Beta (y2)
+sacrifice y3 at Library; move g1 from Alpha to Jbj77; move g2 from Library to Alpha; move g2 from Alpha to Jbj77; catastrophe green at Jbj77
+build g1 at Beta
+convert g1 to r1 at Uglyfoot
+move g1 from Beta to Jbj77
+build g1 at Uglyfoot
+convert g1 to r1 at Jbj77
+move g1 from Uglyfoot to Nyse (b2)
+build g1 at Beta
+build g2 at Nyse
+build g2 at Beta
+convert g2 to y2 at Nyse
+move g2 from Beta to Jbj77
+build g2 at Nyse
+sacrifice g3 at Beta; build g2 at Alpha; build g3 at Beta; build g3 at Jbj77
+build y1 at Nyse
+sacrifice g2 at Jbj77; build r1 at Jbj77; build r2 at Jbj77
+build r2 at Uglyfoot
+move r1 from Jbj77 to Beta
+move r2 from Uglyfoot to Djia (y2)
+convert r1 to b1 at Jbj77
+convert g1 to b1 at Nyse
+sacrifice g3 at Beta; build g1 at Beta; build g2 at Beta; build g3 at Jbj77
+sacrifice y2 at Nyse; move g2 from Nyse to Jbj77; move g2 from Jbj77 to Beta; catastrophe green at Beta
+move r2 from Jbj77 to Nyse
+build g1 at Uglyfoot
+capture y1 at Nyse
+move g1 from Uglyfoot to Djia
+sacrifice g3 at Jbj77; build y1 at Jbj77; build y2 at Nyse; build y3 at Nyse
+build g1 at Uglyfoot
+move g2 from Alpha to Nyse
+move g1 from Djia to Jbj77
+sacrifice y3 at Jbj77; move g2 from Nyse to Uglyfoot; move g1 from Alpha to Beta; move g1 from Beta to Uglyfoot; catastrophe green at Uglyfoot
+move r2 from Djia to Uglyfoot
+move y3 from Nyse to Uglyfoot
+build g1 at Jbj77
+sacrifice r2 at Nyse; capture r2 at Uglyfoot; capture r1 at Uglyfoot

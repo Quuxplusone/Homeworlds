@@ -1,0 +1,77 @@
+Jeep (0, r2b3) g3-
+Felix (1, r1b3) -g3
+build g1 at Jeep
+build g1 at Felix
+convert g1 to y1 at Jeep
+convert g1 to r1 at Felix
+build y1 at Jeep
+convert r1 to y1 at Felix
+build y2 at Jeep
+build y2 at Felix
+move y1 from Jeep to Aaa (g1)
+move y1 from Felix to Rim (b2)
+move y1 from Jeep to Bbb (b1)
+build g1 at Felix
+convert y1 to g1 at Bbb
+move g1 from Felix to Rim
+build g2 at Jeep
+build g2 at Felix
+sacrifice g3 at Jeep; build g2 at Bbb; build g3 at Bbb; build g3 at Jeep
+move g1 from Rim to Bbb; catastrophe green at Bbb
+build g1 at Jeep
+move g2 from Felix to Rim
+move g2 from Jeep to Shot (y1)
+build g1 at Felix
+sacrifice g3 at Jeep; build g2 at Shot; build g3 at Jeep; build g3 at Shot
+move g2 from Rim to Shot; catastrophe green at Shot
+build g2 at Jeep
+move g1 from Felix to Rim
+move g2 from Jeep to Wheel (b1)
+build g2 at Felix
+convert g1 to r1 at Jeep
+convert g2 to r2 at Felix
+move y1 from Aaa to Stage (g2)
+build y1 at Rim
+build g1 at Jeep
+move y1 from Rim to Soap (b1)
+build y2 at Stage
+sacrifice g3 at Felix; build y3 at Soap; build y3 at Rim; build y3 at Felix
+sacrifice y2 at Jeep; move y1 from Stage to Felix; move y2 from Stage to Felix; catastrophe yellow at Felix
+move y3 from Rim to Felix
+build g1 at Wheel
+build g2 at Rim
+convert g2 to y2 at Wheel
+move g1 from Rim to Soap
+convert g1 to y1 at Jeep
+convert y1 to r1 at Soap
+move r1 from Jeep to Wheel
+convert r2 to g2 at Felix
+build r2 at Wheel
+build r2 at Soap
+convert r2 to b2 at Wheel
+move r2 from Soap to Rim
+build b1 at Wheel
+build r2 at Soap
+move b1 from Wheel to Box (y2)
+move r2 from Soap to Box
+build r3 at Wheel
+capture b1 at Box
+move g1 from Wheel to Derby (r3)
+build r3 at Soap
+move r3 from Wheel to Rim
+move r2 from Rim to Rom (y1)
+capture y1 at Rim
+sacrifice g2 at Rim; build y2 at Soap; build b2 at Box
+move b2 from Wheel to Hat (b3)
+build y3 at Felix
+sacrifice g1 at Derby; build r3 at Rim
+sacrifice y2 at Soap; move r1 from Soap to Rim; move r2 from Rom to Rim; catastrophe red at Rim
+convert b2 to r2 at Hat
+move r3 from Soap to Hat
+sacrifice y1 at Rim; move r2 from Hat to Mover (y2)
+sacrifice g2 at Felix; build r1 at Hat; build r3 at Box
+build g1 at Jeep
+move r3 from Box to Soap
+sacrifice g1 at Jeep; build r3 at Wheel
+move b2 from Box to Slip (g1)
+move r3 from Wheel to Box

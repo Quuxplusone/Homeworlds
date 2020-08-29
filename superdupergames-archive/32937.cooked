@@ -1,0 +1,29 @@
+Amnykon (0, b1y2) g3-
+Mobynostromo (1, b2g1) -y3
+build g1 at Amnykon
+build y1 at Mobynostromo
+build g1 at Amnykon
+build y1 at Mobynostromo
+move g1 from Amnykon to Blue (b3)
+convert y1 to r1 at Mobynostromo
+build g2 at Amnykon
+move r1 from Mobynostromo to Blue
+sacrifice g3 at Amnykon; build g2 at Blue; build g2 at Blue; build g3 at Amnykon
+capture g1 at Blue
+convert g2 to r2 at Amnykon
+convert r1 to y1 at Blue
+sacrifice r2 at Amnykon; capture y1 at Blue; capture g1 at Blue
+move y1 from Mobynostromo to Blue
+move g1 from Blue to Green (g2)
+build y1 at Mobynostromo
+sacrifice g3 at Amnykon; build g3 at Amnykon; build g3 at Blue; build g3 at Green
+convert y1 to r1 at Mobynostromo
+convert g2 to r2 at Blue
+move y1 from Blue to Amnykon
+sacrifice g3 at Green; build g2 at Green; build g3 at Blue; build r1 at Blue
+build r1 at Mobynostromo
+sacrifice g3 at Amnykon; build g3 at Amnykon; build y1 at Blue; build y2 at Blue
+move r1 from Mobynostromo to Bismuth (y3)
+sacrifice y2 at Blue; move y1 from Blue to Mobynostromo; move y1 from Blue to Mobynostromo
+capture y1 at Mobynostromo
+sacrifice g3 at Amnykon; build g3 at Amnykon; build y2 at Mobynostromo; build r2 at Blue; catastrophe yellow at Mobynostromo

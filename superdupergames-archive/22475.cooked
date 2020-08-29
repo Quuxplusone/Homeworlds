@@ -1,0 +1,86 @@
+Tuxhedoh (0, b2g1) r3-
+Bugggg (1, y3b2) -g3
+build r1 at Tuxhedoh
+build g1 at Bugggg
+convert r1 to y1 at Tuxhedoh
+convert g1 to r1 at Bugggg
+build y1 at Tuxhedoh
+build r1 at Bugggg
+move y1 from Tuxhedoh to Tux2 (g3)
+move r1 from Bugggg to Bug2 (r1)
+build r2 at Tuxhedoh
+build r2 at Bugggg
+convert r2 to b2 at Tuxhedoh
+convert r1 to y1 at Bugggg
+move b2 from Tuxhedoh to Tux2
+build g1 at Bugggg
+build y2 at Tux2
+convert g1 to b1 at Bugggg
+move y2 from Tux2 to Bug2
+build r1 at Bugggg
+capture r1 at Bug2
+build g1 at Bugggg
+move r1 from Bug2 to Tux2
+move r2 from Bugggg to Bug2
+build r2 at Tux2
+capture y2 at Bug2
+convert r1 to g1 at Tux2
+move g1 from Bugggg to Bug2
+build y2 at Tux2
+move b1 from Bugggg to Bug2
+build g2 at Tux2
+move g1 from Bug2 to Tux2; catastrophe green at Tux2
+build r1 at Tuxhedoh
+build r2 at Bugggg
+convert r1 to b1 at Tuxhedoh
+build g1 at Bugggg
+build y1 at Tuxhedoh
+move g1 from Bugggg to Bug2
+convert y1 to r1 at Tuxhedoh
+build b1 at Bug2
+build b2 at Tuxhedoh
+move b1 from Bug2 to Bug3 (y3)
+convert b2 to g2 at Tuxhedoh
+move r2 from Bug2 to Bug3
+build g1 at Tuxhedoh
+move g1 from Bug2 to Bug3
+move g2 from Tuxhedoh to Bug3
+capture g2 at Bug3
+build g2 at Tuxhedoh
+move g1 from Bug3 to Tuxhedoh; catastrophe green at Tuxhedoh
+convert b1 to g1 at Tuxhedoh
+build g1 at Bugggg
+move r3 from Tuxhedoh to Bug3
+move r2 from Bug3 to Tuxhedoh
+move r3 from Bug3 to Tuxhedoh
+capture g1 at Tuxhedoh
+capture r2 at Tuxhedoh
+move r2 from Bugggg to Bug2
+move r1 from Tuxhedoh to Bug2
+capture r1 at Bug2
+move r2 from Tuxhedoh to Bug2; catastrophe red at Bug2
+build b1 at Bug3
+capture g1 at Tuxhedoh
+convert b1 to y1 at Bug3
+build r1 at Tuxhedoh
+build y2 at Bug3
+move y1 from Tuxhedoh to Bug3; catastrophe yellow at Bug3
+build y1 at Bugggg
+convert r1 to y1 at Tuxhedoh
+build y2 at Bugggg
+build y2 at Tuxhedoh
+convert y2 to r2 at Bugggg
+move r3 from Tuxhedoh to Tux2 (g3)
+build r1 at Bugggg
+build r1 at Tux2
+move r2 from Bugggg to Bug2 (g1)
+convert y1 to b1 at Tuxhedoh
+build r2 at Bug2
+move b1 from Tuxhedoh to Tux2
+move y1 from Bugggg to Bug2
+build r2 at Tux2
+move r2 from Bug2 to Tux2; catastrophe red at Tux2
+build g2 at Tuxhedoh
+move r2 from Bug2 to Tuxhedoh
+convert g2 to r2 at Tuxhedoh
+capture r2 at Tuxhedoh

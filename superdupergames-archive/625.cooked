@@ -1,0 +1,26 @@
+Jeep (0, b3g1) y3-
+Jesse (1, y2b1) -g3
+build y1 at Jeep
+build g1 at Jesse
+move y1 from Jeep to Trav (y2)
+move g1 from Jesse to Ungo (b3)
+convert y3 to g3 at Jeep
+build g1 at Jesse
+move y1 from Trav to Jeep
+build g2 at Ungo
+build y1 at Jeep
+convert g2 to y2 at Ungo
+move y1 from Jeep to Tradago (b2)
+build g2 at Jesse
+sacrifice g3 at Jeep; build y1 at Tradago; build y2 at Jeep; build y3 at Jeep
+build y3 at Ungo
+convert y3 to g3 at Jeep
+sacrifice g3 at Jesse; build g2 at Ungo; build g2 at Ungo; build g3 at Jesse
+convert y1 to r1 at Tradago
+convert g2 to r2 at Jesse
+convert y2 to b2 at Jeep
+move g2 from Ungo to Sol (y2)
+build b1 at Jeep
+sacrifice g3 at Jesse; build g2 at Sol; build g3 at Ungo; build g3 at Jesse
+sacrifice g3 at Jeep; build y1 at Tradago; build r1 at Tradago; build y3 at Jeep
+sacrifice g3 at Jesse; build g3 at Jesse; build g3 at Sol; build r1 at Jesse

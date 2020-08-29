@@ -1,0 +1,25 @@
+Matrixfrog (0, b3g1) y3-
+Samaculus (1, g3y2) -r3
+build y1 at Matrixfrog
+build r1 at Samaculus
+build y1 at Matrixfrog
+move r3 from Samaculus to Cheddar (y1)
+convert y1 to r1 at Matrixfrog
+build r1 at Samaculus
+build r2 at Matrixfrog
+move r1 from Samaculus to Wave (b1)
+build r2 at Matrixfrog
+convert r1 to g1 at Wave
+move r2 from Matrixfrog to Aqua (b2)
+build r1 at Samaculus
+sacrifice y1 at Matrixfrog; move r2 from Aqua to Wave
+move r3 from Cheddar to Deep (b2)
+capture g1 at Wave
+convert r3 to g3 at Deep
+build r2 at Wave
+move r1 from Samaculus to Wave
+capture r1 at Wave
+build r3 at Samaculus
+move r1 from Matrixfrog to Deep
+build r3 at Samaculus
+sacrifice y3 at Matrixfrog; move r2 from Wave to Samaculus; move r2 from Wave to Samaculus; move r1 from Wave to Samaculus; catastrophe red at Samaculus

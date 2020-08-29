@@ -1,0 +1,20 @@
+Gluco (0, b1y2) g3-
+Keith (1, y1b3) -g3
+build g1 at Gluco
+build g1 at Keith
+convert g1 to y1 at Gluco
+convert g1 to y1 at Keith
+move y1 from Gluco to Zx (g3)
+build y2 at Keith
+build y2 at Zx
+move y2 from Keith to Midworld (g2)
+move y1 from Zx to Yptl (g2)
+convert y1 to b1 at Keith
+build y1 at Yptl
+build y3 at Midworld
+build y3 at Yptl
+convert g3 to r3 at Keith
+move y2 from Zx to Yert (g2)
+sacrifice y3 at Midworld; move r3 from Keith to Midworld; move r3 from Midworld to Redalert (y3); move r3 from Redalert to Gluco
+convert g3 to r3 at Gluco
+capture r3 at Gluco

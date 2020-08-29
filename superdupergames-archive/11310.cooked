@@ -1,0 +1,17 @@
+Madwuher (0, y2b3) g3-
+Smartmo (1, g3y1) -b3
+build g1 at Madwuher
+build b1 at Smartmo
+build g1 at Madwuher
+build b1 at Smartmo
+move g1 from Madwuher to Bluetopia (b1)
+convert b1 to y1 at Smartmo
+build g1 at Madwuher
+build b1 at Smartmo
+build g2 at Bluetopia
+convert b3 to g3 at Smartmo
+build g2 at Bluetopia
+build b2 at Smartmo
+convert g2 to y2 at Bluetopia
+move b1 from Smartmo to Alpha (b2)
+convert g2 to b2 at Bluetopia

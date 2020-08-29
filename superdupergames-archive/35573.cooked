@@ -1,0 +1,60 @@
+Dragon76N (0, g2r3) b3-
+Dther (1, b2r1) -g3
+build b1 at Dragon76N
+build g1 at Dther
+convert b1 to y1 at Dragon76N
+convert g1 to y1 at Dther
+build b1 at Dragon76N
+build g1 at Dther
+convert b1 to g1 at Dragon76N
+convert g1 to b1 at Dther
+build b1 at Dragon76N
+build g1 at Dther
+convert b1 to r1 at Dragon76N
+convert g1 to r1 at Dther
+build r2 at Dragon76N
+build g1 at Dther
+move r2 from Dragon76N to Bluone (b1)
+build r2 at Dther
+move g1 from Dragon76N to Bluone
+move r2 from Dther to Bigblue (b3)
+convert r2 to y2 at Bluone
+build r2 at Dther
+move r1 from Dragon76N to Bluone
+move r2 from Dther to Bigyellow (y3)
+convert b3 to r3 at Dragon76N
+move r1 from Dther to Biggreen (g3)
+move y2 from Bluone to Biggreen
+build r2 at Biggreen
+sacrifice r1 at Bluone; capture r2 at Biggreen
+move g1 from Dther to Bigred (r3)
+build r1 at Biggreen
+sacrifice g1 at Bigred; build r3 at Bigblue
+capture r1 at Biggreen
+convert r3 to y3 at Bigblue
+sacrifice y2 at Biggreen; move r1 from Biggreen to Dther; move r1 from Biggreen to Dther
+move r2 from Bigyellow to Bluone
+sacrifice g1 at Bluone; build r3 at Dther; catastrophe red at Dther
+convert b1 to r1 at Dther
+build y1 at Dragon76N
+sacrifice y3 at Bigblue; move r2 from Bigblue to Bluone; move r2 from Bluone to Dragon76N; move r2 from Bluone to Dragon76N; catastrophe red at Dragon76N
+build y2 at Dragon76N
+build y2 at Dther
+move y1 from Dragon76N to Bluone (b1)
+move y1 from Dther to Biggreen2 (g3)
+convert y1 to b1 at Bluone
+build y1 at Biggreen2
+sacrifice y2 at Dragon76N; move r2 from Biggreen to Dragon76N; move b1 from Bluone to Dragon76N
+build y2 at Biggreen2
+move y1 from Dragon76N to Greone (g1)
+move y2 from Biggreen2 to Smlgreen (g1)
+build r1 at Dragon76N
+sacrifice g3 at Dther; build y2 at Biggreen2; build y3 at Dther; build y3 at Smlgreen
+build y3 at Greone
+sacrifice y2 at Biggreen2; move y1 from Biggreen2 to Greone; move y1 from Biggreen2 to Greone; catastrophe yellow at Greone
+convert r1 to y1 at Dragon76N
+move y3 from Smlgreen to Dragon76N
+move r2 from Dragon76N to Yelone (y1)
+convert y3 to r3 at Dther
+build y1 at Dragon76N
+sacrifice r3 at Dther; capture y1 at Dragon76N; capture y1 at Dragon76N; capture b1 at Dragon76N

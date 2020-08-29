@@ -1,0 +1,17 @@
+Dragon76N (0, b1y2) g3-
+Dlwillson (1, b2y3) -g3
+build g1 at Dragon76N
+build g1 at Dlwillson
+convert g1 to y1 at Dragon76N
+convert g1 to y1 at Dlwillson
+build g1 at Dragon76N
+move y1 from Dlwillson to Field (g1)
+convert g1 to b1 at Dragon76N
+build y1 at Field
+build y2 at Dragon76N
+move y1 from Field to Forest (g3)
+convert y2 to r2 at Dragon76N
+build g1 at Dlwillson
+move r2 from Dragon76N to Forest
+move y1 from Forest to Mossy (g1)
+build b1 at Dragon76N

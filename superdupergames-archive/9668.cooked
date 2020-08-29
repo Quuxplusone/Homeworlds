@@ -1,0 +1,75 @@
+Wyons (0, r1b2) g3-
+Twoshort (1, r3b1) -g3
+build g1 at Wyons
+build g1 at Twoshort
+convert g1 to y1 at Wyons
+convert g1 to b1 at Twoshort
+build y1 at Wyons
+build b1 at Twoshort
+build y1 at Wyons
+build g1 at Twoshort
+move y1 from Wyons to Headington (g3)
+convert g3 to y3 at Twoshort
+build y2 at Wyons
+build y2 at Twoshort
+build y2 at Headington
+move y2 from Twoshort to Bluonia (b2)
+convert y2 to b2 at Wyons
+move b1 from Twoshort to Grogar (g2)
+move b2 from Wyons to Oxford (g3)
+build b3 at Grogar
+build b3 at Oxford
+convert b3 to r3 at Grogar
+convert b2 to r2 at Oxford
+build y2 at Twoshort
+move y1 from Wyons to Oxford
+convert y2 to g2 at Twoshort
+move y2 from Headington to Uk (r2)
+sacrifice g2 at Twoshort; build y2 at Twoshort; build y3 at Bluonia
+build y3 at Headington
+move y2 from Twoshort to Grogar
+sacrifice y2 at Uk; move y1 from Headington to Bluonia; move y1 from Oxford to Bluonia; catastrophe yellow at Bluonia
+build b2 at Grogar
+build y1 at Wyons
+move b1 from Grogar to Yolonda (y3)
+move y1 from Wyons to Oxford
+build b2 at Grogar
+build b3 at Oxford
+sacrifice y2 at Grogar; move b2 from Grogar to Oxford; move b2 from Grogar to Oxford; catastrophe blue at Oxford
+build y1 at Headington
+build y2 at Twoshort
+build y2 at Wyons
+move y2 from Twoshort to Grogar
+convert y2 to b2 at Wyons
+move r3 from Grogar to Oxford
+move r2 from Oxford to Grogar
+capture y1 at Oxford
+capture y2 at Grogar
+sacrifice y1 at Oxford; move r3 from Oxford to Grogar
+sacrifice y2 at Grogar; move r2 from Grogar to Yolonda; move b2 from Wyons to Headington
+move b1 from Yolonda to Grogar
+build g1 at Wyons
+build r1 at Grogar
+convert y1 to r1 at Headington
+convert r3 to g3 at Grogar
+build r2 at Headington
+build g1 at Twoshort
+move g1 from Wyons to Yolonda
+move b1 from Twoshort to Yoyo (y2)
+build g2 at Wyons
+move g1 from Twoshort to Yoyo
+sacrifice g3 at Wyons; build g2 at Yolonda; build g3 at Wyons; build y1 at Headington
+sacrifice g3 at Grogar; build g3 at Yoyo; build b2 at Yoyo; build b3 at Grogar
+sacrifice g3 at Wyons; build g3 at Wyons; build b3 at Headington; build y1 at Wyons
+sacrifice g3 at Yoyo; build y2 at Twoshort; build r2 at Grogar; build g3 at Yoyo
+sacrifice g3 at Wyons; build r3 at Yolonda; build g3 at Wyons; build y2 at Wyons
+convert g3 to r3 at Yoyo
+convert b3 to g3 at Headington
+move b1 from Yoyo to Headington
+capture b1 at Headington
+sacrifice b2 at Yoyo; convert y3 to b3 at Twoshort; convert b3 to y3 at Grogar
+sacrifice y2 at Wyons; move g3 from Headington to Solsys (y2); move b1 from Headington to Solsys
+move r1 from Grogar to Blueit (b3)
+sacrifice g3 at Wyons; build g3 at Wyons; build b2 at Solsys; build b3 at Headington
+move r3 from Yoyo to Twoshort
+move b3 from Headington to Yoyo

@@ -1,0 +1,58 @@
+Nicknack (0, r2b1) g3-
+Dlwillson (1, b3r2) -g3
+build g1 at Nicknack
+build g1 at Dlwillson
+convert g1 to y1 at Nicknack
+convert g1 to y1 at Dlwillson
+build g1 at Nicknack
+build g1 at Dlwillson
+move g1 from Nicknack to Beta (y3)
+convert g1 to b1 at Dlwillson
+build g1 at Nicknack
+build b1 at Dlwillson
+move g1 from Nicknack to Gamma (b3)
+move b1 from Dlwillson to Field (g1)
+build g2 at Nicknack
+build g2 at Dlwillson
+sacrifice g3 at Nicknack; build g2 at Beta; build g3 at Gamma; build g3 at Nicknack
+convert b1 to r1 at Dlwillson
+convert g3 to y3 at Gamma
+move g2 from Dlwillson to Sol (y1)
+build g3 at Gamma
+build y2 at Dlwillson
+build y2 at Nicknack
+move y1 from Dlwillson to Field
+move g2 from Nicknack to Delta (y3)
+move b1 from Field to Gamma
+move g1 from Gamma to Zeta (b1)
+sacrifice g2 at Sol; build b2 at Gamma; build b2 at Gamma; catastrophe blue at Gamma
+move g2 from Beta to Gamma (b1)
+sacrifice g3 at Dlwillson; build y1 at Field; build y2 at Field; build y3 at Dlwillson
+convert g2 to r2 at Gamma
+convert y2 to g2 at Dlwillson
+convert g1 to r1 at Zeta
+move r1 from Dlwillson to Field
+sacrifice y2 at Nicknack; move r2 from Gamma to Dlwillson; move r1 from Zeta to Dlwillson
+capture r2 at Dlwillson
+sacrifice g1 at Beta; build r1 at Dlwillson; catastrophe red at Dlwillson
+move y2 from Field to Delta
+move g2 from Delta to Beta (b2)
+build y2 at Field
+build y2 at Nicknack
+build y3 at Dlwillson
+build g1 at Beta
+convert y3 to r3 at Dlwillson
+convert g1 to b1 at Beta
+move y2 from Delta to Beta
+sacrifice y2 at Nicknack; move g2 from Beta to Delta (r1); move b1 from Beta to Delta
+move y3 from Dlwillson to Delta
+sacrifice g2 at Delta; build b1 at Delta; build b2 at Delta
+capture b2 at Delta
+build y2 at Nicknack
+capture b1 at Delta
+sacrifice y1 at Nicknack; move b1 from Delta to Gamma (g2)
+move y2 from Field to Gamma
+sacrifice y2 at Nicknack; move b1 from Gamma to T1 (g3); move b1 from T1 to Nicknack
+move b2 from Delta to Forest (g3)
+build g1 at Nicknack
+sacrifice y3 at Delta; move b1 from Delta to Forest; move b1 from Forest to Nicknack; move b2 from Forest to Nicknack; catastrophe blue at Nicknack

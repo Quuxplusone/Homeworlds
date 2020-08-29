@@ -1,0 +1,10 @@
+Ausmuh (0, g3y1) b3-
+Felix (1, b3y2) -g3
+build b1 at Ausmuh
+build g1 at Felix
+convert b1 to y1 at Ausmuh
+convert g1 to y1 at Felix
+build y2 at Ausmuh
+build y2 at Felix
+move y1 from Ausmuh to Mw1 (g2)
+move y2 from Felix to Fort (g1)

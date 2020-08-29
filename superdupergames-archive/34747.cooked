@@ -1,0 +1,19 @@
+Laurie_Menke (0, y3b1) g3-
+Mneme (1, r1g3) -b3
+build g1 at Laurie_Menke
+build b1 at Mneme
+convert g1 to r1 at Laurie_Menke
+build b1 at Mneme
+build g1 at Laurie_Menke
+convert b3 to y3 at Mneme
+build r1 at Laurie_Menke
+build b2 at Mneme
+build g1 at Laurie_Menke
+convert b2 to g2 at Mneme
+build r2 at Laurie_Menke
+move g2 from Mneme to Caliope (y2)
+move g1 from Laurie_Menke to Caliope
+build b2 at Mneme
+convert r2 to y2 at Laurie_Menke
+convert b2 to r2 at Mneme
+move g1 from Caliope to Mneme

@@ -1,0 +1,41 @@
+Simon (0, g3r1) b3-
+Bhorner (1, r1b2) -g3
+build b1 at Simon
+build g1 at Bhorner
+convert b1 to r1 at Simon
+build g1 at Bhorner
+build r2 at Simon
+convert g1 to y1 at Bhorner
+convert r2 to y2 at Simon
+build y1 at Bhorner
+build r2 at Simon
+move y1 from Bhorner to Tree (g3)
+convert r2 to g2 at Simon
+move y1 from Tree to Happy (y1)
+build y2 at Simon
+sacrifice g3 at Bhorner; build y2 at Happy; build y3 at Bhorner; build y3 at Bhorner
+move y2 from Simon to B2 (b2)
+sacrifice y2 at Happy; move y1 from Happy to Cloud (b2); move y1 from Bhorner to Volcano (r3)
+move g2 from Simon to Cloud
+convert y3 to r3 at Bhorner
+build r2 at Simon
+build r2 at Bhorner
+move r2 from Simon to Cloud
+move r2 from Bhorner to Fire (r3)
+capture y1 at Cloud
+move y3 from Bhorner to Tree (g3)
+build y1 at Cloud
+build g1 at Bhorner
+build g1 at Cloud
+convert g1 to b1 at Bhorner
+build r2 at Cloud
+sacrifice b1 at Bhorner; convert r2 to g2 at Fire
+move y1 from Cloud to Tree
+move y3 from Tree to Bush (g2)
+move g2 from Cloud to Volcano
+move y1 from Volcano to Bhorner
+move r2 from Cloud to Tree
+move y3 from Bush to Volcano
+sacrifice g2 at Volcano; build y2 at Tree; build r2 at Tree
+move r3 from Bhorner to Tree
+build y3 at Cloud

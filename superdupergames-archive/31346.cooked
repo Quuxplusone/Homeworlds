@@ -1,0 +1,29 @@
+Babamots (0, b3r1) g3-
+Foksieloy (1, b1y2) -g3
+build g1 at Babamots
+build g1 at Foksieloy
+convert g1 to y1 at Babamots
+convert g1 to y1 at Foksieloy
+build g1 at Babamots
+build g1 at Foksieloy
+move g1 from Babamots to Iconia (b2)
+move g1 from Foksieloy to Annie (b3)
+build g1 at Babamots
+build g2 at Annie
+move g1 from Babamots to Vandros (b2)
+convert g2 to r2 at Annie
+build g2 at Babamots
+build g2 at Annie
+sacrifice g3 at Babamots; build g2 at Iconia; build g3 at Vandros; build g3 at Babamots
+convert g2 to y2 at Annie
+convert g1 to r1 at Iconia
+move g1 from Annie to Tibbers (b1)
+convert g1 to y1 at Vandros
+build g1 at Foksieloy
+move g3 from Vandros to Celtris (b3)
+sacrifice g1 at Foksieloy; build y2 at Annie
+sacrifice g3 at Babamots; build y3 at Babamots; build y3 at Vandros; build g1 at Celtris
+move y1 from Foksieloy to Teemo (y3)
+sacrifice y1 at Babamots; move g3 from Celtris to Foksieloy
+convert g3 to r3 at Foksieloy
+sacrifice r1 at Iconia; capture r3 at Foksieloy

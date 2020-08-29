@@ -1,0 +1,45 @@
+Wil (0, r2b1) g3-
+Kanzenryu (1, b2y3) -g3
+build g1 at Wil
+build g1 at Kanzenryu
+convert g1 to b1 at Wil
+convert g1 to y1 at Kanzenryu
+build b1 at Wil
+build g1 at Kanzenryu
+convert g3 to y3 at Wil
+move g1 from Kanzenryu to First (y1)
+move b1 from Wil to G3 (g3)
+build g1 at Kanzenryu
+convert y3 to g3 at Wil
+move g1 from Kanzenryu to Dwarf (y1)
+sacrifice g3 at Wil; build b2 at G3; build b2 at G3; build b3 at Wil
+build y2 at Kanzenryu
+convert b3 to g3 at Wil
+convert y2 to r2 at Kanzenryu
+build b3 at Wil
+build r1 at Kanzenryu
+convert b3 to r3 at Wil
+build y2 at Kanzenryu
+build b3 at Wil
+move r2 from Kanzenryu to First
+convert b3 to y3 at Wil
+move y2 from Kanzenryu to Dwarf
+build y2 at Wil
+move r2 from First to Peep (y3)
+move r3 from Wil to Peep
+sacrifice g1 at First; build r1 at Peep
+move r3 from Peep to Dwarf
+move g1 from Dwarf to Peep
+capture y2 at Dwarf
+build r1 at Peep
+convert b2 to y2 at G3
+move r1 from Peep to Wil
+capture r1 at Wil
+move r2 from Peep to Wil
+convert r1 to y1 at Wil
+sacrifice g1 at Peep; build r1 at Wil
+move y3 from Wil to Peep
+move r1 from Peep to Wil; catastrophe red at Wil
+sacrifice y2 at G3; move y2 from Dwarf to Kanzenryu; move y1 from Wil to Kanzenryu; catastrophe yellow at Kanzenryu
+build g1 at Kanzenryu
+sacrifice y3 at Peep; move b1 from Wil to Kanzenryu; move b2 from G3 to Kanzenryu; move b1 from G3 to Kanzenryu; catastrophe blue at Kanzenryu

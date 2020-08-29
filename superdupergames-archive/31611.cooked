@@ -1,0 +1,32 @@
+Redmerlin (0, y2b1) g3-
+Wil (1, r3b2) -g3
+build g1 at Redmerlin
+build g1 at Wil
+convert g1 to b1 at Redmerlin
+convert g1 to b1 at Wil
+move b1 from Redmerlin to A3 (g3)
+build b2 at Wil
+build g1 at Redmerlin
+convert b1 to y1 at Wil
+build g1 at Redmerlin
+build y1 at Wil
+convert g1 to y1 at Redmerlin
+move y1 from Wil to G1 (g1)
+build y2 at Redmerlin
+build y2 at G1
+move y2 from Redmerlin to A3
+sacrifice g3 at Wil; build y3 at Wil; build y3 at Wil; build y3 at G1
+move g1 from Redmerlin to B3 (b3)
+move y2 from G1 to B3
+move y1 from Redmerlin to A3
+sacrifice b2 at Wil; convert y3 to r3 at G1; convert y3 to g3 at Wil
+convert y2 to r2 at A3
+sacrifice g3 at Wil; build y2 at B3; build y3 at Wil; build y3 at G1
+build g1 at Redmerlin
+move y3 from G1 to A3
+sacrifice g3 at Redmerlin; build g2 at Redmerlin; build b1 at A3; build b2 at A3
+sacrifice r3 at G1; capture g1 at B3; capture b2 at A3; capture r2 at A3
+move y1 from A3 to C1 (r1)
+move y3 from A3 to Redmerlin
+convert g1 to r1 at Redmerlin
+sacrifice r2 at A3; capture g2 at Redmerlin; capture r1 at Redmerlin

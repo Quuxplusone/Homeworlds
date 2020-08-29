@@ -1,0 +1,81 @@
+Twoshort (0, b2r1) g3-
+Jbj77 (1, r3b1) -g3
+build g1 at Twoshort
+build g1 at Jbj77
+convert g1 to y1 at Twoshort
+convert g1 to y1 at Jbj77
+build g1 at Twoshort
+build g1 at Jbj77
+move g1 from Twoshort to Yolonda (y3)
+move g1 from Jbj77 to Alpha (y2)
+build y1 at Twoshort
+build y2 at Jbj77
+move y1 from Twoshort to Bluestar (b3)
+move y1 from Jbj77 to Beta (b2)
+build g1 at Twoshort
+convert y1 to r1 at Beta
+build y1 at Twoshort
+move g1 from Alpha to Yolonda
+move g1 from Yolonda to Yellonia (y2)
+build g2 at Jbj77
+move y1 from Twoshort to Yolonda
+sacrifice r1 at Beta; capture y1 at Yolonda
+sacrifice g3 at Twoshort; build y2 at Bluestar; build y3 at Bluestar; build y3 at Twoshort
+sacrifice y2 at Jbj77; move y1 from Yolonda to Twoshort; move y1 from Twoshort to Bluestar; catastrophe yellow at Bluestar
+build g2 at Yellonia
+convert g2 to y2 at Jbj77
+build g2 at Twoshort
+build g2 at Yolonda
+convert g2 to r2 at Twoshort
+build y1 at Jbj77
+move r2 from Twoshort to Yolonda
+move g2 from Yolonda to Beta (b2)
+convert y3 to g3 at Twoshort
+sacrifice g3 at Jbj77; build g2 at Beta; build g3 at Beta; build g3 at Yolonda
+move g1 from Yellonia to Yolonda
+move g3 from Yolonda to Twoshort
+sacrifice r2 at Yolonda; capture g1 at Yolonda; capture g3 at Twoshort
+sacrifice y2 at Jbj77; move g2 from Beta to Yolonda; move g2 from Yolonda to Twoshort; catastrophe green at Twoshort
+move g2 from Yellonia to Jbj77
+sacrifice y1 at Jbj77; move g3 from Beta to Jbj77
+build g1 at Jbj77
+convert g3 to y3 at Jbj77
+build g2 at Jbj77
+build g3 at Beta
+build g3 at Yolonda
+convert g3 to y3 at Beta
+move g1 from Yolonda to Twoshort
+build g3 at Beta
+sacrifice g3 at Yolonda; build g3 at Twoshort; build g3 at Yolonda; build y1 at Twoshort
+convert g2 to r2 at Beta
+convert g1 to r1 at Twoshort
+capture g2 at Jbj77
+sacrifice g3 at Yolonda; build g1 at Jbj77; build g2 at Yolonda; build g3 at Twoshort; catastrophe green at Jbj77
+build g1 at Beta
+move g1 from Yolonda to Banzai (b2)
+move g3 from Beta to Gamma (b3)
+convert y1 to b1 at Twoshort
+build y1 at Beta
+convert g1 to b1 at Banzai
+convert y3 to b3 at Beta
+sacrifice g3 at Twoshort; build b3 at Banzai; build y1 at Twoshort; build y2 at Twoshort
+move b3 from Beta to Delta (y3)
+move y1 from Twoshort to Grogar (g3)
+sacrifice g3 at Gamma; build b3 at Delta; build y2 at Jbj77; build y2 at Beta
+sacrifice y2 at Twoshort; move b1 from Twoshort to Delta; move b1 from Banzai to Delta; catastrophe blue at Delta
+convert y2 to g2 at Jbj77
+build y2 at Grogar
+move g1 from Beta to Epsilon (y3)
+move y1 from Grogar to Banzai
+move y1 from Beta to Yolonda
+convert b3 to r3 at Banzai
+build y2 at Jbj77
+move r3 from Banzai to Epsilon
+move g1 from Epsilon to Beta
+sacrifice r1 at Twoshort; capture y1 at Yolonda
+move r2 from Beta to Yolonda
+move y1 from Yolonda to Beta
+convert y2 to r2 at Jbj77
+move r3 from Epsilon to Beta
+capture g2 at Yolonda
+capture y2 at Beta

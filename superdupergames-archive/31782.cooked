@@ -1,0 +1,65 @@
+Ts52 (0, y3b1) g3-
+Felix (1, b2r3) -g3
+build g1 at Ts52
+build g1 at Felix
+convert g1 to b1 at Ts52
+convert g1 to b1 at Felix
+build b2 at Ts52
+build b2 at Felix
+move b2 from Ts52 to Kermit (g2)
+convert b2 to y2 at Felix
+build g1 at Ts52
+build g1 at Felix
+convert g1 to y1 at Ts52
+move b1 from Felix to Out (g1)
+move y1 from Ts52 to Kermit
+build y1 at Felix
+move b1 from Ts52 to Kermit
+move g1 from Felix to Rot (r1)
+convert b1 to r1 at Kermit
+convert y1 to r1 at Felix
+build r2 at Kermit
+build r2 at Felix
+move r2 from Kermit to Out
+convert r2 to b2 at Felix
+capture b1 at Out
+build y1 at Felix
+build b1 at Out
+move b2 from Felix to Rot
+build b3 at Out
+build b3 at Rot
+build b3 at Kermit
+convert b3 to y3 at Rot
+convert b3 to y3 at Out
+build b3 at Rot
+build b3 at Out
+sacrifice y2 at Felix; move b2 from Rot to Kermit; move b2 from Kermit to Out; catastrophe blue at Out
+build r2 at Out
+move r1 from Felix to G1 (g1)
+build g2 at Ts52
+build g2 at Felix
+sacrifice g3 at Ts52; build g3 at Ts52; build r2 at Out; build r3 at Kermit
+sacrifice g3 at Felix; build g3 at Felix; build g3 at Rot; build r3 at G1
+move r3 from Kermit to Ts52
+sacrifice g3 at Rot; build g3 at Rot; build y1 at Rot; build b1 at Rot
+sacrifice g3 at Ts52; build g3 at Ts52; build y2 at Kermit; build y2 at Out
+move b3 from Rot to Ritz (y2)
+move b2 from Kermit to Out
+sacrifice g3 at Felix; build g3 at Felix; build b1 at Ritz; build b2 at Rot
+build b3 at Out
+move g1 from Rot to Ritz
+sacrifice y1 at Kermit; move b3 from Kermit to Bigbird (y1)
+sacrifice g2 at Felix; build g2 at Ritz
+move b2 from Out to Felix
+sacrifice y3 at Rot; move r1 from G1 to Ritz; move r1 from Ritz to Out; move g1 from Ritz to Ts52; catastrophe red at Out
+sacrifice g3 at Ts52; build r1 at Kermit; build r2 at Kermit; build y3 at Kermit
+build g3 at Ts52
+capture g3 at Ts52
+sacrifice g2 at Ritz; build g2 at Ts52; build r2 at G1; catastrophe green at Ts52
+move r2 from Kermit to Bigbird
+move g3 from Rot to Kermit
+sacrifice y2 at Kermit; move r1 from Kermit to Out; move r1 from Kermit to Robin (g1)
+sacrifice r2 at G1; capture y3 at Kermit; capture b2 at Felix
+sacrifice y2 at Out; move b3 from Out to Felix; move b3 from Bigbird to Felix; catastrophe blue at Felix
+sacrifice g3 at Felix
+sacrifice y3 at Out; move r1 from Out to Felix; move r1 from Robin to Felix; move r2 from Bigbird to Felix; catastrophe red at Felix

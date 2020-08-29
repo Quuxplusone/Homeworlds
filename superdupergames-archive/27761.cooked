@@ -1,0 +1,51 @@
+Simon (0, b3y1) g3-
+Aghmarck (1, b1g2) -y3
+build g1 at Simon
+build y1 at Aghmarck
+convert g1 to y1 at Simon
+convert y1 to b1 at Aghmarck
+build g1 at Simon
+build b1 at Aghmarck
+build y1 at Simon
+build y2 at Aghmarck
+move y1 from Simon to Leaf (g2)
+move b1 from Aghmarck to Verdega (g3)
+build y2 at Leaf
+move y2 from Aghmarck to Verdega
+build y2 at Simon
+build y3 at Aghmarck
+convert y2 to b2 at Simon
+build b2 at Verdega
+move b2 from Simon to Leaf
+move b2 from Verdega to Verda (g2)
+move g1 from Simon to Sea (b2)
+build b3 at Verda
+build b3 at Leaf
+convert b3 to r3 at Verda
+convert b2 to r2 at Leaf
+build b2 at Verda
+build b3 at Leaf
+sacrifice y3 at Aghmarck; move b1 from Verdega to Leaf; move b2 from Verda to Simon; move b2 from Simon to Leaf; catastrophe blue at Leaf
+build g1 at Simon
+build y2 at Verdega
+sacrifice g3 at Simon; build g1 at Sea; build g3 at Sea; build g3 at Simon
+build y3 at Aghmarck
+convert g3 to y3 at Sea
+build b1 at Verda
+sacrifice g3 at Simon; build g3 at Simon; build g3 at Sea; build r1 at Leaf
+build b2 at Verda
+move g3 from Sea to Verdega
+sacrifice y2 at Verdega; move r3 from Verda to Verdega; move r3 from Verdega to Leaf
+sacrifice g3 at Simon; build g3 at Simon; build y2 at Sea; build r1 at Leaf; catastrophe red at Leaf
+build b3 at Aghmarck
+convert y3 to b3 at Sea
+convert b3 to r3 at Aghmarck
+convert y1 to r1 at Simon
+sacrifice y3 at Aghmarck; move b1 from Verda to Simon; move b2 from Verda to Simon; move b2 from Verda to Simon; catastrophe blue at Simon
+sacrifice g3 at Simon; build g2 at Verdega; build g3 at Simon; build r1 at Simon
+build y1 at Verdega
+sacrifice g3 at Simon; build g3 at Simon; build y3 at Sea; build y3 at Leaf
+move y2 from Verdega to Blua (b2)
+move b3 from Sea to Cow (r3)
+convert y3 to r3 at Aghmarck
+sacrifice r1 at Simon; capture y1 at Verdega

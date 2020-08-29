@@ -1,0 +1,53 @@
+Draw5Playall (0, b3r1) g3-
+Ts52 (1, y2b3) -g3
+build g1 at Draw5Playall
+build g1 at Ts52
+convert g1 to y1 at Draw5Playall
+convert g1 to y1 at Ts52
+build g1 at Draw5Playall
+build g1 at Ts52
+convert g1 to b1 at Draw5Playall
+convert g1 to b1 at Ts52
+build g1 at Draw5Playall
+build g1 at Ts52
+move b1 from Draw5Playall to G2 (g2)
+move g1 from Ts52 to Elmo (r1)
+move g1 from Draw5Playall to B2 (b2)
+move b1 from Ts52 to Elmo
+convert g1 to r1 at B2
+build g1 at Ts52
+build g1 at Draw5Playall
+build g2 at Elmo
+sacrifice g3 at Draw5Playall; build g2 at Draw5Playall; build g3 at Draw5Playall; build r2 at B2
+convert g3 to r3 at Ts52
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y1 at Draw5Playall; build y2 at Draw5Playall
+build g3 at Ts52
+move y1 from Draw5Playall to G2
+sacrifice g3 at Ts52; build g3 at Ts52; build g3 at Ts52; build r2 at Ts52
+sacrifice g3 at Draw5Playall; build g3 at Draw5Playall; build y2 at Draw5Playall; build y3 at G2
+move g3 from Ts52 to Grover (b1)
+move y2 from Draw5Playall to B2_ (b2)
+convert g3 to y3 at Grover
+sacrifice g1 at Draw5Playall; build y3 at B2_
+move y1 from Ts52 to Elmo
+move g2 from Draw5Playall to B2_
+move y3 from Grover to B2
+sacrifice y2 at B2_; move r2 from B2 to B1 (b1); move y3 from B2_ to Elmo
+sacrifice r2 at Ts52; capture r1 at B2
+capture g2 at Elmo
+move g1 from Elmo to B2
+capture y1 at Elmo
+build r2 at Ts52
+capture b1 at Elmo
+move r3 from Ts52 to B1
+sacrifice y1 at Draw5Playall; move r2 from B1 to B2_
+build y1 at B2
+build y2 at Draw5Playall
+move y1 from B2 to B1
+sacrifice g2 at B2_; build g1 at Elmo; build b2 at Elmo
+move r3 from B1 to B2_
+sacrifice y3 at G2; move b1 from Elmo to Ts52; move b2 from Elmo to Ts52; move b1 from G2 to Elmo
+capture r2 at B2_
+sacrifice y3 at Elmo; move b1 from Elmo to Ts52; move y1 from Elmo to Ts52; move y1 from G2 to B3 (b3); catastrophe blue at Ts52
+capture y1 at Ts52
+sacrifice y2 at Draw5Playall; move y1 from B3 to Ts52; move y2 from Draw5Playall to Ts52; catastrophe yellow at Ts52

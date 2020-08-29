@@ -1,0 +1,63 @@
+Twoshort (0, r1b2) g3-
+Mneme (1, g3b1) -y3
+build g1 at Twoshort
+build y1 at Mneme
+convert g1 to y1 at Twoshort
+convert y1 to b1 at Mneme
+build g1 at Twoshort
+build b1 at Mneme
+build g1 at Twoshort
+move b1 from Mneme to Azure (b2)
+move g1 from Twoshort to Bluonia (b3)
+build b2 at Mneme
+move g1 from Twoshort to Bluotron (b3)
+move b2 from Mneme to John (g2)
+move y1 from Twoshort to Bluzilla (b3)
+convert b2 to r2 at John
+build g1 at Twoshort
+build y1 at Mneme
+sacrifice g3 at Twoshort; build g2 at Bluonia; build g2 at Bluotron; build g3 at Twoshort
+sacrifice y1 at Mneme; move r2 from John to Bluotron
+sacrifice g3 at Twoshort; build g2 at Bluotron; build g3 at Bluonia; build g3 at Twoshort
+capture g2 at Bluotron
+convert g2 to r2 at Bluonia
+sacrifice r2 at Bluotron; capture g1 at Bluotron; capture g2 at Bluotron
+sacrifice y1 at Bluzilla; move g1 from Twoshort to Bluotron; catastrophe green at Bluotron
+build b2 at Mneme
+convert g1 to y1 at Bluonia
+move b2 from Mneme to Emerald (g2)
+move g3 from Bluonia to Emerald
+build b3 at Mneme
+sacrifice r2 at Bluonia; capture b2 at Emerald
+convert b3 to r3 at Mneme
+convert g3 to r3 at Emerald
+convert b1 to g1 at Azure
+build b1 at Emerald
+move b1 from Mneme to Forest (g2)
+convert b2 to y2 at Emerald
+build y1 at Mneme
+build g1 at Twoshort
+convert y3 to g3 at Mneme
+convert g1 to y1 at Twoshort
+build y2 at Mneme
+sacrifice g3 at Twoshort; build y2 at Emerald; build y3 at Twoshort; build y3 at Bluonia
+move y2 from Mneme to Forest
+move r3 from Emerald to Yonderboy (y3)
+build g1 at Mneme
+sacrifice y2 at Emerald; move y2 from Emerald to Mneme; move b1 from Emerald to Mneme
+sacrifice g3 at Mneme; build b2 at Forest; build y2 at Forest; build g1 at Azure
+build b3 at Mneme
+capture b3 at Mneme
+build b3 at Mneme
+capture y2 at Mneme; catastrophe blue at Mneme
+convert y3 to g3 at Twoshort
+sacrifice y2 at Mneme; move y2 from Forest to Bluonia; move y2 from Forest to Bluonia; catastrophe yellow at Bluonia
+build g2 at Twoshort
+sacrifice b1 at Forest; convert g1 to b1 at Mneme
+build g1 at Twoshort
+build b1 at Mneme
+move g1 from Twoshort to Mneme
+capture g1 at Mneme
+move g2 from Twoshort to Mneme
+move g1 from Mneme to Emerald (g2)
+sacrifice g3 at Twoshort; build g3 at Mneme; build g3 at Mneme; catastrophe green at Mneme

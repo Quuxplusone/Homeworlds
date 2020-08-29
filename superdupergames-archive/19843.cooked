@@ -1,0 +1,26 @@
+Onepagewars (0, g3y2) b3-
+Alexcobo (1, b1g3) -y3
+build b1 at Onepagewars
+build y1 at Alexcobo
+convert b1 to g1 at Onepagewars
+build y1 at Alexcobo
+build g1 at Onepagewars
+convert y1 to g1 at Alexcobo
+convert g1 to y1 at Onepagewars
+move g1 from Alexcobo to Change (b2)
+build b1 at Onepagewars
+build g1 at Change
+convert b3 to y3 at Onepagewars
+build g2 at Change
+move y1 from Onepagewars to Icehousepiece (r1)
+convert g1 to r1 at Change
+move y3 from Onepagewars to Icehousepiece
+build r1 at Change
+build g1 at Onepagewars
+convert g2 to y2 at Change
+convert g1 to b1 at Onepagewars
+build r2 at Change
+move b1 from Onepagewars to Icehousepiece
+sacrifice y3 at Alexcobo; move r1 from Change to Icehousepiece; move r1 from Change to Icehousepiece; move r2 from Change to Icehousepiece; catastrophe red at Icehousepiece
+build b1 at Onepagewars
+build y1 at Alexcobo

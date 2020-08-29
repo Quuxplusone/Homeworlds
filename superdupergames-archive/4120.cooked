@@ -1,0 +1,53 @@
+Zoltar (0, r3g1) b3-
+Antihero (1, b3y1) -g3
+build b1 at Zoltar
+build g1 at Antihero
+convert b1 to y1 at Zoltar
+move g1 from Antihero to Huntington (y2)
+build y1 at Zoltar
+build g1 at Antihero
+build y2 at Zoltar
+build g2 at Antihero
+convert y2 to r2 at Zoltar
+convert g2 to r2 at Antihero
+move r2 from Zoltar to Huntington
+build g2 at Antihero
+capture g1 at Huntington
+move g2 from Antihero to Arlington (b2)
+build y2 at Zoltar
+build g2 at Arlington
+move y1 from Zoltar to Greenbelt (g2)
+convert g2 to y2 at Arlington
+build y3 at Greenbelt
+build y3 at Arlington
+build y3 at Greenbelt
+sacrifice y3 at Arlington; move y2 from Arlington to Zoltar; move y2 from Zoltar to Greenbelt; move g1 from Antihero to Smith (b2); catastrophe yellow at Greenbelt
+build g2 at Huntington
+build g2 at Smith
+build g3 at Huntington
+build r1 at Antihero
+build r1 at Huntington
+convert r1 to y1 at Antihero
+move y1 from Zoltar to Melloyellow (y2)
+move y1 from Antihero to Smith
+sacrifice g3 at Huntington; build g3 at Huntington; build y3 at Zoltar; build y3 at Melloyellow
+build y3 at Smith
+move y3 from Melloyellow to Greenbelt (g3)
+move g2 from Smith to Blue (b1)
+move g3 from Huntington to Blue
+sacrifice g2 at Blue; build g2 at Smith; build r1 at Antihero
+move r2 from Huntington to Blue
+convert r1 to b1 at Antihero
+sacrifice g2 at Huntington; build g2 at Blue; build b1 at Zoltar
+build r1 at Antihero
+move b1 from Zoltar to Huntington
+sacrifice y3 at Smith; move g1 from Smith to Zoltar; move g2 from Smith to Zoltar; move y1 from Smith to Zoltar
+capture y1 at Zoltar
+sacrifice r2 at Antihero; capture y1 at Zoltar; capture y2 at Zoltar
+sacrifice r2 at Blue; capture y2 at Zoltar; capture y1 at Zoltar
+sacrifice g2 at Arlington; build g2 at Zoltar; catastrophe green at Zoltar
+build y3 at Greenbelt
+build r1 at Antihero
+sacrifice g3 at Blue; build b2 at Huntington; build r2 at Huntington; build b2 at Zoltar
+move r1 from Antihero to Melloyellow
+sacrifice y3 at Greenbelt; move b2 from Huntington to Antihero; move b1 from Huntington to Antihero; move y1 from Melloyellow to Antihero; catastrophe blue at Antihero
