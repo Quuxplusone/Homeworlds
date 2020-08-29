@@ -47,15 +47,15 @@ if __name__ == '__main__':
     link_rx = r'"(/main.html\?page=archive_play&gid=(\d+))"'
 
     if re.search(link_rx, r.text) is None:
-        print 'The page text did not look as expected. Perhaps your cookie has expired.'
-        print 'The cookie we tried to use was:'
+        print ('The page text did not look as expected. Perhaps your cookie has expired.')
+        print ('The cookie we tried to use was:')
         for k, v in cookies.iteritems():
-            print '    %s=%s' % (k, v)
+            print ('    %s=%s' % (k, v))
         sys.exit(1)
 
     for m in re.finditer(link_rx, r.text):
         gamenumber = int(m.group(2))
-        print '%d...' % gamenumber
+        print ('%d...' % gamenumber)
         r2 = requests.get(
             'http://superdupergames.org' + m.group(1),
             cookies = cookies,
@@ -67,16 +67,17 @@ if __name__ == '__main__':
             gametext_as_html = pagetext[first:last]
         except ValueError:
             if "Can't call method &quot;draw&quot; on an undefined value" in pagetext:
-                print '    Game %d was invalid (never started)' % gamenumber
+                print ('    Game %d was invalid (never started)' % gamenumber)
             else:
-                print '    Game %d was invalid for an unknown reason' % gamenumber
-                print pagetext
+                print ('    Game %d was invalid for an unknown reason' % gamenumber)
+                print (pagetext)
             continue
 
         soup = BeautifulSoup(gametext_as_html, features="html.parser")
         for br in soup.find_all("br"):
             br.replace_with("\n")
-        gametext = soup.get_text().strip().encode('utf-8')
+        gametext = soup.get_text().strip()
 
         with open(str(gamenumber) + '.raw', 'w') as f:
-            print >>f, gametext
+            f.write(gametext)
+            f.write('\n')
