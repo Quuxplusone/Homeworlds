@@ -35,6 +35,7 @@ static bool g_Verbose;
 static bool g_ReportBlunders;
 static bool g_VerifyTranscript;
 static bool g_SDGFormat;
+static bool g_ShowBranchingFactors;
 
 static std::string convertToString(const GameState& st) {
     return st.toString();
@@ -703,6 +704,8 @@ int main(int argc, char **argv)
             g_ReportBlunders = true;
         } else if (arg == "--sdg") {
             g_SDGFormat = true;
+        } else if (arg == "--branching-factors") {
+            g_ShowBranchingFactors = true;
         } else if (arg == "--verify") {
             g_VerifyTranscript = true;
         } else if (arg == "--auto") {
@@ -787,6 +790,22 @@ int main(int argc, char **argv)
     g_History.setup(initialState);
 
     for (int attacker = 0; 1; attacker = 1-attacker) {
+
+        if (g_ShowBranchingFactors) {
+            const GameState& st = g_History.currentState();
+            if (!g_History.currentState().gameIsOver()) {
+                int branchingFactor = 0;
+                findAllMoves(
+                    st, attacker, false, false, 0xF,
+                    [&](const WholeMove&, const GameState&) {
+                        ++branchingFactor;
+                        return false;
+                    }
+                );
+                printf("%d\n", branchingFactor);
+            }
+        }
+
         const bool keep_going = move_and_record(attacker);
         if (!keep_going) {
             break;
