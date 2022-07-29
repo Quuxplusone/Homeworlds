@@ -13,6 +13,14 @@ public:
     bool isPass() const {
         return actions.empty();
     }
+    const SingleAction *firstNonCatastropheAction() const {
+        for (const auto& action : actions) {
+            if (action.kind != CATASTROPHE) {
+                return &action;
+            }
+        }
+        return nullptr;
+    }
 
     /* We use this operation to build up whole moves piece by piece.
      * Note that any prefix of a legal move is itself a legal move,

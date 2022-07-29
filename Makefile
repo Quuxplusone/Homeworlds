@@ -15,12 +15,15 @@ OBJS = mprintf.o PieceCollection.o StarSystem.o GameState.o SingleAction.o Whole
 AIOBJS = AllMoves.o AIMove.o AIStaticEval.o PlanetNames.o ${OBJS}
 TESTOBJS = PieceCollection.t.o StarSystem.t.o GameState.t.o WholeMove.t.o AllMoves.t.o AIStaticEval.t.o PlanetNames.t.o Retrograde.t.o
 
-all: annotate wxgui
+all: annotate count-successors wxgui
 
 test: test-core
 	./test-core
 
 annotate: annotatemain.o getline.o InferMove.o Retrograde.o ${AIOBJS}
+	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
+
+count-successors: countmain.o AllMoves.o PlanetNames.o ${OBJS}
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
 
 test-core: ${TESTOBJS} InferMove.o Retrograde.o ${AIOBJS}
