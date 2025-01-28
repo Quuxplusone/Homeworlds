@@ -21,16 +21,16 @@ test: test-core
 	./test-core
 
 homeworlds-cli: climain.o getline.o InferMove.o Retrograde.o ${AIOBJS}
-	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
+	${CXX} ${CFLAGS} ${CXXFLAGS} ${LDFLAGS} $^ -o $@
 
 count-successors: countmain.o AllMoves.o PlanetNames.o ${OBJS}
-	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
+	${CXX} ${CFLAGS} ${CXXFLAGS} ${LDFLAGS} $^ -o $@
 
 test-core: ${TESTOBJS} InferMove.o Retrograde.o ${AIOBJS}
-	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -lgtest -lgtest_main -o $@
+	${CXX} ${CFLAGS} ${CXXFLAGS} ${LDFLAGS} $^ -lgtest -lgtest_main -o $@
 
 homeworlds-wx: wxmain.o wxPiece.o wxSystem.o wxStash.o wxGalaxy.o wxMouse.o getline.o InferMove.o ${AIOBJS}
-	${CXX} ${CFLAGS} ${CXXFLAGS} $^ `wx-config --libs` -o $@
+	${CXX} ${CFLAGS} ${CXXFLAGS} ${LDFLAGS} $^ `wx-config --libs` -o $@
 
 getline.o: core-src/getline.c core-src/getline.h
 	${CC} ${CFLAGS} $< -c -o $@
