@@ -76,7 +76,7 @@ struct WholeMovePyObject {
             UniquePyObjectPtr repr_of_text = PyObject_Repr(text.get());
             UniquePyObjectPtr bytes_in_repr_of_text = PyUnicode_AsUTF8String(repr_of_text.get());
             const char *s = PyBytes_AsString(bytes_in_repr_of_text.get());
-            std::string result = "libannotate.WholeMove(" + std::string(s) + ")";
+            std::string result = "libhomeworlds.WholeMove(" + std::string(s) + ")";
             return Py_BuildValue("s", result.c_str());
         } catch (...) {
             turn_current_exception_into_python_exception();
@@ -132,11 +132,11 @@ PyObject *make_WholeMovePyObject_type()
 
     static PyTypeObject type = {
         PyVarObject_HEAD_INIT(NULL, 0)
-        "libannotate.WholeMove",  // tp_name
+        "libhomeworlds.WholeMove",  // tp_name
         sizeof(WholeMovePyObject),  // tp_basicsize
         0,        // tp_itemsize
         WholeMovePyObject::dealloc,  // tp_dealloc
-        nullptr,  // tp_print
+        0,        // tp_vectorcall_offset
         nullptr,  // tp_getattr
         nullptr,  // tp_setattr
         nullptr,  // tp_as_async

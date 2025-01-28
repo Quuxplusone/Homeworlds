@@ -9,7 +9,7 @@ newGame(PyObject *self, PyObject *args)
     return wrap_GameState_instance(std::move(st));
 }
 
-PyMODINIT_FUNC PyInit_libannotate()
+PyMODINIT_FUNC PyInit_libhomeworlds()
 {
     // https://docs.python.org/3/extending/extending.html#the-module-s-method-table-and-initialization-function
     static constexpr PyMethodDef methods[] = {
@@ -20,7 +20,7 @@ PyMODINIT_FUNC PyInit_libannotate()
     // https://docs.python.org/3/c-api/module.html
     static PyModuleDef module = {
         PyModuleDef_HEAD_INIT,
-        "libannotate",  // m_name
+        "libhomeworlds",  // m_name
         "AI for Binary Homeworlds, written in C++.",  // m_doc
         0,        // m_size
         const_cast<PyMethodDef*>(methods),  // m_methods

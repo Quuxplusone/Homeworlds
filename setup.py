@@ -4,8 +4,8 @@ from setuptools import setup
 from distutils.core import Extension
 
 setup(
-    name='libannotate',
-    version='0.0.1',
+    name='libhomeworlds',
+    version='1.1.0',
     install_requires=[
         # pip requirements go here; at the moment there are none
     ],
@@ -13,9 +13,9 @@ setup(
 
     ext_modules=[
         Extension(
-            'libannotate',
+            'libhomeworlds',
             sources=[
-                'pythonsrc/py-libannotate.cc',
+                'pythonsrc/py-libhomeworlds.cc',
                 'pythonsrc/py-wholemove.cc',
                 'pythonsrc/py-gamestate.cc',
                 'core-src/AIMove.cc',

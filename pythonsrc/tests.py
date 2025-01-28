@@ -1,15 +1,15 @@
 import copy
-import libannotate as L
+import libhomeworlds as L
 import unittest
 
 
-class TestLibannotate(unittest.TestCase):
+class TestLibhomeworlds(unittest.TestCase):
 
     def test_module_name(self):
-        self.assertEqual(L.__name__, 'libannotate')
+        self.assertEqual(L.__name__, 'libhomeworlds')
         with self.assertRaises(AttributeError) as e:
             L.nonexistent_method()
-        self.assertEqual(str(e.exception), "module 'libannotate' has no attribute 'nonexistent_method'")
+        self.assertEqual(str(e.exception), "module 'libhomeworlds' has no attribute 'nonexistent_method'")
 
     def test_newGame(self):
         self.assertEqual(L.newGame.__doc__, 'Return a GameState object representing a brand-new game.')
@@ -19,7 +19,7 @@ class TestLibannotate(unittest.TestCase):
         s = L.newGame()
         self.assertIsInstance(s, L.GameState)
         self.assertEqual(str(s), '')
-        self.assertEqual(repr(s), "libannotate.GameState('')")
+        self.assertEqual(repr(s), "libhomeworlds.GameState('')")
         self.assertEqual(s.gameIsOver(), True)
 
 
@@ -46,27 +46,27 @@ class TestWholeMove(unittest.TestCase):
         self.assertEqual(str(m), 'pass')
         self.assertEqual(m.toString(), 'pass')
         self.assertEqual(m.toSDGString(), 'pass')
-        self.assertEqual(repr(m), "libannotate.WholeMove('pass')")
+        self.assertEqual(repr(m), "libhomeworlds.WholeMove('pass')")
 
     def test_catastrophe(self):
         m = L.WholeMove('move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(str(m), 'move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(m.toString(), 'move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(m.toSDGString(), 'move y1 Alpha Beta; catastrophe Beta yellow')
-        self.assertEqual(repr(m), "libannotate.WholeMove('move y1 from Alpha to Beta; catastrophe yellow at Beta')")
+        self.assertEqual(repr(m), "libhomeworlds.WholeMove('move y1 from Alpha to Beta; catastrophe yellow at Beta')")
 
     def test_unused_sacrifice_actions(self):
         m = L.WholeMove('sac y3 at Alpha; move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(str(m), 'sacrifice y3 at Alpha; move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(m.toString(), 'sacrifice y3 at Alpha; move y1 from Alpha to Beta; catastrophe yellow at Beta')
         self.assertEqual(m.toSDGString(), 'sacrifice y3 Alpha; move y1 Alpha Beta; catastrophe Beta yellow; pass; pass')
-        self.assertEqual(repr(m), "libannotate.WholeMove('sacrifice y3 at Alpha; move y1 from Alpha to Beta; catastrophe yellow at Beta')")
+        self.assertEqual(repr(m), "libhomeworlds.WholeMove('sacrifice y3 at Alpha; move y1 from Alpha to Beta; catastrophe yellow at Beta')")
 
     def test_discover(self):
         m = L.WholeMove('move y1 from Alpha to Beta (b2)')
         self.assertEqual(m.toString(), 'move y1 from Alpha to Beta (b2)')
         self.assertEqual(m.toSDGString(), 'discover y1 Alpha b2 Beta')
-        self.assertEqual(repr(m), "libannotate.WholeMove('move y1 from Alpha to Beta (b2)')")
+        self.assertEqual(repr(m), "libhomeworlds.WholeMove('move y1 from Alpha to Beta (b2)')")
 
     def test_missing_pieces(self):
         m = L.WholeMove('catastrophe green at Widget; sac y3; move y1r2 from Alpha to Beta')
@@ -109,11 +109,11 @@ class TestGameState(unittest.TestCase):
         s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -r1y2')
         self.assertEqual(str(s), 'Foo (0, r1b3) g3-\nBar (1, y2b3) -r1y2\n')
         self.assertEqual(s.toString(), 'Foo (0, r1b3) g3-\nBar (1, y2b3) -r1y2\n')
-        self.assertEqual(repr(s), "libannotate.GameState('Foo (0, r1b3) g3-\\nBar (1, y2b3) -r1y2\\n')")
+        self.assertEqual(repr(s), "libhomeworlds.GameState('Foo (0, r1b3) g3-\\nBar (1, y2b3) -r1y2\\n')")
         s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -r1y2\n')
         self.assertEqual(str(s), 'Foo (0, r1b3) g3-\nBar (1, y2b3) -r1y2\n')
         self.assertEqual(s.toString(), 'Foo (0, r1b3) g3-\nBar (1, y2b3) -r1y2\n')
-        self.assertEqual(repr(s), "libannotate.GameState('Foo (0, r1b3) g3-\\nBar (1, y2b3) -r1y2\\n')")
+        self.assertEqual(repr(s), "libhomeworlds.GameState('Foo (0, r1b3) g3-\\nBar (1, y2b3) -r1y2\\n')")
 
     def test_mutating_apply(self):
         s = L.GameState('Foo (0,b3r1) g3-\n' + 'Bar(1,b3y2) -r1y2')
@@ -137,10 +137,10 @@ class TestGameState(unittest.TestCase):
         self.assertEqual(str(e.exception), "function takes exactly 2 arguments (0 given)")
         with self.assertRaises(TypeError) as e:
             s.apply(0, 'pass')
-        self.assertEqual(str(e.exception), "argument 2 must be libannotate.WholeMove, not str")
+        self.assertEqual(str(e.exception), "argument 2 must be libhomeworlds.WholeMove, not str")
         with self.assertRaises(TypeError) as e:
             s.apply(L.WholeMove('pass'), 0)
-        self.assertEqual(str(e.exception), "an integer is required (got type libannotate.WholeMove)")
+        self.assertEqual(str(e.exception), "an integer is required (got type libhomeworlds.WholeMove)")
         with self.assertRaises(ValueError) as e:
             s.apply(2, L.WholeMove('pass'))
         self.assertEqual(str(e.exception), "attacker must be 0 or 1")
@@ -170,10 +170,10 @@ class TestGameState(unittest.TestCase):
         self.assertEqual(str(e.exception), "function takes exactly 2 arguments (0 given)")
         with self.assertRaises(TypeError) as e:
             s.copyApply(0, 'pass')
-        self.assertEqual(str(e.exception), "argument 2 must be libannotate.WholeMove, not str")
+        self.assertEqual(str(e.exception), "argument 2 must be libhomeworlds.WholeMove, not str")
         with self.assertRaises(TypeError) as e:
             s.copyApply(L.WholeMove('pass'), 0)
-        self.assertEqual(str(e.exception), "an integer is required (got type libannotate.WholeMove)")
+        self.assertEqual(str(e.exception), "an integer is required (got type libhomeworlds.WholeMove)")
         with self.assertRaises(ValueError) as e:
             s.copyApply(2, L.WholeMove('pass'))
         self.assertEqual(str(e.exception), "attacker must be 0 or 1")

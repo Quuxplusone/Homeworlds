@@ -57,18 +57,22 @@ board, and then click "Done" to end your turn. The program will take care
 of figuring out what move you made to get from A to B.
 
 
-### `libannotate`, a Python extension
+### `libhomeworlds`, a Python extension
 
 Python and C++14 source code in `setup.py` and `pythonsrc/`.
+To install the Python module using `pip`, run either of these two lines:
+
+    pip install -r pythonsrc/sample-requirements.txt
+    pip install -e git+git://github.com/Quuxplusone/Homeworlds.git@v1.1.0#egg=libhomeworlds
 
 This Python extension wraps up the C++ library code into a much simpler and cleaner
 Python module with just a few high-level entry points. Python class types are
 provided only for `GameState` and `WholeMove`.
 
-    import libannotate
-    st = libannotate.GameState('Foo (0,b3r1) g1g3-\nBar(1,b3y2) -g3')
+    import libhomeworlds
+    st = libhomeworlds.GameState('Foo (0,b3r1) g1g3-\nBar(1,b3y2) -g3')
     m = st.getBestMove(0)
-    print (m.toString())
+    print(m.toString())
 
 For more examples of usage, see `pythonsrc/tests.py`.
 
@@ -80,7 +84,7 @@ Python source code and text files in `superdupergames-archive/`.
 A partial mirror of the [SuperDuperGames.org](http://superdupergames.org)
 game archive, containing over 700 game transcripts to date.
 Includes a Python script to translate the archive games from SDG's format
-into the format expected by `homeworlds-cli` and `libannotate`.
+into the format expected by `homeworlds-cli` and `libhomeworlds`.
 
 
 ## Patches wanted
