@@ -62,10 +62,10 @@ def whereof(s):
         return x.title()
 
 def wholemoveof(actions):
-    # SDG allows catastrophes in any position; "annotate" allows them only at the end of either player's turn.
+    # SDG allows catastrophes in any position; "homeworlds-cli" allows them only at the end of either player's turn.
     # Games 34464, 34480 have non-leading, non-trailing catastrophes that might as well be trailing.
     # Game 33134 has a non-leading, non-trailing catastrophe that can't be either leading or trailing!
-    # Rather than move the catastrophes around, let's just leave them alone and let "annotate" reject the move.
+    # Rather than move the catastrophes around, let's just leave them alone and let "homeworlds-cli" reject the move.
     actions = [a for a in actions if a != 'pass']
     return '; '.join(actions) or 'pass'
 
@@ -223,7 +223,7 @@ def cook_moves(gamenumber, participants, lines):
 
 def verify_cooked_transcript(cookedlines):
     p = subprocess.Popen(
-        ['../annotate', '--verify'],
+        ['../homeworlds-cli', '--verify'],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
@@ -289,14 +289,14 @@ def cook_raw_file(infile_name, ignored_games):
 
     outfile_name = infile_name.replace('.raw', '.cooked')
 
-    # Verify our cooked sequence of moves by spawning an "annotate" process.
+    # Verify our cooked sequence of moves by spawning a "homeworlds-cli" process.
     failed, cookedlines, keys = attempt_common_fixups(cookedlines, set())
 
     if failed and not keys:
         # Try to categorize this game at least a little bit.
         failed, out = verify_cooked_transcript(cookedlines)
         assert failed
-        print ('Game %d: annotate --verify complained:' % gamenumber)
+        print ('Game %d: homeworlds-cli --verify complained:' % gamenumber)
 
         failure_patterns = [
             (

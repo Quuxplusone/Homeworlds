@@ -16,7 +16,7 @@ This will produce two kinds of output files:
 
     $GAMENUMBER.cooked
 
-These files can be run through "../annotate --verify" cleanly.
+These files can be run through "../homeworlds-cli --verify" cleanly.
 The "cook.py" script may have made some minor adjustments to them;
 for example, eliminating a final "suicide" move at the end of the
 game, or repositioning catastrophes to occur in the end-of-turn
@@ -24,7 +24,7 @@ position. "cook.py" will explain when it does something like this.
 
     $GAMENUMBER.cooked-but-invalid
 
-These files are not cleanly accepted by "../annotate --verify",
+These files are not cleanly accepted by "../homeworlds-cli --verify",
 usually because they exploit SDG's different game logic regarding
 catastrophes. The exact reason for rejecting these games is
 explained either by "cook.py" or by the commit message for

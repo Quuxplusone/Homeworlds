@@ -34,7 +34,7 @@ It also includes these facilities:
     the current `GameState`
 
 
-### `annotate`, a command-line game analyzer
+### `homeworlds-cli`, a command-line game analyzer
 
 C++14 source code in `core-src/`.
 
@@ -47,7 +47,7 @@ To run the C++ unit tests, first install GTest
 and then run `make test`.
 
 
-### `wxgui`, a graphical game interface
+### `homeworlds-wx`, a graphical game interface
 
 C++14 source code in `wxgui-src/`.
 
@@ -80,7 +80,7 @@ Python source code and text files in `superdupergames-archive/`.
 A partial mirror of the [SuperDuperGames.org](http://superdupergames.org)
 game archive, containing over 700 game transcripts to date.
 Includes a Python script to translate the archive games from SDG's format
-into the format expected by `annotate` and `libannotate`.
+into the format expected by `homeworlds-cli` and `libannotate`.
 
 
 ## Patches wanted

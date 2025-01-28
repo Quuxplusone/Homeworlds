@@ -15,12 +15,12 @@ OBJS = mprintf.o PieceCollection.o StarSystem.o GameState.o SingleAction.o Whole
 AIOBJS = AllMoves.o AIMove.o AIStaticEval.o PlanetNames.o ${OBJS}
 TESTOBJS = PieceCollection.t.o StarSystem.t.o GameState.t.o WholeMove.t.o AllMoves.t.o AIStaticEval.t.o PlanetNames.t.o Retrograde.t.o
 
-all: annotate count-successors wxgui
+all: count-successors homeworlds-cli homeworlds-wx
 
 test: test-core
 	./test-core
 
-annotate: annotatemain.o getline.o InferMove.o Retrograde.o ${AIOBJS}
+homeworlds-cli: climain.o getline.o InferMove.o Retrograde.o ${AIOBJS}
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -o $@
 
 count-successors: countmain.o AllMoves.o PlanetNames.o ${OBJS}
@@ -29,7 +29,7 @@ count-successors: countmain.o AllMoves.o PlanetNames.o ${OBJS}
 test-core: ${TESTOBJS} InferMove.o Retrograde.o ${AIOBJS}
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ -lgtest -lgtest_main -o $@
 
-wxgui: wxmain.o wxPiece.o wxSystem.o wxStash.o wxGalaxy.o wxMouse.o getline.o InferMove.o ${AIOBJS}
+homeworlds-wx: wxmain.o wxPiece.o wxSystem.o wxStash.o wxGalaxy.o wxMouse.o getline.o InferMove.o ${AIOBJS}
 	${CXX} ${CFLAGS} ${CXXFLAGS} $^ `wx-config --libs` -o $@
 
 getline.o: core-src/getline.c core-src/getline.h
@@ -42,6 +42,6 @@ getline.o: core-src/getline.c core-src/getline.h
 	${CXX} ${CFLAGS} ${CXXFLAGS} $< `wx-config --cppflags` -Wno-potentially-evaluated-expression -c -o $@
 
 clean:
-	rm -f *.o annotate wxgui test-core
+	rm -f *.o count-successors homeworlds-cli homeworlds-wx test-core
 
 .PHONY: all clean test

@@ -13,12 +13,12 @@ the Creative Commons BSD License, with the following two restrictions:
    license condition is pretty much intended to prevent people from
    "cheating" on SuperDuperGames. (However, I would hope that anyone
    smart enough to write a decent Homeworlds player wouldn't really
-   do anything dubious with it. And the AI on "annotate" at the moment
-   is much weaker than even a weak human player.)
+   do anything dubious with it. And the AI on "homeworlds-cli" at
+   the moment is much weaker than even a weak human player.)
 
 http://creativecommons.org/licenses/BSD/
 
-Copyright 2011–2019 Arthur O'Dwyer
+Copyright 2011–2025 Arthur O'Dwyer
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:

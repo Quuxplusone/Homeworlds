@@ -1,5 +1,6 @@
 *.o
-annotate
+count-successors
+homeworlds-cli
+homeworlds-wx
 test-core
-wxgui
 /build/

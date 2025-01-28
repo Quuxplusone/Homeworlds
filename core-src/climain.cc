@@ -725,7 +725,7 @@ int main(int argc, char **argv)
     GameState initialState;
 
     if (auto_setup && arg_index == argc) {
-        /* "annotate --auto" means that the input will be in the form of a
+        /* "homeworlds-cli --auto" means that the input will be in the form of a
          * game transcript, and we should be quiet instead of verbose. */
         g_Verbose = false;
         std::string firstline = initialState.scan(stdin);
@@ -750,7 +750,7 @@ int main(int argc, char **argv)
         }
         g_playerNames[1] = hw->name;
     } else if (!auto_setup && arg_index+2 == argc) {
-        /* "annotate Sam Dave" means that the input will be entered via the
+        /* "homeworlds-cli Sam Dave" means that the input will be entered via the
          * keyboard as the game progresses, and we should be verbose
          * (acknowledging valid moves, prompting the user to re-enter invalid
          * moves, et cetera). */
@@ -777,11 +777,11 @@ int main(int argc, char **argv)
     } else {
         do_error("Incorrect command-line arguments.\n"
                  "The recognized command lines are:\n"
-                 "  annotate Sam Dave        verbosely set up a new game between Sam and Dave\n"
-                 "  annotate --auto          read a game state, then start up in brief mode\n"
-                 "  annotate --verify        same as --auto, but error out on any illegal move\n"
-                 "  annotate --blunders      same as --auto, but error out on any bad-looking move\n"
-                 "  annotate --seed 42 ...   seed the random number generator");
+                 "  homeworlds-cli Sam Dave        verbosely set up a new game between Sam and Dave\n"
+                 "  homeworlds-cli --auto          read a game state, then start up in brief mode\n"
+                 "  homeworlds-cli --verify        same as --auto, but error out on any illegal move\n"
+                 "  homeworlds-cli --blunders      same as --auto, but error out on any bad-looking move\n"
+                 "  homeworlds-cli --seed 42 ...   seed the random number generator");
     }
 
     g_History.setup(initialState);
