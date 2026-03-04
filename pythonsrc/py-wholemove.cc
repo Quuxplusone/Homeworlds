@@ -1,5 +1,6 @@
 #include <Python.h>
 #include <string>
+#include <utility>
 #include "core-src/WholeMove.h"
 #include "pythonsrc/glue.h"
 

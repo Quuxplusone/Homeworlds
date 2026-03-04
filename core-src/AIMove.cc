@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <algorithm>
 #include <functional>
+#include <utility>
 #include <vector>
 #include "state.h"
 #include "AI.h"

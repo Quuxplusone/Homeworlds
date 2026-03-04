@@ -1,9 +1,10 @@
 
 #include <assert.h>
-#include <string.h>
 #include <atomic>
+#include <string.h>
 #include <string>
 #include <unordered_set>
+#include <utility>
 #include <vector>
 #include "state.h"
 #include "AllMoves.h"

@@ -1,5 +1,6 @@
 #include <Python.h>
 #include <string>
+#include <utility>
 #include "core-src/state.h"
 #include "core-src/AI.h"
 #include "core-src/ApplyMove.h"

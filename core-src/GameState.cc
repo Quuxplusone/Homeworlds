@@ -1,9 +1,10 @@
 
+#include <algorithm>
 #include <assert.h>
 #include <ctype.h>
 #include <stdio.h>
-#include <algorithm>
 #include <string>
+#include <utility>
 #include <vector>
 #include "state.h"
 
